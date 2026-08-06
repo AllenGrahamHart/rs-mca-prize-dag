@@ -1,0 +1,412 @@
+==============================================================================
+ROUND 16 -- THE AX-KATZ / CHEVALLEY-WARNING TRANSFER ON (ES)
+==============================================================================
+
+==============================================================================
+[K0] VALIDATION of the Ax-Katz exponent and Warning's 2nd theorem
+==============================================================================
+Ax-Katz (Katz 1971):  q^mu | |V|,  mu = ceil((N - sum d_j)/max d_j)
+Warning-2:            sum d_j < N and V != {}  =>  |V| >= q^{N-sum d}
+
+  144 random systems brute-forced, 144 of them with mu >= 1.
+  Ax-Katz violations: 0.   Warning-2 violations: 0.
+  => the exponent formula and the Warning bound are implemented
+     correctly and are used unchanged in [K2]-[K6].
+
+==============================================================================
+[K1] THE ALGEBRAIZATION (A1): ALG-I indicator and ALG-L locator
+==============================================================================
+
+------------------------------------------------------------------------------
+[K1a] the banked DP == the weight-profile DP == full brute force
+------------------------------------------------------------------------------
+  (n,p) = (8,17),(8,41),(16,17),(4,13); w = 2,3; every r':
+  64 cells, all three counters agree.  The round-15 syndrome DP
+  is the ground truth used below.
+
+------------------------------------------------------------------------------
+[K1b] ALG-L: the locator system E*F = X^n - 1 counts |W_w| EXACTLY
+------------------------------------------------------------------------------
+  variables: the r' non-leading coefficients of monic E (deg r')
+  and the n-r' non-leading coefficients of monic F (deg n-r');
+  equations: the n coefficient identities of E*F = X^n - 1, each
+  of degree 2 (bilinear), plus the window forms (degree 1) on E.
+  A monic E of degree r' extends to a solution iff E | X^n - 1,
+  and then F is unique -- so the point count is the number of
+  size-r' subsets of mu_n meeting the window.
+
+  n    p    w   r'   ALG-L count    |W_w| (DP)    
+  8    17   2   1    0              0             
+  8    17   3   1    0              0             
+  8    17   2   2    4              4             
+  8    17   3   2    0              0             
+  8    17   2   3    0              0             
+  8    17   3   3    0              0             
+  8    17   2   4    6              6             
+  8    17   3   4    2              2             
+  8    41   2   1    0              0             
+  8    41   3   1    0              0             
+  8    41   2   2    4              4             
+  8    41   3   2    0              0             
+  8    41   2   3    0              0             
+  8    41   3   3    0              0             
+  4    13   2   1    0              0             
+  4    13   3   1    0              0             
+  4    13   2   2    2              2             
+  4    13   3   2    0              0             
+  4    13   2   3    0              0             
+  4    13   3   3    0              0             
+  20 fixtures, 0 mismatches.
+  ALG-L IS AN EXACT ALGEBRAIZATION.  (It also re-verifies Newton
+  invertibility: the ELEMENTARY-symmetric prefix e_1..e_{w-1} = 0
+  and the POWER-SUM prefix agree at every fixture, since p > w.)
+  ALG-L has NO weight equation: deg E = r' is built into the
+  variable set, so it is exact at every row, with or without p > n.
+
+------------------------------------------------------------------------------
+[K1c] ALG-I: exact iff p > n -- the weight-aliasing failure
+------------------------------------------------------------------------------
+  ALG-I's weight form sum_i x_i - r' pins wt(x) only MOD p, so its
+  F_q-point count is sum over j = r' (mod p) of |W_w^{(j)}|.
+  p > n is FORCED when delta = 1 (n | p-1 => p >= n+1): no
+  aliasing, verified in 96 cells.
+  witness n = 8, p = 7 (delta = ord_8(7) = 2, so p < n), w = 2:
+  weight profile of {x in {0,1}^8 : sum x_i zeta^i = 0 in F_49}
+    = [1, 0, 4, 0, 6, 0, 4, 0, 1]
+  r' = 1: |W_w| = 0 but the ALG-I system has 1 F_q-points.
+  CATCH: at the prize rows delta in {2,4} admits p < n = 2^41
+  (p ~ 2^40 for delta = 2), so ALG-I is NOT an exact algebraization
+  there; ALG-L is.  Row numbers below are reported for BOTH, with
+  ALG-L load-bearing.
+
+==============================================================================
+[K2] THE AX-KATZ EXPONENT mu, EXACT, AT THE FOUR ROWS OF RECORD
+==============================================================================
+formula (pre-registered, P0): mu = ceil((N - sum_j d_j)/max_j d_j),
+and q^mu | |V|.  Chevalley-Warning bites iff sum_j d_j < N.
+
+ALG-I extension (over F_q):  N = n; degrees = n copies of 2 (the
+   0/1 quadrics) + nforms copies of 1 (window) + 1 (weight).
+ALG-I base-field (over F_p): same with nforms -> |Z_w|,
+   |Z_w| in [w-1, delta(w-1)].
+ALG-L extension (over F_q):  N = n; degrees = n copies of 2 +
+   nforms copies of 1.
+ALG-L prefix (over F_q):  for a PREFIX window the nforms forced-
+   zero coefficients are eliminated outright: N = n - nforms and
+   NO linear equations -- the best reading available anywhere.
+
+row                      mu (ALG-I ext)    mu (ALG-L ext)    mu (ALG-L pfx)   
+------------------------------------------------------------------------------
+crossing w=2^34          -1108101562368    -1108101562367    -1108101562367   
+crossing w=2^35          -1116691496960    -1116691496959    -1116691496959   
+crossing w=2^36          -1133871366144    -1133871366143    -1133871366143   
+crossing w=2^37          -1168231104512    -1168231104511    -1168231104511   
+crossing w=2^38          -1236950581248    -1236950581247    -1236950581247   
+crossing w=2^39          -1374389534720    -1374389534719    -1374389534719   
+band 1/4 d=4294967297    -1103806595073    -1103806595073    -1103806595073   
+band 1/4 d=8589934591    -1108101562367    -1108101562367    -1108101562367   
+band 1/8 d=4294967297    -1103806595073    -1103806595073    -1103806595073   
+band 1/8 d=8589934591    -1108101562367    -1108101562367    -1108101562367   
+band 1/16 d=2147483649   -1101659111425    -1101659111425    -1101659111425   
+band 1/16 d=4294967295   -1103806595071    -1103806595071    -1103806595071   
+
+EVERY exponent is negative.  Closed forms:
+  ALG-I ext:  mu = -floor((n + nforms + 1)/2)
+  ALG-L ext:  mu = -floor((n + nforms)/2)
+  ALG-L pfx:  mu = -floor((n + nforms)/2)   [N = n - nforms]
+
+------------------------------------------------------------------------------
+[K2b] the Chevalley-Warning deficit, exactly and in bits
+------------------------------------------------------------------------------
+  CW needs sum_j d_j < N.  DEFICIT := sum d_j - N + 1 = the total
+  degree that must be REMOVED for CW to bite at all.
+  GAP1 := sum d_j - N + max d_j = removal needed for mu >= 1.
+  (Both quoted for the BEST reading, ALG-L prefix.)
+
+  row                      CW deficit             log2       GAP1 (mu >= 1)        
+  crossing w=2^34          2216203124736          41.01123   2216203124737         
+  crossing w=2^35          2233382993920          41.02237   2233382993921         
+  crossing w=2^36          2267742732288          41.04439   2267742732289         
+  crossing w=2^37          2336462209024          41.08746   2336462209025         
+  crossing w=2^38          2473901162496          41.16993   2473901162497         
+  crossing w=2^39          2748779069440          41.32193   2748779069441         
+  band 1/4 d=4294967297    2207613190147          41.00562   2207613190148         
+  band 1/4 d=8589934591    2216203124735          41.01123   2216203124736         
+  band 1/8 d=4294967297    2207613190147          41.00562   2207613190148         
+  band 1/8 d=8589934591    2216203124735          41.01123   2216203124736         
+  band 1/16 d=2147483649   2203318222851          41.00282   2203318222852         
+  band 1/16 d=4294967295   2207613190143          41.00562   2207613190144         
+
+  Every row is short by 2^41.0 -- 2^41.3 degree-units: the system
+  is over-determined by a factor sum d / N > 2 where Ax-Katz needs
+  < 1.  Compare the round-15 Weil/C-U vacuity at the same rows,
+  13.5 - 107 bits.  AX-KATZ IS VACUOUS BY ~41 BITS OF DEFICIT --
+  and the deficit is MULTIPLICATIVE in the wrong direction, not a
+  near miss.
+
+------------------------------------------------------------------------------
+[K2c] base-field reading: the |Z_w| dependence
+------------------------------------------------------------------------------
+  |Z_w| in [w-1, delta(w-1)], delta in {1,2,4}.  The base-field
+  exponent mu_p = -floor((n + |Z_w| + 1)/2) DOES depend on the
+  defining set -- but only through |Z_w|, and MONOTONICALLY
+  DOWNWARD: a larger p-cyclotomic closure makes it strictly WORSE.
+
+  row                      mu_p at |Z| = w-1        mu_p at |Z| = 4(w-1)    
+  crossing w=2^34          -1108101562368           -1133871366142          
+  crossing w=2^35          -1116691496960           -1168231104510          
+  crossing w=2^36          -1133871366144           -1236950581246          
+  crossing w=2^37          -1168231104512           -1374389534718          
+  crossing w=2^38          -1236950581248           -1649267441662          
+  crossing w=2^39          -1374389534720           -2199023255550          
+  Both ends negative: the whole interval is vacuous, and the only
+  defining-set sensitivity that exists points the wrong way.
+
+==============================================================================
+[K3] THE TWO STRUCTURAL OBSTRUCTIONS (P2b, P2c)
+==============================================================================
+
+------------------------------------------------------------------------------
+[K3a] the (ES) target at each row -- LEMMA Z's |W^struct|
+------------------------------------------------------------------------------
+  LEMMA Z (round-15, banked): W^struct is nonempty iff M | r', and
+  then |W^struct| = C(n/M, r'/M), M = least power of two >= w.
+
+  row                      L = n/M   M | r' ?  |W^struct| = C(L, r'/M)     
+  crossing w=2^34          128       yes       23582666872052266206656578733667004800
+  crossing w=2^35          64        yes       1777090076065542336         
+  crossing w=2^36          32        yes       565722720                   
+  crossing w=2^37          16        yes       11440                       
+  crossing w=2^38          8         yes       56                          
+  crossing w=2^39          4         yes       4                           
+  band 1/4 d=4294967297    256       NO        0  (FAMILY EMPTY)           
+  band 1/4 d=8589934591    256       NO        0  (FAMILY EMPTY)           
+  band 1/8 d=4294967297    256       NO        0  (FAMILY EMPTY)           
+  band 1/8 d=8589934591    256       NO        0  (FAMILY EMPTY)           
+  band 1/16 d=2147483649   512       NO        0  (FAMILY EMPTY)           
+  band 1/16 d=4294967295   512       NO        0  (FAMILY EMPTY)           
+
+  CONSEQUENCE: the CROSSING target is a positive integer; the
+  three BAND targets are genuine VANISHING statements.  The two
+  obstructions below apply to the crossing rows; the band rows go
+  to [K6].
+
+------------------------------------------------------------------------------
+[K3b] P2b -- the p-adic UNIT obstruction at the crossing rows
+------------------------------------------------------------------------------
+  Every prime factor of C(L, j) is <= L (a prime > L divides no
+  factor of L!).  Here L = n/M <= 2^7 = 128, while p >= 2^39 + 1.
+
+  row                      |W^struct|                               max prime log2      
+  crossing w=2^34          23582666872052266206656578733667004800   127       124.1491  
+  crossing w=2^35          1777090076065542336                      61        60.6242   
+  crossing w=2^36          565722720                                31        29.0755   
+  crossing w=2^37          11440                                    13        13.4818   
+  crossing w=2^38          56                                       7         5.8074    
+  crossing w=2^39          4                                        2         2.0000    
+
+  => p does NOT divide the (ES) target, at ANY crossing row, for
+     ANY admissible p, with no case split on delta.  Therefore a
+     true statement 'p | |W_w|' is LOGICALLY EQUIVALENT to
+     '|W_w| != |W^struct|', i.e. to the EXISTENCE of accidents.
+     p-divisibility here is an ACCIDENT-EXISTENCE theorem.  It can
+     only REFUTE (ES); it can never prove it.
+
+------------------------------------------------------------------------------
+[K3c] P2c -- the WARNING obstruction (kills ALL exact encodings)
+------------------------------------------------------------------------------
+  Warning-2 (validated in [K0]): sum d < N and V != {} =>
+  |V| >= q^{N - sum d}.  Hence for ANY polynomial system over F_q
+  whose F_q-point count equals |W_w| EXACTLY: if 0 < |W_w| < q
+  then N - sum d <= 0, so mu = ceil((N - sum d)/max d) <= 0.
+
+  max over crossing rows of |W^struct| = C(128,63)
+    = 23582666872052266206656578733667004800
+    log2 = 124.1491   vs   log2 q > 255.900
+
+  => UNDER (ES), NO EXACT ALGEBRAIZATION OF THE CROSSING COUNT --
+     not ALG-I, not ALG-L, not any system anyone will ever write
+     down -- CAN HAVE A POSITIVE AX-KATZ EXPONENT.  The vacuity is
+     not an artefact of our encoding; it is FORCED.
+
+  NAMED ESCAPE HATCH (registered, and closed here): a FIBERED
+  encoding with point count c*|W_w|.  Then q^mu | c*|W_w| is
+  consistent -- but by [K3b] gcd(|W_w|, p) = 1 under (ES), so
+  q^mu | c.  ALL the divisibility sits in the fibre, where it says
+  nothing about |W_w|.  The hatch is information-free.
+
+------------------------------------------------------------------------------
+[K3d] the same obstruction run against the SHARPEST refinements
+------------------------------------------------------------------------------
+  Moreno-Moreno replaces each d_j by its p-weight degree (sum of
+  p-adic digit sums of the exponents).  Every degree in play is 1
+  or 2 and p >= 2^39 + 1, so every p-adic digit sum equals the
+  degree itself: MM gives EXACTLY the same mu.
+  Adolphson-Sperber and Wan sharpen the EXPONENT via the Newton
+  polyhedron, but their conclusion has the same SHAPE, 'p^mu |
+  count'.  By [K3b] the target is a p-adic UNIT, so no sharpening
+  of mu can rescue the family.  The whole p-divisibility toolkit
+  -- Chevalley-Warning, Ax, Katz, Ax-Katz, Moreno-Moreno,
+  Adolphson-Sperber, Wan, McEliece -- is cut in ONE stroke.
+
+==============================================================================
+[K4] P2d/P2e -- INSENSITIVITY ON THE ROUND-15 SEPARATING WITNESS
+==============================================================================
+  round-15 route cut: same (n, k, p) = (16, 14, 17), hence
+  IDENTICAL MDS weight enumerator / MacWilliams dual / Krawtchouk-
+  Delsarte data, but DIFFERENT 0/1 counts.  Does Ax-Katz see it?
+  r' = 7 is the pair the round-15 audit cites (32 vs 0); r' = 8 is
+  verify_transfercut.py's [T4] row, replayed here (54/98/22/276).
+
+  r'   defining set   |W_w|     |Z|    mu (ALG-I ext)   mu (ALG-L pfx)   McE ell 
+  7    [1, 2]         32        2      -9               -9               1       
+  7    [2, 3]         32        2      -9               -9               1       
+  7    [3, 4]         0         2      -9               -9               1       
+  7    [4, 5]         0         2      -9               -9               1       
+  7    [5, 6]         16        2      -9               -9               1       
+  7    [6, 7]         16        2      -9               -9               1       
+  7    [7, 8]         0         2      -9               -9               1       
+  8    [1, 2]         54        2      -9               -9               1       
+  8    [2, 3]         54        2      -9               -9               1       
+  8    [3, 4]         98        2      -9               -9               1       
+  8    [4, 5]         98        2      -9               -9               1       
+  8    [5, 6]         22        2      -9               -9               1       
+  8    [6, 7]         54        2      -9               -9               1       
+  8    [7, 8]         276       2      -9               -9               1       
+
+  counts   [0, 16, 22, 32, 54, 98, 276]   <- SEPARATE
+  mu       [-9]   <- CONSTANT
+  |Z|      [2]   <- CONSTANT
+  every NONZERO count [16, 22, 32, 54, 98, 276] is coprime to p = 17.
+  VERDICT COMPONENT (iii): the Ax-Katz exponent is a function of
+  (n, #forms, degrees) ONLY.  It is CONSTANT on precisely the
+  family that separates the terminal.  The hoped-for 'p-divisi-
+  bility is sensitive to defining sets' is NOT realised here.
+
+------------------------------------------------------------------------------
+[K4b] McEliece at the four rows of record
+------------------------------------------------------------------------------
+  McEliece: p^{ell-1} divides every weight, ell = least number of
+  NONZEROS (repetitions allowed) whose product is 1.
+  Our defining set is Z_w = the p-closure of {1,...,w-1}.  0 is
+  never in it (0*p^j = 0, and 0 is not in {1,...,w-1}), so
+  zeta^0 = 1 IS a nonzero of the code, ell = 1, and McEliece gives
+  p^0 = 1.
+  verified on 6 fixtures; the argument is uniform in (n, p, w) and
+  applies verbatim at n = 2^41.  McEliece: VACUOUS AT EVERY ROW,
+  and vacuous for every SHIFTED defining set too (any a >= 1 keeps
+  0 out of the closure).  The ONE classical p-divisibility theorem
+  that IS defining-set-sensitive is sensitive through a quantity
+  (ell) pinned at its trivial value on this whole family.
+
+==============================================================================
+[K5] CALIBRATION (A4) + THE ADVERSARIAL CHECK (PREREG 3, clause 2)
+==============================================================================
+  For each fixture: the exact |W_w| (banked machinery), the
+  Ax-Katz prediction, and whether p ACTUALLY divides the count.
+
+  n     p      w    r'   |W_w|         mu        q^mu | ?    p | |W_w| ?
+  8     17     2    2    4             -4        TRIVIAL     no         
+  8     17     2    3    0             -4        TRIVIAL     YES        
+  8     17     2    4    6             -4        TRIVIAL     no         
+  8     17     3    2    0             -5        TRIVIAL     YES        
+  8     17     3    3    0             -5        TRIVIAL     YES        
+  8     17     3    4    2             -5        TRIVIAL     no         
+  8     41     2    2    4             -4        TRIVIAL     no         
+  8     41     2    3    0             -4        TRIVIAL     YES        
+  8     41     2    4    6             -4        TRIVIAL     no         
+  8     41     3    2    0             -5        TRIVIAL     YES        
+  8     41     3    3    0             -5        TRIVIAL     YES        
+  8     41     3    4    2             -5        TRIVIAL     no         
+  16    17     2    4    108           -8        TRIVIAL     no         
+  16    17     2    7    672           -8        TRIVIAL     no         
+  16    17     2    8    758           -8        TRIVIAL     no         
+  16    17     3    4    4             -9        TRIVIAL     no         
+  16    17     3    7    32            -9        TRIVIAL     no         
+  16    17     3    8    54            -9        TRIVIAL     no         
+  16    97     2    4    44            -8        TRIVIAL     no         
+  16    97     2    7    64            -8        TRIVIAL     no         
+  16    97     2    8    198           -8        TRIVIAL     no         
+  16    97     3    4    4             -9        TRIVIAL     no         
+  16    97     3    7    0             -9        TRIVIAL     YES        
+  16    97     3    8    6             -9        TRIVIAL     no         
+  4     13     2    1    0             -2        TRIVIAL     YES        
+  4     13     2    2    2             -2        TRIVIAL     no         
+  4     13     3    1    0             -3        TRIVIAL     YES        
+  4     13     3    2    0             -3        TRIVIAL     YES        
+  16    113    2    4    28            -8        TRIVIAL     no         
+  16    113    2    7    112           -8        TRIVIAL     no         
+  16    113    2    8    102           -8        TRIVIAL     no         
+  16    113    3    4    4             -9        TRIVIAL     no         
+  16    113    3    7    0             -9        TRIVIAL     YES        
+  16    113    3    8    6             -9        TRIVIAL     no         
+
+  11 of 34 fixtures have p | |W_w| -- but 11 of those 11 are the
+  TRIVIAL case |W_w| = 0.  Among the 23 fixtures with a NONZERO
+  count, p divides it in 0.
+  The Ax-Katz prediction is TRUE at every fixture -- because at
+  every fixture mu <= 0, and 'q^0 divides N' is true of EVERY
+  integer.  It is true and EMPTY.  Meanwhile p divides NO nonzero
+  count anywhere in the sweep: there is no p-divisibility here to
+  be found, at any row, vacuous exponent or not.
+
+------------------------------------------------------------------------------
+[K5b] the adversarial check required by PREREG section 3 clause 2
+------------------------------------------------------------------------------
+  n=16, p=17, w=3, r'=8:  |W_w| = 54, |W^struct| = C(4,2) = 6,
+  so |W^acc| = 48 accidental members.  Ax-Katz mu = -9.
+    divisibility satisfied by |W^struct|                 : True
+    divisibility satisfied by |W^struct| + 1 accident    : True
+    divisibility satisfied by the TRUE count             : True
+  All three satisfy it identically.  By the pre-registered rule
+  (PREREG 3, clause 2) this alone forces verdict (iii) over (i).
+
+  Honest scope split: this toy sits far BELOW balance
+  (C(16,8)/p^{|Z|} = 44.5), so accidents abound here, unlike the
+  prize rows.  The toy kills the ROW-LEVEL divisibility claim, not
+  the method; the METHOD is killed by [K3b]/[K3c].
+
+==============================================================================
+[K6] THE ONE LIVE SHAPE (P3): divisibility + upper bound => 0
+==============================================================================
+  If q^mu | |W| with mu >= 1 AND independently |W| < q^mu, then
+  |W| = 0.  This is the ONLY shape in which a p-divisibility
+  theorem can PROVE a suppression statement, and it is the
+  relevant one at the three BAND rows, where [K3a] showed the
+  structural family is EMPTY -- i.e. the target IS a vanishing.
+
+  Ingredient 1: mu >= 1.  Ingredient 2: an UNCONDITIONAL upper
+  bound U on |W| with U < q^mu.  The only unconditional bound is
+  U = C(n, r').  Needed exponent: mu > log2(U)/log2(q).
+
+  row                      log2 C(n,r')       mu needed        mu available      
+  crossing w=2^34          2.198636e+12       8591777919       -1108101562367    
+  crossing w=2^35          2.197474e+12       8587236895       -1116691496959    
+  crossing w=2^36          2.192823e+12       8569061693       -1133871366143    
+  crossing w=2^37          2.174173e+12       8496182070       -1168231104511    
+  crossing w=2^38          2.098823e+12       8201729458       -1236950581247    
+  crossing w=2^39          1.784019e+12       6971549287       -1374389534719    
+  band 1/4 d=4294967297    1.790795e+12       6998025040       -1103806595073    
+  band 1/4 d=8589934591    1.797506e+12       7024249866       -1108101562367    
+  band 1/8 d=4294967297    1.207313e+12       4717910394       -1103806595073    
+  band 1/8 d=8589934591    1.219206e+12       4764386456       -1108101562367    
+  band 1/16 d=2147483649   7.50073e+11        2931117587       -1101659111425    
+  band 1/16 d=4294967295   7.583864e+11       2963604471       -1103806595071    
+
+  (log2 C(n,r') via lgamma; absolute error << 1 bit on a 2.2e12-bit
+   quantity, immaterial.)
+
+  BOTH ingredients fail, by enormous margins:
+   - ingredient 1 fails by ~2^41 degree-units ([K2b]);
+   - ingredient 2 needs mu ~ 8.6e9 while mu available is ~ -1.1e12.
+
+  WORTH BANKING: with ONLY mu >= 1 plus the band's OWN budget
+  0.68 n^2 = 2^81.442 as an a priori bound, the route WOULD close,
+  because 2^81.442 < q^1 (q > 2^255.900).  So the entire gap is in
+  INGREDIENT 1.  The band rows are the only place in the terminal
+  where a p-divisibility theorem could ever have been decisive,
+  and there it needs only mu >= 1 -- short by 2^41.
+
+==============================================================================
+checks run: 32   failures: 0
+==============================================================================

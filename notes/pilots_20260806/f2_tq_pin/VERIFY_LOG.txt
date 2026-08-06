@@ -1,0 +1,216 @@
+==========================================================================
+S1  KoalaBear tower constants (the row of record in the F2 lane)
+==========================================================================
+  [PASS] S1.1 p = 2^31-2^24+1 = 2130706433
+  [PASS] S1.2 p is prime
+  [PASS] S1.3 p-1 = 2^24 * 127 exactly (v_2 = 24)
+  [PASS] S1.4 log2 p = 30.988685 reproduces the banked 30.988685
+  [PASS] S1.5 ord_{2^40}(p) = 2^16 (banked: 2^16)
+
+==========================================================================
+S2  (Q1) THE FIELD-CAP TEST -- is the 16-rung tower prize-admissible?
+==========================================================================
+  rung j : log2 q_j = 2^j * log2 p   vs cap 256
+     j= 1 : log2 q_j =             61.977   ADMISSIBLE
+     j= 2 : log2 q_j =            123.955   ADMISSIBLE
+     j= 3 : log2 q_j =            247.909   ADMISSIBLE
+     j= 4 : log2 q_j =            495.819   OVER CAP
+     j= 8 : log2 q_j =           7933.103   OVER CAP
+     j=16 : log2 q_j =        2030874.440   OVER CAP
+  [PASS] S2.1 largest admissible rung is j = 3 (q_3 = p^8, log2 q_3 = 247.909 < 256)
+  [PASS] S2.2 rung 4 already breaks |F| < 2^256 (log2 q_4 = 495.8)
+  [PASS] S2.3 rung 16: log2 q_16 = 2030874 bits, i.e. 7933x the cap IN BITS
+  [PASS] S2.4 => Q1 CONFIRMED: rungs 4..16 are NOT prize-admissible rows
+
+==========================================================================
+S3  (Q3) admissible (p, e) at the maximal rate-1/2 row n = 2^41
+==========================================================================
+  admissible (s = v_2(e), e, min log2 p):
+     e = 1 (s=0)  requires log2 p >= 41, log2 q >= 41
+     e = 2 (s=1)  requires log2 p >= 40, log2 q >= 80
+     e = 3 (s=0)  requires log2 p >= 41, log2 q >= 123
+     e = 4 (s=2)  requires log2 p >= 39, log2 q >= 156
+     e = 5 (s=0)  requires log2 p >= 41, log2 q >= 205
+     e = 6 (s=1)  requires log2 p >= 40, log2 q >= 240
+  [PASS] S3.1 v_2(extension degree) <= 2 (found max 2)
+  [PASS] S3.2 extension degree e <= 6 (found max 6)
+  [PASS] S3.3 log2 p >= 39 at every admissible row (min 39)
+  [PASS] S3.4 => the KoalaBear log2 p ~ 31 base field is INADMISSIBLE at n = 2^41
+  [PASS] S3.5 ord_n(p) in {1,2,4} => tower depth <= 2 rungs, not 16
+  [PASS] S3.6 s=3 needs log2 q >= 8*38 = 304 > 256 -- excluded
+
+==========================================================================
+S4  An EXPLICIT prize-admissible maximal rate-1/2 row (existence)
+==========================================================================
+  [PASS] S4.1 found p = 18446735827372343297
+  [PASS] S4.2 v_2(p-1) = 39 (exactly 39)
+  [PASS] S4.3 n = 2^41 divides q-1 for q = p^4  (v_2(q-1) = 41)
+  [PASS] S4.4 q = p^4 < 2^256: log2 q = 256.0000
+  [PASS] S4.5 log2 p = 64.0000 >= 39
+  [PASS] S4.6 ord_{2^41}(p) = 4 => exactly 2 moving rungs
+
+==========================================================================
+S5  Reproduce the banked corridor table t*(L=255.9), n=2^41 [xr]
+==========================================================================
+     rate 1/2  : t* = 8592912739  (banked 8592912739) OK
+     rate 1/4  : t* = 7014660390  (banked 7014660390) OK
+     rate 1/8  : t* = 4722556392  (banked 4722556392) OK
+     rate 1/16 : t* = 2943177800  (banked 2943177800) OK
+  [PASS] S5.1 all four t* reproduce xr_radius_arithmetic proof.md:53-58
+
+==========================================================================
+S6  (Q2) the window-bits product, and what it is really equal to
+==========================================================================
+  [PASS] S6.1 t* * log2 q = 2.198926e+12 equals n = 2^41 = 2.199023e+12 to 0.0044%
+  [PASS] S6.2 the banked literal 2.15e12 is 2.23% BELOW the true product
+  [PASS] S6.3 log2 C(n, n-k-t*) = 2.198926e+12 is 0.0044% below n -- the counting balance is tight to 5e-3%, NOT to '~2%'
+  [PASS] S6.4 t = 7e10 implies log2 q = 31.415, but n | q-1 forces log2 q > 41
+  [PASS] S6.5 t* = 8592912739 lies INSIDE the rules-forced interval (8.5899e+09, 5.3635e+10]
+  [PASS] S6.6 t = 7e10 lies OUTSIDE it (upper limit 5.3635e+10) -- excluded by the rules
+  [PASS] S6.7 even the BASE-FIELD reading caps t at n/39 = 5.6385e+10 < 7e10
+  [PASS] S6.8 7e10 is recovered only by dividing by log2 p = 30.99 (n/log2 p = 7.0962e+10)
+
+==========================================================================
+S7  (Q5) the [255.9113, 256) sliver
+==========================================================================
+     Q5 as registered: min L with t*(L) <= 2^33 = 255.988729
+  [PASS] S7.1 Q5 FALSIFIED: the FM/gate endpoint is 255.9887, NOT the banked 255.9113 (off by 0.0774 bits)
+  [PASS] S7.2 the FM/gate endpoint IS a genuine crossing of t*(L)=2^33 (sanity)
+  [PASS] S7.3 ...and t*(L) > 2^33 just below it -- so 255.9887 is a real quantity, simply not the one TARGET_3C_EXTRACTION.md:29-30 reports
+     TRUE formula: n / t* = 255.911275
+  [PASS] S7.4 the sliver's left endpoint is exactly n/t* = 255.9113 = the banked 255.9113
+  [PASS] S7.5 sliver width = 256 - n/t* = 0.0887 bits (banked 0.089)
+  [PASS] S7.6 => the sliver is the PURE COUNTING/EMPTINESS balance t*.L >= n (q^t > 2^n), NOT the FM+gate condition (T*)
+  [PASS] S7.7 CATCH: at the L = 255.9 convention (xr proof.md:33) t*.L = 2.198926e+12 < n = 2.199023e+12 -- the convention point lies BELOW its own sliver's left endpoint
+  [PASS] S7.8 the explicit admissible row S4 (log2 q = 256.0000) lies INSIDE the sliver; its corridor edge is t* = 8589556515
+
+==========================================================================
+S8  (Q4) the m_j ladder -- both readings
+==========================================================================
+  [PASS] S8.1 new-part m_16 = (n_16-n_15)/2 = 2^38
+  [PASS] S8.2 nested   m_16 = n_16/2      = 2^39
+  [PASS] S8.3 the 2^38-vs-2^39 conflict is EXACTLY the 2x nested/new-part ambiguity of f2_deployed_windows/REPORT.md:69 -- not an arithmetic error
+  [PASS] S8.4 PREREG.json:58's m = 2^39 = n_16/2, consistent with its own 'dim L >= n/(2 log2 p)' wording (:57)
+
+==========================================================================
+S9  (P5) LEMMA 3  t >= m_j / log2 p  at EVERY rung, every reading
+==========================================================================
+     margins t / (m_j/log2 p);  < 1 = VIOLATED.  log2 p = 30.988685
+     rung | 7e10  (verify.py:958,1038  |    2^36  (F2_CAMPAIGN_LOG) |    t* = 8,592,912,739 (xr) | 2^33  (official_scale.json |
+   --- new-part window ---
+        1 |            258589.7360 OK  |            253859.3050 OK  |             31743.4148 OK  |             31732.4131 OK  |
+        2 |            129294.8680 OK  |            126929.6525 OK  |             15871.7074 OK  |             15866.2066 OK  |
+        3 |             64647.4340 OK  |             63464.8262 OK  |              7935.8537 OK  |              7933.1033 OK  |
+        4 |             32323.7170 OK  |             31732.4131 OK  |              3967.9269 OK  |              3966.5516 OK  |
+        5 |             16161.8585 OK  |             15866.2066 OK  |              1983.9634 OK  |              1983.2758 OK  |
+        6 |              8080.9292 OK  |              7933.1033 OK  |               991.9817 OK  |               991.6379 OK  |
+        7 |              4040.4646 OK  |              3966.5516 OK  |               495.9909 OK  |               495.8190 OK  |
+        8 |              2020.2323 OK  |              1983.2758 OK  |               247.9954 OK  |               247.9095 OK  |
+        9 |              1010.1162 OK  |               991.6379 OK  |               123.9977 OK  |               123.9547 OK  |
+       10 |               505.0581 OK  |               495.8190 OK  |                61.9989 OK  |                61.9774 OK  |
+       11 |               252.5290 OK  |               247.9095 OK  |                30.9994 OK  |                30.9887 OK  |
+       12 |               126.2645 OK  |               123.9547 OK  |                15.4997 OK  |                15.4943 OK  |
+       13 |                63.1323 OK  |                61.9774 OK  |                 7.7499 OK  |                 7.7472 OK  |
+       14 |                31.5661 OK  |                30.9887 OK  |                 3.8749 OK  |                 3.8736 OK  |
+       15 |                15.7831 OK  |                15.4943 OK  |                 1.9375 OK  |                 1.9368 OK  |
+       16 |                 7.8915 OK  |                 7.7472 OK  |                 0.9687 VIO |                 0.9684 VIO |
+       LEMMA 3 holds at rungs: 1-16   [t = 7e10  (verify.py:958,1038 literal)]
+       LEMMA 3 holds at rungs: 1-16   [t = 2^36  (F2_CAMPAIGN_LOG)]
+       LEMMA 3 holds at rungs: 1-15   [t = t* = 8,592,912,739 (xr)]
+       LEMMA 3 holds at rungs: 1-15   [t = 2^33  (official_scale.json / I6)]
+   --- nested window ---
+        1 |            129294.8680 OK  |            126929.6525 OK  |             15871.7074 OK  |             15866.2066 OK  |
+        2 |             64647.4340 OK  |             63464.8262 OK  |              7935.8537 OK  |              7933.1033 OK  |
+        3 |             32323.7170 OK  |             31732.4131 OK  |              3967.9269 OK  |              3966.5516 OK  |
+        4 |             16161.8585 OK  |             15866.2066 OK  |              1983.9634 OK  |              1983.2758 OK  |
+        5 |              8080.9292 OK  |              7933.1033 OK  |               991.9817 OK  |               991.6379 OK  |
+        6 |              4040.4646 OK  |              3966.5516 OK  |               495.9909 OK  |               495.8190 OK  |
+        7 |              2020.2323 OK  |              1983.2758 OK  |               247.9954 OK  |               247.9095 OK  |
+        8 |              1010.1162 OK  |               991.6379 OK  |               123.9977 OK  |               123.9547 OK  |
+        9 |               505.0581 OK  |               495.8190 OK  |                61.9989 OK  |                61.9774 OK  |
+       10 |               252.5290 OK  |               247.9095 OK  |                30.9994 OK  |                30.9887 OK  |
+       11 |               126.2645 OK  |               123.9547 OK  |                15.4997 OK  |                15.4943 OK  |
+       12 |                63.1323 OK  |                61.9774 OK  |                 7.7499 OK  |                 7.7472 OK  |
+       13 |                31.5661 OK  |                30.9887 OK  |                 3.8749 OK  |                 3.8736 OK  |
+       14 |                15.7831 OK  |                15.4943 OK  |                 1.9375 OK  |                 1.9368 OK  |
+       15 |                 7.8915 OK  |                 7.7472 OK  |                 0.9687 VIO |                 0.9684 VIO |
+       16 |                 3.9458 OK  |                 3.8736 OK  |                 0.4844 VIO |                 0.4842 VIO |
+       LEMMA 3 holds at rungs: 1-16   [t = 7e10  (verify.py:958,1038 literal)]
+       LEMMA 3 holds at rungs: 1-16   [t = 2^36  (F2_CAMPAIGN_LOG)]
+       LEMMA 3 holds at rungs: 1-14   [t = t* = 8,592,912,739 (xr)]
+       LEMMA 3 holds at rungs: 1-14   [t = 2^33  (official_scale.json / I6)]
+  [PASS] S9.1 rung16/new-part/7e10 margin = 7.8915x reproduces PROOFS.md:233-234's 7.89x
+  [PASS] S9.2 rung16/new-part/t* margin = 0.9687x reproduces the banked 0.9687x SIGN FLIP
+  [PASS] S9.3 under t* AND nested, LEMMA 3 fails at rungs 15 AND 16 (banked claim)
+  [PASS] S9.4 under t*/new-part LEMMA 3 holds exactly at rungs 1-15
+  [PASS] S9.5 under t*/nested   LEMMA 3 holds exactly at rungs 1-14
+
+==========================================================================
+S10 (P5) LEMMA 2 / THEOREM A cutoff  Lambda contains {1,3,..,2m-1}
+==========================================================================
+     requires t >= 2*m_j - 1
+     new-part  t=7e10  (verify.py:958,1038 literal) -> rungs 1-13
+     new-part  t=2^36  (F2_CAMPAIGN_LOG)            -> rungs 1-13
+     new-part  t=t* = 8,592,912,739 (xr)            -> rungs 1-10
+     new-part  t=2^33  (official_scale.json / I6)   -> rungs 1-10
+     nested    t=7e10  (verify.py:958,1038 literal) -> rungs 1-12
+     nested    t=2^36  (F2_CAMPAIGN_LOG)            -> rungs 1-12
+     nested    t=t* = 8,592,912,739 (xr)            -> rungs 1-9
+     nested    t=2^33  (official_scale.json / I6)   -> rungs 1-9
+  [PASS] S10.1 t=7e10/new-part reproduces the banked 'rungs 1..13' (PROOFS.md:328)
+  [PASS] S10.2 t=t*/new-part reproduces the banked 'rungs 1-10' (sl1 PROOFS.md:391)
+  [PASS] S10.3 t=t*/nested shortens it further, to rungs 1-9
+
+==========================================================================
+S11 THE BAND UNDER THE RULES-FORCED t-INTERVAL (worst case, per Q6)
+==========================================================================
+     new-part  worst-t=8.5899e+09 : LEMMA3 rungs 1-15 ; LEMMA2 rungs 1-10
+     nested    worst-t=8.5899e+09 : LEMMA3 rungs 1-14 ; LEMMA2 rungs 1-9
+  [PASS] S11.1 worst-case admissible t gives a THEOREM A band no longer than rungs 1-10
+  [PASS] S11.2 the published rungs-1-13 headline assumed a t (7e10) that no admissible field can realise
+
+==========================================================================
+S12 the (R+1)/m_j corollary table (sl1 PROOFS.md:134-138)
+==========================================================================
+     rung 14  m=2^36 : 7e10 -> 0.50932 ; t* -> 0.06252
+     rung 15  m=2^37 : 7e10 -> 0.25466 ; t* -> 0.03126
+     rung 16  m=2^38 : 7e10 -> 0.12733 ; t* -> 0.01563
+  [PASS] S12.1 reproduces 0.01563 at rung 16 under t* (SL-1 immunity intact)
+
+==========================================================================
+S13 rate rows: does the field cap even admit n = 2^41 at every rate?
+==========================================================================
+     rate 1/2  : n = 2^41, k = 2^40  k<=2^40 ? yes
+  [PASS] S13.2 row admissible on the k-cap
+     rate 1/4  : n = 2^42, k = 2^40  k<=2^40 ? yes
+  [PASS] S13.4 row admissible on the k-cap
+     rate 1/8  : n = 2^43, k = 2^40  k<=2^40 ? yes
+  [PASS] S13.8 row admissible on the k-cap
+     rate 1/16 : n = 2^44, k = 2^40  k<=2^40 ? yes
+  [PASS] S13.16 row admissible on the k-cap
+
+==========================================================================
+S14 (P6) the |K1| average-vs-sum seam, PRICED
+==========================================================================
+     dim K1 = ceil(t*/2) = 4296456370
+     log2|K1| (F_q coeffs) = 1.099463e+12   vs  n/2 = 1.099512e+12
+     log2|K1| (F_p coeffs) = 1.331415e+11   (KoalaBear log2 p)
+  [PASS] S14.1 EXTENSION reading: log2|K1| = 1.0000 * (n/2) -- the seam is EXACTLY the whole (O1) budget 2^{n/2}
+  [PASS] S14.2 BASE reading: log2|K1| = 0.1211 * (n/2) -- still Theta(n)
+  [PASS] S14.3 => under BOTH readings the seam is Theta(n), so it CANNOT be absorbed into the '+ o(n)' of (O1)'s target 2^{n/2 + o(n)}
+  [PASS] S14.4 the identity is structural: dim K1 . L = (t*/2).L = (t*.L)/2 = n/2
+
+==========================================================================
+S15 robustness of the t-interval to the I1 ambiguity (n = 2^40 vs 2^41)
+==========================================================================
+     n = 2^40 : v_2(e)<=2, e<=6, log2 p >= 38
+        t in (4.2950e+09, 2.7488e+10]  (ext) ;  upper 2.8935e+10 (base)
+  [PASS] S15.40 t = 7e10 is EXCLUDED at n = 2^40 under BOTH field readings
+     n = 2^41 : v_2(e)<=2, e<=6, log2 p >= 39
+        t in (8.5899e+09, 5.3635e+10]  (ext) ;  upper 5.6385e+10 (base)
+  [PASS] S15.41 t = 7e10 is EXCLUDED at n = 2^41 under BOTH field readings
+  [PASS] S15.3 at n = 2^40 the characteristic still satisfies log2 p >= 38 > 31
+
+==========================================================================
+TOTAL 64 checks, 0 FAIL
+F2_TQ_PIN_VERIFY_ALL_PASS
