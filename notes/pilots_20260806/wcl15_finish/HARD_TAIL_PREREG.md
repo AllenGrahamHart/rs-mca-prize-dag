@@ -51,3 +51,12 @@ tools/ramguard modal -- modal run \
   experiments/prize_resolution/dli_wcl_weight5_recursive_norm_tail_modal.py \
   --external-full --factor-only
 ```
+
+App `ap-9R3y73LE4xoHSDpoqUXGoN` completed and stopped normally.  The manifest
+matches all 35,890 easy batches and contains exactly 194 distinct norms.  GP
+completely factors 193; tail index 191 reaches the 300-second cap.  The 193
+complete rows contain 399 distinct primes, no official-gate factor, and
+maximum `v_2(p-1)=17`.  The compact partial has SHA-256
+`026fbd0d5665bc855bfcdd56f54b33bbea2b2a563aa98c79daf6e4f042ac0f4b`.
+The sole remaining norm is routed to `TAIL191_PREREG.md`; no broad retry is
+authorized.
