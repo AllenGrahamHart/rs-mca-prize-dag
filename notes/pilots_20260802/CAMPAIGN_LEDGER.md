@@ -1963,3 +1963,50 @@ crossing low-w = emptiness at tau = 2 with the official primes in
 the SP/CS gap + the PT-2 cliff on the watch line; the maintainer
 stack unchanged and still the highest-leverage item (the Przemek
 note next).
+
+## 2026-08-06: THE SCOPE AND READING RULINGS (user-prompted; the maintainer stack DISSOLVED)
+
+The user's challenge ("we know what the prize problems are — judge
+for ourselves") is CORRECT and is adopted as of record:
+
+1. **SCOPE RULING (spec-derived, no intent needed).** The frozen
+   public spec ("for every choice of F, L, and k"; the pinned
+   admissibility constraints) contains NO generation restriction —
+   and our own stricter-reading clause points the same way.
+   **Non-generating and tower rows ARE in the challenge family.**
+   Przemek is a fellow researcher, not the prize organizer; the
+   spec text governs. THE PRZEMEK NOTE IS SHELVED (draft kept at
+   notes/przemek_note_20260806/DRAFT.md as a record of the fork;
+   the t*/mca_floor cross-reference survives as a future PR-comment
+   hygiene item, no question attached).
+2. **CONSEQUENCE, stated honestly**: the tower/non-generating
+   counterexamples (DSA; the (O1) kills) refute OUR INTERMEDIATES,
+   not the prize conjectures — those are our constructions. Whether
+   the prize-level statement survives at tower rows runs through
+   the GAMMA-SHELL/BUDGET analysis (left open at the DSA bank),
+   which becomes the board's sharpest question with two live
+   outcomes: within-budget (our intermediates were lossy — re-pose)
+   or budget-break (A REFUTATION PATH FOR THE GRAND CHALLENGE — a
+   resolution either way).
+3. **READING RULINGS (soundness-forced, internal).** Lambda parity
+   = READING A of record (the proved K1/K2/G trichotomy + the
+   lane's own min(m_j, t/2) text); the ensemble = THE SLICE (T*)
+   of record (forced by the (O1) => (O2) fence — the consumer
+   demands it); PP5.0 = SUM (already ruled). CONSEQUENCE ACCEPTED:
+   **(O1) AS POSED IS FALSE on generating rows too** — the
+   two-live-values bookkeeping collapses; the F2 lane's obligation
+   of record is the minimal surviving form (E[T] = 2^{n/2}·Z_1^e)
+   with the TAIL-COUNT criterion at tau = 1, which is where the
+   mathematics already stands. The rung-band caveats and the
+   "internally-forced cell" language are superseded by this ruling.
+4. Node addenda written this bank: f2_o1_status_split (the 2x2
+   ruled); crossing_dsa_refutation (the scope clause resolved —
+   towers in-family; the refutation's scope condition is
+   SATISFIED).
+
+BOARD AFTER THE RULINGS: no external blockers. (1) THE GAMMA-SHELL
+question (refutation-or-repose); (2) the F2 re-pose + tail-count
+criterion (leads: Prop 10; the 484x creation anomaly); (3) the
+crossing low-w prime-row emptiness (the SP/CS gap; the
+even-condition extension; the PT-2 cliff needs its floor
+re-verified); (4) the band re-pose.

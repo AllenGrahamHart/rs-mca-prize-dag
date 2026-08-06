@@ -74,3 +74,17 @@ Emptiness at prime rows (heuristic only); the gamma-shell population
 of the accidents (the crossing NODE's budget question at tower rows
 is RE-OPENED, not decided); strata a < v-1 (LEMMA OE gives the
 recursion, not carried out); w = 2^36, 2^37 deep strata.
+
+## Addendum (2026-08-06, the scope ruling — the refutation's condition is SATISFIED)
+
+The scope clause above ("applies under the campaign's adopted
+reading that tower rows are in the crossing lane's obligation") is
+RESOLVED: the frozen spec's quantifier contains no generation
+restriction, so tower rows ARE in the challenge family (coordinator
+ruling, CAMPAIGN_LEDGER 2026-08-06). THEOREM DSA's refutation of
+the (ES) crossing instance at those rows therefore stands
+unconditionally. What it refutes is OUR intermediate; the
+prize-level consequence runs through the OPEN gamma-shell/budget
+question (round-20 target): within-budget => the intermediate was
+lossy (re-pose); budget-break => a refutation path for the grand
+challenge itself.
