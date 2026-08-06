@@ -1656,3 +1656,64 @@ t*/mca_floor conflict. Mint-4 queued after this round.
   Leads: the p = 5, w = 2 zero-ternary anomaly; even-condition
   SP-COVER.
 - Awaiting: z1_ternary_mass (the last of round 18).
+
+## 2026-08-06: round-18 pilot 4 BANKED — ROUND 18 COMPLETE: the knife edge, the no-go, and the ternary unification
+
+- **z1_ternary_mass (Opus) BANKED** (81/81; process CLEAN — second
+  fully clean pilot). **THEOREM Z-1**: the DLI distance law
+  TRANSPORTS (min ternary weight >= 2R+1 = 8,589,934,681) —
+  CONVERGENT with the blind adversary's D1 (same constant, disjoint
+  derivations); scope: shift-0 only (43 shifted counterexamples;
+  legitimate because the official window starts at 1).
+  **THEOREM Z-FLOOR**: the first moment is a POINTWISE floor
+  (Z >= 2^m/p^{dim L}; one Cauchy-Schwarz from a banked identity
+  nobody had drawn; tight within 2x). **THEOREM Z-3**: (O1) FALSE
+  at the OBJECT level on every k < e admissible row — f2_adm
+  CATCH-1's 2^{5n/12} reproduced EXACTLY by an independent route.
+  **THEOREM Z-NOGO**: distance+counting can NEVER close SL-1b'
+  (needs p <= 8 vs admissible 2^39). **THEOREM Z-2** (gift to DLI:
+  the {±1} restriction unnecessary — l1 weight, same cutoff).
+  At k = e the floor misses by 46 BITS of 2.75e11 (one Lambda
+  condition = 64 bits; the two t-readings STRADDLE ZERO — under
+  exact-balance it FIRES: ternary kernel vectors provably exist,
+  the exact-zero form dies, yet Z stays 2^{o(n)}).
+  **CATCH-Z1 (brief defect, coordinator's)**: mass form != exact-zero
+  form; THE TERMINAL OF RECORD = the MASS form (Z_1 <= 2^{o(m)} at
+  k = e), with route (b) (Weil products over the 2^39-subgroup,
+  factor-2 headroom) the ONLY live route. Calibration honest: at or
+  below random median on all valid miniatures; "better than random"
+  NOT claimed. CATCH-Z6 (composite-2N toy contamination — standing
+  grid rule adopted).
+
+ROUND-18 NET (4/4): the adversary's ensemble dichotomy (the 0.0044%
+IS (O1)'s sign; internally-forced cell FALSE); THEOREM DSA
+((ES)-crossing FALSE at tower rows, witness AT n = 2^41, on the
+triple-refutation row); the first sparsity theorems (SP-COVER/
+SP-UNIFORM two-sided range) with CC-sparsity re-labelled as
+(ES)-again; the F2 terminal re-shaped to the MASS knife edge with a
+proved NO-GO for the whole distance+counting family. THE ROUND'S
+DISCOVERY: all four blind pilots converged on TERNARY VECTORS IN
+p-ARY CODES FROM CYCLOTOMIC WINDOWS as the primitive object — the
+ROUND-19 UNIFICATION CANDIDATE (one question family, three
+instances, the round's theorems as its partial answers).
+
+BOARD AFTER ROUND 18:
+- Mystery 2 (F2): terminal = Z_1 MASS at k = e via route (b);
+  everything else is the maintainer seam (generation/parity/
+  ensemble/PP5.0 — now FOUR faces of one inequality). k < e rows:
+  (O1) dead twice over (necessary-condition + object-level).
+- Crossing: tower rows REFUTED (DSA; scope = the Przemek question);
+  prime rows at a 53-61 bit heuristic ternary margin with proof
+  obligation open; low-w core two-sided (SP-COVER below, CS above)
+  with the official primes provably in the gap.
+- Band: unchanged this round; the ternary functional (LEMMA TC) is
+  the transfer candidate for its re-pose.
+- C1/C2'': own instruments, unchanged.
+- PENDING USER: W = 5 rollback; PP5.0 reading (now the fourth face).
+- PENDING PRZEMEK (the note now writes itself): the tower/generation
+  scope (DECIDES two lanes, with the DSA witness); Lambda parity
+  (internally forced to A); the ensemble calibration; the
+  t*/mca_floor conflict.
+- NEXT: MINT-4 (massively overdue — three rounds of theorems in
+  notes) + the Przemek note + the round-19 ternary unification
+  draft + the gamma-shell question + route (b).

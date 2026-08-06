@@ -61,3 +61,16 @@ reading OVERSTATES dim L). Superseded in any case: on admissible rows
 f2_adm's LEMMA ADM-2 gives dim L EXACTLY (= C·min(S,R)) — the bracket
 collapses to a point and INTERACTION-1 is closed. See
 notes/pilots_20260806/f2_adm/.
+
+## ADDENDUM 2 (2026-08-06, coordinator, from round-18 z1_ternary_mass CATCH-Z1/Z2)
+
+1. The REPORT's "SL-1b' ... (equivalently L^perp ∩ T = {0} or
+   nearly)" gloss is CORRECTED: the mass form and the exact-zero form
+   differ by log2 3 per vector and come apart at the admissible
+   object (mass survives at k = e; exact-zero dies heuristically).
+   The terminal of record is the MASS form.
+2. PROOFS.md:288-291's "a first-moment threshold ... is not a
+   property of any particular one" is false in the direction (O1)
+   needs: THEOREM Z-FLOOR is pointwise for every subspace (tight
+   within 2x of the ensemble mean). The (R-B) refutation itself is
+   unaffected.
