@@ -21,9 +21,17 @@ node remains REFUTED because the replacement is a coupled code, not a
 factorization. Canonical Round-18 `Z-FLOOR` is also imported in a
 field-generic form that does not use the false class census.
 
+The generated-field audit then separates the failed route premise from the
+final object. Although `(O1)` changes with ambient degree, scaling the domain
+gives exact identities for every moment and syndrome map. Thus the final
+t-null extras, trade families, kernels, and weighted masses on all seven
+non-generating families are identical to generated-field rows. This closes
+the ambient-extension axis but no common generating-row mass estimate.
+
 This surgery does not mark the target false and does not delete the proved
 July suppliers. It changes `CONDITIONAL -> TARGET`, removes Myerson from
 `requires`, keeps it as evidence, and prints the all-row attack surface.
 
-Modal app `ap-bMpQIqA5drSKk82JQgIgGa` independently checked the final
-manifest statuses and route edges and returned `3/3 PASS`.
+The original Modal app `ap-bMpQIqA5drSKk82JQgIgGa` checked the Round-18
+repair. The generated-field transport has a separate exact `F_25/F_5`
+scaling replay and fail-closed DAG verifier.

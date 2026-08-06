@@ -7,9 +7,11 @@
   contraction, near tails, structural census, and the admissible direct-sum
   reduction on the plus branch; the generic pointwise collision floor; and
   the coupled negacyclic top-window reduction on the minus branch
-- **open surfaces:** plus-branch generating-row GRS ternary mass,
-  minus-branch coupled-code mass upper bound, non-generating direct payment,
-  PP5.0 normalization, and coset-sensitive descent
+- **open surfaces:** common mass control for the five signed generating
+  types, PP5.0 normalization, and any separate coset-sensitive Frobenius
+  antipodal step used by a proposed proof
+- **closed surface:** all seven non-generating families descend exactly to
+  generated-field rows for the final block census and kernel mass
 - **nonclaim:** `(O1)` is not assumed on non-generating rows; growing-order
   Myerson is not claimed sufficient
 - **route alarm:** the bounded-class direct-sum claim is refuted on the

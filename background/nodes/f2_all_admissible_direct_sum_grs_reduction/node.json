@@ -27,5 +27,9 @@
       "to": "f2_conditional_close"
     }
   ],
-  "refutes": []
+  "refutes": [
+    {
+      "to": "f2_admissible_object"
+    }
+  ]
 }

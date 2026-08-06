@@ -19,12 +19,14 @@ with rank `hR`, pointwise floor, and ternary distance `2R+1`. Prove a
 subexponential upper bound for this coupled mass, or pay the final extras
 directly. Do not factor it as independent singleton kernels.
 
-## Non-generating rows in either branch
+## Ambient extensions
 
 When `k<e`, `(O1)` is false by `2^Theta(n)`. Do not attempt to repair it by
-assuming generation. Prove the final extras budget by a different count, or
-rigorously route these rows through the existing extension-field descent and
-show that its hypotheses and constants cover every such row.
+assuming generation. The final combinatorial and kernel objects nevertheless
+descend exactly by `f2_generated_field_ambient_invariance`: five plus
+order-one extensions map to `e=1`, and the plus/minus order-two degree-four
+extensions map to `e=2`. No F1 bad-slope trichotomy is needed. A mass theorem
+for the five signed generating types therefore covers all 12 official types.
 
 ## Seams
 
@@ -38,5 +40,5 @@ show that its hypotheses and constants cover every such row.
 
 The preferred next attacks are the explicit GRS ternary mass on plus-branch
 generating rows and the explicit coupled negacyclic mass on minus-branch
-generating rows. In parallel, seek a direct formulation of the
-non-generating extras count before proposing any conditional assembly.
+generating rows, formulated uniformly enough to cover the generated-field
+images of official extensions.

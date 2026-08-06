@@ -15,5 +15,9 @@ that its `(O1)` premise is false on non-generating admissible rows. The
 bounded prime-field GRS reduction is proved only on the plus branch
 `p=1 mod 4`. On the minus branch `p=3 mod 4`, the top-window kernel is now
 proved to be one Frobenius-coupled negacyclic root code with exact rank and
-collision identity; its mass upper bound remains open. The target
-conclusion itself is not refuted.
+collision identity; its mass upper bound remains open. Ambient extension is
+no longer a separate surface: `f2_generated_field_ambient_invariance`
+identifies every non-generating row's final block census and kernel mass
+exactly with its generated-field row. Thus all 12 degree/order types reduce
+to five signed generating types. The target conclusion itself is not
+refuted.

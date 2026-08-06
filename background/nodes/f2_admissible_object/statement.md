@@ -1,12 +1,28 @@
 # f2_admissible_object
 
-- **status:** PROVED
+- **status:** REFUTED (composite statement; corrected 2026-08-06)
 - **minted:** 2026-08-06 (mint-4, rounds 17-18), coordinator-audited.
 - **provenance:** notes/pilots_20260806/f2_adm/ (373/373),
   notes/pilots_20260806/o1_generating_adversary/ (187/187),
   notes/pilots_20260806/f2_tq_pin/ (64/64) — all
   coordinator-replayed; FABLE_AUDIT.md in each dir is the audit of
   record.
+
+## Scope correction
+
+The composite all-admissible proposition below is false. It uses the
+`p=1 mod 4` order formula on every row and therefore omits the minus branch.
+At the official generating row
+
+```text
+p=2^61-1, q=p^2, ord_(2^41)(p)=2,
+```
+
+the antipodal half-system has `2^40` singleton `F_p`-proportionality
+classes, not at most four. The exact replacement is the five-type signed
+classification plus the coupled minus-branch negacyclic reduction. The field
+cap, trace-rank, and coset-invariance components survive in their corrected
+scopes. The historical Round-18 packet is retained below for provenance.
 
 ## Statement
 

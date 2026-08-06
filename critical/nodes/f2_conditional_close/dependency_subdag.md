@@ -9,6 +9,7 @@ f2_all_admissible_o1_mass_bound [REFUTED] --ev alarm---------+
 f2_all_admissible_direct_sum_grs_reduction [REFUTED] --ev----+
 f2_weighted_kernel_collision_floor [PROVED] --ev-------------+
 f2_minus_branch_coupled_negacyclic_reduction [PROVED] --ev---+
+f2_generated_field_ambient_invariance [PROVED] --ev----------+
 
 f2_conditional_close [TARGET] --req--> u2c_giant_tnull_dichotomy [CONDITIONAL]
 ```
@@ -18,4 +19,5 @@ still support matching sectors, but Round 17 proves it cannot serve as the
 sole all-admissible-row premise. The proved direct-sum supplier is likewise
 restricted to `p=1 mod 4`; the second refuted node guards that scope.
 The coupled minus-branch supplier repairs the structural model but leaves
-its upper-mass terminal open.
+its upper-mass terminal open. Ambient invariance removes the seven-family
+non-generating surface without restoring `(O1)` or supplying that upper bound.

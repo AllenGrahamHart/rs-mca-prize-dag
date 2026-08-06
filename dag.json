@@ -9634,7 +9634,7 @@
    "id": "f2_conditional_close",
    "status": "TARGET",
    "title": "All-admissible-row F2 extras-budget close",
-   "statement": "ROUND-18 REPAIR: prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The proved empty/edge bands, dictionary, contraction, near-tail, and structural census remain available. The prime-field GRS direct-sum reduction is proved only on the plus branch p=1 mod 4; its attempted all-row extension is refuted by the generating row p=2^61-1, q=p^2. On the minus branch, the top-window kernel is now proved to be one Frobenius-coupled negacyclic root code with exact rank, collision identity, pointwise floor, and ternary distance. The honest attack surface is: plus-branch generating-row GRS ternary mass; minus-branch coupled-code mass; a direct replacement payment on non-generating rows; the PP5.0 average-to-sum seam; and any coset-sensitive use of Frobenius antipodal descent. No consumer status is promoted by this repair.",
+   "statement": "Prove directly that non-coset-union F2 extras plus trade families are at most n^3=2^123 on every official prize-max admissible row. The July conditional close on growing-order Myerson is not valid at this scope: the 16-rung tower is inadmissible, and (O1) is false whenever ord_n(p)<[F_q:F_p]. The attempted all-row bounded-class reduction is also refuted by the generating row p=2^61-1, q=p^2. The plus branch reduces to explicit GRS kernels and the minus branch to one coupled negacyclic kernel. Generated-field ambient invariance now identifies every non-generating row's final block census and kernel mass exactly with one of three generating rows, so all 12 official degree/order types reduce to five signed generating types without restoring (O1). The remaining attack surface is common generating-row mass control, PP5.0 normalization, and any coset-sensitive Frobenius antipodal step used by a proposed proof. No consumer status is promoted.",
    "refs": [
     "critical/nodes/f2_conditional_close/statement.md",
     "critical/nodes/f2_conditional_close/attack.md",
@@ -9648,7 +9648,8 @@
     "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
     "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
     "notes/pilots_20260806/f2_minus_branch/node_verify_result.json",
-    "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json"
+    "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json",
+    "background/nodes/f2_generated_field_ambient_invariance/statement.md"
    ]
   },
   {
@@ -28260,8 +28261,8 @@
   },
   {
    "id": "f2_admissible_object",
-   "title": "The prize-admissible F2 object: the 16-rung KoalaBear tower is NOT admissible (cap broken from rung 4); on the admissible region (v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2) the descent collapses to LEMMA ADM-2's exact direct sum of prime-field GRS codes (dim L EXACT), the generating classes are exactly three (Lucas-certified non-empty; e in {3,5,6} can never generate), and the coset domain costs the first moment a factor of exactly 1 (THEOREM C1)",
-   "status": "PROVED",
+   "title": "Refuted plus-only prize-admissible F2 object",
+   "status": "REFUTED",
    "refs": [
     "background/nodes/f2_admissible_object/statement.md",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
@@ -28269,8 +28270,8 @@
     "notes/pilots_20260806/o1_generating_adversary/verify.py",
     "notes/pilots_20260806/f2_tq_pin/verify.py"
    ],
-   "closure": "proof",
-   "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open \u2014 the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks."
+   "closure": "counterexample",
+   "statement": "The Round-18 composite proposition applies the p=1 mod 4 order formula and bounded proportionality-class decomposition to every admissible row, and says there are exactly three generating classes. This is false on the official generating row p=2^61-1, q=p^2: ord_(2^41)(p)=2=e but the antipodal half-system has 2^40 singleton F_p-proportionality classes. The corrected classification has five signed generating types and the minus branch is one coupled negacyclic code. The field-cap, trace-rank, and coset-invariance components survive only in their corrected scopes."
   },
   {
    "id": "f2_admissible_weighted_prefix_l2_identity",
@@ -28324,6 +28325,22 @@
     "background/nodes/f2_all_admissible_o1_mass_bound/verify.py",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
     "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_generated_field_ambient_invariance",
+   "title": "F2 generated-field ambient invariance",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For F=F_(p^e), B=F_p(mu_n)=F_(p^k), and D=g mu_n, scaling S=gT gives p_j(S)=g^j p_j(T) and e_j(S)=g^j e_j(T). It therefore preserves t-null blocks, moment-trade block families, subgroup-coset structure, and complements exactly. For every F2 window and exponent set the syndrome maps satisfy A_D=diag(g^ell)A_B, so their F_p kernels, ranks, weighted ternary masses, subset-syndrome fibers, maxima, and collision sums are identical. Consequently the seven non-generating official degree/order types descend exactly to three of the five signed generating types. This does not restore ambient-normalized (O1) and proves no mass upper bound or final extras budget.",
+   "refs": [
+    "background/nodes/f2_generated_field_ambient_invariance/statement.md",
+    "background/nodes/f2_generated_field_ambient_invariance/proof.md",
+    "background/nodes/f2_generated_field_ambient_invariance/claim_contract.md",
+    "background/nodes/f2_generated_field_ambient_invariance/dependency_subdag.md",
+    "background/nodes/f2_generated_field_ambient_invariance/audit.md",
+    "background/nodes/f2_generated_field_ambient_invariance/result.md",
+    "background/nodes/f2_generated_field_ambient_invariance/verify.py"
    ]
   },
   {
@@ -53760,6 +53777,11 @@
    "kind": "ev"
   },
   {
+   "from": "f2_admissible_degree_order_classification",
+   "to": "f2_generated_field_ambient_invariance",
+   "kind": "req"
+  },
+  {
    "from": "f2_admissible_direct_sum_grs_reduction",
    "to": "f2_admissible_generating_branch_classification",
    "kind": "req"
@@ -53801,13 +53823,18 @@
   },
   {
    "from": "f2_admissible_object",
-   "to": "u2c_giant_tnull_dichotomy",
-   "kind": "ref"
+   "to": "f2_conditional_close",
+   "kind": "ev"
   },
   {
    "from": "f2_admissible_weighted_prefix_l2_identity",
    "to": "f2_conditional_close",
    "kind": "ev"
+  },
+  {
+   "from": "f2_all_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_object",
+   "kind": "ref"
   },
   {
    "from": "f2_all_admissible_direct_sum_grs_reduction",
@@ -53826,6 +53853,11 @@
   },
   {
    "from": "f2_full_ladder_dictionary",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_generated_field_ambient_invariance",
    "to": "f2_conditional_close",
    "kind": "ev"
   },

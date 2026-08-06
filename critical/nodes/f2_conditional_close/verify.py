@@ -21,6 +21,8 @@ def main() -> None:
     class_alarm = "f2_all_admissible_direct_sum_grs_reduction"
     floor = "f2_weighted_kernel_collision_floor"
     minus = "f2_minus_branch_coupled_negacyclic_reduction"
+    ambient = "f2_generated_field_ambient_invariance"
+    stale_object = "f2_admissible_object"
 
     assert nodes[close]["status"] == "TARGET"
     assert nodes[reduction]["status"] == "PROVED"
@@ -29,6 +31,8 @@ def main() -> None:
     assert nodes[class_alarm]["status"] == "REFUTED"
     assert nodes[floor]["status"] == "PROVED"
     assert nodes[minus]["status"] == "PROVED"
+    assert nodes[ambient]["status"] == "PROVED"
+    assert nodes[stale_object]["status"] == "REFUTED"
     assert "plus branch" in nodes[reduction]["statement"].lower()
     assert (reduction, close, "ev") in edges
     assert (myerson, close, "ev") in edges
@@ -36,9 +40,10 @@ def main() -> None:
     assert (class_alarm, close, "ev") in edges
     assert (floor, close, "ev") in edges
     assert (minus, close, "ev") in edges
+    assert (ambient, close, "ev") in edges
     assert (myerson, close, "req") not in edges
     assert (close, "u2c_giant_tnull_dichotomy", "req") in edges
-    print("F2_ROUND18_CRITICAL_ROUTE_REPAIR_PASS statuses=7/7 edges=8/8")
+    print("F2_CRITICAL_ROUTE_REPAIR_PASS statuses=9/9 edges=9/9")
 
 
 if __name__ == "__main__":

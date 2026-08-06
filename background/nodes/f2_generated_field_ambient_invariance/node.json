@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_generated_field_ambient_invariance",
+    "title": "F2 generated-field ambient invariance",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For F=F_(p^e), B=F_p(mu_n)=F_(p^k), and D=g mu_n, scaling S=gT gives p_j(S)=g^j p_j(T) and e_j(S)=g^j e_j(T). It therefore preserves t-null blocks, moment-trade block families, subgroup-coset structure, and complements exactly. For every F2 window and exponent set the syndrome maps satisfy A_D=diag(g^ell)A_B, so their F_p kernels, ranks, weighted ternary masses, subset-syndrome fibers, maxima, and collision sums are identical. Consequently the seven non-generating official degree/order types descend exactly to three of the five signed generating types. This does not restore ambient-normalized (O1) and proves no mass upper bound or final extras budget.",
+    "refs": [
+      "background/nodes/f2_generated_field_ambient_invariance/statement.md",
+      "background/nodes/f2_generated_field_ambient_invariance/proof.md",
+      "background/nodes/f2_generated_field_ambient_invariance/claim_contract.md",
+      "background/nodes/f2_generated_field_ambient_invariance/dependency_subdag.md",
+      "background/nodes/f2_generated_field_ambient_invariance/audit.md",
+      "background/nodes/f2_generated_field_ambient_invariance/result.md",
+      "background/nodes/f2_generated_field_ambient_invariance/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f2_admissible_degree_order_classification"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}
