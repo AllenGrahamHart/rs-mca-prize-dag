@@ -44,3 +44,11 @@ retry or larger `B1` is authorized, and the app stops when the client exits.
 tools/ramguard modal -- modal run \
   notes/pilots_20260806/wcl15_finish/tail191_ecm_modal.py
 ```
+
+App `ap-qUcK72KF9ec7cN4chlxoA9` completed and stopped normally.  All ten
+workers reached their 300-second subprocess cap without a divisor; no client
+error occurred.  PARI printed `PRIME:0`, independently confirming that the
+integer is composite.  Result SHA-256 is
+`11cbae528206806d411efe4e0deb9da59956335358d9afae6dd729780e1eae6f`.
+The preregistered retry budget is exhausted.  The norm is now the explicit
+external request in `EXTERNAL_REQUEST.md`.

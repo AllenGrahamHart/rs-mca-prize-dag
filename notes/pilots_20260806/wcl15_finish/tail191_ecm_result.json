@@ -1,0 +1,215 @@
+{
+  "client_errors": [],
+  "divisors": [],
+  "norm": "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+  "norm_bits": 269,
+  "results": [
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.007257,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 100000,
+        "curves": 100000,
+        "kind": "ecm",
+        "sigma": 2026080601
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.007633,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 100000,
+        "curves": 100000,
+        "kind": "ecm",
+        "sigma": 2026080603
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.00639,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 100000,
+        "curves": 100000,
+        "kind": "ecm",
+        "sigma": 2026080604
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.006508,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 1000000,
+        "curves": 10000,
+        "kind": "ecm",
+        "sigma": 2026080611
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.006885,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 1000000,
+        "curves": 10000,
+        "kind": "ecm",
+        "sigma": 2026080612
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.008796,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 1000000,
+        "curves": 10000,
+        "kind": "ecm",
+        "sigma": 2026080613
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.009334,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 5000000,
+        "curves": 1000,
+        "kind": "ecm",
+        "sigma": 2026080621
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.013276,
+      "stderr_tail": "",
+      "stdout_tail": "PRIME:0\n",
+      "strategy": {
+        "kind": "pari",
+        "seed": 2026080631
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.008505,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "kind": "flint",
+        "seed": 2026080641
+      },
+      "timed_out": true
+    },
+    {
+      "completion": [],
+      "divisors": [],
+      "return_code": null,
+      "seconds": 300.006664,
+      "stderr_tail": "",
+      "stdout_tail": "",
+      "strategy": {
+        "b1": 100000,
+        "curves": 100000,
+        "kind": "ecm",
+        "sigma": 2026080602
+      },
+      "timed_out": true
+    }
+  ],
+  "schema": "wcl15-tail191-ecm-v1",
+  "source_sha256": "a2ae66dc9df0ff86a49ec67425a15fa3cf77caee5e74f8e987046efc8a129633",
+  "status": "NO_FACTOR_WITHIN_CAP",
+  "strategies": [
+    {
+      "b1": 100000,
+      "curves": 100000,
+      "kind": "ecm",
+      "sigma": 2026080601
+    },
+    {
+      "b1": 100000,
+      "curves": 100000,
+      "kind": "ecm",
+      "sigma": 2026080602
+    },
+    {
+      "b1": 100000,
+      "curves": 100000,
+      "kind": "ecm",
+      "sigma": 2026080603
+    },
+    {
+      "b1": 100000,
+      "curves": 100000,
+      "kind": "ecm",
+      "sigma": 2026080604
+    },
+    {
+      "b1": 1000000,
+      "curves": 10000,
+      "kind": "ecm",
+      "sigma": 2026080611
+    },
+    {
+      "b1": 1000000,
+      "curves": 10000,
+      "kind": "ecm",
+      "sigma": 2026080612
+    },
+    {
+      "b1": 1000000,
+      "curves": 10000,
+      "kind": "ecm",
+      "sigma": 2026080613
+    },
+    {
+      "b1": 5000000,
+      "curves": 1000,
+      "kind": "ecm",
+      "sigma": 2026080621
+    },
+    {
+      "kind": "pari",
+      "seed": 2026080631
+    },
+    {
+      "kind": "flint",
+      "seed": 2026080641
+    }
+  ]
+}

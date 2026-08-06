@@ -66,3 +66,31 @@ new assumptions: none
 compute: two bounded exact Modal apps, both stopped; independent full replay
 next: formulate and attack official first-unpaid post-envelope (FR), not generic local forcing
 ```
+
+### WCL `(1,5)` complete easy census and one hard tail
+
+The interrupted direct norm route is now complete at easy depth.  Three
+missing-only waves plus independent all-volume inventories cover every one of
+the `2,296,920` affine-Galois classes.  Of these, `2,296,726` norms are
+completely factored; none contains an official-gate prime and the maximum
+observed `v_2(p-1)` is 30.  The exact hard-tail manifest has 194 distinct
+norms.  A bounded 100-worker campaign completely factors 193, again with no
+gate factor and maximum valuation 17.
+
+One 269-bit composite remains.  Two PARI attempts, FLINT, and eight seeded
+GMP-ECM workers all reached 300-second caps without a divisor.  It is now a
+compact external ECM/QS/NFS request.  Separately, the full easy+tail packet
+still needs compact aggregation and an independent exact replay; the target
+therefore remains open.
+
+```text
+starting pin: fd4f2d23; canonical 9c3a6d90; upstream main 93fba1be
+node: dli_wcl_slot_1_5_emptiness [TARGET]
+result: easy census COMPLETE; hard tails 193/194; one 269-bit external factor request
+DAG status delta: none
+upstream terminal delta: none
+delta-star bracket movement: none
+new assumptions: none
+compute: bounded Modal waves and inventories; all apps stopped
+next: build independent batch replay and aggregate; await certified factorization of tail 191
+```

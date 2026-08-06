@@ -5190,6 +5190,16 @@ makes a bounded range complete.
   One targeted ten-worker GMP-ECM/PARI/FLINT comparison for that 269-bit norm
   is authorized with 330/300-second caps and conservative `$0.50` ceiling;
   no broad retry.  See `notes/pilots_20260806/wcl15_finish/TAIL191_PREREG.md`.
+  Targeted app `ap-qUcK72KF9ec7cN4chlxoA9` completed and stopped normally.
+  All ten workers timed out at 300 seconds without a divisor; PARI confirms
+  the 269-bit integer is composite.  Packet SHA-256 is
+  `11cbae528206806d411efe4e0deb9da59956335358d9afae6dd729780e1eae6f`.
+  **External request CR-004-W15-TAIL191-NFS:** completely factor
+  `648504938724625892617537595827566622528651020454874372151735040370465231483079169`,
+  return checkable primality certificates and every `v_2(p-1)`, and report
+  resource telemetry.  Full custody and required output are in
+  `notes/pilots_20260806/wcl15_finish/EXTERNAL_REQUEST.md`.  No further Modal
+  factoring is authorized without a new cost estimate.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm
