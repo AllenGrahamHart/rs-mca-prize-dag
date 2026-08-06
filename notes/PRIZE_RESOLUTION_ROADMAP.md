@@ -18773,6 +18773,46 @@ new assumptions: none
 compute: bounded exact enumeration under tiny RAM guard; no Modal spend
 next: stay on the constant-weight collision hierarchy or prove strip-aware exchange compression
 ```
+
+### Exact local reformulation: maximum fiber is primitive shift-pair degree
+
+The corrected target now has an exact local form. After the declared
+support-wise first-match strips, join two residual `A`-subsets when they have
+the same full depth-`t` locator prefix. The graph is a disjoint union of
+prefix-fiber cliques, so
+
+```text
+max_z |R_z| = 1 + max_(S in R) deg_R(S).
+```
+
+Locator subtraction also proves, in every characteristic, that two distinct
+same-prefix supports have Johnson side-distance `e>=t+1`. After their common
+core is removed they are a shift pair; at `e=t+1` the two residual locators
+differ by a nonzero constant. Thus `u2c_exact_slice_extras_budget` is
+equivalent to the uniform local bound
+
+```text
+deg_R(S) <= N^3-1.
+```
+
+This is banked as `x4_maxfiber_local_shiftpair_equivalence` and aligns the
+critical leaf exactly with upstream's primitive shift-pair input. It also
+explains why the exact global second-moment identity is insufficient: it
+controls the average of these degrees, while one exceptional support decides
+the maximum. Exact replay at `F_17^*`: 12,870 supports, 4,881 fibers,
+12,743 colliding pairs, and 8,820 top-stratum constant-shift pairs.
+
+```text
+starting pin: ffd826c67; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / local primitive shift-pair control
+result: proved max-prefix/local-degree equivalence and the e>=t+1 rigidity threshold
+DAG status delta: +1 off-orbit PROVED adapter; no strict status change
+upstream terminal delta: exact adapter from our x4 leaf to upstream SP terminology
+delta-star bracket movement: none
+new assumptions: none
+compute: bounded exact enumeration under tiny RAM guard; no Modal spend
+next: bound local primitive shift-pair degree after quotient and moment-trade strips
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

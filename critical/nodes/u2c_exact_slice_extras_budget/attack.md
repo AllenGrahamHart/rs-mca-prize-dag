@@ -11,6 +11,8 @@ theorem and not a null-fiber theorem.
 3. Direct route: control the maximum fiber by high collision moments or a
    divisor-with-prescribed-full-prefix theorem. Fixed low moments and
    per-power-sum Weil bounds do not control the maximum.
+   Equivalently, by `x4_maxfiber_local_shiftpair_equivalence`, prove that every
+   residual support has at most `N^3-1` same-prefix residual neighbours.
 4. Treat the full-ladder dictionary, complement involution, empty edge bands,
    and near-tail widths `15,14,13,12` as null-route inputs only until step 2
    is proved.

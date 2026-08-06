@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_maxfiber_local_shiftpair_equivalence",
+    "title": "Maximum prefix fiber equals one plus maximum local shift-pair degree",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any support-wise first-match residual family partitioned by the depth-t elementary locator-prefix map, form the graph whose vertices are residual A-subsets and whose edges join distinct supports with equal prefix. Each nonempty prefix fiber is a clique and there are no edges between fibers, so max_z |R_z|=1+max_S deg(S) exactly. Distinct same-prefix supports have Johnson side-distance e>=t+1; after removing their common core, the two disjoint e-locators form a shift pair, and at e=t+1 their difference is a nonzero constant. Therefore the official N^3 maximum-prefix target is equivalent to a uniform local primitive shift-pair degree at most N^3-1 after the same paid strips. A global second-moment identity controls only the average degree and does not replace this local bound.",
+    "refs": [
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/statement.md",
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/proof.md",
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/audit.md",
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/claim_contract.md",
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/dependency_subdag.md",
+      "background/nodes/x4_maxfiber_local_shiftpair_equivalence/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca v13 primitive shift-pair control / exact second-moment ledger",
+      "relation": "ADAPTER"
+    }
+  },
+  "requires": [
+    {
+      "from": "v13_prefix_collision_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_exact_slice_extras_budget"
+    }
+  ],
+  "refutes": []
+}
