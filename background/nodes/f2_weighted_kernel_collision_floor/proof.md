@@ -27,6 +27,16 @@ sum_v N(v)^2 >= 4^m/p^d.
 
 Division by `2^m` proves `(FLOOR-2)`.
 
+For `(FLOOR-3)`, insert additive-character orthogonality for `A eps=0`:
+
+```text
+Z(A)=p^-d sum_u prod_s
+  [1 + (1/2)chi(<u,a_s>) + (1/2)chi(-<u,a_s>)]
+    =p^-d sum_u prod_s (1+cos(2 pi <u,a_s>/p)).
+```
+
+The identity `1+cos(2x)=2cos^2(x)` gives the second form.
+
 Finally fix a fiber representative `x_0 in {0,1}^m`. Its other incidence
 vectors are exactly `x=x_0+c` with `c in K` and
 `c_i in {-x_0(i),1-x_0(i)}` coordinatewise. This is the asserted

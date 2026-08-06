@@ -1,7 +1,7 @@
 # Claim contract
 
-- **claim:** the exact weighted collision identity, its pointwise rank
-  floor, and the two-list full-agreement interpretation;
+- **claim:** the exact weighted collision and Fourier identities, their
+  pointwise rank floor, and the two-list full-agreement interpretation;
 - **scope:** every finite prime field, every finite-dimensional linear map,
   and the full subset cube;
 - **dependencies:** none;

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import itertools
 import json
+import math
 from collections import Counter
 from fractions import Fraction
 from pathlib import Path
@@ -40,6 +41,14 @@ def rank_mod(rows: list[list[int]], p: int) -> int:
     return rank
 
 
+def independent_rows(rows: list[list[int]], p: int) -> list[list[int]]:
+    basis = []
+    for row in rows:
+        if rank_mod(basis + [row], p) > len(basis):
+            basis.append(row)
+    return basis
+
+
 def syndrome(rows: list[list[int]], vector: tuple[int, ...], p: int) -> tuple[int, ...]:
     return tuple(sum(a * b for a, b in zip(row, vector)) % p for row in rows)
 
@@ -60,6 +69,16 @@ def check_matrix(p: int, m: int, rows: list[list[int]]) -> tuple[int, int]:
     assert collisions == (1 << m) * mass
     assert mass >= 1
     assert mass >= Fraction(1 << m, p**d)
+    basis = independent_rows(rows, p)
+    fourier = 0.0
+    for u in itertools.product(range(p), repeat=d):
+        term = 1.0
+        for col in range(m):
+            phase = sum(u[i] * basis[i][col] for i in range(d)) % p
+            term *= 1.0 + math.cos(2.0 * math.pi * phase / p)
+        fourier += term
+    fourier /= p**d
+    assert abs(fourier - float(mass)) < 1e-9
     return collisions, words
 
 

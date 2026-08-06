@@ -18,6 +18,14 @@ For the subset-syndrome map `Phi(S)=A 1_S`, let
 Z(A) >= max(1, 2^m/p^d).                             (FLOOR-2)
 ```
 
+After identifying the image with `F_p^d`, let `a_s` be the syndrome column
+at coordinate `s` and let `chi(x)=exp(2 pi i x/p)`. Then also
+
+```text
+Z(A)=p^-d sum_(u in F_p^d) prod_s (1+cos(2 pi <u,a_s>/p))
+    =(2^m/p^d) sum_u prod_s cos^2(pi <u,a_s>/p).       (FLOOR-3)
+```
+
 For every nonempty fiber, `N(v)` is also the full-agreement list-recovery
 output size of the linear code `K` with two allowed symbols at every
 coordinate. The theorem is pointwise for every linear map; it is not an

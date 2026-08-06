@@ -19,3 +19,7 @@ its claim that admissibility forces `v_2(p-1)>=39` and that exactly three
 generating classes survive. Its field-generic `Z-FLOOR` theorem is valid and
 has been imported separately. The minus branch is repaired by the coupled
 negacyclic reduction, not by retaining the bounded-class census.
+
+The Round-18 route-(b) display also uses `1+2cos`, the unweighted ternary
+enumerator. The weighted prize mass uses `1+cos=2cos^2`; the exact corrected
+formula is banked in `f2_weighted_kernel_collision_floor`.

@@ -18150,6 +18150,9 @@ This is now the self-contained PROVED node
 `f2_weighted_kernel_collision_floor`. Canonical's generating census is not
 imported: its proof explicitly says admissibility forces
 `v_2(p-1)>=39`, again omitting `p=3 mod 4` and the official M61 row.
+Its route-(b) display also uses the unweighted factor `1+2cos`. The exact
+weighted Fourier factor is `1+cos=2cos^2`, now included in the generic
+supplier; any upper-mass attack must start from that normalization.
 
 The minus branch itself is now structurally closed by the PROVED node
 `f2_minus_branch_coupled_negacyclic_reduction`. For each exact/nested top
@@ -18180,7 +18183,7 @@ DAG status delta: two PROVED suppliers and two evidence edges; no target flip
 upstream terminal delta: canonical ternary-in-code primitive corrected to include the minus branch
 delta-star bracket movement: none
 new assumptions: none; initial odd run and official 2R<2^36 are deployed facts
-compute: app ap-P8S3Pzo8owNjxZpdZljpno, bounded PASS
+compute: app ap-3u4NDxYLTav3KGsvw6nnhN, bounded PASS
 next: seek one upper-mass theorem covering plus GRS and minus Frobenius-closed root codes
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR

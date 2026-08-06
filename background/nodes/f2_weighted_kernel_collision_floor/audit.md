@@ -10,3 +10,6 @@
 5. This is the field-generic core of canonical Round-18 THEOREM Z-FLOOR;
    the proof here is self-contained and does not inherit its row
    classification.
+6. For the weighted mass the Fourier factor is `1+cos`, equivalently
+   `2cos^2`. The factor `1+2cos` counts ternary words without the
+   `2^-wt` weight and is not the prize terminal.

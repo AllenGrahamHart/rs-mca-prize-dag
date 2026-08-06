@@ -27,7 +27,8 @@ All sweeps are bounded; no official-size vector is allocated.
 
 ## Result
 
-Modal app `ap-P8S3Pzo8owNjxZpdZljpno` returned PASS. The generic floor
+Modal app `ap-3u4NDxYLTav3KGsvw6nnhN` returned PASS after the weighted
+Fourier normalization was added. The generic floor
 verifier checked four complete matrices (`786` collisions, `168` ternary
 kernel words); the minus verifier checked `4,094` order cases, `28`
 surrogate orbit families, `15` official-pattern top orbits, and the M61
