@@ -17895,6 +17895,36 @@ new assumptions: none
 compute: full replay apps ap-0OBpQSj0V7998tTvkzixwx/ap-y5FDRVADCUfOqoflndTSDg; tail cert ap-beZVadXTE7z94tsQiEsGZ7; CADO ap-gyFwY6AxmBrU0NioPlsJ5C; final cert ap-hMfVc7KQMaSvmDtSO5a9kS
 next: export the closed slot and attack the nine remaining WCL cells
 ```
+
+### Round-17 canonical terminal correction and next WCL endpoint
+
+Canonical Round 17 refutes the proposed four-lane `(ES-G)` weld.  The `u2c`
+pin is the surviving global-balance statement, but the other consumers do not
+share its regime: the crossing lane fails the deepest stratum at `w=2^34`
+on every admissible pair; the rate-`1/16` band is never sub-balance; the low
+fifth of the rate-`1/4` and rate-`1/8` band flips; and DLI RES is strictly
+above balance by its own `(H2)`.  The roadmap must therefore carry separate
+terminals for crossing, band, `u2c`, and DLI rather than treating `(ES-G)` as
+a shared discharge.
+
+After the `(1,5)` closure, the next WCL cell is `(1,6)`.  Its direct affine
+census has `185,569,028` classes and is not an economical next run.  The
+proved even-norm divisor descent instead reduces the cell to six remainder
+equations in five variables; their rational ideal is the unit ideal.  The
+next exact action is to price extraction of an integer Nullstellensatz
+certificate `Delta_6`, not to launch the census.  A complete `Delta_6`
+identity plus factor/gate certification would close the slot.
+
+```text
+starting pin: e7ec67fa; canonical 4ff7fe51; upstream main 93fba1be
+canonical correction: shared ES-G terminal refuted; four lane-specific obligations
+node selected: dli_wcl_slot_1_6_emptiness [TARGET]
+preferred supplier: dli_wcl_ell1_weight6_even_norm_divisor_descent [PROVED]
+DAG status delta: none in this subsection
+upstream terminal delta: none; WCL register PR #1050 is closed unmerged
+compute: none yet; bounded Singular certificate-pricing pilot next
+next: construct the six exact remainders and test rational unit-certificate extraction
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
