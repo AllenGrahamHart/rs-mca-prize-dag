@@ -51,3 +51,13 @@ Honest residuals accepted as stated (witness box scope; (R-A) open
 cells; SL-1b′ untouched; the Frobenius-closure lead recorded not
 evaluated). Minor report defect (harmless): none found beyond MY
 DEFECT-2 gloss. DRAFT-ONLY compliance confirmed via git status.
+
+## ADDENDUM (2026-08-06, coordinator, from round-17 f2_adm CATCH-2)
+
+LEMMA SL-1b-DIM's upper-bound constant k = [F_q:F_p] must be read as
+k = ord_n(p) (the two coincide on the tower where the lemma was
+derived, and differ by up to 6x on admissible rows, where the banked
+reading OVERSTATES dim L). Superseded in any case: on admissible rows
+f2_adm's LEMMA ADM-2 gives dim L EXACTLY (= C·min(S,R)) — the bracket
+collapses to a point and INTERACTION-1 is closed. See
+notes/pilots_20260806/f2_adm/.

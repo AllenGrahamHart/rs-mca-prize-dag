@@ -1,0 +1,464 @@
+=== S0  verbatim quote checks =========================================
+PASS  S0 critical/nodes/rules_freeze/statement.md:9   smooth domain = coset of a power-of-2-order subgroup; k <= 2^40; |F| <
+PASS  S0 critical/nodes/rules_freeze/statement.md:9   on any residual ambiguity the campaign plans against the stricter read
+PASS  S0 notes/pilots_20260802/f2_deployed_windows/tower.py:17   the moving coordinates are the elements of order EXACTLY 2^{24+j},
+PASS  S0 notes/pilots_20260802/f2_deployed_windows/tower.py:18   m_j = (n_j - n_{j-1}) / 2 = 2^{22+j} conjugate pairs.
+PASS  S0 notes/pilots_20260802/f2_deployed_windows/tower.py:15   RUNG j (j = 1..16):  n_j = 2^{24+j},  q_j = p^{2^j},  k_j = 2^j,
+PASS  S0 notes/pilots_20260802/f2_deployed_windows/tower.py:26   (i)   v_2(q_j - 1) = e + j            for every j >= 0   [LTE],
+PASS  S0 notes/pilots_20260802/f2_deployed_windows/tower.py:28   (iii) every y of order exactly n_j satisfies  y^{q_{j-1}} = -y.
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:10   `G = mu_{n}` with `n | p^2-1`, `n` even; `psi(s) = zeta_p^s`.
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:15   `W = {x : ord(x) = n_j}`, `m_j = 2^{22+j}`; the full-group window is
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:81   sum_{i=1}^{m} eps_i y_i^{l} = 0  in F_{p^2},  for every l in Lambda.
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:94   E_{c in K1}[T_W(c)]  >=  2^{m}  =  2^{|W|/2}   for EVERY Lambda.
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:106   Suppose `Lambda ⊇ {1, 3, 5, ..., 2m-1}` and these are distinct residue
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:225   dim_{F_p} L  >=  m / log2 p  -  o(n)/log2 p.
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:330   is forced, since `dim L <= t < m`) and (O1) reduces to bounding
+PASS  S0 notes/pilots_20260804/f2_opening/PROOFS.md:341   - `E_c[.]` is an **average** over the K1 subspace. The consumer sums
+PASS  S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:99   and `eps != 0` satisfies **`wt(eps) >= R + 1`**.
+PASS  S0 notes/pilots_20260804/f2_sl1_powersums/PROOFS.md:316   **SL-1b (the named residual, replacing SL-1 on the obligation list):**
+PASS  S0 notes/pilots_20260806/f2_sl1b/PROOFS.md:161   min(m, R)   <=   dim_{F_p} L   <=   min(m, k·|Lambda|).
+PASS  S0 notes/pilots_20260806/f2_sl1b/PROOFS.md:259   k = 1   =>   dim_{F_p} L  =  min(m, R)   EXACTLY.
+PASS  S0 notes/pilots_20260806/f2_sl1b/PROOFS.md:571   prove `Z(L) = sum_{eps in L^perp ∩ T} 2^{-wt(eps)} <= 2^{o(m)}`.
+PASS  S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:114   v_2(e) <= 2,      e <= 6,      log2 p >= 39,
+PASS  S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:131   p = 18446735827372343297   (prime, v_2(p-1) = 39 exactly, log2 p = 64.
+PASS  S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:174   t · L  >=  n .                                (C)
+PASS  S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:202   2^41/256  <  t  <=  2^41/41 ,        i.e.   8.590e9 < t <= 5.364e10 .
+PASS  S0 notes/pilots_20260806/f2_tq_pin/PROOFS.md:402   **In the extension reading, average-vs-sum is EXACTLY a factor `2^{n/2
+PASS  S0 notes/pilots_20260802/f2_fixed_sector/REPORT.md:33   (O1) first-moment target E_{c in K1}[exp S_c] <= 2^{n/2 + o(n)}
+
+=== S1  the banked admissible witness row =============================
+PASS  S1.1 p prime   p = 18446735827372343297
+PASS  S1.2 v_2(p-1) = 39   e_p = 39
+PASS  S1.3 log2 p in [63.99, 64)   log2 p = 63.999999355
+PASS  S1.4 log2 q < 256   L = 255.999997420
+PASS  S1.5 v_2(q-1) = 41   v_2(q-1) = 41
+PASS  S1.6 n | q-1   2^41 | p^4 - 1
+PASS  S1.7 ord_{2^41}(p) = 4   k = 4
+PASS  S1.8 moving-rung count D = 2   D = 2
+PASS  S1.9 ladder = (2^39,p,1,2^38)/(2^40,p^2,2,2^38)/(2^41,p^4,4,2^39)   [(39, 1, 274877906944), (40, 2, 274877906944), (41, 4, 549755813888)]
+PASS  S1.10 fixed sector = 1/4 of the domain   |mu_2^39|/n = 1/4
+PASS  S1.11 KoalaBear fixed sector = 2^-16 of its domain   1/65536
+PASS  S1.12 row-consistent t = n/L just above 2^33   t_row = 8589934678.6  (2^33 = 8589934592)
+      witness: p = 18446735827372343297, e_p = 39, e = 4, k = 4, L = 255.999997
+      t_row = n/L = 8589934678.6;  R = ceil(t/2) = 4294967340
+
+=== S2  the admissible region and the depth-budget trade-off ==========
+PASS  S2.1 admissible depth <= 2 rungs   D in [0, 1, 2]
+PASS  S2.2 v_2(e) <= 2 and e <= 6 on every admissible row   max e = 6
+PASS  S2.3 log2 p >= 39 on every admissible row   min forced log2 p = 39
+      D | forced L >= | t = n/L <=      | classes (e_p, e, k)
+      0 |          41 |      5.3635e+10 | [(41, 1, 1), (41, 2, 1), (41, 3, 1), (41, 4, 1), (41, 5, 1), (41, 6, 1), (42, 1, 1), (42, 2, 1), (42, 3, 1), (42, 4, 1), (42, 5, 1), (42, 6, 1), (43, 1, 1), (43, 2, 1), (43, 3, 1), (43, 4, 1), (43, 5, 1), (44, 1, 1), (44, 2, 1), (44, 3, 1), (44, 4, 1), (44, 5, 1), (45, 1, 1), (45, 2, 1), (45, 3, 1), (45, 4, 1), (45, 5, 1), (46, 1, 1), (46, 2, 1), (46, 3, 1), (46, 4, 1), (46, 5, 1), (47, 1, 1), (47, 2, 1), (47, 3, 1), (47, 4, 1), (47, 5, 1), (48, 1, 1), (48, 2, 1), (48, 3, 1), (48, 4, 1), (48, 5, 1), (49, 1, 1), (49, 2, 1), (49, 3, 1), (49, 4, 1), (49, 5, 1), (50, 1, 1), (50, 2, 1), (50, 3, 1), (50, 4, 1), (50, 5, 1), (51, 1, 1), (51, 2, 1), (51, 3, 1), (51, 4, 1), (51, 5, 1), (52, 1, 1), (52, 2, 1), (52, 3, 1), (52, 4, 1), (53, 1, 1), (53, 2, 1), (53, 3, 1), (53, 4, 1), (54, 1, 1), (54, 2, 1), (54, 3, 1), (54, 4, 1), (55, 1, 1), (55, 2, 1), (55, 3, 1), (55, 4, 1), (56, 1, 1), (56, 2, 1), (56, 3, 1), (56, 4, 1), (57, 1, 1), (57, 2, 1), (57, 3, 1), (57, 4, 1), (58, 1, 1), (58, 2, 1), (58, 3, 1), (58, 4, 1), (59, 1, 1), (59, 2, 1), (59, 3, 1), (59, 4, 1)]
+      1 |          80 |      2.7488e+10 | [(40, 2, 2), (40, 4, 2), (40, 6, 2)]
+      2 |         156 |      1.4096e+10 | [(39, 4, 4)]
+      3 |         304 |       7.2336e+9 | INADMISSIBLE
+PASS  S2.4 D=0 cap t <= 5.364e10   5.3635e+10
+PASS  S2.5 D=1 cap t <= 2.749e10   2.7488e+10
+PASS  S2.6 D=2 cap t <= 1.410e10   1.4096e+10
+PASS  S2.7 D=3 needs L >= 304 > 256 -> INADMISSIBLE   L >= 304
+PASS  S2.8 each extra rung at least halves the t cap   1.951x, 1.950x
+      existence per (e_p, e) class  [p = c*2^{e_p}+1, c odd, L < 256]:
+        (e_p=41, e=1): p = 6597069766657  (log2 p = 42.5850, L = 42.5850)
+        (e_p=41, e=2): p = 6597069766657  (log2 p = 42.5850, L = 85.1699)
+        (e_p=41, e=3): p = 6597069766657  (log2 p = 42.5850, L = 127.7549)
+        (e_p=41, e=4): p = 6597069766657  (log2 p = 42.5850, L = 170.3399)
+        (e_p=41, e=5): p = 6597069766657  (log2 p = 42.5850, L = 212.9248)
+        (e_p=41, e=6): p = 6597069766657  (log2 p = 42.5850, L = 255.5098)
+        (e_p=40, e=2): p = 29686813949953  (log2 p = 44.7549, L = 89.5098)
+        (e_p=40, e=4): p = 29686813949953  (log2 p = 44.7549, L = 179.0196)
+        (e_p=40, e=6): c < 6.35  ->  NO PRIME EXISTS  -- CLASS IS EMPTY
+        (e_p=39, e=4): p = 2748779069441  (log2 p = 41.3219, L = 165.2877)
+PASS  S2.9 the (e_p=40, e=6) class is EMPTY (no prime admits it)   empty classes = [(40, 6)]
+PASS  S2.10 the witness class (e_p=39, e=4) is realised, and by a smaller prime than the banked witness   p = 2748779069441
+PASS  S2.11 an EXPLICIT k=1, e=6 admissible row exists (LEMMA 3 refuted there, S5)   p = 6597069766657, L = 255.5098
+PASS  S2.12 an EXPLICIT k=2, e=4 admissible row exists   p = 29686813949953
+
+=== S3  TOY brute force: the decomposition that replaces the descent ===
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [new-part] dim L = C*min(S,R)  R=1   dim L = 2, C=2, S=2, pred = 2, m=4
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [new-part] sl1b bracket  R=1   1 <= 2 <= 4
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [new-part] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [new-part] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 2 = dim L^perp = 2, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [new-part] dim L = C*min(S,R)  R=2   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [new-part] sl1b bracket  R=2   2 <= 4 <= 4
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [new-part] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [new-part] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [new-part] dim L = C*min(S,R)  R=3   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [new-part] sl1b bracket  R=3   3 <= 4 <= 4
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [new-part] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [new-part] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [new-part] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [new-part] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [new-part] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [nested] dim L = C*min(S,R)  R=1   dim L = 4, C=4, S=2, pred = 4, m=8
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [nested] sl1b bracket  R=1   1 <= 4 <= 4
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [nested] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [nested] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [nested] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 4 = dim L^perp = 4, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [nested] dim L = C*min(S,R)  R=2   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [nested] sl1b bracket  R=2   2 <= 8 <= 8
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [nested] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [nested] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [nested] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [nested] dim L = C*min(S,R)  R=3   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [nested] sl1b bracket  R=3   3 <= 8 <= 8
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [nested] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [nested] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [nested] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [nested] dim L = C*min(S,R)  R=4   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [nested] sl1b bracket  R=4   4 <= 8 <= 8
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [nested] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [nested] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [nested] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T1 witness-analogue D=2,k=4,e=4 [nested] dim L = C*min(S,R)  R=5   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T1 witness-analogue D=2,k=4,e=4 [nested] sl1b bracket  R=5   5 <= 8 <= 8
+PASS  S3.C T1 witness-analogue D=2,k=4,e=4 [nested] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+PASS  S3.D T1 witness-analogue D=2,k=4,e=4 [nested] Z(L) = prod Z_class  R=5   Z = 1, prod = 1
+PASS  S3.N T1 witness-analogue D=2,k=4,e=4 [nested] L^perp = (+)_c ker(A_c) as SETS  R=5   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+      T1 witness-analogue D=2,k=4,e=4: p=5, n=16, e_p=2, D=2, k=4, e=4
+PASS  S3.A T2 D=1,k=2,e=2 [new-part] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=8, pred = 1, m=8
+PASS  S3.B T2 D=1,k=2,e=2 [new-part] sl1b bracket  R=1   1 <= 1 <= 2
+PASS  S3.C T2 D=1,k=2,e=2 [new-part] SL-1 wt >= R+1  R=1   min ternary wt = 3, R+1 = 2
+PASS  S3.A T2 D=1,k=2,e=2 [new-part] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=8, pred = 2, m=8
+PASS  S3.B T2 D=1,k=2,e=2 [new-part] sl1b bracket  R=2   2 <= 2 <= 4
+PASS  S3.C T2 D=1,k=2,e=2 [new-part] SL-1 wt >= R+1  R=2   min ternary wt = 6, R+1 = 3
+PASS  S3.A T2 D=1,k=2,e=2 [new-part] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=8, pred = 3, m=8
+PASS  S3.B T2 D=1,k=2,e=2 [new-part] sl1b bracket  R=3   3 <= 3 <= 6
+PASS  S3.C T2 D=1,k=2,e=2 [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T2 D=1,k=2,e=2 [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=8, pred = 4, m=8
+PASS  S3.B T2 D=1,k=2,e=2 [new-part] sl1b bracket  R=4   4 <= 4 <= 8
+PASS  S3.C T2 D=1,k=2,e=2 [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T2 D=1,k=2,e=2 [new-part] dim L = C*min(S,R)  R=5   dim L = 5, C=1, S=8, pred = 5, m=8
+PASS  S3.B T2 D=1,k=2,e=2 [new-part] sl1b bracket  R=5   5 <= 5 <= 8
+PASS  S3.C T2 D=1,k=2,e=2 [new-part] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+      T2 D=1,k=2,e=2: p=17, n=32, e_p=4, D=1, k=2, e=2
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [new-part] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=4, pred = 1, m=4
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [new-part] sl1b bracket  R=1   1 <= 1 <= 1
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [new-part] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=4, pred = 2, m=4
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [new-part] sl1b bracket  R=2   2 <= 2 <= 2
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [new-part] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=4, pred = 3, m=4
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [new-part] sl1b bracket  R=3   3 <= 3 <= 3
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=4, pred = 4, m=4
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [new-part] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [nested] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=8, pred = 1, m=8
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [nested] sl1b bracket  R=1   1 <= 1 <= 1
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [nested] SL-1 wt >= R+1  R=1   min ternary wt = 3, R+1 = 2
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [nested] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=8, pred = 2, m=8
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [nested] sl1b bracket  R=2   2 <= 2 <= 2
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [nested] SL-1 wt >= R+1  R=2   min ternary wt = 6, R+1 = 3
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [nested] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=8, pred = 3, m=8
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [nested] sl1b bracket  R=3   3 <= 3 <= 3
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [nested] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [nested] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=8, pred = 4, m=8
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [nested] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [nested] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T3 prime-field D=0,k=1,e=1 [nested] dim L = C*min(S,R)  R=5   dim L = 5, C=1, S=8, pred = 5, m=8
+PASS  S3.B T3 prime-field D=0,k=1,e=1 [nested] sl1b bracket  R=5   5 <= 5 <= 5
+PASS  S3.C T3 prime-field D=0,k=1,e=1 [nested] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+      T3 prime-field D=0,k=1,e=1: p=17, n=16, e_p=4, D=0, k=1, e=1
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=4, pred = 1, m=4
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] sl1b bracket  R=1   1 <= 1 <= 1
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=4, pred = 2, m=4
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] sl1b bracket  R=2   2 <= 2 <= 2
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=4, pred = 3, m=4
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] sl1b bracket  R=3   3 <= 3 <= 3
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=4, pred = 4, m=4
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [nested] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=8, pred = 1, m=8
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [nested] sl1b bracket  R=1   1 <= 1 <= 1
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [nested] SL-1 wt >= R+1  R=1   min ternary wt = 3, R+1 = 2
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [nested] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=8, pred = 2, m=8
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [nested] sl1b bracket  R=2   2 <= 2 <= 2
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [nested] SL-1 wt >= R+1  R=2   min ternary wt = 6, R+1 = 3
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [nested] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=8, pred = 3, m=8
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [nested] sl1b bracket  R=3   3 <= 3 <= 3
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [nested] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [nested] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=8, pred = 4, m=8
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [nested] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [nested] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T4 D=0,k=1 in a BIGGER ambient e=2 [nested] dim L = C*min(S,R)  R=5   dim L = 5, C=1, S=8, pred = 5, m=8
+PASS  S3.B T4 D=0,k=1 in a BIGGER ambient e=2 [nested] sl1b bracket  R=5   5 <= 5 <= 5
+PASS  S3.C T4 D=0,k=1 in a BIGGER ambient e=2 [nested] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+      T4 D=0,k=1 in a BIGGER ambient e=2: p=17, n=16, e_p=4, D=0, k=1, e=2
+PASS  S3.A T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] dim L = C*min(S,R)  R=1   dim L = 1, C=1, S=8, pred = 1, m=8
+PASS  S3.B T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] sl1b bracket  R=1   1 <= 1 <= 2
+PASS  S3.C T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] SL-1 wt >= R+1  R=1   min ternary wt = 3, R+1 = 2
+PASS  S3.A T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] dim L = C*min(S,R)  R=2   dim L = 2, C=1, S=8, pred = 2, m=8
+PASS  S3.B T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] sl1b bracket  R=2   2 <= 2 <= 4
+PASS  S3.C T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] SL-1 wt >= R+1  R=2   min ternary wt = 6, R+1 = 3
+PASS  S3.A T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] dim L = C*min(S,R)  R=3   dim L = 3, C=1, S=8, pred = 3, m=8
+PASS  S3.B T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] sl1b bracket  R=3   3 <= 3 <= 6
+PASS  S3.C T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.A T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=1, S=8, pred = 4, m=8
+PASS  S3.B T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] sl1b bracket  R=4   4 <= 4 <= 8
+PASS  S3.C T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.A T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] dim L = C*min(S,R)  R=5   dim L = 5, C=1, S=8, pred = 5, m=8
+PASS  S3.B T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] sl1b bracket  R=5   5 <= 5 <= 8
+PASS  S3.C T5 D=1,k=2 in a BIGGER ambient e=6 [new-part] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+      T5 D=1,k=2 in a BIGGER ambient e=6: p=17, n=32, e_p=4, D=1, k=2, e=6
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [new-part] dim L = C*min(S,R)  R=1   dim L = 2, C=2, S=2, pred = 2, m=4
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [new-part] sl1b bracket  R=1   1 <= 2 <= 4
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [new-part] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 2 = dim L^perp = 2, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [new-part] dim L = C*min(S,R)  R=2   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [new-part] sl1b bracket  R=2   2 <= 4 <= 4
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [new-part] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [new-part] dim L = C*min(S,R)  R=3   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [new-part] sl1b bracket  R=3   3 <= 4 <= 4
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [new-part] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [new-part] dim L = C*min(S,R)  R=4   dim L = 4, C=2, S=2, pred = 4, m=4
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [new-part] sl1b bracket  R=4   4 <= 4 <= 4
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [new-part] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [nested] dim L = C*min(S,R)  R=1   dim L = 4, C=4, S=2, pred = 4, m=8
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [nested] sl1b bracket  R=1   1 <= 4 <= 4
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [nested] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [nested] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [nested] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 4 = dim L^perp = 4, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [nested] dim L = C*min(S,R)  R=2   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [nested] sl1b bracket  R=2   2 <= 8 <= 8
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [nested] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [nested] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [nested] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [nested] dim L = C*min(S,R)  R=3   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [nested] sl1b bracket  R=3   3 <= 8 <= 8
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [nested] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [nested] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [nested] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [nested] dim L = C*min(S,R)  R=4   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [nested] sl1b bracket  R=4   4 <= 8 <= 8
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [nested] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [nested] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [nested] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T6 D=2,k=4,e=4 (p=13) [nested] dim L = C*min(S,R)  R=5   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T6 D=2,k=4,e=4 (p=13) [nested] sl1b bracket  R=5   5 <= 8 <= 8
+PASS  S3.C T6 D=2,k=4,e=4 (p=13) [nested] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+PASS  S3.D T6 D=2,k=4,e=4 (p=13) [nested] Z(L) = prod Z_class  R=5   Z = 1, prod = 1
+PASS  S3.N T6 D=2,k=4,e=4 (p=13) [nested] L^perp = (+)_c ker(A_c) as SETS  R=5   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+      T6 D=2,k=4,e=4 (p=13): p=13, n=16, e_p=2, D=2, k=4, e=4
+PASS  S3.A T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] dim L = C*min(S,R)  R=1   dim L = 4, C=4, S=2, pred = 4, m=8
+PASS  S3.B T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] sl1b bracket  R=1   1 <= 4 <= 8
+PASS  S3.C T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 4 = dim L^perp = 4, embeddings in ker: True
+PASS  S3.A T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] dim L = C*min(S,R)  R=2   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] sl1b bracket  R=2   2 <= 8 <= 8
+PASS  S3.C T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] dim L = C*min(S,R)  R=3   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] sl1b bracket  R=3   3 <= 8 <= 8
+PASS  S3.C T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] dim L = C*min(S,R)  R=4   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] sl1b bracket  R=4   4 <= 8 <= 8
+PASS  S3.C T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] dim L = C*min(S,R)  R=5   dim L = 8, C=4, S=2, pred = 8, m=8
+PASS  S3.B T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] sl1b bracket  R=5   5 <= 8 <= 8
+PASS  S3.C T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+PASS  S3.D T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] Z(L) = prod Z_class  R=5   Z = 1, prod = 1
+PASS  S3.N T7 D=3,k=8,e=8 (beyond the admissible cap) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=5   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+      T7 D=3,k=8,e=8 (beyond the admissible cap): p=5, n=32, e_p=2, D=3, k=8, e=8
+PASS  S3.A T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] dim L = C*min(S,R)  R=1   dim L = 2, C=2, S=4, pred = 2, m=8
+PASS  S3.B T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] sl1b bracket  R=1   1 <= 2 <= 4
+PASS  S3.C T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] SL-1 wt >= R+1  R=1   min ternary wt = None, R+1 = 2
+PASS  S3.D T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] Z(L) = prod Z_class  R=1   Z = 1, prod = 1
+PASS  S3.N T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=1   sum of class kernel dims = 6 = dim L^perp = 6, embeddings in ker: True
+PASS  S3.A T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] dim L = C*min(S,R)  R=2   dim L = 4, C=2, S=4, pred = 4, m=8
+PASS  S3.B T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] sl1b bracket  R=2   2 <= 4 <= 8
+PASS  S3.C T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] SL-1 wt >= R+1  R=2   min ternary wt = None, R+1 = 3
+PASS  S3.D T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] Z(L) = prod Z_class  R=2   Z = 1, prod = 1
+PASS  S3.N T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=2   sum of class kernel dims = 4 = dim L^perp = 4, embeddings in ker: True
+PASS  S3.A T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] dim L = C*min(S,R)  R=3   dim L = 6, C=2, S=4, pred = 6, m=8
+PASS  S3.B T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] sl1b bracket  R=3   3 <= 6 <= 8
+PASS  S3.C T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] SL-1 wt >= R+1  R=3   min ternary wt = None, R+1 = 4
+PASS  S3.D T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] Z(L) = prod Z_class  R=3   Z = 1, prod = 1
+PASS  S3.N T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=3   sum of class kernel dims = 2 = dim L^perp = 2, embeddings in ker: True
+PASS  S3.A T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] dim L = C*min(S,R)  R=4   dim L = 8, C=2, S=4, pred = 8, m=8
+PASS  S3.B T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] sl1b bracket  R=4   4 <= 8 <= 8
+PASS  S3.C T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] SL-1 wt >= R+1  R=4   min ternary wt = None, R+1 = 5
+PASS  S3.D T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] Z(L) = prod Z_class  R=4   Z = 1, prod = 1
+PASS  S3.N T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=4   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+PASS  S3.A T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] dim L = C*min(S,R)  R=5   dim L = 8, C=2, S=4, pred = 8, m=8
+PASS  S3.B T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] sl1b bracket  R=5   5 <= 8 <= 8
+PASS  S3.C T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] SL-1 wt >= R+1  R=5   min ternary wt = None, R+1 = 6
+PASS  S3.D T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] Z(L) = prod Z_class  R=5   Z = 1, prod = 1
+PASS  S3.N T8 D=2,k=4,e=4 with larger classes (p=41,n=32) [new-part] L^perp = (+)_c ker(A_c) as SETS  R=5   sum of class kernel dims = 0 = dim L^perp = 0, embeddings in ker: True
+      T8 D=2,k=4,e=4 with larger classes (p=41,n=32): p=41, n=32, e_p=3, D=2, k=4, e=4
+PASS  S3.E LEMMA 1 brute force (p=5, n=16, e=4, R=1, m=4): E_c[T_W] = 2^m Z(L)   E = 16, 2^m Z(L) = 16, 625 frequencies
+PASS  S3.E LEMMA 1 brute force (p=17, n=16, e=1, R=1, m=4): E_c[T_W] = 2^m Z(L)   E = 16, 2^m Z(L) = 16, 17 frequencies
+PASS  S3.E LEMMA 1 brute force (p=17, n=16, e=1, R=2, m=4): E_c[T_W] = 2^m Z(L)   E = 16, 2^m Z(L) = 16, 289 frequencies
+PASS  S3.E LEMMA 1 brute force (p=17, n=16, e=1, R=3, m=4): E_c[T_W] = 2^m Z(L)   E = 16, 2^m Z(L) = 16, 4913 frequencies
+PASS  S3.E LEMMA 1 brute force (p=17, n=32, e=2, R=1, m=8): E_c[T_W] = 2^m Z(L)   E = 3856, 2^m Z(L) = 3856, 289 frequencies
+PASS  S3.F trace-tower collapse p=17,n=16: dim L(e=1) = dim L(e=2)  R=1   1 vs 1; k|Lambda| = 1
+PASS  S3.L direct-image route agrees, ambient e=2, p=17,n=16 R=1   image-rank 1 = kernel-route 1 <= k|Lambda| = 1
+PASS  S3.M dim L does NOT grow with the ambient degree (e=1 -> 2), p=17,n=16 R=1   1 vs 1  (coefficients range over F_p^2)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=16 R=1   1 <= 1
+PASS  S3.F trace-tower collapse p=17,n=16: dim L(e=1) = dim L(e=2)  R=2   2 vs 2; k|Lambda| = 2
+PASS  S3.L direct-image route agrees, ambient e=2, p=17,n=16 R=2   image-rank 2 = kernel-route 2 <= k|Lambda| = 2
+PASS  S3.M dim L does NOT grow with the ambient degree (e=1 -> 2), p=17,n=16 R=2   2 vs 2  (coefficients range over F_p^2)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=16 R=2   2 <= 2
+PASS  S3.F trace-tower collapse p=17,n=16: dim L(e=1) = dim L(e=2)  R=3   3 vs 3; k|Lambda| = 3
+PASS  S3.L direct-image route agrees, ambient e=2, p=17,n=16 R=3   image-rank 3 = kernel-route 3 <= k|Lambda| = 3
+PASS  S3.M dim L does NOT grow with the ambient degree (e=1 -> 2), p=17,n=16 R=3   3 vs 3  (coefficients range over F_p^2)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=16 R=3   3 <= 3
+PASS  S3.F trace-tower collapse p=17,n=32: dim L(e=2) = dim L(e=6)  R=1   1 vs 1; k|Lambda| = 2
+PASS  S3.L direct-image route agrees, ambient e=6, p=17,n=32 R=1   image-rank 1 = kernel-route 1 <= k|Lambda| = 2
+PASS  S3.M dim L does NOT grow with the ambient degree (e=2 -> 6), p=17,n=32 R=1   1 vs 1  (coefficients range over F_p^6)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=32 R=1   1 <= 2
+PASS  S3.F trace-tower collapse p=17,n=32: dim L(e=2) = dim L(e=6)  R=2   2 vs 2; k|Lambda| = 4
+PASS  S3.L direct-image route agrees, ambient e=6, p=17,n=32 R=2   image-rank 2 = kernel-route 2 <= k|Lambda| = 4
+PASS  S3.M dim L does NOT grow with the ambient degree (e=2 -> 6), p=17,n=32 R=2   2 vs 2  (coefficients range over F_p^6)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=32 R=2   2 <= 4
+PASS  S3.F trace-tower collapse p=17,n=32: dim L(e=2) = dim L(e=6)  R=3   3 vs 3; k|Lambda| = 6
+PASS  S3.L direct-image route agrees, ambient e=6, p=17,n=32 R=3   image-rank 3 = kernel-route 3 <= k|Lambda| = 6
+PASS  S3.M dim L does NOT grow with the ambient degree (e=2 -> 6), p=17,n=32 R=3   3 vs 3  (coefficients range over F_p^6)
+PASS  S3.G dim L <= ord_n(p)*|Lambda| p=17,n=32 R=3   3 <= 6
+PASS  S3.H antipodal law y^{q_{j-1}} = -y holds on the subgroup   
+PASS  S3.I antipodal law FAILS on a coset with g not in F_{q_{j-1}}   as predicted (A10)
+PASS  S3.J coset invariance of dim L / Z(L) / min wt  R=1   dim 2=2, Z 1=1, wt None=None
+PASS  S3.J coset invariance of dim L / Z(L) / min wt  R=2   dim 4=4, Z 1=1, wt None=None
+PASS  S3.J coset invariance of dim L / Z(L) / min wt  R=3   dim 4=4, Z 1=1, wt None=None
+PASS  S3.K class code is [S,S-R,R+1] MDS  class=0 R=1   S=2, dim ker=1, d_min=2
+PASS  S3.K class code is [S,S-R,R+1] MDS  class=0 R=2   S=2, dim ker=0, d_min=-
+PASS  S3.K class code is [S,S-R,R+1] MDS  class=1 R=1   S=2, dim ker=1, d_min=2
+PASS  S3.K class code is [S,S-R,R+1] MDS  class=1 R=2   S=2, dim ker=0, d_min=-
+
+=== S4  THEOREM A / LEMMA 2 on admissible rows =========================
+      layer a | m(a)=2^{a-2} | needs t >= 2m-1 | discharged? (t = n/L)
+           30 |    268435456 |       5.3687e+8 | YES   (shortfall 0.06x)
+           33 |   2147483648 |       4.2950e+9 | YES   (shortfall 0.50x)
+           34 |   4294967296 |       8.5899e+9 | YES   (shortfall 1.00x)
+           35 |   8589934592 |      1.7180e+10 | no   (shortfall 2.00x)
+           39 | 137438953472 |      2.7488e+11 | no   (shortfall 32.00x)
+           40 | 274877906944 |      5.4976e+11 | no   (shortfall 64.00x)
+           41 | 549755813888 |      1.0995e+12 | no   (shortfall 128.00x)
+PASS  S4.1 witness: THEOREM A discharges exactly layers a <= 34   top discharged layer = 34
+PASS  S4.2 discharged fraction = 2/L   2^34/n = 0.007812 vs 2/L = 0.007813
+PASS  S4.3 discharged fraction at prize-max = 1/128   0.0078125
+PASS  S4.4 NO moving rung is discharged on ANY admissible row   min shortfall = 39.00x at (e_p=39, e=4, a=40)
+PASS  S4.5 the minimum shortfall over the admissible region is 39x (39*(1-2^-39), attained at e_p=39, e=4, a=40)   39.000000000x
+PASS  S4.6 witness rung 1 (a=40) misses THEOREM A   shortfall 64.00x
+PASS  S4.6 witness rung 2 (a=41) misses THEOREM A   shortfall 128.00x
+PASS  S4.7 discharged fraction <= 2/41 = 4.88% on every admissible row   max = 0.04878
+
+=== S5  LEMMA 3 on the admissible ladder ==============================
+      layer a | reading  | C | dim L (exact)   | need m/log2 p   | ratio
+           39 | new-part | 1 |      4294967340 |       2.1475e+9 | 2.000000
+           39 | nested   | 1 |      4294967340 |       4.2950e+9 | 1.000000
+           40 | new-part | 1 |      4294967340 |       4.2950e+9 | 1.000000
+           40 | nested   | 2 |      8589934680 |       8.5899e+9 | 1.000000
+           41 | new-part | 2 |      8589934680 |       8.5899e+9 | 1.000000
+PASS  S5.1 witness top window [new-part]: ratio = 1 (= max(2,k)/e)   ratio = 1.00000000
+           41 | nested   | 4 |     17179869360 |      1.7180e+10 | 1.000000
+PASS  S5.1 witness top window [nested]: ratio = 1 (= k/e)   ratio = 1.00000000
+      worst case over t in (2^33, 5.364e10] at the witness top window:
+        [new-part] t=2^33+: 1.000000   t=n/L: 1.000000   t=5.36e10: 6.243819
+PASS  S5.2 [new-part] worst case over the interval is the row value 1.000   min = 0.99999999
+        [nested  ] t=2^33+: 1.000000   t=n/L: 1.000000   t=5.36e10: 6.243819
+PASS  S5.2 [nested] worst case over the interval is the row value 1.000   min = 0.99999999
+      (k, e) | new-part ratio | nested ratio | verdict (nested governs)
+      (1, 1) |         2.0000 |       1.0000 | SATURATED (zero margin)
+      (1, 2) |         1.0000 |       0.5000 | (O1) REFUTED at this window
+      (1, 3) |         0.6667 |       0.3333 | (O1) REFUTED at this window
+      (1, 4) |         0.5000 |       0.2500 | (O1) REFUTED at this window
+      (1, 5) |         0.4000 |       0.2000 | (O1) REFUTED at this window
+      (1, 6) |         0.3333 |       0.1667 | (O1) REFUTED at this window
+      (2, 2) |         1.0000 |       1.0000 | SATURATED (zero margin)
+      (2, 4) |         0.5000 |       0.5000 | (O1) REFUTED at this window
+      (2, 6) |         0.3333 |       0.3333 | (O1) REFUTED at this window   [but this class is EMPTY -- S2.9]
+      (4, 4) |         1.0000 |       1.0000 | SATURATED (zero margin)
+PASS  S5.3 nested ratio = k/e <= 1 on EVERY admissible row   
+PASS  S5.4 nested ratio = 1 iff k = e   
+PASS  S5.5 (O1) at the full-group window REFUTED whenever k < e   [(1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 4), (2, 6)]
+PASS  S5.6 the only new-part row with margin > 1 is the prime-field row q=p   [(1, 1)]
+PASS  S5.7 witness (k=e=4) saturated under BOTH readings   1.000 / 1.000
+      regime robustness: ratio(t) = (tL/n) * k/e over t*L <= n
+        (k=1, e=6) p=3*2^41+1, q=p^6: tL/n=0.25: 0.0417  tL/n=0.5: 0.0833  tL/n=1.0: 0.1667
+PASS  S5.9 regime robustness at (k=1, e=6): ratio <= k/e for EVERY t with tL <= n   k/e = 0.1667; refutation needs no exact t
+        (k=2, e=4) p=27*2^40+1, q=p^4: tL/n=0.25: 0.1250  tL/n=0.5: 0.2500  tL/n=1.0: 0.5000
+PASS  S5.9 regime robustness at (k=2, e=4): ratio <= k/e for EVERY t with tL <= n   k/e = 0.5000; refutation needs no exact t
+        (k=4, e=4) the banked witness: tL/n=0.25: 0.2500  tL/n=0.5: 0.5000  tL/n=1.0: 1.0000
+PASS  S5.9 regime robustness at (k=4, e=4): ratio <= k/e for EVERY t with tL <= n   k/e = 1.0000; refutation needs no exact t
+PASS  S5.8 (k=1, e=6): (O1) fails by 2^{5/12*n}   excess exponent = 5/12 * n
+PASS  S5.8 (k=2, e=4): (O1) fails by 2^{1/4*n}   excess exponent = 1/4 * n
+
+=== S6  SL-1 / SL-1b / SL-1b' re-based ================================
+      layer 41 [new-part]: (R+1)/m = 0.00781250  (= 128.0^-1)
+PASS  S6.1 SL-1 designed distance fraction = 2/L = 1/128   0.007812500
+      layer 41 [nested  ]: (R+1)/m = 0.00390625  (= 256.0^-1)
+      layer 40 [new-part]: (R+1)/m = 0.01562500  (= 64.0^-1)
+PASS  S6.2 SL-1 fraction is HALF the banked tower rung-16 value   0.00781 vs banked 0.01563 at tower rung 16
+      SL-1b (R-A) [new-part]: dim L = 8.5899e+09, need = 1.3615e+10, ratio = 0.6309
+PASS  S6.3 (R-A) at the witness top window [new-part] is REFUTED (dim L is now EXACT)   ratio = 0.630930
+      SL-1b (R-A) [nested  ]: dim L = 1.7180e+10, need = 2.7229e+10, ratio = 0.6309
+PASS  S6.3 (R-A) at the witness top window [nested] is REFUTED (dim L is now EXACT)   ratio = 0.630930
+PASS  S6.4 (R-A) new-part ratio law at (k=1, e=1) = 1.2619 -> PROVED   exact dim L = C*min(S,R); expected PROVED
+PASS  S6.4 (R-A) new-part ratio law at (k=2, e=2) = 0.6309 -> REFUTED   exact dim L = C*min(S,R); expected REFUTED
+PASS  S6.4 (R-A) new-part ratio law at (k=4, e=4) = 0.6309 -> REFUTED   exact dim L = C*min(S,R); expected REFUTED
+PASS  S6.4 (R-A) new-part ratio law at (k=1, e=2) = 0.6309 -> REFUTED   exact dim L = C*min(S,R); expected REFUTED
+PASS  S6.4 (R-A) new-part ratio law at (k=2, e=6) = 0.2103 -> REFUTED   exact dim L = C*min(S,R); expected REFUTED
+PASS  S6.5 SL-1b' re-based: class code = [2^38, 2^38 - R, R+1]_p GRS/MDS   S = 2^38, R = 4294967340, d = 4294967341, C = 2 copies
+
+=== S7  the |K1| / PP5.0 seam on admissible rows ======================
+PASS  S7.1 extension reading: log2|K1| = n/2 EXACTLY   1.099512e+12 vs n/2 = 1.099512e+12
+PASS  S7.2 base reading: log2|K1| = n/(2e) = n/8 at the witness   2.748779e+11 vs n/8 = 2.748779e+11
+PASS  S7.3 effective reading: log2|K1|_eff = (k/e)(n/2) = n/2 at k=e   1.099512e+12
+PASS  S7.4 all three readings are Theta(n), none is o(n)   min = 0.1250 * n
+PASS  S7.5 extension reading = n/2 on class (e_p=41, e=1)   1.099512e+12
+PASS  S7.5 extension reading = n/2 on class (e_p=40, e=2)   1.099512e+12
+PASS  S7.5 extension reading = n/2 on class (e_p=40, e=6)   1.099512e+12
+PASS  S7.5 extension reading = n/2 on class (e_p=39, e=4)   1.099512e+12
+PASS  S7.6 SEAM IDENTITY: dim K1_eff * log2 p = log2|K1|_eff, and LEMMA 3 (nested) is exactly 'log2|K1|_eff >= n/2'   log2|K1|_eff = 1.099512e+12, target n/2 = 1.099512e+12
+PASS  S7.7 at k = e the seam EQUALS the whole (O1) target (sum reading double-counts n/2 bits)   equality
+
+=== S8  the tower's own-field self-consistency control ================
+PASS  S8.1 KoalaBear p prime, v_2(p-1) = 24   p = 2130706433
+PASS  S8.2 log2 q_16 = 2,030,874 (banked)   2030874.4
+PASS  S8.3 the tower's OWN field forces t = n/L ~ 5.4e5, not 7e10   t = 5.4140e+5
+PASS  S8.4 the banked 7e10 is ~1.3e5x too large BY THE TOWER'S OWN field   1.293e+5x
+PASS  S8.5 under its own field NO tower rung is discharged (rung 1 already needs t >= 2^24)   min shortfall 30.99x at rung 1
+PASS  S8.6 rungs 4..16 break |F| < 2^256   log2 q_3 = 247.9, log2 q_4 = 495.8
+
+=== S9  sibling controls (arithmetic agreement) =======================
+PASS  S9.1 2^33 = 8,589,934,592 is the interval's left endpoint   8589934592
+PASS  S9.2 t* lies inside (2^33, 5.364e10]   t* = 8592912739
+PASS  S9.3 n/t* = 255.911275 (the sliver's left endpoint, CATCH-5)   255.911275
+PASS  S9.4 at L = 255.9, t*L < n (CATCH-2 reproduces)   t*L = 2.198926e+12 < n = 2.199023e+12
+PASS  S9.5 n/L at L = 255.9 = 8.5933e9 (the banked t = n/L)   8593291346.4
+PASS  S9.6 tower m_16 = 2^38 (new-part) / 2^39 (nested)   
+PASS  S9.7 banked m_16/log2 p = 8.87e9 reproduces   8.8703e+9
+PASS  S9.8 banked 0.9687x sign flip reproduces (t*/(m_16/log2 p))   0.9687
+
+=== S10 the K1 cancellation budget on the admissible row ==============
+PASS  S10.1 banked tower budget 1.278e10 bits reproduces   1.2785e+10
+PASS  S10.2 banked tower delivery 16*log2 p = 495.8 bits reproduces   495.8
+      tower      : budget 1.2785e+10 bits, delivered 495.8 bits, shortfall 2.5785e+7x
+      admissible : budget 1.9178e+10 bits, delivered 128.0 bits, shortfall 1.4982e+8x
+PASS  S10.3 the admissible row delivers 3.9x LESS K1 cancellation than the tower (2 rungs x 64 bits vs 16 x 31)   3.874x less
+PASS  S10.4 the K1 shortfall gets WORSE on the admissible row   5.810x worse (1.498e+8x vs 2.579e+7x)
+PASS  S10.5 (M3)'s criterion R > 0.61315 m NEVER fires on an admissible row (max R/m = 2/L <= 2/41 = 0.0488)   witness R/m = 0.007813, best admissible = 0.048780, needed 0.61315
+
+========================================================================
+TOTAL: 373 PASS, 0 FAIL
+DIGEST: F2_ADM_ALL_PASS

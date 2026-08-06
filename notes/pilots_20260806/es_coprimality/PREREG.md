@@ -104,3 +104,148 @@ coprimality half.
 - Verbatim quotes with file:line for every statement relied on.
 - Do NOT write REPORT.md — return the full report as your final
   message; the coordinator persists it verbatim.
+
+---
+
+# PILOT APPENDIX — registrations Q0-Q6 (appended BEFORE any computation)
+
+Opus pilot, round 17, 2026-08-06. Everything below is registered in
+advance of running a single line of code in this pilot dir.
+
+## Q0. Notation, pinned
+
+`n = 2^m`, `h = n/2 = phi(n) = [K:Q]`, `K = Q(zeta_n)`, `O_K = Z[zeta_n]`,
+`Phi_n(X) = X^h + 1`.  `S <= Z/n`, `|S| = r'`.  For `s in Z/n`,
+
+```text
+x_s = sum_{i in S} zeta^{s i}  in  O_K,     I_S = (x_1, ..., x_{w-1}) <= O_K.
+```
+
+`N(I_S) = [O_K : I_S]` (absolute ideal norm; `N(0) = 0`, `N(O_K) = 1`).
+`delta = ord_n(p)`.  `Z_w = Z_w(n,p)` = the p-cyclotomic closure of
+`{1,...,w-1}` mod `n` (`es_lib.py:339-347`).  NEW notation registered here:
+
+```text
+Z_w^odd  :=  { s in Z_w : s odd }   =  the <p>-closure of {s odd, 1<=s<=w-1}
+                                        inside (Z/n)^*.
+a_{n/2}(S) := #{ (i,j) in S x S : i - j = n/2 mod n }.
+strat(S)  := max { a >= 0 : S + n/2^a = S }   (the stratum index; a=0 always).
+```
+
+## Q1. (K1) THE COPRIMALITY CONJECTURE — registered in three tiers
+
+**Tier 0 (BANKED, cited not claimed).** `N(I_S) = 0` iff `S` is a
+`mu_M`-coset union, `M` = least power of two `>= w`.  This is LEMMA Z,
+`critical/nodes/b1_char0_giant_coset_theorem/node.json:9`.
+
+**Tier 1 — THEOREM CS (registered as a claim TO BE PROVED).**
+Let `p` be an odd prime, `S` with `x_1 != 0`.  If `p | N(I_S)` then
+
+```text
+p^{|Z_w^odd|}  divides  |N_{K/Q}(x_1)|                                (CS1)
+|N_{K/Q}(x_1)| <= (r' - a_{n/2}(S))^{n/4}                             (CS2)
+==>   |Z_w^odd| * log2 p  <=  (n/4) * log2( r' - a_{n/2}(S) ).        (CS3)
+```
+
+Contrapositive (**the coprimality corollary**): if `|Z_w^odd| log2 p >
+(n/4) log2 r'` then `p` divides `N(I_S)` for NO `S` with `x_1 != 0`.
+
+**Tier 1b — LEMMA STRAT (registered as a claim TO BE PROVED).**
+If `strat(S) = a >= 1` then `x_s = 0` for `2^a` not dividing `s`, and
+`x_{2^a t} = 2^a * iota(p_t(S'))` where `S' <= Z/(n/2^a)` is the reduced
+set (`|S'| = r'/2^a`) and `iota : Q(zeta_{n/2^a}) -> K`.  Hence
+`I_S = 2^a * iota(I_{S'}) O_K` and the ODD bad primes of `(n,r',w,S)` are
+exactly the odd bad primes of `(n/2^a, r'/2^a, w', S')` with
+`w' = floor((w-1)/2^a) + 1`.
+
+**Tier 2 — THE CONJECTURE PROPER (CC).**  For `w >= 3`:
+
+> `N(I_S) = 1` for every `S <= Z/n` outside the exceptional class
+> `E(n,r',w) := E_strat ∪ E_floor`, where `E_strat = {S : strat(S) >= 1}`
+> and `E_floor = {S : some p with |Z_w^odd(p)| log2 p <= (n/4) log2 r'
+> divides N(I_S)}`.  Tier 1 makes `E_strat ∪ E_floor` PROVABLY exhaustive;
+> CC is the assertion that `E_floor` is additionally SPARSE, with density
+> `-> 0` as `w` grows at fixed `(n, r'/n)`.
+
+**Which strata carry the exceptional class (registered prediction):**
+`E_strat` is carried by `1 <= a < log2 M`; at `a >= log2 M` LEMMA Z takes
+over and `N(I_S) = 0` (structural, not exceptional).  Within `E_strat` the
+binding stratum is the one whose reduced instance has `w' = 2` (a single
+generator, so `N(I_S') = |N(x'_1)| >> 1`).
+
+**How (ES) follows (the K1 requirement).**  `N(I_S) = 1` means `I_S = O_K`,
+so NO prime of `O_K` contains every `x_s`, so `S` is a solution in NO
+characteristic whatsoever.  If CC holds at a row and the row's `p` is above
+the floor (CS3) and the row's `S` are non-stratified, then the only
+solutions are the LEMMA Z periodic ones -- which is exactly the (ES)
+crossing instance.  Registered as the conditional to be banked in (K5).
+
+## Q2. (K2) Proof-attempt order, with pre-named verdicts
+
+Tools tested in the mandated order (a) resultant, (b) Galois-orbit
+counting, (c) Lam-Leung.  I register in advance that I expect **(b) to be
+the one that works** -- (CS1) is a Galois-orbit count -- and that (c) is
+expected DEAD on subtraction grounds (see Q6).
+
+## Q3. Registered falsifiers (any hit retracts the named item IN FULL)
+
+- **Phi1.** Every round-16 census accident with `x_1 != 0` satisfies
+  `p^{|Z_w^odd|} | N(x_1)` EXACTLY.  One violation retracts THEOREM CS.
+- **Phi2.** Every such accident satisfies (CS3).  One violation retracts.
+- **Phi3.** For every `S` with `strat(S) = a >= 1`, LEMMA STRAT's identity
+  and the odd-bad-prime equality hold exactly.  One violation retracts.
+- **Phi4 (independence).** `N(I_S)` computed by Smith/Hermite normal form
+  of the `h x (w-1)h` multiplication matrix has prime support EQUAL to the
+  census bad-prime set, on every fixture tested.  A mismatch retracts BOTH
+  the census reading and my own -- machinery bug, nothing reported.
+- **Phi5 (the mandate's own falsifier).** If the coprimality rate does not
+  tend to 1 in `w`, or if exceptional mass is not concentrated on
+  `E_strat ∪ E_floor`, the mechanism is NOT the suppressor -- report the
+  refutation.
+- **Phi6.** All five round-16 witnesses must lie in `E(n,r',w)`.  A witness
+  outside it retracts the characterization regardless of elegance.
+
+## Q4. Registered numeric predictions (scored either way)
+
+- **R1.** At `n = 32`, `w >= 3`, the non-coprime orbits are either
+  `strat >= 1` or carry only primes `p` obeying (CS3).
+- **R2.** The coprimality rate at fixed `(n, r')` is NON-DECREASING in `w`.
+- **R3.** At the crossing row `(n,r',w) = (32,8,8)` the rate is exactly
+  `1.000` on all non-periodic orbits (round-16 measured zero accidents;
+  I predict THEOREM CS explains it for every `p` above the floor, and
+  that the floor at that row is `p <= 64` at `delta = 1`).
+- **R4.** `w = 2` is the degenerate case: rate near 0, because `I_S` is
+  principal.  The collapse is a `w >= 3` phenomenon.
+
+## Q5. AK-UNIT SELF-CHECK (registered before use)
+
+`THEOREM AK-UNIT` (`notes/pilots_20260806/es_axkatz_transfer/REPORT.md:44`)
+excludes any route whose conclusion is a congruence/divisibility statement
+about the COUNT `|W_w|`.  THEOREM CS concludes a divisibility statement
+about `N_{K/Q}(x_1)` -- an algebraic-integer norm attached to an
+INDIVIDUAL set `S`, not to the count -- and it is used only to contradict
+an ARCHIMEDEAN size bound (CS2).  The output is "`S` is not a solution",
+per set; the count statement is then a consequence of quantifying over
+`S`, never a congruence.  I register that if any step of my route ends in
+a statement of the form `p | |W_w|` or `|W_w| = c mod p`, the route is
+VOID and I report it as such.
+
+## Q6. Subtraction registered IN ADVANCE (from my prior-art sweep)
+
+Conceded as banked, cited not claimed: (i) NG1/NG2 norm gate
+(`notes/U1_OFFICIAL_ROW_NORM_GATE_TABLE.md:19-31`); (ii) the archimedean
+`weight^{n/4}` ceiling (`f3_h3_low_distance_ideal_star_router
+/statement.md:43-48`); (iii) `p | N(J)` from `J <= ker(O -> F_q)` + Smith
+(`dli_wcl_ell2_weight5_pair_ideal_index_obstruction/proof.md:36-52`);
+(iv) the alignment biconditional
+(`f3_h3_ideal_star_prime_alignment_criterion/statement.md:12-18`);
+(v) the halving resultant recursion
+(`dli_wcl_ell2_weight6_recursive_norm_exclusion/proof.md:77-80`);
+(vi) the odd-dilation COLLAPSE identity; (vii) LEMMA Z; (viii) Lam-Leung
+at `n = 2^m` is EXHAUSTED (`S5_LAM_LEUNG_TRANSPORT.md:1,12-35`).
+What I claim as new is ONLY the exponent `|Z_w^odd|` in (CS1) -- the
+Galois multiplicity supplied by the window -- and LEMMA STRAT.
+Round-16's registered M3 (`es_boundary_adversary/PREREG.md:165-176`) has
+exponent `delta` (ONE prime); I register that my contribution is precisely
+the upgrade `delta -> |Z_w^odd|`, and that if that upgrade is found banked
+anywhere I withdraw it.
