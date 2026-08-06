@@ -1,0 +1,50 @@
+{
+  "cado_commit": "9bb8fc0799bbaaf0b47a1edf573ecf5e0cf8e46a",
+  "cado_image": "registry.gitlab.inria.fr/cado-nfs/cado-nfs/factoring-full@sha256:d89bc19b6a1a9dd00b8c95cd97d60faca73ecbfc3ea71b5e20ec0403b1b3fc10",
+  "command": [
+    "/usr/local/bin/cado-nfs.py",
+    "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+    "-t",
+    "16",
+    "--workdir",
+    "/work/tail191-cado-portable-v1"
+  ],
+  "file_inventory_digest": "542354419c910dcc2abe6b1b31e5ad05996e0f1fd5dac9c381f3aef190e00d36",
+  "forced_kill": false,
+  "inner_seconds_cap": 1200,
+  "largest_files": [
+    {
+      "bytes": 1034,
+      "path": "cado.log"
+    }
+  ],
+  "log_tail": [
+    "",
+    "WRAPPER_START commit=9bb8fc0799bbaaf0b47a1edf573ecf5e0cf8e46a epoch=1786034619.9886212 command=[\"/usr/local/bin/cado-nfs.py\", \"648504938724625892617537595827566622528651020454874372151735040370465231483079169\", \"-t\", \"16\", \"--workdir\", \"/work/tail191-cado-portable-v1\"]",
+    "Traceback (most recent call last):",
+    "  File \"/usr/local/bin/cado-nfs.py\", line 135, in <module>",
+    "    from cadofactor import toplevel, cadologger, cadotask  # noqa: E402",
+    "    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+    "  File \"/usr/local/lib/cado-nfs-3.0.0/scripts/cadofactor/toplevel.py\", line 16, in <module>",
+    "    from cadofactor import wudb, cadotask, cadologger, cadoparams",
+    "  File \"/usr/local/lib/cado-nfs-3.0.0/scripts/cadofactor/cadotask.py\", line 24, in <module>",
+    "    from cadofactor.api_server import ApiServer",
+    "  File \"/usr/local/lib/cado-nfs-3.0.0/scripts/cadofactor/api_server.py\", line 18, in <module>",
+    "    import flask",
+    "ModuleNotFoundError: No module named 'flask'",
+    "WRAPPER_END epoch=1786034620.3229713 return_code=1 timed_out=False forced_kill=False"
+  ],
+  "norm": "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+  "norm_bits": 269,
+  "parameter_snapshots": [],
+  "proper_divisors": [],
+  "result_digest": "dd4055ab0784535746a457976168950bba8b5b9fee37abed7158aa0b2d480602",
+  "return_code": 1,
+  "schema": "wcl15-tail191-cado-v1",
+  "seconds": 0.449408,
+  "split_found": false,
+  "status": "PARTIAL",
+  "timed_out": false,
+  "work_bytes": 1034,
+  "work_files": 1
+}

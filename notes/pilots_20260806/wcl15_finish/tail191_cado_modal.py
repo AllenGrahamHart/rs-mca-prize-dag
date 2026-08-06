@@ -20,14 +20,16 @@ CADO_IMAGE = (
     "registry.gitlab.inria.fr/cado-nfs/cado-nfs/factoring-full@"
     "sha256:d89bc19b6a1a9dd00b8c95cd97d60faca73ecbfc3ea71b5e20ec0403b1b3fc10"
 )
-WORKDIR = Path("/work/tail191-cado-portable-v1")
+WORKDIR = Path("/work/tail191-cado-portable-v2")
 LOG_FILE = WORKDIR / "cado.log"
 REMOTE_RESULT_FILE = WORKDIR / "result.json"
-OUTPUT = Path(__file__).with_name("tail191_cado_portable_result.json")
+OUTPUT = Path(__file__).with_name("tail191_cado_portable_v2_result.json")
 INNER_SECONDS = 1_200
 
 app = modal.App("rs-mca-wcl15-tail191-cado-nfs")
-image = modal.Image.from_registry(CADO_IMAGE, add_python="3.11")
+image = modal.Image.from_registry(CADO_IMAGE, add_python="3.11").pip_install(
+    "flask", "requests"
+)
 volume = modal.Volume.from_name("rs-mca-wcl-tail191-cado-v1", create_if_missing=True)
 
 

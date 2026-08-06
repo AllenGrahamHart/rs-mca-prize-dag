@@ -80,3 +80,18 @@ and no-resume rule apply.  Its output is
 `tail191_cado_portable_result.json`.  A registry, image-start, or executable
 discovery failure remains an operational null; once polynomial selection runs
 successfully, the one authorized factoring attempt has begun.
+
+App `ap-0BRu4pvRf6kx8RzCRkvFHx` pulled the pinned official image and found
+`/usr/local/bin/cado-nfs.py`, but Modal's required `add_python` layer replaced
+the image's Python site packages.  CADO exited on `ModuleNotFoundError: flask`
+before making a parameter snapshot, after 0.449 seconds.  The operational
+record is `tail191_cado_portable_result.json`, digest
+`dd4055ab0784535746a457976168950bba8b5b9fee37abed7158aa0b2d480602`.
+Under the explicit image-start clause this is a P1 operational null.
+
+One dependency-layer correction is authorized: install only `flask` and
+`requests`, the runtime dependencies used by the pinned CADO source build, on
+top of the same immutable official image.  It uses the fresh work directory
+`/work/tail191-cado-portable-v2` and writes
+`tail191_cado_portable_v2_result.json`.  All compute and no-resume limits are
+unchanged; no further packaging retry is authorized by this preregistration.
