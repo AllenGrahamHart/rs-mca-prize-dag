@@ -43,3 +43,12 @@ and no gate factor.  Exactly 9,558 batches remain, the contiguous suffix
 26,332--35,889.  The inventory completed in 70.85711 seconds and now has
 SHA-256
 `d948248a8c5ef50f1d5c9dcb1722217a2458cdb6282c62b5315042b643d6f030`.
+
+## After Wave 2
+
+Post-wave app `ap-ecfcmrOq5GeVzA86bat8zG` completed and stopped normally.  It
+validates 31,332 batches and 2,005,248 rows, with 131 distinct hard tails,
+maximum `v_2(p-1)=30`, no custody error or gate factor, and exactly the
+contiguous suffix 31,332--35,889 left.  It completed in 44.144918 seconds;
+updated inventory SHA-256 is
+`0d99871c28c6d716e3a2542fd0b003a1c1fbf63e3f7b7522257681129e8b4801`.

@@ -5157,6 +5157,14 @@ makes a bounded range complete.
   `6bc6f5a46670cb3fcf98acf3bb7aee7af4bc63fe441603135fb904364247f0e2`.
   One metadata-only post-wave inventory is authorized under the same
   420/390-second and sub-`$0.03` ceiling before the final suffix.
+  Inventory app `ap-ecfcmrOq5GeVzA86bat8zG` completed and stopped normally:
+  31,332 valid batches, 2,005,248 rows, 131 distinct hard tails, no custody
+  error or gate factor, and missing suffix 31,332--35,889.  Inventory SHA-256
+  is `0d99871c28c6d716e3a2542fd0b003a1c1fbf63e3f7b7522257681129e8b4801`.
+  **Final easy-wave authorization:** process all 4,558 remaining batches and
+  291,672 rows under unchanged worker caps; expected below `$0.70`,
+  conservative ceiling `$1.20`.  No aggregation/tail stage; require a final
+  complete inventory.
 
 - **2026-08-03 interrupted-census checkpoint (Codex pin `8502b105`):**
   app `ap-f8oZLbaSVpbTXtCz4cPG2Z` extended the exact `(1,5)` recursive-norm

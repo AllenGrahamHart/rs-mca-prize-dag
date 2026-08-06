@@ -63,6 +63,26 @@ One post-Wave-2 inventory is authorized under the same metadata-only
 96-thread, one-CPU, 1-GiB, 420/390-second and sub-`$0.03` ceiling.  It must
 complete before the final suffix is authorized.
 
+Post-Wave-2 inventory app `ap-ecfcmrOq5GeVzA86bat8zG` completed and stopped
+normally.  It validates 31,332 batches and 2,005,248 rows, with 131 distinct
+hard tails, no custody error or gate factor, and missing suffix
+31,332--35,889.  Inventory SHA-256 is
+`0d99871c28c6d716e3a2542fd0b003a1c1fbf63e3f7b7522257681129e8b4801`.
+
+## Final easy-wave authorization
+
+Process all 4,558 remaining batches, indices 31,332--35,889, covering exactly
+291,672 rows (the last batch has 24 rows).  Predictions P1--P3 and all worker
+caps remain unchanged.  Expected cost is below `$0.70`, conservative ceiling
+`$1.20`; no aggregation or hard-tail stage.  A final complete metadata
+inventory is mandatory before the easy census can be called complete.
+
+```text
+tools/ramguard modal -- modal run \
+  experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py \
+  --external-full --resume-missing --max-missing-batches 4558
+```
+
 ## Packaging-only first launch
 
 App `ap-Zz4V2PkJVwGCxmOICMrEov` was stopped immediately after its workers
