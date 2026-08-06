@@ -1,0 +1,482 @@
+{
+ "summary": {
+  "seed": 20260806,
+  "nclasses": 8,
+  "budget_s": 20.0,
+  "elapsed_s": 41.71,
+  "classes_complete": 6,
+  "p2_all_ok": true,
+  "distinct_primes_total": 21,
+  "sum_log2_distinct_primes": 1168,
+  "max_v2": 12,
+  "ELIGIBLE_PRIMES": [],
+  "mean_norm_bits": 197.2,
+  "mean_t_total": 5.2,
+  "median_t_total": 0.266
+ },
+ "rows": [
+  {
+   "idx": 0,
+   "word": [
+    [
+     1,
+     12
+    ],
+    [
+     1,
+     142
+    ],
+    [
+     -1,
+     181
+    ],
+    [
+     -1,
+     187
+    ],
+    [
+     -1,
+     212
+    ]
+   ],
+   "norm_bits": 211,
+   "complete": true,
+   "n_distinct_primes": 3,
+   "t_norm": 0.0003,
+   "t_fac": 1.0364,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 17,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 46,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 149,
+     "v2": 11,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  },
+  {
+   "idx": 1,
+   "word": [
+    [
+     1,
+     22
+    ],
+    [
+     1,
+     85
+    ],
+    [
+     -1,
+     136
+    ],
+    [
+     1,
+     169
+    ],
+    [
+     1,
+     233
+    ]
+   ],
+   "norm_bits": 214,
+   "complete": false,
+   "n_distinct_primes": 0,
+   "t_norm": 0.0003,
+   "t_fac": 20.0055,
+   "p2_ok": false,
+   "primes": [
+    {
+     "kind": "COMPOSITE",
+     "bits": 214,
+     "exp": 1
+    }
+   ]
+  },
+  {
+   "idx": 2,
+   "word": [
+    [
+     1,
+     5
+    ],
+    [
+     -1,
+     24
+    ],
+    [
+     -1,
+     59
+    ],
+    [
+     1,
+     145
+    ],
+    [
+     1,
+     161
+    ]
+   ],
+   "norm_bits": 180,
+   "complete": true,
+   "n_distinct_primes": 4,
+   "t_norm": 0.0003,
+   "t_fac": 0.012,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 15,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 17,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 31,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 118,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  },
+  {
+   "idx": 3,
+   "word": [
+    [
+     1,
+     21
+    ],
+    [
+     1,
+     87
+    ],
+    [
+     1,
+     114
+    ],
+    [
+     -1,
+     118
+    ],
+    [
+     1,
+     196
+    ]
+   ],
+   "norm_bits": 201,
+   "complete": true,
+   "n_distinct_primes": 3,
+   "t_norm": 0.0003,
+   "t_fac": 0.0118,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 21,
+     "v2": 12,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 23,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 158,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  },
+  {
+   "idx": 4,
+   "word": [
+    [
+     1,
+     66
+    ],
+    [
+     -1,
+     89
+    ],
+    [
+     -1,
+     140
+    ],
+    [
+     1,
+     182
+    ],
+    [
+     1,
+     227
+    ]
+   ],
+   "norm_bits": 202,
+   "complete": false,
+   "n_distinct_primes": 0,
+   "t_norm": 0.0003,
+   "t_fac": 20.0071,
+   "p2_ok": false,
+   "primes": [
+    {
+     "kind": "COMPOSITE",
+     "bits": 202,
+     "exp": 1
+    }
+   ]
+  },
+  {
+   "idx": 5,
+   "word": [
+    [
+     1,
+     95
+    ],
+    [
+     1,
+     188
+    ],
+    [
+     1,
+     191
+    ],
+    [
+     1,
+     230
+    ],
+    [
+     -1,
+     237
+    ]
+   ],
+   "norm_bits": 202,
+   "complete": true,
+   "n_distinct_primes": 2,
+   "t_norm": 0.0004,
+   "t_fac": 0.2653,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 56,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 146,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  },
+  {
+   "idx": 6,
+   "word": [
+    [
+     1,
+     39
+    ],
+    [
+     -1,
+     107
+    ],
+    [
+     1,
+     108
+    ],
+    [
+     -1,
+     123
+    ],
+    [
+     -1,
+     157
+    ]
+   ],
+   "norm_bits": 192,
+   "complete": true,
+   "n_distinct_primes": 4,
+   "t_norm": 0.0003,
+   "t_fac": 0.0037,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 16,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 22,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 21,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 134,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  },
+  {
+   "idx": 7,
+   "word": [
+    [
+     1,
+     72
+    ],
+    [
+     1,
+     115
+    ],
+    [
+     -1,
+     153
+    ],
+    [
+     1,
+     189
+    ],
+    [
+     -1,
+     254
+    ]
+   ],
+   "norm_bits": 176,
+   "complete": true,
+   "n_distinct_primes": 5,
+   "t_norm": 0.0003,
+   "t_fac": 0.2538,
+   "p2_ok": true,
+   "primes": [
+    {
+     "p_bits": 14,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 16,
+     "v2": 10,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 39,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 29,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    },
+    {
+     "p_bits": 80,
+     "v2": 9,
+     "exp": 1,
+     "gcd_deg": 1,
+     "p2_ok": true,
+     "official_range": true,
+     "ELIGIBLE": false
+    }
+   ]
+  }
+ ]
+}

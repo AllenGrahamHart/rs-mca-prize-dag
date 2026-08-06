@@ -1087,3 +1087,15 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   anti-concentration = mysteries 1+4's common deepest question).
   Anchors A1-A8 (A5/A6 external-shaped; A7/A8 -> Codex). Awaiting:
   fr_fiber_rigidity, f2_opening, c1_sharpest_leaf.
+
+## 2026-08-04: round-14 pilot 2/4 BANKED — C1/C2'' lane mapped; Delta route dead; A1 = the window-extension audit
+
+- **c1_sharpest_leaf (Opus) BANKED.** Ten slot leaves, minimal set =
+  all ten (zero-event forced); Delta certificate route DEAD at the
+  smallest slot hence all (premise PROVED 61/61, size extrapolated
+  4.4e8 bits vs 1e7 threshold — 44x margin); 8/10 leaves now
+  routeless; census re-priced FEASIBLE at (1,5) (65-130 CPU-h,
+  CR-W5-ELL1 filed, gated on A1); the +5 -> +7 window extension
+  identified as the fault line — A1 (audit it) = the lane's next
+  obligation. v_2-blindness banked as the structural law. Hygiene
+  flags queued. Awaiting: fr_fiber_rigidity, f2_opening.
