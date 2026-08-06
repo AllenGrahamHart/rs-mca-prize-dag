@@ -503,14 +503,14 @@ proved transport theorem.
 THE RULES-FACT (closed by citation, not proof): the operative prize rules are exactly — smooth domain = coset of a power-of-2-order subgroup; k <= 2^40; |F| < 2^256; rates EXACT in {1/2, 1/4, 1/8, 1/16} (no dither latitude); the m-quantifier per rules_m_reading (family-per-constant-m). Certificate = quote + hash of proximityprize.org and ePrint 2026/680 with a drift detector; on any residual ambiguity the campaign plans against the stricter reading. (Reworded 2026-07-04 from task form to propositional form — node-kind hygiene.)
 ```
 
-**The "prize-max razor row"** (the standing rate-1/2 instantiation, `n = 2^41`, `k = 2^40`, `q < 2^256`) is pinned at `/home/u2470931/smooth-read-solomin/prize/critical/nodes/rate_half_list_adjacent_crossing/statement.md:25-29` (quoted in 3(b)) and re-instantiated at `notes/pilots_20260804/mun_anticoncentration/PREREG.md:9-12`. The **admissible-sliver** of `q` at prize-max is `log2 Q in [255.9113, 256)`, width 0.089 bits — `/home/u2470931/smooth-read-solomin/prize/critical/nodes/u2c_giant_tnull_dichotomy/statement.md:16-17`:
+**The "prize-max razor row"** (the standing rate-1/2 instantiation, `n = 2^41`, `k = 2^40`, `q < 2^256`) is pinned at `/home/u2470931/smooth-read-solomin/prize/critical/nodes/rate_half_list_adjacent_crossing/statement.md:25-29` (quoted in 3(b)) and re-instantiated at `notes/pilots_20260804/mun_anticoncentration/PREREG.md:9-12`. The **admissible-sliver** of `q` at prize-max is `log2 Q in [255.9113, 256)`, width 0.089 bits — `/home/u2470931/smooth-read-solomin/prize/background/nodes/u2c_giant_tnull_dichotomy/statement.md:16-17`:
 
 ```
 2. The "~2% sub-balance" prose is corrected: the exact admissible
    prize-max sliver is log2 Q in [255.9113, 256), width 0.089 bits.
 ```
 
-(Its source, verbatim, inside `critical/nodes/u2c_giant_tnull_dichotomy/node.json:8`: *"the '~2% sub-balance' prose is wrong in both directions: the exact admissible prize-max sliver is log2 Q in [255.9113, 256), width 0.089 bits, and the official factorization q = p^k is pinned nowhere (upstream r2's 'prize band underdetermined', made quantitative — maintainer-level pin required for any verbatim prize-max instantiation)"*.)
+(Its source, verbatim, inside `background/nodes/u2c_giant_tnull_dichotomy/node.json:8`: *"the '~2% sub-balance' prose is wrong in both directions: the exact admissible prize-max sliver is log2 Q in [255.9113, 256), width 0.089 bits, and the official factorization q = p^k is pinned nowhere (upstream r2's 'prize band underdetermined', made quantitative — maintainer-level pin required for any verbatim prize-max instantiation)"*.)
 
 **So: the exact q is deliberately NOT pinned** (`"the official factorization q = p^k is pinned nowhere"`, `u2c_giant_tnull_dichotomy/node.json:8`); `n = 2^41`, `k = 2^40` are the prize-max razor row (`rate_half_list_adjacent_crossing/statement.md:27`); `|F| < 2^256`, `k <= 2^40` are the rules caps (`rules_freeze/statement.md:9`).
 

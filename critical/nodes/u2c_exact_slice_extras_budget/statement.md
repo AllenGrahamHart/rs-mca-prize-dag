@@ -1,4 +1,4 @@
-# Official exact-slice t-null extras budget
+# Official exact-slice worst-prefix residual budget
 
 - **status:** TARGET
 - **closure:** open
@@ -9,18 +9,29 @@ Let `N=2^41`, `K=rho N`, and let the official exact-list depth be
 t_XR=min{t>=0 : t log2(q) >= log2 binom(N,N-K-t)+128}.
 ```
 
-After the quotient, dihedral, boundary, rate-dependent near-tail, and already
-priced trade classes in the `x4` ledger are removed, prove
+Put `A=K+t_XR`. For each `A`-subset `S` of the evaluation domain, let
 
 ```text
-# {non-coset-union t_XR-null blocks and unpriced trade families} <= N^3.
+Phi_(A,t_XR)(S)
 ```
 
-This is the exact consumer statement previously hidden inside
-`u2c_giant_tnull_dichotomy`. It is not supplied by the generated-field-
-guarded full-subset F2 terminal, because the proved route cut gives
-`t_XR log2|F_p(mu_N)|<N` on every official row.
+be the first `t_XR` sub-leading coefficients of its monic locator. For every
+prefix `z`, remove the quotient, dihedral, boundary, moment-trade, and other
+explicitly paid `x4` first-match classes, and call the residual fiber `R_z`.
+Prove
 
-The proved near-tail widths are `15,14,13,12` at rates
-`1/2,1/4,1/8,1/16`. Thus the unpaid lower half-band starts at
-`t_XR+16,t_XR+15,t_XR+14,t_XR+13`, respectively.
+```text
+max_z |R_z| <= N^3.
+```
+
+This is the sufficient boundary-prefix budget consumed by the exact-list
+assembly. The proved `x4_locator_prefix_consumer_scope` shows why the maximum
+over `z` is load-bearing: exact polynomial boundary words realize every
+prefix fiber as a list, raw mode-at-null is false, and in characteristic `p`
+power-sum nullity leaves the `p`-multiple locator coefficients free.
+
+The guarded full-subset F2 terminal does not supply this claim because the
+route cut gives `t_XR log2|F_p(mu_N)|<N` on every official row. The proved
+null-fiber near-tail widths `15,14,13,12` remain valid evidence for a possible
+strip-aware exchange-compression route, but they do not reduce an arbitrary
+prefix fiber without that additional theorem.

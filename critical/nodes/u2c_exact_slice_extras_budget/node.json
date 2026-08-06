@@ -2,11 +2,11 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "u2c_exact_slice_extras_budget",
-    "title": "Official exact-slice t-null extras budget",
+    "title": "Official exact-slice worst-prefix residual budget",
     "status": "TARGET",
     "closure": "open",
-    "statement": "At every official exact-list corridor row, with agreement numerator A, code dimension K=rho N, and t_XR=A-K defined by t_XR log2(q)>=log2 binom(N,N-K-t_XR)+128, prove that the total non-coset-union t_XR-null blocks and unpriced trade families consumed by the u2c/x4 direct column are at most N^3=2^123 after the named quotient, dihedral, boundary, and rate-dependent near-tail classes are removed. The proved near-tail theorem pays 15,14,13,12 layers at rates 1/2,1/4,1/8,1/16, so the unpaid half-band begins at t_XR+16,t_XR+15,t_XR+14,t_XR+13. The proved route cut shows t_XR log2|F_p(mu_N)|<N on every official row, so the generated-field-guarded full-subset F2 terminal is not a proof of this statement. A direct fixed-slice census/payment or a proved replacement of the consumer guard is required.",
-    "falsifier": "An official corridor row and certified post-strip exact-slice census with more than N^3 non-coset-union t_XR-null blocks plus unpriced trade families.",
+    "statement": "At every official exact-list corridor row, let A=K+t_XR and let Phi_{A,t_XR} map each A-subset to the first t_XR sub-leading coefficients of its monic locator. For every prefix z, remove the quotient, dihedral, boundary, moment-trade, and other explicitly paid x4 first-match classes, and let R_z be the remaining primitive support/list-member fiber. Prove max_z |R_z| <= N^3=2^123. This is the sufficient exact-slice boundary-prefix budget consumed by x4. A census only of t_XR-null blocks does not prove it: in characteristic p, t-nullity fixes only p-free prefix coordinates, and even a full null fiber need not be heaviest. The guarded full-subset F2 terminal and the proved null-fiber near tails remain evidence for a possible strip-aware exchange-compression route, not logical substitutes for the maximum-prefix quantifier.",
+    "falsifier": "An official corridor row, a locator prefix z, and a certified first-match post-strip fiber R_z with more than N^3 distinct residual supports/list members.",
     "refs": [
       "critical/nodes/u2c_exact_slice_extras_budget/statement.md",
       "critical/nodes/u2c_exact_slice_extras_budget/attack.md",

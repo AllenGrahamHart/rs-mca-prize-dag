@@ -8,7 +8,7 @@ Why this row matters: at (n=32, r'=8, w=8, delta=1) we have |Z_w| = 7, so
 p^{|Z_w|} >= 97^7 = 2^46.2 >= 2^32 = 2^n.  An accident here would be below
 BOTH balance readings -- the per-weight one AND the global one
 (2^n <= p^{|Z_w|}) used by the HARDENED floor node
-critical/nodes/u2c_giant_tnull_dichotomy.  So this row can break the strong
+background/nodes/u2c_giant_tnull_dichotomy.  So this row can break the strong
 reading, unlike the five witnesses already banked by this pilot.
 
 Exact bad-prime census over ALL characteristics, orbit-reduced on the

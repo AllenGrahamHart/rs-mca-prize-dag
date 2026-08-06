@@ -97,7 +97,7 @@ verbatim:
 > ```
 
 **(B7) Provenance of "generically coprime".**
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:8` — status
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:8` — status
 `CONDITIONAL`, verbatim fragment:
 
 > `1440 trials, positively controlled against the known p=257 window accident) finds ZERO candidate sub-balance primes — the multi-condition ideals are generically coprime; the engineering channel is structurally empty, mirroring the E2 finding.`

@@ -38,3 +38,23 @@ on every official row. Thus the historical assertion that official rows are
 sub-balance applies only to the separate full-subset F2 calibration. The
 guarded target `f2_conditional_close` is retained as evidence, while the
 official requirement is now `u2c_exact_slice_extras_budget -> this node`.
+
+## Addendum (2026-08-06, maximum-prefix consumer correction)
+
+The preceding addendum corrected the depth but not the object. The exact-list
+boundary consumer is
+
+```text
+max_z #{A-subsets with full locator prefix z surviving the paid strips},
+```
+
+not the total number of `t_XR`-null subsets. In characteristic `p`, nullity of
+the first `t_XR` power sums fixes only the `p`-free locator coefficients; the
+`p`-multiple coordinates are free. Moreover raw mode-at-null fails already at
+`(F_17^*,A,t)=(F_17^*,9,1)`, where the null fiber has size `672` and each
+nonzero fiber has size `673`.
+
+Therefore this historical F2/t-null node is removed from the strict `x4`
+chain and returned to TARGET. Its results remain evidence for a strip-aware
+heavy-fiber descent. The official requirement is directly
+`u2c_exact_slice_extras_budget -> x4_exactlist_staircase_split`.

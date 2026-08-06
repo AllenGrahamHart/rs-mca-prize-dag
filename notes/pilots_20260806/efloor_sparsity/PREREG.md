@@ -38,7 +38,7 @@ banked mathematics — this pilot is the debt coming due).
   weight4 sibling — the banked resultant/bad-prime method and its
   PROVED exclusions (subtract; these may already prove small-w
   floor emptiness in their regime).
-- critical/nodes/u2c_giant_tnull_dichotomy — the consumer whose
+- background/nodes/u2c_giant_tnull_dichotomy — the consumer whose
   empirical credit this lemma would convert to mathematics.
 
 ## 2. Pre-registered deliverables
@@ -268,7 +268,7 @@ My reachable grid (each cell must complete inside `tools/ramguard local`,
 ## E7. (S4) The u2c conversion statement
 
 I will state exactly which (S1)-shaped theorem would convert the 1440-trial
-empirical credit at `critical/nodes/u2c_giant_tnull_dichotomy/node.json:8`
+empirical credit at `background/nodes/u2c_giant_tnull_dichotomy/node.json:8`
 into mathematics, and measure how far this pilot gets, with no rounding up.
 
 ## E8. Honesty clauses

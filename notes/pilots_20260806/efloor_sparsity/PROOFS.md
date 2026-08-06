@@ -532,7 +532,7 @@ Note also that **every** `a=0` count in the table is a multiple of `n`.
 
 ## §10. (S4) The u2c conversion statement
 
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:6` is
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:6` is
 `"status": "CONDITIONAL"`, and the credit at stake is, verbatim from
 `node.json:8`:
 

@@ -17,7 +17,7 @@ I QUOTE are labelled QUOTED. Nothing here is a status flip.
 > **Replacement obligation (constructive)**: K1 must be paid by MASS, not cancellation: (O1) first-moment target E_{c in K1}[exp S_c] <= 2^{n/2 + o(n)} (2^{n/2} = the exact independent-value scale); (O2) the same at fixed b (the Hamming-slice fence forbids (O1) alone); (O3) PP5.0 must carry the pullback ramification 2^d.
 
 **(Q2) The terminal consumer** —
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:8`:
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:8`:
 
 > the consumer (x4 via b2_modp_giant_extras) consumes ONLY the count '#{non-coset-union t-null blocks + trade families} <= n^3 = 2^123 at official prize-max rows'.
 
@@ -30,7 +30,7 @@ I QUOTE are labelled QUOTED. Nothing here is a status flip.
 > max/mean <= L^t with L <= 2^{(1.05e12)/t} ~ 2^15 wins.
 
 **(Q4) The consumable form** —
-`critical/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md:7-9`:
+`background/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md:7-9`:
 
 > The statement's tolerance 2^{1.05e12}
 > (equivalently per-condition extras <= 2^15 on the p-free ladder) is the
@@ -44,12 +44,12 @@ I QUOTE are labelled QUOTED. Nothing here is a status flip.
 > busts the allowance).
 
 **(Q6) The consumer's own scope rule** —
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:8` (CATCH #11, 2026-07-07):
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:8` (CATCH #11, 2026-07-07):
 
 > the sub-balance window must be read at the GENERATED field B0 = F_p(D), i.e. |B0|^t >= 2^n, NOT at the ambient q. [...] Consumer rule: x4/b2_modp_giant_extras consumes F2 only where |B0|^t >= 2^n; base-domain extension rows route through the f1/ext descent (s6 imported window).
 
 **(Q7) The ambient/moving-top notation correction (I1)** —
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:8`:
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:8`:
 
 > I1 — the consumer budget n^3 = 2^123 pins prize-max N = 2^41 (older '~2^40' prose is the base-field window reading)
 

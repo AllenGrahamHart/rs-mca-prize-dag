@@ -92,7 +92,7 @@ when c/2 in mu_n; removing it and halving gives kappa. QED.
 
 ## Replay
 
-    ~/.venvs/modal/bin/modal run critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_l2a_chord_orbit_modal.py
+    ~/.venvs/modal/bin/modal run background/nodes/u2c_giant_tnull_dichotomy/notes/f2_l2a_chord_orbit_modal.py
 
 Digest: F2_L2A_CHORD_ORBIT_PASS. Gates: per-orbit exact identity
 (< 1e-6), |J| = sqrt(q) exact on every generic pair, orbit constancy

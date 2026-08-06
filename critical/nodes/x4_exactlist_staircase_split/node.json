@@ -12,7 +12,7 @@
     "refs": [
       "experimental/notes/roadmaps/e35_weight2_abundance.md"
     ],
-    "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md.",
+    "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md. | CONSUMER-SCOPE REPAIR 2026-08-06: the historical t-null premise was insufficient for worst-word exact lists; strict wiring now uses u2c_exact_slice_extras_budget in its maximum full-prefix form, with x4_locator_prefix_consumer_scope proving the quantifier correction. The old t-null/F2 packet remains evidence pending strip-aware exchange compression.",
     "upstream": {
       "label": "prob:list-completion assembly",
       "relation": "OVERLAP"
@@ -28,7 +28,7 @@
       "order": 1041
     },
     {
-      "from": "u2c_giant_tnull_dichotomy",
+      "from": "u2c_exact_slice_extras_budget",
       "order": 1042
     },
     {

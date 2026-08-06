@@ -5,7 +5,7 @@ log entries #88–#98) completed and TERMINATED the summit's interior
 chart. v3 remains the reference for the pre-79 instruments (dictionary,
 edge lemma, tower skeleton, no-gos 1–9). Every claim here is banked in
 `prize/dag.json` with a machine-verified digest; verifiers live in
-`prize/critical/nodes/u2c_giant_tnull_dichotomy/notes/`.
+`prize/background/nodes/u2c_giant_tnull_dichotomy/notes/`.
 
 ## THE PROBLEM — uniquely posed (nothing else remains)
 

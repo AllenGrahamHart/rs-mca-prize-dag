@@ -2,7 +2,7 @@
 
 Hypotheses (matches wiring after full-lane compression):
 - dli_prime_weighted_large_block_support (FRONTIER red: weighted/RES count)
-- u2c_giant_tnull_dichotomy (SURFACED red: giant t-null dichotomy)
+- u2c_exact_slice_extras_budget (maximum post-strip locator-prefix fiber)
 - u1_pullback_dichotomy (red: compression theorem)
 - b2b_dyadic_descent_packet
 - b2b_near_tail_bound

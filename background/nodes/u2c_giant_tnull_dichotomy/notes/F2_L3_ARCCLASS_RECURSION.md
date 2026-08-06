@@ -55,7 +55,7 @@ recursion. Mildest-instance ordering, again.
 
 ## Replay
 
-    ~/.venvs/modal/bin/modal run critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_l3_arcclass_recursion_modal.py
+    ~/.venvs/modal/bin/modal run background/nodes/u2c_giant_tnull_dichotomy/notes/f2_l3_arcclass_recursion_modal.py
 
 Digest: F2_L3_ARCCLASS_RECURSION_PASS. Gates: all three identities
 exact (integer DP censuses vs float arc sums, < 1e-6) at 6 cells; the

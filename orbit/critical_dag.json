@@ -1064,12 +1064,7 @@
   {
    "id": "u2c_exact_slice_extras_budget",
    "label": "UNPROVED",
-   "title": "Official exact-slice t-null extras budget"
-  },
-  {
-   "id": "u2c_giant_tnull_dichotomy",
-   "label": "CONDITIONAL",
-   "title": "Exact-slice u2c extras-budget assembly (guarded F2 route separated)"
+   "title": "Official exact-slice worst-prefix residual budget"
   },
   {
    "id": "unsafe_at_crossing",
@@ -2026,7 +2021,7 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
-   "from": "u2c_giant_tnull_dichotomy",
+   "from": "u2c_exact_slice_extras_budget",
    "to": "x4_exactlist_staircase_split"
   },
   {
@@ -2124,10 +2119,6 @@
   {
    "from": "floor_budget_slack_scan",
    "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "u2c_exact_slice_extras_budget",
-   "to": "u2c_giant_tnull_dichotomy"
   },
   {
    "from": "petal_g1_layer_maps",

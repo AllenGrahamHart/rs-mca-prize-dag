@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  241 = 176 PROVED / 40 CONDITIONAL
+                  nodes {mca_grand, list_grand}.  240 = 176 PROVED / 39 CONDITIONAL
                   / 25 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  256 = 188 / 42 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  255 = 188 / 41 / 26.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 261 - 246 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 255 - 240 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -75,8 +75,14 @@ SUBMISSION_ROOT = "prize"
 # while the independently proved WCL (1,5) closure adds two PROVED nodes and
 # removes one TARGET. Net from the prior pin: -3 PROVED / -1 CONDITIONAL /
 # -1 TARGET. The 15-node submission spine is unchanged.
-EXPECTED_MATH = {"PROVED": 176, "CONDITIONAL": 40, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 188, "CONDITIONAL": 42, "TARGET": 26}
+# 2026-08-06 EXACT-PREFIX CONSUMER REPAIR: u2c_giant_tnull_dichotomy was
+# removed from the strict x4 chain after the locator-prefix scope theorem
+# showed that its p-free/null census does not control the heaviest full prefix.
+# The corrected maximum-prefix TARGET replaces it at the same leaf position;
+# only the obsolete CONDITIONAL adapter leaves each orbit. The submission
+# spine remains exactly 15 nodes.
+EXPECTED_MATH = {"PROVED": 176, "CONDITIONAL": 39, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 188, "CONDITIONAL": 41, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -105,7 +111,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-    # conditional-dedup ledger over the 42 must account for 40 mathematical ones.
+    # conditional-dedup ledger over the 41 must account for 39 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

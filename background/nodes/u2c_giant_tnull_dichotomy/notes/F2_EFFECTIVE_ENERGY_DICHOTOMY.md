@@ -106,6 +106,6 @@ budget. Branch (a) closes uniformly; each floor keeps its own (b).
 
 ## Replay
 
-    ~/.venvs/modal/bin/modal run critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_effective_energy_dichotomy_modal.py
+    ~/.venvs/modal/bin/modal run background/nodes/u2c_giant_tnull_dichotomy/notes/f2_effective_energy_dichotomy_modal.py
 
 Digest: F2_EFFECTIVE_ENERGY_DICHOTOMY_PASS.

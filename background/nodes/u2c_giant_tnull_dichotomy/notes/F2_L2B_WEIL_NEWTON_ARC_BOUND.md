@@ -84,7 +84,7 @@ boundaries.
 
 ## Replay
 
-    ~/.venvs/modal/bin/modal run critical/nodes/u2c_giant_tnull_dichotomy/notes/f2_l2b_weil_newton_modal.py
+    ~/.venvs/modal/bin/modal run background/nodes/u2c_giant_tnull_dichotomy/notes/f2_l2b_weil_newton_modal.py
 
 Digest: F2_L2B_WEIL_NEWTON_PASS. Gates: (a) |e_1(r lambda)| <=
 2 sqrt(q) for ALL lambda != 0, r <= b, at every test row (exhaustive);

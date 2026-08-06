@@ -18559,9 +18559,9 @@ full-subset `(C)` mass problem and the official exact-slice consumer are
 different routes.
 
 The critical DAG now owns the missing statement explicitly as
-`u2c_exact_slice_extras_budget`: after the named quotient, dihedral,
-boundary, near-tail, and paid-trade strips, prove that the official
-exact-slice residual is at most `N^3`. This TARGET replaces
+`u2c_exact_slice_extras_budget`. At this round it was posed as the post-strip
+exact-slice null residual at most `N^3`; the later consumer-scope audit below
+corrects this to a maximum full locator-prefix fiber. This TARGET replaces
 `f2_conditional_close` as the requirement of
 `u2c_giant_tnull_dichotomy`. The guarded `(C)` F2 target moves to the
 background and remains an evidence edge. The `f1/ext` chain is not an
@@ -18618,9 +18618,9 @@ and complementation therefore give
 
 at every official row. All entropy comparisons and final budget inequalities
 are replayed as exact integer inequalities. The unpaid lower half-band in
-`u2c_exact_slice_extras_budget` now starts at offsets `16,15,14,13`,
-respectively. This is a real all-rates payment, but it does not bound any
-middle layer.
+the historical null-route middle bands now start at offsets `16,15,14,13`,
+respectively. This is a real all-rates null-fiber payment, but it does not
+bound any middle layer or arbitrary locator prefix.
 
 ```text
 starting pin: caf91b93e; canonical 23df01a65; upstream main 93fba1be
@@ -18631,7 +18631,68 @@ upstream terminal delta: none; possible later export as finite list-completion s
 delta-star bracket movement: none
 new assumptions: none
 compute: exact integer inequalities under local RAM guard; no Modal spend
-next: attack the primitive middle bands beginning at offsets 16,15,14,13
+next: audit whether the null-fiber object is the exact-list consumer before
+attacking the primitive middle bands
+```
+
+### Exact-list consumer-scope correction: maximum prefix, not t-null mass
+
+The audit forced a second, more important correction. For `A=K+t`, an
+`A`-subset `S` has monic locator
+
+```text
+Q_S=X^A+c_1(S)X^(A-1)+...,
+Phi_(A,t)(S)=(c_1(S),...,c_t(S)).
+```
+
+For every `z`, the polynomial boundary word
+
+```text
+U_z=X^A+z_1X^(A-1)+...+z_tX^(A-t)
+```
+
+has an exact bijection between its agreement-`A` codewords of degree `<K`
+and `Phi_(A,t)^-1(z)`. Thus a universal worst-word upper ledger must control
+the heaviest relevant full prefix fiber after paid first-match strips.
+
+The historical F2 object cannot supply that quantifier without another
+theorem. In characteristic `p`, vanishing of the first `t` power sums is
+equivalent only to vanishing of the `p`-free locator coefficients; the
+`p`-multiple coordinates remain free. Even when `t<p`, raw mode-at-null is
+false: over `D=F_17^*`, at `(A,t)=(9,1)`, the null fiber has size `672` and
+every nonzero fiber has size `673`. The exact count and the prefix-list
+bijection are now banked in the PROVED node
+`x4_locator_prefix_consumer_scope`.
+
+Accordingly, `u2c_exact_slice_extras_budget` is re-posed as
+
+```text
+max_z |R_z| <= N^3,
+```
+
+where `R_z` is the full elementary-prefix fiber remaining after the explicit
+`x4` first-match payments. `x4_exactlist_staircase_split` now requires this
+target directly. `u2c_giant_tnull_dichotomy` is returned to TARGET and removed
+from the strict chain; its extensive F2, complement, edge, and near-tail work
+is retained as evidence for a future strip-aware heavy-fiber descent or
+exchange-compression theorem. No proof result was lost, but the strict DAG no
+longer treats a null/p-free census as a maximum-prefix certificate.
+
+Upstream independently uses this exact distinction: `(Q)` is a maximum-prefix
+fiber statement, while its mode-at-null/exchange-compression route remains
+open. This correction therefore aligns the critical DAG with the current
+`rs-mca` frontier and identifies a clean joint target.
+
+```text
+starting pin: fbcc57536; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / exact locator-prefix boundary
+result: proved the consumer quantifier and removed the insufficient t-null premise from the strict chain
+DAG status delta: +1 PROVED scope theorem; historical t-null conditional returned to off-orbit TARGET
+upstream terminal delta: none; exact alignment with upstream (Q)
+delta-star bracket movement: none
+new assumptions: none
+compute: 11,692 exact finite checks under tiny RAM guard; no Modal spend
+next: prove strip-aware heavy-fiber descent/exchange compression, or attack max-prefix directly by high moments
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

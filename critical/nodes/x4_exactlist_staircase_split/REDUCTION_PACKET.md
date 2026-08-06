@@ -3,12 +3,25 @@
 Frontier: dli_prime_weighted_large_block_support (the U-weighted/RES counting obligation).
 Interface: this node (the four-column exact-list split).
 The chain of ambers below IS the conditional proof: each step a proved implication; this packet is the
-composed proof document. AUDIT BEFORE COMPRESSION surfaced two prose lemmas, now declared as the wired
-hypothesis u2c_giant_tnull_dichotomy (U2-C prime; subsumes the divisor-frame residual).
+composed proof document. The historical compression surfaced the F2/t-null
+route now retained as evidence; the consumer-scope correction below supersedes
+its old strict wiring.
 
-Validation status of the segment: leaf calibration on the real object (3 independent computations);
-consumer ledger exhaustive adversarial-lambda sweep n=32..2048; weighted re-pose coherent end-to-end;
-endpoint (b2b weighted average) measured directly; Lemma 1 exact reduction proved.
+Validation status of the historical null route: leaf calibration on the real
+object (3 independent computations); consumer ledger exhaustive
+adversarial-lambda sweep n=32..2048; weighted re-pose coherent end-to-end;
+endpoint (b2b weighted average) measured directly; Lemma 1 exact reduction
+proved. These facts do not supply the maximum-prefix bridge recorded below.
+
+## Consumer-scope correction (2026-08-06)
+
+The official boundary atom is a maximum over full elementary locator-prefix
+fibers. The historical `u2c_giant_tnull_dichotomy` controls a different
+power-sum-null object: in characteristic `p` it fixes only the `p`-free prefix
+coordinates, and raw mode-at-null is false. The strict hypothesis is therefore
+`u2c_exact_slice_extras_budget`, now posed as the maximum post-strip prefix
+fiber. The historical F2/t-null packet below remains route evidence and can be
+reused only after a strip-aware max-to-null or exchange-compression theorem.
 
 ## Compressed steps (archive/compressed_dli_lane_20260705/)
 
@@ -59,7 +72,7 @@ NOTES: Reframed by the unification: the per-row question is 'which polynomial-fi
 
 ## Wired hypotheses of the interface (complete, audit-aligned 2026-07-06)
 - dli_prime_weighted_large_block_support (FRONTIER red)
-- u2c_giant_tnull_dichotomy (SURFACED red)
+- u2c_exact_slice_extras_budget (maximum-prefix residual)
 - u1_pullback_dichotomy (red; pre-existing hypothesis of this node)
 - moment_trade_staircase (PROVED; pre-existing hypothesis of this node)
 

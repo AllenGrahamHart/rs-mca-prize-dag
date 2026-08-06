@@ -347,7 +347,7 @@ The effective condition count is `rank J_d = 2d − dim K_d`, so
 
 ## 5. L5 — the u2c pin
 
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:10`
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:10`
 
 > "falsifier": "Pre-registered: sub-balance (q^t >= 2^n) scaled rows with non-coset-union extras exceeding the transported n^3 budget, sustained across >= 3 scales. Above-balance window accidents do NOT count."
 

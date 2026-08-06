@@ -37,7 +37,7 @@ self-contained handoff document — start there). The pre-registered
 extras-contraction falsifier has **never fired at any scale**.
 
 Quality certificate:
-`critical/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md`.
+`background/nodes/u2c_giant_tnull_dichotomy/notes/QUALITY_f2_growing_order_myerson.md`.
 
 ## History (what the campaign established)
 

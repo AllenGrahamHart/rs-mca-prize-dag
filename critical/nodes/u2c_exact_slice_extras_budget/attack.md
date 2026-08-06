@@ -1,18 +1,21 @@
 # Attack surface
 
-The target is a fixed-slice zero-fiber/payment statement, not a full-subset
-balance theorem.
+The target is a fixed-weight maximum-prefix statement, not a full-subset mass
+theorem and not a null-fiber theorem.
 
 1. Preserve the exact `x4` first-match strips and count only the residual they
    actually send to the direct column.
-2. Use the full-ladder locator dictionary, complement involution, empty edge
-   bands, and the proved exact-slice near-tail widths `15,14,13,12`.
-3. Attack the remaining middle band through zero-fiber structure or a
-   weight-aware payment. Generic `R`-local moments, interpolation, Weil-per-
-   power-sum bounds, and the retired even-condition recursion do not supply
-   the required exponent.
-4. If the count exceeds `N^3`, exhibit the official family and re-pose the
+2. Preferred route: prove strip-aware heavy-fiber symmetry descent or
+   exchange compression. It must send every heaviest primitive prefix either
+   to a paid quotient rung or to a null/p-free census with no hidden loss.
+3. Direct route: control the maximum fiber by high collision moments or a
+   divisor-with-prescribed-full-prefix theorem. Fixed low moments and
+   per-power-sum Weil bounds do not control the maximum.
+4. Treat the full-ladder dictionary, complement involution, empty edge bands,
+   and near-tail widths `15,14,13,12` as null-route inputs only until step 2
+   is proved.
+5. If the count exceeds `N^3`, exhibit the official family and re-pose the
    `x4` direct-column budget rather than weakening the falsifier.
 
-The guarded `(C)`-depth F2 mass problem remains useful background mathematics,
-but it is not a logical premise of this exact-slice target.
+The guarded `(C)`-depth F2 mass problem and historical all-`t`-null target
+remain useful background mathematics, but neither controls `max_z` by itself.

@@ -122,7 +122,7 @@ def main() -> None:
 
     # The exact-slice route correction removes the guarded six-node F2 branch
     # from strict requirement ancestry. Its mathematics remains in background.
-    require(len(critical["nodes"]) == 241, "critical orbit size drift")
+    require(len(critical["nodes"]) == 240, "critical orbit size drift")
     require(len(proved) == 176, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
