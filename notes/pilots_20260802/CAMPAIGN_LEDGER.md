@@ -1099,3 +1099,17 @@ Integration freeze pending the upstream-sync wiring and stocktake:
   identified as the fault line — A1 (audit it) = the lane's next
   obligation. v_2-blindness banked as the structural law. Hygiene
   flags queued. Awaiting: fr_fiber_rigidity, f2_opening.
+
+## 2026-08-04: round-14 pilot 3/4 BANKED — F2 OPENED AND MOSTLY DISCHARGED
+
+- **f2_opening (Opus) BANKED** (V1-V12, 66 PASS; P1-P10 confirmed;
+  two self-catches corrected openly). (O1)+(O2) discharged EXACTLY at
+  rungs 1-13 (THEOREM A surjectivity: E[exp S_c] = 2^{n/2}, o(n)=0;
+  brute-forced at p=5 over all frequencies); (O2) implied by (O1);
+  (O3) exact (pullback as a POWER); LEMMA 3 necessary condition
+  (7.89x margin — pin t, CATCH-4); T3-UNIFORM REFUTED (constructive;
+  the lane's analytic-NT dependency REMOVED; T3 re-posed in measure =
+  internal); the banked annealed drift closed exactly. REMAINING for
+  mystery 2: SL-1 (rungs 14-16 power-sum relations) + SL-2 (the
+  |K1| sum-vs-average seam, settle with PP5.0). Theorems queued
+  mint-shaped for mint-4. Awaiting: fr_fiber_rigidity (4/4).

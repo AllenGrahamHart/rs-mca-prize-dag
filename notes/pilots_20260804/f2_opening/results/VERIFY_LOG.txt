@@ -1,0 +1,111 @@
+
+=== V1  model sanity: antipodal closure, K1 positivity ===
+[PASS] V1 p=5 e=2 W=full |W|=8 m=4  --  closed=True antipodal=True allDeltaEven=True
+[PASS] V1 p=5 e=2 W=moving |W|=4 m=2  --  closed=True antipodal=True allDeltaEven=True
+[PASS] V1 p=41 e=3 W=full |W|=16 m=8  --  closed=True antipodal=True allDeltaEven=True
+[PASS] V1 p=41 e=3 W=moving |W|=8 m=4  --  closed=True antipodal=True allDeltaEven=True
+[PASS] V1 p=17 e=4 W=full |W|=32 m=16  --  closed=True antipodal=True allDeltaEven=True
+[PASS] V1 p=17 e=4 W=moving |W|=16 m=8  --  closed=True antipodal=True allDeltaEven=True
+
+=== V2  P1: E_c[T_W] = sum_{eps in Lperp, ternary} 2^{m-wt}  (exact) ===
+[PASS] V2 p=5 W=full m=4 Lambda=[1]  --  direct/|K1| = 400/25, dual = 16, rational_integer=True
+[PASS] V2 p=5 W=moving m=2 Lambda=[1]  --  direct/|K1| = 100/25, dual = 4, rational_integer=True
+[PASS] V2 p=41 W=full m=8 Lambda=[1]  --  direct/|K1| = 430336/1681, dual = 256, rational_integer=True
+[PASS] V2 p=41 W=moving m=4 Lambda=[1]  --  direct/|K1| = 26896/1681, dual = 16, rational_integer=True
+[PASS] V2 p=17 W=moving m=8 Lambda=[1]  --  direct/|K1| = 1114384/289, dual = 3856, rational_integer=True
+[PASS] V2 p=5 W=moving m=2 Lambda=[1, 3]  --  direct/|K1| = 2500/625, dual = 4, rational_integer=True
+[PASS] V2 p=41 W=moving m=4 Lambda=[1, 3]  --  direct/|K1| = 45212176/2825761, dual = 16, rational_integer=True
+
+=== V3  P2: Lambda = ALL odd residues  =>  rank(L) = m, Z = 1, E_c[T_W] = 2^{n/2} EXACTLY ===
+[PASS] V3 p=5 e=2 W=full m=4 |Lambda|=4  --  rank(L) = 4 (need 4)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^4
+[PASS] V3 p=5 e=2 W=moving m=2 |Lambda|=4  --  rank(L) = 2 (need 2)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^2
+[PASS] V3 p=41 e=3 W=full m=8 |Lambda|=8  --  rank(L) = 8 (need 8)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^8
+[PASS] V3 p=41 e=3 W=moving m=4 |Lambda|=8  --  rank(L) = 4 (need 4)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^4
+[PASS] V3 p=17 e=4 W=full m=16 |Lambda|=16  --  rank(L) = 16 (need 16)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^16
+[PASS] V3 p=17 e=4 W=moving m=8 |Lambda|=16  --  rank(L) = 8 (need 8)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^8
+[PASS] V3 p=97 e=5 W=full m=32 |Lambda|=32  --  rank(L) = 32 (need 32)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^32
+[PASS] V3 p=97 e=5 W=moving m=16 |Lambda|=32  --  rank(L) = 16 (need 16)  => L = F_p^m, Lperp = 0, Z = 1, E_c[T] = 2^16
+  -- FULL brute force: every c in K1(Lambda = all odd residues) --
+[PASS] V3b BRUTE FORCE p=5 W=moving m=2 Lambda=all 4 odd residues, |K1|=390625  --  sum_c T_W(c) = 1562500 = |K1| * 2^m = 390625 * 4 = 1562500  -> E_c[T_W] = 2^m EXACTLY
+[PASS] V3b BRUTE FORCE p=5 W=full m=4 Lambda=all 4 odd residues, |K1|=390625  --  sum_c T_W(c) = 6250000 = |K1| * 2^m = 390625 * 16 = 6250000  -> E_c[T_W] = 2^m EXACTLY
+
+=== V4  P3+P4: E_c[V_b] exact; nonnegative; sums to E_c[T] ===
+[PASS] V4 p=5 W=full m=4 Lambda=[1]  --  direct==dual:True nonneg:True sum==E_T:True max_b E[V_b]=6 <= E_T=16:True
+[PASS] V4 p=5 W=moving m=2 Lambda=[1]  --  direct==dual:True nonneg:True sum==E_T:True max_b E[V_b]=2 <= E_T=4:True
+[PASS] V4 p=41 W=moving m=4 Lambda=[1]  --  direct==dual:True nonneg:True sum==E_T:True max_b E[V_b]=6 <= E_T=16:True
+[PASS] V4 p=41 W=full m=8 Lambda=[1]  --  direct==dual:True nonneg:True sum==E_T:True max_b E[V_b]=70 <= E_T=256:True
+[PASS] V4 p=5 W=moving m=2 Lambda=[1, 3]  --  direct==dual:True nonneg:True sum==E_T:True max_b E[V_b]=2 <= E_T=4:True
+[PASS] V4b surjective row p=5 W=moving: E[V_b] == C(m,b/2)  --  [1, 0, 2, 0, 1]... vs [1, 0, 2, 0, 1]...
+
+=== V6  P5: E_c[T_W] >= 4^m / |L| = 2^n / p^{dim L}  (total positivity) ===
+[PASS] V6 p=5 W=full m=4 rank=2  --  E_T = 16 >= 4^m/p^r = 256/25 = 10
+[PASS] V6 p=41 W=full m=8 rank=2  --  E_T = 256 >= 4^m/p^r = 65536/1681 = 38
+[PASS] V6 p=17 W=full m=16 rank=2  --  E_T = 14868736 >= 4^m/p^r = 4294967296/289 = 14861478
+[PASS] V6 p=41 W=moving m=4 rank=1  --  E_T = 16 >= 4^m/p^r = 256/41 = 6
+[PASS] V6 p=17 W=moving m=8 rank=1  --  E_T = 3856 >= 4^m/p^r = 65536/17 = 3855
+
+=== V7  P6: reproduce f2_fixed_sector/results/C3b_annealed_exact.json ===
+  banked: per-pair mean 1.7433843858482772 (p=17), 1.9790806830379395 (p=97), 2.216211414430072 (p=193, 20k sample)
+[PASS] V7 p=17 m=16 rank(L)=2  --  per-pair (punctured) = 1.7433843858482772 vs banked 1.7433843858482772  rel=0.000e+00
+     E_full = 2^m * Z with Z = 226.87890625 (2^m = 65536); per-pair FULL = 2.807160 >= 2 exactly as P2's floor requires
+[PASS] V7 p=97 m=32 rank(L)=2  --  per-pair (punctured) = 1.9790806830379402 vs banked 1.9790806830379395  rel=3.366e-16
+     E_full = 2^m * Z with Z = 456475.07875466347 (2^m = 4294967296); per-pair FULL = 3.005293 >= 2 exactly as P2's floor requires
+[PASS] V7 p=193 m=64 rank(L)=2  --  per-pair (punctured) = 2.216211414430072 vs banked 2.216211414430072  rel=0.000e+00
+     E_full = 2^m * Z with Z = 495227900715082.7 (2^m = 18446744073709551616); per-pair FULL = 3.393410 >= 2 exactly as P2's floor requires
+
+=== V8  P7: pullback f(x) = g(x^{2^d})  =>  P_j(f;z) = (P_{j-d}(g;z))^{2^d} ===
+[PASS] V8 p=41 n=16 d=1 g=[1]  --  deg 16 vs 16
+[PASS] V8 p=41 n=16 d=1 g=[1, 2]  --  deg 16 vs 16
+[PASS] V8 p=41 n=16 d=1 g=[1, 3]  --  deg 16 vs 16
+[PASS] V8 p=41 n=16 d=2 g=[1]  --  deg 16 vs 16
+[PASS] V8 p=41 n=16 d=2 g=[1, 2]  --  deg 16 vs 16
+[PASS] V8 p=41 n=16 d=2 g=[1, 3]  --  deg 16 vs 16
+[PASS] V8 p=17 n=32 d=1 g=[1]  --  deg 32 vs 32
+[PASS] V8 p=17 n=32 d=1 g=[1, 2]  --  deg 32 vs 32
+[PASS] V8 p=17 n=32 d=1 g=[1, 3]  --  deg 32 vs 32
+[PASS] V8 p=17 n=32 d=2 g=[1]  --  deg 32 vs 32
+[PASS] V8 p=17 n=32 d=2 g=[1, 2]  --  deg 32 vs 32
+[PASS] V8 p=17 n=32 d=2 g=[1, 3]  --  deg 32 vs 32
+
+=== V9  P8: a GENERIC-class frequency with flat = 0 EXACTLY (T3-uniform refuted) ===
+[PASS] V9 p=41 n_ord=16 m=4 deployed window  --  interp=True class=G(8 odd,8 even) allDeltaEven=True m*R_p = 4 = m = 4 -> flat = 0 EXACTLY; D = 4 (= m); float max_k|R_k| = 1.000000 at k=41
+[PASS] V9 p=17 n_ord=32 m=8 deployed window  --  interp=True class=G(16 odd,1 even) allDeltaEven=True m*R_p = 8 = m = 8 -> flat = 0 EXACTLY; D = 8 (= m); float max_k|R_k| = 1.000000 at k=1
+[PASS] V9 p=97 n_ord=64 m=16 deployed window  --  interp=True class=G(32 odd,32 even) allDeltaEven=True m*R_p = 16 = m = 16 -> flat = 0 EXACTLY; D = 16 (= m); float max_k|R_k| = 1.000000 at k=97
+
+=== V10  P10: same window, same Delta multiset / same D / same flat, DIFFERENT mass ===
+[PASS] V10 p=17 W=moving m=8  --  certificate identical (all Delta even, D = m = 8, flat = 0) on BOTH condition sets, but E_c[T] = 3856 (Lambda={1}) vs 256 (Lambda=all odd) -- ratio 15.0625
+[PASS] V10 p=97 W=moving m=16  --  certificate identical (all Delta even, D = m = 16, flat = 0) on BOTH condition sets, but E_c[T] = 44278048 (Lambda={1}) vs 65536 (Lambda=all odd) -- ratio 675.6294
+
+=== V11  P9: official-row scoping arithmetic for T3 ===
+  p = 2^31 - 2^24 + 1 = 2130706433, v_2(p-1) = 24, log2 p = 30.xx, sqrt(p) ~ 2^15.5, t ~ 7.0e+10
+[PASS] V11 t >= n_j exactly for rungs 1..12  --  largest complete rung = 12 (n_12 = 68719476736 <= 7.0e+10 < n_13 = 137438953472)
+[PASS] V11 rungs 13..16 have |H| = q^delta with delta < 2e-4  --  max delta over rungs 13..16 = 1.457e-04
+[PASS] V11 |H| < sqrt(q_j) at EVERY rung (classical Gauss-sum bound vacuous)  --  rung 1: |H| = 2^25 vs sqrt(q_1) = 2^31
+
+  -- P5's necessary condition at the official row --
+     rung  1: m_j = 2^23 = 8.3886e+06, need dim L >= m_j/log2 p = 2.7060e+05; available <= t ~ 7.0e+10 -> OK (margin 258684.16x)
+     rung  8: m_j = 2^30 = 1.0737e+09, need dim L >= m_j/log2 p = 3.4637e+07; available <= t ~ 7.0e+10 -> OK (margin 2020.97x)
+     rung 13: m_j = 2^35 = 3.4360e+10, need dim L >= m_j/log2 p = 1.1084e+09; available <= t ~ 7.0e+10 -> OK (margin 63.16x)
+     rung 16: m_j = 2^38 = 2.7488e+11, need dim L >= m_j/log2 p = 8.8670e+09; available <= t ~ 7.0e+10 -> OK (margin 7.89x)
+
+=== V12  SHARP FORM of P2: Lambda = {1,3,...,2m-1} ALREADY gives rank m ===
+  reason: (y_i^{2r-1})_{i,r} = diag(y_i) * Vandermonde(y_i^2), and the
+  squares y_i^2 are DISTINCT because y -> y^2 is exactly 2-to-1 on
+  mu_n with fibres the antipodal pairs.  So the matrix is invertible
+  over F_{p^2}, and Tr is surjective coordinatewise.
+[PASS] V12 p=5 e=2 W=full m=4 Lambda={1,3,..,7}  --  rank(L) = 4 (need 4); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=5 e=2 W=moving m=2 Lambda={1,3,..,3}  --  rank(L) = 2 (need 2); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=41 e=3 W=full m=8 Lambda={1,3,..,15}  --  rank(L) = 8 (need 8); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=41 e=3 W=moving m=4 Lambda={1,3,..,7}  --  rank(L) = 4 (need 4); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=17 e=4 W=full m=16 Lambda={1,3,..,31}  --  rank(L) = 16 (need 16); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=17 e=4 W=moving m=8 Lambda={1,3,..,15}  --  rank(L) = 8 (need 8); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=97 e=5 W=full m=32 Lambda={1,3,..,63}  --  rank(L) = 32 (need 32); squares distinct=True; exponents distinct mod n=True
+[PASS] V12 p=97 e=5 W=moving m=16 Lambda={1,3,..,31}  --  rank(L) = 16 (need 16); squares distinct=True; exponents distinct mod n=True
+
+  -- official-row consequence: t >= 2 m_j - 1 = n_j/2 - 1 --
+     the sharp hypothesis holds for rungs 1..13 (need t >= n_j/2 - 1; n_13/2 - 1 = 68719476735 <= 7.0e+10 < n_14/2 - 1 = 137438953471)
+[PASS] V12 official rungs covered by the sharp hypothesis = 1..13  --  last = 13
+
+======================================================================
+DIGEST: F2_OPENING_K1_MASS_ALL_PASS  (V1-V12)
+======================================================================

@@ -1,0 +1,113 @@
+{
+  "pilot": "f2_opening",
+  "round": 14,
+  "mystery": 2,
+  "date": "2026-08-06",
+  "author": "Opus 5 program pilot",
+  "frozen_before_any_computation": true,
+  "note_on_provenance": [
+    "notes/pilots_20260802/CAMPAIGN_LEDGER.md:1060-1066 launched this exact round on",
+    "2026-08-04 ('(2) f2_opening: first dedicated F2 round -- K1 mass obligations",
+    "(O1)-(O3) obstruction map + exact small-rung E[exp S_c] + the T3 character-sum",
+    "scoping verdict (internal/Burgess/beyond)'). No notes/pilots_20260804/f2_opening",
+    "directory existed. This pilot IS that round, banked."
+  ],
+
+  "objects": {
+    "setting": "p odd prime, e = v_2(p-1) >= 2, rung group G = mu_{n_ord} <= F_{p^2}^*, n_ord = 2^{e+1} at rung 1. psi(s) = zeta_p^s. Frequency f(x) = sum_{l in Lambda} C_l x^l, C_l in F_{p^2}. chi_c(x) = Tr(f(x)) in F_p.",
+    "W": "any subset of G closed under x -> -x (the 'window'); m := |W|/2 antipodal pairs, reps y_1..y_m; n := |W| = 2m.",
+    "T_W(c)": "prod_{x in W} (1 + psi(chi_c(x))) -- the census term, = 'exp S_c' of the obligation.",
+    "P_W(c; z)": "prod_{x in W} (1 + z psi(chi_c(x))); V_b := [z^b] P_W -- the b-resolved statistic.",
+    "K1(Lambda)": "the parity-pure class: Lambda contains ONLY ODD exponents, so f(-x) = -f(x). Note this is the frequency class of f2_deployed_windows/REPORT.md:41, NOT the k=1 of critical/nodes/f2_k1_contraction_theorem.",
+    "L": "the image of the F_p-linear evaluation map K1(Lambda) -> F_p^m, c |-> (chi_c(y_i))_{i=1..m}.",
+    "Z(L)": "sum over eps in (L^perp intersect {-1,0,1}^m) of 2^{-wt(eps)}, wt = number of nonzero coordinates."
+  },
+
+  "predictions": [
+    {
+      "id": "P1",
+      "label": "EXACT TERNARY-DUAL IDENTITY for the K1 first moment",
+      "claim": "Averaging over the FULL F_p-subspace K1(Lambda) (c = 0 INCLUDED): E_c[T_W(c)] = 2^m * Z(L), exactly, for every p, every antipodally closed W, every odd Lambda.",
+      "status_if_confirmed": "PROVED LEMMA (proof is on paper: pair factorisation (1+zeta^s)(1+zeta^-s) = 2 + zeta^s + zeta^-s, ternary expansion, and orthogonality E[zeta^{<eps,s>}] = [eps in L^perp]).",
+      "falsifier": "any toy (p, W, Lambda) where the exhaustive c-side average differs from the dual-side count."
+    },
+    {
+      "id": "P2",
+      "label": "FULL-CONDITION SURJECTIVITY THEOREM -- (O1) discharged exactly",
+      "claim": "If Lambda contains EVERY odd residue mod n_ord, then L = F_p^m exactly (the evaluation map is SURJECTIVE), hence L^perp = 0, Z(L) = 1, and E_c[T_W(c)] = 2^m = 2^{n/2} EXACTLY, with o(n) = 0. Proof on paper: the odd extension nu of eps has DFT supported on odd frequencies; vanishing there forces nu = 0.",
+      "sharp_form": "(O1) is an EQUALITY, not an inequality with slack: E_c[T_W] = 2^{n/2} on the nose. Z(L) >= 1 always (the eps = 0 term), so 2^{n/2} is an unconditional FLOOR for every Lambda.",
+      "falsifier": "a toy row with Lambda = all odd residues where E_c[T_W] != 2^m exactly, or where rank(L) < m."
+    },
+    {
+      "id": "P3",
+      "label": "b-RESOLVED EXACT LAW -- (O2) discharged exactly",
+      "claim": "Under P2's hypothesis, E_c[V_b] = C(m, b/2) if b is even, and 0 if b is odd. Exactly. Sum over b returns 2^m, consistent with P2.",
+      "falsifier": "any toy mismatch, or a nonzero E[V_b] at odd b."
+    },
+    {
+      "id": "P4",
+      "label": "(O2) IS IMPLIED BY (O1), NOT HARDER -- decided with proof",
+      "claim": "For EVERY Lambda (not just the full one): E_c[V_b] = sum over A,B disjoint with |A|+2|B| = b of N(A), where N(A) := #{eps in {-1,+1}^A supported exactly on A with eps in L^perp} >= 0. Hence (i) E_c[V_b] >= 0 for every b; (ii) sum_b E_c[V_b] = E_c[T_W]; therefore (iii) E_c[V_b] <= E_c[T_W] for every b. So (O2) with the same RHS 2^{n/2+o(n)} FOLLOWS from (O1) and is strictly weaker.",
+      "consequence": "the obligation list shortens from three to two: (O2) is not an independent obligation.",
+      "falsifier": "a toy row with E_c[V_b] < 0 for some b, or with sum_b E_c[V_b] != E_c[T_W], or an N(A) that is not a nonnegative integer."
+    },
+    {
+      "id": "P5",
+      "label": "RIGOROUS NECESSARY CONDITION at partial condition sets",
+      "claim": "Because T_W(c) >= 0 pointwise on K1 (total positivity, already proved: f2_fixed_sector/REPORT.md:19), keeping only the c = 0 term gives E_c[T_W] >= 4^m / |L| = 2^n / p^{dim L}. Hence (O1) at a partial Lambda FORCES dim_{F_p} L >= n/(2 log2 p) - o(n)/log2 p.",
+      "official_row_check": "predicted to HOLD at the official row with a small margin: rung 16 has m = 2^39, so m/log2 p = 2^39/31 = 1.77e10, against dim L <= t ~ 7e10 -- a factor ~4, not orders of magnitude.",
+      "falsifier": "a toy row with E_c[T_W] < 4^m/|L|."
+    },
+    {
+      "id": "P6",
+      "label": "RECONCILIATION of the banked heuristic drift (the auditor's live falsifier direction)",
+      "claim": "The banked per-pair means in f2_fixed_sector/results/C3b_annealed_exact.json -- 1.7434 (p=17), 1.9791 (p=97), 2.2162 (p=193) -- are the SINGLE-CONDITION (Lambda = {1}) class averages with c = 0 EXCLUDED. They are NOT evidence against the 2^{n/2} law; they are exactly what P1 predicts for a 2-dimensional L. I predict my identity reproduces the two exhaustive rows (p=17, p=97) to all printed digits, and that the p=193 row (a 20k sample) is reproduced by the exhaustive computation to within sampling error.",
+      "second_claim": "The upward drift past 2.0 is a Lambda = {1} artefact, not a failure of (O1): with c = 0 INCLUDED the same rows have per-pair mean >= 2 always (by P2's floor Z >= 1), and the punctured mean rises towards it as p grows.",
+      "falsifier": "my exhaustive recomputation of the Lambda = {1} punctured class mean disagrees with the banked 1.7434 / 1.9791."
+    },
+    {
+      "id": "P7",
+      "label": "(O3) EXACT PULLBACK RAMIFICATION LEMMA",
+      "claim": "If the frequency is a pullback f(x) = g(x^{2^d}), then at the level of the FULL z-polynomial: P_{mu_{n}}(f; z) = ( P_{mu_{n/2^d}}(g; z) )^{2^d}, exactly, because x -> x^{2^d} maps mu_n onto mu_{n/2^d} with every fibre of size exactly 2^d. Hence T_j(f) = (T_{j-d}(g))^{2^d} and the b-coefficients are the 2^d-fold convolution. PP5.0 must therefore NOT treat a pullback frequency as an independent factor.",
+      "falsifier": "any toy (p, n, d, g) where the two z-polynomials differ in any coefficient."
+    },
+    {
+      "id": "P8",
+      "label": "T3-UNIFORM IS FALSE BY COMPLETENESS (constructive refutation)",
+      "claim": "Whenever the condition set covers every residue mod n_ord (t >= n_ord), the folded frequency ranges over ALL functions mu_{n_ord} -> F_{p^2} (Vandermonde/DFT bijection). Then there EXISTS a GENERIC-class frequency (both parity parts nonzero) with every Delta_i even, hence |R_p| = 1 and flat = 0 EXACTLY. So 'generic-frequency flatness uniform in p and m' is FALSE as a uniform statement, with no analytic input needed to refute it.",
+      "construction": "assign values so that Tr(f(y)) and Tr(f(-y)) both land in [0, p/2) for every pair (flags agree => Delta even), while f_odd != 0 and f_even != 0.",
+      "falsifier": "no such frequency exists at toy scale, i.e. the construction fails to produce a G-class window with flat = 0."
+    },
+    {
+      "id": "P9",
+      "label": "T3 SCOPING ARITHMETIC and the verdict",
+      "claim": "Official row: p ~ 2^31, n_j = 2^{24+j}, m_j = 2^{22+j}, t ~ 7e10, j = 1..16. (a) t >= n_j exactly for j <= 12, so P8 refutes T3-uniform on rungs 1..12. (b) For j >= 13 the window sits inside F_{q_j}, q_j = p^{2^j}, and |mu_{n_j}| = q_j^{delta_j} with delta_j = (24+j)/(31*2^j) <= 1.5e-4 -- far below the fixed-delta regime any known subgroup character-sum bound (Weil/Gauss-sum, Burgess, Bourgain-Glibichuk-Konyagin) requires; classical Gauss-sum bounds need |H| > sqrt(q_j) and are vacuous already at rung 1 (2^25 vs 2^31).",
+      "verdict_preregistered": "T3-UNIFORM IS DEAD AT EVERY RUNG -- refuted where the frequency space is complete, and beyond all known technology where it is not. T3 must be RE-POSED in measure over frequency space, and in that form it is INTERNAL work (a second-moment computation on R_k over a linear subspace), needing no incomplete-character-sum input at all.",
+      "falsifier": "an arithmetic error in the t >= n_j threshold or in delta_j; or a known character-sum bound that is nontrivial at |H| = q^{1.5e-4}."
+    },
+    {
+      "id": "P10",
+      "label": "THE PARITY MACHINERY DOES NOT CONSTRAIN K1's MASS",
+      "claim": "The antipodal descent lemma and the parity-defect certificate are functionals of the Delta MULTISET; the K1 mass is a functional of the ADDITIVE RELATIONS among the y_i^l (the ternary dual of P1). These are orthogonal: I predict toy windows with identical Delta multisets (hence identical D, identical flat) but different E_c[T_W]. Hence the certificate, which is tight-but-empty on deployed windows, is not merely uninformative for (O1) -- it is the WRONG FUNCTIONAL, and no sharpening of it can pay (O1).",
+      "where_the_certificate_IS_informative": "only on parity-INHOMOGENEOUS windows, i.e. exactly the G class -- so its live use is as the T3 vehicle, not as an (O1) tool.",
+      "falsifier": "no such pair of windows exists, i.e. E_c[T_W] turns out to be a function of the Delta multiset."
+    }
+  ],
+
+  "falsifiers_top_level": {
+    "F1": "P1 or P2 fails at any toy row -> the whole mass program is misframed and (O1) stays open.",
+    "F2": "P4 fails (some E[V_b] < 0) -> (O2) IS an independent obligation and the Hamming-slice fence stands.",
+    "F3": "P8 fails -> T3-uniform survives and the analytic-number-theory question is real, not re-posable.",
+    "F4": "P6 fails -> my identity does not reproduce the banked numbers, so it is modelling something else than the lane's object."
+  },
+
+  "explicitly_not_attempted": [
+    "PP5.0's composition law itself (unfrozen upstream; only the 2^d bookkeeping it must carry).",
+    "The generic-class (G) mass constant (4/pi)^n -- already a PROVED node (f2_annealed_phase_split) with a standing no-go against absolute routes; not touched.",
+    "Any status flip on f2_antipodal_descent_lemma or f2_parity_defect_certificate.",
+    "The second-moment / measure version of T3 (scoped here, not executed).",
+    "Anything m2-related."
+  ],
+
+  "compute": "pure python integers + exact rationals; ramguard tiny/local only; no network, no Modal; nothing written outside this directory."
+}
