@@ -238,7 +238,7 @@ the v13.2 census-floor constants in `v13_2_discrete_subfield_census_guard`
 
 **Precedent, not damage:** we independently reached the same
 pointwise-to-aggregate conclusion in another lane.
-`critical/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md` §3
+`background/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md` §3
 rejects the max-fibre (pointwise) form as "hopelessly lossy" and requires the
 collision-census form; `background/nodes/f3_h3_mobius_overlap_cap35/frontier.md:16`
 records "The pointwise cap was replaced on the critical path by the weaker

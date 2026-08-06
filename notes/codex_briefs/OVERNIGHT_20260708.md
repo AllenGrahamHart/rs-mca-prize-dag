@@ -29,8 +29,8 @@ replayable — read before working):
   EMPTY interiors.
 
 READ (in order): 
-  prize/critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md
-  prize/critical/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md
+  prize/background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md
+  prize/background/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md
   the scripts f3_*.py in the same directory (conventions + instruments)
   prize/critical/nodes/xr_smallcore_spread_count/notes/F5_SKELETON.md
   (P5-P7: the sunflower/pencil/moving-root lemma family)

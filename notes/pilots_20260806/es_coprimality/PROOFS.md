@@ -87,7 +87,7 @@ verbatim title:
 > `# S5: the Lam–Leung / Conway–Jones transport — resolved (empty at n′ = 2^s)`
 
 **(B6) The standing open lemma this pilot attacks.**
-`critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202`,
+`background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202`,
 verbatim:
 
 > ```

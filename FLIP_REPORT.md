@@ -7,7 +7,7 @@ from `TARGET` to `PROVED`.
 The detailed node-level report is:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 ## Replay
@@ -15,7 +15,7 @@ critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 The lightweight local replay is:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected final digest:
@@ -36,7 +36,7 @@ No Modal job is required for the aggregate replay.
 The h=3 repeat-boundary chain also has a focused replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Latest focused digest:
@@ -49,7 +49,7 @@ elapsed=45.74 maxrss=53264
 The h=3 proof surface now has a standalone frontier ledger:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digest:
@@ -61,7 +61,7 @@ H3_FRONTIER_LEDGER_PASS
 The T4 residual frontier also has a standalone ledger:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digest:

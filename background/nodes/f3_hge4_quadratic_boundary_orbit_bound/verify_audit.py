@@ -37,7 +37,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes["f3_hge4_norm_gate_count"]["status"] == "TARGET"
-    statement = (ROOT / "critical/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
+    statement = (ROOT / "background/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
     for marker in (
         NODE, "E_h^prim(m,p)<=2(m-1)(h+1)",
         "payment for the `e=2` width", "f_(h+1)", "not sufficient",

@@ -18975,6 +18975,55 @@ new assumptions: none
 compute: proof-object audit and existing exact assembly replay; no Modal spend
 next: classify post-strip general records or broaden the u1 ledger
 ```
+
+### Critical re-pose: consume the local general-star budget directly
+
+The exact row audit shows that forcing every general prefix record through
+the F-4 minimal ledger is stronger than the exact-list consumer needs.  The
+primitive bucket is already characterized by the proved star map and local
+degree identity.  Its direct obligation is simply
+
+```text
+max_z |F_z^prim| <= 16n^3,
+```
+
+or, after choosing a base support, local general order-`t` shift-pair degree
+at most `16n^3-1`.  This is also the form of upstream v13's primitive SP
+input.
+
+The legacy-ID target `x4_primitive_star_u1_coverage` is therefore re-posed to
+this weaker, exact consumer statement.  It has two proof routes:
+
+```text
+minimal route: strip-aware general-to-minimal injection + R_min<16n^3;
+direct route:  bound all surviving general order-t records locally.
+```
+
+The route cut kills only a universal version of the first route.  It does not
+touch the direct route.  `u1_x4_direct_column_budget` is now evidence for the
+minimal route rather than a mandatory requirement of the `x4` assembly.
+This removes an unnecessary theorem from the critical ancestry without
+claiming any new bound or changing the primitive target's red status.
+
+The strict orbit is correspondingly smaller and better typed:
+
+```text
+math orbit       230 = 171 PROVED / 34 CONDITIONAL / 25 TARGET
+submission orbit 245 = 183 PROVED / 36 CONDITIONAL / 26 TARGET
+packaging spine    15 nodes, unchanged
+```
+
+```text
+starting pin: 24dec1cc3; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / primitive SP local control
+result: replaced mandatory minimalization by the exact direct local budget
+DAG status delta: target unchanged; u1/F3 minimal branch becomes optional evidence
+upstream terminal delta: exact finite alignment with v13 local primitive SP input
+delta-star bracket movement: none
+new assumptions: none
+compute: none
+next: attack maximum local general shift-pair degree after the fixed strips
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

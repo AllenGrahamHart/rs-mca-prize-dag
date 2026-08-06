@@ -691,7 +691,7 @@ result `experiments/prize_resolution/sol_target4_n256_result.json`
 The `(256,257)` row is **fully admissible under the conjecture's own
 hypotheses** (257 odd prime > 4; 256 a power of two; `256 | 256`). The
 algorithm was validated against our banked `(32,97) = 792` anchor
-(`critical/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md:21`) and
+(`background/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md:21`) and
 against maelcar's independently replayed `n=128` row. No absolute constant `C`
 survives: the index-1 family's ratio scales as `~ N^2/576` (first-moment
 pigeonhole into `q^3 ~ N^3` keys).

@@ -6,16 +6,16 @@
     "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns",
     "status": "CONDITIONAL",
     "key": true,
-    "statement": "CONDITIONAL EXACT-LIST ASSEMBLY. At every official x4 row and transported quotient row, fix one support-wise first-match priority map on each full locator-prefix fiber. Partition actual list supports into already-paid background classes, explicit quotient/dihedral staircases, the structured moment-null/U2 pullback column, and the remaining primitive star-PTE column. The paid theorem inputs bound their declared classes; u2c_exact_slice_extras_budget bounds the structured column by n^3 after expansion and coalescing; x4_primitive_star_u1_coverage injects every non-base primitive list member into the F-4 minimal-record population bounded strictly below 16n^3 by u1_x4_direct_column_budget, hence the primitive list column is at most 16n^3; and x4_exactlist_summed_budget proves the one list-side integer sum is at most B*=floor(|F|/2^128). Under those hypotheses every exact list is at most B*. The quotient/dihedral and moment-trade counterexamples explain why the priority columns are necessary. QA.22's MCA slope arithmetic is evidence only and is not used as an unproved per-word list conversion.",
-    "attack_surface": "close the typed structured-column population, primitive-star coverage, and list-side summed-budget leaves separately; preserve one support-wise priority map across them",
-    "falsifier": "a support omitted or multiply owned by the priority map, a primitive star record outside the u1 ledger, or a consumed row whose complete list-side sum exceeds B*",
+    "statement": "CONDITIONAL EXACT-LIST ASSEMBLY. At every official x4 row and transported quotient row, fix one support-wise first-match priority map on each full locator-prefix fiber. Partition actual list supports into already-paid background classes, explicit quotient/dihedral staircases, the structured moment-null/U2 pullback column, and the remaining primitive star-PTE column. The paid theorem inputs bound their declared classes; u2c_exact_slice_extras_budget bounds the structured column by n^3 after expansion and coalescing; x4_primitive_star_u1_coverage directly bounds the local primitive list column by 16n^3; and x4_exactlist_summed_budget proves the one list-side integer sum is at most B*=floor(|F|/2^128). Under those hypotheses every exact list is at most B*. The quotient/dihedral and moment-trade counterexamples explain why the priority columns are necessary. QA.22's MCA slope arithmetic is evidence only and is not used as an unproved per-word list conversion.",
+    "attack_surface": "close the typed structured-column population, local primitive general-star budget, and list-side summed-budget leaves separately; preserve one support-wise priority map across them",
+    "falsifier": "a support omitted or multiply owned by the priority map, a primitive full-prefix fiber exceeding its direct local allowance, or a consumed row whose complete list-side sum exceeds B*",
     "refs": [
       "critical/nodes/x4_exactlist_staircase_split/statement.md",
       "critical/nodes/x4_exactlist_staircase_split/conditional.md",
       "critical/nodes/x4_exactlist_staircase_split/REDUCTION_PACKET.md",
       "experimental/notes/roadmaps/e35_weight2_abundance.md"
     ],
-    "notes": "Historical quotient, dihedral, and moment-trade counterexamples remain valid and force explicit columns. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | FULL-LANE COMPRESSION 2026-07-05: the dli lane is recorded in REDUCTION_PACKET.md. | OWNERSHIP REPAIR 2026-08-06: u2c owns the structured moment/null pullback list column; the primitive full-prefix residue requires a separate general-star-to-u1 coverage theorem; and the final sum is list currency, not QA.22 MCA slope currency. Two explicit target leaves now carry those missing obligations.",
+    "notes": "Historical quotient, dihedral, and moment-trade counterexamples remain valid and force explicit columns. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | FULL-LANE COMPRESSION 2026-07-05: the dli lane is recorded in REDUCTION_PACKET.md. | OWNERSHIP REPAIR 2026-08-06: u2c owns the structured moment/null pullback list column; the primitive full-prefix residue requires a direct local general-star budget; and the final sum is list currency, not QA.22 MCA slope currency. Minimalization plus u1 remains an optional proof route, not a mandatory consumer input.",
     "upstream": {
       "label": "prob:list-completion assembly",
       "relation": "OVERLAP"
@@ -111,10 +111,6 @@
     {
       "from": "xr_scattered_syzygy_flattice",
       "order": 1060
-    },
-    {
-      "from": "u1_x4_direct_column_budget",
-      "order": 1172
     }
   ],
   "alternatives": [],

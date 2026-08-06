@@ -19,7 +19,7 @@ THEOREM CS makes E_floor membership REQUIRE a small bad prime
 a = 0, w >= 3, n = 32 are ONLY {3,7,17,47,97,193,257,353,449}.
 
 The lineage (quote both): the pair-coprimality open lemma
-(critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202,
+(background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202,
 "ONE open lemma (pair-coprimality / norm-gate sparsity) stands
 between the data and the theorem — shared verbatim with F2's
 accident story") and CATCH-17B (the u2c empirical credit was never

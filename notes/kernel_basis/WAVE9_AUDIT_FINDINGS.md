@@ -661,7 +661,7 @@ merge modal_verifier_replay.json entries.
 
 ### D. Cluster 4
 
-- 2ef01fdc HGE4 contract files: copy critical/nodes/f3_hge4_norm_gate_count/{statement.md,
+- 2ef01fdc HGE4 contract files: copy background/nodes/f3_hge4_norm_gate_count/{statement.md,
   claim_contract.md, verify.py} verbatim into master's folder (dag statement unchanged);
   manifest entries.
 - f3_h3 nodes (root bound + fence + dag syncs): DO NOT IMPORT until the Cluster-A audit;

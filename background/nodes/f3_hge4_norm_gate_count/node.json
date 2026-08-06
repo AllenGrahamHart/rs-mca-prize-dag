@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 803,
+  "node": {
+    "id": "f3_hge4_norm_gate_count",
+    "status": "TARGET",
+    "key": true,
+    "statement": "NG-COUNT (the reduced red of HGE4's route-3 surgery, minted 2026-07-12 after two independent supporting audits \u2014 the dichotomy replay and the survived first census): at every official corridor row (full corridor: n = 2^s, 13 <= s <= 41, every prime p = 1 mod n, p >= n^2), Sigma_{h=4}^{H_max} #{fully-stripped F-4-minimal records whose lifted support has all h-1 cleared obstructions = 0 mod P with lambda a nonzero square (the x83 norm-gate condition), outside the five strips} <= 14 n^3. PROVED CONTEXT: by the replayed dichotomy every F-4-minimal record IS a norm-gate event or full-fiber (quotient-strip) \u2014 this node prices the norm-gate class only. EVIDENCE: deep aggregate EXACTLY 0 on every scanned cell (complete rows at n=16 across 6 primes; h in [4,8] slices at n=32 across 5 primes incl. the adversarial F1153/F1249; h in {4,5} at n=64); the p=17 sub-threshold exceptional cell fully consumed by strips + minimality; naive first-moment gate mass ~10^4 << 14n^3 = 7.7e12 at s=13. PINS: F-4 minimality is LOAD-BEARING-FOR-TRUTH (catch #99: the un-pinned shallow mass grows x4.3-5.5 per h and would cross 14n^3 near h ~ 12 at n=32 boundary primes \u2014 A5's re-open clause, if triggered, kills the gate); the five-strips convention is 3/5 operationally defined (catch #100: U2-boundary and DLI/skew have no in-repo analog \u2014 any KILL claim must define them first; survival verdicts are only strengthened by their absence). PROVED WIDTH REDUCTION: exact-ratio primitive widths m/4<=h<m/3 are empty by cyclotomic norm and odd-frequency Parseval, so the live exact-level sum stops at h=m/4-1. For h=m/4-d, the guarded cubic Vandermonde-defect theorem completely deletes every width with Y_3<=floor((h-1)/2)+2; at m=2^41 this reaches d=2,677,220,820. NG-ZERO is NOT this node (catch #96 guard). FALSIFIER: a certified F-4-minimal stripped norm-gate aggregate > 14n^3 on a complete row or transported slice.",
+    "refs": [
+      "background/nodes/f3_hge4_norm_gate_count/attack.md",
+      "background/nodes/f3_hge4_norm_gate_count/claim_contract.md",
+      "background/nodes/f3_hge4_norm_gate_count/frontier.md",
+      "background/nodes/f3_hge4_norm_gate_count/statement.md",
+      "background/nodes/f3_hge4_norm_gate_count/verify.py"
+    ],
+    "upstream": {
+      "label": "SP stratification (HGE4 residuals)",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -4,8 +4,8 @@ Hypotheses (matches wiring after full-lane compression):
 - moment_trade_staircase
 - dli_prime_weighted_large_block_support (FRONTIER red: weighted/RES count)
 - u2c_exact_slice_extras_budget (structured moment/U2 list column)
-- x4_primitive_star_u1_coverage (general star records -> u1 ledger)
-- u1_x4_direct_column_budget (strict F-4 minimal-record bound)
+- x4_primitive_star_u1_coverage (direct local primitive-star list bound;
+  `u1` is one optional proof route)
 - x4_exactlist_summed_budget (one list-side integer sum)
 - b2b_dyadic_descent_packet
 - b2b_near_tail_bound

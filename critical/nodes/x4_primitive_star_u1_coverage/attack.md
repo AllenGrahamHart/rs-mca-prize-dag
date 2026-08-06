@@ -1,19 +1,20 @@
 # Attack surface
 
-1. Write the first-match owner map before attempting any count.
-2. Fix a base support and use `star_pte_lemma` to obtain the canonical
-   order-`t` record at each side-distance `h`.
-3. Do not assume a universal general-to-minimal injection or peel a contained
-   minimal subtrade. `x4_general_star_minimal_trade_route_cut` disproves both
-   routes before the official strips. Prove instead that the *post-strip
-   official-row residue* has an injective minimal first owner, or show that a
-   re-posed `R_h` directly counts every surviving general record.
-4. Audit multiplicity at common cores, quotient transport, and every strip
-   boundary. A bounded multiplicity greater than one must be charged in
+1. Print the exact support-wise first-owner chronology shared with
    `x4_exactlist_summed_budget`.
-5. If minimalization is false, re-pose the `u1` leaves to the general
-   order-`t` object. Do not retain the existing `14n^3` tail by convention.
-6. The next route-deciding test is therefore strip-aware: classify the route-
-   cut records by the exact x4 first-owner chronology, then prove which
-   official hypotheses remove the surviving obstruction. Tiny-row survival
-   alone remains evidence, not a prize-row falsifier.
+2. Use `x4_maxfiber_local_shiftpair_equivalence` to work with the maximum
+   local degree, not a global second moment.
+3. Direct route: bound all surviving general order-`t` records incident to a
+   base support by `16n^3-1`, uniformly in the full official and quotient row
+   set.
+4. Minimal route: prove the post-strip official residue has an injective F-4
+   minimal first owner, then apply the conditional `R_min<16n^3` theorem.
+   Universal minimalization and subset peeling are unavailable by
+   `x4_general_star_minimal_trade_route_cut`.
+5. Audit orientation, common-core multiplicity, quotient transport, and every
+   strip boundary.  A bounded multiplicity above one must be charged in the
+   final summed budget.
+
+The next proof attempt should prefer the direct local-degree formulation,
+which is also upstream v13's primitive SP obligation.  Minimal-stratum
+results remain useful evidence but are not mandatory dependencies.

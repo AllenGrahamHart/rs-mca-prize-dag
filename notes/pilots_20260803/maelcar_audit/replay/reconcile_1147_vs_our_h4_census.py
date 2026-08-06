@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Reconcile maelcar #1147's T_sm against OUR banked H4 collision census.
 
-Our record (critical/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md:21):
+Our record (background/nodes/u1_x4_direct_column_budget/notes/F3_IDENTIFICATION.md:21):
     (32,4,97): 792 = 2 x 396
 i.e. 792 ORDERED / 396 UNORDERED disjoint 4-subset pairs of mu_32 in F_97
 with matching power sums p1,p2,p3.

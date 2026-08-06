@@ -4,7 +4,7 @@
 
 Stage: Terminal A, h=3 char-zero classification.
 
-Banked pose: `critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md`.
+Banked pose: `background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md`.
 
 Current route: direct unit-circle proof using `e2 = product * conjugate(e1)`,
 which should classify all distinct char-zero h=3 trades as toral `mu_3`
@@ -39,14 +39,14 @@ Stage: Terminal B, in-house explicit h=2.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
 ```
 
 Digest: `H2_ENERGY_REPLAY_PASS`.
@@ -83,14 +83,14 @@ Stage: Terminal C, pair-coprimality on observed h=3 shapes.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
 ```
 
 Digest: `H3_PAIR_COPRIMALITY_PILOT_PASS`.
@@ -118,14 +118,14 @@ Stage: Terminal C, random exact resultant sample over normalized `n=96` shapes.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_RANDOM_SAMPLE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_RANDOM_SAMPLE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
 ```
 
 Modal run:
@@ -151,14 +151,14 @@ Stage: Terminal C, refined common-root activation ladder.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
 ```
 
 Modal run:
@@ -182,14 +182,14 @@ Stage: Terminal C, exact sizing of the full `n=96` all-shapes census.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
 ```
 
 Modal run:
@@ -220,14 +220,14 @@ representatives.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
 ```
 
 Modal run:
@@ -259,14 +259,14 @@ Stage: Terminal C, complete structural subfamily census.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
 ```
 
 Modal run:
@@ -295,14 +295,14 @@ exception list.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
 ```
 
 Digest: `H3_CONSECUTIVE_CORE_STRUCTURE_PASS`.
@@ -327,14 +327,14 @@ Stage: Terminal C, exact rate table for the two structural families.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
 ```
 
 Digest: `H3_CONSECUTIVE_CORE_FAMILY_RATES_PASS`.
@@ -360,14 +360,14 @@ Stage: Terminal C, organization of the remaining all-shapes census.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
 ```
 
 Digest: `H3_CORE_ORBIT_COUNT_PASS`.
@@ -384,17 +384,17 @@ Stage: Terminal C, second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_013_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_013_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
 ```
 
 Modal run:
@@ -431,17 +431,17 @@ Stage: Terminal C, third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_014_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_014_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
 ```
 
 Modal run:
@@ -479,7 +479,7 @@ Stage: Terminal C, fourth complete core-orbit slice.
 New reusable runner:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
 ```
 
 It accepts `--core` and `--tag`, uses the same exact resultant/common-root
@@ -488,16 +488,16 @@ logic as the banked core-specific scripts, and writes the same JSON schema.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_015_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_015_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,5 --tag 015
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,5 --tag 015
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
 ```
 
 Modal run:
@@ -533,16 +533,16 @@ Stage: Terminal C, fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_016_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_016_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,6 --tag 016
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,6 --tag 016
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
 ```
 
 Modal run:
@@ -578,16 +578,16 @@ Stage: Terminal C, sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_017_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_017_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,7 --tag 017
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,7 --tag 017
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
 ```
 
 Modal run:
@@ -623,16 +623,16 @@ Stage: Terminal C, seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_018_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_018_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,8 --tag 018
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,8 --tag 018
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
 ```
 
 Modal run:
@@ -668,16 +668,16 @@ Stage: Terminal C, eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_019_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_019_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,9 --tag 019
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,9 --tag 019
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
 ```
 
 Modal run:
@@ -715,16 +715,16 @@ Stage: Terminal C, ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0110_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0110_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,10 --tag 0110
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,10 --tag 0110
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
 ```
 
 Modal run:
@@ -759,16 +759,16 @@ Stage: Terminal C, tenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0111_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0111_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,11 --tag 0111
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,11 --tag 0111
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
 ```
 
 Modal run:
@@ -804,16 +804,16 @@ Stage: Terminal C, eleventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0112_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0112_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,12 --tag 0112
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,12 --tag 0112
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
 ```
 
 Modal run:
@@ -848,16 +848,16 @@ Stage: Terminal C, twelfth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0113_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0113_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,13 --tag 0113
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,13 --tag 0113
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
 ```
 
 Modal run:
@@ -891,16 +891,16 @@ Stage: Terminal C, thirteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0114_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0114_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,14 --tag 0114
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,14 --tag 0114
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
 ```
 
 Modal run:
@@ -935,16 +935,16 @@ Stage: Terminal C, fourteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0115_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0115_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,15 --tag 0115
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,15 --tag 0115
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
 ```
 
 Modal run:
@@ -979,16 +979,16 @@ Stage: Terminal C, fifteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0116_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0116_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,16 --tag 0116
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,16 --tag 0116
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
 ```
 
 Modal run:
@@ -1028,16 +1028,16 @@ Stage: Terminal C, sixteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0117_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0117_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,17 --tag 0117
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,17 --tag 0117
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
 ```
 
 Modal run:
@@ -1074,16 +1074,16 @@ Stage: Terminal C, seventeenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0118_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0118_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,18 --tag 0118
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,18 --tag 0118
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
 ```
 
 Modal run:
@@ -1120,16 +1120,16 @@ Stage: Terminal C, eighteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0119_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0119_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,19 --tag 0119
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,19 --tag 0119
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
 ```
 
 Modal run:
@@ -1165,16 +1165,16 @@ Stage: Terminal C, nineteenth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0120_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0120_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,20 --tag 0120
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,20 --tag 0120
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
 ```
 
 Modal run:
@@ -1210,16 +1210,16 @@ Stage: Terminal C, twentieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0121_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0121_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,21 --tag 0121
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,21 --tag 0121
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
 ```
 
 Modal run:
@@ -1256,16 +1256,16 @@ Stage: Terminal C, twenty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0122_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0122_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,22 --tag 0122
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,22 --tag 0122
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
 ```
 
 Modal run:
@@ -1301,16 +1301,16 @@ Stage: Terminal C, twenty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0123_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0123_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,23 --tag 0123
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,23 --tag 0123
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
 ```
 
 Modal run:
@@ -1345,16 +1345,16 @@ Stage: Terminal C, twenty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0124_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0124_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,24 --tag 0124
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,24 --tag 0124
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
 ```
 
 Modal run:
@@ -1388,16 +1388,16 @@ Stage: Terminal C, twenty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0125_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0125_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,25 --tag 0125
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,25 --tag 0125
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
 ```
 
 Modal run:
@@ -1431,16 +1431,16 @@ Stage: Terminal C, twenty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0126_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0126_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,26 --tag 0126
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,26 --tag 0126
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
 ```
 
 Modal run:
@@ -1475,16 +1475,16 @@ Stage: Terminal C, twenty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0127_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0127_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,27 --tag 0127
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,27 --tag 0127
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
 ```
 
 Modal run:
@@ -1521,16 +1521,16 @@ Stage: Terminal C, twenty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0128_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0128_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,28 --tag 0128
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,28 --tag 0128
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0128_census_check.py
 ```
 
 Modal run:
@@ -1569,16 +1569,16 @@ Stage: Terminal C, twenty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0129_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0129_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,29 --tag 0129
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,29 --tag 0129
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0129_census_check.py
 ```
 
 Modal run:
@@ -1614,16 +1614,16 @@ Stage: Terminal C, twenty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0130_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0130_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,30 --tag 0130
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,30 --tag 0130
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0130_census_check.py
 ```
 
 Modal run:
@@ -1659,16 +1659,16 @@ Stage: Terminal C, thirtieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0131_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0131_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,31 --tag 0131
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,31 --tag 0131
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0131_census_check.py
 ```
 
 Modal run:
@@ -1705,16 +1705,16 @@ Stage: Terminal C, thirty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0132_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0132_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,32 --tag 0132
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,32 --tag 0132
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0132_census_check.py
 ```
 
 Modal run:
@@ -1761,16 +1761,16 @@ Stage: Terminal C, thirty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0133_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0133_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,33 --tag 0133
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,33 --tag 0133
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0133_census_check.py
 ```
 
 Modal run:
@@ -1791,7 +1791,7 @@ Activation exceptions:
 
 ```text
 32 actual activations; full list pinned in
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0133_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0133_CENSUS.md
 ```
 
 Rates: rational norm exception `0.8276%`; actual common-root activation
@@ -1805,16 +1805,16 @@ Stage: Terminal C, thirty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0134_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0134_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,34 --tag 0134
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,34 --tag 0134
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0134_census_check.py
 ```
 
 Modal run:
@@ -1851,16 +1851,16 @@ Stage: Terminal C, thirty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0135_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0135_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,35 --tag 0135
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,35 --tag 0135
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0135_census_check.py
 ```
 
 Modal run:
@@ -1896,16 +1896,16 @@ Stage: Terminal C, thirty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0136_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0136_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,36 --tag 0136
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,36 --tag 0136
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0136_census_check.py
 ```
 
 Modal run:
@@ -1940,16 +1940,16 @@ Stage: Terminal C, thirty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0137_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0137_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,37 --tag 0137
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,37 --tag 0137
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0137_census_check.py
 ```
 
 Modal run:
@@ -1983,16 +1983,16 @@ Stage: Terminal C, thirty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0138_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0138_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,38 --tag 0138
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,38 --tag 0138
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0138_census_check.py
 ```
 
 Modal run:
@@ -2027,16 +2027,16 @@ Stage: Terminal C, thirty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0139_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0139_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,39 --tag 0139
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,39 --tag 0139
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0139_census_check.py
 ```
 
 Modal run:
@@ -2070,16 +2070,16 @@ Stage: Terminal C, thirty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0140_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0140_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,40 --tag 0140
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,40 --tag 0140
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0140_census_check.py
 ```
 
 Modal run:
@@ -2116,16 +2116,16 @@ Stage: Terminal C, fortieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0141_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0141_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,41 --tag 0141
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,41 --tag 0141
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0141_census_check.py
 ```
 
 Modal run:
@@ -2161,16 +2161,16 @@ Stage: Terminal C, forty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0142_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0142_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,42 --tag 0142
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,42 --tag 0142
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0142_census_check.py
 ```
 
 Modal run:
@@ -2206,16 +2206,16 @@ Stage: Terminal C, forty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0143_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0143_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,43 --tag 0143
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,43 --tag 0143
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0143_census_check.py
 ```
 
 Modal run:
@@ -2251,16 +2251,16 @@ Stage: Terminal C, forty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0144_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0144_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,44 --tag 0144
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,44 --tag 0144
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0144_census_check.py
 ```
 
 Modal run:
@@ -2296,16 +2296,16 @@ Stage: Terminal C, forty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0145_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0145_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,45 --tag 0145
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,45 --tag 0145
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0145_census_check.py
 ```
 
 Modal run:
@@ -2345,16 +2345,16 @@ Stage: Terminal C, forty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0146_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0146_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,46 --tag 0146
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,46 --tag 0146
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0146_census_check.py
 ```
 
 Modal run:
@@ -2390,16 +2390,16 @@ Stage: Terminal C, forty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0147_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0147_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,47 --tag 0147
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,47 --tag 0147
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0147_census_check.py
 ```
 
 Modal run:
@@ -2433,16 +2433,16 @@ Stage: Terminal C, forty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0148_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0148_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,48 --tag 0148
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,48 --tag 0148
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0148_census_check.py
 ```
 
 Modal run:
@@ -2474,16 +2474,16 @@ Stage: Terminal C, forty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0149_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0149_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,49 --tag 0149
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,49 --tag 0149
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0149_census_check.py
 ```
 
 Modal run:
@@ -2515,16 +2515,16 @@ Stage: Terminal C, forty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0150_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0150_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,50 --tag 0150
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,50 --tag 0150
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0150_census_check.py
 ```
 
 Modal run:
@@ -2558,16 +2558,16 @@ Stage: Terminal C, fiftieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0151_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0151_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,51 --tag 0151
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,51 --tag 0151
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0151_census_check.py
 ```
 
 Modal run:
@@ -2603,16 +2603,16 @@ Stage: Terminal C, fifty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0152_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0152_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,52 --tag 0152
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,52 --tag 0152
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0152_census_check.py
 ```
 
 Modal run:
@@ -2652,16 +2652,16 @@ Stage: Terminal C, fifty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0153_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0153_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,53 --tag 0153
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,53 --tag 0153
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0153_census_check.py
 ```
 
 Modal run:
@@ -2697,16 +2697,16 @@ Stage: Terminal C, fifty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0154_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0154_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,54 --tag 0154
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,54 --tag 0154
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0154_census_check.py
 ```
 
 Modal run:
@@ -2742,16 +2742,16 @@ Stage: Terminal C, fifty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0155_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0155_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,55 --tag 0155
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,55 --tag 0155
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0155_census_check.py
 ```
 
 Modal run:
@@ -2787,16 +2787,16 @@ Stage: Terminal C, fifty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0156_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0156_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,56 --tag 0156
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,56 --tag 0156
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0156_census_check.py
 ```
 
 Modal run:
@@ -2832,16 +2832,16 @@ Stage: Terminal C, fifty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0157_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0157_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,57 --tag 0157
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,57 --tag 0157
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0157_census_check.py
 ```
 
 Modal run:
@@ -2878,16 +2878,16 @@ Stage: Terminal C, fifty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0158_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0158_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,58 --tag 0158
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,58 --tag 0158
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0158_census_check.py
 ```
 
 Modal run:
@@ -2921,16 +2921,16 @@ Stage: Terminal C, fifty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0159_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0159_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,59 --tag 0159
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,59 --tag 0159
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0159_census_check.py
 ```
 
 Modal run:
@@ -2965,16 +2965,16 @@ Stage: Terminal C, fifty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0160_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0160_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,60 --tag 0160
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,60 --tag 0160
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0160_census_check.py
 ```
 
 Modal run:
@@ -3008,16 +3008,16 @@ Stage: Terminal C, sixtieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0161_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0161_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,61 --tag 0161
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,61 --tag 0161
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0161_census_check.py
 ```
 
 Modal run:
@@ -3052,16 +3052,16 @@ Stage: Terminal C, sixty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0162_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0162_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,62 --tag 0162
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,62 --tag 0162
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0162_census_check.py
 ```
 
 Modal run:
@@ -3097,16 +3097,16 @@ Stage: Terminal C, sixty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0163_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0163_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,63 --tag 0163
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,63 --tag 0163
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0163_census_check.py
 ```
 
 Modal run:
@@ -3143,16 +3143,16 @@ Stage: Terminal C, sixty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0164_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0164_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,64 --tag 0164
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,64 --tag 0164
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0164_census_check.py
 ```
 
 Modal run:
@@ -3170,7 +3170,7 @@ H3_CORE_0164_CENSUS_CHECK_PASS
 ```
 
 Activation exceptions: `32`, listed in
-`critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0164_CENSUS.md`.
+`background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0164_CENSUS.md`.
 Many involve the exponent `80`, marking this as another dense structural slice.
 
 Rates: rational norm exception `0.8276%`; actual common-root activation
@@ -3184,16 +3184,16 @@ Stage: Terminal C, sixty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0165_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0165_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,65 --tag 0165
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,65 --tag 0165
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0165_census_check.py
 ```
 
 Modal run:
@@ -3240,16 +3240,16 @@ Stage: Terminal C, sixty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0166_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0166_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,66 --tag 0166
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,66 --tag 0166
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0166_census_check.py
 ```
 
 Modal run:
@@ -3286,16 +3286,16 @@ Stage: Terminal C, sixty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0167_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0167_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,67 --tag 0167
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,67 --tag 0167
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0167_census_check.py
 ```
 
 Modal run:
@@ -3331,16 +3331,16 @@ Stage: Terminal C, sixty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0168_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0168_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,68 --tag 0168
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,68 --tag 0168
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0168_census_check.py
 ```
 
 Modal run:
@@ -3376,16 +3376,16 @@ Stage: Terminal C, sixty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0169_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0169_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,69 --tag 0169
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,69 --tag 0169
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0169_census_check.py
 ```
 
 Modal run:
@@ -3424,16 +3424,16 @@ Stage: Terminal C, sixty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0170_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0170_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,70 --tag 0170
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,70 --tag 0170
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0170_census_check.py
 ```
 
 Modal run:
@@ -3467,16 +3467,16 @@ Stage: Terminal C, seventieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0171_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0171_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,71 --tag 0171
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,71 --tag 0171
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0171_census_check.py
 ```
 
 Modal run:
@@ -3511,16 +3511,16 @@ Stage: Terminal C, seventy-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0172_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0172_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,72 --tag 0172
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,72 --tag 0172
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0172_census_check.py
 ```
 
 Modal run:
@@ -3550,16 +3550,16 @@ Stage: Terminal C, seventy-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0173_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0173_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,73 --tag 0173
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,73 --tag 0173
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0173_census_check.py
 ```
 
 Modal run:
@@ -3589,16 +3589,16 @@ Stage: Terminal C, seventy-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0174_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0174_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,74 --tag 0174
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,74 --tag 0174
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0174_census_check.py
 ```
 
 Modal run:
@@ -3633,16 +3633,16 @@ Stage: Terminal C, seventy-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0175_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0175_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,75 --tag 0175
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,75 --tag 0175
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0175_census_check.py
 ```
 
 Modal run:
@@ -3678,16 +3678,16 @@ Stage: Terminal C, seventy-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0176_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0176_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,76 --tag 0176
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,76 --tag 0176
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0176_census_check.py
 ```
 
 Modal run:
@@ -3724,16 +3724,16 @@ Stage: Terminal C, seventy-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0177_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0177_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,77 --tag 0177
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,77 --tag 0177
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0177_census_check.py
 ```
 
 Modal run:
@@ -3769,16 +3769,16 @@ Stage: Terminal C, seventy-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0178_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0178_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,78 --tag 0178
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,78 --tag 0178
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0178_census_check.py
 ```
 
 Modal run:
@@ -3814,16 +3814,16 @@ Stage: Terminal C, seventy-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0179_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0179_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,79 --tag 0179
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,79 --tag 0179
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0179_census_check.py
 ```
 
 Modal run:
@@ -3860,16 +3860,16 @@ Stage: Terminal C, seventy-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0180_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0180_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,80 --tag 0180
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,80 --tag 0180
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0180_census_check.py
 ```
 
 Modal run:
@@ -3906,16 +3906,16 @@ Stage: Terminal C, eightieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0181_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0181_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,81 --tag 0181
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,81 --tag 0181
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0181_census_check.py
 ```
 
 Modal run:
@@ -3955,16 +3955,16 @@ Stage: Terminal C, eighty-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0182_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0182_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,82 --tag 0182
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,82 --tag 0182
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0182_census_check.py
 ```
 
 Modal run:
@@ -3999,16 +3999,16 @@ Stage: Terminal C, eighty-second complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0183_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0183_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,83 --tag 0183
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,83 --tag 0183
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0183_census_check.py
 ```
 
 Modal run:
@@ -4043,16 +4043,16 @@ Stage: Terminal C, eighty-third complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0184_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0184_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,84 --tag 0184
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,84 --tag 0184
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0184_census_check.py
 ```
 
 Modal run:
@@ -4086,16 +4086,16 @@ Stage: Terminal C, eighty-fourth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0185_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0185_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,85 --tag 0185
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,85 --tag 0185
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0185_census_check.py
 ```
 
 Modal run:
@@ -4130,16 +4130,16 @@ Stage: Terminal C, eighty-fifth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0186_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0186_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,86 --tag 0186
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,86 --tag 0186
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0186_census_check.py
 ```
 
 Modal run:
@@ -4175,16 +4175,16 @@ Stage: Terminal C, eighty-sixth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0187_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0187_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,87 --tag 0187
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,87 --tag 0187
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0187_census_check.py
 ```
 
 Modal run:
@@ -4219,16 +4219,16 @@ Stage: Terminal C, eighty-seventh complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0188_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0188_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,88 --tag 0188
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,88 --tag 0188
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0188_census_check.py
 ```
 
 Modal run:
@@ -4266,16 +4266,16 @@ Stage: Terminal C, eighty-eighth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0189_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0189_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,89 --tag 0189
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,89 --tag 0189
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0189_census_check.py
 ```
 
 Modal run:
@@ -4311,16 +4311,16 @@ Stage: Terminal C, eighty-ninth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0190_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0190_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,90 --tag 0190
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,90 --tag 0190
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0190_census_check.py
 ```
 
 Modal run:
@@ -4356,16 +4356,16 @@ Stage: Terminal C, ninetieth complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0191_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0191_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,91 --tag 0191
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,91 --tag 0191
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0191_census_check.py
 ```
 
 Modal run:
@@ -4401,16 +4401,16 @@ Stage: Terminal C, ninety-first complete core-orbit slice.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0192_CENSUS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_results.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_check.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0192_CENSUS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_results.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_check.py
 ```
 
 Replay:
 
 ```bash
-~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,92 --tag 0192
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_check.py
+~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,92 --tag 0192
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0192_census_check.py
 ```
 
 Modal run:
@@ -4446,15 +4446,15 @@ Stage: Terminal C, complete aggregate of the 91 core-orbit slices.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.json
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
 ```
 
 Result:
@@ -4483,7 +4483,7 @@ the complete oriented activation-exception list.
 Banked terminal artifact:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ALL_CORE_CENSUS_SUMMARY.md
 ```
 
 Replay digest:
@@ -4506,14 +4506,14 @@ Stage: Terminal B, missing B2 energy-level upgrade.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
 ```
 
 Result:
@@ -4539,14 +4539,14 @@ Stage: Terminal B, reduction of B2 to the rich-coset Stepanov lemma.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
 ```
 
 Digest: `H2_HBK_CONDITIONAL_COMPILER_PASS`.
@@ -4569,15 +4569,15 @@ Stage: Terminal B, rich-coset Stepanov proof.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
 ```
 
 Digests:
@@ -4610,14 +4610,14 @@ Stage: bonus item (i), h=4/h=5 emptiness route.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digest: `H4_H5_BONUS_REDUCTION_PASS`.
@@ -4634,16 +4634,16 @@ per-row certificate family.
 Update: h=5 now has a complete compiled `n=32` multirow certificate:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digests:
@@ -4672,14 +4672,14 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digest: `H6_H8_BONUS_SWEEP_PASS`.
@@ -4694,16 +4694,16 @@ Update: the smallest h=8 partial row is now upgraded by a complete compiled
 anchored MITM certificate:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N32_FULL_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N32_FULL_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.json
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_full_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digests:
@@ -4720,8 +4720,8 @@ same complete certificate to boundary primes `p=3137,12289` and smooth primes
 `p=40961,61441,65537`:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n32_multirow_certificate.json
 ```
 
 Digest: `H8_N32_MULTIROW_CERTIFICATE_PASS`.
@@ -4735,14 +4735,14 @@ Stage: bonus item (iii), pose the h=3 per-row accident bound.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PER_ROW_ACCIDENT_STEPANOV_POSE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PER_ROW_ACCIDENT_STEPANOV_POSE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
 ```
 
 Digest: `H3_PER_ROW_ACCIDENT_POSE_PASS`.
@@ -4761,16 +4761,16 @@ Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digests:
@@ -4795,16 +4795,16 @@ Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N96_BOUNDARY_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N96_BOUNDARY_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.json
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n96_boundary_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digests:
@@ -4828,20 +4828,20 @@ Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N128_BOUNDARY_MODAL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_gate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N128_BOUNDARY_MODAL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_gate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_certificate.json
 ```
 
 Replay:
 
 ```bash
 F3_H5_N128_MODE=gate ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
 F3_H5_N128_MODE=full ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digests:
@@ -4872,15 +4872,15 @@ Stage: bonus item (i), h=4/h=5 emptiness evidence extension.
 Banked file:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_extra_primes_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_extra_primes_certificate.json
 ```
 
 Replay:
 
 ```bash
 F3_H5_N128_MODE=extra ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n128_boundary_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digests:
@@ -4905,19 +4905,19 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.json
 ```
 
 Replay:
 
 ```bash
 ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digests:
@@ -4949,24 +4949,24 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_P4993_SQUARE_LIFT_ANALYSIS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_P4993_SQUARE_LIFT_ANALYSIS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_N64_BOUNDARY_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
 
 ```bash
 F3_H6_N64_MODE=extra ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_boundary_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_n64_extra_primes_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_p4993_square_lift_analysis.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digests:
@@ -5002,15 +5002,15 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H7_H8_N64_FEASIBILITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H7_H8_N64_FEASIBILITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h7_h8_n64_feasibility.py
 ```
 
 Digest:
@@ -5034,21 +5034,21 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H7_N64_BOUNDARY_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H7_N64_BOUNDARY_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Replay:
 
 ```bash
 F3_H7_N64_MODE=full ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_timing_gate_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h7_n64_boundary_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digests:
@@ -5081,15 +5081,15 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_SQUARE_LIFT_PROBE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_SQUARE_LIFT_PROBE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_square_lift_probe.py
 ```
 
 Digest:
@@ -5113,15 +5113,15 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
 ```
 
 Digest:
@@ -5146,15 +5146,15 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 ```
 
 Digest:
@@ -5178,14 +5178,14 @@ Stage: bonus item (ii), h=6/7/8 ladder sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_RADIUS3_SHELL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate_p4289.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile_q3.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_RADIUS3_SHELL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_shell_certificate_p4289.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile_q3.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H6_H8_BONUS_SWEEP.md
 ```
 
 Replay:
@@ -5193,13 +5193,13 @@ Replay:
 ```bash
 F3_H8_RADIUS3_MODE=full F3_H8_RADIUS3_PRIMES=262337 \
   ~/.venvs/modal/bin/modal run \
-  critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+  background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_modal.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
 F3_H8_RADIUS3_CERT=f3_h8_n64_x83_radius3_shell_certificate_p4289.json \
   F3_H8_RADIUS3_EXPECTED_PRIMES=4289 \
-  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+  python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_radius3_profile.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digest:

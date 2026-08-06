@@ -2,11 +2,11 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "x4_primitive_star_u1_coverage",
-    "title": "Primitive exact-list star coverage by the u1 record ledger",
+    "title": "Primitive exact-list local general-star budget",
     "status": "TARGET",
     "closure": "open",
-    "statement": "At every x4 official row and every transported quotient row, fix the declared support-wise priority map and a primitive residual locator-prefix fiber. For each base support S0, inject every other residual support S, through its canonical order-t star-PTE record (S\\S0,S0\\S), into exactly one F-4 minimal record counted by the re-posed u1_x4_direct_column_budget ledger, with multiplicity at most one and with the same quotient/dihedral/moment/U2/DLI strips. Equivalently, prove that the post-strip official-row residue admits the required minimal first owner; otherwise broaden u1 to count all required general records and re-prove its budget. This coverage gives |F_z^prim|-1<=R_min and is required uniformly before the u1 bound can be consumed as a worst-word list bound.",
-    "falsifier": "A correctly stripped primitive same-prefix pair whose canonical star-PTE record is not assigned to any u1 record, is assigned only after changing strip ownership, or incurs unbounded multiplicity under the proposed coverage map.",
+    "statement": "At every x4 official row and every transported quotient row, fix the same support-wise first-match priority map used by the final list ledger. For every primitive residual full-prefix fiber F_z^prim and base support S0, the canonical map S -> (S\\S0,S0\\S) injects F_z^prim\\{S0} into general order-t star-PTE records. Prove uniformly that |F_z^prim|-1<=16n^3-1, equivalently that the post-strip local general shift-pair degree is at most 16n^3-1. Then the actual primitive list column U_prim=max_z|F_z^prim| is at most 16n^3. A strip-aware injection into the F-4 minimal ledger plus u1_x4_direct_column_budget is one route; a direct bound on all surviving general records is another. The consumer requires only this local column bound.",
+    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16n^3 actual list supports under the declared first-owner map.",
     "refs": [
       "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
       "critical/nodes/x4_primitive_star_u1_coverage/attack.md",
@@ -15,8 +15,8 @@
       "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md"
     ],
     "upstream": {
-      "source": "rs-mca v13 prob:capg-active-shiftpairs coverage clause",
-      "relation": "FINITE_COVERAGE_INSTANCE"
+      "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
+      "relation": "FINITE_LOCAL_SP_INSTANCE"
     }
   },
   "requires": [],

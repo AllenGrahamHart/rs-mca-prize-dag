@@ -25,8 +25,10 @@ actual list members assigned to the structured moment/null pullback bucket,
 including staircase expansion and coalescing. It does not own the final
 primitive residue. Choosing a base in a primitive fiber injects the other
 members into general order-`t` star-PTE records. The open
-`x4_primitive_star_u1_coverage` theorem must put those records into the exact
-F-4/minimal ledger bounded by `u1_x4_direct_column_budget`. Finally,
+`x4_primitive_star_u1_coverage` target must bound that local general-record
+population by `16n^3-1`.  Strip-aware injection into the F-4/minimal ledger
+bounded by `u1_x4_direct_column_budget` is one optional route, not the target
+itself. Finally,
 `x4_exactlist_summed_budget` supplies one per-word list sum; QA.22's per-pair
 MCA reserve cannot substitute for it. The historical F2/t-null packet below
 remains evidence for the structured column only.
@@ -82,8 +84,8 @@ NOTES: Reframed by the unification: the per-row question is 'which polynomial-fi
 - moment_trade_staircase (PROVED mechanism)
 - dli_prime_weighted_large_block_support (FRONTIER red)
 - u2c_exact_slice_extras_budget (structured Q/MT list-member column)
-- x4_primitive_star_u1_coverage (general star-to-u1 coverage)
-- u1_x4_direct_column_budget (primitive record population)
+- x4_primitive_star_u1_coverage (direct local primitive general-star budget)
+- u1_x4_direct_column_budget (optional F-4 minimal-ledger route evidence)
 - x4_exactlist_summed_budget (list-side final integer sum)
 
 ## Reattached side-inputs

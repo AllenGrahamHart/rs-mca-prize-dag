@@ -26,7 +26,7 @@ across all stages). Anchors verified by the
 coordinator directly, verbatim-exact: the collapse identity
 (archive/compressed_dli_lane_20260705/pcf_evaluation_flatness/statement.md:8-12)
 and the pair-coprimality open lemma
-(critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202).
+(background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202).
 
 ADOPTED:
 - **THEOREM CS** (novelty correctly scoped: the delta -> |Z_w^odd|

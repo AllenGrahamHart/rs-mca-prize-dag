@@ -35,7 +35,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes["f3_hge4_norm_gate_count"]["status"] == "TARGET"
-    statement = (ROOT / "critical/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
+    statement = (ROOT / "background/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
     for marker in (
         NODE, "G=d^2(a-(h/m)X)", "b-2a^2",
         "a=(1+x)/(x(x-1)^2)", "does not exclude",

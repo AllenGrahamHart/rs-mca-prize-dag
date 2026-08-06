@@ -18,8 +18,7 @@ Conditional on the wired inputs:
 1. the paid theorem handles bound their declared classes;
 2. `u2c_exact_slice_extras_budget` gives `U_MT<=n^3` after expansion and
    coalescing;
-3. `x4_primitive_star_u1_coverage` and
-   the F-4 minimal-record bound in `u1_x4_direct_column_budget` give
+3. `x4_primitive_star_u1_coverage` gives the direct local bound
    `U_prim<=16n^3`; and
 4. `x4_exactlist_summed_budget` proves the one list-side integer sum is at
    most `B*=floor(|F|/2^128)`.
@@ -35,7 +34,7 @@ primitive residue is counted.
 ## Attack surface
 
 Close the three typed leaves separately: structured-column population,
-primitive-star coverage into the `u1` ledger, and the list-side summed budget.
+the local primitive general-star budget, and the list-side summed budget.
 The quotient and dihedral terms retain their exact staircase formulas.
 
 ## Falsifier

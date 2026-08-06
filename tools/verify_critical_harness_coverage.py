@@ -41,24 +41,23 @@ EXPECTED_COUNTS = {
     # 2026-08-06 exact-slice near-tail repair: b2b_near_tail_bound gained an
     # exact integer verifier while remaining PROVED, so one critical proof
     # moves from md-only to local-verifier.
-    "folder-md-only": 125,
-    "legacy-ref-only": 4,
+    # 2026-08-06 direct primitive-SP re-pose: the optional F-4/u1 branch
+    # leaves strict ancestry. Five proved nodes detach: two md-only and three
+    # legacy-ref-only; local verifier coverage is unchanged.
+    "folder-md-only": 123,
+    "legacy-ref-only": 1,
     "local-verifier": 47,
 }
 
 EXPECTED_NO_PROOF = {
     # Manifest migration made five legacy-ref-only PROVED critical nodes own a
     # folder for the first time. node.json is graph metadata, not a proof.
-    "f3_h2_stratum_theorem",
     "f5_lineray_saturation_instrument",
     "f5_wcollision_pair_moment_identity",
     "floor_budget_slack_scan",
     "petal_column_lemma",
     "petal_small_scale_staircase_census",
     "v13_capf_planted_lower_count",
-    "x24_char0_dyadic_descent",
-    "x81_minimal_trade_square_shift",
-    "x83_uniform_square_shift_obstruction_gate",
 }
 
 EXPECTED_UNREGISTERED_VERIFIER_NODES = {
@@ -120,10 +119,10 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The exact-slice route correction removes the guarded F2 branch from
-    # strict ancestry; the ownership audit then exposes two list-side leaves.
-    require(len(critical["nodes"]) == 242, "critical orbit size drift")
-    require(len(proved) == 176, "critical PROVED count drift")
+    # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence and
+    # keeps only the exact local general-star budget in strict ancestry.
+    require(len(critical["nodes"]) == 230, "critical orbit size drift")
+    require(len(proved) == 171, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

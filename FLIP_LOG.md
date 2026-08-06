@@ -10,17 +10,17 @@ chain were used without the external Cochrane--Pinner import.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_OPTIMIZED.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_optimized.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_OPTIMIZED.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_optimized.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_optimized.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_optimized.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
 ```
 
 Digest:
@@ -66,14 +66,14 @@ steps.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
 ```
 
 Digest:
@@ -112,14 +112,14 @@ states exactly what remains if the in-house chain alone is used.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_MIDRANGE_CERTIFICATE_COSTS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_MIDRANGE_CERTIFICATE_COSTS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
 ```
 
 Digest:
@@ -147,15 +147,15 @@ degree-2 rational maps, but the proposed rich-curve theorem cannot.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
 ```
 
 Digest:
@@ -187,14 +187,14 @@ make two conditions incompatible.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
 ```
 
 Digest:
@@ -223,16 +223,16 @@ reduced derivative condition count or the sparse nonvanishing lemma.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_REDUCED_CONDITION_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_REDUCED_CONDITION_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
 ```
 
 Digest:
@@ -269,16 +269,16 @@ prime-ideal/common-root activation at primitive `n`th roots.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_BOUND_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_BOUND_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_bound_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_all_core_census_summary.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
 ```
 
 Expected digest:
@@ -311,14 +311,14 @@ still blocks a node promotion.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -339,16 +339,16 @@ Stage selected: sharpen the h=5 blocker using already-proved DAG inputs.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_STRUCTURAL_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_STRUCTURAL_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -375,15 +375,15 @@ consume.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_IDENTITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_IDENTITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_identity.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -411,15 +411,15 @@ banked `n=96` all-core activation list.  This targets the exact object
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_ORBIT_DEDUP.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_ORBIT_DEDUP.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -449,14 +449,14 @@ that h=4's structural rigidity route is already banked.
 Banked file:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_T4_LOCAL_REPLAY_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_T4_LOCAL_REPLAY_AUDIT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digest:
@@ -486,15 +486,15 @@ coverage table.  This is a dossier/audit step, not a new h=5 theorem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Digest:
@@ -533,15 +533,15 @@ frontier audit, not a new certificate search.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RESIDUAL_FRONTIER_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_RESIDUAL_FRONTIER_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h6_h8_bonus_sweep_replay.py
 ```
 
 Digest:
@@ -574,15 +574,15 @@ signature join.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_SUPPORT_CERTIFIER_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_SUPPORT_CERTIFIER_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_support_certifier_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_residual_frontier_audit.py
 ```
 
 Digest:
@@ -612,16 +612,16 @@ reduced derivative condition count for degree-2 rational signature curves.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_LOGJET_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_LOGJET_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_logjet_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -654,15 +654,15 @@ Stage selected: repair the statement of the remaining nonvanishing gate after
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_NV_RANK_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_NV_RANK_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -694,15 +694,15 @@ separates the known collapsed family from a repaired degree-2 sample.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -727,15 +727,15 @@ the rank-form nonvanishing assumption.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_PARAMETER_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_PARAMETER_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_parameter_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -761,15 +761,15 @@ the current diagonal Stepanov arithmetic while still implying `H3-ACT(16)`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -794,15 +794,15 @@ F3 interim replay.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -827,15 +827,15 @@ rank-form nonvanishing theorem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_DIVISOR_FULL_RANK_REFUTATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_DIVISOR_FULL_RANK_REFUTATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_divisor_full_rank_refutation.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -861,15 +861,15 @@ new search.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_SUPPORT_UNIVERSE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_SUPPORT_UNIVERSE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_support_universe_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -897,15 +897,15 @@ support condition, so cyclic rotations are safe to quotient by.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_rotation_orbit_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -932,15 +932,15 @@ abstract cyclic group.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -968,16 +968,16 @@ status rather than only in a side replay.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1003,17 +1003,17 @@ support-certifier target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_OBSTRUCTION_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_obstruction_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1042,19 +1042,19 @@ families from being treated as rich-curve input.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DENOMINATOR_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_DEGENERACY_FILTER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_denominator_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_degeneracy_filter.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1081,15 +1081,15 @@ missing geometric batching theorem at the largest official rows.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1122,15 +1122,15 @@ the aggregate replay back under the light-compute ceiling with room to spare.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1154,7 +1154,7 @@ bridge-budget verifier.
 Banked file:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Change: the h=3 bridge-budget section now states the precise current status:
@@ -1171,15 +1171,15 @@ of the `B_max=50000` diagonal search cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_bmax_stress.py
 ```
 
 Digest:
@@ -1203,17 +1203,17 @@ rows where the batching budget is tightest.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_lowrow_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Digest:
@@ -1251,16 +1251,16 @@ after the analytic-cap speedup, include them in the aggregate interim replay.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_nondiagonal_highrow_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -1292,16 +1292,16 @@ adding a slow multi-curve computation.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -1325,17 +1325,17 @@ most tempting extension of rotation symmetry, namely exponent reflection.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_EXPONENT_UNIT_FALSIFIER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ROTATION_ORBIT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_exponent_unit_falsifier.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digest:
@@ -1359,20 +1359,20 @@ radius-one and radius-two shell rows are asserted, not merely printed.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_N64_X83_NEARLIFT_SHELL.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=4289 \
-  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+  python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
 F3_H8_X83_SHELL_RADIUS=2 F3_H8_X83_SHELL_PRIMES=262337 \
-  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+  python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_n64_x83_nearlift_shell.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1404,23 +1404,23 @@ under the 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1450,22 +1450,22 @@ full generator under the local 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1495,23 +1495,23 @@ the local 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1542,22 +1542,22 @@ because the 15-row replay already runs close to the 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1588,23 +1588,23 @@ maximum `65537`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N32_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n32_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1635,28 +1635,28 @@ explicit chunk replays so no local task exceeds the 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_multirow_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_12289_chunk_b.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1688,28 +1688,28 @@ using explicit chunks so no local certificate task exceeds the 60-second cap.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_b.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_20353_chunk_c.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1740,17 +1740,17 @@ gate rather than extending h=5 finite certificates again.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_STRESS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_STRESS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_stress.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1783,18 +1783,18 @@ raw multiplicity.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_EFFECTIVE_BRIDGE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_EFFECTIVE_BRIDGE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_effective_bridge.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1817,21 +1817,21 @@ still fail the rank inequality at tiny subgroup orders.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_BRIDGE_BUDGET_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_LOWROW_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_NONDIAGONAL_HIGHROW_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1856,15 +1856,15 @@ formula for the private linear-divisor control.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_HFLOOR_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
 ```
 
 Expected digest:
@@ -1894,20 +1894,20 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_23873_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1943,20 +1943,20 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_26177_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -1991,20 +1991,20 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_28097_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2039,23 +2039,23 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_30977_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2091,23 +2091,23 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_33601_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2144,23 +2144,23 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_36161_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2197,23 +2197,23 @@ Pre-registered primes:
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_38977_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2251,10 +2251,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2269,14 +2269,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40577_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: the new chunk passes in `25.41s` locally (`maxrss=86592`) and writes
@@ -2305,10 +2305,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2323,14 +2323,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_40961_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: the new chunk passes in `4.85s` locally (`maxrss=86456`) and writes
@@ -2358,10 +2358,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2376,14 +2376,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_44417_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: the new chunk passes in `39.65s` locally (`maxrss=86520`) and writes
@@ -2411,10 +2411,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2429,14 +2429,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_48193_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: the clean rerun after the disk-space interruption passes in `50.61s`
@@ -2465,11 +2465,11 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2492,16 +2492,16 @@ Proceeding with the two five-prime chunks above.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_51521_chunk_b.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: after the timeout split, chunk A passes in `30.76s` locally
@@ -2530,10 +2530,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2548,14 +2548,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_53377_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: chunk A passes in `21.16s` locally (`maxrss=86196`), writing five
@@ -2583,10 +2583,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2601,14 +2601,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_54721_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: chunk A passes in `21.20s` locally (`maxrss=86728`), writing five
@@ -2636,10 +2636,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2654,14 +2654,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_57793_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: chunk A passes in `20.43s` locally (`maxrss=86332`), writing five
@@ -2689,10 +2689,10 @@ Pre-registered primes:
 Planned replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_interim_report_replay.py
 ```
 
 Expected digests:
@@ -2707,14 +2707,14 @@ F3_FLIP_INTERIM_REPORT_REPLAY_PASS
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.json
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_n64_prefix_60161_chunk_a.json
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_N64_MULTIROW_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CERTIFICATE_COVERAGE_AUDIT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_certificate_coverage_audit.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H4_H5_BONUS_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h4_h5_bonus_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_INTERIM_REPORT.md
 ```
 
 Result: chunk A passes in `19.88s` locally (`maxrss=86360`), writing five
@@ -2734,8 +2734,8 @@ Stage selected: stop linear h=5 prefix expansion and sharpen the h=3
 rank guardrails:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_MODEL_LEMMAS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_model_lemmas.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_MODEL_LEMMAS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_model_lemmas.py
 ```
 
 Pre-registered claims:
@@ -2765,8 +2765,8 @@ avoidance statement rather than another finite sample.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
 ```
 
 Pre-registered claims:
@@ -2814,8 +2814,8 @@ enough to justify the current non-diagonal h=3 bridge compiler.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_COMPILER_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_compiler_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_COMPILER_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_compiler_guard.py
 ```
 
 Result: every current official non-diagonal witness row `s=13..41` needs the
@@ -2842,8 +2842,8 @@ h=3 non-diagonal compiler into `H3-ACT(16)`.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
 ```
 
 Result: the packet verifies that the current improved `Z_budget` table covers
@@ -2867,8 +2867,8 @@ deduplication and future geometric batching theorem.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_SYMMETRY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_symmetry.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_SYMMETRY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_symmetry.py
 ```
 
 Result: affine/unit exponent maps and side swap preserve the h=3 activation
@@ -2891,8 +2891,8 @@ cell exactly.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_LINE_DEGENERACY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_line_degeneracy.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_HYPERBOLA_LINE_DEGENERACY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_hyperbola_line_degeneracy.py
 ```
 
 Result: in the h=3 hyperbola normal form,
@@ -2926,8 +2926,8 @@ proves the quotient mechanism behind that behavior.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ANTIPODAL_X83_QUOTIENT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_antipodal_x83_quotient.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ANTIPODAL_X83_QUOTIENT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_antipodal_x83_quotient.py
 ```
 
 Result: if `R` is an antipodal 16-support in `mu_64`, then
@@ -2962,8 +2962,8 @@ that provably preserve the cleared substitution rank.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
 ```
 
 Result: these normalizations are rank-safe:
@@ -2994,8 +2994,8 @@ orbits; this packet proves that every such orbit is genuinely aperiodic.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_NONANTIPODAL_APERIODIC.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_nonantipodal_aperiodic.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_NONANTIPODAL_APERIODIC.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_nonantipodal_aperiodic.py
 ```
 
 Result: if a 16-support in `Z/64Z` is fixed by a nonzero rotation, its
@@ -3025,8 +3025,8 @@ all powers of two.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_DEGENERACY_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_degeneracy_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_DEGENERACY_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_degeneracy_ledger.py
 ```
 
 Result: for every official row `n=2^s`, `13 <= s <= 41`,
@@ -3053,8 +3053,8 @@ compiler.
 New packet:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_LOWROW_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_lowrow_budget.py
 ```
 
 Result: with `L_private=(A-1)+3n(B-1)`, the exact low/mid-row budgets are:
@@ -3187,7 +3187,7 @@ guardrail, but the aggregate replay script did not call its verifier.  The
 aggregate replay now includes:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_hfloor_guard.py
 ```
 
 Current default replay:
@@ -3210,14 +3210,14 @@ search on the laptop.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_ORBIT_CERTIFIER_SKELETON.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_ORBIT_CERTIFIER_SKELETON.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
 ```
 
 Expected digest:
@@ -3262,14 +3262,14 @@ such maps over the row field itself.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DEGREE2_CHART.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DEGREE2_CHART.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_degree2_chart.py
 ```
 
 Expected digest:
@@ -3313,14 +3313,14 @@ activation bound.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_LOCAL_FIBER_COUNT_BRIDGE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_LOCAL_FIBER_COUNT_BRIDGE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_local_fiber_count_bridge.py
 ```
 
 Expected digest:
@@ -3360,14 +3360,14 @@ the compiler uses an unnormalized contribution term `n A_3(n,p)`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_DILATION_LIFT_BOUND.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_DILATION_LIFT_BOUND.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_dilation_lift_bound.py
 ```
 
 Expected digest:
@@ -3421,14 +3421,14 @@ without adding another default aggregate check.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RATIO_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RATIO_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_ratio_guard.py
 ```
 
 Expected digest:
@@ -3460,8 +3460,8 @@ support packets pushed the runner close to the 60 second cap.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
 ```
 
 Result: the generic-open verifier now consumes the private-linear rank `293`
@@ -3492,14 +3492,14 @@ the ordered same-fiber `H`-triple count.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_HPOINT_COVERAGE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_HPOINT_COVERAGE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_hpoint_coverage.py
 ```
 
 Expected digest:
@@ -3529,14 +3529,14 @@ than a linear incidence estimate.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COUNT_FROM_CHARTS_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COUNT_FROM_CHARTS_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_pair_count_from_charts_compiler.py
 ```
 
 Expected digest:
@@ -3579,14 +3579,14 @@ the exact quadratic ledger paid by activated pairs.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_L2_LEVELSET_BRIDGE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_L2_LEVELSET_BRIDGE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_l2_levelset_bridge_compiler.py
 ```
 
 Expected digest:
@@ -3622,14 +3622,14 @@ images when many ordered triples lie in the same same-`(e1,e2)` conic fiber.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BASEPOINT_EQUIVALENCE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BASEPOINT_EQUIVALENCE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_basepoint_equivalence.py
 ```
 
 Expected digest:
@@ -3657,14 +3657,14 @@ base-point equivalence packet.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_NORMALIZATION_INVARIANCE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_normalization_invariance.py
 ```
 
 Expected digest:
@@ -3695,14 +3695,14 @@ rank-avoidance target to its essential parameters.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_PGL2_NORMAL_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_PGL2_NORMAL_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_pgl2_normal_form.py
 ```
 
 Expected digest:
@@ -3745,14 +3745,14 @@ Stage selected: make the private-linear repaired open set explicit in the
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_NORMAL_FORM_DEGENERACY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_NORMAL_FORM_DEGENERACY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_normal_form_degeneracy.py
 ```
 
 Expected digest:
@@ -3788,14 +3788,14 @@ explicit bounded-degree bad-locus problem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_MINOR_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_MINOR_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_minor_degree_compiler.py
 ```
 
 Expected digest:
@@ -3833,14 +3833,14 @@ h=3 Stepanov-swing program.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOMENT_BOOKKEEPING_IDENTITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOMENT_BOOKKEEPING_IDENTITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_moment_bookkeeping_identity.py
 ```
 
 Expected digest:
@@ -3886,14 +3886,14 @@ into an exact boundary ledger rather than running further broad searches.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RESIDUE_BOUNDARY_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RESIDUE_BOUNDARY_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_residue_boundary_compiler.py
 ```
 
 Expected digest:
@@ -3933,14 +3933,14 @@ normalizing `D_boundary` into a two-parameter line-pencil membership count.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LINE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LINE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_line_compiler.py
 ```
 
 Expected digest:
@@ -3987,14 +3987,14 @@ explicit.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_STEPANOV_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_stepanov_compiler.py
 ```
 
 Expected digest:
@@ -4032,14 +4032,14 @@ than leaving every line parameter to the future LP4 theorem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_Q0_CELL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_Q0_CELL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_q0_cell.py
 ```
 
 Expected digest:
@@ -4079,14 +4079,14 @@ Stepanov corollary for all line-pencil parameters, not just q0.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_FIBER_CAP.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_FIBER_CAP.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_fiber_cap.py
 ```
 
 Expected digest:
@@ -4131,14 +4131,14 @@ more effort on the line-pencil theorem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_LP4_RANK_GUARDRAIL.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_lp4_rank_guardrail.py
 ```
 
 Expected digest:
@@ -4174,14 +4174,14 @@ symmetry of the three distinct boundary entries.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_SYMMETRY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_symmetry.py
 ```
 
 Expected digest:
@@ -4218,14 +4218,14 @@ repeat-boundary packets.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_AFFINE_COSET_PAIR_STEPANOV.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H2_AFFINE_COSET_PAIR_STEPANOV.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_affine_coset_pair_stepanov.py
 ```
 
 Expected digest:
@@ -4260,14 +4260,14 @@ quotient into one explicit repeat-residue theorem interface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_SUPPORT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_support_compiler.py
 ```
 
 Expected digest:
@@ -4306,14 +4306,14 @@ chain without lengthening the default F3 aggregate replay.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_REPLAY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_BOUNDARY_REPLAY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Expected digest:
@@ -4343,14 +4343,14 @@ official-row constant pressure.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
 ```
 
 Expected digest:
@@ -4391,14 +4391,14 @@ emptiness.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_BOUNDARY_EVIDENCE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_boundary_evidence.py
 ```
 
 Expected digest:
@@ -4434,14 +4434,14 @@ support route instead of treating it as arbitrary line support.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_FORCED_POINT_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_forced_point_reduction.py
 ```
 
 Expected digest:
@@ -4478,14 +4478,14 @@ Stepanov compiler with its own rank/nonvanishing gate.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_STEPANOV_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_stepanov_compiler.py
 ```
 
 Expected digest:
@@ -4524,14 +4524,14 @@ already enough.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_DEGREE_BOUND.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_FIBER_DEGREE_BOUND.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_fiber_degree_bound.py
 ```
 
 Expected digest:
@@ -4566,14 +4566,14 @@ official-row constant pressure for possible forced-coordinate covers.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_COVER_CROSSOVER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_COVER_CROSSOVER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_cover_crossover.py
 ```
 
 Expected digest:
@@ -4613,14 +4613,14 @@ and check whether it is sharp enough on the boundary evidence rows.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_COVER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_COVER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_cover_ledger.py
 ```
 
 Expected digest:
@@ -4661,14 +4661,14 @@ hitting number of the active coordinate hypergraph.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_HITTING_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_COORDINATE_HITTING_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
 ```
 
 Expected digest:
@@ -4713,14 +4713,14 @@ form rather than treating it as only a finite accident.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_TWO_NORMAL_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_TWO_NORMAL_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_two_normal_form.py
 ```
 
 Expected digest:
@@ -4763,14 +4763,14 @@ building more proof structure on it.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_HITTING_EXCEPTION_SCAN.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_HITTING_EXCEPTION_SCAN.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_hitting_exception_scan.py
 ```
 
 Expected digest:
@@ -4807,14 +4807,14 @@ target `tau_coord <= 1` directly in bounded boundary-style windows.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SINGLETON_HITTING_STRESS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SINGLETON_HITTING_STRESS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_singleton_hitting_stress.py
 ```
 
 Expected digest:
@@ -4865,14 +4865,14 @@ algebraic obstruction.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_compiler.py
 ```
 
 Expected digest:
@@ -4917,14 +4917,14 @@ normal form.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_RECIPROCAL_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_RECIPROCAL_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_reciprocal_form.py
 ```
 
 Expected digest:
@@ -4958,14 +4958,14 @@ Stage selected: split the star obstruction into algebraically distinct cases.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_OBSTRUCTION_TAXONOMY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_obstruction_taxonomy.py
 ```
 
 Expected digest:
@@ -5002,14 +5002,14 @@ active edge cubics.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_CUBIC_GCD_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_EDGE_CUBIC_GCD_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_edge_cubic_gcd_form.py
 ```
 
 Expected digest:
@@ -5044,14 +5044,14 @@ difference of active edge cubics.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIR_INTERSECTION_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIR_INTERSECTION_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pair_intersection_compiler.py
 ```
 
 Expected digest:
@@ -5093,14 +5093,14 @@ statistic.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_FIBER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_FIBER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_fiber_ledger.py
 ```
 
 Expected digest:
@@ -5134,14 +5134,14 @@ single scalar `rho`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_QUADRATIC_RHO_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_QUADRATIC_RHO_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_quadratic_rho_compiler.py
 ```
 
 Expected digest:
@@ -5182,14 +5182,14 @@ hypergraph shapes.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIRWISE_CORELESS_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_PAIRWISE_CORELESS_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_pairwise_coreless_compiler.py
 ```
 
 Expected digest:
@@ -5226,14 +5226,14 @@ explicit polynomial family.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_AFFINE_VALUE_SLOPE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_affine_value_slope_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_AFFINE_VALUE_SLOPE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_affine_value_slope_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_affine_value_slope_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_affine_value_slope_compiler.py
 ```
 
 Expected digest:
@@ -5268,14 +5268,14 @@ Stage selected: refine the three-edge coreless obstruction into its exact
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_CORELESS_PATTERN_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coreless_pattern_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_CORELESS_PATTERN_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coreless_pattern_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coreless_pattern_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coreless_pattern_compiler.py
 ```
 
 Expected digest:
@@ -5312,14 +5312,14 @@ patterns.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_linear_hypergraph_compiler.py
 ```
 
 Expected digest:
@@ -5360,14 +5360,14 @@ active-pair shadow graph condition.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_TRIANGLE_SHADOW_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_triangle_shadow_compiler.py
 ```
 
 Expected digest:
@@ -5405,14 +5405,14 @@ Stage selected: rewrite the loose-triangle target in the reciprocal chart
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RECIPROCAL_CLOSURE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_reciprocal_closure_compiler.py
 ```
 
 Expected digest:
@@ -5449,14 +5449,14 @@ invariants.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_RECIPROCAL_PRODUCT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_reciprocal_product_compiler.py
 ```
 
 Expected digest:
@@ -5498,14 +5498,14 @@ explicit rational-map fiber target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ROOT_FIBER_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_root_fiber_compiler.py
 ```
 
 Expected digest:
@@ -5543,14 +5543,14 @@ of two reciprocal roots.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_PARAMETRIZATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_parametrization.py
 ```
 
 Expected digest:
@@ -5588,14 +5588,14 @@ subgroup-membership functions.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_MEMBERSHIP_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_membership_compiler.py
 ```
 
 Expected digest:
@@ -5633,14 +5633,14 @@ Stage selected: quotient ordered root ratios by the `S_3` symmetry of a
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_RATIO_ORBIT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_ratio_orbit_compiler.py
 ```
 
 Expected digest:
@@ -5675,14 +5675,14 @@ ratio parametrization.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_compiler.py
 ```
 
 Expected digest:
@@ -5717,14 +5717,14 @@ ratio coordinates as the fixed-lambda branch.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_RATIO_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_RATIO_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_ratio_compiler.py
 ```
 
 Expected digest:
@@ -5765,14 +5765,14 @@ factored numerator equations.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_NUMERATOR_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_NUMERATOR_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_numerator_compiler.py
 ```
 
 Expected digest:
@@ -5820,14 +5820,14 @@ reciprocal membership functions.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_PAIR_MEMBERSHIP_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_pair_membership_compiler.py
 ```
 
 Expected digest:
@@ -5863,14 +5863,14 @@ in the ratio-orbit and scale coordinates.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_COLLISION_SYSTEM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_collision_system.py
 ```
 
 Expected digest:
@@ -5905,14 +5905,14 @@ additive system.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SIX_POINT_SYSTEM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SIX_POINT_SYSTEM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_six_point_system.py
 ```
 
 Expected digest:
@@ -5949,14 +5949,14 @@ reciprocal vertex.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_SYSTEM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_SYSTEM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_system.py
 ```
 
 Expected digest:
@@ -5991,14 +5991,14 @@ subgroup membership problem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_AFFINE_SLOPE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_affine_slope_compiler.py
 ```
 
 Expected digest:
@@ -6040,14 +6040,14 @@ three core vertices.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_NORMALIZED_ORBIT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_normalized_orbit_compiler.py
 ```
 
 Expected digest:
@@ -6081,14 +6081,14 @@ normalized loose target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SLOPE_MULTIPLICITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_slope_multiplicity.py
 ```
 
 Expected digest:
@@ -6121,14 +6121,14 @@ loose target symbolic rather than finite-row implicit.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COORDINATE_SLOPE_DISTINCTNESS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_coordinate_slope_distinctness.py
 ```
 
 Expected digest:
@@ -6160,14 +6160,14 @@ normalized loose target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_LAMBDA_SLOPE_COLLISIONS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_lambda_slope_collisions.py
 ```
 
 Expected digest:
@@ -6209,14 +6209,14 @@ normalized `S_3` action.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_ORBIT_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_orbit_compiler.py
 ```
 
 Expected digest:
@@ -6247,14 +6247,14 @@ representatives for `b`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_COLLISION_BRANCH_PARAMETRIZATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_collision_branch_parametrization.py
 ```
 
 Expected digest:
@@ -6290,14 +6290,14 @@ parametrization packets into the exact counting interface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_CASE_SPLIT_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_case_split_interface.py
 ```
 
 Expected digest:
@@ -6333,14 +6333,14 @@ one-parameter slope families with degree budgets.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_SLOPE_MAPS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_slope_maps.py
 ```
 
 Expected digest:
@@ -6371,14 +6371,14 @@ branch membership maps `1+c_i(a)X`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_degree_compiler.py
 ```
 
 Expected digest:
@@ -6418,14 +6418,14 @@ nine-slope loose membership maps `1+c_i(a,b)X`.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_GENERIC_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_generic_degree_compiler.py
 ```
 
 Expected digest:
@@ -6461,14 +6461,14 @@ one conditional Stepanov arithmetic interface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_STEPANOV_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_STEPANOV_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_stepanov_compiler.py
 ```
 
 Expected digest:
@@ -6517,14 +6517,14 @@ rank-minor degree bounds.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RANK_MINOR_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_RANK_MINOR_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_rank_minor_compiler.py
 ```
 
 Expected digest:
@@ -6561,14 +6561,14 @@ repeat-boundary residue payment.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_CONDITIONAL_ASSEMBLY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_conditional_assembly.py
 ```
 
 Expected digest:
@@ -6611,14 +6611,14 @@ budgets.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_degree_compiler.py
 ```
 
 Expected digest:
@@ -6653,14 +6653,14 @@ membership and numerator degree budgets.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MISS_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_miss_degree_compiler.py
 ```
 
 Expected digest:
@@ -6696,14 +6696,14 @@ before attempting any emptiness/counting argument.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_ORBIT_DOMAIN.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_orbit_domain.py
 ```
 
 Expected digest:
@@ -6740,14 +6740,14 @@ generic slope-miss degree compiler.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_MIXED_DEGREE_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_mixed_degree_compiler.py
 ```
 
 Expected digest:
@@ -6784,14 +6784,14 @@ banking the generic and mixed degree compilers.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_BRANCH_ASSEMBLY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_BRANCH_ASSEMBLY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_branch_assembly.py
 ```
 
 Expected digest:
@@ -6827,14 +6827,14 @@ two one-parameter loose collision branches.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_SUBCELLS.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_SUBCELLS.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_subcells.py
 ```
 
 Expected digest:
@@ -6871,14 +6871,14 @@ leaving them inside the branch rank/nonvanishing gates.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_PAYMENT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SECONDARY_PAYMENT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_secondary_payment.py
 ```
 
 Expected digest:
@@ -6913,14 +6913,14 @@ directly in count/payment routes.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_SCALE_COUNT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_SCALE_COUNT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_scale_count.py
 ```
 
 Expected digest:
@@ -6956,14 +6956,14 @@ subgates and record the separate scale count route.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_BRANCH_ASSEMBLY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
 ```
 
 Expected digest:
@@ -7001,14 +7001,14 @@ repeat-boundary star route without conflating paid exceptional ledgers with
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_REFINED_ASSEMBLY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_STAR_REFINED_ASSEMBLY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_star_refined_assembly.py
 ```
 
 Expected digest:
@@ -7050,14 +7050,14 @@ branch-level h=3 repeat-boundary frontier.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
 ```
 
 Expected digest:
@@ -7099,14 +7099,14 @@ line-parameter cells explicit.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LP4_EXCEPTION_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LP4_EXCEPTION_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lp4_exception_ledger.py
 ```
 
 Expected digest:
@@ -7142,14 +7142,14 @@ quotient-support theorem with an exact replayed integer-cap crossover table.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SUPPORT_CROSSOVER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
 ```
 
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_support_crossover.py
 ```
 
 Expected digest:
@@ -7222,12 +7222,12 @@ laptop-scale enumeration.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_bridge_accounting_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_lineage.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_compatibility_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_bridge_accounting_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_bridge_budget_lineage.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_compatibility_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7249,8 +7249,8 @@ h=3 bridge-budget arithmetic.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
 ```
 
 The compiler replaces the legacy condition count
@@ -7290,8 +7290,8 @@ is proved.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7309,8 +7309,8 @@ as duplicate curve-image capacity.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_CAPACITY_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_CAPACITY_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
 ```
 
 For every official exact-profile box, the compiler verifies
@@ -7329,8 +7329,8 @@ only an arithmetic guard; `RC-RANK` and the bridge assignment remain open.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_capacity_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7348,8 +7348,8 @@ targets the strongest banked arithmetic route.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RANK_AVOID_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
 ```
 
 The interface now lists three conditional routes: legacy degree-2
@@ -7362,7 +7362,7 @@ collapsed constant-ratio capacity `0` on all official rows.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
 ```
 
 Expected digest:
@@ -7379,10 +7379,10 @@ ambient random model into the actual same-fiber conic-chart family.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_RANK_SAMPLE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RC_RANK_GENERIC_OPEN.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
 ```
 
 The rank sample now checks the conic chart
@@ -7404,8 +7404,8 @@ is still not `RC-RANK`; uniform finite-row minor avoidance remains open.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_rank_sample.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
 ```
 
 Expected digests:
@@ -7423,8 +7423,8 @@ minor certificate.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RANK_MINOR_CERTIFICATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_RANK_MINOR_CERTIFICATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
 ```
 
 For the same toy conic chart over `F_769`, the certificate takes coefficient
@@ -7441,9 +7441,9 @@ subfamily.  It is still a toy finite-field certificate, not the official-row
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_rank_minor_certificate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rc_rank_generic_open.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7462,7 +7462,7 @@ banked in the replayed compilers.
 Changed file:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
 ```
 
 The `Use In The F3 Brief` section now lists the exact-profile chain first:
@@ -7480,7 +7480,7 @@ work from targeting the stale lower budget.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digest:
@@ -7497,8 +7497,8 @@ false automatic degree-space fullness for same-fiber conic charts.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_DEGREE_SPACE_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_DEGREE_SPACE_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
 ```
 
 The same toy conic chart `p=769,a=37,b=706,base=(101,333)` is checked across
@@ -7518,7 +7518,7 @@ fullness theorem.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_degree_space_guard.py
 ```
 
 Expected digest:
@@ -7535,8 +7535,8 @@ weaker theorem target for official exact-profile boxes.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_DEFICIT_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_RANK_DEFICIT_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
 ```
 
 For one repaired image, if a future theorem proves
@@ -7554,9 +7554,9 @@ h=3 route; full degree-space rank is not necessary.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_rank_deficit_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7575,8 +7575,8 @@ conic binary-form target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_SIXA_THRESHOLD_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_SIXA_THRESHOLD_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
 ```
 
 All official exact-profile rows satisfy
@@ -7603,7 +7603,7 @@ The repaired target remains the official dense-box codimension bound
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_sixa_threshold_target.py
 ```
 
 Expected digest:
@@ -7620,8 +7620,8 @@ codimension target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
 ```
 
 Writing `R_i=P_i^H` and `R_Q=Q^H`, the conic rank columns are
@@ -7647,7 +7647,7 @@ not complete-series normal generation; it is finite-field codimension
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
 ```
 
 Expected digest:
@@ -7664,8 +7664,8 @@ linear-algebra object that a proof must kill.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
 ```
 
 Writing
@@ -7696,7 +7696,7 @@ annihilator bound.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
 ```
 
 Expected digest:
@@ -7714,8 +7714,8 @@ kernel-bundle splitting quantity controlling multiplication by
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
 ```
 
 For the boxed base-product series
@@ -7757,7 +7757,7 @@ target.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_reduction.py
 ```
 
 Expected digest:
@@ -7774,8 +7774,8 @@ kernel-bundle reduction under the repaired pairwise-gcd chart condition.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BOX_BASEPOINT_FREE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BOX_BASEPOINT_FREE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
 ```
 
 If `P_U,P_V,P_W,Q` are pairwise coprime and `B>=2`, then at any point of
@@ -7787,7 +7787,7 @@ nonzero at every point, and the base-product series `W` is basepoint-free.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_box_basepoint_free.py
 ```
 
 Expected digest:
@@ -7804,8 +7804,8 @@ machinery to a proved structural cover.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_PARTITION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_PARTITION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
 ```
 
 The parity reduction proves that a non-antipodal x83 full-zero support has at
@@ -7823,7 +7823,7 @@ now cite a proved chart partition rather than the bounded router sample.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_partition.py
 ```
 
 Expected digest:
@@ -7840,8 +7840,8 @@ to the full routed odd-chart partition.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_SCALING_ACTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_SCALING_ACTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
 ```
 
 On the four routed charts the live denominator weights are `-7,-5,-3,-1`.
@@ -7855,7 +7855,7 @@ stabilizer losses from future chart-wise count/payment arguments.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_scaling_action.py
 ```
 
 Expected digest:
@@ -7876,8 +7876,8 @@ root-scaling orbits.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ORBIT_INVARIANCE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ORBIT_INVARIANCE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
 ```
 
 Root scaling multiplies each locator coefficient by a nonzero scalar, so it
@@ -7889,7 +7889,7 @@ scaling orbits.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_orbit_invariance.py
 ```
 
 Expected digest:
@@ -7906,8 +7906,8 @@ on official rows.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_ACCIDENT_SLACK.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_OFFICIAL_ACCIDENT_SLACK.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
 ```
 
 Because all official rows have `n=2^s`, the toral `3|n` term in the h=3
@@ -7925,7 +7925,7 @@ margin and relaxes the activation budget by a factor `256` relative to `16`.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_official_accident_slack.py
 ```
 
 Expected digest:
@@ -7942,9 +7942,9 @@ wording so the live compiler gate no longer overstates the needed constant.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 The h=3 frontier now records the proof-facing target as
@@ -7955,8 +7955,8 @@ this packet; they still certify interfaces for the stronger constant.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -7974,8 +7974,8 @@ the weaker official-row activation target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_BUDGET_FLOOR.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_BUDGET_FLOOR.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
 ```
 
 The packet pins explicit exact-profile witnesses showing that every official
@@ -7992,7 +7992,7 @@ rank-effective image budget if it proves official-row `H3-ACT(4096)`.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_budget_floor.py
 ```
 
 Expected digest:
@@ -8009,8 +8009,8 @@ rank-deficit interface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_4096_RANK_DEFICIT_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
 ```
 
 The pinned `64 * Z_exact` boxes improve the uniform conic rank-deficit
@@ -8026,7 +8026,7 @@ The tight row is still `s=13`; the new first-row room is `2900`.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_4096_rank_deficit_budget.py
 ```
 
 Expected digest:
@@ -8043,8 +8043,8 @@ kernel-bundle reduction.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_KERNEL_BUNDLE_4096_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
 ```
 
 The exact kernel-bundle formula remains
@@ -8061,7 +8061,7 @@ so balanced splitting would beat the required excess allowance by at least
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_kernel_bundle_4096_reduction.py
 ```
 
 Expected digest:
@@ -8078,10 +8078,10 @@ binary-form and dual-annihilator target ledgers.
 Updated files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_DUAL_ANNIHILATOR_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
 ```
 
 Retuned target:
@@ -8097,8 +8097,8 @@ constraints - ambient >= 19,301,121,234
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_dual_annihilator_target.py
 ```
 
 Expected digests:
@@ -8116,8 +8116,8 @@ multiplication interface.
 Updated files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_RATIONAL_CURVE_INTERFACE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
 ```
 
 Retuned interface:
@@ -8135,7 +8135,7 @@ linear-normality defect is still `16,381`.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_rational_curve_interface.py
 ```
 
 Expected digest:
@@ -8152,8 +8152,8 @@ running a larger search.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_DEGREE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_DEGREE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
 ```
 
 The clean loose branch targets share a six-map one-parameter core:
@@ -8176,9 +8176,9 @@ This does not prove either loose branch gate.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_degree.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8197,8 +8197,8 @@ Stepanov/rank-minor target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_RANK_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_SHARED_CORE_RANK_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
 ```
 
 For the sample box
@@ -8227,9 +8227,9 @@ rank/NV theorem can be proved.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_shared_core_rank_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8248,8 +8248,8 @@ machine-readable without launching new searches.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_T3_CONSTANT_CAMPAIGN_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_T3_CONSTANT_CAMPAIGN_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
 ```
 
 The ledger aggregates existing arithmetic:
@@ -8275,9 +8275,9 @@ of `n^3`.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_midrange_certificate_costs.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_per_row_accident_pose.py
 ```
 
 Expected digests:
@@ -8296,9 +8296,9 @@ h=3 frontier ledger.
 Changed files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 The activation dedup replay now exposes a reusable summary.  The h=3 frontier
@@ -8319,8 +8319,8 @@ with the best current activation evidence and the repaired common-root target.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_orbit_dedup.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8339,8 +8339,8 @@ payment route.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_PROJECTIVE_INFINITY_EXCLUSION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
 ```
 
 The replay derives the projective-infinity branch tree from the actual leading
@@ -8366,10 +8366,10 @@ the direct `n^3` budget.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_projective_infinity_exclusion.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_structural_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8389,8 +8389,8 @@ without launching broad support enumeration.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_PARITY_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_PARITY_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
 ```
 
 The symbolic forced-square-root recurrence proves that if the high odd locator
@@ -8412,9 +8412,9 @@ The h=8 orbit-certifier skeleton now consumes this as a safe skip and emits
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8433,8 +8433,8 @@ without claiming a new rank-minor theorem.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_RANK_DEFICIT_BUDGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PRIVATE_LINEAR_RANK_DEFICIT_BUDGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
 ```
 
 The retuned private-linear `Z_private` boxes do not require literal
@@ -8466,9 +8466,9 @@ exact-profile degree-2 tolerance `1847`.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_private_linear_rank_deficit_budget.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8487,8 +8487,8 @@ automatic near official-like `A/H` ratios.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_OFFICIAL_RATIO_DEFICIT_PILOT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_OFFICIAL_RATIO_DEFICIT_PILOT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
 ```
 
 The small replay checks six boxes on the same conic chart over `F_769`.
@@ -8499,7 +8499,7 @@ real rank/minor theorem, not a consequence of dimension counting.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_official_ratio_deficit_pilot.py
 ```
 
 Expected digest:
@@ -8516,8 +8516,8 @@ completed-local algebra statement.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FORMAL_ISOLATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FORMAL_ISOLATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
 ```
 
 The verifier imports the central tangent compiler and official scaling action.
@@ -8530,8 +8530,8 @@ chart can still have solutions away from this local origin.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_formal_isolation.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8576,9 +8576,9 @@ Open cover:
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_basefree_reciprocal_system.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_open_cover.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_basefree_reciprocal_system.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_reciprocal_open_cover.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8597,8 +8597,8 @@ Stage selected: optimize the arithmetic side of the h=3 rich-curve
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_CONDITION_PROFILE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_RICH_CURVE_CONDITION_PROFILE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
 ```
 
 The log-jet proof gives, for derivative order `j`, a reduced numerator degree
@@ -8630,10 +8630,10 @@ legacy condition count.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_condition_profile.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_reduced_condition_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rich_curve_nv_rank_audit.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8675,8 +8675,8 @@ The replay verifies four equations N1..N4 with term counts
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_unit_norm_reciprocal_gate.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_unit_norm_reciprocal_gate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8698,8 +8698,8 @@ so the remaining symbolic target is smaller than the global equation pile.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CHART_RECOVERY_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CHART_RECOVERY_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
 ```
 
 Key result:
@@ -8798,14 +8798,14 @@ an official-row symmetry.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_official_scaling_action.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_weighted_homogeneity.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_fixedpoint_skeleton.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_chart_graph.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_minor_propagation.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_unit_propagation.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_official_scaling_action.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_weighted_homogeneity.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_fixedpoint_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_chart_graph.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_minor_propagation.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_rank_one_unit_propagation.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_chart_recovery_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8833,8 +8833,8 @@ in the h=3 repeat-boundary star frontier.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LAMBDA_ONE_SCALE_H2_CAP.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
 ```
 
 Key result:
@@ -8860,10 +8860,10 @@ first-official pair bound remains `3725085`.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_lambda_one_scale_h2_cap.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_branch_assembly.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -8883,10 +8883,10 @@ new finite sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_INVARIANT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_invariant.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_INVARIANT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_invariant.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
 ```
 
 Same-lambda refinement:
@@ -8931,7 +8931,7 @@ Focused replay:
 
 ```bash
 /usr/bin/time -f 'elapsed=%e maxrss=%M' \
-  python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+  python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Digest and timing:
@@ -8949,8 +8949,8 @@ launching a new certificate sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_WEIGHTED_SLICE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_WEIGHTED_SLICE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
 ```
 
 Key result:
@@ -8989,8 +8989,8 @@ finite-row orbit quotient; official row counting still uses the finite
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_weighted_slice.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9008,8 +9008,8 @@ weighted slice, still without forming expanded fixed-point numerators.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FIXEDPOINT_SKELETON.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_FIXEDPOINT_SKELETON.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
 ```
 
 Key result:
@@ -9037,8 +9037,8 @@ the sparse graph/saturation structure.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_fixedpoint_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9056,8 +9056,8 @@ without expanding the fixed-point equations.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_TANGENT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_TANGENT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
 ```
 
 Key graph tangent on the slice `l5=bar_l5=1`:
@@ -9083,8 +9083,8 @@ central-chart emptiness proof.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_tangent.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9102,10 +9102,10 @@ finite search.
 Updated files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SLOPE_EQUALITY_FACTORIZATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
 ```
 
 New exact reverse-orientation identity:
@@ -9128,9 +9128,9 @@ source.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_slope_equality_factorization.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9149,8 +9149,8 @@ invariant, without attempting a finite-field value-injectivity proof.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_SAME_LAMBDA_J_RAMIFICATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
 ```
 
 Exact derivative profile:
@@ -9195,11 +9195,11 @@ same six membership conditions for fixed `lambda`.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_product_parameter.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_j_ramification.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_same_lambda_product_parameter.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Expected digests:
@@ -9220,8 +9220,8 @@ the huge central fixed-point numerators.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_QUADRATIC_NORMAL_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_QUADRATIC_NORMAL_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
 ```
 
 The compiler composes the central weighted-slice graph only through total
@@ -9252,8 +9252,8 @@ hidden by the tangent calculation.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_quadratic_normal_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9272,8 +9272,8 @@ fixed-point numerators.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_CUBIC_NORMAL_FORM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_SLICE_CUBIC_NORMAL_FORM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
 ```
 
 The compact graph-truncation compiler gives four fixed equations through
@@ -9285,8 +9285,8 @@ local model.  It still does not prove global central-chart emptiness.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_slice_cubic_normal_form.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9304,8 +9304,8 @@ interfaces without launching a finite search.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_GEOMETRY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LOOSE_BRANCH_GEOMETRY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
 ```
 
 Exact branch relation:
@@ -9340,10 +9340,10 @@ either loose rank gate.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_loose_branch_geometry.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_boundary_replay.py
 ```
 
 Expected digests:
@@ -9363,8 +9363,8 @@ new numerical campaign.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_CONTRACT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_EXACT_PROFILE_BRIDGE_CONTRACT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
 ```
 
 The contract ledger composes the exact reduced-condition profile, the
@@ -9387,8 +9387,8 @@ not an L2 pair-count bound; the L2 route still needs
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_exact_profile_bridge_contract.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9406,8 +9406,8 @@ finite-scheme payment condition.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_FINITE_SCHEME_PAYMENT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
 ```
 
 The central slice fixed-point skeleton has degree bounds
@@ -9432,8 +9432,8 @@ would already be enough.  This remains conditional and p-specific.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_finite_scheme_payment.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9451,8 +9451,8 @@ Stage selected: probe the new finite-scheme route without expanding
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_INFINITY_FLAG.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H5_CENTRAL_INFINITY_FLAG.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
 ```
 
 The sparse graph formulation of the central fixed scheme has eight equations
@@ -9477,8 +9477,8 @@ zero-dimensionality proof itself.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h5_central_infinity_flag.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t4_residual_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9496,8 +9496,8 @@ probing conic-chart rank deficits.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LINEAR_RELATION_GUARD.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LINEAR_RELATION_GUARD.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
 ```
 
 The pinned same-fiber conic chart has pairwise coprime chart polynomials, but
@@ -9516,9 +9516,9 @@ than as automatic full rank for all conic charts.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_linear_relation_guard.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -9537,8 +9537,8 @@ top-level residual ledger before further proof attacks.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_FLIP_RESIDUAL_FRONTIER_LEDGER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
 ```
 
 The ledger imports the existing T3 constant-campaign summary and h=3 frontier
@@ -9559,9 +9559,9 @@ T4: h=4/h=5/h=6/h=7 are paid for the current direct budget; h=8 n=64
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_flip_residual_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_t3_constant_campaign_ledger.py
 ```
 
 Expected digests:
@@ -9580,8 +9580,8 @@ launching a broader finite scan.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_MOBIUS_INVOLUTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_FORCED_MOBIUS_INVOLUTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
 ```
 
 For a forced coordinate `a`, with `A=a-1` and `X=v-1`, the forced-fiber map
@@ -9605,8 +9605,8 @@ Mobius cells, then use the existing forced-fiber degree payment.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_forced_mobius_involution.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_repeat_coordinate_hitting_ledger.py
 ```
 
 Expected digests:
@@ -9624,8 +9624,8 @@ enumerating supports.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_TRIANGULAR_OBSTRUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_X83_TRIANGULAR_OBSTRUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
 ```
 
 For a 16-support locator
@@ -9650,9 +9650,9 @@ among `c9,c11,c13,c15` nonzero while satisfying this triangular graph.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_parity_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_orbit_certifier_skeleton.py
 ```
 
 Expected digests:
@@ -9671,8 +9671,8 @@ x83 obstruction surface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RECIPROCAL_COMPATIBILITY_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_RECIPROCAL_COMPATIBILITY_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
 ```
 
 The h=8 triangular compiler gives
@@ -9708,8 +9708,8 @@ surface than support enumeration alone.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_reciprocal_compatibility_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_x83_triangular_obstruction.py
 ```
 
 Expected digests:
@@ -9727,8 +9727,8 @@ h=8 reciprocal x83 surface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_UNIT_NORM_RECIPROCAL_GATE.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_UNIT_NORM_RECIPROCAL_GATE.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
 ```
 
 For the h=8 reciprocal rows
@@ -9750,7 +9750,7 @@ has `19601` terms.  This does not close h=8, but it adds a base-independent
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_unit_norm_reciprocal_gate.py
 ```
 
 Expected digest:
@@ -9767,8 +9767,8 @@ compatibility surface.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_BASEFREE_RECIPROCAL_SYSTEM.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_BASEFREE_RECIPROCAL_SYSTEM.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
 ```
 
 The eight reciprocal slots are
@@ -9785,7 +9785,7 @@ was useful in h=5.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_basefree_reciprocal_system.py
 ```
 
 Expected digest:
@@ -9802,8 +9802,8 @@ rank-one and unit-norm systems.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_RECOVERY_COMPILER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_RECOVERY_COMPILER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
 ```
 
 The parity reduction proves that a non-antipodal x83 survivor has one of
@@ -9827,7 +9827,7 @@ chart 7: 8 equations, 1552 total terms, max degree 18
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
 ```
 
 Expected digest:
@@ -9844,8 +9844,8 @@ odd-chart local systems.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_RANK_ONE_CHART_PROPAGATION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_RANK_ONE_CHART_PROPAGATION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
 ```
 
 For eight reciprocal slots `(A_i,B_i)`, the compiler verifies:
@@ -9862,8 +9862,8 @@ The replay records `168` minor syzygies and `56` unit syzygies.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_rank_one_chart_propagation.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_recovery_compiler.py
 ```
 
 Expected digests:
@@ -9881,8 +9881,8 @@ global fixed-point substitution.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_GRAPH_REDUCTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_GRAPH_REDUCTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
 ```
 
 On chart `bar_c9 != 0`, official conjugation gives `c9 != 0`; the row `N7`
@@ -9897,7 +9897,7 @@ right primitive for the next chart-7 attack.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_graph_reduction.py
 ```
 
 Expected digest:
@@ -9914,8 +9914,8 @@ graph without expanding them.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_FIXEDPOINT_SKELETON.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_FIXEDPOINT_SKELETON.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
 ```
 
 The chart-7 graph has only `710` terms, but the conjugated fixed-point rows
@@ -9928,7 +9928,7 @@ profiles.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_fixedpoint_skeleton.py
 ```
 
 Expected digest:
@@ -9945,10 +9945,10 @@ freeness for the h=8 chart-7 target.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_WEIGHTED_HOMOGENEITY.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_OFFICIAL_SCALING_ACTION.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_WEIGHTED_HOMOGENEITY.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_CHART7_OFFICIAL_SCALING_ACTION.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
 ```
 
 The weighted compiler verifies the grading
@@ -9970,8 +9970,8 @@ stabilizer losses, while still not using arbitrary ambient-field scaling.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_weighted_homogeneity.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_chart7_official_scaling_action.py
 ```
 
 Expected digests:
@@ -9989,8 +9989,8 @@ certifiers.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ROUTER.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H8_ODD_CHART_ROUTER.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
 ```
 
 The router gives a deterministic priority order:
@@ -10008,7 +10008,7 @@ certificate.
 Replay:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h8_odd_chart_router.py
 ```
 
 Expected digest:
@@ -10025,8 +10025,8 @@ same-fiber conic chart, without starting a broad numerical sweep.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LARGEGAP_PILOT.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_CHART_LARGEGAP_PILOT.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
 ```
 
 The replay uses the same conic chart as the degree-space guardrail over
@@ -10043,8 +10043,8 @@ degree-space fullness.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_chart_largegap_pilot.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:
@@ -10062,8 +10062,8 @@ binary-form codimension statement.
 Banked files:
 
 ```text
-critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
-critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONIC_BINARY_FORM_TARGET.md
+background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
 ```
 
 On a same-fiber conic chart with common denominator `Q`, the cleared rank
@@ -10086,9 +10086,9 @@ would make the conic route close.
 Replays:
 
 ```bash
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
-python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_conic_binary_form_target.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_rank_avoid_interface.py
+python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_frontier_ledger.py
 ```
 
 Expected digests:

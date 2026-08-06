@@ -487,46 +487,6 @@
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
   },
   {
-   "id": "f3_h1_singleton_injectivity",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f3_h2_stratum_theorem",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f3_h3_direct_floor_conditional_close",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_h3_dsp8_correlation_bound",
-   "label": "UNPROVED",
-   "title": "DSP8: split-pencil/line-fiber correlation bound"
-  },
-  {
-   "id": "f3_h3_mobius_excess_half",
-   "label": "CONDITIONAL",
-   "title": "C36' weighted Mobius rich-fiber excess is at most n^2/2"
-  },
-  {
-   "id": "f3_h3_three_to_one_c36",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_hge4_aggregate_budget",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_hge4_norm_gate_count",
-   "label": "UNPROVED",
-   "title": ""
-  },
-  {
    "id": "f5_lineray_saturation_instrument",
    "label": "PROVED",
    "title": ""
@@ -1052,11 +1012,6 @@
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
   },
   {
-   "id": "u1_x4_direct_column_budget",
-   "label": "CONDITIONAL",
-   "title": "FLOOR CONJECTURE: fully-stripped primitive residue <= n^3 at official corridor rows (already the floor)"
-  },
-  {
    "id": "u2_per_row_certifier",
    "label": "UNPROVED",
    "title": "U2-B: the per-row moment certificates (small-t rows)"
@@ -1102,11 +1057,6 @@
    "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
   },
   {
-   "id": "x24_char0_dyadic_descent",
-   "label": "PROVED",
-   "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers"
-  },
-  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns"
@@ -1119,17 +1069,7 @@
   {
    "id": "x4_primitive_star_u1_coverage",
    "label": "UNPROVED",
-   "title": "Primitive exact-list star coverage by the u1 record ledger"
-  },
-  {
-   "id": "x81_minimal_trade_square_shift",
-   "label": "PROVED",
-   "title": "PROVED (x81): minimal trades = square-shift factorizations"
-  },
-  {
-   "id": "x83_uniform_square_shift_obstruction_gate",
-   "label": "PROVED",
-   "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
+   "title": "Primitive exact-list local general-star budget"
   },
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
@@ -1747,14 +1687,6 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
-   "from": "x24_char0_dyadic_descent",
-   "to": "x83_uniform_square_shift_obstruction_gate"
-  },
-  {
-   "from": "x81_minimal_trade_square_shift",
-   "to": "x83_uniform_square_shift_obstruction_gate"
-  },
-  {
    "from": "rules_freeze",
    "to": "axis9_dither"
   },
@@ -2111,14 +2043,6 @@
    "to": "mca_safe"
   },
   {
-   "from": "u1_x4_direct_column_budget",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "f3_h2_stratum_theorem",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
    "from": "f5_lineray_saturation_instrument",
    "to": "xr_smallcore_spread_count"
   },
@@ -2183,22 +2107,6 @@
    "to": "xr_smallcore_spread_count"
   },
   {
-   "from": "f3_h1_singleton_injectivity",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_h3_direct_floor_conditional_close",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_hge4_aggregate_budget",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_h3_three_to_one_c36",
-   "to": "f3_h3_direct_floor_conditional_close"
-  },
-  {
    "from": "petal_small_scale_staircase_census",
    "to": "petal_growth"
   },
@@ -2215,10 +2123,6 @@
    "to": "petal_g3_pricing_multiplicity"
   },
   {
-   "from": "f3_h3_mobius_excess_half",
-   "to": "f3_h3_three_to_one_c36"
-  },
-  {
    "from": "list_large_m_scope_closure",
    "to": "list_grand"
   },
@@ -2229,18 +2133,6 @@
   {
    "from": "list_subsqrt_interleaving_collapse",
    "to": "list_large_m_scope_closure"
-  },
-  {
-   "from": "f3_hge4_norm_gate_count",
-   "to": "f3_hge4_aggregate_budget"
-  },
-  {
-   "from": "x81_minimal_trade_square_shift",
-   "to": "f3_hge4_aggregate_budget"
-  },
-  {
-   "from": "x83_uniform_square_shift_obstruction_gate",
-   "to": "f3_hge4_aggregate_budget"
   },
   {
    "from": "petal_k4_johnson_slice",
@@ -2329,10 +2221,6 @@
   {
    "from": "dli_wcl_slot_4_9_emptiness",
    "to": "dli_wcl_zone_coverage"
-  },
-  {
-   "from": "f3_h3_dsp8_correlation_bound",
-   "to": "f3_h3_mobius_excess_half"
   },
   {
    "from": "dli_wcl_slot_1_7_emptiness",

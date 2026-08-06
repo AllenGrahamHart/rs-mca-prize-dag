@@ -1,15 +1,16 @@
 # Claim contract
 
-- **Claim:** every primitive same-prefix list member after the base injects
-  into the exact record population bounded by `u1`.
+- **Claim:** every post-strip primitive full-prefix fiber has at most
+  `16n^3` actual list members.
+- **Equivalent object:** for every residual base support, at most
+  `16n^3-1` incident general order-`t` star-PTE records.
 - **Quantifier:** every official `x4` row, every transported quotient row,
-  every prefix, and every residual base support.
-- **Required:** one fixed priority map, matching strips, multiplicity at most
-  one, and a proved general-to-minimal bridge if F-4 records are used.
-- **Consequence:** `R_min<16n^3` implies `|F_z^prim|<=16n^3` by integrality.
-- **Nonclaim:** `u1` is proved; QA.22 is a list theorem; minimalization is
-  automatic; a global second moment controls the local fiber.
-- **Known route cut:** no scale-free multiplicity-one map from all general
-  star records to all F-4 minimal records exists, and a general record need
-  not contain a minimal subtrade. Any minimalization proof must use the
-  official row and first-owner strips essentially.
+  every full prefix, and the one fixed first-owner map.
+- **Units:** actual list members per received word/full prefix, not global
+  record mass and not MCA slopes.
+- **Optional route:** strip-aware injection into the F-4 minimal ledger plus
+  `R_min<16n^3`.
+- **Nonclaims:** `u1` is required; general records are automatically minimal;
+  a global second moment controls the maximum; or QA.22 is a LIST bound.
+- **Falsifier:** one correctly stripped consumed fiber with more than
+  `16n^3` members.
