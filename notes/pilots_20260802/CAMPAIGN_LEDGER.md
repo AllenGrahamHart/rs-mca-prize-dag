@@ -2993,3 +2993,46 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   Z-CEILING proof attempt; the t-petal overlap-cap lemma; the
   >= 8-junction C2'' instrument spec.
 - Awaiting: mf_wall_adversary (round 23b).
+
+## 2026-08-07: round-23b BANKED — mf_wall_adversary: the round-23 evidence BROKEN and REBUILT stronger; the user's bar MET for a SCOPED mystery-7 core; ROUND 23 FULLY COMPLETE
+
+- **mf_wall_adversary (Opus) BANKED, MAINTAINER-LEVEL** (s4_power /
+  ledger / red3_split / rh_bucket coordinator-replayed exactly).
+  (1) THE BREAK: the round-23 shape-pun test FAILED the hard power
+  control — the PROVED rate-quarter sibling satisfies EVERY (MF)
+  clause with strictly better margins (the separating clause,
+  over-determination t*ell > N, is not part of (MF)); both
+  round-23 quantitative handles WITHDRAWN as classification
+  evidence (cap-4 is structure-specific — a random flat with
+  identical parameters reaches 5; owner concentration is 92x its
+  parametric reference). Handles remain valid node-level findings.
+  (2) THE REBUILD: the repaired round-19 METHOD test passed ALL
+  THREE power controls; then ALL separation attempts FAILED for
+  reds 1+2 — SAME WALL: the dimension-uniform split-locator
+  max-to-mean theorem (the anticode exponent grows with flat
+  dimension; both nodes say it in their own words). The wall is
+  BIGGER than FPC5: METHOD-identical at the PROVED rootfree
+  packing cell's open d = Theta(n) regime AND at
+  f_global_packing_step (the conj_f packing leaf — identical
+  formula, identically named n^r failure). (3) RED 3 UNDECIDED:
+  65.2% of its residual (266/408 rows) is not posable as a flat
+  without the t-petal overlap-cap lemma. (4) STRENGTHENED: cap-4
+  exact at ell=4,5,6 (329 configs, 3 primes, exhaustive BB);
+  sharpened cap ell-3 tight at every ell; budget elasticity
+  (+1..+4, stiffens with ell); mechanism at ell>=5 UNIDENTIFIED.
+  Upstream master-flatness has ZERO discriminating power (PROVED
+  nodes are instances; round-23's "one statement" over-reach
+  corrected; |B|^{-s} vs q^{-sigma} mismatch flagged). (5) Honest
+  ledger: the pilot's own separation candidate dissolved, its own
+  mechanism prediction falsified, a mid-run false witness (16)
+  self-caught and withdrawn with cause, the strict ell=4 decision
+  scoped out in advance (5.6e10 configs). Addenda applied to the
+  three red nodes + f_global_packing_step. **SURFACED: the user's
+  bar (strong evidence via unsuccessful falsification) is MET for
+  mystery 7 SCOPED to red1 + red2 + f_global_packing_step + the
+  rootfree d=Theta(n) regime — "the dimension-uniform
+  split-locator max-to-mean wall"; red 3 joins on the t-petal
+  lemma; upstream master-flatness NOT claimed as the same wall.**
+- **ROUND 23 FULLY COMPLETE (5/5).** The single
+  highest-leverage item, doubly confirmed: the t-petal
+  overlap-cap lemma.
