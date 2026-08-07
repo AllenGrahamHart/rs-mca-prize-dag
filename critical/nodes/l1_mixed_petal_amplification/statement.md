@@ -28,6 +28,8 @@ file is the live entry point, not a proof and not a status claim.
 - `statement_sections/04-balanced-pencil-atlas.md`: balanced-pencil terminal.
 - `statement_addenda/05-round21-v4-audit.md`: Round-21 survey status and
   canonical interpretation correction.
+- `statement_addenda/06-round21-growing-petal-repose.md`: Round-21 exact-box
+  diagnosis and growing-petal re-pose.
 
 `statement_sections/document.json` pins the pre-refactor byte stream and the
 existing DAG nodes represented by each packet.  Run

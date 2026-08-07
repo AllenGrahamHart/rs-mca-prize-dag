@@ -14,7 +14,9 @@ another global narrative to this file.
 4. `attack_sections/05-balanced-pencil-program.md`: balanced-pencil route.
 
 The Round-21 v4 campaign survey and field-normalized census correction are in
-`attack_addenda/06-round21-v4-audit.md`.
+`attack_addenda/06-round21-v4-audit.md`.  The completed exact-box diagnosis,
+retired fixed-petal run, and growing-petal experiment request are in
+`attack_addenda/07-round21-growing-petal-repose.md`.
 
 The preregistered growth falsifier and its bounded evidence are in
 `attack_sections/00-falsification-and-growth.md`.  Packet integrity and DAG

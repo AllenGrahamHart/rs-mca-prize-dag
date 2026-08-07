@@ -89,6 +89,8 @@ file is the live entry point, not a proof and not a status claim.
 - `statement_sections/04-balanced-pencil-atlas.md`: balanced-pencil terminal.
 - `statement_addenda/05-round21-v4-audit.md`: Round-21 survey status and
   canonical interpretation correction.
+- `statement_addenda/06-round21-growing-petal-repose.md`: Round-21 exact-box
+  diagnosis and growing-petal re-pose.
 
 `statement_sections/document.json` pins the pre-refactor byte stream and the
 existing DAG nodes represented by each packet.  Run
@@ -98,6 +100,10 @@ to verify lossless decomposition.
         addenda=(
             (
                 "critical/nodes/l1_mixed_petal_amplification/statement_addenda/05-round21-v4-audit.md",
+                ("l1_mixed_petal_amplification",),
+            ),
+            (
+                "critical/nodes/l1_mixed_petal_amplification/statement_addenda/06-round21-growing-petal-repose.md",
                 ("l1_mixed_petal_amplification",),
             ),
         ),
@@ -143,7 +149,9 @@ another global narrative to this file.
 4. `attack_sections/05-balanced-pencil-program.md`: balanced-pencil route.
 
 The Round-21 v4 campaign survey and field-normalized census correction are in
-`attack_addenda/06-round21-v4-audit.md`.
+`attack_addenda/06-round21-v4-audit.md`.  The completed exact-box diagnosis,
+retired fixed-petal run, and growing-petal experiment request are in
+`attack_addenda/07-round21-growing-petal-repose.md`.
 
 The preregistered growth falsifier and its bounded evidence are in
 `attack_sections/00-falsification-and-growth.md`.  Packet integrity and DAG
@@ -156,6 +164,10 @@ ownership are pinned by `attack_sections/document.json`.
                     "l1_mixed_petal_amplification",
                     "pma_sigma_one_variable_defect_exact_hit_floor",
                 ),
+            ),
+            (
+                "critical/nodes/l1_mixed_petal_amplification/attack_addenda/07-round21-growing-petal-repose.md",
+                ("l1_mixed_petal_amplification",),
             ),
         ),
     ),

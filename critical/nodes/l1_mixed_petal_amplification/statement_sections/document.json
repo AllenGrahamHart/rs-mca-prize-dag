@@ -5,6 +5,12 @@
         "l1_mixed_petal_amplification"
       ],
       "path": "critical/nodes/l1_mixed_petal_amplification/statement_addenda/05-round21-v4-audit.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_addenda/06-round21-growing-petal-repose.md"
     }
   ],
   "pre_refactor_line_count": 1356,

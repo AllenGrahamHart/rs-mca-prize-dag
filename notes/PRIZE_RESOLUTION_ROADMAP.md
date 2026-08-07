@@ -787,12 +787,17 @@ never-scanned widened WCL leaves by exact squared-root unit ideals of
 `76--142` variables and `78--147` cubic-or-lower equations. Blind affine
 support scans need at least `6.4e9--1.5e22` classes and are rejected; the six
 integer-certificate computations are parked as `CR-004-X6`. N10
-DONE, NO FALSIFIER: the exact-support L1 chart census now gives
-`43 -> 2879 -> 109391` and `33 -> 2857 -> 108600` through `n=64`; both
-second doubling factors are about `38`. This is polynomial-shaped evidence
-on two structured chart families, not a uniform L1 bound. The run cost about
-`$0.016`; `n=128` is parked as `L1-N10-128` because the present generator has
-`1,821,304,128` candidates per schedule and an estimated cost above `$4`.
+DONE, FALSIFIER STRUCTURALLY UNFIREABLE (round-21 diagnosis,
+2026-08-07): the exact-support L1 chart census gives
+`43 -> 2879 -> 109391` and `33 -> 2857 -> 108600` through `n=64`, but the
+census's enumeration domain has an exact degree-6 closed form (reproducing
+5,096/386,640/27,152,032 exactly, capped at `n^6/2304`), so the registered
+super-polynomial falsifier could never fire at petal size `ell=2` for any
+received word — a counting fact, not evidence. The growth parameter is
+`ell`, not `n`. `L1-N10-128` is DROPPED (it buys a fourth point on a curve
+with a known closed form); the replacement request is `L1-N10-ELL`: fixed
+`n`, sweep `ell = 2..6` against `BOX(ell)/q`. See
+critical/nodes/l1_mixed_petal_amplification/statement.md round-21 addendum.
 PLUS the
 two one-time audits: spec-to-DAG fidelity (first finding banked as
 `ww_parametric_row_scope_router`; continue beyond W3 because the prize spec

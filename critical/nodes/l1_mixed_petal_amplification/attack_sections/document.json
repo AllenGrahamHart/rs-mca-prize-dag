@@ -6,6 +6,12 @@
         "pma_sigma_one_variable_defect_exact_hit_floor"
       ],
       "path": "critical/nodes/l1_mixed_petal_amplification/attack_addenda/06-round21-v4-audit.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_addenda/07-round21-growing-petal-repose.md"
     }
   ],
   "pre_refactor_line_count": 940,
