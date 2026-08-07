@@ -2483,3 +2483,12 @@ ROUND 21 (4 agents):
   both closability hopes dead with permanent structural blockers.
   The 25-red accounting final: 14 mystery-linked (no cheap wins) /
   9 WCL-slot grind / 2 straddling.
+
+## ROUND 22 LAUNCHED (2026-08-07) — QUARANTINE MARKER
+
+Four pilots: l1_ell_sweep (mystery 6 F-w1 falsifier attempt),
+ge_floor_falsifier (mystery 5 FLOOR-GE falsifier + GE-WEAK first
+positive), bb_nu_transport (mystery 4, BB method -> accident upper
+bound / nu(A)), f2_rlocality (mystery 2, the 8.60 R-locality
+deficit). Pilots MUST NOT read ledger entries below this marker and
+MUST pass this quarantine clause to any subagent they dispatch.
