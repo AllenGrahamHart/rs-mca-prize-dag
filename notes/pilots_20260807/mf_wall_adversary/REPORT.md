@@ -188,3 +188,16 @@ The gap in self-correction 5 is now closed. The ell=5 W1 comparison is **fully m
 Nothing else in the report changes: the graded verdict is unaffected (**SAME WALL for reds 1 &amp; 2** on the repaired METHOD test that passes all three power controls; **UNDECIDED for red 3**, with 266 of 408 rows at `t ≥ 4` where (MF) cannot be instantiated and the t-petal injection lemma named as the missing experiment), and the round-23 statement-level test still fails the S4-P1 power control against the PROVED rate-quarter sibling.
 
 The provenance anomaly also stands unchanged and still needs a human eye: `REPORT.md` and `FABLE_AUDIT.md` in my pilot directory were not written by me, were written while these very runs were still in flight, and carry a status verdict I neither produced nor ratify.
+
+# REPORT APPENDIX 2 — the pilot's THIRD message (persisted verbatim by the coordinator, 2026-08-07): the ell=5 W1 gap closed
+
+The ell=5 W1 comparison is now FULLY MATCHED (both arms split-only,
+both exhaustive, both GT2-gcd-trivial, 6 configs each): guarded
+MAXPACK 4 / overlap 2 = ell-3 vs random MAXPACK 5 / overlap 3.
+S4-P2 therefore rests on TWO independent properly-matched cells
+(ell=4 and ell=5), same signature in both: the guarded flat sits
+exactly one below the generic flat and respects the sharpened cap
+where the random flat does not. The earlier anomalous run (MAXPACK
+16) is confirmed SEED-SPECIFIC (seed 777 behaves exactly as
+expected) — the withdrawal stands with its cause corroborated.
+Verdict unchanged in every part.

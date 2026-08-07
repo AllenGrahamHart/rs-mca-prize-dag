@@ -113,3 +113,15 @@ mtimes); if the report says "complete" but the dir shows live
 activity, wait for quiescence or a second notification. The
 pilot's non-reliance means no number in either report descends
 from coordinator artifacts.
+
+## Coordinator postscript 2 (2026-08-07): the third message — W1 now rests on two matched cells
+
+The pilot completed the guarded split-only arm at ell=5: MATCHED
+comparison guarded 4 vs random 5 (overlaps ell-3 = 2 vs 3).
+Postscript refinement 1 above is SUPERSEDED — W1's falsification
+now rests on two independent matched cells (ell=4 AND ell=5), not
+one. The seed-specificity of the withdrawn anomaly is corroborated.
+Verdict unchanged. The provenance flag the pilot repeats is
+resolved by CATCH-23B above (coordinator banking artifacts,
+correctly headed, written prematurely — the quiescence rule now
+standing) and is surfaced to the user in the round summary.

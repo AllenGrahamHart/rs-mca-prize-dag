@@ -3053,3 +3053,13 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   did not rely on them. RULE HARDENED: confirm pilot quiescence
   (no in-flight runs / fresh checkpoints) before persisting
   REPORT.md or writing FABLE_AUDIT.md into a pilot dir.
+
+## 2026-08-07: round-23b THIRD message — W1 falsification now on TWO matched cells; verdict unchanged; 23b closed
+
+- The mf_wall_adversary pilot closed its own last gap: the ell=5
+  W1 arm completed fully matched (guarded 4 vs random 5, overlaps
+  ell-3 vs ell-3+1) — the cap-4's structure-specificity now rests
+  on two independent matched cells; the withdrawn MAXPACK-16
+  anomaly corroborated seed-specific. Nothing else changes. The
+  provenance flag = CATCH-23B (resolved, rule standing). 23b is
+  CLOSED.
