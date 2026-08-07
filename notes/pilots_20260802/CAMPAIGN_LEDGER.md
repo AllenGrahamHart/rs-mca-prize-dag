@@ -3088,3 +3088,29 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   pilot. CATCH-23B (banking before quiescence) stands as the
   process lesson; the quiescence rule is in force. The 23b verdict
   is final as banked and MYSTERY 7 is ratified on it (7ad7f5ec2).
+
+## 2026-08-07: WAVE-50 INTEGRATED (exact pin 3fa2922e3) — 13 PROVED K3 nodes, 13/13 verifiers replayed; coverage registry 26/36; census unchanged
+
+- Delta eef69b37f..3fa2922e3: 13 new PROVED nodes, ALL on the
+  kb_m2_r4 diagonal C2 112 fixed-residual lane (degree-12 branch
+  closures across R02/R20/F04: rank-drop, s-zero, degree-six
+  leading curves, the K8 branch cover + B0 K8-nonzero exclusion,
+  the F04-R02 and four-R02 branch exclusions; plus two portable
+  instruments: the parity-reduced quadratic evaluation identity
+  (+ its expanded-route fence) and the quadratic pseudo-remainder
+  determinant reduction). The only status change in the delta is
+  our own E1-128 flip arriving via branch convergence. 13/13
+  verifiers coordinator-replayed AT THE PIN. Board effect: the
+  literal-assignment coverage TARGET's registry moves 22 -> 26 of
+  36 PROVED; residual = the review-gated M01-R11/M02-R11 pair +
+  eight F04-F07 cells over R02/R20. Merge = EXACT PIN (the wave-49
+  rule followed); Codex's in-flight work (log-derivative probes +
+  two new node dirs) left untouched for wave 51. Census unchanged
+  231 = 167/36/28 (background satellites); full chain green.
+- PROCESS NEAR-MISS disclosed: replaying at the pin used checkout
+  + stash in Codex's LIVE worktree (detached HEAD, stashed its
+  dirty state); fully restored (branch re-attached, stash popped,
+  state byte-identical). RULE HARDENED: never checkout/stash in
+  Codex's live worktree — replay at the current HEAD when it
+  equals the pin, or extract files via git -C show into the
+  scratchpad.
