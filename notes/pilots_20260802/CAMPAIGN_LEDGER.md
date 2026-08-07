@@ -2782,3 +2782,14 @@ MUST pass this quarantine clause to any subagent they dispatch.
   by invariance. Codex has one uncommitted node in progress in the
   v12 worktree (fixed_balanced_quadratic_branch_reduction) — left
   untouched; it belongs to wave 50.
+
+## ROUND 23 LAUNCHED (2026-08-07) — QUARANTINE MARKER
+
+Four pilots: cw_shared_target (the constant-weight instrument priced
+as the SHARED target of mysteries 2 and 4 — the four-lane
+convergence play), fpc5_diag (the three new FPC5 reds: standard
+grind or mystery-hard), ge_lattice_cert (the dim-64 per-row
+emptiness certification EXECUTED — mystery 5's first positive step),
+c2pp_diag (mystery 3 C1'/C2'' — the full diagnosis pipeline it never
+had). Pilots MUST NOT read ledger entries below this marker and MUST
+pass this quarantine clause to any subagent they dispatch.
