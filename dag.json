@@ -29269,6 +29269,23 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
+   "title": "KoalaBear aligned-positive F02/F03 upstream import",
+   "status": "PROVED",
+   "closure": "pinned exact upstream GREEN theorem deleting all six F02/F03 cells",
+   "statement": "At upstream PR #1141 commit 826c0e7610604d550b8dd9b772c197a4e660e525, an exact factor-first Sage proof deletes F02-R11 at the q-slice and exhausts the finite F_(p^2) q-slice schemes for F02-R02/R20, where all full J/I quotient mismatch norms are nonzero. A checked complete-source b-inversion transports the conclusions to F03. The proof objects are content-pinned; the fail-closed Python verifier was independently replayed locally with payload 51572f4d190a3bceb31494ae7ee48f6b026346413ae398d2da4f7b1da1402438 and 26/26 mutation tests passing.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/external_replay.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport",
    "title": "KoalaBear aligned-positive fixed-companion inversion transport",
    "status": "PROVED",
@@ -29298,6 +29315,23 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/audit.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/result.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate",
+   "title": "KoalaBear aligned-positive moving upstream review gate",
+   "status": "PROVABLE",
+   "closure": "fresh independent Sage/Singular review of the pinned PR #1144 twelve-cell candidate",
+   "statement": "Upstream PR #1144 commit 05ff2348de8f2c0f99683875ff12a9a79dcf21ec contains an exact candidate proof deleting all twelve aligned-positive moving-moving cells. Its fail-closed Python verifier passes locally with payload 343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145 and 29 semantic mutations. The upstream theorem itself retains a fresh independent review gate for the load-bearing Sage/Singular computation, so this node remains PROVABLE and is not consumed as a theorem.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/external_replay.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/verify.py"
    ]
   },
   {
@@ -55824,9 +55858,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
@@ -55835,6 +55879,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -55851,6 +55900,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
    "kind": "req"
   },
   {

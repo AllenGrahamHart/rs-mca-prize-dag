@@ -29,8 +29,10 @@ not theorem dependencies of this local TARGET until imported and replayed.
 The currently advertised upstream branch after #1149 retains 16 fixed-moving
 cells because its stack does not import all three representative
 full-quotient packets. The local restricted inversion theorem reconciles
-that six-cell block. The residual aligned-positive literal assignments are
-`F02`--`F07` and `M00`--`M03` until upstream closures are imported.
+that six-cell block. The exact GREEN #1141 theorem is now imported and closes
+all six `F02/F03` cells. The residual aligned-positive literal assignments
+are `F04`--`F07` and `M00`--`M03`; #1144 supplies high-confidence moving
+closure evidence but retains its own fresh-review gate.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

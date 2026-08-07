@@ -26,6 +26,11 @@ certificates required by the challenge.
   `b -> b^-1` identifies every complete `F01-Rxx` system with
   `F00-Rxx`. All six `F00/F01` cells are therefore closed locally; this does
   not transport to `F02`--`F07`.
+- Upstream PR #1141 is imported as a pinned PROVED exact theorem after its
+  local Python replay and recorded independent Sage review: all six
+  `F02/F03` cells are closed. PR #1144's twelve moving-cell candidate passes
+  its 29-mutation Python replay but remains PROVABLE pending the fresh
+  Sage/Singular review required by its own theorem note.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

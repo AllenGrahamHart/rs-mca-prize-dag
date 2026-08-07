@@ -20671,3 +20671,32 @@ new assumptions:          none
 compute:                  none; exact finite rational/source-registry replay
 next:                     import F02/F03 (#1141) and M00..M03 (#1144), then attack F04..F07
 ```
+
+### K3 literal packet imports
+
+PR #1141 at `826c0e7610604d550b8dd9b772c197a4e660e525` is now imported as a
+pinned PROVED theorem. Its factor-first Sage proof closes `F02-R11`,
+exhausts the finite quadratic-field q-slice schemes for `F02-R02/R20`, and
+uses nonzero full-quotient mismatch norms to delete every point. Literal
+`b` inversion transports all three conclusions to `F03`. The upstream
+Python verifier was replayed locally with payload
+`51572f4d190a3bceb31494ae7ee48f6b026346413ae398d2da4f7b1da1402438`
+and `26/26` mutations caught; the theorem records an independent prior Sage
+review.
+
+PR #1144 at `05ff2348de8f2c0f99683875ff12a9a79dcf21ec` is recorded separately
+as PROVABLE. Its Python verifier passes locally with payload
+`343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145`
+and 29 mutations, but its own theorem retains a fresh review gate for the
+load-bearing Sage/Singular proof. It is not consumed as a theorem yet.
+
+```text
+lane:                     MCA / K3 / aligned-positive literal coverage
+new PROVED coverage:      F02/F03 x R02/R11/R20 (6 cells)
+local proved total:       12/36 aligned-positive cells
+high-confidence pending:  all 12 moving cells, fresh Sage review required
+hard residual after gate: F04..F07 x R02/R11/R20 (12 cells / 6 #1149 orbits)
+new assumptions:          none
+compute:                  bounded Python metadata/arithmetic replays only; no Modal
+next:                     discharge #1144 review or attack the six F04..F07 orbit representatives
+```
