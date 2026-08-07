@@ -9,9 +9,9 @@ cubic/J11 base curve with a 36-element, dimension-one basis, then timed out
 at 900 seconds before emitting any mapped logarithmic component. Do not
 repeat the monolithic rational map.
 
-The next implementation should compile the six triples `(u0,u1,v0)` as
-independent, short Modal tasks, serialize their normal forms, and combine
-the cached values only afterward. Every inversion norm must remain a
-separate guard. In parallel, intersect the four degree-7/11 denominator
-factors with the cubic/J11 base curve; these smaller branches may close
-without the guarded numerator.
+The four degree-7/11 denominator branches are now closed by the dedicated
+child exclusion. The remaining implementation should compile the six
+triples `(u0,u1,v0)` as independent, short Modal tasks, serialize their
+normal forms, and combine the cached values only afterward. Every inversion
+norm must remain a separate guard. Only the guarded degree-67 numerator
+branch remains on this route.

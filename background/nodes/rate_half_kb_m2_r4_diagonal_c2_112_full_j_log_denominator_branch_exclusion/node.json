@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion",
+    "title": "KoalaBear F04 cubic/J11 logarithmic-denominator branch exclusion",
+    "status": "PROVED",
+    "closure": "exact named-localized exclusion of both symmetric denominator unions on R02 and R20",
+    "statement": "Pairing the two degree-7 and the two degree-11 nonnamed logarithmic-denominator factors under c<->d gives two symmetric union equations. After descent to (x,s,p,w), V-nonzero reconstruction w=-U/V, and exact removal of transported named factors, their essential equations have degrees 25 and 60 on F04-R02 and degrees 28 and 62 on F04-R20. Intersecting each equation with the surviving cubic q-slice factor, the two remaining q-slice rows, and the full-J J11 factor gives four exact deployed-prime ideals. In all four, the square-free transported named localizer reduces to zero. Therefore every logarithmic-denominator-zero branch is empty over the deployed field and all its extensions. Only the guarded degree-67 logarithmic numerator branch remains on the F04 cubic/J11 route.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/denominator_intersection_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/denominator_intersection_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_denominator_intersections_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}
