@@ -1458,6 +1458,31 @@
    }
   },
   {
+   "our_node": "x4_linear_difference_projection_codegree_bound",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "fixed-base d=1 translated divisors -> fixed-projection intersection at most one -> Johnson codegree",
+   "scope": "official local X4 base rows: either fixed added-locator or fixed removed-locator projection fiber has at most 1024 d=1 incidences; field-general rational bound v(e-1)/(e^2-v)",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the number of distinct projected locators",
+    "does not bound the total d=1 incidence or any d>=2 stratum",
+    "the official 1024 constant does not automatically transport to quotient rows",
+    "does not pay the 16N^3 primitive SP allowance"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "bf4ee100e",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "f3_affine_coset_pair_mattarei_bound",
    "his_object": {
     "label": "SP: primitive shift-pair control / exact second-moment ledger",

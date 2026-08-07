@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_linear_difference_projection_codegree_bound",
+    "title": "Linear-difference translated-divisor projection codegree bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed base support and side width e, every fixed added-locator or removed-locator projection fiber of the d=1 translated complementary-divisor incidence has Johnson codegree at most v(e-1)/(e^2-v), where v is the corresponding side universe and e^2>v. The exact official corridor implies t_XR>=2^31; since d=1 forces e>=t_XR+2 and N=2^41, both projection codegrees are at most 1024. This bounds multiplicity over a projection but does not bound the projection population or the total d=1 stratum.",
+    "refs": [
+      "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/proof.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/claim_contract.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/source_evidence.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/dependency_subdag.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/audit.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/result.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/frontier.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/lineage.md",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/verify.py",
+      "background/nodes/x4_linear_difference_projection_codegree_bound/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_linear_difference_translated_divisor_interface"
+    },
+    {
+      "from": "x4_general_shiftpair_difference_degree_partition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

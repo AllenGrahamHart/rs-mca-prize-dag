@@ -68,6 +68,12 @@ fixed-base translated-divisor form: `B|L_(S0)` and
 `aX+b`.  Thus this first nonconstant branch requires a genuine
 predicate-filtered divisor-incidence bound.
 
+The official corridor also gives `t_XR>=2^31`.  A proved Johnson argument
+therefore bounds every fixed added-locator or fixed removed-locator fiber in
+the `d=1` incidence by `1024`.  This reduces the branch to bounding one
+distinct-locator projection, with a certified ten-bit multiplicity loss; it
+does not bound that projection or the total branch.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

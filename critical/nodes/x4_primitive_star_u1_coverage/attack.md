@@ -23,6 +23,10 @@
    many `d`.
    At `d=1`, use the translated complementary-divisor interface and retain
    divisor multiplicity: fixed `H=aX+b` is not injective even for a fixed base.
+   Apply the proved projection-codegree theorem: either the distinct added-
+   locator or removed-locator projection may be charged with multiplicity at
+   most `1024` on an official base row.  The remaining task is a
+   first-owner-compatible projection census, not another fiber computation.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by

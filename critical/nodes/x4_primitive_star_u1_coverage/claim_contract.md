@@ -19,6 +19,9 @@
 - **First nonconstant interface:** `d=1` is a translated complementary-divisor
   incidence and is automatically coefficient-primitive; fixed `H` can have
   multiplicity greater than one.
+- **First nonconstant multiplicity:** at official base rows, either fixed
+  locator projection has codegree at most `1024`; the number of projected
+  locators remains unbounded.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

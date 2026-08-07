@@ -28814,6 +28814,30 @@
    }
   },
   {
+   "id": "x4_linear_difference_projection_codegree_bound",
+   "title": "Linear-difference translated-divisor projection codegree bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed base support and side width e, every fixed added-locator or removed-locator projection fiber of the d=1 translated complementary-divisor incidence has Johnson codegree at most v(e-1)/(e^2-v), where v is the corresponding side universe and e^2>v. The exact official corridor implies t_XR>=2^31; since d=1 forces e>=t_XR+2 and N=2^41, both projection codegrees are at most 1024. This bounds multiplicity over a projection but does not bound the projection population or the total d=1 stratum.",
+   "refs": [
+    "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/proof.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/claim_contract.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/source_evidence.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/dependency_subdag.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/audit.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/result.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/frontier.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/lineage.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/verify.py",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP2: Low-degree difference incidence",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "x4_linear_difference_translated_divisor_interface",
    "title": "Linear-difference local records are translated complementary divisors",
    "status": "PROVED",
@@ -28892,7 +28916,7 @@
    "title": "Primitive exact-list local general-star budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. None of these structural theorems bounds the residue. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31, and a proved Johnson argument bounds either fixed-locator projection codegree by 1024; the distinct-locator projection and total residue remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
    "refs": [
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
@@ -28903,7 +28927,8 @@
     "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md",
     "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md",
     "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/statement.md",
-    "background/nodes/x4_linear_difference_translated_divisor_interface/statement.md"
+    "background/nodes/x4_linear_difference_translated_divisor_interface/statement.md",
+    "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
@@ -54647,6 +54672,11 @@
   },
   {
    "from": "x4_general_shiftpair_difference_degree_partition",
+   "to": "x4_linear_difference_projection_codegree_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x4_general_shiftpair_difference_degree_partition",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
@@ -54654,6 +54684,16 @@
    "from": "x4_general_star_minimal_trade_route_cut",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "x4_linear_difference_projection_codegree_bound",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_linear_difference_translated_divisor_interface",
+   "to": "x4_linear_difference_projection_codegree_bound",
+   "kind": "req"
   },
   {
    "from": "x4_linear_difference_translated_divisor_interface",

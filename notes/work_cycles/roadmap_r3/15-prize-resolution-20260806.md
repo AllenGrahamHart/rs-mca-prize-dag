@@ -1645,3 +1645,48 @@ new assumptions: none
 compute: no Modal; exact Burnside, recurrence, direct order-16 orbit, and polynomial-gcd audits
 next: seek complement-product batching; pivot lanes if no exact compression appears
 ```
+
+### X4/SP `d=1` projection codegree reduction
+
+The translated complementary-divisor interface left two multiplicities
+entangled: the number of possible linear differences and the number of
+divisor incidences.  Fixed `H=aX+b` is not injective, but fixing either
+locator projection gives a uniform packing theorem.
+
+For a fixed added locator `L_P`, two distinct removed locators satisfy
+
+```text
+L_(Q_i)-L_(Q_j)=H_j-H_i,
+```
+
+so their root sets meet in at most one point.  The dual statement holds with
+`P,Q` exchanged.  The exact incidence/Johnson count is
+
+```text
+deg(P)<=floor(A(e-1)/(e^2-A)),
+deg(Q)<=floor((N-A)(e-1)/(e^2-(N-A))).
+```
+
+The official corridor itself forces `t_XR>=2^31`: below that depth the
+symmetric binomial index stays between `N/16` and `N/2`, so
+`binom(N,N-K-t)>=16^(N/16)=2^(N/4)` while `t log2(q)<2^(31)*256=N/4`.
+Since `d=1` gives `e>=t+2`, both official projection codegrees are therefore
+at most exactly `1024`.
+
+This is a genuine multiplicity reduction, not X4 closure.  The first
+nonconstant branch is now a first-owner-compatible distinct-locator
+projection census with a certified ten-bit loss.  No quotient row inherits
+the number without replaying its own tuple, and `d>=2` remains separate.
+
+```text
+starting pin: bf4ee100e; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: NARROWED d=1 to a distinct-locator projection census with codegree <=1024
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP theorem for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact integer verifier plus independent Fano-plane extremal audit
+next: bound one first-owner-filtered d=1 locator projection; keep d>=2 separate
+```
