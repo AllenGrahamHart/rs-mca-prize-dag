@@ -9,10 +9,11 @@
 | aligned-positive proved | `30/36` cells |
 | aligned-positive residual | `M01/M02-R11` and four `F04`--`F07 x R20` cells |
 | fixed rank-drop coverage | all `16` factor branches in the eight fixed `R02/R20` cells are PROVED empty |
-| fixed generic residual | all eight cubic/full-`J` routes and all four `R02` degree-12 branches are closed; only four `R20` degree-12 branches remain |
+| fixed generic residual | all eight cubic/full-`J` routes, all four `R02` degree-12 branches, and all four R20 `B0`, `K10!=0` charts are closed; only the four R20 `K10=0` complements remain |
 | degree-12 decomposition | nonnamed leading-drop curves `s`, common degree `6`, and target-specific degrees `22`--`24`; no closure |
 | degree-12 closed leaf | `s=0` is PROVED empty in all eight literal fixed cells; `s!=0` remains |
 | degree-12 leading curves | both literal forms of `L6(s,p)=0` are PROVED empty in all eight fixed cells; `L6!=0` remains |
+| R20 B0 chart | `K10!=0` is PROVED empty in all four fixed cells by generic boundary collapse; `K10=0` remains |
 | division-free row identity | parity-reduced evaluation modulo `U^2-VZ` is PROVED; explicit large-curve instantiation remains |
 | external evidence | PRs #1135--#1149, imported only through pinned nodes |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |

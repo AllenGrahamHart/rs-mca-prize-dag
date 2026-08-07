@@ -57,6 +57,42 @@ elif MODE == "global_saturation_all_b0":
         for assignment in ("F04", "F05", "F06", "F07")
         for target in ("R02", "R20")
     )
+elif MODE == "global_field_r20_b0":
+    CASES = tuple(
+        {
+            "cell": f"{assignment}-R20",
+            "divisor": "B0",
+            "groebner": False,
+            "global_saturation": True,
+            "force_global_field": True,
+            "skip_elimination": True,
+        }
+        for assignment in ("F04", "F06")
+    )
+elif MODE == "generic_saturated_r20_b0":
+    CASES = (
+        {
+            "cell": "F06-R20",
+            "divisor": "B0",
+            "groebner": False,
+            "global_saturation": True,
+            "generic_saturated_fiber": True,
+            "generic_exceptional_field": True,
+            "skip_elimination": True,
+        },
+    )
+elif MODE == "generic_saturated_f04_r20_b0":
+    CASES = (
+        {
+            "cell": "F04-R20",
+            "divisor": "B0",
+            "groebner": False,
+            "global_saturation": True,
+            "generic_saturated_fiber": True,
+            "generic_exceptional_field": True,
+            "skip_elimination": True,
+        },
+    )
 elif MODE == "fiber_search_b0":
     CASES = (
         {
@@ -143,7 +179,21 @@ image = (
 )
 
 
-@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=8)
+@app.function(
+    image=image,
+    cpu=4,
+    memory=32768,
+    timeout=(
+        1800
+        if MODE in (
+            "global_field_r20_b0",
+            "generic_saturated_r20_b0",
+            "generic_saturated_f04_r20_b0",
+        )
+        else 900
+    ),
+    max_containers=8,
+)
 def run_case(case: dict[str, object]) -> dict[str, object]:
     import hashlib
     import os
@@ -168,6 +218,12 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
         command.append("--groebner")
     if case.get("global_saturation"):
         command.append("--global-saturation")
+    if case.get("force_global_field"):
+        command.append("--force-global-field")
+    if case.get("generic_saturated_fiber"):
+        command.append("--generic-saturated-fiber")
+    if case.get("generic_exceptional_field"):
+        command.append("--generic-exceptional-field")
     if case.get("skip_elimination"):
         command.append("--skip-elimination")
     if case.get("fiber_search"):
@@ -185,7 +241,10 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             capture_output=True,
             text=True,
             timeout=(
-                780
+                1680
+                if case.get("force_global_field")
+                or case.get("generic_saturated_fiber")
+                else 780
                 if case["groebner"]
                 or case.get("fiber_search")
                 or case.get("global_saturation")

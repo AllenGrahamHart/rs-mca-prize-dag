@@ -18,7 +18,8 @@
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe.sage",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe_modal.py",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_output.json",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_groebner_b0_output.json"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_groebner_b0_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_global_field_r20_b0_output.json"
     ]
   },
   "requires": [

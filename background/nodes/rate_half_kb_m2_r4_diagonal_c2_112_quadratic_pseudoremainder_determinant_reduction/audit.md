@@ -10,3 +10,9 @@
   fence, not a theorem of survival over every localization.
 - The child fiber audit is separated because it proves only finitely many
   literal `s` fibers and must not be read as a global chart close.
+- Forced unspecialized Frobenius on the one-dimensional R20 saturated ideals
+  completed all six `x` iterations in both inversion classes, then failed at
+  `s` with exact libSingular exponent overflow `65536`. This records the free
+  parameter obstruction; increasing RAM or timeout cannot repair that route.
+  The later child generic-boundary theorem instead uses a supported block
+  order and localizes only after the polynomial-ring basis is certified.

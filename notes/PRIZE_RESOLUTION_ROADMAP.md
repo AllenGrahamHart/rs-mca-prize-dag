@@ -21013,6 +21013,34 @@ whole-cell closure:       no; surviving cubic/degree-11 route remains
 next:                     attack the F04-R02 cubic/J11 branch or replay degree-12 cover
 ```
 
+### K3 R20 B0 generic-boundary close
+
+The four residual fixed R20 cells are now narrowed strictly beyond their
+degree-12 branch. For the two complete-system inversion representatives
+`F04-R20` and `F06-R20`, saturation of the `B0`, `K10!=0` determinant core
+followed by block-order recomputation gives seven-element bases. Over
+`F_p(s)`, exact generic arithmetic reduces both to three triangular
+relations, including
+
+```text
+(1+s+pvar)^2 = 0.
+```
+
+The only normalization-support factors are `s`, `s+2`, and
+`s^2+2s+4`. Adjoining each factor to either representative saturated ideal
+gives the unit ideal. Hence every geometric point lies on a transported
+named boundary, and the complete-open charts are empty. Exact inversion
+supplies F05 and F07.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed R20 degree-12
+new PROVED result:        all four B0, K10-nonzero charts empty geometrically
+whole-cell coverage:      unchanged at 30/36
+remaining fixed frontier: four R20 degree-12 K10=0 leading-drop complements
+compute:                  two bounded Modal representatives, peak RSS < 0.64 GB
+next:                     build a valid K10=0 chart without reusing B0 division
+```
+
 ## r5 BOARD UPDATE (2026-08-07, USER-RATIFIED): MYSTERY 7 PROMOTED — the dimension-uniform split-locator max-to-mean wall
 
 Promotion basis (the user's bar, met): strong evidence via

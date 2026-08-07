@@ -36,6 +36,10 @@ def main():
     parser.add_argument("--divisor", choices=("A0", "B0"), required=True)
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--global-saturation", action="store_true")
+    parser.add_argument("--force-global-field", action="store_true")
+    parser.add_argument("--generic-saturated-fiber", action="store_true")
+    parser.add_argument("--factor-generic-fiber", action="store_true")
+    parser.add_argument("--generic-exceptional-field", action="store_true")
     parser.add_argument("--skip-elimination", action="store_true")
     parser.add_argument("--fiber-search", action="store_true")
     parser.add_argument("--factor-fibers", action="store_true")
@@ -471,7 +475,465 @@ def main():
         field_steps = []
         full_open_steps = []
         full_open_product_zero = saturation_unit
-        if not saturation_unit and saturation_dimension == 0:
+        generic_fiber_record = None
+        if not saturation_unit and args.generic_saturated_fiber:
+            parameter_ring = PolynomialRing(field, "sparam")
+            sparam = parameter_ring.gen()
+            function_field = parameter_ring.fraction_field()
+            generic_ring = PolynomialRing(
+                function_field,
+                names=("inverse", "x", "pvar"),
+                order="degrevlex",
+                implementation="generic",
+            )
+            generic_inverse, generic_x, generic_p = generic_ring.gens()
+
+            def to_generic_fiber(value):
+                output = generic_ring(0)
+                for monomial, coefficient in value.dict().items():
+                    output += (
+                        function_field(coefficient)
+                        * function_field(sparam) ** monomial[3]
+                        * generic_inverse ** monomial[0]
+                        * generic_x ** monomial[1]
+                        * generic_p ** monomial[2]
+                    )
+                return generic_ring(output)
+
+            def generic_metric(value):
+                value = generic_ring(value)
+                numerator_degrees = []
+                denominator_degrees = []
+                for coefficient in value.coefficients():
+                    numerator_degrees.append(
+                        int(parameter_ring(coefficient.numerator()).degree())
+                    )
+                    denominator_degrees.append(
+                        int(parameter_ring(coefficient.denominator()).degree())
+                    )
+                return {
+                    "degree": int(value.total_degree()) if value else -1,
+                    "degrees": [
+                        int(value.degree(generator))
+                        for generator in (generic_inverse, generic_x, generic_p)
+                    ],
+                    "terms": int(len(value.monomials())) if value else 0,
+                    "max_numerator_s_degree": max(numerator_degrees, default=-1),
+                    "max_denominator_s_degree": max(denominator_degrees, default=-1),
+                    "sha256": digest(value),
+                }
+
+            block_order = TermOrder("degrevlex", 3) + TermOrder("degrevlex", 1)
+            block_ring = PolynomialRing(
+                field,
+                names=("inverse", "x", "pvar", "svar"),
+                order=block_order,
+            )
+            block_inverse, block_x, block_p, block_s = block_ring.gens()
+
+            def to_block_ring(value):
+                return block_ring(
+                    sum(
+                        field(coefficient)
+                        * block_inverse ** monomial[0]
+                        * block_x ** monomial[1]
+                        * block_p ** monomial[2]
+                        * block_s ** monomial[3]
+                        for monomial, coefficient in saturation_ring(value).dict().items()
+                    )
+                )
+
+            block_generators = [to_block_ring(value) for value in saturation_basis]
+            print(
+                canonical_json(
+                    {
+                        "phase": "GENERIC_BLOCK_BASIS_BEGIN",
+                        "generator_count": len(block_generators),
+                    }
+                ),
+                flush=True,
+            )
+            block_basis = list(
+                block_ring.ideal(block_generators).groebner_basis(
+                    algorithm="singular:slimgb"
+                )
+            )
+            print(
+                canonical_json(
+                    {
+                        "phase": "GENERIC_BLOCK_BASIS_DONE",
+                        "basis_size": len(block_basis),
+                        "basis_sha256": digest(
+                            "\n".join(str(value) for value in block_basis)
+                        ),
+                    }
+                ),
+                flush=True,
+            )
+            generic_basis = [
+                to_generic_fiber(value) for value in block_basis if value
+            ]
+
+            def generic_leading_monomial(value):
+                return max(
+                    value.dict(),
+                    key=lambda monomial: (
+                        sum(monomial),
+                        tuple(-entry for entry in reversed(monomial)),
+                    ),
+                )
+
+            def generic_monomial(exponents):
+                output = generic_ring(1)
+                for generator, exponent in zip(generic_ring.gens(), exponents):
+                    output *= generator ** exponent
+                return generic_ring(output)
+
+            def generic_normal_form(value, reducers):
+                current = generic_ring(value)
+                remainder = generic_ring(0)
+                reducer_data = [
+                    (
+                        generic_ring(reducer),
+                        generic_leading_monomial(reducer),
+                        generic_ring(reducer).dict()[
+                            generic_leading_monomial(reducer)
+                        ],
+                    )
+                    for reducer in reducers
+                    if reducer
+                ]
+                while current:
+                    current_monomial = generic_leading_monomial(current)
+                    current_coefficient = current.dict()[current_monomial]
+                    reduced = False
+                    for reducer, reducer_monomial, reducer_coefficient in reducer_data:
+                        if all(
+                            current_monomial[index] >= reducer_monomial[index]
+                            for index in range(3)
+                        ):
+                            quotient_monomial = tuple(
+                                current_monomial[index] - reducer_monomial[index]
+                                for index in range(3)
+                            )
+                            current -= (
+                                current_coefficient
+                                / reducer_coefficient
+                                * generic_monomial(quotient_monomial)
+                                * reducer
+                            )
+                            reduced = True
+                            break
+                    if not reduced:
+                        leading_term = (
+                            current_coefficient
+                            * generic_monomial(current_monomial)
+                        )
+                        remainder += leading_term
+                        current -= leading_term
+                return generic_ring(remainder)
+
+            reduced_generic_basis = []
+            for index, value in enumerate(generic_basis):
+                reduced = generic_normal_form(
+                    value,
+                    generic_basis[:index] + generic_basis[index + 1 :],
+                )
+                if reduced:
+                    reduced_leading = generic_leading_monomial(reduced)
+                    reduced_generic_basis.append(
+                        generic_ring(
+                            reduced.dict()[reduced_leading] ** (-1) * reduced
+                        )
+                    )
+            reduced_generic_basis.sort(
+                key=lambda value: (
+                    sum(generic_leading_monomial(value)),
+                    tuple(
+                        -entry
+                        for entry in reversed(generic_leading_monomial(value))
+                    ),
+                ),
+                reverse=True,
+            )
+
+            def coefficient_record(coefficient):
+                numerator = parameter_ring(coefficient.numerator())
+                denominator = parameter_ring(coefficient.denominator())
+                return {
+                    "numerator": str(numerator),
+                    "numerator_degree": int(numerator.degree()),
+                    "numerator_sha256": digest(numerator),
+                    "denominator": str(denominator),
+                    "denominator_degree": int(denominator.degree()),
+                    "denominator_sha256": digest(denominator),
+                    "denominator_factors": [
+                        {
+                            "polynomial": str(factor),
+                            "degree": int(factor.degree()),
+                            "exponent": int(exponent),
+                            "sha256": digest(factor),
+                        }
+                        for factor, exponent in denominator.factor()
+                    ],
+                    "denominator_roots_1_16": [
+                        value
+                        for value in range(1, 17)
+                        if not denominator(field(value))
+                    ],
+                }
+
+            reduced_basis_records = []
+            for value in reduced_generic_basis:
+                reduced_basis_records.append(
+                    {
+                        "metric": generic_metric(value),
+                        "leading_monomial": generic_leading_monomial(value),
+                        "coefficients": [
+                            {
+                                "monomial": monomial,
+                                **coefficient_record(coefficient),
+                            }
+                            for monomial, coefficient in sorted(
+                                value.dict().items(), reverse=True
+                            )
+                        ],
+                    }
+                )
+
+            leading_monomials = [
+                generic_leading_monomial(value) for value in generic_basis
+            ]
+            generic_unit = any(
+                not any(monomial) for monomial in leading_monomials
+            )
+            pure_bounds = []
+            for index in range(3):
+                candidates = [
+                    monomial[index]
+                    for monomial in leading_monomials
+                    if monomial[index] > 0
+                    and all(
+                        exponent == 0
+                        for other, exponent in enumerate(monomial)
+                        if other != index
+                    )
+                ]
+                pure_bounds.append(min(candidates) if candidates else None)
+            zero_dimensional = generic_unit or all(
+                bound is not None for bound in pure_bounds
+            )
+            standard_monomial_count = 0 if generic_unit else None
+            if zero_dimensional and not generic_unit:
+                standard_monomial_count = 0
+                for inverse_degree in range(pure_bounds[0]):
+                    for x_degree in range(pure_bounds[1]):
+                        for p_degree in range(pure_bounds[2]):
+                            candidate = (inverse_degree, x_degree, p_degree)
+                            if not any(
+                                all(
+                                    candidate[index] >= monomial[index]
+                                    for index in range(3)
+                                )
+                                for monomial in leading_monomials
+                            ):
+                                standard_monomial_count += 1
+            univariate_records = []
+            if not generic_unit:
+                for variable_name, variable, excluded in (
+                    ("x", generic_x, (generic_inverse, generic_p)),
+                    ("pvar", generic_p, (generic_inverse, generic_x)),
+                ):
+                    for value in generic_basis:
+                        if any(value.degree(generator) > 0 for generator in excluded):
+                            continue
+                        factors = []
+                        if args.factor_generic_fiber:
+                            for factor, exponent in value.factor():
+                                factors.append(
+                                    {
+                                        "degree": int(factor.degree(variable)),
+                                        "exponent": int(exponent),
+                                        "metric": generic_metric(factor),
+                                    }
+                                )
+                        univariate_records.append(
+                            {
+                                "variable": variable_name,
+                                "metric": generic_metric(value),
+                                "factors": factors,
+                            }
+                        )
+            exceptional_records = []
+            if args.generic_exceptional_field:
+                def exceptional_metric(value):
+                    value = saturation_ring(value)
+                    return {
+                        "degree": int(value.total_degree()) if value else -1,
+                        "degrees": [
+                            int(value.degree(generator))
+                            for generator in (inverse, sx, sp, ss)
+                        ],
+                        "terms": int(len(value.monomials())) if value else 0,
+                        "sha256": digest(value),
+                    }
+
+                def exceptional_power_reduce(value, exponent, basis):
+                    result = saturation_ring(1)
+                    power = saturation_ring(value).reduce(basis)
+                    remaining = int(exponent)
+                    while remaining:
+                        if remaining & 1:
+                            result = (result * power).reduce(basis)
+                        remaining >>= 1
+                        if remaining:
+                            power = (power * power).reduce(basis)
+                    return saturation_ring(result)
+
+                boundary = saturation_ring(1 + ss + sp)
+                exceptional_factors = [ss, ss + 2, ss ** 2 + 2 * ss + 4]
+                for exceptional_factor in exceptional_factors:
+                    print(
+                        canonical_json(
+                            {
+                                "phase": "GENERIC_EXCEPTION_BEGIN",
+                                "factor": exceptional_metric(exceptional_factor),
+                            }
+                        ),
+                        flush=True,
+                    )
+                    exceptional_basis = list(
+                        saturation_ring.ideal(
+                            saturation_basis + [exceptional_factor]
+                        ).groebner_basis(algorithm="singular:slimgb")
+                    )
+                    exceptional_unit = exceptional_basis == [saturation_ring(1)]
+                    exceptional_dimension = (
+                        -1
+                        if exceptional_unit
+                        else int(saturation_ring.ideal(exceptional_basis).dimension())
+                    )
+                    boundary_remainder = saturation_ring(0)
+                    boundary_square_remainder = saturation_ring(0)
+                    if not exceptional_unit:
+                        boundary_remainder = boundary.reduce(exceptional_basis)
+                        boundary_square_remainder = (boundary ** 2).reduce(
+                            exceptional_basis
+                        )
+                    exceptional_field_basis = exceptional_basis
+                    exceptional_field_unit = exceptional_unit
+                    exceptional_field_steps = []
+                    if (
+                        not exceptional_unit
+                        and boundary_square_remainder
+                        and exceptional_dimension == 0
+                    ):
+                        frobenius = []
+                        q = int(field.cardinality())
+                        for name, generator in (
+                            ("x", sx),
+                            ("pvar", sp),
+                            ("s", ss),
+                        ):
+                            current = saturation_ring(generator)
+                            for iteration in range(1, 7):
+                                current = exceptional_power_reduce(
+                                    current, q, exceptional_basis
+                                )
+                                exceptional_field_steps.append(
+                                    {
+                                        "name": name,
+                                        "iteration": iteration,
+                                        "metric": exceptional_metric(current),
+                                    }
+                                )
+                            frobenius.append(
+                                saturation_ring(current - generator).reduce(
+                                    exceptional_basis
+                                )
+                            )
+                        exceptional_field_basis = list(
+                            saturation_ring.ideal(
+                                exceptional_basis + frobenius
+                            ).groebner_basis(algorithm="singular:slimgb")
+                        )
+                        exceptional_field_unit = exceptional_field_basis == [
+                            saturation_ring(1)
+                        ]
+                        if not exceptional_field_unit:
+                            boundary_remainder = boundary.reduce(
+                                exceptional_field_basis
+                            )
+                            boundary_square_remainder = (boundary ** 2).reduce(
+                                exceptional_field_basis
+                            )
+                    exceptional_record = {
+                        "factor": exceptional_metric(exceptional_factor),
+                        "basis_size": len(exceptional_basis),
+                        "basis_sha256": digest(
+                            "\n".join(str(value) for value in exceptional_basis)
+                        ),
+                        "unit_ideal": exceptional_unit,
+                        "dimension": exceptional_dimension,
+                        "boundary_remainder": exceptional_metric(boundary_remainder),
+                        "boundary_square_remainder": exceptional_metric(
+                            boundary_square_remainder
+                        ),
+                        "field_steps": exceptional_field_steps,
+                        "field_basis_size": len(exceptional_field_basis),
+                        "field_basis_sha256": digest(
+                            "\n".join(
+                                str(value) for value in exceptional_field_basis
+                            )
+                        ),
+                        "field_unit_ideal": exceptional_field_unit,
+                        "all_f_p6_points_on_boundary": (
+                            exceptional_field_unit
+                            or not bool(boundary_square_remainder)
+                        ),
+                    }
+                    exceptional_records.append(exceptional_record)
+                    print(
+                        canonical_json(
+                            {
+                                "phase": "GENERIC_EXCEPTION_DONE",
+                                **exceptional_record,
+                            }
+                        ),
+                        flush=True,
+                    )
+            generic_fiber_record = {
+                "unit_ideal": generic_unit,
+                "zero_dimensional": zero_dimensional,
+                "pure_power_bounds": pure_bounds,
+                "standard_monomial_count": standard_monomial_count,
+                "block_basis_size": len(block_basis),
+                "block_basis_sha256": digest(
+                    "\n".join(str(value) for value in block_basis)
+                ),
+                "basis_size": len(generic_basis),
+                "basis_sha256": digest(
+                    "\n".join(str(value) for value in generic_basis)
+                ),
+                "leading_monomials": leading_monomials,
+                "basis_metrics": [generic_metric(value) for value in generic_basis],
+                "reduced_basis_size": len(reduced_generic_basis),
+                "reduced_basis_sha256": digest(
+                    "\n".join(str(value) for value in reduced_generic_basis)
+                ),
+                "reduced_basis": reduced_basis_records,
+                "univariate_records": univariate_records,
+                "exceptional_records": exceptional_records,
+            }
+            print(
+                canonical_json(
+                    {"phase": "GENERIC_FIBER_DONE", **generic_fiber_record}
+                ),
+                flush=True,
+            )
+        if not saturation_unit and (
+            saturation_dimension == 0 or args.force_global_field
+        ):
             def saturation_metric(value):
                 value = saturation_ring(value)
                 return {
@@ -651,6 +1113,7 @@ def main():
             "field_steps": field_steps,
             "full_open_steps": full_open_steps,
             "full_open_product_zero": full_open_product_zero,
+            "generic_fiber": generic_fiber_record,
             "elimination": elimination_records,
             "terminal": (
                 "GLOBAL_OPEN_CHART_EMPTY"

@@ -17,8 +17,8 @@ Both jobs completed source compilation and stayed below 0.4 GB child RSS.
 Their exact partial records are retained. Do not increase those caps merely
 to continue the same monolithic elimination.
 
-The preferred next theorem is a uniform component/Frobenius lemma showing
-that every `F_(p0^6)` point on the complete-open R20 core satisfies
-`1+s+pvar=0`, or an equivalent residue-degree ledger. A larger direct
-elimination run is suitable as an upstream compute request, not a local
-prerequisite.
+The uniform theorem is now proved by
+`rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_generic_boundary_exclusion`.
+Its block-order basis forces `(1+s+pvar)^2=0` away from three explicit
+normalization factors, and all three exceptional ideals are unit. Do not
+extend this sampled audit further.

@@ -10,9 +10,11 @@
 5. Treat every fixed `R02/R20` rank-drop chart and cubic/full-`J` route as
    closed by exact literal or complete-transport certificates; do not
    recompute them.
-6. Attack only the four unresolved `R20` degree-12 resultant branches. Do
-   not retry the fenced quotient-normal-form, raw function-field,
-   pseudo-remainder, degree-70 full-`J`, or full-`I` routes.
+6. Attack only the `K10=0` leading-drop complements inside the four unresolved
+   `R20` degree-12 resultant branches. The `B0`, `K10!=0` charts are closed.
+   Do not reuse their pseudo-division quotient on `K10=0`, and do not retry
+   the fenced quotient-normal-form, raw function-field, degree-70 full-`J`,
+   or full-`I` routes.
 7. Audit aligned-negative and near-aligned normalization separately; do not
    infer their coverage from the positive atlas.
 8. Promote the parent only after a machine-checked literal coverage table has

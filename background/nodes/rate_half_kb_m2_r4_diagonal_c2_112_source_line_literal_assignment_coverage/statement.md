@@ -72,6 +72,14 @@ representative modulo `U^2-VZ`. Literal expansion retains `52257` and
 `49848` terms, so the identity is viable only before expansion, inside a
 new block-level factorization or syzygy.
 
+The R20 `B0` pseudo-remainder chart has now been closed uniformly where its
+nonnamed degree-10 leading factor `K10` is nonzero. Exact block-order bases
+for the F04 and F06 representatives reduce over `F_p(s)` to
+`(1+s+pvar)^2=0`; all three normalization-support ideals are unit, and
+complete-system inversion supplies F05 and F07. Thus each of the four live
+R20 degree-12 routes is narrowed to the complementary `K10=0` leading-drop
+branch. Whole-cell coverage remains `30/36`.
+
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
 near-aligned coverage claims.

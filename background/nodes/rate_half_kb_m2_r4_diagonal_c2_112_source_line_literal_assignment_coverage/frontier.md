@@ -30,5 +30,11 @@ exact prefixes. The PROVED parity-reduced identity also fails as an expanded
 compression: its literal rows retain roughly 52000 and 50000 terms. The next
 source route must find a factorization or syzygy with `U,V,Z` kept as blocks.
 
+The `B0`, `K10!=0` chart is now PROVED empty in all four R20 cells. Two
+independent block-order certificates force the forbidden boundary
+`1+s+pvar=0`, and exact inversion supplies the companion cells. The fixed
+frontier is therefore the four `K10=0` leading-drop complements, not the
+whole R20 degree-12 branches.
+
 The local aligned-negative and near-aligned ledgers also require a literal
 coverage audit before the branch-level theorem can return to PROVED.
