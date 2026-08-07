@@ -8,5 +8,5 @@ l1_core_defect_reduction [PROVED] ------------------req--+
                                                          |
                                                    ev----+
                                                          v
-  l1_fpc5_m4_t2_payment [TARGET]
+  l1_fpc5_ratehalf_m4_t2_payment [TARGET]
 ```

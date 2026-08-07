@@ -14,7 +14,8 @@
       "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/claim_contract.md",
       "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/dependency_subdag.md",
       "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
-      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md"
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/statement.md"
     ]
   },
   "requires": [],

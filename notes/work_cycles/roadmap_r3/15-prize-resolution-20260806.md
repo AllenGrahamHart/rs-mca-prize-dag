@@ -2138,3 +2138,35 @@ new assumptions: none
 compute: no Modal; exact arithmetic and tiny source replays only
 next: classify/count primitive split locators in one fixed rate-half guarded slice
 ```
+
+### Rate-half sharp-cell nonemptiness route cut
+
+An exact adversarial finite census tested whether the corrected sharp guarded
+slice might be algebraically empty. On `H_32 subset F_97^*` at
+
+```text
+(n,k,ell,M,b,s,d)=(32,16,4,4,1,1,5),
+```
+
+the solver derives the touched-label ratio from the complete second-petal
+system rather than sampling it. Across 50 deterministic maximal layouts, 41
+are nonempty and contain 71 primitive exact contributors in total, with
+maximum five in one layout. Seed 3 is replayed end to end with exactly 19
+agreements.
+
+This is bounded root excess (`e=3`), so it neither creates an asymptotic FPC5
+family nor threatens polynomiality. It does decisively retire universal
+algebraic emptiness of the guarded equations. The live route is classification
+and count after tangent/quotient ownership.
+
+```text
+starting pin: 6e9f3029d; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2
+result: ROUTE CUT for sharp-cell algebraic emptiness; exact finite witness banked
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable sharp-cell nonemptiness warning and certificate
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; two exact 50-layout local censuses under 256 MB RAM guard
+next: emit the exact projective split-flat descriptor and separate its common-gcd owner
+```

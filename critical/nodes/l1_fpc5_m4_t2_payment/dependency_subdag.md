@@ -10,3 +10,6 @@ l1_fpc5_ratehalf_m4_t2_payment [TARGET] ------------------req---+
   l1_fpc5_m4_t2_payment [CONDITIONAL]
     --req--> l1_full_petal_fpc5_payment [CONDITIONAL]
 ```
+
+The proved slice reductions now point directly to the sole rate-half target;
+the parent only performs the disjoint official-rate assembly.

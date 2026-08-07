@@ -1,7 +1,7 @@
 # Rate-half FPC5 codimension-two guarded slice
 
 - **status:** PROVED
-- **consumer:** `l1_fpc5_m4_t2_payment`
+- **consumer:** `l1_fpc5_ratehalf_m4_t2_payment`
 
 Consider the official rate-half row `k=2^40`, a maximal sunflower source with
 `M=4`, and an `M=4,t=2` full-petal cell. Write

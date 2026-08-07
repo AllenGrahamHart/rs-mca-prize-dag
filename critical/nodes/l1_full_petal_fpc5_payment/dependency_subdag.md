@@ -9,7 +9,7 @@ pma_full_petal_band_composition [PROVED] --ev-->
   l1_full_petal_fpc5_payment [CONDITIONAL] --req--> imgfib [CONDITIONAL]
 
 l1_fpc5_ratehalf_m4_t3_split_slice_payment [TARGET] --req--+
-l1_fpc5_m4_t2_payment [TARGET] ---------------------req--+--> l1_full_petal_fpc5_payment
+l1_fpc5_m4_t2_payment [CONDITIONAL] ----------------req--+--> l1_full_petal_fpc5_payment
 l1_fpc5_large_source_payment [TARGET] ---------------req--+
 ```
 

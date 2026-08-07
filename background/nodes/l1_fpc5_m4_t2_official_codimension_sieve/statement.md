@@ -1,7 +1,7 @@
 # FPC5 `M=4,t=2` official codimension sieve
 
 - **status:** PROVED
-- **consumer:** `l1_fpc5_m4_t2_payment`
+- **consumer:** `l1_fpc5_ratehalf_m4_t2_payment` after the rate-quarter close
 
 On every official row `k=2^40`. For an `M=4,t=2` full-petal cell write
 

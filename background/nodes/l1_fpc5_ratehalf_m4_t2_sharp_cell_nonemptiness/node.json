@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness",
+    "title": "The sharp rate-half two-petal guarded cell is algebraically nonempty",
+    "status": "PROVED",
+    "closure": "certificate",
+    "statement": "On the smooth H_32 subgroup of F_97^* with the sharp rate-half analogue (n,k,ell,M,b,d)=(32,16,4,4,1,5), an exact adversarial label-ratio census over 50 deterministic maximal source layouts finds 41 nonempty layouts and 71 primitive exact two-full-petal contributors, with maximum five in one layout. Seed 3 supplies an explicit contributor. Thus no field-independent algebraic argument can declare the sharp background-guarded equations empty. This finite witness has root excess three and does not prove an asymptotic FPC5 family or refute polynomial payment.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/verify.py",
+      "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census.py",
+      "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}
