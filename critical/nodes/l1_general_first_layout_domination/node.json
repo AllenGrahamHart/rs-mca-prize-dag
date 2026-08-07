@@ -40,6 +40,9 @@
     },
     {
       "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    },
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
     }
   ],
   "refutes": []

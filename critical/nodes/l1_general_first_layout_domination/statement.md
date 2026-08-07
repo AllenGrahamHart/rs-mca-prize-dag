@@ -4,7 +4,7 @@
 - **role:** remove maximal source-layout multiplicity at every petal size
 - **consumers:** `l1_mixed_residual_intersection_pin`,
   `l1_mixed_petal_amplification`, `petal_mixed_amplification`, and the
-  `M=4,t=2` FPC5 rate split
+  `M=4,t=2` and `M=4,t=3` FPC5 rate splits
 
 ## Source layout
 

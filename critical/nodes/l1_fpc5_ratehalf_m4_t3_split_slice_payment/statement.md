@@ -12,8 +12,10 @@ b>=7,              1<=a<=floor((b-3)/4),
 J=ell(4a-b+2)+a^2+2ab-4a<=0.
 ```
 
-For one first-owned source, touched triple, defect, and normalized source
-cross-ratio `lambda`, the fixed cell is exactly
+First-layout domination leaves four planted anchors and at most four touched
+triples in one fixed maximal source layout. Each triple's three source labels
+determine one normalized cross-ratio `lambda`; it is not a field-wide
+summation parameter. For one fixed triple and defect, the cell is exactly
 
 ```text
 {D monic : D|L_C, deg D=2ell-a,
@@ -21,6 +23,8 @@ cross-ratio `lambda`, the fixed cell is exactly
             gcd(D,rem_(L_2L_3)(D Etilde))=1}.       (LS6)
 ```
 
-The target is a disjoint polynomial/profile allocation after summing these
-exact atoms over every first-owned source, triple, defect, and `lambda`.
-Bounding the dimension of the ambient linear slice is not the conclusion.
+There are fewer than `4n` such `(triple,a)` cells. The target is therefore a
+uniform polynomial/profile payment for one fixed guarded LS6 atom, strong
+enough that its sum over these polynomially many cells is admissible. There
+is no remaining source-layout or free-`lambda` composition problem. Bounding
+the dimension of the ambient linear slice is not the conclusion.

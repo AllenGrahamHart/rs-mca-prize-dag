@@ -20133,6 +20133,35 @@ new assumptions: none
 compute: no Modal; exact binomial arithmetic through L=1024 under 256 MB RAM guard
 next: algebraic guarded-flat/exchange attack; do not iterate support-distance bounds
 ```
+
+### Rate-half `M=4,t=3` outer composition collapsed
+
+General first-layout domination and the exact cross-ratio/split-slice
+reductions remove the apparent source and field-label sums from the
+three-touched-petal tail. Fix the first admissible maximal `M=4` layout. Its
+four anchors are paid separately; every non-planted contributor has one of
+the four touched triples, and the triple's source labels determine one
+normalized cross-ratio. Since the surviving defect range has fewer than `n`
+values, a uniform bound `B(n)` for one exact guarded LS6 atom gives
+
+```text
+#FPC5_(M=4,t=3) <= 4n B(n)+4.
+```
+
+The remaining red content is now one uniform fixed-atom split-divisor
+payment. No source-layout or field-many cross-ratio aggregation remains.
+
+```text
+starting pin: 596672ad7; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / guarded LS6 atom
+result: PROVED first-layout and cross-ratio outer-cell collapse
+DAG status delta: +1 background PROVED evidence node; target statement narrowed
+upstream terminal delta: portable reduction of the split-slice frontier to one uniform LS6 atom
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; integer and finite-field normalization replay under 256 MB RAM guard
+next: prove or falsify a uniform guarded split-divisor bound for one LS6 atom
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
