@@ -57,6 +57,9 @@ leading coefficient is a common nonnamed irreducible degree-6 curve; the
 degrees `22`--`24`. Naive function-field or pseudo-remainder elimination
 therefore inverts real branches and grows rather than compresses. The next
 valid attack needs source-level cancellation or a branchwise theorem.
+The smallest leading-drop leaf, `s=0`, is now PROVED empty by eight literal
+localizer computations. This narrows the degree-12 route to `s!=0` but does
+not close a fixed cell.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

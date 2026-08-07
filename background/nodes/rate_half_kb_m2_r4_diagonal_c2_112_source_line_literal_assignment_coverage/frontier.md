@@ -22,7 +22,8 @@ degree-12 resultant branch. The latter has genuine nonnamed leading-drop
 curves of degrees `1,6,22,23,24`; raw function-field and pseudo-remainder
 routes are now fenced. Seek source cancellation or prove those curves
 branchwise, followed by literal orbit replay only after a representative
-route closes.
+route closes. The `s=0` degree-12 leaf has already been replayed and closed
+in all eight literal fixed cells, so the live degree-12 frontier has `s!=0`.
 
 The local aligned-negative and near-aligned ledgers also require a literal
 coverage audit before the branch-level theorem can return to PROVED.

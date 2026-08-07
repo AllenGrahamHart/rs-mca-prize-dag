@@ -11,5 +11,6 @@ The next valid routes are:
 2. split the explicit nonnamed leading curves and prove a low-degree
    parametrization or incompatibility on each branch.
 
-The common degree-6 `R12` leading curve and the `s=0` branch are the smallest
-first candidates. Every inverted factor must remain an explicit DAG leaf.
+The `s=0` leaf is now closed literally in all eight fixed cells. The common
+degree-6 `R12` leading curve is the smallest remaining candidate. Every
+inverted factor must remain an explicit DAG leaf.

@@ -311,3 +311,19 @@ literal cell closures:    none
 rejected route:           raw function-field and pseudo-remainder elimination
 next:                     source-level cancellation or branchwise curve theorem
 ```
+
+### K3 fixed degree-12 s-zero leaf close
+
+The smallest leading-drop curve was replayed literally in all eight fixed
+`R02/R20` cells. After `s=0`, the degree-12 factor and both essential rows
+generate a two-element dimension-one basis. `F04/F07` share one exact basis
+and `F05/F06` another; no transport is used as proof. In every cell the
+complete transported generic localizer reduces to zero at factor 14.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        s=0 branch empty in all eight literal cells
+localizer replay:         8/8 PASS; nilpotence index 1
+literal cell closures:    none; s!=0 degree-12 branches remain
+next:                     common degree-6 leading curve or source cancellation
+```

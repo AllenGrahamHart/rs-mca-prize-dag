@@ -49,6 +49,10 @@ certificates required by the challenge.
   irreducibles of degrees `22`--`24`. Direct function-field division and a
   three-step pseudo-remainder prefix are exact no-go fences; the latter grows
   to 149340 terms while lowering `x`-degree only to 34.
+  The smallest explicit leaf, `s=0`, is now PROVED empty in all eight
+  literal fixed cells: each specialized ideal has a two-element basis and
+  the complete transported localizer vanishes at factor 14. This is a
+  branch close only; aligned-positive coverage remains `26/36`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
