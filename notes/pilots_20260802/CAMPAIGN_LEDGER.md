@@ -2483,3 +2483,85 @@ ROUND 21 (4 agents):
   both closability hopes dead with permanent structural blockers.
   The 25-red accounting final: 14 mystery-linked (no cheap wins) /
   9 WCL-slot grind / 2 straddling.
+
+## ROUND 22 LAUNCHED (2026-08-07) — QUARANTINE MARKER
+
+Four pilots: l1_ell_sweep (mystery 6 F-w1 falsifier attempt),
+ge_floor_falsifier (mystery 5 FLOOR-GE falsifier + GE-WEAK first
+positive), bb_nu_transport (mystery 4, BB method -> accident upper
+bound / nu(A)), f2_rlocality (mystery 2, the 8.60 R-locality
+deficit). Pilots MUST NOT read ledger entries below this marker and
+MUST pass this quarantine clause to any subagent they dispatch.
+
+## 2026-08-07: WAVE-48 AUDIT COMPLETE (integration STAGED behind round 22)
+
+- Delta audited: v11 cf4699f77..a55acc2fd + v12 to pin f7e850788
+  (~2,027 files; 60 nodes added 50P/8T/2C; 6 status changes).
+  Full audit: notes/wave24_integration_20260727/WAVE48_AUDIT_DRAFT.md.
+- HEADLINE: Codex caught a FALSE GREEN on the Conjecture-F chain —
+  conj_f + f_dim_induction + f_many_sparse_structure +
+  f_primitive_case demoted PROVED -> CONDITIONAL. I verified all
+  three semantic gaps against canonical's own texts (the Face-4
+  routing-as-payment at f_many_sparse_structure/conditional.md:29;
+  the dimension-dependent binom(n,r)/binom(j,r) at
+  f_spread_moment_count/proof.md:34 vs the absolute B_F needed; the
+  two-consumer scope). The wave-24 "auto-discharge exposure"
+  landing on its largest target. ACCEPTED.
+- The LIST Conjecture-F route is RETIRED (subtree -> background);
+  imgfib re-routed to two exact L1 leaves; the FPC5 full-petal
+  program replaces it on critical (rate-quarter M=4,t=2 PROVED
+  with absolute bound 10 — spot-read sound; three payment leaves
+  red). Critical reds 25 -> 28 (honest repricing).
+- Verifier replays in the Codex tree: 91 PASS / 8 FAIL, all 8
+  benign (4 background->critical path staleness in the moved PMA
+  chain; 4 same-wave pin staleness). Fixes specified.
+- Clobber checks CLEAN: my round-21 addenda relocated intact into
+  Codex's landed sectioned-node schema (statement_sections/ +
+  statement_addenda/); CATCH-P3 filing annotations intact.
+- MERGE HELD until all four round-22 pilots report: the wave
+  restructures l1_mixed_petal_amplification (read by l1_ell_sweep)
+  and touches f2_z1_mass_knife_edge (read by f2_rlocality).
+
+## 2026-08-07: round-22 agent 1 BANKED — bb_nu_transport: the FIRST accident upper bound of record (p-free, prime-row-reaching) + the M-route anti-transport PROVED
+
+- **bb_nu_transport (Opus) BANKED, MAINTAINER-LEVEL** (1550/0
+  replayed; fail-closed exits 1). (1) ANATOMY: BB's nine steps
+  graded; registered 6-transport/3-fail split HELD EXACTLY, and the
+  three failures (SM(1) concentration, THEOREM AC Cauchy-Schwarz,
+  max>=mean pigeonhole) carry ALL of BB's quantitative power —
+  concentration is the SOURCE of the accident problem, not a tool
+  against it. (2) **PROPOSITION U2** (from the surviving
+  scaffolding, BB-1+BB-2 only): Acc_deep <= M(2L,L-2) =
+  (C(2L,L-2)+C(L,(L-2)/2))/(2L) — unconditional, p-FREE, exact
+  Ramanathan/Lehmer gcd=2 closed form; at the witness row
+  2^117.0820 vs B* = 2^127.5098 (+10.4278 bits, exact integers),
+  below B* throughout v in [35,39], vacuous at v=34 (consistent
+  with BB's proved break). Being p-free it reaches the e=1 PRIME
+  rows BB provably cannot: coverage 8.64% (v=35) -> 99.67% (v=39)
+  of the live prime window. Novelty honestly LOW (subtraction done:
+  gamma_shell's banked gcd=1 structural count is the coprime case);
+  value: the repo recorded "no upper bound on the shell population
+  anywhere" three times. Consistency: brackets gamma_shell's proved
+  floor at +1.436 bits (P6.6 HELD). 17 toy cells, three independent
+  counters; measured U2 loss tracks Q=p (exactly the discarded
+  relation). (3) **THEOREM AT (anti-transport), threshold exactly
+  3**: RHS <= (3/2)N - N^2/(2Y); occupancy concentration kappa >= 3
+  forces nu(A) <= 0; BB's deep-stratum kappa is 2^33 — shell
+  concentration DESTROYS the M-route functional. The round-21 lead
+  REVERSED: the M route needs a proved ANTI-concentration
+  certificate (C_t(A) enters with a MINUS sign; E[N(A)] sees only
+  |A|). Addendum applied to averaged_slope_conversion (wave-safe).
+  (4) CRUX RELOCATED: X_w <= S(v) + Acc_deep + Acc_shallow now has
+  two of three terms supplied; crux = Acc_shallow + aperiodic S =
+  constant-weight BCH_w population cap in a prescribed sig class
+  (LEMMA Y/MW equality at w <= p); the sharp deep route is gated by
+  integer_code_distance_cert's min-l1 instrument — the THIRD lane
+  converging on that one missing instrument (after GE-WEAK and
+  PROBE-1). (5) Catches: T1 (gamma_shell prose ambiguity, artifact
+  correct, note filed), T2 (0.067-bit near-collision flag), T3
+  (pilot's own float bug, self-caught). The pilot's OWN P6.3
+  falsifier prediction was falsified and it refused the upgrade
+  (U3 stays heuristic, unused) — exemplary. DEFERRED: the U2
+  addendum on rate_half_list_adjacent_crossing lands post-merge in
+  the wave-48 sectioned schema.
+- Awaiting: l1_ell_sweep, ge_floor_falsifier, f2_rlocality.
