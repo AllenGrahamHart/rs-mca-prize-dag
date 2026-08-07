@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport",
+    "title": "KoalaBear aligned-positive fixed-companion inversion transport",
+    "status": "PROVED",
+    "closure": "literal b-to-b-inverse transport closes all three F01 companion cells",
+    "statement": "For each aligned root distribution Rxx, the complete system F01(b)-Rxx is literally F00(b^-1)-Rxx. This reparameterization preserves the source pair, unordered endpoint set, q-slice target, named open, quotient locators, and both full quotient identities. Since inversion is a bijection on the nonzero deployed field, the three proved F00 exclusions imply emptiness of F01-R02, F01-R11, and F01-R20. This is a restricted literal symmetry, not generic endpoint Mobius covariance.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

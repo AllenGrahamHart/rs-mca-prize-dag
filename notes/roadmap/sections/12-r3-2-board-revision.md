@@ -96,3 +96,27 @@ new assumptions:          none
 compute:                  none; exact symbolic/rational replay under RAMguard
 next:                     import literal atlas closures and build a zero-gap coverage table
 ```
+
+### K3 restricted fixed-companion transport
+
+The first complete-system symmetry inside the repaired literal atlas is now
+PROVED. For every root pattern,
+
+```text
+F01(b)-Rxx = F00(b^-1)-Rxx.
+```
+
+This is literal reparameterization, not endpoint-coordinate covariance. It
+preserves the source pair, unordered endpoint set, q-slice target, named
+open, quotient locators, and both full quotient identities. Field inversion
+is bijective on `b != 0`, so the three local `F00` exclusions close all three
+`F01` companions.
+
+```text
+lane:                     MCA / K3 / aligned-positive literal coverage
+result:                   PROVED complete F00-to-F01 inversion transport
+aligned-positive closure: 6/36 cells local and literal
+new assumptions:          none
+compute:                  none; exact finite rational/source-registry replay
+next:                     import F02/F03 (#1141) and M00..M03 (#1144), then attack F04..F07
+```

@@ -19,14 +19,18 @@ Möbius covariance. It is enough to provide either:
 For the aligned-positive unramified branch, the literal source registry has
 eight fixed-moving and four moving-moving assignments, each with three root
 distributions, hence 36 semantic cells. The proved crosswalk identifies the
-six local canonical systems but supplies no generic orbit transfer.
+six local canonical systems. The restricted literal inversion theorem then
+transports the three `F00` exclusions to all three `F01` companions, closing
+the six-cell `{F00,F01} x {R02,R11,R20}` block without generic covariance.
 
 External PRs #1140, #1141, #1144, and #1149 provide an exact upstream atlas
 and substantial cell-specific closures. They are integration candidates,
 not theorem dependencies of this local TARGET until imported and replayed.
 The currently advertised upstream branch after #1149 retains 16 fixed-moving
-cells. Representative full-quotient PRs #1135--#1137 may reduce that frontier
-after their scope and stack are integrated.
+cells because its stack does not import all three representative
+full-quotient packets. The local restricted inversion theorem reconciles
+that six-cell block. The residual aligned-positive literal assignments are
+`F02`--`F07` and `M00`--`M03` until upstream closures are imported.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

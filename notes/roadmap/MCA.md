@@ -22,6 +22,10 @@ certificates required by the challenge.
   source-assignment atlas. The former branch-level PROVED promotion is now
   CONDITIONAL pending literal coverage or a complete-system restricted
   symmetry theorem.
+- The first restricted symmetry is now PROVED: literal reparameterization
+  `b -> b^-1` identifies every complete `F01-Rxx` system with
+  `F00-Rxx`. All six `F00/F01` cells are therefore closed locally; this does
+  not transport to `F02`--`F07`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
