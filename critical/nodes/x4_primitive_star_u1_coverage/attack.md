@@ -50,6 +50,10 @@
    `x4_primitive_shiftpair_zero_fold_norm_divisibility`: each structural zero
    supplies its printed dyadic divisor to every active norm.  This arithmetic
    strengthening still does not assign the support to a quotient owner.
+   Do not extend the generic norm-size route at the maximal-difference
+   boundary: `x4_primitive_norm_size_hard_boundary_route_cut` proves every
+   active/zero pattern passes the complete current size gate there.  A norm
+   continuation must add shape-specific factors or a common-ideal ceiling.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by
@@ -58,9 +62,9 @@
    strip boundary.  Any multiplicity above one must be charged in the final
    summed budget.
 
-The next proof attempt should replay the strengthened zero-fold pattern gate
-on every consumed row, classify its surviving integral factorizations, and
-convert the surviving norm gates into a population bound after compiling the
-exact first-owner predicates.  This is upstream's SP2 route at the correct
-maximum-degree quantifier.  Minimal-stratum results remain useful evidence
-but are not mandatory dependencies.
+The next proof attempt should use split-locator incidence or compile the
+exact first-owner predicates at the hard boundary.  Shape-specific exact
+factor/common-ideal information remains admissible, but the uniform norm-size
+route is retired there.  This is upstream's SP2 route at the correct maximum-
+degree quantifier.  Minimal-stratum results remain useful evidence but are
+not mandatory dependencies.

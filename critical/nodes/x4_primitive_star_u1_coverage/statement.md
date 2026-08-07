@@ -148,6 +148,19 @@ supplied zero folds, then balance and exact cyclotomic divisibility give
 Every pattern violating `(Z-S)` is empty.  Patterns surviving this stronger
 gate and their populations remain open.
 
+The generic norm-size route cannot close the whole wedge.  At the hard
+rate-half boundary
+
+```text
+e=N/8,       d=e-t_XR-1,       T=t_XR,
+```
+
+every possible primitive active/zero pattern passes `(Z-S)`: the full lower
+factor has logarithm below `3N+5160`, while the Haar ceiling is at least
+`10N`.  Thus any continuation there must use exact factors/common ideals,
+locator incidence, or first ownership rather than another uniform norm-size
+comparison.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

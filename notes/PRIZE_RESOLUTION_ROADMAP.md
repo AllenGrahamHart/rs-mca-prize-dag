@@ -19681,6 +19681,43 @@ new assumptions: none
 compute: no Modal; exhaustive exact audit at N=8,16 over 12,266 signed pairs
 next: evaluate the strengthened pattern gate row-wise and classify surviving integral factor patterns
 ```
+
+### X4/SP hard-boundary norm-size route cut
+
+The complete generic norm package has now been priced at the cell that an X4
+closure must still handle:
+
+```text
+N=2^41,       e=N/8,       T=t_XR,       d=e-T-1.
+```
+
+For every official `q<2^256` and every active/zero pattern, the Frobenius-
+orbit and structural-zero lower factor has logarithm below `3N+5160`.  Scale
+zero being active forces `A_S>=N/4`, and the shared Haar ceiling has logarithm
+at least
+
+```text
+(N/4)log2(N/2)=10N.
+```
+
+Thus every pattern passes by a wide margin.  This does not construct a shift
+pair, but it decisively retires another uniform norm-size refinement as a
+whole-wedge strategy.  The next SP2 step must be a split-locator incidence or
+owner theorem, or use exact shape-specific factors/common ideals that are not
+present in the generic package.
+
+```text
+starting pin: 3671fd167; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: ROUTE CUT for generic multiscale norm size at the hard boundary
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable quantified endpoint warning for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact symbolic official-row inequalities
+next: attack hard-boundary locator incidence or operational ownership; use norms only with new exact shape data
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

@@ -15,6 +15,7 @@ x4_johnson_nonpositive_wedge_abstract_code_route_cut [PROVED]+
 x4_primitive_shiftpair_dyadic_norm_router [PROVED] ---------+
 x4_primitive_shiftpair_haar_norm_product_gate [PROVED] -----+
 x4_primitive_shiftpair_zero_fold_norm_divisibility [PROVED]-+
+x4_primitive_norm_size_hard_boundary_route_cut [PROVED] ----+
 u1_x4_direct_column_budget [CONDITIONAL] -------------ev--+
 
 x4_primitive_star_u1_coverage [TARGET] --req--> x4_exactlist_staircase_split [CONDITIONAL]
@@ -31,4 +32,6 @@ every primitive record an exact norm-gate certificate, but none of these
 nodes estimates the number of records passing it.  The Haar product gate
 deletes arithmetically impossible active-fold patterns while preserving every
 zero-fold branch explicitly.  The zero-fold theorem then charges the exact
-dyadic cyclotomic factors without making an ownership claim.
+dyadic cyclotomic factors without making an ownership claim.  The hard-
+boundary route cut proves this complete generic size package still cannot
+exclude any fold pattern in one decisive residual cell.

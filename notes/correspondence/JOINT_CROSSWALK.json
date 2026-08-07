@@ -2118,6 +2118,31 @@
     "our_sha": "e79cb3180",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "x4_primitive_norm_size_hard_boundary_route_cut",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "complete dyadic active/zero norm package -> official hard-boundary exponent comparison -> generic size-route impossibility",
+   "scope": "official rate-half N=2^41 hard cell e=N/8,d=e-t_XR-1, uniformly over q<2^256",
+   "owner": "US",
+   "nonclaims": [
+    "does not construct or count a locator shift pair",
+    "does not rule out exact norm factors or common-ideal arguments",
+    "does not pay a local first-owner atom",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3671fd167",
+    "his_sha": "93fba1be"
+   }
   }
  ]
 }

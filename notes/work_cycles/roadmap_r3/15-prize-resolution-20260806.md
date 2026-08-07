@@ -1909,3 +1909,29 @@ new assumptions: none
 compute: no Modal; exhaustive exact audit at N=8,16 over 12,266 signed pairs
 next: evaluate the strengthened pattern gate row-wise and classify surviving integral factor patterns
 ```
+
+### X4/SP hard-boundary norm-size route cut
+
+At
+
+```text
+N=2^41, e=N/8, T=t_XR, d=e-T-1,
+```
+
+every active/zero pattern passes the complete generic norm-size gate.  The
+lower factor is below `2^(3N+5160)` uniformly over `q<2^256`, while the Haar
+ceiling is at least `2^(10N)`.  This is not a shift-pair construction; it
+retires only the generic size-comparison route.
+
+```text
+starting pin: 3671fd167; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: ROUTE CUT for generic multiscale norm size at the hard boundary
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable quantified endpoint warning for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact symbolic official-row inequalities
+next: attack hard-boundary locator incidence or operational ownership; use norms only with new exact shape data
+```

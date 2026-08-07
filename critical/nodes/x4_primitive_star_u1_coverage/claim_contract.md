@@ -44,6 +44,10 @@
   exact dyadic factors from `X-1` and every structural cyclotomic divisor.
 - **Ownership nonclaim:** cyclotomic divisibility does not by itself place a
   support in the quotient/dihedral or structured staircase bucket.
+- **Norm-size route cut:** at the rate-half hard boundary, every possible
+  active/zero pattern passes the complete generic size gate.
+- **Retained arithmetic:** exact factorization and common-ideal information
+  are not part of the route cut and remain available.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

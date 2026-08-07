@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_primitive_norm_size_hard_boundary_route_cut",
+    "title": "X4 primitive norm-size hard-boundary route cut",
+    "status": "PROVED",
+    "closure": "route cut",
+    "statement": "At the official rate-half residual cell N=2^41, e=N/8, T=t_XR, d=e-T-1, every coefficient-primitive active/zero fold pattern passes the complete generic norm-size gate. Uniformly over log2(q)<256, the logarithm of the residue-degree plus structural-zero lower factor is below 3N+5160, while the shared Haar ceiling is at least 10N. Thus no pattern is excluded by these size inequalities alone. This is not a shift-pair construction or an X4 counterexample; exact factors, locator incidence, and first-owner routes remain live.",
+    "refs": [
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/statement.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/proof.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/claim_contract.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/source_evidence.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/dependency_subdag.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/audit.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/result.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/frontier.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/lineage.md",
+      "background/nodes/x4_primitive_norm_size_hard_boundary_route_cut/verify.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_exact_slice_f2_guard_route_cut"
+    },
+    {
+      "from": "x4_primitive_shiftpair_zero_fold_norm_divisibility"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}
