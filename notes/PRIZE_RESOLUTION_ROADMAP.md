@@ -20730,9 +20730,9 @@ timed-out run is consumed as a theorem.
 ```text
 lane:                     MCA / K3 / aligned-positive literal coverage
 new PROVED coverage:      ten moving cells
-local proved total:       22/36 aligned-positive cells
+local proved total:       26/36 aligned-positive cells
 balanced residual:        M01-R11, M02-R11 (PROVABLE review gate)
-fixed residual:           F04..F07 x R02/R11/R20 (12 cells / 6 #1149 orbits)
+fixed residual:           F04..F07 x R02/R20 (8 cells / 4 #1149 orbits)
 new assumptions:          none
 compute:                  bounded Modal Sage review; <=8 GB per shard
 next:                     attack six F04..F07 orbits; seek portable M01-R11 certificate
@@ -20761,7 +20761,32 @@ twelve cells empty.
 lane:                     MCA / K3 / aligned-positive fixed residual
 result:                   PROVED quadratic dichotomy and six fingerprint orbits
 literal replay:           12/12 PASS, official SageMath 10.9
-remaining branches:       six generic V!=0 plus six rank-drop U=V=0
+closed hereafter:          both R11 generic/rank-drop orbit pairs
+remaining branches:       four R02/R20 generic plus four rank-drop orbits
 new assumptions:          none
-next:                     factor terminal cores and close one orbit branch at a time
+next:                     apply the balanced localization route to R02/R20
+```
+
+### K3 fixed balanced four-cell close
+
+The exact `V!=0` reconstruction was compiled directly for all four literal
+`F04`--`F07-R11` cells. After named-factor cancellation each cell has three
+essential cores. The deployed-prime core ideal has a 151-element basis and
+dimension one, but its square-free transported localizer reduces to zero at
+factor 16. Thus every generic chart is empty.
+
+On `V=0`, removal of only the original named factors leaves one degree-2 and
+one degree-10 factor per literal cell. All eight direct factor ideals have a
+zero original localizer modulo their exact bases. The two charts are
+exhaustive, so all four balanced fixed cells are PROVED empty.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed balanced row
+new PROVED coverage:      F04/F05/F06/F07 x R11
+generic replay:           4/4 PASS; localizer nilpotence index 1
+rank-drop replay:         8/8 PASS; localizer nilpotence index 1
+local proved total:       26/36 aligned-positive cells
+remaining fixed cells:    F04..F07 x R02/R20
+new assumptions:          none
+compute:                  official SageMath 10.9 on bounded Modal shards
 ```
