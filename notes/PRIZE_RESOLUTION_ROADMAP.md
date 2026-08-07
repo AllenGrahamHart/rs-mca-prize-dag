@@ -20311,6 +20311,48 @@ new assumptions: none
 compute: no Modal; exact polynomial division replay under 256 MB RAM guard
 next: depth-uniform prefix flatness for the ladder; BC attack only above e=ell-a
 ```
+
+### High-multiplier LS6 Pade coordinates
+
+Let `e=deg Etilde>ell-a`. For every high-multiplier LS6 candidate, exact
+Euclidean division gives
+
+```text
+D=quo_E((L_2L_3)Q),       V=-rem_E((L_2L_3)Q),
+deg Q=e-a,                lc(Q)=lc(E).
+```
+
+Core/petal disjointness transports the exact guard without loss:
+
+```text
+gcd(D,V)=1  <=>  gcd(D,Q)=1.
+```
+
+If `F` is the canonical inverse of `E` modulo `L_2L_3`, then
+`D=rem_(L_2L_3)(FV)`. On the official branch, nonemptiness forces the dual
+degree gate
+
+```text
+deg F>=ell+a.
+```
+
+Indeed, below that gate no modular reduction occurs and `D=FV`, so the
+nonconstant remainder `V` violates exactness. Thus the former generic
+high-multiplier BC branch is an exact two-sided primitive Pade cell. Its
+split maximum, quotient classification, and owner-safe dihedral transport
+remain open.
+
+```text
+starting pin: 5a68fecfd; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / high-multiplier LS6
+result: PROVED exact Pade quotient coordinates, guard transport, and inverse-degree gate
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive rational-approximation adapter
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) replay under 256 MB RAM guard
+next: count split primitive Pade quotients and classify owner-safe quotient/dihedral strata
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

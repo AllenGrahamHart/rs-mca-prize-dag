@@ -51,4 +51,14 @@ therefore genuinely non-common-pencil.
 Writing `e=deg Etilde`, the range `a<=e<=ell-a` is an exact prefix ladder:
 it is the disjoint union of `Q_0^(e-a)` ordinary prefix cells of depth
 `ell+e-1`, with effective average depth `ell+a-1` after cancellation. The
-high-multiplier range `e>ell-a` remains a genuine split-in-subspace/BC atom.
+high-multiplier range `e>ell-a` has exact Pade quotient coordinates:
+
+```text
+D=quo_E((L_2L_3)Q),       V=-rem_E((L_2L_3)Q),
+deg Q=e-a,                gcd(D,Q)=1.
+```
+
+If `F=E^(-1) mod L_2L_3`, every candidate also has
+`D=rem_(L_2L_3)(FV)` and necessarily `deg F>=ell+a`. Thus the high branch
+is a two-sided primitive rational-approximation cell, not an unstructured BC
+flat. Its split maximum and quotient/dihedral owner transport remain open.

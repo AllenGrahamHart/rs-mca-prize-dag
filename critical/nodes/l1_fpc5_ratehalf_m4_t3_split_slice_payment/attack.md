@@ -18,4 +18,8 @@
    labels are aligned or misaligned. Attack only genuinely non-pencil data.
 9. For `a<=deg Etilde<=ell-a`, use the exact prefix ladder and require a
    depth-uniform max-to-mean theorem that preserves its field/depth
-   cancellation. Treat only `deg Etilde>ell-a` as a general BC flat.
+   cancellation.
+10. For `deg Etilde>ell-a`, use the exact Pade coordinates
+    `D=quo_E(MQ)`, `V=-rem_E(MQ)`, and `gcd(D,Q)=1`. Enforce the dual gate
+    `deg(E^(-1) mod M)>=ell+a`; do not replace this primitive quotient cell by
+    every point of the ambient BC flat.

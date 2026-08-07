@@ -15,6 +15,9 @@
   aligned or misaligned, give empty atoms.
 - **Proved low-degree adapter:** `a<=deg Etilde<=ell-a` is an exact prefix
   ladder with effective average depth `ell+a-1`.
+- **Proved high-degree adapter:** `deg Etilde>ell-a` is an exact guarded Pade
+  quotient cell with `D=quo_E(MQ)`, `V=-rem_E(MQ)`, `gcd(D,Q)=1`, and
+  `deg(E^(-1) mod M)>=ell+a`.
 - **Nonclaim:** each fiber has size at most two; linear dimension implies a
   split-divisor count; an unguarded prefix-flatness theorem applies; `lambda`
   remains free after fixing the source triple; current Conjecture-F owners

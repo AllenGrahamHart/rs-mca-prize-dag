@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction",
+    "title": "High-multiplier three-petal LS6 atoms are guarded Pade quotient cells",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one LS6 atom in the high-multiplier range e=deg(Etilde)>s=ell-a, every candidate has a unique quotient Q of degree e-a with fixed leading coefficient and is exactly D=quo_E(MQ), V=-rem_E(MQ), subject to deg(V)<=s, D|L_C, and gcd(D,Q)=1. If F is the canonical inverse of E modulo M, then D=rem_M(FV); on the official a<=ell/2 branch, nonemptiness forces deg(F)>=ell+a. Thus the high range is a two-sided guarded Pade/rational-approximation cell rather than an unstructured BC flat. This is a coordinate reduction, not a split-divisor payment.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-pencil census and rational-approximation routes",
+      "relation": "EXACT_HIGH_MULTIPLIER_PADE_ADAPTER"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}
