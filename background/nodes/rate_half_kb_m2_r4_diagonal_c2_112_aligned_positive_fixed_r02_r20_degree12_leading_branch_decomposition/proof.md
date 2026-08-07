@@ -20,4 +20,14 @@ term counts are bound by the verifier.
 
 The function-field run is retained only as a fence: it converts the exact
 degrees but times out during the first remainder. It supplies no theorem.
+
+The two large-curve runs impose the printed irreducible degree-22 and
+degree-23 leading factors before any full intersection. Their exact seed
+bases and reduced-row metrics are complete, but both final Gröbner calls hit
+the 780-second cap. A second implementation pseudo-divides both rows by the
+degree-12 factor in `x`, reducing every coefficient modulo the degree-22
+curve after each cancellation. All 60 exact cancellations complete and
+give the terminal metrics in the statement; only the final intersection
+times out. These bounded execution facts are the additional proved route
+cuts. They supply no emptiness theorem.
 QED.

@@ -25,6 +25,9 @@ branchwise, followed by literal orbit replay only after a representative
 route closes. The `s=0` and both literal degree-6 degree-12 forms have already
 been replayed and closed in all eight literal fixed cells, so the live
 degree-12 frontier has `s!=0` and `L6(s,p)!=0`.
+Direct large-curve Gröbner and curve-reduced pseudo-division are now fenced
+by exact prefixes. The next source route is the PROVED parity-reduced
+evaluation identity modulo `U^2-VZ`, instantiated before expansion.
 
 The local aligned-negative and near-aligned ledgers also require a literal
 coverage audit before the branch-level theorem can return to PROVED.

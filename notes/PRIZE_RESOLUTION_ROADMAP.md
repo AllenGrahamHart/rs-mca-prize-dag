@@ -20896,3 +20896,27 @@ localizer replay:         8/8 PASS; nilpotence index 1
 literal cell closures:    none; L6!=0 degree-12 branches remain
 next:                     degree 22--24 leading curves or source cancellation
 ```
+
+### K3 degree-12 expanded-elimination fences and parity identity
+
+The `F04-R02` degree-22 and degree-23 leading curves were imposed directly.
+Their exact dimension-one seed bases have sizes 25 and 27, but row reduction
+still leaves `5783`--`6100` terms and both full intersections hit the
+780-second cap. A second exact implementation pseudo-divides in `x` while
+reducing coefficients modulo the degree-22 curve. It reaches `deg_x=5` for
+both rows, but leaves `23616` and `23484` terms with coefficient degrees
+`205` and `204`; its final intersection also times out.
+
+The replacement route is algebraic rather than computational. For any row
+`P(w)`, the cleared evaluation `V^d P(-U/V)` is congruent modulo
+`R=U^2-VZ` to the parity-reduced expression obtained by replacing
+`U^(2j)` with `(VZ)^j`. This identity is PROVED coefficientwise, uses no
+division, and bounds the surviving power of `U` by one before expansion.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED result:        parity-reduced cleared-evaluation identity
+new route fences:         direct large-curve GB; curve-pseudo final GB
+literal cell closures:    none
+next:                     checkpointed literal parity instantiation
+```

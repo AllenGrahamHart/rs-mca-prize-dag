@@ -20,6 +20,14 @@ prove exhaustive emptiness. On `R02`, three exact content-primitive
 pseudo-remainder steps lower `x`-degree only to `35,34,34` while their term
 counts grow to `40921,83811,149340`. No fixed cell is closed here.
 
+On the two `F04-R02` large leading curves, exact seed ideals are
+one-dimensional with basis sizes `25` and `27`. Reducing the two essential
+rows still leaves `5783`--`6100` terms and the full intersections time out.
+Branch-aware pseudo-division modulo the degree-22 curve does reach
+`x`-degree five, but its two remainders have `23616` and `23484` terms and
+coefficient degrees `205` and `204`; the final intersection again times out.
+These are route fences, not cell closures.
+
 ## Falsifier
 
 A leading factor with a different fingerprint, a factor classified as named,

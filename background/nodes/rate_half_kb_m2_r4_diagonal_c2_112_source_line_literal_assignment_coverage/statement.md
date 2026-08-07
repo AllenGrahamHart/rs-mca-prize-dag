@@ -64,6 +64,11 @@ Both literal forms of the irreducible degree-6 leading curve are also PROVED
 empty by eight literal localizer computations. The live degree-12 route
 therefore has both `s!=0` and `L6(s,p)!=0`; no fixed cell closes from these
 leaf exclusions.
+Direct imposition of the degree `22`--`23` curves and a second
+curve-reduced pseudo-division implementation both retain thousands of terms
+and time out at the final intersection. A separate PROVED identity now
+replaces every cleared row evaluation by a division-free parity-reduced
+representative modulo `U^2-VZ`; its literal instantiation is the live route.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

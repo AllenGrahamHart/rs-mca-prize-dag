@@ -58,6 +58,12 @@ certificates required by the challenge.
   `F05/F06` a distinct 17-term form, the full ideals have basis size `43` or
   `46`, and the localizer vanishes at factor 17. The live branch has `s!=0`
   and `L6!=0`; coverage still remains `26/36`.
+  Direct degree `22`/`23` curve intersections have exact dimension-one seed
+  bases but retain roughly 6000-term rows and time out. Curve-reduced
+  pseudo-division reaches `deg_x=5` but grows to roughly 23500 terms per
+  row. Both expanded endpoints are fenced. The new PROVED parity-reduced
+  evaluation identity replaces powers `U^(2j)` by `(VZ)^j` modulo
+  `R=U^2-VZ` before expansion and is now the preferred source route.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
