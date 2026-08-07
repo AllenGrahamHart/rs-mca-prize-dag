@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover",
+    "title": "KoalaBear degree-12 K8-zero branch cover",
+    "status": "PROVED",
+    "closure": "exhaustive K10 dichotomy on the F04-R02 K8-zero branch",
+    "statement": "Assume the live F04-R02 degree-12 branch has K8=0. If the A0 leading factor K10 is nonzero, exact A0 pseudo-remainders give degree-37 cores and the ideal (R12,K8,C_A,C_B) has a size-62 dimension-one basis whose full localizer is zero. If K10=0, the larger residual ideal (R12,K8,K10) has a size-27 dimension-one basis whose full localizer is zero. The two cases exhaust K8=0, so this branch is empty over the algebraic closure.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/degree12_k8_branch_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/degree12_k8_branch_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/modal_degree12_k8_branch_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -20989,3 +20989,26 @@ terminal replay:          5/5 linear fibers exclude the complete open chart
 literal cell closures:    none; K8=0 remains
 next:                     K8=0,K10!=0 A0 chart; then K8=K10=0 residual
 ```
+
+### K3 F04-R02 complete degree-12 branch close
+
+The `K8=0` complement also closes. On `K10!=0`, the `A0` determinant
+reduction gives irreducible degree-37 cores with `4124` and `3813` terms;
+the ideal `(R12,K8,C_A,C_B)` has a size-62 dimension-one basis and its full
+localizer reaches zero at named factor 14. On `K10=0`, the larger residual
+ideal `(R12,K8,K10)` has a size-27 dimension-one basis and reaches the same
+terminal without using the quartic rows. Both conclusions hold over the
+algebraic closure.
+
+Combining these leaves with the prior literal `s=0` and `L6=0` exclusions
+and the `B0`, `K8!=0` degree-six close exhausts the selected degree-12
+resultant branch in `F04-R02`.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed F04-R02
+new PROVED results:       complete K8=0 cover; complete degree-12 branch exclusion
+branch partition:         s; L6; K8; K10
+literal branch closure:   F04-R02 degree-12 factor fully closed
+whole-cell closure:       no; surviving cubic/degree-11 route remains
+next:                     attack the F04-R02 cubic/J11 branch or replay degree-12 cover
+```
