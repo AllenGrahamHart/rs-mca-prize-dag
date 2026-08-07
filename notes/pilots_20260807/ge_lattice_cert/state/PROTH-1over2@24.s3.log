@@ -1,0 +1,4 @@
+   FP DONE: FPNODES=13812546  FPSEC=137.1  |FPFOUND|=0
+   RESULT: CERTIFIED EMPTY -- no nonzero w in {-2..2}^64 with ||w||_1 <= 24 lies in the lattice.
+STATUS: DONE
+SHARD 3 FINISHED after 1 rounds

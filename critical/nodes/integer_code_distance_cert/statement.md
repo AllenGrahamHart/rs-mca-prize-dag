@@ -77,3 +77,36 @@ a nonzero w in the {-2..2}^h box with ||w||_1 <= 2l'):
   bb_nu_transport).
 Source: notes/pilots_20260807/ge_floor_falsifier/
 (coordinator-replayed).
+
+## Round-23 addendum (2026-08-07, coordinator-applied on replay: ge_lattice_cert + the cw_shared_target qualification)
+
+**THE LITERAL-EXHIBIT HALF OF THE STATUS RULING IS NOW SUPPLIED:**
+e1_folded_no_vector_certificate_128_payload is PROVED — a complete
+enumeration certificate with a deterministic standalone checker at
+the exact pinned field/root (2,061,127,954 nodes, EMPTY;
+fail-closed planted control at the same dimension/determinant).
+What this does NOT supply, per this node's own ruling: the
+family-uniform theorem, the narrowing of consumers to the exhibit
+field, or the value-set side. The four deployed Proth prize rows
+(167-171 bits, below the 253^32 analytic threshold) now carry
+radius-graded complete certificates to support <= 24 (12 swaps —
+four times the archimedean-free radius L = 6); their full-radius
+cells are priced at 2^60-2^63 (LLL) / 2^38-2^40 (BKZ-90) — the
+laptop-scale reclassification holds only above ~242 bits (the
+PRICE-CLIFF). The GS-FLOOR obstruction (round-23, proved) shows no
+lambda_1-floor certificate exists for ANY basis at admissible
+rows: the enumeration is irreducible, only its price moves.
+Witness-count note: the round-22 toy thresholds remain ATTAINED;
+the attaining sets are full 2h-orbits (16, not 2, at p = 463249 —
+CATCH-23A).
+
+**THE CONVERGENCE QUALIFIED (round-23 cw_shared_target):** this
+node remains the convergence point of the GE-WEAK / PROBE-1 /
+crossing-deep-stratum lanes at the OBJECT level (one functional:
+the ternary theta / weight enumerator of K_p), but the round-23
+pricing shows the crossing lane's LIVE crux (Acc_shallow +
+aperiodic S) does NOT reduce to this object — its only bridge
+loses >= 4.565e11 bits at the official row. One object, two
+targets: closing this node serves mystery 5's per-row line and
+mystery 2's terminal-adjacent form; it does NOT close the
+crossing crux.

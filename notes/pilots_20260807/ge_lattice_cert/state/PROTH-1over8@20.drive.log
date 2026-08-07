@@ -1,0 +1,59 @@
+--- round 1 ---
+== cell PROTH-1over8@20 :: EXTENSION deployed Proth row 1/8 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=169.389  2l'=20  R^2=40  problem_hash=62d7b9808dd330f6cb1fd8b3
+   LLL stage 0 (delta=3/4) DONE: swaps=4589 cum_secs=1.8
+   LLL stage 1 (delta=99/100) DONE: swaps=9433 cum_secs=3.1
+   LLL DONE: LLLSWAPS=9433 LLLSEC=3.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     9.00 8.91 9.06 9.01 8.90 8.59 8.60 8.45 8.82 8.52 8.33 8.13 8.05 7.96 7.90 7.62 7.43 7.11 7.01 7.24 6.92 6.72 6.50 6.30 6.32 6.16 5.95 5.90 5.74 5.38 5.24 5.20 4.88 4.57 4.84 4.80 4.55 4.45 4.12 4.01 4.22 4.05 3.95 3.89 3.58 3.34 3.36 3.11 2.99 2.73 2.75 2.68 2.54 2.60 2.45 2.56 2.26 2.02 2.01 1.79 1.73 1.93 1.55 1.48
+   ||b_0||^2 = 511 (||b_0|| = 22.605);  RHF = 2^0.02939 = 1.02058;  GH lambda_1 = 12.122;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 362  (R^2 = 40) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=16408576 lev=48 cum_secs=231.8 found=0
+STATUS: RUNNING
+--- round 2 ---
+== cell PROTH-1over8@20 :: EXTENSION deployed Proth row 1/8 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=169.389  2l'=20  R^2=40  problem_hash=62d7b9808dd330f6cb1fd8b3
+   LLL DONE: LLLSWAPS=9433 LLLSEC=3.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     9.00 8.91 9.06 9.01 8.90 8.59 8.60 8.45 8.82 8.52 8.33 8.13 8.05 7.96 7.90 7.62 7.43 7.11 7.01 7.24 6.92 6.72 6.50 6.30 6.32 6.16 5.95 5.90 5.74 5.38 5.24 5.20 4.88 4.57 4.84 4.80 4.55 4.45 4.12 4.01 4.22 4.05 3.95 3.89 3.58 3.34 3.36 3.11 2.99 2.73 2.75 2.68 2.54 2.60 2.45 2.56 2.26 2.02 2.01 1.79 1.73 1.93 1.55 1.48
+   ||b_0||^2 = 511 (||b_0|| = 22.605);  RHF = 2^0.02939 = 1.02058;  GH lambda_1 = 12.122;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 362  (R^2 = 40) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=39567360 lev=43 cum_secs=466.8 found=0
+STATUS: RUNNING
+--- round 3 ---
+== cell PROTH-1over8@20 :: EXTENSION deployed Proth row 1/8 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=169.389  2l'=20  R^2=40  problem_hash=62d7b9808dd330f6cb1fd8b3
+   LLL DONE: LLLSWAPS=9433 LLLSEC=3.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     9.00 8.91 9.06 9.01 8.90 8.59 8.60 8.45 8.82 8.52 8.33 8.13 8.05 7.96 7.90 7.62 7.43 7.11 7.01 7.24 6.92 6.72 6.50 6.30 6.32 6.16 5.95 5.90 5.74 5.38 5.24 5.20 4.88 4.57 4.84 4.80 4.55 4.45 4.12 4.01 4.22 4.05 3.95 3.89 3.58 3.34 3.36 3.11 2.99 2.73 2.75 2.68 2.54 2.60 2.45 2.56 2.26 2.02 2.01 1.79 1.73 1.93 1.55 1.48
+   ||b_0||^2 = 511 (||b_0|| = 22.605);  RHF = 2^0.02939 = 1.02058;  GH lambda_1 = 12.122;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 362  (R^2 = 40) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=65298433 lev=41 cum_secs=701.6 found=0
+STATUS: RUNNING
+--- round 4 ---
+== cell PROTH-1over8@20 :: EXTENSION deployed Proth row 1/8 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=169.389  2l'=20  R^2=40  problem_hash=62d7b9808dd330f6cb1fd8b3
+   LLL DONE: LLLSWAPS=9433 LLLSEC=3.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     9.00 8.91 9.06 9.01 8.90 8.59 8.60 8.45 8.82 8.52 8.33 8.13 8.05 7.96 7.90 7.62 7.43 7.11 7.01 7.24 6.92 6.72 6.50 6.30 6.32 6.16 5.95 5.90 5.74 5.38 5.24 5.20 4.88 4.57 4.84 4.80 4.55 4.45 4.12 4.01 4.22 4.05 3.95 3.89 3.58 3.34 3.36 3.11 2.99 2.73 2.75 2.68 2.54 2.60 2.45 2.56 2.26 2.02 2.01 1.79 1.73 1.93 1.55 1.48
+   ||b_0||^2 = 511 (||b_0|| = 22.605);  RHF = 2^0.02939 = 1.02058;  GH lambda_1 = 12.122;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 362  (R^2 = 40) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=106561537 lev=50 cum_secs=936.5 found=0
+STATUS: RUNNING
+--- round 5 ---
+== cell PROTH-1over8@20 :: EXTENSION deployed Proth row 1/8 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=169.389  2l'=20  R^2=40  problem_hash=62d7b9808dd330f6cb1fd8b3
+   LLL DONE: LLLSWAPS=9433 LLLSEC=3.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     9.00 8.91 9.06 9.01 8.90 8.59 8.60 8.45 8.82 8.52 8.33 8.13 8.05 7.96 7.90 7.62 7.43 7.11 7.01 7.24 6.92 6.72 6.50 6.30 6.32 6.16 5.95 5.90 5.74 5.38 5.24 5.20 4.88 4.57 4.84 4.80 4.55 4.45 4.12 4.01 4.22 4.05 3.95 3.89 3.58 3.34 3.36 3.11 2.99 2.73 2.75 2.68 2.54 2.60 2.45 2.56 2.26 2.02 2.01 1.79 1.73 1.93 1.55 1.48
+   ||b_0||^2 = 511 (||b_0|| = 22.605);  RHF = 2^0.02939 = 1.02058;  GH lambda_1 = 12.122;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 362  (R^2 = 40) -> no basis vector is inside the ball
+   FP DONE: FPNODES=111066284  FPSEC=968.1  |FPFOUND|=0
+   RESULT: CERTIFIED EMPTY -- no nonzero w in {-2..2}^64 with ||w||_1 <= 20 lies in the lattice.
+STATUS: DONE
+FINISHED after 5 rounds

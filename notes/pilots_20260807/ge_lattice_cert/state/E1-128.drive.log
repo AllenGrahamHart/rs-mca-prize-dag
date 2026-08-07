@@ -1,0 +1,55 @@
+--- round 1 ---
+== cell E1-128 :: PINNED e1_folded_no_vector_certificate_128_payload ==
+   h=64  log2 p=249.000  2l'=128  R^2=256  problem_hash=01d79ac65ac8977d4ea98a27
+   LLL DONE: LLLSWAPS=13912 LLLSEC=1.6
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     12.03 12.31 12.02 12.06 11.91 12.05 11.94 11.75 11.53 11.37 10.99 10.71 10.34 10.25 10.27 10.12 9.81 9.69 9.44 9.37 9.19 9.00 9.12 8.74 8.58 8.64 8.63 8.56 8.40 8.33 8.19 7.84 7.78 7.44 7.14 7.13 6.79 6.78 6.65 6.29 6.19 5.86 5.95 5.87 5.89 5.50 5.41 5.80 5.49 5.12 5.08 5.29 5.13 5.00 4.84 4.55 4.37 3.96 4.00 4.08 4.08 3.96 3.85 3.56
+   ||b_0||^2 = 4172 (||b_0|| = 64.591);  RHF = 2^0.03369 = 1.02363;  GH lambda_1 = 28.711;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2736  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=70991872 lev=44 cum_secs=468.3 found=0
+STATUS: RUNNING
+--- round 2 ---
+== cell E1-128 :: PINNED e1_folded_no_vector_certificate_128_payload ==
+   h=64  log2 p=249.000  2l'=128  R^2=256  problem_hash=01d79ac65ac8977d4ea98a27
+   LLL DONE: LLLSWAPS=13912 LLLSEC=1.6
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     12.03 12.31 12.02 12.06 11.91 12.05 11.94 11.75 11.53 11.37 10.99 10.71 10.34 10.25 10.27 10.12 9.81 9.69 9.44 9.37 9.19 9.00 9.12 8.74 8.58 8.64 8.63 8.56 8.40 8.33 8.19 7.84 7.78 7.44 7.14 7.13 6.79 6.78 6.65 6.29 6.19 5.86 5.95 5.87 5.89 5.50 5.41 5.80 5.49 5.12 5.08 5.29 5.13 5.00 4.84 4.55 4.37 3.96 4.00 4.08 4.08 3.96 3.85 3.56
+   ||b_0||^2 = 4172 (||b_0|| = 64.591);  RHF = 2^0.03369 = 1.02363;  GH lambda_1 = 28.711;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2736  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=112779264 lev=46 cum_secs=703.2 found=0
+STATUS: RUNNING
+--- round 3 ---
+== cell E1-128 :: PINNED e1_folded_no_vector_certificate_128_payload ==
+   h=64  log2 p=249.000  2l'=128  R^2=256  problem_hash=01d79ac65ac8977d4ea98a27
+   LLL DONE: LLLSWAPS=13912 LLLSEC=1.6
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     12.03 12.31 12.02 12.06 11.91 12.05 11.94 11.75 11.53 11.37 10.99 10.71 10.34 10.25 10.27 10.12 9.81 9.69 9.44 9.37 9.19 9.00 9.12 8.74 8.58 8.64 8.63 8.56 8.40 8.33 8.19 7.84 7.78 7.44 7.14 7.13 6.79 6.78 6.65 6.29 6.19 5.86 5.95 5.87 5.89 5.50 5.41 5.80 5.49 5.12 5.08 5.29 5.13 5.00 4.84 4.55 4.37 3.96 4.00 4.08 4.08 3.96 3.85 3.56
+   ||b_0||^2 = 4172 (||b_0|| = 64.591);  RHF = 2^0.03369 = 1.02363;  GH lambda_1 = 28.711;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2736  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=161603584 lev=42 cum_secs=938.1 found=0
+STATUS: RUNNING
+--- round 4 ---
+== cell E1-128 :: PINNED e1_folded_no_vector_certificate_128_payload ==
+   h=64  log2 p=249.000  2l'=128  R^2=256  problem_hash=01d79ac65ac8977d4ea98a27
+   LLL DONE: LLLSWAPS=13912 LLLSEC=1.6
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     12.03 12.31 12.02 12.06 11.91 12.05 11.94 11.75 11.53 11.37 10.99 10.71 10.34 10.25 10.27 10.12 9.81 9.69 9.44 9.37 9.19 9.00 9.12 8.74 8.58 8.64 8.63 8.56 8.40 8.33 8.19 7.84 7.78 7.44 7.14 7.13 6.79 6.78 6.65 6.29 6.19 5.86 5.95 5.87 5.89 5.50 5.41 5.80 5.49 5.12 5.08 5.29 5.13 5.00 4.84 4.55 4.37 3.96 4.00 4.08 4.08 3.96 3.85 3.56
+   ||b_0||^2 = 4172 (||b_0|| = 64.591);  RHF = 2^0.03369 = 1.02363;  GH lambda_1 = 28.711;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2736  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=207912960 lev=40 cum_secs=1173.1 found=0
+STATUS: RUNNING
+--- round 5 ---
+== cell E1-128 :: PINNED e1_folded_no_vector_certificate_128_payload ==
+   h=64  log2 p=249.000  2l'=128  R^2=256  problem_hash=01d79ac65ac8977d4ea98a27
+   LLL DONE: LLLSWAPS=13912 LLLSEC=1.6
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     12.03 12.31 12.02 12.06 11.91 12.05 11.94 11.75 11.53 11.37 10.99 10.71 10.34 10.25 10.27 10.12 9.81 9.69 9.44 9.37 9.19 9.00 9.12 8.74 8.58 8.64 8.63 8.56 8.40 8.33 8.19 7.84 7.78 7.44 7.14 7.13 6.79 6.78 6.65 6.29 6.19 5.86 5.95 5.87 5.89 5.50 5.41 5.80 5.49 5.12 5.08 5.29 5.13 5.00 4.84 4.55 4.37 3.96 4.00 4.08 4.08 3.96 3.85 3.56
+   ||b_0||^2 = 4172 (||b_0|| = 64.591);  RHF = 2^0.03369 = 1.02363;  GH lambda_1 = 28.711;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2736  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=246022144 lev=44 cum_secs=1408.0 found=0
+STATUS: RUNNING

@@ -66,3 +66,49 @@ The proof-logging certifier now aligns with the prize's own formal-verification-
   official rows. Cheap per row; unbounded in rows.
 Source: notes/pilots_20260807/ge_floor_falsifier/ (d3_kernel.py,
 d4_cone.py, d4_price.py — all coordinator-replayed).
+
+## Round-23 corrections + results (2026-08-07, coordinator-applied on replay: ge_lattice_cert CATCH-23A)
+
+**CATCH-23A — the round-22 enumerator was not fail-closed.** The
+round-22 d4_cone.py per-level half-width used an integer floor of a
+rational window, truncating valid points. VERDICTS SURVIVE (all
+EMPTY cells confirmed empty by exhaustive brute force AND complete
+corrected enumeration), but three banked witness COUNTS are
+superseded: (h=4, p=137): 2 -> **8**; (h=8, p=12289, full radius):
+6 -> **16**; (h=8, p=463249): 2 -> **16**. Structural confirmation
+independent of recomputation: Lambda_p is an ideal, so witness sets
+are single full <sigma, -1>-orbits of size exactly 2h — round-22's
+partial sets were not sigma-closed, hence detectably incomplete.
+The "6 witnesses at full radius" figure in the round-22 addendum
+above is superseded accordingly (the SCOPE of that catch — the
+anchor does not extend to full radius — stands, more strongly).
+
+**E1-128 CERTIFIED EMPTY (the first complete transcript).** At the
+literal pinned Pocklington field and displayed 128th root
+(e1_folded_no_vector_certificate_128_payload, now PROVED):
+complete Fincke-Pohst enumeration, 2,061,127,954 nodes, 12/12
+shards byte-identical basis, deterministic standalone checker +
+seed-reproducible planted fail-closed control at the same
+dimension/determinant. Certificate banked on that node.
+
+**PRICE-CLIFF — the round-22 reclassification scoped.** "Laptop-
+scale per row at N' = 128" holds only above ~242 bits with LLL
+(FPPRICE crosses 2^30 at log2 p = 241.8): TRUE at the 249-bit
+exhibit prime (measured 2^30.94), FALSE at the four DEPLOYED Proth
+prize rows (167-171 bits), where the same cell costs 2^60-2^63
+with LLL and 2^38-2^40 with BKZ-90. Those four rows are instead
+certified to support <= 24 (radius-graded complete enumerations,
+2^25-2^30 nodes each — 12 swaps, the radius named in this node's
+own MITM line; the archimedean-free radius there is only L = 6);
+full radius UNRESOLVED and priced.
+
+**GS-FLOOR OBSTRUCTION (proved).** The cheapest conceivable
+certificate lambda_1 >= min ||b*_i|| requires p > (2 sqrt h)^h =
+(4h)^{h/2} — EXACTLY the AM-GM norm ceiling, which at h = 64
+equals 2^256 = the spec's own field cap. Hence NO admissible
+N' = 128 prize row admits a Gram-Schmidt/lambda_1-floor
+certificate for ANY basis; reduction can cheapen the enumeration
+but can never replace it. (The PROVED 253^32 branch beats the
+ceiling by 0.544 bits — that sliver is the entire free region.)
+Source: notes/pilots_20260807/ge_lattice_cert/ (catch adjudicated
+by exhaustive brute force; all gates coordinator-replayed).

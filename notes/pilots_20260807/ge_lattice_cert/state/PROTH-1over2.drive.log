@@ -1,0 +1,57 @@
+--- round 1 ---
+== cell PROTH-1over2 :: EXTENSION deployed Proth row 1/2 ==
+   h=64  log2 p=166.503  2l'=128  R^2=256  problem_hash=9de3c56c93bddc995f5d1a55
+   LLL stage 0 (delta=3/4) DONE: swaps=4242 cum_secs=1.1
+   LLL stage 1 (delta=99/100) DONE: swaps=10822 cum_secs=2.8
+   LLL DONE: LLLSWAPS=10822 LLLSEC=2.8
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.56 8.67 8.37 8.46 8.35 8.35 8.01 8.30 8.08 8.00 7.79 7.68 7.54 7.22 6.97 6.69 6.72 6.67 6.62 6.43 6.89 6.54 6.49 6.36 6.26 5.92 5.89 5.93 5.60 5.42 5.15 5.30 5.13 4.98 4.96 4.97 4.72 4.67 4.42 4.45 4.39 4.12 4.03 3.81 3.73 3.64 3.44 3.30 3.10 3.03 2.82 2.73 2.63 2.71 2.42 2.54 2.55 2.29 2.34 2.15 1.99 1.76 1.88 2.11
+   ||b_0||^2 = 377 (||b_0|| = 19.416);  RHF = 2^0.02663 = 1.01863;  GH lambda_1 = 11.749;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 355  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=23691264 lev=39 cum_secs=232.1 found=0
+STATUS: RUNNING
+--- round 2 ---
+== cell PROTH-1over2 :: EXTENSION deployed Proth row 1/2 ==
+   h=64  log2 p=166.503  2l'=128  R^2=256  problem_hash=9de3c56c93bddc995f5d1a55
+   LLL DONE: LLLSWAPS=10822 LLLSEC=2.8
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.56 8.67 8.37 8.46 8.35 8.35 8.01 8.30 8.08 8.00 7.79 7.68 7.54 7.22 6.97 6.69 6.72 6.67 6.62 6.43 6.89 6.54 6.49 6.36 6.26 5.92 5.89 5.93 5.60 5.42 5.15 5.30 5.13 4.98 4.96 4.97 4.72 4.67 4.42 4.45 4.39 4.12 4.03 3.81 3.73 3.64 3.44 3.30 3.10 3.03 2.82 2.73 2.63 2.71 2.42 2.54 2.55 2.29 2.34 2.15 1.99 1.76 1.88 2.11
+   ||b_0||^2 = 377 (||b_0|| = 19.416);  RHF = 2^0.02663 = 1.01863;  GH lambda_1 = 11.749;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 355  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=65331200 lev=39 cum_secs=467.0 found=0
+STATUS: RUNNING
+--- round 3 ---
+== cell PROTH-1over2 :: EXTENSION deployed Proth row 1/2 ==
+   h=64  log2 p=166.503  2l'=128  R^2=256  problem_hash=9de3c56c93bddc995f5d1a55
+   LLL DONE: LLLSWAPS=10822 LLLSEC=2.8
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.56 8.67 8.37 8.46 8.35 8.35 8.01 8.30 8.08 8.00 7.79 7.68 7.54 7.22 6.97 6.69 6.72 6.67 6.62 6.43 6.89 6.54 6.49 6.36 6.26 5.92 5.89 5.93 5.60 5.42 5.15 5.30 5.13 4.98 4.96 4.97 4.72 4.67 4.42 4.45 4.39 4.12 4.03 3.81 3.73 3.64 3.44 3.30 3.10 3.03 2.82 2.73 2.63 2.71 2.42 2.54 2.55 2.29 2.34 2.15 1.99 1.76 1.88 2.11
+   ||b_0||^2 = 377 (||b_0|| = 19.416);  RHF = 2^0.02663 = 1.01863;  GH lambda_1 = 11.749;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 355  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=112590848 lev=41 cum_secs=701.9 found=0
+STATUS: RUNNING
+--- round 4 ---
+== cell PROTH-1over2 :: EXTENSION deployed Proth row 1/2 ==
+   h=64  log2 p=166.503  2l'=128  R^2=256  problem_hash=9de3c56c93bddc995f5d1a55
+   LLL DONE: LLLSWAPS=10822 LLLSEC=2.8
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.56 8.67 8.37 8.46 8.35 8.35 8.01 8.30 8.08 8.00 7.79 7.68 7.54 7.22 6.97 6.69 6.72 6.67 6.62 6.43 6.89 6.54 6.49 6.36 6.26 5.92 5.89 5.93 5.60 5.42 5.15 5.30 5.13 4.98 4.96 4.97 4.72 4.67 4.42 4.45 4.39 4.12 4.03 3.81 3.73 3.64 3.44 3.30 3.10 3.03 2.82 2.73 2.63 2.71 2.42 2.54 2.55 2.29 2.34 2.15 1.99 1.76 1.88 2.11
+   ||b_0||^2 = 377 (||b_0|| = 19.416);  RHF = 2^0.02663 = 1.01863;  GH lambda_1 = 11.749;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 355  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=156598272 lev=41 cum_secs=936.9 found=0
+STATUS: RUNNING
+--- round 5 ---
+== cell PROTH-1over2 :: EXTENSION deployed Proth row 1/2 ==
+   h=64  log2 p=166.503  2l'=128  R^2=256  problem_hash=9de3c56c93bddc995f5d1a55
+   LLL DONE: LLLSWAPS=10822 LLLSEC=2.8
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.56 8.67 8.37 8.46 8.35 8.35 8.01 8.30 8.08 8.00 7.79 7.68 7.54 7.22 6.97 6.69 6.72 6.67 6.62 6.43 6.89 6.54 6.49 6.36 6.26 5.92 5.89 5.93 5.60 5.42 5.15 5.30 5.13 4.98 4.96 4.97 4.72 4.67 4.42 4.45 4.39 4.12 4.03 3.81 3.73 3.64 3.44 3.30 3.10 3.03 2.82 2.73 2.63 2.71 2.42 2.54 2.55 2.29 2.34 2.15 1.99 1.76 1.88 2.11
+   ||b_0||^2 = 377 (||b_0|| = 19.416);  RHF = 2^0.02663 = 1.01863;  GH lambda_1 = 11.749;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 355  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=190889984 lev=36 cum_secs=1171.8 found=0
+STATUS: RUNNING

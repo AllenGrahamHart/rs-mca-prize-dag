@@ -1,0 +1,26 @@
+--- round 1 ---
+== cell CORRIDOR-128 :: EXHIBIT corridor literal prime at N'=128 ==
+   h=64  log2 p=255.900  2l'=128  R^2=256  problem_hash=9abfab410fcab8ccdd9241a9
+   LLL stage 0 (delta=3/4) DONE: swaps=7560 cum_secs=3.3
+   LLL stage 1 (delta=99/100) DONE: swaps=16561 cum_secs=6.1
+   LLL DONE: LLLSWAPS=16561 LLLSEC=6.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     11.56 11.46 11.66 11.56 11.49 11.35 11.23 11.19 10.94 11.02 10.74 10.83 10.53 10.47 10.46 10.29 9.97 9.85 9.52 9.25 9.44 9.30 9.03 8.79 8.66 8.67 8.64 8.31 8.22 8.15 8.10 8.10 7.84 7.75 7.73 7.52 7.30 7.34 7.32 7.07 7.11 7.08 6.91 6.53 6.31 6.02 6.21 6.11 5.80 5.56 5.18 5.43 5.48 5.16 5.17 5.27 5.29 5.08 5.06 4.89 4.74 4.33 4.35 4.06
+   ||b_0||^2 = 3009 (||b_0|| = 54.854);  RHF = 2^0.02824 = 1.01977;  GH lambda_1 = 30.939;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2031  (R^2 = 256) -> no basis vector is inside the ball
+   FP RUNNING: FPNODES=28876801 lev=45 cum_secs=228.7 found=0
+STATUS: RUNNING
+--- round 2 ---
+== cell CORRIDOR-128 :: EXHIBIT corridor literal prime at N'=128 ==
+   h=64  log2 p=255.900  2l'=128  R^2=256  problem_hash=9abfab410fcab8ccdd9241a9
+   LLL DONE: LLLSWAPS=16561 LLLSEC=6.1
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     11.56 11.46 11.66 11.56 11.49 11.35 11.23 11.19 10.94 11.02 10.74 10.83 10.53 10.47 10.46 10.29 9.97 9.85 9.52 9.25 9.44 9.30 9.03 8.79 8.66 8.67 8.64 8.31 8.22 8.15 8.10 8.10 7.84 7.75 7.73 7.52 7.30 7.34 7.32 7.07 7.11 7.08 6.91 6.53 6.31 6.02 6.21 6.11 5.80 5.56 5.18 5.43 5.48 5.16 5.17 5.27 5.29 5.08 5.06 4.89 4.74 4.33 4.35 4.06
+   ||b_0||^2 = 3009 (||b_0|| = 54.854);  RHF = 2^0.02824 = 1.01977;  GH lambda_1 = 30.939;  R = 16.000
+   min_i ||b_i||^2 over the reduced basis = 2031  (R^2 = 256) -> no basis vector is inside the ball
+   FP DONE: FPNODES=37383728  FPSEC=289.4  |FPFOUND|=0
+   RESULT: CERTIFIED EMPTY -- no nonzero w in {-2..2}^64 with ||w||_1 <= 128 lies in the lattice.
+STATUS: DONE
+FINISHED after 2 rounds
