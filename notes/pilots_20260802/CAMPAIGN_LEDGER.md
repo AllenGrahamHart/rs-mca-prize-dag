@@ -2521,3 +2521,47 @@ MUST pass this quarantine clause to any subagent they dispatch.
 - MERGE HELD until all four round-22 pilots report: the wave
   restructures l1_mixed_petal_amplification (read by l1_ell_sweep)
   and touches f2_z1_mass_knife_edge (read by f2_rlocality).
+
+## 2026-08-07: round-22 agent 1 BANKED — bb_nu_transport: the FIRST accident upper bound of record (p-free, prime-row-reaching) + the M-route anti-transport PROVED
+
+- **bb_nu_transport (Opus) BANKED, MAINTAINER-LEVEL** (1550/0
+  replayed; fail-closed exits 1). (1) ANATOMY: BB's nine steps
+  graded; registered 6-transport/3-fail split HELD EXACTLY, and the
+  three failures (SM(1) concentration, THEOREM AC Cauchy-Schwarz,
+  max>=mean pigeonhole) carry ALL of BB's quantitative power —
+  concentration is the SOURCE of the accident problem, not a tool
+  against it. (2) **PROPOSITION U2** (from the surviving
+  scaffolding, BB-1+BB-2 only): Acc_deep <= M(2L,L-2) =
+  (C(2L,L-2)+C(L,(L-2)/2))/(2L) — unconditional, p-FREE, exact
+  Ramanathan/Lehmer gcd=2 closed form; at the witness row
+  2^117.0820 vs B* = 2^127.5098 (+10.4278 bits, exact integers),
+  below B* throughout v in [35,39], vacuous at v=34 (consistent
+  with BB's proved break). Being p-free it reaches the e=1 PRIME
+  rows BB provably cannot: coverage 8.64% (v=35) -> 99.67% (v=39)
+  of the live prime window. Novelty honestly LOW (subtraction done:
+  gamma_shell's banked gcd=1 structural count is the coprime case);
+  value: the repo recorded "no upper bound on the shell population
+  anywhere" three times. Consistency: brackets gamma_shell's proved
+  floor at +1.436 bits (P6.6 HELD). 17 toy cells, three independent
+  counters; measured U2 loss tracks Q=p (exactly the discarded
+  relation). (3) **THEOREM AT (anti-transport), threshold exactly
+  3**: RHS <= (3/2)N - N^2/(2Y); occupancy concentration kappa >= 3
+  forces nu(A) <= 0; BB's deep-stratum kappa is 2^33 — shell
+  concentration DESTROYS the M-route functional. The round-21 lead
+  REVERSED: the M route needs a proved ANTI-concentration
+  certificate (C_t(A) enters with a MINUS sign; E[N(A)] sees only
+  |A|). Addendum applied to averaged_slope_conversion (wave-safe).
+  (4) CRUX RELOCATED: X_w <= S(v) + Acc_deep + Acc_shallow now has
+  two of three terms supplied; crux = Acc_shallow + aperiodic S =
+  constant-weight BCH_w population cap in a prescribed sig class
+  (LEMMA Y/MW equality at w <= p); the sharp deep route is gated by
+  integer_code_distance_cert's min-l1 instrument — the THIRD lane
+  converging on that one missing instrument (after GE-WEAK and
+  PROBE-1). (5) Catches: T1 (gamma_shell prose ambiguity, artifact
+  correct, note filed), T2 (0.067-bit near-collision flag), T3
+  (pilot's own float bug, self-caught). The pilot's OWN P6.3
+  falsifier prediction was falsified and it refused the upgrade
+  (U3 stays heuristic, unused) — exemplary. DEFERRED: the U2
+  addendum on rate_half_list_adjacent_crossing lands post-merge in
+  the wave-48 sectioned schema.
+- Awaiting: l1_ell_sweep, ge_floor_falsifier, f2_rlocality.

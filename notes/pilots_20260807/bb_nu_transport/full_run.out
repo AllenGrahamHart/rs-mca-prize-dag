@@ -1,0 +1,149 @@
+== stage mfun: closed form for M(N,m), N = 2L, m = L-2 ==
+   L=  4 N=  8 m=  2  even/shell=3                      odd/shell=4                      M=2^2.0000  C(N,m)=2^4.8074
+   L=  8 N= 16 m=  6  even/shell=497                    odd/shell=504                    M=2^8.9773  C(N,m)=2^12.9672
+   L= 16 N= 32 m= 14  even/shell=14732005               odd/shell=14732720               M=2^23.8125  C(N,m)=2^28.8125
+   L= 32 N= 64 m= 30  even/shell=25317000155697261      odd/shell=25317000173376096      M=2^54.4910  C(N,m)=2^60.4910
+   L= 64 N=128 m= 62  even/shell=175865058349821587464734435984930813 odd/shell=175865058349821587492501468423454912 M=2^117.0820  C(N,m)=2^124.0820
+
+== stage census: exhaustive deep-stratum shell profiles ==
+   functionals: Xdeep(g), Sstruct(g), A_deep(g)=Xdeep-Sstruct,
+   Amax, Xmax, N_acc, Occ, R2=Amax*2L/N_acc, R3=Amax*L/N_acc
+
+  CELL-A  L=4  n_a=2L=8  r'_a=2   (n,w)=(32,8) m=5 v=3 a=2
+   C(2L,L-2)=28   M(2L,L-2)=4   |W^struct|=4  struct/shell=1
+   p      N_acc      Amax     Xmax     Occ    parities CS?      R2      R3      U3
+   17     0          0        1        0      e0  /o0   vac        n/a     n/a   ok         U2slack=4.00 (p=17)
+   41     0          0        1        0      e0  /o0   vac        n/a     n/a   ok         U2slack=4.00 (p=41)
+   73     0          0        1        0      e0  /o0   vac        n/a     n/a   ok         U2slack=4.00 (p=73)
+   89     0          0        1        0      e0  /o0   vac        n/a     n/a   ok         U2slack=4.00 (p=89)
+   97     0          0        1        0      e0  /o0   vac        n/a     n/a   ok         U2slack=4.00 (p=97)
+
+  CELL-B  L=8  n_a=2L=16  r'_a=6   (n,w)=(64,8) m=6 v=3 a=2
+   C(2L,L-2)=8008   M(2L,L-2)=504   |W^struct|=56  struct/shell=7
+   p      N_acc      Amax     Xmax     Occ    parities CS?      R2      R3      U3
+   17     416        30       30       16     e8  /o8   YES      1.1538  0.5769  ok         U2slack=16.80 (p=17)
+   97     80         8        9        16     e8  /o8   vac      1.6000  0.8000  ok         U2slack=56.00 (p=97)
+   113    16         2        7        8      e0  /o8   vac      2.0000  1.0000  ok         U2slack=72.00 (p=113)
+   193    16         2        9        8      e8  /o0   vac      2.0000  1.0000  ok         U2slack=56.00 (p=193)
+   241    0          0        7        0      e0  /o0   vac        n/a     n/a   ok         U2slack=72.00 (p=241)
+
+  CELL-C  L=16  n_a=2L=32  r'_a=14   (n,w)=(64,4) m=6 v=2 a=1
+   C(2L,L-2)=471435600   M(2L,L-2)=14732720   |W^struct|=11440  struct/shell=715
+   p      N_acc      Amax     Xmax     Occ    parities CS?      R2      R3      U3
+   97     4848608    151930   151930   32     e16 /o16  YES      1.0027  0.5014  ok         U2slack=96.97 (p=97)
+   193    2432064    76308    76411    32     e16 /o16  YES      1.0040  0.5020  ok         U2slack=192.81 (p=193)
+   257    1823616    57366    57366    32     e16 /o16  YES      1.0066  0.5033  ok         U2slack=256.82 (p=257)
+   353    1332800    41876    42139    32     e16 /o16  YES      1.0054  0.5027  ok         U2slack=349.62 (p=353)
+   449    1042272    32888    32969    32     e16 /o16  YES      1.0097  0.5049  ok         U2slack=446.87 (p=449)
+   577    808256     25620    25620    32     e16 /o16  YES      1.0143  0.5072  ok         U2slack=575.05 (p=577)
+   641    744128     23962    24677    32     e16 /o16  YES      1.0304  0.5152  ok         U2slack=597.02 (p=641)
+
+  (U3) Amax <= N_acc/L :  0 falsifying cells
+  worst R3 = 1 = 1.0000 at CELL-B L=8 p=113 (Amax=2, N_acc=16)
+
+== stage relations: independent re-verification of LEMMA TC (BB-6) ==
+   and the minimum ternary support U_min of the relation lattice
+
+  CELL-A  L=4  2L=8  r'_a=2
+   p      #relns    U_min    3^L/p    sum fibres   N_acc(TC)    N_acc(census)
+   17     1         None     4.8      28           0            0
+   41     1         None     2.0      28           0            0
+   73     1         None     1.1      28           0            0
+   89     1         None     0.9      28           0            0
+   97     1         None     0.8      28           0            0
+
+  CELL-B  L=8  2L=16  r'_a=6
+   p      #relns    U_min    3^L/p    sum fibres   N_acc(TC)    N_acc(census)
+   17     385       3        385.9    8008         416          416
+   97     65        4        67.6     8008         80           80
+   113    65        5        58.1     8008         16           16
+   193    33        5        34.0     8008         16           16
+   241    17        5        27.2     8008         0            0
+
+  CELL-C  L=16  2L=32  r'_a=14
+   p      #relns    U_min    3^L/p    sum fibres   N_acc(TC)    N_acc(census)
+   97     443777    3        443780.6 471435600    4848608      4848608
+   193    223041    3        223040.0 471435600    2432064      2432064
+   257    164481    3        167497.0 471435600    1823616      1823616
+   353    121953    3        121945.4 471435600    1332800      1332800
+   449    96001     3        95872.4  471435600    1042272      1042272
+   577    74625     4        74604.4  471435600    808256       808256
+   641    67457     4        67155.6  471435600    744128       744128
+
+   NOTE: an UPPER bound on #relns by weight is precisely what an
+   Acc_deep upper bound needs beyond (U2); U_min is the ternary
+   minimum-distance quantity that would supply it.
+
+== stage dict: cross-check vs gamma_shell banked toy claims ==
+   L=8 p=193   N_acc=16    acc-shells=8 (even 8 / odd 0)  total-shells=8
+   L=8 p=257   N_acc=0     acc-shells=0 (even 0 / odd 0)  total-shells=8
+   L=8 p=449   N_acc=0     acc-shells=0 (even 0 / odd 0)  total-shells=8
+   L=8 p=577   N_acc=16    acc-shells=8 (even 0 / odd 8)  total-shells=16
+   L=8 p=641   N_acc=0     acc-shells=0 (even 0 / odd 0)  total-shells=8
+   L=16 p=97   N_acc=4848608  Occ=32
+   L=16 p=193  N_acc=2432064  Occ=32
+   L=16 p=257  N_acc=1823616  Occ=32
+   L=16 p=353  N_acc=1332800  Occ=32
+   L=16 p=449  N_acc=1042272  Occ=32
+
+== stage prize: DSA witness row, exact integers ==
+   p = 6597069766657   log2 p = 42.5850
+   q = p^6, log2 q = 255.509775      B* = 242251802232021244567343686397347233808  (log2 = 127.5098)
+
+   v    L     2L    r'_a   S(v)=struct/shell   C(2L,r'_a)   M(2L,r'_a)   U2 vs B*
+   34   128   256   126    2^117.1491          2^251.6279   2^243.6279   above B*  (VACUOUS)
+   35   64    128   62     2^54.6242           2^124.0820   2^117.0820   BELOW B*
+   36   32    64    30     2^24.0755           2^60.4910    2^54.4910    BELOW B*
+   37   16    32    14     2^9.4818            2^28.8125    2^23.8125    BELOW B*
+   38   8     16    6      2^2.8074            2^12.9672    2^8.9773     BELOW B*
+   39   4     8     2      2^0.0000            2^4.8074     2^2.0000     BELOW B*
+
+   -- the registered margins at v = 35 --
+      C(128,62)  = 22510727468777163197263097882136686400
+      M(128,62)  = 175865058349821587492501468423454912
+      B*         = 242251802232021244567343686397347233808
+      log2 C(128,62) = 124.0820   margin vs B* = +3.4278 bits
+      log2 M(128,62) = 117.0820   margin vs B* = +10.4278 bits
+      log2 M(128,62) - log2 p = 74.4970   vs banked PROVED max-shell lower bound 73.061  (gap +1.4360)
+
+   -- CATCH-T2: a dangerous 0.067-bit numerical collision --
+      banked  S(34)      = C(128,63)/128 = 184239584937908329739504521356773475  (2^117.1491)
+      new     M(128,62)  =                 175865058349821587492501468423454912  (2^117.0820)
+      banked  |W^struct| = C(128,63)     = 23582666872052266206656578733667004800  (2^124.1491)
+      new     C(128,62)  =                 22510727468777163197263097882136686400  (2^124.0820)
+      C(128,63)/C(128,62) = 66/63 exactly -> 0.0671 bits apart.
+      They are different objects at different v: S(34) is the
+      STRUCTURAL per-shell count at v=34; M(128,62) is the
+      UNCONDITIONED shell cap at v=35.  Do not conflate.
+
+   -- row region of (U2): it is p-INDEPENDENT --
+      (U2) certifies the deep stratum at w=2^v on every row with
+      B* >= M(2L,r'_a), i.e. q >= 2^128 * M.  Prime rows e=1 have
+      q = p and live range log2 p in [129.5849625, 256) (B* >= 3).
+      v    log2 M         min log2 q     share of live prime window
+      34   243.6279       371.6279       0.00%
+      35   117.0820       245.0820       8.64%
+      36   54.4910        182.4910       58.15%
+      37   23.8125        151.8125       82.42%
+      38   8.9773         136.9773       94.15%
+      39   2.0000         130.0000       99.67%
+
+== stage nu: THEOREM AT -- the occupancy anti-transport ==
+   functional: RHS(A) := N - (1/2) sum_z X_z(X_z-1), the exact
+   right-hand side of averaged_slope_conversion (nu(A) = E[RHS]).
+   exhaustive over all occupancy vectors with N <= 14
+   largest concentration ratio N/Y admitting RHS > 0 : 14/5 = 2.8000
+   uniform kappa=2  (N=12, Y=6): RHS = 6
+   uniform kappa=3  (N=12, Y=4): RHS = 0
+   uniform kappa=4  (N=12, Y=3): RHS = -6
+   uniform kappa=6  (N=12, Y=2): RHS = -18
+
+   BB's deep-stratum concentration factor is 2^33 (256 shells of
+   2^41).  kappa = 2^33 gives RHS = N(3 - 2^33)/2 < 0 for every
+   N >= 1: the M-route's occupancy functional is DESTROYED, not
+   supplied, by shell concentration.
+   E[N(A)] = |A|(1-q^{-t})q^{1-t} depends on A only through |A|;
+   C_t(A) >= 0 enters nu with a MINUS sign.  Hence structure can
+   only LOWER nu(A) below the |A|-only ceiling.
+
+TOTAL CHECKS 1550   FAILURES 0

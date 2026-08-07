@@ -1,0 +1,4 @@
+== stage failclosed: negative control ==
+    FAIL: deliberate false check
+
+TOTAL CHECKS 1   FAILURES 1
