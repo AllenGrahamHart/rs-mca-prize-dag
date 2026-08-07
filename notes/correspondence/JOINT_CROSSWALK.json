@@ -1103,6 +1103,25 @@
    }
   },
   {
+   "our_node": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact eight-factor pair-Heron norm router for the local WCL (1,6) terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no Heron factor has been excluded at the official characteristic gate",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "c43b94709",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "dli_wcl_slot_1_7_emptiness",
    "his_object": null,
    "relation": "OURS_ONLY",

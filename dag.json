@@ -13967,7 +13967,7 @@
    "refs": [
     "critical/nodes/dli_wcl_slot_1_6_emptiness/statement.md"
    ],
-   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. The exact unsigned sign-product router aggregates the 32 sign lifts into 11,650,060 affine-Galois orbits in two product-parity sectors, but compatible aggregate-prime control remains open. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. The exact unsigned sign-product router aggregates the 32 sign lifts into 11,650,060 affine-Galois orbits in two product-parity sectors. Its pair-Heron refinement factors each sign product into eight explicit six-term conjugates, but compatible prime control remains open. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   {
    "id": "dli_wcl_slot_2_7_emptiness",
@@ -28213,6 +28213,24 @@
     "experiments/prize_resolution/dli_wcl_ell1_weight6_psi6_formula_result.json",
     "notes/pilots_20260806/wcl16_unsigned_router/PREREG.md",
     "notes/pilots_20260806/wcl16_psi6/PREREG.md"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "title": "WCL ell=1 weight-6 pair-Heron norm router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For any pairing of six square roots, the 32-factor unsigned sign product Psi_6 is the product of eight explicit Heron factors H(U,V,W)=U^2+V^2+W^2-2UV-2UW-2VW. Equivalently Psi_6 is the norm of this six-term polynomial through three independent quadratic pair-product extensions. Each Heron factor owns exactly four global-sign classes, so the eight factors preserve the exact union of supporting rational primes. No official prime exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/statement.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/proof.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/claim_contract.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/audit.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/result.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/lineage.md",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify.py",
+    "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify_audit.py"
    ]
   },
   {
@@ -54115,6 +54133,16 @@
   },
   {
    "from": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+   "to": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_pair_heron_norm_router",
    "to": "dli_wcl_slot_1_6_emptiness",
    "kind": "ev"
   },

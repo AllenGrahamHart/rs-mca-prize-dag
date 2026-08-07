@@ -20,4 +20,6 @@ Structural router: aggregating the 32 sign lifts of each six-subset of
 their norm-prime supports. The affine-Galois quotient has `11,650,060`
 unsigned orbits, split into `6,025,357` even-product and `5,624,703`
 odd-product sectors. Aggregate factor control at the official gate remains
-open, so this also leaves the node `TARGET`.
+open. The pair-Heron refinement factors each aggregate into eight explicit
+six-term conjugates, each owning four sign classes; prime control of those
+factors remains open, so this also leaves the node `TARGET`.
