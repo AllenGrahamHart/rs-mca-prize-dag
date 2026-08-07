@@ -63,7 +63,11 @@ certificates required by the challenge.
   pseudo-division reaches `deg_x=5` but grows to roughly 23500 terms per
   row. Both expanded endpoints are fenced. The new PROVED parity-reduced
   evaluation identity replaces powers `U^(2j)` by `(VZ)^j` modulo
-  `R=U^2-VZ` before expansion and is now the preferred source route.
+  `R=U^2-VZ` before expansion and supplies a possible block-level route.
+  Its metrics-only literal replay shows that expansion retains `52257` and
+  `49848` terms, almost the entire direct rows. The expanded parity endpoint
+  is therefore also fenced; only a block-level factorization or syzygy is
+  authorized next.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

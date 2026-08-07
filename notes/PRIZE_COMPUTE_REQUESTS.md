@@ -11939,7 +11939,7 @@ pseudo-division run lowered both rows to `x`-degree five but grew them to
 `23616` and `23484` terms before the final timeout. These endpoints are
 fenced in the degree-12 decomposition node.
 
-**Requested route.** Instantiate the PROVED parity identity
+**Tested route.** Instantiate the PROVED parity identity
 
 ```text
 V^d P(-U/V) =
@@ -11947,10 +11947,11 @@ V^d P(-U/V) =
   - sum_j a_(2j+1) U V^(d-j-1) Z^j       mod U^2-VZ
 ```
 
-for the two literal remaining rows before expanding `U,V,Z`. Phase one must
-serialize the two reduced representatives and exact hashes; phase two must
-verify the congruences; only phase three may attempt factorization or a final
-intersection. Each completed phase must survive a later preemption.
+for the two literal remaining rows before expanding `U,V,Z`. The bounded
+metrics-only phase completed in app `ap-jVjceB5Npmz4Rm1xlGdJWm` in `51.64`
+seconds at about `0.42 GB` peak child RSS. The direct rows have `52336` and
+`49949` terms; the parity representatives still have `52257` and `49848`.
+Their exact hashes are bound by the parity-identity verifier.
 
 **Custody and ceiling.** The uncheckpointed prototype is
 `degree12_parity_reduced_evaluation_probe_modal.py`. App
@@ -11958,5 +11959,7 @@ intersection. Each completed phase must survive a later preemption.
 aborted, producing no mathematical packet. A rerun is authorized only after
 adding durable phase checkpoints. Use one four-CPU/16-GiB container, a
 15-minute hard cap per phase, partial output on timeout, and a total requested
-resource cost below `$1` for the representative. Do not replay other cells
-until the representative either compresses materially or closes.
+resource cost below `$1` for the representative. The representative does not
+compress materially, so phase two and other-cell replay are not authorized.
+Any successor must first exhibit a block-level factorization or syzygy while
+`U,V,Z` remain unexpanded.

@@ -20912,11 +20912,15 @@ The replacement route is algebraic rather than computational. For any row
 `R=U^2-VZ` to the parity-reduced expression obtained by replacing
 `U^(2j)` with `(VZ)^j`. This identity is PROVED coefficientwise, uses no
 division, and bounds the surviving power of `U` by one before expansion.
+The metrics-only literal instantiation completed in 52 seconds, but the two
+expanded representatives still contain `52257` and `49848` terms versus
+`52336` and `49949` directly. Thus the identity is not an expanded
+compression; it must be used with `U,V,Z` kept as symbolic blocks.
 
 ```text
 lane:                     MCA / K3 / fixed degree-12 source reduction
 new PROVED result:        parity-reduced cleared-evaluation identity
 new route fences:         direct large-curve GB; curve-pseudo final GB
 literal cell closures:    none
-next:                     checkpointed literal parity instantiation
+next:                     block-level U,V,Z factorization or syzygy
 ```

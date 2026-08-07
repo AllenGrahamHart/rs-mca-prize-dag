@@ -29559,7 +29559,8 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/result.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/verify.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe.sage",
-    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe_modal.py"
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_parity_metrics_output.json"
    ]
   },
   {

@@ -34,6 +34,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cell", default="F04-R02")
     parser.add_argument("--prime", type=int, default=2130706433)
+    parser.add_argument("--stop-after-parity", action="store_true")
     args = parser.parse_args()
     print(canonical_json({"phase": "START", "cell": args.cell}), flush=True)
 
@@ -70,6 +71,7 @@ def main():
 
     parity = [parity_clear(row) for row in remaining_rows]
     direct = [branch["equations"]["E2"], branch["equations"]["E3"]]
+    parity_metrics = [metric(value, (x, s, p)) for value in parity]
     print(
         canonical_json(
             {
@@ -79,11 +81,24 @@ def main():
                     for name, value in (("U", U), ("V", V), ("Z", Z), ("R", R))
                 },
                 "direct": [metric(value, (x, s, p)) for value in direct],
-                "parity": [metric(value, (x, s, p)) for value in parity],
+                "parity": parity_metrics,
             }
         ),
         flush=True,
     )
+    if args.stop_after_parity:
+        print(
+            canonical_json(
+                {
+                    "phase": "DONE",
+                    "cell": args.cell,
+                    "parity": parity_metrics,
+                    "terminal": "DEGREE12_PARITY_REPRESENTATIVES_COMPILED",
+                }
+            ),
+            flush=True,
+        )
+        return
 
     print(canonical_json({"phase": "CONGRUENCE_BEGIN"}), flush=True)
     congruence_remainders = [base(direct[index] - parity[index]).reduce([R]) for index in range(2)]

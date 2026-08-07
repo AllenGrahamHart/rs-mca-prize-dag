@@ -10,7 +10,7 @@ from pathlib import Path
 import modal
 
 
-MODE = os.environ.get("DEGREE12_PARITY_MODE", "f04_r02")
+MODE = os.environ.get("DEGREE12_PARITY_MODE", "metrics")
 APP_NAME = f"rs-mca-k3-degree12-parity-{MODE}"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
@@ -22,9 +22,9 @@ BALANCED = (
 LIBRARY = BALANCED / "branch_core.sage"
 SCRIPT = HERE / "degree12_parity_reduced_evaluation_probe.sage"
 OUTPUT = HERE / f"modal_degree12_parity_{MODE}_output.json"
-if MODE != "f04_r02":
+if MODE not in ("metrics", "f04_r02"):
     raise ValueError(f"unsupported mode: {MODE}")
-CASES = ({"cell": "F04-R02"},)
+CASES = ({"cell": "F04-R02", "stop_after_parity": MODE == "metrics"},)
 
 app = modal.App(APP_NAME)
 image = (
@@ -56,6 +56,8 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
     os.makedirs(environment["HOME"], exist_ok=True)
     began = time.monotonic()
     command = ["sage", "/degree12_parity_reduced_evaluation_probe.sage", "--cell", str(case["cell"])]
+    if case["stop_after_parity"]:
+        command.append("--stop-after-parity")
     try:
         completed = subprocess.run(
             command,

@@ -68,7 +68,9 @@ Direct imposition of the degree `22`--`23` curves and a second
 curve-reduced pseudo-division implementation both retain thousands of terms
 and time out at the final intersection. A separate PROVED identity now
 replaces every cleared row evaluation by a division-free parity-reduced
-representative modulo `U^2-VZ`; its literal instantiation is the live route.
+representative modulo `U^2-VZ`. Literal expansion retains `52257` and
+`49848` terms, so the identity is viable only before expansion, inside a
+new block-level factorization or syzygy.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

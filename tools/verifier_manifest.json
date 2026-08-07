@@ -4732,7 +4732,7 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1.py": "59321e32898442c1b11def4630b42032b22e51c54b5bfbbec5c34f4f3a467e5b",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_left1_right1.py": "2e0a248f792f47f80f75d36dae4d47b2d0019aef52f48c67ef8419937c25aa83",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions/verify_swap_right1.py": "4f799ce33cddfbd4cc3d99b8c97f21eccfecfb19b9d8f7181ca3de88c52da360",
-    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/verify.py": "d60f6f236724b2b6afff13c773e70140b6a725605b8748d17756b0ccbcb2c4a4",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/verify.py": "be686878e62dd4fcca6ab581a7e5761700bf7e89264c2f406d8124299eed4c0d",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify.py": "d6075ba0b1ad70129116bc6fc3eb3256eb01ad95e438a832b17577ce44f4d95c",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair/verify_audit.py": "ce895d8b0a74e021882cb830aa5980685aa53feb715b82097ac638ac8bb8261d",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier/verify.py": "91078c313d8f44ecf5df0690648d7c0d6169d184884e10214f54a740b6551591",
