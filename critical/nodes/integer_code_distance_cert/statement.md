@@ -47,3 +47,33 @@ high-field branch (p > 253^32) covers 5.02% of the e = 1 prime-row
 log-window; the four pinned Proth exhibits sit 84.5-88.5 bits below
 it. This node remains the genuine open content of the (re-posed)
 mystery-5/kernel-lattice line.
+
+## Round-22 addendum (2026-08-07, coordinator-applied on replay): exact fold-reduction thresholds — universal at toy scale; the residue is row-unboundedness, not per-row cost
+
+The round-22 ge_floor_falsifier pilot made the certification
+threshold EXACT and UNIVERSAL via the fold reduction (K_p has a
+non-cyclotomic ternary vector of support <= 2l' iff p | Norm(w) for
+a nonzero w in the {-2..2}^h box with ||w||_1 <= 2l'):
+
+- **THEOREM (toy, PROVED-exhaustive):** for every p = 1 mod 16
+  above 463249 (full radius) or above 4049 (radius 6), K_p is
+  empty of non-cyclotomic ternary vectors; both thresholds
+  ATTAINED. For N' = 8: threshold 137. The norm-instrument family
+  cannot reach the prize rows: MAXNORM's plausible sharpening
+  (base 4(h-1), weakly supported and false at h = 2) gives
+  2^255.27 at h = 64 vs the needed 2^250 (base 224.6), and
+  TIGHTEMPTY sits within 0.41 bits of MAXNORM at h = 8 — no
+  which-primes refinement rescues it. The smallest new theorem is
+  a certified lambda1 lower bound on the folded kernel lattice,
+  priced in the round-22 lattice_cone_certificate addendum
+  (laptop-scale per row at N' = 128).
+- This node's "no hidden finite registry of official row primes"
+  clause is CONFIRMED as the binding residue: the bad primes run
+  up to the threshold with no gap. Per-row certification is cheap;
+  the universal form (this node) remains the open content — now
+  the CONVERGENCE POINT of three lanes (mystery 5's GE-WEAK,
+  round-21 PROBE 1's ell-condition system, and the crossing safe
+  side's ternary relation-set weight enumerator, round-22
+  bb_nu_transport).
+Source: notes/pilots_20260807/ge_floor_falsifier/
+(coordinator-replayed).

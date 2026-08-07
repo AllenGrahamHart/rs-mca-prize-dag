@@ -2565,3 +2565,53 @@ MUST pass this quarantine clause to any subagent they dispatch.
   addendum on rate_half_list_adjacent_crossing lands post-merge in
   the wave-48 sectioned schema.
 - Awaiting: l1_ell_sweep, ge_floor_falsifier, f2_rlocality.
+
+## 2026-08-07: round-22 agent 2 BANKED — ge_floor_falsifier: FLOOR-GE survives, its route-block DIES (exhaustive witness), PRICE-GE measured at the prize cell, and GE-WEAK per-row repriced by ~20 ORDERS
+
+- **ge_floor_falsifier (Opus) BANKED, MAINTAINER-LEVEL** (selftest
+  PASS; escape curve 9/9/17/17/17/17 exact; threshold tables and
+  C-4 anchor replay exact; TIGHTEMPTY boundary witnesses Norm = p).
+  (1) FLOOR-GE (k=0) SURVIVES: L_2adic = N'+1 PROVED-exhaustive at
+  N'=8,16, independent implementation; its registered falsifier
+  exhausted EMPTY. One odd ideal buys NOTHING (L_1 = L_0 — stronger
+  than registered; H3 falsified honestly). (2) THE ROUTE-BLOCK
+  DIES: L_2(8) = 2N'+1 = 17 > 9, exhaustive in centers AND ideal
+  subsets, witness {0} u {+-1}^4 over both primes above 3 —
+  FLOOR-GE must never be quoted as a cap once odd-prime bases are
+  allowed. (3) PRICE-GE (floor of record, falsifier registered):
+  ideal cost quadratic in orbit count; AT N'=128: 257 centers/140
+  ideals (1.83/ideal) falling to 385/457 (0.84); the consumer's
+  2^89 centers price at 2^88-2^170 ideals vs poly(128) — an
+  82-163-bit ceiling, NORM-CLASS-FREE. Mystery 5's (a)-route dead
+  without the round-21 caveat. (4) GE-WEAK (b) REPRICED ~20
+  ORDERS: the folded kernel lattice is dim h=64 (not 128), det p,
+  R/lambda1 = 0.551 at the prize cell — complete Fincke-Pohst
+  emptiness certification = 2^27.4 nodes LLL-only (validated vs
+  exhaustive brute force at h=4,8, deciding BOTH directions,
+  10^3-10^4x); banked 2^188.2/Modal-scale figure corrected (its
+  weight-split model valid only below w=28). lambda1>16 honestly
+  labelled a REDISCOVERY of PRO_W3 prior art (subtraction done by
+  the pilot itself); PRO_W3's "do not attempt" confirmed correct
+  for N'=256/dim-128 and DISTINGUISHED from the prize cell.
+  (5) UNIVERSAL toy thresholds (fold reduction made exact): every
+  p = 1 mod 16 above 463249 (full radius) / 4049 (radius 6) has
+  empty non-cyclotomic ternary kernel — the banked C-4 anchor
+  generalized from one pinned prime to a congruence class, PLUS
+  the scope catch: the SAME anchor prime p=12289 has 6 witnesses
+  at FULL radius (consumers must respect the radius scope).
+  (6) CATCH-1 forced correction on kernel_lattice_reframing: the
+  ~2^-50 expected-hits is multiplicity-inflated 54.3 bits
+  (existence 2^-101.4; 5^64 folded classes) — round-21's collision
+  defect class, safer direction, applied. (7) Honest ledger: H4,
+  H5 falsified (norm base pattern false at h=2, unconfirmed h=16;
+  TIGHTEMPTY hugs MAXNORM within 0.41 bits — no norm-family
+  threshold reaches prize rows, STRUCTURAL); two runs died on the
+  ramguard wall with no verdict, reported; first cost functional
+  5x loose, self-caught, superseded with headers. Addenda applied:
+  generator_economy, kernel_lattice_reframing,
+  lattice_cone_certificate, integer_code_distance_cert (all four
+  byte-identical master-vs-v12 — merge-safe), + REPOSE_DRAFT D4
+  superseded note. NEXT-MOVE CANDIDATE: execute the dim-64
+  enumeration and certify pinned prize rows — mystery 5's first
+  executable positive step.
+- Awaiting: l1_ell_sweep, f2_rlocality.

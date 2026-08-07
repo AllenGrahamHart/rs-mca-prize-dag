@@ -63,3 +63,40 @@ E12 (#203): EARLY-CAP signal — the cyclic germ lifts to ell-sum orbits (8/16 t
    crossing/sparsity instances; the banked folded-box norm
    instrument misses the row by 5.456 bits of log2 p (0.0426 in
    tau). See notes/pilots_20260807/gen_economy_diag/.
+
+## Round-22 addendum (2026-08-07, coordinator-applied on replay): FLOOR-GE survives; its route-blocking corollary DIES; PRICE-GE is the floor of record
+
+Round-22 falsifier search (notes/pilots_20260807/ge_floor_falsifier/,
+coordinator-replayed: selftest PASS, the escape curve and both
+threshold tables exact):
+
+- **FLOOR-GE (k = 0) SURVIVES**: L_2adic(N') = N'+1 reproduced
+  PROVED-exhaustive at N' = 8, 16 by an implementation independent
+  of round 21's; the registered falsifier exhausted EMPTY there.
+- **The route-blocking corollary DIES**: two odd prime ideals (both
+  primes above 3) certify 2N'+1 = 17 > 9 centers at N' = 8 —
+  exhaustive in centers AND in all ideal subsets; witness
+  {0} u {+-1}^4. One odd ideal buys NOTHING (L_1 = L_0 = 9, a
+  stronger floor than registered). N'+1 is NOT a cap once
+  odd-prime-norm bases are allowed; FLOOR-GE must never be quoted
+  as one.
+- **PRICE-GE (the replacement floor, measured AT the prize cell)**:
+  certified-family cost in odd prime ideals grows quadratically in
+  orbit count; exchange rate at N' = 128 is 1.83 centers/ideal at
+  m = 2 (257 centers / 140 ideals) falling to 0.84 at m = 3
+  (385 / 457). The consumer's 2^89 centers price at 2^88 (linear
+  reading) to 2^170 (quadratic reading) ideals against poly(128):
+  an 82-to-163-bit ceiling that NO LONGER depends on the
+  2-power-norm restriction. Round 21 killed the (a)-route inside
+  one norm class; this closes the door round 21 left open, at the
+  prize cell, measured not extrapolated. Pre-registered falsifier
+  of PRICE-GE: a certified family of size > 4N' using <= N' odd
+  prime ideals at any 2-power N' >= 32. Epistemic status:
+  PROVED-exhaustive at N' = 8; construction-side exact at
+  N' = 16..128; the upper-bound half conjectural above N' = 8.
+- The GE-WEAK (b) obligation is far CHEAPER than banked — see the
+  round-22 addenda on lattice_cone_certificate (per-row pricing
+  correction, ~20 orders) and integer_code_distance_cert
+  (universal toy thresholds). The honest residue for this node is
+  unchanged in kind: per-row certification is cheap; UNIVERSAL
+  closure over the unbounded row set is the open content.
