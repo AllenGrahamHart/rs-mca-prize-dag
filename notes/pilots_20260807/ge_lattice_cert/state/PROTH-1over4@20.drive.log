@@ -1,0 +1,15 @@
+--- round 1 ---
+== cell PROTH-1over4@20 :: EXTENSION deployed Proth row 1/4 [RADIUS-GRADED to support <= 20] ==
+   h=64  log2 p=168.139  2l'=20  R^2=40  problem_hash=2ef26faaad9866cfcc3c3b68
+   LLL stage 0 (delta=3/4) DONE: swaps=4319 cum_secs=2.2
+   LLL stage 1 (delta=99/100) DONE: swaps=11003 cum_secs=5.2
+   LLL DONE: LLLSWAPS=11003 LLLSEC=5.2
+   DETCHECK=PASS  MEMBERCHECK=PASS  |det B| == p : True
+   GSPROFILE log2||b*_i||^2, i=0..63:
+     8.45 8.48 8.56 8.42 8.25 8.21 8.37 8.07 7.89 7.68 7.76 7.38 7.68 7.36 7.40 7.21 7.03 6.71 6.63 6.45 6.53 6.28 6.25 6.03 6.00 5.90 5.81 5.85 5.78 5.45 5.30 5.26 5.20 5.09 4.85 4.71 4.60 4.49 4.60 4.47 4.18 4.37 4.29 4.17 4.13 3.87 3.70 3.67 3.38 3.47 3.12 3.12 2.82 2.96 2.84 2.91 2.59 2.32 2.13 2.07 1.95 1.91 1.90 1.97
+   ||b_0||^2 = 349 (||b_0|| = 18.682);  RHF = 2^0.02534 = 1.01772;  GH lambda_1 = 11.959;  R = 6.325
+   min_i ||b_i||^2 over the reduced basis = 327  (R^2 = 40) -> no basis vector is inside the ball
+   FP DONE: FPNODES=11154282  FPSEC=127.3  |FPFOUND|=0
+   RESULT: CERTIFIED EMPTY -- no nonzero w in {-2..2}^64 with ||w||_1 <= 20 lies in the lattice.
+STATUS: DONE
+FINISHED after 1 rounds

@@ -4,11 +4,11 @@
   "node": {
     "id": "e1_folded_no_vector_certificate_128_payload",
     "title": "E1 folded no-vector certificate payload for N'=128",
-    "status": "TARGET",
+    "status": "PROVED",
     "statement": "Over the named E1 Pocklington field and displayed primitive 128th root, construct a complete machine-checkable folded-kernel certificate proving that no nonzero non-cyclotomic vector w in {-2,-1,0,1,2}^64 satisfies the N'=128 folded kernel equation.",
     "attack_surface": "actual complete no-vector certificate for the N'=128 folded kernel over the named field/root",
     "falsifier": "a nonzero non-cyclotomic folded vector in the named N'=128 field/root, or an incomplete certificate transcript",
-    "notes": "FALSE-GREEN CORRECTION: the historical fpylll run reported only rounded summary values. No exact output, basis, shortest-vector proof log, completion flag, deterministic checker, or independent audit is banked; the launcher also catches SVP failure without recording whether exact enumeration succeeded. The numerical observation remains evidence only. See status_ruling.md."
+    "notes": "PROVED 2026-08-07 (round-23 ge_lattice_cert, coordinator-replayed): complete Fincke-Pohst enumeration at the literal pinned field/root \u2014 2,061,127,954 nodes, 12/12 shards with byte-identical reduced basis, EMPTY. Certificate + deterministic standalone checker banked at certificate/ (E1-128.cert.json + verify_cert.py; checker re-derives the root order, checks membership, recomputes |det B| = p by independent Bareiss => L(B) = Lambda_p). Fail-closed: a planted box vector at the SAME dimension and determinant is FOUND by the same code path (61,514,718 nodes, exactly {v,-v}; reproducible from seed alone, witness_repro.py). The prior BKZ observation was inconclusive; this is the complete transcript. Scope: this exhibit cell ONLY \u2014 no family-uniform claim (see integer_code_distance_cert status ruling). FALSE-GREEN CORRECTION: the historical fpylll run reported only rounded summary values. No exact output, basis, shortest-vector proof log, completion flag, deterministic checker, or independent audit is banked; the launcher also catches SVP failure without recording whether exact enumeration succeeded. The numerical observation remains evidence only. See status_ruling.md."
   },
   "requires": [],
   "alternatives": [],

@@ -2937,3 +2937,59 @@ separation attempts + a mandatory falsifier-power control.
 Pilots MUST NOT read ledger entries below this marker; the live
 ge_lattice_cert dir is off-limits; banked round-23 dirs
 (fpc5_diag, cw_shared_target, c2pp_diag) are READABLE sources.
+
+## 2026-08-07: round-23 agent 4 BANKED — ge_lattice_cert: E1-128 CERTIFIED EMPTY (complete transcript, STATUS FLIP TARGET->PROVED) + CATCH-23A (the round-22 enumerator was not fail-closed); ROUND 23 PROPER COMPLETE (4/4; 23b out)
+
+- **ge_lattice_cert (Opus) BANKED, MAINTAINER-LEVEL.**
+  (1) **E1-128 CERTIFIED EMPTY** at the literal pinned Pocklington
+  field/root: complete Fincke-Pohst enumeration, 2,061,127,954
+  nodes, 12/12 shards byte-identical basis, deterministic
+  standalone checker (independent Bareiss det = p => L(B) =
+  Lambda_p), planted fail-closed control AT full dimension found
+  by the same code path (seed-reproducible, zero imports). The
+  first complete transcript for the cell the repo ruled
+  "explicitly inconclusive" under BKZ. **STATUS FLIP APPLIED on
+  replay: e1_folded_no_vector_certificate_128_payload TARGET ->
+  PROVED**, certificate banked into the node; census unchanged
+  (background satellite); chain green. The status ruling's
+  literal-exhibit half is SUPPLIED; family-uniform + consumer
+  narrowing remain (no other flip). (2) **CATCH-23A**: round-22's
+  d4_cone.py floors a rational FP window — NOT fail-closed;
+  witness counts superseded at 3/6 rows (2->8, 6->16, 2->16) with
+  a structural proof (witness sets are full <sigma,-1>-orbits of
+  size 2h; the partial sets were not sigma-closed); ALL verdicts
+  survive (brute-force re-confirmed); corrections applied to
+  lattice_cone_certificate + warning note in the round-22 dir;
+  TIGHTEMPTY/D3 unaffected. (3) **PRICE-CLIFF**: the round-22
+  laptop-scale reclassification holds only above ~242 bits
+  (measured 2^30.94 at 249 bits); at the four DEPLOYED Proth rows
+  (167-171 bits) the full-radius cell costs 2^60-63 LLL / 2^38-40
+  BKZ-90 — those rows now carry radius-graded COMPLETE
+  certificates to support <= 24 (12 swaps = the node's own named
+  MITM radius; archimedean-free radius is only 6), full radius
+  UNRESOLVED + priced. (4) **GS-FLOOR OBSTRUCTION (proved)**: a
+  lambda_1-floor certificate needs p > (4h)^{h/2} = the AM-GM
+  ceiling = 2^256 at h=64 = the spec's field cap — NO admissible
+  N'=128 row escapes enumeration; only its price moves; the
+  253^32 branch's 0.544-bit sliver is the entire free region.
+  (5) Six deployed clean-anchor rows priced: rate-1/8 FLIPS to
+  expected-EMPTY; 1/4 and 1/16 expected-NONEMPTY => the
+  e1_folded_certificate_manifest_payload cannot close its N'=256
+  entry as written (addendum applied; re-pose needed). (6) Honest
+  ledger: G1 re-gated on brute force under disclosed amendment
+  when the gold standard proved broken; Q2 falsified (+3.5 bits,
+  cause identified); the sharding race caught BY the fail-closed
+  merge refusing a verdict; prior art subtracted (lambda_1>16 and
+  the 2^48 figure are PRO_W3's). Deferred cw qualification
+  applied to integer_code_distance_cert alongside.
+- **ROUND 23 PROPER COMPLETE (4/4).** Aggregate: mystery 3
+  adjudicated (evidence reset, C2''-r3, unmeasured-at-depth);
+  mysteries 2/4 split at the bottleneck with Z-CEILING minted and
+  an official-row consistency datum; the three FPC5 reds
+  classified one-wall-candidate (promotion gated on 23b's
+  falsification attempt per the user's ruling); mystery 5's
+  per-row line EXECUTED with a red closed. Round-24 queue: the
+  full-radius Proth Modal request; the family-uniform brief; the
+  Z-CEILING proof attempt; the t-petal overlap-cap lemma; the
+  >= 8-junction C2'' instrument spec.
+- Awaiting: mf_wall_adversary (round 23b).
