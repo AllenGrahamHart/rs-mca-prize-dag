@@ -27,17 +27,19 @@ External PRs #1140, #1141, #1144, and #1149 provide the exact upstream atlas
 and cell-specific closures. The local restricted inversion theorem closes
 all six `F00/F01` cells, and the exact GREEN #1141 import closes all six
 `F02/F03` cells. Independent replay of #1144 now proves ten moving cells.
-Thus 22 of 36 aligned-positive cells are PROVED. The exact residual is
+The exact generic/rank-drop localization theorem now also closes all four
+`F04`--`F07` cells over `R11`. Thus 26 of 36 aligned-positive cells are
+PROVED. The exact residual is
 
 ```text
 M01-R11, M02-R11,
-{F04,F05,F06,F07} x {R02,R11,R20}.               (KBCOV-1)
+{F04,F05,F06,F07} x {R02,R20}.                   (KBCOV-1)
 ```
 
 The first two cells retain a precise Sage/Singular portability review gate.
-The pinned and independently replayed #1149 compression theorem is now
-PROVED locally: it reduces the twelve fixed-moving cells to six exact
-fingerprint orbits. Both the generic `V!=0` and rank-drop `V=0,U=0` branches
+The pinned and independently replayed #1149 compression theorem is PROVED
+locally. Its two balanced fingerprint orbits are now closed by direct
+four-cell generic and rank-drop computations. The four `R02/R20` orbits
 still require exact closure.
 
 Closing only the aligned-positive cells is insufficient unless the same

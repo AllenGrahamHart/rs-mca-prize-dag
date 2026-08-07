@@ -1,0 +1,1702 @@
+{
+  "app": "rs-mca-k3-fixed-balanced-core-groebner-deployed",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 4,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "mode": "deployed",
+  "results": [
+    {
+      "cell": "F04-R11",
+      "peak_kb": 500496,
+      "prime": 2130706433,
+      "records": [
+        {
+          "cell": "F04-R11",
+          "phase": "START",
+          "prime": 2130706433
+        },
+        {
+          "metrics": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "name": "R",
+              "sha256": "ba2b4af06e8bac868ae1ef1324d87e64afac5e9195ac3861eed1a52978181680",
+              "terms": 121
+            },
+            {
+              "degree": 43,
+              "degrees": [
+                23,
+                17,
+                21
+              ],
+              "name": "E2",
+              "sha256": "044fc7e96db50148c700b89fa7ff54d4ada7f3c9c2b7bfc41631e55aac1e2cce",
+              "terms": 5143
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                18,
+                13,
+                16
+              ],
+              "name": "E3",
+              "sha256": "1bdd4c198d764fbcc1a565e9d579d4a32ebcc3ec5903c40701c4c4c87f3de038",
+              "terms": 2457
+            }
+          ],
+          "phase": "CORES"
+        },
+        {
+          "algorithm": "singular:slimgb",
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "factor_count": 25,
+          "phase": "LOCALIZER_BEGIN"
+        },
+        {
+          "degree": 1,
+          "index": 1,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "degree": 2,
+          "index": 2,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 3,
+          "index": 3,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 4,
+          "index": 4,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+          "terms": 6,
+          "zero": false
+        },
+        {
+          "degree": 5,
+          "index": 5,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+          "terms": 11,
+          "zero": false
+        },
+        {
+          "degree": 6,
+          "index": 6,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+          "terms": 16,
+          "zero": false
+        },
+        {
+          "degree": 7,
+          "index": 7,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+          "terms": 20,
+          "zero": false
+        },
+        {
+          "degree": 9,
+          "index": 8,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 10,
+          "index": 9,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 11,
+          "index": 10,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 12,
+          "index": 11,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 13,
+          "index": 12,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 14,
+          "index": 13,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 16,
+          "index": 14,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918",
+          "terms": 378,
+          "zero": false
+        },
+        {
+          "degree": 32,
+          "index": 15,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "7116073bdd67e72b5ee7780dc03a28a5848a83408792b1ee18619bf87a58541c",
+          "terms": 4003,
+          "zero": false
+        },
+        {
+          "degree": null,
+          "index": 16,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": null,
+          "zero": true
+        },
+        {
+          "basis_metrics": [
+            {
+              "degree": 48,
+              "sha256": "723a0b5d5310765aa62ac7641ca012afc3b0f9b359ffb72a27a9dc9f4cce9b74",
+              "terms": 6920
+            },
+            {
+              "degree": 47,
+              "sha256": "c019845944489163037ecd817a026788f88e6f19aa1c954f5ab8cee14e3b9f82",
+              "terms": 6861
+            },
+            {
+              "degree": 47,
+              "sha256": "5575f9ac985aa5be60e9b3b7a24ae4d350a6300134f5cdab8148fb63ddfff1cd",
+              "terms": 6711
+            },
+            {
+              "degree": 46,
+              "sha256": "7eaaa201ab56f9ca780155e29d62c4bc3349a83d3de79279d79f0c63f53b57d0",
+              "terms": 6569
+            },
+            {
+              "degree": 45,
+              "sha256": "f22cb1b76215fd57274d3b1bf027a4002d15c7853b21419903c27aac62449fcd",
+              "terms": 6431
+            },
+            {
+              "degree": 44,
+              "sha256": "d5ce6b5a2e86ab5d92a92f0efb0214290f420cecfb0e5071175fcb444ac54013",
+              "terms": 6267
+            },
+            {
+              "degree": 43,
+              "sha256": "29cc3325585d4f7d6a0df8bddd823fbcdb0af4281883af44763711f0035ceb53",
+              "terms": 6103
+            },
+            {
+              "degree": 42,
+              "sha256": "9e40b1d36b66449215a3627efa874fbd5d914a0668d16486cbfa488502dbc67b",
+              "terms": 5935
+            },
+            {
+              "degree": 41,
+              "sha256": "3f505551f3b0099f78c77f5dc939705dff99fcdd5b8d96a0858bef68f4e34e01",
+              "terms": 5855
+            },
+            {
+              "degree": 41,
+              "sha256": "095bb51a8e70c8d3a3372efe8cc2e7493fcc99f2036b9faea35f6ab92d9b2a77",
+              "terms": 5798
+            },
+            {
+              "degree": 41,
+              "sha256": "0d9dbb12a25d2de0bb14bb221d8c321bf7e0df427f8b57533467505b7c626898",
+              "terms": 5726
+            },
+            {
+              "degree": 41,
+              "sha256": "01c244e3b8d43d8b8ed67eb8e0f85c7332533175eb52a3dc7718ac70cad59d6c",
+              "terms": 5705
+            },
+            {
+              "degree": 40,
+              "sha256": "ee0e1cceb1e42c0c069adddee09b87ef531cf9ea6b65f4cb3a81a3431aa00d67",
+              "terms": 5563
+            },
+            {
+              "degree": 40,
+              "sha256": "87323e44b59efa281ef61cf14e5cd7cc5a9f497070b5f44c54bab148e940af50",
+              "terms": 5552
+            },
+            {
+              "degree": 39,
+              "sha256": "c86d8d54892f750639134ddfc034b64394c2c83dacac9c5fd4058a170d6af984",
+              "terms": 5404
+            },
+            {
+              "degree": 39,
+              "sha256": "b48ef42047fad67b116bd072d6533673ab67d2fc1d04803d9c96a73bc0545175",
+              "terms": 5404
+            },
+            {
+              "degree": 38,
+              "sha256": "75dbe73d6578a2a046b66dfa736c7dd8002fd9e19cd6ad064f0617df2863b4f4",
+              "terms": 5240
+            },
+            {
+              "degree": 38,
+              "sha256": "14d4f6d441e8f7a76e008c8a3871432e304befe59903a3755a13c7e2280ee52f",
+              "terms": 5090
+            },
+            {
+              "degree": 37,
+              "sha256": "49f92d90f51171b36a5722176cbe4596c6910837aed6e3a72b2942f3f0e4a0ee",
+              "terms": 5084
+            },
+            {
+              "degree": 37,
+              "sha256": "c6225b5512dc53830459e5d151d3ee345aa6c51cabb7835f055de7e53b85fdae",
+              "terms": 4952
+            }
+          ],
+          "basis_sha256": "7c8a38347c7b8b45af2a346cbe9c8c0ac4f6e7158f1b060407583851c69c940e",
+          "basis_size": 151,
+          "cell": "F04-R11",
+          "dimension": 1,
+          "localizer_factor_count": 25,
+          "localizer_nilpotence_index": 1,
+          "localizer_powers": [],
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+              "terms": 11,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+              "terms": 20,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 16,
+              "index": 14,
+              "sha256": "c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918",
+              "terms": 378,
+              "zero": false
+            },
+            {
+              "degree": 32,
+              "index": 15,
+              "sha256": "7116073bdd67e72b5ee7780dc03a28a5848a83408792b1ee18619bf87a58541c",
+              "terms": 4003,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 16,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "prime": 2130706433,
+          "terminal": "EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION",
+          "unit_ideal": false,
+          "vector_space_dimension": "ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 104.709853,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ec4d26ef63eda655f9152396ef83b4b145fe83e754acd057a274163e48301adb",
+      "stdout_tail": "914a0668d16486cbfa488502dbc67b\", \"terms\": 5935}, {\"degree\": 41, \"sha256\": \"3f505551f3b0099f78c77f5dc939705dff99fcdd5b8d96a0858bef68f4e34e01\", \"terms\": 5855}, {\"degree\": 41, \"sha256\": \"095bb51a8e70c8d3a3372efe8cc2e7493fcc99f2036b9faea35f6ab92d9b2a77\", \"terms\": 5798}, {\"degree\": 41, \"sha256\": \"0d9dbb12a25d2de0bb14bb221d8c321bf7e0df427f8b57533467505b7c626898\", \"terms\": 5726}, {\"degree\": 41, \"sha256\": \"01c244e3b8d43d8b8ed67eb8e0f85c7332533175eb52a3dc7718ac70cad59d6c\", \"terms\": 5705}, {\"degree\": 40, \"sha256\": \"ee0e1cceb1e42c0c069adddee09b87ef531cf9ea6b65f4cb3a81a3431aa00d67\", \"terms\": 5563}, {\"degree\": 40, \"sha256\": \"87323e44b59efa281ef61cf14e5cd7cc5a9f497070b5f44c54bab148e940af50\", \"terms\": 5552}, {\"degree\": 39, \"sha256\": \"c86d8d54892f750639134ddfc034b64394c2c83dacac9c5fd4058a170d6af984\", \"terms\": 5404}, {\"degree\": 39, \"sha256\": \"b48ef42047fad67b116bd072d6533673ab67d2fc1d04803d9c96a73bc0545175\", \"terms\": 5404}, {\"degree\": 38, \"sha256\": \"75dbe73d6578a2a046b66dfa736c7dd8002fd9e19cd6ad064f0617df2863b4f4\", \"terms\": 5240}, {\"degree\": 38, \"sha256\": \"14d4f6d441e8f7a76e008c8a3871432e304befe59903a3755a13c7e2280ee52f\", \"terms\": 5090}, {\"degree\": 37, \"sha256\": \"49f92d90f51171b36a5722176cbe4596c6910837aed6e3a72b2942f3f0e4a0ee\", \"terms\": 5084}, {\"degree\": 37, \"sha256\": \"c6225b5512dc53830459e5d151d3ee345aa6c51cabb7835f055de7e53b85fdae\", \"terms\": 4952}], \"basis_sha256\": \"7c8a38347c7b8b45af2a346cbe9c8c0ac4f6e7158f1b060407583851c69c940e\", \"basis_size\": 151, \"cell\": \"F04-R11\", \"dimension\": 1, \"localizer_factor_count\": 25, \"localizer_nilpotence_index\": 1, \"localizer_powers\": [], \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb\", \"terms\": 6, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642\", \"terms\": 11, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928\", \"terms\": 16, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82\", \"terms\": 20, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f\", \"terms\": 32, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec\", \"terms\": 32, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd\", \"terms\": 64, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116\", \"terms\": 64, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0\", \"terms\": 128, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376\", \"terms\": 128, \"zero\": false}, {\"degree\": 16, \"index\": 14, \"sha256\": \"c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918\", \"terms\": 378, \"zero\": false}, {\"degree\": 32, \"index\": 15, \"sha256\": \"7116073bdd67e72b5ee7780dc03a28a5848a83408792b1ee18619bf87a58541c\", \"terms\": 4003, \"zero\": false}, {\"degree\": null, \"index\": 16, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"prime\": 2130706433, \"terminal\": \"EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION\", \"unit_ideal\": false, \"vector_space_dimension\": \"ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'\"}\n"
+    },
+    {
+      "cell": "F05-R11",
+      "peak_kb": 497920,
+      "prime": 2130706433,
+      "records": [
+        {
+          "cell": "F05-R11",
+          "phase": "START",
+          "prime": 2130706433
+        },
+        {
+          "metrics": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "name": "R",
+              "sha256": "10a48fdeb9fafebec2b38bf616ced008acbe41f4a289c6b33dd9735789b0181f",
+              "terms": 121
+            },
+            {
+              "degree": 44,
+              "degrees": [
+                23,
+                17,
+                21
+              ],
+              "name": "E2",
+              "sha256": "26bc7fa47e55519e3d87a6d8149850aed215624814ae62f0d0a1f0d12a8f4aad",
+              "terms": 5143
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                18,
+                13,
+                16
+              ],
+              "name": "E3",
+              "sha256": "fbcb3a649bc40f3723ff7e4feace1fdc781a480ea5007378bfd6245c113a5dca",
+              "terms": 2457
+            }
+          ],
+          "phase": "CORES"
+        },
+        {
+          "algorithm": "singular:slimgb",
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "factor_count": 25,
+          "phase": "LOCALIZER_BEGIN"
+        },
+        {
+          "degree": 1,
+          "index": 1,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "degree": 2,
+          "index": 2,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 3,
+          "index": 3,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 4,
+          "index": 4,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+          "terms": 6,
+          "zero": false
+        },
+        {
+          "degree": 5,
+          "index": 5,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+          "terms": 11,
+          "zero": false
+        },
+        {
+          "degree": 6,
+          "index": 6,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+          "terms": 16,
+          "zero": false
+        },
+        {
+          "degree": 7,
+          "index": 7,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+          "terms": 20,
+          "zero": false
+        },
+        {
+          "degree": 9,
+          "index": 8,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 10,
+          "index": 9,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 11,
+          "index": 10,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 12,
+          "index": 11,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 13,
+          "index": 12,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 14,
+          "index": 13,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 16,
+          "index": 14,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa",
+          "terms": 378,
+          "zero": false
+        },
+        {
+          "degree": 32,
+          "index": 15,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "1e3fce3ff3b83b5d0c1f4f31daf0faa2fe32efa15b1acef8c0189616592b5218",
+          "terms": 4005,
+          "zero": false
+        },
+        {
+          "degree": null,
+          "index": 16,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": null,
+          "zero": true
+        },
+        {
+          "basis_metrics": [
+            {
+              "degree": 48,
+              "sha256": "fc170979adf6088e4f0e9b298d744453c5511d6f4abe4906e94b060648f43f42",
+              "terms": 6922
+            },
+            {
+              "degree": 47,
+              "sha256": "b618ff49f30dc0f1b27ef282a35627688ba531abda1644bc810ef6f2379b37f2",
+              "terms": 6863
+            },
+            {
+              "degree": 47,
+              "sha256": "3e26df60e63dc3d88958a904ab102857e6db6286a60f34c72f31047664773844",
+              "terms": 6713
+            },
+            {
+              "degree": 46,
+              "sha256": "6abbd178495e96288597871aa744bf32720c43c358d2d242d2925975bb84e8b5",
+              "terms": 6571
+            },
+            {
+              "degree": 45,
+              "sha256": "8fbca3fac7ff0417bb25b1d1b90c70e8280209f3550428e86c95546e7c917baf",
+              "terms": 6433
+            },
+            {
+              "degree": 44,
+              "sha256": "809b9f70fd8dea9bbce9a9b959bb285af8693b6c4ec6587497735c1924f1907a",
+              "terms": 6269
+            },
+            {
+              "degree": 43,
+              "sha256": "0f57fa44b1569e93f0cec2b05eace2582a65efe57731941364641eb4648802c0",
+              "terms": 6105
+            },
+            {
+              "degree": 42,
+              "sha256": "c9e43f26205c61f2c391cc4c1906a37bd09a122883c357afefedef1df4e26bb6",
+              "terms": 5936
+            },
+            {
+              "degree": 41,
+              "sha256": "25f054feff990f2cb471576e510500ba18b3937b428f939001fddf16709e01e2",
+              "terms": 5856
+            },
+            {
+              "degree": 41,
+              "sha256": "121f211ca7699355e264f72253abc40aa2e06447316bb8ba174dbf1a4ec3f603",
+              "terms": 5800
+            },
+            {
+              "degree": 41,
+              "sha256": "5216a4fad8681a5383954827086401d85be296d2f6ab9f7a5b006275d8b5a4b6",
+              "terms": 5728
+            },
+            {
+              "degree": 41,
+              "sha256": "6cb0ea18a9754a0193281c0bdd842e1f196e2985c802b6a648ced63a2920cde2",
+              "terms": 5706
+            },
+            {
+              "degree": 40,
+              "sha256": "bf809a5759a3e605e1db04faae851dd23758e0af20c316383969af3ad90f25a2",
+              "terms": 5565
+            },
+            {
+              "degree": 40,
+              "sha256": "ef3ded8a75b48575f048cdd495980a283bdffa1db3da03b9436858707b39f51e",
+              "terms": 5554
+            },
+            {
+              "degree": 39,
+              "sha256": "07375f759789c6844c14b0470c610097152c36cd23b91b40829da1b8548b1fbc",
+              "terms": 5406
+            },
+            {
+              "degree": 39,
+              "sha256": "540ace4d58954b56adbb912c07f0fb239e407fca967f0644a540c515c34d53dd",
+              "terms": 5406
+            },
+            {
+              "degree": 38,
+              "sha256": "6759a300f0befa5cc5c6ae7e839aef08187fecd4e49b728c3ad026bb34749e5b",
+              "terms": 5242
+            },
+            {
+              "degree": 38,
+              "sha256": "9ddcdd9e62f8effafef7cacdcc8d8a0276bb92fccef212913bf0a253d0ec78df",
+              "terms": 5092
+            },
+            {
+              "degree": 37,
+              "sha256": "f5cc2fd4e0efb1eb1ed3b1820c67092d544003c4968acea5c389fe77544f84e2",
+              "terms": 5086
+            },
+            {
+              "degree": 37,
+              "sha256": "6e30d15cc129fcd1a19a3b0bb05318540dfa2143e4d5d853ab72bba379ccafac",
+              "terms": 4954
+            }
+          ],
+          "basis_sha256": "d27d3cabc1d0ab4cb1e1ff490d969bd7c5967f44087776b5f74fcfa6f917387f",
+          "basis_size": 151,
+          "cell": "F05-R11",
+          "dimension": 1,
+          "localizer_factor_count": 25,
+          "localizer_nilpotence_index": 1,
+          "localizer_powers": [],
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+              "terms": 11,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+              "terms": 20,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 16,
+              "index": 14,
+              "sha256": "47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa",
+              "terms": 378,
+              "zero": false
+            },
+            {
+              "degree": 32,
+              "index": 15,
+              "sha256": "1e3fce3ff3b83b5d0c1f4f31daf0faa2fe32efa15b1acef8c0189616592b5218",
+              "terms": 4005,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 16,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "prime": 2130706433,
+          "terminal": "EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION",
+          "unit_ideal": false,
+          "vector_space_dimension": "ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 110.655653,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "e9f0ac990108eed0436f080bae42d751dac4745af673b4851761a1a8ca9db49b",
+      "stdout_tail": "9a122883c357afefedef1df4e26bb6\", \"terms\": 5936}, {\"degree\": 41, \"sha256\": \"25f054feff990f2cb471576e510500ba18b3937b428f939001fddf16709e01e2\", \"terms\": 5856}, {\"degree\": 41, \"sha256\": \"121f211ca7699355e264f72253abc40aa2e06447316bb8ba174dbf1a4ec3f603\", \"terms\": 5800}, {\"degree\": 41, \"sha256\": \"5216a4fad8681a5383954827086401d85be296d2f6ab9f7a5b006275d8b5a4b6\", \"terms\": 5728}, {\"degree\": 41, \"sha256\": \"6cb0ea18a9754a0193281c0bdd842e1f196e2985c802b6a648ced63a2920cde2\", \"terms\": 5706}, {\"degree\": 40, \"sha256\": \"bf809a5759a3e605e1db04faae851dd23758e0af20c316383969af3ad90f25a2\", \"terms\": 5565}, {\"degree\": 40, \"sha256\": \"ef3ded8a75b48575f048cdd495980a283bdffa1db3da03b9436858707b39f51e\", \"terms\": 5554}, {\"degree\": 39, \"sha256\": \"07375f759789c6844c14b0470c610097152c36cd23b91b40829da1b8548b1fbc\", \"terms\": 5406}, {\"degree\": 39, \"sha256\": \"540ace4d58954b56adbb912c07f0fb239e407fca967f0644a540c515c34d53dd\", \"terms\": 5406}, {\"degree\": 38, \"sha256\": \"6759a300f0befa5cc5c6ae7e839aef08187fecd4e49b728c3ad026bb34749e5b\", \"terms\": 5242}, {\"degree\": 38, \"sha256\": \"9ddcdd9e62f8effafef7cacdcc8d8a0276bb92fccef212913bf0a253d0ec78df\", \"terms\": 5092}, {\"degree\": 37, \"sha256\": \"f5cc2fd4e0efb1eb1ed3b1820c67092d544003c4968acea5c389fe77544f84e2\", \"terms\": 5086}, {\"degree\": 37, \"sha256\": \"6e30d15cc129fcd1a19a3b0bb05318540dfa2143e4d5d853ab72bba379ccafac\", \"terms\": 4954}], \"basis_sha256\": \"d27d3cabc1d0ab4cb1e1ff490d969bd7c5967f44087776b5f74fcfa6f917387f\", \"basis_size\": 151, \"cell\": \"F05-R11\", \"dimension\": 1, \"localizer_factor_count\": 25, \"localizer_nilpotence_index\": 1, \"localizer_powers\": [], \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb\", \"terms\": 6, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642\", \"terms\": 11, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928\", \"terms\": 16, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82\", \"terms\": 20, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f\", \"terms\": 32, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec\", \"terms\": 32, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd\", \"terms\": 64, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116\", \"terms\": 64, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0\", \"terms\": 128, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376\", \"terms\": 128, \"zero\": false}, {\"degree\": 16, \"index\": 14, \"sha256\": \"47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa\", \"terms\": 378, \"zero\": false}, {\"degree\": 32, \"index\": 15, \"sha256\": \"1e3fce3ff3b83b5d0c1f4f31daf0faa2fe32efa15b1acef8c0189616592b5218\", \"terms\": 4005, \"zero\": false}, {\"degree\": null, \"index\": 16, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"prime\": 2130706433, \"terminal\": \"EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION\", \"unit_ideal\": false, \"vector_space_dimension\": \"ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'\"}\n"
+    },
+    {
+      "cell": "F06-R11",
+      "peak_kb": 497236,
+      "prime": 2130706433,
+      "records": [
+        {
+          "cell": "F06-R11",
+          "phase": "START",
+          "prime": 2130706433
+        },
+        {
+          "metrics": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "name": "R",
+              "sha256": "10a48fdeb9fafebec2b38bf616ced008acbe41f4a289c6b33dd9735789b0181f",
+              "terms": 121
+            },
+            {
+              "degree": 43,
+              "degrees": [
+                23,
+                17,
+                21
+              ],
+              "name": "E2",
+              "sha256": "6fdbbc44ec369421b9cd86d45ea670a16d61dd8c801985aef7977550eae3b497",
+              "terms": 5142
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                18,
+                13,
+                16
+              ],
+              "name": "E3",
+              "sha256": "548b775446a42eb54eca5d573c54669143f2251223591def2c501f57fd3d101a",
+              "terms": 2457
+            }
+          ],
+          "phase": "CORES"
+        },
+        {
+          "algorithm": "singular:slimgb",
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "factor_count": 25,
+          "phase": "LOCALIZER_BEGIN"
+        },
+        {
+          "degree": 1,
+          "index": 1,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "degree": 2,
+          "index": 2,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 3,
+          "index": 3,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 4,
+          "index": 4,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+          "terms": 6,
+          "zero": false
+        },
+        {
+          "degree": 5,
+          "index": 5,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+          "terms": 11,
+          "zero": false
+        },
+        {
+          "degree": 6,
+          "index": 6,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+          "terms": 16,
+          "zero": false
+        },
+        {
+          "degree": 7,
+          "index": 7,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+          "terms": 20,
+          "zero": false
+        },
+        {
+          "degree": 9,
+          "index": 8,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 10,
+          "index": 9,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 11,
+          "index": 10,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 12,
+          "index": 11,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 13,
+          "index": 12,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 14,
+          "index": 13,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 16,
+          "index": 14,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa",
+          "terms": 378,
+          "zero": false
+        },
+        {
+          "degree": 32,
+          "index": 15,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "189d454ad8996b3dd5f09385584c42a1b670f56ecbf055224e90d25616d22230",
+          "terms": 4003,
+          "zero": false
+        },
+        {
+          "degree": null,
+          "index": 16,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": null,
+          "zero": true
+        },
+        {
+          "basis_metrics": [
+            {
+              "degree": 48,
+              "sha256": "72fac824250054008cee55e72b49f960a57eeab2ce39bb987e8abcde978d301a",
+              "terms": 6920
+            },
+            {
+              "degree": 47,
+              "sha256": "5cfc5f6d713533fe4c8cb1fb6ab819c19774e4c5b63104e28b4a43a41cddf61e",
+              "terms": 6861
+            },
+            {
+              "degree": 47,
+              "sha256": "876641101ced3e479b6a9a28b34dcb861aef9d61ac03e076ffb0d18849b0f9f0",
+              "terms": 6711
+            },
+            {
+              "degree": 46,
+              "sha256": "e3d6bdce1252a56655c6c5abe3beb0055964f0885c413d9e1f581b9779c8270a",
+              "terms": 6569
+            },
+            {
+              "degree": 45,
+              "sha256": "980322732b7c6d9fc75eaaf5e3aa485c24471d86c30ad5a208b69958ad42153a",
+              "terms": 6431
+            },
+            {
+              "degree": 44,
+              "sha256": "02c3febcafd0b0ce47ed87e76a85f7b37b14f71e2ffd8a2a1a9789b66a4123b1",
+              "terms": 6267
+            },
+            {
+              "degree": 43,
+              "sha256": "edb99ce0578f016214ab9032c6b7f6e032e7f603b6806db53d0ea31493ab919e",
+              "terms": 6103
+            },
+            {
+              "degree": 42,
+              "sha256": "ec857b4b34b2746e378c42220d2afcaf548658b9d7d0009c1ed765f5bcc6dc56",
+              "terms": 5934
+            },
+            {
+              "degree": 41,
+              "sha256": "436ab64a1098094434716224bec98905895f685c2befca963d8c2d32d7891749",
+              "terms": 5854
+            },
+            {
+              "degree": 41,
+              "sha256": "5fc71a44d963c3292d3047ed01af9f702600c444e94b90a4b2d14bec12a305ae",
+              "terms": 5798
+            },
+            {
+              "degree": 41,
+              "sha256": "c981f55343403890a54f480ca012a4211140ffd90b4af3d018f748e5db1aa352",
+              "terms": 5726
+            },
+            {
+              "degree": 41,
+              "sha256": "09184f1ff54029621692f72db14a9da677100285e1fd0cc7c7ed03c6c9cf8ded",
+              "terms": 5704
+            },
+            {
+              "degree": 40,
+              "sha256": "8ab6e75db92cc1c8c19f34349651a1aca18b62aeb35e25b9a56fb2b9597060b0",
+              "terms": 5563
+            },
+            {
+              "degree": 40,
+              "sha256": "5b7ea6da19939a269030d0698bb822a7b175b2e3e16bdf48c263e130b6dfad10",
+              "terms": 5552
+            },
+            {
+              "degree": 39,
+              "sha256": "8a0084549285ee4a52f2b6348924ec8344da9499f0b6628f791db8cb2f3a3ca3",
+              "terms": 5404
+            },
+            {
+              "degree": 39,
+              "sha256": "534ea6705cf8dcf6647fa80e1540102e05f6312f3fface04d7fd0e3348e39347",
+              "terms": 5404
+            },
+            {
+              "degree": 38,
+              "sha256": "e5a9c04cedafae981033446290dc2c54a0cc6676e0fd444a0e9b7c52e11df9df",
+              "terms": 5240
+            },
+            {
+              "degree": 38,
+              "sha256": "66432a5f2501071d7f7dbbc2263fe6a0bf4d0757eaaf75fd0aa4fd2613f52d7c",
+              "terms": 5090
+            },
+            {
+              "degree": 37,
+              "sha256": "d9ecfc7c153f38760785a575917bd48024265500d4ab0999fba391a5008c4369",
+              "terms": 5084
+            },
+            {
+              "degree": 37,
+              "sha256": "039621ddd12cbee4993ffdf375dff086960e9a86e90854a03d0925f799bc5f6d",
+              "terms": 4952
+            }
+          ],
+          "basis_sha256": "e6de209a7bff3b7756dc928309346d7eb9da494aec950731b9ec955de7385d19",
+          "basis_size": 151,
+          "cell": "F06-R11",
+          "dimension": 1,
+          "localizer_factor_count": 25,
+          "localizer_nilpotence_index": 1,
+          "localizer_powers": [],
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+              "terms": 11,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+              "terms": 20,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 16,
+              "index": 14,
+              "sha256": "47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa",
+              "terms": 378,
+              "zero": false
+            },
+            {
+              "degree": 32,
+              "index": 15,
+              "sha256": "189d454ad8996b3dd5f09385584c42a1b670f56ecbf055224e90d25616d22230",
+              "terms": 4003,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 16,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "prime": 2130706433,
+          "terminal": "EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION",
+          "unit_ideal": false,
+          "vector_space_dimension": "ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 180.046545,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "9a45b78a599d092c038aec23525e5da9d7c031c93f658ea3397ff4f0e25e59c0",
+      "stdout_tail": "8658b9d7d0009c1ed765f5bcc6dc56\", \"terms\": 5934}, {\"degree\": 41, \"sha256\": \"436ab64a1098094434716224bec98905895f685c2befca963d8c2d32d7891749\", \"terms\": 5854}, {\"degree\": 41, \"sha256\": \"5fc71a44d963c3292d3047ed01af9f702600c444e94b90a4b2d14bec12a305ae\", \"terms\": 5798}, {\"degree\": 41, \"sha256\": \"c981f55343403890a54f480ca012a4211140ffd90b4af3d018f748e5db1aa352\", \"terms\": 5726}, {\"degree\": 41, \"sha256\": \"09184f1ff54029621692f72db14a9da677100285e1fd0cc7c7ed03c6c9cf8ded\", \"terms\": 5704}, {\"degree\": 40, \"sha256\": \"8ab6e75db92cc1c8c19f34349651a1aca18b62aeb35e25b9a56fb2b9597060b0\", \"terms\": 5563}, {\"degree\": 40, \"sha256\": \"5b7ea6da19939a269030d0698bb822a7b175b2e3e16bdf48c263e130b6dfad10\", \"terms\": 5552}, {\"degree\": 39, \"sha256\": \"8a0084549285ee4a52f2b6348924ec8344da9499f0b6628f791db8cb2f3a3ca3\", \"terms\": 5404}, {\"degree\": 39, \"sha256\": \"534ea6705cf8dcf6647fa80e1540102e05f6312f3fface04d7fd0e3348e39347\", \"terms\": 5404}, {\"degree\": 38, \"sha256\": \"e5a9c04cedafae981033446290dc2c54a0cc6676e0fd444a0e9b7c52e11df9df\", \"terms\": 5240}, {\"degree\": 38, \"sha256\": \"66432a5f2501071d7f7dbbc2263fe6a0bf4d0757eaaf75fd0aa4fd2613f52d7c\", \"terms\": 5090}, {\"degree\": 37, \"sha256\": \"d9ecfc7c153f38760785a575917bd48024265500d4ab0999fba391a5008c4369\", \"terms\": 5084}, {\"degree\": 37, \"sha256\": \"039621ddd12cbee4993ffdf375dff086960e9a86e90854a03d0925f799bc5f6d\", \"terms\": 4952}], \"basis_sha256\": \"e6de209a7bff3b7756dc928309346d7eb9da494aec950731b9ec955de7385d19\", \"basis_size\": 151, \"cell\": \"F06-R11\", \"dimension\": 1, \"localizer_factor_count\": 25, \"localizer_nilpotence_index\": 1, \"localizer_powers\": [], \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb\", \"terms\": 6, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642\", \"terms\": 11, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928\", \"terms\": 16, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82\", \"terms\": 20, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f\", \"terms\": 32, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec\", \"terms\": 32, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd\", \"terms\": 64, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116\", \"terms\": 64, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0\", \"terms\": 128, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376\", \"terms\": 128, \"zero\": false}, {\"degree\": 16, \"index\": 14, \"sha256\": \"47b872e7dafa5a67274338c204cae8dda8d7b4b26d5016522e4f0130fd0e2dfa\", \"terms\": 378, \"zero\": false}, {\"degree\": 32, \"index\": 15, \"sha256\": \"189d454ad8996b3dd5f09385584c42a1b670f56ecbf055224e90d25616d22230\", \"terms\": 4003, \"zero\": false}, {\"degree\": null, \"index\": 16, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"prime\": 2130706433, \"terminal\": \"EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION\", \"unit_ideal\": false, \"vector_space_dimension\": \"ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'\"}\n"
+    },
+    {
+      "cell": "F07-R11",
+      "peak_kb": 502172,
+      "prime": 2130706433,
+      "records": [
+        {
+          "cell": "F07-R11",
+          "phase": "START",
+          "prime": 2130706433
+        },
+        {
+          "metrics": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "name": "R",
+              "sha256": "ba2b4af06e8bac868ae1ef1324d87e64afac5e9195ac3861eed1a52978181680",
+              "terms": 121
+            },
+            {
+              "degree": 44,
+              "degrees": [
+                23,
+                17,
+                21
+              ],
+              "name": "E2",
+              "sha256": "145cd4d8d85fb75cca0ed2b22f90c24ee52d257955b9f4d6c874074c62cc3a01",
+              "terms": 5142
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                18,
+                13,
+                16
+              ],
+              "name": "E3",
+              "sha256": "befb618436eb58d65a326ef4e3ddc5eb51d54bac2dd888fc72a590135b821788",
+              "terms": 2457
+            }
+          ],
+          "phase": "CORES"
+        },
+        {
+          "algorithm": "singular:slimgb",
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "factor_count": 25,
+          "phase": "LOCALIZER_BEGIN"
+        },
+        {
+          "degree": 1,
+          "index": 1,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "degree": 2,
+          "index": 2,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 3,
+          "index": 3,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+          "terms": 2,
+          "zero": false
+        },
+        {
+          "degree": 4,
+          "index": 4,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+          "terms": 6,
+          "zero": false
+        },
+        {
+          "degree": 5,
+          "index": 5,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+          "terms": 11,
+          "zero": false
+        },
+        {
+          "degree": 6,
+          "index": 6,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+          "terms": 16,
+          "zero": false
+        },
+        {
+          "degree": 7,
+          "index": 7,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+          "terms": 20,
+          "zero": false
+        },
+        {
+          "degree": 9,
+          "index": 8,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 10,
+          "index": 9,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "degree": 11,
+          "index": 10,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 12,
+          "index": 11,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "degree": 13,
+          "index": 12,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 14,
+          "index": 13,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+          "terms": 128,
+          "zero": false
+        },
+        {
+          "degree": 16,
+          "index": 14,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918",
+          "terms": 378,
+          "zero": false
+        },
+        {
+          "degree": 32,
+          "index": 15,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "ac7fee0a53d01889601ef4d98346b29c7772b02ff589e0143a252b12f185c0a9",
+          "terms": 4005,
+          "zero": false
+        },
+        {
+          "degree": null,
+          "index": 16,
+          "phase": "LOCALIZER_FACTOR",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": null,
+          "zero": true
+        },
+        {
+          "basis_metrics": [
+            {
+              "degree": 48,
+              "sha256": "0bab49bfa0d9fc6250269222c6364fdf56c3d7fef606185e418b50cc65d04006",
+              "terms": 6922
+            },
+            {
+              "degree": 47,
+              "sha256": "316fef15ad28029444174ba732c300f1b776de947b73b7bda5c6cb6c12afae9a",
+              "terms": 6863
+            },
+            {
+              "degree": 47,
+              "sha256": "5e50af217102aec17f3ed30d5f4496a415ebc6200c4e1487977d639373163d32",
+              "terms": 6713
+            },
+            {
+              "degree": 46,
+              "sha256": "c3f60ebe408eacf03ed9c9a6ab609db0a6f75f68f8e5964eaa2f0ce6f38399e3",
+              "terms": 6571
+            },
+            {
+              "degree": 45,
+              "sha256": "71fed7f6774af8763465b765b7754be5c76a575953a45ba836971f05d571f26a",
+              "terms": 6433
+            },
+            {
+              "degree": 44,
+              "sha256": "da51a9f3f79872ed3ef628a9f587c740227682fe7a222e6f00fa15911cfe4dd9",
+              "terms": 6269
+            },
+            {
+              "degree": 43,
+              "sha256": "9f5c24bee8ec4143c1e09dd41af28b2ab3d2c30161dadd81c70f10c8b026257d",
+              "terms": 6105
+            },
+            {
+              "degree": 42,
+              "sha256": "0da02dc778b23ae0b4e908d24906c3b9c34c64e31893601aac0ce3068f68ea6b",
+              "terms": 5937
+            },
+            {
+              "degree": 41,
+              "sha256": "14ff5ae9eb5eb24bbfa3462c09179b41f72734e65291bcbe0d9918a85715766e",
+              "terms": 5857
+            },
+            {
+              "degree": 41,
+              "sha256": "191d03249793127fb5f20619e4e8acecec4fcb6319aafb1c2edd7e04bdbd8d8b",
+              "terms": 5800
+            },
+            {
+              "degree": 41,
+              "sha256": "7a8b19f6dd0ca3d4533085891cd33cd1ada3b0cff552c9b3f36194506708e5af",
+              "terms": 5728
+            },
+            {
+              "degree": 41,
+              "sha256": "163b481e23471180dc8e14d3eb7459357b58f4637bdbe6f229615e0190915df6",
+              "terms": 5707
+            },
+            {
+              "degree": 40,
+              "sha256": "a09664246ee54baa396d4ee15d8077eefe087415fc25d051f443c8ffcc9c6580",
+              "terms": 5565
+            },
+            {
+              "degree": 40,
+              "sha256": "02722b32739ea3b6df1020cb6078fdec0889f4077b75a7adb9261eac0bde332b",
+              "terms": 5554
+            },
+            {
+              "degree": 39,
+              "sha256": "8cbdfe88f9cda35cc052c924315c512cd24dd64088de874c0b8c66aa28822a30",
+              "terms": 5406
+            },
+            {
+              "degree": 39,
+              "sha256": "88917d7930fb0fe482f271a5a56a7f60d1d972e7e044836e2eca70acf7a1c348",
+              "terms": 5406
+            },
+            {
+              "degree": 38,
+              "sha256": "4df1d1f31ec1d5c95d3d079ca555bb2f31f0251fe707de0d3ed5dd75a8459e92",
+              "terms": 5242
+            },
+            {
+              "degree": 38,
+              "sha256": "d4f50ce0a678b5d25553973f3ed4586d9d87e0794f000b427f50ad8753d286e1",
+              "terms": 5092
+            },
+            {
+              "degree": 37,
+              "sha256": "646c88a0e8856c7d8be3411c5803325075f6882881ac49a7eb73f090a5ab756b",
+              "terms": 5086
+            },
+            {
+              "degree": 37,
+              "sha256": "7027b25e5f16c54dfb0ee006214891dfbafd875fc4094f5fd5f75a598765fedc",
+              "terms": 4954
+            }
+          ],
+          "basis_sha256": "09609c7a17cef90f854d055792fa1aea3781dd3daf1806b3bd566692118b0180",
+          "basis_size": 151,
+          "cell": "F07-R11",
+          "dimension": 1,
+          "localizer_factor_count": 25,
+          "localizer_nilpotence_index": 1,
+          "localizer_powers": [],
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb",
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642",
+              "terms": 11,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82",
+              "terms": 20,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376",
+              "terms": 128,
+              "zero": false
+            },
+            {
+              "degree": 16,
+              "index": 14,
+              "sha256": "c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918",
+              "terms": 378,
+              "zero": false
+            },
+            {
+              "degree": 32,
+              "index": 15,
+              "sha256": "ac7fee0a53d01889601ef4d98346b29c7772b02ff589e0143a252b12f185c0a9",
+              "terms": 4005,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 16,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "prime": 2130706433,
+          "terminal": "EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION",
+          "unit_ideal": false,
+          "vector_space_dimension": "ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 180.414772,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "f8fdde402f0ca8117efcdfef8e686a5dcd95fa25f775424eaa34d77942a42985",
+      "stdout_tail": "4c64e31893601aac0ce3068f68ea6b\", \"terms\": 5937}, {\"degree\": 41, \"sha256\": \"14ff5ae9eb5eb24bbfa3462c09179b41f72734e65291bcbe0d9918a85715766e\", \"terms\": 5857}, {\"degree\": 41, \"sha256\": \"191d03249793127fb5f20619e4e8acecec4fcb6319aafb1c2edd7e04bdbd8d8b\", \"terms\": 5800}, {\"degree\": 41, \"sha256\": \"7a8b19f6dd0ca3d4533085891cd33cd1ada3b0cff552c9b3f36194506708e5af\", \"terms\": 5728}, {\"degree\": 41, \"sha256\": \"163b481e23471180dc8e14d3eb7459357b58f4637bdbe6f229615e0190915df6\", \"terms\": 5707}, {\"degree\": 40, \"sha256\": \"a09664246ee54baa396d4ee15d8077eefe087415fc25d051f443c8ffcc9c6580\", \"terms\": 5565}, {\"degree\": 40, \"sha256\": \"02722b32739ea3b6df1020cb6078fdec0889f4077b75a7adb9261eac0bde332b\", \"terms\": 5554}, {\"degree\": 39, \"sha256\": \"8cbdfe88f9cda35cc052c924315c512cd24dd64088de874c0b8c66aa28822a30\", \"terms\": 5406}, {\"degree\": 39, \"sha256\": \"88917d7930fb0fe482f271a5a56a7f60d1d972e7e044836e2eca70acf7a1c348\", \"terms\": 5406}, {\"degree\": 38, \"sha256\": \"4df1d1f31ec1d5c95d3d079ca555bb2f31f0251fe707de0d3ed5dd75a8459e92\", \"terms\": 5242}, {\"degree\": 38, \"sha256\": \"d4f50ce0a678b5d25553973f3ed4586d9d87e0794f000b427f50ad8753d286e1\", \"terms\": 5092}, {\"degree\": 37, \"sha256\": \"646c88a0e8856c7d8be3411c5803325075f6882881ac49a7eb73f090a5ab756b\", \"terms\": 5086}, {\"degree\": 37, \"sha256\": \"7027b25e5f16c54dfb0ee006214891dfbafd875fc4094f5fd5f75a598765fedc\", \"terms\": 4954}], \"basis_sha256\": \"09609c7a17cef90f854d055792fa1aea3781dd3daf1806b3bd566692118b0180\", \"basis_size\": 151, \"cell\": \"F07-R11\", \"dimension\": 1, \"localizer_factor_count\": 25, \"localizer_nilpotence_index\": 1, \"localizer_powers\": [], \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"b68995e7d4b5899d6527133a0f2dd0ee58eecc9eddfadd623c3e97d2d482121a\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"d3e16ddce1b265c3e8e74f9d47b49fd146d2187453439c2ebad6129883ef63eb\", \"terms\": 6, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"d9133c2803b226787016ee3b4bc817d9d06f3c29b6bea9a323e53f2fa6d0f642\", \"terms\": 11, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"f4819704895342a66f617b55000027181b7434f0794d8fb70f3cb7a7e94f1928\", \"terms\": 16, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"bcd64a2a1cb756677577c96b19f05eeb513463beaaf9edaa79c9b55e9a57ea82\", \"terms\": 20, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"254bd2cda429b96fabc5ed7036b015f6dcd44587643d15ceedc7d4d75319447f\", \"terms\": 32, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"2f5fa9c7fdc85417a83d4abe2eaa02134b9c77163d46bec849236382877ff6ec\", \"terms\": 32, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"2df0cac85bcf6ee46b21a6e1b1b06ac271eb8270f5a415284655a66dad14afcd\", \"terms\": 64, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5d0644344a8f09380dead109767e1fe56e6aee422b679a0b061a54a6fd78e116\", \"terms\": 64, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"bb691f509bc87b43272077b124c42d905cd418f161be9c1ac8a667643f5fcbb0\", \"terms\": 128, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"a552f65234e206f78f9a7cfb39f766f2c2bb72604ce2dcf91fe73b76e5ad8376\", \"terms\": 128, \"zero\": false}, {\"degree\": 16, \"index\": 14, \"sha256\": \"c8a1060b62f9680f4f436e7cd9cd69f4c45de05b9db05737bef1830a69e29918\", \"terms\": 378, \"zero\": false}, {\"degree\": 32, \"index\": 15, \"sha256\": \"ac7fee0a53d01889601ef4d98346b29c7772b02ff589e0143a252b12f185c0a9\", \"terms\": 4005, \"zero\": false}, {\"degree\": null, \"index\": 16, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"prime\": 2130706433, \"terminal\": \"EMPTY_AFTER_ESSENTIAL_CORE_LOCALIZATION\", \"unit_ideal\": false, \"vector_space_dimension\": \"ERROR:TypeError:int() argument must be a string, a bytes-like object or a real number, not 'PlusInfinity'\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-balanced-core-groebner-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

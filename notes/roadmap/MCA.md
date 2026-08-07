@@ -32,11 +32,12 @@ certificates required by the challenge.
   moving cells. The balanced `M01-R11` cell and its literal `M02-R11`
   companion remain PROVABLE: parity and certificate checks pass, but three
   Sage environments fail at the external Singular basis-conversion bridge.
-  Current aligned-positive coverage is therefore `22/36`, with those two
-  cells and the twelve `F04`--`F07` cells remaining. PR #1149's exact
-  quadratic compatibility theorem and six-orbit compression are now pinned
-  and independently replayed as PROVED; both `V!=0` and `U=V=0` branches
-  remain open for each orbit.
+  The direct generic/rank-drop localization now also closes all four
+  `F04`--`F07-R11` cells. Current aligned-positive coverage is therefore
+  `26/36`, with those two moving cells and the eight `F04`--`F07` cells over
+  `R02/R20` remaining. PR #1149's exact quadratic compatibility theorem and
+  six-orbit compression are pinned PROVED; its two balanced fixed orbits are
+  fully closed and four fixed orbits remain.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
