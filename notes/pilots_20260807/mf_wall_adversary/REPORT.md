@@ -157,3 +157,34 @@ Discriminating power, demonstrated not asserted: the **PROVED** rate-quarter sib
 Every `python3` invocation went through `tools/ramguard tiny|local -- python3 …` from the repo root, with the literal `--`. No `dag.json`, `nodes/`, or `tools/` edit; no git writes; no Modal; stdlib only. **Quarantine held:** I never opened `notes/pilots_20260802/CAMPAIGN_LEDGER.md` at all, never opened `notes/pilots_20260807/ge_lattice_cert`, and passed the clause verbatim to all three subagents.
 
 All under `notes/pilots_20260807/mf_wall_adversary/`: `PREREG.md` (brief + my registrations, appended before compute); `s4_power.py` (S4-P1); `rh_bucket.py` (exact bucketed chart enumeration, guarded/random arms, gcd + overlap + budget-elasticity instrumentation); `ls6_probe.py` (red 2, + hypergeometric reference); `ledger.py` (exact packing ledger); `red3_split.py` (the 142/266 split); `out_ell4.jsonl`, `out_ell4_rand.jsonl`, `out_ell5.jsonl`, `out_ell5_full.jsonl`.
+
+
+# REPORT APPENDIX — the pilot's SECOND (corrected, complete) final message (persisted verbatim by the coordinator, same task, 2026-08-07)
+
+Coordinator note: the first final message was emitted while the
+ell=6 and W1 runs were still in flight; this second message is the
+complete record. The 'provenance anomaly' it flags is the
+coordinator's own banking artifacts (REPORT.md persistence +
+FABLE_AUDIT.md), written per standing practice but prematurely —
+see the audit postscript.
+
+The gap in self-correction 5 is now closed. The ell=5 W1 comparison is **fully matched** (both arms split-only, both exhaustive, both GT2-gcd-trivial, 6 configs each):
+
+| ell=5, q=127, split-only | guarded congruence kernel | uniformly random flat |
+|---|---|---|
+| MAXPACK max | **4** | **5** |
+| max pair overlap | **2** = `ell-3` | **3** |
+| NSPLIT mean | 76.0 | 84.33 |
+| BB exhaustive / gcd-trivial | yes / 6 of 6 | yes / 6 of 6 |
+
+**Three corrections to my report, all in the direction of strengthening the result:**
+
+1. **Self-correction 5 is retired.** I flagged the ell=5 W1 comparison as filter-mismatched (random-split vs guarded-full). It no longer is — the guarded split-only arm completed. **S4-P2 now has two independent, properly matched cells** (ell=4: guarded 4 vs random 5; ell=5: guarded 4 vs random 5), with the same signature in both: the guarded flat sits exactly one below the generic flat, and respects the sharpened overlap cap `ell-3` (1, then 2) where the random flat does not (2, then 3).
+
+2. **W1's falsification is firmer than I reported.** The conclusion — the cap-4 is *not* an (MF)-parametric fact but a property of the guarded congruence structure, hence withdrawn as evidence for the one-wall classification — now rests on matched arms at two values of `ell` rather than one.
+
+3. **My self-correction 2 is confirmed as seed-specific.** The earlier anomalous run (MAXPACK 16, pair overlap 6, violating the proved cap `2s=4`) came from seed 20260807. At seed 777 the guarded split-only arm behaves exactly as expected — overlap 2, cap 4 — which corroborates that the anomaly was the missing exact-contributor filters interacting with one particular configuration, not a systematic defect in the enumeration. The withdrawal stands.
+
+Nothing else in the report changes: the graded verdict is unaffected (**SAME WALL for reds 1 &amp; 2** on the repaired METHOD test that passes all three power controls; **UNDECIDED for red 3**, with 266 of 408 rows at `t ≥ 4` where (MF) cannot be instantiated and the t-petal injection lemma named as the missing experiment), and the round-23 statement-level test still fails the S4-P1 power control against the PROVED rate-quarter sibling.
+
+The provenance anomaly also stands unchanged and still needs a human eye: `REPORT.md` and `FABLE_AUDIT.md` in my pilot directory were not written by me, were written while these very runs were still in flight, and carry a status verdict I neither produced nor ratify.

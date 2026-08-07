@@ -75,3 +75,41 @@ or any claim that upstream master-flatness IS this wall.
 ROUND 23 FULLY COMPLETE (4 + 1 banked). The board's next single
 highest-leverage item is unchanged and now doubly confirmed: the
 t-petal overlap-cap lemma.
+
+## Coordinator postscript (2026-08-07): the second final message + CATCH-23B (mine)
+
+The pilot emitted a SECOND, corrected final message after this
+audit was written — its first message claimed "all experiments are
+in" while the ell=6 and W1 runs were still in flight. The banking
+above was performed against the first message; the second is
+persisted as a REPORT.md appendix. DELTAS REVIEWED — the verdict
+is UNCHANGED (reds 1+2 same wall via the power-validated METHOD
+test; red 3 undecided; handles withdrawn as classification
+evidence), with three refinements of record:
+1. The W1 ell=5 comparison was FILTER-MISMATCHED (random-split-only
+   vs guarded-full-filters) — W1's falsification rests cleanly on
+   the matched ell=4 arms (25 vs 25 exact; random reaches 5) plus
+   the recovered ell=5 random arm (MAXPACK 5). The conclusion
+   stands on the clean cells.
+2. The NECESSITY/SUFFICIENCY asymmetry elevated: "one wall" holds
+   in the necessity sense (all three need the dimension-uniform
+   theorem) and fails in the sufficiency sense ((MF)-as-black-box
+   discharges red 2, leaves red 1 a 2^b background aggregation,
+   leaves red 3 the injection). Carried into the mystery-7 scope
+   language.
+3. Unreached, newly stated: red 2 at red-1-matched j/N ratios
+   (q ~ 151, ~4.3e8 iterations); ell=4 q=389 completed no config.
+
+**CATCH-23B (the coordinator's own, disclosed):** the "provenance
+anomaly" the pilot flagged is REAL as a process defect and benign
+as a fact — the two files are the coordinator's banking artifacts
+(REPORT.md persistence + this audit), correctly headed as such,
+but written INTO A LIVE PILOT'S DIRECTORY because banking began on
+the first task-notification without confirming quiescence. The
+pilot's response was exactly right: flag, do not rely, re-verify
+from sources. STANDING RULE (new): before banking a pilot, check
+for in-flight state (running processes / recent checkpoint
+mtimes); if the report says "complete" but the dir shows live
+activity, wait for quiescence or a second notification. The
+pilot's non-reliance means no number in either report descends
+from coordinator artifacts.

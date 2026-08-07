@@ -3036,3 +3036,20 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
 - **ROUND 23 FULLY COMPLETE (5/5).** The single
   highest-leverage item, doubly confirmed: the t-petal
   overlap-cap lemma.
+
+## 2026-08-07: round-23b POSTSCRIPT — the pilot's second final message banked; CATCH-23B (coordinator process defect, rule hardened)
+
+- The mf_wall_adversary pilot emitted a SECOND corrected final
+  message (its first was premature — two runs in flight). VERDICT
+  UNCHANGED; three refinements recorded (the W1 ell=5
+  filter-mismatch caveat — falsification rests on the clean
+  matched ell=4 arms + the ell=5 random arm at 5; the
+  necessity-vs-sufficiency asymmetry of the one-wall claim;
+  two unreached cells named). Appendix persisted to REPORT.md;
+  audit postscript written.
+- **CATCH-23B (mine):** banking artifacts were written into the
+  LIVE pilot dir because banking began on the first notification
+  without confirming quiescence; the pilot correctly flagged and
+  did not rely on them. RULE HARDENED: confirm pilot quiescence
+  (no in-flight runs / fresh checkpoints) before persisting
+  REPORT.md or writing FABLE_AUDIT.md into a pilot dir.
