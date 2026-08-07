@@ -5,7 +5,8 @@
 - **Proved reductions:** petal cofactor envelope, positive official
   codimension, uniform fixed-background codimension at least `ell-1`, exact
   sharp projective split-flat descriptor, sharp flat-wide gcd triviality, and
-  pure dyadic quotient-pullback absence.
+  pure dyadic quotient-pullback absence, plus aggregate joint-support distance
+  and packing without background enumeration.
 - **Global composition:** the fixed-source result plus at most four anchors
   is global by first-layout domination.
 - **Output:** one polynomial or legitimate profile payment with internal

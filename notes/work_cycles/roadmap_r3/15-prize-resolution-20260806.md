@@ -2300,3 +2300,43 @@ new assumptions: none
 compute: no Modal; 161 finite-field rank cells under 256 MB RAM guard
 next: aggregate root-rich numerator ownership; no per-background-set union bound
 ```
+
+### Aggregate primitive cofactor distance
+
+For two distinct exact contributors at one fixed source, touched pair, and
+defect parameter `s`, the primitive cofactor determinant
+
+```text
+Delta=A_1A'_2-A'_1A_2
+```
+
+is nonzero of degree at most `2s`. It vanishes on every shared missed-core
+root and every shared background-agreement root. Therefore
+
+```text
+|D intersect D'|+|R intersect R'|<=2s.
+```
+
+The combined supports have size at least `ell+2s`, so direct
+constant-weight packing gives
+
+```text
+L_(s,pair)
+ <= floor(binom(k-1+b,2s+1)/binom(ell+2s,2s+1)).
+```
+
+This is the first aggregate theorem that avoids selecting `R`. Its exponent
+still grows with `s`, so it diagnoses rather than closes the remaining
+primitive shift-pair problem.
+
+```text
+starting pin: be51e167f; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / aggregate shift pair
+result: PROVED joint core/background distance and aggregate packing
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair distance layer
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 7140 determinant-pair replays under 256 MB RAM guard
+next: improve the dimension-dependent packing using exchange or master-flatness structure
+```

@@ -13,6 +13,8 @@ l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence
   [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension
   [PROVED] --------------------------------------------------ev----+
+l1_fpc5_ratehalf_m4_t2_joint_support_distance
+  [PROVED] --------------------------------------------------ev----+
                                                                     v
   l1_fpc5_ratehalf_m4_t2_payment [TARGET]
     --req--> l1_fpc5_m4_t2_payment [CONDITIONAL]

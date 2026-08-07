@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_joint_support_distance",
+    "title": "Primitive two-petal cofactors give an aggregate core/background distance bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For two distinct exact rate-half M=4,t=2 contributors in one fixed source, touched pair, and defect parameter d=ell+s, the primitive cofactor determinant A_1A'_2-A'_1A_2 is nonzero of degree at most 2s and vanishes on every shared missed-core and shared background-agreement point. Hence the combined overlap is at most 2s. The combined supports have size at least ell+2s, yielding the aggregate bound floor(binom(k-1+b,2s+1)/binom(ell+2s,2s+1)) without enumerating background sets. Its exponent grows with s, so no uniform polynomial payment is claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca primitive shift-pair control / exact second-moment ledger",
+      "relation": "FPC5_DISTANCE_LAYER"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_two_full_petal_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

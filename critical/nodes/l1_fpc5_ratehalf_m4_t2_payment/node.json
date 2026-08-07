@@ -5,8 +5,8 @@
     "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment",
     "status": "TARGET",
     "key": true,
-    "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. Every fixed exact-background guarded cell now has locator codimension at least ell-1, with equality on r=s and codimension at least ell for r>=s+1. Without selecting the uniquely reconstructed background set, the complete fixed-s residual is one joint locus where F splits on the source core and W_F has at least s background roots. At the sharp endpoint this is a typed projective flat with flat-wide common gcd one and no proper pure multiplicative quotient pullbacks. The remaining content is aggregate root-rich split-pair control, including possible partial-tail/rational/dihedral structures and internal-owner multiplicity.",
-    "attack_surface": "prove an aggregate root-rich split-pair count for F split on the source core and its unique W_F with at least s background roots, without summing fixed-background flats",
+    "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. Every fixed exact-background guarded cell now has locator codimension at least ell-1, with equality on r=s and codimension at least ell for r>=s+1. Without selecting the uniquely reconstructed background set, the complete fixed-s residual is one joint locus where F splits on the source core and W_F has at least s background roots. Primitive cofactor determinants bound combined core/background overlap by 2s and give one aggregate constant-weight packing without enumerating background sets, but its exponent grows with s. At the sharp endpoint the flat has common gcd one and no proper pure multiplicative quotient pullbacks. The remaining content is a uniform strengthening of the root-rich shift-pair packing, including possible partial-tail/rational/dihedral structures and internal-owner multiplicity.",
+    "attack_surface": "strengthen the proved aggregate determinant-distance packing for the root-rich split pair to a fixed polynomial exponent, using guarded cofactor, exchange, or master-flatness structure",
     "falsifier": "a fixed official rate-half source whose internally first-owned two-full-petal contributors exceed every polynomial and legitimate profile column",
     "refs": [
       "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md",
@@ -19,7 +19,8 @@
       "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
-      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md"
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/statement.md"
     ]
   },
   "requires": [],

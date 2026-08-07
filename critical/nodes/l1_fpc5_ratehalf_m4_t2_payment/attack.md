@@ -2,7 +2,8 @@
 
 1. Use the uniform fixed-background theorem: every guarded cell has locator
    codimension at least `ell-1`. Do not sum its per-cell bound over background
-   subsets; attack the aggregate root-rich pair `(F,W_F)` directly.
+   subsets. The determinant packing already controls the aggregate but has a
+   growing exponent; strengthen that exact shift-pair bound.
 2. Do not pursue universal algebraic emptiness: the exact `F_97,H_32`
    certificate has 71 primitive contributors across 41/50 adversarially
    labelled layouts.
@@ -14,7 +15,8 @@
    only the surviving partial-fiber/tail, rational-pullback, and dihedral
    ownership classes; arbitrary source layout prevents assuming them.
 5. Quantify any spread bound against the polynomial image-fiber target. A
-   dimension-dependent binomial exponent is not a payment.
+   dimension-dependent binomial exponent, including the proved joint-support
+   packing ratio, is not a payment.
 6. Keep the six touched pairs disjoint by their unique exact pair. The
    background set is also unique from `W_F`, but any rechart of it needs a
    polynomial first-owner compression. Source-layout multiplicity has already

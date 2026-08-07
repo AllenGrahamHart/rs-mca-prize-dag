@@ -34,6 +34,23 @@ F split on C,       W_F has at least s roots on B.      (RH0)
 The exact set `R=Z_B(W_F)` is unique, but an independent sum over all
 `binom(b,r)` possible sets is not a polynomial payment.
 
+Primitive cofactor determinants give the first direct aggregate bound. For
+two distinct contributors at fixed `s` and touched pair,
+
+```text
+|D intersect D'|+|R intersect R'|<=2s,               (RH0a)
+```
+
+and hence
+
+```text
+L_(s,pair)
+ <= binom(k-1+b,2s+1)/binom(ell+2s,2s+1).            (RH0b)
+```
+
+This avoids background-set enumeration, but its exponent grows with `s` and
+is not the required uniform polynomial payment.
+
 The proved sharp projective-flat descriptor now identifies this endpoint
 exactly. For each fixed touched pair, contributors inject into
 
