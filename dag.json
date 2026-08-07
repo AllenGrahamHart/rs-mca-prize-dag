@@ -13967,7 +13967,7 @@
    "refs": [
     "critical/nodes/dli_wcl_slot_1_6_emptiness/statement.md"
    ],
-   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   {
    "id": "dli_wcl_slot_2_7_emptiness",
@@ -28167,6 +28167,28 @@
     "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/statement.md",
     "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/proof.md",
     "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/verify.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "title": "DLI WCL ell=1 weight-6 exclusion on the first 64 split primes",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "For q=k*2^41+1, exact normalized pair/triple meet-in-the-middle search excludes every reduced signed weight-6 relation at an order-512 root on the certified first 64 prime rows, 3<=k<=996. All 129,540 legal pairs and 21,849,080 legal triples are exhausted per row. This is finite evidence only; later characteristics, extension rows, the universal (1,6) slot, and WCL-ZONE remain open.",
+   "refs": [
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/statement.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/proof.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/claim_contract.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/audit.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/result.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/lineage.md",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify.py",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify_audit.py",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/notes/verify_search_remote.py",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm.cpp",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_result.json"
    ]
   },
   {
@@ -54056,6 +54078,16 @@
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness",
    "kind": "req"
+  },
+  {
+   "from": "dli_wcl_weight5_first64_mitm_exclusion",
+   "to": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
   },
   {
    "from": "b1_char0_giant_coset_theorem",

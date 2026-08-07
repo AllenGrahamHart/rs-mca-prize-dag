@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1806,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+    "title": "DLI WCL ell=1 weight-6 exclusion on the first 64 split primes",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "For q=k*2^41+1, exact normalized pair/triple meet-in-the-middle search excludes every reduced signed weight-6 relation at an order-512 root on the certified first 64 prime rows, 3<=k<=996. All 129,540 legal pairs and 21,849,080 legal triples are exhausted per row. This is finite evidence only; later characteristics, extension rows, the universal (1,6) slot, and WCL-ZONE remain open.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/lineage.md",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify_audit.py",
+      "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/notes/verify_search_remote.py",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm.cpp",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_weight5_first64_mitm_exclusion",
+      "order": 5019
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 5020
+    }
+  ],
+  "refutes": []
+}

@@ -42,6 +42,8 @@
     "background/nodes/dli_primitive_matching_truncation_majorant/statement.md": "11b6049e94818acc53be4a4ee79caad8543f77bd01ce5a2d65f5a8d96bf150d3",
     "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/proof.md": "864461603a87578172a923bc68c0a1077bc40b11a8815287853a7dc089b77783",
     "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/statement.md": "0d55bea54ff76ac7e63220fbe715abf4b4e717e25c60a261973da6b6a6fa4e80",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/proof.md": "302982a3dd994aff551fa1c95cac877ff0fd547b69489fea582d2fc09e3b92b6",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/statement.md": "d9e561e3d6f638715d6fac1dffaaa42fadfcc309ae62adc49a576849351a65b0",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/proof.md": "b5de8094b60391f8a183df0fb8fc6d8879f978aea26ee73b2f371858500331a5",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/statement.md": "470cd0f1791980efe87358a9fc00a82d5d27dbb8d8dfc92dcc8cc9024d36dd4f",
     "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/proof.md": "37bd90cfb048f425def00509d42b088673cf64c16732a4eac8d871c4607a3c25",
@@ -2671,6 +2673,7 @@
     "critical/nodes/xr_true_tangent_coordinate_injection/statement.md": "5e75d313e94f43ebc4e4ecd412ee4b76060bc1057ed9b3d1dbccef47a048b5e0"
   },
   "remote_launchers": {
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/notes/verify_search_remote.py": "6678b9cbf3b1c0d6b53c7895a9198bfee14f02f2dab981a12f31ffb299bdbb86",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/notes/verify_classes_remote.py": "b11b6003b84eaebc003931eb92900b33e143ec55235a94a599bbac0abc6a7210",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/notes/verify_primes_remote.py": "ba525eba31ad18e0fa69a28681bd23ca4ed4f3f156492de2b12bd8ea9bad33ee",
     "background/nodes/dli_wcl_ell2_weight5_norm_gcd_exclusion/notes/verify_resultants_remote.py": "3255e9564b2f645d5083857805875b80b785b546eedeea299980aab94a54bda8",
@@ -2719,6 +2722,8 @@
     "background/nodes/dli_primitive_matching_truncation_majorant/verify.py": "a132921bab2d0fe1dd9a93e492d19d4f7dea5fba729ebfe4d9574ac77841cd77",
     "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify.py": "987f2a71fb9386c6d198bedda1fde45acdd69008ea8ef58da05732fe2b927805",
     "background/nodes/dli_wcl_ell1_weight6_even_norm_divisor_descent/verify_audit.py": "3195825b40853c779f4e092ab15a1875cd6497a3b3b1235e2e6632c7089e2616",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify.py": "8319ebbe1bfc6a58eb3c9d2d0cdf035d95371b3d89db0ab7797b254fa8697841",
+    "background/nodes/dli_wcl_ell1_weight6_first64_mitm_exclusion/verify_audit.py": "fab4fb4650a8b50e4b6768c89d13b61b20057001b552c2b209bda1a844e92467",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_ledger.py": "bcaefb2b494f4a8953ffe2ddea469f74a697605ffa7029b10c6c44ecb1ed0e98",
     "background/nodes/dli_wcl_ell2_weight3_ambient_exclusion/verify_primes.py": "8486611afb0fd0115d3f7821768cdc705336d3d1be9d4fea933231d221143ef1",
     "background/nodes/dli_wcl_ell2_weight4_newton_exclusion/verify.py": "9be765a5895d0367db53e58049b9dbe92cf9aa8e7d547c474451188f7d678277",

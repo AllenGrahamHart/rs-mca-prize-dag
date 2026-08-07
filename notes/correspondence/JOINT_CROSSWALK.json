@@ -1065,6 +1065,25 @@
    }
   },
   {
+   "our_node": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "finite exact exclusion on the first 64 prime values q=k*2^41+1; upstream has no corresponding WCL tower terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no exclusion for later characteristics or extension-field rows",
+    "no promotion of the universal WCL (1,6) target"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "08d5f36fb",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "dli_wcl_slot_1_7_emptiness",
    "his_object": null,
    "relation": "OURS_ONLY",

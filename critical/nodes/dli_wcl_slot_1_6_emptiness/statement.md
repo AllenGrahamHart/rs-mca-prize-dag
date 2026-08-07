@@ -9,3 +9,8 @@ an order-512 root (ell=1 window). Zero-event obligation. Evidence note:
 weight-6 witness) — the official-admissibility gate (v_2(q-1) >= 41) is
 load-bearing. FALSIFIER: one official-admissible prime with such a
 vanisher.
+
+Finite exact evidence: the first 64 certified split-prime characteristics,
+`q=k*2^41+1` for prime rows with `3<=k<=996`, exhaust all normalized legal
+pair/triple splits and contain no vanisher. This does not alter `TARGET`:
+later characteristics and extension-field rows remain unclassified.

@@ -1398,3 +1398,40 @@ new assumptions: none
 compute: tiny F_17 exact replay only; no Modal spend
 next: retain first-owner strips and seek a uniform translated-divisor incidence bound; do not count H alone
 ```
+
+### WCL `(1,6)` first-64 exact falsification panel
+
+The next bounded attack tested the target itself rather than extending the
+expensive certificate route. Any reduced signed six-term relation can be
+rotated to contain `1`. Removing that term and its antipode leaves 510 roots,
+so an exact meet-in-the-middle search needs only
+
+```text
+129,540 legal pairs and 21,849,080 legal triples per characteristic.
+```
+
+The search exhausted the first 64 certified prime values of
+`q=k*2^41+1`, `3<=k<=996`. All 64 rows returned no relation: in total
+`8,290,560` pairs and `1,398,341,120` triples were checked. A second
+sorted-pair implementation independently replayed the first, middle, and
+last rows. The finite theorem is banked as
+`dli_wcl_ell1_weight6_first64_mitm_exclusion [PROVED]`.
+
+This is exact falsification survival, not a universal proof. The target
+`dli_wcl_slot_1_6_emptiness` remains `TARGET`, and a larger prime panel would
+not materially reduce its quantifier. Return now to the structural
+even-norm divisor route: seek a smaller gate-aware characteristic-divisor
+certificate rather than buying a larger census.
+
+```text
+starting pin: 08d5f36fb; canonical 23df01a65; upstream main 93fba1be
+open upstream PR relevant to selected lane: #1150 draft, F2 only; no WCL supplier
+lane: WCL / (ell,h)=(1,6)
+result: NARROWED; exact first-64 falsification panel survived
+DAG status delta: +1 background PROVED evidence node; target unchanged
+upstream terminal delta: none; classified OURS_ONLY
+delta-star bracket movement: none
+new assumptions: none
+compute: Modal ap-3shnVd7pQ1dxDBBYN2Z7Ar; 64 bounded workers, zero errors
+next: derive a universal gate-aware divisor certificate; do not extend the prime census by default
+```
