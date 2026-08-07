@@ -14,5 +14,5 @@
    branch is empty, and the ambient mean is exponentially below one.
 7. Separate the aperiodic primitive census from even-`a` dyadic pullbacks and
    reciprocal/dihedral strata. Odd `a` has no pure multiplicative pullback.
-8. Enforce `deg Etilde>=a`; aligned common-pencil sources are empty. Any
-   quotient attack must address only misaligned or non-pencil source data.
+8. Enforce `deg Etilde>=a`; every common-pencil source is empty, whether its
+   labels are aligned or misaligned. Attack only genuinely non-pencil data.

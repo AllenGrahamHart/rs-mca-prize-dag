@@ -2474,3 +2474,42 @@ new assumptions: none
 compute: no Modal; finite-field CRT arithmetic replay under 256 MB RAM guard
 next: misaligned primitive max-to-mean and owner-safe periodic/dihedral transport
 ```
+
+### Misaligned common-pencil LS6 stratum also empty
+
+For common petal locators `L_i=P-z_i`, source-label misalignment makes the
+CRT multiplier a fourth pencil member:
+
+```text
+Etilde=A(P-z_0),       A!=0.
+```
+
+Writing `D Etilde=L_2L_3Q+V` with `deg Q,deg V<=ell-a`, reduction modulo
+`P-z_0` and the fact that both low polynomials have degree below `ell` force
+
+```text
+V=-(z_0-z_2)(z_0-z_3)Q.
+```
+
+The difference-of-fibers factorization then gives
+
+```text
+A D=Q(P+z_0-z_2-z_3),       deg Q=ell-a>0.
+```
+
+Thus `Q` divides both `D` and `V`, violating the exact LS6 gcd guard.
+Together with the aligned theorem, every common-pencil three-petal LS6 atom
+is empty. The master-flat frontier now starts only with genuinely non-pencil
+petal data.
+
+```text
+starting pin: cf4254504; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / structured LS6 strata
+result: PROVED misaligned common-pencil exactness obstruction; all common pencils empty
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable complete common-pencil stratum exclusion
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact polynomial factorization replay under 256 MB RAM guard
+next: primitive max-to-mean and owner-safe non-pencil periodic/dihedral transport
+```

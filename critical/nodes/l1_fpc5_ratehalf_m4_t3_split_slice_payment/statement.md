@@ -42,6 +42,8 @@ where `Q` is the generated-field size of the descriptor.
 Thus the live primitive issue is a sub-balance maximum-versus-average
 split-flat bound. Pure multiplicative pullbacks are absent for odd `a`; the
 even-`a` quotient and all dihedral strata still require owner-safe treatment.
-Every nonempty atom also satisfies `deg Etilde>=a`. The exactly aligned
-common-pencil source has constant `Etilde` and is therefore empty, so the
-remaining structured branch is necessarily misaligned or non-pencil.
+Every nonempty atom also satisfies `deg Etilde>=a`. If the three touched
+petal locators lie in one common pencil, affine source alignment makes
+`Etilde` constant and misalignment forces a nonconstant common factor in
+`D` and its remainder. Both cases are empty. The remaining branch is
+therefore genuinely non-common-pencil.
