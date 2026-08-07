@@ -19645,6 +19645,42 @@ new assumptions: none
 compute: no Modal; exhaustive exact audits over 12,266 signed pairs and 74,152 active subsets
 next: replay active patterns per consumed row; compile the four owner predicates; count survivors
 ```
+
+### X4/SP structural zero-fold divisibility
+
+A structural zero fold is exact integral information.  If
+`C(X)=sum c_aX^a`, then
+
+```text
+beta_a=0  iff  Phi_(N/2^a)(X) divides C(X) in Z[X].
+```
+
+Balance also gives `X-1|C`.  Evaluating these pairwise-coprime factors at
+every active dyadic order contributes an exact power of two, strengthening
+the Haar pattern gate to
+
+```text
+2^(|S|+T_2(S,Z)) p^R_S A_S^A_S <= (eN)^A_S,
+T_2(S,Z)=sum_(j in S,a in Z)min(n_j,n_a)/2.
+```
+
+Thus zero-heavy patterns can be cheaper to eliminate than the fully active
+pattern.  The theorem does not silently assign them to the quotient or
+moment staircase columns; that requires a separate owner and expansion
+proof.
+
+```text
+starting pin: e79cb3180; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: CHARGED every structural zero fold by exact dyadic norm divisibility
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP zero-pattern refinement for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exhaustive exact audit at N=8,16 over 12,266 signed pairs
+next: evaluate the strengthened pattern gate row-wise and classify surviving integral factor patterns
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

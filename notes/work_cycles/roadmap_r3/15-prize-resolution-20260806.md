@@ -1882,3 +1882,30 @@ new assumptions: none
 compute: no Modal; exhaustive exact audits over 12,266 signed pairs and 74,152 active subsets
 next: replay active patterns per consumed row; compile the four owner predicates; count survivors
 ```
+
+### X4/SP structural zero-fold divisibility
+
+Every zero fold is equivalent to an integral cyclotomic factor of the signed
+support polynomial.  Together with the balance factor `X-1`, these factors
+strengthen the active norm product to
+
+```text
+2^(|S|+T_2(S,Z)) p^R_S A_S^A_S <= (eN)^A_S,
+T_2(S,Z)=sum_(j in S,a in Z)min(n_j,n_a)/2.
+```
+
+The comparison deletes impossible zero/active patterns but does not assign a
+first owner or count survivors.
+
+```text
+starting pin: e79cb3180; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: CHARGED every structural zero fold by exact dyadic norm divisibility
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP zero-pattern refinement for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exhaustive exact audit at N=8,16 over 12,266 signed pairs
+next: evaluate the strengthened pattern gate row-wise and classify surviving integral factor patterns
+```

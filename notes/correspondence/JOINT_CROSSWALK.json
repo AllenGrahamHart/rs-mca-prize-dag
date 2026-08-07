@@ -2093,6 +2093,31 @@
     "our_sha": "51da18d95",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_zero_fold_norm_divisibility",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "zero dyadic fold -> integral cyclotomic factor -> exact cross-order powers of two -> strengthened Haar norm-product gate",
+   "scope": "every active/zero pattern of a balanced signed shift pair on a dyadic domain",
+   "owner": "US",
+   "nonclaims": [
+    "does not identify structural zero folds with an upstream quotient owner",
+    "does not force or count any surviving fold pattern",
+    "does not compile the X4 first-owner map or pay its primitive allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e79cb3180",
+    "his_sha": "93fba1be"
+   }
   }
  ]
 }

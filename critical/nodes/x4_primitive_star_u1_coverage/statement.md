@@ -137,7 +137,16 @@ p^R_S A_S^A_S <= (eN)^A_S.                         (H-S)
 
 Scale zero belongs to the complete active set of every primitive record.
 Thus every active-fold pattern violating `(H-S)` is empty.  Structural zero
-folds and all patterns surviving the comparison remain open.
+folds strengthen, rather than evade, this comparison.  If `Z` is the set of
+supplied zero folds, then balance and exact cyclotomic divisibility give
+
+```text
+2^(|S|+sum_(j in S,a in Z)min(n_j,n_a)/2)
+ p^R_S A_S^A_S <= (eN)^A_S.                        (Z-S)
+```
+
+Every pattern violating `(Z-S)` is empty.  Patterns surviving this stronger
+gate and their populations remain open.
 
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
