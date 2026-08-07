@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions",
+    "title": "KoalaBear fixed-literal guarded logarithmic numerator exclusions",
+    "status": "PROVED",
+    "closure": "three exact homogeneous numerator-route intersections",
+    "statement": "The guarded irreducible degree-67 logarithmic numerator has empty named-open intersection with the surviving cubic/J11 route in F05-R02, F07-R02, and F06-R20. Exact homogeneous Horner evaluation of V^15 N(-U/V) gives degree-39 remainders on the two R02 routes and a degree-41 remainder on F06-R20. After each remainder is adjoined, the complete transported named localizer reduces to zero at factor 15. Hence all three intersections are empty over the deployed field and all extensions. Timed-out F05-R20 and F06-R02 batch attempts, and the incomplete F07-R20 attempt, are not used as proof claims.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/literal_guarded_numerator_intersections_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/f07_r02_guarded_numerator_retry_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_literal_guarded_numerator_intersections_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_f07_r02_guarded_numerator_retry_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,3589 @@
+{
+  "app": "rs-mca-k3-fixed-literal-full-j-log-denominator-intersections",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 12,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "assignment": "F05",
+      "pair_index": 0,
+      "peak_kb": 389684,
+      "records": [
+        {
+          "cell": "F05-R02",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 25,
+            "degrees": [
+              16,
+              9,
+              9
+            ],
+            "sha256": "32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad",
+            "terms": 1010
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 25,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad",
+              "terms": 1010
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 51,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "507c4909d9545e9ef661d2f8e5f3b88c410a1297c388fcd0ca11e29e6f08a5b8",
+            "terms": 7483
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "7bcbd73100e15235f5ca74e002977c854f4f0758c3b0524662dff102db3feb64",
+          "basis_size": 17,
+          "cell": "F05-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a",
+              "terms": 112,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 30.481393,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "fa12f4493be5cde35e69fa6ae187f1bcc8f76c07c21a190ad9591772681c67cd",
+      "stdout_tail": "{\"cell\": \"F05-R02\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5\", \"terms\": 242}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 25, \"degrees\": [16, 9, 9], \"sha256\": \"32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad\", \"terms\": 1010}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 25, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad\", \"terms\": 1010}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 51, \"degrees\": [30, 15, 21], \"sha256\": \"507c4909d9545e9ef661d2f8e5f3b88c410a1297c388fcd0ca11e29e6f08a5b8\", \"terms\": 7483}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"7bcbd73100e15235f5ca74e002977c854f4f0758c3b0524662dff102db3feb64\", \"basis_size\": 17, \"cell\": \"F05-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8\", \"terms\": 64, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8\", \"terms\": 72, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42\", \"terms\": 80, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e\", \"terms\": 88, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a\", \"terms\": 112, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F05",
+      "pair_index": 1,
+      "peak_kb": 407768,
+      "records": [
+        {
+          "cell": "F05-R02",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 60,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "7157d39739001b246d527cc8a920567ab7211926a2e3c7547c05da7e73e55024",
+            "terms": 12236
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dda7ba5ece1f16a1a0d7ebde003f5822209fb9cc4144bfa9ae2785fadece6c0",
+              "terms": 1740
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "8787cca4f72da2226ec5e1bbd3a9da38f96ebb409d2be73ee679a263af230ac4",
+              "terms": 1741
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 96,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "c7534dc82824a9612ad346d490b9e7a84ad317e1983d51c83d8ba3c8aa33734d",
+            "terms": 48136
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "a842ad9c4c77f7152849ee9c3ff7ab8e4328b907dfda11ae6bc6219018c5ef80",
+          "basis_size": 36,
+          "cell": "F05-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a",
+              "terms": 112,
+              "zero": false
+            },
+            {
+              "degree": 44,
+              "index": 14,
+              "sha256": "e3b7706603efdb37900b8293ed2ec5423bcf94d821690ae86d98ea2ba5ffc76e",
+              "terms": 2455,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 41.456979,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "65a70f1309c95adc9526c24a391d0c6e07f2b1d29b792608df9982b9e50402bc",
+      "stdout_tail": "{\"cell\": \"F05-R02\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19\", \"terms\": 800}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 60, \"degrees\": [38, 24, 24], \"sha256\": \"7157d39739001b246d527cc8a920567ab7211926a2e3c7547c05da7e73e55024\", \"terms\": 12236}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dda7ba5ece1f16a1a0d7ebde003f5822209fb9cc4144bfa9ae2785fadece6c0\", \"terms\": 1740}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"8787cca4f72da2226ec5e1bbd3a9da38f96ebb409d2be73ee679a263af230ac4\", \"terms\": 1741}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 96, \"degrees\": [56, 30, 42], \"sha256\": \"c7534dc82824a9612ad346d490b9e7a84ad317e1983d51c83d8ba3c8aa33734d\", \"terms\": 48136}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"a842ad9c4c77f7152849ee9c3ff7ab8e4328b907dfda11ae6bc6219018c5ef80\", \"basis_size\": 36, \"cell\": \"F05-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8\", \"terms\": 64, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8\", \"terms\": 72, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42\", \"terms\": 80, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e\", \"terms\": 88, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a\", \"terms\": 112, \"zero\": false}, {\"degree\": 44, \"index\": 14, \"sha256\": \"e3b7706603efdb37900b8293ed2ec5423bcf94d821690ae86d98ea2ba5ffc76e\", \"terms\": 2455, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F05",
+      "pair_index": 0,
+      "peak_kb": 394912,
+      "records": [
+        {
+          "cell": "F05-R20",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b",
+            "terms": 1443
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 28,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b",
+              "terms": 1443
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 52,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "fed5ee70dbbc03c0d27999b6f7a0497cb9df4a26fa0c2c828a7572b429ec17b1",
+            "terms": 7502
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "63d2916a0eec1cdf0612e10eb06575e0c6e64f2bb72baf9f1efd81a38b7a0df9",
+          "basis_size": 22,
+          "cell": "F05-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4",
+              "terms": 96,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87",
+              "terms": 120,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 33.357301,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "9a73791c232eb253e74f8b09d39d6c6958cd43914d6a22aa05182d6e6aa85890",
+      "stdout_tail": "{\"cell\": \"F05-R20\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5\", \"terms\": 242}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b\", \"terms\": 1443}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 28, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b\", \"terms\": 1443}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 52, \"degrees\": [30, 15, 21], \"sha256\": \"fed5ee70dbbc03c0d27999b6f7a0497cb9df4a26fa0c2c828a7572b429ec17b1\", \"terms\": 7502}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"63d2916a0eec1cdf0612e10eb06575e0c6e64f2bb72baf9f1efd81a38b7a0df9\", \"basis_size\": 22, \"cell\": \"F05-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436\", \"terms\": 72, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8\", \"terms\": 80, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563\", \"terms\": 88, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4\", \"terms\": 96, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87\", \"terms\": 120, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    },
+    {
+      "assignment": "F05",
+      "pair_index": 1,
+      "peak_kb": 408644,
+      "records": [
+        {
+          "cell": "F05-R20",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 62,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "f1146148e15dd1884ae96295cf70c0423120814ae53bd81520d5828c948dffc9",
+            "terms": 12318
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "1568289cd43d9a8262041312fb3354234c69d5cf8ee8ea08824552e6fc5426ac",
+              "terms": 1753
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "0ef66187ed52e09c17e9ca9434d8d04159c12651d8107f8d44882ab978ef3724",
+              "terms": 1753
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 98,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "78183df637ecbaf605d876120b189ab78ca4f29af7eeed53ea238a424557b1c4",
+            "terms": 48253
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "aa7d4c8f4cc96385178e9595269d9e0a68ebceabf0086fa0e7d673b3542a8df1",
+          "basis_size": 45,
+          "cell": "F05-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4",
+              "terms": 96,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87",
+              "terms": 120,
+              "zero": false
+            },
+            {
+              "degree": 46,
+              "index": 14,
+              "sha256": "e1d8ee2d8b3d30d8d0727762781e62e7cec7be161f824f961748678faa67f4b6",
+              "terms": 1010,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 40.776197,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "9c34d42eebfc0ebd050d6b1115a97ad240aa9edbb9c6af7f541fab081074963f",
+      "stdout_tail": "{\"cell\": \"F05-R20\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19\", \"terms\": 800}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 62, \"degrees\": [38, 24, 24], \"sha256\": \"f1146148e15dd1884ae96295cf70c0423120814ae53bd81520d5828c948dffc9\", \"terms\": 12318}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"1568289cd43d9a8262041312fb3354234c69d5cf8ee8ea08824552e6fc5426ac\", \"terms\": 1753}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"0ef66187ed52e09c17e9ca9434d8d04159c12651d8107f8d44882ab978ef3724\", \"terms\": 1753}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 98, \"degrees\": [56, 30, 42], \"sha256\": \"78183df637ecbaf605d876120b189ab78ca4f29af7eeed53ea238a424557b1c4\", \"terms\": 48253}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"aa7d4c8f4cc96385178e9595269d9e0a68ebceabf0086fa0e7d673b3542a8df1\", \"basis_size\": 45, \"cell\": \"F05-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436\", \"terms\": 72, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8\", \"terms\": 80, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563\", \"terms\": 88, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4\", \"terms\": 96, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87\", \"terms\": 120, \"zero\": false}, {\"degree\": 46, \"index\": 14, \"sha256\": \"e1d8ee2d8b3d30d8d0727762781e62e7cec7be161f824f961748678faa67f4b6\", \"terms\": 1010, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    },
+    {
+      "assignment": "F06",
+      "pair_index": 0,
+      "peak_kb": 393796,
+      "records": [
+        {
+          "cell": "F06-R02",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 25,
+            "degrees": [
+              16,
+              9,
+              9
+            ],
+            "sha256": "32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad",
+            "terms": 1010
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 25,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad",
+              "terms": 1010
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 51,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "507c4909d9545e9ef661d2f8e5f3b88c410a1297c388fcd0ca11e29e6f08a5b8",
+            "terms": 7483
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "7bcbd73100e15235f5ca74e002977c854f4f0758c3b0524662dff102db3feb64",
+          "basis_size": 17,
+          "cell": "F06-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a",
+              "terms": 112,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 33.248213,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "bd01ad450022fa2ea9d5dd81e7303ef34414642d9ef515dedf67b976a4635cb5",
+      "stdout_tail": "{\"cell\": \"F06-R02\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5\", \"terms\": 242}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 25, \"degrees\": [16, 9, 9], \"sha256\": \"32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad\", \"terms\": 1010}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 25, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"32f1d72983710a5ed6e6afc0b7155cf0a547dfa8eedca9f1f1fa7b3b54ac98ad\", \"terms\": 1010}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 51, \"degrees\": [30, 15, 21], \"sha256\": \"507c4909d9545e9ef661d2f8e5f3b88c410a1297c388fcd0ca11e29e6f08a5b8\", \"terms\": 7483}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"7bcbd73100e15235f5ca74e002977c854f4f0758c3b0524662dff102db3feb64\", \"basis_size\": 17, \"cell\": \"F06-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8\", \"terms\": 64, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8\", \"terms\": 72, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42\", \"terms\": 80, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e\", \"terms\": 88, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a\", \"terms\": 112, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F06",
+      "pair_index": 1,
+      "peak_kb": 410164,
+      "records": [
+        {
+          "cell": "F06-R02",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 60,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "7157d39739001b246d527cc8a920567ab7211926a2e3c7547c05da7e73e55024",
+            "terms": 12236
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dda7ba5ece1f16a1a0d7ebde003f5822209fb9cc4144bfa9ae2785fadece6c0",
+              "terms": 1740
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "8787cca4f72da2226ec5e1bbd3a9da38f96ebb409d2be73ee679a263af230ac4",
+              "terms": 1741
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 96,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "c7534dc82824a9612ad346d490b9e7a84ad317e1983d51c83d8ba3c8aa33734d",
+            "terms": 48136
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "d391f77d409cf496416383c642e6928cecf6e55b7f2f73df0d222ceb7905654c",
+          "basis_size": 36,
+          "cell": "F06-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a",
+              "terms": 112,
+              "zero": false
+            },
+            {
+              "degree": 44,
+              "index": 14,
+              "sha256": "1eac1635356163baf4ad9a4243523031f3c68ba17726480f1f31135cdda91a76",
+              "terms": 2454,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 40.807026,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "93cb01ee822d0c0b0e53d1424b01b522dbd35af32a17f2f4bd9a7dcbe4d8f979",
+      "stdout_tail": "{\"cell\": \"F06-R02\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19\", \"terms\": 800}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"c8b626bdc43fbbd7d25609a4fa7304082447a5cafbca73b7bab01879c7b274c2\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 60, \"degrees\": [38, 24, 24], \"sha256\": \"7157d39739001b246d527cc8a920567ab7211926a2e3c7547c05da7e73e55024\", \"terms\": 12236}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"7707e8010b15220d7bd73fe7d51d12964279cc0eb6eac55bccb1839873b818de\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dda7ba5ece1f16a1a0d7ebde003f5822209fb9cc4144bfa9ae2785fadece6c0\", \"terms\": 1740}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"8787cca4f72da2226ec5e1bbd3a9da38f96ebb409d2be73ee679a263af230ac4\", \"terms\": 1741}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 96, \"degrees\": [56, 30, 42], \"sha256\": \"c7534dc82824a9612ad346d490b9e7a84ad317e1983d51c83d8ba3c8aa33734d\", \"terms\": 48136}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"d391f77d409cf496416383c642e6928cecf6e55b7f2f73df0d222ceb7905654c\", \"basis_size\": 36, \"cell\": \"F06-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"f6a9bdaa1793cc619eaf2ab85506cc3ace104477b45d35b01d1289ed050e3af8\", \"terms\": 64, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"c38dd7c09f744095ced62c9490e6606e74b15095453541de7a2de00f7a7aa4e8\", \"terms\": 72, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"d9c0d510477d128f9b5fc53607c056a88f731ee94cb3d82221a53453ba145c42\", \"terms\": 80, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"9dd95e5abd4d5b89e362c2cabee19f30eff1bbd0944e4b4f39bb7af65c70b86e\", \"terms\": 88, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"679d9472572ff15d930724c75d78a724f4aa77e860b6a0e561505b7c3ab5586a\", \"terms\": 112, \"zero\": false}, {\"degree\": 44, \"index\": 14, \"sha256\": \"1eac1635356163baf4ad9a4243523031f3c68ba17726480f1f31135cdda91a76\", \"terms\": 2454, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F06",
+      "pair_index": 0,
+      "peak_kb": 393268,
+      "records": [
+        {
+          "cell": "F06-R20",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b",
+            "terms": 1443
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 28,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b",
+              "terms": 1443
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 52,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "fed5ee70dbbc03c0d27999b6f7a0497cb9df4a26fa0c2c828a7572b429ec17b1",
+            "terms": 7502
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "63d2916a0eec1cdf0612e10eb06575e0c6e64f2bb72baf9f1efd81a38b7a0df9",
+          "basis_size": 22,
+          "cell": "F06-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4",
+              "terms": 96,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87",
+              "terms": 120,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 32.989038,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "d9568e5fdfbe4476e4de74dfe33e12bc378834ce5afab0dd5930583cc35a22ec",
+      "stdout_tail": "{\"cell\": \"F06-R20\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"64ed2472d6994c099e94dad75d887a11a4377d0177d80164ff523ce5825fcdc5\", \"terms\": 242}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b\", \"terms\": 1443}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 28, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"da968bb78a90fd2af6a3dd14b4b4100320a208001e350d48d0655100e78e348b\", \"terms\": 1443}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"581080fd9aaff82a38c4d60a1389887a5bba3e5f64b35f292251979505fb6172\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 52, \"degrees\": [30, 15, 21], \"sha256\": \"fed5ee70dbbc03c0d27999b6f7a0497cb9df4a26fa0c2c828a7572b429ec17b1\", \"terms\": 7502}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"63d2916a0eec1cdf0612e10eb06575e0c6e64f2bb72baf9f1efd81a38b7a0df9\", \"basis_size\": 22, \"cell\": \"F06-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436\", \"terms\": 72, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8\", \"terms\": 80, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563\", \"terms\": 88, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4\", \"terms\": 96, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87\", \"terms\": 120, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    },
+    {
+      "assignment": "F06",
+      "pair_index": 1,
+      "peak_kb": 410464,
+      "records": [
+        {
+          "cell": "F06-R20",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 62,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "f1146148e15dd1884ae96295cf70c0423120814ae53bd81520d5828c948dffc9",
+            "terms": 12318
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+              "terms": 6
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "1568289cd43d9a8262041312fb3354234c69d5cf8ee8ea08824552e6fc5426ac",
+              "terms": 1753
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "0ef66187ed52e09c17e9ca9434d8d04159c12651d8107f8d44882ab978ef3724",
+              "terms": 1753
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 98,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "78183df637ecbaf605d876120b189ab78ca4f29af7eeed53ea238a424557b1c4",
+            "terms": 48253
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "a8bae3ba1b5974bc415d4b933115f683e6067665363e7296100867c961176969",
+          "basis_size": 45,
+          "cell": "F06-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 9,
+              "sha256": "166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436",
+              "terms": 72,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 10,
+              "sha256": "60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 11,
+              "sha256": "5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563",
+              "terms": 88,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 12,
+              "sha256": "ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4",
+              "terms": 96,
+              "zero": false
+            },
+            {
+              "degree": 15,
+              "index": 13,
+              "sha256": "301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87",
+              "terms": 120,
+              "zero": false
+            },
+            {
+              "degree": 46,
+              "index": 14,
+              "sha256": "e1d8ee2d8b3d30d8d0727762781e62e7cec7be161f824f961748678faa67f4b6",
+              "terms": 1010,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 44.84675,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "7dbe9321b90902e67e6f5e417061d3afd26cf5e618ec8438414ad803b05c6196",
+      "stdout_tail": "{\"cell\": \"F06-R20\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"34a215dbeaf58b1c15d01d70c0cfebf7be64ab796e8e53b19b4f3bacea961d19\", \"terms\": 800}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"f7ed1181d2df2fb151a65be3d9f30c9a937b5edfa0a4c1abbbcf4fa862f7c289\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 62, \"degrees\": [38, 24, 24], \"sha256\": \"f1146148e15dd1884ae96295cf70c0423120814ae53bd81520d5828c948dffc9\", \"terms\": 12318}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9dee8f7040029003d057202727fd2e747735521d8e246ca21691d4e45eb423be\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"a8fe7e86764442a43197e17bbf88450309657adb9840f94878719b0a82fd5554\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4179457c34c9e134420c6e77d02dc022e3545d0d6f1169180f17bc4efd59f2cf\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\", \"terms\": 6}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"1568289cd43d9a8262041312fb3354234c69d5cf8ee8ea08824552e6fc5426ac\", \"terms\": 1753}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"0ef66187ed52e09c17e9ca9434d8d04159c12651d8107f8d44882ab978ef3724\", \"terms\": 1753}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"1365c3f9ce2795cb52fb0105841955f2c038b99721b433ccfa0abea5d5f73b6f\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 98, \"degrees\": [56, 30, 42], \"sha256\": \"78183df637ecbaf605d876120b189ab78ca4f29af7eeed53ea238a424557b1c4\", \"terms\": 48253}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"a8bae3ba1b5974bc415d4b933115f683e6067665363e7296100867c961176969\", \"basis_size\": 45, \"cell\": \"F06-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 10, \"index\": 9, \"sha256\": \"166159bf97c3d50970d241c36880010027538b0ccb7fec7f71a95420d5252436\", \"terms\": 72, \"zero\": false}, {\"degree\": 11, \"index\": 10, \"sha256\": \"60e5c455e330c963ceb448eb8e67a740a3f36a75d65b871ece58661f00d45bf8\", \"terms\": 80, \"zero\": false}, {\"degree\": 12, \"index\": 11, \"sha256\": \"5b81adf6ce330e175454392e1812733c48473fea2f2894808872ebb86f4a0563\", \"terms\": 88, \"zero\": false}, {\"degree\": 13, \"index\": 12, \"sha256\": \"ad118f4e3274bc7ccb271d02936da696a169ecab64154794262a4488fc5e49a4\", \"terms\": 96, \"zero\": false}, {\"degree\": 15, \"index\": 13, \"sha256\": \"301b8f3fea428ac0f6052c28224c581f539698fd2eab6bd93cc93841122d1c87\", \"terms\": 120, \"zero\": false}, {\"degree\": 46, \"index\": 14, \"sha256\": \"e1d8ee2d8b3d30d8d0727762781e62e7cec7be161f824f961748678faa67f4b6\", \"terms\": 1010, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    },
+    {
+      "assignment": "F07",
+      "pair_index": 0,
+      "peak_kb": 395400,
+      "records": [
+        {
+          "cell": "F07-R02",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "d97bf105b1c6a4eab83f13d5b63755b99ce4f7cae485fc8ca38b2cff730be4a4",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "68779898c5c4cfaa71941ed9440953789aef4ce89e0fbad62c194df2802bb896",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 25,
+            "degrees": [
+              16,
+              9,
+              9
+            ],
+            "sha256": "4b1fa9f471a380de4faeaf910c9a14c2a9ff45bc5223c24a566f7b5b8f014e9b",
+            "terms": 1010
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9b761555538ec3e6ed63e41353c0f7cee3f46a3fec9ef52b1d8e1581133f44b6",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+              "terms": 3
+            },
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 25,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4b1fa9f471a380de4faeaf910c9a14c2a9ff45bc5223c24a566f7b5b8f014e9b",
+              "terms": 1010
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "eb9b1292e5fbda1a1e2188886cf9dd604ee66923cea4f30849d219034d589664",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 51,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "0a37b03a194df44d5292f4aedb0e64a61b707687f3cebcaf849d2f6796e9ae66",
+            "terms": 7483
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "9a240375b568bf1adacfeefbc985968b8a6293b430c574955d939a43a28d9483",
+          "basis_size": 17,
+          "cell": "F07-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ef8a9977d15b70964f76a6e7d5afd0d4c7aa58adc2a995ed48da4c1678d7f393",
+              "terms": 66,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "4e0434214a013fc99c5500433ee3e22b6ebe7b3e8c1939e6983346e4d7a04376",
+              "terms": 76,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "d5eadb5159d59e933834c3cee5b7f4da52f5d317241212b1953ac0cde8a1f3a7",
+              "terms": 84,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "63a255dc3302f89dc686029a2d35cbed245ff562108416d541ff3e438c40fa5e",
+              "terms": 92,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "20cfcc82b50cc1ca5dd800dfbd985e7a06610cfb8900e348d777002c756fc0ae",
+              "terms": 116,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 32.803735,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ac8b81a95e98688b44fc17c649b7820496571c4c641eb7cb167080198b752c96",
+      "stdout_tail": "{\"cell\": \"F07-R02\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"d97bf105b1c6a4eab83f13d5b63755b99ce4f7cae485fc8ca38b2cff730be4a4\", \"terms\": 242}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"68779898c5c4cfaa71941ed9440953789aef4ce89e0fbad62c194df2802bb896\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 25, \"degrees\": [16, 9, 9], \"sha256\": \"4b1fa9f471a380de4faeaf910c9a14c2a9ff45bc5223c24a566f7b5b8f014e9b\", \"terms\": 1010}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9b761555538ec3e6ed63e41353c0f7cee3f46a3fec9ef52b1d8e1581133f44b6\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\", \"terms\": 3}, {\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 25, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4b1fa9f471a380de4faeaf910c9a14c2a9ff45bc5223c24a566f7b5b8f014e9b\", \"terms\": 1010}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"eb9b1292e5fbda1a1e2188886cf9dd604ee66923cea4f30849d219034d589664\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 51, \"degrees\": [30, 15, 21], \"sha256\": \"0a37b03a194df44d5292f4aedb0e64a61b707687f3cebcaf849d2f6796e9ae66\", \"terms\": 7483}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"9a240375b568bf1adacfeefbc985968b8a6293b430c574955d939a43a28d9483\", \"basis_size\": 17, \"cell\": \"F07-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ef8a9977d15b70964f76a6e7d5afd0d4c7aa58adc2a995ed48da4c1678d7f393\", \"terms\": 66, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"4e0434214a013fc99c5500433ee3e22b6ebe7b3e8c1939e6983346e4d7a04376\", \"terms\": 76, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"d5eadb5159d59e933834c3cee5b7f4da52f5d317241212b1953ac0cde8a1f3a7\", \"terms\": 84, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"63a255dc3302f89dc686029a2d35cbed245ff562108416d541ff3e438c40fa5e\", \"terms\": 92, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"20cfcc82b50cc1ca5dd800dfbd985e7a06610cfb8900e348d777002c756fc0ae\", \"terms\": 116, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F07",
+      "pair_index": 1,
+      "peak_kb": 409724,
+      "records": [
+        {
+          "cell": "F07-R02",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "5b29b60eb481aa4bcbb27c4532da1fcd383699173cf26db1270aa0ead2a0aabb",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 27,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "68779898c5c4cfaa71941ed9440953789aef4ce89e0fbad62c194df2802bb896",
+            "terms": 1385
+          },
+          "essential_pair": {
+            "degree": 60,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "9bb9000b1d37d2c54614d73125e96dafad8f17d84e4e2695aa491218b2378968",
+            "terms": 12236
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a",
+              "terms": 9
+            },
+            {
+              "degree": 21,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "9b761555538ec3e6ed63e41353c0f7cee3f46a3fec9ef52b1d8e1581133f44b6",
+              "terms": 733
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "db0d562b4483a384a938d4ece167d3fbf3a23b7189c6c4a224a180a7e5d30507",
+              "terms": 1740
+            },
+            {
+              "degree": 30,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "00073d23eb85d642beccc29247e296437c5dae2013d889024aee9cb906eeabaa",
+              "terms": 1741
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "6af9e11f091c4f7778fac193c097bc5e4199af6021c8dd48337f76b55add4bba",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 96,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "7036946b361e2429fcd122db363f7100a0d3c0b98345109ac8c4fe71c9f76566",
+            "terms": 48136
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "2864d150afa18dbd9f1897c76a210a5f37b924cd51f4f1c162659644e0aeb657",
+          "basis_size": 36,
+          "cell": "F07-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ef8a9977d15b70964f76a6e7d5afd0d4c7aa58adc2a995ed48da4c1678d7f393",
+              "terms": 66,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "4e0434214a013fc99c5500433ee3e22b6ebe7b3e8c1939e6983346e4d7a04376",
+              "terms": 76,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "d5eadb5159d59e933834c3cee5b7f4da52f5d317241212b1953ac0cde8a1f3a7",
+              "terms": 84,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "63a255dc3302f89dc686029a2d35cbed245ff562108416d541ff3e438c40fa5e",
+              "terms": 92,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "20cfcc82b50cc1ca5dd800dfbd985e7a06610cfb8900e348d777002c756fc0ae",
+              "terms": 116,
+              "zero": false
+            },
+            {
+              "degree": 43,
+              "index": 14,
+              "sha256": "7b6a336b1a798924fe9de6b989fed5a2d595508e921effe6297d11d6f6fef310",
+              "terms": 2382,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 46.439361,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "f4774359e0a5d4080975b506d7c40b4c67ee15d1798e5f744d40e0a7357a5cdd",
+      "stdout_tail": "{\"cell\": \"F07-R02\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"5b29b60eb481aa4bcbb27c4532da1fcd383699173cf26db1270aa0ead2a0aabb\", \"terms\": 800}, \"essential_j11\": {\"degree\": 27, \"degrees\": [16, 11, 11], \"sha256\": \"68779898c5c4cfaa71941ed9440953789aef4ce89e0fbad62c194df2802bb896\", \"terms\": 1385}, \"essential_pair\": {\"degree\": 60, \"degrees\": [38, 24, 24], \"sha256\": \"9bb9000b1d37d2c54614d73125e96dafad8f17d84e4e2695aa491218b2378968\", \"terms\": 12236}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a\", \"terms\": 9}, {\"degree\": 21, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"9b761555538ec3e6ed63e41353c0f7cee3f46a3fec9ef52b1d8e1581133f44b6\", \"terms\": 733}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"db0d562b4483a384a938d4ece167d3fbf3a23b7189c6c4a224a180a7e5d30507\", \"terms\": 1740}, {\"degree\": 30, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"00073d23eb85d642beccc29247e296437c5dae2013d889024aee9cb906eeabaa\", \"terms\": 1741}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"6af9e11f091c4f7778fac193c097bc5e4199af6021c8dd48337f76b55add4bba\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 96, \"degrees\": [56, 30, 42], \"sha256\": \"7036946b361e2429fcd122db363f7100a0d3c0b98345109ac8c4fe71c9f76566\", \"terms\": 48136}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"2864d150afa18dbd9f1897c76a210a5f37b924cd51f4f1c162659644e0aeb657\", \"basis_size\": 36, \"cell\": \"F07-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ef8a9977d15b70964f76a6e7d5afd0d4c7aa58adc2a995ed48da4c1678d7f393\", \"terms\": 66, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"4e0434214a013fc99c5500433ee3e22b6ebe7b3e8c1939e6983346e4d7a04376\", \"terms\": 76, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"d5eadb5159d59e933834c3cee5b7f4da52f5d317241212b1953ac0cde8a1f3a7\", \"terms\": 84, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"63a255dc3302f89dc686029a2d35cbed245ff562108416d541ff3e438c40fa5e\", \"terms\": 92, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"20cfcc82b50cc1ca5dd800dfbd985e7a06610cfb8900e348d777002c756fc0ae\", \"terms\": 116, \"zero\": false}, {\"degree\": 43, \"index\": 14, \"sha256\": \"7b6a336b1a798924fe9de6b989fed5a2d595508e921effe6297d11d6f6fef310\", \"terms\": 2382, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R02"
+    },
+    {
+      "assignment": "F07",
+      "pair_index": 0,
+      "peak_kb": 393124,
+      "records": [
+        {
+          "cell": "F07-R20",
+          "pair_index": 0,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 11,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "d97bf105b1c6a4eab83f13d5b63755b99ce4f7cae485fc8ca38b2cff730be4a4",
+            "terms": 242
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "49a8044f070a3fbd9d6615b48f75aa36d5a8e8237ce9eb829473a107a0e42761",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "19ffa3972e1bff3d7aa950b6f331c63b4e4d9c897d8e815d52759648edf9cdff",
+            "terms": 1443
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "36fd4d432bd99409ad94fb1b9f335b73c287e791aead951c32736f37a3f5cae8",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 28,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "19ffa3972e1bff3d7aa950b6f331c63b4e4d9c897d8e815d52759648edf9cdff",
+              "terms": 1443
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "source_pair": {
+            "degree": 14,
+            "degrees": [
+              6,
+              4,
+              4,
+              2
+            ],
+            "sha256": "eb9b1292e5fbda1a1e2188886cf9dd604ee66923cea4f30849d219034d589664",
+            "terms": 380
+          },
+          "transformed_pair": {
+            "degree": 52,
+            "degrees": [
+              30,
+              15,
+              21
+            ],
+            "sha256": "528d723cc407459bed8bdcb7d86b9f2ea3db0fc6a242d0834cbbdcd9afe3cb90",
+            "terms": 7502
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "497acd0e575ac5fa320568a40dade93a0fbde57acef63ae979f19a0ca918a9a8",
+          "basis_size": 22,
+          "cell": "F07-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ad7ca5e9393bd0f042762857be54c6dbb25a1715beec392c6c2cace9aa5b3c79",
+              "terms": 62,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "6516100b5ac5e670ae127926f35a1f65af0a1f6cf4df69eba54c86531e2acc9a",
+              "terms": 78,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "1dca98bad02ee47c45dc188efd227f263d7e2fc2a74cc99392ab283f4c4f4fdd",
+              "terms": 86,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "b0e5fce0a1473f2d40b37e533912bf7c9dbcf2545ded4f119b77f4892a555abe",
+              "terms": 94,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "4c8894334cf4678d64a66a3615a98c514231a4c4cd1351996387a2a147f501d9",
+              "terms": 118,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 0,
+          "phase": "DONE",
+          "source_degrees": [
+            7,
+            7
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 35.024106,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "288b4d27316ad8ed5ca05792b1b0dfc363ad132e65a3c0edd1e1354f49af0131",
+      "stdout_tail": "{\"cell\": \"F07-R20\", \"pair_index\": 0, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 11, \"degrees\": [6, 4, 4, 2], \"sha256\": \"d97bf105b1c6a4eab83f13d5b63755b99ce4f7cae485fc8ca38b2cff730be4a4\", \"terms\": 242}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"49a8044f070a3fbd9d6615b48f75aa36d5a8e8237ce9eb829473a107a0e42761\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"19ffa3972e1bff3d7aa950b6f331c63b4e4d9c897d8e815d52759648edf9cdff\", \"terms\": 1443}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"36fd4d432bd99409ad94fb1b9f335b73c287e791aead951c32736f37a3f5cae8\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 28, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"19ffa3972e1bff3d7aa950b6f331c63b4e4d9c897d8e815d52759648edf9cdff\", \"terms\": 1443}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [7, 7], \"source_pair\": {\"degree\": 14, \"degrees\": [6, 4, 4, 2], \"sha256\": \"eb9b1292e5fbda1a1e2188886cf9dd604ee66923cea4f30849d219034d589664\", \"terms\": 380}, \"transformed_pair\": {\"degree\": 52, \"degrees\": [30, 15, 21], \"sha256\": \"528d723cc407459bed8bdcb7d86b9f2ea3db0fc6a242d0834cbbdcd9afe3cb90\", \"terms\": 7502}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"497acd0e575ac5fa320568a40dade93a0fbde57acef63ae979f19a0ca918a9a8\", \"basis_size\": 22, \"cell\": \"F07-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ad7ca5e9393bd0f042762857be54c6dbb25a1715beec392c6c2cace9aa5b3c79\", \"terms\": 62, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"6516100b5ac5e670ae127926f35a1f65af0a1f6cf4df69eba54c86531e2acc9a\", \"terms\": 78, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"1dca98bad02ee47c45dc188efd227f263d7e2fc2a74cc99392ab283f4c4f4fdd\", \"terms\": 86, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"b0e5fce0a1473f2d40b37e533912bf7c9dbcf2545ded4f119b77f4892a555abe\", \"terms\": 94, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"4c8894334cf4678d64a66a3615a98c514231a4c4cd1351996387a2a147f501d9\", \"terms\": 118, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 0, \"phase\": \"DONE\", \"source_degrees\": [7, 7], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    },
+    {
+      "assignment": "F07",
+      "pair_index": 1,
+      "peak_kb": 408748,
+      "records": [
+        {
+          "cell": "F07-R20",
+          "pair_index": 1,
+          "phase": "START"
+        },
+        {
+          "descended_pair": {
+            "degree": 16,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "5b29b60eb481aa4bcbb27c4532da1fcd383699173cf26db1270aa0ead2a0aabb",
+            "terms": 800
+          },
+          "essential_j11": {
+            "degree": 28,
+            "degrees": [
+              16,
+              11,
+              11
+            ],
+            "sha256": "49a8044f070a3fbd9d6615b48f75aa36d5a8e8237ce9eb829473a107a0e42761",
+            "terms": 1396
+          },
+          "essential_pair": {
+            "degree": 62,
+            "degrees": [
+              38,
+              24,
+              24
+            ],
+            "sha256": "0a5d620fac418cfd2cc2990232c931f44ac691fca1fe0717d1828d11d1f2dc16",
+            "terms": 12318
+          },
+          "j11_factors": [
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 4,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46",
+              "terms": 7
+            },
+            {
+              "degree": 3,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a",
+              "terms": 9
+            },
+            {
+              "degree": 22,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "36fd4d432bd99409ad94fb1b9f335b73c287e791aead951c32736f37a3f5cae8",
+              "terms": 741
+            }
+          ],
+          "pair_factors": [
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "exponent": 12,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "204933d11426d4248fa7048cebda00b706ab9e5bfaf876a3e2771ae62820e8d9",
+              "terms": 1753
+            },
+            {
+              "degree": 31,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "197f14689bea5aef5bd1162035d58035bb0c44ebfb39e3d7da8de3c3e151f463",
+              "terms": 1753
+            }
+          ],
+          "phase": "BRANCH_COMPILED",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "source_pair": {
+            "degree": 22,
+            "degrees": [
+              8,
+              6,
+              6,
+              4
+            ],
+            "sha256": "6af9e11f091c4f7778fac193c097bc5e4199af6021c8dd48337f76b55add4bba",
+            "terms": 1565
+          },
+          "transformed_pair": {
+            "degree": 98,
+            "degrees": [
+              56,
+              30,
+              42
+            ],
+            "sha256": "cfa6ea3dbfcda2659fff43f3da13f58af9b65f569ae0e4c1296ce38ed17ab69d",
+            "terms": 48253
+          }
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "fcc949e7bb2d804571dc323a7a4f5b70cde7d8aa537990158a6754bdb2052792",
+          "basis_size": 45,
+          "cell": "F07-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603",
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8",
+              "terms": 9,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7",
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b",
+              "terms": 16,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 7,
+              "sha256": "624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 8,
+              "sha256": "84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54",
+              "terms": 26,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ad7ca5e9393bd0f042762857be54c6dbb25a1715beec392c6c2cace9aa5b3c79",
+              "terms": 62,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "6516100b5ac5e670ae127926f35a1f65af0a1f6cf4df69eba54c86531e2acc9a",
+              "terms": 78,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "1dca98bad02ee47c45dc188efd227f263d7e2fc2a74cc99392ab283f4c4f4fdd",
+              "terms": 86,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "b0e5fce0a1473f2d40b37e533912bf7c9dbcf2545ded4f119b77f4892a555abe",
+              "terms": 94,
+              "zero": false
+            },
+            {
+              "degree": 14,
+              "index": 13,
+              "sha256": "4c8894334cf4678d64a66a3615a98c514231a4c4cd1351996387a2a147f501d9",
+              "terms": 118,
+              "zero": false
+            },
+            {
+              "degree": 45,
+              "index": 14,
+              "sha256": "892533cedbd4fba1a09f9407e7df9592938e00942f1d1a16598dc41b084a6fce",
+              "terms": 1008,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 15,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "pair_index": 1,
+          "phase": "DONE",
+          "source_degrees": [
+            11,
+            11
+          ],
+          "terminal": "FULL_J_LOG_DENOMINATOR_UNION_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 55.730175,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "dd9a4cc995f40866ddf2244c02dd46ccb3966fb1712d8fb937fa48191ab31880",
+      "stdout_tail": "{\"cell\": \"F07-R20\", \"pair_index\": 1, \"phase\": \"START\"}\n{\"descended_pair\": {\"degree\": 16, \"degrees\": [8, 6, 6, 4], \"sha256\": \"5b29b60eb481aa4bcbb27c4532da1fcd383699173cf26db1270aa0ead2a0aabb\", \"terms\": 800}, \"essential_j11\": {\"degree\": 28, \"degrees\": [16, 11, 11], \"sha256\": \"49a8044f070a3fbd9d6615b48f75aa36d5a8e8237ce9eb829473a107a0e42761\", \"terms\": 1396}, \"essential_pair\": {\"degree\": 62, \"degrees\": [38, 24, 24], \"sha256\": \"0a5d620fac418cfd2cc2990232c931f44ac691fca1fe0717d1828d11d1f2dc16\", \"terms\": 12318}, \"j11_factors\": [{\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 4, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"f0ada7de5b011ea3b4990e53ec1ba4aa62f7b10b1a21ec9ffbfad4052636cc46\", \"terms\": 7}, {\"degree\": 3, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"3cfefebb68ea5b83e036ccf4d80d84da335c883f743ddeb890d14a00ec5d026a\", \"terms\": 9}, {\"degree\": 22, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"36fd4d432bd99409ad94fb1b9f335b73c287e791aead951c32736f37a3f5cae8\", \"terms\": 741}], \"pair_factors\": [{\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"exponent\": 12, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"204933d11426d4248fa7048cebda00b706ab9e5bfaf876a3e2771ae62820e8d9\", \"terms\": 1753}, {\"degree\": 31, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"197f14689bea5aef5bd1162035d58035bb0c44ebfb39e3d7da8de3c3e151f463\", \"terms\": 1753}], \"phase\": \"BRANCH_COMPILED\", \"source_degrees\": [11, 11], \"source_pair\": {\"degree\": 22, \"degrees\": [8, 6, 6, 4], \"sha256\": \"6af9e11f091c4f7778fac193c097bc5e4199af6021c8dd48337f76b55add4bba\", \"terms\": 1565}, \"transformed_pair\": {\"degree\": 98, \"degrees\": [56, 30, 42], \"sha256\": \"cfa6ea3dbfcda2659fff43f3da13f58af9b65f569ae0e4c1296ce38ed17ab69d\", \"terms\": 48253}}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"fcc949e7bb2d804571dc323a7a4f5b70cde7d8aa537990158a6754bdb2052792\", \"basis_size\": 45, \"cell\": \"F07-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"bbed77235ad860afea42b8908522ef592cf17c5c5bedddfd5e263334482fe603\", \"terms\": 4, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"17c360db196b42611748c7e77f097626a09274e7bcafb3a9fdbe3ca8d8b89ab8\", \"terms\": 9, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"266bec5868df0c4b173a4a4fe15923069f0a41af34a8bcb0742cf11be3082ba7\", \"terms\": 12, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"a0800a4848dcb55aace9b578c9b51f8ebc4b18531baddea3217c2e4e296a433b\", \"terms\": 16, \"zero\": false}, {\"degree\": 8, \"index\": 7, \"sha256\": \"624fb4ae567ab0554ebdee6e9287ed9739c6a0d1ea34e1ea5366b91ba4303bd7\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 8, \"sha256\": \"84bda19223eebc6089b5a2b8e0b44963e97ebd5d101447f2e12efa35237bde54\", \"terms\": 26, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ad7ca5e9393bd0f042762857be54c6dbb25a1715beec392c6c2cace9aa5b3c79\", \"terms\": 62, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"6516100b5ac5e670ae127926f35a1f65af0a1f6cf4df69eba54c86531e2acc9a\", \"terms\": 78, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"1dca98bad02ee47c45dc188efd227f263d7e2fc2a74cc99392ab283f4c4f4fdd\", \"terms\": 86, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"b0e5fce0a1473f2d40b37e533912bf7c9dbcf2545ded4f119b77f4892a555abe\", \"terms\": 94, \"zero\": false}, {\"degree\": 14, \"index\": 13, \"sha256\": \"4c8894334cf4678d64a66a3615a98c514231a4c4cd1351996387a2a147f501d9\", \"terms\": 118, \"zero\": false}, {\"degree\": 45, \"index\": 14, \"sha256\": \"892533cedbd4fba1a09f9407e7df9592938e00942f1d1a16598dc41b084a6fce\", \"terms\": 1008, \"zero\": false}, {\"degree\": null, \"index\": 15, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": null, \"zero\": true}], \"pair_index\": 1, \"phase\": \"DONE\", \"source_degrees\": [11, 11], \"terminal\": \"FULL_J_LOG_DENOMINATOR_UNION_EMPTY\", \"unit_ideal\": false}\n",
+      "target": "R20"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-literal-log-denominator-intersections-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

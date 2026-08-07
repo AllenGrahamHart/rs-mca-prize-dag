@@ -33,11 +33,16 @@ def canonical_json(value):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--assignment",
+        choices=("F04", "F05", "F06", "F07"),
+        default="F04",
+    )
     parser.add_argument("--target", choices=("R02", "R20"), required=True)
     parser.add_argument("--pair-index", type=int, choices=(0, 1), required=True)
     parser.add_argument("--prime", type=int, default=2130706433)
     args = parser.parse_args()
-    cell = f"F04-{args.target}"
+    cell = f"{args.assignment}-{args.target}"
     qslice_factor_index = 0 if args.target == "R02" else 1
     print(
         canonical_json(
@@ -64,7 +69,9 @@ def main():
     qslice_factor = r_factors[qslice_factor_index]
 
     full_data = json.loads(FULL_IDENTITY.read_text())
-    full_row = full_data["results"][0]
+    full_row = next(
+        row for row in full_data["results"] if row["assignment"] == args.assignment
+    )
     full_done = next(
         record for record in full_row["records"] if record.get("phase") == "DONE"
     )
@@ -77,7 +84,9 @@ def main():
     assert j11_record["polynomial"] is not None
 
     log_data = json.loads(LOG_DERIVATIVE.read_text())
-    log_row = log_data["results"][0]
+    log_row = next(
+        row for row in log_data["results"] if row["assignment"] == args.assignment
+    )
     compiled = next(
         record
         for record in log_row["records"]

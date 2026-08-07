@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay",
+    "title": "KoalaBear F07-R02 literal generic cubic classification",
+    "status": "PROVED",
+    "closure": "exact literal classification of both F07-R02 cubic resultant factors",
+    "statement": "On the V-nonzero F07-R02 generic chart, the exact reconstructed resultant has three nonnamed factors of degrees 3,3,12. For the two cubic factors, direct deployed-prime Groebner replay with the two remaining q-slice cores gives dimension-one bases of sizes 37 and 36. The complete transported named localizer survives on factor 0, defining the unique cubic route, and reduces to zero on factor 1, proving that factor empty over the deployed field and all extensions. The degree-12 factor and the surviving cubic route are handled by separate nodes; no whole-cell claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/literal_r02_cubic_factor_replay_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/modal_literal_r02_cubic_factor_replay_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

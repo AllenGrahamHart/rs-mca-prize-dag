@@ -29365,6 +29365,22 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "title": "KoalaBear aligned-positive literal F07-R02 complete cell exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive rank-drop and three-factor generic branch composition",
+   "statement": "The complete literal aligned-positive fixed cell F07-R02 is empty over F_(2130706433^6). Its V=0 rank-drop chart is proved empty. On V nonzero, exact reconstruction splits the resultant core into two cubic factors and one degree-12 factor: cubic factor 1 is directly empty, cubic factor 0 is empty by the all-literal cubic/full-J route exclusion, and the degree-12 factor is empty by the exhaustive four-cell R02 degree-12 composition. No companion transport is used to prove F07-R02.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import",
    "title": "KoalaBear aligned-positive fixed quadratic orbit compression",
    "status": "PROVED",
@@ -29535,6 +29551,22 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
+   "title": "KoalaBear remaining fixed-literal R02 cell exclusions",
+   "status": "PROVED",
+   "closure": "transport two direct companion closures to F05-R02 and F06-R02",
+   "statement": "The three previously open fixed literal cells F05-R02, F06-R02, and F07-R02 are empty over F_(2130706433^6). F07-R02 is closed by a direct exhaustive branch composition. The complete-system inversion b -> b^-1 transports the proved F04-R02 exclusion to F05-R02 and the direct F07-R02 exclusion to F06-R02. Together with the existing F04-R02 node, all four fixed literal R02 cells are now proved empty. Aligned-positive literal coverage rises from 27/36 to 30/36.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
    "title": "KoalaBear aligned-positive literal-cell crosswalk",
    "status": "PROVED",
@@ -29690,6 +29722,136 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "title": "KoalaBear fixed-literal complete companion inversion transport",
+   "status": "PROVED",
+   "closure": "exact complete-system b-to-b-inverse audit for F04/F05 and F06/F07",
+   "statement": "For every R02, R11, and R20 target, b -> b^-1 is an isomorphism of the complete named-open systems F04-Rxx <-> F05-Rxx and F06-Rxx <-> F07-Rxx. Exact replay transports the reconstructed U,V,z source coefficients, J/I/K/R label multisets, all 30 named factors, G=U^2-WV^2, both full quotient products and locators, and all four q-slice rows up to projective sign and named-unit factors. Since inversion is involutive on the b-nonzero chart, emptiness of either cell in a paired target is equivalent to emptiness of its companion. No cell is closed by this transport node alone.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/literal_fixed_inversion_transport_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/literal_fixed_inversion_transport_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport/modal_literal_fixed_inversion_transport_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "title": "KoalaBear all fixed-literal cubic/full-J route exclusions",
+   "status": "PROVED",
+   "closure": "direct logarithmic exclusions plus exact companion transport cover all eight routes",
+   "statement": "For every assignment F04,F05,F06,F07 and target R02,R20, the surviving cubic/J11 full-J route is empty over the deployed field and all extensions. F04-R02 and F04-R20 are previously proved. Literal router, denominator, and numerator certificates directly prove F05-R02, F07-R02, and F06-R20. Exact complete-system inversion transports the F04 results to both F05 targets, F07-R02 to F06-R02, and F06-R20 to F07-R20. Thus all eight routes are covered, with redundant direct coverage of F05-R02. No rank-drop, other cubic, degree-12, or whole-cell claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion",
+   "title": "KoalaBear fixed-literal logarithmic denominator exclusions",
+   "status": "PROVED",
+   "closure": "twelve exact localized denominator-union intersections",
+   "statement": "For every assignment in F05,F06,F07 and target in R02,R20, both symmetric nonnamed denominator unions in the literal full-J logarithmic router are empty on the surviving cubic/J11 route over the deployed field and all extensions. The degree-7 union descends to essential degree 25 on R02 and 28 on R20; the degree-11 union descends to degree 60 on R02 and 62 on R20. In all twelve assignment-target-union ideals, the complete transported named localizer reduces to zero. Only the guarded degree-67 numerator alternative remains; no route or whole-cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/denominator_intersection_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/literal_denominator_intersections_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_literal_denominator_intersections_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions",
+   "title": "KoalaBear fixed-literal guarded logarithmic numerator exclusions",
+   "status": "PROVED",
+   "closure": "three exact homogeneous numerator-route intersections",
+   "statement": "The guarded irreducible degree-67 logarithmic numerator has empty named-open intersection with the surviving cubic/J11 route in F05-R02, F07-R02, and F06-R20. Exact homogeneous Horner evaluation of V^15 N(-U/V) gives degree-39 remainders on the two R02 routes and a degree-41 remainder on F06-R20. After each remainder is adjoined, the complete transported named localizer reduces to zero at factor 15. Hence all three intersections are empty over the deployed field and all extensions. Timed-out F05-R20 and F06-R02 batch attempts, and the incomplete F07-R20 attempt, are not used as proof claims.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/literal_guarded_numerator_intersections_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/f07_r02_guarded_numerator_retry_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_literal_guarded_numerator_intersections_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_f07_r02_guarded_numerator_retry_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "title": "KoalaBear fixed-literal full-J logarithmic router replay",
+   "status": "PROVED",
+   "closure": "literal source and logarithmic factorization for F05, F06, and F07",
+   "statement": "For each literal assignment F05, F06, and F07, exact source reconstruction gives the full-J constant-coefficient factor pattern w^4 times two degree-8 squares times one degree-11 and one degree-12 factor. On the degree-11 route, equality of the full-J products and nonvanishing of their constant factors gives the logarithmic derivative condition. Its numerator has one irreducible degree-67 factor of w-degree 15, while the only nonnamed denominator factors are two degree-7 and two degree-11 factors, all squared. This gives an exhaustive two-union denominator versus guarded-numerator router separately for each literal assignment. No routed branch is declared empty here.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/literal_router_source_replay_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_full_identity_literal_replay_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_log_derivative_literal_replay_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay",
+   "title": "KoalaBear F07-R02 literal generic cubic classification",
+   "status": "PROVED",
+   "closure": "exact literal classification of both F07-R02 cubic resultant factors",
+   "statement": "On the V-nonzero F07-R02 generic chart, the exact reconstructed resultant has three nonnamed factors of degrees 3,3,12. For the two cubic factors, direct deployed-prime Groebner replay with the two remaining q-slice cores gives dimension-one bases of sizes 37 and 36. The complete transported named localizer survives on factor 0, defining the unique cubic route, and reduces to zero on factor 1, proving that factor empty over the deployed field and all extensions. The degree-12 factor and the surviving cubic route are handled by separate nodes; no whole-cell claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/literal_r02_cubic_factor_replay_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/modal_literal_r02_cubic_factor_replay_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay",
+   "title": "KoalaBear F06-R20 literal generic cubic classification",
+   "status": "PROVED",
+   "closure": "exact literal classification of both F06-R20 cubic resultant factors",
+   "statement": "On the V-nonzero F06-R20 generic chart, the exact reconstructed resultant has three nonnamed factors of degrees 3,3,12. Direct deployed-prime Groebner replay with the two remaining q-slice cores proves cubic factor 0 empty after the complete transported named localization. Cubic factor 1 survives as a dimension-one route and is the route used by the literal full-J logarithmic certificate. The degree-12 factor and surviving route are handled by separate nodes; no whole-cell claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/literal_r02_cubic_factor_replay_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay/modal_literal_f06_r20_cubic_factor_replay_output.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion",
    "title": "KoalaBear F04 cubic/J11 logarithmic-denominator branch exclusion",
    "status": "PROVED",
@@ -29799,7 +29961,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 27 are now PROVED. The residual is M01-R11, M02-R11, F05/F06/F07-R02, and F04/F05/F06/F07-R20. The F04 cubic/full-J route is closed on both targets and all four R02 degree-12 branches are closed, giving the complete F04-R02 cell exclusion. The other literal cubic routes and the R20 degree-12 branches remain. The local canonical crosswalk does not supply generic orbit transport.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 30 are now PROVED. The residual is M01-R11, M02-R11, and F04/F05/F06/F07-R20. Exact complete-system inversion pairs F04/F05 and F06/F07. All fixed R02 cells, every fixed rank-drop chart, and every fixed cubic/full-J route are closed. The four R20 degree-12 branches remain. The local canonical crosswalk alone does not supply generic orbit transport.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -56334,6 +56496,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -56344,6 +56511,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_degree12_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -56364,8 +56541,18 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_degree12_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_degree12_branch_exclusion",
@@ -56439,6 +56626,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
    "kind": "req"
   },
@@ -56459,6 +56661,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_rank_drop_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_rank_drop_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -56559,6 +56771,91 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_cubic_full_j_route_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_denominator_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_guarded_numerator_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r02_generic_cubic_replay",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_r20_generic_cubic_replay",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -56655,6 +56952,16 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
    "kind": "req"
   },
   {

@@ -1,0 +1,3795 @@
+{
+  "app": "rs-mca-k3-fixed-literal-companion-inversion-transport",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 2,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "pair": "F04-F05",
+      "peak_kb": 678824,
+      "records": [
+        {
+          "result": {
+            "full_identity_transport": {
+              "G_exact": true,
+              "I_G_factor_multiset_exact": true,
+              "J_G_factor_multiset_exact": true,
+              "full_I_exact": true,
+              "full_J_exact": true,
+              "locator_checks": {
+                "K": true,
+                "R": true,
+                "q": true
+              }
+            },
+            "label_factor_multisets_exact": {
+              "I": true,
+              "J": true,
+              "K": true,
+              "R": true
+            },
+            "map": "b -> b^-1",
+            "named_open_transport": {
+              "b_chart_invariant": true,
+              "nonmonomial_factor_multiset_exact": true,
+              "source_factor_count": 30,
+              "target_factor_count": 30
+            },
+            "qslice_checks": [
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "4fb45f5fcaa615b60e9e5949484869173b295dbe98432ee760c40e7d5b0248c8",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          0,
+                          6,
+                          4
+                        ],
+                        "sha256": "8b32ba6de2471a7a54840f5f4e4446618064e628f243ad38b2dd5df68beb04ab",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          0,
+                          6,
+                          4
+                        ],
+                        "sha256": "6206348088f8da7a30f6f246db576b1cadbd4441a14fe21f198d568106b28b28",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "4fb45f5fcaa615b60e9e5949484869173b295dbe98432ee760c40e7d5b0248c8"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "47f0247abb80bda41d266b7ecee8eaf71b7636bb2626831e9e9ed42215ccb6e4",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          0,
+                          5,
+                          4
+                        ],
+                        "sha256": "445f79343cca89c6fc9bb2e535f96704df4ad3d91d4c3a83b3e1291b6327eaf5",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          0,
+                          5,
+                          4
+                        ],
+                        "sha256": "b25593bfd7dc3c5192d2b138a364979e1b84784b44f55e36cad0300e1c8fce9e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "47f0247abb80bda41d266b7ecee8eaf71b7636bb2626831e9e9ed42215ccb6e4"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "f5365fab3efa9f93c2bbc94980e1bfe8f0a162b1fbdc36bf0f7b915711b1efcf",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          6,
+                          0,
+                          4
+                        ],
+                        "sha256": "9045204aa5feb723a3da08bf5208cdbfb0469cf4b2dbb0a9044ed47411317fd7",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          6,
+                          0,
+                          4
+                        ],
+                        "sha256": "fe24c6c85d66c6ec46b4dc7089e10a76fb1b67022038acd486c570597a399c17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "f5365fab3efa9f93c2bbc94980e1bfe8f0a162b1fbdc36bf0f7b915711b1efcf"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "f2548e816a741ff3b05900d266c27e75ab5df397ae889d0487fd8aa44633d9f7",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          5,
+                          0,
+                          4
+                        ],
+                        "sha256": "5ca12d5574e7bee261895ffc7c28579e5abc71d40a4160cc9abadb083d1221ba",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          5,
+                          0,
+                          4
+                        ],
+                        "sha256": "f9a090e443b1928285e91c3d4c699ccbdce52641717b07e9456453290f507f05",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "f2548e816a741ff3b05900d266c27e75ab5df397ae889d0487fd8aa44633d9f7"
+                  }
+                ],
+                "source_cell": "F04-R02",
+                "target_cell": "F05-R02"
+              },
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "5e9e65645efd6ee1b787bd13d09c8e5674fe34d2cc7692a4a505f2a2e6ad1f1e",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "a872aa46faa9eeb787e60d3833a39b2405b8b37f1a842a3f9be8d5d8392b563e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "504260656baa6074edacf4b78ccd1f0826de4e1f37d1c5bfe328033eba71959a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "5e9e65645efd6ee1b787bd13d09c8e5674fe34d2cc7692a4a505f2a2e6ad1f1e"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "c7dbb723649bb3c0e62f60007a6a80c9e4686d45ecc674366875f54c9c41b982",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "a872aa46faa9eeb787e60d3833a39b2405b8b37f1a842a3f9be8d5d8392b563e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "504260656baa6074edacf4b78ccd1f0826de4e1f37d1c5bfe328033eba71959a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "c7dbb723649bb3c0e62f60007a6a80c9e4686d45ecc674366875f54c9c41b982"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "482cb842ae90e2ce73ad1f8d047be1cce6486e9a36713b6abc6db15430209f2c",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "482cb842ae90e2ce73ad1f8d047be1cce6486e9a36713b6abc6db15430209f2c"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "ae443d81cfce4a4c5f869f3367c5f5c903e82f3ce01530a554ed411a857abd16",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "ae443d81cfce4a4c5f869f3367c5f5c903e82f3ce01530a554ed411a857abd16"
+                  }
+                ],
+                "source_cell": "F04-R11",
+                "target_cell": "F05-R11"
+              },
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "f5decb834cb0fff096ed128411b1c7fb7c2b39816f432033bb2d2f532301bda2",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          2,
+                          4,
+                          4
+                        ],
+                        "sha256": "e35e6fc18ee885dbb3b44cf5f2c0b94a24362a46f0d1dabb06d79cb72064a32c",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          2,
+                          4,
+                          4
+                        ],
+                        "sha256": "df088c5462022f07f88efd42dfc6893f1b3684c4eb262d8dd8ad55b6a224201c",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "f5decb834cb0fff096ed128411b1c7fb7c2b39816f432033bb2d2f532301bda2"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "bf018ec6fe75d8494f4a7f142be03eda3bc1a066b6987f64252d1861a44cda45",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          1,
+                          4,
+                          4
+                        ],
+                        "sha256": "87dc6f05ca5077a09b80df25436b9eefd73aa87ca63d05a8607685507eceb9b0",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          1,
+                          4,
+                          4
+                        ],
+                        "sha256": "7e040198c41c55e15a43587cd00f9023360360bbeb749b0c2476b31519f938f2",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "bf018ec6fe75d8494f4a7f142be03eda3bc1a066b6987f64252d1861a44cda45"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "c24d7a2218aed2c642187c4d90235561fdf1d1f90530d1bb576bddf527f0d516",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          4,
+                          2,
+                          4
+                        ],
+                        "sha256": "3236563d6cb04c3a21c92b1b0f46358eea20605233b73d159adbe7878e0a66fa",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          4,
+                          2,
+                          4
+                        ],
+                        "sha256": "5e46b15ff3f79d147e476843d6967a0420b088509edbffba739ea10b085ef015",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "c24d7a2218aed2c642187c4d90235561fdf1d1f90530d1bb576bddf527f0d516"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "31f9ce4962014cc4745eaf77daa2a8bee894df17989c80dfb67ffede9749b2f4",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          4,
+                          1,
+                          4
+                        ],
+                        "sha256": "fa2e37b03760d4bb08d61b74909cfe00034779ac93a0acd0792ef8635b3f712d",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          4,
+                          1,
+                          4
+                        ],
+                        "sha256": "56b59f8b52eca181c6f6a768dbc0991b65e1de5787ea888a6c182dc881abf552",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "31f9ce4962014cc4745eaf77daa2a8bee894df17989c80dfb67ffede9749b2f4"
+                  }
+                ],
+                "source_cell": "F04-R20",
+                "target_cell": "F05-R20"
+              }
+            ],
+            "source_assignment": "F04",
+            "source_coefficients_exact": {
+              "U": true,
+              "V": true,
+              "z": true
+            },
+            "target_assignment": "F05"
+          },
+          "schema": "kb-c2-112-fixed-literal-companion-inversion-transport-v1"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 49.830691,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "8a1164891753a7242b1796fb41953530d7945ca04f3e8e67ea1cbfc0ef83fe17",
+      "stdout_tail": "e, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"482cb842ae90e2ce73ad1f8d047be1cce6486e9a36713b6abc6db15430209f2c\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 3, \"pulled_numerator_sha256\": \"ae443d81cfce4a4c5f869f3367c5f5c903e82f3ce01530a554ed411a857abd16\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"ae443d81cfce4a4c5f869f3367c5f5c903e82f3ce01530a554ed411a857abd16\"}], \"source_cell\": \"F04-R11\", \"target_cell\": \"F05-R11\"}, {\"all_rows_exact\": true, \"row_count\": 4, \"rows\": [{\"cleared_numerator_up_to_sign\": true, \"index\": 0, \"pulled_numerator_sha256\": \"f5decb834cb0fff096ed128411b1c7fb7c2b39816f432033bb2d2f532301bda2\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 2, 4, 4], \"sha256\": \"e35e6fc18ee885dbb3b44cf5f2c0b94a24362a46f0d1dabb06d79cb72064a32c\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 2, 4, 4], \"sha256\": \"df088c5462022f07f88efd42dfc6893f1b3684c4eb262d8dd8ad55b6a224201c\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"f5decb834cb0fff096ed128411b1c7fb7c2b39816f432033bb2d2f532301bda2\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 1, \"pulled_numerator_sha256\": \"bf018ec6fe75d8494f4a7f142be03eda3bc1a066b6987f64252d1861a44cda45\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 1, 4, 4], \"sha256\": \"87dc6f05ca5077a09b80df25436b9eefd73aa87ca63d05a8607685507eceb9b0\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 1, 4, 4], \"sha256\": \"7e040198c41c55e15a43587cd00f9023360360bbeb749b0c2476b31519f938f2\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"bf018ec6fe75d8494f4a7f142be03eda3bc1a066b6987f64252d1861a44cda45\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 2, \"pulled_numerator_sha256\": \"c24d7a2218aed2c642187c4d90235561fdf1d1f90530d1bb576bddf527f0d516\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 4, 2, 4], \"sha256\": \"3236563d6cb04c3a21c92b1b0f46358eea20605233b73d159adbe7878e0a66fa\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 4, 2, 4], \"sha256\": \"5e46b15ff3f79d147e476843d6967a0420b088509edbffba739ea10b085ef015\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"c24d7a2218aed2c642187c4d90235561fdf1d1f90530d1bb576bddf527f0d516\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 3, \"pulled_numerator_sha256\": \"31f9ce4962014cc4745eaf77daa2a8bee894df17989c80dfb67ffede9749b2f4\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 4, 1, 4], \"sha256\": \"fa2e37b03760d4bb08d61b74909cfe00034779ac93a0acd0792ef8635b3f712d\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 4, 1, 4], \"sha256\": \"56b59f8b52eca181c6f6a768dbc0991b65e1de5787ea888a6c182dc881abf552\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"31f9ce4962014cc4745eaf77daa2a8bee894df17989c80dfb67ffede9749b2f4\"}], \"source_cell\": \"F04-R20\", \"target_cell\": \"F05-R20\"}], \"source_assignment\": \"F04\", \"source_coefficients_exact\": {\"U\": true, \"V\": true, \"z\": true}, \"target_assignment\": \"F05\"}, \"schema\": \"kb-c2-112-fixed-literal-companion-inversion-transport-v1\"}\nPASS fixed literal inversion transport F04-F05\n"
+    },
+    {
+      "pair": "F06-F07",
+      "peak_kb": 867268,
+      "records": [
+        {
+          "result": {
+            "full_identity_transport": {
+              "G_exact": true,
+              "I_G_factor_multiset_exact": true,
+              "J_G_factor_multiset_exact": true,
+              "full_I_exact": true,
+              "full_J_exact": true,
+              "locator_checks": {
+                "K": true,
+                "R": true,
+                "q": true
+              }
+            },
+            "label_factor_multisets_exact": {
+              "I": true,
+              "J": true,
+              "K": true,
+              "R": true
+            },
+            "map": "b -> b^-1",
+            "named_open_transport": {
+              "b_chart_invariant": true,
+              "nonmonomial_factor_multiset_exact": true,
+              "source_factor_count": 30,
+              "target_factor_count": 30
+            },
+            "qslice_checks": [
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "3ccdeddc2c12d694c4ad071e309ad293266df3b3447e070467b392d3af493636",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          0,
+                          6,
+                          4
+                        ],
+                        "sha256": "6206348088f8da7a30f6f246db576b1cadbd4441a14fe21f198d568106b28b28",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          0,
+                          6,
+                          4
+                        ],
+                        "sha256": "8b32ba6de2471a7a54840f5f4e4446618064e628f243ad38b2dd5df68beb04ab",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "3ccdeddc2c12d694c4ad071e309ad293266df3b3447e070467b392d3af493636"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "86fc4c8e7dec0603c867ae6e111a5d083fe6ff7888255da80748e4a7d5f49a56",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          0,
+                          5,
+                          4
+                        ],
+                        "sha256": "b25593bfd7dc3c5192d2b138a364979e1b84784b44f55e36cad0300e1c8fce9e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          0,
+                          5,
+                          4
+                        ],
+                        "sha256": "445f79343cca89c6fc9bb2e535f96704df4ad3d91d4c3a83b3e1291b6327eaf5",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "86fc4c8e7dec0603c867ae6e111a5d083fe6ff7888255da80748e4a7d5f49a56"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "6756ed1ad543e51dbdc31995bf37f19716a9943410a7cfcb85e3cccd6a762f64",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          6,
+                          0,
+                          4
+                        ],
+                        "sha256": "fe24c6c85d66c6ec46b4dc7089e10a76fb1b67022038acd486c570597a399c17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          6,
+                          0,
+                          4
+                        ],
+                        "sha256": "9045204aa5feb723a3da08bf5208cdbfb0469cf4b2dbb0a9044ed47411317fd7",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "6756ed1ad543e51dbdc31995bf37f19716a9943410a7cfcb85e3cccd6a762f64"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "74de88a5144ac43b4adb40bcc4fc299ded74805ff237e863ae8fc92a72f77976",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          5,
+                          0,
+                          4
+                        ],
+                        "sha256": "f9a090e443b1928285e91c3d4c699ccbdce52641717b07e9456453290f507f05",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          5,
+                          0,
+                          4
+                        ],
+                        "sha256": "5ca12d5574e7bee261895ffc7c28579e5abc71d40a4160cc9abadb083d1221ba",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "74de88a5144ac43b4adb40bcc4fc299ded74805ff237e863ae8fc92a72f77976"
+                  }
+                ],
+                "source_cell": "F06-R02",
+                "target_cell": "F07-R02"
+              },
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "1abe5fb9121808fe8b2be6387ba4f7fffd7242bb3e802d71e433052c34af7f33",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "504260656baa6074edacf4b78ccd1f0826de4e1f37d1c5bfe328033eba71959a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "a872aa46faa9eeb787e60d3833a39b2405b8b37f1a842a3f9be8d5d8392b563e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "1abe5fb9121808fe8b2be6387ba4f7fffd7242bb3e802d71e433052c34af7f33"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "1622c6bc8df7b67f563b72ef1dee9bafc5ca2b1f09087d22b9f853194e8b88d2",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "504260656baa6074edacf4b78ccd1f0826de4e1f37d1c5bfe328033eba71959a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          1,
+                          5,
+                          4
+                        ],
+                        "sha256": "a872aa46faa9eeb787e60d3833a39b2405b8b37f1a842a3f9be8d5d8392b563e",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "1622c6bc8df7b67f563b72ef1dee9bafc5ca2b1f09087d22b9f853194e8b88d2"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "782f48bfdebeec00c4970371e0127c893752fcc1a8cc016804ec4621a62efbc1",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "782f48bfdebeec00c4970371e0127c893752fcc1a8cc016804ec4621a62efbc1"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "3aa23cd62056cfd77d92807ef748a276d489210d90ec25cc379f8d686bd0ca2f",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          5,
+                          1,
+                          4
+                        ],
+                        "sha256": "84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "3aa23cd62056cfd77d92807ef748a276d489210d90ec25cc379f8d686bd0ca2f"
+                  }
+                ],
+                "source_cell": "F06-R11",
+                "target_cell": "F07-R11"
+              },
+              {
+                "all_rows_exact": true,
+                "row_count": 4,
+                "rows": [
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 0,
+                    "pulled_numerator_sha256": "c3c6e7d47c3729b311145232408ac168827c61ffffd24f605fe8805bed2fc399",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          2,
+                          4,
+                          4
+                        ],
+                        "sha256": "df088c5462022f07f88efd42dfc6893f1b3684c4eb262d8dd8ad55b6a224201c",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          2,
+                          4,
+                          4
+                        ],
+                        "sha256": "e35e6fc18ee885dbb3b44cf5f2c0b94a24362a46f0d1dabb06d79cb72064a32c",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "c3c6e7d47c3729b311145232408ac168827c61ffffd24f605fe8805bed2fc399"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 1,
+                    "pulled_numerator_sha256": "fc8918ec8aa94601965853dfe0d64b595c20b106791ea68e7d33b0d537fb6fed",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          1,
+                          4,
+                          4
+                        ],
+                        "sha256": "7e040198c41c55e15a43587cd00f9023360360bbeb749b0c2476b31519f938f2",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          1,
+                          4,
+                          4
+                        ],
+                        "sha256": "87dc6f05ca5077a09b80df25436b9eefd73aa87ca63d05a8607685507eceb9b0",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*d - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "fc8918ec8aa94601965853dfe0d64b595c20b106791ea68e7d33b0d537fb6fed"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 2,
+                    "pulled_numerator_sha256": "d8012b66ca95e4114f8fed6b1837565fffaa04e6f32caa2f237142353c24d0e9",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          4,
+                          2,
+                          4
+                        ],
+                        "sha256": "5e46b15ff3f79d147e476843d6967a0420b088509edbffba739ea10b085ef015",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 18,
+                        "degrees": [
+                          10,
+                          4,
+                          2,
+                          4
+                        ],
+                        "sha256": "3236563d6cb04c3a21c92b1b0f46358eea20605233b73d159adbe7878e0a66fa",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "d8012b66ca95e4114f8fed6b1837565fffaa04e6f32caa2f237142353c24d0e9"
+                  },
+                  {
+                    "cleared_numerator_up_to_sign": true,
+                    "index": 3,
+                    "pulled_numerator_sha256": "7619d6b2989543bf79f012267d742dbaa4a022fadbaf6d3ab33a6073b61dbd62",
+                    "ratio_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "ratio_numerator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 0,
+                        "degrees": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                        "terms": 1
+                      },
+                      "factors": []
+                    },
+                    "source_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          4,
+                          1,
+                          4
+                        ],
+                        "sha256": "56b59f8b52eca181c6f6a768dbc0991b65e1de5787ea888a6c182dc881abf552",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 2",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_denominator": {
+                      "all_factors_named_units": true,
+                      "denominator": {
+                        "degree": 17,
+                        "degrees": [
+                          10,
+                          4,
+                          1,
+                          4
+                        ],
+                        "sha256": "fa2e37b03760d4bb08d61b74909cfe00034779ac93a0acd0792ef8635b3f712d",
+                        "terms": 129
+                      },
+                      "factors": [
+                        {
+                          "exponent": 1,
+                          "factor": "d",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - c",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "w + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b + 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "2*b - 1",
+                          "named_unit": true
+                        },
+                        {
+                          "exponent": 2,
+                          "factor": "b*c - 1",
+                          "named_unit": true
+                        }
+                      ]
+                    },
+                    "target_numerator_sha256": "7619d6b2989543bf79f012267d742dbaa4a022fadbaf6d3ab33a6073b61dbd62"
+                  }
+                ],
+                "source_cell": "F06-R20",
+                "target_cell": "F07-R20"
+              }
+            ],
+            "source_assignment": "F06",
+            "source_coefficients_exact": {
+              "U": true,
+              "V": true,
+              "z": true
+            },
+            "target_assignment": "F07"
+          },
+          "schema": "kb-c2-112-fixed-literal-companion-inversion-transport-v1"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 65.801218,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "12e3efb168a2d5b68651be74cd2748ab2fd053e7b5bf5da3516fe3e0f1a62422",
+      "stdout_tail": "e, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"782f48bfdebeec00c4970371e0127c893752fcc1a8cc016804ec4621a62efbc1\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 3, \"pulled_numerator_sha256\": \"3aa23cd62056cfd77d92807ef748a276d489210d90ec25cc379f8d686bd0ca2f\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"d7c539a6b07cc4608371d7dc02b62cdaf5673e696b7e441e364c8b830f79bd17\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 5, 1, 4], \"sha256\": \"84bfc2777b89d4370ca175e808fb03e5df434125f24a135d8a103e7eb0d7909a\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"3aa23cd62056cfd77d92807ef748a276d489210d90ec25cc379f8d686bd0ca2f\"}], \"source_cell\": \"F06-R11\", \"target_cell\": \"F07-R11\"}, {\"all_rows_exact\": true, \"row_count\": 4, \"rows\": [{\"cleared_numerator_up_to_sign\": true, \"index\": 0, \"pulled_numerator_sha256\": \"c3c6e7d47c3729b311145232408ac168827c61ffffd24f605fe8805bed2fc399\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 2, 4, 4], \"sha256\": \"df088c5462022f07f88efd42dfc6893f1b3684c4eb262d8dd8ad55b6a224201c\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 2, 4, 4], \"sha256\": \"e35e6fc18ee885dbb3b44cf5f2c0b94a24362a46f0d1dabb06d79cb72064a32c\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"c3c6e7d47c3729b311145232408ac168827c61ffffd24f605fe8805bed2fc399\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 1, \"pulled_numerator_sha256\": \"fc8918ec8aa94601965853dfe0d64b595c20b106791ea68e7d33b0d537fb6fed\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 1, 4, 4], \"sha256\": \"7e040198c41c55e15a43587cd00f9023360360bbeb749b0c2476b31519f938f2\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 1, 4, 4], \"sha256\": \"87dc6f05ca5077a09b80df25436b9eefd73aa87ca63d05a8607685507eceb9b0\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*d - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"fc8918ec8aa94601965853dfe0d64b595c20b106791ea68e7d33b0d537fb6fed\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 2, \"pulled_numerator_sha256\": \"d8012b66ca95e4114f8fed6b1837565fffaa04e6f32caa2f237142353c24d0e9\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 4, 2, 4], \"sha256\": \"5e46b15ff3f79d147e476843d6967a0420b088509edbffba739ea10b085ef015\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 18, \"degrees\": [10, 4, 2, 4], \"sha256\": \"3236563d6cb04c3a21c92b1b0f46358eea20605233b73d159adbe7878e0a66fa\", \"terms\": 129}, \"factors\": [{\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"d8012b66ca95e4114f8fed6b1837565fffaa04e6f32caa2f237142353c24d0e9\"}, {\"cleared_numerator_up_to_sign\": true, \"index\": 3, \"pulled_numerator_sha256\": \"7619d6b2989543bf79f012267d742dbaa4a022fadbaf6d3ab33a6073b61dbd62\", \"ratio_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"ratio_numerator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 0, \"degrees\": [0, 0, 0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"factors\": []}, \"source_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 4, 1, 4], \"sha256\": \"56b59f8b52eca181c6f6a768dbc0991b65e1de5787ea888a6c182dc881abf552\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 2\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_denominator\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 17, \"degrees\": [10, 4, 1, 4], \"sha256\": \"fa2e37b03760d4bb08d61b74909cfe00034779ac93a0acd0792ef8635b3f712d\", \"terms\": 129}, \"factors\": [{\"exponent\": 1, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 2, \"factor\": \"b*c - 1\", \"named_unit\": true}]}, \"target_numerator_sha256\": \"7619d6b2989543bf79f012267d742dbaa4a022fadbaf6d3ab33a6073b61dbd62\"}], \"source_cell\": \"F06-R20\", \"target_cell\": \"F07-R20\"}], \"source_assignment\": \"F06\", \"source_coefficients_exact\": {\"U\": true, \"V\": true, \"z\": true}, \"target_assignment\": \"F07\"}, \"schema\": \"kb-c2-112-fixed-literal-companion-inversion-transport-v1\"}\nPASS fixed literal inversion transport F06-F07\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-literal-companion-inversion-transport-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

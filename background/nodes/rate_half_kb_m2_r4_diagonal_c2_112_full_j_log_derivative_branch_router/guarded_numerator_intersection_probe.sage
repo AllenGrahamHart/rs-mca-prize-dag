@@ -43,10 +43,15 @@ def metric(value, generators=None):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--assignment",
+        choices=("F04", "F05", "F06", "F07"),
+        default="F04",
+    )
     parser.add_argument("--target", choices=("R02", "R20"), required=True)
     parser.add_argument("--prime", type=int, default=2130706433)
     args = parser.parse_args()
-    cell = f"F04-{args.target}"
+    cell = f"{args.assignment}-{args.target}"
     qslice_factor_index = 0 if args.target == "R02" else 1
     print(canonical_json({"phase": "START", "cell": cell}), flush=True)
 
@@ -54,7 +59,7 @@ def main():
     frontier = library["load_frontier"]()
     parent = frontier["PARENT"]
     atlas = parent["ATLAS"]
-    source_u, source_v, source_z = parent["build_source_R"]("F04")
+    source_u, source_v, source_z = parent["build_source_R"](args.assignment)
     source_ring = parent["R"]
     source_field = parent["K"]
     polynomial_w = atlas["KW"]
@@ -83,7 +88,7 @@ def main():
     expected_log -= 2 / c + 2 / d
     mismatch = source_field(observed_log - expected_log)
     numerator = parent["primitive_R"](mismatch.numerator())
-    units = parent["named_units_R"]("F04")
+    units = parent["named_units_R"](args.assignment)
     essential, _ = parent["essential"](numerator, units)
     descended = parent["symmetric_cd_dict"](essential)
     print(
@@ -96,9 +101,10 @@ def main():
         ),
         flush=True,
     )
-    assert metric(descended)["sha256"] == (
-        "57f0d18de937af8c9bebb7e59b079861571ecd9cdf156f3fa4d0ab574331437e"
-    )
+    if args.assignment == "F04":
+        assert metric(descended)["sha256"] == (
+            "57f0d18de937af8c9bebb7e59b079861571ecd9cdf156f3fa4d0ab574331437e"
+        )
 
     branch = library["build_branch"](cell)
     base = branch["base"]
@@ -111,7 +117,9 @@ def main():
     qslice_factor = r_factors[qslice_factor_index]
 
     full_data = json.loads(FULL_IDENTITY.read_text())
-    full_row = full_data["results"][0]
+    full_row = next(
+        row for row in full_data["results"] if row["assignment"] == args.assignment
+    )
     full_done = next(
         record for record in full_row["records"] if record.get("phase") == "DONE"
     )

@@ -27,14 +27,14 @@ External PRs #1140, #1141, #1144, and #1149 provide the exact upstream atlas
 and cell-specific closures. The local restricted inversion theorem closes
 all six `F00/F01` cells, and the exact GREEN #1141 import closes all six
 `F02/F03` cells. Independent replay of #1144 now proves ten moving cells.
-The exact generic/rank-drop localization theorem now also closes all four
-`F04`--`F07` cells over `R11`. The complete `F04-R02` composition closes one
-additional literal cell, so 27 of 36 aligned-positive cells are PROVED. The
-exact residual is
+The exact generic/rank-drop localization theorem closes all four
+`F04`--`F07` cells over `R11`. Direct exhaustive compositions close
+`F04-R02` and `F07-R02`; the exact complete-system inversion
+`F04<->F05`, `F06<->F07` then closes the other two `R02` companions. Thus 30
+of 36 aligned-positive cells are PROVED. The exact residual is
 
 ```text
 M01-R11, M02-R11,
-{F05,F06,F07} x {R02},
 {F04,F05,F06,F07} x {R20}.                       (KBCOV-1)
 ```
 
@@ -42,17 +42,15 @@ The first two cells retain a precise Sage/Singular portability review gate.
 The pinned and independently replayed #1149 compression theorem is PROVED
 locally. Its two balanced fingerprint orbits are now closed by direct
 four-cell generic and rank-drop computations. For the four `R02/R20`
-fingerprint orbits, all sixteen literal `V=0` factor branches are now also
-PROVED empty. Hence the eight fixed residual cells have only their generic
-`V != 0` charts left.
+fingerprint orbits, all sixteen literal `V=0` factor branches are PROVED
+empty.
 
-On the four generic orbit representatives, the resultant core factors with
-degrees `3,3,12`. One cubic factor closes and the complementary cubic starts
-as a one-dimensional route cut. For both `F04` targets, the full-`J`
-coefficient-zero and logarithmic routes now close that complementary cubic.
-All four `R02` degree-12 branches are also closed, so `F04-R02` is a complete
-literal-cell closure. The other literal cubic routes require replay, and the
-four `R20` degree-12 branches remain unresolved.
+On the generic fixed charts, the resultant core factors with degrees
+`3,3,12`. Literal replay plus complete-system inversion now proves the first
+cubic empty and closes the complementary full-`J` logarithmic route for all
+eight `R02/R20` cells. All four `R02` degree-12 branches are also closed, so
+every fixed `R02` cell is empty. Consequently each of the four residual
+`R20` cells is reduced exactly to its degree-12 branch.
 
 The degree-12 branch now has an exact leading-drop ledger. In `x`, its own
 leading coefficient is a common nonnamed irreducible degree-6 curve; the
@@ -60,13 +58,12 @@ leading coefficient is a common nonnamed irreducible degree-6 curve; the
 degrees `22`--`24`. Naive function-field or pseudo-remainder elimination
 therefore inverts real branches and grows rather than compresses. The next
 valid attack needs source-level cancellation or a branchwise theorem.
-The smallest leading-drop leaf, `s=0`, is now PROVED empty by eight literal
-localizer computations. This narrows the degree-12 route to `s!=0` but does
-not close a fixed cell.
+The smallest leading-drop leaf, `s=0`, is PROVED empty by eight literal
+localizer computations. This narrows each residual `R20` degree-12 route to
+`s!=0`.
 Both literal forms of the irreducible degree-6 leading curve are also PROVED
-empty by eight literal localizer computations. The live degree-12 route
-therefore has both `s!=0` and `L6(s,p)!=0`; no fixed cell closes from these
-leaf exclusions.
+empty by eight literal localizer computations. The live `R20` degree-12
+route therefore has both `s!=0` and `L6(s,p)!=0`.
 Direct imposition of the degree `22`--`23` curves and a second
 curve-reduced pseudo-division implementation both retain thousands of terms
 and time out at the final intersection. A separate PROVED identity now

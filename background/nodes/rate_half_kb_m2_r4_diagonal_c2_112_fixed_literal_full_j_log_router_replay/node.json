@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay",
+    "title": "KoalaBear fixed-literal full-J logarithmic router replay",
+    "status": "PROVED",
+    "closure": "literal source and logarithmic factorization for F05, F06, and F07",
+    "statement": "For each literal assignment F05, F06, and F07, exact source reconstruction gives the full-J constant-coefficient factor pattern w^4 times two degree-8 squares times one degree-11 and one degree-12 factor. On the degree-11 route, equality of the full-J products and nonvanishing of their constant factors gives the logarithmic derivative condition. Its numerator has one irreducible degree-67 factor of w-degree 15, while the only nonnamed denominator factors are two degree-7 and two degree-11 factors, all squared. This gives an exhaustive two-union denominator versus guarded-numerator router separately for each literal assignment. No routed branch is declared empty here.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_full_j_log_router_replay/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/literal_router_source_replay_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_full_identity_literal_replay_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_log_derivative_literal_replay_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

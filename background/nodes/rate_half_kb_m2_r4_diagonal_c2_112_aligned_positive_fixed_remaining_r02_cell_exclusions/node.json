@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions",
+    "title": "KoalaBear remaining fixed-literal R02 cell exclusions",
+    "status": "PROVED",
+    "closure": "transport two direct companion closures to F05-R02 and F06-R02",
+    "statement": "The three previously open fixed literal cells F05-R02, F06-R02, and F07-R02 are empty over F_(2130706433^6). F07-R02 is closed by a direct exhaustive branch composition. The complete-system inversion b -> b^-1 transports the proved F04-R02 exclusion to F05-R02 and the direct F07-R02 exclusion to F06-R02. Together with the existing F04-R02 node, all four fixed literal R02 cells are now proved empty. Aligned-positive literal coverage rises from 27/36 to 30/36.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f07_r02_cell_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}
