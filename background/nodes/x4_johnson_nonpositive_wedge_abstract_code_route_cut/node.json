@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_johnson_nonpositive_wedge_abstract_code_route_cut",
+    "title": "Johnson-nonpositive wedge abstract-code route cut",
+    "status": "PROVED",
+    "closure": "route cut",
+    "statement": "At the official rate-half scale, take e=N/8 and d=e-t_XR-1. A bipartite pair-choice construction from a binary code of length N/4 and distance t_XR+1 gives more than 16N^3 abstract pairs (P,Q) with |P|=|Q|=e and changed-set intersections at most e+d. The parameters satisfy e=t_XR+d+1 and 4e^2<=N(e+d). These are not asserted to be locator incidences. Therefore the remaining Johnson-nonpositive wedge cannot be closed from the changed-set intersection cap and row arithmetic alone.",
+    "refs": [
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/statement.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/proof.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/claim_contract.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/source_evidence.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/dependency_subdag.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/audit.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/result.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/frontier.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/lineage.md",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/verify.py",
+      "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_exact_slice_f2_guard_route_cut"
+    },
+    {
+      "from": "x4_low_difference_johnson_positive_wedge_aggregate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

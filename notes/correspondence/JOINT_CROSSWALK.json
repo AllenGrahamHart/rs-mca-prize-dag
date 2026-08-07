@@ -1533,6 +1533,31 @@
    }
   },
   {
+   "our_node": "x4_johnson_nonpositive_wedge_abstract_code_route_cut",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "official corridor upper depth -> bipartite pair-choice blocks -> greedy binary code -> intersection-only route cut",
+   "scope": "rate-half residual SP wedge at e=N/8,d=e-t_XR-1: more than 16N^3 abstract blocks satisfy the changed-set intersection cap",
+   "owner": "US",
+   "nonclaims": [
+    "the abstract blocks are not asserted to satisfy locator equations",
+    "does not refute or bound the Johnson-nonpositive SP wedge",
+    "does not discharge any first-owner column",
+    "does not close X4, SP, LIST, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "9cb7fa1e0",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "f3_affine_coset_pair_mattarei_bound",
    "his_object": {
     "label": "SP: primitive shift-pair control / exact second-moment ledger",

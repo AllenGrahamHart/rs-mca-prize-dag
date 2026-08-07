@@ -1769,3 +1769,42 @@ new assumptions: none
 compute: no Modal; exact finite controls through N=128 and independent even-N denominator audit
 next: attack 4e^2<=N(e+d), e>=t_XR+d+1; retain D_0 separately
 ```
+
+### X4/SP nonpositive-wedge packing route cut
+
+The changed-set intersection consequence is not strong enough in the
+remaining wedge.  At rate one half, take
+
+```text
+e=N/8,       d=e-t_XR-1,       L=2e=N/4.
+```
+
+Choose `e` disjoint pairs on each side of the base support.  A binary word of
+length `L` chooses one point from each pair, producing `|P|=|Q|=e`, and two
+changed sets intersect in `L` minus the words' Hamming distance.  The greedy
+binary-code bound at distance `t_XR+1`, together with `t_XR<=N/128-2`, gives
+
+```text
+|C|>=2^L / sum_(i=0)^t_XR binom(L,i)
+    >2^(25L/32-35)
+    >2^127=16N^3.
+```
+
+These abstract blocks satisfy `|W_i intersect W_j|<=e+d`, the exact
+side-width pin, and `4e^2<=N(e+d)`.  They are not locator incidences.  The
+result therefore retires only the intersection/constant-weight continuation:
+the live proof must use split-locator algebra, coefficient primitivity, or
+operational first-owner predicates.
+
+```text
+starting pin: 9cb7fa1e0; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: ROUTE CUT for abstract packing in the Johnson-nonpositive wedge
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP fence for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact official arithmetic and a finite bipartite code audit
+next: use locator equations or exact first-owner predicates inside the residual wedge
+```

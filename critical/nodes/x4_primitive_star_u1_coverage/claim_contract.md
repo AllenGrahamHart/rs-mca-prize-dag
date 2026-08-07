@@ -27,6 +27,9 @@
 - **Paid nonconstant wedge:** every `(e,d)` cell with `4e^2>N(e+d)` costs
   at most `5N^3/16` in aggregate; all remaining nonconstant records satisfy
   the reverse inequality.
+- **Route cut:** the reverse-inequality wedge admits more than `16N^3`
+  abstract bipartite blocks obeying the same intersection cap; locator or
+  first-owner structure is load-bearing.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

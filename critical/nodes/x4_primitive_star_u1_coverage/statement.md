@@ -93,6 +93,13 @@ cost at most `5N^3/16` in aggregate.  The surviving nonconstant wedge is
 therefore `4e^2<=N(e+d)` together with `e>=t_XR+d+1`.  A sufficient bound for
 this wedge plus `D_0` is `(251/16)N^3-1`.
 
+The changed-set intersection cap cannot by itself bound this residual.  At
+the official rate-half scale, a proved binary-code construction gives more
+than `16N^3` abstract bipartite changed sets satisfying the cap at
+`e=N/8,d=e-t_XR-1`.  These are not locator incidences, so the target remains
+open; the next argument must use locator algebra, coefficient primitivity, or
+the exact first-owner predicates.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;
