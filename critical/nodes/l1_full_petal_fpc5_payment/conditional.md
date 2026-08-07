@@ -22,7 +22,9 @@ removes every strict `M=4` cell at rates `1/8` and `1/16`.
 - For `t=2`, only rates `1/2` and `1/4` remain. The proved two-full-petal
   theorem injects every fixed pair into its exact petal-equation coprime-pair
   envelope; the second leaf retains the background-root, exactness, and
-  first-owner guards required for a full PMA cell.
+  first-owner guards required for a full PMA cell. Inside that leaf,
+  first-layout domination and pair uniqueness pay rate quarter absolutely;
+  only the rate-half guarded split-locator payment remains conditional.
 
 If `M>=5`, the small-source sieve removes strict cells through `M=6` at rate
 `1/8` and through `M=14` at rate `1/16`; it removes no additional `M>=5`

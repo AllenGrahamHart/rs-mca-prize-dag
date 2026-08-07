@@ -5,7 +5,9 @@ l1_core_defect_reduction [PROVED]
     --req--> l1_general_first_layout_domination [PROVED]
                   |--ev--> l1_mixed_residual_intersection_pin [PROVED]
                   |--ev--> l1_mixed_petal_amplification [TARGET]
-                  `--ev--> petal_mixed_amplification [TARGET]
+                  |--ev--> petal_mixed_amplification [TARGET]
+                  |--req--> l1_fpc5_ratequarter_m4_t2_payment [PROVED]
+                  `--ev--> l1_fpc5_ratehalf_m4_t2_payment [TARGET]
 ```
 
 The new node proves the base-polynomial form directly and generalizes the

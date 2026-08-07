@@ -163,3 +163,40 @@ new assumptions: none
 compute: no Modal; tiny finite-field rank replays only
 next: count split core locators in the rate-half dimension-(ell-1) guarded congruence kernel, or attack the guarded LS6 max-to-mean gap
 ```
+
+### FPC5 `M=4,t=2` rate split
+
+The existing proved `l1_general_first_layout_domination` theorem applies to
+FPC5 at every petal size. It reduces all maximal source layouts to the complete
+non-planted contribution in one fixed first layout plus at most `M` anchors.
+The earlier warning about uncontrolled source-layout multiplicity is therefore
+retired; only contributor-dependent internal recharts still need first owners.
+
+At rate quarter, `M=4` gives
+
+```text
+4ell+b=3k+1,       b<ell,       hence 2ell>k-1.
+```
+
+Two full petals therefore determine a degree-`<k` codeword uniquely. The fixed
+layout has six unordered touched pairs, so at most six non-planted contributors;
+adding four first-layout anchors gives the global absolute bound ten. This
+closes the complete rate-quarter `M=4,t=2` branch.
+
+The former two-rate target is now a CONDITIONAL router over the single exact
+`l1_fpc5_ratehalf_m4_t2_payment` leaf. The sharp rate-half boundary remains the
+dimension-`ell-1` background-guarded split-locator congruence kernel.
+
+```text
+starting pin: c99f4912c; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none supplies the rate-half guarded split-locator payment
+lane: LIST / direct full-petal FPC5 / M=4,t=2
+result: PROVED rate quarter with absolute bound 10; isolated rate half as the only red child
+DAG status delta: math 228(165/35/28) -> 231(167/36/28)
+submission delta: 243(177/37/29) -> 246(179/38/29); spine unchanged
+upstream terminal delta: portable first-layout and rate-quarter pair-uniqueness payment
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact arithmetic and tiny source replays only
+next: classify/count primitive split locators in one fixed rate-half guarded slice
+```

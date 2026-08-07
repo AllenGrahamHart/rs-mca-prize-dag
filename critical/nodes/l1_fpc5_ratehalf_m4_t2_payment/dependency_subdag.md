@@ -1,0 +1,11 @@
+# Dependency sub-DAG
+
+```text
+l1_general_first_layout_domination [PROVED] ----------------ev----+
+pma_two_full_petal_linear_slice_reduction [PROVED] ---------ev----+
+l1_fpc5_m4_t2_official_codimension_sieve [PROVED] ----------ev----+
+l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice [PROVED] -----ev----+
+                                                                    v
+  l1_fpc5_ratehalf_m4_t2_payment [TARGET]
+    --req--> l1_fpc5_m4_t2_payment [CONDITIONAL]
+```

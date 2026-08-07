@@ -53,7 +53,7 @@ EXPECTED_COUNTS = {
     # then adds 15 proved suppliers: one proof-only and 14 with local verifiers.
     "folder-md-only": 103,
     "legacy-ref-only": 1,
-    "local-verifier": 61,
+    "local-verifier": 63,
 }
 
 EXPECTED_NO_PROOF = {
@@ -129,8 +129,8 @@ def main() -> None:
     # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
     # The Conjecture-F scope decomposition adds one proved interface and one
     # conditional compiler while preserving 28 mathematical leaves.
-    require(len(critical["nodes"]) == 228, "critical orbit size drift")
-    require(len(proved) == 165, "critical PROVED count drift")
+    require(len(critical["nodes"]) == 231, "critical orbit size drift")
+    require(len(proved) == 167, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

@@ -58,8 +58,10 @@ GRANDS = {"mca_grand", "list_grand"}
 # round.
 # The exact FPC5 official-cell split replaces one TARGET by one CONDITIONAL
 # over three TARGET leaves and strict proved suppliers.
+# The M=4,t=2 rate split proves rate quarter and replaces that TARGET by one
+# CONDITIONAL over a single rate-half TARGET; leaves stay 28.
 EXPECTED_TARGETS = 28
-EXPECTED_CONDITIONALS = 35
+EXPECTED_CONDITIONALS = 36
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

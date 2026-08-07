@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  228 = 165 PROVED / 35 CONDITIONAL
+                  nodes {mca_grand, list_grand}.  231 = 167 PROVED / 36 CONDITIONAL
                   / 28 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 28
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  243 = 177 / 37 / 29.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  246 = 179 / 38 / 29.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (29 open dominators == the 29 submission-orbit TARGETs).
 
-Neither census is stale; 243 - 228 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 246 - 231 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -112,8 +112,12 @@ SUBMISSION_ROOT = "prize"
 # a CONDITIONAL over three direct payment leaves. Fifteen already-proved PMA
 # reduction nodes become strict suppliers. Net in both orbits:
 # +15 PROVED, +1 CONDITIONAL, +2 TARGET; submission spine unchanged.
-EXPECTED_MATH = {"PROVED": 165, "CONDITIONAL": 35, "TARGET": 28}
-EXPECTED_SUBMISSION = {"PROVED": 177, "CONDITIONAL": 37, "TARGET": 29}
+# The M=4,t=2 rate split then proves rate quarter by first-layout pair
+# uniqueness and leaves one exact rate-half child. The parent TARGET becomes
+# CONDITIONAL; first-layout domination and the new payment enter strict
+# ancestry. Net: +2 PROVED, +1 CONDITIONAL, TARGET count unchanged.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 36, "TARGET": 28}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 29}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

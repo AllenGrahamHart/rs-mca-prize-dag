@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_payment",
+    "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment",
+    "status": "TARGET",
+    "key": true,
+    "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. The petal-equation envelope, official positive-codimension sieve, and sharp background-guarded dimension-(ell-1) boundary are proved; the remaining content is the split-on-core locator count with exact nonagreements and internal-owner multiplicity preserved.",
+    "attack_surface": "count primitive split core locators in one fixed rate-half source, beginning with the dimension-(ell-1) guarded congruence kernel after tangent and quotient first ownership",
+    "falsifier": "a fixed official rate-half source whose internally first-owned two-full-petal contributors exceed every polynomial and legitimate profile column",
+    "refs": [
+      "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/attack.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/claim_contract.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/dependency_subdag.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

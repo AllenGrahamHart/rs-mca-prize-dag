@@ -2,11 +2,11 @@
 ## 4. Board anatomy
 
 - **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
-  `tools/verify_orbit_census.py`): critical surface 165 PROVED / 35 CONDITIONAL /
+  `tools/verify_orbit_census.py`): critical surface 167 PROVED / 36 CONDITIONAL /
   28 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **228** nodes. *(Q0, 2026-07-26:
+  grand challenges {`mca_grand`, `list_grand`} = **231** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 243 = 177/37/29, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 246 = 179/38/29, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
   29th TARGET and does not appear in the 28. The 2026-07-26 E1 and
@@ -15,13 +15,15 @@
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`,
   `l1_fpc5_ratehalf_m4_t3_split_slice_payment`,
-  `l1_fpc5_m4_t2_payment`, `l1_fpc5_large_source_payment`,
+  `l1_fpc5_ratehalf_m4_t2_payment`, `l1_fpc5_large_source_payment`,
   `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
   (F1 pole pricing imports the base-row list threshold).
 - **The true LIST flatness front:** `l1_mixed_petal_amplification` plus the
   three exact full-petal cells: rate-half `M=4,t=3` guarded LS6 slices,
-  `M=4,t=2` coprime-pair slices, and the large-source aggregate. Their
+  rate-half `M=4,t=2` guarded coprime-pair slices, and the large-source
+  aggregate. The rate-quarter `M=4,t=2` branch is proved by first-layout
+  domination plus pair uniqueness. Their
   conditional parent is `l1_full_petal_fpc5_payment`. General Conjecture F
   remains a valid SPI route but is no longer strict prize ancestry after its
   untyped LIST edge was retired.

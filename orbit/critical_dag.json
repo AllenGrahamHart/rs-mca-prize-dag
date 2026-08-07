@@ -618,8 +618,13 @@
   },
   {
    "id": "l1_fpc5_m4_t2_payment",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "L1 FPC5: M=4,t=2 full-petal payment"
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_payment",
+   "label": "UNPROVED",
+   "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment"
   },
   {
    "id": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
@@ -627,9 +632,19 @@
    "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment"
   },
   {
+   "id": "l1_fpc5_ratequarter_m4_t2_payment",
+   "label": "PROVED",
+   "title": "Rate-quarter FPC5 M=4,t=2 is paid by pair uniqueness"
+  },
+  {
    "id": "l1_full_petal_fpc5_payment",
    "label": "CONDITIONAL",
    "title": "L1: below-band full-petal FPC5 residual payment"
+  },
+  {
+   "id": "l1_general_first_layout_domination",
+   "label": "PROVED",
+   "title": "L1 general first-layout domination"
   },
   {
    "id": "l1_mixed_petal_amplification",
@@ -2213,6 +2228,10 @@
    "to": "dli_marginal_baseline100_coverage"
   },
   {
+   "from": "l1_core_defect_reduction",
+   "to": "l1_general_first_layout_domination"
+  },
+  {
    "from": "xr_graded_tangent_band_charge",
    "to": "xr_smallcore_spread_count"
   },
@@ -2245,12 +2264,24 @@
    "to": "l1_full_petal_fpc5_payment"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t2_payment",
+   "to": "l1_fpc5_m4_t2_payment"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
    "to": "l1_full_petal_fpc5_payment"
   },
   {
+   "from": "l1_fpc5_ratequarter_m4_t2_payment",
+   "to": "l1_fpc5_m4_t2_payment"
+  },
+  {
    "from": "l1_full_petal_fpc5_payment",
    "to": "imgfib"
+  },
+  {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_ratequarter_m4_t2_payment"
   },
   {
    "from": "pma_full_petal_band_composition",

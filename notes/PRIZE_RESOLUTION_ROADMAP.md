@@ -665,11 +665,11 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
-  `tools/verify_orbit_census.py`): critical surface 165 PROVED / 35 CONDITIONAL /
+  `tools/verify_orbit_census.py`): critical surface 167 PROVED / 36 CONDITIONAL /
   28 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **228** nodes. *(Q0, 2026-07-26:
+  grand challenges {`mca_grand`, `list_grand`} = **231** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 243 = 177/37/29, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 246 = 179/38/29, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
   29th TARGET and does not appear in the 28. The 2026-07-26 E1 and
@@ -678,13 +678,15 @@ identifications without a machine-verified chain.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`,
   `l1_fpc5_ratehalf_m4_t3_split_slice_payment`,
-  `l1_fpc5_m4_t2_payment`, `l1_fpc5_large_source_payment`,
+  `l1_fpc5_ratehalf_m4_t2_payment`, `l1_fpc5_large_source_payment`,
   `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
   (F1 pole pricing imports the base-row list threshold).
 - **The true LIST flatness front:** `l1_mixed_petal_amplification` plus the
   three exact full-petal cells: rate-half `M=4,t=3` guarded LS6 slices,
-  `M=4,t=2` coprime-pair slices, and the large-source aggregate. Their
+  rate-half `M=4,t=2` guarded coprime-pair slices, and the large-source
+  aggregate. The rate-quarter `M=4,t=2` branch is proved by first-layout
+  domination plus pair uniqueness. Their
   conditional parent is `l1_full_petal_fpc5_payment`. General Conjecture F
   remains a valid SPI route but is no longer strict prize ancestry after its
   untyped LIST edge was retired.
@@ -19860,6 +19862,43 @@ delta-star bracket movement: none
 new assumptions: none
 compute: no Modal; tiny finite-field rank replays only
 next: count split core locators in the rate-half dimension-(ell-1) guarded congruence kernel, or attack the guarded LS6 max-to-mean gap
+```
+
+### FPC5 `M=4,t=2` rate split
+
+The existing proved `l1_general_first_layout_domination` theorem applies to
+FPC5 at every petal size. It reduces all maximal source layouts to the complete
+non-planted contribution in one fixed first layout plus at most `M` anchors.
+The earlier warning about uncontrolled source-layout multiplicity is therefore
+retired; only contributor-dependent internal recharts still need first owners.
+
+At rate quarter, `M=4` gives
+
+```text
+4ell+b=3k+1,       b<ell,       hence 2ell>k-1.
+```
+
+Two full petals therefore determine a degree-`<k` codeword uniquely. The fixed
+layout has six unordered touched pairs, so at most six non-planted contributors;
+adding four first-layout anchors gives the global absolute bound ten. This
+closes the complete rate-quarter `M=4,t=2` branch.
+
+The former two-rate target is now a CONDITIONAL router over the single exact
+`l1_fpc5_ratehalf_m4_t2_payment` leaf. The sharp rate-half boundary remains the
+dimension-`ell-1` background-guarded split-locator congruence kernel.
+
+```text
+starting pin: c99f4912c; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none supplies the rate-half guarded split-locator payment
+lane: LIST / direct full-petal FPC5 / M=4,t=2
+result: PROVED rate quarter with absolute bound 10; isolated rate half as the only red child
+DAG status delta: math 228(165/35/28) -> 231(167/36/28)
+submission delta: 243(177/37/29) -> 246(179/38/29); spine unchanged
+upstream terminal delta: portable first-layout and rate-quarter pair-uniqueness payment
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact arithmetic and tiny source replays only
+next: classify/count primitive split locators in one fixed rate-half guarded slice
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
