@@ -1,7 +1,7 @@
 # f_dim_induction
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: TARGET]
-- **closure:** proof
+- **status:** CONDITIONAL
+- **closure:** proved implication from explicit open packing and sparse-payment leaves
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
 ## Statement
@@ -15,3 +15,11 @@ the open quantification: the spread-vs-coincidence dichotomy at dim r (how much 
 ## Falsifier
 
 toy r = 3 census (extend E7) exceeding the compounding-depth prediction
+
+## False-green repair (2026-08-07)
+
+The local spread/rank-defect dichotomy and strict descent are proved. The
+uniform absolute-exponent packing step is not: the raw spread numerator grows
+like `n^r`, and the higher-weight sparse branch was only routed to Face 4.
+Those obligations are now explicit in `f_global_packing_step` and
+`f_higher_weight_sparse_payment`.

@@ -11,7 +11,8 @@
 
 ## Claim
 
-Conditional on `f_primitive_case`, full Conjecture F holds.
+Conditional on `f_primitive_case`, the consumer-scoped Conjecture-F theorem
+required by the prize proof holds.
 
 ## Proof
 

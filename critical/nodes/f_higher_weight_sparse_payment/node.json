@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_higher_weight_sparse_payment",
+    "title": "Conjecture-F higher-weight sparse Face-4 payment",
+    "status": "TARGET",
+    "key": true,
+    "statement": "In the proper gcd-trivial Conjecture-F regime, after the proved sparse-rank split removes bounded rank and abundant weight two, every growing support-minimal weight-at-least-three branch transported to Face 4 is either assigned canonically to a tangent, multiplicative-pullback, or dihedral owner, or undergoes strict descent whose complete first-owner descendants have total unpaid population at most n^B_hw for one absolute exponent. Routing to Face 4 or classifying a local circuit is not itself payment.",
+    "attack_surface": "retain actual locator-section membership and first ownership through the syzygy-flat transport; aggregate support embeddings and cross-core multiplicity rather than counting local charts",
+    "falsifier": "a proper gcd-trivial flat family with growing higher-weight sparse span, no paid owner, and super-polynomially many actual unpaid section points or descendants",
+    "refs": [
+      "critical/nodes/f_higher_weight_sparse_payment/statement.md",
+      "critical/nodes/f_higher_weight_sparse_payment/attack.md",
+      "critical/nodes/f_higher_weight_sparse_payment/claim_contract.md",
+      "critical/nodes/f_higher_weight_sparse_payment/dependency_subdag.md"
+    ],
+    "upstream": {
+      "source": "rs-mca split-pencil / primitive shift-pair control",
+      "relation": "FACE4_PAYMENT_BRIDGE"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,7 +1,7 @@
 # f_many_sparse_structure
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
-- **closure:** proof
+- **status:** CONDITIONAL
+- **closure:** proved implication from an explicit open higher-weight leaf
 - **refs (legacy repo):** ['proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1']
 
 ## Statement
@@ -19,3 +19,10 @@ a toy flat (n = 16 exhaustive over dims 2-3) with many sparse dual words that is
 ## Ledger (migrated notes)
 
 where ALL the residual risk of the F induction concentrates; the other three parts are elementary | E9 census (exact, codim-1 flats at j<=4): third class = support-3 words, structured not unstructured — the revision cost one statement edit because the descent node already existed. | E35 CORRECTION propagates: the multiplicative branch reads X^e g(X^M) (projective/twisted form) wherever the taxonomy lists it — matching the dihedral X^e prefix; the untwisted form is falsified as the literal clause by the {X, X^3, X^5} example.
+
+## False-green repair (2026-08-07)
+
+`f_sparse_rank_split` proves that the growing sparse-rank,
+weight-at-least-three branch maps to the Face-4 configuration object. It does
+not prove that the object is paid. The missing statement is now the separate
+target `f_higher_weight_sparse_payment`; this node is conditional on it.

@@ -158,8 +158,8 @@
   },
   {
    "id": "conj_f",
-   "label": "PROVED",
-   "title": "Conjecture F: plane sections of D_j have poly unpaid points"
+   "label": "CONDITIONAL",
+   "title": "Consumer-scoped Conjecture F: prize flat sections have poly unpaid points"
   },
   {
    "id": "corridor_ext_crossing",
@@ -523,7 +523,7 @@
   },
   {
    "id": "f_dim_induction",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
   },
   {
@@ -537,14 +537,29 @@
    "title": "F WLOG reduction: factor out the plane's common divisor"
   },
   {
+   "id": "f_global_packing_step",
+   "label": "UNPROVED",
+   "title": "Conjecture-F absolute-exponent global packing"
+  },
+  {
+   "id": "f_higher_weight_sparse_payment",
+   "label": "UNPROVED",
+   "title": "Conjecture-F higher-weight sparse Face-4 payment"
+  },
+  {
    "id": "f_many_sparse_structure",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
   },
   {
    "id": "f_primitive_case",
-   "label": "PROVED",
+   "label": "CONDITIONAL",
    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
+  },
+  {
+   "id": "f_prize_consumer_flat_scope",
+   "label": "UNPROVED",
+   "title": "Conjecture-F prize consumer flat-scope compiler"
   },
   {
    "id": "f_scale_recursion",
@@ -2289,6 +2304,18 @@
   {
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness"
+  },
+  {
+   "from": "f_global_packing_step",
+   "to": "f_dim_induction"
+  },
+  {
+   "from": "f_higher_weight_sparse_payment",
+   "to": "f_many_sparse_structure"
+  },
+  {
+   "from": "f_prize_consumer_flat_scope",
+   "to": "f_primitive_case"
   },
   {
    "from": "x4_exactlist_summed_budget",

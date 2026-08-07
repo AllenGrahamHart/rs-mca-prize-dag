@@ -1,9 +1,9 @@
-# proof: conj_f (auto-discharged)
+# conditional proof: conj_f
 
-The conditional implication (see conditional.md) is proved and every predicate is now green:
+The reduction in `conditional.md` is proved from:
 
 - `f_gcd_reduction` [PROVED]
 - `f_scale_recursion` [PROVED]
-- `f_primitive_case` [PROVED]
+- `f_primitive_case` [CONDITIONAL]
 
-By modus ponens the statement is PROVED. Auto-discharged by tools/auto_discharge.py; the audit lives at the red->amber referee step.
+The primitive predicate is not proved, so Conjecture F remains CONDITIONAL.

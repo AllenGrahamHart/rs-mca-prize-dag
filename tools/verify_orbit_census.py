@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  230 = 171 PROVED / 34 CONDITIONAL
-                  / 25 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  233 = 167 PROVED / 38 CONDITIONAL
+                  / 28 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  245 = 183 / 36 / 26.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  248 = 179 / 40 / 29.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 245 - 230 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 248 - 233 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -93,8 +93,14 @@ SUBMISSION_ROOT = "prize"
 # than a mandatory requirement. Its detached ancestry contains five PROVED,
 # five CONDITIONAL, and two TARGET nodes. The direct primitive leaf itself
 # remains TARGET, and the 15-node submission spine is unchanged.
-EXPECTED_MATH = {"PROVED": 171, "CONDITIONAL": 34, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 183, "CONDITIONAL": 36, "TARGET": 26}
+# 2026-08-07 CONJECTURE-F FALSE-GREEN REPAIR: two hidden assertions are now
+# explicit TARGET leaves (higher-weight Face-4 payment, absolute-exponent
+# packing, and the actual prize-consumer flat-scope compiler). Their four
+# auto-discharged ancestors return from PROVED to CONDITIONAL. Net:
+# -4 PROVED / +4 CONDITIONAL / +3 TARGET in both orbits;
+# the 15-node submission spine is unchanged.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 38, "TARGET": 28}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 40, "TARGET": 29}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

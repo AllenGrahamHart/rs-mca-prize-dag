@@ -1935,3 +1935,34 @@ new assumptions: none
 compute: no Modal; exact symbolic official-row inequalities
 next: attack hard-boundary locator incidence or operational ownership; use norms only with new exact shape data
 ```
+
+### Conjecture-F false-green repair
+
+The L1/upstream reconciliation found that `conj_f` was green only because two
+routers had been consumed as payments. `f_sparse_rank_split` sends the
+weight-at-least-three branch to Face 4 but does not pay its actual section
+points. `f_spread_moment_count` gives exact leaf bounds, but neither it nor
+polynomial state count produces one absolute exponent when the flat dimension
+grows.
+
+The DAG now names those obligations as
+`f_higher_weight_sparse_payment` and `f_global_packing_step`. A third leaf,
+`f_prize_consumer_flat_scope`, repairs the unproved assumption that every
+actual caller lies in the useful dimension regime and includes the mixed-
+petal/Pade family omitted by the refuted two-family compiler. The four parent
+nodes through `conj_f` are honest conditional assemblies. This aligns our
+critical frontier with upstream `prob:capfr1-master-flatness` and the L1 Pade
+section rather than falsely claiming a theorem upstream still poses as open.
+
+```text
+starting pin: 84d04d06f; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes the exposed flatness/payment leaves
+lane: LIST / Conjecture F / split-pencil master flatness
+result: FALSE-GREEN REMOVED; three exact critical leaves exposed
+DAG status delta: -4 PROVED, +4 CONDITIONAL, +3 TARGET before orbit relabeling
+upstream terminal delta: shared theorem boundary is now exact
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal
+next: prove an owner-aware absolute-exponent packing theorem, not another router
+```

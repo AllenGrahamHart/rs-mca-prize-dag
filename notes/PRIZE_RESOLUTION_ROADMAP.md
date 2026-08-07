@@ -665,24 +665,27 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
-  `tools/verify_orbit_census.py`): critical surface 179 PROVED / 38 CONDITIONAL /
-  25 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **242** nodes. *(Q0, 2026-07-26:
+  `tools/verify_orbit_census.py`): critical surface 167 PROVED / 38 CONDITIONAL /
+  28 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **233** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 257 = 191/40/26, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 248 = 179/40/29, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  26th TARGET and does not appear in the 25. The 2026-07-26 E1 and
+  29th TARGET and does not appear in the 28. The 2026-07-26 E1 and
   unsafe-at-crossing false-green audits account for the delta from the earlier
   `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
-  `l1_mixed_petal_amplification`, `rate_half_list_adjacent_crossing`,
+  `l1_mixed_petal_amplification`, `f_higher_weight_sparse_payment`,
+  `f_global_packing_step`, `f_prize_consumer_flat_scope`,
+  `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
   (F1 pole pricing imports the base-row list threshold).
-- **The true critical path:** `l1_mixed_petal_amplification` — in the
-  irreducible core under every wiring including the RK world, wired into
-  both grands, and the longest-stalled core leaf.
-- **Minimal win sets:** unconditional = all 25 mathematical leaves + dossier
+- **The true LIST flatness front:** `l1_mixed_petal_amplification` plus the
+  repaired Conjecture-F leaves `f_higher_weight_sparse_payment`,
+  `f_global_packing_step`, and `f_prize_consumer_flat_scope`. They expose the
+  same split-locator/owner wall at different consumer interfaces.
+- **Minimal win sets:** unconditional = all 28 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
@@ -692,9 +695,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 23 of the 25 mathematical leaves;
+  board the clean-rate milestone contains 26 of the 28 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 25 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 28 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -19565,10 +19568,9 @@ next: use locator equations or exact first-owner predicates inside the residual 
 
 ### X4/SP primitive dyadic norm router
 
-The first algebraic continuation inside the Johnson-nonpositive wedge is now
-exact.  For a signed primitive shift-pair vector `c=1_P-1_Q`, dyadically fold
-the prefix power-sum equations to algebraic integers `beta_j`.  Every nonzero
-fold obeys
+For a signed primitive shift-pair vector `c=1_P-1_Q`, the locator-prefix
+power sums now feed an exact dyadic DLI interface.  Every nonzero fold
+`beta_j` satisfies
 
 ```text
 p^(f_j o_j) <= |Norm(beta_j)|
@@ -19576,19 +19578,16 @@ p^(f_j o_j) <= |Norm(beta_j)|
              <= (2^(j+2)e)^(N/2^(j+2)),
 ```
 
-where `f_j=ord_(n_j)(p)` and `o_j` is the exact number of Frobenius orbits
-represented by the available odd prefix powers.  The weighted exponent is at
-least their number `M_j`, so `p^M_j` is a field-uniform weaker lower gate.  In
-an exact `(e,d)` cell use the full effective depth `T=e-d-1`, not merely
-`t_XR`.  At the root level,
-`beta_0=0` exactly on the common antipodal coefficient-scale branch.  The
-quotient sieve has already removed that branch, so every live primitive
-record is canonically norm-gated.
+with the lower exponent counted by Frobenius orbits, not raw frequencies.
+It is at least the number of available odd frequencies.  In an exact
+`(e,d)` cell the usable depth is `T=e-d-1`, not merely `t_XR`.  The root fold
+vanishes exactly on the common antipodal coefficient-scale branch, already
+removed by the quotient sieve.  Thus every live primitive record is norm-
+gated, including over generated extension fields.
 
-This is an arithmetic router, not a census: it does not bound how many
-primitive vectors pass the gate.  The next closure-bearing step is to compile
-the exact first-owner predicates and count norm-gated locator records in the
-residual `(e,d)` cells.  Higher zero folds must remain explicit branches.
+No census follows from the gate alone.  The closure-bearing continuation is
+to compile first ownership and count the norm-gated locator records in each
+surviving `(e,d)` cell.
 
 ```text
 starting pin: 3f33dbbff; canonical 23df01a65; upstream main 93fba1be
@@ -19605,15 +19604,14 @@ next: count norm-gated primitive locator records under the operational first-own
 
 ### X4/SP shared Haar norm-product gate
 
-The dyadic fold energies consume one exact budget, rather than one copy of a
-worst-case bound per level:
+All dyadic fold energies obey
 
 ```text
 sum_j E_j/2^(j+1)=2e.
 ```
 
-For any nonempty active-scale set `S`, weighted AM-GM combines this identity
-with the residue-degree norm divisors to give
+Consequently every nonempty active-scale set satisfies the exact integer
+gate
 
 ```text
 p^R_S A_S^A_S <= (eN)^A_S,
@@ -19621,17 +19619,13 @@ A_S=sum_(j in S)N/2^(j+2),
 R_S=sum_(j in S)ord_(N/2^j)(p)o_j.
 ```
 
-This is an exact integer pattern gate.  Scale zero is active on every
-coefficient-primitive pair; higher structural zero folds are retained
-explicitly.  Every pattern failing the comparison is empty.  The result is
-strictly stronger than multiplying the independent energy ceilings, but it
-still does not count any surviving pattern.
+Coefficient primitivity forces scale zero active.  Higher zero folds remain
+separate branches.  The gate deletes impossible patterns but supplies no
+population estimate for survivors.
 
-The repository-wide inspection also confirms that the X4 four-column
-assembly does not yet print executable membership predicates for all four
-owners.  That is a real posedness debt, not a reason to weaken the local
-algebra: row-pattern replay and an operational first-owner compiler are the
-next two closure-bearing tasks.
+The companion ownership audit found no operational four-bucket membership
+compiler in the current X4 assembly.  Row-pattern replay and that compiler
+are the next closure-bearing tasks.
 
 ```text
 starting pin: 51da18d95; canonical 23df01a65; upstream main 93fba1be
@@ -19648,26 +19642,17 @@ next: replay active patterns per consumed row; compile the four owner predicates
 
 ### X4/SP structural zero-fold divisibility
 
-A structural zero fold is exact integral information.  If
-`C(X)=sum c_aX^a`, then
-
-```text
-beta_a=0  iff  Phi_(N/2^a)(X) divides C(X) in Z[X].
-```
-
-Balance also gives `X-1|C`.  Evaluating these pairwise-coprime factors at
-every active dyadic order contributes an exact power of two, strengthening
-the Haar pattern gate to
+Every zero fold is equivalent to an integral cyclotomic factor of the signed
+support polynomial.  Together with the balance factor `X-1`, these factors
+strengthen the active norm product to
 
 ```text
 2^(|S|+T_2(S,Z)) p^R_S A_S^A_S <= (eN)^A_S,
 T_2(S,Z)=sum_(j in S,a in Z)min(n_j,n_a)/2.
 ```
 
-Thus zero-heavy patterns can be cheaper to eliminate than the fully active
-pattern.  The theorem does not silently assign them to the quotient or
-moment staircase columns; that requires a separate owner and expansion
-proof.
+The comparison deletes impossible zero/active patterns but does not assign a
+first owner or count survivors.
 
 ```text
 starting pin: e79cb3180; canonical 23df01a65; upstream main 93fba1be
@@ -19684,27 +19669,16 @@ next: evaluate the strengthened pattern gate row-wise and classify surviving int
 
 ### X4/SP hard-boundary norm-size route cut
 
-The complete generic norm package has now been priced at the cell that an X4
-closure must still handle:
+At
 
 ```text
-N=2^41,       e=N/8,       T=t_XR,       d=e-T-1.
+N=2^41, e=N/8, T=t_XR, d=e-T-1,
 ```
 
-For every official `q<2^256` and every active/zero pattern, the Frobenius-
-orbit and structural-zero lower factor has logarithm below `3N+5160`.  Scale
-zero being active forces `A_S>=N/4`, and the shared Haar ceiling has logarithm
-at least
-
-```text
-(N/4)log2(N/2)=10N.
-```
-
-Thus every pattern passes by a wide margin.  This does not construct a shift
-pair, but it decisively retires another uniform norm-size refinement as a
-whole-wedge strategy.  The next SP2 step must be a split-locator incidence or
-owner theorem, or use exact shape-specific factors/common ideals that are not
-present in the generic package.
+every active/zero pattern passes the complete generic norm-size gate.  The
+lower factor is below `2^(3N+5160)` uniformly over `q<2^256`, while the Haar
+ceiling is at least `2^(10N)`.  This is not a shift-pair construction; it
+retires only the generic size-comparison route.
 
 ```text
 starting pin: 3671fd167; canonical 23df01a65; upstream main 93fba1be
@@ -19717,6 +19691,37 @@ delta-star bracket movement: none
 new assumptions: none
 compute: no Modal; exact symbolic official-row inequalities
 next: attack hard-boundary locator incidence or operational ownership; use norms only with new exact shape data
+```
+
+### Conjecture-F false-green repair
+
+The L1/upstream reconciliation found that `conj_f` was green only because two
+routers had been consumed as payments. `f_sparse_rank_split` sends the
+weight-at-least-three branch to Face 4 but does not pay its actual section
+points. `f_spread_moment_count` gives exact leaf bounds, but neither it nor
+polynomial state count produces one absolute exponent when the flat dimension
+grows.
+
+The DAG now names those obligations as
+`f_higher_weight_sparse_payment` and `f_global_packing_step`. A third leaf,
+`f_prize_consumer_flat_scope`, repairs the unproved assumption that every
+actual caller lies in the useful dimension regime and includes the mixed-
+petal/Pade family omitted by the refuted two-family compiler. The four parent
+nodes through `conj_f` are honest conditional assemblies. This aligns our
+critical frontier with upstream `prob:capfr1-master-flatness` and the L1 Pade
+section rather than falsely claiming a theorem upstream still poses as open.
+
+```text
+starting pin: 84d04d06f; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes the exposed flatness/payment leaves
+lane: LIST / Conjecture F / split-pencil master flatness
+result: FALSE-GREEN REMOVED; three exact critical leaves exposed
+DAG status delta: -4 PROVED, +4 CONDITIONAL, +3 TARGET before orbit relabeling
+upstream terminal delta: shared theorem boundary is now exact
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal
+next: prove an owner-aware absolute-exponent packing theorem, not another router
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

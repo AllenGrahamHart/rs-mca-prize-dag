@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_prize_consumer_flat_scope",
+    "title": "Conjecture-F prize consumer flat-scope compiler",
+    "status": "TARGET",
+    "key": true,
+    "statement": "Enumerate every actual LIST/MCA call to Conjecture-F flatness, including coordinate-prefix, Hankel/split-pencil, and mixed-petal received-word/Pade families. Emit an exact multiplicity-preserving descriptor with domain, locator degree j, projective dimension r, root threshold, punctures, and first-owner chronology. Prove that each descriptor is paid or lies in the quantitative regime consumed by the global packing theorem, and that the inventory is exhaustive. The refuted two-family scope and an unqualified all-linear-flats claim are not substitutes.",
+    "attack_surface": "audit graph call sites, compile the mixed-petal Pade descriptor, and pin the quantitative dimension gap and first-owner transport",
+    "falsifier": "an actual prize call omitted from the inventory, a near-full-dimensional unowned descriptor outside the packing regime, or a transport losing multiplicity or ownership",
+    "refs": [
+      "critical/nodes/f_prize_consumer_flat_scope/statement.md",
+      "critical/nodes/f_prize_consumer_flat_scope/attack.md",
+      "critical/nodes/f_prize_consumer_flat_scope/claim_contract.md",
+      "critical/nodes/f_prize_consumer_flat_scope/dependency_subdag.md",
+      "background/nodes/f_consumer_scoped/statement.md"
+    ],
+    "upstream": {
+      "source": "rs-mca prob:capfr1-master-flatness consumer interface",
+      "relation": "SCOPE_COMPILER"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f_dim_induction"
+    },
+    {
+      "to": "f_global_packing_step"
+    }
+  ],
+  "refutes": []
+}

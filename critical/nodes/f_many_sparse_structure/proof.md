@@ -1,10 +1,12 @@
-# proof: f_many_sparse_structure (auto-discharged)
+# conditional proof: f_many_sparse_structure
 
-The conditional implication (see conditional.md) is proved and every predicate is now green:
+The implication in `conditional.md` is proved from:
 
 - `f_dual_distance_frame` [PROVED]
 - `f_sparse_descent_step` [PROVED]
 - `dihedral_quotient_stratum` [PROVED]
 - `f_sparse_rank_split` [PROVED]
+- `f_higher_weight_sparse_payment` [TARGET]
 
-By modus ponens the statement is PROVED. Auto-discharged by tools/auto_discharge.py; the audit lives at the red->amber referee step.
+The last predicate is open. Routing higher-weight sparse words to Face 4 is
+not a payment theorem, so the parent remains CONDITIONAL.

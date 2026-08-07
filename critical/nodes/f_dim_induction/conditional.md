@@ -1,6 +1,6 @@
 # f_dim_induction conditional proof
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
+- **status:** CONDITIONAL
 - **closure:** proof from predicate nodes
 
 ## Predicate nodes
@@ -11,6 +11,7 @@
 - `f_sparse_descent_step`
 - `f_many_sparse_structure`
 - `f_descent_termination`
+- `f_global_packing_step`
 
 ## Claim
 
@@ -43,5 +44,7 @@ Thus coincidences do not create an unpaid high-dimensional branch.
 
 Finally, `f_descent_termination` guarantees that iterating these descent moves
 has only polynomially many memoized support-lattice states, with spread/moment
-leaf estimates. Therefore the induction over dimension closes conditionally on
-the listed predicates.
+leaf estimates. The predicate `f_global_packing_step` turns the exact spread
+leaf numerators into one `n^B_F` allowance with `B_F` independent of growing
+flat dimension after first ownership and scale recursion. Therefore the
+induction closes conditionally on the listed predicates.

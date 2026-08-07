@@ -1,6 +1,6 @@
 # f_primitive_case conditional proof
 
-- **status:** see dag.json (single source of truth; dag status PROVED) [header retrofit 2026-07-10, catch #69 — was: CONDITIONAL]
+- **status:** CONDITIONAL
 - **closure:** proof from predicate nodes
 
 ## Predicate nodes
@@ -9,6 +9,7 @@
 - `f_concurrency_equiv`
 - `f_dim2_skeleton`
 - `f_dim_induction`
+- `f_prize_consumer_flat_scope`
 
 Evidence/calibration:
 
@@ -18,7 +19,8 @@ Evidence/calibration:
 ## Claim
 
 Conditional on the predicate nodes, every gcd-trivial, aperiodic, non-pullback
-linear flat has only polynomially many unpaid points of `D_j`.
+flat emitted by the prize consumer compiler has only polynomially many unpaid
+points of `D_j`.
 
 ## Proof
 

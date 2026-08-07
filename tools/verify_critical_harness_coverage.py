@@ -44,7 +44,10 @@ EXPECTED_COUNTS = {
     # 2026-08-06 direct primitive-SP re-pose: the optional F-4/u1 branch
     # leaves strict ancestry. Five proved nodes detach: two md-only and three
     # legacy-ref-only; local verifier coverage is unchanged.
-    "folder-md-only": 123,
+    # 2026-08-07 Conjecture-F false-green repair: four md-only parent nodes
+    # return from PROVED to CONDITIONAL. Two new TARGET leaves add no proved
+    # harness obligation.
+    "folder-md-only": 119,
     "legacy-ref-only": 1,
     "local-verifier": 47,
 }
@@ -119,10 +122,10 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence and
-    # keeps only the exact local general-star budget in strict ancestry.
-    require(len(critical["nodes"]) == 230, "critical orbit size drift")
-    require(len(proved) == 171, "critical PROVED count drift")
+    # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
+    # Conjecture-F audit adds two exact leaves and demotes four false greens.
+    require(len(critical["nodes"]) == 233, "critical orbit size drift")
+    require(len(proved) == 167, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

@@ -6,6 +6,7 @@
 - `f_sparse_descent_step`
 - `dihedral_quotient_stratum`
 - `f_sparse_rank_split`
+- `f_higher_weight_sparse_payment`
 
 ## Claim
 
@@ -26,8 +27,10 @@ words. In the bounded-rank branch, quotienting by the sparse span reduces to
 the fixed-dimensional lattice/strip regime recorded in that predicate. In the
 growing-rank branch, the split is by sparse-word weight. Abundant weight-2
 supports are handled by the inverse theorem internal to the split, yielding a
-pullback stratum; higher-weight accumulation is transported to the Face-4
-configuration machinery rather than creating a new F-primitive class.
+    pullback stratum; higher-weight accumulation is transported to the Face-4
+    configuration machinery. The predicate `f_higher_weight_sparse_payment`
+    pays that transported object or gives a strict descent with aggregate
+    first-owner control.
 
 For a minimal sparse word of weight `w`, the predicate `f_sparse_descent_step`
 gives the divisor-depth descent: the all-roots subflat drops degree by `w` and

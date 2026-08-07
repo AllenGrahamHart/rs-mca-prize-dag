@@ -3,17 +3,18 @@
   "order": 227,
   "node": {
     "id": "conj_f",
-    "title": "Conjecture F: plane sections of D_j have poly unpaid points",
-    "status": "PROVED",
+    "title": "Consumer-scoped Conjecture F: prize flat sections have poly unpaid points",
+    "status": "CONDITIONAL",
     "gate": "all",
     "key": true,
     "refs": [
-      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1",
+      "notes/CONJECTURE_F_FALSE_GREEN_AUDIT_20260807.md"
     ],
-    "statement": "For every linear P <= P^j and pair (u,v): the D_j-points of P are, up to n^{B_F} exceptions, covered by a shared divisor of degree >= j - dim P - O(log_n) (tangent shape) or a proper quotient-pullback stratum (periodic shape).",
+    "statement": "For every actual LIST/MCA flat emitted by f_prize_consumer_flat_scope, the D_j-points are, up to n^{B_F} exceptions, assigned to a tangent/shared-divisor owner or a proper quotient/dihedral pullback owner. This is the consumer theorem required by the prize DAG; the unqualified statement for every abstract linear flat is not claimed.",
     "attack_surface": "prove coordinate planes first (= prob:perfiber, minimal instance), then kernel planes; the crux is classifying exceptional planes (ES-type)",
     "falsifier": "a toy-scale plane family (n = 16..32, enumerable) with super-poly D_j points, no deep shared divisor, no pullback symmetry",
-    "notes": "FLIP on replay (Codex wave 7): assembly conditional \u2014 gcd-reduction + scale-recursion PROVED; closes on f_primitive_case."
+    "notes": "The gcd and scale reductions are proved. FALSE-GREEN REPAIR 2026-08-07: the primitive input is conditional on the explicit prize-consumer scope, absolute-exponent packing, and higher-weight Face-4 payment leaves. This node states only the consumer theorem needed by the prize DAG."
   },
   "requires": [
     {
