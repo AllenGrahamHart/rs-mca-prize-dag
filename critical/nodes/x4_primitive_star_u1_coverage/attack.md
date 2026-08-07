@@ -27,6 +27,9 @@
    locator or removed-locator projection may be charged with multiplicity at
    most `1024` on an official base row.  The remaining task is a
    first-owner-compatible projection census, not another fiber computation.
+   The high-width interval `e>=N/4+1` is already paid in aggregate by the
+   low-difference Johnson theorem.  Restrict the projection attack to
+   `t_XR+2<=e<=N/4`.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by

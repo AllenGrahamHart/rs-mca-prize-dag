@@ -22,6 +22,8 @@
 - **First nonconstant multiplicity:** at official base rows, either fixed
   locator projection has codegree at most `1024`; the number of projected
   locators remains unbounded.
+- **Paid `d=1` band:** all widths `e>=N/4+1` contribute at most `N^3/64`
+  in aggregate; the surviving interval is `t_XR+2<=e<=N/4`.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

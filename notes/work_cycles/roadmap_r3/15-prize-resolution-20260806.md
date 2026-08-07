@@ -1690,3 +1690,41 @@ new assumptions: none
 compute: no Modal; exact integer verifier plus independent Fano-plane extremal audit
 next: bound one first-owner-filtered d=1 locator projection; keep d>=2 separate
 ```
+
+### X4/SP low-difference high-width payment
+
+The fixed-projection `1024` bound can be strengthened on large side widths
+without fixing a locator.  If two neighbours of one base have side width `e`
+and reduced difference degree at most `d`, their changed `2e`-sets intersect
+in at most `e+d`.  The local Johnson count is therefore
+
+```text
+M_(e,<=d)<=N(e-d)/(4e^2-N(e+d))
+```
+
+whenever the denominator is positive.
+
+At `d=1`, positivity starts exactly at `e=N/4+1`.  The first width has
+denominator four and bound `N^2/16`; every later bound is smaller.  There are
+exactly `N/4` widths through `N/2`, so
+
+```text
+sum_(e=N/4+1)^(N/2) D_(e,1)<=N^3/64.
+```
+
+This pays the complete high-width linear-difference band.  The next SP2
+attack is now restricted to `t_XR+2<=e<=N/4`, where the Johnson denominator
+is nonpositive; the fixed-projection codegree remains available there.
+
+```text
+starting pin: b9ec8c6be; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: PAID the complete d=1 high-width band by N^3/64
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP theorem for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact integer verifier plus independent attained N=8 extremal audit
+next: attack t_XR+2<=e<=N/4 using the 1024 projection codegree
+```

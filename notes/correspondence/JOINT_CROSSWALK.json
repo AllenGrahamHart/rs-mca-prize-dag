@@ -1483,6 +1483,31 @@
    }
   },
   {
+   "our_node": "x4_low_difference_johnson_highwidth_bound",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "full-locator difference degree -> changed-set intersection cap -> local Johnson bound -> exact high-width sum",
+   "scope": "fixed-base SP incidences of side width e and difference degree at most d; at local N=2^41,d=1 the complete e>N/4 aggregate is at most N^3/64",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the remaining t_XR+2<=e<=N/4 linear-difference interval",
+    "does not pay any d>=2 aggregate",
+    "does not transport the N^3/64 constant to a different quotient tuple",
+    "does not close the primitive SP or X4 target"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "b9ec8c6be",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "f3_affine_coset_pair_mattarei_bound",
    "his_object": {
     "label": "SP: primitive shift-pair control / exact second-moment ledger",

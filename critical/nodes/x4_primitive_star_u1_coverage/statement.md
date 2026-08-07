@@ -74,6 +74,15 @@ the `d=1` incidence by `1024`.  This reduces the branch to bounding one
 distinct-locator projection, with a certified ten-bit multiplicity loss; it
 does not bound that projection or the total branch.
 
+A second proved Johnson bound pays the complete high-width part of this
+branch:
+
+```text
+sum_(e=N/4+1)^(N/2) D_(e,1)(S0)<=N^3/64.
+```
+
+Thus only `t_XR+2<=e<=N/4` remains at `d=1`.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

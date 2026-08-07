@@ -28874,6 +28874,30 @@
    ]
   },
   {
+   "id": "x4_low_difference_johnson_highwidth_bound",
+   "title": "Low-difference local SP Johnson high-width bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed base support, side-width-e neighbours whose reduced locator difference has degree at most d have changed 2e-sets with pairwise intersection at most e+d. Hence their number is at most N(e-d)/(4e^2-N(e+d)) whenever the denominator is positive. At N=2^41 and d=1, every width e>=N/4+1 has at most N^2/16 records, and summing all at most N/4 such widths costs at most N^3/64. Thus only t_XR+2<=e<=N/4 remains in the d=1 branch.",
+   "refs": [
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/proof.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/claim_contract.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/source_evidence.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/dependency_subdag.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/audit.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/result.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/frontier.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/lineage.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/verify.py",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP2: Low-degree difference incidence",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "x4_maxfiber_local_shiftpair_equivalence",
    "title": "Maximum prefix fiber equals one plus maximum local shift-pair degree",
    "status": "PROVED",
@@ -28916,7 +28940,7 @@
    "title": "Primitive exact-list local general-star budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31, and a proved Johnson argument bounds either fixed-locator projection codegree by 1024; the distinct-locator projection and total residue remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31; either fixed-locator projection codegree is at most 1024, and the complete high-width band e>=N/4+1 costs at most N^3/64. The surviving d=1 interval is t+2<=e<=N/4; its distinct-locator projection and every d>=2 residue remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
    "refs": [
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
@@ -28928,7 +28952,8 @@
     "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md",
     "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/statement.md",
     "background/nodes/x4_linear_difference_translated_divisor_interface/statement.md",
-    "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md"
+    "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md",
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
@@ -54677,6 +54702,11 @@
   },
   {
    "from": "x4_general_shiftpair_difference_degree_partition",
+   "to": "x4_low_difference_johnson_highwidth_bound",
+   "kind": "req"
+  },
+  {
+   "from": "x4_general_shiftpair_difference_degree_partition",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
@@ -54712,6 +54742,11 @@
   },
   {
    "from": "x4_locator_prefix_consumer_scope",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_low_difference_johnson_highwidth_bound",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
