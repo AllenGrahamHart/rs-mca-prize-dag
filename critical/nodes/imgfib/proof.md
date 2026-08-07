@@ -1,5 +1,13 @@
 > **SUPERSEDED 2026-07-14 (catch #212, credit the upstream audit l1_imgfib_crosswalk_audit.md):** the assembly below over-claims — the five kids do not cover the MIXED-PETAL / DIFFUSE PARTIAL-PETAL bucket of #ImgFib_U (the mixed induction was retracted 2026-07-05; catch #176 shows the mass is real). Node re-demoted to CONDITIONAL on the minted red l1_mixed_petal_amplification. The full-petal, periodic, and primitive coverage claims below remain valid and independently reproduced (upstream 41/41 verifier).
 
+> **FURTHER REPAIRED 2026-08-07:** the full-petal claim in the preceding
+> historical note was still too broad. `petal_growth` and clause (P) prove the
+> top band only. The exact proved band/root composition leaves FPC5, now the
+> direct red `l1_full_petal_fpc5_payment`. The unsupported prose-level
+> `conj_f` charge is retired from LIST; see
+> `f_imgfib_consumer_descriptor/proof.md`. The historical proof below is not
+> the live assembly.
+
 # Proof — imgfib
 
 Discharged 2026-07-13. The packet (conditional.md, "statement-level

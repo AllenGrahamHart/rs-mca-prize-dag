@@ -1,6 +1,6 @@
 # imgfib
 
-- **status:** CONDITIONAL (2026-07-14, catch #212; the 2026-07-13 PROVED promotion was an over-claim — mixed-petal bucket uncovered)
+- **status:** CONDITIONAL (mixed/partial-petal and FPC5 full-petal residuals open)
 - **closure:** proof
 - **refs (legacy repo):** ['wp_detail/wp_consolidation_sketch_extracts.md']
 
@@ -19,6 +19,22 @@ a toy word family with super-poly image fibers above the corrected reserve
 ## Ledger (migrated notes)
 
 PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids.
+
+## ROUTE REPAIR (2026-08-07)
+
+The historical `conj_f` requirement was a prose-level charge with no exact
+LIST branch-to-flat compiler. It is not used by the repaired assembly.
+
+The full-petal partition is now explicit. `petal_growth` pays the
+layout-anchored top band, and `pma_full_petal_band_composition` proves that
+the easy below-band complement is paid by the fixed-`e` root-pinning ledger.
+The exact remaining full-petal branch is
+`l1_full_petal_fpc5_payment`. Mixed and diffuse partial petals remain in
+`l1_mixed_petal_amplification`. These two red leaves are disjoint.
+
+Conjecture F remains open and prize-critical through its genuine Hankel/SPI
+consumer. Removing the LIST edge is route retirement, not a proof of
+Conjecture F or of either L1 leaf.
 
 ## SCOPE ADDENDUM (2026-07-16, wave-8 import)
 

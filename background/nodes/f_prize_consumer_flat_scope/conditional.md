@@ -1,4 +1,8 @@
-# Conditional proof: prize consumer flat-scope compiler
+# Historical conditional proof: prize consumer flat-scope compiler
+
+> **DISCHARGED 2026-08-07:** `f_imgfib_consumer_descriptor` proved route
+> retirement rather than a LIST branch-to-flat map. The strict caller set is
+> now the singleton `{spi_point_counting}`. See `proof.md` for the live proof.
 
 ## Predicate
 

@@ -12,7 +12,7 @@
       "critical/nodes/imgfib/proof.md",
       "critical/nodes/imgfib/statement.md"
     ],
-    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): the packet is a statement-level assembly over the wired kids (conditional.md), and the last open kid \u2014 petal_growth \u2014 is PROVED on the maintainer's P1 floor confirmation (the other four: conj_f, l1_program_frontier, dyadic_profile_evaluation, payment_completeness were already PROVED). Inherits the petal chain's standing tripwires (P)-3 / criterion 4 transitively. || DEMOTED PROVED -> CONDITIONAL (2026-07-14, catch #212, credit the UPSTREAM AUDIT l1_imgfib_crosswalk_audit.md + its 41/41 verifier, integrated at rs-mca c35a6da3 wave; verified against our own artifacts): the 2026-07-13 promotion over-claimed. The statement's count #ImgFib_U(k+sigma) includes the MIXED-PETAL / DIFFUSE PARTIAL-PETAL bucket, which NO wired kid bounds: the cited 'off-band induction' lemmas are full-petal-only, the mixed induction was retracted 2026-07-05, our own scope statements (petal_growth/proof.md, the cp packet) disclaim mixed-petal, and catch #176 shows the bucket's mass is real (43 vs 10 full-petal at (16,8,97)). The audit CONFIRMS everything else: full-petal top-band (clause (P), independently reproduced 'no defect'), full-petal below-top, periodic, primitive -- all theorem-backed; and it STRENGTHENS clause 4 of the crosswalk (the chain does not consume the H-scale hypothesis at all: clause (P) works at sigma = 1, so sigma >= Cn/log n is DROPPED, not subsumed -- the old 'entropy forces sigma = Omega(n)' reasoning was false at the rows and is struck per #155). Now CONDITIONAL on exactly the minted red l1_mixed_petal_amplification (req-wired). The upstream L1 presentation (PR #750) must carry the same narrowing: full-petal instances theorem-backed; the mixed bucket open.",
+    "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): historical promotion over the then-wired children. || DEMOTED PROVED -> CONDITIONAL (2026-07-14, catch #212): the mixed-petal / diffuse partial-petal bucket was uncovered, so l1_mixed_petal_amplification was added. || ROUTE REPAIR (2026-08-07): the petal_growth proof and its clause-(P) supplier are top-band only. The proved pma_full_petal_band_composition pays the E=0 below-band complement and leaves the exact FPC5 full-petal residual M>=4, d<ell(M-2), t<2M-4, max(0,2d+1-t ell)->infinity. That residual is now the direct TARGET l1_full_petal_fpc5_payment. The old prose-level conj_f edge had no LIST branch-to-flat compiler and is removed; Conjecture F remains a genuine requirement of the background SPI candidate route, not of imgfib. Thus imgfib is CONDITIONAL on two disjoint direct petal leaves: FPC5 full petals and mixed/diffuse partial petals, with the ordinary-Johnson, exact-periodic, profile, and taxonomy interfaces retained.",
     "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
     "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
     "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form. | AMBER AUDIT 2026-07-06: SOUND (petal premise honestly wired as red). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
@@ -21,10 +21,6 @@
     {
       "from": "petal_growth",
       "order": 101
-    },
-    {
-      "from": "conj_f",
-      "order": 102
     },
     {
       "from": "l1_program_frontier",
@@ -45,6 +41,9 @@
     {
       "from": "pma_exact_periodic_owner",
       "order": 1415
+    },
+    {
+      "from": "l1_full_petal_fpc5_payment"
     }
   ],
   "alternatives": [],

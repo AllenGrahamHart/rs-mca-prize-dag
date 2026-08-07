@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_imgfib_consumer_descriptor",
+    "title": "ImgFib Conjecture-F route retirement and exact residual partition",
+    "status": "PROVED",
+    "closure": "proof",
+    "key": true,
+    "statement": "The historical conj_f requirement in imgfib has no branch-to-flat transport and is not needed by the repaired LIST assembly. Full-petal contributors split into the proved top-band/E=0 payments and the exact direct TARGET l1_full_petal_fpc5_payment; mixed or diffuse partial-petal contributors are the disjoint direct TARGET l1_mixed_petal_amplification. The ordinary-Johnson, exact-periodic, profile, and taxonomy interfaces remain separately wired. Hence no current imgfib branch is passed to Conjecture F, and removing the conj_f requirement loses no claimed LIST payment. This proves route retirement only, not either direct L1 target or Conjecture F.",
+    "falsifier": "a current imgfib branch whose only stated payment is Conjecture F, a full-petal branch outside the proved payments and FPC5, or overlap between the FPC5 and mixed/partial targets",
+    "refs": [
+      "background/nodes/f_imgfib_consumer_descriptor/statement.md",
+      "background/nodes/f_imgfib_consumer_descriptor/proof.md",
+      "background/nodes/f_imgfib_consumer_descriptor/attack.md",
+      "background/nodes/f_imgfib_consumer_descriptor/claim_contract.md",
+      "background/nodes/f_imgfib_consumer_descriptor/dependency_subdag.md",
+      "background/nodes/f_imgfib_consumer_descriptor/verify.py",
+      "critical/nodes/imgfib/proof.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/statement.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_full_petal_band_composition"
+    },
+    {
+      "from": "l1_first_match_totality_scope_pin"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

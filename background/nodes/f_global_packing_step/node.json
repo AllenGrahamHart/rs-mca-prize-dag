@@ -9,10 +9,10 @@
     "attack_surface": "find a telescoping potential that absorbs dimension-dependent spread numerators through divisor depth and quotient scale while preserving first ownership",
     "falsifier": "proper-flat instances whose exact owner-disjoint spread-leaf sum exceeds every fixed power of n",
     "refs": [
-      "critical/nodes/f_global_packing_step/statement.md",
-      "critical/nodes/f_global_packing_step/attack.md",
-      "critical/nodes/f_global_packing_step/claim_contract.md",
-      "critical/nodes/f_global_packing_step/dependency_subdag.md"
+      "background/nodes/f_global_packing_step/statement.md",
+      "background/nodes/f_global_packing_step/attack.md",
+      "background/nodes/f_global_packing_step/claim_contract.md",
+      "background/nodes/f_global_packing_step/dependency_subdag.md"
     ],
     "upstream": {
       "source": "rs-mca prob:capfr1-master-flatness",

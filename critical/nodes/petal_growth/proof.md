@@ -5,10 +5,10 @@ Discharged 2026-07-13 on the maintainer's P1 floor confirmation
 as the assembly of record) proves the claim from eleven wired
 hypotheses, all PROVED:
 
-- **Band split (pin P1, now fixed):** the multi-char threat is confined
-  to the top-defect band d >= M(t-2) (floor form, layout-anchored per
-  catch #168); off-band has the induction proof via top-coefficient
-  forcing. The floor band is the widest true form: it dominates the
+- **Band scope (pin P1, now fixed):** this theorem is the top-defect band
+  `d >= ell(M-2)` (floor form, layout-anchored per catch #168). The old
+  prose claim of a complete off-band induction is not consumed. The floor
+  band is the widest proved atlas form: it dominates the
   narrower (t-1)M scan reading, and any wider reading is refuted by
   counting (C(63,32) = 2^59.67 > (121/128)·128^6 = 2^41.92).
 - **On-band payment (the G1/G2/G3/K4 predicate split, all PROVED):**
@@ -31,10 +31,11 @@ for the status flip.
 
 ## Standing scope and tripwires
 
-- Top band + off-band induction = the claim as posed. Mixed-petal and
-  below-top are SEPARATE obligations: the #171 wide-minus-floor lift
+- The proved claim is the top band only. Mixed-petal and below-top are
+  SEPARATE obligations: the #171 wide-minus-floor lift
   mass (~2^59.67 at (128,64)) is this node's open below-top ledger
-  line (statement flag), untouched by this promotion.
+  line, untouched by this promotion. The exact residual is now named
+  `l1_full_petal_fpc5_payment` after the proved band/root composition.
 - TRIPWIRE (P)-3 / re-surgery criterion 4: a future re-resolution of
   the band constant re-opens the chain (pre-registered).
 - The six re-surgery criteria of the 2026-07-10 amber design remain

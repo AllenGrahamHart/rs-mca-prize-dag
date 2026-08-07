@@ -157,11 +157,6 @@
    "title": "Confinement-from-stabilizer theorem (x1)"
   },
   {
-   "id": "conj_f",
-   "label": "CONDITIONAL",
-   "title": "Consumer-scoped Conjecture F: prize flat sections have poly unpaid points"
-  },
-  {
    "id": "corridor_ext_crossing",
    "label": "PROVED",
    "title": "Corridor eater (iii): the extension-crossing arithmetic"
@@ -190,11 +185,6 @@
    "id": "deep_point",
    "label": "PROVED",
    "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
-  },
-  {
-   "id": "dihedral_quotient_stratum",
-   "label": "PROVED",
-   "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
   },
   {
    "id": "dli_artin_schreier_conductor_criterion",
@@ -497,124 +487,14 @@
    "title": ""
   },
   {
-   "id": "f_concurrency_equiv",
-   "label": "PROVED",
-   "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)"
-  },
-  {
-   "id": "f_descent_termination",
-   "label": "PROVED",
-   "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)"
-  },
-  {
-   "id": "f_dih_subgroup_completeness",
-   "label": "PROVED",
-   "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory"
-  },
-  {
-   "id": "f_dim1",
-   "label": "PROVED",
-   "title": "F at dimension 1: pencils meet D_j in at most n/j points (VOTING)"
-  },
-  {
-   "id": "f_dim2_skeleton",
-   "label": "PROVED",
-   "title": "F at dimension 2: elementary pair bound + twins are tangent-paid"
-  },
-  {
-   "id": "f_dim_induction",
-   "label": "CONDITIONAL",
-   "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
-  },
-  {
    "id": "f_dual_distance_frame",
    "label": "PROVED",
    "title": "The frame: trace degeneracies = low-weight words of the flat's dual code P-perp"
   },
   {
-   "id": "f_gcd_reduction",
-   "label": "PROVED",
-   "title": "F WLOG reduction: factor out the plane's common divisor"
-  },
-  {
-   "id": "f_global_packing_step",
-   "label": "UNPROVED",
-   "title": "Conjecture-F absolute-exponent global packing"
-  },
-  {
-   "id": "f_higher_weight_sparse_payment",
-   "label": "UNPROVED",
-   "title": "Conjecture-F higher-weight sparse Face-4 payment"
-  },
-  {
-   "id": "f_imgfib_consumer_descriptor",
-   "label": "UNPROVED",
-   "title": "ImgFib Conjecture-F consumer descriptor and exhaustion"
-  },
-  {
-   "id": "f_many_sparse_structure",
-   "label": "CONDITIONAL",
-   "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
-  },
-  {
-   "id": "f_primitive_case",
-   "label": "CONDITIONAL",
-   "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
-  },
-  {
-   "id": "f_prize_consumer_flat_scope",
-   "label": "CONDITIONAL",
-   "title": "Conjecture-F prize consumer flat-scope compiler"
-  },
-  {
-   "id": "f_scale_recursion",
-   "label": "PROVED",
-   "title": "F scale recursion: pullback points are plane points of the quotient instance"
-  },
-  {
-   "id": "f_sparse_descent_step",
-   "label": "PROVED",
-   "title": "The descent step: a sparse dual word buys divisor depth faster than it costs dimension"
-  },
-  {
-   "id": "f_sparse_rank_split",
-   "label": "PROVED",
-   "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
-  },
-  {
-   "id": "f_spi_hankel_consumer_descriptor",
-   "label": "PROVED",
-   "title": "SPI Hankel slope fibers are exact Conjecture-F flat descriptors"
-  },
-  {
-   "id": "f_spread_descent_dichotomy",
-   "label": "PROVED",
-   "title": "PROVED (Pro Brief B partial): the spread/rank-defect dichotomy + descent"
-  },
-  {
-   "id": "f_spread_moment_count",
-   "label": "PROVED",
-   "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension"
-  },
-  {
    "id": "f_support_lattice",
    "label": "PROVED",
    "title": "Reformulation: descent-tree size = closed-set count of the sparse-support lattice"
-  },
-  {
-   "id": "f_termination_hankel",
-   "label": "PROVED",
-   "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice"
-  },
-  {
-   "id": "f_termination_mds",
-   "label": "PROVED",
-   "title": "MDS-dual flats: termination is TRIVIAL (no sparse words exist)"
-  },
-  {
-   "id": "f_weight2_inverse",
-   "label": "PROVED",
-   "title": "FACE-2 CORE (evidence-informed): the weight-2 inverse theorem"
   },
   {
    "id": "far_pair_separation",
@@ -672,11 +552,6 @@
    "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL"
   },
   {
-   "id": "hankel_moment_clean_leaves",
-   "label": "PROVED",
-   "title": "hankel moment clean leaves"
-  },
-  {
    "id": "hankel_rank_profile_entropy",
    "label": "PROVED",
    "title": "hankel rank profile entropy"
@@ -730,6 +605,11 @@
    "id": "l1_defect_layer_bounds",
    "label": "PROVED",
    "title": "L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)"
+  },
+  {
+   "id": "l1_full_petal_fpc5_payment",
+   "label": "UNPROVED",
+   "title": "L1: below-band full-petal FPC5 residual payment"
   },
   {
    "id": "l1_mixed_petal_amplification",
@@ -1077,11 +957,6 @@
    "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24"
   },
   {
-   "id": "wild_row_audit",
-   "label": "PROVED",
-   "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
-  },
-  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
    "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns"
@@ -1332,10 +1207,6 @@
    "to": "imgfib"
   },
   {
-   "from": "conj_f",
-   "to": "imgfib"
-  },
-  {
    "from": "f1_classification",
    "to": "ext_lift"
   },
@@ -1436,22 +1307,6 @@
    "to": "imgfib"
   },
   {
-   "from": "f_gcd_reduction",
-   "to": "conj_f"
-  },
-  {
-   "from": "f_scale_recursion",
-   "to": "conj_f"
-  },
-  {
-   "from": "f_primitive_case",
-   "to": "conj_f"
-  },
-  {
-   "from": "periodic_strata",
-   "to": "f_scale_recursion"
-  },
-  {
    "from": "char0_collision_classification",
    "to": "collision_norm_criterion"
   },
@@ -1470,14 +1325,6 @@
   {
    "from": "spi_exceptional_class",
    "to": "payment_completeness"
-  },
-  {
-   "from": "f_dim1",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_concurrency_equiv",
-   "to": "f_primitive_case"
   },
   {
    "from": "gap1_product_model",
@@ -1544,50 +1391,6 @@
    "to": "list_adjacency_closing"
   },
   {
-   "from": "f_dim2_skeleton",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_dim_induction",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_gcd_reduction",
-   "to": "f_dim2_skeleton"
-  },
-  {
-   "from": "f_dim2_skeleton",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_spread_moment_count",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_many_sparse_structure",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_spread_moment_count"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_sparse_descent_step"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "safe_assembly_uniformity",
    "to": "mca_safe"
   },
@@ -1614,30 +1417,6 @@
   {
    "from": "generator_economy",
    "to": "far_pair_separation"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_many_sparse_structure"
-  },
-  {
-   "from": "f_descent_termination",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_support_lattice",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_termination_mds",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_termination_hankel",
-   "to": "f_descent_termination"
   },
   {
    "from": "f_dual_distance_frame",
@@ -1668,10 +1447,6 @@
    "to": "r2_clean_rates"
   },
   {
-   "from": "dihedral_quotient_stratum",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "xr_target_budget_audit",
    "to": "xr_clean_residual_any_gate"
   },
@@ -1688,24 +1463,8 @@
    "to": "xr_scattered_syzygy_flattice"
   },
   {
-   "from": "f_dih_subgroup_completeness",
-   "to": "f_weight2_inverse"
-  },
-  {
-   "from": "f_weight2_inverse",
-   "to": "f_sparse_rank_split"
-  },
-  {
-   "from": "f_sparse_rank_split",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "x4_exactlist_staircase_split",
    "to": "tr_perleaf_list_ident"
-  },
-  {
-   "from": "wild_row_audit",
-   "to": "f_dih_subgroup_completeness"
   },
   {
    "from": "moment_trade_staircase",
@@ -1788,16 +1547,8 @@
    "to": "f1_case_tower"
   },
   {
-   "from": "f_spread_descent_dichotomy",
-   "to": "f_dim_induction"
-  },
-  {
    "from": "cap_envelope_parameter_sweep",
    "to": "corridor_ledger"
-  },
-  {
-   "from": "f_spread_moment_count",
-   "to": "f_descent_termination"
   },
   {
    "from": "xr_target_budget_audit",
@@ -1842,14 +1593,6 @@
   {
    "from": "f_support_lattice",
    "to": "hankel_rank_profile_entropy"
-  },
-  {
-   "from": "hankel_rank_profile_entropy",
-   "to": "f_termination_hankel"
-  },
-  {
-   "from": "hankel_moment_clean_leaves",
-   "to": "f_termination_hankel"
   },
   {
    "from": "hankel_rank_profile_entropy",
@@ -2316,32 +2059,8 @@
    "to": "dli_wcl_slot_1_5_emptiness"
   },
   {
-   "from": "f_global_packing_step",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_higher_weight_sparse_payment",
-   "to": "f_many_sparse_structure"
-  },
-  {
-   "from": "f_imgfib_consumer_descriptor",
-   "to": "f_prize_consumer_flat_scope"
-  },
-  {
-   "from": "f_prize_consumer_flat_scope",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_spi_hankel_consumer_descriptor",
-   "to": "f_prize_consumer_flat_scope"
-  },
-  {
-   "from": "payment_completeness",
-   "to": "f_spi_hankel_consumer_descriptor"
-  },
-  {
-   "from": "spi_component_control",
-   "to": "f_spi_hankel_consumer_descriptor"
+   "from": "l1_full_petal_fpc5_payment",
+   "to": "imgfib"
   },
   {
    "from": "x4_exactlist_summed_budget",

@@ -53,9 +53,12 @@ GRANDS = {"mca_grand", "list_grand"}
 # The consumer-scope decomposition then replaces one scope TARGET by one
 # narrower LIST TARGET, one proved SPI descriptor, and one CONDITIONAL
 # compiler: TARGETs stay 28 and CONDITIONALs rise by one.
-EXPECTED_TARGETS = 28
-EXPECTED_CONDITIONALS = 39
-EXPECTED_ROUNDS = 9
+# LIST route retirement then removes the detached general-F ancestry and adds
+# the direct FPC5 leaf: 26 TARGETs, 34 CONDITIONALs, and one fewer propagation
+# round.
+EXPECTED_TARGETS = 26
+EXPECTED_CONDITIONALS = 34
+EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).
 AUDITED_UNRELATED = {

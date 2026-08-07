@@ -25,7 +25,7 @@ def main() -> None:
             if any(edge.get("from") == "conj_f" for edge in data.get("requires", [])):
                 callers.add(data["node"]["id"])
 
-    assert callers == {"imgfib", "spi_point_counting"}, callers
+    assert callers == {"spi_point_counting"}, callers
 
     scope = load_node("f_prize_consumer_flat_scope")
     scope_parents = {edge["from"] for edge in scope["requires"]}
@@ -36,7 +36,16 @@ def main() -> None:
 
     imgfib = load_node("imgfib")
     imgfib_parents = {edge["from"] for edge in imgfib["requires"]}
-    assert {"conj_f", "l1_mixed_petal_amplification"} <= imgfib_parents
+    assert "conj_f" not in imgfib_parents
+    assert {
+        "l1_full_petal_fpc5_payment",
+        "l1_mixed_petal_amplification",
+    } <= imgfib_parents
+
+    fpc5 = load_node("l1_full_petal_fpc5_payment")
+    assert fpc5["node"]["status"] == "TARGET"
+    for token in ("M>=4", "d<ell(M-2)", "t<2M-4", "->infinity"):
+        assert token in fpc5["node"]["statement"]
 
     pade = load_node("l1_full_locator_pade_section_all_cofactors")
     rootfree = load_node("l1_rootfree_rational_q_projective_packing")
@@ -45,7 +54,8 @@ def main() -> None:
     assert "no cardinality" in pade["node"]["statement"].lower()
     assert "projective split-locator intersection" in rootfree["node"]["statement"].lower()
 
-    print("F_PRIZE_CONSUMER_SCOPE_PASS callers=2 list=target spi=proved")
+    assert scope["node"]["status"] == "PROVED"
+    print("F_PRIZE_CONSUMER_SCOPE_PASS callers=1 list=retired spi=proved")
 
 
 if __name__ == "__main__":

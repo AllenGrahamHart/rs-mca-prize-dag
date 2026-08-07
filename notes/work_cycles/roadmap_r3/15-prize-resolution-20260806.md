@@ -2002,3 +2002,40 @@ new assumptions: none
 compute: no Modal; graph, proof-object, and linear-algebra audit only
 next: compile the actual imgfib branch inventory and preserve puncture/owner multiplicity
 ```
+
+
+### LIST Conjecture-F route retirement and FPC5 exposure
+
+The branch audit found that the historical `conj_f -> imgfib` edge did not
+name a linear section or preserve a codeword/section multiplicity. The actual
+gap is direct. The green `petal_growth` packet is top-band only, and the
+proved band/root composition leaves exactly
+
+```text
+M>=4,  d<ell(M-2),  t<2M-4,
+max(0,2d+1-t ell)->infinity.                         (FPC5)
+```
+
+The new `l1_full_petal_fpc5_payment` TARGET owns this full-petal residue.
+The disjoint `l1_mixed_petal_amplification` TARGET continues to own
+mixed/diffuse partial petals. These direct leaves replace the unsupported
+LIST flatness call.
+
+The general Conjecture-F chain remains a genuine SPI research route, but its
+only strict caller is now `spi_point_counting`, which is not required by
+either grand-challenge root. Its 26-node ancestry therefore moves to the
+background tree. This is dependency pruning, not a proof of Conjecture F.
+
+```text
+starting pin: bd9f96c91; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none pays FPC5 or the mixed/partial target
+lane: LIST / direct image-fiber residual partition
+result: RETIRED the untyped LIST Conjecture-F route; exposed exact FPC5 leaf
+DAG status delta: math 235(168/39/28) -> 210(150/34/26)
+submission delta: 250(180/41/29) -> 225(162/36/27); spine unchanged
+upstream terminal delta: direct portable FPC5 statement; no terminal closed
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact proof-interface and dependency audit only
+next: attack FPC5 directly, coordinated with the mixed/partial L1 target
+```

@@ -9,10 +9,10 @@
     "attack_surface": "retain actual locator-section membership and first ownership through the syzygy-flat transport; aggregate support embeddings and cross-core multiplicity rather than counting local charts",
     "falsifier": "a proper gcd-trivial flat family with growing higher-weight sparse span, no paid owner, and super-polynomially many actual unpaid section points or descendants",
     "refs": [
-      "critical/nodes/f_higher_weight_sparse_payment/statement.md",
-      "critical/nodes/f_higher_weight_sparse_payment/attack.md",
-      "critical/nodes/f_higher_weight_sparse_payment/claim_contract.md",
-      "critical/nodes/f_higher_weight_sparse_payment/dependency_subdag.md"
+      "background/nodes/f_higher_weight_sparse_payment/statement.md",
+      "background/nodes/f_higher_weight_sparse_payment/attack.md",
+      "background/nodes/f_higher_weight_sparse_payment/claim_contract.md",
+      "background/nodes/f_higher_weight_sparse_payment/dependency_subdag.md"
     ],
     "upstream": {
       "source": "rs-mca split-pencil / primitive shift-pair control",

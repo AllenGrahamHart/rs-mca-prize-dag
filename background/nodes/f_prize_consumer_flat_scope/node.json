@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_prize_consumer_flat_scope",
+    "title": "Conjecture-F prize consumer flat-scope compiler",
+    "status": "PROVED",
+    "closure": "proof",
+    "key": true,
+    "statement": "The current strict DAG has exactly one Conjecture-F caller, spi_point_counting. The LIST route-retirement theorem proves that imgfib has no Conjecture-F call and instead exposes two direct L1 residual targets. For every remaining SPI call, the proved Hankel descriptor emits the exact fiber P(ker M(z)) cap D_j(H), with projective dimension, root threshold, unchanged domain, first-owner chronology, and slope-incidence multiplicity preserved. This exhausts current prize consumers. Any new strict caller re-opens the compiler.",
+    "falsifier": "an omitted strict Conjecture-F caller, a current LIST call hidden behind a direct residual, or loss of slope-incidence multiplicity or first-owner chronology in the SPI descriptor",
+    "refs": [
+      "background/nodes/f_prize_consumer_flat_scope/statement.md",
+      "background/nodes/f_prize_consumer_flat_scope/conditional.md",
+      "background/nodes/f_prize_consumer_flat_scope/proof.md",
+      "background/nodes/f_prize_consumer_flat_scope/attack.md",
+      "background/nodes/f_prize_consumer_flat_scope/claim_contract.md",
+      "background/nodes/f_prize_consumer_flat_scope/dependency_subdag.md",
+      "background/nodes/f_prize_consumer_flat_scope/verify.py",
+      "background/nodes/f_consumer_scoped/statement.md"
+    ],
+    "upstream": {
+      "source": "rs-mca prob:capfr1-master-flatness consumer interface",
+      "relation": "SCOPE_COMPILER"
+    }
+  },
+  "requires": [
+    {
+      "from": "f_imgfib_consumer_descriptor"
+    },
+    {
+      "from": "f_spi_hankel_consumer_descriptor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f_dim_induction"
+    },
+    {
+      "to": "f_global_packing_step"
+    }
+  ],
+  "refutes": []
+}

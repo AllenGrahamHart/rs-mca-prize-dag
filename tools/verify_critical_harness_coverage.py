@@ -48,7 +48,9 @@ EXPECTED_COUNTS = {
     # return from PROVED to CONDITIONAL. Three new TARGET leaves add no proved
     # harness obligation.
     # The consumer-scope decomposition adds one proof-only SPI interface.
-    "folder-md-only": 120,
+    # LIST route retirement subsequently detaches the 18 proved general-F
+    # ancestors, all of which were folder-md-only.
+    "folder-md-only": 102,
     "legacy-ref-only": 1,
     "local-verifier": 47,
 }
@@ -126,8 +128,8 @@ def main() -> None:
     # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
     # The Conjecture-F scope decomposition adds one proved interface and one
     # conditional compiler while preserving 28 mathematical leaves.
-    require(len(critical["nodes"]) == 235, "critical orbit size drift")
-    require(len(proved) == 168, "critical PROVED count drift")
+    require(len(critical["nodes"]) == 210, "critical orbit size drift")
+    require(len(proved) == 150, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

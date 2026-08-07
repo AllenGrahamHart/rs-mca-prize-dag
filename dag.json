@@ -4456,7 +4456,7 @@
     "critical/nodes/imgfib/proof.md",
     "critical/nodes/imgfib/statement.md"
    ],
-   "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): the packet is a statement-level assembly over the wired kids (conditional.md), and the last open kid \u2014 petal_growth \u2014 is PROVED on the maintainer's P1 floor confirmation (the other four: conj_f, l1_program_frontier, dyadic_profile_evaluation, payment_completeness were already PROVED). Inherits the petal chain's standing tripwires (P)-3 / criterion 4 transitively. || DEMOTED PROVED -> CONDITIONAL (2026-07-14, catch #212, credit the UPSTREAM AUDIT l1_imgfib_crosswalk_audit.md + its 41/41 verifier, integrated at rs-mca c35a6da3 wave; verified against our own artifacts): the 2026-07-13 promotion over-claimed. The statement's count #ImgFib_U(k+sigma) includes the MIXED-PETAL / DIFFUSE PARTIAL-PETAL bucket, which NO wired kid bounds: the cited 'off-band induction' lemmas are full-petal-only, the mixed induction was retracted 2026-07-05, our own scope statements (petal_growth/proof.md, the cp packet) disclaim mixed-petal, and catch #176 shows the bucket's mass is real (43 vs 10 full-petal at (16,8,97)). The audit CONFIRMS everything else: full-petal top-band (clause (P), independently reproduced 'no defect'), full-petal below-top, periodic, primitive -- all theorem-backed; and it STRENGTHENS clause 4 of the crosswalk (the chain does not consume the H-scale hypothesis at all: clause (P) works at sigma = 1, so sigma >= Cn/log n is DROPPED, not subsumed -- the old 'entropy forces sigma = Omega(n)' reasoning was false at the rows and is struck per #155). Now CONDITIONAL on exactly the minted red l1_mixed_petal_amplification (req-wired). The upstream L1 presentation (PR #750) must carry the same narrowing: full-petal instances theorem-backed; the mixed bucket open.",
+   "statement": "For ALL received words U: #ImgFib_U(k+sigma) <= n^B once sigma log2(q_D) >= (1+eps) log2 C(n, k+sigma) and the quotient profile is budgeted. || HYPOTHESES DISCHARGED -> PROVED (2026-07-13): historical promotion over the then-wired children. || DEMOTED PROVED -> CONDITIONAL (2026-07-14, catch #212): the mixed-petal / diffuse partial-petal bucket was uncovered, so l1_mixed_petal_amplification was added. || ROUTE REPAIR (2026-08-07): the petal_growth proof and its clause-(P) supplier are top-band only. The proved pma_full_petal_band_composition pays the E=0 below-band complement and leaves the exact FPC5 full-petal residual M>=4, d<ell(M-2), t<2M-4, max(0,2d+1-t ell)->infinity. That residual is now the direct TARGET l1_full_petal_fpc5_payment. The old prose-level conj_f edge had no LIST branch-to-flat compiler and is removed; Conjecture F remains a genuine requirement of the background SPI candidate route, not of imgfib. Thus imgfib is CONDITIONAL on two disjoint direct petal leaves: FPC5 full petals and mixed/diffuse partial petals, with the ordinary-Johnson, exact-periodic, profile, and taxonomy interfaces retained.",
    "attack_surface": "close the petal escape route (the only open branch of the Thm 21/B11 frontier); monomial instance already proved in quasi-poly range",
    "falsifier": "a toy word family with super-poly image fibers above the corrected reserve",
    "notes": "PROMOTED red -> amber (Codex flip packet, my replay 8/8; flip_packets/imgfib.md): statement-level assembly over the wired kids. | The upstream L1 wave (holmbuar's collapse chain + Vadim's residue bridge, both merged) matured this node's substrate externally \u2014 the petal frontier now has a normal form. | AMBER AUDIT 2026-07-06: SOUND (petal premise honestly wired as red). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md."
@@ -4470,6 +4470,7 @@
     "proof_sketch/s7_list_side.md#4"
    ],
    "statement": "FLOOR RE-POSE (2026-07-07, floor campaign \u2014 notes/floor_campaign/SURVEY_OTHER_LANES.md): the consumer (imgfib) consumes ONLY 'for ALL received words U: #ImgFib_U(k+sigma) <= n^B' with the petal escape route as the single open branch. FLOOR: at the official rows, for every U, the full-petal (top-defect band d >= M(t-2)) contribution to #ImgFib_U fits the n^B budget. NO uniformity-in-c claim and NO per-c polynomial claim \u2014 those are route strengthenings (kept below). Pre-registered falsifier: scaled official-like rows with a super-budget top-band petal family, sustained across scales; below-top behavior is Lemma-13-clean (76-row scan, max exact count 1). | Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route). | SURVIVAL +1 (2026-07-07, F4-A1, notes/f4a1_topband_ladder_modal.py): 7-rung prime ladder (109..6421, all gates PASS) \u2014 top-band max exact count EXACTLY 5005 = C(15,6) at every rung (slope +0.000; p-independent, purely binomial), below-top <= 1, zero Lemma-13 violations. The floor's n^B claim holds flat; constructive lead: the top-band family is combinatorially parameterized (the demanded paid family is a binomial column \u2014 identify and prove it on the route side). | SURVIVAL +2 scoped (2026-07-07, F4-A2): adversarial c-sweep to c=14 \u2014 top-band count steps C(15,6) -> C(20,6) = 38760: bounded-degree (6) binomial growth in the excess parameter, absorbed by any c-uniform n^B budget; the paid-family lead sharpens to a 6-dimensional binomial column. Large-p c-sweep completeness and the exact offset formula to F4-A2b. | SURVIVAL +3 -> **HARDENED** (2026-07-07, F4-A2b): the top band has a two-regime structure \u2014 at-top realizability SATURATES to the full binomial window p-independently (the paid family, exactly chargeable; the ladder's constant 5005 refined to this semantics), below-top accidents decay with p (4->0, 2->0), Lemma-13 zero violations everywhere. Families: p-ladder / c-growth / kernel-ceiling. | Pro floor-window 4: no kill; budget implication completed and replayed (C(n+6,6) <= n^6 at all four official maximal rows, exponent <= 5.785) \u2014 the saturated column provably fits n^6. || SLACK-SCAN ADDENDUM (2026-07-09, floor_budget_slack_scan): NOT BINDING \u2014 the saturated degree-6 binomial column sits ~9.5 bits under n^6 at all four official maximal rows (exponents 5.7685..5.7843, exact recompute; banked <= 5.785 confirmed); the excess-c column keeps degree 6. B_max > 6 would be gated by the codegree-conversion emission (imgfib -> list_safe): named open cell, compute only if the route needs it. | WP6 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP6_PETAL_VERDICT.md): REDUCTION-PARTIAL onto K4 (stabilizer-primitive image-fiber bound) \u2014 Codex's four E22 packets replayed PROVED (10/10 verifiers; ledger walls + algebraic entry real; staircase column exactly matches the planted lower count, separate charge NECESSARY; ~9.5 bits slack at exponent 5.785) but three named gaps block the amber: G1 layer-map supply for arbitrary U (upstream withholds), G2 support-forcing dichotomy (the central bridge, proved nowhere; F4-A2b empirics are evidence only), G3 pricing multiplicity (WP6 wrote 'referenced node exists nowhere' \u2014 CORRECTED 2026-07-10 amber audit Catch A: e22_cross_scale_pricing_multiplicity EXISTS locally since Jul 5 with status PROVED, but rides on the WP6-unreplayed fifth branch, so G3 stays a predicate per the anti-goal). Fifth E22 branch (minimal-scale accounting) NOT imported. || AMBER SURGERY (2026-07-10, petal amber audit, sequel to WP6): CONDITIONAL \u2014 machine-verified assembly implication: IF petal_g1_layer_maps AND petal_g2_support_forcing AND petal_g3_pricing_multiplicity AND petal_k4_primitive_bound (G4/G5 + P1/P3 pinned as definitions in conditional.md) THEN at every official row and every U, the top-band full-petal contribution to #ImgFib_U(k+sigma) splits as [primitive: <= n^{b1+b4}, charged to n^B] + [staircase: <= n^{b1+b3} x planted column, charged to imgfib's quotient-profile budget \u2014 the charge proved NECESSARY by v13_capf_planted_lower_count, exact column match]. Every non-predicate link PROVED: pma injection + four E22 packets (verifiers replayed exit-0 twice: WP6 and this audit) + exact arithmetic (exponent <= 5.785, slack = log2 6! = 9.4919 bits at n = 2^41..2^44, composition machine-checked; the 9.5 bits IS the binomial denominator, not structural headroom \u2014 do not spend it in predicate exponents). ROUTE OF RECORD: G1 -> pma -> [G4 pin] -> cofactor packets -> G2 -> {staircase: tail-coset + 7-lemma composite -> G3 -> quotient budget | primitive: K4} -> floor. RE-SURGERY (demote to TARGET) if: any predicate falsified as stated; the G4 dictionary check fails on a sweep cell; the fifth-branch replay contradicts the declared W semantics; the band pin P1 (floor band M(t-2) vs scan band (t-1)M \u2014 Catch B) is resolved to a different constant; or imgfib's quotient clause is re-scoped so the P3 emission no longer lands. SCOPE: top band only \u2014 mixed-petal and below-top are separate obligations, untouched. || #171 BELOW-TOP OBLIGATION NOTE (2026-07-13, from the clause-(P) banking): under the floor posing of the G1 band, the wide-minus-floor aperiodic lift mass (~2^59.67 at (128,64), spread over ~C(t,m) charts) belongs to THIS node's below-top obligation; the banked below-top evidence (76-row Lemma-13 scan, per-chart max 1) neither prices nor contradicts it, and no aggregate budget line exists for it yet. Attached to the owed P1 maintainer request (floor vs wide band decision); a P1 floor confirmation makes this the single open below-top quantity. || P1 CONFIRMED -> PROVED (2026-07-13): the maintainer ruled the top-defect band of record is the FLOOR band d >= M(t-2), layout-anchored (#168) \u2014 the strongest form the proofs support (dominates the narrower (t-1)M scan reading; wider-than-floor is killed by counting, 2^59.67 > 2^41.92). With the pin fixed, all eleven wired hypotheses are PROVED (G1 clause (P), G2, G3 compiler, K4, census gate, the E22/v13 suppliers) and the conditional packet discharges: full-petal extras are poly(n) uniformly in c on the top band, off-band by top-coefficient forcing. Confirmation text in conditional.md; proof artifact proof.md. STANDING: tripwire (P)-3 + re-surgery criterion 4 (re-resolution of the band constant re-opens); the #171 wide-minus-floor lift mass is this node's below-top ledger line (separate obligation, flagged above).",
+   "scope": "BINDING 2026-08-07 CORRECTION: status PROVED applies only to the layout-anchored top band d>=ell(M-2). The historical off-band-induction and uniform-in-c phrases are not consumed. The exact remaining full-petal complement is l1_full_petal_fpc5_payment.",
    "attack_surface": "fixed-excess enumerations (Q2.9) then the amplification statement; CRT compression makes small cases finite",
    "falsifier": "Pre-registered: a sustained super-n^B top-band full-petal family at scaled official-like rows (transported arithmetic). Below-top Lemma-13 territory and single window accidents do NOT count.",
    "notes": "FLIP on replay (Codex critical-walk batch): assembly/conditional packet in nodes/petal_growth/conditional.md. | FRONTIER RETRACTION 2026-07-05: demoted CONDITIONAL->TARGET and the sub-frontier CUT (archive/retraction_petal_20260705/). Reason: the petal machinery below (chargeability band frontier, band-split sparsity interface, uniformity/amplification nodes) suffered repeated falsifications-as-stated (Gate N, PRK, chargeability) and the audit surface was no longer trusted. This node -- full-petal extras poly(n) uniformly in c -- is the honest open obligation. Best-known structure from the cut exploration: the multi-char threat is confined to the top-defect band d>=M(t-2) (verified); off-band has an induction proof route via top-coefficient forcing; the band needs a parameterized paid family. See archive + EMPIRICAL_OBSERVATIONS. | AMBER STRESS 2026-07-06: local petal_excess scan checked 16 coset-chart configs / 76 rows, with no below-top Lemma-13 violations. Ambient dimK grows with c, so flat-kernel induction is not viable; exact realizable counts were max 1 below top and max 5005 at/top beyond, reinforcing top-band paid-family focus. | residual gate:any attribute removed 2026-07-06 (no alt edges exist; red-leaf law forbids them on a TARGET anyway). | AMBER 2026-07-10: route of record = G1/G2/G3/K4 predicate split (audit AMBER-READY); conditional packet rewritten (conditional.md); direct form chosen over a companion close-node because the maintainer's brief converts the red itself and petal_growth was historically the conditional node. | FIFTH-BRANCH RESOLUTION (2026-07-10): replay verdict = clean-parametric, G3 NOT discharged (catches #44-#47); re-surgery criterion 3 does NOT fire (no declared W existed to contradict); predicate count stays four; G3's clause (b) re-posed as the explicit conversion identity. | G2 VACUITY FINDING 2026-07-10: closure form trivially true (thm:stabilizer-partition(i)); real content = the small-scale pricing seam (scales <= t staircase mass, p-independent, witnessed); disposition re-audit queued (re-pose G2' at M > t vs flip + strengthen G3/K4). Re-surgery criterion 1 NOT fired (G2 is true, not false); route honesty under review. | 2026-07-12 CLUSTER IMPORT (audit-gated): G2 PROVED (flip banked WITH the new census gate node \u2014 catch #80), G3 -> CONDITIONAL compiler on G1 (clause (b) proved in general, clause (a) via injectivity + first-match), G1 re-posed as the atlas form (catch #79 repaired), 719 exact allowance banked. Amber predicates now {G1-atlas, K4, small-scale census}. Catches #79-#83. | 2026-07-13: census gate -> CONDITIONAL on the unified successor red quotient_row_subjohnson_bound (packet audited; suppliers T1/T2/T3 PROVED; catches #113-#115). Petal amber now: {G1-atlas, K4, successor} with G3 compiler. | 2026-07-13 PROMOTED PROVED on the maintainer's P1 floor confirmation \u2014 the petal lane closes: the first of the two grand branches' historical floors fully retired by proof + one posing ruling. | 2026-07-16 wiring correction (forced, wave-8 import): the legacy ev in-edge from petal_mixed_amplification removed -- this node's ratified scope EXCLUDES mixed-petal (P1 record, proof.md), so mixed-petal material is not evidence for it; the edge also closed a cycle against the imported pma suite (which consumes petal_growth as a req dependency)."
@@ -8299,7 +8300,7 @@
    "status": "PROVED",
    "statement": "Three lemmas (Pro, refereed + sanity-checked at r = 2): (L1) at every point of P cap D_j, either the incident hyperplane functionals are SPREAD (I_r(p) >= (1-alpha)^{r-1} C(m,r) independent r-subsets, greedy span-avoidance) or > alpha m of them lie in a proper subspace \u2014 the RANK-DEFECT case, yielding a positive-dimensional proper subflat carrying the shared divisor g_S; (L2) spread points number <= C(n,r) / [(1-alpha)^{r-1} C(j,r)] (double counting through independent r-tuples); (L3) coincidence gives STRICT descent \u2014 division by g_S is linear, degree drops by |S|, dimension drops, landing in F_{dim Q} or re-triggering gcd-reduction. r=3 specialization at alpha = 2/3 with the twin/pencil-through-a-line branch split. CRITICAL CORRECTION: 'coincidence' = rank defect, NOT equal hyperplanes \u2014 the pencil-through-a-line configuration (planes X0 = aX1, no twins, multiplicity n on the common line) refutes the twin-only reading in dim >= 3.",
    "refs": [
-    "critical/nodes/f_dim_induction/notes/pro_brief_b_result.md"
+    "background/nodes/f_dim_induction/notes/pro_brief_b_result.md"
    ]
   },
   {
@@ -28641,10 +28642,10 @@
    "attack_surface": "find a telescoping potential that absorbs dimension-dependent spread numerators through divisor depth and quotient scale while preserving first ownership",
    "falsifier": "proper-flat instances whose exact owner-disjoint spread-leaf sum exceeds every fixed power of n",
    "refs": [
-    "critical/nodes/f_global_packing_step/statement.md",
-    "critical/nodes/f_global_packing_step/attack.md",
-    "critical/nodes/f_global_packing_step/claim_contract.md",
-    "critical/nodes/f_global_packing_step/dependency_subdag.md"
+    "background/nodes/f_global_packing_step/statement.md",
+    "background/nodes/f_global_packing_step/attack.md",
+    "background/nodes/f_global_packing_step/claim_contract.md",
+    "background/nodes/f_global_packing_step/dependency_subdag.md"
    ],
    "upstream": {
     "source": "rs-mca prob:capfr1-master-flatness",
@@ -28660,10 +28661,10 @@
    "attack_surface": "retain actual locator-section membership and first ownership through the syzygy-flat transport; aggregate support embeddings and cross-core multiplicity rather than counting local charts",
    "falsifier": "a proper gcd-trivial flat family with growing higher-weight sparse span, no paid owner, and super-polynomially many actual unpaid section points or descendants",
    "refs": [
-    "critical/nodes/f_higher_weight_sparse_payment/statement.md",
-    "critical/nodes/f_higher_weight_sparse_payment/attack.md",
-    "critical/nodes/f_higher_weight_sparse_payment/claim_contract.md",
-    "critical/nodes/f_higher_weight_sparse_payment/dependency_subdag.md"
+    "background/nodes/f_higher_weight_sparse_payment/statement.md",
+    "background/nodes/f_higher_weight_sparse_payment/attack.md",
+    "background/nodes/f_higher_weight_sparse_payment/claim_contract.md",
+    "background/nodes/f_higher_weight_sparse_payment/dependency_subdag.md"
    ],
    "upstream": {
     "source": "rs-mca split-pencil / primitive shift-pair control",
@@ -28672,17 +28673,19 @@
   },
   {
    "id": "f_imgfib_consumer_descriptor",
-   "title": "ImgFib Conjecture-F consumer descriptor and exhaustion",
-   "status": "TARGET",
+   "title": "ImgFib Conjecture-F route retirement and exact residual partition",
+   "status": "PROVED",
+   "closure": "proof",
    "key": true,
-   "statement": "Replace the prose-level conj_f charge in imgfib by an exhaustive, multiplicity-preserving map from every LIST branch that actually invokes Conjecture F to an exact linear projective split-locator section, printing the received-word branch, punctured domain, locator degree, projective dimension, root threshold, first owner, and codeword/section multiplicity. The full Pade section is polynomial rather than linear; the proved punctured root-free rational-Q projective cell is one exact subfamily, not an exhaustion theorem.",
-   "attack_surface": "audit the actual imgfib branch partition, reuse exact proved cells, and expose any branch whose Conjecture-F charge has no parameter and multiplicity transport",
-   "falsifier": "an omitted charged branch, a nonlinear Pade section passed as a flat, owner-swapped punctures, or loss of codeword/section multiplicity",
+   "statement": "The historical conj_f requirement in imgfib has no branch-to-flat transport and is not needed by the repaired LIST assembly. Full-petal contributors split into the proved top-band/E=0 payments and the exact direct TARGET l1_full_petal_fpc5_payment; mixed or diffuse partial-petal contributors are the disjoint direct TARGET l1_mixed_petal_amplification. The ordinary-Johnson, exact-periodic, profile, and taxonomy interfaces remain separately wired. Hence no current imgfib branch is passed to Conjecture F, and removing the conj_f requirement loses no claimed LIST payment. This proves route retirement only, not either direct L1 target or Conjecture F.",
+   "falsifier": "a current imgfib branch whose only stated payment is Conjecture F, a full-petal branch outside the proved payments and FPC5, or overlap between the FPC5 and mixed/partial targets",
    "refs": [
-    "critical/nodes/f_imgfib_consumer_descriptor/statement.md",
-    "critical/nodes/f_imgfib_consumer_descriptor/attack.md",
-    "critical/nodes/f_imgfib_consumer_descriptor/claim_contract.md",
-    "critical/nodes/f_imgfib_consumer_descriptor/dependency_subdag.md",
+    "background/nodes/f_imgfib_consumer_descriptor/statement.md",
+    "background/nodes/f_imgfib_consumer_descriptor/proof.md",
+    "background/nodes/f_imgfib_consumer_descriptor/attack.md",
+    "background/nodes/f_imgfib_consumer_descriptor/claim_contract.md",
+    "background/nodes/f_imgfib_consumer_descriptor/dependency_subdag.md",
+    "background/nodes/f_imgfib_consumer_descriptor/verify.py",
     "critical/nodes/imgfib/proof.md",
     "background/nodes/l1_rootfree_rational_q_projective_packing/statement.md"
    ]
@@ -28690,18 +28693,19 @@
   {
    "id": "f_prize_consumer_flat_scope",
    "title": "Conjecture-F prize consumer flat-scope compiler",
-   "status": "CONDITIONAL",
+   "status": "PROVED",
+   "closure": "proof",
    "key": true,
-   "statement": "The current strict DAG has exactly two Conjecture-F callers, imgfib and spi_point_counting. Conditional on an exhaustive LIST-side branch-to-flat compiler, combine it with the proved Hankel slope-fiber descriptor and emit exact multiplicity-preserving descriptors with domain, locator degree j, projective dimension r, root threshold, punctures, and first-owner chronology. The full Pade section is polynomial rather than linear; only an explicitly extracted projective cell may be sent to Conjecture F.",
-   "attack_surface": "close the LIST branch-to-flat inventory, keep the strict-caller guard pinned, and print the quantitative dimension gap and first-owner transport",
-   "falsifier": "an omitted strict caller or LIST branch, a Pade polynomial section mislabeled linear, a near-full-dimensional unowned descriptor outside the packing regime, or multiplicity/owner loss",
+   "statement": "The current strict DAG has exactly one Conjecture-F caller, spi_point_counting. The LIST route-retirement theorem proves that imgfib has no Conjecture-F call and instead exposes two direct L1 residual targets. For every remaining SPI call, the proved Hankel descriptor emits the exact fiber P(ker M(z)) cap D_j(H), with projective dimension, root threshold, unchanged domain, first-owner chronology, and slope-incidence multiplicity preserved. This exhausts current prize consumers. Any new strict caller re-opens the compiler.",
+   "falsifier": "an omitted strict Conjecture-F caller, a current LIST call hidden behind a direct residual, or loss of slope-incidence multiplicity or first-owner chronology in the SPI descriptor",
    "refs": [
-    "critical/nodes/f_prize_consumer_flat_scope/statement.md",
-    "critical/nodes/f_prize_consumer_flat_scope/conditional.md",
-    "critical/nodes/f_prize_consumer_flat_scope/attack.md",
-    "critical/nodes/f_prize_consumer_flat_scope/claim_contract.md",
-    "critical/nodes/f_prize_consumer_flat_scope/dependency_subdag.md",
-    "critical/nodes/f_prize_consumer_flat_scope/verify.py",
+    "background/nodes/f_prize_consumer_flat_scope/statement.md",
+    "background/nodes/f_prize_consumer_flat_scope/conditional.md",
+    "background/nodes/f_prize_consumer_flat_scope/proof.md",
+    "background/nodes/f_prize_consumer_flat_scope/attack.md",
+    "background/nodes/f_prize_consumer_flat_scope/claim_contract.md",
+    "background/nodes/f_prize_consumer_flat_scope/dependency_subdag.md",
+    "background/nodes/f_prize_consumer_flat_scope/verify.py",
     "background/nodes/f_consumer_scoped/statement.md"
    ],
    "upstream": {
@@ -28717,13 +28721,29 @@
    "key": true,
    "statement": "For every Hankel slope z, the spi_point_counting incidence fiber is exactly P(ker M(z)) cap D_j(H), with projective dimension dim ker M(z)-1, unchanged domain H, exact split-root threshold j, and no punctures. Emitting one descriptor occurrence per slope incidence preserves multiplicity even when one locator supports multiple slopes. The proved exceptional-component payment order assigns first owners before the generic residual.",
    "refs": [
-    "critical/nodes/f_spi_hankel_consumer_descriptor/statement.md",
-    "critical/nodes/f_spi_hankel_consumer_descriptor/proof.md",
-    "critical/nodes/f_spi_hankel_consumer_descriptor/claim_contract.md",
-    "critical/nodes/f_spi_hankel_consumer_descriptor/dependency_subdag.md",
+    "background/nodes/f_spi_hankel_consumer_descriptor/statement.md",
+    "background/nodes/f_spi_hankel_consumer_descriptor/proof.md",
+    "background/nodes/f_spi_hankel_consumer_descriptor/claim_contract.md",
+    "background/nodes/f_spi_hankel_consumer_descriptor/dependency_subdag.md",
     "background/nodes/spi_point_counting/conditional.md",
     "critical/nodes/spi_component_control/proof.md",
     "critical/nodes/payment_completeness/proof.md"
+   ]
+  },
+  {
+   "id": "l1_full_petal_fpc5_payment",
+   "title": "L1: below-band full-petal FPC5 residual payment",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying M>=4, d<ell(M-2), t<2M-4, and e=max(0,2d+1-t ell)->infinity admit one disjoint polynomial/profile allocation compatible with the imgfib reserve and quotient ledger. Here M is the number of source petals and t is the number touched by the contributor. This is exactly the FPC5 complement left after the proved top-band and E=0 root-pinning payments; mixed or partial petals are not part of this node.",
+   "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
+   "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
+   "refs": [
+    "critical/nodes/l1_full_petal_fpc5_payment/statement.md",
+    "critical/nodes/l1_full_petal_fpc5_payment/attack.md",
+    "critical/nodes/l1_full_petal_fpc5_payment/claim_contract.md",
+    "critical/nodes/l1_full_petal_fpc5_payment/dependency_subdag.md",
+    "background/nodes/pma_full_petal_band_composition/statement.md"
    ]
   },
   {
@@ -29938,11 +29958,6 @@
   },
   {
    "from": "petal_growth",
-   "to": "imgfib",
-   "kind": "req"
-  },
-  {
-   "from": "conj_f",
    "to": "imgfib",
    "kind": "req"
   },
@@ -54852,6 +54867,16 @@
    "kind": "ev"
   },
   {
+   "from": "l1_first_match_totality_scope_pin",
+   "to": "f_imgfib_consumer_descriptor",
+   "kind": "req"
+  },
+  {
+   "from": "l1_full_petal_fpc5_payment",
+   "to": "imgfib",
+   "kind": "req"
+  },
+  {
    "from": "l1_rootfree_rational_q_projective_packing",
    "to": "f_imgfib_consumer_descriptor",
    "kind": "ev"
@@ -54865,6 +54890,16 @@
    "from": "payment_completeness",
    "to": "f_spi_hankel_consumer_descriptor",
    "kind": "req"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "f_imgfib_consumer_descriptor",
+   "kind": "req"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "ev"
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",

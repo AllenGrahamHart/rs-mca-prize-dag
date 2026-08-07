@@ -74,3 +74,30 @@ The proved planted-root descent does extract an exact punctured linear cell
 valid evidence for the LIST compiler, but no existing packet proves that it
 exhausts every `imgfib` branch charged to `conj_f`. The mathematical red-leaf
 count is unchanged by this decomposition.
+
+## LIST route retirement and FPC5 exposure
+
+A second pass over the actual petal proof packets found that the LIST-side
+gap is not an unprinted linear flat. `petal_growth` and its clause-(P)
+supplier prove only the layout-anchored top band. The proved
+`pma_full_petal_band_composition` then pays the fixed-`e` below-band branch
+and leaves exactly
+
+```text
+M>=4,  d<ell(M-2),  t<2M-4,
+max(0,2d+1-t ell)->infinity.                         (FPC5)
+```
+
+This is now the direct red `l1_full_petal_fpc5_payment`. The disjoint
+mixed/diffuse partial-petal branch remains
+`l1_mixed_petal_amplification`. Therefore `imgfib` no longer invokes
+Conjecture F: its unsupported prose edge is replaced by the two exact direct
+L1 leaves. `f_imgfib_consumer_descriptor` is proved as a route-retirement and
+branch-partition theorem, not as a flatness theorem.
+
+The strict Conjecture-F caller set is now the singleton
+`{spi_point_counting}`. Its exact Hankel descriptor was already proved, so
+`f_prize_consumer_flat_scope` is PROVED. Conjecture F itself remains
+CONDITIONAL through SPI, and its higher-weight and global-packing leaves are
+unchanged. The red-leaf count remains unchanged: the former LIST descriptor
+leaf is replaced one-for-one by FPC5.

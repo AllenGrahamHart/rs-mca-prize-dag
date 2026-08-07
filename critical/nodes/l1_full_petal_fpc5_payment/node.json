@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_full_petal_fpc5_payment",
+    "title": "L1: below-band full-petal FPC5 residual payment",
+    "status": "TARGET",
+    "key": true,
+    "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying M>=4, d<ell(M-2), t<2M-4, and e=max(0,2d+1-t ell)->infinity admit one disjoint polynomial/profile allocation compatible with the imgfib reserve and quotient ledger. Here M is the number of source petals and t is the number touched by the contributor. This is exactly the FPC5 complement left after the proved top-band and E=0 root-pinning payments; mixed or partial petals are not part of this node.",
+    "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
+    "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
+    "refs": [
+      "critical/nodes/l1_full_petal_fpc5_payment/statement.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/attack.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/claim_contract.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/dependency_subdag.md",
+      "background/nodes/pma_full_petal_band_composition/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
