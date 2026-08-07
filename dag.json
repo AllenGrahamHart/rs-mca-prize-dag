@@ -13976,7 +13976,7 @@
    "refs": [
     "critical/nodes/dli_wcl_slot_2_7_emptiness/statement.md"
    ],
-   "statement": "No reduced signed weight-7 polynomial P has P(w) = P(w^3) = 0 at exact order 1024 at any official row (ell=2 window; siblings (2,5)/(2,6) closed by the audited norm-gcd/recursive-norm certificates). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-7 polynomial P has P(w) = P(w^3) = 0 at exact order 1024 at any official row (ell=2 window; siblings (2,5)/(2,6) closed by the audited norm-gcd/recursive-norm certificates). The exact four-plus-three cubic router has 94,652,815 affine candidate orbits. Its former Norm(u) saturation gap is repaired by an embedding-aware common-root quotient H_p/gcd(H_p,u) for every raw norm-gcd prime, but no survivor is excluded and the complete census is out of scope. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   {
    "id": "dli_wcl_slot_4_9_emptiness",
@@ -28267,6 +28267,24 @@
     "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/lineage.md",
     "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/verify.py",
     "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
+   "title": "WCL ell=2 weight-7 quadruple-cubic prime-filter router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every official WCL (2,7) relation routes through a selected quadruple and complementary cubic. Two exact doubling recurrences characterize the cubic's order-1024 roots. Rational Norm(u) saturation is repaired embedding-by-embedding: shared primes are retained and tested by H_p=gcd(Phi_1024,F,G), with the u-zero factors removed before reconstruction. Exact Burnside enumeration gives 94,652,815 candidate orbits, making the complete census a recorded no-go. No candidate or official prime is excluded.",
+   "refs": [
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/statement.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/proof.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/claim_contract.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/audit.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/result.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/lineage.md",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/verify.py",
+    "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/verify_audit.py"
    ]
   },
   {
@@ -54200,6 +54218,16 @@
   {
    "from": "dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence",
    "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell2_weight3_ambient_exclusion",
+   "to": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
+   "to": "dli_wcl_slot_2_7_emptiness",
    "kind": "ev"
   },
   {

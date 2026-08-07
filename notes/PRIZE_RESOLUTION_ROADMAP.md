@@ -19350,6 +19350,55 @@ new assumptions: none
 compute: no Modal; exact 62-pattern/15-pairing audits and 12,104 conductor checks
 next: inspect the (2,7) simultaneous-moment frontier before authorizing compute
 ```
+
+### WCL `(2,7)` corrected quadruple-cubic prime filter
+
+Inspection of the simultaneous-moment frontier confirmed two separate
+facts. First, the existing complete route is far too large:
+
+```text
+selected quadruple + complement product
+  -> complementary cubic
+  -> two order-1024 doubling recurrences
+  -> 94,652,815 affine candidate orbits.
+```
+
+The exact count independently reproduces the closed `(2,6)` control
+`404,740` and is a `233.9x` blow-up. The old multi-thousand-dollar census
+remains a no-go.
+
+Second, the router's recorded saturation gap has an exact repair. If
+`g_0=gcd(Norm(F),Norm(G))`, a rational prime shared with `Norm(u)` cannot be
+deleted: the three norms may vanish at different split embeddings. For
+every `p|g_0`, compute
+
+```text
+H_p=gcd(Phi_1024,F,G),       H_p^*=H_p/gcd(H_p,u).
+```
+
+The routed equations have a common embedding with `u!=0` exactly when
+`deg H_p^*>0`; only those primes proceed to cubic/support reconstruction.
+The paid weight-three exclusion separately proves `u!=0` on every actual
+official relation. This is banked as
+`dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router [PROVED]`.
+
+The theorem repairs a load-bearing premise but does not shrink the orbit
+fleet. Future `(2,7)` work must batch the free complement product, reduce the
+401,712 selected-quadruple shapes, or find a smaller joint obstruction. No
+sampling extension or complete fleet is authorized.
+
+```text
+starting pin: 17833b451; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; none supplies WCL arithmetic
+lane: WCL / (ell,h)=(2,7)
+result: CORRECTED exact prime filter; complete 94.7m-orbit route remains retired
+DAG status delta: +1 background PROVED router; target unchanged
+upstream terminal delta: none; classified OURS_ONLY
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact Burnside, recurrence, direct order-16 orbit, and polynomial-gcd audits
+next: seek complement-product batching; pivot lanes if no exact compression appears
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

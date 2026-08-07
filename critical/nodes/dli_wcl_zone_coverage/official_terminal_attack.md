@@ -398,3 +398,24 @@ aggregate Heron block-gcd continuation: the remaining `ell=1` route needs
 control of individual minimal-conductor norms. WCL arithmetic effort should
 prefer a slot with independent moment equations, currently `(2,7)`, unless a
 new individual-norm theorem appears.
+
+## Slot `(2,7)` corrected quadruple-cubic router (2026-08-06)
+
+The two-equation route is now exact at prime-filter granularity. Selecting a
+quadruple leaves a complementary cubic whose order-1024 roots are equivalent
+to two doubling-recurrence equations. Exact Burnside replay gives
+`94,652,815` affine candidate orbits, confirming that the direct census is a
+no-go at the current resource scale.
+
+The former `Norm(u)` saturation gap is closed without a weight-four census.
+Rational norms merge split embeddings, so a prime shared with `Norm(u)` is
+never deleted blindly. Every raw norm-gcd prime is tested over `F_p[X]` by
+
+```text
+H_p=gcd(Phi_1024,F,G),       H_p^*=H_p/gcd(H_p,u),
+```
+
+and survives only when `deg H_p^*>0`, followed by exact cubic and support
+reconstruction. This repairs the router but excludes no candidate orbit.
+The next theorem must batch complement products or produce a smaller joint
+obstruction; do not launch the complete fleet.
