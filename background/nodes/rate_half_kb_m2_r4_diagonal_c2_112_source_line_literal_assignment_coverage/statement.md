@@ -60,6 +60,10 @@ valid attack needs source-level cancellation or a branchwise theorem.
 The smallest leading-drop leaf, `s=0`, is now PROVED empty by eight literal
 localizer computations. This narrows the degree-12 route to `s!=0` but does
 not close a fixed cell.
+Both literal forms of the irreducible degree-6 leading curve are also PROVED
+empty by eight literal localizer computations. The live degree-12 route
+therefore has both `s!=0` and `L6(s,p)!=0`; no fixed cell closes from these
+leaf exclusions.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

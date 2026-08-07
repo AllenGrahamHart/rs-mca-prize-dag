@@ -20878,3 +20878,21 @@ localizer replay:         8/8 PASS; nilpotence index 1
 literal cell closures:    none; s!=0 degree-12 branches remain
 next:                     common degree-6 leading curve or source cancellation
 ```
+
+### K3 fixed degree-12 degree-6 leaf close
+
+Both literal forms of the irreducible degree-6 `x`-leading factor were
+imposed and replayed in all eight fixed `R02/R20` cells. `F04/F07` share a
+15-term form and `F05/F06` a distinct 17-term form. The seed ideal has a
+size-eight, dimension-one basis. After adjoining both reduced essential
+rows, the full bases have size 46 in `F04/F07` and 43 in `F05/F06`. In every
+cell the complete transported generic localizer first reduces to zero at
+factor 17.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        both L6(s,p)=0 forms empty in all eight cells
+localizer replay:         8/8 PASS; nilpotence index 1
+literal cell closures:    none; L6!=0 degree-12 branches remain
+next:                     degree 22--24 leading curves or source cancellation
+```

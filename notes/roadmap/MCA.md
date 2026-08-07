@@ -53,6 +53,11 @@ certificates required by the challenge.
   literal fixed cells: each specialized ideal has a two-element basis and
   the complete transported localizer vanishes at factor 14. This is a
   branch close only; aligned-positive coverage remains `26/36`.
+  Both literal forms of the irreducible degree-6 leading curve are likewise
+  PROVED empty in all eight cells: `F04/F07` share a 15-term form,
+  `F05/F06` a distinct 17-term form, the full ideals have basis size `43` or
+  `46`, and the localizer vanishes at factor 17. The live branch has `s!=0`
+  and `L6!=0`; coverage still remains `26/36`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
