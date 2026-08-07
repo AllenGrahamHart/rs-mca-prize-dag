@@ -1141,6 +1141,25 @@
    }
   },
   {
+   "our_node": "dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact maximal conductor owner and no-compression theorem for parity-adapted block-norm gcds in the local WCL (1,6) terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no individual signed norm or compatible characteristic is excluded",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "a1120ba75",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "dli_wcl_slot_1_7_emptiness",
    "his_object": null,
    "relation": "OURS_ONLY",

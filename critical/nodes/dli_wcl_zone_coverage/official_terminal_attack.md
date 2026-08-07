@@ -383,3 +383,18 @@ The current extended-window residual therefore has nine slots:
 (2,7) (2,8) (2,9)
 (4,9) (4,10) (4,11).
 ```
+
+## Slot `(1,6)` conductor/gcd route fence (2026-08-06)
+
+The pair-Heron route now has an exact stopping theorem. Supports whose six
+exponents have one parity descend uniquely to their maximal lower two-adic
+conductor. At the first mixed-parity conductor, every parity-adapted even
+Heron block norm is a product of two complete signed rational norms, while
+every odd quadratic block norm is a product of four. Thus cross-pairing gcds
+remain divisible by the full signed norm they are intended to compress.
+
+This excludes no characteristic and leaves `(1,6)` open. It retires the
+aggregate Heron block-gcd continuation: the remaining `ell=1` route needs
+control of individual minimal-conductor norms. WCL arithmetic effort should
+prefer a slot with independent moment equations, currently `(2,7)`, unless a
+new individual-norm theorem appears.

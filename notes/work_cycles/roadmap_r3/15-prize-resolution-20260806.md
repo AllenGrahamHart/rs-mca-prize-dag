@@ -1552,3 +1552,47 @@ new assumptions: none
 compute: no Modal; 64 exact parity patterns and 1,000 modular audit rows
 next: bounded norm-size/factorability pilot on deterministic parity-adapted samples
 ```
+
+### WCL `(1,6)` conductor and block-norm gcd fence
+
+The proposed multi-pairing continuation does not create the independent
+arithmetic obstruction that made the `ell=2` norm-gcd route effective. For a
+six-support, first descend by the largest `2^d` dividing every exponent
+difference. The all-one-parity stratum then has the exact lower-conductor
+form
+
+```text
+S=zeta_512^c T,       |Norm(S)|=|Norm(T)|^(2^d),       d<=5,
+```
+
+and the descended support is mixed in parity. At that conductor the
+`K/K_0` involution is free on sign classes. Exact block ownership gives
+
+```text
+even Heron block norm:       N_epsilon N_theta,
+odd descended block norm:   N_epsilon1 ... N_epsilon4.
+```
+
+Therefore every parity-adapted block norm containing one sign class is
+divisible by that class's complete rational norm. Two pairings can isolate
+one conjugacy orbit as a set, but the integer gcd still contains its full
+norm and offers no compression. The theorem is banked as
+`dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence [PROVED]`.
+
+This changes the route decision, not the target status. Do not fund a larger
+Heron aggregate norm/factor pilot. Either find direct arithmetic control of
+individual minimal-conductor `(1,6)` norms, or move WCL effort to `(2,7)`,
+where two moment equations can supply a genuinely independent gcd.
+
+```text
+starting pin: a1120ba75; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; #1150 is the only shared-program packet and is F2-only
+lane: WCL / (ell,h)=(1,6)
+result: NARROWED by exact conductor owner; cross-pairing block-gcd route retired
+DAG status delta: +1 background PROVED route-fence node; target unchanged
+upstream terminal delta: none; classified OURS_ONLY
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact 62-pattern/15-pairing audits and 12,104 conductor checks
+next: inspect the (2,7) simultaneous-moment frontier before authorizing compute
+```

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1810,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence",
+    "title": "WCL ell=1 weight-6 conductor and block-norm gcd fence",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every all-one-parity signed weight-six support descends uniquely to its maximal lower two-adic conductor. At that minimal conductor the parity involution is free: an even-sector Heron block norm is the product of two complete signed rational norms, and an odd-sector descended quadratic block norm is the product of four. Hence every cross-pairing block-norm gcd containing one sign class remains divisible by that class's full rational norm and cannot compress its arithmetic obstruction. No compatible-prime exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/lineage.md",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+      "order": 5026
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 5027
+    }
+  ],
+  "refutes": []
+}
