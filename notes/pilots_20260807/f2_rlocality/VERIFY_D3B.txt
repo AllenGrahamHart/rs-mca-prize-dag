@@ -1,0 +1,15 @@
+k = 2 : 12870 states, 46 rows (build 0.0s)
+   c = 0.4427 : OPT_k = 2.133154e-01   FLOOR_k = 1.5889   [0.7s]
+   c = 1.0000 : OPT_k = 3.460208e-03   FLOOR_k = 0.9786   [0.0s]
+k = 3 : 12870 states, 166 rows (build 0.0s)
+   c = 0.4427 : OPT_k = 1.526830e-01   FLOOR_k = 1.3062   [100.2s]
+   c = 1.0000 : OPT_k = 2.035416e-04   FLOOR_k = 0.6524   [45.0s]
+k = 4 : 12870 states, 496 rows (build 0.1s)
+   c = 0.4427 : NOT COMPUTED -- exceeded the ramguard `local` wall limit
+   c = 1.0000 : NOT COMPUTED -- exceeded the ramguard `local` wall limit
+FLOOR_k(c*) at G1 by radius: k=2 -> 1.5889, k=3 -> 1.3062  (k=4 NOT COMPUTED)
+OPT_k(1) at G1 by radius:    k=2 -> 17^-2 EXACT, k=3 -> 17^-3 EXACT
+D3b: k = 2 and k = 3 complete; k = 2R = 4 (496 rows x 12870 columns) does not
+finish inside 5 minutes with the from-scratch simplex.  Reported as NOT
+COMPUTED, never estimated.
+EXIT=124 (wall limit)

@@ -109,3 +109,59 @@ fails to fire as computed.
 Z_1 <= 2^{o(m)} at k = e (THE open terminal); the t-reading; a
 shifted 2R+1 law at 2-power 2N (open, thin sample); the route-(b)
 sizing as a theorem.
+
+## Round-22 forced corrections (2026-08-07, coordinator-applied on replay: CATCH-RL1 + CATCH-RL2 of f2_rlocality; 47/0 verifier suite)
+
+**CATCH-RL1 — the 8.60 is attached to the wrong layer.** The
+constant log2 p / log2(e log2 p) = 8.5990 (lines 82-84) is correct
+arithmetic, but it is the instrument deficit AT LAYER c = 1
+(DEF_INSTR(1)), where in fact R-locality costs NOTHING (proved by
+exact LP: OPT_k(1) = p^{-k} exactly, measured 17^{-2}, 17^{-3};
+tail_count THEOREM 12 already proves the c = 1 layer purely
+R-locally with the knife-edge constant as the entire margin). The
+BINDING-LAYER deficit is DEF_INSTR(c*) = 6.3130 (the quoted
+sentence's own two numbers 0.443/0.116 = 3.8068 mix the two layers:
+0.116 = I_INSTR(1), while the requirement 0.443 is at c*; the true
+I_INSTR(c*) = 0.070124). Four-factor decomposition at c*:
+THETA 1.0000 (zero margin) x AMGM 2.2990 x GAUSS 1.0348 x
+LOCALITY-CAP 2.6536 = 6.3130 — at the binding layer the lossiest
+single step is the locality cap, and at c = 1 the dominant loss in
+the 8.60 was Chebyshev-at-an-endpoint (GAUSS = 44.36), not
+locality. Numbers of record: 6.3130 (binding layer), floors below.
+
+**CATCH-RL2 — the position-entropy diagnosis is an artifact.** The
+clause "interpolation: no p at all, position entropy H(1/L) > 1/L"
+(lines 81-82; tail_count THEOREM 10) rests on the union bound
+|U_c| <= C(S,R) m^R, which is not the right R-local instrument:
+the exact binomial moment Pr[N_A >= m] <= E[C(N_A,R)]/C(m,R) =
+C(S,R) rho^R / C(m,R) CANCELS the position entropy, turning the
+exponent positive (-0.0947 -> +0.0017 at c*) with a threshold at
+every log2 p >= 3.06. The route still dies NUMERICALLY (deficit
+258.9) — the ledger is unchanged; the DIAGNOSIS changes: the wall
+is locality, not position entropy. "Dies at every p / no threshold
+in p" is withdrawn as a diagnosis.
+
+**THE CONCLUSION SURVIVES AND IS NOW A FLOOR.** The deficit is
+STRUCTURAL for the formalized class (k-LOCAL: valid against every
+k-wise-uniform law): exact toy floor FLOOR_R(c*) = 1.5889 at G1
+(full 12870-state LP; second row p = 41: 2.7651); lifted
+official-row floors (asymptotic evidence) FLOOR_R = 6.2063,
+FLOOR_2R = 3.4848. The banked instrument (6.3130) sits +1.7% above
+the k = R floor — essentially OPTIMAL for what R-wise independence
+allows; the at-most-1.81x remaining headroom requires turning
+Z-2's 2R-order l1-restricted information into a genuine 2R-wise
+tail bound, and the licensed-radius analysis shows that attempt
+collapses back onto V_1. The k <= R moment cap is SHARP (N_{R+1}
+fails on all three toy rows, banked G2 value reproduced).
+
+**MYSTERY 2'S REQUIRED INPUT, named:** a NON-LOCAL statement — "no
+codeword of the GRS value code C* is unusually smooth" (a
+box/smoothness count at exponential scale, quantifying over
+Theta(S) coordinates at once). Nearest banked object: the
+constant-weight Z-FLOOR cell on the crossing side (the same
+constant-weight population shape as the round-22 crossing crux —
+a FOURTH lane convergence). Sharpening: under the finite target
+Z(L) <= 1 + N^3 the window is 4.77 bits absolute, so the non-local
+input must be essentially EXACT, not merely 2^{o(S)}.
+Source: notes/pilots_20260807/f2_rlocality/ (PROOFS.md THEOREMS
+RL-1..RL-5; four verifier logs, coordinator-replayed).

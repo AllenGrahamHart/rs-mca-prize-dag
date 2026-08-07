@@ -1,0 +1,106 @@
+==============================================================================
+D2.0  LICENSING CONTROLS (independent code path, toy rows)
+==============================================================================
+G1 p=17  S=8 R=2 : Z_1 = 1.250000   (banked 1.250000)
+G4 p=97  S=16 R=2 : Z_1 = 9.387207   (banked 9.387207)
+PASS D2.0a :: banked Z_1 reproduced from scratch at G1 and G4 (tern_route_b/PROOFS.md:124-127)
+PASS D2.0b :: character form and cost form agree to 2.7e-13 (THEOREM 1)
+
+==============================================================================
+D2.A4  HIGHER MOMENTS k > R : is the cap k <= R sharp?
+==============================================================================
+N_k := #{(x,y) in H^k x H^k : sum x_i^l = sum y_i^l, l in Lambda}
+     = p^{-R} sum_u V_1(u)^{2k}   (route_b THEOREM 7 orthogonality)
+
+row              k            N_k  (2k-1)!!|H|^k  verdict
+G1 p=17          1           16.0           16.0       OK
+G1 p=17          2          720.0          768.0       OK  <- k = R
+G1 p=17          3        80800.0        61440.0 **FAILS**  <- k = R+1
+G1 p=17          4     16089808.0      6881280.0 **FAILS**
+     first failure at k = 3 (R = 2)
+G4 p=97          1           32.0           32.0       OK
+G4 p=97          2         2976.0         3072.0       OK  <- k = R
+G4 p=97          3       527360.0       491520.0 **FAILS**  <- k = R+1
+G4 p=97          4    195658400.0    110100480.0 **FAILS**
+     first failure at k = 3 (R = 2)
+G2 p=113         1           16.0           16.0       OK  <- k = R
+G2 p=113         2         1104.0          768.0 **FAILS**  <- k = R+1
+G2 p=113         3       173440.0        61440.0 **FAILS**
+     first failure at k = 2 (R = 1)
+PASS D2.A4a :: N_k <= (2k-1)!!|H|^k holds for every k <= R at G1, G4, G2
+G2 p=113 R=1: N_2 = 1104 vs bound 768 (banked 1104 > 768)
+PASS D2.A4b :: banked G2 failure N_2 = 1104 > 768 reproduced independently
+G1 first failure k = [3] ; G4 first failure k = [3]
+PASS D2.A4c :: A4 VERDICT: the cap k <= R is SHARP at G1 and G4 too (first failure exactly at k = R+1) -- A4 FAILS as registered
+
+==============================================================================
+D2.A1  DROP-AMGM : the type / binomial-moment bound on the cost sum
+==============================================================================
+  k = R  (R-wise independence only)          I_TYPE(c*) = 0.006917   deficit = 64.000
+  k = 2R (2R-wise -- NOT supplied by the MDS code) I_TYPE(c*) = 0.013834   deficit = 32.000
+PASS D2.A1a :: A1: deficits 64.0 (k=R) / 32.0 (k=2R) -- both far WORSE than 6.313; A1 FAILS as registered
+PASS D2.A1b :: P-A1 numeric CONFIRMED: I_TYPE(c*) = 0.00692 / 0.01383 (predicted 0.0069/0.0138)
+  NOTE: min_nu D(nu||mu) s.t. E_nu[d] <= 1-c EQUALS I_FLAT(c) (Sanov
+        contraction), so I_TYPE(c) = kmul * I_FLAT(c)/L exactly.
+        I_FLAT(c*) = 0.44269504 = c*  -> I_TYPE(c*) = kmul * c*/L.
+
+==============================================================================
+D2.A2  TRUNCATED / CENTRED-MOMENT bound on the cost sum, order k
+==============================================================================
+  UNTRUNCATED, k = R : exponent +0.043595  -> the raw two-sided branch
+                       (cost of the heavy LOWER tail of d)
+  TRUNCATED  , k = R : exponent +0.049218  deficit    8.995  (best M = 2.0)   [LICENSED by R-wise independence]
+  TRUNCATED  , k = 2R: exponent +0.082704  deficit    5.353  (best M = 2.0)   [NOT licensed -- see PROOFS section 4]
+PASS D2.A2a :: truncation HELPS but is not necessary: exponent 0.04359 -> 0.04922 (+12.9%); the heavy lower tail of d costs the raw centred moment that much
+PASS D2.A2b :: A2 at the LICENSED radius k = R gives deficit 8.995 > 6.313: A2 FAILS
+  *** REGISTERED-PREDICTION CHECK: I predicted A2 deficit 8.6 +- 0.7;
+      measured 8.995 at k = R (verdict A2-FAILS as registered).
+
+==============================================================================
+D2.A3  NO-POSITION-ENTROPY : tail_count THEOREM 10 repaired
+==============================================================================
+THEOREM 10 (banked):  |U_c| <= C(S,R) m^R
+   exponent per S = -H(1/L) + (1/L) log2(1/rho)   <- position entropy PAID
+REPAIR:               Pr[N_A >= m] <= E[C(N_A,R)]/C(m,R) = C(S,R)rho^R/C(m,R)
+   exponent per S = (1/S)[log2 C(m,R) - log2 C(S,R)] + (1/L)log2(1/rho)
+   -> the C(S,R) CANCELS against C(m,R): the position entropy is an ARTIFACT
+
+H(1/L) = 0.116115   (the banked 0.1161)
+THEOREM 10 as banked, best over delta at c*   : -0.094651  (NEGATIVE => dead)
+REPAIRED bound,        best over delta at c*   : 0.001710  at delta = 0.2731
+required at c*                                 : 0.442695
+PASS D2.A3a :: A3(i) CONFIRMED: the banked THEOREM 10 exponent is NEGATIVE (-0.09465) while the repaired one is POSITIVE (0.00171) -- 'dies at EVERY p' is an ARTIFACT of the union bound over position sets
+PASS D2.A3b :: A3(ii) numeric CONFIRMED: I_BINOM(c*) = 0.00171 (predicted 0.0017 +- 0.0005), deficit 258.9 -- still far short; A3 FAILS numerically
+
+repaired-bound threshold scan in L = log2 p (best c-independent check at c*):
+   log2 p = 2      I_BINOM(c*) = -0.005371  deficit =      inf
+   log2 p = 3      I_BINOM(c*) = +0.003224  deficit =   137.33
+   log2 p = 4      I_BINOM(c*) = +0.009579  deficit =    46.21
+   log2 p = 8      I_BINOM(c*) = +0.009728  deficit =    45.51
+   log2 p = 16     I_BINOM(c*) = +0.006012  deficit =    73.63
+   log2 p = 32     I_BINOM(c*) = +0.003284  deficit =   134.82
+   log2 p = 64     I_BINOM(c*) = +0.001710  deficit =   258.88
+   log2 p = 128    I_BINOM(c*) = +0.000872  deficit =   507.72
+
+==============================================================================
+D2.A5  LONGER WINDOW (raise R at fixed S)
+==============================================================================
+DEF_INSTR(c*) as a function of the locality fraction R/S = 1/Lx:
+   1/(R/S) = 4      I_INSTR(c*) = 0.186082   deficit =    2.379
+   1/(R/S) = 8      I_INSTR(c*) = 0.185992   deficit =    2.380
+   1/(R/S) = 16     I_INSTR(c*) = 0.155496   deficit =    2.847
+   1/(R/S) = 32     I_INSTR(c*) = 0.108998   deficit =    4.061
+   1/(R/S) = 64     I_INSTR(c*) = 0.070124   deficit =    6.313
+   1/(R/S) = 128    I_INSTR(c*) = 0.042875   deficit =   10.325
+PASS D2.A5a :: A5: the deficit does fall if R/S may be raised -- but saturation pins R/S = 1/log2 p exactly (THEOREM Z-NOGO), so no admissible row offers it: A5 FAILS structurally, as registered
+
+==============================================================================
+D2.A6  BEST-OF at the binding layer c*
+==============================================================================
+   banked instrument (AM-GM + Z-2 + Chebyshev, k<=R)    exponent 0.070124  deficit    6.313
+   A2 truncated centred moment, k = R                   exponent 0.049218  deficit    8.995
+   A1 type bound, k = R                                 exponent 0.006917  deficit   64.000
+   A3 repaired THEOREM 10                               exponent 0.001710  deficit  258.883
+PASS D2.A6a :: A6 CONFIRMED: no licensed attempt beats the banked instrument at c*; best deficit stays 6.3130
+
+D2 SUMMARY: 13 PASS, 0 FAIL, 0 registered-prediction MISS

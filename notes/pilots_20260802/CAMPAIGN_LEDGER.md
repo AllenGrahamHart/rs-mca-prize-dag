@@ -2615,3 +2615,46 @@ MUST pass this quarantine clause to any subagent they dispatch.
   enumeration and certify pinned prize rows — mystery 5's first
   executable positive step.
 - Awaiting: l1_ell_sweep, f2_rlocality.
+
+## 2026-08-07: round-22 agent 3 BANKED — f2_rlocality: 8.60 retired (wrong layer), the deficit PROVED structural (LP floors), the banked instrument +1.7% from optimal, mystery 2's obligation NAMED — fourth lane onto the constant-weight instrument
+
+- **f2_rlocality (Opus) BANKED, MAINTAINER-LEVEL** (47/0 across
+  four verifier logs, coordinator-replayed; the k=2R LP wall death
+  reproduced exactly as disclosed). (1) CATCH-RL1 APPLIED: 8.5990
+  = DEF_INSTR(1) — correct arithmetic on the WRONG LAYER; at c = 1
+  R-locality costs NOTHING (OPT_k(1) = p^{-k} EXACT — the c = 1
+  requirement is met on the nose by pure R-locality, the knife-edge
+  constant Delta the entire margin); the BINDING-layer deficit is
+  6.3130; the node's own sentence mixed four numbers under one
+  label (8.60 / 3.81 / 6.31 / 64). Decomposition at c*: THETA 1.000
+  x AMGM 2.299 x GAUSS 1.035 x LOCALITY-CAP 2.654 — the cap is the
+  lossiest step AND is sharp (N_{R+1} fails at all three toy rows).
+  (2) CATCH-RL2 APPLIED: the "position entropy H(1/L) > 1/L / dies
+  at every p" diagnosis WITHDRAWN (union-bound artifact; the exact
+  R-local binomial moment cancels C(S,R), threshold at every
+  log2 p >= 3.06); the route still dies numerically (258.9) — the
+  wall is LOCALITY. (3) THE DEFICIT IS STRUCTURAL, now with
+  floors: formalized k-LOCAL class, exact G1 full-LP floor 1.5889
+  (p=41 row: 2.7651), lifted official-row floors 6.2063 (k=R) /
+  3.4848 (k=2R, asymptotic evidence); the banked instrument
+  (6.3130) is +1.7% from the k=R floor — essentially OPTIMAL; the
+  1.81x headroom provably collapses back onto V_1 at the licensed
+  radius (l1-weight accounting: k=2R forces J=1 = LEMMA 5's
+  route). No sharpening attempt beats the banked instrument (A1
+  deficit 64.0, A2 8.995, A3 258.9; all registered predictions
+  hit). (4) MYSTERY 2'S OBLIGATION NAMED: a NON-LOCAL smoothness/
+  box count for the GRS value code C* at exponential scale —
+  quantifying over Theta(S) coordinates at once — and under the
+  finite target's 4.77-bit window it must be essentially EXACT.
+  Nearest banked object: the crossing-side constant-weight Z-FLOOR
+  cell — the FOURTH lane converging on the constant-weight
+  population instrument (after GE-WEAK, PROBE-1/ell-conditions,
+  and the round-22 crossing crux). (5) Honest ledger: 14/14
+  registered numeric bands hit; P13 UNRESOLVED reported; seven
+  self-corrections all caught by the pilot's own controls; scipy
+  refused by the wall -> from-scratch simplex (the compute law
+  held against tooling friction). Corrections applied to
+  f2_z1_mass_knife_edge (merge-safe) + tail_count coordinator
+  note. ROUND-23 MATERIAL: price the constant-weight Z-FLOOR cell
+  as the SHARED target of mysteries 2 and 4.
+- Awaiting: l1_ell_sweep (the last of round 22).
