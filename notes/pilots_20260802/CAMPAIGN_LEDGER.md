@@ -2879,3 +2879,49 @@ pass this quarantine clause to any subagent they dispatch.
   CANDIDATES: a Z-CEILING proof attempt; the primal BCH
   population cap as its own brief.
 - Awaiting: fpc5_diag, ge_lattice_cert.
+
+## 2026-08-07: round-23 agent 3 BANKED — fpc5_diag: ALL THREE FPC5 reds are MYSTERY-HARD against ONE wall (MF), with the first quantitative handles; a mystery-7 promotion question SURFACED
+
+- **fpc5_diag (Opus) BANKED, MAINTAINER-LEVEL** (identity table +
+  official constants + A1 gate + the cap-4 adversary all
+  coordinator-replayed exactly). (1) THE STRUCTURE: the
+  CODIMENSION-RESERVE IDENTITY codim(F-flat) = sigma holds
+  identically (verified ell = 4..39 both families, matching the
+  nodes' printed codims) => every FPC5 first moment is
+  <= 2^{-7.948e12} at the official row — NONE of the three reds is
+  a counting problem; all are max-to-mean on a Theta(n)-dim flat.
+  The single statement (MF) specializes exactly to all three AND
+  to upstream prob:capfr1-master-flatness: shape-pun test PASSES —
+  ONE WALL. The mystery-6-style counting rescue is dead in advance
+  (box = binom(N, 0.4N), exponential). (2) RED 1: the pilot
+  invented a STRONGER adversary than the node's own attack surface
+  (the guarded flat is C-independent => core-choosable set
+  packing, exhaustive sound BB) and it stops DEAD at 4 —
+  q-INVARIANT (8x more split members at q=193, still 4), flat in
+  ell, 0 hits on the official domain; ~1200x adversarial gain over
+  the mean, then a wall. Scope pin: the banked nonemptiness census
+  is label-free (factor ~q = 85x measured); sharpened overlap cap
+  |D cap D'| <= 2s-b derived and witness-checked. (3) RED 2: the
+  live LS6 tail is PROVABLY UNREACHABLE by any census ever
+  (minimal cell binom(42,17) = 2.5e11); at the off-tail cell the
+  atom is generic to 2%, the measured packing cap EQUALS the
+  proved Bonferroni cap (instrument tight), and 52.4% of the atom
+  sits at the TRIVIAL owner G=1 where the fixed-owner theorem is
+  worthless — the binding problem is OWNER-QUALITY, not the
+  owner-count the attack list targets. (4) RED 3: least defended;
+  the registered exposure FIRED as an exposure (408 unsieved
+  residual rows, e up to n/3; no t>=4 overlap theorem; no
+  background guard; t <= M always; touched-subset multiplicity is
+  FREE — the attack note aims at a non-obstruction). THE NAMED
+  GATE: the t-petal overlap-cap lemma (proved at t=2,3) legalizes
+  the whole precomputed J-sieve at a stroke. (5) Honest ledger:
+  one disclosed compute-law slip (errored, zero contamination),
+  the unsound prune self-caught (answer unchanged), two
+  registered-not-run cells, the free-domain relaxation disclosed.
+  Addenda applied to all three red nodes. **SURFACED (user's
+  call): promote the (MF) master split-locator flatness wall to
+  MYSTERY 7?** Accounting if ratified: 28 = 14 + 9 + 2 + 3(MF).
+  Round-24 candidates: the ell=4 finite decision; the base-cover
+  number; the t-petal overlap-cap lemma (highest single-lemma
+  leverage on the board).
+- Awaiting: ge_lattice_cert (the last of round 23).

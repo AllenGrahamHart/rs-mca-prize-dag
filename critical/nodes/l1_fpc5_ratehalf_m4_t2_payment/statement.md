@@ -89,3 +89,51 @@ contributor-dependent recharts must have explicit first owners. No sum over
 maximal source layouts is needed:
 `l1_general_first_layout_domination` makes the fixed-layout payment global
 after adding at most four anchors.
+
+## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
+
+**CLASSIFICATION: MYSTERY-HARD** — the master split-locator flatness
+wall (statement (MF): count monic degree-d locators split on C
+inside a linear flat of projective dimension e = 2d+1-t*ell, codim
+exactly sigma), shared with the m4_t3 and large-source reds and
+with upstream prob:capfr1-master-flatness. The shape-pun test
+PASSES: one statement, three specializations. NOT a first-moment
+problem: the CODIMENSION-RESERVE IDENTITY codim(F-flat) = sigma
+holds identically (verified exactly, ell = 4..39, both printed
+families, reproducing this node's (RH1)); at the official cell the
+first moment is <= 2^{-7.948e12}. Everything open is max-to-mean.
+
+**THE FIRST POSITIVE LEAD (the round-23 adversarial cap).** The
+guarded flat V_F does not depend on C — so the strongest adversary
+fixes (background, petals, labels), enumerates the whole monic
+chart, and CHOOSES the core to pack split members (a strictly
+stronger attack than anything in attack.md, executed with
+exhaustive sound branch-and-bound): max packed = **4**, INVARIANT
+under q (97 -> 193 with 8x more split members) and flat in ell
+(4 at ell = 4 and ell = 5-free-domain; 0 on the official mu_n
+domain at ell = 5). Adversarial core placement buys ~1200x over
+the mean and stops dead at 4. Registered escapes did not fire
+(4 < 4(ell-2)).
+
+**SCOPE PIN vs the banked nonemptiness census:** the
+sharp_cell_nonemptiness figures (71 contributors / 41 of 50
+layouts) are LABEL-FREE (lambda solved per cell, worth one q
+dimension); the fixed-source object this payment must bound is a
+factor ~q smaller (measured 85x at q = 97, predicted q). The
+census is correct for its stated nonemptiness job; do not read it
+as contributor density.
+
+**Derived sharpening (checked on all witnesses):** at the sharp
+cell r = b is forced, so joint_support_distance's
+|D cap D'| + |R cap R'| <= 2s tightens to |D cap D'| <= 2s - b =
+ell - 3; feeding it into the packing improves (RH0b) from
+2^{2.755 ell} to 2^{1.61 ell} — still fenced off as a closure by
+the distance-only no-go, recorded as an instrument sharpening.
+
+**Cheapest decisive probe:** at ell = 4 the chart is a
+2-dimensional affine plane — "can 5 split members share a 15-point
+core?" is finite and decidable per q up to affine equivalence:
+exhibit a 5-packing or prove <= 4 at ell = 4. Hours, not Modal.
+Source: notes/pilots_20260807/fpc5_diag/ (A1 gate PASS replayed;
+cap-4 replayed 5/5 trials; official constants cross-checked
+against the sharp_dyadic verifier's pinned values).
