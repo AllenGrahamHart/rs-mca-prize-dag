@@ -6,11 +6,11 @@ saturated source-line census
         v
 aligned/near colored quotient partition
         |
-        +--> aligned negative -------------------+
-        +--> aligned positive: 1+6 cells --------+
-        +--> near negative ----------------------+--> complete source-line exclusion
-        +--> near positive: 18 affine + boundary-+
+        +--> aligned printed cells ---------------+
+        +--> near printed cells ------------------+--> conditional source-line exclusion
+        +--> literal-assignment coverage TARGET --+
 ```
 
-The DAG records all 32 theorem/compiler prerequisites as `req` edges and one
-outgoing evidence edge to `rate_half_band_closure`.
+The DAG records the 32 theorem/compiler prerequisites and the missing
+literal-assignment coverage target as `req` edges. The outgoing edge to
+`rate_half_band_closure` remains evidence only.

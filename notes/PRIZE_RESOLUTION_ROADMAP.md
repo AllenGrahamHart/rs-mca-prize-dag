@@ -20600,3 +20600,50 @@ another jersey; dsp8 = pencil satellite). Within the 14, two may
 already be closable by recent theorems (integer_code_distance_cert
 via the transported Z-1 distance law; unsafe_crossing_family_
 instantiation via THEOREM BB) — probes launched round 21.
+
+## r4.1 K3 SOURCE-LINE SCOPE REPAIR (2026-08-07)
+
+The earlier `c2(1,1,2)` complete source-line promotion was too broad. The
+exact local-to-upstream crosswalk is now:
+
+```text
+fixed-moving = F00,       moving-moving = M00,
+same = R20,               swap = R02,       mixed = R11.
+```
+
+Thus the six local aligned-positive unramified systems are exactly
+
+```text
+{F00,M00} x {R02,R11,R20},
+```
+
+not the full `12 x 3 = 36` literal atlas. The matching centralizer is
+transitive on combinatorial edge classes, but generic endpoint normalization
+does not preserve both the q-slice target in `W` and the observed source
+divisor. It is therefore not a full-system covariance theorem.
+
+The branch parent
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion` is now
+CONDITIONAL. Its new missing premise is
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage`
+(TARGET): classify every literal assignment or prove a restricted symmetry
+for the source form, target, localizers, and both quotient identities.
+
+Upstream PRs #1140/#1141/#1144/#1149 provide the correct literal atlas and
+substantial closures; #1149 reports 16 fixed-moving cells open on its stack.
+PRs #1135--#1137 provide canonical full-quotient deletions whose stack and
+scope should be reconciled during import. The next route-decisive K3 task is
+to vendor/replay those packets into one coverage table and attack the
+remaining literal cells, not to seek another generic covariance shortcut.
+
+```text
+starting local pin:       290984f72 (multiscale crossing norm fence)
+upstream main pin:        93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream frontier pin:    55ac3e07477bd7a768190a3e755f22b0d44354b0 (#1149)
+lane:                     MCA / K3 / c2(1,1,2) source-line coverage
+result:                   PROVED six-cell semantic crosswalk and covariance route fence
+DAG status correction:    source-line parent PROVED -> CONDITIONAL; +1 TARGET premise
+new assumptions:          none
+compute:                  none; exact symbolic/rational replay under RAMguard
+next:                     import literal atlas closures and build a zero-gap coverage table
+```

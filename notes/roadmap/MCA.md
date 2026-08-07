@@ -17,6 +17,11 @@ certificates required by the challenge.
 - Mixed-petal amplification.
 - Split-pencil high-core, low-core, and graded tangent charges.
 - The deployed rate-half band closure.
+- The `c2(1,1,2)` source-line literal-assignment coverage repair: the local
+  six-cell ledger is exactly `{F00,M00} x {R02,R11,R20}`, not an exhaustive
+  source-assignment atlas. The former branch-level PROVED promotion is now
+  CONDITIONAL pending literal coverage or a complete-system restricted
+  symmetry theorem.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

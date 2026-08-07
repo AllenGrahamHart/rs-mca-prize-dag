@@ -12,16 +12,19 @@ localizer nilpotent of exact index three) and retains four as
 two-dimensional q-slice schemes (F00/F01 x R02/R20). Certificate payload
 `4adc4187bb5794ed70fce122055fb94916974c1adacf9451237aff002ebfd63e`.
 
-Relation to this node: THIS NODE ALREADY CLOSES ALL SIX of our aligned-positive
-unramified allocations. If the two six-cell blocks coincide, #1149 is partial
-independent corroboration of two of them and our record is four cells ahead.
-**That coincidence is NOT established.** His axes are (F00,F01) x
-(R02,R11,R20) — two fixed-moving assignments by three root patterns — whereas
-ours are {fixed-moving, moving-moving} x {same, swap, mixed}; all of his
-moving-moving cells were deleted separately in #1144. Until a cell-for-cell
-mapping row exists, do not cite #1149 as corroboration of this node, and do
-not treat his four retained schemes as contradicting this node's closure: he
-proved two cells empty and left four OPEN, never nonempty.
+Relation to this node, corrected 2026-08-07: the exact crosswalk is now
+proved locally. The source templates are `fixed-moving=F00` and
+`moving-moving=M00`; the allocations are `same=R20`, `swap=R02`, and
+`mixed=R11`. Thus this node is exactly `F00-R11`. PR #1149 independently
+proves named-open emptiness for that same cell and for `F01-R11`.
+
+The former claim that our six canonical systems exhausted all literal
+aligned-positive assignments was false in scope. They are
+`{F00,M00} x {R02,R11,R20}`, not
+`{F00,F01} x {R02,R11,R20}` and not the full 36-cell atlas. The branch-level
+source-line theorem has therefore been downgraded to CONDITIONAL pending
+literal-assignment coverage. PR #1149's four retained schemes remain OPEN,
+not nonempty, and do not contradict any local cell theorem.
 
 Note for readers of the sibling nodes: the `Still open: ...` lines in the
 frontier files of the other five cells are CHECKPOINT-LOCAL (each was written

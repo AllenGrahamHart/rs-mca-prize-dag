@@ -4,9 +4,9 @@
   "node": {
     "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
     "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
-    "status": "PROVED",
-    "closure": "all 12 saturated source-line packet orbits are excluded across aligned and near-aligned targets, both signs, every allocation, ramification, and projective boundary",
-    "statement": "The saturated defect classifier leaves exactly 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving orbits. The colored quotient compiler partitions every orbit into aligned or near-aligned targets. In the aligned branch, the negative theorem and the seven positive ramified/unramified cell theorems exclude every candidate. In the near branch, the complete negative theorem, all 18 affine-positive chart exclusions, and the seven-shard projective-boundary theorem exclude every candidate. Hence no saturated diagonal c2(1,1,2) source-line packet exists over F_(2130706433^6); coordinate/source-cover branches and later assembly remain open.",
+    "status": "CONDITIONAL",
+    "closure": "conditional complete source-line exclusion with literal-assignment coverage still targeted",
+    "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, but those orbits are not automatically covariance orbits of the full q-slice system. The local aligned-positive leaves compile the canonical {F00,M00} x {R02,R11,R20} systems, and the near leaves close their printed charts. Conditional on a literal-assignment coverage theorem that classifies every remaining assignment or proves a complete-system restricted symmetry, these leaves compose to exclude the saturated source-line branch. Coordinate/source-cover branches and later assembly remain open.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",
@@ -149,6 +149,9 @@
     {
       "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
       "order": 4800
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
     }
   ],
   "alternatives": [],

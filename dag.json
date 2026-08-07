@@ -19433,9 +19433,9 @@
   {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
-   "status": "PROVED",
-   "closure": "all 12 saturated source-line packet orbits are excluded across aligned and near-aligned targets, both signs, every allocation, ramification, and projective boundary",
-   "statement": "The saturated defect classifier leaves exactly 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving orbits. The colored quotient compiler partitions every orbit into aligned or near-aligned targets. In the aligned branch, the negative theorem and the seven positive ramified/unramified cell theorems exclude every candidate. In the near branch, the complete negative theorem, all 18 affine-positive chart exclusions, and the seven-shard projective-boundary theorem exclude every candidate. Hence no saturated diagonal c2(1,1,2) source-line packet exists over F_(2130706433^6); coordinate/source-cover branches and later assembly remain open.",
+   "status": "CONDITIONAL",
+   "closure": "conditional complete source-line exclusion with literal-assignment coverage still targeted",
+   "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, but those orbits are not automatically covariance orbits of the full q-slice system. The local aligned-positive leaves compile the canonical {F00,M00} x {R02,R11,R20} systems, and the near leaves close their printed charts. Conditional on a literal-assignment coverage theorem that classifies every remaining assignment or proves a complete-system restricted symmetry, these leaves compose to exclude the saturated source-line branch. Coordinate/source-cover branches and later assembly remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",
@@ -29266,6 +29266,37 @@
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "title": "KoalaBear aligned-positive literal-cell crosswalk",
+   "status": "PROVED",
+   "closure": "exact source/target semantic crosswalk plus a generic covariance route fence",
+   "statement": "The local fixed-moving and moving-moving source reconstructions are literally the F00={E01,E02} and M00={E02,E03} assignments. Evaluating the local residual proportionality equations at the roots of q=(T-c)(T-d) proves same=R20, swap=R02, and mixed=R11. Thus the six local systems are {F00,M00} x {R02,R11,R20}. A generic endpoint normalization commuting with inversion changes the target roots when W is fixed, so matching-centralizer transitivity does not transport these proofs to the other literal source assignments.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "title": "KoalaBear source-line literal-assignment coverage",
+   "status": "TARGET",
+   "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry alone has 12 source assignments times three root distributions. The local canonical six-cell crosswalk does not supply generic orbit transport; upstream PRs #1135--#1149 are integration evidence until imported and replayed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md"
    ]
   },
   {
@@ -55775,6 +55806,26 @@
    "from": "rate_half_crossing_multiscale_haar_norm_router",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "kind": "req"
   },
   {
    "from": "spi_component_control",

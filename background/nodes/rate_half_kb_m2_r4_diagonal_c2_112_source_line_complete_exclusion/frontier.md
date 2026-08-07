@@ -1,8 +1,12 @@
 # Frontier
 
-Closed here: the entire saturated diagonal `c2(1,1,2)` source-line branch,
-including both quotient target types, both reconstruction signs, all affine
-allocation cells, ramification, and the homogeneous endpoint boundary.
+Closed at literal scope: the existing canonical aligned cells and printed
+near-aligned affine/boundary charts.
 
-Still open in the broader `m=2,r=4` program: coordinate and source-cover
+Open premise: prove a complete literal-assignment coverage table or a
+restricted symmetry theorem preserving the source form, q-slice target,
+localizers, and both quotient identities. Matching-centralizer orbit counts
+alone do not suffice.
+
+Also open in the broader `m=2,r=4` program: coordinate and source-cover
 orientations and their shared source-row/colored-divisor assembly gates.
