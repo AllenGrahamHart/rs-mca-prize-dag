@@ -2492,3 +2492,32 @@ positive), bb_nu_transport (mystery 4, BB method -> accident upper
 bound / nu(A)), f2_rlocality (mystery 2, the 8.60 R-locality
 deficit). Pilots MUST NOT read ledger entries below this marker and
 MUST pass this quarantine clause to any subagent they dispatch.
+
+## 2026-08-07: WAVE-48 AUDIT COMPLETE (integration STAGED behind round 22)
+
+- Delta audited: v11 cf4699f77..a55acc2fd + v12 to pin f7e850788
+  (~2,027 files; 60 nodes added 50P/8T/2C; 6 status changes).
+  Full audit: notes/wave24_integration_20260727/WAVE48_AUDIT_DRAFT.md.
+- HEADLINE: Codex caught a FALSE GREEN on the Conjecture-F chain —
+  conj_f + f_dim_induction + f_many_sparse_structure +
+  f_primitive_case demoted PROVED -> CONDITIONAL. I verified all
+  three semantic gaps against canonical's own texts (the Face-4
+  routing-as-payment at f_many_sparse_structure/conditional.md:29;
+  the dimension-dependent binom(n,r)/binom(j,r) at
+  f_spread_moment_count/proof.md:34 vs the absolute B_F needed; the
+  two-consumer scope). The wave-24 "auto-discharge exposure"
+  landing on its largest target. ACCEPTED.
+- The LIST Conjecture-F route is RETIRED (subtree -> background);
+  imgfib re-routed to two exact L1 leaves; the FPC5 full-petal
+  program replaces it on critical (rate-quarter M=4,t=2 PROVED
+  with absolute bound 10 — spot-read sound; three payment leaves
+  red). Critical reds 25 -> 28 (honest repricing).
+- Verifier replays in the Codex tree: 91 PASS / 8 FAIL, all 8
+  benign (4 background->critical path staleness in the moved PMA
+  chain; 4 same-wave pin staleness). Fixes specified.
+- Clobber checks CLEAN: my round-21 addenda relocated intact into
+  Codex's landed sectioned-node schema (statement_sections/ +
+  statement_addenda/); CATCH-P3 filing annotations intact.
+- MERGE HELD until all four round-22 pilots report: the wave
+  restructures l1_mixed_petal_amplification (read by l1_ell_sweep)
+  and touches f2_z1_mass_knife_edge (read by f2_rlocality).
