@@ -32,3 +32,8 @@
     the coordinates whose reconstructed `D_H` splits on the core and obeys
     the root-local primitive guard; do not repeat distance-only or abstract
     Plucker packing.
+13. Use the canonical owner `G=gcd(D_0,H)=gcd(D_0,D_H)`. The fixed-owner
+    packing theorem pays every bounded-co-deficiency top chamber by less than
+    `3^(c+1)` per owner. Do not re-prove a fixed-owner bound. The live task is
+    to coalesce the realized `G` strata or transport them to chronology-valid
+    quotient/dihedral owners without summing all divisors of `D_0`.

@@ -20475,6 +20475,80 @@ new assumptions: none
 compute: no Modal; 81 exact GF(257) chart coordinates and 144 pair checks under RAMguard
 next: count split-root coordinates with the local guard; formal Plucker packing is retired
 ```
+
+### Exact-five packets are strictly sub-Johnson
+
+The stale comparison check against upstream PRs #1145/#1146 is resolved.
+Their background-free coset sunflower has
+
+```text
+k-1=m*ell,       s=(m+1)ell,       n>=(m+tau)ell,       tau>=5.
+```
+
+Consequently
+
+```text
+s^2-n(k-1) <= ell^2(1-m(tau-2)) < 0.
+```
+
+Thus Theorem J does not subsume their sharp `ell=11` exact-five constants:
+the packets lie strictly below the ordinary Johnson frontier already on the
+smallest support domain. They remain genuine finite special-case evidence,
+but their fixed-`ell`, fixed-shape scope does not pay an official asymptotic
+L1 node.
+
+```text
+starting pin: f7e850788; canonical d3a5edba8; upstream main 93fba1be
+lane: LIST / upstream harvest / exact-five scope
+result: PROVED strict sub-Johnson placement of PRs #1145/#1146
+DAG status delta: none; stale open domination check removed
+upstream terminal delta: none; exact citation scope now fixed
+delta-star bracket movement: none
+new assumptions: none
+compute: none
+next: retain #1145/#1146 as finite fixtures; do not claim Theorem-J domination
+```
+
+### LS6 canonical owners and fixed-owner packing
+
+For every non-base guarded point in the determinant chart,
+
+```text
+G=gcd(D_0,H)=gcd(D_0,D_H),
+D_0=GA,       D_H=GB,       H=GK.
+```
+
+The factors `G,A,B` are pairwise coprime,
+`K=AQ_H-BQ_0`, and the primitive guard is exactly
+`gcd(K,B)=gcd(G,Q_H)=1`. Thus `G` is a canonical owner rather than a selected
+common divisor.
+
+At fixed `g=deg G`, the candidate-only root sets have size `j-g` in the
+`|C|-j` points outside the base and meet pairwise in at most `h-g` roots.
+The exact packing is
+
+```text
+|F_G| <= floor(
+  binom(|C|-j,h-g+1) / binom(j-g,h-g+1)).
+```
+
+For `g=h-c` and `b<ell`, this is less than `3^(c+1)` per owner. Hence every
+fixed bounded-co-deficiency top-owner chamber is paid. The remaining theorem
+is aggregate: coalesce the realized `G` strata or transport them to
+chronology-valid quotient/dihedral owners without summing all divisors of
+`D_0`.
+
+```text
+starting pin: f7e850788; canonical d3a5edba8; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / split-pencil ownership
+result: PROVED exact canonical owner, normalized primitive guard, and fixed-owner packing
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable fixed-owner SPI/split-pencil ledger extending PR #1151
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact 561-point GF(257) chart replay under RAMguard
+next: aggregate or chronology-route different owners; do not repeat fixed-owner packing
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

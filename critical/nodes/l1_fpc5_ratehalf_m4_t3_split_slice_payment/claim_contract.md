@@ -28,6 +28,10 @@
   degree-at-most-`ell-2a` determinant occurs exactly once in the complete
   monic unguarded slice. Formal collective compatibility is therefore
   fenced; split-root incidence and the root-local primitive guard remain.
+- **Proved owner chart:** `G=gcd(D_0,H)` is exactly the common locator with
+  the base; after dividing by `G`, the primitive guard and a fixed-owner
+  split packing are exact. Bounded top-owner co-deficiency costs less than
+  `3^(c+1)` per owner. Aggregation over different owners is not proved.
 - **Nonclaim:** each fiber has size at most two; linear dimension implies a
   split-divisor count; an unguarded prefix-flatness theorem applies; `lambda`
   remains free after fixing the source triple; current Conjecture-F owners

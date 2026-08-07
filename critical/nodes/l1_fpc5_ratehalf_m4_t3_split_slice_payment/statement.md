@@ -96,3 +96,26 @@ on the whole ambient slice and cannot supply a maximum bound. The guarded
 atom is exactly the `H` subset for which `D_H` splits on the core and the
 root-local primitive inequalities hold. This explicit split-root chart,
 not abstract collective compatibility, is the remaining high-branch object.
+
+The base overlap is now an exact canonical owner. For every non-base guarded
+point, put
+
+```text
+G=gcd(D_0,H)=gcd(D_0,D_H),
+D_0=GA,       D_H=GB,       H=GK.
+```
+
+Then `G,A,B` are pairwise coprime,
+`K=AQ_H-BQ_0`, and primitivity is exactly
+`gcd(K,B)=gcd(G,Q_H)=1`. At fixed `g=deg G`, candidate-only root sets have
+pairwise intersection at most `h-g`, giving
+
+```text
+|F_G| <= floor(
+  binom(2ell+a+b-2,h-g+1) / binom(2ell-a-g,h-g+1)).
+```
+
+In particular, if `g=h-c`, this is less than `3^(c+1)` per owner. The
+fixed-owner top-overlap chambers are therefore paid. The unresolved content
+is aggregation or chronology-valid transport across the potentially many
+different owners `G`, together with the low-ladder prefix theorem.
