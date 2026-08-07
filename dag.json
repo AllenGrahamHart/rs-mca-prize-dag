@@ -29563,6 +29563,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion",
+   "title": "KoalaBear degree-12 B0 K8-nonzero F_(p^6) exclusion",
+   "status": "PROVED",
+   "closure": "global saturated s-elimination and five exact terminal field fibers",
+   "statement": "For the F04-R02 B0 core ideal I=(R12,C_A,C_B), saturating by V*K8*(s^2-4pvar) gives a zero-dimensional size-25 basis and a degree-30 s eliminant with irreducible factor degrees 1,1,1,1,1,4,4,5. The quartic and quintic factors have no roots in F_(p^6). At each of the five exact linear roots, the reduced degree-six field equations force the complete open-factor product to zero. Hence the complete named-open B0 chart with K8 nonzero is empty over F_(p^6). No K8=0 claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_global_saturation_b0_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_linear_s_f_p6_b0_output.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
    "status": "PROVED",
@@ -56267,6 +56286,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "kind": "ev"
@@ -56279,6 +56303,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion",
    "kind": "req"
   },
   {

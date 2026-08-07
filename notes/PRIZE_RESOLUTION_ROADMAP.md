@@ -20963,3 +20963,29 @@ literal cell closures:    none
 rejected route:           powers of V*K8 in the dimension-one quotient
 next:                     global s-elimination or component/residue-degree ledger
 ```
+
+### K3 B0 K8-nonzero degree-six close
+
+The global route closes. Saturating the `F04-R02` `B0` core ideal by
+`V K8 (s^2-4p)` produces a size-25, zero-dimensional basis. Elimination to
+`F_p[s]` gives one degree-30 polynomial with irreducible factor degrees
+
+```text
+1,1,1,1,1,4,4,5.
+```
+
+The irreducible quartics and quintic have no roots in `F_(p^6)`. The five
+linear roots are explicit base-field elements. Five parallel exact terminal
+jobs specialize at those roots, adjoin the reduced `x^(p^6)-x` and
+`pvar^(p^6)-pvar` equations, and reduce the complete open product to zero in
+every case. This exhausts the eliminant and proves the `B0`, `K8!=0` chart
+empty over the challenge extension.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED result:        F04-R02 B0 K8-nonzero chart empty over F_(p^6)
+global certificate:       degree-30 s eliminant; factors 1^5,4^2,5
+terminal replay:          5/5 linear fibers exclude the complete open chart
+literal cell closures:    none; K8=0 remains
+next:                     K8=0,K10!=0 A0 chart; then K8=K10=0 residual
+```

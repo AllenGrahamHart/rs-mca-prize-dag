@@ -35,7 +35,10 @@ def main():
     parser.add_argument("--cell", default="F04-R02")
     parser.add_argument("--divisor", choices=("A0", "B0"), required=True)
     parser.add_argument("--groebner", action="store_true")
+    parser.add_argument("--global-saturation", action="store_true")
     parser.add_argument("--fiber-search", action="store_true")
+    parser.add_argument("--factor-fibers", action="store_true")
+    parser.add_argument("--fiber-start", type=int, default=1)
     parser.add_argument("--fiber-limit", type=int, default=16)
     parser.add_argument("--field-degree", type=int, default=1)
     args = parser.parse_args()
@@ -344,6 +347,195 @@ def main():
             ),
         }
 
+    global_saturation_record = None
+    if args.global_saturation:
+        assert args.divisor == "B0"
+        assert len(leading_nonnamed_values) == 1
+        r_factors = [
+            record["factor"]
+            for record in branch["factors"]["R"]
+            if not record["named_unit_factor"]
+        ]
+        selected = r_factors[2]
+        field = GF(2130706433)
+        ring = PolynomialRing(field, names=("x", "s", "pvar"), order="degrevlex")
+        rx, rs, rp = ring.gens()
+
+        def convert_global(value):
+            output = ring(0)
+            for monomial, coefficient in base(value).dict().items():
+                coefficient = QQ(coefficient)
+                reduced = field(coefficient.numerator()) / field(coefficient.denominator())
+                output += (
+                    reduced
+                    * rx ** monomial[0]
+                    * rs ** monomial[1]
+                    * rp ** monomial[2]
+                )
+            return output
+
+        global_generators = [
+            convert_global(selected),
+            convert_global(records["A1"]["core_value"]),
+            convert_global(records["B1"]["core_value"]),
+        ]
+        print(canonical_json({"phase": "GLOBAL_BASIS_BEGIN"}), flush=True)
+        global_basis = list(
+            ring.ideal(global_generators).groebner_basis(
+                algorithm="singular:slimgb"
+            )
+        )
+        assert global_basis != [ring(1)]
+        print(
+            canonical_json(
+                {
+                    "phase": "GLOBAL_BASIS_DONE",
+                    "basis_size": len(global_basis),
+                    "dimension": int(ring.ideal(global_basis).dimension()),
+                    "basis_sha256": digest(
+                        "\n".join(str(value) for value in global_basis)
+                    ),
+                }
+            ),
+            flush=True,
+        )
+        boundary_localizer = convert_global(
+            V * leading_nonnamed_values[0] * (s ** 2 - 4 * p)
+        ).reduce(global_basis)
+        print(
+            canonical_json(
+                {
+                    "phase": "GLOBAL_LOCALIZER_REDUCED",
+                    "metric": {
+                        "degree": int(boundary_localizer.total_degree()),
+                        "degrees": [
+                            int(boundary_localizer.degree(generator))
+                            for generator in (rx, rs, rp)
+                        ],
+                        "terms": int(len(boundary_localizer.monomials())),
+                        "sha256": digest(boundary_localizer),
+                    },
+                }
+            ),
+            flush=True,
+        )
+        saturation_ring = PolynomialRing(
+            field,
+            names=("inverse", "x", "pvar", "svar"),
+            order="degrevlex",
+        )
+        inverse, sx, sp, ss = saturation_ring.gens()
+
+        def to_saturation_global(value):
+            return saturation_ring(
+                sum(
+                    field(coefficient)
+                    * sx ** monomial[0]
+                    * ss ** monomial[1]
+                    * sp ** monomial[2]
+                    for monomial, coefficient in ring(value).dict().items()
+                )
+            )
+
+        saturation_ideal = saturation_ring.ideal(
+            [to_saturation_global(value) for value in global_basis]
+            + [inverse * to_saturation_global(boundary_localizer) - 1]
+        )
+        print(canonical_json({"phase": "GLOBAL_SATURATION_BEGIN"}), flush=True)
+        saturation_basis = list(
+            saturation_ideal.groebner_basis(algorithm="singular:slimgb")
+        )
+        saturation_unit = saturation_basis == [saturation_ring(1)]
+        saturation_dimension = (
+            -1
+            if saturation_unit
+            else int(saturation_ring.ideal(saturation_basis).dimension())
+        )
+        print(
+            canonical_json(
+                {
+                    "phase": "GLOBAL_SATURATION_DONE",
+                    "unit_ideal": saturation_unit,
+                    "dimension": saturation_dimension,
+                    "basis_size": len(saturation_basis),
+                    "basis_sha256": digest(
+                        "\n".join(str(value) for value in saturation_basis)
+                    ),
+                }
+            ),
+            flush=True,
+        )
+        elimination_records = []
+        if not saturation_unit:
+            print(canonical_json({"phase": "GLOBAL_ELIMINATION_BEGIN"}), flush=True)
+            elimination = saturation_ring.ideal(
+                saturation_basis
+            ).elimination_ideal([inverse, sx, sp])
+            elimination_basis = list(elimination.groebner_basis())
+            for value in elimination_basis:
+                assert value.degree(inverse) == 0
+                assert value.degree(sx) == 0
+                assert value.degree(sp) == 0
+                factors = []
+                for factor, exponent in value.factor():
+                    factor_record = {
+                        "degree": int(factor.degree(ss)),
+                        "terms": int(len(factor.monomials())),
+                        "exponent": int(exponent),
+                        "sha256": digest(factor),
+                    }
+                    if factor.degree(ss) == 1:
+                        constant = field(0)
+                        linear = field(0)
+                        for monomial, coefficient in factor.dict().items():
+                            if monomial[3] == 0:
+                                constant += field(coefficient)
+                            elif monomial[3] == 1:
+                                linear += field(coefficient)
+                            else:
+                                raise AssertionError("nonlinear monomial in linear factor")
+                        assert linear
+                        factor_record["root"] = int(-constant / linear)
+                    factors.append(factor_record)
+                elimination_records.append(
+                    {
+                        "degree": int(value.degree(ss)),
+                        "terms": int(len(value.monomials())),
+                        "sha256": digest(value),
+                        "factors": factors,
+                    }
+                )
+            print(
+                canonical_json(
+                    {
+                        "phase": "GLOBAL_ELIMINATION_DONE",
+                        "basis_size": len(elimination_basis),
+                        "records": elimination_records,
+                    }
+                ),
+                flush=True,
+            )
+        global_saturation_record = {
+            "global_basis_size": len(global_basis),
+            "global_basis_sha256": digest(
+                "\n".join(str(value) for value in global_basis)
+            ),
+            "saturation_unit_ideal": saturation_unit,
+            "saturation_dimension": saturation_dimension,
+            "saturation_basis_size": len(saturation_basis),
+            "saturation_basis_sha256": digest(
+                "\n".join(str(value) for value in saturation_basis)
+            ),
+            "elimination": elimination_records,
+            "terminal": (
+                "GLOBAL_OPEN_CHART_EMPTY"
+                if saturation_unit
+                else "GLOBAL_OPEN_CHART_ELIMINATED_TO_S"
+                if elimination_records
+                else "GLOBAL_OPEN_CHART_DOMINATES_S"
+            ),
+        }
+
     fiber_search_record = None
     if args.fiber_search:
         r_factors = [
@@ -437,7 +629,9 @@ def main():
 
         fibers = []
         witness = None
-        for s_integer in range(1, args.fiber_limit + 1):
+        for s_integer in range(
+            args.fiber_start, args.fiber_start + args.fiber_limit
+        ):
             s_value = field(s_integer)
             generators = [specialize_s(value, s_value) for value in affine_source]
             print(
@@ -465,6 +659,155 @@ def main():
                 "unit_ideal": unit_ideal,
             }
             if not unit_ideal and dimension == 0:
+                if args.factor_fibers:
+                    lex_ring = PolynomialRing(
+                        field, names=("x", "pvar"), order="lex"
+                    )
+                    lx, lp = lex_ring.gens()
+
+                    def to_lex(value):
+                        return lex_ring(
+                            sum(
+                                field(coefficient)
+                                * lx ** monomial[0]
+                                * lp ** monomial[1]
+                                for monomial, coefficient in fiber_ring(value).dict().items()
+                            )
+                        )
+
+                    lex_basis = list(
+                        lex_ring.ideal(
+                            [to_lex(value) for value in generators]
+                        ).groebner_basis(algorithm="singular:slimgb")
+                    )
+                    univariate = [
+                        value for value in lex_basis
+                        if value and value.degree(lx) == 0
+                    ]
+
+                    def lex_metric(value):
+                        value = lex_ring(value)
+                        return {
+                            "degree": int(value.total_degree()) if value else -1,
+                            "degrees": [
+                                int(value.degree(generator))
+                                for generator in (lx, lp)
+                            ],
+                            "terms": int(len(value.monomials())) if value else 0,
+                            "sha256": digest(value),
+                        }
+
+                    record["lex_basis_size"] = len(lex_basis)
+                    record["lex_basis_sha256"] = digest(
+                        "\n".join(str(value) for value in lex_basis)
+                    )
+                    record["univariate_basis"] = [
+                        {
+                            **lex_metric(value),
+                            "factors": [
+                                {
+                                    **lex_metric(factor),
+                                    "exponent": int(exponent),
+                                }
+                                for factor, exponent in value.factor()
+                            ],
+                        }
+                        for value in univariate
+                    ]
+                    assert len(univariate) == 1
+                    component_records = []
+                    component_open_values = [degree6, chart_factor]
+                    component_open_values.extend(branch["transported_units"])
+                    for factor, exponent in univariate[0].factor():
+                        fiber_factor = fiber_ring(
+                            sum(
+                                field(coefficient)
+                                * fx ** monomial[0]
+                                * fp ** monomial[1]
+                                for monomial, coefficient in factor.dict().items()
+                            )
+                        )
+                        component_basis = list(
+                            fiber_ring.ideal(
+                                basis + [fiber_factor]
+                            ).groebner_basis(algorithm="singular:slimgb")
+                        )
+                        component_unit = component_basis == [fiber_ring(1)]
+                        component_localizer = fiber_ring(1)
+                        component_open_steps = []
+                        if not component_unit:
+                            for index, value in enumerate(
+                                component_open_values, start=1
+                            ):
+                                component_localizer = (
+                                    component_localizer
+                                    * specialize_s(value, s_value)
+                                ).reduce(component_basis)
+                                component_open_steps.append(
+                                    {
+                                        "index": index,
+                                        "zero": not bool(component_localizer),
+                                        **fiber_metric(component_localizer),
+                                    }
+                                )
+                                if not component_localizer:
+                                    break
+
+                        saturation_unit = True
+                        saturation_size = 1
+                        saturation_sha256 = digest("1")
+                        if not component_unit and component_localizer:
+                            saturation_ring = PolynomialRing(
+                                field,
+                                names=("inverse", "x", "pvar"),
+                                order="degrevlex",
+                            )
+                            inverse, sx, sp = saturation_ring.gens()
+
+                            def to_saturation(value):
+                                return saturation_ring(
+                                    sum(
+                                        field(coefficient)
+                                        * sx ** monomial[0]
+                                        * sp ** monomial[1]
+                                        for monomial, coefficient in fiber_ring(value).dict().items()
+                                    )
+                                )
+
+                            saturation_basis = list(
+                                saturation_ring.ideal(
+                                    [
+                                        to_saturation(value)
+                                        for value in component_basis
+                                    ]
+                                    + [
+                                        inverse
+                                        * to_saturation(component_localizer)
+                                        - 1
+                                    ]
+                                ).groebner_basis(algorithm="singular:slimgb")
+                            )
+                            saturation_unit = saturation_basis == [
+                                saturation_ring(1)
+                            ]
+                            saturation_size = len(saturation_basis)
+                            saturation_sha256 = digest(
+                                "\n".join(str(value) for value in saturation_basis)
+                            )
+                        component_records.append(
+                            {
+                                "factor": lex_metric(factor),
+                                "exponent": int(exponent),
+                                "component_basis_size": len(component_basis),
+                                "component_unit_ideal": component_unit,
+                                "open_product_zero": not bool(component_localizer),
+                                "open_product_steps": component_open_steps,
+                                "saturation_unit_ideal": saturation_unit,
+                                "saturation_basis_size": saturation_size,
+                                "saturation_basis_sha256": saturation_sha256,
+                            }
+                        )
+                    record["factor_components"] = component_records
                 q = int(field.cardinality())
                 frobenius = []
                 for generator in (fx, fp):
@@ -635,6 +978,7 @@ def main():
             for name, record in records.items()
         },
         "groebner": groebner_record,
+        "global_saturation": global_saturation_record,
         "fiber_search": fiber_search_record,
         "terminal": "QUADRATIC_PSEUDOREMAINDER_DETERMINANTS_COMPILED",
     }

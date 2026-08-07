@@ -36,6 +36,15 @@ elif MODE == "groebner_b0":
             "projective_field": False,
         },
     )
+elif MODE == "global_saturation_b0":
+    CASES = (
+        {
+            "cell": "F04-R02",
+            "divisor": "B0",
+            "groebner": False,
+            "global_saturation": True,
+        },
+    )
 elif MODE == "fiber_search_b0":
     CASES = (
         {
@@ -57,6 +66,40 @@ elif MODE == "fiber_f_p6_b0":
             "field_degree": 6,
         },
     )
+elif MODE == "linear_s_f_p6_b0":
+    LINEAR_S_ROOTS = (
+        1691727589,
+        2130706429,
+        1804255948,
+        1065353214,
+        675900418,
+    )
+    CASES = tuple(
+        {
+            "cell": "F04-R02",
+            "divisor": "B0",
+            "groebner": False,
+            "fiber_search": True,
+            "fiber_start": root,
+            "fiber_limit": 1,
+            "field_degree": 6,
+        }
+        for root in LINEAR_S_ROOTS
+    )
+elif MODE in ("fiber_factor_b0", "fiber_factor_b0_s3"):
+    factor_start = 1 if MODE == "fiber_factor_b0" else 3
+    CASES = (
+        {
+            "cell": "F04-R02",
+            "divisor": "B0",
+            "groebner": False,
+            "fiber_search": True,
+            "factor_fibers": True,
+            "fiber_start": factor_start,
+            "fiber_limit": 1,
+            "field_degree": 1,
+        },
+    )
 else:
     raise ValueError(f"unsupported mode: {MODE}")
 
@@ -76,7 +119,7 @@ image = (
 )
 
 
-@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=2)
+@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=5)
 def run_case(case: dict[str, object]) -> dict[str, object]:
     import hashlib
     import os
@@ -99,10 +142,15 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
     ]
     if case["groebner"]:
         command.append("--groebner")
+    if case.get("global_saturation"):
+        command.append("--global-saturation")
     if case.get("fiber_search"):
         command.append("--fiber-search")
+        command.extend(("--fiber-start", str(case.get("fiber_start", 1))))
         command.extend(("--fiber-limit", str(case["fiber_limit"])))
         command.extend(("--field-degree", str(case.get("field_degree", 1))))
+    if case.get("factor_fibers"):
+        command.append("--factor-fibers")
     try:
         completed = subprocess.run(
             command,
@@ -110,7 +158,13 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             env=environment,
             capture_output=True,
             text=True,
-            timeout=780 if case["groebner"] or case.get("fiber_search") else 300,
+            timeout=(
+                780
+                if case["groebner"]
+                or case.get("fiber_search")
+                or case.get("global_saturation")
+                else 300
+            ),
             check=False,
         )
         records = []

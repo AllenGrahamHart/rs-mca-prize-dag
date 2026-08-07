@@ -5,13 +5,9 @@ nonzero modulo its exact basis for every `1<=e<=12`; representatives grow
 from `1461` to `36492` terms and the bounded run times out. Do not continue
 this power sequence or infer emptiness from the 142-element basis.
 
-The useful continuations are:
+The child global-saturation node completes the first route and closes the
+`B0`, `K8!=0` chart over `F_(p^6)`. Continue only with the exhaustive
+complement `K8=0`: use the `A0` divisor when its degree-10 leading factor is
+nonzero, and retain the `K8=K10=0` residual as a separate branch.
 
-1. eliminate the curve against the `F_(p^6)` field equations globally in
-   `s`, preferably through a univariate projection or component ledger;
-2. identify an exact boundary-support identity for the `V=0` and
-   `s^2-4p=0` components seen by the fiber audit; or
-3. split `K8=0`, then use the `A0` divisor on its complementary leading
-   chart without discarding the residual intersection.
-
-Finite sampling beyond the child audit is not a closure route.
+Do not return to finite sampling or to the power sequence fenced above.
