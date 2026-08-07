@@ -15,6 +15,8 @@ l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension
   [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_joint_support_distance
   [PROVED] --------------------------------------------------ev----+
+l1_fpc5_ratehalf_m4_t2_distance_only_no_go
+  [PROVED] --------------------------------------------------ev----+
                                                                     v
   l1_fpc5_ratehalf_m4_t2_payment [TARGET]
     --req--> l1_fpc5_m4_t2_payment [CONDITIONAL]

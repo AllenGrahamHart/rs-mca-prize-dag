@@ -20102,6 +20102,37 @@ new assumptions: none
 compute: no Modal; 7140 determinant-pair replays under 256 MB RAM guard
 next: improve the dimension-dependent packing using exchange or master-flatness structure
 ```
+
+### Sharp distance-only no-go fence
+
+The determinant distance cannot be upgraded to polynomiality using only
+support weights and overlaps. Write `L=ell-2` at the sharp cell. A greedy
+constant-weight construction gives `(2L+1)`-subsets of the `(5L+5)`-point
+core with intersections at most `L-1` and cardinality at least
+
+```text
+binom(5L+5,2L+1)
+ / sum_(i=0)^(L+1) binom(2L+1,i)binom(3L+4,i)
+ =2^((0.099865...+o(1))L).
+```
+
+Adjoining the actual fixed `(L-1)`-point background block gives exactly the
+combined weight and overlap cap of the proved FPC5 distance theorem. These
+are abstract set systems, not guarded-flat locators or received-word
+contributors. The conclusion is a route fence: closure must use the
+cofactor equations, smooth-domain incidence, or ownership beyond distance.
+
+```text
+starting pin: fe11f0e38; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / sharp aggregate
+result: PROVED quantified no-go fence for distance-only packing
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair no-go fence
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact binomial arithmetic through L=1024 under 256 MB RAM guard
+next: algebraic guarded-flat/exchange attack; do not iterate support-distance bounds
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

@@ -3,7 +3,8 @@
 1. Use the uniform fixed-background theorem: every guarded cell has locator
    codimension at least `ell-1`. Do not sum its per-cell bound over background
    subsets. The determinant packing already controls the aggregate but has a
-   growing exponent; strengthen that exact shift-pair bound.
+   growing exponent, and the sharp no-go fence proves distance data alone
+   permits exponential families. Strengthen it using algebraic flat structure.
 2. Do not pursue universal algebraic emptiness: the exact `F_97,H_32`
    certificate has 71 primitive contributors across 41/50 adversarially
    labelled layouts.
@@ -16,7 +17,8 @@
    ownership classes; arbitrary source layout prevents assuming them.
 5. Quantify any spread bound against the polynomial image-fiber target. A
    dimension-dependent binomial exponent, including the proved joint-support
-   packing ratio, is not a payment.
+   packing ratio, is not a payment; no repackaging of the same overlap cap can
+   evade the no-go fence.
 6. Keep the six touched pairs disjoint by their unique exact pair. The
    background set is also unique from `W_F`, but any rechart of it needs a
    polynomial first-owner compression. Source-layout multiplicity has already

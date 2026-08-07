@@ -51,6 +51,18 @@ L_(s,pair)
 This avoids background-set enumeration, but its exponent grows with `s` and
 is not the required uniform polynomial payment.
 
+The sharp distance-only no-go fence proves this limitation is structural:
+even with the exact fixed background block and overlap cap, abstract defect
+families of size
+
+```text
+2^((0.099865...+o(1))(ell-2))
+```
+
+exist. They are not asserted to lie in the guarded flat. Any closure must use
+the algebraic cofactor equations, smooth-domain incidence, or received-word
+ownership beyond support weights and pairwise distance.
+
 The proved sharp projective-flat descriptor now identifies this endpoint
 exactly. For each fixed touched pair, contributors inject into
 

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_distance_only_no_go",
+    "title": "Sharp FPC5 support distance alone permits exponential abstract families",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the sharp endpoint, write L=ell-2. A Gilbert greedy construction gives abstract (2L+1)-subsets of the (5L+5)-point core with pairwise intersections at most L-1 and cardinality at least binom(5L+5,2L+1)/sum_(i<=L+1) binom(2L+1,i)binom(3L+4,i), whose binary-log exponent is (0.099865...+o(1))L. Adjoining the fixed (L-1)-point background gives the exact combined weight and overlap cap 2s. Thus support distance alone cannot prove polynomiality. No locator-flat membership or FPC5 counterexample is claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca primitive shift-pair / exchange-compression lane",
+      "relation": "QUANTIFIED_NO_GO_FENCE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_joint_support_distance"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}
