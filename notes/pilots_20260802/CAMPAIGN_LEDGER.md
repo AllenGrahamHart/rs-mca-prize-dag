@@ -2737,3 +2737,48 @@ MUST pass this quarantine clause to any subagent they dispatch.
   the constant-weight Z-FLOOR cell priced as the SHARED target of
   mysteries 2 and 4; the dim-64 lattice certification run
   (mystery 5's first executable positive step).
+
+## 2026-08-07: WAVE-49 INTEGRATED + FULL PR SWEEP (1144-1151) + upstream check — census UNCHANGED 231 = 167/36/28
+
+- **WAVE 49 (Codex v12 through eef69b37f) ADOPTED.** 9 nodes, all
+  kb_m2_r4 112-lane + LS6 + crossing fence; 8/9 verifiers PASS
+  (9th is a statement-only TARGET). The import discipline is
+  exemplary and REPLAYED: Scott's PR #1144 ten moving cells PROVED
+  via independent Sage 10.9 replays (7 direct + M01->M02 literal
+  transport + operational M00-R11; fail-closed verifier, payload
+  hash + 29 mutations); the two unreplayable cells (M01-R11 +
+  companion) held at a PROVABLE REVIEW GATE — the external
+  Singular slimgb basis fails to convert in THREE environments;
+  NOT promoted. PR #1149's quadratic frontier imported as the
+  orbit-compression node (pinned at 55ac3e07). HONEST
+  SELF-DEMOTION verified: source_line_complete_exclusion PROVED ->
+  CONDITIONAL (combinatorial orbits are not automatically
+  covariance orbits) with the explicit literal-assignment-coverage
+  TARGET born (36 cells, 22 PROVED, residual = M01-R11, M02-R11,
+  twelve F04-F07). l1_fpc5_ratehalf_ls6_canonical_owner_packing
+  PROVED (FPC5-lane progress on the rate-half red).
+- **PR SWEEP 1144-1151:** #1144/#1141/#1149 (scottdhughes) =
+  imported by wave 49 behind gates (the M2 EXPORT COLLISION is
+  RESOLVED: Scott pushed his side 08-01; our LS6 ladder went up as
+  #1151 today; clean division, no clobber). #1145-#1148 (maelcar
+  = Manuel E. Rey-Alvarez Zafiria) = already fully audited
+  2026-08-03 (notes/pilots_20260803/maelcar_audit/AUDIT.md:
+  VERIFIED at certificate level with per-flag ledger F1-F11; its
+  F10 became task #36 SOL_TARGET_4 repricing, completed);
+  RE-REPLAYED today: 1146 parity-uniform S6 audit PASS, 1145 both
+  audits PASS, 1147 both verifies PASS (currencies reproduce),
+  1148 synthesis + Cauchy route cut + bidegree barrier PASS. No
+  change upstream since (updatedAt 08-03/08-04); the C++ sieve
+  loads remain UNREPLAYED as labelled. #1150 (ours, F2 census)
+  awaiting triage upstream. **Upstream main UNMOVED since
+  93fba1be** — nothing new in Przemek's repo.
+- **PROCESS DISCLOSURE + RULE:** the wave-48 merge used FETCH_HEAD
+  at fetch time, which had drifted a few commits past the audit
+  pin f7e850788 (Codex commits continuously) — the drifted commits
+  are exactly the wave-49 set, all replayed and key-read TODAY, so
+  nothing unaudited is on canonical; but the RULE OF RECORD is now:
+  merge the EXACT audited pin SHA, never FETCH_HEAD.
+- Census unchanged (background satellites): site/artifact current
+  by invariance. Codex has one uncommitted node in progress in the
+  v12 worktree (fixed_balanced_quadratic_branch_reduction) — left
+  untouched; it belongs to wave 50.
