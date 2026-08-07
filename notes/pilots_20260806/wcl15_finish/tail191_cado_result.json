@@ -1,0 +1,233 @@
+{
+  "cado_commit": "9bb8fc0799bbaaf0b47a1edf573ecf5e0cf8e46a",
+  "command": [
+    "/opt/cado-install/bin/cado-nfs.py",
+    "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+    "-t",
+    "16",
+    "--workdir",
+    "/work/tail191-cado-v1"
+  ],
+  "file_inventory_digest": "ab06f5316c4f9f24b92ca8c3f7c6f7a643bee8b3410ffcf2104fa764d093dc36",
+  "forced_kill": false,
+  "inner_seconds_cap": 1200,
+  "largest_files": [
+    {
+      "bytes": 1065624,
+      "path": "client/download/polyselect"
+    },
+    {
+      "bytes": 544768,
+      "path": "c80.db"
+    },
+    {
+      "bytes": 78442,
+      "path": "c80.log"
+    },
+    {
+      "bytes": 28672,
+      "path": "cado.log"
+    },
+    {
+      "bytes": 25939,
+      "path": "client/localhost+5.work/localhost+5.log"
+    },
+    {
+      "bytes": 12839,
+      "path": "client/localhost.work/localhost.log"
+    },
+    {
+      "bytes": 8206,
+      "path": "c80.cmd"
+    },
+    {
+      "bytes": 7558,
+      "path": "client/localhost+2.work/localhost+2.log"
+    },
+    {
+      "bytes": 7357,
+      "path": "client/localhost+6.work/localhost+6.log"
+    },
+    {
+      "bytes": 6285,
+      "path": "c80.wucmd"
+    },
+    {
+      "bytes": 4929,
+      "path": "client/localhost+3.work/localhost+3.log"
+    },
+    {
+      "bytes": 4680,
+      "path": "client/localhost+7.work/localhost+7.log"
+    },
+    {
+      "bytes": 3669,
+      "path": "client/localhost+4.work/localhost+4.log"
+    },
+    {
+      "bytes": 3375,
+      "path": "client/localhost+8.work/localhost+8.log"
+    },
+    {
+      "bytes": 1868,
+      "path": "result.json"
+    },
+    {
+      "bytes": 1708,
+      "path": "c80.server.cert.key"
+    },
+    {
+      "bytes": 1436,
+      "path": "c80.server.cert"
+    },
+    {
+      "bytes": 1436,
+      "path": "client/download/server.ded8a511551c67a29b9ccc975ac5582f7c009710.pem"
+    },
+    {
+      "bytes": 1206,
+      "path": "c80.parameters_snapshot.0"
+    },
+    {
+      "bytes": 479,
+      "path": "c80.server.cert.config"
+    }
+  ],
+  "log_tail": [
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_75000-80000 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_80000-85000 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_30000-35000__R2 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_85000-90000 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_35000-40000__R2 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_90000-95000 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_40000-45000__R2 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_45000-50000__R2 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_50000-55000__R2 to client localhost+5",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_55000-60000__R2 to client localhost+5",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_60000-65000 as not ok (85.0% => ETA Thu Aug  6 16:38:50 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_60000-65000 as c80_polyselect1_60000-65000__R2",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Adding workunit c80_polyselect1_95000-100000 to database",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_20000-25000__R2 as not ok (90.0% => ETA Thu Aug  6 16:38:49 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_20000-25000__R2, failed 2 times",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_60000-65000__R2 to client localhost",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_65000-70000 as not ok (95.0% => ETA Thu Aug  6 16:38:49 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_65000-70000 as c80_polyselect1_65000-70000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_70000-75000 as not ok (100.0% => ETA Thu Aug  6 16:38:49 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_70000-75000 as c80_polyselect1_70000-75000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_25000-30000__R2 as not ok (105.0% => ETA Thu Aug  6 16:38:48 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_25000-30000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_75000-80000 as not ok (110.0% => ETA Thu Aug  6 16:38:48 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_75000-80000 as c80_polyselect1_75000-80000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_80000-85000 as not ok (115.0% => ETA Thu Aug  6 16:38:48 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_80000-85000 as c80_polyselect1_80000-85000__R2",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_95000-100000 to client localhost",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_30000-35000__R2 as not ok (120.0% => ETA Thu Aug  6 16:38:48 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_30000-35000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_85000-90000 as not ok (125.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_85000-90000 as c80_polyselect1_85000-90000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_35000-40000__R2 as not ok (130.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_35000-40000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_90000-95000 as not ok (135.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_90000-95000 as c80_polyselect1_90000-95000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_65000-70000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_40000-45000__R2 as not ok (140.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_40000-45000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_45000-50000__R2 as not ok (145.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_70000-75000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_45000-50000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_50000-55000__R2 as not ok (150.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_50000-55000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+5 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_55000-60000__R2 as not ok (155.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_55000-60000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_75000-80000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_60000-65000__R2 as not ok (160.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_60000-65000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_95000-100000 as not ok (165.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Resubmitting workunit c80_polyselect1_95000-100000 as c80_polyselect1_95000-100000__R2",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_80000-85000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_65000-70000__R2 as not ok (170.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_65000-70000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_70000-75000__R2 as not ok (175.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_70000-75000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_85000-90000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_75000-80000__R2 as not ok (180.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_75000-80000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_80000-85000__R2 as not ok (185.0% => ETA Thu Aug  6 16:38:46 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_80000-85000__R2, failed 2 times",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_90000-95000__R2 to client localhost",
+    "\u001b[32;1mInfo\u001b[0m:API server: Sending workunit c80_polyselect1_95000-100000__R2 to client localhost+4",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_85000-90000__R2 as not ok (190.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_85000-90000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_90000-95000__R2 as not ok (195.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_90000-95000__R2, failed 2 times",
+    "\u001b[31;1mError\u001b[0m:Polynomial Selection (size optimized): Program run on localhost+4 failed with exit code -4",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Marking workunit c80_polyselect1_95000-100000__R2 as not ok (200.0% => ETA Thu Aug  6 16:38:47 2026)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Not resubmitting workunit c80_polyselect1_95000-100000__R2, failed 2 times",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (size optimized): Finished",
+    "\u001b[32;1mInfo\u001b[0m:Complete Factorization / Discrete logarithm / Class group: Polynomial Selection (size optimized)",
+    "\u001b[33;1mWarning\u001b[0m:Polynomial Selection (size optimized): some stats could not be displayed for polyselect1 (see log file for debug info)",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (root optimized): Starting",
+    "\u001b[32;1mInfo\u001b[0m:Polynomial Selection (root optimized): No polynomial was previously found",
+    "\u001b[32;1mInfo\u001b[0m:API server: Got notification to stop serving Workunits",
+    "\u001b[33;1mWarning\u001b[0m:Polynomial Selection (size optimized): some stats could not be displayed for polyselect1 (see log file for debug info)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost (Host localhost, PID 10)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+2 (Host localhost, PID 12)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+3 (Host localhost, PID 14)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+4 (Host localhost, PID 16)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+5 (Host localhost, PID 18)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+6 (Host localhost, PID 20)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+7 (Host localhost, PID 22)",
+    "\u001b[32;1mInfo\u001b[0m:Client Launcher: Stopped client localhost+8 (Host localhost, PID 24)",
+    "\u001b[32;1mInfo\u001b[0m:API server: Shutting down server on exception list index out of range",
+    "Traceback (most recent call last):",
+    "  File \"/opt/cado-install/bin/cado-nfs.py\", line 212, in <module>",
+    "    factors = factorjob.run()",
+    "              ^^^^^^^^^^^^^^^",
+    "  File \"/opt/cado-install/lib/cado-nfs-3.0.0/scripts/cadofactor/cadotask.py\", line 7821, in run",
+    "    last_status = task.run()",
+    "                  ^^^^^^^^^^",
+    "  File \"/opt/cado-install/lib/cado-nfs-3.0.0/scripts/cadofactor/cadotask.py\", line 2866, in run",
+    "    self.best_polys[0].MurphyE,",
+    "    ~~~~~~~~~~~~~~~^^^",
+    "IndexError: list index out of range",
+    "WRAPPER_END epoch=1786034333.4502707 return_code=1 timed_out=False forced_kill=False"
+  ],
+  "norm": "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+  "norm_bits": 269,
+  "parameter_snapshots": [
+    "c80.parameters_snapshot.0"
+  ],
+  "proper_divisors": [],
+  "result_digest": "4262ab8f331f08fef8d0b6f9147ba542ae21d21c9931a6d92a3329690c33a0ff",
+  "return_code": 1,
+  "schema": "wcl15-tail191-cado-v1",
+  "seconds": 16.276994,
+  "split_found": false,
+  "status": "PARTIAL",
+  "timed_out": false,
+  "work_bytes": 1810476,
+  "work_files": 20
+}

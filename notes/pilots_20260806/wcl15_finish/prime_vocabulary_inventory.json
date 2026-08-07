@@ -1,0 +1,20 @@
+{
+  "audit_run_id": "weight5-recursive-norm-audit-v1",
+  "batch_size": 64,
+  "class_count": 2296920,
+  "distinct_easy_primes": 4443651,
+  "factor_records": 6528119,
+  "high_gate_factors": [],
+  "maximum_prime_bits": 262,
+  "maximum_v2_prime_minus_1": 30,
+  "representative_sha256": "9ac0ca650e704a13514180fe2d8bcea94943c771f125b3942888a6aba8c87f00",
+  "result_digest": "957dd4e45e7edc23bdfe1da1a66cbcaa55fca3559606a89020b5b698fdd647ff",
+  "schema": "wcl15-prime-vocabulary-inventory-v1",
+  "seconds": 186.861215,
+  "shard_custody_digest": "e02d8174726e94cd53225c4a67d0e74a4b1eb513cb1ba3ac50175467859f9ebf",
+  "shard_prime_records": 6177403,
+  "source_run_id": "weight5-recursive-norm-full-v2",
+  "status": "COMPLETE",
+  "validated_batches": 35890,
+  "vocabulary_sha256": "1abfdfddbb9a168522b9413292cff6064308f9d7a0706b1f5cf34329a0d8bc3a"
+}

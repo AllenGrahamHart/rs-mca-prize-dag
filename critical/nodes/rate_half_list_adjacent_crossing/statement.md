@@ -4073,3 +4073,23 @@ in the official family is a MAINTAINER question that decides the
 scope of this obligation. Unconditional positive coverage at
 w > 2^37.3131 (256-bit p) via THEOREM CS
 (es_ternary_suppression_instruments).
+
+## Addendum (2026-08-07, wave-47 integration + round-20 gamma_shell)
+
+1. THEOREM BB (round 20, CANDIDATE CONFIRMED on coordinator
+   replay): at break-region tower rows (delta_a = 1, e >= 3 fully;
+   partial e = 2/(4,2); witness p = 3*2^41+1, q = p^6) the
+   deep-stratum accidents concentrate into 256 gamma-shells and
+   max-shell X_{2^34} >= 2^199.575 > B* = 2^127.510 — **agreement
+   k + 2^34 is UNSAFE there; a_L(C) >= k + 2^34 + 1** (this node's
+   floor STRENGTHENED; its existence claim untouched). The safe
+   side of the localisation moves to w = 2^35 (54-bit deep-stratum
+   margin, stable across [2^35, 2^39]); the open crux is an
+   ACCIDENT UPPER BOUND on shell populations. e = 1 prime rows
+   untouched and provably unreachable by the method.
+2. The 2026-08-06 addendum's "MAINTAINER question" is RESOLVED
+   (ruling 85c9d1536): tower rows ARE in-family; the DSA
+   consequence is unconditionally live (as item 1 now states).
+3. verify.py updated at this integration (Codex's wave-47 version +
+   the post-dating edge constants) — the pre-existing W-5 red is
+   repaired.

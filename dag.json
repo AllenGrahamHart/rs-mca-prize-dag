@@ -10586,12 +10586,12 @@
    "closure": "computation",
    "statement": "All C(256,4)2^3=1,398,341,120 reduced signed weight-4 polynomials meet a 1,014,080-key normalized section that partitions into exactly 24,979 affine-Galois norm classes. Exact resultants have 88,086 factor records and 44,599 distinct prime factors; none below 2^256 has v_2(q-1)>=41, and the maximum is 29. Hence no official DLI production row contains a terminal weight-4 relation. Independent verifiers reconstruct the normalized orbit partition, certify every resultant by 17-prime CRT beyond 2*4^256, and check a shared 154,086-node recursive Pocklington graph. Weights 5 and 6 and WCL-ZONE remain open.",
    "refs": [
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/statement.md",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/proof.md",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_section_remote.py",
-    "background/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_prime_cert_remote.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/statement.md",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/proof.md",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_section_remote.py",
+    "critical/nodes/dli_wcl_weight4_ambient_exclusion/notes/verify_prime_cert_remote.py",
     "experiments/prize_resolution/dli_wcl_weight4_section_modal.py",
     "experiments/prize_resolution/dli_wcl_weight4_section_result.json.gz",
     "experiments/prize_resolution/dli_wcl_weight4_prime_cert_modal.py",
@@ -13897,11 +13897,24 @@
   {
    "id": "dli_wcl_slot_1_5_emptiness",
    "title": "WCL slot 1,5 emptiness",
-   "status": "TARGET",
+   "status": "PROVED",
+   "closure": "computation",
    "refs": [
-    "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md"
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/proof.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/dependency_subdag.md",
+    "critical/nodes/dli_wcl_slot_1_5_emptiness/verify.py",
+    "experiments/prize_resolution/dli_wcl_weight5_affine_representatives_modal.py",
+    "experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py",
+    "notes/pilots_20260806/wcl15_finish/full_batch_replay_modal.py",
+    "notes/pilots_20260806/wcl15_finish/full_batch_replay.json",
+    "notes/pilots_20260806/wcl15_finish/tail_independent_cert_modal.py",
+    "notes/pilots_20260806/wcl15_finish/tail_independent_cert.json",
+    "notes/pilots_20260806/wcl15_finish/tail191_cado_portable_v2_result.json",
+    "notes/pilots_20260806/wcl15_finish/tail191_factor_cert_modal.py",
+    "notes/pilots_20260806/wcl15_finish/tail191_factor_cert.json"
    ],
-   "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row. A complete normalized-section extension gives exactly 2,296,920 affine-Galois classes. Independent direct-resultant replay checks all 35,890 batches and 2,296,920 class norms: 2,296,726 easy rows and all 194 hard tails are completely factored with proved-prime factors. The maximum v_2(p-1) is 30, below the official threshold 41; hence no official-admissible q can support such a vanisher."
   },
   {
    "id": "dli_wcl_slot_1_6_emptiness",
@@ -28142,6 +28155,77 @@
    "statement": "The four (ES)/(ES-G)-consuming lanes' field regimes are mutually unsatisfiable (u2c: log2 Q >= 255.9113; band 1/4-1/8 low depth: >= 255.99999994; band 1/16: >= 256 exactly \u2014 deficit >= 512 bits at the cap, NEVER; dli RES: < 256 strictly by its proved H2/A2) \u2014 the round-15 unification was of statement shape, not regime, and is WITHDRAWN. Per lane: u2c's pin IS the global form verbatim (five round-16 witnesses re-excluded independently); crossing is covered at w >= 2^37 (19/19 admissible pairs) and fails the binding deep stratum at w = 2^34 at ALL 19 (requirement log2 p >= 256 = the cap) \u2014 round 18's THEOREM DSA proved this failure was detecting a real refutation at tower rows; band (both nodes) cannot cite (ES-G) at rate 1/16 anywhere or the low-depth 22.5% of 1/4-1/8, and the banked q >= 2^209 pin computes the RETIRED per-weight threshold, 47.5 bits short (re-derive under the adopted functional \u2014 round-18's ternary form is the transfer candidate); dli RES is UNWIRED (above balance by its own hypothesis; round-15's 'discharges all four consumers' REFUTED for it). |Z_w| closed forms for all 8 admissible p-classes banked, with the delta = 4 bracket top NEVER attained (33% over-credit) and the w = 2^38/2^39 orbit merge (ratios not w-uniform). Mechanism: THEOREM Q makes extension degree free for the count while e divides log2 p \u2014 tower rows are the adversary, confirmed by round 18. NOT claimed: the band effective-base question; the syzygy bracket end; the band pin repair. Provenance: notes/pilots_20260806/es_g_lanes (1,413/0, certified 140-digit comparator; one self-caught float defect), coordinator-replayed."
   },
   {
+   "id": "f2_admissible_degree_order_classification",
+   "title": "F2 admissible extension-degree and order classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every official maximal rate-half row belongs to exactly one of 12 signed degree/order types. Plus branch: v2(p-1)>=41, k=1, e in {1,2,3,4,5,6}; v2(p-1)=40, k=2, e in {2,4}; v2(p-1)=39, k=4, e=4. Minus branch: v2(p+1)>=40, k=2, e in {2,4}; v2(p+1)=39, k=4, e=4. All 12 types are nonempty. Exactly seven are non-generating: the five plus k=1 rows with e=2,...,6 and the plus/minus k=2 rows with e=4. In particular, the field cap and elementary compositeness exclude every apparent e=6,k=2 row.",
+   "refs": [
+    "background/nodes/f2_admissible_degree_order_classification/statement.md",
+    "background/nodes/f2_admissible_degree_order_classification/proof.md",
+    "background/nodes/f2_admissible_degree_order_classification/audit.md",
+    "background/nodes/f2_admissible_degree_order_classification/claim_contract.md",
+    "background/nodes/f2_admissible_degree_order_classification/dependency_subdag.md",
+    "background/nodes/f2_admissible_degree_order_classification/result.md",
+    "background/nodes/f2_admissible_degree_order_classification/verify.py"
+   ]
+  },
+  {
+   "id": "f2_admissible_direct_sum_grs_reduction",
+   "title": "Plus-branch admissible F2 direct-sum reduction to prime-field GRS kernels",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At every official n=2^41 admissible row q=p^e<2^256 in the plus branch p=1 mod 4, ord_n(p)=2^D with D<=2. Every deployed antipodal window splits into at most four F_p-proportionality classes, and its F2 dual kernel is the direct sum of class kernels that are explicit prime-field [S,S-R,R+1]_p GRS/MDS codes. Consequently dim_Fp L=C min(S,R) exactly and the ternary mass factorizes as Z(L)=Z_1^C. The trace collapse uses ord_n(p), not e, and all K1 kernel/mass statements are invariant under the rules-level domain coset. No claim is made for p=3 mod 4 rows.",
+   "refs": [
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/statement.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/proof.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/audit.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/claim_contract.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/dependency_subdag.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/result.md",
+    "background/nodes/f2_admissible_direct_sum_grs_reduction/verify.py",
+    "notes/pilots_20260806/f2_adm/PROOFS.md",
+    "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
+    "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json",
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_admissible_generating_branch_classification",
+   "title": "F2 admissible generating-row branch classification",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every official maximal rate-half generating row q=p^e, ord_(2^41)(p)=e, belongs to exactly one of five residue-signed types. On p=1 mod 4 they are (v2(p-1),e)=(>=41,1),(40,2),(39,4). On p=3 mod 4 they are (v2(p+1),e)=(>=40,2),(39,4). All five types are nonempty: p=3*2^41+1, 27*2^40+1, 5*2^39+1, 2^61-1, and 25*2^39-1 respectively give certified prime witnesses with q=p^e<2^256. Thus the unsigned three-class census omits two official minus-branch classes.",
+   "refs": [
+    "background/nodes/f2_admissible_generating_branch_classification/statement.md",
+    "background/nodes/f2_admissible_generating_branch_classification/proof.md",
+    "background/nodes/f2_admissible_generating_branch_classification/audit.md",
+    "background/nodes/f2_admissible_generating_branch_classification/claim_contract.md",
+    "background/nodes/f2_admissible_generating_branch_classification/dependency_subdag.md",
+    "background/nodes/f2_admissible_generating_branch_classification/result.md",
+    "background/nodes/f2_admissible_generating_branch_classification/verify.py"
+   ]
+  },
+  {
+   "id": "f2_admissible_newton_signed_distance",
+   "title": "Plus-branch admissible F2 Newton signed-distance transport",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every official plus-branch p=1 mod 4 admissible F2 prime-field class whose imposed moments contain 1,3,...,2R-1, every nonzero ternary class-kernel word has weight at least 2R+1; if 2R>=S the ternary kernel is trivial. At the maximal generating witness the floor is S/32+89. This is a distance supplier, not a ternary-mass bound, and makes no minus-branch claim.",
+   "refs": [
+    "background/nodes/f2_admissible_newton_signed_distance/statement.md",
+    "background/nodes/f2_admissible_newton_signed_distance/proof.md",
+    "background/nodes/f2_admissible_newton_signed_distance/audit.md",
+    "background/nodes/f2_admissible_newton_signed_distance/claim_contract.md",
+    "background/nodes/f2_admissible_newton_signed_distance/dependency_subdag.md",
+    "background/nodes/f2_admissible_newton_signed_distance/result.md",
+    "background/nodes/f2_admissible_newton_signed_distance/verify.py",
+    "notes/pilots_20260806/f2_newton_distance/node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+   ]
+  },
+  {
    "id": "f2_admissible_object",
    "title": "The prize-admissible F2 object: the 16-rung KoalaBear tower is NOT admissible (cap broken from rung 4); on the admissible region (v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2) the descent collapses to LEMMA ADM-2's exact direct sum of prime-field GRS codes (dim L EXACT), the generating classes are exactly three (Lucas-certified non-empty; e in {3,5,6} can never generate), and the coset domain costs the first moment a factor of exactly 1 (THEOREM C1)",
    "status": "PROVED",
@@ -28153,7 +28237,111 @@
     "notes/pilots_20260806/f2_tq_pin/verify.py"
    ],
    "closure": "proof",
-   "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open \u2014 the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks."
+   "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open \u2014 the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks. FIVE-CLASS CORRECTION (2026-08-07, forced): G1/G2 as stated ran the p == 1 mod 4 LTE law only \u2014 the census of record is FIVE signed types (+ the two minus-branch types via v_2(p+1); missing row p = 2^61-1, q = p^2, verified thrice); ADM-1/2 is PLUS-BRANCH-ONLY; ADM-3, C1, the cap, the trade-off and the witnesses survive; see statement.md Addendum + f2_admissible_generating_branch_classification."
+  },
+  {
+   "id": "f2_admissible_weighted_prefix_l2_identity",
+   "title": "Plus-branch admissible F2 weighted odd-prefix L2 identity",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For one plus-branch p=1 mod 4 admissible prime-field class, if N(v) counts subsets of the half-system with a prescribed first-R odd-moment vector, then Z_1=2^{-S} sum_v N(v)^2 exactly. Equivalently Z_1 is the normalized cosine-product Fourier partition function, and each N(v) is a full-agreement list-recovery output size for the explicit [S,S-R] GRS code with coordinate lists of size two. Hence Z_1>=max(1,2^S/p^R), and the desired subexponential mass is exactly a near-diagonal L2 collision bound. This is not a full max-fiber Q theorem, a list-size bound, or a minus-branch identity.",
+   "refs": [
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/statement.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/proof.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/audit.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/claim_contract.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/dependency_subdag.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/result.md",
+    "background/nodes/f2_admissible_weighted_prefix_l2_identity/verify.py",
+    "notes/pilots_20260806/f2_weighted_prefix_l2/node_verify_result.json",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_all_admissible_direct_sum_grs_reduction",
+   "title": "All-admissible F2 bounded-class direct-sum reduction",
+   "status": "REFUTED",
+   "closure": "counterexample",
+   "statement": "The claim that every official admissible F2 antipodal window splits into at most four F_p-proportionality classes is false. For the Mersenne prime p=2^61-1 and q=p^2, q<2^256 and ord_(2^41)(p)=2=e, but gcd(2^41,p-1)=2, so the antipodal half-system has 2^40 singleton classes. The corrected p=1 mod 4 reduction survives.",
+   "refs": [
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/statement.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/proof.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/audit.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/claim_contract.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/dependency_subdag.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/result.md",
+    "background/nodes/f2_all_admissible_direct_sum_grs_reduction/verify.py",
+    "notes/pilots_20260806/f2_minus_branch/PREREG.md",
+    "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
+    "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
+    "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_all_admissible_o1_mass_bound",
+   "title": "All-admissible-row F2 O1 mass bound",
+   "status": "REFUTED",
+   "closure": "counterexample",
+   "statement": "The F2 first-moment bound (O1), E_c[T_W(c)]<=2^{m+o(n)}, holds at the full-group deployed window for every official admissible n=2^41 row. This is false whenever ord_n(p)<[F_q:F_p]; in particular p=3*2^41+1 and q=p^6 give an admissible counterexample with an exponential 2^{5n/12} excess under the governing nested reading.",
+   "refs": [
+    "background/nodes/f2_all_admissible_o1_mass_bound/statement.md",
+    "background/nodes/f2_all_admissible_o1_mass_bound/proof.md",
+    "background/nodes/f2_all_admissible_o1_mass_bound/claim_contract.md",
+    "background/nodes/f2_all_admissible_o1_mass_bound/result.md",
+    "background/nodes/f2_all_admissible_o1_mass_bound/verify.py",
+    "notes/pilots_20260806/f2_adm/PROOFS.md",
+    "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
+   ]
+  },
+  {
+   "id": "f2_fixed_weight_flatness_mass_bridge",
+   "title": "F2 fixed-weight flatness to full-cube mass bridge",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For any finite-field linear syndrome map, fixed-weight mean-plus-one bounds M_b <= L(1+binom(S,b)/Q) on weights G imply the exact full-cube weighted-mass bound Z <= 3*T_G^2/2^S + 3L(S+1+2^S/Q), with the sharper factor 2 when all weights are covered. Complementation identifies weights b and S-b. Hence subexponential fixed-weight flatness on a central band with tails at most 2^(S/2+o(S)) pays the full-cube mass. No such flatness estimate or upstream owner transport is claimed.",
+   "refs": [
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/statement.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/proof.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/audit.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/claim_contract.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/dependency_subdag.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/result.md",
+    "background/nodes/f2_fixed_weight_flatness_mass_bridge/verify.py"
+   ]
+  },
+  {
+   "id": "f2_generated_field_ambient_invariance",
+   "title": "F2 generated-field ambient invariance",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For F=F_(p^e), B=F_p(mu_n)=F_(p^k), and D=g mu_n, scaling S=gT gives p_j(S)=g^j p_j(T) and e_j(S)=g^j e_j(T). It therefore preserves t-null blocks, moment-trade block families, subgroup-coset structure, and complements exactly. For every F2 window and exponent set the syndrome maps satisfy A_D=diag(g^ell)A_B, so their F_p kernels, ranks, weighted ternary masses, subset-syndrome fibers, maxima, and collision sums are identical. Consequently the seven non-generating official degree/order types descend exactly to three of the five signed generating types. This does not restore ambient-normalized (O1) and proves no mass upper bound or final extras budget.",
+   "refs": [
+    "background/nodes/f2_generated_field_ambient_invariance/statement.md",
+    "background/nodes/f2_generated_field_ambient_invariance/proof.md",
+    "background/nodes/f2_generated_field_ambient_invariance/claim_contract.md",
+    "background/nodes/f2_generated_field_ambient_invariance/dependency_subdag.md",
+    "background/nodes/f2_generated_field_ambient_invariance/audit.md",
+    "background/nodes/f2_generated_field_ambient_invariance/result.md",
+    "background/nodes/f2_generated_field_ambient_invariance/verify.py"
+   ]
+  },
+  {
+   "id": "f2_minus_branch_coupled_negacyclic_reduction",
+   "title": "Minus-branch F2 coupled negacyclic top-window reduction",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every official maximal rate-half p=3 mod 4 row, b=v_2(p+1)>=39 and ord_(2^41)(p)=2^max(1,41-b) is 2 or 4. At each exact or nested top window of order 2^40 or 2^41, the F2 kernel is the F_p coefficient code of polynomials divisible by the Frobenius-closed root polynomial on the first R odd powers. Its scalar rank is hR, where h=2 except at the nested top window where h=ord_(2^41)(p). Its weighted ternary mass has the exact L2 collision form and pointwise floor 2^m/p^(hR), and every nonzero ternary word has weight at least 2R+1. The code is Frobenius-coupled and its mass does not factor over singleton proportionality classes. No mass upper bound is claimed.",
+   "refs": [
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/statement.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/proof.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/audit.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/claim_contract.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/dependency_subdag.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/result.md",
+    "background/nodes/f2_minus_branch_coupled_negacyclic_reduction/verify.py",
+    "notes/pilots_20260806/f2_minus_branch/COUPLED_KERNEL_PREREG.md",
+    "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json"
+   ]
   },
   {
    "id": "f2_o1_status_split",
@@ -28166,7 +28354,40 @@
     "notes/pilots_20260806/o1_generating_adversary/PROOFS.md"
    ],
    "closure": "proof",
-   "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over \u2014 THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 \u2014 at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice \u2014 the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed."
+   "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over \u2014 THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 \u2014 at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice \u2014 the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed. FIVE-CLASS CORRECTION (2026-08-07): the generating domain is five signed types, not three (see f2_admissible_object); Z2 and the non-generating kill are class-independent; the two minus-branch types lack an object model (named residual). ENSEMBLE RULING RE-OPENED + SCOPE DISSOLVED per the statement.md addenda (2026-08-06/07): under (C) the finite target Z <= 1 + N^3; k = 1 reduces to the PROVED f2_k1_contraction_theorem; residual k in {2,4}."
+  },
+  {
+   "id": "f2_weighted_kernel_collision_floor",
+   "title": "F2 weighted-kernel pointwise collision floor",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every F_p-linear map A:F_p^m->V of rank d, the weighted ternary kernel mass Z(A) satisfies 2^m Z(A)=sum_v N(v)^2 exactly, where N(v) counts subset incidence vectors of syndrome v. It also equals p^{-d} sum_u product_s(1+cos(2 pi <u,a_s>/p)), equivalently (2^m/p^d) sum_u product_s cos^2(pi <u,a_s>/p). Consequently Z(A)>=max(1,2^m/p^d) pointwise. Each N(v) is a full-agreement list-recovery output size for ker(A) with coordinate lists of size two. No mass upper bound or max-fiber theorem is claimed.",
+   "refs": [
+    "background/nodes/f2_weighted_kernel_collision_floor/statement.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/proof.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/audit.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/claim_contract.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/dependency_subdag.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/result.md",
+    "background/nodes/f2_weighted_kernel_collision_floor/verify.py",
+    "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json"
+   ]
+  },
+  {
+   "id": "f2_weighted_mass_max_fiber_sandwich",
+   "title": "F2 weighted mass and heaviest-fiber sandwich",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every finite-field linear syndrome map on the binary cube, let N(v) be its subset-syndrome fiber sizes, M=max_v N(v), and Z the weighted ternary kernel mass. Then M^2/2^m <= Z <= M. If the rank is d and a max-fiber estimate for this map gives M <= Lambda*(2^m/p^d)+E, then the identical bound holds for Z with no normalization loss. Thus a subexponential uniform binary full-agreement list-recovery bound pays the plus-branch and coupled minus-branch F2 mass terminals. Upstream def:q-row-atom concerns a different first-match residual family and requires an explicit map-and-owner transport before it can supply this estimate. No max-fiber, Q-flatness, transport, or prize bound is claimed.",
+   "refs": [
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/statement.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/proof.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/audit.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/claim_contract.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/dependency_subdag.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/result.md",
+    "background/nodes/f2_weighted_mass_max_fiber_sandwich/verify.py"
+   ]
   },
   {
    "id": "f2_z1_mass_knife_edge",
@@ -28179,6 +28400,28 @@
    ],
    "closure": "proof",
    "statement": "On the admissible F2 object ([S,S-R,R+1]_p negacyclic GRS on the half-system, S = 2^40/e, R/S = 1/log2 p, Z(L) = Z_1^C, C <= 4): THEOREM Z-FLOOR: Z(L) >= 2^m/p^{dim L} POINTWISE for every subspace (Cauchy-Schwarz on the banked collision identity dli_c1_l1_block_owner_ledger:15,18; tight within 2x of the ensemble mean; 696 configs 0 violations). THEOREM Z-1: char > w holds on every admissible row (p > m by the e_p case split; the tower verdict reversed), so min ternary weight >= 2R+1 = 8,589,934,681 \u2014 blind-convergent with o1_generating_adversary THEOREM D1; shift-0 windows only (43 shifted counterexamples; legitimate because the official window starts at 1). THEOREM Z-2: the DLI exclusion holds for all integer coefficients at l1 weight ({+1,-1} unnecessary). THEOREM Z-NOGO: saturation pins R/S = 1/log2 p, so the whole distance+counting family (39.2x -> 28.3x -> 21.3x ladder) needs p <= 8 vs admissible log2 p >= 39 \u2014 structurally incapable of closing the terminal. KNIFE EDGE at k = e: the floor is silent by 46.02 bits of 2.75e11 under R = ceil(t/2) and FIRES (+17.98 bits) under the exact-balance reading \u2014 there ternary kernel vectors provably exist (Z_1 >= 2^{17.98}), the EXACT-ZERO form dies, the MASS form survives (Z = 2^{o(n)}); the reading belongs to the maintainer stack. CATCH-Z1: mass form != exact-zero form (differ by log2 3 per vector) \u2014 the terminal of record is the MASS form: prove Z_1 <= 2^{o(m)} at k = e. Route (b) sizing REFUTED (round-19: degree factor restored, Weil vacuous by 26.000 bits; the AM-GM+Z-2 substitute THEOREM 7 gives unconditional Z_1 <= 2^{0.8908 S} but closes only at p <= 8.30 = Z-NOGO threshold; NO NAMED ROUTE REMAINS \u2014 open = the tail-count criterion; the Prop-10 lead RETIRED \u2014 round-20 CATCH-T1: it telescopes to the elementary cost form; the open form of record is the NORMALIZED tail criterion Pr[P >= 2^{cS}] <= 2^{-cS+o(S)} with binding layer c* = 1/ln2 - 1 = 0.4427 at ZERO flat-model margin, the tail being a small-values/box count of the MDS value code; both standard supplies killed (p <= 8.30 / no p); the deficit is R-LOCALITY, factor 8.60; one endpoint layer proved); (a) dead quantified (corrected constant per round-19 CATCH-T3: yields w >= p^{4R/n} = 4.0000, the sharp ceiling being w^{n/4} not w^{n/2}; dead either way); (c) localises only. Calibration at or below random median on all valid miniatures (2-power 2N only, CATCH-Z6 grid rule); no toy is evidence at the official row. NOT claimed: the open mass bound; the t-reading; a shifted law. Provenance: notes/pilots_20260806/z1_ternary_mass (81/81), coordinator-replayed."
+  },
+  {
+   "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For n=2^m, an odd prime p, and a subset S of Z/n with nonzero first cyclotomic moment, divisibility by p of the first-(w-1)-moment ideal forces p^{|Z_w^odd|} to divide the first-moment norm, while that norm squared is at most (|S|-a_{n/2}(S))^{n/2}. Hence ceil((w-1)/2)log_2(p) <= (n/4)log_2|S| is necessary for a finite-characteristic accident. Periodic S reduce exactly to smaller dyadic instances; arbitrary windows require the printed per-stratum test, while for power-of-two w the top test propagates through every nonstructural stratum. The result is rowwise in p, not q=p^e.",
+   "refs": [
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/statement.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/proof.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/audit.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/claim_contract.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/result.md",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify.py",
+    "background/nodes/rate_half_crossing_ideal_galois_multiplicity_exclusion/verify_audit.py",
+    "notes/pilots_20260806/es_coprimality/PROOFS.md",
+    "notes/pilots_20260806/cs_transport/AUDIT_PREREG.md",
+    "notes/pilots_20260806/cs_transport/AUDIT_RERUN_PREREG.md",
+    "notes/pilots_20260806/cs_transport/cs_independent_audit_rerun_result.json",
+    "notes/pilots_20260806/cs_transport/cs_node_verify_final_result.json"
+   ]
   },
   {
    "id": "tern_master_threshold",
@@ -53491,9 +53734,24 @@
    "kind": "ev"
   },
   {
+   "from": "dli_wcl_weight4_ambient_exclusion",
+   "to": "dli_wcl_slot_1_5_emptiness",
+   "kind": "req"
+  },
+  {
    "from": "crossing_dsa_refutation",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ref"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "f2_admissible_newton_signed_distance",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_newton_short_window_exclusion",
+   "to": "f2_minus_branch_coupled_negacyclic_reduction",
+   "kind": "req"
   },
   {
    "from": "es_ternary_suppression_instruments",
@@ -53526,14 +53784,129 @@
    "kind": "ref"
   },
   {
+   "from": "f2_admissible_degree_order_classification",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_degree_order_classification",
+   "to": "f2_generated_field_ambient_invariance",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_generating_branch_classification",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_newton_signed_distance",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_weighted_prefix_l2_identity",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_all_admissible_o1_mass_bound",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_direct_sum_grs_reduction",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_generating_branch_classification",
+   "to": "f2_admissible_degree_order_classification",
+   "kind": "req"
+  },
+  {
+   "from": "f2_admissible_generating_branch_classification",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_admissible_newton_signed_distance",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
    "from": "f2_admissible_object",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ref"
   },
   {
+   "from": "f2_admissible_weighted_prefix_l2_identity",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_all_admissible_direct_sum_grs_reduction",
+   "to": "f2_admissible_object",
+   "kind": "ref"
+  },
+  {
+   "from": "f2_all_admissible_direct_sum_grs_reduction",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_all_admissible_o1_mass_bound",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_fixed_weight_flatness_mass_bridge",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_generated_field_ambient_invariance",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_minus_branch_coupled_negacyclic_reduction",
+   "to": "f2_admissible_generating_branch_classification",
+   "kind": "req"
+  },
+  {
+   "from": "f2_minus_branch_coupled_negacyclic_reduction",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
    "from": "f2_o1_status_split",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ref"
+  },
+  {
+   "from": "f2_weighted_kernel_collision_floor",
+   "to": "f2_conditional_close",
+   "kind": "ev"
+  },
+  {
+   "from": "f2_weighted_kernel_collision_floor",
+   "to": "f2_fixed_weight_flatness_mass_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "f2_weighted_kernel_collision_floor",
+   "to": "f2_minus_branch_coupled_negacyclic_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "f2_weighted_kernel_collision_floor",
+   "to": "f2_weighted_mass_max_fiber_sandwich",
+   "kind": "req"
+  },
+  {
+   "from": "f2_weighted_mass_max_fiber_sandwich",
+   "to": "f2_conditional_close",
+   "kind": "ev"
   },
   {
    "from": "f2_z1_mass_knife_edge",
@@ -53544,6 +53917,16 @@
    "from": "f2_z1_mass_knife_edge",
    "to": "u2c_giant_tnull_dichotomy",
    "kind": "ref"
+  },
+  {
+   "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
   },
   {
    "from": "tern_master_threshold",

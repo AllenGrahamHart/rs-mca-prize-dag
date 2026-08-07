@@ -4,13 +4,31 @@
   "node": {
     "id": "dli_wcl_slot_1_5_emptiness",
     "title": "WCL slot 1,5 emptiness",
-    "status": "TARGET",
+    "status": "PROVED",
+    "closure": "computation",
     "refs": [
-      "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md"
+      "critical/nodes/dli_wcl_slot_1_5_emptiness/statement.md",
+      "critical/nodes/dli_wcl_slot_1_5_emptiness/proof.md",
+      "critical/nodes/dli_wcl_slot_1_5_emptiness/dependency_subdag.md",
+      "critical/nodes/dli_wcl_slot_1_5_emptiness/verify.py",
+      "experiments/prize_resolution/dli_wcl_weight5_affine_representatives_modal.py",
+      "experiments/prize_resolution/dli_wcl_weight5_recursive_norm_full_modal.py",
+      "notes/pilots_20260806/wcl15_finish/full_batch_replay_modal.py",
+      "notes/pilots_20260806/wcl15_finish/full_batch_replay.json",
+      "notes/pilots_20260806/wcl15_finish/tail_independent_cert_modal.py",
+      "notes/pilots_20260806/wcl15_finish/tail_independent_cert.json",
+      "notes/pilots_20260806/wcl15_finish/tail191_cado_portable_v2_result.json",
+      "notes/pilots_20260806/wcl15_finish/tail191_factor_cert_modal.py",
+      "notes/pilots_20260806/wcl15_finish/tail191_factor_cert.json"
     ],
-    "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row (ell=1 window; zero-event; sweep partial, pilot max_v2 17-21). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+    "statement": "No reduced signed weight-5 polynomial vanishes at an order-512 root at any official row. A complete normalized-section extension gives exactly 2,296,920 affine-Galois classes. Independent direct-resultant replay checks all 35,890 batches and 2,296,920 class norms: 2,296,726 easy rows and all 194 hard tails are completely factored with proved-prime factors. The maximum v_2(p-1) is 30, below the official threshold 41; hence no official-admissible q can support such a vanisher."
   },
-  "requires": [],
+  "requires": [
+    {
+      "from": "dli_wcl_weight4_ambient_exclusion",
+      "order": 5018
+    }
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_fixed_weight_flatness_mass_bridge",
+    "title": "F2 fixed-weight flatness to full-cube mass bridge",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any finite-field linear syndrome map, fixed-weight mean-plus-one bounds M_b <= L(1+binom(S,b)/Q) on weights G imply the exact full-cube weighted-mass bound Z <= 3*T_G^2/2^S + 3L(S+1+2^S/Q), with the sharper factor 2 when all weights are covered. Complementation identifies weights b and S-b. Hence subexponential fixed-weight flatness on a central band with tails at most 2^(S/2+o(S)) pays the full-cube mass. No such flatness estimate or upstream owner transport is claimed.",
+    "refs": [
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/statement.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/proof.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/audit.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/claim_contract.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/dependency_subdag.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/result.md",
+      "background/nodes/f2_fixed_weight_flatness_mass_bridge/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f2_weighted_kernel_collision_floor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

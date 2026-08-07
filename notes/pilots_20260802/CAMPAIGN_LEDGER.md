@@ -2263,3 +2263,40 @@ dead + CW-FLOOR + PT-2 corrected. FOUR forced corrections to
 minted nodes in one round. NEXT: the wave-47 integration batch
 (five-class correction + the WCL/F2 adoptions + the crossing-node
 addendum + slot_1_5 census flip), then the round-21 board.
+
+## 2026-08-07: WAVE-47 INTEGRATION EXECUTED — A RED CLOSED (246 -> 247 = 181/41/25)
+
+The full adopted batch landed in one pass, all chains green:
+- **dli_wcl_slot_1_5_emptiness TARGET -> PROVED** (Codex's proof;
+  the auditor's Burnside closure of the census trust root
+  [2,296,920 classes, remainder 0]; coordinator replay
+  WCL15_CERTIFICATE_PASS) — **THE FIRST CRITICAL RED CLOSED this
+  phase: math orbit 26 -> 25 targets** (247 = 181/41/25; submission
+  262 = 193/43/26; pins repriced with provenance).
+  dli_wcl_weight4_ambient_exclusion promoted background -> critical
+  (FORCED by the adopted slot wiring — the partition law; the
+  auditor's HOLD resolved by necessity, refs fixed).
+- **13 F2 nodes adopted** (7 clean + 6 with coordinator addenda:
+  the banked-identity citation, the truncated-fence widest reading,
+  the superseded-upward note, the root-disjointness gap, the
+  Hamming-vs-Fourier tail distinction, the retargeted edge) + the
+  CS supplier node. THE FIVE-CLASS FORCED CORRECTION applied to
+  f2_admissible_object + f2_o1_status_split (statement.md AND
+  node.json; the auditor's REJECT-the-in-place-flip prescription
+  honoured — G1/G2 narrowed to the plus branch, five signed types
+  of record, survivors enumerated).
+- **The crossing node**: statement addendum landed (THEOREM BB +
+  the resolved maintainer question + the verifier note);
+  **verify.py repaired GREEN for the first time** (Codex's wave-47
+  version + the post-dating edges incl. the two ref-kind entries —
+  the pre-existing W-5 red is dead, 224/224).
+- WCL artifacts: wcl15_finish (tail-191 + 193 certs), wcl16_delta6
+  fence, zone-coverage 10 -> 9, fiber_rigidity, roadmap shard 15 +
+  CR-004, the tail-factor result. HELD (unchanged): the
+  f2_conditional_close rewrite (awaits the f2_repose mint
+  composition), the selector transport, the sectioning schema +
+  decomposition (the verbatim-restore edit goes with it, wave 48).
+- Site + orbit republished at the new census. WAVE 48 QUEUE: the
+  post-pin Codex commits (selector handoff f8ad8cb5e, the
+  aperiodicity corollary, f2_selector_face_primitive_reduction,
+  + overnight work) — next audit cycle.

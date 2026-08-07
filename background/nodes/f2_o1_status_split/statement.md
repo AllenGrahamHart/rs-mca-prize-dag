@@ -115,3 +115,13 @@ by the spec text itself (non-generating rows in-family; see the
    counting-balance surplus (CATCH-R1), reproducing the banked
    2^{1.05e12} to 0.047% — with the A2 arithmetic defect (n = 2^40
    vs N = 2^41) flagged for the extras-contraction node.
+
+## Addendum 3 (2026-08-07, wave-47 — five classes, not three)
+
+"Exactly three generating classes" is corrected to FIVE SIGNED
+TYPES per the five-class census (see f2_admissible_object Addendum 2
++ f2_admissible_generating_branch_classification). The
+non-generating kill and THEOREM Z2 are unaffected (both are
+class-independent); the minimal surviving form's domain is the five
+generating types, with the two minus-branch types lacking an object
+model (the named round-20 residual).

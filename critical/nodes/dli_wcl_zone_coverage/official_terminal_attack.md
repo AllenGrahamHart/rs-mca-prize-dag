@@ -366,3 +366,56 @@ degree-three presentations have `114/119` variables/equations at `(4,9)`,
 strictly smaller, not because even parity leaves `(4,10)` without a descent.
 
 Excludes no cell and closes nothing; this is route selection.
+
+## Slot `(1,5)` closure (2026-08-06)
+
+The direct census route is complete and independently replayed. All
+`2,296,920` affine-Galois classes have exact nonzero order-512 cyclotomic
+norms; the easy stage pays `2,296,726` rows and the hard manifest pays all
+`194` remaining rows. The global maximum factor depth is
+`v_2(p-1)=30<41`, with no official-gate factor. The proof packet is
+`../dli_wcl_slot_1_5_emptiness/proof.md`.
+
+The current extended-window residual therefore has nine slots:
+
+```text
+(1,6) (1,7) (1,8)
+(2,7) (2,8) (2,9)
+(4,9) (4,10) (4,11).
+```
+
+## Slot `(1,6)` conductor/gcd route fence (2026-08-06)
+
+The pair-Heron route now has an exact stopping theorem. Supports whose six
+exponents have one parity descend uniquely to their maximal lower two-adic
+conductor. At the first mixed-parity conductor, every parity-adapted even
+Heron block norm is a product of two complete signed rational norms, while
+every odd quadratic block norm is a product of four. Thus cross-pairing gcds
+remain divisible by the full signed norm they are intended to compress.
+
+This excludes no characteristic and leaves `(1,6)` open. It retires the
+aggregate Heron block-gcd continuation: the remaining `ell=1` route needs
+control of individual minimal-conductor norms. WCL arithmetic effort should
+prefer a slot with independent moment equations, currently `(2,7)`, unless a
+new individual-norm theorem appears.
+
+## Slot `(2,7)` corrected quadruple-cubic router (2026-08-06)
+
+The two-equation route is now exact at prime-filter granularity. Selecting a
+quadruple leaves a complementary cubic whose order-1024 roots are equivalent
+to two doubling-recurrence equations. Exact Burnside replay gives
+`94,652,815` affine candidate orbits, confirming that the direct census is a
+no-go at the current resource scale.
+
+The former `Norm(u)` saturation gap is closed without a weight-four census.
+Rational norms merge split embeddings, so a prime shared with `Norm(u)` is
+never deleted blindly. Every raw norm-gcd prime is tested over `F_p[X]` by
+
+```text
+H_p=gcd(Phi_1024,F,G),       H_p^*=H_p/gcd(H_p,u),
+```
+
+and survives only when `deg H_p^*>0`, followed by exact cubic and support
+reconstruction. This repairs the router but excludes no candidate orbit.
+The next theorem must batch complement products or produce a smaller joint
+obstruction; do not launch the complete fleet.

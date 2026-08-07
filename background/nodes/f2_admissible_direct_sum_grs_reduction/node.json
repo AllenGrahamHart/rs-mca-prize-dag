@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_admissible_direct_sum_grs_reduction",
+    "title": "Plus-branch admissible F2 direct-sum reduction to prime-field GRS kernels",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At every official n=2^41 admissible row q=p^e<2^256 in the plus branch p=1 mod 4, ord_n(p)=2^D with D<=2. Every deployed antipodal window splits into at most four F_p-proportionality classes, and its F2 dual kernel is the direct sum of class kernels that are explicit prime-field [S,S-R,R+1]_p GRS/MDS codes. Consequently dim_Fp L=C min(S,R) exactly and the ternary mass factorizes as Z(L)=Z_1^C. The trace collapse uses ord_n(p), not e, and all K1 kernel/mass statements are invariant under the rules-level domain coset. No claim is made for p=3 mod 4 rows.",
+    "refs": [
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/statement.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/proof.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/audit.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/claim_contract.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/dependency_subdag.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/result.md",
+      "background/nodes/f2_admissible_direct_sum_grs_reduction/verify.py",
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
+      "notes/pilots_20260806/f2_route_repair/f2_adm_replay_result.json",
+      "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json",
+      "notes/pilots_20260806/f2_minus_branch/node_verify_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

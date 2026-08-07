@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_all_admissible_o1_mass_bound",
+    "title": "All-admissible-row F2 O1 mass bound",
+    "status": "REFUTED",
+    "closure": "counterexample",
+    "statement": "The F2 first-moment bound (O1), E_c[T_W(c)]<=2^{m+o(n)}, holds at the full-group deployed window for every official admissible n=2^41 row. This is false whenever ord_n(p)<[F_q:F_p]; in particular p=3*2^41+1 and q=p^6 give an admissible counterexample with an exponential 2^{5n/12} excess under the governing nested reading.",
+    "refs": [
+      "background/nodes/f2_all_admissible_o1_mass_bound/statement.md",
+      "background/nodes/f2_all_admissible_o1_mass_bound/proof.md",
+      "background/nodes/f2_all_admissible_o1_mass_bound/claim_contract.md",
+      "background/nodes/f2_all_admissible_o1_mass_bound/result.md",
+      "background/nodes/f2_all_admissible_o1_mass_bound/verify.py",
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f2_admissible_direct_sum_grs_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

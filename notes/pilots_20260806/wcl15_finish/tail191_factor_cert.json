@@ -1,0 +1,29 @@
+{
+  "certificate_digest": "4c18195abaa5932b7528cd5bf5c4dcc820525fb4b36a3aa184f4e57746b5c876",
+  "factor_product_exact": true,
+  "factors": [
+    {
+      "below_2_256": true,
+      "bits": 112,
+      "official_gate": false,
+      "prime": "2618025003265620701077592958097921",
+      "v2_prime_minus_1": 9
+    },
+    {
+      "below_2_256": true,
+      "bits": 158,
+      "official_gate": false,
+      "prime": "247707694890502006805474333259382717013127180289",
+      "v2_prime_minus_1": 12
+    }
+  ],
+  "high_gate_factors": [],
+  "maximum_v2_prime_minus_1": 12,
+  "norm": "648504938724625892617537595827566622528651020454874372151735040370465231483079169",
+  "norm_bits": 269,
+  "primality_checks": 2,
+  "schema": "wcl15-tail191-independent-factor-cert-v1",
+  "seconds": 0.009617,
+  "source_sha256": "c093d5e05aea1e2b2851042e550f89cf44f093c8b1714c80780efd27b72ec608",
+  "status": "COMPLETE"
+}

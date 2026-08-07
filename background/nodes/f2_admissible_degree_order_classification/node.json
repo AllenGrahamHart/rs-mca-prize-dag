@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_admissible_degree_order_classification",
+    "title": "F2 admissible extension-degree and order classification",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every official maximal rate-half row belongs to exactly one of 12 signed degree/order types. Plus branch: v2(p-1)>=41, k=1, e in {1,2,3,4,5,6}; v2(p-1)=40, k=2, e in {2,4}; v2(p-1)=39, k=4, e=4. Minus branch: v2(p+1)>=40, k=2, e in {2,4}; v2(p+1)=39, k=4, e=4. All 12 types are nonempty. Exactly seven are non-generating: the five plus k=1 rows with e=2,...,6 and the plus/minus k=2 rows with e=4. In particular, the field cap and elementary compositeness exclude every apparent e=6,k=2 row.",
+    "refs": [
+      "background/nodes/f2_admissible_degree_order_classification/statement.md",
+      "background/nodes/f2_admissible_degree_order_classification/proof.md",
+      "background/nodes/f2_admissible_degree_order_classification/audit.md",
+      "background/nodes/f2_admissible_degree_order_classification/claim_contract.md",
+      "background/nodes/f2_admissible_degree_order_classification/dependency_subdag.md",
+      "background/nodes/f2_admissible_degree_order_classification/result.md",
+      "background/nodes/f2_admissible_degree_order_classification/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "f2_admissible_generating_branch_classification"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

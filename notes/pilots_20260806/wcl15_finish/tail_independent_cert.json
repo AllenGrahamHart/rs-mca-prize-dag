@@ -1,0 +1,18 @@
+{
+  "certificate_digest": "f218fc0a26b2ec2bc1f4084bc5b0fd1eabb58c4b96e0f21aa6729350b0be0d40",
+  "certified_tail_rows": 193,
+  "distinct_primes": 399,
+  "high_gate_factors": [],
+  "manifest_digest": "aa7fa74e79bb80f660ac6e5c6b9e03c85419630bef834076e1d1fe1380bf1ab8",
+  "manifest_rows": 194,
+  "maximum_v2_prime_minus_1": 17,
+  "pending_tail_indices": [
+    191
+  ],
+  "primality_checks": 400,
+  "prime_digest": "4180c683ce53c2df9181656ac8afb9fab287288bdab549f0a08326a31c800cbb",
+  "schema": "wcl15-independent-hard-tail-cert-v1",
+  "seconds": 1.017094,
+  "source_sha256": "026fbd0d5665bc855bfcdd56f54b33bbea2b2a563aa98c79daf6e4f042ac0f4b",
+  "status": "COMPLETE_193_PENDING_191"
+}

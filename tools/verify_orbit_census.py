@@ -68,8 +68,8 @@ SUBMISSION_ROOT = "prize"
 # CONDITIONAL on two alternative TARGET leaves (full joint rank and deficient
 # forced-common-root kernel). The rational-direction payment is evidence-only.
 # Net: +1 CONDITIONAL and +1 TARGET in both orbits.
-EXPECTED_MATH = {"PROVED": 179, "CONDITIONAL": 41, "TARGET": 26}
-EXPECTED_SUBMISSION = {"PROVED": 191, "CONDITIONAL": 43, "TARGET": 27}
+EXPECTED_MATH = {"PROVED": 181, "CONDITIONAL": 41, "TARGET": 25}
+EXPECTED_SUBMISSION = {"PROVED": 193, "CONDITIONAL": 43, "TARGET": 26}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -224,3 +224,9 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+# WAVE-47 REPRICE (2026-08-07): dli_wcl_slot_1_5_emptiness TARGET -> PROVED
+# (Codex proof + auditor Burnside closure of the census trust root, coordinator
+# replay); dli_wcl_weight4_ambient_exclusion promoted background -> critical
+# (forced by the adopted slot wiring, partition law). 246=179/41/26 -> 247=181/41/25;
+# submission 261=191/43/27 -> 262=193/43/26. A RED CLOSED.
