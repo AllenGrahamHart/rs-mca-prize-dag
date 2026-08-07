@@ -1122,6 +1122,25 @@
    }
   },
   {
+   "our_node": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "two-sector base-field descent for the local WCL (1,6) pair-Heron factors",
+   "owner": "US",
+   "nonclaims": [
+    "no base-field Heron or quadratic-norm factor is excluded at the official gate",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "cfa9e1c3d",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "dli_wcl_slot_1_7_emptiness",
    "his_object": null,
    "relation": "OURS_ONLY",

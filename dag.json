@@ -13967,7 +13967,7 @@
    "refs": [
     "critical/nodes/dli_wcl_slot_1_6_emptiness/statement.md"
    ],
-   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. The exact unsigned sign-product router aggregates the 32 sign lifts into 11,650,060 affine-Galois orbits in two product-parity sectors. Its pair-Heron refinement factors each sign product into eight explicit six-term conjugates, but compatible prime control remains open. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. The exact unsigned sign-product router aggregates the 32 sign lifts into 11,650,060 affine-Galois orbits in two product-parity sectors. Its pair-Heron refinement factors each sign product into eight explicit six-term conjugates. Parity-adapted pairing places all factors in Q(zeta_256) in the even sector and reduces the odd sector to four explicit quadratic norms there, but compatible prime control remains open. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   {
    "id": "dli_wcl_slot_2_7_emptiness",
@@ -28231,6 +28231,24 @@
     "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/lineage.md",
     "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify.py",
     "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+   "title": "WCL ell=1 weight-6 parity-adapted Heron descent",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Pairing exponent parities collapses the pair-Heron router at cyclotomic specialization. In the even-product sector all three pair products lie in Q(zeta_256), so all eight Heron factors are already base-field elements. In the odd-product sector exactly one pair is mixed, and its conjugate Heron factors multiply to C^2-dD^2; the full sign product is four such base-field quadratic norms. No compatible-prime exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/statement.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/proof.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/claim_contract.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/audit.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/result.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/lineage.md",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/verify.py",
+    "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/verify_audit.py"
    ]
   },
   {
@@ -54143,6 +54161,16 @@
   },
   {
    "from": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "to": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+   "kind": "req"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
    "to": "dli_wcl_slot_1_6_emptiness",
    "kind": "ev"
   },

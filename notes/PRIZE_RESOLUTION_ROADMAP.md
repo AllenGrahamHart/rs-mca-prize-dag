@@ -19269,6 +19269,43 @@ new assumptions: none
 compute: no Modal; exact symbolic proof and bounded finite-field audit under RAMguard
 next: deterministic pairing ownership plus a Heron-factor prime-support bound
 ```
+
+### WCL `(1,6)` parity-adapted base-field descent
+
+The two unsigned product sectors pay most of the formal quadratic extension.
+If the product exponent is even, the odd and even exponent classes both have
+even cardinality; pairing within parity puts all three pair products in
+`Q(zeta_256)`. If it is odd, both classes have odd cardinality and a pairing
+with exactly one mixed pair exists. Thus:
+
+```text
+even sector: 8 Heron factors directly in Q(zeta_256),
+odd sector:  4 factors C^2-dD^2 in Q(zeta_256),
+
+C=s^2+4d-2s(V+W)+(V-W)^2,   D=4(s-V-W).
+```
+
+The latter formula is the exact norm of the two conjugate Heron factors from
+the unique mixed pair. All 64 exponent-parity patterns and 1,000 independent
+modular instances replay. The prior formal degree-eight norm has therefore
+collapsed to degree one in the even sector and degree two before explicit
+descent in the odd sector.
+
+The remaining proposition is now arithmetic and concrete: bound official
+prime divisors of individual order-256 Heron or `C^2-dD^2` norms. A small
+deterministic norm/factor-cost pilot is justified; a full census is not.
+
+```text
+starting pin: cfa9e1c3d; canonical 23df01a65; upstream main 93fba1be
+lane: WCL / (ell,h)=(1,6)
+result: NARROWED to base-field Heron/quadratic-norm factors in both sectors
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: none; classified OURS_ONLY
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 64 exact parity patterns and 1,000 modular audit rows
+next: bounded norm-size/factorability pilot on deterministic parity-adapted samples
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

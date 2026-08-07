@@ -22,4 +22,7 @@ unsigned orbits, split into `6,025,357` even-product and `5,624,703`
 odd-product sectors. Aggregate factor control at the official gate remains
 open. The pair-Heron refinement factors each aggregate into eight explicit
 six-term conjugates, each owning four sign classes; prime control of those
-factors remains open, so this also leaves the node `TARGET`.
+factors remains open. Parity-adapted pairing places all eight factors directly
+in `Q(zeta_256)` in the even sector and reduces the odd sector to four
+explicit quadratic norms there. Prime control of these base-field factors
+remains open, so this also leaves the node `TARGET`.
