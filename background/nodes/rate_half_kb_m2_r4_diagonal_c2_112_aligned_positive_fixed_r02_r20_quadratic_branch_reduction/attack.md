@@ -5,7 +5,9 @@ The generic frontier has two qualitatively different pieces:
 1. The surviving cubic plus `J11` curve for each target. Derive a quotient
    ring normal form only after finding a lower-degree source identity. Both
    direct rational quotient implementations are now bounded no-go fences;
-   do not retry them or expand the degree-70 coefficient globally.
+   do not retry them or expand the degree-70 coefficient globally. The
+   logarithmic-derivative child gives an exact alternative branch router,
+   but its monolithic rank-two quotient implementation is also fenced.
 2. The degree-12 resultant factor. Seek a low-degree eliminant, syzygy, or
    factor-specific full-identity reduction, respecting the separate
    nonnamed leading-drop branches in the degree-12 decomposition node.

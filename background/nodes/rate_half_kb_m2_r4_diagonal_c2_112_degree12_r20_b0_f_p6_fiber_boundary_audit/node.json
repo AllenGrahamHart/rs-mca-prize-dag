@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit",
+    "title": "KoalaBear degree-12 R20 B0 F_(p^6) fiber-boundary audit",
+    "status": "PROVED",
+    "closure": "exact exclusion of 64 printed base-field fibers across the four R20 degree-six extension charts",
+    "statement": "For each of the F04-R20, F05-R20, F06-R20, and F07-R20 reduced B0 charts and every s in {1,...,16}, adjoining the reduced x^(p^6)-x and pvar^(p^6)-pvar equations gives a proper zero-dimensional field ideal on which the complete required open-factor product is zero. In all 64 fibers the product first dies at step 8, the transported factor 1+s+pvar. Hence none of these printed fibers contains an admissible F_(p^6) point. No global conclusion over arbitrary s in F_(p^6), no R20 chart closure, and no literal-cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_fiber_f_p6_r20_smoke_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_function_field_analysis/modal_r20_b0_function_field_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_function_field_analysis/modal_r20_b0_target_elimination_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

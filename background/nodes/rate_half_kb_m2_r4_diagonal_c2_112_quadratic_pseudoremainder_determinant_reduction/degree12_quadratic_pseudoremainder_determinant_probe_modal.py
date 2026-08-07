@@ -78,6 +78,18 @@ elif MODE == "fiber_f_p6_b0":
             "field_degree": 6,
         },
     )
+elif MODE == "fiber_f_p6_r20_smoke":
+    CASES = tuple(
+        {
+            "cell": f"{assignment}-R20",
+            "divisor": "B0",
+            "groebner": False,
+            "fiber_search": True,
+            "fiber_limit": 16,
+            "field_degree": 6,
+        }
+        for assignment in ("F04", "F05", "F06", "F07")
+    )
 elif MODE == "linear_s_f_p6_b0":
     LINEAR_S_ROOTS = (
         1691727589,

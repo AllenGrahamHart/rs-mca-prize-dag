@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Run rank-two-algebra full-J quotient probes on Modal."""
+"""Run the four R20 B0 function-field probes on Modal."""
 
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 
 import modal
 
 
-MODE = os.environ.get("QUADRATIC_QUOTIENT_MODE", "representatives")
-APP_NAME = f"rs-mca-k3-f04-quadratic-quotient-full-j-{MODE}"
+APP_NAME = "rs-mca-k3-degree12-r20-b0-function-field"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
 HERE = Path(__file__).resolve().parent
@@ -20,11 +18,9 @@ BALANCED = (
     / "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction"
 )
 LIBRARY = BALANCED / "branch_core.sage"
-FULL_IDENTITY = HERE / "modal_full_identity_single_c0_output.json"
-SCRIPT = HERE / "quadratic_quotient_full_j_probe.sage"
-OUTPUT = HERE / f"modal_quadratic_quotient_full_j_{MODE}_output.json"
-TARGETS = ("R02",) if MODE in ("r02", "log_derivative_r02") else ("R02", "R20")
-CASES = tuple({"target": target} for target in TARGETS)
+SCRIPT = HERE / "r20_b0_function_field_probe.sage"
+OUTPUT = HERE / "modal_r20_b0_function_field_output.json"
+CASES = ({"cell": "F04-R20"}, {"cell": "F05-R20"})
 
 app = modal.App(APP_NAME)
 image = (
@@ -33,18 +29,16 @@ image = (
     .run_commands(
         "git init /repo",
         f"git -C /repo remote add origin {UPSTREAM}",
-        "git -C /repo fetch --depth=1 origin "
-        "pull/1149/head:refs/remotes/origin/pr1149",
+        "git -C /repo fetch --depth=1 origin pull/1149/head:refs/remotes/origin/pr1149",
         "git -C /repo checkout --detach refs/remotes/origin/pr1149",
     )
     .add_local_file(LIBRARY, "/branch_core.sage")
-    .add_local_file(FULL_IDENTITY, "/full_identity.json")
-    .add_local_file(SCRIPT, "/quadratic_quotient_full_j_probe.sage")
+    .add_local_file(SCRIPT, "/r20_b0_function_field_probe.sage")
 )
 
 
-@app.function(image=image, cpu=4, memory=16384, timeout=960, max_containers=2)
-def run_case(case: dict[str, object]) -> dict[str, object]:
+@app.function(image=image, cpu=4, memory=16384, timeout=600, max_containers=4)
+def run_case(case: dict[str, str]) -> dict[str, object]:
     import hashlib
     import os
     import resource
@@ -56,22 +50,14 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
     environment["PYTHONDONTWRITEBYTECODE"] = "1"
     os.makedirs(environment["HOME"], exist_ok=True)
     began = time.monotonic()
-    command = [
-        "sage",
-        "/quadratic_quotient_full_j_probe.sage",
-        "--target",
-        str(case["target"]),
-    ]
-    if MODE.startswith("log_derivative"):
-        command.append("--log-derivative")
     try:
         completed = subprocess.run(
-            command,
+            ["sage", "/r20_b0_function_field_probe.sage", "--cell", case["cell"]],
             cwd="/repo",
             env=environment,
             capture_output=True,
             text=True,
-            timeout=900,
+            timeout=480,
             check=False,
         )
         records = []
@@ -90,8 +76,8 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             "peak_kb": resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,
             "records": records,
             "stdout_sha256": hashlib.sha256(completed.stdout.encode()).hexdigest(),
-            "stdout_tail": completed.stdout[-6000:],
-            "stderr_tail": completed.stderr[-6000:],
+            "stdout_tail": completed.stdout[-10000:],
+            "stderr_tail": completed.stderr[-10000:],
         }
     except subprocess.TimeoutExpired as error:
         stdout = error.stdout or ""
@@ -100,21 +86,13 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             stdout = stdout.decode(errors="replace")
         if isinstance(stderr, bytes):
             stderr = stderr.decode(errors="replace")
-        records = []
-        for line in stdout.splitlines():
-            if line.startswith("{"):
-                try:
-                    records.append(json.loads(line))
-                except json.JSONDecodeError:
-                    pass
         return {
             **case,
             "status": "TIMEOUT",
             "seconds": round(time.monotonic() - began, 6),
             "peak_kb": resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,
-            "records": records,
-            "stdout_tail": stdout[-6000:],
-            "stderr_tail": stderr[-6000:],
+            "stdout_tail": stdout[-10000:],
+            "stderr_tail": stderr[-10000:],
         }
 
 
@@ -128,9 +106,8 @@ def main() -> None:
         else:
             normalized.append(row)
     output = {
-        "schema": "kb-c2-112-f04-quadratic-quotient-full-j-modal-v1",
+        "schema": "kb-c2-112-degree12-r20-b0-function-field-modal-v1",
         "app": APP_NAME,
-        "mode": MODE,
         "upstream_commit": COMMIT,
         "counts": {
             status: sum(row["status"] == status for row in normalized)

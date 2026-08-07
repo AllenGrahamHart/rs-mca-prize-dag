@@ -46,6 +46,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--target", choices=("R02", "R20"), required=True)
     parser.add_argument("--prime", type=int, default=2130706433)
+    parser.add_argument("--log-derivative", action="store_true")
     args = parser.parse_args()
     cell = f"F04-{args.target}"
     qslice_factor_index = 0 if args.target == "R02" else 1
@@ -158,6 +159,7 @@ def main():
 
     zero = ring(0)
     one = ring(1)
+    inversion_guards = []
 
     # A base rational element is represented by a reduced numerator and
     # denominator. Every operation takes normal forms immediately.
@@ -194,6 +196,7 @@ def main():
 
     def rat_inv(value):
         assert value[0]
+        inversion_guards.append(value[0])
         return rat(value[1], value[0])
 
     def rat_div(left, right):
@@ -251,6 +254,7 @@ def main():
             rat_mul(rat_mul(b, b), rp),
         )
         assert norm[0]
+        inversion_guards.append(norm[0])
         conjugate = rat_add(a, rat_mul(b, rs)), rat_neg(b)
         return rat_div(conjugate[0], norm), rat_div(conjugate[1], norm)
 
@@ -319,6 +323,163 @@ def main():
                 map_source_polynomial(value.denominator()),
             )
         return mapped_field_cache[key]
+
+    if args.log_derivative:
+        def evaluate_source_coefficient(vector, label, coefficient_index):
+            output = quad_zero
+            power = quad_one
+            for value in vector:
+                value = polynomial_w(value)
+                coefficient = (
+                    source_field(value[coefficient_index])
+                    if coefficient_index <= value.degree()
+                    else source_field(0)
+                )
+                output = quad_add(
+                    output,
+                    quad_mul(map_source_field(coefficient), power),
+                )
+                power = quad_mul(power, label)
+            return output
+
+        labels_j = (
+            source_field(2),
+            source_field(1) / 2,
+            source_field(b_source),
+            1 / source_field(b_source),
+            source_field(c_source),
+            source_field(d_source),
+        )
+        labels_k = (
+            source_field(w_source),
+            source_z,
+            1 / source_z,
+            1 / source_field(c_source),
+            1 / source_field(d_source),
+        )
+        mapped_j = [map_source_field(value) for value in labels_j]
+        mapped_k = [map_source_field(value) for value in labels_k]
+        mapped_c = map_source_field(source_field(c_source))
+        mapped_d = map_source_field(source_field(d_source))
+        qtwo = quad(rat(field(2), one))
+        qfour = quad(rat(field(4), one))
+
+        observed_log = quad_zero
+        for label in mapped_j:
+            u0 = evaluate_source_coefficient(source_u, label, 0)
+            u1 = evaluate_source_coefficient(source_u, label, 1)
+            v0 = evaluate_source_coefficient(source_v, label, 0)
+            u1_over_u0 = quad_div(u1, u0)
+            v0_over_u0 = quad_div(v0, u0)
+            contribution = quad_sub(
+                quad_mul(qtwo, u1_over_u0),
+                quad_mul(v0_over_u0, v0_over_u0),
+            )
+            observed_log = quad_add(observed_log, contribution)
+
+        expected_log = quad_zero
+        for label in mapped_k:
+            expected_log = quad_sub(
+                expected_log,
+                quad_mul(qfour, quad_inv(label)),
+            )
+        expected_log = quad_sub(
+            expected_log,
+            quad_mul(qtwo, quad_inv(mapped_c)),
+        )
+        expected_log = quad_sub(
+            expected_log,
+            quad_mul(qtwo, quad_inv(mapped_d)),
+        )
+        mismatch = quad_sub(observed_log, expected_log)
+        mismatch_records = []
+        coefficient_generators = []
+        denominator_guards = []
+        for label, component in zip(("constant", "linear"), mismatch):
+            numerator, denominator = component
+            mismatch_records.append(
+                {
+                    "component": label,
+                    "numerator": metric(numerator),
+                    "denominator": metric(denominator),
+                    "zero": not bool(numerator),
+                }
+            )
+            if numerator:
+                coefficient_generators.append(numerator)
+            if denominator != one:
+                denominator_guards.append(denominator)
+        print(
+            canonical_json(
+                {
+                    "phase": "LOG_DERIVATIVE_MAPPED",
+                    "mismatch": mismatch_records,
+                    "raw_inversion_guard_count": len(inversion_guards),
+                    "mapped_field_cache": len(mapped_field_cache),
+                    "counters": counters,
+                }
+            ),
+            flush=True,
+        )
+
+        extended_basis = list(
+            ring.ideal(base_generators + coefficient_generators).groebner_basis(
+                algorithm="singular:slimgb"
+            )
+        )
+        unit_ideal = extended_basis == [ring(1)]
+        extended_dimension = (
+            -1 if unit_ideal else int(ring.ideal(extended_basis).dimension())
+        )
+        unique_guards = {}
+        for guard in inversion_guards + denominator_guards:
+            reduced_guard = normal(guard)
+            if reduced_guard:
+                unique_guards[digest(reduced_guard)] = reduced_guard
+        localizer_factors = [convert_base(factor) for factor in branch["unit_factors"]]
+        localizer_factors.extend(unique_guards.values())
+        localizer = ring(1)
+        localizer_steps = []
+        nilpotence_index = 1 if unit_ideal else None
+        if not unit_ideal:
+            for index, factor in enumerate(localizer_factors, start=1):
+                localizer = (localizer * factor).reduce(extended_basis)
+                step = {
+                    "index": index,
+                    "zero": not bool(localizer),
+                    "degree": int(localizer.total_degree()) if localizer else None,
+                    "terms": int(len(localizer.monomials())) if localizer else None,
+                    "sha256": digest(localizer),
+                }
+                localizer_steps.append(step)
+                if not localizer:
+                    nilpotence_index = 1
+                    break
+        result = {
+            "phase": "DONE",
+            "cell": cell,
+            "base_basis_size": len(basis),
+            "base_basis_sha256": digest("\n".join(str(value) for value in basis)),
+            "base_dimension": dimension,
+            "mismatches": mismatch_records,
+            "coefficient_generator_count": len(coefficient_generators),
+            "inversion_guard_count": len(unique_guards),
+            "extended_basis_size": len(extended_basis),
+            "extended_basis_sha256": digest(
+                "\n".join(str(value) for value in extended_basis)
+            ),
+            "extended_dimension": extended_dimension,
+            "localizer_steps": localizer_steps,
+            "localizer_nilpotence_index": nilpotence_index,
+            "counters": counters,
+            "terminal": (
+                "FULL_J_LOG_DERIVATIVE_GUARDED_INTERSECTION_EMPTY"
+                if nilpotence_index is not None
+                else "FULL_J_LOG_DERIVATIVE_GUARDED_INTERSECTION_SURVIVES"
+            ),
+        }
+        print(canonical_json(result), flush=True)
+        return
 
     def quad_is_zero(value):
         return not value[0][0] and not value[1][0]

@@ -1,0 +1,300 @@
+{
+  "app": "rs-mca-k3-f04-full-j-log-derivative",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 1,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "assignment": "F04",
+      "peak_kb": 818376,
+      "records": [
+        {
+          "assignment": "F04",
+          "phase": "START"
+        },
+        {
+          "denominator": {
+            "degree": 87,
+            "degrees": [
+              34,
+              24,
+              24,
+              15
+            ],
+            "sha256": "e275818e96abe11eaf58391eb8be55a87db66fe46963ffc82717d7dd72703e87",
+            "terms": 264832
+          },
+          "denominator_factors": [
+            {
+              "exponent": 1,
+              "metric": {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                "sha256": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
+                "terms": 1
+              },
+              "named_unit": true,
+              "polynomial": "d"
+            },
+            {
+              "exponent": 1,
+              "metric": {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                "sha256": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6",
+                "terms": 1
+              },
+              "named_unit": true,
+              "polynomial": "c"
+            },
+            {
+              "exponent": 2,
+              "metric": {
+                "degree": 4,
+                "degrees": [
+                  2,
+                  1,
+                  1,
+                  1
+                ],
+                "sha256": "46285dcd925c1d597e1acd38f1b166e51204dbb5e372bc5c6b6653b79e23adc4",
+                "terms": 8
+              },
+              "named_unit": true,
+              "polynomial": "-b^2*c*d + b^2*w - b*c*w - b*d*w + c*d*w + b*c + b*d - 1"
+            },
+            {
+              "exponent": 1,
+              "metric": {
+                "degree": 5,
+                "degrees": [
+                  2,
+                  1,
+                  1,
+                  1
+                ],
+                "sha256": "7b33c3a6c2864100777616f1be8d61019c323bc0c0590f6541079ca53d2da552",
+                "terms": 8
+              },
+              "named_unit": true,
+              "polynomial": "b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w"
+            },
+            {
+              "exponent": 2,
+              "metric": {
+                "degree": 7,
+                "degrees": [
+                  3,
+                  2,
+                  2,
+                  1
+                ],
+                "sha256": "fabdb1e541a910de8d50bd5b5c1f3eb19770a95454d9ba6dbcd191d8d9c110cc",
+                "terms": 44
+              },
+              "named_unit": false,
+              "polynomial": "2*b^3*c^2*d^2 - 2*b^3*c^2*d*w + 2*b^2*c^2*d^2*w - 2*b^3*c^2*d - 4*b^3*c*d^2 + 2*b^2*c^2*d^2 + b^2*c^2*d*w - b*c^2*d^2*w - 3*b^2*c^2*d - 2*b^2*c*d^2 - b*c^2*d^2 + 2*b^2*c^2*w + 2*b^3*d*w - 2*b*c^2*d*w - 2*b^2*d^2*w + 4*b^3*c - 2*b^2*c^2 + 2*b^3*d + 6*b*c^2*d + 2*b^2*d^2 + 4*b*c*d^2 - 4*c^2*d^2 - b*c^2*w - b^2*d*w + c^2*d*w + b*d^2*w - 2*b^3 + 2*b^2*c + b*c^2 + 3*b^2*d + c^2*d - b*d^2 + 2*c*d^2 - 2*b^2*w + 2*b*d*w - 2*b^2 - 4*b*c - 6*b*d + b*w - d*w + b - 2*c - d + 4"
+            },
+            {
+              "exponent": 2,
+              "metric": {
+                "degree": 7,
+                "degrees": [
+                  3,
+                  2,
+                  2,
+                  1
+                ],
+                "sha256": "162bc8b8ef78261fc25b57d38868149abb81ff8fd17a5c19019c1c82e8f825a4",
+                "terms": 44
+              },
+              "named_unit": false,
+              "polynomial": "2*b^3*c^2*d^2 - 2*b^3*c*d^2*w + 2*b^2*c^2*d^2*w - 4*b^3*c^2*d - 2*b^3*c*d^2 + 2*b^2*c^2*d^2 + b^2*c*d^2*w - b*c^2*d^2*w - 2*b^2*c^2*d - 3*b^2*c*d^2 - b*c^2*d^2 + 2*b^3*c*w - 2*b^2*c^2*w + 2*b^2*d^2*w - 2*b*c*d^2*w + 2*b^3*c + 2*b^2*c^2 + 4*b^3*d + 4*b*c^2*d - 2*b^2*d^2 + 6*b*c*d^2 - 4*c^2*d^2 - b^2*c*w + b*c^2*w - b*d^2*w + c*d^2*w - 2*b^3 + 3*b^2*c - b*c^2 + 2*b^2*d + 2*c^2*d + b*d^2 + c*d^2 - 2*b^2*w + 2*b*c*w - 2*b^2 - 6*b*c - 4*b*d + b*w - c*w + b - c - 2*d + 4"
+            },
+            {
+              "exponent": 2,
+              "metric": {
+                "degree": 11,
+                "degrees": [
+                  4,
+                  3,
+                  3,
+                  2
+                ],
+                "sha256": "0428cdb676bb2e53fa8029e0629a631ed2afe656b7aaca09248d37ec5a038f7f",
+                "terms": 156
+              },
+              "named_unit": false,
+              "polynomial": "-2*b^4*c^3*d^3*w + 4*b^4*c^3*d^2*w + 4*b^4*c^2*d^3*w + b^4*c^2*d^2*w^2 - b^3*c^3*d^2*w^2 - b^3*c^2*d^3*w^2 + b^2*c^3*d^3*w^2 - 3*b^4*c^2*d^2*w - b^3*c^3*d^2*w - b^3*c^2*d^3*w + 5*b^2*c^3*d^3*w - 2*b^4*c^2*d*w^2 + 2*b^3*c^3*d*w^2 - 2*b^4*c*d^2*w^2 + 4*b^3*c^2*d^2*w^2 - 2*b^2*c^3*d^2*w^2 + 2*b^3*c*d^3*w^2 - 2*b^2*c^2*d^3*w^2 + 4*b^4*c^2*d^2 - 4*b^3*c^3*d^2 - 4*b^3*c^2*d^3 + 4*b^2*c^3*d^3 - 4*b^4*c^2*d*w - 4*b^3*c^3*d*w - 4*b^4*c*d^2*w - 8*b^3*c^2*d^2*w - 4*b^2*c^3*d^2*w - 4*b^3*c*d^3*w - 4*b^2*c^2*d^3*w + 4*b^4*c*d*w^2 - 5*b^3*c^2*d*w^2 + b^2*c^3*d*w^2 - 5*b^3*c*d^2*w^2 + 6*b^2*c^2*d^2*w^2 - b*c^3*d^2*w^2 + b^2*c*d^3*w^2 - b*c^2*d^3*w^2 - 2*b^4*c^2*d + 2*b^3*c^3*d - 2*b^4*c*d^2 + 4*b^3*c^2*d^2 - 2*b^2*c^3*d^2 + 2*b^3*c*d^3 - 2*b^2*c^2*d^3 - 3*b^4*c*d*w + 22*b^3*c^2*d*w - 5*b^2*c^3*d*w + 22*b^3*c*d^2*w - 25*b^2*c^2*d^2*w + 11*b*c^3*d^2*w - 5*b^2*c*d^3*w + 11*b*c^2*d^3*w - 8*c^3*d^3*w + 2*b^3*c^2*w^2 - 2*b^2*c^3*w^2 + 4*b^3*c*d*w^2 - 6*b^2*c^2*d*w^2 + 2*b*c^3*d*w^2 + 2*b^3*d^2*w^2 - 6*b^2*c*d^2*w^2 + 4*b*c^2*d^2*w^2 - 2*b^2*d^3*w^2 + 2*b*c*d^3*w^2 + b^4*c*d - 5*b^3*c^2*d + 4*b^2*c^3*d - 5*b^3*c*d^2 + 9*b^2*c^2*d^2 - 4*b*c^3*d^2 + 4*b^2*c*d^3 - 4*b*c^2*d^3 + 4*b^4*c*w - 4*b^3*c^2*w + 4*b^2*c^3*w + 4*b^4*d*w - 8*b^3*c*d*w + 28*b^2*c^2*d*w - 4*b*c^3*d*w - 4*b^3*d^2*w + 28*b^2*c*d^2*w - 8*b*c^2*d^2*w + 4*c^3*d^2*w + 4*b^2*d^3*w - 4*b*c*d^3*w + 4*c^2*d^3*w - 4*b^3*c*w^2 + 4*b^2*c^2*w^2 - 4*b^3*d*w^2 + 9*b^2*c*d*w^2 - 5*b*c^2*d*w^2 + 4*b^2*d^2*w^2 - 5*b*c*d^2*w^2 + c^2*d^2*w^2 + 2*b^3*c^2 - 2*b^2*c^3 + 4*b^3*c*d - 6*b^2*c^2*d + 2*b*c^3*d + 2*b^3*d^2 - 6*b^2*c*d^2 + 4*b*c^2*d^2 - 2*b^2*d^3 + 2*b*c*d^3 - 2*b^4*w - b^3*c*w - 5*b^2*c^2*w - b^3*d*w - 25*b^2*c*d*w - 2*b*c^2*d*w - 5*b^2*d^2*w - 2*b*c*d^2*w + 3*c^2*d^2*w - 2*b^2*c*w^2 + 2*b*c^2*w^2 - 2*b^2*d*w^2 + 4*b*c*d*w^2 - 2*c^2*d*w^2 + 2*b*d^2*w^2 - 2*c*d^2*w^2 - b^3*c + b^2*c^2 - b^3*d + 6*b^2*c*d - 5*b*c^2*d + b^2*d^2 - 5*b*c*d^2 + 4*c^2*d^2 - 4*b^2*c*w - 4*b*c^2*w - 4*b^2*d*w - 8*b*c*d*w - 4*c^2*d*w - 4*b*d^2*w - 4*c*d^2*w + 4*b^2*w^2 - 4*b*c*w^2 - 4*b*d*w^2 + 4*c*d*w^2 - 2*b^2*c + 2*b*c^2 - 2*b^2*d + 4*b*c*d - 2*c^2*d + 2*b*d^2 - 2*c*d^2 + 5*b^2*w + 11*b*c*w + 11*b*d*w + 3*c*d*w + b^2 - b*c - b*d + c*d + 4*c*w + 4*d*w - 8*w"
+            },
+            {
+              "exponent": 2,
+              "metric": {
+                "degree": 11,
+                "degrees": [
+                  4,
+                  3,
+                  3,
+                  2
+                ],
+                "sha256": "d80189814a7ce9dfc987ce6050e22df5ee18c6ee81f16832fff213990bccf2dc",
+                "terms": 156
+              },
+              "named_unit": false,
+              "polynomial": "-2*b^4*c^3*d^3*w + 4*b^4*c^3*d^2*w + 4*b^4*c^2*d^3*w + 4*b^4*c^2*d^2*w^2 - 4*b^3*c^3*d^2*w^2 - 4*b^3*c^2*d^3*w^2 + 4*b^2*c^3*d^3*w^2 - 3*b^4*c^2*d^2*w - b^3*c^3*d^2*w - b^3*c^2*d^3*w + 5*b^2*c^3*d^3*w - 2*b^4*c^2*d*w^2 + 2*b^3*c^3*d*w^2 - 2*b^4*c*d^2*w^2 + 4*b^3*c^2*d^2*w^2 - 2*b^2*c^3*d^2*w^2 + 2*b^3*c*d^3*w^2 - 2*b^2*c^2*d^3*w^2 + b^4*c^2*d^2 - b^3*c^3*d^2 - b^3*c^2*d^3 + b^2*c^3*d^3 - 4*b^4*c^2*d*w - 4*b^3*c^3*d*w - 4*b^4*c*d^2*w - 8*b^3*c^2*d^2*w - 4*b^2*c^3*d^2*w - 4*b^3*c*d^3*w - 4*b^2*c^2*d^3*w + b^4*c*d*w^2 - 5*b^3*c^2*d*w^2 + 4*b^2*c^3*d*w^2 - 5*b^3*c*d^2*w^2 + 9*b^2*c^2*d^2*w^2 - 4*b*c^3*d^2*w^2 + 4*b^2*c*d^3*w^2 - 4*b*c^2*d^3*w^2 - 2*b^4*c^2*d + 2*b^3*c^3*d - 2*b^4*c*d^2 + 4*b^3*c^2*d^2 - 2*b^2*c^3*d^2 + 2*b^3*c*d^3 - 2*b^2*c^2*d^3 - 3*b^4*c*d*w + 22*b^3*c^2*d*w - 5*b^2*c^3*d*w + 22*b^3*c*d^2*w - 25*b^2*c^2*d^2*w + 11*b*c^3*d^2*w - 5*b^2*c*d^3*w + 11*b*c^2*d^3*w - 8*c^3*d^3*w + 2*b^3*c^2*w^2 - 2*b^2*c^3*w^2 + 4*b^3*c*d*w^2 - 6*b^2*c^2*d*w^2 + 2*b*c^3*d*w^2 + 2*b^3*d^2*w^2 - 6*b^2*c*d^2*w^2 + 4*b*c^2*d^2*w^2 - 2*b^2*d^3*w^2 + 2*b*c*d^3*w^2 + 4*b^4*c*d - 5*b^3*c^2*d + b^2*c^3*d - 5*b^3*c*d^2 + 6*b^2*c^2*d^2 - b*c^3*d^2 + b^2*c*d^3 - b*c^2*d^3 + 4*b^4*c*w - 4*b^3*c^2*w + 4*b^2*c^3*w + 4*b^4*d*w - 8*b^3*c*d*w + 28*b^2*c^2*d*w - 4*b*c^3*d*w - 4*b^3*d^2*w + 28*b^2*c*d^2*w - 8*b*c^2*d^2*w + 4*c^3*d^2*w + 4*b^2*d^3*w - 4*b*c*d^3*w + 4*c^2*d^3*w - b^3*c*w^2 + b^2*c^2*w^2 - b^3*d*w^2 + 6*b^2*c*d*w^2 - 5*b*c^2*d*w^2 + b^2*d^2*w^2 - 5*b*c*d^2*w^2 + 4*c^2*d^2*w^2 + 2*b^3*c^2 - 2*b^2*c^3 + 4*b^3*c*d - 6*b^2*c^2*d + 2*b*c^3*d + 2*b^3*d^2 - 6*b^2*c*d^2 + 4*b*c^2*d^2 - 2*b^2*d^3 + 2*b*c*d^3 - 2*b^4*w - b^3*c*w - 5*b^2*c^2*w - b^3*d*w - 25*b^2*c*d*w - 2*b*c^2*d*w - 5*b^2*d^2*w - 2*b*c*d^2*w + 3*c^2*d^2*w - 2*b^2*c*w^2 + 2*b*c^2*w^2 - 2*b^2*d*w^2 + 4*b*c*d*w^2 - 2*c^2*d*w^2 + 2*b*d^2*w^2 - 2*c*d^2*w^2 - 4*b^3*c + 4*b^2*c^2 - 4*b^3*d + 9*b^2*c*d - 5*b*c^2*d + 4*b^2*d^2 - 5*b*c*d^2 + c^2*d^2 - 4*b^2*c*w - 4*b*c^2*w - 4*b^2*d*w - 8*b*c*d*w - 4*c^2*d*w - 4*b*d^2*w - 4*c*d^2*w + b^2*w^2 - b*c*w^2 - b*d*w^2 + c*d*w^2 - 2*b^2*c + 2*b*c^2 - 2*b^2*d + 4*b*c*d - 2*c^2*d + 2*b*d^2 - 2*c*d^2 + 5*b^2*w + 11*b*c*w + 11*b*d*w + 3*c*d*w + 4*b^2 - 4*b*c - 4*b*d + 4*c*d + 4*c*w + 4*d*w - 8*w"
+            }
+          ],
+          "descended": {
+            "degree": 67,
+            "degrees": [
+              34,
+              24,
+              24,
+              15
+            ],
+            "sha256": "57f0d18de937af8c9bebb7e59b079861571ecd9cdf156f3fa4d0ab574331437e",
+            "terms": 162322
+          },
+          "dropped_named_factors": [],
+          "essential": {
+            "degree": 89,
+            "degrees": [
+              34,
+              25,
+              25,
+              15
+            ],
+            "sha256": "588f5710ed373635173a5dcc0df2d404c3da30940efd61146d322b405ca522d1",
+            "terms": 311837
+          },
+          "expected_linear_factor_count": 24,
+          "observed_contribution_numerators": [
+            {
+              "degree": 31,
+              "degrees": [
+                12,
+                8,
+                8,
+                6
+              ],
+              "sha256": "e896b77a96b75d15b57812437a0a93e5e47345816e47fa1f0f3f61454ace8bd9",
+              "terms": 5493
+            },
+            {
+              "degree": 31,
+              "degrees": [
+                12,
+                8,
+                8,
+                6
+              ],
+              "sha256": "384f1d858bc352d6362355d0df153f5b6cd25ea83ce60e98dc3aae6b5952c061",
+              "terms": 5495
+            },
+            {
+              "degree": 15,
+              "degrees": [
+                6,
+                3,
+                3,
+                3
+              ],
+              "sha256": "fccc535feb1e227fac673d82c5831363c1adc07bf64e0a27debaf13539b9a027",
+              "terms": 176
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                4,
+                2,
+                2,
+                2
+              ],
+              "sha256": "93b70631c2ccf26931dbc1b89773092568a6e61ba9e795f153532bc6391b23e7",
+              "terms": 53
+            },
+            {
+              "degree": 25,
+              "degrees": [
+                10,
+                6,
+                6,
+                5
+              ],
+              "sha256": "df2bda7d58e0bce9a36098312fa99b5d4924709990f24c8a4275d63fafaa5458",
+              "terms": 2559
+            },
+            {
+              "degree": 25,
+              "degrees": [
+                10,
+                6,
+                6,
+                5
+              ],
+              "sha256": "e3858f09e10277734109e65edd8e87263166e3742b2fd39f3669c1c696ed1ed0",
+              "terms": 2559
+            }
+          ],
+          "observed_factor_count": 6,
+          "phase": "LOG_DERIVATIVE_COMPILED",
+          "raw_numerator": {
+            "degree": 89,
+            "degrees": [
+              34,
+              25,
+              25,
+              15
+            ],
+            "sha256": "588f5710ed373635173a5dcc0df2d404c3da30940efd61146d322b405ca522d1",
+            "terms": 311837
+          }
+        },
+        {
+          "assignment": "F04",
+          "denominator_all_named": false,
+          "factors": [
+            {
+              "exponent": 1,
+              "metric": {
+                "degree": 67,
+                "degrees": [
+                  34,
+                  24,
+                  24,
+                  15
+                ],
+                "sha256": "73fbe05427ffc5723871c21b9fc5479f7f671d6f62cd131eeaffa324d7d83713",
+                "terms": 162322
+              },
+              "polynomial": null
+            }
+          ],
+          "phase": "DONE",
+          "terminal": "FULL_J_LOG_DERIVATIVE_NECESSARY_CONDITION_COMPILED"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 340.893707,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "281fe748f9124f1ab5c9774fb2e0a0f66664d8adbb7c464021c39016c6ed6a92",
+      "stdout_tail": "{\"assignment\": \"F04\", \"phase\": \"START\"}\n{\"denominator\": {\"degree\": 87, \"degrees\": [34, 24, 24, 15], \"sha256\": \"e275818e96abe11eaf58391eb8be55a87db66fe46963ffc82717d7dd72703e87\", \"terms\": 264832}, \"denominator_factors\": [{\"exponent\": 1, \"metric\": {\"degree\": 1, \"degrees\": [0, 0, 1, 0], \"sha256\": \"18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4\", \"terms\": 1}, \"named_unit\": true, \"polynomial\": \"d\"}, {\"exponent\": 1, \"metric\": {\"degree\": 1, \"degrees\": [0, 1, 0, 0], \"sha256\": \"2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6\", \"terms\": 1}, \"named_unit\": true, \"polynomial\": \"c\"}, {\"exponent\": 2, \"metric\": {\"degree\": 4, \"degrees\": [2, 1, 1, 1], \"sha256\": \"46285dcd925c1d597e1acd38f1b166e51204dbb5e372bc5c6b6653b79e23adc4\", \"terms\": 8}, \"named_unit\": true, \"polynomial\": \"-b^2*c*d + b^2*w - b*c*w - b*d*w + c*d*w + b*c + b*d - 1\"}, {\"exponent\": 1, \"metric\": {\"degree\": 5, \"degrees\": [2, 1, 1, 1], \"sha256\": \"7b33c3a6c2864100777616f1be8d61019c323bc0c0590f6541079ca53d2da552\", \"terms\": 8}, \"named_unit\": true, \"polynomial\": \"b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w\"}, {\"exponent\": 2, \"metric\": {\"degree\": 7, \"degrees\": [3, 2, 2, 1], \"sha256\": \"fabdb1e541a910de8d50bd5b5c1f3eb19770a95454d9ba6dbcd191d8d9c110cc\", \"terms\": 44}, \"named_unit\": false, \"polynomial\": \"2*b^3*c^2*d^2 - 2*b^3*c^2*d*w + 2*b^2*c^2*d^2*w - 2*b^3*c^2*d - 4*b^3*c*d^2 + 2*b^2*c^2*d^2 + b^2*c^2*d*w - b*c^2*d^2*w - 3*b^2*c^2*d - 2*b^2*c*d^2 - b*c^2*d^2 + 2*b^2*c^2*w + 2*b^3*d*w - 2*b*c^2*d*w - 2*b^2*d^2*w + 4*b^3*c - 2*b^2*c^2 + 2*b^3*d + 6*b*c^2*d + 2*b^2*d^2 + 4*b*c*d^2 - 4*c^2*d^2 - b*c^2*w - b^2*d*w + c^2*d*w + b*d^2*w - 2*b^3 + 2*b^2*c + b*c^2 + 3*b^2*d + c^2*d - b*d^2 + 2*c*d^2 - 2*b^2*w + 2*b*d*w - 2*b^2 - 4*b*c - 6*b*d + b*w - d*w + b - 2*c - d + 4\"}, {\"exponent\": 2, \"metric\": {\"degree\": 7, \"degrees\": [3, 2, 2, 1], \"sha256\": \"162bc8b8ef78261fc25b57d38868149abb81ff8fd17a5c19019c1c82e8f825a4\", \"terms\": 44}, \"named_unit\": false, \"polynomial\": \"2*b^3*c^2*d^2 - 2*b^3*c*d^2*w + 2*b^2*c^2*d^2*w - 4*b^3*c^2*d - 2*b^3*c*d^2 + 2*b^2*c^2*d^2 + b^2*c*d^2*w - b*c^2*d^2*w - 2*b^2*c^2*d - 3*b^2*c*d^2 - b*c^2*d^2 + 2*b^3*c*w - 2*b^2*c^2*w + 2*b^2*d^2*w - 2*b*c*d^2*w + 2*b^3*c + 2*b^2*c^2 + 4*b^3*d + 4*b*c^2*d - 2*b^2*d^2 + 6*b*c*d^2 - 4*c^2*d^2 - b^2*c*w + b*c^2*w - b*d^2*w + c*d^2*w - 2*b^3 + 3*b^2*c - b*c^2 + 2*b^2*d + 2*c^2*d + b*d^2 + c*d^2 - 2*b^2*w + 2*b*c*w - 2*b^2 - 6*b*c - 4*b*d + b*w - c*w + b - c - 2*d + 4\"}, {\"exponent\": 2, \"metric\": {\"degree\": 11, \"degrees\": [4, 3, 3, 2], \"sha256\": \"0428cdb676bb2e53fa8029e0629a631ed2afe656b7aaca09248d37ec5a038f7f\", \"terms\": 156}, \"named_unit\": false, \"polynomial\": \"-2*b^4*c^3*d^3*w + 4*b^4*c^3*d^2*w + 4*b^4*c^2*d^3*w + b^4*c^2*d^2*w^2 - b^3*c^3*d^2*w^2 - b^3*c^2*d^3*w^2 + b^2*c^3*d^3*w^2 - 3*b^4*c^2*d^2*w - b^3*c^3*d^2*w - b^3*c^2*d^3*w + 5*b^2*c^3*d^3*w - 2*b^4*c^2*d*w^2 + 2*b^3*c^3*d*w^2 - 2*b^4*c*d^2*w^2 + 4*b^3*c^2*d^2*w^2 - 2*b^2*c^3*d^2*w^2 + 2*b^3*c*d^3*w^2 - 2*b^2*c^2*d^3*w^2 + 4*b^4*c^2*d^2 - 4*b^3*c^3*d^2 - 4*b^3*c^2*d^3 + 4*b^2*c^3*d^3 - 4*b^4*c^2*d*w - 4*b^3*c^3*d*w - 4*b^4*c*d^2*w - 8*b^3*c^2*d^2*w - 4*b^2*c^3*d^2*w - 4*b^3*c*d^3*w - 4*b^2*c^2*d^3*w + 4*b^4*c*d*w^2 - 5*b^3*c^2*d*w^2 + b^2*c^3*d*w^2 - 5*b^3*c*d^2*w^2 + 6*b^2*c^2*d^2*w^2 - b*c^3*d^2*w^2 + b^2*c*d^3*w^2 - b*c^2*d^3*w^2 - 2*b^4*c^2*d + 2*b^3*c^3*d - 2*b^4*c*d^2 + 4*b^3*c^2*d^2 - 2*b^2*c^3*d^2 + 2*b^3*c*d^3 - 2*b^2*c^2*d^3 - 3*b^4*c*d*w + 22*b^3*c^2*d*w - 5*b^2*c^3*d*w + 22*b^3*c*d^2*w - 25*b^2*c^2*d^2*w + 11*b*c^3*d^2*w - 5*b^2*c*d^3*w + 11*b*c^2*d^3*w - 8*c^3*d^3*w + 2*b^3*c^2*w^2 - 2*b^2*c^3*w^2 + 4*b^3*c*d*w^2 - 6*b^2*c^2*d*w^2 + 2*b*c^3*d*w^2 + 2*b^3*d^2*w^2 - 6*b^2*c*d^2*w^2 + 4*b*c^2*d^2*w^2 - 2*b^2*d^3*w^2 + 2*b*c*d^3*w^2 + b^4*c*d - 5*b^3*c^2*d + 4*b^2*c^3*d - 5*b^3*c*d^2 + 9*b^2*c^2*d^2 - 4*b*c^3*d^2 + 4*b^2*c*d^3 - 4*b*c^2*d^3 + 4*b^4*c*w - 4*b^3*c^2*w + 4*b^2*c^3*w + 4*b^4*d*w - 8*b^3*c*d*w + 28*b^2*c^2*d*w - 4*b*c^3*d*w - 4*b^3*d^2*w + 28*b^2*c*d^2*w - 8*b*c^2*d^2*w + 4*c^3*d^2*w + 4*b^2*d^3*w - 4*b*c*d^3*w + 4*c^2*d^3*w - 4*b^3*c*w^2 + 4*b^2*c^2*w^2 - 4*b^3*d*w^2 + 9*b^2*c*d*w^2 - 5*b*c^2*d*w^2 + 4*b^2*d^2*w^2 - 5*b*c*d^2*w^2 + c^2*d^2*w^2 + 2*b^3*c^2 - 2*b^2*c^3 + 4*b^3*c*d - 6*b^2*c^2*d + 2*b*c^3*d + 2*b^3*d^2 - 6*b^2*c*d^2 + 4*b*c^2*d^2 - 2*b^2*d^3 + 2*b*c*d^3 - 2*b^4*w - b^3*c*w - 5*b^2*c^2*w - b^3*d*w - 25*b^2*c*d*w - 2*b*c^2*d*w - 5*b^2*d^2*w - 2*b*c*d^2*w + 3*c^2*d^2*w - 2*b^2*c*w^2 + 2*b*c^2*w^2 - 2*b^2*d*w^2 + 4*b*c*d*w^2 - 2*c^2*d*w^2 + 2*b*d^2*w^2 - 2*c*d^2*w^2 - b^3*c + b^2*c^2 - b^3*d + 6*b^2*c*d - 5*b*c^2*d + b^2*d^2 - 5*b*c*d^2 + 4*c^2*d^2 - 4*b^2*c*w - 4*b*c^2*w - 4*b^2*d*w - 8*b*c*d*w - 4*c^2*d*w - 4*b*d^2*w - 4*c*d^2*w + 4*b^2*w^2 - 4*b*c*w^2 - 4*b*d*w^2 + 4*c*d*w^2 - 2*b^2*c + 2*b*c^2 - 2*b^2*d + 4*b*c*d - 2*c^2*d + 2*b*d^2 - 2*c*d^2 + 5*b^2*w + 11*b*c*w + 11*b*d*w + 3*c*d*w + b^2 - b*c - b*d + c*d + 4*c*w + 4*d*w - 8*w\"}, {\"exponent\": 2, \"metric\": {\"degree\": 11, \"degrees\": [4, 3, 3, 2], \"sha256\": \"d80189814a7ce9dfc987ce6050e22df5ee18c6ee81f16832fff213990bccf2dc\", \"terms\": 156}, \"named_unit\": false, \"polynomial\": \"-2*b^4*c^3*d^3*w + 4*b^4*c^3*d^2*w + 4*b^4*c^2*d^3*w + 4*b^4*c^2*d^2*w^2 - 4*b^3*c^3*d^2*w^2 - 4*b^3*c^2*d^3*w^2 + 4*b^2*c^3*d^3*w^2 - 3*b^4*c^2*d^2*w - b^3*c^3*d^2*w - b^3*c^2*d^3*w + 5*b^2*c^3*d^3*w - 2*b^4*c^2*d*w^2 + 2*b^3*c^3*d*w^2 - 2*b^4*c*d^2*w^2 + 4*b^3*c^2*d^2*w^2 - 2*b^2*c^3*d^2*w^2 + 2*b^3*c*d^3*w^2 - 2*b^2*c^2*d^3*w^2 + b^4*c^2*d^2 - b^3*c^3*d^2 - b^3*c^2*d^3 + b^2*c^3*d^3 - 4*b^4*c^2*d*w - 4*b^3*c^3*d*w - 4*b^4*c*d^2*w - 8*b^3*c^2*d^2*w - 4*b^2*c^3*d^2*w - 4*b^3*c*d^3*w - 4*b^2*c^2*d^3*w + b^4*c*d*w^2 - 5*b^3*c^2*d*w^2 + 4*b^2*c^3*d*w^2 - 5*b^3*c*d^2*w^2 + 9*b^2*c^2*d^2*w^2 - 4*b*c^3*d^2*w^2 + 4*b^2*c*d^3*w^2 - 4*b*c^2*d^3*w^2 - 2*b^4*c^2*d + 2*b^3*c^3*d - 2*b^4*c*d^2 + 4*b^3*c^2*d^2 - 2*b^2*c^3*d^2 + 2*b^3*c*d^3 - 2*b^2*c^2*d^3 - 3*b^4*c*d*w + 22*b^3*c^2*d*w - 5*b^2*c^3*d*w + 22*b^3*c*d^2*w - 25*b^2*c^2*d^2*w + 11*b*c^3*d^2*w - 5*b^2*c*d^3*w + 11*b*c^2*d^3*w - 8*c^3*d^3*w + 2*b^3*c^2*w^2 - 2*b^2*c^3*w^2 + 4*b^3*c*d*w^2 - 6*b^2*c^2*d*w^2 + 2*b*c^3*d*w^2 + 2*b^3*d^2*w^2 - 6*b^2*c*d^2*w^2 + 4*b*c^2*d^2*w^2 - 2*b^2*d^3*w^2 + 2*b*c*d^3*w^2 + 4*b^4*c*d - 5*b^3*c^2*d + b^2*c^3*d - 5*b^3*c*d^2 + 6*b^2*c^2*d^2 - b*c^3*d^2 + b^2*c*d^3 - b*c^2*d^3 + 4*b^4*c*w - 4*b^3*c^2*w + 4*b^2*c^3*w + 4*b^4*d*w - 8*b^3*c*d*w + 28*b^2*c^2*d*w - 4*b*c^3*d*w - 4*b^3*d^2*w + 28*b^2*c*d^2*w - 8*b*c^2*d^2*w + 4*c^3*d^2*w + 4*b^2*d^3*w - 4*b*c*d^3*w + 4*c^2*d^3*w - b^3*c*w^2 + b^2*c^2*w^2 - b^3*d*w^2 + 6*b^2*c*d*w^2 - 5*b*c^2*d*w^2 + b^2*d^2*w^2 - 5*b*c*d^2*w^2 + 4*c^2*d^2*w^2 + 2*b^3*c^2 - 2*b^2*c^3 + 4*b^3*c*d - 6*b^2*c^2*d + 2*b*c^3*d + 2*b^3*d^2 - 6*b^2*c*d^2 + 4*b*c^2*d^2 - 2*b^2*d^3 + 2*b*c*d^3 - 2*b^4*w - b^3*c*w - 5*b^2*c^2*w - b^3*d*w - 25*b^2*c*d*w - 2*b*c^2*d*w - 5*b^2*d^2*w - 2*b*c*d^2*w + 3*c^2*d^2*w - 2*b^2*c*w^2 + 2*b*c^2*w^2 - 2*b^2*d*w^2 + 4*b*c*d*w^2 - 2*c^2*d*w^2 + 2*b*d^2*w^2 - 2*c*d^2*w^2 - 4*b^3*c + 4*b^2*c^2 - 4*b^3*d + 9*b^2*c*d - 5*b*c^2*d + 4*b^2*d^2 - 5*b*c*d^2 + c^2*d^2 - 4*b^2*c*w - 4*b*c^2*w - 4*b^2*d*w - 8*b*c*d*w - 4*c^2*d*w - 4*b*d^2*w - 4*c*d^2*w + b^2*w^2 - b*c*w^2 - b*d*w^2 + c*d*w^2 - 2*b^2*c + 2*b*c^2 - 2*b^2*d + 4*b*c*d - 2*c^2*d + 2*b*d^2 - 2*c*d^2 + 5*b^2*w + 11*b*c*w + 11*b*d*w + 3*c*d*w + 4*b^2 - 4*b*c - 4*b*d + 4*c*d + 4*c*w + 4*d*w - 8*w\"}], \"descended\": {\"degree\": 67, \"degrees\": [34, 24, 24, 15], \"sha256\": \"57f0d18de937af8c9bebb7e59b079861571ecd9cdf156f3fa4d0ab574331437e\", \"terms\": 162322}, \"dropped_named_factors\": [], \"essential\": {\"degree\": 89, \"degrees\": [34, 25, 25, 15], \"sha256\": \"588f5710ed373635173a5dcc0df2d404c3da30940efd61146d322b405ca522d1\", \"terms\": 311837}, \"expected_linear_factor_count\": 24, \"observed_contribution_numerators\": [{\"degree\": 31, \"degrees\": [12, 8, 8, 6], \"sha256\": \"e896b77a96b75d15b57812437a0a93e5e47345816e47fa1f0f3f61454ace8bd9\", \"terms\": 5493}, {\"degree\": 31, \"degrees\": [12, 8, 8, 6], \"sha256\": \"384f1d858bc352d6362355d0df153f5b6cd25ea83ce60e98dc3aae6b5952c061\", \"terms\": 5495}, {\"degree\": 15, \"degrees\": [6, 3, 3, 3], \"sha256\": \"fccc535feb1e227fac673d82c5831363c1adc07bf64e0a27debaf13539b9a027\", \"terms\": 176}, {\"degree\": 10, \"degrees\": [4, 2, 2, 2], \"sha256\": \"93b70631c2ccf26931dbc1b89773092568a6e61ba9e795f153532bc6391b23e7\", \"terms\": 53}, {\"degree\": 25, \"degrees\": [10, 6, 6, 5], \"sha256\": \"df2bda7d58e0bce9a36098312fa99b5d4924709990f24c8a4275d63fafaa5458\", \"terms\": 2559}, {\"degree\": 25, \"degrees\": [10, 6, 6, 5], \"sha256\": \"e3858f09e10277734109e65edd8e87263166e3742b2fd39f3669c1c696ed1ed0\", \"terms\": 2559}], \"observed_factor_count\": 6, \"phase\": \"LOG_DERIVATIVE_COMPILED\", \"raw_numerator\": {\"degree\": 89, \"degrees\": [34, 25, 25, 15], \"sha256\": \"588f5710ed373635173a5dcc0df2d404c3da30940efd61146d322b405ca522d1\", \"terms\": 311837}}\n{\"assignment\": \"F04\", \"denominator_all_named\": false, \"factors\": [{\"exponent\": 1, \"metric\": {\"degree\": 67, \"degrees\": [34, 24, 24, 15], \"sha256\": \"73fbe05427ffc5723871c21b9fc5479f7f671d6f62cd131eeaffa324d7d83713\", \"terms\": 162322}, \"polynomial\": null}], \"phase\": \"DONE\", \"terminal\": \"FULL_J_LOG_DERIVATIVE_NECESSARY_CONDITION_COMPILED\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-f04-full-j-log-derivative-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

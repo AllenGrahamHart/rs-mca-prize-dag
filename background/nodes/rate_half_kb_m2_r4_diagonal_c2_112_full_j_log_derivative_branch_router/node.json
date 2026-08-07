@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+    "title": "KoalaBear fixed cubic/J11 full-J logarithmic-derivative router",
+    "status": "PROVED",
+    "closure": "exact low-order full-J identity and denominator branch ledger",
+    "statement": "On the F04 full-J chart, equality of the observed and expected product polynomials and nonvanishing of their constant factors imply equality of their logarithmic derivatives at W=0. Writing each observed factor as g=u^2-Wv^2 gives the exact contribution 2u1/u0-(v0/u0)^2, while the 24 expected linear factors give the corresponding reciprocal-label sum. After source simplification and symmetric c,d descent, the numerator is one irreducible degree-67 polynomial with 162322 terms. Its denominator has only named factors together with exactly two nonnamed degree-7 and two nonnamed degree-11 factors, each squared. Thus the full-J route splits exhaustively into four explicit denominator-zero branches and the guarded degree-67 numerator branch. No branch emptiness or literal-cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_log_derivative_j_f04_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

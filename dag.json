@@ -29638,6 +29638,47 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit",
+   "title": "KoalaBear degree-12 R20 B0 F_(p^6) fiber-boundary audit",
+   "status": "PROVED",
+   "closure": "exact exclusion of 64 printed base-field fibers across the four R20 degree-six extension charts",
+   "statement": "For each of the F04-R20, F05-R20, F06-R20, and F07-R20 reduced B0 charts and every s in {1,...,16}, adjoining the reduced x^(p^6)-x and pvar^(p^6)-pvar equations gives a proper zero-dimensional field ideal on which the complete required open-factor product is zero. In all 64 fibers the product first dies at step 8, the transported factor 1+s+pvar. Hence none of these printed fibers contains an admissible F_(p^6) point. No global conclusion over arbitrary s in F_(p^6), no R20 chart closure, and no literal-cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_fiber_f_p6_r20_smoke_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_function_field_analysis/modal_r20_b0_function_field_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_function_field_analysis/modal_r20_b0_target_elimination_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "title": "KoalaBear fixed cubic/J11 full-J logarithmic-derivative router",
+   "status": "PROVED",
+   "closure": "exact low-order full-J identity and denominator branch ledger",
+   "statement": "On the F04 full-J chart, equality of the observed and expected product polynomials and nonvanishing of their constant factors imply equality of their logarithmic derivatives at W=0. Writing each observed factor as g=u^2-Wv^2 gives the exact contribution 2u1/u0-(v0/u0)^2, while the 24 expected linear factors give the corresponding reciprocal-label sum. After source simplification and symmetric c,d descent, the numerator is one irreducible degree-67 polynomial with 162322 terms. Its denominator has only named factors together with exactly two nonnamed degree-7 and two nonnamed degree-11 factors, each squared. Thus the full-J route splits exhaustively into four explicit denominator-zero branches and the guarded degree-67 numerator branch. No branch emptiness or literal-cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_log_derivative_j_f04_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
    "status": "PROVED",
@@ -56303,6 +56344,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "kind": "req"
   },
@@ -56402,6 +56448,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "kind": "ev"
@@ -56424,6 +56480,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_f_p6_fiber_boundary_audit",
    "kind": "req"
   },
   {
