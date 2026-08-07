@@ -2658,3 +2658,47 @@ MUST pass this quarantine clause to any subagent they dispatch.
   note. ROUND-23 MATERIAL: price the constant-weight Z-FLOOR cell
   as the SHARED target of mysteries 2 and 4.
 - Awaiting: l1_ell_sweep (the last of round 22).
+
+## 2026-08-07: round-22 agent 4 BANKED — l1_ell_sweep: F-w1 EXHAUSTIVELY silent at the proper-band frontier; the falsifier itself sharpened; ROUND 22 COMPLETE (4/4)
+
+- **l1_ell_sweep (Opus) BANKED, MAINTAINER-LEVEL** (gate ALL PASS
+  three-path with character-identical histograms; degen_word closed
+  form cross-checked against the full engine). (1) THE SWEEP went
+  beyond brief: n=32 to ell=5 (the deepest PROPER-band cell,
+  BOX = 1.6e9, exhaustive per word at 2e7 cand/s), n=24 to ell=6,
+  n=64 added at ell=2,3. F-w1 SILENT everywhere (max ratio 0.091 of
+  threshold) and EXHAUSTIVELY silent at FOUR cells (n=24 ell=4,5,6;
+  n=32 ell=5): the word-uniform upper bound UB(c) enumerated the
+  ENTIRE legal word space; the only flagged class (constant-scalar
+  words) adjudicated exactly — RET = 0 PROVED for b <= 1, 0.0096 of
+  threshold at b = 2. No received word of the chart family can fire
+  F-w1 at those cells. (2) THE LAW IN ELL holds to 0.1% at the
+  three largest cells; no amplification signal at any ell <= 6, any
+  n <= 64. (3) FALSIFIER SHARPENED (to apply post-merge): the
+  10*BOX/q normaliser LOOSENS with ell (2.9x at n=32 ell=5 — in the
+  content-bearing regime); the re-pose of record moves to
+  10*N_{k+1}(ell)/q, against which the law is flat (RET =
+  (1-1/q)^{n-k-1} N_{k+1}/q to ~1%, NO ell dependence). (4) BUG
+  CAUGHT in round-21's d3_ell_sweep.py (b<=1-only filter; two
+  failure modes; unquoted n=16 ell=3 zero is wrong, true 100); NO
+  banked number affected; warning note filed. (5) P0 brief
+  correction: n=24 ell=5,6 are t=2/band-VACUOUS (my brief plotted
+  them on the floor-band curve in error — pilot corrected before
+  computing). (6) Off-family band test: with the band OFF, exact-
+  agreement still enforces sigma <= Lambda (measured max k+3 vs
+  formal k+11) — clause (a) robust beyond its definition; the band
+  is a real 48.6x restriction. (7) The round-21 ~16% mindeg excess
+  is a coset-layout ell=2 (mu_2 antipodal) phenomenon — 0.20% at
+  ell=4; does not grow. (8) Extrapolation honestly labelled:
+  census/consumer regimes separated ~10^12 in log2 mass by
+  q^{-sigma}; says nothing about adversarial words (the open
+  content); t-direction caveat stated. Modal lines filed in the
+  audit (48-4 best value 23 CPU-h; 64-5 DO-NOT-LAUNCH).
+- **ROUND 22 COMPLETE (4/4).** Aggregate: PROPOSITION U2 (first
+  accident cap of record, p-free) + THEOREM AT (anti-transport) +
+  FLOOR-GE two-sided resolution with the ~20-order (b)-route
+  repricing + the 8.60 retirement with proved LP floors (+1.7%
+  optimality) + F-w1 exhaustive silence with a sharpened
+  normaliser. FOUR lanes now converge on the constant-weight /
+  ternary-min-distance instrument cluster. NEXT: the wave-48 merge
+  (staged, audit complete) + post-merge obligations.
