@@ -8,7 +8,8 @@
    labelled layouts.
 3. Attack the growing-dimensional split-flat count using the guarded cofactor
    congruence and exact PMA inequalities, or prove the required instance of
-   upstream master flatness. Common-GCD division is normalized but unpaid.
+   upstream master flatness. The flat-wide common-GCD branch is proved absent;
+   candidate-wise `gcd(F,W_F)=1` remains an exact filter.
 4. Test multiplicative/dihedral pullback ownership on the exact source
    locators; arbitrary source layout prevents assuming such structure.
 5. Quantify any spread bound against the polynomial image-fiber target. A

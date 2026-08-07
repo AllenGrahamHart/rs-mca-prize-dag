@@ -13,9 +13,11 @@ projective dimension r=ell-2,
 affine codimension s=ell-1.
 ```
 
-The common-GCD reduction agrees with upstream `lem:gcd`, but this application
-does not identify the divided factor with a tangent owner. Its additional
-structure is the guarded cofactor congruence together with primitive and
-untouched-petal inequalities. A future master-flatness or compression result
-can consume the descriptor directly; until such a count is proved, this is a
-portable reduction rather than a closure claim.
+The common-GCD reduction agrees with upstream `lem:gcd`. The companion sharp
+gcd-triviality theorem proves that the actual FPC5 flat has no nontrivial
+common factor, so this branch enters the primitive growing-dimensional
+regime directly. Its additional structure is the guarded cofactor congruence
+together with primitive and untouched-petal inequalities. A future
+master-flatness or compression result can consume the descriptor directly;
+until such a count is proved, this is a portable reduction rather than a
+closure claim.

@@ -31,10 +31,11 @@ affine codimension=ell-1.                              (RH1)
 ```
 
 The numerator is reconstructed uniquely, and primitive, untouched-petal,
-and first-owner conditions remain explicit filters. Maximal common-GCD
-division is exact but is not by itself a payment. Because the projective
-dimension grows with `ell`, the upstream fixed-dimensional split-flat bound
-does not close (RH1).
+and first-owner conditions remain explicit filters. A companion theorem
+proves the entire locator flat has maximal common gcd `1`, so no flat-wide
+common-divisor branch remains. This is distinct from the candidate-wise
+primitive filter `gcd(F,W_F)=1`. Because the projective dimension grows with
+`ell`, the upstream fixed-dimensional split-flat bound does not close (RH1).
 
 Prove one disjoint aggregate payment of the remaining split-on-core locators
 over the six touched pairs and all defect/background cells in this fixed

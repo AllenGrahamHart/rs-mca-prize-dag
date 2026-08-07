@@ -4,11 +4,11 @@
   FPC5 defect and background cells.
 - **Proved reductions:** petal cofactor envelope, positive official
   codimension, dimension-`ell-1` sharp guarded boundary, exact projective
-  split-flat descriptor, and maximal common-GCD normalization.
+  split-flat descriptor, and sharp flat-wide gcd triviality.
 - **Global composition:** the fixed-source result plus at most four anchors
   is global by first-layout domination.
 - **Output:** one polynomial or legitimate profile payment with internal
   first ownership and exact nonagreements preserved.
 - **Nonclaim:** a generic random-flat heuristic, a dimension-dependent
-  polynomial exponent, a silently paid common-GCD branch, or a sum over
-  source layouts.
+  polynomial exponent, candidate-wise primitivity, or a sum over source
+  layouts.

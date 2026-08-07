@@ -28803,8 +28803,8 @@
    "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment",
    "status": "TARGET",
    "key": true,
-   "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. At the sharp endpoint, the guarded locator image is now proved to be a typed projective split-flat with root-domain size 5ell-5, locator degree 2ell-3, projective dimension ell-2, affine codimension ell-1, unique numerator reconstruction, exact PMA filters, and honest common-GCD normalization. The remaining content is its growing-dimensional split count plus the nonsharp cells, with internal-owner multiplicity preserved.",
-   "attack_surface": "prove the growing-dimensional guarded split-flat count in one fixed rate-half source, exploiting the cofactor congruence and exact PMA filters after honest common-GCD normalization",
+   "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. At the sharp endpoint, the guarded locator image is now proved to be a typed projective split-flat with root-domain size 5ell-5, locator degree 2ell-3, projective dimension ell-2, affine codimension ell-1, unique numerator reconstruction, exact PMA filters, and flat-wide common gcd one. The remaining content is its primitive growing-dimensional split count plus the nonsharp cells, with internal-owner multiplicity preserved.",
+   "attack_surface": "prove the primitive growing-dimensional guarded split-flat count in one fixed rate-half source, exploiting the cofactor congruence and candidate-wise exact PMA filters",
    "falsifier": "a fixed official rate-half source whose internally first-owned two-full-petal contributors exceed every polynomial and legitimate profile column",
    "refs": [
     "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md",
@@ -28814,7 +28814,8 @@
     "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/statement.md",
-    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md"
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md"
    ]
   },
   {
@@ -28833,6 +28834,25 @@
     "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census.py",
     "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census_result.json"
    ]
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
+   "title": "The sharp rate-half FPC5 guarded locator flat has no common gcd",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the official sharp rate-half M=4,t=2 guarded cofactor kernel, the entire locator image V_F has maximal common gcd one. The two cofactor pairs (L_0,0) and (0,L_0) force every common divisor into L_0; for each root of L_0, interpolation with A_1=1 produces a kernel member whose locator is nonzero there. Thus the sharp descriptor is already gcd-trivial. This does not discharge the candidate-wise primitive condition gcd(F,W_F)=1 or count split points.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca split-locator common-GCD reduction",
+    "relation": "FPC5_BRANCH_ELIMINATION"
+   }
   },
   {
    "id": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
@@ -55089,9 +55109,19 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",

@@ -19969,6 +19969,34 @@ new assumptions: none
 compute: no Modal; one 3003-locator F_97 replay under 256 MB RAM guard
 next: exploit the guarded congruence/exact filters or prove the needed growing-dimensional flatness count
 ```
+
+### Sharp FPC5 common-GCD branch eliminated
+
+The guarded cofactor kernel has no flat-wide common locator divisor. Indeed,
+the two allowed cofactor pairs `(L_0,0)` and `(0,L_0)` show that every common
+factor divides `L_0`. For each background root `y`, set `A_1=1` and interpolate
+`A_2` on the background so that the guarded congruence holds. The resulting
+locator satisfies `F(y)=-L_1(y)/c_1!=0`. Hence no factor of `L_0` is common and
+
+```text
+gcd(V_F)=1.
+```
+
+This puts the sharp endpoint directly in the primitive growing-dimensional
+master-flatness regime. It does not remove the candidate-wise exact-core
+condition `gcd(F,W_F)=1`.
+
+```text
+starting pin: a907068e9; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / sharp primitive flat
+result: PROVED flat-wide gcd triviality; common-divisor branch eliminated
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive-instance sharpening of the master-flatness interface
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; eight finite-field rank/gcd replays under 256 MB RAM guard
+next: count primitive split points using guarded congruence and exact PMA filters
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
