@@ -4,7 +4,8 @@
   FPC5 defect and background cells.
 - **Proved reductions:** petal cofactor envelope, positive official
   codimension, dimension-`ell-1` sharp guarded boundary, exact projective
-  split-flat descriptor, and sharp flat-wide gcd triviality.
+  split-flat descriptor, sharp flat-wide gcd triviality, and pure dyadic
+  quotient-pullback absence.
 - **Global composition:** the fixed-source result plus at most four anchors
   is global by first-layout domination.
 - **Output:** one polynomial or legitimate profile payment with internal

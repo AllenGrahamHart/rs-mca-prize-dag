@@ -10,8 +10,9 @@
    congruence and exact PMA inequalities, or prove the required instance of
    upstream master flatness. The flat-wide common-GCD branch is proved absent;
    candidate-wise `gcd(F,W_F)=1` remains an exact filter.
-4. Test multiplicative/dihedral pullback ownership on the exact source
-   locators; arbitrary source layout prevents assuming such structure.
+4. Pure multiplicative pullbacks are absent by odd-degree dyadic parity. Test
+   only the surviving partial-fiber/tail, rational-pullback, and dihedral
+   ownership classes; arbitrary source layout prevents assuming them.
 5. Quantify any spread bound against the polynomial image-fiber target. A
    dimension-dependent binomial exponent is not a payment.
 6. Keep the six touched pairs disjoint by a fixed pair order. Source-layout

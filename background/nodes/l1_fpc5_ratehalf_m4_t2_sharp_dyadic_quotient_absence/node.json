@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence",
+    "title": "Pure dyadic quotient pullbacks are absent from the sharp FPC5 flat",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the official rate-half sharp FPC5 endpoint, n=2^41 and the locator degree j=2ell-3 is odd. Every proper multiplicative quotient scale M>1 dividing n is even, while a pure pullback g(X^M), equivalently a root set that is a union of complete mu_M-orbits, has degree divisible by M. Hence the pure multiplicative periodic stratum is empty. Incomplete-orbit tails, rational pullbacks, and reciprocal/dihedral symmetry are not excluded.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca Conjecture-F multiplicative quotient recursion",
+      "relation": "OFFICIAL_STRATUM_EMPTY"
+    }
+  },
+  "requires": [
+    {
+      "from": "f_scale_recursion"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

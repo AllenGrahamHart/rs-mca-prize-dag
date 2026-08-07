@@ -9,6 +9,8 @@ l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness [PROVED] ----ev----+
 l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor
   [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality [PROVED] -------ev----+
+l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence
+  [PROVED] --------------------------------------------------ev----+
                                                                     v
   l1_fpc5_ratehalf_m4_t2_payment [TARGET]
     --req--> l1_fpc5_m4_t2_payment [CONDITIONAL]

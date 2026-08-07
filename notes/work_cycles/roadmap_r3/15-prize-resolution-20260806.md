@@ -2235,3 +2235,30 @@ new assumptions: none
 compute: no Modal; eight finite-field rank/gcd replays under 256 MB RAM guard
 next: count primitive split points using guarded congruence and exact PMA filters
 ```
+
+### Sharp FPC5 pure dyadic quotient stratum empty
+
+At the official sharp endpoint the locator degree `j=2ell-3` is odd, while
+every proper quotient scale `M>1` dividing `n=2^41` is even. A pure
+multiplicative pullback `g(X^M)` has degree divisible by `M`; equivalently, a
+union of complete `mu_M`-orbits has cardinality divisible by `M`. Therefore
+
+```text
+gcd(n,j)=1
+```
+
+and the complete multiplicative-periodic stratum is empty. This does not
+remove incomplete-orbit tails, general rational pullbacks, or
+reciprocal/dihedral classes.
+
+```text
+starting pin: eca33cec7; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / sharp primitive flat
+result: PROVED pure dyadic quotient-pullback absence
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable official parity specialization of quotient recursion
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 230 exact divisor checks under 256 MB RAM guard
+next: isolate tail/rational/dihedral strata or attack the primitive aperiodic count directly
+```

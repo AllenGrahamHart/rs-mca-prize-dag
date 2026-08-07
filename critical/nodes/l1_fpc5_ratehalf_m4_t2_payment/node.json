@@ -5,8 +5,8 @@
     "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment",
     "status": "TARGET",
     "key": true,
-    "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. At the sharp endpoint, the guarded locator image is now proved to be a typed projective split-flat with root-domain size 5ell-5, locator degree 2ell-3, projective dimension ell-2, affine codimension ell-1, unique numerator reconstruction, exact PMA filters, and flat-wide common gcd one. The remaining content is its primitive growing-dimensional split count plus the nonsharp cells, with internal-owner multiplicity preserved.",
-    "attack_surface": "prove the primitive growing-dimensional guarded split-flat count in one fixed rate-half source, exploiting the cofactor congruence and candidate-wise exact PMA filters",
+    "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. At the sharp endpoint, the guarded locator image is now proved to be a typed projective split-flat with root-domain size 5ell-5, locator degree 2ell-3, projective dimension ell-2, affine codimension ell-1, unique numerator reconstruction, exact PMA filters, flat-wide common gcd one, and no proper pure multiplicative quotient pullbacks. The remaining content is its primitive growing-dimensional split count, including possible partial-tail/rational/dihedral structures, plus the nonsharp cells, with internal-owner multiplicity preserved.",
+    "attack_surface": "prove the primitive growing-dimensional guarded split-flat count in one fixed rate-half source, exploiting the cofactor congruence and candidate-wise exact PMA filters after removing pure dyadic pullbacks",
     "falsifier": "a fixed official rate-half source whose internally first-owned two-full-petal contributors exceed every polynomial and legitimate profile column",
     "refs": [
       "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md",
@@ -17,7 +17,8 @@
       "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
-      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md"
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md"
     ]
   },
   "requires": [],
