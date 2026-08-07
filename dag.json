@@ -13967,7 +13967,7 @@
    "refs": [
     "critical/nodes/dli_wcl_slot_1_6_emptiness/statement.md"
    ],
-   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+   "statement": "No reduced signed weight-6 polynomial vanishes at an order-512 root at any official row (ell=1 window; (1,6)-shaped relations exist at NON-ambient primes \u2014 the v_2(q-1) >= 41 gate is load-bearing). Exact search excludes all relations on the first 64 certified split-prime characteristics q=k*2^41+1 with 3<=k<=996; this finite evidence does not cover later characteristics or extension rows. The exact unsigned sign-product router aggregates the 32 sign lifts into 11,650,060 affine-Galois orbits in two product-parity sectors, but compatible aggregate-prime control remains open. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   {
    "id": "dli_wcl_slot_2_7_emptiness",
@@ -28189,6 +28189,30 @@
     "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm.cpp",
     "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_modal.py",
     "experiments/prize_resolution/dli_wcl_ell1_weight6_admissible_mitm_result.json"
+   ]
+  },
+  {
+   "id": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+   "title": "WCL ell=1 weight-6 unsigned sign-product router",
+   "status": "PROVED",
+   "closure": "computation",
+   "statement": "For each six-subset of mu_256, the product Psi_6 of its 32 global-sign square-root sums is a symmetric integer polynomial of degree 16 and vanishes exactly when a reduced signed weight-six lift vanishes. Its K_0 norm has exactly the union of all signed-norm prime supports. Exact Burnside enumeration gives 6,025,357 even-product and 5,624,703 odd-product affine-Galois orbits, 11,650,060 total versus 185,569,028 signed classes. Aggregate norms may be harder to factor; no slot exclusion is claimed.",
+   "refs": [
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/statement.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/proof.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/claim_contract.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/dependency_subdag.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/audit.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/result.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/lineage.md",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/verify.py",
+    "background/nodes/dli_wcl_ell1_weight6_unsigned_sign_product_router/verify_audit.py",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_unsigned_burnside_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_unsigned_burnside_result.json",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_psi6_formula_modal.py",
+    "experiments/prize_resolution/dli_wcl_ell1_weight6_psi6_formula_result.json",
+    "notes/pilots_20260806/wcl16_unsigned_router/PREREG.md",
+    "notes/pilots_20260806/wcl16_psi6/PREREG.md"
    ]
   },
   {
@@ -54086,6 +54110,11 @@
   },
   {
    "from": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
    "to": "dli_wcl_slot_1_6_emptiness",
    "kind": "ev"
   },

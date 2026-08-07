@@ -1435,3 +1435,47 @@ new assumptions: none
 compute: Modal ap-3shnVd7pQ1dxDBBYN2Z7Ar; 64 bounded workers, zero errors
 next: derive a universal gate-aware divisor certificate; do not extend the prime census by default
 ```
+
+### WCL `(1,6)` unsigned sign-product router
+
+The structural return produced a second exact coordinate for the slot. For a
+six-subset of squared roots `y_i in mu_256`, the product of all 32 global-sign
+square-root sums is a symmetric integer polynomial `Psi_6` of degree 16. It
+vanishes exactly when one signed lift vanishes, and
+
+```text
+product_[sign lifts] Norm_(Q(zeta_512)/Q)(signed sum)
+  = Norm_(Q(zeta_256)/Q)(Psi_6)^2.
+```
+
+Hence the aggregate norm has exactly the union of the signed prime supports.
+Affine Galois descends to `x -> ax+b` on `Z/256`. Exact Burnside enumeration,
+independently replayed with a second generating-function implementation,
+gives two invariant product-parity sectors:
+
+```text
+even product   6,025,357 orbits
+odd product    5,624,703 orbits
+total         11,650,060 orbits
+```
+
+This is a factor-`15.928589...` quotient of the `185,569,028` signed census.
+It is not yet a compute reduction: an aggregate norm combines 32 sign lifts
+and can be harder to factor. A bounded attempt to expand `Psi_6` into
+elementary symmetric coordinates reached `2,079` terms after four
+eliminations and timed out under its stopping rule, so that representation
+is retired. The next attack should seek a pairing/resultant factorization of
+the abstract sign product that preserves prime support without forming one
+large aggregate integer.
+
+```text
+starting pin: 3db840bd7; canonical 23df01a65; upstream main 93fba1be
+lane: WCL / (ell,h)=(1,6)
+result: NARROWED by exact 32-sign aggregation and 15.93x orbit quotient
+DAG status delta: +1 background PROVED evidence node; target unchanged
+upstream terminal delta: none; classified OURS_ONLY
+delta-star bracket movement: none
+new assumptions: none
+compute: Burnside app ap-lVlwqd9Jq78L9k2fCosqa3; formula fence ap-WDu6iFzptBZRCVSDtGD5Wu
+next: factor Psi_6 structurally by pairings or resultants; do not launch aggregate norm census
+```

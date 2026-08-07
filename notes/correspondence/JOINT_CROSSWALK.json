@@ -1084,6 +1084,25 @@
    }
   },
   {
+   "our_node": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact two-sector sign-product and affine-Galois router for the local WCL (1,6) terminal; upstream has no WCL tower counterpart",
+   "owner": "US",
+   "nonclaims": [
+    "aggregate norm factorization may be harder despite the smaller orbit count",
+    "no official characteristic or WCL slot is excluded"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3db840bd7",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "dli_wcl_slot_1_7_emptiness",
    "his_object": null,
    "relation": "OURS_ONLY",

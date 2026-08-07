@@ -1,0 +1,10 @@
+{
+  "schema": "dli-wcl-ell1-weight6-psi6-formula-v1",
+  "stage_lines": [
+    "STAGE {\"seconds\": 0.059144, \"stage\": \"eliminate_r6\", \"terms\": 16}",
+    "STAGE {\"seconds\": 0.117876, \"stage\": \"eliminate_r5\", \"terms\": 58}",
+    "STAGE {\"seconds\": 0.732801, \"stage\": \"eliminate_r4\", \"terms\": 294}",
+    "STAGE {\"seconds\": 14.364728, \"stage\": \"eliminate_r3\", \"terms\": 2079}"
+  ],
+  "status": "TIMEOUT"
+}

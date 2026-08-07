@@ -14,3 +14,10 @@ Finite exact evidence: the first 64 certified split-prime characteristics,
 `q=k*2^41+1` for prime rows with `3<=k<=996`, exhaust all normalized legal
 pair/triple splits and contain no vanisher. This does not alter `TARGET`:
 later characteristics and extension-field rows remain unclassified.
+
+Structural router: aggregating the 32 sign lifts of each six-subset of
+`mu_256` gives one symmetric degree-16 sign product with exactly the union of
+their norm-prime supports. The affine-Galois quotient has `11,650,060`
+unsigned orbits, split into `6,025,357` even-product and `5,624,703`
+odd-product sectors. Aggregate factor control at the official gate remains
+open, so this also leaves the node `TARGET`.
