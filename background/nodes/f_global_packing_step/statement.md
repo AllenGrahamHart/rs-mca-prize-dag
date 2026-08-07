@@ -34,3 +34,19 @@ A sequence of accepted consumer descriptors and valid first-owner descent
 leaves for which the exact summed spread bound exceeds `n^B` for every fixed
 `B`, or a consumer descriptor that the scope compiler accepted without a
 proved quantitative packing regime.
+
+## Round-23b note (2026-08-07, coordinator-applied): METHOD-wall membership
+
+The round-23b adjudication (mf_wall_adversary) identifies this
+leaf's failure — "the theorem must absorb the n^r-type numerators;
+a polynomial number of states does not suffice when each state has
+a dimension-dependent exponent" — as the SAME METHOD wall as the
+two FPC5 rate-half reds (identical anticode formula
+binom(n,r)/binom(j,r); identical growing-dimension failure), and
+as the open d = Theta(n) regime of the PROVED
+l1_rootfree_rational_q_projective_packing. A dimension-uniform
+split-locator max-to-mean theorem would serve all of them.
+
+**MYSTERY 7 MEMBERSHIP RATIFIED (2026-08-07, user):** member of
+mystery 7, "the dimension-uniform split-locator max-to-mean wall"
+(board of record: roadmap section 12, r5 update).

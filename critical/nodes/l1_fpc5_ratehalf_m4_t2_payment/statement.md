@@ -137,3 +137,40 @@ exhibit a 5-packing or prove <= 4 at ell = 4. Hours, not Modal.
 Source: notes/pilots_20260807/fpc5_diag/ (A1 gate PASS replayed;
 cap-4 replayed 5/5 trials; official constants cross-checked
 against the sharp_dyadic verifier's pinned values).
+
+## Round-23b adjudication note (2026-08-07, coordinator-applied on replay: mf_wall_adversary)
+
+The round-23 one-wall evidence is REPRICED under adversarial attack:
+the statement-level (MF) shape-pun test FAILED its power control
+(the PROVED rate-quarter sibling satisfies every (MF) clause with
+better margins; the separating clause — over-determination
+t*ell > N — is not part of (MF)), and the two quantitative handles
+are WITHDRAWN as classification evidence (the cap-4 is
+structure-specific — a random flat with identical parameters
+reaches 5; the trivial-owner concentration is 92x its parametric
+reference). Both remain valid node-level findings, and the cap-4
+data is STRENGTHENED (exact, not sampled, at ell = 4, 5, 6 over
+329 configs and three primes; the sharpened overlap cap ell-3
+achieved tightly at every ell; the cap is soft — budget elasticity
++1..+4 core points — and stiffens with ell; the mechanism at
+ell >= 5 is UNIDENTIFIED). The REPAIRED test (round-19 three
+gates, METHOD = the-missing-theorem-is-the-same; passed all three
+power controls incl. the PROVED-sibling hard control): the m4_t2
+and m4_t3 reds SHARE ONE WALL at METHOD level — a
+dimension-uniform max-to-mean bound for split locators in a
+growing-dimensional flat (the anticode bound's exponent grows with
+flat dimension). The same METHOD wall matches the PROVED
+l1_rootfree_rational_q_projective_packing at its own open
+d = Theta(n) regime and f_global_packing_step (identical formula,
+identically named failure). The large-source red is UNDECIDED:
+only 142/408 residual rows are even posable as flats; the other
+266 await the t-petal overlap-cap lemma. Upstream
+prob:capfr1-master-flatness has ZERO discriminating power as a
+wall test (PROVED nodes are instances of it; (MF) is an instance,
+not the same statement; a |B|^{-s} vs q^{-sigma} normalization
+mismatch is unresolved). Source:
+notes/pilots_20260807/mf_wall_adversary/ (coordinator-replayed).
+
+**MYSTERY 7 MEMBERSHIP RATIFIED (2026-08-07, user):** this node is a
+member of mystery 7, "the dimension-uniform split-locator
+max-to-mean wall" (board of record: roadmap section 12, r5 update).

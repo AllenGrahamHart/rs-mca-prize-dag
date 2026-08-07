@@ -2993,3 +2993,124 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   Z-CEILING proof attempt; the t-petal overlap-cap lemma; the
   >= 8-junction C2'' instrument spec.
 - Awaiting: mf_wall_adversary (round 23b).
+
+## 2026-08-07: round-23b BANKED — mf_wall_adversary: the round-23 evidence BROKEN and REBUILT stronger; the user's bar MET for a SCOPED mystery-7 core; ROUND 23 FULLY COMPLETE
+
+- **mf_wall_adversary (Opus) BANKED, MAINTAINER-LEVEL** (s4_power /
+  ledger / red3_split / rh_bucket coordinator-replayed exactly).
+  (1) THE BREAK: the round-23 shape-pun test FAILED the hard power
+  control — the PROVED rate-quarter sibling satisfies EVERY (MF)
+  clause with strictly better margins (the separating clause,
+  over-determination t*ell > N, is not part of (MF)); both
+  round-23 quantitative handles WITHDRAWN as classification
+  evidence (cap-4 is structure-specific — a random flat with
+  identical parameters reaches 5; owner concentration is 92x its
+  parametric reference). Handles remain valid node-level findings.
+  (2) THE REBUILD: the repaired round-19 METHOD test passed ALL
+  THREE power controls; then ALL separation attempts FAILED for
+  reds 1+2 — SAME WALL: the dimension-uniform split-locator
+  max-to-mean theorem (the anticode exponent grows with flat
+  dimension; both nodes say it in their own words). The wall is
+  BIGGER than FPC5: METHOD-identical at the PROVED rootfree
+  packing cell's open d = Theta(n) regime AND at
+  f_global_packing_step (the conj_f packing leaf — identical
+  formula, identically named n^r failure). (3) RED 3 UNDECIDED:
+  65.2% of its residual (266/408 rows) is not posable as a flat
+  without the t-petal overlap-cap lemma. (4) STRENGTHENED: cap-4
+  exact at ell=4,5,6 (329 configs, 3 primes, exhaustive BB);
+  sharpened cap ell-3 tight at every ell; budget elasticity
+  (+1..+4, stiffens with ell); mechanism at ell>=5 UNIDENTIFIED.
+  Upstream master-flatness has ZERO discriminating power (PROVED
+  nodes are instances; round-23's "one statement" over-reach
+  corrected; |B|^{-s} vs q^{-sigma} mismatch flagged). (5) Honest
+  ledger: the pilot's own separation candidate dissolved, its own
+  mechanism prediction falsified, a mid-run false witness (16)
+  self-caught and withdrawn with cause, the strict ell=4 decision
+  scoped out in advance (5.6e10 configs). Addenda applied to the
+  three red nodes + f_global_packing_step. **SURFACED: the user's
+  bar (strong evidence via unsuccessful falsification) is MET for
+  mystery 7 SCOPED to red1 + red2 + f_global_packing_step + the
+  rootfree d=Theta(n) regime — "the dimension-uniform
+  split-locator max-to-mean wall"; red 3 joins on the t-petal
+  lemma; upstream master-flatness NOT claimed as the same wall.**
+- **ROUND 23 FULLY COMPLETE (5/5).** The single
+  highest-leverage item, doubly confirmed: the t-petal
+  overlap-cap lemma.
+
+## 2026-08-07: round-23b POSTSCRIPT — the pilot's second final message banked; CATCH-23B (coordinator process defect, rule hardened)
+
+- The mf_wall_adversary pilot emitted a SECOND corrected final
+  message (its first was premature — two runs in flight). VERDICT
+  UNCHANGED; three refinements recorded (the W1 ell=5
+  filter-mismatch caveat — falsification rests on the clean
+  matched ell=4 arms + the ell=5 random arm at 5; the
+  necessity-vs-sufficiency asymmetry of the one-wall claim;
+  two unreached cells named). Appendix persisted to REPORT.md;
+  audit postscript written.
+- **CATCH-23B (mine):** banking artifacts were written into the
+  LIVE pilot dir because banking began on the first notification
+  without confirming quiescence; the pilot correctly flagged and
+  did not rely on them. RULE HARDENED: confirm pilot quiescence
+  (no in-flight runs / fresh checkpoints) before persisting
+  REPORT.md or writing FABLE_AUDIT.md into a pilot dir.
+
+## 2026-08-07: round-23b THIRD message — W1 falsification now on TWO matched cells; verdict unchanged; 23b closed
+
+- The mf_wall_adversary pilot closed its own last gap: the ell=5
+  W1 arm completed fully matched (guarded 4 vs random 5, overlaps
+  ell-3 vs ell-3+1) — the cap-4's structure-specificity now rests
+  on two independent matched cells; the withdrawn MAXPACK-16
+  anomaly corroborated seed-specific. Nothing else changes. The
+  provenance flag = CATCH-23B (resolved, rule standing). 23b is
+  CLOSED.
+
+## 2026-08-07: MYSTERY 7 RATIFIED (user) — the dimension-uniform split-locator max-to-mean wall; board r5
+
+- Membership: the two FPC5 rate-half reds + f_global_packing_step
+  + the d = Theta(n) open regime of the PROVED rootfree packing
+  cell. NOT members: the large-source red (UNDECIDED pending the
+  t-petal lemma) and upstream master-flatness (no discriminating
+  power). Red accounting: 28 = 16 mystery-linked / 9 WCL-grind /
+  2 straddling / 1 undecided. Board of record updated (roadmap
+  section 12 r5, recompiled); membership lines on the three member
+  nodes. Basis: 23b unsuccessful falsification against a
+  power-validated test (the user's bar).
+
+## 2026-08-07: round-23b final quiescence — writer identity CONFIRMED; 23b closed for good
+
+- The mf_wall_adversary pilot's final state check: all processes
+  exited cleanly, the killed watcher was a no-op (no measurement
+  lost), no writes outside its dir. Its request for "one human
+  glance to confirm the writer" is ANSWERED ON THE RECORD: the
+  coordinator (Fable) authored REPORT.md (verbatim transcript
+  persistence, per standing practice) and FABLE_AUDIT.md, at the
+  timestamps the pilot inferred — no stray process, no other
+  pilot. CATCH-23B (banking before quiescence) stands as the
+  process lesson; the quiescence rule is in force. The 23b verdict
+  is final as banked and MYSTERY 7 is ratified on it (7ad7f5ec2).
+
+## 2026-08-07: WAVE-50 INTEGRATED (exact pin 3fa2922e3) — 13 PROVED K3 nodes, 13/13 verifiers replayed; coverage registry 26/36; census unchanged
+
+- Delta eef69b37f..3fa2922e3: 13 new PROVED nodes, ALL on the
+  kb_m2_r4 diagonal C2 112 fixed-residual lane (degree-12 branch
+  closures across R02/R20/F04: rank-drop, s-zero, degree-six
+  leading curves, the K8 branch cover + B0 K8-nonzero exclusion,
+  the F04-R02 and four-R02 branch exclusions; plus two portable
+  instruments: the parity-reduced quadratic evaluation identity
+  (+ its expanded-route fence) and the quadratic pseudo-remainder
+  determinant reduction). The only status change in the delta is
+  our own E1-128 flip arriving via branch convergence. 13/13
+  verifiers coordinator-replayed AT THE PIN. Board effect: the
+  literal-assignment coverage TARGET's registry moves 22 -> 26 of
+  36 PROVED; residual = the review-gated M01-R11/M02-R11 pair +
+  eight F04-F07 cells over R02/R20. Merge = EXACT PIN (the wave-49
+  rule followed); Codex's in-flight work (log-derivative probes +
+  two new node dirs) left untouched for wave 51. Census unchanged
+  231 = 167/36/28 (background satellites); full chain green.
+- PROCESS NEAR-MISS disclosed: replaying at the pin used checkout
+  + stash in Codex's LIVE worktree (detached HEAD, stashed its
+  dirty state); fully restored (branch re-attached, stash popped,
+  state byte-identical). RULE HARDENED: never checkout/stash in
+  Codex's live worktree — replay at the current HEAD when it
+  equals the pin, or extract files via git -C show into the
+  scratchpad.

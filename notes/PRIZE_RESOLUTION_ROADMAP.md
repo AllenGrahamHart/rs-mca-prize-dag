@@ -21012,3 +21012,57 @@ literal branch closure:   F04-R02 degree-12 factor fully closed
 whole-cell closure:       no; surviving cubic/degree-11 route remains
 next:                     attack the F04-R02 cubic/J11 branch or replay degree-12 cover
 ```
+
+## r5 BOARD UPDATE (2026-08-07, USER-RATIFIED): MYSTERY 7 PROMOTED — the dimension-uniform split-locator max-to-mean wall
+
+Promotion basis (the user's bar, met): strong evidence via
+UNSUCCESSFUL FALSIFICATION — round-23b's registered separation
+attempts all failed against a test that passed three power controls
+(including the hard control: it separates the PROVED rate-quarter
+sibling, which the statement-level shape-pun test could not). Full
+record: notes/pilots_20260807/mf_wall_adversary/ + the 23b
+adjudication addenda on the member nodes.
+
+**MYSTERY 7 — "the dimension-uniform split-locator max-to-mean
+wall."** The missing theorem: a max-to-mean bound for monic split
+locators in a congruence/linear flat whose projective dimension
+grows with n, UNIFORM in the dimension (the anticode/packing
+instrument's exponent grows with flat dimension; every member
+states this failure in its own words). MEMBERSHIP (scoped):
+
+- l1_fpc5_ratehalf_m4_t2_payment (critical red);
+- l1_fpc5_ratehalf_m4_t3_split_slice_payment (critical red);
+- f_global_packing_step (background TARGET — the conj_f chain's
+  packing leaf; identical formula, identically named n^r failure);
+- the d = Theta(n) OPEN REGIME of the PROVED
+  l1_rootfree_rational_q_projective_packing (a regime, not a red).
+
+NECESSITY/SUFFICIENCY ASYMMETRY (carried from 23b): all members
+NEED the dimension-uniform theorem; a black-box master-flatness
+bound alone would discharge only the m4_t3 red (leaving the m4_t2
+red a 2^b background aggregation and the large-source red its
+missing injection). NOT members: l1_fpc5_large_source_payment
+(UNDECIDED — 266/408 residual rows not posable as flats until the
+t-petal overlap-cap lemma lands; joins or splits then); upstream
+prob:capfr1-master-flatness (zero discriminating power as a wall
+test; (MF) is an instance of it, not the same statement).
+
+**RED ACCOUNTING (28 total) updated: 16 mystery-linked (14 prior +
+the two FPC5 rate-half reds under mystery 7) / 9 WCL-slot grind /
+2 straddling / 1 undecided (l1_fpc5_large_source_payment, pending
+the t-petal lemma).**
+
+Quantitative handles carried at NODE level (withdrawn as
+classification evidence by 23b, valid as facts): the q-invariant
+cap-4 (exact at ell = 4, 5, 6; structure-specific — a generic flat
+of identical parameters reaches 5 at both matched cells; mechanism
+at ell >= 5 UNIDENTIFIED); the 52-53% trivial-owner concentration
+(~91x its conditioned reference); the sharpened overlap cap
+ell - 3, achieved tightly at every measured ell.
+
+Named next moves for mystery 7: (1) the t-petal overlap-cap lemma
+(decides the undecided red AND legalizes the precomputed J-sieve —
+the board's highest single-lemma leverage, doubly confirmed);
+(2) the G = 1 base-cover number (minutes, from existing data);
+(3) the ell = 4 strict finite decision (search says <= 4 with
+K_5-with-collinear-triple structure; proof open).
