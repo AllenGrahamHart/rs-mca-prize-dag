@@ -13,7 +13,7 @@ NODE = "pma_ratehalf_source_crossratio_fiber_reduction"
 ROOT = Path(__file__).resolve().parents[3]
 SOURCE = (
     ROOT
-    / "background"
+    / "critical"
     / "nodes"
     / "pma_ratehalf_source_aligned_gcd_excess"
     / "verify.py"

@@ -33,6 +33,9 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
 - `statement_addenda/12-round18-dsa-scope.md`: Round-18 DSA scope update.
 - `statement_addenda/13-wave47-theorem-bb.md`: Wave-47 budget break and
   relocated safe-side obligation.
+- `statement_addenda/14-round22-u2-accident-cap.md`: Round-22 PROPOSITION U2
+  — first accident upper bound of record; crux relocated to the
+  constant-weight BCH population cap.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.

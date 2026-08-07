@@ -2702,3 +2702,38 @@ MUST pass this quarantine clause to any subagent they dispatch.
   normaliser. FOUR lanes now converge on the constant-weight /
   ternary-min-distance instrument cluster. NEXT: the wave-48 merge
   (staged, audit complete) + post-merge obligations.
+
+## 2026-08-07: WAVE-48 INTEGRATED — the Conjecture-F false-green repair lands; census 231 = 167/36/28 (reds 25 -> 28); the sectioned-node schema adopted
+
+- MERGE executed at pin f7e850788 after round-22 completion (clean;
+  no conflicts). The four demotions (conj_f chain PROVED ->
+  CONDITIONAL) verified against canonical texts BEFORE the merge
+  (audit f2ac06dd6); the LIST Conjecture-F route retired to
+  background; the FPC5 program is on critical with 3 payment reds
+  (rate-quarter PROVED, absolute bound 10). Census of record:
+  math 231 = 167/36/28, submission 246 = 179/38/29 — recomputed on
+  my side, pins updated with provenance.
+- POST-MERGE FIXES (all verified): 8 stale verifiers repaired (4
+  background->critical path repoints in the moved PMA chain; 4 pin
+  refreshes preserving semantic intent, incl. the FPC5
+  TARGET->CONDITIONAL router repin + the u2c born-red edge rewire
+  pin); 22 untracked ghost folders deleted (both-side move
+  leftovers, every one verified a pure duplicate of its tracked
+  home before deletion); zero partition-law warnings; full chain
+  GREEN (dag 1905/5291, sectioned-node docs PASS).
+- DEFERRED ADDENDA APPLIED into the sectioned schema (registry
+  extended in tools/refactor_critical_node_documents.py):
+  statement_addenda/14-round22-u2-accident-cap.md on the crossing
+  node (PROPOSITION U2 + crux relocation);
+  statement_addenda/07-round22-ell-sweep.md on
+  l1_mixed_petal_amplification (F-w1 exhaustive silence + THE
+  NORMALISER AMENDMENT: F-w1 of record is now retained >
+  10*N_{k+1}(ell)/q). L1-N10-128 marked DROPPED in the compute
+  queue; L1-N10-ELL-48-4/64-4 filed PARKED, 64-5 DO-NOT-LAUNCH.
+- RED ACCOUNTING on the 28-board: 14 mystery-linked + 9 WCL-slot
+  grind + 2 straddling + 3 NEW FPC5 exact official-cell
+  obligations (UNCLASSIFIED until a diagnosis round — do not force
+  them into a bucket). Round-23 candidates: the FPC5 diagnosis;
+  the constant-weight Z-FLOOR cell priced as the SHARED target of
+  mysteries 2 and 4; the dim-64 lattice certification run
+  (mystery 5's first executable positive step).

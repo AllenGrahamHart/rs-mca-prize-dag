@@ -43,8 +43,11 @@ def main() -> None:
     } <= imgfib_parents
 
     fpc5 = load_node("l1_full_petal_fpc5_payment")
-    assert fpc5["node"]["status"] == "TARGET"
-    for token in ("M>=4", "d<ell(M-2)", "t<2M-4", "->infinity"):
+    # wave-48 repin (coordinator): the FPC5 leaf became a CONDITIONAL router over
+    # three payment leaves at the official-cell decomposition; the open-leaf intent
+    # is preserved by pinning the red child below.
+    assert fpc5["node"]["status"] == "CONDITIONAL"
+    for token in ("FPC5", "exactly three residual routers", "rate-quarter branch is proved"):
         assert token in fpc5["node"]["statement"]
 
     pade = load_node("l1_full_locator_pade_section_all_cofactors")

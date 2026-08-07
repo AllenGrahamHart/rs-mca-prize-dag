@@ -36,10 +36,17 @@ def main() -> None:
     } <= imgfib_parents
 
     fpc5 = load("l1_full_petal_fpc5_payment")
-    assert fpc5["node"]["status"] == "TARGET"
-    assert not fpc5.get("requires")
+    # wave-48 repin (coordinator): the FPC5 leaf became a CONDITIONAL router over
+    # three payment leaves at the official-cell decomposition; the open-leaf intent
+    # is preserved by pinning the red child below.
+    assert fpc5["node"]["status"] == "CONDITIONAL"
+    req_ids = {r.get("from") for r in fpc5.get("requires", [])}
+    assert {"l1_fpc5_ratehalf_m4_t3_split_slice_payment", "l1_fpc5_m4_t2_payment",
+            "l1_fpc5_large_source_payment"} <= req_ids
+    red_child = load("l1_fpc5_ratehalf_m4_t2_payment")
+    assert red_child["node"]["status"] == "TARGET"
     fpc5_text = fpc5["node"]["statement"]
-    for token in ("M>=4", "d<ell(M-2)", "t<2M-4", "->infinity"):
+    for token in ("FPC5", "exactly three residual routers", "rate-quarter branch is proved"):
         assert token in fpc5_text, token
 
     composition = load("pma_full_petal_band_composition")

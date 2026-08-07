@@ -30,6 +30,9 @@ file is the live entry point, not a proof and not a status claim.
   canonical interpretation correction.
 - `statement_addenda/06-round21-growing-petal-repose.md`: Round-21 exact-box
   diagnosis and growing-petal re-pose.
+- `statement_addenda/07-round22-ell-sweep.md`: Round-22 ell-sweep — F-w1
+  exhaustively silent at the proper-band frontier; normaliser amended to
+  `N_{k+1}/q`.
 
 `statement_sections/document.json` pins the pre-refactor byte stream and the
 existing DAG nodes represented by each packet.  Run

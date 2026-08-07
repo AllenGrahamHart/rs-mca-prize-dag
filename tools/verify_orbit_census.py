@@ -116,6 +116,13 @@ SUBMISSION_ROOT = "prize"
 # uniqueness and leaves one exact rate-half child. The parent TARGET becomes
 # CONDITIONAL; first-layout domination and the new payment enter strict
 # ancestry. Net: +2 PROVED, +1 CONDITIONAL, TARGET count unchanged.
+# WAVE-48 INTEGRATION (2026-08-07, coordinator-verified): the Conjecture-F
+# false-green repair (4 demotions verified against canonical texts) + LIST
+# route retirement -> FPC5 program on critical. Orbit shrinks 247 -> 231
+# (the retired conj_f subtree leaves via background); reds 25 -> 28 (the
+# three FPC5 payment leaves replace broad flatness assumptions). Recomputed
+# and pinned by the coordinator at the merge; audit:
+# notes/wave24_integration_20260727/WAVE48_AUDIT_DRAFT.md.
 EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 36, "TARGET": 28}
 EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 29}
 
