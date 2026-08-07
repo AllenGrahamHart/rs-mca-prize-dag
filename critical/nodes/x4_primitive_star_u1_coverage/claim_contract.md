@@ -30,11 +30,17 @@
 - **Route cut:** the reverse-inequality wedge admits more than `16N^3`
   abstract bipartite blocks obeying the same intersection cap; locator or
   first-owner structure is load-bearing.
+- **Primitive arithmetic router:** every live coefficient-primitive pair has
+  a nonzero antipodal fold satisfying a residue-degree-weighted cyclotomic
+  norm gate at the full effective depth `T=e-d-1`; higher nonzero folds
+  provide further necessary gates.
+- **Arithmetic nonclaim:** no population bound for norm-gated vectors has
+  been proved, and no higher fold is asserted to be nonzero.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;
   a global second moment controls the maximum; a base-row number transports
-  to every quotient row; coefficient-primitivity bounds the residue; or QA.22
-  is a LIST bound.
+  to every quotient row; coefficient-primitivity or its norm gate bounds the
+  residue; or QA.22 is a LIST bound.
 - **Falsifier:** one correctly stripped consumed fiber with more than
   `16N^3` members at its own row scale.

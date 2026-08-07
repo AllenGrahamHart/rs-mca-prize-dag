@@ -1808,3 +1808,39 @@ new assumptions: none
 compute: no Modal; exact official arithmetic and a finite bipartite code audit
 next: use locator equations or exact first-owner predicates inside the residual wedge
 ```
+
+### X4/SP primitive dyadic norm router
+
+For a signed primitive shift-pair vector `c=1_P-1_Q`, the locator-prefix
+power sums now feed an exact dyadic DLI interface.  Every nonzero fold
+`beta_j` satisfies
+
+```text
+p^(f_j o_j) <= |Norm(beta_j)|
+             <= E_j^(n_j/4)
+             <= (2^(j+2)e)^(N/2^(j+2)),
+```
+
+with the lower exponent counted by Frobenius orbits, not raw frequencies.
+It is at least the number of available odd frequencies.  In an exact
+`(e,d)` cell the usable depth is `T=e-d-1`, not merely `t_XR`.  The root fold
+vanishes exactly on the common antipodal coefficient-scale branch, already
+removed by the quotient sieve.  Thus every live primitive record is norm-
+gated, including over generated extension fields.
+
+No census follows from the gate alone.  The closure-bearing continuation is
+to compile first ownership and count the norm-gated locator records in each
+surviving `(e,d)` cell.
+
+```text
+starting pin: 3f33dbbff; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: ROUTED every coefficient-primitive shift pair into an exact DLI norm gate
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP arithmetic adapter for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact split-prime and generated-extension finite audits
+next: count norm-gated primitive locator records under the operational first-owner map
+```

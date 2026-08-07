@@ -100,6 +100,27 @@ than `16N^3` abstract bipartite changed sets satisfying the cap at
 open; the next argument must use locator algebra, coefficient primitivity, or
 the exact first-owner predicates.
 
+Coefficient primitivity now has an exact arithmetic consequence.  Fold the
+signed difference vector `c=1_P-1_Q` through the antipodal involution:
+
+```text
+beta_0=sum_(r=0)^(N/2-1)(c_r-c_(r+N/2)) zeta_N^r.
+```
+
+The coefficient-scale sieve makes `beta_0` nonzero on every live primitive
+record.  In an exact difference-degree cell the two reduced locators agree
+through effective depth `T=e-d-1`, so their first `T` power sums agree.  If
+`f=ord_N(p)` and `o` Frobenius orbits meet the odd powers through `T`, the
+proved dyadic norm router gives
+
+```text
+p^ceil(T/2) <= p^(fo) <= |Norm(beta_0)| <= (4e)^(N/4).
+```
+
+Higher dyadic folds give analogous gates when nonzero, with their own exact
+orbit counts.  This is a canonical DLI interface for the residual wedge, but
+no population bound for vectors passing the gates is yet proved.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

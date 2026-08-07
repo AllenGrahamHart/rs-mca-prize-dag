@@ -37,6 +37,12 @@
    binary-code route cut proves those constraints admit exponentially many
    blocks in the residual wedge.  Use the split-locator equations,
    coefficient primitivity, or operational first-owner predicates.
+   Apply `x4_primitive_shiftpair_dyadic_norm_router` to every live primitive
+   pair.  Its root fold is automatically nonzero and satisfies the exact
+   Frobenius-orbit norm gate.  Count the vectors passing that gate together
+   with the locator and first-owner predicates; the gate alone is only a
+   necessary condition.  Higher folds may sharpen the count, but a zero
+   higher fold must remain as a separate branch.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by
@@ -45,7 +51,8 @@
    strip boundary.  Any multiplicity above one must be charged in the final
    summed budget.
 
-The next proof attempt should attack the coefficient-primitive nonconstant
-low-degree-difference incidence locally.  This is upstream's SP2 route at the
-correct maximum-degree quantifier.  Minimal-stratum results remain useful
-evidence but are not mandatory dependencies.
+The next proof attempt should convert the root norm gate into a population
+bound in the coefficient-primitive nonconstant low-degree-difference
+incidence, after compiling the exact first-owner predicates.  This is
+upstream's SP2 route at the correct maximum-degree quantifier.  Minimal-
+stratum results remain useful evidence but are not mandatory dependencies.

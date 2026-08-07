@@ -28984,11 +28984,34 @@
    }
   },
   {
+   "id": "x4_primitive_shiftpair_dyadic_norm_router",
+   "title": "Primitive shift-pair dyadic norm router",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a disjoint equal-size shift pair on a dyadic multiplicative coset with equal first t locator coefficients, every allowed dyadic fold beta_j vanishes modulo the row field at the odd frequencies supplied by the prefix. If beta_j is nonzero, one residue-degree factor p^ord_n(p) divides its cyclotomic norm for every distinct Frobenius orbit reached; the orbit-weighted exponent is at least the number M_j of distinct available odd frequencies, while |Norm(beta_j)|<=E_j^(n/4) and E_j<=2^(j+2)e. The root fold beta_0 vanishes exactly on the common antipodal coefficient-scale branch, so every coefficient-primitive pair is canonically norm-gated. This is a necessary arithmetic router, not a population bound.",
+   "refs": [
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/statement.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/proof.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/claim_contract.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/source_evidence.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/dependency_subdag.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/audit.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/result.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/frontier.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/lineage.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/verify.py"
+   ],
+   "upstream": {
+    "label": "SP2: Low-degree difference incidence",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "x4_primitive_star_u1_coverage",
    "title": "Primitive exact-list local general-star budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31; either fixed-locator projection codegree is at most 1024, and the complete high-width band e>=N/4+1 costs at most N^3/64. Across all d>=1, every cell with 4e^2>N(e+d) costs at most 5N^3/16 in aggregate. The surviving nonconstant wedge satisfies 4e^2<=N(e+d) and e>=t+d+1; an abstract-code route cut proves its changed-set intersection constraints alone admit more than 16N^3 blocks, so locator algebra or exact first-owner structure is essential. D_0 and this wedge remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31; either fixed-locator projection codegree is at most 1024, and the complete high-width band e>=N/4+1 costs at most N^3/64. Across all d>=1, every cell with 4e^2>N(e+d) costs at most 5N^3/16 in aggregate. The surviving nonconstant wedge satisfies 4e^2<=N(e+d) and e>=t+d+1; an abstract-code route cut proves its changed-set intersection constraints alone admit more than 16N^3 blocks, so locator algebra or exact first-owner structure is essential. Every live coefficient-primitive pair has a canonical nonzero antipodal fold beta_0. At effective depth T=e-d-1 it satisfies p^ceil(T/2)<=p^(fo)<=|Norm(beta_0)|<=(4e)^(N/4), where f=ord_N(p) and o counts represented Frobenius orbits; higher nonzero dyadic folds give analogous necessary gates. No population bound for vectors passing those gates is yet proved. D_0 and this wedge remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
    "refs": [
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
@@ -29003,7 +29026,8 @@
     "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md",
     "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md",
     "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/statement.md",
-    "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/statement.md"
+    "background/nodes/x4_johnson_nonpositive_wedge_abstract_code_route_cut/statement.md",
+    "background/nodes/x4_primitive_shiftpair_dyadic_norm_router/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
@@ -54351,6 +54375,11 @@
    "kind": "ref"
   },
   {
+   "from": "dli_norm_gate_energy_ceiling",
+   "to": "x4_primitive_shiftpair_dyadic_norm_router",
+   "kind": "req"
+  },
+  {
    "from": "dli_wcl_newton_short_window_exclusion",
    "to": "f2_admissible_newton_signed_distance",
    "kind": "req"
@@ -54682,6 +54711,11 @@
   },
   {
    "from": "upstream_sp_coefficient_scale_quotient_sieve",
+   "to": "x4_primitive_shiftpair_dyadic_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_sp_coefficient_scale_quotient_sieve",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
@@ -54762,6 +54796,11 @@
   },
   {
    "from": "x4_general_shiftpair_difference_degree_partition",
+   "to": "x4_primitive_shiftpair_dyadic_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "x4_general_shiftpair_difference_degree_partition",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
@@ -54838,6 +54877,11 @@
   {
    "from": "x4_prefix_twist_orbit_moment",
    "to": "u2c_exact_slice_extras_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_primitive_shiftpair_dyadic_norm_router",
+   "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },
   {

@@ -12,6 +12,7 @@ x4_linear_difference_projection_codegree_bound [PROVED]---+
 x4_low_difference_johnson_highwidth_bound [PROVED]---------+
 x4_low_difference_johnson_positive_wedge_aggregate [PROVED]-+
 x4_johnson_nonpositive_wedge_abstract_code_route_cut [PROVED]+
+x4_primitive_shiftpair_dyadic_norm_router [PROVED] ---------+
 u1_x4_direct_column_budget [CONDITIONAL] -------------ev--+
 
 x4_primitive_star_u1_coverage [TARGET] --req--> x4_exactlist_staircase_split [CONDITIONAL]
@@ -23,5 +24,6 @@ direct general-record route aligned with upstream primitive shift-pair
 control.  The difference-degree theorem identifies the exact `d=0`/`d>=1`
 split, and the coefficient-scale theorem removes the quotient-borne part of
 each stratum.  The linear-difference interface identifies the first residual
-incidence and rejects fixed-difference injectivity.  None estimates the
-coefficient-primitive residue.
+incidence and rejects fixed-difference injectivity.  The dyadic router gives
+every primitive record an exact norm-gate certificate, but none of these
+nodes estimates the number of records passing it.

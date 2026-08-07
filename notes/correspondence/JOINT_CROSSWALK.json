@@ -2043,6 +2043,31 @@
     "our_sha": "ac5963f4",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_dyadic_norm_router",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "primitive locator-prefix shift pair -> dyadic signed folds -> Frobenius-orbit prime-ideal divisors -> DLI energy norm ceiling",
+   "scope": "every dyadic multiplicative-coset row and finite field containing it; every coefficient-primitive equal-prefix shift pair is routed through a nonzero root norm gate, with optional higher-fold gates",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the population of vectors satisfying the norm gates",
+    "does not make every higher dyadic fold nonzero",
+    "does not compile the support-wise first-owner map or pay the X4 allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3f33dbbff",
+    "his_sha": "93fba1be"
+   }
   }
  ]
 }

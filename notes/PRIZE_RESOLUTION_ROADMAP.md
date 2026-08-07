@@ -19562,6 +19562,46 @@ new assumptions: none
 compute: no Modal; exact official arithmetic and a finite bipartite code audit
 next: use locator equations or exact first-owner predicates inside the residual wedge
 ```
+
+### X4/SP primitive dyadic norm router
+
+The first algebraic continuation inside the Johnson-nonpositive wedge is now
+exact.  For a signed primitive shift-pair vector `c=1_P-1_Q`, dyadically fold
+the prefix power-sum equations to algebraic integers `beta_j`.  Every nonzero
+fold obeys
+
+```text
+p^(f_j o_j) <= |Norm(beta_j)|
+             <= E_j^(n_j/4)
+             <= (2^(j+2)e)^(N/2^(j+2)),
+```
+
+where `f_j=ord_(n_j)(p)` and `o_j` is the exact number of Frobenius orbits
+represented by the available odd prefix powers.  The weighted exponent is at
+least their number `M_j`, so `p^M_j` is a field-uniform weaker lower gate.  In
+an exact `(e,d)` cell use the full effective depth `T=e-d-1`, not merely
+`t_XR`.  At the root level,
+`beta_0=0` exactly on the common antipodal coefficient-scale branch.  The
+quotient sieve has already removed that branch, so every live primitive
+record is canonically norm-gated.
+
+This is an arithmetic router, not a census: it does not bound how many
+primitive vectors pass the gate.  The next closure-bearing step is to compile
+the exact first-owner predicates and count norm-gated locator records in the
+residual `(e,d)` cells.  Higher zero folds must remain explicit branches.
+
+```text
+starting pin: 3f33dbbff; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: ROUTED every coefficient-primitive shift pair into an exact DLI norm gate
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP arithmetic adapter for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact split-prime and generated-extension finite audits
+next: count norm-gated primitive locator records under the operational first-owner map
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
