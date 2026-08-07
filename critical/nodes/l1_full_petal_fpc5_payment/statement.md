@@ -1,6 +1,6 @@
 # L1 below-band full-petal FPC5 payment
 
-- **status:** TARGET
+- **status:** CONDITIONAL
 - **consumer:** `imgfib`
 
 ## Statement
@@ -49,3 +49,16 @@ the precise unpaid branch, not a synonym for all below-band words.
 
 A reserve-valid official-row family in FPC5 whose first-owner contribution
 exceeds every polynomial and every legitimate quotient/profile column.
+
+## Exact official partition
+
+The proved reductions split FPC5 into three disjoint leaves:
+
+1. `l1_fpc5_ratehalf_m4_t3_split_slice_payment`: the rate-half
+   Johnson-nonpositive three-petal LS6 atoms;
+2. `l1_fpc5_m4_t2_payment`: the two-petal branch at rates `1/2` and `1/4`;
+3. `l1_fpc5_large_source_payment`: `M>=5,5,7,15` at rates
+   `1/2,1/4,1/8,1/16`.
+
+The conditional proof is in `conditional.md`. No fourth official FPC5 cell
+remains.

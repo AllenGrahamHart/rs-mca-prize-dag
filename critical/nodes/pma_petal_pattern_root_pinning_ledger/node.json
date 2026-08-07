@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 855,
+  "node": {
+    "id": "pma_petal_pattern_root_pinning_ledger",
+    "title": "PMA petal-pattern root-pinning ledger",
+    "status": "PROVED",
+    "statement": "For one maximal sunflower, the non-planted exact (d,t,h) petal-support stratum has field-independent size at most binom(M,t) binom(t ell,h) binom(k-1,max(0,2d+1-h)). Petal agreements satisfy h>d, so a fixed petal pattern and split locator determine the numerator and all background hits. At the L1 lower cutoff every fixed region (t ell-h)+max(0,2d+1-h)<=E is polynomial, including new growing-defect full-petal layers. The complementary unbounded petal-entropy/root-excess family remains open.",
+    "refs": [
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/statement.md",
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/proof.md",
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/audit.md",
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/claim_contract.md",
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/dependency_subdag.md",
+      "critical/nodes/pma_petal_pattern_root_pinning_ledger/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_saturated_mixed_support_kernel",
+      "order": 1515
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 1516
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1517
+    },
+    {
+      "to": "imgfib",
+      "order": 1518
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 1535
+    }
+  ],
+  "refutes": []
+}

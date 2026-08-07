@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 909,
+  "node": {
+    "id": "pma_ratehalf_two_petal_support_fiber_reduction",
+    "title": "PMA rate-half two-petal support-fiber reduction",
+    "status": "PROVED",
+    "statement": "After normalizing labels to (0,1,lambda), each exact core agreement set S determines a unique cofactor V_S by inversion modulo the second petal locator. A contributor exists exactly when deg V_S<=ell-a, the second residue Phi(S) modulo the third petal locator is the constant lambda, and V_S has no extra core root outside S. The reconstruction H_S=(L_SV_S-F_lambda)/(L_2L_3) is inverse to this map. Thus the fixed-cell list is exactly one guarded support-map fiber, with no separate missed-core or contributor-polynomial multiplier.",
+    "refs": [
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/statement.md",
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/proof.md",
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/audit.md",
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/claim_contract.md",
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/dependency_subdag.md",
+      "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_source_crossratio_fiber_reduction",
+      "order": 1615
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1616
+    }
+  ],
+  "refutes": []
+}

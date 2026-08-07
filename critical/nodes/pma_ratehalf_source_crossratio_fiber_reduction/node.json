@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 908,
+  "node": {
+    "id": "pma_ratehalf_source_crossratio_fiber_reduction",
+    "title": "PMA rate-half source cross-ratio fiber reduction",
+    "status": "PROVED",
+    "statement": "Affine changes of the three source labels preserve the tail list, so every distinct triple normalizes to (0,1,lambda). Modulo the core RS code the source quotient code is two-dimensional. The lambda coefficient of the source numerator factors as L_1L_2R_3 with deg R_3<ell, leaving at most ell-1 exceptional core points. Removing their maximum overlap weight from the aligned gcd bonus leaves at least 2b+3a-2 weighted nonexceptional incidences voting for one source cross-ratio lambda. Absence of this fiber certificate pays the tail by 8n per source.",
+    "refs": [
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/statement.md",
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/proof.md",
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/audit.md",
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/claim_contract.md",
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/dependency_subdag.md",
+      "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_source_aligned_gcd_excess",
+      "order": 1613
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1614
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+    "title": "Rate-half FPC5 codimension-two cells collapse under the background guard",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official rate-half row, an M=4,t=2 full-petal cell whose unguarded petal-equation locator codimension is two necessarily has 5ell=k+4 and b=r=s=ell-3, where d=ell+s=2ell-3. Let L_0 be the full background locator and L_1,L_2 the touched-petal locators, with distinct nonzero labels c_1,c_2. Every contributor lies in the guarded slice L_0|W and L_i|(W-c_iF). This slice is isomorphic to cofactor pairs deg A_i<=ell-3 satisfying c_2L_1A_1 congruent to c_1L_2A_2 modulo L_0. It has dimension ell-1, its projection to the F-locator space is injective, and its locator codimension is ell-1. Split-on-core, primitive, exact-nonagreement, and first-owner conditions remain to be counted.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_m4_t2_official_codimension_sieve"
+    },
+    {
+      "from": "l1_core_defect_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

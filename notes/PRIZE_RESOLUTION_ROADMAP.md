@@ -665,29 +665,31 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
-  `tools/verify_orbit_census.py`): critical surface 150 PROVED / 34 CONDITIONAL /
-  26 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **210** nodes. *(Q0, 2026-07-26:
+  `tools/verify_orbit_census.py`): critical surface 165 PROVED / 35 CONDITIONAL /
+  28 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
+  grand challenges {`mca_grand`, `list_grand`} = **228** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 225 = 162/36/27, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 243 = 177/37/29, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
-  27th TARGET and does not appear in the 26. The 2026-07-26 E1 and
+  29th TARGET and does not appear in the 28. The 2026-07-26 E1 and
   unsafe-at-crossing false-green audits account for the delta from the earlier
   `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
-  `l1_mixed_petal_amplification`, `l1_full_petal_fpc5_payment`,
+  `l1_mixed_petal_amplification`,
+  `l1_fpc5_ratehalf_m4_t3_split_slice_payment`,
+  `l1_fpc5_m4_t2_payment`, `l1_fpc5_large_source_payment`,
   `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
   (F1 pole pricing imports the base-row list threshold).
-- **The true LIST flatness front:** the direct disjoint pair
-  `l1_mixed_petal_amplification` and `l1_full_petal_fpc5_payment`. The former
-  is mixed/diffuse partial petal; the latter is the exact below-band
-  full-petal FPC5 complement. General Conjecture F remains a valid SPI route
-  but is no longer strict prize ancestry after its untyped LIST edge was
-  retired.
-- **Minimal win sets:** unconditional = all 26 mathematical leaves + dossier
-  (pure AND). `list_grand` alone = {the two L1 leaves, adjacent_crossing},
+- **The true LIST flatness front:** `l1_mixed_petal_amplification` plus the
+  three exact full-petal cells: rate-half `M=4,t=3` guarded LS6 slices,
+  `M=4,t=2` coprime-pair slices, and the large-source aggregate. Their
+  conditional parent is `l1_full_petal_fpc5_payment`. General Conjecture F
+  remains a valid SPI route but is no longer strict prize ancestry after its
+  untyped LIST edge was retired.
+- **Minimal win sets:** unconditional = all 28 mathematical leaves + dossier
+  (pure AND). `list_grand` alone = {the four L1 leaves, adjacent_crossing},
   together with their conditional ancestors. The former `17/20` RK-prune and direct-prune counts
   predated the N11 truth ruling and are retired pending a fresh route-surgery
   audit; do not cite them. The former worst-word route is retired.
@@ -696,9 +698,9 @@ identifications without a machine-verified chain.
   preserve `(D,kappa)` and hence the RS rate. The clean-rate MCA/list
   milestone therefore excludes both rate-half mathematical leaves. The global
   all-rate F1 dependency remains correct for the full prize. On the corrected
-  board the clean-rate milestone contains 24 of the 26 mathematical leaves;
+  board the clean-rate milestone contains 26 of the 28 mathematical leaves;
   the two excluded leaves are the rate-half band and list-adjacent targets.
-- **Concentration risk:** 12 of 26 leaves and 3 of 5 demotion triggers live
+- **Concentration risk:** 12 of 28 leaves and 3 of 5 demotion triggers live
   in the dli lane behind one req edge. STANDING D2 CAP: dli receives at most
   one-third of any phase's effort; any demotion event freezes further dli
   spend for one full phase while the B-WEAK-direct re-pose is drafted from
@@ -19796,6 +19798,68 @@ delta-star bracket movement: none
 new assumptions: none
 compute: no Modal; exact proof-interface and dependency audit only
 next: attack FPC5 directly, coordinated with the mixed/partial L1 target
+```
+
+
+### FPC5 official-cell decomposition
+
+The direct full-petal leaf is now a proved conditional partition over three
+disjoint payment targets:
+
+```text
+rate-half M=4,t=3:  guarded Johnson-negative LS6 split slices;
+M=4,t=2:            rate 1/2 and 1/4 coprime-pair slices;
+large source:       M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16.
+```
+
+The second branch gained a new exact petal-equation theorem. For
+`d=ell+s<2ell`, every two-full-petal contributor injects into the unique
+cofactor representation
+
+```text
+F=(L_1 A_1-L_2 A_2)/(c_2-c_1),
+W=c_1F+L_1A_1,               deg A_i<=s.
+```
+
+The petal-equation locator envelope has dimension `2s+2`, codimension
+`ell-s-1`, and exact core defect is equivalent to `gcd(A_1,A_2)=1` when the
+locator is disjoint from the petals. A full PMA cell additionally imposes its
+background roots, exact nonagreements, and first owner.
+
+Official source arithmetic makes the formal codimension-zero endpoint empty.
+At the apparent sharp rate-half codimension-two boundary it forces
+
+```text
+5ell=k+4,       b=r=s=ell-3,       d=2ell-3.
+```
+
+Thus every background point is an agreement. Imposing `L_0|W` changes the
+cofactor condition to
+
+```text
+c_2L_1A_1 == c_1L_2A_2 (mod L_0)
+```
+
+and cuts the guarded pair and locator dimensions to `ell-1`, hence true
+locator codimension `ell-1`. The residual is now a guarded split-core-locator
+and ownership count, not a codimension-two ambient-slice problem.
+
+Fifteen proved PMA reduction nodes are now strict critical suppliers. This
+raises the visible leaf count from 26 to 28 while replacing broad general
+flatness assumptions by exact official-cell obligations.
+
+```text
+starting pin: 6e8e1bc32; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none pays the three FPC5 aggregates
+lane: LIST / direct full-petal FPC5
+result: DECOMPOSED FPC5 into three exact red leaves; proved petal and sharp background-guarded two-petal normal forms
+DAG status delta: math 210(150/34/26) -> 228(165/35/28)
+submission delta: 225(162/36/27) -> 243(177/37/29); spine unchanged
+upstream terminal delta: portable two-petal slices and exact official partition
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; tiny finite-field rank replays only
+next: count split core locators in the rate-half dimension-(ell-1) guarded congruence kernel, or attack the guarded LS6 max-to-mean gap
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

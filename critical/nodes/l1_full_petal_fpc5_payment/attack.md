@@ -1,14 +1,12 @@
 # Attack
 
-1. Preserve the carried-source parameters `M` and `t`; the equality `M=t` is
-   false and loses the one-untouched-petal stratum.
-2. Start from the deficit coordinates
-   `a=M-t`, `v=ell(M-2)-d`, and
-   `e=max(0,ell(M+a-4)-2v+1)`.
-3. Reuse the existing three-petal mu-basis and split-core-divisor reductions
-   where their rate and source-size hypotheses apply.
-4. Route larger `M`, two-touched-petal, and arbitrary-locator cells through
-   either the exact-shell Pade program or a disjoint aggregate first-owner
-   payment. Do not enumerate source layouts or raw supports.
-5. Any proposed payment must print its owner, multiplicity, and quotient
-   column, then survive the reserve inequality at all official rates.
+1. Attack one of the three direct leaves; do not treat FPC5 as a monolith.
+2. For rate-half `M=4,t=3`, use guarded LS6, not its unguarded ambient flat.
+3. For `M=4,t=2`, retain the background-root guard inside the primitive
+   cofactor-pair envelope. The formal codimension-zero endpoint is empty, and
+   the apparent rate-half codimension-two endpoint has true guarded
+   codimension `ell-1`.
+4. For larger sources, seek a collective incidence/owner theorem before
+   enumerating layouts or touched-petal sets.
+5. Every payment must print owner, multiplicity, and profile column and
+   survive the reserve inequality at all official rates.

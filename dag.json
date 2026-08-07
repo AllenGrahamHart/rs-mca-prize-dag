@@ -10762,12 +10762,12 @@
    "status": "PROVED",
    "statement": "For a maximal sunflower with petal size ell=sigma+1, every non-planted listed residual has at least ell petal agreements and therefore one petal containing at least ceil(ell/M) points of one value fiber of W/L_D. At sigma=Omega(n/log n) this is Omega(n/log^2 n), and the collision-free class is empty. The remaining imgfib target is a source-coupled rich-fiber count or ownership theorem.",
    "refs": [
-    "background/nodes/petal_reserve_rich_fiber_reduction/statement.md",
-    "background/nodes/petal_reserve_rich_fiber_reduction/proof.md",
-    "background/nodes/petal_reserve_rich_fiber_reduction/audit.md",
-    "background/nodes/petal_reserve_rich_fiber_reduction/claim_contract.md",
-    "background/nodes/petal_reserve_rich_fiber_reduction/dependency_subdag.md",
-    "background/nodes/petal_reserve_rich_fiber_reduction/verify.py"
+    "critical/nodes/petal_reserve_rich_fiber_reduction/statement.md",
+    "critical/nodes/petal_reserve_rich_fiber_reduction/proof.md",
+    "critical/nodes/petal_reserve_rich_fiber_reduction/audit.md",
+    "critical/nodes/petal_reserve_rich_fiber_reduction/claim_contract.md",
+    "critical/nodes/petal_reserve_rich_fiber_reduction/dependency_subdag.md",
+    "critical/nodes/petal_reserve_rich_fiber_reduction/verify.py"
    ]
   },
   {
@@ -10815,12 +10815,12 @@
    "status": "PROVED",
    "statement": "For one carried maximal source, the G1 chart count is the total petal count M, while t counts petals touched by one full-petal codeword. On-band, t is M-1 or M, so equality is false in general. Composing the top-band payment with the E=0 root-pinning aggregate pays every full-petal source with M<=3 and the all-touched M=4 stratum. A remaining full-petal family must have M>=4, d<ell(M-2), t<2M-4, and unbounded root excess.",
    "refs": [
-    "background/nodes/pma_full_petal_band_composition/statement.md",
-    "background/nodes/pma_full_petal_band_composition/proof.md",
-    "background/nodes/pma_full_petal_band_composition/audit.md",
-    "background/nodes/pma_full_petal_band_composition/claim_contract.md",
-    "background/nodes/pma_full_petal_band_composition/dependency_subdag.md",
-    "background/nodes/pma_full_petal_band_composition/verify.py"
+    "critical/nodes/pma_full_petal_band_composition/statement.md",
+    "critical/nodes/pma_full_petal_band_composition/proof.md",
+    "critical/nodes/pma_full_petal_band_composition/audit.md",
+    "critical/nodes/pma_full_petal_band_composition/claim_contract.md",
+    "critical/nodes/pma_full_petal_band_composition/dependency_subdag.md",
+    "critical/nodes/pma_full_petal_band_composition/verify.py"
    ]
   },
   {
@@ -10829,12 +10829,12 @@
    "status": "PROVED",
    "statement": "On an exact official rate-1/r row, a maximal source with M<=r-2 has petal size ell>=k+1, while every exact core defect has d<=k-1; hence its strict d>ell full-petal residual is empty. This removes M<=6 at rate 1/8 and M<=14 at rate 1/16. At rate 1/4 with M=4,t=3, the upper mu-basis branch is possible exactly when 2b>=ell+8; the complementary branch has at most 4k contributors per carried source. The surviving M=4,t=3 count is confined to rate 1/2 and the rate-quarter large-background upper branch.",
    "refs": [
-    "background/nodes/pma_official_rate_small_source_degree_sieve/statement.md",
-    "background/nodes/pma_official_rate_small_source_degree_sieve/proof.md",
-    "background/nodes/pma_official_rate_small_source_degree_sieve/audit.md",
-    "background/nodes/pma_official_rate_small_source_degree_sieve/claim_contract.md",
-    "background/nodes/pma_official_rate_small_source_degree_sieve/dependency_subdag.md",
-    "background/nodes/pma_official_rate_small_source_degree_sieve/verify.py"
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/statement.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/proof.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/audit.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/claim_contract.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/dependency_subdag.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/verify.py"
    ]
   },
   {
@@ -10843,12 +10843,12 @@
    "status": "PROVED",
    "statement": "For one maximal sunflower, the non-planted exact (d,t,h) petal-support stratum has field-independent size at most binom(M,t) binom(t ell,h) binom(k-1,max(0,2d+1-h)). Petal agreements satisfy h>d, so a fixed petal pattern and split locator determine the numerator and all background hits. At the L1 lower cutoff every fixed region (t ell-h)+max(0,2d+1-h)<=E is polynomial, including new growing-defect full-petal layers. The complementary unbounded petal-entropy/root-excess family remains open.",
    "refs": [
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/statement.md",
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/proof.md",
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/audit.md",
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/claim_contract.md",
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/dependency_subdag.md",
-    "background/nodes/pma_petal_pattern_root_pinning_ledger/verify.py"
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/statement.md",
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/proof.md",
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/audit.md",
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/claim_contract.md",
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/dependency_subdag.md",
+    "critical/nodes/pma_petal_pattern_root_pinning_ledger/verify.py"
    ]
   },
   {
@@ -10871,12 +10871,12 @@
    "status": "PROVED",
    "statement": "For every exact PMA mixed-support pattern X of size d+ell+lambda, the split defect locator F=L_D lies in an exact top-coefficient kernel, equivalently a weighted Hankel kernel. If a_* is the largest label class, rank T>=a_*-1, while an actual exact saturated pair has maximal rank min(d,|X|-d-1). Exact defect forces coprime fiber polynomials and removes common-factor duplicates. For one exact support, canonical core-root pinning bounds split locators by binom(k-1,max(0,d-(|X|-d-1))); aggregating these possibly exponential charges over first-match profiles remains open.",
    "refs": [
-    "background/nodes/pma_saturated_mixed_support_kernel/statement.md",
-    "background/nodes/pma_saturated_mixed_support_kernel/proof.md",
-    "background/nodes/pma_saturated_mixed_support_kernel/audit.md",
-    "background/nodes/pma_saturated_mixed_support_kernel/claim_contract.md",
-    "background/nodes/pma_saturated_mixed_support_kernel/dependency_subdag.md",
-    "background/nodes/pma_saturated_mixed_support_kernel/verify.py"
+    "critical/nodes/pma_saturated_mixed_support_kernel/statement.md",
+    "critical/nodes/pma_saturated_mixed_support_kernel/proof.md",
+    "critical/nodes/pma_saturated_mixed_support_kernel/audit.md",
+    "critical/nodes/pma_saturated_mixed_support_kernel/claim_contract.md",
+    "critical/nodes/pma_saturated_mixed_support_kernel/dependency_subdag.md",
+    "critical/nodes/pma_saturated_mixed_support_kernel/verify.py"
    ]
   },
   {
@@ -11106,12 +11106,12 @@
    "status": "PROVED",
    "statement": "For three pairwise-coprime monic degree-ell petal locators and distinct labels, the strict-strip contributor space is exactly the bounded syzygy module of the locator row. A reduced basis has degrees mu and ell-mu. Exact-defect saturation forces mu=s below the half strip and mu>=ell-s above it, so the lower branch has one projective candidate and the upper branch is a two-generator family whose coefficient-degree budget is e-1=2s-ell. The reconstructed basis-pair determinant is a nonzero scalar times L1L2L3, making saturation on core divisors equivalent to a primitive coefficient pair. This reduces the remaining M=4,t=3 branch to counting primitive pairs for which uFp+vFq is a split core divisor; it does not supply that growing-e count.",
    "refs": [
-    "background/nodes/pma_three_petal_mu_basis_reduction/statement.md",
-    "background/nodes/pma_three_petal_mu_basis_reduction/proof.md",
-    "background/nodes/pma_three_petal_mu_basis_reduction/audit.md",
-    "background/nodes/pma_three_petal_mu_basis_reduction/claim_contract.md",
-    "background/nodes/pma_three_petal_mu_basis_reduction/dependency_subdag.md",
-    "background/nodes/pma_three_petal_mu_basis_reduction/verify.py"
+    "critical/nodes/pma_three_petal_mu_basis_reduction/statement.md",
+    "critical/nodes/pma_three_petal_mu_basis_reduction/proof.md",
+    "critical/nodes/pma_three_petal_mu_basis_reduction/audit.md",
+    "critical/nodes/pma_three_petal_mu_basis_reduction/claim_contract.md",
+    "critical/nodes/pma_three_petal_mu_basis_reduction/dependency_subdag.md",
+    "critical/nodes/pma_three_petal_mu_basis_reduction/verify.py"
    ]
   },
   {
@@ -11120,12 +11120,12 @@
    "status": "PROVED",
    "statement": "Distinct primitive coefficient pairs in one three-petal mu-basis module have split core-root sets intersecting in at most e-1. A Johnson second-moment argument therefore bounds their number by N(d-e+1)/(d^2-N(e-1)) whenever the denominator is positive. This pays every rate-quarter M=4,t=3 cell with a uniform 16n^3 per-source bound and every positive-denominator rate-half cell, including all backgrounds b<=6. The only surviving three-petal cells form an explicit nonpositive-denominator rate-half top-defect tail.",
    "refs": [
-    "background/nodes/pma_three_petal_projective_johnson_bound/statement.md",
-    "background/nodes/pma_three_petal_projective_johnson_bound/proof.md",
-    "background/nodes/pma_three_petal_projective_johnson_bound/audit.md",
-    "background/nodes/pma_three_petal_projective_johnson_bound/claim_contract.md",
-    "background/nodes/pma_three_petal_projective_johnson_bound/dependency_subdag.md",
-    "background/nodes/pma_three_petal_projective_johnson_bound/verify.py"
+    "critical/nodes/pma_three_petal_projective_johnson_bound/statement.md",
+    "critical/nodes/pma_three_petal_projective_johnson_bound/proof.md",
+    "critical/nodes/pma_three_petal_projective_johnson_bound/audit.md",
+    "critical/nodes/pma_three_petal_projective_johnson_bound/claim_contract.md",
+    "critical/nodes/pma_three_petal_projective_johnson_bound/dependency_subdag.md",
+    "critical/nodes/pma_three_petal_projective_johnson_bound/verify.py"
    ]
   },
   {
@@ -11546,12 +11546,12 @@
    "status": "PROVED",
    "statement": "Fixing three touched full petals identifies the nonpositive-J rate-half tail with a core RS list of length N=4ell+b-2, dimension K_0=ell+b-1, and agreement m=2ell+b+a-2. Any three contributors force, after removing their common factor, a nonconstant rational map whose 0, 1, and infinity fibers on the core have total size at least 2r+3a. Thus absence of this source-coupled positive three-fiber certificate pays the full tail by 8n per carried source. An exact smooth order-100 arbitrary-core fixture at the first J=0 row shows the generic smooth-core version is false, so the remaining theorem must retain the PMA CRT coupling.",
    "refs": [
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/statement.md",
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/proof.md",
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/audit.md",
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/claim_contract.md",
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/dependency_subdag.md",
-    "background/nodes/pma_ratehalf_core_triple_excess_reduction/verify.py"
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/statement.md",
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/proof.md",
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/audit.md",
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/claim_contract.md",
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_core_triple_excess_reduction/verify.py"
    ]
   },
   {
@@ -11560,12 +11560,12 @@
    "status": "PROVED",
    "statement": "For fixed core and three touched petals, the forced PMA core word belongs to an explicit three-dimensional CRT quotient code: if E_c is constant c_i modulo each petal locator, then L_C E_c=P_*+LY and y=Y on the core. Any three tail contributors force the exact aligned overlap inequality u_12+u_13+u_23-tau >= 2(K_0-1)+3a, where the four terms are degrees of gcds with L_C, the source numerator P_*, and the three pair differences. Ambient equality fibers not carrying the source value are excluded. Absence of this certificate pays the tail by 8n per source.",
    "refs": [
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/statement.md",
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/proof.md",
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/audit.md",
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/claim_contract.md",
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/dependency_subdag.md",
-    "background/nodes/pma_ratehalf_source_aligned_gcd_excess/verify.py"
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/statement.md",
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/proof.md",
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/audit.md",
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/claim_contract.md",
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_source_aligned_gcd_excess/verify.py"
    ]
   },
   {
@@ -11574,12 +11574,12 @@
    "status": "PROVED",
    "statement": "Affine changes of the three source labels preserve the tail list, so every distinct triple normalizes to (0,1,lambda). Modulo the core RS code the source quotient code is two-dimensional. The lambda coefficient of the source numerator factors as L_1L_2R_3 with deg R_3<ell, leaving at most ell-1 exceptional core points. Removing their maximum overlap weight from the aligned gcd bonus leaves at least 2b+3a-2 weighted nonexceptional incidences voting for one source cross-ratio lambda. Absence of this fiber certificate pays the tail by 8n per source.",
    "refs": [
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/statement.md",
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/proof.md",
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/audit.md",
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/claim_contract.md",
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/dependency_subdag.md",
-    "background/nodes/pma_ratehalf_source_crossratio_fiber_reduction/verify.py"
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/statement.md",
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/proof.md",
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/audit.md",
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/claim_contract.md",
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_source_crossratio_fiber_reduction/verify.py"
    ]
   },
   {
@@ -11588,12 +11588,12 @@
    "status": "PROVED",
    "statement": "After normalizing labels to (0,1,lambda), each exact core agreement set S determines a unique cofactor V_S by inversion modulo the second petal locator. A contributor exists exactly when deg V_S<=ell-a, the second residue Phi(S) modulo the third petal locator is the constant lambda, and V_S has no extra core root outside S. The reconstruction H_S=(L_SV_S-F_lambda)/(L_2L_3) is inverse to this map. Thus the fixed-cell list is exactly one guarded support-map fiber, with no separate missed-core or contributor-polynomial multiplier.",
    "refs": [
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/statement.md",
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/proof.md",
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/audit.md",
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/claim_contract.md",
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/dependency_subdag.md",
-    "background/nodes/pma_ratehalf_two_petal_support_fiber_reduction/verify.py"
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/statement.md",
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/proof.md",
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/audit.md",
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/claim_contract.md",
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_two_petal_support_fiber_reduction/verify.py"
    ]
   },
   {
@@ -11602,12 +11602,12 @@
    "status": "PROVED",
    "statement": "For normalized labels (0,1,lambda), write E_c=L_1 Etilde and M=L_2L_3. Complementing an exact m-point core support S by D=L_C/L_S gives deg D=2ell-a, and the predecessor's guarded support condition is equivalent to deg rem_M(D Etilde)<=ell-a and gcd(D,rem_M(D Etilde))=1. Conversely every such monic divisor reconstructs one exact contributor. Since Etilde is a unit modulo M, the unguarded slice in K[X]/(M) has dimension ell-a+1 and codimension ell+a-1. Its degree-2ell-a truncation is linearly identical to the proved three-petal mu-basis space; if the guarded fiber is nonempty, its dimension is one below the half strip and ell-2a+2 in the live upper strip. This is an exact BC/SCK-shaped instance map, not a max-fiber bound or an ordinary-prefix conjugacy.",
    "refs": [
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/statement.md",
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/proof.md",
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/audit.md",
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/claim_contract.md",
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/dependency_subdag.md",
-    "background/nodes/pma_ratehalf_complement_linear_slice_reduction/verify.py"
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/statement.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/proof.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/audit.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/claim_contract.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/verify.py"
    ]
   },
   {
@@ -28731,19 +28731,115 @@
    ]
   },
   {
-   "id": "l1_full_petal_fpc5_payment",
-   "title": "L1: below-band full-petal FPC5 residual payment",
+   "id": "l1_fpc5_large_source_payment",
+   "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying M>=4, d<ell(M-2), t<2M-4, and e=max(0,2d+1-t ell)->infinity admit one disjoint polynomial/profile allocation compatible with the imgfib reserve and quotient ledger. Here M is the number of source petals and t is the number touched by the contributor. This is exactly the FPC5 complement left after the proved top-band and E=0 root-pinning payments; mixed or partial petals are not part of this node.",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales. The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. In every cell, 2<=t<2M-4, d<ell(M-2), and max(0,2d+1-t ell)->infinity. The conclusion is one disjoint polynomial/profile allocation across source layouts, touched-petal sets, defects, and exact owners.",
+   "attack_surface": "derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
+   "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
+   "refs": [
+    "critical/nodes/l1_fpc5_large_source_payment/statement.md",
+    "critical/nodes/l1_fpc5_large_source_payment/attack.md",
+    "critical/nodes/l1_fpc5_large_source_payment/claim_contract.md",
+    "critical/nodes/l1_fpc5_large_source_payment/dependency_subdag.md",
+    "critical/nodes/pma_official_rate_small_source_degree_sieve/statement.md"
+   ]
+  },
+  {
+   "id": "l1_fpc5_m4_t2_official_codimension_sieve",
+   "title": "FPC5 M=4,t=2 official locator slices have positive codimension",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official rows k=2^40, every M=4,t=2 full-petal cell d=ell+s has positive locator-slice codimension c=ell-s-1. At rate 1/2, the threshold gives s<=b; writing j=ell-b, the source equation gives 5ell=k+1+j and k=1 mod 5, hence j=3 mod 5 and c>=j-1>=2. At rate 1/4, the exact defect cap gives c>=2ell-k; with 5ell=3k+1+j and j>=1, this is at least (k+4)/5. Thus the codimension-zero endpoint s=ell-1 is impossible at both surviving rates.",
+   "refs": [
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/proof.md",
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/claim_contract.md",
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/dependency_subdag.md",
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/verify.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_m4_t2_payment",
+   "title": "L1 FPC5: M=4,t=2 full-petal payment",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At official rates 1/2 and 1/4, aggregate every first-owned full-petal FPC5 contributor with source size M=4 and exactly t=2 touched petals. Writing d=ell+s, the live family has root excess e=2s+1->infinity. Each touched pair injects into the proved 2s+2-dimensional coprime-pair petal-equation envelope; the exact cell additionally retains background-root, exactness, and first-owner guards. Official source arithmetic removes the codimension-zero endpoint. At the apparent sharp rate-half codimension-two boundary, every background point is forced to agree and the guarded locator slice has dimension and codimension ell-1. The required conclusion is a disjoint polynomial/profile payment of the remaining guarded split-core-locator locus across all first-owned sources and pairs.",
+   "attack_surface": "count split core locators in the background-guarded congruence slice, beginning with the rate-half dimension-(ell-1) boundary, with source multiplicity and exactness preserved",
+   "falsifier": "an official rate-half or rate-quarter first-owned M=4,t=2 family exceeding every polynomial and legitimate quotient/profile column",
+   "refs": [
+    "critical/nodes/l1_fpc5_m4_t2_payment/statement.md",
+    "critical/nodes/l1_fpc5_m4_t2_payment/attack.md",
+    "critical/nodes/l1_fpc5_m4_t2_payment/claim_contract.md",
+    "critical/nodes/l1_fpc5_m4_t2_payment/dependency_subdag.md",
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/statement.md",
+    "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md"
+   ]
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "title": "Rate-half FPC5 codimension-two cells collapse under the background guard",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the official rate-half row, an M=4,t=2 full-petal cell whose unguarded petal-equation locator codimension is two necessarily has 5ell=k+4 and b=r=s=ell-3, where d=ell+s=2ell-3. Let L_0 be the full background locator and L_1,L_2 the touched-petal locators, with distinct nonzero labels c_1,c_2. Every contributor lies in the guarded slice L_0|W and L_i|(W-c_iF). This slice is isomorphic to cofactor pairs deg A_i<=ell-3 satisfying c_2L_1A_1 congruent to c_1L_2A_2 modulo L_0. It has dimension ell-1, its projection to the F-locator space is injective, and its locator codimension is ell-1. Split-on-core, primitive, exact-nonagreement, and first-owner conditions remain to be counted.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/verify.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
+   "status": "TARGET",
+   "key": true,
+   "statement": "At the official rate-half row, aggregate every first-owned M=4,t=3 FPC5 contributor in the Johnson-nonpositive tail over carried sources, touched triples, defects, and normalized source cross-ratios. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, each fixed cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. The required conclusion is one disjoint polynomial/profile allocation of the total, not a per-cell dimension estimate.",
+   "attack_surface": "prove a max-to-mean split-divisor bound, a collective first-owner injection, or a quotient/field-drop classification for the exact LS6 slices",
+   "falsifier": "a rate-half source family whose first-owned guarded LS6 mass exceeds every polynomial and every legitimate quotient/profile column",
+   "refs": [
+    "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/statement.md",
+    "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/attack.md",
+    "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/claim_contract.md",
+    "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/dependency_subdag.md",
+    "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/statement.md"
+   ]
+  },
+  {
+   "id": "l1_full_petal_fpc5_payment",
+   "title": "L1: below-band full-petal FPC5 residual payment",
+   "status": "CONDITIONAL",
+   "closure": "proof",
+   "key": true,
+   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residuals: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 coprime-pair slices at rates 1/2 and 1/4; and large sources M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint leaves, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
    "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
    "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_full_petal_fpc5_payment/statement.md",
+    "critical/nodes/l1_full_petal_fpc5_payment/conditional.md",
+    "critical/nodes/l1_full_petal_fpc5_payment/proof.md",
     "critical/nodes/l1_full_petal_fpc5_payment/attack.md",
     "critical/nodes/l1_full_petal_fpc5_payment/claim_contract.md",
     "critical/nodes/l1_full_petal_fpc5_payment/dependency_subdag.md",
-    "background/nodes/pma_full_petal_band_composition/statement.md"
+    "critical/nodes/pma_full_petal_band_composition/statement.md"
+   ]
+  },
+  {
+   "id": "pma_two_full_petal_linear_slice_reduction",
+   "title": "PMA two-full-petal contributors are coprime-pair linear slices",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For pairwise-coprime monic petal locators L_1,L_2 of degree ell, distinct labels c_1,c_2, and d=ell+s with 0<=s<ell, the space of pairs (F,W) of degree at most d satisfying L_i|(W-c_iF) is linearly isomorphic to pairs (A_1,A_2) of degree at most s by F=(L_1A_1-L_2A_2)/(c_2-c_1) and W=c_1F+L_1A_1. Its dimension is exactly 2s+2 and its image in the locator space has codimension ell-s-1. If F is disjoint from the petals, gcd(F,W)=1 iff gcd(A_1,A_2)=1. Every M=4,t=2 FPC5 contributor injects into this petal-equation envelope, but an exact PMA cell additionally imposes its background-root, exactness, and first-owner guards.",
+   "refs": [
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/statement.md",
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/proof.md",
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/claim_contract.md",
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/dependency_subdag.md",
+    "critical/nodes/pma_two_full_petal_linear_slice_reduction/verify.py"
    ]
   },
   {
@@ -54867,8 +54963,43 @@
    "kind": "ev"
   },
   {
+   "from": "l1_core_defect_reduction",
+   "to": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "kind": "req"
+  },
+  {
    "from": "l1_first_match_totality_scope_pin",
    "to": "f_imgfib_consumer_descriptor",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_large_source_payment",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_m4_t2_official_codimension_sieve",
+   "to": "l1_fpc5_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_m4_t2_official_codimension_sieve",
+   "to": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_m4_t2_payment",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "to": "l1_fpc5_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "to": "l1_full_petal_fpc5_payment",
    "kind": "req"
   },
   {
@@ -54900,6 +55031,46 @@
    "from": "pma_full_petal_band_composition",
    "to": "l1_full_petal_fpc5_payment",
    "kind": "ev"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_fpc5_m4_t2_official_codimension_sieve",
+   "kind": "req"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_fpc5_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",

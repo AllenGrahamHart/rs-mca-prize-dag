@@ -56,8 +56,10 @@ GRANDS = {"mca_grand", "list_grand"}
 # LIST route retirement then removes the detached general-F ancestry and adds
 # the direct FPC5 leaf: 26 TARGETs, 34 CONDITIONALs, and one fewer propagation
 # round.
-EXPECTED_TARGETS = 26
-EXPECTED_CONDITIONALS = 34
+# The exact FPC5 official-cell split replaces one TARGET by one CONDITIONAL
+# over three TARGET leaves and strict proved suppliers.
+EXPECTED_TARGETS = 28
+EXPECTED_CONDITIONALS = 35
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

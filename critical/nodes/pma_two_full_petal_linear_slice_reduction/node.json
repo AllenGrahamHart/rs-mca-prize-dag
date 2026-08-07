@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "pma_two_full_petal_linear_slice_reduction",
+    "title": "PMA two-full-petal contributors are coprime-pair linear slices",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For pairwise-coprime monic petal locators L_1,L_2 of degree ell, distinct labels c_1,c_2, and d=ell+s with 0<=s<ell, the space of pairs (F,W) of degree at most d satisfying L_i|(W-c_iF) is linearly isomorphic to pairs (A_1,A_2) of degree at most s by F=(L_1A_1-L_2A_2)/(c_2-c_1) and W=c_1F+L_1A_1. Its dimension is exactly 2s+2 and its image in the locator space has codimension ell-s-1. If F is disjoint from the petals, gcd(F,W)=1 iff gcd(A_1,A_2)=1. Every M=4,t=2 FPC5 contributor injects into this petal-equation envelope, but an exact PMA cell additionally imposes its background-root, exactness, and first-owner guards.",
+    "refs": [
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/statement.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/proof.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/claim_contract.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/dependency_subdag.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

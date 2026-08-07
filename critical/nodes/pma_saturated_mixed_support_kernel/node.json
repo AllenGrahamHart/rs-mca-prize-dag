@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 857,
+  "node": {
+    "id": "pma_saturated_mixed_support_kernel",
+    "title": "PMA saturated mixed-support interpolation kernel",
+    "status": "PROVED",
+    "statement": "For every exact PMA mixed-support pattern X of size d+ell+lambda, the split defect locator F=L_D lies in an exact top-coefficient kernel, equivalently a weighted Hankel kernel. If a_* is the largest label class, rank T>=a_*-1, while an actual exact saturated pair has maximal rank min(d,|X|-d-1). Exact defect forces coprime fiber polynomials and removes common-factor duplicates. For one exact support, canonical core-root pinning bounds split locators by binom(k-1,max(0,d-(|X|-d-1))); aggregating these possibly exponential charges over first-match profiles remains open.",
+    "refs": [
+      "critical/nodes/pma_saturated_mixed_support_kernel/statement.md",
+      "critical/nodes/pma_saturated_mixed_support_kernel/proof.md",
+      "critical/nodes/pma_saturated_mixed_support_kernel/audit.md",
+      "critical/nodes/pma_saturated_mixed_support_kernel/claim_contract.md",
+      "critical/nodes/pma_saturated_mixed_support_kernel/dependency_subdag.md",
+      "critical/nodes/pma_saturated_mixed_support_kernel/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1511
+    },
+    {
+      "from": "petal_reserve_rich_fiber_reduction",
+      "order": 1512
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1513
+    },
+    {
+      "to": "imgfib",
+      "order": 1514
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 1536
+    }
+  ],
+  "refutes": []
+}

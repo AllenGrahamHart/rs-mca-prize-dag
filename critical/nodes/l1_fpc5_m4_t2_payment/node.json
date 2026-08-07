@@ -1,0 +1,25 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_m4_t2_payment",
+    "title": "L1 FPC5: M=4,t=2 full-petal payment",
+    "status": "TARGET",
+    "key": true,
+    "statement": "At official rates 1/2 and 1/4, aggregate every first-owned full-petal FPC5 contributor with source size M=4 and exactly t=2 touched petals. Writing d=ell+s, the live family has root excess e=2s+1->infinity. Each touched pair injects into the proved 2s+2-dimensional coprime-pair petal-equation envelope; the exact cell additionally retains background-root, exactness, and first-owner guards. Official source arithmetic removes the codimension-zero endpoint. At the apparent sharp rate-half codimension-two boundary, every background point is forced to agree and the guarded locator slice has dimension and codimension ell-1. The required conclusion is a disjoint polynomial/profile payment of the remaining guarded split-core-locator locus across all first-owned sources and pairs.",
+    "attack_surface": "count split core locators in the background-guarded congruence slice, beginning with the rate-half dimension-(ell-1) boundary, with source multiplicity and exactness preserved",
+    "falsifier": "an official rate-half or rate-quarter first-owned M=4,t=2 family exceeding every polynomial and legitimate quotient/profile column",
+    "refs": [
+      "critical/nodes/l1_fpc5_m4_t2_payment/statement.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/attack.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/claim_contract.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/dependency_subdag.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/statement.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -372,6 +372,11 @@
    "title": "E22 tail-coset staircase locator algebra"
   },
   {
+   "id": "e22_two_class_exhaustion",
+   "label": "PROVED",
+   "title": "E22 two-class exhaustion for worst-word challengers"
+  },
+  {
    "id": "ef_component_control_alignment",
    "label": "PROVED",
    "title": "EF component-control alignment"
@@ -607,8 +612,23 @@
    "title": "L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)"
   },
   {
-   "id": "l1_full_petal_fpc5_payment",
+   "id": "l1_fpc5_large_source_payment",
    "label": "UNPROVED",
+   "title": "L1 FPC5: large-source full-petal payment"
+  },
+  {
+   "id": "l1_fpc5_m4_t2_payment",
+   "label": "UNPROVED",
+   "title": "L1 FPC5: M=4,t=2 full-petal payment"
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "label": "UNPROVED",
+   "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment"
+  },
+  {
+   "id": "l1_full_petal_fpc5_payment",
+   "label": "CONDITIONAL",
    "title": "L1: below-band full-petal FPC5 residual payment"
   },
   {
@@ -782,6 +802,11 @@
    "title": ""
   },
   {
+   "id": "petal_reserve_rich_fiber_reduction",
+   "label": "PROVED",
+   "title": "Petal reserve rich-fiber reduction"
+  },
+  {
    "id": "petal_retained_zero_effective_degree",
    "label": "PROVED",
    "title": "Retained zeros lower the petal auxiliary degree and preserve exact support"
@@ -797,9 +822,74 @@
    "title": "P1 and the strict E22 remainder collapse the full-petal tail to m+1"
   },
   {
+   "id": "pma_aux_list_reduction",
+   "label": "PROVED",
+   "title": "PMA stage 1: mixed-petal extras = RS list of the auxiliary pieced word (one level down)"
+  },
+  {
    "id": "pma_exact_periodic_owner",
    "label": "PROVED",
    "title": "Global exact-periodic source owner and dyadic profile charge"
+  },
+  {
+   "id": "pma_full_petal_band_composition",
+   "label": "PROVED",
+   "title": "PMA full-petal band/root composition"
+  },
+  {
+   "id": "pma_official_rate_small_source_degree_sieve",
+   "label": "PROVED",
+   "title": "PMA official-rate small-source degree sieve"
+  },
+  {
+   "id": "pma_petal_pattern_root_pinning_ledger",
+   "label": "PROVED",
+   "title": "PMA petal-pattern root-pinning ledger"
+  },
+  {
+   "id": "pma_ratehalf_complement_linear_slice_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half guarded fibers are exact complement-divisor linear slices"
+  },
+  {
+   "id": "pma_ratehalf_core_triple_excess_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half core triple-excess reduction"
+  },
+  {
+   "id": "pma_ratehalf_source_aligned_gcd_excess",
+   "label": "PROVED",
+   "title": "PMA rate-half source-aligned gcd excess"
+  },
+  {
+   "id": "pma_ratehalf_source_crossratio_fiber_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half source cross-ratio fiber reduction"
+  },
+  {
+   "id": "pma_ratehalf_two_petal_support_fiber_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half two-petal support-fiber reduction"
+  },
+  {
+   "id": "pma_saturated_mixed_support_kernel",
+   "label": "PROVED",
+   "title": "PMA saturated mixed-support interpolation kernel"
+  },
+  {
+   "id": "pma_three_petal_mu_basis_reduction",
+   "label": "PROVED",
+   "title": "PMA three-petal mu-basis reduction"
+  },
+  {
+   "id": "pma_three_petal_projective_johnson_bound",
+   "label": "PROVED",
+   "title": "PMA three-petal projective Johnson bound"
+  },
+  {
+   "id": "pma_two_full_petal_linear_slice_reduction",
+   "label": "PROVED",
+   "title": "PMA two-full-petal contributors are coprime-pair linear slices"
   },
   {
    "id": "q_recursion",
@@ -1971,6 +2061,94 @@
    "to": "list_adjacency_closing"
   },
   {
+   "from": "pma_aux_list_reduction",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_saturated_mixed_support_kernel"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_saturated_mixed_support_kernel"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_petal_pattern_root_pinning_ledger"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_petal_pattern_root_pinning_ledger"
+  },
+  {
+   "from": "e22_two_class_exhaustion",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "petal_growth",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_three_petal_mu_basis_reduction"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_three_petal_mu_basis_reduction"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_official_rate_small_source_degree_sieve"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_official_rate_small_source_degree_sieve"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_three_petal_projective_johnson_bound"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "pma_three_petal_projective_johnson_bound"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "pma_ratehalf_core_triple_excess_reduction"
+  },
+  {
+   "from": "pma_ratehalf_core_triple_excess_reduction",
+   "to": "pma_ratehalf_source_aligned_gcd_excess"
+  },
+  {
+   "from": "pma_ratehalf_source_aligned_gcd_excess",
+   "to": "pma_ratehalf_source_crossratio_fiber_reduction"
+  },
+  {
+   "from": "pma_ratehalf_source_crossratio_fiber_reduction",
+   "to": "pma_ratehalf_two_petal_support_fiber_reduction"
+  },
+  {
+   "from": "pma_ratehalf_two_petal_support_fiber_reduction",
+   "to": "pma_ratehalf_complement_linear_slice_reduction"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_ratehalf_complement_linear_slice_reduction"
+  },
+  {
    "from": "rate_half_list_adjacent_crossing",
    "to": "list_adjacency_closing"
   },
@@ -2059,8 +2237,40 @@
    "to": "dli_wcl_slot_1_5_emptiness"
   },
   {
+   "from": "l1_fpc5_large_source_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "l1_fpc5_m4_t2_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
    "from": "l1_full_petal_fpc5_payment",
    "to": "imgfib"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment"
   },
   {
    "from": "x4_exactlist_summed_budget",

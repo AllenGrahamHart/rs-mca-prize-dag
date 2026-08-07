@@ -101,3 +101,65 @@ The strict Conjecture-F caller set is now the singleton
 CONDITIONAL through SPI, and its higher-weight and global-packing leaves are
 unchanged. The red-leaf count remains unchanged: the former LIST descriptor
 leaf is replaced one-for-one by FPC5.
+
+
+### FPC5 official-cell decomposition
+
+The direct full-petal leaf is now a proved conditional partition over three
+disjoint payment targets:
+
+```text
+rate-half M=4,t=3:  guarded Johnson-negative LS6 split slices;
+M=4,t=2:            rate 1/2 and 1/4 coprime-pair slices;
+large source:       M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16.
+```
+
+The second branch gained a new exact petal-equation theorem. For
+`d=ell+s<2ell`, every two-full-petal contributor injects into the unique
+cofactor representation
+
+```text
+F=(L_1 A_1-L_2 A_2)/(c_2-c_1),
+W=c_1F+L_1A_1,               deg A_i<=s.
+```
+
+The petal-equation locator envelope has dimension `2s+2`, codimension
+`ell-s-1`, and exact core defect is equivalent to `gcd(A_1,A_2)=1` when the
+locator is disjoint from the petals. A full PMA cell additionally imposes its
+background roots, exact nonagreements, and first owner.
+
+Official source arithmetic makes the formal codimension-zero endpoint empty.
+At the apparent sharp rate-half codimension-two boundary it forces
+
+```text
+5ell=k+4,       b=r=s=ell-3,       d=2ell-3.
+```
+
+Thus every background point is an agreement. Imposing `L_0|W` changes the
+cofactor condition to
+
+```text
+c_2L_1A_1 == c_1L_2A_2 (mod L_0)
+```
+
+and cuts the guarded pair and locator dimensions to `ell-1`, hence true
+locator codimension `ell-1`. The residual is now a guarded split-core-locator
+and ownership count, not a codimension-two ambient-slice problem.
+
+Fifteen proved PMA reduction nodes are now strict critical suppliers. This
+raises the visible leaf count from 26 to 28 while replacing broad general
+flatness assumptions by exact official-cell obligations.
+
+```text
+starting pin: 6e8e1bc32; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none pays the three FPC5 aggregates
+lane: LIST / direct full-petal FPC5
+result: DECOMPOSED FPC5 into three exact red leaves; proved petal and sharp background-guarded two-petal normal forms
+DAG status delta: math 210(150/34/26) -> 228(165/35/28)
+submission delta: 225(162/36/27) -> 243(177/37/29); spine unchanged
+upstream terminal delta: portable two-petal slices and exact official partition
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; tiny finite-field rank replays only
+next: count split core locators in the rate-half dimension-(ell-1) guarded congruence kernel, or attack the guarded LS6 max-to-mean gap
+```

@@ -1,0 +1,23 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+    "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
+    "status": "TARGET",
+    "key": true,
+    "statement": "At the official rate-half row, aggregate every first-owned M=4,t=3 FPC5 contributor in the Johnson-nonpositive tail over carried sources, touched triples, defects, and normalized source cross-ratios. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, each fixed cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. The required conclusion is one disjoint polynomial/profile allocation of the total, not a per-cell dimension estimate.",
+    "attack_surface": "prove a max-to-mean split-divisor bound, a collective first-owner injection, or a quotient/field-drop classification for the exact LS6 slices",
+    "falsifier": "a rate-half source family whose first-owned guarded LS6 mass exceeds every polynomial and every legitimate quotient/profile column",
+    "refs": [
+      "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/statement.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/attack.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/claim_contract.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/dependency_subdag.md",
+      "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
