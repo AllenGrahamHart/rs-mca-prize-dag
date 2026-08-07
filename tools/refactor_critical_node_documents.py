@@ -91,6 +91,9 @@ file is the live entry point, not a proof and not a status claim.
   canonical interpretation correction.
 - `statement_addenda/06-round21-growing-petal-repose.md`: Round-21 exact-box
   diagnosis and growing-petal re-pose.
+- `statement_addenda/07-round22-ell-sweep.md`: Round-22 ell-sweep — F-w1
+  exhaustively silent at the proper-band frontier; normaliser amended to
+  `N_{k+1}/q`.
 
 `statement_sections/document.json` pins the pre-refactor byte stream and the
 existing DAG nodes represented by each packet.  Run
@@ -104,6 +107,10 @@ to verify lossless decomposition.
             ),
             (
                 "critical/nodes/l1_mixed_petal_amplification/statement_addenda/06-round21-growing-petal-repose.md",
+                ("l1_mixed_petal_amplification",),
+            ),
+            (
+                "critical/nodes/l1_mixed_petal_amplification/statement_addenda/07-round22-ell-sweep.md",
                 ("l1_mixed_petal_amplification",),
             ),
         ),
@@ -238,6 +245,9 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
 - `statement_addenda/12-round18-dsa-scope.md`: Round-18 DSA scope update.
 - `statement_addenda/13-wave47-theorem-bb.md`: Wave-47 budget break and
   relocated safe-side obligation.
+- `statement_addenda/14-round22-u2-accident-cap.md`: Round-22 PROPOSITION U2
+  — first accident upper bound of record; crux relocated to the
+  constant-weight BCH population cap.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.
@@ -259,6 +269,14 @@ verified separately, so they do not rewrite that historical archive.
                 (
                     "rate_half_list_adjacent_crossing",
                     "crossing_dsa_refutation",
+                ),
+            ),
+            (
+                "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/14-round22-u2-accident-cap.md",
+                (
+                    "rate_half_list_adjacent_crossing",
+                    "crossing_dsa_refutation",
+                    "es_ternary_suppression_instruments",
                 ),
             ),
         ),

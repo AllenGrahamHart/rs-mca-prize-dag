@@ -1752,7 +1752,10 @@ sweep.
   and identifies the wild owner class that the local payment must price. It
   does not by itself refute `l1_mixed_petal_amplification`.
 
-#### Parked contributor request L1-N10-128: next balanced-chart growth point
+#### Parked contributor request L1-N10-128: next balanced-chart growth point [DROPPED
+2026-08-07, round-21/22: the census's enumeration domain has an exact
+degree-6 closed form and the falsifier was structurally unfireable at
+`ell=2`; superseded by `L1-N10-ELL` below.]
 
 - **status:** PARKED; EXECUTABLE BUT NOT AUTHORIZED ON THE CURRENT CREDIT.
   The bounded N10 campaign is complete through `n=64`; its exact transcript
@@ -2183,3 +2186,25 @@ sweep.
   max/mean result over the attained image alone is insufficient. A complete
   counterexample may force refinement of the primitive/quotient split or kill
   U2-G; it does not by itself kill U2-L.
+
+#### Round-22 contributor requests L1-N10-ELL-*: the ell-sweep at the next rows
+
+Replaces `L1-N10-128` (dropped). The decisive parameter is petal size
+`ell`, not `n`; the falsifier of record is `retained > 10*N_{k+1}(ell)/q`
+(the shell-resolved normaliser — see the round-22 addendum on
+`critical/nodes/l1_mixed_petal_amplification`). Pricing measured at
+1.98e7 candidates/s (round-22 local engine, `notes/pilots_20260807/
+l1_ell_sweep/sweep_engine.py`; three-path validated).
+
+- **L1-N10-ELL-48-4** (BEST VALUE): `n=48, q=97`, LAYOUT-A, `ell=4`
+  (`t=6, b=1, Lambda=7`), BOX = 205,253,983,244, ~2.87 CPU-h/word,
+  8 words ~ 23 CPU-h, 1 GiB. PARKED pending credit authorization.
+- **L1-N10-ELL-64-4**: `n=64, q=193`, LAYOUT-A, `ell=4` (`t=8, b=1,
+  Lambda=7`), BOX = 15,968,151,894,992, ~224 CPU-h/word, 4 words ~
+  895 CPU-h, 1 GiB. PARKED.
+- **L1-N10-ELL-64-5**: OUT OF SCOPE — DO NOT LAUNCH (~5.2e5
+  CPU-h/word).
+- Already done locally at zero cost: `n=32` through `ell=5` (the
+  proper-band frontier, exhaustive per word), `n=24` through `ell=6`,
+  `n=64` at `ell=2,3` — transcripts in
+  `notes/pilots_20260807/l1_ell_sweep/results.jsonl`.

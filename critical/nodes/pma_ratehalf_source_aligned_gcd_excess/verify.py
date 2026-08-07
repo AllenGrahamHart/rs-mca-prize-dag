@@ -13,7 +13,7 @@ NODE = "pma_ratehalf_source_aligned_gcd_excess"
 ROOT = Path(__file__).resolve().parents[3]
 BASE = (
     ROOT
-    / "background"
+    / "critical"
     / "nodes"
     / "pma_ratehalf_core_triple_excess_reduction"
     / "verify.py"

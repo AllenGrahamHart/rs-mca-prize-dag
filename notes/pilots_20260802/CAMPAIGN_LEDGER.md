@@ -2615,3 +2615,125 @@ MUST pass this quarantine clause to any subagent they dispatch.
   enumeration and certify pinned prize rows — mystery 5's first
   executable positive step.
 - Awaiting: l1_ell_sweep, f2_rlocality.
+
+## 2026-08-07: round-22 agent 3 BANKED — f2_rlocality: 8.60 retired (wrong layer), the deficit PROVED structural (LP floors), the banked instrument +1.7% from optimal, mystery 2's obligation NAMED — fourth lane onto the constant-weight instrument
+
+- **f2_rlocality (Opus) BANKED, MAINTAINER-LEVEL** (47/0 across
+  four verifier logs, coordinator-replayed; the k=2R LP wall death
+  reproduced exactly as disclosed). (1) CATCH-RL1 APPLIED: 8.5990
+  = DEF_INSTR(1) — correct arithmetic on the WRONG LAYER; at c = 1
+  R-locality costs NOTHING (OPT_k(1) = p^{-k} EXACT — the c = 1
+  requirement is met on the nose by pure R-locality, the knife-edge
+  constant Delta the entire margin); the BINDING-layer deficit is
+  6.3130; the node's own sentence mixed four numbers under one
+  label (8.60 / 3.81 / 6.31 / 64). Decomposition at c*: THETA 1.000
+  x AMGM 2.299 x GAUSS 1.035 x LOCALITY-CAP 2.654 — the cap is the
+  lossiest step AND is sharp (N_{R+1} fails at all three toy rows).
+  (2) CATCH-RL2 APPLIED: the "position entropy H(1/L) > 1/L / dies
+  at every p" diagnosis WITHDRAWN (union-bound artifact; the exact
+  R-local binomial moment cancels C(S,R), threshold at every
+  log2 p >= 3.06); the route still dies numerically (258.9) — the
+  wall is LOCALITY. (3) THE DEFICIT IS STRUCTURAL, now with
+  floors: formalized k-LOCAL class, exact G1 full-LP floor 1.5889
+  (p=41 row: 2.7651), lifted official-row floors 6.2063 (k=R) /
+  3.4848 (k=2R, asymptotic evidence); the banked instrument
+  (6.3130) is +1.7% from the k=R floor — essentially OPTIMAL; the
+  1.81x headroom provably collapses back onto V_1 at the licensed
+  radius (l1-weight accounting: k=2R forces J=1 = LEMMA 5's
+  route). No sharpening attempt beats the banked instrument (A1
+  deficit 64.0, A2 8.995, A3 258.9; all registered predictions
+  hit). (4) MYSTERY 2'S OBLIGATION NAMED: a NON-LOCAL smoothness/
+  box count for the GRS value code C* at exponential scale —
+  quantifying over Theta(S) coordinates at once — and under the
+  finite target's 4.77-bit window it must be essentially EXACT.
+  Nearest banked object: the crossing-side constant-weight Z-FLOOR
+  cell — the FOURTH lane converging on the constant-weight
+  population instrument (after GE-WEAK, PROBE-1/ell-conditions,
+  and the round-22 crossing crux). (5) Honest ledger: 14/14
+  registered numeric bands hit; P13 UNRESOLVED reported; seven
+  self-corrections all caught by the pilot's own controls; scipy
+  refused by the wall -> from-scratch simplex (the compute law
+  held against tooling friction). Corrections applied to
+  f2_z1_mass_knife_edge (merge-safe) + tail_count coordinator
+  note. ROUND-23 MATERIAL: price the constant-weight Z-FLOOR cell
+  as the SHARED target of mysteries 2 and 4.
+- Awaiting: l1_ell_sweep (the last of round 22).
+
+## 2026-08-07: round-22 agent 4 BANKED — l1_ell_sweep: F-w1 EXHAUSTIVELY silent at the proper-band frontier; the falsifier itself sharpened; ROUND 22 COMPLETE (4/4)
+
+- **l1_ell_sweep (Opus) BANKED, MAINTAINER-LEVEL** (gate ALL PASS
+  three-path with character-identical histograms; degen_word closed
+  form cross-checked against the full engine). (1) THE SWEEP went
+  beyond brief: n=32 to ell=5 (the deepest PROPER-band cell,
+  BOX = 1.6e9, exhaustive per word at 2e7 cand/s), n=24 to ell=6,
+  n=64 added at ell=2,3. F-w1 SILENT everywhere (max ratio 0.091 of
+  threshold) and EXHAUSTIVELY silent at FOUR cells (n=24 ell=4,5,6;
+  n=32 ell=5): the word-uniform upper bound UB(c) enumerated the
+  ENTIRE legal word space; the only flagged class (constant-scalar
+  words) adjudicated exactly — RET = 0 PROVED for b <= 1, 0.0096 of
+  threshold at b = 2. No received word of the chart family can fire
+  F-w1 at those cells. (2) THE LAW IN ELL holds to 0.1% at the
+  three largest cells; no amplification signal at any ell <= 6, any
+  n <= 64. (3) FALSIFIER SHARPENED (to apply post-merge): the
+  10*BOX/q normaliser LOOSENS with ell (2.9x at n=32 ell=5 — in the
+  content-bearing regime); the re-pose of record moves to
+  10*N_{k+1}(ell)/q, against which the law is flat (RET =
+  (1-1/q)^{n-k-1} N_{k+1}/q to ~1%, NO ell dependence). (4) BUG
+  CAUGHT in round-21's d3_ell_sweep.py (b<=1-only filter; two
+  failure modes; unquoted n=16 ell=3 zero is wrong, true 100); NO
+  banked number affected; warning note filed. (5) P0 brief
+  correction: n=24 ell=5,6 are t=2/band-VACUOUS (my brief plotted
+  them on the floor-band curve in error — pilot corrected before
+  computing). (6) Off-family band test: with the band OFF, exact-
+  agreement still enforces sigma <= Lambda (measured max k+3 vs
+  formal k+11) — clause (a) robust beyond its definition; the band
+  is a real 48.6x restriction. (7) The round-21 ~16% mindeg excess
+  is a coset-layout ell=2 (mu_2 antipodal) phenomenon — 0.20% at
+  ell=4; does not grow. (8) Extrapolation honestly labelled:
+  census/consumer regimes separated ~10^12 in log2 mass by
+  q^{-sigma}; says nothing about adversarial words (the open
+  content); t-direction caveat stated. Modal lines filed in the
+  audit (48-4 best value 23 CPU-h; 64-5 DO-NOT-LAUNCH).
+- **ROUND 22 COMPLETE (4/4).** Aggregate: PROPOSITION U2 (first
+  accident cap of record, p-free) + THEOREM AT (anti-transport) +
+  FLOOR-GE two-sided resolution with the ~20-order (b)-route
+  repricing + the 8.60 retirement with proved LP floors (+1.7%
+  optimality) + F-w1 exhaustive silence with a sharpened
+  normaliser. FOUR lanes now converge on the constant-weight /
+  ternary-min-distance instrument cluster. NEXT: the wave-48 merge
+  (staged, audit complete) + post-merge obligations.
+
+## 2026-08-07: WAVE-48 INTEGRATED — the Conjecture-F false-green repair lands; census 231 = 167/36/28 (reds 25 -> 28); the sectioned-node schema adopted
+
+- MERGE executed at pin f7e850788 after round-22 completion (clean;
+  no conflicts). The four demotions (conj_f chain PROVED ->
+  CONDITIONAL) verified against canonical texts BEFORE the merge
+  (audit f2ac06dd6); the LIST Conjecture-F route retired to
+  background; the FPC5 program is on critical with 3 payment reds
+  (rate-quarter PROVED, absolute bound 10). Census of record:
+  math 231 = 167/36/28, submission 246 = 179/38/29 — recomputed on
+  my side, pins updated with provenance.
+- POST-MERGE FIXES (all verified): 8 stale verifiers repaired (4
+  background->critical path repoints in the moved PMA chain; 4 pin
+  refreshes preserving semantic intent, incl. the FPC5
+  TARGET->CONDITIONAL router repin + the u2c born-red edge rewire
+  pin); 22 untracked ghost folders deleted (both-side move
+  leftovers, every one verified a pure duplicate of its tracked
+  home before deletion); zero partition-law warnings; full chain
+  GREEN (dag 1905/5291, sectioned-node docs PASS).
+- DEFERRED ADDENDA APPLIED into the sectioned schema (registry
+  extended in tools/refactor_critical_node_documents.py):
+  statement_addenda/14-round22-u2-accident-cap.md on the crossing
+  node (PROPOSITION U2 + crux relocation);
+  statement_addenda/07-round22-ell-sweep.md on
+  l1_mixed_petal_amplification (F-w1 exhaustive silence + THE
+  NORMALISER AMENDMENT: F-w1 of record is now retained >
+  10*N_{k+1}(ell)/q). L1-N10-128 marked DROPPED in the compute
+  queue; L1-N10-ELL-48-4/64-4 filed PARKED, 64-5 DO-NOT-LAUNCH.
+- RED ACCOUNTING on the 28-board: 14 mystery-linked + 9 WCL-slot
+  grind + 2 straddling + 3 NEW FPC5 exact official-cell
+  obligations (UNCLASSIFIED until a diagnosis round — do not force
+  them into a bucket). Round-23 candidates: the FPC5 diagnosis;
+  the constant-weight Z-FLOOR cell priced as the SHARED target of
+  mysteries 2 and 4; the dim-64 lattice certification run
+  (mystery 5's first executable positive step).

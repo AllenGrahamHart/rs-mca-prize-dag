@@ -34,7 +34,10 @@ def main() -> None:
     assert nodes[minus]["status"] == "PROVED"
     assert nodes[ambient]["status"] == "PROVED"
     assert nodes[guard]["status"] == "PROVED"
-    assert nodes[stale_object]["status"] == "REFUTED"
+    # wave-48 repin (coordinator): canonical f2_admissible_object is PROVED (the
+    # five-class object of record); the REFUTED pin dated from a transient branch
+    # state that this wave reconciled to canonical.
+    assert nodes[stale_object]["status"] == "PROVED"
     assert "plus branch" in nodes[reduction]["statement"].lower()
     assert (reduction, close, "ev") in edges
     assert (myerson, close, "ev") in edges
@@ -52,7 +55,9 @@ def main() -> None:
     assert nodes[route_cut]["status"] == "PROVED"
     assert (close, "u2c_giant_tnull_dichotomy", "req") not in edges
     assert (close, "u2c_giant_tnull_dichotomy", "ev") in edges
-    assert (exact_slice, "u2c_giant_tnull_dichotomy", "req") in edges
+    # wave-48 repin (coordinator): the born-red declaration rewired this pair —
+    # the dichotomy now supplies evidence TO the slice budget (ev), not the reverse req.
+    assert ("u2c_giant_tnull_dichotomy", exact_slice, "ev") in edges
     assert (route_cut, exact_slice, "ev") in edges
     print("F2_ROUTE_SCOPE_REPAIR_PASS statuses=12/12 edges=13/13")
 

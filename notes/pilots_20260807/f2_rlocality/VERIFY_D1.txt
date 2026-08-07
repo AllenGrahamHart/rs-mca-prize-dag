@@ -1,0 +1,106 @@
+==============================================================================
+D1.0  THE ROW OF RECORD
+==============================================================================
+p        = 18446735827372343297
+S        = 2^38 = 274877906944      R = 4294967340 (banked)
+L        = log2 p = 63.999999355
+R/S      = 0.015625000160071      1/L = 0.015625000157455
+c*       = 1/ln2 - 1 = 0.4426950409
+PASS D1.0a :: saturation R/S = 1/log2 p holds to 1e-9 at the banked R
+PASS D1.0b :: log2 p = 63.999999355 reproduced
+
+==============================================================================
+D1.1  THE 8.60 REPRODUCED, AND WHAT IT IS
+==============================================================================
+L / log2(e L)                  = 8.599036
+log2(e L)                      = 7.442695   (= log2 L + log2 e)
+   split: log2 L = 6.000000  +  log2 e = 1.442695
+PASS D1.1a :: P1 CONFIRMED: L/log2(eL) = 8.5990 reproduces the node's 8.60
+COROLLARY 8 inequality  log2(e log2 p) >= log2 p :  7.442695 >= 63.999999  -> False
+multiplicative failure margin of COROLLARY 8    = L/log2(eL) = 8.599036
+PASS D1.1b :: 8.60 IS the multiplicative failure margin of COROLLARY 8's inequality
+
+I_INSTR(1)   = (1/L) log2(e L)          = 0.116292   ( = the node's '0.116 S')
+I_INSTR(c*)  = (1/L) log2(e eta_c*^2 L) = 0.070124
+eta_c*       = 2^c* - 1                 = 0.359141
+PASS D1.1c :: the node's 0.116 S is I_INSTR(1) = 0.116292, NOT I_INSTR(c*)
+PASS D1.1d :: P4 CONFIRMED: I_INSTR(c*) = 0.070124 (predicted 0.0701 +- 0.0005)
+
+THE THREE NUMBERS THE NODE CONFLATES
+  (a) DEF_INSTR(1)   = 1 / I_INSTR(1)     = 8.5990   <- the node's 8.60
+  (b) c* / I_INSTR(1)                     = 3.8068   <- the ratio the node's own
+                                                       sentence computes (0.443/0.116)
+  (c) DEF_INSTR(c*)  = c* / I_INSTR(c*)   = 6.3130   <- the deficit AT THE BINDING LAYER
+PASS D1.1e :: 8.60 = DEF_INSTR(1) exactly: it is a c = 1 constant
+PASS D1.1f :: the node's own two numbers have ratio 3.8068, which is neither 8.60 nor (c)
+PASS D1.1g :: P3 CONFIRMED: DEF_INSTR(c*) = 6.3130 (predicted 6.32 +- 0.03)
+
+==============================================================================
+D1.2  THE FOUR-FACTOR DECOMPOSITION  DEF = THETA * AMGM * GAUSS * CAP
+==============================================================================
+c             THETA       AMGM      GAUSS        CAP      product    DEF_INSTR
+0.1500      0.66043   13.07369    1.00302    1.00000      8.66039      8.66039
+0.2000      0.78342    7.95838    1.00560    1.05040      6.58566      6.58566
+0.2500      0.87282    5.49566    1.00913    1.25264      6.06343      6.06343
+0.3000      0.93478    4.10708    1.01377    1.53373      5.96936      5.96936
+0.3500      0.97416    3.23983    1.01968    1.87454      6.03271      6.03271
+0.4000      0.99484    2.65806    1.02708    2.27098      6.16787      6.16787
+0.4427      1.00000    2.29904    1.03479    2.65361      6.31303      6.31303 <- c*
+0.5000      0.99165    1.94451    1.04756    3.23328      6.53116      6.53116
+0.6000      0.94265    1.53782    1.07869    4.43910      6.94144      6.94144
+0.8000      0.73973    1.12827    1.20968    7.70910      7.78331      7.78331
+0.9500      0.46515    1.01297    1.60934   11.07600      8.39883      8.39883
+1.0000      0.01563    1.00000   44.36142   12.40579      8.59904      8.59904 <- c=1
+PASS D1.2a :: the four-factor product reproduces DEF_INSTR at every tabulated layer to better than 2% (falsifier F2 not triggered)
+
+AT c = 1 (where 8.60 lives):
+  THETA(1) = c/I_FLAT(1) = 1/L          = 0.015625   (the criterion's OWN slack at c=1)
+  AMGM(1)  = I_FLAT(1)/J_FLAT(1)        = 1.000000   (AM-GM is LOSSLESS at c=1)
+  GAUSS(1) = J_FLAT(1)/(log2(e))        = 44.361419   (moment-shape loss)
+  CAP(1)   = log2(e) L / log2(e L)      = 12.405786   (locality cap loss)
+  product                               = 8.599036
+PASS D1.2b :: P5 CONFIRMED: 8.60 = (1/64) x 1.000 x 44.36 x 12.41
+PASS D1.2c :: AMGM(1) = 1 exactly: at c = 1 both events are {all c_s = 0}
+PASS D1.2d :: P5's per-factor predictions GAUSS(1)=44.36+-0.5, CAP(1)=12.41+-0.05 hold
+
+AT c = c* (the binding layer, ZERO flat margin):
+  THETA(c*) = c*/I_FLAT(c*)             = 1.000000   (COROLLARY ZM: exactly 1)
+  AMGM(c*)                              = 2.299041
+  GAUSS(c*)                             = 1.034793
+  CAP(c*)                               = 2.653612
+  product                               = 6.313028   vs DEF_INSTR(c*) = 6.313028
+PASS D1.2e :: THETA(c*) = 1.000000 -- COROLLARY ZM's zero margin, measured
+PASS D1.2f :: P6 CONFIRMED: AMGM=2.299 GAUSS=1.035 CAP=2.654 at c*
+  LOSSIEST SINGLE STEP AT c*: CAP (factor 2.6536)
+PASS D1.2g :: P7: the lossiest step at the binding layer is the LOCALITY CAP
+
+==============================================================================
+D1.3  THE INSTRUMENT DEFICIT ACROSS LAYERS
+==============================================================================
+min_c DEF_INSTR(c) = 5.9692 attained at c = 0.298
+DEF_INSTR(c*)      = 6.3130
+DEF_INSTR(1)       = 8.5990
+PASS D1.3a :: P8 CONFIRMED: min_c DEF_INSTR = 5.969 near c = 0.30 (non-monotone)
+
+==============================================================================
+D1.4  SANITY CONTROLS AGAINST THE BANK
+==============================================================================
+PASS D1.4a :: Lambda(1) = -4.441e-16 = 0 (tail_count THEOREM 7)
+PASS D1.4b :: Lambda'(1) = 0.4426950409 = 1/ln2 - 1 (COROLLARY ZM)
+PASS D1.4c :: I_FLAT(c*) = 0.4426950409 = c*: the flat model saturates the criterion
+flat margin profile I_FLAT(c) - c :
+    c = 0.0000   margin = 0.157423
+    c = 0.2000   margin = 0.055291
+    c = 0.3000   margin = 0.020933
+    c = 0.4000   margin = 0.002077
+    c = 0.4427   margin = -0.000000
+    c = 0.5000   margin = 0.004211
+    c = 0.6000   margin = 0.036504
+    c = 0.8000   margin = 0.281469
+PASS D1.4d :: margin >= 0 everywhere, EXACTLY 0 at c* -- COROLLARY ZM reproduced
+COROLLARY 8 threshold: log2 p <= 3.0529  i.e.  p <= 8.299
+PASS D1.4e :: COROLLARY 8's log2 p <= 3.0529, p <= 8.30 reproduced independently
+Var(d) under the flat model = 6.847429
+
+D1 SUMMARY: 22 PASS, 0 FAIL
+EXIT=0

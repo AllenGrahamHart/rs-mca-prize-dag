@@ -59,7 +59,10 @@ def main():
     assert "general order-t star-PTE record" in coverage_statement
     assert "D_0+sum_{d>=1}D_d" in coverage_statement
     assert "remaining direct residue is coefficient-primitive" in coverage_statement
-    assert "None of these structural theorems bounds the residue" in coverage_statement
+    # wave-48 repin (coordinator): the coverage statement was rewritten by the SP
+    # quotient-sieve commits; the openness intent is carried by the TARGET pin above
+    # and this no-go clause of the current text.
+    assert "fixed aX+b is not an injective record key" in coverage_statement
     assert "16N^3-1" in coverage_statement
     assert {edge["to"] for edge in u1.get("evidence_for", [])} == {
         "x4_primitive_star_u1_coverage"

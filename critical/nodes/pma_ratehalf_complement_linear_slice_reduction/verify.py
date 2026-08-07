@@ -12,7 +12,7 @@ NODE = "pma_ratehalf_complement_linear_slice_reduction"
 ROOT = Path(__file__).resolve().parents[3]
 SOURCE = (
     ROOT
-    / "background"
+    / "critical"
     / "nodes"
     / "pma_ratehalf_two_petal_support_fiber_reduction"
     / "verify.py"

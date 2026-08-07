@@ -1,0 +1,93 @@
+==============================================================================
+D3.0  SIMPLEX SMOKE TESTS (the solver is written from scratch --
+      scipy.optimize does not import inside the ramguard wall limit)
+==============================================================================
+  textbook LP optimum = 36.000000 (exact 36)
+PASS D3.0a :: simplex reproduces the textbook optimum 36
+  pattern_lp(S=8,k=1,rho=0.5) = 0.500000000 (closed form rho = 0.5)
+PASS D3.0b :: pattern LP reproduces the k=1 closed form
+
+==============================================================================
+D3.1  THE FULL LP AT G1 (p=17, S=8, R=2) -- the exact toy-scale floor
+==============================================================================
+k-LOCAL(k): a bound is k-LOCAL iff valid for EVERY law on F_p^S whose
+every k-subset marginal is uniform on F_p^k (PREREG section D).
+OPT_k(c) = max Pr[cost <= (1-c)S];  I_LOC_k = -(1/S)log2 OPT_k;
+FLOOR_k(c) = c / I_LOC_k(c)  --  NO k-LOCAL bound beats this.
+
+G1: L = log2 17 = 4.0875, R/S = 0.2500, 1/L = 0.2447, Delta = R L - S = 0.175
+built: 12870 states; k=R -> 46 rows (0.0s)
+(k = 2R at G1 is 496 rows x 12870 columns and is run separately in verify_d3b.py)
+
+c          OPT_{k=R}   TRUE(GRS)   FLOOR_R  DEF_INSTR
+0.2000    3.2180e-01  3.4602e-03    0.9781     6.2696   [1.0s]
+0.3000    2.7303e-01  3.4602e-03    1.2815     3.8921   [0.8s]
+0.4427    2.1332e-01  3.4602e-03    1.5889     2.3790   [0.9s]
+0.6000    1.5354e-01  3.4602e-03    1.7756     1.5689   [0.9s]
+0.8000    8.4921e-02  3.4602e-03    1.7989     1.2532   [0.5s]
+1.0000    3.4602e-03  3.4602e-03    0.9786     1.1766   [0.0s]
+
+c = 1 endpoint: OPT_{k=R} = 3.4602076125e-03   p^{-R} = 3.4602076125e-03
+PASS D3.1a :: P9 CONFIRMED: OPT_R(1) = p^{-R} EXACTLY -- R-locality costs NOTHING at c = 1, the very layer at which 8.60 was computed (and the layer tail_count THEOREM 12 proves outright)
+(the k = 2R endpoint and binding layer are in VERIFY_D3B.txt)
+FLOOR_R(1) = 0.978602   ( <= 1 means: no R-local deficit at all )
+PASS D3.1c :: FLOOR_R(1) = 0.9786 <= 1
+
+binding layer c* at G1: OPT_R = 2.1332e-01, FLOOR_R = 1.5889
+PASS D3.1d :: a genuine EXACT toy-scale FLOOR at the binding layer: no k=R-local estimate beats factor X = 1.5889 at G1 (EVIDENCE, not a theorem uniform in the row)
+PASS D3.1f :: registered band for FLOOR at G1 was [1.2, 4.0]: measured 1.5889 -- HIT
+PASS D3.1g :: sanity: OPT_R(c) >= the TRUE GRS tail at every layer (the object is a member of the class)
+
+==============================================================================
+D3.2  A SECOND EXACT ROW (p = 41, S = 4, R = 1)
+==============================================================================
+p=41: L = 5.3576, R/S = 0.2500, 1/L = 0.1867, 10626 states, 22 rows
+  OPT_{k=R=1}(c*) = 6.415373e-01   FLOOR_R(c*) = 2.7651
+  G1  (L = 4.09, R/S = 0.250): FLOOR_R(c*) = 1.5889
+  p41 (L = 5.36, R/S = 0.250): FLOOR_R(c*) = 2.7651
+PASS D3.2a :: two exact rows only, both with R/S far off the official 1/L and tiny S: the L-dependence is NOT decidable from them
+
+==============================================================================
+D3.3  THE PATTERN LP (LEMMA RL-5 lifted floor) -- exact at moderate S
+==============================================================================
+rho(1-c*) = (2/pi) arccos(2^{-(1-c*)/2}) = 0.383070
+k = 2R  =>  L = S/R = 2S/k ;  k = R  =>  L = S/k
+
+S      k    kmul      L              OPTPAT       exp/S  asym exp/S      FLOOR
+32     4    2.0       16.0       7.1101e-04    0.326807    0.383137     1.3546
+64     4    2.0       32.0       1.8319e-04    0.193974    0.222819     2.2822
+128    4    2.0       64.0       4.6366e-05    0.112473    0.127034     3.9360
+256    4    2.0       128.0      1.1702e-05    0.063996    0.071330     6.9176
+64     8    2.0       16.0       2.1090e-07    0.346514    0.383137     1.2776
+128    8    2.0       32.0     OPT = 1.34e-08 BELOW SOLVER TOLERANCE -- DISCARDED
+256    8    2.0       64.0     OPT = 8.34e-10 BELOW SOLVER TOLERANCE -- DISCARDED
+192    12   2.0       32.0     OPT = 2.90e-10 BELOW SOLVER TOLERANCE -- DISCARDED
+256    16   2.0       32.0     OPT = 3.25e-13 BELOW SOLVER TOLERANCE -- DISCARDED
+
+CONVERGENCE AT FIXED LOCALITY RATIO k/S (the quantity that is pinned
+at the official row): the exact exponent RISES toward the closed form,
+so the exact FLOOR FALLS toward FLOOR_asym as S grows.
+   k/S = 1/8  :  S=32 exact 0.326807  S=64 exact 0.346514   -> closed form 0.383137
+CONVERGENCE at fixed k = 4 as S grows (all four points are well above
+the solver's reliable range):
+   S = 32    exact 0.326807   closed form 0.383137   +17.2%
+   S = 64    exact 0.193974   closed form 0.222819   +14.9%
+   S = 128   exact 0.112473   closed form 0.127034   +12.9%
+   S = 256   exact 0.063996   closed form 0.071330   +11.5%
+PASS D3.3a :: at FIXED k/S the exact pattern-LP exponent increases with S and stays below the closed form -- the closed form is the S -> infinity limit, which is the relevant value at S = 2^38, and finite-S floors OVERSTATE it
+
+official-row LIFTED floor (ASYMPTOTIC -- evidence, not a theorem):
+   k = R  : exponent 0.071330   FLOOR = 6.2063
+   k = 2R : exponent 0.127034   FLOOR = 3.4848
+PASS D3.3b :: P10: asymptotic FLOOR_R(c*) = 6.206 (registered 6.2+-0.4) and FLOOR_2R(c*) = 3.485 (registered 3.5+-0.3) -- CONFIRMED
+PASS D3.3c :: P11: DEF_INSTR(c*) = 6.3130 vs asymptotic FLOOR_R = 6.2063 (+1.7%), FLOOR_2R = 3.4848 (1.81x) -- CONFIRMED against the ASYMPTOTIC floor
+
+THE READING (official row, S = 2^38, so the S -> oo limit applies):
+   FLOOR_R (lifted, k = R)   = 6.2063
+   DEF_INSTR(c*)             = 6.3130   (+1.7%)
+   FLOOR_2R (lifted, k = 2R) = 3.4848   (headroom factor 1.81)
+PASS D3.3d :: the banked instrument sits +1.7% above the k=R lifted floor and 1.81x above the k=2R lifted floor.  Since THEOREM Z-2 places the object's supply STRICTLY BETWEEN R-wise and 2R-wise uniformity, the honest reading is: essentially OPTIMAL for what R-wise independence alone allows, with up to a 1.81x gain still on the table if Z-2's 2R-order information could be used in full
+
+D3 SUMMARY: 12 PASS, 0 FAIL, 1 MISS/UNRESOLVED
+  MISS/UNRESOLVED: P13 (L-dependence of FLOOR_k) UNRESOLVED: the exact full LP is feasible only at p <= ~41 (states = C(S+(p-1)/2, (p-1)/2)), too narrow an L-range to fit a law
+EXIT=0
