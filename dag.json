@@ -28898,6 +28898,30 @@
    }
   },
   {
+   "id": "x4_low_difference_johnson_positive_wedge_aggregate",
+   "title": "Low-difference Johnson-positive wedge aggregate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At one fixed base support, sum every exact nonconstant side-width/difference-degree stratum with Delta=4e^2-N(e+d)>0. The low-difference Johnson cell bound and the exact step Delta(e,d+1)=Delta(e,d)-N give a complete aggregate at most 5N^3/16: deep cells Delta>=N cost below N^3/16, and there is at most one boundary cell 0<Delta<N per e, costing at most N^3/4 total. Every remaining nonconstant record satisfies 4e^2<=N(e+d) and e>=t_XR+d+1.",
+   "refs": [
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/statement.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/proof.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/claim_contract.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/source_evidence.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/dependency_subdag.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/audit.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/result.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/frontier.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/lineage.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/verify.py",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "SP2: Low-degree difference incidence",
+    "relation": "OVERLAP"
+   }
+  },
+  {
    "id": "x4_maxfiber_local_shiftpair_equivalence",
    "title": "Maximum prefix fiber equals one plus maximum local shift-pair degree",
    "status": "PROVED",
@@ -28940,7 +28964,7 @@
    "title": "Primitive exact-list local general-star budget",
    "status": "TARGET",
    "closure": "open",
-   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31; either fixed-locator projection codegree is at most 1024, and the complete high-width band e>=N/4+1 costs at most N^3/64. The surviving d=1 interval is t+2<=e<=N/4; its distinct-locator projection and every d>=2 residue remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
+   "statement": "At an official base row let N=2^41, K=rho N, t=t_XR=min{0<=j<=N-K:q^j>=2^128 binom(N,N-K-j)}, and A=K+t. Fix the same support-wise first-match map as the final LIST ledger. For every primitive residual full locator-prefix fiber F_z^prim and base support S0, S maps injectively to (S\\S0,S0\\S), a general order-t star-PTE record. Prove |F_z^prim|-1<=16N^3-1 uniformly over official fields and domains. The exact difference-degree partition writes this local degree as D_0+sum_{d>=1}D_d, where d=deg(L_P-L_Q), D_0 is precisely the F-4 minimal constant-shift stratum, and d>=1 implies side width e>=t+d+1. The coefficient-scale quotient sieve removes every common scale c>1 and gives c|gcd(N,e,d); the remaining direct residue is coefficient-primitive. At d=1 the exact local object is a translated complementary-divisor incidence B|L_(S0), B+aX+b|L_(D\\S0), and fixed aX+b is not an injective record key. The official corridor gives t>=2^31; either fixed-locator projection codegree is at most 1024, and the complete high-width band e>=N/4+1 costs at most N^3/64. Across all d>=1, every cell with 4e^2>N(e+d) costs at most 5N^3/16 in aggregate. The surviving nonconstant wedge satisfies 4e^2<=N(e+d) and e>=t+d+1; D_0 and this wedge remain open. Transported quotient rows use their exact compiler-emitted tuple and own allowance and must appear in the final table.",
    "falsifier": "A consumed official or quotient row with a correctly stripped primitive full-prefix fiber containing more than 16N^3 actual LIST supports at that row's own scale under the declared first-owner map.",
    "refs": [
     "critical/nodes/x4_primitive_star_u1_coverage/statement.md",
@@ -28953,7 +28977,8 @@
     "background/nodes/upstream_sp_coefficient_scale_quotient_sieve/statement.md",
     "background/nodes/x4_linear_difference_translated_divisor_interface/statement.md",
     "background/nodes/x4_linear_difference_projection_codegree_bound/statement.md",
-    "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md"
+    "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md",
+    "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/statement.md"
    ],
    "upstream": {
     "source": "rs-mca v13 prob:capg-active-shiftpairs local primitive SP input",
@@ -54747,6 +54772,16 @@
   },
   {
    "from": "x4_low_difference_johnson_highwidth_bound",
+   "to": "x4_low_difference_johnson_positive_wedge_aggregate",
+   "kind": "req"
+  },
+  {
+   "from": "x4_low_difference_johnson_highwidth_bound",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "x4_low_difference_johnson_positive_wedge_aggregate",
    "to": "x4_primitive_star_u1_coverage",
    "kind": "ev"
   },

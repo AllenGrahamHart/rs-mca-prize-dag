@@ -83,6 +83,16 @@ sum_(e=N/4+1)^(N/2) D_(e,1)(S0)<=N^3/64.
 
 Thus only `t_XR+2<=e<=N/4` remains at `d=1`.
 
+More generally, all nonconstant cells with
+
+```text
+4e^2>N(e+d)
+```
+
+cost at most `5N^3/16` in aggregate.  The surviving nonconstant wedge is
+therefore `4e^2<=N(e+d)` together with `e>=t_XR+d+1`.  A sufficient bound for
+this wedge plus `D_0` is `(251/16)N^3-1`.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

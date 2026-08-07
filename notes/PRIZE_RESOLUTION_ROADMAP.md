@@ -19482,6 +19482,47 @@ new assumptions: none
 compute: no Modal; exact integer verifier plus independent attained N=8 extremal audit
 next: attack t_XR+2<=e<=N/4 using the 1024 projection codegree
 ```
+
+### X4/SP complete Johnson-positive wedge payment
+
+The low-difference Johnson formula can be summed across all exact `(e,d)`
+cells, not only `d=1`.  Put
+
+```text
+Delta_(e,d)=4e^2-N(e+d).
+```
+
+For `Delta>=N`, each cell costs at most `e-d<=N/2`, and there are fewer than
+`N^2/8` cells.  For `0<Delta<N`, increasing `d` by one subtracts exactly `N`,
+so there is at most one boundary cell per `e`; each costs at most `N^2/2`.
+Therefore
+
+```text
+sum_(Delta_(e,d)>0) D_(e,d)<=N^3/16+N^3/4=5N^3/16.
+```
+
+Every remaining nonconstant record is now confined to
+
+```text
+4e^2<=N(e+d),       e>=t_XR+d+1.
+```
+
+Together with the minimal `D_0` stratum, this residual has a sufficient
+allowance `(251/16)N^3-1`.  This is a geometric narrowing only; no bound on
+the reverse-inequality wedge is claimed.
+
+```text
+starting pin: 1662cf277; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 8; none closes SP2
+lane: X4 / upstream SP2 low-degree difference incidence
+result: PAID every Johnson-positive nonconstant cell by 5N^3/16
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP theorem for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact finite controls through N=128 and independent even-N denominator audit
+next: attack 4e^2<=N(e+d), e>=t_XR+d+1; retain D_0 separately
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

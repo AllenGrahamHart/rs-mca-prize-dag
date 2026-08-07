@@ -1508,6 +1508,31 @@
    }
   },
   {
+   "our_node": "x4_low_difference_johnson_positive_wedge_aggregate",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "low-difference Johnson cell bound -> denominator-step partition -> complete positive-wedge aggregate",
+   "scope": "fixed-base nonconstant SP cells: the complete region 4e^2>N(e+d) costs at most 5N^3/16, leaving the explicit reverse-inequality wedge",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the Johnson-nonpositive wedge",
+    "does not pay the minimal d=0 stratum",
+    "does not transport the numerical aggregate to a different quotient tuple",
+    "does not close primitive SP, X4, or LIST"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "1662cf277",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
    "our_node": "f3_affine_coset_pair_mattarei_bound",
    "his_object": {
     "label": "SP: primitive shift-pair control / exact second-moment ledger",

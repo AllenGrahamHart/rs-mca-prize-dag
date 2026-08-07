@@ -30,6 +30,9 @@
    The high-width interval `e>=N/4+1` is already paid in aggregate by the
    low-difference Johnson theorem.  Restrict the projection attack to
    `t_XR+2<=e<=N/4`.
+   Across all `d>=1`, the entire Johnson-positive region
+   `4e^2>N(e+d)` is paid by `5N^3/16`.  Restrict every further nonconstant
+   attack to `4e^2<=N(e+d)` and retain the exact side-width pin.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by
