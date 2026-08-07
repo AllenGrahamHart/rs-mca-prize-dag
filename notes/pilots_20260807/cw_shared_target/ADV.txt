@@ -1,0 +1,60 @@
+========================================================================================================
+ADV-1 -- is EXCESS-CRATIO := (TMASS-1)*p^kappa/(2^N-1) BOUNDED as p grows at fixed (N,kappa)?
+========================================================================================================
+M2 family (negacyclic GRS, Lambda={1,3,...,2R-1}); every cell with a NONZERO ternary kernel:
+   S   R        p     SIGMA   UMIN  A[UMIN]        TMASS-1         EXCESS
+   8   2       17    -0.175      6       16           0.25         0.2833
+   -> S=8 R=2 : 1 cells with a nonzero kernel out of the sweep; MAX EXCESS = 0.2833 at p=17
+  16   2       97     2.800      5       64        8.38721         1.2042
+  16   2      193     0.815      7       96         1.5918         0.9048
+  16   2      257    -0.011      7       32       0.737305         0.7431
+  16   2      353    -0.927      9       32        0.15625         0.2971
+  16   2      449    -1.621      8       32       0.253906         0.7811
+  16   2      577    -2.345      8       32        0.15625         0.7938
+  16   2      641    -2.648      9       32       0.110352         0.6919
+  16   2      673    -2.789      9       32      0.0976562         0.6749
+  16   2      929    -3.719      9       32         0.0625         0.8231
+  16   2     1153    -4.342     12       32      0.0078125         0.1585
+  16   2     1409    -4.921      9       32      0.0703125         2.1300
+  16   2     1889    -5.767     10       32        0.03125         1.7015
+  16   2     3137    -7.230     11       32       0.015625         2.3463
+   -> S=16 R=2 : 13 cells with a nonzero kernel out of the sweep; MAX EXCESS = 2.3463 at p=3137
+FAIL  ADV-1 EXCESS-CEILING(C=2) survives the extended M2 sweep     max EXCESS = 2.3463 at p=3137
+PASS  ADV-1 EXCESS-CEILING(C=4) survives the extended M2 sweep     max EXCESS = 2.3463 at p=3137
+
+M4 family (RSET, kappa = 1), extended sweep -- where do relations die?
+   L        p     SIGMA   UMIN  A[UMIN]        TMASS-1         EXCESS
+   8      337    -0.397      7       16          0.125         0.1652
+   8      353    -0.464      6       16          0.375         0.5191
+   8      401    -0.647      5       16            0.5         0.7863
+   8      433    -0.758      5       16            0.5         0.8490
+   8      577    -1.172      6       16           0.25         0.5657
+   8      881    -1.783      7       16          0.125         0.4319
+   -> L=8 : last p with a relation = 881 (sweep limit 30000); MAX EXCESS = 0.9375 at p=17
+  16    19489     1.750      6       64        3.00684         0.8942
+  16    19553     1.745      6       32        2.82422         0.8426
+  16    19681     1.735      5       32        3.44727         1.0353
+  16    19777     1.728      5       32        4.05566         1.2239
+  16    19841     1.724      6       64        3.27051         0.9902
+  16    19937     1.717      5       32        3.91602         1.1913
+   -> L=16 : last p with a relation = 19937 (sweep limit 20000); MAX EXCESS = 1.3343 at p=18401
+PASS  ADV-1 EXCESS-CEILING(C=2) survives the extended M4 sweep     max EXCESS = 1.3343 at p=18401
+
+========================================================================================================
+ADV-2 -- the WEAKER ratio form.  CRATIO-CEILING(C): TMASS(D) <= C * (1 + (2^N-1)/p^kappa).
+========================================================================================================
+   max CRATIO over every swept cell of BOTH families (2-power grids only) = 1.2610 at ('M4', 16, 1, 18401)
+PASS  ADV-2 CRATIO-CEILING(C=2) survives every swept cell of both families max CRATIO = 1.2610 at ('M4', 16, 1, 18401)
+
+What CRATIO-CEILING(C) buys mystery 4 (weaker form; C enters as (C-1) when SIGMA < 0):
+  v     L |      S(v)        U2 |    C=1.1 e=6  C=1.1 e=1lo      C=2 e=6    C=2 e=1lo
+ 34   128 |  117.1491  243.6279 |     122.6781     124.9005     126.0000     126.7370
+PASS  ADV-2 CRATIO-CEILING(C=1.1) de-vacuums v=34 at e=6           2^122.6781 < B*=2^127.5098 (margin +4.8317 bits)
+PASS  ADV-2 CRATIO-CEILING(C=1.1) de-vacuums v=34 at the e=1 prime floor 2^124.9005 < B*=2^127.5098 (margin +2.6093 bits)
+PASS  ADV-2 CRATIO-CEILING(C=2) de-vacuums v=34 at e=6             2^126.0000 < B*=2^127.5098 (margin +1.5098 bits)
+PASS  ADV-2 CRATIO-CEILING(C=2) de-vacuums v=34 at the e=1 prime floor 2^126.7370 < B*=2^127.5098 (margin +0.7728 bits)
+ 35    64 |   54.6242  117.0820 |      58.6781      58.6781      62.0000      62.0000
+
+========================================================================================================
+TOTAL: 7 PASS / 1 FAIL
+========================================================================================================

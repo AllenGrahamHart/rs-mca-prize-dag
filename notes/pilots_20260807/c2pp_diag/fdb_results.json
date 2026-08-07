@@ -1,0 +1,114 @@
+{
+ "worst_a1": 0.0008610534668544452,
+ "worst_a33": 0.02841476440619669,
+ "worst_accident_column_bits": 63.349468817469294,
+ "rows_expecting_multiple_accidents": [
+  [
+   2,
+   8353
+  ],
+  [
+   4,
+   97
+  ]
+ ],
+ "allowance": 1.5544062817709192,
+ "rows": [
+  {
+   "t": 2,
+   "q": 97,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": 1.0,
+   "accident_column_bits": 0.0,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 44278048.0
+  },
+  {
+   "t": 2,
+   "q": 193,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": 1.0,
+   "accident_column_bits": 0.0,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 22262368.0
+  },
+  {
+   "t": 2,
+   "q": 8353,
+   "n_accidents": 3,
+   "accident_charge_once": 0.0008610534668544452,
+   "accident_charge_owned": 0.02841476440619669,
+   "accident_column_factor": null,
+   "accident_column_bits": null,
+   "window_lam_total": 40.72309349934155,
+   "accident_mass": 320.0,
+   "s_all": 536000.0
+  },
+  {
+   "t": 2,
+   "q": 32801,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": null,
+   "accident_column_bits": null,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 170112.0
+  },
+  {
+   "t": 3,
+   "q": 97,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": 1.0,
+   "accident_column_bits": 0.0,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 615200.0
+  },
+  {
+   "t": 3,
+   "q": 193,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": 1.0,
+   "accident_column_bits": 0.0,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 169856.0
+  },
+  {
+   "t": 4,
+   "q": 97,
+   "n_accidents": 1,
+   "accident_charge_once": 0.0003001393969088544,
+   "accident_charge_owned": 0.009904600097992195,
+   "accident_column_factor": 3.783393600850697,
+   "accident_column_bits": 63.349468817469294,
+   "window_lam_total": 0.4642363694335211,
+   "accident_mass": 128.0,
+   "s_all": 615200.0
+  },
+  {
+   "t": 4,
+   "q": 193,
+   "n_accidents": 0,
+   "accident_charge_once": 0.0,
+   "accident_charge_owned": 0.0,
+   "accident_column_factor": null,
+   "accident_column_bits": null,
+   "window_lam_total": 0,
+   "accident_mass": 0,
+   "s_all": 169856.0
+  }
+ ]
+}

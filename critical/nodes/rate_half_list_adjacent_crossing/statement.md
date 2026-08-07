@@ -36,6 +36,9 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
 - `statement_addenda/14-round22-u2-accident-cap.md`: Round-22 PROPOSITION U2
   — first accident upper bound of record; crux relocated to the
   constant-weight BCH population cap.
+- `statement_addenda/15-round23-cw-pricing.md`: Round-23 constant-weight
+  pricing — deep stratum settled at v>=35; Acc_shallow not bridged; one
+  object, two targets.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.

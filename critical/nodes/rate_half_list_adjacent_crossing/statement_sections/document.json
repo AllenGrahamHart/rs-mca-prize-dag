@@ -22,6 +22,14 @@
     "es_ternary_suppression_instruments"
    ],
    "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/14-round22-u2-accident-cap.md"
+  },
+  {
+   "dag_nodes": [
+    "rate_half_list_adjacent_crossing",
+    "crossing_dsa_refutation",
+    "es_ternary_suppression_instruments"
+   ],
+   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/15-round23-cw-pricing.md"
   }
  ],
  "pre_refactor_line_count": 4059,

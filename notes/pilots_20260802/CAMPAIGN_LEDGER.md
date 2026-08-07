@@ -2782,3 +2782,146 @@ MUST pass this quarantine clause to any subagent they dispatch.
   by invariance. Codex has one uncommitted node in progress in the
   v12 worktree (fixed_balanced_quadratic_branch_reduction) — left
   untouched; it belongs to wave 50.
+
+## ROUND 23 LAUNCHED (2026-08-07) — QUARANTINE MARKER
+
+Four pilots: cw_shared_target (the constant-weight instrument priced
+as the SHARED target of mysteries 2 and 4 — the four-lane
+convergence play), fpc5_diag (the three new FPC5 reds: standard
+grind or mystery-hard), ge_lattice_cert (the dim-64 per-row
+emptiness certification EXECUTED — mystery 5's first positive step),
+c2pp_diag (mystery 3 C1'/C2'' — the full diagnosis pipeline it never
+had). Pilots MUST NOT read ledger entries below this marker and MUST
+pass this quarantine clause to any subagent they dispatch.
+
+## 2026-08-07: round-23 agent 1 BANKED — c2pp_diag: the twice-survived C2'' margin is an ARTIFACT (theta-fragile + selection-biased); the evidence ledger reset symmetrically; C2''-r3 is the pose of record
+
+- **c2pp_diag (Opus) BANKED, MAINTAINER-LEVEL** (all four scripts
+  coordinator-replayed; positive controls bit-exact against the
+  banked packet). (1) BRIEF CORRECTED by the pilot before
+  computing: C2'' had survived TWO F-rounds (M1 + c2r2); my brief
+  conflated that with the 2026-07-07 kill of the predecessors —
+  this round is F-ROUND 3, and it properly minted a NEW falsifier
+  family instead of replaying. (2) THE THETA KILL (no new
+  transport needed): the pose's "insensitive for theta in [2,4]"
+  claim REFUTED on its own 8 rows — F-b's own kill rule FIRES at
+  every theta in {2.5, 3, 4} (x_max 1.0662 -> 2.2387; 14.53% ->
+  182.71% of reserve; 35.3-bit spread across the declared-
+  immaterial range). The 85% margin was manufactured by the
+  theta=2 accident cut (two classes clearing it by 0.24/0.14).
+  (3) SELECTION BIAS: all three original falsifiers excluded the
+  high-loss cells by three different mechanisms (F-b's b>0 filter;
+  F-c's window cap; F-a's stripped object). (4) THE STATEMENT GAP:
+  the `_reduced` qualifier separating the defended clause from the
+  wired claim lives in ONE line of ONE script and is dropped by
+  the very next use; clause (i) conflates internal-correlation-
+  freedom (true) with contribution-freedom (false — conditioning
+  shifts weight INTO the coset class up to 21.8x); clause (iii)
+  "counted once" non-conservative at 2/8 rows. (5) THE HONEST
+  PEAK: the pilot's own F-d overflow (482%) RETIRED TOGETHER with
+  the survivals under the now-binding SYMMETRIC not-evidence
+  clause — uniform 33x stacking is evidence in NEITHER direction
+  (Pro's 2026-08-01 demotion + the 32-wise trap now recorded on
+  the node). (6) RE-POSE OF RECORD ADOPTED: C2''-r3 — the
+  unreduced junction-sum form the consumer actually needs;
+  falsifiers G-a/G-b demand >= 8 CONSECUTIVE junctions of a
+  SINGLE tower. STANDING: C2'' is UNMEASURED AT ITS OWN QUANTIFIER
+  DEPTH; the decisive instrument does not exist in the repo
+  (Modal-scale, M1-shaped) — round-24 candidate: spec + price it.
+  (7) Catches C-1..C-8 ALL APPLIED (statement addendum; node.json
+  path/rounds/notes fixes; the roadmap FD-schema gate adjudicated
+  UNSUPPORTED — H2 has no live instance). No status flip (TARGET
+  stays); census unchanged; chain green. The risk register had
+  anticipated exactly this outcome.
+- Awaiting: cw_shared_target, fpc5_diag, ge_lattice_cert.
+
+## 2026-08-07: round-23 agent 2 BANKED — cw_shared_target: ONE OBJECT, TWO TARGETS; CONJECTURE Z-CEILING minted as mystery 2's candidate closure; the first official-row datum on the shared functional
+
+- **cw_shared_target (Opus) BANKED, MAINTAINER-LEVEL** (130/29
+  replayed exactly; every FAIL an itemized registered miss; G1/G4
+  licensing controls bit-exact from a fresh code path). (1) THE
+  VERDICT: the four-lane convergence is real on the OBJECT
+  (mystery 4's deep-stratum population IS mystery 2's ternary
+  theta TMASS via the LEMMA TC bijection — 20/20 fold-vs-brute +
+  12/12 vs banked N_acc; weight distortion GDEV exactly computed,
+  max = Theta(sqrt L)) and on the DIRECTION (both need the upper
+  companion of proved floors), but NOT on the bottleneck: mystery
+  2 pays a 0-bit bridge; mystery 4's live crux (Acc_shallow +
+  aperiodic S) sits off the periodic strata and its only bridge
+  (collision/C-S) loses 0.31-0.50 of kappa*log2 p = >= 4.565e11
+  bits at the official row vs a 54.45-bit tolerance (ratio
+  8.4e9). TWO SEPARATE TARGETS; no unification language; round-19
+  gates graded. (2) **CONJECTURE Z-CEILING** (the upper companion
+  of THEOREM Z-FLOOR): sharp EXCESS form FALSIFIED by the pilot's
+  own registered adversarial search at (16,2,3137) (EXCESS 2.3463,
+  growing along SIGMA -> -inf) BEFORE proposal; ratio form
+  survives 7,000+ exhaustive 2-power cells at C <= 1.2610; iff
+  C < 2^4.77 it closes mystery 2's finite target with 4.44 bits
+  headroom (and the terminal is open ONLY under the exact-balance
+  reading); load-bearing hypothesis = the 2-power grid (composite
+  2L: EXCESS 178.51, linear in p). Recorded on
+  f2_z1_mass_knife_edge with the NORMALIZATION PIN (the banked
+  factor-2 calibration covers RATIO only; EXCESS exceeds 2 in
+  f2's own family — the pilot's catch). (3) THE FIRST
+  OFFICIAL-ROW DATUM on the shared functional: THEOREM BB's
+  2^199.575 floor composed with the TC identity => the official
+  ternary theta sits 11.84 bits BELOW its volume heuristic —
+  consistent with the ceiling. (4) The crossing ledger updated
+  (statement_addenda/15): deep stratum settled at v >= 35 by the
+  TRIVIAL bound; the ceiling would de-vacuum only v=34 e=1 prime
+  rows (+2.09 bits, conditional); Acc_shallow NOT bridged — the
+  crux stays PRIMAL and unshared. (5) SC-1: the pilot's kappa = e
+  defect caught because it CONTRADICTED BANKED BB by 73.575 bits
+  — the tripwire mechanism working as designed; four registered
+  predictions falsified and reported; subtraction disclosed up
+  front. DEFERRED: the integer_code_distance_cert qualification
+  waits for ge_lattice_cert (reading that node now). ROUND-24
+  CANDIDATES: a Z-CEILING proof attempt; the primal BCH
+  population cap as its own brief.
+- Awaiting: fpc5_diag, ge_lattice_cert.
+
+## 2026-08-07: round-23 agent 3 BANKED — fpc5_diag: ALL THREE FPC5 reds are MYSTERY-HARD against ONE wall (MF), with the first quantitative handles; a mystery-7 promotion question SURFACED
+
+- **fpc5_diag (Opus) BANKED, MAINTAINER-LEVEL** (identity table +
+  official constants + A1 gate + the cap-4 adversary all
+  coordinator-replayed exactly). (1) THE STRUCTURE: the
+  CODIMENSION-RESERVE IDENTITY codim(F-flat) = sigma holds
+  identically (verified ell = 4..39 both families, matching the
+  nodes' printed codims) => every FPC5 first moment is
+  <= 2^{-7.948e12} at the official row — NONE of the three reds is
+  a counting problem; all are max-to-mean on a Theta(n)-dim flat.
+  The single statement (MF) specializes exactly to all three AND
+  to upstream prob:capfr1-master-flatness: shape-pun test PASSES —
+  ONE WALL. The mystery-6-style counting rescue is dead in advance
+  (box = binom(N, 0.4N), exponential). (2) RED 1: the pilot
+  invented a STRONGER adversary than the node's own attack surface
+  (the guarded flat is C-independent => core-choosable set
+  packing, exhaustive sound BB) and it stops DEAD at 4 —
+  q-INVARIANT (8x more split members at q=193, still 4), flat in
+  ell, 0 hits on the official domain; ~1200x adversarial gain over
+  the mean, then a wall. Scope pin: the banked nonemptiness census
+  is label-free (factor ~q = 85x measured); sharpened overlap cap
+  |D cap D'| <= 2s-b derived and witness-checked. (3) RED 2: the
+  live LS6 tail is PROVABLY UNREACHABLE by any census ever
+  (minimal cell binom(42,17) = 2.5e11); at the off-tail cell the
+  atom is generic to 2%, the measured packing cap EQUALS the
+  proved Bonferroni cap (instrument tight), and 52.4% of the atom
+  sits at the TRIVIAL owner G=1 where the fixed-owner theorem is
+  worthless — the binding problem is OWNER-QUALITY, not the
+  owner-count the attack list targets. (4) RED 3: least defended;
+  the registered exposure FIRED as an exposure (408 unsieved
+  residual rows, e up to n/3; no t>=4 overlap theorem; no
+  background guard; t <= M always; touched-subset multiplicity is
+  FREE — the attack note aims at a non-obstruction). THE NAMED
+  GATE: the t-petal overlap-cap lemma (proved at t=2,3) legalizes
+  the whole precomputed J-sieve at a stroke. (5) Honest ledger:
+  one disclosed compute-law slip (errored, zero contamination),
+  the unsound prune self-caught (answer unchanged), two
+  registered-not-run cells, the free-domain relaxation disclosed.
+  Addenda applied to all three red nodes. **SURFACED (user's
+  call): promote the (MF) master split-locator flatness wall to
+  MYSTERY 7?** Accounting if ratified: 28 = 14 + 9 + 2 + 3(MF).
+  Round-24 candidates: the ell=4 finite decision; the base-cover
+  number; the t-petal overlap-cap lemma (highest single-lemma
+  leverage on the board).
+- Awaiting: ge_lattice_cert (the last of round 23).

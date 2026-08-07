@@ -1,0 +1,77 @@
+{
+ "allowance": 1.5544062817709192,
+ "rows": [
+  {
+   "t": 2,
+   "q": 8353,
+   "raw_ratio": 4.2513705418317835,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 15.453658111042184,
+   "mixture_only_ratio": 3.474702752660102,
+   "internal_only_ratio": 2.0092338308457713,
+   "interaction_residual": 0.6089488555131829,
+   "overflow": true,
+   "is_control": false
+  },
+  {
+   "t": 2,
+   "q": 32801,
+   "raw_ratio": 8.398887399216648,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 21.80101826866978,
+   "mixture_only_ratio": 9.908664089044754,
+   "internal_only_ratio": 0.3852520692249812,
+   "interaction_residual": 2.200197531448612,
+   "overflow": true,
+   "is_control": false
+  },
+  {
+   "t": 4,
+   "q": 97,
+   "raw_ratio": 2.8187358029336016,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 2.405459686230402,
+   "mixture_only_ratio": 1.7325757724071211,
+   "internal_only_ratio": 2.1122442939778483,
+   "interaction_residual": 0.7702256708469482,
+   "overflow": true,
+   "is_control": false
+  },
+  {
+   "t": 4,
+   "q": 193,
+   "raw_ratio": 3.566306794344376,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 9.243142804873022,
+   "mixture_only_ratio": 4.2741052790028,
+   "internal_only_ratio": 0.3858327053504144,
+   "interaction_residual": 2.162591279695749,
+   "overflow": true,
+   "is_control": false
+  },
+  {
+   "t": 2,
+   "q": 97,
+   "raw_ratio": 0.9982634047652964,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 1.0892072949107199,
+   "mixture_only_ratio": 1.0004003822934695,
+   "internal_only_ratio": 0.9888999451622932,
+   "interaction_residual": 1.009064549572397,
+   "overflow": false,
+   "is_control": true
+  },
+  {
+   "t": 3,
+   "q": 193,
+   "raw_ratio": 1.1635215624519777,
+   "coset_internal_ratio": 1.0,
+   "coset_weight_shift": 1.319330052931692,
+   "mixture_only_ratio": 1.1132785858915513,
+   "internal_only_ratio": 1.0486232367975525,
+   "interaction_residual": 0.996669351445947,
+   "overflow": false,
+   "is_control": true
+  }
+ ]
+}

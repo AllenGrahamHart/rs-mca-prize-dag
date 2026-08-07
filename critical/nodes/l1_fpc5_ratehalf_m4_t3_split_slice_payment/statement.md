@@ -119,3 +119,38 @@ In particular, if `g=h-c`, this is less than `3^(c+1)` per owner. The
 fixed-owner top-overlap chambers are therefore paid. The unresolved content
 is aggregation or chronology-valid transport across the potentially many
 different owners `G`, together with the low-ladder prefix theorem.
+
+## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
+
+**CLASSIFICATION: MYSTERY-HARD** (the master split-locator flatness
+wall (MF), shared with the m4_t2 and large-source reds), with a
+strictly harder ACCESS problem: the minimal live J <= 0 tail cell
+is (ell,b,a) = (9,8,1) with binom(42,17) = 2.55e11 — provably
+unreachable by any local census or chart enumeration, ever
+(1,909,782 live cells for ell <= 400). The tightest of the three
+consumer contracts: < 4n atoms means the PER-ATOM bound must beat
+the global exponent by a full power of n.
+
+**THE OWNER-QUALITY FINDING (measured at the off-tail cell
+(4,1,1), q = 101, full 1,030,301-member chart enumerated exactly,
+25 trials):** the atom matches its generic prediction to 2% (no
+amplification); max core packing = 3 = EXACTLY the proved
+Bonferroni cap from the pair-determinant overlap bound (the
+instrument is tight); and the canonical-owner histogram puts the
+MAJORITY of the atom (52.4%) at g = 0 — the single trivial owner
+G = 1, where the fixed-owner packing charge 3^{h-g+1} is maximal.
+The binding problem is OWNER-QUALITY AT G = 1, not owner-count:
+the attack list's "coalesce the realized G strata" aims at
+multiplicity, but one owner already holds the mass and the theorem
+is worthless exactly there. (MEASURED at h = 2; larger h
+untested.)
+
+**Cheapest decisive probe:** the BASE-COVER NUMBER of the G = 1
+stratum — how many bases D_0 cover every member at bounded
+co-deficiency? O(1) => the fixed-owner theorem composes and the
+atom is paid; growing => the route is dead. Computable from the
+already-produced root-set data (a set-cover on 39-member atoms);
+minutes. Also noted: the supplier's <= restated here as < (one
+character); and the e/M/Q notation collisions across the
+three-petal vs ladder nodes are a live hazard (e = 2d+1-3ell vs
+deg Etilde). Source: notes/pilots_20260807/fpc5_diag/.

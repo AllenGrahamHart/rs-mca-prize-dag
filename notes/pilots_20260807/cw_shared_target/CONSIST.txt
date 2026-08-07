@@ -1,0 +1,58 @@
+========================================================================================================
+CORRECTED SECTION B.  kappa = delta_a = 1 (NOT e).  All rows in the break region have delta_a = 1.
+========================================================================================================
+Chain (an IDENTITY + one exact finite bound + the assumed ceiling):
+  (i)  LEMMA TC identity, verified 20/20 at toy scale and 12/12 against bb's N_acc:
+         Acc_deep_total = C(L,r'/2) * sum_{eps in RSET, eps != 0} GDEV(U) * 2^-U ,  r' = L-2
+  (ii) exact finite bound: GDEV(U) <= GDEVmax(L) := max_U GDEV(L,L-2,U) = 2^{L-2}/C(L,L/2-1)
+  (iii)assumed EXCESS-CEILING(C):  sum_{eps != 0} 2^-U  <=  C * (2^L - 1)/p^{delta_a}
+  =>   Acc_deep_total <= C(L,r'/2) * GDEVmax(L) * C * (2^L - 1)/p
+
+  v     L |      S(v)        U1        U2 |   SIGMA_w |  CEIL C=1 w  CEIL C=2 w | CEIL C=1 e1 CEIL C=2 e1
+ 34   128 |  117.1491  251.6279  243.6279 |    85.415 |    211.4150    212.4150 |    124.4150    125.4150
+ 35    64 |   54.6242  124.0820  117.0820 |    21.415 |     83.4150     84.4150 |     -3.5850     -2.5850
+ 36    32 |   24.0755   60.4910   54.4910 |   -10.585 |     19.4150     20.4150 |    -67.5850    -66.5850
+ 37    16 |    9.4818   28.8125   23.8125 |   -26.585 |    -12.5850    -11.5850 |    -99.5850    -98.5850
+ 38     8 |    2.8074   12.9672    8.9773 |   -34.585 |    -28.5850    -27.5850 |   -115.5850   -114.5850
+ 39     4 |    0.0000    4.8074    2.0000 |   -38.585 |    -36.5850    -35.5850 |   -123.5850   -122.5850
+  (log2 throughout.  'w' = witness tower row p = 3*2^41+1 (log2 p = 42.584963, delta_a = 1);
+   'e1' = e = 1 prime rows at the live-window FLOOR log2 p = 129.5849625.  B* = 2^127.5098)
+
+========================================================================================================
+THE CONSISTENCY TEST -- does the proposed shared form CONTRADICT banked THEOREM BB?
+========================================================================================================
+THEOREM BB (statement_addenda/13-wave47-theorem-bb.md:3-9): at break-region TOWER rows
+  (delta_a = 1, e >= 3, witness p = 3*2^41+1, q = p^6):  max-shell X_{2^34} >= 2^199.575 > B*.
+  The e = 1 prime rows are 'untouched and provably unreachable by the method'.
+
+  ceiling bound on Acc_deep at v=34, witness tower row, C=1 : 2^211.4150
+  THEOREM BB's proved floor on the same functional        : 2^199.5750
+PASS  BB's floor lies BELOW the ceiling's bound at C=1 (no contradiction) 2^199.5750 <= 2^211.4150, slack 11.8400 bits
+  => BB IMPLIES, at the official row:  EXCESS-CRATIO >= 2^-11.8400  (i.e. 11.8400 bits BELOW the
+     volume heuristic).  The official object is therefore NOT a counterexample to the ceiling;
+     the only banked official-row datum about this functional is CONSISTENT with it.
+PASS  the shared form is NOT refuted at the official row by BB       implied EXCESS-CRATIO >= 2^-11.8400 <= 2^0
+PASS  the ceiling does NOT de-vacuum v=34 at the TOWER rows (agrees with BB's budget break) CEIL(C=2) = 2^212.4150 > B* = 2^127.5098
+PASS  the ceiling DOES de-vacuum v=34 at the e=1 PRIME rows (which BB cannot reach) CEIL(C=2) = 2^125.4150 < B* = 2^127.5098, margin +2.0947 bits
+
+  gain at v=35 (where U2 already suffices): U2 margin +10.4278 bits -> ceiling margin +43.0947 bits (C=2, witness)
+PASS  the ceiling strictly improves the v=35 witness-row margin over U2 84.4150 vs 117.0820 (gain 32.6669 bits)
+
+========================================================================================================
+WHAT THE CEILING IS WORTH TO M4, ROW BY ROW (C = 2; log2)
+========================================================================================================
+  v | witness tower row (delta_a=1, e=6) | e=1 prime rows, log2 p = 129.585  
+ 34 | U2 >= B*, CEIL >= B*               | U2 >= B*, CEIL < B*               
+ 35 | U2 < B*, CEIL < B*                 | U2 < B*, CEIL < B*                
+ 36 | U2 < B*, CEIL < B*                 | U2 < B*, CEIL < B*                
+ 37 | U2 < B*, CEIL < B*                 | U2 < B*, CEIL < B*                
+ 38 | U2 < B*, CEIL < B*                 | U2 < B*, CEIL < B*                
+ 39 | U2 < B*, CEIL < B*                 | U2 < B*, CEIL < B*                
+
+  NET: the ceiling changes NO verdict at v >= 35 (U2 already suffices there);
+       at v = 34 it de-vacuums ONLY the e = 1 prime rows, and it must NOT de-vacuum the
+       tower rows -- and it does not, by 84.9053 bits.
+
+========================================================================================================
+TOTAL: 5 PASS / 0 FAIL
+========================================================================================================
