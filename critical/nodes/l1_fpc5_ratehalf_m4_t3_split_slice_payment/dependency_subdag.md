@@ -10,6 +10,7 @@ l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness [PROVED]+
 l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder [PROVED] ----+
 l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction [PROVED] --+
 l1_fpc5_ratehalf_inverse_ratio_degree_gate [PROVED] ------------+
+l1_fpc5_ratehalf_ls6_pair_determinant_router [PROVED] ----------+
                                                                   v
   l1_fpc5_ratehalf_m4_t3_split_slice_payment [TARGET]
     --req--> l1_full_petal_fpc5_payment [CONDITIONAL]

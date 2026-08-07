@@ -20394,6 +20394,46 @@ new assumptions: none
 compute: no Modal; deterministic exact GF(257) CRT replay under 256 MB RAM guard
 next: classify surviving source-ratio degrees and test cyclic relabeling as simultaneous gates
 ```
+
+### Guarded LS6 primitive pair determinant
+
+For every candidate, the quotient in `DE=MQ+V` is primitive:
+
+```text
+deg Q=e-a,       gcd(D,Q)=1.
+```
+
+For two distinct candidates in one fixed atom,
+
+```text
+H_12=D_1Q_2-D_2Q_1=(D_2V_1-D_1V_2)/M,
+0!=H_12,       deg H_12<=ell-2a.
+```
+
+Thus `gcd(D_1,D_2)|H_12`, candidate root sets meet in at most `ell-2a`
+points, and the determinant separates candidates relative to a fixed base.
+The induced constant-weight Johnson denominator is exactly
+
+```text
+(2ell-a)^2-(4ell+b-2)(ell-2a)=J.
+```
+
+Since the live tail has `J<=0`, this proves a route fence as well as a
+router: pairwise distance cannot close the cell. The next theorem must use
+compatibility among several low-degree determinants, their split factors,
+or owner-safe quotient structure.
+
+```text
+starting pin: 1577be145; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / primitive shift pairs
+result: PROVED low pair determinant, root-intersection cap, injection, and exact Johnson fence
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair/split-pencil router
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) pair replay under 256 MB RAM guard
+next: exploit three-or-more determinant compatibility; do not repeat distance-only packing
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

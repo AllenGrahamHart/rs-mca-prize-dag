@@ -21,6 +21,9 @@
 - **Proved source gate:** every nonempty atom has
   `deg rem_(L_3)(L_1L_2^(-1))>=a`; the complementary short-syzygy stratum is
   empty.
+- **Proved pair router:** distinct candidates have a nonzero primitive Pade
+  determinant of degree at most `ell-2a`, but its constant-weight Johnson
+  denominator is exactly the live `J<=0`; pairwise distance is fenced.
 - **Nonclaim:** each fiber has size at most two; linear dimension implies a
   split-divisor count; an unguarded prefix-flatness theorem applies; `lambda`
   remains free after fixing the source triple; current Conjecture-F owners

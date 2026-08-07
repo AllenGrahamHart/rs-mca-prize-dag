@@ -26,3 +26,7 @@
 11. Before either multiplier branch, enforce the source-ratio gate
     `deg rem_(L_3)(L_1L_2^(-1))>=a`. Its failure is the exact short-syzygy
     stratum `L_1=U L_2+R L_3` with `deg U,deg R<a`, and is already empty.
+12. Use the exact pair invariant `H_ij=D_iQ_j-D_jQ_i`, whose degree is at
+    most `ell-2a` and which contains `gcd(D_i,D_j)`. Its ordinary Johnson
+    denominator is the nonpositive live parameter `J`; use compatibility
+    among several `H_ij`, not another distance-only packing argument.

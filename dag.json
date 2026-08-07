@@ -28804,6 +28804,26 @@
    }
   },
   {
+   "id": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
+   "title": "Guarded LS6 pairs have low cross determinant, with distance-only closure fenced",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every fixed guarded LS6 atom and every candidate D, its quotient Q in DE=MQ+V has degree e-a, fixed leading coefficient, and gcd(D,Q)=1. For two distinct candidates, H_12=D_1Q_2-D_2Q_1=(D_2V_1-D_1V_2)/M is nonzero of degree at most ell-2a. Hence gcd(D_1,D_2)|H_12, their root sets intersect in at most ell-2a points, and fixing one candidate injects all others into the nonzero H-polynomials of that degree. The associated constant-weight Johnson denominator is exactly j^2-N(ell-2a)=J<=0 on the live tail, so this sharp pairwise cap cannot itself give the required polynomial payment. The remaining route must use collective Pade/split structure.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/upstream_crosswalk.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca primitive shift-pair and split-pencil control",
+    "relation": "EXACT_PADE_PAIR_DETERMINANT_ROUTER"
+   }
+  },
+  {
    "id": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "title": "Rate-half FPC5 codimension-two cells collapse under the background guard",
    "status": "PROVED",
@@ -29101,7 +29121,7 @@
    "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
    "status": "TARGET",
    "key": true,
-   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a and deg rem_(L_3)(L_1L_2^(-1))>=a. Every common-pencil and, more generally, every complementary short-syzygy source is empty. For a<=e=deg(Etilde)<=ell-a, the flat is exactly Q_0^(e-a) prefix cells of depth ell+e-1 with average-scale cancellation to depth ell+a-1. For e>ell-a, every candidate is exactly D=quo_E(MQ), V=-rem_E(MQ), with deg Q=e-a, gcd(D,Q)=1, and inverse-multiplier degree at least ell+a. The remaining conclusion is depth-uniform prefix flatness in the low ladder plus split maximum and owner-safe quotient/dihedral control of the high guarded Pade cell.",
+   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a and deg rem_(L_3)(L_1L_2^(-1))>=a. Every common-pencil and, more generally, every complementary short-syzygy source is empty. For a<=e=deg(Etilde)<=ell-a, the flat is exactly Q_0^(e-a) prefix cells of depth ell+e-1 with average-scale cancellation to depth ell+a-1. For e>ell-a, every candidate is exactly D=quo_E(MQ), V=-rem_E(MQ), with deg Q=e-a, gcd(D,Q)=1, and inverse-multiplier degree at least ell+a. Any two distinct candidates have nonzero cross determinant D_1Q_2-D_2Q_1 of degree at most ell-2a; its induced root-intersection cap has Johnson denominator exactly J<=0, fencing distance-only closure. The remaining conclusion is depth-uniform prefix flatness in the low ladder plus collective split-determinant maximum and owner-safe quotient/dihedral control of the high guarded Pade cell.",
    "attack_surface": "prove depth-uniform Q flatness along the exact low-multiplier ladder, and primitive split maximum plus owner-safe quotient/dihedral classification in the exact high-multiplier Pade coordinates",
    "falsifier": "a family of fixed guarded LS6 atoms whose mass exceeds every uniform polynomial and every legitimate quotient/profile column",
    "refs": [
@@ -29116,7 +29136,8 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/statement.md",
-    "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/statement.md"
+    "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/statement.md"
    ]
   },
   {
@@ -55343,6 +55364,16 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
+   "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
@@ -55411,6 +55442,11 @@
    "from": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
+   "to": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
@@ -55540,6 +55576,11 @@
   {
    "from": "pma_ratehalf_complement_linear_slice_reduction",
    "to": "l1_fpc5_ratehalf_inverse_ratio_degree_gate",
+   "kind": "req"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
    "kind": "req"
   },
   {

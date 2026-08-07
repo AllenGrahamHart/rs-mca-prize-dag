@@ -69,3 +69,14 @@ deg rem_(L_3)(L_1L_2^(-1))>=a;
 
 failure is exactly a short syzygy between the three petal locators. Its split
 maximum and quotient/dihedral owner transport remain open.
+
+For any two distinct candidates, their primitive Pade quotients satisfy
+
+```text
+0!=D_1Q_2-D_2Q_1,       deg(D_1Q_2-D_2Q_1)<=ell-2a.
+```
+
+This determinant contains `gcd(D_1,D_2)` and separates candidates relative
+to a fixed base. The induced root-intersection cap has Johnson denominator
+exactly `J<=0`, so pairwise distance alone cannot close the target; the
+remaining theorem must use collective determinant/split structure.
