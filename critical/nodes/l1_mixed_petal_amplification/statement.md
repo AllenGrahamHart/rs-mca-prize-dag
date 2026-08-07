@@ -36,7 +36,7 @@ PLUS this diffuse partial-petal case.
 - The 2026-07-05 retraction record (petal_growth/RETRACTION_MANIFEST.md)
   kills the naive induction route, not the statement.
 - Codex's v4 PMA campaign (~133 commits, 2026-07-13..15) appears to
-  attack exactly this allocation problem — survey/audit pending.
+  attack exactly this allocation problem — SURVEYED 2026-08-07 (PMA_V4_AUDIT_DRAFT.md): already fully imported at waves 8-9, zero novelty, 65/65 replays; see attack.md for the C-V4-1 census re-read.
 
 ## Falsifier
 

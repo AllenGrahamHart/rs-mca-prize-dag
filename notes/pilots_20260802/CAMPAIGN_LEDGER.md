@@ -2334,3 +2334,34 @@ ROUND 21 (4 agents):
   unsafe_crossing_family_instantiation vs THEOREM BB (the
   universality quantifier decides); certificates written where
   closable, no status flips (coordinator flips on replay).
+
+## 2026-08-07: round-21 agent 1 BANKED — the v4 PMA "un-surveyed campaign" premise was FALSE; two catches against canonical, both applied
+
+- **PMA v4 auditor (Opus) BANKED** (65/65 replays incl. mutation
+  controls in 29/32; draft PMA_V4_AUDIT_DRAFT.md, 560 lines). THE
+  PREMISE INVERTED: the campaign was ALREADY 100% IMPORTED at waves
+  8-9 (2026-07-16/17), byte-identical, canonical ahead in every
+  divergent file — zero novelty in the v4 -> canonical direction;
+  the survey flag was stale. Retraction compliance PASS (3 tests;
+  zero cut-node resurrections; addresses the dim-K obstruction by
+  EXACT rank computation, not induction). The campaign
+  self-retracted 8 times and caught itself everywhere — including
+  un-proving its own previous day's headline. CATCHES (both against
+  CANONICAL, both APPLIED as forced corrections):
+  **C-V4-1**: the N10 census's reassuring reading is a FIELD-SIZE
+  ARTIFACT — the second doubling doubles p, and the banked
+  fixed-(n,k) control shows a 98.0%-exact 1/p retention law;
+  field-corrected the growth exponent is FLAT at 6.14-6.21, ABOVE
+  the separately-disproved n^6 line (the numerics and the proved
+  obstruction point the SAME way). attack.md re-read applied;
+  DECISIVE CONTROL QUEUED: the census at (64,32,97).
+  **C-V4-2**: pma_sigma_one_variable_defect_exact_hit_floor's Scope
+  clause cited the sigma >= C n/log n hypothesis STRUCK per #155 —
+  replaced by the entropy-reserve justification (2048x margin,
+  auditor-verified numerically). Survey flags retired in
+  statement.md + attack.md. COMPUTE-LAW NOTE: ramguard unavailable
+  in the subagent environment (systemd user bus, environmental) —
+  a POSIX-rlimit shim reproducing the exact ceilings was used and
+  disclosed; acceptable. MYSTERY-6 IMPACT: the diagnosis pilot's
+  evidence base tilts HARDER (the friendly census reading is gone);
+  the blind l1_pma_diag pilot reconciles at its bank.

@@ -16,12 +16,24 @@
   extends catch #176 through `n=32,64` for consecutive and geometric scalar
   schedules. Counts grow `43 -> 2879 -> 109391` and
   `33 -> 2857 -> 108600`; the second doubling factor is about `38` in both
-  schedules. The registered super-polynomial trend did not fire on these
-  charts. This is evidence only, not a uniform theorem or a license to infer
+  schedules. [RE-READ, 2026-08-07 v4 PMA audit C-V4-1: the second
+  doubling DOUBLES THE FIELD (97 -> 193), and the banked fixed-(n,k)
+  control pma_d4r0_census_results.json shows a 98.0%-exact 1/p
+  retention law — FIELD-CORRECTED the growth exponent is FLAT at
+  6.14-6.21, ABOVE the separately-disproved n^6 line. The former
+  "trend did not fire" reading is UNSUPPORTED (a flat exponent is
+  evidentially neutral); the numerics and the proved
+  n^6-insufficiency point the SAME way. Decisive control queued:
+  the census at (n,k,p) = (64,32,97).] This is evidence only, not a uniform theorem or a license to infer
   floor-band emptiness. `n=128` is parked as contributor request
   `L1-N10-128`; do not spend the current Modal balance on it.
-- **Codex v4 PMA:** audit-gate its diffuse-allocation results before
-  consuming (survey in flight).
+- **Codex v4 PMA:** SURVEYED AND AUDITED (2026-08-07,
+  notes/wave24_integration_20260727/PMA_V4_AUDIT_DRAFT.md): already
+  100% imported at waves 8-9 (zero novelty; canonical ahead in every
+  divergent file); 65/65 verifier replays; retraction respected on
+  three tests; the campaign self-retracted 8 times and caught itself
+  everywhere. Both audit catches are against CANONICAL's handling
+  (C-V4-1 above; C-V4-2 on the sigma-one floor node, applied).
 
 ## Current attack discipline (2026-07-21)
 
