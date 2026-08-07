@@ -51,6 +51,13 @@ full `J` identity reduces that surviving cubic to its degree-11 factor; the
 degree-12 resultant branch remains unresolved. These are exact structural
 cuts, not additional cell closures.
 
+The degree-12 branch now has an exact leading-drop ledger. In `x`, its own
+leading coefficient is a common nonnamed irreducible degree-6 curve; the
+`E2/E3` leading coefficients add `s=0` and nonnamed irreducible curves of
+degrees `22`--`24`. Naive function-field or pseudo-remainder elimination
+therefore inverts real branches and grows rather than compresses. The next
+valid attack needs source-level cancellation or a branchwise theorem.
+
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
 near-aligned coverage claims.

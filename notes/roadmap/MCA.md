@@ -43,7 +43,12 @@ certificates required by the challenge.
   cubic closes, while the complementary cubic and the degree-12 factor remain
   route-level obstructions. On `F04`, full-`J` coefficient zero further
   reduces the surviving cubic to one degree-11 factor. No additional literal
-  cell is yet closed by these generic cuts.
+  cell is yet closed by these generic cuts. The degree-12 branch has now been
+  decomposed at its `x`-leading boundary: all leading factors are nonnamed,
+  including `s`, one common irreducible degree-6 curve, and target-specific
+  irreducibles of degrees `22`--`24`. Direct function-field division and a
+  three-step pseudo-remainder prefix are exact no-go fences; the latter grows
+  to 149340 terms while lowering `x`-degree only to 34.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

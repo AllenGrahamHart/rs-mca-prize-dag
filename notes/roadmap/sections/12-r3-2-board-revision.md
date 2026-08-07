@@ -286,5 +286,28 @@ new PROVED result:        exact 3,3,12 split and F04 cubic-to-J11 reduction
 literal cell closures:    none
 live representative cuts: surviving cubic/J11 curve; degree-12 resultant
 rejected route:           global J1 degree-70 expansion; ambient I0 basis
-next:                     quotient-normal-form elimination or low-degree syzygy
+next then:                test quotient-normal-form or low-degree syzygy routes
+```
+
+### K3 fixed degree-12 leading-branch decomposition
+
+The degree-12 factor is degree six in `x`. Its `x`-leading coefficient is
+the same irreducible nonnamed degree-6 polynomial in `(s,p)` for `R02` and
+`R20`. The `E2` leading coefficient contributes `s` and a nonnamed
+irreducible of degree 22 (`R02`) or 23 (`R20`); the `E3` leading coefficient
+is a nonnamed irreducible of degree 23 or 24. Thus the tempting
+`F_p(s,p)[x]` route inverts genuine components and is not exhaustive.
+
+An exact three-step `R02` pseudo-remainder prefix confirms that brute
+subresultants do not compress the system: `x`-degrees move only
+`36,35 -> 35 -> 34 -> 34`, while primitive term counts grow to
+`40921,83811,149340`. The function-field remainder itself timed out after
+conversion at about 19 GB. These are route fences, not cell closures.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        exact nonnamed leading-drop branch census
+literal cell closures:    none
+rejected route:           raw function-field and pseudo-remainder elimination
+next:                     source-level cancellation or branchwise curve theorem
 ```

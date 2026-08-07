@@ -10,5 +10,6 @@
 | aligned-positive residual | `M01/M02-R11` plus eight `F04`--`F07 x R02/R20` cells |
 | fixed rank-drop coverage | all `16` factor branches in the eight residual fixed cells are PROVED empty |
 | fixed generic residual | four `R02/R20` fingerprint orbits; representative core degrees `3,3,12`, with one cubic closed and no cell yet closed |
+| degree-12 decomposition | nonnamed leading-drop curves `s`, common degree `6`, and target-specific degrees `22`--`24`; no closure |
 | external evidence | PRs #1135--#1149, imported only through pinned nodes |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |

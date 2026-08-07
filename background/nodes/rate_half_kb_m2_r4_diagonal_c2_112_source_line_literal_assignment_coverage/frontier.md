@@ -18,8 +18,11 @@ each representative the resultant core splits with degrees `3,3,12`; one
 cubic closes and one remains one-dimensional. The `F04` full-`J`
 coefficient-zero cut reduces the surviving cubic to one degree-11 factor.
 The live fixed attacks are therefore that degree-11 curve and the unresolved
-degree-12 resultant branch, followed by literal orbit replay only after a
-representative route closes.
+degree-12 resultant branch. The latter has genuine nonnamed leading-drop
+curves of degrees `1,6,22,23,24`; raw function-field and pseudo-remainder
+routes are now fenced. Seek source cancellation or prove those curves
+branchwise, followed by literal orbit replay only after a representative
+route closes.
 
 The local aligned-negative and near-aligned ledgers also require a literal
 coverage audit before the branch-level theorem can return to PROVED.

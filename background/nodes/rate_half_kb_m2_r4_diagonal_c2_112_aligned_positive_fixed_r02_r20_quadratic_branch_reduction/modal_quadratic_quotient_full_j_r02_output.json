@@ -1,0 +1,37 @@
+{
+  "app": "rs-mca-k3-f04-quadratic-quotient-full-j-r02",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 1
+  },
+  "mode": "r02",
+  "results": [
+    {
+      "peak_kb": 416452,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "phase": "START"
+        },
+        {
+          "phase": "BASE_GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "1e92618798e4de21c02240c1fa130bb444cfabfc9faa13ce1e04097289b88268",
+          "basis_size": 36,
+          "dimension": 1,
+          "phase": "BASE_GROEBNER_DONE"
+        }
+      ],
+      "seconds": 900.03076,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"cell\": \"F04-R02\", \"phase\": \"START\"}\n{\"phase\": \"BASE_GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"1e92618798e4de21c02240c1fa130bb444cfabfc9faa13ce1e04097289b88268\", \"basis_size\": 36, \"dimension\": 1, \"phase\": \"BASE_GROEBNER_DONE\"}\n",
+      "target": "R02"
+    }
+  ],
+  "schema": "kb-c2-112-f04-quadratic-quotient-full-j-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

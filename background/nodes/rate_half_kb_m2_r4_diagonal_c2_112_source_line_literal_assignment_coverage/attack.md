@@ -11,10 +11,10 @@
    factor-localization certificates; do not recompute it or infer generic
    closure from it.
 6. On `V != 0`, attack the surviving cubic plus degree-11 full-`J` curve and
-   the unresolved degree-12 resultant factor through quotient-normal-form
-   elimination or a lower-degree syzygy. Do not expand the known degree-70
-   full-`J` coefficient-one factor or retry the timed-out full-`I`
-   coefficient-zero ambient route.
+   the unresolved degree-12 resultant factor through a lower-degree source
+   identity or explicit leading-curve branch theorem. Do not retry the
+   quotient-normal-form, function-field, pseudo-remainder, degree-70
+   full-`J`, or full-`I` routes already fenced by bounded runs.
 7. Audit aligned-negative and near-aligned normalization separately; do not
    infer their coverage from the positive atlas.
 8. Promote the parent only after a machine-checked literal coverage table has

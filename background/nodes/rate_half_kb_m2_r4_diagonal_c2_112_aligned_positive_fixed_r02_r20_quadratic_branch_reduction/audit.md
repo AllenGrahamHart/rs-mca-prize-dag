@@ -12,4 +12,8 @@
    corrected ledger is retained as coefficient-1 evidence.
 5. The corrected coefficient-1 route is exact but too large for direct use.
 6. The full-I route reached about 15 GB and timed out after factor assembly.
-7. No timeout, route survivor, or fingerprint equality closes a cell.
+7. A four-variable quotient implementation timed out on both targets after
+   at most constructing the base cubic/J11 quotient. Its rank-two-algebra
+   replacement also timed out on `R02`; both stayed below 0.5 GB and expose
+   operation count, not RAM, as the bottleneck.
+8. No timeout, route survivor, or fingerprint equality closes a cell.

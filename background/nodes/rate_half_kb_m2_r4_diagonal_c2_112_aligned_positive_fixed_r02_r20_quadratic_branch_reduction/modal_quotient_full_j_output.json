@@ -1,0 +1,53 @@
+{
+  "app": "rs-mca-k3-f04-r02-r20-quotient-full-j",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 2
+  },
+  "results": [
+    {
+      "peak_kb": 496444,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "phase": "START"
+        },
+        {
+          "phase": "BASE_GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "a0182065320c9c18543aa5d2b34d6bf80d6635ab4c032d50a498d9ab38828549",
+          "basis_size": 63,
+          "dimension": 1,
+          "phase": "BASE_GROEBNER_DONE"
+        }
+      ],
+      "seconds": 900.036518,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"cell\": \"F04-R02\", \"phase\": \"START\"}\n{\"phase\": \"BASE_GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"a0182065320c9c18543aa5d2b34d6bf80d6635ab4c032d50a498d9ab38828549\", \"basis_size\": 63, \"dimension\": 1, \"phase\": \"BASE_GROEBNER_DONE\"}\n",
+      "target": "R02"
+    },
+    {
+      "peak_kb": 435496,
+      "records": [
+        {
+          "cell": "F04-R20",
+          "phase": "START"
+        },
+        {
+          "phase": "BASE_GROEBNER_BEGIN"
+        }
+      ],
+      "seconds": 900.031588,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"cell\": \"F04-R20\", \"phase\": \"START\"}\n{\"phase\": \"BASE_GROEBNER_BEGIN\"}\n",
+      "target": "R20"
+    }
+  ],
+  "schema": "kb-c2-112-f04-quotient-full-j-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

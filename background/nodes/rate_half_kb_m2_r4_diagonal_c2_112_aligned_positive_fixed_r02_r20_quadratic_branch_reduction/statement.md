@@ -23,3 +23,7 @@ On both surviving cubic curves, the intersections with `J8a`, `J8b`, and
 `J12` are empty after transported localization. The `J11` intersection
 survives. Coefficient 1 has one nonunit degree-70 factor with 182,336 terms;
 the coefficient-0 full-`I` truncated product reaches the memory/time fence.
+Two direct coefficient-1 quotient strategies are also fenced: adjoining the
+quadratic root as a fourth variable times out on both targets, while exact
+rank-two `c^2-sc+p` arithmetic times out on `R02`. Neither reaches a new
+identity coefficient, and neither is consumed as proof evidence.

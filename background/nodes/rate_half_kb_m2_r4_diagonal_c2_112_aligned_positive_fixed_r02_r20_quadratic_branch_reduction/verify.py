@@ -16,7 +16,10 @@ FILES = {
     HERE / "modal_full_identity_single_c0_output.json": "cd074c216eecee9bdd285bb47fb3048a3ee8f5651b4bc3dd3bc14b82bb372a69",
     HERE / "modal_full_identity_single_c1_output.json": "d8570af94aac04a20fdb9cda2c7c4fd2cc40b91a330a1ed93f60d72ccc8db433",
     HERE / "modal_full_identity_single_i_c0_output.json": "026e43ff1333dec1d7b0ab719575b41dacf88d88174c55df149e24a35265e1fe",
+    HERE / "modal_full_identity_representatives_output.json": "bba7fa12dcc7f5908944793267bbf4567b7622c6c3fc16bef1d4bea269c95fe5",
     HERE / "modal_f04_full_j_intersections_output.json": "a5342189f495f77194ee9463e09a236f9eb8e554dbb92ad1a3dba961e6a60a9a",
+    HERE / "modal_quotient_full_j_output.json": "9d473d3279ef4919d9e5439575ab6d9c29b6218a660c9747a4bc5ba0489d7997",
+    HERE / "modal_quadratic_quotient_full_j_r02_output.json": "3e484c6e2903d2202ff9f8864cbf1f6f4dca0167422f3793ce6cef7bbc8bc6a5",
 }
 
 
@@ -64,7 +67,24 @@ def main() -> None:
 
     i0 = json.loads((HERE / "modal_full_identity_single_i_c0_output.json").read_text())
     require(i0["counts"]["TIMEOUT"] == 1 and i0["results"][0]["status"] == "TIMEOUT", "I0 fence")
-    print("KB_C2_112_FIXED_R02_R20_GENERIC_ROUTE_PASS reps=4 cubic=8 timeout=4 j_intersections=8")
+    full_product = json.loads((HERE / "modal_full_identity_representatives_output.json").read_text())
+    require(full_product["counts"]["TIMEOUT"] == 2, "full-product fence")
+
+    quotient = json.loads((HERE / "modal_quotient_full_j_output.json").read_text())
+    require(quotient["counts"] == {"FAIL": 0, "PASS": 0, "REMOTE_ERROR": 0, "TIMEOUT": 2}, "quotient fence")
+    require(
+        [[record["phase"] for record in row["records"]] for row in quotient["results"]]
+        == [["START", "BASE_GROEBNER_BEGIN", "BASE_GROEBNER_DONE"], ["START", "BASE_GROEBNER_BEGIN"]],
+        "quotient phases",
+    )
+    quadratic = json.loads((HERE / "modal_quadratic_quotient_full_j_r02_output.json").read_text())
+    require(quadratic["counts"] == {"FAIL": 0, "PASS": 0, "REMOTE_ERROR": 0, "TIMEOUT": 1}, "quadratic quotient fence")
+    require(
+        [record["phase"] for record in quadratic["results"][0]["records"]]
+        == ["START", "BASE_GROEBNER_BEGIN", "BASE_GROEBNER_DONE"],
+        "quadratic quotient phases",
+    )
+    print("KB_C2_112_FIXED_R02_R20_GENERIC_ROUTE_PASS reps=4 cubic=8 timeout=4 j_intersections=8 quotient_fences=3")
 
 
 if __name__ == "__main__":
