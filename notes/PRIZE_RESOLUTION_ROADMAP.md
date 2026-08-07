@@ -19932,6 +19932,43 @@ new assumptions: none
 compute: no Modal; two exact 50-layout local censuses under 256 MB RAM guard
 next: emit the exact projective split-flat descriptor and separate its common-gcd owner
 ```
+
+### Rate-half sharp projective-flat interface
+
+The sharp guarded endpoint is now compiled as an exact split-locator flat.
+For one fixed source and touched pair, projection from the guarded `(F,W)`
+slice to its locator image `V_F` is an isomorphism, and
+
+```text
+|C|=5ell-5,       j=2ell-3,
+dim P(V_F)=ell-2,       affine codimension=ell-1.
+```
+
+Every exact contributor is the unique monic representative of a point in
+`P(V_F) intersect D_j(C)`, with a uniquely reconstructed numerator. Core
+primitivity, untouched-petal nonagreements, and first ownership remain
+explicit filters. Dividing the maximal common gcd gives an exact gcd-trivial
+flat over the punctured core, but no tangent payment is inferred from that
+division.
+
+This is precisely a growing-dimensional instance of upstream's
+split-locator master-flatness target. The fixed-dimensional theorem is not
+enough because `r=ell-2`. A tiny replay on the seed-3 `F_97,H_32` source
+finds one split point in the relevant projective plane, exactly the already
+certified contributor, and verifies the projective and gcd-division
+identities.
+
+```text
+starting pin: 6934b6c87; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / sharp cell
+result: PROVED exact projective-flat descriptor and common-GCD normalization
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable concrete instance of split-locator master flatness
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; one 3003-locator F_97 replay under 256 MB RAM guard
+next: exploit the guarded congruence/exact filters or prove the needed growing-dimensional flatness count
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

@@ -21,6 +21,21 @@ codimension is at least two. At equality, official arithmetic forces
 and the full-background guard cuts the pair and locator dimensions to
 `ell-1`.
 
+The proved sharp projective-flat descriptor now identifies this endpoint
+exactly. For each fixed touched pair, contributors inject into
+
+```text
+P(V_F) intersect D_(2ell-3)(C),
+|C|=5ell-5,       dim P(V_F)=ell-2,
+affine codimension=ell-1.                              (RH1)
+```
+
+The numerator is reconstructed uniquely, and primitive, untouched-petal,
+and first-owner conditions remain explicit filters. Maximal common-GCD
+division is exact but is not by itself a payment. Because the projective
+dimension grows with `ell`, the upstream fixed-dimensional split-flat bound
+does not close (RH1).
+
 Prove one disjoint aggregate payment of the remaining split-on-core locators
 over the six touched pairs and all defect/background cells in this fixed
 source. Internal tangent, quotient, and contributor-dependent recharts must
