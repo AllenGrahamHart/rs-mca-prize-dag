@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import",
+    "title": "KoalaBear aligned-positive fixed quadratic orbit compression",
+    "status": "PROVED",
+    "closure": "exact twelve-cell quadratic compatibility dichotomy and six fingerprint orbits",
+    "statement": "For each of the twelve aligned-positive cells {F04,F05,F06,F07} x {R02,R11,R20}, the first two q-slice rows are quadratics P=Aw^2+Bw+C and Q=Dw^2+Ew+F. With U=AF-CD, V=AE-BD, Z=BF-CE, exact identities give Res_w(P,Q)=U^2-VZ. On V nonzero the common root is w=-U/V; the rank-drop branch V=0 retains U=0. Direct literal compilation at PR #1149 commit 55ac3e07477bd7a768190a3e755f22b0d44354b0 pairs the twelve cells into six exact fingerprint orbits. All twelve compiler shards were independently replayed under official SageMath 10.9.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/external_replay.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/review_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/modal_review_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/pair_sweep_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import/modal_pair_sweep_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

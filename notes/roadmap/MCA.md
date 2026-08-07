@@ -33,7 +33,10 @@ certificates required by the challenge.
   companion remain PROVABLE: parity and certificate checks pass, but three
   Sage environments fail at the external Singular basis-conversion bridge.
   Current aligned-positive coverage is therefore `22/36`, with those two
-  cells and the twelve `F04`--`F07` cells remaining.
+  cells and the twelve `F04`--`F07` cells remaining. PR #1149's exact
+  quadratic compatibility theorem and six-orbit compression are now pinned
+  and independently replayed as PROVED; both `V!=0` and `U=V=0` branches
+  remain open for each orbit.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

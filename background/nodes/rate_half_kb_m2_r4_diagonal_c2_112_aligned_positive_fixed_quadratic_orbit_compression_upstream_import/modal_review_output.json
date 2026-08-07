@@ -1,0 +1,3855 @@
+{
+  "app": "rs-mca-k3-pr1149-fixed-orbit-review",
+  "case_count": 12,
+  "counts": {
+    "FAIL": 0,
+    "PASS": 12,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "cell": "F04-R02",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 356052,
+      "returncode": 0,
+      "seconds": 7.236241,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "a8003b5b3b1d0f971fd11d11fe300f46c15a386ed54430699d736e3887fc03bf",
+      "stdout_tail": "7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"ddf8018384e814c2ca79b5c859256e2c17bcbd6d9f076039942da10a29a8d10c\",\"terms\":260}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037\",\"terms\":648}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":12,\"degrees\":[8,4,4],\"sha256\":\"3abc7201bc0dc867f3562955f9b31f8e8975c9582b64460053ce4b1f20c2e4e1\",\"terms\":116}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04\",\"terms\":634}}},\"cell_id\":\"F04-R02\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "20443e52dc2e17d88a29b70481ad921547ceb8b4e94936e22549d73d90683673",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1",
+              "terms": 634
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "ddf8018384e814c2ca79b5c859256e2c17bcbd6d9f076039942da10a29a8d10c",
+                  "terms": 260
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037",
+              "terms": 648
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "3abc7201bc0dc867f3562955f9b31f8e8975c9582b64460053ce4b1f20c2e4e1",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04",
+              "terms": 634
+            }
+          }
+        },
+        "cell_id": "F04-R02",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F04-R11",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 355072,
+      "returncode": 0,
+      "seconds": 6.938222,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "fdabd2444831b694710329fca82cbbd95db4149668e3d58da43b4bf46ddbbd6f",
+      "stdout_tail": "9c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":9,\"degrees\":[5,4,4],\"sha256\":\"44b86befa91b53ebf14d4a722df2de7ca9912ea705d6a605ed46995e328ae030\",\"terms\":74}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"b9db1c6b0ca7d3f6124b5ee43ed85a664df2a25e7a2379ee61fbbc52e1260f2f\",\"terms\":415}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":11,\"degrees\":[6,4,5],\"sha256\":\"83332f506d9096bd02427084ac50011d4fe6c561394964988869ac559d83c75d\",\"terms\":112}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64\",\"terms\":411}}},\"cell_id\":\"F04-R11\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":38,\"degrees\":[24,10,13],\"sha256\":\"96332dc722616fa9deec7b62ff05ea6bed0e8ee39ef602ae6c5425bb1d0ea0fb\",\"terms\":2464},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "c1971c94f9cda4b58e029475e06b14e9cdbac90503343aa474f6955b8eb8244d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "5441c3407eb18636894657855d9502e2dfe4b617d2cb09e4a209cb436ce77853",
+              "terms": 411
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "44b86befa91b53ebf14d4a722df2de7ca9912ea705d6a605ed46995e328ae030",
+                  "terms": 74
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "b9db1c6b0ca7d3f6124b5ee43ed85a664df2a25e7a2379ee61fbbc52e1260f2f",
+              "terms": 415
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "83332f506d9096bd02427084ac50011d4fe6c561394964988869ac559d83c75d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64",
+              "terms": 411
+            }
+          }
+        },
+        "cell_id": "F04-R11",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 38,
+          "degrees": [
+            24,
+            10,
+            13
+          ],
+          "sha256": "96332dc722616fa9deec7b62ff05ea6bed0e8ee39ef602ae6c5425bb1d0ea0fb",
+          "terms": 2464
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F04-R20",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 356136,
+      "returncode": 0,
+      "seconds": 11.332431,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "f80483a6bc2c5279d9611f7ac153ba40db0cdc84756acca196eb82c877062a5a",
+      "stdout_tail": "0e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"99890415692db75c2e3fa3c8430f0abf2b23578270c3f0713072420c58fd87c9\",\"terms\":266}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b4c3c1991a88314e67339caf4bd40db9c8ae625c525bae4a545c367ed3a9a3ad\",\"terms\":650}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":14,\"degrees\":[8,6,6],\"sha256\":\"df47818456a378fa010195f86d1c88ea3caa42cca85438c20783c1ac178f781e\",\"terms\":225}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b6aa6e28cfb3829ce60330b9df163d224230a934ab34bd22ecac0fdae39b3c5b\",\"terms\":645}}},\"cell_id\":\"F04-R20\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "bface961aaf2afd8eab4e8f5c468ae9313d71027e1bfda928a7799e9f5a9cee9",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "48098e6d0eb0ae905474359d236f035211941eb961ed167e20b24c7e43d69768",
+              "terms": 645
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "99890415692db75c2e3fa3c8430f0abf2b23578270c3f0713072420c58fd87c9",
+                  "terms": 266
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b4c3c1991a88314e67339caf4bd40db9c8ae625c525bae4a545c367ed3a9a3ad",
+              "terms": 650
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "df47818456a378fa010195f86d1c88ea3caa42cca85438c20783c1ac178f781e",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b6aa6e28cfb3829ce60330b9df163d224230a934ab34bd22ecac0fdae39b3c5b",
+              "terms": 645
+            }
+          }
+        },
+        "cell_id": "F04-R20",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F05-R02",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 356220,
+      "returncode": 0,
+      "seconds": 8.480269,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ca36b2d62e56b468d396a7741c0ec454256972c21f4b4560c8e01f66b5b9d96b",
+      "stdout_tail": "7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"3d7651651ab13204d5156c0a15d3394d73cce2e0a3974d8e68fe431075a4af0d\",\"terms\":260}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"8cd6f52df94168b7e17cb9a34ac1559dcee0fd97bb4602ae4480b514a2d7a406\",\"terms\":648}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":12,\"degrees\":[8,4,4],\"sha256\":\"7c9cfc5c42cf483696b62d9677fb00f9e2b541008856415ec817f32f28fe1fb4\",\"terms\":116}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b0be3dc9bf3cec183dad38872199e580062b84745c34784eb4eab76b77a27d94\",\"terms\":634}}},\"cell_id\":\"F05-R02\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "12ae224781902a568c4d9849e65c6b1146df61f07e5eb889f31a8bd1b1de7e66",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "25ddab3ae86e46cc11c5d930d009d3b484a4d43fec5c73b30ec043cfd5a48f58",
+              "terms": 634
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "3d7651651ab13204d5156c0a15d3394d73cce2e0a3974d8e68fe431075a4af0d",
+                  "terms": 260
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "8cd6f52df94168b7e17cb9a34ac1559dcee0fd97bb4602ae4480b514a2d7a406",
+              "terms": 648
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "7c9cfc5c42cf483696b62d9677fb00f9e2b541008856415ec817f32f28fe1fb4",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b0be3dc9bf3cec183dad38872199e580062b84745c34784eb4eab76b77a27d94",
+              "terms": 634
+            }
+          }
+        },
+        "cell_id": "F05-R02",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F05-R11",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 357188,
+      "returncode": 0,
+      "seconds": 9.795397,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "d0449615ce9266d9c252b67be210d5e955321c513159a0530d8afcb49031373a",
+      "stdout_tail": "9c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":9,\"degrees\":[5,4,4],\"sha256\":\"32c3a948917cf1ed2d17eb80b2eed0acd41f8a7e9f58329ecf18de654522c2af\",\"terms\":74}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"098797e921e80946b1c17929beeaf5c734ae5f1e84ba6c2f04fe20d0dfc49ce2\",\"terms\":415}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":11,\"degrees\":[6,4,5],\"sha256\":\"84bb21f1ed84a48faf38b830ca55144e4701636bf6bd50734872222293d0407d\",\"terms\":112}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db\",\"terms\":411}}},\"cell_id\":\"F05-R11\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":38,\"degrees\":[24,10,13],\"sha256\":\"c3f94974d8160c5bb64e897c383569990b227a75aab02903ae9736067869f440\",\"terms\":2464},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "2d023795ba50d9cd7b3503297947ce75344a39a67a2e30059b1d96ea2d0d2334",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3c63b719d47d3e8c20a55eea5e8d9222279d009abd814ef52b459bc00742fd07",
+              "terms": 411
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "32c3a948917cf1ed2d17eb80b2eed0acd41f8a7e9f58329ecf18de654522c2af",
+                  "terms": 74
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "098797e921e80946b1c17929beeaf5c734ae5f1e84ba6c2f04fe20d0dfc49ce2",
+              "terms": 415
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "84bb21f1ed84a48faf38b830ca55144e4701636bf6bd50734872222293d0407d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db",
+              "terms": 411
+            }
+          }
+        },
+        "cell_id": "F05-R11",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 38,
+          "degrees": [
+            24,
+            10,
+            13
+          ],
+          "sha256": "c3f94974d8160c5bb64e897c383569990b227a75aab02903ae9736067869f440",
+          "terms": 2464
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F05-R20",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 355348,
+      "returncode": 0,
+      "seconds": 9.744914,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "49d69e45e44fe0520ae68f8642dc5f7ab0605e65025d6f15f71cbbc7fb8744ca",
+      "stdout_tail": "0e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"1a7a304f730e6c8bedd969b68cbc86f558b5ef78f1d9737f0017aa523d1ed74c\",\"terms\":266}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b8331121c2b9f3706f8105e5fe1c9b6b6ec9f7f0ff43281deb82d9060348c0af\",\"terms\":650}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":14,\"degrees\":[8,6,6],\"sha256\":\"5bfe9db2dde73d44faddc79bf8289fbd688b3bb74eb70c3623fcd828e5bc577e\",\"terms\":225}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b605beb188ca7b98f45e51dcb28ea071ca2261733a7a8b2dee570e84d82605bf\",\"terms\":645}}},\"cell_id\":\"F05-R20\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "b9f648d48818671def997d5a10fb96604b49ae3645cde194f6768f889d9f3af2",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "6ccf8f1ee0f0c08f2f8c757e8d17d6353bb96aba5ff732de7ddcd0def4df9655",
+              "terms": 645
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "1a7a304f730e6c8bedd969b68cbc86f558b5ef78f1d9737f0017aa523d1ed74c",
+                  "terms": 266
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b8331121c2b9f3706f8105e5fe1c9b6b6ec9f7f0ff43281deb82d9060348c0af",
+              "terms": 650
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "5bfe9db2dde73d44faddc79bf8289fbd688b3bb74eb70c3623fcd828e5bc577e",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b605beb188ca7b98f45e51dcb28ea071ca2261733a7a8b2dee570e84d82605bf",
+              "terms": 645
+            }
+          }
+        },
+        "cell_id": "F05-R20",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F06-R02",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 358152,
+      "returncode": 0,
+      "seconds": 7.574178,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "a60c689cbde0b2cd25f8b6ebe92f007bd5f8bb827bc48e8da477e991c4bec46f",
+      "stdout_tail": "7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"3d7651651ab13204d5156c0a15d3394d73cce2e0a3974d8e68fe431075a4af0d\",\"terms\":260}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"8cd6f52df94168b7e17cb9a34ac1559dcee0fd97bb4602ae4480b514a2d7a406\",\"terms\":648}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":12,\"degrees\":[8,4,4],\"sha256\":\"7c9cfc5c42cf483696b62d9677fb00f9e2b541008856415ec817f32f28fe1fb4\",\"terms\":116}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b0be3dc9bf3cec183dad38872199e580062b84745c34784eb4eab76b77a27d94\",\"terms\":634}}},\"cell_id\":\"F06-R02\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "12ae224781902a568c4d9849e65c6b1146df61f07e5eb889f31a8bd1b1de7e66",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "25ddab3ae86e46cc11c5d930d009d3b484a4d43fec5c73b30ec043cfd5a48f58",
+              "terms": 634
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "3d7651651ab13204d5156c0a15d3394d73cce2e0a3974d8e68fe431075a4af0d",
+                  "terms": 260
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "8cd6f52df94168b7e17cb9a34ac1559dcee0fd97bb4602ae4480b514a2d7a406",
+              "terms": 648
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "7c9cfc5c42cf483696b62d9677fb00f9e2b541008856415ec817f32f28fe1fb4",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b0be3dc9bf3cec183dad38872199e580062b84745c34784eb4eab76b77a27d94",
+              "terms": 634
+            }
+          }
+        },
+        "cell_id": "F06-R02",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F06-R11",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 357164,
+      "returncode": 0,
+      "seconds": 10.064043,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "08239482b9b9df7a63bb7fec76d713ee9c8be3ee2bb3760228b8bc32acc54d6a",
+      "stdout_tail": "9c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":9,\"degrees\":[5,4,4],\"sha256\":\"32c3a948917cf1ed2d17eb80b2eed0acd41f8a7e9f58329ecf18de654522c2af\",\"terms\":74}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"098797e921e80946b1c17929beeaf5c734ae5f1e84ba6c2f04fe20d0dfc49ce2\",\"terms\":415}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":11,\"degrees\":[6,4,5],\"sha256\":\"84bb21f1ed84a48faf38b830ca55144e4701636bf6bd50734872222293d0407d\",\"terms\":112}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db\",\"terms\":411}}},\"cell_id\":\"F06-R11\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":38,\"degrees\":[24,10,13],\"sha256\":\"c3f94974d8160c5bb64e897c383569990b227a75aab02903ae9736067869f440\",\"terms\":2464},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "2d023795ba50d9cd7b3503297947ce75344a39a67a2e30059b1d96ea2d0d2334",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3c63b719d47d3e8c20a55eea5e8d9222279d009abd814ef52b459bc00742fd07",
+              "terms": 411
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "32c3a948917cf1ed2d17eb80b2eed0acd41f8a7e9f58329ecf18de654522c2af",
+                  "terms": 74
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "098797e921e80946b1c17929beeaf5c734ae5f1e84ba6c2f04fe20d0dfc49ce2",
+              "terms": 415
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "84bb21f1ed84a48faf38b830ca55144e4701636bf6bd50734872222293d0407d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db",
+              "terms": 411
+            }
+          }
+        },
+        "cell_id": "F06-R11",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 38,
+          "degrees": [
+            24,
+            10,
+            13
+          ],
+          "sha256": "c3f94974d8160c5bb64e897c383569990b227a75aab02903ae9736067869f440",
+          "terms": 2464
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F06-R20",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 358660,
+      "returncode": 0,
+      "seconds": 8.610224,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "38f3407b9b9afaf2d2a6c14c31881f6ca95ef6e88906807062eb337f02e639b2",
+      "stdout_tail": "0e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"1a7a304f730e6c8bedd969b68cbc86f558b5ef78f1d9737f0017aa523d1ed74c\",\"terms\":266}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b8331121c2b9f3706f8105e5fe1c9b6b6ec9f7f0ff43281deb82d9060348c0af\",\"terms\":650}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":14,\"degrees\":[8,6,6],\"sha256\":\"5bfe9db2dde73d44faddc79bf8289fbd688b3bb74eb70c3623fcd828e5bc577e\",\"terms\":225}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b605beb188ca7b98f45e51dcb28ea071ca2261733a7a8b2dee570e84d82605bf\",\"terms\":645}}},\"cell_id\":\"F06-R20\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "b9f648d48818671def997d5a10fb96604b49ae3645cde194f6768f889d9f3af2",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "6ccf8f1ee0f0c08f2f8c757e8d17d6353bb96aba5ff732de7ddcd0def4df9655",
+              "terms": 645
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "1a7a304f730e6c8bedd969b68cbc86f558b5ef78f1d9737f0017aa523d1ed74c",
+                  "terms": 266
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b8331121c2b9f3706f8105e5fe1c9b6b6ec9f7f0ff43281deb82d9060348c0af",
+              "terms": 650
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "5bfe9db2dde73d44faddc79bf8289fbd688b3bb74eb70c3623fcd828e5bc577e",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b605beb188ca7b98f45e51dcb28ea071ca2261733a7a8b2dee570e84d82605bf",
+              "terms": 645
+            }
+          }
+        },
+        "cell_id": "F06-R20",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "8adb5b853956a140502a9047973aa5f888869b185c07558de98e1641e4810df1",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F07-R02",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 354268,
+      "returncode": 0,
+      "seconds": 11.583904,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "538053a005b36fc7ebd3184865fb16da2d1d9220b32089356f9b32d6cfde5306",
+      "stdout_tail": "7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"ddf8018384e814c2ca79b5c859256e2c17bcbd6d9f076039942da10a29a8d10c\",\"terms\":260}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037\",\"terms\":648}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[0,1,1],\"sha256\":\"8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f\",\"terms\":3}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":12,\"degrees\":[8,4,4],\"sha256\":\"3abc7201bc0dc867f3562955f9b31f8e8975c9582b64460053ce4b1f20c2e4e1\",\"terms\":116}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04\",\"terms\":634}}},\"cell_id\":\"F07-R02\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "20443e52dc2e17d88a29b70481ad921547ceb8b4e94936e22549d73d90683673",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1",
+              "terms": 634
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "ddf8018384e814c2ca79b5c859256e2c17bcbd6d9f076039942da10a29a8d10c",
+                  "terms": 260
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037",
+              "terms": 648
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "0f8f4639eaf7e07a4318665aaf05544f3c807e24df6af6bb436f150c0e5b6ce6",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "sha256": "8bbd1f6c27ece15c838e3e9fb9b16396ecabc4870e2ce9377ac9379110ad8c4f",
+                  "terms": 3
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    8,
+                    4,
+                    4
+                  ],
+                  "sha256": "3abc7201bc0dc867f3562955f9b31f8e8975c9582b64460053ce4b1f20c2e4e1",
+                  "terms": 116
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04",
+              "terms": 634
+            }
+          }
+        },
+        "cell_id": "F07-R02",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F07-R11",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 358224,
+      "returncode": 0,
+      "seconds": 12.048574,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "56642ce1a377110604354d5ba9cf618d0bd56a18eefa2f5e0e0a7e66c1d3d9c6",
+      "stdout_tail": "9c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":9,\"degrees\":[5,4,4],\"sha256\":\"44b86befa91b53ebf14d4a722df2de7ca9912ea705d6a605ed46995e328ae030\",\"terms\":74}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"b9db1c6b0ca7d3f6124b5ee43ed85a664df2a25e7a2379ee61fbbc52e1260f2f\",\"terms\":415}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":3,\"degrees\":[2,1,1],\"sha256\":\"3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242\",\"terms\":5}},{\"exponent\":1,\"metric\":{\"degree\":11,\"degrees\":[6,4,5],\"sha256\":\"83332f506d9096bd02427084ac50011d4fe6c561394964988869ac559d83c75d\",\"terms\":112}}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64\",\"terms\":411}}},\"cell_id\":\"F07-R11\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":38,\"degrees\":[24,10,13],\"sha256\":\"96332dc722616fa9deec7b62ff05ea6bed0e8ee39ef602ae6c5425bb1d0ea0fb\",\"terms\":2464},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "c1971c94f9cda4b58e029475e06b14e9cdbac90503343aa474f6955b8eb8244d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "5441c3407eb18636894657855d9502e2dfe4b617d2cb09e4a209cb436ce77853",
+              "terms": 411
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "44b86befa91b53ebf14d4a722df2de7ca9912ea705d6a605ed46995e328ae030",
+                  "terms": 74
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "b9db1c6b0ca7d3f6124b5ee43ed85a664df2a25e7a2379ee61fbbc52e1260f2f",
+              "terms": 415
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "83332f506d9096bd02427084ac50011d4fe6c561394964988869ac559d83c75d",
+                  "terms": 112
+                }
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64",
+              "terms": 411
+            }
+          }
+        },
+        "cell_id": "F07-R11",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 38,
+          "degrees": [
+            24,
+            10,
+            13
+          ],
+          "sha256": "96332dc722616fa9deec7b62ff05ea6bed0e8ee39ef602ae6c5425bb1d0ea0fb",
+          "terms": 2464
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    },
+    {
+      "cell": "F07-R20",
+      "detail": "exact certificate fingerprints",
+      "peak_kb": 357192,
+      "returncode": 0,
+      "seconds": 11.054036,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "f42c718e7da62b838587de12071572681bcccab5a8d075592963d2c804574d21",
+      "stdout_tail": "0e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":15,\"degrees\":[9,6,6],\"sha256\":\"99890415692db75c2e3fa3c8430f0abf2b23578270c3f0713072420c58fd87c9\",\"terms\":266}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b4c3c1991a88314e67339caf4bd40db9c8ae625c525bae4a545c367ed3a9a3ad\",\"terms\":650}},\"BF_minus_CE\":{\"factor_metrics\":[{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":1,\"degrees\":[1,0,0],\"sha256\":\"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\",\"terms\":2}},{\"exponent\":2,\"metric\":{\"degree\":1,\"degrees\":[0,0,1],\"sha256\":\"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\",\"terms\":2}},{\"exponent\":1,\"metric\":{\"degree\":2,\"degrees\":[1,1,1],\"sha256\":\"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\",\"terms\":6}},{\"exponent\":1,\"metric\":{\"degree\":14,\"degrees\":[8,6,6],\"sha256\":\"df47818456a378fa010195f86d1c88ea3caa42cca85438c20783c1ac178f781e\",\"terms\":225}}],\"metric\":{\"degree\":21,\"degrees\":[12,7,9],\"sha256\":\"b6aa6e28cfb3829ce60330b9df163d224230a934ab34bd22ecac0fdae39b3c5b\",\"terms\":645}}},\"cell_id\":\"F07-R20\",\"pair\":[0,1],\"resultant_metric\":{\"degree\":42,\"degrees\":[24,10,17],\"sha256\":\"6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62\",\"terms\":3679},\"terminal\":\"EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY\"}\n",
+      "summary": {
+        "blocks": {
+          "AE_minus_BD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "bface961aaf2afd8eab4e8f5c468ae9313d71027e1bfda928a7799e9f5a9cee9",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "48098e6d0eb0ae905474359d236f035211941eb961ed167e20b24c7e43d69768",
+              "terms": 645
+            }
+          },
+          "AF_minus_CD": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 15,
+                  "degrees": [
+                    9,
+                    6,
+                    6
+                  ],
+                  "sha256": "99890415692db75c2e3fa3c8430f0abf2b23578270c3f0713072420c58fd87c9",
+                  "terms": 266
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b4c3c1991a88314e67339caf4bd40db9c8ae625c525bae4a545c367ed3a9a3ad",
+              "terms": 650
+            }
+          },
+          "BF_minus_CE": {
+            "factor_metrics": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                }
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 14,
+                  "degrees": [
+                    8,
+                    6,
+                    6
+                  ],
+                  "sha256": "df47818456a378fa010195f86d1c88ea3caa42cca85438c20783c1ac178f781e",
+                  "terms": 225
+                }
+              }
+            ],
+            "metric": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "b6aa6e28cfb3829ce60330b9df163d224230a934ab34bd22ecac0fdae39b3c5b",
+              "terms": 645
+            }
+          }
+        },
+        "cell_id": "F07-R20",
+        "pair": [
+          0,
+          1
+        ],
+        "resultant_metric": {
+          "degree": 42,
+          "degrees": [
+            24,
+            10,
+            17
+          ],
+          "sha256": "6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62",
+          "terms": 3679
+        },
+        "terminal": "EXACT_QUADRATIC_RESULTANT_COMPRESSION_NECESSARY_ONLY"
+      }
+    }
+  ],
+  "sage": "official SageMath 10.9",
+  "schema": "kb-c2-112-pr1149-fixed-orbit-modal-review-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

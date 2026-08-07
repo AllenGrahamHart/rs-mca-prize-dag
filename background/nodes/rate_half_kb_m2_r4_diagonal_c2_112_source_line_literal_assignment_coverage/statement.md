@@ -35,9 +35,10 @@ M01-R11, M02-R11,
 ```
 
 The first two cells retain a precise Sage/Singular portability review gate.
-PR #1149 compresses the twelve fixed-moving cells into six fingerprint
-orbits, with both the generic `V!=0` and rank-drop `V=0,U=0` branches still
-requiring exact closure.
+The pinned and independently replayed #1149 compression theorem is now
+PROVED locally: it reduces the twelve fixed-moving cells to six exact
+fingerprint orbits. Both the generic `V!=0` and rank-drop `V=0,U=0` branches
+still require exact closure.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

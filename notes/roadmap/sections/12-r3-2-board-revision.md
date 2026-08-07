@@ -186,3 +186,31 @@ new assumptions:          none
 compute:                  bounded Modal Sage review; <=8 GB per shard
 next:                     attack six F04..F07 orbits; seek portable M01-R11 certificate
 ```
+
+### K3 fixed quadratic orbit import
+
+PR #1149 at `55ac3e07477bd7a768190a3e755f22b0d44354b0` is now imported as a
+PROVED structural theorem. Its Python verifier passes 11 hostile mutations
+and five generic symbolic identities. An independent official SageMath 10.9
+Modal review replayed all twelve literal `F04`--`F07` compressions; every
+shard matched the pinned resultant and terminal `U,V,Z` core fingerprints.
+
+The theorem proves the division-safe dichotomy
+
+```text
+Res_w(P,Q)=U^2-VZ,
+V != 0: w=-U/V,
+V = 0:  U=0 retained,
+```
+
+and the exact six two-cell orbit partition. It does not prove any of the
+twelve cells empty.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed residual
+result:                   PROVED quadratic dichotomy and six fingerprint orbits
+literal replay:           12/12 PASS, official SageMath 10.9
+remaining branches:       six generic V!=0 plus six rank-drop U=V=0
+new assumptions:          none
+next:                     factor terminal cores and close one orbit branch at a time
+```
