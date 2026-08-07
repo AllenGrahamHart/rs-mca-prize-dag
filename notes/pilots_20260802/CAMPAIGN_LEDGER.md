@@ -3075,3 +3075,16 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   section 12 r5, recompiled); membership lines on the three member
   nodes. Basis: 23b unsuccessful falsification against a
   power-validated test (the user's bar).
+
+## 2026-08-07: round-23b final quiescence — writer identity CONFIRMED; 23b closed for good
+
+- The mf_wall_adversary pilot's final state check: all processes
+  exited cleanly, the killed watcher was a no-op (no measurement
+  lost), no writes outside its dir. Its request for "one human
+  glance to confirm the writer" is ANSWERED ON THE RECORD: the
+  coordinator (Fable) authored REPORT.md (verbatim transcript
+  persistence, per standing practice) and FABLE_AUDIT.md, at the
+  timestamps the pilot inferred — no stray process, no other
+  pilot. CATCH-23B (banking before quiescence) stands as the
+  process lesson; the quiescence rule is in force. The 23b verdict
+  is final as banked and MYSTERY 7 is ratified on it (7ad7f5ec2).
