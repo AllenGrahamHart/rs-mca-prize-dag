@@ -150,7 +150,7 @@ Stated plainly, not softened: **nothing currently does.** Three concrete options
 
 ## 5. (L5) THE u2c PIN CHECK
 
-Pinned functional, verbatim, `critical/nodes/u2c_giant_tnull_dichotomy/node.json:10`:
+Pinned functional, verbatim, `background/nodes/u2c_giant_tnull_dichotomy/node.json:10`:
 
 > "falsifier": "Pre-registered: sub-balance (q^t >= 2^n) scaled rows with non-coset-union extras exceeding the transported n^3 budget, sustained across >= 3 scales. Above-balance window accidents do NOT count."
 

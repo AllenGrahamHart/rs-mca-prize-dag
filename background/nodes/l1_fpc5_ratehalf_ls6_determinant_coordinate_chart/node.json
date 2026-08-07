@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_ls6_determinant_coordinate_chart",
+    "title": "A primitive LS6 base gives a complete determinant coordinate chart",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Fix one primitive candidate (D_0,Q_0,V_0) in a guarded LS6 atom and put h=ell-2a. The map from the complete monic unguarded LS6 slice to K[X]_{<=h}, D mapsto H=D_0Q-DQ_0, is an affine bijection. Its inverse is explicit: R_H=rem_{D_0}(-H Q_0^{-1}), D_H=D_0+R_H, Q_H=(H+D_HQ_0)/D_0, and V_H=(D_HV_0-MH)/D_0. For coordinates H,G, the pair determinant is (D_HG-D_GH)/D_0 and again has degree at most h. Thus all formal multi-determinant and Plucker identities already hold on the whole ambient slice and cannot by themselves reduce its maximum. Guarded split points are exactly the coordinates for which D_H divides the core locator and the printed root-local primitive inequalities hold. The remaining theorem is therefore a split-root/owner census in this chart, not abstract determinant compatibility.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_determinant_coordinate_chart/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca primitive shift-pair and split-pencil control",
+      "relation": "EXACT_DETERMINANT_CHART_AND_ROUTE_FENCE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_ls6_pair_determinant_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}

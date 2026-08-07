@@ -1,0 +1,25 @@
+{
+  "app": "rs-mca-f2-round17-route-repair-node-verify",
+  "records": [
+    {
+      "node": "f2_admissible_direct_sum_grs_reduction",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ADMISSIBLE_DIRECT_SUM_GRS_REDUCTION_PASS canonical=373/373 classes<=4 grs=1 dag=1/1\n"
+    },
+    {
+      "node": "f2_all_admissible_o1_mass_bound",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ALL_ADMISSIBLE_O1_MASS_BOUND_REFUTED_PASS pocklington_base=5 field_cap=1 excess=5n/12 dag=2/2\n"
+    },
+    {
+      "node": "f2_conditional_close",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ROUND17_CRITICAL_ROUTE_REPAIR_PASS statuses=4/4 edges=5/5\n"
+    }
+  ],
+  "schema": "f2-round17-route-repair-node-verify-v1",
+  "status": "PASS"
+}

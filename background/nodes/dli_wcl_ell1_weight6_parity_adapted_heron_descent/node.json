@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1809,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+    "title": "WCL ell=1 weight-6 parity-adapted Heron descent",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Pairing exponent parities collapses the pair-Heron router at cyclotomic specialization. In the even-product sector all three pair products lie in Q(zeta_256), so all eight Heron factors are already base-field elements. In the odd-product sector exactly one pair is mixed, and its conjugate Heron factors multiply to C^2-dD^2; the full sign product is four such base-field quadratic norms. No compatible-prime exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/lineage.md",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_parity_adapted_heron_descent/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+      "order": 5024
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 5025
+    }
+  ],
+  "refutes": []
+}

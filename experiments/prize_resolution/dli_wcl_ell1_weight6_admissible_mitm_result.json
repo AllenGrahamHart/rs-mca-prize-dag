@@ -1,0 +1,650 @@
+{
+  "primes": [
+    6597069766657,
+    39582418599937,
+    46179488366593,
+    50577534877697,
+    79164837199873,
+    96757023244289,
+    171523813933057,
+    215504279044097,
+    217703302299649,
+    255086697644033,
+    263882790666241,
+    310062279032833,
+    321057395310593,
+    340848604610561,
+    409018325532673,
+    420013441810433,
+    435406604599297,
+    448600744132609,
+    474989023199233,
+    505775348776961,
+    560750930165761,
+    600333348765697,
+    659706976665601,
+    699289395265537,
+    815837627809793,
+    837827860365313,
+    864216139431937,
+    868614185943041,
+    910395627798529,
+    1013749720809473,
+    1022545813831681,
+    1086317488242689,
+    1108307720798209,
+    1167681348698113,
+    1178676464975873,
+    1194069627764737,
+    1231453023109121,
+    1238050092875777,
+    1271035441709057,
+    1284229581242369,
+    1299622744031233,
+    1337006139375617,
+    1429365116108801,
+    1451355348664321,
+    1537117255630849,
+    1636073302130689,
+    1682252790497281,
+    1754820557930497,
+    1761417627697153,
+    1779009813741569,
+    1814194185830401,
+    1871368790474753,
+    1880164883496961,
+    1899956092796929,
+    1910951209074689,
+    1932941441630209,
+    1952732650930177,
+    1959329720696833,
+    1963727767207937,
+    2029698464874497,
+    2097868185796609,
+    2128654511374337,
+    2174833999740929,
+    2190227162529793
+  ],
+  "relation_count": 0,
+  "rows": [
+    {
+      "omega": 5542667093460,
+      "p": 6597069766657,
+      "pair_count": 129540,
+      "seconds": 0.647742,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 19500063651219,
+      "p": 39582418599937,
+      "pair_count": 129540,
+      "seconds": 0.678436,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 34170043466881,
+      "p": 46179488366593,
+      "pair_count": 129540,
+      "seconds": 0.645175,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 16405728852213,
+      "p": 50577534877697,
+      "pair_count": 129540,
+      "seconds": 0.672799,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 69740145741383,
+      "p": 79164837199873,
+      "pair_count": 129540,
+      "seconds": 0.778093,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 47339900899867,
+      "p": 96757023244289,
+      "pair_count": 129540,
+      "seconds": 0.703233,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 85287062665977,
+      "p": 171523813933057,
+      "pair_count": 129540,
+      "seconds": 0.649089,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 48176762915763,
+      "p": 215504279044097,
+      "pair_count": 129540,
+      "seconds": 0.788411,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 48326857309717,
+      "p": 217703302299649,
+      "pair_count": 129540,
+      "seconds": 0.678101,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 61558578542724,
+      "p": 255086697644033,
+      "pair_count": 129540,
+      "seconds": 1.93119,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 140320092078334,
+      "p": 263882790666241,
+      "pair_count": 129540,
+      "seconds": 0.698466,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 23798616825655,
+      "p": 310062279032833,
+      "pair_count": 129540,
+      "seconds": 0.781164,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 130768377959532,
+      "p": 321057395310593,
+      "pair_count": 129540,
+      "seconds": 0.651676,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 307306653668601,
+      "p": 340848604610561,
+      "pair_count": 129540,
+      "seconds": 0.680597,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 273012877648327,
+      "p": 409018325532673,
+      "pair_count": 129540,
+      "seconds": 2.18552,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 187877471536736,
+      "p": 420013441810433,
+      "pair_count": 129540,
+      "seconds": 0.785857,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 114374462285335,
+      "p": 435406604599297,
+      "pair_count": 129540,
+      "seconds": 0.782469,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 370630194339330,
+      "p": 448600744132609,
+      "pair_count": 129540,
+      "seconds": 0.673511,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 118071336691046,
+      "p": 474989023199233,
+      "pair_count": 129540,
+      "seconds": 0.654864,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 166630294507922,
+      "p": 505775348776961,
+      "pair_count": 129540,
+      "seconds": 0.666157,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 400735909018219,
+      "p": 560750930165761,
+      "pair_count": 129540,
+      "seconds": 0.778535,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 421252615722071,
+      "p": 600333348765697,
+      "pair_count": 129540,
+      "seconds": 1.81408,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 438769532571355,
+      "p": 659706976665601,
+      "pair_count": 129540,
+      "seconds": 0.668005,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 179721527579332,
+      "p": 699289395265537,
+      "pair_count": 129540,
+      "seconds": 0.660979,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 173560219387511,
+      "p": 815837627809793,
+      "pair_count": 129540,
+      "seconds": 0.795026,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 527273124418934,
+      "p": 837827860365313,
+      "pair_count": 129540,
+      "seconds": 0.652598,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 97365923736452,
+      "p": 864216139431937,
+      "pair_count": 129540,
+      "seconds": 0.681557,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 45353184272056,
+      "p": 868614185943041,
+      "pair_count": 129540,
+      "seconds": 0.783865,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 102955201479009,
+      "p": 910395627798529,
+      "pair_count": 129540,
+      "seconds": 0.666835,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 123918444224193,
+      "p": 1013749720809473,
+      "pair_count": 129540,
+      "seconds": 0.780864,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 573566132452760,
+      "p": 1022545813831681,
+      "pair_count": 129540,
+      "seconds": 0.673229,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 12909816601084,
+      "p": 1086317488242689,
+      "pair_count": 129540,
+      "seconds": 0.67079,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 127530762639715,
+      "p": 1108307720798209,
+      "pair_count": 129540,
+      "seconds": 1.90249,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 392983230893587,
+      "p": 1167681348698113,
+      "pair_count": 129540,
+      "seconds": 0.656512,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 275432237977402,
+      "p": 1178676464975873,
+      "pair_count": 129540,
+      "seconds": 0.658195,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 547352383972702,
+      "p": 1194069627764737,
+      "pair_count": 129540,
+      "seconds": 0.782618,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 771806927870248,
+      "p": 1231453023109121,
+      "pair_count": 129540,
+      "seconds": 0.663815,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 153477053558502,
+      "p": 1238050092875777,
+      "pair_count": 129540,
+      "seconds": 0.798787,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 215406222175641,
+      "p": 1271035441709057,
+      "pair_count": 129540,
+      "seconds": 0.675962,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 217237293088610,
+      "p": 1284229581242369,
+      "pair_count": 129540,
+      "seconds": 0.665624,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 418947778762803,
+      "p": 1299622744031233,
+      "pair_count": 129540,
+      "seconds": 0.788005,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 317640751713633,
+      "p": 1337006139375617,
+      "pair_count": 129540,
+      "seconds": 0.678554,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1426249996783901,
+      "p": 1429365116108801,
+      "pair_count": 129540,
+      "seconds": 0.782873,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 999174176711918,
+      "p": 1451355348664321,
+      "pair_count": 129540,
+      "seconds": 0.64818,
+      "seed": 17,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 196668912621740,
+      "p": 1537117255630849,
+      "pair_count": 129540,
+      "seconds": 1.13052,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1616026524590158,
+      "p": 1636073302130689,
+      "pair_count": 129540,
+      "seconds": 2.00212,
+      "seed": 13,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1140774785277232,
+      "p": 1682252790497281,
+      "pair_count": 129540,
+      "seconds": 0.654785,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1111304598473575,
+      "p": 1754820557930497,
+      "pair_count": 129540,
+      "seconds": 0.648487,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1512834552596392,
+      "p": 1761417627697153,
+      "pair_count": 129540,
+      "seconds": 0.671335,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 850886759051945,
+      "p": 1779009813741569,
+      "pair_count": 129540,
+      "seconds": 1.93296,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 131268303876859,
+      "p": 1814194185830401,
+      "pair_count": 129540,
+      "seconds": 0.673559,
+      "seed": 13,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1172148422910532,
+      "p": 1871368790474753,
+      "pair_count": 129540,
+      "seconds": 0.783194,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 347402907323934,
+      "p": 1880164883496961,
+      "pair_count": 129540,
+      "seconds": 0.798304,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 777226078282689,
+      "p": 1899956092796929,
+      "pair_count": 129540,
+      "seconds": 0.679602,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 192582243776777,
+      "p": 1910951209074689,
+      "pair_count": 129540,
+      "seconds": 0.672253,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1863371114389154,
+      "p": 1932941441630209,
+      "pair_count": 129540,
+      "seconds": 0.676271,
+      "seed": 7,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 640246037175688,
+      "p": 1952732650930177,
+      "pair_count": 129540,
+      "seconds": 0.788121,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 717195112335586,
+      "p": 1959329720696833,
+      "pair_count": 129540,
+      "seconds": 0.783872,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 232607556617788,
+      "p": 1963727767207937,
+      "pair_count": 129540,
+      "seconds": 0.649201,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1367967913774220,
+      "p": 2029698464874497,
+      "pair_count": 129540,
+      "seconds": 0.687445,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 872580855685205,
+      "p": 2097868185796609,
+      "pair_count": 129540,
+      "seconds": 0.658565,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1041208321734476,
+      "p": 2128654511374337,
+      "pair_count": 129540,
+      "seconds": 0.701774,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1268300621207539,
+      "p": 2174833999740929,
+      "pair_count": 129540,
+      "seconds": 0.682671,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "omega": 1081292994318827,
+      "p": 2190227162529793,
+      "pair_count": 129540,
+      "seconds": 0.784746,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    }
+  ],
+  "schema": "dli-wcl-ell1-weight6-admissible-mitm-panel-v1",
+  "status": "COMPLETE",
+  "worker_errors": []
+}

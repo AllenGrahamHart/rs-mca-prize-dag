@@ -8,7 +8,7 @@
     "refs": [
       "critical/nodes/dli_wcl_slot_2_7_emptiness/statement.md"
     ],
-    "statement": "No reduced signed weight-7 polynomial P has P(w) = P(w^3) = 0 at exact order 1024 at any official row (ell=2 window; siblings (2,5)/(2,6) closed by the audited norm-gcd/recursive-norm certificates). FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
+    "statement": "No reduced signed weight-7 polynomial P has P(w) = P(w^3) = 0 at exact order 1024 at any official row (ell=2 window; siblings (2,5)/(2,6) closed by the audited norm-gcd/recursive-norm certificates). The exact four-plus-three cubic router has 94,652,815 affine candidate orbits. Its former Norm(u) saturation gap is repaired by an embedding-aware common-root quotient H_p/gcd(H_p,u) for every raw norm-gcd prime, but no survivor is excluded and the complete census is out of scope. FALSIFIER: one official-admissible prime (q < 2^256, v_2(q-1) >= 41) carrying the vanisher. Minted 2026-07-19 at the WCL amber ceremony; bookkeeping of record = the zone node's official_terminal_attack.md."
   },
   "requires": [],
   "alternatives": [],

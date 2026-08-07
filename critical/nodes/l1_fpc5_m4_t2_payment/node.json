@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_m4_t2_payment",
+    "title": "L1 FPC5: M=4,t=2 full-petal payment",
+    "status": "CONDITIONAL",
+    "closure": "proof",
+    "key": true,
+    "statement": "The official M=4,t=2 FPC5 residual splits disjointly by rate. The rate-quarter branch is unconditionally polynomial: first-layout domination reduces globally to one maximal layout plus four anchors, and two full petals contain more than k-1 points, so each of the six touched pairs determines at most one codeword. The only open branch is rate half. Conditional on its aggregate guarded split-locator payment, the complete M=4,t=2 residual is paid.",
+    "attack_surface": "discharge the single rate-half child; rate quarter and source-layout multiplicity are proved",
+    "falsifier": "a rate-half first-layout family exceeding every polynomial and legitimate quotient/profile column, or a violation of the proved rate-quarter pair uniqueness",
+    "refs": [
+      "critical/nodes/l1_fpc5_m4_t2_payment/statement.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/conditional.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/proof.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/attack.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/claim_contract.md",
+      "critical/nodes/l1_fpc5_m4_t2_payment/dependency_subdag.md",
+      "critical/nodes/pma_two_full_petal_linear_slice_reduction/statement.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/statement.md",
+      "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratequarter_m4_t2_payment"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

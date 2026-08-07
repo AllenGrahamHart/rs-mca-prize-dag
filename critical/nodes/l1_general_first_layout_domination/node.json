@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 524,
+  "node": {
+    "id": "l1_general_first_layout_domination",
+    "title": "L1 general first-layout domination",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any petal size ell, fix one admissible maximal sunflower source layout for a received word U, with M planted anchors. After subtracting its base polynomial, every listed codeword not among those anchors has the exact non-planted core-defect normal form in this same layout. Hence any selected source-admissible class has size at most its complete non-planted contribution in the first layout plus M; every possible later first-carried source-layout member is a first-layout anchor. At the L1 cutoff M=O(log n). This removes source-layout composition but not internal contributor-dependent quotient/Forney rechart payment.",
+    "refs": [
+      "critical/nodes/l1_general_first_layout_domination/statement.md",
+      "critical/nodes/l1_general_first_layout_domination/proof.md",
+      "critical/nodes/l1_general_first_layout_domination/claim_contract.md",
+      "critical/nodes/l1_general_first_layout_domination/dependency_subdag.md",
+      "critical/nodes/l1_general_first_layout_domination/audit.md",
+      "critical/nodes/l1_general_first_layout_domination/lineage.md",
+      "critical/nodes/l1_general_first_layout_domination/verify.py",
+      "critical/nodes/l1_general_first_layout_domination/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_core_defect_reduction",
+      "order": 2845
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_mixed_residual_intersection_pin",
+      "order": 2846
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 2847
+    },
+    {
+      "to": "petal_mixed_amplification",
+      "order": 2848
+    },
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    },
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    }
+  ],
+  "refutes": []
+}

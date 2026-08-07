@@ -66,7 +66,7 @@ Every `a=0` count at every `n` is a multiple of `n`, independently reproducing t
 
 ## 4. (S4) THE u2c CONVERSION STATEMENT
 
-> **(CONV)** The 1440-trial credit at `critical/nodes/u2c_giant_tnull_dichotomy/node.json:8` becomes mathematics iff one proves: *at official row parameters, for every `S` with `strat(S)=0`, `q` does not divide `N(I_S)`.*
+> **(CONV)** The 1440-trial credit at `background/nodes/u2c_giant_tnull_dichotomy/node.json:8` becomes mathematics iff one proves: *at official row parameters, for every `S` with `strat(S)=0`, `q` does not divide `N(I_S)`.*
 
 How far this pilot gets: SP-UNIFORM proves (CONV) for all `q <= sqrt(w+1)` (i.e. `q <= 2^17.00` at `w=2^34`, up to `2^19.50` at `w=2^39`); CS-EXCL proves it above the CS3 floor. **The official `q` sits in neither end, provably.**
 

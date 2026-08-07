@@ -47,7 +47,7 @@ F2 file has ever cited it.**
   *"Tower sections contain no opposite pairs, so every nonzero tower skew is
   norm-gated at every imposed odd exponent simultaneously. No
   bounded-coefficient escape."* Plus the Lam-Leung input at
-  `critical/nodes/u2c_giant_tnull_dichotomy/notes/F2_DEEP_REGIME_LAMLEUNG_NOTE.md:14-19`
+  `background/nodes/u2c_giant_tnull_dichotomy/notes/F2_DEEP_REGIME_LAMLEUNG_NOTE.md:14-19`
   and `f2_deep_regime_exactness`, `f2_char0_sixterm_classification` (both
   PROVED). **§5 below is therefore NOT claimed as new** — only its one-line
   Z-basis phrasing is.

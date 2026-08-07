@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 906,
+  "node": {
+    "id": "pma_ratehalf_core_triple_excess_reduction",
+    "title": "PMA rate-half core triple-excess reduction",
+    "status": "PROVED",
+    "statement": "Fixing three touched full petals identifies the nonpositive-J rate-half tail with a core RS list of length N=4ell+b-2, dimension K_0=ell+b-1, and agreement m=2ell+b+a-2. Any three contributors force, after removing their common factor, a nonconstant rational map whose 0, 1, and infinity fibers on the core have total size at least 2r+3a. Thus absence of this source-coupled positive three-fiber certificate pays the full tail by 8n per carried source. An exact smooth order-100 arbitrary-core fixture at the first J=0 row shows the generic smooth-core version is false, so the remaining theorem must retain the PMA CRT coupling.",
+    "refs": [
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/statement.md",
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/proof.md",
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/audit.md",
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/claim_contract.md",
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/dependency_subdag.md",
+      "critical/nodes/pma_ratehalf_core_triple_excess_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_three_petal_projective_johnson_bound",
+      "order": 1609
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1610
+    }
+  ],
+  "refutes": []
+}

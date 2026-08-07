@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_ls6_canonical_owner_packing",
+    "title": "The LS6 determinant chart has canonical owners and exact fixed-owner packing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every distinct guarded split point in the LS6 determinant chart, G=gcd(D_0,H) is exactly gcd(D_0,D_H). Writing D_0=GA, D_H=GB, H=GK gives pairwise-coprime G,A,B, the normalized determinant K=AQ_H-BQ_0, and the exact primitive guard gcd(K,B)=gcd(G,Q_H)=1. At fixed owner degree g, candidate-only root sets have size j-g in the |C|-j points outside the base and pairwise intersection at most h-g, so their number is at most floor(binomial(|C|-j,h-g+1)/binomial(j-g,h-g+1)). For g=h-c and b<ell this is less than 3^(c+1) per owner. Aggregation over different owners remains open.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_canonical_owner_packing/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca primitive shift-pair and split-pencil control",
+      "relation": "CANONICAL_OWNER_AND_FIXED_OWNER_PACKING"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_ls6_determinant_coordinate_chart"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_ls6_pair_determinant_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}

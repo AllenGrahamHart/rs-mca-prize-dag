@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 743,
+  "node": {
+    "id": "f2_conditional_close",
+    "status": "TARGET",
+    "title": "Generated-field-guarded F2 extras-budget close",
+    "statement": "At every official prize-max row and depth where the consumer's banked generated-field guard |B0|^t>=2^n invokes F2, prove that non-coset-union F2 extras plus trade families are at most n^3=2^123. The July Myerson close and the all-row bounded-class reduction are invalid. The plus generating branch reduces to explicit GRS kernels and the minus generating branch to one coupled negacyclic kernel. Fixed-depth ambient invariance identifies extension-row objects with generated-field objects, but does not transport a depth calibrated using the ambient q. The proved guard/depth reconciliation shows that the full-subset balance (C) selects exactly the five signed generating types, while an exact-slice (T*) depth fails the F2 guard on every type and must use a different route unless the guard is explicitly replaced. Under (C), the working finite mass terminal is Z(L)<=1+n^3; its proof, PP5.0 normalization, and any coset-sensitive Frobenius step remain open. No consumer status is promoted.",
+    "refs": [
+      "background/nodes/f2_conditional_close/statement.md",
+      "background/nodes/f2_conditional_close/attack.md",
+      "background/nodes/f2_conditional_close/audit.md",
+      "background/nodes/f2_conditional_close/claim_contract.md",
+      "background/nodes/f2_conditional_close/dependency_subdag.md",
+      "background/nodes/f2_conditional_close/verify.py",
+      "notes/pilots_20260806/f2_adm/PROOFS.md",
+      "notes/pilots_20260806/f2_adm/FABLE_AUDIT.md",
+      "notes/pilots_20260806/f2_route_repair/f2_route_node_verify_result.json",
+      "notes/pilots_20260806/f2_minus_branch/CORRECTION.md",
+      "notes/pilots_20260806/f2_minus_branch/counterexample_result.json",
+      "notes/pilots_20260806/f2_minus_branch/node_verify_result.json",
+      "notes/pilots_20260806/f2_minus_branch/coupled_kernel_result.json",
+      "background/nodes/f2_generated_field_ambient_invariance/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy"
+    }
+  ],
+  "refutes": []
+}

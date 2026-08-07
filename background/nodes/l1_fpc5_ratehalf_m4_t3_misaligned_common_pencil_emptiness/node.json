@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness",
+    "title": "Misaligned common-pencil three-petal LS6 atoms fail exactness",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "If the three touched petal locators are L_i=P-z_i but their source labels are not affine in z_i, then Etilde=A(P-z_0) with A nonzero. Writing D Etilde=L_2L_3 Q+V and s=ell-a, reduction modulo P-z_0 forces V=-(z_0-z_2)(z_0-z_3)Q, while cancellation gives A D=Q(P+z_0-z_2-z_3). Degree comparison gives deg Q=s>0, so Q divides both D and V and violates the LS6 gcd guard. Together with the aligned sibling, every common-pencil three-petal atom is empty.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-pencil / BC master-flatness route",
+      "relation": "MISALIGNED_STRATUM_EMPTINESS"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    }
+  ],
+  "refutes": []
+}

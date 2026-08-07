@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
+    "title": "KoalaBear aligned-positive F02/F03 upstream import",
+    "status": "PROVED",
+    "closure": "pinned exact upstream GREEN theorem deleting all six F02/F03 cells",
+    "statement": "At upstream PR #1141 commit 826c0e7610604d550b8dd9b772c197a4e660e525, an exact factor-first Sage proof deletes F02-R11 at the q-slice and exhausts the finite F_(p^2) q-slice schemes for F02-R02/R20, where all full J/I quotient mismatch norms are nonzero. A checked complete-source b-inversion transports the conclusions to F03. The proof objects are content-pinned; the fail-closed Python verifier was independently replayed locally with payload 51572f4d190a3bceb31494ae7ee48f6b026346413ae398d2da4f7b1da1402438 and 26/26 mutation tests passing.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/external_replay.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

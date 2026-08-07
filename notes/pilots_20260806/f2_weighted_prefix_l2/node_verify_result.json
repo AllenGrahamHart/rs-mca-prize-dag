@@ -1,0 +1,8 @@
+{
+  "app": "rs-mca-f2-weighted-prefix-l2-verify",
+  "returncode": 0,
+  "schema": "f2-weighted-prefix-l2-verify-v1",
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "F2_ADMISSIBLE_WEIGHTED_PREFIX_L2_IDENTITY_PASS rows=4 collisions=4688 kernel_words=404 list_fibers=753 dag=2/2\n"
+}

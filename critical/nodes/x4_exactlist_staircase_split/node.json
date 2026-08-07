@@ -3,16 +3,19 @@
   "order": 464,
   "node": {
     "id": "x4_exactlist_staircase_split",
-    "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound",
+    "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns",
     "status": "CONDITIONAL",
     "key": true,
-    "statement": "The unqualified worst-word exact-list bound is FALSE (verified counterexample: the quotient-coset staircase \u2014 locators L_B(X) G(X^M), M | n, M > t, S_Q = tail B plus h full M-cosets; top t+1 coefficients Q-independent so differences are codewords; ExactList >= C(n/M - 1, h), = 2^82.97 at the Row-C toy point vs 16n^3 = 2^34, pairwise overlaps < k throughout). THE CORRECTED STATEMENT: ExactList_C(w, A) <= QuotientStaircase(n,k,t) + DihedralStaircase-analogue + PrimitiveExactList, where QuotientStaircase = the explicit sum over M | n, M > t of coset-staircase terms (exact binomials), and the primitive target is PrimitiveExactList <= n^2 at corridor rows after stripping locators of the forms L_B(X) G(X^M) and X^e L_B(X) G(X^M + zeta X^-M). Transported quotient-row version identical (needed by TR's per-leaf term). MCA-side damage bounded: R_post counts SLOPES, and staircase supports share slopes (v8), so the compiler survives; the split is load-bearing for the LIST challenge and TR arithmetic. At prize rows M > t ~ 2^33 forces n/M <= 256, so staircase terms ~ C(128..256, 32..65) ~ 2^105-115 \u2014 under B* but far above 16n^3: QA.22 must re-run the budget with the staircase column. FOUR-COLUMN AMENDMENT (X-4b verdict, witness verified): the split gains the MomentTradeStaircase column \u2014 the primitive moment-null blocks are a THIRD cancellation mechanism outside all symmetry; see moment_trade_staircase and x4b_moment_trade_exclusion. The n^2 primitive target now applies AFTER the moment column.",
-    "attack_surface": "the staircase terms are EXACT binomials (chargeable by census); the primitive bound post-strip is the new deep target \u2014 the strip removes precisely the coefficient-cancellation mechanism, so a primitive list member's locator has full coefficient spread: quantify via the eliminant/Wronskian of the locator differences",
-    "falsifier": "a primitive (post-strip) worst-word exact list exceeding n^2 at a toy corridor row (searchable: extend the staircase enumerator with a strip filter)",
+    "statement": "CONDITIONAL EXACT-LIST ASSEMBLY. At every official x4 row and transported quotient row, fix one support-wise first-match priority map on each full locator-prefix fiber. Partition actual list supports into already-paid background classes, explicit quotient/dihedral staircases, the structured moment-null/U2 pullback column, and the remaining primitive star-PTE column. The paid theorem inputs bound their declared classes; u2c_exact_slice_extras_budget bounds the structured column by n^3 after expansion and coalescing; x4_primitive_star_u1_coverage directly bounds the local primitive list column by 16n^3; and x4_exactlist_summed_budget proves the one list-side integer sum is at most B*=floor(|F|/2^128). Under those hypotheses every exact list is at most B*. The quotient/dihedral and moment-trade counterexamples explain why the priority columns are necessary. QA.22's MCA slope arithmetic is evidence only and is not used as an unproved per-word list conversion.",
+    "attack_surface": "close the typed structured-column population, local primitive general-star budget, and list-side summed-budget leaves separately; preserve one support-wise priority map across them",
+    "falsifier": "a support omitted or multiply owned by the priority map, a primitive full-prefix fiber exceeding its direct local allowance, or a consumed row whose complete list-side sum exceeds B*",
     "refs": [
+      "critical/nodes/x4_exactlist_staircase_split/statement.md",
+      "critical/nodes/x4_exactlist_staircase_split/conditional.md",
+      "critical/nodes/x4_exactlist_staircase_split/REDUCTION_PACKET.md",
       "experimental/notes/roadmaps/e35_weight2_abundance.md"
     ],
-    "notes": "QA.22: the staircase columns are AFFORDABLE at every candidate \u2014 the split's arithmetic viability is now verified, not expected. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | WIRING FIX (amber-leaf audit, user catch #5): packet predicate u1_pullback_dichotomy was not wired req \u2014 promoted. | FULL-LANE COMPRESSION 2026-07-05: the 7 dli-lane ambers -> REDUCTION_PACKET.md (the composed conditional proof); hypotheses now wired = dli frontier + u2c_giant_tnull_dichotomy (surfaced from prose) + u1_pullback_dichotomy + proved sides. Folders archived at archive/compressed_dli_lane_20260705/. | AMBER AUDIT 2026-07-06: REPAIRED (packet hypothesis list aligned with wired reqs; missing frontier statement.md written). | STRESS-VERIFIED 2026-07-06 (independent second audit): implication checked B-given-A and stressed numerically/algebraically -- see notes/amber_audit_20260706/stress_verification.md.",
+    "notes": "Historical quotient, dihedral, and moment-trade counterexamples remain valid and force explicit columns. | FLIP on replay (Codex wave 3): TARGET -> CONDITIONAL. | FULL-LANE COMPRESSION 2026-07-05: the dli lane is recorded in REDUCTION_PACKET.md. | OWNERSHIP REPAIR 2026-08-06: u2c owns the structured moment/null pullback list column; the primitive full-prefix residue requires a direct local general-star budget; and the final sum is list currency, not QA.22 MCA slope currency. Minimalization plus u1 remains an optional proof route, not a mandatory consumer input.",
     "upstream": {
       "label": "prob:list-completion assembly",
       "relation": "OVERLAP"
@@ -28,8 +31,14 @@
       "order": 1041
     },
     {
-      "from": "u2c_giant_tnull_dichotomy",
+      "from": "u2c_exact_slice_extras_budget",
       "order": 1042
+    },
+    {
+      "from": "x4_primitive_star_u1_coverage"
+    },
+    {
+      "from": "x4_exactlist_summed_budget"
     },
     {
       "from": "b2b_dyadic_descent_packet",
@@ -102,10 +111,6 @@
     {
       "from": "xr_scattered_syzygy_flattice",
       "order": 1060
-    },
-    {
-      "from": "u1_x4_direct_column_budget",
-      "order": 1172
     }
   ],
   "alternatives": [],

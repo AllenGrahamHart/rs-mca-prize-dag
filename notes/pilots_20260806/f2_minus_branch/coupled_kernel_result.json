@@ -1,0 +1,25 @@
+{
+  "app": "rs-mca-f2-minus-coupled-kernel",
+  "records": [
+    {
+      "node": "f2_weighted_kernel_collision_floor",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_WEIGHTED_KERNEL_COLLISION_FLOOR_PASS cases=4 collisions=786 kernel_words=168 dag=1/1\n"
+    },
+    {
+      "node": "f2_minus_branch_coupled_negacyclic_reduction",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_MINUS_COUPLED_NEGACYCLIC_REDUCTION_PASS orders=4094 surrogate_orbits=28 top_orbits=15 official=1 dag=3/3\n"
+    },
+    {
+      "node": "f2_conditional_close",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ROUND18_CRITICAL_ROUTE_REPAIR_PASS statuses=7/7 edges=8/8\n"
+    }
+  ],
+  "schema": "f2-minus-coupled-kernel-v1",
+  "status": "PASS"
+}

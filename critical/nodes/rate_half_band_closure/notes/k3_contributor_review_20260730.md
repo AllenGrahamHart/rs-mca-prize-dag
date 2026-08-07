@@ -159,24 +159,28 @@ here literally." He is selecting his targets from our exported workboard.
 The 2026-08-01 watch "export status of `kb_m2_r4` (ours) as the fix" is
 therefore RESOLVED: the export worked.
 
-But our tree closed that block completely and never shipped it. All six
-`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_*`
-allocations are PROVED (moving same/swap/mixed, fixed same/swap/mixed);
-`..._fixed_mixed_.../result.md` states "All six aligned-positive unramified
-allocations are now closed". Upstream still sees only #1132's printed
-residual `remaining_unramified=6, deep_cases=17`, which is what is
-advertising the block as open. Scott has 2 of his six; we have 6 of ours.
+The mapping audit has since resolved this comparison and corrected our scope.
+Our local source templates are literally `fixed-moving=F00` and
+`moving-moving=M00`; the residual allocations are `same=R20`, `swap=R02`,
+and `mixed=R11`. Our six systems are therefore
 
-**MAPPING STILL UNESTABLISHED — do not claim identity.** His six is
-(two fixed-moving assignments F00,F01) x (three root patterns R02,R11,R20);
-ours is ({fixed-moving, moving-moving}) x ({same, swap, mixed}). Ours
-contains three moving-moving cells; all of his moving-moving cells (M00..M03)
-were already deleted in #1144. So the two "six-cell aligned-positive
-unramified blocks" are not known to be the same six objects, and the
-cell-for-cell mapping row we proposed on #1140 (issuecomment-5146556389) has
-still not been supplied by either side. Our 6/6 and his 2/6-plus-4-retained
-are NOT in contradiction under either reading: he proved two cells empty and
-left four OPEN, not nonempty.
+```text
+{F00,M00} x {R02,R11,R20},
+```
+
+not Scott's `{F00,F01} x {R02,R11,R20}` block and not an exhaustive
+36-cell atlas. The local fixed-mixed theorem is exactly `F00-R11`, one of
+#1149's two deletions. The three M00 cells lie inside #1144's complete moving
+closure; the F00 crossed/identity cells align with representative PRs #1135
+and #1136.
+
+**SCOPE REPAIR.** The matching centralizer is transitive on the relevant
+combinatorial edge classes, but a generic endpoint normalization does not
+preserve both the q-slice target in `W` and the observed source divisor.
+Consequently the former complete source-line PROVED promotion was too broad.
+It is now CONDITIONAL on an explicit literal-assignment coverage TARGET.
+#1149's four retained schemes are OPEN, not nonempty, and do not contradict
+the narrower local cell theorems.
 
 **Pin drift.** #1139 is stacked on #1132 at head `c2edcfa5`; our #1132 has
 advanced to `543db66f` ("Extend saturated 112 q-slice exclusions"). Any

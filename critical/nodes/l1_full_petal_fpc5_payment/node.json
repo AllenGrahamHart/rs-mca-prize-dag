@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_full_petal_fpc5_payment",
+    "title": "L1: below-band full-petal FPC5 residual payment",
+    "status": "CONDITIONAL",
+    "closure": "proof",
+    "key": true,
+    "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residual routers: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 rate split, whose rate-quarter branch is proved and whose only open child is rate half; and large sources M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint branches, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
+    "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
+    "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
+    "refs": [
+      "critical/nodes/l1_full_petal_fpc5_payment/statement.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/conditional.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/proof.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/attack.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/claim_contract.md",
+      "critical/nodes/l1_full_petal_fpc5_payment/dependency_subdag.md",
+      "critical/nodes/pma_full_petal_band_composition/statement.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_full_petal_band_composition"
+    },
+    {
+      "from": "pma_official_rate_small_source_degree_sieve"
+    },
+    {
+      "from": "pma_three_petal_projective_johnson_bound"
+    },
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    },
+    {
+      "from": "pma_two_full_petal_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "from": "l1_fpc5_m4_t2_payment"
+    },
+    {
+      "from": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

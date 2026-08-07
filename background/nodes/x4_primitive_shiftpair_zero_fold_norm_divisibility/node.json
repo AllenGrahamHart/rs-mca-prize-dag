@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_primitive_shiftpair_zero_fold_norm_divisibility",
+    "title": "Primitive shift-pair zero-fold norm divisibility",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a balanced signed shift-pair polynomial C, beta_a=0 exactly when Phi_(n_a) divides C in Z[X], while X-1 always divides C. If S and Z are the active and zero prefix-supplied dyadic levels, then 2^(|S|+sum_(j in S,a in Z)min(n_j,n_a)/2) p^R_S divides the product of active cyclotomic norms. Together with the shared Haar ceiling this gives the exact necessary pattern inequality 2^(|S|+T_2) p^R_S A_S^A_S<=(eN)^A_S. This can exclude zero-heavy patterns but supplies no ownership or population bound.",
+    "refs": [
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/statement.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/proof.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/claim_contract.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/source_evidence.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/dependency_subdag.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/audit.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/result.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/frontier.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/lineage.md",
+      "background/nodes/x4_primitive_shiftpair_zero_fold_norm_divisibility/verify.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_primitive_shiftpair_dyadic_norm_router"
+    },
+    {
+      "from": "x4_primitive_shiftpair_haar_norm_product_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

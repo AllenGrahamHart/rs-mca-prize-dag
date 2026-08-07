@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 741,
+  "node": {
+    "id": "f2_k1_contraction_theorem",
+    "status": "PROVED",
+    "statement": "F2 k=1 CONTRACTION THEOREM (2026-07-10, campaign cycle 55; digest F2_K1_LEVELSET_PASS): at prime-field rows (q = p prime, mu_n in F_p^x) with n >= 512 and n >= 3 sqrt(p): every p-free moment condition contracts the t-null census with per-condition loss L <= 4. PROOF CHAIN (each link proved/extracted/verified): our subgroup Gauss-sum bound (Lemma A of f2_weil_newton_arc_bound, PROVED: |sum_{x in mu_n} e_p(k x^j)| <= 2 sqrt(p)) -> cosine inequality -> the Halasz level set is TRIVIAL (T_ell(v) = {0} for ell = n/64 <= (n - 2 sqrt p)/20; verified exactly at (257,128) and (12289,2048) for multiple exponents) -> CMMM Lemma 2.3 (Halasz's anticoncentration lemma, THRESHOLD-FREE, extracted from arXiv:1904.11478 p.7: rho <= 3/p + 4|T_ell|/(p sqrt ell) + e^{-ell}) -> rho <= 3.71/p -> L = p rho <= 4. Catch #19's threshold obstacle ELIMINATED by shopping inside the same source (the 2^18 log p threshold belongs to the container theorem, not the lemma). EMPIRICAL STAGES RESTORED: (12289, 2048) \u2014 the NTT-prime row \u2014 is in regime. The model theatre's core theorem: with the proved bands + struct census + loop induction (to formalize), the F2 dichotomy at prime-field rows follows. The k = 2 breakage study (what fails at q = p^2) is the summit's minimal probe. Fifteenth satellite. || UPGRADED TO 1 + o(1) (2026-07-10, cycle 60): LMN's Esseen chain (eq. 8-11 of the Modp paper \u2014 extracted; generic: consumes ONLY coefficient arithmetic structure, no random-subspace input) + our proved level-set floor gives rho(moment functional) <= 1/p + e^{-n/15} at theatre rows \u2014 per-condition constant 1 + o(1) with exponentially small error, for FIXED functionals, by a one-paragraph adaptation. The joint/ladder version's remaining content: the FREQUENCY-SPACE STRUCT LEDGER \u2014 the p^t - 1 joint frequencies split into degenerate combos (= the campaign's proved collapse/orbit directions, in dual coordinates) and BGK-floored generic ones; the bookkeeping is the campaign's own machinery applied in frequency space. The prime-field flatness = that ledger write-up + assembly."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1262
+    },
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

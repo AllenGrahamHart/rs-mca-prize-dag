@@ -87,7 +87,7 @@ verbatim title:
 > `# S5: the Lam–Leung / Conway–Jones transport — resolved (empty at n′ = 2^s)`
 
 **(B6) The standing open lemma this pilot attacks.**
-`critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202`,
+`background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202`,
 verbatim:
 
 > ```
@@ -97,7 +97,7 @@ verbatim:
 > ```
 
 **(B7) Provenance of "generically coprime".**
-`critical/nodes/u2c_giant_tnull_dichotomy/node.json:8` — status
+`background/nodes/u2c_giant_tnull_dichotomy/node.json:8` — status
 `CONDITIONAL`, verbatim fragment:
 
 > `1440 trials, positively controlled against the known p=257 window accident) finds ZERO candidate sub-balance primes — the multi-condition ideals are generically coprime; the engineering channel is structurally empty, mirroring the E2 finding.`
@@ -323,12 +323,25 @@ odd `s` in `[1, w-1]`, of which there are `ceil((w-1)/2)`. Hence
 
 > **COROLLARY CS-TOWER.** The exclusion survives the stratum recursion.
 > At stratum `a`, LEMMA STRAT reduces to `(n/2^a, r'/2^a, w_a)` with
-> `w_a = floor((w-1)/2^a)+1`, and the biting condition becomes
-> `(w/2^{a+1}) log2 p > (n/2^{a+2}) log2(r'/2^a)`, i.e.
-> `2 w log2 p > n (log2 r' - a)`. The right side **decreases** in `a`
-> while the left is independent of `a`, so if CS-EXCL bites at `a = 0`
-> it bites at every stratum. Combined with LEMMA Z (which handles
-> `a >= log2 M`), **every** `S` is covered.
+> `w_a = floor((w-1)/2^a)+1`.  The exact biting condition is
+>
+> ```text
+> ceil(floor((w-1)/2^a)/2) log2 p
+>     > (n/2^{a+2}) log2(r'/2^a).                         (CS-TOWER-a)
+> ```
+>
+> Thus every nonstructural stratum is excluded when `(CS-TOWER-a)` is
+> checked for each such `a`.  If `w=2^v`, then its left coefficient is
+> exactly `2^{v-a-1}` for `a<v`; after multiplying by `2^a`, the left
+> side is independent of `a` and the right side strictly decreases.
+> Therefore, for power-of-two `w`, exclusion at `a=0` implies exclusion
+> at every deeper nonstructural stratum.  Combined with LEMMA Z (which
+> handles `a >= log2 M`), **every** `S` is then covered.
+
+The earlier displayed simplification replaced the exact ceiling by
+`w/2^{a+1}`.  That is harmless for the power-of-two prize windows used by
+the machine check, but is not an identity for arbitrary `w`; general
+windows require the finite per-stratum checks printed above.
 
 *Machine check:* `prize_floor.py` — 12 tower checks at `w = 2^38, 2^39`,
 `a = 0..5`, all bite, margins **widening** with `a` (ratio 1.62 -> 1.85).
@@ -340,7 +353,8 @@ Crossing row constants quoted verbatim from
 
 > `| crossing razor | `F_p`, `p >= 2^39+1`; recorded rows `q = p` PRIME ~2^256, `delta = 1` | `2^41` | `Z_w = {1..w-1}`, `\|Z_w\| = w-1` | `[2^41, 2^41-w+1, w]` **MDS = Reed-Solomon** | `r' = 2^40-w`, `w in [2^34,2^39]` | `B* = floor(q/2^128) < 2^128` |`
 
-At `n = 2^41`, `r' = 2^40 - w`, `log2 p = 256` (`prize_floor.py`, exact):
+At `n = 2^41`, `r' = 2^40 - w`, the **benchmark substitution**
+`log2 p = 256` gives (`prize_floor.py`, exact):
 
 | `w` | LHS (bits) | RHS (bits) | verdict |
 |---|---|---|---|
@@ -351,14 +365,21 @@ At `n = 2^41`, `r' = 2^40 - w`, `log2 p = 256` (`prize_floor.py`, exact):
 | `2^38` | 3.51844e13 | 2.17621e13 | **EXCLUDED** |
 | `2^39` | 7.03687e13 | 2.14405e13 | **EXCLUDED** |
 
-Exact threshold by bisection: `w* = 170,752,922,588 = 2^37.3131`; CS-EXCL
-excludes every `w > w*`, i.e. **71.16% of the crossing bracket
+Exact boundary by bisection: the first excluded integer is
+`w_0 = 170,752,922,588 = 2^37.3131` (equivalently, the last unexcluded
+integer is `170,752,922,587`).  Thus CS-EXCL excludes every `w >= w_0`,
+i.e. **71.16% of the crossing bracket
 `[2^34, 2^39]`**, and 2 of the 6 power-of-two `w` (the only `w` with a
 nonempty structural family, round-15 `(P4)`).
 
 Threshold vs field size: `log2 p = 128 -> 39.57%`; `208 -> 63.83%`;
 `256 -> 71.16%`; `512 -> 87.14%`. At `log2 p <= 64` the bound is vacuous
 across the whole bracket.
+
+The percentage depends on the **base characteristic `p`**, not on the
+ambient field size `q=p^e`.  Consequently `71.16%` is a near-256-bit
+prime-characteristic benchmark, not uniform coverage of all admissible
+extension-field rows and not a status change for the crossing target.
 
 ---
 

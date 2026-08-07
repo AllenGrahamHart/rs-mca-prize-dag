@@ -6,7 +6,16 @@
 
 ## Statement
 
-Full-petal extras at cofactor excess d-ell = c are poly(n) uniformly in c (equivalently: the amplification bound closes the Thm 21/B11 escape route).
+At every official row and for every received word, the layout-anchored
+top-band full-petal contribution with
+
+```text
+d >= ell(M-2)
+```
+
+fits the polynomial/profile budget. Below-band full petals are not claimed;
+their exact remaining FPC5 branch is
+`l1_full_petal_fpc5_payment`.
 
 ## Attack surface
 
@@ -14,4 +23,5 @@ fixed-excess enumerations (Q2.9), growing-excess coset-chart scans, then the amp
 
 ## Falsifier
 
-below-top Lemma-13 failures, exact realizable full-petal counts growing outside paid/top-band families, or an uncharged top-band family whose count cannot be bounded by a polynomial with exponent independent of c
+an uncharged layout-anchored top-band family whose count cannot be bounded by
+the stated polynomial/profile payment

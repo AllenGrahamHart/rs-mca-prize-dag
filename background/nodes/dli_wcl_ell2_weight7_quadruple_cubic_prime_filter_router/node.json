@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1811,
+  "node": {
+    "id": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
+    "title": "WCL ell=2 weight-7 quadruple-cubic prime-filter router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every official WCL (2,7) relation routes through a selected quadruple and complementary cubic. Two exact doubling recurrences characterize the cubic's order-1024 roots. Rational Norm(u) saturation is repaired embedding-by-embedding: shared primes are retained and tested by H_p=gcd(Phi_1024,F,G), with the u-zero factors removed before reconstruction. Exact Burnside enumeration gives 94,652,815 candidate orbits, making the complete census a recorded no-go. No candidate or official prime is excluded.",
+    "refs": [
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/statement.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/proof.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/claim_contract.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/audit.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/result.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/lineage.md",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/verify.py",
+      "background/nodes/dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell2_weight3_ambient_exclusion",
+      "order": 5028
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_2_7_emptiness",
+      "order": 5029
+    }
+  ],
+  "refutes": []
+}

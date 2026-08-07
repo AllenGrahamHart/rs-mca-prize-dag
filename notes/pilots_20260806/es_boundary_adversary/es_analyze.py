@@ -6,7 +6,7 @@ Consumes the census JSONs and adds:
   V1  EXTERNAL CROSS-VALIDATION against a BANKED count: the u2c node records
       "at (q=97,n=32,t=2) there are GIANT (81%) t-null non-coset-union blocks
       (complements of size-6 accidents; 160 witnesses)"
-      -- critical/nodes/u2c_giant_tnull_dichotomy/node.json:8.
+      -- background/nodes/u2c_giant_tnull_dichotomy/node.json:8.
       We recount the size-6 accidents at q=97, n=32, t=2 from scratch.
 
   C2  the suppression curve: per row, the LARGEST characteristic carrying an
@@ -125,7 +125,7 @@ def main():
             if not all((((i + L) % n) in st) == (i in st) for i in range(n)):
                 acc += 1
     print("  size-6 non-coset-union t-null blocks at q=97, n=32, t=2 : %d" % acc)
-    print("  BANKED (critical/nodes/u2c_giant_tnull_dichotomy/node.json:8):")
+    print("  BANKED (background/nodes/u2c_giant_tnull_dichotomy/node.json:8):")
     print("    \"complements of size-6 accidents; 160 witnesses\"")
     check("V1 reproduces the banked 160", acc == 160, "got %d" % acc)
     if acc == 160:

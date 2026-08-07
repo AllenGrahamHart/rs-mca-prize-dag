@@ -67,11 +67,6 @@
    "title": "Axis 9: exact rates (dither adverse, provisional)"
   },
   {
-   "id": "b1_char0_giant_coset_theorem",
-   "label": "PROVED",
-   "title": "PROVED (roadmap-lane, toy-verified): the char-0 giant coset theorem"
-  },
-  {
    "id": "b2b_dyadic_descent_packet",
    "label": "PROVED",
    "title": "b2b dyadic descent packet"
@@ -79,7 +74,7 @@
   {
    "id": "b2b_near_tail_bound",
    "label": "PROVED",
-   "title": "b2b near tail bound"
+   "title": "Official exact-slice rate-dependent near-tail bound"
   },
   {
    "id": "b_rational_lift",
@@ -162,11 +157,6 @@
    "title": "Confinement-from-stabilizer theorem (x1)"
   },
   {
-   "id": "conj_f",
-   "label": "PROVED",
-   "title": "Conjecture F: plane sections of D_j have poly unpaid points"
-  },
-  {
    "id": "corridor_ext_crossing",
    "label": "PROVED",
    "title": "Corridor eater (iii): the extension-crossing arithmetic"
@@ -195,11 +185,6 @@
    "id": "deep_point",
    "label": "PROVED",
    "title": "Deep-point identity BadVec = Deep_alpha^mu (x1)"
-  },
-  {
-   "id": "dihedral_quotient_stratum",
-   "label": "PROVED",
-   "title": "DISCOVERY (X-2 counterexample, verified): the reciprocal/dihedral quotient class"
   },
   {
    "id": "dli_artin_schreier_conductor_criterion",
@@ -387,6 +372,11 @@
    "title": "E22 tail-coset staircase locator algebra"
   },
   {
+   "id": "e22_two_class_exhaustion",
+   "label": "PROVED",
+   "title": "E22 two-class exhaustion for worst-word challengers"
+  },
+  {
    "id": "ef_component_control_alignment",
    "label": "PROVED",
    "title": "EF component-control alignment"
@@ -492,76 +482,6 @@
    "title": "Hypothesis (node-ified from f1_case_pole prose): the list-side threshold location at non-generating rows"
   },
   {
-   "id": "f2_conditional_close",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f2_edge_lemma",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f2_full_ladder_dictionary",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f2_growing_order_myerson",
-   "label": "UNPROVED",
-   "title": ""
-  },
-  {
-   "id": "f2_k1_contraction_theorem",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f2_newton_empty_extremes",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f3_h1_singleton_injectivity",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f3_h2_stratum_theorem",
-   "label": "PROVED",
-   "title": ""
-  },
-  {
-   "id": "f3_h3_direct_floor_conditional_close",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_h3_dsp8_correlation_bound",
-   "label": "UNPROVED",
-   "title": "DSP8: split-pencil/line-fiber correlation bound"
-  },
-  {
-   "id": "f3_h3_mobius_excess_half",
-   "label": "CONDITIONAL",
-   "title": "C36' weighted Mobius rich-fiber excess is at most n^2/2"
-  },
-  {
-   "id": "f3_h3_three_to_one_c36",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_hge4_aggregate_budget",
-   "label": "CONDITIONAL",
-   "title": ""
-  },
-  {
-   "id": "f3_hge4_norm_gate_count",
-   "label": "UNPROVED",
-   "title": ""
-  },
-  {
    "id": "f5_lineray_saturation_instrument",
    "label": "PROVED",
    "title": ""
@@ -572,99 +492,14 @@
    "title": ""
   },
   {
-   "id": "f_concurrency_equiv",
-   "label": "PROVED",
-   "title": "F-primitive = j-fold concurrency of the evaluation-hyperplane arrangement (exact reformulation)"
-  },
-  {
-   "id": "f_descent_termination",
-   "label": "PROVED",
-   "title": "Descent termination: the sparse-word descent tree is polynomial (census-grounded)"
-  },
-  {
-   "id": "f_dih_subgroup_completeness",
-   "label": "PROVED",
-   "title": "FACE-2 KEYSTONE (PROVABLE): the quotient sector is complete by group theory"
-  },
-  {
-   "id": "f_dim1",
-   "label": "PROVED",
-   "title": "F at dimension 1: pencils meet D_j in at most n/j points (VOTING)"
-  },
-  {
-   "id": "f_dim2_skeleton",
-   "label": "PROVED",
-   "title": "F at dimension 2: elementary pair bound + twins are tangent-paid"
-  },
-  {
-   "id": "f_dim_induction",
-   "label": "PROVED",
-   "title": "The divisor-depth induction: excess concurrency buys shared-divisor depth, one unit per dimension"
-  },
-  {
    "id": "f_dual_distance_frame",
    "label": "PROVED",
    "title": "The frame: trace degeneracies = low-weight words of the flat's dual code P-perp"
   },
   {
-   "id": "f_gcd_reduction",
-   "label": "PROVED",
-   "title": "F WLOG reduction: factor out the plane's common divisor"
-  },
-  {
-   "id": "f_many_sparse_structure",
-   "label": "PROVED",
-   "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
-  },
-  {
-   "id": "f_primitive_case",
-   "label": "PROVED",
-   "title": "F primitive core: gcd-trivial, aperiodic plane points are poly"
-  },
-  {
-   "id": "f_scale_recursion",
-   "label": "PROVED",
-   "title": "F scale recursion: pullback points are plane points of the quotient instance"
-  },
-  {
-   "id": "f_sparse_descent_step",
-   "label": "PROVED",
-   "title": "The descent step: a sparse dual word buys divisor depth faster than it costs dimension"
-  },
-  {
-   "id": "f_sparse_rank_split",
-   "label": "PROVED",
-   "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
-  },
-  {
-   "id": "f_spread_descent_dichotomy",
-   "label": "PROVED",
-   "title": "PROVED (Pro Brief B partial): the spread/rank-defect dichotomy + descent"
-  },
-  {
-   "id": "f_spread_moment_count",
-   "label": "PROVED",
-   "title": "Dually-spread flats: r-wise moment count gives C(n,r)/C(j,r) \u2014 poly to LOG dimension"
-  },
-  {
    "id": "f_support_lattice",
    "label": "PROVED",
    "title": "Reformulation: descent-tree size = closed-set count of the sparse-support lattice"
-  },
-  {
-   "id": "f_termination_hankel",
-   "label": "PROVED",
-   "title": "Hankel-kernel flats: coset-patterned supports => divisor-poset-sized lattice"
-  },
-  {
-   "id": "f_termination_mds",
-   "label": "PROVED",
-   "title": "MDS-dual flats: termination is TRIVIAL (no sparse words exist)"
-  },
-  {
-   "id": "f_weight2_inverse",
-   "label": "PROVED",
-   "title": "FACE-2 CORE (evidence-informed): the weight-2 inverse theorem"
   },
   {
    "id": "far_pair_separation",
@@ -722,11 +557,6 @@
    "title": "Graded radius: collisions require swap distance > d*(N',p); small scales unconditionally FULL"
   },
   {
-   "id": "hankel_moment_clean_leaves",
-   "label": "PROVED",
-   "title": "hankel moment clean leaves"
-  },
-  {
    "id": "hankel_rank_profile_entropy",
    "label": "PROVED",
    "title": "hankel rank profile entropy"
@@ -780,6 +610,41 @@
    "id": "l1_defect_layer_bounds",
    "label": "PROVED",
    "title": "L1 Lemmas 9/13-16: defect-layer bounds (full-petal case)"
+  },
+  {
+   "id": "l1_fpc5_large_source_payment",
+   "label": "UNPROVED",
+   "title": "L1 FPC5: large-source full-petal payment"
+  },
+  {
+   "id": "l1_fpc5_m4_t2_payment",
+   "label": "CONDITIONAL",
+   "title": "L1 FPC5: M=4,t=2 full-petal payment"
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_payment",
+   "label": "UNPROVED",
+   "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment"
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "label": "UNPROVED",
+   "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment"
+  },
+  {
+   "id": "l1_fpc5_ratequarter_m4_t2_payment",
+   "label": "PROVED",
+   "title": "Rate-quarter FPC5 M=4,t=2 is paid by pair uniqueness"
+  },
+  {
+   "id": "l1_full_petal_fpc5_payment",
+   "label": "CONDITIONAL",
+   "title": "L1: below-band full-petal FPC5 residual payment"
+  },
+  {
+   "id": "l1_general_first_layout_domination",
+   "label": "PROVED",
+   "title": "L1 general first-layout domination"
   },
   {
    "id": "l1_mixed_petal_amplification",
@@ -952,6 +817,11 @@
    "title": ""
   },
   {
+   "id": "petal_reserve_rich_fiber_reduction",
+   "label": "PROVED",
+   "title": "Petal reserve rich-fiber reduction"
+  },
+  {
    "id": "petal_retained_zero_effective_degree",
    "label": "PROVED",
    "title": "Retained zeros lower the petal auxiliary degree and preserve exact support"
@@ -967,9 +837,74 @@
    "title": "P1 and the strict E22 remainder collapse the full-petal tail to m+1"
   },
   {
+   "id": "pma_aux_list_reduction",
+   "label": "PROVED",
+   "title": "PMA stage 1: mixed-petal extras = RS list of the auxiliary pieced word (one level down)"
+  },
+  {
    "id": "pma_exact_periodic_owner",
    "label": "PROVED",
    "title": "Global exact-periodic source owner and dyadic profile charge"
+  },
+  {
+   "id": "pma_full_petal_band_composition",
+   "label": "PROVED",
+   "title": "PMA full-petal band/root composition"
+  },
+  {
+   "id": "pma_official_rate_small_source_degree_sieve",
+   "label": "PROVED",
+   "title": "PMA official-rate small-source degree sieve"
+  },
+  {
+   "id": "pma_petal_pattern_root_pinning_ledger",
+   "label": "PROVED",
+   "title": "PMA petal-pattern root-pinning ledger"
+  },
+  {
+   "id": "pma_ratehalf_complement_linear_slice_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half guarded fibers are exact complement-divisor linear slices"
+  },
+  {
+   "id": "pma_ratehalf_core_triple_excess_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half core triple-excess reduction"
+  },
+  {
+   "id": "pma_ratehalf_source_aligned_gcd_excess",
+   "label": "PROVED",
+   "title": "PMA rate-half source-aligned gcd excess"
+  },
+  {
+   "id": "pma_ratehalf_source_crossratio_fiber_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half source cross-ratio fiber reduction"
+  },
+  {
+   "id": "pma_ratehalf_two_petal_support_fiber_reduction",
+   "label": "PROVED",
+   "title": "PMA rate-half two-petal support-fiber reduction"
+  },
+  {
+   "id": "pma_saturated_mixed_support_kernel",
+   "label": "PROVED",
+   "title": "PMA saturated mixed-support interpolation kernel"
+  },
+  {
+   "id": "pma_three_petal_mu_basis_reduction",
+   "label": "PROVED",
+   "title": "PMA three-petal mu-basis reduction"
+  },
+  {
+   "id": "pma_three_petal_projective_johnson_bound",
+   "label": "PROVED",
+   "title": "PMA three-petal projective Johnson bound"
+  },
+  {
+   "id": "pma_two_full_petal_linear_slice_reduction",
+   "label": "PROVED",
+   "title": "PMA two-full-petal contributors are coprime-pair linear slices"
   },
   {
    "id": "q_recursion",
@@ -1087,19 +1022,14 @@
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
   },
   {
-   "id": "u1_x4_direct_column_budget",
-   "label": "CONDITIONAL",
-   "title": "FLOOR CONJECTURE: fully-stripped primitive residue <= n^3 at official corridor rows (already the floor)"
-  },
-  {
    "id": "u2_per_row_certifier",
    "label": "UNPROVED",
    "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
-   "id": "u2c_giant_tnull_dichotomy",
-   "label": "CONDITIONAL",
-   "title": "FLOOR CONJECTURE (EXTRAS-BUDGET): non-coset-union t-null extras <= n^3 = 2^123 at official prize-max rows"
+   "id": "u2c_exact_slice_extras_budget",
+   "label": "UNPROVED",
+   "title": "Official exact-slice structured moment/pullback column budget"
   },
   {
    "id": "unsafe_at_crossing",
@@ -1132,29 +1062,19 @@
    "title": "Per-row certified radius extension: multiplier + meet-in-the-middle to weight ~24"
   },
   {
-   "id": "wild_row_audit",
-   "label": "PROVED",
-   "title": "QA.23: the Mersenne wild rows \u2014 Dickson taxonomy + window arithmetic"
-  },
-  {
-   "id": "x24_char0_dyadic_descent",
-   "label": "PROVED",
-   "title": "PROVED (autonomous x24, replayed 15/15): char-0 dyadic trades ARE full fibers"
-  },
-  {
    "id": "x4_exactlist_staircase_split",
    "label": "CONDITIONAL",
-   "title": "THE CORRECTED LIST TARGET (X-4 verdict, verified): staircase split + primitive bound"
+   "title": "Conditional exact-list first-match assembly with typed Q/MT and SP columns"
   },
   {
-   "id": "x81_minimal_trade_square_shift",
-   "label": "PROVED",
-   "title": "PROVED (x81): minimal trades = square-shift factorizations"
+   "id": "x4_exactlist_summed_budget",
+   "label": "UNPROVED",
+   "title": "Exact-list first-match summed numerator budget"
   },
   {
-   "id": "x83_uniform_square_shift_obstruction_gate",
-   "label": "PROVED",
-   "title": "PROVED (x83, sympy-spot-verified + 97 replay checks): the UNIFORM obstruction gate \u2014 the complete dichotomy"
+   "id": "x4_primitive_star_u1_coverage",
+   "label": "UNPROVED",
+   "title": "Primitive exact-list local general-star budget"
   },
   {
    "id": "xr_band_forced_commonroot_syzygy_count",
@@ -1392,10 +1312,6 @@
    "to": "imgfib"
   },
   {
-   "from": "conj_f",
-   "to": "imgfib"
-  },
-  {
    "from": "f1_classification",
    "to": "ext_lift"
   },
@@ -1496,22 +1412,6 @@
    "to": "imgfib"
   },
   {
-   "from": "f_gcd_reduction",
-   "to": "conj_f"
-  },
-  {
-   "from": "f_scale_recursion",
-   "to": "conj_f"
-  },
-  {
-   "from": "f_primitive_case",
-   "to": "conj_f"
-  },
-  {
-   "from": "periodic_strata",
-   "to": "f_scale_recursion"
-  },
-  {
    "from": "char0_collision_classification",
    "to": "collision_norm_criterion"
   },
@@ -1530,14 +1430,6 @@
   {
    "from": "spi_exceptional_class",
    "to": "payment_completeness"
-  },
-  {
-   "from": "f_dim1",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_concurrency_equiv",
-   "to": "f_primitive_case"
   },
   {
    "from": "gap1_product_model",
@@ -1604,50 +1496,6 @@
    "to": "list_adjacency_closing"
   },
   {
-   "from": "f_dim2_skeleton",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_dim_induction",
-   "to": "f_primitive_case"
-  },
-  {
-   "from": "f_gcd_reduction",
-   "to": "f_dim2_skeleton"
-  },
-  {
-   "from": "f_dim2_skeleton",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_spread_moment_count",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_many_sparse_structure",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_spread_moment_count"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_sparse_descent_step"
-  },
-  {
-   "from": "f_dual_distance_frame",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "safe_assembly_uniformity",
    "to": "mca_safe"
   },
@@ -1674,30 +1522,6 @@
   {
    "from": "generator_economy",
    "to": "far_pair_separation"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_many_sparse_structure"
-  },
-  {
-   "from": "f_descent_termination",
-   "to": "f_dim_induction"
-  },
-  {
-   "from": "f_sparse_descent_step",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_support_lattice",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_termination_mds",
-   "to": "f_descent_termination"
-  },
-  {
-   "from": "f_termination_hankel",
-   "to": "f_descent_termination"
   },
   {
    "from": "f_dual_distance_frame",
@@ -1728,10 +1552,6 @@
    "to": "r2_clean_rates"
   },
   {
-   "from": "dihedral_quotient_stratum",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "xr_target_budget_audit",
    "to": "xr_clean_residual_any_gate"
   },
@@ -1748,36 +1568,12 @@
    "to": "xr_scattered_syzygy_flattice"
   },
   {
-   "from": "f_dih_subgroup_completeness",
-   "to": "f_weight2_inverse"
-  },
-  {
-   "from": "f_weight2_inverse",
-   "to": "f_sparse_rank_split"
-  },
-  {
-   "from": "f_sparse_rank_split",
-   "to": "f_many_sparse_structure"
-  },
-  {
    "from": "x4_exactlist_staircase_split",
    "to": "tr_perleaf_list_ident"
   },
   {
-   "from": "wild_row_audit",
-   "to": "f_dih_subgroup_completeness"
-  },
-  {
    "from": "moment_trade_staircase",
    "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "x24_char0_dyadic_descent",
-   "to": "x83_uniform_square_shift_obstruction_gate"
-  },
-  {
-   "from": "x81_minimal_trade_square_shift",
-   "to": "x83_uniform_square_shift_obstruction_gate"
   },
   {
    "from": "rules_freeze",
@@ -1856,16 +1652,8 @@
    "to": "f1_case_tower"
   },
   {
-   "from": "f_spread_descent_dichotomy",
-   "to": "f_dim_induction"
-  },
-  {
    "from": "cap_envelope_parameter_sweep",
    "to": "corridor_ledger"
-  },
-  {
-   "from": "f_spread_moment_count",
-   "to": "f_descent_termination"
   },
   {
    "from": "xr_target_budget_audit",
@@ -1910,14 +1698,6 @@
   {
    "from": "f_support_lattice",
    "to": "hankel_rank_profile_entropy"
-  },
-  {
-   "from": "hankel_rank_profile_entropy",
-   "to": "f_termination_hankel"
-  },
-  {
-   "from": "hankel_moment_clean_leaves",
-   "to": "f_termination_hankel"
   },
   {
    "from": "hankel_rank_profile_entropy",
@@ -2056,7 +1836,7 @@
    "to": "x4_exactlist_staircase_split"
   },
   {
-   "from": "u2c_giant_tnull_dichotomy",
+   "from": "u2c_exact_slice_extras_budget",
    "to": "x4_exactlist_staircase_split"
   },
   {
@@ -2136,14 +1916,6 @@
    "to": "mca_safe"
   },
   {
-   "from": "u1_x4_direct_column_budget",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "f3_h2_stratum_theorem",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
    "from": "f5_lineray_saturation_instrument",
    "to": "xr_smallcore_spread_count"
   },
@@ -2154,38 +1926,6 @@
   {
    "from": "floor_budget_slack_scan",
    "to": "xr_smallcore_spread_count"
-  },
-  {
-   "from": "f2_growing_order_myerson",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "f2_conditional_close",
-   "to": "u2c_giant_tnull_dichotomy"
-  },
-  {
-   "from": "f2_newton_empty_extremes",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "f2_edge_lemma",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "f2_full_ladder_dictionary",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "f2_k1_contraction_theorem",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "b2b_near_tail_bound",
-   "to": "f2_conditional_close"
-  },
-  {
-   "from": "b1_char0_giant_coset_theorem",
-   "to": "f2_conditional_close"
   },
   {
    "from": "petal_g1_layer_maps",
@@ -2240,22 +1980,6 @@
    "to": "xr_smallcore_spread_count"
   },
   {
-   "from": "f3_h1_singleton_injectivity",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_h3_direct_floor_conditional_close",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_hge4_aggregate_budget",
-   "to": "u1_x4_direct_column_budget"
-  },
-  {
-   "from": "f3_h3_three_to_one_c36",
-   "to": "f3_h3_direct_floor_conditional_close"
-  },
-  {
    "from": "petal_small_scale_staircase_census",
    "to": "petal_growth"
   },
@@ -2272,10 +1996,6 @@
    "to": "petal_g3_pricing_multiplicity"
   },
   {
-   "from": "f3_h3_mobius_excess_half",
-   "to": "f3_h3_three_to_one_c36"
-  },
-  {
    "from": "list_large_m_scope_closure",
    "to": "list_grand"
   },
@@ -2286,18 +2006,6 @@
   {
    "from": "list_subsqrt_interleaving_collapse",
    "to": "list_large_m_scope_closure"
-  },
-  {
-   "from": "f3_hge4_norm_gate_count",
-   "to": "f3_hge4_aggregate_budget"
-  },
-  {
-   "from": "x81_minimal_trade_square_shift",
-   "to": "f3_hge4_aggregate_budget"
-  },
-  {
-   "from": "x83_uniform_square_shift_obstruction_gate",
-   "to": "f3_hge4_aggregate_budget"
   },
   {
    "from": "petal_k4_johnson_slice",
@@ -2368,6 +2076,94 @@
    "to": "list_adjacency_closing"
   },
   {
+   "from": "pma_aux_list_reduction",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "l1_program_frontier",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "petal_g1_layer_maps",
+   "to": "petal_reserve_rich_fiber_reduction"
+  },
+  {
+   "from": "pma_aux_list_reduction",
+   "to": "pma_saturated_mixed_support_kernel"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_saturated_mixed_support_kernel"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_petal_pattern_root_pinning_ledger"
+  },
+  {
+   "from": "petal_reserve_rich_fiber_reduction",
+   "to": "pma_petal_pattern_root_pinning_ledger"
+  },
+  {
+   "from": "e22_two_class_exhaustion",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "petal_growth",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "pma_petal_pattern_root_pinning_ledger",
+   "to": "pma_full_petal_band_composition"
+  },
+  {
+   "from": "pma_saturated_mixed_support_kernel",
+   "to": "pma_three_petal_mu_basis_reduction"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_three_petal_mu_basis_reduction"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "pma_official_rate_small_source_degree_sieve"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_official_rate_small_source_degree_sieve"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_three_petal_projective_johnson_bound"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "pma_three_petal_projective_johnson_bound"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "pma_ratehalf_core_triple_excess_reduction"
+  },
+  {
+   "from": "pma_ratehalf_core_triple_excess_reduction",
+   "to": "pma_ratehalf_source_aligned_gcd_excess"
+  },
+  {
+   "from": "pma_ratehalf_source_aligned_gcd_excess",
+   "to": "pma_ratehalf_source_crossratio_fiber_reduction"
+  },
+  {
+   "from": "pma_ratehalf_source_crossratio_fiber_reduction",
+   "to": "pma_ratehalf_two_petal_support_fiber_reduction"
+  },
+  {
+   "from": "pma_ratehalf_two_petal_support_fiber_reduction",
+   "to": "pma_ratehalf_complement_linear_slice_reduction"
+  },
+  {
+   "from": "pma_three_petal_mu_basis_reduction",
+   "to": "pma_ratehalf_complement_linear_slice_reduction"
+  },
+  {
    "from": "rate_half_list_adjacent_crossing",
    "to": "list_adjacency_closing"
   },
@@ -2386,10 +2182,6 @@
   {
    "from": "dli_wcl_slot_4_9_emptiness",
    "to": "dli_wcl_zone_coverage"
-  },
-  {
-   "from": "f3_h3_dsp8_correlation_bound",
-   "to": "f3_h3_mobius_excess_half"
   },
   {
    "from": "dli_wcl_slot_1_7_emptiness",
@@ -2436,6 +2228,10 @@
    "to": "dli_marginal_baseline100_coverage"
   },
   {
+   "from": "l1_core_defect_reduction",
+   "to": "l1_general_first_layout_domination"
+  },
+  {
    "from": "xr_graded_tangent_band_charge",
    "to": "xr_smallcore_spread_count"
   },
@@ -2458,6 +2254,62 @@
   {
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness"
+  },
+  {
+   "from": "l1_fpc5_large_source_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "l1_fpc5_m4_t2_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_payment",
+   "to": "l1_fpc5_m4_t2_payment"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "l1_fpc5_ratequarter_m4_t2_payment",
+   "to": "l1_fpc5_m4_t2_payment"
+  },
+  {
+   "from": "l1_full_petal_fpc5_payment",
+   "to": "imgfib"
+  },
+  {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_ratequarter_m4_t2_payment"
+  },
+  {
+   "from": "pma_full_petal_band_composition",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_three_petal_projective_johnson_bound",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_full_petal_fpc5_payment"
+  },
+  {
+   "from": "x4_exactlist_summed_budget",
+   "to": "x4_exactlist_staircase_split"
+  },
+  {
+   "from": "x4_primitive_star_u1_coverage",
+   "to": "x4_exactlist_staircase_split"
   }
  ]
 }

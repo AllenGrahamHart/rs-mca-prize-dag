@@ -9,3 +9,30 @@ an order-512 root (ell=1 window). Zero-event obligation. Evidence note:
 weight-6 witness) — the official-admissibility gate (v_2(q-1) >= 41) is
 load-bearing. FALSIFIER: one official-admissible prime with such a
 vanisher.
+
+Finite exact evidence: the first 64 certified split-prime characteristics,
+`q=k*2^41+1` for prime rows with `3<=k<=996`, exhaust all normalized legal
+pair/triple splits and contain no vanisher. This does not alter `TARGET`:
+later characteristics and extension-field rows remain unclassified.
+
+Structural router: aggregating the 32 sign lifts of each six-subset of
+`mu_256` gives one symmetric degree-16 sign product with exactly the union of
+their norm-prime supports. The affine-Galois quotient has `11,650,060`
+unsigned orbits, split into `6,025,357` even-product and `5,624,703`
+odd-product sectors. Aggregate factor control at the official gate remains
+open. The pair-Heron refinement factors each aggregate into eight explicit
+six-term conjugates, each owning four sign classes; prime control of those
+factors remains open. Parity-adapted pairing places all eight factors directly
+in `Q(zeta_256)` in the even sector and reduces the odd sector to four
+explicit quadratic norms there. Prime control of these base-field factors
+remains open, so this also leaves the node `TARGET`.
+
+The conductor/block-gcd audit closes one proposed continuation negatively.
+All-one-parity supports descend exactly to their maximal lower two-adic
+conductor. At the resulting mixed-parity conductor, every even Heron block
+norm is a product of two complete signed rational norms and every odd
+quadratic block norm is a product of four. Hence gcds across different
+pairings remain divisible by the complete norm of any sign class they share;
+they cannot provide the independent-obstruction compression that closed the
+`ell=2` lower weights. Individual minimal-conductor norm control or a genuinely
+independent equation remains open.

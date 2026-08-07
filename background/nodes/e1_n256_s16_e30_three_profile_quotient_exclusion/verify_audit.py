@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 NODE = "e1_n256_s16_e30_three_profile_quotient_exclusion"
-RESULT = ROOT / "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_result.json"
+RESULT = ROOT / "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_result.json"
 EXPECTED = {
     "6,6": {128: (8_089_426, 1712), 64: (3_316_117, 1694)},
     "2,7": {128: (271_115, 1600), 64: (164_143, 1600)},

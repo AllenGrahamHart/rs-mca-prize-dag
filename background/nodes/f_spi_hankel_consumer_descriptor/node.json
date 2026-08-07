@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_spi_hankel_consumer_descriptor",
+    "title": "SPI Hankel slope fibers are exact Conjecture-F flat descriptors",
+    "status": "PROVED",
+    "closure": "proof",
+    "key": true,
+    "statement": "For every Hankel slope z, the spi_point_counting incidence fiber is exactly P(ker M(z)) cap D_j(H), with projective dimension dim ker M(z)-1, unchanged domain H, exact split-root threshold j, and no punctures. Emitting one descriptor occurrence per slope incidence preserves multiplicity even when one locator supports multiple slopes. The proved exceptional-component payment order assigns first owners before the generic residual.",
+    "refs": [
+      "background/nodes/f_spi_hankel_consumer_descriptor/statement.md",
+      "background/nodes/f_spi_hankel_consumer_descriptor/proof.md",
+      "background/nodes/f_spi_hankel_consumer_descriptor/claim_contract.md",
+      "background/nodes/f_spi_hankel_consumer_descriptor/dependency_subdag.md",
+      "background/nodes/spi_point_counting/conditional.md",
+      "critical/nodes/spi_component_control/proof.md",
+      "critical/nodes/payment_completeness/proof.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "spi_component_control"
+    },
+    {
+      "from": "payment_completeness"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

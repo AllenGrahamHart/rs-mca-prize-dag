@@ -3,12 +3,19 @@
 **Auditor:** Fable, 2026-08-06. **Verdict: BANKED — THEOREM CS is the
 campaign's first UNCONDITIONAL positive coverage of the (ES) crossing
 terminal: at 256-bit characteristic it proves the instance outright on
-71.16% of the crossing bracket (every w > 2^37.3131, including 2 of
+71.16% of the crossing bracket (every integer
+`w >= 170,752,922,588`, including 2 of
 the 6 power-of-two w), by an ideal-level Galois-multiplicity squeeze
 (p^{|Z_w^odd|} | N(x_1) vs a SHARP AM-GM ceiling). The exceptional
 class is exactly characterized (E_strat via LEMMA STRAT + E_floor),
 contains all five round-16 witnesses with exponents matching on the
 nose, and only E_floor SPARSITY remains conjectural.**
+
+**Scope precision (Codex transport audit, 2026-08-06):** the `71.16%`
+figure is conditional on the benchmark substitution `log2 p = 256`.
+THEOREM CS is rowwise in the base characteristic `p`; a large extension
+field `q=p^e` does not supply the same percentage when `p` is smaller.
+No uniform crossing-target status change follows from this percentage.
 
 Replay (coordinator, under ramguard): self 65,613/0; floor/strat/wit
 clean; failclosed exits 1 as designed (fail-closure proven, not
@@ -19,7 +26,7 @@ across all stages). Anchors verified by the
 coordinator directly, verbatim-exact: the collapse identity
 (archive/compressed_dli_lane_20260705/pcf_evaluation_flatness/statement.md:8-12)
 and the pair-coprimality open lemma
-(critical/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202).
+(background/nodes/u1_x4_direct_column_budget/notes/F3_SHALLOW_LADDER.md:200-202).
 
 ADOPTED:
 - **THEOREM CS** (novelty correctly scoped: the delta -> |Z_w^odd|

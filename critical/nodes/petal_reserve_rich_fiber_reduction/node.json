@@ -1,0 +1,48 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 849,
+  "node": {
+    "id": "petal_reserve_rich_fiber_reduction",
+    "title": "Petal reserve rich-fiber reduction",
+    "status": "PROVED",
+    "statement": "For a maximal sunflower with petal size ell=sigma+1, every non-planted listed residual has at least ell petal agreements and therefore one petal containing at least ceil(ell/M) points of one value fiber of W/L_D. At sigma=Omega(n/log n) this is Omega(n/log^2 n), and the collision-free class is empty. The remaining imgfib target is a source-coupled rich-fiber count or ownership theorem.",
+    "refs": [
+      "critical/nodes/petal_reserve_rich_fiber_reduction/statement.md",
+      "critical/nodes/petal_reserve_rich_fiber_reduction/proof.md",
+      "critical/nodes/petal_reserve_rich_fiber_reduction/audit.md",
+      "critical/nodes/petal_reserve_rich_fiber_reduction/claim_contract.md",
+      "critical/nodes/petal_reserve_rich_fiber_reduction/dependency_subdag.md",
+      "critical/nodes/petal_reserve_rich_fiber_reduction/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_aux_list_reduction",
+      "order": 1506
+    },
+    {
+      "from": "l1_program_frontier",
+      "order": 1507
+    },
+    {
+      "from": "petal_g1_layer_maps",
+      "order": 1508
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1509
+    },
+    {
+      "to": "imgfib",
+      "order": 1510
+    },
+    {
+      "to": "l1_mixed_petal_amplification",
+      "order": 1537
+    }
+  ],
+  "refutes": []
+}

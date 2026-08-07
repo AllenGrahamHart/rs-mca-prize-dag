@@ -33,7 +33,7 @@ Sources (read ALL, quote verbatim):
   bracket in `notes/pilots_20260804/crossing_w2_opening/`),
   `critical/nodes/xr_band_forced_commonroot_syzygy_count` (BC routing:
   `notes/pilots_20260804/bc_block_census/REPORT.md`),
-  `critical/nodes/u2c_giant_tnull_dichotomy` (whose banked re-pose is
+  `background/nodes/u2c_giant_tnull_dichotomy` (whose banked re-pose is
   (ES) verbatim — check WHICH reading it actually pinned).
 
 ## 1. Pre-registered deliverables

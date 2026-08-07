@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_low_difference_johnson_positive_wedge_aggregate",
+    "title": "Low-difference Johnson-positive wedge aggregate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At one fixed base support, sum every exact nonconstant side-width/difference-degree stratum with Delta=4e^2-N(e+d)>0. The low-difference Johnson cell bound and the exact step Delta(e,d+1)=Delta(e,d)-N give a complete aggregate at most 5N^3/16: deep cells Delta>=N cost below N^3/16, and there is at most one boundary cell 0<Delta<N per e, costing at most N^3/4 total. Every remaining nonconstant record satisfies 4e^2<=N(e+d) and e>=t_XR+d+1.",
+    "refs": [
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/statement.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/proof.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/claim_contract.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/source_evidence.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/dependency_subdag.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/audit.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/result.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/frontier.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/lineage.md",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/verify.py",
+      "background/nodes/x4_low_difference_johnson_positive_wedge_aggregate/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_low_difference_johnson_highwidth_bound"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

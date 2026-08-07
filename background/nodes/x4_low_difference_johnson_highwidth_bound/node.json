@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_low_difference_johnson_highwidth_bound",
+    "title": "Low-difference local SP Johnson high-width bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed base support, side-width-e neighbours whose reduced locator difference has degree at most d have changed 2e-sets with pairwise intersection at most e+d. Hence their number is at most N(e-d)/(4e^2-N(e+d)) whenever the denominator is positive. At N=2^41 and d=1, every width e>=N/4+1 has at most N^2/16 records, and summing all at most N/4 such widths costs at most N^3/64. Thus only t_XR+2<=e<=N/4 remains in the d=1 branch.",
+    "refs": [
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/statement.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/proof.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/claim_contract.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/source_evidence.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/dependency_subdag.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/audit.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/result.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/frontier.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/lineage.md",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/verify.py",
+      "background/nodes/x4_low_difference_johnson_highwidth_bound/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_general_shiftpair_difference_degree_partition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

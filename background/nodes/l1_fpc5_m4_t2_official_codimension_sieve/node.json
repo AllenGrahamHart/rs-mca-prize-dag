@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_m4_t2_official_codimension_sieve",
+    "title": "FPC5 M=4,t=2 official locator slices have positive codimension",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the official rows k=2^40, every M=4,t=2 full-petal cell d=ell+s has positive locator-slice codimension c=ell-s-1. At rate 1/2, the threshold gives s<=b; writing j=ell-b, the source equation gives 5ell=k+1+j and k=1 mod 5, hence j=3 mod 5 and c>=j-1>=2. At rate 1/4, the exact defect cap gives c>=2ell-k; with 5ell=3k+1+j and j>=1, this is at least (k+4)/5. Thus the codimension-zero endpoint s=ell-1 is impossible at both surviving rates.",
+    "refs": [
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/statement.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/proof.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/claim_contract.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/dependency_subdag.md",
+      "background/nodes/l1_fpc5_m4_t2_official_codimension_sieve/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_two_full_petal_linear_slice_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

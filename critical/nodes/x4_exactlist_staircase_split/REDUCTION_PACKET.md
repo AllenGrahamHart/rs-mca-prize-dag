@@ -3,12 +3,35 @@
 Frontier: dli_prime_weighted_large_block_support (the U-weighted/RES counting obligation).
 Interface: this node (the four-column exact-list split).
 The chain of ambers below IS the conditional proof: each step a proved implication; this packet is the
-composed proof document. AUDIT BEFORE COMPRESSION surfaced two prose lemmas, now declared as the wired
-hypothesis u2c_giant_tnull_dichotomy (U2-C prime; subsumes the divisor-frame residual).
+composed proof document. The historical compression surfaced the F2/t-null
+route now retained as evidence; the consumer-scope correction below supersedes
+its old strict wiring.
 
-Validation status of the segment: leaf calibration on the real object (3 independent computations);
-consumer ledger exhaustive adversarial-lambda sweep n=32..2048; weighted re-pose coherent end-to-end;
-endpoint (b2b weighted average) measured directly; Lemma 1 exact reduction proved.
+Validation status of the historical null route: leaf calibration on the real
+object (3 independent computations); consumer ledger exhaustive
+adversarial-lambda sweep n=32..2048; weighted re-pose coherent end-to-end;
+endpoint (b2b weighted average) measured directly; Lemma 1 exact reduction
+proved. These facts do not supply the maximum-prefix bridge recorded below.
+
+## Consumer-scope and ownership correction (2026-08-06)
+
+The official boundary atom is a maximum over full elementary locator-prefix
+fibers. The historical `u2c_giant_tnull_dichotomy` controls a different
+power-sum-null object: in characteristic `p` it fixes only the `p`-free prefix
+coordinates, and raw mode-at-null is false.
+
+A second audit separates the columns. `u2c_exact_slice_extras_budget` owns the
+actual list members assigned to the structured moment/null pullback bucket,
+including staircase expansion and coalescing. It does not own the final
+primitive residue. Choosing a base in a primitive fiber injects the other
+members into general order-`t` star-PTE records. The open
+`x4_primitive_star_u1_coverage` target must bound that local general-record
+population by `16n^3-1`.  Strip-aware injection into the F-4/minimal ledger
+bounded by `u1_x4_direct_column_budget` is one optional route, not the target
+itself. Finally,
+`x4_exactlist_summed_budget` supplies one per-word list sum; QA.22's per-pair
+MCA reserve cannot substitute for it. The historical F2/t-null packet below
+remains evidence for the structured column only.
 
 ## Compressed steps (archive/compressed_dli_lane_20260705/)
 
@@ -58,10 +81,12 @@ For each official row (p, n, t): either (a) prove no super-logarithmic disjoint 
 NOTES: Reframed by the unification: the per-row question is 'which polynomial-fiber block families (zero top-t coefficient maps) exist in the row domain' — E37's census language updated; the Luroth frame may make the exclusion provable by degree arithmetic 
 
 ## Wired hypotheses of the interface (complete, audit-aligned 2026-07-06)
+- moment_trade_staircase (PROVED mechanism)
 - dli_prime_weighted_large_block_support (FRONTIER red)
-- u2c_giant_tnull_dichotomy (SURFACED red)
-- u1_pullback_dichotomy (red; pre-existing hypothesis of this node)
-- moment_trade_staircase (PROVED; pre-existing hypothesis of this node)
+- u2c_exact_slice_extras_budget (structured Q/MT list-member column)
+- x4_primitive_star_u1_coverage (direct local primitive general-star budget)
+- u1_x4_direct_column_budget (optional F-4 minimal-ledger route evidence)
+- x4_exactlist_summed_budget (list-side final integer sum)
 
 ## Reattached side-inputs
 - b2b_dyadic_descent_packet [PROVED]

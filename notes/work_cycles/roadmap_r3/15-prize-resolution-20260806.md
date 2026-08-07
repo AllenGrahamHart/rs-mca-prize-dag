@@ -2549,3 +2549,236 @@ new assumptions: none
 compute: no Modal; exact polynomial division replay under 256 MB RAM guard
 next: depth-uniform prefix flatness for the ladder; BC attack only above e=ell-a
 ```
+### High-multiplier LS6 Pade coordinates
+
+Let `e=deg Etilde>ell-a`. For every high-multiplier LS6 candidate, exact
+Euclidean division gives
+
+```text
+D=quo_E((L_2L_3)Q),       V=-rem_E((L_2L_3)Q),
+deg Q=e-a,                lc(Q)=lc(E).
+```
+
+Core/petal disjointness transports the exact guard without loss:
+
+```text
+gcd(D,V)=1  <=>  gcd(D,Q)=1.
+```
+
+If `F` is the canonical inverse of `E` modulo `L_2L_3`, then
+`D=rem_(L_2L_3)(FV)`. On the official branch, nonemptiness forces the dual
+degree gate
+
+```text
+deg F>=ell+a.
+```
+
+Indeed, below that gate no modular reduction occurs and `D=FV`, so the
+nonconstant remainder `V` violates exactness. Thus the former generic
+high-multiplier BC branch is an exact two-sided primitive Pade cell. Its
+split maximum, quotient classification, and owner-safe dihedral transport
+remain open.
+
+```text
+starting pin: 5a68fecfd; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / high-multiplier LS6
+result: PROVED exact Pade quotient coordinates, guard transport, and inverse-degree gate
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive rational-approximation adapter
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) replay under 256 MB RAM guard
+next: count split primitive Pade quotients and classify owner-safe quotient/dihedral strata
+```
+
+### Universal LS6 inverse source-ratio gate
+
+The inverse-multiplier obstruction is independent of the high/low split.
+For every guarded LS6 candidate,
+
+```text
+F=Etilde^(-1) mod L_2L_3,
+D=rem_(L_2L_3)(FV),       deg F>=ell+a.
+```
+
+The source CRT gives the exact form
+
+```text
+F=L_1+L_2A,
+A=(lambda^(-1)-1) rem_(L_3)(L_1L_2^(-1)).
+```
+
+Hence nonemptiness forces the label-independent source gate
+
+```text
+deg rem_(L_3)(L_1L_2^(-1))>=a.
+```
+
+Failure is exactly a short syzygy
+`L_1=U L_2+R L_3` with `deg U,deg R<a`. Common pencils are its degree-zero
+case. The target now excludes the complete short-syzygy source stratum before
+either multiplier branch; classifying the surviving degree-`>=a` ratios
+remains open.
+
+```text
+starting pin: fbe7a594b; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / source syzygy gate
+result: PROVED universal inverse-degree and modular source-ratio gate
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable split-pencil/short-syzygy census rung
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) CRT replay under 256 MB RAM guard
+next: classify surviving source-ratio degrees and test cyclic relabeling as simultaneous gates
+```
+
+### Guarded LS6 primitive pair determinant
+
+For every candidate, the quotient in `DE=MQ+V` is primitive:
+
+```text
+deg Q=e-a,       gcd(D,Q)=1.
+```
+
+For two distinct candidates in one fixed atom,
+
+```text
+H_12=D_1Q_2-D_2Q_1=(D_2V_1-D_1V_2)/M,
+0!=H_12,       deg H_12<=ell-2a.
+```
+
+Thus `gcd(D_1,D_2)|H_12`, candidate root sets meet in at most `ell-2a`
+points, and the determinant separates candidates relative to a fixed base.
+The induced constant-weight Johnson denominator is exactly
+
+```text
+(2ell-a)^2-(4ell+b-2)(ell-2a)=J.
+```
+
+Since the live tail has `J<=0`, this proves a route fence as well as a
+router: pairwise distance cannot close the cell. The next theorem must use
+compatibility among several low-degree determinants, their split factors,
+or owner-safe quotient structure.
+
+```text
+starting pin: 1577be145; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / primitive shift pairs
+result: PROVED low pair determinant, root-intersection cap, injection, and exact Johnson fence
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair/split-pencil router
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) pair replay under 256 MB RAM guard
+next: exploit three-or-more determinant compatibility; do not repeat distance-only packing
+```
+
+### Guarded LS6 determinant coordinate chart
+
+Fix one primitive base candidate `(D_0,Q_0,V_0)` and put
+`h=ell-2a`. The fixed-base determinant map is not merely injective: it is an
+exact affine bijection from the complete monic unguarded LS6 slice to every
+polynomial `H` of degree at most `h`. Its inverse is
+
+```text
+R_H=rem_(D_0)(-H Q_0^(-1)),       D_H=D_0+R_H,
+Q_H=(H+D_HQ_0)/D_0,              V_H=(D_HV_0-MH)/D_0.
+```
+
+For coordinates `H,G`, the pair determinant is
+
+```text
+D_HQ_G-D_GQ_H=(D_HG-D_GH)/D_0,       deg<=h.
+```
+
+Thus every formal multi-determinant and Plucker identity already holds on
+the whole ambient slice. Abstract collective compatibility cannot close the
+cell. The exact remaining object is the subset for which `D_H` splits on the
+core and the root-local primitive inequalities hold: off the base roots one
+needs `H(x)!=0`, while at a shared root one needs
+`H'(x)+D_H'(x)Q_0(x)!=0`.
+
+```text
+starting pin: 133af3dba; canonical 9c5727a89; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / determinant chart
+result: PROVED exact affine determinant coordinates, inverse formulas, root-local guard, and formal-compatibility route fence
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair/split-pencil chart extending PR #1151
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 81 exact GF(257) chart coordinates and 144 pair checks under RAMguard
+next: count split-root coordinates with the local guard; formal Plucker packing is retired
+```
+
+### Exact-five packets are strictly sub-Johnson
+
+The stale comparison check against upstream PRs #1145/#1146 is resolved.
+Their background-free coset sunflower has
+
+```text
+k-1=m*ell,       s=(m+1)ell,       n>=(m+tau)ell,       tau>=5.
+```
+
+Consequently
+
+```text
+s^2-n(k-1) <= ell^2(1-m(tau-2)) < 0.
+```
+
+Thus Theorem J does not subsume their sharp `ell=11` exact-five constants:
+the packets lie strictly below the ordinary Johnson frontier already on the
+smallest support domain. They remain genuine finite special-case evidence,
+but their fixed-`ell`, fixed-shape scope does not pay an official asymptotic
+L1 node.
+
+```text
+starting pin: f7e850788; canonical d3a5edba8; upstream main 93fba1be
+lane: LIST / upstream harvest / exact-five scope
+result: PROVED strict sub-Johnson placement of PRs #1145/#1146
+DAG status delta: none; stale open domination check removed
+upstream terminal delta: none; exact citation scope now fixed
+delta-star bracket movement: none
+new assumptions: none
+compute: none
+next: retain #1145/#1146 as finite fixtures; do not claim Theorem-J domination
+```
+
+### LS6 canonical owners and fixed-owner packing
+
+For every non-base guarded point in the determinant chart,
+
+```text
+G=gcd(D_0,H)=gcd(D_0,D_H),
+D_0=GA,       D_H=GB,       H=GK.
+```
+
+The factors `G,A,B` are pairwise coprime,
+`K=AQ_H-BQ_0`, and the primitive guard is exactly
+`gcd(K,B)=gcd(G,Q_H)=1`. Thus `G` is a canonical owner rather than a selected
+common divisor.
+
+At fixed `g=deg G`, the candidate-only root sets have size `j-g` in the
+`|C|-j` points outside the base and meet pairwise in at most `h-g` roots.
+The exact packing is
+
+```text
+|F_G| <= floor(
+  binom(|C|-j,h-g+1) / binom(j-g,h-g+1)).
+```
+
+For `g=h-c` and `b<ell`, this is less than `3^(c+1)` per owner. Hence every
+fixed bounded-co-deficiency top-owner chamber is paid. The remaining theorem
+is aggregate: coalesce the realized `G` strata or transport them to
+chronology-valid quotient/dihedral owners without summing all divisors of
+`D_0`.
+
+```text
+starting pin: f7e850788; canonical d3a5edba8; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / split-pencil ownership
+result: PROVED exact canonical owner, normalized primitive guard, and fixed-owner packing
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable fixed-owner SPI/split-pencil ledger extending PR #1151
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact 561-point GF(257) chart replay under RAMguard
+next: aggregate or chronology-route different owners; do not repeat fixed-owner packing
+```

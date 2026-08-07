@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1805,
+  "node": {
+    "id": "dli_wcl_weight5_squared_root_hypersurface_router",
+    "title": "DLI ell=1 weight-5 relations reduce to one squared-root hypersurface",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Over every odd field containing an element of order 512, normalized reduced weight-5 first-moment relations are in exact bijection with five-subsets of mu_256 having product one and satisfying one explicit degree-eight symmetric equation Psi=0. Psi is also the product of the 16 product-one square-root sums. Odd Galois dilation leaves exactly 289043 squared-root classes, versus 2296920 signed affine classes. This is an exact router and route-size fence, not an emptiness theorem.",
+    "refs": [
+      "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/statement.md",
+      "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/proof.md",
+      "background/nodes/dli_wcl_weight5_squared_root_hypersurface_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_odd_next_boundary_square_divisor_descent",
+      "order": 5016
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_5_emptiness",
+      "order": 5017
+    }
+  ],
+  "refutes": []
+}

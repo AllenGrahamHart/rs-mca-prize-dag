@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_locator_prefix_consumer_scope",
+    "title": "Exact locator-prefix consumer and null-fiber scope",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let D be a finite evaluation domain, A=K+t, and Phi_{A,t}(S) the first t sub-leading coefficients of the monic locator of an A-subset S. For every prefix z, the polynomial word U_z=X^A+sum_{i=1}^t z_i X^{A-i} has an exact bijection between Phi_{A,t}^{-1}(z) and its Reed-Solomon codewords of degree <K agreeing on A points. Consequently a universal exact-list upper ledger must control the heaviest relevant prefix fiber after its paid strips, not only the zero or t-null fiber. In characteristic p, t-nullity fixes only the p-free prefix coordinates; p-multiple locator coefficients are free. Moreover raw mode-at-null is false: for D=F_17^*, A=9, t=1, the zero fiber has size 672 and every nonzero fiber has size 673. Therefore any null-fiber route requires a separately proved strip-aware max-to-null or exchange-compression theorem.",
+    "refs": [
+      "background/nodes/x4_locator_prefix_consumer_scope/statement.md",
+      "background/nodes/x4_locator_prefix_consumer_scope/proof.md",
+      "background/nodes/x4_locator_prefix_consumer_scope/audit.md",
+      "background/nodes/x4_locator_prefix_consumer_scope/claim_contract.md",
+      "background/nodes/x4_locator_prefix_consumer_scope/dependency_subdag.md",
+      "background/nodes/x4_locator_prefix_consumer_scope/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_exact_slice_extras_budget"
+    },
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    },
+    {
+      "to": "x4_exactlist_summed_budget"
+    }
+  ],
+  "refutes": []
+}

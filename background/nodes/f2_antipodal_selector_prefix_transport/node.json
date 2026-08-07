@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f2_antipodal_selector_prefix_transport",
+    "title": "F2 antipodal-selector prefix transport",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a cyclic odd-prefix syndrome map of binary length m, choosing theta^s or -theta^s according to each bit bijects the cube with antipodal transversal m-subsets of mu_(2m). Their even power sums are fixed and their odd power sums are an affine invertible rescaling of the F2 syndrome. Every F2 fiber therefore injects into one ordinary central depth-2R split-locator prefix fiber. On the official power-of-two domains every selector is aperiodic, so the quotient-periodic bucket is absent. This applies to both signed generating branches and their ambient images. No split-locator flatness, normalized-band, common-divisor owner, or pruned-Q theorem is claimed.",
+    "refs": [
+      "background/nodes/f2_antipodal_selector_prefix_transport/statement.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/proof.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/audit.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/claim_contract.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/dependency_subdag.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/result.md",
+      "background/nodes/f2_antipodal_selector_prefix_transport/verify.py"
+    ],
+    "upstream": {
+      "label": "master split-locator flatness (prob:capfr1-master-flatness)",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "f2_admissible_direct_sum_grs_reduction"
+    },
+    {
+      "from": "f2_minus_branch_coupled_negacyclic_reduction"
+    },
+    {
+      "from": "f2_weighted_mass_max_fiber_sandwich"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

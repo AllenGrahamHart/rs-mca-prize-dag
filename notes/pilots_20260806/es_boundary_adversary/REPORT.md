@@ -18,7 +18,7 @@ All under the ramguard law from `/home/u2470931/smooth-read-solomin/prize`. File
 
 **The method (registered before computing).** Rather than sweeping p, for each subset S I compute the exact finite set of characteristics in which it is a solution: `S` is a solution in char p ⟺ `gcd(Phi_n, V_1, …, V_{w-1})` has degree ≥ 1 in `F_p[X]` ⟺ `p | N(I_S)`, `I_S = (x_1,…,x_{w-1}) ≤ Z[zeta_n]`. Candidate primes = prime divisors of `gcd_s |N(x_s)|`, each then confirmed by an exact `F_p[X]` gcd. **This decides all p at once**, so the results below are complete over every characteristic, not sampled.
 
-**Cross-validations that had to pass first.** (i) The census identity vs independent Gray-code brute force with element arithmetic in explicitly constructed `F_p`, `F_{p^2}`, `F_{p^4}` — exact agreement. (ii) LEMMA Z's char-0 classification confirmed exhaustively over all 2^16 subsets × all w. (iii) **External:** my machinery recounts the *banked* number — `critical/nodes/u2c_giant_tnull_dichotomy/node.json:8` records "complements of size-6 accidents; **160 witnesses**" at (q=97, n=32, t=2); I get **exactly 160**, on a count it was not tuned to.
+**Cross-validations that had to pass first.** (i) The census identity vs independent Gray-code brute force with element arithmetic in explicitly constructed `F_p`, `F_{p^2}`, `F_{p^4}` — exact agreement. (ii) LEMMA Z's char-0 classification confirmed exhaustively over all 2^16 subsets × all w. (iii) **External:** my machinery recounts the *banked* number — `background/nodes/u2c_giant_tnull_dichotomy/node.json:8` records "complements of size-6 accidents; **160 witnesses**" at (q=97, n=32, t=2); I get **exactly 160**, on a count it was not tuned to.
 
 ## 1. C1 — THE HUNT: **REFUTED**, with a decisive qualifier
 
@@ -41,7 +41,7 @@ The cleanest witness satisfying **every** registered scope pin including p > n (
 **The qualifier that decides campaign impact.** There are two inequivalent balance functionals in play, and my witnesses fall exactly between them:
 
 - **per-weight** (round-15's own, `notes/pilots_20260804/mun_anticoncentration/PREREG.md:106-107`): "Define the equidistribution exponent `Lam(w) := log2 C(n, r') - |Z_w| * log2 p`" — and its measurement setting, `verify_fourier.py:247`: "balance point: the p at which the heuristic C(n,r')/p drops below 1".
-- **global** (the floor node's, `critical/nodes/u2c_giant_tnull_dichotomy/node.json:10`): "Pre-registered: sub-balance (**q^t >= 2^n**) scaled rows with non-coset-union extras…".
+- **global** (the floor node's, `background/nodes/u2c_giant_tnull_dichotomy/node.json:10`): "Pre-registered: sub-balance (**q^t >= 2^n**) scaled rows with non-coset-union extras…".
 
 Global ⟹ per-weight, strictly. **0 of my 5 witnesses are below the global boundary.** So:
 
@@ -96,7 +96,7 @@ The prior-art sweep came back with three hits I must concede:
 - **The norm floor (my registered M3) is BANKED, and I withdraw the novelty claim.** `notes/U1_OFFICIAL_ROW_NORM_GATE_TABLE.md:19-31` (NG1/NG2); the Parseval+AM-GM sharpening verbatim at `notes/pilots_20260802/c1_norm_ladder/REPORT.md:52` ("**LEMMA B (AM-GM ceiling)** … AM-GM => **maxnorm(N,w) <= w^(N/2)**"); PROVED node `background/nodes/dli_c1_ternary_relation_norm_sandwich`. Mine adds only residue degree delta > 1 and the multi-condition window. It held at all 288 accidents tested (T5) and is reported as verification, not discovery.
 - **Bad-prime census by resultant factorization is BANKED AND PROVED** for a different object: `background/nodes/dli_wcl_weight3_ambient_exclusion/proof.md:17-33`, `…weight4…`. The method is not new; its application to the (ES) object, exhaustively over all p, is.
 - **LEMMA Z is the PROVED node** `critical/nodes/b1_char0_giant_coset_theorem` — cited, not re-derived. (This also re-confirms CATCH-15A.)
-- Prior MITM sub-balance censuses with extras classification already exist (`critical/nodes/u2c_giant_tnull_dichotomy/notes/f2a1_subbalance_sweep_modal.py`).
+- Prior MITM sub-balance censuses with extras classification already exist (`background/nodes/u2c_giant_tnull_dichotomy/notes/f2a1_subbalance_sweep_modal.py`).
 
 What is new: the exhaustive-over-all-p census on the (ES) object, the two-readings separation, the five witnesses, the stratum mechanism, and the clean crossing-shape result.
 

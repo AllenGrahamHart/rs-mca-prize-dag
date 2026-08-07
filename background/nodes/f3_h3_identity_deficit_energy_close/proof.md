@@ -32,7 +32,7 @@ At `t=1`, every quotient pair has equal entries, so `R(1)=|A|=n-1`.
 The optimized one-shift specialization of the proved auxiliary-polynomial
 theorem in `f3_h2_stepanov_inhouse`, with its official-row parameter replay
 recorded in
-`critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_TRACEZERO_OFFICIAL_PAYMENT.md`,
+`background/nodes/u1_x4_direct_column_budget/notes/F3_H3_TRACEZERO_OFFICIAL_PAYMENT.md`,
 gives `P(1)<4n^(2/3)`. Since `n>=8192`, the difference
 `n-1-4n^(2/3)` is positive. Therefore `(ID1)` and `(ID3)` give
 

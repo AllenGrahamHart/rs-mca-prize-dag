@@ -12,7 +12,7 @@ import subprocess
 import sys
 
 WHICH = sys.argv[1] if len(sys.argv) > 1 else "both"
-NODE = "background/nodes/dli_wcl_weight4_ambient_exclusion"
+NODE = "critical/nodes/dli_wcl_weight4_ambient_exclusion"
 EXP = "experiments/prize_resolution"
 os.makedirs(NODE, exist_ok=True)
 os.makedirs(EXP, exist_ok=True)

@@ -1,0 +1,148 @@
+{
+  "pre_refactor_line_count": 3950,
+  "pre_refactor_sha256": "26f1d1c5015a99cabbbd0abda13f046da317f2aafa04e9856733c818640b58cd",
+  "schema": "sectioned-critical-node-document-v1",
+  "sections": [
+    {
+      "dag_nodes": [
+        "rate_half_kb_q6_u2_complete_source_conic_exclusion",
+        "rate_half_kb_m2_r2_dihedral_full_v4_exclusion"
+      ],
+      "original_lines": [
+        1,
+        413
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/00-koalabear-owner-and-q6-ledger.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "original_lines": [
+        414,
+        439
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/01-banked-range.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_ca_hankel_strict_a3_slope_slack_ledger",
+        "rate_half_ca_hankel_half_distance_a3_slope_slack_ledger",
+        "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+      ],
+      "original_lines": [
+        440,
+        749
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/02-exact-residual-budgets.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "original_lines": [
+        750,
+        977
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/03-exact-arithmetic-route-discipline.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "original_lines": [
+        978,
+        987
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/04-compute-custody.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_ca_hankel_strict_a3_slope_slack_ledger"
+      ],
+      "original_lines": [
+        988,
+        1030
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/05-strict-a3-norm-route-fence.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r2_dihedral_full_v4_exclusion"
+      ],
+      "original_lines": [
+        1031,
+        1079
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/06-full-v4-source-facet-close.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"
+      ],
+      "original_lines": [
+        1080,
+        1124
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/07-coordinate-order-two-signature.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+        "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion"
+      ],
+      "original_lines": [
+        1125,
+        1856
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/08-diagonal-whole-fiber-program.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
+        "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier",
+        "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier"
+      ],
+      "original_lines": [
+        1857,
+        2408
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/09-coordinate-negative-two-loop-program.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
+        "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
+        "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion"
+      ],
+      "original_lines": [
+        2409,
+        3249
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/10-coordinate-negative-one-zero-loop-program.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier"
+      ],
+      "original_lines": [
+        3250,
+        3387
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/11-coordinate-positive-three-loop-program.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
+        "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"
+      ],
+      "original_lines": [
+        3388,
+        3950
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_sections/12-coordinate-positive-433-program.md"
+    }
+  ],
+  "source_index": "critical/nodes/rate_half_band_closure/attack.md",
+  "status_semantics": "presentation-only; node.json remains authoritative"
+}

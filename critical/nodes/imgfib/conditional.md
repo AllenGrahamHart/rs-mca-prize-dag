@@ -21,3 +21,24 @@ PMA suite, audited), refutation floors banked
 guard (b) PASS, no T-KILL), open content = u+e -> infinity profiles
 with rich-fiber forcing. See l1_mixed_petal_amplification/
 v4_pma_crosswalk.md.
+
+---
+
+## Exact live assembly (2026-08-07)
+
+The support partition is full petal versus mixed/partial petal.
+
+- `petal_growth` pays the layout-anchored full-petal top band.
+- `pma_full_petal_band_composition` proves that the fixed-`e` root-pinning
+  ledger pays the complementary full-petal branch with `t>=2M-4` and leaves
+  exactly `l1_full_petal_fpc5_payment`.
+- `l1_mixed_petal_amplification` owns the disjoint mixed/diffuse
+  partial-petal branch.
+- `l1_program_frontier`, `pma_exact_periodic_owner`,
+  `dyadic_profile_evaluation`, and `payment_completeness` retain their
+  ordinary-Johnson, exact-periodic, profile, and taxonomy roles.
+
+The old `conj_f` line had no exact LIST consumer descriptor and supplied no
+additional branch theorem. It is removed rather than used as a placeholder
+for FPC5. Granting the two direct red petal leaves now discharges this
+assembly. No Conjecture-F statement is assumed on the LIST route.

@@ -1,16 +1,16 @@
 {
   "parent_statement_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/statement.md",
   "parent_statement_sha256": "bd481a4fdfbc63c21577da289261412298a8b8faab2df6ca6f6bd799c32b34bd",
-  "primary_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_census.cpp",
+  "primary_source_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_census.cpp",
   "primary_source_sha256": "433d9670868b1bfb9ca245c98db03385709eface95603374980af67b62e08778",
-  "primary_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_census_modal.py",
+  "primary_launcher_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_census_modal.py",
   "primary_launcher_sha256": "5c7ea6b1416f74fbbea64fe10787535f680fc45bb086857cc41f30bce129bf0f",
-  "primary_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_census_result.json",
+  "primary_result_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_census_result.json",
   "primary_result_sha256": "3b97f56ecf880911c09854caa001f2a1d78317c857c839b8bbb9e28b1553e0e7",
-  "audit_source_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_audit.cpp",
+  "audit_source_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_audit.cpp",
   "audit_source_sha256": "1e00d2081b0a9751afaaa41bce051769715e299618d7acd79033ddd59a451abf",
-  "audit_launcher_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_audit_modal.py",
+  "audit_launcher_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_audit_modal.py",
   "audit_launcher_sha256": "72fa62fe128891e701e48563247efa0157c6555c5f98d464aa484dc5e4f2feda",
-  "audit_result_file": "background/nodes/e1_prize_n256_s18_variance_cofactor_windows/notes/m1028_low_variance_audit_result.json",
+  "audit_result_file": "background/nodes/e1_prize_n256_s18_m1028_collision_exclusion/notes/m1028_low_variance_audit_result.json",
   "audit_result_sha256": "868ce7d85cd54618c106d89df624658dcbc79fb70eace9e17354faebe4827d62"
 }

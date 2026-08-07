@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
+    "title": "Sharp rate-half FPC5 cells are typed growing split-locator flats",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For one official rate-half sharp M=4,t=2 source and touched pair, the background-guarded locator image V_F has vector dimension ell-1. Its monic degree-(2ell-3) chart is an affine (ell-2)-flat of codimension ell-1, and exact contributors inject with unique numerator reconstruction into P(V_F) intersect D_(2ell-3)(C), where |C|=5ell-5. Primitive, untouched-petal, and first-owner conditions remain explicit filters. Dividing the maximal common gcd gives an exact bijection to a gcd-trivial flat over the punctured core, preserving projective dimension and changing affine codimension to ell-1-w. No polynomial count or tangent payment is claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-locator master flatness / experimental m1 Conjecture F",
+      "relation": "EXACT_TYPED_INSTANCE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

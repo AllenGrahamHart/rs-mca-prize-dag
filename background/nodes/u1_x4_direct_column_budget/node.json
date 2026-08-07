@@ -1,0 +1,53 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 695,
+  "node": {
+    "id": "u1_x4_direct_column_budget",
+    "title": "Conditional F-4 minimal-record direct-column budget",
+    "status": "CONDITIONAL",
+    "closure": "proof of conditional implication",
+    "key": true,
+    "statement": "At every official X4/list corridor row, use the fixed quotient, dihedral, moment-trade, U2-boundary, and DLI/skew first-owner strips. Let R_h^min be the remaining width-h records in the established u1 direct-column convention that satisfy the F-4 minimal condition e_j(P)=e_j(Q) for 1<=j<=h-1, let R_1^min=0 be the singleton bookkeeping term, and let H_max=min(k+t,floor(n/2)). Then, conditional on f3_h3_direct_floor_conditional_close and f3_hge4_aggregate_budget, R_min=R_1^min+R_2^min+R_3^min+sum_{h=4}^{H_max}R_h^min<16n^3. Indeed the four terms are respectively 0, <n^3, <n^3, and <=14n^3. This node bounds only the F-4 minimal-record currency. It does not assert that every general order-t primitive star-PTE record is minimal or that R_min equals the post-strip exact-list residue; x4_primitive_star_u1_coverage owns that separate coverage and multiplicity theorem.",
+    "attack_surface": "the h=3 C36 chain and the h>=4 norm-gate aggregate for fully stripped F-4 minimal records at every official corridor row",
+    "falsifier": "A complete official row or certified slice, in the exact five-strip F-4 minimal-record convention, whose transported contribution forces R_min>=16n^3; pre-strip counts and general nonminimal star records do not falsify this node.",
+    "refs": [
+      "background/nodes/u1_x4_direct_column_budget/statement.md",
+      "background/nodes/u1_x4_direct_column_budget/conditional.md",
+      "background/nodes/u1_x4_direct_column_budget/proof.md",
+      "background/nodes/u1_x4_direct_column_budget/audit.md",
+      "background/nodes/u1_x4_direct_column_budget/claim_contract.md",
+      "background/nodes/u1_x4_direct_column_budget/dependency_subdag.md",
+      "background/nodes/u1_x4_direct_column_budget/verify.py",
+      "background/nodes/u1_x4_direct_column_budget/notes/F3_U1_X4_AMBER_ASSEMBLY.md",
+      "background/nodes/u1_x4_direct_column_budget/notes/F3_HGE4_AGGREGATE_BUDGET_GATE.md",
+      "background/nodes/u1_x4_direct_column_budget/notes/f3_u1_x4_amber_assembly.py",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md"
+    ],
+    "notes": "Currency correction 2026-08-06: the h=2 theorem counts equal-e1 records, the h=3 theorem counts equal-(e1,e2) records, and HGE4 explicitly carries the F-4 order-(h-1) scope pin. The previous node headline silently called their sum the entire primitive exact-list residue. That missing general-to-minimal passage is now owned by x4_primitive_star_u1_coverage. Historical experiments, catches, and route development remain in this node's notes directory and QUALITY.md; they are evidence for the minimal ledger, not a coverage proof."
+  },
+  "requires": [
+    {
+      "from": "f3_h2_stratum_theorem",
+      "order": 1216
+    },
+    {
+      "from": "f3_h1_singleton_injectivity",
+      "order": 1317
+    },
+    {
+      "from": "f3_h3_direct_floor_conditional_close",
+      "order": 1318
+    },
+    {
+      "from": "f3_hge4_aggregate_budget",
+      "order": 1319
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

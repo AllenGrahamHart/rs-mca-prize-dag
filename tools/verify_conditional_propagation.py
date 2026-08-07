@@ -47,20 +47,29 @@ GRANDS = {"mca_grand", "list_grand"}
 # residual: targets stay 25, conditionals 39 -> 40.
 # The joint-rank split replaces that residual TARGET by an amber router over
 # two exact leaves: targets 25 -> 26, conditionals 40 -> 41.
-EXPECTED_TARGETS = 26
-EXPECTED_CONDITIONALS = 41
+# The later F2 and direct-SP scope repairs removed stale conditional ancestry.
+# 2026-08-07 Conjecture-F false-green repair adds three TARGETs and restores
+# four parents to CONDITIONAL; the longer chain adds one propagation round.
+# The consumer-scope decomposition then replaces one scope TARGET by one
+# narrower LIST TARGET, one proved SPI descriptor, and one CONDITIONAL
+# compiler: TARGETs stay 28 and CONDITIONALs rise by one.
+# LIST route retirement then removes the detached general-F ancestry and adds
+# the direct FPC5 leaf: 26 TARGETs, 34 CONDITIONALs, and one fewer propagation
+# round.
+# The exact FPC5 official-cell split replaces one TARGET by one CONDITIONAL
+# over three TARGET leaves and strict proved suppliers.
+# The M=4,t=2 rate split proves rate quarter and replaces that TARGET by one
+# CONDITIONAL over a single rate-half TARGET; leaves stay 28.
+EXPECTED_TARGETS = 28
+EXPECTED_CONDITIONALS = 36
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).
 AUDITED_UNRELATED = {
     ("aperiodic_zero_at_crossing", "rate_half_band_closure"),
-    ("f2_conditional_close", "f3_h3_officialrow_conditional_close"),
-    ("f2_conditional_close", "f5_npb_conditional_close"),
     ("knife_edge_census", "census_dodge_selection"),
     ("list_adjacency_closing", "ww_row_envelope_clause"),
     ("list_grand", "rate_half_band_closure"),
-    ("u1_x4_direct_column_budget", "u1_pullback_dichotomy"),
-    ("x4_exactlist_staircase_split", "u1_pullback_dichotomy"),
     ("xr_clean_residual_any_gate", "rigidity_kernel"),
     ("xr_smallcore_spread_count", "rigidity_kernel"),
     ("xr_smallcore_spread_count", "rk_rigidity_kernel"),

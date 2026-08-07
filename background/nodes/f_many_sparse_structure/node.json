@@ -1,0 +1,50 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 403,
+  "node": {
+    "id": "f_many_sparse_structure",
+    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "RESTATED (second revision, after the verified dihedral counterexample): many-sparse flats are MULTIPLICATIVE-pullback-structured, DIHEDRAL/Chebyshev-quotient-structured (X^e g(X^M + X^{-M}) \u2014 the new class), tangent-structured, or descent-reducible. The conjecture: nothing UNPAID survives all FOUR branches. The dihedral branch is forced: reciprocal flats are gcd-trivial, multiplicatively aperiodic, and have super-poly lattices \u2014 only the enlarged quotient class pays them.",
+    "attack_surface": "coding-theory structure: codes with many minimal low-weight words are classified in known regimes; the coset-support pattern (supports = unions of coset pairs) is the signature to force; toy-enumerable falsifier at n = 16",
+    "falsifier": "a toy flat (n = 16 exhaustive over dims 2-3) with many sparse dual words that is neither pullback- nor tangent-classified",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "The weight-2 inverse, sparse descent, and dihedral correction remain proved. FALSE-GREEN REPAIR 2026-08-07: f_sparse_rank_split only transports the support-minimal weight-at-least-three branch to Face 4; it does not pay actual section points there. f_higher_weight_sparse_payment is the explicit missing predicate, so this node is CONDITIONAL."
+  },
+  "requires": [
+    {
+      "from": "f_dual_distance_frame",
+      "order": 661
+    },
+    {
+      "from": "f_sparse_descent_step",
+      "order": 689
+    },
+    {
+      "from": "dihedral_quotient_stratum",
+      "order": 753
+    },
+    {
+      "from": "f_sparse_rank_split",
+      "order": 773
+    },
+    {
+      "from": "f_higher_weight_sparse_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "xr_scattered_syzygy_flattice",
+      "order": 768
+    },
+    {
+      "to": "f_termination_hankel",
+      "order": 856
+    }
+  ],
+  "refutes": []
+}

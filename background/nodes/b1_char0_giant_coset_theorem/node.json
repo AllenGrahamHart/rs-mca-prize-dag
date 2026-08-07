@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 490,
+  "node": {
+    "id": "b1_char0_giant_coset_theorem",
+    "title": "PROVED (roadmap-lane, toy-verified): the char-0 giant coset theorem",
+    "status": "PROVED",
+    "key": true,
+    "statement": "Over characteristic zero: every 0/1 t-null vector on mu_n (n = 2^s) is a union of mu_M-cosets with M > t. ONE-PARAGRAPH PROOF (Fourier/Galois): the exponent polynomial f_B has INTEGER coefficients, so f_B(zeta^r) = 0 propagates to the full Galois orbit of zeta^r \u2014 all frequencies of the same 2-adic valuation; r in [1, t] realizes every valuation v <= log2(t), so B-hat vanishes at ALL r not divisible by 2^{v+1}-max = the first 2-power > t; hence B-hat is supported on MZ (M = 2^{ceil log2 t}+... the least 2-power > t) and the 0/1 indicator equals its fiber average => a coset union. Verified exhaustively at (n, t) = (16, 4): exactly the mu_8-cosets and their union. NOTE: even easier than X24 (0/1 giant beats signed small-h); the X-8 boundary blocks are FINITE-FIELD-ONLY objects, consistent (see b2's Frobenius gap). STANDALONE PACKET SHIPPED (9/9): full proof written; verifier uses exact cyclotomic arithmetic \u2014 full 2^16 brute at (16,4) plus exact rational-nullspace proofs of both directions at (16,4)/(32,4)/(32,8) (nullity = n/M, counts = 2^{n/M}).",
+    "refs": [
+      "experimental/notes/roadmaps/b1_char0_giant_coset_theorem.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1082
+    },
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

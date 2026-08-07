@@ -55,3 +55,11 @@
    the deep common prefix required by the useful shift-pair ledgers.
 10. The range `d<ceil((2h+2)/3)` is proved empty. No computation should be
    spent there.
+11. Broad field-independent fiber rigidity is false.  The exact scaled
+    boundary fixture recorded in
+    `notes/FIBER_RIGIDITY_SCOPE_COUNTEREXAMPLE_20260806.md` has primitive
+    deficiency, maximality, tangent saturation, active-defect locality,
+    `sigma=0`, and normative first-match selection, but both selected blocks
+    split three complete fibers.  State any repaired `(FR)` only on the
+    official first-unpaid `s=11,11,10` post-envelope strata and identify the
+    official-subgroup or residual-profile input that excludes this fixture.

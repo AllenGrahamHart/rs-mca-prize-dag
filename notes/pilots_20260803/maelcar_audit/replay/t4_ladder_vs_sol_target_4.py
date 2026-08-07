@@ -77,7 +77,7 @@ for N, q in ((16, 17), (32, 97), (64, 193), (128, 257)):
     print(f"{N:>5} {q:>5} {t:>12} {N**3:>12} {r:>11.4f}{growth}")
     prev = r
 print()
-print("CONTROL: our banked record (critical/nodes/u1_x4_direct_column_budget/")
+print("CONTROL: our banked record (background/nodes/u1_x4_direct_column_budget/")
 print("         notes/F3_IDENTIFICATION.md:21) states (32,4,97): 792 = 2 x 396")
 print("         and (16,4,97): 12 = 2 x 6.")
 print()

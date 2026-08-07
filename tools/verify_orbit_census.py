@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  246 = 179 PROVED / 41 CONDITIONAL
-                  / 26 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  231 = 167 PROVED / 36 CONDITIONAL
+                  / 28 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 26
+                  and verify_critical_harness_coverage.py all measure.  Its 28
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  261 = 191 / 43 / 27.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  246 = 179 / 38 / 29.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (26 open dominators == the 26 submission-orbit TARGETs).
+                  analysis (29 open dominators == the 29 submission-orbit TARGETs).
 
-Neither census is stale; 261 - 246 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 246 - 231 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -68,8 +68,56 @@ SUBMISSION_ROOT = "prize"
 # CONDITIONAL on two alternative TARGET leaves (full joint rank and deficient
 # forced-common-root kernel). The rational-direction payment is evidence-only.
 # Net: +1 CONDITIONAL and +1 TARGET in both orbits.
-EXPECTED_MATH = {"PROVED": 181, "CONDITIONAL": 41, "TARGET": 25}
-EXPECTED_SUBMISSION = {"PROVED": 193, "CONDITIONAL": 43, "TARGET": 26}
+# 2026-08-06 F2 ADMISSIBILITY REPAIR (6ab149e67): the old growing-order
+# Myerson ladder was removed from the strict critical orbit because it proves a
+# generated-field-guarded full-subset statement, not the official exact-slice
+# consumer. This removes five PROVED nodes, one CONDITIONAL, and one TARGET,
+# while the independently proved WCL (1,5) closure adds two PROVED nodes and
+# removes one TARGET. Net from the prior pin: -3 PROVED / -1 CONDITIONAL /
+# -1 TARGET. The 15-node submission spine is unchanged.
+# 2026-08-06 EXACT-PREFIX CONSUMER REPAIR: u2c_giant_tnull_dichotomy was
+# removed from the strict x4 chain after the locator-prefix scope theorem
+# showed that its p-free/null census does not control the heaviest full prefix.
+# The corrected maximum-prefix TARGET replaces it at the same leaf position;
+# only the obsolete CONDITIONAL adapter leaves each orbit. The submission
+# spine remains exactly 15 nodes.
+# 2026-08-06 X4 OWNERSHIP REPAIR: the maximum-prefix leaf had conflated the
+# structured moment/null pullback population with the primitive star-PTE
+# residue, and the x4 amber silently reused MCA budget arithmetic. Two genuine
+# list-side leaves are now explicit: primitive-star-to-u1 coverage and the
+# summed per-word numerator. Net: +2 TARGET in both orbits; no theorem status
+# changed and the 15-node submission spine is unchanged.
+# 2026-08-06 DIRECT PRIMITIVE-SP RE-POSE: the exact-list consumer now
+# requires the direct local general-star budget, matching upstream v13's SP
+# input. The stronger F-4 minimalization/u1 route remains evidence rather
+# than a mandatory requirement. Its detached ancestry contains five PROVED,
+# five CONDITIONAL, and two TARGET nodes. The direct primitive leaf itself
+# remains TARGET, and the 15-node submission spine is unchanged.
+# 2026-08-07 CONJECTURE-F FALSE-GREEN REPAIR: two hidden assertions are now
+# explicit TARGET leaves (higher-weight Face-4 payment, absolute-exponent
+# packing, and the actual prize-consumer flat-scope compiler). Their four
+# auto-discharged ancestors return from PROVED to CONDITIONAL. Net:
+# -4 PROVED / +4 CONDITIONAL / +3 TARGET in both orbits;
+# the 15-node submission spine is unchanged.
+# 2026-08-07 CONSUMER-SCOPE DECOMPOSITION: the scope TARGET becomes a
+# CONDITIONAL compiler over one narrower LIST TARGET and one proved exact SPI
+# slope-fiber descriptor. The TARGET count is unchanged; each orbit gains one
+# PROVED and one CONDITIONAL node. The submission spine remains 15 nodes.
+# 2026-08-07 LIST ROUTE RETIREMENT: the prose-only conj_f edge from imgfib
+# is replaced by the exact direct FPC5 payment leaf. The 26-node general-F
+# branch (18 PROVED / 5 CONDITIONAL / 3 TARGET) leaves strict prize ancestry;
+# the new FPC5 TARGET enters. Net in both orbits: -18 PROVED,
+# -5 CONDITIONAL, -2 TARGET. The 15-node submission spine is unchanged.
+# 2026-08-07 FPC5 OFFICIAL-CELL DECOMPOSITION: the broad FPC5 TARGET becomes
+# a CONDITIONAL over three direct payment leaves. Fifteen already-proved PMA
+# reduction nodes become strict suppliers. Net in both orbits:
+# +15 PROVED, +1 CONDITIONAL, +2 TARGET; submission spine unchanged.
+# The M=4,t=2 rate split then proves rate quarter by first-layout pair
+# uniqueness and leaves one exact rate-half child. The parent TARGET becomes
+# CONDITIONAL; first-layout domination and the new payment enter strict
+# ancestry. Net: +2 PROVED, +1 CONDITIONAL, TARGET count unchanged.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 36, "TARGET": 28}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 29}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -98,7 +146,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-# conditional-dedup ledger over the 43 must account for 41 mathematical ones.
+    # conditional-dedup ledger over the 36 must account for 34 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 
@@ -224,9 +272,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
-# WAVE-47 REPRICE (2026-08-07): dli_wcl_slot_1_5_emptiness TARGET -> PROVED
-# (Codex proof + auditor Burnside closure of the census trust root, coordinator
-# replay); dli_wcl_weight4_ambient_exclusion promoted background -> critical
-# (forced by the adopted slot wiring, partition law). 246=179/41/26 -> 247=181/41/25;
-# submission 261=191/43/27 -> 262=193/43/26. A RED CLOSED.

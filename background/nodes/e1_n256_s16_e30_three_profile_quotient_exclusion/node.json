@@ -16,10 +16,10 @@
       "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/source_pin.json",
       "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify.py",
       "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/verify_audit.py",
-      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_census.cpp",
-      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_modal.py",
-      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_result.json",
-      "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_eight_profile_quotient_probe_check.py"
+      "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_census.cpp",
+      "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_modal.py",
+      "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_result.json",
+      "background/nodes/e1_n256_s16_e30_three_profile_quotient_exclusion/notes/e30_eight_profile_quotient_probe_check.py"
     ],
     "statement": "At N=256, folded profile (3,4,0), and V=60, profiles (0,3,2), (6,2,0,1), and (3,0,3) cannot collide. A complete 128-task mod-16 allocation census and independent replay give order-128/order-64 maxima 936/936, 1058/1048, and 1002/940, all below the exact M_3=1087 cutoff; the divisible-by-four chamber has small-field norm at most 44^32<2^250.",
     "notes": "ROUTE CLOSURE 2026-07-27: removes three of eight V=60 profiles by exact quotient allocation and leaves five explicit profiles."

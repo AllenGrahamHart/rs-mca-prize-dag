@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_general_shiftpair_difference_degree_partition",
+    "title": "General local shift pairs partition exactly by locator-difference degree",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let S and S0 be distinct same-depth-t locator-prefix A-subsets in any support-wise residual family. With C=S intersect S0, P=S\\C, Q=S0\\C, e=|P|=|Q|, and d=deg(L_P-L_Q), one has 0<=d<=e-t-1 and hence e>=t+d+1. Moreover d=0 if and only if e_j(P)=e_j(Q) for every 1<=j<=e-1, exactly the F-4 minimal constant-shift condition. Therefore every local same-prefix degree partitions disjointly into d=0 minimal records and d>=1 genuinely nonminimal records; the top side width e=t+1 is necessarily minimal. Primitive-scale restriction and support-wise first-owner deletion preserve the partition.",
+    "refs": [
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/statement.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/proof.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/claim_contract.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/audit.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/result.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/dependency_subdag.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/lineage.md",
+      "background/nodes/x4_general_shiftpair_difference_degree_partition/verify.py"
+    ],
+    "upstream": {
+      "label": "prob:capg-active-shiftpairs / low-degree difference incidence",
+      "relation": "EXACT_STRUCTURAL_SUBLEMMA"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

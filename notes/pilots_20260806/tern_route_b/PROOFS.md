@@ -474,7 +474,7 @@ the fatal one**:
 
 | round-15 failure mode | does it hit route (b)? |
 |---|---|
-| **L2 -> L-inf conversion loses `sqrt(p)`** (`REPORT.md:87`; also `critical/nodes/u2c_giant_tnull_dichotomy/notes/F2_L3_DESIGN.md:29-37`) | **NO.** Lemma 5 (AM-GM) turns the product into a FIRST-moment statement in `V_1`; no mean-to-max conversion occurs anywhere in §3. Genuinely new. |
+| **L2 -> L-inf conversion loses `sqrt(p)`** (`REPORT.md:87`; also `background/nodes/u2c_giant_tnull_dichotomy/notes/F2_L3_DESIGN.md:29-37`) | **NO.** Lemma 5 (AM-GM) turns the product into a FIRST-moment statement in `V_1`; no mean-to-max conversion occurs anywhere in §3. Genuinely new. |
 | **partial-sum / interval losses over a subgroup** (`f2_opening/REPORT.md:45`: "Pólya–Vinogradov/Burgess are interval bounds, wrong shape for a subgroup") | **NO.** Lemma 2: oddness of `Lambda` makes the object a COMPLETE subgroup sum. Genuinely new, and favourable. |
 | **Weil vacuous by DEGREE** (`mun_anticoncentration/REPORT.md:71`: "needs `deg·sqrt(q_char) < n`; measured `2^54.5`–`2^166.9` vs `n = 2^41`. … Misses by 13.5–107 bits"; `f2_opening/REPORT.md:45`: "**Weil** vacuous (folded degree up to `n_j−1 ≫ √q`); **subgroup Gauss sums** need `|H| > √q` and fail at every rung (`2^25` vs `2^31` at rung 1)") | **YES, identically.** §3.5: `deg·sqrt(p) = 2^65` vs `|H| = 2^39`, **vacuous by 26 bits**. Same mechanism, same shape, same verdict. |
 

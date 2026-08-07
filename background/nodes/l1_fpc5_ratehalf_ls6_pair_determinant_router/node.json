@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_ls6_pair_determinant_router",
+    "title": "Guarded LS6 pairs have low cross determinant, with distance-only closure fenced",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every fixed guarded LS6 atom and every candidate D, its quotient Q in DE=MQ+V has degree e-a, fixed leading coefficient, and gcd(D,Q)=1. For two distinct candidates, H_12=D_1Q_2-D_2Q_1=(D_2V_1-D_1V_2)/M is nonzero of degree at most ell-2a. Hence gcd(D_1,D_2)|H_12, their root sets intersect in at most ell-2a points, and fixing one candidate injects all others into the nonzero H-polynomials of that degree. The associated constant-weight Johnson denominator is exactly j^2-N(ell-2a)=J<=0 on the live tail, so this sharp pairwise cap cannot itself give the required polynomial payment. The remaining route must use collective Pade/split structure.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_ls6_pair_determinant_router/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca primitive shift-pair and split-pencil control",
+      "relation": "EXACT_PADE_PAIR_DETERMINANT_ROUTER"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}

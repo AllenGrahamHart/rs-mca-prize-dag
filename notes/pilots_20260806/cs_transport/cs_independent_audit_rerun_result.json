@@ -1,0 +1,71 @@
+{
+  "app": "rs-mca-cs-independent-transport-audit",
+  "audit": {
+    "archimedean": {
+      "checks": 816,
+      "tight_nonzero": 272
+    },
+    "finite_fields": {
+      "bad_solutions": 1104,
+      "cases": [
+        {
+          "bad_solutions": 16,
+          "degree": 2,
+          "n": 8,
+          "p": 3,
+          "root": [
+            1,
+            1
+          ]
+        },
+        {
+          "bad_solutions": 832,
+          "degree": 1,
+          "n": 16,
+          "p": 17,
+          "root": [
+            3,
+            0
+          ]
+        },
+        {
+          "bad_solutions": 256,
+          "degree": 2,
+          "n": 16,
+          "p": 7,
+          "root": [
+            2,
+            2
+          ]
+        }
+      ],
+      "divisibility_checks": 1104,
+      "exact_exponent_witnesses": 1008
+    },
+    "schema": "cs-independent-transport-audit-v1",
+    "status": "PASS",
+    "tamper_selftests": {
+      "floor_free_tower_shortcut_rejected": true,
+      "stronger_archimedean_ceiling_rejected": true,
+      "stronger_divisibility_rejected": true
+    },
+    "threshold_and_tower": {
+      "arbitrary_window_counterexample": {
+        "a1_scaled_coefficient": 2,
+        "base_scaled_coefficient": 3,
+        "w": 6
+      },
+      "excluded_percentage_256": "71.1641",
+      "first_excluded_256": 170752922588,
+      "last_unexcluded_128": 339028612821,
+      "last_unexcluded_256": 170752922587,
+      "last_unexcluded_64": 549755813888,
+      "power_two_tower_checks": 65
+    }
+  },
+  "checker_sha256": "efc707ece973addc639c3e1463e7c0605e08158836dd28054ed9cb2ac2562c60",
+  "returncode": 0,
+  "schema": "cs-independent-transport-modal-v1",
+  "status": "PASS",
+  "stderr": ""
+}

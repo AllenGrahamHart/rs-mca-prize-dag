@@ -300,7 +300,7 @@
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
+      "script": "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_ledger.py",
       "seconds": 16.491048,
       "sha256": "b972621ddd3d8b01a7772650dab9faadcd549f17c2137ffb75f909fef23a2120",
       "status": "PASS",
@@ -309,7 +309,7 @@
     },
     {
       "returncode": 0,
-      "script": "background/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
+      "script": "critical/nodes/dli_wcl_weight4_ambient_exclusion/verify_primes.py",
       "seconds": 10.126208,
       "sha256": "30e9dd604a29a5f5f705d6a30c899bfa52648e8d79faf4458f05cf7ff10e22d8",
       "status": "PASS",

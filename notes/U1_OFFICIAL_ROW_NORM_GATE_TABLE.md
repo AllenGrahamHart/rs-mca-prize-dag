@@ -24,6 +24,10 @@ characteristic.  If `r` distinct prime ideals of `O_K` above `p` divide
 p^r divides |Norm_(K/Q)(u)|.                         (NG1)
 ```
 
+When the residue degrees are known, the exact exponent is their sum.  In
+particular, a dyadic Frobenius orbit of length `f` contributes `p^f`, as
+formalized by `x4_primitive_shiftpair_dyadic_norm_router`.
+
 Thus a row lower bound `p>=P_0` and an archimedean ceiling
 `|Norm(u)|<=G` exclude the witness when
 
@@ -62,6 +66,8 @@ Positive `H` proves emptiness.  This `F` is a lower-bound exponent, not a
 | HGE4 odd swap, `f3_hge4_swap_norm_haar_band_exclusion` | one-side support sum `z` | `(h-1)/2` | `h^(m/4)` | `p>m^2` | `m^(h-1)>=h^(m/4)` deletes the printed near-quarter band |
 | C36 rich fiber, `f3_h3_rich_fiber_norm_cutoff` | one collision `beta_E-beta_F` | 1 | `6^(n/4)` | `p>=n^2` | deletes only `p>6^(n/4)` |
 | C36 ideal star, `f3_h3_low_distance_ideal_star_router` | normalized two-generator collision ideal | 1 | `6^(n/4)/4` | `p>=n^2` | finite candidate-prime sieve; it does not delete every prime in the open corridor |
+| X4/SP2 primitive folds, `x4_primitive_shiftpair_{dyadic_norm_router,haar_norm_product_gate,zero_fold_norm_divisibility}` | nonzero dyadic signed folds `beta_j` | `sum_j ord_(n_j)(p)o_j` over active scales, plus exact dyadic factors from balance and structural zero folds | one shared Haar ceiling `(eN/A_S)^A_S` | exact row characteristic and generated root field | every coefficient-primitive pair has scale zero active; patterns failing the strengthened cross-multiplied product gate are empty, but surviving patterns are not counted |
+| X4/SP2 hard boundary, `x4_primitive_norm_size_hard_boundary_route_cut` | the complete preceding active/zero package | lower factor `<2^(3N+5160)` uniformly | ceiling `>=2^(10N)` at `e=N/8,T=t_XR` | every official `q<2^256` | no fold pattern is removed; generic norm size alone cannot close SP2/X4 at this cell |
 
 The WCL and C36 ideal packets use divisibility by an ideal norm in places.
 For this table that is still a one-prime support condition.  Adding more

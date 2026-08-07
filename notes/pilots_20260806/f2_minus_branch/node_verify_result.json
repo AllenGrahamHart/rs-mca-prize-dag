@@ -1,0 +1,37 @@
+{
+  "app": "rs-mca-f2-round18-branch-split-node-verify",
+  "records": [
+    {
+      "node": "f2_admissible_direct_sum_grs_reduction",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ADMISSIBLE_DIRECT_SUM_GRS_REDUCTION_PASS canonical=373/373 classes<=4 grs=1 dag=1/1\n"
+    },
+    {
+      "node": "f2_all_admissible_direct_sum_grs_reduction",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ALL_ADMISSIBLE_DIRECT_SUM_REFUTED_PASS witness=1 survivor=1 dag=1/1\n"
+    },
+    {
+      "node": "f2_admissible_newton_signed_distance",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ADMISSIBLE_NEWTON_SIGNED_DISTANCE_PASS small_checks=328240 floor=8589934681 dag=3/3\n"
+    },
+    {
+      "node": "f2_admissible_weighted_prefix_l2_identity",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ADMISSIBLE_WEIGHTED_PREFIX_L2_IDENTITY_PASS rows=4 collisions=4688 kernel_words=404 list_fibers=753 dag=2/2\n"
+    },
+    {
+      "node": "f2_conditional_close",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "F2_ROUND18_CRITICAL_ROUTE_REPAIR_PASS statuses=5/5 edges=6/6\n"
+    }
+  ],
+  "schema": "f2-round18-branch-split-node-verify-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,74 @@
+{
+  "cache_hits": 0,
+  "client_errors": [],
+  "completed_batches": 5000,
+  "covered_rows": 320000,
+  "high_gate_cases": [],
+  "inventory_digest": "267986ba28d8bad703f612b41850360755f124bb848112d2450e52b8b88312c5",
+  "inventory_missing_batches": 9558,
+  "inventory_sha256": "d948248a8c5ef50f1d5c9dcb1722217a2458cdb6282c62b5315042b643d6f030",
+  "max_batch_seconds": 157.261801,
+  "max_norm_bits": 280,
+  "max_v2_prime_minus_1": 27,
+  "requested_batches": 5000,
+  "resolved_rows": 319993,
+  "run_id": "weight5-recursive-norm-full-v2",
+  "schema": "dli-wcl-weight5-recursive-norm-resume-wave-v1",
+  "selected_batches": 5000,
+  "selected_first": 26332,
+  "selected_last": 31331,
+  "source_sha256": "665250d08f9cdcee0bd1d75db5935d9af4e1daae2334fbc4b10b340d631b9fbc",
+  "status": "COMPLETE",
+  "unresolved_cases": [
+    {
+      "class_index": 1694673,
+      "key": 7016580122624,
+      "norm": "64600549023242798501503043963215574565098759778484238515187031859438359418369",
+      "norm_bits": 256,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1712000,
+      "key": 7057173644288,
+      "norm": "6945103368532969114968285438738483801138869547857938545559239948206568449",
+      "norm_bits": 242,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1730831,
+      "key": 7121601823744,
+      "norm": "155026152526982418467116370954705663517803860459140694373151984551684039452673",
+      "norm_bits": 257,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1784145,
+      "key": 7321582567936,
+      "norm": "673790533462560126029206369176002347560414046311840147557241436104229889",
+      "norm_bits": 239,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1803865,
+      "key": 7397016863232,
+      "norm": "123025837895353905932368367949298724830334008953040580667101032047572803572737",
+      "norm_bits": 257,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1859872,
+      "key": 7601032790528,
+      "norm": "5804250424846219334400315595976453529940960139695399927989477701261499354113",
+      "norm_bits": 252,
+      "reason": "FACTOR_TIMEOUT_60S"
+    },
+    {
+      "class_index": 1911650,
+      "key": 7845645386240,
+      "norm": "56876849107200058916092433805918992779680322983498205668226551178470462977",
+      "norm_bits": 246,
+      "reason": "FACTOR_TIMEOUT_60S"
+    }
+  ],
+  "wave_digest": "e78156a0d406e1f5682a0f2067599c5e7e046a687f1fe01b1ce3975bfe32437c"
+}

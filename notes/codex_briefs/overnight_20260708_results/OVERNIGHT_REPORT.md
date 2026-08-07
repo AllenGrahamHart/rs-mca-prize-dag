@@ -149,14 +149,14 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md
    ```
 
    Node-candidate files:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_NODE_STATEMENT.md
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_NODE_PROOF.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_NODE_STATEMENT.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_NODE_PROOF.md
    ```
 
    Content: every distinct disjoint pair of 3-root-of-unity subsets with equal
@@ -168,7 +168,7 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CHAR0_CLASSIFICATION.md
    ```
 
    Bound: each fixed non-toral shape activates at no more than
@@ -182,13 +182,13 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_char0_classification.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_char0_classification.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_char0_classification.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_char0_classification.py
    ```
 
    Expected digest:
@@ -207,19 +207,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
    ```
 
    Expected digest:
@@ -240,19 +240,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    Files:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H2_STEPANOV_RECONSTRUCTION.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H2_LEVEL_SET_REDUCTION.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H2_HBK_CONDITIONAL_COMPILER.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H2_RICH_COSET_STEPANOV.md
    ```
 
    Replays:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_energy_replay.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_levelset_replay.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_hbk_conditional_compiler.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h2_rich_coset_stepanov.py
    ```
 
    Digests:
@@ -281,19 +281,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_PILOT.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_pilot.py
    ```
 
    Expected digest:
@@ -315,19 +315,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_RANDOM_SAMPLE.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_PAIR_COPRIMALITY_RANDOM_SAMPLE.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_coprimality_random_modal.py
    ```
 
    Modal run:
@@ -348,19 +348,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_ACTIVATION_LADDER_MODAL.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_activation_ladder_modal.py
    ```
 
    Modal run:
@@ -379,19 +379,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_ORBIT_COUNT.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_orbit_count_modal.py
    ```
 
    Modal run:
@@ -418,19 +418,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_AFFINE_CENSUS_FEASIBILITY.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_affine_census_feasibility_modal.py
    ```
 
    Modal run:
@@ -463,19 +463,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_CENSUS.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_census_modal.py
    ```
 
    Modal run:
@@ -500,19 +500,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_STRUCTURE.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_structure.py
    ```
 
    Expected digest:
@@ -532,19 +532,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CONSECUTIVE_CORE_FAMILY_RATES.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_consecutive_core_family_rates.py
    ```
 
    Digest: `H3_CONSECUTIVE_CORE_FAMILY_RATES_PASS`.
@@ -568,19 +568,19 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_ORBIT_COUNT.md
    ```
 
    Script:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
    ```
 
    Replay:
 
    ```bash
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_orbit_count.py
    ```
 
    Digest: `H3_CORE_ORBIT_COUNT_PASS`.
@@ -594,21 +594,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_013_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_013_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_modal.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_013_census_check.py
    ```
 
    Modal run:
@@ -643,21 +643,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_014_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_014_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_modal.py
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_014_census_check.py
    ```
 
    Modal run:
@@ -694,21 +694,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_015_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_015_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,5 --tag 015
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,5 --tag 015
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_015_census_check.py
    ```
 
    Modal run:
@@ -743,21 +743,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_016_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_016_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,6 --tag 016
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,6 --tag 016
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_016_census_check.py
    ```
 
    Modal run:
@@ -792,21 +792,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_017_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_017_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,7 --tag 017
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,7 --tag 017
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_017_census_check.py
    ```
 
    Modal run:
@@ -841,21 +841,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_018_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_018_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,8 --tag 018
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,8 --tag 018
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_018_census_check.py
    ```
 
    Modal run:
@@ -890,21 +890,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_019_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_019_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,9 --tag 019
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,9 --tag 019
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_019_census_check.py
    ```
 
    Modal run:
@@ -941,21 +941,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0110_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0110_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,10 --tag 0110
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,10 --tag 0110
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0110_census_check.py
    ```
 
    Modal run:
@@ -989,21 +989,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0111_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0111_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,11 --tag 0111
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,11 --tag 0111
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0111_census_check.py
    ```
 
    Modal run:
@@ -1038,21 +1038,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0112_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0112_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,12 --tag 0112
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,12 --tag 0112
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0112_census_check.py
    ```
 
    Modal run:
@@ -1086,21 +1086,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0113_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0113_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,13 --tag 0113
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,13 --tag 0113
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0113_census_check.py
    ```
 
    Modal run:
@@ -1133,21 +1133,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0114_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0114_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,14 --tag 0114
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,14 --tag 0114
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0114_census_check.py
    ```
 
    Modal run:
@@ -1181,21 +1181,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0115_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0115_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,15 --tag 0115
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,15 --tag 0115
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0115_census_check.py
    ```
 
    Modal run:
@@ -1229,21 +1229,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0116_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0116_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,16 --tag 0116
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,16 --tag 0116
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0116_census_check.py
    ```
 
    Modal run:
@@ -1282,21 +1282,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0117_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0117_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,17 --tag 0117
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,17 --tag 0117
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0117_census_check.py
    ```
 
    Modal run:
@@ -1332,21 +1332,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0118_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0118_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,18 --tag 0118
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,18 --tag 0118
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0118_census_check.py
    ```
 
    Modal run:
@@ -1382,21 +1382,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0119_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0119_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,19 --tag 0119
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,19 --tag 0119
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0119_census_check.py
    ```
 
    Modal run:
@@ -1431,21 +1431,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0120_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0120_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,20 --tag 0120
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,20 --tag 0120
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0120_census_check.py
    ```
 
    Modal run:
@@ -1480,21 +1480,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0121_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0121_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,21 --tag 0121
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,21 --tag 0121
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0121_census_check.py
    ```
 
    Modal run:
@@ -1530,21 +1530,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0122_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0122_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,22 --tag 0122
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,22 --tag 0122
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0122_census_check.py
    ```
 
    Modal run:
@@ -1579,21 +1579,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0123_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0123_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,23 --tag 0123
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,23 --tag 0123
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0123_census_check.py
    ```
 
    Modal run:
@@ -1627,21 +1627,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0124_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0124_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,24 --tag 0124
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,24 --tag 0124
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0124_census_check.py
    ```
 
    Modal run:
@@ -1668,21 +1668,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0125_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0125_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,25 --tag 0125
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,25 --tag 0125
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0125_census_check.py
    ```
 
    Modal run:
@@ -1709,21 +1709,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0126_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0126_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,26 --tag 0126
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,26 --tag 0126
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0126_census_check.py
    ```
 
    Modal run:
@@ -1757,21 +1757,21 @@ activations.  The eighty-fifth core type `(0,1,86)` is complete with
    File:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0127_CENSUS.md
+   background/nodes/u1_x4_direct_column_budget/notes/F3_H3_CORE_0127_CENSUS.md
    ```
 
    Scripts:
 
    ```text
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
-   critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py
+   background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
    ```
 
    Replay:
 
    ```bash
-   ~/.venvs/modal/bin/modal run critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,27 --tag 0127
-   python3 critical/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
+   ~/.venvs/modal/bin/modal run background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_census_modal.py --core 0,1,27 --tag 0127
+   python3 background/nodes/u1_x4_direct_column_budget/notes/f3_h3_core_0127_census_check.py
    ```
 
    Modal run:

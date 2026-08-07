@@ -31,29 +31,40 @@ EXPECTED_COUNTS = {
     # 2026-07-27 (averaged_xr false-green cascade): 131 -> 129, 44 -> 43.
     # WAVE-26 (2026-07-27): averaged_xr gained a real verifier and the cascade
     # returned to PROVED; 129 -> 130 md-only, 43 -> 44 local-verifier.
-    "folder-md-only": 130,
-    "legacy-ref-only": 5,
-    "local-verifier": 44,
+    # 2026-08-06: the complete WCL (1,5) certificate promotes its target and
+    # makes the proved weight-four section census an explicit critical parent.
+    # Both have local verifiers, so local-verifier 44 -> 46.
+    # 2026-08-06 F2 admissibility repair: the generated-field-guarded F2 route
+    # is not a requirement of the official exact-slice consumer. Moving that
+    # branch off the strict orbit removes four md-only proofs and one legacy-
+    # ref-only proof; local verifier coverage is unchanged.
+    # 2026-08-06 exact-slice near-tail repair: b2b_near_tail_bound gained an
+    # exact integer verifier while remaining PROVED, so one critical proof
+    # moves from md-only to local-verifier.
+    # 2026-08-06 direct primitive-SP re-pose: the optional F-4/u1 branch
+    # leaves strict ancestry. Five proved nodes detach: two md-only and three
+    # legacy-ref-only; local verifier coverage is unchanged.
+    # 2026-08-07 Conjecture-F false-green repair: four md-only parent nodes
+    # return from PROVED to CONDITIONAL. Three new TARGET leaves add no proved
+    # harness obligation.
+    # The consumer-scope decomposition adds one proof-only SPI interface.
+    # LIST route retirement subsequently detaches the 18 proved general-F
+    # ancestors, all of which were folder-md-only. The strict FPC5 partition
+    # then adds 15 proved suppliers: one proof-only and 14 with local verifiers.
+    "folder-md-only": 103,
+    "legacy-ref-only": 1,
+    "local-verifier": 63,
 }
 
 EXPECTED_NO_PROOF = {
     # Manifest migration made five legacy-ref-only PROVED critical nodes own a
     # folder for the first time. node.json is graph metadata, not a proof.
-    "b1_char0_giant_coset_theorem",
-    "f2_edge_lemma",
-    "f2_full_ladder_dictionary",
-    "f2_k1_contraction_theorem",
-    "f2_newton_empty_extremes",
-    "f3_h2_stratum_theorem",
     "f5_lineray_saturation_instrument",
     "f5_wcollision_pair_moment_identity",
     "floor_budget_slack_scan",
     "petal_column_lemma",
     "petal_small_scale_staircase_census",
     "v13_capf_planted_lower_count",
-    "x24_char0_dyadic_descent",
-    "x81_minimal_trade_square_shift",
-    "x83_uniform_square_shift_obstruction_gate",
 }
 
 EXPECTED_UNREGISTERED_VERIFIER_NODES = {
@@ -115,11 +126,11 @@ def main() -> None:
     manifest = json.loads(MANIFEST.read_text())
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
-    # The maximality correction and joint-rank split add conditional wrappers;
-    # the latter replaces one SL-2 TARGET by two exact leaves. All proved
-    # coordinate reductions remain evidence-only.
-    require(len(critical["nodes"]) == 246, "critical orbit size drift")
-    require(len(proved) == 179, "critical PROVED count drift")
+    # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
+    # The Conjecture-F scope decomposition adds one proved interface and one
+    # conditional compiler while preserving 28 mathematical leaves.
+    require(len(critical["nodes"]) == 231, "critical orbit size drift")
+    require(len(proved) == 167, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

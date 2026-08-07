@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1808,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+    "title": "WCL ell=1 weight-6 pair-Heron norm router",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For any pairing of six square roots, the 32-factor unsigned sign product Psi_6 is the product of eight explicit Heron factors H(U,V,W)=U^2+V^2+W^2-2UV-2UW-2VW. Equivalently Psi_6 is the norm of this six-term polynomial through three independent quadratic pair-product extensions. Each Heron factor owns exactly four global-sign classes, so the eight factors preserve the exact union of supporting rational primes. No official prime exclusion is claimed.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/lineage.md",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_pair_heron_norm_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+      "order": 5022
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 5023
+    }
+  ],
+  "refutes": []
+}

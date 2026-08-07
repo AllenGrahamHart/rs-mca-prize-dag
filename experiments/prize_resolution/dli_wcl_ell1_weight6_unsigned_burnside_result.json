@@ -1,0 +1,21 @@
+{
+  "compression_ratio": 15.928589895674357,
+  "fixed_sums_by_product_parity": [
+    197438898176,
+    184310267904
+  ],
+  "group_order": 32768,
+  "orbit_count": 11650060,
+  "orbits_by_product_parity": [
+    6025357,
+    5624703
+  ],
+  "order": 256,
+  "schema": "dli-wcl-ell1-weight6-unsigned-burnside-v1",
+  "seconds": 1.173965,
+  "signed_affine_galois_classes": 185569028,
+  "status": "COMPLETE",
+  "transformation_digest": "a8b91835001476adc37630576d8ac9ba331836279bdbfeb3de04de1969c48f95",
+  "transformations": 32768,
+  "weight": 6
+}

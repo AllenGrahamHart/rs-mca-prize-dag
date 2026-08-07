@@ -1,0 +1,81 @@
+{
+  "post_refactor_addenda": [
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_addenda/05-round21-v4-audit.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_addenda/06-round21-growing-petal-repose.md"
+    }
+  ],
+  "pre_refactor_line_count": 1356,
+  "pre_refactor_sha256": "b584bf55b8e02310637fd59ed67494b7049cdc0af8d645c16c030db50986321f",
+  "schema": "sectioned-critical-node-document-v1",
+  "sections": [
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "original_lines": [
+        1,
+        66
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_sections/00-original-contract-and-evidence.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_first_match_totality_scope_pin",
+        "l1_fixed_source_quotient_partition_anchor_census",
+        "l1_fixed_source_anchored_triple_polarity_closure",
+        "l1_tame_fixed_petal_refinement_census"
+      ],
+      "original_lines": [
+        67,
+        291
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_sections/01-local-first-owner-payments.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_exact_shell_prefix_hankel_bridge",
+        "l1_exact_shell_fixed_cofactor_prefix_transport",
+        "l1_full_locator_pade_section_all_cofactors",
+        "l1_pade_remainder_jacobian_tangent_dichotomy"
+      ],
+      "original_lines": [
+        292,
+        943
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_sections/02-global-exact-shell-route.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_official_checkpoint_characteristic_atlas",
+        "l1_official_first_checkpoint_split_pencil_reduction",
+        "l1_mersenne_hnf_order_zero_quadratic_collisionfree_exclusion"
+      ],
+      "original_lines": [
+        944,
+        1287
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_sections/03-official-checkpoint-route.md"
+    },
+    {
+      "dag_nodes": [
+        "l1_balanced_pencil_anchor_determinant_atlas"
+      ],
+      "original_lines": [
+        1288,
+        1356
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_sections/04-balanced-pencil-atlas.md"
+    }
+  ],
+  "source_index": "critical/nodes/l1_mixed_petal_amplification/statement.md",
+  "status_semantics": "presentation-only; node.json remains authoritative"
+}

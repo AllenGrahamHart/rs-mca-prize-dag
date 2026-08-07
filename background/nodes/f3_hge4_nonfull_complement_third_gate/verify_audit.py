@@ -41,12 +41,12 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes["f3_hge4_norm_gate_count"]["status"] == "TARGET"
-    statement = (ROOT / "critical/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
+    statement = (ROOT / "background/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
     for marker in (
         "f3_hge4_nonfull_complement_third_gate",
         "E_h^prim(m,p)=0",
         "floor((m-1)/3)",
-        "No exact-ratio level estimate `(ERT4)`",
+        "No uniform exact-ratio level estimate `(ERT4)`",
     ):
         assert marker in statement
     print(

@@ -17,6 +17,9 @@
     {
       "to": "u1_pullback_dichotomy",
       "order": 784
+    },
+    {
+      "to": "x4_primitive_star_u1_coverage"
     }
   ],
   "refutes": []

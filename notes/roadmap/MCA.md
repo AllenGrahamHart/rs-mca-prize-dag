@@ -17,6 +17,20 @@ certificates required by the challenge.
 - Mixed-petal amplification.
 - Split-pencil high-core, low-core, and graded tangent charges.
 - The deployed rate-half band closure.
+- The `c2(1,1,2)` source-line literal-assignment coverage repair: the local
+  six-cell ledger is exactly `{F00,M00} x {R02,R11,R20}`, not an exhaustive
+  source-assignment atlas. The former branch-level PROVED promotion is now
+  CONDITIONAL pending literal coverage or a complete-system restricted
+  symmetry theorem.
+- The first restricted symmetry is now PROVED: literal reparameterization
+  `b -> b^-1` identifies every complete `F01-Rxx` system with
+  `F00-Rxx`. All six `F00/F01` cells are therefore closed locally; this does
+  not transport to `F02`--`F07`.
+- Upstream PR #1141 is imported as a pinned PROVED exact theorem after its
+  local Python replay and recorded independent Sage review: all six
+  `F02/F03` cells are closed. PR #1144's twelve moving-cell candidate passes
+  its 29-mutation Python replay but remains PROVABLE pending the fresh
+  Sage/Singular review required by its own theorem note.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

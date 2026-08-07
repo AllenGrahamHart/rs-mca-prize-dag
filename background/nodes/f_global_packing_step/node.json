@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_global_packing_step",
+    "title": "Conjecture-F absolute-exponent global packing",
+    "status": "TARGET",
+    "key": true,
+    "statement": "For every typed descriptor emitted by f_prize_consumer_flat_scope, after the proved spread/rank-defect split, strict descent, paid first owners, and support-lattice memoization, the complete first-owner sum of the exact spread-leaf bounds binom(n_leaf,r_leaf)/binom(j_leaf,r_leaf) is at most n^B_F for one absolute exponent independent of the initial dimension and descent path. The scope compiler must prove the quantitative dimension regime; merely assuming r<j is not enough.",
+    "attack_surface": "find a telescoping potential that absorbs dimension-dependent spread numerators through divisor depth and quotient scale while preserving first ownership",
+    "falsifier": "proper-flat instances whose exact owner-disjoint spread-leaf sum exceeds every fixed power of n",
+    "refs": [
+      "background/nodes/f_global_packing_step/statement.md",
+      "background/nodes/f_global_packing_step/attack.md",
+      "background/nodes/f_global_packing_step/claim_contract.md",
+      "background/nodes/f_global_packing_step/dependency_subdag.md"
+    ],
+    "upstream": {
+      "source": "rs-mca prob:capfr1-master-flatness",
+      "relation": "FINITE_UNIFORM_PACKING_INSTANCE"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

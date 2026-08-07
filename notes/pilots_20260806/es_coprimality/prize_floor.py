@@ -90,9 +90,9 @@ def main():
             hi = mid
         else:
             lo = mid
-    print("    w* = %d  =  2^%.4f   (CS excludes every w > w*)" %
+    print("    w0 = %d  =  2^%.4f   (first w excluded by CS)" %
           (hi, math.log2(hi)))
-    frac = (2 ** 39 - hi) / float(2 ** 39 - 2 ** 34)
+    frac = (2 ** 39 - hi + 1) / float(2 ** 39 - 2 ** 34 + 1)
     print("    covered fraction of the crossing bracket [2^34, 2^39]: %.4f"
           % frac)
 
@@ -117,7 +117,8 @@ def main():
             else:
                 lo = mid
         print("  %-12g 2^%-14.4f %.4f"
-              % (lp, math.log2(hi), (2 ** 39 - hi) / float(2 ** 39 - 2 ** 34)))
+              % (lp, math.log2(hi),
+                 (2 ** 39 - hi + 1) / float(2 ** 39 - 2 ** 34 + 1)))
 
     # ---- the six power-of-two w (the (E)-dichotomy values)
     print("\n  The 6 power-of-two w in the bracket (the only w with a")

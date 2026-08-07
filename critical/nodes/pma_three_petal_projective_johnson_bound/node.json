@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 875,
+  "node": {
+    "id": "pma_three_petal_projective_johnson_bound",
+    "title": "PMA three-petal projective Johnson bound",
+    "status": "PROVED",
+    "statement": "Distinct primitive coefficient pairs in one three-petal mu-basis module have split core-root sets intersecting in at most e-1. A Johnson second-moment argument therefore bounds their number by N(d-e+1)/(d^2-N(e-1)) whenever the denominator is positive. This pays every rate-quarter M=4,t=3 cell with a uniform 16n^3 per-source bound and every positive-denominator rate-half cell, including all backgrounds b<=6. The only surviving three-petal cells form an explicit nonpositive-denominator rate-half top-defect tail.",
+    "refs": [
+      "critical/nodes/pma_three_petal_projective_johnson_bound/statement.md",
+      "critical/nodes/pma_three_petal_projective_johnson_bound/proof.md",
+      "critical/nodes/pma_three_petal_projective_johnson_bound/audit.md",
+      "critical/nodes/pma_three_petal_projective_johnson_bound/claim_contract.md",
+      "critical/nodes/pma_three_petal_projective_johnson_bound/dependency_subdag.md",
+      "critical/nodes/pma_three_petal_projective_johnson_bound/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "pma_three_petal_mu_basis_reduction",
+      "order": 1532
+    },
+    {
+      "from": "pma_official_rate_small_source_degree_sieve",
+      "order": 1533
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "petal_mixed_amplification",
+      "order": 1534
+    }
+  ],
+  "refutes": []
+}

@@ -8,7 +8,7 @@
     "key": true,
     "refs": [
       "background/nodes/f3_h3_mobius_overlap_cap35/statement.md",
-      "critical/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
+      "background/nodes/u1_x4_direct_column_budget/notes/F3_H3_MOBIUS_OVERLAP_CAP.md"
     ],
     "statement": "BACKGROUND SUFFICIENT ROUTE. For every official row (n = 2^s, 13 <= s <= 41; p prime, p = 1 mod n, p >= n^2; H <= F_p^* of order n; A = (1-H)\\{0}), put P(t)=#{(a,b) in A^2: ab=t} and R(t)=#{(c,d) in A^2: d/c=t}. Then max{P(t): t != 1 and R(t)>0} <= 35. Equivalently, for every nonidentity t in A/A that is actually consumed by the three-to-one convolution, the Mobius involution y=(x+t-1)/(x-1) has at most 35 ordered points (x,y) in H^2. This implies zero weighted excess but is stronger than the critical f3_h3_mobius_excess_half premise. FALSIFIER: one exact official row and one t != 1 with R(t)>0 and P(t)>=36. Boundary evidence only: the first twelve n=8192 official primes have maximum 14..20.",
     "attack_surface": "Exploit the extra restriction t in A/A rather than proving the unrestricted Mobius-intersection conjecture. Candidate routes are a Stepanov auxiliary polynomial for the paired product/quotient fibers, a cross-ratio rigidity argument for the power-of-two subgroup, or a constants-explicit rich-fiber incidence tail. A bound on average energy with an unspecified constant or log n loss does not prove this pointwise cap."

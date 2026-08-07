@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate",
+    "title": "KoalaBear aligned-positive moving upstream review gate",
+    "status": "PROVABLE",
+    "closure": "fresh independent Sage/Singular review of the pinned PR #1144 twelve-cell candidate",
+    "statement": "Upstream PR #1144 commit 05ff2348de8f2c0f99683875ff12a9a79dcf21ec contains an exact candidate proof deleting all twelve aligned-positive moving-moving cells. Its fail-closed Python verifier passes locally with payload 343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145 and 29 semantic mutations. The upstream theorem itself retains a fresh independent review gate for the load-bearing Sage/Singular computation, so this node remains PROVABLE and is not consumed as a theorem.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/external_replay.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

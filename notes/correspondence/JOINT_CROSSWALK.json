@@ -2,9 +2,9 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "ac5963f4",
+  "our_sha": "7f02c2b78",
   "his_sha": "93fba1be",
-  "note": "re-pinned 2026-07-29 after the July PR review wave (0f7476f0); previous his_sha fde7d56d was a fork branch head, not upstream main"
+  "note": "re-pinned 2026-08-06 after the SP quotient-sieve harvest and linear translated-divisor interface; previous his_sha fde7d56d was a fork branch head, not upstream main"
  },
  "rows": [
   {
@@ -507,7 +507,7 @@
     "file": "experimental/grande_finale.tex",
     "line": "sec:fourier / sec:primitive-q-proof"
    },
-   "relation": "IDENTICAL",
+   "relation": "OVERLAP",
    "chain": "f2_zero_prefix_q_equivalence",
    "scope": "zero-prefix instance, level j < char q; the pruned-vs-raw K2 gap is OPEN",
    "owner": "JOINT",
@@ -521,6 +521,96 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "f2_generated_field_ambient_invariance",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact generated-field/coset invariance of F2 t-null blocks, trade families, syndrome fibers and weighted mass; 12 official degree/order types reduce to five signed generating types",
+   "owner": "US",
+   "nonclaims": [
+    "does not restore ambient-normalized (O1)",
+    "does not prove max-fiber or weighted-mass upper bound",
+    "does not identify these fibers with def:q-row-atom"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1150 at 8d89959b",
+   "lean": null,
+   "provenance": {
+    "our_sha": "f6fba9ad5",
+    "his_sha": "8d89959b"
+   }
+  },
+  {
+   "our_node": "f2_fixed_weight_flatness_mass_bridge",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact bridge from fixed-weight mean-plus-one syndrome flatness on a central band to the full-cube weighted F2 mass, retaining cross-weight collisions",
+   "owner": "US",
+   "nonclaims": [
+    "does not prove the fixed-weight flatness premise",
+    "does not identify weighted odd-prefix fibers with upstream unweighted split-locator fibers",
+    "does not transport the pruned first-match owner in def:q-row-atom"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "draft PR #1150 at 8d89959b",
+   "lean": null,
+   "provenance": {
+    "our_sha": "117e84c09",
+    "his_sha": "8d89959b"
+   }
+  },
+  {
+   "our_node": "f2_antipodal_selector_prefix_transport",
+   "his_object": {
+    "label": "master split-locator flatness",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "prob:capfr1-master-flatness"
+   },
+   "relation": "OVERLAP",
+   "chain": "f2_antipodal_selector_prefix_transport",
+   "scope": "every F2 full-cube fiber injects into the central half-size depth-2R instance of the ordinary split-locator prefix fiber; every official selector is aperiodic, so the quotient-periodic bucket is absent on these images",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove master split-locator flatness",
+    "does not instantiate the upstream normalized band",
+    "does not pay the common-divisor/first-match seam for the F2 structured owners",
+    "does not identify the deployed pruned def:q-row-atom family"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open; transport and aperiodicity corollary in draft PR #1150 at 8d89959b",
+   "lean": null,
+   "provenance": {
+    "our_sha": "75b97465c",
+    "his_sha": "8d89959b"
+   }
+  },
+  {
+   "our_node": "f2_selector_face_primitive_reduction",
+   "his_object": {
+    "label": "master split-locator flatness / common-GCD reduction",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "prob:capfr1-master-flatness / lem:capf-gcd"
+   },
+   "relation": "OVERLAP",
+   "chain": "f2_antipodal_selector_prefix_transport -> f2_selector_face_primitive_reduction",
+   "scope": "fiberwise fixed selector roots are factored exactly, leaving a punctured gcd-trivial aperiodic prefix instance; primitive flatness gives an explicit F2 max-fiber bound with only the saturation-rounding factor",
+   "owner": "JOINT",
+   "nonclaims": [
+    "does not prove primitive master split-locator flatness",
+    "requires that primitive flatness be uniform under the printed fixed-root punctures",
+    "does not identify the deployed pruned def:q-row-atom family",
+    "does not settle PP5.0 or the finite n^3 consumer ledger"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not exported; draft PR #1150 remains at 8d89959b pending Round-20/Wave-47 reconciliation",
+   "lean": null,
+   "provenance": {
+    "our_sha": "0c972e31f",
+    "his_sha": "8d89959b"
    }
   },
   {
@@ -946,9 +1036,9 @@
    "scope": "no upstream counterpart: their assembly has no tower (THREE_VS_SEVEN)",
    "owner": "US",
    "nonclaims": [
-    "offered upstream only as the CR-004 contributor register (#1050)"
+    "offered upstream only as the CR-004 contributor register (#1050); complete local closure not yet exported"
    ],
-   "status_ours": "TARGET",
+   "status_ours": "PROVED",
    "status_his": "open",
    "lean": null,
    "provenance": {
@@ -972,6 +1062,101 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell1_weight6_first64_mitm_exclusion",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "finite exact exclusion on the first 64 prime values q=k*2^41+1; upstream has no corresponding WCL tower terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no exclusion for later characteristics or extension-field rows",
+    "no promotion of the universal WCL (1,6) target"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "08d5f36fb",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell1_weight6_unsigned_sign_product_router",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact two-sector sign-product and affine-Galois router for the local WCL (1,6) terminal; upstream has no WCL tower counterpart",
+   "owner": "US",
+   "nonclaims": [
+    "aggregate norm factorization may be harder despite the smaller orbit count",
+    "no official characteristic or WCL slot is excluded"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3db840bd7",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell1_weight6_pair_heron_norm_router",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact eight-factor pair-Heron norm router for the local WCL (1,6) terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no Heron factor has been excluded at the official characteristic gate",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "c43b94709",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell1_weight6_parity_adapted_heron_descent",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "two-sector base-field descent for the local WCL (1,6) pair-Heron factors",
+   "owner": "US",
+   "nonclaims": [
+    "no base-field Heron or quadratic-norm factor is excluded at the official gate",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "cfa9e1c3d",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell1_weight6_conductor_block_norm_gcd_fence",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "exact maximal conductor owner and no-compression theorem for parity-adapted block-norm gcds in the local WCL (1,6) terminal",
+   "owner": "US",
+   "nonclaims": [
+    "no individual signed norm or compatible characteristic is excluded",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "a1120ba75",
+    "his_sha": "93fba1be"
    }
   },
   {
@@ -1026,6 +1211,26 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
+   "his_object": null,
+   "relation": "OURS_ONLY",
+   "chain": null,
+   "scope": "complete four-plus-three recurrence router, embedding-aware Norm(u) prime-filter repair, and exact 94,652,815-orbit route size for local WCL (2,7)",
+   "owner": "US",
+   "nonclaims": [
+    "no candidate orbit or official characteristic is excluded",
+    "the exact route-size theorem records a compute no-go rather than authorizing the census",
+    "no upstream WCL tower counterpart exists"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "not proposed",
+   "lean": null,
+   "provenance": {
+    "our_sha": "17833b451",
+    "his_sha": "93fba1be"
    }
   },
   {
@@ -1200,6 +1405,156 @@
    "provenance": {
     "our_sha": "da8b9a85",
     "his_sha": "b13de811"
+   }
+  },
+  {
+   "our_node": "upstream_sp_coefficient_scale_quotient_sieve",
+   "his_object": {
+    "label": "SP coefficient-scale quotient sieve",
+    "file": "experimental/grande_finale_work/sp_next_section.tex",
+    "line": "lem:sp-next-periodicity-equivalence; thm:sp-next-maximal-extraction"
+   },
+   "relation": "IDENTICAL",
+   "chain": "upstream_sp_coefficient_scale_quotient_sieve",
+   "scope": "cyclic multiplicative cosets in characteristic coprime to n: common coefficient scale equals common support periodicity; maximal shift-pair quotient extraction with exact descended depth and difference degree",
+   "owner": "HIM",
+   "nonclaims": [
+    "does not bound the coefficient-primitive local degree",
+    "does not prove the converse from gcd(n,e,d)>1",
+    "does not supply quotient-row coalescing, a finite numerator, or X4/SP closure"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved subcase",
+   "lean": null,
+   "provenance": {
+    "our_sha": "61abbbb4c",
+    "his_sha": "93fba1be",
+    "his_introducing_sha": "9af5ba8e5"
+   }
+  },
+  {
+   "our_node": "x4_linear_difference_translated_divisor_interface",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "fixed-base local shift pair -> translated complementary divisors; d=1 fixed-H multiplicity route cut",
+   "scope": "the first nonconstant local SP stratum: B divides the fixed base locator, B+aX+b divides its complementary-domain locator, and every such record is coefficient-primitive",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the translated-divisor intersection",
+    "does not pay the 16N^3 local X4 allowance",
+    "does not transport unless the exact first-owner strips are retained",
+    "fixed linear difference is not an injective record key"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "7f02c2b78",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_linear_difference_projection_codegree_bound",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "fixed-base d=1 translated divisors -> fixed-projection intersection at most one -> Johnson codegree",
+   "scope": "official local X4 base rows: either fixed added-locator or fixed removed-locator projection fiber has at most 1024 d=1 incidences; field-general rational bound v(e-1)/(e^2-v)",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the number of distinct projected locators",
+    "does not bound the total d=1 incidence or any d>=2 stratum",
+    "the official 1024 constant does not automatically transport to quotient rows",
+    "does not pay the 16N^3 primitive SP allowance"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "bf4ee100e",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_low_difference_johnson_highwidth_bound",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "full-locator difference degree -> changed-set intersection cap -> local Johnson bound -> exact high-width sum",
+   "scope": "fixed-base SP incidences of side width e and difference degree at most d; at local N=2^41,d=1 the complete e>N/4 aggregate is at most N^3/64",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the remaining t_XR+2<=e<=N/4 linear-difference interval",
+    "does not pay any d>=2 aggregate",
+    "does not transport the N^3/64 constant to a different quotient tuple",
+    "does not close the primitive SP or X4 target"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "b9ec8c6be",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_low_difference_johnson_positive_wedge_aggregate",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "low-difference Johnson cell bound -> denominator-step partition -> complete positive-wedge aggregate",
+   "scope": "fixed-base nonconstant SP cells: the complete region 4e^2>N(e+d) costs at most 5N^3/16, leaving the explicit reverse-inequality wedge",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the Johnson-nonpositive wedge",
+    "does not pay the minimal d=0 stratum",
+    "does not transport the numerical aggregate to a different quotient tuple",
+    "does not close primitive SP, X4, or LIST"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "1662cf277",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_johnson_nonpositive_wedge_abstract_code_route_cut",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2: Low-degree difference incidence"
+   },
+   "relation": "OVERLAP",
+   "chain": "official corridor upper depth -> bipartite pair-choice blocks -> greedy binary code -> intersection-only route cut",
+   "scope": "rate-half residual SP wedge at e=N/8,d=e-t_XR-1: more than 16N^3 abstract blocks satisfy the changed-set intersection cap",
+   "owner": "US",
+   "nonclaims": [
+    "the abstract blocks are not asserted to satisfy locator equations",
+    "does not refute or bound the Johnson-nonpositive SP wedge",
+    "does not discharge any first-owner column",
+    "does not close X4, SP, LIST, or MCA"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open route",
+   "lean": null,
+   "provenance": {
+    "our_sha": "9cb7fa1e0",
+    "his_sha": "93fba1be"
    }
   },
   {
@@ -1686,6 +2041,106 @@
    "lean": null,
    "provenance": {
     "our_sha": "ac5963f4",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_dyadic_norm_router",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "primitive locator-prefix shift pair -> dyadic signed folds -> Frobenius-orbit prime-ideal divisors -> DLI energy norm ceiling",
+   "scope": "every dyadic multiplicative-coset row and finite field containing it; every coefficient-primitive equal-prefix shift pair is routed through a nonzero root norm gate, with optional higher-fold gates",
+   "owner": "US",
+   "nonclaims": [
+    "does not bound the population of vectors satisfying the norm gates",
+    "does not make every higher dyadic fold nonzero",
+    "does not compile the support-wise first-owner map or pay the X4 allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3f33dbbff",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_haar_norm_product_gate",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "dyadic primitive norm router -> exact Haar energy identity -> weighted AM-GM -> active-pattern integer exclusion gate",
+   "scope": "every balanced signed shift pair on a dyadic domain; every set of nonzero prefix-supplied folds shares one exact energy budget and norm-product ceiling",
+   "owner": "US",
+   "nonclaims": [
+    "does not force higher dyadic folds to be nonzero or charge structural zero folds",
+    "does not count vectors in any surviving active pattern",
+    "does not compile first ownership or pay the X4 allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "51da18d95",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_zero_fold_norm_divisibility",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "zero dyadic fold -> integral cyclotomic factor -> exact cross-order powers of two -> strengthened Haar norm-product gate",
+   "scope": "every active/zero pattern of a balanced signed shift pair on a dyadic domain",
+   "owner": "US",
+   "nonclaims": [
+    "does not identify structural zero folds with an upstream quotient owner",
+    "does not force or count any surviving fold pattern",
+    "does not compile the X4 first-owner map or pay its primitive allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "e79cb3180",
+    "his_sha": "93fba1be"
+   }
+  },
+  {
+   "our_node": "x4_primitive_norm_size_hard_boundary_route_cut",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "complete dyadic active/zero norm package -> official hard-boundary exponent comparison -> generic size-route impossibility",
+   "scope": "official rate-half N=2^41 hard cell e=N/8,d=e-t_XR-1, uniformly over q<2^256",
+   "owner": "US",
+   "nonclaims": [
+    "does not construct or count a locator shift pair",
+    "does not rule out exact norm factors or common-ideal arguments",
+    "does not pay a local first-owner atom",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "3671fd167",
     "his_sha": "93fba1be"
    }
   }

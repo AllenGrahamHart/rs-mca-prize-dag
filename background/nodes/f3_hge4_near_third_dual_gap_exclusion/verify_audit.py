@@ -54,7 +54,7 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     assert nodes[NODE]["status"] == "PROVED"
     assert nodes["f3_hge4_norm_gate_count"]["status"] == "TARGET"
-    consumer = (ROOT / "critical/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
+    consumer = (ROOT / "background/nodes/f3_hge4_norm_gate_count/statement.md").read_text()
     for marker in (
         NODE, "E_h^prim(m,p)=0", "floor(2m/7)", "(32,9,5)",
         "zero-cost analytic exclusion",

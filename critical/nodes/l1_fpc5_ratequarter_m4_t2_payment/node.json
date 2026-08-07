@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratequarter_m4_t2_payment",
+    "title": "Rate-quarter FPC5 M=4,t=2 is paid by pair uniqueness",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an official rate-quarter maximal sunflower source with M=4, the source equation 4ell+b=3k+1 and b<ell imply 2ell>k-1. In one fixed source layout, two degree-below-k contributors touching the same unordered pair of full petals agree with the received word on more than k-1 points and are equal. Thus there are at most six non-planted M=4,t=2 contributors in that layout. General first-layout domination removes all source-layout multiplicity and adds at most M=4 anchors, giving the global absolute bound ten. Hence the full rate-quarter M=4,t=2 branch is polynomially paid.",
+    "refs": [
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/statement.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/proof.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/claim_contract.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/dependency_subdag.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/audit.md",
+      "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_general_first_layout_domination"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

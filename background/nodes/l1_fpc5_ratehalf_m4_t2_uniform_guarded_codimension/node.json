@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
+    "title": "Every fixed rate-half two-petal background cell has codimension at least ell-1",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a rate-half M=4,t=2 cell with d=ell+s and exact background set R of size r>=s, the guarded cofactor congruence has locator dimension at most 2s+2-min(r,s+1). Hence every nonempty monic degree-d chart has affine codimension at least ell-1; when r=s its dimension is exactly s+2 and codimension exactly ell-1, while r>=s+1 gives codimension at least ell. Aggregated without choosing R, contributors lie in one joint locus where F is split on the core and its uniquely reconstructed W_F has at least s background roots. A per-R union bound is not claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-locator master flatness and primitive shift-pair control",
+      "relation": "EXACT_FPC5_CONSUMER_FAMILY"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_two_full_petal_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_m4_t2_official_codimension_sieve"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

@@ -49,3 +49,103 @@ another jersey; dsp8 = pencil satellite). Within the 14, two may
 already be closable by recent theorems (integer_code_distance_cert
 via the transported Z-1 distance law; unsafe_crossing_family_
 instantiation via THEOREM BB) — probes launched round 21.
+
+## r4.1 K3 SOURCE-LINE SCOPE REPAIR (2026-08-07)
+
+The earlier `c2(1,1,2)` complete source-line promotion was too broad. The
+exact local-to-upstream crosswalk is now:
+
+```text
+fixed-moving = F00,       moving-moving = M00,
+same = R20,               swap = R02,       mixed = R11.
+```
+
+Thus the six local aligned-positive unramified systems are exactly
+
+```text
+{F00,M00} x {R02,R11,R20},
+```
+
+not the full `12 x 3 = 36` literal atlas. The matching centralizer is
+transitive on combinatorial edge classes, but generic endpoint normalization
+does not preserve both the q-slice target in `W` and the observed source
+divisor. It is therefore not a full-system covariance theorem.
+
+The branch parent
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion` is now
+CONDITIONAL. Its new missing premise is
+`rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage`
+(TARGET): classify every literal assignment or prove a restricted symmetry
+for the source form, target, localizers, and both quotient identities.
+
+Upstream PRs #1140/#1141/#1144/#1149 provide the correct literal atlas and
+substantial closures; #1149 reports 16 fixed-moving cells open on its stack.
+PRs #1135--#1137 provide canonical full-quotient deletions whose stack and
+scope should be reconciled during import. The next route-decisive K3 task is
+to vendor/replay those packets into one coverage table and attack the
+remaining literal cells, not to seek another generic covariance shortcut.
+
+```text
+starting local pin:       290984f72 (multiscale crossing norm fence)
+upstream main pin:        93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream frontier pin:    55ac3e07477bd7a768190a3e755f22b0d44354b0 (#1149)
+lane:                     MCA / K3 / c2(1,1,2) source-line coverage
+result:                   PROVED six-cell semantic crosswalk and covariance route fence
+DAG status correction:    source-line parent PROVED -> CONDITIONAL; +1 TARGET premise
+new assumptions:          none
+compute:                  none; exact symbolic/rational replay under RAMguard
+next:                     import literal atlas closures and build a zero-gap coverage table
+```
+
+### K3 restricted fixed-companion transport
+
+The first complete-system symmetry inside the repaired literal atlas is now
+PROVED. For every root pattern,
+
+```text
+F01(b)-Rxx = F00(b^-1)-Rxx.
+```
+
+This is literal reparameterization, not endpoint-coordinate covariance. It
+preserves the source pair, unordered endpoint set, q-slice target, named
+open, quotient locators, and both full quotient identities. Field inversion
+is bijective on `b != 0`, so the three local `F00` exclusions close all three
+`F01` companions.
+
+```text
+lane:                     MCA / K3 / aligned-positive literal coverage
+result:                   PROVED complete F00-to-F01 inversion transport
+aligned-positive closure: 6/36 cells local and literal
+new assumptions:          none
+compute:                  none; exact finite rational/source-registry replay
+next:                     import F02/F03 (#1141) and M00..M03 (#1144), then attack F04..F07
+```
+
+### K3 literal packet imports
+
+PR #1141 at `826c0e7610604d550b8dd9b772c197a4e660e525` is now imported as a
+pinned PROVED theorem. Its factor-first Sage proof closes `F02-R11`,
+exhausts the finite quadratic-field q-slice schemes for `F02-R02/R20`, and
+uses nonzero full-quotient mismatch norms to delete every point. Literal
+`b` inversion transports all three conclusions to `F03`. The upstream
+Python verifier was replayed locally with payload
+`51572f4d190a3bceb31494ae7ee48f6b026346413ae398d2da4f7b1da1402438`
+and `26/26` mutations caught; the theorem records an independent prior Sage
+review.
+
+PR #1144 at `05ff2348de8f2c0f99683875ff12a9a79dcf21ec` is recorded separately
+as PROVABLE. Its Python verifier passes locally with payload
+`343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145`
+and 29 mutations, but its own theorem retains a fresh review gate for the
+load-bearing Sage/Singular proof. It is not consumed as a theorem yet.
+
+```text
+lane:                     MCA / K3 / aligned-positive literal coverage
+new PROVED coverage:      F02/F03 x R02/R11/R20 (6 cells)
+local proved total:       12/36 aligned-positive cells
+high-confidence pending:  all 12 moving cells, fresh Sage review required
+hard residual after gate: F04..F07 x R02/R11/R20 (12 cells / 6 #1149 orbits)
+new assumptions:          none
+compute:                  bounded Python metadata/arithmetic replays only; no Modal
+next:                     discharge #1144 review or attack the six F04..F07 orbit representatives
+```

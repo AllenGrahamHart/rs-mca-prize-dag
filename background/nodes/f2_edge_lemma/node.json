@@ -1,0 +1,21 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 740,
+  "node": {
+    "id": "f2_edge_lemma",
+    "status": "PROVED",
+    "statement": "F2 EDGE LEMMA (2026-07-10, campaign cycle 38; digests F2_SEMIGROUP_SUPPORT_PASS + the banked chain): at official-shaped rows, EVERY t-null block of edge size (residual bound rho < char p per the shape lemma) is a UNION OF FULL COSETS \u2014 zero extras on the edge band, the F2 dichotomy PROVED there. Proof chain (each link proved + machine-verified): full-ladder dictionary -> edge shape lemma (residual < 2^28 < p = 2^31) -> residual determination (unit-triangular, no p-slots below rho) -> r_B = trunc(B^{-1}) = truncated complement locator (product identity) -> SEMIGROUP SUPPORT (B^{-1} of a 2-power coset-union core is supported on multiples of 2^{e_min}; verified exact on 180 random cores) -> residual roots pull back to FULL mu_{2^{e_min}}-cosets -> contradiction with core maximality unless residual empty -> S = maximal coset union. Core-free case killed separately (residual = 1). The crux's lower edge is CLOSED; the remaining mid-band interior inherits the same machinery with rho growing past p as b leaves the edge \u2014 the rho < p boundary is the next frontier. Fourteenth satellite; the campaign's first fully-proved band of the F2 dichotomy."
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "u2c_giant_tnull_dichotomy",
+      "order": 1261
+    },
+    {
+      "to": "f2_conditional_close"
+    }
+  ],
+  "refutes": []
+}

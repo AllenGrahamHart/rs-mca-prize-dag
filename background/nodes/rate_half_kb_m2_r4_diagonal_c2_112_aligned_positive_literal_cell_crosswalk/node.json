@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+    "title": "KoalaBear aligned-positive literal-cell crosswalk",
+    "status": "PROVED",
+    "closure": "exact source/target semantic crosswalk plus a generic covariance route fence",
+    "statement": "The local fixed-moving and moving-moving source reconstructions are literally the F00={E01,E02} and M00={E02,E03} assignments. Evaluating the local residual proportionality equations at the roots of q=(T-c)(T-d) proves same=R20, swap=R02, and mixed=R11. Thus the six local systems are {F00,M00} x {R02,R11,R20}. A generic endpoint normalization commuting with inversion changes the target roots when W is fixed, so matching-centralizer transitivity does not transport these proofs to the other literal source assignments.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

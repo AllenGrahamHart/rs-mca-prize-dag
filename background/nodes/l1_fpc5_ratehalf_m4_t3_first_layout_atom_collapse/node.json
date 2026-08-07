@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse",
+    "title": "First-layout domination reduces the three-petal tail to polynomially many fixed LS6 atoms",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the rate-half M=4,t=3 FPC5 tail, fix the first admissible maximal source layout. General first-layout domination leaves at most its four planted anchors plus the complete non-planted contribution in this one layout. There are exactly four touched triples; each triple's fixed source labels determine one normalized cross-ratio, and the surviving defect parameter has fewer than n values. The exact complement-slice theorem identifies each cell with one guarded LS6 atom. Hence a uniform B(n) bound per atom gives the global bound 4nB(n)+4, with no source-layout or field-many lambda sum.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca L1 source/cross-ratio and split-slice reductions",
+      "relation": "OUTER_MULTIPLICITY_COLLAPSE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_general_first_layout_domination"
+    },
+    {
+      "from": "pma_ratehalf_source_crossratio_fiber_reduction"
+    },
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_general_star_minimal_trade_route_cut",
+    "title": "General star records do not universally inject into minimal trades",
+    "status": "PROVED",
+    "closure": "exact finite-field counterexample and complete census",
+    "statement": "On D=F_17^*, the disjoint pair P={1,2,3}, Q={4,5,14} is a general order-1 width-3 star-PTE record but is not minimal and contains no width-2 minimal subrecord. Exhaustively, D has 4576 unordered general order-1 width-3 records, while its entire unordered F-4 minimal ledger has only 963 records over widths 1,...,8 (843 over widths 2,...,8). Hence no scale-free multiplicity-one injection from all general star records into all minimal records exists, and subset peeling also fails. This is not an official-row or strip-aware counterexample: n=16 and |F|=17<n^2, so x4 coverage may still use official-row first-owner strips or a broadened general-record u1 ledger.",
+    "refs": [
+      "background/nodes/x4_general_star_minimal_trade_route_cut/statement.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/proof.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/audit.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/claim_contract.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/dependency_subdag.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/result.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/provenance.md",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/verify.py",
+      "background/nodes/x4_general_star_minimal_trade_route_cut/verify_audit.py"
+    ],
+    "upstream": {
+      "source": "rs-mca v13 primitive shift-pair coverage input",
+      "relation": "ROUTE_CUT"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 352,
+  "node": {
+    "id": "f_primitive_case",
+    "title": "F primitive core: gcd-trivial, aperiodic plane points are poly",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "For every actual prize-consumer flat accepted by f_prize_consumer_flat_scope: #{ell in P cap D_j : gcd(P cap D_j) = 1, ell not a pullback, ell unpaid} <= n^{B_F}. Together with f_gcd_reduction and f_scale_recursion this gives the consumer-scoped Conjecture-F input needed by the prize proof; no theorem for every abstract linear flat is claimed.",
+    "attack_surface": "the irreducible instance every route must face; coordinate planes first (perfiber is its coordinate case), kernel planes second",
+    "falsifier": "toy-scale (n = 16..32) exhaustive plane searches finding super-poly primitive unpaid points",
+    "refs": [
+      "proof_sketch/s3b_iii_3_fibers_and_noanchor.md#1"
+    ],
+    "notes": "The E7 and Hankel finite censuses remain evidence. FALSE-GREEN REPAIR 2026-08-07: this node is the proved implication from the consumer-scope compiler and dimension induction, both of which retain explicit TARGET leaves. No theorem for every abstract linear flat is claimed."
+  },
+  "requires": [
+    {
+      "from": "f_dim1",
+      "order": 589
+    },
+    {
+      "from": "f_concurrency_equiv",
+      "order": 590
+    },
+    {
+      "from": "f_dim2_skeleton",
+      "order": 649
+    },
+    {
+      "from": "f_dim_induction",
+      "order": 650
+    },
+    {
+      "from": "f_prize_consumer_flat_scope"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
