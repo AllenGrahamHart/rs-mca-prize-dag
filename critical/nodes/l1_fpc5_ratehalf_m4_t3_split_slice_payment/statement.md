@@ -79,4 +79,20 @@ For any two distinct candidates, their primitive Pade quotients satisfy
 This determinant contains `gcd(D_1,D_2)` and separates candidates relative
 to a fixed base. The induced root-intersection cap has Johnson denominator
 exactly `J<=0`, so pairwise distance alone cannot close the target; the
-remaining theorem must use collective determinant/split structure.
+remaining theorem must use split-root or owner structure.
+
+The fixed-base determinant is now an exact coordinate, not merely an
+injection. For one primitive base `(D_0,Q_0,V_0)`, every polynomial
+`H` of degree at most `ell-2a` gives exactly one point of the complete monic
+unguarded slice by
+
+```text
+R_H=rem_(D_0)(-H Q_0^(-1)),       D_H=D_0+R_H,
+Q_H=(H+D_HQ_0)/D_0,              V_H=(D_HV_0-MH)/D_0.
+```
+
+All formal multi-determinant and Plucker identities therefore already hold
+on the whole ambient slice and cannot supply a maximum bound. The guarded
+atom is exactly the `H` subset for which `D_H` splits on the core and the
+root-local primitive inequalities hold. This explicit split-root chart,
+not abstract collective compatibility, is the remaining high-branch object.

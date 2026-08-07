@@ -26,7 +26,9 @@
 11. Before either multiplier branch, enforce the source-ratio gate
     `deg rem_(L_3)(L_1L_2^(-1))>=a`. Its failure is the exact short-syzygy
     stratum `L_1=U L_2+R L_3` with `deg U,deg R<a`, and is already empty.
-12. Use the exact pair invariant `H_ij=D_iQ_j-D_jQ_i`, whose degree is at
-    most `ell-2a` and which contains `gcd(D_i,D_j)`. Its ordinary Johnson
-    denominator is the nonpositive live parameter `J`; use compatibility
-    among several `H_ij`, not another distance-only packing argument.
+12. Use the exact fixed-base determinant chart. Every `H` of degree at most
+    `ell-2a` occurs in the complete unguarded slice, so formal compatibility
+    among several `H_ij` is automatic and cannot close the atom. Count only
+    the coordinates whose reconstructed `D_H` splits on the core and obeys
+    the root-local primitive guard; do not repeat distance-only or abstract
+    Plucker packing.

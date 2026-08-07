@@ -20433,6 +20433,43 @@ new assumptions: none
 compute: no Modal; deterministic exact GF(257) pair replay under 256 MB RAM guard
 next: exploit three-or-more determinant compatibility; do not repeat distance-only packing
 ```
+
+### Guarded LS6 determinant coordinate chart
+
+Fix one primitive base candidate `(D_0,Q_0,V_0)` and put
+`h=ell-2a`. The fixed-base determinant map is not merely injective: it is an
+exact affine bijection from the complete monic unguarded LS6 slice to every
+polynomial `H` of degree at most `h`. Its inverse is
+
+```text
+R_H=rem_(D_0)(-H Q_0^(-1)),       D_H=D_0+R_H,
+Q_H=(H+D_HQ_0)/D_0,              V_H=(D_HV_0-MH)/D_0.
+```
+
+For coordinates `H,G`, the pair determinant is
+
+```text
+D_HQ_G-D_GQ_H=(D_HG-D_GH)/D_0,       deg<=h.
+```
+
+Thus every formal multi-determinant and Plucker identity already holds on
+the whole ambient slice. Abstract collective compatibility cannot close the
+cell. The exact remaining object is the subset for which `D_H` splits on the
+core and the root-local primitive inequalities hold: off the base roots one
+needs `H(x)!=0`, while at a shared root one needs
+`H'(x)+D_H'(x)Q_0(x)!=0`.
+
+```text
+starting pin: 133af3dba; canonical 9c5727a89; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / determinant chart
+result: PROVED exact affine determinant coordinates, inverse formulas, root-local guard, and formal-compatibility route fence
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable primitive shift-pair/split-pencil chart extending PR #1151
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 81 exact GF(257) chart coordinates and 144 pair checks under RAMguard
+next: count split-root coordinates with the local guard; formal Plucker packing is retired
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

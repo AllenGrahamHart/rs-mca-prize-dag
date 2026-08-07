@@ -24,6 +24,10 @@
 - **Proved pair router:** distinct candidates have a nonzero primitive Pade
   determinant of degree at most `ell-2a`, but its constant-weight Johnson
   denominator is exactly the live `J<=0`; pairwise distance is fenced.
+- **Proved determinant chart:** relative to one primitive base, every
+  degree-at-most-`ell-2a` determinant occurs exactly once in the complete
+  monic unguarded slice. Formal collective compatibility is therefore
+  fenced; split-root incidence and the root-local primitive guard remain.
 - **Nonclaim:** each fiber has size at most two; linear dimension implies a
   split-divisor count; an unguarded prefix-flatness theorem applies; `lambda`
   remains free after fixing the source triple; current Conjecture-F owners
