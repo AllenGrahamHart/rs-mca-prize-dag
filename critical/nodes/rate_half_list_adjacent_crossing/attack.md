@@ -217,3 +217,17 @@ certified unsafe frontier on their budget intervals; `N_0=256` recovers the
 banked cap tier.  This remains one-sided.  The executable target is a
 certificate-producing safe/unsafe pair, and any bisection requires a total
 decision oracle: `UNKNOWN` is never `UNSAFE`.
+
+## [2026-08-07] Multiscale Haar norm-product route fence
+
+`rate_half_crossing_multiscale_haar_norm_router` proves the exact shared
+energy identity and norm product across every dyadic valuation level.  It is
+a valid sharpening of the one-scale ideal/Galois exclusion and pays exact
+powers of two for algebraically zero Haar scales.  However, its all-active
+pattern cannot be excluded at `w=2^37` even with the formal cap
+`p=2^256`; the comparison reverses only at `w=2^38`, which the existing
+one-scale theorem already covers in the same regime.  Do not repeat an
+independent-per-level or shared-energy AM-GM attack expecting it to reach
+`w=2^37`.  The live safe-side input remains a prescribed-signature
+constant-weight BCH population bound, a sharper ternary relation instrument,
+or information not captured by cyclotomic norm products.

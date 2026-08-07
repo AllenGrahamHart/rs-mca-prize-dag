@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_crossing_multiscale_haar_norm_router",
+    "title": "Multiscale Haar norm-product router for crossing windows",
+    "status": "PROVED",
+    "closure": "proof plus exact arithmetic replay",
+    "statement": "For split prime rows on a dyadic domain, all valuation-level moment norms share the exact Haar energy sum E_j/2^(j+1)=r-r^2/n. Active levels carry the distinct prime-ideal multiplicities of their odd moment indices, while algebraically zero levels contribute explicit powers of two to every active norm. Weighted AM-GM gives the exact multiscale gate (MH4). For the all-active prize pattern at w=2^37, even p=2^256 is below the required gate, so no official p<2^256 can be excluded by this norm-product certificate; w=2^38 reverses but is already covered by the single-scale ideal theorem. This is a route fence, not an existence claim or shell bound.",
+    "refs": [
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/statement.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/proof.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/claim_contract.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/dependency_subdag.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
+      "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_list_adjacent_crossing"
+    }
+  ],
+  "refutes": []
+}

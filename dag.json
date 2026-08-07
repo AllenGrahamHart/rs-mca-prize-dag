@@ -29253,6 +29253,22 @@
    ]
   },
   {
+   "id": "rate_half_crossing_multiscale_haar_norm_router",
+   "title": "Multiscale Haar norm-product router for crossing windows",
+   "status": "PROVED",
+   "closure": "proof plus exact arithmetic replay",
+   "statement": "For split prime rows on a dyadic domain, all valuation-level moment norms share the exact Haar energy sum E_j/2^(j+1)=r-r^2/n. Active levels carry the distinct prime-ideal multiplicities of their odd moment indices, while algebraically zero levels contribute explicit powers of two to every active norm. Weighted AM-GM gives the exact multiscale gate (MH4). For the all-active prize pattern at w=2^37, even p=2^256 is below the required gate, so no official p<2^256 can be excluded by this norm-product certificate; w=2^38 reverses but is already covered by the single-scale ideal theorem. This is a route fence, not an existence claim or shell bound.",
+   "refs": [
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/statement.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/proof.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/claim_contract.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/dependency_subdag.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
+    "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+   ]
+  },
+  {
    "id": "tern_master_threshold",
    "title": "The ternary unification, GRADED AND GATED (round-19 attack-first): the OBJECT survives (T(P,Lambda) = ternary words of a negacyclic code; three exact dictionaries, the fourth instance demoted), the REGIME survives as satisfiability (THEOREM SR: an explicit shared admissible 256-bit prime row \u2014 the anti-(ES) result; no shared discharge), the METHOD survives as scaffold (12 verbatim transfers, every one vacuous at its target's tau), and the SINGLE-THEOREM form is KILLED by THEOREM PT \u2014 the phase transition at tau = g log2 p / h (I1 forced to tau = 1 supercritical where only MASS can be true; I2/I3 at tau = 2 subcritical where EMPTINESS is the target; four banked constants reproduced unfitted); with THEOREM MT (one threshold, three lanes), LEMMA BR, I3-FORCE, and the PT-2 watch line (scope-corrected round 20: clearance p-dependent, 0.336 bits at log2 p = 256 only)",
    "status": "PROVED",
@@ -55742,12 +55758,22 @@
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
+   "to": "rate_half_crossing_multiscale_haar_norm_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
   },
   {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_crossing_multiscale_haar_norm_router",
+   "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
   },
   {
