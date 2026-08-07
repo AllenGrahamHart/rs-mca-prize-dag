@@ -2365,3 +2365,41 @@ ROUND 21 (4 agents):
   disclosed; acceptable. MYSTERY-6 IMPACT: the diagnosis pilot's
   evidence base tilts HARDER (the friendly census reading is gone);
   the blind l1_pma_diag pilot reconciles at its bank.
+
+## 2026-08-07: round-21 agent 2 BANKED — MYSTERY 5 DIAGNOSED: the construction refuted, the ceiling structural, the re-pose lands on kernel emptiness
+
+- **gen_economy_diag (Opus) BANKED, MAINTAINER-LEVEL** (all scripts
+  replayed; the collision identity coordinator-confirmed as
+  arithmetic, not interpretive). **THE COLLISION CATCH (forced,
+  applied)**: Pro-Brief-F's padding factor is exact e_1-collision
+  multiplicity — the family has N' = 128 centers (the orbit of
+  (1+x)), not 2^65.7; the "23.3-bit gap" is an **82.00-BIT
+  DEFICIT**; the N' = 256 "pass" is FALSE; conditional.md was
+  unsound as written (addendum applied); Pro brief H dead (same
+  defect; same class as the REFUTED signed-8-core). **FLOOR-GE (the
+  structural ceiling)**: 2-power-norm base sets certify at most
+  N' + 1 centers INDEPENDENT of base count (exhaustive N = 8, 16;
+  falsifier registered); template compression dead in principle;
+  difference-set imports the dual problem (3/3 banked REFUTED).
+  **THE CONTRACT DERIVED**: a 2^m family decides exactly
+  q < 2^{m+161} — the construction route decides ZERO prize rows.
+  **THE RE-POSE OF RECORD (GE-WEAK, coordinator-adopted)**: the
+  node's obligation is the kernel-emptiness form (K_p has no
+  non-cyclotomic ternary vector of support <= 2l') — the
+  lattice-cone line, priced (Modal per pinned row at w <= 16,
+  time 95 core-hours, MEMORY the binder at ~2^18x over ceiling;
+  no finite row registry — the universal form is the open
+  content). **THE BRIDGE VERDICT (the round-19 gates working)**:
+  OBJECT partial (5-ary folded box fails the shape-pun test),
+  REGIME pass, CRITICALITY pass-in-side (tau = 1.9531, the I2/I3
+  subcritical cell; anti-numerology check: the banked 2^-50
+  reproduced at 2^-47.1 unfitted) but FAIL-in-interval (the banked
+  folded-box norm instrument starts at tau = 1.9957 — a 0.0426
+  gap), METHOD partial-asymmetric. NO unification language; a
+  genuine instance-family relationship on the exclusion side.
+  COMPOSITION NOTE: mystery 5's re-posed obligation shares its
+  object with integer_code_distance_cert — the running probes
+  pilot's verdict composes directly. Honest self-corrections
+  exemplary (R4's registered bar FAILED and says so; R3
+  superseded; the wrong-ring PREREG flagged not patched).
+- Awaiting: l1_pma_diag, red_closability_probes.
