@@ -28958,6 +28958,26 @@
    }
   },
   {
+   "id": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
+   "title": "Aligned common-pencil three-petal LS6 atoms are empty",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a rate-half M=4,t=3 LS6 atom with defect a>=1, nonemptiness forces deg(Etilde)>=a: otherwise deg(D Etilde)<2ell, so the unreduced product has degree greater than the allowed remainder cutoff ell-a. If the three touched locators are L_i=P-z_i and their source labels are affine in z_i, normalization makes Etilde=(z_2-z_1)^(-1) constant. Hence every such aligned common-pencil atom is empty. Misaligned pencils and arbitrary locators are not claimed.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/upstream_crosswalk.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca split-pencil / BC master-flatness route",
+    "relation": "ALIGNED_STRATUM_EMPTINESS"
+   }
+  },
+  {
    "id": "l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse",
    "title": "First-layout domination reduces the three-petal tail to polynomially many fixed LS6 atoms",
    "status": "PROVED",
@@ -29001,8 +29021,8 @@
    "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
    "status": "TARGET",
    "key": true,
-   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean. The remaining conclusion is a uniform admissible primitive payment plus owner-safe quotient/dihedral treatment, not a dimension estimate.",
-   "attack_surface": "prove primitive max-to-mean split-flatness in the exact sub-balance 2r<j descriptor, plus owner-safe even-defect quotient and dihedral classification",
+   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a. Aligned common-pencil sources are empty. The remaining conclusion is a uniform admissible primitive payment plus owner-safe treatment of misaligned quotient and dihedral strata, not a dimension estimate.",
+   "attack_surface": "prove primitive max-to-mean split-flatness in the exact sub-balance 2r<j descriptor, plus owner-safe misaligned even-defect quotient and dihedral classification",
    "falsifier": "a family of fixed guarded LS6 atoms whose mass exceeds every uniform polynomial and every legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/statement.md",
@@ -29011,7 +29031,8 @@
     "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/dependency_subdag.md",
     "critical/nodes/pma_ratehalf_complement_linear_slice_reduction/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/statement.md",
-    "background/nodes/l1_fpc5_ratehalf_m4_t3_master_flat_descriptor/statement.md"
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_master_flat_descriptor/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/statement.md"
    ]
   },
   {
@@ -55293,6 +55314,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
+   "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse",
    "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
    "kind": "ev"
@@ -55375,6 +55401,11 @@
   {
    "from": "pma_official_rate_small_source_degree_sieve",
    "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
    "kind": "req"
   },
   {

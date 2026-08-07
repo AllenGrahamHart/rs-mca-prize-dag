@@ -42,3 +42,6 @@ where `Q` is the generated-field size of the descriptor.
 Thus the live primitive issue is a sub-balance maximum-versus-average
 split-flat bound. Pure multiplicative pullbacks are absent for odd `a`; the
 even-`a` quotient and all dihedral strata still require owner-safe treatment.
+Every nonempty atom also satisfies `deg Etilde>=a`. The exactly aligned
+common-pencil source has constant `Etilde` and is therefore empty, so the
+remaining structured branch is necessarily misaligned or non-pencil.

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness",
+    "title": "Aligned common-pencil three-petal LS6 atoms are empty",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a rate-half M=4,t=3 LS6 atom with defect a>=1, nonemptiness forces deg(Etilde)>=a: otherwise deg(D Etilde)<2ell, so the unreduced product has degree greater than the allowed remainder cutoff ell-a. If the three touched locators are L_i=P-z_i and their source labels are affine in z_i, normalization makes Etilde=(z_2-z_1)^(-1) constant. Hence every such aligned common-pencil atom is empty. Misaligned pencils and arbitrary locators are not claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-pencil / BC master-flatness route",
+      "relation": "ALIGNED_STRATUM_EMPTINESS"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    }
+  ],
+  "refutes": []
+}

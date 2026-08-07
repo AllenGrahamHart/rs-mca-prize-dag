@@ -20200,6 +20200,42 @@ new assumptions: none
 compute: no Modal; official integer arithmetic replay under 256 MB RAM guard
 next: primitive max-to-mean theorem, then owner-safe periodic/dihedral transport
 ```
+
+### Aligned common-pencil LS6 stratum empty
+
+A nonempty LS6 atom must satisfy
+
+```text
+deg Etilde>=a.
+```
+
+If `deg Etilde<a`, then `deg(D Etilde)<2ell`, so no reduction modulo
+`L_2L_3` occurs; the product still has degree at least `2ell-a`, strictly
+above the allowed remainder cutoff `ell-a`.
+
+For an aligned common pencil
+
+```text
+L_i=P-z_i,       c_i=alpha z_i+beta,
+```
+
+source-label normalization and CRT uniqueness give
+`Etilde=(z_2-z_1)^(-1)`. It is constant, so every tail atom with `a>=1` is
+empty. This removes the most rigid quotient-aligned source without making
+the invalid inference that a periodic locator has a periodic agreement set.
+Misaligned common pencils and arbitrary petal locators remain.
+
+```text
+starting pin: 99c0b1dea; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / structured LS6 strata
+result: PROVED multiplier-degree gate and aligned common-pencil emptiness
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable split-pencil aligned-stratum exclusion
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; finite-field CRT arithmetic replay under 256 MB RAM guard
+next: misaligned primitive max-to-mean and owner-safe periodic/dihedral transport
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
