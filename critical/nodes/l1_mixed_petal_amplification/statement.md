@@ -1354,3 +1354,72 @@ does not promote L1: the possible common-complement owners can be
 exponentially numerous, and growing `j` remains unaggregated. The missing
 theorem is now an owner coalescence/priority map across these determinant
 charts, not a fixed-chart split count.
+
+## Round-21 diagnosis addendum (2026-08-07, mystery-6 first pass — coordinator-applied, notes/pilots_20260807/l1_pma_diag/)
+
+**The growth parameter of this bucket is petal size `ell`, not `n`.**
+For a maximal-source chart (`|C| = k-1`, `t` petals of size `ell`,
+background `b < ell`, `t*ell + b = n-k+1`), the floor band plus the
+agreement threshold force (verified at 45 cells)
+
+```text
+#core kept a <= Lambda := 2*ell + b - 2,   #petal lost om <= Lambda + 1 - sigma
+=>  the bucket is EMPTY when sigma > Lambda, and otherwise
+    BOX = Theta(C(k-1,Lambda) * C(t*ell,Lambda)) = Theta(n^{2*Lambda}).
+```
+
+At `ell = 2, b = 1` (the only cell the N10 census ever ran):
+`Lambda = 3`, `BOX = Theta(n^6)` with exact leading term `n^6/2304` —
+so the census's registered super-polynomial falsifier could never
+fire there, for any received word, as a counting fact. The retained
+counts are the random-word law `BOX/q` to 0.4-2% at `n = 32, 64`.
+
+**Consumer contract quantified** (imgfib statement.md:9 + the
+petal_growth budget): the mixed bucket must fit inside 719 columns
+of `C(n+6,6)` at exponent 6; at `ell = 2` it occupies 0.31 columns —
+discharged by counting, unconditionally, every received word. By the
+listing inequality `k-1+ell >= k+sigma`, a contributor at the
+corrected reserve (`sigma = Theta(n/log n)` at official rows) needs
+`ell = Omega(n/log n)`, where `BOX = n^{Theta(n/log n)}`. The
+census regime and the consumer regime are separated by
+`Theta(n/log n)` in the one parameter that controls the object.
+
+**Re-pose of record (L1-MPA-w)**, full text in
+notes/pilots_20260807/l1_pma_diag/REPOSE_DRAFT.md:
+- **Clause (a) — PROVED (counting, unconditional):** the
+  contribution is 0 when `sigma > 2*ell+b-2`, else `<= BOX(ell,b)`.
+- **Clause (b) — THE TARGET (carries the entire content):** for
+  charts with `ell` growing (`ell >= sigma+1`, i.e.
+  `ell = Omega(n/log n)` at official rows), the contribution is
+  `n^B` with `B` absolute. This clause is the node's open content;
+  it is NOT a counting fact.
+- Pre-registered falsifiers: **(F-w1)** an `ell`-sweep word whose
+  retained count exceeds `10*BOX(ell)/q`; **(F-w2)** any mixed
+  floor-band contributor at `sigma > 2*ell+b-2`.
+
+**Adversarial evidence at fixed `ell`** (mandatory attempt, FAILED):
+exhaustive over all 830,490 legal chart words at `n = 16`: max 66 vs
+mean 32.1 (2.05x); at `n = 32`, best found 3,273 (the minimal-degree
+word `deg U = k+1`, a consistent ~16% structural excess, +11 sigma)
+vs mean 2,805. Both pre-registered escape tests silent. Mechanism:
+adversarial degeneracy spikes the linear-algebra filter (268,026 =
+69x mean) but exact agreement collapses it (122 = 22x BELOW mean) —
+degenerate words make codewords agree on LARGER sets, promoting them
+out of this bucket into higher-agreement strata. The bucket is
+self-limiting under exact-agreement semantics at fixed `ell`. The
+danger, measured: one increment of `ell` buys more than a doubling
+of `n` (17.1x at ell 2->3, 44.1x at 2->4, fixed n=24).
+
+**Cross-lane transfer: ZERO band-lane instruments apply** (matrix in
+the pilot report): xr_pencil_forcing_t0 / cascade / L-A / L-B /
+LEMMA R all fail at hypothesis level (petal agreement sets meet in
+`|C| = k-1 < k+1`; petal points are multiplicity-1). The one exact
+ambient hit, pma_arbitrary_petal_source_realizability, is a route
+CUT (maximality does not force a common pencil). The ternary object
+matches ambient (half-system of mu_n, odd p) but has no Lambda, so
+no tau can be formed — no transfer.
+
+Census evidence is evidence, never proof; the BOX identities and
+the closed form are derivations, machine-checked
+(d2_growth_law.py, d2_danger_map.py, d3_ell_sweep.py,
+a3_exhaustive_exact.py, a5_scale32.py — all coordinator-replayed).

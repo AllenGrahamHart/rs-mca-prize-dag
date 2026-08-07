@@ -2438,3 +2438,48 @@ ROUND 21 (4 agents):
   the ell-condition system, which the k-multiplier route cannot
   manufacture).
 - Awaiting: l1_pma_diag (the last of round 21).
+
+## 2026-08-07: round-21 agent 4 BANKED — MYSTERY 6 WELL-POSED; the N10 census could never have fired its falsifier; ROUND 21 COMPLETE (4/4)
+
+- **l1_pma_diag (Opus) BANKED, MAINTAINER-LEVEL.** All six scripts
+  coordinator-replayed clean. (1) THE COUNTING DISSOLUTION: the N10
+  candidate box has an EXACT degree-6 closed form (reproduces
+  5,096/386,640/27,152,032 to the digit; cap n^6/2304 approached
+  from below), so the registered super-polynomial falsifier was
+  UNFIREABLE at ell=2 for every received word — the census was
+  structurally incapable of testing what it was launched to test.
+  Retained counts = the random-word law BOX/q (0.4-2% at n=32,64;
+  doubling factor 38.58 predicted vs 38.00/38.01 banked, q-driven).
+  C-V4-1 RECONCILED: the field-corrected 6.14-6.21 exponent is the
+  exact polynomial's pre-asymptotic slope; "above the disproved n^6
+  line" was a finite-size artifact; the queued (64,32,97) decisive
+  control is SUPERSEDED by the derivation. (2) THE REAL PARAMETER:
+  petal size ell, not n. Bucket EMPTY when sigma > 2*ell+b-2, else
+  BOX = Theta(n^{4*ell+2b-4}); consumer regime needs ell =
+  Omega(n/log n) (listing inequality), where BOX = n^{Theta(n/log
+  n)} — census and consumer separated by Theta(n/log n) in the one
+  parameter that matters. Measured danger: 44x for ell 2->4 at
+  fixed n=24 vs 2,544x for three doublings of n. (3) THE MANDATORY
+  ADVERSARIAL ATTEMPT FAILED, mechanism found: exhaustive over all
+  830,490 legal words at n=16 (max 66 = 2.05x mean; banked consec
+  word at 95th pct); filter spikes (69x) COLLAPSE under exact
+  agreement (22x below mean) — degeneracy promotes codewords into
+  higher-agreement strata; the bucket is self-limiting at fixed
+  ell. Escape tests silent. (4) ZERO band-lane instruments transfer
+  (matrix, all at hypothesis level); the one ambient match is a
+  proved route cut. RE-POSE OF RECORD L1-MPA-w applied: clause (a)
+  PROVED by counting (0.31 of 720 allowed columns at ell=2); clause
+  (b) = growing-ell control carries the entire content; falsifiers
+  F-w1/F-w2 registered. COMPUTE SWAP: L1-N10-128 DROPPED,
+  L1-N10-ELL (fixed-n ell-sweep) is the decisive request; the
+  n=24 row is already done locally at zero cost. Honest ledger:
+  P5 falsified as written at one cell, P3 misses 10% at 1/6 cells,
+  MAX32 a search lower bound — all labelled. Node addenda:
+  statement.md (diagnosis + re-pose), attack.md (RESOLVED bracket);
+  roadmap section 07 updated + recompiled.
+- **ROUND 21 COMPLETE (4/4 banked).** Both promoted mysteries are
+  now WELL-POSED with re-poses of record and registered falsifiers
+  (5: GE-WEAK kernel emptiness; 6: L1-MPA-w growing-ell control);
+  both closability hopes dead with permanent structural blockers.
+  The 25-red accounting final: 14 mystery-linked (no cheap wins) /
+  9 WCL-slot grind / 2 straddling.

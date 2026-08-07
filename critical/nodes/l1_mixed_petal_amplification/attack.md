@@ -24,9 +24,39 @@
   "trend did not fire" reading is UNSUPPORTED (a flat exponent is
   evidentially neutral); the numerics and the proved
   n^6-insufficiency point the SAME way. Decisive control queued:
-  the census at (n,k,p) = (64,32,97).] This is evidence only, not a uniform theorem or a license to infer
-  floor-band emptiness. `n=128` is parked as contributor request
-  `L1-N10-128`; do not spend the current Modal balance on it.
+  the census at (n,k,p) = (64,32,97).]
+  [RESOLVED, 2026-08-07 round-21 mystery-6 diagnosis (notes/
+  pilots_20260807/l1_pma_diag/): the N10 candidate box has the EXACT
+  closed form `Cand(k) = A1[C(k-1,1)+2C(k-1,2)+2C(k-1,3)] +
+  A2[C(k-1,2)+2C(k-1,3)] + A3*C(k-1,3)` (A1=k, A2=C(k,2)-k/2,
+  A3=C(k,3)), reproducing 5,096/386,640/27,152,032 exactly — degree
+  EXACTLY 6, leading term n^6/2304. The field-corrected 6.14-6.21
+  exponent of C-V4-1 is the exact polynomial's PRE-ASYMPTOTIC local
+  slope (6.50 -> 6.27 -> 6.14 -> ... -> 6.0000) while the count
+  approaches n^6/2304 FROM BELOW — "above the disproved n^6 line" was
+  a finite-size artifact; the count never exceeds n^6/2304 at any n.
+  The retained counts are the plain random-word law BOX/q (0.4-2% at
+  n=32,64; the queued (64,32,97) control is superseded — the exponent
+  question is settled by derivation, machine-checked). The registered
+  super-polynomial falsifier was UNFIREABLE at ell=2 for every
+  received word, as a matter of counting: the bucket is empty when
+  sigma > 2*ell+b-2 and otherwise capped by BOX = Theta(n^{4*ell+
+  2b-4}). The growth parameter is PETAL SIZE ell, not n (at fixed
+  n=24: 475 -> 8,135 -> 20,942 for ell=2,3,4, a 44.1x rise, vs
+  2,544x for THREE doublings of n at ell=2). Adversarial worst-word
+  search: exhaustive at n=16 (max 66 vs mean 32.1, 2.05x; the banked
+  consec word sits at ~95th pct); mechanism identified — degenerate
+  words spike the linear filter 69x but exact agreement COLLAPSES
+  the spike 22x below the mean (degeneracy promotes codewords into
+  higher-agreement strata, out of this bucket). See statement.md
+  round-21 addendum for the re-pose of record.] This is evidence only, not a uniform theorem or a license to infer
+  floor-band emptiness. `L1-N10-128` (n=128 at ell=2) is DROPPED
+  (round 21): it buys a fourth point on a curve whose closed form is
+  known exactly and is provably capped at n^6. The decisive request
+  is `L1-N10-ELL`: fixed n (32 or 64), sweep ell = 2..6 on both
+  scalar schedules against BOX(ell)/q — the sweep that moves the
+  parameter the object depends on. The ell=2,3,4 row at n=24 is
+  already done locally (d3_ell_sweep.py) at zero Modal cost.
 - **Codex v4 PMA:** SURVEYED AND AUDITED (2026-08-07,
   notes/wave24_integration_20260727/PMA_V4_AUDIT_DRAFT.md): already
   100% imported at waves 8-9 (zero novelty; canonical ahead in every
