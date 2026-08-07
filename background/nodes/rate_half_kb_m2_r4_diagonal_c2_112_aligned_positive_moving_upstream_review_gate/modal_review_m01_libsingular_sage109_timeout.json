@@ -1,0 +1,14 @@
+{
+  "app": "rs-mca-k3-pr1144-m01-libsingular-review",
+  "backend": "libsingular:slimgb",
+  "case": "M01-R11",
+  "purpose": "equivalent-backend replay after external bridge failure",
+  "replacement_count": 2,
+  "review_script_sha256": "13b5021e1974526871a2bd32dc0a31d5c0e666c3fa25f2c21a8e109c296ea021",
+  "run_url": "https://modal.com/apps/allengrahamhart/main/ap-BfXZZx4jVTADDgcfmfgAcz",
+  "schema": "kb-c2-112-pr1144-m01-libsingular-timeout-v1",
+  "status": "TIMEOUT",
+  "subprocess_timeout_seconds": 1740,
+  "upstream_commit": "05ff2348de8f2c0f99683875ff12a9a79dcf21ec",
+  "upstream_script_sha256": "2ed13fbab353d0ac3017fa31cab68de3f3b66f190061ba63fd277dbdc7958675"
+}

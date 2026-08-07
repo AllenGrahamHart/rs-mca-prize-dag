@@ -20700,3 +20700,40 @@ new assumptions:          none
 compute:                  bounded Python metadata/arithmetic replays only; no Modal
 next:                     discharge #1144 review or attack the six F04..F07 orbit representatives
 ```
+
+### K3 moving packet review decomposition
+
+The fresh #1144 review was sharded into eight direct cells, transport,
+import, two standalone parity derivations, and two fail-closed Python modes.
+All checks passed except the complete `M01-R11` direct cell. The external
+Singular calculation returns to Sage, but Sage raises `RecursionError` while
+compiling the large returned basis. This was reproduced under conda Sage
+10.7, conda Sage 10.9, and the official SageMath 10.9 image. The standalone
+M01 parity derivation still passes. An equivalent in-process
+`libsingular:slimgb` replay avoided the bridge exception but reached its
+bounded 1740-second timeout.
+
+The review is decomposed rather than discarded. Seven directly replayed
+cells, the exact PR #1138 `M00-R11` import, and two checked `M01 -> M02`
+transports give a new ten-cell PROVED theorem:
+
+```text
+M00-R02, M00-R11, M00-R20,
+M01-R02,          M01-R20,
+M02-R02,          M02-R20,
+M03-R02, M03-R11, M03-R20.
+```
+
+The moving review gate is narrowed to `M01-R11` and `M02-R11`. No failed or
+timed-out run is consumed as a theorem.
+
+```text
+lane:                     MCA / K3 / aligned-positive literal coverage
+new PROVED coverage:      ten moving cells
+local proved total:       22/36 aligned-positive cells
+balanced residual:        M01-R11, M02-R11 (PROVABLE review gate)
+fixed residual:           F04..F07 x R02/R11/R20 (12 cells / 6 #1149 orbits)
+new assumptions:          none
+compute:                  bounded Modal Sage review; <=8 GB per shard
+next:                     attack six F04..F07 orbits; seek portable M01-R11 certificate
+```

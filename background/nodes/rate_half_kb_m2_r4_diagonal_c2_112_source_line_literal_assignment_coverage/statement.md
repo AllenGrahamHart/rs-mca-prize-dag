@@ -23,16 +23,21 @@ six local canonical systems. The restricted literal inversion theorem then
 transports the three `F00` exclusions to all three `F01` companions, closing
 the six-cell `{F00,F01} x {R02,R11,R20}` block without generic covariance.
 
-External PRs #1140, #1141, #1144, and #1149 provide an exact upstream atlas
-and substantial cell-specific closures. They are integration candidates,
-not theorem dependencies of this local TARGET until imported and replayed.
-The currently advertised upstream branch after #1149 retains 16 fixed-moving
-cells because its stack does not import all three representative
-full-quotient packets. The local restricted inversion theorem reconciles
-that six-cell block. The exact GREEN #1141 theorem is now imported and closes
-all six `F02/F03` cells. The residual aligned-positive literal assignments
-are `F04`--`F07` and `M00`--`M03`; #1144 supplies high-confidence moving
-closure evidence but retains its own fresh-review gate.
+External PRs #1140, #1141, #1144, and #1149 provide the exact upstream atlas
+and cell-specific closures. The local restricted inversion theorem closes
+all six `F00/F01` cells, and the exact GREEN #1141 import closes all six
+`F02/F03` cells. Independent replay of #1144 now proves ten moving cells.
+Thus 22 of 36 aligned-positive cells are PROVED. The exact residual is
+
+```text
+M01-R11, M02-R11,
+{F04,F05,F06,F07} x {R02,R11,R20}.               (KBCOV-1)
+```
+
+The first two cells retain a precise Sage/Singular portability review gate.
+PR #1149 compresses the twelve fixed-moving cells into six fingerprint
+orbits, with both the generic `V!=0` and rank-drop `V=0,U=0` branches still
+requiring exact closure.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

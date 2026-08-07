@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import",
+    "title": "KoalaBear aligned-positive moving ten-cell upstream import",
+    "status": "PROVED",
+    "closure": "pinned exact replay of ten PR #1144 moving cells",
+    "statement": "At upstream PR #1144 commit 05ff2348de8f2c0f99683875ff12a9a79dcf21ec, exact independent Sage 10.9 replays delete seven direct moving cells, verify the M01-to-M02 literal transport, and verify the operational M00-R11 import. These checks prove ten of the twelve moving aligned-positive cells. The fail-closed Python verifier also passes with payload 343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145 and 29 mutations. M01-R11 and its M02-R11 companion are excluded from this theorem and remain behind a separate review gate.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/external_replay.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -1,13 +1,15 @@
 # Dependency sub-DAG
 
 ```text
-upstream #1144 exact candidate + Python replay
-                         |
-                         v
-             moving review gate (PROVABLE)
-                         |
-                         v
-          literal coverage TARGET (evidence only)
+ten moving cells (PROVED)       M01 parity + #1144 certificate
+           |                                  |
+           |                                  v
+           |                       balanced pair gate (PROVABLE)
+           |                                  |
+           +----------------+-----------------+
+                            v
+                 literal coverage TARGET
 ```
 
-No logical requirement edge is used until the review gate is discharged.
+The proved ten-cell sibling is evidence immediately. The two-cell candidate
+is not consumed until its exact replay gate is discharged.

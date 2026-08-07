@@ -4,8 +4,8 @@
     "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate",
     "title": "KoalaBear aligned-positive moving upstream review gate",
     "status": "PROVABLE",
-    "closure": "fresh independent Sage/Singular review of the pinned PR #1144 twelve-cell candidate",
-    "statement": "Upstream PR #1144 commit 05ff2348de8f2c0f99683875ff12a9a79dcf21ec contains an exact candidate proof deleting all twelve aligned-positive moving-moving cells. Its fail-closed Python verifier passes locally with payload 343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145 and 29 semantic mutations. The upstream theorem itself retains a fresh independent review gate for the load-bearing Sage/Singular computation, so this node remains PROVABLE and is not consumed as a theorem.",
+    "closure": "portable exact replay or independent proof of the two balanced M01/M02-R11 cells",
+    "statement": "Upstream PR #1144 commit 05ff2348de8f2c0f99683875ff12a9a79dcf21ec contains a candidate proof deleting M01-R11 and its literal M02-R11 transport companion. The standalone M01 parity derivation and fail-closed Python certificate pass, but the complete M01-R11 direct replay fails while Sage converts the external Singular slimgb basis in Sage 10.7, conda Sage 10.9, and the official Sage 10.9 image. An equivalent in-process libSingular replay exceeded its bounded 1740-second cap. Ten other moving cells are separately PROVED; this node remains PROVABLE for exactly the residual balanced pair.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/statement.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/attack.md",
@@ -14,7 +14,15 @@
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/audit.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/external_replay.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/result.md",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/verify.py"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_sage107_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_sage107_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_sage109_official_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_sage109_official_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_libsingular_sage109_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_libsingular_sage109_timeout.json"
     ]
   },
   "requires": [],

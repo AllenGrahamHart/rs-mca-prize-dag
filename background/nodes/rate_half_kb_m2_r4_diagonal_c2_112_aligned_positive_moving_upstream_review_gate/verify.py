@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-"""Check the pinned PR #1144 review-gate contract."""
+"""Check the narrowed PR #1144 balanced-pair review gate."""
 
+from __future__ import annotations
+
+import hashlib
+import json
 from pathlib import Path
 
 
@@ -14,34 +18,70 @@ PINS = (
     "2ed13fbab353d0ac3017fa31cab68de3f3b66f190061ba63fd277dbdc7958675",
     "14130c7ebd867487e28393fc815dc99e150626b19b6e7f88baba449792cbf6ff",
 )
+FILES = {
+    "primary": (
+        "modal_review_output.json",
+        "71c116c5bc1fccf5ce104a92948e91ebca66a90c685b13399362a258b68183e0",
+    ),
+    "sage107": (
+        "modal_review_m01_sage107_output.json",
+        "00df65da9fbd5894bb01e757eb0733f8d94325efe7ceca12ea0f3674d382abcd",
+    ),
+    "official109": (
+        "modal_review_m01_sage109_official_output.json",
+        "5d52e98c77bcff36182989d1a5896d2b51aba765407a543477a95f5e0dff2ddc",
+    ),
+}
 
 
-def require(condition, message):
+def require(condition: bool, message: str) -> None:
     if not condition:
         raise RuntimeError(message)
 
 
+loaded = {}
+for name, (filename, expected) in FILES.items():
+    raw = (NODE / filename).read_bytes()
+    require(hashlib.sha256(raw).hexdigest() == expected, f"{name} pin")
+    loaded[name] = json.loads(raw)
+
+primary = loaded["primary"]
+require(primary["upstream_commit"] == COMMIT, "primary commit")
+require(primary["counts"] == {
+    "FAIL": 1,
+    "PASS": 13,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0,
+}, "primary count")
+rows = {row["name"]: row for row in primary["results"]}
+require(rows["M01-R11"]["status"] == "FAIL", "M01 status")
+require("RecursionError" in rows["M01-R11"]["stderr_tail"], "M01 failure")
+require(rows["parity-M01"]["status"] == "PASS", "M01 parity")
+require(rows["python-normal"]["status"] == "PASS", "Python replay")
+require(PAYLOAD in rows["python-normal"]["stdout_tail"], "payload")
+require("mutations=29" in rows["python-normal"]["stdout_tail"], "mutations")
+
+for name in ("sage107", "official109"):
+    row = loaded[name]["result"]
+    require(row["name"] == "M01-R11" and row["status"] == "FAIL", name)
+    require("RecursionError" in row["stderr_tail"], f"{name} failure")
+
+timeout = json.loads(
+    (NODE / "modal_review_m01_libsingular_sage109_timeout.json").read_text()
+)
+require(timeout["status"] == "TIMEOUT", "libSingular timeout")
+require(timeout["subprocess_timeout_seconds"] == 1740, "timeout cap")
+require(timeout["replacement_count"] == 2, "backend replacement fence")
+
 statement = (NODE / "statement.md").read_text(encoding="ascii")
-attack = (NODE / "attack.md").read_text(encoding="ascii")
 replay = (NODE / "external_replay.md").read_text(encoding="ascii")
 require("**status:** PROVABLE" in statement, "status")
-require(COMMIT in statement and COMMIT in replay, "commit pin")
-require(PAYLOAD in statement and PAYLOAD in replay, "payload pin")
-require("29" in statement and "mutations=29" in replay, "mutation replay")
-require("did not rerun Sage" in (NODE / "audit.md").read_text(encoding="ascii"),
-        "review honesty")
-require("Run the Sage compiler" in attack, "promotion recipe")
-for value in PINS:
-    require(value in replay, f"content pin {value}")
-
-cells = {
-    f"M{index:02d}-R{target}"
-    for index in range(4)
-    for target in ("02", "11", "20")
-}
-require(len(cells) == 12, "cell census")
+for cell in ("M01-R11", "M02-R11"):
+    require(cell in statement, f"residual {cell}")
+for value in (COMMIT, PAYLOAD, *PINS):
+    require(value in statement or value in replay, f"pin {value}")
 
 print(
-    "KB_C2_112_ALIGNED_POSITIVE_MOVING_UPSTREAM_REVIEW_GATE_PASS "
-    f"cells={len(cells)} payload={PAYLOAD} mutations=29 sage_review=pending"
+    "KB_C2_112_ALIGNED_POSITIVE_MOVING_REVIEW_GATE_PASS "
+    f"residual=2 primary=13/14 parity_M01=PASS timeout={timeout['subprocess_timeout_seconds']}"
 )

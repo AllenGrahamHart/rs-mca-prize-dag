@@ -14,6 +14,45 @@ Output:
 PASS aligned-positive moving closure verifier payload_sha256=343b691abab47586545aca75393bea1e1fff1dfb63537f059e4faef341893145 mutations=29
 ```
 
+## Independent Sage review
+
+The full sharded Sage 10.9 review ran at:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-10gKNlNiUWfK3GabTPFRru
+```
+
+Thirteen of fourteen checks passed. Seven direct cells, transport, import,
+both standalone parity derivations, the Python verifier, and optimized-mode
+refusal passed. The complete `M01-R11` direct cell failed while Sage compiled
+the large basis expression returned by external Singular:
+
+```text
+RecursionError: maximum recursion depth exceeded during compilation
+```
+
+The failure was independently reproduced under:
+
+```text
+conda Sage 10.7:
+https://modal.com/apps/allengrahamhart/main/ap-OymjIWQ3IdqMYPrlqHeXzl
+
+official SageMath 10.9:
+https://modal.com/apps/allengrahamhart/main/ap-fGiDmeLqL0dHnjIqmzs01e
+```
+
+An alternate review changed only the two backend selectors from external
+`singular:slimgb` to in-process `libsingular:slimgb`. It avoided the bridge
+exception but reached the bounded 1740-second subprocess timeout:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-BfXZZx4jVTADDgcfmfgAcz
+```
+
+No failed or timed-out computation is used as a theorem. The successful
+subset is banked in the sibling ten-cell node; this gate retains exactly
+`M01-R11` and its `M02-R11` transport companion.
+
 Pinned raw SHA-256 values:
 
 ```text

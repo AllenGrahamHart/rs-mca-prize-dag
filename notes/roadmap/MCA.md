@@ -28,9 +28,12 @@ certificates required by the challenge.
   not transport to `F02`--`F07`.
 - Upstream PR #1141 is imported as a pinned PROVED exact theorem after its
   local Python replay and recorded independent Sage review: all six
-  `F02/F03` cells are closed. PR #1144's twelve moving-cell candidate passes
-  its 29-mutation Python replay but remains PROVABLE pending the fresh
-  Sage/Singular review required by its own theorem note.
+  `F02/F03` cells are closed. A fresh sharded review of PR #1144 proves ten
+  moving cells. The balanced `M01-R11` cell and its literal `M02-R11`
+  companion remain PROVABLE: parity and certificate checks pass, but three
+  Sage environments fail at the external Singular basis-conversion bridge.
+  Current aligned-positive coverage is therefore `22/36`, with those two
+  cells and the twelve `F04`--`F07` cells remaining.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
