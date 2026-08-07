@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+    "title": "KoalaBear F04-R02/R20 complete cubic/full-J route exclusion",
+    "status": "PROVED",
+    "closure": "compose the exhaustive logarithmic router with both branch exclusions",
+    "statement": "Every admissible point on the F04-R02 or F04-R20 surviving cubic/J11 route satisfies the full-J identity. The logarithmic router places it either on one of two symmetric denominator unions or on the guarded degree-67 numerator branch. The denominator unions and guarded numerator branch are all proved empty after the complete transported named localization. Hence both complete cubic/full-J routes are empty. No degree-12, rank-drop, whole-cell, or literal-transport claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -20,6 +20,23 @@ QUOTIENT_OUTPUT = HERE.parent / (
     "modal_quadratic_quotient_full_j_log_derivative_r02_output.json"
 )
 QUOTIENT_SHA256 = "8a150098f20b68f91c5509a50e01d2a712312f4ca595e7de0e0994e85e5d9204"
+CACHE_OUTPUTS = {
+    HERE / "modal_contribution_cache_r02_output.json": (
+        "58242c442a6dbb821f3245c828ec23d9058fd18ec75b4c3ecb23c062b0c72001",
+        {"FAIL": 0, "PASS": 7, "REMOTE_ERROR": 0, "TIMEOUT": 6},
+        set(range(6, 13)),
+    ),
+    HERE / "modal_contribution_cache_r02_observed_output.json": (
+        "465125f24313440a5f690b50a822a18b962499a62aa0bb2e1f3cb6d15fc7a36a",
+        {"FAIL": 0, "PASS": 2, "REMOTE_ERROR": 0, "TIMEOUT": 4},
+        {2, 3},
+    ),
+    HERE / "modal_contribution_cache_r02_slow_output.json": (
+        "6c5a3827e60b5fef2394fa9f492f7952bfe9809884619340d22d4fdedb6a6477",
+        {"FAIL": 0, "PASS": 0, "REMOTE_ERROR": 0, "TIMEOUT": 4},
+        set(),
+    ),
+}
 
 
 def main() -> None:
@@ -104,6 +121,20 @@ def main() -> None:
         record["phase"] == "LOG_DERIVATIVE_MAPPED"
         for record in quotient_row["records"]
     )
+    for path, (expected_hash, expected_counts, pass_indices) in CACHE_OUTPUTS.items():
+        cache_raw = path.read_bytes()
+        assert hashlib.sha256(cache_raw).hexdigest() == expected_hash
+        cache = json.loads(cache_raw)
+        assert cache["counts"] == expected_counts
+        assert {
+            cache_row["contribution_index"]
+            for cache_row in cache["results"]
+            if cache_row["status"] == "PASS"
+        } == pass_indices
+        assert all(
+            cache_row["status"] in {"PASS", "TIMEOUT"}
+            for cache_row in cache["results"]
+        )
     print(
         "KB_C2_112_FULL_J_LOG_DERIVATIVE_ROUTER_PASS "
         "numerator_degree=67 denominator_branches=7,7,11,11"

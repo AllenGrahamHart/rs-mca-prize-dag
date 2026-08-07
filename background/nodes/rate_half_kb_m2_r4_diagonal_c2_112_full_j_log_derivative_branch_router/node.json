@@ -18,7 +18,12 @@
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe.sage",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe_modal.py",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_log_derivative_j_f04_output.json",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quadratic_quotient_full_j_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/contribution_cache_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_observed_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_slow_output.json"
     ]
   },
   "requires": [

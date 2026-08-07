@@ -7,6 +7,7 @@ fixed quadratic compression (PROVED)
        -> complementary cubic route (SURVIVES)
             -> F04 full-J factor split (PROVED)
                  -> J8a/J8b/J12 intersections empty (PROVED)
-                 -> J11 intersection survives
-       -> degree-12 route (UNRESOLVED)
+                 -> J11 intersection survives this cut
+                      -> F04 logarithmic composition (PROVED empty)
+       -> degree-12 route (R02 PROVED empty; R20 unresolved)
 ```

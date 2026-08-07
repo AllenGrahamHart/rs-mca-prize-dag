@@ -29332,6 +29332,22 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "title": "KoalaBear aligned-positive literal F04-R02 complete cell exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive rank-drop and three-factor generic branch composition",
+   "statement": "The complete literal aligned-positive fixed cell F04-R02 is empty over F_(2130706433^6). Its V=0 rank-drop chart is proved empty. On V nonzero, exact reconstruction splits the resultant core into two cubic factors and one degree-12 factor: one cubic is directly empty, the other is empty by the complete F04-R02 cubic/full-J route exclusion, and the degree-12 factor is empty by the exhaustive s,L6,K8,K10 branch composition. No literal transport is used.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_degree12_branch_exclusion",
    "title": "KoalaBear F04-R02 complete degree-12 branch exclusion",
    "status": "PROVED",
@@ -29658,6 +29674,22 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "title": "KoalaBear F04-R02/R20 complete cubic/full-J route exclusion",
+   "status": "PROVED",
+   "closure": "compose the exhaustive logarithmic router with both branch exclusions",
+   "statement": "Every admissible point on the F04-R02 or F04-R20 surviving cubic/J11 route satisfies the full-J identity. The logarithmic router places it either on one of two symmetric denominator unions or on the guarded degree-67 numerator branch. The denominator unions and guarded numerator branch are all proved empty after the complete transported named localization. Hence both complete cubic/full-J routes are empty. No degree-12, rank-drop, whole-cell, or literal-transport claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion",
    "title": "KoalaBear F04 cubic/J11 logarithmic-denominator branch exclusion",
    "status": "PROVED",
@@ -29694,7 +29726,31 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe.sage",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/log_derivative_j_probe_modal.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_log_derivative_j_f04_output.json",
-    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json"
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_log_derivative_r02_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quadratic_quotient_full_j_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/contribution_cache_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_observed_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_contribution_cache_r02_slow_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
+   "title": "KoalaBear F04 cubic/J11 guarded logarithmic-numerator exclusion",
+   "status": "PROVED",
+   "closure": "exact named-localized exclusion of the degree-67 numerator on R02 and R20",
+   "statement": "On each F04-R02 and F04-R20 surviving cubic/J11 route, homogeneous Horner evaluation of V^15 N(-U/V), where N is the guarded irreducible degree-67 logarithmic numerator of w-degree 15, gives exact route remainders of degrees 39 and 41 with 1788 and 1945 terms. After adjoining each remainder, the complete transported named localizer reduces to zero at factor 15. Hence both guarded numerator intersections are empty over the deployed field and every extension. No denominator, degree-12, literal-transport, or whole-cell claim is made.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_guarded_numerator_intersections_output.json"
    ]
   },
   {
@@ -29743,7 +29799,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 26 are now PROVED. The residual is M01-R11, M02-R11, and the eight F04--F07 cells over R02/R20. All sixteen rank-drop factor branches in the eight fixed residual cells are PROVED empty; only their generic V-nonzero charts remain. The local canonical crosswalk does not supply generic orbit transport.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 27 are now PROVED. The residual is M01-R11, M02-R11, F05/F06/F07-R02, and F04/F05/F06/F07-R20. The F04 cubic/full-J route is closed on both targets and all four R02 degree-12 branches are closed, giving the complete F04-R02 cell exclusion. The other literal cubic routes and the R20 degree-12 branches remain. The local canonical crosswalk does not supply generic orbit transport.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -56277,6 +56333,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_degree12_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_degree12_branch_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
@@ -56358,7 +56424,17 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
    "kind": "req"
   },
   {
@@ -56375,6 +56451,11 @@
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_rank_drop_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_rank_drop_exclusion",
@@ -56472,9 +56553,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_denominator_branch_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
@@ -56483,6 +56584,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },

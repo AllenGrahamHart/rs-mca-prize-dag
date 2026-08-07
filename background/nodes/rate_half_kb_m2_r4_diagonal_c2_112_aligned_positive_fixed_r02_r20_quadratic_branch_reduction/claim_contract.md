@@ -6,6 +6,6 @@
 | resultant split | nonnamed degrees `3,3,12` |
 | cubic result | one empty and one dimension-one survivor per representative |
 | degree-12 result | bounded timeout, unresolved |
-| full-J result | `F04` coefficient 0 factors `1,8,8,11,12`; only `J11` survives on cubic routes |
+| full-J result | `F04` coefficient 0 factors `1,8,8,11,12`; only `J11` survives this reduction, and a downstream logarithmic composition closes it |
 | route fences | coefficient 1 degree-70 factor; full-I coefficient-0 timeout |
 | excluded claim | no cell emptiness or orbit transport |

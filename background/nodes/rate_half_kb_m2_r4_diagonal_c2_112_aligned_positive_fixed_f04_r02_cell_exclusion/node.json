@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion",
+    "title": "KoalaBear aligned-positive literal F04-R02 complete cell exclusion",
+    "status": "PROVED",
+    "closure": "exhaustive rank-drop and three-factor generic branch composition",
+    "statement": "The complete literal aligned-positive fixed cell F04-R02 is empty over F_(2130706433^6). Its V=0 rank-drop chart is proved empty. On V nonzero, exact reconstruction splits the resultant core into two cubic factors and one degree-12 factor: one cubic is directly empty, the other is empty by the complete F04-R02 cubic/full-J route exclusion, and the degree-12 factor is empty by the exhaustive s,L6,K8,K10 branch composition. No literal transport is used.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_cell_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_rank_drop_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_f04_cubic_full_j_route_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_f04_r02_degree12_branch_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

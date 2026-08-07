@@ -47,6 +47,11 @@ def main():
     parser.add_argument("--target", choices=("R02", "R20"), required=True)
     parser.add_argument("--prime", type=int, default=2130706433)
     parser.add_argument("--log-derivative", action="store_true")
+    parser.add_argument(
+        "--cache-contribution-index",
+        type=int,
+        choices=tuple(range(13)),
+    )
     args = parser.parse_args()
     cell = f"F04-{args.target}"
     qslice_factor_index = 0 if args.target == "R02" else 1
@@ -323,6 +328,127 @@ def main():
                 map_source_polynomial(value.denominator()),
             )
         return mapped_field_cache[key]
+
+    if args.cache_contribution_index is not None:
+        import base64
+        import zlib
+
+        def evaluate_source_coefficient(vector, label, coefficient_index):
+            output = quad_zero
+            power = quad_one
+            for value in vector:
+                value = polynomial_w(value)
+                coefficient = (
+                    source_field(value[coefficient_index])
+                    if coefficient_index <= value.degree()
+                    else source_field(0)
+                )
+                output = quad_add(
+                    output,
+                    quad_mul(map_source_field(coefficient), power),
+                )
+                power = quad_mul(power, label)
+            return output
+
+        def compose_source_coefficient(vector, label, coefficient_index):
+            output = source_field(0)
+            power = source_field(1)
+            for value in vector:
+                value = polynomial_w(value)
+                coefficient = (
+                    source_field(value[coefficient_index])
+                    if coefficient_index <= value.degree()
+                    else source_field(0)
+                )
+                output += coefficient * power
+                power *= label
+            return source_field(output)
+
+        labels_j = (
+            source_field(2),
+            source_field(1) / 2,
+            source_field(b_source),
+            1 / source_field(b_source),
+            source_field(c_source),
+            source_field(d_source),
+        )
+        labels_k = (
+            source_field(w_source),
+            source_z,
+            1 / source_z,
+            1 / source_field(c_source),
+            1 / source_field(d_source),
+        )
+        index = int(args.cache_contribution_index)
+        qtwo = quad(rat(field(2), one))
+        qfour = quad(rat(field(4), one))
+        if index < 6:
+            source_label = labels_j[index]
+            u0 = map_source_field(
+                compose_source_coefficient(source_u, source_label, 0)
+            )
+            u1 = map_source_field(
+                compose_source_coefficient(source_u, source_label, 1)
+            )
+            v0 = map_source_field(
+                compose_source_coefficient(source_v, source_label, 0)
+            )
+            u1_over_u0 = quad_div(u1, u0)
+            v0_over_u0 = quad_div(v0, u0)
+            contribution = quad_sub(
+                quad_mul(qtwo, u1_over_u0),
+                quad_mul(v0_over_u0, v0_over_u0),
+            )
+            kind = "observed"
+            label_index = index
+        elif index < 11:
+            label_index = index - 6
+            label = map_source_field(labels_k[label_index])
+            contribution = quad_neg(quad_mul(qfour, quad_inv(label)))
+            kind = "expected_multiplicity_4"
+        else:
+            label_index = index - 11
+            label = map_source_field((source_field(c_source), source_field(d_source))[label_index])
+            contribution = quad_neg(quad_mul(qtwo, quad_inv(label)))
+            kind = "expected_multiplicity_2"
+
+        def encode_polynomial(value):
+            value = ring(value)
+            encoded = base64.b64encode(zlib.compress(str(value).encode(), 9)).decode()
+            return {"metric": metric(value), "zlib_base64": encoded}
+
+        components = []
+        for component_name, component in zip(("constant", "linear"), contribution):
+            components.append(
+                {
+                    "component": component_name,
+                    "numerator": encode_polynomial(component[0]),
+                    "denominator": encode_polynomial(component[1]),
+                }
+            )
+        unique_guards = {}
+        for guard in inversion_guards:
+            reduced_guard = normal(guard)
+            if reduced_guard:
+                unique_guards[digest(reduced_guard)] = reduced_guard
+        result = {
+            "phase": "DONE",
+            "cell": cell,
+            "contribution_index": index,
+            "kind": kind,
+            "label_index": label_index,
+            "base_basis_size": len(basis),
+            "base_basis_sha256": digest("\n".join(str(value) for value in basis)),
+            "components": components,
+            "inversion_guards": [
+                encode_polynomial(value) for value in unique_guards.values()
+            ],
+            "mapped_field_cache": len(mapped_field_cache),
+            "counters": counters,
+            "terminal": "FULL_J_LOG_DERIVATIVE_CONTRIBUTION_CACHED",
+        }
+        print(canonical_json(result), flush=True)
+        return
 
     if args.log_derivative:
         def evaluate_source_coefficient(vector, label, coefficient_index):

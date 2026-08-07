@@ -28,12 +28,14 @@ and cell-specific closures. The local restricted inversion theorem closes
 all six `F00/F01` cells, and the exact GREEN #1141 import closes all six
 `F02/F03` cells. Independent replay of #1144 now proves ten moving cells.
 The exact generic/rank-drop localization theorem now also closes all four
-`F04`--`F07` cells over `R11`. Thus 26 of 36 aligned-positive cells are
-PROVED. The exact residual is
+`F04`--`F07` cells over `R11`. The complete `F04-R02` composition closes one
+additional literal cell, so 27 of 36 aligned-positive cells are PROVED. The
+exact residual is
 
 ```text
 M01-R11, M02-R11,
-{F04,F05,F06,F07} x {R02,R20}.                   (KBCOV-1)
+{F05,F06,F07} x {R02},
+{F04,F05,F06,F07} x {R20}.                       (KBCOV-1)
 ```
 
 The first two cells retain a precise Sage/Singular portability review gate.
@@ -45,11 +47,12 @@ PROVED empty. Hence the eight fixed residual cells have only their generic
 `V != 0` charts left.
 
 On the four generic orbit representatives, the resultant core factors with
-degrees `3,3,12`. One cubic factor closes and the complementary cubic
-survives as a one-dimensional route cut. For `F04`, coefficient zero of the
-full `J` identity reduces that surviving cubic to its degree-11 factor; the
-degree-12 resultant branch remains unresolved. These are exact structural
-cuts, not additional cell closures.
+degrees `3,3,12`. One cubic factor closes and the complementary cubic starts
+as a one-dimensional route cut. For both `F04` targets, the full-`J`
+coefficient-zero and logarithmic routes now close that complementary cubic.
+All four `R02` degree-12 branches are also closed, so `F04-R02` is a complete
+literal-cell closure. The other literal cubic routes require replay, and the
+four `R20` degree-12 branches remain unresolved.
 
 The degree-12 branch now has an exact leading-drop ledger. In `x`, its own
 leading coefficient is a common nonnamed irreducible degree-6 curve; the

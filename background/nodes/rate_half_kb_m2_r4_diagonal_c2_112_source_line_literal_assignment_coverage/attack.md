@@ -10,11 +10,11 @@
 5. Treat every `R02/R20` rank-drop chart as closed by the sixteen literal
    factor-localization certificates; do not recompute it or infer generic
    closure from it.
-6. On `V != 0`, attack the surviving cubic plus degree-11 full-`J` curve and
-   the unresolved degree-12 resultant factor through a lower-degree source
-   identity or explicit leading-curve branch theorem. Do not retry the
-   quotient-normal-form, function-field, pseudo-remainder, degree-70
-   full-`J`, or full-`I` routes already fenced by bounded runs.
+6. Replay the closed `F04` cubic/full-`J` logarithmic route literally for
+   `F05/F06/F07`; do not infer full-system transport from equal fingerprints.
+   For `R20`, separately attack the unresolved degree-12 resultant factor.
+   Do not retry the fenced quotient-normal-form, function-field,
+   pseudo-remainder, degree-70 full-`J`, or full-`I` routes.
 7. Audit aligned-negative and near-aligned normalization separately; do not
    infer their coverage from the positive atlas.
 8. Promote the parent only after a machine-checked literal coverage table has

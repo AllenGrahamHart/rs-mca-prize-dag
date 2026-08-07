@@ -6,10 +6,10 @@
 | accepted proof | literal cell classification or complete-system restricted symmetry |
 | rejected shortcut | matching-centralizer orbit count alone |
 | aligned-positive census | `12 x 3 = 36` semantic cells |
-| aligned-positive proved | `26/36` cells |
-| aligned-positive residual | `M01/M02-R11` plus eight `F04`--`F07 x R02/R20` cells |
+| aligned-positive proved | `27/36` cells |
+| aligned-positive residual | `M01/M02-R11`, three `F05`--`F07 x R02` cells, and four `F04`--`F07 x R20` cells |
 | fixed rank-drop coverage | all `16` factor branches in the eight residual fixed cells are PROVED empty |
-| fixed generic residual | four `R02/R20` fingerprint orbits; representative core degrees `3,3,12`, with one cubic closed and no cell yet closed |
+| fixed generic residual | `F04` cubic routes closed for `R02/R20`; all four `R02` degree-12 branches closed; `F04-R02` whole cell closed; literal cubic replay and `R20` degree-12 branches remain |
 | degree-12 decomposition | nonnamed leading-drop curves `s`, common degree `6`, and target-specific degrees `22`--`24`; no closure |
 | degree-12 closed leaf | `s=0` is PROVED empty in all eight literal fixed cells; `s!=0` remains |
 | degree-12 leading curves | both literal forms of `L6(s,p)=0` are PROVED empty in all eight fixed cells; `L6!=0` remains |

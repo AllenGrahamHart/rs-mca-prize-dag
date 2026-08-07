@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
+    "title": "KoalaBear F04 cubic/J11 guarded logarithmic-numerator exclusion",
+    "status": "PROVED",
+    "closure": "exact named-localized exclusion of the degree-67 numerator on R02 and R20",
+    "statement": "On each F04-R02 and F04-R20 surviving cubic/J11 route, homogeneous Horner evaluation of V^15 N(-U/V), where N is the guarded irreducible degree-67 logarithmic numerator of w-degree 15, gives exact route remainders of degrees 39 and 41 with 1788 and 1945 terms. After adjoining each remainder, the complete transported named localizer reduces to zero at factor 15. Hence both guarded numerator intersections are empty over the deployed field and every extension. No denominator, degree-12, literal-transport, or whole-cell claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/guarded_numerator_intersection_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router/modal_guarded_numerator_intersections_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_derivative_branch_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}
