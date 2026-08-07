@@ -1,0 +1,187 @@
+{
+  "app": "rs-mca-k3-degree12-r20-k10-zero-leading-drop-linear_drop",
+  "counts": {
+    "FAIL": 2,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "cell": "F04-R20",
+      "linear_drop": true,
+      "peak_kb": 392932,
+      "records": [
+        {
+          "cell": "F04-R20",
+          "phase": "START"
+        },
+        {
+          "B0_leading": {
+            "degree": 11,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "c1f3f8fba3f7af58caf366f829484cc4b39865209511dc15d93ca2eafacc3dc9",
+            "terms": 98
+          },
+          "B0_leading_factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "4179b3915c46a217d6474467a30c5450d3020a0c7e31eb52e9b9f3eeb37ab17f",
+              "terms": 76
+            }
+          ],
+          "K10": {
+            "degree": 10,
+            "degrees": [
+              5,
+              5,
+              4
+            ],
+            "sha256": "4179b3915c46a217d6474467a30c5450d3020a0c7e31eb52e9b9f3eeb37ab17f",
+            "terms": 76
+          },
+          "L6": {
+            "degree": 6,
+            "degrees": [
+              0,
+              4,
+              5
+            ],
+            "sha256": "980f453afd73141b252e9bb982a85c7e0759a61d4296d3de5f3130e5e3505272",
+            "terms": 15
+          },
+          "phase": "SOURCE_COMPILED",
+          "selected": {
+            "degree": 12,
+            "degrees": [
+              6,
+              4,
+              5
+            ],
+            "sha256": "5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b",
+            "terms": 137
+          },
+          "unit_factor_count": 24
+        }
+      ],
+      "returncode": 1,
+      "seconds": 8.470448,
+      "status": "FAIL",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/degree12_r20_k10_zero_probe.sage.py\", line 320, in <module>\n    main()\n  File \"/degree12_r20_k10_zero_probe.sage.py\", line 164, in main\n    assert converted_linear_drop\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+      "stdout_sha256": "06fe438b244dff069f2a5e1803c2bac4437158808fe531ec22b5bf3644b091e0",
+      "stdout_tail": "{\"cell\": \"F04-R20\", \"phase\": \"START\"}\n{\"B0_leading\": {\"degree\": 11, \"degrees\": [6, 5, 4], \"sha256\": \"c1f3f8fba3f7af58caf366f829484cc4b39865209511dc15d93ca2eafacc3dc9\", \"terms\": 98}, \"B0_leading_factors\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 10, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"4179b3915c46a217d6474467a30c5450d3020a0c7e31eb52e9b9f3eeb37ab17f\", \"terms\": 76}], \"K10\": {\"degree\": 10, \"degrees\": [5, 5, 4], \"sha256\": \"4179b3915c46a217d6474467a30c5450d3020a0c7e31eb52e9b9f3eeb37ab17f\", \"terms\": 76}, \"L6\": {\"degree\": 6, \"degrees\": [0, 4, 5], \"sha256\": \"980f453afd73141b252e9bb982a85c7e0759a61d4296d3de5f3130e5e3505272\", \"terms\": 15}, \"phase\": \"SOURCE_COMPILED\", \"selected\": {\"degree\": 12, \"degrees\": [6, 4, 5], \"sha256\": \"5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b\", \"terms\": 137}, \"unit_factor_count\": 24}\n"
+    },
+    {
+      "cell": "F06-R20",
+      "linear_drop": true,
+      "peak_kb": 393360,
+      "records": [
+        {
+          "cell": "F06-R20",
+          "phase": "START"
+        },
+        {
+          "B0_leading": {
+            "degree": 11,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "bc82de61ce62eacee2eb4d6b6e5bc6219e295c9d9f66c7309a2805694879a6fb",
+            "terms": 98
+          },
+          "B0_leading_factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d",
+              "terms": 76
+            }
+          ],
+          "K10": {
+            "degree": 10,
+            "degrees": [
+              5,
+              5,
+              4
+            ],
+            "sha256": "e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d",
+            "terms": 76
+          },
+          "L6": {
+            "degree": 6,
+            "degrees": [
+              0,
+              4,
+              5
+            ],
+            "sha256": "68d2b371255fa281cd7ee7b717cd7ae97bf3bce699feb9f546027ddc5f328a27",
+            "terms": 17
+          },
+          "phase": "SOURCE_COMPILED",
+          "selected": {
+            "degree": 12,
+            "degrees": [
+              6,
+              4,
+              5
+            ],
+            "sha256": "a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d",
+            "terms": 137
+          },
+          "unit_factor_count": 24
+        }
+      ],
+      "returncode": 1,
+      "seconds": 8.84746,
+      "status": "FAIL",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/degree12_r20_k10_zero_probe.sage.py\", line 320, in <module>\n    main()\n  File \"/degree12_r20_k10_zero_probe.sage.py\", line 164, in main\n    assert converted_linear_drop\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+      "stdout_sha256": "c649a216e0087dfff271c69196baf59792ad81afbbb603f0257b15691a37667e",
+      "stdout_tail": "{\"cell\": \"F06-R20\", \"phase\": \"START\"}\n{\"B0_leading\": {\"degree\": 11, \"degrees\": [6, 5, 4], \"sha256\": \"bc82de61ce62eacee2eb4d6b6e5bc6219e295c9d9f66c7309a2805694879a6fb\", \"terms\": 98}, \"B0_leading_factors\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b\", \"terms\": 2}, {\"degree\": 10, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d\", \"terms\": 76}], \"K10\": {\"degree\": 10, \"degrees\": [5, 5, 4], \"sha256\": \"e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d\", \"terms\": 76}, \"L6\": {\"degree\": 6, \"degrees\": [0, 4, 5], \"sha256\": \"68d2b371255fa281cd7ee7b717cd7ae97bf3bce699feb9f546027ddc5f328a27\", \"terms\": 17}, \"phase\": \"SOURCE_COMPILED\", \"selected\": {\"degree\": 12, \"degrees\": [6, 4, 5], \"sha256\": \"a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d\", \"terms\": 137}, \"unit_factor_count\": 24}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-r20-k10-zero-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

@@ -6,14 +6,12 @@
 | accepted proof | literal cell classification or complete-system restricted symmetry |
 | rejected shortcut | matching-centralizer orbit count alone |
 | aligned-positive census | `12 x 3 = 36` semantic cells |
-| aligned-positive proved | `30/36` cells |
-| aligned-positive residual | `M01/M02-R11` and four `F04`--`F07 x R20` cells |
+| aligned-positive proved | `34/36` cells |
+| aligned-positive residual | `M01-R11` and `M02-R11` |
 | fixed rank-drop coverage | all `16` factor branches in the eight fixed `R02/R20` cells are PROVED empty |
-| fixed generic residual | all eight cubic/full-`J` routes, all four `R02` degree-12 branches, and all four R20 `B0`, `K10!=0` charts are closed; only the four R20 `K10=0` complements remain |
-| degree-12 decomposition | nonnamed leading-drop curves `s`, common degree `6`, and target-specific degrees `22`--`24`; no closure |
-| degree-12 closed leaf | `s=0` is PROVED empty in all eight literal fixed cells; `s!=0` remains |
-| degree-12 leading curves | both literal forms of `L6(s,p)=0` are PROVED empty in all eight fixed cells; `L6!=0` remains |
-| R20 B0 chart | `K10!=0` is PROVED empty in all four fixed cells by generic boundary collapse; `K10=0` remains |
-| division-free row identity | parity-reduced evaluation modulo `U^2-VZ` is PROVED; explicit large-curve instantiation remains |
+| fixed generic coverage | all eight cubic/full-`J` routes and all eight fixed `R02/R20` degree-12 branches are closed |
+| R20 degree-12 partition | `s=0`, `L6=0`, `K10!=0`, and `K10=0` leaves are all PROVED empty |
+| R20 K10-zero certificate | division-free `A1/B1` linear-root evaluations; two representative unit saturations; exact companion transport |
+| moving review gate | exact `M01-R11` external-Singular certificate bridge, then inversion to `M02-R11` |
 | external evidence | PRs #1135--#1149, imported only through pinned nodes |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |

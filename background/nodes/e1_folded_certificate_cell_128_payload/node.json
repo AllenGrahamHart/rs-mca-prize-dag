@@ -4,7 +4,7 @@
   "node": {
     "id": "e1_folded_certificate_cell_128_payload",
     "title": "E1 actual folded certificate payload for N'=128",
-    "status": "CONDITIONAL",
+    "status": "PROVED",
     "statement": "For the E1 open cell N'=128, the named field and primitive root are supplied by e1_pocklington_250bit_exhibit_field and the schema dispatch by e1_named_field_folded_cell_certificate_soundness; it remains only to supply the complete no-vector certificate e1_folded_no_vector_certificate_128_payload excluding every nonzero non-cyclotomic w in {-2,-1,0,1,2}^64.",
     "attack_surface": "conditional assembly from the proved E1 exhibit field, the cell-certificate soundness rule, and the remaining N'=128 no-vector certificate payload",
     "falsifier": "a failed field/root check, a nonzero non-cyclotomic folded vector in the named N'=128 field, or an incomplete no-vector certificate"

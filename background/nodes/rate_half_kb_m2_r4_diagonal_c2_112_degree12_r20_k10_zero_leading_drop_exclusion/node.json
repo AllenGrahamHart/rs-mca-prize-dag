@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion",
+    "title": "KoalaBear degree-12 R20 K10-zero leading-drop exclusion",
+    "status": "PROVED",
+    "closure": "all four fixed R20 degree-12 K10-zero complete-open complements",
+    "statement": "For each of F04-R20, F05-R20, F06-R20, and F07-R20, the selected degree-12 resultant branch has no admissible point on the K10=0 leading-drop chart with s and L6 nonzero. On K10=0 the quadratic B0 row becomes linear. Division-free evaluations of the remaining A1 and B1 rows at its root give two degree-58 necessary equations. For the F04 and F06 representatives, adjoining these equations to R12 and K10 and saturating by s, L6, and all 24 transported named-open factors gives the unit ideal over F_2130706433. Complete-system inversion transports the geometric emptiness results to F05 and F07.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/independent_audit.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/degree12_r20_k10_zero_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/degree12_r20_k10_zero_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/generic_block_analysis.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/modal_degree12_r20_k10_zero_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/modal_degree12_r20_k10_zero_generic_f04_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/modal_degree12_r20_k10_zero_linear_drop_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/modal_degree12_r20_k10_zero_linear_source_f04_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion/modal_degree12_r20_k10_zero_linear_source_f06_output.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_fixed_literal_companion_inversion_transport"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

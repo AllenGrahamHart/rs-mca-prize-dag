@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion",
+    "title": "KoalaBear fixed R20 degree-12 branch exclusion",
+    "status": "PROVED",
+    "closure": "exhaustive s, L6, and K10 partition in all four fixed R20 cells",
+    "statement": "The complete selected degree-12 resultant branch is empty over F_(2130706433^6) in F04-R20, F05-R20, F06-R20, and F07-R20. In each cell the exhaustive partition is s=0; s nonzero with L6=0; sL6 nonzero with K10 nonzero; and sL6 nonzero with K10=0. Every literal leaf is proved empty by a required node. No cubic, rank-drop, or whole-cell claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_degree12_branch_exclusion/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_b0_generic_boundary_exclusion"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_r20_k10_zero_leading_drop_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

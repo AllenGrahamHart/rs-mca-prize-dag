@@ -20555,6 +20555,35 @@ new assumptions: none
 compute: no Modal; exact 561-point GF(257) chart replay under RAMguard
 next: aggregate or chronology-route different owners; do not repeat fixed-owner packing
 ```
+
+### K3 R20 K10-zero and complete fixed-cell close
+
+On `K10=0`, the `B0` row drops from quadratic to linear. If
+`B0=b1*w+b0` and `P` is either remaining degree-four row, every source point
+satisfies the division-free equation
+
+```text
+H_P=sum_(i=0)^4 P_i*(-b0)^i*b1^(4-i)=0.
+```
+
+No inversion of the further leading coefficient `b1` is needed. For the
+independent `F04-R20` and `F06-R20` representatives, adjoining both `H`
+equations to `(R12,K10)` gives dimension-one bases of sizes `82` and `80`.
+Saturation by `s`, `L6`, and all 24 transported named-open factors is the
+unit ideal in both cases. Complete-system inversion supplies F05 and F07.
+
+The prior `s=0`, `L6=0`, and `K10!=0` leaves now compose with this result to
+close all four `R20` degree-12 branches. Existing rank-drop and cubic/full-J
+certificates then close all four complete fixed `R20` cells.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed R20
+new PROVED results:       K10-zero source-row exclusion; four degree-12 closes; four cell closes
+whole-cell coverage:      34/36
+remaining positive rows:  M01-R11, M02-R11
+compute:                  two bounded Modal representatives, peak RSS < 0.41 GB
+next:                     discharge the M01 external-Singular bridge and transport to M02
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

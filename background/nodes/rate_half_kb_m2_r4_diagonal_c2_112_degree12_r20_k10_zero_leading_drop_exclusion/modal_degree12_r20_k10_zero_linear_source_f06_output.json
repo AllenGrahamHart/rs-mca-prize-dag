@@ -1,0 +1,640 @@
+{
+  "app": "rs-mca-k3-degree12-r20-k10-zero-leading-drop-linear_source_f06",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 1,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "cell": "F06-R20",
+      "linear_source": true,
+      "peak_kb": 405356,
+      "records": [
+        {
+          "cell": "F06-R20",
+          "phase": "START"
+        },
+        {
+          "B0_leading": {
+            "degree": 11,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "bc82de61ce62eacee2eb4d6b6e5bc6219e295c9d9f66c7309a2805694879a6fb",
+            "terms": 98
+          },
+          "B0_leading_factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+              "terms": 2
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d",
+              "terms": 76
+            }
+          ],
+          "K10": {
+            "degree": 10,
+            "degrees": [
+              5,
+              5,
+              4
+            ],
+            "sha256": "e1ebd3864575aef57b9f47a7d99ba95f984e6333201b7066f5e84e91657d157d",
+            "terms": 76
+          },
+          "L6": {
+            "degree": 6,
+            "degrees": [
+              0,
+              4,
+              5
+            ],
+            "sha256": "68d2b371255fa281cd7ee7b717cd7ae97bf3bce699feb9f546027ddc5f328a27",
+            "terms": 17
+          },
+          "phase": "SOURCE_COMPILED",
+          "selected": {
+            "degree": 12,
+            "degrees": [
+              6,
+              4,
+              5
+            ],
+            "sha256": "a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d",
+            "terms": 137
+          },
+          "unit_factor_count": 24
+        },
+        {
+          "generators": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "sha256": "a666b074518911ef730059fa8c9f00ae0569d1d9e6eabd3178c493de4cefa57f",
+              "terms": 137
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "sha256": "247760ec41f35caf040c50b24775e314097d13c6d59912e6ac9e655ddcbbe226",
+              "terms": 76
+            },
+            {
+              "degree": 58,
+              "degrees": [
+                34,
+                26,
+                25
+              ],
+              "sha256": "af0fb44ba62245a24cc4d61eb9e9376d43a935f130b993afe4b40b7399bc37b0",
+              "terms": 5431
+            },
+            {
+              "degree": 58,
+              "degrees": [
+                34,
+                26,
+                24
+              ],
+              "sha256": "516e5feb1712fd570ac4ca4f5846ecfcae780dca49ddcaf88e37cc26f4034000",
+              "terms": 5293
+            }
+          ],
+          "linear_drop_reduced": {
+            "degree": -1,
+            "degrees": [
+              -1,
+              -1,
+              -1
+            ],
+            "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+            "terms": 0
+          },
+          "linear_drop_source": {
+            "degree": 32,
+            "degrees": [
+              18,
+              12,
+              13
+            ],
+            "sha256": "413cbcf0243cef0f901ee80aa2868e2022be5538884dde6665b830fe58e12bff",
+            "terms": 2085
+          },
+          "linear_source": {
+            "A1": {
+              "cleared_reduced": {
+                "degree": 58,
+                "degrees": [
+                  34,
+                  26,
+                  25
+                ],
+                "sha256": "7f447947215825fbd8bcbbdab8a63a765e31d4c772dfe115b591df1a5554a5d9",
+                "terms": 5431
+              },
+              "core": {
+                "degree": 58,
+                "degrees": [
+                  34,
+                  26,
+                  25
+                ],
+                "sha256": "7f447947215825fbd8bcbbdab8a63a765e31d4c772dfe115b591df1a5554a5d9",
+                "terms": 5431
+              },
+              "degree_w": 4,
+              "removed_units": []
+            },
+            "B1": {
+              "cleared_reduced": {
+                "degree": 58,
+                "degrees": [
+                  34,
+                  26,
+                  24
+                ],
+                "sha256": "4012e3248795af3d0eee69e12ff53f011261bb576585fd924241e1f241dd2a34",
+                "terms": 5293
+              },
+              "core": {
+                "degree": 58,
+                "degrees": [
+                  34,
+                  26,
+                  24
+                ],
+                "sha256": "4012e3248795af3d0eee69e12ff53f011261bb576585fd924241e1f241dd2a34",
+                "terms": 5293
+              },
+              "degree_w": 4,
+              "removed_units": []
+            }
+          },
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "660526bb69ed2d8ee9fc8b43722003d318e4c342851c9294b3ff09d92aa5292a",
+          "basis_size": 80,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "index": 1,
+          "label": "prior_s",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "index": 2,
+          "label": "prior_L6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "3bd193be4c0003943bad54afbfc3cd86df41ec96329d49a1e5a2492bd8a01ac9",
+          "terms": 17,
+          "zero": false
+        },
+        {
+          "index": 3,
+          "label": "unit_1",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "1c8bdfe2ac40dfeb746bb643308d3d7f8baf906541a6fcd0793ce5e20eca7397",
+          "terms": 17,
+          "zero": false
+        },
+        {
+          "index": 4,
+          "label": "unit_2",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "8410427fb5fff31a402c3d17b102039952b1a0ad9e6ca8a2934a7bc42594fa94",
+          "terms": 20,
+          "zero": false
+        },
+        {
+          "index": 5,
+          "label": "unit_3",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "189c247af968daa81d4d79352c84c451e4d2f0d6efef568ae2759b5449dd6570",
+          "terms": 32,
+          "zero": false
+        },
+        {
+          "index": 6,
+          "label": "unit_4",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "f522ca65eca79ab2f2f3023f141a2a03705512487cc092eb1cc7478fe6b7d069",
+          "terms": 45,
+          "zero": false
+        },
+        {
+          "index": 7,
+          "label": "unit_5",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "1f1a95bd984058608c0156eb573b704eb7b961e68ec990af8e259ce4017a382f",
+          "terms": 52,
+          "zero": false
+        },
+        {
+          "index": 8,
+          "label": "unit_6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "62fcc14aabf49496ab8d6f505afa833f9ac5f94cbc8e342bc5d2be1ae3d12fc9",
+          "terms": 64,
+          "zero": false
+        },
+        {
+          "index": 9,
+          "label": "unit_7",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "6bc039d10255b21cbaf5b3d3ea3b6b07f9ee58fda110d2287faa2b3fb1352d2d",
+          "terms": 82,
+          "zero": false
+        },
+        {
+          "index": 10,
+          "label": "unit_8",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "895f5dbf9860cd32575f6a80ef7c36664152919ab2eb9b4f0297efcf7dcb21ce",
+          "terms": 82,
+          "zero": false
+        },
+        {
+          "index": 11,
+          "label": "unit_9",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "8a2ca1c550b79c499b7abf8d199eb8c0f8d6070f22317c95260ddd98693957a9",
+          "terms": 164,
+          "zero": false
+        },
+        {
+          "index": 12,
+          "label": "unit_10",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "cfb316bdb31794479d038f4f4d6580fdb27e7084da5c177250489c43dcb32515",
+          "terms": 638,
+          "zero": false
+        },
+        {
+          "index": 13,
+          "label": "unit_11",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "48dddd876562a64f6bd482110c60c61beccfbb4f80b403a80a100ef25e0c2842",
+          "terms": 638,
+          "zero": false
+        },
+        {
+          "index": 14,
+          "label": "unit_12",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "cdcd73b5ad15f4a00976e32b7fcc55b792495d07ead6e0d6956f605c656623fa",
+          "terms": 638,
+          "zero": false
+        },
+        {
+          "index": 15,
+          "label": "unit_13",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "6a2c5087690a443d3e45a8253e59db4f57812f9fa0f9c21c909127be9772c17f",
+          "terms": 699,
+          "zero": false
+        },
+        {
+          "index": 16,
+          "label": "unit_14",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "1de3283a980bdc1a112edfaa156c86f45c2c43026afdf6a052a10f7a2ce931bd",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 17,
+          "label": "unit_15",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "c927d8567676e41c9e012c90b0df89b01e2925e146aebba082b63e5286c65786",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 18,
+          "label": "unit_16",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "c9465b7352b3253cf612e1affe9729d3a50d8d11998140c84668e79d62204efe",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 19,
+          "label": "unit_17",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "ebc407c9b48cf6d6b55bef3360ac2287757f8a80ff3f55aee34e1381ee1e0150",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 20,
+          "label": "unit_18",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "806f14972feea96ed02b17766a01581c812cc029ff19a936d049a6f229f45637",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 21,
+          "label": "unit_19",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "b06446b1342a27398996299783442728a6e129cf0e783d3af7711b98a69733d6",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 22,
+          "label": "unit_20",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "41da57403dff0270350065e412345e6aad565432259ba4819ea54b0bcc9db00b",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 23,
+          "label": "unit_21",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "eff7fb149c548c2970b3a356a5c797c41daacc724f47d97b2bc77d27c0a3ac9c",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 24,
+          "label": "unit_22",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "f7906a73d49cc49a7dd1c9439877cee6a3a547cb2d60256fe5fbb28af987d9a2",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 25,
+          "label": "unit_23",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "e21e452eb7b8f5bc596fd3048a04207168aa50c9a3a240463b281ff35c079fff",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "index": 26,
+          "label": "unit_24",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "850ce97ce3ab046f300e8c56a6952a4e310425f7b4938a55da0bb613239d2087",
+          "terms": 1507,
+          "zero": false
+        },
+        {
+          "phase": "SATURATION_BEGIN"
+        },
+        {
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "dimension": -1,
+          "phase": "SATURATION_DONE",
+          "unit_ideal": true
+        },
+        {
+          "basis_sha256": "660526bb69ed2d8ee9fc8b43722003d318e4c342851c9294b3ff09d92aa5292a",
+          "basis_size": 80,
+          "cell": "F06-R20",
+          "dimension": 1,
+          "generic_block": null,
+          "linear_drop": false,
+          "linear_source": true,
+          "localizer_steps": [
+            {
+              "index": 1,
+              "label": "prior_s",
+              "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "index": 2,
+              "label": "prior_L6",
+              "sha256": "3bd193be4c0003943bad54afbfc3cd86df41ec96329d49a1e5a2492bd8a01ac9",
+              "terms": 17,
+              "zero": false
+            },
+            {
+              "index": 3,
+              "label": "unit_1",
+              "sha256": "1c8bdfe2ac40dfeb746bb643308d3d7f8baf906541a6fcd0793ce5e20eca7397",
+              "terms": 17,
+              "zero": false
+            },
+            {
+              "index": 4,
+              "label": "unit_2",
+              "sha256": "8410427fb5fff31a402c3d17b102039952b1a0ad9e6ca8a2934a7bc42594fa94",
+              "terms": 20,
+              "zero": false
+            },
+            {
+              "index": 5,
+              "label": "unit_3",
+              "sha256": "189c247af968daa81d4d79352c84c451e4d2f0d6efef568ae2759b5449dd6570",
+              "terms": 32,
+              "zero": false
+            },
+            {
+              "index": 6,
+              "label": "unit_4",
+              "sha256": "f522ca65eca79ab2f2f3023f141a2a03705512487cc092eb1cc7478fe6b7d069",
+              "terms": 45,
+              "zero": false
+            },
+            {
+              "index": 7,
+              "label": "unit_5",
+              "sha256": "1f1a95bd984058608c0156eb573b704eb7b961e68ec990af8e259ce4017a382f",
+              "terms": 52,
+              "zero": false
+            },
+            {
+              "index": 8,
+              "label": "unit_6",
+              "sha256": "62fcc14aabf49496ab8d6f505afa833f9ac5f94cbc8e342bc5d2be1ae3d12fc9",
+              "terms": 64,
+              "zero": false
+            },
+            {
+              "index": 9,
+              "label": "unit_7",
+              "sha256": "6bc039d10255b21cbaf5b3d3ea3b6b07f9ee58fda110d2287faa2b3fb1352d2d",
+              "terms": 82,
+              "zero": false
+            },
+            {
+              "index": 10,
+              "label": "unit_8",
+              "sha256": "895f5dbf9860cd32575f6a80ef7c36664152919ab2eb9b4f0297efcf7dcb21ce",
+              "terms": 82,
+              "zero": false
+            },
+            {
+              "index": 11,
+              "label": "unit_9",
+              "sha256": "8a2ca1c550b79c499b7abf8d199eb8c0f8d6070f22317c95260ddd98693957a9",
+              "terms": 164,
+              "zero": false
+            },
+            {
+              "index": 12,
+              "label": "unit_10",
+              "sha256": "cfb316bdb31794479d038f4f4d6580fdb27e7084da5c177250489c43dcb32515",
+              "terms": 638,
+              "zero": false
+            },
+            {
+              "index": 13,
+              "label": "unit_11",
+              "sha256": "48dddd876562a64f6bd482110c60c61beccfbb4f80b403a80a100ef25e0c2842",
+              "terms": 638,
+              "zero": false
+            },
+            {
+              "index": 14,
+              "label": "unit_12",
+              "sha256": "cdcd73b5ad15f4a00976e32b7fcc55b792495d07ead6e0d6956f605c656623fa",
+              "terms": 638,
+              "zero": false
+            },
+            {
+              "index": 15,
+              "label": "unit_13",
+              "sha256": "6a2c5087690a443d3e45a8253e59db4f57812f9fa0f9c21c909127be9772c17f",
+              "terms": 699,
+              "zero": false
+            },
+            {
+              "index": 16,
+              "label": "unit_14",
+              "sha256": "1de3283a980bdc1a112edfaa156c86f45c2c43026afdf6a052a10f7a2ce931bd",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 17,
+              "label": "unit_15",
+              "sha256": "c927d8567676e41c9e012c90b0df89b01e2925e146aebba082b63e5286c65786",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 18,
+              "label": "unit_16",
+              "sha256": "c9465b7352b3253cf612e1affe9729d3a50d8d11998140c84668e79d62204efe",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 19,
+              "label": "unit_17",
+              "sha256": "ebc407c9b48cf6d6b55bef3360ac2287757f8a80ff3f55aee34e1381ee1e0150",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 20,
+              "label": "unit_18",
+              "sha256": "806f14972feea96ed02b17766a01581c812cc029ff19a936d049a6f229f45637",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 21,
+              "label": "unit_19",
+              "sha256": "b06446b1342a27398996299783442728a6e129cf0e783d3af7711b98a69733d6",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 22,
+              "label": "unit_20",
+              "sha256": "41da57403dff0270350065e412345e6aad565432259ba4819ea54b0bcc9db00b",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 23,
+              "label": "unit_21",
+              "sha256": "eff7fb149c548c2970b3a356a5c797c41daacc724f47d97b2bc77d27c0a3ac9c",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 24,
+              "label": "unit_22",
+              "sha256": "f7906a73d49cc49a7dd1c9439877cee6a3a547cb2d60256fe5fbb28af987d9a2",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 25,
+              "label": "unit_23",
+              "sha256": "e21e452eb7b8f5bc596fd3048a04207168aa50c9a3a240463b281ff35c079fff",
+              "terms": 1507,
+              "zero": false
+            },
+            {
+              "index": 26,
+              "label": "unit_24",
+              "sha256": "850ce97ce3ab046f300e8c56a6952a4e310425f7b4938a55da0bb613239d2087",
+              "terms": 1507,
+              "zero": false
+            }
+          ],
+          "phase": "DONE",
+          "saturation_basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "saturation_basis_size": 1,
+          "saturation_dimension": -1,
+          "saturation_unit_ideal": true,
+          "terminal": "K10_ZERO_BRANCH_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 74.984089,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "f312872b54027e7daa3cfc1213ecf23f297fb9b077e48ff9888948d5c86f87ba",
+      "stdout_tail": "ha256\": \"516e5feb1712fd570ac4ca4f5846ecfcae780dca49ddcaf88e37cc26f4034000\", \"terms\": 5293}], \"linear_drop_reduced\": {\"degree\": -1, \"degrees\": [-1, -1, -1], \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": 0}, \"linear_drop_source\": {\"degree\": 32, \"degrees\": [18, 12, 13], \"sha256\": \"413cbcf0243cef0f901ee80aa2868e2022be5538884dde6665b830fe58e12bff\", \"terms\": 2085}, \"linear_source\": {\"A1\": {\"cleared_reduced\": {\"degree\": 58, \"degrees\": [34, 26, 25], \"sha256\": \"7f447947215825fbd8bcbbdab8a63a765e31d4c772dfe115b591df1a5554a5d9\", \"terms\": 5431}, \"core\": {\"degree\": 58, \"degrees\": [34, 26, 25], \"sha256\": \"7f447947215825fbd8bcbbdab8a63a765e31d4c772dfe115b591df1a5554a5d9\", \"terms\": 5431}, \"degree_w\": 4, \"removed_units\": []}, \"B1\": {\"cleared_reduced\": {\"degree\": 58, \"degrees\": [34, 26, 24], \"sha256\": \"4012e3248795af3d0eee69e12ff53f011261bb576585fd924241e1f241dd2a34\", \"terms\": 5293}, \"core\": {\"degree\": 58, \"degrees\": [34, 26, 24], \"sha256\": \"4012e3248795af3d0eee69e12ff53f011261bb576585fd924241e1f241dd2a34\", \"terms\": 5293}, \"degree_w\": 4, \"removed_units\": []}}, \"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"660526bb69ed2d8ee9fc8b43722003d318e4c342851c9294b3ff09d92aa5292a\", \"basis_size\": 80, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"index\": 1, \"label\": \"prior_s\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}\n{\"index\": 2, \"label\": \"prior_L6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"3bd193be4c0003943bad54afbfc3cd86df41ec96329d49a1e5a2492bd8a01ac9\", \"terms\": 17, \"zero\": false}\n{\"index\": 3, \"label\": \"unit_1\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"1c8bdfe2ac40dfeb746bb643308d3d7f8baf906541a6fcd0793ce5e20eca7397\", \"terms\": 17, \"zero\": false}\n{\"index\": 4, \"label\": \"unit_2\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"8410427fb5fff31a402c3d17b102039952b1a0ad9e6ca8a2934a7bc42594fa94\", \"terms\": 20, \"zero\": false}\n{\"index\": 5, \"label\": \"unit_3\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"189c247af968daa81d4d79352c84c451e4d2f0d6efef568ae2759b5449dd6570\", \"terms\": 32, \"zero\": false}\n{\"index\": 6, \"label\": \"unit_4\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"f522ca65eca79ab2f2f3023f141a2a03705512487cc092eb1cc7478fe6b7d069\", \"terms\": 45, \"zero\": false}\n{\"index\": 7, \"label\": \"unit_5\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"1f1a95bd984058608c0156eb573b704eb7b961e68ec990af8e259ce4017a382f\", \"terms\": 52, \"zero\": false}\n{\"index\": 8, \"label\": \"unit_6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"62fcc14aabf49496ab8d6f505afa833f9ac5f94cbc8e342bc5d2be1ae3d12fc9\", \"terms\": 64, \"zero\": false}\n{\"index\": 9, \"label\": \"unit_7\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"6bc039d10255b21cbaf5b3d3ea3b6b07f9ee58fda110d2287faa2b3fb1352d2d\", \"terms\": 82, \"zero\": false}\n{\"index\": 10, \"label\": \"unit_8\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"895f5dbf9860cd32575f6a80ef7c36664152919ab2eb9b4f0297efcf7dcb21ce\", \"terms\": 82, \"zero\": false}\n{\"index\": 11, \"label\": \"unit_9\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"8a2ca1c550b79c499b7abf8d199eb8c0f8d6070f22317c95260ddd98693957a9\", \"terms\": 164, \"zero\": false}\n{\"index\": 12, \"label\": \"unit_10\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"cfb316bdb31794479d038f4f4d6580fdb27e7084da5c177250489c43dcb32515\", \"terms\": 638, \"zero\": false}\n{\"index\": 13, \"label\": \"unit_11\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"48dddd876562a64f6bd482110c60c61beccfbb4f80b403a80a100ef25e0c2842\", \"terms\": 638, \"zero\": false}\n{\"index\": 14, \"label\": \"unit_12\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"cdcd73b5ad15f4a00976e32b7fcc55b792495d07ead6e0d6956f605c656623fa\", \"terms\": 638, \"zero\": false}\n{\"index\": 15, \"label\": \"unit_13\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"6a2c5087690a443d3e45a8253e59db4f57812f9fa0f9c21c909127be9772c17f\", \"terms\": 699, \"zero\": false}\n{\"index\": 16, \"label\": \"unit_14\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"1de3283a980bdc1a112edfaa156c86f45c2c43026afdf6a052a10f7a2ce931bd\", \"terms\": 1507, \"zero\": false}\n{\"index\": 17, \"label\": \"unit_15\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"c927d8567676e41c9e012c90b0df89b01e2925e146aebba082b63e5286c65786\", \"terms\": 1507, \"zero\": false}\n{\"index\": 18, \"label\": \"unit_16\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"c9465b7352b3253cf612e1affe9729d3a50d8d11998140c84668e79d62204efe\", \"terms\": 1507, \"zero\": false}\n{\"index\": 19, \"label\": \"unit_17\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"ebc407c9b48cf6d6b55bef3360ac2287757f8a80ff3f55aee34e1381ee1e0150\", \"terms\": 1507, \"zero\": false}\n{\"index\": 20, \"label\": \"unit_18\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"806f14972feea96ed02b17766a01581c812cc029ff19a936d049a6f229f45637\", \"terms\": 1507, \"zero\": false}\n{\"index\": 21, \"label\": \"unit_19\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"b06446b1342a27398996299783442728a6e129cf0e783d3af7711b98a69733d6\", \"terms\": 1507, \"zero\": false}\n{\"index\": 22, \"label\": \"unit_20\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"41da57403dff0270350065e412345e6aad565432259ba4819ea54b0bcc9db00b\", \"terms\": 1507, \"zero\": false}\n{\"index\": 23, \"label\": \"unit_21\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"eff7fb149c548c2970b3a356a5c797c41daacc724f47d97b2bc77d27c0a3ac9c\", \"terms\": 1507, \"zero\": false}\n{\"index\": 24, \"label\": \"unit_22\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"f7906a73d49cc49a7dd1c9439877cee6a3a547cb2d60256fe5fbb28af987d9a2\", \"terms\": 1507, \"zero\": false}\n{\"index\": 25, \"label\": \"unit_23\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"e21e452eb7b8f5bc596fd3048a04207168aa50c9a3a240463b281ff35c079fff\", \"terms\": 1507, \"zero\": false}\n{\"index\": 26, \"label\": \"unit_24\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"850ce97ce3ab046f300e8c56a6952a4e310425f7b4938a55da0bb613239d2087\", \"terms\": 1507, \"zero\": false}\n{\"phase\": \"SATURATION_BEGIN\"}\n{\"basis_sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"basis_size\": 1, \"dimension\": -1, \"phase\": \"SATURATION_DONE\", \"unit_ideal\": true}\n{\"basis_sha256\": \"660526bb69ed2d8ee9fc8b43722003d318e4c342851c9294b3ff09d92aa5292a\", \"basis_size\": 80, \"cell\": \"F06-R20\", \"dimension\": 1, \"generic_block\": null, \"linear_drop\": false, \"linear_source\": true, \"localizer_steps\": [{\"index\": 1, \"label\": \"prior_s\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}, {\"index\": 2, \"label\": \"prior_L6\", \"sha256\": \"3bd193be4c0003943bad54afbfc3cd86df41ec96329d49a1e5a2492bd8a01ac9\", \"terms\": 17, \"zero\": false}, {\"index\": 3, \"label\": \"unit_1\", \"sha256\": \"1c8bdfe2ac40dfeb746bb643308d3d7f8baf906541a6fcd0793ce5e20eca7397\", \"terms\": 17, \"zero\": false}, {\"index\": 4, \"label\": \"unit_2\", \"sha256\": \"8410427fb5fff31a402c3d17b102039952b1a0ad9e6ca8a2934a7bc42594fa94\", \"terms\": 20, \"zero\": false}, {\"index\": 5, \"label\": \"unit_3\", \"sha256\": \"189c247af968daa81d4d79352c84c451e4d2f0d6efef568ae2759b5449dd6570\", \"terms\": 32, \"zero\": false}, {\"index\": 6, \"label\": \"unit_4\", \"sha256\": \"f522ca65eca79ab2f2f3023f141a2a03705512487cc092eb1cc7478fe6b7d069\", \"terms\": 45, \"zero\": false}, {\"index\": 7, \"label\": \"unit_5\", \"sha256\": \"1f1a95bd984058608c0156eb573b704eb7b961e68ec990af8e259ce4017a382f\", \"terms\": 52, \"zero\": false}, {\"index\": 8, \"label\": \"unit_6\", \"sha256\": \"62fcc14aabf49496ab8d6f505afa833f9ac5f94cbc8e342bc5d2be1ae3d12fc9\", \"terms\": 64, \"zero\": false}, {\"index\": 9, \"label\": \"unit_7\", \"sha256\": \"6bc039d10255b21cbaf5b3d3ea3b6b07f9ee58fda110d2287faa2b3fb1352d2d\", \"terms\": 82, \"zero\": false}, {\"index\": 10, \"label\": \"unit_8\", \"sha256\": \"895f5dbf9860cd32575f6a80ef7c36664152919ab2eb9b4f0297efcf7dcb21ce\", \"terms\": 82, \"zero\": false}, {\"index\": 11, \"label\": \"unit_9\", \"sha256\": \"8a2ca1c550b79c499b7abf8d199eb8c0f8d6070f22317c95260ddd98693957a9\", \"terms\": 164, \"zero\": false}, {\"index\": 12, \"label\": \"unit_10\", \"sha256\": \"cfb316bdb31794479d038f4f4d6580fdb27e7084da5c177250489c43dcb32515\", \"terms\": 638, \"zero\": false}, {\"index\": 13, \"label\": \"unit_11\", \"sha256\": \"48dddd876562a64f6bd482110c60c61beccfbb4f80b403a80a100ef25e0c2842\", \"terms\": 638, \"zero\": false}, {\"index\": 14, \"label\": \"unit_12\", \"sha256\": \"cdcd73b5ad15f4a00976e32b7fcc55b792495d07ead6e0d6956f605c656623fa\", \"terms\": 638, \"zero\": false}, {\"index\": 15, \"label\": \"unit_13\", \"sha256\": \"6a2c5087690a443d3e45a8253e59db4f57812f9fa0f9c21c909127be9772c17f\", \"terms\": 699, \"zero\": false}, {\"index\": 16, \"label\": \"unit_14\", \"sha256\": \"1de3283a980bdc1a112edfaa156c86f45c2c43026afdf6a052a10f7a2ce931bd\", \"terms\": 1507, \"zero\": false}, {\"index\": 17, \"label\": \"unit_15\", \"sha256\": \"c927d8567676e41c9e012c90b0df89b01e2925e146aebba082b63e5286c65786\", \"terms\": 1507, \"zero\": false}, {\"index\": 18, \"label\": \"unit_16\", \"sha256\": \"c9465b7352b3253cf612e1affe9729d3a50d8d11998140c84668e79d62204efe\", \"terms\": 1507, \"zero\": false}, {\"index\": 19, \"label\": \"unit_17\", \"sha256\": \"ebc407c9b48cf6d6b55bef3360ac2287757f8a80ff3f55aee34e1381ee1e0150\", \"terms\": 1507, \"zero\": false}, {\"index\": 20, \"label\": \"unit_18\", \"sha256\": \"806f14972feea96ed02b17766a01581c812cc029ff19a936d049a6f229f45637\", \"terms\": 1507, \"zero\": false}, {\"index\": 21, \"label\": \"unit_19\", \"sha256\": \"b06446b1342a27398996299783442728a6e129cf0e783d3af7711b98a69733d6\", \"terms\": 1507, \"zero\": false}, {\"index\": 22, \"label\": \"unit_20\", \"sha256\": \"41da57403dff0270350065e412345e6aad565432259ba4819ea54b0bcc9db00b\", \"terms\": 1507, \"zero\": false}, {\"index\": 23, \"label\": \"unit_21\", \"sha256\": \"eff7fb149c548c2970b3a356a5c797c41daacc724f47d97b2bc77d27c0a3ac9c\", \"terms\": 1507, \"zero\": false}, {\"index\": 24, \"label\": \"unit_22\", \"sha256\": \"f7906a73d49cc49a7dd1c9439877cee6a3a547cb2d60256fe5fbb28af987d9a2\", \"terms\": 1507, \"zero\": false}, {\"index\": 25, \"label\": \"unit_23\", \"sha256\": \"e21e452eb7b8f5bc596fd3048a04207168aa50c9a3a240463b281ff35c079fff\", \"terms\": 1507, \"zero\": false}, {\"index\": 26, \"label\": \"unit_24\", \"sha256\": \"850ce97ce3ab046f300e8c56a6952a4e310425f7b4938a55da0bb613239d2087\", \"terms\": 1507, \"zero\": false}], \"phase\": \"DONE\", \"saturation_basis_sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"saturation_basis_size\": 1, \"saturation_dimension\": -1, \"saturation_unit_ideal\": true, \"terminal\": \"K10_ZERO_BRANCH_EMPTY\", \"unit_ideal\": false}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-r20-k10-zero-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}
