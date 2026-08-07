@@ -157,3 +157,13 @@ false); (d) checks that the cyclotomic-relation sublattice `R` is exactly the
 low-weight vanishing set at weights where no extra collision exists, and prints a
 `CERT(row)` when the survivor set (`V_bf \ R`) is empty; (e) checks `(COST)` count
 == enumerated half-sum count. All PASS.
+
+## Addendum (2026-08-07, round-21 probes CATCH-P2, forced)
+
+The factor-N' search speedup at :110-114 is justified above by
+"Frobenius orbits, index multiplication by p mod N'" — but under
+this node's standing hypothesis p = 1 mod N' that map is the
+IDENTITY (orbit size 1), and index-multiplication by general odd a
+is NOT a symmetry of K_p (counterexample N'=8, p=17, a=3). The
+factor-N' saving SURVIVES via the CYCLIC SHIFT symmetry; the
+mechanism as stated was wrong. Conclusion unaffected.

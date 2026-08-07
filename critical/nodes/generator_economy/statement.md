@@ -25,3 +25,41 @@ n/a (construction); a proof that multiplicative designs cap at size << B*/poly w
 ## Ledger (migrated notes)
 
 E12 (#203): EARLY-CAP signal — the cyclic germ lifts to ell-sum orbits (8/16 templates at N=16/32) but plain orbit unions grow only ~linearly in templates. Next attacks: multiplicative template compression or imported abelian difference-set designs. No fiber counts used (guard respected). | SCOPED by profile_covering_obstruction: only engineered (flat-profile/integer-factored) designs can work; the kernel-lattice route (lattice_cone_certificate) is now the primary alternative — neither pure existence nor pure construction, but per-row CERTIFICATION.
+
+## Addendum (2026-08-07, round-21 diagnosis — FORCED corrections + the re-pose of record)
+
+1. THE COLLISION CATCH (forced): the Pro-Brief-F family's
+   C(N/2-2, N/4-1) padding factor is exact e_1-COLLISION
+   multiplicity (e_1(B) = (1+z)z^s is T-independent — the
+   construction's own antipodal cancellation); the family has
+   exactly N' pairwise-distinct centers (the orbit of (1+x),
+   verified at N' = 128). The banked "2^65.691 at N=128 / SHORT
+   23.3 bits" (notes/pro_construction.md, pro_brief_gap128.md) is
+   corrected to: 128 centers, DEFICIT 82.00 BITS; the claimed
+   N' = 256 pass is FALSE; Pro brief H's enlargement carries the
+   identical defect. Same defect class as the REFUTED signed-8-core
+   (generator_size_budget_check/refutation.md:25-28).
+2. FLOOR-GE (the structural ceiling, epistemic status explicit):
+   any base set all of whose elements have 2-power norm certifies
+   at most N' + 1 centers, independent of base count (exhaustive at
+   N = 8, 16; constructive floor everywhere; 240k-sample null
+   extension at N = 32; CONJECTURAL above — falsifier: N'+2 such
+   centers at any 2-power N' <= 64). Template compression cannot
+   move the ceiling in principle; difference-set imports are the
+   dual problem (banked 3/3 REFUTED). ESCAPE-GE: exceeding N'+1
+   requires an odd-prime-norm base; the integer-factored free class
+   is confined to factors {1, 2}.
+3. THE CONSUMER CONTRACT, derived: a certified family of size 2^m
+   decides exactly the rows q < 2^{m+161}; the (a)-construction
+   route at its true size decides ZERO prize rows.
+4. THE RE-POSE OF RECORD (GE-WEAK, coordinator-adopted): the node's
+   obligation is form (b) — K_p contains no non-cyclotomic ternary
+   vector of support <= 2l' at the prize rows (the kernel-lattice /
+   lattice_cone_certificate line; Modal-priceable per pinned row at
+   w <= 16 time-wise, memory re-engineering required; the UNIVERSAL
+   form is the open content). Form (a) is retired as a route and
+   survives only as FLOOR-GE's falsifiable floor. Criticality:
+   tau = 1.9531, the same subcritical emptiness cell as the
+   crossing/sparsity instances; the banked folded-box norm
+   instrument misses the row by 5.456 bits of log2 p (0.0426 in
+   tau). See notes/pilots_20260807/gen_economy_diag/.

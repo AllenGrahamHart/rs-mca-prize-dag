@@ -13,6 +13,9 @@ another global narrative to this file.
    checkpoint residuals.
 4. `attack_sections/05-balanced-pencil-program.md`: balanced-pencil route.
 
+The Round-21 v4 campaign survey and field-normalized census correction are in
+`attack_addenda/06-round21-v4-audit.md`.
+
 The preregistered growth falsifier and its bounded evidence are in
 `attack_sections/00-falsification-and-growth.md`.  Packet integrity and DAG
 ownership are pinned by `attack_sections/document.json`.

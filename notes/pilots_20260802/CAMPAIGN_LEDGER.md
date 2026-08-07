@@ -2334,3 +2334,107 @@ ROUND 21 (4 agents):
   unsafe_crossing_family_instantiation vs THEOREM BB (the
   universality quantifier decides); certificates written where
   closable, no status flips (coordinator flips on replay).
+
+## 2026-08-07: round-21 agent 1 BANKED — the v4 PMA "un-surveyed campaign" premise was FALSE; two catches against canonical, both applied
+
+- **PMA v4 auditor (Opus) BANKED** (65/65 replays incl. mutation
+  controls in 29/32; draft PMA_V4_AUDIT_DRAFT.md, 560 lines). THE
+  PREMISE INVERTED: the campaign was ALREADY 100% IMPORTED at waves
+  8-9 (2026-07-16/17), byte-identical, canonical ahead in every
+  divergent file — zero novelty in the v4 -> canonical direction;
+  the survey flag was stale. Retraction compliance PASS (3 tests;
+  zero cut-node resurrections; addresses the dim-K obstruction by
+  EXACT rank computation, not induction). The campaign
+  self-retracted 8 times and caught itself everywhere — including
+  un-proving its own previous day's headline. CATCHES (both against
+  CANONICAL, both APPLIED as forced corrections):
+  **C-V4-1**: the N10 census's reassuring reading is a FIELD-SIZE
+  ARTIFACT — the second doubling doubles p, and the banked
+  fixed-(n,k) control shows a 98.0%-exact 1/p retention law;
+  field-corrected the growth exponent is FLAT at 6.14-6.21, ABOVE
+  the separately-disproved n^6 line (the numerics and the proved
+  obstruction point the SAME way). attack.md re-read applied;
+  DECISIVE CONTROL QUEUED: the census at (64,32,97).
+  **C-V4-2**: pma_sigma_one_variable_defect_exact_hit_floor's Scope
+  clause cited the sigma >= C n/log n hypothesis STRUCK per #155 —
+  replaced by the entropy-reserve justification (2048x margin,
+  auditor-verified numerically). Survey flags retired in
+  statement.md + attack.md. COMPUTE-LAW NOTE: ramguard unavailable
+  in the subagent environment (systemd user bus, environmental) —
+  a POSIX-rlimit shim reproducing the exact ceilings was used and
+  disclosed; acceptable. MYSTERY-6 IMPACT: the diagnosis pilot's
+  evidence base tilts HARDER (the friendly census reading is gone);
+  the blind l1_pma_diag pilot reconciles at its bank.
+
+## 2026-08-07: round-21 agent 2 BANKED — MYSTERY 5 DIAGNOSED: the construction refuted, the ceiling structural, the re-pose lands on kernel emptiness
+
+- **gen_economy_diag (Opus) BANKED, MAINTAINER-LEVEL** (all scripts
+  replayed; the collision identity coordinator-confirmed as
+  arithmetic, not interpretive). **THE COLLISION CATCH (forced,
+  applied)**: Pro-Brief-F's padding factor is exact e_1-collision
+  multiplicity — the family has N' = 128 centers (the orbit of
+  (1+x)), not 2^65.7; the "23.3-bit gap" is an **82.00-BIT
+  DEFICIT**; the N' = 256 "pass" is FALSE; conditional.md was
+  unsound as written (addendum applied); Pro brief H dead (same
+  defect; same class as the REFUTED signed-8-core). **FLOOR-GE (the
+  structural ceiling)**: 2-power-norm base sets certify at most
+  N' + 1 centers INDEPENDENT of base count (exhaustive N = 8, 16;
+  falsifier registered); template compression dead in principle;
+  difference-set imports the dual problem (3/3 banked REFUTED).
+  **THE CONTRACT DERIVED**: a 2^m family decides exactly
+  q < 2^{m+161} — the construction route decides ZERO prize rows.
+  **THE RE-POSE OF RECORD (GE-WEAK, coordinator-adopted)**: the
+  node's obligation is the kernel-emptiness form (K_p has no
+  non-cyclotomic ternary vector of support <= 2l') — the
+  lattice-cone line, priced (Modal per pinned row at w <= 16,
+  time 95 core-hours, MEMORY the binder at ~2^18x over ceiling;
+  no finite row registry — the universal form is the open
+  content). **THE BRIDGE VERDICT (the round-19 gates working)**:
+  OBJECT partial (5-ary folded box fails the shape-pun test),
+  REGIME pass, CRITICALITY pass-in-side (tau = 1.9531, the I2/I3
+  subcritical cell; anti-numerology check: the banked 2^-50
+  reproduced at 2^-47.1 unfitted) but FAIL-in-interval (the banked
+  folded-box norm instrument starts at tau = 1.9957 — a 0.0426
+  gap), METHOD partial-asymmetric. NO unification language; a
+  genuine instance-family relationship on the exclusion side.
+  COMPOSITION NOTE: mystery 5's re-posed obligation shares its
+  object with integer_code_distance_cert — the running probes
+  pilot's verdict composes directly. Honest self-corrections
+  exemplary (R4's registered bar FAILED and says so; R3
+  superseded; the wrong-ring PREREG flagged not patched).
+- Awaiting: l1_pma_diag, red_closability_probes.
+
+## 2026-08-07: round-21 agent 3 BANKED — BOTH CLOSABILITY PROBES: NO, with permanent named blockers; three banked-material catches
+
+- **red_closability_probes (Opus) BANKED** (137/0 replayed; both
+  fail-closed controls verified). **PROBE 1 (integer_code_distance_
+  cert vs Z-1/Z-2): NOT CLOSABLE — permanently.** H1-H3 hold and
+  the shift-0 scope check PASSES (my brief's "the scope check is
+  the whole probe" was wrong — the pilot corrected it); the kill is
+  H4: the system supplies ell = 1 condition vs ell = 65 needed, and
+  ell = 1 is permanent by the REFUTED multi_multiplier_reduction
+  (rank-1 outer product for EVERY k, re-verified at six cells).
+  Z-2 at ell = 1 gives only weight >= 3 (attained). Bonus: the
+  PROVED high-field branch covers 5.02% of the prime-row window.
+  **PROBE 2 (unsafe_crossing_family_instantiation vs BB): CLOSES NO
+  PART.** Wrong functional (L_1 vs B_C — the inference refuted by
+  an exact finite countermodel L_1 = 6 > B* = 5 >= B_C = 5); BB's
+  row coverage DISJOINT from the pair-feasible residual (which
+  forces e = 1); form and endpoint mismatched (~1e6). Lead banked:
+  BB's METHOD shape matches the M-route's nu(A) need. CATCHES
+  (applied): P1 (folded_certificate's "min support 5" is the folded
+  Hamming statistic; the node-relevant unfolded support is 7 — the
+  wrong statistic in a certificate note); P2 (weight_graded_mitm's
+  factor-N' speedup justified by a Frobenius map that is the
+  IDENTITY under p = 1 mod N'; the saving survives via cyclic
+  shift — mechanism corrected in a certificate node); P3 (the MCA
+  node was filed under LIST.md — filing corrected both sides).
+  ACCOUNTING UPDATE: "2 of the 14 possibly closable" -> **0** —
+  the 14 mystery-linked reds hide no cheap wins; both blockers are
+  structural and already-banked. The probes also COMPOSE with
+  mystery 5's re-pose: integer_code_distance_cert is confirmed as
+  the genuine open content of the kernel-lattice line (ell = 65
+  conditions needed = the real problem; the transported laws serve
+  the ell-condition system, which the k-multiplier route cannot
+  manufacture).
+- Awaiting: l1_pma_diag (the last of round 21).

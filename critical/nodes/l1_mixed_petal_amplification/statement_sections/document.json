@@ -1,4 +1,12 @@
 {
+  "post_refactor_addenda": [
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/statement_addenda/05-round21-v4-audit.md"
+    }
+  ],
   "pre_refactor_line_count": 1356,
   "pre_refactor_sha256": "b584bf55b8e02310637fd59ed67494b7049cdc0af8d645c16c030db50986321f",
   "schema": "sectioned-critical-node-document-v1",

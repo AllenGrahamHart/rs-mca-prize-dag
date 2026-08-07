@@ -1,4 +1,13 @@
 {
+  "post_refactor_addenda": [
+    {
+      "dag_nodes": [
+        "l1_mixed_petal_amplification",
+        "pma_sigma_one_variable_defect_exact_hit_floor"
+      ],
+      "path": "critical/nodes/l1_mixed_petal_amplification/attack_addenda/06-round21-v4-audit.md"
+    }
+  ],
   "pre_refactor_line_count": 940,
   "pre_refactor_sha256": "6b1287214fbf161c2baabbb571a8b19d5dd6275b4c8b687ccb2938761c69ed46",
   "schema": "sectioned-critical-node-document-v1",

@@ -74,7 +74,13 @@ over all smooth rate-half rows with polynomial-size generated fields.
 
 ## Scope
 
-This does not refute reserve-conditioned `imgfib`. Its asymptotic hypothesis
-also requires `sigma>=C n/log n`; sigma one is deliberately outside that
-scope. Finite adjacent-row work must use a row-specific exact ledger rather
-than infer a uniform exponent-six or uniform sigma-one polynomial theorem.
+This does not refute reserve-conditioned `imgfib` — via the ENTROPY
+RESERVE, which covers the counterexample row with 2048x margin (32
+bits vs 65,528; verified numerically at the wave-47/round-21 v4 PMA
+audit, C-V4-2). [Forced correction 2026-08-07: the former
+justification cited the `sigma >= C n/log n` hypothesis, which
+canonical's imgfib node records as "DROPPED, not subsumed ... struck
+per #155" — a struck hypothesis cannot carry a Scope clause; the
+conclusion survives on the reserve alone.] Finite adjacent-row work
+must use a row-specific exact ledger rather than infer a uniform
+exponent-six or uniform sigma-one polynomial theorem.
