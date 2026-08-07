@@ -2,8 +2,8 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "f2_admissible_object",
-    "title": "Refuted plus-only prize-admissible F2 object",
-    "status": "REFUTED",
+    "title": "The prize-admissible F2 object: the 16-rung KoalaBear tower is NOT admissible (cap broken from rung 4); on the admissible region (v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2) the descent collapses to LEMMA ADM-2's exact direct sum of prime-field GRS codes (dim L EXACT), the generating classes are exactly three (Lucas-certified non-empty; e in {3,5,6} can never generate), and the coset domain costs the first moment a factor of exactly 1 (THEOREM C1)",
+    "status": "PROVED",
     "refs": [
       "background/nodes/f2_admissible_object/statement.md",
       "notes/pilots_20260806/f2_adm/PROOFS.md",
@@ -11,15 +11,15 @@
       "notes/pilots_20260806/o1_generating_adversary/verify.py",
       "notes/pilots_20260806/f2_tq_pin/verify.py"
     ],
-    "closure": "counterexample",
-    "statement": "The Round-18 composite proposition applies the p=1 mod 4 order formula and bounded proportionality-class decomposition to every admissible row, and says there are exactly three generating classes. This is false on the official generating row p=2^61-1, q=p^2: ord_(2^41)(p)=2=e but the antipodal half-system has 2^40 singleton F_p-proportionality classes. The corrected classification has five signed generating types and the minus branch is one coupled negacyclic code. The field-cap, trace-rank, and coset-invariance components survive only in their corrected scopes."
+    "closure": "proof",
+    "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open — the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks. FIVE-CLASS CORRECTION (2026-08-07, forced): G1/G2 as stated ran the p == 1 mod 4 LTE law only — the census of record is FIVE signed types (+ the two minus-branch types via v_2(p+1); missing row p = 2^61-1, q = p^2, verified thrice); ADM-1/2 is PLUS-BRANCH-ONLY; ADM-3, C1, the cap, the trade-off and the witnesses survive; see statement.md Addendum + f2_admissible_generating_branch_classification."
   },
   "requires": [],
   "alternatives": [],
-  "evidence_for": [
+  "evidence_for": [],
+  "refutes": [
     {
-      "to": "f2_conditional_close"
+      "to": "u2c_giant_tnull_dichotomy"
     }
-  ],
-  "refutes": []
+  ]
 }

@@ -51,3 +51,11 @@ mass. It does not prove `(FW-1)`. Upstream `prob:capfr1-master-flatness`
 and `prob:capfp-Q` have the same mean-plus-one shape, but concern their own
 unweighted or pruned first-match maps; a weighted-map and owner transport
 is required before either can instantiate `(FW-1)` here.
+
+## Addendum (2026-08-07, wave-47 integration, coordinator)
+
+Per the F2 auditor: the knife-edge margin must be printed with any
+use of this bridge; and per canonical's round-20 tail_count bank,
+Codex's T_G is a tail over HAMMING WEIGHTS while canonical's
+criterion of record is a tail over FOURIER MODES — different
+objects; this bridge does NOT discharge the tail-count criterion.

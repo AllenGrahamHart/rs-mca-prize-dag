@@ -90,3 +90,22 @@ E[T_{gW}] != E[T_W].
 Any bound on Z_1 (see f2_z1_mass_knife_edge); the status of (O1)
 itself (see f2_o1_status_split); the antipodal law on cosets (open);
 the n = 2^40 alternative tabulation.
+
+## Addendum (2026-08-07, wave-47 — THE FIVE-CLASS CORRECTION, forced)
+
+THEOREM G1/G2's three-class census is FALSE AS STATED: the
+derivation ran D = 41 - v_2(p-1) throughout, which is the
+p == 1 mod 4 LTE law only; the p == 3 mod 4 law runs on v_2(p+1).
+THE CENSUS OF RECORD IS FIVE SIGNED TYPES (the three banked
+PLUS-branch types + (a=1, b>=40, e=2) + (a=1, b=39, e=4)); explicit
+missing generating row p = 2^61 - 1 (Mersenne), q = p^2,
+2^41 | q-1, ord = 2 = e — verified independently three times
+(wave-47 F2 auditor; round-20 f2_repose S14; Codex). ADM-1/2's
+direct-sum/GRS structure is PLUS-BRANCH-ONLY; the minus branch has
+a coupled negacyclic reduction
+(f2_minus_branch_coupled_negacyclic_reduction, root-disjointness
+open). SURVIVING UNCHANGED: the field cap, ADM-3 (k = ord_n(p)),
+THEOREM C1 (coset factor exactly 1), the depth-budget trade-off,
+and G2's witnesses (all still valid rows — the census was
+incomplete, not wrong about its members). Full classification:
+background/nodes/f2_admissible_generating_branch_classification.

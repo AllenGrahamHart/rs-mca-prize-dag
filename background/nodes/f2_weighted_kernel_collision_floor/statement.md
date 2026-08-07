@@ -30,3 +30,13 @@ For every nonempty fiber, `N(v)` is also the full-agreement list-recovery
 output size of the linear code `K` with two allowed symbols at every
 coordinate. The theorem is pointwise for every linear map; it is not an
 ensemble heuristic and supplies no upper bound on `Z(A)`.
+
+## Addendum (2026-08-07, wave-47 integration, coordinator)
+
+Citation correction (CATCH-47F-3): the collision identity
+(FLOOR-1) is BANKED prior art (dli_c1_l1_block_owner_ledger:15,18,
+as canonical's z1_ternary_mass already records: "BANKED — the
+collision identity is NOT ours"); this node's contribution is its
+deployment here, not the identity. The "does not inherit its row
+classification" distinction is struck as hollow (canonical's
+Z-FLOOR was already hypothesis-free).

@@ -204,6 +204,8 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
   earlier versions remain solely for provenance.
 - `statement_sections/11-h1-s3-addendum.md`: later list-compiler addendum.
 - `statement_addenda/12-round18-dsa-scope.md`: Round-18 DSA scope update.
+- `statement_addenda/13-wave47-theorem-bb.md`: Wave-47 budget break and
+  relocated safe-side obligation.
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.
@@ -218,6 +220,13 @@ verified separately, so they do not rewrite that historical archive.
                     "rate_half_list_adjacent_crossing",
                     "crossing_dsa_refutation",
                     "es_ternary_suppression_instruments",
+                ),
+            ),
+            (
+                "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/13-wave47-theorem-bb.md",
+                (
+                    "rate_half_list_adjacent_crossing",
+                    "crossing_dsa_refutation",
                 ),
             ),
         ),

@@ -129,6 +129,10 @@ ANTIPODAL_PURE_HARMONIC_SPECTRAL = "rate_half_list_budget_three_antipodal_pure_h
 ANTIPODAL_PURE_RAMIFICATION_PASSPORT = "rate_half_list_budget_three_antipodal_pure_ramification_passport"
 
 
+EXTRA_EDGE_0 = "es_ternary_suppression_instruments"
+EXTRA_EDGE_W47_0 = "rate_half_crossing_ideal_galois_multiplicity_exclusion"
+REF_EDGE_W47_0 = "crossing_dsa_refutation"
+REF_EDGE_W47_1 = "esg_lane_rescope"
 def main() -> int:
     dag = json.loads((ROOT / "dag.json").read_text())
     nodes = {node["id"]: node for node in dag["nodes"]}
@@ -284,6 +288,10 @@ def main() -> int:
             "brackets_are_evidence",
             incoming
             == sorted([
+                (REF_EDGE_W47_0, "ref"),
+                (REF_EDGE_W47_1, "ref"),
+                (EXTRA_EDGE_W47_0, "ev"),
+                (EXTRA_EDGE_0, "ev"),
                 (COMMON_MISMATCH_ZERO, "ev"),
                 (CYCLIC_BUDGET_STAIRCASE, "ev"),
                 (CHAMBER_AFFINE_RANK, "ev"),

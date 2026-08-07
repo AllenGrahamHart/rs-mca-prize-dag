@@ -39,3 +39,11 @@ This theorem is an exact interface. It does not prove `(MF-2)`, quotient
 In particular, upstream `def:q-row-atom` bounds a first-match residual family
 `P_Q(z)` at deployed adjacent rows, not `N(v)` as defined here. It can supply
 `(MF-2)` only after a separate explicit map-and-owner transport theorem.
+
+## Addendum (2026-08-07, wave-47 integration, coordinator)
+
+The sentence at line 38 of the adopted statement is TRUNCATED
+mid-clause (ends on "quotient") — it is a NONCLAIM FENCE; until
+Codex supplies the completion, the fence is read in its widest
+(most conservative) form: no claim about any quotient object is
+made by this node.

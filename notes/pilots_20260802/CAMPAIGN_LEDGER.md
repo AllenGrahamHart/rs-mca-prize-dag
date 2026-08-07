@@ -2263,3 +2263,74 @@ dead + CW-FLOOR + PT-2 corrected. FOUR forced corrections to
 minted nodes in one round. NEXT: the wave-47 integration batch
 (five-class correction + the WCL/F2 adoptions + the crossing-node
 addendum + slot_1_5 census flip), then the round-21 board.
+
+## 2026-08-07: WAVE-47 INTEGRATION EXECUTED — A RED CLOSED (246 -> 247 = 181/41/25)
+
+The full adopted batch landed in one pass, all chains green:
+- **dli_wcl_slot_1_5_emptiness TARGET -> PROVED** (Codex's proof;
+  the auditor's Burnside closure of the census trust root
+  [2,296,920 classes, remainder 0]; coordinator replay
+  WCL15_CERTIFICATE_PASS) — **THE FIRST CRITICAL RED CLOSED this
+  phase: math orbit 26 -> 25 targets** (247 = 181/41/25; submission
+  262 = 193/43/26; pins repriced with provenance).
+  dli_wcl_weight4_ambient_exclusion promoted background -> critical
+  (FORCED by the adopted slot wiring — the partition law; the
+  auditor's HOLD resolved by necessity, refs fixed).
+- **13 F2 nodes adopted** (7 clean + 6 with coordinator addenda:
+  the banked-identity citation, the truncated-fence widest reading,
+  the superseded-upward note, the root-disjointness gap, the
+  Hamming-vs-Fourier tail distinction, the retargeted edge) + the
+  CS supplier node. THE FIVE-CLASS FORCED CORRECTION applied to
+  f2_admissible_object + f2_o1_status_split (statement.md AND
+  node.json; the auditor's REJECT-the-in-place-flip prescription
+  honoured — G1/G2 narrowed to the plus branch, five signed types
+  of record, survivors enumerated).
+- **The crossing node**: statement addendum landed (THEOREM BB +
+  the resolved maintainer question + the verifier note);
+  **verify.py repaired GREEN for the first time** (Codex's wave-47
+  version + the post-dating edges incl. the two ref-kind entries —
+  the pre-existing W-5 red is dead, 224/224).
+- WCL artifacts: wcl15_finish (tail-191 + 193 certs), wcl16_delta6
+  fence, zone-coverage 10 -> 9, fiber_rigidity, roadmap shard 15 +
+  CR-004, the tail-factor result. HELD (unchanged): the
+  f2_conditional_close rewrite (awaits the f2_repose mint
+  composition), the selector transport, the sectioning schema +
+  decomposition (the verbatim-restore edit goes with it, wave 48).
+- Site + orbit republished at the new census. WAVE 48 QUEUE: the
+  post-pin Codex commits (selector handoff f8ad8cb5e, the
+  aperiodicity corollary, f2_selector_face_primitive_reduction,
+  + overnight work) — next audit cycle.
+
+## 2026-08-07: MYSTERIES 5 & 6 PROMOTED (user-ratified) + ROUND 21 LAUNCHED
+
+(Quarantine marker: round-21 pilots must not read ledger entries
+below this line until the round completes.)
+
+THE PROMOTION (recorded in the roadmap board section, r4 update):
+generator_economy = MYSTERY 5 (the early-cap signal; kernel-lattice
+alternative; ternary-bridge candidate); l1_mixed_petal_amplification
+= MYSTERY 6 (retracted induction; residue-line growth = the named
+obstruction; the un-surveyed ~133-commit Codex v4 PMA campaign).
+The 25-red accounting of record: 14 mystery-linked / 9 WCL grind /
+2 straddling (hge4 = sparsity in another jersey; dsp8 = pencil
+satellite); two of the 14 possibly already closable.
+
+ROUND 21 (4 agents):
+- **PMA v4 auditor**: the un-surveyed Codex campaign
+  (prize-codex-resolution-v4-20260713), audited against the CURRENT
+  mystery-6 node incl. retraction-respect; draft to
+  PMA_V4_AUDIT_DRAFT.md; blind to the l1 pilot.
+- **gen_economy_diag (MYSTERY 5)**: consumer contract; the early
+  cap quantified with an in-principle verdict; the TERNARY BRIDGE
+  TEST under the round-19 graded discipline (construction-vs-
+  exclusion duality, the tau side); the kernel-lattice route
+  priced; the weakest-form re-pose.
+- **l1_pma_diag (MYSTERY 6, blind to the auditor)**: the imgfib
+  contract; the obstruction formalized; the MANDATORY adversarial
+  construction attempt before believing the censuses; the
+  cross-lane instrument matrix; the weakest-form re-pose.
+- **red_closability_probes**: integer_code_distance_cert vs
+  Z-1/Z-2 (the shift-0 scope check IS the probe);
+  unsafe_crossing_family_instantiation vs THEOREM BB (the
+  universality quantifier decides); certificates written where
+  closable, no status flips (coordinator flips on replay).

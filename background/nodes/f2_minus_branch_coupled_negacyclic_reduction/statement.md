@@ -59,3 +59,10 @@ Z_W=2^-m sum_v N_W(v)^2 >= max(1,2^m/p^(hR)),           (MINUS-L2)
 
 and every nonzero ternary kernel word has weight at least `2R+1`.
 No upper bound on `Z_W` is asserted.
+
+## Addendum (2026-08-07, wave-47 integration, coordinator)
+
+Root-disjointness is argued in prose and corroborated on surrogates
+only (the F2 auditor's request for a closed-form inequality stands);
+the reduction is adopted as the minus-branch OBJECT MODEL candidate
+(the round-20 f2_repose residual) with that gap named.

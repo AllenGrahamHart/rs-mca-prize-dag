@@ -2549,7 +2549,6 @@ new assumptions: none
 compute: no Modal; exact polynomial division replay under 256 MB RAM guard
 next: depth-uniform prefix flatness for the ladder; BC attack only above e=ell-a
 ```
-
 ### High-multiplier LS6 Pade coordinates
 
 Let `e=deg Etilde>ell-a`. For every high-multiplier LS6 candidate, exact

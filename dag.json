@@ -28403,8 +28403,8 @@
   },
   {
    "id": "f2_admissible_object",
-   "title": "Refuted plus-only prize-admissible F2 object",
-   "status": "REFUTED",
+   "title": "The prize-admissible F2 object: the 16-rung KoalaBear tower is NOT admissible (cap broken from rung 4); on the admissible region (v_2(e) <= 2, e <= 6, log2 p >= 39, depth <= 2) the descent collapses to LEMMA ADM-2's exact direct sum of prime-field GRS codes (dim L EXACT), the generating classes are exactly three (Lucas-certified non-empty; e in {3,5,6} can never generate), and the coset domain costs the first moment a factor of exactly 1 (THEOREM C1)",
+   "status": "PROVED",
    "refs": [
     "background/nodes/f2_admissible_object/statement.md",
     "notes/pilots_20260806/f2_adm/PROOFS.md",
@@ -28412,8 +28412,8 @@
     "notes/pilots_20260806/o1_generating_adversary/verify.py",
     "notes/pilots_20260806/f2_tq_pin/verify.py"
    ],
-   "closure": "counterexample",
-   "statement": "The Round-18 composite proposition applies the p=1 mod 4 order formula and bounded proportionality-class decomposition to every admissible row, and says there are exactly three generating classes. This is false on the official generating row p=2^61-1, q=p^2: ord_(2^41)(p)=2=e but the antipodal half-system has 2^40 singleton F_p-proportionality classes. The corrected classification has five signed generating types and the minus branch is one coupled negacyclic code. The field-cap, trace-rank, and coset-invariance components survive only in their corrected scopes."
+   "closure": "proof",
+   "statement": "Admissible region at n = 2^41: v_2(e) <= 2, e <= 6, log2 p >= 39, tower depth <= 2 (f2_tq_pin CATCH-1: the 16-rung tower breaks |F| < 2^256 from rung 4). LEMMA ADM-1/2/3: for D = 41 - v_2(p-1) <= 2, L^perp decomposes as a direct sum of C prime-field GRS/MDS class kernels [S, S-R, R+1]_p, dim_Fp L = C min(S,R) EXACTLY, Z(L) = Z_1^C; the ADM-3 upper-bound constant is k = ord_n(p), not [F_q:F_p] (corrects f2_sl1b LEMMA SL-1b-DIM off-tower). Depth-budget: t <= n/(2^D(41-D)). THEOREM G1/G2: generating classes are exactly (e_p,e,k) in {(>=41,1,1),(40,2,2),(39,4,4)}, all non-empty with Lucas p-1 certificates; e in {3,5,6} can never generate since ord mod 2^41 is a 2-power. THEOREM C1: the rules-level coset domain g mu_n costs E_{K1}[T_W] a factor of EXACTLY 1 (bijection phi_g; verified by a disjoint group-ring route). THEOREM A discharges only order layers <= 42 - log2 L (0.78% of the domain at prize-max; no moving rung, minimum shortfall 39x); (M3) vacuous on admissible rows. NOT claimed: any Z_1 bound; (O1)'s status; the antipodal law on cosets (open \u2014 the coset gap is confined to the parity/descent machinery by C1). Provenance: notes/pilots_20260806/{f2_adm (373/373), o1_generating_adversary (187/187), f2_tq_pin (64/64)}, coordinator-replayed; ledger CAMPAIGN_LEDGER.md round-17/18 banks. FIVE-CLASS CORRECTION (2026-08-07, forced): G1/G2 as stated ran the p == 1 mod 4 LTE law only \u2014 the census of record is FIVE signed types (+ the two minus-branch types via v_2(p+1); missing row p = 2^61-1, q = p^2, verified thrice); ADM-1/2 is PLUS-BRANCH-ONLY; ADM-3, C1, the cap, the trade-off and the witnesses survive; see statement.md Addendum + f2_admissible_generating_branch_classification."
   },
   {
    "id": "f2_admissible_weighted_prefix_l2_identity",
@@ -28566,7 +28566,7 @@
     "notes/pilots_20260806/o1_generating_adversary/PROOFS.md"
    ],
    "closure": "proof",
-   "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over \u2014 THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 \u2014 at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice \u2014 the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed."
+   "statement": "Non-generating admissible rows (k = ord_n(p) < e): (O1) FALSE by 2^{Theta(n)} twice over \u2014 THEOREM ADM-B (LEMMA 3 ratio k/e, t-naming-independent) and THEOREM Z-3 (object-level: Z(L) >= 2^{m(1-(k/e)(tL/n))}), exhibit p = 3 2^41+1 q = p^6 with matching exponents 2^{5n/12}; the F2 lane needs a generation hypothesis the rules do not supply (MAINTAINER, open). Generating rows (exactly three classes by G1/G2): THEOREM Z2 \u2014 at k = e LEMMA 3's requirement IS the balance tL >= n, so (O1) survives under the full-subset calibration (C) (<= 184 bits slack) and is FALSE by 2^{n/(L^2 ln 2)} >= 2^{4.84e7} under the exact slice calibration (T*); the 0.0044% between them (banked twice as agreement) is the SIGN of (O1) at zero margin. Kill is parity-reading-A-only; CATCH-H: A is internally forced (proved K1/K2/G trichotomy + the lane's own min(m_j, t/2) text); CATCH-G: the (O1)=>(O2) fence demands the slice \u2014 the lane's internal logic points at the false cell. Minimal surviving form: E_{K1}[T_W] = 2^{n/2} Z_1^e exactly, (O1) iff Z_1 <= 2^{o(n)/e}, subject to the two unpinned conventions. FOUR-FACE SEAM: balance = LEMMA 3 = Z-FLOOR vacuity boundary = PP5.0 avg-vs-sum, one inequality on k = e rows; campaign working convention (coordinator ruling 2026-08-06, stricter-reading clause, flagged for maintainer): the SUM reading, both pricings carried. NOT claimed: (O1) itself on generating rows; the maintainer pins; any Z_1 upper bound. Provenance: notes/pilots_20260806/{f2_adm, z1_ternary_mass, o1_generating_adversary}, all coordinator-replayed. FIVE-CLASS CORRECTION (2026-08-07): the generating domain is five signed types, not three (see f2_admissible_object); Z2 and the non-generating kill are class-independent; the two minus-branch types lack an object model (named residual). ENSEMBLE RULING RE-OPENED + SCOPE DISSOLVED per the statement.md addenda (2026-08-06/07): under (C) the finite target Z <= 1 + N^3; k = 1 reduces to the PROVED f2_k1_contraction_theorem; residual k in {2,4}."
   },
   {
    "id": "f2_selector_face_primitive_reduction",
@@ -55105,8 +55105,8 @@
   },
   {
    "from": "f2_admissible_object",
-   "to": "f2_conditional_close",
-   "kind": "ev"
+   "to": "u2c_giant_tnull_dichotomy",
+   "kind": "ref"
   },
   {
    "from": "f2_admissible_weighted_prefix_l2_identity",
