@@ -10,3 +10,7 @@
 4. A per-cell polynomial whose exponent grows with `ell` is not a payment.
 5. Falsification should search for superpolynomial guarded LS6 fibers, not
    large unguarded linear slices or artificial sums over `lambda`.
+6. Use the proved full-domain descriptor: `2r<j`, the flat-wide common-gcd
+   branch is empty, and the ambient mean is exponentially below one.
+7. Separate the aperiodic primitive census from even-`a` dyadic pullbacks and
+   reciprocal/dihedral strata. Odd `a` has no pure multiplicative pullback.

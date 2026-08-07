@@ -28,3 +28,17 @@ uniform polynomial/profile payment for one fixed guarded LS6 atom, strong
 enough that its sum over these polynomially many cells is admissible. There
 is no remaining source-layout or free-`lambda` composition problem. Bounding
 the dimension of the ambient linear slice is not the conclusion.
+
+For every nonempty atom, the proved master-flat descriptor injects its
+candidates into an unpunctured full-domain split flat with
+
+```text
+j=2ell-a,       r=ell-2a+1,       j-2r=3a-2>=1,
+gcd(P)=1,       binom(n,j)/Q^(j-r)<2^(-3ell-4),
+```
+
+where `Q` is the generated-field size of the descriptor.
+
+Thus the live primitive issue is a sub-balance maximum-versus-average
+split-flat bound. Pure multiplicative pullbacks are absent for odd `a`; the
+even-`a` quotient and all dihedral strata still require owner-safe treatment.
