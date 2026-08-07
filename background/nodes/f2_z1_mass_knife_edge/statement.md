@@ -165,3 +165,57 @@ Z(L) <= 1 + N^3 the window is 4.77 bits absolute, so the non-local
 input must be essentially EXACT, not merely 2^{o(S)}.
 Source: notes/pilots_20260807/f2_rlocality/ (PROOFS.md THEOREMS
 RL-1..RL-5; four verifier logs, coordinator-replayed).
+
+## Round-23 addendum (2026-08-07, coordinator-applied on replay: the cw_shared_target pricing)
+
+**THE NORMALIZATION PIN (pilot's catch, adopted).** The banked
+factor-2 calibration ("no subspace beats random by more than 2x,
+696 configurations") covers the RATIO normalization
+CRATIO = Z/(1 + (2^m - 1)/p^dim L) — measured max 1.2610 over
+7,000+ exhaustively swept 2-power cells across BOTH the f2 and
+crossing families, 0 violations. It does NOT cover the EXCESS
+normalization (Z - 1) * p^dim L / (2^m - 1), which exceeds 2 inside
+this node's own family: EXCESS = 2.3463 at (S,R,p) = (16,2,3137)
+(32 weight-11 ternary kernel vectors against a heuristic mass of
+2^-7.23; grows along SIGMA -> -infinity: 2.13 at p=1409, 1.70 at
+1889, 2.35 at 3137). Consumers at SIGMA < 0 need the EXCESS form —
+do not quote the factor-2 calibration there.
+
+**CONJECTURE Z-CEILING (candidate route for the open terminal —
+proposed by the coordinator on the pilot's draft; adversarially
+tested BEFORE proposal).** There is an absolute constant C such
+that for every admissible F_p-subspace L on the 2-POWER grid:
+Z(L) <= C * (1 + 2^m / p^{dim L}). Status: conjecture; the sharper
+EXCESS form is already FALSIFIED (above) and must not be stated;
+the ratio form survives 7,000+ cells at C <= 1.2610. IF true with
+C < 2^4.77, it closes THIS node's open terminal with 4.44 bits of
+headroom at the toy-measured constant (Z_1 <= 2^18.31 vs the
+finite target 2^22.75) — under the exact-balance reading; under
+the R = ceil(t/2) reading the terminal is trivially met (SIGMA =
+-46.02), so the terminal is open ONLY under exact balance.
+LOAD-BEARING HYPOTHESIS: the 2-power grid — at composite 2L the
+p-free cyclotomic relations drive EXCESS to 178.51 (L=6, p=19993),
+growing linearly in p. Registered falsifier: any admissible 2-power
+cell with CRATIO > C.
+
+**THE CONVERGENCE RESTATED HONESTLY (qualifies the round-22
+"fourth lane convergence" above).** The convergence is real on the
+OBJECT (one functional: TMASS(D) = sum_{eps in D cap T} 2^{-wt} —
+mystery 4's deep-stratum population is EXACTLY this functional via
+the LEMMA TC bijection, weight-distorted by only GDEV in
+[1, Theta(sqrt L)], verified 20/20 + 12/12 against banked counts)
+and on the missing DIRECTION (both consumers need the UPPER
+companion of the proved floors). It is NOT a convergence on the
+BOTTLENECK: mystery 2's terminal IS the functional (0-bit bridge),
+while mystery 4's LIVE crux (Acc_shallow + aperiodic S) sits
+exactly OFF the periodic strata where the TC fold is a bijection,
+and the only remaining bridge (collision/Cauchy-Schwarz) loses a
+measured 0.31-0.50 of kappa*log2 p — >= 4.565e11 bits at the
+official row against a 54.45-bit tolerance. ONE OBJECT, TWO
+TARGETS. First official-row datum on the shared functional: THEOREM
+BB's 2^199.575 floor composed with the TC identity puts the
+official-object ternary theta 11.84 bits BELOW its volume
+heuristic — consistent with Z-CEILING, not refuting it.
+Source: notes/pilots_20260807/cw_shared_target/
+(coordinator-replayed, 130/29 with every FAIL an itemized
+registered-prediction miss).

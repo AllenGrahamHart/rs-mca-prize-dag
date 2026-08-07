@@ -2834,3 +2834,48 @@ pass this quarantine clause to any subagent they dispatch.
   stays); census unchanged; chain green. The risk register had
   anticipated exactly this outcome.
 - Awaiting: cw_shared_target, fpc5_diag, ge_lattice_cert.
+
+## 2026-08-07: round-23 agent 2 BANKED — cw_shared_target: ONE OBJECT, TWO TARGETS; CONJECTURE Z-CEILING minted as mystery 2's candidate closure; the first official-row datum on the shared functional
+
+- **cw_shared_target (Opus) BANKED, MAINTAINER-LEVEL** (130/29
+  replayed exactly; every FAIL an itemized registered miss; G1/G4
+  licensing controls bit-exact from a fresh code path). (1) THE
+  VERDICT: the four-lane convergence is real on the OBJECT
+  (mystery 4's deep-stratum population IS mystery 2's ternary
+  theta TMASS via the LEMMA TC bijection — 20/20 fold-vs-brute +
+  12/12 vs banked N_acc; weight distortion GDEV exactly computed,
+  max = Theta(sqrt L)) and on the DIRECTION (both need the upper
+  companion of proved floors), but NOT on the bottleneck: mystery
+  2 pays a 0-bit bridge; mystery 4's live crux (Acc_shallow +
+  aperiodic S) sits off the periodic strata and its only bridge
+  (collision/C-S) loses 0.31-0.50 of kappa*log2 p = >= 4.565e11
+  bits at the official row vs a 54.45-bit tolerance (ratio
+  8.4e9). TWO SEPARATE TARGETS; no unification language; round-19
+  gates graded. (2) **CONJECTURE Z-CEILING** (the upper companion
+  of THEOREM Z-FLOOR): sharp EXCESS form FALSIFIED by the pilot's
+  own registered adversarial search at (16,2,3137) (EXCESS 2.3463,
+  growing along SIGMA -> -inf) BEFORE proposal; ratio form
+  survives 7,000+ exhaustive 2-power cells at C <= 1.2610; iff
+  C < 2^4.77 it closes mystery 2's finite target with 4.44 bits
+  headroom (and the terminal is open ONLY under the exact-balance
+  reading); load-bearing hypothesis = the 2-power grid (composite
+  2L: EXCESS 178.51, linear in p). Recorded on
+  f2_z1_mass_knife_edge with the NORMALIZATION PIN (the banked
+  factor-2 calibration covers RATIO only; EXCESS exceeds 2 in
+  f2's own family — the pilot's catch). (3) THE FIRST
+  OFFICIAL-ROW DATUM on the shared functional: THEOREM BB's
+  2^199.575 floor composed with the TC identity => the official
+  ternary theta sits 11.84 bits BELOW its volume heuristic —
+  consistent with the ceiling. (4) The crossing ledger updated
+  (statement_addenda/15): deep stratum settled at v >= 35 by the
+  TRIVIAL bound; the ceiling would de-vacuum only v=34 e=1 prime
+  rows (+2.09 bits, conditional); Acc_shallow NOT bridged — the
+  crux stays PRIMAL and unshared. (5) SC-1: the pilot's kappa = e
+  defect caught because it CONTRADICTED BANKED BB by 73.575 bits
+  — the tripwire mechanism working as designed; four registered
+  predictions falsified and reported; subtraction disclosed up
+  front. DEFERRED: the integer_code_distance_cert qualification
+  waits for ge_lattice_cert (reading that node now). ROUND-24
+  CANDIDATES: a Z-CEILING proof attempt; the primal BCH
+  population cap as its own brief.
+- Awaiting: fpc5_diag, ge_lattice_cert.

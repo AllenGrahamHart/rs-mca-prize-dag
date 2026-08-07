@@ -1,0 +1,135 @@
+========================================================================================================
+SECTION A -- the SHARP shared form.   EXCESS-CRATIO := (TMASS(D) - 1) * p^kappa / (2^N - 1)
+            EXCESS-CEILING(C):  TMASS(D) - 1 <= C * (2^N - 1)/p^kappa   for admissible D.
+            (Upper companion of THEOREM Z-FLOOR, which gives TMASS >= 2^N/p^kappa.)
+========================================================================================================
+
+A1. M4 family (RSET: eps _|_ (1,theta,...,theta^{L-1}), theta of exact order 2L, kappa=1), 2-POWER grid
+   L     pmax   #cells |   max EXCESS       at p      SIGMA     UMIN | largest p with R != {0}
+   4   200000     4466 |       0.0000       None      0.000        - | None
+   8   200000     2229 |       0.9375         17      3.913        - | 881
+  16     6000       46 |       1.0699       5569      3.557        - | 5953
+PASS  A1 EXCESS-CEILING with C = 2 survives the whole M4 2-power sweep max EXCESS-CRATIO = 1.0699 at (16, 5569)
+FAIL  A1 EXCESS-CEILING with C = 1.01 survives the whole M4 2-power sweep max EXCESS-CRATIO = 1.0699 at (16, 5569)
+
+A2. ADVERSARIAL: cells with SIGMA < 0 (heuristic mass << 1) that STILL carry a relation
+    -- this is where a C = O(1) ceiling can break, because one weight-U vector contributes 2^-U
+   L        p      SIGMA     UMIN  A[UMIN]        TMASS-1  EXCESS-CRATIO
+   8      337     -0.397        7       16          0.125         0.1652
+   8      353     -0.464        6       16          0.375         0.5191
+   8      401     -0.647        5       16            0.5         0.7863
+   8      433     -0.758        5       16            0.5         0.8490
+   8      577     -1.172        6       16           0.25         0.5657
+   8      881     -1.783        7       16          0.125         0.4319
+PASS  A2 no SIGMA<0 counterexample to EXCESS-CEILING(C=2) in the swept range max 0.8490 at (8, 433)
+
+A3. M2 family (negacyclic GRS toy, Lambda={1,3,...,2R-1}, kappa=R), adversarial sweep
+    S    R     |   #cells |   UMIN   2R+1 |  max TMASS-1     max EXCESS
+    8    2     |      279 |      6      5 |            -         0.2833  (at p=17)
+PASS  Z-1 (min ternary weight >= 2R+1) holds at every swept cell S=8 R=2 0 violations / 279 cells
+    8    3     |      279 |   None      7 |            -         0.0000  (at p=None)
+PASS  Z-1 (min ternary weight >= 2R+1) holds at every swept cell S=8 R=3 0 violations / 279 cells
+   16    2     |       32 |     11      5 |            -         2.3463  (at p=3137)
+PASS  Z-1 (min ternary weight >= 2R+1) holds at every swept cell S=16 R=2 0 violations / 32 cells
+   16    4     |       32 |   None      9 |            -         0.0000  (at p=None)
+PASS  Z-1 (min ternary weight >= 2R+1) holds at every swept cell S=16 R=4 0 violations / 32 cells
+FAIL  A3 EXCESS-CEILING with C = 2 survives the whole M2 sweep     max EXCESS-CRATIO = 2.3463 at (S,R,p) = (16, 2, 3137)
+
+A4. CONTROL (invalid grid, CATCH-Z6): composite 2L -- how large can C get?
+   L= 6 (2L=12): max EXCESS-CRATIO = 178.51 at p=19993   -- grows linearly in p (p-free cyclotomic relations)
+   L=12 (2L=24): max EXCESS-CRATIO = 7.15 at p=19993   -- grows linearly in p (p-free cyclotomic relations)
+
+========================================================================================================
+SECTION B -- what EXCESS-CEILING(C) BUYS MYSTERY 4 (deep stratum).  Exact integers.
+========================================================================================================
+B* = 2^127.5098 ; witness row p = 3*2^41+1 (log2 p = 42.584963, e = 6) ; prime rows e = 1, log2 p in [129.5849625, 256)
+
+Acc_deep(v) = C(L,r'/2) * sum_{eps != 0} GDEV(U) 2^-U  <=  C(L,r'/2) * GDEVmax(L) * C * (2^L-1)/p^e
+  v     L |       S(v)         U1         U2 |     CEIL e=6   CEIL e=1lo   CEIL e=1hi |  U2 margin
+ 34   128 |   117.1491   251.6279   243.6279 |      -0.5098     125.4150      -1.0000 |  -116.1182
+ 35    64 |    54.6242   124.0820   117.0820 |    -128.5098      -2.5850    -129.0000 |   +10.4278
+ 36    32 |    24.0755    60.4910    54.4910 |    -192.5098     -66.5850    -193.0000 |   +73.0188
+ 37    16 |     9.4818    28.8125    23.8125 |    -224.5098     -98.5850    -225.0000 |  +103.6973
+ 38     8 |     2.8074    12.9672     8.9773 |    -240.5098    -114.5850    -241.0000 |  +118.5325
+ 39     4 |     0.0000     4.8074     2.0000 |    -248.5098    -122.5850    -249.0000 |  +125.5098
+
+  (all columns are log2.  S(v) = C(2^{41-v},2^{40-v}-1)/2^{41-v}, banked exact.
+   U1 = C(2L,r'), U2 = M(2L,r') = PROPOSITION U2.  CEIL* = the conditional bound above, C = 2.0.)
+   v=34: GDEVmax=3.6073 | U2 >= B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^117.1491 < B*
+   v=35: GDEVmax=2.5951 | U2 < B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^54.6242 < B*
+   v=36: GDEVmax=1.8980 | U2 < B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^24.0755 < B*
+   v=37: GDEVmax=1.4322 | U2 < B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^9.4818 < B*
+   v=38: GDEVmax=1.1429 | U2 < B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^2.8074 < B*
+   v=39: GDEVmax=1.0000 | U2 < B* | CEIL(e=6) < B* | CEIL(e=1,lo) < B* | S(v)+CEIL(e=6) = 2^0.0000 < B*
+PASS  B: U2 is VACUOUS at v=34 (banked)                            U2 = 2^243.6279 vs B* = 2^127.5098
+PASS  B: EXCESS-CEILING(C=2) DE-VACUUMS v=34 at the e=6 witness row CEIL = 2^-0.5098 < B* = 2^127.5098  (margin +128.0196 bits)
+PASS  B: EXCESS-CEILING(C=2) DE-VACUUMS v=34 at the e=1 prime-row floor log2 p = 129.585 CEIL = 2^125.4150 < B* = 2^127.5098  (margin +2.0947 bits)
+PASS  B: v=34 deep-stratum TOTAL S(34)+Acc_deep under the ceiling is below B* (e=6) S(34)=2^117.1491, CEIL=2^-0.5098
+
+========================================================================================================
+SECTION C -- what EXCESS-CEILING(C) BUYS MYSTERY 2.
+========================================================================================================
+  banked: Z-FLOOR fires at +17.98 bits under the exact-balance reading (Z_1 >= 2^17.98);
+          silent by -46.02 bits under the banked R = ceil(t/2) reading;
+          finite target Z(L) <= 1 + N^3, i.e. Z_1 <= 2^22.75.  Window = 4.77 bits.
+   reading=exact-balance  SIGMA= +17.98  C=2^0.000  ->  Z_1 <= 2^17.9800    vs target 2^22.75 : MEETS
+   reading=exact-balance  SIGMA= +17.98  C=2^1.000  ->  Z_1 <= 2^18.9800    vs target 2^22.75 : MEETS
+   reading=exact-balance  SIGMA= +17.98  C=2^4.770  ->  Z_1 <= 2^22.7500    vs target 2^22.75 : MISSES
+   reading=exact-balance  SIGMA= +17.98  C=2^5.000  ->  Z_1 <= 2^22.9800    vs target 2^22.75 : MISSES
+   reading=R=ceil(t/2)    SIGMA= -46.02  C=2^0.000  ->  Z_1 <= 2^0.0000     vs target 2^22.75 : MEETS
+   reading=R=ceil(t/2)    SIGMA= -46.02  C=2^1.000  ->  Z_1 <= 2^0.0000     vs target 2^22.75 : MEETS
+   reading=R=ceil(t/2)    SIGMA= -46.02  C=2^4.770  ->  Z_1 <= 2^0.0000     vs target 2^22.75 : MEETS
+   reading=R=ceil(t/2)    SIGMA= -46.02  C=2^5.000  ->  Z_1 <= 2^0.0000     vs target 2^22.75 : MEETS
+FAIL  C: EXCESS-CEILING with C <= 2^4.77 closes M2's finite target (exact-balance reading) Z_1 <= 2^22.7500 vs 2^22.75
+PASS  C: the toy-measured C (<= 1.01) leaves 4.76 bits of headroom on M2's finite target Z_1 <= 2^17.9944, headroom 4.7556 bits
+
+========================================================================================================
+SECTION D -- THE DIVERGENCE, quantified: the bridge from the PRIMAL count to TMASS.
+========================================================================================================
+  PERIODIC strata (LEMMA TC): the fold eps_j = [j in S'] - [j+L in S'] is a BIJECTION.
+     -> FIB(fold) == NW(brute) verified at 20/20 toy cells in CENSUS.txt.  LOSS = 0 bits.
+  APERIODIC / SHALLOW (no fold): only the collision bound
+     NW^2 <= sum_{eps in C cap T, balanced} C(n-U, r'-U/2).   LOSS = L2LOSS bits.
+
+  measured L2LOSS / (kappa*log2 p) at the w=2 toy cells (kappa = 1), from CENSUS.txt SECTION 5:
+     L=8,p=17     L2LOSS = 2.0409 bits ;  kappa*log2 p = 4.0875 ;  fraction = 0.4993
+     L=8,p=97     L2LOSS = 2.5948 bits ;  kappa*log2 p = 6.5999 ;  fraction = 0.3932
+     L=8,p=113    L2LOSS = 3.3872 bits ;  kappa*log2 p = 6.8202 ;  fraction = 0.4966
+     L=8,p=193    L2LOSS = 3.0071 bits ;  kappa*log2 p = 7.5924 ;  fraction = 0.3961
+     L=8,p=241    L2LOSS = 3.2079 bits ;  kappa*log2 p = 7.9128 ;  fraction = 0.4054
+     L=8,p=257    L2LOSS = 3.1730 bits ;  kappa*log2 p = 8.0056 ;  fraction = 0.3963
+     L=8,p=337    L2LOSS = 2.9918 bits ;  kappa*log2 p = 8.3966 ;  fraction = 0.3563
+     L=8,p=353    L2LOSS = 2.6406 bits ;  kappa*log2 p = 8.4636 ;  fraction = 0.3120
+     range [0.3120, 0.4993], mean 0.4069  -> the collision bridge recovers at most ~half the suppression
+
+  at the official row (w = 2^35, kappa = w-1 = 34359738367, log2 p = 42.584963):
+     kappa*log2 p            = 1.46321e+12 bits
+     collision loss at 1/2   = 7.31604e+11 bits
+     collision loss at 0.312  = 4.56513e+11 bits   (the MOST FAVOURABLE measured fraction)
+     MYSTERY 4's ENTIRE TOLERANCE  = 54.45 bits (B* = 2^127.5098 minus the banked proved floor 2^73.061)
+     ratio loss/tolerance    = 8.38427e+09
+PASS  D: the collision bridge's loss exceeds M4's ENTIRE tolerance by >= 10 orders of magnitude 4.565e+11 bits of loss vs 54.45 bits of tolerance
+
+  and MYSTERY 2 pays NO such bridge: its open terminal IS the functional
+     (f2_z1_mass_knife_edge/statement.md:55-56 'prove Z_1 <= 2^{o(m)} at k = e',
+      with Z(L) = sum_{eps in L^perp cap T} 2^{-wt(eps)} at :18).
+
+========================================================================================================
+SECTION E -- the two contracts, numbers only
+========================================================================================================
+row                   | M2 (f2 terminal)             | M4-b (deep stratum)          | M4-a (LIVE crux)            
+---------------------------------------------------------------------------------------------------------------------
+functional            | TMASS(L^perp) = Z_1          | TMASS(RSET)                  | |W_w| / X_w(gamma)          
+N (ternary length)    | m = S = 2.75e11              | L = 2^{41-v} <= 128          | n = 2^41                    
+kappa (codim)         | R = S/log2 p ~ 2^32          | e in {1,...,6}               | w-1 = 2^35-1                
+SIGMA = N - k*log2 p  | +17.98 or -46.02             | -1.585 ... -251.5            | (no verified model)         
+direction needed      | UPPER                        | UPPER                        | UPPER                       
+banked instrument dir | Z-FLOOR = LOWER              | CW-FLOOR = LOWER             | CW-FLOOR = LOWER            
+tolerance             | 4.77 bits                    | 54.45 bits                   | 54.45 bits                  
+bridge to TMASS       | NONE (it IS the target)      | LEMMA TC bijection, 0 bits   | collision, >= 4.5e11 bits   
+ell (odd-power conds) | R = 2^32 -> wt >= 2R+1       | 1 (PERMANENT) -> wt >= 3     | 1 (PERMANENT)               
+already sufficient?   | NO (open terminal)           | YES at v>=35 (U1 < B*)       | NO                          
+
+========================================================================================================
+TOTAL: 12 PASS / 3 FAIL
+========================================================================================================
