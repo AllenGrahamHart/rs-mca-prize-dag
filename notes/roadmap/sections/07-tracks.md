@@ -1910,5 +1910,7 @@ mathematical decision value.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off
-the books); H2 FD as a schema only after the c2pp instance adjudicates;
+the books); H2 FD as a schema only after a first instance adjudicates LIVE — the c2pp
+instance ADJUDICATED UNSUPPORTED 2026-08-07 (selection-biased + theta-fragile;
+round-23 c2pp_diag), so H2 currently has no live instance;
 H3 = the D3 self-kill.

@@ -13,7 +13,8 @@
       "critical/nodes/dli_c2pp_joint_reserve/attack.md",
       "critical/nodes/dli_prime_weighted_large_block_support/notes/C2PP_POSED_20260710.md",
       "critical/nodes/dli_prime_weighted_large_block_support/notes/M1_RESULT_AUDIT.md"
-    ]
+    ],
+    "notes": "Round-23 adjudication (2026-08-07): the round-2 margin AND the round-3 overflow are retired together under the binding symmetric not-evidence clause (uniform 33x stacking is not evidence either way); theta-insensitivity refuted (F-b fires at theta in {2.5,3,4}); re-pose of record = C2''-r3 junction-sum form (see statement.md addendum). Packet path of record: critical/nodes/dli_c2pp_joint_reserve/notes/c2r2_fround2_20260713/ (F-round state: M1 + c2r2 survived AT theta=2 ONLY; rounds_survived=2; both retired as evidence). PRIOR NOTE (historical): "
   },
   "requires": [],
   "alternatives": [],

@@ -654,8 +654,12 @@ identifications without a machine-verified chain.
   valid and sharp. FD (Finite Defect): every refuted truncated ledger seen
   so far differs from a true extended ledger by finitely many gateable,
   orbit-quantized accidents — the missing composition property of catches
-  #102/#119. First instance: the c2pp bulk identity (worst case 1.0662,
-  monotone-decreasing slope). Cheapest adjudication: the DSP8 harness with a
+  #102/#119. First instance: the c2pp bulk identity — ADJUDICATED
+  UNSUPPORTED 2026-08-07 (round-23 C-8): the 1.0662 worst case is
+  selection-biased (the F-b scoring set drops the high-loss rows by
+  construction) and theta-fragile (F-b fires at every theta in {2.5,3,4});
+  see the round-23 addendum on dli_c2pp_joint_reserve. The FD schema needs a
+  DIFFERENT first instance. Cheapest adjudication: the DSP8 harness with a
   Sidon-strip preprocessing step. If live: the same restructure is owed at
   the summit and (jointly with upstream) his input 3 — the only recorded
   route onto the wall from either tree. The former ww instance is retired:
@@ -2661,7 +2665,9 @@ mathematical decision value.
 
 **Track H — hedges (funded, never built on):** H1 price RK by one dedicated
 refutation round (survives -> insurance; dies -> the 17-leaf prune comes off
-the books); H2 FD as a schema only after the c2pp instance adjudicates;
+the books); H2 FD as a schema only after a first instance adjudicates LIVE — the c2pp
+instance ADJUDICATED UNSUPPORTED 2026-08-07 (selection-biased + theta-fragile;
+round-23 c2pp_diag), so H2 currently has no live instance;
 H3 = the D3 self-kill.
 
 ## 8. Endgame

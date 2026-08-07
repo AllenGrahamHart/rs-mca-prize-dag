@@ -2793,3 +2793,44 @@ emptiness certification EXECUTED — mystery 5's first positive step),
 c2pp_diag (mystery 3 C1'/C2'' — the full diagnosis pipeline it never
 had). Pilots MUST NOT read ledger entries below this marker and MUST
 pass this quarantine clause to any subagent they dispatch.
+
+## 2026-08-07: round-23 agent 1 BANKED — c2pp_diag: the twice-survived C2'' margin is an ARTIFACT (theta-fragile + selection-biased); the evidence ledger reset symmetrically; C2''-r3 is the pose of record
+
+- **c2pp_diag (Opus) BANKED, MAINTAINER-LEVEL** (all four scripts
+  coordinator-replayed; positive controls bit-exact against the
+  banked packet). (1) BRIEF CORRECTED by the pilot before
+  computing: C2'' had survived TWO F-rounds (M1 + c2r2); my brief
+  conflated that with the 2026-07-07 kill of the predecessors —
+  this round is F-ROUND 3, and it properly minted a NEW falsifier
+  family instead of replaying. (2) THE THETA KILL (no new
+  transport needed): the pose's "insensitive for theta in [2,4]"
+  claim REFUTED on its own 8 rows — F-b's own kill rule FIRES at
+  every theta in {2.5, 3, 4} (x_max 1.0662 -> 2.2387; 14.53% ->
+  182.71% of reserve; 35.3-bit spread across the declared-
+  immaterial range). The 85% margin was manufactured by the
+  theta=2 accident cut (two classes clearing it by 0.24/0.14).
+  (3) SELECTION BIAS: all three original falsifiers excluded the
+  high-loss cells by three different mechanisms (F-b's b>0 filter;
+  F-c's window cap; F-a's stripped object). (4) THE STATEMENT GAP:
+  the `_reduced` qualifier separating the defended clause from the
+  wired claim lives in ONE line of ONE script and is dropped by
+  the very next use; clause (i) conflates internal-correlation-
+  freedom (true) with contribution-freedom (false — conditioning
+  shifts weight INTO the coset class up to 21.8x); clause (iii)
+  "counted once" non-conservative at 2/8 rows. (5) THE HONEST
+  PEAK: the pilot's own F-d overflow (482%) RETIRED TOGETHER with
+  the survivals under the now-binding SYMMETRIC not-evidence
+  clause — uniform 33x stacking is evidence in NEITHER direction
+  (Pro's 2026-08-01 demotion + the 32-wise trap now recorded on
+  the node). (6) RE-POSE OF RECORD ADOPTED: C2''-r3 — the
+  unreduced junction-sum form the consumer actually needs;
+  falsifiers G-a/G-b demand >= 8 CONSECUTIVE junctions of a
+  SINGLE tower. STANDING: C2'' is UNMEASURED AT ITS OWN QUANTIFIER
+  DEPTH; the decisive instrument does not exist in the repo
+  (Modal-scale, M1-shaped) — round-24 candidate: spec + price it.
+  (7) Catches C-1..C-8 ALL APPLIED (statement addendum; node.json
+  path/rounds/notes fixes; the roadmap FD-schema gate adjudicated
+  UNSUPPORTED — H2 has no live instance). No status flip (TARGET
+  stays); census unchanged; chain green. The risk register had
+  anticipated exactly this outcome.
+- Awaiting: cw_shared_target, fpc5_diag, ge_lattice_cert.
