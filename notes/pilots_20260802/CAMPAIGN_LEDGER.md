@@ -2403,3 +2403,38 @@ ROUND 21 (4 agents):
   exemplary (R4's registered bar FAILED and says so; R3
   superseded; the wrong-ring PREREG flagged not patched).
 - Awaiting: l1_pma_diag, red_closability_probes.
+
+## 2026-08-07: round-21 agent 3 BANKED — BOTH CLOSABILITY PROBES: NO, with permanent named blockers; three banked-material catches
+
+- **red_closability_probes (Opus) BANKED** (137/0 replayed; both
+  fail-closed controls verified). **PROBE 1 (integer_code_distance_
+  cert vs Z-1/Z-2): NOT CLOSABLE — permanently.** H1-H3 hold and
+  the shift-0 scope check PASSES (my brief's "the scope check is
+  the whole probe" was wrong — the pilot corrected it); the kill is
+  H4: the system supplies ell = 1 condition vs ell = 65 needed, and
+  ell = 1 is permanent by the REFUTED multi_multiplier_reduction
+  (rank-1 outer product for EVERY k, re-verified at six cells).
+  Z-2 at ell = 1 gives only weight >= 3 (attained). Bonus: the
+  PROVED high-field branch covers 5.02% of the prime-row window.
+  **PROBE 2 (unsafe_crossing_family_instantiation vs BB): CLOSES NO
+  PART.** Wrong functional (L_1 vs B_C — the inference refuted by
+  an exact finite countermodel L_1 = 6 > B* = 5 >= B_C = 5); BB's
+  row coverage DISJOINT from the pair-feasible residual (which
+  forces e = 1); form and endpoint mismatched (~1e6). Lead banked:
+  BB's METHOD shape matches the M-route's nu(A) need. CATCHES
+  (applied): P1 (folded_certificate's "min support 5" is the folded
+  Hamming statistic; the node-relevant unfolded support is 7 — the
+  wrong statistic in a certificate note); P2 (weight_graded_mitm's
+  factor-N' speedup justified by a Frobenius map that is the
+  IDENTITY under p = 1 mod N'; the saving survives via cyclic
+  shift — mechanism corrected in a certificate node); P3 (the MCA
+  node was filed under LIST.md — filing corrected both sides).
+  ACCOUNTING UPDATE: "2 of the 14 possibly closable" -> **0** —
+  the 14 mystery-linked reds hide no cheap wins; both blockers are
+  structural and already-banked. The probes also COMPOSE with
+  mystery 5's re-pose: integer_code_distance_cert is confirmed as
+  the genuine open content of the kernel-lattice line (ell = 65
+  conditions needed = the real problem; the transported laws serve
+  the ell-condition system, which the k-multiplier route cannot
+  manufacture).
+- Awaiting: l1_pma_diag (the last of round 21).

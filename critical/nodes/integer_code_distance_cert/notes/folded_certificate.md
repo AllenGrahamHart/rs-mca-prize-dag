@@ -31,3 +31,13 @@ theorem. Two honest caveats: (i) needs the pinned official exhibit cell
 "collision found" (survivable, charged) rather than "certified" -- a
 per-prime accident, as p=10177 shows. The STRUCTURAL alternative that
 certifies ALL good primes at once is e1_fullness (the density theorem).
+
+## Addendum (2026-08-07, round-21 probes CATCH-P1, forced)
+
+The "min support 5" at (N'=16, p=10177) is the FOLDED HAMMING
+weight; the node's threshold is UNFOLDED TERNARY SUPPORT, which at
+that cell is 7 (fold lemma: min ternary support = min folded L1
+weight; verified exhaustively — supports 1-6 empty, support 7 has
+128 vectors; the 48-collision count replicates). The cell verdict
+is unaffected; the recorded statistic was the wrong one for a
+certificate.

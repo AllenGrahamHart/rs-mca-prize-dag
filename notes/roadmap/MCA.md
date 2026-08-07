@@ -28,3 +28,8 @@ Use Przemek's terminology in outbound packets.  The local-to-upstream scope,
 pins, and two-axis status are maintained in
 `notes/correspondence/JOINT_CROSSWALK.json` and summarized in
 [SHARED_UPSTREAM.md](SHARED_UPSTREAM.md).
+
+- [Added 2026-08-07, CATCH-P3 filing correction] Universal
+  unsafe-crossing family instantiation
+  (unsafe_crossing_family_instantiation) — MCA-lane: sole out-edge
+  to unsafe_at_crossing; formerly filed under LIST.md in error.

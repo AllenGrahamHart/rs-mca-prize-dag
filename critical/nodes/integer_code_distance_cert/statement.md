@@ -33,3 +33,17 @@ Before computation, bind the literal row payload and prove that its class count 
 ## Falsifier
 
 a non-cyclotomic ternary kernel vector inside the declared support bound, or a declared cell whose exact cardinality is at most `B*`
+
+## Addendum (2026-08-07, round-21 closability probe — NOT closable via the transported distance laws)
+
+Probe verdict (notes/pilots_20260807/red_closability_probes/): the
+Z-1/Z-2 transport CANNOT close this node — hypotheses H1-H3 hold
+and the shift-0 scope check PASSES, but the system supplies ell = 1
+odd-power condition against the ell = 65 the threshold needs, and
+ell = 1 is PERMANENT: multi_multiplier_reduction (REFUTED) proves
+the k-multiplier residue matrix is a rank-1 outer product for every
+k. Z-2 at ell = 1 yields only "weight >= 3", attained. The PROVED
+high-field branch (p > 253^32) covers 5.02% of the e = 1 prime-row
+log-window; the four pinned Proth exhibits sit 84.5-88.5 bits below
+it. This node remains the genuine open content of the (re-posed)
+mystery-5/kernel-lattice line.

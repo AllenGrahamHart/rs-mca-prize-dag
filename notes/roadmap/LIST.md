@@ -13,7 +13,10 @@ exact unsafe witness on every required row.
 
 - DLI C1/C2 and WCL exact finite-row obligations.
 - Generator economy and adopted-row integer-distance certification.
-- Universal unsafe-crossing family instantiation.
+- Universal unsafe-crossing family instantiation. [FILING CORRECTED
+  2026-08-07, round-21 CATCH-P3: this is an MCA-lane node (sole
+  out-edge to unsafe_at_crossing -> mca_unsafe -> mca_grand); listed
+  here historically — see MCA.md.]
 - The rate-half ordinary-list adjacent crossing.
 - Per-row small-`t` certification and the submission-quality dossier.
 
