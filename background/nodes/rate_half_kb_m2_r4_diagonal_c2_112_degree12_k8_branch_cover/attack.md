@@ -1,8 +1,8 @@
 # Attack
 
-This node closes the complete `K8=0` complement of the `B0` chart. It does
-not need further subdivision.
+This node closes the complete `K8=0` complement of the `B0` chart for all
+four `R02` assignments. It does not need further subdivision.
 
-Use it only in the `F04-R02` degree-12 composition with the proved
-`K8!=0`, `s=0`, and `L6=0` leaves. Do not transport the literal basis hashes
-to `R20` or another assignment without a separate replay.
+Compose it only with the literal `K8!=0`, `s=0`, and `L6=0` leaves already
+proved for those four cells. Do not transport these basis certificates to
+`R20`; its `B0` saturation remains one-dimensional.

@@ -45,6 +45,18 @@ elif MODE == "global_saturation_b0":
             "global_saturation": True,
         },
     )
+elif MODE == "global_saturation_all_b0":
+    CASES = tuple(
+        {
+            "cell": f"{assignment}-{target}",
+            "divisor": "B0",
+            "groebner": False,
+            "global_saturation": True,
+            "skip_elimination": True,
+        }
+        for assignment in ("F04", "F05", "F06", "F07")
+        for target in ("R02", "R20")
+    )
 elif MODE == "fiber_search_b0":
     CASES = (
         {
@@ -119,7 +131,7 @@ image = (
 )
 
 
-@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=5)
+@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=8)
 def run_case(case: dict[str, object]) -> dict[str, object]:
     import hashlib
     import os
@@ -144,6 +156,8 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
         command.append("--groebner")
     if case.get("global_saturation"):
         command.append("--global-saturation")
+    if case.get("skip_elimination"):
+        command.append("--skip-elimination")
     if case.get("fiber_search"):
         command.append("--fiber-search")
         command.extend(("--fiber-start", str(case.get("fiber_start", 1))))

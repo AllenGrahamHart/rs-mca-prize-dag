@@ -4,8 +4,8 @@
     "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover",
     "title": "KoalaBear degree-12 K8-zero branch cover",
     "status": "PROVED",
-    "closure": "exhaustive K10 dichotomy on the F04-R02 K8-zero branch",
-    "statement": "Assume the live F04-R02 degree-12 branch has K8=0. If the A0 leading factor K10 is nonzero, exact A0 pseudo-remainders give degree-37 cores and the ideal (R12,K8,C_A,C_B) has a size-62 dimension-one basis whose full localizer is zero. If K10=0, the larger residual ideal (R12,K8,K10) has a size-27 dimension-one basis whose full localizer is zero. The two cases exhaust K8=0, so this branch is empty over the algebraic closure.",
+    "closure": "exhaustive K10 dichotomy on all four R02 K8-zero branches",
+    "statement": "Assume any live F04-R02, F05-R02, F06-R02, or F07-R02 degree-12 branch has K8=0. If the A0 leading factor K10 is nonzero, exact A0 pseudo-remainders give literal determinant cores and the four ideals (R12,K8,C_A,C_B) have dimension-one bases of sizes 62,61,61,62 whose full localizers are zero. If K10=0, each larger residual ideal (R12,K8,K10) has a size-27 dimension-one basis whose full localizer is zero. The two cases exhaust K8=0, so all four branches are empty over the algebraic closure.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/statement.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/proof.md",
@@ -17,7 +17,8 @@
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/verify.py",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/degree12_k8_branch_probe.sage",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/degree12_k8_branch_probe_modal.py",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/modal_degree12_k8_branch_output.json"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/modal_degree12_k8_branch_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_k8_branch_cover/modal_degree12_k8_branch_all_r02_output.json"
     ]
   },
   "requires": [

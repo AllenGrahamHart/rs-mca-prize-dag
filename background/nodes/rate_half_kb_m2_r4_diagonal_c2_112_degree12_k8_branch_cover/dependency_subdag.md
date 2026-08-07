@@ -2,7 +2,7 @@
 
 ```text
 quadratic pseudo-remainder determinant reduction [PROVED]
-  -> K8=0, K10!=0 A0 chart [PROVED here]
-  -> K8=K10=0 residual [PROVED here]
-       -> complete K8=0 branch cover [PROVED]
+  -> four K8=0, K10!=0 A0 charts [PROVED here]
+  -> four K8=K10=0 residuals [PROVED here]
+       -> four complete R02 K8=0 branch covers [PROVED]
 ```

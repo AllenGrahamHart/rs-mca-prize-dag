@@ -36,6 +36,7 @@ def main():
     parser.add_argument("--divisor", choices=("A0", "B0"), required=True)
     parser.add_argument("--groebner", action="store_true")
     parser.add_argument("--global-saturation", action="store_true")
+    parser.add_argument("--skip-elimination", action="store_true")
     parser.add_argument("--fiber-search", action="store_true")
     parser.add_argument("--factor-fibers", action="store_true")
     parser.add_argument("--fiber-start", type=int, default=1)
@@ -465,8 +466,123 @@ def main():
             ),
             flush=True,
         )
+        field_basis = saturation_basis
+        field_unit = saturation_unit
+        field_steps = []
+        full_open_steps = []
+        full_open_product_zero = saturation_unit
+        if not saturation_unit and saturation_dimension == 0:
+            def saturation_metric(value):
+                value = saturation_ring(value)
+                return {
+                    "degree": int(value.total_degree()) if value else -1,
+                    "degrees": [
+                        int(value.degree(generator))
+                        for generator in (inverse, sx, sp, ss)
+                    ],
+                    "terms": int(len(value.monomials())) if value else 0,
+                    "sha256": digest(value),
+                }
+
+            def saturation_power_reduce(value, exponent):
+                result = saturation_ring(1)
+                power = saturation_ring(value).reduce(saturation_basis)
+                remaining = int(exponent)
+                while remaining:
+                    if remaining & 1:
+                        result = (result * power).reduce(saturation_basis)
+                    remaining >>= 1
+                    if remaining:
+                        power = (power * power).reduce(saturation_basis)
+                return saturation_ring(result)
+
+            q = int(field.cardinality())
+            frobenius = []
+            for name, generator in (("x", sx), ("s", ss), ("pvar", sp)):
+                current = saturation_ring(generator)
+                for iteration in range(1, 7):
+                    current = saturation_power_reduce(current, q)
+                    event = {
+                        "name": name,
+                        "iteration": iteration,
+                        "metric": saturation_metric(current),
+                    }
+                    field_steps.append(event)
+                    print(
+                        canonical_json({"phase": "GLOBAL_FIELD_STEP", **event}),
+                        flush=True,
+                    )
+                frobenius.append(
+                    saturation_ring(current - generator).reduce(saturation_basis)
+                )
+            print(canonical_json({"phase": "GLOBAL_FIELD_BEGIN"}), flush=True)
+            field_basis = list(
+                saturation_ring.ideal(
+                    saturation_basis + frobenius
+                ).groebner_basis(algorithm="singular:slimgb")
+            )
+            field_unit = field_basis == [saturation_ring(1)]
+            print(
+                canonical_json(
+                    {
+                        "phase": "GLOBAL_FIELD_DONE",
+                        "unit_ideal": field_unit,
+                        "basis_size": len(field_basis),
+                        "basis_sha256": digest(
+                            "\n".join(str(value) for value in field_basis)
+                        ),
+                        "frobenius": [
+                            saturation_metric(value) for value in frobenius
+                        ],
+                    }
+                ),
+                flush=True,
+            )
+            if not field_unit:
+                selected_degree_x = int(selected.degree(x))
+                selected_leading = base(
+                    sum(
+                        QQ(coefficient) * s ** monomial[1] * p ** monomial[2]
+                        for monomial, coefficient in selected.dict().items()
+                        if monomial[0] == selected_degree_x
+                    )
+                )
+                degree6_values = [
+                    factor
+                    for factor, _ in selected_leading.factor()
+                    if factor.total_degree() == 6
+                ]
+                assert len(degree6_values) == 1
+                full_open_values = [s, degree6_values[0], leading_nonnamed_values[0]]
+                full_open_values.extend(branch["unit_factors"])
+                full_open_product = saturation_ring(1)
+                for index, value in enumerate(full_open_values, start=1):
+                    full_open_product = (
+                        full_open_product
+                        * to_saturation_global(convert_global(value))
+                    ).reduce(field_basis)
+                    event = {
+                        "index": index,
+                        "zero": not bool(full_open_product),
+                        "terms": (
+                            int(len(full_open_product.monomials()))
+                            if full_open_product
+                            else 0
+                        ),
+                        "sha256": digest(full_open_product),
+                    }
+                    full_open_steps.append(event)
+                    print(
+                        canonical_json(
+                            {"phase": "GLOBAL_FULL_OPEN_STEP", **event}
+                        ),
+                        flush=True,
+                    )
+                    if not full_open_product:
+                        break
+                full_open_product_zero = not bool(full_open_product)
         elimination_records = []
-        if not saturation_unit:
+        if not saturation_unit and not args.skip_elimination:
             print(canonical_json({"phase": "GLOBAL_ELIMINATION_BEGIN"}), flush=True)
             elimination = saturation_ring.ideal(
                 saturation_basis
@@ -526,10 +642,23 @@ def main():
             "saturation_basis_sha256": digest(
                 "\n".join(str(value) for value in saturation_basis)
             ),
+            "field_extension_degree": 6,
+            "field_unit_ideal": field_unit,
+            "field_basis_size": len(field_basis),
+            "field_basis_sha256": digest(
+                "\n".join(str(value) for value in field_basis)
+            ),
+            "field_steps": field_steps,
+            "full_open_steps": full_open_steps,
+            "full_open_product_zero": full_open_product_zero,
             "elimination": elimination_records,
             "terminal": (
                 "GLOBAL_OPEN_CHART_EMPTY"
                 if saturation_unit
+                else "GLOBAL_COMPLETE_OPEN_CHART_HAS_NO_F_P6_POINTS"
+                if full_open_product_zero
+                else "GLOBAL_OPEN_CHART_HAS_NO_F_P6_POINTS"
+                if field_unit
                 else "GLOBAL_OPEN_CHART_ELIMINATED_TO_S"
                 if elimination_records
                 else "GLOBAL_OPEN_CHART_DOMINATES_S"

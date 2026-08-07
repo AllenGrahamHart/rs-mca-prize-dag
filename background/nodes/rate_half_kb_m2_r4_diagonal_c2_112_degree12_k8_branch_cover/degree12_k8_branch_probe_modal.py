@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
-"""Run the two exhaustive K8=0 branch probes on Modal."""
+"""Run exhaustive K8=0 branch probes on Modal."""
 
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import modal
 
 
-APP_NAME = "rs-mca-k3-degree12-k8-branch-cover"
+SCOPE = os.environ.get("DEGREE12_K8_SCOPE", "all_r02")
+APP_NAME = f"rs-mca-k3-degree12-k8-branch-cover-{SCOPE}"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
 HERE = Path(__file__).resolve().parent
@@ -19,10 +21,18 @@ BALANCED = (
 )
 LIBRARY = BALANCED / "branch_core.sage"
 SCRIPT = HERE / "degree12_k8_branch_probe.sage"
-OUTPUT = HERE / "modal_degree12_k8_branch_output.json"
-CASES = (
-    {"mode": "a0_k10_nonzero"},
-    {"mode": "k8_k10_zero"},
+if SCOPE == "f04":
+    OUTPUT = HERE / "modal_degree12_k8_branch_output.json"
+    CELLS = ("F04-R02",)
+elif SCOPE == "all_r02":
+    OUTPUT = HERE / "modal_degree12_k8_branch_all_r02_output.json"
+    CELLS = ("F04-R02", "F05-R02", "F06-R02", "F07-R02")
+else:
+    raise ValueError(f"unsupported DEGREE12_K8_SCOPE={SCOPE!r}")
+CASES = tuple(
+    {"cell": cell, "mode": mode}
+    for cell in CELLS
+    for mode in ("a0_k10_nonzero", "k8_k10_zero")
 )
 
 app = modal.App(APP_NAME)
@@ -41,7 +51,7 @@ image = (
 )
 
 
-@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=2)
+@app.function(image=image, cpu=4, memory=32768, timeout=900, max_containers=8)
 def run_case(case: dict[str, str]) -> dict[str, object]:
     import hashlib
     import os
@@ -57,6 +67,8 @@ def run_case(case: dict[str, str]) -> dict[str, object]:
     command = [
         "sage",
         "/degree12_k8_branch_probe.sage",
+        "--cell",
+        case["cell"],
         "--mode",
         case["mode"],
     ]

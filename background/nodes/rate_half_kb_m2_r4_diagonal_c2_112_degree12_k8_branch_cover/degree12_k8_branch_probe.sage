@@ -1,5 +1,5 @@
 #!/usr/bin/env sage
-"""Test the two exhaustive K8=0 branches of the F04-R02 degree-12 cell."""
+"""Test the two exhaustive K8=0 branches of one R02 degree-12 cell."""
 
 import argparse
 import hashlib
@@ -32,12 +32,20 @@ def canonical_json(value):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--cell",
+        choices=("F04-R02", "F05-R02", "F06-R02", "F07-R02"),
+        required=True,
+    )
     parser.add_argument("--mode", choices=("a0_k10_nonzero", "k8_k10_zero"), required=True)
     args = parser.parse_args()
-    print(canonical_json({"phase": "START", "mode": args.mode}), flush=True)
+    print(
+        canonical_json({"phase": "START", "cell": args.cell, "mode": args.mode}),
+        flush=True,
+    )
 
     library = load_library()
-    branch = library["build_branch"]("F04-R02")
+    branch = library["build_branch"](args.cell)
     base = branch["base"]
     x, s, p = base.gens()
     rows = branch["converted"]
@@ -120,7 +128,7 @@ def main():
             )
             if not is_named and not is_leading:
                 core *= base(factor) ** int(exponent)
-        assert core.total_degree() == 37
+        assert core != 1
         return base(core), metric(determinant), factors
 
     core_a, determinant_a, factors_a = pseudo_core(rows[2])
@@ -292,6 +300,7 @@ def main():
 
     result = {
         "phase": "DONE",
+        "cell": args.cell,
         "mode": args.mode,
         "basis_size": len(basis),
         "basis_sha256": digest("\n".join(str(value) for value in basis)),
