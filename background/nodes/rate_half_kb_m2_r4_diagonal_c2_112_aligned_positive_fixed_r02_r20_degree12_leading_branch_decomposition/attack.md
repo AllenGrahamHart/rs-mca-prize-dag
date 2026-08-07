@@ -20,3 +20,8 @@ explicit DAG leaf.
 The parity-reduced evaluation identity is exact, but its literal expanded
 representatives retain `52257` and `49848` terms. Use it only inside a
 block-level factorization or syzygy; do not launch the expanded endpoint.
+
+The quadratic pseudo-remainder determinant child now supplies that source
+compression on the `F04-R02` `B0` chart. Continue from its degree-34 cores
+and explicit finite-field boundary audit; do not return to the large
+`x`-leading-curve expansions fenced here.

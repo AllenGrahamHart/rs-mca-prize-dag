@@ -29544,6 +29544,24 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit",
+   "title": "KoalaBear degree-12 B0 F_(p^6) fiber-boundary audit",
+   "status": "PROVED",
+   "closure": "exact exclusion of 63 printed base-field s fibers from the degree-six extension chart",
+   "statement": "For the reduced F04-R02 B0 chart and each s in {1,3,4,...,64}, adjoining the reduced x^(p^6)-x and pvar^(p^6)-pvar equations gives a zero-dimensional field ideal on which the complete required open-factor product is zero. The product first dies at V for s=1,4 and at s^2-4pvar for the other 61 fibers. Hence none of these 63 fibers contains an admissible F_(p^6) point. The s=2 specialization remains dimension one and no global chart closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_fiber_f_p6_b0_output.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
    "status": "PROVED",
@@ -29561,6 +29579,27 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe.sage",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe_modal.py",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_parity_metrics_output.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+   "title": "KoalaBear quadratic pseudo-remainder determinant reduction",
+   "status": "PROVED",
+   "closure": "exact quadratic-divisor replacement of the two quartic source rows and a degree-34 core census",
+   "statement": "Three exact pseudo-division steps give a^3 P=QD+r1 w+r0. On D(w)=0, Vw+U=0, and aV nonzero, P(w)=0 is equivalent to V r0-U r1=0. In the literal F04-R02 B0 chart, the two determinants factor into transported named units, a common irreducible degree-8 leading factor K8, and irreducible degree-34 cores with 3201 and 2937 terms. The named-open V K8!=0 chart is therefore represented by the selected degree-12 resultant factor and these two cores. Their deployed-prime ideal has a 142-element dimension-one Groebner basis; no emptiness is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_groebner_b0_output.json"
    ]
   },
   {
@@ -56138,6 +56177,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -56217,12 +56261,27 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_f_p6_fiber_boundary_audit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },

@@ -373,3 +373,36 @@ new route fences:         direct large-curve GB; curve-pseudo final GB
 literal cell closures:    none
 next:                     block-level U,V,Z factorization or syzygy
 ```
+
+### K3 quadratic pseudo-remainder determinant reduction
+
+The requested block-level cancellation now exists. If a quadratic divisor
+`D` has leading coefficient `a` and three pseudo-division steps give
+`a^3P=QD+r1w+r0`, then on `D(w)=0` and `Vw+U=0` the quartic row `P(w)=0` is
+equivalent, after localizing at `aV`, to the base-ring determinant
+`V r0-U r1=0`. This is an exact source identity, not a sampled reduction.
+
+On the literal `F04-R02` `B0` chart, both determinants factor into named
+units, one common irreducible degree-8 leading factor `K8`, and irreducible
+degree-34 cores with `3201` and `2937` terms. The chart `V K8!=0` is therefore
+represented by the selected degree-12 equation and these two cores. Their
+deployed-prime ideal has a 142-element dimension-one basis. Powers of
+`V K8` remain nonzero through exponent 12 while reduced term counts grow
+from `1461` to `36492`; the bounded run then times out. This rules out the
+low-order nilpotence route and does not close the curve.
+
+An exact `F_(p^6)` audit fixed `s=1,...,64`. Sixty-three specializations are
+zero-dimensional; after adjoining both field equations, their complete open
+product is zero. The stopping boundary is `V` for `s=1,4` and `s^2-4p` for
+the other 61. The `s=2` specialization remains dimension one. This repeated
+pattern is evidence for a global boundary-support theorem, not an exhaustive
+fiber proof.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED results:       pseudo-remainder determinant identity; B0 degree-34 core census
+finite-field audit:       63 F_(p^6) fibers excluded; s=2 exceptional
+literal cell closures:    none
+rejected route:           powers of V*K8 in the dimension-one quotient
+next:                     global s-elimination or component/residue-degree ledger
+```
