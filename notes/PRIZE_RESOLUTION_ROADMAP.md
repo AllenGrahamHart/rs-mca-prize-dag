@@ -665,11 +665,11 @@ identifications without a machine-verified chain.
 ## 4. Board anatomy
 
 - **Counts** (refreshed from the generated `dag.json` manifest view; pinned by
-  `tools/verify_orbit_census.py`): critical surface 167 PROVED / 38 CONDITIONAL /
+  `tools/verify_orbit_census.py`): critical surface 168 PROVED / 39 CONDITIONAL /
   28 open mathematical red leaves; **math orbit** = req-closure (+alt) of the two
-  grand challenges {`mca_grand`, `list_grand`} = **233** nodes. *(Q0, 2026-07-26:
+  grand challenges {`mca_grand`, `list_grand`} = **235** nodes. *(Q0, 2026-07-26:
   this line previously read "req-closure of `prize` = 260" — wrong root. The
-  closure of `prize` is the* **submission orbit** *= 248 = 179/40/29, i.e. the math
+  closure of `prize` is the* **submission orbit** *= 250 = 180/41/29, i.e. the math
   orbit plus a 15-node packaging spine.)* The separate submission dossier is a
   target artifact rather than a mathematical leaf — it is the submission orbit's
   29th TARGET and does not appear in the 28. The 2026-07-26 E1 and
@@ -677,14 +677,16 @@ identifications without a machine-verified chain.
   `201/36/23` pin.
 - **Wired bottlenecks** (no alt, no upstream substitute):
   `l1_mixed_petal_amplification`, `f_higher_weight_sparse_payment`,
-  `f_global_packing_step`, `f_prize_consumer_flat_scope`,
+  `f_global_packing_step`, `f_imgfib_consumer_descriptor`,
   `rate_half_list_adjacent_crossing`,
   `rate_half_band_closure`, + the dossier. There is NO MCA-only resolution
   (F1 pole pricing imports the base-row list threshold).
 - **The true LIST flatness front:** `l1_mixed_petal_amplification` plus the
   repaired Conjecture-F leaves `f_higher_weight_sparse_payment`,
-  `f_global_packing_step`, and `f_prize_consumer_flat_scope`. They expose the
-  same split-locator/owner wall at different consumer interfaces.
+  `f_global_packing_step`, and `f_imgfib_consumer_descriptor`. The
+  `f_prize_consumer_flat_scope` parent is now an honest conditional compiler;
+  its SPI/Hankel descriptor is proved. These nodes expose the same
+  split-locator/owner wall at different consumer interfaces.
 - **Minimal win sets:** unconditional = all 28 mathematical leaves + dossier
   (pure AND). `list_grand` alone = {l1, adjacent_crossing}, closing its five
   conditional ancestors. The former `17/20` RK-prune and direct-prune counts
@@ -19722,6 +19724,42 @@ delta-star bracket movement: none
 new assumptions: none
 compute: no Modal
 next: prove an owner-aware absolute-exponent packing theorem, not another router
+```
+
+### Conjecture-F consumer-scope decomposition
+
+The strict graph has only two `req` callers of `conj_f`: `imgfib` and
+`spi_point_counting`. The SPI call is now closed as an exact interface: for
+each slope `z`, its incidence fiber is
+
+```text
+P(ker M(z)) cap D_j(H),
+```
+
+and one descriptor occurrence per slope incidence preserves the multiplicity
+used by the sieve. The existing component/payment order supplies the first
+owner before the generic residual.
+
+The LIST call remains under-specified. Its proof packet says only "plane
+sections of D_j" and does not enumerate branches, parameters, punctures, or
+the codeword-to-section multiplicity. The full-locator Pade section cannot
+fill that gap because it is polynomial rather than linear. The proved
+root-free rational-Q theorem does supply one exact punctured projective cell,
+but not branch exhaustion. Accordingly the former scope TARGET is now a
+CONDITIONAL compiler over the proved SPI interface and the narrower
+`f_imgfib_consumer_descriptor` TARGET. Red leaves remain 28.
+
+```text
+starting pin: 7da3c1ed4; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none prints the missing LIST branch-to-flat compiler
+lane: LIST / Conjecture F consumer interfaces
+result: PROVED the SPI descriptor; isolated the exact LIST interface gap
+DAG status delta: +1 PROVED, +1 CONDITIONAL, TARGET count unchanged
+upstream terminal delta: portable exact Hankel slope-fiber interface; no terminal closed
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; graph, proof-object, and linear-algebra audit only
+next: compile the actual imgfib branch inventory and preserve puncture/owner multiplicity
 ```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 

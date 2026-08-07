@@ -3,16 +3,18 @@
   "node": {
     "id": "f_prize_consumer_flat_scope",
     "title": "Conjecture-F prize consumer flat-scope compiler",
-    "status": "TARGET",
+    "status": "CONDITIONAL",
     "key": true,
-    "statement": "Enumerate every actual LIST/MCA call to Conjecture-F flatness, including coordinate-prefix, Hankel/split-pencil, and mixed-petal received-word/Pade families. Emit an exact multiplicity-preserving descriptor with domain, locator degree j, projective dimension r, root threshold, punctures, and first-owner chronology. Prove that each descriptor is paid or lies in the quantitative regime consumed by the global packing theorem, and that the inventory is exhaustive. The refuted two-family scope and an unqualified all-linear-flats claim are not substitutes.",
-    "attack_surface": "audit graph call sites, compile the mixed-petal Pade descriptor, and pin the quantitative dimension gap and first-owner transport",
-    "falsifier": "an actual prize call omitted from the inventory, a near-full-dimensional unowned descriptor outside the packing regime, or a transport losing multiplicity or ownership",
+    "statement": "The current strict DAG has exactly two Conjecture-F callers, imgfib and spi_point_counting. Conditional on an exhaustive LIST-side branch-to-flat compiler, combine it with the proved Hankel slope-fiber descriptor and emit exact multiplicity-preserving descriptors with domain, locator degree j, projective dimension r, root threshold, punctures, and first-owner chronology. The full Pade section is polynomial rather than linear; only an explicitly extracted projective cell may be sent to Conjecture F.",
+    "attack_surface": "close the LIST branch-to-flat inventory, keep the strict-caller guard pinned, and print the quantitative dimension gap and first-owner transport",
+    "falsifier": "an omitted strict caller or LIST branch, a Pade polynomial section mislabeled linear, a near-full-dimensional unowned descriptor outside the packing regime, or multiplicity/owner loss",
     "refs": [
       "critical/nodes/f_prize_consumer_flat_scope/statement.md",
+      "critical/nodes/f_prize_consumer_flat_scope/conditional.md",
       "critical/nodes/f_prize_consumer_flat_scope/attack.md",
       "critical/nodes/f_prize_consumer_flat_scope/claim_contract.md",
       "critical/nodes/f_prize_consumer_flat_scope/dependency_subdag.md",
+      "critical/nodes/f_prize_consumer_flat_scope/verify.py",
       "background/nodes/f_consumer_scoped/statement.md"
     ],
     "upstream": {
@@ -20,7 +22,14 @@
       "relation": "SCOPE_COMPILER"
     }
   },
-  "requires": [],
+  "requires": [
+    {
+      "from": "f_imgfib_consumer_descriptor"
+    },
+    {
+      "from": "f_spi_hankel_consumer_descriptor"
+    }
+  ],
   "alternatives": [],
   "evidence_for": [
     {

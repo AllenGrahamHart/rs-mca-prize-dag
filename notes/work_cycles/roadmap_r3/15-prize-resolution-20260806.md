@@ -1966,3 +1966,39 @@ new assumptions: none
 compute: no Modal
 next: prove an owner-aware absolute-exponent packing theorem, not another router
 ```
+
+### Conjecture-F consumer-scope decomposition
+
+The strict graph has only two `req` callers of `conj_f`: `imgfib` and
+`spi_point_counting`. The SPI call is now closed as an exact interface: for
+each slope `z`, its incidence fiber is
+
+```text
+P(ker M(z)) cap D_j(H),
+```
+
+and one descriptor occurrence per slope incidence preserves the multiplicity
+used by the sieve. The existing component/payment order supplies the first
+owner before the generic residual.
+
+The LIST call remains under-specified. Its proof packet says only "plane
+sections of D_j" and does not enumerate branches, parameters, punctures, or
+the codeword-to-section multiplicity. The full-locator Pade section cannot
+fill that gap because it is polynomial rather than linear. The proved
+root-free rational-Q theorem does supply one exact punctured projective cell,
+but not branch exhaustion. Accordingly the former scope TARGET is now a
+CONDITIONAL compiler over the proved SPI interface and the narrower
+`f_imgfib_consumer_descriptor` TARGET. Red leaves remain 28.
+
+```text
+starting pin: 7da3c1ed4; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none prints the missing LIST branch-to-flat compiler
+lane: LIST / Conjecture F consumer interfaces
+result: PROVED the SPI descriptor; isolated the exact LIST interface gap
+DAG status delta: +1 PROVED, +1 CONDITIONAL, TARGET count unchanged
+upstream terminal delta: portable exact Hankel slope-fiber interface; no terminal closed
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; graph, proof-object, and linear-algebra audit only
+next: compile the actual imgfib branch inventory and preserve puncture/owner multiplicity
+```

@@ -1,11 +1,13 @@
 # Attack
 
-1. Start from the incoming edges of `conj_f`, `imgfib`, and the R2/SPI route;
-   list call sites rather than named families inferred from prose.
-2. Reuse the proved coordinate and Hankel descriptors.
-3. Compile the mixed-petal family through the full locator Pade section,
-   including punctures, tangent gcd owner, and quotient priority.
+1. Keep the strict-caller verifier pinned to `imgfib` and
+   `spi_point_counting`; any new `req` consumer re-opens the compiler.
+2. Close `f_imgfib_consumer_descriptor`: replace the prose-level
+   "plane sections" charge with an exhaustive branch-to-flat map.
+3. Reuse the exact punctured root-free cell from
+   `l1_rootfree_rational_q_projective_packing`, but do not label the full Pade
+   section linear.
 4. Print the exact quantitative gap required by the global packing theorem;
    `r<j` without a bound is not enough.
-5. Mutation-test one omitted call, one full-space descriptor, one duplicated
-   owner, and one puncture that destroys the advertised domain structure.
+5. Mutation-test one omitted LIST branch, one nonlinear-section substitution,
+   one duplicated owner, and one puncture that changes the domain.

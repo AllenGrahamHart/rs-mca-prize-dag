@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  233 = 167 PROVED / 38 CONDITIONAL
+                  nodes {mca_grand, list_grand}.  235 = 168 PROVED / 39 CONDITIONAL
                   / 28 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
                   and verify_critical_harness_coverage.py all measure.  Its 25
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  248 = 179 / 40 / 29.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  250 = 180 / 41 / 29.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (26 open dominators == the 26 submission-orbit TARGETs).
 
-Neither census is stale; 248 - 233 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 250 - 235 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -99,8 +99,12 @@ SUBMISSION_ROOT = "prize"
 # auto-discharged ancestors return from PROVED to CONDITIONAL. Net:
 # -4 PROVED / +4 CONDITIONAL / +3 TARGET in both orbits;
 # the 15-node submission spine is unchanged.
-EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 38, "TARGET": 28}
-EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 40, "TARGET": 29}
+# 2026-08-07 CONSUMER-SCOPE DECOMPOSITION: the scope TARGET becomes a
+# CONDITIONAL compiler over one narrower LIST TARGET and one proved exact SPI
+# slope-fiber descriptor. The TARGET count is unchanged; each orbit gains one
+# PROVED and one CONDITIONAL node. The submission spine remains 15 nodes.
+EXPECTED_MATH = {"PROVED": 168, "CONDITIONAL": 39, "TARGET": 28}
+EXPECTED_SUBMISSION = {"PROVED": 180, "CONDITIONAL": 41, "TARGET": 29}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

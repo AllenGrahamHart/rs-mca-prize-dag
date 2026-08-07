@@ -48,10 +48,13 @@ GRANDS = {"mca_grand", "list_grand"}
 # The joint-rank split replaces that residual TARGET by an amber router over
 # two exact leaves: targets 25 -> 26, conditionals 40 -> 41.
 # The later F2 and direct-SP scope repairs removed stale conditional ancestry.
-# 2026-08-07 Conjecture-F false-green repair adds two TARGETs and restores four
-# parents to CONDITIONAL; the longer chain adds one propagation round.
+# 2026-08-07 Conjecture-F false-green repair adds three TARGETs and restores
+# four parents to CONDITIONAL; the longer chain adds one propagation round.
+# The consumer-scope decomposition then replaces one scope TARGET by one
+# narrower LIST TARGET, one proved SPI descriptor, and one CONDITIONAL
+# compiler: TARGETs stay 28 and CONDITIONALs rise by one.
 EXPECTED_TARGETS = 28
-EXPECTED_CONDITIONALS = 38
+EXPECTED_CONDITIONALS = 39
 EXPECTED_ROUNDS = 9
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

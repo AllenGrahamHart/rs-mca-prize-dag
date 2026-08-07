@@ -547,6 +547,11 @@
    "title": "Conjecture-F higher-weight sparse Face-4 payment"
   },
   {
+   "id": "f_imgfib_consumer_descriptor",
+   "label": "UNPROVED",
+   "title": "ImgFib Conjecture-F consumer descriptor and exhaustion"
+  },
+  {
    "id": "f_many_sparse_structure",
    "label": "CONDITIONAL",
    "title": "THE RESIDUE: flats with many sparse dual words are quotient/pullback or tangent structured"
@@ -558,7 +563,7 @@
   },
   {
    "id": "f_prize_consumer_flat_scope",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "Conjecture-F prize consumer flat-scope compiler"
   },
   {
@@ -575,6 +580,11 @@
    "id": "f_sparse_rank_split",
    "label": "PROVED",
    "title": "FACE-2 SPLIT (derivation): by sparse-word rank"
+  },
+  {
+   "id": "f_spi_hankel_consumer_descriptor",
+   "label": "PROVED",
+   "title": "SPI Hankel slope fibers are exact Conjecture-F flat descriptors"
   },
   {
    "id": "f_spread_descent_dichotomy",
@@ -2314,8 +2324,24 @@
    "to": "f_many_sparse_structure"
   },
   {
+   "from": "f_imgfib_consumer_descriptor",
+   "to": "f_prize_consumer_flat_scope"
+  },
+  {
    "from": "f_prize_consumer_flat_scope",
    "to": "f_primitive_case"
+  },
+  {
+   "from": "f_spi_hankel_consumer_descriptor",
+   "to": "f_prize_consumer_flat_scope"
+  },
+  {
+   "from": "payment_completeness",
+   "to": "f_spi_hankel_consumer_descriptor"
+  },
+  {
+   "from": "spi_component_control",
+   "to": "f_spi_hankel_consumer_descriptor"
   },
   {
    "from": "x4_exactlist_summed_budget",

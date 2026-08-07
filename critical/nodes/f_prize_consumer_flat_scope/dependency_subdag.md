@@ -1,15 +1,22 @@
 # Dependency sub-DAG
 
 ```text
-f_consumer_scoped [REFUTED two-family claim] ------ev--+
-f_termination_mds [PROVED coordinate branch] ------ev--+
-f_termination_hankel [PROVED Hankel branch] --------ev--+--> f_prize_consumer_flat_scope [TARGET]
-l1_full_locator_pade_section_all_cofactors [PROVED]-ev--+
+f_spi_hankel_consumer_descriptor [PROVED] --------req--+
+                                                       +--> f_prize_consumer_flat_scope [CONDITIONAL]
+f_imgfib_consumer_descriptor [TARGET] -------------req--+
 
-f_prize_consumer_flat_scope [TARGET]
+f_prize_consumer_flat_scope [CONDITIONAL]
   --ev---> f_global_packing_step [TARGET]
   --req--> f_primitive_case [CONDITIONAL]
 ```
 
-The Pade theorem identifies the mixed-petal object but does not by itself
-prove the full caller inventory or quantitative packing scope.
+Supporting exact interfaces:
+
+```text
+f_termination_mds [PROVED coordinate branch] ----------------ev--+
+l1_rootfree_rational_q_projective_packing [PROVED punctured cell]-ev--+--> f_imgfib_consumer_descriptor [TARGET]
+```
+
+The full-locator Pade theorem identifies a polynomial section, not a linear
+Conjecture-F flat. The root-free rational-Q theorem extracts an exact linear
+cell, but it does not prove the full LIST caller inventory.

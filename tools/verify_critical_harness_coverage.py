@@ -45,9 +45,10 @@ EXPECTED_COUNTS = {
     # leaves strict ancestry. Five proved nodes detach: two md-only and three
     # legacy-ref-only; local verifier coverage is unchanged.
     # 2026-08-07 Conjecture-F false-green repair: four md-only parent nodes
-    # return from PROVED to CONDITIONAL. Two new TARGET leaves add no proved
+    # return from PROVED to CONDITIONAL. Three new TARGET leaves add no proved
     # harness obligation.
-    "folder-md-only": 119,
+    # The consumer-scope decomposition adds one proof-only SPI interface.
+    "folder-md-only": 120,
     "legacy-ref-only": 1,
     "local-verifier": 47,
 }
@@ -123,9 +124,10 @@ def main() -> None:
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
     # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
-    # Conjecture-F audit adds two exact leaves and demotes four false greens.
-    require(len(critical["nodes"]) == 233, "critical orbit size drift")
-    require(len(proved) == 167, "critical PROVED count drift")
+    # The Conjecture-F scope decomposition adds one proved interface and one
+    # conditional compiler while preserving 28 mathematical leaves.
+    require(len(critical["nodes"]) == 235, "critical orbit size drift")
+    require(len(proved) == 168, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
     no_artifact: set[str] = set()

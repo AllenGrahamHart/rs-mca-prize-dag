@@ -1,0 +1,24 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "f_imgfib_consumer_descriptor",
+    "title": "ImgFib Conjecture-F consumer descriptor and exhaustion",
+    "status": "TARGET",
+    "key": true,
+    "statement": "Replace the prose-level conj_f charge in imgfib by an exhaustive, multiplicity-preserving map from every LIST branch that actually invokes Conjecture F to an exact linear projective split-locator section, printing the received-word branch, punctured domain, locator degree, projective dimension, root threshold, first owner, and codeword/section multiplicity. The full Pade section is polynomial rather than linear; the proved punctured root-free rational-Q projective cell is one exact subfamily, not an exhaustion theorem.",
+    "attack_surface": "audit the actual imgfib branch partition, reuse exact proved cells, and expose any branch whose Conjecture-F charge has no parameter and multiplicity transport",
+    "falsifier": "an omitted charged branch, a nonlinear Pade section passed as a flat, owner-swapped punctures, or loss of codeword/section multiplicity",
+    "refs": [
+      "critical/nodes/f_imgfib_consumer_descriptor/statement.md",
+      "critical/nodes/f_imgfib_consumer_descriptor/attack.md",
+      "critical/nodes/f_imgfib_consumer_descriptor/claim_contract.md",
+      "critical/nodes/f_imgfib_consumer_descriptor/dependency_subdag.md",
+      "critical/nodes/imgfib/proof.md",
+      "background/nodes/l1_rootfree_rational_q_projective_packing/statement.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

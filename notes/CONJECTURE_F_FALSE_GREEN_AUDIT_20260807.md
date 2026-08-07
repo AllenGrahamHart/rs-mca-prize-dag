@@ -57,3 +57,20 @@ No open upstream PR inspected on 2026-08-07 supplies either payment. PR 1150
 provides corrected finite F2 machinery but not maximum-fiber or endpoint
 mass; PRs 1147-1149 supply local product-line, fixture, and K3 results without
 the required owner-uniform aggregate bound.
+
+## Consumer-scope decomposition
+
+A follow-up strict-edge audit refined item 3 without restoring the false
+green. The current DAG has exactly two `req` consumers of `conj_f`:
+`imgfib` and `spi_point_counting`. The SPI call is now proved to be the exact
+Hankel slope fiber `P(ker M(z)) cap D_j(H)`, with slope-incidence multiplicity
+preserved. The parent scope compiler is therefore CONDITIONAL on one narrower
+LIST interface target, `f_imgfib_consumer_descriptor`.
+
+The old phrase "mixed-petal/Pade flat" was too coarse. The full-locator Pade
+section is generally polynomial and is not itself passed to Conjecture F.
+The proved planted-root descent does extract an exact punctured linear cell
+`P(span(G,W_1 F[X]_<d)) cap D_j(H')` inside the boundary route. That cell is
+valid evidence for the LIST compiler, but no existing packet proves that it
+exhausts every `imgfib` branch charged to `conj_f`. The mathematical red-leaf
+count is unchanged by this decomposition.
