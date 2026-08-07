@@ -37,7 +37,13 @@ certificates required by the challenge.
   `26/36`, with those two moving cells and the eight `F04`--`F07` cells over
   `R02/R20` remaining. PR #1149's exact quadratic compatibility theorem and
   six-orbit compression are pinned PROVED; its two balanced fixed orbits are
-  fully closed and four fixed orbits remain.
+  fully closed. All sixteen rank-drop factor branches in the four remaining
+  fixed orbits are now PROVED empty, leaving only generic `V != 0` charts.
+  Their representative resultant cores split with degrees `3,3,12`; one
+  cubic closes, while the complementary cubic and the degree-12 factor remain
+  route-level obstructions. On `F04`, full-`J` coefficient zero further
+  reduces the surviving cubic to one degree-11 factor. No additional literal
+  cell is yet closed by these generic cuts.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

@@ -8,6 +8,7 @@
 | aligned-positive census | `12 x 3 = 36` semantic cells |
 | aligned-positive proved | `26/36` cells |
 | aligned-positive residual | `M01/M02-R11` plus eight `F04`--`F07 x R02/R20` cells |
-| fixed residual decomposition | four open `R02/R20` quadratic fingerprint orbits; two `R11` orbits closed |
+| fixed rank-drop coverage | all `16` factor branches in the eight residual fixed cells are PROVED empty |
+| fixed generic residual | four `R02/R20` fingerprint orbits; representative core degrees `3,3,12`, with one cubic closed and no cell yet closed |
 | external evidence | PRs #1135--#1149, imported only through pinned nodes |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |

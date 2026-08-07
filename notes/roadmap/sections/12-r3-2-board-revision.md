@@ -211,9 +211,9 @@ lane:                     MCA / K3 / aligned-positive fixed residual
 result:                   PROVED quadratic dichotomy and six fingerprint orbits
 literal replay:           12/12 PASS, official SageMath 10.9
 closed hereafter:          both R11 generic/rank-drop orbit pairs
-remaining branches:       four R02/R20 generic plus four rank-drop orbits
+remaining branches then:  four R02/R20 generic plus four rank-drop orbits
 new assumptions:          none
-next:                     apply the balanced localization route to R02/R20
+next then:                apply the balanced localization route to R02/R20
 ```
 
 ### K3 fixed balanced four-cell close
@@ -238,4 +238,53 @@ local proved total:       26/36 aligned-positive cells
 remaining fixed cells:    F04..F07 x R02/R20
 new assumptions:          none
 compute:                  official SageMath 10.9 on bounded Modal shards
+```
+
+### K3 fixed R02/R20 rank-drop close
+
+For each of the eight residual fixed cells, removal of only the original
+named-open factors leaves exactly two nonnamed factors of `V`: a degree-2
+factor and a large factor of degree 11 on `R02` or degree 14 on `R20`.
+Direct literal localization closes all sixteen branches. Every factor ideal
+has dimension two before localization, and the original localizer is
+nilpotent at exponent two in every quotient. Thus the four remaining fixed
+fingerprint orbits now have only generic `V != 0` charts.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed residual
+new PROVED result:        all F04..F07 x R02/R20 rank-drop charts empty
+literal replay:           16/16 PASS; localizer nilpotence index 2
+cell coverage:            unchanged at 26/36; generic charts remain
+new assumptions:          none
+compute:                  official SageMath 10.9 on bounded Modal shards
+```
+
+### K3 fixed R02/R20 generic route cuts
+
+On the four #1149 representatives, exact `V != 0` reconstruction and named
+factor cancellation split the resultant core into factors of degrees
+`3,3,12`. One cubic factor per representative is empty; the complementary
+cubic survives with dimension one, and the degree-12 basis requests remain
+unresolved after bounded timeouts.
+
+For `F04`, a truncated exact expansion of coefficient zero of the full `J`
+identity descends to
+
+```text
+w^4 * J8a^2 * J8b^2 * J11 * J12.
+```
+
+Intersecting this equation with each surviving cubic closes both degree-8
+factors and the degree-12 factor, leaving only the degree-11 curve. Full `J`
+coefficient one instead produces a degree-70 factor with 182336 terms, and
+full `I` coefficient zero reached a bounded timeout at roughly 14.9 GB; both
+are recorded as route fences rather than evidence.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed generic route
+new PROVED result:        exact 3,3,12 split and F04 cubic-to-J11 reduction
+literal cell closures:    none
+live representative cuts: surviving cubic/J11 curve; degree-12 resultant
+rejected route:           global J1 degree-70 expansion; ambient I0 basis
+next:                     quotient-normal-form elimination or low-degree syzygy
 ```

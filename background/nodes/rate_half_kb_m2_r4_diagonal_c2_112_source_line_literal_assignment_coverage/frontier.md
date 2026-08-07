@@ -10,8 +10,16 @@ The residual consists of balanced `M01-R11`, its literal `M02-R11`
 companion, and the eight `F04`--`F07` cells over `R02/R20`. The #1149
 compression into six fingerprint orbits and the complete generic/rank-drop
 closure of its two `R11` orbits are pinned PROVED theorems. The balanced
-moving pair has a precise external-Singular bridge review gate; the four
-remaining fixed-source orbits are the next algebraic attack.
+moving pair has a precise external-Singular bridge review gate.
+
+All sixteen literal rank-drop factor branches in the four remaining fixed
+orbits are now PROVED empty, so their frontier is generic `V != 0` only. On
+each representative the resultant core splits with degrees `3,3,12`; one
+cubic closes and one remains one-dimensional. The `F04` full-`J`
+coefficient-zero cut reduces the surviving cubic to one degree-11 factor.
+The live fixed attacks are therefore that degree-11 curve and the unresolved
+degree-12 resultant branch, followed by literal orbit replay only after a
+representative route closes.
 
 The local aligned-negative and near-aligned ledgers also require a literal
 coverage audit before the branch-level theorem can return to PROVED.

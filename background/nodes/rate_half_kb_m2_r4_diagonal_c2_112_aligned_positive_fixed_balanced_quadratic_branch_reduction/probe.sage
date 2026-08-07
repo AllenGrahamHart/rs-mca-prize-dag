@@ -29,7 +29,15 @@ def canonical_json(value):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cell", choices=("F04-R11", "F05-R11"), required=True)
+    parser.add_argument(
+        "--cell",
+        choices=tuple(
+            f"{assignment}-{target}"
+            for assignment in ("F04", "F05", "F06", "F07")
+            for target in ("R02", "R11", "R20")
+        ),
+        required=True,
+    )
     args = parser.parse_args()
     library = load_library()
     branch = library["build_branch"](args.cell)

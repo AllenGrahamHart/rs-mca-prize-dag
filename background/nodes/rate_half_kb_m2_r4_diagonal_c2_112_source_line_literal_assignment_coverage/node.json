@@ -5,7 +5,7 @@
     "title": "KoalaBear source-line literal-assignment coverage",
     "status": "TARGET",
     "closure": "compile and classify every literal source assignment without generic Möbius covariance",
-    "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 26 are now PROVED. The residual is M01-R11, M02-R11, and the eight F04--F07 cells over R02/R20. The local canonical crosswalk does not supply generic orbit transport.",
+    "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells, of which 26 are now PROVED. The residual is M01-R11, M02-R11, and the eight F04--F07 cells over R02/R20. All sixteen rank-drop factor branches in the eight fixed residual cells are PROVED empty; only their generic V-nonzero charts remain. The local canonical crosswalk does not supply generic orbit transport.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",

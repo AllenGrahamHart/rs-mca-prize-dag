@@ -1,55 +1,31 @@
 #!/usr/bin/env python3
-"""Run bounded factorwise probes for the balanced V=0 rank-drop chart."""
+"""Run F04 surviving-cubic/full-J intersection probes on Modal."""
 
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 
 import modal
 
 
-MODE = os.environ.get("RANK_DROP_MODE", "representatives")
-APP_NAME = f"rs-mca-k3-fixed-balanced-rank-drop-{MODE}"
+APP_NAME = "rs-mca-k3-f04-r02-r20-full-j-intersections"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
 HERE = Path(__file__).resolve().parent
-LIBRARY = HERE / "branch_core.sage"
-SCRIPT = HERE / "rank_drop_probe.sage"
-OUTPUT = HERE / f"modal_rank_drop_{MODE}_output.json"
-if MODE in ("remaining_structure", "remaining_representatives", "remaining_all"):
-    CELLS = tuple(
-        f"{assignment}-{target}"
-        for assignment in (
-            ("F04", "F05", "F06", "F07")
-            if MODE == "remaining_all"
-            else ("F04", "F05")
-        )
-        for target in ("R02", "R20")
-    )
-    if MODE == "remaining_structure":
-        CASES = tuple(
-            {"cell": cell, "factor_index": 0, "prime": 2130706433, "structure_only": True}
-            for cell in CELLS
-        )
-    else:
-        CASES = tuple(
-            {"cell": cell, "factor_index": factor_index, "prime": 2130706433, "structure_only": False}
-            for cell in CELLS
-            for factor_index in (0, 1)
-        )
-else:
-    CELLS = (
-        ("F04-R11", "F05-R11")
-        if MODE == "representatives"
-        else ("F04-R11", "F05-R11", "F06-R11", "F07-R11")
-    )
-    CASES = tuple(
-        {"cell": cell, "factor_index": factor_index, "prime": 2130706433, "structure_only": False}
-        for cell in CELLS
-        for factor_index in (0, 1)
-    )
+BALANCED = (
+    HERE.parent
+    / "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction"
+)
+LIBRARY = BALANCED / "branch_core.sage"
+FULL_IDENTITY = HERE / "modal_full_identity_single_c0_output.json"
+SCRIPT = HERE / "generic_full_j_intersection_probe.sage"
+OUTPUT = HERE / "modal_f04_full_j_intersections_output.json"
+CASES = tuple(
+    {"target": target, "j_factor_index": index}
+    for target in ("R02", "R20")
+    for index in range(4)
+)
 
 app = modal.App(APP_NAME)
 image = (
@@ -63,11 +39,12 @@ image = (
         "git -C /repo checkout --detach refs/remotes/origin/pr1149",
     )
     .add_local_file(LIBRARY, "/branch_core.sage")
-    .add_local_file(SCRIPT, "/rank_drop_probe.sage")
+    .add_local_file(FULL_IDENTITY, "/full_identity.json")
+    .add_local_file(SCRIPT, "/generic_full_j_intersection_probe.sage")
 )
 
 
-@app.function(image=image, cpu=2, memory=16384, timeout=420, max_containers=8)
+@app.function(image=image, cpu=2, memory=16384, timeout=480, max_containers=8)
 def run_case(case: dict[str, object]) -> dict[str, object]:
     import hashlib
     import os
@@ -82,16 +59,12 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
     began = time.monotonic()
     command = [
         "sage",
-        "/rank_drop_probe.sage",
-        "--cell",
-        str(case["cell"]),
-        "--factor-index",
-        str(case["factor_index"]),
-        "--prime",
-        str(case["prime"]),
+        "/generic_full_j_intersection_probe.sage",
+        "--target",
+        str(case["target"]),
+        "--j-factor-index",
+        str(case["j_factor_index"]),
     ]
-    if case.get("structure_only"):
-        command.append("--structure-only")
     try:
         completed = subprocess.run(
             command,
@@ -99,7 +72,7 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             env=environment,
             capture_output=True,
             text=True,
-            timeout=360,
+            timeout=420,
             check=False,
         )
         records = []
@@ -156,9 +129,8 @@ def main() -> None:
         else:
             normalized.append(row)
     output = {
-        "schema": "kb-c2-112-fixed-balanced-rank-drop-modal-v1",
+        "schema": "kb-c2-112-f04-full-j-intersections-modal-v1",
         "app": APP_NAME,
-        "mode": MODE,
         "upstream_commit": COMMIT,
         "counts": {
             status: sum(row["status"] == status for row in normalized)

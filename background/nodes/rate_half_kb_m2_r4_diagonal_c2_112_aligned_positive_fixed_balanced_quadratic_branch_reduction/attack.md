@@ -1,8 +1,10 @@
 # Attack surface
 
-The balanced fixed cells are closed. The next fixed attacks should use the
-same exact split on the eight `R02/R20` cells, but their core degrees are
-larger and should first be factored and localized before any basis request.
+The balanced fixed cells are closed. The same exact split has now also
+closed every rank-drop chart in the eight `R02/R20` cells. Their generic
+route is tracked in
+`rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction`;
+do not reopen it here.
 
 The unrelated moving residual `M01-R11/M02-R11` remains behind its own
 external-Singular review gate.

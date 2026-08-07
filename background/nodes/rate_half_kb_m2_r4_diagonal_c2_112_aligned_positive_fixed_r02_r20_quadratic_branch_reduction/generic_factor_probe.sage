@@ -1,5 +1,5 @@
 #!/usr/bin/env sage
-"""Exact factorwise probe for the balanced fixed V=0 rank-drop chart."""
+"""Factorwise generic probe for the remaining fixed R02/R20 cells."""
 
 import argparse
 import hashlib
@@ -30,11 +30,6 @@ def canonical_json(value):
     )
 
 
-def normalized_key(value):
-    value = value.parent()(value)
-    return str(value / value.lc()) if value else "0"
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -42,12 +37,11 @@ def main():
         choices=tuple(
             f"{assignment}-{target}"
             for assignment in ("F04", "F05", "F06", "F07")
-            for target in ("R02", "R11", "R20")
+            for target in ("R02", "R20")
         ),
         required=True,
     )
-    parser.add_argument("--factor-index", type=int, choices=tuple(range(6)), default=0)
-    parser.add_argument("--structure-only", action="store_true")
+    parser.add_argument("--factor-index", type=int, choices=(0, 1, 2), required=True)
     parser.add_argument("--prime", type=int, default=2130706433)
     args = parser.parse_args()
     print(
@@ -65,118 +59,48 @@ def main():
     library = load_library()
     branch = library["build_branch"](args.cell)
     base = branch["base"]
-    source = branch["converted"][0].parent()
-    qring = PolynomialRing(QQ, names=("x", "s", "p", "w"), order="degrevlex")
-
-    def univariate_to_qring(value):
-        output = qring(0)
-        for w_exponent, coefficient in source(value).dict().items():
-            for monomial, scalar in base(coefficient).dict().items():
-                output += QQ(scalar) * prod(
-                    generator ** exponent
-                    for generator, exponent in zip(
-                        qring.gens(), (*monomial, int(w_exponent))
-                    )
-                )
-        return output
-
-    qrows = [univariate_to_qring(value) for value in branch["converted"]]
-    frontier = library["load_frontier"]()
-    parent = frontier["PARENT"]
-    named_units = parent["middle_units"](parent["S"], True)
-
-    def source_to_qring(value):
-        output = qring(0)
-        for monomial, coefficient in parent["S"](value).dict().items():
-            output += QQ(coefficient) * prod(
-                generator ** exponent
-                for generator, exponent in zip(qring.gens(), monomial)
-            )
-        return output
-
-    unit_factors = {}
-    for value in named_units:
-        for factor, _ in source_to_qring(value).factor():
-            unit_factors[normalized_key(factor)] = factor
-    unit_keys = set(unit_factors)
-
-    def essential(value):
-        kept = qring(1)
-        for factor, exponent in qring(value).factor():
-            if normalized_key(factor) not in unit_keys:
-                kept *= factor ** exponent
-        return qring(kept)
-
-    essential_rows = [essential(value) for value in qrows]
-    v_factors = []
-    for factor, exponent in branch["equations"]["V"].factor():
-        embedded = qring(str(factor))
-        if normalized_key(embedded) not in unit_keys:
-            v_factors.append((embedded, int(exponent)))
-    factor_census = [
-        {
-            "index": int(index),
-            "exponent": int(exponent),
-            "degree": int(factor.total_degree()),
-            "degrees": [int(factor.degree(g)) for g in qring.gens()],
-            "terms": int(len(factor.monomials())),
-            "sha256": digest(factor),
-            "polynomial": str(factor) if len(factor.monomials()) <= 300 else None,
-        }
-        for index, (factor, exponent) in enumerate(v_factors)
+    r_factors = [
+        record["factor"]
+        for record in branch["factors"]["R"]
+        if not record["named_unit_factor"]
     ]
-    if args.structure_only:
-        print(
-            canonical_json(
-                {
-                    "phase": "DONE",
-                    "cell": args.cell,
-                    "nonnamed_v_factor_count": len(v_factors),
-                    "factor_census": factor_census,
-                    "unit_factor_count": len(unit_factors),
-                    "terminal": "RANK_DROP_FACTOR_CENSUS_ONLY",
-                }
-            ),
-            flush=True,
-        )
-        return
-    assert args.factor_index < len(v_factors)
-    selected, selected_exponent = v_factors[args.factor_index]
+    assert len(r_factors) == 3
+    selected = r_factors[args.factor_index]
+    e2 = branch["essential"]["E2"]
+    e3 = branch["essential"]["E3"]
     print(
         canonical_json(
             {
                 "phase": "BRANCH",
-                "nonnamed_v_factor_count": len(v_factors),
-                "factor_census": factor_census,
+                "resultant_factor_count": len(r_factors),
                 "selected": {
-                    "index": args.factor_index,
-                    "exponent": selected_exponent,
                     "degree": int(selected.total_degree()),
-                    "degrees": [int(selected.degree(g)) for g in qring.gens()],
+                    "degrees": [int(selected.degree(g)) for g in base.gens()],
                     "terms": int(len(selected.monomials())),
                     "sha256": digest(selected),
                     "polynomial": str(selected) if len(selected.monomials()) <= 300 else None,
                 },
-                "row_metrics": [
+                "remaining_core_metrics": [
                     {
                         "degree": int(value.total_degree()),
+                        "degrees": [int(value.degree(g)) for g in base.gens()],
                         "terms": int(len(value.monomials())),
                         "sha256": digest(value),
                     }
-                    for value in essential_rows
+                    for value in (e2, e3)
                 ],
-                "unit_factor_count": len(unit_factors),
+                "transported_unit_factor_count": len(branch["unit_factors"]),
             }
         ),
         flush=True,
     )
 
     field = GF(ZZ(args.prime))
-    ring = PolynomialRing(field, names=("x", "s", "p", "w"), order="degrevlex")
+    ring = PolynomialRing(field, names=("x", "s", "p"), order="degrevlex")
 
     def convert(value):
         output = ring(0)
-        for monomial, coefficient in qring(value).dict().items():
+        for monomial, coefficient in base(value).dict().items():
             coefficient = QQ(coefficient)
             reduced = field(coefficient.numerator()) / field(coefficient.denominator())
             output += reduced * prod(
@@ -185,8 +109,7 @@ def main():
             )
         return output
 
-    generators = [convert(value) for value in essential_rows]
-    generators.append(convert(selected))
+    generators = [convert(selected), convert(e2), convert(e3)]
     print(canonical_json({"phase": "GROEBNER_BEGIN"}), flush=True)
     basis = list(ring.ideal(generators).groebner_basis(algorithm="singular:slimgb"))
     unit_ideal = basis == [ring(1)]
@@ -207,9 +130,7 @@ def main():
     localizer = ring(1)
     steps = []
     if not unit_ideal:
-        for index, factor in enumerate(
-            [unit_factors[key] for key in sorted(unit_factors)], start=1
-        ):
+        for index, factor in enumerate(branch["unit_factors"], start=1):
             localizer = (localizer * convert(factor)).reduce(basis)
             step = {
                 "index": int(index),
@@ -246,19 +167,19 @@ def main():
         "cell": args.cell,
         "factor_index": args.factor_index,
         "prime": args.prime,
-        "selected_v_factor_sha256": digest(selected),
+        "selected_resultant_factor_sha256": digest(selected),
         "basis_size": len(basis),
         "basis_sha256": digest("\n".join(str(value) for value in basis)),
         "dimension": dimension,
         "unit_ideal": unit_ideal,
-        "localizer_factor_count": len(unit_factors),
+        "localizer_factor_count": len(branch["unit_factors"]),
         "localizer_steps": steps,
         "localizer_powers": powers,
         "localizer_nilpotence_index": nilpotence_index,
         "terminal": (
-            "RANK_DROP_FACTOR_EMPTY_AFTER_NAMED_LOCALIZATION"
+            "GENERIC_RESULTANT_FACTOR_EMPTY_AFTER_LOCALIZATION"
             if nilpotence_index is not None
-            else "RANK_DROP_FACTOR_SURVIVES"
+            else "GENERIC_RESULTANT_FACTOR_SURVIVES"
         ),
     }
     print(canonical_json(result), flush=True)

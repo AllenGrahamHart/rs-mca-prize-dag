@@ -4,19 +4,29 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import modal
 
 
-APP_NAME = "rs-mca-k3-fixed-balanced-branch-probe"
+MODE = os.environ.get("FIXED_PROBE_MODE", "balanced")
+APP_NAME = f"rs-mca-k3-fixed-branch-probe-{MODE}"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
 HERE = Path(__file__).resolve().parent
 PROBE = HERE / "probe.sage"
 LIBRARY = HERE / "branch_core.sage"
-OUTPUT = HERE / "modal_probe_output.json"
-CELLS = ("F04-R11", "F05-R11")
+OUTPUT = HERE / (
+    "modal_remaining_representative_probe_output.json"
+    if MODE == "remaining_representatives"
+    else "modal_probe_output.json"
+)
+CELLS = (
+    ("F04-R02", "F05-R02", "F04-R20", "F05-R20")
+    if MODE == "remaining_representatives"
+    else ("F04-R11", "F05-R11")
+)
 
 app = modal.App(APP_NAME)
 image = (
@@ -100,6 +110,7 @@ def main() -> None:
     output = {
         "schema": "kb-c2-112-fixed-balanced-quadratic-branch-modal-probe-v1",
         "app": APP_NAME,
+        "mode": MODE,
         "upstream_commit": COMMIT,
         "counts": {
             status: sum(row["status"] == status for row in normalized)

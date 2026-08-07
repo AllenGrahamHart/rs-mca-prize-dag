@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run bounded factorwise probes for the balanced V=0 rank-drop chart."""
+"""Run bounded full-identity coefficient compilers for fixed assignments."""
 
 from __future__ import annotations
 
@@ -10,46 +10,37 @@ from pathlib import Path
 import modal
 
 
-MODE = os.environ.get("RANK_DROP_MODE", "representatives")
-APP_NAME = f"rs-mca-k3-fixed-balanced-rank-drop-{MODE}"
+MODE = os.environ.get("FULL_IDENTITY_MODE", "representatives")
+COEFFICIENT_INDEX = int(os.environ.get("FULL_IDENTITY_COEFF", "0"))
+IDENTITY = os.environ.get("FULL_IDENTITY_KIND", "J")
+APP_NAME = f"rs-mca-k3-fixed-full-identity-{MODE}-{IDENTITY.lower()}-c{COEFFICIENT_INDEX}"
 UPSTREAM = "https://github.com/przchojecki/rs-mca.git"
 COMMIT = "55ac3e07477bd7a768190a3e755f22b0d44354b0"
 HERE = Path(__file__).resolve().parent
-LIBRARY = HERE / "branch_core.sage"
-SCRIPT = HERE / "rank_drop_probe.sage"
-OUTPUT = HERE / f"modal_rank_drop_{MODE}_output.json"
-if MODE in ("remaining_structure", "remaining_representatives", "remaining_all"):
-    CELLS = tuple(
-        f"{assignment}-{target}"
-        for assignment in (
-            ("F04", "F05", "F06", "F07")
-            if MODE == "remaining_all"
-            else ("F04", "F05")
-        )
-        for target in ("R02", "R20")
-    )
-    if MODE == "remaining_structure":
-        CASES = tuple(
-            {"cell": cell, "factor_index": 0, "prime": 2130706433, "structure_only": True}
-            for cell in CELLS
-        )
-    else:
-        CASES = tuple(
-            {"cell": cell, "factor_index": factor_index, "prime": 2130706433, "structure_only": False}
-            for cell in CELLS
-            for factor_index in (0, 1)
-        )
-else:
-    CELLS = (
-        ("F04-R11", "F05-R11")
-        if MODE == "representatives"
-        else ("F04-R11", "F05-R11", "F06-R11", "F07-R11")
-    )
-    CASES = tuple(
-        {"cell": cell, "factor_index": factor_index, "prime": 2130706433, "structure_only": False}
-        for cell in CELLS
-        for factor_index in (0, 1)
-    )
+LIBRARY = (
+    HERE.parent
+    / "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction"
+    / "branch_core.sage"
+)
+SCRIPT = HERE / "full_identity_probe.sage"
+OUTPUT = HERE / (
+    f"modal_full_identity_{MODE}_c{COEFFICIENT_INDEX}_output.json"
+    if IDENTITY == "J"
+    else f"modal_full_identity_{MODE}_{IDENTITY.lower()}_c{COEFFICIENT_INDEX}_output.json"
+)
+ASSIGNMENTS = (
+    ("F04",)
+    if MODE == "single"
+    else (("F04", "F05") if MODE == "representatives" else ("F04", "F05", "F06", "F07"))
+)
+CASES = tuple(
+    {
+        "assignment": assignment,
+        "coefficient_index": COEFFICIENT_INDEX,
+        "identity": IDENTITY,
+    }
+    for assignment in ASSIGNMENTS
+)
 
 app = modal.App(APP_NAME)
 image = (
@@ -63,12 +54,12 @@ image = (
         "git -C /repo checkout --detach refs/remotes/origin/pr1149",
     )
     .add_local_file(LIBRARY, "/branch_core.sage")
-    .add_local_file(SCRIPT, "/rank_drop_probe.sage")
+    .add_local_file(SCRIPT, "/full_identity_probe.sage")
 )
 
 
-@app.function(image=image, cpu=2, memory=16384, timeout=420, max_containers=8)
-def run_case(case: dict[str, object]) -> dict[str, object]:
+@app.function(image=image, cpu=2, memory=16384, timeout=480, max_containers=4)
+def run_assignment(case: dict[str, object]) -> dict[str, object]:
     import hashlib
     import os
     import resource
@@ -80,26 +71,26 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
     environment["PYTHONDONTWRITEBYTECODE"] = "1"
     os.makedirs(environment["HOME"], exist_ok=True)
     began = time.monotonic()
-    command = [
-        "sage",
-        "/rank_drop_probe.sage",
-        "--cell",
-        str(case["cell"]),
-        "--factor-index",
-        str(case["factor_index"]),
-        "--prime",
-        str(case["prime"]),
-    ]
-    if case.get("structure_only"):
-        command.append("--structure-only")
+    assignment = str(case["assignment"])
+    coefficient_index = int(case["coefficient_index"])
+    identity = str(case["identity"])
     try:
         completed = subprocess.run(
-            command,
+            [
+                "sage",
+                "/full_identity_probe.sage",
+                "--assignment",
+                assignment,
+                "--identity",
+                identity,
+                "--coefficient-index",
+                str(coefficient_index),
+            ],
             cwd="/repo",
             env=environment,
             capture_output=True,
             text=True,
-            timeout=360,
+            timeout=420,
             check=False,
         )
         records = []
@@ -111,7 +102,9 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
                     pass
         done = next((row for row in records if row.get("phase") == "DONE"), None)
         return {
-            **case,
+            "assignment": assignment,
+            "coefficient_index": coefficient_index,
+            "identity": identity,
             "status": "PASS" if completed.returncode == 0 and done else "FAIL",
             "returncode": completed.returncode,
             "seconds": round(time.monotonic() - began, 6),
@@ -128,19 +121,13 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
             stdout = stdout.decode(errors="replace")
         if isinstance(stderr, bytes):
             stderr = stderr.decode(errors="replace")
-        records = []
-        for line in stdout.splitlines():
-            if line.startswith("{"):
-                try:
-                    records.append(json.loads(line))
-                except json.JSONDecodeError:
-                    pass
         return {
-            **case,
+            "assignment": assignment,
+            "coefficient_index": coefficient_index,
+            "identity": identity,
             "status": "TIMEOUT",
             "seconds": round(time.monotonic() - began, 6),
             "peak_kb": resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,
-            "records": records,
             "stdout_tail": stdout[-4000:],
             "stderr_tail": stderr[-4000:],
         }
@@ -148,17 +135,21 @@ def run_case(case: dict[str, object]) -> dict[str, object]:
 
 @app.local_entrypoint()
 def main() -> None:
-    rows = list(run_case.map(CASES, return_exceptions=True))
+    rows = list(run_assignment.map(CASES, return_exceptions=True))
     normalized = []
     for case, row in zip(CASES, rows):
         if isinstance(row, BaseException):
-            normalized.append({**case, "status": "REMOTE_ERROR", "error": repr(row)})
+            normalized.append(
+                {**case, "status": "REMOTE_ERROR", "error": repr(row)}
+            )
         else:
             normalized.append(row)
     output = {
-        "schema": "kb-c2-112-fixed-balanced-rank-drop-modal-v1",
+        "schema": "kb-c2-112-fixed-full-identity-coefficients-modal-v1",
         "app": APP_NAME,
         "mode": MODE,
+        "coefficient_index": COEFFICIENT_INDEX,
+        "identity": IDENTITY,
         "upstream_commit": COMMIT,
         "counts": {
             status: sum(row["status"] == status for row in normalized)

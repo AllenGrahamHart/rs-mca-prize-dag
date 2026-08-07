@@ -58,10 +58,11 @@ def factor_records(value, unit_keys):
 
 
 def build_branch(cell):
-    assert cell in ("F04-R11", "F05-R11", "F06-R11", "F07-R11")
+    assignment, target = cell.split("-")
+    assert assignment in ("F04", "F05", "F06", "F07")
+    assert target in ("R02", "R11", "R20")
     frontier = load_frontier()
     parent = frontier["PARENT"]
-    assignment, target = cell.split("-")
     rows, _ = parent["qslice_system"](assignment, target)
     source = parent["S"]
 

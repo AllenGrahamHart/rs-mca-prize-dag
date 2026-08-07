@@ -39,8 +39,17 @@ M01-R11, M02-R11,
 The first two cells retain a precise Sage/Singular portability review gate.
 The pinned and independently replayed #1149 compression theorem is PROVED
 locally. Its two balanced fingerprint orbits are now closed by direct
-four-cell generic and rank-drop computations. The four `R02/R20` orbits
-still require exact closure.
+four-cell generic and rank-drop computations. For the four `R02/R20`
+fingerprint orbits, all sixteen literal `V=0` factor branches are now also
+PROVED empty. Hence the eight fixed residual cells have only their generic
+`V != 0` charts left.
+
+On the four generic orbit representatives, the resultant core factors with
+degrees `3,3,12`. One cubic factor closes and the complementary cubic
+survives as a one-dimensional route cut. For `F04`, coefficient zero of the
+full `J` identity reduces that surviving cubic to its degree-11 factor; the
+degree-12 resultant branch remains unresolved. These are exact structural
+cuts, not additional cell closures.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
