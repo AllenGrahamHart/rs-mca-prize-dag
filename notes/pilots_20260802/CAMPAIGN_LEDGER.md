@@ -2300,3 +2300,37 @@ The full adopted batch landed in one pass, all chains green:
   post-pin Codex commits (selector handoff f8ad8cb5e, the
   aperiodicity corollary, f2_selector_face_primitive_reduction,
   + overnight work) — next audit cycle.
+
+## 2026-08-07: MYSTERIES 5 & 6 PROMOTED (user-ratified) + ROUND 21 LAUNCHED
+
+(Quarantine marker: round-21 pilots must not read ledger entries
+below this line until the round completes.)
+
+THE PROMOTION (recorded in the roadmap board section, r4 update):
+generator_economy = MYSTERY 5 (the early-cap signal; kernel-lattice
+alternative; ternary-bridge candidate); l1_mixed_petal_amplification
+= MYSTERY 6 (retracted induction; residue-line growth = the named
+obstruction; the un-surveyed ~133-commit Codex v4 PMA campaign).
+The 25-red accounting of record: 14 mystery-linked / 9 WCL grind /
+2 straddling (hge4 = sparsity in another jersey; dsp8 = pencil
+satellite); two of the 14 possibly already closable.
+
+ROUND 21 (4 agents):
+- **PMA v4 auditor**: the un-surveyed Codex campaign
+  (prize-codex-resolution-v4-20260713), audited against the CURRENT
+  mystery-6 node incl. retraction-respect; draft to
+  PMA_V4_AUDIT_DRAFT.md; blind to the l1 pilot.
+- **gen_economy_diag (MYSTERY 5)**: consumer contract; the early
+  cap quantified with an in-principle verdict; the TERNARY BRIDGE
+  TEST under the round-19 graded discipline (construction-vs-
+  exclusion duality, the tau side); the kernel-lattice route
+  priced; the weakest-form re-pose.
+- **l1_pma_diag (MYSTERY 6, blind to the auditor)**: the imgfib
+  contract; the obstruction formalized; the MANDATORY adversarial
+  construction attempt before believing the censuses; the
+  cross-lane instrument matrix; the weakest-form re-pose.
+- **red_closability_probes**: integer_code_distance_cert vs
+  Z-1/Z-2 (the shift-0 scope check IS the probe);
+  unsafe_crossing_family_instantiation vs THEOREM BB (the
+  universality quantifier decides); certificates written where
+  closable, no status flips (coordinator flips on replay).

@@ -18,3 +18,34 @@
 Heart 7 NOT retired (one-parameter averaging gap); reduced to E_j and
 absorbed. Hearts 1-3 merged per the unification theorems. Supersedes
 r3.1's seven-hearts list for prioritisation.
+
+## r4 UPDATE (2026-08-07, user-ratified): SIX MYSTERIES
+
+The board is promoted from four mysteries to SIX (user-ratified
+2026-08-07), correcting a genealogical asymmetry: generator_economy
+and l1_mixed_petal_amplification carry documented obstructions (the
+E12 early-cap signal; the retracted induction with residue-line
+growth named as the obstruction) but never received the mystery
+pipeline (floor hardening -> weakest-form re-pose -> blind pilots ->
+criticality-compatibility).
+
+- **Mystery 5: GENERATOR ECONOMY** (generator_economy — the
+  multiplicative difference-design construction; early-cap measured;
+  kernel-lattice certification the untested alternative; the
+  cyclotomic-unit germ makes it a candidate FIFTH instance of the
+  ternary master object — to be tested, not assumed, per the
+  round-19 gate discipline).
+- **Mystery 6: PETAL ALLOCATION** (l1_mixed_petal_amplification —
+  the missing imgfib bucket; naive induction retracted; the
+  obstruction = residue-line growth in c; empirical growth censuses
+  resist the super-polynomial falsifier on two chart families; a
+  ~133-commit Codex v4 PMA campaign attacking exactly this is
+  UN-SURVEYED).
+
+THE 25-RED ACCOUNTING OF RECORD: 14 mystery-linked (5 band / 3 F2 /
+2 C1-C2'' / 2 crossing / 1 + 1 new), 9 WCL certificate grind (the
+slot-1-5 template), 2 straddling (hge4 = the sparsity mystery in
+another jersey; dsp8 = pencil satellite). Within the 14, two may
+already be closable by recent theorems (integer_code_distance_cert
+via the transported Z-1 distance law; unsafe_crossing_family_
+instantiation via THEOREM BB) — probes launched round 21.
