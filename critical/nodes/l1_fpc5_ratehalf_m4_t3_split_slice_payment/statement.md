@@ -47,3 +47,8 @@ petal locators lie in one common pencil, affine source alignment makes
 `Etilde` constant and misalignment forces a nonconstant common factor in
 `D` and its remainder. Both cases are empty. The remaining branch is
 therefore genuinely non-common-pencil.
+
+Writing `e=deg Etilde`, the range `a<=e<=ell-a` is an exact prefix ladder:
+it is the disjoint union of `Q_0^(e-a)` ordinary prefix cells of depth
+`ell+e-1`, with effective average depth `ell+a-1` after cancellation. The
+high-multiplier range `e>ell-a` remains a genuine split-in-subspace/BC atom.

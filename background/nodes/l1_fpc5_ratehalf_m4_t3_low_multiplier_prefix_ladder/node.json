@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
+    "title": "Low-multiplier three-petal LS6 flats form an exact prefix ladder",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For an LS6 atom with a<=e=deg(Etilde)<=s=ell-a, Euclidean division gives an exact disjoint parametrization by quotient polynomials Q of degree e-a with fixed leading coefficient and tails R of degree at most s-e. At fixed Q, D=T_Q+R is one ordinary monic locator-prefix cell of depth ell+e-1. Over a field of order Q_0 there are exactly Q_0^(e-a) cells, and their ambient-normalized mass cancels exactly to binom(n,j)/Q_0^(ell+a-1). At e=a there is one prefix cell. This proves a ladder adapter, not maximum prefix flatness.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca (Q) quotient/prefix flatness and ladder transfer",
+      "relation": "EXACT_PREFIX_LADDER_ADAPTER"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_m4_t3_master_flat_descriptor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}

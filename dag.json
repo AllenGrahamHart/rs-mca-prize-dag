@@ -28997,6 +28997,26 @@
    }
   },
   {
+   "id": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
+   "title": "Low-multiplier three-petal LS6 flats form an exact prefix ladder",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an LS6 atom with a<=e=deg(Etilde)<=s=ell-a, Euclidean division gives an exact disjoint parametrization by quotient polynomials Q of degree e-a with fixed leading coefficient and tails R of degree at most s-e. At fixed Q, D=T_Q+R is one ordinary monic locator-prefix cell of depth ell+e-1. Over a field of order Q_0 there are exactly Q_0^(e-a) cells, and their ambient-normalized mass cancels exactly to binom(n,j)/Q_0^(ell+a-1). At e=a there is one prefix cell. This proves a ladder adapter, not maximum prefix flatness.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/upstream_crosswalk.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca (Q) quotient/prefix flatness and ladder transfer",
+    "relation": "EXACT_PREFIX_LADDER_ADAPTER"
+   }
+  },
+  {
    "id": "l1_fpc5_ratehalf_m4_t3_master_flat_descriptor",
    "title": "The three-petal LS6 atom is a gcd-trivial sub-balance master split flat",
    "status": "PROVED",
@@ -29041,8 +29061,8 @@
    "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
    "status": "TARGET",
    "key": true,
-   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a. Every common-pencil source is empty, whether labels are aligned or misaligned. The remaining conclusion is a uniform admissible primitive payment plus owner-safe treatment of genuinely non-pencil quotient and dihedral strata, not a dimension estimate.",
-   "attack_surface": "prove primitive max-to-mean split-flatness in the exact sub-balance 2r<j descriptor, plus owner-safe non-pencil even-defect quotient and dihedral classification",
+   "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a. Every common-pencil source is empty. For a<=e=deg(Etilde)<=ell-a, the flat is exactly Q_0^(e-a) prefix cells of depth ell+e-1 with average-scale cancellation to depth ell+a-1. The remaining conclusion is depth-uniform prefix flatness in that ladder plus primitive and owner-safe quotient/dihedral treatment of the high-multiplier BC range.",
+   "attack_surface": "prove depth-uniform Q flatness along the exact low-multiplier ladder, and primitive max-to-mean plus owner-safe non-pencil quotient/dihedral classification in the high-multiplier BC range",
    "falsifier": "a family of fixed guarded LS6 atoms whose mass exceeds every uniform polynomial and every legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_ratehalf_m4_t3_split_slice_payment/statement.md",
@@ -29053,7 +29073,8 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t3_master_flat_descriptor/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/statement.md",
-    "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/statement.md"
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/statement.md"
    ]
   },
   {
@@ -55350,6 +55371,21 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
+   "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
+   "to": "shared_census_kernel",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t3_master_flat_descriptor",
+   "to": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
+   "kind": "req"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t3_master_flat_descriptor",
    "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
    "kind": "ev"
@@ -55442,6 +55478,11 @@
   {
    "from": "pma_ratehalf_complement_linear_slice_reduction",
    "to": "l1_fpc5_ratehalf_m4_t3_first_layout_atom_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "pma_ratehalf_complement_linear_slice_reduction",
+   "to": "l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder",
    "kind": "req"
   },
   {

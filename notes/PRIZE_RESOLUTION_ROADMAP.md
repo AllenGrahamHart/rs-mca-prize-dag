@@ -20275,6 +20275,42 @@ new assumptions: none
 compute: no Modal; exact polynomial factorization replay under 256 MB RAM guard
 next: primitive max-to-mean and owner-safe non-pencil periodic/dihedral transport
 ```
+
+### Low-multiplier LS6 prefix ladder
+
+Let `e=deg Etilde` and `s=ell-a`. In the range `a<=e<=s`, exact Euclidean
+division gives a disjoint parametrization by quotient polynomials of degree
+`e-a` with fixed leading coefficient and low tails of degree at most `s-e`.
+For each fixed quotient, the locators form one ordinary prefix cell of depth
+
+```text
+h_e=ell+e-1.
+```
+
+There are exactly `Q_0^(e-a)` such cells over a generated field of order
+`Q_0`, and the target/depth costs cancel:
+
+```text
+Q_0^(e-a) binom(n,j)/Q_0^(ell+e-1)
+ =binom(n,j)/Q_0^(ell+a-1).
+```
+
+At `e=a` there is one prefix cell. This turns the whole low-multiplier branch
+into an exact `(Q)` ladder rather than a general BC flat. The missing input
+is depth-uniform prefix max-to-mean control that preserves the cancellation;
+the high-multiplier branch `e>ell-a` remains BC-class.
+
+```text
+starting pin: a1e75a85c; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / low-multiplier LS6
+result: PROVED exact prefix-ladder parametrization and average-scale cancellation
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable (Q) ladder/tower-transfer consumer
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exact polynomial division replay under 256 MB RAM guard
+next: depth-uniform prefix flatness for the ladder; BC attack only above e=ell-a
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

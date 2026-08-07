@@ -16,3 +16,6 @@
    reciprocal/dihedral strata. Odd `a` has no pure multiplicative pullback.
 8. Enforce `deg Etilde>=a`; every common-pencil source is empty, whether its
    labels are aligned or misaligned. Attack only genuinely non-pencil data.
+9. For `a<=deg Etilde<=ell-a`, use the exact prefix ladder and require a
+   depth-uniform max-to-mean theorem that preserves its field/depth
+   cancellation. Treat only `deg Etilde>ell-a` as a general BC flat.

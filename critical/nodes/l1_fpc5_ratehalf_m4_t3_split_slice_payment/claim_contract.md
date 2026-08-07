@@ -13,6 +13,8 @@
   gcd-trivial, sub-balance full-domain split flat with `2r<j`.
 - **Proved exclusions:** `deg Etilde<a` and all common-pencil source data,
   aligned or misaligned, give empty atoms.
+- **Proved low-degree adapter:** `a<=deg Etilde<=ell-a` is an exact prefix
+  ladder with effective average depth `ell+a-1`.
 - **Nonclaim:** each fiber has size at most two; linear dimension implies a
   split-divisor count; an unguarded prefix-flatness theorem applies; `lambda`
   remains free after fixing the source triple; current Conjecture-F owners
