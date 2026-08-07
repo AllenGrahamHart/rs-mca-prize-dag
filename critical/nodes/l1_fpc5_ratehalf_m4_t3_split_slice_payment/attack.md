@@ -23,3 +23,6 @@
     `D=quo_E(MQ)`, `V=-rem_E(MQ)`, and `gcd(D,Q)=1`. Enforce the dual gate
     `deg(E^(-1) mod M)>=ell+a`; do not replace this primitive quotient cell by
     every point of the ambient BC flat.
+11. Before either multiplier branch, enforce the source-ratio gate
+    `deg rem_(L_3)(L_1L_2^(-1))>=a`. Its failure is the exact short-syzygy
+    stratum `L_1=U L_2+R L_3` with `deg U,deg R<a`, and is already empty.

@@ -23,6 +23,9 @@
   "requires": [
     {
       "from": "pma_ratehalf_complement_linear_slice_reduction"
+    },
+    {
+      "from": "l1_fpc5_ratehalf_inverse_ratio_degree_gate"
     }
   ],
   "alternatives": [],

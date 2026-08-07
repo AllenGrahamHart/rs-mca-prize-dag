@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_inverse_ratio_degree_gate",
+    "title": "Every guarded three-petal LS6 atom obeys an inverse source-ratio degree gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every live guarded LS6 atom, not only the high-multiplier range, let F be the canonical inverse of Etilde modulo L_2L_3. Nonemptiness forces deg(F)>=ell+a. The source CRT residues give F=L_1+L_2A, where A is the degree-below-ell representative of (lambda^(-1)-1)L_1L_2^(-1) modulo L_3. Hence nonemptiness forces deg rem_(L_3)(L_1L_2^(-1))>=a, independently of lambda. The failure branch is exactly a source syzygy L_1=U L_2+R L_3 with deg U,deg R<a. Common-pencil triples are the degree-zero case and are empty.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/upstream_crosswalk.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/verify.py"
+    ],
+    "upstream": {
+      "source": "rs-mca split-pencil and short-syzygy census",
+      "relation": "EXACT_SOURCE_RATIO_DEGREE_GATE"
+    }
+  },
+  "requires": [
+    {
+      "from": "pma_ratehalf_complement_linear_slice_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t3_split_slice_payment"
+    },
+    {
+      "to": "shared_census_kernel"
+    }
+  ],
+  "refutes": []
+}

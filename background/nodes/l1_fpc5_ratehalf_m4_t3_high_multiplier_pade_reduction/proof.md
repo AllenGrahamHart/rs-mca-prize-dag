@@ -61,24 +61,6 @@ the canonical representative is
 D=rem_M(FV),                                           (5)
 ```
 
-proving `(HP9)`.
-
-Put `f=deg F` and suppose, for contradiction, that `f<ell+a`. For every
-`V` of degree at most `s=ell-a`,
-
-```text
-deg(FV)<=f+s<2ell,
-```
-
-so no reduction modulo `M` occurs in `(5)` and `D=FV`. On the live branch
-`a<=ell/2`, one has `ell+a<=j`. Since `deg D=j` and `f<ell+a<=j`, the
-polynomial `V` is nonconstant. It then divides both `D` and `V`, contrary to
-the LS6 guard `gcd(D,V)=1`. Hence `f>=ell+a`, which is `(HP10)`.
-
-For official cells,
-
-```text
-a<=floor((b-3)/4)<ell/4
-```
-
-because `b<ell`, so the live-branch hypothesis is automatic. QED.
+proving `(HP9)`. The general proved source-ratio gate
+`l1_fpc5_ratehalf_inverse_ratio_degree_gate` applies to every guarded LS6
+atom and gives `deg F>=ell+a`, which is `(HP10)`. QED.

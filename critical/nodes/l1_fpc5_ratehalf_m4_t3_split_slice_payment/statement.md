@@ -61,4 +61,11 @@ deg Q=e-a,                gcd(D,Q)=1.
 If `F=E^(-1) mod L_2L_3`, every candidate also has
 `D=rem_(L_2L_3)(FV)` and necessarily `deg F>=ell+a`. Thus the high branch
 is a two-sided primitive rational-approximation cell, not an unstructured BC
-flat. Its split maximum and quotient/dihedral owner transport remain open.
+flat. More generally every nonempty atom satisfies the source-only gate
+
+```text
+deg rem_(L_3)(L_1L_2^(-1))>=a;
+```
+
+failure is exactly a short syzygy between the three petal locators. Its split
+maximum and quotient/dihedral owner transport remain open.

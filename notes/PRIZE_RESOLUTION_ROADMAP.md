@@ -20353,6 +20353,47 @@ new assumptions: none
 compute: no Modal; deterministic exact GF(257) replay under 256 MB RAM guard
 next: count split primitive Pade quotients and classify owner-safe quotient/dihedral strata
 ```
+
+### Universal LS6 inverse source-ratio gate
+
+The inverse-multiplier obstruction is independent of the high/low split.
+For every guarded LS6 candidate,
+
+```text
+F=Etilde^(-1) mod L_2L_3,
+D=rem_(L_2L_3)(FV),       deg F>=ell+a.
+```
+
+The source CRT gives the exact form
+
+```text
+F=L_1+L_2A,
+A=(lambda^(-1)-1) rem_(L_3)(L_1L_2^(-1)).
+```
+
+Hence nonemptiness forces the label-independent source gate
+
+```text
+deg rem_(L_3)(L_1L_2^(-1))>=a.
+```
+
+Failure is exactly a short syzygy
+`L_1=U L_2+R L_3` with `deg U,deg R<a`. Common pencils are its degree-zero
+case. The target now excludes the complete short-syzygy source stratum before
+either multiplier branch; classifying the surviving degree-`>=a` ratios
+remains open.
+
+```text
+starting pin: fbe7a594b; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=3 / source syzygy gate
+result: PROVED universal inverse-degree and modular source-ratio gate
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable split-pencil/short-syzygy census rung
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; deterministic exact GF(257) CRT replay under 256 MB RAM guard
+next: classify surviving source-ratio degrees and test cyclic relabeling as simultaneous gates
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

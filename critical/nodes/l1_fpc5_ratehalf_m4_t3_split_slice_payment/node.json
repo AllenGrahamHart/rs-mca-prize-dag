@@ -5,7 +5,7 @@
     "title": "L1 FPC5: rate-half M=4,t=3 guarded split-slice payment",
     "status": "TARGET",
     "key": true,
-    "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a. Every common-pencil source is empty. For a<=e=deg(Etilde)<=ell-a, the flat is exactly Q_0^(e-a) prefix cells of depth ell+e-1 with average-scale cancellation to depth ell+a-1. For e>ell-a, every candidate is exactly D=quo_E(MQ), V=-rem_E(MQ), with deg Q=e-a, gcd(D,Q)=1, and inverse-multiplier degree at least ell+a. The remaining conclusion is depth-uniform prefix flatness in the low ladder plus split maximum and owner-safe quotient/dihedral control of the high guarded Pade cell.",
+    "statement": "At the official rate-half row, fix one M=4,t=3 FPC5 source, touched triple, defect, and the normalized cross-ratio determined by that triple. For N=4ell+b-2, d=2ell-a, b>=7, 1<=a<=floor((b-3)/4), and J<=0, the cell is exactly the guarded LS6 atom of monic divisors D|L_C with deg D=2ell-a, deg rem_(L_2L_3)(D Etilde)<=ell-a, and gcd(D,rem(D Etilde))=1. First-layout atom collapse proves that fewer than 4n fixed atoms plus four anchors cover the global class. Every nonempty atom injects into an unpunctured full-domain split flat with j=2ell-a, r=ell-2a+1, 2r<j, flat-wide gcd one, and exponentially sub-unit ambient mean; it also has deg(Etilde)>=a and deg rem_(L_3)(L_1L_2^(-1))>=a. Every common-pencil and, more generally, every complementary short-syzygy source is empty. For a<=e=deg(Etilde)<=ell-a, the flat is exactly Q_0^(e-a) prefix cells of depth ell+e-1 with average-scale cancellation to depth ell+a-1. For e>ell-a, every candidate is exactly D=quo_E(MQ), V=-rem_E(MQ), with deg Q=e-a, gcd(D,Q)=1, and inverse-multiplier degree at least ell+a. The remaining conclusion is depth-uniform prefix flatness in the low ladder plus split maximum and owner-safe quotient/dihedral control of the high guarded Pade cell.",
     "attack_surface": "prove depth-uniform Q flatness along the exact low-multiplier ladder, and primitive split maximum plus owner-safe quotient/dihedral classification in the exact high-multiplier Pade coordinates",
     "falsifier": "a family of fixed guarded LS6 atoms whose mass exceeds every uniform polynomial and every legitimate quotient/profile column",
     "refs": [
@@ -19,7 +19,8 @@
       "background/nodes/l1_fpc5_ratehalf_m4_t3_aligned_common_pencil_emptiness/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t3_misaligned_common_pencil_emptiness/statement.md",
       "background/nodes/l1_fpc5_ratehalf_m4_t3_low_multiplier_prefix_ladder/statement.md",
-      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/statement.md"
+      "background/nodes/l1_fpc5_ratehalf_m4_t3_high_multiplier_pade_reduction/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_inverse_ratio_degree_gate/statement.md"
     ]
   },
   "requires": [],
