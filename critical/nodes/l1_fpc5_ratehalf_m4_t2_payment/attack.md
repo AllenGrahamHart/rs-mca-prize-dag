@@ -1,8 +1,8 @@
 # Attack
 
-1. Use the proved sharp descriptor
-   `(N,j,r,s)=(5ell-5,2ell-3,ell-2,ell-1)`; do not return to an untyped
-   codimension-two petal envelope.
+1. Use the uniform fixed-background theorem: every guarded cell has locator
+   codimension at least `ell-1`. Do not sum its per-cell bound over background
+   subsets; attack the aggregate root-rich pair `(F,W_F)` directly.
 2. Do not pursue universal algebraic emptiness: the exact `F_97,H_32`
    certificate has 71 primitive contributors across 41/50 adversarially
    labelled layouts.
@@ -15,5 +15,7 @@
    ownership classes; arbitrary source layout prevents assuming them.
 5. Quantify any spread bound against the polynomial image-fiber target. A
    dimension-dependent binomial exponent is not a payment.
-6. Keep the six touched pairs disjoint by a fixed pair order. Source-layout
-   multiplicity has already been removed and must not reappear.
+6. Keep the six touched pairs disjoint by their unique exact pair. The
+   background set is also unique from `W_F`, but any rechart of it needs a
+   polynomial first-owner compression. Source-layout multiplicity has already
+   been removed and must not reappear.

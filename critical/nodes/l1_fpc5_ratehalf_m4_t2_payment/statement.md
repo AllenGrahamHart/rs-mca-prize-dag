@@ -21,6 +21,19 @@ codimension is at least two. At equality, official arithmetic forces
 and the full-background guard cuts the pair and locator dimensions to
 `ell-1`.
 
+The uniform guarded-codimension theorem now covers every fixed exact
+background set `R`, not only that endpoint. If `r=|R|`, the threshold gives
+`r>=s`, and the guarded locator codimension is at least `ell-1`; it is exactly
+`ell-1` when `r=s` and at least `ell` when `r>=s+1`. Aggregated without
+choosing `R`, the remaining locus is one joint split-pair problem:
+
+```text
+F split on C,       W_F has at least s roots on B.      (RH0)
+```
+
+The exact set `R=Z_B(W_F)` is unique, but an independent sum over all
+`binom(b,r)` possible sets is not a polynomial payment.
+
 The proved sharp projective-flat descriptor now identifies this endpoint
 exactly. For each fixed touched pair, contributors inject into
 
@@ -40,9 +53,10 @@ quotient tails and reciprocal/dihedral classes remain. Because the projective
 dimension grows with `ell`, the upstream fixed-dimensional split-flat bound
 does not close (RH1).
 
-Prove one disjoint aggregate payment of the remaining split-on-core locators
-over the six touched pairs and all defect/background cells in this fixed
-source. Internal tangent, quotient, and contributor-dependent recharts must
-have explicit first owners. No sum over maximal source layouts is needed:
+Prove one disjoint aggregate payment of the remaining root-rich split-pair
+locus over the six touched pairs and all defect/background cells in this
+fixed source. Internal tangent, quotient, background-root, and
+contributor-dependent recharts must have explicit first owners. No sum over
+maximal source layouts is needed:
 `l1_general_first_layout_domination` makes the fixed-layout payment global
 after adding at most four anchors.

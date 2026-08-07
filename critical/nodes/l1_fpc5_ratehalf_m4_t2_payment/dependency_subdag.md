@@ -11,6 +11,8 @@ l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor
 l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality [PROVED] -------ev----+
 l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence
   [PROVED] --------------------------------------------------ev----+
+l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension
+  [PROVED] --------------------------------------------------ev----+
                                                                     v
   l1_fpc5_ratehalf_m4_t2_payment [TARGET]
     --req--> l1_fpc5_m4_t2_payment [CONDITIONAL]

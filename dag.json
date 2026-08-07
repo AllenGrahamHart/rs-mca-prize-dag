@@ -28803,8 +28803,8 @@
    "title": "Rate-half FPC5 M=4,t=2 guarded split-locator payment",
    "status": "TARGET",
    "key": true,
-   "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. At the sharp endpoint, the guarded locator image is now proved to be a typed projective split-flat with root-domain size 5ell-5, locator degree 2ell-3, projective dimension ell-2, affine codimension ell-1, unique numerator reconstruction, exact PMA filters, flat-wide common gcd one, and no proper pure multiplicative quotient pullbacks. The remaining content is its primitive growing-dimensional split count, including possible partial-tail/rational/dihedral structures, plus the nonsharp cells, with internal-owner multiplicity preserved.",
-   "attack_surface": "prove the primitive growing-dimensional guarded split-flat count in one fixed rate-half source, exploiting the cofactor congruence and candidate-wise exact PMA filters after removing pure dyadic pullbacks",
+   "statement": "For the official rate-half row, fix one admissible maximal M=4 sunflower source. Aggregate every non-planted FPC5 contributor touching exactly two full petals by one internal tangent, quotient/profile, or polynomial first owner. General first-layout domination proves that this one-layout payment plus at most four anchors is already global over source layouts. Every fixed exact-background guarded cell now has locator codimension at least ell-1, with equality on r=s and codimension at least ell for r>=s+1. Without selecting the uniquely reconstructed background set, the complete fixed-s residual is one joint locus where F splits on the source core and W_F has at least s background roots. At the sharp endpoint this is a typed projective flat with flat-wide common gcd one and no proper pure multiplicative quotient pullbacks. The remaining content is aggregate root-rich split-pair control, including possible partial-tail/rational/dihedral structures and internal-owner multiplicity.",
+   "attack_surface": "prove an aggregate root-rich split-pair count for F split on the source core and its unique W_F with at least s background roots, without summing fixed-background flats",
    "falsifier": "a fixed official rate-half source whose internally first-owned two-full-petal contributors exceed every polynomial and legitimate profile column",
    "refs": [
     "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md",
@@ -28816,7 +28816,8 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cell_nonemptiness/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
-    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md"
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md"
    ]
   },
   {
@@ -28892,6 +28893,26 @@
    "upstream": {
     "source": "rs-mca split-locator master flatness / experimental m1 Conjecture F",
     "relation": "EXACT_TYPED_INSTANCE"
+   }
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
+   "title": "Every fixed rate-half two-petal background cell has codimension at least ell-1",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a rate-half M=4,t=2 cell with d=ell+s and exact background set R of size r>=s, the guarded cofactor congruence has locator dimension at most 2s+2-min(r,s+1). Hence every nonempty monic degree-d chart has affine codimension at least ell-1; when r=s its dimension is exactly s+2 and codimension exactly ell-1, while r>=s+1 gives codimension at least ell. Aggregated without choosing R, contributors lie in one joint locus where F is split on the core and its uniquely reconstructed W_F has at least s background roots. A per-R union bound is not claimed.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/upstream_crosswalk.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/verify.py"
+   ],
+   "upstream": {
+    "source": "rs-mca split-locator master flatness and primitive shift-pair control",
+    "relation": "EXACT_FPC5_CONSUMER_FAMILY"
    }
   },
   {
@@ -55109,6 +55130,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_m4_t2_official_codimension_sieve",
+   "to": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
+   "kind": "req"
+  },
+  {
    "from": "l1_fpc5_m4_t2_payment",
    "to": "l1_full_petal_fpc5_payment",
    "kind": "req"
@@ -55157,6 +55183,11 @@
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t3_split_slice_payment",
@@ -55242,6 +55273,11 @@
    "from": "pma_two_full_petal_linear_slice_reduction",
    "to": "l1_fpc5_m4_t2_payment",
    "kind": "ev"
+  },
+  {
+   "from": "pma_two_full_petal_linear_slice_reduction",
+   "to": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
+   "kind": "req"
   },
   {
    "from": "pma_two_full_petal_linear_slice_reduction",

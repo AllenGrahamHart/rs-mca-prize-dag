@@ -2262,3 +2262,41 @@ new assumptions: none
 compute: no Modal; 230 exact divisor checks under 256 MB RAM guard
 next: isolate tail/rational/dihedral strata or attack the primitive aperiodic count directly
 ```
+
+### Uniform guarded codimension and aggregate root-rich interface
+
+For every fixed exact background agreement set `R`, not only the sharp cell,
+the cofactor congruence has rank at least `min(|R|,s+1)`. Since the list
+threshold gives `|R|>=s`, projection to the locator flat yields
+
+```text
+fixed-cell locator codimension >= ell-1;
+|R|=s:       codimension = ell-1 exactly;
+|R|>=s+1:    codimension >= ell.
+```
+
+The theorem also identifies the honest aggregate object. In the unguarded
+two-petal flat, `F` determines `W_F` uniquely, and all contributors at fixed
+`s` lie in
+
+```text
+F split on the source core,
+W_F root-rich on the background: |Z_B(W_F)|>=s.
+```
+
+The exact background set is unique, so the cells are disjoint; however, a
+sum over all `binom(b,r)` possible sets would be exponentially loose. The
+next theorem must count this joint split-pair locus directly or compress the
+realized background owners.
+
+```text
+starting pin: 1f6709ebd; canonical 23df01a65; upstream main 93fba1be
+lane: LIST / rate-half FPC5 M=4,t=2 / all background cells
+result: PROVED uniform codimension >=ell-1 and exact aggregate root-rich interface
+DAG status delta: +1 background PROVED evidence node; critical frontier unchanged
+upstream terminal delta: portable master-flatness/shift-pair consumer family
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; 161 finite-field rank cells under 256 MB RAM guard
+next: aggregate root-rich numerator ownership; no per-background-set union bound
+```
