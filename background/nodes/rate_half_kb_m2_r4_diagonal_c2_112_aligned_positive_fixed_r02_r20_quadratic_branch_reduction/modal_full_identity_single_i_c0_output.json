@@ -1,0 +1,26 @@
+{
+  "app": "rs-mca-k3-fixed-full-identity-single-i-c0",
+  "coefficient_index": 0,
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 1
+  },
+  "identity": "I",
+  "mode": "single",
+  "results": [
+    {
+      "assignment": "F04",
+      "coefficient_index": 0,
+      "identity": "I",
+      "peak_kb": 14924984,
+      "seconds": 420.450515,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"assignment\": \"F04\", \"phase\": \"START\"}\n{\"phase\": \"SOURCE_BUILT\"}\n{\"expected_factor_count\": 28, \"identity\": \"I\", \"observed_factor_count\": 10, \"phase\": \"FACTORS_BUILT\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-full-identity-coefficients-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

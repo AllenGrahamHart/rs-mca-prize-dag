@@ -1,0 +1,51 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction",
+    "title": "KoalaBear fixed R02/R20 generic route reduction",
+    "status": "PROVED",
+    "closure": "exact representative resultant split and F04 full-J route cut",
+    "statement": "For the four representatives {F04,F05} x {R02,R20}, exact V-nonzero reconstruction reduces the resultant core to three nonnamed factors of degrees 3,3,12. One cubic factor per cell is empty after transported localization, the complementary cubic survives as a one-dimensional route cut, and the degree-12 basis attempt is explicitly unresolved. For F04, coefficient 0 of the full J quotient mismatch factors, after source named cancellation and symmetric descent, as w^4 times two degree-8 squares times degree-11 and degree-12 factors. On each surviving cubic curve, the degree-8 and degree-12 full-J factor intersections are empty; only the degree-11 factor survives. Coefficient 1 is a degree-70 large-factor fence and the full-I coefficient-0 route times out. No cell emptiness is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/generic_factor_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/generic_factor_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_generic_representatives_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/full_identity_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/full_identity_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_full_identity_representatives_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_full_identity_single_c0_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_full_identity_single_c1_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_full_identity_single_i_c0_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quotient_full_j_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quotient_full_j_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quotient_full_j_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quadratic_quotient_full_j_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/quadratic_quotient_full_j_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_quadratic_quotient_full_j_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/generic_full_j_intersection_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/generic_full_j_intersection_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction/modal_f04_full_j_intersections_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction/modal_remaining_representative_probe_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_quadratic_orbit_compression_upstream_import"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

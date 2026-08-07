@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
+    "title": "KoalaBear quadratic pseudo-remainder determinant reduction",
+    "status": "PROVED",
+    "closure": "exact quadratic-divisor replacement of the two quartic source rows and a degree-34 core census",
+    "statement": "Three exact pseudo-division steps give a^3 P=QD+r1 w+r0. On D(w)=0, Vw+U=0, and aV nonzero, P(w)=0 is equivalent to V r0-U r1=0. In the literal F04-R02 B0 chart, the two determinants factor into transported named units, a common irreducible degree-8 leading factor K8, and irreducible degree-34 cores with 3201 and 2937 terms. The named-open V K8!=0 chart is therefore represented by the selected degree-12 resultant factor and these two cores. Their deployed-prime ideal has a 142-element dimension-one Groebner basis; no emptiness is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/degree12_quadratic_pseudoremainder_determinant_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_groebner_b0_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

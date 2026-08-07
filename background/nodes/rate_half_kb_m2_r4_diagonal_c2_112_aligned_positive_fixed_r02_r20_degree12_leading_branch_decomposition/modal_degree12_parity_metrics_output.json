@@ -1,0 +1,147 @@
+{
+  "app": "rs-mca-k3-degree12-parity-metrics",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 1,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "mode": "metrics",
+  "results": [
+    {
+      "cell": "F04-R02",
+      "peak_kb": 416192,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "phase": "START"
+        },
+        {
+          "blocks": {
+            "R": {
+              "degree": 42,
+              "degrees": [
+                24,
+                10,
+                17
+              ],
+              "sha256": "6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62",
+              "terms": 3679
+            },
+            "U": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037",
+              "terms": 648
+            },
+            "V": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1",
+              "terms": 634
+            },
+            "Z": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04",
+              "terms": 634
+            }
+          },
+          "direct": [
+            {
+              "degree": 99,
+              "degrees": [
+                58,
+                31,
+                42
+              ],
+              "sha256": "2cdede128b75fc902dc70843f51f7dcfe34c0d4ef045ae42f131e41cfafd0efa",
+              "terms": 52336
+            },
+            {
+              "degree": 99,
+              "degrees": [
+                58,
+                30,
+                42
+              ],
+              "sha256": "76181dfa17c9e16d1905e34399bb517afbfc3b5b646ec263a702cd298b794da3",
+              "terms": 49949
+            }
+          ],
+          "parity": [
+            {
+              "degree": 98,
+              "degrees": [
+                58,
+                31,
+                42
+              ],
+              "sha256": "d0c3bfb298538275593184cbd2afee494014bf2417f0a3e0bbae884f57b0e22d",
+              "terms": 52257
+            },
+            {
+              "degree": 97,
+              "degrees": [
+                58,
+                30,
+                42
+              ],
+              "sha256": "3fd6a65e18b4ad8a53576a0b0b3f280d190d73330825376888e1fba0ea62dffa",
+              "terms": 49848
+            }
+          ],
+          "phase": "PARITY_COMPILED"
+        },
+        {
+          "cell": "F04-R02",
+          "parity": [
+            {
+              "degree": 98,
+              "degrees": [
+                58,
+                31,
+                42
+              ],
+              "sha256": "d0c3bfb298538275593184cbd2afee494014bf2417f0a3e0bbae884f57b0e22d",
+              "terms": 52257
+            },
+            {
+              "degree": 97,
+              "degrees": [
+                58,
+                30,
+                42
+              ],
+              "sha256": "3fd6a65e18b4ad8a53576a0b0b3f280d190d73330825376888e1fba0ea62dffa",
+              "terms": 49848
+            }
+          ],
+          "phase": "DONE",
+          "terminal": "DEGREE12_PARITY_REPRESENTATIVES_COMPILED"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 51.636388,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "b117b3dc58bd4f3939a43821b9e023909a9d9bfdba2ff29d4993d2adcce6dce5",
+      "stdout_tail": "{\"cell\": \"F04-R02\", \"phase\": \"START\"}\n{\"blocks\": {\"R\": {\"degree\": 42, \"degrees\": [24, 10, 17], \"sha256\": \"6cd1bfd1f71d5fcfa7681ae1a3b55a47e9417b930d15fb6ef0832edd9bb25a62\", \"terms\": 3679}, \"U\": {\"degree\": 21, \"degrees\": [12, 7, 9], \"sha256\": \"fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037\", \"terms\": 648}, \"V\": {\"degree\": 20, \"degrees\": [12, 7, 9], \"sha256\": \"ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1\", \"terms\": 634}, \"Z\": {\"degree\": 21, \"degrees\": [12, 7, 9], \"sha256\": \"bbf18f98def9f8e8e7af576093dfafbf562497692733e8e8fe2118fc4b5a1d04\", \"terms\": 634}}, \"direct\": [{\"degree\": 99, \"degrees\": [58, 31, 42], \"sha256\": \"2cdede128b75fc902dc70843f51f7dcfe34c0d4ef045ae42f131e41cfafd0efa\", \"terms\": 52336}, {\"degree\": 99, \"degrees\": [58, 30, 42], \"sha256\": \"76181dfa17c9e16d1905e34399bb517afbfc3b5b646ec263a702cd298b794da3\", \"terms\": 49949}], \"parity\": [{\"degree\": 98, \"degrees\": [58, 31, 42], \"sha256\": \"d0c3bfb298538275593184cbd2afee494014bf2417f0a3e0bbae884f57b0e22d\", \"terms\": 52257}, {\"degree\": 97, \"degrees\": [58, 30, 42], \"sha256\": \"3fd6a65e18b4ad8a53576a0b0b3f280d190d73330825376888e1fba0ea62dffa\", \"terms\": 49848}], \"phase\": \"PARITY_COMPILED\"}\n{\"cell\": \"F04-R02\", \"parity\": [{\"degree\": 98, \"degrees\": [58, 31, 42], \"sha256\": \"d0c3bfb298538275593184cbd2afee494014bf2417f0a3e0bbae884f57b0e22d\", \"terms\": 52257}, {\"degree\": 97, \"degrees\": [58, 30, 42], \"sha256\": \"3fd6a65e18b4ad8a53576a0b0b3f280d190d73330825376888e1fba0ea62dffa\", \"terms\": 49848}], \"phase\": \"DONE\", \"terminal\": \"DEGREE12_PARITY_REPRESENTATIVES_COMPILED\"}\n",
+      "stop_after_parity": true
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-parity-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

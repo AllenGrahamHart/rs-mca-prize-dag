@@ -1,0 +1,611 @@
+{
+  "app": "rs-mca-k3-degree12-quadratic-prem-determinant-groebner_b0",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 1
+  },
+  "results": [
+    {
+      "cell": "F04-R02",
+      "divisor": "B0",
+      "groebner": true,
+      "peak_kb": 578012,
+      "projective_field": false,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "divisor": "B0",
+          "phase": "START"
+        },
+        {
+          "blocks": {
+            "U": {
+              "degree": 21,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037",
+              "terms": 648
+            },
+            "V": {
+              "degree": 20,
+              "degrees": [
+                12,
+                7,
+                9
+              ],
+              "sha256": "ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1",
+              "terms": 634
+            }
+          },
+          "divisor": {
+            "coefficients": 3,
+            "degree_w": 2,
+            "max_coefficient_degree": 11,
+            "sha256": "57d6ae9bfc7164996af85ce426d86e364c8b2609cd04657120982a47f89106bb",
+            "terms": 316
+          },
+          "divisor_leading": {
+            "degree": 9,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "f850fb181f2a2919054a10702b5710740adbe26530cfa365ef789b6e4cd5ab9c",
+            "terms": 91
+          },
+          "divisor_leading_factors": [
+            {
+              "degree": 1,
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 8,
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            }
+          ],
+          "phase": "SOURCE",
+          "remaining": {
+            "A1": {
+              "coefficients": 5,
+              "degree_w": 4,
+              "max_coefficient_degree": 17,
+              "sha256": "1465ff30d2b818c7c410f3b0480bc73f03681722115f44001c6a2c344190ccd2",
+              "terms": 1571
+            },
+            "B1": {
+              "coefficients": 5,
+              "degree_w": 4,
+              "max_coefficient_degree": 16,
+              "sha256": "36c633305ddb5144ba6e3fadc39fa24166eae29fc19e69850c3db02782f946b4",
+              "terms": 1218
+            }
+          }
+        },
+        {
+          "metric": {
+            "coefficients": 4,
+            "degree_w": 3,
+            "max_coefficient_degree": 26,
+            "sha256": "47fd70b63dc819a7e9f89752a55459da237a03a5a3139d95aa995a5118ba5309",
+            "terms": 5170
+          },
+          "name": "A1",
+          "phase": "PSEUDO_STEP",
+          "step": 1
+        },
+        {
+          "metric": {
+            "coefficients": 3,
+            "degree_w": 2,
+            "max_coefficient_degree": 36,
+            "sha256": "084fd07f6e7441615cf45e45325c8d22fef217b9f78640f73370498a21bde458",
+            "terms": 10032
+          },
+          "name": "A1",
+          "phase": "PSEUDO_STEP",
+          "step": 2
+        },
+        {
+          "metric": {
+            "coefficients": 2,
+            "degree_w": 1,
+            "max_coefficient_degree": 46,
+            "sha256": "addf86f53dd90f166d45689f41e2ec7b8684dc9e2fb5fd1898be42050df9b4e1",
+            "terms": 13930
+          },
+          "name": "A1",
+          "phase": "PSEUDO_STEP",
+          "step": 3
+        },
+        {
+          "determinant": {
+            "degree": 66,
+            "degrees": [
+              40,
+              25,
+              27
+            ],
+            "sha256": "d0f5a1be75ab7842c4a57ae6e60753909149bc00aeb0da1b70efa42fd50e938a",
+            "terms": 19197
+          },
+          "input_degree": 4,
+          "multiplier": {
+            "degree": 27,
+            "degrees": [
+              18,
+              15,
+              12
+            ],
+            "sha256": "12a4cc70b17272b6936213e50c059184bd50b2b4cce5104dde62160f8309161f",
+            "terms": 1862
+          },
+          "name": "A1",
+          "phase": "DETERMINANT",
+          "pseudo_exponent": 3,
+          "quotient": {
+            "coefficients": 3,
+            "degree_w": 2,
+            "max_coefficient_degree": 35,
+            "sha256": "85dd207ffe7409a955db346c001167f72a3071f961cfd597f4c72095814f6874",
+            "terms": 9878
+          },
+          "remainder": {
+            "coefficients": 2,
+            "degree_w": 1,
+            "max_coefficient_degree": 46,
+            "sha256": "addf86f53dd90f166d45689f41e2ec7b8684dc9e2fb5fd1898be42050df9b4e1",
+            "terms": 13930
+          }
+        },
+        {
+          "metric": {
+            "coefficients": 4,
+            "degree_w": 3,
+            "max_coefficient_degree": 26,
+            "sha256": "b1ed81a89329059e3484841ff1771d0e947f95f30b2c94b80639ab8cecabd285",
+            "terms": 4483
+          },
+          "name": "B1",
+          "phase": "PSEUDO_STEP",
+          "step": 1
+        },
+        {
+          "metric": {
+            "coefficients": 3,
+            "degree_w": 2,
+            "max_coefficient_degree": 36,
+            "sha256": "17223e22612c037e03d530b73a64a6d1798ba117d3a251f685f1b6bae52c91c6",
+            "terms": 9089
+          },
+          "name": "B1",
+          "phase": "PSEUDO_STEP",
+          "step": 2
+        },
+        {
+          "metric": {
+            "coefficients": 2,
+            "degree_w": 1,
+            "max_coefficient_degree": 46,
+            "sha256": "ee86638b7aea45358d778bb333ca535de32502e790f1e3ce61cff63d5d558580",
+            "terms": 12893
+          },
+          "name": "B1",
+          "phase": "PSEUDO_STEP",
+          "step": 3
+        },
+        {
+          "determinant": {
+            "degree": 66,
+            "degrees": [
+              40,
+              24,
+              27
+            ],
+            "sha256": "4386d51211fa689663d5f734428773404f283174834c06f36e79f2816e11dcbe",
+            "terms": 18172
+          },
+          "input_degree": 4,
+          "multiplier": {
+            "degree": 27,
+            "degrees": [
+              18,
+              15,
+              12
+            ],
+            "sha256": "12a4cc70b17272b6936213e50c059184bd50b2b4cce5104dde62160f8309161f",
+            "terms": 1862
+          },
+          "name": "B1",
+          "phase": "DETERMINANT",
+          "pseudo_exponent": 3,
+          "quotient": {
+            "coefficients": 3,
+            "degree_w": 2,
+            "max_coefficient_degree": 35,
+            "sha256": "dd041d17093955fa90c84d35fa12280073828ec7a8cfb19a9492e3fc39cfe0cb",
+            "terms": 8956
+          },
+          "remainder": {
+            "coefficients": 2,
+            "degree_w": 1,
+            "max_coefficient_degree": 46,
+            "sha256": "ee86638b7aea45358d778bb333ca535de32502e790f1e3ce61cff63d5d558580",
+            "terms": 12893
+          }
+        },
+        {
+          "name": "A1",
+          "phase": "FACTOR_BEGIN"
+        },
+        {
+          "core": {
+            "degree": 34,
+            "degrees": [
+              20,
+              17,
+              14
+            ],
+            "sha256": "5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682",
+            "terms": 3201
+          },
+          "essential": {
+            "degree": 42,
+            "degrees": [
+              25,
+              22,
+              18
+            ],
+            "sha256": "827d10f01f345b79746468bc72c0961a177d5e1456548b79f08271e3efc88e5c",
+            "terms": 6268
+          },
+          "factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                0,
+                0,
+                1
+              ],
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "degrees": [
+                1,
+                1,
+                1
+              ],
+              "exponent": 3,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                20,
+                17,
+                14
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682",
+              "terms": 3201
+            }
+          ],
+          "name": "A1",
+          "phase": "FACTOR_DONE"
+        },
+        {
+          "name": "B1",
+          "phase": "FACTOR_BEGIN"
+        },
+        {
+          "core": {
+            "degree": 34,
+            "degrees": [
+              20,
+              16,
+              14
+            ],
+            "sha256": "c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71",
+            "terms": 2937
+          },
+          "essential": {
+            "degree": 42,
+            "degrees": [
+              25,
+              21,
+              18
+            ],
+            "sha256": "8625f323520d87f47dc175ab1d8a33e7ab1c942a7e87607412bda270cb05c256",
+            "terms": 5862
+          },
+          "factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 2,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 5,
+              "named_unit_factor": true,
+              "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+              "terms": 2
+            },
+            {
+              "degree": 1,
+              "degrees": [
+                0,
+                0,
+                1
+              ],
+              "exponent": 6,
+              "named_unit_factor": true,
+              "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+              "terms": 2
+            },
+            {
+              "degree": 2,
+              "degrees": [
+                1,
+                1,
+                1
+              ],
+              "exponent": 3,
+              "named_unit_factor": true,
+              "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+              "terms": 6
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                20,
+                16,
+                14
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71",
+              "terms": 2937
+            }
+          ],
+          "name": "B1",
+          "phase": "FACTOR_DONE"
+        },
+        {
+          "generators": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "sha256": "5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b",
+              "terms": 137
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                20,
+                17,
+                14
+              ],
+              "sha256": "5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682",
+              "terms": 3201
+            },
+            {
+              "degree": 34,
+              "degrees": [
+                20,
+                16,
+                14
+              ],
+              "sha256": "c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71",
+              "terms": 2937
+            }
+          ],
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "abc0bb69d721dc35e2d3c9545cde751a86b4086ebf836fc73c053249d6e04e9a",
+          "basis_size": 142,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "exponent": 1,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "071f3c542e3fcd3dddaeac6222800485a374efee1f32032fd1299b97c1b0c696",
+          "terms": 1461,
+          "zero": false
+        },
+        {
+          "exponent": 2,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "71530a8671abcc45542ab0dfa0b365fc42312b5d8fc1796d1eae989d225f696c",
+          "terms": 5778,
+          "zero": false
+        },
+        {
+          "exponent": 3,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "dfe15df11620d90be12e7b4d7fb5627257a31932582764d585cd09d65618eab4",
+          "terms": 8862,
+          "zero": false
+        },
+        {
+          "exponent": 4,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "3300148c6515eb37c4736b45aa45937e09f4179db94e7ebb6d9455f687d545dc",
+          "terms": 12016,
+          "zero": false
+        },
+        {
+          "exponent": 5,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "f99c51229f4c59813de6f3512ba5f1356d24605b4f0cfa38983b019b352df916",
+          "terms": 14970,
+          "zero": false
+        },
+        {
+          "exponent": 6,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "d528f554eb776ae778f11e785f954b114e3c9a669af1f157f627868b8064e717",
+          "terms": 18146,
+          "zero": false
+        },
+        {
+          "exponent": 7,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "75bb75359994ab76c2635e5537a60f86ab76038148ae8b0ee8cf927641148011",
+          "terms": 21100,
+          "zero": false
+        },
+        {
+          "exponent": 8,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "7bf5dc227ea64fcb6ba86a5c0dc01055011ae473aefe72ae72d8c519345c2b16",
+          "terms": 24254,
+          "zero": false
+        },
+        {
+          "exponent": 9,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "6038eff29e739f9d1edee063c88dbe4f50184659ada22fd6766bb035ae06e0c0",
+          "terms": 27208,
+          "zero": false
+        },
+        {
+          "exponent": 10,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "450263894cb57599b6b7527781aa25a1634091b5daeaff1bda1794eeabd85d2e",
+          "terms": 30384,
+          "zero": false
+        },
+        {
+          "exponent": 11,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "de863480e8b9a2c657da125a9ca5b6d8faacec8ecdfcef7a3cf5053a54785fa8",
+          "terms": 33338,
+          "zero": false
+        },
+        {
+          "exponent": 12,
+          "phase": "CHART_LOCALIZER_POWER",
+          "sha256": "1284a9767332326fd466b27ef54e2f34b68ee44cb73e44829889c440b132c523",
+          "terms": 36492,
+          "zero": false
+        }
+      ],
+      "seconds": 780.039376,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"cell\": \"F04-R02\", \"divisor\": \"B0\", \"phase\": \"START\"}\n{\"blocks\": {\"U\": {\"degree\": 21, \"degrees\": [12, 7, 9], \"sha256\": \"fee0b72655474e39756ecdd94045b8d944738b3b22332ceb34a6ed1b1b75d037\", \"terms\": 648}, \"V\": {\"degree\": 20, \"degrees\": [12, 7, 9], \"sha256\": \"ad7473bb073d40b91755886a6410b577bbc6a9aba58a1437e0c7d2a44604c8e1\", \"terms\": 634}}, \"divisor\": {\"coefficients\": 3, \"degree_w\": 2, \"max_coefficient_degree\": 11, \"sha256\": \"57d6ae9bfc7164996af85ce426d86e364c8b2609cd04657120982a47f89106bb\", \"terms\": 316}, \"divisor_leading\": {\"degree\": 9, \"degrees\": [6, 5, 4], \"sha256\": \"f850fb181f2a2919054a10702b5710740adbe26530cfa365ef789b6e4cd5ab9c\", \"terms\": 91}, \"divisor_leading_factors\": [{\"degree\": 1, \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 8, \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}], \"phase\": \"SOURCE\", \"remaining\": {\"A1\": {\"coefficients\": 5, \"degree_w\": 4, \"max_coefficient_degree\": 17, \"sha256\": \"1465ff30d2b818c7c410f3b0480bc73f03681722115f44001c6a2c344190ccd2\", \"terms\": 1571}, \"B1\": {\"coefficients\": 5, \"degree_w\": 4, \"max_coefficient_degree\": 16, \"sha256\": \"36c633305ddb5144ba6e3fadc39fa24166eae29fc19e69850c3db02782f946b4\", \"terms\": 1218}}}\n{\"metric\": {\"coefficients\": 4, \"degree_w\": 3, \"max_coefficient_degree\": 26, \"sha256\": \"47fd70b63dc819a7e9f89752a55459da237a03a5a3139d95aa995a5118ba5309\", \"terms\": 5170}, \"name\": \"A1\", \"phase\": \"PSEUDO_STEP\", \"step\": 1}\n{\"metric\": {\"coefficients\": 3, \"degree_w\": 2, \"max_coefficient_degree\": 36, \"sha256\": \"084fd07f6e7441615cf45e45325c8d22fef217b9f78640f73370498a21bde458\", \"terms\": 10032}, \"name\": \"A1\", \"phase\": \"PSEUDO_STEP\", \"step\": 2}\n{\"metric\": {\"coefficients\": 2, \"degree_w\": 1, \"max_coefficient_degree\": 46, \"sha256\": \"addf86f53dd90f166d45689f41e2ec7b8684dc9e2fb5fd1898be42050df9b4e1\", \"terms\": 13930}, \"name\": \"A1\", \"phase\": \"PSEUDO_STEP\", \"step\": 3}\n{\"determinant\": {\"degree\": 66, \"degrees\": [40, 25, 27], \"sha256\": \"d0f5a1be75ab7842c4a57ae6e60753909149bc00aeb0da1b70efa42fd50e938a\", \"terms\": 19197}, \"input_degree\": 4, \"multiplier\": {\"degree\": 27, \"degrees\": [18, 15, 12], \"sha256\": \"12a4cc70b17272b6936213e50c059184bd50b2b4cce5104dde62160f8309161f\", \"terms\": 1862}, \"name\": \"A1\", \"phase\": \"DETERMINANT\", \"pseudo_exponent\": 3, \"quotient\": {\"coefficients\": 3, \"degree_w\": 2, \"max_coefficient_degree\": 35, \"sha256\": \"85dd207ffe7409a955db346c001167f72a3071f961cfd597f4c72095814f6874\", \"terms\": 9878}, \"remainder\": {\"coefficients\": 2, \"degree_w\": 1, \"max_coefficient_degree\": 46, \"sha256\": \"addf86f53dd90f166d45689f41e2ec7b8684dc9e2fb5fd1898be42050df9b4e1\", \"terms\": 13930}}\n{\"metric\": {\"coefficients\": 4, \"degree_w\": 3, \"max_coefficient_degree\": 26, \"sha256\": \"b1ed81a89329059e3484841ff1771d0e947f95f30b2c94b80639ab8cecabd285\", \"terms\": 4483}, \"name\": \"B1\", \"phase\": \"PSEUDO_STEP\", \"step\": 1}\n{\"metric\": {\"coefficients\": 3, \"degree_w\": 2, \"max_coefficient_degree\": 36, \"sha256\": \"17223e22612c037e03d530b73a64a6d1798ba117d3a251f685f1b6bae52c91c6\", \"terms\": 9089}, \"name\": \"B1\", \"phase\": \"PSEUDO_STEP\", \"step\": 2}\n{\"metric\": {\"coefficients\": 2, \"degree_w\": 1, \"max_coefficient_degree\": 46, \"sha256\": \"ee86638b7aea45358d778bb333ca535de32502e790f1e3ce61cff63d5d558580\", \"terms\": 12893}, \"name\": \"B1\", \"phase\": \"PSEUDO_STEP\", \"step\": 3}\n{\"determinant\": {\"degree\": 66, \"degrees\": [40, 24, 27], \"sha256\": \"4386d51211fa689663d5f734428773404f283174834c06f36e79f2816e11dcbe\", \"terms\": 18172}, \"input_degree\": 4, \"multiplier\": {\"degree\": 27, \"degrees\": [18, 15, 12], \"sha256\": \"12a4cc70b17272b6936213e50c059184bd50b2b4cce5104dde62160f8309161f\", \"terms\": 1862}, \"name\": \"B1\", \"phase\": \"DETERMINANT\", \"pseudo_exponent\": 3, \"quotient\": {\"coefficients\": 3, \"degree_w\": 2, \"max_coefficient_degree\": 35, \"sha256\": \"dd041d17093955fa90c84d35fa12280073828ec7a8cfb19a9492e3fc39cfe0cb\", \"terms\": 8956}, \"remainder\": {\"coefficients\": 2, \"degree_w\": 1, \"max_coefficient_degree\": 46, \"sha256\": \"ee86638b7aea45358d778bb333ca535de32502e790f1e3ce61cff63d5d558580\", \"terms\": 12893}}\n{\"name\": \"A1\", \"phase\": \"FACTOR_BEGIN\"}\n{\"core\": {\"degree\": 34, \"degrees\": [20, 17, 14], \"sha256\": \"5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682\", \"terms\": 3201}, \"essential\": {\"degree\": 42, \"degrees\": [25, 22, 18], \"sha256\": \"827d10f01f345b79746468bc72c0961a177d5e1456548b79f08271e3efc88e5c\", \"terms\": 6268}, \"factors\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, {\"degree\": 34, \"degrees\": [20, 17, 14], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682\", \"terms\": 3201}], \"name\": \"A1\", \"phase\": \"FACTOR_DONE\"}\n{\"name\": \"B1\", \"phase\": \"FACTOR_BEGIN\"}\n{\"core\": {\"degree\": 34, \"degrees\": [20, 16, 14], \"sha256\": \"c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71\", \"terms\": 2937}, \"essential\": {\"degree\": 42, \"degrees\": [25, 21, 18], \"sha256\": \"8625f323520d87f47dc175ab1d8a33e7ab1c942a7e87607412bda270cb05c256\", \"terms\": 5862}, \"factors\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 2, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, {\"degree\": 34, \"degrees\": [20, 16, 14], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71\", \"terms\": 2937}], \"name\": \"B1\", \"phase\": \"FACTOR_DONE\"}\n{\"generators\": [{\"degree\": 12, \"degrees\": [6, 4, 5], \"sha256\": \"5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b\", \"terms\": 137}, {\"degree\": 34, \"degrees\": [20, 17, 14], \"sha256\": \"5dda9c22124c95f464b4ae706013dfc40d5edebf6d09fdd5f6cbf64f81bb4682\", \"terms\": 3201}, {\"degree\": 34, \"degrees\": [20, 16, 14], \"sha256\": \"c7f34204557891adae5bc08ccc161d3071c2f316d6b096619256e0a83cc4aa71\", \"terms\": 2937}], \"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"abc0bb69d721dc35e2d3c9545cde751a86b4086ebf836fc73c053249d6e04e9a\", \"basis_size\": 142, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"exponent\": 1, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"071f3c542e3fcd3dddaeac6222800485a374efee1f32032fd1299b97c1b0c696\", \"terms\": 1461, \"zero\": false}\n{\"exponent\": 2, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"71530a8671abcc45542ab0dfa0b365fc42312b5d8fc1796d1eae989d225f696c\", \"terms\": 5778, \"zero\": false}\n{\"exponent\": 3, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"dfe15df11620d90be12e7b4d7fb5627257a31932582764d585cd09d65618eab4\", \"terms\": 8862, \"zero\": false}\n{\"exponent\": 4, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"3300148c6515eb37c4736b45aa45937e09f4179db94e7ebb6d9455f687d545dc\", \"terms\": 12016, \"zero\": false}\n{\"exponent\": 5, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"f99c51229f4c59813de6f3512ba5f1356d24605b4f0cfa38983b019b352df916\", \"terms\": 14970, \"zero\": false}\n{\"exponent\": 6, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"d528f554eb776ae778f11e785f954b114e3c9a669af1f157f627868b8064e717\", \"terms\": 18146, \"zero\": false}\n{\"exponent\": 7, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"75bb75359994ab76c2635e5537a60f86ab76038148ae8b0ee8cf927641148011\", \"terms\": 21100, \"zero\": false}\n{\"exponent\": 8, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"7bf5dc227ea64fcb6ba86a5c0dc01055011ae473aefe72ae72d8c519345c2b16\", \"terms\": 24254, \"zero\": false}\n{\"exponent\": 9, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"6038eff29e739f9d1edee063c88dbe4f50184659ada22fd6766bb035ae06e0c0\", \"terms\": 27208, \"zero\": false}\n{\"exponent\": 10, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"450263894cb57599b6b7527781aa25a1634091b5daeaff1bda1794eeabd85d2e\", \"terms\": 30384, \"zero\": false}\n{\"exponent\": 11, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"de863480e8b9a2c657da125a9ca5b6d8faacec8ecdfcef7a3cf5053a54785fa8\", \"terms\": 33338, \"zero\": false}\n{\"exponent\": 12, \"phase\": \"CHART_LOCALIZER_POWER\", \"sha256\": \"1284a9767332326fd466b27ef54e2f34b68ee44cb73e44829889c440b132c523\", \"terms\": 36492, \"zero\": false}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-quadratic-prem-determinant-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

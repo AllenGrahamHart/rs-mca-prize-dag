@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
+    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
+    "status": "PROVED",
+    "closure": "division-free representative for every reconstructed-row evaluation modulo the quadratic resultant",
+    "statement": "Let R=U^2-VZ and P(w)=sum_i a_i w^i have degree d. The denominator-cleared evaluation C_P=sum_i a_i(-U)^i V^(d-i) is congruent modulo R to sum_j a_(2j)V^(d-j)Z^j - sum_j a_(2j+1)U V^(d-j-1)Z^j. Thus every generic quadratic-chart row evaluation has a division-free representative using at most the first power of U and roughly half the powers of V before expansion.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_parity_reduced_evaluation_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_parity_metrics_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    },
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition"
+    }
+  ],
+  "refutes": []
+}

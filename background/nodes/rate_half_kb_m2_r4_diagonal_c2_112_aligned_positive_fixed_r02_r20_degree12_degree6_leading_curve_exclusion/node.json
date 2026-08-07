@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion",
+    "title": "KoalaBear fixed R02/R20 degree-12 degree-6 leading-curve exclusions",
+    "status": "PROVED",
+    "closure": "all eight literal common degree-6 leading-drop branches empty after generic localization",
+    "statement": "For every fixed residual cell {F04,F05,F06,F07} x {R02,R20}, impose its irreducible degree-6 x-leading factor of the unresolved degree-12 resultant branch. The F04/F07 cells share a 15-term form and the F05/F06 cells share a distinct 17-term form. Over F_2130706433, every resulting literal ideal is one-dimensional, but its complete transported generic localizer belongs to it. Hence all eight named-open degree-6 leading-drop branches are empty over the deployed extension field.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_degree6_leading_curve_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_degree6_branch_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_degree6_branch_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_degree6_f04_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_degree6_rest_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

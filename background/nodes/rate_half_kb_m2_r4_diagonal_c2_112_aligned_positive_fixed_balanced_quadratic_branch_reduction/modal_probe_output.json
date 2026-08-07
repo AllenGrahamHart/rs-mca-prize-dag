@@ -1,0 +1,1645 @@
+{
+  "app": "rs-mca-k3-fixed-balanced-branch-probe",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 2,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "cell": "F04-R11",
+      "peak_kb": 376540,
+      "record": {
+        "cell": "F04-R11",
+        "equations": {
+          "E2": {
+            "factors": [
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 6,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 43,
+                  "degrees": [
+                    23,
+                    17,
+                    21
+                  ],
+                  "sha256": "d22c34cb21f7c43b9641cd1549a1b5f1dec2cdce325891edab6c647f1486d398",
+                  "terms": 5143
+                },
+                "named_unit_factor": false,
+                "polynomial": null
+              }
+            ],
+            "metric": {
+              "degree": 92,
+              "degrees": [
+                58,
+                27,
+                35
+              ],
+              "sha256": "875f808025a9810dec3d6d27a8dadddf12d02fb2f8c9be250c5ceb5a55d60c75",
+              "terms": 34776
+            }
+          },
+          "E3": {
+            "factors": [
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 6,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 5,
+                  "degrees": [
+                    3,
+                    1,
+                    2
+                  ],
+                  "sha256": "505f9fc29c2680e07b73f4e2fe859e0ecc37fbe73919d53922f262aa32b299f8",
+                  "terms": 18
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x^3*s*p - 6*x^3*s + 4*x^3*p + x^2*s*p + 4*x^2*p^2 + 4*x^3 - 5*x^2*s + 8*x^2*p - 2*x*s*p - 2*x*p^2 + 4*x^2 + 10*x*s - 4*x*p + s*p - 2*x + 3*s - 8*p - 8"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 34,
+                  "degrees": [
+                    18,
+                    13,
+                    16
+                  ],
+                  "sha256": "1bdd4c198d764fbcc1a565e9d579d4a32ebcc3ec5903c40701c4c4c87f3de038",
+                  "terms": 2457
+                },
+                "named_unit_factor": false,
+                "polynomial": null
+              }
+            ],
+            "metric": {
+              "degree": 92,
+              "degrees": [
+                58,
+                25,
+                34
+              ],
+              "sha256": "2f19456de114b3f177eaa296dff9e84c48765171865319db5c3e5ee6e7ab2501",
+              "terms": 32512
+            }
+          },
+          "R": {
+            "factors": [
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "ba2b4af06e8bac868ae1ef1324d87e64afac5e9195ac3861eed1a52978181680",
+                  "terms": 121
+                },
+                "named_unit_factor": false,
+                "polynomial": "-4*x^6*s^2*p^4 + 16*x^5*s^3*p^3 - 32*x^6*s*p^4 + 4*x^5*s^2*p^4 + 32*x^6*p^5 - 56*x^6*s^2*p^2 + 48*x^5*s^3*p^2 - 16*x^4*s^4*p^2 + 32*x^6*s*p^3 + 64*x^5*s^2*p^3 - 16*x^4*s^3*p^3 + 64*x^6*p^4 - 112*x^5*s*p^4 - 9*x^4*s^2*p^4 - 16*x^5*p^5 + 48*x^5*s^3*p - 32*x^4*s^4*p + 32*x^6*s*p^2 - 72*x^5*s^2*p^2 - 48*x^4*s^3*p^2 + 16*x^3*s^4*p^2 + 64*x^6*p^3 - 144*x^5*s*p^3 - 32*x^4*s^2*p^3 + 20*x^3*s^3*p^3 - 64*x^5*p^4 + 160*x^4*s*p^4 + 8*x^3*s^2*p^4 + 36*x^4*p^5 - 4*x^6*s^2 + 16*x^5*s^3 - 16*x^4*s^4 - 32*x^6*s*p + 64*x^5*s^2*p - 48*x^4*s^3*p + 32*x^3*s^4*p + 64*x^6*p^2 - 144*x^5*s*p^2 + 194*x^4*s^2*p^2 + 60*x^3*s^3*p^2 - 4*x^2*s^4*p^2 - 96*x^5*p^3 + 96*x^4*s*p^3 - 192*x^3*s^2*p^3 - 16*x^2*s^3*p^3 + 144*x^4*p^4 - 6*x^2*s^2*p^4 - 96*x^3*p^5 + 4*x^5*s^2 - 16*x^4*s^3 + 16*x^3*s^4 + 32*x^6*p - 112*x^5*s*p - 32*x^4*s^2*p + 60*x^3*s^3*p - 8*x^2*s^4*p - 64*x^5*p^2 + 96*x^4*s*p^2 + 240*x^3*s^2*p^2 - 48*x^2*s^3*p^2 + 216*x^4*p^3 - 320*x^3*s*p^3 + 112*x^2*s^2*p^3 + 4*x*s^3*p^3 - 128*x^3*p^4 + 160*x^2*s*p^4 + 4*x*s^2*p^4 + 24*x^2*p^5 - 9*x^4*s^2 + 20*x^3*s^3 - 4*x^2*s^4 - 16*x^5*p + 160*x^4*s*p - 192*x^3*s^2*p - 48*x^2*s^3*p + 144*x^4*p^2 - 320*x^3*s*p^2 - 244*x^2*s^2*p^2 + 12*x*s^3*p^2 - 64*x^3*p^3 + 96*x^2*s*p^3 + 64*x*s^2*p^3 + 96*x^2*p^4 - 208*x*s*p^4 - s^2*p^4 - 16*x*p^5 + 8*x^3*s^2 - 16*x^2*s^3 + 36*x^4*p + 112*x^2*s^2*p + 12*x*s^3*p - 128*x^3*p^2 + 96*x^2*s*p^2 - 72*x*s^2*p^2 + 144*x^2*p^3 + 144*x*s*p^3 - 64*x*p^4 - 32*s*p^4 + 68*p^5 - 6*x^2*s^2 + 4*x*s^3 - 96*x^3*p + 160*x^2*s*p + 64*x*s^2*p + 96*x^2*p^2 + 144*x*s*p^2 - 14*s^2*p^2 - 96*x*p^3 + 32*s*p^3 + 16*p^4 + 4*x*s^2 + 24*x^2*p - 208*x*s*p - 64*x*p^2 + 32*s*p^2 - 104*p^3 - s^2 - 16*x*p - 32*s*p + 16*p^2 + 68*p"
+              }
+            ],
+            "metric": {
+              "degree": 38,
+              "degrees": [
+                24,
+                10,
+                13
+              ],
+              "sha256": "96332dc722616fa9deec7b62ff05ea6bed0e8ee39ef602ae6c5425bb1d0ea0fb",
+              "terms": 2464
+            }
+          },
+          "U": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "44b86befa91b53ebf14d4a722df2de7ca9912ea705d6a605ed46995e328ae030",
+                  "terms": 74
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x^5*s^2*p^2 - x^5*s*p^3 - 2*x^5*s^2*p - 2*x^4*s^3*p + x^5*s*p^2 + x^4*s^2*p^2 - 2*x^5*p^3 - 4*x^4*s*p^3 + 2*x^4*p^4 + 2*x^5*s^2 - 2*x^4*s^3 + 2*x^3*s^4 + x^5*s*p - 3*x^4*s^2*p + x^3*s^3*p - 4*x^5*p^2 + 12*x^4*s*p^2 + x^4*p^3 - 3*x^3*s*p^3 + 2*x^3*p^4 - x^5*s + x^4*s^2 + x^3*s^3 - x^2*s^4 - 2*x^5*p + 12*x^4*s*p - 4*x^3*s^2*p - 2*x^2*s^3*p - 2*x^4*p^2 - x^3*s*p^2 - 4*x^3*p^3 + 6*x^2*s*p^3 - x^2*p^4 - 4*x^4*s - 2*x^2*s^3 + x^4*p - x^3*s*p + 2*x^2*s^2*p + x*s^3*p - 12*x^3*p^2 + 2*x^2*s*p^2 - 2*x*s^2*p^2 + 2*x^2*p^3 + 2*x*s*p^3 - 4*x*p^4 + 2*x^4 - 3*x^3*s + x*s^3 - 4*x^3*p + 2*x^2*s*p + 6*x*s^2*p + 6*x^2*p^2 - 6*x*s*p^2 - s^2*p^2 - 2*x*p^3 + 2*s*p^3 + 2*x^3 + 6*x^2*s - 2*x*s^2 + 2*x^2*p - 6*x*s*p + s^2*p + 4*x*p^2 - 2*s*p^2 + p^3 - x^2 + 2*x*s - s^2 - 2*x*p - 2*s*p + 2*p^2 - 4*x + 2*s + p"
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "b9db1c6b0ca7d3f6124b5ee43ed85a664df2a25e7a2379ee61fbbc52e1260f2f",
+              "terms": 415
+            }
+          },
+          "V": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "c1971c94f9cda4b58e029475e06b14e9cdbac90503343aa474f6955b8eb8244d",
+                  "terms": 112
+                },
+                "named_unit_factor": true,
+                "polynomial": "4*x^6*s^2*p^2 + 4*x^5*s^3*p^2 - 12*x^6*s*p^3 + 8*x^6*p^4 - 4*x^5*s*p^4 - 20*x^6*s^2*p + 8*x^5*s^3*p - 4*x^4*s^4*p + 12*x^6*s*p^2 + 20*x^5*s^2*p^2 - 4*x^4*s^3*p^2 + 12*x^6*p^3 - 34*x^5*s*p^3 + 4*x^5*p^4 + 4*x^4*s*p^4 + 4*x^4*p^5 + 8*x^6*s^2 + 4*x^5*s^3 - 4*x^4*s^4 + 12*x^6*s*p - 28*x^5*s^2*p - 8*x^4*s^3*p + 4*x^3*s^4*p + 4*x^6*p^2 - 6*x^5*s*p^2 - 19*x^4*s^2*p^2 + 5*x^3*s^3*p^2 - 12*x^5*p^3 + 28*x^4*s*p^3 + 9*x^4*p^4 - 5*x^3*s*p^4 - 4*x^3*p^5 - 12*x^6*s + 16*x^5*s^2 - 4*x^4*s^3 + 4*x^3*s^4 + 4*x^6*p + 2*x^5*s*p + 59*x^4*s^2*p + 10*x^3*s^3*p - x^2*s^4*p - 28*x^5*p^2 + 12*x^4*s*p^2 - 40*x^3*s^2*p^2 - 4*x^2*s^3*p^2 + 19*x^4*p^3 + 40*x^3*s*p^3 - 28*x^3*p^4 + 4*x^2*s*p^4 + x^2*p^5 + 4*x^6 - 22*x^5*s - 26*x^4*s^2 + 5*x^3*s^3 - x^2*s^4 - 4*x^5*p + 4*x^4*s*p + 56*x^3*s^2*p - 8*x^2*s^3*p + 27*x^4*p^2 - 90*x^3*s*p^2 + 14*x^2*s^2*p^2 + x*s^3*p^2 - 16*x^3*p^3 + 28*x^2*s*p^3 - 9*x^2*p^4 - x*s*p^4 + 8*x^5 + 16*x^4*s - 32*x^3*s^2 - 4*x^2*s^3 + 13*x^4*p - 80*x^3*s*p - 34*x^2*s^2*p + 2*x*s^3*p + 16*x^3*p^2 + 12*x^2*s*p^2 + 20*x*s^2*p^2 + 16*x^2*p^3 - 46*x*s*p^3 + 4*x*p^4 + 55*x^3*s + 16*x^2*s^2 + x*s^3 - 12*x^3*p + 4*x^2*s*p - 28*x*s^2*p + 48*x^2*p^2 + 36*x*s*p^2 + s^2*p^2 - 12*x*p^3 - 12*s*p^3 + 17*p^4 - 20*x^3 + 16*x^2*s + 16*x*s^2 + 7*x^2*p + 38*x*s*p - 5*s^2*p - 28*x*p^2 + 12*s*p^2 + 3*p^3 - 15*x^2 - 43*x*s + 2*s^2 - 4*x*p + 12*s*p - 29*p^2 + 8*x - 12*s + p + 16"
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "5441c3407eb18636894657855d9502e2dfe4b617d2cb09e4a209cb436ce77853",
+              "terms": 411
+            }
+          },
+          "Z": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "2*x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-2*x*s + x*p + x - s + 2*p + 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "83332f506d9096bd02427084ac50011d4fe6c561394964988869ac559d83c75d",
+                  "terms": 112
+                },
+                "named_unit_factor": false,
+                "polynomial": "8*x^6*s^2*p^3 - 12*x^6*s*p^4 + 4*x^6*p^5 - 20*x^6*s^2*p^2 + 4*x^5*s^3*p^2 + 12*x^6*s*p^3 + 16*x^5*s^2*p^3 + 4*x^6*p^4 - 22*x^5*s*p^4 + 8*x^5*p^5 + 4*x^6*s^2*p + 8*x^5*s^3*p - 4*x^4*s^4*p + 12*x^6*s*p^2 - 28*x^5*s^2*p^2 - 4*x^4*s^3*p^2 + 4*x^6*p^3 + 2*x^5*s*p^3 - 26*x^4*s^2*p^3 - 4*x^5*p^4 + 16*x^4*s*p^4 + 4*x^5*s^3 - 4*x^4*s^4 - 12*x^6*s*p + 20*x^5*s^2*p - 8*x^4*s^3*p + 4*x^3*s^4*p + 12*x^6*p^2 - 6*x^5*s*p^2 + 59*x^4*s^2*p^2 + 5*x^3*s^3*p^2 - 28*x^5*p^3 + 4*x^4*s*p^3 - 32*x^3*s^2*p^3 + 13*x^4*p^4 + 55*x^3*s*p^4 - 20*x^3*p^5 - 4*x^4*s^3 + 4*x^3*s^4 + 8*x^6*p - 34*x^5*s*p - 19*x^4*s^2*p + 10*x^3*s^3*p - x^2*s^4*p - 12*x^5*p^2 + 12*x^4*s*p^2 + 56*x^3*s^2*p^2 - 4*x^2*s^3*p^2 + 27*x^4*p^3 - 80*x^3*s*p^3 + 16*x^2*s^2*p^3 - 12*x^3*p^4 + 16*x^2*s*p^4 - 15*x^2*p^5 - 4*x^5*s + 5*x^3*s^3 - x^2*s^4 + 4*x^5*p + 28*x^4*s*p - 40*x^3*s^2*p - 8*x^2*s^3*p + 19*x^4*p^2 - 90*x^3*s*p^2 - 34*x^2*s^2*p^2 + x*s^3*p^2 + 16*x^3*p^3 + 4*x^2*s*p^3 + 16*x*s^2*p^3 + 7*x^2*p^4 - 43*x*s*p^4 + 8*x*p^5 + 4*x^4*s - 4*x^2*s^3 + 9*x^4*p + 40*x^3*s*p + 14*x^2*s^2*p + 2*x*s^3*p - 16*x^3*p^2 + 12*x^2*s*p^2 - 28*x*s^2*p^2 + 48*x^2*p^3 + 38*x*s*p^3 + 2*s^2*p^3 - 4*x*p^4 - 12*s*p^4 + 16*p^5 + 4*x^4 - 5*x^3*s + x*s^3 - 28*x^3*p + 28*x^2*s*p + 20*x*s^2*p + 16*x^2*p^2 + 36*x*s*p^2 - 5*s^2*p^2 - 28*x*p^3 + 12*s*p^3 + p^4 - 4*x^3 + 4*x^2*s - 9*x^2*p - 46*x*s*p + s^2*p - 12*x*p^2 + 12*s*p^2 - 29*p^3 + x^2 - x*s + 4*x*p - 12*s*p + 3*p^2 + 17*p"
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64",
+              "terms": 411
+            }
+          }
+        },
+        "essential_metrics": {
+          "E2": {
+            "degree": 43,
+            "degrees": [
+              23,
+              17,
+              21
+            ],
+            "sha256": "d22c34cb21f7c43b9641cd1549a1b5f1dec2cdce325891edab6c647f1486d398",
+            "terms": 5143
+          },
+          "E3": {
+            "degree": 34,
+            "degrees": [
+              18,
+              13,
+              16
+            ],
+            "sha256": "1bdd4c198d764fbcc1a565e9d579d4a32ebcc3ec5903c40701c4c4c87f3de038",
+            "terms": 2457
+          },
+          "R": {
+            "degree": 12,
+            "degrees": [
+              6,
+              4,
+              5
+            ],
+            "sha256": "ba2b4af06e8bac868ae1ef1324d87e64afac5e9195ac3861eed1a52978181680",
+            "terms": 121
+          }
+        },
+        "gcds": {
+          "E2_E3": {
+            "metric": {
+              "degree": 49,
+              "degrees": [
+                35,
+                10,
+                14
+              ],
+              "sha256": "205e17ff90de9c8176472ab7007edab3fb44f1b9a0c6941542cb93f718c44555",
+              "terms": 3696
+            },
+            "polynomial": null
+          },
+          "R_E2": {
+            "metric": {
+              "degree": 26,
+              "degrees": [
+                18,
+                6,
+                8
+              ],
+              "sha256": "f10d08b30f5a26671849c41939ec7aa9c7ea204eb6b173d39caec735514c9622",
+              "terms": 740
+            },
+            "polynomial": null
+          },
+          "R_E3": {
+            "metric": {
+              "degree": 26,
+              "degrees": [
+                18,
+                6,
+                8
+              ],
+              "sha256": "f10d08b30f5a26671849c41939ec7aa9c7ea204eb6b173d39caec735514c9622",
+              "terms": 740
+            },
+            "polynomial": null
+          },
+          "U_V": {
+            "metric": {
+              "degree": 8,
+              "degrees": [
+                6,
+                2,
+                2
+              ],
+              "sha256": "fdf9931dc4f294c66c072e9fa9c4aeb9e387874258192ab63e6a9bc3e44ff54b",
+              "terms": 35
+            },
+            "polynomial": "4*x^6*s*p - 2*x^6*p^2 + 4*x^6*s - 8*x^5*s^2 - 4*x^6*p + 4*x^5*s*p - 3*x^5*p^2 - 2*x^6 + 4*x^5*s - 6*x^5*p + 5*x^4*s*p + 2*x^4*p^2 - 3*x^5 + 5*x^4*s + 10*x^3*s^2 + 4*x^4*p - 8*x^3*s*p + 2*x^4 - 8*x^3*s - 10*x^2*s*p + 2*x^2*p^2 - 10*x^2*s - 2*x*s^2 + 4*x^2*p + 4*x*s*p + 3*x*p^2 + 2*x^2 + 4*x*s + 6*x*p + s*p - 2*p^2 + 3*x + s - 4*p - 2"
+          }
+        },
+        "generic_reconstruction": "w=-U/V",
+        "payload_sha256": "3f83cad835d6d222be7ec67e435688f38693d3164556498b95f19292d77f4cc3",
+        "quadratic_pair": [
+          0,
+          1
+        ],
+        "row_w_degrees": [
+          2,
+          2,
+          4,
+          4
+        ],
+        "schema": "kb-c2-112-fixed-balanced-quadratic-branch-probe-v1",
+        "terminal": "EXACT_FACTORED_BRANCH_DATA_NO_EMPTINESS_CLAIM",
+        "transported_unit_count": 21,
+        "transported_unit_factor_count": 25
+      },
+      "returncode": 0,
+      "seconds": 8.777311,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "9e4038431729316a0184769ab03e7ab87cfcdf75c7ba168ed1c3e91b894d299d",
+      "stdout_tail": " + 12*s*p^3 + p^4 - 4*x^3 + 4*x^2*s - 9*x^2*p - 46*x*s*p + s^2*p - 12*x*p^2 + 12*s*p^2 - 29*p^3 + x^2 - x*s + 4*x*p - 12*s*p + 3*p^2 + 17*p\"}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"3f798779626d244af5f3490510aa8765e896f512a1fba322ebf6dae5ac09ce64\",\"terms\":411}}},\"essential_metrics\":{\"E2\":{\"degree\":43,\"degrees\":[23,17,21],\"sha256\":\"d22c34cb21f7c43b9641cd1549a1b5f1dec2cdce325891edab6c647f1486d398\",\"terms\":5143},\"E3\":{\"degree\":34,\"degrees\":[18,13,16],\"sha256\":\"1bdd4c198d764fbcc1a565e9d579d4a32ebcc3ec5903c40701c4c4c87f3de038\",\"terms\":2457},\"R\":{\"degree\":12,\"degrees\":[6,4,5],\"sha256\":\"ba2b4af06e8bac868ae1ef1324d87e64afac5e9195ac3861eed1a52978181680\",\"terms\":121}},\"gcds\":{\"E2_E3\":{\"metric\":{\"degree\":49,\"degrees\":[35,10,14],\"sha256\":\"205e17ff90de9c8176472ab7007edab3fb44f1b9a0c6941542cb93f718c44555\",\"terms\":3696},\"polynomial\":null},\"R_E2\":{\"metric\":{\"degree\":26,\"degrees\":[18,6,8],\"sha256\":\"f10d08b30f5a26671849c41939ec7aa9c7ea204eb6b173d39caec735514c9622\",\"terms\":740},\"polynomial\":null},\"R_E3\":{\"metric\":{\"degree\":26,\"degrees\":[18,6,8],\"sha256\":\"f10d08b30f5a26671849c41939ec7aa9c7ea204eb6b173d39caec735514c9622\",\"terms\":740},\"polynomial\":null},\"U_V\":{\"metric\":{\"degree\":8,\"degrees\":[6,2,2],\"sha256\":\"fdf9931dc4f294c66c072e9fa9c4aeb9e387874258192ab63e6a9bc3e44ff54b\",\"terms\":35},\"polynomial\":\"4*x^6*s*p - 2*x^6*p^2 + 4*x^6*s - 8*x^5*s^2 - 4*x^6*p + 4*x^5*s*p - 3*x^5*p^2 - 2*x^6 + 4*x^5*s - 6*x^5*p + 5*x^4*s*p + 2*x^4*p^2 - 3*x^5 + 5*x^4*s + 10*x^3*s^2 + 4*x^4*p - 8*x^3*s*p + 2*x^4 - 8*x^3*s - 10*x^2*s*p + 2*x^2*p^2 - 10*x^2*s - 2*x*s^2 + 4*x^2*p + 4*x*s*p + 3*x*p^2 + 2*x^2 + 4*x*s + 6*x*p + s*p - 2*p^2 + 3*x + s - 4*p - 2\"}},\"generic_reconstruction\":\"w=-U/V\",\"payload_sha256\":\"3f83cad835d6d222be7ec67e435688f38693d3164556498b95f19292d77f4cc3\",\"quadratic_pair\":[0,1],\"row_w_degrees\":[2,2,4,4],\"schema\":\"kb-c2-112-fixed-balanced-quadratic-branch-probe-v1\",\"terminal\":\"EXACT_FACTORED_BRANCH_DATA_NO_EMPTINESS_CLAIM\",\"transported_unit_count\":21,\"transported_unit_factor_count\":25}\n"
+    },
+    {
+      "cell": "F05-R11",
+      "peak_kb": 377552,
+      "record": {
+        "cell": "F05-R11",
+        "equations": {
+          "E2": {
+            "factors": [
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 6,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 44,
+                  "degrees": [
+                    23,
+                    17,
+                    21
+                  ],
+                  "sha256": "6cb5a7a7aa404e8aba5777add17ac3392614cd3211142cb2089fa92ebc8bf5b9",
+                  "terms": 5143
+                },
+                "named_unit_factor": false,
+                "polynomial": null
+              }
+            ],
+            "metric": {
+              "degree": 93,
+              "degrees": [
+                58,
+                27,
+                35
+              ],
+              "sha256": "e37d4f58ab71df9b47478df2074121084bf938fe7f7a178f428b818adabe092f",
+              "terms": 34776
+            }
+          },
+          "E3": {
+            "factors": [
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 8,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 6,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 5,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 5,
+                  "degrees": [
+                    3,
+                    1,
+                    2
+                  ],
+                  "sha256": "383a6edd2f66b8b9dd40f96439701831845afb27ee80fc95b3057e883a7765e2",
+                  "terms": 18
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x^3*s*p - 3*x^3*s + 8*x^3*p + 2*x^2*s*p + 2*x^2*p^2 + 8*x^3 - 10*x^2*s + 4*x^2*p - x*s*p - 4*x*p^2 + 2*x^2 + 5*x*s - 8*x*p + 2*s*p - 4*x + 6*s - 4*p - 4"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 34,
+                  "degrees": [
+                    18,
+                    13,
+                    16
+                  ],
+                  "sha256": "fbcb3a649bc40f3723ff7e4feace1fdc781a480ea5007378bfd6245c113a5dca",
+                  "terms": 2457
+                },
+                "named_unit_factor": false,
+                "polynomial": null
+              }
+            ],
+            "metric": {
+              "degree": 92,
+              "degrees": [
+                58,
+                25,
+                34
+              ],
+              "sha256": "c5703378da2080a32782f9e5d63aae4a87132c4815540d217e2887c0b44967e5",
+              "terms": 32512
+            }
+          },
+          "R": {
+            "factors": [
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p - 1"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 4,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 12,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "10a48fdeb9fafebec2b38bf616ced008acbe41f4a289c6b33dd9735789b0181f",
+                  "terms": 121
+                },
+                "named_unit_factor": false,
+                "polynomial": "-x^6*s^2*p^4 + 4*x^5*s^3*p^3 - 32*x^6*s*p^4 + 4*x^5*s^2*p^4 + 68*x^6*p^5 - 14*x^6*s^2*p^2 + 12*x^5*s^3*p^2 - 4*x^4*s^4*p^2 + 32*x^6*s*p^3 + 64*x^5*s^2*p^3 - 16*x^4*s^3*p^3 + 16*x^6*p^4 - 208*x^5*s*p^4 - 6*x^4*s^2*p^4 - 16*x^5*p^5 + 12*x^5*s^3*p - 8*x^4*s^4*p + 32*x^6*s*p^2 - 72*x^5*s^2*p^2 - 48*x^4*s^3*p^2 + 16*x^3*s^4*p^2 - 104*x^6*p^3 + 144*x^5*s*p^3 + 112*x^4*s^2*p^3 + 20*x^3*s^3*p^3 - 64*x^5*p^4 + 160*x^4*s*p^4 + 8*x^3*s^2*p^4 + 24*x^4*p^5 - x^6*s^2 + 4*x^5*s^3 - 4*x^4*s^4 - 32*x^6*s*p + 64*x^5*s^2*p - 48*x^4*s^3*p + 32*x^3*s^4*p + 16*x^6*p^2 + 144*x^5*s*p^2 - 244*x^4*s^2*p^2 + 60*x^3*s^3*p^2 - 16*x^2*s^4*p^2 - 96*x^5*p^3 + 96*x^4*s*p^3 - 192*x^3*s^2*p^3 - 16*x^2*s^3*p^3 + 96*x^4*p^4 - 9*x^2*s^2*p^4 - 96*x^3*p^5 + 4*x^5*s^2 - 16*x^4*s^3 + 16*x^3*s^4 + 68*x^6*p - 208*x^5*s*p + 112*x^4*s^2*p + 60*x^3*s^3*p - 32*x^2*s^4*p - 64*x^5*p^2 + 96*x^4*s*p^2 + 240*x^3*s^2*p^2 - 48*x^2*s^3*p^2 + 144*x^4*p^3 - 320*x^3*s*p^3 - 32*x^2*s^2*p^3 + 16*x*s^3*p^3 - 128*x^3*p^4 + 160*x^2*s*p^4 + 4*x*s^2*p^4 + 36*x^2*p^5 - 6*x^4*s^2 + 20*x^3*s^3 - 16*x^2*s^4 - 16*x^5*p + 160*x^4*s*p - 192*x^3*s^2*p - 48*x^2*s^3*p + 96*x^4*p^2 - 320*x^3*s*p^2 + 194*x^2*s^2*p^2 + 48*x*s^3*p^2 - 64*x^3*p^3 + 96*x^2*s*p^3 + 64*x*s^2*p^3 + 144*x^2*p^4 - 112*x*s*p^4 - 4*s^2*p^4 - 16*x*p^5 + 8*x^3*s^2 - 16*x^2*s^3 + 24*x^4*p - 32*x^2*s^2*p + 48*x*s^3*p - 128*x^3*p^2 + 96*x^2*s*p^2 - 72*x*s^2*p^2 + 216*x^2*p^3 - 144*x*s*p^3 - 64*x*p^4 - 32*s*p^4 + 32*p^5 - 9*x^2*s^2 + 16*x*s^3 - 96*x^3*p + 160*x^2*s*p + 64*x*s^2*p + 144*x^2*p^2 - 144*x*s*p^2 - 56*s^2*p^2 - 96*x*p^3 + 32*s*p^3 + 64*p^4 + 4*x*s^2 + 36*x^2*p - 112*x*s*p - 64*x*p^2 + 32*s*p^2 + 64*p^3 - 4*s^2 - 16*x*p - 32*s*p + 64*p^2 + 32*p"
+              }
+            ],
+            "metric": {
+              "degree": 38,
+              "degrees": [
+                24,
+                10,
+                13
+              ],
+              "sha256": "c3f94974d8160c5bb64e897c383569990b227a75aab02903ae9736067869f440",
+              "terms": 2464
+            }
+          },
+          "U": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "722cded1530bd6371f2185088686260771e89e2ea8b2c6966e1e493a3be3205c",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 2,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 9,
+                  "degrees": [
+                    5,
+                    4,
+                    4
+                  ],
+                  "sha256": "32c3a948917cf1ed2d17eb80b2eed0acd41f8a7e9f58329ecf18de654522c2af",
+                  "terms": 74
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^5*s^2*p^2 - 2*x^5*s*p^3 - x^5*s^2*p - x^4*s^3*p + 2*x^5*s*p^2 + 2*x^4*s^2*p^2 - x^5*p^3 - 2*x^4*s*p^3 + 4*x^4*p^4 + x^5*s^2 - x^4*s^3 + x^3*s^4 + 2*x^5*s*p - 6*x^4*s^2*p + 2*x^3*s^3*p - 2*x^5*p^2 + 6*x^4*s*p^2 + 2*x^4*p^3 - 6*x^3*s*p^3 + x^3*p^4 - 2*x^5*s + 2*x^4*s^2 + 2*x^3*s^3 - 2*x^2*s^4 - x^5*p + 6*x^4*s*p - 2*x^3*s^2*p - x^2*s^3*p - 4*x^4*p^2 - 2*x^3*s*p^2 - 2*x^3*p^3 + 3*x^2*s*p^3 - 2*x^2*p^4 - 2*x^4*s - x^2*s^3 + 2*x^4*p - 2*x^3*s*p + 4*x^2*s^2*p + 2*x*s^3*p - 6*x^3*p^2 + x^2*s*p^2 - x*s^2*p^2 + 4*x^2*p^3 + 4*x*s*p^3 - 2*x*p^4 + 4*x^4 - 6*x^3*s + 2*x*s^3 - 2*x^3*p + x^2*s*p + 3*x*s^2*p + 12*x^2*p^2 - 12*x*s*p^2 - 2*s^2*p^2 - x*p^3 + s*p^3 + x^3 + 3*x^2*s - x*s^2 + 4*x^2*p - 12*x*s*p + 2*s^2*p + 2*x*p^2 - s*p^2 + 2*p^3 - 2*x^2 + 4*x*s - 2*s^2 - x*p - s*p + 4*p^2 - 2*x + s + 2*p"
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "098797e921e80946b1c17929beeaf5c734ae5f1e84ba6c2f04fe20d0dfc49ce2",
+              "terms": 415
+            }
+          },
+          "V": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 10,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "2d023795ba50d9cd7b3503297947ce75344a39a67a2e30059b1d96ea2d0d2334",
+                  "terms": 112
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^6*s^2*p^2 + x^5*s^3*p^2 - 12*x^6*s*p^3 + 17*x^6*p^4 - x^5*s*p^4 - 5*x^6*s^2*p + 2*x^5*s^3*p - x^4*s^4*p + 12*x^6*s*p^2 + 20*x^5*s^2*p^2 - 4*x^4*s^3*p^2 + 3*x^6*p^3 - 46*x^5*s*p^3 + 4*x^5*p^4 + 4*x^4*s*p^4 + x^4*p^5 + 2*x^6*s^2 + x^5*s^3 - x^4*s^4 + 12*x^6*s*p - 28*x^5*s^2*p - 8*x^4*s^3*p + 4*x^3*s^4*p - 29*x^6*p^2 + 36*x^5*s*p^2 + 14*x^4*s^2*p^2 + 5*x^3*s^3*p^2 - 12*x^5*p^3 + 28*x^4*s*p^3 - 9*x^4*p^4 - 5*x^3*s*p^4 - 4*x^3*p^5 - 12*x^6*s + 16*x^5*s^2 - 4*x^4*s^3 + 4*x^3*s^4 + x^6*p + 38*x^5*s*p - 34*x^4*s^2*p + 10*x^3*s^3*p - 4*x^2*s^4*p - 28*x^5*p^2 + 12*x^4*s*p^2 - 40*x^3*s^2*p^2 - 4*x^2*s^3*p^2 + 16*x^4*p^3 + 40*x^3*s*p^3 - 28*x^3*p^4 + 4*x^2*s*p^4 + 4*x^2*p^5 + 16*x^6 - 43*x^5*s + 16*x^4*s^2 + 5*x^3*s^3 - 4*x^2*s^4 - 4*x^5*p + 4*x^4*s*p + 56*x^3*s^2*p - 8*x^2*s^3*p + 48*x^4*p^2 - 90*x^3*s*p^2 - 19*x^2*s^2*p^2 + 4*x*s^3*p^2 - 16*x^3*p^3 + 28*x^2*s*p^3 + 9*x^2*p^4 - 4*x*s*p^4 + 8*x^5 + 16*x^4*s - 32*x^3*s^2 - 4*x^2*s^3 + 7*x^4*p - 80*x^3*s*p + 59*x^2*s^2*p + 8*x*s^3*p + 16*x^3*p^2 + 12*x^2*s*p^2 + 20*x*s^2*p^2 + 19*x^2*p^3 - 34*x*s*p^3 + 4*x*p^4 - 15*x^4 + 55*x^3*s - 26*x^2*s^2 + 4*x*s^3 - 12*x^3*p + 4*x^2*s*p - 28*x*s^2*p + 27*x^2*p^2 - 6*x*s*p^2 + 4*s^2*p^2 - 12*x*p^3 - 12*s*p^3 + 8*p^4 - 20*x^3 + 16*x^2*s + 16*x*s^2 + 13*x^2*p + 2*x*s*p - 20*s^2*p - 28*x*p^2 + 12*s*p^2 + 12*p^3 - 22*x*s + 8*s^2 - 4*x*p + 12*s*p + 4*p^2 + 8*x - 12*s + 4*p + 4"
+              }
+            ],
+            "metric": {
+              "degree": 18,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "3c63b719d47d3e8c20a55eea5e8d9222279d009abd814ef52b459bc00742fd07",
+              "terms": 411
+            }
+          },
+          "Z": {
+            "factors": [
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "aacca0813878f92612bb4a07400c2c71309e9c0d3e09d2f228ec2df1c3b72e0b",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 2"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x - 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                  "terms": 2
+                },
+                "named_unit_factor": true,
+                "polynomial": "x + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 2,
+                  "degrees": [
+                    1,
+                    1,
+                    1
+                  ],
+                  "sha256": "d0d476eeccf3f3e846dfa495f7b611e2ad84d6f4e0489d6ed934af0f75f5b426",
+                  "terms": 6
+                },
+                "named_unit_factor": true,
+                "polynomial": "-x*s + 2*x*p + 2*x - 2*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 3,
+                  "degrees": [
+                    2,
+                    1,
+                    1
+                  ],
+                  "sha256": "3da1d2ce1d60272e8a3c3f7dd000f3e09473818870869c7b639febd57f82b242",
+                  "terms": 5
+                },
+                "named_unit_factor": true,
+                "polynomial": "x^2*p + x^2 - 2*x*s + p + 1"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 11,
+                  "degrees": [
+                    6,
+                    4,
+                    5
+                  ],
+                  "sha256": "84bb21f1ed84a48faf38b830ca55144e4701636bf6bd50734872222293d0407d",
+                  "terms": 112
+                },
+                "named_unit_factor": false,
+                "polynomial": "2*x^6*s^2*p^3 - 12*x^6*s*p^4 + 16*x^6*p^5 - 5*x^6*s^2*p^2 + x^5*s^3*p^2 + 12*x^6*s*p^3 + 16*x^5*s^2*p^3 + x^6*p^4 - 43*x^5*s*p^4 + 8*x^5*p^5 + x^6*s^2*p + 2*x^5*s^3*p - x^4*s^4*p + 12*x^6*s*p^2 - 28*x^5*s^2*p^2 - 4*x^4*s^3*p^2 - 29*x^6*p^3 + 38*x^5*s*p^3 + 16*x^4*s^2*p^3 - 4*x^5*p^4 + 16*x^4*s*p^4 - 15*x^4*p^5 + x^5*s^3 - x^4*s^4 - 12*x^6*s*p + 20*x^5*s^2*p - 8*x^4*s^3*p + 4*x^3*s^4*p + 3*x^6*p^2 + 36*x^5*s*p^2 - 34*x^4*s^2*p^2 + 5*x^3*s^3*p^2 - 28*x^5*p^3 + 4*x^4*s*p^3 - 32*x^3*s^2*p^3 + 7*x^4*p^4 + 55*x^3*s*p^4 - 20*x^3*p^5 - 4*x^4*s^3 + 4*x^3*s^4 + 17*x^6*p - 46*x^5*s*p + 14*x^4*s^2*p + 10*x^3*s^3*p - 4*x^2*s^4*p - 12*x^5*p^2 + 12*x^4*s*p^2 + 56*x^3*s^2*p^2 - 4*x^2*s^3*p^2 + 48*x^4*p^3 - 80*x^3*s*p^3 - 26*x^2*s^2*p^3 - 12*x^3*p^4 + 16*x^2*s*p^4 - x^5*s + 5*x^3*s^3 - 4*x^2*s^4 + 4*x^5*p + 28*x^4*s*p - 40*x^3*s^2*p - 8*x^2*s^3*p + 16*x^4*p^2 - 90*x^3*s*p^2 + 59*x^2*s^2*p^2 + 4*x*s^3*p^2 + 16*x^3*p^3 + 4*x^2*s*p^3 + 16*x*s^2*p^3 + 13*x^2*p^4 - 22*x*s*p^4 + 8*x*p^5 + 4*x^4*s - 4*x^2*s^3 - 9*x^4*p + 40*x^3*s*p - 19*x^2*s^2*p + 8*x*s^3*p - 16*x^3*p^2 + 12*x^2*s*p^2 - 28*x*s^2*p^2 + 27*x^2*p^3 + 2*x*s*p^3 + 8*s^2*p^3 - 4*x*p^4 - 12*s*p^4 + 4*p^5 + x^4 - 5*x^3*s + 4*x*s^3 - 28*x^3*p + 28*x^2*s*p + 20*x*s^2*p + 19*x^2*p^2 - 6*x*s*p^2 - 20*s^2*p^2 - 28*x*p^3 + 12*s*p^3 + 4*p^4 - 4*x^3 + 4*x^2*s + 9*x^2*p - 34*x*s*p + 4*s^2*p - 12*x*p^2 + 12*s*p^2 + 4*p^3 + 4*x^2 - 4*x*s + 4*x*p - 12*s*p + 12*p^2 + 8*p"
+              }
+            ],
+            "metric": {
+              "degree": 19,
+              "degrees": [
+                12,
+                6,
+                7
+              ],
+              "sha256": "9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db",
+              "terms": 411
+            }
+          }
+        },
+        "essential_metrics": {
+          "E2": {
+            "degree": 44,
+            "degrees": [
+              23,
+              17,
+              21
+            ],
+            "sha256": "6cb5a7a7aa404e8aba5777add17ac3392614cd3211142cb2089fa92ebc8bf5b9",
+            "terms": 5143
+          },
+          "E3": {
+            "degree": 34,
+            "degrees": [
+              18,
+              13,
+              16
+            ],
+            "sha256": "fbcb3a649bc40f3723ff7e4feace1fdc781a480ea5007378bfd6245c113a5dca",
+            "terms": 2457
+          },
+          "R": {
+            "degree": 12,
+            "degrees": [
+              6,
+              4,
+              5
+            ],
+            "sha256": "10a48fdeb9fafebec2b38bf616ced008acbe41f4a289c6b33dd9735789b0181f",
+            "terms": 121
+          }
+        },
+        "gcds": {
+          "E2_E3": {
+            "metric": {
+              "degree": 49,
+              "degrees": [
+                35,
+                10,
+                14
+              ],
+              "sha256": "b6987b78cf8e591ef69412995696325387b557281eae6ea0f6a7de4fc46e5dd5",
+              "terms": 3696
+            },
+            "polynomial": null
+          },
+          "R_E2": {
+            "metric": {
+              "degree": 26,
+              "degrees": [
+                18,
+                6,
+                8
+              ],
+              "sha256": "740e1da00e46f95df495a3f8e9ef30abfbb0b25d3b32d803c3d7d14400dba203",
+              "terms": 740
+            },
+            "polynomial": null
+          },
+          "R_E3": {
+            "metric": {
+              "degree": 26,
+              "degrees": [
+                18,
+                6,
+                8
+              ],
+              "sha256": "740e1da00e46f95df495a3f8e9ef30abfbb0b25d3b32d803c3d7d14400dba203",
+              "terms": 740
+            },
+            "polynomial": null
+          },
+          "U_V": {
+            "metric": {
+              "degree": 8,
+              "degrees": [
+                6,
+                2,
+                2
+              ],
+              "sha256": "498f2d9ffabc5d86767bf8a85d73134f6e00930e01cce125a21e246f5f3a5305",
+              "terms": 35
+            },
+            "polynomial": "x^6*s*p - 2*x^6*p^2 + x^6*s - 2*x^5*s^2 - 4*x^6*p + 4*x^5*s*p + 3*x^5*p^2 - 2*x^6 + 4*x^5*s + 6*x^5*p - 10*x^4*s*p + 2*x^4*p^2 + 3*x^5 - 10*x^4*s + 10*x^3*s^2 + 4*x^4*p - 8*x^3*s*p + 2*x^4 - 8*x^3*s + 5*x^2*s*p + 2*x^2*p^2 + 5*x^2*s - 8*x*s^2 + 4*x^2*p + 4*x*s*p - 3*x*p^2 + 2*x^2 + 4*x*s - 6*x*p + 4*s*p - 2*p^2 - 3*x + 4*s - 4*p - 2"
+          }
+        },
+        "generic_reconstruction": "w=-U/V",
+        "payload_sha256": "908e18139e9c04038c24939fefa14a8c4dbdb13c0d8dadbcc88675eded5cc468",
+        "quadratic_pair": [
+          0,
+          1
+        ],
+        "row_w_degrees": [
+          2,
+          2,
+          4,
+          4
+        ],
+        "schema": "kb-c2-112-fixed-balanced-quadratic-branch-probe-v1",
+        "terminal": "EXACT_FACTORED_BRANCH_DATA_NO_EMPTINESS_CLAIM",
+        "transported_unit_count": 21,
+        "transported_unit_factor_count": 25
+      },
+      "returncode": 0,
+      "seconds": 9.616416,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "c75e214eee66e219a88404b42b2a630adff2645a959d07f5e713055f11feacb5",
+      "stdout_tail": "*p^3 + 4*p^4 - 4*x^3 + 4*x^2*s + 9*x^2*p - 34*x*s*p + 4*s^2*p - 12*x*p^2 + 12*s*p^2 + 4*p^3 + 4*x^2 - 4*x*s + 4*x*p - 12*s*p + 12*p^2 + 8*p\"}],\"metric\":{\"degree\":19,\"degrees\":[12,6,7],\"sha256\":\"9ad76eabd5eefe72d8894aa4af4936557e54eee803c25e261abcd970e76cf7db\",\"terms\":411}}},\"essential_metrics\":{\"E2\":{\"degree\":44,\"degrees\":[23,17,21],\"sha256\":\"6cb5a7a7aa404e8aba5777add17ac3392614cd3211142cb2089fa92ebc8bf5b9\",\"terms\":5143},\"E3\":{\"degree\":34,\"degrees\":[18,13,16],\"sha256\":\"fbcb3a649bc40f3723ff7e4feace1fdc781a480ea5007378bfd6245c113a5dca\",\"terms\":2457},\"R\":{\"degree\":12,\"degrees\":[6,4,5],\"sha256\":\"10a48fdeb9fafebec2b38bf616ced008acbe41f4a289c6b33dd9735789b0181f\",\"terms\":121}},\"gcds\":{\"E2_E3\":{\"metric\":{\"degree\":49,\"degrees\":[35,10,14],\"sha256\":\"b6987b78cf8e591ef69412995696325387b557281eae6ea0f6a7de4fc46e5dd5\",\"terms\":3696},\"polynomial\":null},\"R_E2\":{\"metric\":{\"degree\":26,\"degrees\":[18,6,8],\"sha256\":\"740e1da00e46f95df495a3f8e9ef30abfbb0b25d3b32d803c3d7d14400dba203\",\"terms\":740},\"polynomial\":null},\"R_E3\":{\"metric\":{\"degree\":26,\"degrees\":[18,6,8],\"sha256\":\"740e1da00e46f95df495a3f8e9ef30abfbb0b25d3b32d803c3d7d14400dba203\",\"terms\":740},\"polynomial\":null},\"U_V\":{\"metric\":{\"degree\":8,\"degrees\":[6,2,2],\"sha256\":\"498f2d9ffabc5d86767bf8a85d73134f6e00930e01cce125a21e246f5f3a5305\",\"terms\":35},\"polynomial\":\"x^6*s*p - 2*x^6*p^2 + x^6*s - 2*x^5*s^2 - 4*x^6*p + 4*x^5*s*p + 3*x^5*p^2 - 2*x^6 + 4*x^5*s + 6*x^5*p - 10*x^4*s*p + 2*x^4*p^2 + 3*x^5 - 10*x^4*s + 10*x^3*s^2 + 4*x^4*p - 8*x^3*s*p + 2*x^4 - 8*x^3*s + 5*x^2*s*p + 2*x^2*p^2 + 5*x^2*s - 8*x*s^2 + 4*x^2*p + 4*x*s*p - 3*x*p^2 + 2*x^2 + 4*x*s - 6*x*p + 4*s*p - 2*p^2 - 3*x + 4*s - 4*p - 2\"}},\"generic_reconstruction\":\"w=-U/V\",\"payload_sha256\":\"908e18139e9c04038c24939fefa14a8c4dbdb13c0d8dadbcc88675eded5cc468\",\"quadratic_pair\":[0,1],\"row_w_degrees\":[2,2,4,4],\"schema\":\"kb-c2-112-fixed-balanced-quadratic-branch-probe-v1\",\"terminal\":\"EXACT_FACTORED_BRANCH_DATA_NO_EMPTINESS_CLAIM\",\"transported_unit_count\":21,\"transported_unit_factor_count\":25}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-balanced-quadratic-branch-modal-probe-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

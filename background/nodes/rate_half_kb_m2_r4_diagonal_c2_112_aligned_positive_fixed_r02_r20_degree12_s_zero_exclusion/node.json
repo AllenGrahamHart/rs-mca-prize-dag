@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion",
+    "title": "KoalaBear fixed R02/R20 degree-12 s-zero exclusion",
+    "status": "PROVED",
+    "closure": "all eight literal degree-12 s=0 branches empty after generic localization",
+    "statement": "For every fixed residual cell {F04,F05,F06,F07} x {R02,R20}, specialize the unresolved generic degree-12 resultant branch to s=0. The three literal equations over F_2130706433 generate a dimension-one ideal with a two-element basis. The complete original transported generic localizer reduces to zero at factor 14 in every cell. Hence all eight s=0 leading-drop branches are empty over the deployed extension field.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_s_zero_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_s_zero_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_s_zero_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_s_zero_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_s_zero_f05_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_s_zero_f06_f07_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

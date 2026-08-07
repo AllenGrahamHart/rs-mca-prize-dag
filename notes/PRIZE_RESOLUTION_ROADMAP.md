@@ -20736,9 +20736,9 @@ timed-out run is consumed as a theorem.
 ```text
 lane:                     MCA / K3 / aligned-positive literal coverage
 new PROVED coverage:      ten moving cells
-local proved total:       22/36 aligned-positive cells
+local proved total:       26/36 aligned-positive cells
 balanced residual:        M01-R11, M02-R11 (PROVABLE review gate)
-fixed residual:           F04..F07 x R02/R11/R20 (12 cells / 6 #1149 orbits)
+fixed residual:           F04..F07 x R02/R20 (8 cells / 4 #1149 orbits)
 new assumptions:          none
 compute:                  bounded Modal Sage review; <=8 GB per shard
 next:                     attack six F04..F07 orbits; seek portable M01-R11 certificate
@@ -20767,9 +20767,250 @@ twelve cells empty.
 lane:                     MCA / K3 / aligned-positive fixed residual
 result:                   PROVED quadratic dichotomy and six fingerprint orbits
 literal replay:           12/12 PASS, official SageMath 10.9
-remaining branches:       six generic V!=0 plus six rank-drop U=V=0
+closed hereafter:          both R11 generic/rank-drop orbit pairs
+remaining branches then:  four R02/R20 generic plus four rank-drop orbits
 new assumptions:          none
-next:                     factor terminal cores and close one orbit branch at a time
+next then:                apply the balanced localization route to R02/R20
+```
+
+### K3 fixed balanced four-cell close
+
+The exact `V!=0` reconstruction was compiled directly for all four literal
+`F04`--`F07-R11` cells. After named-factor cancellation each cell has three
+essential cores. The deployed-prime core ideal has a 151-element basis and
+dimension one, but its square-free transported localizer reduces to zero at
+factor 16. Thus every generic chart is empty.
+
+On `V=0`, removal of only the original named factors leaves one degree-2 and
+one degree-10 factor per literal cell. All eight direct factor ideals have a
+zero original localizer modulo their exact bases. The two charts are
+exhaustive, so all four balanced fixed cells are PROVED empty.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed balanced row
+new PROVED coverage:      F04/F05/F06/F07 x R11
+generic replay:           4/4 PASS; localizer nilpotence index 1
+rank-drop replay:         8/8 PASS; localizer nilpotence index 1
+local proved total:       26/36 aligned-positive cells
+remaining fixed cells:    F04..F07 x R02/R20
+new assumptions:          none
+compute:                  official SageMath 10.9 on bounded Modal shards
+```
+
+### K3 fixed R02/R20 rank-drop close
+
+For each of the eight residual fixed cells, removal of only the original
+named-open factors leaves exactly two nonnamed factors of `V`: a degree-2
+factor and a large factor of degree 11 on `R02` or degree 14 on `R20`.
+Direct literal localization closes all sixteen branches. Every factor ideal
+has dimension two before localization, and the original localizer is
+nilpotent at exponent two in every quotient. Thus the four remaining fixed
+fingerprint orbits now have only generic `V != 0` charts.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed residual
+new PROVED result:        all F04..F07 x R02/R20 rank-drop charts empty
+literal replay:           16/16 PASS; localizer nilpotence index 2
+cell coverage:            unchanged at 26/36; generic charts remain
+new assumptions:          none
+compute:                  official SageMath 10.9 on bounded Modal shards
+```
+
+### K3 fixed R02/R20 generic route cuts
+
+On the four #1149 representatives, exact `V != 0` reconstruction and named
+factor cancellation split the resultant core into factors of degrees
+`3,3,12`. One cubic factor per representative is empty; the complementary
+cubic survives with dimension one, and the degree-12 basis requests remain
+unresolved after bounded timeouts.
+
+For `F04`, a truncated exact expansion of coefficient zero of the full `J`
+identity descends to
+
+```text
+w^4 * J8a^2 * J8b^2 * J11 * J12.
+```
+
+Intersecting this equation with each surviving cubic closes both degree-8
+factors and the degree-12 factor, leaving only the degree-11 curve. Full `J`
+coefficient one instead produces a degree-70 factor with 182336 terms, and
+full `I` coefficient zero reached a bounded timeout at roughly 14.9 GB; both
+are recorded as route fences rather than evidence.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed generic route
+new PROVED result:        exact 3,3,12 split and F04 cubic-to-J11 reduction
+literal cell closures:    none
+live representative cuts: surviving cubic/J11 curve; degree-12 resultant
+rejected route:           global J1 degree-70 expansion; ambient I0 basis
+next then:                test quotient-normal-form or low-degree syzygy routes
+```
+
+### K3 fixed degree-12 leading-branch decomposition
+
+The degree-12 factor is degree six in `x`. Its `x`-leading coefficient is
+the same irreducible nonnamed degree-6 polynomial in `(s,p)` for `R02` and
+`R20`. The `E2` leading coefficient contributes `s` and a nonnamed
+irreducible of degree 22 (`R02`) or 23 (`R20`); the `E3` leading coefficient
+is a nonnamed irreducible of degree 23 or 24. Thus the tempting
+`F_p(s,p)[x]` route inverts genuine components and is not exhaustive.
+
+An exact three-step `R02` pseudo-remainder prefix confirms that brute
+subresultants do not compress the system: `x`-degrees move only
+`36,35 -> 35 -> 34 -> 34`, while primitive term counts grow to
+`40921,83811,149340`. The function-field remainder itself timed out after
+conversion at about 19 GB. These are route fences, not cell closures.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        exact nonnamed leading-drop branch census
+literal cell closures:    none
+rejected route:           raw function-field and pseudo-remainder elimination
+next:                     source-level cancellation or branchwise curve theorem
+```
+
+### K3 fixed degree-12 s-zero leaf close
+
+The smallest leading-drop curve was replayed literally in all eight fixed
+`R02/R20` cells. After `s=0`, the degree-12 factor and both essential rows
+generate a two-element dimension-one basis. `F04/F07` share one exact basis
+and `F05/F06` another; no transport is used as proof. In every cell the
+complete transported generic localizer reduces to zero at factor 14.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        s=0 branch empty in all eight literal cells
+localizer replay:         8/8 PASS; nilpotence index 1
+literal cell closures:    none; s!=0 degree-12 branches remain
+next:                     common degree-6 leading curve or source cancellation
+```
+
+### K3 fixed degree-12 degree-6 leaf close
+
+Both literal forms of the irreducible degree-6 `x`-leading factor were
+imposed and replayed in all eight fixed `R02/R20` cells. `F04/F07` share a
+15-term form and `F05/F06` a distinct 17-term form. The seed ideal has a
+size-eight, dimension-one basis. After adjoining both reduced essential
+rows, the full bases have size 46 in `F04/F07` and 43 in `F05/F06`. In every
+cell the complete transported generic localizer first reduces to zero at
+factor 17.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed degree-12 route
+new PROVED result:        both L6(s,p)=0 forms empty in all eight cells
+localizer replay:         8/8 PASS; nilpotence index 1
+literal cell closures:    none; L6!=0 degree-12 branches remain
+next:                     degree 22--24 leading curves or source cancellation
+```
+
+### K3 degree-12 expanded-elimination fences and parity identity
+
+The `F04-R02` degree-22 and degree-23 leading curves were imposed directly.
+Their exact dimension-one seed bases have sizes 25 and 27, but row reduction
+still leaves `5783`--`6100` terms and both full intersections hit the
+780-second cap. A second exact implementation pseudo-divides in `x` while
+reducing coefficients modulo the degree-22 curve. It reaches `deg_x=5` for
+both rows, but leaves `23616` and `23484` terms with coefficient degrees
+`205` and `204`; its final intersection also times out.
+
+The replacement route is algebraic rather than computational. For any row
+`P(w)`, the cleared evaluation `V^d P(-U/V)` is congruent modulo
+`R=U^2-VZ` to the parity-reduced expression obtained by replacing
+`U^(2j)` with `(VZ)^j`. This identity is PROVED coefficientwise, uses no
+division, and bounds the surviving power of `U` by one before expansion.
+The metrics-only literal instantiation completed in 52 seconds, but the two
+expanded representatives still contain `52257` and `49848` terms versus
+`52336` and `49949` directly. Thus the identity is not an expanded
+compression; it must be used with `U,V,Z` kept as symbolic blocks.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED result:        parity-reduced cleared-evaluation identity
+new route fences:         direct large-curve GB; curve-pseudo final GB
+literal cell closures:    none
+next:                     block-level U,V,Z factorization or syzygy
+```
+
+### K3 quadratic pseudo-remainder determinant reduction
+
+The requested block-level cancellation now exists. If a quadratic divisor
+`D` has leading coefficient `a` and three pseudo-division steps give
+`a^3P=QD+r1w+r0`, then on `D(w)=0` and `Vw+U=0` the quartic row `P(w)=0` is
+equivalent, after localizing at `aV`, to the base-ring determinant
+`V r0-U r1=0`. This is an exact source identity, not a sampled reduction.
+
+On the literal `F04-R02` `B0` chart, both determinants factor into named
+units, one common irreducible degree-8 leading factor `K8`, and irreducible
+degree-34 cores with `3201` and `2937` terms. The chart `V K8!=0` is therefore
+represented by the selected degree-12 equation and these two cores. Their
+deployed-prime ideal has a 142-element dimension-one basis. Powers of
+`V K8` remain nonzero through exponent 12 while reduced term counts grow
+from `1461` to `36492`; the bounded run then times out. This rules out the
+low-order nilpotence route and does not close the curve.
+
+An exact `F_(p^6)` audit fixed `s=1,...,64`. Sixty-three specializations are
+zero-dimensional; after adjoining both field equations, their complete open
+product is zero. The stopping boundary is `V` for `s=1,4` and `s^2-4p` for
+the other 61. The `s=2` specialization remains dimension one. This repeated
+pattern is evidence for a global boundary-support theorem, not an exhaustive
+fiber proof.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED results:       pseudo-remainder determinant identity; B0 degree-34 core census
+finite-field audit:       63 F_(p^6) fibers excluded; s=2 exceptional
+literal cell closures:    none
+rejected route:           powers of V*K8 in the dimension-one quotient
+next:                     global s-elimination or component/residue-degree ledger
+```
+
+### K3 B0 K8-nonzero degree-six close
+
+The global route closes. Saturating the `F04-R02` `B0` core ideal by
+`V K8 (s^2-4p)` produces a size-25, zero-dimensional basis. Elimination to
+`F_p[s]` gives one degree-30 polynomial with irreducible factor degrees
+
+```text
+1,1,1,1,1,4,4,5.
+```
+
+The irreducible quartics and quintic have no roots in `F_(p^6)`. The five
+linear roots are explicit base-field elements. Five parallel exact terminal
+jobs specialize at those roots, adjoin the reduced `x^(p^6)-x` and
+`pvar^(p^6)-pvar` equations, and reduce the complete open product to zero in
+every case. This exhausts the eliminant and proves the `B0`, `K8!=0` chart
+empty over the challenge extension.
+
+```text
+lane:                     MCA / K3 / fixed degree-12 source reduction
+new PROVED result:        F04-R02 B0 K8-nonzero chart empty over F_(p^6)
+global certificate:       degree-30 s eliminant; factors 1^5,4^2,5
+terminal replay:          5/5 linear fibers exclude the complete open chart
+literal cell closures:    none; K8=0 remains
+next:                     K8=0,K10!=0 A0 chart; then K8=K10=0 residual
+```
+
+### K3 F04-R02 complete degree-12 branch close
+
+The `K8=0` complement also closes. On `K10!=0`, the `A0` determinant
+reduction gives irreducible degree-37 cores with `4124` and `3813` terms;
+the ideal `(R12,K8,C_A,C_B)` has a size-62 dimension-one basis and its full
+localizer reaches zero at named factor 14. On `K10=0`, the larger residual
+ideal `(R12,K8,K10)` has a size-27 dimension-one basis and reaches the same
+terminal without using the quartic rows. Both conclusions hold over the
+algebraic closure.
+
+Combining these leaves with the prior literal `s=0` and `L6=0` exclusions
+and the `B0`, `K8!=0` degree-six close exhausts the selected degree-12
+resultant branch in `F04-R02`.
+
+```text
+lane:                     MCA / K3 / aligned-positive fixed F04-R02
+new PROVED results:       complete K8=0 cover; complete degree-12 branch exclusion
+branch partition:         s; L6; K8; K10
+literal branch closure:   F04-R02 degree-12 factor fully closed
+whole-cell closure:       no; surviving cubic/degree-11 route remains
+next:                     attack the F04-R02 cubic/J11 branch or replay degree-12 cover
 ```
 
 ## r5 BOARD UPDATE (2026-08-07, USER-RATIFIED): MYSTERY 7 PROMOTED — the dimension-uniform split-locator max-to-mean wall

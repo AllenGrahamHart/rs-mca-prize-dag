@@ -1,0 +1,416 @@
+{
+  "app": "rs-mca-k3-fixed-full-identity-single-c1",
+  "coefficient_index": 1,
+  "counts": {
+    "FAIL": 0,
+    "PASS": 1,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "mode": "single",
+  "results": [
+    {
+      "assignment": "F04",
+      "coefficient_index": 1,
+      "peak_kb": 7900208,
+      "records": [
+        {
+          "assignment": "F04",
+          "phase": "START"
+        },
+        {
+          "phase": "SOURCE_BUILT"
+        },
+        {
+          "expected_factor_count": 24,
+          "identity": "J",
+          "observed_factor_count": 6,
+          "phase": "FACTORS_BUILT"
+        },
+        {
+          "index": 1,
+          "phase": "COEFFICIENT"
+        },
+        {
+          "metric": {
+            "degree": 150,
+            "degrees": [
+              60,
+              39,
+              39,
+              32
+            ],
+            "sha256": "3de0dc92ce17a219b27c8882181eadc028b799ba69fea7c1a77b63aee1a50058",
+            "terms": 2128428
+          },
+          "phase": "NUMERATOR"
+        },
+        {
+          "metric": {
+            "degree": 97,
+            "degrees": [
+              34,
+              26,
+              26,
+              19
+            ],
+            "sha256": "0b7cb87980950467f33b60c39f06ae0abe2ed4c5ab20585421c90674d52eac67",
+            "terms": 350092
+          },
+          "phase": "ESSENTIAL"
+        },
+        {
+          "metric": {
+            "degree": 73,
+            "degrees": [
+              34,
+              24,
+              26,
+              19
+            ],
+            "sha256": "a189d1170dcfdf4f46f79db724f45c135dc4237c622175f661099c96806b8ac1",
+            "terms": 182336
+          },
+          "phase": "DESCENDED"
+        },
+        {
+          "identity": "J",
+          "phase": "IDENTITY",
+          "record": {
+            "denominator_support": {
+              "all_factors_named_units": true,
+              "denominator": {
+                "degree": 110,
+                "degrees": [
+                  56,
+                  23,
+                  23,
+                  20
+                ],
+                "sha256": "25106798dfa3d297361663aca074950ced952b384ae664bf916e45d02abd9419",
+                "terms": 311577
+              },
+              "factors": [
+                {
+                  "exponent": 3,
+                  "factor": "d",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 3,
+                  "factor": "c",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 4,
+                  "factor": "b",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 4,
+                  "factor": "2*b - 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 6,
+                  "factor": "b - d",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 6,
+                  "factor": "b - c",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 8,
+                  "factor": "w - 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 12,
+                  "factor": "w + 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 12,
+                  "factor": "b - 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 12,
+                  "factor": "b + 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 6,
+                  "factor": "b*d - 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 6,
+                  "factor": "b*c - 1",
+                  "named_unit": true
+                },
+                {
+                  "exponent": 8,
+                  "factor": "c*d - 1",
+                  "named_unit": true
+                }
+              ]
+            },
+            "descended_factors": [
+              {
+                "exponent": 3,
+                "metric": {
+                  "degree": 1,
+                  "degrees": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+                  "terms": 1
+                },
+                "polynomial": "w"
+              },
+              {
+                "exponent": 1,
+                "metric": {
+                  "degree": 70,
+                  "degrees": [
+                    34,
+                    24,
+                    26,
+                    16
+                  ],
+                  "sha256": "9749c7f0a615c13307c7afb9fb8c855c150c703c3457ed5e4db355deea333714",
+                  "terms": 182336
+                },
+                "polynomial": null
+              }
+            ],
+            "descended_metric": {
+              "degree": 73,
+              "degrees": [
+                34,
+                24,
+                26,
+                19
+              ],
+              "sha256": "a189d1170dcfdf4f46f79db724f45c135dc4237c622175f661099c96806b8ac1",
+              "terms": 182336
+            },
+            "dropped_named_factors": [
+              {
+                "exponent": 12,
+                "factor": "b^2*c*d - b^2*w + b*c*w + b*d*w - c*d*w - b*c - b*d + 1"
+              },
+              {
+                "exponent": 1,
+                "factor": "b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w"
+              }
+            ],
+            "essential_metric": {
+              "degree": 97,
+              "degrees": [
+                34,
+                26,
+                26,
+                19
+              ],
+              "sha256": "0b7cb87980950467f33b60c39f06ae0abe2ed4c5ab20585421c90674d52eac67",
+              "terms": 350092
+            },
+            "first_nonzero_coefficient_index": 1,
+            "raw_numerator_metric": {
+              "degree": 150,
+              "degrees": [
+                60,
+                39,
+                39,
+                32
+              ],
+              "sha256": "3de0dc92ce17a219b27c8882181eadc028b799ba69fea7c1a77b63aee1a50058",
+              "terms": 2128428
+            }
+          }
+        },
+        {
+          "assignment": "F04",
+          "identities": {
+            "J": {
+              "denominator_support": {
+                "all_factors_named_units": true,
+                "denominator": {
+                  "degree": 110,
+                  "degrees": [
+                    56,
+                    23,
+                    23,
+                    20
+                  ],
+                  "sha256": "25106798dfa3d297361663aca074950ced952b384ae664bf916e45d02abd9419",
+                  "terms": 311577
+                },
+                "factors": [
+                  {
+                    "exponent": 3,
+                    "factor": "d",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 3,
+                    "factor": "c",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 4,
+                    "factor": "b",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 4,
+                    "factor": "2*b - 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 6,
+                    "factor": "b - d",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 6,
+                    "factor": "b - c",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 8,
+                    "factor": "w - 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 12,
+                    "factor": "w + 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 12,
+                    "factor": "b - 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 12,
+                    "factor": "b + 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 6,
+                    "factor": "b*d - 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 6,
+                    "factor": "b*c - 1",
+                    "named_unit": true
+                  },
+                  {
+                    "exponent": 8,
+                    "factor": "c*d - 1",
+                    "named_unit": true
+                  }
+                ]
+              },
+              "descended_factors": [
+                {
+                  "exponent": 3,
+                  "metric": {
+                    "degree": 1,
+                    "degrees": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "sha256": "50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326",
+                    "terms": 1
+                  },
+                  "polynomial": "w"
+                },
+                {
+                  "exponent": 1,
+                  "metric": {
+                    "degree": 70,
+                    "degrees": [
+                      34,
+                      24,
+                      26,
+                      16
+                    ],
+                    "sha256": "9749c7f0a615c13307c7afb9fb8c855c150c703c3457ed5e4db355deea333714",
+                    "terms": 182336
+                  },
+                  "polynomial": null
+                }
+              ],
+              "descended_metric": {
+                "degree": 73,
+                "degrees": [
+                  34,
+                  24,
+                  26,
+                  19
+                ],
+                "sha256": "a189d1170dcfdf4f46f79db724f45c135dc4237c622175f661099c96806b8ac1",
+                "terms": 182336
+              },
+              "dropped_named_factors": [
+                {
+                  "exponent": 12,
+                  "factor": "b^2*c*d - b^2*w + b*c*w + b*d*w - c*d*w - b*c - b*d + 1"
+                },
+                {
+                  "exponent": 1,
+                  "factor": "b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w"
+                }
+              ],
+              "essential_metric": {
+                "degree": 97,
+                "degrees": [
+                  34,
+                  26,
+                  26,
+                  19
+                ],
+                "sha256": "0b7cb87980950467f33b60c39f06ae0abe2ed4c5ab20585421c90674d52eac67",
+                "terms": 350092
+              },
+              "first_nonzero_coefficient_index": 1,
+              "raw_numerator_metric": {
+                "degree": 150,
+                "degrees": [
+                  60,
+                  39,
+                  39,
+                  32
+                ],
+                "sha256": "3de0dc92ce17a219b27c8882181eadc028b799ba69fea7c1a77b63aee1a50058",
+                "terms": 2128428
+              }
+            }
+          },
+          "phase": "DONE",
+          "terminal": "FULL_IDENTITY_NECESSARY_COEFFICIENTS_COMPILED"
+        }
+      ],
+      "returncode": 0,
+      "seconds": 204.470571,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "13c1e589dd55dfe676ea8062c7c38672410e907c086af972dc63bf33c386cb6f",
+      "stdout_tail": "\": \"d\", \"named_unit\": true}, {\"exponent\": 3, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 4, \"factor\": \"b\", \"named_unit\": true}, {\"exponent\": 4, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 8, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b*d - 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b*c - 1\", \"named_unit\": true}, {\"exponent\": 8, \"factor\": \"c*d - 1\", \"named_unit\": true}]}, \"descended_factors\": [{\"exponent\": 3, \"metric\": {\"degree\": 1, \"degrees\": [0, 0, 0, 1], \"sha256\": \"50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326\", \"terms\": 1}, \"polynomial\": \"w\"}, {\"exponent\": 1, \"metric\": {\"degree\": 70, \"degrees\": [34, 24, 26, 16], \"sha256\": \"9749c7f0a615c13307c7afb9fb8c855c150c703c3457ed5e4db355deea333714\", \"terms\": 182336}, \"polynomial\": null}], \"descended_metric\": {\"degree\": 73, \"degrees\": [34, 24, 26, 19], \"sha256\": \"a189d1170dcfdf4f46f79db724f45c135dc4237c622175f661099c96806b8ac1\", \"terms\": 182336}, \"dropped_named_factors\": [{\"exponent\": 12, \"factor\": \"b^2*c*d - b^2*w + b*c*w + b*d*w - c*d*w - b*c - b*d + 1\"}, {\"exponent\": 1, \"factor\": \"b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w\"}], \"essential_metric\": {\"degree\": 97, \"degrees\": [34, 26, 26, 19], \"sha256\": \"0b7cb87980950467f33b60c39f06ae0abe2ed4c5ab20585421c90674d52eac67\", \"terms\": 350092}, \"first_nonzero_coefficient_index\": 1, \"raw_numerator_metric\": {\"degree\": 150, \"degrees\": [60, 39, 39, 32], \"sha256\": \"3de0dc92ce17a219b27c8882181eadc028b799ba69fea7c1a77b63aee1a50058\", \"terms\": 2128428}}}\n{\"assignment\": \"F04\", \"identities\": {\"J\": {\"denominator_support\": {\"all_factors_named_units\": true, \"denominator\": {\"degree\": 110, \"degrees\": [56, 23, 23, 20], \"sha256\": \"25106798dfa3d297361663aca074950ced952b384ae664bf916e45d02abd9419\", \"terms\": 311577}, \"factors\": [{\"exponent\": 3, \"factor\": \"d\", \"named_unit\": true}, {\"exponent\": 3, \"factor\": \"c\", \"named_unit\": true}, {\"exponent\": 4, \"factor\": \"b\", \"named_unit\": true}, {\"exponent\": 4, \"factor\": \"2*b - 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b - d\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b - c\", \"named_unit\": true}, {\"exponent\": 8, \"factor\": \"w - 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"w + 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"b - 1\", \"named_unit\": true}, {\"exponent\": 12, \"factor\": \"b + 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b*d - 1\", \"named_unit\": true}, {\"exponent\": 6, \"factor\": \"b*c - 1\", \"named_unit\": true}, {\"exponent\": 8, \"factor\": \"c*d - 1\", \"named_unit\": true}]}, \"descended_factors\": [{\"exponent\": 3, \"metric\": {\"degree\": 1, \"degrees\": [0, 0, 0, 1], \"sha256\": \"50e721e49c013f00c62cf59f2163542a9d8df02464efeb615d31051b0fddc326\", \"terms\": 1}, \"polynomial\": \"w\"}, {\"exponent\": 1, \"metric\": {\"degree\": 70, \"degrees\": [34, 24, 26, 16], \"sha256\": \"9749c7f0a615c13307c7afb9fb8c855c150c703c3457ed5e4db355deea333714\", \"terms\": 182336}, \"polynomial\": null}], \"descended_metric\": {\"degree\": 73, \"degrees\": [34, 24, 26, 19], \"sha256\": \"a189d1170dcfdf4f46f79db724f45c135dc4237c622175f661099c96806b8ac1\", \"terms\": 182336}, \"dropped_named_factors\": [{\"exponent\": 12, \"factor\": \"b^2*c*d - b^2*w + b*c*w + b*d*w - c*d*w - b*c - b*d + 1\"}, {\"exponent\": 1, \"factor\": \"b^2*c*d*w - b*c*w - b*d*w - b^2 + b*c + b*d - c*d + w\"}], \"essential_metric\": {\"degree\": 97, \"degrees\": [34, 26, 26, 19], \"sha256\": \"0b7cb87980950467f33b60c39f06ae0abe2ed4c5ab20585421c90674d52eac67\", \"terms\": 350092}, \"first_nonzero_coefficient_index\": 1, \"raw_numerator_metric\": {\"degree\": 150, \"degrees\": [60, 39, 39, 32], \"sha256\": \"3de0dc92ce17a219b27c8882181eadc028b799ba69fea7c1a77b63aee1a50058\", \"terms\": 2128428}}}, \"phase\": \"DONE\", \"terminal\": \"FULL_IDENTITY_NECESSARY_COEFFICIENTS_COMPILED\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-full-identity-coefficients-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

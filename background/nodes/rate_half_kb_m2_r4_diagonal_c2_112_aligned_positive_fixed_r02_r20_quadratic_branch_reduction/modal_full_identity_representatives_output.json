@@ -1,0 +1,30 @@
+{
+  "app": "rs-mca-k3-fixed-full-identity-representatives",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 2
+  },
+  "mode": "representatives",
+  "results": [
+    {
+      "assignment": "F04",
+      "peak_kb": 28942972,
+      "seconds": 421.282162,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"assignment\": \"F04\", \"phase\": \"START\"}\n"
+    },
+    {
+      "assignment": "F05",
+      "peak_kb": 28875056,
+      "seconds": 421.137202,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"assignment\": \"F05\", \"phase\": \"START\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-full-identity-coefficients-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

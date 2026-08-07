@@ -1,0 +1,1242 @@
+{
+  "app": "rs-mca-k3-degree12-k8-branch-cover",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 2,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "results": [
+    {
+      "mode": "a0_k10_nonzero",
+      "peak_kb": 391912,
+      "records": [
+        {
+          "mode": "a0_k10_nonzero",
+          "phase": "START"
+        },
+        {
+          "A0_leading": {
+            "degree": 10,
+            "degrees": [
+              6,
+              6,
+              5
+            ],
+            "sha256": "74f254b814ae9870808a714d20bb11f94ee5d5181cddd2f0e85d141e8817aff4",
+            "terms": 130
+          },
+          "A0_leading_factors": [
+            {
+              "degree": 10,
+              "degrees": [
+                6,
+                6,
+                5
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+              "terms": 130
+            }
+          ],
+          "B0_leading": {
+            "degree": 9,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "f850fb181f2a2919054a10702b5710740adbe26530cfa365ef789b6e4cd5ab9c",
+            "terms": 91
+          },
+          "B0_leading_factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            }
+          ],
+          "K10": {
+            "degree": 10,
+            "degrees": [
+              6,
+              6,
+              5
+            ],
+            "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+            "terms": 130
+          },
+          "K8": {
+            "degree": 8,
+            "degrees": [
+              5,
+              5,
+              4
+            ],
+            "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+            "terms": 72
+          },
+          "cores": {
+            "A1": {
+              "degree": 37,
+              "degrees": [
+                21,
+                19,
+                16
+              ],
+              "sha256": "b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d",
+              "terms": 4124
+            },
+            "B1": {
+              "degree": 37,
+              "degrees": [
+                21,
+                18,
+                16
+              ],
+              "sha256": "aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a",
+              "terms": 3813
+            }
+          },
+          "determinant_factors": {
+            "A1": [
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  0,
+                  1
+                ],
+                "exponent": 6,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                "terms": 2
+              },
+              {
+                "degree": 2,
+                "degrees": [
+                  1,
+                  1,
+                  1
+                ],
+                "exponent": 3,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                "terms": 6
+              },
+              {
+                "degree": 10,
+                "degrees": [
+                  6,
+                  6,
+                  5
+                ],
+                "exponent": 1,
+                "leading_factor": true,
+                "named_unit_factor": false,
+                "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+                "terms": 130
+              },
+              {
+                "degree": 37,
+                "degrees": [
+                  21,
+                  19,
+                  16
+                ],
+                "exponent": 1,
+                "leading_factor": false,
+                "named_unit_factor": false,
+                "sha256": "b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d",
+                "terms": 4124
+              }
+            ],
+            "B1": [
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  0,
+                  1
+                ],
+                "exponent": 6,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                "terms": 2
+              },
+              {
+                "degree": 2,
+                "degrees": [
+                  1,
+                  1,
+                  1
+                ],
+                "exponent": 3,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                "terms": 6
+              },
+              {
+                "degree": 10,
+                "degrees": [
+                  6,
+                  6,
+                  5
+                ],
+                "exponent": 1,
+                "leading_factor": true,
+                "named_unit_factor": false,
+                "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+                "terms": 130
+              },
+              {
+                "degree": 37,
+                "degrees": [
+                  21,
+                  18,
+                  16
+                ],
+                "exponent": 1,
+                "leading_factor": false,
+                "named_unit_factor": false,
+                "sha256": "aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a",
+                "terms": 3813
+              }
+            ]
+          },
+          "determinants": {
+            "A1": {
+              "degree": 69,
+              "degrees": [
+                40,
+                28,
+                30
+              ],
+              "sha256": "11451db447278bf963381d2832d5538cd7b9624663025a964127149d7960e52d",
+              "terms": 23027
+            },
+            "B1": {
+              "degree": 69,
+              "degrees": [
+                40,
+                27,
+                30
+              ],
+              "sha256": "6b62394ab391fe31ca6085cdc19261e16e1c94fd3af3c4f1c20e801353ef1d7b",
+              "terms": 21902
+            }
+          },
+          "phase": "SOURCE_COMPILED"
+        },
+        {
+          "generators": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "sha256": "5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b",
+              "terms": 137
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            },
+            {
+              "degree": 37,
+              "degrees": [
+                21,
+                19,
+                16
+              ],
+              "sha256": "b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d",
+              "terms": 4124
+            },
+            {
+              "degree": 37,
+              "degrees": [
+                21,
+                18,
+                16
+              ],
+              "sha256": "aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a",
+              "terms": 3813
+            }
+          ],
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "2d3e257ff476511a872c916f01d3845677a68bed8d25ebf084f1569be8e7462c",
+          "basis_size": 62,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "index": 1,
+          "label": "prior_s",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "index": 2,
+          "label": "prior_L6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365",
+          "terms": 15,
+          "zero": false
+        },
+        {
+          "index": 3,
+          "label": "chart_K10",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "41fb3f31cdad71b85999ae5912809494cae9825323bdb3abe877d20a0be57f63",
+          "terms": 496,
+          "zero": false
+        },
+        {
+          "index": 4,
+          "label": "unit_1",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "e3b6453d396071314bcff2f7c890f35ed4f3a2313630107e88c9dda2d5512705",
+          "terms": 572,
+          "zero": false
+        },
+        {
+          "index": 5,
+          "label": "unit_2",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "d868b5d107e0948cd3c541a26690c19dd842cce18cc4af8e6cca717dbab42be1",
+          "terms": 628,
+          "zero": false
+        },
+        {
+          "index": 6,
+          "label": "unit_3",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "870d4ebf7800f6de7747dc431e7dddf50ba4a7acb2b546e0b19ba9bd2af0a3ef",
+          "terms": 703,
+          "zero": false
+        },
+        {
+          "index": 7,
+          "label": "unit_4",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "9ba451a4de39c7a5955180361ba603e1484428cf5ddaf1a109b73ef0376cdb5c",
+          "terms": 762,
+          "zero": false
+        },
+        {
+          "index": 8,
+          "label": "unit_5",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "8a25f7b178ba52bd79418bafc8635b054dd8328459ef13848cb71e5ef8de5ce0",
+          "terms": 838,
+          "zero": false
+        },
+        {
+          "index": 9,
+          "label": "unit_6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "d469cbb318648c636c4fb5f6ca5d499432999cc3331f8e81b15814f20fb46785",
+          "terms": 897,
+          "zero": false
+        },
+        {
+          "index": 10,
+          "label": "unit_7",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "2bc7cde2c6030fa0f526a6f2d2165627b9d8f9b35ca8195b2e22a46c4658e43b",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 11,
+          "label": "unit_8",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "3565e94ed8ec11b8c0ac2205f6d67f59302635898c4a8a2ece9c717ede8ef505",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 12,
+          "label": "unit_9",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "d2519649515dd21af94b81535e1bf98cdd211bf9d24ab52a673b3bd1563c4ecb",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 13,
+          "label": "unit_10",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "b503b328f83ec47d097692c8179513022eac148d7e47d2865137fc720ab285aa",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 14,
+          "label": "unit_11",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "9f2d914fd9f9b8786236ea956108ddc9cc35d1c0ea6eeb4927ae9449df4f5281",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 15,
+          "label": "unit_12",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "5ba1e886d14d5bc9c32613b556ac3e5c80ba2e16d59e1dc4428500154c71a10d",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 16,
+          "label": "unit_13",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "4bcb6d743a1961007e35af1670c733fa2f7eef0dbe03ba19cab4f533fdc14879",
+          "terms": 1057,
+          "zero": false
+        },
+        {
+          "index": 17,
+          "label": "unit_14",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": 0,
+          "zero": true
+        },
+        {
+          "basis_sha256": "2d3e257ff476511a872c916f01d3845677a68bed8d25ebf084f1569be8e7462c",
+          "basis_size": 62,
+          "dimension": 1,
+          "localizer_steps": [
+            {
+              "index": 1,
+              "label": "prior_s",
+              "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "index": 2,
+              "label": "prior_L6",
+              "sha256": "7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365",
+              "terms": 15,
+              "zero": false
+            },
+            {
+              "index": 3,
+              "label": "chart_K10",
+              "sha256": "41fb3f31cdad71b85999ae5912809494cae9825323bdb3abe877d20a0be57f63",
+              "terms": 496,
+              "zero": false
+            },
+            {
+              "index": 4,
+              "label": "unit_1",
+              "sha256": "e3b6453d396071314bcff2f7c890f35ed4f3a2313630107e88c9dda2d5512705",
+              "terms": 572,
+              "zero": false
+            },
+            {
+              "index": 5,
+              "label": "unit_2",
+              "sha256": "d868b5d107e0948cd3c541a26690c19dd842cce18cc4af8e6cca717dbab42be1",
+              "terms": 628,
+              "zero": false
+            },
+            {
+              "index": 6,
+              "label": "unit_3",
+              "sha256": "870d4ebf7800f6de7747dc431e7dddf50ba4a7acb2b546e0b19ba9bd2af0a3ef",
+              "terms": 703,
+              "zero": false
+            },
+            {
+              "index": 7,
+              "label": "unit_4",
+              "sha256": "9ba451a4de39c7a5955180361ba603e1484428cf5ddaf1a109b73ef0376cdb5c",
+              "terms": 762,
+              "zero": false
+            },
+            {
+              "index": 8,
+              "label": "unit_5",
+              "sha256": "8a25f7b178ba52bd79418bafc8635b054dd8328459ef13848cb71e5ef8de5ce0",
+              "terms": 838,
+              "zero": false
+            },
+            {
+              "index": 9,
+              "label": "unit_6",
+              "sha256": "d469cbb318648c636c4fb5f6ca5d499432999cc3331f8e81b15814f20fb46785",
+              "terms": 897,
+              "zero": false
+            },
+            {
+              "index": 10,
+              "label": "unit_7",
+              "sha256": "2bc7cde2c6030fa0f526a6f2d2165627b9d8f9b35ca8195b2e22a46c4658e43b",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 11,
+              "label": "unit_8",
+              "sha256": "3565e94ed8ec11b8c0ac2205f6d67f59302635898c4a8a2ece9c717ede8ef505",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 12,
+              "label": "unit_9",
+              "sha256": "d2519649515dd21af94b81535e1bf98cdd211bf9d24ab52a673b3bd1563c4ecb",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 13,
+              "label": "unit_10",
+              "sha256": "b503b328f83ec47d097692c8179513022eac148d7e47d2865137fc720ab285aa",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 14,
+              "label": "unit_11",
+              "sha256": "9f2d914fd9f9b8786236ea956108ddc9cc35d1c0ea6eeb4927ae9449df4f5281",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 15,
+              "label": "unit_12",
+              "sha256": "5ba1e886d14d5bc9c32613b556ac3e5c80ba2e16d59e1dc4428500154c71a10d",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 16,
+              "label": "unit_13",
+              "sha256": "4bcb6d743a1961007e35af1670c733fa2f7eef0dbe03ba19cab4f533fdc14879",
+              "terms": 1057,
+              "zero": false
+            },
+            {
+              "index": 17,
+              "label": "unit_14",
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": 0,
+              "zero": true
+            }
+          ],
+          "mode": "a0_k10_nonzero",
+          "phase": "DONE",
+          "saturation_basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "saturation_basis_size": 1,
+          "saturation_dimension": -1,
+          "saturation_unit_ideal": true,
+          "terminal": "K8_BRANCH_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 43.740817,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "643528b56936088f7fd46d0c8b23e4027daf9c99fe53d2435dbe692cad50a0e5",
+      "stdout_tail": "grees\": [1, 0, 0], \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}], \"K10\": {\"degree\": 10, \"degrees\": [6, 6, 5], \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, \"K8\": {\"degree\": 8, \"degrees\": [5, 5, 4], \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, \"cores\": {\"A1\": {\"degree\": 37, \"degrees\": [21, 19, 16], \"sha256\": \"b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d\", \"terms\": 4124}, \"B1\": {\"degree\": 37, \"degrees\": [21, 18, 16], \"sha256\": \"aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a\", \"terms\": 3813}}, \"determinant_factors\": {\"A1\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 10, \"degrees\": [6, 6, 5], \"exponent\": 1, \"leading_factor\": true, \"named_unit_factor\": false, \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, {\"degree\": 37, \"degrees\": [21, 19, 16], \"exponent\": 1, \"leading_factor\": false, \"named_unit_factor\": false, \"sha256\": \"b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d\", \"terms\": 4124}], \"B1\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 10, \"degrees\": [6, 6, 5], \"exponent\": 1, \"leading_factor\": true, \"named_unit_factor\": false, \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, {\"degree\": 37, \"degrees\": [21, 18, 16], \"exponent\": 1, \"leading_factor\": false, \"named_unit_factor\": false, \"sha256\": \"aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a\", \"terms\": 3813}]}, \"determinants\": {\"A1\": {\"degree\": 69, \"degrees\": [40, 28, 30], \"sha256\": \"11451db447278bf963381d2832d5538cd7b9624663025a964127149d7960e52d\", \"terms\": 23027}, \"B1\": {\"degree\": 69, \"degrees\": [40, 27, 30], \"sha256\": \"6b62394ab391fe31ca6085cdc19261e16e1c94fd3af3c4f1c20e801353ef1d7b\", \"terms\": 21902}}, \"phase\": \"SOURCE_COMPILED\"}\n{\"generators\": [{\"degree\": 12, \"degrees\": [6, 4, 5], \"sha256\": \"5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b\", \"terms\": 137}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, {\"degree\": 37, \"degrees\": [21, 19, 16], \"sha256\": \"b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d\", \"terms\": 4124}, {\"degree\": 37, \"degrees\": [21, 18, 16], \"sha256\": \"aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a\", \"terms\": 3813}], \"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"2d3e257ff476511a872c916f01d3845677a68bed8d25ebf084f1569be8e7462c\", \"basis_size\": 62, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"index\": 1, \"label\": \"prior_s\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}\n{\"index\": 2, \"label\": \"prior_L6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365\", \"terms\": 15, \"zero\": false}\n{\"index\": 3, \"label\": \"chart_K10\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"41fb3f31cdad71b85999ae5912809494cae9825323bdb3abe877d20a0be57f63\", \"terms\": 496, \"zero\": false}\n{\"index\": 4, \"label\": \"unit_1\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"e3b6453d396071314bcff2f7c890f35ed4f3a2313630107e88c9dda2d5512705\", \"terms\": 572, \"zero\": false}\n{\"index\": 5, \"label\": \"unit_2\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"d868b5d107e0948cd3c541a26690c19dd842cce18cc4af8e6cca717dbab42be1\", \"terms\": 628, \"zero\": false}\n{\"index\": 6, \"label\": \"unit_3\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"870d4ebf7800f6de7747dc431e7dddf50ba4a7acb2b546e0b19ba9bd2af0a3ef\", \"terms\": 703, \"zero\": false}\n{\"index\": 7, \"label\": \"unit_4\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"9ba451a4de39c7a5955180361ba603e1484428cf5ddaf1a109b73ef0376cdb5c\", \"terms\": 762, \"zero\": false}\n{\"index\": 8, \"label\": \"unit_5\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"8a25f7b178ba52bd79418bafc8635b054dd8328459ef13848cb71e5ef8de5ce0\", \"terms\": 838, \"zero\": false}\n{\"index\": 9, \"label\": \"unit_6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"d469cbb318648c636c4fb5f6ca5d499432999cc3331f8e81b15814f20fb46785\", \"terms\": 897, \"zero\": false}\n{\"index\": 10, \"label\": \"unit_7\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"2bc7cde2c6030fa0f526a6f2d2165627b9d8f9b35ca8195b2e22a46c4658e43b\", \"terms\": 1057, \"zero\": false}\n{\"index\": 11, \"label\": \"unit_8\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"3565e94ed8ec11b8c0ac2205f6d67f59302635898c4a8a2ece9c717ede8ef505\", \"terms\": 1057, \"zero\": false}\n{\"index\": 12, \"label\": \"unit_9\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"d2519649515dd21af94b81535e1bf98cdd211bf9d24ab52a673b3bd1563c4ecb\", \"terms\": 1057, \"zero\": false}\n{\"index\": 13, \"label\": \"unit_10\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"b503b328f83ec47d097692c8179513022eac148d7e47d2865137fc720ab285aa\", \"terms\": 1057, \"zero\": false}\n{\"index\": 14, \"label\": \"unit_11\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"9f2d914fd9f9b8786236ea956108ddc9cc35d1c0ea6eeb4927ae9449df4f5281\", \"terms\": 1057, \"zero\": false}\n{\"index\": 15, \"label\": \"unit_12\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"5ba1e886d14d5bc9c32613b556ac3e5c80ba2e16d59e1dc4428500154c71a10d\", \"terms\": 1057, \"zero\": false}\n{\"index\": 16, \"label\": \"unit_13\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"4bcb6d743a1961007e35af1670c733fa2f7eef0dbe03ba19cab4f533fdc14879\", \"terms\": 1057, \"zero\": false}\n{\"index\": 17, \"label\": \"unit_14\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": 0, \"zero\": true}\n{\"basis_sha256\": \"2d3e257ff476511a872c916f01d3845677a68bed8d25ebf084f1569be8e7462c\", \"basis_size\": 62, \"dimension\": 1, \"localizer_steps\": [{\"index\": 1, \"label\": \"prior_s\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}, {\"index\": 2, \"label\": \"prior_L6\", \"sha256\": \"7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365\", \"terms\": 15, \"zero\": false}, {\"index\": 3, \"label\": \"chart_K10\", \"sha256\": \"41fb3f31cdad71b85999ae5912809494cae9825323bdb3abe877d20a0be57f63\", \"terms\": 496, \"zero\": false}, {\"index\": 4, \"label\": \"unit_1\", \"sha256\": \"e3b6453d396071314bcff2f7c890f35ed4f3a2313630107e88c9dda2d5512705\", \"terms\": 572, \"zero\": false}, {\"index\": 5, \"label\": \"unit_2\", \"sha256\": \"d868b5d107e0948cd3c541a26690c19dd842cce18cc4af8e6cca717dbab42be1\", \"terms\": 628, \"zero\": false}, {\"index\": 6, \"label\": \"unit_3\", \"sha256\": \"870d4ebf7800f6de7747dc431e7dddf50ba4a7acb2b546e0b19ba9bd2af0a3ef\", \"terms\": 703, \"zero\": false}, {\"index\": 7, \"label\": \"unit_4\", \"sha256\": \"9ba451a4de39c7a5955180361ba603e1484428cf5ddaf1a109b73ef0376cdb5c\", \"terms\": 762, \"zero\": false}, {\"index\": 8, \"label\": \"unit_5\", \"sha256\": \"8a25f7b178ba52bd79418bafc8635b054dd8328459ef13848cb71e5ef8de5ce0\", \"terms\": 838, \"zero\": false}, {\"index\": 9, \"label\": \"unit_6\", \"sha256\": \"d469cbb318648c636c4fb5f6ca5d499432999cc3331f8e81b15814f20fb46785\", \"terms\": 897, \"zero\": false}, {\"index\": 10, \"label\": \"unit_7\", \"sha256\": \"2bc7cde2c6030fa0f526a6f2d2165627b9d8f9b35ca8195b2e22a46c4658e43b\", \"terms\": 1057, \"zero\": false}, {\"index\": 11, \"label\": \"unit_8\", \"sha256\": \"3565e94ed8ec11b8c0ac2205f6d67f59302635898c4a8a2ece9c717ede8ef505\", \"terms\": 1057, \"zero\": false}, {\"index\": 12, \"label\": \"unit_9\", \"sha256\": \"d2519649515dd21af94b81535e1bf98cdd211bf9d24ab52a673b3bd1563c4ecb\", \"terms\": 1057, \"zero\": false}, {\"index\": 13, \"label\": \"unit_10\", \"sha256\": \"b503b328f83ec47d097692c8179513022eac148d7e47d2865137fc720ab285aa\", \"terms\": 1057, \"zero\": false}, {\"index\": 14, \"label\": \"unit_11\", \"sha256\": \"9f2d914fd9f9b8786236ea956108ddc9cc35d1c0ea6eeb4927ae9449df4f5281\", \"terms\": 1057, \"zero\": false}, {\"index\": 15, \"label\": \"unit_12\", \"sha256\": \"5ba1e886d14d5bc9c32613b556ac3e5c80ba2e16d59e1dc4428500154c71a10d\", \"terms\": 1057, \"zero\": false}, {\"index\": 16, \"label\": \"unit_13\", \"sha256\": \"4bcb6d743a1961007e35af1670c733fa2f7eef0dbe03ba19cab4f533fdc14879\", \"terms\": 1057, \"zero\": false}, {\"index\": 17, \"label\": \"unit_14\", \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": 0, \"zero\": true}], \"mode\": \"a0_k10_nonzero\", \"phase\": \"DONE\", \"saturation_basis_sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"saturation_basis_size\": 1, \"saturation_dimension\": -1, \"saturation_unit_ideal\": true, \"terminal\": \"K8_BRANCH_EMPTY\", \"unit_ideal\": false}\n"
+    },
+    {
+      "mode": "k8_k10_zero",
+      "peak_kb": 392096,
+      "records": [
+        {
+          "mode": "k8_k10_zero",
+          "phase": "START"
+        },
+        {
+          "A0_leading": {
+            "degree": 10,
+            "degrees": [
+              6,
+              6,
+              5
+            ],
+            "sha256": "74f254b814ae9870808a714d20bb11f94ee5d5181cddd2f0e85d141e8817aff4",
+            "terms": 130
+          },
+          "A0_leading_factors": [
+            {
+              "degree": 10,
+              "degrees": [
+                6,
+                6,
+                5
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+              "terms": 130
+            }
+          ],
+          "B0_leading": {
+            "degree": 9,
+            "degrees": [
+              6,
+              5,
+              4
+            ],
+            "sha256": "f850fb181f2a2919054a10702b5710740adbe26530cfa365ef789b6e4cd5ab9c",
+            "terms": 91
+          },
+          "B0_leading_factors": [
+            {
+              "degree": 1,
+              "degrees": [
+                1,
+                0,
+                0
+              ],
+              "exponent": 1,
+              "named_unit_factor": true,
+              "sha256": "2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330",
+              "terms": 2
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "exponent": 1,
+              "named_unit_factor": false,
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            }
+          ],
+          "K10": {
+            "degree": 10,
+            "degrees": [
+              6,
+              6,
+              5
+            ],
+            "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+            "terms": 130
+          },
+          "K8": {
+            "degree": 8,
+            "degrees": [
+              5,
+              5,
+              4
+            ],
+            "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+            "terms": 72
+          },
+          "cores": {
+            "A1": {
+              "degree": 37,
+              "degrees": [
+                21,
+                19,
+                16
+              ],
+              "sha256": "b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d",
+              "terms": 4124
+            },
+            "B1": {
+              "degree": 37,
+              "degrees": [
+                21,
+                18,
+                16
+              ],
+              "sha256": "aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a",
+              "terms": 3813
+            }
+          },
+          "determinant_factors": {
+            "A1": [
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  0,
+                  1
+                ],
+                "exponent": 6,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                "terms": 2
+              },
+              {
+                "degree": 2,
+                "degrees": [
+                  1,
+                  1,
+                  1
+                ],
+                "exponent": 3,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                "terms": 6
+              },
+              {
+                "degree": 10,
+                "degrees": [
+                  6,
+                  6,
+                  5
+                ],
+                "exponent": 1,
+                "leading_factor": true,
+                "named_unit_factor": false,
+                "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+                "terms": 130
+              },
+              {
+                "degree": 37,
+                "degrees": [
+                  21,
+                  19,
+                  16
+                ],
+                "exponent": 1,
+                "leading_factor": false,
+                "named_unit_factor": false,
+                "sha256": "b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d",
+                "terms": 4124
+              }
+            ],
+            "B1": [
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  1,
+                  0,
+                  0
+                ],
+                "exponent": 5,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360",
+                "terms": 2
+              },
+              {
+                "degree": 1,
+                "degrees": [
+                  0,
+                  0,
+                  1
+                ],
+                "exponent": 6,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed",
+                "terms": 2
+              },
+              {
+                "degree": 2,
+                "degrees": [
+                  1,
+                  1,
+                  1
+                ],
+                "exponent": 3,
+                "leading_factor": false,
+                "named_unit_factor": true,
+                "sha256": "2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade",
+                "terms": 6
+              },
+              {
+                "degree": 10,
+                "degrees": [
+                  6,
+                  6,
+                  5
+                ],
+                "exponent": 1,
+                "leading_factor": true,
+                "named_unit_factor": false,
+                "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+                "terms": 130
+              },
+              {
+                "degree": 37,
+                "degrees": [
+                  21,
+                  18,
+                  16
+                ],
+                "exponent": 1,
+                "leading_factor": false,
+                "named_unit_factor": false,
+                "sha256": "aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a",
+                "terms": 3813
+              }
+            ]
+          },
+          "determinants": {
+            "A1": {
+              "degree": 69,
+              "degrees": [
+                40,
+                28,
+                30
+              ],
+              "sha256": "11451db447278bf963381d2832d5538cd7b9624663025a964127149d7960e52d",
+              "terms": 23027
+            },
+            "B1": {
+              "degree": 69,
+              "degrees": [
+                40,
+                27,
+                30
+              ],
+              "sha256": "6b62394ab391fe31ca6085cdc19261e16e1c94fd3af3c4f1c20e801353ef1d7b",
+              "terms": 21902
+            }
+          },
+          "phase": "SOURCE_COMPILED"
+        },
+        {
+          "generators": [
+            {
+              "degree": 12,
+              "degrees": [
+                6,
+                4,
+                5
+              ],
+              "sha256": "5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b",
+              "terms": 137
+            },
+            {
+              "degree": 8,
+              "degrees": [
+                5,
+                5,
+                4
+              ],
+              "sha256": "68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f",
+              "terms": 72
+            },
+            {
+              "degree": 10,
+              "degrees": [
+                6,
+                6,
+                5
+              ],
+              "sha256": "70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed",
+              "terms": 130
+            }
+          ],
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "bba361cee0aeda5efd2d1c8a6aa534a41ed7954970cc2ea80af9f1cef5190464",
+          "basis_size": 27,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "index": 1,
+          "label": "prior_s",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+          "terms": 1,
+          "zero": false
+        },
+        {
+          "index": 2,
+          "label": "prior_L6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365",
+          "terms": 15,
+          "zero": false
+        },
+        {
+          "index": 3,
+          "label": "unit_1",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "9f11a3e488840ac0d1886635567ed99ddab483e0e115b997a9ca19a365cfb8bd",
+          "terms": 15,
+          "zero": false
+        },
+        {
+          "index": 4,
+          "label": "unit_2",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "0eaa954d69d8ca5efd301e7f0f65e3761192fc699c0a676d56c51dcb07a68a29",
+          "terms": 18,
+          "zero": false
+        },
+        {
+          "index": 5,
+          "label": "unit_3",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "f6033bc5d14ac8a4e1e92a0aaef5af44522d2a3a1b761f83bf10138d8196f5f6",
+          "terms": 28,
+          "zero": false
+        },
+        {
+          "index": 6,
+          "label": "unit_4",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "4dd94b015f7cbe97b18eaf6123f1287b3cd01abc6bcf02291187e6119e88a011",
+          "terms": 41,
+          "zero": false
+        },
+        {
+          "index": 7,
+          "label": "unit_5",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "25aa97310219dc06b70690063f67fdf16bc91559b8512f20b717d635f65b59d9",
+          "terms": 50,
+          "zero": false
+        },
+        {
+          "index": 8,
+          "label": "unit_6",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "0042fbcd2b49e4f1b3aa22f35366682e828421133eff8dda3d1f3caea2492776",
+          "terms": 62,
+          "zero": false
+        },
+        {
+          "index": 9,
+          "label": "unit_7",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "5b1b2696c9f77f732f0b171798e07e8e4e37d350f246e5d80db63421c583a421",
+          "terms": 80,
+          "zero": false
+        },
+        {
+          "index": 10,
+          "label": "unit_8",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "8369fab8a794b5c1bdf4b7584d2902327eb6e9077e1805729aee2718c2f66f91",
+          "terms": 415,
+          "zero": false
+        },
+        {
+          "index": 11,
+          "label": "unit_9",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "1a18f71d7e21602a2b79fbf880f81daf012b81d878b11dea076c899da17e5add",
+          "terms": 430,
+          "zero": false
+        },
+        {
+          "index": 12,
+          "label": "unit_10",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "09d2ef20e8ac48d7a4aeee65812db83a82687c090bc0b50647f484668b11e75d",
+          "terms": 434,
+          "zero": false
+        },
+        {
+          "index": 13,
+          "label": "unit_11",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "68e48718e3e75bb665eaec26cedfc83db527d03e4945eb2f58389590bec47fe6",
+          "terms": 449,
+          "zero": false
+        },
+        {
+          "index": 14,
+          "label": "unit_12",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "efd26088c1d497e78740a92c0b438e990683fa6f637733bfdc3936b1f3e949b3",
+          "terms": 469,
+          "zero": false
+        },
+        {
+          "index": 15,
+          "label": "unit_13",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "e7a756f9d1e4c819788ae639b9dd6fa4bce7db1088cca5d98471bd0fc798bfa1",
+          "terms": 539,
+          "zero": false
+        },
+        {
+          "index": 16,
+          "label": "unit_14",
+          "phase": "LOCALIZER_STEP",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "terms": 0,
+          "zero": true
+        },
+        {
+          "basis_sha256": "bba361cee0aeda5efd2d1c8a6aa534a41ed7954970cc2ea80af9f1cef5190464",
+          "basis_size": 27,
+          "dimension": 1,
+          "localizer_steps": [
+            {
+              "index": 1,
+              "label": "prior_s",
+              "sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "index": 2,
+              "label": "prior_L6",
+              "sha256": "7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365",
+              "terms": 15,
+              "zero": false
+            },
+            {
+              "index": 3,
+              "label": "unit_1",
+              "sha256": "9f11a3e488840ac0d1886635567ed99ddab483e0e115b997a9ca19a365cfb8bd",
+              "terms": 15,
+              "zero": false
+            },
+            {
+              "index": 4,
+              "label": "unit_2",
+              "sha256": "0eaa954d69d8ca5efd301e7f0f65e3761192fc699c0a676d56c51dcb07a68a29",
+              "terms": 18,
+              "zero": false
+            },
+            {
+              "index": 5,
+              "label": "unit_3",
+              "sha256": "f6033bc5d14ac8a4e1e92a0aaef5af44522d2a3a1b761f83bf10138d8196f5f6",
+              "terms": 28,
+              "zero": false
+            },
+            {
+              "index": 6,
+              "label": "unit_4",
+              "sha256": "4dd94b015f7cbe97b18eaf6123f1287b3cd01abc6bcf02291187e6119e88a011",
+              "terms": 41,
+              "zero": false
+            },
+            {
+              "index": 7,
+              "label": "unit_5",
+              "sha256": "25aa97310219dc06b70690063f67fdf16bc91559b8512f20b717d635f65b59d9",
+              "terms": 50,
+              "zero": false
+            },
+            {
+              "index": 8,
+              "label": "unit_6",
+              "sha256": "0042fbcd2b49e4f1b3aa22f35366682e828421133eff8dda3d1f3caea2492776",
+              "terms": 62,
+              "zero": false
+            },
+            {
+              "index": 9,
+              "label": "unit_7",
+              "sha256": "5b1b2696c9f77f732f0b171798e07e8e4e37d350f246e5d80db63421c583a421",
+              "terms": 80,
+              "zero": false
+            },
+            {
+              "index": 10,
+              "label": "unit_8",
+              "sha256": "8369fab8a794b5c1bdf4b7584d2902327eb6e9077e1805729aee2718c2f66f91",
+              "terms": 415,
+              "zero": false
+            },
+            {
+              "index": 11,
+              "label": "unit_9",
+              "sha256": "1a18f71d7e21602a2b79fbf880f81daf012b81d878b11dea076c899da17e5add",
+              "terms": 430,
+              "zero": false
+            },
+            {
+              "index": 12,
+              "label": "unit_10",
+              "sha256": "09d2ef20e8ac48d7a4aeee65812db83a82687c090bc0b50647f484668b11e75d",
+              "terms": 434,
+              "zero": false
+            },
+            {
+              "index": 13,
+              "label": "unit_11",
+              "sha256": "68e48718e3e75bb665eaec26cedfc83db527d03e4945eb2f58389590bec47fe6",
+              "terms": 449,
+              "zero": false
+            },
+            {
+              "index": 14,
+              "label": "unit_12",
+              "sha256": "efd26088c1d497e78740a92c0b438e990683fa6f637733bfdc3936b1f3e949b3",
+              "terms": 469,
+              "zero": false
+            },
+            {
+              "index": 15,
+              "label": "unit_13",
+              "sha256": "e7a756f9d1e4c819788ae639b9dd6fa4bce7db1088cca5d98471bd0fc798bfa1",
+              "terms": 539,
+              "zero": false
+            },
+            {
+              "index": 16,
+              "label": "unit_14",
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "terms": 0,
+              "zero": true
+            }
+          ],
+          "mode": "k8_k10_zero",
+          "phase": "DONE",
+          "saturation_basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "saturation_basis_size": 1,
+          "saturation_dimension": -1,
+          "saturation_unit_ideal": true,
+          "terminal": "K8_BRANCH_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 30.949865,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ab0780e63f0117bf64bc1b22d654edf6ad8c694439eeed195dc310373a4817b5",
+      "stdout_tail": "[6, 6, 5], \"sha256\": \"74f254b814ae9870808a714d20bb11f94ee5d5181cddd2f0e85d141e8817aff4\", \"terms\": 130}, \"A0_leading_factors\": [{\"degree\": 10, \"degrees\": [6, 6, 5], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}], \"B0_leading\": {\"degree\": 9, \"degrees\": [6, 5, 4], \"sha256\": \"f850fb181f2a2919054a10702b5710740adbe26530cfa365ef789b6e4cd5ab9c\", \"terms\": 91}, \"B0_leading_factors\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 1, \"named_unit_factor\": true, \"sha256\": \"2cd751e45834c2b2c521bd19eeb5e80113d69847f1dbdda7d0ea2b26d1fbf330\", \"terms\": 2}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"exponent\": 1, \"named_unit_factor\": false, \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}], \"K10\": {\"degree\": 10, \"degrees\": [6, 6, 5], \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, \"K8\": {\"degree\": 8, \"degrees\": [5, 5, 4], \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, \"cores\": {\"A1\": {\"degree\": 37, \"degrees\": [21, 19, 16], \"sha256\": \"b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d\", \"terms\": 4124}, \"B1\": {\"degree\": 37, \"degrees\": [21, 18, 16], \"sha256\": \"aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a\", \"terms\": 3813}}, \"determinant_factors\": {\"A1\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 10, \"degrees\": [6, 6, 5], \"exponent\": 1, \"leading_factor\": true, \"named_unit_factor\": false, \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, {\"degree\": 37, \"degrees\": [21, 19, 16], \"exponent\": 1, \"leading_factor\": false, \"named_unit_factor\": false, \"sha256\": \"b3dd925bfeb1af9bed7691bec6ae50cfa1c6fe897eeba47bd650b5ee769abd0d\", \"terms\": 4124}], \"B1\": [{\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"a64e3dd3e639c95a6be6d3a4e88eb0655940e123264bb9298f008ac6f1d38d53\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [1, 0, 0], \"exponent\": 5, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"ab69983b9cb072f83b9bb4e98239895a69c0a006f556bcf0ff786588eadc4360\", \"terms\": 2}, {\"degree\": 1, \"degrees\": [0, 0, 1], \"exponent\": 6, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"fba95ee7da505d8883744a06a8933df8d8d7c4ac2cca316e4990626e92a17fed\", \"terms\": 2}, {\"degree\": 2, \"degrees\": [1, 1, 1], \"exponent\": 3, \"leading_factor\": false, \"named_unit_factor\": true, \"sha256\": \"2444ae2f442d937f45e4e56f4f01cc5c6ce6fbe4b9636e78c077d2cf91cdeade\", \"terms\": 6}, {\"degree\": 10, \"degrees\": [6, 6, 5], \"exponent\": 1, \"leading_factor\": true, \"named_unit_factor\": false, \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}, {\"degree\": 37, \"degrees\": [21, 18, 16], \"exponent\": 1, \"leading_factor\": false, \"named_unit_factor\": false, \"sha256\": \"aaaa336395cce7de3d265752464c12913ea570fdd921d73613efe08f18dbc61a\", \"terms\": 3813}]}, \"determinants\": {\"A1\": {\"degree\": 69, \"degrees\": [40, 28, 30], \"sha256\": \"11451db447278bf963381d2832d5538cd7b9624663025a964127149d7960e52d\", \"terms\": 23027}, \"B1\": {\"degree\": 69, \"degrees\": [40, 27, 30], \"sha256\": \"6b62394ab391fe31ca6085cdc19261e16e1c94fd3af3c4f1c20e801353ef1d7b\", \"terms\": 21902}}, \"phase\": \"SOURCE_COMPILED\"}\n{\"generators\": [{\"degree\": 12, \"degrees\": [6, 4, 5], \"sha256\": \"5b07627ec18114d36bf3190d4cfa3bd0c5abe9ee45f76d72e10f6e3a84c2ab1b\", \"terms\": 137}, {\"degree\": 8, \"degrees\": [5, 5, 4], \"sha256\": \"68a4b4515142e10e3ea36478ecb3126e60724a47511f61b85ff683c5b52fe33f\", \"terms\": 72}, {\"degree\": 10, \"degrees\": [6, 6, 5], \"sha256\": \"70c3b9e8ac39dc5fc64d873d3f78f44e2f4af47e95cfea0f4ff71419eb7c62ed\", \"terms\": 130}], \"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"bba361cee0aeda5efd2d1c8a6aa534a41ed7954970cc2ea80af9f1cef5190464\", \"basis_size\": 27, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"index\": 1, \"label\": \"prior_s\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}\n{\"index\": 2, \"label\": \"prior_L6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365\", \"terms\": 15, \"zero\": false}\n{\"index\": 3, \"label\": \"unit_1\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"9f11a3e488840ac0d1886635567ed99ddab483e0e115b997a9ca19a365cfb8bd\", \"terms\": 15, \"zero\": false}\n{\"index\": 4, \"label\": \"unit_2\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"0eaa954d69d8ca5efd301e7f0f65e3761192fc699c0a676d56c51dcb07a68a29\", \"terms\": 18, \"zero\": false}\n{\"index\": 5, \"label\": \"unit_3\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"f6033bc5d14ac8a4e1e92a0aaef5af44522d2a3a1b761f83bf10138d8196f5f6\", \"terms\": 28, \"zero\": false}\n{\"index\": 6, \"label\": \"unit_4\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"4dd94b015f7cbe97b18eaf6123f1287b3cd01abc6bcf02291187e6119e88a011\", \"terms\": 41, \"zero\": false}\n{\"index\": 7, \"label\": \"unit_5\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"25aa97310219dc06b70690063f67fdf16bc91559b8512f20b717d635f65b59d9\", \"terms\": 50, \"zero\": false}\n{\"index\": 8, \"label\": \"unit_6\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"0042fbcd2b49e4f1b3aa22f35366682e828421133eff8dda3d1f3caea2492776\", \"terms\": 62, \"zero\": false}\n{\"index\": 9, \"label\": \"unit_7\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"5b1b2696c9f77f732f0b171798e07e8e4e37d350f246e5d80db63421c583a421\", \"terms\": 80, \"zero\": false}\n{\"index\": 10, \"label\": \"unit_8\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"8369fab8a794b5c1bdf4b7584d2902327eb6e9077e1805729aee2718c2f66f91\", \"terms\": 415, \"zero\": false}\n{\"index\": 11, \"label\": \"unit_9\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"1a18f71d7e21602a2b79fbf880f81daf012b81d878b11dea076c899da17e5add\", \"terms\": 430, \"zero\": false}\n{\"index\": 12, \"label\": \"unit_10\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"09d2ef20e8ac48d7a4aeee65812db83a82687c090bc0b50647f484668b11e75d\", \"terms\": 434, \"zero\": false}\n{\"index\": 13, \"label\": \"unit_11\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"68e48718e3e75bb665eaec26cedfc83db527d03e4945eb2f58389590bec47fe6\", \"terms\": 449, \"zero\": false}\n{\"index\": 14, \"label\": \"unit_12\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"efd26088c1d497e78740a92c0b438e990683fa6f637733bfdc3936b1f3e949b3\", \"terms\": 469, \"zero\": false}\n{\"index\": 15, \"label\": \"unit_13\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"e7a756f9d1e4c819788ae639b9dd6fa4bce7db1088cca5d98471bd0fc798bfa1\", \"terms\": 539, \"zero\": false}\n{\"index\": 16, \"label\": \"unit_14\", \"phase\": \"LOCALIZER_STEP\", \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": 0, \"zero\": true}\n{\"basis_sha256\": \"bba361cee0aeda5efd2d1c8a6aa534a41ed7954970cc2ea80af9f1cef5190464\", \"basis_size\": 27, \"dimension\": 1, \"localizer_steps\": [{\"index\": 1, \"label\": \"prior_s\", \"sha256\": \"043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89\", \"terms\": 1, \"zero\": false}, {\"index\": 2, \"label\": \"prior_L6\", \"sha256\": \"7542c4452aa703d42bd087b945412822e03a26f0012d4e5046a6e7b608963365\", \"terms\": 15, \"zero\": false}, {\"index\": 3, \"label\": \"unit_1\", \"sha256\": \"9f11a3e488840ac0d1886635567ed99ddab483e0e115b997a9ca19a365cfb8bd\", \"terms\": 15, \"zero\": false}, {\"index\": 4, \"label\": \"unit_2\", \"sha256\": \"0eaa954d69d8ca5efd301e7f0f65e3761192fc699c0a676d56c51dcb07a68a29\", \"terms\": 18, \"zero\": false}, {\"index\": 5, \"label\": \"unit_3\", \"sha256\": \"f6033bc5d14ac8a4e1e92a0aaef5af44522d2a3a1b761f83bf10138d8196f5f6\", \"terms\": 28, \"zero\": false}, {\"index\": 6, \"label\": \"unit_4\", \"sha256\": \"4dd94b015f7cbe97b18eaf6123f1287b3cd01abc6bcf02291187e6119e88a011\", \"terms\": 41, \"zero\": false}, {\"index\": 7, \"label\": \"unit_5\", \"sha256\": \"25aa97310219dc06b70690063f67fdf16bc91559b8512f20b717d635f65b59d9\", \"terms\": 50, \"zero\": false}, {\"index\": 8, \"label\": \"unit_6\", \"sha256\": \"0042fbcd2b49e4f1b3aa22f35366682e828421133eff8dda3d1f3caea2492776\", \"terms\": 62, \"zero\": false}, {\"index\": 9, \"label\": \"unit_7\", \"sha256\": \"5b1b2696c9f77f732f0b171798e07e8e4e37d350f246e5d80db63421c583a421\", \"terms\": 80, \"zero\": false}, {\"index\": 10, \"label\": \"unit_8\", \"sha256\": \"8369fab8a794b5c1bdf4b7584d2902327eb6e9077e1805729aee2718c2f66f91\", \"terms\": 415, \"zero\": false}, {\"index\": 11, \"label\": \"unit_9\", \"sha256\": \"1a18f71d7e21602a2b79fbf880f81daf012b81d878b11dea076c899da17e5add\", \"terms\": 430, \"zero\": false}, {\"index\": 12, \"label\": \"unit_10\", \"sha256\": \"09d2ef20e8ac48d7a4aeee65812db83a82687c090bc0b50647f484668b11e75d\", \"terms\": 434, \"zero\": false}, {\"index\": 13, \"label\": \"unit_11\", \"sha256\": \"68e48718e3e75bb665eaec26cedfc83db527d03e4945eb2f58389590bec47fe6\", \"terms\": 449, \"zero\": false}, {\"index\": 14, \"label\": \"unit_12\", \"sha256\": \"efd26088c1d497e78740a92c0b438e990683fa6f637733bfdc3936b1f3e949b3\", \"terms\": 469, \"zero\": false}, {\"index\": 15, \"label\": \"unit_13\", \"sha256\": \"e7a756f9d1e4c819788ae639b9dd6fa4bce7db1088cca5d98471bd0fc798bfa1\", \"terms\": 539, \"zero\": false}, {\"index\": 16, \"label\": \"unit_14\", \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"terms\": 0, \"zero\": true}], \"mode\": \"k8_k10_zero\", \"phase\": \"DONE\", \"saturation_basis_sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"saturation_basis_size\": 1, \"saturation_dimension\": -1, \"saturation_unit_ideal\": true, \"terminal\": \"K8_BRANCH_EMPTY\", \"unit_ideal\": false}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-k8-branch-cover-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

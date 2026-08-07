@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion",
+    "title": "KoalaBear degree-12 B0 K8-nonzero F_(p^6) exclusion",
+    "status": "PROVED",
+    "closure": "four exact zero-dimensional degree-six quotient certificates, with an independent F04 eliminant and five terminal fibers",
+    "statement": "For each of F04-R02, F05-R02, F06-R02, and F07-R02, saturating the B0 core ideal by V*K8*(s^2-4pvar) gives a zero-dimensional basis of size 25,25,26,26. After adjoining the exact degree-six field equations, the complete named-open product reduces to zero in every quotient. Hence all four complete named-open B0 charts with K8 nonzero are empty over F_(p^6). The F04-R02 degree-30 s eliminant and its five exact linear fibers provide an independent cross-check. No K8=0 or R20 claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_degree12_b0_k8_nonzero_f_p6_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_global_saturation_b0_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_global_saturation_all_b0_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction/modal_degree12_quadratic_prem_determinant_linear_s_f_p6_b0_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

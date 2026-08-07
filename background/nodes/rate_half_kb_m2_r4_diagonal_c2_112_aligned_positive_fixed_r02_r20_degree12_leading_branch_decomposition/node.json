@@ -1,0 +1,47 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
+    "title": "KoalaBear fixed R02/R20 degree-12 leading-branch decomposition",
+    "status": "PROVED",
+    "closure": "exact initial x-leading factor census and bounded elimination route cuts",
+    "statement": "For the F04 representatives over R02 and R20, the unresolved degree-12 resultant factor has x-degree 6 and the same irreducible nonnamed leading factor of total degree 6 in (s,p). The E2 leading coefficient factors as s times one irreducible nonnamed factor of degree 22 on R02 or degree 23 on R20. The E3 leading coefficient is irreducible and nonnamed of degree 23 on R02 or degree 24 on R20. Hence function-field division in x inverts genuine unproved branches and is not an exhaustive closure route. On R02, the first three content-primitive pseudo-remainder steps grow to 149340 terms. Imposing the degree-22 or degree-23 leading curve gives exact dimension-one seed bases of size 25 or 27, but direct full intersections time out. Curve-reduced pseudo-division reaches x-degree 5 but leaves 23616 and 23484 terms, and its final intersection also times out. No cell emptiness is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_leading_factor_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_leading_factor_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_leading_factors_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_leading_syzygy_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_leading_syzygy_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_leading_syzygy_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_function_field_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_function_field_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_function_field_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_large_leading_branch_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_large_leading_branch_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_large_leading_f04_r02_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_large_curve_pseudoremainder_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/degree12_large_curve_pseudoremainder_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition/modal_degree12_large_pseudo_e2_output.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_quadratic_branch_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,380 @@
+{
+  "app": "rs-mca-k3-degree12-s-zero-f05",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 2,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "mode": "f05",
+  "results": [
+    {
+      "cell": "F05-R02",
+      "peak_kb": 391652,
+      "records": [
+        {
+          "cell": "F05-R02",
+          "phase": "START"
+        },
+        {
+          "generators": [
+            {
+              "degree": 11,
+              "degrees": [
+                6,
+                5
+              ],
+              "sha256": "62df0ffbcc9a011460655592a67b72bbad1542d1fbb1eadf0340fc86fe6604f8",
+              "terms": 35
+            },
+            {
+              "degree": 56,
+              "degrees": [
+                36,
+                24
+              ],
+              "sha256": "2442cae2b9c329c29a4c92a2d6908f106f64a8e7fb98ccf646e282ad1389d100",
+              "terms": 844
+            },
+            {
+              "degree": 55,
+              "degrees": [
+                35,
+                24
+              ],
+              "sha256": "4c19907ba1bdcf8d16958a0c7bba379d68850f5c3a9777709cf90e7b4ea694ce",
+              "terms": 868
+            }
+          ],
+          "phase": "SPECIALIZED"
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe",
+          "basis_size": 2,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "basis_sha256": "8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe",
+          "basis_size": 2,
+          "cell": "F05-R02",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "specialized_factor_zero": false,
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "specialized_factor_zero": false,
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "specialized_factor_zero": false,
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "7880d5a65105cbafb36d240e60f7f83060baf9b7f3ca557d4ca43409154feb3a",
+              "specialized_factor_zero": false,
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "79319d76a896f65524f55737c156d1f73b5c3c9e02e5647ba8a79c38101cefb1",
+              "specialized_factor_zero": false,
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "6fb108dda8ac42587e5fc36bf8f4099ae875140801273c52ad233ff7da4da12b",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "22c6fea17525fc8fd39022e03555f7dbe626fbda1a80653cd3fba51b92bae907",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 8,
+              "sha256": "1c27fd933fe37a7bbef61f5faf4fe5788a5b3c81f48c788cbff55e4d41ace1d0",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ff476163d24d17a6e8ee9eb0bcd94f4fd48506deac4168c35329b017dca1128a",
+              "specialized_factor_zero": false,
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "50535ffc7af9bbdb498cd8fb09d7232f0cadfe1ba6daa86dc4208f0b0a9c90ec",
+              "specialized_factor_zero": false,
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "ca5212fe8536d7d1e40cab805505b98e88ae4af3c8ef685d015a255094c059f5",
+              "specialized_factor_zero": false,
+              "terms": 24,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "4bf1447589877272808a0b336e2709620c6b7ca0737b4da7c01fb7c29f7eeabb",
+              "specialized_factor_zero": false,
+              "terms": 24,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 13,
+              "sha256": "ceb6cbcd7aa6362c4dd43ec67f59f2cfb071a860500b66d0944d99c15f6d6021",
+              "specialized_factor_zero": false,
+              "terms": 46,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "specialized_factor_zero": false,
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "selected_sha256": "a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d",
+          "terminal": "DEGREE12_S_ZERO_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 27.713279,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "57f7a136342473e99946d0ff1b30221531bcce5d1fe443dc254ef98d0ca445ce",
+      "stdout_tail": "{\"cell\": \"F05-R02\", \"phase\": \"START\"}\n{\"generators\": [{\"degree\": 11, \"degrees\": [6, 5], \"sha256\": \"62df0ffbcc9a011460655592a67b72bbad1542d1fbb1eadf0340fc86fe6604f8\", \"terms\": 35}, {\"degree\": 56, \"degrees\": [36, 24], \"sha256\": \"2442cae2b9c329c29a4c92a2d6908f106f64a8e7fb98ccf646e282ad1389d100\", \"terms\": 844}, {\"degree\": 55, \"degrees\": [35, 24], \"sha256\": \"4c19907ba1bdcf8d16958a0c7bba379d68850f5c3a9777709cf90e7b4ea694ce\", \"terms\": 868}], \"phase\": \"SPECIALIZED\"}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe\", \"basis_size\": 2, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"basis_sha256\": \"8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe\", \"basis_size\": 2, \"cell\": \"F05-R02\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"specialized_factor_zero\": false, \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"specialized_factor_zero\": false, \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"specialized_factor_zero\": false, \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"7880d5a65105cbafb36d240e60f7f83060baf9b7f3ca557d4ca43409154feb3a\", \"specialized_factor_zero\": false, \"terms\": 4, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"79319d76a896f65524f55737c156d1f73b5c3c9e02e5647ba8a79c38101cefb1\", \"specialized_factor_zero\": false, \"terms\": 4, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"6fb108dda8ac42587e5fc36bf8f4099ae875140801273c52ad233ff7da4da12b\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"22c6fea17525fc8fd39022e03555f7dbe626fbda1a80653cd3fba51b92bae907\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 8, \"index\": 8, \"sha256\": \"1c27fd933fe37a7bbef61f5faf4fe5788a5b3c81f48c788cbff55e4d41ace1d0\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ff476163d24d17a6e8ee9eb0bcd94f4fd48506deac4168c35329b017dca1128a\", \"specialized_factor_zero\": false, \"terms\": 12, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"50535ffc7af9bbdb498cd8fb09d7232f0cadfe1ba6daa86dc4208f0b0a9c90ec\", \"specialized_factor_zero\": false, \"terms\": 12, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"ca5212fe8536d7d1e40cab805505b98e88ae4af3c8ef685d015a255094c059f5\", \"specialized_factor_zero\": false, \"terms\": 24, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"4bf1447589877272808a0b336e2709620c6b7ca0737b4da7c01fb7c29f7eeabb\", \"specialized_factor_zero\": false, \"terms\": 24, \"zero\": false}, {\"degree\": 13, \"index\": 13, \"sha256\": \"ceb6cbcd7aa6362c4dd43ec67f59f2cfb071a860500b66d0944d99c15f6d6021\", \"specialized_factor_zero\": false, \"terms\": 46, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"specialized_factor_zero\": false, \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"selected_sha256\": \"a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d\", \"terminal\": \"DEGREE12_S_ZERO_EMPTY\", \"unit_ideal\": false}\n"
+    },
+    {
+      "cell": "F05-R20",
+      "peak_kb": 389800,
+      "records": [
+        {
+          "cell": "F05-R20",
+          "phase": "START"
+        },
+        {
+          "generators": [
+            {
+              "degree": 11,
+              "degrees": [
+                6,
+                5
+              ],
+              "sha256": "62df0ffbcc9a011460655592a67b72bbad1542d1fbb1eadf0340fc86fe6604f8",
+              "terms": 35
+            },
+            {
+              "degree": 56,
+              "degrees": [
+                36,
+                24
+              ],
+              "sha256": "516f2637438c6e0f459b8aaed978402cd79af2fc739a258597d3e2bf09a6448f",
+              "terms": 844
+            },
+            {
+              "degree": 55,
+              "degrees": [
+                35,
+                24
+              ],
+              "sha256": "10e340428ecb135f0d11724331d5a8cefed3c654ddee606473b40a5c8498ccf2",
+              "terms": 868
+            }
+          ],
+          "phase": "SPECIALIZED"
+        },
+        {
+          "phase": "GROEBNER_BEGIN"
+        },
+        {
+          "basis_sha256": "8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe",
+          "basis_size": 2,
+          "dimension": 1,
+          "phase": "GROEBNER_DONE",
+          "unit_ideal": false
+        },
+        {
+          "basis_sha256": "8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe",
+          "basis_size": 2,
+          "cell": "F05-R20",
+          "dimension": 1,
+          "localizer_nilpotence_index": 1,
+          "localizer_steps": [
+            {
+              "degree": 1,
+              "index": 1,
+              "sha256": "148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940",
+              "specialized_factor_zero": false,
+              "terms": 1,
+              "zero": false
+            },
+            {
+              "degree": 2,
+              "index": 2,
+              "sha256": "3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1",
+              "specialized_factor_zero": false,
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 3,
+              "index": 3,
+              "sha256": "50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4",
+              "specialized_factor_zero": false,
+              "terms": 2,
+              "zero": false
+            },
+            {
+              "degree": 4,
+              "index": 4,
+              "sha256": "7880d5a65105cbafb36d240e60f7f83060baf9b7f3ca557d4ca43409154feb3a",
+              "specialized_factor_zero": false,
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 5,
+              "index": 5,
+              "sha256": "79319d76a896f65524f55737c156d1f73b5c3c9e02e5647ba8a79c38101cefb1",
+              "specialized_factor_zero": false,
+              "terms": 4,
+              "zero": false
+            },
+            {
+              "degree": 6,
+              "index": 6,
+              "sha256": "6fb108dda8ac42587e5fc36bf8f4099ae875140801273c52ad233ff7da4da12b",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 7,
+              "index": 7,
+              "sha256": "22c6fea17525fc8fd39022e03555f7dbe626fbda1a80653cd3fba51b92bae907",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 8,
+              "index": 8,
+              "sha256": "1c27fd933fe37a7bbef61f5faf4fe5788a5b3c81f48c788cbff55e4d41ace1d0",
+              "specialized_factor_zero": false,
+              "terms": 6,
+              "zero": false
+            },
+            {
+              "degree": 9,
+              "index": 9,
+              "sha256": "ff476163d24d17a6e8ee9eb0bcd94f4fd48506deac4168c35329b017dca1128a",
+              "specialized_factor_zero": false,
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 10,
+              "index": 10,
+              "sha256": "50535ffc7af9bbdb498cd8fb09d7232f0cadfe1ba6daa86dc4208f0b0a9c90ec",
+              "specialized_factor_zero": false,
+              "terms": 12,
+              "zero": false
+            },
+            {
+              "degree": 11,
+              "index": 11,
+              "sha256": "ca5212fe8536d7d1e40cab805505b98e88ae4af3c8ef685d015a255094c059f5",
+              "specialized_factor_zero": false,
+              "terms": 24,
+              "zero": false
+            },
+            {
+              "degree": 12,
+              "index": 12,
+              "sha256": "4bf1447589877272808a0b336e2709620c6b7ca0737b4da7c01fb7c29f7eeabb",
+              "specialized_factor_zero": false,
+              "terms": 24,
+              "zero": false
+            },
+            {
+              "degree": 13,
+              "index": 13,
+              "sha256": "ceb6cbcd7aa6362c4dd43ec67f59f2cfb071a860500b66d0944d99c15f6d6021",
+              "specialized_factor_zero": false,
+              "terms": 46,
+              "zero": false
+            },
+            {
+              "degree": null,
+              "index": 14,
+              "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+              "specialized_factor_zero": false,
+              "terms": null,
+              "zero": true
+            }
+          ],
+          "phase": "DONE",
+          "selected_sha256": "a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d",
+          "terminal": "DEGREE12_S_ZERO_EMPTY",
+          "unit_ideal": false
+        }
+      ],
+      "returncode": 0,
+      "seconds": 35.503935,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "eef66bd7bb8e65f9550aa7f6d714c0e16beeefc6ed561a2ed554f8e83af256ef",
+      "stdout_tail": "{\"cell\": \"F05-R20\", \"phase\": \"START\"}\n{\"generators\": [{\"degree\": 11, \"degrees\": [6, 5], \"sha256\": \"62df0ffbcc9a011460655592a67b72bbad1542d1fbb1eadf0340fc86fe6604f8\", \"terms\": 35}, {\"degree\": 56, \"degrees\": [36, 24], \"sha256\": \"516f2637438c6e0f459b8aaed978402cd79af2fc739a258597d3e2bf09a6448f\", \"terms\": 844}, {\"degree\": 55, \"degrees\": [35, 24], \"sha256\": \"10e340428ecb135f0d11724331d5a8cefed3c654ddee606473b40a5c8498ccf2\", \"terms\": 868}], \"phase\": \"SPECIALIZED\"}\n{\"phase\": \"GROEBNER_BEGIN\"}\n{\"basis_sha256\": \"8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe\", \"basis_size\": 2, \"dimension\": 1, \"phase\": \"GROEBNER_DONE\", \"unit_ideal\": false}\n{\"basis_sha256\": \"8149fcf72e6c3bda2a922dd1d2874bcc128d2272344e7568dde3287708fbc0fe\", \"basis_size\": 2, \"cell\": \"F05-R20\", \"dimension\": 1, \"localizer_nilpotence_index\": 1, \"localizer_steps\": [{\"degree\": 1, \"index\": 1, \"sha256\": \"148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940\", \"specialized_factor_zero\": false, \"terms\": 1, \"zero\": false}, {\"degree\": 2, \"index\": 2, \"sha256\": \"3e57e5cb59e4be9ceffaef2cc47dfcc702da1c1d067e7822f2a4bdfae8f33ae1\", \"specialized_factor_zero\": false, \"terms\": 2, \"zero\": false}, {\"degree\": 3, \"index\": 3, \"sha256\": \"50d045dbeb24f5783f45e7279206e89aa58d9adf7c282b359333a6c4282fd0d4\", \"specialized_factor_zero\": false, \"terms\": 2, \"zero\": false}, {\"degree\": 4, \"index\": 4, \"sha256\": \"7880d5a65105cbafb36d240e60f7f83060baf9b7f3ca557d4ca43409154feb3a\", \"specialized_factor_zero\": false, \"terms\": 4, \"zero\": false}, {\"degree\": 5, \"index\": 5, \"sha256\": \"79319d76a896f65524f55737c156d1f73b5c3c9e02e5647ba8a79c38101cefb1\", \"specialized_factor_zero\": false, \"terms\": 4, \"zero\": false}, {\"degree\": 6, \"index\": 6, \"sha256\": \"6fb108dda8ac42587e5fc36bf8f4099ae875140801273c52ad233ff7da4da12b\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 7, \"index\": 7, \"sha256\": \"22c6fea17525fc8fd39022e03555f7dbe626fbda1a80653cd3fba51b92bae907\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 8, \"index\": 8, \"sha256\": \"1c27fd933fe37a7bbef61f5faf4fe5788a5b3c81f48c788cbff55e4d41ace1d0\", \"specialized_factor_zero\": false, \"terms\": 6, \"zero\": false}, {\"degree\": 9, \"index\": 9, \"sha256\": \"ff476163d24d17a6e8ee9eb0bcd94f4fd48506deac4168c35329b017dca1128a\", \"specialized_factor_zero\": false, \"terms\": 12, \"zero\": false}, {\"degree\": 10, \"index\": 10, \"sha256\": \"50535ffc7af9bbdb498cd8fb09d7232f0cadfe1ba6daa86dc4208f0b0a9c90ec\", \"specialized_factor_zero\": false, \"terms\": 12, \"zero\": false}, {\"degree\": 11, \"index\": 11, \"sha256\": \"ca5212fe8536d7d1e40cab805505b98e88ae4af3c8ef685d015a255094c059f5\", \"specialized_factor_zero\": false, \"terms\": 24, \"zero\": false}, {\"degree\": 12, \"index\": 12, \"sha256\": \"4bf1447589877272808a0b336e2709620c6b7ca0737b4da7c01fb7c29f7eeabb\", \"specialized_factor_zero\": false, \"terms\": 24, \"zero\": false}, {\"degree\": 13, \"index\": 13, \"sha256\": \"ceb6cbcd7aa6362c4dd43ec67f59f2cfb071a860500b66d0944d99c15f6d6021\", \"specialized_factor_zero\": false, \"terms\": 46, \"zero\": false}, {\"degree\": null, \"index\": 14, \"sha256\": \"5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9\", \"specialized_factor_zero\": false, \"terms\": null, \"zero\": true}], \"phase\": \"DONE\", \"selected_sha256\": \"a16b5cb9613f097c828602233c052672dda16df8427ecc5d9fd57c475407c94d\", \"terminal\": \"DEGREE12_S_ZERO_EMPTY\", \"unit_ideal\": false}\n"
+    }
+  ],
+  "schema": "kb-c2-112-f04-degree12-s-zero-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

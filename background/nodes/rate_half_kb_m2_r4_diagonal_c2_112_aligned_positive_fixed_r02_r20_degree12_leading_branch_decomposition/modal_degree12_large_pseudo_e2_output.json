@@ -1,0 +1,833 @@
+{
+  "app": "rs-mca-k3-degree12-large-pseudo-e2",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 1
+  },
+  "mode": "e2",
+  "results": [
+    {
+      "cell": "F04-R02",
+      "peak_kb": 444716,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "phase": "START",
+          "row": "E2"
+        },
+        {
+          "degree6": {
+            "degree": 6,
+            "degrees": [
+              4,
+              5
+            ],
+            "sha256": "980f453afd73141b252e9bb982a85c7e0759a61d4296d3de5f3130e5e3505272",
+            "terms": 15
+          },
+          "divisor": {
+            "coefficients": 7,
+            "degree_x": 6,
+            "max_coefficient_degree": 6,
+            "sha256": "1bd1cbc7257a46312977a532a661f4f305eb216a18b3c35b334500a23ec3b039",
+            "terms": 137
+          },
+          "large": {
+            "degree": 22,
+            "degrees": [
+              16,
+              18
+            ],
+            "sha256": "e4dd153d9ef455cf9f1c1ed17fb4b2f0dda57db41f18109a9e12d52a8b82a722",
+            "terms": 235
+          },
+          "phase": "CONVERTED",
+          "rows": {
+            "E2": {
+              "coefficients": 37,
+              "degree_x": 36,
+              "max_coefficient_degree": 25,
+              "sha256": "f360ecae5c80b2aa6179e6fcfe3acad9a07e4f8636c22cdad7d35073e580edb9",
+              "terms": 12462
+            },
+            "E3": {
+              "coefficients": 36,
+              "degree_x": 35,
+              "max_coefficient_degree": 24,
+              "sha256": "711fd0cbf5c73745fc3292e09475938c8ca93db04787da4faa5dd72c6d4c0ac2",
+              "terms": 11316
+            }
+          }
+        },
+        {
+          "name": "E2",
+          "phase": "PSEUDO_BEGIN"
+        },
+        {
+          "metric": {
+            "coefficients": 35,
+            "degree_x": 34,
+            "max_coefficient_degree": 31,
+            "sha256": "7254123c5fc9627f153213d0fe9f0ef402a3472353ebd92311e6ab4961eac6f4",
+            "terms": 15843
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 1
+        },
+        {
+          "metric": {
+            "coefficients": 34,
+            "degree_x": 33,
+            "max_coefficient_degree": 37,
+            "sha256": "8efc52ce1f901d5b46a22af4b71276d1a1e12916ceed44b1f317095608f35af4",
+            "terms": 19398
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 2
+        },
+        {
+          "metric": {
+            "coefficients": 33,
+            "degree_x": 32,
+            "max_coefficient_degree": 43,
+            "sha256": "bcc150279b5c711dda180cd6d5dcc5c09854fb7c63cfafc07427350fb7d62030",
+            "terms": 22676
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 3
+        },
+        {
+          "metric": {
+            "coefficients": 32,
+            "degree_x": 31,
+            "max_coefficient_degree": 49,
+            "sha256": "a3e6cff792e42d9ab8ca9fead1670924478fb1e544938e514dedc241ff9827fb",
+            "terms": 25844
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 4
+        },
+        {
+          "metric": {
+            "coefficients": 31,
+            "degree_x": 30,
+            "max_coefficient_degree": 55,
+            "sha256": "74c685103c998bad4571dc4459b33685de6bddf9d5a8290fe48fa7c579f931a5",
+            "terms": 28766
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 5
+        },
+        {
+          "metric": {
+            "coefficients": 30,
+            "degree_x": 29,
+            "max_coefficient_degree": 61,
+            "sha256": "a9ed21d3e2bc7e7abbd6b9a87d7ef668ebd07e3bb4cc8edb151bcfac1cfd3cb2",
+            "terms": 31442
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 6
+        },
+        {
+          "metric": {
+            "coefficients": 29,
+            "degree_x": 28,
+            "max_coefficient_degree": 67,
+            "sha256": "4d106537dfbc0240fd150c3595c700918ce01ee3741ef9ba8b846292912779e1",
+            "terms": 33872
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 7
+        },
+        {
+          "metric": {
+            "coefficients": 28,
+            "degree_x": 27,
+            "max_coefficient_degree": 73,
+            "sha256": "a401e9cc4adf60e4dbf799b0d49f6f5375411e40a1b63b467ef98ab63c34ac01",
+            "terms": 36056
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 8
+        },
+        {
+          "metric": {
+            "coefficients": 27,
+            "degree_x": 26,
+            "max_coefficient_degree": 79,
+            "sha256": "045ca3df94b5d3b7b5c53771af6673e35007b6f610132382c77a8f388b74e265",
+            "terms": 38000
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 9
+        },
+        {
+          "metric": {
+            "coefficients": 26,
+            "degree_x": 25,
+            "max_coefficient_degree": 85,
+            "sha256": "954c61194b0c85b9ac00458ca415598b7ce35ba0f85539eb3793ec0359eb9509",
+            "terms": 39704
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 10
+        },
+        {
+          "metric": {
+            "coefficients": 25,
+            "degree_x": 24,
+            "max_coefficient_degree": 91,
+            "sha256": "0a761c1e8c52f27f462c0c3b8aad049d71bb2862636613f51163bbc8160c2f09",
+            "terms": 41168
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 11
+        },
+        {
+          "metric": {
+            "coefficients": 24,
+            "degree_x": 23,
+            "max_coefficient_degree": 97,
+            "sha256": "e49f2c619d7412202dd0f7c7c661d0ee231d8283d09d3422b9a6f7e0fca65309",
+            "terms": 42392
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 12
+        },
+        {
+          "metric": {
+            "coefficients": 23,
+            "degree_x": 22,
+            "max_coefficient_degree": 103,
+            "sha256": "3ca9f5099b5cbf421a87f7a1d3cd0cc2b388d5c2a60c21ee86da8e186f6fef2c",
+            "terms": 43376
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 13
+        },
+        {
+          "metric": {
+            "coefficients": 22,
+            "degree_x": 21,
+            "max_coefficient_degree": 109,
+            "sha256": "f02613965a2f535e4ec1c37afbc9d32e8fa13812f21791df88d28d62c8ad2265",
+            "terms": 44120
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 14
+        },
+        {
+          "metric": {
+            "coefficients": 21,
+            "degree_x": 20,
+            "max_coefficient_degree": 115,
+            "sha256": "9da1236e42bc98bfb41907880c43b1a6e08dfeb84867f3f0f712954d7f7bd714",
+            "terms": 44624
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 15
+        },
+        {
+          "metric": {
+            "coefficients": 20,
+            "degree_x": 19,
+            "max_coefficient_degree": 121,
+            "sha256": "a55ef1bf6abb36121bb45eb3fb3acf4f0bcf996425975c57012e98beec235d71",
+            "terms": 44888
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 16
+        },
+        {
+          "metric": {
+            "coefficients": 19,
+            "degree_x": 18,
+            "max_coefficient_degree": 127,
+            "sha256": "cb3da71d9bc4702f9608b54cf2a5c7c9cdf440937d0f91ac76d2944a3d0ee421",
+            "terms": 44912
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 17
+        },
+        {
+          "metric": {
+            "coefficients": 18,
+            "degree_x": 17,
+            "max_coefficient_degree": 133,
+            "sha256": "6295568460077353ea966ea0cc03d554db8de7203513fca0984619ae5585d7c5",
+            "terms": 44696
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 18
+        },
+        {
+          "metric": {
+            "coefficients": 17,
+            "degree_x": 16,
+            "max_coefficient_degree": 139,
+            "sha256": "e9de31af417c2c5be830485512a000a2535b09adfbe9b35698fe58d108ba6895",
+            "terms": 44240
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 19
+        },
+        {
+          "metric": {
+            "coefficients": 16,
+            "degree_x": 15,
+            "max_coefficient_degree": 145,
+            "sha256": "6e810e7b5df13f1ccf7aa71fe2a1f9934c64d68e95489bd48379574868a15941",
+            "terms": 43544
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 20
+        },
+        {
+          "metric": {
+            "coefficients": 15,
+            "degree_x": 14,
+            "max_coefficient_degree": 151,
+            "sha256": "20794afb80807dc3a6a8a73b72332af4101b94649623afec2115480c412aae95",
+            "terms": 42608
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 21
+        },
+        {
+          "metric": {
+            "coefficients": 14,
+            "degree_x": 13,
+            "max_coefficient_degree": 157,
+            "sha256": "a7fd203092510b8ae887713e53c8d520e4fa5580ede1e4e6d1a8daa435fcb310",
+            "terms": 41432
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 22
+        },
+        {
+          "metric": {
+            "coefficients": 13,
+            "degree_x": 12,
+            "max_coefficient_degree": 163,
+            "sha256": "d96d089bd6f9798d62b8d43be48284c6a112dce58ea88a2a61c75510a9a232e9",
+            "terms": 40022
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 23
+        },
+        {
+          "metric": {
+            "coefficients": 12,
+            "degree_x": 11,
+            "max_coefficient_degree": 169,
+            "sha256": "dafa307085c3bac8a1cb8738d5dbae7a7d7935d27d9a8d4fa3e5dd8d07471fa9",
+            "terms": 38378
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 24
+        },
+        {
+          "metric": {
+            "coefficients": 11,
+            "degree_x": 10,
+            "max_coefficient_degree": 175,
+            "sha256": "50be95dba4963bd2c45c446dd717ed1cb0ad4393135806eea33902b973454e38",
+            "terms": 36500
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 25
+        },
+        {
+          "metric": {
+            "coefficients": 10,
+            "degree_x": 9,
+            "max_coefficient_degree": 181,
+            "sha256": "345d892e90e416c5c29ee6589d7a1193ca36244478d3e585a6579c60b1ac37e2",
+            "terms": 34388
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 26
+        },
+        {
+          "metric": {
+            "coefficients": 9,
+            "degree_x": 8,
+            "max_coefficient_degree": 187,
+            "sha256": "e944624ddc07d643383f3499abbdceadffba214f6a7602621db40d479d94d584",
+            "terms": 32042
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 27
+        },
+        {
+          "metric": {
+            "coefficients": 8,
+            "degree_x": 7,
+            "max_coefficient_degree": 193,
+            "sha256": "d9f3a9b563bb247f6634ba05a57a9978e9a386874a6fe3ece64e9ab9ce756ac8",
+            "terms": 29462
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 28
+        },
+        {
+          "metric": {
+            "coefficients": 7,
+            "degree_x": 6,
+            "max_coefficient_degree": 199,
+            "sha256": "a9676091163c7c1ec9f270247e019864b74b9f613e112484f3d501c89fe0eb98",
+            "terms": 26648
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 29
+        },
+        {
+          "metric": {
+            "coefficients": 6,
+            "degree_x": 5,
+            "max_coefficient_degree": 205,
+            "sha256": "739edab7d1696fb40c7ff327c0c52565f00f9c87fa7a33ea10a86ca5d9c27f51",
+            "terms": 23616
+          },
+          "name": "E2",
+          "phase": "PSEUDO_STEP",
+          "step": 30
+        },
+        {
+          "metric": {
+            "coefficients": 6,
+            "degree_x": 5,
+            "max_coefficient_degree": 205,
+            "sha256": "739edab7d1696fb40c7ff327c0c52565f00f9c87fa7a33ea10a86ca5d9c27f51",
+            "terms": 23616
+          },
+          "name": "E2",
+          "phase": "PSEUDO_DONE"
+        },
+        {
+          "name": "E3",
+          "phase": "PSEUDO_BEGIN"
+        },
+        {
+          "metric": {
+            "coefficients": 35,
+            "degree_x": 34,
+            "max_coefficient_degree": 30,
+            "sha256": "8fadaa9b786e52449ccf1aad4f08379ee7530178cb6f88f696f27f50643222e2",
+            "terms": 15083
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 1
+        },
+        {
+          "metric": {
+            "coefficients": 34,
+            "degree_x": 33,
+            "max_coefficient_degree": 36,
+            "sha256": "6b8a851b011f8f698c8769e01f49c81ab7094af27865bfa539bbdfd6c837bd56",
+            "terms": 18693
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 2
+        },
+        {
+          "metric": {
+            "coefficients": 33,
+            "degree_x": 32,
+            "max_coefficient_degree": 42,
+            "sha256": "93af670f785b31539e02326821a9dac0877b2c9bf7d34b1bca641b487165d112",
+            "terms": 21944
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 3
+        },
+        {
+          "metric": {
+            "coefficients": 32,
+            "degree_x": 31,
+            "max_coefficient_degree": 48,
+            "sha256": "b2ec21741cfd1dbcb957ad3c31516a69c9c0dcdca024d468ee2065bdda22282c",
+            "terms": 25116
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 4
+        },
+        {
+          "metric": {
+            "coefficients": 31,
+            "degree_x": 30,
+            "max_coefficient_degree": 54,
+            "sha256": "f0213fcf4bb18dfbca321944ed364e69bdb5b7b8ec4d2a4690b2fc2f14215ab5",
+            "terms": 28066
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 5
+        },
+        {
+          "metric": {
+            "coefficients": 30,
+            "degree_x": 29,
+            "max_coefficient_degree": 60,
+            "sha256": "0726bb14a23b78b4ea5583c986a6538806ec196413fe66d14ca8ed42d4eb60d7",
+            "terms": 30770
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 6
+        },
+        {
+          "metric": {
+            "coefficients": 29,
+            "degree_x": 28,
+            "max_coefficient_degree": 66,
+            "sha256": "3009f189285b6ee81e0631b92a3aa05508a5ce4871a5bfaab3239488863ea329",
+            "terms": 33228
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 7
+        },
+        {
+          "metric": {
+            "coefficients": 28,
+            "degree_x": 27,
+            "max_coefficient_degree": 72,
+            "sha256": "139384766502e0f2b0f2c81d621196816e86e1d62b1b2aa617ea37a11f354800",
+            "terms": 35440
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 8
+        },
+        {
+          "metric": {
+            "coefficients": 27,
+            "degree_x": 26,
+            "max_coefficient_degree": 78,
+            "sha256": "54148c4ce6e705bdcc0290ac0366a0a532b43657251f1b4d22cdc8d5efb637c1",
+            "terms": 37406
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 9
+        },
+        {
+          "metric": {
+            "coefficients": 26,
+            "degree_x": 25,
+            "max_coefficient_degree": 84,
+            "sha256": "84785b4ebcdebd47c9fb7d08d617b70fa5cdf1d37b5447a4c92a8c6bc0346067",
+            "terms": 39132
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 10
+        },
+        {
+          "metric": {
+            "coefficients": 25,
+            "degree_x": 24,
+            "max_coefficient_degree": 90,
+            "sha256": "b2f057cc7f9c8ea798b6f70926bd07bf1ba5614dacad2cb524f6433e5d967f28",
+            "terms": 40618
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 11
+        },
+        {
+          "metric": {
+            "coefficients": 24,
+            "degree_x": 23,
+            "max_coefficient_degree": 96,
+            "sha256": "5ea62410036c4dd58f9aed3911ad1caef387f8cf9a61236fb42ee34ae00d2b41",
+            "terms": 41864
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 12
+        },
+        {
+          "metric": {
+            "coefficients": 23,
+            "degree_x": 22,
+            "max_coefficient_degree": 102,
+            "sha256": "15195275a777534e3ee1bf715884c0594895048538b593daa89e90618ec699cd",
+            "terms": 42870
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 13
+        },
+        {
+          "metric": {
+            "coefficients": 22,
+            "degree_x": 21,
+            "max_coefficient_degree": 108,
+            "sha256": "1cec97b76e2a2b48e61bc8396bdc0c7a3af7ebf8a63c9aca3745a5641a6675f4",
+            "terms": 43636
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 14
+        },
+        {
+          "metric": {
+            "coefficients": 21,
+            "degree_x": 20,
+            "max_coefficient_degree": 114,
+            "sha256": "fea5e29cfe759c32c9494ff3e3359bdfaa5f4fe45ce291613db248c06def4d32",
+            "terms": 44162
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 15
+        },
+        {
+          "metric": {
+            "coefficients": 20,
+            "degree_x": 19,
+            "max_coefficient_degree": 120,
+            "sha256": "e776ff311ac7dacdc4b3a7e0aefa4fc0bab42f4e53196bdd68806e4888989e0e",
+            "terms": 44448
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 16
+        },
+        {
+          "metric": {
+            "coefficients": 19,
+            "degree_x": 18,
+            "max_coefficient_degree": 126,
+            "sha256": "987fda6994bf75dc5f2ac082946af7d07ec7570a4d3457060661e1898fb5117c",
+            "terms": 44494
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 17
+        },
+        {
+          "metric": {
+            "coefficients": 18,
+            "degree_x": 17,
+            "max_coefficient_degree": 132,
+            "sha256": "072ce9dd6e57ab6653297e95a6196329ee3b8d053eae1cafe78420ce1c724b24",
+            "terms": 44300
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 18
+        },
+        {
+          "metric": {
+            "coefficients": 17,
+            "degree_x": 16,
+            "max_coefficient_degree": 138,
+            "sha256": "4f6e9300f7d2fa98baf9cf3a416d46e122f02b5320ea39d9d46c170f4463749b",
+            "terms": 43866
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 19
+        },
+        {
+          "metric": {
+            "coefficients": 16,
+            "degree_x": 15,
+            "max_coefficient_degree": 144,
+            "sha256": "5b2630f3dca7cd36a2708d0e3ed0020b4d594721b728fc55e8b3299316e3581f",
+            "terms": 43192
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 20
+        },
+        {
+          "metric": {
+            "coefficients": 15,
+            "degree_x": 14,
+            "max_coefficient_degree": 150,
+            "sha256": "d7b312995e168870caa78d26f42f7c458ba846f3c6f8dcaf45b87b92e9d43ec8",
+            "terms": 42278
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 21
+        },
+        {
+          "metric": {
+            "coefficients": 14,
+            "degree_x": 13,
+            "max_coefficient_degree": 156,
+            "sha256": "ffcdb9c25f03f582823ca82e1706d3e24dd4ce72a64c18bbdc14b9f4274aac62",
+            "terms": 41124
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 22
+        },
+        {
+          "metric": {
+            "coefficients": 13,
+            "degree_x": 12,
+            "max_coefficient_degree": 162,
+            "sha256": "1349a3dd8b928db585bb72e220ebe5f88ca78e6ceab43ff577ecf6f6dcf170ba",
+            "terms": 39736
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 23
+        },
+        {
+          "metric": {
+            "coefficients": 12,
+            "degree_x": 11,
+            "max_coefficient_degree": 168,
+            "sha256": "5cc6022c09817444d5bd4699396081d1a8c70d0286b6fc62efba9f0b3185d7d1",
+            "terms": 38114
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 24
+        },
+        {
+          "metric": {
+            "coefficients": 11,
+            "degree_x": 10,
+            "max_coefficient_degree": 174,
+            "sha256": "efa4049c146d78e80adf1bb2554ebd8c597060d40064145b0574d7a5bf0c88c5",
+            "terms": 36258
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 25
+        },
+        {
+          "metric": {
+            "coefficients": 10,
+            "degree_x": 9,
+            "max_coefficient_degree": 180,
+            "sha256": "7972e798ece4793d88c0d351d0d842849e1c421f82e0f3cf76badce261d6e76e",
+            "terms": 34168
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 26
+        },
+        {
+          "metric": {
+            "coefficients": 9,
+            "degree_x": 8,
+            "max_coefficient_degree": 186,
+            "sha256": "65ed2d2101d521c6e8346fc6c4fc0b8cdcead1c01f73ad3a3f0d2fdc2f22c843",
+            "terms": 31844
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 27
+        },
+        {
+          "metric": {
+            "coefficients": 8,
+            "degree_x": 7,
+            "max_coefficient_degree": 192,
+            "sha256": "a6428a70b61067d8e1185b3ff80acc604af5e206d8fef8759aa29046db5ab18c",
+            "terms": 29286
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 28
+        },
+        {
+          "metric": {
+            "coefficients": 7,
+            "degree_x": 6,
+            "max_coefficient_degree": 198,
+            "sha256": "bea0cbd3c6d6b6de1488642bf08846d6c38db2f75fa48d1795f8f4d2fd85e423",
+            "terms": 26494
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 29
+        },
+        {
+          "metric": {
+            "coefficients": 6,
+            "degree_x": 5,
+            "max_coefficient_degree": 204,
+            "sha256": "c45f7b0fd8b1cee1f6e488d1c1bb9aa5411ebaddc57c393d8476ddb8b0a186e6",
+            "terms": 23484
+          },
+          "name": "E3",
+          "phase": "PSEUDO_STEP",
+          "step": 30
+        },
+        {
+          "metric": {
+            "coefficients": 6,
+            "degree_x": 5,
+            "max_coefficient_degree": 204,
+            "sha256": "c45f7b0fd8b1cee1f6e488d1c1bb9aa5411ebaddc57c393d8476ddb8b0a186e6",
+            "terms": 23484
+          },
+          "name": "E3",
+          "phase": "PSEUDO_DONE"
+        },
+        {
+          "generator_terms": [
+            235,
+            137,
+            23616,
+            23484
+          ],
+          "phase": "FINAL_GROEBNER_BEGIN"
+        }
+      ],
+      "row": "E2",
+      "seconds": 780.033748,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "388b74e265\", \"terms\": 38000}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 9}\n{\"metric\": {\"coefficients\": 26, \"degree_x\": 25, \"max_coefficient_degree\": 85, \"sha256\": \"954c61194b0c85b9ac00458ca415598b7ce35ba0f85539eb3793ec0359eb9509\", \"terms\": 39704}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 10}\n{\"metric\": {\"coefficients\": 25, \"degree_x\": 24, \"max_coefficient_degree\": 91, \"sha256\": \"0a761c1e8c52f27f462c0c3b8aad049d71bb2862636613f51163bbc8160c2f09\", \"terms\": 41168}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 11}\n{\"metric\": {\"coefficients\": 24, \"degree_x\": 23, \"max_coefficient_degree\": 97, \"sha256\": \"e49f2c619d7412202dd0f7c7c661d0ee231d8283d09d3422b9a6f7e0fca65309\", \"terms\": 42392}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 12}\n{\"metric\": {\"coefficients\": 23, \"degree_x\": 22, \"max_coefficient_degree\": 103, \"sha256\": \"3ca9f5099b5cbf421a87f7a1d3cd0cc2b388d5c2a60c21ee86da8e186f6fef2c\", \"terms\": 43376}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 13}\n{\"metric\": {\"coefficients\": 22, \"degree_x\": 21, \"max_coefficient_degree\": 109, \"sha256\": \"f02613965a2f535e4ec1c37afbc9d32e8fa13812f21791df88d28d62c8ad2265\", \"terms\": 44120}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 14}\n{\"metric\": {\"coefficients\": 21, \"degree_x\": 20, \"max_coefficient_degree\": 115, \"sha256\": \"9da1236e42bc98bfb41907880c43b1a6e08dfeb84867f3f0f712954d7f7bd714\", \"terms\": 44624}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 15}\n{\"metric\": {\"coefficients\": 20, \"degree_x\": 19, \"max_coefficient_degree\": 121, \"sha256\": \"a55ef1bf6abb36121bb45eb3fb3acf4f0bcf996425975c57012e98beec235d71\", \"terms\": 44888}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 16}\n{\"metric\": {\"coefficients\": 19, \"degree_x\": 18, \"max_coefficient_degree\": 127, \"sha256\": \"cb3da71d9bc4702f9608b54cf2a5c7c9cdf440937d0f91ac76d2944a3d0ee421\", \"terms\": 44912}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 17}\n{\"metric\": {\"coefficients\": 18, \"degree_x\": 17, \"max_coefficient_degree\": 133, \"sha256\": \"6295568460077353ea966ea0cc03d554db8de7203513fca0984619ae5585d7c5\", \"terms\": 44696}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 18}\n{\"metric\": {\"coefficients\": 17, \"degree_x\": 16, \"max_coefficient_degree\": 139, \"sha256\": \"e9de31af417c2c5be830485512a000a2535b09adfbe9b35698fe58d108ba6895\", \"terms\": 44240}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 19}\n{\"metric\": {\"coefficients\": 16, \"degree_x\": 15, \"max_coefficient_degree\": 145, \"sha256\": \"6e810e7b5df13f1ccf7aa71fe2a1f9934c64d68e95489bd48379574868a15941\", \"terms\": 43544}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 20}\n{\"metric\": {\"coefficients\": 15, \"degree_x\": 14, \"max_coefficient_degree\": 151, \"sha256\": \"20794afb80807dc3a6a8a73b72332af4101b94649623afec2115480c412aae95\", \"terms\": 42608}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 21}\n{\"metric\": {\"coefficients\": 14, \"degree_x\": 13, \"max_coefficient_degree\": 157, \"sha256\": \"a7fd203092510b8ae887713e53c8d520e4fa5580ede1e4e6d1a8daa435fcb310\", \"terms\": 41432}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 22}\n{\"metric\": {\"coefficients\": 13, \"degree_x\": 12, \"max_coefficient_degree\": 163, \"sha256\": \"d96d089bd6f9798d62b8d43be48284c6a112dce58ea88a2a61c75510a9a232e9\", \"terms\": 40022}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 23}\n{\"metric\": {\"coefficients\": 12, \"degree_x\": 11, \"max_coefficient_degree\": 169, \"sha256\": \"dafa307085c3bac8a1cb8738d5dbae7a7d7935d27d9a8d4fa3e5dd8d07471fa9\", \"terms\": 38378}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 24}\n{\"metric\": {\"coefficients\": 11, \"degree_x\": 10, \"max_coefficient_degree\": 175, \"sha256\": \"50be95dba4963bd2c45c446dd717ed1cb0ad4393135806eea33902b973454e38\", \"terms\": 36500}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 25}\n{\"metric\": {\"coefficients\": 10, \"degree_x\": 9, \"max_coefficient_degree\": 181, \"sha256\": \"345d892e90e416c5c29ee6589d7a1193ca36244478d3e585a6579c60b1ac37e2\", \"terms\": 34388}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 26}\n{\"metric\": {\"coefficients\": 9, \"degree_x\": 8, \"max_coefficient_degree\": 187, \"sha256\": \"e944624ddc07d643383f3499abbdceadffba214f6a7602621db40d479d94d584\", \"terms\": 32042}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 27}\n{\"metric\": {\"coefficients\": 8, \"degree_x\": 7, \"max_coefficient_degree\": 193, \"sha256\": \"d9f3a9b563bb247f6634ba05a57a9978e9a386874a6fe3ece64e9ab9ce756ac8\", \"terms\": 29462}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 28}\n{\"metric\": {\"coefficients\": 7, \"degree_x\": 6, \"max_coefficient_degree\": 199, \"sha256\": \"a9676091163c7c1ec9f270247e019864b74b9f613e112484f3d501c89fe0eb98\", \"terms\": 26648}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 29}\n{\"metric\": {\"coefficients\": 6, \"degree_x\": 5, \"max_coefficient_degree\": 205, \"sha256\": \"739edab7d1696fb40c7ff327c0c52565f00f9c87fa7a33ea10a86ca5d9c27f51\", \"terms\": 23616}, \"name\": \"E2\", \"phase\": \"PSEUDO_STEP\", \"step\": 30}\n{\"metric\": {\"coefficients\": 6, \"degree_x\": 5, \"max_coefficient_degree\": 205, \"sha256\": \"739edab7d1696fb40c7ff327c0c52565f00f9c87fa7a33ea10a86ca5d9c27f51\", \"terms\": 23616}, \"name\": \"E2\", \"phase\": \"PSEUDO_DONE\"}\n{\"name\": \"E3\", \"phase\": \"PSEUDO_BEGIN\"}\n{\"metric\": {\"coefficients\": 35, \"degree_x\": 34, \"max_coefficient_degree\": 30, \"sha256\": \"8fadaa9b786e52449ccf1aad4f08379ee7530178cb6f88f696f27f50643222e2\", \"terms\": 15083}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 1}\n{\"metric\": {\"coefficients\": 34, \"degree_x\": 33, \"max_coefficient_degree\": 36, \"sha256\": \"6b8a851b011f8f698c8769e01f49c81ab7094af27865bfa539bbdfd6c837bd56\", \"terms\": 18693}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 2}\n{\"metric\": {\"coefficients\": 33, \"degree_x\": 32, \"max_coefficient_degree\": 42, \"sha256\": \"93af670f785b31539e02326821a9dac0877b2c9bf7d34b1bca641b487165d112\", \"terms\": 21944}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 3}\n{\"metric\": {\"coefficients\": 32, \"degree_x\": 31, \"max_coefficient_degree\": 48, \"sha256\": \"b2ec21741cfd1dbcb957ad3c31516a69c9c0dcdca024d468ee2065bdda22282c\", \"terms\": 25116}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 4}\n{\"metric\": {\"coefficients\": 31, \"degree_x\": 30, \"max_coefficient_degree\": 54, \"sha256\": \"f0213fcf4bb18dfbca321944ed364e69bdb5b7b8ec4d2a4690b2fc2f14215ab5\", \"terms\": 28066}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 5}\n{\"metric\": {\"coefficients\": 30, \"degree_x\": 29, \"max_coefficient_degree\": 60, \"sha256\": \"0726bb14a23b78b4ea5583c986a6538806ec196413fe66d14ca8ed42d4eb60d7\", \"terms\": 30770}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 6}\n{\"metric\": {\"coefficients\": 29, \"degree_x\": 28, \"max_coefficient_degree\": 66, \"sha256\": \"3009f189285b6ee81e0631b92a3aa05508a5ce4871a5bfaab3239488863ea329\", \"terms\": 33228}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 7}\n{\"metric\": {\"coefficients\": 28, \"degree_x\": 27, \"max_coefficient_degree\": 72, \"sha256\": \"139384766502e0f2b0f2c81d621196816e86e1d62b1b2aa617ea37a11f354800\", \"terms\": 35440}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 8}\n{\"metric\": {\"coefficients\": 27, \"degree_x\": 26, \"max_coefficient_degree\": 78, \"sha256\": \"54148c4ce6e705bdcc0290ac0366a0a532b43657251f1b4d22cdc8d5efb637c1\", \"terms\": 37406}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 9}\n{\"metric\": {\"coefficients\": 26, \"degree_x\": 25, \"max_coefficient_degree\": 84, \"sha256\": \"84785b4ebcdebd47c9fb7d08d617b70fa5cdf1d37b5447a4c92a8c6bc0346067\", \"terms\": 39132}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 10}\n{\"metric\": {\"coefficients\": 25, \"degree_x\": 24, \"max_coefficient_degree\": 90, \"sha256\": \"b2f057cc7f9c8ea798b6f70926bd07bf1ba5614dacad2cb524f6433e5d967f28\", \"terms\": 40618}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 11}\n{\"metric\": {\"coefficients\": 24, \"degree_x\": 23, \"max_coefficient_degree\": 96, \"sha256\": \"5ea62410036c4dd58f9aed3911ad1caef387f8cf9a61236fb42ee34ae00d2b41\", \"terms\": 41864}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 12}\n{\"metric\": {\"coefficients\": 23, \"degree_x\": 22, \"max_coefficient_degree\": 102, \"sha256\": \"15195275a777534e3ee1bf715884c0594895048538b593daa89e90618ec699cd\", \"terms\": 42870}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 13}\n{\"metric\": {\"coefficients\": 22, \"degree_x\": 21, \"max_coefficient_degree\": 108, \"sha256\": \"1cec97b76e2a2b48e61bc8396bdc0c7a3af7ebf8a63c9aca3745a5641a6675f4\", \"terms\": 43636}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 14}\n{\"metric\": {\"coefficients\": 21, \"degree_x\": 20, \"max_coefficient_degree\": 114, \"sha256\": \"fea5e29cfe759c32c9494ff3e3359bdfaa5f4fe45ce291613db248c06def4d32\", \"terms\": 44162}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 15}\n{\"metric\": {\"coefficients\": 20, \"degree_x\": 19, \"max_coefficient_degree\": 120, \"sha256\": \"e776ff311ac7dacdc4b3a7e0aefa4fc0bab42f4e53196bdd68806e4888989e0e\", \"terms\": 44448}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 16}\n{\"metric\": {\"coefficients\": 19, \"degree_x\": 18, \"max_coefficient_degree\": 126, \"sha256\": \"987fda6994bf75dc5f2ac082946af7d07ec7570a4d3457060661e1898fb5117c\", \"terms\": 44494}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 17}\n{\"metric\": {\"coefficients\": 18, \"degree_x\": 17, \"max_coefficient_degree\": 132, \"sha256\": \"072ce9dd6e57ab6653297e95a6196329ee3b8d053eae1cafe78420ce1c724b24\", \"terms\": 44300}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 18}\n{\"metric\": {\"coefficients\": 17, \"degree_x\": 16, \"max_coefficient_degree\": 138, \"sha256\": \"4f6e9300f7d2fa98baf9cf3a416d46e122f02b5320ea39d9d46c170f4463749b\", \"terms\": 43866}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 19}\n{\"metric\": {\"coefficients\": 16, \"degree_x\": 15, \"max_coefficient_degree\": 144, \"sha256\": \"5b2630f3dca7cd36a2708d0e3ed0020b4d594721b728fc55e8b3299316e3581f\", \"terms\": 43192}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 20}\n{\"metric\": {\"coefficients\": 15, \"degree_x\": 14, \"max_coefficient_degree\": 150, \"sha256\": \"d7b312995e168870caa78d26f42f7c458ba846f3c6f8dcaf45b87b92e9d43ec8\", \"terms\": 42278}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 21}\n{\"metric\": {\"coefficients\": 14, \"degree_x\": 13, \"max_coefficient_degree\": 156, \"sha256\": \"ffcdb9c25f03f582823ca82e1706d3e24dd4ce72a64c18bbdc14b9f4274aac62\", \"terms\": 41124}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 22}\n{\"metric\": {\"coefficients\": 13, \"degree_x\": 12, \"max_coefficient_degree\": 162, \"sha256\": \"1349a3dd8b928db585bb72e220ebe5f88ca78e6ceab43ff577ecf6f6dcf170ba\", \"terms\": 39736}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 23}\n{\"metric\": {\"coefficients\": 12, \"degree_x\": 11, \"max_coefficient_degree\": 168, \"sha256\": \"5cc6022c09817444d5bd4699396081d1a8c70d0286b6fc62efba9f0b3185d7d1\", \"terms\": 38114}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 24}\n{\"metric\": {\"coefficients\": 11, \"degree_x\": 10, \"max_coefficient_degree\": 174, \"sha256\": \"efa4049c146d78e80adf1bb2554ebd8c597060d40064145b0574d7a5bf0c88c5\", \"terms\": 36258}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 25}\n{\"metric\": {\"coefficients\": 10, \"degree_x\": 9, \"max_coefficient_degree\": 180, \"sha256\": \"7972e798ece4793d88c0d351d0d842849e1c421f82e0f3cf76badce261d6e76e\", \"terms\": 34168}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 26}\n{\"metric\": {\"coefficients\": 9, \"degree_x\": 8, \"max_coefficient_degree\": 186, \"sha256\": \"65ed2d2101d521c6e8346fc6c4fc0b8cdcead1c01f73ad3a3f0d2fdc2f22c843\", \"terms\": 31844}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 27}\n{\"metric\": {\"coefficients\": 8, \"degree_x\": 7, \"max_coefficient_degree\": 192, \"sha256\": \"a6428a70b61067d8e1185b3ff80acc604af5e206d8fef8759aa29046db5ab18c\", \"terms\": 29286}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 28}\n{\"metric\": {\"coefficients\": 7, \"degree_x\": 6, \"max_coefficient_degree\": 198, \"sha256\": \"bea0cbd3c6d6b6de1488642bf08846d6c38db2f75fa48d1795f8f4d2fd85e423\", \"terms\": 26494}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 29}\n{\"metric\": {\"coefficients\": 6, \"degree_x\": 5, \"max_coefficient_degree\": 204, \"sha256\": \"c45f7b0fd8b1cee1f6e488d1c1bb9aa5411ebaddc57c393d8476ddb8b0a186e6\", \"terms\": 23484}, \"name\": \"E3\", \"phase\": \"PSEUDO_STEP\", \"step\": 30}\n{\"metric\": {\"coefficients\": 6, \"degree_x\": 5, \"max_coefficient_degree\": 204, \"sha256\": \"c45f7b0fd8b1cee1f6e488d1c1bb9aa5411ebaddc57c393d8476ddb8b0a186e6\", \"terms\": 23484}, \"name\": \"E3\", \"phase\": \"PSEUDO_DONE\"}\n{\"generator_terms\": [235, 137, 23616, 23484], \"phase\": \"FINAL_GROEBNER_BEGIN\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-fixed-degree12-large-pseudo-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}

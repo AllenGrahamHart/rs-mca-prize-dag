@@ -1,0 +1,56 @@
+{
+  "app": "rs-mca-k3-f04-degree12-function-field-r02",
+  "counts": {
+    "FAIL": 0,
+    "PASS": 0,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 1
+  },
+  "mode": "r02",
+  "results": [
+    {
+      "cell": "F04-R02",
+      "peak_kb": 19029044,
+      "records": [
+        {
+          "cell": "F04-R02",
+          "phase": "START"
+        },
+        {
+          "degrees_x": [
+            6,
+            36,
+            35
+          ],
+          "f_leading": {
+            "denominator": {
+              "degree": 0,
+              "degrees": [
+                0,
+                0
+              ],
+              "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+              "terms": 1
+            },
+            "numerator": {
+              "degree": 6,
+              "degrees": [
+                4,
+                5
+              ],
+              "sha256": "b5d7ddadb2eeee58efcc0faeb53255ef7819912b44c4fef75fac5c6833953645",
+              "terms": 15
+            }
+          },
+          "phase": "CONVERTED"
+        }
+      ],
+      "seconds": 480.038484,
+      "status": "TIMEOUT",
+      "stderr_tail": "",
+      "stdout_tail": "{\"cell\": \"F04-R02\", \"phase\": \"START\"}\n{\"degrees_x\": [6, 36, 35], \"f_leading\": {\"denominator\": {\"degree\": 0, \"degrees\": [0, 0], \"sha256\": \"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\", \"terms\": 1}, \"numerator\": {\"degree\": 6, \"degrees\": [4, 5], \"sha256\": \"b5d7ddadb2eeee58efcc0faeb53255ef7819912b44c4fef75fac5c6833953645\", \"terms\": 15}}, \"phase\": \"CONVERTED\"}\n"
+    }
+  ],
+  "schema": "kb-c2-112-f04-degree12-function-field-modal-v1",
+  "upstream_commit": "55ac3e07477bd7a768190a3e755f22b0d44354b0"
+}
