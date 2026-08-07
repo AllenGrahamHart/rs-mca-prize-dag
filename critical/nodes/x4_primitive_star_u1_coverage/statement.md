@@ -121,6 +121,24 @@ Higher dyadic folds give analogous gates when nonzero, with their own exact
 orbit counts.  This is a canonical DLI interface for the residual wedge, but
 no population bound for vectors passing the gates is yet proved.
 
+The fold energies are not independent.  If `S` is any nonempty set of
+prefix-supplied nonzero folds, put
+
+```text
+a_j=N/2^(j+2),  A_S=sum_(j in S)a_j,
+R_S=sum_(j in S) ord_(N/2^j)(p)o_j.
+```
+
+Their exact Haar budget gives the stronger product gate
+
+```text
+p^R_S A_S^A_S <= (eN)^A_S.                         (H-S)
+```
+
+Scale zero belongs to the complete active set of every primitive record.
+Thus every active-fold pattern violating `(H-S)` is empty.  Structural zero
+folds and all patterns surviving the comparison remain open.
+
 For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;

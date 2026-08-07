@@ -2068,6 +2068,31 @@
     "our_sha": "3f33dbbff",
     "his_sha": "93fba1be"
    }
+  },
+  {
+   "our_node": "x4_primitive_shiftpair_haar_norm_product_gate",
+   "his_object": {
+    "label": "SP2: Low-degree difference incidence",
+    "file": "experimental/grande_finale_work/sp_section.tex",
+    "line": "SP2"
+   },
+   "relation": "OVERLAP",
+   "chain": "dyadic primitive norm router -> exact Haar energy identity -> weighted AM-GM -> active-pattern integer exclusion gate",
+   "scope": "every balanced signed shift pair on a dyadic domain; every set of nonzero prefix-supplied folds shares one exact energy budget and norm-product ceiling",
+   "owner": "US",
+   "nonclaims": [
+    "does not force higher dyadic folds to be nonzero or charge structural zero folds",
+    "does not count vectors in any surviving active pattern",
+    "does not compile first ownership or pay the X4 allowance",
+    "does not close SP2, X4, LIST, MCA, or a prize terminal"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "open",
+   "lean": null,
+   "provenance": {
+    "our_sha": "51da18d95",
+    "his_sha": "93fba1be"
+   }
   }
  ]
 }

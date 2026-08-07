@@ -43,6 +43,10 @@
    with the locator and first-owner predicates; the gate alone is only a
    necessary condition.  Higher folds may sharpen the count, but a zero
    higher fold must remain as a separate branch.
+   Apply `x4_primitive_shiftpair_haar_norm_product_gate` before any census:
+   use the shared energy budget to delete every impossible active-fold
+   pattern by its exact cross-multiplied row inequality.  Continue separately
+   on the surviving zero-fold patterns and fully active residue.
 7. Optional split route: bound `D_0` with a row- and strip-compatible minimal
    theorem, then give a separate allowance for `sum_(d>=1)D_d`.  Universal
    minimalization and subset peeling are unavailable by
@@ -51,8 +55,9 @@
    strip boundary.  Any multiplicity above one must be charged in the final
    summed budget.
 
-The next proof attempt should convert the root norm gate into a population
-bound in the coefficient-primitive nonconstant low-degree-difference
-incidence, after compiling the exact first-owner predicates.  This is
-upstream's SP2 route at the correct maximum-degree quantifier.  Minimal-
-stratum results remain useful evidence but are not mandatory dependencies.
+The next proof attempt should replay the Haar pattern gate on every consumed
+row, classify the surviving zero-fold patterns, and convert the surviving
+norm gates into a population bound after compiling the exact first-owner
+predicates.  This is upstream's SP2 route at the correct maximum-degree
+quantifier.  Minimal-stratum results remain useful evidence but are not
+mandatory dependencies.

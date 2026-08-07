@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "x4_primitive_shiftpair_haar_norm_product_gate",
+    "title": "Primitive shift-pair Haar norm-product gate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "The dyadic folds of every balanced signed shift-pair vector satisfy the exact shared Haar identity sum_j E_j/2^(j+1)=2e. For any nonempty set S of prefix-supplied nonzero folds, if a_j=N/2^(j+2), A_S=sum a_j, R_S=sum ord_nj(p)o_j, and M_S=sum M_j, then p^M_S<=p^R_S<=product_j |Norm(beta_j)|<=product_j E_j^a_j<=(eN/A_S)^A_S. Thus the exact integer inequality p^R_S A_S^A_S<=(eN)^A_S is necessary. Coefficient primitivity makes scale zero active, and an exact difference-degree cell supplies depth T=e-d-1. This is a pattern-exclusion gate, not a population bound.",
+    "refs": [
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/statement.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/proof.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/claim_contract.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/source_evidence.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/dependency_subdag.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/audit.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/result.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/frontier.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/lineage.md",
+      "background/nodes/x4_primitive_shiftpair_haar_norm_product_gate/verify.py"
+    ],
+    "upstream": {
+      "label": "SP2: Low-degree difference incidence",
+      "relation": "OVERLAP"
+    }
+  },
+  "requires": [
+    {
+      "from": "x4_primitive_shiftpair_dyadic_norm_router"
+    },
+    {
+      "from": "x4_general_shiftpair_difference_degree_partition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "x4_primitive_star_u1_coverage"
+    }
+  ],
+  "refutes": []
+}

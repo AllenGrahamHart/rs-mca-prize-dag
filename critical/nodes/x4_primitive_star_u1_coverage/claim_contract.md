@@ -36,6 +36,10 @@
   provide further necessary gates.
 - **Arithmetic nonclaim:** no population bound for norm-gated vectors has
   been proved, and no higher fold is asserted to be nonzero.
+- **Shared-energy pattern gate:** all nonzero supplied folds obey one exact
+  Haar norm-product inequality; every pattern violating it is empty.
+- **Pattern nonclaim:** no extra factor is assigned to a structural zero
+  fold, and surviving patterns are not counted.
 - **Optional route:** a compatible F-4 minimal bound plus an independently
   priced `d>=1` residue.
 - **Nonclaims:** `u1` is required; general records are automatically minimal;

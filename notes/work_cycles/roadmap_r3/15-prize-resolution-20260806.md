@@ -1844,3 +1844,41 @@ new assumptions: none
 compute: no Modal; exact split-prime and generated-extension finite audits
 next: count norm-gated primitive locator records under the operational first-owner map
 ```
+
+### X4/SP shared Haar norm-product gate
+
+All dyadic fold energies obey
+
+```text
+sum_j E_j/2^(j+1)=2e.
+```
+
+Consequently every nonempty active-scale set satisfies the exact integer
+gate
+
+```text
+p^R_S A_S^A_S <= (eN)^A_S,
+A_S=sum_(j in S)N/2^(j+2),
+R_S=sum_(j in S)ord_(N/2^j)(p)o_j.
+```
+
+Coefficient primitivity forces scale zero active.  Higher zero folds remain
+separate branches.  The gate deletes impossible patterns but supplies no
+population estimate for survivors.
+
+The companion ownership audit found no operational four-bucket membership
+compiler in the current X4 assembly.  Row-pattern replay and that compiler
+are the next closure-bearing tasks.
+
+```text
+starting pin: 51da18d95; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2 or prints the local X4 owner compiler
+lane: X4 / upstream SP2 low-degree difference incidence
+result: STRENGTHENED per-fold gates to one exact shared-energy norm product
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP multiscale filter for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exhaustive exact audits over 12,266 signed pairs and 74,152 active subsets
+next: replay active patterns per consumed row; compile the four owner predicates; count survivors
+```

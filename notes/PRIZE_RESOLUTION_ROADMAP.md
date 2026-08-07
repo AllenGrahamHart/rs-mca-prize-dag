@@ -19602,6 +19602,49 @@ new assumptions: none
 compute: no Modal; exact split-prime and generated-extension finite audits
 next: count norm-gated primitive locator records under the operational first-owner map
 ```
+
+### X4/SP shared Haar norm-product gate
+
+The dyadic fold energies consume one exact budget, rather than one copy of a
+worst-case bound per level:
+
+```text
+sum_j E_j/2^(j+1)=2e.
+```
+
+For any nonempty active-scale set `S`, weighted AM-GM combines this identity
+with the residue-degree norm divisors to give
+
+```text
+p^R_S A_S^A_S <= (eN)^A_S,
+A_S=sum_(j in S)N/2^(j+2),
+R_S=sum_(j in S)ord_(N/2^j)(p)o_j.
+```
+
+This is an exact integer pattern gate.  Scale zero is active on every
+coefficient-primitive pair; higher structural zero folds are retained
+explicitly.  Every pattern failing the comparison is empty.  The result is
+strictly stronger than multiplying the independent energy ceilings, but it
+still does not count any surviving pattern.
+
+The repository-wide inspection also confirms that the X4 four-column
+assembly does not yet print executable membership predicates for all four
+owners.  That is a real posedness debt, not a reason to weaken the local
+algebra: row-pattern replay and an operational first-owner compiler are the
+next two closure-bearing tasks.
+
+```text
+starting pin: 51da18d95; canonical 23df01a65; upstream main 93fba1be
+open upstream PRs: 30; none closes SP2 or prints the local X4 owner compiler
+lane: X4 / upstream SP2 low-degree difference incidence
+result: STRENGTHENED per-fold gates to one exact shared-energy norm product
+DAG status delta: +1 background PROVED child; target unchanged
+upstream terminal delta: portable OVERLAP multiscale filter for SP2; upstream SP remains open
+delta-star bracket movement: none
+new assumptions: none
+compute: no Modal; exhaustive exact audits over 12,266 signed pairs and 74,152 active subsets
+next: replay active patterns per consumed row; compile the four owner predicates; count survivors
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
