@@ -46,3 +46,7 @@ binom(n,r)/binom(j,r); identical growing-dimension failure), and
 as the open d = Theta(n) regime of the PROVED
 l1_rootfree_rational_q_projective_packing. A dimension-uniform
 split-locator max-to-mean theorem would serve all of them.
+
+**MYSTERY 7 MEMBERSHIP RATIFIED (2026-08-07, user):** member of
+mystery 7, "the dimension-uniform split-locator max-to-mean wall"
+(board of record: roadmap section 12, r5 update).

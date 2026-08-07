@@ -187,3 +187,7 @@ wall test (PROVED nodes are instances of it; (MF) is an instance,
 not the same statement; a |B|^{-s} vs q^{-sigma} normalization
 mismatch is unresolved). Source:
 notes/pilots_20260807/mf_wall_adversary/ (coordinator-replayed).
+
+**MYSTERY 7 MEMBERSHIP RATIFIED (2026-08-07, user):** this node is a
+member of mystery 7, "the dimension-uniform split-locator
+max-to-mean wall" (board of record: roadmap section 12, r5 update).

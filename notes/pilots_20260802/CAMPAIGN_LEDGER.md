@@ -3063,3 +3063,15 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   anomaly corroborated seed-specific. Nothing else changes. The
   provenance flag = CATCH-23B (resolved, rule standing). 23b is
   CLOSED.
+
+## 2026-08-07: MYSTERY 7 RATIFIED (user) — the dimension-uniform split-locator max-to-mean wall; board r5
+
+- Membership: the two FPC5 rate-half reds + f_global_packing_step
+  + the d = Theta(n) open regime of the PROVED rootfree packing
+  cell. NOT members: the large-source red (UNDECIDED pending the
+  t-petal lemma) and upstream master-flatness (no discriminating
+  power). Red accounting: 28 = 16 mystery-linked / 9 WCL-grind /
+  2 straddling / 1 undecided. Board of record updated (roadmap
+  section 12 r5, recompiled); membership lines on the three member
+  nodes. Basis: 23b unsuccessful falsification against a
+  power-validated test (the user's bar).
