@@ -2925,3 +2925,15 @@ pass this quarantine clause to any subagent they dispatch.
   number; the t-petal overlap-cap lemma (highest single-lemma
   leverage on the board).
 - Awaiting: ge_lattice_cert (the last of round 23).
+
+## USER RULING + ROUND 23B LAUNCHED (2026-08-07) — QUARANTINE MARKER
+
+RULING (user): mystery 7 is created ONLY on proof or strong
+evidence via UNSUCCESSFUL FALSIFICATION that the three FPC5 reds
+share one wall. The round-23 shape-pun identification is
+statement-level and does NOT meet the bar by itself. Launched:
+mf_wall_adversary — attack the classification; registered
+separation attempts + a mandatory falsifier-power control.
+Pilots MUST NOT read ledger entries below this marker; the live
+ge_lattice_cert dir is off-limits; banked round-23 dirs
+(fpc5_diag, cw_shared_target, c2pp_diag) are READABLE sources.
