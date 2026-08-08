@@ -36,7 +36,10 @@ only `xi=3` requires independent proof. The exact reciprocal-square theorem
 now excludes matching 0 and the universal transport pays its `xi=4` partner.
 Cell 4 is 77/105 paid; 28 labels in 16 quotient orbits remain. Independently,
 these are the 14 `xi=3` labels at matchings 1 through 14 in eight
-matching-exchange orbits.
+matching-exchange orbits. The reciprocal-linear theorem now pays `xi=3` at
+fixed matchings 1 and 2, and the universal transport pays both `xi=4`
+partners. Cell 4 is 81/105 paid. The live frontier is 24 labels in 12
+quotient orbits: 12 independent `xi=3` labels in six matching-exchange pairs.
 
 ## Node hierarchy
 
@@ -64,7 +67,9 @@ cell-4 four-basis tower
                      |
             xi3 matching 0 payment        [PROVED]
                      |
-          xi3 matchings 1 through 14       [next exact decision]
+          xi3 matchings 1 and 2           [PROVED]
+                     |
+          six matching-exchange pairs      [next exact decision]
                      |
              complete cell 4
                      |

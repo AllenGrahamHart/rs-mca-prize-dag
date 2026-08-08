@@ -37,8 +37,11 @@ certificates required by the challenge.
   directly at `xi=3` by the exact reciprocal-square census and transported
   to `xi=4`, raising the ledger to 77/105 paid labels. The retained frontier
   is 28 labels in 16 quotient orbits; only 14 `xi=3` labels in eight
-  matching-exchange orbits require independent proof. See
-  `rate_half_band_closure/attack_addenda/27-wave65-positive-433-cell4-xi3-pairing0.md`.
+  matching-exchange orbits require independent proof. The reciprocal-linear
+  census now closes fixed matchings 1 and 2 and transports both to `xi=4`.
+  Cell 4 is 81/105 paid; the retained frontier is 24 labels in 12 quotient
+  orbits, with 12 independent `xi=3` labels in six matching-exchange pairs.
+  See `rate_half_band_closure/attack_addenda/28-wave66-positive-433-cell4-xi3-pairings1-2.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
