@@ -21248,7 +21248,18 @@ new result:               all 6 F04 representatives PROVED empty
 affine frontier:          24 -> 18
 remaining blocks:         F06, M01, M03
 Modal:                    primary 118.01--521.10s; audit 47.01--79.93s
-next:                     classify the F06 block
+```
+
+The same dual exact test now closes all six `F06` representatives. This
+closes the represented `F06/F07` direct orbit block over the algebraic
+closure and `F_(p^6)`.
+
+```text
+new result:               all 6 F06 representatives PROVED empty
+affine frontier:          18 -> 12
+remaining blocks:         M01, M03
+Modal:                    primary 108.29--350.86s; audit 47.57--114.40s
+next:                     classify the M01 block
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

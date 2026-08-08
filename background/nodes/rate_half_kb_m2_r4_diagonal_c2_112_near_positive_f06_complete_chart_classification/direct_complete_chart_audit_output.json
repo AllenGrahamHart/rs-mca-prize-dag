@@ -1,0 +1,305 @@
+{
+  "results": {
+    "F06-A-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F06-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "6e5bdc3ea08b112c23bf86c11a0b138d078557fcc8c0c5cec34426192df3fdbe",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 40.228932685000004,
+          "basis_size": 1,
+          "cell": "F06-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "6e5bdc3ea08b112c23bf86c11a0b138d078557fcc8c0c5cec34426192df3fdbe",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 40.228932685000004,
+        "basis_size": 1,
+        "cell": "F06-A-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "6e5bdc3ea08b112c23bf86c11a0b138d078557fcc8c0c5cec34426192df3fdbe",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 541164,
+      "returncode": 0,
+      "seconds": 104.49001,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "c9d12d391854d87e30fa6126e1c14be31a9049be8d5dc9b7fd9f516f1438463e",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"6e5bdc3ea08b112c23bf86c11a0b138d078557fcc8c0c5cec34426192df3fdbe\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":40.228932685000004,\"basis_size\":1,\"cell\":\"F06-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"6e5bdc3ea08b112c23bf86c11a0b138d078557fcc8c0c5cec34426192df3fdbe\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F06-A-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F06-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "4d9164308a864fa53c0078cf4a0d3aedf053cc7927aa9208efdb82d42a10b182",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 13.931581442000002,
+          "basis_size": 1,
+          "cell": "F06-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "4d9164308a864fa53c0078cf4a0d3aedf053cc7927aa9208efdb82d42a10b182",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 13.931581442000002,
+        "basis_size": 1,
+        "cell": "F06-A-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "4d9164308a864fa53c0078cf4a0d3aedf053cc7927aa9208efdb82d42a10b182",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 535860,
+      "returncode": 0,
+      "seconds": 52.58713,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "fa94581a296203adbc2f4cb7b8553ee3e7522dd5ed9ec48a578e40e06583d7c5",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"4d9164308a864fa53c0078cf4a0d3aedf053cc7927aa9208efdb82d42a10b182\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":13.931581442000002,\"basis_size\":1,\"cell\":\"F06-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"4d9164308a864fa53c0078cf4a0d3aedf053cc7927aa9208efdb82d42a10b182\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F06-A-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F06-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "89fa40a0cae53abfa1a2f6562b0e273a91728c7f06a06129621f6e8020935d42",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 14.727431043000003,
+          "basis_size": 1,
+          "cell": "F06-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "89fa40a0cae53abfa1a2f6562b0e273a91728c7f06a06129621f6e8020935d42",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 14.727431043000003,
+        "basis_size": 1,
+        "cell": "F06-A-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "89fa40a0cae53abfa1a2f6562b0e273a91728c7f06a06129621f6e8020935d42",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 540896,
+      "returncode": 0,
+      "seconds": 47.574292,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "b4846feadf54664ed194db9416b51472e1e32309698d9c724d062e7991e24173",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"89fa40a0cae53abfa1a2f6562b0e273a91728c7f06a06129621f6e8020935d42\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":14.727431043000003,\"basis_size\":1,\"cell\":\"F06-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"89fa40a0cae53abfa1a2f6562b0e273a91728c7f06a06129621f6e8020935d42\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F06-OB-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F06-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "b9e1220cbd8ce5eac30c8cbc08245d25dd34118147e3ec4d49e27ec2524ef6ab",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 10.209074018999999,
+          "basis_size": 1,
+          "cell": "F06-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "b9e1220cbd8ce5eac30c8cbc08245d25dd34118147e3ec4d49e27ec2524ef6ab",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 10.209074018999999,
+        "basis_size": 1,
+        "cell": "F06-OB-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "b9e1220cbd8ce5eac30c8cbc08245d25dd34118147e3ec4d49e27ec2524ef6ab",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 530888,
+      "returncode": 0,
+      "seconds": 49.676424,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "20fca8bf0876d0b4346ac35e56bbca8164b3e357e52ab8f50ace255f93bb2420",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"b9e1220cbd8ce5eac30c8cbc08245d25dd34118147e3ec4d49e27ec2524ef6ab\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":10.209074018999999,\"basis_size\":1,\"cell\":\"F06-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"b9e1220cbd8ce5eac30c8cbc08245d25dd34118147e3ec4d49e27ec2524ef6ab\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F06-OB-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F06-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "d13ac0b7d1addb89d8afecce2677a062cbdd60b0b9af03c4c07018c30002d72e",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 57.985270873000005,
+          "basis_size": 1,
+          "cell": "F06-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "d13ac0b7d1addb89d8afecce2677a062cbdd60b0b9af03c4c07018c30002d72e",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 57.985270873000005,
+        "basis_size": 1,
+        "cell": "F06-OB-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "d13ac0b7d1addb89d8afecce2677a062cbdd60b0b9af03c4c07018c30002d72e",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 553212,
+      "returncode": 0,
+      "seconds": 114.4047,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "e3022ebd6aa60be390ba0f0478ff31858b4a869562379776b14f36bc575a1008",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"d13ac0b7d1addb89d8afecce2677a062cbdd60b0b9af03c4c07018c30002d72e\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":57.985270873000005,\"basis_size\":1,\"cell\":\"F06-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"d13ac0b7d1addb89d8afecce2677a062cbdd60b0b9af03c4c07018c30002d72e\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F06-OB-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F06-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "8ecf00bf8aff9d070c80f7056c42f4b71ef1d6f110c77fbc3c69d779637dd733",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 13.170004282,
+          "basis_size": 1,
+          "cell": "F06-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "8ecf00bf8aff9d070c80f7056c42f4b71ef1d6f110c77fbc3c69d779637dd733",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+          "localizer_product_terms": 566,
+          "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 13.170004282,
+        "basis_size": 1,
+        "cell": "F06-OB-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "8ecf00bf8aff9d070c80f7056c42f4b71ef1d6f110c77fbc3c69d779637dd733",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b",
+        "localizer_product_terms": 566,
+        "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 544892,
+      "returncode": 0,
+      "seconds": 49.402625,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "28b86fbb0fe9b22ca1a6eb45cf279750a737333de56a09f66ec609e52a116aab",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F06-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"8ecf00bf8aff9d070c80f7056c42f4b71ef1d6f110c77fbc3c69d779637dd733\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":13.170004282,\"basis_size\":1,\"cell\":\"F06-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"8ecf00bf8aff9d070c80f7056c42f4b71ef1d6f110c77fbc3c69d779637dd733\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"f29b4351caccad2aabb06696f4bb5b0b6526ec572b96dbe09dabd42526a1a96b\",\"localizer_product_terms\":566,\"schema\":\"kb-c2-112-near-positive-f06-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    }
+  },
+  "schema": "kb-c2-112-near-positive-f06-complete-chart-audit-modal-v1"
+}

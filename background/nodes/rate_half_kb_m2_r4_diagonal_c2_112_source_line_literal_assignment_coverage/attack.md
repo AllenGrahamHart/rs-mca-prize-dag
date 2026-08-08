@@ -13,8 +13,8 @@
 6. Treat the complete 36-cell aligned-positive aggregate as closed, including
    the exact direct-Singular `M01/M02-R11` balanced-pair theorem.
 7. Use the proved affine near-positive inversion transport and direct registry
-   to work on exactly the 18 current residual orbit representatives; do not
-   reopen the 12 canonical or any of the proved `F02` or `F04` orbits.
+   to work on exactly the 12 current residual orbit representatives; do not
+   reopen the 12 canonical or any proved `F02`, `F04`, or `F06` orbit.
    The reciprocal-pair-swap covariance route is refuted and must not be
    retried without a genuinely different complete-system map.
 8. Classify those representatives through the q-slice gate and record a

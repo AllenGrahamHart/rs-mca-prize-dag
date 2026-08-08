@@ -17,6 +17,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions`
 - **F04 complete-chart exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification`
+- **F06 complete-chart exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -125,6 +127,17 @@ orbit block is therefore closed. The current affine residual is exactly
 ```
 
 consisting of `18` representatives.
+
+The same dual exact calculation closes all six `F06` representatives:
+sequential complete-chart saturation is unit, and independent one-step
+Rabinowitsch ideals with all sixteen factors are `[1]`. Thus the represented
+`F06/F07` direct block is also empty. The current affine residual is
+
+```text
+{M01,M03} x {A,other} x {RX,RL,RM},               (KBCOV-6)
+```
+
+consisting of `12` representatives.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
