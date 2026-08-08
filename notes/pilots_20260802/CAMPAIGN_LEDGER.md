@@ -3209,3 +3209,21 @@ marker and MUST pass this quarantine clause to any subagent.
   false at two-odd-prime n; spine re-confirmed). Named next: the
   N = 32 sigma~0 band (new algorithm/Modal).
 - Awaiting: kernel_window_hunt, c2pp_gb_probe.
+
+## 2026-08-08: round-24 agent 3 BANKED — FAMILY-UNIFORM EMPTINESS IS FALSE (proven-prime witness at N'=128; the N'=256 falsifiers were banked-and-missed since July); the narrowing decision SURFACED
+
+- kernel_window_hunt BANKED: REPRO PASS replayed (Norm(w) = P
+  exactly at the BLS-proven 247-bit P = 1 mod 128 < 2^256; support
+  127 <= 2l'; non-cyclotomic). 20,636 W_TOP hits. CATCH-24C: the
+  e1_n256 audit dismissed a 248-bit witness as "harmless" via the
+  wrong bar (prize-interval vs admissibility) — eight N'=256
+  falsifiers banked since July, conclusion never drawn. DEPLOYED
+  ROWS PROTECTED: v_2(p-1) = 7 generic vs 92-200 pinned. The
+  pilot self-amended its novelty claims when its sweep returned
+  (two retractions; headline free). Addenda applied
+  (integer_code_distance_cert board event; generator_economy
+  universal reading refuted; CATCH-24C). CATCH-24B disclosed
+  (my broad git add swept this live pilot's dir; explicit-path
+  rule restated). USER DECISION SURFACED: exhibit-scoped /
+  o(1)-sparsity / large-v_2 narrowing.
+- Awaiting: c2pp_gb_probe (the last of round 24).

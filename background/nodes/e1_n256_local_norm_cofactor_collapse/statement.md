@@ -61,3 +61,14 @@ exact live prize list has seven values:
 In particular, the square-mass-16 profile has only five possible cofactors,
 not every integer below 64. This is a necessary norm shape, not a proof that
 the odd norm part is prime or lies in a live interval.
+
+## Round-24 catch (2026-08-08, CATCH-24C): this node's audit mis-filed a falsifying witness
+
+audit.md:44-47 dismisses a 248-bit prime as "below 2^250 and
+therefore harmless" — reading it only against the prize-interval
+bar (p >= B_P*2^128 ~ 2^255.9). Against the ADMISSIBILITY bar
+(p = 1 mod 256, p < 2^256) it is a folded-kernel WITNESS, one of
+eight banked since July 2026 that already refuted the
+family-uniform emptiness form at N' = 256. Filter bars must be
+named per consumer. See the round-24 board event on
+integer_code_distance_cert.
