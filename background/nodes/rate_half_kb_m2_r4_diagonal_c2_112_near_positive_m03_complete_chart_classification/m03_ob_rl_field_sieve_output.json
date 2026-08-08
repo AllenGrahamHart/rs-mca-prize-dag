@@ -1,0 +1,133 @@
+{
+  "result": {
+    "partial_payloads": [
+      {
+        "cell": "M03-OB-RL",
+        "equation_count": 4,
+        "localizer_count": 15,
+        "primary_basis_sha256": "4006c1563f261cf7fcbb0e5d4023443e7b3a28841f944f6408bb7ca6d81e76a1",
+        "primary_basis_size": 4,
+        "saturation_seconds": 65.804517276,
+        "schema": "kb-c2-112-near-positive-m03-ob-rl-field-sieve-v1",
+        "terminal": "SATURATED"
+      },
+      {
+        "c_eliminant_degree": 4,
+        "c_eliminant_sha256": "a42ee333b8ee435b4961cc9d9d0039586d1282be3d4d386e9250a7669f368f9c",
+        "c_eliminant_terms": 5,
+        "c_factor_degrees": [
+          {
+            "degree": 2,
+            "multiplicity": 1
+          },
+          {
+            "degree": 2,
+            "multiplicity": 1
+          }
+        ],
+        "c_factors": [
+          "c^2 + 148474327*c + 1",
+          "c^2 + 671028142*c + 1"
+        ],
+        "cell": "M03-OB-RL",
+        "eliminant_degree": 1,
+        "eliminant_sha256": "339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df",
+        "eliminant_terms": 2,
+        "equation_count": 4,
+        "f_p6_compatible_degrees": [
+          {
+            "degree": 2,
+            "multiplicity": 1
+          },
+          {
+            "degree": 2,
+            "multiplicity": 1
+          }
+        ],
+        "f_p6_empty_by_eliminant": false,
+        "factor_degrees": [
+          {
+            "degree": 1,
+            "multiplicity": 1
+          }
+        ],
+        "lex_basis": [
+          "b + c^3 + 819502469*c^2 - 327800980*c + 819502469",
+          "c^4 + 819502469*c^3 - 327800980*c^2 + 819502469*c + 1",
+          "d + 1"
+        ],
+        "lex_basis_sha256": "3322ad7d8d8efb28dc60a861306faad5f382ebc0c275efa879b86932d38605fa",
+        "lex_basis_size": 3,
+        "lex_seconds": 0.01315519199999926,
+        "localizer_count": 15,
+        "primary_basis_sha256": "4006c1563f261cf7fcbb0e5d4023443e7b3a28841f944f6408bb7ca6d81e76a1",
+        "primary_basis_size": 4,
+        "saturation_seconds": 65.804517276,
+        "schema": "kb-c2-112-near-positive-m03-ob-rl-field-sieve-v1",
+        "terminal": "F_P6_COMPATIBLE_FACTOR_REMAINS"
+      }
+    ],
+    "payload": {
+      "c_eliminant_degree": 4,
+      "c_eliminant_sha256": "a42ee333b8ee435b4961cc9d9d0039586d1282be3d4d386e9250a7669f368f9c",
+      "c_eliminant_terms": 5,
+      "c_factor_degrees": [
+        {
+          "degree": 2,
+          "multiplicity": 1
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1
+        }
+      ],
+      "c_factors": [
+        "c^2 + 148474327*c + 1",
+        "c^2 + 671028142*c + 1"
+      ],
+      "cell": "M03-OB-RL",
+      "eliminant_degree": 1,
+      "eliminant_sha256": "339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df",
+      "eliminant_terms": 2,
+      "equation_count": 4,
+      "f_p6_compatible_degrees": [
+        {
+          "degree": 2,
+          "multiplicity": 1
+        },
+        {
+          "degree": 2,
+          "multiplicity": 1
+        }
+      ],
+      "f_p6_empty_by_eliminant": false,
+      "factor_degrees": [
+        {
+          "degree": 1,
+          "multiplicity": 1
+        }
+      ],
+      "lex_basis": [
+        "b + c^3 + 819502469*c^2 - 327800980*c + 819502469",
+        "c^4 + 819502469*c^3 - 327800980*c^2 + 819502469*c + 1",
+        "d + 1"
+      ],
+      "lex_basis_sha256": "3322ad7d8d8efb28dc60a861306faad5f382ebc0c275efa879b86932d38605fa",
+      "lex_basis_size": 3,
+      "lex_seconds": 0.01315519199999926,
+      "localizer_count": 15,
+      "primary_basis_sha256": "4006c1563f261cf7fcbb0e5d4023443e7b3a28841f944f6408bb7ca6d81e76a1",
+      "primary_basis_size": 4,
+      "saturation_seconds": 65.804517276,
+      "schema": "kb-c2-112-near-positive-m03-ob-rl-field-sieve-v1",
+      "terminal": "F_P6_COMPATIBLE_FACTOR_REMAINS"
+    },
+    "peak_kb": 552924,
+    "returncode": 0,
+    "seconds": 103.228923,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nM03_OB_RL_FIELD_SIEVE_JSON {\"cell\":\"M03-OB-RL\",\"equation_count\":4,\"localizer_count\":15,\"primary_basis_sha256\":\"4006c1563f261cf7fcbb0e5d4023443e7b3a28841f944f6408bb7ca6d81e76a1\",\"primary_basis_size\":4,\"saturation_seconds\":65.804517276,\"schema\":\"kb-c2-112-near-positive-m03-ob-rl-field-sieve-v1\",\"terminal\":\"SATURATED\"}\nM03_OB_RL_FIELD_SIEVE_JSON {\"c_eliminant_degree\":4,\"c_eliminant_sha256\":\"a42ee333b8ee435b4961cc9d9d0039586d1282be3d4d386e9250a7669f368f9c\",\"c_eliminant_terms\":5,\"c_factor_degrees\":[{\"degree\":2,\"multiplicity\":1},{\"degree\":2,\"multiplicity\":1}],\"c_factors\":[\"c^2 + 148474327*c + 1\",\"c^2 + 671028142*c + 1\"],\"cell\":\"M03-OB-RL\",\"eliminant_degree\":1,\"eliminant_sha256\":\"339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df\",\"eliminant_terms\":2,\"equation_count\":4,\"f_p6_compatible_degrees\":[{\"degree\":2,\"multiplicity\":1},{\"degree\":2,\"multiplicity\":1}],\"f_p6_empty_by_eliminant\":false,\"factor_degrees\":[{\"degree\":1,\"multiplicity\":1}],\"lex_basis\":[\"b + c^3 + 819502469*c^2 - 327800980*c + 819502469\",\"c^4 + 819502469*c^3 - 327800980*c^2 + 819502469*c + 1\",\"d + 1\"],\"lex_basis_sha256\":\"3322ad7d8d8efb28dc60a861306faad5f382ebc0c275efa879b86932d38605fa\",\"lex_basis_size\":3,\"lex_seconds\":0.01315519199999926,\"localizer_count\":15,\"primary_basis_sha256\":\"4006c1563f261cf7fcbb0e5d4023443e7b3a28841f944f6408bb7ca6d81e76a1\",\"primary_basis_size\":4,\"saturation_seconds\":65.804517276,\"schema\":\"kb-c2-112-near-positive-m03-ob-rl-field-sieve-v1\",\"terminal\":\"F_P6_COMPATIBLE_FACTOR_REMAINS\"}\n"
+  },
+  "schema": "kb-c2-112-near-positive-m03-ob-rl-field-sieve-modal-v1"
+}

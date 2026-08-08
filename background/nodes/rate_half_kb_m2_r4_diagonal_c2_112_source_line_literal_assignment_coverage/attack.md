@@ -12,14 +12,11 @@
    recompute them.
 6. Treat the complete 36-cell aligned-positive aggregate as closed, including
    the exact direct-Singular `M01/M02-R11` balanced-pair theorem.
-7. Use the proved affine near-positive inversion transport and direct registry
-   to work on exactly the six current `M03` residual representatives; do not
-   reopen the 12 canonical or any proved `F02`, `F04`, `F06`, or `M01` block.
-   The reciprocal-pair-swap covariance route is refuted and must not be
-   retried without a genuinely different complete-system map.
-8. Classify those representatives through the q-slice gate and record a
-   first-match empty-cell certificate for each surviving representative.
-9. Audit the near-positive projective boundary, aligned-negative branch, and
+7. Treat the affine near-positive direct registry as closed: all 30 residual
+   representatives are excluded by the proved `F02`, `F04`, `F06`, `M01`,
+   and `M03` packets. Do not reopen them without a concrete falsifier. The
+   reciprocal-pair-swap covariance route is also refuted.
+8. Audit the near-positive projective boundary, aligned-negative branch, and
    near-negative branch separately; do not infer them from affine transport.
-10. Promote this node only after a machine-checked literal coverage table has
+9. Promote this node only after a machine-checked literal coverage table has
    no unclassified row.

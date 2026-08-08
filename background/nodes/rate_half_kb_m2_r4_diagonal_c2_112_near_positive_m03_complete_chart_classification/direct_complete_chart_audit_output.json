@@ -1,0 +1,329 @@
+{
+  "results": {
+    "M03-A-RL": {
+      "partial_payloads": [
+        {
+          "cell": "M03-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "943ab987e8392b91b0e1b8a90702faa5a6d8209b88a563a13a579feb13e5f5b9",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 6.883815151,
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "cell": "M03-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "943ab987e8392b91b0e1b8a90702faa5a6d8209b88a563a13a579feb13e5f5b9",
+          "expected_unit_ideal": true,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 6.883815151,
+        "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "basis_size": 1,
+        "cell": "M03-A-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "943ab987e8392b91b0e1b8a90702faa5a6d8209b88a563a13a579feb13e5f5b9",
+        "expected_unit_ideal": true,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+        "unit_ideal": true
+      },
+      "peak_kb": 522508,
+      "returncode": 0,
+      "seconds": 38.940721,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ca03e64e282c2d7c1dee8f6fe4bdb5526dc67cfe5863c0d8e0f8eb2883a150bd",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"943ab987e8392b91b0e1b8a90702faa5a6d8209b88a563a13a579feb13e5f5b9\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":6.883815151,\"basis_sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"basis_size\":1,\"cell\":\"M03-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"943ab987e8392b91b0e1b8a90702faa5a6d8209b88a563a13a579feb13e5f5b9\",\"expected_unit_ideal\":true,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_UNIT\",\"unit_ideal\":true}\n"
+    },
+    "M03-A-RM": {
+      "partial_payloads": [
+        {
+          "cell": "M03-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "5ab0d40ec95746620743fb6bbb1b9a9ff088107e62619ba7ceb6c0d5c0277cc8",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 16.651227255000002,
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "cell": "M03-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "5ab0d40ec95746620743fb6bbb1b9a9ff088107e62619ba7ceb6c0d5c0277cc8",
+          "expected_unit_ideal": true,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 16.651227255000002,
+        "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "basis_size": 1,
+        "cell": "M03-A-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "5ab0d40ec95746620743fb6bbb1b9a9ff088107e62619ba7ceb6c0d5c0277cc8",
+        "expected_unit_ideal": true,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+        "unit_ideal": true
+      },
+      "peak_kb": 524408,
+      "returncode": 0,
+      "seconds": 72.742559,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "cfbbec3695f435d2c2bbb9d9aac6b587e4d10fc2ff5deb3ae216859f833fb702",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"5ab0d40ec95746620743fb6bbb1b9a9ff088107e62619ba7ceb6c0d5c0277cc8\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":16.651227255000002,\"basis_sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"basis_size\":1,\"cell\":\"M03-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"5ab0d40ec95746620743fb6bbb1b9a9ff088107e62619ba7ceb6c0d5c0277cc8\",\"expected_unit_ideal\":true,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_UNIT\",\"unit_ideal\":true}\n"
+    },
+    "M03-A-RX": {
+      "partial_payloads": [
+        {
+          "cell": "M03-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "c9ce453a3c66cf949811275d896f16f02282fa3061ae81e87155b25d3e95bca8",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 8.670877995000005,
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "cell": "M03-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "c9ce453a3c66cf949811275d896f16f02282fa3061ae81e87155b25d3e95bca8",
+          "expected_unit_ideal": true,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 8.670877995000005,
+        "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "basis_size": 1,
+        "cell": "M03-A-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "c9ce453a3c66cf949811275d896f16f02282fa3061ae81e87155b25d3e95bca8",
+        "expected_unit_ideal": true,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+        "unit_ideal": true
+      },
+      "peak_kb": 534800,
+      "returncode": 0,
+      "seconds": 46.910876,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "d15ae3cd721e2ed5ad86f797fa53c3640279d58cc9aadc85353be775106a0a14",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"c9ce453a3c66cf949811275d896f16f02282fa3061ae81e87155b25d3e95bca8\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":8.670877995000005,\"basis_sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"basis_size\":1,\"cell\":\"M03-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"c9ce453a3c66cf949811275d896f16f02282fa3061ae81e87155b25d3e95bca8\",\"expected_unit_ideal\":true,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_UNIT\",\"unit_ideal\":true}\n"
+    },
+    "M03-OB-RL": {
+      "partial_payloads": [
+        {
+          "cell": "M03-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "429fa5ad98e19e14bbced4bbe182e7dbed2b00b6a20bc8ede240ca40dd541e3a",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 15.161831522,
+          "basis_sha256": "71d676489038b0111eb1f8a047e67f4fe668c543321ca352c8944e5f2ba4ccfa",
+          "basis_size": 7,
+          "cell": "M03-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "429fa5ad98e19e14bbced4bbe182e7dbed2b00b6a20bc8ede240ca40dd541e3a",
+          "expected_unit_ideal": false,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_SURVIVOR",
+          "unit_ideal": false
+        }
+      ],
+      "payload": {
+        "basis_seconds": 15.161831522,
+        "basis_sha256": "71d676489038b0111eb1f8a047e67f4fe668c543321ca352c8944e5f2ba4ccfa",
+        "basis_size": 7,
+        "cell": "M03-OB-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "429fa5ad98e19e14bbced4bbe182e7dbed2b00b6a20bc8ede240ca40dd541e3a",
+        "expected_unit_ideal": false,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_SURVIVOR",
+        "unit_ideal": false
+      },
+      "peak_kb": 544252,
+      "returncode": 0,
+      "seconds": 59.740564,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "91094dd9e415a6133bc4982a791cd89e39510bc894ae2ac5ea03876bc60d2fe1",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"429fa5ad98e19e14bbced4bbe182e7dbed2b00b6a20bc8ede240ca40dd541e3a\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":15.161831522,\"basis_sha256\":\"71d676489038b0111eb1f8a047e67f4fe668c543321ca352c8944e5f2ba4ccfa\",\"basis_size\":7,\"cell\":\"M03-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"429fa5ad98e19e14bbced4bbe182e7dbed2b00b6a20bc8ede240ca40dd541e3a\",\"expected_unit_ideal\":false,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_SURVIVOR\",\"unit_ideal\":false}\n"
+    },
+    "M03-OB-RM": {
+      "partial_payloads": [
+        {
+          "cell": "M03-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "f885d4a2d1b8b23546e26b7e6170e79ba7507beacd5a2d3baa30426be5f7f898",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 18.916851297,
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "cell": "M03-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "f885d4a2d1b8b23546e26b7e6170e79ba7507beacd5a2d3baa30426be5f7f898",
+          "expected_unit_ideal": true,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 18.916851297,
+        "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "basis_size": 1,
+        "cell": "M03-OB-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "f885d4a2d1b8b23546e26b7e6170e79ba7507beacd5a2d3baa30426be5f7f898",
+        "expected_unit_ideal": true,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+        "unit_ideal": true
+      },
+      "peak_kb": 545500,
+      "returncode": 0,
+      "seconds": 57.270901,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "479ff42dec0e5b6bd4441393b6a3d586f195b6e1a37e04cc5b104144c8ce1029",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"f885d4a2d1b8b23546e26b7e6170e79ba7507beacd5a2d3baa30426be5f7f898\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":18.916851297,\"basis_sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"basis_size\":1,\"cell\":\"M03-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"f885d4a2d1b8b23546e26b7e6170e79ba7507beacd5a2d3baa30426be5f7f898\",\"expected_unit_ideal\":true,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_UNIT\",\"unit_ideal\":true}\n"
+    },
+    "M03-OB-RX": {
+      "partial_payloads": [
+        {
+          "cell": "M03-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "641e2f2c40048332ef85b3c72d5f0cc64e3f90eac700c00ba2e774a76412f818",
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 32.68745996999999,
+          "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "basis_size": 1,
+          "cell": "M03-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "641e2f2c40048332ef85b3c72d5f0cc64e3f90eac700c00ba2e774a76412f818",
+          "expected_unit_ideal": true,
+          "localizer_count": 15,
+          "localizer_product_degree": 19,
+          "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 32.68745996999999,
+        "basis_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "basis_size": 1,
+        "cell": "M03-OB-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "641e2f2c40048332ef85b3c72d5f0cc64e3f90eac700c00ba2e774a76412f818",
+        "expected_unit_ideal": true,
+        "localizer_count": 15,
+        "localizer_product_degree": 19,
+        "localizer_product_sha256": "51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc",
+        "localizer_product_terms": 132,
+        "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_EXPECTED_UNIT",
+        "unit_ideal": true
+      },
+      "peak_kb": 541348,
+      "returncode": 0,
+      "seconds": 83.857263,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "17b64fbef1c8a3d4f799d77ae62ec8774e675fc94c677fe851279d6f13bcb1af",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"M03-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"641e2f2c40048332ef85b3c72d5f0cc64e3f90eac700c00ba2e774a76412f818\",\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":32.68745996999999,\"basis_sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"basis_size\":1,\"cell\":\"M03-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"641e2f2c40048332ef85b3c72d5f0cc64e3f90eac700c00ba2e774a76412f818\",\"expected_unit_ideal\":true,\"localizer_count\":15,\"localizer_product_degree\":19,\"localizer_product_sha256\":\"51788fdf71e758362bba74b0c96bde7f330dc088d19eff63d335c127ba877efc\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-m03-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_EXPECTED_UNIT\",\"unit_ideal\":true}\n"
+    }
+  },
+  "schema": "kb-c2-112-near-positive-m03-complete-chart-audit-modal-v1"
+}

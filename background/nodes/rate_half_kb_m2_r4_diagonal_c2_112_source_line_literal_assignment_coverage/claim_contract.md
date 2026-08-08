@@ -17,8 +17,8 @@
 | affine near-positive census | `108` semantic cells, exactly `42` restricted-transport orbits |
 | affine near-positive represented | `12` canonical `F00/M00` orbits |
 | affine near-positive direct registry | `30` explicit q-slice orbit representatives |
-| affine near-positive newly closed | all `F02`, `F04`, `F06`, and `M01/M02` direct blocks; the M01 survivor uses direct full-quotient replay |
-| affine near-positive residual | `6` representatives in `M03` |
+| affine near-positive newly closed | all `F02`, `F04`, `F06`, `M01/M02`, and `M03` direct blocks; the finite M01 and M03 survivors use direct full-quotient replay |
+| affine near-positive residual | none |
 | affine covariance route cut | reciprocal-pair swap transports targets but has no residual destination among the 12 assignments in either root order |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |
-| remaining frontier | 6 affine near-positive `M03` representatives; near-positive projective boundary; aligned-negative and near-negative literal coverage |
+| remaining frontier | near-positive projective boundary; aligned-negative and near-negative literal coverage |

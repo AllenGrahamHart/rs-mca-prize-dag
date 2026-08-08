@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification",
+    "title": "KoalaBear near-positive M03 complete-chart and quotient exclusions",
+    "status": "PROVED",
+    "closure": "the complete affine M03 direct block is excluded by q-slice emptiness or the first quotient norm",
+    "statement": "Over characteristic p=2130706433, five of the six M03 direct q-slice representatives have unit ideals after complete fifteen-factor chart localization in both sequential and one-step Rabinowitsch formulations. The surviving M03-OB-RL chart has a zero-dimensional lex basis whose c-eliminant is the product of two distinct irreducible quadratics, giving exactly four F_(p^2) points. Exact inversion closure enumerates four OB and four OI literal points. Fresh reconstruction verifies every point's endpoint equations and localizers, and all eight fail the first necessary normed colored-quotient identity Res_T(P_J,G) ~ K_5^4 chi_Omega^2. Hence the complete affine M03 direct block is excluded and the affine near-positive direct frontier decreases from six representatives to zero.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_classification_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_audit_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/direct_complete_chart_audit_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_field_sieve.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_field_sieve_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_field_sieve_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_first_quotient_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_first_quotient_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/m03_ob_rl_first_quotient_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"}
+  ],
+  "refutes": []
+}

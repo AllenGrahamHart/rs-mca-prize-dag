@@ -28,13 +28,14 @@ chart localization. Thus all six `F02` representatives are empty. Sequential
 complete-chart saturation and independent one-step Rabinowitsch ideals also
 close all six `F04` and all six `F06` representatives. Five `M01` cells are
 q-slice empty. The final two-point q-slice scheme and all eight literal
-companions fail the first quotient norm. The current affine packet consists
-of the six `M03` cells.
+companions fail the first quotient norm. Five of the six `M03` cells are
+likewise q-slice empty. The remaining chart has exactly four `F_(p^2)`
+points, and all eight literal `OB/OI` companions fail the first quotient norm
+under direct replay. The affine near-positive direct residual is empty.
 
-Those six q-slice representatives are the next finite work packet. The
-near-positive projective boundary and the aligned-negative and near-negative
-literal audits remain separate. All must close before the complete
-source-line theorem can return to PROVED.
+The near-positive projective boundary and the aligned-negative and
+near-negative literal audits remain separate. All must close before the
+complete source-line theorem can return to PROVED.
 
 The obvious reciprocal-pair-swap extension is closed as a route: exact
 target transport holds, but no literal destination carries the reconstructed

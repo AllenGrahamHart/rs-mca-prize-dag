@@ -21,6 +21,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification`
 - **M01 chart and quotient exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification`
+- **M03 chart and quotient exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -154,6 +156,20 @@ is exactly
 ```
 
 consisting of `6` representatives.
+
+Five of those six `M03` representatives also have unit complete-chart ideals
+under both exact formulations. The sole survivor, `M03-OB-RL`, has a
+zero-dimensional lex basis whose `c`-eliminant is the product of two distinct
+irreducible quadratics. It therefore has exactly four `F_(p^2)` points, all
+present over `F_(p^6)`. The inversion closure of those points is checked
+directly, but full quotient covariance is not assumed: all four `OB` points
+and all four `OI` companions are reconstructed independently. Each passes
+its endpoint, q-slice, and localizer controls and fails the first colored
+quotient norm. Consequently
+
+```text
+affine near-positive direct residual = empty.      (KBCOV-8)
+```
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

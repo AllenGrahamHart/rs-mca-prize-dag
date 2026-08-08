@@ -21277,6 +21277,23 @@ Modal:                    chart <=715.21s; audit <=135.24s; quotient 37.31s
 next:                     classify the M03 block
 ```
 
+The final `M03` affine block is now closed. Five complete-chart ideals are
+unit under both sequential saturation and one-step Rabinowitsch localization.
+The sole survivor, `M03-OB-RL`, has a lex basis whose quartic `c`-eliminant
+splits into two irreducible quadratics, hence exactly four `F_(p^2)` points.
+The inversion closure is checked exactly, but no full quotient transport is
+assumed: all four `OB` points and all four `OI` companions are reconstructed
+and directly rejected by the first necessary colored quotient norm.
+
+```text
+new result:               complete M03 direct block PROVED excluded
+affine frontier:          6 -> 0
+q-slice survivor:         4 F_(p^2) points; 8 literal quotient replays
+remaining affine block:   none
+Modal:                    chart <=191.05s; audit <=83.86s; field 103.23s; quotient 38.72s
+next:                     reconcile projective-boundary and negative literal audits
+```
+
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's
 corrected admissible F2 branch census, negacyclic minus branch, selector
 transport, and remaining normalized-band/common-divisor gaps already match
@@ -21284,4 +21301,8 @@ the local F2 decomposition. PR #1151's short-syzygy exclusion, prefix ladder,
 pair determinant, determinant chart, and canonical-owner packing likewise
 match existing LS6 nodes. Its open aggregate owner/prefix-flatness task is
 the same local rate-half `M=4,t=3` critical leaf. No frontier conflict or new
-Prize closure is imported from either packet.
+Prize closure is imported from either packet. Open PR #1149 remains at its
+aligned-positive `18 -> 16` route cut and explicitly leaves quotient parity
+and component classification open; it does not contain the affine
+near-positive `M03` result above. PR #1143 remains a separate coordinate-
+positive route.

@@ -11,10 +11,10 @@ fixed 24-cell packets + moving 12-cell packets
            108 -> 42 -> 12 + 30
                          |
                          v
- direct registry + F02/F04/F06/M01 closes (PROVED)
+ direct registry + F02/F04/F06/M01/M03 closes (PROVED)
                          |
                          v
-   6 affine reps + projective/negative audits (OPEN)
+ projective-boundary + negative literal audits (OPEN)
                          |
                          v
           literal-assignment coverage (TARGET)
@@ -29,5 +29,7 @@ The affine near-positive transport leaves 30 direct representatives. Four
 forbidden `c=d` collision. Dual complete-chart certificates then close all
 six `F04` and all six `F06` representatives. Five `M01` cells are q-slice
 empty; the last exact two-point orbit fails the first quotient norm under
-literal replay, leaving six `M03` representatives. The
-projective-boundary and negative-sign literal audits are separate.
+literal replay. Five `M03` cells are q-slice empty; the last exact four-point
+scheme fails the first quotient norm on all eight literal companions. Thus
+the affine direct residual is empty. The projective-boundary and
+negative-sign literal audits are separate.
