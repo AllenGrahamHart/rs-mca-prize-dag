@@ -3320,3 +3320,47 @@ compute:                   tiny local exact sparse-polynomial replay
 live compute requests:     none
 next:                      close the nine cell-4 xi3 matching orbits
 ```
+
+### Cell-4 xi3/xi4 pairing-0 closure
+
+For missing `df` at canonical matching 0, the first paired equation factors
+as
+
+```text
+paired(q,q) = 4 L_0(q) L_1(q)^2 L_2(q),
+q = de.
+```
+
+The three exhaustive branches `q=B_i/A_i` reduce the missing-sum equation
+and the second paired equation to quadratics in `y=1/d^2`. Their
+division-free resultant is normed through the exact four-basis cell-4 source
+tower. Complete exceptional-root replay across 24 internal branch rows finds
+200 candidate `r` values, 72 guarded source points, 64 `(y,d)` candidates,
+and 128 nonzero final-pair evaluations. There are no target boundaries,
+witnesses, free branches, or unresolved strata.
+
+The independent verifier recomputes every base-field root of the degree-up-
+to-592 norm polynomials, rebuilds all source lifts from the pinned structure
+and kernel, and reproduces every target terminal. The universal outside-role
+involution then transports the empty `xi=3` block to `xi=4` at matching 0.
+
+The two PROVED nodes pay 32 raw cases, two labels, and two quotient orbits.
+Cell 4 is now 77/105 paid. The live frontier is 28 labels in 16 quotient
+orbits; independently, 14 `xi=3` labels in eight matching-exchange orbits
+remain.
+
+```text
+starting pin:              0aa67b23a
+ending mathematical pin:  38c0f89a1
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing 0
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 32-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-ymGV72om2LOXCwxR8zKKlr
+live compute requests:     none
+next:                      classify and close the eight remaining matching orbits
+```
