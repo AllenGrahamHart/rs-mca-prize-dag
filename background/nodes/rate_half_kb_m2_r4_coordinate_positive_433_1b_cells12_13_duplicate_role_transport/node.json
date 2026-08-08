@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+    "title": "KoalaBear m2 r4 positive 433-1b duplicate-role cells 12-13 transport",
+    "status": "PROVED",
+    "closure": "exact B/C duplicate-role bijection of all 1680 signed principal systems from cell 12 to cell 13",
+    "statement": "Exchanging common target roles B,C, sending the singleton parameter t to -t, gauging D,E,F by sigma_c, and swapping outside records BF and sigma_c CF gives an exact bijection from every principal positive 433-1b system in source role cell 12 to one in cell 13. It preserves source signs, target lanes, common Vieta rows, outside products and squared sums, all guards, and bijects all 105 labels. Hence all 4 source-sign by 4 target-lane by 105 principal systems are transported. Together with the global product-rank-drop exclusion, complete emptiness of cell 12 implies complete emptiness of cell 13. This node does not assert the premise.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells12_13_duplicate_role_transport.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}

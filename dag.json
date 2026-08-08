@@ -29983,6 +29983,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 generic outside-label orbit quotient",
+   "status": "PROVED",
+   "closure": "exact reduction of the 105 generic cell-12 outside labels to 36 representatives under duplicate-positive-DE and D/E outside transports",
+   "statement": "On the generic leading-open principal branch of positive 433-1b source role cell 12, exchange of the two identical positive DE records and the universal D/E outside transport preserve every source equation, target equation, target lane, and guard. Their action partitions the 105 missing-record/residual-matching labels into exactly 36 orbits: three singleton, fifteen size-two, and eighteen size-four orbits. Therefore generic exclusion of one representative per orbit excludes all 105 labels. This is a workload quotient and closes no representative by itself.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_generic_label_orbit_router.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
    "title": "KoalaBear m2 r4 positive 433-1b cell-12 global common kernel",
    "status": "PROVED",
@@ -30423,6 +30444,27 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion/lineage.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "title": "KoalaBear m2 r4 positive 433-1b duplicate-role cells 12-13 transport",
+   "status": "PROVED",
+   "closure": "exact B/C duplicate-role bijection of all 1680 signed principal systems from cell 12 to cell 13",
+   "statement": "Exchanging common target roles B,C, sending the singleton parameter t to -t, gauging D,E,F by sigma_c, and swapping outside records BF and sigma_c CF gives an exact bijection from every principal positive 433-1b system in source role cell 12 to one in cell 13. It preserves source signs, target lanes, common Vieta rows, outside products and squared sums, all guards, and bijects all 105 labels. Hence all 4 source-sign by 4 target-lane by 105 principal systems are transported. Together with the global product-rank-drop exclusion, complete emptiness of cell 12 implies complete emptiness of cell 13. This node does not assert the premise.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells12_13_duplicate_role_transport.py"
    ]
   },
   {
@@ -58557,6 +58599,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "kind": "req"
   },
@@ -58567,6 +58614,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
    "kind": "req"
   },
@@ -58574,6 +58626,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
@@ -58589,6 +58646,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
@@ -58901,6 +58963,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -58917,12 +58984,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
    "kind": "req"
   },
   {
@@ -58972,6 +59049,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "kind": "req"
   },
@@ -58992,7 +59074,17 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
    "kind": "req"
   },
   {
@@ -59938,6 +60030,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
    "kind": "req"
   },
   {

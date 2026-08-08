@@ -42,7 +42,11 @@ zero-dimensional fibers with eight deployed rational points, and one
 sign-independent primitive kernel annihilates all ten common Vieta rows.
 All 105 outside labels in all four target lanes are now PROVED empty at each
 of those eight rational points. Thus only the generic elliptic leading-open
-chart remains on the principal cell-12 frontier. These are PROVED suppliers
+chart remains on the principal cell-12 frontier. Two universal outside
+involutions quotient its 105 labels to 36 exact representatives. An exact
+`B/C` duplicate-role transport is also ready: once cell 12 is empty, all
+1,680 signed principal cell-13 systems follow bijectively, while the global
+rank-drop theorem pays the complementary branch. These are PROVED suppliers
 for the `[12,13]` orbit, not a cell closure.
 
 ## Node hierarchy
@@ -97,9 +101,13 @@ cell-4 four-basis tower
                      |
        rational-boundary outside exclusion      [PROVED]
                      |
-       quotient/route generic 105 labels        [NEXT]
+       generic 105-to-36 label quotient          [PROVED]
                      |
-       close cell 12, transport to cell 13     [OPEN]
+       attack 36 generic representatives         [NEXT]
+                     |
+       close cell 12                              [OPEN]
+                     |
+       exact cell-12 -> cell-13 transport         [PROVED implication]
                      |
        audit role orbits [5,8], [9,10], [11]   [OPEN]
 ```
@@ -110,8 +118,9 @@ while source-sign rows and norm roots remain certificate records.
 ## Compute posture
 
 Use symmetry and source-only cuts before launching a census. Cell 12's
-rational boundary is already paid. The immediate generic router should
-classify reciprocal, equal-`DE`, and endpoint-compatible outside families
-against the fixed kernel without computing large norms. Modal jobs must be
-route-deciding and remain within the active protocol budget. Larger
-campaigns go to the deferred compute ledger.
+rational boundary is already paid and the generic ledger has 36
+representatives. The immediate router should classify those representatives
+as reciprocal, equal-`DE`, endpoint-compatible, or fully mixed against the
+fixed kernel without computing large norms. Modal jobs must be route-deciding
+and remain within the active protocol budget. Larger campaigns go to the
+deferred compute ledger.

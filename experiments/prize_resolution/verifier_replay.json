@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/verify.py",
-      "seconds": 0.0944,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify.py",
+      "seconds": 0.342538,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=12 boundary_points=8 lanes=4 labels=3360 witnesses=0 roots=0\n"
+      "stdout_tail": "cells=12,13 principal_systems=1680 transport=bijective\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/verify_audit.py",
-      "seconds": 0.731594,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify_audit.py",
+      "seconds": 0.023472,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok points=8 endpoint_profiles=2 square_ledgers=32\n"
+      "stdout_tail": "audit=ok role_cell=12->13 labels=105 systems=1680\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
