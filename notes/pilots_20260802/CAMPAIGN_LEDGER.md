@@ -3592,6 +3592,29 @@ marker and MUST pass this quarantine clause to any subagent.
   pass. Fable canonical is `00e28e1ba`; upstream reference pin is
   `93fba1be`. The next exact target is representative matching 7.
 
+## 2026-08-08: CODEX WAVE-70 READY (pin a5c7b864a) — cell-4 xi3/xi4 pairing-7/10 orbit closed
+
+- Missing `df` at matching 7 is PROVED empty. The exact quadratic
+  Sylvester resultant of the two non-lane paired equations, followed by
+  `z -> -z` elimination, reduces the system and missing-sum equation to a
+  linear-remainder common-root cut in the exact four-basis source tower.
+- Across eight source-sign/`sigma_c` rows, the exact ledger has eight degree-
+  4068 norms, 48 target roots, 64 candidate `r` roots, 32 guarded source
+  points, 16 compatible `z` values, 16 compatible `q` values, and 32
+  nonzero remaining-pair lane evaluations. There are no target boundaries,
+  witnesses, free branches, or unresolved strata. Final Modal app
+  `ap-CeL2YMFG6ppa6aHpWDhM3T`; independent resultant, root-union, source-
+  lift, and finite replay PASS under the 1 GB RAMguard ceiling.
+- Parallel-`DE` matching exchange supplies pairing 10, and universal
+  outside-role transport supplies both `xi=4` partners. Two new background
+  PROVED nodes pay 64 raw cases, four labels, and two quotient orbits. Cell
+  4 is now 97/105 paid; eight labels in four quotient orbits remain,
+  represented by four `xi=3` labels in two matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, manifest, and refactor checks
+  pass. Fable canonical `87ad3be1a` was merged cleanly; upstream reference
+  pin remains `93fba1be`. The next exact target is representative matching 8.
+
 ## 2026-08-08: WAVE-52 INTEGRATED (exact pin cfe023690) — 36 PROVED cell-4 nodes, 36/36 replayed; the campaign at 93/105; census unchanged
 
 - Delta ac7d90f26..cfe023690 (40 commits): the positive 433-1b
