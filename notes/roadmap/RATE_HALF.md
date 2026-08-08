@@ -56,6 +56,10 @@ The quadratic-resultant sign-free theorem now pays matching 7; matching
 exchange pays 10 and the universal transport pays both `xi=4` partners.
 Cell 4 is 97/105 paid. The live frontier is eight labels in four quotient
 orbits: four independent `xi=3` labels in two matching-exchange pairs.
+The exchanged-partner resultant theorem now pays matching 8; matching
+exchange pays 13 and the universal transport pays both `xi=4` partners.
+Cell 4 is 101/105 paid. The live frontier is four labels in two quotient
+orbits: two independent `xi=3` labels in the pair `{11,14}`.
 
 ## Node hierarchy
 
@@ -93,7 +97,9 @@ cell-4 four-basis tower
                      |
           pairing-7/10 exchange block       [PROVED]
                      |
-          two matching-exchange pairs       [next exact decision]
+          pairing-8/13 exchange block       [PROVED]
+                     |
+          pairing-11/14 exchange pair       [next exact decision]
                      |
              complete cell 4
                      |

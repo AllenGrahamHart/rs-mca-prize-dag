@@ -422,6 +422,10 @@ verified separately, so they do not rewrite that historical archive.
                 "critical/nodes/rate_half_band_closure/attack_addenda/32-wave70-positive-433-cell4-xi3-pairing7-10.md",
                 ("rate_half_band_closure",),
             ),
+            (
+                "critical/nodes/rate_half_band_closure/attack_addenda/33-wave71-positive-433-cell4-xi3-pairing8-13.md",
+                ("rate_half_band_closure",),
+            ),
         ),
         index="""# Rate-half adjacent-certificate attack index
 
@@ -504,6 +508,9 @@ still `TARGET`.
 - `attack_addenda/32-wave70-positive-433-cell4-xi3-pairing7-10.md`: exact
   quadratic-resultant sign-free exclusion at `xi=3`, matching 7, plus the
   matching-10 and both `xi=4` transports; two exchange pairs remain.
+- `attack_addenda/33-wave71-positive-433-cell4-xi3-pairing8-13.md`: exact
+  exchanged-partner quadratic-resultant exclusion at `xi=3`, matching 8,
+  plus the matching-13 and both `xi=4` transports; one exchange pair remains.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies
