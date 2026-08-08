@@ -3169,3 +3169,20 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   attack_addenda/, NEVER in attack_sections/; wave audits now
   include running verify_sectioned in the Codex tree at the pin
   BEFORE merging.
+
+## 2026-08-08: CODEX WAVE-52 READY (pin 733d52b0b) — cell-4 pairing-3 exact close; honest quotient composition
+
+- The deployed positive `433-1b -> O0a` cell-4 pairing-3 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The direct exceptional-root ledger has 312 candidate roots, 272
+  guarded source points, 96 nonzero colored terminals, 16 `f=0` boundaries,
+  zero witnesses, and zero unresolved branches. Final Modal app
+  `ap-VnOKofCGaEWi6SM8IN26qj`; independent finite replay PASS.
+- Exact quotient audit adds only `(xi,pairing)=(2,6)`, producing a 64-case
+  four-label/two-orbit block. A proposed six-label count was rejected because
+  the parallel-DE involution exchanges `xi=0,1` at fixed matching. Cell 4 is
+  now 13/105 paid labels, with 92 labels in 52 quotient orbits live.
+- Two new background PROVED nodes; critical census unchanged at
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass at the pin. Fable canonical remained at
+  `5c98633e1`; upstream main remained at `93fba1be`.
