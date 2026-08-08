@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1819,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 DE first-pair complete exclusion",
+    "status": "PROVED",
+    "closure": "all 144 cases with xi in {0,1,2} and pairing in {0,1,2} excluded by the common first-pair cut",
+    "statement": "In deployed positive 433-1b role cell 4, canonical matchings 0,1,2 all retain residual positions (0,1) as their first pair. For either positive DE omission this is the opposite-DE cut already excluded at matching zero; for the negative DE omission it is the equal-DE cut already excluded at matching zero. Thus all three parallel-DE omissions across the first three matchings, four source signs, and four target lanes are empty: 144 raw cases, nine of 105 slices. Ninety-six cell-4 slices remain.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
+      "order": 5045
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi1_pairing0_parallel_edge_transport",
+      "order": 5046
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion",
+      "order": 5047
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5048
+    }
+  ],
+  "refutes": []
+}

@@ -22,7 +22,9 @@ a four-element localized tower and a global coefficient kernel.  The
 `xi=0,pairing=0` slice is proved empty, exact parallel-copy transport pays
 `xi=1,pairing=0`, and a separate equal-`DE` norm/lift theorem pays
 `xi=2,pairing=0`. Thus all three parallel-`DE` omissions are closed at
-matching `0`: 3 of 105 missing/matching slices are paid and 102 remain.
+matching `0`. Canonical matchings `1` and `2` share the same first pair, so
+the three exclusions extend to the complete first-pair block. Nine of 105
+missing/matching slices are paid and 96 remain.
 
 ## Node hierarchy
 
@@ -36,7 +38,9 @@ cell-4 four-basis tower
                      v
        parallel-DE pairing0 closure      [PROVED]
                      |
-            matching-orbit blocks        [next mathematical decision]
+            DE first-pair block           [PROVED]
+                     |
+            remaining matching orbits    [next mathematical decision]
                      |
              complete cell 4
                      |

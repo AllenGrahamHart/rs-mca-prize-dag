@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/verify.py",
-      "seconds": 3.158995,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify.py",
+      "seconds": 0.040414,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 xi=2 pairing=0 signs=4 lanes=4 raw_cases=16 candidates=40 finite_points=16 witnesses=0\n"
+      "stdout_tail": "cell=4 de_first_pair slices=9 raw_cases=144 paid=9/105 remaining=96\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/verify_audit.py",
-      "seconds": 11.284913,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify_audit.py",
+      "seconds": 0.022175,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok rows=4 polynomials=44 candidates=40 finite=16\n"
+      "stdout_tail": "audit=ok canonical_matchings=15 first_pair_indices=0,1,2 slices=9 raw_cases=144\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

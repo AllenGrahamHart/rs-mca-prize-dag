@@ -589,3 +589,14 @@ pays another `16` raw cases and leaves `102` of the `105` cell-4
 missing/matching slices.  Test matching permutations `1` and `2` using the
 cell-3 missing-sum and parallel-edge transports before launching independent
 norm jobs.
+
+That matching test is now complete.  Canonical matchings `0`, `1`, and `2`
+are exactly the three perfect matchings whose first pair is residual positions
+`(0,1)`.  Consequently the three matching-zero exclusions transport directly
+to all three matchings: the opposite-`DE` cut pays `xi=0,1`, and the equal-
+`DE` cut pays `xi=2`.  The PROVED
+`rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion`
+closes `3*3*4*4=144` raw cases, or nine of the `105` slices.  The live cell-4
+ledger is `96` slices.  Matching `3`, whose first pair is `(0,2)`, is the
+first genuinely new pairing; quotient the remaining matching table by
+parallel-`DE` exchange and target-lane signs before another norm campaign.
