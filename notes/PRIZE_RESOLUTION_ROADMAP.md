@@ -21614,6 +21614,46 @@ compute:                   Modal apps ap-WZvIMr7B4J34FR0TsNOTqZ and ap-LI2VGTAZj
 live compute requests:     none
 next:                      quotient and attack the generic elliptic 105-label ledger
 ```
+
+### Cell-12 generic quotient and endpoint-role payment
+
+Two exact outside involutions first partitioned the 105 generic cell-12
+labels into 36 orbits with size profile `1^3 2^15 4^18`. The canonical orbit
+digest is pinned, and an independent constructor reproduces every orbit and
+hostile mutation. A separate exact `B/C` duplicate-role transport proves
+that complete cell-12 principal emptiness would transfer all 1,680 signed
+systems to cell `13`; this implication does not assert its still-open
+premise.
+
+The first positive payment used necessary source compatibility for the two
+endpoint roles. Exact zero-dimensional source cuts and deployed-root replay
+left 16 `BF` points and 24 `sigma_c CF` points across the four source-sign
+lanes. Primary guarded Singular ideals and independent unrestricted SymPy
+lex bases both found all 2,400 residual target systems to be unit. Combined
+with the previously paid rational boundary, this closes all 30 endpoint
+labels, or 12 generic orbits. Cell `12` now has 24 open representatives
+covering 75 labels.
+
+Reconciliation found the Fable tree clean and unchanged at `87ad3be1ad` and
+Przemek's tracked `origin/main` unchanged at `93fba1be3`. The upstream clone
+itself is on the existing one-commit PR branch; that branch position is not
+used as the upstream reference pin.
+
+```text
+starting pin:              50dd3854e
+ending mathematical pin:  ef89dd7cd
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED 30 endpoint labels; 105 -> 36 -> 24 representatives
+DAG status delta:          +3 background PROVED (1783 -> 1786); critical orbit unchanged
+upstream terminal delta:   portable symmetry and exact endpoint-exclusion packets, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-gCH6oQc1fW2VTAZcNiuDon, ap-wOtqklCmNfzcLPWGf9r6tS, ap-jrMESwKeGzouPFEPhqMscX, ap-33sFbnRJM7VZHWz9dAKmVU
+live compute requests:     none
+next:                      attack 24 generic representatives in roles xi=0,2,3
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
