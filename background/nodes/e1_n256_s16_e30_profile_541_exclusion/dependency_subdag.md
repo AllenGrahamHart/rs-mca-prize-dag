@@ -1,10 +1,15 @@
 # Dependency sub-DAG
 
 ```text
-e1_n256_s16_e30_profile_parity_light_reduction (PROVED) --+
-e1_n256_proper_conductor_collision_exclusion (PROVED) ----+--> E30 profile-(5,4,1)
-collision_norm_criterion (PROVED) ------------------------+    exclusion (PROVED)
+profile/parity reduction
+    --> profile-(5,4,1) relaxation certificate
+    --> profile-(5,4,1) actual-vector census
+    --> profile-(5,4,1) primitive norm certificate
+                                      --+
+proper-conductor exclusion ------------+--> profile-(5,4,1) exclusion
+collision_norm_criterion --------------+
 ```
 
-The node is an evidence supplier to `e1_official_prime_exception_control` and
+All displayed suppliers are `PROVED`.  The assembly node remains an evidence
+supplier to `e1_official_prime_exception_control` and
 `unsafe_crossing_family_instantiation`. Profile `(6,6)` remains open.

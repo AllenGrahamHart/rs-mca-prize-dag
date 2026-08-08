@@ -1,7 +1,7 @@
 # E1 N=256 E=30 profile-(6,6) exclusion
 
 - **status:** PROVED
-- **closure:** exact relaxation, complete actual-vector censuses, and exact norms
+- **closure:** proof assembly over three exact certificate nodes
 
 At `N=256`, folded profile `(3,4,0)`, and autocorrelation variance `V=60`,
 the magnitude profile `(6,6)` cannot occur in a pair-feasible collision.

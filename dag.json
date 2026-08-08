@@ -1272,7 +1272,7 @@
    "id": "e1_n256_s16_e30_profile_541_exclusion",
    "title": "N=256 E=30 profile-(5,4,1) exclusion",
    "status": "PROVED",
-   "closure": "computation",
+   "closure": "proof assembly",
    "refs": [
     "background/nodes/e1_n256_s16_e30_profile_541_exclusion/statement.md",
     "background/nodes/e1_n256_s16_e30_profile_541_exclusion/proof.md",
@@ -1282,24 +1282,7 @@
     "background/nodes/e1_n256_s16_e30_profile_541_exclusion/result.md",
     "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
     "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify_audit.py",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_census.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_norm_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_norm_result.json"
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify_audit.py"
    ],
    "statement": "At N=256, folded profile (3,4,0), and V=60, profile (5,4,1) cannot collide. Two 64-shard odd-difference relaxations agree on 2,924,654,040 assignments and 1,456 exceptions on 321 light orbits. Two actual-vector engines agree after 6,371,187,456 vectors per engine, leaving 86 full-conductor exceptions. FLINT and PARI put all 86 norms below threshold with 12*N_max<2^250<13*N_max.",
    "notes": "ROUTE CLOSURE 2026-07-27: removes profile (5,4,1). Profile (6,6) is the sole live V=60 profile."
@@ -1308,7 +1291,7 @@
    "id": "e1_n256_s16_e30_profile_66_exclusion",
    "title": "N=256 E=30 profile-(6,6) exclusion",
    "status": "PROVED",
-   "closure": "computation",
+   "closure": "proof assembly",
    "refs": [
     "background/nodes/e1_n256_s16_e30_profile_66_exclusion/statement.md",
     "background/nodes/e1_n256_s16_e30_profile_66_exclusion/proof.md",
@@ -1318,24 +1301,7 @@
     "background/nodes/e1_n256_s16_e30_profile_66_exclusion/result.md",
     "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
     "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/notes/e30_six_odd_mask_orbits_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_census.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit.cpp",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_result.json",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_norm_modal.py",
-    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_norm_result.json"
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py"
    ],
    "statement": "At N=256, folded profile (3,4,0), and V=60, profile (6,6) cannot collide. Two independent odd-difference engines agree on 1,234 masks and 44,779,702,968 assignments, leaving 33,737 exceptions on 1,191 masks. Two actual-vector engines agree after 23,638,891,776 vectors per engine, leaving 1,232 full-conductor exceptions. FLINT and PARI put all 1,232 norms below threshold with 4*N_max<2^250<5*N_max.",
    "notes": "ROUTE CLOSURE 2026-07-27: removes the final live V=60 profile."
@@ -28291,6 +28257,142 @@
    ]
   },
   {
+   "id": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+   "title": "N=256 E=30 profile-(5,4,1) relaxation certificate",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_result.json"
+   ],
+   "statement": "For E30 profile (5,4,1), two independent exact relaxations agree on all 2,924,654,040 assignments and leave exactly 1,456 M_3>1087 assignments on 321 of the 1,234 six-odd masks, with maximum 1278.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful first stage of the former composite exclusion node."
+  },
+  {
+   "id": "e1_n256_s16_e30_profile_541_actual_census_certificate",
+   "title": "N=256 E=30 profile-(5,4,1) actual-vector census",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_result.json"
+   ],
+   "statement": "For the 321 exceptional profile-(5,4,1) light orbits, two independent complete engines agree after 6,371,187,456 vectors on 45,846 profile vectors, 440 cubic exceptions, and exactly 86 full-conductor exceptions.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful second stage of the former composite exclusion node."
+  },
+  {
+   "id": "e1_n256_s16_e30_profile_541_primitive_norm_certificate",
+   "title": "N=256 E=30 profile-(5,4,1) primitive norm certificate",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_norm_result.json"
+   ],
+   "statement": "FLINT and PARI agree on all 86 primitive profile-(5,4,1) exceptional norms; there are 42 distinct values and the maximum satisfies 12*N_max<2^250<13*N_max.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful final computational stage of the former composite exclusion node."
+  },
+  {
+   "id": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+   "title": "N=256 E=30 profile-(6,6) relaxation certificate",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_result.json"
+   ],
+   "statement": "For E30 profile (6,6), two independent exact scans agree on all 44,779,702,968 assignments and leave exactly 33,737 M_3>1087 assignments on 1,191 of the 1,234 masks.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful first stage of the former composite exclusion node."
+  },
+  {
+   "id": "e1_n256_s16_e30_profile_66_actual_census_certificate",
+   "title": "N=256 E=30 profile-(6,6) actual-vector census",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_census.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_result.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit.cpp",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_result.json"
+   ],
+   "statement": "For 1,191 exceptional profile-(6,6) light orbits, two independent complete engines agree after 23,638,891,776 vectors on 240,672 profile vectors, 6,244 cubic exceptions, and exactly 1,232 full-conductor exceptions.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful second stage of the former composite exclusion node."
+  },
+  {
+   "id": "e1_n256_s16_e30_profile_66_primitive_norm_certificate",
+   "title": "N=256 E=30 profile-(6,6) primitive norm certificate",
+   "status": "PROVED",
+   "closure": "computation",
+   "refs": [
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/statement.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/proof.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/claim_contract.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/dependency_subdag.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/audit.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/result.md",
+    "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/verify.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_norm_modal.py",
+    "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_norm_result.json"
+   ],
+   "statement": "FLINT and PARI agree on all 1,232 primitive profile-(6,6) exceptional norms; there are 575 distinct values and the maximum satisfies 4*N_max<2^250<5*N_max.",
+   "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful final computational stage of the former composite exclusion node."
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -32544,11 +32646,6 @@
   {
    "from": "collision_norm_criterion",
    "to": "e1_n256_s16_e30_profile_422_exclusion",
-   "kind": "req"
-  },
-  {
-   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
-   "to": "e1_n256_s16_e30_profile_541_exclusion",
    "kind": "req"
   },
   {
@@ -51232,11 +51329,6 @@
    "kind": "ev"
   },
   {
-   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
-   "to": "e1_n256_s16_e30_profile_66_exclusion",
-   "kind": "req"
-  },
-  {
    "from": "e1_n256_proper_conductor_collision_exclusion",
    "to": "e1_n256_s16_e30_profile_66_exclusion",
    "kind": "req"
@@ -55845,6 +55937,66 @@
    "from": "dli_wcl_ell2_weight7_quadruple_cubic_prime_filter_router",
    "to": "dli_wcl_slot_2_7_emptiness",
    "kind": "ev"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+   "to": "e1_n256_s16_e30_profile_541_actual_census_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_actual_census_certificate",
+   "to": "e1_n256_s16_e30_profile_541_primitive_norm_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+   "to": "e1_n256_s16_e30_profile_541_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_actual_census_certificate",
+   "to": "e1_n256_s16_e30_profile_541_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_541_primitive_norm_certificate",
+   "to": "e1_n256_s16_e30_profile_541_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+   "to": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+   "to": "e1_n256_s16_e30_profile_66_actual_census_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_actual_census_certificate",
+   "to": "e1_n256_s16_e30_profile_66_primitive_norm_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_actual_census_certificate",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_n256_s16_e30_profile_66_primitive_norm_certificate",
+   "to": "e1_n256_s16_e30_profile_66_exclusion",
+   "kind": "req"
   },
   {
    "from": "b1_char0_giant_coset_theorem",

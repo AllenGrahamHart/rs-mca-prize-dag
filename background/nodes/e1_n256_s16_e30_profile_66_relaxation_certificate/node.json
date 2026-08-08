@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1815,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+    "title": "N=256 E=30 profile-(6,6) relaxation certificate",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_odd_difference_scan_audit_result.json"
+    ],
+    "statement": "For E30 profile (6,6), two independent exact scans agree on all 44,779,702,968 assignments and leave exactly 33,737 M_3>1087 assignments on 1,191 of the 1,234 masks.",
+    "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful first stage of the former composite exclusion node."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+      "order": 5036
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
+

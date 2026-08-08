@@ -8,115 +8,115 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify.py",
-      "seconds": 0.054413,
+      "script": "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify.py",
+      "seconds": 0.041395,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 charts=24 curve_dim=1 beta_boundary=unit kernels=4 rows=40\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_422_EXCLUSION_PASS masks=1234 assignments=29541960 exceptions=3 actual=6 full=2 max_bits=242 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify_audit.py",
-      "seconds": 0.04371,
+      "script": "background/nodes/e1_n256_s16_e30_profile_422_exclusion/verify_audit.py",
+      "seconds": 0.022693,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok charts=24 signs=4 beta_boundary=unit kernels=4\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_422_EXCLUSION_AUDIT_PASS masks=1234 assignments=29541960 exceptions=3 actual=6 full=2 max_bits=242 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify.py",
-      "seconds": 0.053137,
+      "script": "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/verify.py",
+      "seconds": 0.072056,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=0,1,2 pairings=0,1,2 raw_cases=144 computed=64 transported=32\n"
+      "stdout_tail": "E1_E30_PROFILE541_ACTUAL_CENSUS_CERTIFICATE_PASS templates=321 vectors=6371187456 profile=45846 exceptional=440 primitive=86\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify_audit.py",
-      "seconds": 0.039136,
+      "script": "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify.py",
+      "seconds": 0.077822,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok DE_copies=3 pairings=3 raw_cases=144 witnesses=0\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_541_EXCLUSION_PASS masks=1234 assignments=2924654040 exceptions=1456 templates=321 vectors=6371187456 actual=440 full=86 max_bits=247 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify.py",
-      "seconds": 0.071579,
+      "script": "background/nodes/e1_n256_s16_e30_profile_541_exclusion/verify_audit.py",
+      "seconds": 0.034465,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 pairing=3 DE_copies=3 raw_cases=48 computed=32 transported=16 witnesses=0\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_541_EXCLUSION_AUDIT_PASS assignments=2924654040 exceptions=1456 templates=321 vectors=6371187456 actual=440 full=86 max_bits=247 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify_audit.py",
-      "seconds": 0.093347,
+      "script": "background/nodes/e1_n256_s16_e30_profile_541_primitive_norm_certificate/verify.py",
+      "seconds": 0.070643,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32\n"
+      "stdout_tail": "E1_E30_PROFILE541_PRIMITIVE_NORM_CERTIFICATE_PASS vectors=86 distinct=42 max_bits=247\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify.py",
-      "seconds": 0.054282,
+      "script": "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/verify.py",
+      "seconds": 0.052782,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 charts=24 quotient=quadratic exact_reductions=240\n"
+      "stdout_tail": "E1_E30_PROFILE541_RELAXATION_CERTIFICATE_PASS masks=1234 exceptional_masks=321 assignments=2924654040 exceptions=1456\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify_audit.py",
-      "seconds": 0.043662,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/verify.py",
+      "seconds": 0.393953,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok charts=24 generators=3 reductions=240 outside=open\n"
+      "stdout_tail": "E1_E30_PROFILE66_ACTUAL_CENSUS_CERTIFICATE_PASS templates=1191 vectors=23638891776 profile=240672 exceptional=6244 primitive=1232\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify.py",
-      "seconds": 0.061239,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify.py",
+      "seconds": 0.388753,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=0 pairing=0 raw_cases=16 fibers=64 f_candidates=64 witnesses=0\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_66_EXCLUSION_PASS masks=1234 assignments=44779702968 exceptions=33737 templates=1191 vectors=23638891776 actual=6244 full=1232 max_bits=248 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify_audit.py",
-      "seconds": 0.055094,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_exclusion/verify_audit.py",
+      "seconds": 0.069826,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok xi=0 pairing=0 signs=4 lanes=4 raw_cases=16\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_66_EXCLUSION_AUDIT_PASS assignments=44779702968 exceptions=33737 templates=1191 vectors=23638891776 actual=6244 full=1232 max_bits=248 engines=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify.py",
-      "seconds": 0.055954,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_primitive_norm_certificate/verify.py",
+      "seconds": 0.387696,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 transport=xi0_to_xi1 pairing=0 raw_cases=16\n"
+      "stdout_tail": "E1_E30_PROFILE66_PRIMITIVE_NORM_CERTIFICATE_PASS vectors=1232 distinct=575 max_bits=248\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify_audit.py",
-      "seconds": 0.03909,
+      "script": "background/nodes/e1_n256_s16_e30_profile_66_relaxation_certificate/verify.py",
+      "seconds": 0.052249,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok parallel_positive_DE=2 pairing=0 transport=exact\n"
+      "stdout_tail": "E1_E30_PROFILE66_RELAXATION_CERTIFICATE_PASS masks=1234 exceptional_masks=1191 assignments=44779702968 exceptions=33737\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify.py",
-      "seconds": 0.054984,
+      "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify.py",
+      "seconds": 2.126623,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=3 xi=2 pairing=0 raw_cases=16 fibers=32 f_candidates=32 witnesses=0\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_PASS profiles=18 above=13 survivors=8 two=8168/87 six=280720/1097+ ledgers=6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify_audit.py",
-      "seconds": 0.052459,
+      "script": "background/nodes/e1_n256_s16_e30_profile_parity_light_reduction/verify_audit.py",
+      "seconds": 0.350387,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok xi=2 pairing=0 de=-m squared_sum=(d-e)^2 raw_cases=16\n"
+      "stdout_tail": "E1_N256_S16_E30_PROFILE_PARITY_LIGHT_REDUCTION_AUDIT_PASS recursive_profiles=18 hermite=independent matchings=complete two_orbits=87 mutations=4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

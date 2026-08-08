@@ -7,8 +7,12 @@ magnitude profile `(6,6)`.
 
 ## Inputs consumed
 
-- the exact E30 profile/parity reduction and cubic cutoff `M_3=1087`;
-- the complete six-odd mask atlas;
+- `e1_n256_s16_e30_profile_66_relaxation_certificate` for the exact relaxed
+  exceptional set;
+- `e1_n256_s16_e30_profile_66_actual_census_certificate` for the exact
+  actual-vector and conductor census;
+- `e1_n256_s16_e30_profile_66_primitive_norm_certificate` for the exact
+  primitive norm cap;
 - the proper-conductor collision exclusion;
 - the collision-norm criterion.
 

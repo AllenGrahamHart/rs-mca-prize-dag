@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1816,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_66_actual_census_certificate",
+    "title": "N=256 E=30 profile-(6,6) actual-vector census",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_66_actual_census_certificate/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_census.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_66_exclusion/notes/e30_profile66_exceptional_actual_audit_result.json"
+    ],
+    "statement": "For 1,191 exceptional profile-(6,6) light orbits, two independent complete engines agree after 23,638,891,776 vectors on 240,672 profile vectors, 6,244 cubic exceptions, and exactly 1,232 full-conductor exceptions.",
+    "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful second stage of the former composite exclusion node."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_66_relaxation_certificate",
+      "order": 5037
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
+

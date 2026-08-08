@@ -16,6 +16,11 @@ PROFILE = "e1_n256_s16_e30_profile_parity_light_reduction"
 CONDUCTOR = "e1_n256_proper_conductor_collision_exclusion"
 NORM = "collision_norm_criterion"
 TARGETS = ("e1_official_prime_exception_control", "unsafe_crossing_family_instantiation")
+STAGES = (
+    "e1_n256_s16_e30_profile_66_relaxation_certificate",
+    "e1_n256_s16_e30_profile_66_actual_census_certificate",
+    "e1_n256_s16_e30_profile_66_primitive_norm_certificate",
+)
 MAXIMUM_NORM = 384340001363476246612319029755636117549080229904040014178244445877664108548
 
 
@@ -168,7 +173,8 @@ def main() -> None:
     nodes = {node["id"]: node for node in dag["nodes"]}
     edges = {(edge["from"], edge["to"], edge.get("kind", "req")) for edge in dag["edges"]}
     assert nodes[NODE]["status"] == "PROVED"
-    for dependency in (PROFILE, CONDUCTOR, NORM):
+    assert nodes[PROFILE]["status"] == "PROVED"
+    for dependency in (*STAGES, CONDUCTOR, NORM):
         assert nodes[dependency]["status"] == "PROVED"
         assert (dependency, NODE, "req") in edges
     assert (NODE, ENDPOINT, "req") in edges

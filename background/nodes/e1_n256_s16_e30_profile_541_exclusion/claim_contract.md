@@ -7,8 +7,12 @@ magnitude profile `(5,4,1)`.
 
 ## Dependencies
 
-- `e1_n256_s16_e30_profile_parity_light_reduction` supplies the profile,
-  six-odd router, and cubic cutoff;
+- `e1_n256_s16_e30_profile_541_relaxation_certificate` supplies the exact
+  magnitude-layer exceptional set;
+- `e1_n256_s16_e30_profile_541_actual_census_certificate` supplies the exact
+  actual-vector and conductor census;
+- `e1_n256_s16_e30_profile_541_primitive_norm_certificate` supplies the exact
+  primitive norm cap;
 - `e1_n256_proper_conductor_collision_exclusion` removes the 354
   proper-conductor exceptions;
 - `collision_norm_criterion` turns the exact 86-vector norm ledger into

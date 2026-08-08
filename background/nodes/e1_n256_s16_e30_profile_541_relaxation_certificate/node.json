@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1812,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+    "title": "N=256 E=30 profile-(5,4,1) relaxation certificate",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_relaxation_certificate/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_odd_difference_relaxation_audit_result.json"
+    ],
+    "statement": "For E30 profile (5,4,1), two independent exact relaxations agree on all 2,924,654,040 assignments and leave exactly 1,456 M_3>1087 assignments on 321 of the 1,234 six-odd masks, with maximum 1278.",
+    "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful first stage of the former composite exclusion node."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_parity_light_reduction",
+      "order": 5030
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
+

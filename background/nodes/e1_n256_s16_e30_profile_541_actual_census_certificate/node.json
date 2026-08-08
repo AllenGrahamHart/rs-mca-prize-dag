@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1813,
+  "node": {
+    "id": "e1_n256_s16_e30_profile_541_actual_census_certificate",
+    "title": "N=256 E=30 profile-(5,4,1) actual-vector census",
+    "status": "PROVED",
+    "closure": "computation",
+    "refs": [
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/statement.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/proof.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/claim_contract.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/dependency_subdag.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/audit.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/result.md",
+      "background/nodes/e1_n256_s16_e30_profile_541_actual_census_certificate/verify.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/source_pin.json",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_census.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_result.json",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit.cpp",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_modal.py",
+      "background/nodes/e1_n256_s16_e30_profile_541_exclusion/notes/e30_profile541_exceptional_actual_audit_result.json"
+    ],
+    "statement": "For the 321 exceptional profile-(5,4,1) light orbits, two independent complete engines agree after 6,371,187,456 vectors on 45,846 profile vectors, 440 cubic exceptions, and exactly 86 full-conductor exceptions.",
+    "notes": "CERTIFICATE REFACTOR 2026-08-08: independently meaningful second stage of the former composite exclusion node."
+  },
+  "requires": [
+    {
+      "from": "e1_n256_s16_e30_profile_541_relaxation_certificate",
+      "order": 5031
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
+
