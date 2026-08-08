@@ -3170,7 +3170,7 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   include running verify_sectioned in the Codex tree at the pin
   BEFORE merging.
 
-## 2026-08-08: CODEX WAVE-52 READY (pin 733d52b0b) — cell-4 pairing-3 exact close; honest quotient composition
+## 2026-08-08: CODEX WAVE-52 READY (pin 25cf3aedf) — cell-4 pairing-3/6 exact close; honest quotient composition
 
 - The deployed positive `433-1b -> O0a` cell-4 pairing-3 block is PROVED:
   32 exact computed rows plus 16 identical-positive-copy transports close 48
@@ -3178,11 +3178,17 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   guarded source points, 96 nonzero colored terminals, 16 `f=0` boundaries,
   zero witnesses, and zero unresolved branches. Final Modal app
   `ap-VnOKofCGaEWi6SM8IN26qj`; independent finite replay PASS.
-- Exact quotient audit adds only `(xi,pairing)=(2,6)`, producing a 64-case
-  four-label/two-orbit block. A proposed six-label count was rejected because
-  the parallel-DE involution exchanges `xi=0,1` at fixed matching. Cell 4 is
-  now 13/105 paid labels, with 92 labels in 52 quotient orbits live.
-- Two new background PROVED nodes; critical census unchanged at
+- Exact quotient audit first added only `(xi,pairing)=(2,6)`, producing a
+  64-case four-label/two-orbit block. A proposed six-label count was rejected
+  because the parallel-DE involution exchanges `xi=0,1` at fixed matching.
+- A separate direct pairing-6 campaign then closed both positive omissions:
+  16 computed + 16 transported raw cases, 160 candidate roots, 176 guarded
+  source points, 48 missing-sum survivors, 96 nonzero colored terminals, and
+  zero boundaries/witnesses/unresolved. Final app
+  `ap-xIKZhX3GDN2uknjpfoFBMn`. The complete pairing-3/6 block is 96 raw
+  cases; cell 4 is now 15/105 paid labels, with 90 labels in 51 quotient
+  orbits live.
+- Four new background PROVED nodes; critical census unchanged at
   `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
   and negative-control checks pass at the pin. Fable canonical remained at
   `5c98633e1`; upstream main remained at `93fba1be`.

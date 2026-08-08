@@ -2852,3 +2852,38 @@ compute:                   bounded Modal, final app ap-VnOKofCGaEWi6SM8IN26qj
 live compute requests:     none
 next:                      direct xi0/1 pairing-6 replay or audited target swap
 ```
+
+### Cell-4 positive-DE pairing-6 completion
+
+The direct follow-on closed both previously open positive omissions at
+matching 6. The compiler swaps the signed `DE` values entering the two paired
+quadratics while retaining
+
+```text
+H(u,v)=de*(u+v)^2-s*u*v.
+```
+
+All 16 `xi=0` source/target sign rows are empty after exact exceptional-root
+lifting: 160 candidate roots, 176 guarded source points, 48 `H=0` pairs, and
+96 nonzero colored cuts. There are no target boundaries, witnesses, or
+unresolved branches. Identical-copy transport supplies `xi=1`.
+
+Together with the negative omission already transported from pairing 3, all
+six parallel-DE labels at pairings 3 and 6 are now paid. The cell-4 ledger
+moves from 92/52 live labels/orbits to 90/51.
+
+```text
+starting pin:              bc58c5afa
+ending mathematical pin:  25cf3aedf
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 6; complete P3/P6 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-xIKZhX3GDN2uknjpfoFBMn
+live compute requests:     none
+next:                      attack the matching orbit {4,9}
+```
