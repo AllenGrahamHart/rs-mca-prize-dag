@@ -11,10 +11,10 @@ fixed 24-cell packets + moving 12-cell packets
            108 -> 42 -> 12 + 30
                          |
                          v
- direct registry + F02/F04/F06/M01/M03 closes (PROVED)
+ affine direct + 48-cell boundary coverage (PROVED)
                          |
                          v
- projective-boundary + negative literal audits (OPEN)
+       aligned/near-negative literal audits (OPEN)
                          |
                          v
           literal-assignment coverage (TARGET)
@@ -31,5 +31,6 @@ six `F04` and all six `F06` representatives. Five `M01` cells are q-slice
 empty; the last exact two-point orbit fails the first quotient norm under
 literal replay. Five `M03` cells are q-slice empty; the last exact four-point
 scheme fails the first quotient norm on all eight literal companions. Thus
-the affine direct residual is empty. The projective-boundary and
-negative-sign literal audits are separate.
+the affine direct residual is empty. A direct 48-cell compiler separately
+closes the complete positive projective boundary. Only the aligned-negative
+and near-negative literal audits remain.

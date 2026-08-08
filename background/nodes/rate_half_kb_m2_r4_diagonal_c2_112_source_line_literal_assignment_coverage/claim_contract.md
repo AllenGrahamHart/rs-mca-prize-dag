@@ -19,6 +19,7 @@
 | affine near-positive direct registry | `30` explicit q-slice orbit representatives |
 | affine near-positive newly closed | all `F02`, `F04`, `F06`, `M01/M02`, and `M03` direct blocks; the finite M01 and M03 survivors use direct full-quotient replay |
 | affine near-positive residual | none |
+| positive projective boundary | all `12 x 4 = 48` literal cells PROVED q-slice empty under dual exact saturation |
 | affine covariance route cut | reciprocal-pair swap transports targets but has no residual destination among the 12 assignments in either root order |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |
-| remaining frontier | near-positive projective boundary; aligned-negative and near-negative literal coverage |
+| remaining frontier | aligned-negative and near-negative literal coverage |

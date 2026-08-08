@@ -16,7 +16,8 @@
    representatives are excluded by the proved `F02`, `F04`, `F06`, `M01`,
    and `M03` packets. Do not reopen them without a concrete falsifier. The
    reciprocal-pair-swap covariance route is also refuted.
-8. Audit the near-positive projective boundary, aligned-negative branch, and
-   near-negative branch separately; do not infer them from affine transport.
+8. Treat the positive projective boundary as closed by its direct 48-cell
+   literal compiler. Audit the aligned-negative and near-negative branches
+   separately; do not infer them from positive transport.
 9. Promote this node only after a machine-checked literal coverage table has
    no unclassified row.

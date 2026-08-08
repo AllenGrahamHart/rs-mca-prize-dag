@@ -33,8 +33,9 @@ likewise q-slice empty. The remaining chart has exactly four `F_(p^2)`
 points, and all eight literal `OB/OI` companions fail the first quotient norm
 under direct replay. The affine near-positive direct residual is empty.
 
-The near-positive projective boundary and the aligned-negative and
-near-negative literal audits remain separate. All must close before the
+All 48 literal positive projective-boundary cells are also q-slice empty
+under dual exact saturation certificates. The aligned-negative and
+near-negative literal audits remain separate. Both must close before the
 complete source-line theorem can return to PROVED.
 
 The obvious reciprocal-pair-swap extension is closed as a route: exact

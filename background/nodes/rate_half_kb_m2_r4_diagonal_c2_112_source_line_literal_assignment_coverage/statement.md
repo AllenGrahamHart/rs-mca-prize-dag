@@ -23,6 +23,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification`
 - **M03 chart and quotient exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification`
+- **projective-boundary literal coverage:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -171,9 +173,17 @@ quotient norm. Consequently
 affine near-positive direct residual = empty.      (KBCOV-8)
 ```
 
-Closing only the aligned-positive cells is insufficient unless the same
-literal-assignment audit validates the local aligned-negative and
-near-aligned coverage claims.
+The positive projective boundary is also literal rather than normalized.
+The twelve source-star assignments and four target roots give 48 cells.
+Direct homogeneous reconstruction and complete named-open localization prove
+all 48 q-slice ideals unit under both Rabinowitsch and sequential saturation:
+
+```text
+positive projective-boundary literal residual = empty. (KBCOV-9)
+```
+
+The remaining obligation is to validate literal coverage for the
+aligned-negative and near-negative claims.
 
 ## Falsifier
 

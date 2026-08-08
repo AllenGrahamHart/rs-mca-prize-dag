@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+    "title": "KoalaBear near-positive projective-boundary literal coverage",
+    "status": "PROVED",
+    "closure": "all 48 literal positive homogeneous boundary q-slice cells have unit complete-chart ideals",
+    "statement": "In the fixed literal frame J_0={2,1/2,b,1/b}, q_hom=Y(T-dY), and w=0, the twelve compatible internal edge assignments and four literal target roots give exactly 48 positive near-aligned projective-boundary cells. Direct 5 by 5 reconstruction is performed separately for every cell, without endpoint Möbius covariance. The finite and infinity residuals give four necessary projective q-slice coefficient equations. After localization by every label collision, internal and reconstruction determinant, projective-degree factor, and rational denominator, all 48 ideals are unit under both one-step Rabinowitsch localization and sequential saturation. Hence the positive projective-boundary literal residual is empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classification_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_sequential_audit_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_sequential_audit_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"}
+  ],
+  "refutes": []
+}

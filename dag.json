@@ -30324,6 +30324,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "title": "KoalaBear near-positive projective-boundary literal coverage",
+   "status": "PROVED",
+   "closure": "all 48 literal positive homogeneous boundary q-slice cells have unit complete-chart ideals",
+   "statement": "In the fixed literal frame J_0={2,1/2,b,1/b}, q_hom=Y(T-dY), and w=0, the twelve compatible internal edge assignments and four literal target roots give exactly 48 positive near-aligned projective-boundary cells. Direct 5 by 5 reconstruction is performed separately for every cell, without endpoint M\u00f6bius covariance. The finite and infinity residuals give four necessary projective q-slice coefficient equations. After localization by every label collision, internal and reconstruction determinant, projective-degree factor, and rational denominator, all 48 ideals are unit under both one-step Rabinowitsch localization and sequential saturation. Hence the positive projective-boundary literal residual is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classify.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classify_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_classification_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_sequential_audit_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/literal_boundary_sequential_audit_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
    "status": "PROVED",
@@ -30370,7 +30391,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all F02, F04, and F06 representatives. The M01/M02 block and the final M03 block are excluded by complete-chart classifications followed by direct first-quotient replay on their finite survivors. The affine near-positive direct residual is therefore empty. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Separate near-positive projective-boundary, aligned-negative, and near-negative literal audits remain.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all F02, F04, and F06 representatives. The M01/M02 block and the final M03 block are excluded by complete-chart classifications followed by direct first-quotient replay on their finite survivors. The affine near-positive direct residual is therefore empty. A separate direct compiler proves all 48 literal positive projective-boundary cells q-slice empty without endpoint normalization. The natural reciprocal-pair-swap centralizer extension is exactly refuted. The aligned-negative and near-negative literal audits remain.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -57579,6 +57600,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "kind": "ev"
@@ -57617,6 +57643,11 @@
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_pseudoremainder_determinant_reduction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
@@ -57674,6 +57705,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
    "kind": "req"
@@ -57716,6 +57752,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
    "kind": "req"
   },
   {

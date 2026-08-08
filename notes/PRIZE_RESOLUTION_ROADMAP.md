@@ -21294,6 +21294,20 @@ Modal:                    chart <=191.05s; audit <=83.86s; field 103.23s; quotie
 next:                     reconcile projective-boundary and negative literal audits
 ```
 
+The positive projective boundary is now literal as well. A direct
+homogeneous compiler reconstructs all twelve source-star assignments against
+all four literal target roots, giving `48` cells rather than relying on the
+old seven normalized shards. Every complete named-open ideal is unit under
+both one-step Rabinowitsch localization and sequential saturation.
+
+```text
+new result:               positive projective-boundary literal coverage PROVED
+literal census:           48/48 q-slice empty, with 48/48 independent audits
+remaining literal gaps:   aligned-negative and near-negative
+Modal:                    primary <=7.96s/cell; audit <=8.94s/cell; peak <=349572 KiB
+next:                     compile the two negative-sign literal censuses
+```
+
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's
 corrected admissible F2 branch census, negacyclic minus branch, selector
 transport, and remaining normalized-band/common-divisor gaps already match
