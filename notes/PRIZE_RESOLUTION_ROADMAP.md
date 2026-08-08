@@ -21209,6 +21209,50 @@ compute:                   bounded Modal, final app ap-ymGV72om2LOXCwxR8zKKlr
 live compute requests:     none
 next:                      classify and close the eight remaining matching orbits
 ```
+
+### Cell-4 xi3/xi4 pairings-1/2 closure
+
+For missing `df` at canonical matchings 1 and 2, the repeated pair again
+forces one of the three exhaustive coefficient-ratio branches
+`q=B_i/A_i`, where `q=de`. With `z=1/d`, the missing-sum relation is the
+even quartic
+
+```text
+M(z)=1+(2m-s)z^2+m^2z^4,
+```
+
+while the matching-specific second paired relation is quadratic. Exact
+division in the four-basis source tower leaves a linear remainder
+`r_0+r_1z`; the division-free common-root cut
+`r_1^2 p_0-r_1 r_0 p_1+p_2 r_0^2` is then normed to the base field.
+
+Across 36 internal branch rows, complete exceptional-root replay finds 360
+candidate `r` values and 216 guarded source points. Matching 1 has no common
+`z` lift. Matching 2 has 32 common lifts and 64 final-lane evaluations, all
+nonzero. The target-boundary, witness, free-branch, and unresolved ledgers
+are empty. An independent verifier rebuilds every root union and finite
+lift, and the universal outside-role involution transports both exclusions
+from `xi=3` to `xi=4`.
+
+The two PROVED nodes pay 64 raw cases, four labels, and four quotient orbits.
+Cell 4 is now 81/105 paid. The live frontier is 24 labels in 12 quotient
+orbits, represented by 12 `xi=3` labels in six matching-exchange pairs.
+
+```text
+starting pin:              e15b62d59
+ending mathematical pin:  d2cdb61c0
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairings 1 and 2
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-FvpQcJ8FuxEK0TRI6DiZet
+live compute requests:     none
+next:                      close representative matching 3, then transport to 6 and xi4
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
