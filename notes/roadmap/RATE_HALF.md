@@ -48,6 +48,10 @@ pairs. The nested q/z sign-free theorem now pays matching 4; matching
 exchange pays 9 and the universal transport pays both `xi=4` partners.
 Cell 4 is 89/105 paid. The live frontier is 16 labels in eight quotient
 orbits: eight independent `xi=3` labels in four matching-exchange pairs.
+The colored second-pair nested theorem now pays matching 5; matching
+exchange pays 12 and the universal transport pays both `xi=4` partners.
+Cell 4 is 93/105 paid. The live frontier is 12 labels in six quotient
+orbits: six independent `xi=3` labels in three matching-exchange pairs.
 
 ## Node hierarchy
 
@@ -81,7 +85,9 @@ cell-4 four-basis tower
                      |
           pairing-4/9 exchange block        [PROVED]
                      |
-          four matching-exchange pairs      [next exact decision]
+          pairing-5/12 exchange block       [PROVED]
+                     |
+          three matching-exchange pairs     [next exact decision]
                      |
              complete cell 4
                      |

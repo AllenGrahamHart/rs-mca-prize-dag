@@ -49,8 +49,12 @@ certificates required by the challenge.
   matching 4; the two exact transports close matching 9 and both `xi=4`
   partners. Cell 4 is 89/105 paid. The retained frontier is 16 labels in
   eight quotient orbits, represented by eight `xi=3` labels in four
-  matching-exchange pairs. See
-  `rate_half_band_closure/attack_addenda/30-wave68-positive-433-cell4-xi3-pairing4-9.md`.
+  matching-exchange pairs. The colored second-pair nested census now closes
+  matching 5; the two exact transports close matching 12 and both `xi=4`
+  partners. Cell 4 is 93/105 paid. The retained frontier is 12 labels in six
+  quotient orbits, represented by six `xi=3` labels in three matching-
+  exchange pairs. See
+  `rate_half_band_closure/attack_addenda/31-wave69-positive-433-cell4-xi3-pairing5-12.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
