@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_orbit_exclusion/verify.py",
-      "seconds": 0.045713,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_complete_exclusion/verify.py",
+      "seconds": 0.042868,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 new_labels=4 new_orbits=2 raw_cases=64 paid_labels=13 live_labels=92 live_orbits=52\n"
+      "stdout_tail": "cell=4 pairings=3,6 labels=6 raw_cases=96 live_labels=90 live_orbits=51\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_orbit_exclusion/verify_audit.py",
-      "seconds": 0.037648,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_complete_exclusion/verify_audit.py",
+      "seconds": 0.023556,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok direct=48 transported=16 overclaim_fenced=32\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_complete_exclusion/verify.py",
-      "seconds": 21.765381,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=4 pairing=3 DE_copies=3 raw_cases=48 computed=32 transported=16 candidates=312 source_points=272 colored_nonzero=96 f_zero=16 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_complete_exclusion/verify_audit.py",
-      "seconds": 0.05331,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok cell=4 pairing=3 exceptional_roots=lifted\n"
+      "stdout_tail": "audit=ok labels=6 orbits=3 raw=96 live=90/51\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

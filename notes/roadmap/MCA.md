@@ -24,8 +24,8 @@ certificates required by the challenge.
   `PROVED`; pinned PR #1144/#1149 material has been independently replayed.
 - The live coordinate-positive `433-1b -> O0a` role-cell-4 ledger has an
   exact parallel-`DE` quotient with 60 orbits. The first-pair block and the
-  pairing-3 nested-quadratic theorem now pay 13 of 105 labels, leaving 92
-  labels in 52 orbits. In particular `(xi,pairing)=(0,6),(1,6)` remain open;
+  pairing-3/pairing-6 nested-quadratic theorems now pay 15 of 105 labels,
+  leaving 90 labels in 51 orbits. The next matching orbit begins at `{4,9}`;
   see `rate_half_band_closure/attack_addenda/14-wave52-positive-433-cell4-pairing3.md`.
 
 These labels are route families rather than substitute hypotheses.  A

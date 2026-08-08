@@ -69,3 +69,41 @@ The nearest exact action is to run the same nested-quadratic compiler for
 the two positive omissions at pairing 6, or prove an independently audited
 target-swap transport. No cell, route, K3 value, or Prize endpoint closes at
 this stage.
+
+## Pairing-6 follow-on
+
+The direct route completed in the same wave. The PROVED node
+
+```text
+rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing6_complete_exclusion
+```
+
+computes `xi=0` for all 16 source/target sign rows and transports the
+identical positive copy `xi=1`. Its exact ledger is
+
+```text
+candidate r roots            160
+guarded source points         176
+all (u,v) pairs               608
+missing-sum failures          560
+missing-sum survivors          48
+nonzero colored terminals      96
+boundaries / witnesses         0 / 0
+unresolved                       0
+```
+
+Final Modal app: `ap-xIKZhX3GDN2uknjpfoFBMn`.
+
+Composing this with the already paid negative omission gives the PROVED
+complete pairing-3/6 block: six labels, three quotient orbits, and 96 raw
+cases. The superseding cell-4 ledger is
+
+```text
+paid labels                   15 / 105
+live labels                   90
+paid quotient orbits           9 / 60
+live quotient orbits          51
+```
+
+The next live matching representatives begin with the orbit `{4,9}`; no
+cell, route, K3 value, or Prize endpoint closes yet.
