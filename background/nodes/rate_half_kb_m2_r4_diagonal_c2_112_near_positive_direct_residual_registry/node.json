@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+    "title": "KoalaBear near-positive 30-cell direct residual registry",
+    "status": "PROVED",
+    "closure": "exact direct compiler for all 30 residual affine literal orbit representatives",
+    "statement": "The affine near-positive literal frontier remaining after the exact inversion transports is the disjoint 5-by-2-by-3 registry with assignment representatives F02,F04,F06,M01,M03, target-root representatives A,OB, and allocations RX,RL,RM. Generic 5-by-5 source reconstruction over QQ(b,c,d) compiles each cell to four nonzero cleared q-slice equations together with its complete radical named-open localizer set. The registry contains exactly 30 cells and 120 equations, has SHA-256 2607f88572c63091b06a1c35dd55c80a3e4f10daff2fb3423f5bb8c03f0f116e, maximum equation total degree 30, maximum 1,098 terms, and no four-equation common factor in any cell. This is a compiler and census, not an emptiness theorem.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_compile.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_compile_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

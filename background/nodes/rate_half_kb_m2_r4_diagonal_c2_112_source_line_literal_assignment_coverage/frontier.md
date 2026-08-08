@@ -21,11 +21,16 @@ The affine near-positive literal frontier is now exact:
                    -> 12 represented + 30 residual.
 ```
 
-Those 30 q-slice representatives are the next finite work packet. The
+The 30-cell direct registry is complete. Dual exact saturation certificates
+close four `F02` square-allocation orbits, so the current affine packet has
+26 representatives: the two `F02` mixed cells and all 24 cells from
+`F04,F06,M01,M03`.
+
+Those 26 q-slice representatives are the next finite work packet. The
 near-positive projective boundary and the aligned-negative and near-negative
 literal audits remain separate. All must close before the complete
 source-line theorem can return to PROVED.
 
 The obvious reciprocal-pair-swap extension is closed as a route: exact
 target transport holds, but no literal destination carries the reconstructed
-residual pair. Direct first-match classification is now the route of record.
+residual pair. Direct first-match classification is the route of record.

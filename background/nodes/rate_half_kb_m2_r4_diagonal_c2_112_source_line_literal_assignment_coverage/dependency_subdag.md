@@ -11,7 +11,10 @@ fixed 24-cell packets + moving 12-cell packets
            108 -> 42 -> 12 + 30
                          |
                          v
-  30 affine reps + projective/negative audits (OPEN)
+ direct 30-cell registry + 4 F02 square closes (PROVED)
+                         |
+                         v
+  26 affine reps + projective/negative audits (OPEN)
                          |
                          v
           literal-assignment coverage (TARGET)
@@ -21,5 +24,6 @@ fixed 24-cell packets + moving 12-cell packets
 ```
 
 The TARGET remains a logical leaf. Its aligned-positive subbranch is complete.
-The affine near-positive transport is exact but leaves 30 representatives;
+The affine near-positive transport leaves 30 direct representatives; four
+`F02` square orbits are now closed, leaving 26. The
 projective-boundary and negative-sign literal audits are separate.

@@ -21213,6 +21213,26 @@ route cut:                reciprocal-pair-swap covariance REFUTED
 next:                     compile and first-match classify the 30 representatives directly
 ```
 
+The direct compiler now fingerprints all 30 representatives as four-equation
+ideals with complete radical named opens. The first exact block closes four
+orbits:
+
+```text
+F02-A-RX, F02-A-RL, F02-OB-RX, F02-OB-RL.
+```
+
+Sequential saturation over characteristic `2130706433` returns unit in all
+four cells, and independent one-step Rabinowitsch ideals `<I,1-yL>` agree.
+The two `F02` mixed cells remain nonunit after all ten localizer factors and
+are retained. The current direct affine frontier is therefore `26`, not 30.
+
+```text
+new results:              30-cell direct registry PROVED; 4 F02 square orbits PROVED empty
+affine frontier:          30 -> 26
+mixed F02:                2 exact nonunit schemes retained
+next:                     classify the two F02 mixed schemes, then the F04 block
+```
+
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's
 corrected admissible F2 branch census, negacyclic minus branch, selector
 transport, and remaining normalized-band/common-divisor gaps already match

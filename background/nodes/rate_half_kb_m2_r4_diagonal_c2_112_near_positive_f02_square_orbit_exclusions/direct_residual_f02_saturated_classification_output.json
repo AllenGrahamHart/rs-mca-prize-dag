@@ -1,0 +1,4145 @@
+{
+  "block": "F02",
+  "results": {
+    "F02-A-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ]
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 1.5428704039999985,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.3520558969999996,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.514677642999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.607739045999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.617917501000001,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.26139592999999905,
+          "basis_size": 52,
+          "cell": "F02-A-RL",
+          "degrees": [
+            20,
+            19,
+            17,
+            17
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 1,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": true
+            }
+          ],
+          "saturation_seconds": 2.620155372999996,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_UNIT_IDEAL",
+          "terms": [
+            294,
+            264,
+            209,
+            210
+          ],
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.26139592999999905,
+        "basis_size": 52,
+        "cell": "F02-A-RL",
+        "degrees": [
+          20,
+          19,
+          17,
+          17
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 46,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 41,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 34,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 21,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 6,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 1,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": true
+          }
+        ],
+        "saturation_seconds": 2.620155372999996,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_UNIT_IDEAL",
+        "terms": [
+          294,
+          264,
+          209,
+          210
+        ],
+        "unit_ideal": true
+      },
+      "peak_kb": 509900,
+      "returncode": 0,
+      "seconds": 46.483149,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "b567eba5dc9a9aff2f9cc4d2b5e6236f36f9be749ad3023107da844f12e1540a",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[294,264,209,210]}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":1.5428704039999985,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":2.3520558969999996,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":2.514677642999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":2.607739045999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":6,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":2.617917501000001,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,209,210],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.26139592999999905,\"basis_size\":52,\"cell\":\"F02-A-RL\",\"degrees\":[20,19,17,17],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":6,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":1,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":true}],\"saturation_seconds\":2.620155372999996,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_UNIT_IDEAL\",\"terms\":[294,264,209,210],\"unit_ideal\":true}\n"
+    },
+    "F02-A-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ]
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 1.959819779,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.264962836999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.6579586379999967,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.7664673319999977,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.7965249239999963,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.799532401999997,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.800890832999997,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.8030533219999967,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.8045676260000008,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.807139894999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.2794826750000041,
+          "basis_size": 62,
+          "cell": "F02-A-RM",
+          "degrees": [
+            19,
+            19,
+            19,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 3.807139894999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_NONUNIT_IDEAL",
+          "terms": [
+            264,
+            263,
+            264,
+            264
+          ],
+          "unit_ideal": false
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.2794826750000041,
+        "basis_size": 62,
+        "cell": "F02-A-RM",
+        "degrees": [
+          19,
+          19,
+          19,
+          19
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 55,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 45,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 35,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 28,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 11,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 9,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": false
+          },
+          {
+            "basis_size": 9,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 6,
+            "unit": false
+          },
+          {
+            "basis_size": 9,
+            "factor_degree": 2,
+            "factor_terms": 2,
+            "index": 7,
+            "unit": false
+          },
+          {
+            "basis_size": 9,
+            "factor_degree": 2,
+            "factor_terms": 4,
+            "index": 8,
+            "unit": false
+          },
+          {
+            "basis_size": 8,
+            "factor_degree": 3,
+            "factor_terms": 6,
+            "index": 9,
+            "unit": false
+          }
+        ],
+        "saturation_seconds": 3.807139894999999,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_NONUNIT_IDEAL",
+        "terms": [
+          264,
+          263,
+          264,
+          264
+        ],
+        "unit_ideal": false
+      },
+      "peak_kb": 511000,
+      "returncode": 0,
+      "seconds": 48.184989,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "c80a3d00ff7b702898b3920474deccc93763c24d26370192dc9d3972ea28cce0",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[264,263,264,264]}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":1.959819779,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":3.264962836999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":3.6579586379999967,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":3.7664673319999977,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":3.7965249239999963,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false}],\"saturation_seconds\":3.799532401999997,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false}],\"saturation_seconds\":3.800890832999997,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false}],\"saturation_seconds\":3.8030533219999967,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false}],\"saturation_seconds\":3.8045676260000008,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":8,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":false}],\"saturation_seconds\":3.807139894999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.2794826750000041,\"basis_size\":62,\"cell\":\"F02-A-RM\",\"degrees\":[19,19,19,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":45,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":35,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":11,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":9,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":9,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":8,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":false}],\"saturation_seconds\":3.807139894999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_NONUNIT_IDEAL\",\"terms\":[264,263,264,264],\"unit_ideal\":false}\n"
+    },
+    "F02-A-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ]
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 1.6891997580000009,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.4885984420000042,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.6419648890000005,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.7261773670000053,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 2.7357329020000023,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.3236477680000007,
+          "basis_size": 56,
+          "cell": "F02-A-RX",
+          "degrees": [
+            18,
+            18,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 46,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 41,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 34,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 21,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 1,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": true
+            }
+          ],
+          "saturation_seconds": 2.738083263,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_UNIT_IDEAL",
+          "terms": [
+            229,
+            231,
+            294,
+            260
+          ],
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.3236477680000007,
+        "basis_size": 56,
+        "cell": "F02-A-RX",
+        "degrees": [
+          18,
+          18,
+          20,
+          19
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 46,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 41,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 34,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 21,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 6,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 1,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": true
+          }
+        ],
+        "saturation_seconds": 2.738083263,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_UNIT_IDEAL",
+        "terms": [
+          229,
+          231,
+          294,
+          260
+        ],
+        "unit_ideal": true
+      },
+      "peak_kb": 507816,
+      "returncode": 0,
+      "seconds": 37.243993,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "0b8f9c156acda87da89c25d1cb7bf69e02a79df757dc18d03ddc353c1435d047",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[229,231,294,260]}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":1.6891997580000009,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":2.4885984420000042,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":2.6419648890000005,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":2.7261773670000053,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":6,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":2.7357329020000023,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[229,231,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.3236477680000007,\"basis_size\":56,\"cell\":\"F02-A-RX\",\"degrees\":[18,18,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":46,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":41,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":34,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":21,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":6,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":1,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":true}],\"saturation_seconds\":2.738083263,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_UNIT_IDEAL\",\"terms\":[229,231,294,260],\"unit_ideal\":true}\n"
+    },
+    "F02-OB-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ]
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.132204737000002,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 9.920051814999994,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.527668778000006,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.925612388000005,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.966843858999994,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.968434283999997,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.969503564000007,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.971867867,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.972997880999998,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.7018927700000006,
+          "basis_size": 67,
+          "cell": "F02-OB-RL",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 58,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 51,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 44,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 3,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 1,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": true
+            }
+          ],
+          "saturation_seconds": 10.975656740999995,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_UNIT_IDEAL",
+          "terms": [
+            294,
+            264,
+            384,
+            306
+          ],
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 1.7018927700000006,
+        "basis_size": 67,
+        "cell": "F02-OB-RL",
+        "degrees": [
+          20,
+          19,
+          20,
+          19
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 58,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 51,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 44,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 28,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 8,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 3,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": false
+          },
+          {
+            "basis_size": 3,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 6,
+            "unit": false
+          },
+          {
+            "basis_size": 3,
+            "factor_degree": 2,
+            "factor_terms": 2,
+            "index": 7,
+            "unit": false
+          },
+          {
+            "basis_size": 3,
+            "factor_degree": 2,
+            "factor_terms": 4,
+            "index": 8,
+            "unit": false
+          },
+          {
+            "basis_size": 1,
+            "factor_degree": 3,
+            "factor_terms": 6,
+            "index": 9,
+            "unit": true
+          }
+        ],
+        "saturation_seconds": 10.975656740999995,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_UNIT_IDEAL",
+        "terms": [
+          294,
+          264,
+          384,
+          306
+        ],
+        "unit_ideal": true
+      },
+      "peak_kb": 514660,
+      "returncode": 0,
+      "seconds": 63.984431,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "7f3c647b4b301e172551b5c90210f5034565ff77b6b60976afb3b2e99475fe18",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[294,264,384,306]}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":7.132204737000002,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":9.920051814999994,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":10.527668778000006,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":10.925612388000005,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":10.966843858999994,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false}],\"saturation_seconds\":10.968434283999997,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false}],\"saturation_seconds\":10.969503564000007,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":3,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false}],\"saturation_seconds\":10.971867867,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":3,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":3,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false}],\"saturation_seconds\":10.972997880999998,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[294,264,384,306],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.7018927700000006,\"basis_size\":67,\"cell\":\"F02-OB-RL\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":58,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":51,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":44,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":28,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":8,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":3,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":3,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":3,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":1,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":true}],\"saturation_seconds\":10.975656740999995,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_UNIT_IDEAL\",\"terms\":[294,264,384,306],\"unit_ideal\":true}\n"
+    },
+    "F02-OB-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ]
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 10.172099457000002,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 17.772165278000003,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 20.651396004999995,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.177533963000002,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.416483955000004,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.436596977999997,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.443089639999997,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.451107675000003,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 14,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.467837457,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 14,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 13,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.47766833,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 1.4921199409999986,
+          "basis_size": 80,
+          "cell": "F02-OB-RM",
+          "degrees": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 72,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 14,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 13,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 22.47766833,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_NONUNIT_IDEAL",
+          "terms": [
+            329,
+            340,
+            328,
+            340
+          ],
+          "unit_ideal": false
+        }
+      ],
+      "payload": {
+        "basis_seconds": 1.4921199409999986,
+        "basis_size": 80,
+        "cell": "F02-OB-RM",
+        "degrees": [
+          20,
+          20,
+          20,
+          20
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 72,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 67,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 57,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 40,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 22,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 17,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": false
+          },
+          {
+            "basis_size": 17,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 6,
+            "unit": false
+          },
+          {
+            "basis_size": 17,
+            "factor_degree": 2,
+            "factor_terms": 2,
+            "index": 7,
+            "unit": false
+          },
+          {
+            "basis_size": 14,
+            "factor_degree": 2,
+            "factor_terms": 4,
+            "index": 8,
+            "unit": false
+          },
+          {
+            "basis_size": 13,
+            "factor_degree": 3,
+            "factor_terms": 6,
+            "index": 9,
+            "unit": false
+          }
+        ],
+        "saturation_seconds": 22.47766833,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_NONUNIT_IDEAL",
+        "terms": [
+          329,
+          340,
+          328,
+          340
+        ],
+        "unit_ideal": false
+      },
+      "peak_kb": 526604,
+      "returncode": 0,
+      "seconds": 79.692017,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "4fbb0511bbd1075c333e32fb6f2aa62dd02fc783570caacb1d8e14813a92b564",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[329,340,328,340]}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":10.172099457000002,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":17.772165278000003,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":20.651396004999995,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":22.177533963000002,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":22.416483955000004,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false}],\"saturation_seconds\":22.436596977999997,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false}],\"saturation_seconds\":22.443089639999997,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":17,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false}],\"saturation_seconds\":22.451107675000003,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":17,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":14,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false}],\"saturation_seconds\":22.467837457,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":17,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":14,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":13,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":false}],\"saturation_seconds\":22.47766833,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":1.4921199409999986,\"basis_size\":80,\"cell\":\"F02-OB-RM\",\"degrees\":[20,20,20,20],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":72,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":67,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":57,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":40,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":22,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":17,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":17,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":14,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":13,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":false}],\"saturation_seconds\":22.47766833,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_NONUNIT_IDEAL\",\"terms\":[329,340,328,340],\"unit_ideal\":false}\n"
+    },
+    "F02-OB-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "CELL_COMPILED",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ]
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "UNSATURATED_NONUNIT_IDEAL",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 4.172406864999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 6.329530378999998,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 6.822511741999996,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.1717380890000015,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.206976365999999,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.208949914999998,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.211181214999996,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.212262875,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            }
+          ],
+          "saturation_seconds": 7.213359865000001,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATION_PROGRESS",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": false
+        },
+        {
+          "basis_seconds": 0.9062833139999995,
+          "basis_size": 70,
+          "cell": "F02-OB-RX",
+          "degrees": [
+            20,
+            19,
+            20,
+            19
+          ],
+          "equation_count": 4,
+          "localizer_count": 10,
+          "saturation_progress": [
+            {
+              "basis_size": 61,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 0,
+              "unit": false
+            },
+            {
+              "basis_size": 55,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 1,
+              "unit": false
+            },
+            {
+              "basis_size": 48,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 2,
+              "unit": false
+            },
+            {
+              "basis_size": 30,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 3,
+              "unit": false
+            },
+            {
+              "basis_size": 10,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 4,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 5,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 1,
+              "factor_terms": 2,
+              "index": 6,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 2,
+              "factor_terms": 2,
+              "index": 7,
+              "unit": false
+            },
+            {
+              "basis_size": 5,
+              "factor_degree": 2,
+              "factor_terms": 4,
+              "index": 8,
+              "unit": false
+            },
+            {
+              "basis_size": 1,
+              "factor_degree": 3,
+              "factor_terms": 6,
+              "index": 9,
+              "unit": true
+            }
+          ],
+          "saturation_seconds": 7.215600764999998,
+          "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+          "terminal": "SATURATED_UNIT_IDEAL",
+          "terms": [
+            383,
+            305,
+            294,
+            260
+          ],
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.9062833139999995,
+        "basis_size": 70,
+        "cell": "F02-OB-RX",
+        "degrees": [
+          20,
+          19,
+          20,
+          19
+        ],
+        "equation_count": 4,
+        "localizer_count": 10,
+        "saturation_progress": [
+          {
+            "basis_size": 61,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 0,
+            "unit": false
+          },
+          {
+            "basis_size": 55,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 1,
+            "unit": false
+          },
+          {
+            "basis_size": 48,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 2,
+            "unit": false
+          },
+          {
+            "basis_size": 30,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 3,
+            "unit": false
+          },
+          {
+            "basis_size": 10,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 4,
+            "unit": false
+          },
+          {
+            "basis_size": 5,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 5,
+            "unit": false
+          },
+          {
+            "basis_size": 5,
+            "factor_degree": 1,
+            "factor_terms": 2,
+            "index": 6,
+            "unit": false
+          },
+          {
+            "basis_size": 5,
+            "factor_degree": 2,
+            "factor_terms": 2,
+            "index": 7,
+            "unit": false
+          },
+          {
+            "basis_size": 5,
+            "factor_degree": 2,
+            "factor_terms": 4,
+            "index": 8,
+            "unit": false
+          },
+          {
+            "basis_size": 1,
+            "factor_degree": 3,
+            "factor_terms": 6,
+            "index": 9,
+            "unit": true
+          }
+        ],
+        "saturation_seconds": 7.215600764999998,
+        "schema": "kb-c2-112-near-literal-direct-cell-classifier-v1",
+        "terminal": "SATURATED_UNIT_IDEAL",
+        "terms": [
+          383,
+          305,
+          294,
+          260
+        ],
+        "unit_ideal": true
+      },
+      "peak_kb": 518032,
+      "returncode": 0,
+      "seconds": 48.016059,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "745e021e31838611149899ee8d04b48c5a239dc38efbccdd325189143b43989c",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_JSON {\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"CELL_COMPILED\",\"terms\":[383,305,294,260]}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"UNSATURATED_NONUNIT_IDEAL\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false}],\"saturation_seconds\":4.172406864999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false}],\"saturation_seconds\":6.329530378999998,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false}],\"saturation_seconds\":6.822511741999996,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false}],\"saturation_seconds\":7.1717380890000015,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false}],\"saturation_seconds\":7.206976365999999,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false}],\"saturation_seconds\":7.208949914999998,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false}],\"saturation_seconds\":7.211181214999996,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":5,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false}],\"saturation_seconds\":7.212262875,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":5,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":5,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false}],\"saturation_seconds\":7.213359865000001,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATION_PROGRESS\",\"terms\":[383,305,294,260],\"unit_ideal\":false}\nDIRECT_CELL_JSON {\"basis_seconds\":0.9062833139999995,\"basis_size\":70,\"cell\":\"F02-OB-RX\",\"degrees\":[20,19,20,19],\"equation_count\":4,\"localizer_count\":10,\"saturation_progress\":[{\"basis_size\":61,\"factor_degree\":1,\"factor_terms\":2,\"index\":0,\"unit\":false},{\"basis_size\":55,\"factor_degree\":1,\"factor_terms\":2,\"index\":1,\"unit\":false},{\"basis_size\":48,\"factor_degree\":1,\"factor_terms\":2,\"index\":2,\"unit\":false},{\"basis_size\":30,\"factor_degree\":1,\"factor_terms\":2,\"index\":3,\"unit\":false},{\"basis_size\":10,\"factor_degree\":1,\"factor_terms\":2,\"index\":4,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":5,\"unit\":false},{\"basis_size\":5,\"factor_degree\":1,\"factor_terms\":2,\"index\":6,\"unit\":false},{\"basis_size\":5,\"factor_degree\":2,\"factor_terms\":2,\"index\":7,\"unit\":false},{\"basis_size\":5,\"factor_degree\":2,\"factor_terms\":4,\"index\":8,\"unit\":false},{\"basis_size\":1,\"factor_degree\":3,\"factor_terms\":6,\"index\":9,\"unit\":true}],\"saturation_seconds\":7.215600764999998,\"schema\":\"kb-c2-112-near-literal-direct-cell-classifier-v1\",\"terminal\":\"SATURATED_UNIT_IDEAL\",\"terms\":[383,305,294,260],\"unit_ideal\":true}\n"
+    }
+  },
+  "saturate": true,
+  "schema": "kb-c2-112-near-literal-direct-cell-classifier-modal-v1"
+}

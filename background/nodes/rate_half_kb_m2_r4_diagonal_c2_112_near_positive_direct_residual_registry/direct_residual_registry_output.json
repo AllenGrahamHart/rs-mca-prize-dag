@@ -1,0 +1,2631 @@
+{
+  "result": {
+    "payload": {
+      "allocations": [
+        "RX",
+        "RL",
+        "RM"
+      ],
+      "assignments": [
+        "F02",
+        "F04",
+        "F06",
+        "M01",
+        "M03"
+      ],
+      "cell_count": 30,
+      "cells": [
+        {
+          "assignment": "F02",
+          "cell": "F02-A-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "68b360789ba4bfd4ccc3846b371bac5c53369d759ad65e06b7467facffe3291a",
+          "equations": [
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                6
+              ],
+              "sha256": "57cea5497b1c63d7c50138a944d1ab0de757f23cc14e1fb83f36dc3dfcf51d84",
+              "terms": 229,
+              "text_bytes": 3613,
+              "total_degree": 18
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                6
+              ],
+              "sha256": "3607851cf79d996ff7bc714839b40f399795e7c07dfd9d6a125ef14b83482778",
+              "terms": 231,
+              "text_bytes": 3599,
+              "total_degree": 18
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                8
+              ],
+              "sha256": "913e3f57b3505c1abd044224f89d641daa0e54ef9b093fba8c8567f33e2f352c",
+              "terms": 294,
+              "text_bytes": 4714,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "e09a77b6562384ac6de1df1b773fcd96c0653de1baaffa6ab09eb7a46b079dda",
+              "terms": 260,
+              "text_bytes": 4208,
+              "total_degree": 19
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RX"
+        },
+        {
+          "assignment": "F02",
+          "cell": "F02-A-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "e45b1b4c9a8cb30f183e4b590c125979e6eae5f37bde5e7d2d64a8176e7e4285",
+          "equations": [
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                8
+              ],
+              "sha256": "46c4a606fac32f481961ae95a9d3d86fa1e37b19eda49530f57e875eebfebde2",
+              "terms": 294,
+              "text_bytes": 4684,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "b5d3d7eb18c176b711fc676ed490afb81d0c8e36992520b137c202db829ee7ad",
+              "terms": 264,
+              "text_bytes": 4261,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                2,
+                9,
+                6
+              ],
+              "sha256": "21d22d0264758ea6f77d38729d96c88fbf10d0a11d2e21c40332a69aad919fcd",
+              "terms": 209,
+              "text_bytes": 3203,
+              "total_degree": 17
+            },
+            {
+              "degrees_bcd": [
+                2,
+                9,
+                6
+              ],
+              "sha256": "4f5682881ec432a5c0a20b82c51384741232d7c906fa9f6b8b83982053452602",
+              "terms": 210,
+              "text_bytes": 3177,
+              "total_degree": 17
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RL"
+        },
+        {
+          "assignment": "F02",
+          "cell": "F02-A-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "30484a136be0032f4b6ec1d6893d0b5ebd2c05c504ce6fadee494ff904db5f8c",
+          "equations": [
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "9837a80423d43c2ab498a4c926ccb1433f5238c7a02286e9f3f824ee606e438c",
+              "terms": 264,
+              "text_bytes": 4259,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "e247b6063e2da26ace3f09cb88fae3d3d98dba3ab03002a926f737f598c21213",
+              "terms": 263,
+              "text_bytes": 4302,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "0f373bf9250b9d98e29db0231d30083572e4b56e6b136114c4cc095d32423de2",
+              "terms": 264,
+              "text_bytes": 4271,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "d14659f63e5927d973587934b42d1b8a147cbf3244ab77eb33771d4554d0ee62",
+              "terms": 264,
+              "text_bytes": 4329,
+              "total_degree": 19
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RM"
+        },
+        {
+          "assignment": "F02",
+          "cell": "F02-OB-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "423f827acd78261aa59243b9116b2219d1e65e46a7fe82d9320732638a99479a",
+          "equations": [
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                6
+              ],
+              "sha256": "0eea230073daa1e5a8b7c03e9caa6201dcd6758d83893f76f740989475758c74",
+              "terms": 383,
+              "text_bytes": 6344,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                6
+              ],
+              "sha256": "8311ae6f4d3fa885fc268d805785bd7121a2faef081c6bd23bc75457d2f72108",
+              "terms": 305,
+              "text_bytes": 5063,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                8
+              ],
+              "sha256": "913e3f57b3505c1abd044224f89d641daa0e54ef9b093fba8c8567f33e2f352c",
+              "terms": 294,
+              "text_bytes": 4714,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "e09a77b6562384ac6de1df1b773fcd96c0653de1baaffa6ab09eb7a46b079dda",
+              "terms": 260,
+              "text_bytes": 4208,
+              "total_degree": 19
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RX"
+        },
+        {
+          "assignment": "F02",
+          "cell": "F02-OB-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "72f2d2fe3cad59a33463a21cc07d6b347fe497921aa4b54ede619c27f4d2bddd",
+          "equations": [
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                8
+              ],
+              "sha256": "46c4a606fac32f481961ae95a9d3d86fa1e37b19eda49530f57e875eebfebde2",
+              "terms": 294,
+              "text_bytes": 4684,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                2,
+                10,
+                7
+              ],
+              "sha256": "b5d3d7eb18c176b711fc676ed490afb81d0c8e36992520b137c202db829ee7ad",
+              "terms": 264,
+              "text_bytes": 4261,
+              "total_degree": 19
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                6
+              ],
+              "sha256": "2ab2aa68a6830b36a52af096d647225b6f9cdfb57b507cde0cae8deb05f088c5",
+              "terms": 384,
+              "text_bytes": 6355,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                6
+              ],
+              "sha256": "e09dc95bc82c4b1f67c455ff6a3a668eedef2483f1468e157c5308be00345e19",
+              "terms": 306,
+              "text_bytes": 5069,
+              "total_degree": 19
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RL"
+        },
+        {
+          "assignment": "F02",
+          "cell": "F02-OB-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "a136f32dc879220dfaf4aaa2d3d78285b92c017618bd14d7f4e91ef4d16cf004",
+          "equations": [
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                7
+              ],
+              "sha256": "4c818baa0c723e857d3fbe8528801edc5009b488e0281d194ff6f0d819c784db",
+              "terms": 329,
+              "text_bytes": 5408,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                7
+              ],
+              "sha256": "5e647a70c39a83e614e04295cc7c644ca32cfc169f0f9ea6e7e4ac67ebb28cf5",
+              "terms": 340,
+              "text_bytes": 5662,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                7
+              ],
+              "sha256": "f9b8cf15290d7407f09c4ff03e3d934e02c8d416b5a1eeedddd75860344685bb",
+              "terms": 328,
+              "text_bytes": 5410,
+              "total_degree": 20
+            },
+            {
+              "degrees_bcd": [
+                3,
+                10,
+                7
+              ],
+              "sha256": "86450eba2c943047135e8332baf7c6de30eacfdb18b786ca2066a6afe22f790e",
+              "terms": 340,
+              "text_bytes": 5652,
+              "total_degree": 20
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b - 2",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RM"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-A-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "342e0d2da8fd589506aa75ce7c29141795f22ebe20a01a6b65938252e60e67a7",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "f2298b4824bd8f4e0fa579df9606ae2fd43e0e7dd0504de58489b741f1c6eba4",
+              "terms": 726,
+              "text_bytes": 11808,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "50409b193445738cbcbd242282cad814b8a20621af77f594358f60f34c00f75c",
+              "terms": 732,
+              "text_bytes": 11731,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "0cc4d6f10dbad03983dda2c009aaec634f94e44bd120bb3e40a69b65912eed64",
+              "terms": 882,
+              "text_bytes": 14113,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "28be208b9ed260186eb79b2ac694ac5b13c09b773dfddd6239f4ace2ea1d5d81",
+              "terms": 819,
+              "text_bytes": 13201,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RX"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-A-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "3dd914f9817d7af7d6f3d6973d49ad3bf2f9e9305004c21d1df2a158d51aacac",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "6327f062dc628abaffb4e423886605c43d743cbb4908fb02e78006b38f7919e6",
+              "terms": 892,
+              "text_bytes": 14248,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "256270dc663c905ee993cf2338b31e594c9fc39afb6b66a2705b122a7e6d85c8",
+              "terms": 822,
+              "text_bytes": 13306,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "f35264b6546efc9cc701ef4f073c6e4812282ada9f40502b1db59b650b970540",
+              "terms": 721,
+              "text_bytes": 11747,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "f4246b28a7d3fa31eee2342f728efdcacc317e78e5dec89bc336d82ae41d0aa0",
+              "terms": 712,
+              "text_bytes": 11327,
+              "total_degree": 25
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RL"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-A-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "b185a1b77dd7aacb6cd8330a55244f1099f233038e646061d6426a6946c2d1ba",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "fe31392b26cdfcdd45672e254bbcf0cce5638d59f54ef4ebece0b24484840c5c",
+              "terms": 801,
+              "text_bytes": 12896,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "1593199c7f56857981d97a525790bce10ead475463450423dfc7def663ca24ca",
+              "terms": 832,
+              "text_bytes": 13651,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "7b1c71f4b45fd0a519239092a970ecbea066551df34f58fa3195b9f3c263cc3a",
+              "terms": 808,
+              "text_bytes": 12926,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "c7ca0af666baf274d44b6872c2f449e0fa61a0ad3e328fd7ab81e5d474a856f9",
+              "terms": 824,
+              "text_bytes": 13422,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RM"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-OB-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "446c925a6eef650277aa42427b062e49359c36fe91a9e1b8e4f1a1d6821df03b",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "5c48050098586f7e473534b6faabe4b95d3b4a113e062ee407a90ed5dbf44743",
+              "terms": 682,
+              "text_bytes": 10744,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "f53226236c608d4a211ab5fac09ac545e703fbcef1ddcc8a201b4238d1c4228b",
+              "terms": 702,
+              "text_bytes": 11207,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "0cc4d6f10dbad03983dda2c009aaec634f94e44bd120bb3e40a69b65912eed64",
+              "terms": 882,
+              "text_bytes": 14113,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "28be208b9ed260186eb79b2ac694ac5b13c09b773dfddd6239f4ace2ea1d5d81",
+              "terms": 819,
+              "text_bytes": 13201,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RX"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-OB-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "132c2064dc36d666d6eeda642bfe4ded835fad9eae20ad3e07e145a8db557e63",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "6327f062dc628abaffb4e423886605c43d743cbb4908fb02e78006b38f7919e6",
+              "terms": 892,
+              "text_bytes": 14248,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "256270dc663c905ee993cf2338b31e594c9fc39afb6b66a2705b122a7e6d85c8",
+              "terms": 822,
+              "text_bytes": 13306,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                9,
+                9,
+                6
+              ],
+              "sha256": "d9bc15376fc2ac447aa2f6e0a06007a2ec4ce9a702833eed4822532b0f411a73",
+              "terms": 555,
+              "text_bytes": 8579,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                9,
+                9,
+                6
+              ],
+              "sha256": "4110eff1d0d782e05651ccd7a7fc295ebc027302a2a846982d92d694acc49b15",
+              "terms": 578,
+              "text_bytes": 9031,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RL"
+        },
+        {
+          "assignment": "F04",
+          "cell": "F04-OB-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "f33d840ce8f7128c5d62b466a32c76d4b18141a30e1c1bbdd845a371d02e15a9",
+          "equations": [
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "c805fa6789079585ba04590e714aa1e911c45b2f19d76a0476d56b4fd7af3ab3",
+              "terms": 838,
+              "text_bytes": 13475,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "31129fbaefd58c4a39029343cf9710cb1f43d26b9423e8eab88b5e45862bbc54",
+              "terms": 867,
+              "text_bytes": 14114,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "9f2819facd273d76fe3ff26209d4868577c415671258e7c3f078853816845208",
+              "terms": 824,
+              "text_bytes": 13226,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "f35c48566c83c228f0ecff4f7360ef105da3a0a258b296031b4801e319501c0b",
+              "terms": 865,
+              "text_bytes": 13987,
+              "total_degree": 27
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*b - 1",
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RM"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-A-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "a7a4a520b14a2746a417c58f9bce720ff97bf755fc330c6050a3ef3616dffc43",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "a2ff9cfd407c1f6811945e370ab390f4c86279bc45d966b9ee5339e740da3a2b",
+              "terms": 726,
+              "text_bytes": 11821,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "1c215d86a7f1ac2281c24e87b65d13e628326fd7aaaf3030aa750f1a1d54987e",
+              "terms": 730,
+              "text_bytes": 11664,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "4fa9cd9734b81a5a01c99766620aeb1045ee1d898314b02e9805d40ed65d57c1",
+              "terms": 886,
+              "text_bytes": 14157,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "671f2a1f2a9608b8365c5e715843973406dc2b6dc5d294388498347c20306b12",
+              "terms": 815,
+              "text_bytes": 13150,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RX"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-A-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "9e0f0174e10fcb8959cb9bb1ffe2631704b18365b3d331de60b6bb286379279b",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "0c778259d54f84313e0b98521f1309712ce12bf077cbd94694f79992ca41298a",
+              "terms": 896,
+              "text_bytes": 14364,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "c44f98506f73849cd1f027a2e7c7e961757331ca6ec840b6bb0725611597f305",
+              "terms": 823,
+              "text_bytes": 13370,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "501206cd3941773ee0239c69448cba4d233875901da0b12223a1879f3a732655",
+              "terms": 719,
+              "text_bytes": 11696,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "5121fc4a62ec9b0410e3a219361f603f68e3464f8539d7987f67e80fd6ff5168",
+              "terms": 716,
+              "text_bytes": 11410,
+              "total_degree": 25
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RL"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-A-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "a69836be0681ef1b402d95ca77427cc5d8f18375d953e619ec98008ec1142868",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "dfbb318a5cc0394fa2379edfaedae0b24723b721b9732404cee935e0ffe5fd83",
+              "terms": 796,
+              "text_bytes": 12854,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "6bec5720b62ca9c069fcf955f4508fa37bcc2614dafbf81c20986b514bacbb82",
+              "terms": 827,
+              "text_bytes": 13573,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "3ee0b0bd45d5403d5dcd7a073afc45b1f19774aab33c2bb2f00295906fa90e15",
+              "terms": 810,
+              "text_bytes": 12959,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "6d99d719bf23c12926b23b0e90a29a0d22f9d929406894774fccdb4c0056cbbd",
+              "terms": 823,
+              "text_bytes": 13448,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RM"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-OB-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "a655962a6390db374481d24a48af75bb3ec11335778cc351bc05e22ae981b5a5",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "331170419a711399669e35f1b0c348132e144b65380d337204506d9b4c9c3251",
+              "terms": 675,
+              "text_bytes": 10632,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                6
+              ],
+              "sha256": "2f668c46864121aae5b1a53a56e6bfe1915de2e9008f6505b2f74bc81cee9901",
+              "terms": 705,
+              "text_bytes": 11291,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "4fa9cd9734b81a5a01c99766620aeb1045ee1d898314b02e9805d40ed65d57c1",
+              "terms": 886,
+              "text_bytes": 14157,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "671f2a1f2a9608b8365c5e715843973406dc2b6dc5d294388498347c20306b12",
+              "terms": 815,
+              "text_bytes": 13150,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RX"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-OB-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "9c9c41e556a765c720a4379af10464ee91719b896d709e4ae626b773604e0ae8",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                8
+              ],
+              "sha256": "0c778259d54f84313e0b98521f1309712ce12bf077cbd94694f79992ca41298a",
+              "terms": 896,
+              "text_bytes": 14364,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                10,
+                10,
+                7
+              ],
+              "sha256": "c44f98506f73849cd1f027a2e7c7e961757331ca6ec840b6bb0725611597f305",
+              "terms": 823,
+              "text_bytes": 13370,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                9,
+                9,
+                6
+              ],
+              "sha256": "948877ec94bd9579f0ed5a747d5a42654374ce6c4ba0eae21a739b9756598119",
+              "terms": 554,
+              "text_bytes": 8527,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                9,
+                9,
+                6
+              ],
+              "sha256": "b6ca3dda79f506f4659508246c31b868f447f9a4891092fd8f2ad2280f3c480c",
+              "terms": 577,
+              "text_bytes": 8953,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RL"
+        },
+        {
+          "assignment": "F06",
+          "cell": "F06-OB-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "83a80ba492490792e69e620894b8c879c109e50c07f7033de88f8a9d5407ecab",
+          "equations": [
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "a2bcdf74c7bb32393e2b6a7c53f274c43a6d14f02c509b2e0405025efaca4299",
+              "terms": 839,
+              "text_bytes": 13529,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "9ae3de8f296efc6b7fd2534c7e5c0310f6fdeb83c896522e65065c9012b12b0a",
+              "terms": 867,
+              "text_bytes": 14142,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "a5732871b6b86ab27458b4c0debfa467958f1578250c639917037bf78201a004",
+              "terms": 823,
+              "text_bytes": 13169,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                11,
+                10,
+                7
+              ],
+              "sha256": "99653b1ff78693a9c7d7bbee308da167c96003a1d03fa1101bafb671c1c4e55f",
+              "terms": 856,
+              "text_bytes": 13853,
+              "total_degree": 27
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - 2",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RM"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-A-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "32655a71756b76c8bf1915269c94fe9787a8b565b16031f49aab756bb2437ac7",
+          "equations": [
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                8
+              ],
+              "sha256": "45e2a172660dc7556df7f809bd4b351c4ee818cde7e0d5f73161d76bbf52feff",
+              "terms": 919,
+              "text_bytes": 16194,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                8
+              ],
+              "sha256": "9869782ba9cf535974352f7817e9513a74dbddcc7bd641e25f8f3df5bd084cfd",
+              "terms": 907,
+              "text_bytes": 15844,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                10
+              ],
+              "sha256": "99e4318461e75340e001d423f03f35f6b1f9d2c594b7a797a27ee834074e8c0a",
+              "terms": 894,
+              "text_bytes": 15716,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                9
+              ],
+              "sha256": "40645aac1b433267027f1786deecb713b31ba99c93b86633d159974695ddcdf2",
+              "terms": 821,
+              "text_bytes": 14344,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RX"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-A-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "4278d2e89879c6b9efd801b6aff5e0d3d4dd05157dd97f8cf45539a1a0f185a2",
+          "equations": [
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                10
+              ],
+              "sha256": "5fecef1f17877027f1637932563d6f563461e60337248367bf3a2384203af2c2",
+              "terms": 1090,
+              "text_bytes": 19053,
+              "total_degree": 30
+            },
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                9
+              ],
+              "sha256": "17ff66509305f200c588cf5cd0fb198ced812f97e601640be6f7c7a3a4383900",
+              "terms": 1007,
+              "text_bytes": 17628,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                8
+              ],
+              "sha256": "0cdc3a2b1544972a1efb4775343770d701c91dd02b48a061792f2015d5e4dc93",
+              "terms": 757,
+              "text_bytes": 13369,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                8
+              ],
+              "sha256": "9c4938f7e99a16a06193784d3ac5ebf4eb46c4ab7434d7194540eaa7f16ca11e",
+              "terms": 741,
+              "text_bytes": 12878,
+              "total_degree": 25
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RL"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-A-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "f813892fc5fa93ab5357846456becd823a07b7fdb868147490c51fc7131c4361",
+          "equations": [
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                9
+              ],
+              "sha256": "e90a340e24068beb1b4f1bed37d2eca9d21b4c403dd20915cee05fd33315b4b0",
+              "terms": 994,
+              "text_bytes": 17495,
+              "total_degree": 29
+            },
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                9
+              ],
+              "sha256": "ad18cc8619c6c61540c651be243e9f125e05aeb4d5e8e90e16f7a924be729007",
+              "terms": 1013,
+              "text_bytes": 17894,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                9
+              ],
+              "sha256": "da2dc8411c67bcd79fa7dadf81b7d6fea683d33219ee99992b41ad846ed3b636",
+              "terms": 830,
+              "text_bytes": 14654,
+              "total_degree": 27
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                9
+              ],
+              "sha256": "14dbb397c27e02890b32e3a768f6ca5f8a7ac6f2c56dabd387a4a9f57b237da2",
+              "terms": 823,
+              "text_bytes": 14508,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "A-RM"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-OB-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "3a01f3b5bc40f2c22b014bcf64f6bf5570493d8bf6fab1bb8dbe40dee22882f6",
+          "equations": [
+            {
+              "degrees_bcd": [
+                10,
+                12,
+                8
+              ],
+              "sha256": "d7a00c903d24c7b747045c74b23ab89569b0613af1229ca4ff76a3b6e9f3edce",
+              "terms": 1098,
+              "text_bytes": 19166,
+              "total_degree": 30
+            },
+            {
+              "degrees_bcd": [
+                9,
+                12,
+                8
+              ],
+              "sha256": "43c22182331841ab67ba4cbbd7f65500713fc8a08ab16799ad0c8821efa903db",
+              "terms": 1004,
+              "text_bytes": 17664,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                10
+              ],
+              "sha256": "99e4318461e75340e001d423f03f35f6b1f9d2c594b7a797a27ee834074e8c0a",
+              "terms": 894,
+              "text_bytes": 15716,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                8,
+                10,
+                9
+              ],
+              "sha256": "40645aac1b433267027f1786deecb713b31ba99c93b86633d159974695ddcdf2",
+              "terms": 821,
+              "text_bytes": 14344,
+              "total_degree": 26
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RX"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-OB-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "2d894f20b1d4eb3386fd91c97efea11e5240cf53d180f1bc6ece74e6e9cf2f6a",
+          "equations": [
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                10
+              ],
+              "sha256": "5fecef1f17877027f1637932563d6f563461e60337248367bf3a2384203af2c2",
+              "terms": 1090,
+              "text_bytes": 19053,
+              "total_degree": 30
+            },
+            {
+              "degrees_bcd": [
+                8,
+                12,
+                9
+              ],
+              "sha256": "17ff66509305f200c588cf5cd0fb198ced812f97e601640be6f7c7a3a4383900",
+              "terms": 1007,
+              "text_bytes": 17628,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                9,
+                9,
+                8
+              ],
+              "sha256": "a264b6a64547e4a5651cb7d682918baa822f3baed1f5fefb03377f54aefd92c6",
+              "terms": 734,
+              "text_bytes": 12559,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                8,
+                9,
+                8
+              ],
+              "sha256": "74703afcb53d424b21b1d1c2bd859568250732928c14386d06a3a344aa0fc42a",
+              "terms": 664,
+              "text_bytes": 11441,
+              "total_degree": 24
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RL"
+        },
+        {
+          "assignment": "M01",
+          "cell": "M01-OB-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "c + 1",
+            "c - 1"
+          ],
+          "equation_tuple_sha256": "30eb3af9f2bf581b25249feb6fb47e769d05d1b7be6d202efd160193dbde9301",
+          "equations": [
+            {
+              "degrees_bcd": [
+                9,
+                12,
+                9
+              ],
+              "sha256": "c1c2e09049452027cf8dd6035b2a0f5f103a4a932109a0b42232b20b6c30ded9",
+              "terms": 1063,
+              "text_bytes": 18615,
+              "total_degree": 30
+            },
+            {
+              "degrees_bcd": [
+                9,
+                12,
+                9
+              ],
+              "sha256": "7507c984df33fba3a840563381d833754a331a3cbb6212a4f65e232916735dfe",
+              "terms": 1091,
+              "text_bytes": 19088,
+              "total_degree": 29
+            },
+            {
+              "degrees_bcd": [
+                9,
+                10,
+                9
+              ],
+              "sha256": "5ba6e7dc6626fbf9024ae5def6a3d9c8b32df20c230ebc3b31f8831e652a56d3",
+              "terms": 862,
+              "text_bytes": 15131,
+              "total_degree": 28
+            },
+            {
+              "degrees_bcd": [
+                9,
+                10,
+                9
+              ],
+              "sha256": "483420f55b19e1c0ebee70c958d6283a0886853dc2d457c4e17b72ee62fbbb8f",
+              "terms": 885,
+              "text_bytes": 15439,
+              "total_degree": 27
+            }
+          ],
+          "radical_localizer_factors": [
+            "b + 1",
+            "b - 1",
+            "b - c",
+            "b - d",
+            "b*c - 1",
+            "b*d - 1",
+            "b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1",
+            "b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c",
+            "c + 1",
+            "c - 1",
+            "c*d - 1"
+          ],
+          "target": "OB-RM"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-A-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "4181fdeeca952689cf0ce6e6c85f3cc2f66f3e3fa2c2b1f623b70882aee0f95b",
+          "equations": [
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                8
+              ],
+              "sha256": "d7fda51dee9f6510e5f1eff971cf5a29902a0efaba007f8a05f85a0ea0c0b5a1",
+              "terms": 569,
+              "text_bytes": 10088,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                8
+              ],
+              "sha256": "b95435179ca70a690f19eb297415716dd6b4450cb8e85eb1db36b3ea6a0f9963",
+              "terms": 567,
+              "text_bytes": 9967,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                10
+              ],
+              "sha256": "cb57091232fa377c5908f9a75b7695efe4798e2c2b5f55fdeae650d3d4170f65",
+              "terms": 584,
+              "text_bytes": 10215,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                9
+              ],
+              "sha256": "1c44bf4da260375f09b2fff56519bff0b352762b8d5578d94198d0fbae6ea23e",
+              "terms": 529,
+              "text_bytes": 9259,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RX"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-A-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "4f4e27ffbad3257e5a50438db65a331b3f842e018a8aaaf5a41a64601e934eec",
+          "equations": [
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                10
+              ],
+              "sha256": "7316e8c29ebb2fbf145deb54b9198c72b5f01f7eca51720e2a9af3f6bf56234e",
+              "terms": 694,
+              "text_bytes": 12147,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                9
+              ],
+              "sha256": "911846ed73f62bb4fc773b5c47820ca6db53d76d6a6d3c0ffb34136bc58ac144",
+              "terms": 632,
+              "text_bytes": 11149,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                4,
+                9,
+                8
+              ],
+              "sha256": "ea0c318ef12b4ac367720f9afe48691f87111276092fe7d6c47fafdc30b85022",
+              "terms": 434,
+              "text_bytes": 7469,
+              "total_degree": 21
+            },
+            {
+              "degrees_bcd": [
+                4,
+                9,
+                8
+              ],
+              "sha256": "75ee4a1337905f56bdc2eab09a1e416ff2863af1f88494506661a0d71c7448d9",
+              "terms": 432,
+              "text_bytes": 7330,
+              "total_degree": 21
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RL"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-A-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "6a2aeb80ade9f6ed2b1361ec138014db11956da97b4c3c687920891ffd946f93",
+          "equations": [
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                9
+              ],
+              "sha256": "af6e4584e8e2cd16c765a5c0c99989a5909d27292d17fc2272b8053c953a8642",
+              "terms": 634,
+              "text_bytes": 11156,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                9
+              ],
+              "sha256": "9d29d7e7151599bb056f2afb844969b44581e53826f04975dc6e8bd83e79a183",
+              "terms": 634,
+              "text_bytes": 11261,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                9
+              ],
+              "sha256": "20498e762e37717c38e803cd34ec973291729e4968a03ac75b2438bdfcaeeea6",
+              "terms": 534,
+              "text_bytes": 9378,
+              "total_degree": 23
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                9
+              ],
+              "sha256": "fc758fe8f43dab4df43527743355605cf3355bfcf357bdca938830fe69f304a0",
+              "terms": 534,
+              "text_bytes": 9426,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "A-RM"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-OB-RX",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "ac5e31406f160bb15ad6e43fcad633abb3bc01f6e2a965557310c3fd266128e7",
+          "equations": [
+            {
+              "degrees_bcd": [
+                6,
+                12,
+                8
+              ],
+              "sha256": "94c9714bcc2d8dc91bd03c6f5a1eef14907666ed45dc92a3439ab07b67b22946",
+              "terms": 796,
+              "text_bytes": 14039,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                5,
+                12,
+                8
+              ],
+              "sha256": "78b83b97a3bcb1a35aec20ce5397d189993415548d2ba745cbfc884adecc4bdf",
+              "terms": 684,
+              "text_bytes": 12162,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                10
+              ],
+              "sha256": "cb57091232fa377c5908f9a75b7695efe4798e2c2b5f55fdeae650d3d4170f65",
+              "terms": 584,
+              "text_bytes": 10215,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                4,
+                10,
+                9
+              ],
+              "sha256": "1c44bf4da260375f09b2fff56519bff0b352762b8d5578d94198d0fbae6ea23e",
+              "terms": 529,
+              "text_bytes": 9259,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RX"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-OB-RL",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "4d8a92fc12421e31d2394b9671bc12926d53d64eb91fe09246b0f9486859fc90",
+          "equations": [
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                10
+              ],
+              "sha256": "7316e8c29ebb2fbf145deb54b9198c72b5f01f7eca51720e2a9af3f6bf56234e",
+              "terms": 694,
+              "text_bytes": 12147,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                4,
+                12,
+                9
+              ],
+              "sha256": "911846ed73f62bb4fc773b5c47820ca6db53d76d6a6d3c0ffb34136bc58ac144",
+              "terms": 632,
+              "text_bytes": 11149,
+              "total_degree": 25
+            },
+            {
+              "degrees_bcd": [
+                6,
+                10,
+                8
+              ],
+              "sha256": "6fe434baa32024197aaf401760c6f90283ee2290e263567be6f87c45a037b594",
+              "terms": 672,
+              "text_bytes": 11714,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                5,
+                10,
+                8
+              ],
+              "sha256": "29b280e1fe0138f6493117f71d5919c13b045d747c2eb7dff55d37cbb66a7323",
+              "terms": 576,
+              "text_bytes": 10149,
+              "total_degree": 23
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RL"
+        },
+        {
+          "assignment": "M03",
+          "cell": "M03-OB-RM",
+          "common_gcd": {
+            "degrees_bcd": [
+              0,
+              0,
+              0
+            ],
+            "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+            "terms": 1,
+            "text_bytes": 1,
+            "total_degree": 0
+          },
+          "denominator_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "d - 2"
+          ],
+          "equation_tuple_sha256": "95be76e053981be64aeed1d10b8168c3497be1089e812ad1c4c5d1ab8a512347",
+          "equations": [
+            {
+              "degrees_bcd": [
+                5,
+                12,
+                9
+              ],
+              "sha256": "c0f429cbb0e1dd790a2f6975c33c37b92636ed7c6a28f4c50047e3cd096546a5",
+              "terms": 732,
+              "text_bytes": 12928,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                5,
+                12,
+                9
+              ],
+              "sha256": "9230e15612ccd816273ac1322dd76eabf5c05f0becfb15f96c6bbfc3428c4c3d",
+              "terms": 742,
+              "text_bytes": 13164,
+              "total_degree": 26
+            },
+            {
+              "degrees_bcd": [
+                5,
+                10,
+                9
+              ],
+              "sha256": "0f39e36b584bd09c565004ab5bd204c38160430656652f9dd1ee6523585ff725",
+              "terms": 616,
+              "text_bytes": 10815,
+              "total_degree": 24
+            },
+            {
+              "degrees_bcd": [
+                5,
+                10,
+                9
+              ],
+              "sha256": "1835bb5821ae583c805071f11ffee6492d0b2897f17bf6a4c47c0f348fc3ca06",
+              "terms": 627,
+              "text_bytes": 11047,
+              "total_degree": 24
+            }
+          ],
+          "radical_localizer_factors": [
+            "2*c - 1",
+            "2*d - 1",
+            "5*c*d - 4*c - 4*d + 5",
+            "b + 1",
+            "b - 1",
+            "c + 1",
+            "c - 1",
+            "c - 2",
+            "c*d - 1",
+            "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+            "d - 2"
+          ],
+          "target": "OB-RM"
+        }
+      ],
+      "equation_count": 120,
+      "max_terms": 1098,
+      "max_total_degree": 30,
+      "registry_sha256": "2607f88572c63091b06a1c35dd55c80a3e4f10daff2fb3423f5bb8c03f0f116e",
+      "root_representatives": [
+        "A",
+        "OB"
+      ],
+      "schema": "kb-c2-112-near-literal-direct-residual-registry-v1",
+      "terminal": "DIRECT_RESIDUAL_REGISTRY_COMPILED"
+    },
+    "peak_kb": 507688,
+    "returncode": 0,
+    "seconds": 32.45712,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_sha256": "33e7a54a5479a83005f0dfda6d3b1573b83cb8de4a2e004b85481eb8779865ef",
+    "stdout_tail": "d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"A-RL\"},{\"assignment\":\"F06\",\"cell\":\"F06-A-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"a69836be0681ef1b402d95ca77427cc5d8f18375d953e619ec98008ec1142868\",\"equations\":[{\"degrees_bcd\":[10,10,7],\"sha256\":\"dfbb318a5cc0394fa2379edfaedae0b24723b721b9732404cee935e0ffe5fd83\",\"terms\":796,\"text_bytes\":12854,\"total_degree\":27},{\"degrees_bcd\":[10,10,7],\"sha256\":\"6bec5720b62ca9c069fcf955f4508fa37bcc2614dafbf81c20986b514bacbb82\",\"terms\":827,\"text_bytes\":13573,\"total_degree\":26},{\"degrees_bcd\":[10,10,7],\"sha256\":\"3ee0b0bd45d5403d5dcd7a073afc45b1f19774aab33c2bb2f00295906fa90e15\",\"terms\":810,\"text_bytes\":12959,\"total_degree\":27},{\"degrees_bcd\":[10,10,7],\"sha256\":\"6d99d719bf23c12926b23b0e90a29a0d22f9d929406894774fccdb4c0056cbbd\",\"terms\":823,\"text_bytes\":13448,\"total_degree\":26}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"A-RM\"},{\"assignment\":\"F06\",\"cell\":\"F06-OB-RX\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"a655962a6390db374481d24a48af75bb3ec11335778cc351bc05e22ae981b5a5\",\"equations\":[{\"degrees_bcd\":[10,10,6],\"sha256\":\"331170419a711399669e35f1b0c348132e144b65380d337204506d9b4c9c3251\",\"terms\":675,\"text_bytes\":10632,\"total_degree\":26},{\"degrees_bcd\":[10,10,6],\"sha256\":\"2f668c46864121aae5b1a53a56e6bfe1915de2e9008f6505b2f74bc81cee9901\",\"terms\":705,\"text_bytes\":11291,\"total_degree\":25},{\"degrees_bcd\":[10,10,8],\"sha256\":\"4fa9cd9734b81a5a01c99766620aeb1045ee1d898314b02e9805d40ed65d57c1\",\"terms\":886,\"text_bytes\":14157,\"total_degree\":28},{\"degrees_bcd\":[10,10,7],\"sha256\":\"671f2a1f2a9608b8365c5e715843973406dc2b6dc5d294388498347c20306b12\",\"terms\":815,\"text_bytes\":13150,\"total_degree\":26}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RX\"},{\"assignment\":\"F06\",\"cell\":\"F06-OB-RL\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"9c9c41e556a765c720a4379af10464ee91719b896d709e4ae626b773604e0ae8\",\"equations\":[{\"degrees_bcd\":[10,10,8],\"sha256\":\"0c778259d54f84313e0b98521f1309712ce12bf077cbd94694f79992ca41298a\",\"terms\":896,\"text_bytes\":14364,\"total_degree\":28},{\"degrees_bcd\":[10,10,7],\"sha256\":\"c44f98506f73849cd1f027a2e7c7e961757331ca6ec840b6bb0725611597f305\",\"terms\":823,\"text_bytes\":13370,\"total_degree\":26},{\"degrees_bcd\":[9,9,6],\"sha256\":\"948877ec94bd9579f0ed5a747d5a42654374ce6c4ba0eae21a739b9756598119\",\"terms\":554,\"text_bytes\":8527,\"total_degree\":24},{\"degrees_bcd\":[9,9,6],\"sha256\":\"b6ca3dda79f506f4659508246c31b868f447f9a4891092fd8f2ad2280f3c480c\",\"terms\":577,\"text_bytes\":8953,\"total_degree\":23}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RL\"},{\"assignment\":\"F06\",\"cell\":\"F06-OB-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"83a80ba492490792e69e620894b8c879c109e50c07f7033de88f8a9d5407ecab\",\"equations\":[{\"degrees_bcd\":[11,10,7],\"sha256\":\"a2bcdf74c7bb32393e2b6a7c53f274c43a6d14f02c509b2e0405025efaca4299\",\"terms\":839,\"text_bytes\":13529,\"total_degree\":28},{\"degrees_bcd\":[11,10,7],\"sha256\":\"9ae3de8f296efc6b7fd2534c7e5c0310f6fdeb83c896522e65065c9012b12b0a\",\"terms\":867,\"text_bytes\":14142,\"total_degree\":27},{\"degrees_bcd\":[11,10,7],\"sha256\":\"a5732871b6b86ab27458b4c0debfa467958f1578250c639917037bf78201a004\",\"terms\":823,\"text_bytes\":13169,\"total_degree\":28},{\"degrees_bcd\":[11,10,7],\"sha256\":\"99653b1ff78693a9c7d7bbee308da167c96003a1d03fa1101bafb671c1c4e55f\",\"terms\":856,\"text_bytes\":13853,\"total_degree\":27}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - 2\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RM\"},{\"assignment\":\"M01\",\"cell\":\"M01-A-RX\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"32655a71756b76c8bf1915269c94fe9787a8b565b16031f49aab756bb2437ac7\",\"equations\":[{\"degrees_bcd\":[8,12,8],\"sha256\":\"45e2a172660dc7556df7f809bd4b351c4ee818cde7e0d5f73161d76bbf52feff\",\"terms\":919,\"text_bytes\":16194,\"total_degree\":28},{\"degrees_bcd\":[8,12,8],\"sha256\":\"9869782ba9cf535974352f7817e9513a74dbddcc7bd641e25f8f3df5bd084cfd\",\"terms\":907,\"text_bytes\":15844,\"total_degree\":27},{\"degrees_bcd\":[8,10,10],\"sha256\":\"99e4318461e75340e001d423f03f35f6b1f9d2c594b7a797a27ee834074e8c0a\",\"terms\":894,\"text_bytes\":15716,\"total_degree\":28},{\"degrees_bcd\":[8,10,9],\"sha256\":\"40645aac1b433267027f1786deecb713b31ba99c93b86633d159974695ddcdf2\",\"terms\":821,\"text_bytes\":14344,\"total_degree\":26}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"A-RX\"},{\"assignment\":\"M01\",\"cell\":\"M01-A-RL\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"4278d2e89879c6b9efd801b6aff5e0d3d4dd05157dd97f8cf45539a1a0f185a2\",\"equations\":[{\"degrees_bcd\":[8,12,10],\"sha256\":\"5fecef1f17877027f1637932563d6f563461e60337248367bf3a2384203af2c2\",\"terms\":1090,\"text_bytes\":19053,\"total_degree\":30},{\"degrees_bcd\":[8,12,9],\"sha256\":\"17ff66509305f200c588cf5cd0fb198ced812f97e601640be6f7c7a3a4383900\",\"terms\":1007,\"text_bytes\":17628,\"total_degree\":28},{\"degrees_bcd\":[8,10,8],\"sha256\":\"0cdc3a2b1544972a1efb4775343770d701c91dd02b48a061792f2015d5e4dc93\",\"terms\":757,\"text_bytes\":13369,\"total_degree\":26},{\"degrees_bcd\":[8,10,8],\"sha256\":\"9c4938f7e99a16a06193784d3ac5ebf4eb46c4ab7434d7194540eaa7f16ca11e\",\"terms\":741,\"text_bytes\":12878,\"total_degree\":25}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"A-RL\"},{\"assignment\":\"M01\",\"cell\":\"M01-A-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"f813892fc5fa93ab5357846456becd823a07b7fdb868147490c51fc7131c4361\",\"equations\":[{\"degrees_bcd\":[8,12,9],\"sha256\":\"e90a340e24068beb1b4f1bed37d2eca9d21b4c403dd20915cee05fd33315b4b0\",\"terms\":994,\"text_bytes\":17495,\"total_degree\":29},{\"degrees_bcd\":[8,12,9],\"sha256\":\"ad18cc8619c6c61540c651be243e9f125e05aeb4d5e8e90e16f7a924be729007\",\"terms\":1013,\"text_bytes\":17894,\"total_degree\":28},{\"degrees_bcd\":[8,10,9],\"sha256\":\"da2dc8411c67bcd79fa7dadf81b7d6fea683d33219ee99992b41ad846ed3b636\",\"terms\":830,\"text_bytes\":14654,\"total_degree\":27},{\"degrees_bcd\":[8,10,9],\"sha256\":\"14dbb397c27e02890b32e3a768f6ca5f8a7ac6f2c56dabd387a4a9f57b237da2\",\"terms\":823,\"text_bytes\":14508,\"total_degree\":26}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"A-RM\"},{\"assignment\":\"M01\",\"cell\":\"M01-OB-RX\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"3a01f3b5bc40f2c22b014bcf64f6bf5570493d8bf6fab1bb8dbe40dee22882f6\",\"equations\":[{\"degrees_bcd\":[10,12,8],\"sha256\":\"d7a00c903d24c7b747045c74b23ab89569b0613af1229ca4ff76a3b6e9f3edce\",\"terms\":1098,\"text_bytes\":19166,\"total_degree\":30},{\"degrees_bcd\":[9,12,8],\"sha256\":\"43c22182331841ab67ba4cbbd7f65500713fc8a08ab16799ad0c8821efa903db\",\"terms\":1004,\"text_bytes\":17664,\"total_degree\":28},{\"degrees_bcd\":[8,10,10],\"sha256\":\"99e4318461e75340e001d423f03f35f6b1f9d2c594b7a797a27ee834074e8c0a\",\"terms\":894,\"text_bytes\":15716,\"total_degree\":28},{\"degrees_bcd\":[8,10,9],\"sha256\":\"40645aac1b433267027f1786deecb713b31ba99c93b86633d159974695ddcdf2\",\"terms\":821,\"text_bytes\":14344,\"total_degree\":26}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RX\"},{\"assignment\":\"M01\",\"cell\":\"M01-OB-RL\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"2d894f20b1d4eb3386fd91c97efea11e5240cf53d180f1bc6ece74e6e9cf2f6a\",\"equations\":[{\"degrees_bcd\":[8,12,10],\"sha256\":\"5fecef1f17877027f1637932563d6f563461e60337248367bf3a2384203af2c2\",\"terms\":1090,\"text_bytes\":19053,\"total_degree\":30},{\"degrees_bcd\":[8,12,9],\"sha256\":\"17ff66509305f200c588cf5cd0fb198ced812f97e601640be6f7c7a3a4383900\",\"terms\":1007,\"text_bytes\":17628,\"total_degree\":28},{\"degrees_bcd\":[9,9,8],\"sha256\":\"a264b6a64547e4a5651cb7d682918baa822f3baed1f5fefb03377f54aefd92c6\",\"terms\":734,\"text_bytes\":12559,\"total_degree\":26},{\"degrees_bcd\":[8,9,8],\"sha256\":\"74703afcb53d424b21b1d1c2bd859568250732928c14386d06a3a344aa0fc42a\",\"terms\":664,\"text_bytes\":11441,\"total_degree\":24}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RL\"},{\"assignment\":\"M01\",\"cell\":\"M01-OB-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"c + 1\",\"c - 1\"],\"equation_tuple_sha256\":\"30eb3af9f2bf581b25249feb6fb47e769d05d1b7be6d202efd160193dbde9301\",\"equations\":[{\"degrees_bcd\":[9,12,9],\"sha256\":\"c1c2e09049452027cf8dd6035b2a0f5f103a4a932109a0b42232b20b6c30ded9\",\"terms\":1063,\"text_bytes\":18615,\"total_degree\":30},{\"degrees_bcd\":[9,12,9],\"sha256\":\"7507c984df33fba3a840563381d833754a331a3cbb6212a4f65e232916735dfe\",\"terms\":1091,\"text_bytes\":19088,\"total_degree\":29},{\"degrees_bcd\":[9,10,9],\"sha256\":\"5ba6e7dc6626fbf9024ae5def6a3d9c8b32df20c230ebc3b31f8831e652a56d3\",\"terms\":862,\"text_bytes\":15131,\"total_degree\":28},{\"degrees_bcd\":[9,10,9],\"sha256\":\"483420f55b19e1c0ebee70c958d6283a0886853dc2d457c4e17b72ee62fbbb8f\",\"terms\":885,\"text_bytes\":15439,\"total_degree\":27}],\"radical_localizer_factors\":[\"b + 1\",\"b - 1\",\"b - c\",\"b - d\",\"b*c - 1\",\"b*d - 1\",\"b^2*c*d + b^2 - 2*b*c - 2*b*d + c*d + 1\",\"b^2*c^2*d - b*c^2 - b*c*d - b^2 + b*c + b*d - c*d + c\",\"c + 1\",\"c - 1\",\"c*d - 1\"],\"target\":\"OB-RM\"},{\"assignment\":\"M03\",\"cell\":\"M03-A-RX\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"4181fdeeca952689cf0ce6e6c85f3cc2f66f3e3fa2c2b1f623b70882aee0f95b\",\"equations\":[{\"degrees_bcd\":[4,12,8],\"sha256\":\"d7fda51dee9f6510e5f1eff971cf5a29902a0efaba007f8a05f85a0ea0c0b5a1\",\"terms\":569,\"text_bytes\":10088,\"total_degree\":24},{\"degrees_bcd\":[4,12,8],\"sha256\":\"b95435179ca70a690f19eb297415716dd6b4450cb8e85eb1db36b3ea6a0f9963\",\"terms\":567,\"text_bytes\":9967,\"total_degree\":24},{\"degrees_bcd\":[4,10,10],\"sha256\":\"cb57091232fa377c5908f9a75b7695efe4798e2c2b5f55fdeae650d3d4170f65\",\"terms\":584,\"text_bytes\":10215,\"total_degree\":24},{\"degrees_bcd\":[4,10,9],\"sha256\":\"1c44bf4da260375f09b2fff56519bff0b352762b8d5578d94198d0fbae6ea23e\",\"terms\":529,\"text_bytes\":9259,\"total_degree\":23}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"A-RX\"},{\"assignment\":\"M03\",\"cell\":\"M03-A-RL\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"4f4e27ffbad3257e5a50438db65a331b3f842e018a8aaaf5a41a64601e934eec\",\"equations\":[{\"degrees_bcd\":[4,12,10],\"sha256\":\"7316e8c29ebb2fbf145deb54b9198c72b5f01f7eca51720e2a9af3f6bf56234e\",\"terms\":694,\"text_bytes\":12147,\"total_degree\":26},{\"degrees_bcd\":[4,12,9],\"sha256\":\"911846ed73f62bb4fc773b5c47820ca6db53d76d6a6d3c0ffb34136bc58ac144\",\"terms\":632,\"text_bytes\":11149,\"total_degree\":25},{\"degrees_bcd\":[4,9,8],\"sha256\":\"ea0c318ef12b4ac367720f9afe48691f87111276092fe7d6c47fafdc30b85022\",\"terms\":434,\"text_bytes\":7469,\"total_degree\":21},{\"degrees_bcd\":[4,9,8],\"sha256\":\"75ee4a1337905f56bdc2eab09a1e416ff2863af1f88494506661a0d71c7448d9\",\"terms\":432,\"text_bytes\":7330,\"total_degree\":21}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"A-RL\"},{\"assignment\":\"M03\",\"cell\":\"M03-A-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"6a2aeb80ade9f6ed2b1361ec138014db11956da97b4c3c687920891ffd946f93\",\"equations\":[{\"degrees_bcd\":[4,12,9],\"sha256\":\"af6e4584e8e2cd16c765a5c0c99989a5909d27292d17fc2272b8053c953a8642\",\"terms\":634,\"text_bytes\":11156,\"total_degree\":25},{\"degrees_bcd\":[4,12,9],\"sha256\":\"9d29d7e7151599bb056f2afb844969b44581e53826f04975dc6e8bd83e79a183\",\"terms\":634,\"text_bytes\":11261,\"total_degree\":25},{\"degrees_bcd\":[4,10,9],\"sha256\":\"20498e762e37717c38e803cd34ec973291729e4968a03ac75b2438bdfcaeeea6\",\"terms\":534,\"text_bytes\":9378,\"total_degree\":23},{\"degrees_bcd\":[4,10,9],\"sha256\":\"fc758fe8f43dab4df43527743355605cf3355bfcf357bdca938830fe69f304a0\",\"terms\":534,\"text_bytes\":9426,\"total_degree\":23}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"A-RM\"},{\"assignment\":\"M03\",\"cell\":\"M03-OB-RX\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"ac5e31406f160bb15ad6e43fcad633abb3bc01f6e2a965557310c3fd266128e7\",\"equations\":[{\"degrees_bcd\":[6,12,8],\"sha256\":\"94c9714bcc2d8dc91bd03c6f5a1eef14907666ed45dc92a3439ab07b67b22946\",\"terms\":796,\"text_bytes\":14039,\"total_degree\":26},{\"degrees_bcd\":[5,12,8],\"sha256\":\"78b83b97a3bcb1a35aec20ce5397d189993415548d2ba745cbfc884adecc4bdf\",\"terms\":684,\"text_bytes\":12162,\"total_degree\":25},{\"degrees_bcd\":[4,10,10],\"sha256\":\"cb57091232fa377c5908f9a75b7695efe4798e2c2b5f55fdeae650d3d4170f65\",\"terms\":584,\"text_bytes\":10215,\"total_degree\":24},{\"degrees_bcd\":[4,10,9],\"sha256\":\"1c44bf4da260375f09b2fff56519bff0b352762b8d5578d94198d0fbae6ea23e\",\"terms\":529,\"text_bytes\":9259,\"total_degree\":23}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"OB-RX\"},{\"assignment\":\"M03\",\"cell\":\"M03-OB-RL\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"4d8a92fc12421e31d2394b9671bc12926d53d64eb91fe09246b0f9486859fc90\",\"equations\":[{\"degrees_bcd\":[4,12,10],\"sha256\":\"7316e8c29ebb2fbf145deb54b9198c72b5f01f7eca51720e2a9af3f6bf56234e\",\"terms\":694,\"text_bytes\":12147,\"total_degree\":26},{\"degrees_bcd\":[4,12,9],\"sha256\":\"911846ed73f62bb4fc773b5c47820ca6db53d76d6a6d3c0ffb34136bc58ac144\",\"terms\":632,\"text_bytes\":11149,\"total_degree\":25},{\"degrees_bcd\":[6,10,8],\"sha256\":\"6fe434baa32024197aaf401760c6f90283ee2290e263567be6f87c45a037b594\",\"terms\":672,\"text_bytes\":11714,\"total_degree\":24},{\"degrees_bcd\":[5,10,8],\"sha256\":\"29b280e1fe0138f6493117f71d5919c13b045d747c2eb7dff55d37cbb66a7323\",\"terms\":576,\"text_bytes\":10149,\"total_degree\":23}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"OB-RL\"},{\"assignment\":\"M03\",\"cell\":\"M03-OB-RM\",\"common_gcd\":{\"degrees_bcd\":[0,0,0],\"sha256\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\",\"terms\":1,\"text_bytes\":1,\"total_degree\":0},\"denominator_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"d - 2\"],\"equation_tuple_sha256\":\"95be76e053981be64aeed1d10b8168c3497be1089e812ad1c4c5d1ab8a512347\",\"equations\":[{\"degrees_bcd\":[5,12,9],\"sha256\":\"c0f429cbb0e1dd790a2f6975c33c37b92636ed7c6a28f4c50047e3cd096546a5\",\"terms\":732,\"text_bytes\":12928,\"total_degree\":26},{\"degrees_bcd\":[5,12,9],\"sha256\":\"9230e15612ccd816273ac1322dd76eabf5c05f0becfb15f96c6bbfc3428c4c3d\",\"terms\":742,\"text_bytes\":13164,\"total_degree\":26},{\"degrees_bcd\":[5,10,9],\"sha256\":\"0f39e36b584bd09c565004ab5bd204c38160430656652f9dd1ee6523585ff725\",\"terms\":616,\"text_bytes\":10815,\"total_degree\":24},{\"degrees_bcd\":[5,10,9],\"sha256\":\"1835bb5821ae583c805071f11ffee6492d0b2897f17bf6a4c47c0f348fc3ca06\",\"terms\":627,\"text_bytes\":11047,\"total_degree\":24}],\"radical_localizer_factors\":[\"2*c - 1\",\"2*d - 1\",\"5*c*d - 4*c - 4*d + 5\",\"b + 1\",\"b - 1\",\"c + 1\",\"c - 1\",\"c - 2\",\"c*d - 1\",\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"d - 2\"],\"target\":\"OB-RM\"}],\"equation_count\":120,\"max_terms\":1098,\"max_total_degree\":30,\"registry_sha256\":\"2607f88572c63091b06a1c35dd55c80a3e4f10daff2fb3423f5bb8c03f0f116e\",\"root_representatives\":[\"A\",\"OB\"],\"schema\":\"kb-c2-112-near-literal-direct-residual-registry-v1\",\"terminal\":\"DIRECT_RESIDUAL_REGISTRY_COMPILED\"}\n"
+  },
+  "schema": "kb-c2-112-near-literal-direct-residual-registry-modal-v1"
+}

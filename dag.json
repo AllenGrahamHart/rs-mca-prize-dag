@@ -30124,6 +30124,47 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "title": "KoalaBear near-positive 30-cell direct residual registry",
+   "status": "PROVED",
+   "closure": "exact direct compiler for all 30 residual affine literal orbit representatives",
+   "statement": "The affine near-positive literal frontier remaining after the exact inversion transports is the disjoint 5-by-2-by-3 registry with assignment representatives F02,F04,F06,M01,M03, target-root representatives A,OB, and allocations RX,RL,RM. Generic 5-by-5 source reconstruction over QQ(b,c,d) compiles each cell to four nonzero cleared q-slice equations together with its complete radical named-open localizer set. The registry contains exactly 30 cells and 120 equations, has SHA-256 2607f88572c63091b06a1c35dd55c80a3e4f10daff2fb3423f5bb8c03f0f116e, maximum equation total degree 30, maximum 1,098 terms, and no four-equation common factor in any cell. This is a compiler and census, not an emptiness theorem.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_compile.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_compile_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/direct_residual_registry_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
+   "title": "KoalaBear near-positive F02 square-orbit exclusions",
+   "status": "PROVED",
+   "closure": "four F02 square-allocation affine literal orbit representatives are empty on their complete named opens",
+   "statement": "Over the deployed characteristic p=2130706433, each of the four direct residual cells F02-A-RX, F02-A-RL, F02-OB-RX, and F02-OB-RL has unit named-open q-slice ideal. Sequential exact saturation by the ten radical localizer factors and an independent one-step Rabinowitsch ideal both return unit. Therefore these four affine literal transport orbits are empty over the algebraic closure and hence over F_(p^6). The mixed cells F02-A-RM and F02-OB-RM remain nonunit after complete saturation and are not claimed empty or nonempty. The direct affine frontier decreases from 30 to 26 representatives.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_classify.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_classify_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_f02_saturated_classification_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_audit.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_audit_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_f02_square_audit_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
    "title": "KoalaBear near-positive literal inversion transport",
    "status": "PROVED",
@@ -30209,7 +30250,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 explicit representatives remain. The natural reciprocal-pair-swap centralizer extension is exactly refuted: targets transform, but no reconstructed residual destination exists. The residual frontier is therefore those 30 direct affine classifications together with separate near-positive projective-boundary, aligned-negative, and near-negative literal audits.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Four F02 square-allocation orbits are now empty by dual named-open unit-ideal certificates, leaving 26 affine representatives. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Separate near-positive projective-boundary, aligned-negative, and near-negative literal audits also remain.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -57326,6 +57367,26 @@
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_full_j_log_guarded_numerator_branch_exclusion",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",

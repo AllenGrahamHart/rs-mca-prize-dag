@@ -1,0 +1,181 @@
+{
+  "results": {
+    "F02-A-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F02-A-RL",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 0.3608340710000064,
+          "basis_size": 1,
+          "cell": "F02-A-RL",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.3608340710000064,
+        "basis_size": 1,
+        "cell": "F02-A-RL",
+        "equation_count": 4,
+        "localizer_count": 10,
+        "localizer_product_degree": 14,
+        "localizer_product_terms": 104,
+        "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 501656,
+      "returncode": 0,
+      "seconds": 37.988237,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "8547ee176e414a99df8ef97713e5dea7b4f757ae9064e4176945e928cac9f7c3",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_AUDIT_JSON {\"cell\":\"F02-A-RL\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_CELL_AUDIT_JSON {\"basis_seconds\":0.3608340710000064,\"basis_size\":1,\"cell\":\"F02-A-RL\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F02-A-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F02-A-RX",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 0.3845908660000035,
+          "basis_size": 1,
+          "cell": "F02-A-RX",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 0.3845908660000035,
+        "basis_size": 1,
+        "cell": "F02-A-RX",
+        "equation_count": 4,
+        "localizer_count": 10,
+        "localizer_product_degree": 14,
+        "localizer_product_terms": 104,
+        "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 501124,
+      "returncode": 0,
+      "seconds": 32.382041,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "ea23f4f5adf7545097dce8ff9d43e7f752360099546a15c209b9f7c40376e15e",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_AUDIT_JSON {\"cell\":\"F02-A-RX\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_CELL_AUDIT_JSON {\"basis_seconds\":0.3845908660000035,\"basis_size\":1,\"cell\":\"F02-A-RX\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F02-OB-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F02-OB-RL",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 3.4003911020000004,
+          "basis_size": 1,
+          "cell": "F02-OB-RL",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 3.4003911020000004,
+        "basis_size": 1,
+        "cell": "F02-OB-RL",
+        "equation_count": 4,
+        "localizer_count": 10,
+        "localizer_product_degree": 14,
+        "localizer_product_terms": 104,
+        "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 507260,
+      "returncode": 0,
+      "seconds": 100.345106,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "85d8ab24fb23fffc678c25404e0c9b2f965033915caea115b11ac3d03f35e4f3",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_AUDIT_JSON {\"cell\":\"F02-OB-RL\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_CELL_AUDIT_JSON {\"basis_seconds\":3.4003911020000004,\"basis_size\":1,\"cell\":\"F02-OB-RL\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F02-OB-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F02-OB-RX",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 1.342875370999998,
+          "basis_size": 1,
+          "cell": "F02-OB-RX",
+          "equation_count": 4,
+          "localizer_count": 10,
+          "localizer_product_degree": 14,
+          "localizer_product_terms": 104,
+          "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 1.342875370999998,
+        "basis_size": 1,
+        "cell": "F02-OB-RX",
+        "equation_count": 4,
+        "localizer_count": 10,
+        "localizer_product_degree": 14,
+        "localizer_product_terms": 104,
+        "schema": "kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 508812,
+      "returncode": 0,
+      "seconds": 54.101788,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "fd810956b2a5345a10fc593ea384b86c8703cc2cd098fdae118b5b77630a7e55",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_CELL_AUDIT_JSON {\"cell\":\"F02-OB-RX\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_CELL_AUDIT_JSON {\"basis_seconds\":1.342875370999998,\"basis_size\":1,\"cell\":\"F02-OB-RX\",\"equation_count\":4,\"localizer_count\":10,\"localizer_product_degree\":14,\"localizer_product_terms\":104,\"schema\":\"kb-c2-112-near-literal-direct-cell-rabinowitsch-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    }
+  },
+  "schema": "kb-c2-112-near-literal-direct-cell-audit-modal-v1"
+}

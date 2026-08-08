@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
+    "title": "KoalaBear near-positive F02 square-orbit exclusions",
+    "status": "PROVED",
+    "closure": "four F02 square-allocation affine literal orbit representatives are empty on their complete named opens",
+    "statement": "Over the deployed characteristic p=2130706433, each of the four direct residual cells F02-A-RX, F02-A-RL, F02-OB-RX, and F02-OB-RL has unit named-open q-slice ideal. Sequential exact saturation by the ten radical localizer factors and an independent one-step Rabinowitsch ideal both return unit. Therefore these four affine literal transport orbits are empty over the algebraic closure and hence over F_(p^6). The mixed cells F02-A-RM and F02-OB-RM remain nonunit after complete saturation and are not claimed empty or nonempty. The direct affine frontier decreases from 30 to 26 representatives.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_f02_saturated_classification_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_cell_audit_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/direct_residual_f02_square_audit_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

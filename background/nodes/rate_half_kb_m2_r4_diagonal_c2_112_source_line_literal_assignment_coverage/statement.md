@@ -9,6 +9,10 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport`
 - **pair-swap route cut:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation`
+- **direct residual registry:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry`
+- **first direct exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -85,6 +89,23 @@ exactly, but both reconstructed residuals fail for every induced assignment;
 an exact search finds no alternative literal destination in either root
 order. Thus the 30 cells in `(KBCOV-2)` are direct classification tasks, not
 unclaimed centralizer images.
+
+The exact direct compiler records all 30 representatives and their named
+opens. Sequential saturation and an independent Rabinowitsch audit prove the
+four `F02` square-allocation representatives empty:
+
+```text
+F02-A-RX, F02-A-RL, F02-OB-RX, F02-OB-RL.        (KBCOV-3)
+```
+
+The two `F02` mixed cells remain nonunit and open. The current affine
+near-positive residual is therefore exactly 26 representatives:
+
+```text
+{F02} x {A,other} x {RM}
+ union
+{F04,F06,M01,M03} x {A,other} x {RX,RL,RM}.      (KBCOV-4)
+```
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
