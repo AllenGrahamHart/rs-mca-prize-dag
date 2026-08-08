@@ -2959,3 +2959,32 @@ compute:                   bounded Modal, final app ap-LHmTRosR90JHKDnuGjh8oI
 live compute requests:     none
 next:                      attack the matching orbit {5,12}
 ```
+
+### Cell-4 pairing-5 orbit close
+
+Matching 5 remains in the same degree-eight family, but its second paired
+quadratic is `Pair(second_de,sigma_c*cf)` and its final cut is
+`Pair(sigma_o*ef,bf)`. The exact 32-row census has 320 candidate roots, 288
+guarded source points, 1,040 `(u,f)` rows, 960 missing-relation failures, 64
+nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,12)` but correctly leaves `(0,12)` and
+`(1,12)` open. Cell 4 now has 25/105 paid labels, with 80 labels in 46
+quotient orbits live.
+
+```text
+starting pin:              8175e427d
+ending mathematical pin:  99e0e55ff
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 5; quotient-closed xi2/pairing 12
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-MuHmcgibJfx736RiVWp2vE
+live compute requests:     none
+next:                      close positive-DE matching 12
+```
