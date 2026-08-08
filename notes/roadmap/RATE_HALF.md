@@ -34,6 +34,14 @@ theorem covers cell 7's exceptional branch. Therefore orbit `[4,7]` is
 PROVED empty. Historical matching-by-matching details remain in
 `critical/nodes/rate_half_band_closure/attack_addenda/13-*` through `34-*`.
 
+Representative cell 12 now has a complete structural common-locus packet,
+but no outside label is yet paid. The selected `AC` pivot covers all 24
+source-sign/product-cofactor charts. Its leading-open common curve is an
+exact elliptic four-basis tower, the leading complement is 12 classified
+zero-dimensional fibers with eight deployed rational points, and one
+sign-independent primitive kernel annihilates all ten common Vieta rows.
+These are PROVED suppliers for the `[12,13]` orbit, not a cell closure.
+
 ## Node hierarchy
 
 ```text
@@ -80,7 +88,15 @@ cell-4 four-basis tower
                      |
              role orbit [4,7]                 [PROVED]
                      |
-       audit remaining role-cell orbits       [NEXT]
+       cell-12 elliptic common locus           [PROVED]
+                     |
+       cell-12 global common kernel            [PROVED]
+                     |
+       route 105 cell-12 outside labels        [NEXT]
+                     |
+       close cell 12, transport to cell 13     [OPEN]
+                     |
+       audit role orbits [5,8], [9,10], [11]   [OPEN]
 ```
 
 This hierarchy is intentional: each child has a reusable exact statement,
@@ -88,6 +104,9 @@ while source-sign rows and norm roots remain certificate records.
 
 ## Compute posture
 
-Use symmetry and source-only cuts before launching a census.  Modal jobs must
-be route-deciding and remain within the active protocol budget.  Larger
-campaigns go to the deferred compute ledger.
+Use symmetry, boundary-point checks, and source-only cuts before launching a
+census. The immediate cell-12 router should classify reciprocal, equal-`DE`,
+and endpoint-compatible outside families against the fixed kernel without
+computing large norms. Modal jobs must be route-deciding and remain within
+the active protocol budget. Larger campaigns go to the deferred compute
+ledger.

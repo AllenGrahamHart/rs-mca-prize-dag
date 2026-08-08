@@ -139,11 +139,13 @@ def scout(case):
         f"list QS{index}=sat(Q,LH{index}); Q=QS{index}[1]; Q=std(Q);"
         for index in range(len(guards))
     )
-    quotient_reductions = "\n".join(
-        f'print("QROW={index},BEGIN"); print(reduce(K[{index + 1}],Q)); '
-        f'print("QROW={index},END");'
-        for index in range(9)
-    )
+    quotient_reductions = """
+for (int qrow=1; qrow<=size(K); qrow++) {
+  print("QROW="+string(qrow-1)+",BEGIN");
+  print(reduce(K[qrow],Q));
+  print("QROW="+string(qrow-1)+",END");
+}
+"""
     generators = ",".join(f"q{index}" for index in range(len(equations)))
     program = f"""
 LIB "elim.lib";
@@ -237,15 +239,13 @@ print("END"); quit;
         return compact
 
     valid = process.returncode == 0 and "END" in stdout and "?" not in stdout
-    quotient_remainders = []
-    for index in range(9):
-        match = re.search(
-            rf"QROW={index},BEGIN\n(.*?)\nQROW={index},END",
+    quotient_remainders = [
+        "".join(match.group(2).split())
+        for match in re.finditer(
+            r"QROW=(\d+),BEGIN\n(.*?)\nQROW=\1,END",
             stdout, re.DOTALL,
         )
-        quotient_remainders.append(
-            "".join(match.group(1).split()) if match else None
-        )
+    ]
     lex_match = re.search(r"LEX_BEGIN\n(.*?)\nLEX_END", stdout, re.DOTALL)
     lex_body = lex_match.group(1) if lex_match else ""
     lex_rows = re.findall(
@@ -288,7 +288,10 @@ print("END"); quit;
         "lex_basis": lex_basis,
         "quotient_basis_size": integer("QUOTIENT_SIZE"),
         "quotient_remainders": quotient_remainders,
-        "quotient_exact": quotient_remainders == ["0"] * 9,
+        "quotient_exact": (
+            len(quotient_remainders) == len(lex_basis)
+            and quotient_remainders == ["0"] * len(lex_basis)
+        ),
         "equation_profiles": [
             {
                 "degree": sp.Poly(value, *variables, modulus=PRIME).total_degree(),
@@ -307,7 +310,12 @@ def main(
     signs: str = "-1:-1",
     charts: str = "0",
     pivots: str = "1,2,3,4",
+    output_name: str = "",
 ):
+    if output_name and (Path(output_name).name != output_name
+                        or not output_name.endswith(".json")):
+        raise ValueError("output_name must be a JSON basename")
+    result_path = DIRECTORY / output_name if output_name else RESULT
     selected_cells = tuple(int(value) for value in cells.split(",") if value)
     selected_signs = tuple(
         tuple(int(value) for value in pair.split(":"))
@@ -322,31 +330,51 @@ def main(
         (cell, epsilon[0], epsilon[1], chart, pivot)
         for cell, epsilon, chart, pivot in cases
     )
-    raw = list(scout.map(cases, order_outputs=True, return_exceptions=True))
     rows = []
-    for case, row in zip(cases, raw):
+
+    def checkpoint(complete):
+        output = {
+            "schema": "rate-half-kb-positive-433-1b-compact-pivot-scout-v3",
+            "field": PRIME,
+            "scope": (
+                "Exact pivot-boundary and two-variable projection scout for "
+                "remaining principal common curves; no outside or route claim."
+            ),
+            "source_common_sha256": hashlib.sha256(COMMON.read_bytes()).hexdigest(),
+            "source_product_sha256": hashlib.sha256(PRODUCT.read_bytes()).hexdigest(),
+            "complete": complete,
+            "expected_rows": len(cases),
+            "rows": rows,
+        }
+        result_path.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+
+    checkpoint(False)
+    remote_errors = []
+    raw = scout.map(cases, order_outputs=False, return_exceptions=True)
+    for row in raw:
         if isinstance(row, BaseException):
+            remote_errors.append(repr(row))
+        else:
+            rows.append(row)
+        checkpoint(False)
+    seen = {
+        (row["cell"], *row["epsilon"], row["chart"], row["pivot"])
+        for row in rows
+    }
+    for case in cases:
+        if case not in seen:
             rows.append({
                 "cell": case[0], "epsilon": list(case[1:3]),
                 "chart": case[3], "pivot": case[4],
-                "status": "REMOTE_ERROR", "error": repr(row),
+                "status": "REMOTE_ERROR",
+                "error": "; ".join(remote_errors) or "missing map output",
             })
-        else:
-            rows.append(row)
-    output = {
-        "schema": "rate-half-kb-positive-433-1b-compact-pivot-scout-v3",
-        "field": PRIME,
-        "scope": (
-            "Exact pivot-boundary and two-variable projection scout for "
-            "remaining principal common curves; no outside or route claim."
-        ),
-        "source_common_sha256": hashlib.sha256(COMMON.read_bytes()).hexdigest(),
-        "source_product_sha256": hashlib.sha256(PRODUCT.read_bytes()).hexdigest(),
-        "rows": rows,
-    }
-    RESULT.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+    rows.sort(key=lambda row: (
+        row["cell"], row["epsilon"], row["chart"], row["pivot"]
+    ))
+    checkpoint(True)
     print(json.dumps({
-        "result": str(RESULT),
+        "result": str(result_path),
         "rows": [
             {
                 key: row.get(key) for key in (

@@ -1,0 +1,605 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "b_factors": [
+        {
+          "degree": 1,
+          "expression": "b - 910818720",
+          "multiplicity": 1,
+          "sha256": "4093e0697ab1e223b1b158f0a6b3288c5343098e3b0578b53b02954cb96b480f"
+        },
+        {
+          "degree": 1,
+          "expression": "b - 695491477",
+          "multiplicity": 1,
+          "sha256": "99638cf5e921207de021f0f06a69f5a1f82fa29884882b666e9b85321aa9996d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "b_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lex_basis": [
+        "t+153765284",
+        "b2+524396236b+1",
+        "c-358097286b-714965164",
+        "z-524875414b-828698447"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1976941149
+      ],
+      "program_sha256": "ecec9f2748d3d152ce86da7225495d564f7f1d7b03035dd50e42ad1eb6fda2b1",
+      "r": 247532447,
+      "rational_points": [
+        {
+          "b": 695491477,
+          "c": 227808423,
+          "guard_nonzero": true,
+          "r": 247532447,
+          "t": 1976941149,
+          "z": 71666343
+        },
+        {
+          "b": 910818720,
+          "c": 535436849,
+          "guard_nonzero": true,
+          "r": 247532447,
+          "t": 1976941149,
+          "z": 488091188
+        }
+      ],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+153765284\nJ[2]=b2+524396236b+1\nJ[3]=c-358097286b-714965164\nJ[4]=z-524875414b-828698447\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 153765284",
+          "multiplicity": 1,
+          "sha256": "aba200e4b29d2c19b0363ed17157ac717dab4cf9dda45795a57f98cdf3d8ba2a"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 - 640495052*b + 1",
+          "multiplicity": 1,
+          "sha256": "604ca099ba6d2207d69942e5b09b9d64ac97d859a7c8537ecc27bbb9dc62073d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lex_basis": [
+        "t-485035226",
+        "b2-640495052b+1",
+        "c+193028087b-795837170",
+        "z-493192207b-509690937"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        485035226
+      ],
+      "program_sha256": "1e7ea7fb1bb4babefc4366edf23e5dec5da27439c2f74306d429d27cfc90b1c5",
+      "r": 1205051435,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-485035226\nJ[2]=b2-640495052b+1\nJ[3]=c+193028087b-795837170\nJ[4]=z-493192207b-509690937\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 485035226",
+          "multiplicity": 1,
+          "sha256": "55f1fd47ee66ac8909d58a956f8ad67603570ed47cabd898783f4239241de7e1"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 + 618424936*b + 1",
+          "multiplicity": 1,
+          "sha256": "2196838dadab1813a4a1cb8663ab24f0491f1fe8cca05999be592ebe4d16d7bf"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "lex_basis": [
+        "t+808099190",
+        "b2+618424936b+1",
+        "c+310757037b-848167661",
+        "z+376096970b-356281951"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1322607243
+      ],
+      "program_sha256": "507879fd9b34bde7c55c46445842c44fa84d58075e42c587b49914094a47a8e3",
+      "r": 1634496044,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+808099190\nJ[2]=b2+618424936b+1\nJ[3]=c+310757037b-848167661\nJ[4]=z+376096970b-356281951\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 808099190",
+          "multiplicity": 1,
+          "sha256": "8bdb5175d0d9c467ac01b23c5649d71f66b7738d3a3d05e4500bc97d389b76e7"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 1,
+          "expression": "b - 910818720",
+          "multiplicity": 1,
+          "sha256": "4093e0697ab1e223b1b158f0a6b3288c5343098e3b0578b53b02954cb96b480f"
+        },
+        {
+          "degree": 1,
+          "expression": "b - 695491477",
+          "multiplicity": 1,
+          "sha256": "99638cf5e921207de021f0f06a69f5a1f82fa29884882b666e9b85321aa9996d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "b_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "lex_basis": [
+        "t+146168935",
+        "b2+524396236b+1",
+        "c-358097286b-714965164",
+        "z-70383727b+1022198503"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1984537498
+      ],
+      "program_sha256": "9b88e63e7c9bdf054fc1a91701518c9f25eb66f39db125d693750192bf8a22da",
+      "r": 1131575745,
+      "rational_points": [
+        {
+          "b": 695491477,
+          "c": 227808423,
+          "guard_nonzero": true,
+          "r": 1131575745,
+          "t": 1984537498,
+          "z": 1231354810
+        },
+        {
+          "b": 910818720,
+          "c": 535436849,
+          "guard_nonzero": true,
+          "r": 1131575745,
+          "t": 1984537498,
+          "z": 1370447276
+        }
+      ],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+146168935\nJ[2]=b2+524396236b+1\nJ[3]=c-358097286b-714965164\nJ[4]=z-70383727b+1022198503\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 146168935",
+          "multiplicity": 1,
+          "sha256": "620244304d86432446f8b130467168794102ffbffbfc0db3b432e65f8b20fe9f"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 - 640495052*b + 1",
+          "multiplicity": 1,
+          "sha256": "604ca099ba6d2207d69942e5b09b9d64ac97d859a7c8537ecc27bbb9dc62073d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "lex_basis": [
+        "t+718020146",
+        "b2-640495052b+1",
+        "c+193028087b-795837170",
+        "z-696479874b-781339967"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1412686287
+      ],
+      "program_sha256": "d337bfb843b81fde6dd424b136ff9808c2853688ee767b5f40ba0024913468b3",
+      "r": 16742327,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+718020146\nJ[2]=b2-640495052b+1\nJ[3]=c+193028087b-795837170\nJ[4]=z-696479874b-781339967\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 718020146",
+          "multiplicity": 1,
+          "sha256": "64447188ed9c92249e40d7c55b646a1c4db0de10954c22f9ba803b130e1b632e"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 + 618424936*b + 1",
+          "multiplicity": 1,
+          "sha256": "2196838dadab1813a4a1cb8663ab24f0491f1fe8cca05999be592ebe4d16d7bf"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "lex_basis": [
+        "t+791896829",
+        "b2+618424936b+1",
+        "c+310757037b-848167661",
+        "z+569822075b+192794454"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1338809604
+      ],
+      "program_sha256": "8886489c132d879f2ec97443548d9cf2354bbd15562aee77cf6e4a0e26366739",
+      "r": 643805225,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+791896829\nJ[2]=b2+618424936b+1\nJ[3]=c+310757037b-848167661\nJ[4]=z+569822075b+192794454\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 791896829",
+          "multiplicity": 1,
+          "sha256": "20a2fa7a40bd48644829ec0066cad389311e66dd0f50c1cfedabff44c9545671"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 1,
+          "expression": "b - 910818720",
+          "multiplicity": 1,
+          "sha256": "4093e0697ab1e223b1b158f0a6b3288c5343098e3b0578b53b02954cb96b480f"
+        },
+        {
+          "degree": 1,
+          "expression": "b - 695491477",
+          "multiplicity": 1,
+          "sha256": "99638cf5e921207de021f0f06a69f5a1f82fa29884882b666e9b85321aa9996d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "b_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lex_basis": [
+        "t-153765284",
+        "b2+524396236b+1",
+        "c-358097286b-714965164",
+        "z+524875414b+828698447"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        153765284
+      ],
+      "program_sha256": "7d5066f141c33a6309ce51085afd1c8c353529cd15c135b2669a0c5f02a8db0b",
+      "r": 1883173986,
+      "rational_points": [
+        {
+          "b": 695491477,
+          "c": 227808423,
+          "guard_nonzero": true,
+          "r": 1883173986,
+          "t": 153765284,
+          "z": 2059040090
+        },
+        {
+          "b": 910818720,
+          "c": 535436849,
+          "guard_nonzero": true,
+          "r": 1883173986,
+          "t": 153765284,
+          "z": 1642615245
+        }
+      ],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-153765284\nJ[2]=b2+524396236b+1\nJ[3]=c-358097286b-714965164\nJ[4]=z+524875414b+828698447\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 153765284",
+          "multiplicity": 1,
+          "sha256": "7944e6e894c9c9ab0f35b4d1a71faf0f78ee0ba764d5ada47d1bb7efb8d992e7"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 + 618424936*b + 1",
+          "multiplicity": 1,
+          "sha256": "2196838dadab1813a4a1cb8663ab24f0491f1fe8cca05999be592ebe4d16d7bf"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lex_basis": [
+        "t-808099190",
+        "b2+618424936b+1",
+        "c+310757037b-848167661",
+        "z-376096970b+356281951"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        808099190
+      ],
+      "program_sha256": "8098b84997baa1d0afbaf35b924133e2ad2c08f53af25e22d5c1faf2f4c89d03",
+      "r": 496210389,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-808099190\nJ[2]=b2+618424936b+1\nJ[3]=c+310757037b-848167661\nJ[4]=z-376096970b+356281951\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 808099190",
+          "multiplicity": 1,
+          "sha256": "702e99a22dcf276e658786f30cb4f21eff752688019329b51c859ed8b15651d0"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 - 640495052*b + 1",
+          "multiplicity": 1,
+          "sha256": "604ca099ba6d2207d69942e5b09b9d64ac97d859a7c8537ecc27bbb9dc62073d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "lex_basis": [
+        "t+485035226",
+        "b2-640495052b+1",
+        "c+193028087b-795837170",
+        "z+493192207b+509690937"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        1645671207
+      ],
+      "program_sha256": "5c3785f97c62e735cc2c5993b83869831a7a4c3d6bae67480c90b102348ed7fb",
+      "r": 925654998,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t+485035226\nJ[2]=b2-640495052b+1\nJ[3]=c+193028087b-795837170\nJ[4]=z+493192207b+509690937\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t + 485035226",
+          "multiplicity": 1,
+          "sha256": "7a52cd706ca134ab07880da8f9f64876341b5aedb8d9df93c729f71b192101cf"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 1,
+          "expression": "b - 910818720",
+          "multiplicity": 1,
+          "sha256": "4093e0697ab1e223b1b158f0a6b3288c5343098e3b0578b53b02954cb96b480f"
+        },
+        {
+          "degree": 1,
+          "expression": "b - 695491477",
+          "multiplicity": 1,
+          "sha256": "99638cf5e921207de021f0f06a69f5a1f82fa29884882b666e9b85321aa9996d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "b_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "lex_basis": [
+        "t-146168935",
+        "b2+524396236b+1",
+        "c-358097286b-714965164",
+        "z+70383727b-1022198503"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        146168935
+      ],
+      "program_sha256": "d017e87841c7a2996b32390e3ae609de68039d880666bf4e5223e52a6e4b2afa",
+      "r": 999130688,
+      "rational_points": [
+        {
+          "b": 695491477,
+          "c": 227808423,
+          "guard_nonzero": true,
+          "r": 999130688,
+          "t": 146168935,
+          "z": 899351623
+        },
+        {
+          "b": 910818720,
+          "c": 535436849,
+          "guard_nonzero": true,
+          "r": 999130688,
+          "t": 146168935,
+          "z": 760259157
+        }
+      ],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-146168935\nJ[2]=b2+524396236b+1\nJ[3]=c-358097286b-714965164\nJ[4]=z+70383727b-1022198503\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 146168935",
+          "multiplicity": 1,
+          "sha256": "cea41c76ad4142cf2a9b5bce311530c6617568d728aa577ad47decb6f8dd8d07"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 + 618424936*b + 1",
+          "multiplicity": 1,
+          "sha256": "2196838dadab1813a4a1cb8663ab24f0491f1fe8cca05999be592ebe4d16d7bf"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "lex_basis": [
+        "t-791896829",
+        "b2+618424936b+1",
+        "c+310757037b-848167661",
+        "z-569822075b-192794454"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        791896829
+      ],
+      "program_sha256": "3e907414e2f92daaddbd2702358e2cd1fe136812112d5ab2c522aa67bb13e8c6",
+      "r": 1486901208,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-791896829\nJ[2]=b2+618424936b+1\nJ[3]=c+310757037b-848167661\nJ[4]=z-569822075b-192794454\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 791896829",
+          "multiplicity": 1,
+          "sha256": "e5fe9eaa9e54b87a784827605dc1f3aa6e41475737e84a0f626759ad6ca94514"
+        }
+      ],
+      "unit": false
+    },
+    {
+      "b_factors": [
+        {
+          "degree": 2,
+          "expression": "b**2 - 640495052*b + 1",
+          "multiplicity": 1,
+          "sha256": "604ca099ba6d2207d69942e5b09b9d64ac97d859a7c8537ecc27bbb9dc62073d"
+        }
+      ],
+      "basis_size": 4,
+      "boundary": "c_leading",
+      "dimension": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "lex_basis": [
+        "t-718020146",
+        "b2-640495052b+1",
+        "c+193028087b-795837170",
+        "z+696479874b+781339967"
+      ],
+      "lex_basis_size": 4,
+      "linear_t_roots": [
+        718020146
+      ],
+      "program_sha256": "370271bb79ed19a6c8428687ff2f2c48b8fcc6426486c600b6c94083d361fb24",
+      "r": 2113964106,
+      "rational_points": [],
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "DP_DIM=0\nDP_SIZE=4\nDP_UNIT=0\nLEX_BEGIN\nLEX_SIZE=4\nJ[1]=t-718020146\nJ[2]=b2-640495052b+1\nJ[3]=c+193028087b-795837170\nJ[4]=z+696479874b+781339967\nLEX_END\nEND\n",
+      "t_factors": [
+        {
+          "degree": 1,
+          "expression": "t - 718020146",
+          "multiplicity": 1,
+          "sha256": "728448c365bfdbc89bac671922faab06c7fdf020215a371e01d3d9f77314b9e5"
+        }
+      ],
+      "unit": false
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell12-tower-boundary-v1",
+  "scope": "Exact deployed-field classification of the three non-guard leading-coefficient fibers in one cell-12 common chart.",
+  "source_structure_sha256": "518eaacbd04558fc7784eae4cd8ad7ef4183f04a74414a27fdc3c5b005d8a784",
+  "source_tower_sha256": "220876c52945acabfae53b22bb90ff07a76ea6bb0cd66c1a9b21f92d58ae2f8e"
+}

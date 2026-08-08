@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion/verify.py",
-      "seconds": 35.341965,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/verify.py",
+      "seconds": 0.596068,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 pairing=9 positive_DE=2 raw_cases=32 computed=16 transported=16 candidates=288 source_points=544 colored_nonzero=192 boundaries=0 witnesses=0\n"
+      "stdout_tail": "cell=12 kernels=1 sign_rows=4 exact_reductions=40 formal_rows=7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion/verify_audit.py",
-      "seconds": 0.036263,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/verify_audit.py",
+      "seconds": 0.704494,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok rows=16 candidates=288 colored_nonzero=192 witnesses=0\n"
+      "stdout_tail": "audit=ok boundary_points=8 row_pairings=80\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

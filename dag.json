@@ -29957,6 +29957,54 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 elliptic four-basis common locus",
+   "status": "PROVED",
+   "closure": "exact 24-chart principal common curve, elliptic four-basis leading-open presentation, and complete deployed leading-boundary census",
+   "statement": "On the guarded product-rank-five branch of deployed positive 433-1b role cell 12, the AC pivot covers all four source-sign rows and six product-cofactor charts with empty pivot boundary. Every common ideal has dimension one, compact basis size 15, and lex basis size 8. On the leading-open chart it is exactly a quadratic extension in t over F_p(r), followed by a palindromic quadratic in b and linear recovery of c. Removing the doubled route factor from the base discriminant leaves a square-free quartic, so the normalized base curve has genus one. The leading-boundary complement consists of twelve exact zero-dimensional fibers: four b-leading fibers contribute exactly eight guarded F_p-points, while eight c-leading fibers have no F_p-points. No outside-record exclusion, duplicate-role transport, or Prize conclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_remaining_compact_pivot_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_complete_pivot_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_four_basis_tower_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_four_basis_tower_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_tower_boundary_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_tower_boundary_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 global common kernel",
+   "status": "PROVED",
+   "closure": "one sign-independent primitive eight-coordinate kernel annihilating all ten common Vieta rows on the complete guarded cell-12 principal common locus",
+   "statement": "On the complete guarded product-rank-five common locus of deployed positive 433-1b role cell 12, one primitive eight-coordinate polynomial vector is independent of source signs and of all six product-cofactor charts. It annihilates all five product rows, the LA sum row, and the AC pivot sum row identically; the AB, BC+, and BC- sum-row pairings reduce to zero modulo each of the four exact common ideals. All ten reductions vanish for all four sign rows, and the kernel also vanishes on the eight rational leading-boundary points. This is a common-kernel theorem only and excludes no outside record.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_compact_kernel_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_compact_kernel_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b role-cell-4 complete exclusion",
    "status": "PROVED",
@@ -58470,8 +58518,33 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
@@ -58790,7 +58863,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "kind": "req"
   },
   {
@@ -58836,6 +58924,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "kind": "req"
   },
   {
@@ -59781,6 +59879,16 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
    "kind": "req"
   },
   {

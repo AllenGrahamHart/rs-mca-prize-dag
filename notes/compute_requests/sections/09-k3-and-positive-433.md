@@ -1260,3 +1260,50 @@ recomputes all degree-3864/3868 norm roots and every source lift. This closes
 matching 11 directly; exact transports pay matching 14 and both xi4 partners.
 Separate disjoint-cover verifiers then close all 105 cell-4 labels and the
 duplicate-role orbit `[4,7]`.
+
+### 2026-08-08 positive 433-1b cell-12 elliptic common-locus campaign
+
+**Decision.** Select a compact exact presentation for the next unclosed
+duplicate-role orbit `[12,13]` before compiling any of its 105 outside
+labels. Cell `12` is the representative: `BC-` is singleton and the source
+matching is `(LA,AB),(AC,BC+)`. All expensive standard-basis work was sent
+to Modal; only hash, JSON, and low-degree polynomial audits ran under local
+`ramguard tiny`.
+
+**Route selection.** The initial four-pivot chart found one-dimensional
+common ideals for every pivot. Exact subset searches showed that no triple
+of the eight lex rows generates the full guarded affine ideal, even after
+route localization. Four specific quadruples become exact after additionally
+inverting their leading coefficients. The failed exploratory birational
+launcher had parser/syntax faults, produced no evidence, and was deleted.
+The corrected pivot app was `ap-xjoaAlJ031oiZi6jcVczhf`; the unsaturated
+subset app was `ap-BeB5FduQYUhe8wyHKYqfvf`; and the final exhaustive
+leading-localized subset app was `ap-deMSQ71aFOEXmluIwPriXF`. These packets
+are route-selection evidence only and promote no separate node.
+
+**Complete structure.** App `ap-UGTRxHvSZteecD6UcEscYD` checked the selected
+`AC` pivot in all four source-sign rows and all six product-cofactor charts:
+all 24 runs completed with dimension one, compact basis size `15`, lex basis
+size `8`, and unit pivot boundary. App `ap-Jc9a3zuxX9HLZwWOJMpaGx` proved the
+exact leading-open presentation by a quadratic in `t`, a palindromic
+quadratic in `b`, and a linear recovery of `c`; an alternate linear recovery
+gave the same localized ideal. Removing the doubled route factor from each
+base discriminant leaves a square-free quartic, hence a genus-one normalized
+base.
+
+**Boundary and kernel.** App `ap-J73jbPfsrEcJzlKzj4LCVU` classified all 12
+leading fibers. Four split `b` fibers give exactly eight guarded deployed
+points; eight quadratic `c` fibers have no deployed points. App
+`ap-jKyXbePmY48WoHuLsDi9EZ` then produced one sign-independent primitive
+eight-coordinate kernel. Seven common-row pairings vanish identically and
+the remaining three reduce to zero on all four exact common ideals. The
+independent local audit also checks all 80 row pairings at the eight boundary
+points.
+
+**Effect and spend.** The campaign promoted two small PROVED structural
+nodes: the complete elliptic common-locus decomposition and its global
+common kernel. It closes no outside label and does not close cell `12`.
+Each final app used at most four 4-GiB containers for under five minutes;
+the aggregate final-certificate cost is conservatively below `$1`. The next
+authorized computation is a cheap 105-label structural router against the
+fixed kernel, not a broad norm campaign.
