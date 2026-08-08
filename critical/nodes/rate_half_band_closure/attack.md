@@ -61,6 +61,9 @@ still `TARGET`.
 - `attack_addenda/26-wave64-positive-433-universal-xi43-transport.md`:
   universal outside-role transport reducing the live independent cell-4
   obligation to missing `df`.
+- `attack_addenda/27-wave65-positive-433-cell4-xi3-pairing0.md`: exact
+  reciprocal-square exclusion at `xi=3`, matching 0, plus its `xi=4`
+  transport payment; 28 labels remain live.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

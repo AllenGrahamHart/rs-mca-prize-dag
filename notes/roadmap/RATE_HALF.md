@@ -32,8 +32,11 @@ is therefore 75/105 paid; 30 labels in 18 of the 60 quotient orbits remain.
 These are exactly missing `df` and missing `sigma_o ef`, `xi in {3,4}`,
 across all 15 matchings. The universal signed outside-role transport pairs
 `xi=4` with `xi=3` at fixed role cell, signs, lane, and matching. Therefore
-only the 15 `xi=3` labels in nine matching-exchange orbits require an
-independent exclusion proof.
+only `xi=3` requires independent proof. The exact reciprocal-square theorem
+now excludes matching 0 and the universal transport pays its `xi=4` partner.
+Cell 4 is 77/105 paid; 28 labels in 16 quotient orbits remain. Independently,
+these are the 14 `xi=3` labels at matchings 1 through 14 in eight
+matching-exchange orbits.
 
 ## Node hierarchy
 
@@ -59,7 +62,9 @@ cell-4 four-basis tower
                      |
            xi4 <-> xi3 transport          [PROVED]
                      |
-              xi3 matching orbits         [next exact decision]
+            xi3 matching 0 payment        [PROVED]
+                     |
+          xi3 matchings 1 through 14       [next exact decision]
                      |
              complete cell 4
                      |
