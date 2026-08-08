@@ -40,7 +40,10 @@ source-sign/product-cofactor charts. Its leading-open common curve is an
 exact elliptic four-basis tower, the leading complement is 12 classified
 zero-dimensional fibers with eight deployed rational points, and one
 sign-independent primitive kernel annihilates all ten common Vieta rows.
-These are PROVED suppliers for the `[12,13]` orbit, not a cell closure.
+All 105 outside labels in all four target lanes are now PROVED empty at each
+of those eight rational points. Thus only the generic elliptic leading-open
+chart remains on the principal cell-12 frontier. These are PROVED suppliers
+for the `[12,13]` orbit, not a cell closure.
 
 ## Node hierarchy
 
@@ -92,7 +95,9 @@ cell-4 four-basis tower
                      |
        cell-12 global common kernel            [PROVED]
                      |
-       route 105 cell-12 outside labels        [NEXT]
+       rational-boundary outside exclusion      [PROVED]
+                     |
+       quotient/route generic 105 labels        [NEXT]
                      |
        close cell 12, transport to cell 13     [OPEN]
                      |
@@ -104,9 +109,9 @@ while source-sign rows and norm roots remain certificate records.
 
 ## Compute posture
 
-Use symmetry, boundary-point checks, and source-only cuts before launching a
-census. The immediate cell-12 router should classify reciprocal, equal-`DE`,
-and endpoint-compatible outside families against the fixed kernel without
-computing large norms. Modal jobs must be route-deciding and remain within
-the active protocol budget. Larger campaigns go to the deferred compute
-ledger.
+Use symmetry and source-only cuts before launching a census. Cell 12's
+rational boundary is already paid. The immediate generic router should
+classify reciprocal, equal-`DE`, and endpoint-compatible outside families
+against the fixed kernel without computing large norms. Modal jobs must be
+route-deciding and remain within the active protocol budget. Larger
+campaigns go to the deferred compute ledger.

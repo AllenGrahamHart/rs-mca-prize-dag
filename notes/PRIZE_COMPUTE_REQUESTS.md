@@ -12037,3 +12037,20 @@ Each final app used at most four 4-GiB containers for under five minutes;
 the aggregate final-certificate cost is conservatively below `$1`. The next
 authorized computation is a cheap 105-label structural router against the
 fixed kernel, not a broad norm campaign.
+
+**Rational-boundary outside closure.** The immediate finite follow-up ran in
+primary app `ap-WZvIMr7B4J34FR0TsNOTqZ`. It covered the exact Cartesian
+product of eight rational leading-boundary points, four target lanes, seven
+missing records, and 15 residual matchings: 32 shards and 3,360 labels. The
+missing product and squared sum give four target lifts for roles `0..4`;
+the two endpoint roles fail a source-only compatibility equation. All shards
+completed with zero witnesses and zero unresolved branches.
+
+Independent app `ap-LI2VGTAZjNrxqXGCFpBcS5` reconstructed the lifts with a
+separate Tonelli-Shanks implementation, computed each common pair-equation
+factor through `gcd(G,y^p-y)`, and removed every target-guard factor. It also
+completed all 3,360 labels, with zero free branches and total guarded root
+degree zero. A transient Modal heartbeat warning did not affect the remote
+tasks or final complete output; the app stopped normally. The combined cost
+was well below `$1`. This promotes the complete deployed rational-boundary
+exclusion, but pays no point on the generic elliptic chart.

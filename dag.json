@@ -30005,6 +30005,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 rational boundary complete exclusion",
+   "status": "PROVED",
+   "closure": "complete exact exclusion of all 105 outside labels and four target lanes at every deployed rational point in the cell-12 leading-boundary complement",
+   "statement": "The guarded product-rank-five positive 433-1b to O0a route is empty at every deployed rational point in the leading-boundary complement of source role cell 12. The parent common-locus theorem gives exactly eight such points. For each point, all four target sign lanes and all 7 missing-record by 15 residual-matching labels are checked, for 3360 complete systems. Exact missing-product/squared-sum lifting followed by all three kernel pair equations yields no guarded target witness and no unresolved or free branch. An independent Frobenius-gcd audit finds guarded root degree zero in every label. This excludes only the rational leading boundary; the generic elliptic leading-open curve and cell 12 remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_boundary_outside_census_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_boundary_outside_census_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_boundary_outside_census_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_boundary_outside_census_audit_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b role-cell-4 complete exclusion",
    "status": "PROVED",
@@ -58528,6 +58552,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "kind": "req"
   },
@@ -58542,7 +58571,22 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
@@ -58879,6 +58923,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "kind": "req"
   },
   {
