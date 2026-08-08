@@ -600,3 +600,17 @@ closes `3*3*4*4=144` raw cases, or nine of the `105` slices.  The live cell-4
 ledger is `96` slices.  Matching `3`, whose first pair is `(0,2)`, is the
 first genuinely new pairing; quotient the remaining matching table by
 parallel-`DE` exchange and target-lane signs before another norm campaign.
+
+The parallel-`DE` quotient is now exact.  Its matching action is
+
+```text
+{0}, {1}, {2}, {3,6}, {4,9}, {5,12}, {7,10}, {8,13}, {11,14}.
+```
+
+Missing roles `xi=0,1` form one orbit at each fixed matching index; for
+`xi=2,...,6`, the missing role is fixed and the displayed matching action
+applies.  Hence the `105` labeled slices form `60` orbits.  The first-pair
+theorem pays six quotient orbits, leaving `54` representatives for `96`
+live slices.  Compute only pairing representatives `3,4,5,7,8,11`, beginning
+with pairing `3`; each result automatically transports to its displayed
+partner.  Target lanes remain separate.

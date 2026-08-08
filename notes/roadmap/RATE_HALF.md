@@ -24,7 +24,9 @@ a four-element localized tower and a global coefficient kernel.  The
 `xi=2,pairing=0`. Thus all three parallel-`DE` omissions are closed at
 matching `0`. Canonical matchings `1` and `2` share the same first pair, so
 the three exclusions extend to the complete first-pair block. Nine of 105
-missing/matching slices are paid and 96 remain.
+missing/matching slices are paid and 96 remain. Parallel-`DE` exchange
+quotients the full ledger to 60 orbits and the live ledger to 54
+representatives.
 
 ## Node hierarchy
 
@@ -40,7 +42,9 @@ cell-4 four-basis tower
                      |
             DE first-pair block           [PROVED]
                      |
-            remaining matching orbits    [next mathematical decision]
+            matching-orbit quotient       [PROVED]
+                     |
+            pairing-3 representative      [next mathematical decision]
                      |
              complete cell 4
                      |

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify.py",
-      "seconds": 0.040414,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient/verify.py",
+      "seconds": 0.042203,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 de_first_pair slices=9 raw_cases=144 paid=9/105 remaining=96\n"
+      "stdout_tail": "cell=4 labels=105 orbits=60 paid_orbits=6 live_labels=96 live_orbits=54\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion/verify_audit.py",
-      "seconds": 0.022175,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient/verify_audit.py",
+      "seconds": 0.020458,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok canonical_matchings=15 first_pair_indices=0,1,2 slices=9 raw_cases=144\n"
+      "stdout_tail": "audit=ok fixed=3 two_cycles=6 total_orbits=60 live_orbits=54\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

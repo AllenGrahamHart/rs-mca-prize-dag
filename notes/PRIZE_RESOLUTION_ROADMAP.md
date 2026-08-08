@@ -16020,6 +16020,25 @@ nonclaim:                 no xi>=3, pairing>=3, cell/orbit, K3, LIST, MCA,
                           or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-4 matching-orbit quotient
+
+```text
+symmetry:                 exchange the two identical positive DE records
+matching action:          {0},{1},{2},{3,6},{4,9},{5,12},{7,10},{8,13},{11,14}
+missing-role action:      xi0<->xi1 with matching fixed; xi2..6 fixed with
+                          the displayed matching permutation
+complete quotient:        105 labeled slices -> 60 exchange orbits
+paid quotient:            first-pair block = 9 labels / 6 orbits
+live quotient:            96 labels / 54 orbit representatives
+proof mechanism:          exact record and squared-sum identity plus complete
+                          canonical perfect-matching enumeration
+new exclusions:           none; this is a reusable transport theorem
+next representatives:     pairings 3,4,5,7,8,11; start with pairing 3
+target lanes:             remain separate until a sign action is proved
+nonclaim:                 no cell4->7 transport, new empty slice, K3, LIST,
+                          MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
 
 ```text
