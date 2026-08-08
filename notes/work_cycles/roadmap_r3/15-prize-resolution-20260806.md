@@ -3495,3 +3495,47 @@ compute:                   bounded Modal, final app ap-wroUJycnzyUOJqETrQHZt4
 live compute requests:     none
 next:                      close representative matching 5, then transport to 12 and xi4
 ```
+
+### Cell-4 xi3/xi4 pairing-5/12 closure
+
+At `xi=3`, matching 5 has residual pairs
+
+```text
+(de,-de), (de,sigma_c cf), (sigma_o ef,bf).
+```
+
+The antipodal first pair is quadratic in `u=q^2`. Sign-eliminating `q` from
+the colored second pair, reducing modulo that quadratic, and taking the
+division-free linear-remainder cut gives a degree-eight polynomial in
+`z=1/d`. Reduction modulo the missing-sum quartic, followed by exact
+`z -> -z` elimination, leaves a linear common-root cut in the four-basis
+source tower.
+
+Across eight source-sign/`sigma_c` rows, the degree-5058 norm ledger has 104
+candidate `r` roots and 128 guarded source points. Direct replay of the
+original equations leaves 32 compatible `z` values and 32 compatible `q`
+values. All 64 third-pair `sigma_o` evaluations are nonzero; the target-
+boundary, witness, free-branch, and unresolved ledgers are empty. The
+independent verifier recomputes the root unions and all finite lifts.
+
+The parallel-`DE` exchange transports matching 5 to 12 at fixed `xi`; the
+universal outside-role involution transports both to `xi=4`. The two PROVED
+nodes pay four labels, two quotient orbits, and 64 raw cases. Cell 4 is now
+93/105 paid, with 12 labels in six quotient orbits live. The independent
+frontier is `{7,10}`, `{8,13}`, and `{11,14}`.
+
+```text
+starting pin:              24e8e1190
+ending mathematical pin:  bca792862
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-5/12 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-U8FZQRqn5ocilCEg0xtzQY
+live compute requests:     none
+next:                      close representative matching 7, then transport to 10 and xi4
+```
