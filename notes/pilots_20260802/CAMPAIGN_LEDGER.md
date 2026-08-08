@@ -3169,3 +3169,18 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   attack_addenda/, NEVER in attack_sections/; wave audits now
   include running verify_sectioned in the Codex tree at the pin
   BEFORE merging.
+
+## ROUND 24 LAUNCHED (2026-08-08) — QUARANTINE MARKER
+
+The high-impact conjecture falsification fleet (user directive:
+select the conjectures whose truth gives the biggest gains; try to
+falsify/sharpen them): z_ceiling_assault (mystery 2's candidate
+closure attacked in its worst directions + tractable-subfamily
+proof attempts), kernel_window_hunt (the family-uniform emptiness
+falsifier — the norm-cofactor prime hunt in the admissible window,
+with the N'=256 positive control), t_petal_lemma (prove-or-refute
+the overlap cap at t>=4 — the board's highest single-lemma
+leverage), c2pp_gb_probe (C2''-r3's registered G-b falsifier
+executed at toy scale — the first evidence-bearing C2''
+measurement). Pilots MUST NOT read ledger entries below this
+marker and MUST pass this quarantine clause to any subagent.
