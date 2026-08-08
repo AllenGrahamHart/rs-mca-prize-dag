@@ -21877,6 +21877,40 @@ compute:                   Modal apps ap-66X2RoJ3b0eWp3KHAleEXL and ap-anuKZnM08
 live compute requests:     none
 next:                      attack reciprocal classes 7/10, 8/13, and 11/14
 ```
+
+### Cell-12 reciprocal-role matching-7/10 payment
+
+Matching `7` uses the resultant of its two quadratic-in-`q` source pairs,
+followed by the sign-free `z` reduction. A one-row validation completed in
+144 seconds, and the full eight-row packet completed in under three minutes
+wall time.
+
+The exact packet contains 56 target-norm roots, 112 total norm/inverse
+candidates, 160 guarded source points, 16 compatible `(z,q)` lifts, and 32
+final `sigma_o` lanes. Every final pair is nonzero. Eight free-`b` exits lie
+on the proved leading boundary, with no witness or unresolved branch.
+
+The separate 41-profile SymPy/Galois root audit retained 192 roots. The fast
+local verifier validates all 112 profile visits and directly replays every
+source and target equation at the 16 lifts. Exact transports pay four labels
+or one generic orbit. Cell `12` now has 13 representatives and 44 labels
+open.
+
+```text
+starting pin:              621cd8d21
+ending mathematical pin:  6e96ba7a1
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal matching class 7/10; 14 -> 13 representatives
+DAG status delta:          +1 background PROVED (1792 -> 1793); critical orbit unchanged
+upstream terminal delta:   portable exact quadratic-resultant adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-fcr4ueqVTji80aR1qmpdTD, ap-AsoabwG2JvSRt8cgkWTAA1, ap-hiouIDHxqHvElOI6F3ZTLZ
+live compute requests:     none
+next:                      attack reciprocal classes 8/13 and 11/14
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
