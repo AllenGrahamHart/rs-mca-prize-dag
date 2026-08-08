@@ -2887,3 +2887,40 @@ compute:                   bounded Modal, final app ap-xIKZhX3GDN2uknjpfoFBMn
 live compute requests:     none
 next:                      attack the matching orbit {4,9}
 ```
+
+### Cell-4 parallel-DE pairing-4 orbit close
+
+The next quotient representative is now closed at matching 4. With `u=df`
+and `f` retained as the second variable, the first two matching equations are
+quadratic and the missing-sum equation is
+
+```text
+(u^2+eta*de*f^2)^2-s*f^2*u^2=0.
+```
+
+Clearing the `P_u` leading coefficient gives a degree-eight eliminant without
+discarding degree drops. A four-basis norm and exhaustive exceptional-root
+lift over 32 computed rows gives 352 candidate roots, 384 guarded source
+points, 1,168 `(u,f)` rows, 1,088 missing-relation failures, 64 nonzero
+colored cuts, 16 `f=0` boundaries, and no witness or unresolved branch.
+Identical-copy transport supplies the 16 `xi=1` rows.
+
+The exact involution adds `(xi,pairing)=(2,9)` but not the two positive
+matching-9 labels. The cumulative cell-4 ledger moves from 90/51 live
+labels/orbits to 86/49.
+
+```text
+starting pin:              02df73235
+ending mathematical pin:  1faf2902a
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 4; quotient-closed xi2/pairing 9
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-d0Snabe8KIXbHW06cTgXe1
+live compute requests:     none
+next:                      close positive-DE matching 9
+```
