@@ -3114,3 +3114,39 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   Codex's live worktree — replay at the current HEAD when it
   equals the pin, or extract files via git -C show into the
   scratchpad.
+
+## 2026-08-08: WAVE-51 INTEGRATED (exact pin ac7d90f26) — THE LITERAL COVERAGE CAMPAIGN CLOSES: 41 new PROVED + 4 flips, 44/44 verifiers replayed at the pin; census unchanged
+
+- Delta 3fa2922e3..ac7d90f26 (31 commits): the kb_m2_r4 112
+  source-line campaign COMPLETES. FOUR STATUS FLIPS, all verified:
+  (1) source_line_literal_assignment_coverage TARGET -> PROVED —
+  the wave-49-born coverage obligation closed at 36/36 aligned-
+  positive cells (disjoint seven-packet census) + the near-positive
+  branch (108 cells -> 42 orbits via two exact restricted q-slice
+  transports, direct exclusions + finite survivors rejected by
+  first-quotient replay) + aligned-negative + negative source-line
+  + 48 literal projective boundary cells; (2) source_line_complete_
+  exclusion CONDITIONAL -> PROVED (its wave-49 conditional
+  obligation was exactly this coverage theorem — the honest
+  demotion repaid in full); (3) the M01-R11 REVIEW GATE PROVABLE ->
+  PROVED — discharged the RIGHT way: a direct exact Singular replay
+  at the pinned PR #1144 commit (fresh augmented slimgb basis size
+  168 dim 2; all 148 deterministic blocks of the 151,178-term I
+  polynomial reduced; the serial parity replay routes fenced) —
+  the independent replay the gate demanded in wave 49, not a
+  gate surrender; (4) e1_folded_certificate_cell_128_payload
+  CONDITIONAL -> PROVED by propagation from OUR round-23 E1-128
+  certificate flip (no verifier; conditional discharged). Plus 41
+  new PROVED nodes (the seven census packets, the branch-closure
+  chain, the 433-1b cell4 campaign opening). 44/44 verifiers
+  coordinator-replayed AT the pin (worktree HEAD == pin; no
+  checkout — the wave-50 rule held). Census UNCHANGED at
+  231 = 167/36/28 / submission 246 (background satellites);
+  full chain green incl. sectioned-node docs.
+- BOARD EFFECT: the K3/kb_m2_r4 lane's source-line branch is now
+  FULLY PROVED end-to-end (the wave-49 self-demotion + coverage
+  TARGET arc closed in two days); the m2-export-collision material
+  (Scott's PRs 1141/1144/1149) is completely absorbed with every
+  cell independently replayed. Codex's in-flight (wave 52): the
+  positive 433-1b cell4 ledger continues (one untracked experiment
+  file left untouched).
