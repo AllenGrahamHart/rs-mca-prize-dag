@@ -34,6 +34,8 @@ still `TARGET`.
   campaign progress (extracted from the archived packet, CATCH-W51).
 - `attack_addenda/14-wave52-positive-433-cell4-pairing3.md`: exact pairing-3
   exclusion and honest pairing-3/6 quotient composition.
+- `attack_addenda/15-wave53-positive-433-cell4-pairing4.md`: exact degree-eight
+  pairing-4 exclusion and honest pairing-4/9 quotient composition.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_complete_exclusion/verify.py",
-      "seconds": 0.042868,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion/verify.py",
+      "seconds": 0.045518,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 pairings=3,6 labels=6 raw_cases=96 live_labels=90 live_orbits=51\n"
+      "stdout_tail": "cell=4 new_labels=4 new_orbits=2 raw_cases=64 paid_labels=19 live_labels=86 live_orbits=49\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_complete_exclusion/verify_audit.py",
-      "seconds": 0.023556,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion/verify_audit.py",
+      "seconds": 0.022337,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok labels=6 orbits=3 raw=96 live=90/51\n"
+      "stdout_tail": "audit=ok direct=48 transported=16 overclaim_fenced=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_complete_exclusion/verify.py",
+      "seconds": 28.13096,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=4 pairing=4 DE_copies=3 raw_cases=48 computed=32 transported=16 candidates=352 source_points=384 colored_nonzero=64 f_zero=16 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_complete_exclusion/verify_audit.py",
+      "seconds": 0.441715,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok degree=8 rows=32 candidates=352 witnesses=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

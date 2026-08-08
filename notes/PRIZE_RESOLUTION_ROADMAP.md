@@ -20656,6 +20656,82 @@ remaining positive rows:  M01-R11, M02-R11
 compute:                  two bounded Modal representatives, peak RSS < 0.41 GB
 next:                     discharge the M01 external-Singular bridge and transport to M02
 ```
+
+### Cell-4 parallel-DE pairing-3 orbit close
+
+The first non-first-pair representative in the deployed positive
+`433-1b -> O0a` role-cell-4 ledger is now closed. Over the exact four-basis
+source tower, the matching-3 system reduces to two paired quadratics and
+
+```text
+H(u,v)=de*(u+eta*v)^2-s*u*v.
+```
+
+A division-free nested resultant, leading-degree-drop factor, and tower norm
+produce a necessary condition in `r`. Every norm and inverse-guard root is
+directly lifted through the original source system. Across 32 computed rows,
+the exact terminal ledger is 312 candidate roots, 272 guarded source points,
+64 `H=0` pairs, 96 nonzero colored cuts, 16 `f=0` boundaries, and no witness
+or unresolved branch. Positive-copy transport supplies the remaining 16
+pairing-3 rows.
+
+The parallel-DE quotient was then applied at its exact scope. It adds only
+`(xi,pairing)=(2,6)`: the involution exchanges `xi=0,1` at fixed matching,
+so the two positive omissions at pairing 6 remain open. The new block is 64
+raw cases in four labels and two quotient orbits. Cell 4 now has 13/105 paid
+labels and 92 live labels in 52 orbits.
+
+```text
+starting pin:              2cc8b68fc
+ending mathematical pin:  733d52b0b
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+open upstream lane:        #1143; #1144/#1149 already independently absorbed
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 3; quotient-closed xi2/pairing 6
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-VnOKofCGaEWi6SM8IN26qj
+live compute requests:     none
+next:                      direct xi0/1 pairing-6 replay or audited target swap
+```
+
+### Cell-4 positive-DE pairing-6 completion
+
+The direct follow-on closed both previously open positive omissions at
+matching 6. The compiler swaps the signed `DE` values entering the two paired
+quadratics while retaining
+
+```text
+H(u,v)=de*(u+v)^2-s*u*v.
+```
+
+All 16 `xi=0` source/target sign rows are empty after exact exceptional-root
+lifting: 160 candidate roots, 176 guarded source points, 48 `H=0` pairs, and
+96 nonzero colored cuts. There are no target boundaries, witnesses, or
+unresolved branches. Identical-copy transport supplies `xi=1`.
+
+Together with the negative omission already transported from pairing 3, all
+six parallel-DE labels at pairings 3 and 6 are now paid. The cell-4 ledger
+moves from 92/52 live labels/orbits to 90/51.
+
+```text
+starting pin:              bc58c5afa
+ending mathematical pin:  25cf3aedf
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 6; complete P3/P6 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-xIKZhX3GDN2uknjpfoFBMn
+live compute requests:     none
+next:                      attack the matching orbit {4,9}
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
