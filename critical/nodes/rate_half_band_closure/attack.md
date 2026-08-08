@@ -76,6 +76,9 @@ still `TARGET`.
 - `attack_addenda/31-wave69-positive-433-cell4-xi3-pairing5-12.md`: exact
   colored second-pair nested exclusion at `xi=3`, matching 5, plus the
   matching-12 and both `xi=4` transports; three exchange pairs remain.
+- `attack_addenda/32-wave70-positive-433-cell4-xi3-pairing7-10.md`: exact
+  quadratic-resultant sign-free exclusion at `xi=3`, matching 7, plus the
+  matching-10 and both `xi=4` transports; two exchange pairs remain.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi3 pairing-7 quadratic-resultant sign-free exclusion",
+    "status": "PROVED",
+    "closure": "exact xi3 pairing-7 exclusion in positive deployed 433-1b role cell 4",
+    "statement": "On the guarded positive deployed 433-1b role-cell-4 branch, every case with missing df record xi=3 and canonical matching index 7 is empty across all source signs and all four target lanes. The quadratic q-resultant for the two non-lane pairs, followed by exact z-sign elimination, reduces the system and missing-sum equation to a linear-remainder common-root cut in the exact four-basis source tower. Complete exceptional-root replay leaves 16 compatible (z,q) candidates; all 32 remaining-pair lane evaluations are nonzero. This pays 16 raw atlas cases and claims no other matching, missing role, role cell, complete branch, or Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

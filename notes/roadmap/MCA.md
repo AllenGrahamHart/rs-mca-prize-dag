@@ -53,8 +53,12 @@ certificates required by the challenge.
   matching 5; the two exact transports close matching 12 and both `xi=4`
   partners. Cell 4 is 93/105 paid. The retained frontier is 12 labels in six
   quotient orbits, represented by six `xi=3` labels in three matching-
+  exchange pairs. The quadratic-resultant sign-free census now closes
+  matching 7; the two exact transports close matching 10 and both `xi=4`
+  partners. Cell 4 is 97/105 paid. The retained frontier is eight labels in
+  four quotient orbits, represented by four `xi=3` labels in two matching-
   exchange pairs. See
-  `rate_half_band_closure/attack_addenda/31-wave69-positive-433-cell4-xi3-pairing5-12.md`.
+  `rate_half_band_closure/attack_addenda/32-wave70-positive-433-cell4-xi3-pairing7-10.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
