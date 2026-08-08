@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion/verify.py",
-      "seconds": 0.045518,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion/verify.py",
+      "seconds": 35.341965,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=4 new_labels=4 new_orbits=2 raw_cases=64 paid_labels=19 live_labels=86 live_orbits=49\n"
+      "stdout_tail": "cell=4 pairing=9 positive_DE=2 raw_cases=32 computed=16 transported=16 candidates=288 source_points=544 colored_nonzero=192 boundaries=0 witnesses=0\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion/verify_audit.py",
-      "seconds": 0.022337,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion/verify_audit.py",
+      "seconds": 0.036263,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok direct=48 transported=16 overclaim_fenced=32\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_complete_exclusion/verify.py",
-      "seconds": 28.13096,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "cell=4 pairing=4 DE_copies=3 raw_cases=48 computed=32 transported=16 candidates=352 source_points=384 colored_nonzero=64 f_zero=16 witnesses=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_complete_exclusion/verify_audit.py",
-      "seconds": 0.441715,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "audit=ok degree=8 rows=32 candidates=352 witnesses=0\n"
+      "stdout_tail": "audit=ok rows=16 candidates=288 colored_nonzero=192 witnesses=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
