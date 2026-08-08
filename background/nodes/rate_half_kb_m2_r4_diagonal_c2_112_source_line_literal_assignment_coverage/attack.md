@@ -14,6 +14,8 @@
    the exact direct-Singular `M01/M02-R11` balanced-pair theorem.
 7. Use the proved affine near-positive inversion transport to work on exactly
    the 30 residual orbit representatives; do not reopen the other 78 cells.
+   The reciprocal-pair-swap covariance route is refuted and must not be
+   retried without a genuinely different complete-system map.
 8. Compile those representatives through the q-slice gate and record a
    first-match empty-cell certificate for each surviving representative.
 9. Audit the near-positive projective boundary, aligned-negative branch, and

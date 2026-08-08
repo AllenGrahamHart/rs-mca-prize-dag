@@ -1,0 +1,630 @@
+{
+  "localizers": false,
+  "results": {
+    "F00": {
+      "payload": {
+        "assignment_filter": "F00",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F00",
+            "destination": "F04",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F00",
+            "destination": "F04",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 502332,
+      "returncode": 0,
+      "seconds": 100.464178,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "bbdf3b398d777f8db78a34c60fdfc76bff7fd0f69e3657c3e039af96b19b1238",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F00\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F00\",\"destination\":\"F04\",\"endpoint\":0},{\"assignment\":\"F00\",\"destination\":\"F04\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F01": {
+      "payload": {
+        "assignment_filter": "F01",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F01",
+            "destination": "F06",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F01",
+            "destination": "F06",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 500288,
+      "returncode": 0,
+      "seconds": 87.611913,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "8189743c50c619826263726e0ec4c772c32a293a4f60edce59096f141ebec5cb",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F01\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F01\",\"destination\":\"F06\",\"endpoint\":0},{\"assignment\":\"F01\",\"destination\":\"F06\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F02": {
+      "payload": {
+        "assignment_filter": "F02",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F02",
+            "destination": "F05",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F02",
+            "destination": "F05",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 594468,
+      "returncode": 0,
+      "seconds": 120.973047,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "34d0fc6b79fbfd79b7e80d8671cd96e0a1093d7b0d7c3d7b38099f9b45b2f5ad",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F02\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F02\",\"destination\":\"F05\",\"endpoint\":0},{\"assignment\":\"F02\",\"destination\":\"F05\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F03": {
+      "payload": {
+        "assignment_filter": "F03",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F03",
+            "destination": "F07",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F03",
+            "destination": "F07",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 594748,
+      "returncode": 0,
+      "seconds": 165.108163,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "756fb341d900c2f78370a64439db70ff9346d61c06a3afebc8f778fa7c1101a2",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F03\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F03\",\"destination\":\"F07\",\"endpoint\":0},{\"assignment\":\"F03\",\"destination\":\"F07\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F04": {
+      "payload": {
+        "assignment_filter": "F04",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F04",
+            "destination": "F00",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F04",
+            "destination": "F00",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 502696,
+      "returncode": 0,
+      "seconds": 42.19867,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "6af35249b30d8bad82e5b38c6fcd1340705450e2cdad7eb9d4ba8962a123e5aa",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F04\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F04\",\"destination\":\"F00\",\"endpoint\":0},{\"assignment\":\"F04\",\"destination\":\"F00\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F05": {
+      "payload": {
+        "assignment_filter": "F05",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F05",
+            "destination": "F02",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F05",
+            "destination": "F02",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 528836,
+      "returncode": 0,
+      "seconds": 131.56704,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "5237f30dd2b8af978743607beb8809ff5ea35d4abd3f10cf684dbc64b15af547",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F05\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F05\",\"destination\":\"F02\",\"endpoint\":0},{\"assignment\":\"F05\",\"destination\":\"F02\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F06": {
+      "payload": {
+        "assignment_filter": "F06",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F06",
+            "destination": "F01",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F06",
+            "destination": "F01",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 501984,
+      "returncode": 0,
+      "seconds": 44.381549,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "386460eff1baf61ddbc808fe23d47d376eb5612f0153a0275316acc67ca0fefb",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F06\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F06\",\"destination\":\"F01\",\"endpoint\":0},{\"assignment\":\"F06\",\"destination\":\"F01\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "F07": {
+      "payload": {
+        "assignment_filter": "F07",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "F07",
+            "destination": "F03",
+            "endpoint": 0
+          },
+          {
+            "assignment": "F07",
+            "destination": "F03",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 539580,
+      "returncode": 0,
+      "seconds": 109.415688,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "8ec2d9f563449d3fe765933f8540f4d8827de3d58c916c5c62da810d12b73a51",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"F07\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"F07\",\"destination\":\"F03\",\"endpoint\":0},{\"assignment\":\"F07\",\"destination\":\"F03\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "M00": {
+      "payload": {
+        "assignment_filter": "M00",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "M00",
+            "destination": "M01",
+            "endpoint": 0
+          },
+          {
+            "assignment": "M00",
+            "destination": "M01",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 506396,
+      "returncode": 0,
+      "seconds": 170.193261,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "0f4b8fc30c77875c251425ea41e89f3688e53315215579252d6394c93ade38a0",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"M00\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"M00\",\"destination\":\"M01\",\"endpoint\":0},{\"assignment\":\"M00\",\"destination\":\"M01\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "M01": {
+      "payload": {
+        "assignment_filter": "M01",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "M01",
+            "destination": "M00",
+            "endpoint": 0
+          },
+          {
+            "assignment": "M01",
+            "destination": "M00",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 510008,
+      "returncode": 0,
+      "seconds": 137.48421,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "c0ab6cfd88d6d1c0c5837cd4fd28e5732bb8e385f3c62fd2c12836abf5280481",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"M01\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"M01\",\"destination\":\"M00\",\"endpoint\":0},{\"assignment\":\"M01\",\"destination\":\"M00\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "M02": {
+      "payload": {
+        "assignment_filter": "M02",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "M02",
+            "destination": "M03",
+            "endpoint": 0
+          },
+          {
+            "assignment": "M02",
+            "destination": "M03",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 674136,
+      "returncode": 0,
+      "seconds": 264.075647,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "25d5dffe1b3722800699ff4a6ab016bcbd1f577b4f852e81fceb5d521cf92cdf",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"M02\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"M02\",\"destination\":\"M03\",\"endpoint\":0},{\"assignment\":\"M02\",\"destination\":\"M03\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    },
+    "M03": {
+      "payload": {
+        "assignment_filter": "M03",
+        "assignment_map": {
+          "F00": "F04",
+          "F01": "F06",
+          "F02": "F05",
+          "F03": "F07",
+          "F04": "F00",
+          "F05": "F02",
+          "F06": "F01",
+          "F07": "F03",
+          "M00": "M01",
+          "M01": "M00",
+          "M02": "M03",
+          "M03": "M02"
+        },
+        "b_prime": "(5*b - 4)/(4*b - 5)",
+        "checks": 12,
+        "localizer_exact_cells": null,
+        "localizer_mismatches": [],
+        "localizers_checked": false,
+        "residual_failures": [
+          {
+            "assignment": "M03",
+            "destination": "M02",
+            "endpoint": 0
+          },
+          {
+            "assignment": "M03",
+            "destination": "M02",
+            "endpoint": 1
+          }
+        ],
+        "schema": "kb-c2-112-near-literal-pair-swap-probe-v1",
+        "target_failures": [],
+        "target_map": {
+          "A": "OB",
+          "OB": "A",
+          "OI": "TA",
+          "TA": "OI"
+        },
+        "terminal": "PAIR_SWAP_CLASSIFIED"
+      },
+      "peak_kb": 732968,
+      "returncode": 0,
+      "seconds": 257.478773,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "3ffef8f8c6dd1fc9a633a9b364ad1beca82c86b33a393c32a506f0feb2cce44e",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"assignment_filter\":\"M03\",\"assignment_map\":{\"F00\":\"F04\",\"F01\":\"F06\",\"F02\":\"F05\",\"F03\":\"F07\",\"F04\":\"F00\",\"F05\":\"F02\",\"F06\":\"F01\",\"F07\":\"F03\",\"M00\":\"M01\",\"M01\":\"M00\",\"M02\":\"M03\",\"M03\":\"M02\"},\"b_prime\":\"(5*b - 4)/(4*b - 5)\",\"checks\":12,\"localizer_exact_cells\":null,\"localizer_mismatches\":[],\"localizers_checked\":false,\"residual_failures\":[{\"assignment\":\"M03\",\"destination\":\"M02\",\"endpoint\":0},{\"assignment\":\"M03\",\"destination\":\"M02\",\"endpoint\":1}],\"schema\":\"kb-c2-112-near-literal-pair-swap-probe-v1\",\"target_failures\":[],\"target_map\":{\"A\":\"OB\",\"OB\":\"A\",\"OI\":\"TA\",\"TA\":\"OI\"},\"terminal\":\"PAIR_SWAP_CLASSIFIED\"}\n"
+    }
+  },
+  "schema": "kb-c2-112-near-literal-pair-swap-shards-modal-v1"
+}

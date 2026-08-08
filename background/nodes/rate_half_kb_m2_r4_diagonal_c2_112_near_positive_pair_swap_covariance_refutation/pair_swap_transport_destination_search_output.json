@@ -1,0 +1,47 @@
+{
+  "result": {
+    "payload": {
+      "matches": {
+        "F00": [],
+        "F01": [],
+        "F02": [],
+        "F03": [],
+        "F04": [],
+        "F05": [],
+        "F06": [],
+        "F07": [],
+        "M00": [],
+        "M01": [],
+        "M02": [],
+        "M03": []
+      },
+      "samples": [
+        [
+          "3",
+          "5",
+          "7"
+        ],
+        [
+          "5/2",
+          "3",
+          "7"
+        ],
+        [
+          "-2",
+          "3",
+          "5"
+        ]
+      ],
+      "schema": "kb-c2-112-near-literal-pair-swap-destination-search-v1",
+      "terminal": "PAIR_SWAP_DESTINATION_SEARCH_COMPLETE"
+    },
+    "peak_kb": 500168,
+    "returncode": 0,
+    "seconds": 130.931225,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_sha256": "860f85cbc5c3b4b43b9073f6e12924cb65d705f6f9d72a6161a04220b89c2d1d",
+    "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nPAIR_SWAP_PROBE_JSON {\"matches\":{\"F00\":[],\"F01\":[],\"F02\":[],\"F03\":[],\"F04\":[],\"F05\":[],\"F06\":[],\"F07\":[],\"M00\":[],\"M01\":[],\"M02\":[],\"M03\":[]},\"samples\":[[\"3\",\"5\",\"7\"],[\"5/2\",\"3\",\"7\"],[\"-2\",\"3\",\"5\"]],\"schema\":\"kb-c2-112-near-literal-pair-swap-destination-search-v1\",\"terminal\":\"PAIR_SWAP_DESTINATION_SEARCH_COMPLETE\"}\n"
+  },
+  "schema": "kb-c2-112-near-literal-pair-swap-modal-v1"
+}

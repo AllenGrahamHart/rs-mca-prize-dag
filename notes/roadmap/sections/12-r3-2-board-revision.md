@@ -602,13 +602,29 @@ pass 288 residual/target/localizer checks. The theorem does not transport
 full quotient identities and does not touch the projective or negative
 literal audits.
 
+The natural attempt to add the remaining matching-centralizer generator is
+now exactly refuted. The reciprocal-pair swap
+
+```text
+phi_b(x)=(u*x+1)/(x+u),  u=(2b-1)/(b-2)
+```
+
+transports all twelve target allocations, but both reconstructed residuals
+fail for each induced literal assignment. Twelve symbolic shards pass with
+`24` recorded residual failures and zero target failures. A separate exact
+rational search over all twelve destination assignments and both root orders
+returns no destination for any source assignment. This is a route cut, not a
+cell survivor: it establishes that direct classification of the 30 residual
+representatives is necessary under the current transport vocabulary.
+
 ```text
 lane:                     MCA / K3 / source-line literal coverage
 new result:               affine near-positive restricted transport PROVED
 frontier delta:           diffuse 108-cell audit -> exact 30 representatives
 critical-orbit delta:     none; parent remains TARGET
 Modal:                    primary 223.52s / 494600 KiB; audit 37.12s / 480340 KiB
-next:                     compile and first-match classify the 30 representatives
+route cut:                reciprocal-pair-swap covariance REFUTED
+next:                     compile and first-match classify the 30 representatives directly
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

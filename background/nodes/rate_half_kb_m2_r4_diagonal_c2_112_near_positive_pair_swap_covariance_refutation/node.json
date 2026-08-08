@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation",
+    "title": "KoalaBear near-positive reciprocal-pair-swap covariance refutation",
+    "status": "PROVED",
+    "closure": "exact route cut: the missing reciprocal-pair-swap centralizer element does not transport the reconstructed q-slice residual systems",
+    "statement": "Let phi_b(x)=(u*x+1)/(x+u), u=(2b-1)/(b-2), so phi_b maps the moving reciprocal pair {b,1/b} to {2,1/2} and maps the fixed pair to {b',1/b'} with b'=(5b-4)/(4b-5). Applying phi_b to W carries every one of the twelve near-positive target allocations exactly to its induced target. Nevertheless, for each of the twelve literal source assignments, neither reconstructed residual quadratic is projectively equal to the residual for the induced destination assignment. Moreover, exact rational specialization finds no destination among all twelve assignments in either root order. Thus reciprocal-pair-swap combinatorial transitivity is not q-slice covariance and cannot close the 30-cell affine frontier. No cell nonemptiness or exclusion, and no claim about an unrelated nonlinear transport, is asserted.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/pair_swap_transport_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/pair_swap_transport_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/pair_swap_transport_core_shards_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/pair_swap_transport_destination_search_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

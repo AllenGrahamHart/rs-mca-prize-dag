@@ -6,4 +6,6 @@ generic matching-centralizer normalization is not licensed. Current
 aligned-positive coverage is `36/36`. Exact affine near-positive transport
 reduces `108` semantic cells to `42` orbits, of which `12` are represented
 and `30` remain. The projective-boundary and negative literal audits remain
-separate.
+separate. The natural reciprocal-pair-swap covariance extension is exactly
+refuted, so the 30 affine representatives require direct classification or
+a genuinely different proved transport.

@@ -7,6 +7,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk`
 - **affine near-positive transport:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport`
+- **pair-swap route cut:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -76,6 +78,13 @@ remaining affine frontier is the explicit 30-cell product
 
 This reduction does not supply a full-quotient transport and does not cover
 the near-positive projective boundary or either negative-sign literal audit.
+
+The remaining matching-centralizer generator cannot enlarge this quotient.
+For the normalized reciprocal-pair swap, all target quadratics transform
+exactly, but both reconstructed residuals fail for every induced assignment;
+an exact search finds no alternative literal destination in either root
+order. Thus the 30 cells in `(KBCOV-2)` are direct classification tasks, not
+unclaimed centralizer images.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and
