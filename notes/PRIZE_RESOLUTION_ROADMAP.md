@@ -21842,6 +21842,41 @@ compute:                   Modal apps ap-8gPIxDrmfyKppQLrS3bNeF, ap-bPXHMELqRWfL
 live compute requests:     none
 next:                      attack reciprocal matching class 5/12, then classes 7/10, 8/13, 11/14
 ```
+
+### Cell-12 reciprocal-role matching-5/12 payment
+
+Matching `5` is the sibling nested sign-free route with `sigma_c` fixed in
+the second pair. The eight source-sign/anchor rows were launched in parallel
+under the measured 15-minute cap. One primary shard was transparently
+preempted and restarted; all rows completed.
+
+The exact packet contains 88 target-norm roots, 168 total norm/inverse
+candidates, 256 guarded source points, 16 compatible `(z,q)` lifts, and 32
+final `sigma_o` lanes. Every final pair is nonzero. Eight free-`b` exits lie
+on the proved leading boundary, with no witness or unresolved branch.
+
+The separate 45-profile SymPy/Galois root audit also survived repeated
+transparent preemptions and retained a complete certificate with 244 roots.
+The fast local verifier validates all 128 profile visits and directly
+replays every source and target equation at the 16 lifts. Exact transports
+pay four labels or one generic orbit. Cell `12` now has 14 representatives
+and 48 labels open.
+
+```text
+starting pin:              ca062b633
+ending mathematical pin:  d0c558f6f
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal matching class 5/12; 15 -> 14 representatives
+DAG status delta:          +1 background PROVED (1791 -> 1792); critical orbit unchanged
+upstream terminal delta:   portable exact nested-sign-free adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-66X2RoJ3b0eWp3KHAleEXL and ap-anuKZnM08xltiExRoCP3DV
+live compute requests:     none
+next:                      attack reciprocal classes 7/10, 8/13, and 11/14
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
