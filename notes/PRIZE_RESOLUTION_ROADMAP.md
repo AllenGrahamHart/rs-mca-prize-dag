@@ -21088,6 +21088,44 @@ compute:                   bounded Modal, final app ap-pw5ZlqWXn640JjkVYlv221
 live compute requests:     none
 next:                      select a nonparallel missing-role quotient orbit
 ```
+
+### Cell-4 xi5/xi6 source-only endpoint closure
+
+The two source-fixed endpoint roles are empty before matching specialization.
+If `m` is the missing product, `s` its squared-sum record, and `x=b` for
+missing `bf` or `x=c` for missing `sigma_c cf`, every target must satisfy
+
+```text
+(x^2+m)^2-s*x^2=0.
+```
+
+Across eight exact source-sign/role rows, the four-basis norm has five field
+roots and the complete norm/inverse candidate union has seven roots per row.
+Five terminate on `r` guards. At each of the other two parameters, one base
+lift terminates on a `t` guard and the other has no base-field `b` root.
+There are no guarded source points, compatible sources, free lifts, or
+unresolved branches.
+
+Because no matching or target-sign equation is used, the theorem pays both
+roles across all 15 matchings: 30 labels, 18 quotient orbits, and 480 raw
+cases. Cell 4 is now 75/105 paid; the live frontier is exactly
+`xi in {3,4}` across all matchings, 30 labels in 18 quotient orbits.
+
+```text
+starting pin:              2946715e2
+ending mathematical pin:  e404201d6
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED missing bf/cf endpoint roles
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 480-case source-only packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-e2M3bp83ckyLVeO9wqmAtd
+live compute requests:     none
+next:                      classify/transport the remaining df/ef roles
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

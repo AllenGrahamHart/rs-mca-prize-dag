@@ -3372,3 +3372,19 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, independent
   replay, and scope checks pass. Fable canonical is `00e28e1ba`; upstream
   main is `999b8f3a1`.
+
+## 2026-08-08: CODEX WAVE-63 READY (pin e404201d6) — both cell-4 endpoint roles closed
+
+- Missing `bf` and missing `sigma_c cf` obey the same source-only necessary
+  identity `(x^2+m)^2-s*x^2=0`, with `x=b` or `x=c`. It precedes every
+  matching and target-sign equation.
+- Eight exact four-basis norm rows have 40 compatibility roots and 56 total
+  norm/inverse candidates. The terminal ledger is 40 `r` guards, 8 `t`
+  guards, 8 nonsquare `b` discriminants, and zero guarded source points,
+  compatible sources, or unresolved branches. Final Modal app
+  `ap-e2M3bp83ckyLVeO9wqmAtd`; independent root and lift replay PASS.
+- One new background PROVED node pays 30 labels, 18 quotient orbits, and 480
+  raw cases. Cell 4 is now 75/105 paid with exactly `xi in {3,4}` live: 30
+  labels in 18 quotient orbits. Critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, and protocol checks pass.
+  Fable canonical is `00e28e1ba`; upstream main is `999b8f3a1`.
