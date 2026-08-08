@@ -3686,3 +3686,47 @@ compute:                   Modal apps ap-YnHNxRzPD9DpVJQrqp9SLP, ap-hD8LPsYApvAx
 live compute requests:     none
 next:                      audit existing suppliers/transports for [5,8], [9,10], [11], [12,13]
 ```
+
+### Cell-12 elliptic common-locus and global-kernel decomposition
+
+The next unclosed duplicate-role orbit is represented by cell `12`, where
+`BC-` is singleton and the source matching is `(LA,AB),(AC,BC+)`. An exact
+route scout selected the `AC` pivot. All four source-sign rows and all six
+product-cofactor charts complete with dimension one, compact basis size
+`15`, lex basis size `8`, and unit pivot boundary.
+
+On the leading-open chart, the eight-row common ideal is exactly generated
+by a quadratic base relation in `(t,r)`, a palindromic quadratic in `b`, and
+a linear recovery of `c`. The base discriminant has one doubled route
+factor; removing its square leaves a square-free quartic, so the normalized
+base has genus one. The removed leading complement is also complete: 12
+zero-dimensional fibers, of which four split fibers contribute exactly
+eight guarded deployed points and eight quadratic fibers have no deployed
+point.
+
+A second PROVED node gives one primitive sign-independent eight-coordinate
+kernel on this complete common locus. Seven of its ten Vieta row pairings
+vanish formally and the other three reduce to zero modulo each exact common
+ideal. Independent evaluation pays all 80 row pairings at the eight rational
+boundary points. These nodes close no outside label; their purpose is to
+make the 105-label outside attack compact and reusable.
+
+Reconciliation found the Fable tree still clean at `87ad3be1ad` and the
+upstream reference unchanged at `93fba1be3`. No upstream PR introduced a
+positive-433 terminal during this cycle.
+
+```text
+starting pin:              a0ed23c04
+ending mathematical pin:  433a1400e
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    PROVED complete elliptic common structure and global kernel
+DAG status delta:          +2 background PROVED (1780 -> 1782); critical orbit unchanged
+upstream terminal delta:   portable structural packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-UGTRxHvSZteecD6UcEscYD, ap-Jc9a3zuxX9HLZwWOJMpaGx, ap-J73jbPfsrEcJzlKzj4LCVU, ap-jKyXbePmY48WoHuLsDi9EZ
+live compute requests:     none
+next:                      route the 105 cell-12 outside labels against the fixed kernel
+```
