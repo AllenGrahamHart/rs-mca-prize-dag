@@ -3125,3 +3125,43 @@ compute:                   bounded Modal, final app ap-rpCUgXeECUEAWWOjI2Ma2S
 live compute requests:     none
 next:                      close positive-DE matching 13
 ```
+
+### Cell-4 positive-DE pairing-13 and complete orbit close
+
+The retained positive matching-13 omissions are empty by the matching-8
+degree-eight route after exchanging the signed inputs to the first two cuts:
+
+```text
+P_u(u)=Pair(-de,sigma_o*u),
+P_f(f)=Pair(de,sigma_c*cf),
+final=Pair(df,bf).
+```
+
+Across 16 exact `xi=0` rows, the ledger has 224 candidate roots, 208 target
+roots, 320 guarded source points, 1,088 `(u,f)` rows, 960 missing-relation
+failures, 128 nonzero final-pair cuts, and no boundary, witness, or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+An independent verifier caught that the first compiler draft had retained
+matching 8's scalar replay order after correctly swapping the symbolic
+quadratics. The replay was repaired and all Modal rows rerun before banking.
+
+Composing these two labels with the Wave-59 quotient node closes all six
+labels at pairings 8 and 13. Cell 4 now has 39/105 paid labels, with 66
+labels in 39 quotient orbits live.
+
+```text
+starting pin:              f68cbdaaa
+ending mathematical pin:  30cd1dada
+canonical prize pin:       110aa4e73
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 13; complete P8/P13 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-Dxy9l3OPbvPHbjXD6Fb1ul
+live compute requests:     none
+next:                      attack the final small-missing orbit {11,14}
+```
