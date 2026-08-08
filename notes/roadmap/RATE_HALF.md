@@ -19,9 +19,10 @@ and retains:
 
 For representative cell 4, the common locus is an exact genus-two base with
 a four-element localized tower and a global coefficient kernel.  The
-`xi=0,pairing=0` slice is proved empty, and exact parallel-copy transport
-pays `xi=1,pairing=0`.  Thus 2 of 105 missing/matching slices are paid and
-103 remain in cell 4.
+`xi=0,pairing=0` slice is proved empty, exact parallel-copy transport pays
+`xi=1,pairing=0`, and a separate equal-`DE` norm/lift theorem pays
+`xi=2,pairing=0`. Thus all three parallel-`DE` omissions are closed at
+matching `0`: 3 of 105 missing/matching slices are paid and 102 remain.
 
 ## Node hierarchy
 
@@ -30,12 +31,12 @@ cell-4 four-basis tower
         |
         +-- xi0/pairing0 exclusion
         +-- xi1/pairing0 transport
-        +-- xi2/pairing0 exclusion       [next mathematical decision]
+        +-- xi2/pairing0 exclusion
                      |
                      v
-       parallel-DE pairing0 closure
+       parallel-DE pairing0 closure      [PROVED]
                      |
-            matching-orbit blocks
+            matching-orbit blocks        [next mathematical decision]
                      |
              complete cell 4
                      |

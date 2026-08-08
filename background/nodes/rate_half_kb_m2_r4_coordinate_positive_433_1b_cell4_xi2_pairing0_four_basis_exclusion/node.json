@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1818,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi2 pairing0 four-basis exclusion",
+    "status": "PROVED",
+    "closure": "all 16 source-sign and target-lane cases excluded by exact four-basis norm, exhaustive lift partition, and direct paired-product replay",
+    "statement": "On the guarded principal branch of deployed positive 433-1b role cell 4, every case with missing negative DE record xi=2 and canonical residual matching 0 is empty across all four source signs and four target lanes. If m is the source-forced omitted value, then DE=-m and matching 0 imposes P(-m,-m)=0. Its four-basis norm numerator has degree 308 and exactly eight deployed-field roots per sign. The complete ten-candidate lift ledger consists of route-guard terminals, six no-b-lift branches, and four guarded common points with nonzero direct cut. There is no witness or unresolved boundary. Together with the prior xi0 exclusion and xi0-to-xi1 transport, all three parallel-DE omissions are closed at matching 0; 102 cell-4 missing/matching slices remain.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi2_pairing0_four_basis_norm_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi2_pairing0_four_basis_norm_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+      "order": 5042
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 5043
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5044
+    }
+  ],
+  "refutes": []
+}

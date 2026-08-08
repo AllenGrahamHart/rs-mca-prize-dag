@@ -561,3 +561,31 @@ raw/stripped mode rows complete exactly.  Guard stripping reduces the 360
 minors to degrees `8..14` and term range `20..100`, with six distinct
 minors in every row.  Run bounded guard-saturated common ideals next and
 keep base-rank drop separate.
+
+The subsequent exact campaign has now gone substantially beyond that
+instruction.  Product-rank drop is globally excluded for `433-1b -> O0a`;
+principal role cells `[0]`, `[1,2]`, `[3,6]`, and `[14]` are closed.  The
+remaining common-role orbits are
+
+```text
+[4,7], [5,8], [9,10], [11], [12,13].
+```
+
+Cell `4` has an exact four-basis common tower over `F_p(r)`: a quadratic in
+`t`, a palindromic quadratic in `b`, and linear recovery of `c`.  Its first
+three outside slices are now PROVED empty:
+
+```text
+xi=0, pairing=0: opposite-DE norm and boundary replay;
+xi=1, pairing=0: exchange of the two parallel positive DE copies;
+xi=2, pairing=0: equal-DE norm and exhaustive finite lift replay.
+```
+
+The new `xi=2` norm has degree `308`, eight target roots, and ten total
+target/inverse candidates in each source-sign row.  Five terminate on
+`r` guards, two lifted branches on `t` guards, six `(r,t)` branches have no
+base-field `b`, and four guarded common points have nonzero direct cut.  This
+pays another `16` raw cases and leaves `102` of the `105` cell-4
+missing/matching slices.  Test matching permutations `1` and `2` using the
+cell-3 missing-sum and parallel-edge transports before launching independent
+norm jobs.

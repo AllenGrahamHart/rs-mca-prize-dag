@@ -15967,6 +15967,38 @@ nonclaim:                 no other matching, cell-4 or orbit [4,7] closure,
                           K3, LIST, MCA, or Prize closure
 ```
 
+### Work-cycle theorem: positive 433-1b cell-4 xi2/pairing0 exclusion
+
+```text
+cell/orbit/field:         cell 4 representing [4,7], F_2130706433
+outside slice:            missing negative-DE record xi=2, pairing=0
+sign identity:            omitted value m=-DE, so the residual first pair is
+                          (DE,DE)=(-m,-m), imposing P(-m,-m)=0
+raw payment:              4 source signs x 4 target lanes = 16 cases
+algebra:                  exact four-basis norm followed by original-equation
+                          lift replay at every norm and inverse root
+norm profile:             numerator degree 308 / 281 terms;
+                          denominator degree 160 / 161 terms
+root census:              8 target roots and 10 total target/inverse candidates
+                          in every source-sign row
+per-sign lift ledger:     5 r-guard terminals; 2 t-guard terminals;
+                          6 no-b-lift rows; 4 guarded common points
+finite verdict:           all 4 direct P(-m,-m) values nonzero per sign
+terminal ledgers:         0 witnesses, 0 free fibers, 0 unresolved boundaries
+independent audit:        44 finite-field root parts reconstructed; no-b rows
+                          checked by nonsquare discriminants; finite points
+                          replayed against F,G,H and the stored kernel
+Modal app:                ap-C5xgTLe8Q7qlCfVyGg0Mbi
+result:                   xi2/pairing0 PROVED empty in all 16 raw cases
+cumulative payment:       48 raw cases across all 3 parallel-DE omissions at
+                          pairing 0
+remaining cell-4 ledger:  102 of 105 missing/matching slices
+next route step:          test cell-3 matching-1/2 transports and missing-sum
+                          reductions before commissioning further norms
+nonclaim:                 no other matching, complete cell/orbit exclusion,
+                          K3, LIST, MCA, or Prize closure
+```
+
 ### Work-cycle theorem: positive 433-1b cell-3 xi3 opposite-DE parity orbits
 
 ```text
