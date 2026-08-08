@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 
 
@@ -55,6 +56,20 @@ DIRECT_SOURCE_PINS = {
     "review_m01_direct_singular_certificate_modal.py":
         "6b75c78fee905a0707d6968ca2d3399dcbe9b986f4e2e767b0909575f246e04b",
 }
+INTERRED_FILES = {
+    "review_m01_interred_singular_certificate.sage":
+        "43335aa61c7b38a6abe9430fec1c911db7afffaccaf369de7d9dc39fea882362",
+    "review_m01_interred_singular_certificate_modal.py":
+        "d4e1a4a6c0f815cffdadeebc67b4634569b5c5a80cb8193190fa8164eeb12dbe",
+    "modal_review_m01_interred_singular_certificate_output.json":
+        "8e1cc068d12d6be3997a1df2d2fd00acc5df76712f864ec2fc03940d0c1100ad",
+}
+QSLICE_HASHES = [
+    "a85da4aa0795553f813587b4851fec63ab1dde860b83886e33f432639299749b",
+    "4723647b1a0c2593ec3e263296ca189ebbc80b17a91cc86c52a86b51dc759d9f",
+    "a2b018b3dce84e37430ed2f8b0b0dd885c07ab346ea8e3b7e3e88aa82321cfac",
+    "65a9875e1dc95b6ef7b2a92b454fd37e6349afd38644dfadc475d94e3b34a0c9",
+]
 
 
 def require(condition: bool, message: str) -> None:
@@ -124,16 +139,88 @@ require(source["I"]["terms"] == 151178, "direct I terms")
 require("I_CHUNK_PROGRESS=8/148" not in chunked["stdout_tail"],
         "direct chunk fence")
 
+for filename, expected in INTERRED_FILES.items():
+    require(hashlib.sha256((NODE / filename).read_bytes()).hexdigest() == expected,
+            f"interred pin {filename}")
+interred = json.loads(
+    (NODE / "modal_review_m01_interred_singular_certificate_output.json").read_text()
+)
+require(interred["schema"] ==
+        "kb-c2-112-pr1144-m01-interred-singular-certificate-v1",
+        "interred schema")
+require(interred["upstream_commit"] == COMMIT, "interred commit")
+result = interred["result"]
+require(result["status"] == "PASS" and result["returncode"] == 0,
+        "interred status")
+require(result["seconds"] == 2608.432806, "interred time")
+require(result["peak_kb"] == 4694452, "interred peak")
+require(result["stderr_tail"] == "", "interred stderr")
+records = {record["phase"]: record for record in result["records"]}
+source = records["SOURCE_COMPILED"]
+require(source["upstream_script_sha256"] == PINS[3], "interred upstream source")
+require([row["sha256"] for row in source["qslice"]] == QSLICE_HASHES,
+        "interred qslice hashes")
+require(source["J"] == {
+    "degree": 30,
+    "degrees": [12, 15, 15, 6],
+    "sha256": "c8223c17919b39c46a7e55cfeb99badc6f1f5a2060c19a5dd0a11e44f0b276bb",
+    "terms": 10852,
+}, "interred J")
+require(source["I"] == {
+    "degree": 64,
+    "degrees": [28, 25, 25, 17],
+    "sha256": "b45202d5ff561fd29573f68af87e4236cfc2f764f090c730ae35e4c61bb5abcf",
+    "terms": 151178,
+}, "interred I")
+require(source["I_chunk_count"] == 148 and source["I_chunk_size"] == 1024,
+        "interred chunk plan")
+require(source["full_unit_count"] == 20, "interred units")
+require(source["basis_transform"] == "interred", "interred transform")
+done = records["DONE"]
+require(done == {
+    "phase": "DONE",
+    "returncode": 0,
+    "singular_output_sha256":
+        "cf4d3b741cb213bf17a3bc14590cc4eea3b75dc5375dd9b9f2920b1148a0053d",
+    "terminal": "M01_R11_FULL_OPEN_EMPTY",
+}, "interred terminal record")
+stdout = result["stdout_tail"]
+progress = [int(value) for value in re.findall(
+    r"I_CHUNK_PROGRESS=(\d+)/148", stdout
+)]
+require(progress == list(range(1, 149)), "interred complete chunk sequence")
+for marker in (
+    "QSLICE_BASIS_SIZE=168",
+    "QSLICE_DIMENSION=2",
+    "J_REMAINDER_DEG=21",
+    "J_REMAINDER_TERMS=6510",
+    "J_RAW_BASIS_SIZE=174",
+    "J_RAW_DIMENSION=2",
+    "J_INTERRED_SIZE=174",
+    "J_INTERRED_DIMENSION=2",
+    "I_REMAINDER_DEG=19",
+    "I_REMAINDER_TERMS=4435",
+    "I_BASIS_SIZE=168",
+    "I_DIMENSION=2",
+    "I_LOCALIZER_DEG=29",
+    "I_LOCALIZER_TERMS=10653",
+    "I_SQUARE_DEG=-1",
+    "I_SQUARE_TERMS=0",
+    "M01_R11_FULL_OPEN_EMPTY",
+):
+    require(marker in stdout, f"interred marker {marker}")
+require("J_basis is no standard basis" in stdout, "interred warning fence")
+
 statement = (NODE / "statement.md").read_text(encoding="ascii")
 replay = (NODE / "external_replay.md").read_text(encoding="ascii")
-require("**status:** PROVABLE" in statement, "status")
+require("**status:** PROVED" in statement, "status")
 for cell in ("M01-R11", "M02-R11"):
     require(cell in statement, f"residual {cell}")
 for value in (COMMIT, PAYLOAD, *PINS):
     require(value in statement or value in replay, f"pin {value}")
 
 print(
-    "KB_C2_112_ALIGNED_POSITIVE_MOVING_REVIEW_GATE_PASS "
-    f"residual=2 primary=13/14 parity_M01=PASS "
-    f"direct_timeouts=3 chunked_I={source['I_chunk_count']}x{source['I_chunk_size']}"
+    "KB_C2_112_ALIGNED_POSITIVE_MOVING_PAIR_PROVED "
+    f"cells=2 chunks={source['I_chunk_count']} "
+    "I_remainder=19/4435 localizer=29/10653 square=0"
 )

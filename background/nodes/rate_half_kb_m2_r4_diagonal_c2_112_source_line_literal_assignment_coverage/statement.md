@@ -32,14 +32,17 @@ The exact generic/rank-drop localization theorem closes all four
 `F04-R02` and `F07-R02`; the exact complete-system inversion
 `F04<->F05`, `F06<->F07` then closes the other two `R02` companions. The
 four fixed `R20` cells are now also closed by exhaustive rank-drop,
-cubic/full-`J`, and degree-12 compositions. Thus 34 of 36 aligned-positive
-cells are PROVED. The exact residual is
+cubic/full-`J`, and degree-12 compositions. Finally, direct Singular with an
+interreduced same-ideal `J` generating set completes the exact full-quotient
+certificate for `M01-R11`; the checked complete-source inversion supplies
+`M02-R11`. Thus all 36 aligned-positive cells are PROVED:
 
 ```text
-M01-R11, M02-R11.                                (KBCOV-1)
+aligned-positive residual = empty.                 (KBCOV-1)
 ```
 
-The first two cells retain a precise Sage/Singular portability review gate.
+The 36-cell aggregate checks a disjoint seven-packet census rather than
+inferring coverage from an orbit count.
 The pinned and independently replayed #1149 compression theorem is PROVED
 locally. Its two balanced fingerprint orbits are now closed by direct
 four-cell generic and rank-drop computations. For the four `R02/R20`
@@ -54,8 +57,9 @@ were already empty. The `K10!=0` chart collapses to a forbidden transported
 boundary. On `K10=0`, `B0` becomes linear; division-free evaluations of
 `A1,B1` at that root give two degree-58 necessary equations, and the complete
 named-open saturation is unit for the F04 and F06 representatives. Inversion
-supplies F05 and F07. Hence all four fixed `R20` cells are empty and the only
-aligned-positive review gate is the moving `M01/M02-R11` pair.
+supplies F05 and F07. Hence all four fixed `R20` cells are empty. Together
+with the exact moving-pair certificate, the aligned-positive registry has no
+remaining cell.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

@@ -10,8 +10,8 @@
 4. Replacing only the two external backend selectors by the mathematically
    equivalent in-process `libsingular:slimgb` avoided the conversion failure
    but exceeded the bounded 1740-second subprocess cap.
-5. No result from a failed or timed-out run is promoted. The residual gate is
-   exactly `M01-R11` and its already checked `M02-R11` literal transport.
+5. No result from a failed or timed-out run is promoted. Those traces are
+   retained only as route fences.
 6. The claim is cell-local and moves no owner, charge, row, or Prize bound.
 7. A direct standalone Singular bridge avoids the Sage conversion entirely.
    Its 1740-second staged replay closes `w=0`, obtains q-slice basis size 168
@@ -20,3 +20,14 @@
 8. A 3540-second replay splits `I` into 148 deterministic 1024-term blocks.
    It again reaches the same q-slice and `J` metrics but prints fewer than
    eight completed blocks. This is a scaling fence, not proof evidence.
+9. The successful route interreduces the same-ideal `J` generators before
+   division. All 148 blocks complete, yielding the upstream degree/term
+   metrics `19/4435`. A fresh augmented `slimgb` gives `168/dim 2`, and the
+   20-factor localizer has metrics `29/10653` with square zero.
+10. Singular warns that the interreduced generator list is not marked as a
+    standard basis. The proof does not use it as one: ordinary division
+    preserves input-minus-remainder ideal membership, and a fresh `slimgb`
+    is used for the load-bearing final localization.
+11. The exact run passed in 2608.432806 seconds with peak child RSS 4694452
+    KiB. The complete-source inversion in the proved ten-cell sibling then
+    supplies `M02-R11`.

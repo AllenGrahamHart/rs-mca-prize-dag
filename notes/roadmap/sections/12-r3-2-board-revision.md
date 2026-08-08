@@ -537,3 +537,47 @@ the board's highest single-lemma leverage, doubly confirmed);
 (2) the G = 1 base-cover number (minutes, from existing data);
 (3) the ell = 4 strict finite decision (search says <= 4 with
 K_5-with-collinear-triple structure; proof open).
+
+### K3 balanced moving-pair closure and 36-cell aggregate
+
+The last two aligned-positive literal cells are now proved. A direct
+Singular bridge at pinned PR #1144 commit
+`05ff2348de8f2c0f99683875ff12a9a79dcf21ec` avoids Sage's recursive
+large-basis conversion. The successful route preserves the exact `J` ideal
+with `interred`, divides the 151178-term `I` polynomial in 148 deterministic
+blocks, and then computes a fresh load-bearing standard basis for the exact
+augmented ideal. It returns
+
+```text
+q-slice:       basis 168, dimension 2
+J:             basis 174, dimension 2
+I remainder:   degree 19, 4435 terms
+I:             basis 168, dimension 2
+localizer:     degree 29, 10653 terms
+terminal:      localizer square zero
+```
+
+A separate exact trace closes `w=0`, and the previously proved complete
+`M01 -> M02` source inversion transports the result to `M02-R11`. Seven
+disjoint proved packets now cover the complete `12 x 3` aligned-positive
+registry, so its census is `36/36` with no residual cell. The parent
+literal-assignment target remains open for aligned-negative and near-aligned
+coverage only.
+
+```text
+lane:                     MCA / K3 / source-line literal coverage
+status delta:             balanced moving gate PROVABLE -> PROVED
+new aggregate:            aligned-positive 36-cell coverage PROVED
+critical-orbit delta:     none; 167 PROVED / 36 CONDITIONAL / 28 TARGET
+Modal:                    one 2608-second pass, peak child RSS 4694452 KiB
+next:                     compile the aligned-negative/near-aligned literal registry
+```
+
+Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's
+corrected admissible F2 branch census, negacyclic minus branch, selector
+transport, and remaining normalized-band/common-divisor gaps already match
+the local F2 decomposition. PR #1151's short-syzygy exclusion, prefix ladder,
+pair determinant, determinant chart, and canonical-owner packing likewise
+match existing LS6 nodes. Its open aggregate owner/prefix-flatness task is
+the same local rate-half `M=4,t=3` critical leaf. No frontier conflict or new
+Prize closure is imported from either packet.

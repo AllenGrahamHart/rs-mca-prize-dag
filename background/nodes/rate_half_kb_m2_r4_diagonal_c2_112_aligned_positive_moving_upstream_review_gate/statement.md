@@ -1,15 +1,16 @@
 # KoalaBear aligned-positive moving upstream review gate
 
-- **status:** PROVABLE
+- **status:** PROVED
 - **scope:** the two residual balanced cells `M01-R11` and `M02-R11`
 - **candidate proof:** Przemek repository PR #1144, commit
   `05ff2348de8f2c0f99683875ff12a9a79dcf21ec`
 - **consumer:** source-line literal-assignment coverage
 
 The pinned upstream packet claims exact named-open emptiness of all twelve
-moving-moving cells. Independent replay now proves ten of them in the
-sibling ten-cell import node. The unresolved candidate is `M01-R11`; literal
-`b -> b^-1` would then transport its conclusion to `M02-R11`.
+moving-moving cells. Independent replay proves ten of them in the sibling
+ten-cell import node and also checks the complete literal `M01 -> M02`
+inversion. This node proves the remaining `M01-R11` representative and hence
+its `M02-R11` companion.
 
 The exact Python certificate replay at the pinned commit passes with payload
 
@@ -18,28 +19,25 @@ The exact Python certificate replay at the pinned commit passes with payload
 ```
 
 and all 29 semantic mutations caught. The standalone exact M01 parity
-derivation also passes. The complete direct cell cannot yet be independently
-replayed: three Sage installations fail with `RecursionError` while
-converting the external Singular `slimgb` basis, and an equivalent
-`libsingular:slimgb` replay timed out after 1740 seconds. Three direct
-standalone Singular routes independently recover the exact pinned q-slice
-basis (`168`, dimension `2`) and `J` augmentation (`174`, dimension `2`).
-They also close the `w=0` boundary when included, but monolithic and staged
-reduction of the 151178-term `I` polynomial exceed 1740 seconds. Splitting
-`I` into 148 deterministic 1024-term blocks still completes fewer than eight
-blocks in 3540 seconds. This node therefore remains PROVABLE rather than
-PROVED.
+derivation also passes. A direct Singular replay avoids Sage's failing basis
+conversion. It obtains the pinned q-slice basis (`168`, dimension `2`) and
+`J` augmentation (`174`, dimension `2`), interreduces the same-ideal `J`
+generators, and reduces all 148 deterministic blocks of the exact
+151178-term `I` polynomial. The resulting `I` remainder has degree `19` and
+`4435` terms, exactly the upstream metrics. A fresh `slimgb` basis of the
+augmented ideal has size `168`, dimension `2`; the 20-factor named localizer
+has degree `29`, `10653` terms, and square zero. The separate exact staged
+trace closes the `w=0` boundary.
 
-Promotion requires a portable exact replay or an independent exact proof of
-`M01-R11`, followed by the already checked complete-source inversion to
-`M02-R11`. The next replay must change the reduction geometry, for example by
-interreducing or parametrizing the `J` quotient; merely extending the direct
-`I` timeout is fenced out. The result must bind the q-slice basis, both parity
-stages, localizers, and nilpotence witness without relying on a failed text
-bridge.
+`interred` is not used as a claimed standard basis. Each division step gives
+an exact same-ideal remainder, and the final `slimgb` is computed from those
+same-ideal generators plus that remainder. Thus the terminal localizer
+nilpotence is an exact certificate for the original q-slice, `J`, and `I`
+ideal. The proved complete-source inversion transports emptiness to
+`M02-R11`.
 
 ## Falsifier
 
 A surviving named-open `M01-R11` point, a failed literal transport to
-`M02-R11`, a content-pin mismatch, or an exact replay that contradicts a
-pinned basis, localizer, or nilpotence terminal.
+`M02-R11`, a content-pin mismatch, a missing one of the 148 `I` blocks, or an
+exact replay that contradicts the final localizer-square-zero terminal.

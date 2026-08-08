@@ -1,15 +1,18 @@
 # Dependency sub-DAG
 
 ```text
-ten moving cells (PROVED)       M01 parity + #1144 certificate
-           |                                  |
-           |                                  v
-           |                       balanced pair gate (PROVABLE)
-           |                                  |
-           +----------------+-----------------+
-                            v
-                 literal coverage TARGET
+ten moving cells + transport (PROVED)    direct M01 exact replay
+                 |                                  |
+                 +----------------+-----------------+
+                                  v
+                       balanced pair gate (PROVED)
+                                  |
+                                  v
+                    aligned-positive 36-cell census
+                                  |
+                                  v
+                       literal coverage TARGET
 ```
 
-The proved ten-cell sibling is evidence immediately. The two-cell candidate
-is not consumed until its exact replay gate is discharged.
+The ten-cell sibling supplies the complete `M01 -> M02` transport. The direct
+replay supplies `M01-R11`; together they prove the residual pair.

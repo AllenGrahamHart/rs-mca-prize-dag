@@ -1,0 +1,49 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage",
+    "title": "KoalaBear aligned-positive 36-cell literal coverage",
+    "status": "PROVED",
+    "closure": "disjoint exact census of every aligned-positive literal cell",
+    "statement": "All 36 literal aligned-positive unramified c2(1,1,2) source-line cells are empty over F_(2130706433^6). Seven proved packets form a disjoint exhaustive census: six F00/F01 cells, six F02/F03 cells, twelve F04--F07 cells split across R02/R11/R20, ten previously proved moving cells, and the exact M01/M02-R11 balanced pair. This theorem does not classify aligned-negative or near-aligned source-line assignments.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_companion_inversion_transport"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_balanced_quadratic_branch_reduction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_remaining_r02_cell_exclusions"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r20_cell_exclusions"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_ten_cell_upstream_import"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

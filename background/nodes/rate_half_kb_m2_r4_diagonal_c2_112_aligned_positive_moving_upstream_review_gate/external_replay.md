@@ -77,6 +77,40 @@ monolithic:https://modal.com/apps/allengrahamhart/main/ap-D9i2YWXIRRNOgw0Gta35QD
 chunked:   https://modal.com/apps/allengrahamhart/main/ap-wjo20K1vuWBR0ei6u4HhuU
 ```
 
+## Successful interreduced replay
+
+The exact replacement route preserves the `J` ideal with Singular's
+`interred` transformation, performs same-ideal polynomial division on every
+`I` block, then computes a fresh load-bearing standard basis for the
+augmented ideal. It passed at:
+
+```text
+https://modal.com/apps/allengrahamhart/main/ap-OkyL03YYoMYDFoAq29sImJ
+```
+
+Terminal transcript:
+
+```text
+J_RAW_BASIS_SIZE=174
+J_RAW_DIMENSION=2
+J_INTERRED_SIZE=174
+J_INTERRED_DIMENSION=2
+I_CHUNK_PROGRESS=148/148
+I_REMAINDER_DEG=19
+I_REMAINDER_TERMS=4435
+I_BASIS_SIZE=168
+I_DIMENSION=2
+I_LOCALIZER_DEG=29
+I_LOCALIZER_TERMS=10653
+I_SQUARE_DEG=-1
+I_SQUARE_TERMS=0
+M01_R11_FULL_OPEN_EMPTY
+```
+
+The run completed in 2608.432806 seconds with peak child RSS 4694452 KiB.
+The exact output SHA-256 is
+`8e1cc068d12d6be3997a1df2d2fd00acc5df76712f864ec2fc03940d0c1100ad`.
+
 Pinned raw SHA-256 values:
 
 ```text
@@ -90,4 +124,7 @@ Modal wrap   6b75c78fee905a0707d6968ca2d3399dcbe9b986f4e2e767b0909575f246e04b
 staged out   d21e707c9728259e4c3e44225167bc3928fbb37fc7d465eca6851d969cbe0384
 mono out     641e48ad765e58c42959a72206ac056c9e66b74cf7722bf2e36958a3e9c00333
 chunked out  0d8e525bac83f54ca4623e5520c07214a9dbdce84a4b82e69a87b8202b0caf37
+interred Sage 43335aa61c7b38a6abe9430fec1c911db7afffaccaf369de7d9dc39fea882362
+interred app  d4e1a4a6c0f815cffdadeebc67b4634569b5c5a80cb8193190fa8164eeb12dbe
+interred out  8e1cc068d12d6be3997a1df2d2fd00acc5df76712f864ec2fc03940d0c1100ad
 ```

@@ -10,10 +10,9 @@
 5. Treat every fixed `R02/R20` rank-drop chart and cubic/full-`J` route as
    closed by exact literal or complete-transport certificates; do not
    recompute them.
-6. Treat all fixed `R02/R20` cells as closed. Attack the exact external
-   Singular portability review gate for `M01-R11`; use complete-system
-   inversion only after that representative is proved to obtain `M02-R11`.
+6. Treat the complete 36-cell aligned-positive aggregate as closed, including
+   the exact direct-Singular `M01/M02-R11` balanced-pair theorem.
 7. Audit aligned-negative and near-aligned normalization separately; do not
    infer their coverage from the positive atlas.
-8. Promote the parent only after a machine-checked literal coverage table has
+8. Promote this node only after a machine-checked literal coverage table has
    no unclassified row.
