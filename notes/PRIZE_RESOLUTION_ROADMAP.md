@@ -21049,6 +21049,45 @@ compute:                   bounded Modal, final app ap-kFJQZFlwV86ixm21ONfYJR
 live compute requests:     none
 next:                      close positive-DE matching 14
 ```
+
+### Cell-4 positive-DE pairing-14 and complete parallel-DE layer
+
+The retained positive matching-14 omissions are empty by the common-`f`
+resultant route after exchanging the signed inputs to the first two cuts:
+
+```text
+P_b(f)=Pair(-de,bf),
+P_c(f)=Pair(de,sigma_c*cf),
+final=Pair(df,sigma_o*ef).
+```
+
+Across 16 exact `xi=0` rows, the ledger has 152 candidate roots, 120 target
+roots, 80 guarded source points, 128 nonboundary quartic candidates, 128
+nonzero final-pair cuts, and no boundary, witness, or unresolved branch.
+Identical-copy transport supplies `xi=1`.
+
+The independent verifier reconstructs both quadratic root sets, their
+intersection, all even-quartic roots, and the final cut. Composing these two
+labels with the Wave-61 quotient node closes all six labels at pairings 11
+and 14. More importantly, all `3*15=45` parallel-`DE` labels are now PROVED
+empty. Cell 4 retains exactly `xi in {3,4,5,6}` across 15 matchings: 60
+labels in 36 quotient orbits.
+
+```text
+starting pin:              11c658e7e
+ending mathematical pin:  599b7afb2
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 14; all parallel-DE labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-pw5ZlqWXn640JjkVYlv221
+live compute requests:     none
+next:                      select a nonparallel missing-role quotient orbit
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

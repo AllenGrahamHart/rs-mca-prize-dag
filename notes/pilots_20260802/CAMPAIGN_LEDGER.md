@@ -3354,3 +3354,21 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
   and scope checks pass. Fable canonical is `00e28e1ba`; upstream main is
   `999b8f3a1`. The next exact target is positive matching 14.
+
+## 2026-08-08: CODEX WAVE-62 READY (pin 599b7afb2) — positive pairing-14 closed; parallel-DE layer complete
+
+- The retained positive matching-14 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact common-`f` ledger
+  has 152 candidate roots, 120 target roots, 80 guarded source points, 128
+  nonboundary quartic candidates, 128 nonzero colored terminals, and zero
+  boundaries, witnesses, or unresolved branches. Final Modal app
+  `ap-pw5ZlqWXn640JjkVYlv221`; independent root and final-cut replay PASS.
+- Composing with Wave 61 closes all six labels in
+  `{0,1,2} x {11,14}`: three quotient orbits and 96 raw cases. All
+  `3*15=45` parallel-`DE` labels are now closed.
+- Two new background PROVED nodes; cell 4 is now 45/105 paid labels with 60
+  labels in 36 quotient orbits live. The live set is exactly the nonparallel
+  missing roles `xi in {3,4,5,6}`. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, independent
+  replay, and scope checks pass. Fable canonical is `00e28e1ba`; upstream
+  main is `999b8f3a1`.
