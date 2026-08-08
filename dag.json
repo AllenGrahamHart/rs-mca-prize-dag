@@ -28855,6 +28855,46 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-4 DE pairing-11 complete exclusion",
+   "status": "PROVED",
+   "closure": "all 48 pairing-11 cases with a parallel DE omission are excluded by a common-f resultant norm and direct lift",
+   "statement": "In deployed positive 433-1b role cell 4, canonical matching 11=((0,4),(1,5),(2,3)) is empty for missing roles xi in {0,1,2}, all four source signs, and all four target lanes. A four-basis tower computation evaluates xi=0,2 in 32 exact rows; every norm or inversion-exception root is directly lifted, yielding 304 candidate r values, 192 guarded source points, 64 nonboundary quartic candidates, 64 nonzero colored-pair cuts, 16 f=0 target boundaries, zero witnesses, and zero unresolved branches. The identical positive DE copy transports xi=0 to xi=1. Thus 48 raw cases, three of 105 cell-4 slices, are proved empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-4 DE pairing-11/14 orbit exclusion",
+   "status": "PROVED",
+   "closure": "the matching-11 theorem and exact parallel-DE involution exclude four labels in two quotient orbits",
+   "statement": "In deployed positive 433-1b role cell 4, the matching-11 theorem excludes (xi,pairing)=(0,11),(1,11),(2,11). The exact parallel-DE involution puts the first two labels in one orbit and transports (2,11) to (2,14). Hence four labeled slices and 64 raw sign/lane cases are excluded. Together with the proved 39-label pairing-8/13 complete block, 43 of 105 labels in 23 quotient orbits are paid, leaving 62 labels in 37 quotient orbits. The positive-DE labels (0,14),(1,14) remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -57089,6 +57129,41 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing8_13_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing8_13_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

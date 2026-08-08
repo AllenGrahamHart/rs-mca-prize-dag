@@ -23,10 +23,12 @@ a four-element localized tower and a global coefficient kernel.  The
 `xi=1,pairing=0`, and a separate equal-`DE` norm/lift theorem pays
 `xi=2,pairing=0`. Thus all three parallel-`DE` omissions are closed at
 matching `0`. Canonical matchings `1` and `2` share the same first pair, so
-the three exclusions extend to the complete first-pair block. Nine of 105
-missing/matching slices are paid and 96 remain. Parallel-`DE` exchange
-quotients the full ledger to 60 orbits and the live ledger to 54
-representatives.
+the three exclusions extend to the complete first-pair block. Exact direct
+and quotient closures have since completed matching blocks `3/6`, `4/9`,
+`5/12`, `7/10`, and `8/13`, and have paid the matching-11 representative
+plus its fixed-missing matching-14 image. In total 43 of 105 slices are paid;
+62 labels in 37 of the 60 quotient orbits remain. The immediate retained
+small-missing cases are the two positive-`DE` labels at matching 14.
 
 ## Node hierarchy
 
@@ -44,7 +46,9 @@ cell-4 four-basis tower
                      |
             matching-orbit quotient       [PROVED]
                      |
-            pairing-3 representative      [next mathematical decision]
+            pairing-3 through 13 blocks   [PROVED as scoped]
+                     |
+          positive-DE matching 14         [next exact decision]
                      |
              complete cell 4
                      |

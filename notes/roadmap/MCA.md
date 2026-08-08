@@ -26,9 +26,11 @@ certificates required by the challenge.
   exact parallel-`DE` quotient with 60 orbits. The first-pair block and the
   complete pairing-3/6 and pairing-4/9 nested-quadratic blocks, plus the
   complete pairing-5/12, pairing-7/10, and pairing-8/13 blocks now pay 39 of
-  105 labels, leaving 66 labels in 39 orbits. Matching 11/14 is the final
-  small-missing parallel-`DE` orbit; see
-  `rate_half_band_closure/attack_addenda/22-wave60-positive-433-cell4-pairing13.md`.
+  105 labels. The exact common-`f` pairing-11 theorem and its honest quotient
+  composition raise this to 43 paid labels, leaving 62 labels in 37 orbits.
+  Only the two positive-`DE` matching-14 labels remain in the final small-
+  missing block; see
+  `rate_half_band_closure/attack_addenda/23-wave61-positive-433-cell4-pairing11.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
