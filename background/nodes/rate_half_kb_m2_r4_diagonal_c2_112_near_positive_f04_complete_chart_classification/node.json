@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification",
+    "title": "KoalaBear near-positive F04 complete-chart exclusions",
+    "status": "PROVED",
+    "closure": "all six F04 affine q-slice representatives have empty complete charts",
+    "statement": "Over characteristic p=2130706433, each of the six direct residual cells in {F04-A,F04-OB} x {RX,RL,RM} has unit q-slice ideal after localization by its twelve reconstruction-generated radical nonmonomial factors and the inherited chart units b,c,d,c-d. Sequential exact saturation and independent one-step Rabinowitsch ideals using the product of all sixteen factors both return [1]. Hence all six cells are empty over the algebraic closure and F_(p^6). The proved literal inversion quotient closes the complete F04/F05 direct-orbit block, reducing the affine near-positive frontier from 24 to 18 representatives.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_classification_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_audit_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/direct_complete_chart_audit_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

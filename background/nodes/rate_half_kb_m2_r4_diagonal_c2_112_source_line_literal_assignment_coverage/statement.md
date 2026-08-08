@@ -15,6 +15,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions`
 - **F02 mixed collision exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions`
+- **F04 complete-chart exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -105,12 +107,24 @@ For both mixed cells, localization by the ten recorded factors and the torus
 units leaves a zero-dimensional scheme on which `c-d` vanishes identically.
 Because `c,d` are distinct `J_1` labels, `c-d` is an inherited chart unit.
 Direct collision saturation and independent complete-localizer
-Rabinowitsch ideals close both mixed representatives. The current affine
-near-positive residual is therefore exactly 24 representatives:
+Rabinowitsch ideals close both mixed representatives. The post-`F02` affine
+near-positive residual is exactly 24 representatives:
 
 ```text
 {F04,F06,M01,M03} x {A,other} x {RX,RL,RM}.      (KBCOV-4)
 ```
+
+For every one of the six `F04` representatives, sequential saturation by
+the twelve reconstruction factors and the inherited units `b,c,d,c-d`
+returns the unit ideal. Independent one-step Rabinowitsch ideals with the
+complete sixteen-factor product also return `[1]`. The `F04/F05` direct
+orbit block is therefore closed. The current affine residual is exactly
+
+```text
+{F06,M01,M03} x {A,other} x {RX,RL,RM},           (KBCOV-5)
+```
+
+consisting of `18` representatives.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

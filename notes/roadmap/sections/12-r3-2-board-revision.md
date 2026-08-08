@@ -642,14 +642,27 @@ The two `F02` mixed cells remain nonunit after all ten recorded factors, but
 after the ambient torus units are imposed their exact quotients satisfy
 `c-d=0`. Since `q=(T-c)(T-d)` locates two distinct `J_1` labels, `c-d` is a
 required chart unit. Collision saturation and independent complete-factor
-Rabinowitsch ideals therefore close both mixed cells. The current direct
+Rabinowitsch ideals therefore close both mixed cells. The post-`F02` direct
 affine frontier is `24`, not 26.
 
 ```text
 new results:              30-cell direct registry PROVED; all 6 F02 orbits PROVED empty
 affine frontier:          30 -> 24
 mixed F02:                both supported only on forbidden c=d collision
-next:                     classify the F04 block
+```
+
+The next exact block now closes all six `F04` representatives. Sequential
+saturation by twelve reconstruction factors and `b,c,d,c-d` returns unit in
+every cell. Six independent one-step Rabinowitsch ideals using the complete
+sixteen-factor product agree. This closes the represented `F04/F05` direct
+orbit block over the algebraic closure and `F_(p^6)`.
+
+```text
+new result:               all 6 F04 representatives PROVED empty
+affine frontier:          24 -> 18
+remaining blocks:         F06, M01, M03
+Modal:                    primary 118.01--521.10s; audit 47.01--79.93s
+next:                     classify the F06 block
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

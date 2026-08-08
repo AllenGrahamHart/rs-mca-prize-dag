@@ -1,0 +1,305 @@
+{
+  "results": {
+    "F04-A-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F04-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "851145047a1909d9ecc7b352b1ae2fb359791d137514c44f5ac774206056bbcb",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 16.265999278000002,
+          "basis_size": 1,
+          "cell": "F04-A-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "851145047a1909d9ecc7b352b1ae2fb359791d137514c44f5ac774206056bbcb",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 16.265999278000002,
+        "basis_size": 1,
+        "cell": "F04-A-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "851145047a1909d9ecc7b352b1ae2fb359791d137514c44f5ac774206056bbcb",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 542960,
+      "returncode": 0,
+      "seconds": 53.638711,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "8aaa645523e48ce5f3ef9b2ceb4a261eded1cd04fc56df7f5ada76ed0645f816",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"851145047a1909d9ecc7b352b1ae2fb359791d137514c44f5ac774206056bbcb\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":16.265999278000002,\"basis_size\":1,\"cell\":\"F04-A-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"851145047a1909d9ecc7b352b1ae2fb359791d137514c44f5ac774206056bbcb\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F04-A-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F04-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "482525689e7c45a46a48dd14973858ad9f2742d48ac2d12b877723524857c0f7",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 18.001483733,
+          "basis_size": 1,
+          "cell": "F04-A-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "482525689e7c45a46a48dd14973858ad9f2742d48ac2d12b877723524857c0f7",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 18.001483733,
+        "basis_size": 1,
+        "cell": "F04-A-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "482525689e7c45a46a48dd14973858ad9f2742d48ac2d12b877723524857c0f7",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 534600,
+      "returncode": 0,
+      "seconds": 57.252125,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "3ba1863d9de21c7e28a6d5340b20e80452e261d2dde3f0c27871b373dde9a764",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"482525689e7c45a46a48dd14973858ad9f2742d48ac2d12b877723524857c0f7\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":18.001483733,\"basis_size\":1,\"cell\":\"F04-A-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"482525689e7c45a46a48dd14973858ad9f2742d48ac2d12b877723524857c0f7\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F04-A-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F04-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "dfa14073e2ca51e53a5c5a2ca69a618ed6a16c341ae7cc7947cd4bdb2ca0de2b",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 15.31258064,
+          "basis_size": 1,
+          "cell": "F04-A-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "dfa14073e2ca51e53a5c5a2ca69a618ed6a16c341ae7cc7947cd4bdb2ca0de2b",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 15.31258064,
+        "basis_size": 1,
+        "cell": "F04-A-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "dfa14073e2ca51e53a5c5a2ca69a618ed6a16c341ae7cc7947cd4bdb2ca0de2b",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 540456,
+      "returncode": 0,
+      "seconds": 47.012896,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "c39a96511c8d601b15c077b69bd5fe558cca7e79ccf679df17032c7b7258535e",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"dfa14073e2ca51e53a5c5a2ca69a618ed6a16c341ae7cc7947cd4bdb2ca0de2b\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":15.31258064,\"basis_size\":1,\"cell\":\"F04-A-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"dfa14073e2ca51e53a5c5a2ca69a618ed6a16c341ae7cc7947cd4bdb2ca0de2b\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F04-OB-RL": {
+      "partial_payloads": [
+        {
+          "cell": "F04-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "1684c501cbf5ee04edf64fac4b53dd9ce5c3fb78604ffcdc101842b2de289716",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 9.580251761,
+          "basis_size": 1,
+          "cell": "F04-OB-RL",
+          "equation_count": 4,
+          "equation_tuple_sha256": "1684c501cbf5ee04edf64fac4b53dd9ce5c3fb78604ffcdc101842b2de289716",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 9.580251761,
+        "basis_size": 1,
+        "cell": "F04-OB-RL",
+        "equation_count": 4,
+        "equation_tuple_sha256": "1684c501cbf5ee04edf64fac4b53dd9ce5c3fb78604ffcdc101842b2de289716",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 529788,
+      "returncode": 0,
+      "seconds": 47.333255,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "9d21eb776f3e6909888aa207b59dd34c21601584bd69cdbd6756addb0ae39951",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"1684c501cbf5ee04edf64fac4b53dd9ce5c3fb78604ffcdc101842b2de289716\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":9.580251761,\"basis_size\":1,\"cell\":\"F04-OB-RL\",\"equation_count\":4,\"equation_tuple_sha256\":\"1684c501cbf5ee04edf64fac4b53dd9ce5c3fb78604ffcdc101842b2de289716\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F04-OB-RM": {
+      "partial_payloads": [
+        {
+          "cell": "F04-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "e421b9fc4ca8db936e207371ed80d577bd58cfab0ee1af397d7e57dca389b32d",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 36.505948321000005,
+          "basis_size": 1,
+          "cell": "F04-OB-RM",
+          "equation_count": 4,
+          "equation_tuple_sha256": "e421b9fc4ca8db936e207371ed80d577bd58cfab0ee1af397d7e57dca389b32d",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 36.505948321000005,
+        "basis_size": 1,
+        "cell": "F04-OB-RM",
+        "equation_count": 4,
+        "equation_tuple_sha256": "e421b9fc4ca8db936e207371ed80d577bd58cfab0ee1af397d7e57dca389b32d",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 550296,
+      "returncode": 0,
+      "seconds": 79.931971,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "b8931db15e97306e1bb9b124ad36b5df76204577ae6160c3f1ac198a1ededb63",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"e421b9fc4ca8db936e207371ed80d577bd58cfab0ee1af397d7e57dca389b32d\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":36.505948321000005,\"basis_size\":1,\"cell\":\"F04-OB-RM\",\"equation_count\":4,\"equation_tuple_sha256\":\"e421b9fc4ca8db936e207371ed80d577bd58cfab0ee1af397d7e57dca389b32d\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    },
+    "F04-OB-RX": {
+      "partial_payloads": [
+        {
+          "cell": "F04-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "db3231f22134f5c3b2da7ca5f5c45884e4278b017f5da722d13e598bc6ee1430",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_COMPILED"
+        },
+        {
+          "basis_seconds": 18.004529378999997,
+          "basis_size": 1,
+          "cell": "F04-OB-RX",
+          "equation_count": 4,
+          "equation_tuple_sha256": "db3231f22134f5c3b2da7ca5f5c45884e4278b017f5da722d13e598bc6ee1430",
+          "localizer_count": 16,
+          "localizer_product_degree": 26,
+          "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+          "localizer_product_terms": 562,
+          "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        }
+      ],
+      "payload": {
+        "basis_seconds": 18.004529378999997,
+        "basis_size": 1,
+        "cell": "F04-OB-RX",
+        "equation_count": 4,
+        "equation_tuple_sha256": "db3231f22134f5c3b2da7ca5f5c45884e4278b017f5da722d13e598bc6ee1430",
+        "localizer_count": 16,
+        "localizer_product_degree": 26,
+        "localizer_product_sha256": "9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2",
+        "localizer_product_terms": 562,
+        "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-v1",
+        "terminal": "RABINOWITSCH_UNIT_IDEAL",
+        "unit_ideal": true
+      },
+      "peak_kb": 543856,
+      "returncode": 0,
+      "seconds": 56.149187,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_sha256": "2842da762559d6b9f6c624aca0a2d6fb7a0e18e2e60ca213f68d95c4c63461e7",
+      "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"cell\":\"F04-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"db3231f22134f5c3b2da7ca5f5c45884e4278b017f5da722d13e598bc6ee1430\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nDIRECT_COMPLETE_CHART_AUDIT_JSON {\"basis_seconds\":18.004529378999997,\"basis_size\":1,\"cell\":\"F04-OB-RX\",\"equation_count\":4,\"equation_tuple_sha256\":\"db3231f22134f5c3b2da7ca5f5c45884e4278b017f5da722d13e598bc6ee1430\",\"localizer_count\":16,\"localizer_product_degree\":26,\"localizer_product_sha256\":\"9776700913d12aba7cc9e506024dd43ba8d27c00a6f3a2ddf2838ee16fa152b2\",\"localizer_product_terms\":562,\"schema\":\"kb-c2-112-near-positive-f04-complete-chart-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+    }
+  },
+  "schema": "kb-c2-112-near-positive-f04-complete-chart-audit-modal-v1"
+}

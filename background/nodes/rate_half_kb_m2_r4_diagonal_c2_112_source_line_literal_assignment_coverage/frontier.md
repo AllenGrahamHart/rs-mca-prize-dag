@@ -24,10 +24,12 @@ The affine near-positive literal frontier is now exact:
 The 30-cell direct registry is complete. Dual exact saturation certificates
 close four `F02` square-allocation orbits. The two mixed schemes are
 supported entirely on the forbidden collision `c=d` and close under complete
-chart localization. Thus all six `F02` representatives are empty, and the
-current affine packet consists of the 24 cells from `F04,F06,M01,M03`.
+chart localization. Thus all six `F02` representatives are empty. Sequential
+complete-chart saturation and independent one-step Rabinowitsch ideals also
+close all six `F04` representatives. The current affine packet consists of
+the 18 cells from `F06,M01,M03`.
 
-Those 24 q-slice representatives are the next finite work packet. The
+Those 18 q-slice representatives are the next finite work packet. The
 near-positive projective boundary and the aligned-negative and near-negative
 literal audits remain separate. All must close before the complete
 source-line theorem can return to PROVED.
