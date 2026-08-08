@@ -1,4 +1,12 @@
 {
+  "post_refactor_addenda": [
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/13-wave51-positive-433-cell4-campaign.md"
+    }
+  ],
   "pre_refactor_line_count": 3950,
   "pre_refactor_sha256": "26f1d1c5015a99cabbbd0abda13f046da317f2aafa04e9856733c818640b58cd",
   "schema": "sectioned-critical-node-document-v1",

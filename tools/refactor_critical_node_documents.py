@@ -341,6 +341,12 @@ verified separately, so they do not rewrite that historical archive.
                 "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
             )),
         ),
+        addenda=(
+            (
+                "critical/nodes/rate_half_band_closure/attack_addenda/13-wave51-positive-433-cell4-campaign.md",
+                ("rate_half_band_closure",),
+            ),
+        ),
         index="""# Rate-half adjacent-certificate attack index
 
 ## Live finite contract
@@ -373,6 +379,8 @@ still `TARGET`.
 - `attack_sections/11-coordinate-positive-three-loop-program.md` and
   `attack_sections/12-coordinate-positive-433-program.md`: positive signed
   coordinate Vieta programs.
+- `attack_addenda/13-wave51-positive-433-cell4-campaign.md`: wave-51 cell-4
+  campaign progress (extracted from the archived packet, CATCH-W51).
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies
