@@ -1,0 +1,96 @@
+{
+  "app": "rs-mca-k3-pr1144-m01-direct-singular-certificate",
+  "result": {
+    "peak_kb": 4692724,
+    "records": [
+      {
+        "I": {
+          "degree": 64,
+          "degrees": [
+            28,
+            25,
+            25,
+            17
+          ],
+          "sha256": "b45202d5ff561fd29573f68af87e4236cfc2f764f090c730ae35e4c61bb5abcf",
+          "terms": 151178
+        },
+        "J": {
+          "degree": 30,
+          "degrees": [
+            12,
+            15,
+            15,
+            6
+          ],
+          "sha256": "c8223c17919b39c46a7e55cfeb99badc6f1f5a2060c19a5dd0a11e44f0b276bb",
+          "terms": 10852
+        },
+        "factor_audit_count": 4,
+        "full_unit_count": 20,
+        "phase": "SOURCE_COMPILED",
+        "qslice": [
+          {
+            "degree": 11,
+            "degrees": [
+              4,
+              6,
+              6,
+              2
+            ],
+            "sha256": "a85da4aa0795553f813587b4851fec63ab1dde860b83886e33f432639299749b",
+            "terms": 340
+          },
+          {
+            "degree": 11,
+            "degrees": [
+              4,
+              4,
+              5,
+              2
+            ],
+            "sha256": "4723647b1a0c2593ec3e263296ca189ebbc80b17a91cc86c52a86b51dc759d9f",
+            "terms": 250
+          },
+          {
+            "degree": 20,
+            "degrees": [
+              8,
+              9,
+              9,
+              4
+            ],
+            "sha256": "a2b018b3dce84e37430ed2f8b0b0dd885c07ab346ea8e3b7e3e88aa82321cfac",
+            "terms": 1977
+          },
+          {
+            "degree": 20,
+            "degrees": [
+              8,
+              7,
+              8,
+              4
+            ],
+            "sha256": "65a9875e1dc95b6ef7b2a92b454fd37e6349afd38644dfadc475d94e3b34a0c9",
+            "terms": 1569
+          }
+        ],
+        "upstream_script_sha256": "2ed13fbab353d0ac3017fa31cab68de3f3b66f190061ba63fd277dbdc7958675",
+        "w_zero_unit_count": 15
+      },
+      {
+        "bytes": 4621229,
+        "phase": "SINGULAR_SCRIPT_WRITTEN",
+        "sha256": "d11837cb9f94dbe35e87c70bbd181a1f3f6157d171304111813c22e5ca186ccd"
+      }
+    ],
+    "returncode": null,
+    "seconds": 1740.041344,
+    "status": "TIMEOUT",
+    "stderr_tail": "",
+    "stdout_sha256": "a4e7c7249afb33df13ef6fdb258951e1450b66dd82531a81ff082cf4b4ce5420",
+    "stdout_tail": "{\"I\":{\"degree\":64,\"degrees\":[28,25,25,17],\"sha256\":\"b45202d5ff561fd29573f68af87e4236cfc2f764f090c730ae35e4c61bb5abcf\",\"terms\":151178},\"J\":{\"degree\":30,\"degrees\":[12,15,15,6],\"sha256\":\"c8223c17919b39c46a7e55cfeb99badc6f1f5a2060c19a5dd0a11e44f0b276bb\",\"terms\":10852},\"factor_audit_count\":4,\"full_unit_count\":20,\"phase\":\"SOURCE_COMPILED\",\"qslice\":[{\"degree\":11,\"degrees\":[4,6,6,2],\"sha256\":\"a85da4aa0795553f813587b4851fec63ab1dde860b83886e33f432639299749b\",\"terms\":340},{\"degree\":11,\"degrees\":[4,4,5,2],\"sha256\":\"4723647b1a0c2593ec3e263296ca189ebbc80b17a91cc86c52a86b51dc759d9f\",\"terms\":250},{\"degree\":20,\"degrees\":[8,9,9,4],\"sha256\":\"a2b018b3dce84e37430ed2f8b0b0dd885c07ab346ea8e3b7e3e88aa82321cfac\",\"terms\":1977},{\"degree\":20,\"degrees\":[8,7,8,4],\"sha256\":\"65a9875e1dc95b6ef7b2a92b454fd37e6349afd38644dfadc475d94e3b34a0c9\",\"terms\":1569}],\"upstream_script_sha256\":\"2ed13fbab353d0ac3017fa31cab68de3f3b66f190061ba63fd277dbdc7958675\",\"w_zero_unit_count\":15}\n{\"bytes\":4621229,\"phase\":\"SINGULAR_SCRIPT_WRITTEN\",\"sha256\":\"d11837cb9f94dbe35e87c70bbd181a1f3f6157d171304111813c22e5ca186ccd\"}\nSINGULAR WZERO_BASIS_BEGIN\nSINGULAR 10M[1,1](3)11M[1,1](3)12M[1,1](3)13M[1,1](3)13M[1,1](3)14M[1,1](4)14M[1,1](5)15M[3,3](6)14M[1,1](7)14M[1,b0](6)15M[2,1](6)16M[6,4](8)16M[4,4](13)15M[8,6](19)15M[13,10](26)14M[9,7](38)14M[12,12](54)14M[28,24](93)13M[33,b15](104)13M[44,bb3](67)13M[7,b0](60)14M[11,0](26)15M[1,0](8)16M[2,0](0)\nSINGULAR NF:192 product criterion:0, ext_product criterion:0\nSINGULAR WZERO_BASIS_SIZE=35\nSINGULAR WZERO_DIMENSION=1\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR rt\nSINGULAR WZERO_LOCALIZER_DEG=18\nSINGULAR WZERO_LOCALIZER_TERMS=521\nSINGULAR r\nSINGULAR WZERO_SQUARE_DEG=-1\nSINGULAR WZERO_SQUARE_TERMS=0\nSINGULAR QSLICE_BASIS_BEGIN\nSINGULAR 11M[1,1](3)12M[1,1](3)13M[1,1](3)14M[1,1](3)15M[1,1](3)16M[1,1](3)17M[1,1](4)18M[2,2](7)18M[3,3](8)18M[1,b1](9)17M[1,0](8)18M[1,1](9)19M[7,2](6)20M[6,4](7)19M[1,1](8)20M[4,b4](12)20M[5,4](16)20M[6,6](26)21M[24,17](37)20M[4,4](46)21M[29,19](64)21M[29,28](107)21M[42,40](178)21M[100,54](227)20M[60,50](342)20M[100,36](367)20M[100,bb25](350)20M[89,7](285)20M[18,1](270)21M[100,3](92)21M[6,1](38)22M[9,3](8)23M[8,2](7)24M[6,2](6)24M[3,1](6)25M[6,2](5)25M[2,0](3)26M[3,1](2)27M[2,0](0)\nSINGULAR NF:784 product criterion:0, ext_product criterion:0\nSINGULAR QSLICE_BASIS_SIZE=168\nSINGULAR QSLICE_DIMENSION=2\nSINGULAR rt\nSINGULAR J_REMAINDER_DEG=21\nSINGULAR J_REMAINDER_TERMS=6510\nSINGULAR J_BASIS_BEGIN\nSINGULAR 11M[1,1](168)12M[2,1](167)13M[2,1](166)14M[3,2](165)15M[1,b0](164)16M[3,2](164)17M[5,3](166)18M[12,5](163)19M[100,93](347)19M[13,12](370)20M[100,28](351)20M[100,eb5](265)20M[100,0](165)20M[14,0](151)21M[98,4](43)22M[15,6](33)22M[7,6](43)20M[4,4](54)20M[11,9](77)20M[28,17](116)20M[64,7](80)19M[28,0](52)21M[16,2](42)21M[3,0](39)22M[4,1](38)23M[20,7](24)23M[15,7](25)23M[15,6](26)22M[8,3](30)22M[12,2](25)22M[4,1](25)22M[4,2](28)21M[4,1](27)22M[3,0](24)23M[10,0](14)24M[5,0](3)25M[1,0](1)26M[1,0](0)\nSINGULAR NF:836 product criterion:0, ext_product criterion:0\nSINGULAR J_BASIS_SIZE=174\nSINGULAR J_DIMENSION=2\n"
+  },
+  "schema": "kb-c2-112-pr1144-m01-direct-singular-certificate-v1",
+  "upstream_commit": "05ff2348de8f2c0f99683875ff12a9a79dcf21ec"
+}

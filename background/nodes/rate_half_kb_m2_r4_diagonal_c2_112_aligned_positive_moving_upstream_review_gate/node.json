@@ -22,7 +22,12 @@
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_sage109_official_modal.py",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_sage109_official_output.json",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_libsingular_sage109_modal.py",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_libsingular_sage109_timeout.json"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_libsingular_sage109_timeout.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_direct_singular_certificate.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/review_m01_direct_singular_certificate_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_direct_singular_staged_timeout_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_direct_singular_chunkless_timeout_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_moving_upstream_review_gate/modal_review_m01_direct_singular_certificate_output.json"
     ]
   },
   "requires": [],

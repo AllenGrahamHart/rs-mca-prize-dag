@@ -21,13 +21,22 @@ and all 29 semantic mutations caught. The standalone exact M01 parity
 derivation also passes. The complete direct cell cannot yet be independently
 replayed: three Sage installations fail with `RecursionError` while
 converting the external Singular `slimgb` basis, and an equivalent
-`libsingular:slimgb` replay timed out after 1740 seconds. This node therefore
-remains PROVABLE rather than PROVED.
+`libsingular:slimgb` replay timed out after 1740 seconds. Three direct
+standalone Singular routes independently recover the exact pinned q-slice
+basis (`168`, dimension `2`) and `J` augmentation (`174`, dimension `2`).
+They also close the `w=0` boundary when included, but monolithic and staged
+reduction of the 151178-term `I` polynomial exceed 1740 seconds. Splitting
+`I` into 148 deterministic 1024-term blocks still completes fewer than eight
+blocks in 3540 seconds. This node therefore remains PROVABLE rather than
+PROVED.
 
 Promotion requires a portable exact replay or an independent exact proof of
 `M01-R11`, followed by the already checked complete-source inversion to
-`M02-R11`. The result must bind the q-slice basis, both parity stages,
-localizers, and nilpotence witness without relying on a failed text bridge.
+`M02-R11`. The next replay must change the reduction geometry, for example by
+interreducing or parametrizing the `J` quotient; merely extending the direct
+`I` timeout is fenced out. The result must bind the q-slice basis, both parity
+stages, localizers, and nilpotence witness without relying on a failed text
+bridge.
 
 ## Falsifier
 
