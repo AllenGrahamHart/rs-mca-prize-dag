@@ -21471,6 +21471,66 @@ compute:                   bounded Modal, final app ap-M2MiquWgaRzmJgiqN1Cumc
 live compute requests:     none
 next:                      close representative matching 11, then transport to 14 and xi4
 ```
+
+### Cell-4 completion and duplicate-role cell-7 transport
+
+The final independent `xi=3`, matching-11 system has residual pairs
+
+```text
+(de,bf), (de,sigma_c cf), (-de,sigma_o ef).
+```
+
+The first two equations are quadratic in `q=de`. Their exact quadratic
+resultant has degree six in `z=1/d`; reducing it against the missing-sum
+quartic and eliminating `z -> -z` leaves a linear-remainder common-root cut
+in the four-basis source tower. Across eight source-sign/`sigma_c` rows, the
+complete union has 60 candidate `r` roots and 16 guarded source points.
+Eight compatible `z` values and eight compatible `q` values remain, but all
+16 final `sigma_o` lane evaluations are nonzero. There are no target
+boundaries, witnesses, free branches, or unresolved strata.
+
+The exact parallel-`DE` matching exchange transports matching 11 to 14, and
+the universal outside-role involution transports both from `xi=3` to
+`xi=4`. Set-theoretic assembly then partitions the 105 rank-five labels of
+role cell 4 into 45 parallel-`DE` labels, 30 `xi in {3,4}` labels, and 30
+endpoint-role labels. The corresponding physical ledgers are disjoint and
+total `720+480+480=1680` raw systems. The existing global product-rank-drop
+theorem pays the exceptional branch, so role cell 4 is empty in full.
+
+Finally, the exact `B <-> C` duplicate-role exchange sends cell 4 to cell 7,
+with the required source-sign change and colored-record relabeling checked
+on every one of the 105 labels. This closes the complete duplicate-role
+orbit `[4,7]`. The remaining positive 433-1b role orbits are `[5,8]`,
+`[9,10]`, `[11]`, and `[12,13]`.
+
+The direct heavy verifier was independently replayed on Modal against exact
+compiler, result, and verifier hashes. Its dedicated replay certificate is
+checked by the lightweight audit. The first replay exposed a stale expected
+degree, a second reached the old 270-second timeout, and the final bounded
+run passed in 372.405271 seconds. No broad replay output is claimed as
+evidence.
+
+Reconciliation found the Fable tree clean and unchanged at `87ad3be1a`.
+Upstream `main` remained at `93fba1be3`; 31 PRs were open, headed by #1151
+and #1150. PR #1151 advances the LIST LS6 prefix/owner route and #1150
+corrects the F2 branch census, but neither supplies a new positive-433
+terminal used by this closure.
+
+```text
+starting pin:              e07be8ffb
+ending mathematical pin:  3afbfa800
+canonical prize pin:       87ad3be1a
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [4,7]
+result:                    CLOSED cell 4 and duplicate-role cell 7 completely
+DAG status delta:          +6 background PROVED (1774 -> 1780); critical orbit unchanged
+upstream terminal delta:   portable exact complete-role packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-YnHNxRzPD9DpVJQrqp9SLP, ap-hD8LPsYApvAxTnBAJS5d37, ap-74kOL7uM1Y7OHlIhM5mI1A
+live compute requests:     none
+next:                      audit existing suppliers/transports for [5,8], [9,10], [11], [12,13]
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
