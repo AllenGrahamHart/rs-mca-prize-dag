@@ -14,7 +14,7 @@ fixed 24-cell packets + moving 12-cell packets
  affine direct + 48-cell boundary coverage (PROVED)
                          |
                          v
-       aligned/near-negative literal audits (OPEN)
+ aligned-negative literal audit (PROVED) + near-negative audit (OPEN)
                          |
                          v
           literal-assignment coverage (TARGET)
@@ -32,5 +32,6 @@ empty; the last exact two-point orbit fails the first quotient norm under
 literal replay. Five `M03` cells are q-slice empty; the last exact four-point
 scheme fails the first quotient norm on all eight literal companions. Thus
 the affine direct residual is empty. A direct 48-cell compiler separately
-closes the complete positive projective boundary. Only the aligned-negative
-and near-negative literal audits remain.
+closes the complete positive projective boundary. A separate direct
+two-chart certificate closes all twelve aligned-negative assignments. Only
+the 48 near-negative assignment/root cells remain.

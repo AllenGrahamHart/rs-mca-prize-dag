@@ -21320,3 +21320,19 @@ aligned-positive `18 -> 16` route cut and explicitly leaves quotient parity
 and component classification open; it does not contain the affine
 near-positive `M03` result above. PR #1143 remains a separate coordinate-
 positive route.
+
+The aligned-negative literal gap is now closed without invoking endpoint
+covariance. Each of the twelve source-star assignments is reconstructed on
+the complementary charts `c+d!=0` and `c+d=0`. Selected-minor localization
+leaves one genuine consistency component per fixed-moving cell and two per
+moving-moving cell. The aligned mismatch constant and outer-coefficient
+identities hold on all 32 components.
+
+```text
+new result:               aligned-negative literal coverage PROVED
+literal census:           24/24 assignment/chart cells
+component census:         16 fixed-moving + 16 moving-moving = 32
+remaining literal gap:    48 near-negative assignment/root cells
+Modal:                    6.61--475.22s/cell; peak <=1293924 KiB
+next:                     compile the near-negative literal census
+```

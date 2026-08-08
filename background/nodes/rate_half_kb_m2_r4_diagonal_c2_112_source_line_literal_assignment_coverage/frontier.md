@@ -34,9 +34,12 @@ points, and all eight literal `OB/OI` companions fail the first quotient norm
 under direct replay. The affine near-positive direct residual is empty.
 
 All 48 literal positive projective-boundary cells are also q-slice empty
-under dual exact saturation certificates. The aligned-negative and
-near-negative literal audits remain separate. Both must close before the
-complete source-line theorem can return to PROVED.
+under dual exact saturation certificates. The aligned-negative branch is
+now empty on a complete direct two-chart cover: all 24 assignment/chart
+cells and all 32 survivor components pass the exact coefficient-identity
+certificate. The remaining frontier is precisely the 48 near-negative
+assignment/root cells. They must close before the complete source-line
+theorem can return to PROVED.
 
 The obvious reciprocal-pair-swap extension is closed as a route: exact
 target transport holds, but no literal destination carries the reconstructed

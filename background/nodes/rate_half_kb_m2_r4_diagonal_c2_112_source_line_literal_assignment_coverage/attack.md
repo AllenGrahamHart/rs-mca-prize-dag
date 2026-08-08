@@ -17,7 +17,8 @@
    and `M03` packets. Do not reopen them without a concrete falsifier. The
    reciprocal-pair-swap covariance route is also refuted.
 8. Treat the positive projective boundary as closed by its direct 48-cell
-   literal compiler. Audit the aligned-negative and near-negative branches
+   literal compiler and aligned-negative coverage as closed by its direct
+   24-chart, 32-component certificate. Audit the 48 near-negative cells
    separately; do not infer them from positive transport.
 9. Promote this node only after a machine-checked literal coverage table has
    no unclassified row.

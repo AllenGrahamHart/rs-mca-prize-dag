@@ -25,6 +25,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification`
 - **projective-boundary literal coverage:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage`
+- **aligned-negative literal coverage:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -182,8 +184,18 @@ all 48 q-slice ideals unit under both Rabinowitsch and sequential saturation:
 positive projective-boundary literal residual = empty. (KBCOV-9)
 ```
 
-The remaining obligation is to validate literal coverage for the
-aligned-negative and near-negative claims.
+The aligned-negative branch is now literal as well. Direct reconstruction on
+the complementary charts `c+d!=0` and `c+d=0` covers all twelve assignments.
+After selected-minor factors are inverted, its 24 chart cells contain exactly
+32 genuine consistency components; the two normalized mismatch identities
+hold on every component and exclude all of them:
+
+```text
+aligned-negative literal residual = empty.         (KBCOV-10)
+```
+
+The sole remaining obligation is literal coverage for the 48 near-negative
+assignment/root cells.
 
 ## Falsifier
 
