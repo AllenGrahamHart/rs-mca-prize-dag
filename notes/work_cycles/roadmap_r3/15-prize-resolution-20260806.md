@@ -3165,3 +3165,42 @@ compute:                   bounded Modal, final app ap-Dxy9l3OPbvPHbjXD6Fb1ul
 live compute requests:     none
 next:                      attack the final small-missing orbit {11,14}
 ```
+
+### Cell-4 pairing-11 orbit close
+
+Matching 11 is the common-`f` member of the final small-missing parallel-
+`DE` block. Its first two paired cuts and final colored cut are
+
+```text
+P_b(f)=Pair(de,bf),
+P_c(f)=Pair(second_de,sigma_c*cf),
+final=Pair(df,sigma_o*ef).
+```
+
+Across 32 computed `xi in {0,2}` rows, the exact resultant-norm ledger has
+304 candidate roots, 240 target roots, 192 guarded source points, 64
+nonboundary even-quartic candidates, 64 nonzero final-pair cuts, 16 `f=0`
+boundaries, and no witness or unresolved branch. Identical-copy transport
+supplies `xi=1`.
+
+The independent verifier recomputes both quadratic root sets, their
+intersection, and all even-quartic roots through a quadratic in `u^2` plus
+modular square roots before reevaluating the final cut. The parallel-`DE`
+involution adds `(2,14)` but correctly leaves `(0,14),(1,14)` open. Cell 4
+now has 43/105 paid labels, with 62 labels in 37 quotient orbits live.
+
+```text
+starting pin:              0ba785a58
+ending mathematical pin:  0aa6c7c41
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 11; quotient-closed xi2/pairing 14
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-kFJQZFlwV86ixm21ONfYJR
+live compute requests:     none
+next:                      close positive-DE matching 14
+```
