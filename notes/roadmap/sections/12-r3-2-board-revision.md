@@ -673,7 +673,22 @@ new result:               all 6 F06 representatives PROVED empty
 affine frontier:          18 -> 12
 remaining blocks:         M01, M03
 Modal:                    primary 108.29--350.86s; audit 47.57--114.40s
-next:                     classify the M01 block
+```
+
+The `M01` block has one genuine q-slice survivor. Five complete charts are
+unit in sequential and one-step formulations. `M01-A-RL` has an exact
+two-point base-field chart. Full quotient covariance is not assumed: all
+eight literal `M01/M02`, `A/TA` companions are reconstructed separately,
+pass their q-slice/localizer controls, and fail the first necessary colored
+quotient norm.
+
+```text
+new result:               complete M01/M02 direct block PROVED excluded
+affine frontier:          12 -> 6
+q-slice survivor:         2 base-field points; 8 literal quotient replays
+remaining block:          M03
+Modal:                    chart <=715.21s; audit <=135.24s; quotient 37.31s
+next:                     classify the M03 block
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

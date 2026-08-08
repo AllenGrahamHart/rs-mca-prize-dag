@@ -11,10 +11,10 @@ fixed 24-cell packets + moving 12-cell packets
            108 -> 42 -> 12 + 30
                          |
                          v
- direct registry + F02/F04/F06 closes (PROVED)
+ direct registry + F02/F04/F06/M01 closes (PROVED)
                          |
                          v
-  12 affine reps + projective/negative audits (OPEN)
+   6 affine reps + projective/negative audits (OPEN)
                          |
                          v
           literal-assignment coverage (TARGET)
@@ -27,5 +27,7 @@ The TARGET remains a logical leaf. Its aligned-positive subbranch is complete.
 The affine near-positive transport leaves 30 direct representatives. Four
 `F02` square orbits close directly and both mixed orbits close on the
 forbidden `c=d` collision. Dual complete-chart certificates then close all
-six `F04` and all six `F06` representatives, leaving 12. The
+six `F04` and all six `F06` representatives. Five `M01` cells are q-slice
+empty; the last exact two-point orbit fails the first quotient norm under
+literal replay, leaving six `M03` representatives. The
 projective-boundary and negative-sign literal audits are separate.

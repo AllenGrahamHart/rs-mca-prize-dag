@@ -30248,6 +30248,34 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "title": "KoalaBear near-positive M01 complete-chart and quotient exclusions",
+   "status": "PROVED",
+   "closure": "the complete M01/M02 direct orbit block is excluded by q-slice emptiness or the first quotient norm",
+   "statement": "Over characteristic p=2130706433, five of the six M01 direct q-slice representatives have unit ideals after complete fifteen-factor chart localization in both sequential and one-step Rabinowitsch formulations. The surviving M01-A-RL chart has exact lex basis {b^2+253153238b-400825962, c+1065353216, d+1} and exactly two base-field points. Exact q-slice transport enumerates eight literal companions across M01/M02 and A/TA. Fresh reconstruction verifies every point's endpoint equations and localizers, and all eight fail the first necessary normed colored-quotient identity Res_T(P_J,G) ~ K_5^4 chi_Omega^2. Hence the complete M01/M02 direct-orbit block is excluded and the affine near-positive frontier decreases from 12 to 6 representatives.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classify.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classify_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classification_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_probe.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation",
    "title": "KoalaBear near-positive reciprocal-pair-swap covariance refutation",
    "status": "PROVED",
@@ -30314,7 +30342,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all six F02 representatives. Sequential complete-chart saturation and independent one-step Rabinowitsch ideals also close all six F04 and all six F06 representatives. The affine residual is therefore 12 representatives in the M01 and M03 blocks. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Separate near-positive projective-boundary, aligned-negative, and near-negative literal audits also remain.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all F02, F04, and F06 representatives. Five M01 representatives are q-slice empty; the sixth has two base-field points, whose complete eight-point literal orbit fails the first colored quotient norm under direct replay. The affine residual is therefore six M03 representatives. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Separate near-positive projective-boundary, aligned-negative, and near-negative literal audits also remain.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -57454,6 +57482,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -57484,6 +57517,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
@@ -57563,6 +57606,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
    "kind": "req"
@@ -57605,6 +57653,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
    "kind": "req"
   },
   {

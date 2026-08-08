@@ -19,6 +19,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification`
 - **F06 complete-chart exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification`
+- **M01 chart and quotient exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -138,6 +140,20 @@ Rabinowitsch ideals with all sixteen factors are `[1]`. Thus the represented
 ```
 
 consisting of `12` representatives.
+
+Five `M01` representatives have unit complete-chart q-slice ideals in both
+sequential and one-step formulations. The sole survivor, `M01-A-RL`, has an
+exact two-point base-field chart. Because full quotient transport is not
+licensed, all eight `M01/M02`, `A/TA` literal companions are reconstructed
+separately. Every point passes its q-slice and localizer controls and fails
+the first necessary colored quotient norm. Hence the current affine residual
+is exactly
+
+```text
+{M03} x {A,other} x {RX,RL,RM},                   (KBCOV-7)
+```
+
+consisting of `6` representatives.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

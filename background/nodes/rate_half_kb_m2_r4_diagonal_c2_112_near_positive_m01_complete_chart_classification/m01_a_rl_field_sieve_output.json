@@ -1,0 +1,91 @@
+{
+  "result": {
+    "partial_payloads": [
+      {
+        "cell": "M01-A-RL",
+        "equation_count": 4,
+        "localizer_count": 15,
+        "primary_basis_sha256": "340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd",
+        "primary_basis_size": 3,
+        "saturation_seconds": 218.44027253899998,
+        "schema": "kb-c2-112-near-positive-m01-a-rl-field-sieve-v1",
+        "terminal": "SATURATED"
+      },
+      {
+        "cell": "M01-A-RL",
+        "eliminant_degree": 1,
+        "eliminant_sha256": "339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df",
+        "eliminant_terms": 2,
+        "equation_count": 4,
+        "f_p6_compatible_degrees": [
+          {
+            "degree": 1,
+            "multiplicity": 1
+          }
+        ],
+        "f_p6_empty_by_eliminant": false,
+        "factor_degrees": [
+          {
+            "degree": 1,
+            "multiplicity": 1
+          }
+        ],
+        "lex_basis": [
+          "b^2 + 253153238*b - 400825962",
+          "c + 1065353216",
+          "d + 1"
+        ],
+        "lex_basis_sha256": "340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd",
+        "lex_basis_size": 3,
+        "lex_seconds": 0.008845288999992817,
+        "localizer_count": 15,
+        "primary_basis_sha256": "340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd",
+        "primary_basis_size": 3,
+        "saturation_seconds": 218.44027253899998,
+        "schema": "kb-c2-112-near-positive-m01-a-rl-field-sieve-v1",
+        "terminal": "F_P6_COMPATIBLE_FACTOR_REMAINS"
+      }
+    ],
+    "payload": {
+      "cell": "M01-A-RL",
+      "eliminant_degree": 1,
+      "eliminant_sha256": "339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df",
+      "eliminant_terms": 2,
+      "equation_count": 4,
+      "f_p6_compatible_degrees": [
+        {
+          "degree": 1,
+          "multiplicity": 1
+        }
+      ],
+      "f_p6_empty_by_eliminant": false,
+      "factor_degrees": [
+        {
+          "degree": 1,
+          "multiplicity": 1
+        }
+      ],
+      "lex_basis": [
+        "b^2 + 253153238*b - 400825962",
+        "c + 1065353216",
+        "d + 1"
+      ],
+      "lex_basis_sha256": "340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd",
+      "lex_basis_size": 3,
+      "lex_seconds": 0.008845288999992817,
+      "localizer_count": 15,
+      "primary_basis_sha256": "340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd",
+      "primary_basis_size": 3,
+      "saturation_seconds": 218.44027253899998,
+      "schema": "kb-c2-112-near-positive-m01-a-rl-field-sieve-v1",
+      "terminal": "F_P6_COMPATIBLE_FACTOR_REMAINS"
+    },
+    "peak_kb": 580036,
+    "returncode": 0,
+    "seconds": 250.187036,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nM01_A_RL_FIELD_SIEVE_JSON {\"cell\":\"M01-A-RL\",\"equation_count\":4,\"localizer_count\":15,\"primary_basis_sha256\":\"340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd\",\"primary_basis_size\":3,\"saturation_seconds\":218.44027253899998,\"schema\":\"kb-c2-112-near-positive-m01-a-rl-field-sieve-v1\",\"terminal\":\"SATURATED\"}\nM01_A_RL_FIELD_SIEVE_JSON {\"cell\":\"M01-A-RL\",\"eliminant_degree\":1,\"eliminant_sha256\":\"339ff247ce230ed4b73f8621ec8ba2707f3d87cd4c663451ebd27d86cdafb2df\",\"eliminant_terms\":2,\"equation_count\":4,\"f_p6_compatible_degrees\":[{\"degree\":1,\"multiplicity\":1}],\"f_p6_empty_by_eliminant\":false,\"factor_degrees\":[{\"degree\":1,\"multiplicity\":1}],\"lex_basis\":[\"b^2 + 253153238*b - 400825962\",\"c + 1065353216\",\"d + 1\"],\"lex_basis_sha256\":\"340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd\",\"lex_basis_size\":3,\"lex_seconds\":0.008845288999992817,\"localizer_count\":15,\"primary_basis_sha256\":\"340df1fa9c7cc15843f8d6043df5c70f27d8757c0e398ce620973ddcdc5cc1dd\",\"primary_basis_size\":3,\"saturation_seconds\":218.44027253899998,\"schema\":\"kb-c2-112-near-positive-m01-a-rl-field-sieve-v1\",\"terminal\":\"F_P6_COMPATIBLE_FACTOR_REMAINS\"}\n"
+  },
+  "schema": "kb-c2-112-near-positive-m01-a-rl-field-sieve-modal-v1"
+}

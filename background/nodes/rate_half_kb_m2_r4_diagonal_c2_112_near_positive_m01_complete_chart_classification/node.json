@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+    "title": "KoalaBear near-positive M01 complete-chart and quotient exclusions",
+    "status": "PROVED",
+    "closure": "the complete M01/M02 direct orbit block is excluded by q-slice emptiness or the first quotient norm",
+    "statement": "Over characteristic p=2130706433, five of the six M01 direct q-slice representatives have unit ideals after complete fifteen-factor chart localization in both sequential and one-step Rabinowitsch formulations. The surviving M01-A-RL chart has exact lex basis {b^2+253153238b-400825962, c+1065353216, d+1} and exactly two base-field points. Exact q-slice transport enumerates eight literal companions across M01/M02 and A/TA. Fresh reconstruction verifies every point's endpoint equations and localizers, and all eight fail the first necessary normed colored-quotient identity Res_T(P_J,G) ~ K_5^4 chi_Omega^2. Hence the complete M01/M02 direct-orbit block is excluded and the affine near-positive frontier decreases from 12 to 6 representatives.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_classification_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/direct_complete_chart_audit_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_field_sieve_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_probe.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/m01_a_rl_first_quotient_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"}
+  ],
+  "refutes": []
+}

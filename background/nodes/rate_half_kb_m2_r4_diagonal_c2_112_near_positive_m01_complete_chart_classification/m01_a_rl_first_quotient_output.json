@@ -1,0 +1,150 @@
+{
+  "result": {
+    "payload": {
+      "b_modulus": "x^2 + 253153238*x + 1729880471",
+      "b_modulus_sha256": "f8ca38ca23516bc6ca85036b9212c1e08ed7cef4999eeb5e45db6027727d4ffd",
+      "cell": "M01-A-RL",
+      "orientations": 8,
+      "records": [
+        {
+          "assignment": "M01",
+          "b": "1790190462",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "d2f103573980ed1a5775aa6c2028ad977529e8cc2c5c3ebf1838b52866641675",
+          "first_quotient_norm_pass": false,
+          "orbit": "A",
+          "q_slice_pass": true,
+          "z": "2097283076"
+        },
+        {
+          "assignment": "M01",
+          "b": "87362733",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "9ca454d9b12cbb0c3ac04e85d95149808dac780ac1ca40fd73d36914c5eb56c0",
+          "first_quotient_norm_pass": false,
+          "orbit": "A",
+          "q_slice_pass": true,
+          "z": "33423359"
+        },
+        {
+          "assignment": "M02",
+          "b": "1905873591",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "d2f103573980ed1a5775aa6c2028ad977529e8cc2c5c3ebf1838b52866641675",
+          "first_quotient_norm_pass": false,
+          "orbit": "A",
+          "q_slice_pass": true,
+          "z": "2097283076"
+        },
+        {
+          "assignment": "M02",
+          "b": "683754230",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "9ca454d9b12cbb0c3ac04e85d95149808dac780ac1ca40fd73d36914c5eb56c0",
+          "first_quotient_norm_pass": false,
+          "orbit": "A",
+          "q_slice_pass": true,
+          "z": "33423359"
+        },
+        {
+          "assignment": "M01",
+          "b": "1790190462",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "0be558daae39718ed4a3ee90d88f965887572ed94cbb1757379d53184b7630e5",
+          "first_quotient_norm_pass": false,
+          "orbit": "TA",
+          "q_slice_pass": true,
+          "z": "2097283076"
+        },
+        {
+          "assignment": "M01",
+          "b": "87362733",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "d70e3019fed3ed1e1753604ff2a4dd5277655595f7beee1e4f751df458e2efe0",
+          "first_quotient_norm_pass": false,
+          "orbit": "TA",
+          "q_slice_pass": true,
+          "z": "33423359"
+        },
+        {
+          "assignment": "M02",
+          "b": "1905873591",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "0be558daae39718ed4a3ee90d88f965887572ed94cbb1757379d53184b7630e5",
+          "first_quotient_norm_pass": false,
+          "orbit": "TA",
+          "q_slice_pass": true,
+          "z": "2097283076"
+        },
+        {
+          "assignment": "M02",
+          "b": "683754230",
+          "complete_localizer_count": 15,
+          "complete_localizers_nonzero": true,
+          "endpoint_passes": [
+            true,
+            true
+          ],
+          "first_mismatch_count": 299,
+          "first_mismatch_sha256": "d70e3019fed3ed1e1753604ff2a4dd5277655595f7beee1e4f751df458e2efe0",
+          "first_quotient_norm_pass": false,
+          "orbit": "TA",
+          "q_slice_pass": true,
+          "z": "33423359"
+        }
+      ],
+      "residue_degree": 1,
+      "schema": "kb-c2-112-near-positive-m01-a-rl-first-quotient-probe-v1",
+      "terminal": "FIRST_QUOTIENT_REJECTS_ALL"
+    },
+    "peak_kb": 509692,
+    "returncode": 0,
+    "seconds": 37.31313,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nM01_A_RL_FIRST_QUOTIENT_JSON {\"b_modulus\":\"x^2 + 253153238*x + 1729880471\",\"b_modulus_sha256\":\"f8ca38ca23516bc6ca85036b9212c1e08ed7cef4999eeb5e45db6027727d4ffd\",\"cell\":\"M01-A-RL\",\"orientations\":8,\"records\":[{\"assignment\":\"M01\",\"b\":\"1790190462\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"d2f103573980ed1a5775aa6c2028ad977529e8cc2c5c3ebf1838b52866641675\",\"first_quotient_norm_pass\":false,\"orbit\":\"A\",\"q_slice_pass\":true,\"z\":\"2097283076\"},{\"assignment\":\"M01\",\"b\":\"87362733\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"9ca454d9b12cbb0c3ac04e85d95149808dac780ac1ca40fd73d36914c5eb56c0\",\"first_quotient_norm_pass\":false,\"orbit\":\"A\",\"q_slice_pass\":true,\"z\":\"33423359\"},{\"assignment\":\"M02\",\"b\":\"1905873591\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"d2f103573980ed1a5775aa6c2028ad977529e8cc2c5c3ebf1838b52866641675\",\"first_quotient_norm_pass\":false,\"orbit\":\"A\",\"q_slice_pass\":true,\"z\":\"2097283076\"},{\"assignment\":\"M02\",\"b\":\"683754230\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"9ca454d9b12cbb0c3ac04e85d95149808dac780ac1ca40fd73d36914c5eb56c0\",\"first_quotient_norm_pass\":false,\"orbit\":\"A\",\"q_slice_pass\":true,\"z\":\"33423359\"},{\"assignment\":\"M01\",\"b\":\"1790190462\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"0be558daae39718ed4a3ee90d88f965887572ed94cbb1757379d53184b7630e5\",\"first_quotient_norm_pass\":false,\"orbit\":\"TA\",\"q_slice_pass\":true,\"z\":\"2097283076\"},{\"assignment\":\"M01\",\"b\":\"87362733\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"d70e3019fed3ed1e1753604ff2a4dd5277655595f7beee1e4f751df458e2efe0\",\"first_quotient_norm_pass\":false,\"orbit\":\"TA\",\"q_slice_pass\":true,\"z\":\"33423359\"},{\"assignment\":\"M02\",\"b\":\"1905873591\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"0be558daae39718ed4a3ee90d88f965887572ed94cbb1757379d53184b7630e5\",\"first_quotient_norm_pass\":false,\"orbit\":\"TA\",\"q_slice_pass\":true,\"z\":\"2097283076\"},{\"assignment\":\"M02\",\"b\":\"683754230\",\"complete_localizer_count\":15,\"complete_localizers_nonzero\":true,\"endpoint_passes\":[true,true],\"first_mismatch_count\":299,\"first_mismatch_sha256\":\"d70e3019fed3ed1e1753604ff2a4dd5277655595f7beee1e4f751df458e2efe0\",\"first_quotient_norm_pass\":false,\"orbit\":\"TA\",\"q_slice_pass\":true,\"z\":\"33423359\"}],\"residue_degree\":1,\"schema\":\"kb-c2-112-near-positive-m01-a-rl-first-quotient-probe-v1\",\"terminal\":\"FIRST_QUOTIENT_REJECTS_ALL\"}\n"
+  },
+  "schema": "kb-c2-112-near-positive-m01-a-rl-first-quotient-modal-v1"
+}
