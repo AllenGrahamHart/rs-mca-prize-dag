@@ -28957,6 +28957,27 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
+   "title": "KoalaBear m2 r4 positive 433-1b universal xi4/xi3 outside-role transport",
+   "status": "PROVED",
+   "closure": "exact xi4-to-xi3 system bijection in every common role cell, source sign, target lane, and canonical matching",
+   "statement": "For every guarded positive deployed 433-1b common role cell, source sign, target lane, and canonical matching, the signed outside-coordinate involution (d,e,f) -> (sigma_o e,sigma_o d,f) maps the complete system with missing sigma_o ef record xi=4 bijectively to the system with missing df record xi=3. It transposes exactly atlas rows 3 and 4 while fixing the other product and squared-sum rows, the compact residual order, matching index, target guards, sign-cycle invariants, source signs, and all 15 common role cells. Thus any proved xi3 exclusion block transports at identical scope to xi4. This theorem proves only the transport; it does not itself exclude xi3 or xi4 in an open role cell.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_xi4_xi3_universal_outside_role_transport.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -57271,6 +57292,21 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },

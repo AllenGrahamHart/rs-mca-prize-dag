@@ -30,7 +30,10 @@ slices are paid. A source-only endpoint theorem then pays every missing
 `bf` and missing `sigma_c cf` slice before matching specialization. Cell 4
 is therefore 75/105 paid; 30 labels in 18 of the 60 quotient orbits remain.
 These are exactly missing `df` and missing `sigma_o ef`, `xi in {3,4}`,
-across all 15 matchings.
+across all 15 matchings. The universal signed outside-role transport pairs
+`xi=4` with `xi=3` at fixed role cell, signs, lane, and matching. Therefore
+only the 15 `xi=3` labels in nine matching-exchange orbits require an
+independent exclusion proof.
 
 ## Node hierarchy
 
@@ -54,7 +57,9 @@ cell-4 four-basis tower
                      |
           xi5/xi6 endpoint roles          [PROVED]
                      |
-           xi3/xi4 variable roles         [next exact decision]
+           xi4 <-> xi3 transport          [PROVED]
+                     |
+              xi3 matching orbits         [next exact decision]
                      |
              complete cell 4
                      |

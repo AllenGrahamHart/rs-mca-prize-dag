@@ -77,6 +77,12 @@
         "rate_half_band_closure"
       ],
       "path": "critical/nodes/rate_half_band_closure/attack_addenda/25-wave63-positive-433-cell4-endpoints.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/26-wave64-positive-433-universal-xi43-transport.md"
     }
   ],
   "pre_refactor_line_count": 3950,

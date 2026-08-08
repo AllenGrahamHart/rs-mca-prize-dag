@@ -58,6 +58,9 @@ still `TARGET`.
 - `attack_addenda/25-wave63-positive-433-cell4-endpoints.md`: source-only
   endpoint exclusion for missing `bf` and `sigma_c cf`, leaving only the
   `df/ef` roles live.
+- `attack_addenda/26-wave64-positive-433-universal-xi43-transport.md`:
+  universal outside-role transport reducing the live independent cell-4
+  obligation to missing `df`.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies
