@@ -3089,3 +3089,39 @@ compute:                   bounded Modal, final app ap-vg9F2A5OL2rHsqLlmEu0ao
 live compute requests:     none
 next:                      reconcile and attack matching orbit {8,13}
 ```
+
+### Cell-4 pairing-8 orbit close
+
+Matching 8 is an exact degree-eight `u=ef` route with
+
+```text
+P_u(u)=Pair(de,sigma_o*u),
+P_f(f)=Pair(second_de,sigma_c*cf),
+final=Pair(df,bf),
+```
+
+where `second_de=-de` for `xi=0` and `second_de=de` for `xi=2`. Across 32
+computed rows, the exact ledger has 320 candidate roots, 288 target roots,
+288 guarded source points, 1,040 `(u,f)` rows, 960 missing-relation failures,
+64 nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,13)` but correctly leaves `(0,13)` and
+`(1,13)` open. Cell 4 now has 37/105 paid labels, with 68 labels in 40
+quotient orbits live.
+
+```text
+starting pin:              db646aedc
+ending mathematical pin:  e5bca6df3
+canonical prize pin:       860e22c47
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 8; quotient-closed xi2/pairing 13
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-rpCUgXeECUEAWWOjI2Ma2S
+live compute requests:     none
+next:                      close positive-DE matching 13
+```
