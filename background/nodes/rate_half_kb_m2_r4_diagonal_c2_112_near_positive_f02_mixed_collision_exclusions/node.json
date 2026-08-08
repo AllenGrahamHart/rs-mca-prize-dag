@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions",
+    "title": "KoalaBear near-positive F02 mixed collision exclusions",
+    "status": "PROVED",
+    "closure": "the two F02 mixed-allocation affine literal orbit representatives lie entirely on the forbidden repeated-J1 divisor",
+    "statement": "Over characteristic p=2130706433, localize each of F02-A-RM and F02-OB-RM by the ten reconstruction-generated nonmonomial factors and the ambient torus units b,c,d. The resulting exact q-slice bases have sizes 6 and 7, and c-d has zero normal form in both quotients. Since q=(T-c)(T-d) is the locator of two distinct J1 labels, c-d is a required chart unit; saturation by c-d therefore gives the unit ideal. Independent one-step Rabinowitsch ideals using the product of all fourteen factors also return [1]. Hence both cells and their semantic transport orbits are empty over the algebraic closure and F_(p^6). All six F02 representatives are closed and the direct affine frontier decreases from 26 to 24.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/f02_mixed_collision_primary.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/f02_mixed_collision_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/f02_mixed_collision_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/f02_mixed_collision_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}

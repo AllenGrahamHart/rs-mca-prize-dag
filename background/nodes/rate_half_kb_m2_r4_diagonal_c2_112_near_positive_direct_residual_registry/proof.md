@@ -18,8 +18,10 @@ R_0-R_2 Q_0=0,       R_1-R_2 Q_1=0.              (1)
 Applying `(1)` at both endpoints produces four equations. The compiler
 clears each rational denominator, normalizes the numerator primitively, and
 records exact degree, term-count, and SHA-256 fingerprints. It computes the
-gcd of the four normalized equations and factors every reconstruction and
-line denominator into the radical named-open set.
+gcd of the four normalized equations and factors every nonmonomial
+reconstruction and line denominator into the recorded radical set. The
+ambient torus units and the squarefree locator condition `c-d!=0` belong to
+the inherited chart contract rather than this denominator-generated list.
 
 The exact Modal run visits all `5*2*3=30` keys, emits 120 nonzero equation
 records, finds common gcd one in every cell, and reports the aggregate values

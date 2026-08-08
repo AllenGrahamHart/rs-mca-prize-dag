@@ -13,6 +13,8 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry`
 - **first direct exclusions:**
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions`
+- **F02 mixed collision exclusions:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -90,20 +92,23 @@ an exact search finds no alternative literal destination in either root
 order. Thus the 30 cells in `(KBCOV-2)` are direct classification tasks, not
 unclaimed centralizer images.
 
-The exact direct compiler records all 30 representatives and their named
-opens. Sequential saturation and an independent Rabinowitsch audit prove the
+The exact direct compiler records all 30 representatives and its
+reconstruction-generated nonmonomial factors. Sequential saturation and an
+independent Rabinowitsch audit prove the
 four `F02` square-allocation representatives empty:
 
 ```text
 F02-A-RX, F02-A-RL, F02-OB-RX, F02-OB-RL.        (KBCOV-3)
 ```
 
-The two `F02` mixed cells remain nonunit and open. The current affine
-near-positive residual is therefore exactly 26 representatives:
+For both mixed cells, localization by the ten recorded factors and the torus
+units leaves a zero-dimensional scheme on which `c-d` vanishes identically.
+Because `c,d` are distinct `J_1` labels, `c-d` is an inherited chart unit.
+Direct collision saturation and independent complete-localizer
+Rabinowitsch ideals close both mixed representatives. The current affine
+near-positive residual is therefore exactly 24 representatives:
 
 ```text
-{F02} x {A,other} x {RM}
- union
 {F04,F06,M01,M03} x {A,other} x {RX,RL,RM}.      (KBCOV-4)
 ```
 

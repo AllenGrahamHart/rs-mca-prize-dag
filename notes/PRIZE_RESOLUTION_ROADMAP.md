@@ -21214,8 +21214,9 @@ next:                     compile and first-match classify the 30 representative
 ```
 
 The direct compiler now fingerprints all 30 representatives as four-equation
-ideals with complete radical named opens. The first exact block closes four
-orbits:
+ideals with complete reconstruction-generated radical nonmonomial factors.
+Ambient Laurent and distinct-root chart units are inherited separately. The
+first exact block closes four orbits:
 
 ```text
 F02-A-RX, F02-A-RL, F02-OB-RX, F02-OB-RL.
@@ -21223,14 +21224,18 @@ F02-A-RX, F02-A-RL, F02-OB-RX, F02-OB-RL.
 
 Sequential saturation over characteristic `2130706433` returns unit in all
 four cells, and independent one-step Rabinowitsch ideals `<I,1-yL>` agree.
-The two `F02` mixed cells remain nonunit after all ten localizer factors and
-are retained. The current direct affine frontier is therefore `26`, not 30.
+The two `F02` mixed cells remain nonunit after all ten recorded factors, but
+after the ambient torus units are imposed their exact quotients satisfy
+`c-d=0`. Since `q=(T-c)(T-d)` locates two distinct `J_1` labels, `c-d` is a
+required chart unit. Collision saturation and independent complete-factor
+Rabinowitsch ideals therefore close both mixed cells. The current direct
+affine frontier is `24`, not 26.
 
 ```text
-new results:              30-cell direct registry PROVED; 4 F02 square orbits PROVED empty
-affine frontier:          30 -> 26
-mixed F02:                2 exact nonunit schemes retained
-next:                     classify the two F02 mixed schemes, then the F04 block
+new results:              30-cell direct registry PROVED; all 6 F02 orbits PROVED empty
+affine frontier:          30 -> 24
+mixed F02:                both supported only on forbidden c=d collision
+next:                     classify the F04 block
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

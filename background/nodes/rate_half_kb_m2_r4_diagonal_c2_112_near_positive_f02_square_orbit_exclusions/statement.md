@@ -15,8 +15,9 @@ F02-OB-RX,      F02-OB-RL.                        (KBF2S-1)
 
 Here `A` and `OB` represent the two target-root transport orbits, while
 `RX/RL` are the two square allocations. Unit ideal holds after saturation by
-all ten radical localizer factors. Thus all four cells are empty over the
-algebraic closure of `F_p`, and therefore over the deployed `F_(p^6)`.
+the ten reconstruction-generated nonmonomial factors, before any additional
+ambient chart localization. Thus all four cells are empty over the algebraic
+closure of `F_p`, and therefore over the deployed `F_(p^6)`.
 
 The transport theorem makes each cell in `(KBF2S-1)` one full semantic orbit,
 including its `F03` companion and the alternate target orientation. The
@@ -28,8 +29,9 @@ Both mixed representatives
 F02-A-RM,       F02-OB-RM                         (KBF2S-2)
 ```
 
-have nonunit ideals after the same complete saturation. They remain open;
-nonunit is not asserted to give a deployed-field survivor.
+have nonunit ideals after the same ten-factor saturation. This theorem
+retains them without classifying their ambient torus or distinct-root
+support; nonunit is not asserted to give a deployed-field survivor.
 
 ## Falsifier
 

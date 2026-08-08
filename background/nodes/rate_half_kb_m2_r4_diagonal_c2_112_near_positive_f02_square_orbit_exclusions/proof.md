@@ -1,6 +1,7 @@
 # Proof
 
-Reduce the four registry equations and all ten radical localizer factors
+Reduce the four registry equations and all ten reconstruction-generated
+radical nonmonomial factors
 modulo `p=2130706433`. For each cell, let `I` be the four-equation ideal.
 
 The primary computation saturates sequentially by each irreducible localizer
@@ -20,6 +21,7 @@ four-variable Groebner computation returns basis `[1]` for every cell in
 `(KBF2S-1)`. This proves named-open emptiness over the algebraic closure.
 
 For the two mixed cells, sequential saturation processes all ten factors and
-leaves nonunit bases of sizes 8 and 13. They are retained exactly as open
-cells. Applying the already proved literal transports to the four unit cells
+leaves nonunit bases of sizes 8 and 13. They are retained without a claim
+about the inherited ambient chart units. Applying the already proved literal
+transports to the four unit cells
 closes their complete semantic orbits, leaving 26 representatives. QED.

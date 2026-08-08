@@ -1,0 +1,669 @@
+{
+  "results": {
+    "audit": {
+      "F02-A-RM": {
+        "partial_payloads": [
+          {
+            "cell": "F02-A-RM",
+            "equation_count": 4,
+            "localizer_count": 14,
+            "localizer_product_degree": 18,
+            "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+            "localizer_product_terms": 132,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+            "terminal": "RABINOWITSCH_COMPILED"
+          },
+          {
+            "basis_seconds": 0.554053095999997,
+            "basis_size": 1,
+            "cell": "F02-A-RM",
+            "equation_count": 4,
+            "localizer_count": 14,
+            "localizer_product_degree": 18,
+            "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+            "localizer_product_terms": 132,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+            "terminal": "RABINOWITSCH_UNIT_IDEAL",
+            "unit_ideal": true
+          }
+        ],
+        "payload": {
+          "basis_seconds": 0.554053095999997,
+          "basis_size": 1,
+          "cell": "F02-A-RM",
+          "equation_count": 4,
+          "localizer_count": 14,
+          "localizer_product_degree": 18,
+          "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        },
+        "peak_kb": 505116,
+        "returncode": 0,
+        "seconds": 30.430974,
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_sha256": "d153eb8cfd77864c34d9f41686f389ee45d1e3affa1c1fd3ecbfccaf2bdd04d2",
+        "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nF02_MIXED_COLLISION_AUDIT_JSON {\"cell\":\"F02-A-RM\",\"equation_count\":4,\"localizer_count\":14,\"localizer_product_degree\":18,\"localizer_product_sha256\":\"2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nF02_MIXED_COLLISION_AUDIT_JSON {\"basis_seconds\":0.554053095999997,\"basis_size\":1,\"cell\":\"F02-A-RM\",\"equation_count\":4,\"localizer_count\":14,\"localizer_product_degree\":18,\"localizer_product_sha256\":\"2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+      },
+      "F02-OB-RM": {
+        "partial_payloads": [
+          {
+            "cell": "F02-OB-RM",
+            "equation_count": 4,
+            "localizer_count": 14,
+            "localizer_product_degree": 18,
+            "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+            "localizer_product_terms": 132,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+            "terminal": "RABINOWITSCH_COMPILED"
+          },
+          {
+            "basis_seconds": 1.6813840060000018,
+            "basis_size": 1,
+            "cell": "F02-OB-RM",
+            "equation_count": 4,
+            "localizer_count": 14,
+            "localizer_product_degree": 18,
+            "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+            "localizer_product_terms": 132,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+            "terminal": "RABINOWITSCH_UNIT_IDEAL",
+            "unit_ideal": true
+          }
+        ],
+        "payload": {
+          "basis_seconds": 1.6813840060000018,
+          "basis_size": 1,
+          "cell": "F02-OB-RM",
+          "equation_count": 4,
+          "localizer_count": 14,
+          "localizer_product_degree": 18,
+          "localizer_product_sha256": "2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a",
+          "localizer_product_terms": 132,
+          "schema": "kb-c2-112-near-positive-f02-mixed-collision-audit-v1",
+          "terminal": "RABINOWITSCH_UNIT_IDEAL",
+          "unit_ideal": true
+        },
+        "peak_kb": 505452,
+        "returncode": 0,
+        "seconds": 43.212844,
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_sha256": "c29187111c2e1b56ee5f513ecc038a33ed1c2952b6996a9e856f47d93f4e1d27",
+        "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nF02_MIXED_COLLISION_AUDIT_JSON {\"cell\":\"F02-OB-RM\",\"equation_count\":4,\"localizer_count\":14,\"localizer_product_degree\":18,\"localizer_product_sha256\":\"2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-audit-v1\",\"terminal\":\"RABINOWITSCH_COMPILED\"}\nF02_MIXED_COLLISION_AUDIT_JSON {\"basis_seconds\":1.6813840060000018,\"basis_size\":1,\"cell\":\"F02-OB-RM\",\"equation_count\":4,\"localizer_count\":14,\"localizer_product_degree\":18,\"localizer_product_sha256\":\"2810dcb8ddd37f7c87082bcc957d85dbe117697890ad674eea68546fac5bb51a\",\"localizer_product_terms\":132,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-audit-v1\",\"terminal\":\"RABINOWITSCH_UNIT_IDEAL\",\"unit_ideal\":true}\n"
+      }
+    },
+    "primary": {
+      "F02-A-RM": {
+        "partial_payloads": [
+          {
+            "cell": "F02-A-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "equation_count": 4,
+            "equation_tuple_sha256": "47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee",
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COMPILED"
+          },
+          {
+            "cell": "F02-A-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "collision_remainder": "0",
+            "equation_count": 4,
+            "equation_tuple_sha256": "47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee",
+            "localization_progress": [
+              {
+                "basis_size": 55,
+                "factor": "2*c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 45,
+                "factor": "2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 35,
+                "factor": "b - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 28,
+                "factor": "c + 1",
+                "unit": false
+              },
+              {
+                "basis_size": 11,
+                "factor": "c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "c - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "d - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "c*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "5*c*d - 4*c - 4*d + 5",
+                "unit": false
+              },
+              {
+                "basis_size": 8,
+                "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 8,
+                "factor": "b",
+                "unit": false
+              },
+              {
+                "basis_size": 6,
+                "factor": "c",
+                "unit": false
+              },
+              {
+                "basis_size": 6,
+                "factor": "d",
+                "unit": false
+              }
+            ],
+            "pre_collision_basis_sha256": "31bb6f848859550aae71774f255ad7b58163e88d7a484902355809626448021a",
+            "pre_collision_basis_size": 6,
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COMPILED"
+          },
+          {
+            "basis_seconds": 3.8106158390000004,
+            "cell": "F02-A-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "collision_remainder": "0",
+            "equation_count": 4,
+            "equation_tuple_sha256": "47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee",
+            "localization_progress": [
+              {
+                "basis_size": 55,
+                "factor": "2*c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 45,
+                "factor": "2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 35,
+                "factor": "b - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 28,
+                "factor": "c + 1",
+                "unit": false
+              },
+              {
+                "basis_size": 11,
+                "factor": "c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "c - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "d - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "c*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "5*c*d - 4*c - 4*d + 5",
+                "unit": false
+              },
+              {
+                "basis_size": 8,
+                "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 8,
+                "factor": "b",
+                "unit": false
+              },
+              {
+                "basis_size": 6,
+                "factor": "c",
+                "unit": false
+              },
+              {
+                "basis_size": 6,
+                "factor": "d",
+                "unit": false
+              }
+            ],
+            "pre_collision_basis_sha256": "31bb6f848859550aae71774f255ad7b58163e88d7a484902355809626448021a",
+            "pre_collision_basis_size": 6,
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COLLISION_SATURATED_UNIT_IDEAL",
+            "terminal_basis_size": 1,
+            "unit_ideal": true
+          }
+        ],
+        "payload": {
+          "basis_seconds": 3.8106158390000004,
+          "cell": "F02-A-RM",
+          "chart_unit_localizers": [
+            "b",
+            "c",
+            "d",
+            "c-d"
+          ],
+          "collision_remainder": "0",
+          "equation_count": 4,
+          "equation_tuple_sha256": "47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee",
+          "localization_progress": [
+            {
+              "basis_size": 55,
+              "factor": "2*c - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 45,
+              "factor": "2*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 35,
+              "factor": "b - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 28,
+              "factor": "c + 1",
+              "unit": false
+            },
+            {
+              "basis_size": 11,
+              "factor": "c - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor": "c - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor": "d - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor": "c*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor": "5*c*d - 4*c - 4*d + 5",
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 8,
+              "factor": "b",
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor": "c",
+              "unit": false
+            },
+            {
+              "basis_size": 6,
+              "factor": "d",
+              "unit": false
+            }
+          ],
+          "pre_collision_basis_sha256": "31bb6f848859550aae71774f255ad7b58163e88d7a484902355809626448021a",
+          "pre_collision_basis_size": 6,
+          "reconstruction_localizer_count": 10,
+          "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+          "terminal": "COLLISION_SATURATED_UNIT_IDEAL",
+          "terminal_basis_size": 1,
+          "unit_ideal": true
+        },
+        "peak_kb": 508268,
+        "returncode": 0,
+        "seconds": 39.730364,
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_sha256": "2efccf1f4fea743dd8ee7dfef4d0ee18f2657e3f7c84ecc4a783b6e4c1d0ec25",
+        "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nF02_MIXED_COLLISION_JSON {\"cell\":\"F02-A-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"equation_count\":4,\"equation_tuple_sha256\":\"47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee\",\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COMPILED\"}\nF02_MIXED_COLLISION_JSON {\"cell\":\"F02-A-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"collision_remainder\":\"0\",\"equation_count\":4,\"equation_tuple_sha256\":\"47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee\",\"localization_progress\":[{\"basis_size\":55,\"factor\":\"2*c - 1\",\"unit\":false},{\"basis_size\":45,\"factor\":\"2*d - 1\",\"unit\":false},{\"basis_size\":35,\"factor\":\"b - 2\",\"unit\":false},{\"basis_size\":28,\"factor\":\"c + 1\",\"unit\":false},{\"basis_size\":11,\"factor\":\"c - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"c - 2\",\"unit\":false},{\"basis_size\":9,\"factor\":\"d - 2\",\"unit\":false},{\"basis_size\":9,\"factor\":\"c*d - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"5*c*d - 4*c - 4*d + 5\",\"unit\":false},{\"basis_size\":8,\"factor\":\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"unit\":false},{\"basis_size\":8,\"factor\":\"b\",\"unit\":false},{\"basis_size\":6,\"factor\":\"c\",\"unit\":false},{\"basis_size\":6,\"factor\":\"d\",\"unit\":false}],\"pre_collision_basis_sha256\":\"31bb6f848859550aae71774f255ad7b58163e88d7a484902355809626448021a\",\"pre_collision_basis_size\":6,\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COMPILED\"}\nF02_MIXED_COLLISION_JSON {\"basis_seconds\":3.8106158390000004,\"cell\":\"F02-A-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"collision_remainder\":\"0\",\"equation_count\":4,\"equation_tuple_sha256\":\"47a9fd5a0d9004eb1dfabd7c367944f6be124d0247f819e8c17db626b1cf3fee\",\"localization_progress\":[{\"basis_size\":55,\"factor\":\"2*c - 1\",\"unit\":false},{\"basis_size\":45,\"factor\":\"2*d - 1\",\"unit\":false},{\"basis_size\":35,\"factor\":\"b - 2\",\"unit\":false},{\"basis_size\":28,\"factor\":\"c + 1\",\"unit\":false},{\"basis_size\":11,\"factor\":\"c - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"c - 2\",\"unit\":false},{\"basis_size\":9,\"factor\":\"d - 2\",\"unit\":false},{\"basis_size\":9,\"factor\":\"c*d - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"5*c*d - 4*c - 4*d + 5\",\"unit\":false},{\"basis_size\":8,\"factor\":\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"unit\":false},{\"basis_size\":8,\"factor\":\"b\",\"unit\":false},{\"basis_size\":6,\"factor\":\"c\",\"unit\":false},{\"basis_size\":6,\"factor\":\"d\",\"unit\":false}],\"pre_collision_basis_sha256\":\"31bb6f848859550aae71774f255ad7b58163e88d7a484902355809626448021a\",\"pre_collision_basis_size\":6,\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COLLISION_SATURATED_UNIT_IDEAL\",\"terminal_basis_size\":1,\"unit_ideal\":true}\n"
+      },
+      "F02-OB-RM": {
+        "partial_payloads": [
+          {
+            "cell": "F02-OB-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "equation_count": 4,
+            "equation_tuple_sha256": "899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae",
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COMPILED"
+          },
+          {
+            "cell": "F02-OB-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "collision_remainder": "0",
+            "equation_count": 4,
+            "equation_tuple_sha256": "899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae",
+            "localization_progress": [
+              {
+                "basis_size": 72,
+                "factor": "2*c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 67,
+                "factor": "2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 57,
+                "factor": "b - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 40,
+                "factor": "c + 1",
+                "unit": false
+              },
+              {
+                "basis_size": 22,
+                "factor": "c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "c - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "d - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "c*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 14,
+                "factor": "5*c*d - 4*c - 4*d + 5",
+                "unit": false
+              },
+              {
+                "basis_size": 13,
+                "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "b",
+                "unit": false
+              },
+              {
+                "basis_size": 7,
+                "factor": "c",
+                "unit": false
+              },
+              {
+                "basis_size": 7,
+                "factor": "d",
+                "unit": false
+              }
+            ],
+            "pre_collision_basis_sha256": "a0683962d17548fa21fbd1b081ff98120158c40bb4dedf6aa5ee0de9c5cb3c89",
+            "pre_collision_basis_size": 7,
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COMPILED"
+          },
+          {
+            "basis_seconds": 12.825021048000004,
+            "cell": "F02-OB-RM",
+            "chart_unit_localizers": [
+              "b",
+              "c",
+              "d",
+              "c-d"
+            ],
+            "collision_remainder": "0",
+            "equation_count": 4,
+            "equation_tuple_sha256": "899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae",
+            "localization_progress": [
+              {
+                "basis_size": 72,
+                "factor": "2*c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 67,
+                "factor": "2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 57,
+                "factor": "b - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 40,
+                "factor": "c + 1",
+                "unit": false
+              },
+              {
+                "basis_size": 22,
+                "factor": "c - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "c - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "d - 2",
+                "unit": false
+              },
+              {
+                "basis_size": 17,
+                "factor": "c*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 14,
+                "factor": "5*c*d - 4*c - 4*d + 5",
+                "unit": false
+              },
+              {
+                "basis_size": 13,
+                "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+                "unit": false
+              },
+              {
+                "basis_size": 9,
+                "factor": "b",
+                "unit": false
+              },
+              {
+                "basis_size": 7,
+                "factor": "c",
+                "unit": false
+              },
+              {
+                "basis_size": 7,
+                "factor": "d",
+                "unit": false
+              }
+            ],
+            "pre_collision_basis_sha256": "a0683962d17548fa21fbd1b081ff98120158c40bb4dedf6aa5ee0de9c5cb3c89",
+            "pre_collision_basis_size": 7,
+            "reconstruction_localizer_count": 10,
+            "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+            "terminal": "COLLISION_SATURATED_UNIT_IDEAL",
+            "terminal_basis_size": 1,
+            "unit_ideal": true
+          }
+        ],
+        "payload": {
+          "basis_seconds": 12.825021048000004,
+          "cell": "F02-OB-RM",
+          "chart_unit_localizers": [
+            "b",
+            "c",
+            "d",
+            "c-d"
+          ],
+          "collision_remainder": "0",
+          "equation_count": 4,
+          "equation_tuple_sha256": "899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae",
+          "localization_progress": [
+            {
+              "basis_size": 72,
+              "factor": "2*c - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 67,
+              "factor": "2*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 57,
+              "factor": "b - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 40,
+              "factor": "c + 1",
+              "unit": false
+            },
+            {
+              "basis_size": 22,
+              "factor": "c - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor": "c - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor": "d - 2",
+              "unit": false
+            },
+            {
+              "basis_size": 17,
+              "factor": "c*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 14,
+              "factor": "5*c*d - 4*c - 4*d + 5",
+              "unit": false
+            },
+            {
+              "basis_size": 13,
+              "factor": "c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1",
+              "unit": false
+            },
+            {
+              "basis_size": 9,
+              "factor": "b",
+              "unit": false
+            },
+            {
+              "basis_size": 7,
+              "factor": "c",
+              "unit": false
+            },
+            {
+              "basis_size": 7,
+              "factor": "d",
+              "unit": false
+            }
+          ],
+          "pre_collision_basis_sha256": "a0683962d17548fa21fbd1b081ff98120158c40bb4dedf6aa5ee0de9c5cb3c89",
+          "pre_collision_basis_size": 7,
+          "reconstruction_localizer_count": 10,
+          "schema": "kb-c2-112-near-positive-f02-mixed-collision-primary-v1",
+          "terminal": "COLLISION_SATURATED_UNIT_IDEAL",
+          "terminal_basis_size": 1,
+          "unit_ideal": true
+        },
+        "peak_kb": 522344,
+        "returncode": 0,
+        "seconds": 51.128996,
+        "status": "PASS",
+        "stderr_tail": "",
+        "stdout_sha256": "1b40e504604d8af859d6049bcd745d956f2d9ba7c65a807b4c447af77542020e",
+        "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\nF02_MIXED_COLLISION_JSON {\"cell\":\"F02-OB-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"equation_count\":4,\"equation_tuple_sha256\":\"899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae\",\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COMPILED\"}\nF02_MIXED_COLLISION_JSON {\"cell\":\"F02-OB-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"collision_remainder\":\"0\",\"equation_count\":4,\"equation_tuple_sha256\":\"899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae\",\"localization_progress\":[{\"basis_size\":72,\"factor\":\"2*c - 1\",\"unit\":false},{\"basis_size\":67,\"factor\":\"2*d - 1\",\"unit\":false},{\"basis_size\":57,\"factor\":\"b - 2\",\"unit\":false},{\"basis_size\":40,\"factor\":\"c + 1\",\"unit\":false},{\"basis_size\":22,\"factor\":\"c - 1\",\"unit\":false},{\"basis_size\":17,\"factor\":\"c - 2\",\"unit\":false},{\"basis_size\":17,\"factor\":\"d - 2\",\"unit\":false},{\"basis_size\":17,\"factor\":\"c*d - 1\",\"unit\":false},{\"basis_size\":14,\"factor\":\"5*c*d - 4*c - 4*d + 5\",\"unit\":false},{\"basis_size\":13,\"factor\":\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"b\",\"unit\":false},{\"basis_size\":7,\"factor\":\"c\",\"unit\":false},{\"basis_size\":7,\"factor\":\"d\",\"unit\":false}],\"pre_collision_basis_sha256\":\"a0683962d17548fa21fbd1b081ff98120158c40bb4dedf6aa5ee0de9c5cb3c89\",\"pre_collision_basis_size\":7,\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COMPILED\"}\nF02_MIXED_COLLISION_JSON {\"basis_seconds\":12.825021048000004,\"cell\":\"F02-OB-RM\",\"chart_unit_localizers\":[\"b\",\"c\",\"d\",\"c-d\"],\"collision_remainder\":\"0\",\"equation_count\":4,\"equation_tuple_sha256\":\"899e6a8765f58e2ccc751a4235e57d5babbdaf2cfafed735f82f02a9d9bb80ae\",\"localization_progress\":[{\"basis_size\":72,\"factor\":\"2*c - 1\",\"unit\":false},{\"basis_size\":67,\"factor\":\"2*d - 1\",\"unit\":false},{\"basis_size\":57,\"factor\":\"b - 2\",\"unit\":false},{\"basis_size\":40,\"factor\":\"c + 1\",\"unit\":false},{\"basis_size\":22,\"factor\":\"c - 1\",\"unit\":false},{\"basis_size\":17,\"factor\":\"c - 2\",\"unit\":false},{\"basis_size\":17,\"factor\":\"d - 2\",\"unit\":false},{\"basis_size\":17,\"factor\":\"c*d - 1\",\"unit\":false},{\"basis_size\":14,\"factor\":\"5*c*d - 4*c - 4*d + 5\",\"unit\":false},{\"basis_size\":13,\"factor\":\"c^2*d - 2*c^2 - 6*c*d + 6*c + 2*d - 1\",\"unit\":false},{\"basis_size\":9,\"factor\":\"b\",\"unit\":false},{\"basis_size\":7,\"factor\":\"c\",\"unit\":false},{\"basis_size\":7,\"factor\":\"d\",\"unit\":false}],\"pre_collision_basis_sha256\":\"a0683962d17548fa21fbd1b081ff98120158c40bb4dedf6aa5ee0de9c5cb3c89\",\"pre_collision_basis_size\":7,\"reconstruction_localizer_count\":10,\"schema\":\"kb-c2-112-near-positive-f02-mixed-collision-primary-v1\",\"terminal\":\"COLLISION_SATURATED_UNIT_IDEAL\",\"terminal_basis_size\":1,\"unit_ideal\":true}\n"
+      }
+    }
+  },
+  "schema": "kb-c2-112-near-positive-f02-mixed-collision-modal-v1"
+}
