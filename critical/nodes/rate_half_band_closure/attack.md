@@ -46,6 +46,8 @@ still `TARGET`.
   pairing-7 exclusion and honest pairing-7/10 quotient composition.
 - `attack_addenda/20-wave58-positive-433-cell4-pairing10.md`: direct positive-
   `DE` pairing-10 exclusion and complete pairing-7/10 block.
+- `attack_addenda/21-wave59-positive-433-cell4-pairing8.md`: exact degree-eight
+  pairing-8 exclusion and honest pairing-8/13 quotient composition.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies
