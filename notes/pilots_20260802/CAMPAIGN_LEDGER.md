@@ -3591,3 +3591,24 @@ marker and MUST pass this quarantine clause to any subagent.
   crosswalk, orbit, protocol, focused replay, manifest, and refactor checks
   pass. Fable canonical is `00e28e1ba`; upstream reference pin is
   `93fba1be`. The next exact target is representative matching 7.
+
+## 2026-08-08: WAVE-52 INTEGRATED (exact pin cfe023690) — 36 PROVED cell-4 nodes, 36/36 replayed; the campaign at 93/105; census unchanged
+
+- Delta ac7d90f26..cfe023690 (40 commits): the positive 433-1b
+  cell-4 orbit campaign, closed pairing by pairing (0-5, 11, 13,
+  14 + endpoint roles + the universal xi4/xi3 transport) — 36 new
+  PROVED background nodes, ZERO status changes, 36/36 verifiers
+  coordinator-replayed at the pin (background batch, exit 0).
+  Codex's own cycle records (its internal waves 62-69) document
+  per-orbit exact ledgers with Modal replays under the RAMguard
+  ceiling; verify_sectioned PASSES AT THE PIN (the CATCH-W51 rule
+  held — Codex now files campaign records as REGISTERED addenda
+  14-23 on rate_half_band_closure, adopting the repair pattern).
+  Cell-4 state: 93/105 slices paid; 12 labels in six quotient
+  orbits remain (six xi=3 representatives in three matching-
+  exchange pairs; next target matching 7). Merge = exact pin;
+  three conflicts resolved (the tool + document.json + attack.md:
+  empty-HEAD vs Codex's addenda 14-23 registrations — took theirs
+  after verifying my addendum-13 survives in all three; the
+  ledger union-merged). Census unchanged 231 = 167/36/28; full
+  chain green.
