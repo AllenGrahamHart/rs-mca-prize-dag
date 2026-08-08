@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-12 reciprocal pairing-7/10 exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of missing DF/EF at residual matching orbit 7/10 in cell 12",
+    "statement": "On the guarded product-rank-five positive 433-1b to O0a route in cell 12, the outside label with missing record DF and residual matching 7 is empty over the deployed field. The quadratic-resultant/sign-free reduction gives an exact four-basis norm replayed on all eight source-sign/sigma_c rows. The packet contains 112 candidate roots, 160 guarded source points, 16 compatible (z,q) lifts, and 32 final target-lane evaluations. Independent reconstruction replays the missing Vieta equation and all three paired-product equations; every final pair is nonzero. Duplicate-positive-DE exchange and exact outside D/E transport close matching 10 and both missing-EF partners, while the rational leading boundary is paid by a parent theorem. Thus four labels, one generic orbit, are closed. No other matching or cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairing7_template_adapter_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairing7_template_adapter_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairing7_independent_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairing7_independent_roots_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_modal.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

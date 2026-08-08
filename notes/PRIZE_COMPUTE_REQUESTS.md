@@ -12211,3 +12211,20 @@ the retained certificate is complete. The fast local audit validates all
 128 profile visits and directly replays every equation at all 16 lifts.
 Exact transports close class `{5,12}` for both missing roles: four labels or
 one generic orbit. Cell `12` now has 14 representatives and 48 labels open.
+
+**Reciprocal-role matching-7/10 closure.** This class uses a direct
+quadratic-in-`q` resultant followed by the sign-free `z` reduction. One-row
+validation app `ap-fcr4ueqVTji80aR1qmpdTD` completed in 144 seconds. Full
+eight-row app `ap-AsoabwG2JvSRt8cgkWTAA1` then finished in under three
+minutes wall time.
+
+The exact packet has 56 target-norm roots, 112 total norm/inverse candidates,
+160 guarded source points, 16 compatible `(z,q)` lifts, and 32 final
+`sigma_o` lanes. Every final pair is nonzero; eight free-`b` exits lie on the
+proved leading boundary, with no witness or unresolved branch.
+
+Independent root app `ap-hiouIDHxqHvElOI6F3ZTLZ` reconstructed all 41
+degree-at-most-4364 profiles and 192 roots. The fast local audit validates
+all 112 profile visits and directly replays every equation at the 16 lifts.
+Exact transports close class `{7,10}` for both missing roles: four labels or
+one generic orbit. Cell `12` now has 13 representatives and 44 labels open.

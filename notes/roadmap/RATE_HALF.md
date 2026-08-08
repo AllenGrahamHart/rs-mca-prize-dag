@@ -56,8 +56,9 @@ reciprocal-square theorem and exact matching transports close the `{3,6}`
 class: four labels, or one further generic orbit. The nested sign-free
 theorem closes the `{4,9}` class: another four labels and one generic orbit.
 The sibling nested sign-free theorem closes `{5,12}`: four more labels and
-one orbit. The live generic ledger is therefore 14 representatives covering
-48 labels. An exact `B/C`
+one orbit. The quadratic-resultant theorem closes `{7,10}`: four more labels
+and one orbit. The live generic ledger is therefore 13 representatives
+covering 44 labels. An exact `B/C`
 duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. These are PROVED suppliers
@@ -131,7 +132,9 @@ cell-4 four-basis tower
                      |
        reciprocal roles pairings 5/12: 1 orbit / 4 labels [PROVED]
                      |
-       attack 14 generic representatives         [NEXT]
+       reciprocal roles pairings 7/10: 1 orbit / 4 labels [PROVED]
+                     |
+       attack 13 generic representatives         [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -147,8 +150,8 @@ while source-sign rows and norm roots remain certificate records.
 
 Use symmetry and source-only cuts before launching a census. Cell 12's
 rational boundary, both endpoint-role families, the parallel-`DE`
-first-pair block, and reciprocal matching classes through `{5,12}` are paid.
-The generic ledger has 14 representatives in the remaining parallel-`DE`,
+first-pair block, and reciprocal matching classes through `{7,10}` are paid.
+The generic ledger has 13 representatives in the remaining parallel-`DE`,
 reciprocal
 `DF/EF`, and fully mixed families. Reuse the two paid source norms, the
 three-branch reciprocal-square and reciprocal-linear compilers, and matching

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing5_12_nested_signfree_exclusion/verify.py",
-      "seconds": 0.040366,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/verify.py",
+      "seconds": 0.038823,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 reciprocal pairing 5/12: rows=8 candidates=168 lanes=32\n"
+      "stdout_tail": "PASS cell-12 reciprocal pairing 7/10: rows=8 candidates=112 lanes=32\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing5_12_nested_signfree_exclusion/verify_audit.py",
-      "seconds": 1.052453,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion/verify_audit.py",
+      "seconds": 1.101983,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS pairing-5 adapter audit: profiles=128 unique=45 boundary=8 lifts=16 lanes=32\n"
+      "stdout_tail": "PASS pairing-7 adapter audit: profiles=112 unique=41 boundary=8 lifts=16 lanes=32\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
