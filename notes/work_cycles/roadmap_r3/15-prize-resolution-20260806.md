@@ -3449,3 +3449,49 @@ compute:                   bounded Modal, final app ap-6XSVCn7sZu2uToXIzZ9J3E
 live compute requests:     none
 next:                      close representative matching 4, then transport to 9 and xi4
 ```
+
+### Cell-4 xi3/xi4 pairing-4/9 closure
+
+At `xi=3`, matching 4 has residual pairs
+
+```text
+(de,-de), (de,bf), (sigma_o ef,sigma_c cf).
+```
+
+Write `m=df`, `z=1/d`, `y=z^2`, and `q=de`. The first paired relation
+is quadratic in `u=q^2`. Sign-eliminating `q` from the second pair,
+reducing modulo that quadratic, and taking the division-free linear-
+remainder cut gives a degree-eight polynomial in `z`. Reduction modulo the
+missing-sum quartic `M(z^2)`, followed by exact `z -> -z` elimination,
+leaves a linear-remainder common-root cut in the four-basis source tower.
+
+The four degree-5108 norm rows have 56 candidate `r` roots and 56 guarded
+source points. Direct replay of the original equations leaves 32 compatible
+`z` values and 32 compatible `q` values. All 128 third-pair target-lane
+evaluations are nonzero; the target-boundary, witness, free-branch, and
+unresolved ledgers are empty. The independent verifier recomputes the norm
+root unions and all finite lifts, using the proved `r -> -r` polynomial
+reflection only after checking it coefficient by coefficient.
+
+The parallel-`DE` exchange transports matching 4 to 9 at fixed `xi`; the
+universal outside-role involution transports both to `xi=4`. The two
+PROVED nodes pay four labels, two parallel-`DE` quotient orbits, and 64 raw
+cases. Cell 4 is now 89/105 paid, with 16 labels in eight quotient orbits
+live. The independent frontier is four matching-exchange pairs:
+`{5,12}`, `{7,10}`, `{8,13}`, and `{11,14}`.
+
+```text
+starting pin:              8c83138b4
+ending mathematical pin:  7eec52b69
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-4/9 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-wroUJycnzyUOJqETrQHZt4
+live compute requests:     none
+next:                      close representative matching 5, then transport to 12 and xi4
+```
