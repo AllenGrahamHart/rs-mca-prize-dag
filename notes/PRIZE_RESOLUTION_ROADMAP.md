@@ -20769,6 +20769,41 @@ compute:                   bounded Modal, final app ap-d0Snabe8KIXbHW06cTgXe1
 live compute requests:     none
 next:                      close positive-DE matching 9
 ```
+
+### Cell-4 positive-DE pairing-9 and complete orbit close
+
+The retained positive omissions at matching 9 are now closed directly. The
+matching-4 degree-eight compiler transfers after exchanging the signed inputs
+to the paired quadratics:
+
+```text
+P_u(u)=Pair(-de,u),       P_f(f)=Pair(de,bf).
+```
+
+Across 16 exact `xi=0` rows, every one of 192 missing-relation survivors has
+a nonzero final colored-pair cut. The full ledger has 288 candidate roots,
+544 guarded source points, 1,472 `(u,f)` rows, no boundary, no witness, and
+no unresolved branch. Identical-copy transport supplies `xi=1`.
+
+Composing these two labels with the prior four-label quotient node closes all
+six labels at pairings 4 and 9. Cell 4 now has 21/105 paid labels, with 84
+labels in 48 quotient orbits live.
+
+```text
+starting pin:              641ab24b8
+ending mathematical pin:  114db05ae
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 9; complete P4/P9 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-LHmTRosR90JHKDnuGjh8oI
+live compute requests:     none
+next:                      attack the matching orbit {5,12}
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
