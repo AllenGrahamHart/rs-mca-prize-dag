@@ -21147,8 +21147,9 @@ A separate exact trace closes `w=0`, and the previously proved complete
 `M01 -> M02` source inversion transports the result to `M02-R11`. Seven
 disjoint proved packets now cover the complete `12 x 3` aligned-positive
 registry, so its census is `36/36` with no residual cell. The parent
-literal-assignment target remains open for aligned-negative and near-aligned
-coverage only.
+literal-assignment target remains open for the separately scoped affine
+near-positive, projective-boundary, aligned-negative, and near-negative
+literal audits.
 
 ```text
 lane:                     MCA / K3 / source-line literal coverage
@@ -21157,6 +21158,43 @@ new aggregate:            aligned-positive 36-cell coverage PROVED
 critical-orbit delta:     none; 167 PROVED / 36 CONDITIONAL / 28 TARGET
 Modal:                    one 2608-second pass, peak child RSS 4694452 KiB
 next:                     compile the aligned-negative/near-aligned literal registry
+```
+
+### K3 affine near-positive literal transport
+
+The twelve literal assignments and twelve oriented near-positive target
+allocations give 144 raw affine cells, or 108 semantic cells after the two
+orientations of `other-xi` are identified. Two exact restricted transports
+are now PROVED for the reconstructed q-slice residuals, target quadratics,
+and radical named-open localizers:
+
+```text
+b inversion:             b -> 1/b
+simultaneous inversion:  (b,c,d,W) -> (1/b,1/c,1/d,1/W)
+assignment action:       F00/F01, F02/F03, F04/F05, F06/F07,
+                         M01/M02 paired; M00 and M03 fixed
+```
+
+The resulting semantic orbit census is exact:
+
+```text
+108 cells -> 42 transport orbits -> 12 canonical + 30 residual.
+```
+
+The residual packet is five assignment orbits, two `xi` orbit classes, and
+three allocations. An exact replay of the PR #1140 formulas and an
+independent Sage reconstruction using a generic `5 x 5 solve_right` both
+pass 288 residual/target/localizer checks. The theorem does not transport
+full quotient identities and does not touch the projective or negative
+literal audits.
+
+```text
+lane:                     MCA / K3 / source-line literal coverage
+new result:               affine near-positive restricted transport PROVED
+frontier delta:           diffuse 108-cell audit -> exact 30 representatives
+critical-orbit delta:     none; parent remains TARGET
+Modal:                    primary 223.52s / 494600 KiB; audit 37.12s / 480340 KiB
+next:                     compile and first-match classify the 30 representatives
 ```
 
 Upstream refresh on 2026-08-07 also found PR #1150 and PR #1151. PR #1150's

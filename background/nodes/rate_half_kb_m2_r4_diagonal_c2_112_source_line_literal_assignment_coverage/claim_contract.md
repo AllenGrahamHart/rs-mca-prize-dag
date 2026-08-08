@@ -14,5 +14,8 @@
 | R20 K10-zero certificate | division-free `A1/B1` linear-root evaluations; two representative unit saturations; exact companion transport |
 | moving balanced pair | exact direct-Singular `M01-R11` closure, then complete-system inversion to `M02-R11` |
 | external evidence | PRs #1135--#1149, imported only through pinned nodes |
+| affine near-positive census | `108` semantic cells, exactly `42` restricted-transport orbits |
+| affine near-positive represented | `12` canonical `F00/M00` orbits |
+| affine near-positive residual | `30` explicit q-slice orbit representatives |
 | consequence when proved | repairs the missing premise of complete source-line exclusion |
-| remaining frontier | aligned-negative and near-aligned literal coverage |
+| remaining frontier | 30 affine near-positive representatives; near-positive projective boundary; aligned-negative and near-negative literal coverage |

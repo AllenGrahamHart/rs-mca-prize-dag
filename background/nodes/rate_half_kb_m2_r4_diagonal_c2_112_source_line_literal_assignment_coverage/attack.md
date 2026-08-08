@@ -12,7 +12,11 @@
    recompute them.
 6. Treat the complete 36-cell aligned-positive aggregate as closed, including
    the exact direct-Singular `M01/M02-R11` balanced-pair theorem.
-7. Audit aligned-negative and near-aligned normalization separately; do not
-   infer their coverage from the positive atlas.
-8. Promote this node only after a machine-checked literal coverage table has
+7. Use the proved affine near-positive inversion transport to work on exactly
+   the 30 residual orbit representatives; do not reopen the other 78 cells.
+8. Compile those representatives through the q-slice gate and record a
+   first-match empty-cell certificate for each surviving representative.
+9. Audit the near-positive projective boundary, aligned-negative branch, and
+   near-negative branch separately; do not infer them from affine transport.
+10. Promote this node only after a machine-checked literal coverage table has
    no unclassified row.

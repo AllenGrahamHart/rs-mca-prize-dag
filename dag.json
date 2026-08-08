@@ -30124,6 +30124,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "title": "KoalaBear near-positive literal inversion transport",
+   "status": "PROVED",
+   "closure": "exact affine near-positive q-slice transport reduces 108 semantic literal cells to 42 orbits with 30 noncanonical representatives",
+   "statement": "For every one of the twelve literal positive source-star assignments in the affine near-aligned chart w=1/c, the restricted substitutions b->1/b and (b,c,d,W)->(1/b,1/c,1/d,1/W) carry the two reconstructed q-slice residual quadratics, all twelve target allocations, and the radical named-open localizer set exactly to the printed companion assignment and target. After identifying the two orientations of the other-xi target, the 108 semantic cells form exactly 42 transport orbits. Twelve contain the already printed canonical F00 or M00 systems; the exact residual literal frontier is 30 orbit representatives. No full quotient identity, projective boundary, near-negative cell, or emptiness of those 30 representatives is asserted.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_probe_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_audit.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_probe_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "title": "KoalaBear quadratic-chart parity-reduced evaluation identity",
    "status": "PROVED",
@@ -30170,7 +30189,7 @@
    "title": "KoalaBear source-line literal-assignment coverage",
    "status": "TARGET",
    "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is now completely PROVED by a disjoint seven-packet census. The final M01/M02-R11 pair is closed by exact direct-Singular full-quotient localization and complete-source inversion. The remaining frontier is entirely the separate aligned-negative and near-aligned literal audit; the local canonical crosswalk alone does not supply generic orbit transport.",
+   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 explicit representatives remain. The residual frontier is those 30 affine representatives together with separate near-positive projective-boundary, aligned-negative, and near-negative literal audits; no generic matching-centralizer covariance is licensed.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
@@ -57289,6 +57308,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_fixed_r02_r20_degree12_leading_branch_decomposition",
    "kind": "ev"
@@ -57364,6 +57388,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
    "kind": "req"
@@ -57371,6 +57400,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
    "kind": "req"
   },
   {

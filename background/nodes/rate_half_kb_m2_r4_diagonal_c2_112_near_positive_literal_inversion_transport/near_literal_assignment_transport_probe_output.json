@@ -1,0 +1,200 @@
+{
+  "app": "rs-mca-k3-near-literal-inversion-transport-probe",
+  "independent_audit": {
+    "payload": {
+      "affine_semantic_orbits": 42,
+      "assignments": 12,
+      "canonical_orbits_covered": 12,
+      "checks": 288,
+      "imports_pr1140_compiler": false,
+      "residual_affine_orbits": 30,
+      "schema": "kb-c2-112-near-literal-inversion-transport-audit-v1",
+      "solver": "generic_5x5_solve_right",
+      "target_variants": 12,
+      "terminal": "INDEPENDENT_TRANSPORT_AUDIT_PASS"
+    },
+    "peak_kb": 480340,
+    "returncode": 0,
+    "seconds": 37.119488,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_sha256": "3df601e26da59c47468357250b209a596f70a13d9b3e3084b4593fd1a047cfcb",
+    "stdout_tail": "NEAR_LITERAL_AUDIT_JSON {\"affine_semantic_orbits\":42,\"assignments\":12,\"canonical_orbits_covered\":12,\"checks\":288,\"imports_pr1140_compiler\":false,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-audit-v1\",\"solver\":\"generic_5x5_solve_right\",\"target_variants\":12,\"terminal\":\"INDEPENDENT_TRANSPORT_AUDIT_PASS\"}\n"
+  },
+  "result": {
+    "payload": {
+      "affine_semantic_orbits_under_transports": 42,
+      "assignments": 12,
+      "b_assignment_map": {
+        "F00": "F01",
+        "F01": "F00",
+        "F02": "F03",
+        "F03": "F02",
+        "F04": "F05",
+        "F05": "F04",
+        "F06": "F07",
+        "F07": "F06",
+        "M00": "M00",
+        "M01": "M02",
+        "M02": "M01",
+        "M03": "M03"
+      },
+      "b_failed": [],
+      "canonical_orbits_already_covered": 12,
+      "checks": 288,
+      "failed": [],
+      "raw_cells": 144,
+      "residual_affine_orbits": 30,
+      "schema": "kb-c2-112-near-literal-inversion-transport-probe-v1",
+      "semantic_cells_after_other_orientation_quotient": 108,
+      "source_sha256": "c382adee5be3b72dcb675b4932a681f65ae958f58e24c3f5fdb8163d4d1508b7",
+      "target_maps": {
+        "B": {
+          "A-RL": "A-RL",
+          "A-RM": "A-RM",
+          "A-RX": "A-RX",
+          "OB-RL": "OI-RL",
+          "OB-RM": "OI-RM",
+          "OB-RX": "OI-RX",
+          "OI-RL": "OB-RL",
+          "OI-RM": "OB-RM",
+          "OI-RX": "OB-RX",
+          "TA-RL": "TA-RL",
+          "TA-RM": "TA-RM",
+          "TA-RX": "TA-RX"
+        },
+        "TW": {
+          "A-RL": "TA-RL",
+          "A-RM": "TA-RM",
+          "A-RX": "TA-RX",
+          "OB-RL": "OB-RL",
+          "OB-RM": "OB-RM",
+          "OB-RX": "OB-RX",
+          "OI-RL": "OI-RL",
+          "OI-RM": "OI-RM",
+          "OI-RX": "OI-RX",
+          "TA-RL": "A-RL",
+          "TA-RM": "A-RM",
+          "TA-RX": "A-RX"
+        }
+      },
+      "target_variants": 12,
+      "terminal": "B_TRANSPORT_PASS_TW_AUDITED",
+      "tw_all_assignment_search": {
+        "F00": [
+          {
+            "assignment": "F01",
+            "variant": "same-root-order"
+          }
+        ],
+        "F01": [
+          {
+            "assignment": "F00",
+            "variant": "same-root-order"
+          }
+        ],
+        "F02": [
+          {
+            "assignment": "F03",
+            "variant": "same-root-order"
+          }
+        ],
+        "F03": [
+          {
+            "assignment": "F02",
+            "variant": "same-root-order"
+          }
+        ],
+        "F04": [
+          {
+            "assignment": "F05",
+            "variant": "same-root-order"
+          }
+        ],
+        "F05": [
+          {
+            "assignment": "F04",
+            "variant": "same-root-order"
+          }
+        ],
+        "F06": [
+          {
+            "assignment": "F07",
+            "variant": "same-root-order"
+          }
+        ],
+        "F07": [
+          {
+            "assignment": "F06",
+            "variant": "same-root-order"
+          }
+        ],
+        "M00": [
+          {
+            "assignment": "M00",
+            "variant": "same-root-order"
+          }
+        ],
+        "M01": [
+          {
+            "assignment": "M02",
+            "variant": "same-root-order"
+          }
+        ],
+        "M02": [
+          {
+            "assignment": "M01",
+            "variant": "same-root-order"
+          }
+        ],
+        "M03": [
+          {
+            "assignment": "M03",
+            "variant": "same-root-order"
+          }
+        ]
+      },
+      "tw_failed_count": 0,
+      "tw_residual_assignment_map": {
+        "F00": "F01",
+        "F01": "F00",
+        "F02": "F03",
+        "F03": "F02",
+        "F04": "F05",
+        "F05": "F04",
+        "F06": "F07",
+        "F07": "F06",
+        "M00": "M00",
+        "M01": "M02",
+        "M02": "M01",
+        "M03": "M03"
+      },
+      "tw_vertex_prediction_refuted": {
+        "F00": "F03",
+        "F01": "F02",
+        "F02": "F01",
+        "F03": "F00",
+        "F04": "F07",
+        "F05": "F06",
+        "F06": "F05",
+        "F07": "F04",
+        "M00": "M03",
+        "M01": "M02",
+        "M02": "M01",
+        "M03": "M00"
+      },
+      "upstream_commit": "9e1d96cbf997c30efa448bbce9a7f48c2bea9643"
+    },
+    "peak_kb": 494600,
+    "returncode": 0,
+    "seconds": 223.522115,
+    "status": "PASS",
+    "stderr_tail": "",
+    "stdout_sha256": "7d5e0989bb0dbf2c3957bfce67f60ef20d8b16dd1b650b1877caf630d81853a6",
+    "stdout_tail": "NEAR_LITERAL_PROBE_JSON {\"affine_semantic_orbits_under_transports\":42,\"assignments\":12,\"b_assignment_map\":{\"F00\":\"F01\",\"F01\":\"F00\",\"F02\":\"F03\",\"F03\":\"F02\",\"F04\":\"F05\",\"F05\":\"F04\",\"F06\":\"F07\",\"F07\":\"F06\",\"M00\":\"M00\",\"M01\":\"M02\",\"M02\":\"M01\",\"M03\":\"M03\"},\"b_failed\":[],\"canonical_orbits_already_covered\":12,\"checks\":288,\"failed\":[],\"raw_cells\":144,\"residual_affine_orbits\":30,\"schema\":\"kb-c2-112-near-literal-inversion-transport-probe-v1\",\"semantic_cells_after_other_orientation_quotient\":108,\"source_sha256\":\"c382adee5be3b72dcb675b4932a681f65ae958f58e24c3f5fdb8163d4d1508b7\",\"target_maps\":{\"B\":{\"A-RL\":\"A-RL\",\"A-RM\":\"A-RM\",\"A-RX\":\"A-RX\",\"OB-RL\":\"OI-RL\",\"OB-RM\":\"OI-RM\",\"OB-RX\":\"OI-RX\",\"OI-RL\":\"OB-RL\",\"OI-RM\":\"OB-RM\",\"OI-RX\":\"OB-RX\",\"TA-RL\":\"TA-RL\",\"TA-RM\":\"TA-RM\",\"TA-RX\":\"TA-RX\"},\"TW\":{\"A-RL\":\"TA-RL\",\"A-RM\":\"TA-RM\",\"A-RX\":\"TA-RX\",\"OB-RL\":\"OB-RL\",\"OB-RM\":\"OB-RM\",\"OB-RX\":\"OB-RX\",\"OI-RL\":\"OI-RL\",\"OI-RM\":\"OI-RM\",\"OI-RX\":\"OI-RX\",\"TA-RL\":\"A-RL\",\"TA-RM\":\"A-RM\",\"TA-RX\":\"A-RX\"}},\"target_variants\":12,\"terminal\":\"B_TRANSPORT_PASS_TW_AUDITED\",\"tw_all_assignment_search\":{\"F00\":[{\"assignment\":\"F01\",\"variant\":\"same-root-order\"}],\"F01\":[{\"assignment\":\"F00\",\"variant\":\"same-root-order\"}],\"F02\":[{\"assignment\":\"F03\",\"variant\":\"same-root-order\"}],\"F03\":[{\"assignment\":\"F02\",\"variant\":\"same-root-order\"}],\"F04\":[{\"assignment\":\"F05\",\"variant\":\"same-root-order\"}],\"F05\":[{\"assignment\":\"F04\",\"variant\":\"same-root-order\"}],\"F06\":[{\"assignment\":\"F07\",\"variant\":\"same-root-order\"}],\"F07\":[{\"assignment\":\"F06\",\"variant\":\"same-root-order\"}],\"M00\":[{\"assignment\":\"M00\",\"variant\":\"same-root-order\"}],\"M01\":[{\"assignment\":\"M02\",\"variant\":\"same-root-order\"}],\"M02\":[{\"assignment\":\"M01\",\"variant\":\"same-root-order\"}],\"M03\":[{\"assignment\":\"M03\",\"variant\":\"same-root-order\"}]},\"tw_failed_count\":0,\"tw_residual_assignment_map\":{\"F00\":\"F01\",\"F01\":\"F00\",\"F02\":\"F03\",\"F03\":\"F02\",\"F04\":\"F05\",\"F05\":\"F04\",\"F06\":\"F07\",\"F07\":\"F06\",\"M00\":\"M00\",\"M01\":\"M02\",\"M02\":\"M01\",\"M03\":\"M03\"},\"tw_vertex_prediction_refuted\":{\"F00\":\"F03\",\"F01\":\"F02\",\"F02\":\"F01\",\"F03\":\"F00\",\"F04\":\"F07\",\"F05\":\"F06\",\"F06\":\"F05\",\"F07\":\"F04\",\"M00\":\"M03\",\"M01\":\"M02\",\"M02\":\"M01\",\"M03\":\"M00\"},\"upstream_commit\":\"9e1d96cbf997c30efa448bbce9a7f48c2bea9643\"}\n"
+  },
+  "schema": "kb-c2-112-near-literal-inversion-transport-modal-v1",
+  "source_path": "experimental/scripts/compile_kb_mca_v4_m2_aligned_positive_qslice_atlas_v1.sage",
+  "source_sha256": "c382adee5be3b72dcb675b4932a681f65ae958f58e24c3f5fdb8163d4d1508b7",
+  "upstream_commit": "9e1d96cbf997c30efa448bbce9a7f48c2bea9643"
+}

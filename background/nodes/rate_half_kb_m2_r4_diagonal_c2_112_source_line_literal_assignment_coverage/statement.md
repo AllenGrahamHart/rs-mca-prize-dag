@@ -5,6 +5,8 @@
   diagonal `c2(1,1,2)` source-line branch
 - **evidence:**
   `rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk`
+- **affine near-positive transport:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
@@ -60,6 +62,20 @@ named-open saturation is unit for the F04 and F06 representatives. Inversion
 supplies F05 and F07. Hence all four fixed `R20` cells are empty. Together
 with the exact moving-pair certificate, the aligned-positive registry has no
 remaining cell.
+
+For the separate affine near-positive literal audit, the proved restricted
+inversion transport acts on the reconstructed q-slice residuals, targets,
+and radical localizers. It reduces `108` semantic cells to `42` exact
+transport orbits. The canonical `F00/M00` leaves represent `12`; the
+remaining affine frontier is the explicit 30-cell product
+
+```text
+{F02/F03,F04/F05,F06/F07,M01/M02,M03}
+    x {{A,TA},other} x {RX,RL,RM}.                 (KBCOV-2)
+```
+
+This reduction does not supply a full-quotient transport and does not cover
+the near-positive projective boundary or either negative-sign literal audit.
 
 Closing only the aligned-positive cells is insufficient unless the same
 literal-assignment audit validates the local aligned-negative and

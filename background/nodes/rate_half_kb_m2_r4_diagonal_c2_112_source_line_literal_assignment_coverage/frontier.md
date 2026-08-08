@@ -14,6 +14,14 @@ none.
 The seven-packet aggregate machine-checks the disjoint 36-cell census. No
 matching-centralizer covariance shortcut is used.
 
-The entire remaining frontier is the local aligned-negative and near-aligned
-literal coverage audit required before the complete source-line theorem can
-return to PROVED.
+The affine near-positive literal frontier is now exact:
+
+```text
+108 semantic cells -> 42 transport orbits
+                   -> 12 represented + 30 residual.
+```
+
+Those 30 q-slice representatives are the next finite work packet. The
+near-positive projective boundary and the aligned-negative and near-negative
+literal audits remain separate. All must close before the complete
+source-line theorem can return to PROVED.

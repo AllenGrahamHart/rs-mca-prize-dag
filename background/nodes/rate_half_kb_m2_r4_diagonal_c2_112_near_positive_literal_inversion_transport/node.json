@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+    "title": "KoalaBear near-positive literal inversion transport",
+    "status": "PROVED",
+    "closure": "exact affine near-positive q-slice transport reduces 108 semantic literal cells to 42 orbits with 30 noncanonical representatives",
+    "statement": "For every one of the twelve literal positive source-star assignments in the affine near-aligned chart w=1/c, the restricted substitutions b->1/b and (b,c,d,W)->(1/b,1/c,1/d,1/W) carry the two reconstructed q-slice residual quadratics, all twelve target allocations, and the radical named-open localizer set exactly to the printed companion assignment and target. After identifying the two orientations of the other-xi target, the 108 semantic cells form exactly 42 transport orbits. Twelve contain the already printed canonical F00 or M00 systems; the exact residual literal frontier is 30 orbit representatives. No full quotient identity, projective boundary, near-negative cell, or emptiness of those 30 representatives is asserted.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_probe_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_audit.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/near_literal_assignment_transport_probe_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"
+    }
+  ],
+  "refutes": []
+}
