@@ -1461,3 +1461,23 @@ all 64 profile visits and directly replays the kernel, Vieta relation, and
 three paired equations at every lift. Exact transports close class `{4,9}`
 for both missing roles: four labels or one generic orbit. Cell `12` now has
 15 representatives and 52 labels open. Total cost remained well below `$1`.
+
+**Reciprocal-role matching-5/12 closure.** The sibling nested sign-free
+compiler fixes `sigma_c` inside its second pair, so eight source-sign/anchor
+rows are required. With the measured matching-4 runtime, the full set was
+launched directly under a 15-minute cap. Complete app
+`ap-66X2RoJ3b0eWp3KHAleEXL` finished all rows; one preempted shard restarted
+transparently.
+
+The exact packet has 88 target-norm roots, 168 total norm/inverse candidates,
+256 guarded source points, 16 compatible `(z,q)` lifts, and 32 final
+`sigma_o` lanes. Every final pair is nonzero; eight free-`b` exits lie on the
+proved leading boundary, with no witness or unresolved branch.
+
+Independent root app `ap-anuKZnM08xltiExRoCP3DV` reconstructed all 45
+degree-at-most-5388 profiles and 244 roots with the separate SymPy/Galois
+implementation. Several inputs were preempted and automatically restarted;
+the retained certificate is complete. The fast local audit validates all
+128 profile visits and directly replays every equation at all 16 lifts.
+Exact transports close class `{5,12}` for both missing roles: four labels or
+one generic orbit. Cell `12` now has 14 representatives and 48 labels open.
