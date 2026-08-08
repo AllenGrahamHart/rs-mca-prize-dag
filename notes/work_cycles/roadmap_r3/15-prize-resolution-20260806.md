@@ -3885,3 +3885,40 @@ compute:                   Modal apps ap-MPpJc7ic8DzACr3qnqtl33 and ap-mMiXtJUDc
 live compute requests:     none
 next:                      classify reciprocal matchings 1..14 and remaining parallel-DE orbits
 ```
+
+### Cell-12 reciprocal-linear pairings-1/2 payment
+
+Matchings `1` and `2` after deleting `DF` retain the same equal-product
+first pair and three rational `q` branches as matching `0`. With `z=1/d`,
+the missing Vieta quartic and the matching-specific second-pair quadratic
+have a linear remainder in the exact four-basis source algebra. This is the
+previously audited cell-4 reciprocal-linear mechanism.
+
+A pinned AST adapter supplies the cell-12 tower and compact kernel without
+copying or changing the compiler function. The complete 36-row packet has
+244 target-norm roots, 620 total norm/inverse candidates, 1,040 guarded
+source points, 80 common nonzero `z` candidates, and 192 final target-lane
+evaluations. All final values are nonzero. The 36 free-`b` exits lie exactly
+on the already proved cell-12 leading boundary.
+
+An independent checker reconstructs 125 unique finite-field polynomials,
+all 576 profile visits, every candidate-root union and boundary transport,
+and all final lanes. Exact `D/E` transport closes the two partner labels,
+paying four labels or two generic orbits. Cell `12` now has 17
+representatives and 60 labels open.
+
+```text
+starting pin:              1c32af0fa
+ending mathematical pin:  4014541dc
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal roles at matchings 1 and 2; 19 -> 17 representatives
+DAG status delta:          +1 background PROVED (1788 -> 1789); critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-linear adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-VHGJqSCvU83mITBwKamC3h and ap-fzs25UIEv1GTD1kKhPy0kG
+live compute requests:     none
+next:                      classify reciprocal matchings 3..14 and remaining parallel-DE orbits
+```
