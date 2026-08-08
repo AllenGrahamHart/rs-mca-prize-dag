@@ -3809,3 +3809,41 @@ compute:                   Modal apps ap-gCH6oQc1fW2VTAZcNiuDon, ap-wOtqklCmNfzc
 live compute requests:     none
 next:                      attack 24 generic representatives in roles xi=0,2,3
 ```
+
+### Cell-12 parallel-DE first-pair payment
+
+The first three residual matchings for the parallel-`DE` missing roles share
+a target-free paired-product equation. Exact four-basis norms reduce its two
+sign shapes to degree-350 and degree-362 univariate obstructions. Complete
+root and inverse-boundary replay leaves no generic source point for missing
+`-DE` and two points per source-sign lane for missing positive `DE`.
+
+At the eight surviving positive points, the full missing Vieta data
+`de=m,(d+e)^2=S` and the residual pair equations produce 96 guarded target
+systems. Singular and an independently reduced two-variable SymPy
+implementation both obtain 96 unit ideals. The duplicate positive record
+exchange and the existing rational-boundary theorem complete nine labels,
+or four generic orbits. The live cell-12 frontier is 20 representatives and
+66 labels.
+
+The cycle also caught a reusable compiler error: enforcing `de=m` without
+the squared-sum equation creates false projected witnesses. Both retained
+implementations now test the full Vieta pair. Two direct Gröbner routes hit
+their five-minute caps and are fenced against relaunch; the exact four-basis
+route completed within the active compute budget.
+
+```text
+starting pin:              b1994a12b
+ending mathematical pin:  6aaca96bb
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED 9 parallel-DE first-pair labels; 24 -> 20 representatives
+DAG status delta:          +1 background PROVED (1786 -> 1787); critical orbit unchanged
+upstream terminal delta:   portable exact norm/replay/residual packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   retained Modal apps ap-IJFw7P0QEymI25xOtUvIER, ap-g44ta4GmDCL8N8V1NUvI4B, ap-OPmO1UlkaIs9vAkfUEA3Zl, ap-XtMGYHQ33046N1viWrJobe
+live compute requests:     none
+next:                      transport or attack 20 generic representatives in roles xi=0,2,3
+```
