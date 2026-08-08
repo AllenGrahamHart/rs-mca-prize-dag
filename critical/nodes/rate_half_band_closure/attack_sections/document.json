@@ -5,6 +5,114 @@
         "rate_half_band_closure"
       ],
       "path": "critical/nodes/rate_half_band_closure/attack_addenda/13-wave51-positive-433-cell4-campaign.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/14-wave52-positive-433-cell4-pairing3.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/15-wave53-positive-433-cell4-pairing4.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/16-wave54-positive-433-cell4-pairing9.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/17-wave55-positive-433-cell4-pairing5.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/18-wave56-positive-433-cell4-pairing12.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/19-wave57-positive-433-cell4-pairing7.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/20-wave58-positive-433-cell4-pairing10.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/21-wave59-positive-433-cell4-pairing8.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/22-wave60-positive-433-cell4-pairing13.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/23-wave61-positive-433-cell4-pairing11.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/24-wave62-positive-433-cell4-pairing14.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/25-wave63-positive-433-cell4-endpoints.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/26-wave64-positive-433-universal-xi43-transport.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/27-wave65-positive-433-cell4-xi3-pairing0.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/28-wave66-positive-433-cell4-xi3-pairings1-2.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/29-wave67-positive-433-cell4-xi3-pairing3-6.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/30-wave68-positive-433-cell4-xi3-pairing4-9.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/31-wave69-positive-433-cell4-xi3-pairing5-12.md"
     }
   ],
   "pre_refactor_line_count": 3950,

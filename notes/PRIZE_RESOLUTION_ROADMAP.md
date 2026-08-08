@@ -20656,6 +20656,734 @@ remaining positive rows:  M01-R11, M02-R11
 compute:                  two bounded Modal representatives, peak RSS < 0.41 GB
 next:                     discharge the M01 external-Singular bridge and transport to M02
 ```
+
+### Cell-4 parallel-DE pairing-3 orbit close
+
+The first non-first-pair representative in the deployed positive
+`433-1b -> O0a` role-cell-4 ledger is now closed. Over the exact four-basis
+source tower, the matching-3 system reduces to two paired quadratics and
+
+```text
+H(u,v)=de*(u+eta*v)^2-s*u*v.
+```
+
+A division-free nested resultant, leading-degree-drop factor, and tower norm
+produce a necessary condition in `r`. Every norm and inverse-guard root is
+directly lifted through the original source system. Across 32 computed rows,
+the exact terminal ledger is 312 candidate roots, 272 guarded source points,
+64 `H=0` pairs, 96 nonzero colored cuts, 16 `f=0` boundaries, and no witness
+or unresolved branch. Positive-copy transport supplies the remaining 16
+pairing-3 rows.
+
+The parallel-DE quotient was then applied at its exact scope. It adds only
+`(xi,pairing)=(2,6)`: the involution exchanges `xi=0,1` at fixed matching,
+so the two positive omissions at pairing 6 remain open. The new block is 64
+raw cases in four labels and two quotient orbits. Cell 4 now has 13/105 paid
+labels and 92 live labels in 52 orbits.
+
+```text
+starting pin:              2cc8b68fc
+ending mathematical pin:  733d52b0b
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+open upstream lane:        #1143; #1144/#1149 already independently absorbed
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 3; quotient-closed xi2/pairing 6
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-VnOKofCGaEWi6SM8IN26qj
+live compute requests:     none
+next:                      direct xi0/1 pairing-6 replay or audited target swap
+```
+
+### Cell-4 positive-DE pairing-6 completion
+
+The direct follow-on closed both previously open positive omissions at
+matching 6. The compiler swaps the signed `DE` values entering the two paired
+quadratics while retaining
+
+```text
+H(u,v)=de*(u+v)^2-s*u*v.
+```
+
+All 16 `xi=0` source/target sign rows are empty after exact exceptional-root
+lifting: 160 candidate roots, 176 guarded source points, 48 `H=0` pairs, and
+96 nonzero colored cuts. There are no target boundaries, witnesses, or
+unresolved branches. Identical-copy transport supplies `xi=1`.
+
+Together with the negative omission already transported from pairing 3, all
+six parallel-DE labels at pairings 3 and 6 are now paid. The cell-4 ledger
+moves from 92/52 live labels/orbits to 90/51.
+
+```text
+starting pin:              bc58c5afa
+ending mathematical pin:  25cf3aedf
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 6; complete P3/P6 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-xIKZhX3GDN2uknjpfoFBMn
+live compute requests:     none
+next:                      attack the matching orbit {4,9}
+```
+
+### Cell-4 parallel-DE pairing-4 orbit close
+
+The next quotient representative is now closed at matching 4. With `u=df`
+and `f` retained as the second variable, the first two matching equations are
+quadratic and the missing-sum equation is
+
+```text
+(u^2+eta*de*f^2)^2-s*f^2*u^2=0.
+```
+
+Clearing the `P_u` leading coefficient gives a degree-eight eliminant without
+discarding degree drops. A four-basis norm and exhaustive exceptional-root
+lift over 32 computed rows gives 352 candidate roots, 384 guarded source
+points, 1,168 `(u,f)` rows, 1,088 missing-relation failures, 64 nonzero
+colored cuts, 16 `f=0` boundaries, and no witness or unresolved branch.
+Identical-copy transport supplies the 16 `xi=1` rows.
+
+The exact involution adds `(xi,pairing)=(2,9)` but not the two positive
+matching-9 labels. The cumulative cell-4 ledger moves from 90/51 live
+labels/orbits to 86/49.
+
+```text
+starting pin:              02df73235
+ending mathematical pin:  1faf2902a
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 4; quotient-closed xi2/pairing 9
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-d0Snabe8KIXbHW06cTgXe1
+live compute requests:     none
+next:                      close positive-DE matching 9
+```
+
+### Cell-4 positive-DE pairing-9 and complete orbit close
+
+The retained positive omissions at matching 9 are now closed directly. The
+matching-4 degree-eight compiler transfers after exchanging the signed inputs
+to the paired quadratics:
+
+```text
+P_u(u)=Pair(-de,u),       P_f(f)=Pair(de,bf).
+```
+
+Across 16 exact `xi=0` rows, every one of 192 missing-relation survivors has
+a nonzero final colored-pair cut. The full ledger has 288 candidate roots,
+544 guarded source points, 1,472 `(u,f)` rows, no boundary, no witness, and
+no unresolved branch. Identical-copy transport supplies `xi=1`.
+
+Composing these two labels with the prior four-label quotient node closes all
+six labels at pairings 4 and 9. Cell 4 now has 21/105 paid labels, with 84
+labels in 48 quotient orbits live.
+
+```text
+starting pin:              641ab24b8
+ending mathematical pin:  114db05ae
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 9; complete P4/P9 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-LHmTRosR90JHKDnuGjh8oI
+live compute requests:     none
+next:                      attack the matching orbit {5,12}
+```
+
+### Cell-4 pairing-5 orbit close
+
+Matching 5 remains in the same degree-eight family, but its second paired
+quadratic is `Pair(second_de,sigma_c*cf)` and its final cut is
+`Pair(sigma_o*ef,bf)`. The exact 32-row census has 320 candidate roots, 288
+guarded source points, 1,040 `(u,f)` rows, 960 missing-relation failures, 64
+nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,12)` but correctly leaves `(0,12)` and
+`(1,12)` open. Cell 4 now has 25/105 paid labels, with 80 labels in 46
+quotient orbits live.
+
+```text
+starting pin:              8175e427d
+ending mathematical pin:  99e0e55ff
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 5; quotient-closed xi2/pairing 12
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-MuHmcgibJfx736RiVWp2vE
+live compute requests:     none
+next:                      close positive-DE matching 12
+```
+
+### Cell-4 positive-DE pairing-12 and complete orbit close
+
+The two retained positive omissions at matching 12 are empty by the same
+degree-eight route after exchanging the signed `DE` inputs. Across 16 exact
+`xi=0` rows, the ledger has 224 candidate roots, 320 guarded source points,
+1,088 `(u,f)` rows, 960 missing-relation failures, 128 nonzero final-pair
+cuts, and no boundary, witness, or unresolved branch. Identical-copy
+transport supplies `xi=1`.
+
+Composing these labels with the Wave-55 quotient node closes all six labels
+at pairings 5 and 12. Cell 4 now has 27/105 paid labels, with 78 labels in 45
+quotient orbits live.
+
+```text
+starting pin:              04b4e7753
+ending mathematical pin:  a5f911ca5
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 12; complete P5/P12 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-3ssYWiGc9bn3vctPUZcPAj
+live compute requests:     none
+next:                      attack the matching orbit {7,10}
+```
+
+### Cell-4 pairing-7 orbit close
+
+Matching 7 is another exact degree-eight `u=ef` route.  Its two paired
+quadratics and final colored cut are
+
+```text
+P_u(u)=Pair(de,sigma_o*u),
+P_f(f)=Pair(second_de,bf),
+final=Pair(df,sigma_c*cf).
+```
+
+Across 32 computed rows, the exact ledger has 352 candidate roots, 384
+guarded source points, 1,168 `(u,f)` rows, 1,088 missing-relation failures,
+64 nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,10)` but correctly leaves `(0,10)` and
+`(1,10)` open. Cell 4 now has 31/105 paid labels, with 74 labels in 43
+quotient orbits live.
+
+```text
+starting pin:              3107cba6c
+ending mathematical pin:  08fec0333
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 7; quotient-closed xi2/pairing 10
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-tl4qnwUTevKIzsxlTPRLyT
+live compute requests:     none
+next:                      close positive-DE matching 10
+```
+
+### Cell-4 positive-DE pairing-10 and complete orbit close
+
+The retained positive matching-10 omissions are empty by the matching-7
+degree-eight route after exchanging the signed inputs to the first two cuts:
+
+```text
+P_u(u)=Pair(-de,sigma_o*u),
+P_f(f)=Pair(de,bf),
+final=Pair(df,sigma_c*cf).
+```
+
+Across 16 exact `xi=0` rows, the ledger has 288 candidate roots, 544 guarded
+source points, 1,472 `(u,f)` rows, 1,280 missing-relation failures, 192
+nonzero final-pair cuts, and no boundary, witness, or unresolved branch.
+Identical-copy transport supplies `xi=1`.
+
+Composing these two labels with the Wave-57 quotient node closes all six
+labels at pairings 7 and 10. Cell 4 now has 33/105 paid labels, with 72
+labels in 42 quotient orbits live.
+
+```text
+starting pin:              0e70aa8cd
+ending mathematical pin:  d158091e2
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 10; complete P7/P10 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-vg9F2A5OL2rHsqLlmEu0ao
+live compute requests:     none
+next:                      reconcile and attack matching orbit {8,13}
+```
+
+### Cell-4 pairing-8 orbit close
+
+Matching 8 is an exact degree-eight `u=ef` route with
+
+```text
+P_u(u)=Pair(de,sigma_o*u),
+P_f(f)=Pair(second_de,sigma_c*cf),
+final=Pair(df,bf),
+```
+
+where `second_de=-de` for `xi=0` and `second_de=de` for `xi=2`. Across 32
+computed rows, the exact ledger has 320 candidate roots, 288 target roots,
+288 guarded source points, 1,040 `(u,f)` rows, 960 missing-relation failures,
+64 nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,13)` but correctly leaves `(0,13)` and
+`(1,13)` open. Cell 4 now has 37/105 paid labels, with 68 labels in 40
+quotient orbits live.
+
+```text
+starting pin:              db646aedc
+ending mathematical pin:  e5bca6df3
+canonical prize pin:       860e22c47
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 8; quotient-closed xi2/pairing 13
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-rpCUgXeECUEAWWOjI2Ma2S
+live compute requests:     none
+next:                      close positive-DE matching 13
+```
+
+### Cell-4 positive-DE pairing-13 and complete orbit close
+
+The retained positive matching-13 omissions are empty by the matching-8
+degree-eight route after exchanging the signed inputs to the first two cuts:
+
+```text
+P_u(u)=Pair(-de,sigma_o*u),
+P_f(f)=Pair(de,sigma_c*cf),
+final=Pair(df,bf).
+```
+
+Across 16 exact `xi=0` rows, the ledger has 224 candidate roots, 208 target
+roots, 320 guarded source points, 1,088 `(u,f)` rows, 960 missing-relation
+failures, 128 nonzero final-pair cuts, and no boundary, witness, or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+An independent verifier caught that the first compiler draft had retained
+matching 8's scalar replay order after correctly swapping the symbolic
+quadratics. The replay was repaired and all Modal rows rerun before banking.
+
+Composing these two labels with the Wave-59 quotient node closes all six
+labels at pairings 8 and 13. Cell 4 now has 39/105 paid labels, with 66
+labels in 39 quotient orbits live.
+
+```text
+starting pin:              f68cbdaaa
+ending mathematical pin:  30cd1dada
+canonical prize pin:       110aa4e73
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 13; complete P8/P13 block
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-Dxy9l3OPbvPHbjXD6Fb1ul
+live compute requests:     none
+next:                      attack the final small-missing orbit {11,14}
+```
+
+### Cell-4 pairing-11 orbit close
+
+Matching 11 is the common-`f` member of the final small-missing parallel-
+`DE` block. Its first two paired cuts and final colored cut are
+
+```text
+P_b(f)=Pair(de,bf),
+P_c(f)=Pair(second_de,sigma_c*cf),
+final=Pair(df,sigma_o*ef).
+```
+
+Across 32 computed `xi in {0,2}` rows, the exact resultant-norm ledger has
+304 candidate roots, 240 target roots, 192 guarded source points, 64
+nonboundary even-quartic candidates, 64 nonzero final-pair cuts, 16 `f=0`
+boundaries, and no witness or unresolved branch. Identical-copy transport
+supplies `xi=1`.
+
+The independent verifier recomputes both quadratic root sets, their
+intersection, and all even-quartic roots through a quadratic in `u^2` plus
+modular square roots before reevaluating the final cut. The parallel-`DE`
+involution adds `(2,14)` but correctly leaves `(0,14),(1,14)` open. Cell 4
+now has 43/105 paid labels, with 62 labels in 37 quotient orbits live.
+
+```text
+starting pin:              0ba785a58
+ending mathematical pin:  0aa6c7c41
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 11; quotient-closed xi2/pairing 14
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-kFJQZFlwV86ixm21ONfYJR
+live compute requests:     none
+next:                      close positive-DE matching 14
+```
+
+### Cell-4 positive-DE pairing-14 and complete parallel-DE layer
+
+The retained positive matching-14 omissions are empty by the common-`f`
+resultant route after exchanging the signed inputs to the first two cuts:
+
+```text
+P_b(f)=Pair(-de,bf),
+P_c(f)=Pair(de,sigma_c*cf),
+final=Pair(df,sigma_o*ef).
+```
+
+Across 16 exact `xi=0` rows, the ledger has 152 candidate roots, 120 target
+roots, 80 guarded source points, 128 nonboundary quartic candidates, 128
+nonzero final-pair cuts, and no boundary, witness, or unresolved branch.
+Identical-copy transport supplies `xi=1`.
+
+The independent verifier reconstructs both quadratic root sets, their
+intersection, all even-quartic roots, and the final cut. Composing these two
+labels with the Wave-61 quotient node closes all six labels at pairings 11
+and 14. More importantly, all `3*15=45` parallel-`DE` labels are now PROVED
+empty. Cell 4 retains exactly `xi in {3,4,5,6}` across 15 matchings: 60
+labels in 36 quotient orbits.
+
+```text
+starting pin:              11c658e7e
+ending mathematical pin:  599b7afb2
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED positive-DE pairing 14; all parallel-DE labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 32-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-pw5ZlqWXn640JjkVYlv221
+live compute requests:     none
+next:                      select a nonparallel missing-role quotient orbit
+```
+
+### Cell-4 xi5/xi6 source-only endpoint closure
+
+The two source-fixed endpoint roles are empty before matching specialization.
+If `m` is the missing product, `s` its squared-sum record, and `x=b` for
+missing `bf` or `x=c` for missing `sigma_c cf`, every target must satisfy
+
+```text
+(x^2+m)^2-s*x^2=0.
+```
+
+Across eight exact source-sign/role rows, the four-basis norm has five field
+roots and the complete norm/inverse candidate union has seven roots per row.
+Five terminate on `r` guards. At each of the other two parameters, one base
+lift terminates on a `t` guard and the other has no base-field `b` root.
+There are no guarded source points, compatible sources, free lifts, or
+unresolved branches.
+
+Because no matching or target-sign equation is used, the theorem pays both
+roles across all 15 matchings: 30 labels, 18 quotient orbits, and 480 raw
+cases. Cell 4 is now 75/105 paid; the live frontier is exactly
+`xi in {3,4}` across all matchings, 30 labels in 18 quotient orbits.
+
+```text
+starting pin:              2946715e2
+ending mathematical pin:  e404201d6
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED missing bf/cf endpoint roles
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 480-case source-only packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-e2M3bp83ckyLVeO9wqmAtd
+live compute requests:     none
+next:                      classify/transport the remaining df/ef roles
+```
+
+### Universal xi4/xi3 outside-role transport
+
+The signed involution
+
+```text
+(d,e,f) -> (sigma_o*e,sigma_o*d,f)
+```
+
+transposes exactly the `df` and `sigma_o ef` product/squared-sum rows while
+fixing all other atlas rows, the compact residual order, matching index,
+target guards, source signs, and target lane. Because it acts only on the
+outside coordinates, its induced action on the five common roles is the
+identity; all 15 common role cells are fixed.
+
+The exact sparse-polynomial certificate verifies 3,600 role-cell/sign/lane/
+matching system bijections. An independent integer implementation replays
+31,104 coordinate/lane rows. Thus every future `xi=3` exclusion transports
+at identical scope to `xi=4`.
+
+No new label is paid by transport alone. Wave 63's 30 live labels in 18
+quotient orbits now require only 15 independent `xi=3` labels in nine
+matching-exchange orbits.
+
+```text
+starting pin:              8e489a863
+ending mathematical pin:  7327fd5f9
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b
+result:                    PROVED universal xi4 <-> xi3 transport
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact transport packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   tiny local exact sparse-polynomial replay
+live compute requests:     none
+next:                      close the nine cell-4 xi3 matching orbits
+```
+
+### Cell-4 xi3/xi4 pairing-0 closure
+
+For missing `df` at canonical matching 0, the first paired equation factors
+as
+
+```text
+paired(q,q) = 4 L_0(q) L_1(q)^2 L_2(q),
+q = de.
+```
+
+The three exhaustive branches `q=B_i/A_i` reduce the missing-sum equation
+and the second paired equation to quadratics in `y=1/d^2`. Their
+division-free resultant is normed through the exact four-basis cell-4 source
+tower. Complete exceptional-root replay across 24 internal branch rows finds
+200 candidate `r` values, 72 guarded source points, 64 `(y,d)` candidates,
+and 128 nonzero final-pair evaluations. There are no target boundaries,
+witnesses, free branches, or unresolved strata.
+
+The independent verifier recomputes every base-field root of the degree-up-
+to-592 norm polynomials, rebuilds all source lifts from the pinned structure
+and kernel, and reproduces every target terminal. The universal outside-role
+involution then transports the empty `xi=3` block to `xi=4` at matching 0.
+
+The two PROVED nodes pay 32 raw cases, two labels, and two quotient orbits.
+Cell 4 is now 77/105 paid. The live frontier is 28 labels in 16 quotient
+orbits; independently, 14 `xi=3` labels in eight matching-exchange orbits
+remain.
+
+```text
+starting pin:              0aa67b23a
+ending mathematical pin:  38c0f89a1
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing 0
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 32-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-ymGV72om2LOXCwxR8zKKlr
+live compute requests:     none
+next:                      classify and close the eight remaining matching orbits
+```
+
+### Cell-4 xi3/xi4 pairings-1/2 closure
+
+For missing `df` at canonical matchings 1 and 2, the repeated pair again
+forces one of the three exhaustive coefficient-ratio branches
+`q=B_i/A_i`, where `q=de`. With `z=1/d`, the missing-sum relation is the
+even quartic
+
+```text
+M(z)=1+(2m-s)z^2+m^2z^4,
+```
+
+while the matching-specific second paired relation is quadratic. Exact
+division in the four-basis source tower leaves a linear remainder
+`r_0+r_1z`; the division-free common-root cut
+`r_1^2 p_0-r_1 r_0 p_1+p_2 r_0^2` is then normed to the base field.
+
+Across 36 internal branch rows, complete exceptional-root replay finds 360
+candidate `r` values and 216 guarded source points. Matching 1 has no common
+`z` lift. Matching 2 has 32 common lifts and 64 final-lane evaluations, all
+nonzero. The target-boundary, witness, free-branch, and unresolved ledgers
+are empty. An independent verifier rebuilds every root union and finite
+lift, and the universal outside-role involution transports both exclusions
+from `xi=3` to `xi=4`.
+
+The two PROVED nodes pay 64 raw cases, four labels, and four quotient orbits.
+Cell 4 is now 81/105 paid. The live frontier is 24 labels in 12 quotient
+orbits, represented by 12 `xi=3` labels in six matching-exchange pairs.
+
+```text
+starting pin:              e15b62d59
+ending mathematical pin:  d2cdb61c0
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairings 1 and 2
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-FvpQcJ8FuxEK0TRI6DiZet
+live compute requests:     none
+next:                      close representative matching 3, then transport to 6 and xi4
+```
+
+### Cell-4 xi3/xi4 pairing-3/6 closure
+
+At `xi=3`, matching 3 has residual pairs
+
+```text
+(de,-de), (de,sigma_o ef), (bf,sigma_c cf).
+```
+
+With `z=1/d` and `y=z^2`, the missing-sum relation is quadratic in `y`.
+The colored pair is a general quartic `C(z)=E(y)+zO(y)`. The sign-free
+identity `C(z)C(-z)=E(y)^2-yO(y)^2` produces a quartic in `y`; reducing it
+modulo the missing quadratic leaves a linear remainder and hence a
+division-free common-root cut in the four-basis tower.
+
+Across eight exact rows, the complete candidate union has 60 `r` roots and
+16 guarded source points. Eight common `z` lifts survive. Each has two roots
+of `Pair(q,-q)`, but neither root satisfies
+`Pair(q,sigma_o*q*m*z^2)` in either outside-sign lane. Thus zero `q`
+candidates, target boundaries, witnesses, or unresolved strata remain.
+
+The parallel-`DE` exchange transports matching 3 to 6 at fixed `xi`; the
+universal outside-role involution then transports both to `xi=4`. The two
+PROVED nodes pay four labels, two parallel-`DE` quotient orbits, and 64 raw
+cases. Cell 4 is now 85/105 paid, with 20 labels in 10 quotient orbits live.
+
+```text
+starting pin:              5a7d7265b
+ending mathematical pin:  817b1dcb0
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-3/6 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-6XSVCn7sZu2uToXIzZ9J3E
+live compute requests:     none
+next:                      close representative matching 4, then transport to 9 and xi4
+```
+
+### Cell-4 xi3/xi4 pairing-4/9 closure
+
+At `xi=3`, matching 4 has residual pairs
+
+```text
+(de,-de), (de,bf), (sigma_o ef,sigma_c cf).
+```
+
+Write `m=df`, `z=1/d`, `y=z^2`, and `q=de`. The first paired relation
+is quadratic in `u=q^2`. Sign-eliminating `q` from the second pair,
+reducing modulo that quadratic, and taking the division-free linear-
+remainder cut gives a degree-eight polynomial in `z`. Reduction modulo the
+missing-sum quartic `M(z^2)`, followed by exact `z -> -z` elimination,
+leaves a linear-remainder common-root cut in the four-basis source tower.
+
+The four degree-5108 norm rows have 56 candidate `r` roots and 56 guarded
+source points. Direct replay of the original equations leaves 32 compatible
+`z` values and 32 compatible `q` values. All 128 third-pair target-lane
+evaluations are nonzero; the target-boundary, witness, free-branch, and
+unresolved ledgers are empty. The independent verifier recomputes the norm
+root unions and all finite lifts, using the proved `r -> -r` polynomial
+reflection only after checking it coefficient by coefficient.
+
+The parallel-`DE` exchange transports matching 4 to 9 at fixed `xi`; the
+universal outside-role involution transports both to `xi=4`. The two
+PROVED nodes pay four labels, two parallel-`DE` quotient orbits, and 64 raw
+cases. Cell 4 is now 89/105 paid, with 16 labels in eight quotient orbits
+live. The independent frontier is four matching-exchange pairs:
+`{5,12}`, `{7,10}`, `{8,13}`, and `{11,14}`.
+
+```text
+starting pin:              8c83138b4
+ending mathematical pin:  7eec52b69
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-4/9 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-wroUJycnzyUOJqETrQHZt4
+live compute requests:     none
+next:                      close representative matching 5, then transport to 12 and xi4
+```
+
+### Cell-4 xi3/xi4 pairing-5/12 closure
+
+At `xi=3`, matching 5 has residual pairs
+
+```text
+(de,-de), (de,sigma_c cf), (sigma_o ef,bf).
+```
+
+The antipodal first pair is quadratic in `u=q^2`. Sign-eliminating `q` from
+the colored second pair, reducing modulo that quadratic, and taking the
+division-free linear-remainder cut gives a degree-eight polynomial in
+`z=1/d`. Reduction modulo the missing-sum quartic, followed by exact
+`z -> -z` elimination, leaves a linear common-root cut in the four-basis
+source tower.
+
+Across eight source-sign/`sigma_c` rows, the degree-5058 norm ledger has 104
+candidate `r` roots and 128 guarded source points. Direct replay of the
+original equations leaves 32 compatible `z` values and 32 compatible `q`
+values. All 64 third-pair `sigma_o` evaluations are nonzero; the target-
+boundary, witness, free-branch, and unresolved ledgers are empty. The
+independent verifier recomputes the root unions and all finite lifts.
+
+The parallel-`DE` exchange transports matching 5 to 12 at fixed `xi`; the
+universal outside-role involution transports both to `xi=4`. The two PROVED
+nodes pay four labels, two quotient orbits, and 64 raw cases. Cell 4 is now
+93/105 paid, with 12 labels in six quotient orbits live. The independent
+frontier is `{7,10}`, `{8,13}`, and `{11,14}`.
+
+```text
+starting pin:              24e8e1190
+ending mathematical pin:  bca792862
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-5/12 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-U8FZQRqn5ocilCEg0xtzQY
+live compute requests:     none
+next:                      close representative matching 7, then transport to 10 and xi4
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

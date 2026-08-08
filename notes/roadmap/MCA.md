@@ -17,57 +17,44 @@ certificates required by the challenge.
 - Mixed-petal amplification.
 - Split-pencil high-core, low-core, and graded tangent charges.
 - The deployed rate-half band closure.
-- The `c2(1,1,2)` source-line literal-assignment coverage repair: the local
-  six-cell ledger is exactly `{F00,M00} x {R02,R11,R20}`, not an exhaustive
-  source-assignment atlas. The former branch-level PROVED promotion is now
-  CONDITIONAL pending literal coverage or a complete-system restricted
-  symmetry theorem.
-- The first restricted symmetry is now PROVED: literal reparameterization
-  `b -> b^-1` identifies every complete `F01-Rxx` system with
-  `F00-Rxx`. All six `F00/F01` cells are therefore closed locally; this does
-  not transport to `F02`--`F07`.
-- Upstream PR #1141 is imported as a pinned PROVED exact theorem after its
-  local Python replay and recorded independent Sage review: all six
-  `F02/F03` cells are closed. A fresh sharded review of PR #1144 proves ten
-  moving cells. The balanced `M01-R11` cell and its literal `M02-R11`
-  companion remain PROVABLE: parity and certificate checks pass, but three
-  Sage environments fail at the external Singular basis-conversion bridge.
-  The direct generic/rank-drop localization now also closes all four
-  `F04`--`F07-R11` cells. Current aligned-positive coverage is therefore
-  `26/36`, with those two moving cells and the eight `F04`--`F07` cells over
-  `R02/R20` remaining. PR #1149's exact quadratic compatibility theorem and
-  six-orbit compression are pinned PROVED; its two balanced fixed orbits are
-  fully closed. All sixteen rank-drop factor branches in the four remaining
-  fixed orbits are now PROVED empty, leaving only generic `V != 0` charts.
-  Their representative resultant cores split with degrees `3,3,12`; one
-  cubic closes, while the complementary cubic and the degree-12 factor remain
-  route-level obstructions. On `F04`, full-`J` coefficient zero further
-  reduces the surviving cubic to one degree-11 factor. No additional literal
-  cell is yet closed by these generic cuts. The degree-12 branch has now been
-  decomposed at its `x`-leading boundary: all leading factors are nonnamed,
-  including `s`, one common irreducible degree-6 curve, and target-specific
-  irreducibles of degrees `22`--`24`. Direct function-field division and a
-  three-step pseudo-remainder prefix are exact no-go fences; the latter grows
-  to 149340 terms while lowering `x`-degree only to 34.
-  The smallest explicit leaf, `s=0`, is now PROVED empty in all eight
-  literal fixed cells: each specialized ideal has a two-element basis and
-  the complete transported localizer vanishes at factor 14. This is a
-  branch close only; aligned-positive coverage remains `26/36`.
-  Both literal forms of the irreducible degree-6 leading curve are likewise
-  PROVED empty in all eight cells: `F04/F07` share a 15-term form,
-  `F05/F06` a distinct 17-term form, the full ideals have basis size `43` or
-  `46`, and the localizer vanishes at factor 17. The live branch has `s!=0`
-  and `L6!=0`; coverage still remains `26/36`.
-  Direct degree `22`/`23` curve intersections have exact dimension-one seed
-  bases but retain roughly 6000-term rows and time out. Curve-reduced
-  pseudo-division reaches `deg_x=5` but grows to roughly 23500 terms per
-  row. Both expanded endpoints are fenced. The new PROVED parity-reduced
-  evaluation identity replaces powers `U^(2j)` by `(VZ)^j` modulo
-  `R=U^2-VZ` before expansion and supplies a possible block-level route.
-  Its metrics-only literal replay shows that expansion retains `52257` and
-  `49848` terms, almost the entire direct rows. The expanded parity endpoint
-  is therefore also fenced; only a block-level factorization or syzygy is
-  authorized next.
+- The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
+  all 36 aligned-positive cells, the near-positive branch, aligned-negative,
+  negative source-line, and literal projective-boundary cells are PROVED.
+  The source-line complete-exclusion theorem is restored to unconditional
+  `PROVED`; pinned PR #1144/#1149 material has been independently replayed.
+- The live coordinate-positive `433-1b -> O0a` role-cell-4 ledger has an
+  exact parallel-`DE` quotient with 60 orbits. The first-pair block and the
+  complete pairing-3/6 and pairing-4/9 nested-quadratic blocks, plus the
+  complete pairing-5/12, pairing-7/10, and pairing-8/13 blocks now pay 39 of
+  105 labels. The exact common-`f` pairing-11 theorem and its honest quotient
+  composition and the direct positive-`DE` matching-14 theorem raise this to
+  45 paid labels, completing all parallel-`DE` omissions. The source-only
+  endpoint theorem then excludes missing `bf` and missing `sigma_c cf` at
+  every matching, raising the ledger to 75/105 paid labels. The retained
+  frontier is exactly `xi in {3,4}` across 15 matchings: 30 labels in 18
+  quotient orbits. The universal outside-role transport identifies `xi=4`
+  with `xi=3` at identical matching scope. Matching 0 is now excluded
+  directly at `xi=3` by the exact reciprocal-square census and transported
+  to `xi=4`, raising the ledger to 77/105 paid labels. The retained frontier
+  is 28 labels in 16 quotient orbits; only 14 `xi=3` labels in eight
+  matching-exchange orbits require independent proof. The reciprocal-linear
+  census now closes fixed matchings 1 and 2 and transports both to `xi=4`.
+  Cell 4 is 81/105 paid; the retained frontier is 24 labels in 12 quotient
+  orbits, with 12 independent `xi=3` labels in six matching-exchange pairs.
+  The sign-free reciprocal-square census now closes matching 3; the
+  parallel-`DE` and outside-role transports close matching 6 and both
+  `xi=4` partners. Cell 4 is 85/105 paid. The retained frontier is 20
+  labels in 10 quotient orbits, represented by ten `xi=3` labels in five
+  matching-exchange pairs. The nested q/z sign-free census now closes
+  matching 4; the two exact transports close matching 9 and both `xi=4`
+  partners. Cell 4 is 89/105 paid. The retained frontier is 16 labels in
+  eight quotient orbits, represented by eight `xi=3` labels in four
+  matching-exchange pairs. The colored second-pair nested census now closes
+  matching 5; the two exact transports close matching 12 and both `xi=4`
+  partners. Cell 4 is 93/105 paid. The retained frontier is 12 labels in six
+  quotient orbits, represented by six `xi=3` labels in three matching-
+  exchange pairs. See
+  `rate_half_band_closure/attack_addenda/31-wave69-positive-433-cell4-xi3-pairing5-12.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

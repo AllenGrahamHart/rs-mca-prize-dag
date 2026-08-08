@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1828,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 DE pairing-4/9 complete exclusion",
+    "status": "PROVED",
+    "closure": "all six parallel-DE labels at matchings 4 and 9 are excluded",
+    "statement": "In deployed positive 433-1b role cell 4, every slice with xi in {0,1,2} and pairing in {4,9} is empty for all four source signs and four target lanes. The pairing-4/9 orbit theorem supplies (0,4),(1,4),(2,4),(2,9); the positive-DE pairing-9 theorem supplies (0,9),(1,9). Thus six labels in three quotient orbits and 96 raw cases are excluded. Together with the prior 15-label first-pair and pairing-3/6 block, 21 of 105 labels in 12 quotient orbits are paid, leaving 84 labels in 48 quotient orbits.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion",
+      "order": 5074
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion",
+      "order": 5075
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5076
+    }
+  ],
+  "refutes": []
+}

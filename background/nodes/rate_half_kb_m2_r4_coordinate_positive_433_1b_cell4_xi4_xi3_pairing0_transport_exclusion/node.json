@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi4 pairing-0 transport exclusion",
+    "status": "PROVED",
+    "closure": "exact xi4 pairing-0 exclusion transported from the proved xi3 pairing-0 block",
+    "statement": "On the guarded positive deployed 433-1b role-cell-4 branch, every case with missing sigma_o ef record xi=4 and canonical matching index 0 is empty across all source signs and all four target lanes. The universal outside-role involution (d,e,f) -> (sigma_o e,sigma_o d,f) maps these systems bijectively to the proved xi=3 pairing-0 systems while fixing role cell 4, source signs, target lanes, matching index, and target guards. This pays 16 raw atlas cases and claims no other matching, missing role, cell closure, or Prize result.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing0_reciprocal_square_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure"
+    }
+  ],
+  "refutes": []
+}

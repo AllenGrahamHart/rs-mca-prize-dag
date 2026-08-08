@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1845,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi5/xi6 endpoint-compatibility exclusion",
+    "status": "PROVED",
+    "closure": "all 480 cases with missing bf or sigma_c cf endpoint record, across every canonical matching and target lane",
+    "statement": "On the guarded positive deployed 433-1b role-cell-4 branch, every case with missing endpoint record xi=5 (bf) or xi=6 (sigma_c cf) is empty across all source signs, all 15 canonical matchings, and all four target lanes. If m is the missing product, s its squared sum, and x is b at xi=5 or c at xi=6, every target satisfies (x^2+m)^2-s*x^2=0. An exact four-basis tower norm and exhaustive norm and inverse-guard root lift finds no route-open compatible source and no unresolved branch in any of the eight source-sign/role rows. Because the identity precedes matching and lane specialization, eight computed rows pay all 480 raw cases. No xi in {3,4}, complete cell-4, K3, LIST, MCA, or Prize claim is made.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_result.json"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+      "order": 5129
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 5130
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5131
+    }
+  ],
+  "refutes": []
+}

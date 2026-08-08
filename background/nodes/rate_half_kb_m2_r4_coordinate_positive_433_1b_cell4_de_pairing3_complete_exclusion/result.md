@@ -1,0 +1,4 @@
+# Result
+
+`PROVED`: all 48 cell-4 outside cases with a parallel `DE` missing record
+and canonical matching index 3 are empty.

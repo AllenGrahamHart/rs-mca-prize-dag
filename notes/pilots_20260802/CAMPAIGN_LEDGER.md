@@ -3254,3 +3254,340 @@ marker and MUST pass this quarantine clause to any subagent.
   C2'' falsifier redesign + GB-5 escalation; the N=32 sigma~0
   Z-CEILING band; the CJ2/CJ3 chart audit; red 3's membership
   test on the newly posable rows; wave-52.**
+## 2026-08-08: CODEX WAVE-52 READY (pin 25cf3aedf) — cell-4 pairing-3/6 exact close; honest quotient composition
+
+- The deployed positive `433-1b -> O0a` cell-4 pairing-3 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The direct exceptional-root ledger has 312 candidate roots, 272
+  guarded source points, 96 nonzero colored terminals, 16 `f=0` boundaries,
+  zero witnesses, and zero unresolved branches. Final Modal app
+  `ap-VnOKofCGaEWi6SM8IN26qj`; independent finite replay PASS.
+- Exact quotient audit first added only `(xi,pairing)=(2,6)`, producing a
+  64-case four-label/two-orbit block. A proposed six-label count was rejected
+  because the parallel-DE involution exchanges `xi=0,1` at fixed matching.
+- A separate direct pairing-6 campaign then closed both positive omissions:
+  16 computed + 16 transported raw cases, 160 candidate roots, 176 guarded
+  source points, 48 missing-sum survivors, 96 nonzero colored terminals, and
+  zero boundaries/witnesses/unresolved. Final app
+  `ap-xIKZhX3GDN2uknjpfoFBMn`. The complete pairing-3/6 block is 96 raw
+  cases; cell 4 is now 15/105 paid labels, with 90 labels in 51 quotient
+  orbits live.
+- Four new background PROVED nodes; critical census unchanged at
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass at the pin. Fable canonical remained at
+  `5c98633e1`; upstream main remained at `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-53 READY (pin 1faf2902a) — cell-4 pairing-4 exact close; positive pairing-9 correctly retained
+
+- The deployed positive `433-1b -> O0a` cell-4 matching-4 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The degree-eight, division-free exceptional-root ledger has 352
+  candidate roots, 384 guarded source points, 1,088 nonzero missing-relation
+  terminals, 64 nonzero colored terminals, 16 `f=0` boundaries, zero
+  witnesses, and zero unresolved branches. Final Modal app
+  `ap-d0Snabe8KIXbHW06cTgXe1`; independent finite replay PASS.
+- Exact quotient composition adds only `(xi,pairing)=(2,9)`. The involution
+  exchanges `xi=0,1` at fixed matching, so `(0,9),(1,9)` remain open. The
+  new payment is four labels in two orbits and 64 raw cases.
+- Two new background PROVED nodes; cell 4 is now 19/105 paid labels with 86
+  labels in 49 quotient orbits live. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass. Fable canonical remains `5c98633e1`;
+  upstream main remains `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-54 READY (pin 114db05ae) — positive pairing-9 closed; complete pairing-4/9 block
+
+- The retained positive matching-9 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact ledger has 288
+  candidate roots, 544 guarded source points, 1,280 nonzero missing-relation
+  terminals, 192 nonzero colored terminals, and zero boundaries, witnesses,
+  or unresolved branches. Final Modal app `ap-LHmTRosR90JHKDnuGjh8oI`;
+  independent finite replay PASS.
+- Composing with Wave 53 closes all six labels in `{0,1,2} x {4,9}`: three
+  quotient orbits and 96 raw cases. Cell 4 is now 21/105 paid labels, with 84
+  labels in 48 quotient orbits live. The next orbit is `{5,12}`.
+- Two new background PROVED nodes; critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, focused replay, and negative-
+  control checks pass. Fable canonical remains `5c98633e1`; upstream main
+  remains `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-55 READY (pin 99e0e55ff) — cell-4 pairing-5 exact close; positive pairing-12 retained
+
+- The deployed positive `433-1b -> O0a` cell-4 matching-5 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The division-free degree-eight ledger has 320 candidate roots,
+  288 guarded source points, 960 nonzero missing-relation terminals, 64
+  nonzero colored terminals, 16 `f=0` boundaries, zero witnesses, and zero
+  unresolved branches. Final Modal app `ap-MuHmcgibJfx736RiVWp2vE`;
+  independent finite replay PASS.
+- Exact quotient composition adds only `(xi,pairing)=(2,12)`. The involution
+  exchanges `xi=0,1` at fixed matching, so `(0,12),(1,12)` remain open. The
+  new payment is four labels in two orbits and 64 raw cases.
+- Two new background PROVED nodes; cell 4 is now 25/105 paid labels with 80
+  labels in 46 quotient orbits live. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass. Fable canonical remains `5c98633e1`;
+  upstream main remains `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-56 READY (pin a5f911ca5) — positive pairing-12 closed; complete pairing-5/12 block
+
+- The retained positive matching-12 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact ledger has 224
+  candidate roots, 320 guarded source points, 960 nonzero missing-relation
+  terminals, 128 nonzero colored terminals, and zero boundaries, witnesses,
+  or unresolved branches. Final Modal app `ap-3ssYWiGc9bn3vctPUZcPAj`;
+  independent finite replay PASS.
+- Composing with Wave 55 closes all six labels in `{0,1,2} x {5,12}`: three
+  quotient orbits and 96 raw cases. Cell 4 is now 27/105 paid labels, with 78
+  labels in 45 quotient orbits live. The next orbit is `{7,10}`.
+- Two new background PROVED nodes; critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, focused replay, and negative-
+  control checks pass. Fable canonical remains `5c98633e1`; upstream main
+  remains `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-57 READY (pin 08fec0333) — cell-4 pairing-7 exact close; positive pairing-10 retained
+
+- The deployed positive `433-1b -> O0a` cell-4 matching-7 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The division-free degree-eight ledger has 352 candidate roots,
+  384 guarded source points, 1,088 nonzero missing-relation terminals, 64
+  nonzero colored terminals, 16 `f=0` boundaries, zero witnesses, and zero
+  unresolved branches. Final Modal app `ap-tl4qnwUTevKIzsxlTPRLyT`;
+  independent finite replay PASS.
+- Exact quotient composition adds only `(xi,pairing)=(2,10)`. The involution
+  exchanges `xi=0,1` at fixed matching, so `(0,10),(1,10)` remain open. The
+  new payment is four labels in two orbits and 64 raw cases.
+- Two new background PROVED nodes; cell 4 is now 31/105 paid labels with 74
+  labels in 43 quotient orbits live. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass. Fable canonical remains `5c98633e1`;
+  upstream main remains `93fba1be`. The next exact target is positive
+  matching 10.
+
+## 2026-08-08: CODEX WAVE-58 READY (pin d158091e2) — positive pairing-10 closed; complete pairing-7/10 block
+
+- The retained positive matching-10 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact degree-eight
+  ledger has 288 candidate roots, 544 guarded source points, 1,280 nonzero
+  missing-relation terminals, 192 nonzero colored terminals, and zero
+  boundaries, witnesses, or unresolved branches. Final Modal app
+  `ap-vg9F2A5OL2rHsqLlmEu0ao`; independent finite replay PASS.
+- Composing with Wave 57 closes all six labels in
+  `{0,1,2} x {7,10}`: three quotient orbits and 96 raw cases. Cell 4 is now
+  33/105 paid labels, with 72 labels in 42 quotient orbits live. The next
+  parallel-`DE` orbit is `{8,13}`.
+- Two new background PROVED nodes; critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, focused replay, and negative-
+  control checks pass. Fable canonical remains `5c98633e1`; upstream main
+  remains `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-59 READY (pin e5bca6df3) — cell-4 pairing-8 exact close; positive pairing-13 retained
+
+- The deployed positive `433-1b -> O0a` cell-4 matching-8 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The division-free degree-eight ledger has 320 candidate roots,
+  288 target roots, 288 guarded source points, 960 nonzero missing-relation
+  terminals, 64 nonzero colored terminals, 16 `f=0` boundaries, zero
+  witnesses, and zero unresolved branches. Final Modal app
+  `ap-rpCUgXeECUEAWWOjI2Ma2S`; independent finite replay PASS.
+- Exact quotient composition adds only `(xi,pairing)=(2,13)`. The involution
+  exchanges `xi=0,1` at fixed matching, so `(0,13),(1,13)` remain open. The
+  new payment is four labels in two orbits and 64 raw cases.
+- Two new background PROVED nodes; cell 4 is now 37/105 paid labels with 68
+  labels in 40 quotient orbits live. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and negative-control checks pass. Fable canonical is `860e22c47`;
+  upstream main remains `93fba1be`. The next exact target is positive
+  matching 13.
+
+## 2026-08-08: CODEX WAVE-60 READY (pin 30cd1dada) — positive pairing-13 closed; complete pairing-8/13 block
+
+- The retained positive matching-13 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact degree-eight
+  ledger has 224 candidate roots, 208 target roots, 320 guarded source
+  points, 960 nonzero missing-relation terminals, 128 nonzero colored
+  terminals, and zero boundaries, witnesses, or unresolved branches. Final
+  Modal app `ap-Dxy9l3OPbvPHbjXD6Fb1ul`; independent finite replay PASS.
+- The independent verifier caught a stale matching-8 scalar replay in the
+  first draft even though its symbolic matching-13 eliminant was correct.
+  Both the pilot and census were rerun after repair; the invalid preliminary
+  payload is not evidence for this theorem.
+- Composing with Wave 59 closes all six labels in
+  `{0,1,2} x {8,13}`: three quotient orbits and 96 raw cases. Cell 4 is now
+  39/105 paid labels, with 66 labels in 39 quotient orbits live. The final
+  small-missing orbit is `{11,14}`.
+- Two new background PROVED nodes; critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, focused replay, and negative-
+  control checks pass. Fable canonical is `110aa4e73`; upstream main remains
+  `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-61 READY (pin 0aa6c7c41) — cell-4 pairing-11 exact close; positive pairing-14 retained
+
+- The deployed positive `433-1b -> O0a` cell-4 matching-11 block is PROVED:
+  32 exact computed rows plus 16 identical-positive-copy transports close 48
+  raw cases. The common-`f` resultant ledger has 304 candidate roots, 240
+  target roots, 192 guarded source points, 64 nonboundary quartic candidates,
+  64 nonzero colored terminals, 16 `f=0` boundaries, zero witnesses, and
+  zero unresolved branches. Final Modal app `ap-kFJQZFlwV86ixm21ONfYJR`;
+  independent quadratic-intersection and quartic-root replay PASS.
+- Exact quotient composition adds only `(xi,pairing)=(2,14)`. The involution
+  exchanges `xi=0,1` at fixed matching, so `(0,14),(1,14)` remain open. The
+  new payment is four labels in two orbits and 64 raw cases.
+- Two new background PROVED nodes; cell 4 is now 43/105 paid labels with 62
+  labels in 37 quotient orbits live. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, focused replay,
+  and scope checks pass. Fable canonical is `00e28e1ba`; upstream main is
+  `999b8f3a1`. The next exact target is positive matching 14.
+
+## 2026-08-08: CODEX WAVE-62 READY (pin 599b7afb2) — positive pairing-14 closed; parallel-DE layer complete
+
+- The retained positive matching-14 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact common-`f` ledger
+  has 152 candidate roots, 120 target roots, 80 guarded source points, 128
+  nonboundary quartic candidates, 128 nonzero colored terminals, and zero
+  boundaries, witnesses, or unresolved branches. Final Modal app
+  `ap-pw5ZlqWXn640JjkVYlv221`; independent root and final-cut replay PASS.
+- Composing with Wave 61 closes all six labels in
+  `{0,1,2} x {11,14}`: three quotient orbits and 96 raw cases. All
+  `3*15=45` parallel-`DE` labels are now closed.
+- Two new background PROVED nodes; cell 4 is now 45/105 paid labels with 60
+  labels in 36 quotient orbits live. The live set is exactly the nonparallel
+  missing roles `xi in {3,4,5,6}`. Critical census remains
+  `231=167/36/28`. Sectioned-document, DAG, crosswalk, orbit, independent
+  replay, and scope checks pass. Fable canonical is `00e28e1ba`; upstream
+  main is `999b8f3a1`.
+
+## 2026-08-08: CODEX WAVE-63 READY (pin e404201d6) — both cell-4 endpoint roles closed
+
+- Missing `bf` and missing `sigma_c cf` obey the same source-only necessary
+  identity `(x^2+m)^2-s*x^2=0`, with `x=b` or `x=c`. It precedes every
+  matching and target-sign equation.
+- Eight exact four-basis norm rows have 40 compatibility roots and 56 total
+  norm/inverse candidates. The terminal ledger is 40 `r` guards, 8 `t`
+  guards, 8 nonsquare `b` discriminants, and zero guarded source points,
+  compatible sources, or unresolved branches. Final Modal app
+  `ap-e2M3bp83ckyLVeO9wqmAtd`; independent root and lift replay PASS.
+- One new background PROVED node pays 30 labels, 18 quotient orbits, and 480
+  raw cases. Cell 4 is now 75/105 paid with exactly `xi in {3,4}` live: 30
+  labels in 18 quotient orbits. Critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, and protocol checks pass.
+  Fable canonical is `00e28e1ba`; upstream main is `999b8f3a1`.
+
+## 2026-08-08: CODEX WAVE-64 READY (pin 7327fd5f9) — universal xi4/xi3 transport proved
+
+- The signed outside-role involution transposes exactly the `df` and
+  `sigma_o ef` atlas rows and fixes compact residual order, matching index,
+  guards, signs, lanes, and every one of the 15 common role cells.
+- The primary sparse-polynomial certificate checks 3,600 exact system
+  bijections. An independent integer implementation checks 31,104 rows.
+- One new background PROVED node pays no label by itself but halves the live
+  independent cell-4 obligation: the 30 labels in 18 `xi in {3,4}` quotient
+  orbits reduce to 15 `xi=3` labels in nine matching-exchange orbits.
+  Critical census remains `231=167/36/28`; all structural gates pass.
+  Fable canonical is `00e28e1ba`; upstream reference main is `999b8f3a1`.
+
+## 2026-08-08: CODEX WAVE-65 READY (pin 38c0f89a1) — cell-4 xi3/xi4 pairing 0 closed
+
+- Missing `df` at matching 0 is PROVED empty. The three exhaustive
+  `paired(q,q)` coefficient-ratio branches reduce to two quadratics in
+  `y=1/d^2`; their division-free resultant is normed through the exact
+  four-basis source tower.
+- Across 24 internal branch rows, the complete ledger has 200 candidate
+  `r` roots, 72 guarded source points, 24 empty denominator branches, 64
+  reciprocal-square candidates, 128 nonzero final-pair checks, and zero
+  target boundaries, witnesses, free branches, or unresolved strata. Final
+  Modal app `ap-ymGV72om2LOXCwxR8zKKlr`; independent root, source-lift, and
+  target replay PASS.
+- The universal outside-role transport pays the matching-0 `xi=4` partner
+  with no duplicate computation. Two new background PROVED nodes pay 32 raw
+  cases, two labels, and two quotient orbits. Cell 4 is now 77/105 paid;
+  28 labels in 16 quotient orbits remain, requiring 14 independent `xi=3`
+  proofs in eight matching-exchange orbits.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, and refactor checks pass.
+  Fable canonical is `00e28e1ba`; upstream reference pin is `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-66 READY (pin d2cdb61c0) — cell-4 xi3/xi4 pairings 1-2 closed
+
+- Missing `df` at matchings 1 and 2 is PROVED empty. Three exhaustive
+  coefficient-ratio branches reduce each row to an even missing-sum quartic
+  and a matching-specific paired quadratic in `z=1/d`. Their exact linear
+  remainder gives a division-free common-root cut in the four-basis tower.
+- Across 36 branch rows, the complete ledger has 360 candidate `r` roots,
+  216 guarded source points, 32 common `z` lifts, 64 nonzero final-lane
+  checks, and zero target boundaries, witnesses, free branches, or
+  unresolved strata. Final Modal app `ap-FvpQcJ8FuxEK0TRI6DiZet`;
+  independent root-union and finite-lift replay PASS.
+- Universal outside-role transport supplies both `xi=4` partners. Two new
+  background PROVED nodes pay 64 raw cases, four labels, and four quotient
+  orbits. Cell 4 is now 81/105 paid; 24 labels in 12 quotient orbits remain,
+  represented by 12 `xi=3` labels in six matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, and refactor checks pass.
+  Fable canonical is `00e28e1ba`; upstream reference pin is `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-67 READY (pin 817b1dcb0) — cell-4 xi3/xi4 pairing-3/6 orbit closed
+
+- Missing `df` at matching 3 is PROVED empty. The colored-pair quartic is
+  split into its even/odd `z` parts, sign-eliminated in `y=z^2`, and reduced
+  modulo the missing-sum quadratic to a linear-remainder common-root cut.
+- Across eight rows, the exact ledger has 60 candidate `r` roots, 16 guarded
+  source points, eight common `z` lifts, and zero common roots between the
+  antipodal and outside-pair q quartics. There are no target boundaries,
+  witnesses, free branches, or unresolved strata. Final Modal app
+  `ap-6XSVCn7sZu2uToXIzZ9J3E`; independent degree-1112 root-union and finite
+  replay PASS.
+- Parallel-`DE` matching exchange supplies pairing 6, and universal
+  outside-role transport supplies both `xi=4` partners. Two new background
+  PROVED nodes pay 64 raw cases, four labels, and two quotient orbits. Cell
+  4 is now 85/105 paid; 20 labels in 10 quotient orbits remain, represented
+  by ten `xi=3` labels in five matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, and refactor checks pass.
+  Fable canonical is `00e28e1ba`; upstream reference pin is `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-68 READY (pin 7eec52b69) — cell-4 xi3/xi4 pairing-4/9 orbit closed
+
+- Missing `df` at matching 4 is PROVED empty. Nested sign elimination in
+  `q` and `z` reduces the first two paired equations and the missing-sum
+  equation to a linear-remainder common-root cut in the exact four-basis
+  source tower.
+- Across four source-sign rows, the exact ledger has four degree-5108 norms,
+  56 candidate `r` roots, 56 guarded source points, 32 compatible `z`
+  values, 32 compatible `q` values, and 128 nonzero third-pair lane
+  evaluations. There are no target boundaries, witnesses, free branches, or
+  unresolved strata. Final Modal app `ap-wroUJycnzyUOJqETrQHZt4`;
+  independent root-union and finite replay PASS in 253 seconds under the
+  1 GB RAMguard ceiling.
+- Parallel-`DE` matching exchange supplies pairing 9, and universal
+  outside-role transport supplies both `xi=4` partners. Two new background
+  PROVED nodes pay 64 raw cases, four labels, and two quotient orbits. Cell
+  4 is now 89/105 paid; 16 labels in eight quotient orbits remain,
+  represented by eight `xi=3` labels in four matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, manifest, and refactor checks
+  pass. Fable canonical is `00e28e1ba`; upstream reference pin is
+  `93fba1be`. The next exact target is representative matching 5.
+
+## 2026-08-08: CODEX WAVE-69 READY (pin bca792862) — cell-4 xi3/xi4 pairing-5/12 orbit closed
+
+- Missing `df` at matching 5 is PROVED empty. Nested sign elimination in
+  `q` and `z` reduces the antipodal and colored second-pair equations plus
+  the missing-sum equation to a linear-remainder common-root cut in the
+  exact four-basis source tower.
+- Across eight source-sign/`sigma_c` rows, the exact ledger has eight degree-
+  5058 norms, 104 candidate `r` roots, 128 guarded source points, 32
+  compatible `z` values, 32 compatible `q` values, and 64 nonzero third-
+  pair lane evaluations. There are no target boundaries, witnesses, free
+  branches, or unresolved strata. Final Modal app
+  `ap-U8FZQRqn5ocilCEg0xtzQY`; independent root-union and finite replay PASS
+  in 256 seconds under the 1 GB RAMguard ceiling.
+- Parallel-`DE` matching exchange supplies pairing 12, and universal
+  outside-role transport supplies both `xi=4` partners. Two new background
+  PROVED nodes pay 64 raw cases, four labels, and two quotient orbits. Cell
+  4 is now 93/105 paid; 12 labels in six quotient orbits remain, represented
+  by six `xi=3` labels in three matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, manifest, and refactor checks
+  pass. Fable canonical is `00e28e1ba`; upstream reference pin is
+  `93fba1be`. The next exact target is representative matching 7.
