@@ -1,0 +1,105 @@
+========================================================================================================
+PROBE-1 -- COMPOSITE boundary walk (DECLARED CATCH-Z6 probes; NOT admissible cells).
+           registered: CRATIO -> PFMASS(n) as p -> inf; PFMASS(2^a*3) = (5/4)^{L/3}
+========================================================================================================
+ n=2L    L            p     SIGMA       TMASS     CRATIO      PFMASS (PFMASS+H)/(1+H)
+   12    6           73    -0.190    1.562500   0.838695    1.562500    1.301930   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=12, p=73)                     TMASS 1.562500 >= PFMASS 1.562500
+   12    6         1033    -4.013    1.562500   1.472685    1.562500    1.530167   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=12, p=1033)                   TMASS 1.562500 >= PFMASS 1.562500
+   12    6        16417    -8.003    1.562500   1.556527    1.562500    1.560350   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=12, p=16417)                  TMASS 1.562500 >= PFMASS 1.562500
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=12, p=16417)    measured 1.556527 predicted 1.560350
+   12    6       262153   -12.000    1.562500   1.562125    1.562500    1.562365   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=12, p=262153)                 TMASS 1.562500 >= PFMASS 1.562500
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=12, p=262153)   measured 1.562125 predicted 1.562365
+   12    6      4194397   -16.000    1.562500   1.562477    1.562500    1.562492   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=12, p=4194397)                TMASS 1.562500 >= PFMASS 1.562500
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=12, p=4194397)  measured 1.562477 predicted 1.562492
+   24   12        16417    -2.003    2.441406   1.954006    2.441406    2.153645   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=24, p=16417)                  TMASS 2.441406 >= PFMASS 2.441406
+   24   12       262153    -6.000    2.441406   2.403856    2.441406    2.419237   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=24, p=262153)                 TMASS 2.441406 >= PFMASS 2.441406
+   24   12      1048609    -8.000    2.441406   2.431909    2.441406    2.435799   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=24, p=1048609)                TMASS 2.441406 >= PFMASS 2.441406
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=24, p=1048609)  measured 2.431909 predicted 2.435799
+   24   12      4194409   -10.000    2.441406   2.439025    2.441406    2.440000   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=24, p=4194409)                TMASS 2.441406 >= PFMASS 2.441406
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=24, p=4194409)  measured 2.439025 predicted 2.440000
+   18    9       262153    -9.000    1.953125   1.949325    1.953125    1.951271   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=18, p=262153)                 TMASS 1.953125 >= PFMASS 1.953125
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=18, p=262153)   measured 1.949325 predicted 1.951271
+   36   18      4194397    -4.000    3.814697   3.590309    3.814697    3.649131   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=36, p=4194397)                TMASS 3.814697 >= PFMASS 3.814697
+   20   10       262261    -8.001    1.128906   1.124520    1.128906    1.128405   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=20, p=262261)                 TMASS 1.128906 >= PFMASS 1.128906
+PASS  PROBE-1 CRATIO == (PFMASS+H)/(1+H) to 1% at (n=20, p=262261)   measured 1.124520 predicted 1.128405
+   30   15       262231    -3.000    4.481628   3.983830    3.943115    3.616208   [0.0s]
+PASS  PROBE-1 TMASS >= PFMASS(n) at (n=30, p=262231)                 TMASS 4.481628 >= PFMASS 3.943115
+
+P3c HEADLINE (boundary probe): least composite n whose p-free mass alone breaks CRATIO > 2
+   n= 12  L=  6  RELDIM= 2  |PFREE|=     9  PFMASS=1.562500 = (5/4)^2   sup_p CRATIO = PFMASS <= 2
+   n= 24  L= 12  RELDIM= 4  |PFREE|=    81  PFMASS=2.441406 = (5/4)^4   sup_p CRATIO = PFMASS > 2
+   n= 48  L= 24  RELDIM= 8  |PFREE|=  6561  PFMASS=5.960464 = (5/4)^8   sup_p CRATIO = PFMASS > 2
+PASS  P3c composite n=24 exhibits CRATIO > 2 at p=4194409            CRATIO = 2.439025 (TMASS = 625/256, PFMASS = 625/256 = 2.44140625)
+   n=24 exhibit: p=4194409  TMASS=625/256=2.44140625  CRATIO=2.43902503  UMIN=3  A[3]=8
+
+========================================================================================================
+PROBE-2 -- SCOPE PROBE (P2c): a GENERAL F_p-subspace, L = span{(1,1,...,1)}
+           2-power N, admissible p -- but NOT an admissible parity row.
+========================================================================================================
+   N        p |   TMASS(exact)    closed form       HEUR     CRATIO
+   4       17 |       4.375000       4.375000   1.882353     2.3242
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=4 p=17 35/8
+   8      257 |      50.273438      50.273438   1.992218    25.2349
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=8 p=257 6435/128
+  16    65537 |    9171.758881    9171.758881   1.999969  4585.9494
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=16 p=65537 300540195/32768
+  16      257 |    9171.758881    9171.758881 256.000000    35.8272
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=16 p=257 300540195/32768
+  16       97 |    9171.758881    9171.758881 676.618557    13.5553
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=16 p=97 300540195/32768
+  32      193 | 426691058.311283 426691058.311283 22253717.554404    19.1739
+PASS  PROBE-2 all-ones TMASS = sum_U C(N,U)C(U,U/2)2^-U (p-INDEPENDENT) at N=32 p=193 916312070471295267/2147483648
+PASS  P2c registered CRATIO = 25.23 +- 0.05 at N=8, p=257            REGISTERED 25.23 ; measured 25.2349 (TMASS = 6435/128)
+   => on GENERAL F_p-subspaces CRATIO is unbounded (grows like p at fixed N):
+      N=8  p=       97  CRATIO = 13.8538
+      N=8  p=      257  CRATIO = 25.2349
+      N=8  p=    65537  CRATIO = 50.0786
+      N=8  p= 16777259  CRATIO = 50.2727
+
+========================================================================================================
+PROBE-3 -- LAMBDA RELAXATION (P2b, boundary probe): all all-odd Lambda of size R
+           (CATCH-19B still honoured: 0 not in Lambda).  Consecutive = the cell of record.
+========================================================================================================
+   S   R       p | consecutive max over Lam min over Lam | argmax Lambda
+  16   2     257 |    0.872046    1.578407    0.501953 | [1, 15]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=16,R=2,p=257) max 1.578407 (consecutive 0.872046)
+  16   2     193 |    0.939269    1.436862    0.838406 | [1, 5]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=16,R=2,p=193) max 1.436862 (consecutive 0.939269)
+  16   2     353 |    0.757737    1.456596    0.757737 | [1, 15]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=16,R=2,p=353) max 1.456596 (consecutive 0.757737)
+  16   2      97 |    1.178536    1.178536    0.937435 | [1, 3]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=16,R=2,p=97) max 1.178536 (consecutive 1.178536)
+   8   2      97 |    0.973613    0.973613    0.973613 | [1, 3]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=8,R=2,p=97) max 0.973613 (consecutive 0.973613)
+   8   2     241 |    0.995629    0.995629    0.995629 | [1, 3]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=8,R=2,p=241) max 0.995629 (consecutive 0.995629)
+   8   3     241 |    0.999982    0.999982    0.999982 | [1, 3, 5]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=8,R=3,p=241) max 0.999982 (consecutive 0.999982)
+  16   3     353 |    0.998512    0.998512    0.998512 | [1, 3, 5]
+PASS  PROBE-3 max CRATIO over all all-odd Lambda < 2 at (S=16,R=3,p=353) max 0.998512 (consecutive 0.998512)
+
+========================================================================================================
+PROBE-4 -- exhaustive p-free ternary count at n = 30 vs banked CZ-M count 3^{n/2-phi(n)}-1
+========================================================================================================
+   n=30: EXHAUSTIVE over all 3^15 ternary vectors ->  |PFREE| = 447,  PFMASS = 73427/16384 = 4.481628
+         lattice-{0,+-1}-combination search           ->  217,  16151/4096
+         banked CZ-M count formula 3^{n/2-phi(n)}     ->  2187
+FAIL  PROBE-4 exhaustive == lattice search at n=30                   
+FAIL  PROBE-4 banked CZ-M count 3^{n/2-phi(n)}-1 reproduces at n=30  exhaustive 446 nonzero vs CZ-M 2186
+========================================================================================================
+TOTAL: 36 PASS / 2 FAIL
+   FAILED: PROBE-4 exhaustive == lattice search at n=30
+   FAILED: PROBE-4 banked CZ-M count 3^{n/2-phi(n)}-1 reproduces at n=30
+========================================================================================================

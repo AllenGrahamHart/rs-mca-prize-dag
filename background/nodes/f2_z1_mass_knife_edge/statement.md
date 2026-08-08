@@ -219,3 +219,45 @@ heuristic — consistent with Z-CEILING, not refuting it.
 Source: notes/pilots_20260807/cw_shared_target/
 (coordinator-replayed, 130/29 with every FAIL an itemized
 registered-prediction miss).
+
+## Round-24 update (2026-08-08, coordinator-applied on replay: z_ceiling_assault — the conjecture SURVIVES, repriced and sharpened)
+
+**Z-CEILING survives 59,203 exact-rational cells; the CONSTANT OF
+RECORD RISES: C >= 1.7681** (record cell: the I2/RSET family,
+N = 16, kappa = 1, p = 161761, TMASS = 159/64 EXACT, verified by
+three independent algorithms to 6.5e-14). Headroom arithmetic
+updated: Z_1 <= 2^18.80, headroom 4.44 -> 3.95 bits. The sigma ->
+-inf direction is PROVABLY SAFE for the ratio form (CRATIO =
+(1 + EXCESS*H)/(1+H): as H -> 0, CRATIO -> 1 regardless of
+EXCESS); the danger band is sigma ~ 0 at small N.
+
+**THEOREM RC (new, PROVED, 20/0 replayed):** for eps ternary of
+weight U in the kernel, p | Res(Phi_2N, f) with 1 <= |Res| <=
+U^{N/2} <= N^{N/2}. Hence UMIN >= p^{2/N}; TMASS = 1 identically
+for every admissible p > N^{N/2}; and each N-line's sup CRATIO is
+a maximum over FINITELY many primes. The sharp form of the
+2-power gate: a nonzero ternary f (deg < N) with Res(Phi_2N, f)
+= 0 exists IFF 2N is not a 2-power; at 2N = 2^a*3, PFMASS =
+(5/4)^{L/3} exactly, reproducing the banked composite blowup
+178.51 from a closed form, and a composite exhibit crosses 2
+(CRATIO = 2.4314 at n = 24, p = 1000033, TMASS = 625/256 exact).
+
+**SCOPE PIN (load-bearing):** "admissible" must be pinned to the
+negacyclic-GRS parity row / I2 RSET specialization — for a GENERAL
+subspace the ratio form is FALSE (all-ones line: CRATIO = 25.23 at
+N = 8, p = 257; saturating at C(2N,N)/2^N, unbounded in N).
+
+**THE HONEST STRUCTURAL FINDING (S2, proved):** via TMASS =
+(2^N/p^kappa) sum_u prod_j cos^2(pi<u,c_j>/p), Z-CEILING(C) is
+EQUIVALENT to bounding the non-trivial smoothness mass SMOOTH <=
+(C-1) + C(p^kappa-1)/2^N — i.e. Z-CEILING is a FAITHFUL
+RESTATEMENT of this node's named non-local input, not a weaker
+stepping stone. E[SMOOTH] = (p^kappa-1)/2^N exactly (the ensemble
+form is proved and inert). The named decisive computation:
+N = 32 at sigma in [-2, 2] (needs a new algorithm — the MITM
+state count 3^16 exceeds the local wall; a Modal/algorithmic
+candidate). CATCH on a sibling node applied separately
+(tern_master_threshold CZ-M count formula). Source:
+notes/pilots_20260808/z_ceiling_assault/ (coordinator-replayed:
+RC 20/0; the addendum suite reproduces the record cell and the
+count refutation).

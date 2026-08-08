@@ -1,0 +1,95 @@
+========================================================================================================
+S2 -- THE CHARACTER (1+cos) FORM AND THE SMOOTHNESS RESTATEMENT
+========================================================================================================
+  IDENTITY (proved):  with col_j the j-th column of the kappa x N parity matrix,
+      TMASS = p^-kappa sum_{u in F_p^kappa} prod_j (1 + cos(2 pi <u,col_j>/p))
+            = (2^N / p^kappa) sum_u prod_j cos^2(pi <u,col_j>/p),
+  every term NON-NEGATIVE.  Write G(u) = prod_j cos^2(pi <u,col_j>/p), G(0) = 1,
+  SMOOTH = sum_{u != 0} G(u).  Then  TMASS = (2^N/p^kappa)(1 + SMOOTH)  and
+
+      Z-CEILING(C)  <=>  SMOOTH <= (C - 1) + C (p^kappa - 1)/2^N,
+      with  E[SMOOTH] = (p^kappa - 1)/2^N  under the random-code null.
+
+  So in the supercritical regime (SIGMA >> 0) Z-CEILING says EXACTLY: the
+  non-trivial smoothness mass of the value code is bounded by an ABSOLUTE
+  CONSTANT.  Also G(0) = 1 alone reproduces THEOREM Z-FLOOR: TMASS >= 2^N/p^kappa.
+
+   N         p |  TMASS (MITM DP) TMASS (char sum)   rel diff |       SMOOTH    E[SMOOTH]
+   8        97 |     2.8750000000     2.8750000000   3.24e-15 |     0.089355     0.375000
+PASS  S2 character identity == exact DP at (N=8, p=97)               rel diff 3.244e-15
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=8,p=97) SMOOTH 0.08935547 vs 0.08935547
+   8       241 |     1.5000000000     1.5000000000   0.00e+00 |     0.412109     0.937500
+PASS  S2 character identity == exact DP at (N=8, p=241)              rel diff 0.000e+00
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=8,p=241) SMOOTH 0.41210938 vs 0.41210938
+  16       257 |   255.0039062500   255.0039062500   0.00e+00 |     0.000000     0.003906
+PASS  S2 character identity == exact DP at (N=16, p=257)             rel diff 0.000e+00
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=16,p=257) SMOOTH 0.00000006 vs 0.00000006
+  16       641 |   102.2514648438   102.2514648438   7.09e-15 |     0.000110     0.009766
+PASS  S2 character identity == exact DP at (N=16, p=641)             rel diff 7.088e-15
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=16,p=641) SMOOTH 0.00010969 vs 0.00010969
+  16     53441 |     3.5161132812     3.5161132812   3.92e-15 |     1.867197     0.815430
+PASS  S2 character identity == exact DP at (N=16, p=53441)           rel diff 3.915e-15
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=16,p=53441) SMOOTH 1.86719681 vs 1.86719681
+  16    161761 |     2.4843750000     2.4843750000   6.45e-14 |     5.132126     2.468262
+PASS  S2 character identity == exact DP at (N=16, p=161761)          rel diff 6.453e-14
+PASS  S2 restatement: SMOOTH == (C-1) + C(p^k-1)/2^N at the cell's own C (N=16,p=161761) SMOOTH 5.13212562 vs 5.13212562
+
+========================================================================================================
+E7 -- INDEPENDENT REPRODUCTION OF THE RECORD CELL  (M4, N=16, kappa=1, p=161761)
+========================================================================================================
+PASS  E7 p = 161761 is prime                                         
+PASS  E7 p == 1 mod 2N = 32                                          (p-1)/32 = 5055
+PASS  E7 th has EXACT order 32                                       th = 4200
+   TMASS  (my MITM DP, exact)        = 159/64 = 2.4843750000
+   TMASS  (round-23 enumerator)      = 159/64 = 2.4843750000
+   TMASS  (character sum, float)     = 2.4843750000
+   HEUR = 1 + (2^16-1)/p             = 227296/161761 = 1.4051347358
+   CRATIO                            = 1.7680688810
+   EXCESS                            = 3.6639045453
+   SIGMA = 16 - log2 p               = -1.303504
+   ZFRATIO (Z-FLOOR slack)           = 6.1321256161
+   ternary kernel weight enumerator  : 0:1, 5:32, 8:96, 10:64, 11:96
+   UMIN = 5 ; |ker cap T| = 289 ; p^{2/N} = 4.4783 (THEOREM RC(i) floor)
+PASS  E7 all three algorithms agree at the record cell               
+PASS  E7 record CRATIO = 1.768069 (4 dp)                             1.7680688810
+PASS  E7 record EXCEEDS the banked round-23 record 1.2610            
+PASS  E7 record does NOT trip the registered falsifier CRATIO > 2    
+PASS  E7 THEOREM RC(i): UMIN >= p^{2/N} at the record cell           
+
+========================================================================================================
+S1 -- the ENSEMBLE form (registered in advance as PROVED-but-INERT)
+========================================================================================================
+  Over the uniform ensemble of kappa x N parity matrices of full rank, each
+  nonzero eps lies in the kernel with probability exactly (p^{N-kappa}-...)/... ->
+  p^-kappa, so  E[TMASS] = 1 + (2^N - 1)/p^kappa = HEUR  EXACTLY, i.e.
+  E[CRATIO] = 1.  With eps and -eps perfectly correlated,
+  Var(TMASS) = 2 p^-kappa ((3/2)^N - 1) + O(p^-2kappa).
+  VERDICT (as registered): PROVED for the ENSEMBLE, and INERT for Z-CEILING --
+  it constrains an average over subspaces, while Z-CEILING quantifies over the
+  ONE arithmetically structured subspace per cell.  Chebyshev off this variance
+  gives Pr[CRATIO > C] <= Var/((C-1)^2), which for C = 2 is ~2(3/4)^N -- it
+  bounds the FRACTION of bad subspaces, never certifies the specific one.
+PASS  S1 E[TMASS] = HEUR identity is exactly the definition of HEUR  HEUR(16,1,257) = 256.000000
+
+========================================================================================================
+S4 -- WEIGHT TRUNCATION: where does TMASS - 1 actually live?  W90 = least W with
+      sum_{U<=W} AU[U] 2^-U  >=  0.9 (TMASS - 1) + 1 - 1  (90%% of the excess mass)
+========================================================================================================
+   N         p    SIGMA |  UMIN   W90  W90/N  USTAR | AU (U:count)
+  16        97    9.400 |     3    11  0.688      8 | 0:1,3:64,4:288,5:1280,6:5408,7:15680,8:33600,9:59392
+  16       257    7.994 |     3    11  0.688      8 | 0:1,3:32,4:96,5:384,6:1888,7:6112,8:13760,9:23296,10
+  16       641    6.676 |     4    11  0.688      7 | 0:1,4:96,5:96,6:608,7:2720,8:5184,9:8928,10:13504,11
+  16      2081    4.977 |     5    11  0.688      7 | 0:1,5:64,6:320,7:736,8:1312,9:2880,10:4256,11:4032,1
+  16      8161    3.005 |     6    11  0.688      8 | 0:1,6:96,7:128,8:480,9:736,10:992,11:1152,12:896,13:
+  16     53441    0.294 |     6     9  0.562      7 | 0:1,6:32,7:128,8:160,9:128,10:32,11:64,12:224,13:192
+  16    161761   -1.304 |     5     8  0.500      5 | 0:1,5:32,8:96,10:64,11:96
+  16   1048609   -4.000 |    11    12  0.750     11 | 0:1,11:32,12:32
+
+  READING (registered prediction S4 was: W90/N -> 1/2 as SIGMA grows, and for
+  SIGMA <= 0 the head is everything).  The measured USTAR sits at N/2 in the
+  supercritical rows and collapses onto UMIN only in the SIGMA < 0 rows -- so
+  Z-2-style low-weight moment control reaches the mass ONLY where the mass is
+  already negligible.  That is the same R-locality wall as CATCH-RL1.
+========================================================================================================
+TOTAL: 21 PASS / 0 FAIL
+========================================================================================================

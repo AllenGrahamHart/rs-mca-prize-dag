@@ -84,3 +84,34 @@ wall test (PROVED nodes are instances of it; (MF) is an instance,
 not the same statement; a |B|^{-s} vs q^{-sigma} normalization
 mismatch is unresolved). Source:
 notes/pilots_20260807/mf_wall_adversary/ (coordinator-replayed).
+
+## Round-24 FORCED CORRECTION (2026-08-08, coordinator-applied on replay: t_petal_lemma)
+
+**Claim (i) of the round-23 addendum is FALSE in both clauses.** The
+t-petal overlap-cap theorem EXISTS at arbitrary support size: it is
+clause (JB3) of the PROVED background node
+l1_fixed_support_defect_johnson_bound (r_J = 2d - h; put h = t*ell
+and (JB3) reads |Z(F) cap Z(F')| <= e-1 verbatim), and the Johnson
+functional J is exactly (JB4)'s denominator d^2 - N*r_J. The gap was
+BOOKKEEPING (the argument existed under six names while three
+round-23 artifacts recorded it as missing). Verified: the node's
+verifier replayed; a self-contained general-t proof (5 elementary
+steps, degree-counting — the mu-basis/syzygy budget is never
+needed) at notes/pilots_20260808/t_petal_lemma/
+LEMMA_TPETAL_OVERLAP_CAP.md, coordinator-read; refutation search 0
+violations with MIN_SLACK = 0 (the cap ATTAINED at t = 4, 5, 6 —
+the search has resolution) and the power control fired on 2/3
+broken arms. CONSEQUENCES, executed and replayed: the J-sieve is
+LEGAL at every t (all 674 grid rows have a defined functional; the
+156 t >= 4 rows previously paid ILLEGALLY are now legally paid;
+residual = 408 exactly as computed). Claim (ii) may ALSO be
+mis-stated: (CJ2)/(CJ3) of l1_joint_core_background_johnson_bound
+is proved at arbitrary h and would rescue 71 residual rows — its
+chart hypotheses at M >= 5 are UNAUDITED (the named next probe).
+NEW THEOREM (draft for minting, machine-checked at 391 cells +
+proved): dim V = e+1 at EVERY t (the slice-dimension theorem via
+the cross-determinant map E(G,B) = (FB-GW)/Lambda — kernel exactly
+the line K(F,W)) — the t >= 4 rows are now POSABLE AS FLATS, so
+red 3's mystery-7 membership is DECIDABLE. Bonus (proved +
+machine-checked): the core/petal disjointness hypothesis is FREE
+for primitive members.

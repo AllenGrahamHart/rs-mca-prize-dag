@@ -3184,3 +3184,28 @@ leverage), c2pp_gb_probe (C2''-r3's registered G-b falsifier
 executed at toy scale — the first evidence-bearing C2''
 measurement). Pilots MUST NOT read ledger entries below this
 marker and MUST pass this quarantine clause to any subagent.
+
+## 2026-08-08: round-24 agents 1+2 BANKED — the t-petal lemma WAS ALREADY OURS (sieve legalized; red 3 posable; CATCH-24A minted); Z-CEILING SURVIVES repriced to C >= 1.7681 with THEOREM RC
+
+- **t_petal_lemma BANKED**: (JB3) at h = t*ell IS the lemma —
+  proved all along in l1_fixed_support_defect_johnson_bound; six
+  names hid it from three rounds (CATCH-24A: hard law 5's own-repo
+  grep now GATES every named-gate pricing). General-t proof
+  written + coordinator-verified (degree counting, no syzygy);
+  refutation search 0 violations at MIN_SLACK 0 with power
+  control firing; payoff executed (J-sieve legal at every t; 156
+  rows' payment legalized; residual 408 verbatim-identical). NEW:
+  the slice-dimension theorem dim V = e+1 at every t (391 cells +
+  proof draft) — RED 3'S MYSTERY-7 MEMBERSHIP NOW DECIDABLE; the
+  disjointness hypothesis free for primitive members. Next: audit
+  CJ2/CJ3 at M >= 5 (71 rows); the 23b membership test on red 3.
+- **z_ceiling_assault BANKED**: SURVIVES 59,203 cells; constant
+  repriced 1.2610 -> >= 1.7681 (headroom 3.95 bits); sigma -> -inf
+  proved safe; THEOREM RC proved (kernel dead above N^{N/2}; each
+  N-line a finite max); scope pinned (general subspaces FALSE at
+  25.23; the 2-power gate sharp with the composite closed form);
+  S2 EQUIVALENCE: Z-CEILING = the non-local smoothness-mass input
+  restated faithfully. CATCH-Z24-A applied (CZ-M count formula
+  false at two-odd-prime n; spine re-confirmed). Named next: the
+  N = 32 sigma~0 band (new algorithm/Modal).
+- Awaiting: kernel_window_hunt, c2pp_gb_probe.

@@ -122,3 +122,18 @@ The I1 mass bound (open: the tail-count criterion, NO named route);
 the I2/I3 mid-range primes; CC-sparsity; the even-condition
 recursion; the tau in (1, 1.585) first-moment band (heuristic);
 any shared discharge.
+
+## Round-24 forced correction (2026-08-08, CATCH-Z24-A, coordinator-applied on replay)
+
+CZ-M's parenthetical COUNT formula 3^{n/2 - phi(n)} - 1 is FALSE at
+n with two distinct odd prime factors: exhaustive MITM gives 446
+nonzero at n = 30 (formula: 2186) and 2966 at n = 42 (formula:
+19682). The formula is verified correct at every tested n with at
+most one distinct odd prime factor (8, 12, 16, 18, 20, 24, 28, 32,
+36). THE QUALITATIVE SPINE IS UNTOUCHED AND RE-CONFIRMED at every
+tested n: char-0 emptiness iff n is a 2-power. The count is the
+rank-statement upgrade only where the shift lattice is full-rank;
+at two odd primes the relation module is smaller. Source:
+notes/pilots_20260808/z_ceiling_assault/ (addendum.py,
+coordinator-replayed: PASS at one-odd-prime cells, FAIL exactly at
+n = 30 as reported).
