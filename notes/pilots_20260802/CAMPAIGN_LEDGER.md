@@ -3279,3 +3279,20 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   and negative-control checks pass. Fable canonical remains `5c98633e1`;
   upstream main remains `93fba1be`. The next exact target is positive
   matching 10.
+
+## 2026-08-08: CODEX WAVE-58 READY (pin d158091e2) — positive pairing-10 closed; complete pairing-7/10 block
+
+- The retained positive matching-10 omissions are PROVED empty: 16 computed
+  `xi=0` rows plus 16 identical-copy transports. The exact degree-eight
+  ledger has 288 candidate roots, 544 guarded source points, 1,280 nonzero
+  missing-relation terminals, 192 nonzero colored terminals, and zero
+  boundaries, witnesses, or unresolved branches. Final Modal app
+  `ap-vg9F2A5OL2rHsqLlmEu0ao`; independent finite replay PASS.
+- Composing with Wave 57 closes all six labels in
+  `{0,1,2} x {7,10}`: three quotient orbits and 96 raw cases. Cell 4 is now
+  33/105 paid labels, with 72 labels in 42 quotient orbits live. The next
+  parallel-`DE` orbit is `{8,13}`.
+- Two new background PROVED nodes; critical census remains `231=167/36/28`.
+  Sectioned-document, DAG, crosswalk, orbit, focused replay, and negative-
+  control checks pass. Fable canonical remains `5c98633e1`; upstream main
+  remains `93fba1be`.
