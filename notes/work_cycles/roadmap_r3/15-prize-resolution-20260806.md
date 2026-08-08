@@ -3730,3 +3730,42 @@ compute:                   Modal apps ap-UGTRxHvSZteecD6UcEscYD, ap-Jc9a3zuxX9HL
 live compute requests:     none
 next:                      route the 105 cell-12 outside labels against the fixed kernel
 ```
+
+### Cell-12 rational leading-boundary complete exclusion
+
+The structural decomposition left eight deployed rational points outside
+the generic four-basis chart. For each point and target lane, the global
+kernel determines the missing product `m` and squared sum `S` at
+`x=-t^2`. Missing roles `0..4` then have four exact two-coordinate lifts and
+one free target coordinate. Both endpoint roles fail a nonzero source-only
+compatibility equation.
+
+The primary finite census substituted every lift into all three residual
+pair equations and every target guard. Its exact coverage is
+
+```text
+8 points * 4 target lanes * 7 missing records * 15 matchings = 3,360 labels.
+```
+
+All 32 shards completed with zero witnesses and zero unresolved branches.
+The independent audit reconstructed square roots with Tonelli-Shanks and
+used `gcd(G,y^p-y)` followed by target-guard factor removal instead of root
+factorization. It also completed all labels, with no free branch and total
+guarded root degree zero. The generic elliptic leading-open curve is now the
+only principal cell-12 frontier.
+
+```text
+starting pin:              4e3556f71
+ending mathematical pin:  a482d19b2
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12 boundary
+result:                    CLOSED all deployed rational leading-boundary outside systems
+DAG status delta:          +1 background PROVED (1782 -> 1783); critical orbit unchanged
+upstream terminal delta:   portable exact 3360-system finite packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-WZvIMr7B4J34FR0TsNOTqZ and ap-LI2VGTAZjNrxqXGCFpBcS5
+live compute requests:     none
+next:                      quotient and attack the generic elliptic 105-label ledger
+```
