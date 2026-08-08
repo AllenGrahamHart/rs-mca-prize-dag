@@ -3583,3 +3583,46 @@ compute:                   bounded Modal, final app ap-CeL2YMFG6ppa6aHpWDhM3T
 live compute requests:     none
 next:                      close representative matching 8, then transport to 13 and xi4
 ```
+
+### Cell-4 xi3/xi4 pairing-8/13 closure
+
+At `xi=3`, matching 8 has residual pairs
+
+```text
+(de,sigma_o ef), (de,sigma_c cf), (-de,bf).
+```
+
+The two non-lane paired equations are quadratics in `q=de`. Their exact
+Sylvester resultant has degree eight in `z=1/d`. Reduction modulo the
+missing-sum quartic and exact `z -> -z` elimination leave a linear common-
+root cut in the four-basis source tower.
+
+Across eight source-sign/`sigma_c` rows, the degree-4068 norm ledger has 48
+target roots, 64 candidate `r` roots, and 32 guarded source points. Direct
+replay gives 16 compatible `z` values and 16 compatible `q` values. All 32
+remaining-pair `sigma_o` evaluations are nonzero; there are no target
+boundaries, witnesses, free branches, or unresolved strata. The independent
+verifier recomputes the resultant, root unions, source lifts, and matching-8
+sign placement.
+
+The parallel-`DE` exchange transports matching 8 to 13, and the universal
+outside-role involution transports both to `xi=4`. The two PROVED nodes pay
+four labels, two quotient orbits, and 64 raw cases. Cell 4 is now 101/105
+paid, with four labels in two quotient orbits live. The independent frontier
+is the single matching-exchange pair `{11,14}`.
+
+```text
+starting pin:              4f7b9454a
+ending mathematical pin:  4aeee3a2d
+canonical prize pin:       87ad3be1a
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-8/13 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-M2MiquWgaRzmJgiqN1Cumc
+live compute requests:     none
+next:                      close representative matching 11, then transport to 14 and xi4
+```
