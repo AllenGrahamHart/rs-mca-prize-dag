@@ -67,6 +67,9 @@ still `TARGET`.
 - `attack_addenda/28-wave66-positive-433-cell4-xi3-pairings1-2.md`: exact
   reciprocal-linear exclusions at `xi=3`, matchings 1 and 2, plus both
   `xi=4` transport payments; six matching-exchange pairs remain.
+- `attack_addenda/29-wave67-positive-433-cell4-xi3-pairing3-6.md`: exact
+  sign-free reciprocal-square exclusion at `xi=3`, matching 3, plus the
+  matching-6 and both `xi=4` transports; five exchange pairs remain.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

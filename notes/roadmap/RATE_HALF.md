@@ -40,6 +40,11 @@ matching-exchange orbits. The reciprocal-linear theorem now pays `xi=3` at
 fixed matchings 1 and 2, and the universal transport pays both `xi=4`
 partners. Cell 4 is 81/105 paid. The live frontier is 24 labels in 12
 quotient orbits: 12 independent `xi=3` labels in six matching-exchange pairs.
+The sign-free reciprocal-square theorem now pays matching 3; matching
+exchange pays 6 and the universal outside-role transport pays both `xi=4`
+partners. Cell 4 is 85/105 paid. The live frontier is 20 labels in 10
+quotient orbits: ten independent `xi=3` labels in five matching-exchange
+pairs.
 
 ## Node hierarchy
 
@@ -69,7 +74,9 @@ cell-4 four-basis tower
                      |
           xi3 matchings 1 and 2           [PROVED]
                      |
-          six matching-exchange pairs      [next exact decision]
+          pairing-3/6 exchange block        [PROVED]
+                     |
+          five matching-exchange pairs      [next exact decision]
                      |
              complete cell 4
                      |
