@@ -1397,3 +1397,24 @@ checks every one of the 24 leading-boundary transports.
 This closes missing `DF`, matching `0`, and its exact `D/E` partner: two
 labels or one generic orbit. Cell `12` now has 19 representatives and 64
 labels open. Total incremental Modal cost was well below `$1`.
+
+**Reciprocal-role matchings-1/2 closure.** The same pinned-AST strategy
+reuses the audited cell-4 reciprocal-linear compiler for cell `12`. The
+missing Vieta quartic in `z=1/d` and the matching-specific quadratic have a
+linear remainder in the exact four-basis algebra. One-row adapter validation
+app `ap-VHGJqSCvU83mITBwKamC3h` completed before the complete 36-row run.
+
+Full app `ap-fzs25UIEv1GTD1kKhPy0kG` covered all source signs, three rational
+`q` branches, and the required matching anchors. The retained census has 244
+target-norm roots, 620 total norm/inverse candidates, 1,040 guarded source
+points, 80 common nonzero `z` candidates, and 192 final-lane evaluations.
+All 36 rows are complete and every final value is nonzero. The 36 free-`b`
+compiler exits evaluate exactly on the already-paid cell-12 leading
+boundary; no other unresolved branch occurs.
+
+An independent verifier reconstructs 125 unique finite-field polynomials,
+all 576 profile visits, every candidate-root union and leading-boundary
+transport, and all final lanes. This closes matchings `1` and `2` for missing
+`DF` and their exact `D/E` partners: four labels or two generic orbits. Cell
+`12` now has 17 representatives and 60 labels open. The run was bounded and
+well below `$1`.

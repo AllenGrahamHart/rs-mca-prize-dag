@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-12 reciprocal-linear pairings 1-2 exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of missing DF and its D/E transport partner at residual matchings 1 and 2 in cell 12",
+    "statement": "On the guarded product-rank-five positive 433-1b to O0a route in cell 12, the outside labels with missing record DF and residual matchings 1 and 2 are empty over the deployed field. The first residual pair gives three complete rational q branches. The reciprocal missing-pair equation and matching-specific second pair equation reduce to a linear remainder cut whose exact four-basis norm is replayed on all 36 branch rows. The packet contains 620 candidate roots, 1,040 guarded source points, 80 common z candidates, and 192 final target-lane evaluations. Every final pair is nonzero, with no witness or unresolved branch. Exact D/E outside transport closes the two partner missing-EF labels, and the rational leading boundary is paid by a parent theorem. Thus four labels, two generic orbits, are closed. No other matching or cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairings1_2_template_adapter_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_xi3_pairings1_2_template_adapter_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_modal.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

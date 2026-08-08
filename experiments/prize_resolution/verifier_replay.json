@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion/verify.py",
-      "seconds": 0.037422,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/verify.py",
+      "seconds": 0.043067,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 reciprocal pairing 0: rows=24 candidates=340 lanes=192\n"
+      "stdout_tail": "PASS cell-12 reciprocal pairings 1-2: rows=36 candidates=620 lanes=192\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
-      "seconds": 26.283572,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion/verify_audit.py",
+      "seconds": 44.499148,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS reciprocal adapter audit: profiles=360 unique=89 boundary=24\n"
+      "stdout_tail": "PASS reciprocal-linear adapter audit: profiles=576 unique=125 boundary=36 lanes=192\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
