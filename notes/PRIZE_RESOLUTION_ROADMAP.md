@@ -21253,6 +21253,47 @@ compute:                   bounded Modal, final app ap-FvpQcJ8FuxEK0TRI6DiZet
 live compute requests:     none
 next:                      close representative matching 3, then transport to 6 and xi4
 ```
+
+### Cell-4 xi3/xi4 pairing-3/6 closure
+
+At `xi=3`, matching 3 has residual pairs
+
+```text
+(de,-de), (de,sigma_o ef), (bf,sigma_c cf).
+```
+
+With `z=1/d` and `y=z^2`, the missing-sum relation is quadratic in `y`.
+The colored pair is a general quartic `C(z)=E(y)+zO(y)`. The sign-free
+identity `C(z)C(-z)=E(y)^2-yO(y)^2` produces a quartic in `y`; reducing it
+modulo the missing quadratic leaves a linear remainder and hence a
+division-free common-root cut in the four-basis tower.
+
+Across eight exact rows, the complete candidate union has 60 `r` roots and
+16 guarded source points. Eight common `z` lifts survive. Each has two roots
+of `Pair(q,-q)`, but neither root satisfies
+`Pair(q,sigma_o*q*m*z^2)` in either outside-sign lane. Thus zero `q`
+candidates, target boundaries, witnesses, or unresolved strata remain.
+
+The parallel-`DE` exchange transports matching 3 to 6 at fixed `xi`; the
+universal outside-role involution then transports both to `xi=4`. The two
+PROVED nodes pay four labels, two parallel-`DE` quotient orbits, and 64 raw
+cases. Cell 4 is now 85/105 paid, with 20 labels in 10 quotient orbits live.
+
+```text
+starting pin:              5a7d7265b
+ending mathematical pin:  817b1dcb0
+canonical prize pin:       00e28e1ba
+upstream reference pin:    93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED xi3/xi4 pairing-3/6 orbit
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact 64-case packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-6XSVCn7sZu2uToXIzZ9J3E
+live compute requests:     none
+next:                      close representative matching 4, then transport to 9 and xi4
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

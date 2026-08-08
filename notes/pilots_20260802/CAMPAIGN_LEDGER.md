@@ -3441,3 +3441,23 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
 - Critical census remains `231=167/36/28`. Sectioned-document, DAG,
   crosswalk, orbit, protocol, focused replay, and refactor checks pass.
   Fable canonical is `00e28e1ba`; upstream reference pin is `93fba1be`.
+
+## 2026-08-08: CODEX WAVE-67 READY (pin 817b1dcb0) — cell-4 xi3/xi4 pairing-3/6 orbit closed
+
+- Missing `df` at matching 3 is PROVED empty. The colored-pair quartic is
+  split into its even/odd `z` parts, sign-eliminated in `y=z^2`, and reduced
+  modulo the missing-sum quadratic to a linear-remainder common-root cut.
+- Across eight rows, the exact ledger has 60 candidate `r` roots, 16 guarded
+  source points, eight common `z` lifts, and zero common roots between the
+  antipodal and outside-pair q quartics. There are no target boundaries,
+  witnesses, free branches, or unresolved strata. Final Modal app
+  `ap-6XSVCn7sZu2uToXIzZ9J3E`; independent degree-1112 root-union and finite
+  replay PASS.
+- Parallel-`DE` matching exchange supplies pairing 6, and universal
+  outside-role transport supplies both `xi=4` partners. Two new background
+  PROVED nodes pay 64 raw cases, four labels, and two quotient orbits. Cell
+  4 is now 85/105 paid; 20 labels in 10 quotient orbits remain, represented
+  by ten `xi=3` labels in five matching-exchange pairs.
+- Critical census remains `231=167/36/28`. Sectioned-document, DAG,
+  crosswalk, orbit, protocol, focused replay, and refactor checks pass.
+  Fable canonical is `00e28e1ba`; upstream reference pin is `93fba1be`.
