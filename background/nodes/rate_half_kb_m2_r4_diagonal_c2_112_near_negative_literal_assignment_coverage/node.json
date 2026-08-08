@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+    "title": "KoalaBear near-negative literal-assignment coverage",
+    "status": "PROVED",
+    "closure": "all 48 literal near-negative assignment/root cells are excluded componentwise",
+    "statement": "The aligned-negative literal identities show that every monic reconstructed negative q-slice residual has constant term one. A near target Omega={xi,d} therefore forces (xi d)^2=1. The plus branch is a reciprocal J_0/J_1 label collision. On the minus branch d=-1/xi, and c+d=0 would also be a label collision, so one generic reconstruction minor covers every admissible point. Directly compile the twelve literal source-star assignments and four literal xi roots. Their 48 cells contain 64 genuine consistency components after determinant units are removed. On every component the complete q-slice coefficient ideal is unit on the named open under both one-step Rabinowitsch localization and independent sequential saturation over characteristic 2130706433. Hence the near-negative literal residual is empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_classify.sage",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_classify_modal.py",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_all_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_all_sequential_output.json",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage"}
+  ],
+  "refutes": []
+}

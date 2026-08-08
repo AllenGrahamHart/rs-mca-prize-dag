@@ -4,9 +4,9 @@
   "node": {
     "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
     "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
-    "status": "CONDITIONAL",
-    "closure": "conditional complete source-line exclusion with literal-assignment coverage still targeted",
-    "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, but those orbits are not automatically covariance orbits of the full q-slice system. The local aligned-positive leaves compile the canonical {F00,M00} x {R02,R11,R20} systems, and the near leaves close their printed charts. Conditional on a literal-assignment coverage theorem that classifies every remaining assignment or proves a complete-system restricted symmetry, these leaves compose to exclude the saturated source-line branch. Coordinate/source-cover branches and later assembly remain open.",
+    "status": "PROVED",
+    "closure": "complete saturated source-line exclusion with every literal assignment classified",
+    "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, and the colored quotient compiler partitions them into aligned and near-aligned targets. Generic orbit covariance is not assumed. The proved literal-assignment theorem directly covers all aligned-positive, affine near-positive, projective-boundary positive, aligned-negative, and near-negative literal cells. Together with the reconstruction and q-slice/full-quotient leaves, this exhausts and excludes every saturated source-line packet. Coordinate/source-cover branches and later assembly remain open.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",

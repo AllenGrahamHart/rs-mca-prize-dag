@@ -8,8 +8,8 @@
    `{F00,M00} x {R02,R11,R20}`.
 4. Generic endpoint normalization is not licensed because it fails to
    preserve the target and source divisor simultaneously.
-5. The existing aligned and near leaves retain PROVED status at their
-   printed scopes; only the branch-level promotion is downgraded.
+5. The direct literal aggregate is now PROVED, so branch-level promotion no
+   longer relies on combinatorial orbit transitivity.
 6. Full-quotient exclusions are used where the q-slice itself has survivors;
    no false q-slice-emptiness claim is introduced.
 7. No conclusion is drawn about coordinate/source-cover orientations or

@@ -37,9 +37,11 @@ All 48 literal positive projective-boundary cells are also q-slice empty
 under dual exact saturation certificates. The aligned-negative branch is
 now empty on a complete direct two-chart cover: all 24 assignment/chart
 cells and all 32 survivor components pass the exact coefficient-identity
-certificate. The remaining frontier is precisely the 48 near-negative
-assignment/root cells. They must close before the complete source-line
-theorem can return to PROVED.
+certificate. The final 48 near-negative assignment/root cells are also
+empty: the exact constant-term split removes the collision branch, and 64
+direct specialized component ideals are unit under both one-step and
+sequential localization. The literal-assignment frontier is now empty, so
+the aggregate and complete source-line theorem return to PROVED.
 
 The obvious reciprocal-pair-swap extension is closed as a route: exact
 target transport holds, but no literal destination carries the reconstructed

@@ -21336,3 +21336,22 @@ remaining literal gap:    48 near-negative assignment/root cells
 Modal:                    6.61--475.22s/cell; peak <=1293924 KiB
 next:                     compile the near-negative literal census
 ```
+
+The exact aligned constant identity reduces every near-negative cell to two
+branches. `xi*d=1` is a reciprocal-label collision. On `xi*d=-1`, substitute
+`d=-1/xi`; the complementary `c+d=0` chart would then be another label
+collision. The remaining three-variable systems compile directly for all
+twelve assignments and four literal roots. Their 64 genuine consistency
+components are unit under both one-step Rabinowitsch localization and
+independent sequential saturation.
+
+```text
+new result:               near-negative literal coverage PROVED
+literal census:           48/48 assignment/root cells
+component census:         32 fixed-moving + 32 moving-moving = 64
+dual audit:               64/64 primary and 64/64 sequential unit
+Modal:                    primary <=9.57s; audit <=11.89s; peak <=405168 KiB
+aggregate promotions:     literal-assignment coverage PROVED
+                           complete c2(1,1,2) source-line exclusion PROVED
+remaining c2 branches:    coordinate/source-cover and later assembly
+```

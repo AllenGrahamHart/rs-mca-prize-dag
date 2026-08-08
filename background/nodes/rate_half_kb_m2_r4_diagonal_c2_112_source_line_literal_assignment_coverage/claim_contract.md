@@ -22,5 +22,6 @@
 | positive projective boundary | all `12 x 4 = 48` literal cells PROVED q-slice empty under dual exact saturation |
 | aligned-negative literal census | all `12 x 2 = 24` chart cells and `32` survivor components PROVED empty |
 | affine covariance route cut | reciprocal-pair swap transports targets but has no residual destination among the 12 assignments in either root order |
-| consequence when proved | repairs the missing premise of complete source-line exclusion |
-| remaining frontier | `12 x 4 = 48` near-negative literal assignment/root cells |
+| near-negative literal census | all `12 x 4 = 48` cells and `64` survivor components PROVED empty under dual saturation |
+| consequence | repairs the missing premise of complete source-line exclusion |
+| remaining frontier | none |

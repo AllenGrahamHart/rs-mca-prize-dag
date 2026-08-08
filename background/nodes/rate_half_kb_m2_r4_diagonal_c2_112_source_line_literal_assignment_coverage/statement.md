@@ -1,6 +1,6 @@
 # KoalaBear source-line literal-assignment coverage
 
-- **status:** TARGET
+- **status:** PROVED
 - **scope:** every literal internal source-star assignment in the saturated
   diagonal `c2(1,1,2)` source-line branch
 - **evidence:**
@@ -27,10 +27,12 @@
   `rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage`
 - **aligned-negative literal coverage:**
   `rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage`
+- **near-negative literal coverage:**
+  `rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage`
 - **consumer:**
   `rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion`
 
-Prove complete source-bound coverage without using generic endpoint-only
+Complete source-bound coverage without using generic endpoint-only
 Möbius covariance. It is enough to provide either:
 
 1. a literal compiler and first-match classification for every assignment,
@@ -194,8 +196,18 @@ hold on every component and exclude all of them:
 aligned-negative literal residual = empty.         (KBCOV-10)
 ```
 
-The sole remaining obligation is literal coverage for the 48 near-negative
-assignment/root cells.
+The final 48 near-negative assignment/root cells reduce by the exact residual
+constant identity to `xi*d=-1`; the plus branch is a label collision. Direct
+three-variable classification on all 64 specialized consistency components
+is unit under both Rabinowitsch and sequential localization:
+
+```text
+near-negative literal residual = empty.            (KBCOV-11)
+```
+
+Every literal aligned-positive, affine near-positive, positive projective
+boundary, aligned-negative, and near-negative cell is now classified. Hence
+the source-line literal-assignment coverage theorem is PROVED.
 
 ## Falsifier
 

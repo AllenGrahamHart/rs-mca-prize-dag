@@ -19400,9 +19400,9 @@
   {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
    "title": "KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion",
-   "status": "CONDITIONAL",
-   "closure": "conditional complete source-line exclusion with literal-assignment coverage still targeted",
-   "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, but those orbits are not automatically covariance orbits of the full q-slice system. The local aligned-positive leaves compile the canonical {F00,M00} x {R02,R11,R20} systems, and the near leaves close their printed charts. Conditional on a literal-assignment coverage theorem that classifies every remaining assignment or proves a complete-system restricted symmetry, these leaves compose to exclude the saturated source-line branch. Coordinate/source-cover branches and later assembly remain open.",
+   "status": "PROVED",
+   "closure": "complete saturated source-line exclusion with every literal assignment classified",
+   "statement": "The saturated defect classifier leaves 96 labeled source-line c2(1,1,2) packets in 12 matching-preserving combinatorial orbits, and the colored quotient compiler partitions them into aligned and near-aligned targets. Generic orbit covariance is not assumed. The proved literal-assignment theorem directly covers all aligned-positive, affine near-positive, projective-boundary positive, aligned-negative, and near-negative literal cells. Together with the reconstruction and q-slice/full-quotient leaves, this exhausts and excludes every saturated source-line packet. Coordinate/source-cover branches and later assembly remain open.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/README.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion/audit.md",
@@ -30144,6 +30144,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+   "title": "KoalaBear near-negative literal-assignment coverage",
+   "status": "PROVED",
+   "closure": "all 48 literal near-negative assignment/root cells are excluded componentwise",
+   "statement": "The aligned-negative literal identities show that every monic reconstructed negative q-slice residual has constant term one. A near target Omega={xi,d} therefore forces (xi d)^2=1. The plus branch is a reciprocal J_0/J_1 label collision. On the minus branch d=-1/xi, and c+d=0 would also be a label collision, so one generic reconstruction minor covers every admissible point. Directly compile the twelve literal source-star assignments and four literal xi roots. Their 48 cells contain 64 genuine consistency components after determinant units are removed. On every component the complete q-slice coefficient ideal is unit on the named open under both one-step Rabinowitsch localization and independent sequential saturation over characteristic 2130706433. Hence the near-negative literal residual is empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_classify.sage",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_classify_modal.py",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_all_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/near_negative_literal_all_sequential_output.json",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
    "title": "KoalaBear near-positive 30-cell direct residual registry",
    "status": "PROVED",
@@ -30409,16 +30429,17 @@
   {
    "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "title": "KoalaBear source-line literal-assignment coverage",
-   "status": "TARGET",
-   "closure": "compile and classify every literal source assignment without generic M\u00f6bius covariance",
-   "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all F02, F04, and F06 representatives. The M01/M02 block and the final M03 block are excluded by complete-chart classifications followed by direct first-quotient replay on their finite survivors. The affine near-positive direct residual is therefore empty. A separate direct compiler proves all 48 literal positive projective-boundary cells q-slice empty without endpoint normalization. Direct reconstruction on two complementary charts also proves all twelve aligned-negative assignments empty across 32 genuine consistency components. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Only the 48 near-negative assignment/root cells remain.",
+   "status": "PROVED",
+   "closure": "every literal source assignment is classified without generic M\u00f6bius covariance",
+   "statement": "The saturated diagonal c2(1,1,2) source-line literal registry is complete. The aligned-positive unramified registry has 36 semantic cells and is PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and all 30 direct representatives are excluded, with finite survivors rejected by direct first-quotient replay. A separate compiler proves all 48 literal positive projective-boundary cells q-slice empty. Direct two-chart reconstruction proves all twelve aligned-negative assignments empty across 32 genuine consistency components. Finally, the negative residual constant identity reduces all 48 near-negative assignment/root cells to 64 specialized consistency components, all unit under two exact localization formulations. Thus every literal cell is classified without generic endpoint covariance.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/claim_contract.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/dependency_subdag.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/frontier.md",
-    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md"
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/verify.py"
    ]
   },
   {
@@ -56981,13 +57002,28 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_f02_f03_upstream_import",
@@ -57535,6 +57571,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions",
    "kind": "req"
@@ -57570,9 +57616,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
@@ -57580,14 +57636,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
@@ -57610,14 +57681,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
-   "kind": "ev"
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_pair_swap_covariance_refutation",
@@ -57628,6 +57714,11 @@
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_quadratic_parity_reduced_evaluation_identity",
@@ -57745,6 +57836,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
    "kind": "req"
@@ -57752,6 +57848,11 @@
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
+   "to": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage",
    "kind": "req"
   },
   {

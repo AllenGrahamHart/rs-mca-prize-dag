@@ -3,19 +3,33 @@
   "node": {
     "id": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage",
     "title": "KoalaBear source-line literal-assignment coverage",
-    "status": "TARGET",
-    "closure": "compile and classify every literal source assignment without generic Möbius covariance",
-    "statement": "To complete the saturated diagonal c2(1,1,2) source-line branch, compile and classify every literal internal source-star assignment across target, sign, ramification, boundary, q-slice, and full quotient gates, or prove a restricted symmetry for that complete system. The aligned-positive unramified registry has 36 semantic cells and is completely PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and 30 direct representatives enter the exact residual registry. Dual exact certificates close all F02, F04, and F06 representatives. The M01/M02 block and the final M03 block are excluded by complete-chart classifications followed by direct first-quotient replay on their finite survivors. The affine near-positive direct residual is therefore empty. A separate direct compiler proves all 48 literal positive projective-boundary cells q-slice empty without endpoint normalization. Direct reconstruction on two complementary charts also proves all twelve aligned-negative assignments empty across 32 genuine consistency components. The natural reciprocal-pair-swap centralizer extension is exactly refuted. Only the 48 near-negative assignment/root cells remain.",
+    "status": "PROVED",
+    "closure": "every literal source assignment is classified without generic Möbius covariance",
+    "statement": "The saturated diagonal c2(1,1,2) source-line literal registry is complete. The aligned-positive unramified registry has 36 semantic cells and is PROVED by a disjoint seven-packet census. In the affine near-positive branch, two exact restricted q-slice transports reduce 108 semantic literal cells to 42 orbits: 12 contain the canonical F00/M00 systems and all 30 direct representatives are excluded, with finite survivors rejected by direct first-quotient replay. A separate compiler proves all 48 literal positive projective-boundary cells q-slice empty. Direct two-chart reconstruction proves all twelve aligned-negative assignments empty across 32 genuine consistency components. Finally, the negative residual constant identity reduces all 48 near-negative assignment/root cells to 64 specialized consistency components, all unit under two exact localization formulations. Thus every literal cell is classified without generic endpoint covariance.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/statement.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/attack.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/claim_contract.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/dependency_subdag.md",
       "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/frontier.md",
-      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md"
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md",
+      "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/verify.py"
     ]
   },
-  "requires": [],
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_36_cell_coverage"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_literal_inversion_transport"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_direct_residual_registry"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_square_orbit_exclusions"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f02_mixed_collision_exclusions"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f04_complete_chart_classification"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_f06_complete_chart_classification"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m01_complete_chart_classification"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_m03_complete_chart_classification"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_literal_coverage"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage"},
+    {"from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_literal_assignment_coverage"}
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

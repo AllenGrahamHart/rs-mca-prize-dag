@@ -20,5 +20,5 @@
    literal compiler and aligned-negative coverage as closed by its direct
    24-chart, 32-component certificate. Audit the 48 near-negative cells
    separately; do not infer them from positive transport.
-9. Promote this node only after a machine-checked literal coverage table has
-   no unclassified row.
+9. The machine-checked literal coverage table now has no unclassified row;
+   retain this list as the regression contract for the PROVED aggregate.

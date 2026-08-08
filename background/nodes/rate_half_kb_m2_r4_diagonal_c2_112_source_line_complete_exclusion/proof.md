@@ -50,9 +50,9 @@ The homogeneous endpoint theorem exhausts seven shards inside its printed
 normalization: three fixed-moving, two moving trace, and two moving
 constant-ratio shards.
 
-Assume now the literal-assignment coverage target. It licenses every needed
+The proved literal-assignment coverage theorem licenses every needed
 restricted symmetry or supplies a cell-specific classification, with no
 missing assignment, localizer, or degree-drop chart. The aligned and
 near-aligned target types then exhaust all literal packets, and the existing
-leaves exclude each classified cell. Under that premise no admissible
-saturated diagonal `c2(1,1,2)` source-line packet exists. QED conditionally.
+leaves exclude each classified cell. Therefore no admissible saturated
+diagonal `c2(1,1,2)` source-line packet exists. QED.

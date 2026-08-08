@@ -75,12 +75,12 @@ require(len(EXPECTED) == 32, "total dependency count")
 require(requirements == EXPECTED | {LITERAL_COVERAGE}, "DAG requirement coverage")
 require(all(nodes[item]["status"] == "PROVED" for item in EXPECTED),
         "dependency status")
-require(nodes[LITERAL_COVERAGE]["status"] == "TARGET", "coverage target status")
-require(nodes[NODE_ID]["status"] == "CONDITIONAL", "parent status")
+require(nodes[LITERAL_COVERAGE]["status"] == "PROVED", "coverage status")
+require(nodes[NODE_ID]["status"] == "PROVED", "parent status")
 
 print(
     "KB_C2_112_SOURCE_LINE_COMPLETE_EXCLUSION_COVERAGE_PASS "
-    "requirements=33 proved=32 target=1 aligned=8 near_negative=1 "
+    "requirements=33 proved=33 aligned=8 near_negative=1 "
     "near_positive_theorems=16 "
     "near_affine_charts=18 near_boundary_shards=7"
 )

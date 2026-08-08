@@ -1,6 +1,6 @@
 # KoalaBear m2 r4 diagonal c2 (1,1,2) complete source-line exclusion
 
-- **status:** CONDITIONAL
+- **status:** PROVED
 - **scope:** saturated diagonal `c2(1,1,2)` source-line packets over
   `F_(2130706433^6)`
 - **requires:** the exhaustive defect/quotient/reconstruction compilers and
@@ -22,12 +22,15 @@ coordinate fixed. The aligned-positive literal registry alone contains
 `12 x 3 = 36` semantic cells, whereas the local unramified leaves compile
 the canonical `F00/M00` systems.
 
-Conditional on the literal-assignment coverage target, the aligned negative,
-ramified positive, six canonical unramified leaves, near negative, 18
-affine-positive chart theorems, and seven projective-boundary shards compose
-to exclude every literal packet.
+The literal-assignment coverage theorem is now PROVED. Its direct registries
+cover all 36 aligned-positive cells, all affine near-positive transport
+orbits and direct representatives, all 48 positive projective-boundary
+cells, all 24 aligned-negative reconstruction charts, and all 48
+near-negative assignment/root cells. Thus the aligned negative, ramified
+positive, unramified positive, near negative, affine-positive, and
+projective-boundary leaves compose unconditionally to exclude every literal
+packet.
 
-Hence the complete saturated source-line `c2(1,1,2)` branch is excluded only
-conditional on the missing literal-assignment coverage theorem.
+Hence the complete saturated source-line `c2(1,1,2)` branch is excluded.
 Coordinate/source-cover branches and later packet/source-row assembly also
 remain open.
