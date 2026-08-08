@@ -21692,6 +21692,44 @@ compute:                   retained Modal apps ap-IJFw7P0QEymI25xOtUvIER, ap-g44
 live compute requests:     none
 next:                      transport or attack 20 generic representatives in roles xi=0,2,3
 ```
+
+### Cell-12 reciprocal-role pairing-0 payment
+
+Matching `0` after deleting `DF` begins with the equal-product pair
+`(de,de)`, which factors into three exact rational `q=B_i/A_i` branches. The
+reciprocal-square substitution `y=1/d^2` then turns the missing-pair and
+second-pair conditions into two quadratics. Their resultant can be normed
+through the same four-basis algebra used in the proved cell-4 mechanism.
+
+To avoid copying the 1,139-line compiler, a pinned AST adapter extracts its
+`evaluate_case` function unchanged and supplies the cell-12 tower through a
+small schema shim. The only new exceptional stratum was a free `b` relation
+exactly where the cell-12 `b`-leading coefficient vanishes; those 24
+case-labeled terminals route to the already proved boundary theorem.
+
+All 24 source-sign/branch/`sigma_o` rows complete. The exact packet contains
+340 candidate roots, 472 guarded source points, 48 common `y` rows, 96
+`(y,d)` candidates, and 192 final lane evaluations, all nonzero. An
+independent checker reconstructs 89 unique norm/inverse root sets, verifies
+complete direct coverage, and evaluates every leading-boundary transport.
+The exact `D/E` transport closes the partner role, paying two labels or one
+generic orbit. Cell `12` now has 19 representatives and 64 labels open.
+
+```text
+starting pin:              e49098559
+ending mathematical pin:  0a84688cf
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal roles at matching 0; 20 -> 19 representatives
+DAG status delta:          +1 background PROVED (1787 -> 1788); critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-MPpJc7ic8DzACr3qnqtl33 and ap-mMiXtJUDca1GdAHTkPorqD
+live compute requests:     none
+next:                      classify reciprocal matchings 1..14 and remaining parallel-DE orbits
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
