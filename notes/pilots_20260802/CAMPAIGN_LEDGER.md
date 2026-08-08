@@ -3150,3 +3150,22 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   cell independently replayed. Codex's in-flight (wave 52): the
   positive 433-1b cell4 ledger continues (one untracked experiment
   file left untouched).
+
+## 2026-08-08: WAVE-51 REPAIR — CATCH-W51: Codex broke the sectioned-archive invariant; repaired by extraction, chain restored GREEN
+
+- POST-MERGE the sectioned-node verify FAILED: three wave-51
+  commits appended 53 lines of live 433-1b campaign progress
+  IN-PLACE to the ARCHIVED attack_sections/12 packet of
+  rate_half_band_closure, breaking the lossless-decomposition sha
+  pin. Codex's OWN tree fails its OWN verifier (it does not run it
+  in its loop). REPAIR per the schema's semantics: the section
+  restored to its archived bytes; the 53 lines extracted VERBATIM
+  to attack_addenda/13-wave51-positive-433-cell4-campaign.md with
+  a provenance header stating the rule; registered in
+  document.json + the tool (addenda tuple AND index text) + the
+  attack.md index. Full chain GREEN (sectioned PASS, dag PASS,
+  census unchanged). STANDING RULE FOR THE WORKER (to propagate
+  via merge): campaign progress on sectioned nodes goes in
+  attack_addenda/, NEVER in attack_sections/; wave audits now
+  include running verify_sectioned in the Codex tree at the pin
+  BEFORE merging.
