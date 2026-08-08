@@ -3227,3 +3227,30 @@ marker and MUST pass this quarantine clause to any subagent.
   rule restated). USER DECISION SURFACED: exhibit-scoped /
   o(1)-sparsity / large-v_2 narrowing.
 - Awaiting: c2pp_gb_probe (the last of round 24).
+
+## 2026-08-08: round-24 agent 4 BANKED — BOTH C2'' falsifiers are dead as tests (G-b vacuous by theorem; G-a unreachable at 2^203 states); the freeze law + the first non-stacked r3 datapoint (4.5x); ROUND 24 COMPLETE (4/4)
+
+- c2pp_gb_probe BANKED (verify_law ALL CHECKS PASS replayed;
+  criterion scoring replayed; positive control 8/8 bit-exact).
+  G-b WITHDRAWN (omega_j's denominator is q-free => the junction
+  sum is schedule-bounded — firing impossible, silence
+  uninformative); G-a needs redesign (census squaring law: J=8
+  costs 2^203). Keepers: THE FREEZE LAW (census freezes at
+  log2 q = n/t; the official row lives entirely pre-saturation);
+  the middle-peaked shape; GB-5: R3_W = 11.34 bits over 4
+  junctions vs 2.545 window-scaled (4.5x, no transport claimed) —
+  the escalation target. Addendum applied; falsifier redesign =
+  round-25 item.
+- **ROUND 24 COMPLETE (4/4): the falsification fleet's ledger —
+  one conjecture KILLED before we chased it (family-uniform
+  emptiness, with the narrowing decision surfaced), one conjecture
+  SURVIVED and repriced (Z-CEILING at C >= 1.7681 + THEOREM RC +
+  the equivalence finding), one "missing lemma" FOUND ALREADY
+  PROVED in-repo (the sieve legalized, red 3 posable, CATCH-24A),
+  and one falsifier pair RETIRED by theorem with the first honest
+  datapoint on mystery 3's object. Four catches (24A own-repo
+  gate; 24B explicit-path adds; 24C filter bars; Z24-A count
+  formula). Round-25 queue: the narrowing decision execution; the
+  C2'' falsifier redesign + GB-5 escalation; the N=32 sigma~0
+  Z-CEILING band; the CJ2/CJ3 chart audit; red 3's membership
+  test on the newly posable rows; wave-52.**
