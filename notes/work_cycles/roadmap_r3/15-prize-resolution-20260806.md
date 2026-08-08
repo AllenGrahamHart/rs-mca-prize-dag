@@ -3922,3 +3922,40 @@ compute:                   Modal apps ap-VHGJqSCvU83mITBwKamC3h and ap-fzs25UIEv
 live compute requests:     none
 next:                      classify reciprocal matchings 3..14 and remaining parallel-DE orbits
 ```
+
+### Cell-12 reciprocal-role matching-3/6 payment
+
+Matching `3` after deleting `DF` uses the colored source pair to constrain
+`z=1/d`. The exact sign-free reciprocal-square reduction leaves two target
+polynomials in `q=de`. A pinned AST adapter applies the audited cell-4
+compiler to the cell-12 four-basis tower without copying or modifying the
+compiler function.
+
+All eight source-sign and `sigma_c` rows complete. The packet contains 68
+target-norm roots, 120 total norm/inverse candidates, 176 guarded source
+points, 40 common nonzero `z` lifts, and 80 final target-sign lanes. Eight
+free-`b` terminals lie exactly on the already proved leading boundary. No
+target candidate, witness, or unresolved branch remains.
+
+The independent audit reconstructs 45 unique finite-field polynomials and
+all 112 profile visits. It also rebuilds the source kernel at each lift and
+directly computes the two final `q` polynomials; all 80 gcds are constant.
+Duplicate-positive-`DE` exchange and exact outside `D/E` transport close the
+full `{3,6}` class for both missing roles, paying four labels or one generic
+orbit. Cell `12` now has 16 representatives and 56 labels open.
+
+```text
+starting pin:              847eba85b
+ending mathematical pin:  2e8866755
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal matching class 3/6; 17 -> 16 representatives
+DAG status delta:          +1 background PROVED (1789 -> 1790); critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square/sign-free adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-8WEM4ndbuvRT6z3fZqW44E and ap-gVXjM6KiAYRUMqc52sWMU7
+live compute requests:     none
+next:                      attack reciprocal matching class 4/9, then the four remaining classes
+```
