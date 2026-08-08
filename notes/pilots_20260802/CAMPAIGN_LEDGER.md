@@ -3388,3 +3388,16 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   labels in 18 quotient orbits. Critical census remains `231=167/36/28`.
   Sectioned-document, DAG, crosswalk, orbit, and protocol checks pass.
   Fable canonical is `00e28e1ba`; upstream main is `999b8f3a1`.
+
+## 2026-08-08: CODEX WAVE-64 READY (pin 7327fd5f9) — universal xi4/xi3 transport proved
+
+- The signed outside-role involution transposes exactly the `df` and
+  `sigma_o ef` atlas rows and fixes compact residual order, matching index,
+  guards, signs, lanes, and every one of the 15 common role cells.
+- The primary sparse-polynomial certificate checks 3,600 exact system
+  bijections. An independent integer implementation checks 31,104 rows.
+- One new background PROVED node pays no label by itself but halves the live
+  independent cell-4 obligation: the 30 labels in 18 `xi in {3,4}` quotient
+  orbits reduce to 15 `xi=3` labels in nine matching-exchange orbits.
+  Critical census remains `231=167/36/28`; all structural gates pass.
+  Fable canonical is `00e28e1ba`; upstream reference main is `999b8f3a1`.

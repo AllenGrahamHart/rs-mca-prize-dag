@@ -21126,6 +21126,45 @@ compute:                   bounded Modal, final app ap-e2M3bp83ckyLVeO9wqmAtd
 live compute requests:     none
 next:                      classify/transport the remaining df/ef roles
 ```
+
+### Universal xi4/xi3 outside-role transport
+
+The signed involution
+
+```text
+(d,e,f) -> (sigma_o*e,sigma_o*d,f)
+```
+
+transposes exactly the `df` and `sigma_o ef` product/squared-sum rows while
+fixing all other atlas rows, the compact residual order, matching index,
+target guards, source signs, and target lane. Because it acts only on the
+outside coordinates, its induced action on the five common roles is the
+identity; all 15 common role cells are fixed.
+
+The exact sparse-polynomial certificate verifies 3,600 role-cell/sign/lane/
+matching system bijections. An independent integer implementation replays
+31,104 coordinate/lane rows. Thus every future `xi=3` exclusion transports
+at identical scope to `xi=4`.
+
+No new label is paid by transport alone. Wave 63's 30 live labels in 18
+quotient orbits now require only 15 independent `xi=3` labels in nine
+matching-exchange orbits.
+
+```text
+starting pin:              8e489a863
+ending mathematical pin:  7327fd5f9
+canonical prize pin:       00e28e1ba
+upstream main pin:         999b8f3a1
+lane:                      MCA / K3 / coordinate-positive 433-1b
+result:                    PROVED universal xi4 <-> xi3 transport
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact transport packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   tiny local exact sparse-polynomial replay
+live compute requests:     none
+next:                      close the nine cell-4 xi3 matching orbits
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
