@@ -12078,3 +12078,30 @@ Together with the prior rational-boundary theorem, this promotes a scoped
 PROVED node closing both endpoint roles in cell `12`: 30 labels, or 12 of
 the 36 generic label orbits. The remaining generic workload is 24 orbit
 representatives covering 75 labels. No complete-cell or Prize claim follows.
+
+**Parallel-`DE` first-pair closure.** A direct eight-case Gröbner scout,
+app `ap-ktQn2vT3AeMkBlys9jk7wS`, timed out during rational simplification;
+a denominator-cleared, three-relation one-case retry,
+`ap-PLvdEvwn66TRIQmwJ4xIii`, also reached the five-minute cap. Neither app
+produced mathematical evidence. The retained four-basis formulation instead
+completed a validation in `ap-wl1LaLm9HAbluHk5R5YR5h`, all rows in
+`ap-mQsdrJxZ9czCBxKWyh4H2W`, and the final deterministic exact-coefficient
+packet in `ap-IJFw7P0QEymI25xOtUvIER`. The two target-free cuts have norm degrees 350
+and 362 and only eight and seven deployed roots per source-sign lane.
+
+Final direct replay app `ap-g44ta4GmDCL8N8V1NUvI4B` accounted for all 116
+case-labeled norm and inverse candidates. The negative-`DE` cut has no
+generic zero; the positive-`DE` cut has two per source-sign lane. An initial
+residual census and independent audit, apps `ap-0CVpkHNEHafBi9p0ZtE3MU`
+and `ap-lZUhVykRbSdgKPG2YucyTD`, exposed a missing compiler equation: using
+only `de=m` admits false projected witnesses. Restoring the mandatory Vieta
+equation `(d+e)^2=S` makes every guarded residual ideal unit. Final primary
+app `ap-OPmO1UlkaIs9vAkfUEA3Zl` and independent reduced-variable audit app
+`ap-XtMGYHQ33046N1viWrJobe` agree on 96 of 96 unit systems, with no witness
+or unresolved branch.
+
+This closes nine labels, or four more generic orbits. The cell-12 frontier
+is now 20 representatives covering 66 labels. The squared-sum omission is a
+hard fence for every future missing-record compiler. Retained work cost was
+below `$1`; the two failed direct scouts were bounded and are not to be
+relaunched.

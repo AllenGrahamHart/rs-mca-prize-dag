@@ -1,0 +1,299 @@
+{
+  "field": 2130706433,
+  "primary_complete": true,
+  "rows": [
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell12-parallel-de-audit-v1",
+  "scope": "Independent two-variable lex and deployed-root audit for the cell-12 positive-DE first-pair residual systems.",
+  "source_kernel_sha256": "2e373a17045777e1f7f15512d7fd34c2be1899da52f3b9d0a9d4e38942cab020",
+  "source_primary_sha256": "8e246ef55d1af90ed710bbd44c7aa456317e69582783a38738c5e479d9860197",
+  "source_replay_sha256": "d8b2f7136103c234e5843288ffa31be7ea621e4f7bdb8c4155feaa696faee0ee"
+}

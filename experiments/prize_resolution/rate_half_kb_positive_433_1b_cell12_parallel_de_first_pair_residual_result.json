@@ -1,0 +1,1001 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "db4cb8f9b554c44f55eb17ac7e1dcd66b38137ea9748add603be60f2c6792f01",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "e291b6af3c7afbbb829d1ebb409956d63d0c9d87f21233570b9407ba3e1083c0",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "7af9619c7c3f62fa7dee71a37e459a925cd5131fe392caacaa27ad84b89a464b",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "26e5411bf5bb5261df3b8169cc01ca31c59c766c9937411b255ea8275ed61ba8",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "7303f326befd5906e32d24b7770fd7a151d34f628c377fee92f021a280775593",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "0f19f1f263f1a1050393ec17c9be0b30b9ebfd0191973bdf8b8c42a46ec7ef84",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "4067096019fe58921010555bbc084bc7c72622eadd010956ed2a3f6c87b84064",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "6a64e0ed5d4ef8495b89a7b34cef3a6f38972ef9f707cd74c445c7f801e62633",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "db4cb8f9b554c44f55eb17ac7e1dcd66b38137ea9748add603be60f2c6792f01",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "e291b6af3c7afbbb829d1ebb409956d63d0c9d87f21233570b9407ba3e1083c0",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "7af9619c7c3f62fa7dee71a37e459a925cd5131fe392caacaa27ad84b89a464b",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "26e5411bf5bb5261df3b8169cc01ca31c59c766c9937411b255ea8275ed61ba8",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "7303f326befd5906e32d24b7770fd7a151d34f628c377fee92f021a280775593",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "0f19f1f263f1a1050393ec17c9be0b30b9ebfd0191973bdf8b8c42a46ec7ef84",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "4067096019fe58921010555bbc084bc7c72622eadd010956ed2a3f6c87b84064",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "nonunit_systems": [],
+      "program_sha256": "6a64e0ed5d4ef8495b89a7b34cef3a6f38972ef9f707cd74c445c7f801e62633",
+      "rows": [
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 0,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 0,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 1,
+          "point_index": 1,
+          "unit": true
+        },
+        {
+          "basis_size": 1,
+          "dimension": -1,
+          "pairing_index": 2,
+          "point_index": 1,
+          "unit": true
+        }
+      ],
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nSYS=0,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=0,END\nSYS=1,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=1,END\nSYS=2,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=2,END\nSYS=3,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=3,END\nSYS=4,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=4,END\nSYS=5,BEGIN\nDIM=-1\nSIZE=1\nUNIT=1\nSYS=5,END\nEND\n",
+      "systems": 6,
+      "unit_systems": 6
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell12-parallel-de-residual-v1",
+  "scope": "Exact guarded residual census for xi=0 and first-pair matchings 0,1,2 at every surviving P(m,-m) source point.",
+  "source_kernel_sha256": "2e373a17045777e1f7f15512d7fd34c2be1899da52f3b9d0a9d4e38942cab020",
+  "source_replay_sha256": "d8b2f7136103c234e5843288ffa31be7ea621e4f7bdb8c4155feaa696faee0ee"
+}
