@@ -20862,6 +20862,42 @@ compute:                   bounded Modal, final app ap-3ssYWiGc9bn3vctPUZcPAj
 live compute requests:     none
 next:                      attack the matching orbit {7,10}
 ```
+
+### Cell-4 pairing-7 orbit close
+
+Matching 7 is another exact degree-eight `u=ef` route.  Its two paired
+quadratics and final colored cut are
+
+```text
+P_u(u)=Pair(de,sigma_o*u),
+P_f(f)=Pair(second_de,bf),
+final=Pair(df,sigma_c*cf).
+```
+
+Across 32 computed rows, the exact ledger has 352 candidate roots, 384
+guarded source points, 1,168 `(u,f)` rows, 1,088 missing-relation failures,
+64 nonzero colored cuts, 16 `f=0` boundaries, and no witness or unresolved
+branch. Identical-copy transport supplies `xi=1`.
+
+The parallel-`DE` involution adds `(2,10)` but correctly leaves `(0,10)` and
+`(1,10)` open. Cell 4 now has 31/105 paid labels, with 74 labels in 43
+quotient orbits live.
+
+```text
+starting pin:              3107cba6c
+ending mathematical pin:  08fec0333
+canonical prize pin:       5c98633e1
+upstream main pin:         93fba1be
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 4
+result:                    CLOSED pairing 7; quotient-closed xi2/pairing 10
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable 64-case exact local packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   bounded Modal, final app ap-tl4qnwUTevKIzsxlTPRLyT
+live compute requests:     none
+next:                      close positive-DE matching 10
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
