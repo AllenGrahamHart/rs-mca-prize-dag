@@ -8,58 +8,31 @@ This lane attacks the deployed KoalaBear rate-half band required by
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
-[0], [1,2], [3,6], [14]
+[0], [1,2], [3,6], [4,7], [14]
 ```
 
 and retains:
 
 ```text
-[4,7], [5,8], [9,10], [11], [12,13].
+[5,8], [9,10], [11], [12,13].
 ```
 
-For representative cell 4, the common locus is an exact genus-two base with
-a four-element localized tower and a global coefficient kernel.  The
-`xi=0,pairing=0` slice is proved empty, exact parallel-copy transport pays
-`xi=1,pairing=0`, and a separate equal-`DE` norm/lift theorem pays
-`xi=2,pairing=0`. Thus all three parallel-`DE` omissions are closed at
-matching `0`. Canonical matchings `1` and `2` share the same first pair, so
-the three exclusions extend to the complete first-pair block. Exact direct
-and quotient closures have since completed matching blocks `3/6`, `4/9`,
-`5/12`, `7/10`, `8/13`, and `11/14`. In total all `3*15=45` parallel-`DE`
-slices are paid. A source-only endpoint theorem then pays every missing
-`bf` and missing `sigma_c cf` slice before matching specialization. Cell 4
-is therefore 75/105 paid; 30 labels in 18 of the 60 quotient orbits remain.
-These are exactly missing `df` and missing `sigma_o ef`, `xi in {3,4}`,
-across all 15 matchings. The universal signed outside-role transport pairs
-`xi=4` with `xi=3` at fixed role cell, signs, lane, and matching. Therefore
-only `xi=3` requires independent proof. The exact reciprocal-square theorem
-now excludes matching 0 and the universal transport pays its `xi=4` partner.
-Cell 4 is 77/105 paid; 28 labels in 16 quotient orbits remain. Independently,
-these are the 14 `xi=3` labels at matchings 1 through 14 in eight
-matching-exchange orbits. The reciprocal-linear theorem now pays `xi=3` at
-fixed matchings 1 and 2, and the universal transport pays both `xi=4`
-partners. Cell 4 is 81/105 paid. The live frontier is 24 labels in 12
-quotient orbits: 12 independent `xi=3` labels in six matching-exchange pairs.
-The sign-free reciprocal-square theorem now pays matching 3; matching
-exchange pays 6 and the universal outside-role transport pays both `xi=4`
-partners. Cell 4 is 85/105 paid. The live frontier is 20 labels in 10
-quotient orbits: ten independent `xi=3` labels in five matching-exchange
-pairs. The nested q/z sign-free theorem now pays matching 4; matching
-exchange pays 9 and the universal transport pays both `xi=4` partners.
-Cell 4 is 89/105 paid. The live frontier is 16 labels in eight quotient
-orbits: eight independent `xi=3` labels in four matching-exchange pairs.
-The colored second-pair nested theorem now pays matching 5; matching
-exchange pays 12 and the universal transport pays both `xi=4` partners.
-Cell 4 is 93/105 paid. The live frontier is 12 labels in six quotient
-orbits: six independent `xi=3` labels in three matching-exchange pairs.
-The quadratic-resultant sign-free theorem now pays matching 7; matching
-exchange pays 10 and the universal transport pays both `xi=4` partners.
-Cell 4 is 97/105 paid. The live frontier is eight labels in four quotient
-orbits: four independent `xi=3` labels in two matching-exchange pairs.
-The exchanged-partner resultant theorem now pays matching 8; matching
-exchange pays 13 and the universal transport pays both `xi=4` partners.
-Cell 4 is 101/105 paid. The live frontier is four labels in two quotient
-orbits: two independent `xi=3` labels in the pair `{11,14}`.
+Representative cell 4 is now complete. Its principal product-rank-five
+ledger is assembled from three independently verified, disjoint suppliers:
+
+```text
+parallel-DE xi={0,1,2}: 45 labels,  720 raw systems;
+outside     xi={3,4}:    30 labels,  480 raw systems;
+endpoints   xi={5,6}:    30 labels,  480 raw systems.
+```
+
+The union is all `7*15=105` labels and 1,680 raw systems. The global
+product-rank-drop theorem excludes the complementary rank branch, so role
+cell 4 is PROVED empty. Exact `B/C` duplicate-role transport then maps every
+principal cell-7 system bijectively to cell 4 while the global rank-drop
+theorem covers cell 7's exceptional branch. Therefore orbit `[4,7]` is
+PROVED empty. Historical matching-by-matching details remain in
+`critical/nodes/rate_half_band_closure/attack_addenda/13-*` through `34-*`.
 
 ## Node hierarchy
 
@@ -99,11 +72,15 @@ cell-4 four-basis tower
                      |
           pairing-8/13 exchange block       [PROVED]
                      |
-          pairing-11/14 exchange pair       [next exact decision]
+          pairing-11/14 exchange block        [PROVED]
                      |
-             complete cell 4
+          disjoint 105-label assembly         [PROVED]
                      |
-             role orbit [4,7]
+             complete cell 4                  [PROVED]
+                     |
+             role orbit [4,7]                 [PROVED]
+                     |
+       audit remaining role-cell orbits       [NEXT]
 ```
 
 This hierarchy is intentional: each child has a reusable exact statement,

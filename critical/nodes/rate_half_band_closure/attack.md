@@ -82,6 +82,9 @@ still `TARGET`.
 - `attack_addenda/33-wave71-positive-433-cell4-xi3-pairing8-13.md`: exact
   exchanged-partner quadratic-resultant exclusion at `xi=3`, matching 8,
   plus the matching-13 and both `xi=4` transports; one exchange pair remains.
+- `attack_addenda/34-wave72-positive-433-cell4-complete.md`: exact matching-11
+  resultant exclusion, final matching-14/xi4 transports, disjoint 105-label
+  cell-4 assembly, and complete duplicate-role orbit `[4,7]` closure.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

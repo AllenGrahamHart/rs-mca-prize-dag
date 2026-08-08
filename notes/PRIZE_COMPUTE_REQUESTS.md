@@ -11963,3 +11963,30 @@ resource cost below `$1` for the representative. The representative does not
 compress materially, so phase two and other-cell replay are not authorized.
 Any successor must first exhibit a block-level factorization or syzygy while
 `U,V,Z` remain unexpanded.
+
+### 2026-08-08 positive 433-1b cell-4 matching-11 exact replay
+
+**Decision.** Close the last live cell-4 matching-exchange orbit by exact
+quadratic-resultant elimination and complete finite-field replay. The user
+explicitly permits longer valuable Modal computations and renewed the monthly
+credit. The primary compiler retained eight source-sign/colored-lane rows,
+hard completion semantics, compact output, and a deterministic independent
+checker. Total one-CPU cost remained below `$1`; no WSL-heavy computation was
+used.
+
+**Execution.** Compiler app `ap-KZ72bRFmoRTN8VNueSuzDK` completed all eight
+rows. The first verifier app `ap-YnHNxRzPD9DpVJQrqp9SLP` exposed a stale
+expected eliminant degree (`8` instead of the recorded exact degree `6`), not
+a theorem failure. After repair, app `ap-hD8LPsYApvAxTnBAJS5d37` reached the
+generic 270-second replay cap. The content-identical replay with a 600-second
+remote-only cap, app `ap-74kOL7uM1Y7OHlIhM5mI1A`, passed in 372.41 seconds.
+All apps stopped normally.
+
+**Certificate and effect.** The complete root union has 60 candidate `r`
+values, 16 guarded source points, eight compatible `(z,q)` candidates, and
+16 nonzero final `Pair(-q,sigma_o ef)` evaluations, with no witness, target
+boundary, free branch, or unresolved row. The independent verifier
+recomputes all degree-3864/3868 norm roots and every source lift. This closes
+matching 11 directly; exact transports pay matching 14 and both xi4 partners.
+Separate disjoint-cover verifiers then close all 105 cell-4 labels and the
+duplicate-role orbit `[4,7]`.

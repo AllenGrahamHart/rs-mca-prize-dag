@@ -24,8 +24,8 @@ image = (
 )
 
 
-@app.function(image=image, cpu=1, memory=2048, timeout=290, max_containers=24)  # Heavy MITM verifiers need the full timeout.
-def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
+@app.function(image=image, cpu=1, memory=2048, timeout=650, max_containers=24)
+def run_verifier(payload: tuple[str, str, int]) -> dict[str, object]:
     import hashlib
     import os
     import subprocess
@@ -33,7 +33,7 @@ def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
     import time
     from pathlib import Path
 
-    rel, expected_hash = payload
+    rel, expected_hash, timeout_seconds = payload
     path = Path("/repo") / rel
     actual_hash = hashlib.sha256(path.read_bytes()).hexdigest()
     if actual_hash != expected_hash:
@@ -48,7 +48,7 @@ def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
             env=env,
             capture_output=True,
             text=True,
-            timeout=270,  # 150->270: heavy MITM search headroom (KB #107)
+            timeout=timeout_seconds,
         )
         return {
             "script": rel,
@@ -72,10 +72,12 @@ def run_verifier(payload: tuple[str, str]) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main(match: str = "") -> None:
+def main(match: str = "", timeout_seconds: int = 270) -> None:
+    if not 1 <= timeout_seconds <= 600:
+        raise ValueError("timeout_seconds must be in [1,600]")
     manifest = json.loads(MANIFEST.read_text())
     payloads = [
-        (rel, expected_hash)
+        (rel, expected_hash, timeout_seconds)
         for rel, expected_hash in manifest["scripts"].items()
         if match in rel
     ]
@@ -98,6 +100,7 @@ def main(match: str = "") -> None:
         "manifest_sha256": hashlib.sha256(MANIFEST.read_bytes()).hexdigest(),
         "complete": len(normalized) == len(payloads),
         "match": match,
+        "timeout_seconds": timeout_seconds,
         "counts": {
             status: sum(row["status"] == status for row in normalized)
             for status in ("PASS", "FAIL", "TIMEOUT", "HASH_MISMATCH", "REMOTE_ERROR")

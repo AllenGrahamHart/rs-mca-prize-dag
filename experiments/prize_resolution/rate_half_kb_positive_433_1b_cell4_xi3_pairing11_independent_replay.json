@@ -1,0 +1,13 @@
+{
+  "app_id": "ap-74kOL7uM1Y7OHlIhM5mI1A",
+  "compiler_sha256": "8f2fe8ca53863b2220ae60558b3f8d64269eec0f3952138679f2bc3a7069698b",
+  "complete": true,
+  "manifest_sha256": "4ea13e2b81c8b2c3da0e0473fbb2a58286ab44350f4146ac930b2f8e3d4dc1fb",
+  "result_sha256": "e6257ef93a029a96e0840ac774579349de588e3059c73db33b4e2fcad8f5f3d2",
+  "schema": "rate-half-kb-positive-433-1b-cell4-xi3-pairing11-independent-replay-v1",
+  "seconds": 372.405271,
+  "status": "PASS",
+  "stdout": "cell=4 xi=3 pairing=11 raw_cases=16 sign_lane_rows=8 candidate_r=60 source_points=16 z=8 q=8 lane_checks=16 witnesses=0",
+  "verifier": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify.py",
+  "verifier_sha256": "60163cdb4b5f4686f9a7a43845f6d815c3393b87eff8ed8c773448c4631ae002"
+}
