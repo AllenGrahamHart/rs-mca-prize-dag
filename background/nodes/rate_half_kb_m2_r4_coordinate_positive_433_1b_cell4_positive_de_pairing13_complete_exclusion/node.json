@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1839,
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-4 positive-DE pairing-13 exclusion",
+    "status": "PROVED",
+    "closure": "both positive-DE pairing-13 omissions are excluded by an exact degree-eight norm and direct lift",
+    "statement": "In deployed positive 433-1b role cell 4, canonical matching 13=((0,5),(1,3),(2,4)) is empty for the positive DE missing roles xi in {0,1}, all four source signs, and all four target lanes. A four-basis tower computation evaluates xi=0 in 16 exact rows; every norm or inversion-exception root is directly lifted, yielding 224 candidate r values, 208 target roots, 320 guarded source points, 960 nonzero missing-relation cuts, and 128 nonzero colored-pair cuts, with zero boundaries, witnesses, or unresolved branches. The identical positive DE copy transports xi=0 to xi=1. Thus all 32 stated raw cases are proved empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+      "order": 5110
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+      "order": 5111
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5112
+    }
+  ],
+  "refutes": []
+}

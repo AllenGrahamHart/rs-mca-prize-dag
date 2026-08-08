@@ -378,6 +378,10 @@ verified separately, so they do not rewrite that historical archive.
                 "critical/nodes/rate_half_band_closure/attack_addenda/21-wave59-positive-433-cell4-pairing8.md",
                 ("rate_half_band_closure",),
             ),
+            (
+                "critical/nodes/rate_half_band_closure/attack_addenda/22-wave60-positive-433-cell4-pairing13.md",
+                ("rate_half_band_closure",),
+            ),
         ),
         index="""# Rate-half adjacent-certificate attack index
 
@@ -429,6 +433,8 @@ still `TARGET`.
   `DE` pairing-10 exclusion and complete pairing-7/10 block.
 - `attack_addenda/21-wave59-positive-433-cell4-pairing8.md`: exact degree-eight
   pairing-8 exclusion and honest pairing-8/13 quotient composition.
+- `attack_addenda/22-wave60-positive-433-cell4-pairing13.md`: direct positive-
+  `DE` pairing-13 exclusion and complete pairing-8/13 block.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies

@@ -25,10 +25,10 @@ certificates required by the challenge.
 - The live coordinate-positive `433-1b -> O0a` role-cell-4 ledger has an
   exact parallel-`DE` quotient with 60 orbits. The first-pair block and the
   complete pairing-3/6 and pairing-4/9 nested-quadratic blocks, plus the
-  complete pairing-5/12 and pairing-7/10 blocks, plus the matching-8/13
-  quotient payment now pay 37 of 105 labels, leaving 68 labels in 40 orbits.
-  The positive matching-13 labels are the next target; see
-  `rate_half_band_closure/attack_addenda/21-wave59-positive-433-cell4-pairing8.md`.
+  complete pairing-5/12, pairing-7/10, and pairing-8/13 blocks now pay 39 of
+  105 labels, leaving 66 labels in 39 orbits. Matching 11/14 is the final
+  small-missing parallel-`DE` orbit; see
+  `rate_half_band_closure/attack_addenda/22-wave60-positive-433-cell4-pairing13.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;
