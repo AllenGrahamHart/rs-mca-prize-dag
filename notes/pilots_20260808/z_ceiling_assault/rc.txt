@@ -1,0 +1,53 @@
+========================================================================================================
+RC-A -- |Res(Phi_{2N}, f)| <= U^{N/2} and Res != 0, EXHAUSTIVE over ternary f (N=4,8)
+========================================================================================================
+   N       #f |     max|Res|        N^{N/2}    worst ratio Res=0 seen
+   4       80 |            9             16       1.000000      False
+PASS  RC-A |Res| <= U^{N/2}, exhaustive N=4 (80 ternary f)           worst ratio 1.000000
+PASS  RC-A Res != 0 (2-power gate), exhaustive N=4                   
+PASS  RC-A max|Res| <= N^{N/2} = 16, N=4                             
+   8     6560 |         2401           4096       1.000000      False
+PASS  RC-A |Res| <= U^{N/2}, exhaustive N=8 (6560 ternary f)         worst ratio 1.000000
+PASS  RC-A Res != 0 (2-power gate), exhaustive N=8                   
+PASS  RC-A max|Res| <= N^{N/2} = 4096, N=8                           
+PASS  RC-A |Res| <= U^{N/2}, 4000 random ternary f at N=16           worst ratio 1.000000  [0.6s]
+PASS  RC-A Res != 0, 4000 random ternary f at N=16                   
+
+========================================================================================================
+RC-B -- THE EXACT GATE.  A nonzero ternary f of degree < n/2 with Res(Phi_n,f)=0
+        exists iff n is NOT a 2-power (deg Phi_n = phi(n) < n/2).  = banked CZ-M.
+========================================================================================================
+    n   n/2   phi(n)   RELDIM | least weight of a ternary f with Res=0
+    8     4        4        0 | NONE  (gate HOLDS)
+PASS  RC-B gate HOLDS at 2-power n=8                                 
+   16     8        8        0 | NONE  (gate HOLDS)
+PASS  RC-B gate HOLDS at 2-power n=16                                
+   32    16       16        0 | NONE  (gate HOLDS)
+PASS  RC-B gate HOLDS at 2-power n=32                                
+   12     6        4        2 | 3
+PASS  RC-B gate FAILS at composite n=12                              least weight 3
+   24    12        8        4 | 3
+PASS  RC-B gate FAILS at composite n=24                              least weight 3
+   18     9        6        3 | 3
+PASS  RC-B gate FAILS at composite n=18                              least weight 3
+   20    10        8        2 | 5
+PASS  RC-B gate FAILS at composite n=20                              least weight 5
+   30    15        8        7 | 3
+PASS  RC-B gate FAILS at composite n=30                              least weight 3
+   36    18       12        6 | 3
+PASS  RC-B gate FAILS at composite n=36                              least weight 3
+
+========================================================================================================
+RC-C -- CONSEQUENCE (ii): TMASS = 1 EXACTLY for every admissible p > N^{N/2}
+========================================================================================================
+   N      N^{N/2}      PMAX |   #cells #p>bound #TMASS>1 | verdict
+   4           16     65536 |     1614     1614        0 | RC(ii) HOLDS   (largest p with TMASS>1: 0)
+PASS  RC(ii) TMASS = 1 for all admissible p > N^{N/2} at N=4 (1614 cells above the bound) violations: 0
+   8         4096    131072 |     1505     1439        0 | RC(ii) HOLDS   (largest p with TMASS>1: 881)
+PASS  RC(ii) TMASS = 1 for all admissible p > N^{N/2} at N=8 (1439 cells above the bound) violations: 0
+
+RC-D -- CONSEQUENCE (i): UMIN >= p^{2/N} at every cell with a nonempty kernel
+PASS  RC(i) UMIN >= p^{2/N} at every nonempty-kernel cell (233 cells) violations: 0 ; tightest: N=8 p=433 UMIN=5 vs p^{2/N}=4.5617 (slack x1.096)
+========================================================================================================
+TOTAL: 20 PASS / 0 FAIL
+========================================================================================================

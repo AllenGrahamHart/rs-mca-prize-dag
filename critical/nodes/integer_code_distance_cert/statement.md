@@ -110,3 +110,35 @@ loses >= 4.565e11 bits at the official row. One object, two
 targets: closing this node serves mystery 5's per-row line and
 mystery 2's terminal-adjacent form; it does NOT close the
 crossing crux.
+
+## Round-24 BOARD EVENT (2026-08-08, coordinator-replayed: kernel_window_hunt): THE FAMILY-UNIFORM EMPTINESS FORM IS FALSE
+
+**Witness of record (REPRO PASS, coordinator-replayed):** at the
+BLS-PROVEN 247-bit prime P = 18838259725604806405449165455743336372
+0577825648201882790490986150665597569, P = 1 mod 128, P < 2^256:
+Norm(w) = P exactly for a box vector with ||w||_1 = 127 <= 2l' =
+128, whose ternary lift is a NON-CYCLOTOMIC kernel vector of K_P.
+Plus 20,636 W_TOP hits (2,747 stored with all-distinct primes;
+probable primes labelled as such). AND the mis-filing catch: the
+repo has held EIGHT exhibited (w, p) pairs at N' = 256 (226-255
+bits) since July 2026 — the e1_n256 campaign's own audit dismissed
+a 248-bit prime as "below 2^250 and therefore harmless", filtering
+by PRIZE-INTERVAL membership instead of admissibility; the uniform
+form was already dead at N' = 256 on banked evidence.
+
+**CONSEQUENCE:** per this node's own status ruling, the
+"family-uniform theorem" branch is CLOSED OFF; the living branches
+are (a) EXHIBIT-SCOPED closure with every consumer formally
+narrowed, (b) an o(1)-SPARSITY re-pose (untouched — even
+supported — by the measurements), or (c) a LARGE-v_2 RESTRICTION:
+the generic witnesses have v_2(p-1) = 7 while EVERY pinned/deployed
+row has v_2(p-1) in [92, 200] — the witness rows cannot support
+the deployed 2^41+ smooth domains, making (c) a real and possibly
+defensible narrowing. THE CHOICE AMONG (a)/(b)/(c) IS SURFACED TO
+THE USER (genuine consumer-scope decision). Source:
+notes/pilots_20260808/kernel_window_hunt/ (repro_witness_proven.py
+REPRO PASS; calibration C1-C4 against the round-22 exhaustive
+ground truth; coverage 2^22.0 of the box; the novelty subtraction
+amended by the pilot itself — the N' = 128 exhibit and the stated
+conclusion are new; the forward-direction method and N' = 256
+exhibits are prior art).

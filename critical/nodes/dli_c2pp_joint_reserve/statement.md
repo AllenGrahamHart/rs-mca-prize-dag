@@ -114,3 +114,38 @@ Decision 6 reversed; B-WEAK-direct re-pose from mechanism data") —
 Decision 6's wiring is NOT reversed by this addendum (the
 conditional route stands; what changed is the EVIDENCE ledger and
 the pose of record).
+
+## Round-24 addendum (2026-08-08, coordinator-applied on replay: c2pp_gb_probe — the falsifier set revised; the first non-stacked datapoint)
+
+**G-b IS WITHDRAWN (vacuous in both directions, by theorem):**
+omega_j <= 1/P_U[coset column] with a q-FREE denominator
+(P_U[S_j empty] = 2^{h_{j+1}-n}, brute-verified), so the junction
+sum is bounded uniformly in q by a SCHEDULE constant (2^46 + 256
+bits at the official schedule — finite and q-free, so "growing
+without bound in q" has no referent; and the official admissible q
+set is FINITE anyway). Its silence also says nothing (the ceiling
+exceeds the reserve by 3.35e12). **G-a's depth is UNREACHABLE:**
+>= 8 consecutive junctions costs 2^203 census states (every extra
+junction squares the census); a testable falsifier needs a
+reachable depth or an analytic form — the falsifier clause of
+C2''-r3 is OPEN for redesign (coordinator: next-round item).
+
+**WHAT THE PROBE ESTABLISHED (J = 4, the deepest exact depth;
+positive control 8/8 bit-exact against the banked kernel):**
+(1) THE FREEZE LAW: every census freezes integer-identically once
+log2 q >= n/t (closed form verified; the constant states carry the
+saturated census). The official row has n/t = 256 and log2 q in
+[41, 256] — it lives ENTIRELY in the pre-saturation regime,
+terminating exactly at the freeze point: any q-growth argument
+about the official family lives only there. (2) THE SHAPE:
+middle-peaked (the deepest junction is the SMALLEST term at every
+depth cell); per-junction charge grows with n (2.66 -> 5.64 ->
+6.75 bits at n = 32/64/128; toy scope, no transport). (3) **THE
+FIRST NON-STACKED DATAPOINT on the r3 object (GB-5):** R3_W =
+11.34 bits over 4 consecutive junctions at (n=32, t=16) vs the
+window-scaled reserve 21*4/33 = 2.545 bits — a factor 4.5, with
+NO J -> 33 transport licensed and the U-induced skew law declared
+(divergence D-10). Not a G-a firing; not comfortable; the object
+worth escalating. Source: notes/pilots_20260808/c2pp_gb_probe/
+(verify_law ALL CHECKS PASS; analyze criterion scoring;
+coordinator-replayed).

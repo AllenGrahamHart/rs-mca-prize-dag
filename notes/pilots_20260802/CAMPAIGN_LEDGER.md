@@ -3170,6 +3170,90 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   include running verify_sectioned in the Codex tree at the pin
   BEFORE merging.
 
+## ROUND 24 LAUNCHED (2026-08-08) — QUARANTINE MARKER
+
+The high-impact conjecture falsification fleet (user directive:
+select the conjectures whose truth gives the biggest gains; try to
+falsify/sharpen them): z_ceiling_assault (mystery 2's candidate
+closure attacked in its worst directions + tractable-subfamily
+proof attempts), kernel_window_hunt (the family-uniform emptiness
+falsifier — the norm-cofactor prime hunt in the admissible window,
+with the N'=256 positive control), t_petal_lemma (prove-or-refute
+the overlap cap at t>=4 — the board's highest single-lemma
+leverage), c2pp_gb_probe (C2''-r3's registered G-b falsifier
+executed at toy scale — the first evidence-bearing C2''
+measurement). Pilots MUST NOT read ledger entries below this
+marker and MUST pass this quarantine clause to any subagent.
+
+## 2026-08-08: round-24 agents 1+2 BANKED — the t-petal lemma WAS ALREADY OURS (sieve legalized; red 3 posable; CATCH-24A minted); Z-CEILING SURVIVES repriced to C >= 1.7681 with THEOREM RC
+
+- **t_petal_lemma BANKED**: (JB3) at h = t*ell IS the lemma —
+  proved all along in l1_fixed_support_defect_johnson_bound; six
+  names hid it from three rounds (CATCH-24A: hard law 5's own-repo
+  grep now GATES every named-gate pricing). General-t proof
+  written + coordinator-verified (degree counting, no syzygy);
+  refutation search 0 violations at MIN_SLACK 0 with power
+  control firing; payoff executed (J-sieve legal at every t; 156
+  rows' payment legalized; residual 408 verbatim-identical). NEW:
+  the slice-dimension theorem dim V = e+1 at every t (391 cells +
+  proof draft) — RED 3'S MYSTERY-7 MEMBERSHIP NOW DECIDABLE; the
+  disjointness hypothesis free for primitive members. Next: audit
+  CJ2/CJ3 at M >= 5 (71 rows); the 23b membership test on red 3.
+- **z_ceiling_assault BANKED**: SURVIVES 59,203 cells; constant
+  repriced 1.2610 -> >= 1.7681 (headroom 3.95 bits); sigma -> -inf
+  proved safe; THEOREM RC proved (kernel dead above N^{N/2}; each
+  N-line a finite max); scope pinned (general subspaces FALSE at
+  25.23; the 2-power gate sharp with the composite closed form);
+  S2 EQUIVALENCE: Z-CEILING = the non-local smoothness-mass input
+  restated faithfully. CATCH-Z24-A applied (CZ-M count formula
+  false at two-odd-prime n; spine re-confirmed). Named next: the
+  N = 32 sigma~0 band (new algorithm/Modal).
+- Awaiting: kernel_window_hunt, c2pp_gb_probe.
+
+## 2026-08-08: round-24 agent 3 BANKED — FAMILY-UNIFORM EMPTINESS IS FALSE (proven-prime witness at N'=128; the N'=256 falsifiers were banked-and-missed since July); the narrowing decision SURFACED
+
+- kernel_window_hunt BANKED: REPRO PASS replayed (Norm(w) = P
+  exactly at the BLS-proven 247-bit P = 1 mod 128 < 2^256; support
+  127 <= 2l'; non-cyclotomic). 20,636 W_TOP hits. CATCH-24C: the
+  e1_n256 audit dismissed a 248-bit witness as "harmless" via the
+  wrong bar (prize-interval vs admissibility) — eight N'=256
+  falsifiers banked since July, conclusion never drawn. DEPLOYED
+  ROWS PROTECTED: v_2(p-1) = 7 generic vs 92-200 pinned. The
+  pilot self-amended its novelty claims when its sweep returned
+  (two retractions; headline free). Addenda applied
+  (integer_code_distance_cert board event; generator_economy
+  universal reading refuted; CATCH-24C). CATCH-24B disclosed
+  (my broad git add swept this live pilot's dir; explicit-path
+  rule restated). USER DECISION SURFACED: exhibit-scoped /
+  o(1)-sparsity / large-v_2 narrowing.
+- Awaiting: c2pp_gb_probe (the last of round 24).
+
+## 2026-08-08: round-24 agent 4 BANKED — BOTH C2'' falsifiers are dead as tests (G-b vacuous by theorem; G-a unreachable at 2^203 states); the freeze law + the first non-stacked r3 datapoint (4.5x); ROUND 24 COMPLETE (4/4)
+
+- c2pp_gb_probe BANKED (verify_law ALL CHECKS PASS replayed;
+  criterion scoring replayed; positive control 8/8 bit-exact).
+  G-b WITHDRAWN (omega_j's denominator is q-free => the junction
+  sum is schedule-bounded — firing impossible, silence
+  uninformative); G-a needs redesign (census squaring law: J=8
+  costs 2^203). Keepers: THE FREEZE LAW (census freezes at
+  log2 q = n/t; the official row lives entirely pre-saturation);
+  the middle-peaked shape; GB-5: R3_W = 11.34 bits over 4
+  junctions vs 2.545 window-scaled (4.5x, no transport claimed) —
+  the escalation target. Addendum applied; falsifier redesign =
+  round-25 item.
+- **ROUND 24 COMPLETE (4/4): the falsification fleet's ledger —
+  one conjecture KILLED before we chased it (family-uniform
+  emptiness, with the narrowing decision surfaced), one conjecture
+  SURVIVED and repriced (Z-CEILING at C >= 1.7681 + THEOREM RC +
+  the equivalence finding), one "missing lemma" FOUND ALREADY
+  PROVED in-repo (the sieve legalized, red 3 posable, CATCH-24A),
+  and one falsifier pair RETIRED by theorem with the first honest
+  datapoint on mystery 3's object. Four catches (24A own-repo
+  gate; 24B explicit-path adds; 24C filter bars; Z24-A count
+  formula). Round-25 queue: the narrowing decision execution; the
+  C2'' falsifier redesign + GB-5 escalation; the N=32 sigma~0
+  Z-CEILING band; the CJ2/CJ3 chart audit; red 3's membership
+  test on the newly posable rows; wave-52.**
 ## 2026-08-08: CODEX WAVE-52 READY (pin 25cf3aedf) — cell-4 pairing-3/6 exact close; honest quotient composition
 
 - The deployed positive `433-1b -> O0a` cell-4 pairing-3 block is PROVED:
@@ -3507,3 +3591,24 @@ ge_lattice_cert dir is off-limits; banked round-23 dirs
   crosswalk, orbit, protocol, focused replay, manifest, and refactor checks
   pass. Fable canonical is `00e28e1ba`; upstream reference pin is
   `93fba1be`. The next exact target is representative matching 7.
+
+## 2026-08-08: WAVE-52 INTEGRATED (exact pin cfe023690) — 36 PROVED cell-4 nodes, 36/36 replayed; the campaign at 93/105; census unchanged
+
+- Delta ac7d90f26..cfe023690 (40 commits): the positive 433-1b
+  cell-4 orbit campaign, closed pairing by pairing (0-5, 11, 13,
+  14 + endpoint roles + the universal xi4/xi3 transport) — 36 new
+  PROVED background nodes, ZERO status changes, 36/36 verifiers
+  coordinator-replayed at the pin (background batch, exit 0).
+  Codex's own cycle records (its internal waves 62-69) document
+  per-orbit exact ledgers with Modal replays under the RAMguard
+  ceiling; verify_sectioned PASSES AT THE PIN (the CATCH-W51 rule
+  held — Codex now files campaign records as REGISTERED addenda
+  14-23 on rate_half_band_closure, adopting the repair pattern).
+  Cell-4 state: 93/105 slices paid; 12 labels in six quotient
+  orbits remain (six xi=3 representatives in three matching-
+  exchange pairs; next target matching 7). Merge = exact pin;
+  three conflicts resolved (the tool + document.json + attack.md:
+  empty-HEAD vs Codex's addenda 14-23 registrations — took theirs
+  after verifying my addendum-13 survives in all three; the
+  ledger union-merged). Census unchanged 231 = 167/36/28; full
+  chain green.

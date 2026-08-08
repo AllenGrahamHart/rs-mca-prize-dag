@@ -80,3 +80,18 @@ It is empty when `g>N/4`; otherwise `d` lies between the two real roots of
 This is a per-source-chart exact-support payment. It does not count the
 nonpositive-denominator tail, sum non-intrinsic first-match charts, or handle
 unbounded petal polarity. It uses exact defect and saturation essentially.
+
+## Round-24 addendum (2026-08-08, coordinator-applied): (JB3) IS the t-petal overlap cap; two extensions drafted
+
+Put h = t*ell: (JB3) is the t-petal overlap-cap lemma verbatim
+(|D_1 cap D_2| <= r_J = e-1) and (JB4)'s denominator is the FPC5
+J-sieve functional — this node legalizes the large-source sieve at
+every t (see the round-24 correction on
+l1_fpc5_large_source_payment). Two coordinator-replayed extensions
+drafted at notes/pilots_20260808/t_petal_lemma/ (mint candidates):
+(a) the X-disjoint-from-C hypothesis is FREE for primitive members
+(gcd(F,W) = 1 forbids petal roots; machine-checked, 5671 members,
+360 overlapping configs, 0 exceptions); (b) THE SLICE-DIMENSION
+THEOREM: dim V = e+1 exactly at every t (kernel-line argument, no
+syzygy rank; machine-checked 391 cells, 155 saturated, 0
+exceptions).

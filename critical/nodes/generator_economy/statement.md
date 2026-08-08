@@ -100,3 +100,13 @@ threshold tables exact):
   (universal toy thresholds). The honest residue for this node is
   unchanged in kind: per-row certification is cheap; UNIVERSAL
   closure over the unbounded row set is the open content.
+
+## Round-24 addendum (2026-08-08): the (b)-route's universal form is REFUTED
+
+The family-uniform kernel-emptiness expectation behind GE-WEAK's
+universal reading is FALSE (witness at N' = 128, proven prime —
+see the round-24 board event on integer_code_distance_cert). The
+per-row line stands (E1-128 certified; Proth rows graded); the
+universal obligation must now go exhibit-scoped, o(1)-sparse, or
+large-v_2-restricted (v_2(p-1) >= 92 on every deployed row vs 7
+generic) — surfaced for user decision.

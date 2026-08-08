@@ -1,0 +1,161 @@
+========================================================================================================
+E2/E1/E6 -- exact DP vs the VERBATIM round-23 weight enumerators; Z-FLOOR; grid asserts
+========================================================================================================
+ fam    N   k       p | TMASS exact            TMASS ref(round23)        agree |    CRATIO     SIGMA   ZFRATIO
+  M4    4   1      17 | 1                      1                          True |   0.53125    -0.087    1.0625
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=4 k=1 p=17   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=4 k=1 p=17    ZFRATIO 1.062500
+  M4    4   1      41 | 1                      1                          True |   0.73214    -1.358    2.5625
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=4 k=1 p=41   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=4 k=1 p=41    ZFRATIO 2.562500
+  M4    8   1      17 | 241/16                 241/16                     True |   0.94141     3.913    1.0002
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=8 k=1 p=17   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=8 k=1 p=17    ZFRATIO 1.000244
+  M4    8   1      97 | 23/8                   23/8                       True |   0.79226     1.400    1.0894
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=8 k=1 p=97   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=8 k=1 p=97    ZFRATIO 1.089355
+  M4    8   1     113 | 19/8                   19/8                       True |   0.72928     1.180    1.0483
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=8 k=1 p=113  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=8 k=1 p=113   ZFRATIO 1.048340
+  M4    8   1     193 | 7/4                    7/4                        True |   0.75391     0.408    1.3193
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=8 k=1 p=193  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=8 k=1 p=193   ZFRATIO 1.319336
+  M4    8   1     241 | 3/2                    3/2                        True |   0.72883     0.087    1.4121
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=8 k=1 p=241  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=8 k=1 p=241   ZFRATIO 1.412109
+  M4   16   1      97 | 1383689/2048           1383689/2048               True |   0.99854     9.400    1.0000
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=97  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=97   ZFRATIO 1.000001
+  M4   16   1     193 | 695699/2048            695699/2048                True |   0.99747     8.408    1.0004
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=193 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=193  ZFRATIO 1.000389
+  M4   16   1     257 | 65281/256              65281/256                  True |   0.99611     7.994    1.0000
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=257 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=257  ZFRATIO 1.000000
+  M4   16   1     353 | 383415/2048            383415/2048                True |   1.00302     7.536    1.0084
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=353 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=353  ZFRATIO 1.008403
+  M4   16   1     449 | 300431/2048            300431/2048                True |   0.99821     7.189    1.0050
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=449 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=449  ZFRATIO 1.005035
+  M4   16   1     577 | 233901/2048            233901/2048                True |   0.99678     6.828    1.0055
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=577 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=577  ZFRATIO 1.005537
+  M4   16   1     641 | 209411/2048            209411/2048                True |   0.99044     6.676    1.0001
+PASS  E2 exact DP == verbatim round-23 enumerator  M4 N=16 k=1 p=641 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M4 N=16 k=1 p=641  ZFRATIO 1.000110
+  M2    8   2      17 | 5/4                    5/4                        True |   0.66406    -0.175    1.4111
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=8 k=2 p=17   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=8 k=2 p=17    ZFRATIO 1.411133
+  M2    8   2      97 | 1                      1                          True |   0.97361    -5.200   36.7539
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=8 k=2 p=97   
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=8 k=2 p=97    ZFRATIO 36.753906
+  M2   16   2      97 | 19225/2048             19225/2048                 True |   1.17854     2.800    1.3477
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=2 p=97  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=2 p=97   ZFRATIO 1.347721
+  M2   16   2     193 | 1327/512               1327/512                   True |   0.93927     0.815    1.4731
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=2 p=193 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=2 p=193  ZFRATIO 1.473112
+  M2   16   4      97 | 1                      1                          True |   0.99926   -10.400 1350.8496
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=4 p=97  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=4 p=97   ZFRATIO 1350.849625
+  M2   16   4     193 | 1                      1                          True |   0.99995   -14.370 21171.3867
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=4 p=193 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=4 p=193  ZFRATIO 21171.386734
+  M2   16   2     257 | 1779/1024              1779/1024                  True |   0.87205    -0.011    1.7509
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=2 p=257 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=2 p=257  ZFRATIO 1.750904
+  M2   16   3     257 | 1                      1                          True |   0.99615    -8.017  259.0117
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=16 k=3 p=257 
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=16 k=3 p=257  ZFRATIO 259.011734
+  M2    8   3     113 | 1                      1                          True |   0.99982   -12.461 5636.3164
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=8 k=3 p=113  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=8 k=3 p=113   ZFRATIO 5636.316406
+  M2    8   1     193 | 7/4                    7/4                        True |   0.75391     0.408    1.3193
+PASS  E2 exact DP == verbatim round-23 enumerator  M2 N=8 k=1 p=193  
+PASS  E1 Z-FLOOR  TMASS >= 2^N/p^kappa            M2 N=8 k=1 p=193   ZFRATIO 1.319336
+
+========================================================================================================
+E3 -- full-cube identity (kappa = 0 surrogate: the p=... trivial row) 
+========================================================================================================
+PASS  E3 full-cube TMASS = 2^N at N=4                                16 vs 16
+PASS  E3 full-cube TMASS = 2^N at N=8                                256 vs 256
+PASS  E3 full-cube TMASS = 2^N at N=16                               65536 vs 65536
+
+========================================================================================================
+E4 -- w-invariance: TMASS identical across ALL primitive 2S-th roots (registered P2a)
+========================================================================================================
+PASS  E4 w-invariance M4 N=8 k=1 p=97 (8 roots)                      distinct TMASS values: 1  (value 23/8)
+PASS  E4 w-invariance M4 N=16 k=1 p=257 (16 roots)                   distinct TMASS values: 1  (value 65281/256)
+PASS  E4 w-invariance M2 N=8 k=2 p=97 (8 roots)                      distinct TMASS values: 1  (value 1)
+PASS  E4 w-invariance M2 N=16 k=2 p=257 (16 roots)                   distinct TMASS values: 1  (value 1779/1024)
+PASS  E4 w-invariance M2 N=16 k=3 p=353 (16 roots)                   distinct TMASS values: 1  (value 1)
+PASS  E4 w-invariance M2 N=8 k=3 p=113 (8 roots)                     distinct TMASS values: 1  (value 1)
+
+========================================================================================================
+E5 -- banked-number replay
+========================================================================================================
+   (S,R,p)=(16,2,3137): TMASS=65/64  EXCESS=2.3463  CRATIO=1.008906  SIGMA=-7.2303  UMIN=11  A[UMIN]=32
+PASS  E5 banked EXCESS = 2.3463 at (16,2,3137)                       measured 2.346258
+PASS  E5 banked '32 weight-11 ternary kernel vectors'                UMIN=11 A[11]=32
+PASS  P1a CRATIO(16,2,3137) = 1.0089 +- 0.0010                       REGISTERED 1.0089 ; measured 1.008906
+   SIGMA->-inf line (16,2,p): p= 1409  SIGMA= -4.9209  EXCESS= 2.1300  CRATIO= 1.036110
+   SIGMA->-inf line (16,2,p): p= 1889  SIGMA= -5.7668  EXCESS= 1.7015  CRATIO= 1.012652
+   SIGMA->-inf line (16,2,p): p= 3137  SIGMA= -7.2303  EXCESS= 2.3463  CRATIO= 1.008906
+PASS  E5 banked EXCESS line 2.13 / 1.70 / 2.35 at p=1409/1889/3137   2.1300  1.7015
+
+   composite boundary probe (CATCH-Z6 INVALID as a counterexample; declared):
+   L=6 2L=12 p=19993: TMASS=1.562500 EXCESS=178.5089 CRATIO=1.557592 UMIN=3 A[3]=4
+PASS  E5 banked EXCESS = 178.51 at composite (L=6, p=19993)          measured 178.5089
+
+========================================================================================================
+P3a/P3c -- p-free (char-0) relation lattice: PFMASS(n) closed form vs exhaustive
+========================================================================================================
+ n=2L    L  phi(n)   RELDIM |   |PFREE| latt     3^RELDIM |     PFMASS  (5/4)^(L/3)
+    8    4       4        0 |              1            1 |   1.000000            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=8                               sh=0 L-phi=0
+PASS  CZ-M: 2-power n=8 has PFREE={0} (PFMASS=1)                     PFMASS=1
+   16    8       8        0 |              1            1 |   1.000000            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=16                              sh=0 L-phi=0
+PASS  CZ-M: 2-power n=16 has PFREE={0} (PFMASS=1)                    PFMASS=1
+   32   16      16        0 |              1            1 |   1.000000            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=32                              sh=0 L-phi=0
+PASS  CZ-M: 2-power n=32 has PFREE={0} (PFMASS=1)                    PFMASS=1
+   64   32      32        0 |              1            1 |   1.000000            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=64                              sh=0 L-phi=0
+PASS  CZ-M: 2-power n=64 has PFREE={0} (PFMASS=1)                    PFMASS=1
+   12    6       4        2 |              9            9 |   1.562500     1.562500
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=12                              sh=2 L-phi=2
+PASS  P3c PFMASS(12) = (5/4)^(L/3) = 25/16                           measured 25/16
+PASS  CZ-M count 3^{n/2-phi} at n=12                                 9 vs 9
+   24   12       8        4 |             81           81 |   2.441406     2.441406
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=24                              sh=4 L-phi=4
+PASS  P3c PFMASS(24) = (5/4)^(L/3) = 625/256                         measured 625/256
+PASS  CZ-M count 3^{n/2-phi} at n=24                                 81 vs 81
+   48   24      16        8 |           6561         6561 |   5.960464     5.960464
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=48                              sh=8 L-phi=8
+PASS  P3c PFMASS(48) = (5/4)^(L/3) = 390625/65536                    measured 390625/65536
+PASS  CZ-M count 3^{n/2-phi} at n=48                                 6561 vs 6561
+   18    9       6        3 |             27           27 |   1.953125            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=18                              sh=3 L-phi=3
+   36   18      12        6 |            729          729 |   3.814697            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=36                              sh=6 L-phi=6
+   20   10       8        2 |              9            9 |   1.128906            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=20                              sh=2 L-phi=2
+   40   20      16        4 |             81           81 |   1.274429            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=40                              sh=4 L-phi=4
+   30   15       8        7 |            217         2187 |   3.943115            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=30                              sh=7 L-phi=7
+   28   14      12        2 |              9            9 |   1.031494            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=28                              sh=2 L-phi=2
+   44   22      20        2 |              9            9 |   1.001954            -
+PASS  CZ-M RELDIM(n)=n/2-phi(n) at n=44                              sh=2 L-phi=2
+
+   independent exhaustive ternary sweep (all 3^h vectors) for n=12, 24:
+      n=12: brute |PFREE| = 9, PFMASS = 25/16   (lattice search: 9, 25/16)
+PASS  P3c lattice search is EXHAUSTIVE at n=12                       
+      n=24: brute |PFREE| = 81, PFMASS = 625/256   (lattice search: 81, 625/256)
+PASS  P3c lattice search is EXHAUSTIVE at n=24                       
+========================================================================================================
+TOTAL: 88 PASS / 0 FAIL
+========================================================================================================
