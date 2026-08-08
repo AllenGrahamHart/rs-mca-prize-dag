@@ -51,8 +51,10 @@ parallel-`DE` first-pair theorem additionally closes all nine labels with
 reciprocal-square theorem closes missing `DF` at matching `0` and its exact
 `D/E` transport partner: two labels, or one generic orbit. The
 reciprocal-linear theorem closes matchings `1` and `2` for the same two
-missing roles: four labels, or two further generic orbits. The live generic
-ledger is therefore 17 representatives covering 60 labels. An exact `B/C`
+missing roles: four labels, or two further generic orbits. The pairing-3
+reciprocal-square theorem and exact matching transports close the `{3,6}`
+class: four labels, or one further generic orbit. The live generic ledger is
+therefore 16 representatives covering 56 labels. An exact `B/C`
 duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. These are PROVED suppliers
@@ -120,7 +122,9 @@ cell-4 four-basis tower
                      |
        reciprocal roles pairings 1-2: 2 orbits / 4 labels [PROVED]
                      |
-       attack 17 generic representatives         [NEXT]
+       reciprocal roles pairings 3/6: 1 orbit / 4 labels [PROVED]
+                     |
+       attack 16 generic representatives         [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -135,9 +139,10 @@ while source-sign rows and norm roots remain certificate records.
 ## Compute posture
 
 Use symmetry and source-only cuts before launching a census. Cell 12's
-rational boundary, both endpoint-role families, and the parallel-`DE`
-first-pair block, and reciprocal-role matching `0` are paid. The generic
-ledger has 17 representatives in the remaining parallel-`DE`, reciprocal
+rational boundary, both endpoint-role families, the parallel-`DE`
+first-pair block, and reciprocal-role matchings `0,1,2,3,6` are paid. The
+generic ledger has 16 representatives in the remaining parallel-`DE`,
+reciprocal
 `DF/EF`, and fully mixed families. Reuse the two paid source norms, the
 three-branch reciprocal-square and reciprocal-linear compilers, and matching
 transports before constructing a new norm. Every residual compiler must

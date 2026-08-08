@@ -1418,3 +1418,24 @@ transport, and all final lanes. This closes matchings `1` and `2` for missing
 `DF` and their exact `D/E` partners: four labels or two generic orbits. Cell
 `12` now has 17 representatives and 60 labels open. The run was bounded and
 well below `$1`.
+
+**Reciprocal-role matching-3/6 closure.** Matching `3` uses the colored
+source pair to constrain `z=1/d`, followed by two target polynomials in
+`q=de`. The pinned adapter reuses the audited cell-4 reciprocal-square and
+sign-free compiler with the cell-12 tower. One-row validation app
+`ap-8WEM4ndbuvRT6z3fZqW44E` completed before the full run.
+
+Complete app `ap-gVXjM6KiAYRUMqc52sWMU7` covered all eight source-sign and
+`sigma_c` rows. The retained packet has 68 target-norm roots, 120 total
+norm/inverse candidates, 176 guarded source points, 40 common nonzero `z`
+lifts, and 80 final `sigma_o` lanes. No final `q` candidate, witness, or
+unresolved branch survives. Eight free-`b` exits evaluate on the proved
+cell-12 leading boundary.
+
+The independent verifier reconstructs 45 unique finite-field polynomials
+and all 112 profile visits. It additionally rebuilds the source kernel at
+every `z` lift and computes the two final `q` polynomials directly; all 80
+gcds are constant. Duplicate-positive-`DE` exchange and exact outside `D/E`
+transport close matching class `{3,6}` for both missing roles: four labels
+or one generic orbit. Cell `12` now has 16 representatives and 56 labels
+open. The bounded run cost well below `$1`.
