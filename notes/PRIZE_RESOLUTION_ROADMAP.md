@@ -21804,6 +21804,44 @@ compute:                   Modal apps ap-8WEM4ndbuvRT6z3fZqW44E and ap-gVXjM6KiA
 live compute requests:     none
 next:                      attack reciprocal matching class 4/9, then the four remaining classes
 ```
+
+### Cell-12 reciprocal-role matching-4/9 payment
+
+Matching `4` uses the nested sign-free reduction in `u=q^2`, `z=1/d`, and
+`y=z^2`. A pinned AST adapter applies the audited cell-4 compiler to the
+cell-12 tower. The first five-minute probe timed out before the resultant
+phase; an extended validation completed in 398 seconds and justified the
+four-row parallel run.
+
+The complete packet contains 32 target-norm roots, 72 total norm/inverse
+candidates, 120 guarded source points, eight compatible `(z,q)` lifts, and
+32 final target-lane evaluations. Every final pair is nonzero. Four
+free-`b` exits lie on the proved leading boundary, with no witness or
+unresolved branch.
+
+Because the norm degrees reach 5,434, a local two-worker root audit was
+stopped after three minutes. A separate 45-container Modal audit rebuilt all
+unique profiles with SymPy/Galois tools. The resulting fast local verifier
+checks all polynomial hashes, shapes, and candidate unions, then directly
+replays every source and target equation at all eight lifts. Exact transports
+pay four labels or one generic orbit. Cell `12` now has 15 representatives
+and 52 labels open.
+
+```text
+starting pin:              da6b34025
+ending mathematical pin:  c8871cb07
+canonical prize pin:       87ad3be1ad
+upstream reference pin:    93fba1be3
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 12
+result:                    CLOSED reciprocal matching class 4/9; 16 -> 15 representatives
+DAG status delta:          +1 background PROVED (1790 -> 1791); critical orbit unchanged
+upstream terminal delta:   portable exact nested-sign-free adapter packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-8gPIxDrmfyKppQLrS3bNeF, ap-bPXHMELqRWfL6mKQBLWGEF, ap-tXwZKeVrmXb8r4KclbW7hG; timed-out probe ap-KUjnRrPEPizCTHjRxOtxh1
+live compute requests:     none
+next:                      attack reciprocal matching class 5/12, then classes 7/10, 8/13, 11/14
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
