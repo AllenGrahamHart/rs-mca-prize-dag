@@ -12105,3 +12105,25 @@ is now 20 representatives covering 66 labels. The squared-sum omission is a
 hard fence for every future missing-record compiler. Retained work cost was
 below `$1`; the two failed direct scouts were bounded and are not to be
 relaunched.
+
+**Reciprocal-role matching-0 closure.** The already proved cell-4
+reciprocal-square compiler is 1,139 lines, so it was not copied. A pinned AST
+adapter extracts its `evaluate_case` function unchanged and supplies the
+cell-12 tower through a six-slot schema shim. Initial app
+`ap-uEmPUxl7Mnx1ZsXSP3RVfl` found one `FREE_B` terminal; exact evaluation
+showed that it lies on the cell-12 `b`-leading complement. The adapter now
+routes only coefficient-zero `FREE_B/FREE_C` terminals to the proved boundary
+theorem. Validation app `ap-MPpJc7ic8DzACr3qnqtl33` then completed exactly.
+
+Full app `ap-mMiXtJUDca1GdAHTkPorqD` completed all 24 source-sign, rational
+`q`-branch, and `sigma_o` rows. A transparent container preemption was
+retried by Modal and did not affect the complete packet. The exact census
+contains 340 candidate roots, 472 guarded source points, 48 common `y` rows,
+96 `(y,d)` candidates, and 192 final `sigma_c` lane evaluations. Every final
+pair is nonzero; there are no witnesses or unresolved rows. An independent
+local audit reconstructs all 89 unique norm/inverse finite-root sets and
+checks every one of the 24 leading-boundary transports.
+
+This closes missing `DF`, matching `0`, and its exact `D/E` partner: two
+labels or one generic orbit. Cell `12` now has 19 representatives and 64
+labels open. Total incremental Modal cost was well below `$1`.

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion/verify.py",
-      "seconds": 0.030894,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+      "seconds": 0.037422,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 parallel-DE first pair: 9 labels, 96/96 unit systems\n"
+      "stdout_tail": "PASS cell-12 reciprocal pairing 0: rows=24 candidates=340 lanes=192\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion/verify_audit.py",
-      "seconds": 19.097526,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+      "seconds": 26.283572,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS independent parallel-DE audit: polynomials=88 systems=96\n"
+      "stdout_tail": "PASS reciprocal adapter audit: profiles=360 unique=89 boundary=24\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

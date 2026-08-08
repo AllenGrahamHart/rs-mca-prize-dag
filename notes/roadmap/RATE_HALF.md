@@ -48,8 +48,10 @@ source-compatibility cuts and two independent residual censuses close the
 `BF` and `sigma_c CF` endpoint roles: 30 labels, or 12 generic orbits. The
 parallel-`DE` first-pair theorem additionally closes all nine labels with
 `xi in {0,1,2}` and matching in `{0,1,2}`, or four generic orbits. The live
-generic ledger is therefore 20 representatives covering 66 labels. An exact
-`B/C` duplicate-role transport is also ready: once cell 12 is empty, all
+reciprocal-square theorem closes missing `DF` at matching `0` and its exact
+`D/E` transport partner: two labels, or one generic orbit. The live generic
+ledger is therefore 19 representatives covering 64 labels. An exact `B/C`
+duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. These are PROVED suppliers
 for the `[12,13]` orbit, not a cell closure.
@@ -112,7 +114,9 @@ cell-4 four-basis tower
                      |
        parallel-DE first pair: 4 orbits / 9 labels [PROVED]
                      |
-       attack 20 generic representatives         [NEXT]
+       reciprocal roles pairing 0: 1 orbit / 2 labels [PROVED]
+                     |
+       attack 19 generic representatives         [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -128,10 +132,11 @@ while source-sign rows and norm roots remain certificate records.
 
 Use symmetry and source-only cuts before launching a census. Cell 12's
 rational boundary, both endpoint-role families, and the parallel-`DE`
-first-pair block are paid. The generic ledger has 20 representatives in the
-remaining parallel-`DE`, reciprocal `DF/EF`, and fully mixed families. Reuse
-the two paid source norms and matching transports before constructing a new
-norm. Every residual compiler must include both the missing product and
-squared-sum equations. Modal jobs must be route-deciding and remain within
-the active protocol budget. Larger campaigns go to the deferred compute
-ledger.
+first-pair block, and reciprocal-role matching `0` are paid. The generic
+ledger has 19 representatives in the remaining parallel-`DE`, reciprocal
+`DF/EF`, and fully mixed families. Reuse the two paid source norms, the
+three-branch reciprocal compiler, and matching transports before constructing
+a new norm. Every residual compiler must include both the missing product
+and squared-sum equations. Modal jobs must be route-deciding and remain
+within the active protocol budget. Larger campaigns go to the deferred
+compute ledger.
