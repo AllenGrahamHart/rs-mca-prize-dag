@@ -30001,6 +30001,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi3 pairing-4 nested sign-free exclusion",
+   "status": "PROVED",
+   "closure": "exact xi3 pairing-4 exclusion in positive deployed 433-1b role cell 4",
+   "statement": "On the guarded positive deployed 433-1b role-cell-4 branch, every case with missing df record xi=3 and canonical matching index 4 is empty across all source signs and all four target lanes. Nested sign elimination in q and z reduces the first two paired equations and the missing-sum equation to a linear-remainder common-root cut in the exact four-basis source tower. Complete exceptional-root replay leaves 32 compatible (z,q) candidates; all 128 third-pair lane evaluations are nonzero. This pays 16 raw atlas cases and claims no other matching, missing role, role cell, complete branch, or Prize result.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing4_nested_signfree_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing4_nested_signfree_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi3 pairings 1-2 reciprocal-linear exclusion",
    "status": "PROVED",
@@ -30040,6 +30062,26 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion/lineage.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-4 xi3/xi4 pairing-4/9 transport exclusion",
+   "status": "PROVED",
+   "closure": "exact four-label xi3/xi4 pairing-4/9 orbit exclusion",
+   "statement": "On the guarded positive deployed 433-1b role-cell-4 branch, all four labeled slices with xi in {3,4} and canonical matching in {4,9} are empty across all source signs and target lanes. The direct xi3 pairing-4 theorem, the parallel-DE matching exchange, and the universal xi4/xi3 outside-role involution are exact system bijections at this scope. This pays 64 raw atlas cases, four labels, and two parallel-DE quotient orbits. No other matching, missing role, role cell, complete branch, or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion/verify_audit.py"
    ]
   },
   {
@@ -58188,12 +58230,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion",
    "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
    "kind": "req"
   },
   {
@@ -58217,6 +58269,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -58228,6 +58290,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
@@ -58253,12 +58320,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion",
    "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
    "kind": "req"
   },
   {

@@ -45,8 +45,12 @@ certificates required by the challenge.
   parallel-`DE` and outside-role transports close matching 6 and both
   `xi=4` partners. Cell 4 is 85/105 paid. The retained frontier is 20
   labels in 10 quotient orbits, represented by ten `xi=3` labels in five
+  matching-exchange pairs. The nested q/z sign-free census now closes
+  matching 4; the two exact transports close matching 9 and both `xi=4`
+  partners. Cell 4 is 89/105 paid. The retained frontier is 16 labels in
+  eight quotient orbits, represented by eight `xi=3` labels in four
   matching-exchange pairs. See
-  `rate_half_band_closure/attack_addenda/29-wave67-positive-433-cell4-xi3-pairing3-6.md`.
+  `rate_half_band_closure/attack_addenda/30-wave68-positive-433-cell4-xi3-pairing4-9.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

@@ -44,7 +44,10 @@ The sign-free reciprocal-square theorem now pays matching 3; matching
 exchange pays 6 and the universal outside-role transport pays both `xi=4`
 partners. Cell 4 is 85/105 paid. The live frontier is 20 labels in 10
 quotient orbits: ten independent `xi=3` labels in five matching-exchange
-pairs.
+pairs. The nested q/z sign-free theorem now pays matching 4; matching
+exchange pays 9 and the universal transport pays both `xi=4` partners.
+Cell 4 is 89/105 paid. The live frontier is 16 labels in eight quotient
+orbits: eight independent `xi=3` labels in four matching-exchange pairs.
 
 ## Node hierarchy
 
@@ -76,7 +79,9 @@ cell-4 four-basis tower
                      |
           pairing-3/6 exchange block        [PROVED]
                      |
-          five matching-exchange pairs      [next exact decision]
+          pairing-4/9 exchange block        [PROVED]
+                     |
+          four matching-exchange pairs      [next exact decision]
                      |
              complete cell 4
                      |
