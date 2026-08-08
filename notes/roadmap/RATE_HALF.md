@@ -26,9 +26,11 @@ matching `0`. Canonical matchings `1` and `2` share the same first pair, so
 the three exclusions extend to the complete first-pair block. Exact direct
 and quotient closures have since completed matching blocks `3/6`, `4/9`,
 `5/12`, `7/10`, `8/13`, and `11/14`. In total all `3*15=45` parallel-`DE`
-slices are paid; 60 labels in 36 of the 60 quotient orbits remain. These are
-exactly the four nonparallel missing roles `xi in {3,4,5,6}` across all 15
-matchings.
+slices are paid. A source-only endpoint theorem then pays every missing
+`bf` and missing `sigma_c cf` slice before matching specialization. Cell 4
+is therefore 75/105 paid; 30 labels in 18 of the 60 quotient orbits remain.
+These are exactly missing `df` and missing `sigma_o ef`, `xi in {3,4}`,
+across all 15 matchings.
 
 ## Node hierarchy
 
@@ -50,7 +52,9 @@ cell-4 four-basis tower
                      |
           all parallel-DE matchings       [PROVED]
                      |
-       nonparallel missing-role orbits    [next exact decision]
+          xi5/xi6 endpoint roles          [PROVED]
+                     |
+           xi3/xi4 variable roles         [next exact decision]
                      |
              complete cell 4
                      |

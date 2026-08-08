@@ -28,10 +28,12 @@ certificates required by the challenge.
   complete pairing-5/12, pairing-7/10, and pairing-8/13 blocks now pay 39 of
   105 labels. The exact common-`f` pairing-11 theorem and its honest quotient
   composition and the direct positive-`DE` matching-14 theorem raise this to
-  45 paid labels, completing all parallel-`DE` omissions. The retained
-  frontier is exactly `xi in {3,4,5,6}` across 15 matchings: 60 labels in 36
+  45 paid labels, completing all parallel-`DE` omissions. The source-only
+  endpoint theorem then excludes missing `bf` and missing `sigma_c cf` at
+  every matching, raising the ledger to 75/105 paid labels. The retained
+  frontier is exactly `xi in {3,4}` across 15 matchings: 30 labels in 18
   quotient orbits; see
-  `rate_half_band_closure/attack_addenda/24-wave62-positive-433-cell4-pairing14.md`.
+  `rate_half_band_closure/attack_addenda/25-wave63-positive-433-cell4-endpoints.md`.
 
 These labels are route families rather than substitute hypotheses.  A
 supplier enters a consumer as `req` only after an exact transport theorem;

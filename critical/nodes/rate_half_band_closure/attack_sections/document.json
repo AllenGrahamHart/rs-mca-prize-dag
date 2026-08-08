@@ -71,6 +71,12 @@
         "rate_half_band_closure"
       ],
       "path": "critical/nodes/rate_half_band_closure/attack_addenda/24-wave62-positive-433-cell4-pairing14.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_band_closure"
+      ],
+      "path": "critical/nodes/rate_half_band_closure/attack_addenda/25-wave63-positive-433-cell4-endpoints.md"
     }
   ],
   "pre_refactor_line_count": 3950,

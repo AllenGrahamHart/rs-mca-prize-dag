@@ -55,6 +55,9 @@ still `TARGET`.
 - `attack_addenda/24-wave62-positive-433-cell4-pairing14.md`: direct positive-
   `DE` pairing-14 exclusion and completion of the 45-label parallel-`DE`
   layer.
+- `attack_addenda/25-wave63-positive-433-cell4-endpoints.md`: source-only
+  endpoint exclusion for missing `bf` and `sigma_c cf`, leaving only the
+  `df/ef` roles live.
 
 New work belongs in the narrowest owning theorem node.  Update this index only
 when the live residual partition changes.  The packet manifest verifies
