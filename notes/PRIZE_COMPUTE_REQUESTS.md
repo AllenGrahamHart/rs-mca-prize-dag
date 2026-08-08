@@ -12169,3 +12169,25 @@ gcds are constant. Duplicate-positive-`DE` exchange and exact outside `D/E`
 transport close matching class `{3,6}` for both missing roles: four labels
 or one generic orbit. Cell `12` now has 16 representatives and 56 labels
 open. The bounded run cost well below `$1`.
+
+**Reciprocal-role matching-4/9 closure.** Matching `4` requires the audited
+nested sign-free reduction in `u=q^2`, `z=1/d`, and `y=z^2`. Initial
+five-minute adapter probe `ap-KUjnRrPEPizCTHjRxOtxh1` timed out before the
+resultant phase and is not evidence. Extended one-row app
+`ap-8gPIxDrmfyKppQLrS3bNeF` completed in 398 seconds, justifying the four-row
+parallel run.
+
+Complete app `ap-bPXHMELqRWfL6mKQBLWGEF` finished in about 5.6 minutes wall
+time. The exact packet has 32 target-norm roots, 72 total norm/inverse
+candidates, 120 guarded source points, eight compatible `(z,q)` lifts, and
+32 final target lanes. Every final pair is nonzero; four free-`b` exits lie
+on the proved leading boundary, with no witness or unresolved branch.
+
+Direct local reconstruction of all degree-up-to-5434 roots was intentionally
+stopped after three minutes to preserve the host-compute policy. Independent
+Modal app `ap-tXwZKeVrmXb8r4KclbW7hG` instead reconstructed 45 unique
+profiles in parallel using SymPy/Galois tools. The fast local audit validates
+all 64 profile visits and directly replays the kernel, Vieta relation, and
+three paired equations at every lift. Exact transports close class `{4,9}`
+for both missing roles: four labels or one generic orbit. Cell `12` now has
+15 representatives and 52 labels open. Total cost remained well below `$1`.

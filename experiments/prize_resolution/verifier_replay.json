@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing3_6_reciprocal_square_exclusion/verify.py",
-      "seconds": 0.03083,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing4_9_nested_signfree_exclusion/verify.py",
+      "seconds": 0.030884,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 reciprocal pairing 3/6: rows=8 candidates=120 q_gcds=80\n"
+      "stdout_tail": "PASS cell-12 reciprocal pairing 4/9: rows=4 candidates=72 lanes=32\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing3_6_reciprocal_square_exclusion/verify_audit.py",
-      "seconds": 37.063589,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing4_9_nested_signfree_exclusion/verify_audit.py",
+      "seconds": 0.675798,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS pairing-3 adapter audit: profiles=112 unique=45 boundary=8 q_gcds=80\n"
+      "stdout_tail": "PASS pairing-4 adapter audit: profiles=64 unique=45 boundary=4 lifts=8 lanes=32\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
