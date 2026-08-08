@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify.py",
-      "seconds": 0.342538,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_endpoint_roles_complete_exclusion/verify.py",
+      "seconds": 0.029678,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cells=12,13 principal_systems=1680 transport=bijective\n"
+      "stdout_tail": "PASS cell-12 endpoint roles: 40 source points, 2400/2400 unit systems\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport/verify_audit.py",
-      "seconds": 0.023472,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_endpoint_roles_complete_exclusion/verify_audit.py",
+      "seconds": 1.974356,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok role_cell=12->13 labels=105 systems=1680\n"
+      "stdout_tail": "PASS independent endpoint audit: identities, 15 matchings, 2400 systems\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

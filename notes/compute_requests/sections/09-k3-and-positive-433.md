@@ -1324,3 +1324,27 @@ degree zero. A transient Modal heartbeat warning did not affect the remote
 tasks or final complete output; the app stopped normally. The combined cost
 was well below `$1`. This promotes the complete deployed rational-boundary
 exclusion, but pays no point on the generic elliptic chart.
+
+**Generic endpoint-role closure.** Source-only pilot app
+`ap-gCH6oQc1fW2VTAZcNiuDon` adjoined the necessary endpoint equation
+`(u^2+m)^2-Su^2=0` to the generic common curve. All eight source-sign and
+endpoint cases became zero-dimensional with one exact `r` eliminant.
+Deployed-root replay app `ap-wOtqklCmNfzcLPWGf9r6tS` lifted every linear
+`r` factor through the proved tower and retained exactly 16 `BF` source
+points and 24 `sigma_c CF` source points. No retained point lay on a route
+or leading boundary.
+
+The first full residual launch, `ap-utANE9kl0WA64d8VFvhZJj`, exposed only an
+output-parser defect and produced no mathematical packet. After repair,
+one-case validation app `ap-zdnEev7PHNSTrbRgZT8tua` paid 60 of 60 systems.
+Primary app `ap-jrMESwKeGzouPFEPhqMscX` then completed all 32 source/endpoint
+and target-lane shards: 2,400 of 2,400 guarded bivariate ideals were unit.
+Independent app `ap-33sFbnRJM7VZHWz9dAKmVU` rebuilt the systems in SymPy and
+computed unrestricted lex bases; all 2,400 were again unit, with zero
+witnesses, target boundaries, finite residual branches, or unresolved rows.
+Every app stopped normally. Aggregate cost was well below `$1`.
+
+Together with the prior rational-boundary theorem, this promotes a scoped
+PROVED node closing both endpoint roles in cell `12`: 30 labels, or 12 of
+the 36 generic label orbits. The remaining generic workload is 24 orbit
+representatives covering 75 labels. No complete-cell or Prize claim follows.

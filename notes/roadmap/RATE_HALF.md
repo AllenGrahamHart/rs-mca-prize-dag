@@ -34,8 +34,8 @@ theorem covers cell 7's exceptional branch. Therefore orbit `[4,7]` is
 PROVED empty. Historical matching-by-matching details remain in
 `critical/nodes/rate_half_band_closure/attack_addenda/13-*` through `34-*`.
 
-Representative cell 12 now has a complete structural common-locus packet,
-but no outside label is yet paid. The selected `AC` pivot covers all 24
+Representative cell 12 now has a complete structural common-locus packet.
+The selected `AC` pivot covers all 24
 source-sign/product-cofactor charts. Its leading-open common curve is an
 exact elliptic four-basis tower, the leading complement is 12 classified
 zero-dimensional fibers with eight deployed rational points, and one
@@ -43,8 +43,11 @@ sign-independent primitive kernel annihilates all ten common Vieta rows.
 All 105 outside labels in all four target lanes are now PROVED empty at each
 of those eight rational points. Thus only the generic elliptic leading-open
 chart remains on the principal cell-12 frontier. Two universal outside
-involutions quotient its 105 labels to 36 exact representatives. An exact
-`B/C` duplicate-role transport is also ready: once cell 12 is empty, all
+involutions quotient its 105 labels to 36 exact representatives. Exact
+source-compatibility cuts and two independent residual censuses close the
+`BF` and `sigma_c CF` endpoint roles: 30 labels, or 12 generic orbits. The
+live generic ledger is therefore 24 representatives covering 75 labels. An
+exact `B/C` duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. These are PROVED suppliers
 for the `[12,13]` orbit, not a cell closure.
@@ -103,7 +106,9 @@ cell-4 four-basis tower
                      |
        generic 105-to-36 label quotient          [PROVED]
                      |
-       attack 36 generic representatives         [NEXT]
+       endpoint roles: 12 orbits / 30 labels     [PROVED]
+                     |
+       attack 24 generic representatives         [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -118,9 +123,9 @@ while source-sign rows and norm roots remain certificate records.
 ## Compute posture
 
 Use symmetry and source-only cuts before launching a census. Cell 12's
-rational boundary is already paid and the generic ledger has 36
-representatives. The immediate router should classify those representatives
-as reciprocal, equal-`DE`, endpoint-compatible, or fully mixed against the
-fixed kernel without computing large norms. Modal jobs must be route-deciding
-and remain within the active protocol budget. Larger campaigns go to the
-deferred compute ledger.
+rational boundary and both endpoint-role families are paid. The generic
+ledger has 24 representatives in the parallel-`DE`, reciprocal `DF/EF`, and
+fully mixed families. The immediate router should seek another necessary
+source-only compatibility cut against the fixed kernel without computing
+large norms. Modal jobs must be route-deciding and remain within the active
+protocol budget. Larger campaigns go to the deferred compute ledger.

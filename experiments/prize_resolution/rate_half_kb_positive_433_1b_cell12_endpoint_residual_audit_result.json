@@ -1,0 +1,651 @@
+{
+  "field": 2130706433,
+  "primary_complete": true,
+  "rows": [
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 60,
+      "target_boundary": 0,
+      "unit_unrestricted": 60,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_unrestricted": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 6,
+      "status": "COMPLETE",
+      "systems": 90,
+      "target_boundary": 0,
+      "unit_unrestricted": 90,
+      "unresolved": [],
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell12-endpoint-residual-audit-v1",
+  "scope": "Independent SymPy lex/root audit of every finite cell-12 endpoint residual system.",
+  "source_kernel_sha256": "2e373a17045777e1f7f15512d7fd34c2be1899da52f3b9d0a9d4e38942cab020",
+  "source_primary_sha256": "0f7965bda8301ba4dc87432e5fd3def2c0d02fb0572b3bbd5274a45210a3d0b8",
+  "source_replay_sha256": "9319f72a2312c5a326083e01f97d38585babc77a34ce591498f6efefe3028c4f"
+}
