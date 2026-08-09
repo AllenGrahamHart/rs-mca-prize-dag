@@ -153,3 +153,43 @@ qualification, not proof. Source:
 notes/pilots_20260809/m7_complement_repose/ (REPORT.md,
 FABLE_AUDIT.md; D3 + D4 replayed byte-identical, Arm-A ell=4 q=97
 and Arm-B t=9 replayed exact by the coordinator).
+
+## Round-26 correction (2026-08-09, coordinator-applied on replay: m7_falsifier_hunt — THE REGISTERED FALSIFIER FIRED; the kill survives on a DIFFERENT leg)
+
+**The round-25 registered falsifier FIRED, literally, at an
+admissible LIVE cell** — C8 = (rate 1/2, M=5, t=3, ell=2, b=u=1,
+d=5, N=9, q=23), all node conditions passing (coordinator
+re-verified the arithmetic by hand), CJ3 not paying it: FIRE_SIGMA
+(sigma < 2a) in 67.2% of m>=3 configs, FIRE_KCORE in 44.3% (vs
+round-25's 0/63), mean margin sigma/2a = 0.930. **The mechanism is
+exact arithmetic, not structure: defect sets live in the core, so
+N + kappa < 2d forces sigma < 2a** (coordinator-verified
+inequality); the matched control C9 (same cell, M=8 so 2d-N = -5)
+fires 0/64 — the switch is exactly at 2d = N. **Transfer to the
+real rows: 156 of the 408 residual k=2^40 rows have 2d > N inside
+the node's own CJ-admissible window** (all 156 LIVE, d/N up to
+0.9375).
+
+**FORCED CORRECTION to the round-25 kill's mechanism line:**
+"every rate-half FPC5 cell has sigma/a -> 2.5 ... permanently on
+the losing side" is proved ONLY for the rate-half m4 family
+(|C| = 5ell-5 vs d = 2ell-3). It is FALSE for the large-source
+family, where d ranges up to ell(M-2)-1 ~ N(1-2/M).
+
+**THE KILL STANDS — on the pricing leg, which was always the
+honest one:** at all 156 threshold-passing rows, log2 AC_DIRECT
+mean 7.73e11 bits, log2 AC_COMP mean 7.32e11 bits, gain 4.11e10
+bits — against a polynomial target of 123-129 bits;
+COMP_is_polynomial FALSE at every row (the annulus ground set is
+the whole core, sigma = Theta(N), delta tiny). The re-pose is not
+a mystery-7 route; it is now hardened as "the cells on the right
+side of the threshold are still 10^11 bits short," replacing
+"every cell is on the wrong side." The b -> ell intuition is also
+REFUTED: raising u raises mean overlap (0.136 -> 0.186) but
+drives kappa DOWN (0.044 -> 0 -> 0) because the family grows.
+Power control (23b standard): the matched random arm fires MORE
+than the guarded arm — the firing is arithmetic the guards
+partially suppress, not guard structure. Source:
+notes/pilots_20260809/m7_falsifier_hunt/ (REPORT.md,
+FABLE_AUDIT.md; C8 re-run + BO sieve + admissibility scan
+coordinator-replayed, C8/escapes byte- or config-identical).

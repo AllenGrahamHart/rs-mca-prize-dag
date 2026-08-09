@@ -3918,3 +3918,61 @@ registered margin wrong (0.0000 exact), first Burnside bound wrong
 integer_code_distance_cert; no status flips; census unchanged
 231 = 167/36/28. Files:
 notes/pilots_20260809/b_sparsity_pose/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 26 BANK 2/4 — freeze_tail_law (2026-08-09, coordinator)
+
+**BANKED: the round-25 named obstruction CLOSED AS A THEOREM.** The
+freeze tail is a short-vector census of a rank-e lattice terminating
+at an exact integer cutoff (non-frozen state => q^{g_v} divides a
+nonzero Hadamard-bounded resultant); 419/419 rows, five exact
+cutoffs certified predictively (8,279 primes, 0 violations). My
+replays: P2 419/419 from scratch; Q*(32,2,1) = 273857 re-derived by
+INDEPENDENT full-box Bareiss sweep (ties to the round-25 large_v2
+census: 1450 norms, MAXNORM 614656); proof logic hand-verified.
+C26-2 L3 negacyclic reduction (T=1 level census = skew census on e
+coords, 181/181 bit-exact, 7.0e9 -> 1.19e6 states); C26-4 sharp
+max-norm law (e-1)^{e/2} u^e exact at all five cells. FORCED
+CORRECTION C26-5: round-25's "measured freeze scales 14.5..67" were
+NOT cutoffs (excess non-monotone in q; 6.2-bit understatement at
+(64,4,2)). C26-6: S_inf = 1/ln 2 PROVED (factorial telescoping,
+identity + algebra coordinator-verified) => mint
+R3inf_full(n,n/2) = 0.4427n - (1/2)log2(pi n) + 1/2 + O(1/n).
+C26-8: G-c licensed range 232.7 -> 251.1 [law] (~80% of the
+undecidable band closed; CAVEAT of record: power re-calibration at
+the new tolerance not run — the named next job). C26-7: the
+ledger's linear coset model understates true depth exactly in the
+break-constant window (flag, no transport). (232, 256] by census:
+unreachable (2^2176 even under L3). Pilot misses first: PR-6
+(0.736 vs [0,0.05] — became finding C26-9), PR-6b slope refuted,
+PR-5 5/7. Addendum on dli_c2pp_joint_reserve; no status flips.
+Files: notes/pilots_20260809/freeze_tail_law/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 26 BANK 3/4 — m7_falsifier_hunt (2026-08-09, coordinator)
+
+**BANKED: THE REGISTERED FALSIFIER FIRED — and the kill survives on
+its honest leg.** C8 (rate 1/2, M=5, t=3, ell=2, b=u=1, d=5, N=9,
+q=23; admissibility hand-verified) fires sigma < 2a in 67.2% of
+m>=3 configs, kappa >= 1 in 44.3% (vs round-25's 0/63); mechanism =
+exact arithmetic N + kappa < 2d (hand-verified); matched control C9
+(2d-N = -5): 0/64 — the switch is exactly at 2d = N; 156/408 real
+residual rows pass the threshold in the CJ-admissible window.
+FORCED CORRECTION on l1_rootfree: the round-25 "wrong side by
+construction" line is m4-family-only. THE KILL STANDS ON PRICING:
+0/156 rows polynomial (mean 7.3e11 bits vs a 123-129-bit target);
+b->ell intuition REFUTED (overlap up, kappa DOWN). NEW: the sharp
+overlap cap r_J - |R1 cap R2| (= d-ell at u=b) — (CJ2) un-summed,
+0/8336 configs, attained, DELETES the pencil stratum (round-25's
+sunflower deletion now systematic + explained). BONUS (largest
+number, REPLAYED byte-identical, NOT YET ADOPTED): charging the
+node's own list threshold empties **71.380% of the residual d-mass**
+(+0.679% singleton by PROVED (BO2); pilot's own derivation caught
+by its CATCH-24A grep as a (BO2) re-derivation) vs round-25's 1.97%
+— third instance of the claims-(i)/(ii) mechanism; adoption gated
+on the full-grid distinct-d computation (named highest-value
+follow-up). Red 3 membership UNDECIDED of record (honest refusal:
+t>=4 priced 2.3h not spent; the 23b functional FAILS its power
+control at accessible cells). Replays: bo_sieve + d1_cells
+byte-identical, C8 config-identical, EMPTY logic + C8 arithmetic
+hand-verified. Corrections on l1_rootfree + large_source; no
+status flips; census unchanged 231 = 167/36/28. Files:
+notes/pilots_20260809/m7_falsifier_hunt/{REPORT.md,FABLE_AUDIT.md}.
