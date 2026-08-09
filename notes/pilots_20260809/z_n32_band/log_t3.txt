@@ -1,0 +1,6 @@
+M2   N=32  k=3 p=1153         sig=+1.4865 CRATIO=1.0043401219 NKER=1211585   dpeak=182307    277.1s  T3/R3-exhaustive
+M2   N=32  k=3 p=1217         sig=+1.2527 CRATIO=1.0272525997 NKER=1032641   dpeak=176467    251.0s  T3/R3-exhaustive
+M2   N=32  k=3 p=1409         sig=+0.6186 CRATIO=0.9736984414 NKER=664193    dpeak=182119    237.8s  T3/R3-exhaustive
+M2   N=32  k=3 p=1601         sig=+0.0657 CRATIO=0.9659839729 NKER=459585    dpeak=187702    316.4s  T3/R3-exhaustive
+M2   N=32  k=3 p=2113         sig=-1.1352 CRATIO=0.9668273093 NKER=196289    dpeak=183005    295.7s  T3/R3-exhaustive
+done: 5 new cells

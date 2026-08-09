@@ -261,3 +261,86 @@ candidate). CATCH on a sibling node applied separately
 notes/pilots_20260808/z_ceiling_assault/ (coordinator-replayed:
 RC 20/0; the addendum suite reproduces the record cell and the
 count refutation).
+
+## Round-25 addendum (2026-08-09, coordinator-applied on replay: z_n32_band — the named decisive computation EXECUTED)
+
+**The N=32 wall is BROKEN and the ladder verdict is measured: no
+cell beats the record (C >= 1.7681 stands), but the reason to
+believe C is absolute is WEAKER after this round, because the
+census's own growth law missed the N=32 max by 10x and the
+matched decay is not statistically significant.**
+
+**The algorithm (BBM, bucket-bisect MITM, new this round):**
+buckets are contiguous residue intervals, so for a fixed
+first-half partial sum the matching second-half partials are at
+most two contiguous ranges of the sorted table, found by bisect —
+all R bucket passes cost ONE enumeration, memory drops by an
+arbitrary factor, no disk. Measured: 117.5 s and ~50 MB RSS per
+N=32 cell (registered bound: < 20 min, < 400 MB). Round 24's
+blocker ("3^16 = 43M states — out of reach at 1G by any kappa")
+is REPRICED: the wall was memory layout, not arithmetic. Bonus
+finding: the unbucketed 18/14 MITM at the SAME op count is ~12x
+slower (a 575 MB dict thrashes cache) — bucketing buys speed,
+not just memory.
+
+**The grid:** 72 N=32 cells (47 kappa=1 sampled from ~2.1e7
+admissible primes; 18 kappa=2; kappa=3,4 EXHAUSTIVE) + the
+EXHAUSTIVE 1305-cell N=16 in-band line + 19-cell N=8 line.
+Max CRATIO at N=32: 1.4210954721 (TMASS = 22852627/2^23,
+p=4683696257, sigma=-0.125). Z-FLOOR: 0 violations anywhere.
+Verification: 15/15 escape tests (incl. the round-24 record
+replayed exactly: TMASS=159/64, CRATIO=1.7680688810, NKER=289);
+33/72 N=32 cells re-derived by a disjoint-internals variant with
+0 disagreements, covering ALL top-12 cells; the record cell is
+THREE-WAY derived (identity/256, even-odd/181, and the
+coordinator's reversed/101 replay — AGREE). Honest tail: 39/72
+cells are single-algorithm; the independent unbucketed MITM
+completed zero N=32 cells under contention.
+
+**The ladder verdict (all numbers coordinator-replayed from the
+seeded analysis):** raw max decays 1.7681 -> 1.4211, BUT (i)
+sigma-stratified + M-matched against the exhaustive N=16 line,
+the N=32 max sits at quantile 0.2278 — mild decay, NOT
+significant at 5%; (ii) the M-normalised N-exponent is -0.026,
+OUTSIDE round-24's registered window [-0.30, -0.12] on the
+less-decay side; (iii) the sd(CRATIO) decay IS significant
+(quantile 0.0000) while the max decay is not — THE BODY SHRINKS,
+THE TAIL DOES NOT; (iv) round-24's SD-based extreme-value law
+predicted MAXCR-1 = 0.041 at M=47, measured 0.421 — 10x under.
+**Round-24's P4d extrapolation ("C = 1 + o(1) with grotesque
+room") is NOT SUPPORTED at N=32.** (v) The heuristic band
+extrapolation EVX(47 -> 2.1e7) puts the N=32 band max at ~1.88,
+ABOVE the N=16 record — an extrapolation, not a measurement, and
+exactly the direction that reopens the death question.
+
+**Mechanism (weight enumerators, AU exact to U<=12):** the
+kappa=1 distribution is a tight body (46/47 cells in [0.95,
+1.11]) plus rare spikes set by low-weight arithmetic accidents:
+record cells have UMIN=9 vs typical 11, and weights <= 12 supply
+48% of the record's excess mass. Every exact AU[U] is a multiple
+of 64 — the mu_64 negacyclic-orbit invariant (an independent
+structural check). The correct UMIN threshold is
+C(32,U)2^U >= 64p (orbits, not vectors) — which lands exactly at
+the measured 11 and explains the registered miss. The max is set
+by a non-Gaussian spike process the SD-based law cannot see.
+
+**Hedged lead (kappa direction):** RC's low-weight protection
+UMIN >= 2^{2(N-sigma)/(kappa N)} DECAYS in kappa (4.0, 2.0, 1.56,
+1.39 for kappa=1..4); kappa=2 produced 1.3887 from only 18 cells
+vs kappa=1's 1.4211 from 47. The official row has kappa = R >> 1.
+Confounded by tiny cell counts at kappa>=3 — a lead, not a
+result.
+
+**Named follow-on (replaces "wider ladder"):** UMIN-TARGETED
+SPIKE SEARCH — enumerate N=32 cells by weight-9/10 orbit count
+via the weight enumerator (~3x a cell) instead of waiting for a
+47-cell sample to hit a spike; plus the declared post-hoc
+exhaustive kappa=2 band (266 cells, never run). Pilot
+prediction record: 9 registered predictions HIT (incl. the
+Tier-2/3 prime bands EXACTLY), 6 MISSED — including its own
+headline (P-Z1 predicted max 1.041, measured 1.4211) — all
+reported plainly. Scope: every number is about the FORM of
+Z-CEILING on toy families; the f2 calibration clause binds; no
+status change. Source: notes/pilots_20260809/z_n32_band/
+(REPORT.md, FABLE_AUDIT.md; ez 15/15, seeded analysis, and the
+record cell replayed by the coordinator).
