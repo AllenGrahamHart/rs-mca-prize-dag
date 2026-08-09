@@ -30967,6 +30967,34 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-11/14 common-f exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of four parallel-DE labels represented by pairings 11 and 14 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the parallel-DE labels (0,11) and (2,11) are empty over the deployed field. A common-f quadratic resultant is replayed on all 32 source-sign and target-lane rows. The packet has 264 target roots, 464 candidates, and 576 guarded source points; 64 rows are missing-impossible, 64 are zero-product boundaries, and all 448 remaining source points have no common-f lift. External Frobenius/gcd reconstruction covers 49 profiles, 236 roots, and degrees through 992. Independent direct replay leaves no colored candidate, witness, leading-boundary remainder, or unresolved branch. Exact duplicate-copy and matching transport close {(0,11),(1,11),(2,11),(2,14)}. Together with the earlier cell-5 packets, 36 labels in 11 active orbits remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_common_f_resultant_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_direct_audit_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing11_common_f_resultant_modal.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-3/6 exclusion",
    "status": "PROVED",
@@ -60053,6 +60081,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -60998,6 +61031,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -61030,6 +61068,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
@@ -61893,6 +61936,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -61999,6 +62047,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {

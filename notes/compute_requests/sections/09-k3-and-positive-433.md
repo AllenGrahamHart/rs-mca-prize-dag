@@ -2230,3 +2230,14 @@ lex app `ap-VEb9bIRCgMd9aXMSMXuVba` independently obtained 96/96 unit ideals,
 with no finite survivor, unresolved system, or witness. Exact transport pays
 nine labels in four orbits, leaving 40 labels in 13 active cell-5 orbits. No
 rerun is requested; the next bounded target is pairing `11`.
+
+**Cell-5 parallel-DE pairing-11/14 payment.** Pilot app
+`ap-Kncy0UoEXPfZEuPcriJhvF` closed its representative row. Full app
+`ap-E5FgEIXjamRTpeiFPXIfR2` closed all 32 rows with 264 target roots, 464
+candidates, 576 guarded source points, and no common-`f` lift, witness, or
+unresolved branch. Independent app `ap-iBXSdbXdlFAm2iusD8UWzS` reconstructed
+49 profiles, 236 deployed roots, and degrees through 992. Direct replay app
+`ap-MpjO9DzT5FF3DHVml2tK2A` checked every candidate union and all 576 source
+routes. Exact transport pays four labels in two orbits, leaving 36 labels in
+11 active cell-5 orbits. No rerun is requested; the next bounded target is
+positive pairing `12`.

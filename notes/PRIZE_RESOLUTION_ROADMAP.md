@@ -22597,6 +22597,38 @@ audit catch:               positive-role residual draft rejected before correcti
 live compute requests:     none
 next:                      attack the pairing-11 representatives, then positive pairings 12 and 14
 ```
+
+### Role-orbit [5,8] pairing-11/14 payment
+
+The pinned common-`f` pairing-11 compiler was specialized to cell 5's
+boundary-free row-6 tower. All 32 source-sign, target-lane, and direct-role
+rows close. The primary packet contains 264 target roots, 464 complete
+candidates, and 576 guarded source points. Sixty-four points are
+missing-impossible, 64 hit the zero-product boundary, and the remaining 448
+have no common `f` root. No colored candidate, witness, leading-boundary
+remainder, or unresolved branch survives.
+
+Independent FLINT reconstruction covers 49 polynomial profiles, 236 deployed
+roots, and degrees through 992. A separate direct replay reconstructs every
+candidate union, tower relation, missing record, route boundary, and paired
+quadratic. Universal transport pays `{(0,11),(1,11)}` and
+`{(2,11),(2,14)}`. Cell 5 has now paid 39 of 75 active labels in 13 of 24
+orbits; 36 labels in 11 active orbits remain.
+
+```text
+starting pin:              1632b43d2
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-11/14 common-f exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-E5FgEIXjamRTpeiFPXIfR2, ap-iBXSdbXdlFAm2iusD8UWzS,
+                           ap-MpjO9DzT5FF3DHVml2tK2A
+live compute requests:     none
+next:                      attack positive pairing 12, then positive pairing 14
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
