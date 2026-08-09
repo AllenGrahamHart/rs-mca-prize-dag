@@ -22024,6 +22024,36 @@ compute:                   Modal apps ap-OzdO0AbBag4erxGQrr0ziK, ap-W3vjE85wYdbr
 live compute requests:     none
 next:                      apply the positive pairing-9 nested-quadratic compiler
 ```
+
+### Cell-9 positive pairing-9/10 nested-quadratic payment
+
+The pinned positive pairing-9 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 96 positive-role rows terminate excluded in three canonical
+shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 53 univariate profiles, 208 roots,
+and degrees through 10,674. Separate direct replay checks 1,728 source
+routes, 1,744 candidate roots, 384 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 384 final colored cuts are
+nonzero.
+
+Universal transport pays the four-label orbit represented by `(0,9)`.
+Cell `9` now has 11 representatives and 36 labels open.
+
+```text
+starting pin:              92f819476
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-9/10 class; 12 -> 11 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact positive nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-i47DgQdgFkZ5oNy4cZn20L, ap-GqdwWLInGrxmgVh6FLhQZ0, ap-2LXjDdvQOQAEDuJewBKVF3, ap-Yz5URg6VRTv3SRU0Mc5S1D
+live compute requests:     none
+next:                      apply the positive pairing-12 nested-quadratic compiler
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

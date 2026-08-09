@@ -1912,3 +1912,25 @@ proved owners; no colored solution or unowned boundary remains.
 Universal transport closes the two pairing-5/8/12/13 orbits: eight labels
 represented by `(0,5)` and `(2,5)`. Cell `9` retains 12 representatives and
 40 labels. The next cheapest parallel-DE attack is positive pairing `9`.
+
+**Cell-9 positive pairing-9 nested-quadratic closure.** Six-chart pilot app
+`ap-i47DgQdgFkZ5oNy4cZn20L` completed all six chart rows with the exact
+quadratic/quadratic/degree-eight/linear profile and no survivor. Full
+unordered app `ap-GqdwWLInGrxmgVh6FLhQZ0` then completed all 96 source-sign,
+chart, target-lane rows for positive direct role `xi=0`. Every row is
+excluded, with 480 paid boundary records and no witness, unresolved branch,
+or colored solution. The 33,746,580-byte primary ledger is split into three
+independently verified shards.
+
+Independent FLINT app `ap-2LXjDdvQOQAEDuJewBKVF3` reconstructed 53 distinct
+norm/inverse profiles by Frobenius gcd, finding 208 deployed roots through
+degree 10,674. Independent six-chart replay app
+`ap-Yz5URg6VRTv3SRU0Mc5S1D` checked 1,728 source routes, 1,744 candidate
+roots, 384 zero-relation lifts, and 384 nonzero colored cuts. It also joined
+96 `b`-leading, 192 `c`-leading, and 192 regularized-base payments to their
+proved owners. The audit directly implements matching
+`((0,4),(1,2),(3,5))` and the pairing-9 target equations.
+
+Universal transport closes the positive pairing-9/10 orbit: four labels
+represented by `(0,9)`. Cell `9` retains 11 representatives and 36 labels.
+The next cheapest parallel-DE attack is positive pairing `12`.
