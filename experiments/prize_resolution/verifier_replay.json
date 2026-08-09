@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify.py",
-      "seconds": 0.026669,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion/verify.py",
+      "seconds": 0.081668,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 six-chart four-basis cover: signs=4 charts=24\n"
+      "stdout_tail": "PASS cell-9 pairing-11/14 exclusion: rows=192 routes=2496 lifts=1152 orbits=2 labels=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify_audit.py",
-      "seconds": 0.025888,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion/verify_audit.py",
+      "seconds": 0.038429,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 tower audit: coherent_charts=24 hostile=detected\n"
+      "stdout_tail": "PASS cell-9 pairing-11 cross-audit: charts=6 profiles=73 hostile=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned common-f pairing-11 compiler for cell-9 xi in {0,2}.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "3e3c5aa6b389ee572998bd46626b2df7956c475baaf4832378ef9ec4b6774664",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 1764809,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "73321ebacf67ffaab714d5aa7e58d2386622a1cf02d0ad76a1afe65e717721b4"
+    },
+    {
+      "bytes": 1754288,
+      "path": "shards/part-00001.jsonl",
+      "records": 32,
+      "sha256": "4cf8dc686e0cce07c3e8574cd352faf919f64a2fd79cd45e9df6676181423e52"
+    },
+    {
+      "bytes": 1764299,
+      "path": "shards/part-00002.jsonl",
+      "records": 32,
+      "sha256": "f985c90f8c216776b33d250923dc3d42ac1f267f1ff0d01513ec26ad955493e4"
+    },
+    {
+      "bytes": 1765252,
+      "path": "shards/part-00003.jsonl",
+      "records": 32,
+      "sha256": "913d2c3a72bfa0387d2899becda1a03ab9db6f563465d10b8cf78ea35b7e8a9f"
+    },
+    {
+      "bytes": 1754669,
+      "path": "shards/part-00004.jsonl",
+      "records": 32,
+      "sha256": "1fc291e58b903f90b110e0501e1efb16316f94a965716a4886da5f70e9a93c15"
+    },
+    {
+      "bytes": 1764135,
+      "path": "shards/part-00005.jsonl",
+      "records": 32,
+      "sha256": "3895e2bfdd9536f510630b21dc42f49abe3508aaa934ef49b979f16d701c6572"
+    }
+  ],
+  "total_bytes": 10567452,
+  "total_records": 192
+}

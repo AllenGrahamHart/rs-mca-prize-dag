@@ -1808,3 +1808,31 @@ obtains 288 unit ideals, with no finite fallback, witness, or unresolved
 branch.  Universal transport closes four active representatives and nine
 labels: the orbits represented by `(0,0)`, `(0,1)`, `(2,0)`, and `(2,1)`.
 Cell 9 retains 20 representatives and 66 leading-open labels.
+
+**Cell-9 pairing-11 common-`f` closure.** A pinned adapter applies the
+audited pairing-11 common-`f` compiler to all six exact cell-9 tower charts.
+Pilot app `ap-ZlkcJNvTofKAAaW9UyQwxN` completed one source-sign lane on all
+six charts. Compact full scout `ap-lqie3UE9Ekhh7BMuDDr16k` and exact
+sharded app `ap-llfwUbTao5pLC68j0Va8i6` then completed all 192 rows: four
+source signs, four target lanes, two direct roles, and six charts. Every row
+is excluded, with no witness, colored solution, or unresolved branch.
+
+Independent root app `ap-iE2D95WiYBtId5Oh5dvQHe` reconstructed all 73
+distinct norm/inverse profiles by FLINT Frobenius gcd. It found 364 deployed
+roots, with maximum profile degree 1396. Independent six-chart replay app
+`ap-bgDbh5uxC8E9US5Wxtqtkp` checked 2,496 source routes, 1,152 complete
+quartic lifts, and 1,152 nonzero colored cuts. It also joined 192
+`b`-leading and 384 `c`-leading exits to the proved tower boundaries and
+384 missing-free exits to the proved regularized base systems.
+
+Three audit-wrapper runs are retained only as diagnostics:
+`ap-9UFYZP7CSTLtyo4fyEL1s0` failed at remote import because of a host-only
+path expression, `ap-pI6kZZZM5xHREEDHL1L04G` reached the 300-second cap in
+the monolithic replay, and `ap-1ooQ8MApl9YXVVpQQJUwK8` exposed a global-vs-
+chart record-count assertion after the mathematical checks. None is cited
+as evidence. The six independent 32-row chart jobs in the final app passed.
+
+Universal transport closes the two active orbits represented by `(0,11)`
+and `(2,11)`, namely four labels `(0,11),(1,11),(2,11),(2,14)`. Cell `9`
+retains 18 representatives and 62 leading-open labels. Total retained
+compute was bounded and well below `$1`.

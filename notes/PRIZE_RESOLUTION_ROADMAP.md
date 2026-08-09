@@ -21911,6 +21911,34 @@ compute:                   Modal apps ap-fcr4ueqVTji80aR1qmpdTD, ap-AsoabwG2JvSR
 live compute requests:     none
 next:                      attack reciprocal classes 8/13 and 11/14
 ```
+
+### Cell-9 pairing-11 common-f payment
+
+The exact six-chart tower carries the pinned pairing-11 compiler for both
+direct roles `xi=0,2`. All 192 source-sign, chart, target-lane, and role rows
+terminate excluded. External Frobenius-gcd custody reconstructs all 73
+univariate profiles, and a separate direct replay checks 2,496 source
+routes, 1,152 complete target lifts, every chart-leading payment, and every
+regularized-base payment. All 1,152 colored cuts are nonzero.
+
+Universal transport pays the orbits `[(0,11),(1,11)]` and
+`[(2,11),(2,14)]`. This is two active representatives and four labels; it
+does not pay positive `(0,14)`. Cell `9` now has 18 representatives and 62
+labels open.
+
+```text
+starting pin:              3fac082cf
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED pairing-11 direct roles and transported negative pairing-14 label; 20 -> 18 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact common-f six-chart packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-llfwUbTao5pLC68j0Va8i6, ap-iE2D95WiYBtId5Oh5dvQHe, ap-bgDbh5uxC8E9US5Wxtqtkp
+live compute requests:     none
+next:                      compare common-f costs for parallel-DE pairings 3,4,5 against the DF/EF shared block
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
