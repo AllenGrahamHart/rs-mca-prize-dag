@@ -3682,3 +3682,23 @@ marker and MUST pass this quarantine clause to any subagent.
   cell-4; cells 12-13; the universal transports) in the #1143
   certificate format on a fork branch; open the PR; push
   incremental commits as later cells close.
+
+## 2026-08-09: THE LIVING K3 EXPORT PR OPENED — upstream #1152
+
+- The crashed packaging pilot was replaced by a bounded coordinator
+  script (RAM-conscious: file-at-a-time sha256 walks, no bulk
+  loads). Package: FOUR unit certificates in the #1144
+  whole-cell-closure convention (README + JSON with K3_closed:
+  false / row_closed: false up front, dependency pins, nonclaims):
+  c112 source-line coverage COMPLETE (86 nodes incl. the M01/M02
+  Singular-replay discharge), 433-1b cell-4 CLOSED (50 nodes,
+  105/105 slices), cells 12-13 CLOSED (24 nodes), universal
+  structure (44 nodes) — 204 theorem nodes pinned by path +
+  verifier sha256 at canonical 594aaa985; one notes-only dir
+  skipped and manifest-logged. Branch k3-433-progress-export cut
+  from upstream main 93fba1be in a SCRATCH worktree (the live
+  fork checkout untouched); agents-log entry appended per
+  convention; pushed; **PR #1152 OPENED** (przchojecki/rs-mca).
+  STANDING CADENCE (user-ratified): each wave audit ends with an
+  incremental push of newly completed cells to this branch —
+  cell 9 will be the first.
