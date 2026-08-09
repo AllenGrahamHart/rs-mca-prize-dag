@@ -837,14 +837,23 @@ the other 32 reconstruct and have nonzero colored-pair cut. Independent app
 roots, and degrees through 11240. Universal label transport pays eight more
 labels at pairings `4/7/9/10`.
 
+The pairing-5 sibling also closes all 32 rows. It has the same exact
+192/336/224 source census and 256 final `(u,f)` rows, but its audit swaps the
+second and final target factors as required by matching
+`((0,2),(1,5),(3,4))`. Independent app `ap-u2uuv4l53a60zXAa2TCy35`
+reconstructs 41 profiles, 146 roots, and degrees through 11240. Direct replay
+finds 224 nonzero missing relations and 32 nonzero colored cuts. Transport
+pays eight labels at pairings `5/8/12/13`.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       53/105 closed
-active quotient frontier: 16 representatives / 52 labels
-DAG status delta:         +6 background PROVED; critical child unchanged
+cell-11 raw labels:       61/105 closed
+active quotient frontier: 14 representatives / 44 labels
+DAG status delta:         +7 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
-                          ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D
-next:                     pairing-5 parallel-DE representative packet
+                          ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
+                          ap-TWGHPcGCiL5Pvp6blq7acF
+next:                     positive pairing-9 representative `(0,9)`
 ```
