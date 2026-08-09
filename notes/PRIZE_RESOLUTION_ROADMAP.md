@@ -23725,3 +23725,66 @@ aggregate promotions:     literal-assignment coverage PROVED
                            complete c2(1,1,2) source-line exclusion PROVED
 remaining c2 branches:    coordinate/source-cover and later assembly
 ```
+
+### 2026-08-09 upstream and canonical reconciliation
+
+Canonical `prize@4cdc2471f` decomposes the old rate-half band parent into two
+explicit critical children. `rate_half_band_structural_surplus` is the K3
+workboard arm and still requires complete positive-433 coverage, an audited
+raw-label-to-distinct-slope conversion, and independent review.
+`rate_half_band_crossing_location` is the separate razor-row `(RH-AC)` arm;
+its binding object is `S_sparse`, with the proved bracket
+`[k+2^34,3n/4]`. Raw K3 cells do not prove that crossing.
+
+Upstream `main` remains `93fba1be3`. PR #1152 is the living K3 export and PR
+#1153 independently replays the six residual cell-5 `xi=3` representatives.
+The latter supplies useful independent evidence but explicitly does not audit
+endpoint rootlessness or the cell-5-to-cell-8 transport. Its only RED finding
+against #1152 was custody: pinned source commit `3fa298743` was not publicly
+reachable. The exact campaign branch has now been pushed to
+`AllenGrahamHart/rs-mca-prize-dag` as
+`codex/full-prize-resolution-v12-20260807`; GitHub resolves the pinned commit.
+No theorem or ledger value changed in that repair.
+
+### Cell-11 common geometry, endpoints, and first active orbits
+
+The final positive `433-1b` common-role representative is cell `11`, with
+singleton `BC+` and source pairs `(LA,BC-)`, `(AB,AC)`. Four exact packets are
+now PROVED over `F_2130706433`:
+
+- the complete four-basis common locus in all 24 chart/sign rows, with a
+  genus-three base curve and eight individually nonsplit boundary fibers;
+- one sign-independent eight-coordinate common kernel, with 40/40 exact row
+  reductions;
+- all 30 endpoint labels, using eight degree-32 eliminants, 16 guarded lifts,
+  and zero compatible lifts;
+- the nine first-pair parallel-`DE` labels, using 80 case-labelled norm roots
+  and an independent Frobenius-gcd root-union audit.
+
+The next nested-quadratic packet closes the representatives `(0,3)` and
+`(2,3)`. All 32 sign/lane/role rows complete with 192 target roots, 336
+candidate roots, 224 guarded source points, 128 compatible `(u,v)` lifts,
+and 256 final nonzero colored cuts. Independent app
+`ap-frKYHquD9otZjb2wGNRbqV` reconstructs all 49 profiles, 194 base-field
+roots, and degrees through 4960. Universal label transport pays six labels
+at pairings `3/6`.
+
+The pairing-4 packet then closes representatives `(0,4)` and `(2,4)`. Its
+32 rows have 192 target roots, 336 candidate roots, 224 guarded source
+points, and 256 final `(u,f)` rows. The missing relation excludes 224 rows;
+the other 32 reconstruct and have nonzero colored-pair cut. Independent app
+`ap-MXqCb9CahGt3YsLS2gltzf` reconstructs all 41 profiles, 146 base-field
+roots, and degrees through 11240. Universal label transport pays eight more
+labels at pairings `4/7/9/10`.
+
+```text
+lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
+cell-11 raw labels:       53/105 closed
+active quotient frontier: 16 representatives / 52 labels
+DAG status delta:         +6 background PROVED; critical child unchanged
+upstream terminal delta:  partial source-cell packet; no slope conversion
+Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
+                          ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
+                          ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D
+next:                     pairing-5 parallel-DE representative packet
+```
