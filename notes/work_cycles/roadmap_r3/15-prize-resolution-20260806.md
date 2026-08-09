@@ -4332,3 +4332,34 @@ compute:                   Modal apps ap-AwURhUNqbyqQ698VCisgnI, ap-iWDncW0jIcza
 live compute requests:     none
 next:                      apply the reciprocal-linear pairing-2 compiler
 ```
+
+### Cell-9 reciprocal-linear pairing-2 payment
+
+The reciprocal-linear compiler retains its three exhaustive `Pair(q,q)`
+branches and degree-one remainder cut on all six exact cell-9 charts. The
+anchor sign doubles the cover relative to pairing 1. All 144 rows terminate
+excluded in five canonical shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 121 univariate profiles, 716 roots,
+and degrees through 773. Separate direct replay checks 2,304 source routes,
+2,760 candidate roots, and every paid boundary. On all 1,584 ordinary
+routes, the missing quartic and next-pair quadratic have no common `z` root,
+so no `z/d/e/f` lift or final color lane survives.
+
+Universal transport pays the two-label orbit `{(3,2),(4,2)}`. Cell `9`
+now has six representatives and 24 labels open. Upstream living K3 export
+PR #1152 remains open and explicitly accepts incremental cell-9 packets.
+
+```text
+starting pin:              5af3a721b
+canonical prize pin:       3bbca1962
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal-linear pairing-2 class; 7 -> 6 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-linear six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-w96YfyWkENePqJaMF2iO5T, ap-Gj4xyIkqUpZbkQVpcpXz4j, ap-aMg0P5X4lwTv4iHnhsi0A9, ap-N9VKOuBESeRyu0BRwjcB2L
+live compute requests:     none
+next:                      classify and attack the pairing-3 representative
+```
