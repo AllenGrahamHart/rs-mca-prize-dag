@@ -253,3 +253,75 @@ as a substitution). No status flip (the node stays TARGET; the
 POSE changes). Source:
 notes/pilots_20260809/pincer_formalization/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: cancellation_recon — the barrier mapped exactly; BLIND CONVERGENCE with the round-27 forced correction)
+
+**Run under quarantine from the pincer_formalization pilot, this
+recon independently derived three of the same conclusions** — the
+live gap is sigma in [2^34, 2^39] (not the nominal band, which the
+proved reach already covers entirely); a PROVED theorem exhibits a
+structural surplus of EXACTLY 2.0000x over the random-word
+first-moment line (CATCH-E: the proved reach 2^34-1 = 2 x
+n/log2 q, the surplus being the +c from the maximal prefix); and
+mca_safe consumes the upper half only. Blind convergence noted as
+corroboration of the forced correction above.
+
+**THE Z-FLOOR TRANSPORT SELF-SUBTRACTS (hard law 5, the pilot's
+own registered 0.55 prediction):** Z-FLOOR's mechanism (mass by
+pigeonhole + second-moment ceiling + Cauchy-Schwarz) IS the PROVED
+rate_half_cyclic_simple_pole_mca_floor — coordinator-verified
+verbatim at its proof.md:42-56. The transport exists, is banked,
+and buys zero new reach.
+
+**CATCH-B (live-number correction):** the campaign's quoted band
+deficit ("x28.4, 4.73-4.83 bits, flat across all 2,978,146 band
+cells", witness-hunt 2026-07-12, still quoted in this node's
+statement blob) is the deficit of the fixed-tail N=128 d=0 rung —
+whose reach only TIES the current proved 2^34-1. Closing it buys
+ZERO. **The live deficit at the first reach-improving rung
+(rotated N=128, d=1, reach 2^35-1) is 11.8737 bits (x3750).**
+CATCH-C: the difference is exactly log2(128) + log2(65/63) = 7.045
+bits, and the 7 is UNRECOVERABLE — the pigeonhole normalizer is
+exactly tight (class-profile DP at the real rung parameters:
+largest class = C(N-1,m)/N to 9 decimal places).
+
+**THE NEXT-RUNG FLOOR IS DEAD TWICE OVER at the real parameters:**
+(i) the 11.87-bit supply deficit with a provably tight normalizer;
+(ii) the second registered repair route (sharpen the simple-pole
+conversion) dies the OPPOSITE way — the conversion becomes
+LOSSLESS as q grows (measured 8.006 -> 1.120 over the banked
+9-point ladder; Cauchy-Schwarz tight at 1.00-1.25), so an
+infinitely sharp conversion buys nothing at razor q.
+
+**THE BARRIER, NAMED AND QUANTIFIED:** above sigma = n/log2 q the
+AVERAGE ball occupancy falls below the budget, so no counting
+argument can produce witnesses — only atypically-clustered
+algebraic configurations can. Both in-repo LB mechanisms die at
+the same line for different reasons: M1 (tangent construction,
+payload <= 2^40 < B* for q >= 2^168) and M2 (counting, capped at
+2 x n/log2 q by ball-volume exhaustion). Same barrier as WP7's
+clean-rate instance — but the rate-1/2 shortfall is 11.87 bits vs
+212 there: BY FAR the closest instance to closing. Sharpest
+bracket of record: sigma_true in [2^34, 2^39] for q >= 2^169.
+
+**Consumer-bar map sharpened (CATCH-24C, per-consumer):** ONLY
+adjacency_closing has an open band lower-bound clause, and it is a
+MOVING bar (sigma_LB must meet the safe side minus one — no fixed
+lower bound discharges it alone). mca_safe: upper half only.
+list_adjacency_closing: lower half ALREADY DISCHARGED by the
+PROVED rate_half_cyclic_rotated_prefix_floor; its open piece is
+the list safe side (owned elsewhere). **K5 AS MINTED IS
+DISCHARGED-STALE:** its coverage interval (R(lq), sigma*] was
+superseded 8 days after minting by the wave-10 optimized floor;
+the live kernel need is (2^34 - 1, a_RH - k - 1].
+
+Pilot record: 9 predictions HIT (incl. the exact 2.0000 ratio and
+the self-subtraction), 1 MISS + 1 half-MISS (the repair route
+died the opposite way from its framing — reported as such), 3
+registered small-scale tests NOT RUN (superseded by exact
+computation at the real parameters — a declared deviation,
+strictly stronger, misses left unresolved and named). Coordinator
+replays: all four scripts byte-identical; the simple-pole proof
+mechanism verified verbatim. No status flip. Source:
+notes/pilots_20260809/cancellation_recon/ (REPORT.md,
+FABLE_AUDIT.md).

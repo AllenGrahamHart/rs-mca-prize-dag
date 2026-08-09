@@ -1,0 +1,26 @@
+======================================================================
+E1  Z-FLOOR replay (scratch copy of z_ceiling_assault/zcore.py)
+======================================================================
+M4 N=16 kappa=1 p=97
+   TMASS       = 675.629394531250   banked 675.629394531   EXACT MATCH: False
+   ZFRATIO     = 1.000000782311  (Z*p^kappa/2^N)
+   Z-FLOOR ok  = True   within-2x = True
+M2 N=16 kappa=2 p=97
+   TMASS       = 9.387207031250   banked 9.38720703125   EXACT MATCH: True
+   ZFRATIO     = 1.347720809281  (Z*p^kappa/2^N)
+   Z-FLOOR ok  = True   within-2x = True
+M2 N=16 kappa=2 p=193
+   TMASS       = 2.591796875000   banked 2.591796875   EXACT MATCH: True
+   ZFRATIO     = 1.473111599684  (Z*p^kappa/2^N)
+   Z-FLOOR ok  = True   within-2x = True
+E1 VERDICT: all banked TMASS replayed exactly and Z-FLOOR holds: False
+
+======================================================================
+E2  banked band-analogue exact count (F7-A2, q=97)
+======================================================================
+q=   97  challengers= 109 (banked 109)  planted=4 (banked 4)  unclassified=0 (banked 0)  list_size=113  MATCH=True
+q=  113  challengers=  95 (banked 95)  planted=4 (banked 4)  unclassified=0 (banked 0)  list_size=99  MATCH=True
+q=  193  challengers=  56 (banked 56)  planted=4 (banked 4)  unclassified=0 (banked 0)  list_size=60  MATCH=True
+E2 VERDICT: banked band-analogue counts reproduced exactly: True
+
+ESCAPE TESTS PASS: False

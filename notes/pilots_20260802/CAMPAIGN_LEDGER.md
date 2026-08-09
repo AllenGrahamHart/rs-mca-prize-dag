@@ -4121,3 +4121,33 @@ DECOMPOSITION: design dead as written; revised candidate recorded
 in the plan doc; AWAITING USER + the remaining three banks. Pilot:
 17 min, 3 interpreter calls, 6 disclosed self-corrections. Files:
 notes/pilots_20260809/pincer_formalization/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 27 BANK 2/4 — cancellation_recon (2026-08-09, coordinator)
+
+**BANKED: the barrier mapped exactly, with BLIND CONVERGENCE on the
+bank-1/4 picture** (quarantined siblings independently derived the
+[2^34, 2^39] live gap, the exact 2.0000x surplus over the
+random-word line, and mca_safe's upper-half-only bar). Z-FLOOR
+TRANSPORT SELF-SUBTRACTS (the pilot's own registered 0.55
+prediction): its mechanism IS the PROVED simple-pole floor
+(coordinator-verified verbatim at proof.md:42-56) — zero new reach.
+CATCH-B: the campaign's quoted x28.4 / 4.8-bit band deficit is the
+WRONG RUNG (reach-tying); the live deficit at the first
+reach-improving rung is **11.8737 bits (x3750)**, and CATCH-C's 7
+bits are UNRECOVERABLE (pigeonhole normalizer exactly tight — DP at
+real parameters, 9 decimals). The next-rung floor is DEAD TWICE
+(supply deficit + the conversion goes LOSSLESS as q grows — the
+repair died the opposite way from its framing, reported as such).
+BARRIER NAMED: above n/log2 q average ball occupancy < budget —
+counting cannot cross; M1 dead >= 2^168, M2 capped at 2x; same
+barrier as WP7's clean-rate instance but 11.87 vs 212 bits — the
+closest instance to closing. Consumer map sharpened: ONLY
+adjacency_closing holds an open LB clause (a MOVING bar);
+list_adjacency's lower half already discharged (PROVED
+rotated-prefix). K5 as minted DISCHARGED-STALE; live kernel need
+(2^34-1, a_RH-k-1]. mca_safe/HD1 lead REINFORCED from a second
+blind direction. Replays: all four scripts byte-identical. 9 HIT /
+1 MISS + 1 half-MISS + 3 not-run (declared deviation, dominated by
+exact real-parameter computation). Addendum applied; no status
+flips. Files:
+notes/pilots_20260809/cancellation_recon/{REPORT.md,FABLE_AUDIT.md}.
