@@ -30913,6 +30913,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 complete exclusion",
+   "status": "PROVED",
+   "closure": "all 105 raw cell-5 direct labels excluded on the deployed guarded route",
+   "statement": "Every raw direct label in positive 433-1b cell 5 is empty on the deployed guarded route. The active-label theorem pays the 75 labels with xi<=4 through 24 exact quotient orbits. The endpoint theorem pays the remaining 30 labels with xi in {5,6} by base-field rootlessness. Their disjoint union is exactly all 7*15=105 labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "title": "KoalaBear m2 r4 positive 433-1b cell-5 elliptic common kernel",
    "status": "PROVED",
@@ -30936,6 +30956,32 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_four_basis_tower_result.json",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 endpoint-role exclusion",
+   "status": "PROVED",
+   "closure": "all 30 raw endpoint labels in cell 5 excluded by base-field rootlessness",
+   "statement": "On the deployed guarded positive 433-1b cell-5 common locus, neither endpoint outside role xi=5 nor xi=6 is compatible with a missing source record. For each of four source-sign rows and each endpoint, the necessary source-only compatibility ideal has one univariate r eliminant of degree 16 (xi=5) or 11 (xi=6). All eight eliminants have gcd 1 with r^p-r over the deployed field p=2130706433, so none has a deployed r-coordinate. Hence all 2*15=30 endpoint pairing labels are empty.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_compatibility_pilot_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_compatibility_pilot_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_compatibility_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_compatibility_replay_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_eliminant_rootlessness_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_endpoint_eliminant_rootlessness_result.json"
    ]
   },
   {
@@ -32141,6 +32187,47 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells4_7_duplicate_role_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cells 5-8 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of source role-cell orbit [5,8] by exact duplicate-role transport and global rank-drop exclusion",
+   "statement": "The complete deployed positive 433-1b to O0a route is empty in source role cells 5 and 8. Cell 5 is empty by its exact 105-label assembly. Exchanging common target roles B,C, fixing r and t, flipping the first source sign, gauging D,E,F by sigma_c, and swapping outside BF/CF roles gives an exact bijection of all 105 labels and 1680 signed principal systems between cells 5 and 8. The global product-rankdrop theorem excludes the complementary branch in both cells. No other role orbit or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "title": "KoalaBear m2 r4 positive 433-1b duplicate-role cells 5-8 transport",
+   "status": "PROVED",
+   "closure": "exact B/C duplicate-role bijection of all 1680 signed principal systems from cell 5 to cell 8",
+   "statement": "Exchanging common target roles B,C, fixing r and the singleton parameter t, flipping the first source sign, gauging D,E,F by sigma_c, and swapping outside records BF and sigma_c CF gives an exact bijection from every principal positive 433-1b system in source role cell 5 to one in cell 8. It preserves target lanes, common Vieta rows, outside products and squared sums, all guards, and bijects all 105 labels. Hence all 4 source-sign by 4 target-lane by 105 principal systems are transported. Together with the global product-rank-drop exclusion, complete emptiness of cell 5 implies complete emptiness of cell 8.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells5_8_duplicate_role_transport.py"
    ]
   },
   {
@@ -60365,6 +60452,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
    "kind": "req"
   },
@@ -60466,6 +60558,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "kind": "req"
   },
   {
@@ -61359,9 +61456,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_active_labels_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
@@ -61441,6 +61558,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
    "kind": "req"
   },
   {
@@ -62274,6 +62401,21 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "kind": "req"
@@ -62306,6 +62448,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "kind": "req"
   },
   {
@@ -62455,6 +62602,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
    "kind": "req"
   },
@@ -62555,6 +62707,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "kind": "req"
   },
@@ -62606,6 +62763,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "kind": "req"
   },
   {
@@ -63676,6 +63843,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "kind": "req"
   },
   {

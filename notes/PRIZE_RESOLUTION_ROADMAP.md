@@ -22847,6 +22847,49 @@ live compute requests:     none
 next:                      adapt the endpoint-role campaign to cell 5, then aggregate
                            complete cell 5 and transport the duplicate role to cell 8
 ```
+
+### Role-orbit [5,8] endpoint rootlessness and complete closure
+
+The cell-12 endpoint architecture was specialized to cell 5's boundary-free
+row-6 tower. All eight source-sign/endpoint compatibility ideals are
+zero-dimensional with one univariate `r` eliminant. The four `b`-endpoint
+eliminants have degree 16 and the four `c`-endpoint eliminants degree 11.
+Finite-field factor replay finds no linear factor and therefore no deployed
+`r` root, tower lift, or generic endpoint candidate in any row. An
+independently parsed Galois-tools audit proves
+`gcd(E(r),r^p-r)=1` for all eight eliminants. The inherited 2,400-system
+residual census is consequently unnecessary: source compatibility already
+excludes all `2*15=30` endpoint labels.
+
+The endpoint theorem combines with the 75-label active aggregate to close
+cell 5 at 105/105. A fresh B/C transport then verifies the exact duplicate
+role map from cell 5 to cell 8: `r,t` stay fixed, the first source sign flips,
+`D,E,F` are gauged by `sigma_c`, and `BF` exchanges with `sigma_c CF`.
+Symbolic expansion checks all common rows, outside rows, guards, and 420
+target-lane label images; an independent role-cell/pairing reconstruction
+confirms `5 -> 8`. Together with the proved global rank-drop theorem this
+closes the complete `[5,8]` role orbit.
+
+```text
+starting pin:              d6fdd64c2
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 endpoint-role complete exclusion PROVED
+                           cell-5 complete exclusion PROVED
+                           cells-5/8 duplicate-role transport PROVED
+                           role orbit [5,8] complete exclusion PROVED
+DAG status delta:          +4 background PROVED; role orbit [5,8] closed
+upstream terminal delta:   PR #1152 may now receive the pinned [5,8] closure certificate
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-eKyJeKljojhF7wqgT2WNhY,
+                           ap-cDjdfxWRQcs5eL4RgeKbQ3,
+                           ap-j1NvsU2Pzw7d8R5CrHhwYC
+avoided compute:           inherited 2,400-system residual census was not launched
+live compute requests:     none
+next:                      commit, run the closure gate, and export the exact pinned
+                           certificate to upstream PR #1152
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

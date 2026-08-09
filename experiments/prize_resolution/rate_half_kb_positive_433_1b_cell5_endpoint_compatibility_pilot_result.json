@@ -1,0 +1,169 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "basis_size": 28,
+      "cut_degree": 38,
+      "cut_sha256": "d369608fea96ece2c9c615d8a6559ab757bee4c36205813159156a643736e37d",
+      "cut_terms": 1233,
+      "dimension": 0,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "program_sha256": "7a5a3ee1f81073b7ea46270e3c952d9810ae8bf1b3ec70b72fa96d117e39fd19",
+      "r_elimination": "Er[1]=r16-66846706r15-200540130r14-726925371r13-919076924r12+467926806r11-843842661r10+325845135r9-351271654r8+325845067r7-843841081r6+467927218r5-919077208r4-726925423r3-200540166r2-66846726r-1",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=28\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r16-66846706r15-200540130r14-726925371r13-919076924r12+467926806r11-843842661r10+325845135r9-351271654r8+325845067r7-843841081r6+467927218r5-919077208r4-726925423r3-200540166r2-66846726r-1\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cut_degree": 38,
+      "cut_sha256": "521714a84233df0effb721a9c13de65fbdc5bc63166e90591e63a529238869af",
+      "cut_terms": 1777,
+      "dimension": 0,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "program_sha256": "833316a9070488bfd64af98311eb7ca3207818246fbf038fa8977c50ef5c8c39",
+      "r_elimination": "Er[1]=r11-16711677r10+167116789r9+284098551r8-133693466r7+300810178r6-735313858r5-568197094r4+133693449r3-16711669r2+33423357r+16711679",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=21\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r11-16711677r10+167116789r9+284098551r8-133693466r7+300810178r6-735313858r5-568197094r4+133693449r3-16711669r2+33423357r+16711679\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 28,
+      "cut_degree": 38,
+      "cut_sha256": "d369608fea96ece2c9c615d8a6559ab757bee4c36205813159156a643736e37d",
+      "cut_terms": 1233,
+      "dimension": 0,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "program_sha256": "0b8c8e87e79ddd40f74d61b2fa0ed2235591d9c738cef561c229d12ff0c14a17",
+      "r_elimination": "Er[1]=r16-66846726r15+200540166r14-726925423r13+919077208r12+467927218r11+843841081r10+325845067r9+351271654r8+325845135r7+843842661r6+467926806r5+919076924r4-726925371r3+200540130r2-66846706r-1",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=28\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r16-66846726r15+200540166r14-726925423r13+919077208r12+467927218r11+843841081r10+325845067r9+351271654r8+325845135r7+843842661r6+467926806r5+919076924r4-726925371r3+200540130r2-66846706r-1\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cut_degree": 38,
+      "cut_sha256": "521714a84233df0effb721a9c13de65fbdc5bc63166e90591e63a529238869af",
+      "cut_terms": 1777,
+      "dimension": 0,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "program_sha256": "311f25eef7f6aab3c3550a6d8f2a36332a6a11cf90bf352db2b902855cca87ac",
+      "r_elimination": "Er[1]=r11-16711681r10-167116791r9+284098535r8+133693398r7+300810266r6+735313894r5-568197078r4-133693415r3-16711689r2-33423359r+16711679",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=21\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r11-16711681r10-167116791r9+284098535r8+133693398r7+300810266r6+735313894r5-568197078r4-133693415r3-16711689r2-33423359r+16711679\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 28,
+      "cut_degree": 38,
+      "cut_sha256": "d369608fea96ece2c9c615d8a6559ab757bee4c36205813159156a643736e37d",
+      "cut_terms": 1233,
+      "dimension": 0,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "program_sha256": "02e349a62ec8da0f3e0848d22794e67295c6ebc6ba99dc2f672671d47f17ed76",
+      "r_elimination": "Er[1]=r16+66846706r15-200540130r14+726925371r13-919076924r12-467926806r11-843842661r10-325845135r9-351271654r8-325845067r7-843841081r6-467927218r5-919077208r4+726925423r3-200540166r2+66846726r-1",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=28\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r16+66846706r15-200540130r14+726925371r13-919076924r12-467926806r11-843842661r10-325845135r9-351271654r8-325845067r7-843841081r6-467927218r5-919077208r4+726925423r3-200540166r2+66846726r-1\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cut_degree": 38,
+      "cut_sha256": "521714a84233df0effb721a9c13de65fbdc5bc63166e90591e63a529238869af",
+      "cut_terms": 1777,
+      "dimension": 0,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "program_sha256": "9e5cf6de0f56fef2b638f56d8b2985c7e38fc3f63e2f6ae5c34234e0b63a55bc",
+      "r_elimination": "Er[1]=r11+16711677r10+167116789r9-284098551r8-133693466r7-300810178r6-735313858r5+568197094r4+133693449r3+16711669r2+33423357r-16711679",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=21\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r11+16711677r10+167116789r9-284098551r8-133693466r7-300810178r6-735313858r5+568197094r4+133693449r3+16711669r2+33423357r-16711679\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 28,
+      "cut_degree": 38,
+      "cut_sha256": "d369608fea96ece2c9c615d8a6559ab757bee4c36205813159156a643736e37d",
+      "cut_terms": 1233,
+      "dimension": 0,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "program_sha256": "f40ba4716e96ff9dd0794ddf126b9d75bf7f0bc8bd1aba416ad55d6f1761f33f",
+      "r_elimination": "Er[1]=r16+66846726r15+200540166r14+726925423r13+919077208r12-467927218r11+843841081r10-325845067r9+351271654r8-325845135r7+843842661r6-467926806r5+919076924r4+726925371r3+200540130r2+66846706r-1",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=28\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r16+66846726r15+200540166r14+726925423r13+919077208r12-467927218r11+843841081r10-325845067r9+351271654r8-325845135r7+843842661r6-467926806r5+919076924r4+726925371r3+200540130r2+66846706r-1\nER_END\nEND\n",
+      "unit": false
+    },
+    {
+      "basis_size": 21,
+      "cut_degree": 38,
+      "cut_sha256": "521714a84233df0effb721a9c13de65fbdc5bc63166e90591e63a529238869af",
+      "cut_terms": 1777,
+      "dimension": 0,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "program_sha256": "f9d307a3acf1b4b32a403e7f42b8a0e2f8dc72d2f87214e971d2c8227b065776",
+      "r_elimination": "Er[1]=r11+16711681r10-167116791r9-284098535r8+133693398r7-300810266r6+735313894r5+568197078r4-133693415r3+16711689r2-33423359r-16711679",
+      "r_elimination_dimension": 4,
+      "r_elimination_size": 1,
+      "status": "COMPLETE",
+      "stderr_tail": "",
+      "stdout_tail": "BEGIN\nDIM=0\nSIZE=21\nUNIT=0\nERDIM=4\nERSIZE=1\nER_BEGIN\nEr[1]=r11+16711681r10-167116791r9-284098535r8+133693398r7-300810266r6+735313894r5+568197078r4-133693415r3+16711689r2-33423359r-16711679\nER_END\nEND\n",
+      "unit": false
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell5-endpoint-pilot-v1",
+  "scope": "Exact source-only endpoint compatibility ideals on cell 5; pilot evidence only until finite fibers are replayed.",
+  "source_kernel_sha256": "627a8df8bb8a2da4e11488658d1c2145b8c65ef7fbcef3f0f4f53f9d05ea752d",
+  "source_structure_sha256": "12814c5e912c28a7ed1bdcc6d1550041cd8d297fb634e02ab0dca64dbf46e854"
+}

@@ -2325,3 +2325,20 @@ checks that 16 proved owner packets pay exactly all 24 active orbits and all
 75 labels with `xi <= 4`. No rerun is requested. The next bounded compute
 target is the disjoint 30-label endpoint branch `xi in {5,6}`; it is not
 claimed by the active-label aggregate.
+
+**Cell-5 endpoint rootlessness and role-orbit `[5,8]` closure.** Exact
+compatibility app `ap-eKyJeKljojhF7wqgT2WNhY` completed all eight
+source-sign/endpoint ideals. Each has one univariate eliminant: degree 16 for
+the four `b` rows and degree 11 for the four `c` rows. Replay app
+`ap-cDjdfxWRQcs5eL4RgeKbQ3` found zero base-field roots, tower lifts, or
+generic candidates in every row. Independent app
+`ap-j1NvsU2Pzw7d8R5CrHhwYC` separately parsed the eliminants and certified
+`gcd(E,r^p-r)=1` eight times. Thus all 30 endpoint labels close before any
+target matching is introduced; the inherited 2,400-system residual census
+was intentionally not launched.
+
+Zero-compute exact compositions close cell 5 at `75+30=105` labels, verify
+the B/C duplicate-role map over all 1,680 signed principal systems, and
+close role orbit `[5,8]` using the proved rank-drop theorem. No rerun or
+further compute is requested. Export the pinned closure certificate through
+upstream PR #1152.

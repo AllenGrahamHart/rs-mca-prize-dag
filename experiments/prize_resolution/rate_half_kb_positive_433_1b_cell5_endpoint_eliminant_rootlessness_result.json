@@ -1,0 +1,129 @@
+{
+  "complete": true,
+  "field": 2130706433,
+  "method": "independent galoistools gcd(E(r), r^p-r)",
+  "rows": [
+    {
+      "degree": 16,
+      "eliminant_sha256": "5efdf9bbfebf7ad48dcf9b313e5db8a652da9a1c69515af095a2c8705c49b95a",
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "d19fdbff6a714a68ed24d5aed40b814d85844563992b6b107fa92f61d0663594",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 17
+    },
+    {
+      "degree": 11,
+      "eliminant_sha256": "4f60700a7295a8b10ba241d648de01b174effc9746d8b9ea9e71c5cf6c9577e8",
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "6d90184d44a1599934bb5b30bd2e501945e5e82180eb2361968b1196c9acaf55",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 12
+    },
+    {
+      "degree": 16,
+      "eliminant_sha256": "a48397ffee3f908f5063aebdcca2c4b7380bb2ede01404f9afc7e51ea60c31b1",
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "frobenius_remainder_sha256": "70ea98b1334a2a569e9f2d409c5ca9a2172268874521f7cb122c07a767f3676a",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 17
+    },
+    {
+      "degree": 11,
+      "eliminant_sha256": "6a4690649d0a48335389c46417510c0f1116859a42c6f34df86b5041a17bf890",
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "frobenius_remainder_sha256": "81d96ac496f2fcdc2d97959fd70fd55e99d3221e1784131bfe8bf69eaec8f8c2",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 12
+    },
+    {
+      "degree": 16,
+      "eliminant_sha256": "b696c270bf192d72fa5d400dc49db8be514a7d990c4a5b817b3ae51e084e4f20",
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "473f9c84d0e1fa2ec49e7a7ec39e0f9f93f220b8db53b18c655338de02113178",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 17
+    },
+    {
+      "degree": 11,
+      "eliminant_sha256": "265c6de5ee1b70a4e3bb928ffa5c13ddf4fbac84e191663ad0cbd2dd75e326f4",
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "7615847764c367ec5ac49ab4585c05f0aa48e7a88df62396eb5f02cc60b1ace8",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 12
+    },
+    {
+      "degree": 16,
+      "eliminant_sha256": "c8582606f8fc42c868ed6c854d60928f6e6b8b78fa9093f914bf7851ffe065c7",
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "frobenius_remainder_sha256": "1a2297c98150ad6527bf88738776cb778601a39be03884a61fd003d7037f8dd8",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 17
+    },
+    {
+      "degree": 11,
+      "eliminant_sha256": "5a6a986a3d0cc88c38b1efc5a8c27be9ca816094b4a042dc7ee8c62815737611",
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "frobenius_remainder_sha256": "2d9afeae78d646762c07dfca501e1a93c895706e2a5a1cc4afe063f6c4d3e8ab",
+      "root_count": 0,
+      "root_gcd": [
+        1
+      ],
+      "terms": 12
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell5-endpoint-eliminant-rootlessness-v1",
+  "source_pilot_sha256": "2aa299a33d85a14eec78a0722ec9c82d137327acdfdc7ef8a370243ea9f21030"
+}
