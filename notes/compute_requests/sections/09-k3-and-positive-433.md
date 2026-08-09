@@ -2264,3 +2264,14 @@ routes and all terminal classifications. Exact transport pays two labels in
 one orbit, leaving 30 labels in 9 active cell-5 orbits. No rerun is requested;
 the next bounded targets are the `xi=3` representatives at pairings
 `0,1,2,3,4,5,7,8,11`.
+
+**Cell-5 xi3 pairing-0 payment.** Pilot app
+`ap-k0xagMKTLGhUToXTT5h1Xq` closed its row. Full app
+`ap-M93N3JDUAYFLZANutbT0ZD` closed all 24 rows with 324 candidate roots,
+416 guarded source routes, 160 reciprocal `(y,d)` candidates, and 320
+nonzero final lanes. Independent app `ap-eMDAvbCs9CSGRO0xDZ7V9T`
+reconstructed 93 profiles, 392 deployed roots, and degrees through 548.
+Dedicated direct replay `ap-t8iRhYCgiuVirgmj3YBYtz` checked all route
+relations and terminal ledgers. Exact transport pays two labels in one orbit,
+leaving 28 labels in 8 active cell-5 orbits. No rerun is requested; the next
+bounded packet is `xi=3` pairings `1/2`.

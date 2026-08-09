@@ -22693,6 +22693,38 @@ compute:                   ap-Cft98d6QyKBakLyfWHA7Tq, ap-NsAdkMWefu7DSfNmT6d2A1,
 live compute requests:     none
 next:                      attack the nine remaining xi=3 representatives
 ```
+
+### Role-orbit [5,8] xi3 pairing-0 payment
+
+The pinned reciprocal-square compiler was specialized to cell 5's
+boundary-free row-6 tower. All 24 source-sign, rational-branch, and
+outside-sign rows close. The packet contains 132 target roots, 324 candidate
+roots, 416 guarded source routes, 160 recovered `(y,d)` candidates, and 320
+final colored lanes. The finite partition is 48 missing-impossible, 48
+zero-product, 24 empty-branch, and 296 checked points; every final paired cut
+is nonzero.
+
+Independent Frobenius reconstruction covers 93 profiles, 392 deployed roots,
+and degrees through 548. A separate direct replay reconstructs every
+candidate union, source relation, missing record, reciprocal-square
+intersection, `d/e/f` lift, and colored lane. Universal transport pays
+`{(3,0),(4,0)}`. Cell 5 has now paid 47 of 75 active labels in 16 of 24
+orbits; 28 labels in 8 `xi=3` orbits remain.
+
+```text
+starting pin:              3ceb3527a
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 xi3 pairing-0 reciprocal-square exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-M93N3JDUAYFLZANutbT0ZD, ap-eMDAvbCs9CSGRO0xDZ7V9T,
+                           ap-t8iRhYCgiuVirgmj3YBYtz
+live compute requests:     none
+next:                      attack xi3 pairings 1 and 2 as one compiler packet
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
