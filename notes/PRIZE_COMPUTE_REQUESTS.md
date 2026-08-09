@@ -13005,3 +13005,14 @@ Dedicated direct replay `ap-t8iRhYCgiuVirgmj3YBYtz` checked all route
 relations and terminal ledgers. Exact transport pays two labels in one orbit,
 leaving 28 labels in 8 active cell-5 orbits. No rerun is requested; the next
 bounded packet is `xi=3` pairings `1/2`.
+
+**Cell-5 xi3 pairings-1/2 payment.** Pilot app
+`ap-FUqKOdbE21S1T8pUUJDxPB` closed its pairing-1 row. Full app
+`ap-nmQOvYZaed4IjqgLRQJaS0` closed all 36 rows with 500 candidates, 712
+guarded routes, 64 `z/d/e/f` lifts, and 224 nonzero final lanes. Independent
+app `ap-oazobs3PP680DoKqwwUjCi` reconstructed 129 profiles, 596 deployed
+roots, and degrees through 508. Dedicated direct replay
+`ap-5RckhF73Lbvz3uGqKclZss` checked separate pairing-1 and pairing-2
+ledgers. Exact transport pays four labels in two orbits, leaving 24 labels in
+6 active cell-5 orbits. No rerun is requested; the next bounded family is
+`xi=3` pairings `3/4/5`.

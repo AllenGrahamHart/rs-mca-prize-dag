@@ -22725,6 +22725,36 @@ compute:                   ap-M93N3JDUAYFLZANutbT0ZD, ap-eMDAvbCs9CSGRO0xDZ7V9T,
 live compute requests:     none
 next:                      attack xi3 pairings 1 and 2 as one compiler packet
 ```
+
+### Role-orbit [5,8] xi3 pairings-1/2 payment
+
+The pinned reciprocal-linear compiler was specialized to the cell-5 row-6
+tower. All 36 rows close, with the two orbit ledgers retained separately.
+Pairing 1 has 76 target roots, 180 candidates, 280 guarded routes, 48
+`z/d/e/f` lifts, and 192 nonzero final lanes. Pairing 2 has 112 target roots,
+320 candidates, 432 guarded routes, 16 lifts, and 32 nonzero final lanes. No
+witness, free branch, leading-boundary remainder, or unresolved row survives.
+
+Independent Frobenius reconstruction covers 129 profiles, 596 deployed
+roots, and degrees through 508. A separate direct replay checks all 36 rows
+and emits exact per-pairing route, lift, and lane totals. Universal transport
+pays `{(3,1),(4,1)}` and `{(3,2),(4,2)}`. Cell 5 has now paid 51 of 75
+active labels in 18 of 24 orbits; 24 labels in 6 `xi=3` orbits remain.
+
+```text
+starting pin:              490d0c6c8
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 xi3 pairings-1/2 reciprocal-linear exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-nmQOvYZaed4IjqgLRQJaS0, ap-oazobs3PP680DoKqwwUjCi,
+                           ap-5RckhF73Lbvz3uGqKclZss
+live compute requests:     none
+next:                      attack xi3 pairings 3, 4, and 5
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
