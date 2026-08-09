@@ -344,3 +344,93 @@ Z-CEILING on toy families; the f2 calibration clause binds; no
 status change. Source: notes/pilots_20260809/z_n32_band/
 (REPORT.md, FABLE_AUDIT.md; ez 15/15, seeded analysis, and the
 record cell replayed by the coordinator).
+
+## Round-26 addendum (2026-08-09, coordinator-applied on replay: umin_spike_hunt — CONJECTURE Z-CEILING's ratio form FALSIFIED on its own pinned family)
+
+**BOTH registered kill outcomes FIRED. The record: CRATIO =
+5.8131644651 exact at the M4/I2-RSET cell N=32, kappa=1,
+p=4337074369, sigma=-0.0141 (TNUM=49692303616, NKER=551489) —
+FOUR-WAY derived** (the pilot's identity/256, even-odd/181,
+reversed/101, plus the coordinator's stride-5/113 — all
+exact-integer identical) **and the weight-5 kernel witness
+(support {0,1,3,12,25}) verified DIRECTLY by coordinator code
+independent of the sieve. 119 of 124 exactly-computed kappa=1
+cells exceed 2; the N=16 record 1.7681 is beaten 3.3x; round-25's
+sample max 1.4211 by 4.1x. Z-FLOOR holds at every one of 292
+cells — the FLOOR stands, the CEILING falls.**
+
+**THEOREM RS (new, the converse of THEOREM RC — an IFF, giving
+the sweep recall 1.000 BY PROOF):** for 2N a 2-power and
+2N | p-1, the cell carries a ternary kernel vector of weight U
+iff some ternary f (deg < N, weight U) has p | Res(Phi_2N, f).
+((<=): Res = prod_{k odd} f(theta^k), so some f(theta^k) = 0;
+g(x) = f(x^k) mod (x^N+1) is ternary of the SAME weight for odd
+k, and g(theta) = 0 — coordinator-verified argument.) The sweep
+is over f, NOT over p: one enumeration decides every prime in
+the band. Measured recall control: the N=16 whole-band census
+(1305 cells, U <= 12) agrees with the reference weight
+enumerator with 0 mismatches; the N=8 band likewise; the power
+control hit exactly the banked AU profiles (64/32/0/0). Cost:
+4.4 microseconds per admissible prime vs ~200 s/prime by direct
+enumeration (~4e7 speedup).
+
+**THE CENSUS (a census, not a sample — all 2.12e7 admissible
+kappa=1 primes in [2^30, 2^34] decided):** UMIN <= 3 empty BY
+PROOF (Res <= 3^16 < 2^30); UMIN = 4: 0; UMIN = 5: 90 (the
+whole stratum computed exactly by BBM — min 1.3369, median
+3.6476, max 5.8132); UMIN = 6: 2,395; UMIN = 7: 25,105; total
+0.130% of the band. kappa=2: exactly ONE in-band prime (p=33409)
+carries weight <= 7; the exhaustive 266-cell sweep (declared
+post-hoc in round 25, never run) was 168/266 at pilot report
+time and was COMPLETED BY THE COORDINATOR from the pilot's
+resume machinery — [completion recorded in FABLE_AUDIT.md].
+
+**THE MECHANISM — why no absolute constant can exist:** the
+ternary kernel is the ternary part of an IDEAL (ker = P
+intersect T), so one weight-U element drags in its ternary
+multiples: TMASS >= ~(1 + 2^{1-U})^N. THEOREM RC pins
+U_min -> 5 on the band while N grows, so the guaranteed mass
+grows GEOMETRICALLY in N against a bounded normaliser. Measured
+ladder (minimal-weight strata exhaustive): band max 0.944 (N=8)
+-> 1.7681 (N=16) -> >= 5.8132 (N=32) — factor >= 3.3 per
+doubling, vs the law's 2.64. **The absolute-constant (ratio)
+form of Z-CEILING is dead on the pinned family: C(N) grows
+without bound.** (The N=32 value 2^2.54 has not itself crossed
+the round-23 finite-target line 2^4.77 — it does not need to:
+the application required the bound at the official row's N, and
+N-uniformity is what the mechanism kills. Extrapolation beyond
+N=32 is a two-point law + mechanism, labelled as such.)
+
+**ROUND-25 VERDICT SUPERSEDED, and its tension resolved:** the
+round-25 ladder verdict ("matched decay not significant"; EVX
+extrapolation ~1.88) was reading the BODY, and the round-25
+report itself flagged that the SD-based law cannot see the
+spike process. Correct: 0.130% of the band carries the mass
+(4e-6 at U=5); a 47-cell sample had expectation 2e-4 of hitting
+the U=5 stratum. The tail is ARITHMETIC, not statistical. The
+round-24 repricing "C >= 1.7681 with 3.95 bits headroom" is
+superseded by C >= 5.8132 at N=32 and no absolute C.
+
+**WHAT SURVIVES:** THEOREM Z-FLOOR (0 violations, 292 cells);
+THEOREM RC; THEOREM RS (new); the negacyclic object and its
+dictionaries. **WHAT THIS MEANS FOR THE F2 TERMINAL
+[SURFACED]:** round-23's S2 identified Z-CEILING with the
+non-local smoothness input; with the ceiling dead on the pinned
+family, the terminal's smoothness input again has NO NAMED ROUTE
+(strengthening the round-19 verdict). The mass form's 46-bit
+knife edge and the tail-count criterion are unchanged. Scope:
+every number is toy-family FORM; the f2 calibration clause
+binds; nothing here is about Z_1 at the official row.
+
+Pilot record: 7 predictions HIT / 5 MISSED, misses first —
+including its own headline (registered max window [1.75, 3.05];
+measured 5.8132: direction right, magnitude missed because the
+registered additive predictor was structurally wrong; the
+multiplicative ideal mechanism was found in the data and is
+declared unregistered). Its escape replays initially resumed
+from checkpoints (a checkpoint sum, not a derivation) — caught
+by the pilot itself and re-derived from scratch. Coordinator
+replays: the record four-way + direct witness; the kappa=2
+completion. Source: notes/pilots_20260809/umin_spike_hunt/
+(REPORT.md, FABLE_AUDIT.md; HITS/CANDS/CELLS26 tsv data;
+N16_CENSUS.json).

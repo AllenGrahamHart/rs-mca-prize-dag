@@ -1,0 +1,5 @@
+POWER U=9 shard 1/5: 44878080 leaves, 10 target hits  1086.7s
+   p=4683696257   hits=6
+   p=12148002497  hits=4
+   p=4294967681   hits=0
+   p=6074003393   hits=0

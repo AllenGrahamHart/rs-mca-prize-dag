@@ -3976,3 +3976,46 @@ byte-identical, C8 config-identical, EMPTY logic + C8 arithmetic
 hand-verified. Corrections on l1_rootfree + large_source; no
 status flips; census unchanged 231 = 167/36/28. Files:
 notes/pilots_20260809/m7_falsifier_hunt/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 26 BANK 4/4 — umin_spike_hunt (2026-08-09, coordinator) — ROUND COMPLETE
+
+**BANKED: CONJECTURE Z-CEILING's RATIO FORM IS FALSIFIED on its own
+pinned family — the campaign phase's falsification event.** Record:
+CRATIO = 5.8131644651 exact at N=32 kappa=1 p=4337074369
+(sigma=-0.0141), FOUR-WAY derived (pilot x3 + coordinator stride-5/113)
+and the weight-5 kernel witness (support {0,1,3,12,25}) verified
+DIRECTLY by coordinator code; 119/124 exact cells > 2; the N=16
+record 1.7681 beaten 3.3x. THEOREM RS (new; converse of RC, an IFF)
+=> recall 1.000 by proof; the sweep runs over ternary f not primes —
+a complete CENSUS of all 2.12e7 admissible kappa=1 primes (UMIN
+strata 0/0/90/2,395/25,105; 0.130% of the band; 4.4 microsec/prime =
+4e7 speedup). MECHANISM: the kernel is the ternary part of an IDEAL
+=> mass multiplies, TMASS >= ~(1+2^{1-U})^N with U pinned at 5 by RC
+=> NO absolute constant (ladder 0.944/1.7681/5.81+, factor >= 3.3
+per doubling). Round-24's "C >= 1.7681, 3.95 bits headroom" and
+round-25's "matched decay not significant" SUPERSEDED — the tail is
+arithmetic, not statistical (a 47-cell sample had expectation 2e-4
+of hitting the U=5 stratum). SURVIVES: Z-FLOOR (0/292), RC, RS.
+SURFACED: the F2 terminal's non-local smoothness input has NO NAMED
+ROUTE again (round-19 verdict strengthened). kappa=2 exhaustive band
+COMPLETED BY COORDINATOR (pilot's sweep died at 186/266; resume
+batch; 266/266, 77 double-computed with 0 conflicts): max 1.3887 at
+p=63361, ZFLOOR clean — no spikes at kappa=2, the round-25 post-hoc
+sweep closed. Pilot record: 7 HIT / 5 MISS misses-first (own
+headline missed 1.9x — the additive predictor was structurally
+wrong; the ideal mechanism found in data, declared unregistered);
+checkpoint-resume escape circularity caught by the pilot itself.
+Addendum on f2_z1_mass_knife_edge; no status flips; census unchanged
+231 = 167/36/28. Files:
+notes/pilots_20260809/umin_spike_hunt/{REPORT.md,FABLE_AUDIT.md}.
+
+**ROUND 26 COMPLETE: 4/4 banked (b_sparsity_pose, freeze_tail_law,
+m7_falsifier_hunt, umin_spike_hunt). Two theorems where conjectures
+were expected (B1 density; the freeze-tail cutoff), one falsification
+of a minted conjecture (Z-CEILING ratio form — mystery 2's candidate
+closure), one registered falsifier fired-and-survived-on-pricing
+(mystery 7), S_inf = 1/ln2 and LAW-2 general-w proved, G-c's
+undecidable band 80% closed. Zero status flips. PENDING USER:
+(1) numeric per-cell re-scope of (b); (2) integer_code_distance_cert
+status-ruling amendment (density slot); (3) the mystery-2 board
+event — Z-CEILING dead, the F2 smoothness input route-less again.**

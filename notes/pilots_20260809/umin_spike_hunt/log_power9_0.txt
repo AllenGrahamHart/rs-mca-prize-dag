@@ -1,0 +1,14 @@
+   tgt U=9 idx=0 leaves=256 found=0
+   tgt U=9 idx=100000 leaves=5120256 found=2
+   tgt U=9 idx=200000 leaves=10240256 found=8
+   tgt U=9 idx=300000 leaves=15360256 found=12
+   tgt U=9 idx=400000 leaves=20480256 found=12
+   tgt U=9 idx=500000 leaves=25600256 found=14
+   tgt U=9 idx=600000 leaves=30720256 found=16
+   tgt U=9 idx=700000 leaves=35840256 found=16
+   tgt U=9 idx=800000 leaves=40960256 found=18
+POWER U=9 shard 0/5: 44878080 leaves, 18 target hits  1089.5s
+   p=4683696257   hits=12
+   p=12148002497  hits=6
+   p=4294967681   hits=0
+   p=6074003393   hits=0

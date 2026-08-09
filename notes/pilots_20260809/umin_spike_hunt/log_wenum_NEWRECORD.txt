@@ -1,0 +1,8 @@
+   bucket 0/256
+   bucket 64/256
+   bucket 128/256
+   bucket 192/256
+WENUM M4 N=32 k=1 p=4337074369 WCAP=12   122.9s
+  AU[U] EXACT for U <= 12 :  0:1, 5:64, 8:640, 10:704, 11:3712, 12:128
+  UMIN = 5 ;  RC(i) lower bound p^{2/N} = 4.0024 ;  RC(i) HOLDS
+  partial (splits capped at 12 each) for U in [13, 24]: 13:8576, 14:18688, 15:4988, 16:29976, 17:48568, 18:30056, 19:61872, 20:74148, 21:54120, 22:51816, 23:29820, 24:11956
