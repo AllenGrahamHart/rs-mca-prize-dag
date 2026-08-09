@@ -1,0 +1,619 @@
+{
+  "field": 2130706433,
+  "primary_complete": true,
+  "rows": [
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "positive",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 4,
+      "status": "COMPLETE",
+      "systems": 12,
+      "unit_systems": 12,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell9-parallel-de-audit-v1",
+  "scope": "Independent two-variable lex and deployed-root audit for the cell-9 positive/negative DE first-pair residual systems.",
+  "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+  "source_primary_sha256": "87002be22b20a3676311fb7a6a86bc143bdbb6122bf218cafe808db904562cbe",
+  "source_replay_sha256": "f0689375b5d904288bf0f79af077d028eacef4204850ddde47ed5e0f9ed65690"
+}

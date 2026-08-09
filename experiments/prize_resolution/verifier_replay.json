@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify.py",
-      "seconds": 0.052572,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify.py",
+      "seconds": 0.026669,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=9 signs=4 kernel_coordinates=8 formal_rows=7 reduced_rows=3\n"
+      "stdout_tail": "PASS cell-9 six-chart four-basis cover: signs=4 charts=24\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify_audit.py",
-      "seconds": 1.63218,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify_audit.py",
+      "seconds": 0.025888,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok cell=9 formal_pairings=28 quotient_pairings=12\n"
+      "stdout_tail": "PASS cell-9 tower audit: coherent_charts=24 hostile=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

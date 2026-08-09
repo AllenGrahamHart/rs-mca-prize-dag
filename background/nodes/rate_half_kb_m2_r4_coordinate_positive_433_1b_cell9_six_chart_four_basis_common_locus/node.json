@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-9 six-chart four-basis common locus",
+    "status": "PROVED",
+    "closure": "exact six-chart quadratic-over-quadratic presentation of every guarded cell-9 common curve",
+    "statement": "For each of the four source-sign rows of the guarded product-rank-five positive 433-1b cell-9 common locus, two quadratic-in-b lex relations and three linear-in-c lex relations define six principal charts. Their leading coefficients have empty simultaneous vanishing loci, so the charts cover the complete common curve. On every chart all seven common-ideal relations reduce to zero modulo a quadratic relation in t over F_p(r), the selected quadratic relation in b, and the selected linear recovery of c. Thus each chart has basis 1,t,b,tb over F_p(r). No outside-label exclusion is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_four_basis_tower_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_four_basis_tower_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

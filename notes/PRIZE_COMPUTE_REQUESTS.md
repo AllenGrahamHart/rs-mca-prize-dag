@@ -12506,3 +12506,35 @@ invariant complement is 24 orbits on 75 labels with profile
 `b5ec5e8418af3385dc83aeeb9aca9c8b851eae9e23794e6637f1b42a37576cb6`
 and `c5c6f6b2e4af85cf2efd05fe106fa63a09bde9e6fa6ee07ed29a7f292f3b7353`.
 For cell 9, future compute should run only these 24 representatives.
+
+**Cell-9 parallel-DE first-pair closure.** Direct global-elimination pilots
+`ap-JP8xUwOB2I8XLJaDNAFLaJ`, `ap-rluezptIAFnYDqdIBWBmhd`,
+`ap-knDC5aS5HzEJonz5MtOkhb`, `ap-VtU26xmvKEU5wC9z7FohjT`,
+`ap-wwIpM0PipwH43uVYavMt3L`, and `ap-Q0gQCcfpgLZ4GmbkEB4l0u` were stopped
+without a claim after exposing the cost of global Gröbner/FGLM elimination.
+They were replaced by a bounded four-basis route.
+
+Tower pilot `ap-lI1X7nenqOpHLcyPodY99n` showed that no single leading chart
+covers the curve.  Final cover app `ap-MSSmxHHKTONyeJo7CBevNz` proved the
+two-by-three chart cover in all four source-sign rows: all 24 presentations
+are exact, and the two `b` leading coefficients and three `c` leading
+coefficients have empty simultaneous vanishing loci.
+
+Norm pilot `ap-yFkxC4ErIsPRuq44KVDOc7` completed one degree-394 row.  Full
+app `ap-fxkOE9P6jxLb1A0S3a1q4I` completed all 48 chart/sign/cut rows.  The
+positive source norm has 11 deployed roots per sign and the negative norm
+13; these root sets agree across all six charts.  Direct replay app
+`ap-nDhmNjjP4BX2ANNLkSDcha` exposed a classification issue at `A=B=0` and
+made no terminal claim.  Repaired replay app `ap-pdkwpojV89oRyV43buM0i4`
+accounts for all 160 case-labeled norm/inverse roots, leaving four ordinary
+positive and two ordinary negative cut zeros per source-sign row.  Its two
+`A=B=0` points per row are exactly the already proved regularized base
+points.
+
+Target app `ap-sclQeuLHYymv3jFwSAbuaf` obtains the unit ideal in all 288
+ordinary target systems.  Independent SymPy app
+`ap-07EvSsJngQtZADRMed6JFq` eliminates the fixed `de` variable and again
+obtains 288 unit ideals, with no finite fallback, witness, or unresolved
+branch.  Universal transport closes four active representatives and nine
+labels: the orbits represented by `(0,0)`, `(0,1)`, `(2,0)`, and `(2,1)`.
+Cell 9 retains 20 representatives and 66 leading-open labels.

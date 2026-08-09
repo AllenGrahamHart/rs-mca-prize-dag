@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-9 parallel-DE first-pair source census",
+    "status": "PROVED",
+    "closure": "complete deployed source census for the positive and negative parallel-DE first-pair cuts",
+    "statement": "On the guarded positive 433-1b cell-9 common curve, the necessary first-pair cuts for omitted DE and -DE records are respectively P(m,-m)=0 and P(-m,-m)=0, where m=B(-t^2)/A(-t^2). Exact four-basis norms on the complete six-chart cover have chart-invariant deployed root sets: 11 roots per source-sign positive row and 13 per negative row. Direct replay of all norm and inverse candidates leaves four ordinary positive-cut points and two ordinary negative-cut points per source-sign row. It also finds exactly two A=B=0 points per row, and these are precisely the previously regularized section-base points. There is no unresolved source branch. No target residual or outside-label exclusion is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_parallel_de_four_basis_norm_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_parallel_de_four_basis_norm_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_parallel_de_four_basis_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_parallel_de_four_basis_replay_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}
