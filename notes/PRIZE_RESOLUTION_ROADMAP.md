@@ -22300,6 +22300,37 @@ adapter catch:             ap-rbuHji3hWpAmAzq9OmUIu8 failed before algebra on om
 live compute requests:     none
 next:                      classify and attack the pairing-7 representative
 ```
+
+### Cell-9 quadratic-resultant sign-free pairing-7 payment
+
+The cell-4 pairing-7 quadratic-resultant elimination transports to all six
+exact cell-9 charts. The pilot closed its row, and the full cover completed
+all 48 source-sign, `sigma_c`, and chart rows in two canonical shards, with
+no witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 65 profiles, 300 roots, and degrees
+through 5,052. Separate direct replay reconstructs 816 source routes and all
+1,824 missing-quartic reciprocal lifts. The two quadratic pair equations
+retain 240 common `q` roots; direct evaluation of both target lanes gives 480
+nonzero final-pair cuts and no solution.
+
+Universal transport pays `{(3,7),(3,10),(4,7),(4,10)}`. Cell `9` now has
+two representatives and eight labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              0a8e2c299
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED quadratic-resultant pairing-7/10 class; 3 -> 2 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact quadratic-resultant six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-iOTxLlpbijYw7HfAgq5QMe, ap-JAQJTTMUz8Y6EAf1uPIZSD, ap-yLcKreSx2UyRggOPA5TzgJ, ap-eMFUeF0TBC7mEqzgRkBl2B
+live compute requests:     none
+next:                      classify and attack the pairing-8 representative
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
