@@ -2079,3 +2079,25 @@ and 48 regularized-base payments to proved owners.
 Universal transport closes `{(3,4),(3,9),(4,4),(4,9)}`. Cell `9` retains
 four representatives and 16 labels. The next canonical representative is
 `(3,5)`.
+
+**Cell-9 nested sign-free pairing-5 closure.** The first adapter pilot
+`ap-rbuHji3hWpAmAzq9OmUIu8` failed before algebra because the cell-4
+template's `sigma_c` input had not been carried into the cell-9 cover.
+Corrected pilot `ap-5GKTavHgRrUtGRaY1N7O6c` closed its row. Full app
+`ap-hV2Vzlt0q1pWosIyPF2qLr` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness
+or unresolved branch. The 11,705,340-byte primary ledger is split into two
+digest-pinned shards.
+
+Independent FLINT app `ap-43r2bhsgMekpVKhtwyFdIk` reconstructed 69
+profiles, 328 deployed roots, and degrees through 6,236. Independent app
+`ap-M437a4BrpJZrRJd3mTlasc` checked 1,152 source routes, 1,016 candidate
+roots, and all 2,976 missing-quartic reciprocal lifts. The
+antipodal/second-pair intersections retain 288 common `q` roots; all 576
+direct final target-lane cuts are nonzero. The audit also joins 48
+`b`-leading, 96 `c`-leading, and 96 regularized-base payments to proved
+owners.
+
+Universal transport closes `{(3,5),(3,12),(4,5),(4,12)}`. Cell `9`
+retains three representatives and 12 labels. The next canonical
+representative is `(3,7)`.

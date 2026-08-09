@@ -4421,3 +4421,37 @@ compute:                   Modal apps ap-0eXYM1bIiL0jnkjwPGHPnF, ap-nGBMnIsNJk6A
 live compute requests:     none
 next:                      classify and attack the pairing-5 representative
 ```
+
+### Cell-9 nested sign-free pairing-5 payment
+
+The cell-4 pairing-5 nested sign-free elimination transports to all six
+exact cell-9 charts. The first adapter pilot exposed and corrected a missing
+`sigma_c` parameter before algebra. The corrected pilot closed, and the
+full cover completed all 48 source-sign, `sigma_c`, and chart rows in two
+canonical shards, with no witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 69 profiles, 328 roots, and
+degrees through 6,236. Separate direct replay reconstructs 1,152 source
+routes and all 2,976 missing-quartic reciprocal lifts. The
+antipodal/second-pair intersections retain 288 common `q` roots; direct
+evaluation of both target lanes gives 576 nonzero final-pair cuts and no
+solution.
+
+Universal transport pays `{(3,5),(3,12),(4,5),(4,12)}`. Cell `9` now
+has three representatives and 12 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              0a97dff50
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED nested sign-free pairing-5/12 class; 4 -> 3 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested sign-free six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-5GKTavHgRrUtGRaY1N7O6c, ap-hV2Vzlt0q1pWosIyPF2qLr, ap-43r2bhsgMekpVKhtwyFdIk, ap-M437a4BrpJZrRJd3mTlasc
+adapter catch:             ap-rbuHji3hWpAmAzq9OmUIu8 failed before algebra on omitted sigma_c; corrected before full run
+live compute requests:     none
+next:                      classify and attack the pairing-7 representative
+```

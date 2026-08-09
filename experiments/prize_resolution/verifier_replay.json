@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify.py",
-      "seconds": 0.19693,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify.py",
+      "seconds": 0.308763,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 xi3 pairing-4 nested sign-free exclusion: rows=24 routes=384 z=720 q=0 labels=4\n"
+      "stdout_tail": "PASS cell-9 xi3 pairing-5 nested sign-free exclusion: rows=48 routes=1152 z=2976 q=288 lanes=576 labels=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify_audit.py",
-      "seconds": 0.170757,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify_audit.py",
+      "seconds": 0.16804,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 xi3 pairing-4 cross-audit: charts=6 profiles=69 hostile=detected\n"
+      "stdout_tail": "PASS cell-9 xi3 pairing-5 cross-audit: charts=6 profiles=69 lanes=576 hostile=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

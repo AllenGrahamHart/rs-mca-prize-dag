@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned nested sign-free compiler for cell-9 xi=3, pairing=5.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "f1dd2096b7dfb7cf6a4a784ae04ef5a0fbd8b6e91f5bfa21bd584d990625f342",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 7791287,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "69998c2bb15276b49f40abf0c93cc6c2ffcda0770cc2809d7880df50657d145b"
+    },
+    {
+      "bytes": 3914053,
+      "path": "shards/part-00001.jsonl",
+      "records": 16,
+      "sha256": "72c01af9c70ace8362620cffdb94079e9648fa70c00d863672c2e3c87ab7437a"
+    }
+  ],
+  "total_bytes": 11705340,
+  "total_records": 48
+}
