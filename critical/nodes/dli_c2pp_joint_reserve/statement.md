@@ -234,3 +234,81 @@ registered cell dropped as never-measurable, not filtered post
 hoc). Source: notes/pilots_20260809/c2pp_falsifier_redesign/
 (REPORT.md, FABLE_AUDIT.md; PR-A, power control, analytic anchor,
 and 86/98 closed forms coordinator-replayed).
+
+## Round-26 addendum (2026-08-09, coordinator-applied on replay: freeze_tail_law — the named obstruction CLOSED AS A THEOREM; S_inf PROVED; the licensed range extended)
+
+**(1) THE FREEZE-TAIL CUTOFF THEOREM (C26-1, the round-25 named
+obstruction, closed).** For n, t powers of two, u = 2^lev,
+h = n/2^lev, T = t/2^lev, e = n/2t, prime q = 1 mod n: if
+log2 q > B(n,t,lev) = max_v (m_v/g_v)(lev + v + 0.5 log2 m_v)
+then Zlev(q) = Zinf EXACTLY. Proof mechanism: a non-frozen state
+has Phi_{d_v} not dividing C for some v, so Res(Phi_{d_v}, C) is a
+NONZERO bounded integer that q^{g_v} divides (distinct Hensel
+roots); Hadamard bounds it. The tail is therefore NOT a steepened
+power law — it is a SHORT-VECTOR CENSUS of a rank-e lattice in a
+box, terminating at an exact integer. Verified: 419/419 rows (275
+banked + 144 new), zero rows frozen-side violations; five exact
+integer cutoffs certified predictively (8,279 primes between Q*
+and 2^B all frozen, 0 violations). Coordinator replays: the
+419-row theorem check (PASS from scratch), and the (32,2,1)
+cutoff Q* = 273857 INDEPENDENTLY re-derived by full-box Bareiss
+determinant sweep (also reproducing the 1450-norm census).
+
+**(2) L3 NEGACYCLIC REDUCTION (C26-2):** a T=1 level census IS a
+skew census on e coordinates (the same mitm_null_count the
+junctions use) — 181/181 banked rows bit-exact; state counts drop
+(u+1)^{h/2} -> (2u+1)^{e/2} (e.g. 7.0e9 -> 1.19e6), unlocking
+cells direct MITM cannot reach. Sharp max-norm law (C26-4):
+max |Res(X^e+1, A)| over [-u,u]^e = (e-1)^{e/2} u^e for
+e in {4,8} (e=2 exception 2u^2) — reproduces all five cutoff
+cells exactly; conjectured beyond e=8.
+
+**(3) FORCED CORRECTION of the round-25 addendum item (7)
+(C26-5):** the "measured freeze scales 14.5..67" were NOT
+cutoffs — the excess is NON-MONOTONE in q ((64,4,2) is frozen at
+2^21 yet non-frozen at 2^21.5 and 2^22; true cutoff 2^27.222, a
+6.2-bit understatement; the 34/67 figures were sparse grid points
+far above their true cutoffs 2^18.96/2^23.05). "Smallest frozen
+scale" was never a cutoff estimator.
+
+**(4) S_inf = 1/ln 2 PROVED (C26-6)** — the summand telescopes
+against the factorial: S_K = K - 2^-K log2((2^K)!), then Stirling.
+Coordinator-verified (identity to 1e-15, algebra by hand). Mint
+of record with the constant explicit:
+R3inf_full(n, n/2) = (log2 e - 1) n - (1/2) log2(pi n) + 1/2
++ O(1/n); cross-check at n=16: 4.7575 vs exact 4.74986 (which is
+bit-identical to the measured saturated R3 at (16,8,W=[0,1,2])).
+
+**(5) THE LICENSED RANGE MOVES: 232.7 -> 251.1 [law, with a named
+caveat].** The 10% tolerance capping G-c's F2 power was
+fit-scatter now IDENTIFIED as freeze-tail contamination reaching
+3-5 bits BELOW LamStar (C26-9 — also why round-25's alpha fits
+scattered). Depth-windowed refits (x <= -5; five cells, two
+distinct T, incl. three cells only L3 makes reachable):
+eps = 0.0195, licensed log2 q <= 251.1. The G-c undecidable band
+shrinks (232, 256] -> (251.1, 256] — ~80% closed. CAVEAT: this
+converts fit-scatter into a detection threshold reusing round-25's
+delta_det calibration; a clean claim needs power.py re-run on
+synthetic worlds at the new tolerance — THE NAMED NEXT JOB, not
+done.
+
+**(6) The (232, 256] band by census: UNREACHABLE** (cheapest
+official level census 2^4224 states, 2^2176 even under L3; and the
+band is DEEP BAND, not tail — the freeze tail occupies only the
+last 1.49e-8 of log2 q, exactly the knife edge). C26-7 flag: the
+ledger's coset term is a LINEAR model of tail depth and the toys
+show true depth EXCEEDS it once positive — precisely the window
+where the break constant 107 is defined; flag on the model, no
+transport licensed.
+
+Pilot misses disclosed first in its report: PR-6 (registered
+refit window wrong by 0.7 — itself the C26-9 finding), PR-6b
+(tail slope 2/e refuted; the tail is a censored sample), PR-5
+5/7. Deviations: one pre-registration ckpt key-peek disclosed;
+three new deep cells rest on L3's 181/181 + two guards each (no
+independent MITM — the point of L3), declared. Scope: the theorem
+and the identity are unconditional at every scale; the decay
+constants and licensed-range numbers are [law]. No status flip.
+Source: notes/pilots_20260809/freeze_tail_law/ (REPORT.md,
+FABLE_AUDIT.md; P2 419/419, Q* independent, S_inf identity all
+coordinator-replayed).

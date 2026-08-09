@@ -1,0 +1,7 @@
+==============================================================================
+P4 -- EXACT INTEGER CUTOFFS Q* by norm enumeration over the box
+==============================================================================
+  cell (64,4,2) u=4 e=8 box= 43046721 distinct|norm|=    148  max|norm|=2^27.23 (Hadamard 2^28.0)
+     EXACT CUTOFF Q* = 156542401  = 2^27.222   witness A=[-4, -4, -4, -1, -4, 4, -4, -4]
+
+checkpoint: /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260809/freeze_tail_law/tailckpt.json
