@@ -1,0 +1,42 @@
+/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260809/cancellation_recon/attack.py:2: SyntaxWarning: invalid escape sequence '\{'
+  """D3 ATTACK on the weakest usable band floor.
+==========================================================================
+A.  EXACT max class size of the cyclic pigeonhole, at the rung params
+==========================================================================
+N=  32 m= 17  C(N-1,m)=2^27.9824
+        guaranteed  C(N-1,m)/N = 2^22.9824
+        TRUE max class          = 2^22.9824   excess over guarantee = 1.000024266x (+0.000035 bits)
+        TRUE min class          = 2^22.9824   spread max/min = 1.000048873
+        -> rung c=n/N=2^36, reach 2c-1 = 137,438,953,471 = 2^37.00; need L > q/2^128 = 2^128 at q=2^256: SHORT by 105.0176 bits
+
+N=  64 m= 33  C(N-1,m)=2^59.5784
+        guaranteed  C(N-1,m)/N = 2^53.5784
+        TRUE max class          = 2^53.5784   excess over guarantee = 1.000000000x (+0.000000 bits)
+        TRUE min class          = 2^53.5784   spread max/min = 1.000000001
+        -> rung c=n/N=2^35, reach 2c-1 = 68,719,476,735 = 2^36.00; need L > q/2^128 = 2^128 at q=2^256: SHORT by 74.4216 bits
+
+N= 128 m= 65  C(N-1,m)=2^123.1263
+        guaranteed  C(N-1,m)/N = 2^116.1263
+        TRUE max class          = 2^116.1263   excess over guarantee = 1.000000000x (+0.000000 bits)
+        TRUE min class          = 2^116.1263   spread max/min = 1.000000000
+        -> rung c=n/N=2^34, reach 2c-1 = 34,359,738,367 = 2^35.00; need L > q/2^128 = 2^128 at q=2^256: SHORT by 11.8737 bits
+
+CEILING ON THE WHOLE REORGANISATION: even a PERFECT pigeonhole
+(all C(N-1,m) subsets in one class) gives at most C(N-1,m):
+  N= 128: C(N-1,m) = 2^123.1263  vs need 2^128 -> still SHORT by 4.8737 bits
+  N= 256: C(N-1,m) = 2^250.6503  vs need 2^128 -> admissible
+
+==========================================================================
+B.  in-vivo simple-pole conversion loss (P12/P13)
+==========================================================================
+cell (16, 8, 1, 'cyclic_step_1', 'linear'); poles alpha in F\D; L = exact list size at agreement k+sigma
+     q     L  M_best   M_mean  M_guar  LOSS_tot  LOSS_CS  LOSS_avg  colTOT/bound
+    97   113      75    68.48    9.37     8.006    1.204     6.649       0.09620
+   113    99      77    68.07   10.90     7.064    1.249     5.655       0.09890
+   193    60      58    51.98   16.36     3.544    1.031     3.438       0.10946
+   241    59      58    52.79   19.27     3.010    1.016     2.962       0.10973
+   337    42      42    39.70   20.77     2.022    1.000     2.022       0.11237
+   449    34      34    32.86   21.12     1.610    1.000     1.610       0.11364
+   577    26      26    25.53   19.17     1.357    1.000     1.357       0.10385
+   769    28      28    27.59   21.76     1.287    1.000     1.287       0.10284
+  1153    18      18    17.89   16.08     1.120    1.000     1.120       0.10376

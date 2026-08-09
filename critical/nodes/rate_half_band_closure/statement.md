@@ -166,3 +166,162 @@ constant formula is already falsified by `(RH-LOW)`.
 **Hankel suite note (w10-H5):** the seven strict-endpoint nodes rigidify the residual profile at strict budget e=m only — they are NOT q-axis coverage progress. The five wave-9 guidance lines and the three pre-suite 'Remaining proof' lines are superseded, not deleted (w10-H2).
 
 **LIST side (v5, audited):** the safe side is now OWNED by the TARGET pose rate_half_list_adjacent_crossing (the w9-C3 repair vehicle); the exact-integer Johnson anchor is PROVED; the list crossing is DETERMINED for budgets B* in {1,2} at a_L = 3n/4; the proved unsafe reach doubles to excess 2^34-1.
+
+## Round-27 FORCED CORRECTION (2026-08-09, coordinator-applied on replay: pincer_formalization — FLOOR v2's OWN FALSIFIER FIRED; D0 = BROKEN)
+
+**The FLOOR v2 pose is SUPERSEDED BY ITS OWN PRE-REGISTERED
+FALSIFIER, which fires in the structural-surplus direction BY
+THEOREM.** The round-27 foundation audit (deliverable order binding:
+audit before formalization) returned BROKEN on the "safe side above
+sigma*" machinery, with the failure verified by the coordinator from
+this node's own text:
+
+**(1) sigma* = 8,592,912,738 is NOT a pincer constant.** It is
+t*(255.9) - 1, the RANDOM-WORD first-moment corridor edge computed
+in xr_radius_arithmetic/proof.md §2 (mean over received words). No
+safe-side theorem at or near it exists (exhaustive own-repo sweep:
+the only rate-half MCA safe upper bounds are RQ1/RQ2 (q < 2^166.5),
+HD1 (a = 3n/4), and the lossless sparse-layer identity). The
+"generic pincer" provenance line was a mis-attribution; the genuine
+half-distance pincer safe point is HD1's excess 2^39 — 63.978x
+above sigma*.
+
+**(2) The claimed-safe point is strictly INSIDE the proved-unsafe
+region — and this node's own statement has recorded that fact since
+wave 9 without reconciling it:** sigma_0 = 8,594,128,895 > sigma*
+is unsafe by the PROVED simple-pole floor (the wave-9 text above);
+2^34 - 1 is unsafe by the wave-10 optimized floor (1.999x sigma*).
+The type error: B_mca is a MAX over received words; the FM corridor
+is a MEAN — the repo's own moment-ledger caveat ("the fixed-word
+worst-case conversion remains with the KMS/globalness branch")
+flagged exactly this.
+
+**(3) The falsifier firing, quantified:** on the DETERMINED rows
+(RQ1, 2^129 <= q < 2^166.503, 38 scales), the proved worst-word
+crossing exceeds the random-word FM crossing by rho in
+[53.77, 79.88] — sustained, one-directional, on the official row
+shape, by theorem. At the razor rows it fires directly via (2).
+
+**(4) Survivals +1..+4 are RE-CLASSIFIED as zero-power for this
+claim:** every banked window-law/crossing-fidelity cell has
+q < 2^128, hence B* = 0 (the degenerate regime), and every one
+measures the random-word MEAN object — invisible to the
+max-vs-mean gap. F3 of the successor pose pre-declares all further
+q < 2^128 random-word count checks as zero-power (the guard that
+would have prevented the mis-banking).
+
+**(5) The "band (2^33, sigma*]" is the wrong band.** The proved
+bracket at razor rows is sigma_RH in [2^34, 2^39] (width
+532,575,944,704 — 178,828x wider), and sigma* < 2^34 lies outside
+it entirely.
+
+**(6) CATCH-24A: the "unformalized worst-word crossing" HAS BEEN
+FORMALIZED IN THIS NODE SINCE WAVE 9** — it is (RH-ADJ)/a_RH with
+the (RH-SPLIT) decomposition and the RQ1 exact range. The WP5 flag
+(2026-07-10) was true when written and went stale on 2026-07-17;
+the wave-9 import plan's supersession banners for
+P6_RATEHALF_SIBLING.md and pro_brief_razor.md NEVER LANDED (custody
+miss) — they are landed NOW, with this correction.
+
+**SUCCESSOR POSE (RH-AC), DRAFT — recorded, NOT adopted (the pose
+of record awaits the round-27 bank + user view per the
+decomposition plan):** at every admissible razor row, locate
+a_RH(q); the binding term is S_sparse alone (B_ca^far is free at
+razor rows since B* ~ 2^128 >> n, discharged by the Hankel layer);
+open content = min{a : S_sparse(a) <= floor(q/2^128)} within the
+PROVED bracket [k+2^34, 3n/4]. Named endpoints (RH-AC-lo) k+2^34
+tight vs (RH-AC-hi) 3n/4 tight — NO discriminating evidence held;
+the determined-region rho extrapolation (~2^38.9, near -hi) is a
+heuristic across a mechanism change, labelled as such. Falsifiers:
+F1 push the quotient floor past 2^34-1 (high power, fires unsafe);
+F2 exhibit S_sparse(k+2^34) > B* at one row (fires safe); F3 the
+zero-power declaration above. Consumer bars (CATCH-24C):
+adjacency_closing needs the LOCATED crossing (full RH-ADJ);
+mca_safe needs ONLY the safe half — **FLAGGED UNVERIFIED LEAD: HD1
+may already discharge mca_safe's rate-1/2 bar at razor rows
+(q >= 2^169); needs a dedicated read of whether the consumer's
+a_safe is free or pinned**; list_adjacency_closing no longer
+consumes this node's MCA content (owner moved at wave 10).
+
+Coordinator replays: d0d2.py + esc.py exact (rho window, the two
+gap integers, 6/6 escape suite); HD1/sigma_0/mca_safe-bar/banner
+absence all verified from primary text. Pilot self-corrections: 6,
+disclosed (incl. a wrong registered constant landing inside its
+window "by luck, not correctness" — reported as such; and the
+lgamma re-implementation of the Modal-dependent verifiers, named
+as a substitution). No status flip (the node stays TARGET; the
+POSE changes). Source:
+notes/pilots_20260809/pincer_formalization/ (REPORT.md,
+FABLE_AUDIT.md).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: cancellation_recon — the barrier mapped exactly; BLIND CONVERGENCE with the round-27 forced correction)
+
+**Run under quarantine from the pincer_formalization pilot, this
+recon independently derived three of the same conclusions** — the
+live gap is sigma in [2^34, 2^39] (not the nominal band, which the
+proved reach already covers entirely); a PROVED theorem exhibits a
+structural surplus of EXACTLY 2.0000x over the random-word
+first-moment line (CATCH-E: the proved reach 2^34-1 = 2 x
+n/log2 q, the surplus being the +c from the maximal prefix); and
+mca_safe consumes the upper half only. Blind convergence noted as
+corroboration of the forced correction above.
+
+**THE Z-FLOOR TRANSPORT SELF-SUBTRACTS (hard law 5, the pilot's
+own registered 0.55 prediction):** Z-FLOOR's mechanism (mass by
+pigeonhole + second-moment ceiling + Cauchy-Schwarz) IS the PROVED
+rate_half_cyclic_simple_pole_mca_floor — coordinator-verified
+verbatim at its proof.md:42-56. The transport exists, is banked,
+and buys zero new reach.
+
+**CATCH-B (live-number correction):** the campaign's quoted band
+deficit ("x28.4, 4.73-4.83 bits, flat across all 2,978,146 band
+cells", witness-hunt 2026-07-12, still quoted in this node's
+statement blob) is the deficit of the fixed-tail N=128 d=0 rung —
+whose reach only TIES the current proved 2^34-1. Closing it buys
+ZERO. **The live deficit at the first reach-improving rung
+(rotated N=128, d=1, reach 2^35-1) is 11.8737 bits (x3750).**
+CATCH-C: the difference is exactly log2(128) + log2(65/63) = 7.045
+bits, and the 7 is UNRECOVERABLE — the pigeonhole normalizer is
+exactly tight (class-profile DP at the real rung parameters:
+largest class = C(N-1,m)/N to 9 decimal places).
+
+**THE NEXT-RUNG FLOOR IS DEAD TWICE OVER at the real parameters:**
+(i) the 11.87-bit supply deficit with a provably tight normalizer;
+(ii) the second registered repair route (sharpen the simple-pole
+conversion) dies the OPPOSITE way — the conversion becomes
+LOSSLESS as q grows (measured 8.006 -> 1.120 over the banked
+9-point ladder; Cauchy-Schwarz tight at 1.00-1.25), so an
+infinitely sharp conversion buys nothing at razor q.
+
+**THE BARRIER, NAMED AND QUANTIFIED:** above sigma = n/log2 q the
+AVERAGE ball occupancy falls below the budget, so no counting
+argument can produce witnesses — only atypically-clustered
+algebraic configurations can. Both in-repo LB mechanisms die at
+the same line for different reasons: M1 (tangent construction,
+payload <= 2^40 < B* for q >= 2^168) and M2 (counting, capped at
+2 x n/log2 q by ball-volume exhaustion). Same barrier as WP7's
+clean-rate instance — but the rate-1/2 shortfall is 11.87 bits vs
+212 there: BY FAR the closest instance to closing. Sharpest
+bracket of record: sigma_true in [2^34, 2^39] for q >= 2^169.
+
+**Consumer-bar map sharpened (CATCH-24C, per-consumer):** ONLY
+adjacency_closing has an open band lower-bound clause, and it is a
+MOVING bar (sigma_LB must meet the safe side minus one — no fixed
+lower bound discharges it alone). mca_safe: upper half only.
+list_adjacency_closing: lower half ALREADY DISCHARGED by the
+PROVED rate_half_cyclic_rotated_prefix_floor; its open piece is
+the list safe side (owned elsewhere). **K5 AS MINTED IS
+DISCHARGED-STALE:** its coverage interval (R(lq), sigma*] was
+superseded 8 days after minting by the wave-10 optimized floor;
+the live kernel need is (2^34 - 1, a_RH - k - 1].
+
+Pilot record: 9 predictions HIT (incl. the exact 2.0000 ratio and
+the self-subtraction), 1 MISS + 1 half-MISS (the repair route
+died the opposite way from its framing — reported as such), 3
+registered small-scale tests NOT RUN (superseded by exact
+computation at the real parameters — a declared deviation,
+strictly stronger, misses left unresolved and named). Coordinator
+replays: all four scripts byte-identical; the simple-pole proof
+mechanism verified verbatim. No status flip. Source:
+notes/pilots_20260809/cancellation_recon/ (REPORT.md,
+FABLE_AUDIT.md).

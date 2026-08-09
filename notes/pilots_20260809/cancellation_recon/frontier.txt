@@ -1,0 +1,70 @@
+M1  tangent / direct-value family (rs_tangent_flexible_budget_unsafe_floor):
+    B_mca(a) >= n-a ; unsafe iff n-a > B* = floor(q/2^128)
+    at agreement a = k+sigma:  n-a = k-sigma <= 2^40
+      log2 q = 167: B* = 2^39.00  vs  n-a <= k = 2^40  -> ALIVE
+      log2 q = 168: B* = 2^40.00  vs  n-a <= k = 2^40  -> DEAD (budget exceeds the whole payload)
+      log2 q = 169: B* = 2^41.00  vs  n-a <= k = 2^40  -> DEAD (budget exceeds the whole payload)
+      log2 q = 170: B* = 2^42.00  vs  n-a <= k = 2^40  -> DEAD (budget exceeds the whole payload)
+      log2 q = 256: B* = 2^128.00  vs  n-a <= k = 2^40  -> DEAD (budget exceeds the whole payload)
+    => M1 is dead for every q >= 2^168; it is what determines the
+       crossing in the banked 'q < 2^167' determined range.
+
+M2  counting family, both variants, all rungs, at the worst row q=2^256:
+    rotated prefix (CR1): L = C(N-1, N/2+d)/(N q^{d-1}),  reach = c(d+1)-1
+    fixed tail   (FT1): L = C(N-1, k/c+d)/q^d,           reach = c*d + c-1  (s=c-1)
+    need L > q/2^128 = 2^128.0000
+
+     N            c=n/N   variant   d        reach sigma     log2 L                    verdict
+    32   68,719,476,736 fixedtail   0     68,719,476,735    28.1630         short 99.8370 bits
+    32   68,719,476,736   rotated   1    137,438,953,471    22.9824        short 105.0176 bits
+    32   68,719,476,736 fixedtail   1    137,438,953,471     0.0000        short 128.0000 bits
+    32   68,719,476,736   rotated   2    206,158,430,207     0.0000        short 128.0000 bits
+    32   68,719,476,736 fixedtail   2    206,158,430,207     0.0000        short 128.0000 bits
+    64   34,359,738,368 fixedtail   0     34,359,738,367    59.6686         short 68.3314 bits
+    64   34,359,738,368   rotated   1     68,719,476,735    53.5784         short 74.4216 bits
+    64   34,359,738,368 fixedtail   1     68,719,476,735     0.0000        short 128.0000 bits
+    64   34,359,738,368   rotated   2    103,079,215,103     0.0000        short 128.0000 bits
+    64   34,359,738,368 fixedtail   2    103,079,215,103     0.0000        short 128.0000 bits
+   128   17,179,869,184 fixedtail   0     17,179,869,183   123.1714          short 4.8286 bits
+   128   17,179,869,184   rotated   1     34,359,738,367   116.1263         short 11.8737 bits
+   128   17,179,869,184 fixedtail   1     34,359,738,367     0.0000        short 128.0000 bits
+   128   17,179,869,184   rotated   2     51,539,607,551     0.0000        short 128.0000 bits
+   128   17,179,869,184 fixedtail   2     51,539,607,551     0.0000        short 128.0000 bits
+   256    8,589,934,592 fixedtail   0      8,589,934,591   250.6728                 ADMISSIBLE
+   256    8,589,934,592   rotated   1     17,179,869,183   242.6503                 ADMISSIBLE
+   256    8,589,934,592 fixedtail   1     17,179,869,183     0.0000        short 128.0000 bits
+   256    8,589,934,592   rotated   2     25,769,803,775     0.0000        short 128.0000 bits
+   256    8,589,934,592 fixedtail   2     25,769,803,775     0.0000        short 128.0000 bits
+   512    4,294,967,296 fixedtail   0      4,294,967,295   506.1735                 ADMISSIBLE
+   512    4,294,967,296   rotated   1      8,589,934,591   497.1623                 ADMISSIBLE
+   512    4,294,967,296 fixedtail   1      8,589,934,591   250.1623                 ADMISSIBLE
+   512    4,294,967,296   rotated   2     12,884,901,887   241.1397                 ADMISSIBLE
+   512    4,294,967,296 fixedtail   2     12,884,901,887     0.0000        short 128.0000 bits
+  1024    2,147,483,648 fixedtail   0      2,147,483,647  1017.6739                 ADMISSIBLE
+  1024    2,147,483,648   rotated   1      4,294,967,295  1007.6683                 ADMISSIBLE
+  1024    2,147,483,648 fixedtail   1      4,294,967,295   761.6683                 ADMISSIBLE
+  1024    2,147,483,648   rotated   2      6,442,450,943   751.6570                 ADMISSIBLE
+  1024    2,147,483,648 fixedtail   2      6,442,450,943   505.6570                 ADMISSIBLE
+  2048    1,073,741,824 fixedtail   0      1,073,741,823  2041.1741                 ADMISSIBLE
+  2048    1,073,741,824   rotated   1      2,147,483,647  2030.1713                 ADMISSIBLE
+  2048    1,073,741,824 fixedtail   1      2,147,483,647  1785.1713                 ADMISSIBLE
+  2048    1,073,741,824   rotated   2      3,221,225,471  1774.1656                 ADMISSIBLE
+  2048    1,073,741,824 fixedtail   2      3,221,225,471  1529.1656                 ADMISSIBLE
+  4096      536,870,912 fixedtail   0        536,870,911  4088.6742                 ADMISSIBLE
+  4096      536,870,912   rotated   1      1,073,741,823  4076.6728                 ADMISSIBLE
+  4096      536,870,912 fixedtail   1      1,073,741,823  3832.6728                 ADMISSIBLE
+  4096      536,870,912   rotated   2      1,610,612,735  3820.6699                 ADMISSIBLE
+  4096      536,870,912 fixedtail   2      1,610,612,735  3576.6699                 ADMISSIBLE
+
+BEST ADMISSIBLE REACH over both variants and all rungs: sigma = 17,179,869,183 = 2^34.0000  at (256, 8589934592, 'rotated', 1)
+  banked forward-facing floor: 2^34-1 = 17,179,869,183  MATCH=True
+
+first rung that would IMPROVE on 2^34-1, and its exact deficit:
+  N= 128   rotated d=1: reach = 34,359,738,367 = 2^35.00   log2 L = 116.1263   SHORT by 11.8737 bits
+  N=  64 fixedtail d=0: reach = 34,359,738,367 = 2^35.00   log2 L = 59.6686   SHORT by 68.3314 bits
+  N= 128 fixedtail d=1: reach = 34,359,738,367 = 2^35.00   log2 L = 0.0000   SHORT by 128.0000 bits
+
+idealisation ceiling (the banked x28.4 figure): no-normalizer, m=N/2
+  C(127,64) = 2^123.1714  vs need 2^128 -> short 4.8286 bits (x28.41)
+  and that idealisation only TIES the current reach (fixed tail d=0,
+  c=2^34 gives reach c-1 = 17,179,869,183 = 2^34-1).

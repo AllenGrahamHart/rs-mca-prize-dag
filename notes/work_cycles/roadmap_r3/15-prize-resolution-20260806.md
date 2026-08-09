@@ -5045,3 +5045,51 @@ live compute requests:     none
 next:                      commit, run the closure gate, and export the exact pinned
                            certificate to upstream PR #1152
 ```
+
+### Canonical round-27 harvest and `[5,8]` upstream export
+
+The exact `[5,8]` closure was exported to Przemek's living K3 PR #1152 as
+commit `5443db878c488ac9cfa204d1d79e211caf9e8608`. The certificate pins 23
+`PROVED` campaign nodes and verifier hashes at campaign commit
+`3fa2987430242cb631ab76be4ebbee549ce95fb8`, claims 210/210 raw labels across
+the role orbit, moves no ledger value, and leaves `[11]` as the sole open
+role orbit within the exported coordinate-positive `433-1b` workboard. The
+PR title and body were updated without changing the explicit non-claim that
+K3 and the KoalaBear row remain open.
+
+Fable's canonical round-27 analytic audit also corrects the central
+rate-half band pose. The former FLOOR-v2 statement treated the random-word
+first-moment crossing `sigma*=8,592,912,738` as a proved safe-side pincer.
+That is false: the `PROVED` simple-pole floor is still unsafe above this
+point, and the only proved half-distance safe point is at excess `2^39`.
+The honest razor-row bracket is therefore
+
+`sigma_RH(q) in [2^34, 2^39]`.
+
+The open positive content is to locate the worst-word sparse crossing
+`min{a : S_sparse(a) <= floor(q/2^128)}`; random-word/window-law counts have
+zero power over this max-over-words question. The existing counting-floor
+family is exactly capped at reach `2^34-1`. Its first improving rung is
+short by 11.8737 bits (factor about 3,750), and the seven-bit prefix-class
+normalizer is exactly equidistributed and unrecoverable. Consequently:
+
+- `mca_safe` may already receive the safe half from the proved
+  half-distance bracket; this is an explicit lead requiring a direct
+  consumer-edge audit;
+- `adjacency_closing` still needs the exact adjacent crossing and remains
+  the genuine MCA consumer;
+- no future evidence from `q<2^128` random-word experiments may be banked
+  against the razor-row worst-word crossing;
+- further progress must either improve the structural quotient floor beyond
+  `2^34-1` or control `S_sparse` directly.
+
+```text
+canonical prize pin:       b5e088791
+upstream PR:               https://github.com/przchojecki/rs-mca/pull/1152
+upstream export pin:       5443db878c488ac9cfa204d1d79e211caf9e8608
+campaign certificate pin:  3fa2987430242cb631ab76be4ebbee549ce95fb8
+critical correction:       FLOOR v2 refuted; RH-AC sparse crossing is the live pose
+proved bracket:             2^34 <= sigma_RH(q) <= 2^39
+next finite-track target:   close role orbit [11]
+next analytic audit:        test whether mca_safe's rate-half consumer bar is already met
+```
