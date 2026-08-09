@@ -1,0 +1,445 @@
+{
+  "field": 2130706433,
+  "method": "external FLINT gcd(P,x^p-x), factor squarefree root part",
+  "rows": [
+    {
+      "degree": 100,
+      "frobenius_root_degree": 7,
+      "roots": [
+        0,
+        1,
+        16711679,
+        78594654,
+        986151803,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "1db24a4cbc1888b422214b239b5204a97c7f048ad672eda05feb265858a7dee5",
+      "terms": 97
+    },
+    {
+      "degree": 100,
+      "frobenius_root_degree": 7,
+      "roots": [
+        0,
+        1,
+        16711679,
+        1144554630,
+        2052111779,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "1dbf4cdff846cd877706297bfff15325ed1a9d48660810f0ec3987b0593742e1",
+      "terms": 97
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 9,
+      "roots": [
+        0,
+        1,
+        16711679,
+        128889307,
+        1120816366,
+        1297142116,
+        2024289356,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "20f61134639b3e5fc0d31de13f0fc2be5bb78ad77d1ec28a57a0a4d8c272196a",
+      "terms": 1385
+    },
+    {
+      "degree": 12,
+      "frobenius_root_degree": 3,
+      "roots": [
+        0,
+        16711679,
+        1689971530
+      ],
+      "sha256": "29a7c2dc8fb52f2d7319f5c8f9caaf8ffcd36be72da81dc5828fa3b6893336b6",
+      "terms": 11
+    },
+    {
+      "degree": 40,
+      "frobenius_root_degree": 2,
+      "roots": [
+        617557036,
+        1398257735
+      ],
+      "sha256": "2d3689673d60e06892da63df90f85e6a227e3a60140488be2bcc1e650ab21348",
+      "terms": 41
+    },
+    {
+      "degree": 4,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "35ad7fb2b701f732e06e594bb68ed88d2b40ae6ab37d989e4992a44844415b78",
+      "terms": 4
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 8,
+      "roots": [
+        0,
+        1,
+        16711679,
+        182921291,
+        1996434877,
+        2037716868,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "4126fac6c4f37c305837020cca997e9dfbde3de264b143385dd0c2d47e133ef7",
+      "terms": 1385
+    },
+    {
+      "degree": 40,
+      "frobenius_root_degree": 2,
+      "roots": [
+        440734903,
+        1430654903
+      ],
+      "sha256": "438ae00d47dfda9a4fb20bacf3f301a5474132e52e56d27c21bb262205f70da1",
+      "terms": 41
+    },
+    {
+      "degree": 2,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "4715a1c1f1fc9f8f47d031dad2e55f18d4f18d4b3c537f47b891f965c85621ec",
+      "terms": 3
+    },
+    {
+      "degree": 640,
+      "frobenius_root_degree": 4,
+      "roots": [
+        440734903,
+        1144554630,
+        1430654903,
+        2052111779
+      ],
+      "sha256": "4b19553281994f76e54f80fdb20c96691cd14a08f2b101a01a387ddb2fc8e318",
+      "terms": 641
+    },
+    {
+      "degree": 2,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "4ee202168740151a87add26012c3c09a19bdcaa2077ceb718c2ccedaf146e6f4",
+      "terms": 3
+    },
+    {
+      "degree": 40,
+      "frobenius_root_degree": 2,
+      "roots": [
+        732448698,
+        1513149397
+      ],
+      "sha256": "4fa270b773b47f13b05eec2438e98403a15c4612fd5cb118d07f254bd304c404",
+      "terms": 41
+    },
+    {
+      "degree": 100,
+      "frobenius_root_degree": 7,
+      "roots": [
+        0,
+        1,
+        16711679,
+        1220051182,
+        1914088021,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "4fd920025356823d0b7653f285adcdfb91fe34bf151e3ac86d729a4e1f4c926c",
+      "terms": 97
+    },
+    {
+      "degree": 32,
+      "frobenius_root_degree": 4,
+      "roots": [
+        1,
+        617557036,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "53ab5b997582a34731bd1b802d9c8dda217d82c1c4ee169c08d7f900fb02c139",
+      "terms": 33
+    },
+    {
+      "degree": 12,
+      "frobenius_root_degree": 3,
+      "roots": [
+        0,
+        440734903,
+        2113994754
+      ],
+      "sha256": "55057505682ae803a318d624da5698df0d1589843954ce2777121e797f082d85",
+      "terms": 11
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 9,
+      "roots": [
+        0,
+        1,
+        16711679,
+        1387151342,
+        1906124023,
+        1928467566,
+        2066474379,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "564b853fa6c4c959989042eec875ff0b5403eed56299231959118fed04719bc0",
+      "terms": 1385
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 9,
+      "roots": [
+        0,
+        1,
+        16711679,
+        106417077,
+        833564317,
+        1009890067,
+        2001817126,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "5c81193d76a8d1d1af2c6b53feb65a73f97a22467d1e509133de49e67863730c",
+      "terms": 1385
+    },
+    {
+      "degree": 0,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "terms": 1
+    },
+    {
+      "degree": 640,
+      "frobenius_root_degree": 4,
+      "roots": [
+        216618412,
+        732448698,
+        910655251,
+        1513149397
+      ],
+      "sha256": "7df19adf54fc98f4b6f5ae0a400627196e5662a6d8a654b2db9c3ae5607aea04",
+      "terms": 641
+    },
+    {
+      "degree": 640,
+      "frobenius_root_degree": 4,
+      "roots": [
+        617557036,
+        1220051182,
+        1398257735,
+        1914088021
+      ],
+      "sha256": "8e98459975b75ef955eb1c9f75208e3b76faa22809fab1e5798c337cae311302",
+      "terms": 641
+    },
+    {
+      "degree": 4,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "9af3b68405070bbfd91dfbf6d5b2f1fa8fb252cbc59a84427f97c232c3bd3435",
+      "terms": 4
+    },
+    {
+      "degree": 32,
+      "frobenius_root_degree": 4,
+      "roots": [
+        1,
+        16711679,
+        1513149397,
+        2130706432
+      ],
+      "sha256": "a8b790f646fe1013eb20506f54e7d7f29512ba51cddb8d7b626b04ac4fb1a62e",
+      "terms": 33
+    },
+    {
+      "degree": 2,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "aacc6a30a9597387d31d5354482eec80689556d720b10ac846b708f070234760",
+      "terms": 3
+    },
+    {
+      "degree": 12,
+      "frobenius_root_degree": 3,
+      "roots": [
+        0,
+        16711679,
+        732448698
+      ],
+      "sha256": "ab73e7d90312484e1c72565f718bbc1324d7581c8175593419ab02e6b3058b56",
+      "terms": 11
+    },
+    {
+      "degree": 40,
+      "frobenius_root_degree": 2,
+      "roots": [
+        700051530,
+        1689971530
+      ],
+      "sha256": "ace55b35bd3dd498543e8738eb210f7d408bdc9a11f63f4671b41278e462278f",
+      "terms": 41
+    },
+    {
+      "degree": 100,
+      "frobenius_root_degree": 7,
+      "roots": [
+        0,
+        1,
+        16711679,
+        216618412,
+        910655251,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "b226755ccfdce5b3beafb2808a07c0d48ae10e18bda16a19100d404c6e5d87e8",
+      "terms": 97
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 9,
+      "roots": [
+        0,
+        1,
+        16711679,
+        64232054,
+        202238867,
+        224582410,
+        743555091,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "b23023aa0b313bc9e8d0261526c1a09d0aa504e75317c1a98bd0853aff910f47",
+      "terms": 1385
+    },
+    {
+      "degree": 2,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "c69c1945d923f805d43123161cbddff21c8f3026c8d7fc3f4fa7a57e9777f009",
+      "terms": 3
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 8,
+      "roots": [
+        0,
+        1,
+        16711679,
+        121155591,
+        324705767,
+        1421774124,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "c8908576f580daddf4dea27d9191f11d7492b3f58c69c07e148067eee4a016cf",
+      "terms": 1385
+    },
+    {
+      "degree": 32,
+      "frobenius_root_degree": 5,
+      "roots": [
+        1,
+        16711679,
+        700051530,
+        1906730015,
+        2130706432
+      ],
+      "sha256": "cee543705db9f06844c6dce6bc9d6239e1bdc7fbea0eabaabf05cabded50c35c",
+      "terms": 33
+    },
+    {
+      "degree": 4,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "d590408c6eb77a7de388baa91b796a26e090b323da4e0174239426088fb3a56c",
+      "terms": 4
+    },
+    {
+      "degree": 32,
+      "frobenius_root_degree": 5,
+      "roots": [
+        1,
+        223976418,
+        1430654903,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "e6b429418449d9d49adf3aca72007e1ae725d7564a0f94bddbf91325cada7044",
+      "terms": 33
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 8,
+      "roots": [
+        0,
+        1,
+        16711679,
+        92989565,
+        134271556,
+        1947785142,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "eca9b134d0fea01af1bbc63560d87b54e4f6e10e7dc133c3430ee14d9a2ff357",
+      "terms": 1385
+    },
+    {
+      "degree": 640,
+      "frobenius_root_degree": 4,
+      "roots": [
+        78594654,
+        700051530,
+        986151803,
+        1689971530
+      ],
+      "sha256": "f21f70ee4a87992fa155605a7653f87a902840b10bc492b52edf83ed05fdf5ba",
+      "terms": 641
+    },
+    {
+      "degree": 4,
+      "frobenius_root_degree": 0,
+      "roots": [],
+      "sha256": "f3d348723d9307392881615734cbadc3822807904ccf18ae1e4f22232d7c212b",
+      "terms": 4
+    },
+    {
+      "degree": 12,
+      "frobenius_root_degree": 3,
+      "roots": [
+        0,
+        1398257735,
+        2113994754
+      ],
+      "sha256": "fafacbd02943b6f873fa32536a0f2c19616ecea8b5c0e9c8c1d1362bdbb7c26e",
+      "terms": 11
+    },
+    {
+      "degree": 1396,
+      "frobenius_root_degree": 8,
+      "roots": [
+        0,
+        1,
+        16711679,
+        708932309,
+        1806000666,
+        2009550842,
+        2113994754,
+        2130706432
+      ],
+      "sha256": "fc42b04196acba1db62b288114c314e37a6c474099361f2ff92a0d42aafb4abb",
+      "terms": 1385
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell11-positive-de-pairing14-frobenius-roots-v1",
+  "source_primary_sha256": "daecccf91b43e41fe9628230ae0cfd62865c49297db47225042fa1b43d1ba6db"
+}

@@ -23801,16 +23801,25 @@ Independent app `ap-MmbvKEIYfBChxPyF6AEeZb` reconstructs 33 profiles, 114
 roots, and degrees through 11056. Transport pays the four labels at pairings
 `12/13` for `xi in {0,1}`.
 
+Positive pairing 14 uses the smaller common-`f` resultant. All 16 rows close
+with 136 target roots, 208 candidates, and 208 guarded source points. The 144
+checked points have no compatible common-`f` lift; 32 leading payments are
+validated separately. Independent apps `ap-awforC5jf7bqWTpJBBjKYj` and
+`ap-Q6cnEnq3P3Th3x066OGBvc` certify 37 profiles, 150 roots through degree
+1396, and the complete direct replay. Duplicate transport pays `(0,14)` and
+`(1,14)`. The still-open direct-role labels are the two pairing-11/14
+representatives `(0,11)` and `(2,11)`, covering four labels.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       69/105 closed
-active quotient frontier: 12 representatives / 36 labels
-DAG status delta:         +9 background PROVED; critical child unchanged
+cell-11 raw labels:       71/105 closed
+active quotient frontier: 11 representatives / 34 labels
+DAG status delta:         +10 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
-                          ap-WjlcKuiffUMXWrMYaYIfAD
-next:                     positive pairing-14 representative `(0,14)`
+                          ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7
+next:                     pairing-11/14 reps `(0,11)` and `(2,11)`
 ```
