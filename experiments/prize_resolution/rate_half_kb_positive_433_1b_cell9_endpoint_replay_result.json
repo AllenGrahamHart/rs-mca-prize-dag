@@ -1,0 +1,585 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 547900429,
+          "c": 609184551,
+          "guard_nonzero": true,
+          "missing": 1407628244,
+          "r": 917340690,
+          "source_sum": 226815680,
+          "t": 1716234325,
+          "z": 1078712011
+        },
+        {
+          "b": 1852661435,
+          "c": 334499013,
+          "guard_nonzero": true,
+          "missing": 1604115573,
+          "r": 917340690,
+          "source_sum": 1370608830,
+          "t": 1716234325,
+          "z": 608098926
+        },
+        {
+          "b": 52861308,
+          "c": 2043743868,
+          "guard_nonzero": true,
+          "missing": 2118005469,
+          "r": 1473151541,
+          "source_sum": 872592813,
+          "t": 1403169756,
+          "z": 1078458430
+        },
+        {
+          "b": 769178364,
+          "c": 1949289384,
+          "guard_nonzero": true,
+          "missing": 1736611525,
+          "r": 1473151541,
+          "source_sum": 2101325697,
+          "t": 1403169756,
+          "z": 103601305
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 721477629,
+          "t": 1051360583,
+          "z": 692829490
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 721477629,
+          "t": 1051360583,
+          "z": 1631288725
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 16540105,
+          "c": 1223190773,
+          "guard_nonzero": true,
+          "missing": 332239219,
+          "r": 576182464,
+          "source_sum": 612166925,
+          "t": 863715309,
+          "z": 1689535009
+        },
+        {
+          "b": 1178517679,
+          "c": 1537049641,
+          "guard_nonzero": true,
+          "missing": 1925934129,
+          "r": 576182464,
+          "source_sum": 717728967,
+          "t": 863715309,
+          "z": 2062302139
+        },
+        {
+          "b": 861084884,
+          "c": 1183627193,
+          "guard_nonzero": true,
+          "missing": 1113781258,
+          "r": 1218337893,
+          "source_sum": 1850786579,
+          "t": 1153063845,
+          "z": 265820059
+        },
+        {
+          "b": 1627527109,
+          "c": 515581554,
+          "guard_nonzero": true,
+          "missing": 1851458165,
+          "r": 1218337893,
+          "source_sum": 1543810010,
+          "t": 1153063845,
+          "z": 2020813938
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 721477629,
+          "t": 1051360583,
+          "z": 692829490
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 721477629,
+          "t": 1051360583,
+          "z": 1631288725
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 547900429,
+          "c": 609184551,
+          "guard_nonzero": true,
+          "missing": 1407628244,
+          "r": 448997480,
+          "source_sum": 226815680,
+          "t": 492874575,
+          "z": 1214344896
+        },
+        {
+          "b": 1852661435,
+          "c": 334499013,
+          "guard_nonzero": true,
+          "missing": 1604115573,
+          "r": 448997480,
+          "source_sum": 1370608830,
+          "t": 492874575,
+          "z": 665246301
+        },
+        {
+          "b": 52861308,
+          "c": 2043743868,
+          "guard_nonzero": true,
+          "missing": 2118005469,
+          "r": 1863882532,
+          "source_sum": 872592813,
+          "t": 1213524586,
+          "z": 1119441308
+        },
+        {
+          "b": 769178364,
+          "c": 1949289384,
+          "guard_nonzero": true,
+          "missing": 1736611525,
+          "r": 1863882532,
+          "source_sum": 2101325697,
+          "t": 1213524586,
+          "z": 1953448270
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 546849886,
+          "t": 859594759,
+          "z": 830222696
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 546849886,
+          "t": 859594759,
+          "z": 553264543
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 16540105,
+          "c": 1223190773,
+          "guard_nonzero": true,
+          "missing": 332239219,
+          "r": 1043358158,
+          "source_sum": 612166925,
+          "t": 799224405,
+          "z": 1689535009
+        },
+        {
+          "b": 1178517679,
+          "c": 1537049641,
+          "guard_nonzero": true,
+          "missing": 1925934129,
+          "r": 1043358158,
+          "source_sum": 717728967,
+          "t": 799224405,
+          "z": 2062302139
+        },
+        {
+          "b": 861084884,
+          "c": 1183627193,
+          "guard_nonzero": true,
+          "missing": 1113781258,
+          "r": 1142334747,
+          "source_sum": 1850786579,
+          "t": 1483396226,
+          "z": 265820059
+        },
+        {
+          "b": 1627527109,
+          "c": 515581554,
+          "guard_nonzero": true,
+          "missing": 1851458165,
+          "r": 1142334747,
+          "source_sum": 1543810010,
+          "t": 1483396226,
+          "z": 2020813938
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 546849886,
+          "t": 859594759,
+          "z": 830222696
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 546849886,
+          "t": 859594759,
+          "z": 553264543
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 52861308,
+          "c": 2043743868,
+          "guard_nonzero": true,
+          "missing": 2118005469,
+          "r": 657554892,
+          "source_sum": 872592813,
+          "t": 727536677,
+          "z": 1078458430
+        },
+        {
+          "b": 769178364,
+          "c": 1949289384,
+          "guard_nonzero": true,
+          "missing": 1736611525,
+          "r": 657554892,
+          "source_sum": 2101325697,
+          "t": 727536677,
+          "z": 103601305
+        },
+        {
+          "b": 547900429,
+          "c": 609184551,
+          "guard_nonzero": true,
+          "missing": 1407628244,
+          "r": 1213365743,
+          "source_sum": 226815680,
+          "t": 414472108,
+          "z": 1078712011
+        },
+        {
+          "b": 1852661435,
+          "c": 334499013,
+          "guard_nonzero": true,
+          "missing": 1604115573,
+          "r": 1213365743,
+          "source_sum": 1370608830,
+          "t": 414472108,
+          "z": 608098926
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 1409228804,
+          "t": 1079345850,
+          "z": 692829490
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 1409228804,
+          "t": 1079345850,
+          "z": 1631288725
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 861084884,
+          "c": 1183627193,
+          "guard_nonzero": true,
+          "missing": 1113781258,
+          "r": 912368540,
+          "source_sum": 1850786579,
+          "t": 977642588,
+          "z": 265820059
+        },
+        {
+          "b": 1627527109,
+          "c": 515581554,
+          "guard_nonzero": true,
+          "missing": 1851458165,
+          "r": 912368540,
+          "source_sum": 1543810010,
+          "t": 977642588,
+          "z": 2020813938
+        },
+        {
+          "b": 16540105,
+          "c": 1223190773,
+          "guard_nonzero": true,
+          "missing": 332239219,
+          "r": 1554523969,
+          "source_sum": 612166925,
+          "t": 1266991124,
+          "z": 1689535009
+        },
+        {
+          "b": 1178517679,
+          "c": 1537049641,
+          "guard_nonzero": true,
+          "missing": 1925934129,
+          "r": 1554523969,
+          "source_sum": 717728967,
+          "t": 1266991124,
+          "z": 2062302139
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 1409228804,
+          "t": 1079345850,
+          "z": 692829490
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 1409228804,
+          "t": 1079345850,
+          "z": 1631288725
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 52861308,
+          "c": 2043743868,
+          "guard_nonzero": true,
+          "missing": 2118005469,
+          "r": 266823901,
+          "source_sum": 872592813,
+          "t": 917181847,
+          "z": 1119441308
+        },
+        {
+          "b": 769178364,
+          "c": 1949289384,
+          "guard_nonzero": true,
+          "missing": 1736611525,
+          "r": 266823901,
+          "source_sum": 2101325697,
+          "t": 917181847,
+          "z": 1953448270
+        },
+        {
+          "b": 547900429,
+          "c": 609184551,
+          "guard_nonzero": true,
+          "missing": 1407628244,
+          "r": 1681708953,
+          "source_sum": 226815680,
+          "t": 1637831858,
+          "z": 1214344896
+        },
+        {
+          "b": 1852661435,
+          "c": 334499013,
+          "guard_nonzero": true,
+          "missing": 1604115573,
+          "r": 1681708953,
+          "source_sum": 1370608830,
+          "t": 1637831858,
+          "z": 665246301
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 1583856547,
+          "t": 1271111674,
+          "z": 830222696
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 1583856547,
+          "t": 1271111674,
+          "z": 553264543
+        }
+      ],
+      "status": "COMPLETE"
+    },
+    {
+      "all_guards_nonzero": true,
+      "compatibility_point_count": 6,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 4,
+      "generic_points": [
+        {
+          "b": 861084884,
+          "c": 1183627193,
+          "guard_nonzero": true,
+          "missing": 1113781258,
+          "r": 988371686,
+          "source_sum": 1850786579,
+          "t": 647310207,
+          "z": 265820059
+        },
+        {
+          "b": 1627527109,
+          "c": 515581554,
+          "guard_nonzero": true,
+          "missing": 1851458165,
+          "r": 988371686,
+          "source_sum": 1543810010,
+          "t": 647310207,
+          "z": 2020813938
+        },
+        {
+          "b": 16540105,
+          "c": 1223190773,
+          "guard_nonzero": true,
+          "missing": 332239219,
+          "r": 1087348275,
+          "source_sum": 612166925,
+          "t": 1331482028,
+          "z": 1689535009
+        },
+        {
+          "b": 1178517679,
+          "c": 1537049641,
+          "guard_nonzero": true,
+          "missing": 1925934129,
+          "r": 1087348275,
+          "source_sum": 717728967,
+          "t": 1331482028,
+          "z": 2062302139
+        }
+      ],
+      "kernel_null_point_count": 2,
+      "kernel_null_points": [
+        {
+          "b": 655444218,
+          "c": 1917289481,
+          "guard_nonzero": true,
+          "r": 1583856547,
+          "t": 1271111674,
+          "z": 830222696
+        },
+        {
+          "b": 1504871974,
+          "c": 1515723589,
+          "guard_nonzero": true,
+          "r": 1583856547,
+          "t": 1271111674,
+          "z": 553264543
+        }
+      ],
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell9-endpoint-replay-v1",
+  "scope": "Complete deployed-point replay of the cell-9 BF/CF compatibility and shared kernel-null schemes; no residual matching claim.",
+  "source_compatibility_sha256": "3020e03c035bbca3ed928c89fa7c15ad941a9ee328d88009e902d912e31f2bb8",
+  "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd"
+}

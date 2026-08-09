@@ -1739,3 +1739,29 @@ ten pairings reduce to zero in the guarded global ideal, whose inverse-ring
 basis size is 40.  This kernel is exact structural input only and pays no
 outside label.  Pairing the seven outside records with it is the next
 source-cut campaign.
+
+**Cell-9 endpoint decomposition and exclusion.** Modal app
+`ap-i4hLMM03qKEZAI74g2IoHC` computed the exact `BF` and `sigma_c CF`
+compatibility schemes in all eight source-sign/endpoint rows.  Each scheme
+has a five-polynomial triangular basis and exactly six deployed points.
+Replay app `ap-nfsyyUV5Aor88EdzvONefh` separates four leading-open points
+from two points on a shared section base locus.  The `b` and `c` base sets
+agree sign by sign.
+
+Modal app `ap-LwPNcB1VFD3eMUrHoQE1Ng` tested all four target lanes and 15
+residual matchings at the 32 leading-open candidates.  All `1920/1920`
+guarded ideals are unit.  The base points required a correction: the stored
+polynomial kernel section evaluates to the zero vector there, so it cannot
+be substituted as the pointwise kernel.  A failed pilot stopped on exactly
+that condition before producing a claim.  The repaired compiler reconstructs
+the ten common rows directly, proves rank seven, and obtains a unique
+pointwise kernel with nonzero `A(-t^2)` at all eight distinct points.
+
+Final app `ap-5AdOkV7s8XMpFQxWzAcvRF` tested every omitted outside role,
+target lane, and residual matching at the regularized base points.  All
+`3360/3360` systems are unit.  This closes the exceptional source stratum for
+all roles and, together with the leading-open result, closes both endpoint
+roles: 30 of the 105 raw cell-9 labels.  The remaining computation target is
+the 75 leading-open labels in the other five roles, after deriving a
+matching/label quotient and source-only cuts.  No further base-locus or
+endpoint computation is requested.

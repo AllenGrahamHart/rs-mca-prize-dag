@@ -83,15 +83,23 @@ single saturation by the ideal of all six product cofactors proves that its
 guarded rank-five common locus equals compact chart 1 in all four source-sign
 rows; each curve has compact basis size 17 and lex basis size 7, with empty
 `AB` pivot boundary.  Three exact five-relation presentations are available.
-The next step for orbit `[9,10]` is the global coefficient kernel followed by
-source-only outside cuts and a generic-label quotient.  No cell-9 outside
-label is paid yet.
+The global coefficient kernel is also complete.  Its first six coordinates
+are sign-independent, its last two exchange with the first source sign,
+seven common rows vanish formally, and the other three vanish modulo every
+global common ideal.
 
-The cell-9 global coefficient kernel is also complete.  Its first six
-coordinates are sign-independent, its last two exchange with the first
-source sign, seven common rows vanish formally, and the other three vanish
-modulo every global common ideal.  The active frontier is now the seven
-source-only outside compatibility cuts induced by this kernel.
+The two endpoint source cuts are now complete.  Each source-sign/endpoint
+scheme has six deployed points: four on the leading-open kernel chart and
+two on a shared base locus of the stored polynomial kernel section.  Exact
+residual reduction excludes all `1920/1920` leading-open systems.  At the
+eight distinct section-base points the stored section vanishes, but direct
+reconstruction of the ten-row common matrix gives rank seven and a unique
+pointwise kernel with nonzero `A(-t^2)`.  All `3360/3360` all-role systems at
+those regularized points are unit.  Thus the exceptional source stratum is
+closed for every role and the endpoint roles `BF` and `sigma_c CF` are
+completely empty: 30 of 105 raw cell-9 labels are paid.  The active cell-9
+frontier is the 75 leading-open labels in the other five roles, preferably
+after a generic matching/label quotient rather than a raw census.
 
 ## Node hierarchy
 
@@ -193,7 +201,17 @@ cell-4 four-basis tower
                      |
        global cell-9 coefficient kernel             [PROVED]
                      |
-       derive source cuts and attack outside labels [NEXT]
+       endpoint source compatibility 4+2 split      [PROVED]
+                     |
+       generic endpoint residual exclusion          [PROVED]
+                     |
+       section-base pointwise regularization         [PROVED]
+                     |
+       section-base all-role exclusion               [PROVED]
+                     |
+       complete endpoint-role exclusion: 30 labels  [PROVED]
+                     |
+       quotient/attack five leading-open roles       [NEXT]
                      |
        audit role orbits [5,8], [11]               [OPEN]
 ```
@@ -213,6 +231,8 @@ paid as well. The final pairing-11/14 common-`f` packets are paid, the generic
 ledger is empty, and cell 12 is closed. No further cell-12 census is needed.
 The paid cell-12 theorem, exact cell-13 transport, and global rank-drop
 theorem now close cell 13 as well. Move to the three remaining role orbits
-before launching any new matching-level census. Modal jobs must remain
+before launching any new matching-level census.  In cell 9, do not revisit
+the section-base points or endpoint roles; derive a quotient and source cuts
+for the five remaining leading-open roles. Modal jobs must remain
 route-deciding and within the active protocol budget; larger campaigns go to
 the deferred compute ledger.

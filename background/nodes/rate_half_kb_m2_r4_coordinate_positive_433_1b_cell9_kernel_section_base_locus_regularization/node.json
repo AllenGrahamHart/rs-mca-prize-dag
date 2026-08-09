@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-9 kernel-section base-locus regularization",
+    "status": "PROVED",
+    "closure": "unique pointwise rank-seven common kernel and ordinary missing-row equations at all eight section-base points",
+    "statement": "At each of the eight distinct deployed section-base points in cell 9, the stored polynomial kernel section evaluates to the zero vector but the ten common rows still have rank exactly seven. Direct row reduction gives a unique nonzero pointwise kernel. Its leading polynomial A is nonzero at the missing label -t^2 at every point, so the missing product and squared sum are again uniquely determined by B/A and x*beta^2/A^2. Thus these points are regular constrained points after pointwise kernel reconstruction, not free missing-row branches.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_kernel_null_residual_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_kernel_null_residual_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}
