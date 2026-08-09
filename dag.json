@@ -30893,6 +30893,32 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 global five-relation common locus",
+   "status": "PROVED",
+   "closure": "exact all-sign global rank-five common curve, chart-1 equality, empty pivot boundary, and three five-relation presentations",
+   "statement": "On the guarded product-rank-five branch of deployed positive 433-1b role cell 9, saturation by the ideal of all six product cofactors gives a one-dimensional common locus with compact basis size 17 and lex basis size 7 in every source-sign row. The AB pivot boundary is empty, and mutual reductions prove that this global ideal equals product-cofactor chart 1. Writing its lex elements K0,...,K6, each of {K0,K1,K3,K4,K6}, {K0,K1,K3,K5,K6}, and {K0,K1,K4,K5,K6} generates the full ideal. This common-locus theorem excludes no outside label.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_remaining_compact_pivot_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_sign_structure_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_lex_subset_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_lex_subset_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_global_common_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_global_common_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cells 12-13 complete exclusion",
    "status": "PROVED",
@@ -59150,6 +59176,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
    "kind": "req"
   },
@@ -60039,6 +60070,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -60066,6 +60102,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "kind": "req"
   },
   {
@@ -60220,6 +60261,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
    "kind": "req"
   },
@@ -60234,6 +60280,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "kind": "req"
@@ -60241,6 +60292,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "kind": "req"
   },
   {
@@ -61206,6 +61262,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "kind": "req"
   },
   {

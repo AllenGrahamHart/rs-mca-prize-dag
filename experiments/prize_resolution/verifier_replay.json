@@ -2,17 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion/verify.py",
-      "seconds": 0.314668,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify.py",
+      "seconds": 0.040615,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cells 12-13 complete: principal=1680 rankdrop=excluded\n"
+      "stdout_tail": "cell=9 signs=4 global_chart_equal=4 five_relation_presentations=12\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify_audit.py",
+      "seconds": 0.024715,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok cell=9 signs=4 exact_five_sets=3 outside_claims=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
