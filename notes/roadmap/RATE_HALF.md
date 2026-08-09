@@ -63,8 +63,10 @@ labels and one orbit. The parallel-`DE` pairing-3 nested-quadratic theorem
 closes the two orbits represented by `(0,3)` and `(2,3)`: six labels total.
 The pairing-4 sibling closes the two orbits represented by `(0,4)` and
 `(2,4)`: pairings `{4,7}` for `xi in {0,1}` and pairings `{4,7,9,10}` for
-`xi=2`, eight labels total. The live generic ledger is therefore seven
-representatives covering 22 labels.
+`xi=2`, eight labels total. The pairing-5 sibling closes the two orbits
+represented by `(0,5)` and `(2,5)`: pairings `{5,8}` for
+`xi in {0,1}` and pairings `{5,8,12,13}` for `xi=2`, eight more labels.
+The live generic ledger is therefore five representatives covering 14 labels.
 An exact `B/C`
 duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
@@ -149,7 +151,9 @@ cell-4 four-basis tower
                      |
        parallel-DE pairings 4/7/9/10: 2 orbits / 8 labels [PROVED]
                      |
-       attack 7 generic representatives          [NEXT]
+       parallel-DE pairings 5/8/12/13: 2 orbits / 8 labels [PROVED]
+                     |
+       attack 5 generic representatives          [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -167,8 +171,9 @@ Use symmetry and source-only cuts before launching a census. Cell 12's
 rational boundary, both endpoint-role families, the parallel-`DE`
 first-pair block, and reciprocal matching classes through `{7,10}` are paid.
 The `{8,13}` and `{11,14}` reciprocal matching classes are paid as well. The
-parallel-`DE` pairing-3/6 and pairing-4/7/9/10 classes are paid too. The
-generic ledger has seven representatives, all in the parallel-`DE` family.
+parallel-`DE` pairing-3/6, pairing-4/7/9/10, and pairing-5/8/12/13 classes
+are paid too. The generic ledger has five representatives, all in the
+parallel-`DE` family.
 Reuse the two paid source
 norms, the
 three-branch reciprocal-square and reciprocal-linear compilers, and matching
