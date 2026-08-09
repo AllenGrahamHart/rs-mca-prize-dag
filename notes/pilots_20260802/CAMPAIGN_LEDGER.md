@@ -4052,3 +4052,9 @@ self-pushing). PENDING USER: ratify Codex push-on-close for this
 living PR (coordinator recommends YES, scoped to PR #1152 only,
 with same-day coordinator audit + fix-forward), or re-assert
 coordinator-only pushes.
+
+## RULING RATIFIED (2026-08-09, user): Codex push-on-close for PR #1152
+
+Scoped to the living K3 export PR only; exact-commit provenance
+required; coordinator same-day audit with fix-forward. Ruling of
+record: notes/codex_briefs/RULING_PUSH_ON_CLOSE_20260809.md.
