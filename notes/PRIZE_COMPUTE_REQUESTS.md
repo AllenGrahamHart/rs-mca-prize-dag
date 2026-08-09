@@ -13035,3 +13035,23 @@ Dedicated direct replay `ap-yfMG7vQfVKsexBoGGb4Jxu` consumed that exact
 packet and passed every pairing-separated ledger. Exact transport pays 12
 labels in three orbits, leaving 12 labels in 3 active cell-5 orbits. No
 rerun is requested; the next bounded family is `xi=3` pairings `7/8/11`.
+
+**Cell-5 xi3 pairings-7/8/11 and active-label closure.** Pairing-7 pilot
+`ap-JVAkbmNq1b4mAOKtYIt1dw` and full app
+`ap-xlAamIanZVw5NgoF2jxw5W` closed all 8 rows with 100 candidates, 96
+guarded routes, 8 compatible lifts, and 16 nonzero final lanes. Pairing-8
+pilot `ap-W2bJPFYLwSp5SKtLSvBOQd` and full app
+`ap-3ROjlQtUxKOPkuj5qd5Ayx` returned the same exact totals under its changed
+source signs. Pairing-11 pilot `ap-a5Z8hUVMngFvtGJlwxC36x` and full app
+`ap-P5jk6t0UaLcWiJ9blRRD3n` closed all 8 rows with 108 candidates, 120
+guarded routes, 24 lifts, and 48 nonzero lanes.
+
+Independent root apps `ap-sQjOrD7mWOSAen2kmmEl99`,
+`ap-xqjrYDCvaZriiWWjg9sRQc`, and `ap-2DaEfR6hQbRZIVTQsAd5lG` each cover
+45 profiles and respectively reconstruct 164, 164, and 172 deployed roots.
+All three direct audits pass. Exact transport pays the final 12 active
+labels in three four-label orbits. A separate zero-compute composition
+checks that 16 proved owner packets pay exactly all 24 active orbits and all
+75 labels with `xi <= 4`. No rerun is requested. The next bounded compute
+target is the disjoint 30-label endpoint branch `xi in {5,6}`; it is not
+claimed by the active-label aggregate.

@@ -4953,3 +4953,52 @@ compute:                   ap-H0IIW2thzDFwlMIUs1N0Ig,
 live compute requests:     none
 next:                      attack xi3 pairings 7, 8, and 11
 ```
+
+### Role-orbit [5,8] xi3 pairings-7/8/11 and active-label closure
+
+Three final small owner nodes close the remaining active representatives.
+Pairings 7 and 8 each close all 8 source-sign/`sigma_c` rows with 44 target
+roots, 100 candidates, and 96 guarded routes. Each retains 8 compatible
+`q` lifts and proves all 16 final colored lanes nonzero. Pairing 11 closes
+all 8 rows with 52 target roots, 108 candidates, 120 guarded routes, 24
+compatible lifts, and 48 nonzero final lanes. No packet has a witness,
+unresolved branch, or leading-boundary remainder.
+
+Independent reconstruction for each packet covers 45 profiles. Pairings 7
+and 8 each reconstruct 164 deployed roots with degrees through 3,656;
+pairing 11 reconstructs 172 roots with degrees through 3,432. Dedicated
+direct audits replay every route, candidate classification, lift, and final
+cut. Universal transport pays
+`{(3,7),(3,10),(4,7),(4,10)}`,
+`{(3,8),(3,13),(4,8),(4,13)}`, and
+`{(3,11),(3,14),(4,11),(4,14)}`.
+
+A separate aggregate verifier now compiles the universal quotient and checks
+that 16 proved owner packets pay exactly its 24 active orbits, with size
+profile `1^1 2^9 4^14`, and hence all 75 labels with `xi <= 4`. Hostile
+mutations dropping or duplicating a representative or demoting a dependency
+are rejected. This closes the active-label branch only. The 30 endpoint
+labels with `xi in {5,6}` remain the exact next obligation before complete
+cell-5 exclusion and duplicate-role transport to cell 8.
+
+```text
+starting pin:              6bc763766
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-7/10 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-8/13 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-11/14 quadratic-resultant exclusion PROVED
+                           cell-5 active-label complete exclusion PROVED
+DAG status delta:          +4 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-JVAkbmNq1b4mAOKtYIt1dw, ap-xlAamIanZVw5NgoF2jxw5W,
+                           ap-W2bJPFYLwSp5SKtLSvBOQd, ap-3ROjlQtUxKOPkuj5qd5Ayx,
+                           ap-a5Z8hUVMngFvtGJlwxC36x, ap-P5jk6t0UaLcWiJ9blRRD3n,
+                           ap-sQjOrD7mWOSAen2kmmEl99, ap-xqjrYDCvaZriiWWjg9sRQc,
+                           ap-2DaEfR6hQbRZIVTQsAd5lG
+live compute requests:     none
+next:                      adapt the endpoint-role campaign to cell 5, then aggregate
+                           complete cell 5 and transport the duplicate role to cell 8
+```
