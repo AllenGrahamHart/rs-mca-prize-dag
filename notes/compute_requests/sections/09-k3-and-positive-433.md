@@ -2172,3 +2172,28 @@ verifiers and 28 independent audits all passed, with no timeout, hash
 mismatch, or remote error. The canonical replay JSON has sha256
 `2051784b7bff494045c7584c4bd491850725646f6a85b4619c005b1578774989`.
 No new cell-3 computation is requested; package the public pin for PR #1152.
+
+**Cell-5 common kernel and parallel-DE pairing-3/6 payment.** A bounded pivot
+comparison (`ap-TazZVUDKUnb4W33eA12j4C`) selected cell `5` over cell `11`:
+cell 5 had an exact compact quotient at all four pivots, while the tested
+cell-11 quotient was nonexact throughout. Full cell-5 app
+`ap-l9sLtKNA9myPWcxAq2cnTG` completed 24/24 sign/chart rows at pivot `1`.
+Tower app `ap-5LwL71kEDRFiBhME2eZigW` found an exact recovery with both
+leading boundaries unit, and kernel app `ap-V7eJJhNGmEeM7ZZcMrjmkx` found
+one sign-independent common kernel with all 40 reductions zero.
+
+Pairing-3 pilot `ap-RaHJBFQxB1e951pjNx0oQt` closed its row; full app
+`ap-iHtf9zpPB2vLTkrdj7ipwH` closed all 32 rows with 496 candidate roots,
+704 source-route points, 96 compatible lifts, and no witness or unresolved
+exit. Independent app `ap-3GbNluq5oeArOZLXwAaKRn` reconstructed 53 profiles,
+284 roots, and degrees through 3492. Exact transport pays six active labels
+at pairings `3/6`; cell `5` retains 22 active orbits. No rerun is requested.
+
+**Cell-5 parallel-DE pairing-4/7/9/10 payment.** Pairing-4 pilot
+`ap-hr8ZV3Nn3WnqYhlclqiGod` closed its representative row, and full app
+`ap-BLxgH4LYjVxTzCWUfBDCWn` closed all 32 rows with 560 candidate roots,
+832 source-route points, 1,552 `(u,f)` rows, and no witness or unresolved
+exit. Independent app `ap-uesgo05iEmKHKDVRYoNzlO` reconstructed 41 profiles,
+200 field roots, and degrees through 7,848. Exact transport pays eight active
+labels in two generic orbits, leaving 20 active cell-5 orbits. No rerun is
+requested; the next bounded target is pairing `5`.

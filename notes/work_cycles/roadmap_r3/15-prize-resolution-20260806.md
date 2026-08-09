@@ -4586,3 +4586,73 @@ infrastructure:            generic Modal replay now supports a dedicated JSON ou
 live compute requests:     none
 next:                      publish the cell-3 pin, extend PR #1152, then attack role orbit [5,8] or [11]
 ```
+
+### Role-orbit [5,8] common kernel and first active payment
+
+The bounded pivot pilot compared source role cells `5` and `11`. Cell `5`
+had an exact compact quotient at all four pivots, whereas the tested cell-11
+quotient was nonexact at every pivot. The selected cell-5 full scout then
+closed all 24 sign/chart rows at pivot `1`: dimension one, basis size `17`,
+lex size `8`, empty pivot boundary, and exact compact quotient throughout.
+
+The four-basis tower is exact in all eight rows. Recovery row `6` has unit
+`b`- and `c`-leading boundaries, so it avoids the exceptional fibers present
+in recovery row `5`. The degree-six base discriminant is `(r-1)(r+1)` times
+a square-free quartic. A separate kernel replay found one sign-independent
+primitive eight-coordinate kernel and reduced all ten common Vieta rows to
+zero in all four signs.
+
+The first outside payment specializes the pinned pairing-3 nested-quadratic
+function. All 32 ordered rows close. The exact totals are 304 target roots,
+496 candidate roots, 704 source-route points, 96 compatible `(u,v)` lifts,
+and 144 final `f` rows. Independent Frobenius-gcd replay covers 53 profiles,
+284 roots, and degree 3492; direct audit checks every residual and colored
+cut. Universal transport pays six active labels in the two orbits represented
+by `(0,3)` and `(2,3)`.
+
+```text
+starting pin:              a001708ae
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 common kernel PROVED; pairing-3/6 pays 6 active labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-TazZVUDKUnb4W33eA12j4C, ap-l9sLtKNA9myPWcxAq2cnTG,
+                           ap-5LwL71kEDRFiBhME2eZigW, ap-V7eJJhNGmEeM7ZZcMrjmkx,
+                           ap-RaHJBFQxB1e951pjNx0oQt, ap-iHtf9zpPB2vLTkrdj7ipwH,
+                           ap-3GbNluq5oeArOZLXwAaKRn
+live compute requests:     none
+next:                      apply the boundary-free tower to pairing 4, then pairing 5
+```
+
+### Role-orbit [5,8] pairing-4 payment
+
+The same exact row-6 tower now closes all 32 ordered pairing-4 rows. The
+packet contains 368 target roots, 560 complete candidate roots, 832 guarded
+source-route points, and 1,552 `(u,f)` rows. Exactly 176 rows satisfy the
+missing relation: 48 have `f=0` and reach the target boundary, while the
+other 128 have a nonzero colored-pair cut. No witness or unresolved branch
+survives.
+
+Independent FLINT Frobenius/gcd reconstruction covers 41 unique profiles,
+200 field roots, and degrees through 7,848. The direct audit reconstructs
+every candidate union and replays all 1,552 residual rows. Universal
+transport pays the two generic orbits represented by `(0,4)` and `(2,4)`,
+namely eight active labels at pairings `4/7/9/10`.
+
+```text
+starting pin:              a001708ae
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-4 transport pays 8 active labels
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-hr8ZV3Nn3WnqYhlclqiGod, ap-BLxgH4LYjVxTzCWUfBDCWn,
+                           ap-uesgo05iEmKHKDVRYoNzlO
+live compute requests:     none
+next:                      attack the two generic pairing-5 representatives
+```
