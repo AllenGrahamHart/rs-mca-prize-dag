@@ -12495,3 +12495,14 @@ roles: 30 of the 105 raw cell-9 labels.  The remaining computation target is
 the 75 leading-open labels in the other five roles, after deriving a
 matching/label quotient and source-only cuts.  No further base-locus or
 endpoint computation is requested.
+
+**Universal outside-label quotient.** No remote compute is required.  The
+two exact record involutions `(0 1)` and `(3 4)` preserve every positive
+`433-1b` common role cell.  Deterministic enumeration partitions the 105
+omitted-role/matching labels into 36 orbits with profile
+`1:3,2:15,4:18`.  The endpoint subset is 12 orbits on 30 labels; its
+invariant complement is 24 orbits on 75 labels with profile
+`1:1,2:9,4:14`.  Full and complement orbit digests are respectively
+`b5ec5e8418af3385dc83aeeb9aca9c8b851eae9e23794e6637f1b42a37576cb6`
+and `c5c6f6b2e4af85cf2efd05fe106fa63a09bde9e6fa6ee07ed29a7f292f3b7353`.
+For cell 9, future compute should run only these 24 representatives.
