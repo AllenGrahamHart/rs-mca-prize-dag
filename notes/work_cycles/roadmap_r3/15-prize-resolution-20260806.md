@@ -4120,3 +4120,793 @@ compute:                   Modal apps ap-QdiWgPfRBvZzLFN2vsH5JD, ap-QFMvBGEERf5o
 live compute requests:     none
 next:                      apply the sibling pairing-4 and pairing-5 compilers
 ```
+
+### Cell-9 pairing-4/7/9/10 nested-quadratic payment
+
+The pinned pairing-4 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 192 rows terminate excluded. Independent Frobenius-gcd custody
+covers 61 univariate profiles through degree 10,944, and separate direct
+replay checks 4,032 source routes, 7,040 Cartesian `(u,f)` rows, 960
+zero-relation lifts, every chart-leading payment, and every regularized-base
+payment. All 960 final colored cuts are nonzero.
+
+Universal transport pays the eight-label orbits represented by `(0,4)` and
+`(2,4)`. Cell `9` now has 14 representatives and 48 labels open.
+
+```text
+starting pin:              0e30537c8
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED parallel-DE pairing-4/7/9/10 classes; 16 -> 14 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested-quadratic six-chart packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-REKIXZuusEbysA6NQEtBcY, ap-WR056Dh1k0J8GvrO4jnQO8, ap-uahZdq8BIufQlqW7Wd2RsG, ap-oIh1xPkupXQ3ZKXtBa9f0X
+live compute requests:     none
+next:                      apply the sibling pairing-5 compiler with unordered case-keyed streaming
+```
+
+### Cell-9 pairing-5/8/12/13 nested-quadratic payment
+
+The pinned pairing-5 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. The unordered full app flushed 189 complete rows before its client
+terminated. Its incomplete manifest could not certify closure. A bounded
+three-row recovery and checked Cartesian-key merger then produced the exact
+192-row cover in six canonical shards. Every row terminates excluded.
+
+Independent Frobenius-gcd custody covers 61 univariate profiles, 264 roots,
+and degrees through 10,864. Separate direct replay checks 3,072 source
+routes, 3,200 candidate roots, 576 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 576 final colored cuts are
+nonzero.
+
+Universal transport pays the eight-label orbits represented by `(0,5)` and
+`(2,5)`. Cell `9` now has 12 representatives and 40 labels open.
+
+```text
+starting pin:              db5c6601a
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED parallel-DE pairing-5/8/12/13 classes; 14 -> 12 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-OzdO0AbBag4erxGQrr0ziK, ap-W3vjE85wYdbr0lQoKcX3ND, ap-RezhzTvQc1VUSi1I3c8ech, ap-dzdyzbeZvSleCpUZoFpk4N, ap-gRTNcbJCYEsRcXXka5Vu3T
+live compute requests:     none
+next:                      apply the positive pairing-9 nested-quadratic compiler
+```
+
+### Cell-9 positive pairing-9/10 nested-quadratic payment
+
+The pinned positive pairing-9 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 96 positive-role rows terminate excluded in three canonical
+shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 53 univariate profiles, 208 roots,
+and degrees through 10,674. Separate direct replay checks 1,728 source
+routes, 1,744 candidate roots, 384 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 384 final colored cuts are
+nonzero.
+
+Universal transport pays the four-label orbit represented by `(0,9)`.
+Cell `9` now has 11 representatives and 36 labels open.
+
+```text
+starting pin:              92f819476
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-9/10 class; 12 -> 11 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact positive nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-i47DgQdgFkZ5oNy4cZn20L, ap-GqdwWLInGrxmgVh6FLhQZ0, ap-2LXjDdvQOQAEDuJewBKVF3, ap-Yz5URg6VRTv3SRU0Mc5S1D
+live compute requests:     none
+next:                      apply the positive pairing-12 nested-quadratic compiler
+```
+
+### Cell-9 positive pairing-12/13 nested-quadratic payment
+
+The pinned positive pairing-12 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 96 positive-role rows terminate excluded in three canonical
+shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 53 univariate profiles, 208 roots,
+and degrees through 10,674. Separate direct replay checks 1,728 source
+routes, 1,744 candidate roots, 192 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 192 final colored cuts are
+nonzero.
+
+Universal transport pays the four-label orbit represented by `(0,12)`.
+Cell `9` now has 10 representatives and 32 labels open.
+
+```text
+starting pin:              fc2b36183
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-12/13 class; 11 -> 10 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact positive nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-k30s4OoGHh4g8jlqgGO4r6, ap-u10ZvqiLA7QkHDLM7jHSic, ap-QrImwY4BdQaLStAKu8kozT, ap-kAAEDFZU4AJ8OPyE5XAVkk
+live compute requests:     none
+next:                      apply the positive pairing-14 common-f compiler
+```
+
+### Cell-9 positive pairing-14 common-f payment
+
+The pinned positive pairing-14 compiler retains its
+quadratic/quadratic/common-resultant profile on all six exact cell-9 charts.
+All 96 positive-role rows terminate excluded in three canonical shards,
+without a recovery run.
+
+Independent Frobenius-gcd custody covers 57 univariate profiles, 244 roots,
+and degrees through 1,372. Separate direct replay checks 1,152 source
+routes, 1,600 candidate roots, 384 common-`f` quartic lifts, every
+chart-leading payment, and every regularized-base payment. All 384 final
+colored cuts are nonzero.
+
+Universal transport pays the two-label orbit represented by `(0,14)`. The
+parallel-DE family is exhausted; cell `9` now has nine DF/EF representatives
+and 30 labels open. Upstream living K3 export PR #1152 explicitly accepts
+incremental cell-9 packets.
+
+```text
+starting pin:              8b9150f35
+canonical prize pin:       246674dc2
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-14 class; 10 -> 9 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact common-f six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-Wnf69ZTPtr4jWvfdm2Dr1G, ap-HCgP5AHlycUB1A9p6eyfDZ, ap-6Uje5hzKGnx3hlWLjej1cW, ap-bJwDmRKrRtgTZWdcO4isdr (metadata diagnostic), ap-VdoQieJQotLgBLuhE8xTLr
+live compute requests:     none
+next:                      apply the reciprocal pairing-0 compiler to the DF/EF representative
+```
+
+### Cell-9 reciprocal pairing-0 payment
+
+The pinned reciprocal-square compiler retains its three exhaustive
+`Pair(q,q)` branches on all six exact cell-9 charts. All 144 branch rows
+terminate excluded in five canonical shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 113 univariate profiles, 644
+roots, and degrees through 764. Separate direct replay checks 1,968 source
+routes, 2,424 candidate roots, 288 common reciprocal-square roots, 576
+complete `d/e/f` lifts, every chart-leading payment, and every
+regularized-base payment. All 1,152 final colored cuts are nonzero.
+
+Universal transport pays the two-label orbit `{(3,0),(4,0)}`. Cell `9`
+now has eight representatives and 28 labels open. Upstream living K3 export
+PR #1152 explicitly accepts incremental cell-9 packets.
+
+```text
+starting pin:              035a0adfc
+canonical prize pin:       246674dc2
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal pairing-0 class; 9 -> 8 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-zkNt2Uw3wDeNhqgSrRfav7, ap-P1jZCZhqWA392qtZSo8z4s, ap-pwcV2I5u1g4UNdHJsoHzAc, ap-2uD7sGWhewfpMupfwOzOqM (aggregate diagnostic), ap-plWkGHPDxbdGycOjRvGrFu
+live compute requests:     none
+next:                      classify and attack the reciprocal pairing-1 representative
+```
+
+### Cell-9 reciprocal-linear pairing-1 payment
+
+The pinned reciprocal-linear compiler retains its three exhaustive
+`Pair(q,q)` branches and degree-one remainder cut on all six exact cell-9
+charts. All 72 branch rows terminate excluded in three canonical shards,
+without a recovery run.
+
+Independent Frobenius-gcd custody covers 121 univariate profiles, 708
+roots, and degrees through 768. Separate direct replay checks 1,296 source
+routes, 1,332 candidate roots, 144 common `z` roots, 144 complete `z/d/e/f`
+lifts, every chart-leading payment, and every regularized-base payment. All
+576 final colored cuts are nonzero.
+
+Universal transport pays the two-label orbit `{(3,1),(4,1)}`. Cell `9`
+now has seven representatives and 26 labels open. Upstream living K3 export
+PR #1152 remains open and explicitly accepts incremental cell-9 packets.
+
+```text
+starting pin:              9db3c36ca
+canonical prize pin:       3bbca1962
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal-linear pairing-1 class; 8 -> 7 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-linear six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-AwURhUNqbyqQ698VCisgnI, ap-iWDncW0jIcza17OEMvVKJR, ap-5jQKOBaFVW1E1cGYU7NLlq, ap-gr8JPiu2G8EADtQqPWbRuy
+live compute requests:     none
+next:                      apply the reciprocal-linear pairing-2 compiler
+```
+
+### Cell-9 reciprocal-linear pairing-2 payment
+
+The reciprocal-linear compiler retains its three exhaustive `Pair(q,q)`
+branches and degree-one remainder cut on all six exact cell-9 charts. The
+anchor sign doubles the cover relative to pairing 1. All 144 rows terminate
+excluded in five canonical shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 121 univariate profiles, 716 roots,
+and degrees through 773. Separate direct replay checks 2,304 source routes,
+2,760 candidate roots, and every paid boundary. On all 1,584 ordinary
+routes, the missing quartic and next-pair quadratic have no common `z` root,
+so no `z/d/e/f` lift or final color lane survives.
+
+Universal transport pays the two-label orbit `{(3,2),(4,2)}`. Cell `9`
+now has six representatives and 24 labels open. Upstream living K3 export
+PR #1152 remains open and explicitly accepts incremental cell-9 packets.
+
+```text
+starting pin:              5af3a721b
+canonical prize pin:       3bbca1962
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal-linear pairing-2 class; 7 -> 6 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-linear six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-w96YfyWkENePqJaMF2iO5T, ap-Gj4xyIkqUpZbkQVpcpXz4j, ap-aMg0P5X4lwTv4iHnhsi0A9, ap-N9VKOuBESeRyu0BRwjcB2L
+live compute requests:     none
+next:                      classify and attack the pairing-3 representative
+```
+
+### Cell-9 reciprocal-square pairing-3 payment
+
+The cell-4 reciprocal-square elimination transports cleanly to all six
+exact cell-9 charts. All 48 source-sign, `sigma_c`, and chart rows terminate
+excluded in two canonical shards, with every exceptional row paid.
+
+Independent Frobenius-gcd custody covers 69 profiles, 324 roots, and
+degrees through 1,428. Separate direct replay reconstructs 672 source
+routes, 96 reciprocal lifts, and both final target lanes at each lift. All
+192 antipodal/outside `q` intersections are empty.
+
+Universal transport pays `{(3,3),(3,6),(4,3),(4,6)}`. Cell `9` now has
+five representatives and 20 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              ec4c1ace0
+canonical prize pin:       77f643a377
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal-square pairing-3/6 class; 6 -> 5 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-SJlsfxUgYEzzlemUqv8nKr, ap-1MlKMhkFELvgKYhCtdN8T9, ap-ym5xoxlzFZtIvTrccBGyrX, ap-X9Gs8vQB9ynZY3gWc5oLEB
+live compute requests:     none
+next:                      classify and attack the pairing-4 representative
+```
+
+### Cell-9 nested sign-free pairing-4 payment
+
+The cell-4 nested sign-free elimination transports to all six exact cell-9
+charts. All 24 source-sign and chart rows terminate excluded in one
+canonical shard, with every exceptional row paid.
+
+Independent Frobenius-gcd custody covers 69 profiles, 320 roots, and
+degrees through 6,282. Separate direct replay reconstructs 384 source
+routes and all 720 missing-quartic reciprocal lifts. Every
+antipodal/second-pair `q` intersection is empty.
+
+Universal transport pays `{(3,4),(3,9),(4,4),(4,9)}`. Cell `9` now has
+four representatives and 16 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              953c9869e
+canonical prize pin:       77f643a377
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED nested sign-free pairing-4/9 class; 5 -> 4 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested sign-free six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-0eXYM1bIiL0jnkjwPGHPnF, ap-nGBMnIsNJk6A8qceTkMZ9Z, ap-cjHiNPnu6Uv2B7iwUUoVqO, ap-LcC9fgS0b9nGPORwGOCCWD
+live compute requests:     none
+next:                      classify and attack the pairing-5 representative
+```
+
+### Cell-9 nested sign-free pairing-5 payment
+
+The cell-4 pairing-5 nested sign-free elimination transports to all six
+exact cell-9 charts. The first adapter pilot exposed and corrected a missing
+`sigma_c` parameter before algebra. The corrected pilot closed, and the
+full cover completed all 48 source-sign, `sigma_c`, and chart rows in two
+canonical shards, with no witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 69 profiles, 328 roots, and
+degrees through 6,236. Separate direct replay reconstructs 1,152 source
+routes and all 2,976 missing-quartic reciprocal lifts. The
+antipodal/second-pair intersections retain 288 common `q` roots; direct
+evaluation of both target lanes gives 576 nonzero final-pair cuts and no
+solution.
+
+Universal transport pays `{(3,5),(3,12),(4,5),(4,12)}`. Cell `9` now
+has three representatives and 12 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              0a97dff50
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED nested sign-free pairing-5/12 class; 4 -> 3 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested sign-free six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-5GKTavHgRrUtGRaY1N7O6c, ap-hV2Vzlt0q1pWosIyPF2qLr, ap-43r2bhsgMekpVKhtwyFdIk, ap-M437a4BrpJZrRJd3mTlasc
+adapter catch:             ap-rbuHji3hWpAmAzq9OmUIu8 failed before algebra on omitted sigma_c; corrected before full run
+live compute requests:     none
+next:                      classify and attack the pairing-7 representative
+```
+
+### Cell-9 quadratic-resultant sign-free pairing-7 payment
+
+The cell-4 pairing-7 quadratic-resultant elimination transports to all six
+exact cell-9 charts. The pilot closed its row, and the full cover completed
+all 48 source-sign, `sigma_c`, and chart rows in two canonical shards, with
+no witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 65 profiles, 300 roots, and degrees
+through 5,052. Separate direct replay reconstructs 816 source routes and all
+1,824 missing-quartic reciprocal lifts. The two quadratic pair equations
+retain 240 common `q` roots; direct evaluation of both target lanes gives 480
+nonzero final-pair cuts and no solution.
+
+Universal transport pays `{(3,7),(3,10),(4,7),(4,10)}`. Cell `9` now has
+two representatives and eight labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              0a8e2c299
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED quadratic-resultant pairing-7/10 class; 3 -> 2 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact quadratic-resultant six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-iOTxLlpbijYw7HfAgq5QMe, ap-JAQJTTMUz8Y6EAf1uPIZSD, ap-yLcKreSx2UyRggOPA5TzgJ, ap-eMFUeF0TBC7mEqzgRkBl2B
+live compute requests:     none
+next:                      classify and attack the pairing-8 representative
+```
+
+### Cell-9 quadratic-resultant sign-free pairing-8 payment
+
+The cell-4 pairing-8 quadratic-resultant elimination transports to all six
+exact cell-9 charts. Pairing 8 reverses the two inner `q` signs relative to
+pairing 7. The pilot closed its row, and the full cover completed all 48
+source-sign, `sigma_c`, and chart rows in two canonical shards, with no
+witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 65 profiles, 300 roots, and degrees
+through 5,052. Separate direct replay reconstructs 816 source routes and all
+1,824 missing-quartic reciprocal lifts under the reversed sign convention.
+The two quadratic pair equations retain 240 common `q` roots; direct
+evaluation of both target lanes gives 480 nonzero final-pair cuts and no
+solution.
+
+Universal transport pays `{(3,8),(3,13),(4,8),(4,13)}`. Cell `9` now has
+one representative and four labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              abfe816a7
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED quadratic-resultant pairing-8/13 class; 2 -> 1 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact quadratic-resultant six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-YoIJpHmeajZbPglBqrWHD2, ap-FbTkYWrElchR6Mx8wdwgzF, ap-6lGJT5DUhdaFddnBQUwyfv, ap-rhbO91P4fvUFI2ydw58urn
+live compute requests:     none
+next:                      classify and attack the final pairing-11 representative
+```
+
+### Cell-9 pairing-11 payment and complete 105-label closure
+
+The cell-4 pairing-11 quadratic-resultant elimination transports to all six
+exact cell-9 charts. The pilot closed its row. The full cover completed all
+48 source-sign, `sigma_c`, and chart rows in two canonical shards; two Modal
+workers were preempted and automatically replayed before the fail-closed
+manifest completed. No witness or unresolved branch remains.
+
+Independent Frobenius-gcd custody covers 69 profiles, 312 roots, and degrees
+through 4,732. Separate direct replay reconstructs 672 source routes and all
+1,440 missing-quartic reciprocal lifts. The pair intersections retain 144
+common `q` roots; direct evaluation of both target lanes gives 288 nonzero
+final-pair cuts and no solution.
+
+Universal transport pays `{(3,11),(3,14),(4,11),(4,14)}`, exhausting the
+leading-open frontier. A separate composition theorem reconstructs the
+universal router and checks that 17 proved owner packets pay exactly 24
+orbits and 75 non-endpoint labels. Combined with the 30-label endpoint
+theorem, cell `9` is closed at 105/105 raw labels. Upstream K3 PR #1152 is
+the intended export lane.
+
+```text
+starting pin:              1ce0514d1
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED final pairing-11/14 orbit and cell 9; 105/105 labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact final-orbit and aggregate cell-9 closure packet for PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-I96pA8MQvOHjBP87iJhCbw, ap-qtPiSMxcBPP8wvd8SWP1jX, ap-5zqUz0RRUAmCDYIhf4PCcM, ap-iI1IJQzMkge1LNCkkQi2b7
+infrastructure note:       two full-cover workers replayed after Modal preemption; complete manifest and independent audit passed
+live compute requests:     none
+next:                      export the accumulated exact cell-9 closure through PR #1152 and reselect the next critical subproblem
+```
+
+### Cell-9 upstream export and cell-3 closure re-pin
+
+The complete cell-9 packet was exported to the living upstream K3 PR #1152.
+Its certificate pins 28 PROVED nodes and verifier digests at public campaign
+commit `68ac9e383`; the PR states explicitly that this is a local raw-label
+exclusion and moves no row ledger value.
+
+Reconciliation then showed that the advertised cell-3 `xi4` residual was a
+provenance/export remainder rather than an open mathematical branch. The
+PROVED outside-role involution already pays all 240 `xi4` cases, and the
+PROVED aggregate cell-3 theorem pays the rank-drop branch plus the disjoint
+`7*15*4*4 = 1680` principal systems. A dedicated manifest-pinned Modal replay
+ran all 28 primary verifiers and all 28 independent audits: 56 PASS, with no
+failure, timeout, hash mismatch, or remote error.
+
+```text
+starting pin:              68ac9e383
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 3
+result:                    CLOSED already; provenance revalidated for upstream export
+DAG status delta:          none
+upstream terminal delta:   cell-3 complete closure packet ready for PR #1152
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal app ap-jYkVRdvSHQuofSrzIJzAG1; 56/56 PASS
+replay digest:             2051784b7bff494045c7584c4bd491850725646f6a85b4619c005b1578774989
+infrastructure:            generic Modal replay now supports a dedicated JSON output path
+live compute requests:     none
+next:                      publish the cell-3 pin, extend PR #1152, then attack role orbit [5,8] or [11]
+```
+
+### Role-orbit [5,8] common kernel and first active payment
+
+The bounded pivot pilot compared source role cells `5` and `11`. Cell `5`
+had an exact compact quotient at all four pivots, whereas the tested cell-11
+quotient was nonexact at every pivot. The selected cell-5 full scout then
+closed all 24 sign/chart rows at pivot `1`: dimension one, basis size `17`,
+lex size `8`, empty pivot boundary, and exact compact quotient throughout.
+
+The four-basis tower is exact in all eight rows. Recovery row `6` has unit
+`b`- and `c`-leading boundaries, so it avoids the exceptional fibers present
+in recovery row `5`. The degree-six base discriminant is `(r-1)(r+1)` times
+a square-free quartic. A separate kernel replay found one sign-independent
+primitive eight-coordinate kernel and reduced all ten common Vieta rows to
+zero in all four signs.
+
+The first outside payment specializes the pinned pairing-3 nested-quadratic
+function. All 32 ordered rows close. The exact totals are 304 target roots,
+496 candidate roots, 704 source-route points, 96 compatible `(u,v)` lifts,
+and 144 final `f` rows. Independent Frobenius-gcd replay covers 53 profiles,
+284 roots, and degree 3492; direct audit checks every residual and colored
+cut. Universal transport pays six active labels in the two orbits represented
+by `(0,3)` and `(2,3)`.
+
+```text
+starting pin:              a001708ae
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 common kernel PROVED; pairing-3/6 pays 6 active labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-TazZVUDKUnb4W33eA12j4C, ap-l9sLtKNA9myPWcxAq2cnTG,
+                           ap-5LwL71kEDRFiBhME2eZigW, ap-V7eJJhNGmEeM7ZZcMrjmkx,
+                           ap-RaHJBFQxB1e951pjNx0oQt, ap-iHtf9zpPB2vLTkrdj7ipwH,
+                           ap-3GbNluq5oeArOZLXwAaKRn
+live compute requests:     none
+next:                      apply the boundary-free tower to pairing 4, then pairing 5
+```
+
+### Role-orbit [5,8] pairing-4 payment
+
+The same exact row-6 tower now closes all 32 ordered pairing-4 rows. The
+packet contains 368 target roots, 560 complete candidate roots, 832 guarded
+source-route points, and 1,552 `(u,f)` rows. Exactly 176 rows satisfy the
+missing relation: 48 have `f=0` and reach the target boundary, while the
+other 128 have a nonzero colored-pair cut. No witness or unresolved branch
+survives.
+
+Independent FLINT Frobenius/gcd reconstruction covers 41 unique profiles,
+200 field roots, and degrees through 7,848. The direct audit reconstructs
+every candidate union and replays all 1,552 residual rows. Universal
+transport pays the two generic orbits represented by `(0,4)` and `(2,4)`,
+namely eight active labels at pairings `4/7/9/10`.
+
+```text
+starting pin:              a001708ae
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-4 transport pays 8 active labels
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-hr8ZV3Nn3WnqYhlclqiGod, ap-BLxgH4LYjVxTzCWUfBDCWn,
+                           ap-uesgo05iEmKHKDVRYoNzlO
+live compute requests:     none
+next:                      attack the two generic pairing-5 representatives
+```
+
+### Role-orbit [5,8] pairing-5 payment
+
+The row-6 tower also closes all 32 ordered pairing-5 rows. The complete
+packet has 416 target roots, 560 candidate roots, 864 guarded source-route
+points, and 1,424 `(u,f)` rows. Of the 144 rows satisfying the missing
+relation, 48 reach the `f=0` target boundary and 96 have a nonzero final
+colored-pair cut. No witness or unresolved branch remains.
+
+Independent FLINT Frobenius/gcd reconstruction covers 41 unique profiles,
+200 field roots, and degrees through 7,828. Universal transport pays the
+two generic orbits represented by `(0,5)` and `(2,5)`: eight active labels
+at pairings `5/8/12/13`. Across pairings 3, 4, and 5, cell 5 has now paid 22
+active labels in six orbits; 18 active orbits remain.
+
+```text
+starting pin:              994e3b30e
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-5 transport pays 8 active labels
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-GouG45XwwpCLu2hkcDyCCG, ap-baEsdKRxUzIbKaN1v2gyaH,
+                           ap-4mJWVSrvvA6XjKAEMgaPUn
+live compute requests:     none
+next:                      attack the generic pairing-9 representative
+```
+
+### Role-orbit [5,8] positive pairing-9 payment
+
+The positive-`DE` pairing-9 compiler closes all 16 ordered source-sign and
+target-lane rows. Its exact census is 288 target roots, 336 candidate roots,
+576 guarded source-route points, and 1,184 `(u,f)` rows. Ninety-six rows
+satisfy the missing relation and every one has a nonzero final colored-pair
+cut; no witness, target-boundary lift, or unresolved branch remains.
+
+Independent FLINT Frobenius/gcd reconstruction covers 33 unique profiles,
+144 field roots, and degrees through 7,690. Universal transport pays the
+single orbit `{(0,9),(0,10),(1,9),(1,10)}`. Across the four deployed
+specializations, cell 5 has now paid 26 active labels in seven orbits, leaving
+49 labels in 17 active orbits.
+
+```text
+starting pin:              0fccd4dc9
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 positive pairing-9/10 pays 4 active labels
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-WkEMrol1EtYM5mANO5hZ9x, ap-6cT9rObjVfDo12A6LtcYIw,
+                           ap-XU03jH3lFC7PuisNoYlWZ7
+live compute requests:     none
+next:                      select the next unrepresented active orbit from the exact router
+```
+
+### Role-orbit [5,8] first-pair payment
+
+The two first-pair source cuts were reduced in the boundary-free row-6 tower.
+All eight norm rows are complete. Per source-sign row, the opposite cut has
+13 candidates and the equal-negative cut has 15. Direct replay exhausts 112
+finite points, 72 route-boundary branches, and 56 failed `b` lifts. The
+opposite cut has no ordinary zero; the equal-negative cut has exactly two per
+source-sign row, for eight source points total and no unresolved branch.
+
+The first residual draft intentionally failed closed because it used the
+positive omission equations on the surviving negative cut. The corrected
+`xi=2` specialization imposes `de=-m` and `(d-e)^2=S`. Across four source
+signs, four target lanes, two source points, and three matchings, Singular
+obtains 96/96 unit ideals. An independent two-variable lex elimination also
+obtains 96/96 unit ideals, with no finite survivor, unresolved system, or
+witness.
+
+Universal transport pays the four original orbits represented by `(0,0)`,
+`(0,1)`, `(2,0)`, and `(2,1)`, comprising nine labels. Together with the
+earlier pairing packets, cell 5 has paid 35 of 75 active labels in 11 of 24
+orbits; 40 labels in 13 active orbits remain.
+
+```text
+starting pin:              eb57770d1
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 first-pair source census and nine-label exclusion PROVED
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-JZOZS8657H8gFfCmYvdAOp, ap-PC55fQq91WonxG2lM84EM4,
+                           ap-kGgqzwqxGzFh1X8sE0rl8k, ap-VEb9bIRCgMd9aXMSMXuVba
+audit catch:               positive-role residual draft rejected before correction
+live compute requests:     none
+next:                      attack the pairing-11 representatives, then positive pairings 12 and 14
+```
+
+### Role-orbit [5,8] pairing-11/14 payment
+
+The pinned common-`f` pairing-11 compiler was specialized to cell 5's
+boundary-free row-6 tower. All 32 source-sign, target-lane, and direct-role
+rows close. The primary packet contains 264 target roots, 464 complete
+candidates, and 576 guarded source points. Sixty-four points are
+missing-impossible, 64 hit the zero-product boundary, and the remaining 448
+have no common `f` root. No colored candidate, witness, leading-boundary
+remainder, or unresolved branch survives.
+
+Independent FLINT reconstruction covers 49 polynomial profiles, 236 deployed
+roots, and degrees through 992. A separate direct replay reconstructs every
+candidate union, tower relation, missing record, route boundary, and paired
+quadratic. Universal transport pays `{(0,11),(1,11)}` and
+`{(2,11),(2,14)}`. Cell 5 has now paid 39 of 75 active labels in 13 of 24
+orbits; 36 labels in 11 active orbits remain.
+
+```text
+starting pin:              1632b43d2
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-11/14 common-f exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-E5FgEIXjamRTpeiFPXIfR2, ap-iBXSdbXdlFAm2iusD8UWzS,
+                           ap-MpjO9DzT5FF3DHVml2tK2A
+live compute requests:     none
+next:                      attack positive pairing 12, then positive pairing 14
+```
+
+### Role-orbit [5,8] positive pairing-12/13 payment
+
+The pinned positive pairing-12 nested-quadratic compiler was specialized to
+cell 5's boundary-free row-6 tower. All 16 source-sign and target-lane rows
+close. The primary packet contains 208 target roots, 304 candidates, 576
+guarded source points, and 1,056 Cartesian `(u,f)` rows. Of these, 960 fail
+the missing relation and the remaining 96 have a nonzero colored-pair cut.
+No witness, colored solution, leading-boundary remainder, or unresolved
+branch survives.
+
+Independent FLINT reconstruction covers 33 profiles, 124 deployed roots, and
+degrees through 7,702. The full direct audit replayed all 1,056 residual rows
+on Modal and passed in 59.6 seconds. Universal transport pays
+`{(0,12),(0,13),(1,12),(1,13)}`. Cell 5 has now paid 43 of 75 active labels
+in 14 of 24 orbits; 32 labels in 10 active orbits remain.
+
+```text
+starting pin:              9ffcf1e04
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 positive pairing-12/13 exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-ldOXXjHiD9UlMqtWtqi7lJ, ap-hgwWbr7N2o5eXkPvOaAk1U,
+                           ap-ykL1oFpfbx2Aed1wo1jdEr
+infrastructure:            one client heartbeat warning; all 16 workers and final packet completed
+live compute requests:     none
+next:                      attack positive pairing 14
+```
+
+### Role-orbit [5,8] positive pairing-14 payment
+
+The pinned cell-4 positive pairing-14 common-`f` compiler was specialized to
+cell 5's row-6 tower. All 16 source-sign and target-lane rows close. The
+primary packet contains 96 target roots, 208 root-or-exception candidates,
+and 240 guarded source points. Thirty-two candidates are missing-impossible,
+32 hit the zero-product boundary, and the remaining 176 checked points
+produce 192 common-`f` lifts. Every lift has a nonzero colored-pair cut; no
+witness, leading-boundary remainder, or unresolved branch survives.
+
+Independent FLINT reconstruction covers 37 profiles, 136 deployed roots,
+and degrees through 984. A separate direct replay reconstructs all candidate
+unions, source relations, boundary classifications, common-`f` lifts, and
+colored cuts. Universal transport pays `{(0,14),(1,14)}`. Cell 5 has now
+paid 45 of 75 active labels in 15 of 24 orbits; the 30 labels in 9 remaining
+orbits are all represented at `xi=3` by pairings `0,1,2,3,4,5,7,8,11`.
+
+```text
+starting pin:              fbbc7686c
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 positive pairing-14 common-f exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-Cft98d6QyKBakLyfWHA7Tq, ap-NsAdkMWefu7DSfNmT6d2A1,
+                           ap-PmAcydeJN9rw8vxgCXxipc
+live compute requests:     none
+next:                      attack the nine remaining xi=3 representatives
+```
+
+### Role-orbit [5,8] xi3 pairing-0 payment
+
+The pinned reciprocal-square compiler was specialized to cell 5's
+boundary-free row-6 tower. All 24 source-sign, rational-branch, and
+outside-sign rows close. The packet contains 132 target roots, 324 candidate
+roots, 416 guarded source routes, 160 recovered `(y,d)` candidates, and 320
+final colored lanes. The finite partition is 48 missing-impossible, 48
+zero-product, 24 empty-branch, and 296 checked points; every final paired cut
+is nonzero.
+
+Independent Frobenius reconstruction covers 93 profiles, 392 deployed roots,
+and degrees through 548. A separate direct replay reconstructs every
+candidate union, source relation, missing record, reciprocal-square
+intersection, `d/e/f` lift, and colored lane. Universal transport pays
+`{(3,0),(4,0)}`. Cell 5 has now paid 47 of 75 active labels in 16 of 24
+orbits; 28 labels in 8 `xi=3` orbits remain.
+
+```text
+starting pin:              3ceb3527a
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 xi3 pairing-0 reciprocal-square exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-M93N3JDUAYFLZANutbT0ZD, ap-eMDAvbCs9CSGRO0xDZ7V9T,
+                           ap-t8iRhYCgiuVirgmj3YBYtz
+live compute requests:     none
+next:                      attack xi3 pairings 1 and 2 as one compiler packet
+```
+
+### Role-orbit [5,8] xi3 pairings-1/2 payment
+
+The pinned reciprocal-linear compiler was specialized to the cell-5 row-6
+tower. All 36 rows close, with the two orbit ledgers retained separately.
+Pairing 1 has 76 target roots, 180 candidates, 280 guarded routes, 48
+`z/d/e/f` lifts, and 192 nonzero final lanes. Pairing 2 has 112 target roots,
+320 candidates, 432 guarded routes, 16 lifts, and 32 nonzero final lanes. No
+witness, free branch, leading-boundary remainder, or unresolved row survives.
+
+Independent Frobenius reconstruction covers 129 profiles, 596 deployed
+roots, and degrees through 508. A separate direct replay checks all 36 rows
+and emits exact per-pairing route, lift, and lane totals. Universal transport
+pays `{(3,1),(4,1)}` and `{(3,2),(4,2)}`. Cell 5 has now paid 51 of 75
+active labels in 18 of 24 orbits; 24 labels in 6 `xi=3` orbits remain.
+
+```text
+starting pin:              490d0c6c8
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 xi3 pairings-1/2 reciprocal-linear exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-nmQOvYZaed4IjqgLRQJaS0, ap-oazobs3PP680DoKqwwUjCi,
+                           ap-5RckhF73Lbvz3uGqKclZss
+live compute requests:     none
+next:                      attack xi3 pairings 3, 4, and 5
+```

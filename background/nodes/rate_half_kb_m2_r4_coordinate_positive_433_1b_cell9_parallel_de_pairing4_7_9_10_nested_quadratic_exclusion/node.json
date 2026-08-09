@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-9 pairing-4/7/9/10 nested-quadratic exclusion",
+    "status": "PROVED",
+    "closure": "complete exclusion of two active orbit representatives and eight cell-9 leading-open labels",
+    "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct labels (0,4) and (2,4) are empty over the deployed field for every source sign and target lane. Six exact tower charts give 192 complete nested-quadratic compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 960 zero-relation lifts and 960 nonzero colored cuts. Universal transport closes the two pairing-4/7/9/10 orbits, eight labels total. Cell 9 retains 14 active orbit representatives and 48 leading-open labels.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_scout_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_scout_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_result/manifest.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_frobenius_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_frobenius_roots_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_direct_audit_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_direct_audit_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

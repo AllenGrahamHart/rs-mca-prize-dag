@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned nested-quadratic pairing-5 compiler for cell-9 xi in {0,2}.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "047d9b65d0d6ccdfef71113c782b383be88fbdc9ba0e15492a543a890b299969",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 1083649,
+      "path": "shards/part-00000.jsonl",
+      "records": 3,
+      "sha256": "33ecfef0608b723915a79dcf936e7ffbabe1457bffc998c1ef028330f353e748"
+    }
+  ],
+  "total_bytes": 1083649,
+  "total_records": 3
+}

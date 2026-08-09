@@ -12,7 +12,7 @@ import modal
 
 ROOT = Path("/repo") if Path("/repo").is_dir() else Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / "tools" / "verifier_manifest.json"
-OUTPUT = ROOT / "experiments" / "prize_resolution" / "modal_verifier_replay.json"
+DEFAULT_OUTPUT = "experiments/prize_resolution/modal_verifier_replay.json"
 
 app = modal.App("rs-mca-verifier-replay")
 image = (
@@ -72,9 +72,16 @@ def run_verifier(payload: tuple[str, str, int]) -> dict[str, object]:
 
 
 @app.local_entrypoint()
-def main(match: str = "", timeout_seconds: int = 270) -> None:
+def main(
+    match: str = "",
+    timeout_seconds: int = 270,
+    output_relative: str = DEFAULT_OUTPUT,
+) -> None:
     if not 1 <= timeout_seconds <= 600:
         raise ValueError("timeout_seconds must be in [1,600]")
+    output_path = (ROOT / output_relative).resolve()
+    if ROOT.resolve() not in output_path.parents or output_path.suffix != ".json":
+        raise ValueError("output_relative must be a JSON path below the repo root")
     manifest = json.loads(MANIFEST.read_text())
     payloads = [
         (rel, expected_hash, timeout_seconds)
@@ -95,7 +102,7 @@ def main(match: str = "", timeout_seconds: int = 270) -> None:
             )
         else:
             normalized.append(row)
-    output = {
+    output_payload = {
         "schema": "prize-modal-verifier-replay-v1",
         "manifest_sha256": hashlib.sha256(MANIFEST.read_bytes()).hexdigest(),
         "complete": len(normalized) == len(payloads),
@@ -107,6 +114,7 @@ def main(match: str = "", timeout_seconds: int = 270) -> None:
         },
         "results": sorted(normalized, key=lambda row: str(row["script"])),
     }
-    OUTPUT.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
-    print(json.dumps(output["counts"], sort_keys=True))
-    print(f"wrote {OUTPUT.relative_to(ROOT)}")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(output_payload, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(output_payload["counts"], sort_keys=True))
+    print(f"wrote {output_path.relative_to(ROOT)}")

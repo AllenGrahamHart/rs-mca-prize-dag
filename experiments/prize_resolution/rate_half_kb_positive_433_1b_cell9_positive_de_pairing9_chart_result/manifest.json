@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned nested-quadratic positive-DE pairing-9 compiler for cell-9 xi=0.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "1fa844e00b6e3d592c8ef9a478ff45cb61f15bc310842cadbc116d2134a2f05c",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 11246344,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "84c31d2db62f680469596477e805c634dc04fd0bc2178d01b48721dcf4521154"
+    },
+    {
+      "bytes": 11247868,
+      "path": "shards/part-00001.jsonl",
+      "records": 32,
+      "sha256": "69acbe1aded4dafa560f0daf4a5511d3d54e3e373c71a9ec5e4f6049cee2ab7f"
+    },
+    {
+      "bytes": 11252368,
+      "path": "shards/part-00002.jsonl",
+      "records": 32,
+      "sha256": "e8e983e2c3b231c1756812398533fedea170cabc0c8b14125c54c07dc1d42de0"
+    }
+  ],
+  "total_bytes": 33746580,
+  "total_records": 96
+}

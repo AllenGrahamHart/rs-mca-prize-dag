@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "counts": {
+    "FAIL": 0,
+    "HASH_MISMATCH": 0,
+    "PASS": 1,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "manifest_sha256": "df54912529ca6c43c9b0beb39cd8ab907641fbab881074aa29776d56ad6af407",
+  "match": "cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+  "results": [
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 59.616059,
+      "sha256": "d8b186faff0766848647bd23fec9de708f71c0af374d7d0c5937de406f7b58ed",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS positive pairing-12 adapter audit: profiles=160 unique=33 boundary=0 uf=1056 lifts=96 colored=96\n"
+    }
+  ],
+  "schema": "prize-modal-verifier-replay-v1",
+  "timeout_seconds": 600
+}

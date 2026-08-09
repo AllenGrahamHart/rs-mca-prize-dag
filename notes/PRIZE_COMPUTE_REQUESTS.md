@@ -12589,3 +12589,430 @@ passes all six shard digests, 192 records, and 31,504,272 bytes. Universal
 transport closes the two active pair-3/6 orbits: six labels represented by
 `(0,3)` and `(2,3)`. Cell `9` retains 16 representatives and 56 labels.
 Total retained compute was bounded and below `$1`.
+
+**Cell-9 pairing-4 nested-quadratic closure.** Six-chart pilot app
+`ap-REKIXZuusEbysA6NQEtBcY` completed its first six rows with no survivor.
+Full sharded app `ap-WR056Dh1k0J8GvrO4jnQO8` then completed all 192
+source-sign, chart, target-lane, and direct-role rows. Every row is excluded,
+with 960 paid boundary records and no witness, unresolved branch, or colored
+solution. The 69,213,912-byte primary ledger is split into six independently
+verified shards.
+
+Provider preemptions delayed one ordered row. Hedge app
+`ap-dbFd4CtIQr2dd77MdUFCDH` independently completed that exact row, but the
+hedge is not needed by the final packet because the original full app
+completed all 192 rows. Independent FLINT app
+`ap-uahZdq8BIufQlqW7Wd2RsG` reconstructed 61 distinct norm/inverse profiles
+by Frobenius gcd, finding 308 deployed roots through degree 10,944.
+
+The first direct-audit launch `ap-DakG3PbgZsqYnFcjU64kPF` failed before
+arithmetic on a remote import-path expression and is retained only as a
+diagnostic. Corrected six-chart app `ap-oIh1xPkupXQ3ZKXtBa9f0X` checked
+4,032 source routes, all 7,040 Cartesian `(u,f)` rows, 960 zero-relation
+lifts, and 960 nonzero colored cuts. It also joined 192 `b`-leading, 384
+`c`-leading, and 384 regularized-base payments to their proved owners.
+
+Universal transport closes the two pairing-4/7/9/10 orbits: eight labels
+represented by `(0,4)` and `(2,4)`. Cell `9` retains 14 representatives and
+48 labels. The next requested computation is the sibling pairing-5
+compiler; its completion stream should be unordered and case-keyed so a
+preempted row cannot block shard progress.
+
+**Cell-9 pairing-5 nested-quadratic closure.** Six-chart pilot app
+`ap-OzdO0AbBag4erxGQrr0ziK` completed all six pilot rows without a
+survivor. Full unordered app `ap-W3vjE85wYdbr0lQoKcX3ND` flushed 189 of
+192 complete rows before its Modal client terminated. The fail-closed
+manifest remained incomplete. Exact recovery app
+`ap-RezhzTvQc1VUSi1I3c8ech` recomputed only missing Cartesian indices
+`175,176,177`; all three were complete and excluded. A checked key-join
+merger rejected duplicates and nonterminal rows, required the exact
+192-case cover, and rebuilt the primary ledger in canonical order. Its six
+verified shards contain 68,182,568 bytes. Every row is excluded, with 960
+paid boundary records and no witness, unresolved branch, or colored
+solution.
+
+Independent FLINT app `ap-dzdyzbeZvSleCpUZoFpk4N` reconstructed 61
+distinct norm/inverse profiles by Frobenius gcd, finding 264 deployed roots
+through degree 10,864. Independent six-chart replay app
+`ap-gRTNcbJCYEsRcXXka5Vu3T` checked 3,072 source routes, 3,200 candidate
+roots, 576 zero-relation lifts, and 576 nonzero colored cuts. It also joined
+192 `b`-leading, 384 `c`-leading, and 384 regularized-base payments to their
+proved owners; no colored solution or unowned boundary remains.
+
+Universal transport closes the two pairing-5/8/12/13 orbits: eight labels
+represented by `(0,5)` and `(2,5)`. Cell `9` retains 12 representatives and
+40 labels. The next cheapest parallel-DE attack is positive pairing `9`.
+
+**Cell-9 positive pairing-9 nested-quadratic closure.** Six-chart pilot app
+`ap-i47DgQdgFkZ5oNy4cZn20L` completed all six chart rows with the exact
+quadratic/quadratic/degree-eight/linear profile and no survivor. Full
+unordered app `ap-GqdwWLInGrxmgVh6FLhQZ0` then completed all 96 source-sign,
+chart, target-lane rows for positive direct role `xi=0`. Every row is
+excluded, with 480 paid boundary records and no witness, unresolved branch,
+or colored solution. The 33,746,580-byte primary ledger is split into three
+independently verified shards.
+
+Independent FLINT app `ap-2LXjDdvQOQAEDuJewBKVF3` reconstructed 53 distinct
+norm/inverse profiles by Frobenius gcd, finding 208 deployed roots through
+degree 10,674. Independent six-chart replay app
+`ap-Yz5URg6VRTv3SRU0Mc5S1D` checked 1,728 source routes, 1,744 candidate
+roots, 384 zero-relation lifts, and 384 nonzero colored cuts. It also joined
+96 `b`-leading, 192 `c`-leading, and 192 regularized-base payments to their
+proved owners. The audit directly implements matching
+`((0,4),(1,2),(3,5))` and the pairing-9 target equations.
+
+Universal transport closes the positive pairing-9/10 orbit: four labels
+represented by `(0,9)`. Cell `9` retains 11 representatives and 36 labels.
+The next cheapest parallel-DE attack is positive pairing `12`.
+
+**Cell-9 positive pairing-12 nested-quadratic closure.** Six-chart pilot app
+`ap-k30s4OoGHh4g8jlqgGO4r6` completed all six chart rows with the exact
+quadratic/quadratic/degree-eight/linear profile and no survivor. Full
+unordered app `ap-u10ZvqiLA7QkHDLM7jHSic` then completed all 96 source-sign,
+chart, target-lane rows for positive direct role `xi=0`. Every row is
+excluded, with 480 paid boundary records and no witness, unresolved branch,
+or colored solution. The 33,716,536-byte primary ledger is split into three
+independently verified shards.
+
+Independent FLINT app `ap-QrImwY4BdQaLStAKu8kozT` reconstructed 53 distinct
+norm/inverse profiles by Frobenius gcd, finding 208 deployed roots through
+degree 10,674. Independent six-chart replay app
+`ap-kAAEDFZU4AJ8OPyE5XAVkk` checked 1,728 source routes, 1,744 candidate
+roots, 192 zero-relation lifts, and 192 nonzero colored cuts. It also joined
+96 `b`-leading, 192 `c`-leading, and 192 regularized-base payments to their
+proved owners. The audit directly implements matching
+`((0,5),(1,2),(3,4))` and the pairing-12 target equations.
+
+Universal transport closes the positive pairing-12/13 orbit: four labels
+represented by `(0,12)`. Cell `9` retains 10 representatives and 32 labels.
+The final parallel-DE representative is positive pairing `14`.
+
+**Cell-9 positive pairing-14 common-f closure.** Six-chart pilot app
+`ap-Wnf69ZTPtr4jWvfdm2Dr1G` completed all six rows in the
+quadratic/quadratic/common-resultant profile with no survivor. Full
+unordered app `ap-HCgP5AHlycUB1A9p6eyfDZ` then completed all 96 source-sign,
+chart, target-lane rows for positive direct role `xi=0`. Every row is
+excluded, with 480 paid boundary records and no witness, unresolved branch,
+or colored solution. The 5,226,024-byte primary ledger is split into three
+independently verified shards.
+
+Independent FLINT app `ap-6Uje5hzKGnx3hlWLjej1cW` reconstructed 57 distinct
+norm/inverse profiles by Frobenius gcd, finding 244 deployed roots through
+degree 1,372. The first direct-audit app
+`ap-bJwDmRKrRtgTZWdcO4isdr` failed before arithmetic on an exact metadata
+string-order mismatch. Corrected app `ap-VdoQieJQotLgBLuhE8xTLr` checked
+1,152 source routes, 1,600 candidate roots, 384 common-`f` quartic lifts,
+and 384 nonzero colored cuts. It also joined 96 `b`-leading, 192
+`c`-leading, and 192 regularized-base payments to their proved owners. The
+audit directly implements matching `((0,5),(1,4),(2,3))` and the pairing-14
+target equations.
+
+Universal transport closes the positive pairing-14 orbit: two labels
+represented by `(0,14)`. The parallel-DE family is exhausted. Cell `9`
+retains nine representatives and 30 labels, all in the DF/EF family.
+
+**Cell-9 reciprocal pairing-0 closure.** Six-chart pilot app
+`ap-zkNt2Uw3wDeNhqgSrRfav7` completed all six rows in the exact
+reciprocal-square profile with no survivor. Full unordered app
+`ap-P1jZCZhqWA392qtZSo8z4s` then completed all 144 rows covering four
+source signs, three exhaustive `q` branches, two `sigma_o` values, and six
+charts. Each row checks both `sigma_c` colors. The 7,360,458-byte primary
+ledger is split into five independently verified shards.
+
+Independent FLINT app `ap-pwcV2I5u1g4UNdHJsoHzAc` reconstructed 113
+distinct norm/inverse profiles by Frobenius gcd, finding 644 deployed roots
+through degree 764. The first direct-audit app
+`ap-2uD7sGWhewfpMupfwOzOqM` passed the arithmetic and failed only at final
+aggregation on an obsolete count-field name. Corrected app
+`ap-plWkGHPDxbdGycOjRvGrFu` checked 1,968 source routes, 2,424 candidate
+roots, 288 common reciprocal-square roots, 576 complete `d/e/f` lifts, and
+1,152 nonzero final colored cuts. It also joined 144 `b`-leading, 288
+`c`-leading, and 288 regularized-base payments to their proved owners.
+
+Universal transport closes the two-label orbit represented by `(3,0)`,
+namely `{(3,0),(4,0)}`. Cell `9` retains eight representatives and 28
+labels. The next canonical DF/EF representative is `(3,1)`.
+
+**Cell-9 reciprocal-linear pairing-1 closure.** Six-chart pilot app
+`ap-AwURhUNqbyqQ698VCisgnI` completed all six rows with a linear remainder
+cut and no survivor. Full unordered app `ap-iWDncW0jIcza17OEMvVKJR` then
+completed all 72 rows covering four source signs, three exhaustive `q`
+branches, and six charts. Each row checks all four target colors. The
+4,687,224-byte primary ledger is split into three independently verified
+shards.
+
+Independent FLINT app `ap-5jQKOBaFVW1E1cGYU7NLlq` reconstructed 121
+distinct norm/inverse profiles by Frobenius gcd, finding 708 deployed roots
+through degree 768. Independent app `ap-gr8JPiu2G8EADtQqPWbRuy` checked
+1,296 source routes, 1,332 candidate roots, 144 common `z` roots, 144
+complete `z/d/e/f` lifts, and 576 nonzero final colored cuts. It also joined
+72 `b`-leading, 144 `c`-leading, and 144 regularized-base payments to their
+proved owners.
+
+Universal transport closes the two-label orbit represented by `(3,1)`,
+namely `{(3,1),(4,1)}`. Cell `9` retains seven representatives and 26
+labels. The next canonical DF/EF representative is `(3,2)`.
+
+**Cell-9 reciprocal-linear pairing-2 closure.** Six-chart pilot app
+`ap-w96YfyWkENePqJaMF2iO5T` completed all six rows with a linear remainder
+cut and no survivor. Full unordered app `ap-Gj4xyIkqUpZbkQVpcpXz4j` then
+completed all 144 rows covering four source signs, two anchor signs, three
+exhaustive `q` branches, and six charts. Each row owns the anchor's two
+target lanes. The 9,081,212-byte primary ledger is split into five
+independently verified shards.
+
+Independent FLINT app `ap-aMg0P5X4lwTv4iHnhsi0A9` reconstructed 121
+distinct norm/inverse profiles by Frobenius gcd, finding 716 deployed roots
+through degree 773. Independent app `ap-N9VKOuBESeRyu0BRwjcB2L` checked
+2,304 source routes and 2,760 candidate roots. On all 1,584 ordinary routes,
+the missing quartic and next-pair quadratic have no common reciprocal root,
+so no `z/d/e/f` lift reaches a final colored cut. The audit also joined 144
+`b`-leading, 288 `c`-leading, and 288 regularized-base payments to their
+proved owners.
+
+Universal transport closes the two-label orbit represented by `(3,2)`,
+namely `{(3,2),(4,2)}`. Cell `9` retains six representatives and 24 labels.
+The next canonical DF/EF representative is `(3,3)`.
+
+**Cell-9 reciprocal-square pairing-3 closure.** Six-chart pilot app
+`ap-SJlsfxUgYEzzlemUqv8nKr` closed all six rows. Full unordered app
+`ap-1MlKMhkFELvgKYhCtdN8T9` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness or
+unresolved branch. The 3,385,114-byte primary ledger is split into two
+independently verified shards.
+
+Independent FLINT app `ap-ym5xoxlzFZtIvTrccBGyrX` reconstructed 69
+norm/inverse profiles, 324 deployed roots, and degrees through 1,428.
+Independent app `ap-X9Gs8vQB9ynZY3gWc5oLEB` checked 672 source routes,
+896 candidate roots, 96 common reciprocal roots, and 192 final lane
+records. Every antipodal/outside `q` intersection is empty. It also joins
+48 `b`-leading, 96 `c`-leading, and 96 regularized-base payments to proved
+owners.
+
+Universal transport closes `{(3,3),(3,6),(4,3),(4,6)}`. Cell `9` retains
+five representatives and 20 labels. The next canonical representative is
+`(3,4)`.
+
+**Cell-9 nested sign-free pairing-4 closure.** Six-chart pilot app
+`ap-0eXYM1bIiL0jnkjwPGHPnF` closed all six rows. Full app
+`ap-nGBMnIsNJk6A8qceTkMZ9Z` completed all 24 source-sign and chart rows,
+with 120 paid boundary records and no witness or unresolved branch. The
+5,680,636-byte primary ledger is one digest-pinned shard.
+
+Independent FLINT app `ap-cjHiNPnu6Uv2B7iwUUoVqO` reconstructed 69
+profiles, 320 deployed roots, and degrees through 6,282. Independent app
+`ap-LcC9fgS0b9nGPORwGOCCWD` checked 384 source routes, 460 candidate roots,
+and all 720 missing-quartic reciprocal lifts. Every antipodal/second-pair
+`q` intersection is empty. It also joins 24 `b`-leading, 48 `c`-leading,
+and 48 regularized-base payments to proved owners.
+
+Universal transport closes `{(3,4),(3,9),(4,4),(4,9)}`. Cell `9` retains
+four representatives and 16 labels. The next canonical representative is
+`(3,5)`.
+
+**Cell-9 nested sign-free pairing-5 closure.** The first adapter pilot
+`ap-rbuHji3hWpAmAzq9OmUIu8` failed before algebra because the cell-4
+template's `sigma_c` input had not been carried into the cell-9 cover.
+Corrected pilot `ap-5GKTavHgRrUtGRaY1N7O6c` closed its row. Full app
+`ap-hV2Vzlt0q1pWosIyPF2qLr` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness
+or unresolved branch. The 11,705,340-byte primary ledger is split into two
+digest-pinned shards.
+
+Independent FLINT app `ap-43r2bhsgMekpVKhtwyFdIk` reconstructed 69
+profiles, 328 deployed roots, and degrees through 6,236. Independent app
+`ap-M437a4BrpJZrRJd3mTlasc` checked 1,152 source routes, 1,016 candidate
+roots, and all 2,976 missing-quartic reciprocal lifts. The
+antipodal/second-pair intersections retain 288 common `q` roots; all 576
+direct final target-lane cuts are nonzero. The audit also joins 48
+`b`-leading, 96 `c`-leading, and 96 regularized-base payments to proved
+owners.
+
+Universal transport closes `{(3,5),(3,12),(4,5),(4,12)}`. Cell `9`
+retains three representatives and 12 labels. The next canonical
+representative is `(3,7)`.
+
+**Cell-9 quadratic-resultant sign-free pairing-7 closure.** Pilot app
+`ap-iOTxLlpbijYw7HfAgq5QMe` closed its row. Full app
+`ap-JAQJTTMUz8Y6EAf1uPIZSD` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness or
+unresolved branch. The 9,244,692-byte primary ledger is split into two
+digest-pinned shards.
+
+Independent FLINT app `ap-yLcKreSx2UyRggOPA5TzgJ` reconstructed 65
+profiles, 300 deployed roots, and degrees through 5,052. Independent app
+`ap-eMFUeF0TBC7mEqzgRkBl2B` checked 816 source routes, 872 candidate
+roots, and all 1,824 missing-quartic reciprocal lifts. The two quadratic
+pair equations retain 240 common `q` roots; all 480 direct final target-lane
+cuts are nonzero. The audit also joins 48 `b`-leading, 96 `c`-leading, and
+96 regularized-base payments to proved owners.
+
+Universal transport closes `{(3,7),(3,10),(4,7),(4,10)}`. Cell `9`
+retains two representatives and eight labels. The next canonical
+representative is `(3,8)`.
+
+**Cell-9 quadratic-resultant sign-free pairing-8 closure.** Pairing 8
+reverses the two inner `q` signs relative to pairing 7. Pilot app
+`ap-YoIJpHmeajZbPglBqrWHD2` closed its row. Full app
+`ap-FbTkYWrElchR6Mx8wdwgzF` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness or
+unresolved branch. The 9,244,084-byte primary ledger is split into two
+digest-pinned shards.
+
+Independent FLINT app `ap-6lGJT5DUhdaFddnBQUwyfv` reconstructed 65
+profiles, 300 deployed roots, and degrees through 5,052. Independent app
+`ap-rhbO91P4fvUFI2ydw58urn` checked 816 source routes, 872 candidate
+roots, and all 1,824 missing-quartic reciprocal lifts under the reversed
+sign convention. The two quadratic pair equations retain 240 common `q`
+roots; all 480 direct final target-lane cuts are nonzero. The audit also
+joins 48 `b`-leading, 96 `c`-leading, and 96 regularized-base payments to
+proved owners.
+
+Universal transport closes `{(3,8),(3,13),(4,8),(4,13)}`. Cell `9`
+retains one representative and four labels. The final representative is
+`(3,11)`.
+
+**Cell-9 pairing-11 and aggregate complete closure.** Pilot app
+`ap-I96pA8MQvOHjBP87iJhCbw` closed its row. Full app
+`ap-qtPiSMxcBPP8wvd8SWP1jX` completed all 48 source-sign, `sigma_c`, and
+chart rows after two preempted workers automatically replayed. The
+8,454,588-byte primary ledger is split into two complete digest-pinned
+shards, with 240 paid boundary records and no witness or unresolved branch.
+
+Independent FLINT app `ap-5zqUz0RRUAmCDYIhf4PCcM` reconstructed 69
+profiles, 312 deployed roots, and degrees through 4,732. Independent app
+`ap-iI1IJQzMkge1LNCkkQi2b7` checked 672 source routes, 824 candidate
+roots, and all 1,440 missing-quartic reciprocal lifts. The two quadratic
+pair equations retain 144 common `q` roots; all 288 direct final target-lane
+cuts are nonzero. The audit also joins 48 `b`-leading, 96 `c`-leading, and
+96 regularized-base payments to proved owners.
+
+Universal transport closes `{(3,11),(3,14),(4,11),(4,14)}`. A separate
+executable composition checks that the 17 proved owner packets pay exactly
+the router's 24 active orbits and 75 non-endpoint labels. Combined with the
+30 endpoint labels, cell `9` is closed at 105/105. No further cell-9 compute
+is requested; the exact packet should be exported through upstream PR #1152.
+
+**Cell-3 upstream re-pin audit.** The advertised cell-3 `xi4` remainder was
+already mathematically closed: the signed outside-role involution pays all
+240 `xi4` systems, and the aggregate cell-3 theorem pays the common rank-drop
+branch plus all 1,680 principal systems. Modal app
+`ap-jYkVRdvSHQuofSrzIJzAG1` replayed the checked manifest prefix: 28 primary
+verifiers and 28 independent audits all passed, with no timeout, hash
+mismatch, or remote error. The canonical replay JSON has sha256
+`2051784b7bff494045c7584c4bd491850725646f6a85b4619c005b1578774989`.
+No new cell-3 computation is requested; package the public pin for PR #1152.
+
+**Cell-5 common kernel and parallel-DE pairing-3/6 payment.** A bounded pivot
+comparison (`ap-TazZVUDKUnb4W33eA12j4C`) selected cell `5` over cell `11`:
+cell 5 had an exact compact quotient at all four pivots, while the tested
+cell-11 quotient was nonexact throughout. Full cell-5 app
+`ap-l9sLtKNA9myPWcxAq2cnTG` completed 24/24 sign/chart rows at pivot `1`.
+Tower app `ap-5LwL71kEDRFiBhME2eZigW` found an exact recovery with both
+leading boundaries unit, and kernel app `ap-V7eJJhNGmEeM7ZZcMrjmkx` found
+one sign-independent common kernel with all 40 reductions zero.
+
+Pairing-3 pilot `ap-RaHJBFQxB1e951pjNx0oQt` closed its row; full app
+`ap-iHtf9zpPB2vLTkrdj7ipwH` closed all 32 rows with 496 candidate roots,
+704 source-route points, 96 compatible lifts, and no witness or unresolved
+exit. Independent app `ap-3GbNluq5oeArOZLXwAaKRn` reconstructed 53 profiles,
+284 roots, and degrees through 3492. Exact transport pays six active labels
+at pairings `3/6`; cell `5` retains 22 active orbits. No rerun is requested.
+
+**Cell-5 parallel-DE pairing-4/7/9/10 payment.** Pairing-4 pilot
+`ap-hr8ZV3Nn3WnqYhlclqiGod` closed its representative row, and full app
+`ap-BLxgH4LYjVxTzCWUfBDCWn` closed all 32 rows with 560 candidate roots,
+832 source-route points, 1,552 `(u,f)` rows, and no witness or unresolved
+exit. Independent app `ap-uesgo05iEmKHKDVRYoNzlO` reconstructed 41 profiles,
+200 field roots, and degrees through 7,848. Exact transport pays eight active
+labels in two generic orbits, leaving 20 active cell-5 orbits. No rerun is
+requested; the next bounded target is pairing `5`.
+
+**Cell-5 parallel-DE pairing-5/8/12/13 payment.** Pairing-5 pilot
+`ap-GouG45XwwpCLu2hkcDyCCG` closed its representative row, and full app
+`ap-baEsdKRxUzIbKaN1v2gyaH` closed all 32 rows with 560 candidate roots,
+864 source-route points, 1,424 `(u,f)` rows, and no witness or unresolved
+exit. Independent app `ap-4mJWVSrvvA6XjKAEMgaPUn` reconstructed 41 profiles,
+200 field roots, and degrees through 7,828. Exact transport pays eight active
+labels in two generic orbits, leaving 18 active cell-5 orbits. No rerun is
+requested; the next bounded target is pairing `9`.
+
+**Cell-5 positive parallel-DE pairing-9/10 payment.** Pairing-9 pilot
+`ap-WkEMrol1EtYM5mANO5hZ9x` closed its representative row, and full app
+`ap-6cT9rObjVfDo12A6LtcYIw` closed all 16 rows with 336 candidate roots,
+576 source-route points, 1,184 `(u,f)` rows, and no witness or unresolved
+exit. Independent app `ap-XU03jH3lFC7PuisNoYlWZ7` reconstructed 33 profiles,
+144 field roots, and degrees through 7,690. Exact transport pays four active
+labels in one orbit, leaving 49 labels in 17 active cell-5 orbits. No rerun
+is requested; select the next representative from the exact router.
+
+**Cell-5 parallel-DE first-pair payment.** Four-basis norm app
+`ap-JZOZS8657H8gFfCmYvdAOp` completed all eight source rows. Direct replay
+app `ap-PC55fQq91WonxG2lM84EM4` exhausted 112 candidates: the opposite cut
+has no ordinary zero and the equal-negative cut has eight in total, with no
+unresolved branch. An initial residual pilot `ap-5kC67ZR4VQXfCi21tyFqvz`
+failed closed because it retained the positive-role source-count assertion;
+none of its output is used.
+
+The corrected negative-role app `ap-kGgqzwqxGzFh1X8sE0rl8k` imposed
+`de=-m` and `(d-e)^2=S` and obtained 96/96 Singular unit ideals. Independent
+lex app `ap-VEb9bIRCgMd9aXMSMXuVba` independently obtained 96/96 unit ideals,
+with no finite survivor, unresolved system, or witness. Exact transport pays
+nine labels in four orbits, leaving 40 labels in 13 active cell-5 orbits. No
+rerun is requested; the next bounded target is pairing `11`.
+
+**Cell-5 parallel-DE pairing-11/14 payment.** Pilot app
+`ap-Kncy0UoEXPfZEuPcriJhvF` closed its representative row. Full app
+`ap-E5FgEIXjamRTpeiFPXIfR2` closed all 32 rows with 264 target roots, 464
+candidates, 576 guarded source points, and no common-`f` lift, witness, or
+unresolved branch. Independent app `ap-iBXSdbXdlFAm2iusD8UWzS` reconstructed
+49 profiles, 236 deployed roots, and degrees through 992. Direct replay app
+`ap-MpjO9DzT5FF3DHVml2tK2A` checked every candidate union and all 576 source
+routes. Exact transport pays four labels in two orbits, leaving 36 labels in
+11 active cell-5 orbits. No rerun is requested; the next bounded target is
+positive pairing `12`.
+
+**Cell-5 positive parallel-DE pairing-12/13 payment.** Pilot app
+`ap-f9Tzml0vNhluFeiOXKo0cl` closed its row. Full app
+`ap-ldOXXjHiD9UlMqtWtqi7lJ` closed all 16 rows with 304 candidates, 576
+guarded source points, 1,056 `(u,f)` rows, and 96 nonzero final colored cuts.
+Independent app `ap-hgwWbr7N2o5eXkPvOaAk1U` reconstructed 33 profiles, 124
+deployed roots, and degrees through 7,702. Dedicated verifier replay
+`ap-ykL1oFpfbx2Aed1wo1jdEr` checked all direct residuals and passed in 59.6
+seconds. Exact transport pays four labels in one orbit, leaving 32 labels in
+10 active cell-5 orbits. No rerun is requested; the next bounded target is
+positive pairing `14`.
+
+**Cell-5 positive parallel-DE pairing-14 payment.** Pilot app
+`ap-oDZSc3atiWcEI9fkLqu6LJ` closed its row. Full app
+`ap-Cft98d6QyKBakLyfWHA7Tq` closed all 16 rows with 96 target roots, 208
+candidates, 240 guarded source points, 192 common-`f` lifts, and 192 nonzero
+final colored cuts. Independent app `ap-NsAdkMWefu7DSfNmT6d2A1`
+reconstructed 37 profiles, 136 deployed roots, and degrees through 984.
+Dedicated direct replay `ap-PmAcydeJN9rw8vxgCXxipc` checked all 240 source
+routes and all terminal classifications. Exact transport pays two labels in
+one orbit, leaving 30 labels in 9 active cell-5 orbits. No rerun is requested;
+the next bounded targets are the `xi=3` representatives at pairings
+`0,1,2,3,4,5,7,8,11`.
+
+**Cell-5 xi3 pairing-0 payment.** Pilot app
+`ap-k0xagMKTLGhUToXTT5h1Xq` closed its row. Full app
+`ap-M93N3JDUAYFLZANutbT0ZD` closed all 24 rows with 324 candidate roots,
+416 guarded source routes, 160 reciprocal `(y,d)` candidates, and 320
+nonzero final lanes. Independent app `ap-eMDAvbCs9CSGRO0xDZ7V9T`
+reconstructed 93 profiles, 392 deployed roots, and degrees through 548.
+Dedicated direct replay `ap-t8iRhYCgiuVirgmj3YBYtz` checked all route
+relations and terminal ledgers. Exact transport pays two labels in one orbit,
+leaving 28 labels in 8 active cell-5 orbits. No rerun is requested; the next
+bounded packet is `xi=3` pairings `1/2`.
+
+**Cell-5 xi3 pairings-1/2 payment.** Pilot app
+`ap-FUqKOdbE21S1T8pUUJDxPB` closed its pairing-1 row. Full app
+`ap-nmQOvYZaed4IjqgLRQJaS0` closed all 36 rows with 500 candidates, 712
+guarded routes, 64 `z/d/e/f` lifts, and 224 nonzero final lanes. Independent
+app `ap-oazobs3PP680DoKqwwUjCi` reconstructed 129 profiles, 596 deployed
+roots, and degrees through 508. Dedicated direct replay
+`ap-5RckhF73Lbvz3uGqKclZss` checked separate pairing-1 and pairing-2
+ledgers. Exact transport pays four labels in two orbits, leaving 24 labels in
+6 active cell-5 orbits. No rerun is requested; the next bounded family is
+`xi=3` pairings `3/4/5`.

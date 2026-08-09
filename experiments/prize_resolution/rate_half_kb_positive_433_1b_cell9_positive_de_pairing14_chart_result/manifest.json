@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned common-f resultant positive-DE pairing-14 compiler for cell-9 xi=0.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "d46de7b84de40e9be7902d9c26e51df8b2e9fd99e7d208e78fc110338feb406a",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 1748142,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "a9d829cf1b3dc107c2d4077113b2ef846b12d18b92c3c7c5b796879320d2d892"
+    },
+    {
+      "bytes": 1742069,
+      "path": "shards/part-00001.jsonl",
+      "records": 32,
+      "sha256": "7bd08d11fbbf3bb02b15ee24ccaefa845a8f013554680115186530c1bef3e4bb"
+    },
+    {
+      "bytes": 1735813,
+      "path": "shards/part-00002.jsonl",
+      "records": 32,
+      "sha256": "ded7cc9ea4ef0bc461564b09754580d1b69cf41192f2a7686f811b1d968351bd"
+    }
+  ],
+  "total_bytes": 5226024,
+  "total_records": 96
+}

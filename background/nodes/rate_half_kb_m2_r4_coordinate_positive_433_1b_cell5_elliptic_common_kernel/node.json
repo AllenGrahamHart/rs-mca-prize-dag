@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-5 elliptic common kernel",
+    "status": "PROVED",
+    "closure": "complete 24-chart common atlas, boundary-free four-basis tower, and one sign-independent primitive common kernel for role cell 5",
+    "statement": "On the guarded product-rank-five branch of deployed positive 433-1b role cell 5, pivot AC covers all four source-sign rows and all six product-cofactor charts. Every common ideal has dimension one, basis size 17, lex basis size 8, empty pivot boundary, and an exact eight-generator compact quotient. Recovery row 6 gives an exact quadratic tower with palindromic quadratic b recovery and linear c recovery; both leading boundaries are empty. Removing the guarded factors r=+/-1 from the degree-six base discriminant leaves a square-free quartic. One sign-independent primitive eight-coordinate kernel annihilates all ten common Vieta rows, with the final three identities reducing to zero on every sign-row common ideal. No outside-record exclusion or Prize conclusion is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_remaining_compact_pivot_scout_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_complete_pivot_scout_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_four_basis_tower_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_four_basis_tower_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"},
+    {"from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}

@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned reciprocal-linear compiler for cell-9 xi=3, pairing=2.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "6175e9472f571b752273395050247db907e9bbb68065c7c0c8bdd0933e4ac2aa",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 2022327,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "80c23953fcb60a1c12a44427c9a1ac1fbd8debef3f008d113e018cf00d029785"
+    },
+    {
+      "bytes": 1989532,
+      "path": "shards/part-00001.jsonl",
+      "records": 32,
+      "sha256": "d292fc504e7340da2b9870c9aea314691b8552677fb6f67dfe712bb6fcf8ca2f"
+    },
+    {
+      "bytes": 2027302,
+      "path": "shards/part-00002.jsonl",
+      "records": 32,
+      "sha256": "f73f4afb621c546ec99ee76c29662586f4ede27b570136430fac5b4e0c58e9d8"
+    },
+    {
+      "bytes": 1994134,
+      "path": "shards/part-00003.jsonl",
+      "records": 32,
+      "sha256": "5d76d3ab29c51e4e4bd2a3caa304416d3f9553858ac46c38bce433befb40eda1"
+    },
+    {
+      "bytes": 1047917,
+      "path": "shards/part-00004.jsonl",
+      "records": 16,
+      "sha256": "d10e279fe83ecb52b4bfeb6c62e7379a6ad618ddc617b1c64b92c3009c26c116"
+    }
+  ],
+  "total_bytes": 9081212,
+  "total_records": 144
+}

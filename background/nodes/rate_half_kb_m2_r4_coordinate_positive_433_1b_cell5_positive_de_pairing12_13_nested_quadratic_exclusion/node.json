@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-5 positive-DE pairing-12/13 exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of the positive-DE generic label orbit represented by pairing 12 in cell 5",
+    "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the positive parallel-DE label with xi=0 and residual matching 12 is empty over the deployed field. The nested-quadratic reduction is replayed on all 16 source-sign/target-lane rows. The packet contains 208 target roots, 304 candidates, 576 guarded source points, and 96 compatible (u,f) lifts. All 96 lifts have a nonzero colored-pair cut; no witness or unresolved branch survives. External Frobenius/gcd reconstruction covers 33 polynomial profiles, 124 deployed roots, and degrees through 7702, while direct replay checks every candidate union and residual equation. Exact generic label transport closes pairings 12/13 for xi in {0,1}: four labels in one generic orbit. Together with the earlier cell-5 packets, 32 labels in 10 active orbits remain.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_template_adapter_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_template_adapter_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_frobenius_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_frobenius_roots_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_audit_replay.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing12_nested_quadratic_modal.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}

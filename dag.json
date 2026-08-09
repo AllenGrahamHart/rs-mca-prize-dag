@@ -30893,6 +30893,336 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 elliptic common kernel",
+   "status": "PROVED",
+   "closure": "complete 24-chart common atlas, boundary-free four-basis tower, and one sign-independent primitive common kernel for role cell 5",
+   "statement": "On the guarded product-rank-five branch of deployed positive 433-1b role cell 5, pivot AC covers all four source-sign rows and all six product-cofactor charts. Every common ideal has dimension one, basis size 17, lex basis size 8, empty pivot boundary, and an exact eight-generator compact quotient. Recovery row 6 gives an exact quadratic tower with palindromic quadratic b recovery and linear c recovery; both leading boundaries are empty. Removing the guarded factors r=+/-1 from the degree-six base discriminant leaves a square-free quartic. One sign-independent primitive eight-coordinate kernel annihilates all ten common Vieta rows, with the final three identities reducing to zero on every sign-row common ideal. No outside-record exclusion or Prize conclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_remaining_compact_pivot_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_complete_pivot_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_four_basis_tower_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_four_basis_tower_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_compact_kernel_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE first-pair complete exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of four active orbit representatives and nine cell-5 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in source-role cell 5, the six direct labels (xi,j) with xi in {0,2} and j in {0,1,2} are empty over the deployed field. The xi=0 source cut has no ordinary point. The eight xi=2 source points contribute 96 target systems across all target lanes and three first-pair matchings; exact Singular reduction and an independent SymPy lex elimination both obtain the unit ideal in all 96 systems. Universal label transport closes the four active orbits represented by (0,0),(0,1),(2,0),(2,1), comprising nine labels after duplicate-DE and outside-DE exchange. Together with the previously proved cell-5 packets, 40 leading-open labels in 13 active orbits remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_residual_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_residual_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE first-pair source census",
+   "status": "PROVED",
+   "closure": "complete deployed source census for the two parallel-DE first-pair cuts",
+   "statement": "On the guarded product-rank-five positive 433-1b route in source-role cell 5, the necessary first-pair cuts for omitted DE and -DE records are respectively P(m,-m)=0 and P(-m,-m)=0, where m=B(-t^2)/A(-t^2). Exact four-basis norms on the boundary-free row-6 tower give 13 opposite-cut and 15 equal-negative-cut candidate roots per source-sign row. Direct replay exhausts every norm and inverse candidate: the opposite cut has no ordinary zero, while the equal-negative cut has exactly two ordinary zeros per source-sign row. Across all eight rows it classifies 112 finite points, 72 route-boundary branches, and 56 failed b-lifts, with no unresolved source branch. No target residual or outside-label exclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_norm_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_norm_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_replay_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-11/14 common-f exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of four parallel-DE labels represented by pairings 11 and 14 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the parallel-DE labels (0,11) and (2,11) are empty over the deployed field. A common-f quadratic resultant is replayed on all 32 source-sign and target-lane rows. The packet has 264 target roots, 464 candidates, and 576 guarded source points; 64 rows are missing-impossible, 64 are zero-product boundaries, and all 448 remaining source points have no common-f lift. External Frobenius/gcd reconstruction covers 49 profiles, 236 roots, and degrees through 992. Independent direct replay leaves no colored candidate, witness, leading-boundary remainder, or unresolved branch. Exact duplicate-copy and matching transport close {(0,11),(1,11),(2,11),(2,14)}. Together with the earlier cell-5 packets, 36 labels in 11 active orbits remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_common_f_resultant_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing11_direct_audit_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing11_common_f_resultant_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-3/6 exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of two parallel-DE generic label orbits at pairing 3/6 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source role cell 5, the parallel-DE labels with xi=0 or xi=2 and residual matching 3 are empty over the deployed field. The nested-quadratic reduction is replayed on all 32 source-sign/target-lane/xi rows. The packet contains 304 target roots, 496 candidate roots, 704 guarded source points, 96 compatible (u,v) lifts, and 144 final f rows. Independent Frobenius-gcd reconstruction covers 53 profiles, 284 roots, and degrees through 3492; direct replay checks every root union and residual equation. Ninety-six nonzero f rows have a nonzero colored-pair cut and 48 zero-f rows hit the target boundary. Exact universal label transport closes pairings 3/6 for xi in {0,1,2}: six labels in two generic orbits. No other matching, source role cell, K3, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing3_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing3_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing3_independent_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing3_independent_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing3_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-4/7/9/10 exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of two parallel-DE generic label orbits represented by pairing 4 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source role cell 5, the parallel-DE labels with xi=0 or xi=2 and residual matching 4 are empty over the deployed field. The nested-quadratic reduction is replayed on all 32 source-sign/target-lane/xi rows. The packet contains 368 target roots, 560 candidate roots, 832 guarded source points, and 176 compatible (u,f) lifts. An external Frobenius/gcd reconstruction covers all 41 polynomial profiles and 200 field roots, while local replay checks every residual equation: 128 lifts have a nonzero colored-pair cut and 48 hit the f=0 target boundary. Exact generic label transport closes pairings 4/7 for xi in {0,1} and pairings 4/7/9/10 for xi=2: eight labels in two generic orbits. No other matching, source role cell, K3, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing4_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing4_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing4_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing4_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing4_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-5/8/12/13 exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of two parallel-DE generic label orbits represented by pairing 5 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source role cell 5, the parallel-DE labels with xi=0 or xi=2 and residual matching 5 are empty over the deployed field. The nested-quadratic reduction is replayed on all 32 source-sign/target-lane/xi rows. The packet contains 416 target roots, 560 candidate roots, 864 guarded source points, and 144 compatible (u,f) lifts. An external Frobenius/gcd reconstruction covers all 41 polynomial profiles and 200 field roots, while local replay checks every residual equation: 96 lifts have a nonzero colored-pair cut and 48 hit the f=0 target boundary. Exact generic label transport closes pairings 5/8 for xi in {0,1} and pairings 5/8/12/13 for xi=2: eight labels in two generic orbits. No other matching, source role cell, K3, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing5_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing5_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing5_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_de_pairing5_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing5_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 positive-DE pairing-12/13 exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the positive-DE generic label orbit represented by pairing 12 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the positive parallel-DE label with xi=0 and residual matching 12 is empty over the deployed field. The nested-quadratic reduction is replayed on all 16 source-sign/target-lane rows. The packet contains 208 target roots, 304 candidates, 576 guarded source points, and 96 compatible (u,f) lifts. All 96 lifts have a nonzero colored-pair cut; no witness or unresolved branch survives. External Frobenius/gcd reconstruction covers 33 polynomial profiles, 124 deployed roots, and degrees through 7702, while direct replay checks every candidate union and residual equation. Exact generic label transport closes pairings 12/13 for xi in {0,1}: four labels in one generic orbit. Together with the earlier cell-5 packets, 32 labels in 10 active orbits remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing12_audit_replay.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing12_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 positive-DE pairing-14 common-f exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the positive-DE pairing-14 label orbit in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the positive parallel-DE label (0,14) is empty over the deployed field. A common-f quadratic resultant is replayed on all 16 source-sign and target-lane rows. The packet has 96 target roots, 208 root-or-exception candidates, and 240 guarded source points; 32 candidates are missing-impossible, 32 are zero-product boundaries, and the remaining 176 checked points produce 192 compatible common-f lifts. External Frobenius/gcd reconstruction covers 37 profiles, 136 roots, and degrees through 984. Independent direct replay shows that all 192 lifts have nonzero colored-pair cut, with no witness, leading-boundary remainder, or unresolved branch. Exact duplicate-copy transport closes {(0,14),(1,14)}. Together with the earlier cell-5 packets, 30 labels in 9 active orbits remain; no other label or cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_common_f_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing14_direct_audit_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing14_common_f_resultant_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 positive-DE pairing-9/10 exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the positive-DE generic label orbit represented by pairing 9 in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source role cell 5, the positive parallel-DE label with xi=0 and residual matching 9 is empty over the deployed field. The nested-quadratic reduction is replayed on all 16 source-sign/target-lane rows. The packet contains 288 target roots, 336 candidate roots, 576 guarded source points, and 96 compatible (u,f) lifts. An external Frobenius/gcd reconstruction covers all 33 polynomial profiles and 144 field roots, while local replay checks every residual equation; all 96 lifts have a nonzero colored-pair cut. Exact generic label transport closes pairings 9/10 for xi in {0,1}: four labels in one generic orbit. No other matching, source role cell, K3, or Prize closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing9_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing9_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing9_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_positive_de_pairing9_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing9_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 xi3 pairing-0 reciprocal-square exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the xi=3 pairing-0 label orbit in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the xi=3 outside label (3,0) is empty over the deployed field. The first residual pair factors into three complete rational q branches. Across all 24 source-sign, branch, and outside-sign rows, the reciprocal-square compiler has 132 target roots, 324 candidate roots, 416 guarded source points, 160 recovered (y,d) candidates, and 320 final target-lane evaluations. Independent reconstruction covers 93 norm profiles, 392 field roots, and degrees through 548. A separate direct replay checks all source relations, missing-record values, reciprocal-square intersections, d/e/f lifts, and colored lanes; every final pair is nonzero, with no witness, free branch, leading-boundary remainder, or unresolved row. Exact outside-role transport closes {(3,0),(4,0)}. Together with the earlier cell-5 packets, 28 labels in 8 active orbits remain; no other matching or cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_independent_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_independent_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing0_direct_audit_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing0_reciprocal_square_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 xi3 pairings-1/2 reciprocal-linear exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the xi=3 pairing-1 and pairing-2 label orbits in cell 5",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the xi=3 labels (3,1) and (3,2) are empty over the deployed field. The shared reciprocal-linear compiler replays 12 pairing-1 rows and 24 pairing-2 rows. Pairing 1 has 76 target roots, 180 candidates, 280 guarded source points, 48 z lifts, and 192 nonzero final lanes. Pairing 2 has 112 target roots, 320 candidates, 432 guarded source points, 16 z lifts, and 32 nonzero final lanes. Independent reconstruction covers 129 profiles, 596 field roots, and degrees through 508. A separate direct replay preserves per-pairing ledgers and finds no witness, free branch, leading-boundary remainder, or unresolved row. Exact outside-role transport closes {(3,1),(4,1)} and {(3,2),(4,2)}. Together with the earlier cell-5 packets, 24 labels in 6 active orbits remain; no other matching or cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_independent_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_independent_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings1_2_direct_audit_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 complete exclusion",
+   "status": "PROVED",
+   "closure": "all 105 raw cell-9 direct labels excluded on the deployed guarded route",
+   "statement": "Every one of the 105 raw direct labels in positive 433-1b cell 9 is empty on the deployed guarded route. The endpoint theorem pays 30 labels in roles xi=5,6. The universal quotient partitions the other 75 labels into 24 orbits, and the 17 cited exclusion packets pay exactly one representative of every orbit. The router census and owner partition are independently executable.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition",
    "title": "KoalaBear m2 r4 positive 433-1b cell-9 endpoint compatibility decomposition",
    "status": "PROVED",
@@ -31131,6 +31461,144 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 pairing-4/7/9/10 nested-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of two active orbit representatives and eight cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct labels (0,4) and (2,4) are empty over the deployed field for every source sign and target lane. Six exact tower charts give 192 complete nested-quadratic compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 960 zero-relation lifts and 960 nonzero colored cuts. Universal transport closes the two pairing-4/7/9/10 orbits, eight labels total. Cell 9 retains 14 active orbit representatives and 48 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing4_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 pairing-5/8/12/13 nested-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of two active orbit representatives and eight cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct labels (0,5) and (2,5) are empty over the deployed field for every source sign and target lane. Six exact tower charts give 192 complete nested-quadratic compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 576 zero-relation lifts and 576 nonzero colored cuts. Universal transport closes the two pairing-5/8/12/13 orbits, eight labels total. Cell 9 retains 12 active orbit representatives and 40 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_recovery_merge.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_chart_scout_result_recovery_175_176_177.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_chart_result_recovery_175_176_177/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_de_pairing5_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 positive pairing-12/13 nested-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (0,12) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 96 complete nested-quadratic compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 192 zero-relation lifts and 192 nonzero colored cuts. Universal transport closes the pairing-12/13 orbit, four labels total. Cell 9 retains 10 active orbit representatives and 32 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing12_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 positive pairing-14 common-f resultant exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and two cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (0,14) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 96 complete common-f resultant compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 384 complete common-f quartic lifts and 384 nonzero colored cuts. Universal transport closes the positive pairing-14 orbit, two labels total. Cell 9 retains nine active orbit representatives and 30 leading-open labels, all in the DF/EF family.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing14_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 positive pairing-9/10 nested-quadratic exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (0,9) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 96 complete nested-quadratic compiler rows. External Frobenius-gcd root custody and independent direct replay cover all ordinary and paid-boundary branches, with 384 zero-relation lifts and 384 nonzero colored cuts. Universal transport closes the pairing-9/10 orbit, four labels total. Cell 9 retains 11 active orbit representatives and 36 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_positive_de_pairing9_direct_audit_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-9 regularized base-locus exclusion",
    "status": "PROVED",
@@ -31192,6 +31660,249 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_four_basis_tower_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_four_basis_tower_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-0 reciprocal-square exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and two cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,0) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 144 complete reciprocal-square compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch, with 576 complete d/e/f lifts and 1,152 nonzero final colored cuts. Universal transport closes the orbit {(3,0),(4,0)}, two labels total. Cell 9 retains eight active orbit representatives and 28 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-11 quadratic-resultant sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of the final active cell-9 orbit representative and four leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,11) is empty over the deployed field for every source sign and target lane. Six exact tower charts and two sigma_c lanes give 48 complete quadratic-resultant sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 1,440 reciprocal z/d/f lifts and 144 common q roots; all 288 final target-lane cuts are nonzero. Universal transport closes the orbit {(3,11),(3,14),(4,11),(4,14)}, four labels total. This exhausts the cell-9 leading-open orbit frontier.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-1 reciprocal-linear exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and two cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,1) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 72 complete reciprocal-linear compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch, with 144 complete z/d/e/f lifts and 576 nonzero final colored cuts. Universal transport closes the orbit {(3,1),(4,1)}, two labels total. Cell 9 retains seven active orbit representatives and 26 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing1_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-2 reciprocal-linear exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and two cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,2) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 144 complete reciprocal-linear compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. On all 1,584 ordinary checked routes the missing quartic and next-pair quadratic have no common reciprocal root, so no z/d/e/f lift or final colored cut survives. Universal transport closes the orbit {(3,2),(4,2)}, two labels total. Cell 9 retains six active orbit representatives and 24 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing2_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-3 reciprocal-square exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,3) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 48 complete reciprocal-square compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 96 common reciprocal roots and 192 final lane records; every antipodal/outside q intersection is empty. Universal transport closes the orbit {(3,3),(3,6),(4,3),(4,6)}, four labels total. Cell 9 retains five active orbit representatives and 20 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing3_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-4 nested sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,4) is empty over the deployed field for every source sign and target lane. Six exact tower charts give 24 complete nested sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 720 reciprocal z/d/f lifts; every antipodal/second-pair q intersection is empty. Universal transport closes the orbit {(3,4),(3,9),(4,4),(4,9)}, four labels total. Cell 9 retains four active orbit representatives and 16 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing4_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-5 nested sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,5) is empty over the deployed field for every source sign and target lane. Six exact tower charts and two sigma_c lanes give 48 complete nested sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 2,976 reciprocal z/d/f lifts and 288 common q roots; all 576 final target-lane cuts are nonzero. Universal transport closes the orbit {(3,5),(3,12),(4,5),(4,12)}, four labels total. Cell 9 retains three active orbit representatives and 12 leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing5_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-7 quadratic-resultant sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,7) is empty over the deployed field for every source sign and target lane. Six exact tower charts and two sigma_c lanes give 48 complete quadratic-resultant sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 1,824 reciprocal z/d/f lifts and 240 common q roots; all 480 final target-lane cuts are nonzero. Universal transport closes the orbit {(3,7),(3,10),(4,7),(4,10)}, four labels total. Cell 9 retains two active orbit representatives and eight leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing7_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-8 quadratic-resultant sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of one active orbit representative and four cell-9 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,8) is empty over the deployed field for every source sign and target lane. Six exact tower charts and two sigma_c lanes give 48 complete quadratic-resultant sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 1,824 reciprocal z/d/f lifts and 240 common q roots; all 480 final target-lane cuts are nonzero. Universal transport closes the orbit {(3,8),(3,13),(4,8),(4,13)}, four labels total. Cell 9 retains one active orbit representative and four leading-open labels.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing8_direct_audit_result.json"
    ]
   },
   {
@@ -59473,6 +60184,56 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion",
    "kind": "req"
   },
@@ -60387,6 +61148,126 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion",
    "kind": "req"
@@ -60410,6 +61291,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
@@ -60449,6 +61335,76 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
    "kind": "req"
   },
   {
@@ -60492,6 +61448,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -60507,9 +61468,69 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
@@ -60533,13 +61554,88 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
    "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
@@ -60554,6 +61650,76 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
    "kind": "req"
   },
   {
@@ -60574,6 +61740,166 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
    "kind": "req"
   },
   {
@@ -60604,6 +61930,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "kind": "req"
   },
   {
@@ -60768,6 +62099,56 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion",
    "kind": "req"
   },
@@ -60803,6 +62184,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "kind": "req"
   },
@@ -60814,6 +62200,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "kind": "req"
   },
   {
@@ -60840,6 +62231,56 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
@@ -61799,6 +63240,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "kind": "req"
   },
   {
