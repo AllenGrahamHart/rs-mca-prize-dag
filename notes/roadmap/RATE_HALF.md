@@ -76,7 +76,16 @@ assembly of 17 proved suppliers now pays all 105 generic labels, so cell 12
 is PROVED empty. An exact `B/C` duplicate-role transport is ready: all 1,680
 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. Compose these proved
-suppliers next to close cell 13.
+suppliers to close cell 13; orbit `[12,13]` is therefore PROVED empty.
+
+Representative cell 9 now has a complete global common-locus packet.  A
+single saturation by the ideal of all six product cofactors proves that its
+guarded rank-five common locus equals compact chart 1 in all four source-sign
+rows; each curve has compact basis size 17 and lex basis size 7, with empty
+`AB` pivot boundary.  Three exact five-relation presentations are available.
+The next step for orbit `[9,10]` is the global coefficient kernel followed by
+source-only outside cuts and a generic-label quotient.  No cell-9 outside
+label is paid yet.
 
 ## Node hierarchy
 
@@ -174,7 +183,11 @@ cell-4 four-basis tower
                      |
        close cell 13                               [PROVED]
                      |
-       audit role orbits [5,8], [9,10], [11]   [NEXT]
+       cell-9 global five-relation common curve    [PROVED]
+                     |
+       build kernel and attack cell-9 outside labels [NEXT]
+                     |
+       audit role orbits [5,8], [11]               [OPEN]
 ```
 
 This hierarchy is intentional: each child has a reusable exact statement,
