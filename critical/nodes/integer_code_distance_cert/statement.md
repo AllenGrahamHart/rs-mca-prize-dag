@@ -227,3 +227,20 @@ the 536 of the round-22 ground truth are exactly the f=1
 stratum of 554). Source: notes/pilots_20260809/large_v2_hunt/
 (REPORT.md, FABLE_AUDIT.md; repro PASS, LAW 1/2 identity suite,
 and the exhaustive h=8 census coordinator-replayed).
+
+## NARROWING RATIFIED (2026-08-09, user): (b) primary, (a) fallback, (c) withdrawn
+
+**The user ratified the round-25 recommendation: the family-uniform
+emptiness statement (FALSE as posed, by the N'=128 witness) is
+narrowed to (b) o(1)-SPARSITY as the primary form — bad primes have
+density o(1) in every admissible window, uniformly in v_2, as the
+measured suppression law asserts (W_TOP density ~2^-112; BADFRAC
+flat across v_2) — with (a) EXHIBIT-SCOPED as the fallback (the
+per-row certificates: E1-128 pinned field + the four deployed
+Proth rows, each certified individually). Option (c) large-v_2 is
+WITHDRAWN per the round-25 kill (dead by exhibition, by count, and
+by proved mechanism-absence).** The round-26 task of record: pose
+(b) in weakest usable form with pre-registered falsifiers (the
+b_sparsity_pose pilot). Decision of record for mystery 5's
+family-uniform arm; the per-row lane (kernel-lattice certification)
+is unaffected.

@@ -3860,3 +3860,28 @@ measurably testable for the first time with its powered falsifier
 silent (C2''-r3). Zero status flips — the round moved evidence and
 instruments, not statuses. PENDING USER DECISION: mystery-5
 narrowing, coordinator now recommends (b) primary + (a) fallback.**
+
+## NARROWING RATIFIED (2026-08-09, user): mystery 5 = (b) primary + (a) fallback
+
+The user ratified the round-25 recommendation verbatim: (b)
+o(1)-sparsity primary, (a) exhibit-scoped fallback, (c) large-v_2
+withdrawn. Recorded on integer_code_distance_cert + board r5
+(roadmap section 12). The b_sparsity_pose pilot (round 26) executes
+the pose.
+
+## ROUND 26 LAUNCHED (2026-08-09) — QUARANTINE MARKER
+
+Four Opus pilots: b_sparsity_pose (pose the ratified (b) conjecture
++ LAW-2 general-w + box-depth gap), umin_spike_hunt (Z-CEILING
+kill-or-confirm: weight-enumerator triage of the N=32 band for
+UMIN<=10 spike cells, exact CRATIO at the top candidates),
+freeze_tail_law (the C2'' named obstruction: fit-and-prove the
+level-census cutoff law + the S_inf = 1/ln2 proof + extend G-c's
+licensed range), m7_falsifier_hunt (the registered mystery-7
+falsifier's cheapest ground: overlap structure of the M>=5
+large-source charts legalized by round-25 D4). Pilots MUST NOT
+read ledger entries below this marker and MUST pass this clause to
+any subagent. RAM DISCIPLINE binding in all four (file-at-a-time
+reads; no bulk loads; checkpointed background batches for >10-min
+runs). Draft-only; no status flips; REPORT.md persisted by the
+coordinator from the transcript.

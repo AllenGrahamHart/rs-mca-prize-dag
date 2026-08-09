@@ -22001,7 +22001,12 @@ criticality-compatibility).
   kernel-lattice certification the untested alternative; the
   cyclotomic-unit germ makes it a candidate FIFTH instance of the
   ternary master object — to be tested, not assumed, per the
-  round-19 gate discipline).
+  round-19 gate discipline). NARROWING RATIFIED 2026-08-09 (user):
+  the family-uniform arm is now (b) o(1)-sparsity primary + (a)
+  exhibit-scoped fallback; (c) large-v_2 withdrawn (round-25 kill:
+  exhibition to v_2=26, ~2^98 predicted counterexamples at 41,
+  mechanism proved absent). Decision record on
+  integer_code_distance_cert.
 - **Mystery 6: PETAL ALLOCATION** (l1_mixed_petal_amplification —
   the missing imgfib bucket; naive induction retracted; the
   obstruction = residue-line growth in c; empirical growth censuses
