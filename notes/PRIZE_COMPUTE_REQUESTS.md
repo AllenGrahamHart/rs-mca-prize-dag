@@ -12316,3 +12316,32 @@ generic transport closes the eight labels in the two orbits represented by
 `(0,4)` and `(2,4)`. Cell `12` now has seven representatives and 22 labels
 open, all in the parallel-`DE` family. The retained campaign used bounded
 parallel Modal jobs and was estimated in the low single-digit-dollar range.
+
+**Parallel-DE pairing-5/8/12/13 closure.** The next degree-eight sibling
+changes the second paired cut to `Pair(second_de,sigma_c*c*f)` and the
+final colored cut to `Pair(sigma_o*v,b*f)`, while retaining
+
+```text
+(u^2+eta*de*f^2)^2-S*f^2*u^2=0.
+```
+
+Pilot app `ap-dhnwSn1GmmmAd1KD7Un06R` completed one row in 225 seconds.
+Full app `ap-cLO3lWuVhVMVuRCGnPvcIi` then completed all 32 source-sign,
+target-lane, and `xi in {0,2}` rows, with the slowest retained row reaching
+the norm in 432 seconds. Transient client heartbeat warnings did not
+interrupt the remote workers or the complete ordered result.
+
+The exact packet has 448 target-norm roots, 672 total norm/inverse
+candidates, 1,088 guarded source points, and 1,680 Cartesian `(u,f)` rows.
+Of these, 1,472 fail the missing relation, 160 have a nonzero colored-pair
+cut, and 48 hit the explicit `f=0` target boundary. There is no colored
+solution, witness, or unresolved branch; 32 free-`b` exits lie on the
+proved leading boundary.
+
+External reconstruction app `ap-ZsSRVyTN3Jhzyt4viUa55b` covers all 37
+degree-at-most-9,484 profiles and 240 roots with the compiled Frobenius/gcd
+method. The local audit evaluates every reported root and directly checks
+all paired quadratics, missing relations, recovered variables, colored cuts,
+and boundaries. Exact generic transport closes the eight labels in the two
+orbits represented by `(0,5)` and `(2,5)`. Cell `12` now has five
+representatives and 14 labels open, all in the parallel-`DE` family.
