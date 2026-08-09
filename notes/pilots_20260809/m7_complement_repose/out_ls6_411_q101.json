@@ -1,0 +1,66 @@
+{
+ "mode": "ls6_probe",
+ "arm": "guarded",
+ "ell": 4,
+ "b": 1,
+ "a": 1,
+ "q": 101,
+ "n": 32,
+ "N_core": 15,
+ "j": 7,
+ "h_proved_overlap_cap": 2,
+ "J": 19,
+ "regime": "OFF-TAIL (Johnson-paid)",
+ "chart_proj_dim_r": 3,
+ "codim_sigma": 4,
+ "chart_points_total": 1030301,
+ "EXACT_full_chart": true,
+ "trials": 16,
+ "atom_size_mean": 36.375,
+ "atom_size_max": 48,
+ "MAXPACK_max": 3,
+ "MAXPACK_hist": {
+  "2": 5,
+  "3": 11
+ },
+ "BONF": 3,
+ "BUDGET_ELASTICITY_max_over_trials": [
+  3,
+  3,
+  3,
+  4,
+  4,
+  4
+ ],
+ "owner_hist_vs_base_g": {
+  "0": 302,
+  "1": 213,
+  "2": 51
+ },
+ "owner_frac_vs_base_g": {
+  "0": 0.5336,
+  "1": 0.3763,
+  "2": 0.0901
+ },
+ "owner_frac_all_pairs_g": {
+  "0": 0.5311,
+  "1": 0.3636,
+  "2": 0.1053
+ },
+ "HYPERGEOM_reference_g": {
+  "0": 0.0012,
+  "1": 0.0305,
+  "2": 0.1828,
+  "3": 0.3807,
+  "4": 0.3046,
+  "5": 0.0914,
+  "6": 0.0087,
+  "7": 0.0002
+ },
+ "HYPERGEOM_conditioned_on_g_le_h": {
+  "0": 0.0058,
+  "1": 0.142,
+  "2": 0.8522
+ },
+ "elapsed_s": 28.9
+}

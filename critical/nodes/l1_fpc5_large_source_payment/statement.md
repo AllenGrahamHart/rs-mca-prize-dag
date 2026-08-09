@@ -32,6 +32,8 @@ plus two missing pieces the m4 reds already have: (i) NO mu-basis /
 overlap-cap theorem exists for t >= 4 (the three-petal theorems do
 not generalize as stated; even the Johnson functional J is
 undefined there); (ii) NO background-guard analogue at M >= 5.
+**[Claim (ii) is FALSE — round-25 forced correction below, the
+same mechanism that felled claim (i) in round 24.]**
 Exact facts established: t <= M always (so the rate-quarter
 uniqueness template applies exactly on the t = M, b <= 1 stratum
 and nowhere else); touched-subset multiplicity is FREE
@@ -115,3 +117,35 @@ the line K(F,W)) — the t >= 4 rows are now POSABLE AS FLATS, so
 red 3's mystery-7 membership is DECIDABLE. Bonus (proved +
 machine-checked): the core/petal disjointness hypothesis is FREE
 for primitive members.
+
+## Round-25 forced correction (2026-08-09, coordinator-applied on replay: m7_complement_repose)
+
+**Claim (ii) of the round-23 diagnosis is FALSE — the named next
+probe is DONE and DECIDED: the (CJ2)/(CJ3) chart hypotheses of
+l1_joint_core_background_johnson_bound TRANSFER at M >= 5**, by
+the same bookkeeping mechanism that made claim (i) false in round
+24. Hypothesis ledger over all 408 residual rows: background
+capacity 0 <= b < ell — 0 failures (the sieve's b IS the node's
+background capacity; measured b in [0, 5.13e11] against ell in
+[6.47e10, 5.31e11]); g = ell-b >= 1 — 0; r = 2d-h >= 0 — 0;
+core/petal/background pairwise disjoint — 0, verified
+ARITHMETICALLY at every rate ((k-1)+S = rate·k and S = M·ell+b
+hold identically, so core and source partition the ambient);
+N = k-1 — 0. The only binding condition is the list threshold
+h >= d+g, which is ALGEBRAICALLY the round-24 u <= b correction
+under another name (u = d-(t-1)ell <= b iff t·ell >= d+ell-b).
+Replay MATCHED exactly in two independent paths: **71 of 408
+residual rows rescued, 3,972,788,690,368 d-values = 1.97% of
+residual d-mass** (coordinator replay byte-identical).
+
+**Honest scope:** the rescue is PARTIAL on every row (max 74.2% of
+any one row's d-window; 0 rows fully rescued; the residual row
+count stays 408). Coverage: t = 2..5, M = 5..18, rates 1/2 (24
+rows), 1/4 (39), 1/8 (8); **rate 1/16 gets nothing.** (CJ4) gives
+m <= 97 on the leading sampled row and m up to 2.33e13 across the
+71, all <= n^3 — a defined finite payment exists, not a cheap one.
+With both (i) and (ii) of the round-23 diagnosis now false, this
+red's "least defended of the three" classification rests solely on
+the MF wall itself. Source:
+notes/pilots_20260809/m7_complement_repose/ (d4_cj3_audit.py,
+replayed byte-identical by the coordinator).

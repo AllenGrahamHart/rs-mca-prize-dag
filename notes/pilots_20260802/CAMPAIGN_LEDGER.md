@@ -3741,3 +3741,31 @@ sigma~0 Z-CEILING band under the 1G wall + the constant's
 N-dependence). Pilots MUST NOT read ledger entries below this
 marker and MUST pass this clause to any subagent. RAM DISCIPLINE
 binding in all four (file-at-a-time reads; no bulk loads).
+
+## ROUND 25 BANK 1/4 — m7_complement_repose (2026-08-09, coordinator)
+
+**BANKED, verdict holds on replay: the symmetric-difference re-pose is
+REAL, ALREADY-PROVED in-repo, and DEAD as a mystery-7 route.** Exact
+threshold: the complement orientation beats the direct one iff
+sigma < 2a; every FPC5 rate-half cell has sigma/a -> 2.5 permanently
+(kappa=0 + PENCIL_MAX=1 measured in 63/63 exact-chart configs); the
+root-sharing stratum that would help is deleted by our own guards
+(the config-18 sunflower, 94->18 under primitivity+nonagreement).
+Hard law 5: the instrument was PROVED three times over
+(xr_lowcore NK4 with a prize-row table, band_complement CP2,
+max_split_value MSC4) — my round-25a subtraction line was FALSE,
+corrected in place; 723 of the "2^836-vacuous" bits were a
+ground-set error. BONUS DECIDED: (CJ2)/(CJ3) hypotheses TRANSFER at
+M >= 5 — large-source claim (ii) FALSE (round-24 mechanism again);
+71/408 rows partially rescued, 1.97% of d-mass, rate-1/16 nothing.
+Flagged: the m4_t3 owner-quality cell (4,1,1) is out of the node's
+parameter family (all three admissibility conditions fail).
+Replays byte-identical: d3_pricing, d4_cj3_audit; exact-match:
+arm_a (4,97,seed 20260809, full), arm_b t=9 (pure sunflower, zero
+hull escape). Registered falsifier to reopen the route: a guarded
+admissible cell with common core or |U| < 2d — cheapest hunt = the
+M>=5 charts D4 just legalized. Corrections applied to 3 nodes
+(l1_rootfree + large_source + m4_t3); no status flips; census
+unchanged 231 = 167/36/28. Pilot self-corrections: 7, all
+unprompted, incl. one bare-python3 patch (isolated). Files:
+notes/pilots_20260809/m7_complement_repose/{REPORT.md,FABLE_AUDIT.md}.

@@ -191,3 +191,24 @@ notes/pilots_20260807/mf_wall_adversary/ (coordinator-replayed).
 **MYSTERY 7 MEMBERSHIP RATIFIED (2026-08-07, user):** this node is a
 member of mystery 7, "the dimension-uniform split-locator
 max-to-mean wall" (board of record: roadmap section 12, r5 update).
+
+## Round-25 audit flag (2026-08-09, coordinator-applied: m7_complement_repose)
+
+**The owner-quality finding's cell (4,1,1) is OUT OF THIS NODE'S
+PARAMETER FAMILY, not merely "off-tail": all three admissibility
+conditions fail there** (b=1 fails b>=7; the a-window
+1<=a<=floor((b-3)/4) is empty at b=1; J=+19>0 —
+coordinator-verified arithmetic). The Bonferroni-tightness claim
+("max core packing = 3 = EXACTLY the proved cap") is therefore
+made at a cell outside the family, and evaluating the node's own
+fixed-owner bound there gives C(8,3)/C(7,3) -> 1 against a
+measured 36-member atom — a further sign the cell is out of
+domain. UNRESOLVED which of the two to repair: re-measure
+owner-quality at an admissible cell (b>=7 forces ell large; exact
+chart cost grows), or re-scope the finding as an off-family
+structural analogue. FLAGGED, not resolved; the g=0
+trivial-owner-majority phenomenon itself was independently
+reproduced at the same cell in round 25 (91.6x the parametric
+reference), so the finding's PHENOMENON is real even if its cell
+is out of family. Source:
+notes/pilots_20260809/m7_complement_repose/ (REPORT.md section 3).
