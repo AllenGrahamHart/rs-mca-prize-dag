@@ -12457,3 +12457,15 @@ both sets of seven mutual reductions between the global and chart-1 ideals
 vanish.  Thus chart 1 is the complete global common curve.  This pays no
 outside label; the next route is a global kernel and source-only outside
 cuts before any matching-level census.
+
+**Cell-9 global coefficient kernel.** Modal app
+`ap-1gFa2n4GmRVFp3W7u8K69f` completed all four sign rows.  The primitive
+kernel has coordinate degree/term shapes
+`(14,38),(13,37),(11,38),(15,38),(15,37),(13,38),(15,66),(15,66)`.
+Its first six coordinate digests agree in all sign rows.  The final two are
+independent of the second sign and exchange when the first sign changes.
+The five product pairings, `LA`, and the `AB` pivot vanish identically; all
+ten pairings reduce to zero in the guarded global ideal, whose inverse-ring
+basis size is 40.  This kernel is exact structural input only and pays no
+outside label.  Pairing the seven outside records with it is the next
+source-cut campaign.

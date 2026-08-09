@@ -30893,6 +30893,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 global common kernel",
+   "status": "PROVED",
+   "closure": "primitive all-sign eight-coordinate kernel with seven formal identities, three exact common-ideal reductions, and an explicit sign law",
+   "statement": "On the complete guarded product-rank-five common locus of deployed positive 433-1b role cell 9, a primitive eight-coordinate polynomial kernel annihilates all ten common Vieta rows. Its first six coordinates are independent of both source signs; the final two are independent of the second sign and exchange when the first sign changes. The five product rows, LA sum row, and AB pivot row vanish identically, while the remaining three sum-row pairings reduce to zero modulo each exact global common ideal. No outside-record exclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_compact_kernel_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_compact_kernel_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "title": "KoalaBear m2 r4 positive 433-1b cell-9 global five-relation common locus",
    "status": "PROVED",
@@ -59176,6 +59198,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "kind": "req"
   },
@@ -60070,9 +60097,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",
@@ -60102,6 +60139,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
    "kind": "req"
   },
   {
@@ -61262,6 +61304,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
    "kind": "req"
   },
   {

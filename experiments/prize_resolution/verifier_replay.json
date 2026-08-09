@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify.py",
-      "seconds": 0.040615,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify.py",
+      "seconds": 0.052572,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "cell=9 signs=4 global_chart_equal=4 five_relation_presentations=12\n"
+      "stdout_tail": "cell=9 signs=4 kernel_coordinates=8 formal_rows=7 reduced_rows=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify_audit.py",
-      "seconds": 0.024715,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify_audit.py",
+      "seconds": 1.63218,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "audit=ok cell=9 signs=4 exact_five_sets=3 outside_claims=0\n"
+      "stdout_tail": "audit=ok cell=9 formal_pairings=28 quotient_pairings=12\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
