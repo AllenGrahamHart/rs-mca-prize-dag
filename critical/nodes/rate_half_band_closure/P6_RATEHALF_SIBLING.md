@@ -43,3 +43,16 @@ Candidate mechanisms (all un-built):
 Downstream: rate_half_band_closure -> the rate-1/2 grand-challenge determination
 (the last rate). This is the single node standing between us and a full-rate MCA
 determination.
+
+---
+**SUPERSEDED BANNER (2026-08-09, coordinator; executes the wave-9
+import-plan item of 2026-07-17 that never landed):** the claim at
+line 21 ("the safe side ABOVE sigma* is proved") is WITHDRAWN.
+sigma* = 8,592,912,738 is the random-word first-moment corridor
+edge (t*-1, xr_radius_arithmetic), NOT a pincer constant; no safe
+theorem at or near it exists; the point is strictly inside the
+proved-unsafe region (sigma_0 = 8,594,128,895 unsafe by the PROVED
+simple-pole floor; 2^34-1 unsafe by the wave-10 optimized floor).
+The genuine PROVED safe point is HD1's a = 3n/4 (excess 2^39).
+See the wave-9 findings (notes/kernel_basis/WAVE9_AUDIT_FINDINGS.md
+:198-217) and the round-27 addendum on the node statement.

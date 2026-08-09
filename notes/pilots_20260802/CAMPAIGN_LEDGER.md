@@ -4089,3 +4089,35 @@ round-27 bank (the analytic child's statement = the audited BAND-AC
 pose; pincer_formalization D0 can change the model node; D0=BROKEN
 re-surfaces before surgery). Census/board impact executed once,
 with provenance, at bank time.
+
+## ROUND 27 BANK 1/4 — pincer_formalization (2026-08-09, coordinator)
+
+**BANKED: D0 = BROKEN — the sharpest correction this node has ever
+taken, and the decomposition plan's stop-gate FIRED.** sigma* =
+8,592,912,738 is the RANDOM-WORD first-moment corridor edge
+(t*-1, xr_radius_arithmetic), NOT a pincer constant; NO safe
+theorem above it exists (exhaustive own-repo sweep); the point is
+strictly INSIDE the proved-unsafe region (sigma_0 > sigma* by the
+PROVED simple-pole floor — a fact the node's OWN statement has
+carried unreconciled since wave 9). **FLOOR v2's own pre-registered
+falsifier FIRES BY THEOREM** (structural-surplus direction, rho in
+[53.77, 79.88] across all 38 RQ1-determined scales + directly at
+razor). Root cause = a max-vs-mean TYPE ERROR; survivals +1..+4
+re-classified ZERO-POWER (all cells at q < 2^128 where B* = 0,
+measuring the mean object). CATCH-24A fired on the mandate itself:
+the "unformalized worst-word crossing" = (RH-ADJ)/a_RH, in-node
+since wave 9 — WP5's flag went stale 7 days after writing; the
+wave-9 supersession banners NEVER LANDED (custody miss) — landed
+NOW on P6_RATEHALF_SIBLING.md + pro_brief_razor.md. BAND-AC
+unstateable (false/tautological) — successor pose (RH-AC) recorded
+as DRAFT: locate a_RH via S_sparse alone within the PROVED bracket
+[k+2^34, 3n/4]; falsifiers F1/F2 + F3 = the zero-power declaration
+(standing-rule candidate). FLAGGED LEAD (unverified, high-value,
+cheap): HD1 may already discharge mca_safe's safe-half bar at razor
+rows. Coordinator verifications: the wave-9 refutation text, HD1,
+banner absence, mca_safe bar — all from primary text; d0d2 + esc
+replays exact. Node stays TARGET (pose superseded, not status).
+DECOMPOSITION: design dead as written; revised candidate recorded
+in the plan doc; AWAITING USER + the remaining three banks. Pilot:
+17 min, 3 interpreter calls, 6 disclosed self-corrections. Files:
+notes/pilots_20260809/pincer_formalization/{REPORT.md,FABLE_AUDIT.md}.

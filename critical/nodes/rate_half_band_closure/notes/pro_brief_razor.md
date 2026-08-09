@@ -46,3 +46,14 @@ sigma in (2^33, sigma*], width 2,978,146, ~2^21.5 wide.
 (C) conditional on one named estimate. The margin needed is measured in
 TEN-THOUSANDTHS of a bit per fiber — state clearly which inequality you
 attack and by how much it must move.
+
+---
+**SUPERSEDED BANNER (2026-08-09, coordinator; executes the wave-9
+import-plan item of 2026-07-17 that never landed):** the line
+"SAFE side proved for sigma > sigma* (half-distance/pincer
+machinery)" is WITHDRAWN — sigma* is the random-word first-moment
+corridor edge, not a pincer constant, and it lies strictly inside
+the proved-unsafe region. The half-distance pincer's actual PROVED
+safe point is a = 3n/4 (excess 2^39, HD1,
+rate_half_half_distance_safe_bracket), 63.978x above sigma*. See
+the round-27 addendum on the node statement.

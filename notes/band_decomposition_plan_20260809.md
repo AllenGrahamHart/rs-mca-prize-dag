@@ -60,3 +60,26 @@ board structure. Design of record:
 - Surfaced items at execution: the exact statements of both
   children (user sees them before the flip lands, since this is a
   status-structure change).
+
+---
+## GATE FIRED (2026-08-09, round-27 bank 1/4): D0 = BROKEN — design SUPERSEDED, awaiting user
+
+pincer_formalization returned D0 = BROKEN: sigma* is the random-word
+mean-crossing (not a pincer constant), the "safe above sigma*" claim
+has no theorem and is refuted inside the proved-unsafe region, and
+FLOOR v2's own falsifier FIRED (structural-surplus direction, by
+theorem). BAND-AC is unstateable (false in the random-word reading,
+tautological in the worst-word reading). THE THREE-OBJECT DESIGN
+ABOVE IS DEAD AS WRITTEN: there is no sigma_FM model node to build,
+and no anti-concentration child to state against it.
+
+The real open object (in-node since wave 9): (RH-ADJ)/a_RH crossing
+location, bracket [k+2^34, 3n/4], binding term S_sparse. A REVISED
+decomposition candidate (NOT ratified): parent retained CONDITIONAL
+over (i) the K3/workboard arm (unchanged — the structural
+enumeration) and (ii) an (RH-AC) crossing-location child (the
+S_sparse localization), with the mca_safe lead (HD1 possibly
+discharging the safe-half bar) checked FIRST since it may remove one
+consumer's dependence entirely. Await the remaining round-27 banks
+(staircase_extension bears directly on (RH-AC)) and the user's view
+before any surgery.
