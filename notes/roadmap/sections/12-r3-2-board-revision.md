@@ -845,15 +845,23 @@ reconstructs 41 profiles, 146 roots, and degrees through 11240. Direct replay
 finds 224 nonzero missing relations and 32 nonzero colored cuts. Transport
 pays eight labels at pairings `5/8/12/13`.
 
+The positive pairing-9 packet pays the still-open half of the next orbit.
+All 16 rows complete with 128 target roots, 200 candidate roots, 160 guarded
+source points, and 256 `(u,f)` rows. Direct replay excludes 224 by the
+missing relation and 32 by a nonzero colored cut. Independent app
+`ap-Bg9tWdJEGuzLc3RgxJJQs9` reconstructs 33 profiles, 114 roots, and degrees
+through 11056. Transport pays `(0,9),(0,10),(1,9),(1,10)`; the reciprocal
+`xi=2` labels were already paid by the pairing-4 packet.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       61/105 closed
-active quotient frontier: 14 representatives / 44 labels
-DAG status delta:         +7 background PROVED; critical child unchanged
+cell-11 raw labels:       65/105 closed
+active quotient frontier: 13 representatives / 40 labels
+DAG status delta:         +8 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
-                          ap-TWGHPcGCiL5Pvp6blq7acF
-next:                     positive pairing-9 representative `(0,9)`
+                          ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO
+next:                     positive pairing-12 representative `(0,12)`
 ```
