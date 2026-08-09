@@ -3702,3 +3702,28 @@ marker and MUST pass this quarantine clause to any subagent.
   STANDING CADENCE (user-ratified): each wave audit ends with an
   incremental push of newly completed cells to this branch —
   cell 9 will be the first.
+
+## 2026-08-09: round-25a BANKED — the PR re-harvest: exact complementarity with #1146; the mystery-7 mechanism sharpened from #1148's fixture; three addenda applied
+
+- pr_harvest BANKED (their auditors replayed PASS; all arithmetic
+  exact). HEADLINES: (1) #1146 x the legalized sieve = EXACT
+  COMPLEMENTARITY — our NEW corollary (d < g => |Z| <= 1, ours,
+  one line, previously unwritten) + their S_6 <= 20 compose to
+  per-pattern uniqueness on the whole tau=6 family (chart mapping
+  CANDIDATE); Theorem J proper misses their family entirely
+  (extended to tau=5). (2) MYSTERY 7's mechanism SHARPENED: both
+  exhibited M31 flats sit at the anticode instrument's r -> j
+  counterexample end (0.931/0.9998; 2^836-vacuous) — the wall is
+  ROOT-SHARING flats, not dimension growth; in symmetric-
+  difference coordinates the same instrument is 2^7.75-loose /
+  EXACT — a coordinate-change lead (CANDIDATE; upstream truth
+  rests on unreplayed C++ sieves; vertex-vs-hull caveat). (3) The
+  #1148 bridge: PROVED NEGATIVE (cap-3 unreachable even with the
+  map); pricing stays closed. (4) Queue scan 0 new; false friends
+  disarmed; #1133/#1134 records gap + #1135-#1137 import-pending
+  surfaced. Addenda: the JB crosswalk + corollary; the rootfree
+  instrument calibration + complement lead; the program-frontier
+  citation. OUTSTANDING: SOL_TARGET_4 reprice wording (surfaced
+  decision); ask-maelcar (F4 7-normal discrepancy; max C_r
+  witness). ROUND-25 CANDIDATE (new, high): the complement-
+  coordinate re-pose of the mystery-7 instrument.

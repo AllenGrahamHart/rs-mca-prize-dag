@@ -59,3 +59,33 @@ range at the corresponding asymptotic scale.
 exponential when `d=Theta(n)`, and it is not normalized by the
 base-field average.  No quotient coalescing, smooth-puncture inheritance, or
 finite adjacent reserve fit is proved.
+
+## Round-25a instrument calibration (2026-08-09, coordinator-applied: the mystery-7 mechanism sharpened)
+
+Measured at BOTH exhibited M31 flats (upstream #1148's 16-branch
+fixture, parsed from its own shipped data; and our PROVED
+l1_m31_fixed_support_divisor_direction_cap_route_cut fixture): the
+flats of interest sit at this instrument's OWN known-counterexample
+end r -> j (pairwise root overlaps 444-446 of degree 479, r/j =
+0.931; and 4979/4980, r/j = 0.9998). The anticode ceiling at the
+upstream flat is 2^840.2 against a truth of 16 — vacuous by 2^836.
+**Mystery 7's wall is therefore NOT "the exponent grows with the
+flat dimension" — it is that the live flats consist of locators
+sharing almost all their roots.**
+
+**THE LEAD (CANDIDATE, a coordinate-change proposal, not a bound):**
+in SYMMETRIC-DIFFERENCE coordinates the same instrument becomes
+sharp — at the upstream flat the 16 branches are 35-subsets
+pairwise meeting in <= 2, giving C(514,3)/C(35,3) = 3437 vs truth
+16 (2^7.75 loose instead of 2^836 vacuous); at our fixture the
+complement count m - (t-1) = 67449 is the node's own count EXACTLY
+(2^0). Caveats: the upstream "exactly the sixteen" truth rests on
+their UNREPLAYED 10.69e9-normal C++ sieves (their synthesis +
+Schur Python verifiers replayed PASS by us); the complement
+structure is a property of the exhibited VERTICES — an arbitrary
+hull member need not have its roots inside U. Own-repo
+subtraction: complement coordinates appear once (a lineage note)
+and never against the packing instrument. Source:
+notes/pilots_20260809/pr_harvest/ (fixture1148 measured;
+mystery7_calibration SUPERSEDED banner on the invalid first
+pricing).
