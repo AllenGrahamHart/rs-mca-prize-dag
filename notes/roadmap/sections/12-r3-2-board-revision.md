@@ -877,16 +877,25 @@ profiles, 222 roots through degree 1420, and the complete independent replay.
 Transport pays `{(0,11),(1,11),(2,11),(2,14)}`. Every direct-role label is
 therefore closed.
 
+Outside pairing 0 is the first transported-role packet. The reciprocal-square
+compiler closes all 24 sign/branch rows with 136 target roots, 300 candidates,
+320 guarded routes, 192 recovered `(y,d)` candidates, and 384 nonzero final
+lanes. Independent apps `ap-wrPlrdL56UVupbu5JZCyTv` and
+`ap-l5CyllQGIPwwET0B1BfqS1` reconstruct 89 profiles, 402 roots through degree
+756, and the full direct replay, including 48 exact leading-boundary payments.
+Outside-role transport pays `{(3,0),(4,0)}`.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       75/105 closed
-active quotient frontier: 9 outside-role representatives / 30 labels
-DAG status delta:         +11 background PROVED; critical child unchanged
+cell-11 raw labels:       77/105 closed
+active quotient frontier: 8 outside-role representatives / 28 labels
+DAG status delta:         +12 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
-                          ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7
-next:                     outside-role reps at pairings `{0,1,2,3,4,5,7,8,11}`
+                          ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
+                          ap-ch4yReZgteGYMgTrfepTQQ
+next:                     outside-role pairings `1/2` reciprocal-linear packet
 ```
