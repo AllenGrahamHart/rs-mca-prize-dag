@@ -4209,3 +4209,33 @@ compute:                   Modal apps ap-i47DgQdgFkZ5oNy4cZn20L, ap-GqdwWLInGrxm
 live compute requests:     none
 next:                      apply the positive pairing-12 nested-quadratic compiler
 ```
+
+### Cell-9 positive pairing-12/13 nested-quadratic payment
+
+The pinned positive pairing-12 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 96 positive-role rows terminate excluded in three canonical
+shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 53 univariate profiles, 208 roots,
+and degrees through 10,674. Separate direct replay checks 1,728 source
+routes, 1,744 candidate roots, 192 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 192 final colored cuts are
+nonzero.
+
+Universal transport pays the four-label orbit represented by `(0,12)`.
+Cell `9` now has 10 representatives and 32 labels open.
+
+```text
+starting pin:              fc2b36183
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-12/13 class; 11 -> 10 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact positive nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-k30s4OoGHh4g8jlqgGO4r6, ap-u10ZvqiLA7QkHDLM7jHSic, ap-QrImwY4BdQaLStAKu8kozT, ap-kAAEDFZU4AJ8OPyE5XAVkk
+live compute requests:     none
+next:                      apply the positive pairing-14 common-f compiler
+```
