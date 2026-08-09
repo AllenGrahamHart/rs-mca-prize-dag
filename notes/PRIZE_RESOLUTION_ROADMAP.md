@@ -22629,6 +22629,38 @@ compute:                   ap-E5FgEIXjamRTpeiFPXIfR2, ap-iBXSdbXdlFAm2iusD8UWzS,
 live compute requests:     none
 next:                      attack positive pairing 12, then positive pairing 14
 ```
+
+### Role-orbit [5,8] positive pairing-12/13 payment
+
+The pinned positive pairing-12 nested-quadratic compiler was specialized to
+cell 5's boundary-free row-6 tower. All 16 source-sign and target-lane rows
+close. The primary packet contains 208 target roots, 304 candidates, 576
+guarded source points, and 1,056 Cartesian `(u,f)` rows. Of these, 960 fail
+the missing relation and the remaining 96 have a nonzero colored-pair cut.
+No witness, colored solution, leading-boundary remainder, or unresolved
+branch survives.
+
+Independent FLINT reconstruction covers 33 profiles, 124 deployed roots, and
+degrees through 7,702. The full direct audit replayed all 1,056 residual rows
+on Modal and passed in 59.6 seconds. Universal transport pays
+`{(0,12),(0,13),(1,12),(1,13)}`. Cell 5 has now paid 43 of 75 active labels
+in 14 of 24 orbits; 32 labels in 10 active orbits remain.
+
+```text
+starting pin:              9ffcf1e04
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 positive pairing-12/13 exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-ldOXXjHiD9UlMqtWtqi7lJ, ap-hgwWbr7N2o5eXkPvOaAk1U,
+                           ap-ykL1oFpfbx2Aed1wo1jdEr
+infrastructure:            one client heartbeat warning; all 16 workers and final packet completed
+live compute requests:     none
+next:                      attack positive pairing 14
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

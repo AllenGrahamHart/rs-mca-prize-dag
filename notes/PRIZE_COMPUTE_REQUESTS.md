@@ -12971,3 +12971,14 @@ unresolved branch. Independent app `ap-iBXSdbXdlFAm2iusD8UWzS` reconstructed
 routes. Exact transport pays four labels in two orbits, leaving 36 labels in
 11 active cell-5 orbits. No rerun is requested; the next bounded target is
 positive pairing `12`.
+
+**Cell-5 positive parallel-DE pairing-12/13 payment.** Pilot app
+`ap-f9Tzml0vNhluFeiOXKo0cl` closed its row. Full app
+`ap-ldOXXjHiD9UlMqtWtqi7lJ` closed all 16 rows with 304 candidates, 576
+guarded source points, 1,056 `(u,f)` rows, and 96 nonzero final colored cuts.
+Independent app `ap-hgwWbr7N2o5eXkPvOaAk1U` reconstructed 33 profiles, 124
+deployed roots, and degrees through 7,702. Dedicated verifier replay
+`ap-ykL1oFpfbx2Aed1wo1jdEr` checked all direct residuals and passed in 59.6
+seconds. Exact transport pays four labels in one orbit, leaving 32 labels in
+10 active cell-5 orbits. No rerun is requested; the next bounded target is
+positive pairing `14`.
