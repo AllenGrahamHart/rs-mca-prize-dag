@@ -3885,3 +3885,36 @@ any subagent. RAM DISCIPLINE binding in all four (file-at-a-time
 reads; no bulk loads; checkpointed background batches for >10-min
 runs). Draft-only; no status flips; REPORT.md persisted by the
 coordinator from the transcript.
+
+## ROUND 26 BANK 1/4 — b_sparsity_pose (2026-08-09, coordinator)
+
+**BANKED: the ratified (b) is a THEOREM at the prize cell — THEOREM
+B1: bad-prime density in W_ADM <= 2^-93.93 elementary / 2^-106.93
+with the exact Burnside orbit count (2^135.6034 over the 8192-element
+group), v_2-uniform to VSPARSE(128) = 113.93.** Four banked
+ingredients (fold reduction + the DLI lane's LN4 energy ceiling +
+zero-margin pigeonhole + PNT-in-AP at fixed modulus) — the
+union-bound route honestly subtracted as in-repo prior art (the e1
+retired proof; the pilot's script also restores catch-#61's missing
+script). THREE TEETH: (i) no valid asymptotic parameter (N'=256
+VACUOUS +42.7 bits and heuristically every prime bad — SURFACED:
+re-scope (b) to a numeric per-cell bound); (ii) (a)/(b) are
+COMPLEMENTARY (the deployed Proth stratum is vacuous by ~62 bits for
+the theorem — (b) = row selection, (a) = assigned rows); (iii)
+status_ruling has NO density slot — SURFACED: ruling amendment
+needed before (b) can move the node. Falsifiers: F1 exhaustive not
+falsified (toy bound non-vacuous, 43.6x over truth); F2 trend
+Z=-0.47/-1.34 not falsified (round-25's p=0.07 resolved as omnibus
+noise); F4 standing (Proth collision = 2^27 surprise). BONUS BOTH
+NAMED GAPS DISCHARGED: LAW-2 GENERAL-w CLOSED (P2 proved:
+Norm(w) = 1+2h[sigma(u)+(u^{-1}z)_{h/2}] mod 4h; sigma linear in
+(zeta-1)-adic digits, tables computed, 0/200 everywhere); box depth
+2^17 -> 2^40 NO structure (full realization exhibited to 2^23).
+Replays: burnside/prize/toy/law2/digits/d3-analyse/d4 ALL exact;
+pigeonhole + P1/P2 logic hand-verified. Pilot misses disclosed:
+registered margin wrong (0.0000 exact), first Burnside bound wrong
+(exact count instead), GUESS-G refuted, one benign out-of-dir write
+(byte-identical, git-clean verified). Addendum on
+integer_code_distance_cert; no status flips; census unchanged
+231 = 167/36/28. Files:
+notes/pilots_20260809/b_sparsity_pose/{REPORT.md,FABLE_AUDIT.md}.
