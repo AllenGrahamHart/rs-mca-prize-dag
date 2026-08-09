@@ -885,17 +885,26 @@ lanes. Independent apps `ap-wrPlrdL56UVupbu5JZCyTv` and
 756, and the full direct replay, including 48 exact leading-boundary payments.
 Outside-role transport pays `{(3,0),(4,0)}`.
 
+The shared reciprocal-linear packet closes outside pairings 1 and 2 in 36
+rows. Pairing 1 has 72 target roots, 162 candidates, 176 routes, 16 lifts,
+and 64 nonzero final lanes; pairing 2 has 144 target roots, 324 candidates,
+352 routes, 32 lifts, and 64 nonzero final lanes. Independent apps
+`ap-iZ4eiGhr8umjRNEEyLt4Sh` and `ap-VnmB02JnfxS2C1q6Dljay3` certify 125
+profiles, 610 roots through degree 712, both per-pairing ledgers, and all 72
+leading-boundary payments. Transport pays the four labels in the pairing-1
+and pairing-2 outside-role orbits.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       77/105 closed
-active quotient frontier: 8 outside-role representatives / 28 labels
-DAG status delta:         +12 background PROVED; critical child unchanged
+cell-11 raw labels:       81/105 closed
+active quotient frontier: 6 outside-role representatives / 24 labels
+DAG status delta:         +13 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
                           ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
-                          ap-ch4yReZgteGYMgTrfepTQQ
-next:                     outside-role pairings `1/2` reciprocal-linear packet
+                          ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
+next:                     outside-role pairings `3/4/5` independent packet
 ```
