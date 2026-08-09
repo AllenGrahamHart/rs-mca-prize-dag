@@ -12732,3 +12732,23 @@ roots, 288 common reciprocal-square roots, 576 complete `d/e/f` lifts, and
 Universal transport closes the two-label orbit represented by `(3,0)`,
 namely `{(3,0),(4,0)}`. Cell `9` retains eight representatives and 28
 labels. The next canonical DF/EF representative is `(3,1)`.
+
+**Cell-9 reciprocal-linear pairing-1 closure.** Six-chart pilot app
+`ap-AwURhUNqbyqQ698VCisgnI` completed all six rows with a linear remainder
+cut and no survivor. Full unordered app `ap-iWDncW0jIcza17OEMvVKJR` then
+completed all 72 rows covering four source signs, three exhaustive `q`
+branches, and six charts. Each row checks all four target colors. The
+4,687,224-byte primary ledger is split into three independently verified
+shards.
+
+Independent FLINT app `ap-5jQKOBaFVW1E1cGYU7NLlq` reconstructed 121
+distinct norm/inverse profiles by Frobenius gcd, finding 708 deployed roots
+through degree 768. Independent app `ap-gr8JPiu2G8EADtQqPWbRuy` checked
+1,296 source routes, 1,332 candidate roots, 144 common `z` roots, 144
+complete `z/d/e/f` lifts, and 576 nonzero final colored cuts. It also joined
+72 `b`-leading, 144 `c`-leading, and 144 regularized-base payments to their
+proved owners.
+
+Universal transport closes the two-label orbit represented by `(3,1)`,
+namely `{(3,1),(4,1)}`. Cell `9` retains seven representatives and 26
+labels. The next canonical DF/EF representative is `(3,2)`.
