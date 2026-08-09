@@ -4220,3 +4220,27 @@ undetermined scaling (the Modal-class n=32 maxscan). PENDING USER:
 the revised decomposition + (RH-AC) adoption; the mca_safe/HD1
 lead (twice-reinforced) is the cheapest high-value check on the
 board.**
+
+## BAND DECOMPOSITION EXECUTED (2026-08-09, user-ratified; the round-27 closing act)
+
+**rate_half_band_closure TARGET -> CONDITIONAL (gate all) over two
+NEW critical TARGET children.** Child 1
+rate_half_band_structural_surplus (K3 arm: the enumerated supply cap
+— workboard completion + labels-to-slopes conversion + independent
+review; kb ev-edge migration deferred to the conversion audit).
+Child 2 rate_half_band_crossing_location (RH-AC ADOPTED as pose of
+record: locate a_RH in [k+2^34, 3n/4], S_sparse binding, no
+random-word quantity admissible; F1/F2 + the F3 zero-power
+declaration as load-bearing falsifier text). Parent retains the
+consumers (conjunction point); conditional.md written; all history
+preserved. THE mca_safe/HD1 LEAD RESOLVED pre-surgery: a_safe is
+textually free at the mca_safe level, so HD1 (PROVED) discharges
+mca_safe's own inequality at q >= 2^169; the adjacency burden lives
+downstream (mca_grand needs ADJACENT certified indices via
+adjacency_closing) — the mca_safe premise-weakening onto HD1 is a
+NAMED FOLLOW-UP surgery. Census repinned with provenance:
+math 233 = 167/37/29, submission 248 = 179/39/30 (reds 28 -> 29,
+net +1 = the split, not growth). Verify chain green; board r6 note
+in section 12; site republished (orbit view changed: 233 nodes).
+Round-28 anchors standing: the apolar-origin theorem, the mca_safe
+premise-weakening, the Modal n=32 maxscan, wave-55.

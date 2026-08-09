@@ -1,6 +1,6 @@
 # rate_half_band_closure
 
-- **status:** TARGET
+- **status:** CONDITIONAL (decomposed 2026-08-09, user-directed — gate all on rate_half_band_structural_surplus + rate_half_band_crossing_location; see conditional.md)
 - **closure:** proof
 - **refs (legacy repo):** ['experimental/notes/roadmaps/flip_packets/rate_half_coverage_gap.md']
 
