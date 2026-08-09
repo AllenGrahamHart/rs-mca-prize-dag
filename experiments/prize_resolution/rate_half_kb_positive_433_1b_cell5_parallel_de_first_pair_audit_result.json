@@ -1,0 +1,315 @@
+{
+  "field": 2130706433,
+  "primary_complete": true,
+  "rows": [
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        -1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        -1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "finite_systems": 0,
+      "no_deployed_root": 0,
+      "sigma": [
+        1,
+        1
+      ],
+      "source_points": 2,
+      "status": "COMPLETE",
+      "systems": 6,
+      "unit_systems": 6,
+      "unresolved": [],
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell5-parallel-de-audit-v1",
+  "scope": "Independent two-variable lex and deployed-root audit for the cell-5 negative-DE first-pair residual systems.",
+  "source_kernel_sha256": "627a8df8bb8a2da4e11488658d1c2145b8c65ef7fbcef3f0f4f53f9d05ea752d",
+  "source_primary_sha256": "1abe858fb41a176baf59648a1be234b0a80ec749c5c9c5435ed7cfda6093fc41",
+  "source_replay_sha256": "010dd87bb6d253e0ad6a33aafe4b4e387538d68720f316918faafa418bc42e14"
+}

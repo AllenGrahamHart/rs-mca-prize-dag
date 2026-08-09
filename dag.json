@@ -30919,6 +30919,54 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE first-pair complete exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of four active orbit representatives and nine cell-5 leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in source-role cell 5, the six direct labels (xi,j) with xi in {0,2} and j in {0,1,2} are empty over the deployed field. The xi=0 source cut has no ordinary point. The eight xi=2 source points contribute 96 target systems across all target lanes and three first-pair matchings; exact Singular reduction and an independent SymPy lex elimination both obtain the unit ideal in all 96 systems. Universal label transport closes the four active orbits represented by (0,0),(0,1),(2,0),(2,1), comprising nine labels after duplicate-DE and outside-DE exchange. Together with the previously proved cell-5 packets, 40 leading-open labels in 13 active orbits remain.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_residual_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_residual_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_first_pair_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE first-pair source census",
+   "status": "PROVED",
+   "closure": "complete deployed source census for the two parallel-DE first-pair cuts",
+   "statement": "On the guarded product-rank-five positive 433-1b route in source-role cell 5, the necessary first-pair cuts for omitted DE and -DE records are respectively P(m,-m)=0 and P(-m,-m)=0, where m=B(-t^2)/A(-t^2). Exact four-basis norms on the boundary-free row-6 tower give 13 opposite-cut and 15 equal-negative-cut candidate roots per source-sign row. Direct replay exhausts every norm and inverse candidate: the opposite cut has no ordinary zero, while the equal-negative cut has exactly two ordinary zeros per source-sign row. Across all eight rows it classifies 112 finite points, 72 route-boundary branches, and 56 failed b-lifts, with no unresolved source branch. No target residual or outside-label exclusion is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_norm_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_norm_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_replay_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_parallel_de_four_basis_replay_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-5 parallel-DE pairing-3/6 exclusion",
    "status": "PROVED",
@@ -60945,6 +60993,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -60961,6 +61014,21 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
    "kind": "req"
   },
   {
@@ -61927,6 +61995,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",

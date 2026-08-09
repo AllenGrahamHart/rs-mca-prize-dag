@@ -4714,3 +4714,41 @@ compute:                   ap-WkEMrol1EtYM5mANO5hZ9x, ap-6cT9rObjVfDo12A6LtcYIw,
 live compute requests:     none
 next:                      select the next unrepresented active orbit from the exact router
 ```
+
+### Role-orbit [5,8] first-pair payment
+
+The two first-pair source cuts were reduced in the boundary-free row-6 tower.
+All eight norm rows are complete. Per source-sign row, the opposite cut has
+13 candidates and the equal-negative cut has 15. Direct replay exhausts 112
+finite points, 72 route-boundary branches, and 56 failed `b` lifts. The
+opposite cut has no ordinary zero; the equal-negative cut has exactly two per
+source-sign row, for eight source points total and no unresolved branch.
+
+The first residual draft intentionally failed closed because it used the
+positive omission equations on the surviving negative cut. The corrected
+`xi=2` specialization imposes `de=-m` and `(d-e)^2=S`. Across four source
+signs, four target lanes, two source points, and three matchings, Singular
+obtains 96/96 unit ideals. An independent two-variable lex elimination also
+obtains 96/96 unit ideals, with no finite survivor, unresolved system, or
+witness.
+
+Universal transport pays the four original orbits represented by `(0,0)`,
+`(0,1)`, `(2,0)`, and `(2,1)`, comprising nine labels. Together with the
+earlier pairing packets, cell 5 has paid 35 of 75 active labels in 11 of 24
+orbits; 40 labels in 13 active orbits remain.
+
+```text
+starting pin:              eb57770d1
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 first-pair source census and nine-label exclusion PROVED
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-JZOZS8657H8gFfCmYvdAOp, ap-PC55fQq91WonxG2lM84EM4,
+                           ap-kGgqzwqxGzFh1X8sE0rl8k, ap-VEb9bIRCgMd9aXMSMXuVba
+audit catch:               positive-role residual draft rejected before correction
+live compute requests:     none
+next:                      attack the pairing-11 representatives, then positive pairings 12 and 14
+```

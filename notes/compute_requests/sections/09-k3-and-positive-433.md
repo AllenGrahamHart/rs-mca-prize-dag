@@ -2215,3 +2215,18 @@ exit. Independent app `ap-XU03jH3lFC7PuisNoYlWZ7` reconstructed 33 profiles,
 144 field roots, and degrees through 7,690. Exact transport pays four active
 labels in one orbit, leaving 49 labels in 17 active cell-5 orbits. No rerun
 is requested; select the next representative from the exact router.
+
+**Cell-5 parallel-DE first-pair payment.** Four-basis norm app
+`ap-JZOZS8657H8gFfCmYvdAOp` completed all eight source rows. Direct replay
+app `ap-PC55fQq91WonxG2lM84EM4` exhausted 112 candidates: the opposite cut
+has no ordinary zero and the equal-negative cut has eight in total, with no
+unresolved branch. An initial residual pilot `ap-5kC67ZR4VQXfCi21tyFqvz`
+failed closed because it retained the positive-role source-count assertion;
+none of its output is used.
+
+The corrected negative-role app `ap-kGgqzwqxGzFh1X8sE0rl8k` imposed
+`de=-m` and `(d-e)^2=S` and obtained 96/96 Singular unit ideals. Independent
+lex app `ap-VEb9bIRCgMd9aXMSMXuVba` independently obtained 96/96 unit ideals,
+with no finite survivor, unresolved system, or witness. Exact transport pays
+nine labels in four orbits, leaving 40 labels in 13 active cell-5 orbits. No
+rerun is requested; the next bounded target is pairing `11`.
