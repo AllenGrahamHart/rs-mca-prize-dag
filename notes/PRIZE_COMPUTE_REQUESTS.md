@@ -12246,3 +12246,21 @@ directly replays every equation at the 16 lifts with the matching-8 sign
 placement. Exact transports close class `{8,13}` for both missing roles:
 four labels or one generic orbit. Cell `12` now has 12 representatives and
 40 labels open.
+
+**Reciprocal-role matching-11/14 closure.** The final reciprocal class uses
+the pinned quadratic-in-`q` resultant with `q` in both `BF/CF` pairs and
+`-q` in the final `EF` pair. Complete eight-row app
+`ap-nTsos4Qmbgwl8kZKnnxgf2` covers every source-sign and `sigma_c` row.
+
+The exact packet has 60 target-norm roots, 108 total norm/inverse candidates,
+136 guarded source points, 16 compatible `(z,q)` lifts, and 32 final
+`sigma_o` lanes. Every final pair is nonzero; eight free-`b` exits lie on the
+proved leading boundary, with no witness or unresolved branch.
+
+Independent root app `ap-3rc86N9rjOcdikbsSFiFbn` reconstructed all 45
+degree-at-most-4044 profiles and 220 roots using a separate SymPy/Galois-tools
+implementation. The fast local audit validates all 112 profile visits and
+directly replays every equation at the 16 lifts. Exact transports close
+class `{11,14}` for both missing roles: four labels or one generic orbit.
+All reciprocal-role labels are now paid; cell `12` retains 11 generic
+representatives and 36 labels, all in the parallel-`DE` family.
