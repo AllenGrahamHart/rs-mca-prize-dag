@@ -4058,3 +4058,21 @@ coordinator-only pushes.
 Scoped to the living K3 export PR only; exact-commit provenance
 required; coordinator same-day audit with fix-forward. Ruling of
 record: notes/codex_briefs/RULING_PUSH_ON_CLOSE_20260809.md.
+
+## ROUND 27 LAUNCHED (2026-08-09) — QUARANTINE MARKER — THE ANALYTIC-HALF ROUND
+
+Four Opus pilots on the band-closure analytic half (user-directed
+after the K3-lane review): pincer_formalization (re-audit the
+consumed safe-side machinery FIRST, then formalize the worst-word
+per-row FM crossing and state BAND-AC as a sharp conjecture),
+nonpoly_flank_census (the named residual hunt space: planted-hybrid
+non-polynomial received words outside the fiber reduction),
+staircase_extension (close the {2^39, 2^39+1} residual budgets;
+diagnose the 2^167 boundary; price the razor-scale analogue),
+cancellation_recon (can THEOREM Z-FLOOR's proved pointwise-floor
+mechanism transport to band counts — the first in-repo attack on
+the cancellation barrier). Pilots MUST NOT read ledger entries
+below this marker and MUST pass this clause to any subagent. RAM
+discipline binding; banked scripts run from SCRATCH COPIES only
+(the round-26 b_sparsity lesson); draft-only; no status flips;
+REPORT.md persisted by the coordinator.
