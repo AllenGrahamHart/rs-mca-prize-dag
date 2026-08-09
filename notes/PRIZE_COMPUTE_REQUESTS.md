@@ -12792,3 +12792,20 @@ owners.
 Universal transport closes `{(3,3),(3,6),(4,3),(4,6)}`. Cell `9` retains
 five representatives and 20 labels. The next canonical representative is
 `(3,4)`.
+
+**Cell-9 nested sign-free pairing-4 closure.** Six-chart pilot app
+`ap-0eXYM1bIiL0jnkjwPGHPnF` closed all six rows. Full app
+`ap-nGBMnIsNJk6A8qceTkMZ9Z` completed all 24 source-sign and chart rows,
+with 120 paid boundary records and no witness or unresolved branch. The
+5,680,636-byte primary ledger is one digest-pinned shard.
+
+Independent FLINT app `ap-cjHiNPnu6Uv2B7iwUUoVqO` reconstructed 69
+profiles, 320 deployed roots, and degrees through 6,282. Independent app
+`ap-LcC9fgS0b9nGPORwGOCCWD` checked 384 source routes, 460 candidate roots,
+and all 720 missing-quartic reciprocal lifts. Every antipodal/second-pair
+`q` intersection is empty. It also joins 24 `b`-leading, 48 `c`-leading,
+and 48 regularized-base payments to proved owners.
+
+Universal transport closes `{(3,4),(3,9),(4,4),(4,9)}`. Cell `9` retains
+four representatives and 16 labels. The next canonical representative is
+`(3,5)`.

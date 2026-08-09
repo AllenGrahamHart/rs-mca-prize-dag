@@ -4392,3 +4392,32 @@ compute:                   Modal apps ap-SJlsfxUgYEzzlemUqv8nKr, ap-1MlKMhkFELvg
 live compute requests:     none
 next:                      classify and attack the pairing-4 representative
 ```
+
+### Cell-9 nested sign-free pairing-4 payment
+
+The cell-4 nested sign-free elimination transports to all six exact cell-9
+charts. All 24 source-sign and chart rows terminate excluded in one
+canonical shard, with every exceptional row paid.
+
+Independent Frobenius-gcd custody covers 69 profiles, 320 roots, and
+degrees through 6,282. Separate direct replay reconstructs 384 source
+routes and all 720 missing-quartic reciprocal lifts. Every
+antipodal/second-pair `q` intersection is empty.
+
+Universal transport pays `{(3,4),(3,9),(4,4),(4,9)}`. Cell `9` now has
+four representatives and 16 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              953c9869e
+canonical prize pin:       77f643a377
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED nested sign-free pairing-4/9 class; 5 -> 4 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested sign-free six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-0eXYM1bIiL0jnkjwPGHPnF, ap-nGBMnIsNJk6A8qceTkMZ9Z, ap-cjHiNPnu6Uv2B7iwUUoVqO, ap-LcC9fgS0b9nGPORwGOCCWD
+live compute requests:     none
+next:                      classify and attack the pairing-5 representative
+```
