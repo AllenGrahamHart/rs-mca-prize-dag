@@ -1836,3 +1836,26 @@ Universal transport closes the two active orbits represented by `(0,11)`
 and `(2,11)`, namely four labels `(0,11),(1,11),(2,11),(2,14)`. Cell `9`
 retains 18 representatives and 62 leading-open labels. Total retained
 compute was bounded and well below `$1`.
+
+**Cell-9 pairing-3 nested-quadratic closure.** Six-chart pilot app
+`ap-QdiWgPfRBvZzLFN2vsH5JD` preserved the exact degree profile on every
+chart: two quadratic paired cuts, a quartic missing-sum eliminant, and a
+linear division-free pseudo-remainder. Full sharded app
+`ap-QFMvBGEERf5oeUIRTAUxCX` completed all 192 source-sign, chart,
+target-lane, and direct-role rows. Every row is excluded, with 960 paid
+boundary records and no witness, unresolved branch, or colored solution.
+
+Independent FLINT app `ap-Lm4DhyrU2udhJHjIkPXwII` reconstructed 69 distinct
+norm/inverse profiles by Frobenius gcd, finding 360 deployed roots through
+degree 4816. Independent six-chart replay app
+`ap-hCLbES5z0O7sQq39C6gpYt` checked 2,784 source routes, all 4,352 Cartesian
+`(u,v)` rows, 384 zero missing-sum pairs, 768 complete `f` lifts, and 768
+nonzero colored cuts. It also joined 192 `b`-leading, 384 `c`-leading, and
+384 regularized-base payments to their proved owners.
+
+The full app printed a client asynchronous-generator close warning only
+after writing all rows and the complete manifest. Independent verification
+passes all six shard digests, 192 records, and 31,504,272 bytes. Universal
+transport closes the two active pair-3/6 orbits: six labels represented by
+`(0,3)` and `(2,3)`. Cell `9` retains 16 representatives and 56 labels.
+Total retained compute was bounded and below `$1`.

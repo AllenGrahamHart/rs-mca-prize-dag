@@ -4094,3 +4094,29 @@ compute:                   Modal apps ap-llfwUbTao5pLC68j0Va8i6, ap-iE2D95WiYBtI
 live compute requests:     none
 next:                      compare common-f costs for parallel-DE pairings 3,4,5 against the DF/EF shared block
 ```
+
+### Cell-9 pairing-3/6 nested-quadratic payment
+
+The pinned pairing-3 compiler retains its quadratic/quadratic/quartic/linear
+degree profile on all six exact cell-9 charts. All 192 rows terminate
+excluded. Independent Frobenius-gcd custody covers 69 univariate profiles,
+and separate direct replay checks 2,784 source routes, 4,352 Cartesian
+`(u,v)` rows, 768 square-root lifts, every chart-leading payment, and every
+regularized-base payment. All 768 final colored cuts are nonzero.
+
+Universal transport pays the six-label orbits represented by `(0,3)` and
+`(2,3)`. Cell `9` now has 16 representatives and 56 labels open.
+
+```text
+starting pin:              e426d7cbe
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED parallel-DE pairing-3/6 classes; 18 -> 16 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested-quadratic six-chart packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-QdiWgPfRBvZzLFN2vsH5JD, ap-QFMvBGEERf5oeUIRTAUxCX, ap-Lm4DhyrU2udhJHjIkPXwII, ap-hCLbES5z0O7sQq39C6gpYt
+live compute requests:     none
+next:                      apply the sibling pairing-4 and pairing-5 compilers
+```
