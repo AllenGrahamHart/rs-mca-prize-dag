@@ -4076,3 +4076,16 @@ below this marker and MUST pass this clause to any subagent. RAM
 discipline binding; banked scripts run from SCRATCH COPIES only
 (the round-26 b_sparsity lesson); draft-only; no status flips;
 REPORT.md persisted by the coordinator.
+
+## BAND DECOMPOSITION DIRECTED (2026-08-09, user): execute at the round-27 bank
+
+The user directed the structural decomposition of
+rate_half_band_closure into the K3/structural-surplus child + the
+analytic/anti-concentration child, with the shared sigma_FM model as
+a named supplier and the parent retained CONDITIONAL gate:all for
+the consumers. Design of record:
+notes/band_decomposition_plan_20260809.md. Execution GATED on the
+round-27 bank (the analytic child's statement = the audited BAND-AC
+pose; pincer_formalization D0 can change the model node; D0=BROKEN
+re-surfaces before surgery). Census/board impact executed once,
+with provenance, at bank time.
