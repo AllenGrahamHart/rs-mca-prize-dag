@@ -1980,3 +1980,25 @@ target equations.
 Universal transport closes the positive pairing-14 orbit: two labels
 represented by `(0,14)`. The parallel-DE family is exhausted. Cell `9`
 retains nine representatives and 30 labels, all in the DF/EF family.
+
+**Cell-9 reciprocal pairing-0 closure.** Six-chart pilot app
+`ap-zkNt2Uw3wDeNhqgSrRfav7` completed all six rows in the exact
+reciprocal-square profile with no survivor. Full unordered app
+`ap-P1jZCZhqWA392qtZSo8z4s` then completed all 144 rows covering four
+source signs, three exhaustive `q` branches, two `sigma_o` values, and six
+charts. Each row checks both `sigma_c` colors. The 7,360,458-byte primary
+ledger is split into five independently verified shards.
+
+Independent FLINT app `ap-pwcV2I5u1g4UNdHJsoHzAc` reconstructed 113
+distinct norm/inverse profiles by Frobenius gcd, finding 644 deployed roots
+through degree 764. The first direct-audit app
+`ap-2uD7sGWhewfpMupfwOzOqM` passed the arithmetic and failed only at final
+aggregation on an obsolete count-field name. Corrected app
+`ap-plWkGHPDxbdGycOjRvGrFu` checked 1,968 source routes, 2,424 candidate
+roots, 288 common reciprocal-square roots, 576 complete `d/e/f` lifts, and
+1,152 nonzero final colored cuts. It also joined 144 `b`-leading, 288
+`c`-leading, and 288 regularized-base payments to their proved owners.
+
+Universal transport closes the two-label orbit represented by `(3,0)`,
+namely `{(3,0),(4,0)}`. Cell `9` retains eight representatives and 28
+labels. The next canonical DF/EF representative is `(3,1)`.

@@ -4271,3 +4271,33 @@ compute:                   Modal apps ap-Wnf69ZTPtr4jWvfdm2Dr1G, ap-HCgP5AHlycUB
 live compute requests:     none
 next:                      apply the reciprocal pairing-0 compiler to the DF/EF representative
 ```
+
+### Cell-9 reciprocal pairing-0 payment
+
+The pinned reciprocal-square compiler retains its three exhaustive
+`Pair(q,q)` branches on all six exact cell-9 charts. All 144 branch rows
+terminate excluded in five canonical shards, without a recovery run.
+
+Independent Frobenius-gcd custody covers 113 univariate profiles, 644
+roots, and degrees through 764. Separate direct replay checks 1,968 source
+routes, 2,424 candidate roots, 288 common reciprocal-square roots, 576
+complete `d/e/f` lifts, every chart-leading payment, and every
+regularized-base payment. All 1,152 final colored cuts are nonzero.
+
+Universal transport pays the two-label orbit `{(3,0),(4,0)}`. Cell `9`
+now has eight representatives and 28 labels open. Upstream living K3 export
+PR #1152 explicitly accepts incremental cell-9 packets.
+
+```text
+starting pin:              035a0adfc
+canonical prize pin:       246674dc2
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal pairing-0 class; 9 -> 8 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-zkNt2Uw3wDeNhqgSrRfav7, ap-P1jZCZhqWA392qtZSo8z4s, ap-pwcV2I5u1g4UNdHJsoHzAc, ap-2uD7sGWhewfpMupfwOzOqM (aggregate diagnostic), ap-plWkGHPDxbdGycOjRvGrFu
+live compute requests:     none
+next:                      classify and attack the reciprocal pairing-1 representative
+```
