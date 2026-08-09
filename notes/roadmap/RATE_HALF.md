@@ -8,13 +8,13 @@ This lane attacks the deployed KoalaBear rate-half band required by
 The positive `433-1b -> O0a` role-cell ledger has closed:
 
 ```text
-[0], [1,2], [3,6], [4,7], [14]
+[0], [1,2], [3,6], [4,7], [12,13], [14]
 ```
 
 and retains:
 
 ```text
-[5,8], [9,10], [11], [12,13].
+[5,8], [9,10], [11].
 ```
 
 Representative cell 4 is now complete. Its principal product-rank-five
@@ -172,9 +172,9 @@ cell-4 four-basis tower
                      |
        exact cell-12 -> cell-13 transport         [PROVED implication]
                      |
-       close cell 13                               [NEXT]
+       close cell 13                               [PROVED]
                      |
-       audit role orbits [5,8], [9,10], [11]   [OPEN]
+       audit role orbits [5,8], [9,10], [11]   [NEXT]
 ```
 
 This hierarchy is intentional: each child has a reusable exact statement,
@@ -190,7 +190,8 @@ parallel-`DE` pairing-3/6, pairing-4/7/9/10, and pairing-5/8/12/13 classes
 are paid too. The positive-`DE` pairing-9/10 and pairing-12/13 classes are
 paid as well. The final pairing-11/14 common-`f` packets are paid, the generic
 ledger is empty, and cell 12 is closed. No further cell-12 census is needed.
-Compose the paid cell-12 theorem with the exact cell-13 transport before
-launching any new role-cell computation. Modal jobs must remain
+The paid cell-12 theorem, exact cell-13 transport, and global rank-drop
+theorem now close cell 13 as well. Move to the three remaining role orbits
+before launching any new matching-level census. Modal jobs must remain
 route-deciding and within the active protocol budget; larger campaigns go to
 the deferred compute ledger.
