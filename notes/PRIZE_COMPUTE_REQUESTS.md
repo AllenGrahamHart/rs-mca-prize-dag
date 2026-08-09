@@ -12982,3 +12982,15 @@ deployed roots, and degrees through 7,702. Dedicated verifier replay
 seconds. Exact transport pays four labels in one orbit, leaving 32 labels in
 10 active cell-5 orbits. No rerun is requested; the next bounded target is
 positive pairing `14`.
+
+**Cell-5 positive parallel-DE pairing-14 payment.** Pilot app
+`ap-oDZSc3atiWcEI9fkLqu6LJ` closed its row. Full app
+`ap-Cft98d6QyKBakLyfWHA7Tq` closed all 16 rows with 96 target roots, 208
+candidates, 240 guarded source points, 192 common-`f` lifts, and 192 nonzero
+final colored cuts. Independent app `ap-NsAdkMWefu7DSfNmT6d2A1`
+reconstructed 37 profiles, 136 deployed roots, and degrees through 984.
+Dedicated direct replay `ap-PmAcydeJN9rw8vxgCXxipc` checked all 240 source
+routes and all terminal classifications. Exact transport pays two labels in
+one orbit, leaving 30 labels in 9 active cell-5 orbits. No rerun is requested;
+the next bounded targets are the `xi=3` representatives at pairings
+`0,1,2,3,4,5,7,8,11`.

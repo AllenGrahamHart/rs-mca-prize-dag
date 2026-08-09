@@ -4816,3 +4816,35 @@ infrastructure:            one client heartbeat warning; all 16 workers and fina
 live compute requests:     none
 next:                      attack positive pairing 14
 ```
+
+### Role-orbit [5,8] positive pairing-14 payment
+
+The pinned cell-4 positive pairing-14 common-`f` compiler was specialized to
+cell 5's row-6 tower. All 16 source-sign and target-lane rows close. The
+primary packet contains 96 target roots, 208 root-or-exception candidates,
+and 240 guarded source points. Thirty-two candidates are missing-impossible,
+32 hit the zero-product boundary, and the remaining 176 checked points
+produce 192 common-`f` lifts. Every lift has a nonzero colored-pair cut; no
+witness, leading-boundary remainder, or unresolved branch survives.
+
+Independent FLINT reconstruction covers 37 profiles, 136 deployed roots,
+and degrees through 984. A separate direct replay reconstructs all candidate
+unions, source relations, boundary classifications, common-`f` lifts, and
+colored cuts. Universal transport pays `{(0,14),(1,14)}`. Cell 5 has now
+paid 45 of 75 active labels in 15 of 24 orbits; the 30 labels in 9 remaining
+orbits are all represented at `xi=3` by pairings `0,1,2,3,4,5,7,8,11`.
+
+```text
+starting pin:              fbbc7686c
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 positive pairing-14 common-f exclusion PROVED
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-Cft98d6QyKBakLyfWHA7Tq, ap-NsAdkMWefu7DSfNmT6d2A1,
+                           ap-PmAcydeJN9rw8vxgCXxipc
+live compute requests:     none
+next:                      attack the nine remaining xi=3 representatives
+```
