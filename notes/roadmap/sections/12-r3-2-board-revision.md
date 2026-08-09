@@ -894,11 +894,25 @@ profiles, 610 roots through degree 712, both per-pairing ledgers, and all 72
 leading-boundary payments. Transport pays the four labels in the pairing-1
 and pairing-2 outside-role orbits.
 
+The next shared outside-role packet closes pairings 3, 4, and 5. Pairing 3
+has 8 rows, 48 target roots, 84 candidates, and 32 routes; every finite
+candidate terminates before the `z` stage. Pairing 4 has 4 rows, 28 target
+roots, 70 candidates, and 120 routes; its 224 nested intersections retain 8
+`q` lifts whose 32 colored lanes are all nonzero. Pairing 5 has 8 rows, 56
+target roots, 140 candidates, and 240 routes; its 448 intersections retain
+16 `q` lifts whose 32 colored lanes are all nonzero. The aggregate terminal
+ledger also audits 40 missing-impossible exits, 40 product boundaries, 100
+`r`-boundaries, 40 `t`-boundaries, 40 cell-11 leading boundaries, and 122
+no-`b` exits. Independent apps `ap-o7XtMQ7CuyhB7S6MVpI3GJ` and
+`ap-6qp5CJr9byI7fhgDqKLFVc` reconstruct 73 profiles, 370 roots through
+degree 6510, and the complete direct replay. Outside-role transport pays the
+twelve labels in the pairing-3/6, pairing-4/9, and pairing-5/12 orbits.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       81/105 closed
-active quotient frontier: 6 outside-role representatives / 24 labels
-DAG status delta:         +13 background PROVED; critical child unchanged
+cell-11 raw labels:       93/105 closed
+active quotient frontier: 3 outside-role representatives / 12 labels
+DAG status delta:         +16 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
@@ -906,5 +920,5 @@ Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
                           ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
                           ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
-next:                     outside-role pairings `3/4/5` independent packet
+next:                     outside-role pairings `7/8/11`
 ```
