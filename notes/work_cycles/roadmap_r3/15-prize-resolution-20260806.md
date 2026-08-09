@@ -4147,3 +4147,35 @@ compute:                   Modal apps ap-REKIXZuusEbysA6NQEtBcY, ap-WR056Dh1k0J8
 live compute requests:     none
 next:                      apply the sibling pairing-5 compiler with unordered case-keyed streaming
 ```
+
+### Cell-9 pairing-5/8/12/13 nested-quadratic payment
+
+The pinned pairing-5 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. The unordered full app flushed 189 complete rows before its client
+terminated. Its incomplete manifest could not certify closure. A bounded
+three-row recovery and checked Cartesian-key merger then produced the exact
+192-row cover in six canonical shards. Every row terminates excluded.
+
+Independent Frobenius-gcd custody covers 61 univariate profiles, 264 roots,
+and degrees through 10,864. Separate direct replay checks 3,072 source
+routes, 3,200 candidate roots, 576 zero-relation lifts, every chart-leading
+payment, and every regularized-base payment. All 576 final colored cuts are
+nonzero.
+
+Universal transport pays the eight-label orbits represented by `(0,5)` and
+`(2,5)`. Cell `9` now has 12 representatives and 40 labels open.
+
+```text
+starting pin:              db5c6601a
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED parallel-DE pairing-5/8/12/13 classes; 14 -> 12 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested-quadratic six-chart packet extending PR #1143, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-OzdO0AbBag4erxGQrr0ziK, ap-W3vjE85wYdbr0lQoKcX3ND, ap-RezhzTvQc1VUSi1I3c8ech, ap-dzdyzbeZvSleCpUZoFpk4N, ap-gRTNcbJCYEsRcXXka5Vu3T
+live compute requests:     none
+next:                      apply the positive pairing-9 nested-quadratic compiler
+```

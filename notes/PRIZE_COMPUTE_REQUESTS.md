@@ -12617,3 +12617,28 @@ represented by `(0,4)` and `(2,4)`. Cell `9` retains 14 representatives and
 48 labels. The next requested computation is the sibling pairing-5
 compiler; its completion stream should be unordered and case-keyed so a
 preempted row cannot block shard progress.
+
+**Cell-9 pairing-5 nested-quadratic closure.** Six-chart pilot app
+`ap-OzdO0AbBag4erxGQrr0ziK` completed all six pilot rows without a
+survivor. Full unordered app `ap-W3vjE85wYdbr0lQoKcX3ND` flushed 189 of
+192 complete rows before its Modal client terminated. The fail-closed
+manifest remained incomplete. Exact recovery app
+`ap-RezhzTvQc1VUSi1I3c8ech` recomputed only missing Cartesian indices
+`175,176,177`; all three were complete and excluded. A checked key-join
+merger rejected duplicates and nonterminal rows, required the exact
+192-case cover, and rebuilt the primary ledger in canonical order. Its six
+verified shards contain 68,182,568 bytes. Every row is excluded, with 960
+paid boundary records and no witness, unresolved branch, or colored
+solution.
+
+Independent FLINT app `ap-dzdyzbeZvSleCpUZoFpk4N` reconstructed 61
+distinct norm/inverse profiles by Frobenius gcd, finding 264 deployed roots
+through degree 10,864. Independent six-chart replay app
+`ap-gRTNcbJCYEsRcXXka5Vu3T` checked 3,072 source routes, 3,200 candidate
+roots, 576 zero-relation lifts, and 576 nonzero colored cuts. It also joined
+192 `b`-leading, 384 `c`-leading, and 384 regularized-base payments to their
+proved owners; no colored solution or unowned boundary remains.
+
+Universal transport closes the two pairing-5/8/12/13 orbits: eight labels
+represented by `(0,5)` and `(2,5)`. Cell `9` retains 12 representatives and
+40 labels. The next cheapest parallel-DE attack is positive pairing `9`.
