@@ -1615,3 +1615,29 @@ all paired quadratics, missing relations, recovered variables, colored cuts,
 and boundaries. Exact generic transport closes the eight labels in the two
 orbits represented by `(0,5)` and `(2,5)`. Cell `12` now has five
 representatives and 14 labels open, all in the parallel-`DE` family.
+
+**Positive-DE pairing-9/10 closure.** The retained positive omissions use
+the degree-eight construction after exchanging the signed inputs:
+
+```text
+P_u(u)=Pair(-de,u),       P_f(f)=Pair(de,b*f).
+```
+
+Pilot app `ap-mMkjSAVuSKELxWNbD7SNwD` completed one row in 256 seconds.
+Full app `ap-JGXYKD7wS4BWmagxL5VZEK` completed all 16 source-sign and
+target-lane rows; the slowest retained row reached the norm in 391 seconds.
+Transient client heartbeat warnings did not interrupt the complete result.
+
+The exact packet has 224 target-norm roots, 336 total norm/inverse
+candidates, 608 guarded source points, and 1,056 Cartesian `(u,f)` rows.
+Of these, 992 fail the missing relation and all 64 survivors have a nonzero
+colored-pair cut. There is no zero-`f` survivor, colored solution, witness,
+or unresolved branch; 16 free-`b` exits lie on the proved leading boundary.
+
+External reconstruction app `ap-9r303is5hkkfzCAeZVsvMJ` covers all 29
+degree-at-most-9,294 profiles and 156 roots with the compiled Frobenius/gcd
+method. The local audit evaluates every reported root and directly checks
+all paired quadratics, missing relations, recovered variables, and colored
+cuts. Exact positive-copy and matching transport closes
+`{(0,9),(0,10),(1,9),(1,10)}`. Cell `12` now has four representatives
+and ten labels open, all in the parallel-`DE` family.
