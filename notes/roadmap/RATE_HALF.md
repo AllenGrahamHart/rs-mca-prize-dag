@@ -69,13 +69,14 @@ represented by `(0,5)` and `(2,5)`: pairings `{5,8}` for
 The positive-`DE` pairing-9 sibling closes the orbit
 `{(0,9),(0,10),(1,9),(1,10)}`: four more labels.
 The positive-`DE` pairing-12 sibling closes
-`{(0,12),(0,13),(1,12),(1,13)}`: four more labels. The live generic ledger
-is therefore three representatives covering six labels.
-An exact `B/C`
-duplicate-role transport is also ready: once cell 12 is empty, all
-1,680 signed principal cell-13 systems follow bijectively, while the global
-rank-drop theorem pays the complementary branch. These are PROVED suppliers
-for the `[12,13]` orbit, not a cell closure.
+`{(0,12),(0,13),(1,12),(1,13)}`: four more labels. The common-`f`
+pairing-11 sibling closes `{(0,11),(1,11),(2,11),(2,14)}`, and its
+positive pairing-14 sibling closes `{(0,14),(1,14)}`. The exact disjoint
+assembly of 17 proved suppliers now pays all 105 generic labels, so cell 12
+is PROVED empty. An exact `B/C` duplicate-role transport is ready: all 1,680
+signed principal cell-13 systems follow bijectively, while the global
+rank-drop theorem pays the complementary branch. Compose these proved
+suppliers next to close cell 13.
 
 ## Node hierarchy
 
@@ -161,11 +162,17 @@ cell-4 four-basis tower
                      |
        positive-DE pairings 12/13: 1 orbit / 4 labels [PROVED]
                      |
-       attack 3 generic representatives          [NEXT]
+       parallel-DE pairings 11/14: 2 orbits / 4 labels [PROVED]
                      |
-       close cell 12                              [OPEN]
+       positive-DE pairing 14: 1 orbit / 2 labels [PROVED]
+                     |
+       exact 105-label assembly                    [PROVED]
+                     |
+       close cell 12                               [PROVED]
                      |
        exact cell-12 -> cell-13 transport         [PROVED implication]
+                     |
+       close cell 13                               [NEXT]
                      |
        audit role orbits [5,8], [9,10], [11]   [OPEN]
 ```
@@ -181,12 +188,9 @@ first-pair block, and reciprocal matching classes through `{7,10}` are paid.
 The `{8,13}` and `{11,14}` reciprocal matching classes are paid as well. The
 parallel-`DE` pairing-3/6, pairing-4/7/9/10, and pairing-5/8/12/13 classes
 are paid too. The positive-`DE` pairing-9/10 and pairing-12/13 classes are
-paid as well. The generic ledger has three representatives, all in the
-parallel-`DE` family.
-Reuse the two paid source
-norms, the
-three-branch reciprocal-square and reciprocal-linear compilers, and matching
-transports before constructing a new norm. Every residual compiler must
-include both the missing product and squared-sum equations. Modal jobs must
-be route-deciding and remain within the active protocol budget. Larger
-campaigns go to the deferred compute ledger.
+paid as well. The final pairing-11/14 common-`f` packets are paid, the generic
+ledger is empty, and cell 12 is closed. No further cell-12 census is needed.
+Compose the paid cell-12 theorem with the exact cell-13 transport before
+launching any new role-cell computation. Modal jobs must remain
+route-deciding and within the active protocol budget; larger campaigns go to
+the deferred compute ledger.
