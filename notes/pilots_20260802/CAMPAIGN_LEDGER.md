@@ -3727,3 +3727,17 @@ marker and MUST pass this quarantine clause to any subagent.
   decision); ask-maelcar (F4 7-normal discrepancy; max C_r
   witness). ROUND-25 CANDIDATE (new, high): the complement-
   coordinate re-pose of the mystery-7 instrument.
+
+## ROUND 25 LAUNCHED (2026-08-09) — QUARANTINE MARKER
+
+Four pilots: m7_complement_repose (the symmetric-difference
+coordinate re-pose of the mystery-7 instrument + the vertex-vs-hull
+adversarial test + the FPC5 application + the CJ2/CJ3 chart audit),
+large_v2_hunt (narrowing decision support: targeted witness hunt on
+v_2(p-1) >= 41 admissible rows + the toy v_2 profile ground truth),
+c2pp_falsifier_redesign (a REACHABLE C2''-r3 falsifier + the GB-5
+pre-saturation escalation), z_n32_band (an algorithm for the N=32
+sigma~0 Z-CEILING band under the 1G wall + the constant's
+N-dependence). Pilots MUST NOT read ledger entries below this
+marker and MUST pass this clause to any subagent. RAM DISCIPLINE
+binding in all four (file-at-a-time reads; no bulk loads).
