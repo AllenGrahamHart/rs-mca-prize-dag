@@ -12426,3 +12426,10 @@ Frobenius/gcd method. The shared local audit evaluates every reported root,
 replays all tower and missing equations, recomputes every quadratic and
 quartic root set, and checks every colored cut. An exact 17-supplier
 `30+9+36+30=105` label assembly now closes cell 12 completely.
+
+**Cell-13 composition.** No new compute is required. The proved `B/C`
+duplicate-role transport reruns its exact census of 20 common rows, four
+target lanes, 420 lane/label maps, and 1,680 principal systems. Composing it
+with complete cell-12 exclusion and the global rank-drop theorem closes role
+orbit `[12,13]`. The remaining positive `433-1b` role orbits are `[5,8]`,
+`[9,10]`, and `[11]`.

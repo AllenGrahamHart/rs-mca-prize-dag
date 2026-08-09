@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/verify.py",
-      "seconds": 0.0219,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion/verify.py",
+      "seconds": 0.314668,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 assembly: suppliers=17 labels=105 boundary=PROVED\n"
+      "stdout_tail": "PASS cells 12-13 complete: principal=1680 rankdrop=excluded\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
