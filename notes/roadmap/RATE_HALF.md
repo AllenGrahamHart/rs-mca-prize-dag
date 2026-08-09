@@ -67,8 +67,10 @@ The pairing-4 sibling closes the two orbits represented by `(0,4)` and
 represented by `(0,5)` and `(2,5)`: pairings `{5,8}` for
 `xi in {0,1}` and pairings `{5,8,12,13}` for `xi=2`, eight more labels.
 The positive-`DE` pairing-9 sibling closes the orbit
-`{(0,9),(0,10),(1,9),(1,10)}`: four more labels. The live generic ledger
-is therefore four representatives covering ten labels.
+`{(0,9),(0,10),(1,9),(1,10)}`: four more labels.
+The positive-`DE` pairing-12 sibling closes
+`{(0,12),(0,13),(1,12),(1,13)}`: four more labels. The live generic ledger
+is therefore three representatives covering six labels.
 An exact `B/C`
 duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
@@ -157,7 +159,9 @@ cell-4 four-basis tower
                      |
        positive-DE pairings 9/10: 1 orbit / 4 labels [PROVED]
                      |
-       attack 4 generic representatives          [NEXT]
+       positive-DE pairings 12/13: 1 orbit / 4 labels [PROVED]
+                     |
+       attack 3 generic representatives          [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -176,8 +180,8 @@ rational boundary, both endpoint-role families, the parallel-`DE`
 first-pair block, and reciprocal matching classes through `{7,10}` are paid.
 The `{8,13}` and `{11,14}` reciprocal matching classes are paid as well. The
 parallel-`DE` pairing-3/6, pairing-4/7/9/10, and pairing-5/8/12/13 classes
-are paid too. The positive-`DE` pairing-9/10 class is paid as well. The
-generic ledger has four representatives, all in the
+are paid too. The positive-`DE` pairing-9/10 and pairing-12/13 classes are
+paid as well. The generic ledger has three representatives, all in the
 parallel-`DE` family.
 Reuse the two paid source
 norms, the
