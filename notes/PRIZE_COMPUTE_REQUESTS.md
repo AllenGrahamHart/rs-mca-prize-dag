@@ -12892,3 +12892,13 @@ executable composition checks that the 17 proved owner packets pay exactly
 the router's 24 active orbits and 75 non-endpoint labels. Combined with the
 30 endpoint labels, cell `9` is closed at 105/105. No further cell-9 compute
 is requested; the exact packet should be exported through upstream PR #1152.
+
+**Cell-3 upstream re-pin audit.** The advertised cell-3 `xi4` remainder was
+already mathematically closed: the signed outside-role involution pays all
+240 `xi4` systems, and the aggregate cell-3 theorem pays the common rank-drop
+branch plus all 1,680 principal systems. Modal app
+`ap-jYkVRdvSHQuofSrzIJzAG1` replayed the checked manifest prefix: 28 primary
+verifiers and 28 independent audits all passed, with no timeout, hash
+mismatch, or remote error. The canonical replay JSON has sha256
+`2051784b7bff494045c7584c4bd491850725646f6a85b4619c005b1578774989`.
+No new cell-3 computation is requested; package the public pin for PR #1152.

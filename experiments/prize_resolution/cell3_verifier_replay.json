@@ -1,0 +1,520 @@
+{
+  "complete": true,
+  "counts": {
+    "FAIL": 0,
+    "HASH_MISMATCH": 0,
+    "PASS": 56,
+    "REMOTE_ERROR": 0,
+    "TIMEOUT": 0
+  },
+  "manifest_sha256": "b91844f39ba9c6b2f10b1c8d1427d58522aaf320a6e6d443c3b20dd34c339536",
+  "match": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3",
+  "results": [
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify.py",
+      "seconds": 0.08133,
+      "sha256": "4a405e7d9a5a865bfab7cfea1d6cfb25ac8b21a1b6a042abce35c4c61071c587",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 charts=24 curve_dim=1 beta_boundary=unit kernels=4 rows=40\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel/verify_audit.py",
+      "seconds": 0.052046,
+      "sha256": "6839c50b7ab214e409e0e79bc173965dc9b9096dd3da5c4c2dcc178d29db48f1",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok charts=24 signs=4 beta_boundary=unit kernels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/verify.py",
+      "seconds": 0.069148,
+      "sha256": "b2083fd9336497c67b8394cb79c7a6a6d24e7fc3a15d84203dcb092c2dedf896",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 rank_drop=empty principal_cases=1680 parallel_de=720 xi3=240 xi4=240 xi5=240 xi6=240 complete=yes\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion/verify_audit.py",
+      "seconds": 0.039217,
+      "sha256": "de98595cb8b849d7fdccf95bbad186618d361a9a89cef2e588e9ac9375351a34",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok cell=3 rank_strata=2 principal_partition=1680\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify.py",
+      "seconds": 0.074261,
+      "sha256": "ff6406def3f0f5b0af18faa37849261ed49681818ebe08ddf12d8bdb633b348e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=0,1,2 pairings=0,1,2 raw_cases=144 computed=64 transported=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion/verify_audit.py",
+      "seconds": 0.048928,
+      "sha256": "6af14ab137e065ce36d69dd92c2174ce7b598e2fd14397be2340336baa60104e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok DE_copies=3 pairings=3 raw_cases=144 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing10_complete_exclusion/verify.py",
+      "seconds": 0.093759,
+      "sha256": "dc9564674f036df3a7e4cfd74720772678ff65553b1b4a68e2ca6242a6840184",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=10 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=128 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing10_complete_exclusion/verify_audit.py",
+      "seconds": 0.074585,
+      "sha256": "babc16274e508c38ab35cc5fb7f158376975ef0877f7ec851fb7eb5140824cd7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=10 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing11_complete_exclusion/verify.py",
+      "seconds": 0.09192,
+      "sha256": "1cba23ad8b691fd2a2f3f16863590db84d1be1c40a4e639c4eff6bfdc822a9c9",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=11 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing11_complete_exclusion/verify_audit.py",
+      "seconds": 0.069103,
+      "sha256": "3d5798e4fe1d84934c5959ff891b315322212082687a90215db87606fc3b8f87",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=11 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing12_complete_exclusion/verify.py",
+      "seconds": 0.089708,
+      "sha256": "ce7e272cd1934d7824ef4e8d45caee4efa437c4e69c7b1d519795241ed9ff672",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=12 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing12_complete_exclusion/verify_audit.py",
+      "seconds": 0.068305,
+      "sha256": "734bd5c685991606a6d6e35cceeba3be013f93c3510b1f2594b1e05e078d7c1e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=12 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing13_complete_exclusion/verify.py",
+      "seconds": 0.098657,
+      "sha256": "eef6ecb077c9eb15ceee43b5f53ce8fb5ca701e8086f64ce325476789ca9a932",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=13 DE_copies=3 raw_cases=48 source_rows=32 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing13_complete_exclusion/verify_audit.py",
+      "seconds": 0.076781,
+      "sha256": "69d3e538b1a2c7b3624e293b433389f1a2a54f191b34cf33909162b85b192f0e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=13 source_rows=32 lanes_per_row=1 boundary_f_zero=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing14_complete_exclusion/verify.py",
+      "seconds": 0.092514,
+      "sha256": "6c6309251cf48433494bf7217d42b075d1bbd1b8b3a52f54b9e54f27f1987497",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=14 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing14_complete_exclusion/verify_audit.py",
+      "seconds": 0.068431,
+      "sha256": "38ae50b5eabce7cc308e3b74530f0720ff413018ee10199d7bcd792e863a3378",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=14 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify.py",
+      "seconds": 0.088124,
+      "sha256": "37e44a5cbb019a457abcda562fb5b5437e0f012029bd2a7371af094c58736b00",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=3 DE_copies=3 raw_cases=48 computed=32 transported=16 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion/verify_audit.py",
+      "seconds": 0.077829,
+      "sha256": "d7695adbe23b77027475ec8d7e7ed2063328f88b30d8759ed1bfb993f42594f4",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=3 exceptional_roots=lifted boundary_f_zero=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing4_complete_exclusion/verify.py",
+      "seconds": 0.079522,
+      "sha256": "29c30017791f0894d84468f311817a7c579a322f8d5d88b692a3ba1e892e4046",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=4 DE_copies=3 raw_cases=48 source_rows=8 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing4_complete_exclusion/verify_audit.py",
+      "seconds": 0.066182,
+      "sha256": "4ad0900f8085bf4af79c8ad88efd6ef0aa19764a976f078228640a3ee961468c",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=4 source_rows=8 lanes=4 boundary_f_zero=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing5_complete_exclusion/verify.py",
+      "seconds": 0.123879,
+      "sha256": "67d8d2262782e7c788654c858cb244bc3ec7f241329b1df9fe1e5f0bf4aeb375",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=5 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=96 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing5_complete_exclusion/verify_audit.py",
+      "seconds": 0.069388,
+      "sha256": "a14d782715647d5039911db0587a53f4ff8b37822228e5f7ecc1ddc190ff9758",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=5 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing6_complete_exclusion/verify.py",
+      "seconds": 0.093844,
+      "sha256": "d9b0a83a891298c542a92e707bb008ff181b1a576423ef73df249958f92f6f52",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=6 DE_copies=3 raw_cases=48 computed_rows=32 uv_candidates=48 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing6_complete_exclusion/verify_audit.py",
+      "seconds": 0.077819,
+      "sha256": "bc44de01c9c16d6cdc2b235586e2904083f9d89ace51dd25b7787c1a674ece7f",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=6 rows=32 uv_candidates=48 boundary_f_zero=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/verify.py",
+      "seconds": 0.087994,
+      "sha256": "262d73fd1caf841ec126919c68ff9c5453bdda8b57476a365395796fc5a666d0",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=7 DE_copies=3 raw_cases=48 source_rows=16 lane_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion/verify_audit.py",
+      "seconds": 0.094623,
+      "sha256": "af5516e47d18831ce653dccc9425c4dc146ff2edef87776a7ef6c8b191fffbda",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=7 source_rows=16 lanes_per_row=2 boundary_f_zero=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing8_complete_exclusion/verify.py",
+      "seconds": 0.14586,
+      "sha256": "e3bd1d1c5909e5f6ae5764c615c77d0d276424a641789b788522c0e90c0c10e2",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=8 DE_copies=3 raw_cases=48 source_rows=32 lane_checks=96 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing8_complete_exclusion/verify_audit.py",
+      "seconds": 0.087985,
+      "sha256": "85bc833d657744c1848e633a134e955a36428321699b026c568992a4096e24a7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=8 source_rows=32 lanes_per_row=1 boundary_f_zero=32\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing9_complete_exclusion/verify.py",
+      "seconds": 0.108889,
+      "sha256": "e4c933af5299ad8da55094c09c4f8da884e287f10fe0fdb1a620044c5943a8f7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 pairing=9 DE_copies=3 raw_cases=48 source_rows=8 lane_checks=128 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing9_complete_exclusion/verify_audit.py",
+      "seconds": 0.063786,
+      "sha256": "746f4861ed10c91df0f4ca86ddc837e537d26a1aeb4c6adebbd0e8cffb44b5a5",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pairing=9 source_rows=8 lanes=4 boundary_f_zero=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify.py",
+      "seconds": 0.071635,
+      "sha256": "26d5191073a26b42c928a41b2777deb1bfa29d6530997681b9c6c7a9338f6306",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 charts=24 quotient=quadratic exact_reductions=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient/verify_audit.py",
+      "seconds": 0.050201,
+      "sha256": "4b3521759c74a9921715a53d40c3d673881605c2381c9fbe4795b5beb53869bf",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok charts=24 generators=3 reductions=240 outside=open\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify.py",
+      "seconds": 0.077224,
+      "sha256": "e557d8f781f01165f5ce22e4683ceee99c9f9b1b332c183def345830d6c8c40c",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=0 pairing=0 raw_cases=16 fibers=64 f_candidates=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion/verify_audit.py",
+      "seconds": 0.060293,
+      "sha256": "e29ff6e256be4e944e6165ef5a55a89a873867eda658fccd5b17b06f73cce05a",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=0 pairing=0 signs=4 lanes=4 raw_cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify.py",
+      "seconds": 0.069528,
+      "sha256": "001daeca20cbfd190eb8756c87c8df750bc965b32ad3d091850760d10cb31725",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 transport=xi0_to_xi1 pairing=0 raw_cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport/verify_audit.py",
+      "seconds": 0.048843,
+      "sha256": "7c24e770f7a371b3e306723d1e17b8208a09ca7b6439d4923e7ab6306304bf49",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok parallel_positive_DE=2 pairing=0 transport=exact\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify.py",
+      "seconds": 0.082099,
+      "sha256": "ba34a67c622c8432ae3ab9bfe14a9db70ad25b58694759e6d17eaeeb87e42fe7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=2 pairing=0 raw_cases=16 fibers=32 f_candidates=32 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion/verify_audit.py",
+      "seconds": 0.07144,
+      "sha256": "8e7209bf5a67a850a39c074502edf2f8e95a5f4d4e098a4c93e4a0e034c530b4",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=2 pairing=0 de=-m squared_sum=(d-e)^2 raw_cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/verify.py",
+      "seconds": 0.123248,
+      "sha256": "57ade72a6cc7ee84266c5084a06f0b0b43ce5d59850220afbcec33f8326eb50b",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairings=11,14 raw_cases=32 computed_rows=16 q_rows=240 final_checks=64 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion/verify_audit.py",
+      "seconds": 0.095643,
+      "sha256": "03a136e2757823a083a528da0d8126fa014a6feddd2d97ad587dadc9a44f8962",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairings=11,14 computed_rows=16 raw_cases=32 final_checks=64\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/verify.py",
+      "seconds": 0.090915,
+      "sha256": "aa2496675f46ea40a1e18d912ae2e85ff1e00f89ad8d7dd14a0aaafc38ee90fc",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairings=7,8,10,13 raw_cases=64 computed_rows=16 f_rows=512 targets=64 final_checks=128 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion/verify_audit.py",
+      "seconds": 0.099601,
+      "sha256": "e53397db5c8ff8597b8afb06ffc304517bb581a3b8b41d18295df2acfa5ec886",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairings=7,8,10,13 computed_rows=16 raw_cases=64 final_checks=128\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings3_6_exclusion/verify.py",
+      "seconds": 0.090956,
+      "sha256": "cd7266041a04ac6d63d57ab49833a090ed1430d7a02e847af3164766bf953a27",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairings=3,6 raw_cases=32 computed_rows=8 q_rows=480 lane_checks=384 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings3_6_exclusion/verify_audit.py",
+      "seconds": 0.079504,
+      "sha256": "74a4ebbcbacc2f55667995ed532c177e736423862f3b29464c637a723d926883",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairings=3,6 computed_rows=8 raw_cases=32 lane_checks=384\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/verify.py",
+      "seconds": 0.09846,
+      "sha256": "51c34ab777f5c4c01959009be8aa0a397000eb689c91c6a887d073cab416ca9a",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairings=4,5,9,12 raw_cases=64 computed_rows=12 f_rows=928 targets=184 final_checks=480 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion/verify_audit.py",
+      "seconds": 0.133384,
+      "sha256": "4edcf719594109036f44e6bc55a4f2897b90dab039dbcf64999431cae718eeb1",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairings=4,5,9,12 computed_rows=12 raw_cases=64 final_checks=480\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+      "seconds": 0.0834,
+      "sha256": "f94fb62c507b2b6c7f677afc4f4d884e24089ac4d5cbb2f38e97f325a3bc6695",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairing=0 raw_cases=16 branch_rows=24 lane_checks=224 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+      "seconds": 0.066519,
+      "sha256": "0d3c7b717e1be02a617dcf3cd282e26e0bbbc2ea46b3cba5db98741ade84fcda",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairing=0 branch_rows=24 raw_cases=16 lane_checks=224\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairings1_2_reciprocal_linear_exclusion/verify.py",
+      "seconds": 0.093246,
+      "sha256": "988cd3d2b629833dada924904ef9f3e395357f72d6ddd58e22f98b56a26e4696",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=3 pairings=1,2 raw_cases=32 branch_rows=36 lane_checks=128 witnesses=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairings1_2_reciprocal_linear_exclusion/verify_audit.py",
+      "seconds": 0.086048,
+      "sha256": "990e5ac19834277639c4b457c73ba86b2f71b6062f2fd7b84763a8e46f197f62",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=3 pairings=1,2 branch_rows=36 raw_cases=32 lane_checks=128\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/verify.py",
+      "seconds": 0.083029,
+      "sha256": "978ba7d3d558d17ab3a9268a748cec5c586612e65310586ca262fc9911e6ec14",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi4_to_xi3=exact matchings=15 raw_cases=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi4_xi3_outside_role_transport_exclusion/verify_audit.py",
+      "seconds": 0.265992,
+      "sha256": "cbb343a930f708fb521cc94a9dc541d19865c16d9bdd351a52ed33adc99316f7",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok integer_rows=31104 lanes=4 xi4_to_xi3=exact\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/verify.py",
+      "seconds": 0.144717,
+      "sha256": "0f2dfb50e35b72ad42e489a7d4158f35f13b0c8a5916499c32e74616ab40d887",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=5 sources=24 subcases=1440 primary_outer=2208 audit_outer=2208 inner_roots=0 raw_cases=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion/verify_audit.py",
+      "seconds": 0.108656,
+      "sha256": "214a2aa507e5fcf94729efd1024724b0be9e2f4e541ec20bc61d14ef3f215221",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=5 sources=24 subcases=1440 dual_outer_roots=2208/2208 inner_roots=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion/verify.py",
+      "seconds": 0.081038,
+      "sha256": "c090dace0db787c58abea953123562382564bbd44fe52a3958a66e9c2a361f17",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=3 xi=6 source_rows=4 candidate_r=32 source_points=32 eligible_points=24 compatible=0 raw_cases=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion/verify_audit.py",
+      "seconds": 0.060603,
+      "sha256": "d8d915883e5ae2791d24bde113589e1d2fafa59b3ea48e37bd90889c14a5865e",
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok xi=6 source_rows=4 raw_cases=240 xi5_compatible_sources=24\n"
+    }
+  ],
+  "schema": "prize-modal-verifier-replay-v1",
+  "timeout_seconds": 300
+}

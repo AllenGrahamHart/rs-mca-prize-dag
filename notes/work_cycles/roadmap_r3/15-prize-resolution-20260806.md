@@ -4555,3 +4555,34 @@ infrastructure note:       two full-cover workers replayed after Modal preemptio
 live compute requests:     none
 next:                      export the accumulated exact cell-9 closure through PR #1152 and reselect the next critical subproblem
 ```
+
+### Cell-9 upstream export and cell-3 closure re-pin
+
+The complete cell-9 packet was exported to the living upstream K3 PR #1152.
+Its certificate pins 28 PROVED nodes and verifier digests at public campaign
+commit `68ac9e383`; the PR states explicitly that this is a local raw-label
+exclusion and moves no row ledger value.
+
+Reconciliation then showed that the advertised cell-3 `xi4` residual was a
+provenance/export remainder rather than an open mathematical branch. The
+PROVED outside-role involution already pays all 240 `xi4` cases, and the
+PROVED aggregate cell-3 theorem pays the rank-drop branch plus the disjoint
+`7*15*4*4 = 1680` principal systems. A dedicated manifest-pinned Modal replay
+ran all 28 primary verifiers and all 28 independent audits: 56 PASS, with no
+failure, timeout, hash mismatch, or remote error.
+
+```text
+starting pin:              68ac9e383
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 3
+result:                    CLOSED already; provenance revalidated for upstream export
+DAG status delta:          none
+upstream terminal delta:   cell-3 complete closure packet ready for PR #1152
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal app ap-jYkVRdvSHQuofSrzIJzAG1; 56/56 PASS
+replay digest:             2051784b7bff494045c7584c4bd491850725646f6a85b4619c005b1578774989
+infrastructure:            generic Modal replay now supports a dedicated JSON output path
+live compute requests:     none
+next:                      publish the cell-3 pin, extend PR #1152, then attack role orbit [5,8] or [11]
+```
