@@ -1534,3 +1534,25 @@ directly replays every equation at the 16 lifts. Exact transports close
 class `{11,14}` for both missing roles: four labels or one generic orbit.
 All reciprocal-role labels are now paid; cell `12` retains 11 generic
 representatives and 36 labels, all in the parallel-`DE` family.
+
+**Parallel-DE pairing-3/6 closure.** The pinned nested-quadratic compiler
+handles both direct representatives `xi=0` and `xi=2`. Pilot app
+`ap-2iVXDzKzwYQCQDipBcT0Nn` completed one row in 49 seconds; complete app
+`ap-m2bHGMiezmJOxXzIFQVN7M` finished all 32 source-sign/target-lane/`xi`
+rows in about 72 seconds wall time.
+
+The exact packet has 320 target-norm roots, 544 total norm/inverse
+candidates, 752 guarded source points, 96 compatible `(u,v)` lifts, and 144
+final `f` rows. Of these, 96 have a nonzero colored-pair cut and 48 have
+`f=0`, hitting the explicit target boundary. There is no colored solution,
+witness, or unresolved branch; 32 free-`b` exits lie on the proved leading
+boundary.
+
+Independent root app `ap-IW27Eb40wQbceojlxu9h8t` reconstructed all 49
+degree-at-most-4216 profiles and 316 roots using separate SymPy/Galois tools.
+Two preempted shards restarted transparently; the retained certificate is
+complete. The local audit validates all 320 profile visits and directly
+replays every first-pair quadratic, missing-sum equation, `f` lift, and final
+colored pair. Exact transports close six labels in the two generic orbits
+represented by `(0,3)` and `(2,3)`. Cell `12` now has nine representatives
+and 30 labels open, all in the parallel-`DE` family.

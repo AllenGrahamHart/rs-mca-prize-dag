@@ -59,8 +59,10 @@ The sibling nested sign-free theorem closes `{5,12}`: four more labels and
 one orbit. The quadratic-resultant theorem closes `{7,10}`: four more labels
 and one orbit. Its sign-swapped sibling closes `{8,13}`: four more labels and
 one orbit. The final quadratic-resultant sibling closes `{11,14}`: four more
-labels and one orbit. The live generic ledger is therefore 11 representatives
-covering 36 labels. An exact `B/C`
+labels and one orbit. The parallel-`DE` pairing-3 nested-quadratic theorem
+closes the two orbits represented by `(0,3)` and `(2,3)`: six labels total.
+The live generic ledger is therefore nine representatives covering 30 labels.
+An exact `B/C`
 duplicate-role transport is also ready: once cell 12 is empty, all
 1,680 signed principal cell-13 systems follow bijectively, while the global
 rank-drop theorem pays the complementary branch. These are PROVED suppliers
@@ -140,7 +142,9 @@ cell-4 four-basis tower
                      |
        reciprocal roles pairings 11/14: 1 orbit / 4 labels [PROVED]
                      |
-       attack 11 generic representatives         [NEXT]
+       parallel-DE pairings 3/6: 2 orbits / 6 labels [PROVED]
+                     |
+       attack 9 generic representatives          [NEXT]
                      |
        close cell 12                              [OPEN]
                      |
@@ -158,8 +162,9 @@ Use symmetry and source-only cuts before launching a census. Cell 12's
 rational boundary, both endpoint-role families, the parallel-`DE`
 first-pair block, and reciprocal matching classes through `{7,10}` are paid.
 The `{8,13}` and `{11,14}` reciprocal matching classes are paid as well. The
-generic ledger has 11 representatives, all in the parallel-`DE` family.
-Reuse the two paid source norms, the
+parallel-`DE` pairing-3/6 classes are paid too. The generic ledger has nine
+representatives, all in the parallel-`DE` family. Reuse the two paid source
+norms, the
 three-branch reciprocal-square and reciprocal-linear compilers, and matching
 transports before constructing a new norm. Every residual compiler must
 include both the missing product and squared-sum equations. Modal jobs must
