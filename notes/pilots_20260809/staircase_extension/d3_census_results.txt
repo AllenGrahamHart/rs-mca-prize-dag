@@ -1,0 +1,74 @@
+=== S1: liveness of the strict A=3 residual budget by scale ===
+R    N    rho  e<=  need  cap(max over e)  argmax e  LIVE?
+4    8    1    0    3     1                0         False
+6    12   2    0    4     1                0         False
+8    16   3    1    5     5                1         True
+10   20   4    1    6     5                1         False
+12   24   5    1    7     5                1         False
+14   28   6    2    8     9                2         True
+16   32   7    2    9     9                2         True
+18   36   8    2    10    9                2         False
+20   40   9    3    11    13               3         True
+22   44   10   3    12    13               3         True
+24   48   11   3    13    13               3         True
+26   52   12   4    14    17               4         True
+28   56   13   4    15    17               4         True
+30   60   14   4    16    17               4         True
+32   64   15   5    17    21               5         True
+34   68   16   5    18    21               5         True
+36   72   17   5    19    21               5         True
+38   76   18   6    20    25               6         True
+40   80   19   6    21    25               6         True
+DEAD set in R in [4,40]: [4, 6, 10, 12, 18]
+official R=2^40: rho=549755813887  need T>=549755813889  e window [m,floor(rho/3)] = [137438953472,183251937962]
+  cap at e=m: 549755813889  (need 549755813889, deficit 0)
+  window size = 45812984491
+
+=== S2: replay of the m=1 route-fence witness over F_17 ===
+D = order-16 subgroup of F_17^* = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+rank of M_3(y0+g y1) over finite slopes: [3]
+supported finite slopes (T=5): [(0, (1, 2, 5)), (1, (3, 7, 11)), (2, (9, 12, 13)), (4, (4, 6, 16)), (15, (8, 10, 15))]
+expected T=5 with triples {1,2,5},{3,7,11},{9,12,13},{4,6,16},{8,10,15}
+union of supports = 15 points; omitted from D: [14]
+dim of common kernel of M_3(y0),M_3(y1) = 0 -> column-far = True
+T=5 vs rho+1=4 : staircase-shaped bound VIOLATED at r=3
+
+=== S3: field axis. N=16, rho=r=3, e=1 line census, q = 1 mod 16 ===
+fields: [17, 97, 113, 193, 241, 257, 337, 353, 401, 433, 449, 577, 593, 641, 673, 769, 881, 929, 977]
+q    #loc  max_t  #lines(t=4)  #lines(t>=5)  core-free witnesses
+17   560   14     960          4760          16
+97   560   14     256          392           0
+113  560   14     0            392           0
+193  560   14     0            392           0
+241  560   14     0            392           0
+257  560   14     0            392           0
+337  560   14     0            392           0
+353  560   14     0            392           0
+401  560   14     0            392           0
+433  560   14     0            392           0
+449  560   14     0            392           0
+577  560   14     0            392           0
+593  560   14     0            392           0
+641  560   14     0            392           0
+673  560   14     0            392           0
+769  560   14     0            392           0
+881  560   14     0            392           0
+929  560   14     0            392           0
+977  560   14     0            392           0
+TOTAL core-free t>=5 lines over q in [97,1000]: 0
+  q=17 : 16 core-free 5-lines; first omits [14]
+
+=== S4: N=20, rho=r=4, e=1 census (counting bound says max t <= 5) ===
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260809/staircase_extension/d3_scale_field_census.py", line 131, in line_census
+    v = tuple((Pj[t] - Pi[t]) % q for t in range(dim))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+MemoryError

@@ -393,3 +393,68 @@ BYTE-IDENTICAL; the price/deficit arithmetic re-derived; the
 two-field argmax verified in both banked maxscan files. No status
 flip. Source: notes/pilots_20260809/nonpoly_flank_census/
 (REPORT.md, FABLE_AUDIT.md; data/ 12 result files).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: staircase_extension — the residual diagnosed to the unit; the razor is a NEW THEOREM; the cyclotomic threat killed)
+
+**The {2^39, 2^39+1} residual is NOT closed and is NOT a
+proof-budget artifact: the counting layer is EXACTLY ONE SLOPE
+short at its limit** (cap T <= 4e+1 = rho+2 vs target rho+1 at the
+first live degree), and the m=1 fence (PROVED, explicit F_17
+witness) says no incidence/core-freeness/split-fiber/Hankel
+argument closes the endpoint uniformly. Sized exactly:
+687,194,767,358 ~ 2^39.32 open (A,s,e) strata; per-stratum
+deficits 1 / 4 / 3-4 slopes; at e=m every failure is forced onto
+the sharp face h=0, T=rho+2.
+
+**But the TRUTH-vs-PROOF question is closed on the officially
+relevant axis:** at the exact scaled analogue of the strict
+residual (N=16, complete line census), the violating configuration
+exists at THE SMALLEST FIELD ONLY (q=17) and dies at every prime
+field 97 <= q < 5000 — and rate_half_residual_prime_field_collapse
+(PROVED) forces both residual budgets onto prime fields q > 2^167.
+The staircase-shaped formula HOLDS at scale on the prime-field
+axis. The residual is (evidence-grade) TRUE with the proof needing
+the apolar origin the incidence family provably lacks.
+
+**Boundary diagnosis per layer (D2):** staircase equality —
+STRUCTURAL (proved counterexample at the first post-quadratic
+radius); (RQ4) — STRUCTURAL, it IS the half-distance barrier
+verbatim (r_sp = min(floor((n-k)/2), B*), PR5); far-CA Hankel —
+method wall with a proved no-go for the whole incidence family
+(the counting cap is ATTAINED by non-Hankel objects: 9 collinear
+disjoint split cubics at N=28 with Hankel nullity 0 — exact
+certificate, coordinator-replayed byte-identical). **Consequence:
+the razor determination is a NEW THEOREM, not a computation** —
+at razor rows B* ~ 2^128 >> n and a = n-B+1 is not even well
+posed.
+
+**THE CYCLOTOMIC THREAT — the one field-independent threat to
+budget 2^39+1 — TESTED AND KILLED at every accessible analogue:**
+the family Q = X^rho U^e - (c_0 U + c_1 V)^e saturates the design
+cap whenever rho = e*r_0 with r_0 | N — and at the official A=1
+profile rho = 2^39 DOES divide N = 2^41 with e inside the window.
+Measured (coordinator-replayed byte-identical): every over-target
+instance has Hankel nullity 0; the only realizable instances are
+at or below target. Clean law: **realizable exactly when it does
+not exceed the target.**
+
+**D4 CROSS-LINK (new leverage):** the q >= 2^169 condition on the
+bracket top a_RH <= 3n/4 is imposed by the far-CA term ALONE, and
+the imposing term IS residual budget 2^39+1 itself. Closing it
+extends the proved bracket top to ALL q > 2^167 — a 2-bit window,
+materially larger than the residual's own 2^-38 q-axis payoff.
+This re-prices the residual from "smallest open piece" to "the
+gate on the bracket top."
+
+Pilot record: 9/10 registered predictions HIT (P8's A=1 e in
+[2,4] census NOT RUN — out of reach, only the cyclotomic
+sub-family tested — disclosed); one COMPUTE-LAW BREACH disclosed
+(a single un-ramguarded patch heredoc; 12/13 invocations
+compliant); a RAM-cap hit handled by redesign; an out-of-domain
+(ERC2) evaluation caught by absurdity and corrected. The pilot
+read this statement's mid-session round-27 growth as primary text
+(legitimate; sibling dirs never read). Coordinator replays:
+d1_realizability + d1_cyclotomic byte-identical; escape anchors +
+the 2^39.32 stratum count exact. No status flip. Source:
+notes/pilots_20260809/staircase_extension/ (REPORT.md,
+FABLE_AUDIT.md).

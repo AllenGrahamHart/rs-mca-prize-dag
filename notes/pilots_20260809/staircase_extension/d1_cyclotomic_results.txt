@@ -1,0 +1,10 @@
+=== cyclotomic candidate for the A=1 half-distance profile ===
+case                  q     A   target  best design T  realizable?
+N=16 rho=4 e=2 r0=2   17    1   5       8              nullity=0 at (c0,c1)=(0, 1)
+N=16 rho=4 e=4 r0=1   17    1   5       16             nullity=0 at (c0,c1)=(0, 1)
+N=12 rho=3 e=1 r0=3   13    1   4       4              nullity=3 at (c0,c1)=(0, 1)
+N=20 rho=5 e=1 r0=5   41    1   6       4              nullity=5 at (c0,c1)=(0, 1)
+N=24 rho=6 e=2 r0=3   73    1   7       8              nullity=0 at (c0,c1)=(0, 1)
+N=16 rho=4 e=2 r0=2   97    1   5       8              nullity=0 at (c0,c1)=(0, 1)
+N=16 rho=4 e=2 r0=2   113   1   5       8              nullity=0 at (c0,c1)=(0, 1)
+=== END ===

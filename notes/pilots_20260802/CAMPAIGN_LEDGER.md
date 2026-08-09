@@ -4179,3 +4179,44 @@ byte-identical; price/deficit re-derived (two coordinator
 arithmetic slips en route, caught + corrected against the pilot's
 numbers). Addendum applied; no status flips. Files:
 notes/pilots_20260809/nonpoly_flank_census/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 27 BANK 4/4 — staircase_extension (2026-08-09, coordinator) — ROUND COMPLETE
+
+**BANKED: the residual diagnosed TO THE UNIT — the counting layer is
+exactly ONE SLOPE short at its provable limit** (cap rho+2 vs target
+rho+1; the m=1 fence proves no incidence-family argument closes it);
+sized exactly (2^39.32 open strata). TRUTH-vs-PROOF CLOSED on the
+official axis: the only scaled violation is a smallest-field
+artifact (q=17); every prime field 97..5000 HOLDS, and
+rate_half_residual_prime_field_collapse (PROVED) forces the residual
+onto prime fields — the residual is evidence-grade TRUE, the proof
+needs the APOLAR ORIGIN (named round-28 target). Boundary per layer:
+staircase STRUCTURAL / (RQ4) = the half-distance barrier verbatim /
+far-CA = method wall with non-Hankel saturation certificate (nullity
+0, coordinator-replayed). THE RAZOR IS A NEW THEOREM, not a
+computation (a = n-B+1 ill-posed at B ~ 2^128 >> n). THE CYCLOTOMIC
+THREAT (the one field-independent refuter of budget 2^39+1;
+divisibility HOLDS at the official profile) TESTED AND KILLED —
+clean law: realizable iff not over target (certificates
+byte-identical on replay). D4 CROSS-LINK re-prices the residual:
+closing budget 2^39+1 extends the bracket top from q >= 2^169 to
+ALL q > 2^167 (a 2-bit window) — the residual is the GATE ON THE
+BRACKET TOP. One compute-law breach disclosed (1/13, isolated).
+9/10 predictions HIT; P8 half not run, disclosed. Addendum applied;
+no status flips; census unchanged 231 = 167/36/28. Files:
+notes/pilots_20260809/staircase_extension/{REPORT.md,FABLE_AUDIT.md}.
+
+**ROUND 27 COMPLETE: 4/4 banked. The analytic half is REBUILT: FLOOR
+v2 fell to its own falsifier (bank 1); the barrier mapped exactly
+with blind convergence (bank 2); the flank censused with THEOREM CAP
+scope-limited (bank 3); the residual diagnosed to the unit with the
+razor = new theorem and the apolar origin named (bank 4). The
+coherent picture: locate a_RH in the PROVED bracket [k+2^34, 3n/4]
+— LB counting-exhausted (11.87-bit rung deficit, tight normalizer),
+UB gated by residual budget 2^39+1 (whose closing is worth a 2-bit
+q-window), truth evidence prime-field clean, supply-side flank
+bounded far below the witness need at accessible scales with ONE
+undetermined scaling (the Modal-class n=32 maxscan). PENDING USER:
+the revised decomposition + (RH-AC) adoption; the mca_safe/HD1
+lead (twice-reinforced) is the cheapest high-value check on the
+board.**
