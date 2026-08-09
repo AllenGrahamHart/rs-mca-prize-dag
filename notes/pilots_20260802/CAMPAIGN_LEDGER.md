@@ -3769,3 +3769,53 @@ M>=5 charts D4 just legalized. Corrections applied to 3 nodes
 unchanged 231 = 167/36/28. Pilot self-corrections: 7, all
 unprompted, incl. one bare-python3 patch (isolated). Files:
 notes/pilots_20260809/m7_complement_repose/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 25 BANK 2/4 — z_n32_band (2026-08-09, coordinator)
+
+**BANKED: the round-24 named decisive computation EXECUTED. The N=32
+wall is BROKEN (BBM, bucket-bisect MITM: 117.5s / ~50MB per cell vs
+the "out of reach at 1G" blocker — the wall was memory layout, not
+arithmetic). The record C >= 1.7681 STANDS (max N=32 CRATIO
+1.4210954721 at p=4683696257), but Z-CEILING is repriced WEAKER:**
+sigma/M-matched decay NOT significant (quantile 0.2278); sd decay IS
+significant (quantile 0.0000) — the body shrinks, the tail does not;
+round-24's SD-based growth law missed the N=32 max by 10x, and its
+P4d "C = 1 + o(1) with grotesque room" is NOT SUPPORTED; heuristic
+band extrapolation lands at ~1.88 ABOVE the record (warning, not
+measurement). Mechanism found: low-weight mu_64-orbit spikes
+(UMIN 9 at records vs 11 typical; AU[U] always divisible by 64; the
+orbit-corrected threshold C(32,U)2^U >= 64p lands exactly at 11).
+Verification: ez 15/15 (P-Z9 record exact), 33/72 two-way incl. all
+top-12, record cell THREE-WAY (my reversed/101 driver AGREE 47.3s),
+seeded analysis fully replayed. Honest tail: 39/72 single-algorithm.
+Named follow-on: UMIN-targeted spike search + the declared post-hoc
+exhaustive kappa=2 band (266 cells, never run). Addendum applied to
+f2_z1_mass_knife_edge; no status flips. Pilot predictions: 9 HIT /
+6 MISS incl. its own headline, all reported plainly; final report
+issued twice (identical substance), both in the session record.
+Files: notes/pilots_20260809/z_n32_band/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 25 BANK 3/4 — large_v2_hunt (2026-08-09, coordinator)
+
+**BANKED: mystery-5 narrowing OPTION (c) IS DEAD three ways** —
+(1) by exhibition to v_2 = 26 (209-bit witness, standalone
+repro_v2_r25.py OVERALL PASS on my replay, fail-closed controls);
+(2) heuristically at the registered threshold 41 (~2^98 predicted
+counterexamples; the rung-41 silence pre-calibrated uninformative,
+expected count 0.005); (3) mechanism PROVED ABSENT (NORMLAW three-
+liner + the repo's own e1_n256 local-norm EQUALITY = surjectivity —
+nothing stronger than v_2 >= 7 is forced). NOT REPAIRABLE: VSTAR ~
+136-139 while the deployed Proth rows sit at v_2 = 92-97; the toy
+law verified exactly at h=8 (MAXV2BAD8 = 12 = the Kyber prime
+12289; VSTAR law 12.74). **OPTION (b) POSITIVELY SUPPORTED**
+(W_TOP bad density ~2^-112; suppression is exactly prime-density,
+K=1 after the LAW-2 cofactor split). NEW PROVED LAW banked: LAW 2,
+Norm(1+2v) = 1 + 2h*v_{h/2} mod 4h (Newton identities; general w a
+named gap; identity suite 0 violations h=2..64 on my replay).
+Replays: repro PASS, d3_thm 0 violations, d1_h8 exhaustive census
+EXACT (554/536/12289, round-22 densities to the digit). Addendum
+applied to integer_code_distance_cert; coordinator recommendation
+UPDATED to (b) primary + (a) fallback, (c) withdrawn; THE DECISION
+REMAINS SURFACED TO THE USER. No status flips; census unchanged
+231 = 167/36/28. Files:
+notes/pilots_20260809/large_v2_hunt/{REPORT.md,FABLE_AUDIT.md}.

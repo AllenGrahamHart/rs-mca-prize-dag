@@ -142,3 +142,88 @@ ground truth; coverage 2^22.0 of the box; the novelty subtraction
 amended by the pilot itself — the N' = 128 exhibit and the stated
 conclusion are new; the forward-direction method and N' = 256
 exhibits are prior art).
+
+## Round-25 narrowing decision support (2026-08-09, coordinator-applied on replay: large_v2_hunt)
+
+**OPTION (c) LARGE-v_2 IS NOT VIABLE AS POSED — dead in all three
+ways a narrowing can die — and option (b) o(1)-sparsity is
+POSITIVELY supported by the same measurements. The (a)/(b)/(c)
+choice REMAINS SURFACED to the user; the coordinator's prior
+recommendation (c)+(b) is WITHDRAWN in favour of (b) primary,
+(a) fallback.**
+
+**(1) Dead by exhibition for every threshold <= 26:** witness
+w in {-2..2}^64, |w|_1 = 125, p of 209 bits, p = 1 mod 128,
+v_2(p-1) = 26, cofactor 197633, norm recomputed by Bareiss
+determinant (independent of the tower recursion), kernel
+certificate rho of exact order 128 with odd s = 99. Standalone
+zero-import verifier repro_v2_r25.py: OVERALL PASS
+(coordinator-replayed), negative controls fail closed on four
+corruptions. Best witness within the c <= 2^12 criterion:
+v_2 = 25.
+
+**(2) Heuristically FALSE at the registered threshold:** at
+v_2 >= 41 the measured bad-prime rate predicts ~2^98
+counterexamples in the admissible window (~2^96 in the deployed
+band). The h=64 suppression curve is EXACTLY the prime-density
+law with K = 1 (the pooled K = 0.736 is an instrument artefact —
+cofactor-1 acceptances are pinned by LAW 2 below); the
+high-statistics independence test (14.7M incidences, chi^2 =
+3.75/8 df, slope 0.3 sigma) bounds any structural per-level
+factor to within 4% over levels 7..41. The rung-41 silence is
+CALIBRATED UNINFORMATIVE (expected count 0.005) — registered in
+advance as not evidence for (c).
+
+**(3) Mechanism PROVED ABSENT:** NORMLAW (three lines, from
+ideal-norm factorization: every odd box norm is a product of
+p^f factors each = 1 mod N', so Norm = 1 mod N') subsumes the
+conductor-128 local-reciprocity route, and the repo's own PROVED
+local-norm EQUALITY (e1_n256_local_norm_cofactor_collapse
+proof.md:17, Norm(O_K^*) = 1 + 256 Z_2, likewise at conductor
+128) means the local norm map is ONTO — local reciprocity gives
+v_2(Norm-1) >= 7 and provably forces nothing stronger. Measured:
+box norms hit all 1024 classes mod 2^17. No 2-adic/archimedean
+tension exists to build an obstruction on (conditioning on
+v_2(Norm-1) >= g leaves LOGNORM flat for g = 7..14).
+
+**(4) Not repairable by raising the threshold:** VSTAR ~ 136-139
+(the threshold above which zero counterexamples are heuristically
+expected; the estimator over-predicts the h=8 toy by 2^2.8,
+haircut applied and stated). Any threshold retaining the four
+deployed Proth rows (v_2 = 92, 93, 95, 97 per status_ruling
+lines 17-19) leaves ~2^45-2^49 predicted counterexamples; the
+threshold that works excludes every deployed row and retains only
+the E1-128 pinned field (v_2 = 200), which is already certified
+per-row. The toy analogue is exact: at h=8 (exhaustive), option
+(c) is false at every threshold <= MAXV2BAD8 = 12 — attained by
+the Kyber NTT prime 12289 = 3*2^12+1 — and the threshold law
+VSTAR = m + log2(#bad * K) = 12.74 matches.
+
+**Support for (b):** bad-prime density in the top window is
+~2^-112 — the o(1)-sparsity form is exactly what the measured
+suppression law asserts, at every v_2 uniformly (the h=8 census
+shows the suppression is prime-density and nothing else: pooled
+BADFRAC 0.1115, flat across v_2, chi^2 p = 0.07 stratified).
+
+**NEW PROVED LAW banked (LAW 2, the load-bearing refinement
+round 24 flagged):** for h a power of two,
+Norm(1 + 2v) = 1 + 2h*v_{h/2} (mod 4h), by Newton's identities
+(proved for w = 1 + 2v; general w is a NAMED OPEN GAP).
+Machine-checked as an identity with 0 violations at h = 2..64
+(coordinator-replayed). Corollaries verified: FAM-B is pinned at
+v_2(Norm-1) = 7 identically (3000/3000 + 0 rung-8 events in 7e6
+samples); a FAM-B hit with v_2(p-1) >= 8 forces cofactor = 129
+mod 256 (360/360 on the banked round-24 witnesses).
+
+**Honest limits:** coverage 2^-124 of the box (silence bounds
+only the sampled region); the counterexample counts are heuristic
+expectations calibrated at h=8 but extrapolated across the
+R/lambda_1 = 1 threshold; box realization of 2-adic classes is
+measured only to depth 2^17 (second NAMED GAP). Nothing here
+exhibits a v_2 >= 41 witness — it predicts ~2^98 exist. Pilot
+self-corrections: 6, all disclosed, incl. its registered
+structural fact R0 being false (repaired via residue degrees —
+the 536 of the round-22 ground truth are exactly the f=1
+stratum of 554). Source: notes/pilots_20260809/large_v2_hunt/
+(REPORT.md, FABLE_AUDIT.md; repro PASS, LAW 1/2 identity suite,
+and the exhaustive h=8 census coordinator-replayed).
