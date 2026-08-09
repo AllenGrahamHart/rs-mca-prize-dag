@@ -853,15 +853,24 @@ missing relation and 32 by a nonzero colored cut. Independent app
 through 11056. Transport pays `(0,9),(0,10),(1,9),(1,10)`; the reciprocal
 `xi=2` labels were already paid by the pairing-4 packet.
 
+The positive pairing-12 sibling repeats the 16-row `128/200/160` census.
+Its 256 direct rows again split into 224 nonzero missing relations and 32
+nonzero colored cuts. The audit additionally checks all 16 `b`-leading and
+16 `c`-leading boundary payments against the exact cell-11 tower.
+Independent app `ap-MmbvKEIYfBChxPyF6AEeZb` reconstructs 33 profiles, 114
+roots, and degrees through 11056. Transport pays the four labels at pairings
+`12/13` for `xi in {0,1}`.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       65/105 closed
-active quotient frontier: 13 representatives / 40 labels
-DAG status delta:         +8 background PROVED; critical child unchanged
+cell-11 raw labels:       69/105 closed
+active quotient frontier: 12 representatives / 36 labels
+DAG status delta:         +9 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
-                          ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO
-next:                     positive pairing-12 representative `(0,12)`
+                          ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
+                          ap-WjlcKuiffUMXWrMYaYIfAD
+next:                     positive pairing-14 representative `(0,14)`
 ```
