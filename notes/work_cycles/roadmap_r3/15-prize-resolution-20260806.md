@@ -4120,3 +4120,30 @@ compute:                   Modal apps ap-QdiWgPfRBvZzLFN2vsH5JD, ap-QFMvBGEERf5o
 live compute requests:     none
 next:                      apply the sibling pairing-4 and pairing-5 compilers
 ```
+
+### Cell-9 pairing-4/7/9/10 nested-quadratic payment
+
+The pinned pairing-4 compiler retains its
+quadratic/quadratic/degree-eight/linear profile on all six exact cell-9
+charts. All 192 rows terminate excluded. Independent Frobenius-gcd custody
+covers 61 univariate profiles through degree 10,944, and separate direct
+replay checks 4,032 source routes, 7,040 Cartesian `(u,f)` rows, 960
+zero-relation lifts, every chart-leading payment, and every regularized-base
+payment. All 960 final colored cuts are nonzero.
+
+Universal transport pays the eight-label orbits represented by `(0,4)` and
+`(2,4)`. Cell `9` now has 14 representatives and 48 labels open.
+
+```text
+starting pin:              0e30537c8
+canonical prize pin:       87ad3be1ad
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED parallel-DE pairing-4/7/9/10 classes; 16 -> 14 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact nested-quadratic six-chart packet, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-REKIXZuusEbysA6NQEtBcY, ap-WR056Dh1k0J8GvrO4jnQO8, ap-uahZdq8BIufQlqW7Wd2RsG, ap-oIh1xPkupXQ3ZKXtBa9f0X
+live compute requests:     none
+next:                      apply the sibling pairing-5 compiler with unordered case-keyed streaming
+```

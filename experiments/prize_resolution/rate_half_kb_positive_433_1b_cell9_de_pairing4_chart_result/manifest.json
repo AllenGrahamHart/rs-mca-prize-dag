@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned nested-quadratic pairing-4 compiler for cell-9 xi in {0,2}.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "86a51dc9a451980ff2f916fc7c249c7ab35c20a4a6a92d928577534df90c87c3",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 11508460,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "45f95bcde779ff7c15d8152d8ca631e3ede7b38265473546c43507225d8c055f"
+    },
+    {
+      "bytes": 11533490,
+      "path": "shards/part-00001.jsonl",
+      "records": 32,
+      "sha256": "4f5c8c7c7d04b18bca2258e5b483dffe31a57959f1e4d4b2d6dde3fd668045d0"
+    },
+    {
+      "bytes": 11557806,
+      "path": "shards/part-00002.jsonl",
+      "records": 32,
+      "sha256": "8e407a525b2eb74a486e3875ce0afc3882a68e6de1dba734887dbde8181a8e38"
+    },
+    {
+      "bytes": 11510763,
+      "path": "shards/part-00003.jsonl",
+      "records": 32,
+      "sha256": "a2e4c18bee8f2508dc186cd0ed1aad9ff748373a7a855edfe343863fcd10c9f6"
+    },
+    {
+      "bytes": 11538065,
+      "path": "shards/part-00004.jsonl",
+      "records": 32,
+      "sha256": "56796d5f0b5583525f15cc7f3934612fb856b98ac0a118c96c00d8bbf761ab80"
+    },
+    {
+      "bytes": 11565328,
+      "path": "shards/part-00005.jsonl",
+      "records": 32,
+      "sha256": "b7fad6b4a0dfa083b1d02cf1945fa972893c86b735e9843d49d0d4b4bb56aefd"
+    }
+  ],
+  "total_bytes": 69213912,
+  "total_records": 192
+}

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion/verify.py",
-      "seconds": 0.144841,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+      "seconds": 1.74329,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 pairing-3/6 exclusion: rows=192 routes=2784 uv=384 f=768 orbits=2 labels=6\n"
+      "stdout_tail": "PASS cell-9 pairing-4/7/9/10 exclusion: rows=192 routes=4032 uf=960 colored=960 orbits=2 labels=8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion/verify_audit.py",
-      "seconds": 0.035274,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.655235,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 pairing-3 cross-audit: charts=6 profiles=69 hostile=detected\n"
+      "stdout_tail": "PASS cell-9 pairing-4 cross-audit: charts=6 profiles=61 hostile=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

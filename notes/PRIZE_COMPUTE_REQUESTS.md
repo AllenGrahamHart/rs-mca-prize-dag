@@ -12589,3 +12589,31 @@ passes all six shard digests, 192 records, and 31,504,272 bytes. Universal
 transport closes the two active pair-3/6 orbits: six labels represented by
 `(0,3)` and `(2,3)`. Cell `9` retains 16 representatives and 56 labels.
 Total retained compute was bounded and below `$1`.
+
+**Cell-9 pairing-4 nested-quadratic closure.** Six-chart pilot app
+`ap-REKIXZuusEbysA6NQEtBcY` completed its first six rows with no survivor.
+Full sharded app `ap-WR056Dh1k0J8GvrO4jnQO8` then completed all 192
+source-sign, chart, target-lane, and direct-role rows. Every row is excluded,
+with 960 paid boundary records and no witness, unresolved branch, or colored
+solution. The 69,213,912-byte primary ledger is split into six independently
+verified shards.
+
+Provider preemptions delayed one ordered row. Hedge app
+`ap-dbFd4CtIQr2dd77MdUFCDH` independently completed that exact row, but the
+hedge is not needed by the final packet because the original full app
+completed all 192 rows. Independent FLINT app
+`ap-uahZdq8BIufQlqW7Wd2RsG` reconstructed 61 distinct norm/inverse profiles
+by Frobenius gcd, finding 308 deployed roots through degree 10,944.
+
+The first direct-audit launch `ap-DakG3PbgZsqYnFcjU64kPF` failed before
+arithmetic on a remote import-path expression and is retained only as a
+diagnostic. Corrected six-chart app `ap-oIh1xPkupXQ3ZKXtBa9f0X` checked
+4,032 source routes, all 7,040 Cartesian `(u,f)` rows, 960 zero-relation
+lifts, and 960 nonzero colored cuts. It also joined 192 `b`-leading, 384
+`c`-leading, and 384 regularized-base payments to their proved owners.
+
+Universal transport closes the two pairing-4/7/9/10 orbits: eight labels
+represented by `(0,4)` and `(2,4)`. Cell `9` retains 14 representatives and
+48 labels. The next requested computation is the sibling pairing-5
+compiler; its completion stream should be unordered and case-keyed so a
+preempted row cannot block shard progress.
