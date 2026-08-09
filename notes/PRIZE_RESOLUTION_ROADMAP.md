@@ -22942,6 +22942,22 @@ next analytic audit:        test whether mca_safe's rate-half consumer bar is al
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
 
+**r6 NOTE — THE BAND DECOMPOSITION (2026-08-09, user-directed,
+executed at the round-27 bank):** rate_half_band_closure is now
+CONDITIONAL (gate all) over two new critical TARGET children:
+**rate_half_band_structural_surplus** (the K3/workboard arm — the
+enumerated supply cap, converging via Codex's positive-433 board;
+PR #1152) and **rate_half_band_crossing_location** (the RH-AC pose:
+locate a_RH in the PROVED bracket [k+2^34, 3n/4]; S_sparse binding;
+F1/F2 falsifiers + the F3 zero-power declaration). Census
+231 -> 233, reds 28 -> 29 (net +1, the honest count: the parent's
+red content split, not grown). Context: FLOOR v2 fell to its own
+falsifier in round 27 (the max-vs-mean type error); the analytic
+half's true open content is the crossing location, with the lower
+end counting-exhausted (11.87-bit rung deficit) and the upper end
+gated by residual budget 2^39+1 (proof needs the apolar origin).
+Mystery 1's band arm now maps 1:1 onto DAG structure.
+
 1. **THE UNIFIED STRUCTURED-LIVENESS MYSTERY** (ex-hearts 1+2+3-core
    + heart 7's residual). Kernel: **SL-2** (-> SL-2-RES, the aperiodic
    divisor-count statement, h odd + q >= 2^209); **OV** (overlap =>

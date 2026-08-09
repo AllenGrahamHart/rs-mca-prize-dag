@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1848,
+  "node": {
+    "id": "rate_half_band_crossing_location",
+    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at the razor rows within the proved bracket",
+    "status": "TARGET",
+    "key": true,
+    "statement": "DECOMPOSITION CHILD 2 of rate_half_band_closure (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md). THE POSE OF RECORD (RH-AC), adopted from the round-27 draft with the decomposition ratification: at every admissible razor row (n = 2^41, k = 2^40, q prime in (2^255.9, 2^256), q = 1 mod n), locate the exact adjacent crossing a_RH(q) of (RH-ADJ) — B_mca(a_RH) <= B*(q) = floor(q/2^128) < B_mca(a_RH - 1) — within the PROVED bracket a_RH in [k + 2^34, 3n/4]. The binding term is S_sparse ALONE: B_ca^far is free at razor rows (B* ~ 2^128 >> n, the Hankel layer discharges the far-CA half), so the open content is exactly min{a : S_sparse(a) <= B*}. NO RANDOM-WORD QUANTITY MAY APPEAR IN THE STATEMENT (the round-27 forced correction: FLOOR v2 fell to its own falsifier via the max-vs-mean type error). Named candidate endpoints, NO discriminating evidence held: (RH-AC-lo) a_RH = k + 2^34 (the quotient floor is tight) vs (RH-AC-hi) a_RH = 3n/4 (the half-distance pincer HD1 is tight); the determined-region ratio extrapolation (~2^38.9, near -hi) is a heuristic across a mechanism change, labelled as such. KNOWN STRUCTURE AT CREATION (round 27): the lower end is counting-exhausted (the next floor rung is 11.87 bits short with a provably tight normalizer; the conversion goes lossless as q grows; counting cannot cross n/log2 q); the upper end is gated by residual budget 2^39+1, itself diagnosed to the unit (one slope past the provable incidence limit; evidence-grade TRUE on the forced prime-field axis; proof needs the APOLAR ORIGIN); closing that budget extends the bracket top from q >= 2^169 to all q > 2^167. The supply-side flank is censused (THEOREM CAP slack-0-scoped; the arbitrary-word maximum's scaling is the one undetermined number, decided by the named Modal-class n=32 maxscan).",
+    "falsifier": "Pre-registered (round 27, with power controls): F1 — push the quotient-remainder floor's razor reach beyond 2^34 - 1 (high power: the constant moved 2^33 -> 2^34 in one wave; fires against (RH-AC-lo)). F2 — exhibit one received word y and razor row with N(y, k + 2^34; q) > floor(q/2^128) (fires against (RH-AC-lo) from the safe side). F3 — ZERO-POWER DECLARATION: any random-word or window-law count check at q < 2^128 has NO power over this pose (it measures the mean object; this is the guard that would have prevented the FLOOR v2 mis-banking).",
+    "gate": "all",
+    "notes": "Created 2026-08-09 in the user-directed band decomposition. Consumer bars (CATCH-24C, round-27 verified): adjacency_closing needs the LOCATED crossing (both halves, adjacent indices — the moving bar); mca_safe's OWN inequality is dischargeable by PROVED HD1 at q >= 2^169 (the twice-reinforced lead, resolved 2026-08-09: a_safe is textually free at mca_safe level; the adjacency burden lives downstream in mca_grand via adjacency_closing — the mca_safe premise-weakening onto HD1 is a NAMED FOLLOW-UP surgery, not executed); list_adjacency_closing no longer consumes this content. Round-28 anchors: the apolar-origin theorem (the residual's named proof target); the K5 re-mint ((2^34-1, a_RH-k-1]).",
+    "refs": [
+      "notes/band_decomposition_plan_20260809.md",
+      "critical/nodes/rate_half_band_closure/statement.md",
+      "background/nodes/rate_half_half_distance_safe_bracket/statement.md",
+      "background/nodes/rate_half_quadratic_exact_range/statement.md",
+      "notes/pilots_20260809/pincer_formalization/REPORT.md",
+      "notes/pilots_20260809/staircase_extension/REPORT.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

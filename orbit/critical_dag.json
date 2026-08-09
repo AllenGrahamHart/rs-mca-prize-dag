@@ -933,8 +933,18 @@
   },
   {
    "id": "rate_half_band_closure",
-   "label": "UNPROVED",
+   "label": "CONDITIONAL",
    "title": "FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determination equals the first-moment prediction at every admissible razor row"
+  },
+  {
+   "id": "rate_half_band_crossing_location",
+   "label": "UNPROVED",
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at the razor rows within the proved bracket"
+  },
+  {
+   "id": "rate_half_band_structural_surplus",
+   "label": "UNPROVED",
+   "title": "BAND CHILD 1 (K3 ARM): the enumerated structural-supply cap at the deployed rows \u2014 the positive-433 workboard completes in distinct affine slopes"
   },
   {
    "id": "rate_half_cyclic_rotated_prefix_floor",
@@ -2254,6 +2264,14 @@
   {
    "from": "dli_wcl_weight4_ambient_exclusion",
    "to": "dli_wcl_slot_1_5_emptiness"
+  },
+  {
+   "from": "rate_half_band_structural_surplus",
+   "to": "rate_half_band_closure"
+  },
+  {
+   "from": "rate_half_band_crossing_location",
+   "to": "rate_half_band_closure"
   },
   {
    "from": "l1_fpc5_large_source_payment",

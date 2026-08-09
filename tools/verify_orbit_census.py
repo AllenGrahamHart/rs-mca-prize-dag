@@ -123,8 +123,18 @@ SUBMISSION_ROOT = "prize"
 # three FPC5 payment leaves replace broad flatness assumptions). Recomputed
 # and pinned by the coordinator at the merge; audit:
 # notes/wave24_integration_20260727/WAVE48_AUDIT_DRAFT.md.
-EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 36, "TARGET": 28}
-EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 38, "TARGET": 29}
+# BAND DECOMPOSITION (2026-08-09, user-directed; plan
+# notes/band_decomposition_plan_20260809.md, executed at the round-27
+# bank): rate_half_band_closure TARGET -> CONDITIONAL (gate all) over
+# two NEW critical TARGET children (rate_half_band_structural_surplus =
+# the K3/workboard arm; rate_half_band_crossing_location = the RH-AC
+# pose adopted from the round-27 draft). Orbit grows 231 -> 233; reds
+# 28 -> 29 (net +1: the parent leaves the red count, two children
+# enter). Recomputed and pinned by the coordinator at the surgery;
+# audit trail: the four round-27 FABLE_AUDITs + the ledger
+# "ROUND 27" entries.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 37, "TARGET": 29}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 30}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
