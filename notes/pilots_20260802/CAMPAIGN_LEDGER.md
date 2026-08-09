@@ -4019,3 +4019,36 @@ undecidable band 80% closed. Zero status flips. PENDING USER:
 (1) numeric per-cell re-scope of (b); (2) integer_code_distance_cert
 status-ruling amendment (density slot); (3) the mystery-2 board
 event — Z-CEILING dead, the F2 smoothness input route-less again.**
+
+## WAVE 54 INTEGRATED (2026-08-09, coordinator) — CELL 9 CLOSED; Codex self-pushed the export
+
+**Merged exact audited pin 91e580f19 (merge 4755268be; 24 commits,
+27 NEW background PROVED nodes, zero edits to existing nodes, no
+critical/sectioned touches).** Headline: **positive 433-1b CELL 9
+CLOSED** (rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_
+complete_exclusion — composition: 105 = 30 endpoint + 75 labels in
+24 proved orbit-owner packets; verifier checks the partition, size
+profile 1:1/2:9/4:14, owner disjointness, and all 19 dependency
+statuses). Also: cell-3 xi4 residual RE-PINNED for export (the
+long-open workboard item); cell-5 campaign underway (9 pairing
+exclusions banked, 6 active orbits / 28 labels remaining at the
+pin). REPLAYS: verify_sectioned + verify_prize_dag PASS AT THE PIN;
+**54/54 verifier runs PASS** (verify.py + verify_audit.py on all 27
+nodes, background batch, RAMGUARD_TIMEOUT=2400). Census unchanged
+231 = 167/36/28 (background-only additions); post-merge verify
+chain green.
+
+**PROCESS EVENT, SURFACED: Codex pushed the export itself.** Two
+commits on fork/k3-433-progress-export (1b866634 cell-9 cert,
+e1e7d263 cell-3 cert) minutes after banking the closures — PR
+#1152 now titled "cells 3, 4, 9, and 12-13 closed". COORDINATOR
+AUDIT OF THE PUSHED CERTS: convention-compliant (#1144 shape,
+K3_closed false, honest nonclaims incl. "fresh independent proof
+review required", provenance pins the exact worktree commits,
+per-node verify sha256 — spot-checked EXACT). The pinned commits
+became publicly reachable with THIS wave's master push (the certs'
+replay instructions were dangling until then — the one real gap in
+self-pushing). PENDING USER: ratify Codex push-on-close for this
+living PR (coordinator recommends YES, scoped to PR #1152 only,
+with same-day coordinator audit + fix-forward), or re-assert
+coordinator-only pushes.
