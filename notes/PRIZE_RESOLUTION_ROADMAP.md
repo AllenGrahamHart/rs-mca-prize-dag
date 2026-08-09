@@ -22208,6 +22208,35 @@ compute:                   Modal apps ap-w96YfyWkENePqJaMF2iO5T, ap-Gj4xyIkqUpZb
 live compute requests:     none
 next:                      classify and attack the pairing-3 representative
 ```
+
+### Cell-9 reciprocal-square pairing-3 payment
+
+The cell-4 reciprocal-square elimination transports cleanly to all six
+exact cell-9 charts. All 48 source-sign, `sigma_c`, and chart rows terminate
+excluded in two canonical shards, with every exceptional row paid.
+
+Independent Frobenius-gcd custody covers 69 profiles, 324 roots, and
+degrees through 1,428. Separate direct replay reconstructs 672 source
+routes, 96 reciprocal lifts, and both final target lanes at each lift. All
+192 antipodal/outside `q` intersections are empty.
+
+Universal transport pays `{(3,3),(3,6),(4,3),(4,6)}`. Cell `9` now has
+five representatives and 20 labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              ec4c1ace0
+canonical prize pin:       77f643a377
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED reciprocal-square pairing-3/6 class; 6 -> 5 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact reciprocal-square six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-SJlsfxUgYEzzlemUqv8nKr, ap-1MlKMhkFELvgKYhCtdN8T9, ap-ym5xoxlzFZtIvTrccBGyrX, ap-X9Gs8vQB9ynZY3gWc5oLEB
+live compute requests:     none
+next:                      classify and attack the pairing-4 representative
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

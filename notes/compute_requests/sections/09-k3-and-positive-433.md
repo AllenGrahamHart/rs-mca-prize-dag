@@ -2043,3 +2043,22 @@ proved owners.
 Universal transport closes the two-label orbit represented by `(3,2)`,
 namely `{(3,2),(4,2)}`. Cell `9` retains six representatives and 24 labels.
 The next canonical DF/EF representative is `(3,3)`.
+
+**Cell-9 reciprocal-square pairing-3 closure.** Six-chart pilot app
+`ap-SJlsfxUgYEzzlemUqv8nKr` closed all six rows. Full unordered app
+`ap-1MlKMhkFELvgKYhCtdN8T9` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness or
+unresolved branch. The 3,385,114-byte primary ledger is split into two
+independently verified shards.
+
+Independent FLINT app `ap-ym5xoxlzFZtIvTrccBGyrX` reconstructed 69
+norm/inverse profiles, 324 deployed roots, and degrees through 1,428.
+Independent app `ap-X9Gs8vQB9ynZY3gWc5oLEB` checked 672 source routes,
+896 candidate roots, 96 common reciprocal roots, and 192 final lane
+records. Every antipodal/outside `q` intersection is empty. It also joins
+48 `b`-leading, 96 `c`-leading, and 96 regularized-base payments to proved
+owners.
+
+Universal transport closes `{(3,3),(3,6),(4,3),(4,6)}`. Cell `9` retains
+five representatives and 20 labels. The next canonical representative is
+`(3,4)`.
