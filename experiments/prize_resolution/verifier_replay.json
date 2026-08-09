@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion/verify.py",
-      "seconds": 0.050317,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.066581,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 parallel-DE pairing 3/6: rows=32 candidates=544 f=144\n"
+      "stdout_tail": "PASS cell-12 parallel-DE pairing 4/7/9/10: rows=32 candidates=720 uf=1680\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion/verify_audit.py",
-      "seconds": 25.220488,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 47.766567,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS pairing-3 adapter audit: profiles=320 unique=49 boundary=32 uv=96 f=144 colored=96\n"
+      "stdout_tail": "PASS pairing-4 adapter audit: profiles=320 unique=37 boundary=32 uf=1680 lifts=176 colored=128\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

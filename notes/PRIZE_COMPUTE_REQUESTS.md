@@ -12286,3 +12286,33 @@ replays every first-pair quadratic, missing-sum equation, `f` lift, and final
 colored pair. Exact transports close six labels in the two generic orbits
 represented by `(0,3)` and `(2,3)`. Cell `12` now has nine representatives
 and 30 labels open, all in the parallel-`DE` family.
+
+**Parallel-DE pairing-4/7/9/10 closure.** The degree-eight sibling retains
+`u=df` and `f` as the two variables. Its first two paired cuts are quadratic,
+and its missing-sum condition is
+
+```text
+(u^2+eta*de*f^2)^2-S*f^2*u^2=0.
+```
+
+Pilot app `ap-KpOrM5LVlae8Q2sHw2KwKc` completed one row before full app
+`ap-nSaTGMm4A5XeVgaDH7P2za` covered all 32 source-sign, target-lane, and
+`xi in {0,2}` rows. One preempted primary shard restarted transparently. The
+exact packet has 496 target-norm roots, 720 total norm/inverse candidates,
+1,152 guarded source points, and 1,680 Cartesian `(u,f)` rows. Of these,
+1,504 fail the missing relation, 128 have a nonzero colored-pair cut, and 48
+hit the explicit `f=0` target boundary. There is no colored solution,
+witness, or unresolved branch; 32 free-`b` exits lie on the proved leading
+boundary.
+
+External reconstruction app `ap-FhlAVavM8pW1fbbjGHMwpJ` covers all 37
+degree-at-most-9,564 profiles and 252 roots by computing
+`gcd(P,x^p-x)` and factoring its square-free linear part in FLINT. This is an
+external custody and completeness check, not an independent-library root
+algorithm. The bounded local audit independently evaluates every reported
+root by sparse Horner replay and directly checks all paired quadratics,
+missing relations, recovered variables, colored cuts, and boundaries. Exact
+generic transport closes the eight labels in the two orbits represented by
+`(0,4)` and `(2,4)`. Cell `12` now has seven representatives and 22 labels
+open, all in the parallel-`DE` family. The retained campaign used bounded
+parallel Modal jobs and was estimated in the low single-digit-dollar range.
