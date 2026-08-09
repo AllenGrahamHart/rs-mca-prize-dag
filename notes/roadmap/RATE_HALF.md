@@ -87,6 +87,12 @@ The next step for orbit `[9,10]` is the global coefficient kernel followed by
 source-only outside cuts and a generic-label quotient.  No cell-9 outside
 label is paid yet.
 
+The cell-9 global coefficient kernel is also complete.  Its first six
+coordinates are sign-independent, its last two exchange with the first
+source sign, seven common rows vanish formally, and the other three vanish
+modulo every global common ideal.  The active frontier is now the seven
+source-only outside compatibility cuts induced by this kernel.
+
 ## Node hierarchy
 
 ```text
@@ -185,7 +191,9 @@ cell-4 four-basis tower
                      |
        cell-9 global five-relation common curve    [PROVED]
                      |
-       build kernel and attack cell-9 outside labels [NEXT]
+       global cell-9 coefficient kernel             [PROVED]
+                     |
+       derive source cuts and attack outside labels [NEXT]
                      |
        audit role orbits [5,8], [11]               [OPEN]
 ```
