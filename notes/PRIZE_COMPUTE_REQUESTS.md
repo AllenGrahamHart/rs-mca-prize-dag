@@ -12850,3 +12850,24 @@ cuts are nonzero. The audit also joins 48 `b`-leading, 96 `c`-leading, and
 Universal transport closes `{(3,7),(3,10),(4,7),(4,10)}`. Cell `9`
 retains two representatives and eight labels. The next canonical
 representative is `(3,8)`.
+
+**Cell-9 quadratic-resultant sign-free pairing-8 closure.** Pairing 8
+reverses the two inner `q` signs relative to pairing 7. Pilot app
+`ap-YoIJpHmeajZbPglBqrWHD2` closed its row. Full app
+`ap-FbTkYWrElchR6Mx8wdwgzF` then completed all 48 source-sign,
+`sigma_c`, and chart rows, with 240 paid boundary records and no witness or
+unresolved branch. The 9,244,084-byte primary ledger is split into two
+digest-pinned shards.
+
+Independent FLINT app `ap-6lGJT5DUhdaFddnBQUwyfv` reconstructed 65
+profiles, 300 deployed roots, and degrees through 5,052. Independent app
+`ap-rhbO91P4fvUFI2ydw58urn` checked 816 source routes, 872 candidate
+roots, and all 1,824 missing-quartic reciprocal lifts under the reversed
+sign convention. The two quadratic pair equations retain 240 common `q`
+roots; all 480 direct final target-lane cuts are nonzero. The audit also
+joins 48 `b`-leading, 96 `c`-leading, and 96 regularized-base payments to
+proved owners.
+
+Universal transport closes `{(3,8),(3,13),(4,8),(4,13)}`. Cell `9`
+retains one representative and four labels. The final representative is
+`(3,11)`.

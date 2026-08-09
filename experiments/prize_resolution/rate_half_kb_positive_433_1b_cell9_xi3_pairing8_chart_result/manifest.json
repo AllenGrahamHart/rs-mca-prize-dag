@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "format": "jsonl",
+  "metadata": {
+    "field": 2130706433,
+    "scope": "Exact six-chart execution of the pinned quadratic-resultant sign-free compiler for cell-9 xi=3, pairing=8.",
+    "source_base_sha256": "4197b0413cfae562589351850cf937c5a0aaca9dc021e30d8ff360bebdb64993",
+    "source_kernel_sha256": "725b81912d1999314eeef826355b2de35c22d01e956e27bbf4bed5b980d9d0bd",
+    "source_template_sha256": "58ed9e191436e0a629d2c7a263151d50d54910d226eee4c35c0bb55abf2a1b8b",
+    "source_tower_sha256": "8cf1f6a2bd3d1bc7204b803e5795bbeb9d7d82f9d563bc6602a5b3d57d67818b"
+  },
+  "schema": "prize-sharded-result-v1",
+  "shards": [
+    {
+      "bytes": 6153163,
+      "path": "shards/part-00000.jsonl",
+      "records": 32,
+      "sha256": "d582b92695159ff67b3aac5a408660269c8f76817f3fda81eb9202dff385126f"
+    },
+    {
+      "bytes": 3090921,
+      "path": "shards/part-00001.jsonl",
+      "records": 16,
+      "sha256": "c43694d29135eca9245887dc3e144e62722014db0db931c026df7c5743da2bd7"
+    }
+  ],
+  "total_bytes": 9244084,
+  "total_records": 48
+}

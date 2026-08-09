@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify.py",
-      "seconds": 0.187374,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify.py",
+      "seconds": 0.38655,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 xi3 pairing-7 quadratic-resultant exclusion: rows=48 routes=816 z=1824 q=240 lanes=480 labels=4\n"
+      "stdout_tail": "PASS cell-9 xi3 pairing-8 quadratic-resultant exclusion: rows=48 routes=816 z=1824 q=240 lanes=480 labels=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify_audit.py",
-      "seconds": 0.120016,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify_audit.py",
+      "seconds": 0.207681,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-9 xi3 pairing-7 cross-audit: charts=6 profiles=65 lanes=480 hostile=detected\n"
+      "stdout_tail": "PASS cell-9 xi3 pairing-8 cross-audit: charts=6 profiles=65 lanes=480 hostile=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

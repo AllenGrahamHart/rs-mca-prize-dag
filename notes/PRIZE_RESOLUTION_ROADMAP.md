@@ -22331,6 +22331,39 @@ compute:                   Modal apps ap-iOTxLlpbijYw7HfAgq5QMe, ap-JAQJTTMUz8Y6
 live compute requests:     none
 next:                      classify and attack the pairing-8 representative
 ```
+
+### Cell-9 quadratic-resultant sign-free pairing-8 payment
+
+The cell-4 pairing-8 quadratic-resultant elimination transports to all six
+exact cell-9 charts. Pairing 8 reverses the two inner `q` signs relative to
+pairing 7. The pilot closed its row, and the full cover completed all 48
+source-sign, `sigma_c`, and chart rows in two canonical shards, with no
+witness or unresolved branch.
+
+Independent Frobenius-gcd custody covers 65 profiles, 300 roots, and degrees
+through 5,052. Separate direct replay reconstructs 816 source routes and all
+1,824 missing-quartic reciprocal lifts under the reversed sign convention.
+The two quadratic pair equations retain 240 common `q` roots; direct
+evaluation of both target lanes gives 480 nonzero final-pair cuts and no
+solution.
+
+Universal transport pays `{(3,8),(3,13),(4,8),(4,13)}`. Cell `9` now has
+one representative and four labels open. Upstream K3 export PR #1152
+remains the intended export lane.
+
+```text
+starting pin:              abfe816a7
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED quadratic-resultant pairing-8/13 class; 2 -> 1 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact quadratic-resultant six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-YoIJpHmeajZbPglBqrWHD2, ap-FbTkYWrElchR6Mx8wdwgzF, ap-6lGJT5DUhdaFddnBQUwyfv, ap-rhbO91P4fvUFI2ydw58urn
+live compute requests:     none
+next:                      classify and attack the final pairing-11 representative
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
