@@ -13016,3 +13016,22 @@ roots, and degrees through 508. Dedicated direct replay
 ledgers. Exact transport pays four labels in two orbits, leaving 24 labels in
 6 active cell-5 orbits. No rerun is requested; the next bounded family is
 `xi=3` pairings `3/4/5`.
+
+**Cell-5 xi3 pairings-3/4/5 payments.** Pairing-3 pilot
+`ap-MPpRkT66xLx6Ds86ClR7ax` and full app
+`ap-H0IIW2thzDFwlMIUs1N0Ig` closed all 8 rows with 88 candidates and 80
+guarded routes. Pairing-4 pilot `ap-Ecx21odPCc08JkqkmHRaZb` and full app
+`ap-XadN0KGQxn6OQnBbxLkk8c` closed all 4 rows with 80 candidates, 144
+guarded routes, 24 compatible `q` lifts, and 96 nonzero final lanes.
+Pairing-5 pilot `ap-Jdx1xl0uXWxWByUY2zolSb` and full app
+`ap-5fFJNffd0PbaElqqI84YVS` closed all 8 rows with 128 candidates and 208
+guarded routes.
+
+Independent root app `ap-YDq3UwLeD4BRPYUnsWYE5t` wrote a complete packet
+covering 69 profiles, 332 deployed roots, and degrees through 4560 before
+the local Modal client was interrupted. Its retained sha256 is
+`c4e2d14ca8bec16eaed65c40191fc70a1844bf086754c8a124118fa6b9f2f0c3`.
+Dedicated direct replay `ap-yfMG7vQfVKsexBoGGb4Jxu` consumed that exact
+packet and passed every pairing-separated ledger. Exact transport pays 12
+labels in three orbits, leaving 12 labels in 3 active cell-5 orbits. No
+rerun is requested; the next bounded family is `xi=3` pairings `7/8/11`.

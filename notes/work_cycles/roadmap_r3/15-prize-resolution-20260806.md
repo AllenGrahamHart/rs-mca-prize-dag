@@ -4910,3 +4910,46 @@ compute:                   ap-nmQOvYZaed4IjqgLRQJaS0, ap-oazobs3PP680DoKqwwUjCi,
 live compute requests:     none
 next:                      attack xi3 pairings 3, 4, and 5
 ```
+
+### Role-orbit [5,8] xi3 pairings-3/4/5 payments
+
+Three small nodes now own one exact four-label orbit each. Pairing 3 closes
+all 8 source-sign/`sigma_c` rows with 32 target roots, 88 candidates, and
+80 guarded routes; its direct replay finds no compatible `q` lift. Pairing
+4 closes all 4 source-sign rows with 40 target roots, 80 candidates, and 144
+guarded routes; direct replay checks 352 nested intersections, retains 24
+`q` lifts, and proves all 96 final colored lanes nonzero. Pairing 5 closes
+all 8 source-sign/`sigma_c` rows with 48 target roots, 128 candidates, and
+208 guarded routes; direct replay checks 320 nested intersections and finds
+no compatible `q` lift.
+
+Independent SymPy/Galois-tools reconstruction covers the shared packet's 69
+profiles, 332 deployed roots, and degrees through 4560. The reconstruction
+packet was written before its Modal client was interrupted; the dedicated
+direct audit subsequently consumed that exact hash and passed. Universal
+transport pays
+`{(3,3),(3,6),(4,3),(4,6)}`,
+`{(3,4),(3,9),(4,4),(4,9)}`, and
+`{(3,5),(3,12),(4,5),(4,12)}`. Cell 5 has now paid 63 of 75 active
+labels in 21 of 24 orbits. The remaining 12 labels are the three `xi=3`
+orbits represented by pairings `7`, `8`, and `11`.
+
+```text
+starting pin:              91e580f19
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-3/6 reciprocal-square exclusion PROVED
+                           cell-5 xi3 pairing-4/9 nested sign-free exclusion PROVED
+                           cell-5 xi3 pairing-5/12 nested sign-free exclusion PROVED
+DAG status delta:          +3 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-H0IIW2thzDFwlMIUs1N0Ig,
+                           ap-XadN0KGQxn6OQnBbxLkk8c,
+                           ap-5fFJNffd0PbaElqqI84YVS,
+                           ap-YDq3UwLeD4BRPYUnsWYE5t,
+                           ap-yfMG7vQfVKsexBoGGb4Jxu
+live compute requests:     none
+next:                      attack xi3 pairings 7, 8, and 11
+```

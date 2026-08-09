@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-5 xi3/xi4 pairing-5/12 nested sign-free exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of the xi=3/4 pairing-5/12 label orbit in cell 5",
+    "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 5, the xi=3 pairing-5 label is empty over the deployed field. Eight exact source-sign/sigma_c rows contain 48 target roots, 128 candidate roots, and 208 guarded source routes. Their finite ledger has 176 checked points, 16 missing-impossible exits, 16 target-product boundaries, 40 r-boundaries, 32 t-boundaries, and 40 no-b lifts. Independent reconstruction covers the shared 69-profile, 332-root packet through degree 4560; a separate direct replay checks 320 z-root intersections and finds no compatible q lift or witness. Exact outside-role transport closes {(3,5),(3,12),(4,5),(4,12)}. Together with the earlier cell-5 packets, 12 labels in 3 active orbits remain; no other matching or cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing5_template_adapter_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairing5_template_adapter_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings3_5_independent_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings3_5_independent_roots_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings3_5_direct_audit_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell5_xi3_pairings3_5_direct_audit_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_xi3_pairing5_nested_signfree_modal.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}
