@@ -23848,17 +23848,36 @@ no-`b` exits. Independent apps `ap-o7XtMQ7CuyhB7S6MVpI3GJ` and
 degree 6510, and the complete direct replay. Outside-role transport pays the
 twelve labels in the pairing-3/6, pairing-4/9, and pairing-5/12 orbits.
 
+The final quadratic-resultant packet closes outside pairings 7, 8, and 11.
+Pairings 7 and 8 each have 8 rows, 88 target roots, 124 candidates, 144
+routes, 64 compatible `q` lifts, and 128 nonzero final lanes. Pairing 11 has
+8 rows, 64 target roots, 100 candidates, 80 routes, 16 lifts, and 32 nonzero
+lanes. Each pairing also pays 16 exact cell-11 leading boundaries. Full apps
+`ap-ahB3FdCNoaiERxtJIcNC5S`, `ap-jjRHWhngbrhZi3Hi5SG0vT`, and
+`ap-3EuijW7G1y3wnyCiCidzdy` close all 24 rows. Independent app
+`ap-B1J6bxiNSGjnN5683JO3oD` reconstructs the shared 61-profile, 302-root
+packet through degree 5192; three local direct audits replay all original
+paired-scalar equations and leading-boundary payments.
+
+Transport pays the last twelve active labels. A separate aggregate verifier
+then checks that 16 proved owner packets pay exactly one representative of
+all 24 active quotient orbits, hence all 75 active labels. Composing that
+theorem with the earlier 30-label endpoint theorem gives a disjoint
+`75+30=105` cover. Positive `433-1b` source-role cell 11 is therefore PROVED
+complete at 105/105 raw labels. This is a source-cell theorem only; the K3
+raw-label-to-distinct-affine-slope conversion remains open.
+
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       93/105 closed
-active quotient frontier: 3 outside-role representatives / 12 labels
-DAG status delta:         +16 background PROVED; critical child unchanged
-upstream terminal delta:  partial source-cell packet; no slope conversion
+cell-11 raw labels:       105/105 closed
+active quotient frontier: 0 outside-role representatives / 0 labels
+DAG status delta:         +21 background PROVED; critical child unchanged
+upstream terminal delta:  complete source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
                           ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
                           ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
-next:                     outside-role pairings `7/8/11`
+next:                     complete workboard aggregate and labels-to-slopes audit
 ```
