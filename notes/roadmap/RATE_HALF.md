@@ -98,8 +98,10 @@ pointwise kernel with nonzero `A(-t^2)`.  All `3360/3360` all-role systems at
 those regularized points are unit.  Thus the exceptional source stratum is
 closed for every role and the endpoint roles `BF` and `sigma_c CF` are
 completely empty: 30 of 105 raw cell-9 labels are paid.  The active cell-9
-frontier is the 75 leading-open labels in the other five roles, preferably
-after a generic matching/label quotient rather than a raw census.
+frontier is the 75 leading-open labels in the other five roles.  The two
+universal outside-record involutions now partition those labels into exactly
+24 orbits with profile `1:1,2:9,4:14`; one representative per orbit is the
+complete remaining cell-9 workload.
 
 ## Node hierarchy
 
@@ -211,7 +213,11 @@ cell-4 four-basis tower
                      |
        complete endpoint-role exclusion: 30 labels  [PROVED]
                      |
-       quotient/attack five leading-open roles       [NEXT]
+       universal 105-to-36 label quotient            [PROVED]
+                     |
+       cell-9 remaining 75-to-24 quotient            [PROVED]
+                     |
+       attack 24 leading-open representatives        [NEXT]
                      |
        audit role orbits [5,8], [11]               [OPEN]
 ```
@@ -233,6 +239,7 @@ The paid cell-12 theorem, exact cell-13 transport, and global rank-drop
 theorem now close cell 13 as well. Move to the three remaining role orbits
 before launching any new matching-level census.  In cell 9, do not revisit
 the section-base points or endpoint roles; derive a quotient and source cuts
-for the five remaining leading-open roles. Modal jobs must remain
+for the five remaining leading-open roles.  The quotient is now paid, so
+schedule only the 24 canonical representatives. Modal jobs must remain
 route-deciding and within the active protocol budget; larger campaigns go to
 the deferred compute ledger.

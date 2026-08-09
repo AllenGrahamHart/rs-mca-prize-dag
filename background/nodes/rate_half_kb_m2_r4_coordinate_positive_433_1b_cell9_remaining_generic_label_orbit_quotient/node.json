@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-9 remaining-label quotient",
+    "status": "PROVED",
+    "closure": "exact reduction of the 75 open leading-cell-9 labels to 24 representatives",
+    "statement": "After complete exclusion of the 30 endpoint labels and the all-role section-base stratum, the cell-9 outside frontier consists of 75 leading-open labels in roles xi=0,...,4. The universal outside-label action partitions this invariant set into exactly 24 orbits with size profile 1:1, 2:9, 4:14. Therefore one leading-open exclusion per representative suffices to close all remaining cell-9 labels. This node closes no one of those 24 representatives.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}
