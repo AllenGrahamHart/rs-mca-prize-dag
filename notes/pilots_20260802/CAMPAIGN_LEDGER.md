@@ -4151,3 +4151,31 @@ blind direction. Replays: all four scripts byte-identical. 9 HIT /
 exact real-parameter computation). Addendum applied; no status
 flips. Files:
 notes/pilots_20260809/cancellation_recon/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 27 BANK 3/4 — nonpoly_flank_census (2026-08-09, coordinator)
+
+**BANKED: the flank censused — NON-EMPTY but the falsifier does NOT
+fire.** The FM law held EXACTLY 58/58 (delta-independence PROVED —
+the model transfers to the flank with zero correction); THEOREM CAP
+SCOPE-LIMITED to slack 0: off-stratum the max exceeds the plateau,
+char-0, two fields, two scales (n=8 +0.737 bits; n=16 delta=1
+F_SUBSET 46 vs 35 — exact max over 1.036e8 word classes, identical
+at q=10177/10193, coordinator-verified in both maxscan files;
+maximal slack 67 two-field). Explicit maximizer: the ANTIPODAL-PAIR
+LOCATOR. Flank parameterized exactly (positive slack; giant slack =
+arbitrary received words; planted-hybrid = the support sub-class);
+the WINDOW-SHIFT reduction proved (flank = the width-t window
+shifted by delta) + dedup law + PRESCRIBED-SUM THEOREM P4 (v=0
+optimal, 3 scales — the C1-flank escape generalization CLOSED).
+NAMED RESIDUAL: arbitrary-word max scaling UNDETERMINED (delta=1
+mechanism collapses to 2^-500 at prize scale; maximal-slack GREW
++0.74 -> +0.94/1.25 over 2 scales) — deciding run = exact n=32 t=1
+maxscan, Modal-class. Price 2^-5.2/-5.3 verified = ONE quantity at
+the two slice ends; flank does not multiply trials; hatch 133.3
+bits from mattering. Pilot: own registered reduction REFUTED by own
+census (reported first, obstruction named: delta-dimensional affine
+admissible set); 5 self-corrections. Replays: 31-cell n=8 census
+byte-identical; price/deficit re-derived (two coordinator
+arithmetic slips en route, caught + corrected against the pilot's
+numbers). Addendum applied; no status flips. Files:
+notes/pilots_20260809/nonpoly_flank_census/{REPORT.md,FABLE_AUDIT.md}.

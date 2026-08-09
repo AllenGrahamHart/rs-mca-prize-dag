@@ -1,0 +1,236 @@
+{
+ "S3a_char0": [
+  {
+   "N": 8,
+   "h": 4,
+   "distinct_sums": 41,
+   "max_mult": 6,
+   "mult_at_zero": 6,
+   "pred_max": 6,
+   "argmax_is_zero": true,
+   "max_mult_nonzero_v": 2,
+   "P4_exact": true,
+   "P4_failures": []
+  },
+  {
+   "N": 16,
+   "h": 8,
+   "distinct_sums": 3281,
+   "max_mult": 70,
+   "mult_at_zero": 70,
+   "pred_max": 70,
+   "argmax_is_zero": true,
+   "max_mult_nonzero_v": 20,
+   "P4_exact": true,
+   "P4_failures": []
+  }
+ ],
+ "S3b_ladder_N8": {
+  "n_primes": 203,
+  "sporadic_total": 0,
+  "sporadic_v_total": 0,
+  "first_moment_total": 3.866657491547045,
+  "n_rows_argmax_zero": 203,
+  "n_starved": 203,
+  "max_sporadic_any_row": 0,
+  "max_sporadic_v_any_row": 0,
+  "rows_with_sporadic": [],
+  "rows_with_sporadic_v": []
+ },
+ "S3b_ladder_N16": {
+  "n_primes": 63,
+  "sporadic_total": 188,
+  "sporadic_v_total": 189,
+  "first_moment_total": 406.2303749993532,
+  "n_rows_argmax_zero": 62,
+  "n_starved": 14,
+  "max_sporadic_any_row": 144,
+  "max_sporadic_v_any_row": 144,
+  "rows_with_sporadic": [
+   {
+    "q": 17,
+    "zerosum": 179,
+    "floor": 35,
+    "sporadic": 144,
+    "max_over_v": 179,
+    "sporadic_v": 144,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 176.64705882352942
+   },
+   {
+    "q": 97,
+    "zerosum": 63,
+    "floor": 35,
+    "sporadic": 28,
+    "max_over_v": 63,
+    "sporadic_v": 28,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 30.95876288659794
+   },
+   {
+    "q": 113,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 40,
+    "sporadic_v": 5,
+    "argmax_is_zero": false,
+    "starved": false,
+    "first_moment": 26.575221238938052
+   },
+   {
+    "q": 193,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 15.55958549222798
+   },
+   {
+    "q": 353,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 8.507082152974505
+   },
+   {
+    "q": 577,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 5.204506065857886
+   }
+  ],
+  "rows_with_sporadic_v": [
+   {
+    "q": 17,
+    "zerosum": 179,
+    "floor": 35,
+    "sporadic": 144,
+    "max_over_v": 179,
+    "sporadic_v": 144,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 176.64705882352942
+   },
+   {
+    "q": 97,
+    "zerosum": 63,
+    "floor": 35,
+    "sporadic": 28,
+    "max_over_v": 63,
+    "sporadic_v": 28,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 30.95876288659794
+   },
+   {
+    "q": 113,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 40,
+    "sporadic_v": 5,
+    "argmax_is_zero": false,
+    "starved": false,
+    "first_moment": 26.575221238938052
+   },
+   {
+    "q": 193,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 15.55958549222798
+   },
+   {
+    "q": 353,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 8.507082152974505
+   },
+   {
+    "q": 577,
+    "zerosum": 39,
+    "floor": 35,
+    "sporadic": 4,
+    "max_over_v": 39,
+    "sporadic_v": 4,
+    "argmax_is_zero": true,
+    "starved": false,
+    "first_moment": 5.204506065857886
+   }
+  ]
+ },
+ "S3c_N32": [
+  {
+   "N": 32,
+   "h": 16,
+   "q": 1099511627873,
+   "pred_zero": 12870,
+   "mult_zero": 12870,
+   "mult_single_root": [
+    0,
+    0,
+    0
+   ],
+   "mult_two_roots": [
+    3432,
+    3432,
+    3432
+   ],
+   "mult_random": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "pred_single_root": 0
+  }
+ ],
+ "D4": {
+  "source": "critical/nodes/rate_half_band_closure/notes/witness_hunt_20260712/rh_c1_c2_zerosum_n64.py:194",
+  "quoted_script": "at razor q ~ 2^256 expected ~ C(255,128)/q ~ 2^-5.3",
+  "quoted_quality": "q-sporadic hatch priced ~2^-5.2/row",
+  "lg_C255_128": 250.67284305697086,
+  "lg_C254_128": 249.6671743068842,
+  "lg_C127_64": 123.17143420017378,
+  "price_razor bottom lg q = 255.900": -5.227156943029144,
+  "price_C254_razor bottom lg q = 255.900": -6.232825693115814,
+  "price_razor top    lg q = 256.000": -5.327156943029138,
+  "price_C254_razor top    lg q = 256.000": -6.332825693115808,
+  "deficit_bits_bottom (need = 2^127.900)": 4.728565799826228,
+  "members_needed_bottom (need = 2^127.900)": 127.9,
+  "deficit_bits_top    (need = 2^128.000)": 4.828565799826222,
+  "members_needed_top    (need = 2^128.000)": 128.0,
+  "hatch_to_deficit_gap_bits_top": 10.15572274285536,
+  "note": "the price is the FIRST MOMENT of the NUMBER of sporadic members per row; closing the band needs need-supply members",
+  "members_needed_top": 127.9483122107156,
+  "members_needed_bottom": 127.84453018918435
+ }
+}

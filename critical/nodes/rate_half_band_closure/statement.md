@@ -325,3 +325,71 @@ replays: all four scripts byte-identical; the simple-pole proof
 mechanism verified verbatim. No status flip. Source:
 notes/pilots_20260809/cancellation_recon/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: nonpoly_flank_census — the flank censused; THEOREM CAP scope-limited; the falsifier does NOT fire)
+
+**The named residual hunt space is now parameterized, censused, and
+NON-EMPTY — but the node's pre-registered falsifier does NOT fire.**
+The first-moment law held EXACTLY in 58/58 exhaustive cells
+(delta-independence proved: every term of the stratum total carries
+q^{k-i}, so the FM model transfers to the flank with ZERO
+correction), F_MAX <= B_pois in every exhaustive cell, and the
+sporadic ladder is empty in every starved row to q ~ 2^40. What IS
+new: **THEOREM CAP is scope-limited to slack 0.** Off that stratum
+the exact maximum exceeds the plateau — char-0 (q-stable), two
+independent fields, two scales: n=8 +0.737 bits (4 fields); n=16
+delta=1 F_SUBSET = 46 vs plateau 35 (exact max over all 1.036e8
+word classes, IDENTICAL at q=10177 and q=10193 —
+coordinator-verified in both maxscan files), achieved F_LIST 39;
+maximal slack (= ARBITRARY received words) 67 two-field. The
+explicit maximizer is clean: the ANTIPODAL-PAIR LOCATOR
+W = L_{{x,-x}}. The surplus is a max/supply phenomenon at 2 scales
+— not the falsifier's 3-scale mean deviation.
+
+**The flank, parameterized exactly:** every received word is a
+polynomial; the escape class is POSITIVE SLACK delta = deg Y - a in
+[1, n-1-a]; the planted-hybrid family is the SUPPORT SUB-CLASS, not
+the whole class; giant slack saturates at the arbitrary-word set —
+the banked census measured one stratum of a family whose top
+stratum is the prize's own list-side object. **The useful reduction
+(proved):** in complement coordinates the flank is the SAME width-t
+window SHIFTED by delta ([delta+1, delta+t] vs [1, t]). Also
+proved: the dedup law (subset counts = list counts x C(j,a),
+tolerance 0); and the PRESCRIBED-SUM THEOREM P4 (h-subset sum
+multiplicities peak at v=0 ONLY; exhaustive char-0 at N=8/16, exact
+probes at N=32 q~2^40) — the prescribed-nonzero-sum escape
+generalization is CLOSED at three scales.
+
+**THE NAMED RESIDUAL (sharpened, honestly conflicted):** the
+delta=1 mechanism's analytic model matches at n=8/16 then COLLAPSES
+(2^-500 at prize scale — it cannot reach the 4.83-bit need), but
+the maximal-slack surplus GREW over the two measured scales
+(+0.74 -> +0.94/1.25 bits). Two points, both lower bounds,
+different mechanisms: **the scaling of the arbitrary-word maximum
+is UNDETERMINED.** The deciding computation is named: the exact
+n=32, t=1 whole-word-space maxscan (C(32,15) = 5.7e8 per word —
+Modal-class, out of stdlib reach).
+
+**The 2^-5.2 price: verified and explained.** lg C(255,128) =
+250.67284 (coordinator-recomputed); the banked 2^-5.2 and 2^-5.3
+are THE SAME QUANTITY at the two ends of the razor slice (255.900
+vs 256.000). The flank does not multiply the trial count (the
+sporadic event depends on (q,N,h) only); the hatch sits 133.3 bits
+from mattering; the banked R1c kill line stands. The 4.7286-4.8286
+bit deficit vs C(127,64) = 2^123.1714 reproduced exactly
+(coordinator-recomputed) — NOTE per the cancellation_recon
+addendum above: that figure is the WITNESS-SUPPLY gap; the
+LB-floor rung deficit is the separate 11.87-bit figure — two
+different objects on this node, now both priced.
+
+Pilot record: 6 registered predictions HIT (incl. the price within
+0.002 bits), its OWN registered reduction REFUTED by its own
+census (reported first; obstruction named exactly: the flank's
+admissible set is a delta-dimensional affine subspace, not a
+point); 5 self-corrections disclosed (incl. a subset-vs-list
+near-miss and an invalid cross-field RNG comparison caught and
+excluded). Coordinator replays: the 31-cell n=8 exhaustive census
+BYTE-IDENTICAL; the price/deficit arithmetic re-derived; the
+two-field argmax verified in both banked maxscan files. No status
+flip. Source: notes/pilots_20260809/nonpoly_flank_census/
+(REPORT.md, FABLE_AUDIT.md; data/ 12 result files).

@@ -1,0 +1,16 @@
+{
+ "n": 8,
+ "q": 10009,
+ "k": 4,
+ "subsets": 56,
+ "mean_per_class": 0.005594964531921271,
+ "MAX_F_SUBSET_over_all_words": 6,
+ "argmax_W1": 0,
+ "argmax_W2": 1,
+ "per_W1_max_histogram": {
+  "1": 9504,
+  "2": 472,
+  "5": 8,
+  "6": 25
+ }
+}
