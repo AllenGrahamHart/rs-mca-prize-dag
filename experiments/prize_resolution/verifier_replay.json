@@ -2,25 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion/verify.py",
-      "seconds": 0.055848,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/verify.py",
+      "seconds": 0.0219,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS cell-12 positive-DE pairing 12/13: rows=16 candidates=352 uf=1184\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
-      "seconds": 21.592281,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS positive pairing-12 adapter audit: profiles=160 unique=29 boundary=16 uf=1184 lifts=96 colored=96\n"
+      "stdout_tail": "PASS cell-12 assembly: suppliers=17 labels=105 boundary=PROVED\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

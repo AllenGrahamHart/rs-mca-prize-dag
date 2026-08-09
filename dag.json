@@ -29957,6 +29957,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of all 105 generic outside labels and the rational leading-boundary complement in role cell 12",
+   "statement": "Every one of the 105 generic outside-label slices in guarded positive 433-1b to O0a role cell 12 is empty over the deployed field for every source-sign row and target lane, and the rational leading-boundary complement is empty. Seventeen proved suppliers form an exact disjoint 30+9+36+30 partition of the 105 labels. Hence role cell 12 is completely excluded. No other role cell or rate-half band closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion/verify.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "title": "KoalaBear m2 r4 positive 433-1b cell-12 elliptic four-basis common locus",
    "status": "PROVED",
@@ -30082,6 +30101,32 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 parallel-DE pairing-11/14 common-f exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of four parallel-DE labels represented by pairings 11 and 14 in cell 12",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in cell 12, the parallel-DE labels (0,11) and (2,11) are empty over the deployed field. A common-f quadratic resultant is replayed on all 32 source-sign and target-lane rows. The packet has 464 candidates and 592 guarded source points; 96 rows are missing-impossible, 96 are zero-product boundaries, and all 400 remaining source points have no compatible nonboundary quartic survivor. External Frobenius/gcd reconstruction and direct residual replay leave no witness or unresolved branch. Exact duplicate-copy and matching transport close {(0,11),(1,11),(2,11),(2,14)}. No other label or cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_14_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_14_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_common_f_resultant_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing11_common_f_resultant_modal.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-12 parallel-DE pairing-3/6 exclusion",
    "status": "PROVED",
@@ -30179,6 +30224,32 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_positive_de_pairing12_frobenius_roots_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_positive_de_pairing12_frobenius_roots_result.json",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing12_nested_quadratic_modal.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-12 positive-DE pairing-14 common-f exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of the final positive-DE pairing-14 label orbit in cell 12",
+   "statement": "On the guarded product-rank-five positive 433-1b to O0a route in cell 12, the positive parallel-DE label (0,14) is empty over the deployed field. A common-f quadratic resultant is replayed on all 16 source-sign and target-lane rows. The packet has 224 candidates and 304 guarded source points; 48 rows are missing-impossible, 48 are zero-product boundaries, and the remaining points produce 64 compatible quartic lifts. External Frobenius/gcd reconstruction and direct residual replay show that all 64 lifts have nonzero colored-pair cut, with no witness or unresolved branch. Exact duplicate-copy transport closes {(0,14),(1,14)}. No other label or cell closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_positive_de_pairing14_template_adapter_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_positive_de_pairing14_template_adapter_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_14_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_de_pairing11_14_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell12_common_f_resultant_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_positive_de_pairing14_common_f_resultant_modal.py"
    ]
   },
   {
@@ -58979,6 +59050,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -58995,6 +59071,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59058,6 +59139,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -59084,6 +59170,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -59100,6 +59191,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59158,6 +59254,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_endpoint_roles_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -59170,6 +59271,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59190,6 +59296,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59254,6 +59365,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -59270,6 +59386,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59328,9 +59449,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
@@ -59338,9 +59479,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
@@ -59348,14 +59499,39 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing9_10_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
@@ -59370,6 +59546,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59390,6 +59571,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {
@@ -59443,9 +59629,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing11_14_quadratic_resultant_exclusion",
@@ -59453,9 +59649,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing11_14_quadratic_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing3_6_reciprocal_square_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing3_6_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing4_9_nested_signfree_exclusion",
@@ -59463,9 +59669,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing4_9_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing5_12_nested_signfree_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing5_12_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
@@ -59473,9 +59689,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
@@ -59839,6 +60065,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "kind": "req"
   },
@@ -59855,6 +60086,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
    "kind": "req"
   },
   {

@@ -12399,3 +12399,30 @@ all paired quadratics, missing relations, recovered variables, and colored
 cuts. Exact positive-copy and matching transport closes
 `{(0,12),(0,13),(1,12),(1,13)}`. Cell `12` now has three representatives
 and six labels open, all in the parallel-`DE` family.
+
+**Parallel-DE pairing-11/14 closure.** The pinned common-`f` resultant
+compiler was applied to cell 12 for `xi in {0,2}`, pairing 11. Pilot app
+`ap-qhU3vIxx03uikcUop94SSi` excluded its row in about eight seconds of
+algebra. Full app `ap-CYI7KjWXqvk5DnXzQlBPEi` completed all 32 ordered rows;
+one preempted container restarted on the same input and the final packet is
+complete.
+
+The packet has 256 target roots, 464 total norm/inverse candidates, and 592
+guarded source points. Direct replay classifies 96 points as
+missing-impossible and 96 as zero-product boundary; the other 400 have no
+compatible nonboundary quartic survivor. Exact duplicate and matching
+transport closes `{(0,11),(1,11),(2,11),(2,14)}`.
+
+**Positive-DE pairing-14 closure.** Pilot app
+`ap-2FyH4kUBx9MJicqLGVwasG` excluded its row in about eight seconds. Full app
+`ap-UrSRbKCPwD2vHbe07FCUcq` completed all 16 ordered rows. The packet has 120
+target roots, 224 total norm/inverse candidates, and 304 guarded source
+points. Of 64 compatible missing-quartic lifts, all 64 have nonzero colored
+cut. Exact duplicate transport closes `{(0,14),(1,14)}`.
+
+Shared external reconstruction app `ap-4MG5inRmcrsIbWpb0RpR86` covers all 57
+distinct degree-at-most-1,224 profiles and 332 base-field roots by the
+Frobenius/gcd method. The shared local audit evaluates every reported root,
+replays all tower and missing equations, recomputes every quadratic and
+quartic root set, and checks every colored cut. An exact 17-supplier
+`30+9+36+30=105` label assembly now closes cell 12 completely.
