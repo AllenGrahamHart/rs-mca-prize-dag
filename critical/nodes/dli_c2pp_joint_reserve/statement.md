@@ -149,3 +149,88 @@ NO J -> 33 transport licensed and the U-induced skew law declared
 worth escalating. Source: notes/pilots_20260808/c2pp_gb_probe/
 (verify_law ALL CHECKS PASS; analyze criterion scoring;
 coordinator-replayed).
+
+## Round-25 addendum (2026-08-09, coordinator-applied on replay: c2pp_falsifier_redesign — C2''-r3 has a POWERED falsifier and it is SILENT; GB-5's 4.5x repriced)
+
+**(1) THE TELESCOPING LEMMA (C25-1, the enabler):**
+N_{>j-1} = E_j AND N_{>j}, so the window quantity R3_W is EXACTLY
+a difference of two level censuses plus per-level block censuses —
+round 24's wall (each junction squares the census) applies to the
+WINDOW, not to the LEVELS. Verified by independent brute-force
+enumeration of all 2^16 states at four configs (coordinator replay:
+PR-A PASS, positive control 8/8).
+
+**(2) THE FALSIFIER OF RECORD (G-c, level-decay exponent) — the
+first POWERED registered falsifier this conjecture has had.**
+Power-controlled on synthetic true/false worlds BEFORE proposal
+(the round-23 lesson executed): detects floor inflation at
+kappa >= 1/32 and decay excess at delta >= 0.10; against the
+official reserve this makes G-c powered for rows with log2 q <=
+247 (F1) / <= 232 (F2) and BLIND at the knife edge (107/2^33 ~
+1.2e-8 is unresolvable by any toy — registered in advance).
+Coordinator replay: power_results.json IDENTICAL. **VERDICT:
+SILENT** — deep-band alpha/T = 0.9953, 0.9969, 1.0097, 1.0668 at
+the four well-determined cells (tolerance +-10%). Under the
+symmetric not-evidence clause this is a SURVIVED POWERED TEST on
+toy families, not uniform-stacking evidence for the official row.
+
+**(3) GB-5's 4.5x IS A SATURATION ARTEFACT (C25-4).** The banked
+GB-5 cell (n=32, t=16, R3_W = 11.3367) reproduces bit-exactly AND
+is the FULL tower (4 of 4 junctions, not 4 of 33) — but its shape
+n/t = 2 is saturated at every admissible q. At the two cells
+nearest the official shape (n/t = 16 and 8, deep pre-saturation):
+**R3_W = -0.0030 and +0.0004.** The saturated ratio grows ~
+linearly in n (4.6e10 at the official shape) and can show nothing
+else. The round-24 "first non-stacked datapoint, factor 4.5"
+above STANDS AS A MEASUREMENT but its interpretive weight moves
+to the saturated regime, which the official row does not occupy.
+
+**(4) THE ANALYTIC FORM LANDS ON THE OFFICIAL LEDGER (C25-2).**
+The frozen stratum is exactly the e-periodic stratum (e = n/(2t),
+by cyclotomic factorization): Zinf = sigma(u,2T)^e, closed forms
+98/98 exact at n in {16..128}, ALL e in {1,2,4,8} (86/98
+re-verified independently by the coordinator, 0 mismatches,
+timeout-truncated). This stratum IS official_scale.json's coset
+stratum: cells 128, size 2^128, probability 2^-2199023255424, and
+the coset-term formula all rebuilt from toy censuses (5/5,
+coordinator-replayed), and the packet's magic constant is
+explained: **107 = e - 21 = 128 - 21 exactly** (C25-6).
+
+**(5) FIRST ESTIMATE OF THE OFFICIAL JUNCTION SUM [law]:**
+R3_full ~ -0.0066 bits for every admissible q with log2 q <=
+255.9, crossing 21 bits at exactly log2 q = 256 - 107/2^33
+(replayed: reserve-break scale 255.999999987544). Labelled [law]
+throughout: the closed form extrapolated, anchored by the 5/5
+ledger rebuild; the reachable data licenses it for log2 q <= 232;
+on (232, 256] it cannot decide; within 107/2^33 of 256 the law
+itself says the reserve is BROKEN — precisely where the packet's
+two 256-bit rows sit ("exceeds_2^21": true).
+
+**(6) NEW LAWS:** (i) S_inf = 1/ln 2 to full double precision,
+hence R3inf_full(n, n/2) -> 0.4427 n (C25-7); (ii) the freeze law
+is PER-LEVEL, LamStar(lev) ~ (n/t)c_lev — round 24's log2 q >=
+n/t is the lev=0 case; official crossovers 256.0 (lev 0,1) to
+2218 (lev 33), so the official row is pre-saturation at every
+level (STRENGTHENS GB-3) (C25-3).
+
+**(7) NAMED RESIDUAL OBSTRUCTION:** the freeze-tail cutoff law —
+the second census term is not a pure q^{-T} power law; it steepens
+near freeze and terminates in an exact integer cutoff (measured
+freeze scales 14.5..67 vs naive n/T). Unfitted; the next
+theorem-shaped target on this node.
+
+**(8) CATCH C25-5 (constant, sidecar-corrected):**
+notes/pilots_20260802/c2pp_nullity_structure/results/
+official_scale.json line 83 prints "107/2^33 = 1.24556e-05"; the
+true value is 1.245644e-08 (10^3 too large; the FRACTION is
+correct, every formula uses the fraction). Sidecar correction
+filed next to the file; the banked artifact itself left verbatim.
+
+Scope: no status flip; census evidence is evidence, never proof;
+toy-to-official transport of numbers not licensed. Pilot
+self-corrections: 7, all disclosed (incl. two spurious-failure
+episodes caught by its own registered cautions and an invalid
+registered cell dropped as never-measurable, not filtered post
+hoc). Source: notes/pilots_20260809/c2pp_falsifier_redesign/
+(REPORT.md, FABLE_AUDIT.md; PR-A, power control, analytic anchor,
+and 86/98 closed forms coordinator-replayed).

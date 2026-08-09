@@ -3819,3 +3819,44 @@ UPDATED to (b) primary + (a) fallback, (c) withdrawn; THE DECISION
 REMAINS SURFACED TO THE USER. No status flips; census unchanged
 231 = 167/36/28. Files:
 notes/pilots_20260809/large_v2_hunt/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 25 BANK 4/4 — c2pp_falsifier_redesign (2026-08-09, coordinator) — ROUND COMPLETE
+
+**BANKED: mystery 3 moves from "unmeasurable at depth" to "measured,
+with a powered falsifier that stayed SILENT."** C25-1 TELESCOPING
+LEMMA: N_{>j-1} = E_j AND N_{>j}, so R3_W = two level censuses +
+per-level block censuses — round 24's junction-squaring wall applies
+to the WINDOW, not the LEVELS (PR-A brute-force PASS on my replay).
+G-c (level-decay exponent): power-controlled on synthetic worlds
+BEFORE proposal (kappa_det=1/32, delta_det=0.10; powered for official
+log2 q <= 247/232, blind at the knife edge — declared in advance);
+VERDICT SILENT (alpha/T = 0.995-1.067 at the well-determined cells);
+power_results.json IDENTICAL on my fresh replay. C25-4: GB-5's 4.5x
+is a SATURATION ARTEFACT — the official shape is deep pre-saturation
+where measured R3_W ~ 0 (-0.003, +0.0004 at n/t = 16, 8); round-24's
+datapoint stands as measurement, weight moved. C25-2: the e-periodic
+frozen stratum closed form (98/98; 86/98 re-verified by me, 0
+mismatches) IS the official ledger's coset stratum — rebuild 5/5,
+and 107 = e - 21 = 128 - 21 exactly (C25-6). First-ever [law]
+estimate of the official junction sum: ~ -0.0066 bits for log2 q <=
+255.9, crossing 21 at exactly 256 - 107/2^33 (replayed break scale
+255.999999987544); licensed <= 232, undecidable (232, 256], broken
+within 107/2^33 of 256 — where the packet's two 256-bit rows sit.
+New laws: S_inf = 1/ln2 (R3inf ~ 0.4427n); freeze law PER-LEVEL
+(round 24's form = lev 0; strengthens GB-3). Named obstruction: the
+freeze-tail cutoff law. C25-5: official_scale.json:83 decimal 10^3
+too large — sidecar correction filed, JSON verbatim. Symmetric
+not-evidence clause respected: G-c silence = survived powered test
+on toys, NOT official-row evidence. Addendum on
+dli_c2pp_joint_reserve; no status flips; census unchanged 231 =
+167/36/28. Pilot self-corrections: 7, all disclosed. Files:
+notes/pilots_20260809/c2pp_falsifier_redesign/{REPORT.md,FABLE_AUDIT.md}.
+
+**ROUND 25 COMPLETE: 4/4 banked (m7_complement_repose,
+z_n32_band, large_v2_hunt, c2pp_falsifier_redesign). Two kills
+(the mystery-7 re-pose; narrowing option (c)), one wall broken +
+one conjecture repriced weaker (Z-CEILING at N=32), one conjecture
+measurably testable for the first time with its powered falsifier
+silent (C2''-r3). Zero status flips — the round moved evidence and
+instruments, not statuses. PENDING USER DECISION: mystery-5
+narrowing, coordinator now recommends (b) primary + (a) fallback.**
