@@ -22084,6 +22084,38 @@ compute:                   Modal apps ap-k30s4OoGHh4g8jlqgGO4r6, ap-u10ZvqiLA7Qk
 live compute requests:     none
 next:                      apply the positive pairing-14 common-f compiler
 ```
+
+### Cell-9 positive pairing-14 common-f payment
+
+The pinned positive pairing-14 compiler retains its
+quadratic/quadratic/common-resultant profile on all six exact cell-9 charts.
+All 96 positive-role rows terminate excluded in three canonical shards,
+without a recovery run.
+
+Independent Frobenius-gcd custody covers 57 univariate profiles, 244 roots,
+and degrees through 1,372. Separate direct replay checks 1,152 source
+routes, 1,600 candidate roots, 384 common-`f` quartic lifts, every
+chart-leading payment, and every regularized-base payment. All 384 final
+colored cuts are nonzero.
+
+Universal transport pays the two-label orbit represented by `(0,14)`. The
+parallel-DE family is exhausted; cell `9` now has nine DF/EF representatives
+and 30 labels open. Upstream living K3 export PR #1152 explicitly accepts
+incremental cell-9 packets.
+
+```text
+starting pin:              8b9150f35
+canonical prize pin:       246674dc2
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED positive parallel-DE pairing-14 class; 10 -> 9 representatives
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact common-f six-chart packet for living PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-Wnf69ZTPtr4jWvfdm2Dr1G, ap-HCgP5AHlycUB1A9p6eyfDZ, ap-6Uje5hzKGnx3hlWLjej1cW, ap-bJwDmRKrRtgTZWdcO4isdr (metadata diagnostic), ap-VdoQieJQotLgBLuhE8xTLr
+live compute requests:     none
+next:                      apply the reciprocal pairing-0 compiler to the DF/EF representative
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

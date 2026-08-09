@@ -12686,3 +12686,27 @@ proved owners. The audit directly implements matching
 Universal transport closes the positive pairing-12/13 orbit: four labels
 represented by `(0,12)`. Cell `9` retains 10 representatives and 32 labels.
 The final parallel-DE representative is positive pairing `14`.
+
+**Cell-9 positive pairing-14 common-f closure.** Six-chart pilot app
+`ap-Wnf69ZTPtr4jWvfdm2Dr1G` completed all six rows in the
+quadratic/quadratic/common-resultant profile with no survivor. Full
+unordered app `ap-HCgP5AHlycUB1A9p6eyfDZ` then completed all 96 source-sign,
+chart, target-lane rows for positive direct role `xi=0`. Every row is
+excluded, with 480 paid boundary records and no witness, unresolved branch,
+or colored solution. The 5,226,024-byte primary ledger is split into three
+independently verified shards.
+
+Independent FLINT app `ap-6Uje5hzKGnx3hlWLjej1cW` reconstructed 57 distinct
+norm/inverse profiles by Frobenius gcd, finding 244 deployed roots through
+degree 1,372. The first direct-audit app
+`ap-bJwDmRKrRtgTZWdcO4isdr` failed before arithmetic on an exact metadata
+string-order mismatch. Corrected app `ap-VdoQieJQotLgBLuhE8xTLr` checked
+1,152 source routes, 1,600 candidate roots, 384 common-`f` quartic lifts,
+and 384 nonzero colored cuts. It also joined 96 `b`-leading, 192
+`c`-leading, and 192 regularized-base payments to their proved owners. The
+audit directly implements matching `((0,5),(1,4),(2,3))` and the pairing-14
+target equations.
+
+Universal transport closes the positive pairing-14 orbit: two labels
+represented by `(0,14)`. The parallel-DE family is exhausted. Cell `9`
+retains nine representatives and 30 labels, all in the DF/EF family.
