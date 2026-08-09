@@ -12228,3 +12228,21 @@ degree-at-most-4364 profiles and 192 roots. The fast local audit validates
 all 112 profile visits and directly replays every equation at the 16 lifts.
 Exact transports close class `{7,10}` for both missing roles: four labels or
 one generic orbit. Cell `12` now has 13 representatives and 44 labels open.
+
+**Reciprocal-role matching-8/13 closure.** This sign-swapped sibling uses the
+same pinned quadratic-in-`q` resultant and sign-free `z` reduction. Complete
+eight-row app `ap-R1zUSOfqjyRYFhIdmpwhaQ` covers every source-sign and
+`sigma_c` row.
+
+The exact packet has 56 target-norm roots, 112 total norm/inverse candidates,
+160 guarded source points, 16 compatible `(z,q)` lifts, and 32 final
+`sigma_o` lanes. Every final pair is nonzero; eight free-`b` exits lie on the
+proved leading boundary, with no witness or unresolved branch.
+
+Independent root app `ap-76MQUn2Qxxq9Mdkmz9zKJl` reconstructed all 41
+degree-at-most-4364 profiles and 192 roots using a separate SymPy/Galois-tools
+implementation. The fast local audit validates all 112 profile visits and
+directly replays every equation at the 16 lifts with the matching-8 sign
+placement. Exact transports close class `{8,13}` for both missing roles:
+four labels or one generic orbit. Cell `12` now has 12 representatives and
+40 labels open.
