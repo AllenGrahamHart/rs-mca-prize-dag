@@ -867,19 +867,26 @@ checked points have no compatible common-`f` lift; 32 leading payments are
 validated separately. Independent apps `ap-awforC5jf7bqWTpJBBjKYj` and
 `ap-Q6cnEnq3P3Th3x066OGBvc` certify 37 profiles, 150 roots through degree
 1396, and the complete direct replay. Duplicate transport pays `(0,14)` and
-`(1,14)`. The still-open direct-role labels are the two pairing-11/14
-representatives `(0,11)` and `(2,11)`, covering four labels.
+`(1,14)`. The final direct-role pairing-11 packet closes those remaining
+representatives `(0,11)` and `(2,11)`. Its 32 rows contain 216 target roots,
+360 candidates, and 272 guarded source points. The direct replay separates
+64 missing-impossible cases, 64 product boundaries, 64 leading-boundary
+payments, and 144 checked interior cases with no common-`f` lift. External
+apps `ap-K7CqAwIbCnq0ChQgRzWLTN` and `ap-sJivx4sRP3aAe5nk9zNWN4` certify 53
+profiles, 222 roots through degree 1420, and the complete independent replay.
+Transport pays `{(0,11),(1,11),(2,11),(2,14)}`. Every direct-role label is
+therefore closed.
 
 ```text
 lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
-cell-11 raw labels:       71/105 closed
-active quotient frontier: 11 representatives / 34 labels
-DAG status delta:         +10 background PROVED; critical child unchanged
+cell-11 raw labels:       75/105 closed
+active quotient frontier: 9 outside-role representatives / 30 labels
+DAG status delta:         +11 background PROVED; critical child unchanged
 upstream terminal delta:  partial source-cell packet; no slope conversion
 Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
                           ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
                           ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
                           ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7
-next:                     pairing-11/14 reps `(0,11)` and `(2,11)`
+next:                     outside-role reps at pairings `{0,1,2,3,4,5,7,8,11}`
 ```

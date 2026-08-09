@@ -1,0 +1,29 @@
+{
+  "field": 2130706433,
+  "method": "independent Frobenius-root and direct finite-row replay",
+  "schema": "rate-half-kb-positive-433-1b-cell11-de-pairing11-direct-audit-v1",
+  "source_sha256": {
+    "auditor": "d0e72a9d1a2d351cd08b00a0697cb034dac13f6ccc9e6d85628f7bed07582ab7",
+    "kernel": "2ef59a5dd9e656f36fccc63f3c75aaee6889664312928ffe25d0d0816ed16236",
+    "primary": "5582966df3fdcdec3bb5582fe306248406dd67fa3c1824c67ddcd83fb995f6d5",
+    "roots": "b8e5e90d5c1809331d608ede57f3fb2613353f41bc8ce1673b2f1c26ab3593b4",
+    "tower": "8be5facf7fe8e05f9a68fd740964b669e7a47ef2279efbcba504279860717e6a"
+  },
+  "summary": {
+    "candidate_root_count": 360,
+    "checked": 144,
+    "colored_nonzero": 0,
+    "colored_solution_count": 0,
+    "combined_profiles": 53,
+    "leading_boundaries": 64,
+    "missing_impossible": 64,
+    "product_boundaries": 64,
+    "profile_visits": 320,
+    "route_point_count": 272,
+    "rows": 32,
+    "source_point_count": 272,
+    "target_boundaries": 64,
+    "target_root_count": 216,
+    "uf_candidate_count": 0
+  }
+}
