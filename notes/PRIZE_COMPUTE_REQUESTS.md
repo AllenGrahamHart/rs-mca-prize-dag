@@ -12936,3 +12936,12 @@ exit. Independent app `ap-4mJWVSrvvA6XjKAEMgaPUn` reconstructed 41 profiles,
 200 field roots, and degrees through 7,828. Exact transport pays eight active
 labels in two generic orbits, leaving 18 active cell-5 orbits. No rerun is
 requested; the next bounded target is pairing `9`.
+
+**Cell-5 positive parallel-DE pairing-9/10 payment.** Pairing-9 pilot
+`ap-WkEMrol1EtYM5mANO5hZ9x` closed its representative row, and full app
+`ap-6cT9rObjVfDo12A6LtcYIw` closed all 16 rows with 336 candidate roots,
+576 source-route points, 1,184 `(u,f)` rows, and no witness or unresolved
+exit. Independent app `ap-XU03jH3lFC7PuisNoYlWZ7` reconstructed 33 profiles,
+144 field roots, and degrees through 7,690. Exact transport pays four active
+labels in one orbit, leaving 49 labels in 17 active cell-5 orbits. No rerun
+is requested; select the next representative from the exact router.
