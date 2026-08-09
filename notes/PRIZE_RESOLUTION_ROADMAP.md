@@ -22501,6 +22501,35 @@ compute:                   ap-hr8ZV3Nn3WnqYhlclqiGod, ap-BLxgH4LYjVxTzCWUfBDCWn,
 live compute requests:     none
 next:                      attack the two generic pairing-5 representatives
 ```
+
+### Role-orbit [5,8] pairing-5 payment
+
+The row-6 tower also closes all 32 ordered pairing-5 rows. The complete
+packet has 416 target roots, 560 candidate roots, 864 guarded source-route
+points, and 1,424 `(u,f)` rows. Of the 144 rows satisfying the missing
+relation, 48 reach the `f=0` target boundary and 96 have a nonzero final
+colored-pair cut. No witness or unresolved branch remains.
+
+Independent FLINT Frobenius/gcd reconstruction covers 41 unique profiles,
+200 field roots, and degrees through 7,828. Universal transport pays the
+two generic orbits represented by `(0,5)` and `(2,5)`: eight active labels
+at pairings `5/8/12/13`. Across pairings 3, 4, and 5, cell 5 has now paid 22
+active labels in six orbits; 18 active orbits remain.
+
+```text
+starting pin:              994e3b30e
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+result:                    cell-5 pairing-5 transport pays 8 active labels
+DAG status delta:          +1 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-GouG45XwwpCLu2hkcDyCCG, ap-baEsdKRxUzIbKaN1v2gyaH,
+                           ap-4mJWVSrvvA6XjKAEMgaPUn
+live compute requests:     none
+next:                      attack the generic pairing-9 representative
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
