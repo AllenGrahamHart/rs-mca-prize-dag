@@ -1,0 +1,922 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "candidate_root_count": 11,
+      "cut_kind": "opposite",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 409076077,
+          "r": 78594654,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 164459636
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 78594654,
+          "status": "NONZERO",
+          "t": 164459636
+        },
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 986151803,
+          "status": "NONZERO",
+          "t": 56018127
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 281442200,
+          "r": 986151803,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 56018127
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 1689971530,
+          "stage": "B_LEADING",
+          "t": 188031674
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 78594654,
+          "stage": "NO_B",
+          "t": 673712281
+        },
+        {
+          "r": 700051530,
+          "stage": "NO_B",
+          "t": 879708479
+        },
+        {
+          "r": 986151803,
+          "stage": "NO_B",
+          "t": 1933293050
+        },
+        {
+          "r": 1424982279,
+          "stage": "NO_B",
+          "t": 1182295922
+        },
+        {
+          "r": 1424982279,
+          "stage": "NO_B",
+          "t": 1640894882
+        },
+        {
+          "r": 1850468821,
+          "stage": "NO_B",
+          "t": 570403753
+        },
+        {
+          "r": 1850468821,
+          "stage": "NO_B",
+          "t": 951611905
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 700051530,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 1689971530,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 9,
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 409076077,
+          "r": 78594654,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 164459636
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 78594654,
+          "status": "NONZERO",
+          "t": 164459636
+        },
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 986151803,
+          "status": "NONZERO",
+          "t": 56018127
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 281442200,
+          "r": 986151803,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 56018127
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 1689971530,
+          "stage": "B_LEADING",
+          "t": 188031674
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 78594654,
+          "stage": "NO_B",
+          "t": 673712281
+        },
+        {
+          "r": 700051530,
+          "stage": "NO_B",
+          "t": 879708479
+        },
+        {
+          "r": 986151803,
+          "stage": "NO_B",
+          "t": 1933293050
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 700051530,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 1689971530,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 11,
+      "cut_kind": "opposite",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 216618412,
+          "status": "NONZERO",
+          "t": 1966246797
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 1721630356,
+          "r": 216618412,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 1966246797
+        },
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 1849264233,
+          "r": 910655251,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 2074688306
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 910655251,
+          "status": "NONZERO",
+          "t": 2074688306
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 732448698,
+          "stage": "B_LEADING",
+          "t": 1250997954
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 216618412,
+          "stage": "NO_B",
+          "t": 1456994152
+        },
+        {
+          "r": 587309060,
+          "stage": "NO_B",
+          "t": 1179094528
+        },
+        {
+          "r": 587309060,
+          "stage": "NO_B",
+          "t": 1560302680
+        },
+        {
+          "r": 910655251,
+          "stage": "NO_B",
+          "t": 197413383
+        },
+        {
+          "r": 1513149397,
+          "stage": "NO_B",
+          "t": 1942674759
+        },
+        {
+          "r": 1717499075,
+          "stage": "NO_B",
+          "t": 489811551
+        },
+        {
+          "r": 1717499075,
+          "stage": "NO_B",
+          "t": 948410511
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 732448698,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 1513149397,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 9,
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 216618412,
+          "status": "NONZERO",
+          "t": 1966246797
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 1721630356,
+          "r": 216618412,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 1966246797
+        },
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 1849264233,
+          "r": 910655251,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 2074688306
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 910655251,
+          "status": "NONZERO",
+          "t": 2074688306
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 732448698,
+          "stage": "B_LEADING",
+          "t": 1250997954
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 216618412,
+          "stage": "NO_B",
+          "t": 1456994152
+        },
+        {
+          "r": 910655251,
+          "stage": "NO_B",
+          "t": 197413383
+        },
+        {
+          "r": 1513149397,
+          "stage": "NO_B",
+          "t": 1942674759
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 732448698,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 1513149397,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 11,
+      "cut_kind": "opposite",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 1144554630,
+          "status": "NONZERO",
+          "t": 2074688306
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 281442200,
+          "r": 1144554630,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 2074688306
+        },
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 409076077,
+          "r": 2052111779,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 1966246797
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 2052111779,
+          "status": "NONZERO",
+          "t": 1966246797
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 440734903,
+          "stage": "B_LEADING",
+          "t": 1942674759
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 280237612,
+          "stage": "NO_B",
+          "t": 1179094528
+        },
+        {
+          "r": 280237612,
+          "stage": "NO_B",
+          "t": 1560302680
+        },
+        {
+          "r": 705724154,
+          "stage": "NO_B",
+          "t": 489811551
+        },
+        {
+          "r": 705724154,
+          "stage": "NO_B",
+          "t": 948410511
+        },
+        {
+          "r": 1144554630,
+          "stage": "NO_B",
+          "t": 197413383
+        },
+        {
+          "r": 1430654903,
+          "stage": "NO_B",
+          "t": 1250997954
+        },
+        {
+          "r": 2052111779,
+          "stage": "NO_B",
+          "t": 1456994152
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 440734903,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 1430654903,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 9,
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 1144554630,
+          "status": "NONZERO",
+          "t": 2074688306
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 281442200,
+          "r": 1144554630,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 2074688306
+        },
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 409076077,
+          "r": 2052111779,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 1966246797
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 2052111779,
+          "status": "NONZERO",
+          "t": 1966246797
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 440734903,
+          "stage": "B_LEADING",
+          "t": 1942674759
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 1144554630,
+          "stage": "NO_B",
+          "t": 197413383
+        },
+        {
+          "r": 1430654903,
+          "stage": "NO_B",
+          "t": 1250997954
+        },
+        {
+          "r": 2052111779,
+          "stage": "NO_B",
+          "t": 1456994152
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 440734903,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 1430654903,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 11,
+      "cut_kind": "opposite",
+      "epsilon": [
+        1,
+        1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 1849264233,
+          "r": 1220051182,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 56018127
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 1220051182,
+          "status": "NONZERO",
+          "t": 56018127
+        },
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 1914088021,
+          "status": "NONZERO",
+          "t": 164459636
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 1721630356,
+          "r": 1914088021,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 164459636
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 1398257735,
+          "stage": "B_LEADING",
+          "t": 879708479
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 413207358,
+          "stage": "NO_B",
+          "t": 1182295922
+        },
+        {
+          "r": 413207358,
+          "stage": "NO_B",
+          "t": 1640894882
+        },
+        {
+          "r": 617557036,
+          "stage": "NO_B",
+          "t": 188031674
+        },
+        {
+          "r": 1220051182,
+          "stage": "NO_B",
+          "t": 1933293050
+        },
+        {
+          "r": 1543397373,
+          "stage": "NO_B",
+          "t": 570403753
+        },
+        {
+          "r": 1543397373,
+          "stage": "NO_B",
+          "t": 951611905
+        },
+        {
+          "r": 1914088021,
+          "stage": "NO_B",
+          "t": 673712281
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 617557036,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 1398257735,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    },
+    {
+      "candidate_root_count": 9,
+      "cut_kind": "equal_negative",
+      "epsilon": [
+        1,
+        1
+      ],
+      "excluded_generic": true,
+      "finite_rows": [
+        {
+          "b": 1287521889,
+          "c": 2002408386,
+          "missing_numerator": 1849264233,
+          "r": 1220051182,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 56018127
+        },
+        {
+          "b": 1300553599,
+          "c": 110963516,
+          "cut": 1647469789,
+          "missing": 0,
+          "r": 1220051182,
+          "status": "NONZERO",
+          "t": 56018127
+        },
+        {
+          "b": 110963516,
+          "c": 1300553599,
+          "cut": 1523529804,
+          "missing": 0,
+          "r": 1914088021,
+          "status": "NONZERO",
+          "t": 164459636
+        },
+        {
+          "b": 2002408386,
+          "c": 1287521889,
+          "missing_numerator": 1721630356,
+          "r": 1914088021,
+          "status": "MISSING_IMPOSSIBLE",
+          "t": 164459636
+        }
+      ],
+      "leading_boundary": [
+        {
+          "r": 1398257735,
+          "stage": "B_LEADING",
+          "t": 879708479
+        }
+      ],
+      "no_lift": [
+        {
+          "r": 617557036,
+          "stage": "NO_B",
+          "t": 188031674
+        },
+        {
+          "r": 1220051182,
+          "stage": "NO_B",
+          "t": 1933293050
+        },
+        {
+          "r": 1914088021,
+          "stage": "NO_B",
+          "t": 673712281
+        }
+      ],
+      "route_boundary": [
+        {
+          "r": 0,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 1,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 16711679,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 617557036,
+          "stage": "T_GUARD",
+          "t": 16711679
+        },
+        {
+          "r": 1398257735,
+          "stage": "T_GUARD",
+          "t": 2113994754
+        },
+        {
+          "r": 2113994754,
+          "stage": "R_GUARD"
+        },
+        {
+          "r": 2130706432,
+          "stage": "R_GUARD"
+        }
+      ],
+      "status": "COMPLETE",
+      "unresolved": [],
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell11-parallel-de-replay-v1",
+  "scope": "Complete deployed direct replay of every four-basis norm and inverse candidate for the cell-11 first-pair parallel-DE cuts.",
+  "source_kernel_sha256": "2ef59a5dd9e656f36fccc63f3c75aaee6889664312928ffe25d0d0816ed16236",
+  "source_norm_sha256": "fe4eca817b4066455982d2bf5848f9d387945e6a18c4c4d3b68451445120dfed",
+  "source_tower_sha256": "8be5facf7fe8e05f9a68fd740964b669e7a47ef2279efbcba504279860717e6a"
+}

@@ -1,0 +1,210 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "eliminant_degree": 32,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 1932207330,
+          "stage": "NO_B",
+          "t": 1731850669
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        1932207330
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 1623380867,
+          "stage": "NO_B",
+          "t": 1489889486
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        1623380867
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 2130174924,
+          "stage": "NO_B",
+          "t": 640816947
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        2130174924
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 940285103,
+          "stage": "NO_B",
+          "t": 398855764
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        940285103
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 198499103,
+          "stage": "NO_B",
+          "t": 398855764
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        198499103
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 507325566,
+          "stage": "NO_B",
+          "t": 640816947
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        507325566
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 531509,
+          "stage": "NO_B",
+          "t": 1489889486
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        531509
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 32,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 2,
+      "no_lift": [
+        {
+          "r": 1190421330,
+          "stage": "NO_B",
+          "t": 1731850669
+        }
+      ],
+      "r_root_count": 1,
+      "r_roots": [
+        1190421330
+      ],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell11-endpoint-replay-v1",
+  "scope": "Complete deployed-root replay of cell-11 source-only endpoint compatibility eliminants; no residual matching claim.",
+  "source_kernel_sha256": "2ef59a5dd9e656f36fccc63f3c75aaee6889664312928ffe25d0d0816ed16236",
+  "source_pilot_sha256": "878c5e1eaacba6b646c9f01208e89ac1780b73f1bd20508f8a966c4c1c0c6467",
+  "source_tower_sha256": "8be5facf7fe8e05f9a68fd740964b669e7a47ef2279efbcba504279860717e6a"
+}

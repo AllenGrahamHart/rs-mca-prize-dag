@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-11 global common kernel",
+    "status": "PROVED",
+    "closure": "one primitive sign- and chart-independent eight-coordinate kernel with all forty common-row reductions zero",
+    "statement": "On the complete guarded product-rank-five common locus of deployed positive 433-1b source role cell 11, one primitive polynomial eight-coordinate kernel is independent of all four source-sign rows and six cofactor charts. It annihilates seven common rows formally, and its remaining three row pairings reduce to zero modulo each exact common ideal. No outside-record exclusion or complete cell closure is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_compact_kernel_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_compact_kernel_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_quadratic_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"},
+    {"from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}
