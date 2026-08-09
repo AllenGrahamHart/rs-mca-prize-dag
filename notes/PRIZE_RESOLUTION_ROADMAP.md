@@ -22364,6 +22364,42 @@ compute:                   Modal apps ap-YoIJpHmeajZbPglBqrWHD2, ap-FbTkYWrElchR
 live compute requests:     none
 next:                      classify and attack the final pairing-11 representative
 ```
+
+### Cell-9 pairing-11 payment and complete 105-label closure
+
+The cell-4 pairing-11 quadratic-resultant elimination transports to all six
+exact cell-9 charts. The pilot closed its row. The full cover completed all
+48 source-sign, `sigma_c`, and chart rows in two canonical shards; two Modal
+workers were preempted and automatically replayed before the fail-closed
+manifest completed. No witness or unresolved branch remains.
+
+Independent Frobenius-gcd custody covers 69 profiles, 312 roots, and degrees
+through 4,732. Separate direct replay reconstructs 672 source routes and all
+1,440 missing-quartic reciprocal lifts. The pair intersections retain 144
+common `q` roots; direct evaluation of both target lanes gives 288 nonzero
+final-pair cuts and no solution.
+
+Universal transport pays `{(3,11),(3,14),(4,11),(4,14)}`, exhausting the
+leading-open frontier. A separate composition theorem reconstructs the
+universal router and checks that 17 proved owner packets pay exactly 24
+orbits and 75 non-endpoint labels. Combined with the 30-label endpoint
+theorem, cell `9` is closed at 105/105 raw labels. Upstream K3 PR #1152 is
+the intended export lane.
+
+```text
+starting pin:              1ce0514d1
+canonical prize pin:       c71af9c95
+lane:                      MCA / K3 / coordinate-positive 433-1b cell 9
+result:                    CLOSED final pairing-11/14 orbit and cell 9; 105/105 labels
+DAG status delta:          +2 background PROVED; critical orbit unchanged
+upstream terminal delta:   portable exact final-orbit and aggregate cell-9 closure packet for PR #1152, not yet exported
+delta-star movement:       none
+new assumptions:           none
+compute:                   Modal apps ap-I96pA8MQvOHjBP87iJhCbw, ap-qtPiSMxcBPP8wvd8SWP1jX, ap-5zqUz0RRUAmCDYIhf4PCcM, ap-iI1IJQzMkge1LNCkkQi2b7
+infrastructure note:       two full-cover workers replayed after Modal preemption; complete manifest and independent audit passed
+live compute requests:     none
+next:                      export the accumulated exact cell-9 closure through PR #1152 and reselect the next critical subproblem
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]

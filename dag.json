@@ -30893,6 +30893,26 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 complete exclusion",
+   "status": "PROVED",
+   "closure": "all 105 raw cell-9 direct labels excluded on the deployed guarded route",
+   "statement": "Every one of the 105 raw direct labels in positive 433-1b cell 9 is empty on the deployed guarded route. The endpoint theorem pays 30 labels in roles xi=5,6. The universal quotient partitions the other 75 labels into 24 orbits, and the 17 cited exclusion packets pay exactly one representative of every orbit. The router census and owner partition are independently executable.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition",
    "title": "KoalaBear m2 r4 positive 433-1b cell-9 endpoint compatibility decomposition",
    "status": "PROVED",
@@ -31357,6 +31377,33 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_frobenius_roots_result.json",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_direct_audit_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing0_direct_audit_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cell-9 xi3 pairing-11 quadratic-resultant sign-free exclusion",
+   "status": "PROVED",
+   "closure": "complete exclusion of the final active cell-9 orbit representative and four leading-open labels",
+   "statement": "On the guarded product-rank-five positive 433-1b route in cell 9, direct label (3,11) is empty over the deployed field for every source sign and target lane. Six exact tower charts and two sigma_c lanes give 48 complete quadratic-resultant sign-free compiler rows. External Frobenius-gcd root custody and independent direct replay cover every ordinary and paid-boundary branch. The replay reconstructs 1,440 reciprocal z/d/f lifts and 144 common q roots; all 288 final target-lane cuts are nonzero. Universal transport closes the orbit {(3,11),(3,14),(4,11),(4,14)}, four labels total. This exhausts the cell-9 leading-open orbit frontier.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_scout_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_scout_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_chart_result/manifest.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_frobenius_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_frobenius_roots_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_direct_audit_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell9_xi3_pairing11_direct_audit_result.json"
    ]
   },
   {
@@ -60741,6 +60788,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion",
    "kind": "req"
@@ -60764,6 +60816,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
@@ -60833,6 +60890,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
    "kind": "req"
   },
   {
@@ -60911,6 +60973,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -60926,9 +60993,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
@@ -60936,9 +61013,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
@@ -60946,14 +61033,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
@@ -61012,6 +61114,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
    "kind": "req"
   },
@@ -61049,6 +61156,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
@@ -61093,6 +61205,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
    "kind": "req"
   },
   {
@@ -61182,6 +61299,11 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
    "kind": "req"
   },
@@ -61221,9 +61343,29 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
@@ -61231,9 +61373,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
@@ -61241,9 +61393,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
@@ -61251,9 +61413,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",

@@ -12871,3 +12871,24 @@ proved owners.
 Universal transport closes `{(3,8),(3,13),(4,8),(4,13)}`. Cell `9`
 retains one representative and four labels. The final representative is
 `(3,11)`.
+
+**Cell-9 pairing-11 and aggregate complete closure.** Pilot app
+`ap-I96pA8MQvOHjBP87iJhCbw` closed its row. Full app
+`ap-qtPiSMxcBPP8wvd8SWP1jX` completed all 48 source-sign, `sigma_c`, and
+chart rows after two preempted workers automatically replayed. The
+8,454,588-byte primary ledger is split into two complete digest-pinned
+shards, with 240 paid boundary records and no witness or unresolved branch.
+
+Independent FLINT app `ap-5zqUz0RRUAmCDYIhf4PCcM` reconstructed 69
+profiles, 312 deployed roots, and degrees through 4,732. Independent app
+`ap-iI1IJQzMkge1LNCkkQi2b7` checked 672 source routes, 824 candidate
+roots, and all 1,440 missing-quartic reciprocal lifts. The two quadratic
+pair equations retain 144 common `q` roots; all 288 direct final target-lane
+cuts are nonzero. The audit also joins 48 `b`-leading, 96 `c`-leading, and
+96 regularized-base payments to proved owners.
+
+Universal transport closes `{(3,11),(3,14),(4,11),(4,14)}`. A separate
+executable composition checks that the 17 proved owner packets pay exactly
+the router's 24 active orbits and 75 non-endpoint labels. Combined with the
+30 endpoint labels, cell `9` is closed at 105/105. No further cell-9 compute
+is requested; the exact packet should be exported through upstream PR #1152.

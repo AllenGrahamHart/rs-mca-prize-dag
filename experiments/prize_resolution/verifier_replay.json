@@ -2,14 +2,446 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 56,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify.py",
+      "seconds": 0.028529,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 complete exclusion: owners=17 orbits=24 labels=30+75=105\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/verify_audit.py",
+      "seconds": 0.033052,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 complete exclusion cross-audit: owners=17 orbits=24 mutations=2/2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition/verify.py",
+      "seconds": 0.06589,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 endpoint_rows=8 deployed_points=48 generic=32 base=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition/verify_audit.py",
+      "seconds": 0.019828,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok endpoint_rows=8 split=4+2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion/verify.py",
+      "seconds": 0.04925,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 generic_endpoint_systems=1920 unit=1920\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_generic_complete_exclusion/verify_audit.py",
+      "seconds": 0.028932,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok lanes=32 systems=1920\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion/verify.py",
+      "seconds": 0.049815,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 endpoint_labels=30 generic_unit=1920 base_endpoint_unit=960\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion/verify_audit.py",
+      "seconds": 0.037044,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok endpoint_labels=30\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify.py",
+      "seconds": 0.04029,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 signs=4 kernel_coordinates=8 formal_rows=7 reduced_rows=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel/verify_audit.py",
+      "seconds": 1.863861,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok cell=9 formal_pairings=28 quotient_pairings=12\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify.py",
+      "seconds": 0.045478,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 signs=4 global_chart_equal=4 five_relation_presentations=12\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus/verify_audit.py",
+      "seconds": 0.028458,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok cell=9 signs=4 exact_five_sets=3 outside_claims=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/verify.py",
+      "seconds": 0.053228,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 section_base_points=8 common_rank=7 constrained=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_kernel_section_base_locus_regularization/verify_audit.py",
+      "seconds": 1.388549,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok pointwise_kernels=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion/verify.py",
+      "seconds": 0.027068,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 parallel-DE first-pair exclusion: systems=288 orbits=4 labels=9\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion/verify_audit.py",
+      "seconds": 0.029291,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 first-pair audit: primary=288 audit=288 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/verify.py",
+      "seconds": 0.032534,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 parallel-DE source census: candidates=160 zeros=24 base=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census/verify_audit.py",
+      "seconds": 4.86552,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 source audit: ordinary=24 base_rows=16 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion/verify.py",
+      "seconds": 0.091167,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-11/14 exclusion: rows=192 routes=2496 lifts=1152 orbits=2 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion/verify_audit.py",
+      "seconds": 0.041757,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-11 cross-audit: charts=6 profiles=73 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.156093,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-3/6 exclusion: rows=192 routes=2784 uv=384 f=768 orbits=2 labels=6\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.03904,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-3 cross-audit: charts=6 profiles=69 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.294439,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-4/7/9/10 exclusion: rows=192 routes=4032 uf=960 colored=960 orbits=2 labels=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.039796,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-4 cross-audit: charts=6 profiles=61 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.283206,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-5/8/12/13 exclusion: rows=192 routes=3072 uf=576 colored=576 orbits=2 labels=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.038745,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 pairing-5 cross-audit: charts=6 profiles=61 recovery=3 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.162406,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-12/13 exclusion: rows=96 routes=1728 uf=192 colored=192 orbits=1 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.037343,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-12 cross-audit: charts=6 profiles=53 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/verify.py",
+      "seconds": 0.058301,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-14 common-f exclusion: rows=96 routes=1152 lifts=384 colored=384 labels=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion/verify_audit.py",
+      "seconds": 0.035331,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-14 cross-audit: charts=6 profiles=57 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/verify.py",
+      "seconds": 0.155301,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-9/10 exclusion: rows=96 routes=1728 uf=384 colored=384 orbits=1 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion/verify_audit.py",
+      "seconds": 0.036925,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 positive pairing-9 cross-audit: charts=6 profiles=53 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion/verify.py",
+      "seconds": 0.052184,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 base_locus_systems=3360 unit=3360 roles=7\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion/verify_audit.py",
+      "seconds": 0.030867,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok systems=3360 program_digests=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/verify.py",
+      "seconds": 0.078675,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "cell=9 paid_labels=30 active_labels=75 active_orbits=24\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient/verify_audit.py",
+      "seconds": 0.038165,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "audit=ok active_labels=75 active_orbits=24\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify.py",
+      "seconds": 0.04121,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 six-chart four-basis cover: signs=4 charts=24\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus/verify_audit.py",
+      "seconds": 0.040699,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 tower audit: coherent_charts=24 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/verify.py",
+      "seconds": 0.090756,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-0 reciprocal-square exclusion: rows=144 routes=1968 lifts=576 colored=1152 labels=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion/verify_audit.py",
+      "seconds": 0.036881,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-0 cross-audit: charts=6 profiles=113 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify.py",
+      "seconds": 0.089777,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-11 quadratic-resultant exclusion: rows=48 routes=672 z=1440 q=144 lanes=288 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion/verify_audit.py",
+      "seconds": 0.042263,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-11 cross-audit: charts=6 profiles=69 lanes=288 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/verify.py",
+      "seconds": 0.065876,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-1 reciprocal-linear exclusion: rows=72 routes=1296 lifts=144 colored=576 labels=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion/verify_audit.py",
+      "seconds": 0.041739,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-1 cross-audit: charts=6 profiles=121 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/verify.py",
+      "seconds": 0.100285,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-2 reciprocal-linear exclusion: rows=144 routes=2304 common-z=0 labels=2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion/verify_audit.py",
+      "seconds": 0.036422,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-2 cross-audit: charts=6 profiles=121 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/verify.py",
+      "seconds": 0.060593,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-3 reciprocal-square exclusion: rows=48 routes=672 z=96 q=0 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion/verify_audit.py",
+      "seconds": 0.040837,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-3 cross-audit: charts=6 profiles=69 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify.py",
+      "seconds": 0.062574,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-4 nested sign-free exclusion: rows=24 routes=384 z=720 q=0 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion/verify_audit.py",
+      "seconds": 0.040211,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-4 cross-audit: charts=6 profiles=69 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify.py",
+      "seconds": 0.095812,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-5 nested sign-free exclusion: rows=48 routes=1152 z=2976 q=288 lanes=576 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion/verify_audit.py",
+      "seconds": 0.042134,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-5 cross-audit: charts=6 profiles=69 lanes=576 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify.py",
+      "seconds": 0.083724,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-7 quadratic-resultant exclusion: rows=48 routes=816 z=1824 q=240 lanes=480 labels=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion/verify_audit.py",
+      "seconds": 0.042375,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS cell-9 xi3 pairing-7 cross-audit: charts=6 profiles=65 lanes=480 hostile=detected\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify.py",
-      "seconds": 0.38655,
+      "seconds": 0.08537,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS cell-9 xi3 pairing-8 quadratic-resultant exclusion: rows=48 routes=816 z=1824 q=240 lanes=480 labels=4\n"
@@ -17,7 +449,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion/verify_audit.py",
-      "seconds": 0.207681,
+      "seconds": 0.042671,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS cell-9 xi3 pairing-8 cross-audit: charts=6 profiles=65 lanes=480 hostile=detected\n"
