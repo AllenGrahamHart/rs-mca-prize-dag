@@ -458,3 +458,41 @@ d1_realizability + d1_cyclotomic byte-identical; escape anchors +
 the 2^39.32 stratum count exact. No status flip. Source:
 notes/pilots_20260809/staircase_extension/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-28 addendum (2026-08-10, coordinator-applied on replay:
+## mca_safe_rewire — the consumer-bar lead REFUTED; two D4 precision fixes)
+
+**THE FLAGGED LEAD IS REFUTED.** The wave-10/round-27 flag above
+("HD1 may already discharge mca_safe's rate-1/2 bar at razor rows;
+needs a dedicated read of whether the consumer's a_safe is free or
+pinned") got its dedicated read. Verdict: a_safe is UNBOUND in
+mca_safe's own prose and BOUND by its consumers — the unsafe-side
+claim of record is stated at a_safe - 1, and mca_grand's claim is
+to EXHIBIT the crossing. Since B_mca is nonincreasing
+(crossing_localization, PROVED), HD1's safe point at 3n/4 bounds
+nothing at any smaller index: it is an upper bracket END, never the
+safe half at the crossing. REDUCTIO that settles it: a genuinely
+free a_safe would be discharged at a = n, unconditionally and for
+EVERY admissible q, by the PROVED mca_full_agreement_endpoint
+(FA1: B_mca(n) = 1) — strictly stronger than HD1, available since
+wave 6, and plainly not what the assembly consumes. Both consumer
+bars are therefore THE SAME moving bar. The premise-weakening
+surgery is retired; mca_safe keeps this node as a premise.
+
+**D4 precision fix 1 — the cross-link's threshold is
+(2^39+1)*2^128, not 2^167.** Closing budget 2^39+1 gives
+B_ca^far(3n/4) <= 2^39+1, which clears B*(q) only when
+2^39+1 <= floor(q/2^128), i.e. q >= (2^39+1)*2^128 = 2^167 + 2^128
+(log2 = 167.0000000000026). The sliver [2^167, 2^167 + 2^128) is
+not reached by that budget alone; it is exactly budget 2^39's own
+interval, so "ALL q > 2^167" holds for the PAIR of residual budgets
+and not for 2^39+1 alone. The first admissible row above 2^167
+(q = 187072209578355573530071658587684226537949598056449, prime,
+q = 1 mod 2^41) has B* = 2^39 exactly and lies in that sliver.
+
+**D4 precision fix 2 — the (2^167, 2^169) gap is a BRACKET-TOP gap,
+not a safe-half gap.** Above 2^167 no safe-half-at-the-crossing
+input exists anywhere, the razor slice included; below 2^169 the
+only proved bracket top is n (FA1). Closing the gap therefore
+restores the 3n/4 bracket top on 2 bits of q-axis; it does not give
+any consumer its safe half.

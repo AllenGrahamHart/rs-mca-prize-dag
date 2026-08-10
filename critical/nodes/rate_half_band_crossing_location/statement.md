@@ -6,11 +6,28 @@
   (notes/band_decomposition_plan_20260809.md); pose adopted from the
   round-27 (RH-AC) draft with the decomposition ratification
 
-## Statement (RH-AC, the pose of record)
+## Statement (RH-AC, the pose of record; quantifier WIDENED 2026-08-10)
 
-At every admissible razor row (n = 2^41, k = 2^40, q prime in
-(2^255.9, 2^256), q = 1 mod n), locate the exact adjacent crossing
-a_RH(q) of (RH-ADJ):
+At every admissible row with n = 2^41, k = 2^40, **q prime,
+q = 1 mod n, 2^167 < q < 2^256** — the entire undetermined range;
+below 2^167 the crossing is PROVED (the wave-10 staircase), and the
+razor slice (2^255.9, 2^256) remains the hard corner — locate the
+exact adjacent crossing a_RH(q) of (RH-ADJ):
+
+[QUANTIFIER WIDENING (2026-08-10, coordinator, executing the
+ratified tiling intent): the creation pose read "q prime in
+(2^255.9, 2^256)" — razor rows only. The round-28 mca_safe_rewire
+audit proved the decomposition's children did not tile the parent's
+quantifier (rows with q in [2^167, 2^255.9] were located by
+nothing — the E7 SCOPE SEAM flag on adjacency_closing). The parent's
+consumers quantify over ALL admissible q; the sub-2^167 range is
+proved; this child must own the rest. The widening EXPANDS this
+node's obligation: the residual-budget interval [2^167, 2^167+2^129)
+is exactly the apolar target's territory (budgets {2^39, 2^39+1}),
+and (2^167+2^129, 2^255.9] carries the same bracket
+[k+2^34, 3n/4 for q >= 2^169, n below] with no located crossing.
+The E7 flag is RESOLVED by this widening, same day, recorded on
+both nodes.]
 
 ```text
 B_mca(a_RH) <= B*(q) = floor(q/2^128) < B_mca(a_RH - 1),
@@ -64,10 +81,18 @@ heuristic across a mechanism change, labelled as such.
 
 - `adjacency_closing`: needs the LOCATED crossing (adjacent certified
   indices — the moving bar). The full pose serves it.
-- `mca_safe`: its own inequality is dischargeable by PROVED HD1 at
-  q >= 2^169 (lead resolved 2026-08-09: a_safe is textually free at
-  the mca_safe level; the adjacency burden lives downstream via
-  adjacency_closing). The mca_safe premise-weakening onto HD1 is a
-  NAMED FOLLOW-UP surgery, not executed here.
+- `mca_safe`: needs the safe half AT THE LOCATED INDEX — the SAME
+  moving bar, not a weaker one. (ROUND-28 CORRECTION, 2026-08-10:
+  the 2026-08-09 reading "a_safe is textually free, so PROVED HD1
+  discharges the bar at q >= 2^169" is WITHDRAWN. a_safe is unbound
+  in mca_safe's own prose but bound by its consumers — the
+  unsafe-side claim of record is stated at a_safe - 1 and mca_grand
+  must EXHIBIT the crossing. HD1 is an upper bracket END at 3n/4 and
+  B_mca is nonincreasing, so it bounds nothing below 3n/4. Reductio:
+  a free a_safe would be discharged unconditionally at a = n by the
+  PROVED mca_full_agreement_endpoint (FA1: B_mca(n) = 1), with no
+  field floor at all — strictly stronger than HD1 and obviously not
+  what the consumer needs. The premise-weakening surgery is RETIRED
+  as unsound.)
 - `list_adjacency_closing`: no longer consumes this content (owner
   moved at wave 10).

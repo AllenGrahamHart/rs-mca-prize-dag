@@ -4318,3 +4318,39 @@ binding; banked scripts from SCRATCH COPIES only; draft-only; no
 status flips; REPORT.md persisted by the coordinator; zero-power
 instrument classes declared in advance where a pose quantifies
 over a max (the round-27 F3 lesson).
+
+## ROUND 28 BANK 1/4 — mca_safe_rewire (2026-08-10, coordinator)
+
+**BANKED: D1 = UNSOUND — the audit-and-draft gate caught MY OWN
+resolved lead before it became surgery, and a second catch found the
+decomposition's children did not tile the parent.** The HD1
+premise-weakening is RETIRED: a_safe is unbound in mca_safe's prose
+but PINNED by its consumers (mca_unsafe states its claim at
+a_safe - 1 with the SAME symbol — mca_unsafe/statement.md:9, a node
+the brief never named; mca_grand must EXHIBIT the adjacent pair);
+B_mca is NONINCREASING (proved) so HD1's 3n/4 bracket end bounds
+nothing at the crossing; REDUCTIO: a free a_safe would be discharged
+unconditionally by wave-6 FA1 (B_mca(n)=1, no field floor) — absurd
+for an eight-premise claim. The naive swap = a hidden burden-shuffle
+into mca_unsafe's claim (true iff RH-AC-hi is tight). D2 REFRAME:
+the (2^167, 2^169) gap was a BRACKET-TOP gap, never a safe-half gap;
+above 2^167 NO safe-half-at-the-crossing input exists anywhere
+(~89 bits uncovered, not 2). Apolar cross-link VERIFIED with a
+precision fix: budget 2^39+1 alone reaches q >= 2^167 + 2^128 (the
+2^128 sliver is budget 2^39's own interval; "all q > 2^167" holds
+for the PAIR); HD1's 2^169 floor is SHARP (witness prime exhibited).
+TILING CATCH (E7): rows q in [2^167, 2^255.9] were located by
+NOTHING — adjacency_closing's no-remaining-exception line was
+unsupported. CORRECTIONS APPLIED: Draft B all 8 pairs verbatim
+(preconditions replayed OK; conditional-propagation clean by
+design) + THE COORDINATOR'S TILING REPAIR: the crossing child's
+quantifier WIDENED to all admissible 2^167 < q < 2^256 (statement +
+shard + title + refuted notes replaced; E7 flag RESOLVED same-day
+on adjacency_closing). Verify chain green; census unchanged
+239 = 167/40/32. Pilot predictions: P1 hit its 15% branch; P5
+registered backwards and its correction PRODUCED the verdict; own
+falsifier disclosed as mis-scoped. Flagged for round 29: the
+k <= 2^40 quantifier (is k = 2^40 extremal? no node says).
+Replays: check_edits/census_impact/gap_witness all green; the
+three pinning quotes verified verbatim by the coordinator. Files:
+notes/pilots_20260810/mca_safe_rewire/{REPORT.md,FABLE_AUDIT.md,edits.json}.

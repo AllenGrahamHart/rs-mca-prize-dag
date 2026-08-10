@@ -33,7 +33,10 @@ silent axis mismatch.
 
 `mca_safe` supplies the safe-side inequality at the certified agreement
 index `a`.  `mca_unsafe` supplies the unsafe witness inequality at the lower
-agreement index.  `adjacency_closing` supplies the final missing assertion
+agreement index `a - 1` — THE SAME `a` (round-28 quantifier audit,
+2026-08-10: `a` is `a_safe`, the located crossing, and both premises are
+stated at it; a safe point at a bracket end is not a legal instantiation).
+`adjacency_closing` supplies the final missing assertion
 that these two certified indices are adjacent for every admissible row.  The
 rate-`1/2` residual band is included only through the strong
 `rate_half_band_closure` premise inside the safe/adjacency chain.
