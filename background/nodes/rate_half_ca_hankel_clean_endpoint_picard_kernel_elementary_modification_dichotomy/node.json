@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
+    "title": "Clean-endpoint Picard-kernel elementary-modification dichotomy",
+    "status": "PROVED",
+    "closure": "exact finite-pushforward and bundle classification",
+    "statement": "The clean multiplication kernel is pi_*O_C(P_*), a length-one positive elementary modification of pi_*O_C=O+O(-rho)^(m-1). Hence it has exactly one of two splittings: O(1)+O(-rho)^(m-1), with two sections and C isomorphic to P^1, or O+O(1-rho)+O(-rho)^(m-2), with one section. Thus the bare injectivity/all-negative-splitting route is impossible and the clean frontier splits into these two branches.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

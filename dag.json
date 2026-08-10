@@ -30559,6 +30559,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+   "title": "Clean-endpoint four-Hankel bi-isotropic frame",
+   "status": "PROVED",
+   "closure": "exact minimal-kernel coefficient chain",
+   "statement": "After a generic parameter-basis choice at the clean strict endpoint, the m+1 independent coefficient vectors of Q(z;X) span a common totally isotropic plane for all four top/bottom endpoint Hankel forms. Each form has rank rho; the zero-endpoint radicals are spanned by q_0 and the infinity-endpoint radicals by q_m=q_inf. Equivalently, the coefficient evaluation vectors obey four exact diagonal rank-one frame cancellations against the two syndrome sources and their X-shifts.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
    "title": "Clean-endpoint irreducible norm corollary",
    "status": "PROVED",
@@ -30592,6 +30610,96 @@
     "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/provenance.md",
     "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify.py",
     "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
+   "title": "Clean-endpoint Picard-kernel elementary-modification dichotomy",
+   "status": "PROVED",
+   "closure": "exact finite-pushforward and bundle classification",
+   "statement": "The clean multiplication kernel is pi_*O_C(P_*), a length-one positive elementary modification of pi_*O_C=O+O(-rho)^(m-1). Hence it has exactly one of two splittings: O(1)+O(-rho)^(m-1), with two sections and C isomorphic to P^1, or O+O(1-rho)+O(-rho)^(m-2), with one section. Thus the bare injectivity/all-negative-splitting route is impossible and the clean frontier splits into these two branches.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+   "title": "Clean-endpoint Picard multiplication injectivity reduction",
+   "status": "PROVED",
+   "closure": "exact cohomology and relative bundle reduction",
+   "statement": "The degree-one Picard section of a clean endpoint failure is exactly a nonzero kernel vector for multiplication by Q from H^1(O(N-rho,-T-m)) to H^1(O(N,-T)), of dimensions 60m^2+10m and 64m^2+4m. Relatively this is a fibrewise-surjective map O(N-rho)^(5m)->O(N)^(4m) with kernel bundle K_Q of rank m, degree m(5-4m), and a nonzero global section. All-negative splitting would logically close the branch, but the child elementary-modification theorem proves that strategy impossible and replaces it by an exact dichotomy.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion",
+   "title": "Clean-endpoint rational elementary branch exclusion",
+   "status": "PROVED",
+   "closure": "adjunction genus contradiction",
+   "statement": "The two-section elementary modification would make the integral clean curve isomorphic to P^1 and hence smooth of genus zero. Adjunction gives genus (rho-1)(m-1)=(4m-2)(m-1)>0 for a smooth bidegree-(rho,m) divisor when m>1. Therefore that branch is impossible, and every clean failure has the unique-section splitting O+O(1-rho)+O(-rho)^(m-2).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+   "title": "Clean-endpoint resultant boundary saturation",
+   "status": "PROVED",
+   "closure": "leading-coefficient Bezout and exact resultant degree",
+   "statement": "At the clean endpoint, the domain complement has exact parameter degrees deg_z W=T and deg_z V=3m+1, with q_inf*nu+P_sat*omega=1. The top weld coefficient forces q_inf to divide the leading coefficient of B. In fact Res_z(Q,W)=c_W(X-x_0)^(m-1), Res_z(Q,B)=c_B q_inf^(T+deg_z B)(X-x_0), and resultant degree saturation forces deg_X B=N. Thus B absorbs the entire parameter-infinity fibre and the boundary-free shortcut is impossible.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin",
+   "title": "Clean-endpoint two-axis resultant and Picard pin",
+   "status": "PROVED",
+   "closure": "exact reciprocal resultant and intersection divisor",
+   "statement": "After a generic domain-coordinate normalization, the clean complements satisfy Res_X(Q,B)=constant*S and Res_X(Q,W)=constant*a^(deg_X W+N-1)A_0. Together with Res_z(Q,B)=constant*q_inf^(T+b)(X-x_0), this accounts for the complete intersection divisor div_C(B)=P_*+(T+b)Y_inf. Hence O_C(N,-T) is isomorphic to the degree-one point line bundle O_C(P_*).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify_audit.py"
    ]
   },
   {
@@ -63344,6 +63452,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+   "to": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -63357,6 +63475,61 @@
    "from": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
+   "to": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
+   "to": "rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+   "to": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+   "to": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+   "to": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin",
+   "to": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
@@ -63376,6 +63549,11 @@
   {
    "from": "rate_half_ca_hankel_endpoint_norm_factorization",
    "to": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "to": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
    "kind": "req"
   },
   {

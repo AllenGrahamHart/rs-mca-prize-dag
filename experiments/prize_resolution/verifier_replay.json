@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 6,
+    "PASS": 18,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify.py",
+      "seconds": 0.116636,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FOUR_HANKEL_BIISOTROPIC_FRAME_PASS pairings=2004 scales=9\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify_audit.py",
+      "seconds": 0.013623,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FOUR_HANKEL_BIISOTROPIC_FRAME_AUDIT_PASS witness=F17_m1 pairings=16\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify.py",
-      "seconds": 0.013998,
+      "seconds": 0.012914,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_IRREDUCIBLE_NORM_COROLLARY_PASS scales=5 official_m=137438953472\n"
@@ -17,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify_audit.py",
-      "seconds": 0.022861,
+      "seconds": 0.020926,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_IRREDUCIBLE_NORM_COROLLARY_AUDIT_PASS m_range=2..12 profiles=24575\n"
@@ -25,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify.py",
-      "seconds": 0.019274,
+      "seconds": 0.020691,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_LINEAR_UNIT_RESULTANT_GATE_PASS sylvester_instances=63 mutations=63/63\n"
@@ -33,15 +49,95 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify_audit.py",
-      "seconds": 0.014351,
+      "seconds": 0.011479,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_LINEAR_UNIT_RESULTANT_GATE_AUDIT_PASS closed_form_instances=108 mutations=108/108\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify.py",
+      "seconds": 0.012615,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_KERNEL_ELEMENTARY_MODIFICATION_DICHOTOMY_PASS scales=6 official_m=137438953472\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify_audit.py",
+      "seconds": 0.012633,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_KERNEL_ELEMENTARY_MODIFICATION_DICHOTOMY_AUDIT_PASS profiles=126 mutations=63/63\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify.py",
+      "seconds": 0.012742,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_MULTIPLICATION_INJECTIVITY_REDUCTION_PASS scales=6 official_m=137438953472\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify_audit.py",
+      "seconds": 0.01276,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_MULTIPLICATION_INJECTIVITY_REDUCTION_AUDIT_PASS splittings=63\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify.py",
+      "seconds": 0.013377,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RATIONAL_ELEMENTARY_BRANCH_EXCLUSION_PASS scales=6 official_m=137438953472\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify_audit.py",
+      "seconds": 0.012618,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RATIONAL_ELEMENTARY_BRANCH_EXCLUSION_AUDIT_PASS m_gt_1=127 m1_boundary=0\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify.py",
+      "seconds": 0.012334,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RESULTANT_BOUNDARY_SATURATION_PASS profiles=18 official_m=137438953472\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify_audit.py",
+      "seconds": 0.012569,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RESULTANT_BOUNDARY_SATURATION_AUDIT_PASS bezout_instances=36 mutations=31/31\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify.py",
+      "seconds": 0.012835,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_AXIS_RESULTANT_PICARD_PIN_PASS profiles=18 official_m=137438953472\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify_audit.py",
+      "seconds": 0.012797,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_AXIS_RESULTANT_PICARD_PIN_AUDIT_PASS divisor_profiles=2016\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify.py",
-      "seconds": 0.01268,
+      "seconds": 0.012611,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_SIDED_COMPLEMENT_WELD_PASS scales=6 official_m=137438953472\n"
@@ -49,7 +145,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify_audit.py",
-      "seconds": 0.012985,
+      "seconds": 0.012858,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_SIDED_COMPLEMENT_WELD_AUDIT_PASS scalar_instances=192\n"

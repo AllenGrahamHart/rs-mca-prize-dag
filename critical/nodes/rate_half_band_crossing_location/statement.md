@@ -1256,3 +1256,51 @@ clean theorem is now the incompatibility of this degree-`<m` linear
 unit-resultant with the maximal-separation-rank Hankel/apolar kernel curve;
 general curve theory alone does not supply that incompatibility. No critical
 status changes.
+
+## Cycle 66: clean boundary saturation and Picard dichotomy (2026-08-10, Codex)
+
+The clean weld now has exact two-axis resultants. Its top coefficient gives
+
+```text
+deg_z W=T,
+q_inf nu+P_sat omega=1,
+Res_z(Q,W)=c_W(X-x_0)^(m-1),
+Res_z(Q,B)=c_B q_inf^(T+b)(X-x_0),
+deg_X B=N.
+```
+
+Thus the entire parameter-infinity fibre belongs to `B`; the former
+boundary-free shortcut is impossible. Reciprocally,
+
+```text
+Res_X(Q,B)=constant*S,
+Res_X(Q,W)=constant*a^(deg_X W+N-1)A_0.
+```
+
+The complete intersection divisor yields the degree-one Picard identity
+
+```text
+O_C(N,-T)=O_C(P_*).
+```
+
+The associated multiplication kernel is exactly `pi_*O_C(P_*)`. Since
+
+```text
+pi_*O_C=O+O(-rho)^(m-1),
+```
+
+it is a one-point positive elementary modification with only two splitting
+types. The `O(1)+O(-rho)^(m-1)` type would make `C` isomorphic to `P^1` and
+is excluded by the positive smooth adjunction genus `(4m-2)(m-1)`. Hence the
+sole clean Picard branch is
+
+```text
+K_Q=O+O(1-rho)+O(-rho)^(m-2),       h^0(K_Q)=1.
+```
+
+Independently, the `m+1` coefficient vectors of `Q` form a common totally
+isotropic plane for four adjacent endpoint Hankel forms, with `q_inf` as the
+two infinity radicals. The live clean theorem is now incompatibility of this
+four-Hankel frame and supported-locator incidence with the unique-section
+elementary modification. Six proved leaves record the reductions and route
+fences; no critical status changes.

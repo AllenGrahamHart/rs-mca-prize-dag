@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+    "title": "Clean-endpoint four-Hankel bi-isotropic frame",
+    "status": "PROVED",
+    "closure": "exact minimal-kernel coefficient chain",
+    "statement": "After a generic parameter-basis choice at the clean strict endpoint, the m+1 independent coefficient vectors of Q(z;X) span a common totally isotropic plane for all four top/bottom endpoint Hankel forms. Each form has rank rho; the zero-endpoint radicals are spanned by q_0 and the infinity-endpoint radicals by q_m=q_inf. Equivalently, the coefficient evaluation vectors obey four exact diagonal rank-one frame cancellations against the two syndrome sources and their X-shifts.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
