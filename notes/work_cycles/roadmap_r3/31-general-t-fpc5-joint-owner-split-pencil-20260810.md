@@ -27,4 +27,6 @@ chronology-valid aggregation across many distinct owners. The shared
 two-generator algebra connects to Przemek's `prob:capfr1-split-pencil`, but
 the natural determinant parent and split-locator domain differ, so no direct
 specialization is claimed. This is not a row payment. Export to upstream PR
-#1151 is pending at this proof pin.
+#1151 is pinned at mergeable draft head
+`a2ed401c1a12d9aecb3dac2b0efa28a1765faf03`; the packet pins the source DAG
+proof commit `8d0d19b8860143ad1a33aeee467a18f07e37baf4`.

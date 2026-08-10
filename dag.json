@@ -30100,7 +30100,11 @@
     "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/result.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/provenance.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/upstream_crosswalk.md"
-   ]
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal dual-domain split-pencil reduction",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
   },
   {
    "id": "l1_fpc5_tpetal_saturated_slice_dimension",
