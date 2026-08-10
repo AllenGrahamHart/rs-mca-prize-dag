@@ -4709,3 +4709,45 @@ Codex worktree or runs a census. QUARANTINE MARKER: this entry and
 everything below is quarantined for round-30 pilots (the ledger is
 closed to them entirely, as always); sibling round-30 dirs mutually
 quarantined. Launched on Opus.
+
+## ROUND 30 BANK 1/4 — k3_orientation_assembly (2026-08-10, coordinator)
+
+**BANKED: the routing theorem is NOT buildable today — the domain
+(Z_BC bad slopes) and codomain (workboard cells) have NO proved map;
+the bridge is disclaimed by the geometry's own supplier ("The
+endpoint parameter line is not the evaluation carrier"). EIGHT named
+obstructions with pre-registered falsifiers: O1 bridge (fatal, top),
+O2 the LIVE (2,8,1) FOURTH CLASS outside the node's three
+orientations, O3 source-line image INEXACT as written (rows
+(1,0,4)/(0,1,4)/(0,0,6) + orbit (KBDM-10) have no declared image),
+O4 the source-cover object DOES NOT EXIST (U_sourcecover has no
+domain), O5 labels-vs-slopes unit gap, O6-O8 preservation/transpose/
+chronology unstated. OFFSET: the orientation TRICHOTOMY is already a
+theorem (delta=|S| + exclusive source-subfield dichotomy) — the
+conditional draft theorem under one named hypothesis (H-bridge) is
+written and mint-ready.** Replay: 17/17 checks (incl. the new
+five-row diagonal census 1350/2700/3600/1800/720 and FINDING D1-b:
+the two coordinate workboards are DIFFERENT five-skeleton lists
+sharing three). All findings surfaced, ZERO node edits (K3 = Codex's
+write lane). One disclosed grep leak, accepted. Files:
+notes/pilots_20260810/k3_orientation_assembly/{REPORT.md,FABLE_AUDIT.md,replay_orientation_images.py}.
+
+## ROUND 30 BANK 2/4 — k3_allocation_inequality (2026-08-10, coordinator)
+
+**BANKED: the dry run is BLOCKED THREE WAYS and the fourth integer
+UNDEFINED — U_positive blocked on the eleven-route TARGET (0/11
+printed), U_sourcecover blocked on the orientation TARGET (no cap
+derivable), and U_K3_allocation DEFINED NOWHERE (4 occurrences
+in-repo, all in the two K3 nodes that demand it; the allocation node
+has requires=[], so its demanded binding is not representable).
+Strongest exact statement: 0 <= U_K3_allocation <=
+274980728110413983 (the joint three-cell reserve; attained by K3
+only under unproved U_Q = U_new = 0). DERIVED floor: U_Q + U_BC +
+U_new >= 57197049262 — the ledger's "record U_K3=0" fallback is NOT
+free. Five new-to-repo findings (allocation undefined; node unwired;
+the B_star row-key collision kb_mca/kb_list; the "allocation"
+homonym; the floor). The two blind pilots CONVERGED independently on
+the labels-vs-slopes unit seam as the binding blocker — it has no
+owner.** Replays: 56/56 + digest MATCH. Binding schema draft
+(refuse-to-substitute) banked. ZERO node edits. Files:
+notes/pilots_20260810/k3_allocation_inequality/{REPORT.md,FABLE_AUDIT.md,compute_arith.py,verify_partition_digest.py,binding_schema_draft.json}.

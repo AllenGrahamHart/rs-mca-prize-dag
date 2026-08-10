@@ -1,0 +1,178 @@
+{
+  "$comment": "DRAFT ONLY (round-30 pilot k3_allocation_inequality, 2026-08-10). Not wired, not a node, not a verifier. Proposed checkable form of the k3_allocation_inequality node's demand 'bind each input to its proof certificate and manifest digest'. Every field below is REQUIRED; a missing field is a FAIL, not a default.",
+  "schema": "k3-allocation-binding-v0-draft",
+
+  "row_binding": {
+    "$comment": "The falsifier bans 'allocation imported from a different row'. B_star does NOT identify the row: kb_mca and kb_list share B_star=274980728111395087, and all four deployed rows share (n,k). The minimal separating key verified by compute_arith.py section F is (n,k,p,K).",
+    "row_manifest_path": "background/nodes/deployed_identity_prefix_owner_scope_audit/deployed_rows.json",
+    "row_manifest_sha256": "bdef9068a68dccaae0240eb87b0edce6c068497377cb65273d4f8548d36b85d1",
+    "row_id": "kb_mca",
+    "object": "MCA",
+    "separating_key": ["n", "k", "p", "K"],
+    "n": 2097152,
+    "k": 1048576,
+    "p": 2130706433,
+    "K": 1048577,
+    "extension_degree": 6,
+    "security_bits": 128,
+    "a_plus": 1116048,
+    "B_star": 274980728111395087,
+    "row_record_sha256": "8f8c8965ee812457594b3ea36994306041645d805bff7452d6a1a3cfaeb38015",
+    "row_record_digest_method": "SHA256_CANONICAL_JSON_OF_THE_SINGLE_ROW_OBJECT",
+    "checker_must_reject": [
+      "any row whose (n,k,p,K) tuple differs",
+      "any binding that identifies the row by B_star alone",
+      "any binding that identifies the row by (n,k) or (n,k,p) alone",
+      "kb_list, m31_mca, m31_list under any relabelling"
+    ]
+  },
+
+  "partition_binding": {
+    "$comment": "The falsifier bans 'allocation imported from a different partition' and 'a change of owner or normalization convention'. Exactly ONE partition manifest exists in this repo.",
+    "partition_manifest_path": "background/nodes/rate_half_kb_v4_tangent_source_atom/partition_contract.json",
+    "partition_manifest_sha256": "1f64cf0474911faf7a33ec0c628bf1a65a472857be145f368804e6674d9b5343",
+    "architecture_id": "GRANDE_FINALE_V4_KB_MCA_TANGENT_SOURCE_ADAPTER_V1",
+    "partition_sha256": "4fade91abc408264989babcff6f8f9bbd80bcec52545a5db15ac376bf17d88fc",
+    "partition_digest_method": "SHA256_CANONICAL_JSON_WITHOUT_PARTITION_SHA256_AND_METHOD",
+    "atom_order": ["U_paid", "U_Q", "U_BC", "U_new"],
+    "owner_order": [
+      "SOURCE_COORDINATE_TANGENT_IMAGE",
+      "ACTIVE_V4_BOUNDARY_PREFIX_Q",
+      "ACTIVE_V4_BALANCED_CORE",
+      "UNPAID_V4_COMPLEMENT"
+    ],
+    "k3_atom_id": "U_BC",
+    "k3_owner_id": "ACTIVE_V4_BALANCED_CORE",
+    "k3_priority": 2,
+    "residual_rule": "ITERATED_EXACT_SET_DIFFERENCE",
+    "first_match": true,
+    "checker_must_reject": [
+      "any packet whose architecture_id or partition_sha256 differs",
+      "any packet that re-derives the digest by a different canonicalization",
+      "any packet importing the upstream legacy first-match stack (no bridge is proved: deployed_identity_prefix_owner_scope_audit/claim_contract.md:18)",
+      "any packet importing the legacy U_paid=422354730332 (explicitly not imported: rate_half_kb_v4_tangent_source_atom/statement.md:70)"
+    ]
+  },
+
+  "unit_binding": {
+    "$comment": "The node's unit line is 'distinct affine slopes under the active first-match owner'; the manifest's unit token is DISTINCT_BAD_FINITE_SLOPES_PER_RECEIVED_LINE. These must be declared EQUAL by a named lemma, not by assertion. The whole m2 r4 workboard is denominated in raw labels / raw atlas cases / principal systems, a DIFFERENT unit.",
+    "manifest_unit_token": "DISTINCT_BAD_FINITE_SLOPES_PER_RECEIVED_LINE",
+    "node_unit_phrase": "distinct affine slopes under the active first-match owner",
+    "quantifier": "UNIFORM_OVER_ALL_ADMISSIBLE_RECEIVED_LINES",
+    "unit_equality_certificate": "REQUIRED_AND_ABSENT",
+    "forbidden_units_in_any_summand": [
+      "raw label",
+      "raw atlas case",
+      "raw lane case",
+      "principal system",
+      "formal system",
+      "representative system",
+      "role cell",
+      "matching",
+      "orbit"
+    ],
+    "labels_to_slopes_conversion": {
+      "status": "OPEN",
+      "required": true,
+      "must_state": "for each surviving raw label, the exact finite number of distinct affine slopes it contributes, with multiplicity, under the pinned owner",
+      "must_not_assume": "one label = one slope"
+    }
+  },
+
+  "summand_binding": {
+    "$comment": "One record per summand. state MUST be one of PRINTED | BOUNDED | BLOCKED. A summand in state BLOCKED makes the whole inequality BLOCKED; it may not be replaced by 0, by a placeholder, or by a bound taken from a sibling cell.",
+    "required_records": [
+      {
+        "symbol": "U_positive",
+        "definition_source": "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/node.json:8",
+        "identity": "U_positive = U_remaining",
+        "producer_node": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+        "producer_status": "TARGET",
+        "state": "BLOCKED",
+        "value": null,
+        "certificate_sha256": null,
+        "route_records_required": 11,
+        "route_records_present": 0,
+        "zero_contributions_proved": [
+          "433-1a -> O0b (rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion, PROVED, empty)",
+          "433-1b -> O0a (rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion, PROVED, empty at raw-system level + global rank-drop branch)"
+        ]
+      },
+      {
+        "symbol": "U_sourcecover",
+        "definition_source": "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/node.json:7",
+        "producer_node": "rate_half_kb_m2_r4_k3_orientation_assembly",
+        "producer_status": "TARGET",
+        "state": "BLOCKED",
+        "value": null,
+        "certificate_sha256": null
+      },
+      {
+        "symbol": "U_sourceline",
+        "claimed_value": 0,
+        "producer_node": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+        "producer_status": "PROVED",
+        "state": "PRINTED_CONDITIONALLY",
+        "certificate_sha256": "2359e3d6f74073781179897a004ae4830472ac5ccaeffff193a7ce6cab2b17d8",
+        "scope_caveat": "the theorem excludes SATURATED source-line packets; the identification of the K3 source-line image with the saturated workboard is an obligation of the (open) orientation_assembly node, not of this certificate"
+      },
+      {
+        "symbol": "U_negative",
+        "claimed_value": 0,
+        "producer_node": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+        "producer_status": "PROVED",
+        "state": "PRINTED",
+        "certificate_sha256": "ed410d81bc93b558e8b04ae29814b5bb69ad36940b4c171b0fbeeff1c4293eae"
+      }
+    ]
+  },
+
+  "allocation_binding": {
+    "$comment": "The demanded object. It is NOT DEFINED anywhere in this repo: the token U_K3_allocation occurs only inside the two K3 node directories. The only banked budget quantity is the JOINT reserve of the three unpaid cells.",
+    "symbol": "U_K3_allocation",
+    "state": "UNPINNED",
+    "value": null,
+    "defining_row_or_table": null,
+    "joint_reserve": {
+      "value": 274980728110413983,
+      "identity": "B_star - (n - a_plus) = 274980728111395087 - 981104",
+      "source": "background/nodes/rate_half_kb_v4_tangent_source_atom/statement.md:66",
+      "owned_jointly_by": ["U_Q", "U_BC", "U_new"],
+      "side_condition_for_full_assignment_to_K3": "U_Q = U_new = 0",
+      "side_condition_status": "UNPROVED",
+      "side_condition_source": "background/nodes/rate_half_kb_v4_tangent_source_atom/statement.md:69"
+    },
+    "checker_must_reject": [
+      "U_K3_allocation := 274980728110413983 without a proof of U_Q = U_new = 0",
+      "U_K3_allocation := B_star (that is U_paid's budget too)",
+      "any allocation whose provenance is the c2(1,1,2) 'allocation' axis (same/swap/mixed = R20/R02/R11), which is an unrelated homonym in the same lane",
+      "any allocation carried from kb_list, m31_mca, or m31_list",
+      "any allocation stated as a float, ratio, percentage, or renormalized share"
+    ]
+  },
+
+  "inequality_binding": {
+    "arithmetic": "EXACT_PYTHON_INT_ONLY",
+    "forbidden": ["float", "Fraction with nonunit denominator in the comparison",
+                  "Decimal", "log-scale comparison", "bit-count comparison"],
+    "required_prints": ["U_positive", "U_sourcecover", "U_K3", "U_K3_allocation",
+                        "slack = U_K3_allocation - U_K3", "sign(slack)"],
+    "negative_slack_policy": "ROUTE_FAILURE; renormalizing any term is a falsifier hit (critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md:9)",
+    "state": "BLOCKED",
+    "blocked_on": ["U_positive", "U_sourcecover", "U_K3_allocation"]
+  },
+
+  "wiring_binding": {
+    "$comment": "Audit finding: the node that pins the row, the partition digest, B_star, U_paid and the reserve has no edge to the allocation node, and the allocation node has an empty requires list. The binding demanded by the statement is therefore not representable in the current DAG.",
+    "allocation_node_requires": [],
+    "manifest_atom_node": "rate_half_kb_v4_tangent_source_atom",
+    "manifest_atom_evidence_for": ["rate_half_band_closure"],
+    "missing_edges_proposed": [
+      "rate_half_kb_v4_tangent_source_atom -> rate_half_kb_m2_r4_k3_allocation_inequality (req or ev)",
+      "deployed_identity_prefix_owner_scope_audit -> rate_half_kb_m2_r4_k3_allocation_inequality (ev, row manifest)",
+      "rate_half_kb_m2_r4_coordinate_positive_complete_payment -> rate_half_kb_m2_r4_k3_allocation_inequality (req, U_positive)",
+      "rate_half_kb_m2_r4_k3_orientation_assembly -> rate_half_kb_m2_r4_k3_allocation_inequality (req, U_sourcecover)"
+    ],
+    "note": "PROPOSAL ONLY. This pilot performs no dag/ or nodes/ edits; edge ownership is coordinator-gated."
+  }
+}
