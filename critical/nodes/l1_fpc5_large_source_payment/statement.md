@@ -212,6 +212,37 @@ noninjective local wall with an ordinary GRS exact-list shell rather than a
 new Hankel-only object. It does not coalesce the required background sets or
 pay the guarded/chronology aggregate.
 
+The proved node `l1_fpc5_fixed_background_grs_shell_payment` performs the
+honest first aggregation of those charts. With
+
+```text
+J_fix=d^2-N(d-ell),
+```
+
+the complete fixed source/touched/degree family is bounded by
+
+```text
+binom(b,u)
+```
+
+when `d+ell-1>=N`, and by
+
+```text
+binom(b,u) N ell/J_fix
+```
+
+when `J_fix>0`. Hence every such branch with bounded
+`min(u,b-u)` is polynomial. The identity
+
+```text
+J_bg=b J_fix-Nu(b-u)
+```
+
+shows why this is not already contained in the joint-background Johnson
+sieve: it pays boundary background polarity after exposing, rather than
+discarding, the binomial entropy cost. The middle-polarity and
+nonpositive-`J_fix` regime remains open.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write
