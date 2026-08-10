@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_joint_owner_ambient_mds_census",
+    "title": "The unguarded joint-owner chart has the exact MDS support census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Let P0 be the squarefree joint anchor locator of degree p and let the determinant coordinate H range over all polynomials of degree at most r. Exact joint-owner strata are exactly the zero-support strata of the length-p dimension-(r+1) Reed-Solomon evaluation code. For each fixed owner Q of degree q, their size is the printed MDS inclusion-exclusion count; in particular every degree-r divisor Q of P0 occurs with exactly |F|-1 chart points, so the complete top-owner ambient chart has binom(p,r)(|F|-1) points.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/statement.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/proof.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/audit.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/result.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 exact ambient joint-owner MDS census",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_joint_anchor_owner"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

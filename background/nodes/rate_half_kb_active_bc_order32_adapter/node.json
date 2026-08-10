@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_active_bc_order32_adapter",
+    "title": "KoalaBear active balanced-core certificates to order-32 adapter",
+    "status": "PROVED",
+    "closure": "same-owner finite-subset transport into upstream v4 relative classification",
+    "statement": "For every deployed KoalaBear received line, the canonical active balanced-core certificate selector transports Z_BC into the exact input of the upstream partial relative order-32 theorem. If |Z_BC|<=31 it already fits the theorem's exceptional cardinality threshold. Otherwise every 32-subset consists of distinct bad slopes on the same received line with explicit explaining data and exact agreement supports; maximal agreement sets and the stored m-subsupports satisfy the theorem's support normalization. Applying the harvested theorem preserves line and slope labels and yields its affine/rational/near-sunflower or primitive-spread alternatives. This supplies no S, A, E payment and does not imply the legacy Q6 endpoint realization.",
+    "refs": [
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/statement.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/proof.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/claim_contract.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/source_evidence.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/dependency_subdag.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/audit.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/result.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/frontier.md",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/verify.py",
+      "background/nodes/rate_half_kb_active_bc_order32_adapter/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_active_balanced_core_witness_compiler"},
+    {"from": "rate_half_mca_order32_partial_relative_harvest"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus"}
+  ],
+  "refutes": []
+}

@@ -1,7 +1,7 @@
 # Frontier
 
-The direct all-variable outside ideal timed out for pilot labels and is not a
-viable bulk route.  The next attack should work on the selected-cofactor open
-with function-field resultants, then replay only the finite degree-4/6
-boundary.  Exact duplicate-role transport can subsequently move cell 11 to
-cell 14.
+The sibling boundary exclusion proves that the finite degree-4/6 fiber has no
+guarded base-field source point: its only base-field norm roots are `x=1` and
+`x=-1`, which the parent chart-coverage unit ideals exclude.  The remaining
+cell-11 work is therefore the later reconstruction/resultant guard divisors.
+Exact duplicate-role transport can subsequently move cell 11 to cell 14.

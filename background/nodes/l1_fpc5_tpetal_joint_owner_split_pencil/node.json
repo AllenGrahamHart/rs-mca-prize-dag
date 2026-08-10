@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_joint_owner_split_pencil",
+    "title": "Joint-owner cancellation yields a dual-domain bounded-tail split pencil",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After factoring an exact joint defect/background owner Q=DE, the determinant identity cancels canonically to AV-CU=Lambda K with deg K at most r-deg Q. Relative to one member of a fixed owner chamber, every other member has the two-generator form K0(C,V)=K(C0,V0)+T(A,U) with deg K,deg T at most r-deg Q. At top ownership this is an ordinary affine pencil of primitive core-split locators coupled to a scalar determinantal representation of the disjoint touched-petal locator.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/statement.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/proof.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/audit.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/result.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 general t-petal dual-domain split-pencil reduction",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_joint_anchor_owner"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

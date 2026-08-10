@@ -1,6 +1,8 @@
 # Frontier
 
-Adjoin the endpoint quartic determined by the missing product and squared sum,
-compile the seven outside records, and test the three paired-product residual
-equations over all missing-record and matching labels.  Exceptional rational
-guards must be paid separately.
+The sibling denominator exclusion proves `A(lambda_missing)` is nonzero at
+every guarded base-field source, removing that denominator from the boundary.
+The outside paired-product atlas and its exceptional roots are paid away from
+later pivot/endpoint/resultant guards.  The next task is to classify those
+later guards and remove implementation-pivot artifacts before replaying any
+genuine finite fibers.

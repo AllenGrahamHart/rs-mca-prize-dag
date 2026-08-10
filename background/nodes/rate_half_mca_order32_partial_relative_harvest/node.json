@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_order32_partial_relative_harvest",
+    "title": "Upstream v4 partial relative order-32 explanation theorem",
+    "status": "PROVED",
+    "closure": "immutable upstream theorem harvest with exact row replay",
+    "statement": "For either deployed adjacent MCA row and any 32 distinct bad slopes with maximal supports and selected exact m-subsupports, every non-global-affine explanation outside the common-support, pure-locator, denominator-root, and scalar-locator rational-profile cells has slope degree 18 through 31 and two-cover complexity chi at least 3m-k+3: 2299571 on KoalaBear and 2299499 on Mersenne-31. If every residual 32-subset is affine or rational, then all bad slopes lie in one coherent structure or a 31-overlap enters the quantified near-sunflower branch. This is classification, not spread, large-owner, exception, or row closure.",
+    "refs": [
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/statement.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/proof.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/claim_contract.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_evidence.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/dependency_subdag.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/audit.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/result.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/frontier.md",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_pin.json",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify.py",
+      "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

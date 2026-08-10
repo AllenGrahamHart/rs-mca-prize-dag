@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_grs_shortening_official_prefix_payment",
+    "title": "Official FPC5 prefixes paid by GRS support shortening",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At n=8192, apply the exact constant-weight shortening cap to every PF6 cell and compile it through canonical first-layout domination. At rate 1/8, the complete residual source-scale prefix M=29,...,32 has total cap 195112047344632914122867933361797765038 and is paid for q at least 2^128 times that integer, a nonempty 256-bit field slice. At rate 1/16, the complete prefix M=57,...,67 has total cap 2444555448501019158442942184801171570 and is paid from a 249-bit field threshold. The same cap fails at the strict field maximum for rate 1/2 M=5, rate 1/4 M=13, rate 1/8 M=33, and rate 1/16 M=68; these are route fences, not lower bounds.",
+    "refs": [
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/statement.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/proof.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/claim_contract.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/dependency_subdag.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/audit.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/result.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/provenance.md",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify.py",
+      "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_grs_shell_constant_weight_shortening_cap"
+    },
+    {
+      "from": "l1_fpc5_large_source_exact_prefilter"
+    },
+    {
+      "from": "l1_fpc5_official_rate_prefilter_scale_gap"
+    },
+    {
+      "from": "l1_general_first_layout_domination"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

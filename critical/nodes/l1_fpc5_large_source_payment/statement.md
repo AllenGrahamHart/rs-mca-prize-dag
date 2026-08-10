@@ -3,13 +3,14 @@
 - **status:** TARGET
 - **consumer:** `l1_full_petal_fpc5_payment`
 
-After the official small-source sieve, the remaining large source scales are
+After the official small-source and exact-prefilter scale sieves, the
+remaining large source scales are
 
 ```text
 rate 1/2:   M>=5,
-rate 1/4:   M>=5,
-rate 1/8:   M>=7,
-rate 1/16:  M>=15.
+rate 1/4:   M>=13,
+rate 1/8:   M>=29,
+rate 1/16:  M>=57.
 ```
 
 Every cell satisfies
@@ -22,6 +23,342 @@ max(0,2d+1-t ell)->infinity.
 The target is one disjoint polynomial/profile allocation across first-owned
 sources, touched-petal sets, defects, and exact owners. Raw enumeration of
 sources or touched subsets is not an admissible payment.
+
+## Exact proved prefilter
+
+The proved node `l1_fpc5_official_rate_prefilter_scale_gap` exhausts the
+official low-rate prefixes after `(PF6)`. On every `n=2^s`, `13<=s<=44`,
+that residual is empty through `M=12,28,56` at rates `1/4,1/8,1/16`.
+The first omitted scales have exact `(PF6)` parameter survivors, so the new
+cutoffs cannot be extended using the prefilter alone. Rate half remains live
+from `M=5`.
+
+The proved node `l1_fpc5_large_source_exact_prefilter` now separates the
+bookkeeping reductions from the aggregate target. For every fixed source,
+touched set, and defect degree, put
+
+```text
+h=t ell,       r=2d-h,       u=d-(t-1)ell.
+```
+
+The cell is empty if `u>b`, is a singleton if `r<0` or
+`2d>N+(t-2)ell+b`, and is polynomially paid whenever either the ordinary or
+joint-background Johnson denominator is positive. Hence the only live fixed
+cells satisfy the exact residual `(PF6)` in that supplier. This reduction is
+uniform over every official `ell`; the sampled EMPTY/SINGLETON percentages
+below remain evidence and are not used as theorem premises.
+
+The proved node `l1_fpc5_tpetal_saturated_slice_dimension` also removes the
+general-`t` linearization gap. Every nonempty survivor has
+
+```text
+e=2d+1-t ell=r+1>=1,       t ell>d,
+```
+
+so its guarded pair slice projects isomorphically to a locator space of
+dimension `e+1`, with a monic affine `e`-flat. Thus every surviving fixed
+cell is a correctly typed split-locator max-to-mean instance. The open
+content is the uniform split-point and aggregate owner/profile payment, not
+the existence or dimension of the flat.
+
+The proved node `l1_fpc5_tpetal_anchor_coordinate` removes the remaining
+fixed-pair multiplicity. Relative to one exact anchor `(F,W)`,
+
+```text
+H=(FB-GW)/Lambda,       deg H<=e-1,
+```
+
+is an affine coordinate on the complete monic pair chart, and every exact
+member obeys
+
+```text
+gcd(H,F)=gcd(G,F).
+```
+
+Thus all fixed common-defect owners are gcd strata of one coordinate body at
+every `t`. The target must count the coordinates whose reconstructed locator
+splits and passes the exact guards, aggregated without summing independent
+owner pencils.
+
+The proved node `l1_fpc5_tpetal_anchor_pade_chart` makes that reconstruction
+explicit. If `I=W^(-1) mod F`, then
+
+```text
+G_H=F+rem_F(-Lambda H I),
+B_H=(G_H W+Lambda H)/F.
+```
+
+The primitive condition is an exact root-local nonvanishing test in `H` and
+`H'`. Hence the remaining fixed-cell object is a typed primitive
+split-remainder maximum; it is not an implicit coefficient or pair-counting
+problem.
+
+The proved node `l1_fpc5_tpetal_joint_anchor_owner` also incorporates the
+background guard. If `R_0` is the anchor's background zero set, then
+
+```text
+gcd(H,F L_(R_0))
+```
+
+simultaneously recovers the candidate's common defect roots and common
+background roots with the anchor. Every other background root is one printed
+affine equation in `H`. Thus fixed defect and background owners must be
+treated as one coordinate stratum, not independently summed ledgers.
+
+The proved node `l1_fpc5_tpetal_joint_owner_packing` pays every fixed joint
+owner by
+
+```text
+binom(N+b-q,r-q+1) / binom(d+max(0,u)-q,r-q+1).
+```
+
+In particular, every bounded co-deficiency owner `q=r-O(1)` is polynomial
+per owner. The exact small-cell owner probe shows that realized owner groups
+are usually singletons, so a bounded-owner coalescence theorem is not a
+credible aggregate route.
+
+The proved node `l1_fpc5_tpetal_joint_owner_ambient_mds_census` makes that
+route cut exact in the complete monic chart. If
+
+```text
+P_0=F L_(R_0),       p=deg P_0,
+```
+
+then the owner zeros are the zero support of the degree-at-most-`r`
+Reed-Solomon evaluation word `H|Z(P_0)`, up to nonzero diagonal scaling.
+Every degree-`r` divisor `Q|P_0` occurs as a top owner with exactly
+`|mathbb F|-1` ambient chart points, for a total of
+
+```text
+binom(p,r)(|mathbb F|-1).
+```
+
+These ambient pairs need not have split locators or pass the guards. The
+theorem therefore forbids owner-only and unguarded-linear coalescence; the
+simultaneous split-and-guard predicate must supply the full saving.
+
+The proved node `l1_fpc5_tpetal_owner_free_cauchy_divisor_chart` now prints
+that simultaneous predicate without choosing an anchor. If `chi` is the
+CRT multiplier equal to `c_i` modulo `L_i`, every core-split locator `G`
+reconstructs as
+
+```text
+B_G=rem_Lambda(chi G).
+```
+
+The condition `deg B_G<=d` is exactly a block of `h-d-1` weighted moments
+on the petal roots. Primitivity is nonvanishing of the punctured zeroth
+moment at each root of `G`, and every background agreement is one explicit
+Cauchy-transform zero. Equivalently, with `A=L_Core/G`, the complete cell
+is one weighted reciprocal-divisor census over `A|L_Core`. This formulation
+retains the predicates omitted by the ambient MDS theorem and does not sum
+owners independently.
+
+The proved node `l1_fpc5_tpetal_cauchy_hankel_kernel` identifies the linear
+part of that census more sharply. If
+
+```text
+mu_s=sum_(z in T)c(z)z^s/Lambda'(z),
+```
+
+then the coefficient vector of `G=sum g_a X^a` lies in the full-row-rank
+Hankel kernel
+
+```text
+sum_a mu_(j+a)g_a=0,       0<=j<h-d-1.
+```
+
+The moment generating function is `chi/Lambda` at infinity and obeys the
+exact `Lambda` recurrence. Thus the remaining flat is not arbitrary: it is
+a rational Pade-Hankel kernel intersected with the core divisors, with
+punctured first-row primitive tests and background Cauchy guards.
+
+For `u=d-(t-1)ell>=0`, the proved node
+`l1_fpc5_tpetal_fixed_background_hankel_codimension` moves any fixed
+required `u`-set `R` of background zeros into the same CRT/Hankel system by
+giving it label zero. The augmented block has exactly
+
+```text
+t ell+u-d-1=ell-1
+```
+
+full-rank rows, locator dimension `d-ell+2`, and monic codimension
+`ell-1`, independently of `t` and `u`. The exact incidence sum weights a
+candidate by `binom(|R_H|,u)`; a first-`R` rule is disjoint but no longer a
+complete linear chart. Thus the background threshold is now normalized,
+but its aggregate payment remains open.
+
+The proved node `l1_fpc5_tpetal_hankel_support_determinantal_system`
+imports Przemek's generalized-Vandermonde criterion and makes the support
+geometry explicit. Each Hankel row is one determinant equation on the
+selected core roots and moment column. If `w_i` is the corresponding Cramer
+amplitude, then
+
+```text
+M_0(G/(X-x_i))=w_i G'(x_i),
+```
+
+so the primitive puncture is exactly `w_i!=0`. The fixed-background local
+target is therefore a printed quasi-affine determinantal point count modulo
+support permutations, with the remaining background and chronology filters
+still visible.
+
+The proved node `l1_fpc5_tpetal_hankel_grs_syndrome_shell` imports the exact
+upstream syndrome-locator bijection. For locator degree `d` and `c` Hankel
+rows, put `D=d+c`. Primitive split locators are exactly the weight-`d`
+vectors in one syndrome coset of the `D`-row weighted Vandermonde check on
+the `N` core points. If `D<N`, this is the exact radius-`d` shell of
+
+```text
+RS[F,Core,N-D];
+```
+
+if `D>=N`, each fixed chart contains at most one primitive locator. In the
+fixed-background branch `c=ell-1`, so `D=d+ell-1`, and the MDS distance
+recovers the sharp support-overlap cap `d-ell`. This identifies the
+noninjective local wall with an ordinary GRS exact-list shell rather than a
+new Hankel-only object. It does not coalesce the required background sets or
+pay the guarded/chronology aggregate.
+
+The proved node `l1_fpc5_fixed_background_grs_shell_payment` performs the
+honest first aggregation of those charts. With
+
+```text
+J_fix=d^2-N(d-ell),
+```
+
+the complete fixed source/touched/degree family is bounded by
+
+```text
+binom(b,u)
+```
+
+when `d+ell-1>=N`, and by
+
+```text
+binom(b,u) N ell/J_fix
+```
+
+when `J_fix>0`. Hence every such branch with bounded
+`min(u,b-u)` is polynomial. The identity
+
+```text
+J_bg=b J_fix-Nu(b-u)
+```
+
+shows why this is not already contained in the joint-background Johnson
+sieve: it pays boundary background polarity after exposing, rather than
+discarding, the binomial entropy cost.
+
+The proved node `l1_fpc5_shifted_johnson_grs_shell_cap` now enters the
+adjacent-code strip beyond that ordinary shell boundary. It applies Haboeck's
+proved MCA numerator bound to the adjacent dimension-`K` RS code and
+Przemek's self-contained deep-point conversion to the dimension-`K+1`
+shell. For one fixed cell it gives
+
+```text
+binom(b,u) ceil(Q_m(q-N)/(q-N-KQ_m))
+```
+
+in the fixed-background branch, with the binomial factor replaced by one
+when `u<0`. Exact smallest-row replay gives a prize-budget local cap on one
+first-scale cell at rates `1/2`, `1/4`, and `1/8`, and on six of eight
+shifted/nonpositive-Johnson cells in the rate-`1/16`, `M=61` slice. The two
+remaining cells exceed the budget below `2^256`; most other `(PF6)` cells lie
+more than one dimension beyond Johnson. The middle-polarity/nonpositive-
+`J_fix` region outside this thin strip remains open at fixed-cell level.
+
+The proved node `l1_fpc5_shifted_johnson_first_layout_payment` compiles the
+thin-strip cap through the canonical outer ownership. For fixed `(M,t,d)`,
+the complete class across every maximal source layout is at most
+
+```text
+binom(M,t) W L_m(q)+M.
+```
+
+The first-layout theorem removes all source-layout multiplicity; the
+binomial touched-set factor and planted-anchor remainder are paid explicitly.
+At `n=8192`, this globally pays the unique shifted cells at the first live
+scales of rates `1/2`, `1/4`, and `1/8` on the printed upper field slices. At
+rate `1/16`, `M=61`, defects `d=248,292` are jointly paid for `q>=2^254`,
+while the other six shifted defects fail this aggregate even at the strict
+field cap. Thus these selected cells no longer have an outer source/profile
+gap; lower fields, other shifted cells, and the much larger region beyond
+the adjacent-code strip remain open.
+
+The proved node `l1_fpc5_grs_shell_constant_weight_shortening_cap` now
+removes the adjacent-code restriction. Every fixed GRS shell injects into a
+binary constant-weight support code of length `N`, weight
+`w=min(d,N-d)`, and distance at least `2 sigma`, where
+
+```text
+sigma=t ell-d              when u<0,
+sigma=ell                  in a fixed-background chart.
+```
+
+After fixing `j` common support coordinates, put `x=w-j` and
+
+```text
+Delta_j=x^2-(N-j)(x-sigma).
+```
+
+If `x<sigma` the shortened family is singleton; if `Delta_j>0`, the fixed
+chart has the exact cap
+
+```text
+floor { binom(N,j)/binom(w,j)
+        floor((N-j)sigma/Delta_j) }.
+```
+
+This is field-independent and applies at any shortening depth, but it can be
+exponential when the required depth grows. The full fixed cell retains the
+factor `binom(b,u)` when `u>=0`.
+
+The proved node `l1_fpc5_grs_shortening_official_prefix_payment` compiles
+that cap through first-layout ownership on `n=8192`. It simultaneously pays
+all `126` residual fixed cells at rate `1/8`, source scales `M=29,...,32`,
+for
+
+```text
+q>=2^128 * 195112047344632914122867933361797765038,
+```
+
+and all `374` residual fixed cells at rate `1/16`, source scales
+`M=57,...,67`, for
+
+```text
+q>=2^128 * 2444555448501019158442942184801171570.
+```
+
+Both thresholds lie below `2^256`; the first has 256 bits and the second 249.
+The same cap fails at the strict field maximum for rate-half `M=5`,
+rate-quarter `M=13`, rate-`1/8` `M=33`, and rate-`1/16` `M=68`. These are
+upper-bound route fences, not lower bounds. Larger rows and all later source
+scales remain open.
+
+The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
+replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
+two core locators and `E` from the two background numerators, and write
+`H=DEK`. Then
+
+```text
+A V-C U=Lambda K,       deg K<=r-deg Q.
+```
+
+The two reduced columns are primitive, the locator entries remain
+squarefree and split, and all petal congruences survive explicitly. Within
+one fixed owner chamber and relative to one member,
+
+```text
+K_0(C,V)=K(C_0,V_0)+T(A,U),       deg K,deg T<=r-deg Q.
+```
+
+At top ownership this is an ordinary affine pencil of locators split on the
+core, coupled to a scalar determinant of the disjoint touched-petal locator.
+Bounded co-deficiency gives a bounded-degree rational pencil. The unresolved
+issue is therefore a uniform dual-domain simultaneous split-and-guard census and
+chronology-valid aggregation across many distinct owners, not a missing
+owner coordinate or an expected small number of realized owners.
 
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 

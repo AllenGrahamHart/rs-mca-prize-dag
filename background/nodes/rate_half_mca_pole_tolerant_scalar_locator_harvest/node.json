@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+    "title": "Upstream pole-tolerant scalar-locator localization",
+    "status": "PROVED",
+    "closure": "immutable upstream local-theorem harvest",
+    "statement": "For a coherent scalar-locator certificate with exact support locators, denominator roots need not be divided away to obtain exclusive owner localization. Outside the algebraic coincidence core, each coordinate belongs to at most one selected support, giving the stated small-core and punctured-core slope bounds. After deleting at most one zero-scalar slope, every common denominator pole belongs to every support; its squarefree domain factor divides Q, A, B, and every exact locator, and cancellation preserves the exact locator identity, degree profile, and reduced coincidence core. The theorem does not assert that support-wise MCA nontriviality survives cancellation and supplies no exception payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/statement.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/proof.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/claim_contract.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_evidence.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/dependency_subdag.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/audit.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/result.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/frontier.md",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_pin.json",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify.py",
+      "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_fr_incidence_only_route_fence",
+    "title": "Incidence-only route fence for the rate-half type-2 FR bound",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the power-of-two scale m=64 there is an explicit set system with N=16m, rho=4m-1, T=rho+2, a=7m-1, exact saturation deficit sum_x(m-d_x)=1, every pair union at least a, and every individual outside-W spend at least m+2, but max_gamma |S_gamma intersect W|=3m-3>2m. Thus the incidence/cardinality inputs used by NEWCAP do not imply the proposed FR max-intersection bound. The witness is not a realizable Hankel-pencil counterexample; any positive FR theorem must use additional GRS/apolar algebra.",
+    "refs": [
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/proof.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/claim_contract.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/audit.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/result.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/provenance.md",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify.py",
+      "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_saturation_rigidity"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

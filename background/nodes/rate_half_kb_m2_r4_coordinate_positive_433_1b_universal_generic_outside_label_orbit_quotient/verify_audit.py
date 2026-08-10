@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independently reconstruct the universal label orbits."""
+"""Independently reconstruct the O0a-universal label orbits."""
 
 import itertools
 from pathlib import Path

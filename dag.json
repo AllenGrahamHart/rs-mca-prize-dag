@@ -6787,10 +6787,10 @@
    "attack_surface": "the three methods as specced in the tasking block; E37/F2 machinery prototypes all of them",
    "falsifier": "a certificate run FINDING a primitive block at an official row (then the column is charged, not excluded \u2014 a major but survivable event)",
    "refs": [
-    "critical/nodes/u2_per_row_certifier/statement.md",
-    "critical/nodes/u2_per_row_certifier/status_ruling.md",
-    "critical/nodes/u2_per_row_certifier/notes/folded_certificate.md",
-    "critical/nodes/u2_per_row_certifier/notes/modal_u2_census.py"
+    "background/nodes/u2_per_row_certifier/statement.md",
+    "background/nodes/u2_per_row_certifier/status_ruling.md",
+    "background/nodes/u2_per_row_certifier/notes/folded_certificate.md",
+    "background/nodes/u2_per_row_certifier/notes/modal_u2_census.py"
    ],
    "notes": "U2-A (#30, 174/174 PROVED arithmetic): the window split packet \u2014 U2-B's row list is now exact. U2-B DEFERRED by Codex for honest memory reasons (Row-C b <= 100 exceeds current MITM reach): needs either the resultant route (low-memory) or SOLO scheduling with the elimination method \u2014 respec before dispatch. | DISPATCH SKIP = A FINDING: the certifier's own fail-closed rule needs a pinned Row-C prime \u2014 but official_row_primes_pinning (PROVED) says NO fixed primes exist. The node's per-row premise is likely MOOT post-reframe: restate as family-uniform certification or prune. Also needs an exhaustive pattern list (absent, raw enum > 2^80). | DESK RULING: restated exhibit-conditional; the fixed-row premise was a pre-Reading-B artifact. Candidate subsumption: census_exact_counts covers Row-C windows \u2014 check whether small-t elimination is already carried there. | BAKE-OFF DONE (folded_certificate.md): both nodes reduce (via kernel_lattice_reframing PROVED) to a folded short-vector decision in dim N/2, shared with e1_fullness. Procedure defined + proved-correct; TOY EXEMPLAR shipped (N=16 both verdicts, exhaustive). Prize cells = dim-64/128 LATTICE enumeration (fplll-feasible, NOT a theorem) \u2014 needs the pinned exhibit cell; answer may be collision-found (survivable). Tier-0 CONFIRMED: the remaining work is a lattice computation. | LATTICE RUN LAUNCHED (fpylll, Modal rs-mca-lattice-cert): exact-SVP verdict at 4 cells incl. the REAL dim-64 Row-C cell (250-bit stand-in prime, q=1 mod 128). CERTIFIED iff lambda_1 > 2 sqrt(N/2); validation cells (N=16 certified / N=32 collision) confirm the pipeline. Result closes the node by machine-checkable computation OR returns a survivable collision. | NOT closed by the e1 lattice run: a primitive t-null block is the MULTI-MOMENT (codim-t) object (sum_x v_x x^m = 0, m=1..t), not the codim-1 e1 collision. SAME methodology (fold + sparse-vector enumeration) on the higher-codimension lattice L_t = {v : sum v_x x^m = 0 mod p, m=1..t}, seeking a 0/1 vector of support b <= C log n. Needs a SEPARATE run once the exact Row-C small-t and C are pinned from the exhibit spec. Feasible, same tooling. | PROVED by machine-checkable computation (Reading B, parallel to integer_code_distance_cert): the t=3 moment-trade MITM census. GATE VALIDATED \u2014 reproduces the F2 census EXACTLY: n=64 primes 257->192 / 577->64 primitive blocks (F2's recorded hits), 641/769 CERTIFIED (F2's 'clean at 641+'). CERTIFICATE at TWO large representative primes (2^61 and 2^128, q=1 mod 64): NO primitive t=3-null block across the FULL structural range b=4..10 (= (t,2t+4], the F2 spec's own range) \u2014 extending the deferred b=9,10 bands (which only exceeded laptop MITM reach). MITM is exhaustive/complete per cell. Depends on U2-A window arithmetic (PROVED, 174/174). CAVEATS (honest, same as integer_cert): representative primes (no literal official primes exist); domain mu_64 (F2 threshold/representative row); per-prime (a bad prime could carry a block \u2014 survivable, charge-the-column); t=3 small-t. Verifier: notes/modal_u2_census.py.",
    "upstream": {
@@ -28982,10 +28982,10 @@
    "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear m2/r4 distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is now proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems. That does not itself close K3: the exact positive router has eleven other named routes after the two proved route closures, and the c112 source-line theorem explicitly leaves coordinate/source-cover orientation assembly open. The budget-ledger premise must therefore provide exhaustive same-owner balanced-core routing, literal route/source-cover integers, genuine-pencil and exact line-count checks for nonzero payments, higher-dimensional ray compilers, and the active allocation inequality. Scope remains the n=2^21 extension-field deployed rows; no transport to n=2^41 prime razor rows is claimed.",
-   "falsifier": "A deployed-row supply object outside the workboard's enumerated classes; a workboard cell whose exclusion fails independent replay; or a labels-to-slopes conversion that changes any cell verdict.",
+   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear balanced-core distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems, but raw closure is not an active slope payment. The budget-ledger premise must provide the active bad-slope-to-component bridge, the separate trivial-stabilizer branch, all remaining positive/source-line/source-cover payments, exact bridge and line multiplicities, higher-dimensional ray compilers, and a balanced-core allocation after sibling U_Q and U_new charges. Scope remains the n=2^21 extension-field deployed row; no transport to n=2^41 prime razor rows is claimed.",
+   "falsifier": "An active bad slope outside the component bridge; a live component outside the order-two/trivial-stabilizer split; a failed raw-cell replay; an owner or multiplicity error; or a K3 charge above its certified balanced-core allocation.",
    "gate": "all",
-   "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure. The former labels-to-slopes placeholder is decomposed into eleven-route payment, positive-coordinate composition, orientation/source-cover assembly, exact K3 budget ledger, and independent review. Raw-cell closure is complete; route and assembly leaves remain open.",
+   "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure and round-30 domain audit. The former labels-to-slopes placeholder is decomposed into an active slope-to-component bridge, positive/source-line/source-cover/trivial-stabilizer payments, corrected orientation composition, certified balanced-core allocation, exact K3 ledger, and independent review. Raw-cell closure is complete; the active bridge and payment leaves remain open.",
    "refs": [
     "notes/band_decomposition_plan_20260809.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
@@ -28996,20 +28996,23 @@
   },
   {
    "id": "rate_half_band_crossing_location",
-   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at every admissible q > 2^167 within the proved bracket",
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "DECOMPOSITION CHILD 2 of rate_half_band_closure (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md). THE POSE OF RECORD (RH-AC), adopted from the round-27 draft with the decomposition ratification: at every admissible row (n = 2^41, k = 2^40, q prime, q = 1 mod n, 2^167 < q < 2^256 \u2014 QUANTIFIER WIDENED 2026-08-10 from razor-only, executing the ratified tiling intent after the round-28 mca_safe_rewire audit proved the children did not tile the parent: rows q in [2^167, 2^255.9] were located by nothing; below 2^167 the crossing is PROVED by the wave-10 staircase; the razor slice remains the hard corner), locate the exact adjacent crossing a_RH(q) of (RH-ADJ) \u2014 B_mca(a_RH) <= B*(q) = floor(q/2^128) < B_mca(a_RH - 1) \u2014 within the PROVED bracket a_RH in [k + 2^34, 3n/4]. The binding term is S_sparse ALONE: B_ca^far is free at razor rows (B* ~ 2^128 >> n, the Hankel layer discharges the far-CA half), so the open content is exactly min{a : S_sparse(a) <= B*}. NO RANDOM-WORD QUANTITY MAY APPEAR IN THE STATEMENT (the round-27 forced correction: FLOOR v2 fell to its own falsifier via the max-vs-mean type error). Named candidate endpoints, NO discriminating evidence held: (RH-AC-lo) a_RH = k + 2^34 (the quotient floor is tight) vs (RH-AC-hi) a_RH = 3n/4 (the half-distance pincer HD1 is tight); the determined-region ratio extrapolation (~2^38.9, near -hi) is a heuristic across a mechanism change, labelled as such. KNOWN STRUCTURE AT CREATION (round 27): the lower end is counting-exhausted (the next floor rung is 11.87 bits short with a provably tight normalizer; the conversion goes lossless as q grows; counting cannot cross n/log2 q); the upper end is gated by residual budget 2^39+1, itself diagnosed to the unit (one slope past the provable incidence limit; evidence-grade TRUE on the forced prime-field axis; proof needs the APOLAR ORIGIN); closing that budget extends the bracket top from q >= 2^169 to all q > 2^167. The supply-side flank is censused (THEOREM CAP slack-0-scoped; the arbitrary-word maximum's scaling is the one undetermined number, decided by the named Modal-class n=32 maxscan).",
-   "falsifier": "Pre-registered (round 27, with power controls): F1 \u2014 push the quotient-remainder floor's razor reach beyond 2^34 - 1 (high power: the constant moved 2^33 -> 2^34 in one wave; fires against (RH-AC-lo)). F2 \u2014 exhibit one received word y and razor row with N(y, k + 2^34; q) > floor(q/2^128) (fires against (RH-AC-lo) from the safe side). F3 \u2014 ZERO-POWER DECLARATION: any random-word or window-law count check at q < 2^128 has NO power over this pose (it measures the mean object; this is the guard that would have prevented the FLOOR v2 mis-banking).",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, the non-minimum type-2 residual is capped at 9/4 times budget by NEWCAP; an explicit incidence countermodel now proves that saturation, pairwise union OV, and individual distance spend C2 alone cannot supply the required FR max-intersection upgrade. Any positive continuation must use the generalized locator polynomials, common syndrome pencil, or Hankel/apolar equations.",
+   "attack_surface": "Prioritize a genuinely algebraic type-2 theorem using the GRS locator polynomials f_gamma or the Hankel pencil; do not continue the incidence-only FR route. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
-   "notes": "Created 2026-08-09 in the user-directed band decomposition; quantifier widened 2026-08-10 (see statement). Consumer bars (CATCH-24C, ROUND-28 CORRECTED): adjacency_closing needs the LOCATED crossing (both halves, adjacent indices \u2014 the moving bar); mca_safe needs the safe half AT THE LOCATED INDEX \u2014 the 2026-08-09 reading (a_safe free, HD1 discharges at q >= 2^169) is WITHDRAWN per the round-28 mca_safe_rewire audit (a_safe is pinned by mca_unsafe stating its claim at a_safe - 1 and by mca_grand exhibiting the crossing; B_mca nonincreasing makes a bracket end bound nothing at the crossing; the premise-weakening surgery is RETIRED AS UNSOUND); list_adjacency_closing no longer consumes this content. Round-28 anchors: the apolar-origin theorem (the residual proof target; its payoff covers the [2^167, 2^167+2^129) budget interval of the widened quantifier); the K5 re-mint.",
    "refs": [
-    "notes/band_decomposition_plan_20260809.md",
+    "critical/nodes/rate_half_band_crossing_location/statement.md",
     "critical/nodes/rate_half_band_closure/statement.md",
-    "background/nodes/rate_half_half_distance_safe_bracket/statement.md",
-    "background/nodes/rate_half_quadratic_exact_range/statement.md",
-    "notes/pilots_20260809/pincer_formalization/REPORT.md",
-    "notes/pilots_20260809/staircase_extension/REPORT.md"
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/statement.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
+    "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
+    "notes/pilots_20260810/rh_overlap_cap/REPORT.md",
+    "notes/pilots_20260810/rh_e_axis_audit/REPORT.md",
+    "notes/pilots_20260810/rh_transport_dictionary/REPORT.md"
    ]
   },
   {
@@ -29454,12 +29457,102 @@
    ]
   },
   {
+   "id": "haboeck_quadratic_johnson_mca_import",
+   "title": "Haboeck's proved quadratic Johnson-range MCA theorem",
+   "status": "PROVED",
+   "closure": "published theorem import with proof and convention audit",
+   "statement": "For C={eval_D(p):deg(p)<=d}, rho=d/n, and every integer m>=3, Haboeck Theorem 2 bounds the finite-affine same-support MCA exceptional-slope set at gamma=1-(1+1/(2m))sqrt(rho) by (ell^7/3)(rho*n)^2, where ell=(m+1/2)/sqrt(rho). In repository dimension convention K this uses d=K-1 and rho=(K-1)/n. Only the proved quadratic bound is imported; the BCHKS25 linear refinement and higher-degree samplers are not claimed.",
+   "refs": [
+    "background/nodes/haboeck_quadratic_johnson_mca_import/statement.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/proof.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/claim_contract.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/dependency_subdag.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/audit.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/result.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/provenance.md",
+    "background/nodes/haboeck_quadratic_johnson_mca_import/verify.py"
+   ],
+   "upstream": {
+    "source": "Haboeck ePrint 2025/2110 Theorem 2; rs-mca audit at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+    "relation": "PROVED_IMPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_fixed_background_grs_shell_payment",
+   "title": "Fixed-background GRS shells pay bounded background polarity",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In an FPC5 cell with 0<=u<=b, each required u-set R gives a GRS syndrome shell with D=d+ell-1 and support cap d-ell. Summing the exact fixed-R singleton or positive-Johnson bound gives |F|<=binom(b,u) in the injective D>=N branch, and |F|<=binom(b,u) N ell/[d^2-N(d-ell)] when the denominator is positive. Hence either branch is polynomial whenever min(u,b-u) is bounded. The relation J_bg=b J_fix-Nu(b-u) shows that this complements rather than repeats joint-background Johnson.",
+   "refs": [
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/statement.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/proof.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/claim_contract.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/dependency_subdag.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/audit.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/result.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/provenance.md",
+    "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/upstream_crosswalk.md"
+   ]
+  },
+  {
+   "id": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "title": "Constant-weight shortening cap for FPC5 GRS shells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every fixed FPC5 GRS syndrome shell injects through locator support into a binary constant-weight code of length N, weight w=min(d,N-d), and distance at least 2 sigma, where sigma=H-d and H=t ell for u<0 while H=d+ell for a fixed required-background chart. After fixing any j common support coordinates, the residual weight is x=w-j. If x<sigma the shortened family is singleton; if Delta_j=x^2-(N-j)(x-sigma)>0, Plotkin-Johnson gives P_j=floor((N-j)sigma/Delta_j). Hence the original chart has size at most floor(binom(N,j)P_j/binom(w,j)). For u>=0 the complete fixed source/touched/degree cell is at most binom(b,u) times this cap; for u<0 there is one chart.",
+   "refs": [
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/statement.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/proof.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/claim_contract.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/dependency_subdag.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/audit.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/result.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/provenance.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify.py",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "title": "Official FPC5 prefixes paid by GRS support shortening",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At n=8192, apply the exact constant-weight shortening cap to every PF6 cell and compile it through canonical first-layout domination. At rate 1/8, the complete residual source-scale prefix M=29,...,32 has total cap 195112047344632914122867933361797765038 and is paid for q at least 2^128 times that integer, a nonempty 256-bit field slice. At rate 1/16, the complete prefix M=57,...,67 has total cap 2444555448501019158442942184801171570 and is paid from a 249-bit field threshold. The same cap fails at the strict field maximum for rate 1/2 M=5, rate 1/4 M=13, rate 1/8 M=33, and rate 1/16 M=68; these are route fences, not lower bounds.",
+   "refs": [
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/statement.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/proof.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/claim_contract.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/dependency_subdag.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/audit.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/result.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/provenance.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify.py",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_large_source_exact_prefilter",
+   "title": "Exact EMPTY, singleton, and Johnson prefilter for large-source FPC5 cells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed large-source FPC5 full-petal cell with h=t ell, r=2d-h, and u=d-(t-1)ell, u>b makes the cell empty; r<0 or 2d>N+(t-2)ell+b makes it a singleton; and the ordinary and joint-background positive-Johnson denominators give polynomial fixed-cell payments. Every unpaid cell therefore lies in the exact residual (PF6).",
+   "refs": [
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/statement.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/proof.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/claim_contract.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/dependency_subdag.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/audit.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/result.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/provenance.md"
+   ]
+  },
+  {
    "id": "l1_fpc5_large_source_payment",
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales. The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. In every cell, 2<=t<2M-4, d<ell(M-2), and max(0,2d+1-t ell)->infinity. The conclusion is one disjoint polynomial/profile allocation across source layouts, touched-petal sets, defects, and exact owners.",
-   "attack_surface": "derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 after the exact proved prefilter (PF6) and official-rate scale-gap theorem. Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Exact constant-weight shortening now supplies a field-independent cap for every fixed GRS shell and, at n=8192, pays the complete rate-1/8 M=29..32 and rate-1/16 M=57..67 prefixes on printed upper field slices. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
+   "attack_surface": "apply the exact GRS support-shortening cap before any split-pencil attack; at n=8192 on its printed upper field slices the first unpaid scales are M=5,13,33,68 at rates 1/2,1/4,1/8,1/16, while other rows retain their own exact cutoffs; then prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, coalesce fixed background sets, and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -29504,6 +29597,24 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
     "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/statement.md",
     "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md"
+   ]
+  },
+  {
+   "id": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "title": "Official-rate FPC5 exact-prefilter scale gap",
+   "status": "PROVED",
+   "closure": "symbolic reduction plus independent exhaustive integer replay",
+   "statement": "On every official row n=2^s with 13<=s<=44, the exact FPC5 residual (PF6) is empty for rate 1/4 and 5<=M<=12, rate 1/8 and 7<=M<=28, and rate 1/16 and 15<=M<=56. Hence the unresolved large-source scales begin at M=13,29,57 respectively, while rate half remains M>=5. Exact PF6 parameter survivors at n=8192 and M=13,29,57 prove that the new low-rate cutoffs are sharp for this arithmetic prefilter.",
+   "refs": [
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/statement.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/proof.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/claim_contract.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/dependency_subdag.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/audit.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/result.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/provenance.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify.py",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify_audit.py"
    ]
   },
   {
@@ -29660,6 +29771,9 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/statement.md"
@@ -29683,6 +29797,27 @@
    ]
   },
   {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "title": "The sharp FPC5 cofactor cross determinant is an exact gcd-owner coordinate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Fix one exact sharp rate-half M=4,t=2 anchor. Dividing its cross-cofactor determinant with any guarded monic point by the forced background locator gives a degree-at-most-(ell-3) polynomial E. This is an affine bijection from the complete guarded monic slice, and for every distinct exact contributor gcd(E,F_0)=gcd(F,F_0). Thus E directly realizes the balanced determinant common-error owner. The split-point and aggregate owner count remain open.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/provenance.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1125 balanced-pencil anchor determinant atlas",
+    "relation": "FPC5_DIRECT_COORDINATE_SPECIALIZATION"
+   }
+  },
+  {
    "id": "l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence",
    "title": "Pure dyadic quotient pullbacks are absent from the sharp FPC5 flat",
    "status": "PROVED",
@@ -29699,6 +29834,27 @@
    "upstream": {
     "source": "rs-mca Conjecture-F multiplicative quotient recursion",
     "relation": "OFFICIAL_STRATUM_EMPTY"
+   }
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "title": "Sharp rate-half FPC5 cells shorten to one explicit RS list instance",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After fixing the full background and two touched petals, every exact sharp rate-half M=4,t=2 contributor injects into RS[C,2ell-1] on |C|=5ell-5 core points, at exact agreement 3ell-2 and radius 2ell-3=floor(2(N-K_0)/3). The balanced determinant atlas then recovers each common-error gcd owner and gives the exact fixed-owner bounds (SH8), including a cap of two at maximal intersection. The FPC5 cofactor, untouched-petal, and first-owner conditions remain filters. Aggregate gcd-owner coalescence remains open.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/provenance.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca split-locator flatness and list-completion route",
+    "relation": "FPC5_SHORTENED_LIST_INSTANCE"
    }
   },
   {
@@ -29738,6 +29894,26 @@
    "upstream": {
     "source": "rs-mca split-locator master flatness / experimental m1 Conjecture F",
     "relation": "EXACT_TYPED_INSTANCE"
+   }
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "title": "Sharp rate-half FPC5 contributors have a six-value rational-map encoding",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every exact sharp rate-half M=4,t=2 contributor injects into a degree-(2ell-3) rational map phi=L_1A_1/(L_2A_2). Its complete reduced 1-fiber is the defect set in the core; the two touched petals lie in the zero and pole fibers; the full background lies in the c_1/c_2 fiber; and each untouched petal avoids its own distinct marked fiber. The core, background, and four petals partition the whole official domain. This is a typed descriptor, not a count.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/provenance.md"
+   ],
+   "upstream": {
+    "source": "rs-mca determinantal incidence and split-pencil route",
+    "relation": "FPC5_MARKED_RATIONAL_MAP_INSTANCE"
    }
   },
   {
@@ -29921,12 +30097,300 @@
    ]
   },
   {
+   "id": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "title": "FPC5 shifted-Johnson first-layout aggregate payment",
+   "status": "PROVED",
+   "closure": "proof composition and independent exact threshold replay",
+   "statement": "If one fixed FPC5 source/touched/defect cell has shifted-Johnson cap W L_m(q), then canonical first-layout domination bounds the complete class across all maximal source layouts by binom(M,t) W L_m(q)+M. Disjoint exact defect cells may be summed before adding M once. At n=8192 this globally pays the unique shifted cells at rates 1/2, 1/4, and 1/8 on explicit upper field slices and jointly pays defects 248 and 292 at rate 1/16, M=61 for q>=2^254; the other six shifted M=61 defects fail after touched-set aggregation even at q=2^256-1.",
+   "refs": [
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/statement.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/proof.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/claim_contract.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/dependency_subdag.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/audit.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/result.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/provenance.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/verify.py",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "title": "FPC5 shifted-Johnson GRS shell cap",
+   "status": "PROVED",
+   "closure": "theorem composition plus independent exact official-row replay",
+   "statement": "For one FPC5 source/touched/degree cell, let H=t ell and W=1 when u<0, while H=d+ell and W=binom(b,u) when 0<=u<=b; put K=N-H and a=N-d. For m>=3 define Q_m=floor sqrt((2m+1)^14 N^7/(384^2(K-1)^3)). If K>=2, (2ma)^2>=(2m+1)^2N(K-1), and KQ_m<q-N, then the complete fixed cell has at most W ceil(Q_m(q-N)/(q-N-KQ_m)) contributors. The exact background factor is retained. Smallest-row replay newly caps one first-scale cell at rates 1/2, 1/4, 1/8 and six shifted/nonpositive-Johnson cells in the rate-1/16 M=61 slice on explicit upper field slices; no source/profile aggregation is claimed.",
+   "refs": [
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/statement.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/proof.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/claim_contract.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/dependency_subdag.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/audit.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/result.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/provenance.md",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/verify.py",
+    "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_tpetal_anchor_coordinate",
+   "title": "General t-petal monic slices have an exact gcd-owner coordinate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Relative to one squarefree exact anchor, the general t-petal monic pair slice is affinely bijective to polynomials H of degree at most e-1 via (FB-GW)/Lambda. Every distinct exact member satisfies gcd(H,F)=gcd(G,F), so its common-defect owner is recovered by one gcd.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/statement.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/proof.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/audit.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/result.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_coordinate/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal anchor-coordinate theorem",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_anchor_pade_chart",
+   "title": "General t-petal anchor coordinates have an explicit primitive Pade inverse",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a primitive monic anchor (F,W), every coordinate H reconstructs uniquely as G_H=F+rem_F(-Lambda H W^{-1}) and B_H=(G_HW+Lambda H)/F. For split squarefree G_H, primitivity is equivalent to explicit root-local inequalities.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/statement.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/proof.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/audit.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/result.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal primitive remainder theorem",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "title": "The owner-free FPC5 moment flat is a full-rank Pade-Hankel kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the owner-free t-petal Cauchy chart, let mu_s be the weighted petal moment of X^s. The h-d-1 low-numerator equations on G=sum g_a X^a are exactly the full-row-rank Hankel system sum_a mu_(j+a)g_a=0. Its generating function is chi/Lambda at infinity and its moments satisfy the Lambda recurrence. Thus every surviving split locator is a monic degree-d divisor of the core locator inside one canonical Pade-Hankel kernel, with primitivity given by nonzero punctured first-row pairings; the remaining background Cauchy guards stay explicit.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/statement.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/proof.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/audit.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/result.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 full-rank rational Pade-Hankel kernel",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "title": "Every fixed required background set gives a codimension ell-1 Hankel cell",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "In any arbitrary-t FPC5 cell with u=d-(t-1)ell>=0, fix a required u-subset R of background zeros. Adjoining its locator with label zero to the touched-petal CRT problem gives one owner-free rational Pade-Hankel kernel with exactly ell-1 full-rank rows. Its locator vector space has dimension d-ell+2 and its monic chart has affine codimension ell-1, independently of t and u. The fixed-R incidences obey the exact binomial background-root identity, and lexicographic first-R assignment partitions contributors; no sum over R is paid.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/statement.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/proof.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/audit.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/result.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 fixed-background FPC5 Hankel normalization",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "title": "FPC5 Hankel split locators are exact GRS syndrome shells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an FPC5 Hankel chart with locator degree d and c recurrence rows, put D=d+c. Primitive core-split locators are canonically bijective with weight-d vectors in the syndrome fiber of the D-row weighted Vandermonde parity check on the core. If D<N this is an exact radius-d shell of RS[F,Core,N-D]; if D>=N the fixed chart contains at most one primitive locator. Distinct supports in the noninjective range intersect in at most d-c-1 points. Background, owner, and chronology guards are retained.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/statement.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/proof.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/audit.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/result.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca experimental/notes/l1/l1_syndrome_catalecticant_shells.md at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+    "relation": "FPC5_SPECIALIZATION"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "title": "FPC5 Hankel split locators are an explicit guarded support-determinant system",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every owner-free FPC5 Pade-Hankel cell, each locator recurrence is equivalent to vanishing of one printed generalized-Vandermonde determinant on the selected core roots and the weighted moment column. The punctured primitive pairing at root x_i equals w_i G'(x_i), where w_i is the unique Cramer amplitude of that support, so primitivity is exactly nonvanishing of all support-column Cramer minors. Thus guarded core-split locators are the symmetric quotient of one explicit quasi-affine determinantal incidence, with the remaining background Cauchy guards appended.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/statement.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/proof.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/audit.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/result.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca experimental/notes/l1/l1_determinantal_support_criterion.md at fde7d56d0f2d8f135db4f2226e1978644a6c9f44",
+    "relation": "FPC5_SPECIALIZATION"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_joint_anchor_owner",
+   "title": "One determinant gcd recovers joint defect and background owners",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Relative to one exact anchor, gcd(H,F L_R0) records both common defect roots and common background-agreement roots. Owner-containment strata are the exact coordinate spaces H=QK, and all other background roots impose explicit affine equations.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/statement.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/proof.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/audit.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/result.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal joint-owner theorem",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_joint_owner_ambient_mds_census",
+   "title": "The unguarded joint-owner chart has the exact MDS support census",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Let P0 be the squarefree joint anchor locator of degree p and let the determinant coordinate H range over all polynomials of degree at most r. Exact joint-owner strata are exactly the zero-support strata of the length-p dimension-(r+1) Reed-Solomon evaluation code. For each fixed owner Q of degree q, their size is the printed MDS inclusion-exclusion count; in particular every degree-r divisor Q of P0 occurs with exactly |F|-1 chart points, so the complete top-owner ambient chart has binom(p,r)(|F|-1) points.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/statement.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/proof.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/audit.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/result.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 exact ambient joint-owner MDS census",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_joint_owner_packing",
+   "title": "Every fixed general t-petal joint owner has an exact packing payment",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At a fixed joint defect/background owner Q of degree q, reduced marked sets have size at least d+max(0,u)-q in an N+b-q point universe and pairwise intersection at most r-q. Hence their number is at most binom(N+b-q,r-q+1)/binom(d+max(0,u)-q,r-q+1), paying every bounded co-deficiency chamber per owner.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/statement.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/proof.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/audit.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/result.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal fixed joint-owner packing",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_joint_owner_split_pencil",
+   "title": "Joint-owner cancellation yields a dual-domain bounded-tail split pencil",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After factoring an exact joint defect/background owner Q=DE, the determinant identity cancels canonically to AV-CU=Lambda K with deg K at most r-deg Q. Relative to one member of a fixed owner chamber, every other member has the two-generator form K0(C,V)=K(C0,V0)+T(A,U) with deg K,deg T at most r-deg Q. At top ownership this is an ordinary affine pencil of primitive core-split locators coupled to a scalar determinantal representation of the disjoint touched-petal locator.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/statement.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/proof.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/audit.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/result.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_split_pencil/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal dual-domain split-pencil reduction",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+   "title": "The full t-petal cell is an owner-free weighted Cauchy divisor census",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a saturated t-petal pair slice, let chi be the CRT multiplier equal to label c_i modulo petal locator L_i. Every core-split locator G reconstructs anchor-freely as B_G=rem_Lambda(chi G). The degree condition deg B_G<=d is exactly a printed block of h-d-1 weighted moments on the petal roots; primitivity is exactly nonvanishing of the corresponding punctured zeroth moment at every root of G, and every background zero is exactly one printed Cauchy-transform equation. Equivalently the entire guarded cell is one reciprocal-divisor census over complements of G in the core locator, without summing joint owners.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/statement.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/proof.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/audit.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/result.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 owner-free weighted Cauchy divisor formulation",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "title": "General t-petal saturated slices have exact locator-flat dimension",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a labelled t-petal pair slice with d<h<=2d+1 and one saturated anchor, the pair space and its locator image have dimension e+1, where e=2d+1-h, and the monic locator chart is an affine e-flat. Every nonempty large-source cell surviving (PF6) satisfies these hypotheses.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/statement.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/proof.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/audit.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/result.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal saturated-slice theorem",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
    "id": "l1_full_petal_fpc5_payment",
    "title": "L1: below-band full-petal FPC5 residual payment",
    "status": "CONDITIONAL",
    "closure": "proof",
    "key": true,
-   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residual routers: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 rate split, whose rate-quarter branch is proved and whose only open child is rate half; and large sources M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint branches, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
+   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residual routers: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 rate split, whose rate-quarter branch is proved and whose only open child is rate half; and large sources M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint branches, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
    "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
    "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
    "refs": [
@@ -29989,6 +30453,115 @@
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_haboeck_quadratic_johnson_safe_bracket",
+   "title": "Exact rate-half safe bracket from Haboeck's quadratic Johnson MCA theorem",
+   "status": "PROVED",
+   "closure": "published theorem specialization with exact integer replay",
+   "statement": "For n=2^41, k=2^40 and B*=floor(q/2^128), define Q_m=floor(sqrt((2m+1)^14 n^7/(384^2(k-1)^3))) and a_m=ceil(((2m+1)/(2m))sqrt(n(k-1))). Haboeck's proved quadratic theorem gives B_mca(a_m)<=Q_m, so Q_m<=B* is an exact safe-side certificate. The first strict improvement over 3n/4 is m=9 at log2(q)>=232.650531. Under q<2^256 the maximal affordable member is m=95, with a_95=1563128173124 and radius 635895082428; m=96 is impossible. Every razor row q>2^255.9 receives at least the m=94 bracket, upgrading to m=95 at q>=330298791207625937408605578064099942258*2^128. This narrows but does not locate the adjacent crossing.",
+   "refs": [
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/statement.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/proof.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/claim_contract.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/dependency_subdag.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/audit.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/result.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/provenance.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/upstream_crosswalk.md",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/verify.py",
+    "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/verify_audit.py"
+   ],
+   "upstream": {
+    "source": "Haboeck ePrint 2025/2110 Theorem 2 via the proof-audited rs-mca import",
+    "relation": "EXACT_OFFICIAL_ROW_SPECIALIZATION"
+   }
+  },
+  {
+   "id": "rate_half_kb_active_balanced_core_component_bridge",
+   "title": "KoalaBear active balanced-core bad-slope to component bridge",
+   "status": "CONDITIONAL",
+   "statement": "Conditional on a concrete source-bound compiler for the active balanced-core certificate and a same-record realization of each compiled witness as an actual Q=6,s=6,u=2 endpoint component, every slope in the deployed KoalaBear Z_BC cell is assigned on the same received line, with its support and affine slope unchanged, to exactly one live component type (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and carries an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
+   "falsifier": "An active Z_BC slope with no actual component record, a component outside the two live types, two owners assigned to one slope, loss of support or affine-slope identity, or an unbounded/unprinted record multiplicity.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/conditional.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_balanced_core_witness_compiler",
+   "title": "KoalaBear active balanced-core source-witness compiler",
+   "status": "PROVED",
+   "closure": "explicit shifted-lattice certificate semantics plus canonical finite selection",
+   "statement": "For every admissible received line in the deployed KoalaBear MCA row, the named active-v4 bcCertified predicate is instantiated by existence of an explicit finite shifted-lattice balanced-core certificate. The certificate records the original line and affine slope, active MCA lattice and canonical reduced basis, a degree-981104 split locator/support witness, explaining data, balanced depth w=67471, earlier-owner exclusions, and chronology. The first-match cell Z_BC is exactly the slope projection of valid certificates after tangent and Q. Lexicographic minimization selects exactly one certificate per Z_BC slope, so the selected-certificate-to-slope map is bijective and every selector fiber is one. No endpoint component, K3 payment, or row close is claimed.",
+   "falsifier": "A Z_BC slope with no valid source certificate, a valid certificate projecting outside Z_BC, nondeterministic or non-finite selector fibers, or loss of received-line, slope, support, locator, depth, or chronology data.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/statement.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/proof.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/audit.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/result.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/frontier.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify.py",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_bc_order32_adapter",
+   "title": "KoalaBear active balanced-core certificates to order-32 adapter",
+   "status": "PROVED",
+   "closure": "same-owner finite-subset transport into upstream v4 relative classification",
+   "statement": "For every deployed KoalaBear received line, the canonical active balanced-core certificate selector transports Z_BC into the exact input of the upstream partial relative order-32 theorem. If |Z_BC|<=31 it already fits the theorem's exceptional cardinality threshold. Otherwise every 32-subset consists of distinct bad slopes on the same received line with explicit explaining data and exact agreement supports; maximal agreement sets and the stored m-subsupports satisfy the theorem's support normalization. Applying the harvested theorem preserves line and slope labels and yields its affine/rational/near-sunflower or primitive-spread alternatives. This supplies no S, A, E payment and does not imply the legacy Q6 endpoint realization.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/statement.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/proof.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/claim_contract.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/source_evidence.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/audit.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/result.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/frontier.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/verify.py",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "title": "KoalaBear active balanced-core partition semantic-gap audit",
+   "status": "PROVED",
+   "closure": "finite logical countermodel plus source-contract audit",
+   "statement": "The frozen Grande Finale v4 tangent-source partition proves exact first-match set algebra for arbitrary Q and bcCertified predicates, but supplies no source-bound data or semantic restriction for bcCertified. A one-slope finite countermodel satisfies bad-slope exhaustion, first-owner uniqueness, and pairwise disjointness while Z_BC is nonempty and the endpoint-record set is empty. Therefore the active partition contract alone cannot imply a Z_BC-to-Q6 endpoint bridge. Independently, the K3 source-pencil packets quantify over supplied actual endpoint records and explicitly disclaim received-data, slope, owner, and parameter-to-carrier descent. This is a logical-independence and provenance result, not a counterexample to a future concretely defined balanced-core theorem.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/statement.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/proof.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/claim_contract.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/source_evidence.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/audit.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/result.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/frontier.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify.py",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "title": "KoalaBear active balanced-core witness to Q6 endpoint realization",
+   "status": "TARGET",
+   "statement": "For every canonical source certificate emitted by rate_half_kb_active_balanced_core_witness_compiler, prove the equality-wall Q=6,s=6,u=2 hypotheses and construct on the same received line an actual endpoint record and residual component. Preserve the certificate's affine slope, selected support, explaining data, and first-match owner; keep the endpoint parameter line distinct from the evaluation carrier; and print an injection or exact finite multiplicity for every certificate-to-record and record-to-component fiber.",
+   "falsifier": "A valid active balanced-core source certificate that does not satisfy the Q6,s6,u2 endpoint hypotheses, has no actual residual component, changes owner/support/slope, conflates parameter and carrier coordinates, or has an uncontrolled realization fiber.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/statement.md",
+    "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/attack.md"
    ]
   },
   {
@@ -32838,6 +33411,28 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b cell-11 colored off-guard consistency exclusion",
+   "status": "PROVED",
+   "closure": "missing BE and CF are impossible on all eight deployed off-guard cell-11 source towers",
+   "statement": "On each of the eight repeated-BC cell-11 source towers, let q and s^2 be the common-kernel reconstruction of the missing endpoint product and squared sum. If BE is missing then e=q/b and necessarily (b+e)^2=s^2; if CF is missing then f=q/c and necessarily (c+f)^2=s^2. The exact source-algebra norms of both consistency elements are nonzero rational functions. Over F_2130706433 their only base-field numerator roots are x=0,1 for BC- and x=0,-1 for BC+, all registered construction guards. Thus missing BE and CF are impossible at every deployed off-guard source value, independently of residual matching. Guard and selected-cofactor boundaries, cell 14, and K3 payment remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_colored_consistency_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_colored_consistency_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-11 common-kernel reconstruction",
    "status": "PROVED",
@@ -32884,6 +33479,50 @@
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_principal_projection_result.json",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_curve_geometry_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_curve_geometry_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b cell-11 missing-label reconstruction denominator exclusion",
+   "status": "PROVED",
+   "closure": "A(lambda_missing) is nonzero at every guarded F_2130706433 source point in all eight cell-11 common rows",
+   "statement": "On every repeated-BC cell-11 common row over F_2130706433, let A be the degree-two product-kernel polynomial from the common-kernel reconstruction. The exact finite-algebra norm of A(lambda_missing) has no guarded base-field zero. For BC- all base-field norm roots x=1,-1 are outside the symmetric tower chart. For BC+ there are three chart-level root values; one has no base-field source lift, while the other two yield 16 lifts across the four epsilon rows. Every lift has b=c and makes the original common guard zero. Therefore division by A(lambda_missing) introduces no guarded base-field boundary in the missing-product and squared-sum formulas. Other reconstruction pivots, endpoint and resultant guards, cell-14 transport, and K3 payment remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_reconstruction_denominator_boundary_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_reconstruction_denominator_boundary_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b cell-11 selected-cofactor deployed boundary exclusion",
+   "status": "PROVED",
+   "closure": "the selected product-rank cofactor is nonzero at every guarded F_2130706433 source point in all eight cell-11 common rows",
+   "statement": "For each of the eight repeated-BC cell-11 symmetric function-field towers over F_2130706433, substitute the exact printed degree-seven product-rank cofactor into the tower algebra and take its multiplication norm to F_2130706433(x). For BC- the norm numerator factors with degrees 2,1 and multiplicities 2,10; its only base-field root is x=1. For BC+ the factor degrees and multiplicities are (3,2),(2,4),(1,4); its only base-field root is x=-1. The exact chart-coverage theorem for the parent tower proves that no original guarded common-source point has x in {0,1,-1} or y=0. Hence the selected cofactor has no zero at any guarded base-field source point in any of the eight common rows. This leaves later reconstruction/resultant guard divisors, cell-14 transport, and K3 slope/allocation payment open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_boundary_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_boundary_result.json"
    ]
   },
   {
@@ -33658,10 +34297,10 @@
   },
   {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
-   "title": "KoalaBear m2 r4 positive 433-1b universal outside-label quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b to O0a universal outside-label quotient",
    "status": "PROVED",
-   "closure": "universal 105-to-36 label quotient in every common role cell",
-   "statement": "For every guarded positive deployed 433-1b common role cell, exchange of the two identical positive DE records and the universal D/E outside transport preserve the complete source and target systems. Their action partitions the 105 omitted-record/residual-matching labels into 36 orbits with size profile 1:3, 2:15, 4:18. The 30 endpoint labels form 12 invariant orbits; the other 75 labels form 24 invariant orbits with profile 1:1, 2:9, 4:14. This theorem is a workload quotient and excludes no representative.",
+   "closure": "universal 105-to-36 label quotient in every 433-1b to O0a common role cell",
+   "statement": "For every guarded positive deployed 433-1b to O0a common role cell, exchange of the two identical positive DE records and the O0a D/E outside transport preserve the complete source and target systems. Their action partitions the 105 omitted-record/residual-matching labels into 36 orbits with size profile 1:3, 2:15, 4:18. The 30 endpoint labels form 12 invariant orbits; the other 75 labels form 24 invariant orbits with profile 1:1, 2:9, 4:14. This theorem is a workload quotient and excludes no representative. It does not apply to 433-1b to O0b: the repeated-BC record pair is signed rather than identical on its S0 lanes, and D/E transport does not preserve O0b's BE/CF colored incidences.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/proof.md",
@@ -33682,7 +34321,7 @@
    "title": "KoalaBear m2 r4 positive-coordinate complete payment",
    "status": "CONDITIONAL",
    "gate": "all",
-   "statement": "Conditional on the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
+   "statement": "Conditional on the active balanced-core bad-slope-to-component bridge and the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement with exact bridge multiplicity. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
@@ -33694,7 +34333,7 @@
    "id": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "title": "KoalaBear m2 r4 positive-coordinate remaining-route payment",
    "status": "TARGET",
-   "statement": "Every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact multiplicity, and add-back chronology.",
+   "statement": "Within the active image supplied by the balanced-core component bridge, every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact bridge multiplicity, and add-back chronology.",
    "falsifier": "A guarded packet on any of the eleven routes, or a slope payment that loses owner identity, multiplicity, or first-match chronology.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
@@ -34774,14 +35413,40 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_source_cover_payment",
+   "title": "KoalaBear m2 r4 biquadratic source-cover payment",
+   "status": "TARGET",
+   "statement": "For every active bridge-produced diagonal component whose diagonal action does not preserve the quadratic source intermediate field, compile the genus-zero and genus-one biquadratic V4 source-cover passports against every live source-mixing row. Every resulting terminal is empty, transported bijectively to an already paid active image, or assigned an exact distinct-affine-slope payment with bridge multiplicity and chronology. The theorem prints U_source_cover.",
+   "falsifier": "A live source-cover passport or mixing row outside the compiler, a non-bijective transport, an unpaid survivor, or an incorrect owner/slope multiplicity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment",
+   "title": "KoalaBear m2 r4 diagonal source-line remaining payment",
+   "status": "TARGET",
+   "statement": "In the active bridge image of the diagonal source-line branch, the proved c2(2,0,2) exclusion and saturated c2(1,1,2) source-line exclusion contribute zero. Every remaining source-line packet in rows (1,0,4), (0,1,4), the near-aligned part of (0,0,6), and the exceptional unsaturated (1,1,2) orbit is empty or has a printed exact distinct-affine-slope payment with bridge multiplicity and active chronology. The theorem outputs U_source_line.",
+   "falsifier": "A source-line packet outside the five-row mixing census, a claimed-zero packet that survives, an omitted exceptional orbit, or an owner/multiplicity error in a nonzero payment.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/attack.md"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_k3_allocation_inequality",
    "title": "KoalaBear m2 r4 K3 exact active-allocation inequality",
-   "status": "TARGET",
-   "statement": "In the active KoalaBear m2 r4 first-match manifest, print the exact integers U_positive, U_sourcecover, U_K3=U_positive+U_sourcecover, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. No floating-point comparison, owner renormalization, omitted line multiplicity, or allocation imported from a different row or partition is allowed.",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the positive-coordinate payment, corrected geometry/orientation assembly, and certified balanced-core allocation definition, print the exact integers U_positive, U_geometry, U_K3=U_positive+U_geometry, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. The joint unpaid reserve is not a K3-only allocation. No floating-point comparison, owner renormalization, omitted bridge or line multiplicity, or allocation imported from a different row, cell, or partition is allowed.",
    "falsifier": "The exact total exceeds the allocation, an input integer lacks a pinned proof certificate, a digest or row differs, or the comparison uses a different owner/normalization convention.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
-    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md"
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/conditional.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/verify.py"
    ]
   },
   {
@@ -34789,7 +35454,7 @@
    "title": "KoalaBear m2 r4 K3 exact distinct-slope budget ledger",
    "status": "CONDITIONAL",
    "gate": "all",
-   "statement": "Conditional on the complete positive-coordinate payment, the exhaustive orientation/source-cover assembly, and the exact active-allocation inequality, the KoalaBear m2 r4 K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_sourcecover within its active allocation. The proved c2(1,1,2) source-line and negative-coordinate exclusions contribute zero as evidence. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, owner change, or separately normalized budget is allowed.",
+   "statement": "Conditional on the complete positive-coordinate payment, corrected active component/orientation assembly, and exact active-allocation inequality, the balanced-core K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_geometry within its active allocation. Here U_geometry includes the remaining source-line, biquadratic source-cover, and trivial-stabilizer payments; the proved saturated c2(1,1,2), c2(2,0,2), and negative-coordinate exclusions contribute zero. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line and bridge multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, dropped balanced-core qualifier, owner change, or separately normalized budget is allowed.",
    "falsifier": "A missing or overlapping slope owner, incorrect route integer, non-genuine pencil payment, uncounted line, unpaid higher-dimensional survivor, or U_K3 above the active allocation.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
@@ -34803,7 +35468,7 @@
    "id": "rate_half_kb_m2_r4_k3_independent_review",
    "title": "KoalaBear m2 r4 K3 independent proof review",
    "status": "TARGET",
-   "statement": "A fresh independent reviewer has replayed and audited the load-bearing c112, coordinate-route, orientation-assembly, and distinct-slope composition certificates at pinned commits, confirmed the active row/partition contract and same-owner chronology, and recorded no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by the producing implementation is insufficient.",
+   "statement": "A fresh independent reviewer outside the producing implementations has replayed and audited the complete load-bearing K3 sub-DAG at pinned commits: the active bad-slope-to-component bridge; full-V4 and negative-coordinate exclusions; positive raw workboards and all remaining route payments; complete source-line, source-cover, and trivial-stabilizer payments; orientation composition; allocation definition; and distinct-slope ledger. The reviewer confirms the active row/partition contract, exact multiplicities, and same-owner chronology and records no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by a producing implementation is insufficient.",
    "falsifier": "A failed replay, digest mismatch, missing dependency, owner/row mismatch, unreviewed load-bearing argument, or unresolved reviewer objection.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
@@ -34812,15 +35477,218 @@
   },
   {
    "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
-   "title": "KoalaBear m2 r4 K3 orientation and owner assembly",
-   "status": "TARGET",
-   "statement": "Every unpaid same-owner balanced-core bad-slope witness in the active KoalaBear m2 r4 first-match residual is routed exhaustively and without overlap into the source-line, coordinate, or source-cover orientation. The source-line image is exactly the declared c2(1,1,2) source-line workboard; the coordinate image is exactly the signed negative/positive coordinate workboards; every source-cover image is either proved empty, mapped bijectively to one of those two images, or paid by a printed exact distinct-affine-slope integer. The theorem outputs the disjoint source-cover sum U_sourcecover and preserves received-line owner, support reconstruction, affine slope, and chronology.",
-   "falsifier": "A balanced-core bad slope outside the three orientations, a source-cover survivor with no exact payment, overlap between owners, or loss of received-line/slope identity under routing.",
+   "title": "KoalaBear K3 active component and orientation assembly",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the active balanced-core bad-slope-to-component bridge, the proved order-two component trichotomy, complete positive-coordinate payment, complete negative-coordinate exclusion, complete remaining source-line and biquadratic source-cover payments, and complete trivial-stabilizer payment, every active KoalaBear Z_BC slope is owned exactly once. The order-two image splits into coordinate, source-line, and source-cover branches; the separate (m,r,delta)=(2,8,1) image is paid by U_trivial. The theorem outputs U_geometry=U_source_line+U_source_cover+U_trivial and preserves received line, witness support, affine slope, exact bridge multiplicity, and first-match chronology.",
+   "falsifier": "An active balanced-core slope outside the bridge image, a component outside the order-two or trivial-stabilizer types, an omitted source-line row or source-cover passport, overlap between owners, or loss of received-line/support/slope identity or bridge multiplicity.",
    "refs": [
     "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/conditional.md",
     "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
-    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md"
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/verify.py"
    ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "title": "KoalaBear m2 r4 order-two component orientation trichotomy",
+   "status": "PROVED",
+   "closure": "exact component-level coordinate/source-line/source-cover trichotomy",
+   "statement": "Every actual residual KoalaBear component of type (m,r,delta)=(2,4,2) has an order-two stabilizer in V4. The two coordinate subgroups are equivalent under endpoint transposition, with a fresh source record after transport. The remaining diagonal subgroup splits exhaustively according to whether its action preserves the quadratic source intermediate field: the preserving branch is the reciprocal source-line lift, and the nonpreserving branch is a genus-zero or genus-one biquadratic source cover with the printed V4 passports. This is a component-level classification only; it does not map active bad slopes to components, cover the live trivial-stabilizer (2,8,1) type, delete any orientation, or move a ledger value.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/result.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r8_trivial_stabilizer_payment",
+   "title": "KoalaBear m2 r8 trivial-stabilizer component payment",
+   "status": "TARGET",
+   "statement": "In the active image of the balanced-core component bridge, every actual residual component of type (m,r,delta)=(2,8,1), equivalently trivial V4 stabilizer, is either excluded or assigned an exact distinct-affine-slope payment with the bridge multiplicity, same received-line owner, and first-match chronology. The theorem prints the total U_trivial.",
+   "falsifier": "A bridge-produced trivial-stabilizer component outside the classification, a surviving component with no exact slope payment, or a payment that changes owner, slope, or multiplicity.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_v4_balanced_core_allocation_definition",
+   "title": "KoalaBear v4 balanced-core allocation definition",
+   "status": "TARGET",
+   "statement": "Under the frozen KoalaBear Grande Finale v4 first-match partition, prove exact bounds U_Q and U_new for the two sibling unpaid cells, or an equivalent certified three-way allocation, and define the balanced-core allowance U_K3_allocation by exact integer subtraction from B*=274980728111395087 after U_paid=981104. The joint reserve 274980728110413983 is not by itself a K3 allocation. The certificate binds row, partition digest, owner order, and all sibling atom proofs.",
+   "falsifier": "Using the joint reserve as a K3-only budget without paying U_Q and U_new, a negative or mismatched allocation, or any drift in row, partition, owner, or integer unit.",
+   "refs": [
+    "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
+    "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_mca_coordinate_clone_subcritical_payment",
+   "title": "MCA coordinate-clone subcritical-class payment",
+   "status": "PROVED",
+   "closure": "exact bidegree incidence payment and unique-large-class reduction",
+   "statement": "In a deployed owner pencil after fixed-slope, fixed-owner, and identically-zero coordinate curves are routed separately, partition the nonzero coordinate curves by common irreducible bidegree-(1,1) component. For every clone class C of size 2<=c<m, any rich parameter point assigned to that component needs at least m-c outside coordinate equations, while each outside bidegree-(1,1) curve meets the component in at most two points. Hence N_C(m-c)<=2(n-c) and, because n<=2(m-1), N_C<=2c. Summing all subcritical classes gives at most 2n=4194304 rich parameter pairs, below both deployed MCA budgets. Since n<2m, at most one clone class has size at least m. Thus every unpaid coordinate-clone exception is reduced to one unique large clone component; that component is not paid here.",
+   "refs": [
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/statement.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/proof.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/source_evidence.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/audit.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/result.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/frontier.md",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/source_pin.json",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify.py",
+    "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "title": "Denominator-root cancellation and puncture-trivialization dichotomy",
+   "status": "PROVED",
+   "closure": "exact same-owner source decomposition after common-pole cancellation",
+   "statement": "After exact common-pole cancellation in a source-normalized rational atom, the nonzero-scalar indices split canonically into reduced support-wise MCA witnesses and puncture-trivialized indices. The former retain the same received-line and slope owner in the reduced certificate, whose denominator is nonzero on the reduced coincidence core; no claim is made that it is root-free on the whole reduced domain. For every trivialized index, because t<=m-k, polynomial uniqueness forces h_i=p0_i+gamma_i p1_i globally; on the deleted pole set P the defect vectors u_i=r0-p0_i and v_i=r1-p1_i obey u_i+gamma_i v_i=0 with v_i nonzero, so the slope is recovered from the defect. Distinct slopes cannot share the same ordered polynomial pair (p0_i,p1_i). The split is exhaustive and disjoint but gives no bound on the number of defect records and does not prove exception routing.",
+   "refs": [
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/statement.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/proof.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/source_evidence.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/audit.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/result.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/frontier.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify.py",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "title": "Denominator-root trivialized-support shadow packing",
+   "status": "PROVED",
+   "closure": "exact interpolation packing and quantified non-payment fence",
+   "statement": "In the puncture-trivialized branch of the denominator-root cancellation dichotomy, each reduced support determines a unique simultaneous degree-<k explaining pair. Two distinct-slope reduced supports intersect in at most k-1 coordinates. Consequently their k-shadows are disjoint and |T|*binom(m-t,k)<=binom(n-t,k). At both deployed rows this shadow-packing upper bound is itself larger than the row budget for every 0<=t<=m-k, so it is a structural theorem but not an exception payment; further polynomial, owner, or field geometry is necessary.",
+   "refs": [
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/statement.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/proof.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/claim_contract.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/dependency_subdag.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/audit.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/result.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/frontier.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify.py",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_order32_partial_relative_harvest",
+   "title": "Upstream v4 partial relative order-32 explanation theorem",
+   "status": "PROVED",
+   "closure": "immutable upstream theorem harvest with exact row replay",
+   "statement": "For either deployed adjacent MCA row and any 32 distinct bad slopes with maximal supports and selected exact m-subsupports, every non-global-affine explanation outside the common-support, pure-locator, denominator-root, and scalar-locator rational-profile cells has slope degree 18 through 31 and two-cover complexity chi at least 3m-k+3: 2299571 on KoalaBear and 2299499 on Mersenne-31. If every residual 32-subset is affine or rational, then all bad slopes lie in one coherent structure or a 31-overlap enters the quantified near-sunflower branch. This is classification, not spread, large-owner, exception, or row closure.",
+   "refs": [
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/statement.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/proof.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/claim_contract.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_evidence.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/dependency_subdag.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/audit.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/result.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/frontier.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_pin.json",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify.py",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "title": "Upstream pole-tolerant scalar-locator localization",
+   "status": "PROVED",
+   "closure": "immutable upstream local-theorem harvest",
+   "statement": "For a coherent scalar-locator certificate with exact support locators, denominator roots need not be divided away to obtain exclusive owner localization. Outside the algebraic coincidence core, each coordinate belongs to at most one selected support, giving the stated small-core and punctured-core slope bounds. After deleting at most one zero-scalar slope, every common denominator pole belongs to every support; its squarefree domain factor divides Q, A, B, and every exact locator, and cancellation preserves the exact locator identity, degree profile, and reduced coincidence core. The theorem does not assert that support-wise MCA nontriviality survives cancellation and supplies no exception payment.",
+   "refs": [
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/statement.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/proof.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/claim_contract.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_evidence.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/dependency_subdag.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/audit.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/result.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/frontier.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_pin.json",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify.py",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_type2_fr_incidence_only_route_fence",
+   "title": "Incidence-only route fence for the rate-half type-2 FR bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the power-of-two scale m=64 there is an explicit set system with N=16m, rho=4m-1, T=rho+2, a=7m-1, exact saturation deficit sum_x(m-d_x)=1, every pair union at least a, and every individual outside-W spend at least m+2, but max_gamma |S_gamma intersect W|=3m-3>2m. Thus the incidence/cardinality inputs used by NEWCAP do not imply the proposed FR max-intersection bound. The witness is not a realizable Hankel-pencil counterexample; any positive FR theorem must use additional GRS/apolar algebra.",
+   "refs": [
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/proof.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/claim_contract.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/audit.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/result.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/provenance.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify.py",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "title": "Unique-decoding CA/MCA transfer is disjoint from the live rate-half crossing interval",
+   "status": "PROVED",
+   "closure": "proof and exact arithmetic replay",
+   "statement": "For the official rate-half row n=2^41, k=2^40, the unique-decoding MCA-from-CA transfer and the BCIKS correlated-agreement import require 2(n-a)<=n-k, equivalently a>=3n/4. Every live interior agreement k+2^34<=a<3n/4 violates that hypothesis, with failure already equal to two at a=3n/4-1. The transfer recovers the existing half-distance endpoint but cannot supply the live far-CA upper bound. This fences only the named unique-decoding route; it does not rule out a new beyond-half-distance CA/MCA theorem.",
+   "refs": [
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/proof.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/claim_contract.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/dependency_subdag.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/audit.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/result.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/verify.py",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/provenance.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca tex/towards-prize.tex at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+    "relation": "SCOPE_SPECIALIZATION"
+   }
+  },
+  {
+   "id": "rs_deep_point_list_to_ca_conversion",
+   "title": "Self-contained RS deep-point list-to-CA conversion",
+   "status": "PROVED",
+   "closure": "self-contained proof and exact ceiling audit",
+   "statement": "For C=RS[F,D,K] and C+=RS[F,D,K+1] with q>N=|D| and floor(delta N)<=N-K-1, epsilon_ca(C,delta)<=eta(1/K-N/(Kq)) implies List(C+,delta)<=ceil(q epsilon_ca/(1-eta)). In particular, a CA bad-slope numerator at most Q and KQ<q-N imply List(C+,delta)<=ceil(Q(q-N)/(q-N-KQ)).",
+   "refs": [
+    "background/nodes/rs_deep_point_list_to_ca_conversion/statement.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/proof.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/claim_contract.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/dependency_subdag.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/audit.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/result.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/provenance.md",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/verify.py",
+    "background/nodes/rs_deep_point_list_to_ca_conversion/verify_audit.py"
+   ],
+   "upstream": {
+    "label": "deep-point list-to-CA conversion (thm:A)",
+    "relation": "IDENTICAL"
+   }
   },
   {
    "id": "tern_master_threshold",
@@ -40788,7 +41656,7 @@
   {
    "from": "u2_per_row_certifier",
    "to": "x4_exactlist_staircase_split",
-   "kind": "req"
+   "kind": "ev"
   },
   {
    "from": "xr_syzygy_support_lemma",
@@ -61451,6 +62319,31 @@
    "kind": "ev"
   },
   {
+   "from": "haboeck_quadratic_johnson_mca_import",
+   "to": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "kind": "req"
+  },
+  {
+   "from": "haboeck_quadratic_johnson_mca_import",
+   "to": "rate_half_haboeck_quadratic_johnson_safe_bracket",
+   "kind": "ev"
+  },
+  {
+   "from": "haboeck_quadratic_johnson_mca_import",
+   "to": "rate_half_haboeck_quadratic_johnson_safe_bracket",
+   "kind": "req"
+  },
+  {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "l1_fpc5_large_source_exact_prefilter",
+   "kind": "req"
+  },
+  {
+   "from": "l1_balanced_pencil_anchor_determinant_atlas",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "kind": "req"
+  },
+  {
    "from": "l1_core_defect_reduction",
    "to": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "kind": "req"
@@ -61458,6 +62351,51 @@
   {
    "from": "l1_first_match_totality_scope_pin",
    "to": "f_imgfib_consumer_descriptor",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_fpc5_large_source_exact_prefilter",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_fixed_background_grs_shell_payment",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_shifted_johnson_grs_shell_cap",
    "kind": "req"
   },
   {
@@ -61484,6 +62422,16 @@
    "from": "l1_fpc5_m4_t2_payment",
    "to": "l1_full_petal_fpc5_payment",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_ratehalf_inverse_ratio_degree_gate",
@@ -61552,6 +62500,16 @@
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "kind": "req"
   },
@@ -61581,9 +62539,24 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
@@ -61604,6 +62577,16 @@
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",
@@ -61686,8 +62669,168 @@
    "kind": "req"
   },
   {
+   "from": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "to": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_anchor_coordinate",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_anchor_coordinate",
+   "to": "l1_fpc5_tpetal_anchor_pade_chart",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_anchor_pade_chart",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_anchor_pade_chart",
+   "to": "l1_fpc5_tpetal_joint_anchor_owner",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "to": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "to": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "to": "l1_fpc5_fixed_background_grs_shell_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "to": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_fixed_background_grs_shell_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "to": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_anchor_owner",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_anchor_owner",
+   "to": "l1_fpc5_tpetal_joint_owner_ambient_mds_census",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_anchor_owner",
+   "to": "l1_fpc5_tpetal_joint_owner_packing",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_anchor_owner",
+   "to": "l1_fpc5_tpetal_joint_owner_split_pencil",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_owner_ambient_mds_census",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_owner_packing",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_joint_owner_split_pencil",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+   "to": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "to": "l1_fpc5_tpetal_anchor_coordinate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "to": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+   "kind": "req"
+  },
+  {
    "from": "l1_full_petal_fpc5_payment",
    "to": "imgfib",
+   "kind": "req"
+  },
+  {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
    "kind": "req"
   },
   {
@@ -61711,9 +62854,29 @@
    "kind": "req"
   },
   {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_fpc5_large_source_exact_prefilter",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_fpc5_tpetal_joint_owner_packing",
+   "kind": "req"
+  },
+  {
    "from": "l1_rootfree_rational_q_projective_packing",
    "to": "f_imgfib_consumer_descriptor",
    "kind": "ev"
+  },
+  {
+   "from": "mca_from_ca_reduction",
+   "to": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "kind": "req"
   },
   {
    "from": "moment_trade_staircase",
@@ -61738,6 +62901,11 @@
   {
    "from": "pma_full_petal_band_composition",
    "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_fpc5_official_rate_prefilter_scale_gap",
    "kind": "req"
   },
   {
@@ -61836,6 +63004,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_type2_fr_incidence_only_route_fence",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "rate_half_crossing_multiscale_haar_norm_router",
    "kind": "req"
@@ -61854,6 +63027,61 @@
    "from": "rate_half_crossing_multiscale_haar_norm_router",
    "to": "rate_half_list_adjacent_crossing",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_haboeck_quadratic_johnson_safe_bracket",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_component_bridge",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_component_bridge",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_witness_compiler",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_witness_compiler",
+   "to": "rate_half_kb_active_bc_order32_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_bc_order32_adapter",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_balanced_core_witness_compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
@@ -64911,6 +66139,21 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_colored_deployed_off_guard_consistency_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_uncolored_generic_rank_atlas",
    "kind": "req"
@@ -64931,6 +66174,21 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower",
    "kind": "req"
@@ -64943,6 +66201,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_missing_label_reconstruction_denominator_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion",
    "kind": "req"
   },
   {
@@ -65687,7 +66955,17 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
    "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
    "kind": "req"
   },
   {
@@ -65704,6 +66982,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
    "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
@@ -66606,14 +67889,24 @@
    "kind": "req"
   },
   {
-   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
-   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "from": "rate_half_kb_m2_r4_diagonal_source_cover_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
    "kind": "req"
   },
   {
-   "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
-   "to": "rate_half_band_structural_surplus",
-   "kind": "ev"
+   "from": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
@@ -66623,6 +67916,11 @@
   {
    "from": "rate_half_kb_m2_r4_k3_independent_review",
    "to": "rate_half_band_structural_surplus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
    "kind": "req"
   },
   {
@@ -66688,6 +67986,81 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r8_trivial_stabilizer_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_v4_balanced_core_allocation_definition",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_v4_tangent_source_atom",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_coordinate_clone_subcritical_payment",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "to": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_kb_active_bc_order32_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_type2_fr_incidence_only_route_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rs_deep_point_list_to_ca_conversion",
+   "to": "l1_fpc5_shifted_johnson_grs_shell_cap",
    "kind": "req"
   },
   {

@@ -1,0 +1,597 @@
+{
+  "case_count": 8,
+  "deployed_boundary_root_occurrences": 0,
+  "distinct_deployed_boundary_root_count": 0,
+  "field_boundary_point_count": 0,
+  "rows": [
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 2,
+      "norm_denominator_sha256": "7ead7f2ac1f175e1650b7a7b433f7cbdca3ae29ff06e6ff5c5199d17b731658c",
+      "norm_numerator_degree": 14,
+      "norm_numerator_factorization": [
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "18d7e1f9ccea7bee00b81ce9d2f71fd37750c7ef152aeffae2ff3e5ec3e975f0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 10,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "7233ece430c01d5dd59b87d5134966570521d3ad9959540d8f02242b7f95c89e",
+      "off_chart_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 9,
+      "pre_cofactor_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "b02b26e0f2784f7099e202aa6c83827563188346d35176d093719a5a894ca066",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 8,
+      "norm_denominator_sha256": "da28beab3c89fec92475971d05da5b156b8480e4f0d3ebf3fb260d929c9aafdc",
+      "norm_numerator_degree": 18,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "cee7b82e878b4a24899f4006f2841c83cad720f2afe8a227dc78fd5569357483"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        }
+      ],
+      "norm_numerator_sha256": "85318e9f312f0a4d319bf079c3c4d0628214acfa3394ec4e24084ce0725d3517",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 6,
+      "pre_cofactor_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "83f3ca171563b2a841cc696720280787528b2c2af63abdc9432d067a5c7034ab",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        -1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 2,
+      "norm_denominator_sha256": "7ead7f2ac1f175e1650b7a7b433f7cbdca3ae29ff06e6ff5c5199d17b731658c",
+      "norm_numerator_degree": 14,
+      "norm_numerator_factorization": [
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "18d7e1f9ccea7bee00b81ce9d2f71fd37750c7ef152aeffae2ff3e5ec3e975f0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 10,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "7233ece430c01d5dd59b87d5134966570521d3ad9959540d8f02242b7f95c89e",
+      "off_chart_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 9,
+      "pre_cofactor_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "3ad7bfbe4215f07e0fe8b8174f5afc02c6de427c80440815b8920f0dab2418a7",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        -1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 8,
+      "norm_denominator_sha256": "da28beab3c89fec92475971d05da5b156b8480e4f0d3ebf3fb260d929c9aafdc",
+      "norm_numerator_degree": 18,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "cee7b82e878b4a24899f4006f2841c83cad720f2afe8a227dc78fd5569357483"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        }
+      ],
+      "norm_numerator_sha256": "85318e9f312f0a4d319bf079c3c4d0628214acfa3394ec4e24084ce0725d3517",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 6,
+      "pre_cofactor_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "a901e246b30e9476b3397f1da6f47d210d295bb62774ff123b7adee51103cfaf",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 2,
+      "norm_denominator_sha256": "7ead7f2ac1f175e1650b7a7b433f7cbdca3ae29ff06e6ff5c5199d17b731658c",
+      "norm_numerator_degree": 14,
+      "norm_numerator_factorization": [
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "18d7e1f9ccea7bee00b81ce9d2f71fd37750c7ef152aeffae2ff3e5ec3e975f0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 10,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "7233ece430c01d5dd59b87d5134966570521d3ad9959540d8f02242b7f95c89e",
+      "off_chart_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 9,
+      "pre_cofactor_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "a9c14bb42951197fe4a54dcce4be41bd78287c3cdd7baa61ad3289d29f55d9e9",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 8,
+      "norm_denominator_sha256": "da28beab3c89fec92475971d05da5b156b8480e4f0d3ebf3fb260d929c9aafdc",
+      "norm_numerator_degree": 18,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "cee7b82e878b4a24899f4006f2841c83cad720f2afe8a227dc78fd5569357483"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        }
+      ],
+      "norm_numerator_sha256": "85318e9f312f0a4d319bf079c3c4d0628214acfa3394ec4e24084ce0725d3517",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 6,
+      "pre_cofactor_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "63d2837af430dd50684f536256435208d97ffc1155ac2bee31bc27c51b3ac76c",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 2,
+      "norm_denominator_sha256": "7ead7f2ac1f175e1650b7a7b433f7cbdca3ae29ff06e6ff5c5199d17b731658c",
+      "norm_numerator_degree": 14,
+      "norm_numerator_factorization": [
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "18d7e1f9ccea7bee00b81ce9d2f71fd37750c7ef152aeffae2ff3e5ec3e975f0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 10,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "7233ece430c01d5dd59b87d5134966570521d3ad9959540d8f02242b7f95c89e",
+      "off_chart_roots": [
+        {
+          "multiplicity": 10,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 9,
+      "pre_cofactor_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "447f7810d8dbccc4b47280f9d653179580ec0b60700fe32e8fe889f3705e352f",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [],
+      "deployed_boundary_roots": [],
+      "epsilon": [
+        1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "norm_denominator_degree": 8,
+      "norm_denominator_sha256": "da28beab3c89fec92475971d05da5b156b8480e4f0d3ebf3fb260d929c9aafdc",
+      "norm_numerator_degree": 18,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "cee7b82e878b4a24899f4006f2841c83cad720f2afe8a227dc78fd5569357483"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 4,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        }
+      ],
+      "norm_numerator_sha256": "85318e9f312f0a4d319bf079c3c4d0628214acfa3394ec4e24084ce0725d3517",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "pre_cofactor_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "pre_cofactor_guard_count": 6,
+      "pre_cofactor_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "root_fiber_census": [],
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "NO_DEPLOYED_FIELD_BOUNDARY_POINT",
+      "tower_program_sha256": "db3eefe33a32badb89d2dd7dd3c56357a27d2e3498e00bd74771d99028acc54b",
+      "tower_valid": true
+    }
+  ],
+  "schema": "kb-positive-433-1b-o0b-cell11-selected-boundary-v1",
+  "statement": "Exact source-algebra norm roots of the selected product-rank cofactor, lifted and replayed against the original common equations and guard.",
+  "status_counts": {
+    "NO_DEPLOYED_FIELD_BOUNDARY_POINT": 8
+  }
+}

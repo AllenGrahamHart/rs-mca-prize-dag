@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+    "title": "Sharp rate-half FPC5 contributors have a six-value rational-map encoding",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every exact sharp rate-half M=4,t=2 contributor injects into a degree-(2ell-3) rational map phi=L_1A_1/(L_2A_2). Its complete reduced 1-fiber is the defect set in the core; the two touched petals lie in the zero and pole fibers; the full background lies in the c_1/c_2 fiber; and each untouched petal avoids its own distinct marked fiber. The core, background, and four petals partition the whole official domain. This is a typed descriptor, not a count.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/result.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/provenance.md"
+    ],
+    "upstream": {
+      "source": "rs-mca determinantal incidence and split-pencil route",
+      "relation": "FPC5_MARKED_RATIONAL_MAP_INSTANCE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_active_balanced_core_witness_compiler",
+    "title": "KoalaBear active balanced-core source-witness compiler",
+    "status": "PROVED",
+    "closure": "explicit shifted-lattice certificate semantics plus canonical finite selection",
+    "statement": "For every admissible received line in the deployed KoalaBear MCA row, the named active-v4 bcCertified predicate is instantiated by existence of an explicit finite shifted-lattice balanced-core certificate. The certificate records the original line and affine slope, active MCA lattice and canonical reduced basis, a degree-981104 split locator/support witness, explaining data, balanced depth w=67471, earlier-owner exclusions, and chronology. The first-match cell Z_BC is exactly the slope projection of valid certificates after tangent and Q. Lexicographic minimization selects exactly one certificate per Z_BC slope, so the selected-certificate-to-slope map is bijective and every selector fiber is one. No endpoint component, K3 payment, or row close is claimed.",
+    "falsifier": "A Z_BC slope with no valid source certificate, a valid certificate projecting outside Z_BC, nondeterministic or non-finite selector fibers, or loss of received-line, slope, support, locator, depth, or chronology data.",
+    "refs": [
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/statement.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/proof.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/claim_contract.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/source_evidence.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/audit.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/result.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/frontier.md",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify.py",
+      "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

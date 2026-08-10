@@ -12,7 +12,10 @@ FIXED_EVIDENCE = {
     "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion",
     "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
 }
-PREMISE = "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"
+PREMISES = {
+    "rate_half_kb_active_balanced_core_component_bridge",
+    "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+}
 
 
 def require(condition, message):
@@ -24,13 +27,15 @@ def main():
     own = json.loads((NODE / "node.json").read_text())
     require(own["node"]["status"] == "CONDITIONAL"
             and own["node"]["gate"] == "all", "conditional all-gate")
-    require({row["from"] for row in own["requires"]} == {PREMISE},
+    require({row["from"] for row in own["requires"]} == PREMISES,
             "exact open premise")
     manifests = {identifier: json.loads(
         (ROOT / "background/nodes" / identifier / "node.json").read_text()
     )["node"] for identifier in FIXED_EVIDENCE}
     remaining = json.loads(
-        (ROOT / "critical/nodes" / PREMISE / "node.json").read_text()
+        (ROOT / "critical/nodes" /
+         "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment" /
+         "node.json").read_text()
     )["node"]
     require(all(manifests[item]["status"] == "PROVED"
                 for item in FIXED_EVIDENCE), "proved fixed evidence")

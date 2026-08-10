@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+    "title": "KoalaBear active balanced-core partition semantic-gap audit",
+    "status": "PROVED",
+    "closure": "finite logical countermodel plus source-contract audit",
+    "statement": "The frozen Grande Finale v4 tangent-source partition proves exact first-match set algebra for arbitrary Q and bcCertified predicates, but supplies no source-bound data or semantic restriction for bcCertified. A one-slope finite countermodel satisfies bad-slope exhaustion, first-owner uniqueness, and pairwise disjointness while Z_BC is nonempty and the endpoint-record set is empty. Therefore the active partition contract alone cannot imply a Z_BC-to-Q6 endpoint bridge. Independently, the K3 source-pencil packets quantify over supplied actual endpoint records and explicitly disclaim received-data, slope, owner, and parameter-to-carrier descent. This is a logical-independence and provenance result, not a counterexample to a future concretely defined balanced-core theorem.",
+    "refs": [
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/statement.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/proof.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/claim_contract.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/source_evidence.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/dependency_subdag.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/audit.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/result.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/frontier.md",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify.py",
+      "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_v4_tangent_source_atom"},
+    {"from": "rate_half_kb_decomposition_source_pencil_compiler"},
+    {"from": "rate_half_kb_source_pencil_rank_transverse_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_active_balanced_core_component_bridge"},
+    {"to": "rate_half_kb_active_balanced_core_witness_compiler"},
+    {"to": "rate_half_kb_active_bc_q6_endpoint_realization"}
+  ],
+  "refutes": []
+}

@@ -10005,7 +10005,9 @@ scope fence:
   no row reserve, L1 status, or Prize status movement
 compute spend: none; exact module determinant and matroid proof
 upstream custody:
-  PR #1125, ready for review, head a663e68df61a49a30289ea148e6f23624b447c89
+  PR #1125, ready for review, head f1503e54024f4949cf6542683712729e730eb6ca
+  the sharp FPC5 six-marked map, shortening, fixed-owner specialization,
+  and native gcd-owner coordinate are now exported on the same branch
 next route-deciding action: seek a received-word/Pade priority map that
                               coalesces determinant owners across D, or a
                               route cut proving such coalescence impossible
@@ -23909,8 +23911,8 @@ new result:               repeated-BC/O0b cell-11 off-guard exclusion PROVED
 representatives:          720/720
 norm-root occurrences:    1,584 over 126 base values
 all-pair exclusions:      1,584/1,584
-remaining route boundary: missing BE/CF; registered guard and selected-
-                          cofactor loci; cell 14; slope/allocation payment
+remaining route boundary: later endpoint/resultant guards; cell 14;
+                          slope/allocation payment
 Modal norm apps:          ap-nc3lZFAzCeszB3edd6VeoW,
                           ap-J7jGghTVhDDBFj1pdjN0Su
 Modal replay app:         ap-LkxpdxjswBQQ9TiOqKpQGv
@@ -23925,6 +23927,70 @@ none of those commits touches cell 11 or the K3 ledger.  The earlier custody
 review still records no mathematical objection to PR #1152.  The new
 rate-half supply and collinearity banks should be harvested separately rather
 than conflated with this exact K3 exclusion.
+
+### 2026-08-10 cell-11 colored off-guard consistency exclusion
+
+The two colored missing records do not require the bivariate outside
+eliminant suggested by their raw presentation.  If `BE` is missing, the
+common-kernel reconstruction fixes `e=q/b`, so `(b+q/b)^2=s^2` is necessary;
+the `CF` identity is symmetric.  Exact source-algebra norms settle all eight
+source towers before residual matching:
+
+```text
+cases:                     8 towers * {BE,CF} = 16
+BC- deployed norm roots:  x=0,1 (both registered guards)
+BC+ deployed norm roots:  x=0,-1 (both registered guards)
+non-guard root count:      0
+Modal app:                 ap-rUIJmUwwAvE2TTjb34RqLA
+```
+
+Together with the 720-system uncolored replay, no missing-record family is
+open on the selected rational chart.  Subsequent certificates remove the
+selected-cofactor and essential reconstruction-denominator boundaries.  No
+cell-11 or K3 closure is claimed here.
+
+### 2026-08-10 cell-11 selected-cofactor deployed boundary exclusion
+
+The finite selected-cofactor fiber is empty over the base field on every
+deployed symmetric tower chart.  The exact multiplication norms of the
+printed degree-seven product-rank cofactor have the following complete
+factor profiles over `F_2130706433`:
+
+```text
+BC-:  (degree 2)^2 * (degree 1)^10; only root x=1, six guards vanish
+BC+:  (degree 3)^2 * (degree 2)^4 * (degree 1)^4;
+      only root x=-1, four guards vanish
+deployed base-field roots: 0 across all eight epsilon/sign rows
+Modal app: ap-DLOARcauDwqntFrwdXYTMQ
+```
+
+The parent symmetric-tower theorem already proves by eight exact unit ideals
+that no original guarded common-source point lies on
+`x*y*(x-1)*(x+1)=0`.  The norm result therefore removes the
+selected-cofactor qualification from every guarded cell-11 source, not only
+from the displayed tower chart.  The cell-11 frontier is now the later guard
+divisors introduced by missing-record reconstruction and outside-resultant
+elimination, then cell-14 transport and exact K3 slope/allocation payment.
+
+### 2026-08-10 cell-11 missing-label denominator exclusion
+
+The common-kernel formulas divide by `A(lambda_missing)`.  Exact norm
+factorization and exhaustive base-field lifting now remove that qualification
+on the original guarded source locus:
+
+```text
+BC- chart-level norm roots:       0
+BC+ chart-level x-roots per row:  153731577, 583634934, 1547071505
+BC+ source lifts:                 0, 2, 2 per epsilon row
+field boundary points:            16
+guarded boundary points:          0 (all 16 have b=c and common guard zero)
+Modal app:                        ap-Z11iznSaBGpRuvPTge77up
+```
+
+Thus division by `A(lambda_missing)` introduces no guarded boundary in either
+missing-coordinate formula.  The remaining guard frontier consists of other
+reconstruction pivots, endpoint/resultant denominators, and implementation
+pivots; these must be classified before any further finite replay.
 ### 2026-08-10 positive `433-1b/O0a` aggregate and K3 critical split
 
 An audit of the nominally complete raw workboard found one missing ownership
@@ -24561,3 +24627,1126 @@ generic systems paid:     720 representative systems
 deployed labels closed:   0 (determinant-zero fibers remain)
 next:                     determinant fingerprint/reconstruction and BE/CF cuts
 ```
+### 2026-08-10 K3 bridge and allocation refactor
+
+Round-30 canonical audits and the current upstream PR snapshot changed the
+K3 priority. Upstream `main` remains `93fba1be`; the relevant open frontier is
+PR `#1152` (living K3 export), `#1153`--`#1155` (independent cell packets and
+route cuts), `#1150` (corrected F2 branch), and `#1151` (LIST LS6 reductions).
+No new upstream merge closes an active critical leaf.
+
+The former K3 orientation leaf conflated three different domains: active
+first-match bad slopes, endpoint components, and raw workboard systems. The
+component-level theorem is now isolated and proved:
+
+```text
+(m,r,delta)=(2,4,2), stabilizer order two
+  coordinate <tau x 1> or <1 x tau> (one transpose orbit)
+  diagonal <tau x tau>
+       source-line lift | biquadratic source cover
+```
+
+This theorem has no slope-domain conclusion. The active ledger also retains
+the separate trivial-stabilizer type `(2,8,1)`. The corrected critical K3
+sub-DAG is therefore:
+
+```text
+active Z_BC slope-to-component bridge [TARGET]
+             |
+             +-- positive coordinate: 11 remaining routes [TARGET]
+             +-- negative coordinate [PROVED empty]
+             +-- source-line remaining rows [TARGET]
+             +-- biquadratic source-cover workboard/payment [TARGET]
+             +-- trivial-stabilizer (2,8,1) payment [TARGET]
+                              |
+                    geometry assembly [CONDITIONAL]
+                              |
+positive + geometry + certified U_BC allocation [CONDITIONAL]
+                              |
+                    exact K3 ledger [CONDITIONAL]
+```
+
+The source-line target explicitly retains `(1,0,4)`, `(0,1,4)`, the
+near-aligned `(0,0,6)` row, and exceptional unsaturated `(1,1,2)` orbit
+`KBDM-10`; the saturated c112 packet is only one proved zero subcase. The
+source-cover target is a new explicit workboard over both proved V4 passports.
+
+The allocation audit also corrected a false placeholder. The integer
+
+```text
+274980728110413983 = B* - 981104
+```
+
+is jointly owned by `U_Q`, `U_BC`, and `U_new`; it is not
+`U_K3_allocation`. A new red leaf must prove the sibling values or an
+equivalent certified three-way allocation before the K3 comparison can run.
+The derived lower floor `U_Q+U_BC+U_new >= 57197049262` remains conditional
+on the recorded owner ruling and does not isolate `U_BC`.
+
+This refactor adds one PROVED node and five explicit mathematical/payment
+leaves plus the allocation-definition leaf. It closes no active K3 slope
+cell, but removes two unsound shortcuts: component classification is no
+longer treated as a slope bridge, and the joint reserve is no longer treated
+as a K3-only budget.
+
+```text
+DAG after refactor: 2159 nodes / 6371 edges
+statuses:          1919 PROVED / 70 CONDITIONAL / 92 TARGET
+critical K3 reds:  bridge; 11 positive routes; source line; source cover;
+                   trivial stabilizer; allocation definition; review
+next theorem:      active Z_BC bad-slope-to-component bridge
+```
+### 2026-08-10 active-BC semantic gap and route decision
+
+The current canonical tree remains at Fable round 30. Upstream `main` is
+`93fba1be3f3299b0ba4708d88715377bbb656e45`; the live K3 stack is
+`#1126`--`#1155`, with the living aggregate in `#1152`. Those packets contain
+substantial proved component-level algebra, but their own nonclaims are
+consistent: the chain consumes supplied actual endpoint records and does not
+produce them from active bad slopes.
+
+The active-v4 tangent partition has a sharper issue. Its BC stage stores only
+
+```text
+BAD_SLOPE_NOT_EARLIER_AND_HAS_ACTIVE_V4_BALANCED_CORE_CERTIFICATE
+```
+
+and `predicate_available: true`. The proof and upstream Lean kernel accept
+`bcCertified` as an arbitrary Boolean predicate. No witness schema, locator
+record, support map, or endpoint producer is present. An exhaustive
+two-slope audit checks all 256 Boolean assignments; all satisfy the
+first-match set algebra, and 31 have nonempty `Z_BC` while the endpoint set is
+empty. Thus the current partition contract cannot imply the K3 bridge.
+
+This is a logical-independence result, not a counterexample to the intended
+balanced-core theorem. The critical bridge has been decomposed as
+
+```text
+active balanced-core source-witness compiler [PROVED]
+                  |
+                  v
+same-record Q6 endpoint realization [TARGET]
+                  |
+                  +-- existing degree routers [PROVED]
+                  +-- full-V4 exclusion [PROVED]
+                  v
+active slope-to-(2,4,2)/(2,8,1) bridge [CONDITIONAL]
+```
+
+The first target was discharged in the same work cycle. The named predicate
+is now instantiated by the active shifted-lattice certificate relation with
+
+```text
+K=k+1=1048577, omega=981104, w=67471, d1>=w+1.
+```
+
+The schema retains the received line, slope, support locator, explaining
+data, canonical reduced basis, earlier-owner trace, and balanced profile.
+Finite lexicographic minimization selects exactly one certificate per
+`Z_BC` slope, so the selected projection has unit fibers. This semantic
+closure prints no slope bound and makes no endpoint claim.
+
+The remaining target is specific to the K3 route and must derive, rather
+than assume, the `Q=6,s=6,u=2` endpoint hypotheses.
+
+Upstream's current paper uses a different final interface: exhaustive
+same-owner routing of genuine higher-dimensional balanced cores into `(S)`
+spread, `(A)` large-owner, and `(E)` exception outcomes. The concrete source
+witness now exists, so the next route decision is to compare that direct
+route with K3 endpoint realization and pursue the shorter bankable theorem.
+More raw K3 workboard deletions do not address this active proof gap.
+### 2026-08-10 active-BC order-32 route
+
+The direct upstream-v4 route is now the primary shared completion route for
+the deployed rate-half rows.  The K3 endpoint route remains available, but
+its same-record `Q=6,s=6,u=2` realization and six downstream payment tasks
+are all open.  By contrast, upstream `main` already proves an exact
+order-32 partial-relative classification and isolates three terminal inputs:
+
+```text
+(S) spread-component routing
+(A) exclusive large-owner atom-image control
+(E) complete exception routing.
+```
+
+The upstream theorem has been harvested at commit
+`93fba1be3f3299b0ba4708d88715377bbb656e45`, file
+`experimental/grande_finale.tex`, theorem `thm:partial-relative`.  For either
+deployed adjacent MCA row and any 32 bad slopes, it gives slope degree
+`18..31` and the exact thresholds
+
+```text
+KoalaBear: chi >= 2299571
+M31:       chi >= 2299499.
+```
+
+Outside the named affine, common, pure-locator, denominator-root, and rational
+cells, every residual 32-subset is affine/rational; coherence gives global
+structure, while incoherence gives a 31-overlap near-sunflower.  This imported
+statement is PROVED and source-pinned.  It does not prove `(S)`, `(A)`, or
+`(E)` and therefore does not close either adjacent row.
+
+The canonical active balanced-core source witnesses now feed this theorem
+without a semantic jump.  If `|Z_BC| <= 31`, the class is already below the
+paper's order-32 exception threshold.  Otherwise each 32-subset of the
+canonical same-line certificates supplies the theorem's bad slopes,
+explaining data, supports, and exact `m`-subsupports.  Maximalization changes
+neither the received line nor slope identity.  The resulting adapter
+preserves owner labels into the affine/rational/near-sunflower/primitive-
+spread alternatives and is PROVED.
+
+The current route is therefore
+
+```text
+active balanced-core source-witness compiler [PROVED]
+                  |
+                  v
+order-32 partial-relative adapter             [PROVED]
+                  |
+          +-------+-------+
+          |       |       |
+          v       v       v
+         (S)     (A)     (E)                  [TARGETS]
+          |       |       |
+          +-------+-------+
+                  v
+       deployed adjacent MCA rows             [CONDITIONAL]
+```
+
+The next useful proof increment is an exact sublemma inside `(E)`, whose
+finite decomposition includes denominator-root, extension,
+coordinate-clone, imperfect-quotient, and quantified near-sunflower cases.
+The denominator-root lane already has a pole-tolerant localization theorem;
+its remaining source-compiler/counting obligation is a smaller target than
+the complete K3 endpoint-and-payment chain.  The K3 realization target stays
+red and is not refuted by this route choice.
+
+The first denominator-root increment is now banked. The upstream
+pole-tolerant theorem is source-pinned and harvested: it localizes coherent
+atoms without dividing by the denominator, then cancels the exact common
+domain-pole locator after deleting at most one zero-scalar slope. A new exact
+source dichotomy resolves the theorem's semantic gap. Every post-cancellation
+support either remains MCA-nontrivial in the reduced certificate (with `Q'`
+regular on its coincidence core, not necessarily on all of `D'`) or has a
+unique simultaneous explaining pair. In the latter case the original
+support obstruction becomes a nonzero rank-one defect on the deleted pole
+set,
+
+```text
+u_i + gamma_i v_i = 0,  v_i != 0,
+```
+
+so the same slope and received-line owner are retained and distinct slopes
+have distinct explaining pairs.
+
+Interpolation also proves that two trivialized reduced supports meet in at
+most `k-1` coordinates. Their `k`-shadows are disjoint, giving
+
+```text
+|T| binom(m-t,k) <= binom(n-t,k).
+```
+
+This is not a payment. Uniformly in `0<=t<=m-k`, the right-hand ratio is
+larger than `(3/2)^k>2^58`, already above the KoalaBear budget and far above
+the Mersenne-31 budget. The pure support-packing route is therefore fenced.
+The next denominator-root step must couple the full divided scalar-locator
+identity across indices and force a paid owner or correction space.
+
+This packet was exported to upstream as draft PR `#1156`, **MCA (E): route
+denominator-root puncture defects**. The PR carries a self-contained theorem
+note, a standard-library certificate with normal and `-O` replay, five hostile
+metadata mutations, and a narrow repair of the pre-existing pole verifier's
+stale `grande_finale.tex` blob pin. The old and new pinned scalar-locator
+definitions were compared byte-for-byte and are identical. The PR requests
+independent review and makes no `(E)` or row-closure claim.
+
+The coordinate-clone branch now has a separate exact reduction. After the
+owner-pencil theorem's identically-zero, vertical, and horizontal component
+branches are routed separately, group nonzero coordinate curves by shared
+irreducible bidegree-`(1,1)` component. A class of size `2<=c<m` satisfies
+
+```text
+N_C(m-c) <= 2(n-c) <= 2c(m-c),
+```
+
+so `N_C<=2c`. Clone classes are disjoint coordinate sets; all subcritical
+classes therefore cost at most `2n=4194304`, below both MCA budgets. Since
+`n<2m`, at most one class can have size at least `m`. Thus all unpaid
+coordinate-clone content is concentrated on one unique large component.
+The excluded identically-zero coordinate branch and that unique large class
+remain open and must retain the owner-pencil chronology. This theorem and its
+independent certificate were added to draft PR `#1156`; the PR is now titled
+**MCA (E): route denominator-root and coordinate-clone exceptions**.
+
+#### Round-31 scope ruling
+
+Canonical round 31 separates two rate-half completion programs that use
+related language but live at different row sizes:
+
+```text
+n=2^41 prime razor rows:     rate_half_band_crossing_location [critical]
+n=2^21 deployed rows:        order-32 partial-relative -> (S)/(A)/(E)
+```
+
+The first line is now the only required child of `rate_half_band_closure`.
+The K3 structural-surplus arm is background evidence because its exact
+certificates are confined to the deployed extension-field row and no proved
+row-transport theorem carries them to the prime razor row. The round-31
+analytic pilots (`rh_e_axis_audit`, `rh_overlap_cap`,
+`rh_transport_dictionary`, and `rh_type2_stratum`) therefore own the current
+critical attack on the crossing-location node.
+
+The second line remains the direct route for Przemek's deployed adjacent MCA
+rows and the scope of draft PR `#1156`. Progress on `(S)`, `(A)`, or `(E)` is
+valuable upstream and may inform the razor analysis, but it is not a logical
+premise of the `n=2^41` critical node without a separately proved transport
+adapter. Conversely, a razor crossing theorem would not by itself discharge
+the finite deployed-row exception ledger.
+### 2026-08-10 round-31 scope and U2 consumer repair
+
+Canonical round 31 demotes the deployed `n=2^21` K3 arm to background
+evidence. The only required child of the `n=2^41` rate-half MCA band node is
+now `rate_half_band_crossing_location`; the four canonical analytic pilots
+own that attack. The upstream order-32 `(S)/(A)/(E)` route remains the direct
+program for the deployed adjacent rows and must not be transported to the
+razor row without a separate theorem.
+
+The same audit found one stale exact-list requirement. The current
+`x4_exactlist_staircase_split` statement and its 2026-08-06 ownership repair
+consume three open list inputs:
+
+```text
+u2c_exact_slice_extras_budget
+x4_primitive_star_u1_coverage
+x4_exactlist_summed_budget.
+```
+
+The old `u2_per_row_certifier` instead asks for finite certificates on
+adopted representative exhibits. Its own status ruling notes that there are
+no fixed official primes and that the computation is not family-uniform.
+It cannot prove the actual-support maximum-prefix statement supplied by
+`u2c_exact_slice_extras_budget`. The stale requirement edge was therefore
+converted to evidence, the node moved to `background/`, and the archived
+conditional ledger corrected. No mathematical hypothesis was assumed or
+weakened.
+
+After regeneration, the mathematical critical orbit is
+
+```text
+231 nodes = 167 PROVED + 37 CONDITIONAL + 27 TARGET.
+```
+
+The submission orbit is `246 = 179 + 39 + 28`; its fifteen-node difference
+is unchanged. The 27 mathematical leaves are now the honest family-uniform
+obligations.
+
+The coordinate-clone continuation also gained a no-go fence. On a large
+shared component, `F_x(gamma,tau)=0` is equality with the rational owner line,
+not membership in the selected agreement support. From
+
+```text
+Q_tau h + c Lambda = A_tau + gamma B_tau
+```
+
+one obtains `Q_tau(h-r_gamma)=-c Lambda`; the clone equation gives an actual
+agreement only where the selected locator also vanishes. Consequently the
+automatic `c>=m` owner-line zeros cannot be treated as a common support, and
+varying denominator-root sets do not give the tempting `n+1` injection. The
+remaining large-clone route must retain the locators or construct an explicit
+same-owner `(S)`/`(A)` object from coefficient proportionality.
+### 2026-08-10 FPC5 M=4,t=2 typed frontier
+
+The current upstream master-flatness and split-pencil programme does not
+already close the rate-half FPC5 `M=4,t=2` leaf. It poses the correct generic
+count, but its growing-dimensional max-to-mean statement remains
+conjectural. Two additional exact structures of the local sharp endpoint are
+now banked as separate PROVED background nodes.
+
+First, every exact contributor has an injective rational-map encoding
+
+```text
+phi=L_1A_1/(L_2A_2),       deg phi=2ell-3.
+```
+
+Its complete reduced `1`-fiber is the core defect, the touched petals lie in
+the zero and pole fibers, the full background lies in the distinct
+`c_1/c_2` fiber, and each untouched petal avoids its own further marked
+fiber. The six marks are pairwise distinct. At the sharp arithmetic the
+core, background, and four petals partition the whole official domain. This
+is a concrete determinantal-incidence/value-set interface stronger than the
+untyped projective flat, but it supplies no map count.
+
+Second, shortening the common agreement block formed by the background and
+touched pair gives an injective LIST interface:
+
+```text
+RS[C,2ell-1],       |C|=5ell-5,
+agreement=3ell-2,   radius=2ell-3=floor(2(N-K_0)/3).
+```
+
+The FPC5 cofactor and exact-owner conditions remain filters on this list.
+The parameters lie outside the ordinary Johnson range, so this is not a
+hidden standard list-decoding closure. It identifies precisely what a
+source-core-specific or cofactor-aware list theorem would need to prove.
+
+The live upstream PR #1125 determinant atlas transports exactly after this
+shortening. Its balance parameters become `w=ell-1`, `omega=2ell-3`, and
+`s=ell-2`. For one anchor it recovers every common-error owner
+`D=gcd(F_0,F)` by one determinant gcd and pays each fixed owner by the two
+explicit bounds in `(SH8)`; the maximal-intersection owner has size at most
+two. This removes fixed-pencil and coefficient multiplicity from the sharp
+frontier. The unpaid object is the aggregate number of realized gcd owners.
+
+The direct FPC5 coordinate for this aggregate is also proved. Relative to one
+anchor, the forced background divides the cofactor cross determinant and
+
+```text
+E=(A_1A'_2-A'_1A_2)/L_0,       deg E<=ell-3
+```
+
+is an affine coordinate on the whole guarded monic slice. For every distinct
+exact contributor, `gcd(E,F_0)=gcd(F,F_0)`. Thus all owners are gcd strata
+of one explicit low-degree coordinate family. The live theorem is now a
+split/marked-point bound on this family, not a reconstruction, fixed-owner,
+or background-root problem.
+
+The critical node remains TARGET. A closure must still:
+
+1. coalesce the sharp realized gcd owners using the marked rational-map or
+   cofactor structure, without summing all divisors of one anchor;
+2. handle every nonsharp `s` cell in the uniform root-rich split-pair locus;
+3. retain the six touched-pair owners and avoid a sum over background sets;
+4. compose through first-layout domination without reintroducing source
+   layouts.
+
+No Modal computation was used. The advance is structural and proof-level,
+not numerical evidence.
+### 2026-08-10 round-31 rate-half band route harvest
+
+Canonical commits `3ba313a9e..48a7de3c2` complete four coordinated pilots on
+`rate_half_band_crossing_location`. They do not close the target, but they
+materially change its honest attack surface.
+
+1. **The e-axis is covered at pose level.** The row quantifier is widened
+   from prime `q` to `q=p^e` with exactly `e in {1,...,6}`. Thirteen of
+   fourteen instruments are field-general by their printed hypotheses; the
+   prime-only Legendre instrument is unreachable on extension rows in its
+   residual window. Future far-CA upper bounds must not assume the absence of
+   proper subfields, and the prime-only evidence base remains flagged for
+   extension-field calibration.
+2. **The type-2 residual is re-priced, not closed.** Under the printed
+   saturation premises its exact residual factor falls to `9/4`. The live
+   step is a max-versus-mean inequality against the whole witness family;
+   pairwise overlap alone is explicitly insufficient. The saturation premise
+   and sampled converse remain unproved.
+3. **The former safe-half overlap-cap route is refuted.** Its `k-1` cap used
+   the wrong object. The correct column-far ceiling is `a-1` and is attained
+   by the explicit LB1 family throughout the open bracket. Therefore no cap
+   below `a^2/n` can close that route. The remaining safe-half targets are a
+   line-degree bound or a genuinely code-theoretic/algebraic upper bound in
+   the exact window above the LB1 floor.
+4. **The transport dictionary lands on LIST, not MCA.** The exact
+   `(M,sigma)` ladder corrects the previous off-by-one identification, but
+   its faithful coset supply undershoots the required numerator. The missing
+   bridge is now a proved CA/MCA conversion at the relevant agreement, not
+   additional `(t,M)` table entries.
+
+The critical status stays TARGET. Do not repeat the dead overlap-cap search
+or treat LIST supply as an MCA numerator. The next independent attack should
+use the generalized reciprocal-locator/Hankel structure for the type-2
+max-to-mean step, or prove the scoped CA/MCA conversion and re-price the
+transport supply.
+### 2026-08-10 large-source FPC5 exact prefilter
+
+The round-26 EMPTY/SINGLETON finding is now represented as a theorem-level
+DAG reduction rather than a sampled percentage. The new proved node
+`l1_fpc5_large_source_exact_prefilter` composes the existing fixed-support,
+background-overlap, and joint core/background Johnson theorems.
+
+For one fixed source, touched set of `t` full petals, and defect degree `d`,
+put
+
+```text
+h=t ell,       r=2d-h,       u=d-(t-1)ell.
+```
+
+Then `u>b` is empty; `r<0` or `2d>N+(t-2)ell+b` is singleton; and positive
+ordinary or joint-background Johnson denominator is polynomially paid. The
+unpaid fixed-cell frontier is exactly `(PF6)` in the new node. This holds for
+every official `ell` and does not rely on the pilot's three-point sample.
+
+No critical status changes. The large-source target still owes a disjoint
+aggregate payment across the nonpositive-Johnson residual, touched sets,
+layouts, and first owners. The next route-deciding mathematical object is a
+collective payment or counterfamily inside `(PF6)`, not another audit of the
+already proved EMPTY charge.
+### 2026-08-10 general-t FPC5 slice dimension
+
+The coordinator-replayed round-24 dimension theorem is now a proved DAG node:
+`l1_fpc5_tpetal_saturated_slice_dimension`.
+
+For a labelled `t`-petal pair slice with total support degree `h`, locator
+degree `d`, `d<h<=2d+1`, and one saturated anchor, the cross-determinant map
+
+```text
+(G,B) -> (FB-GW)/Lambda
+```
+
+has an `e`-dimensional target and a one-dimensional kernel, where
+`e=2d+1-h`. Hence the pair slice and locator image have dimension `e+1`,
+and the monic locator chart is an affine `e`-flat. The proof also shows that
+locator projection is injective because `h>d`.
+
+Every nonempty large-source cell surviving `(PF6)` satisfies these hypotheses:
+`e=r+1>=1`, while the list threshold gives `h>d`. Thus the old arbitrary-`t`
+linearization gap is closed for the complete live fixed-cell frontier. No
+critical status changes: a dimension-uniform split-point bound and aggregate
+owner/profile payment are still required.
+
+Upstream custody is PR #1151, pinned at
+`bae58ad1ac057e4857947dc7a0c0caff4113ccf4`. The companion theorem is
+exported there with identical field, unit, quantifier, and nonclaim; the PR
+remains an open mergeable draft.
+### 2026-08-10 general-t FPC5 anchor coordinate
+
+The general-`t` slice theorem has a stronger monic-chart consequence, now
+banked as `l1_fpc5_tpetal_anchor_coordinate`. Relative to one squarefree
+exact anchor `(F,W)`,
+
+```text
+H=(FB-GW)/Lambda,       deg H<=e-1,
+```
+
+is an affine bijection from the complete monic pair chart to
+`K[X]_(<=e-1)`. At every anchor defect root, `H` vanishes exactly when the
+candidate locator `G` vanishes, so
+
+```text
+gcd(H,F)=gcd(G,F).
+```
+
+This closes pair-coefficient multiplicity, candidate reconstruction, and
+fixed common-defect owner ambiguity at arbitrary `t`. Every surviving
+large-source fixed cell is now one explicit low-degree coordinate body whose
+split-and-exact points must be counted. No critical status changes: aggregate
+split-point and chronology-valid owner/profile control remain open.
+
+The identical theorem is exported in upstream PR #1151 at pinned head
+`bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
+mergeable draft.
+### 2026-08-10 general-t FPC5 Pade chart
+
+The new PROVED node `l1_fpc5_tpetal_anchor_pade_chart` prints the exact
+inverse of the arbitrary-`t` anchor coordinate. With
+`I=W^(-1) mod F`, every coordinate `H` reconstructs as
+
+```text
+G_H=F+rem_F(-Lambda H I),
+B_H=(G_H W+Lambda H)/F.
+```
+
+The theorem also gives the exact root-local primitive guard, including the
+derivative condition at roots common to `F` and `G_H`. This aligns every
+surviving large-source fixed cell with the primitive determinant/remainder
+language already available in the rate-half `t=3` LS6 branch.
+
+No critical status changes. The fixed-cell obstruction is now sharply one
+split-remainder maximum with printed primitive guards; a dimension-uniform
+bound and chronology-valid aggregation remain open.
+
+The identical primitive remainder theorem is exported in upstream PR #1151
+at pinned head `bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
+mergeable draft.
+### 2026-08-10 general-t FPC5 joint owner
+
+The new PROVED node `l1_fpc5_tpetal_joint_anchor_owner` folds the exact
+background guard into the determinant coordinate. For the anchor background
+zero set `R_0`,
+
+```text
+gcd(H,F L_(R_0))
+```
+
+has roots exactly at the common defect points and common background-agreement
+points. A fixed owner `Q` gives the exact coordinate subspace `H=QK` of
+dimension `e-deg Q`; every background root outside `R_0` is one explicit
+affine equation in `H`.
+
+No critical status changes. The theorem removes independent
+defect/background owner bookkeeping, but the split-root maximum and a
+chronology-valid aggregate over realized joint owners remain open.
+
+The identical joint-owner theorem is exported in upstream PR #1151 at pinned
+head `bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
+mergeable draft.
+### 2026-08-10 general-t FPC5 fixed joint-owner payment
+
+The new PROVED node `l1_fpc5_tpetal_joint_owner_packing` supplies the first
+counting theorem after the arbitrary-`t` coordinate reductions. At one fixed
+joint owner `Q` of degree `q`,
+
+```text
+|F_Q| <= binom(N+b-q,r-q+1)
+         / binom(d+max(0,u)-q,r-q+1).
+```
+
+This pays every bounded co-deficiency chamber `q=r-O(1)` polynomially per
+owner and gives a sharp one-subset ratio at `q=r`.
+
+No critical status changes. The theorem does not permit summing over all
+divisors `Q`; chronology-valid coalescence of realized owners is now the
+precise aggregate obstruction.
+
+The identical fixed-owner payment is exported in upstream PR #1151 at pinned
+head `bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
+mergeable draft.
+### 2026-08-10 FPC5 joint-owner probe
+
+A bounded exact Modal probe tested whether the new fixed-owner payment could
+aggregate because only a few joint owners are realized. It completed 448
+small-cell configurations in 30.789 seconds on one CPU with 1 GB RAM.
+
+Across 1,095 anchor views, 905 neighbor-to-owner maps were injective. Of
+4,012 realized owner groups, 3,781 were singletons; maximum owner
+multiplicity was four. All fixed-owner packing inequalities passed.
+
+This is a route cut, not a theorem or row payment. It resists bounded owner
+count as the coalescence mechanism and redirects the large-source attack to
+a global split-root/inverse theorem or chronology that relates many distinct
+owners in one remainder graph. The launcher, exact aggregate, and scope are
+in `experiments/prize_resolution/fpc5_joint_owner_probe_*`.
+### 2026-08-10 general-t FPC5 joint-owner split-pencil reduction
+
+The new PROVED node `l1_fpc5_tpetal_joint_owner_split_pencil` redirects the
+large-source terminal after the exact owner-coalescence probe cut the naive
+bounded-owner route. For exact joint owner `Q=DE`, cancellation gives
+
+```text
+A V-C U=Lambda K,       deg K<=r-deg Q.
+```
+
+The reduced locator columns remain primitive and split, and the petal
+congruences remain exact. Inside one fixed owner chamber, choosing one
+reference member further gives
+
+```text
+K_0(C,V)=K(C_0,V_0)+T(A,U),       deg K,deg T<=r-deg Q.
+```
+
+Thus top ownership is an ordinary affine pencil of primitive core-split
+locators coupled to a nonzero scalar determinant of the disjoint
+touched-petal locator. Bounded co-deficiency is a bounded-degree rational
+pencil.
+
+No critical status changes. The live theorem is now a uniform bounded-tail
+dual-domain pencil census with the remaining background guards and a
+chronology-valid aggregation across many distinct owners. The shared
+two-generator algebra connects to Przemek's `prob:capfr1-split-pencil`, but
+the natural determinant parent and split-locator domain differ, so no direct
+specialization is claimed. This is not a row payment. Export to upstream PR
+#1151 is pinned at mergeable draft head
+`a2ed401c1a12d9aecb3dac2b0efa28a1765faf03`; the packet pins the source DAG
+proof commit `8d0d19b8860143ad1a33aeee467a18f07e37baf4`.
+### 2026-08-10 general-t FPC5 joint-owner ambient MDS census
+
+The new PROVED node
+`l1_fpc5_tpetal_joint_owner_ambient_mds_census` turns the empirical owner
+coalescence warning into an exact ambient route fence. On the roots of
+
+```text
+P_0=F L_(R_0),       p=deg P_0,
+```
+
+the determinant coordinate `H` is a length-`p`, dimension-`r+1`
+Reed-Solomon evaluation word up to nonzero diagonal scaling. For any fixed
+exact owner `Q` of degree `q`, the complete monic chart has the exact MDS
+inclusion-exclusion count
+
+```text
+sum_(j=0)^(r-q) (-1)^j binom(p-q,j)
+  (|mathbb F|^(r-q+1-j)-1).
+```
+
+In particular, every degree-`r` divisor of `P_0` occurs with exactly
+`|mathbb F|-1` chart points, so the ambient top-owner census is
+
+```text
+binom(p,r)(|mathbb F|-1).
+```
+
+No critical status changes. These ambient points need not reconstruct split
+primitive guarded locators. The exact conclusion is a no-go: owner
+coordinates, MDS support counting, and unguarded linear algebra cannot
+coalesce the residual. The live theorem must count simultaneous splitting
+and guards across the full coordinate body.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 7 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `ca93321887b47b0f3323c24ecd4427df2c8dad47`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`058febd07e71302be851d2f13e62cc55a8e689ba`.
+### 2026-08-10 general-t FPC5 owner-free Cauchy divisor chart
+
+The new PROVED node
+`l1_fpc5_tpetal_owner_free_cauchy_divisor_chart` supplies the collective
+object required by the ambient-owner route fence. Let `chi` be the CRT
+multiplier equal to the petal label `c_i` modulo `L_i`. Every locator
+reconstructs anchor-freely as
+
+```text
+B_G=rem_Lambda(chi G).
+```
+
+For a degree-`d` divisor `G` of the source-core locator, the condition
+`deg B_G<=d` is exactly the `h-d-1` equations
+
+```text
+sum_(z in T) c(z) z^j G(z)/Lambda'(z)=0,
+0<=j<=h-d-2.
+```
+
+Primitivity is the nonvanishing of the punctured zeroth moment at every
+root of `G`, and every background zero is one explicit Cauchy-transform
+equation. With `A=L_Core/G`, the same equations are reciprocal-divisor
+moments in `A`. This is one owner-free simultaneous split-and-guard census;
+no divisor owner is summed independently.
+
+No critical status changes. The live bound is now precise: control this
+weighted reciprocal-divisor census at the base-field-normalized scale and
+then perform the chronology-valid source allocation.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 8 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `1699b933f21288ed0d72ff2b0f85b4b10277c999`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`a530e44835630165f92e01d91aa0b8e57f0ae0d7`.
+### 2026-08-10 general-t FPC5 Cauchy-Hankel kernel
+
+The new PROVED node `l1_fpc5_tpetal_cauchy_hankel_kernel` converts the
+owner-free weighted moments into the canonical coefficient-space object.
+With
+
+```text
+mu_s=sum_(z in T)c(z)z^s/Lambda'(z),
+```
+
+the low-numerator equations on `G=sum g_a X^a` are
+
+```text
+sum_a mu_(j+a)g_a=0,       0<=j<h-d-1.
+```
+
+This is a full-row-rank Hankel block whenever the cell has its saturated
+primitive anchor. Its generating function is `chi/Lambda` at infinity, so
+the moments obey the exact `Lambda` recurrence. Split candidates are monic
+degree-`d` core divisors in this kernel; primitivity is nonvanishing of the
+punctured first-row pairing at every selected root, and the background
+Cauchy guards remain explicit.
+
+No critical status changes. The live local theorem is now a
+base-field-normalized split-divisor census for a full-rank rational
+Padé-Hankel kernel with primitive punctures and background guards, followed
+by chronology-valid aggregation.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 9 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `a0006abc1d09e6f9a1af3aa6c873af7f5973c292`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`a9ffb4521cd52953bb901296fe5bb8a766a4116e`.
+### 2026-08-10 general-t FPC5 fixed-background Hankel codimension
+
+The new PROVED node
+`l1_fpc5_tpetal_fixed_background_hankel_codimension` handles the `u>=0`
+background threshold inside the Padé-Hankel chart. For a fixed required
+`u`-set `R`, append `L_R` to the CRT modulus with label zero. Since
+
+```text
+u=d-(t-1)ell,
+```
+
+the augmented low-numerator Hankel block has exactly
+
+```text
+t ell+u-d-1=ell-1
+```
+
+full-rank rows. Its locator vector space has dimension `d-ell+2`, and its
+monic split-divisor chart has affine codimension exactly `ell-1`, independent
+of `t` and `u`.
+
+The exact background incidence identity is
+
+```text
+sum_(|R|=u)|F_R|=sum_G binom(|R_G|,u).
+```
+
+A first-`R` rule partitions contributors but does not preserve the complete
+linear chart. No critical status changes. The remaining obligations are a
+base-field-normalized guarded split-divisor bound in each rational Hankel
+cell and a chronology-valid weighted or first-`R` aggregation. Export to
+`rs-mca` PR #1151 is complete: Section 10 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `7d4edabf1430779a042c75a1812771cee0bab5b1`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`6b45e49c7c1f07e6dfacd1e43a3abe260c7b33a4`.
+### 2026-08-10 upstream FPC5 Hankel support-determinant import
+
+The new PROVED node
+`l1_fpc5_tpetal_hankel_support_determinantal_system` imports Przemek's
+generalized-Vandermonde support criterion at upstream commit
+`fde7d56d0f2d8f135db4f2226e1978644a6c9f44` and specializes it to the
+weighted FPC5 moment sequence.
+
+For a selected core root set `{x_1,...,x_d}`, every Hankel recurrence is
+equivalent to one explicit determinant formed from the power columns
+`x_i^r,...,x_i^(r+d)` and the moment column
+`mu_r,...,mu_(r+d)`. The punctured primitive guard satisfies
+
+```text
+M_0(G/(X-x_i))=w_i G'(x_i),
+```
+
+so it is exactly nonzero Cramer amplitude on every selected root. A fixed
+required-background cell therefore becomes an `ell-1` equation
+quasi-affine support incidence, modulo permutation, with its remaining
+background and chronology filters explicit.
+
+No critical status changes. The next mathematical object is now an explicit
+base-field point count and component classification, not an implicit flat.
+### 2026-08-10 FPC5 Hankel/guard route probe
+
+The owner-free and fixed-background Hankel reductions now have one bounded,
+preregistered route-decision probe. Six admissible small analogue cells with
+`t in {4,5}` and `ell in {2,3,4}` compared each rational FPC5 Hankel chart
+against an independently sampled full-row-rank Hankel chart of identical
+dimensions. All 280 configurations and 504 fixed background charts completed
+under the 60-second Modal cap.
+
+No preregistered alarm fired. The rational/random maximum ratios were
+
+```text
+t=4: 0.882, 0.833, 1.000,
+t=5: 1.043, 1.000, 2.000,
+```
+
+and median survival after the untouched-petal guard ranged from `0.917` to
+`1.000`. This proves no flatness statement. It does cut two tempting proof
+stories at the tested scale: the rational Padé moment sequence did not create
+a large exceptional split-support concentration, and one untouched petal did
+not provide a strong suppression factor.
+
+The preferred local target is therefore the generic quasi-affine
+support-determinant incidence imported in
+`l1_fpc5_tpetal_hankel_support_determinantal_system`, with all Cauchy and
+chronology filters retained. A guard-driven payment requires a separate
+argument exploiting many untouched petals; it must not be inferred from the
+fixed-chart experiment. No critical status changes.
+### 2026-08-10 upstream FPC5 GRS syndrome-shell import
+
+Przemek's proved syndrome-catalecticant-shell theorem now has an exact FPC5
+specialization in the critical support chain. If a rational Hankel chart has
+locator degree `d` and `c` rows, put `D=d+c`. Its primitive core-split
+locators are canonically the weight-`d` vectors in one syndrome fiber of the
+`D`-row weighted Vandermonde parity check on the `N` core points.
+
+For `D<N`, the local object is therefore the exact radius-`d` shell of
+
+```text
+RS[F,Core,N-D].
+```
+
+For `D>=N`, the check is injective and the fixed chart has at most one
+primitive locator. The MDS distance also gives support overlap at most
+`d-c-1`; in a fixed-background chart this is the already sharp `d-ell` cap.
+
+This is a useful route pin, not a critical closure. Below the injective range,
+the generic split-support count is literally an ordinary RS list-size
+problem, so invoking an unproved max-to-mean statement under Hankel language
+would be circular. The remaining possible extra saving lies in the FPC5
+background/chronology filters or in a LIST theorem strong enough for this
+derived parameter family. Required-background coalescence also remains open.
+### 2026-08-10 FPC5 fixed-background GRS payment
+
+The GRS syndrome-shell import now composes with the fixed-background
+incidence identity. For `0<=u<=b`, each required `u`-set `R` has
+
+```text
+D=d+ell-1,       J_fix=d^2-N(d-ell).
+```
+
+The fixed chart is singleton when `D>=N`; when `D<N` and `J_fix>0`, ordinary
+Johnson gives at most `Nell/J_fix` primitive supports. Summing all required
+sets honestly yields
+
+```text
+|F|<=binom(b,u)
+```
+
+or
+
+```text
+|F|<=binom(b,u)Nell/J_fix,
+```
+
+respectively. Thus either branch is polynomial within any fixed distance of
+`u=0` or `u=b`.
+
+This is complementary to the prior joint-background Johnson payment because
+
+```text
+J_bg=b J_fix-Nu(b-u).
+```
+
+The new theorem can pay a positive fixed denominator even when the joint
+denominator fails, but only after charging the exact background-choice
+entropy. It narrows the live FPC5 wall to middle background polarity and/or
+nonpositive fixed-shell Johnson, together with source/chronology aggregation.
+No critical status changes.
+### 2026-08-10 rate-half unique-decoding transfer scope
+
+The Round-31 supply audit left the ABF/BCIKS CA/MCA conversion as a candidate
+bridge from ordinary LIST supply to the live far-CA crossing. Its exact scope
+has now been specialized and fenced.
+
+For agreement `a` and radius `r=n-a`, the imported MCA-from-CA theorem and
+the BCIKS correlated-agreement input require
+
+```text
+2r<=n-k.
+```
+
+On the official rate-half row this is exactly `a>=3n/4`. The live crossing
+interval is `k+2^34<=a<3n/4`; at its nearest interior integer the gate already
+fails by two. Thus the named unique-decoding bridge supplies only the existing
+half-distance endpoint and no point of the live interior.
+
+The crossing target remains open. Its selected safe-side problem is now
+unambiguously a beyond-half-distance theorem: either bound `B_ca^far` in the
+window `[2^39.9773,2^128)` at `a=k+2^34`, or prove another endpoint together
+with a matching predecessor witness. Ordinary LIST supply and
+unique-decoding CA/MCA transfer cannot be composed to do this.
+### 2026-08-10 rate-half Haboeck-Johnson bracket
+
+The unique-decoding transfer fence redirected the high-field safe-side search
+to a direct MCA theorem. Haboeck's public Theorem 2 supplies one: at its
+discrete Johnson-approaching radii, the exceptional finite-affine slope count
+is bounded quadratically in `n`. The proof and same-support convention had
+already been audited upstream; this cycle imported only that proved quadratic
+theorem and explicitly excluded the unproved BCHKS25 linear refinement.
+
+The exact official-row specialization uses `rho=(k-1)/n`, integerizes the
+real numerator by its floor, and rounds the agreement threshold upward. For
+`n=2^41`, `k=2^40`, the first strict improvement over `3n/4` is `m=9`,
+available from `log2(q)>=232.650531`. Every razor row `q>2^255.9` can afford
+`m=94`, proving
+
+```text
+a_RH(q) <= 1,563,215,236,073.
+```
+
+At the exact threshold
+
+```text
+q >= 330298791207625937408605578064099942258 * 2^128,
+```
+
+the bracket upgrades to `m=95` and
+
+```text
+a_RH(q) <= 1,563,128,173,124.
+```
+
+The strict field cap makes `m=96` impossible. Relative to the old `3n/4`
+endpoint, the strongest gain is `86,139,268,540` agreement steps. This is
+the first direct-MCA movement of the razor safe bracket in this cycle.
+
+Burn-down: starting pins were local `6fc043995`, canonical `48a7de3c2`, and
+upstream `93fba1be3`; result `NARROWED`; two PROVED nodes added, no critical
+status changed, no new assumptions, no Modal spend. The exact crossing and
+the adjacent unsafe half remain open. The next route-deciding question is
+whether a proved beyond-Johnson MCA theorem or a far-CA structural bound can
+continue from this new endpoint rather than returning immediately to the
+near-capacity lower floor.
+### 2026-08-10 FPC5 official-rate prefilter scale gap
+
+The exact FPC5 prefilter was specialized over the complete official row set,
+not a sample. In the candidate prefixes for rates `1/4,1/8,1/16`, the source
+equation gives `ell>=k/4`; ordinary Johnson feasibility then eliminates every
+`t>=4` cell symbolically. Two independent exact-integer verifiers exhaust the
+remaining `t=2,3` cells.
+
+The result removes all `(PF6)` cells through `M=12,28,56`, narrowing the
+critical large-source target to
+
+```text
+rate 1/2: M>=5,   rate 1/4: M>=13,
+rate 1/8: M>=29,  rate 1/16: M>=57.
+```
+
+Boundary survivors at `n=8192` and `M=13,29,57` show that this arithmetic
+sieve is sharp. They are parameter tuples, not contributor witnesses; the
+remaining split-and-guard aggregate is unchanged in kind. The replay audits
+59,904 exact cells, uses no floating point, and required no Modal spend.
+
+Burn-down: result `NARROWED`; one PROVED node added, one critical target
+tightened, no status weakened, no assumptions added. Upstream open PR #1151
+still supplies the structural chart for the retained cells but no aggregate
+payment, so the next positive target remains the guarded split-divisor count
+on the now substantially smaller scale range.
+### 2026-08-10 FPC5 shifted-Johnson shell cap
+
+The current upstream `thm:A` deep-point list-to-CA conversion was
+independently reconstructed and imported as a self-contained PROVED node.
+Composing it with Haboeck's proved quadratic MCA theorem and the exact FPC5
+GRS-shell reduction gives a new parametric local cap. For one fixed
+source/touched/degree cell it retains the complete required-background cost
+and bounds the contributor count by
+
+```text
+W ceil(Q_m(q-N)/(q-N-KQ_m)),
+W=1 or binom(b,u).
+```
+
+The route reaches exactly the one-dimension strip
+`a^2>N(K-1)` adjacent to the target shell's Johnson boundary. Exact
+smallest-row replay newly gives prize-budget local caps on one first-scale
+cell at rates `1/2`, `1/4`, and `1/8`. At rate `1/16`, `M=61`, eight
+genuinely new shifted/nonpositive-Johnson cells exist: six fit below the
+strict `2^256` envelope on printed upper field slices, while two do not. The
+seemingly promising `M=57,58,59` cells were audited away as new progress:
+they all have `J_fix>0` and were already paid by the earlier fixed-background
+Johnson theorem.
+
+Burn-down: result `NARROWED/HARVESTED`; two PROVED nodes added, one exact
+upstream theorem banked, no critical status changed, no assumption added, and
+no Modal spend. The large-source node remains TARGET because local cell caps
+cannot be summed over source layouts, touched sets, degrees, or chronology.
+The next route-deciding task is a collective allocation theorem for the
+capped thin strip or a split-pencil census for the much larger region with
+`a^2<=N(K-1)`, where this method provably cannot apply.
+### 2026-08-10 FPC5 shifted-Johnson first-layout payment
+
+The fixed-cell shifted-Johnson cap was compiled through the proved canonical
+first-layout theorem. For any exact `(M,t,d)` cell, every later source-layout
+member is one of the first layout's planted anchors, so the complete global
+class is bounded by
+
+```text
+binom(M,t) W L_m(q)+M.
+```
+
+This removes the source-layout multiplier and pays the touched-set and
+background-choice multipliers exactly. On the smallest official row, the
+unique shifted cell at the first live scale of rates `1/2`, `1/4`, and `1/8`
+is globally paid for `q>=2^228,2^233,2^220`, respectively. At rate `1/16`,
+`M=61`, defects `248` and `292` are jointly paid for `q>=2^254`.
+
+The aggregate audit is also route-deciding negatively: each of defects
+`286,...,291` exceeds the prize budget after the exact `binom(61,3)` factor,
+even at `q=2^256-1`. Four of these looked affordable at fixed-cell level, so
+the outer replay prevents a false promotion.
+
+Burn-down: result `NARROWED`; one PROVED compiler node added, selected
+thin-strip cells receive complete source/touched aggregation, no critical
+status changed, no assumptions added, and no Modal spend. The remaining
+large-source work is now cleanly split between lower-field versions of the
+same cells, six rate-`1/16` cells that need a stronger local bound, and the
+dominant region `a^2<=N(K-1)` where Haboeck cannot apply at all.
+### 2026-08-10 FPC5 GRS constant-weight shortening cap
+
+Every fixed FPC5 GRS syndrome shell now injects into a binary
+constant-weight support code. If the shell endpoint is `H`, distinct locator
+supports have distance at least `2(H-d)`. Complementing supports and fixing a
+common `j`-subset gives an exact shortened Plotkin-Johnson cap
+
+```text
+floor { binom(N,j)/binom(w,j)
+        floor((N-j)sigma/[x^2-(N-j)(x-sigma)]) },
+```
+
+where `w=min(d,N-d)`, `x=w-j`, and `sigma=H-d`; a residual weight below
+`sigma` is singleton. The fixed-background incidence factor `binom(b,u)` is
+retained.
+
+This is a proved field-independent cap and a new route beyond the
+adjacent-dimension Haboeck strip. It is not a uniform large-source payment:
+the binomial ratio may remain exponential when the required shortening
+depth grows.
+### 2026-08-10 FPC5 GRS shortening official-prefix payment
+
+The support-shortening cap was replayed on every exact `(PF6)` cell at
+`n=8192` and compiled through canonical first-layout ownership. The complete
+rate-`1/8` prefix `M=29..32` has 126 cells and total cap
+
+```text
+195112047344632914122867933361797765038,
+```
+
+so it is paid on a nonempty 256-bit field slice. The complete rate-`1/16`
+prefix `M=57..67` has 374 cells and total cap
+
+```text
+2444555448501019158442942184801171570,
+```
+
+so it is paid from a 249-bit threshold. This closes every `M=61,t=3` cell,
+including the 37 cells outside the shifted-Johnson strip.
+
+The exact negative controls are equally important: this compiler exceeds the
+strict budget at rate-half `M=5`, rate-quarter `M=13`, rate-`1/8` `M=33`,
+and rate-`1/16` `M=68`. The critical target remains open, but its smallest-row
+frontier now begins at `M=5,13,33,68` on the relevant upper field slices.
+### 2026-08-10 FPC5 constant-weight LP route fence
+
+The first blocked rate-`1/16` scale `M=68` needs about 20 bits beyond the
+proved support-shortening cap in its dominant fixed charts. A bounded Modal
+screen built the complete `255 x 144` Johnson-scheme Delsarte LP for the
+representative `(N,w,sigma)=(511,255,112)` shell.
+
+The numerical LP optimum has `log2=74.6332`, while the proved shortening cap
+has `log2=70.5694`. Hence ordinary support-only Delsarte optimization is four
+bits weaker and cannot supply the missing saving. The solve is a numerical
+route screen, not a theorem, and moves no DAG status.
+
+The next positive attack must use information absent from the binary support
+code: primitive Cramer amplitudes, background Cauchy guards, chronology, or
+the split-divisor/Pade equations. No larger support-only LP run is requested.
+### 2026-08-10 rate-half type-2 FR incidence route fence
+
+Round 31 reduced the strict-`A=3` non-minimum type-2 count to a factor
+`9/4` over the target and named `(FR)`: upgrade the saturation-forced mean
+`|S_gamma intersect W|~2m` to a uniform maximum of the same order.
+
+A preregistered route test now proves that the incidence inputs used by
+`(NEWCAP)` cannot supply that upgrade. The quartic cyclotomic difference
+family over `F_257` gives a power-of-two-scale system at `m=64` with
+
+```text
+N=1024, rho=255, T=257, a=447,
+sum_x(64-d_x)=1,
+min pair union=447,
+min |S_gamma\W|=66,
+```
+
+but `max |S_gamma intersect W|=189`, exceeding `2m=128` by `61=m-3`.
+The block system is proved analytically; a fixed 1024-bit `W` certificate is
+replayed by two independent implementations. Three bounded Modal runs used
+one CPU and 256 MB each and found both registered scales on their first
+trials.
+
+This is a route fence, not a Hankel-pencil counterexample. The critical node
+stays `TARGET` and the official residual remains `9/4`. The next positive
+type-2 attack must use the generalized locator polynomials `f_gamma`, the
+common syndrome pencil, or the apolar Hankel equations. Support cardinality,
+pairwise overlap, saturation, and MDS distance alone are exhausted.
+
+Burn-down: starting pins local `8710af111`, canonical `48a7de3c2`, upstream
+`main@93fba1be`; result `NARROWED`; one PROVED route-fence node added, no
+critical status or crossing bracket changed, no assumption added, and Modal
+spend was negligible. Open upstream PR #1125's determinant atlas was already
+harvested locally; #1157 is a KoalaBear route cut with zero prize-ledger
+movement. The next route-deciding action is algebraic type-2 support control
+or a pivot to another critical leaf if no exact polynomial inequality appears.

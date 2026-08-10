@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b cell-11 selected-cofactor deployed boundary exclusion",
+    "status": "PROVED",
+    "closure": "the selected product-rank cofactor is nonzero at every guarded F_2130706433 source point in all eight cell-11 common rows",
+    "statement": "For each of the eight repeated-BC cell-11 symmetric function-field towers over F_2130706433, substitute the exact printed degree-seven product-rank cofactor into the tower algebra and take its multiplication norm to F_2130706433(x). For BC- the norm numerator factors with degrees 2,1 and multiplicities 2,10; its only base-field root is x=1. For BC+ the factor degrees and multiplicities are (3,2),(2,4),(1,4); its only base-field root is x=-1. The exact chart-coverage theorem for the parent tower proves that no original guarded common-source point has x in {0,1,-1} or y=0. Hence the selected cofactor has no zero at any guarded base-field source point in any of the eight common rows. This leaves later reconstruction/resultant guard divisors, cell-14 transport, and K3 slope/allocation payment open.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_boundary_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_boundary_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

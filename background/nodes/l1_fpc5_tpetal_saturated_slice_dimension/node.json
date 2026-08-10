@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_saturated_slice_dimension",
+    "title": "General t-petal saturated slices have exact locator-flat dimension",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a labelled t-petal pair slice with d<h<=2d+1 and one saturated anchor, the pair space and its locator image have dimension e+1, where e=2d+1-h, and the monic locator chart is an affine e-flat. Every nonempty large-source cell surviving (PF6) satisfies these hypotheses.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/statement.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/proof.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/audit.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/result.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 general t-petal saturated-slice theorem",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

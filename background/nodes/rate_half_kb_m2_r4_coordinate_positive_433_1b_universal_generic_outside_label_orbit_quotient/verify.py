@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the universal positive 433-1b label quotient."""
+"""Verify the O0a-universal positive 433-1b label quotient."""
 
 import hashlib
 import json

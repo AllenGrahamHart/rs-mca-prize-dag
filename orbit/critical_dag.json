@@ -939,7 +939,7 @@
   {
    "id": "rate_half_band_crossing_location",
    "label": "UNPROVED",
-   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at every admissible q > 2^167 within the proved bracket"
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row"
   },
   {
    "id": "rate_half_cyclic_rotated_prefix_floor",
@@ -1025,11 +1025,6 @@
    "id": "tr_perleaf_list_ident",
    "label": "CONDITIONAL",
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
-  },
-  {
-   "id": "u2_per_row_certifier",
-   "label": "UNPROVED",
-   "title": "U2-B: the per-row moment certificates (small-t rows)"
   },
   {
    "id": "u2c_exact_slice_extras_budget",
@@ -1902,10 +1897,6 @@
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "u2_per_row_certifier",
    "to": "x4_exactlist_staircase_split"
   },
   {

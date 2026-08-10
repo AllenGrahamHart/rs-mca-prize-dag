@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rs_deep_point_list_to_ca_conversion",
+    "title": "Self-contained RS deep-point list-to-CA conversion",
+    "status": "PROVED",
+    "closure": "self-contained proof and exact ceiling audit",
+    "statement": "For C=RS[F,D,K] and C+=RS[F,D,K+1] with q>N=|D| and floor(delta N)<=N-K-1, epsilon_ca(C,delta)<=eta(1/K-N/(Kq)) implies List(C+,delta)<=ceil(q epsilon_ca/(1-eta)). In particular, a CA bad-slope numerator at most Q and KQ<q-N imply List(C+,delta)<=ceil(Q(q-N)/(q-N-KQ)).",
+    "refs": [
+      "background/nodes/rs_deep_point_list_to_ca_conversion/statement.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/proof.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/claim_contract.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/dependency_subdag.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/audit.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/result.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/provenance.md",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/verify.py",
+      "background/nodes/rs_deep_point_list_to_ca_conversion/verify_audit.py"
+    ],
+    "upstream": {
+      "label": "deep-point list-to-CA conversion (thm:A)",
+      "relation": "IDENTICAL"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -23,3 +23,15 @@
    background set is also unique from `W_F`, but any rechart of it needs a
    polynomial first-owner compression. Source-layout multiplicity has already
    been removed and must not reappear.
+7. At the sharp cell, use either of the two typed refinements before applying
+   a generic flat bound: the six-value rational-map descriptor on the full
+   domain, or the shortening to `RS[C,2ell-1]` at agreement `3ell-2`. The
+   latter lies beyond the ordinary Johnson radius, so importing Johnson alone
+   is not progress; any list theorem must use the source-core or cofactor
+   structure retained by the former descriptor. The balanced determinant
+   atlas already pays each fixed `D=gcd(F_0,F)`, including a cap of two at
+   maximal intersection. Attack coalescence of the realized `D` owners; do
+   not re-prove the fixed-pencil bound or sum all divisors of `F_0`. Use the
+   exact coordinate `E=(A_1A'_2-A'_1A_2)/L_0`: it parametrizes the whole
+   guarded monic body and recovers `D` by `gcd(E,F_0)`. The next theorem must
+   constrain which `E` reconstruct split, exact marked maps.

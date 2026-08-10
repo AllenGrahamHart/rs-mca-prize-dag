@@ -21,14 +21,16 @@ The raw `433-1b -> O0a` board is now proved empty at:
 global rank-drop branch empty
 ```
 
-This is not yet K3 closure. The exact positive router has 13 routes; only
+This is not yet K3 closure or an active slope payment. The exact positive
+router has 13 routes; only
 `433-1a -> O0b` and `433-1b -> O0a` are closed, leaving eleven named route
 payments. The proved `c112` source-line theorem also explicitly leaves the
 coordinate/source-cover orientation assembly open. The K3 ledger must
-therefore prove exhaustive same-owner balanced-core routing, print literal
-route and source-cover integers, check genuine-pencil hypotheses and exact
-line multiplicities for every nonzero pencil payment, supply ray compilers
-for higher-dimensional survivors, and fit the active allocation.
+therefore prove the active bad-slope-to-component bridge, retain the separate
+trivial-stabilizer type, print literal positive/source-line/source-cover
+integers, check exact bridge and line multiplicities, supply ray compilers
+for higher-dimensional survivors, and fit a balanced-core allocation after
+sibling `U_Q` and `U_new` charges.
 
 ## Scope
 
@@ -39,12 +41,13 @@ structural-surplus arm, not as razor-row coverage.
 
 ## Falsifier (inherited, surplus direction, re-scoped)
 
-A deployed-row supply object outside the assembled classes; a failed raw
-cell replay; an omitted positive or source-cover route; an owner-changing
-transport; an invalid pencil/ray multiplicity; or a K3 total above the
-active allocation.
+An active bad slope outside the bridge; a component outside the assembled
+order-two and trivial-stabilizer classes; a failed raw-cell replay; an omitted
+positive, source-line, or source-cover route; an owner-changing transport; an
+invalid bridge/pencil/ray multiplicity; or a K3 total above its certified
+balanced-core allocation.
 
 ## Closure path
 
-Eleven-route payment + orientation/source-cover assembly -> exact K3
+Active bridge + route/geometry payments -> exact K3
 distinct-slope budget ledger -> independent review -> PROVED.

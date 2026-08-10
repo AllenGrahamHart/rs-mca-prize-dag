@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_active_bc_q6_endpoint_realization",
+    "title": "KoalaBear active balanced-core witness to Q6 endpoint realization",
+    "status": "TARGET",
+    "statement": "For every canonical source certificate emitted by rate_half_kb_active_balanced_core_witness_compiler, prove the equality-wall Q=6,s=6,u=2 hypotheses and construct on the same received line an actual endpoint record and residual component. Preserve the certificate's affine slope, selected support, explaining data, and first-match owner; keep the endpoint parameter line distinct from the evaluation carrier; and print an injection or exact finite multiplicity for every certificate-to-record and record-to-component fiber.",
+    "falsifier": "A valid active balanced-core source certificate that does not satisfy the Q6,s6,u2 endpoint hypotheses, has no actual residual component, changes owner/support/slope, conflates parameter and carrier coordinates, or has an uncontrolled realization fiber.",
+    "refs": [
+      "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/statement.md",
+      "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

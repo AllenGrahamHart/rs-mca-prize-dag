@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_fixed_background_grs_shell_payment",
+    "title": "Fixed-background GRS shells pay bounded background polarity",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In an FPC5 cell with 0<=u<=b, each required u-set R gives a GRS syndrome shell with D=d+ell-1 and support cap d-ell. Summing the exact fixed-R singleton or positive-Johnson bound gives |F|<=binom(b,u) in the injective D>=N branch, and |F|<=binom(b,u) N ell/[d^2-N(d-ell)] when the denominator is positive. Hence either branch is polynomial whenever min(u,b-u) is bounded. The relation J_bg=b J_fix-Nu(b-u) shows that this complements rather than repeats joint-background Johnson.",
+    "refs": [
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/statement.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/proof.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/claim_contract.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/dependency_subdag.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/audit.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/result.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/provenance.md",
+      "background/nodes/l1_fpc5_fixed_background_grs_shell_payment/upstream_crosswalk.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_fixed_background_hankel_codimension"
+    },
+    {
+      "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

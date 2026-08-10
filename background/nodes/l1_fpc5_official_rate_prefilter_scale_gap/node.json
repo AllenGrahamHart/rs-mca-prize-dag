@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_official_rate_prefilter_scale_gap",
+    "title": "Official-rate FPC5 exact-prefilter scale gap",
+    "status": "PROVED",
+    "closure": "symbolic reduction plus independent exhaustive integer replay",
+    "statement": "On every official row n=2^s with 13<=s<=44, the exact FPC5 residual (PF6) is empty for rate 1/4 and 5<=M<=12, rate 1/8 and 7<=M<=28, and rate 1/16 and 15<=M<=56. Hence the unresolved large-source scales begin at M=13,29,57 respectively, while rate half remains M>=5. Exact PF6 parameter survivors at n=8192 and M=13,29,57 prove that the new low-rate cutoffs are sharp for this arithmetic prefilter.",
+    "refs": [
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/statement.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/proof.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/claim_contract.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/dependency_subdag.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/audit.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/result.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/provenance.md",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify.py",
+      "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "pma_official_rate_small_source_degree_sieve"},
+    {"from": "l1_fpc5_large_source_exact_prefilter"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "l1_fpc5_large_source_payment"}
+  ],
+  "refutes": []
+}

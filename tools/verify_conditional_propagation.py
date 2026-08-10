@@ -66,7 +66,9 @@ GRANDS = {"mca_grand", "list_grand"}
 # nodes, for a net +3 TARGET / +3 CONDITIONAL change.
 # F2/F3 ruling 2026-08-10: K3 subtree (4 TARGET / 3 CONDITIONAL) left the
 # critical orbit when the arm demoted req -> ev (partition law move).
-EXPECTED_TARGETS = 28
+# The U2 consumer-scope repair then moves the exhibit-conditional per-row
+# certifier to evidence; the family-uniform u2c target remains required.
+EXPECTED_TARGETS = 27
 EXPECTED_CONDITIONALS = 37
 EXPECTED_ROUNDS = 8
 

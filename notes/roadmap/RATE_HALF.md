@@ -3,6 +3,72 @@
 This lane attacks the deployed KoalaBear rate-half band required by
 `rate_half_band_closure`.
 
+## Current K3 gate
+
+The raw `433-1b -> O0a` workboard is now completely empty, but that is a
+component-system theorem rather than an active bad-slope payment. A semantic
+audit proves that the frozen active partition treats `bcCertified` as an
+arbitrary Boolean predicate and provides no structured witness payload. The
+K3 chain begins only after an actual endpoint record has been supplied.
+
+The former bridge was therefore split into a source-bound balanced-core
+certificate compiler and a same-record endpoint realization. The compiler is
+now PROVED: it instantiates `bcCertified` by the active shifted-lattice
+certificate relation, proves exact first-match projection, and selects one
+certificate per slope with unit fibers. The remaining binding red is to
+realize each canonical certificate as an actual `Q=6,s=6,u=2` endpoint
+record. The composition is an honest amber theorem. The audit's finite
+countermodel proves only that the old contracts did not imply this bridge,
+not that the intended balanced-core statement is false.
+
+At component level, the order-two `(m,r,delta)=(2,4,2)` frontier is proved to
+split into coordinate, source-line, and biquadratic source-cover branches.
+The active assembly must additionally retain the trivial-stabilizer
+`(2,8,1)` type. Downstream red leaves remain the eleven positive routes, the
+unsolved source-line rows, source-cover workboard, trivial-stabilizer payment,
+balanced-core allocation definition, and fresh independent review.
+
+Upstream `main` currently phrases its final MCA route as same-owner
+`(S)` spread routing, `(A)` large-owner control, and `(E)` exception routing.
+The direct route is now preferred over the longer K3 route. Upstream's exact
+order-32 partial-relative theorem is source-pinned locally, and a proved
+adapter sends every 32-subset of canonical active-BC certificates into its
+affine/rational/near-sunflower/primitive-spread alternatives without losing
+line, slope, support, or owner data. Classes of size at most 31 are already
+below that theorem's exception threshold. This is a route reduction, not a
+row closure: all three terminal inputs `(S)`, `(A)`, and `(E)` remain open.
+The K3 endpoint realization remains a valid red alternative and is not
+implied by the order-32 theorem.
+
+Within terminal `(E)`, the denominator-root source gap is narrowed by three
+proved nodes. The upstream pole-tolerant localization/cancellation theorem is
+source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
+same-owner nonzero rank-one pole-defect record with recoverable slope; and an
+interpolation theorem makes the trivialized supports pairwise `<k`
+intersecting. The resulting disjoint-`k`-shadow bound is quantitatively
+non-paying by more than a million bits at both rows. Do not spend compute on
+further support-only packing. The live denominator-root target is a coupled
+polynomial/owner theorem for the pole-defect records.
+
+The denominator-root packet is available upstream in draft PR `#1156`. Its
+terminology and nonclaims follow Grande Finale v4's `(E)` interface, so any
+review repair can be harvested without translating through the K3 workboard
+vocabulary.
+
+The coordinate-clone part of `(E)` is also reduced: every irreducible clone
+class of size below `m` is paid simultaneously by the exact bound
+`2n=4194304`, and at most one class can have size at least `m`. The remaining
+clone target is therefore one large component plus the separately named
+identically-zero/fixed-owner branch, not an arbitrary family of clone cells.
+The clone packet is included in the same draft upstream PR `#1156`.
+
+The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
+it is not a K3-only allocation. See work-cycle shard
+`18-k3-bridge-and-allocation-refactor-20260810.md` and
+`19-active-bc-semantic-gap-20260810.md` for the corrected sub-DAG. See
+`20-active-bc-order32-route-20260810.md` for the proved upstream adapter and
+current route decision.
+
 ## Current decomposition
 
 The positive `433-1b -> O0a` role-cell ledger has closed:

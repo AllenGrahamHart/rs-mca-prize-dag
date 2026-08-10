@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+    "title": "KoalaBear m2 r4 order-two component orientation trichotomy",
+    "status": "PROVED",
+    "closure": "exact component-level coordinate/source-line/source-cover trichotomy",
+    "statement": "Every actual residual KoalaBear component of type (m,r,delta)=(2,4,2) has an order-two stabilizer in V4. The two coordinate subgroups are equivalent under endpoint transposition, with a fresh source record after transport. The remaining diagonal subgroup splits exhaustively according to whether its action preserves the quadratic source intermediate field: the preserving branch is the reciprocal source-line lift, and the nonpreserving branch is a genus-zero or genus-one biquadratic source cover with the printed V4 passports. This is a component-level classification only; it does not map active bad slopes to components, cover the live trivial-stabilizer (2,8,1) type, delete any orientation, or move a ledger value.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/result.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_v4_outer_recurrence_router"},
+    {"from": "rate_half_kb_m2_r4_coordinate_transpose_transport"},
+    {"from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_k3_orientation_assembly"}
+  ],
+  "refutes": []
+}

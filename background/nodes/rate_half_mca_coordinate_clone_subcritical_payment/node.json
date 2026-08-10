@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_coordinate_clone_subcritical_payment",
+    "title": "MCA coordinate-clone subcritical-class payment",
+    "status": "PROVED",
+    "closure": "exact bidegree incidence payment and unique-large-class reduction",
+    "statement": "In a deployed owner pencil after fixed-slope, fixed-owner, and identically-zero coordinate curves are routed separately, partition the nonzero coordinate curves by common irreducible bidegree-(1,1) component. For every clone class C of size 2<=c<m, any rich parameter point assigned to that component needs at least m-c outside coordinate equations, while each outside bidegree-(1,1) curve meets the component in at most two points. Hence N_C(m-c)<=2(n-c) and, because n<=2(m-1), N_C<=2c. Summing all subcritical classes gives at most 2n=4194304 rich parameter pairs, below both deployed MCA budgets. Since n<2m, at most one clone class has size at least m. Thus every unpaid coordinate-clone exception is reduced to one unique large clone component; that component is not paid here.",
+    "refs": [
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/statement.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/proof.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/source_evidence.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/audit.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/result.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/frontier.md",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/source_pin.json",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify.py",
+      "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus"}
+  ],
+  "refutes": []
+}

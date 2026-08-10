@@ -58,7 +58,7 @@ The proved reductions split FPC5 into three disjoint leaves:
    Johnson-nonpositive three-petal LS6 atoms;
 2. `l1_fpc5_m4_t2_payment`: an amber rate split whose rate-quarter branch is
    proved and whose only hypothesis is the rate-half two-petal payment;
-3. `l1_fpc5_large_source_payment`: `M>=5,5,7,15` at rates
+3. `l1_fpc5_large_source_payment`: `M>=5,13,29,57` at rates
    `1/2,1/4,1/8,1/16`.
 
 The conditional proof is in `conditional.md`. No fourth official FPC5 cell

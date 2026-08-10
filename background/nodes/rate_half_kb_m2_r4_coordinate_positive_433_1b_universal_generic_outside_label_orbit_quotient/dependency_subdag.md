@@ -1,10 +1,10 @@
 # Dependency Sub-DAG
 
 ```text
-signed outside atlas [PROVED]
-universal xi4/xi3 transport [PROVED]
+O0a signed outside atlas [PROVED]
+O0a xi4/xi3 transport [PROVED]
 complete-fiber Vieta compiler [PROVED]
                 |
                 v
-universal 105-to-36 label quotient [PROVED]
+O0a-universal 105-to-36 label quotient [PROVED]
 ```

@@ -705,10 +705,14 @@ hand-checked by the coordinator, all quotes verified verbatim):
   list-adjacent contract's own object), and the audited guard
   (literature map) FORBIDS the list-threshold-as-MCA-surrogate. So
   the supply lane CANNOT reach this node's open content without a
-  proved CA/MCA conversion — **the missing dictionary entry is the
-  CA/MCA CONVERSION, not more (t,M) entries.** (Candidate door,
-  unverified: ABF26 Lemma 4.6's field-general eps_mca = eps_ca at
-  delta < delta_min/2.)
+  CA/MCA conversion valid beyond half distance. The specifically
+  suggested ABF26/BCIKS unique-decoding door is now **RULED OUT BY
+  SCOPE** by the proved
+  `rate_half_unique_decoding_ca_mca_scope_fence`: its exact gate is
+  `2(n-a)<=n-k`, equivalently `a>=3n/4`, while the whole live
+  interval has `a<3n/4`. It recovers only the already-proved endpoint.
+  A genuinely beyond-half-distance conversion would be new mathematics;
+  **more (t,M) entries are still not the missing step.**
 - **POSITIVE CONFIRMATION OF THE BANKED CAP**: the char-0
   minimal-slack maximum is EXACTLY the qcore value at every 2-power
   n measured (the razor's regime) and fails off 2-powers precisely
@@ -727,3 +731,63 @@ hand-checked by the coordinator, all quotes verified verbatim):
   sigma >= 2; nothing measures B_mca/B_ca^far/S_sparse; q window
   ends at 10^6 (regime membership transports; the 2^256 arithmetic
   does not). No status flips.
+
+## Haboeck-Johnson safe-bracket addendum (2026-08-10)
+
+The proved quadratic Johnson-range MCA theorem now supplies a direct
+safe-side bound below `3n/4`; it does not use the fenced unique-decoding
+CA-to-MCA transfer. With the source convention corrected to
+`rho=(k-1)/n`, the exact integer specialization is banked as
+`rate_half_haboeck_quadratic_johnson_safe_bracket`.
+
+For every razor row `q>2^255.9`, its `m=94` member gives
+
+```text
+a_RH(q) <= 1563215236073 = 0.7108679874... n.
+```
+
+At
+
+```text
+q >= 330298791207625937408605578064099942258 * 2^128,
+```
+
+the strongest member affordable below the strict `2^256` field cap is
+`m=95`, giving
+
+```text
+a_RH(q) <= 1563128173124 = 0.7108283958... n.
+```
+
+The previous upper bracket was `3n/4=1649267441664`; the maximal gain is
+`86,139,268,540` agreement steps. This is a real bracket movement but no
+status flip: Haboeck supplies no adjacent-unsafe witness at `a_m-1`, and the
+gap to the proved lower endpoint `k+2^34` remains large.
+
+## Type-2 FR incidence-only route fence (2026-08-10)
+
+The proved node `rate_half_type2_fr_incidence_only_route_fence` answers the
+Round-31 `(FR)` route question negatively at the level of the currently
+banked support inequalities. At the power-of-two scale `m=64`, an explicit
+quartic-difference-family set system satisfies
+
+```text
+N=16m, rho=4m-1, T=rho+2, a=7m-1,
+sum_x(m-d_x)=1,
+min pair union=a,
+min |S_gamma\W|=m+2,
+```
+
+while
+
+```text
+max |S_gamma intersect W|=3m-3=189>128=2m.
+```
+
+Thus saturation, `(OV)`, and the individual `(C2)` distance spend cannot by
+themselves prove the max-vs-mean upgrade. This is not a realizable
+Hankel-pencil counterexample and does not refute algebraic `(FR)`. It removes
+the incidence-only continuation: the positive residual-(ii) attack must now
+use the generalized locator polynomials `f_gamma`, the common syndrome
+pencil, or the apolar Hankel equations. The `9/4` official residual and both
+crossing budgets remain open.

@@ -82,6 +82,42 @@ quotient tails and reciprocal/dihedral classes remain. Because the projective
 dimension grows with `ell`, the upstream fixed-dimensional split-flat bound
 does not close (RH1).
 
+Two further exact descriptors expose structure hidden by (RH1). First, each
+sharp contributor gives a degree-`2ell-3` rational map with a complete
+core `1`-fiber, the touched petals in its zero and pole fibers, the full
+background in a fourth marked fiber, and two distinct forbidden fibers on
+the untouched petals. These blocks partition the whole official domain.
+Second, shortening the fixed background and touched pair injects the same
+contributors into
+
+```text
+RS[C,2ell-1],       |C|=5ell-5,
+agreement=3ell-2,   radius=2ell-3.                    (RH2)
+```
+
+The latter is outside the ordinary Johnson range and is not itself a
+payment. Together the descriptors offer two non-equivalent attack routes:
+marked rational-map incidence and a structured shortened-list theorem.
+Specializing the proved balanced-pencil determinant atlas to (RH2) pays
+every fixed common-error gcd owner and caps the maximal-intersection owner by
+two. The unresolved sharp count is therefore the aggregate over realized gcd
+owners, with the marked cofactor guards retained; it is not a fixed-pencil or
+coefficient-multiplicity problem.
+
+The cross-cofactor coordinate makes that aggregate explicit. Relative to one
+exact anchor,
+
+```text
+E=(A_1A'_2-A'_1A_2)/L_0,       deg E<=ell-3             (RH3)
+```
+
+is an affine coordinate on the complete guarded monic slice and satisfies
+`gcd(E,F_0)=gcd(F,F_0)` for every distinct exact contributor. Hence all
+fixed owners are gcd strata of one low-degree coordinate body. Closure must
+bound the coordinates whose reconstructed locator splits and passes the
+marked-map guards; neither background-set enumeration nor independent
+fixed-owner pencils remain legitimate missing steps.
+
 Prove one disjoint aggregate payment of the remaining root-rich split-pair
 locus over the six touched pairs and all defect/background cells in this
 fixed source. Internal tangent, quotient, background-root, and

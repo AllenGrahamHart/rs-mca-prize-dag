@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_anchor_pade_chart",
+    "title": "General t-petal anchor coordinates have an explicit primitive Pade inverse",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a primitive monic anchor (F,W), every coordinate H reconstructs uniquely as G_H=F+rem_F(-Lambda H W^{-1}) and B_H=(G_HW+Lambda H)/F. For split squarefree G_H, primitivity is equivalent to explicit root-local inequalities.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/statement.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/proof.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/audit.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/result.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_pade_chart/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 general t-petal primitive remainder theorem",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_anchor_coordinate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

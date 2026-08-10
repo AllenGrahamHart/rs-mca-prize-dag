@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  239 = 167 PROVED / 40 CONDITIONAL
-                  / 32 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  231 = 167 PROVED / 37 CONDITIONAL
+                  / 27 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 32
+                  and verify_critical_harness_coverage.py all measure.  Its 27
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  254 = 179 / 42 / 33.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  246 = 179 / 39 / 28.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
                   analysis (33 open dominators == the 33 submission-orbit TARGETs).
 
-Neither census is stale; 254 - 239 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 246 - 231 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -149,8 +149,12 @@ SUBMISSION_ROOT = "prize"
 # to background. The K3 program itself continues unchanged (Codex lane);
 # re-promotion pre-registered on bridge + labels-to-slopes + row transport.
 # Net from the wave-55 pin: -3 CONDITIONAL / -4 TARGET on both censuses.
-EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 37, "TARGET": 28}
-EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 29}
+# 2026-08-10 U2 CONSUMER-SCOPE REPAIR: the exhibit-conditional
+# u2_per_row_certifier is finite calibration evidence, not the family-uniform
+# structured-column bound consumed by x4_exactlist_staircase_split. Converting
+# that stale req edge to evidence removes one TARGET from both orbits.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 37, "TARGET": 27}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 28}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

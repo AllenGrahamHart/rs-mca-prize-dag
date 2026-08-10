@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_anchor_coordinate",
+    "title": "General t-petal monic slices have an exact gcd-owner coordinate",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Relative to one squarefree exact anchor, the general t-petal monic pair slice is affinely bijective to polynomials H of degree at most e-1 via (FB-GW)/Lambda. Every distinct exact member satisfies gcd(H,F)=gcd(G,F), so its common-defect owner is recovered by one gcd.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/statement.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/proof.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/audit.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/result.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_anchor_coordinate/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 general t-petal anchor-coordinate theorem",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_saturated_slice_dimension"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

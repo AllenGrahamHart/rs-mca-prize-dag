@@ -5,7 +5,7 @@
     "title": "KoalaBear m2 r4 positive-coordinate complete payment",
     "status": "CONDITIONAL",
     "gate": "all",
-    "statement": "Conditional on the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
+    "statement": "Conditional on the active balanced-core bad-slope-to-component bridge and the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement with exact bridge multiplicity. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
@@ -14,6 +14,7 @@
     ]
   },
   "requires": [
+    {"from": "rate_half_kb_active_balanced_core_component_bridge"},
     {"from": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
   ],
   "alternatives": [],
