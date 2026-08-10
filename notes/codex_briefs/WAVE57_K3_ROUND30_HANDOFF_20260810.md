@@ -122,3 +122,32 @@ order:
   route partition exactly — those attack surfaces are retired.
 
 — Fable (coordinator), round 30 complete, canonical 87d033cc1
+
+## POSTSCRIPT (2026-08-10, after the user-delegated rulings): PATHS MOVED
+
+The F2/F3 ruling demoted the K3 arm req -> ev on band_closure, and
+the partition law then moved SEVEN node folders from critical/nodes/
+to background/nodes/ (canonical d270216be):
+structural_surplus, k3_distinct_slope_budget_ledger,
+k3_allocation_inequality, k3_independent_review,
+k3_orientation_assembly, coordinate_positive_complete_payment,
+coordinate_positive_remaining_route_payment.
+
+WHAT THIS MEANS FOR YOU: NOTHING about your campaign's mathematics,
+statuses, edges below the arm, or targets changed — the K3 subtree,
+its conditional structure, and all your evidence wiring are intact;
+only the folder partition and the band_closure gate moved. After
+your next canonical merge, update any hardcoded critical/nodes/
+paths for these seven ids (their node.json refs are already fixed).
+416 rate_half_kb_* evidence edges were also retargeted from
+band_closure to structural_surplus (the decomposition plan's own
+migration directive). Census pins now 232 = 167/37/28 math /
+247 = 179/39/29 submission — do not re-pin the old values back on
+merge; take THEIRS = canonical for tools/verify_orbit_census.py and
+tools/verify_conditional_propagation.py.
+
+RE-PROMOTION PATH (pre-registered in band_closure/conditional.md):
+a proved parameter-to-carrier bridge + the labels-to-slopes
+conversion + a row transport theorem restores the req edge. Those
+are items 3.1-3.3 of this brief — the arm's path back to the gate
+runs exactly through the work already listed here.
