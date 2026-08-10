@@ -4751,3 +4751,30 @@ the labels-vs-slopes unit seam as the binding blocker — it has no
 owner.** Replays: 56/56 + digest MATCH. Binding schema draft
 (refuse-to-substitute) banked. ZERO node edits. Files:
 notes/pilots_20260810/k3_allocation_inequality/{REPORT.md,FABLE_AUDIT.md,compute_arith.py,verify_partition_digest.py,binding_schema_draft.json}.
+
+## ROUND 30 BANK 3/4 — k3_splitbc_transport (2026-08-10, coordinator)
+
+**BANKED: the split-BC transport audit — the common layer is
+LITERALLY the closed O0a route's 60 compiled algebra rows (100%
+transport, zero recomputation), and four exact outside transports
+cut 37,800 raw labels to 11,304 representative systems (3.34x)
+before any algebra: S0 takes the banked d->-d 105->57 quotient
+verbatim (M3: the PROVED cell-3 node's proof never uses cell 3 —
+widened reissue covers 12,600 labels), SDE/SDF take the
+identical-pair quotient (60 orbits, NEW, replayed), SDE->SDF lane
+transport makes two lanes FREE, and the S0 role self-map folds
+15->9 cells (56/32-orbit Klein option). The D/E transport DIES
+structurally (colored incidences {F,F} -> {E,F}; be -> bd is not a
+record; no repair) — that is exactly why O0b tops at 57/60 vs
+O0a's 36. Named missing certificate M6 (the 433-1b root-sign
+quotient) would reach ~3,414 (11.1x). No guard-only closure;
+PR #1155 fence intact. THE CATCH: M1 — the "universal 433-1b
+outside-label quotient" node DROPPED its parent's "-> O0a" scope
+qualifier; both generators fail on O0b; misapplication would
+falsely delete 65.7% of labels. A LIVE BOOBY TRAP on Codex's
+active path — top of the wave-57 brief. M8: the three-block
+partition closes exactly (63,000 - 16,800 - 3,360 = 42,840),
+both overlap traps cleared.** Replay: both banked censuses
+reproduced exactly + three new counts. ZERO node edits; the draft
+Codex brief held in the pilot dir pending round close. Files:
+notes/pilots_20260810/k3_splitbc_transport/{REPORT.md,FABLE_AUDIT.md,label_orbits.py,DRAFT_CODEX_BRIEF.md}.
