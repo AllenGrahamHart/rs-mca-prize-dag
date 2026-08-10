@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "bc_sign": -1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 10,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 6,
+      "localized_full_dimension": 1,
+      "localized_full_size": 13,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 13,
+      "plane_relation": "y3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "program_sha256": "de20e9d2835d2de4443f3129d9fb9eac8bbee9f9799eef16bc3f97a4e95a77d5",
+      "quadratic_relation": "r2x3-2r2x2+r2x+8355840ry2x2+16711680ry2x+8355840ry2-8355840ryx3+8355840ryx2+8355840ryx-8355840ry-16711680rx3-100270080rx2-16711680rx+16711679x3-33423358x2+16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.06124161399999983,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": 1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 8,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 4,
+      "localized_full_dimension": 1,
+      "localized_full_size": 11,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 11,
+      "plane_relation": "y2x2-2y2x+y2-2x3-4x2-2x",
+      "program_sha256": "8cd9d441d71d496b13d4a41e039c401d962ecc3619f62439e8ed14912a6137eb",
+      "quadratic_relation": "r2x2+r2x+8355839ryx2-16711678ryx+8355839ry-16711679x2-16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.023267372000000286,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": -1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 10,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 6,
+      "localized_full_dimension": 1,
+      "localized_full_size": 13,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 13,
+      "plane_relation": "y3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "program_sha256": "bdce56cf486837d253e144dde4b778588425f6de146da12885eb2a1a7d35c67b",
+      "quadratic_relation": "r2x3-2r2x2+r2x+8355839ry2x2+16711678ry2x+8355839ry2-8355839ryx3+8355839ryx2+8355839ryx-8355839ry-16711678rx3-100270068rx2-16711678rx-16711679x3+33423358x2-16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.09177280399999987,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": 1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 8,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 4,
+      "localized_full_dimension": 1,
+      "localized_full_size": 11,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 11,
+      "plane_relation": "y2x2-2y2x+y2-2x3-4x2-2x",
+      "program_sha256": "17e76ff0c421d074a7ea57a3107634df4abe4259367515aeea1293c4828cf2ac",
+      "quadratic_relation": "r2x2+r2x+8355840ryx2-16711680ryx+8355840ry+16711679x2+16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.023184230000000028,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": -1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 10,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 6,
+      "localized_full_dimension": 1,
+      "localized_full_size": 13,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 13,
+      "plane_relation": "y3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "program_sha256": "b49b64b78ee3beb061dee798b4165534da108629f13515aef3aaf00d306f286c",
+      "quadratic_relation": "r2x3-2r2x2+r2x-8355840ry2x2-16711680ry2x-8355840ry2+8355840ryx3-8355840ryx2-8355840ryx+8355840ry+16711680rx3+100270080rx2+16711680rx+16711679x3-33423358x2+16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.02955287300000009,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": 1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 8,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 4,
+      "localized_full_dimension": 1,
+      "localized_full_size": 11,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 11,
+      "plane_relation": "y2x2-2y2x+y2-2x3-4x2-2x",
+      "program_sha256": "b59ad1049a89137011e53a3056c3a6361f624c80b261aaf99651a3715bafc2a7",
+      "quadratic_relation": "r2x2+r2x-8355839ryx2+16711678ryx-8355839ry-16711679x2-16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.02018701000000034,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": -1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 10,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 6,
+      "localized_full_dimension": 1,
+      "localized_full_size": 13,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 13,
+      "plane_relation": "y3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "program_sha256": "24fb59e0f4d21cca80f22cf854a34330d846b2e13e3011d1d46794b516e17754",
+      "quadratic_relation": "r2x3-2r2x2+r2x-8355839ry2x2-16711678ry2x-8355839ry2+8355839ryx3-8355839ryx2-8355839ryx+8355839ry+16711678rx3+100270068rx2+16711678rx-16711679x3+33423358x2-16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.021425658999999708,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "bc_sign": 1,
+      "chart": "x*y*(x-1)*(x+1)",
+      "chart_zero_remainder": "1",
+      "closure_chart_boundary_basis_size": 8,
+      "closure_chart_boundary_dimension": 1,
+      "closure_chart_boundary_vdim": null,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_generators_mod_two_relation": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "generic_extension_degree": 4,
+      "localized_full_dimension": 1,
+      "localized_full_size": 11,
+      "localized_two_relation_dimension": 1,
+      "localized_two_relation_size": 11,
+      "plane_relation": "y2x2-2y2x+y2-2x3-4x2-2x",
+      "program_sha256": "c1a8aa6523c7d91685b08f1203fee5117d162d69494d62052ab981082bca3749",
+      "quadratic_relation": "r2x2+r2x-8355840ryx2+16711680ryx-8355840ry+16711679x2+16711679x",
+      "quadratic_relation_index": 1,
+      "seconds": 0.019159366000000233,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout_on_error": null
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-common-repeat-cell11-two-relation-tower-v1",
+  "scope": "Bidirectional localized ideal certificate for degree-six BC- and degree-four BC+ symmetric function-field towers.",
+  "source_sha256": "e80940956518b958dafe74eb34e8ce4f00ce729e78646203bb0724057e6f7899",
+  "status_counts": {
+    "COMPLETE": 8
+  }
+}

@@ -24416,3 +24416,55 @@ additional DAG delta:     +2 background PROVED; critical orbit unchanged
 outside labels closed:    0 (geometry/rank partition only)
 next:                     function-field resultants plus finite replay
 ```
+
+### Cell-11 symmetric tower and common-kernel reconstruction
+
+The selected-cofactor open now has an exact source-level finite algebra.
+After `t=(epsilon_1 epsilon_2)r^2`, put `x=bc` and `y=b+c`.  Exact localized
+standard-basis comparison proves that the full four-generator symmetric
+tower equals a plane-plus-quadratic complete intersection on
+
+```text
+x*y*(x-1)*(x+1) != 0.
+```
+
+The original guarded source ideal has empty intersection with this chart
+boundary in all eight sign rows, even though the projected closure itself
+meets the boundary.  The resulting bases over `F_p(x)` are
+
+```text
+BC-:  1,y,y^2,r,ry,ry^2  (degree 6),
+BC+:  1,y,r,ry            (degree 4).
+```
+
+The ordered lift is monic linear in `b`, so `b` and `c=y-b` live in the same
+finite algebra without an additional quadratic extension.  A native
+`python-flint` quotient engine was audited against all four tower equations,
+the ordered lift, `b+c=y`, and `bc=x`.  Its first run correctly failed because
+the parser retained only one monomial of the `r^2` coefficient; after
+accumulating the full polynomial coefficient, all eight rows passed exactly.
+
+On these towers the signed maximal minors of the five common product rows
+give the exact `A/B` kernel.  A linear beta reconstructed from one pivot row
+satisfies all five common sum equations.  Therefore a missing label `lambda`
+has, on the recorded rational open,
+
+```text
+product = B(lambda)/A(lambda),
+sum^2  = lambda*beta(lambda)^2/A(lambda)^2.
+```
+
+The audit replays 56/56 tower/lift identities, 40/40 product identities,
+40/40 sum identities, and 48/48 nonzero cofactor entries.  This is the exact
+input needed by an endpoint-quartic and paired-product resultant atlas; it
+does not yet close an outside label or pay the finite rational boundary.
+
+```text
+symmetric tower run:      ap-NSWAPJgNvDLBb8t35YaqNl
+two-relation run:         ap-pmMRaqZukIUNvViyI534SO
+source-chart run:         ap-tGR2mgxrAh40NScoNnlhQJ
+passing quotient audit:   ap-zwR0xJhIs6EqBpvJ4PtLOF
+additional DAG delta:     +2 background PROVED; critical orbit unchanged
+outside labels closed:    0 (source and common-kernel reconstruction only)
+next:                     generic endpoint-quartic paired-product rank atlas
+```
