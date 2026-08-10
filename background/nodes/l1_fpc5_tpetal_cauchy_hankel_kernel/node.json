@@ -15,7 +15,11 @@
       "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/result.md",
       "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/provenance.md",
       "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/upstream_crosswalk.md"
-    ]
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 full-rank rational Pade-Hankel kernel",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
   },
   "requires": [
     {

@@ -25348,4 +25348,11 @@ Cauchy guards remain explicit.
 No critical status changes. The live local theorem is now a
 base-field-normalized split-divisor census for a full-rank rational
 Padé-Hankel kernel with primitive punctures and background guards, followed
-by chronology-valid aggregation. Export to `rs-mca` PR #1151 is pending.
+by chronology-valid aggregation.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 9 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `a0006abc1d09e6f9a1af3aa6c873af7f5973c292`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`a9ffb4521cd52953bb901296fe5bb8a766a4116e`.
