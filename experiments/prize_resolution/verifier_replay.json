@@ -2,14 +2,14 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 18,
+    "PASS": 30,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_cf_residual_pairing_exclusion/verify.py",
-      "seconds": 2.296616,
+      "seconds": 2.31541,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_CF_RESIDUAL_VERIFY_PASS systems=480 roots=432 unit_fibers=432 cell3_CF=120 cell6_BE=120\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_cf_residual_pairing_exclusion/verify_audit.py",
-      "seconds": 2.330737,
+      "seconds": 2.363315,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC BC+ missing-CF residual hostile audit: 5/5\n"
@@ -25,7 +25,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/verify.py",
-      "seconds": 0.046386,
+      "seconds": 0.043836,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_COLORED_MISSING_VERIFY_PASS cuts=8 BE=120 cell6_CF=120 CF_points=16\n"
@@ -33,7 +33,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/verify_audit.py",
-      "seconds": 0.03313,
+      "seconds": 0.031397,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC BC+ colored-missing hostile audit: 5/5\n"
@@ -41,7 +41,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/verify.py",
-      "seconds": 0.04298,
+      "seconds": 0.047894,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_CELL3_BCPLUS_TORUS_VERIFY_PASS rows=4 exact=4 residual_unit=4\n"
@@ -49,15 +49,95 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/verify_audit.py",
-      "seconds": 0.026996,
+      "seconds": 0.037917,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC cell3 BC+ torus hostile audit: 6/6\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/verify.py",
+      "seconds": 1.112018,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_UNCOLORED_DE_VERIFY_PASS cases=120 fibers=2488 unit_endpoints=1792 labels=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/verify_audit.py",
+      "seconds": 1.183226,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS uncolored DE hostile audit: 4/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/verify.py",
+      "seconds": 0.857553,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_UNCOLORED_DF_VERIFY_PASS cases=120 fibers=2248 unit_endpoints=832 labels=240\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/verify_audit.py",
+      "seconds": 0.900693,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS uncolored DF hostile audit: 4/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/verify.py",
+      "seconds": 0.841623,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_UNCOLORED_EF_VERIFY_PASS cases=120 fibers=2264 unit_endpoints=896 labels=120\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/verify_audit.py",
+      "seconds": 0.911123,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS uncolored EF hostile audit: 4/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/verify.py",
+      "seconds": 0.051171,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_UNCOLORED_GENERIC_RANK_VERIFY_PASS cases=360 guards=54 ranks=248x16+112x24\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/verify_audit.py",
+      "seconds": 0.080587,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS uncolored generic-rank hostile audit: 5/5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/verify.py",
+      "seconds": 0.342554,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_UNCOLORED_GUARD_ROOT_VERIFY_PASS guards=54 roots=67 incidences=78\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/verify_audit.py",
+      "seconds": 0.917768,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS uncolored guard-root hostile audit: 4/4\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify.py",
-      "seconds": 0.483654,
+      "seconds": 0.475442,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_CELL3_OUTSIDE_ROUTER_PASS labels=105 orbits=57 profile={1: 9, 2: 48, 4: 0} sha256=70c074ad010a7c8a03c84d6eaeb6206f14b941de455301180c9aa51a03f02b91\nRATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_CELL3_OUTSIDE_QUOTIENT_VERIFY_PASS labels=105 orbits=57 profile=1:9,2:48\n"
@@ -65,15 +145,31 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify_audit.py",
-      "seconds": 0.453995,
+      "seconds": 0.281197,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC outside-label quotient hostile audit: 3/3\n"
     },
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/verify.py",
+      "seconds": 0.068127,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_BCPLUS_COMPLETE_OUTSIDE_VERIFY_PASS cell3=840 cell6=840 representative_cases=360 exceptional_fibers=7000\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/verify_audit.py",
+      "seconds": 0.106778,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS complete cells-3/6 BC+ outside hostile audit: 4/4\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/verify.py",
-      "seconds": 0.048861,
+      "seconds": 0.045035,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_CELLS3_6_COMPACT_VERIFY_PASS rows=16 dim=1 remainders=160/160\n"
@@ -81,7 +177,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/verify_audit.py",
-      "seconds": 0.032289,
+      "seconds": 0.034077,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC cells3/6 compact hostile audit: 5/5\n"
@@ -89,7 +185,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/verify.py",
-      "seconds": 0.050555,
+      "seconds": 0.05359,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_CELLS3_6_TRANSPORT_VERIFY_PASS labels=105 systems=1680\n"
@@ -97,7 +193,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/verify_audit.py",
-      "seconds": 0.033542,
+      "seconds": 0.03524,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC cells3/6 transport hostile audit: 3/3\n"
@@ -105,7 +201,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/verify.py",
-      "seconds": 0.04514,
+      "seconds": 0.046425,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_PRODUCT_RANK_VERIFY_PASS cases=30 guard_rank5=3,6\n"
@@ -113,7 +209,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/verify_audit.py",
-      "seconds": 0.036164,
+      "seconds": 0.03706,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC product-rank atlas hostile audit: 4/4\n"
@@ -121,7 +217,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_saturation_classification/verify.py",
-      "seconds": 0.049591,
+      "seconds": 0.051371,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_REPEAT_SATURATION_VERIFY_PASS representatives=72 unit=44 survive=28 algebra=80+40 formal_lanes=160+80\n"
@@ -129,7 +225,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_saturation_classification/verify_audit.py",
-      "seconds": 0.043317,
+      "seconds": 0.045871,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC saturation hostile audit: 5/5\n"
@@ -137,7 +233,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler/verify.py",
-      "seconds": 0.056511,
+      "seconds": 0.049125,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_COMMON_REPEAT_VERIFY_PASS cases=240 algebra_rows=120 cells=15 cell_orbits=9 minors=1440 stripped_degree=7..12\n"
@@ -145,7 +241,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler/verify_audit.py",
-      "seconds": 0.060768,
+      "seconds": 0.062893,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "PASS repeated-BC common compiler hostile audit: 5/5\n"

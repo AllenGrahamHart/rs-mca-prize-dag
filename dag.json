@@ -32906,6 +32906,116 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ uncolored DE exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field exclusion of missing DE+ and DE- in cell 3",
+   "statement": "The generic-rank unit result and exhaustive direct payment of all exceptional guard fibers prove all 120 cell-3 BC+ systems represented by missing DE+ empty. The 2,488 exceptional torus fibers consist of 1,560 common-guard boundaries, 240 inconsistent missing products, 240 zero-product boundaries, and 448 endpoint-bearing fibers; all 1,792 endpoint rows have residual gcd one. The exact d -> -d quotient closes the corresponding 120 missing-DE- systems, for 240 formal systems total.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_certificate.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_DEplus_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ uncolored DF exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field exclusion of missing DF+ and DF- in cell 3",
+   "statement": "The generic-rank unit result and exhaustive direct payment of all exceptional guard fibers prove all 120 cell-3 BC+ systems represented by missing DF+ empty. The 2,248 exceptional torus fibers consist of 1,560 common-guard boundaries, 240 inconsistent missing products, 240 zero-product boundaries, and 208 endpoint-bearing fibers; all 832 endpoint rows have residual gcd one. The exact d -> -d quotient closes the corresponding 120 missing-DF- systems, for 240 formal systems total.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_certificate.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_DFplus_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ uncolored EF exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field exclusion of missing EF in cell 3",
+   "statement": "The generic-rank unit result and exhaustive direct payment of all exceptional guard fibers prove all 120 cell-3 BC+ systems with missing EF empty. The 2,264 exceptional torus fibers consist of 1,560 common-guard boundaries, 240 inconsistent missing products, 240 zero-product boundaries, and 224 endpoint-bearing fibers; all 896 endpoint rows have residual gcd one. EF is fixed by the d -> -d quotient, so these 120 systems comprise the complete record orbit.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_certificate.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_EF_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ uncolored generic-rank atlas",
+   "status": "PROVED",
+   "closure": "generic function-field unit result for all 360 uncolored representative systems",
+   "statement": "For every root-sign pair, missing-record representative DE+, DF+, or EF, outside sign, and residual matching, the first two exact paired-product equations have a full-rank flattened Sylvester matrix over the cell-3 BC+ torus function field with the missing-endpoint quartic adjoined. All 360 representative systems are therefore empty away from five exact construction and determinant guards per case; globally these comprise 54 distinct guard polynomials.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ uncolored guard-root atlas",
+   "status": "PROVED",
+   "closure": "complete deployed-field root atlas for all 54 generic-rank guards",
+   "statement": "Exact gcd with u^p-u gives the complete F_2130706433 root list of every one of the 54 construction and determinant guards in the uncolored generic-rank atlas. Their union contains 67 base values and 78 guard/root incidences. Hence every exceptional deployed-field system is contained in the finite base atlas consumed by the DE, DF, and EF leaves.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_roots_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 outside-label quotient",
    "status": "PROVED",
@@ -32924,6 +33034,27 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_outside_label_router.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cells 3 and 6 BC+ complete outside exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed-field exclusion of all 840 BC+ outside systems in each of cells 3 and 6",
+   "statement": "The missing-record packets exclude all cell-3 repeated-BC BC+ systems: 120 missing BE, 120 missing CF, 240 missing DE+/-, 240 missing DF+/-, and 120 missing EF, totaling 840. Exact full-system transport carries this complete exclusion to all 840 cell-6 systems. Thus the cells-3/6 repeated-BC owner block is closed for BC+; BC-, other owner blocks, split lanes, and route closure remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_exceptional_fibers_result.json"
    ]
   },
   {
@@ -64360,12 +64491,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_cf_residual_pairing_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_cf_residual_pairing_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_cf_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
    "kind": "req"
   },
   {
@@ -64380,11 +64521,66 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_generic_rank_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_guard_root_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_ef_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_de_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_uncolored_df_residual_pairing_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -64411,6 +64607,11 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_bcplus_complete_outside_exclusion",
    "kind": "req"
   },
   {
