@@ -5,7 +5,8 @@ open, and the selected-cofactor sibling proves that its zero fiber has no
 guarded base-field source point.  The remaining cell-11 route obligations are
 structural boundaries, not unclassified determinant-zero fibers:
 
-- later reconstruction/resultant guard loci;
+- later endpoint/resultant guard loci (the essential missing-label
+  reconstruction denominator is already closed);
 - the cell-14 transport/closure interface;
 - conversion from surviving raw systems to distinct affine slopes and K3
   allocation.

@@ -969,8 +969,8 @@ new result:               repeated-BC/O0b cell-11 off-guard exclusion PROVED
 representatives:          720/720
 norm-root occurrences:    1,584 over 126 base values
 all-pair exclusions:      1,584/1,584
-remaining route boundary: missing BE/CF; registered guard and selected-
-                          cofactor loci; cell 14; slope/allocation payment
+remaining route boundary: later endpoint/resultant guards; cell 14;
+                          slope/allocation payment
 Modal norm apps:          ap-nc3lZFAzCeszB3edd6VeoW,
                           ap-J7jGghTVhDDBFj1pdjN0Su
 Modal replay app:         ap-LkxpdxjswBQQ9TiOqKpQGv
@@ -1003,9 +1003,9 @@ Modal app:                 ap-rUIJmUwwAvE2TTjb34RqLA
 ```
 
 Together with the 720-system uncolored replay, no missing-record family is
-open on the selected rational chart.  The cell-11 frontier is now the finite
-registered-guard/selected-cofactor boundary, followed by cell-14 transport
-and exact slope allocation.  No boundary or K3 closure is claimed.
+open on the selected rational chart.  Subsequent certificates remove the
+selected-cofactor and essential reconstruction-denominator boundaries.  No
+cell-11 or K3 closure is claimed here.
 
 ### 2026-08-10 cell-11 selected-cofactor deployed boundary exclusion
 
@@ -1029,3 +1029,23 @@ selected-cofactor qualification from every guarded cell-11 source, not only
 from the displayed tower chart.  The cell-11 frontier is now the later guard
 divisors introduced by missing-record reconstruction and outside-resultant
 elimination, then cell-14 transport and exact K3 slope/allocation payment.
+
+### 2026-08-10 cell-11 missing-label denominator exclusion
+
+The common-kernel formulas divide by `A(lambda_missing)`.  Exact norm
+factorization and exhaustive base-field lifting now remove that qualification
+on the original guarded source locus:
+
+```text
+BC- chart-level norm roots:       0
+BC+ chart-level x-roots per row:  153731577, 583634934, 1547071505
+BC+ source lifts:                 0, 2, 2 per epsilon row
+field boundary points:            16
+guarded boundary points:          0 (all 16 have b=c and common guard zero)
+Modal app:                        ap-Z11iznSaBGpRuvPTge77up
+```
+
+Thus division by `A(lambda_missing)` introduces no guarded boundary in either
+missing-coordinate formula.  The remaining guard frontier consists of other
+reconstruction pivots, endpoint/resultant denominators, and implementation
+pivots; these must be classified before any further finite replay.

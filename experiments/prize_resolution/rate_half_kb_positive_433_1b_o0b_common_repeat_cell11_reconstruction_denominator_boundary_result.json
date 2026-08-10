@@ -1,0 +1,1234 @@
+{
+  "case_count": 8,
+  "chart_boundary_root_occurrences": 12,
+  "distinct_chart_boundary_root_count": 3,
+  "field_boundary_point_count": 16,
+  "guarded_boundary_point_count": 0,
+  "rows": [
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "chart_boundary_roots": [],
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 10,
+      "norm_denominator_sha256": "2aaf7d186b55273c338f410081e57b7f6942c2c55d33968e71b1da06df3862e2",
+      "norm_numerator_degree": 32,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "32bd5ed9f2265b3886c5375225710a89aeb95b1bd166bbd62160e652798504e1"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "4f45970c8d843996b434f76d5eea7969177015a56edec908c96166d9983b671f"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 8,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 12,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "c15ecafd0a8d186df424e77942c7756b112e379081f2343e92d21ad7a383b0b6",
+      "off_chart_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "root_fiber_census": [],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 9,
+      "tower_chart_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "tower_program_sha256": "b02b26e0f2784f7099e202aa6c83827563188346d35176d093719a5a894ca066",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [
+        {
+          "b": 1357170683,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170683,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1748172362,
+          "t": 2113994754,
+          "x": 583634934,
+          "y": 583634933
+        },
+        {
+          "b": 773535750,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535750,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 382534071,
+          "t": 2113994754,
+          "x": 583634934,
+          "y": 1547071500
+        },
+        {
+          "b": 1357170681,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170681,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1748172362,
+          "t": 2113994754,
+          "x": 1547071505,
+          "y": 583634929
+        },
+        {
+          "b": 773535752,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535752,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 382534071,
+          "t": 2113994754,
+          "x": 1547071505,
+          "y": 1547071504
+        }
+      ],
+      "chart_boundary_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        }
+      ],
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "field_boundary_point_count": 4,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 14,
+      "norm_denominator_sha256": "999aed1703c1512fb1845d418306013fc5d1f4be412bddf760f3fb4718c5c781",
+      "norm_numerator_degree": 36,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "5fb7eda44b4f37a36161d1a49ab0bc2872ee7cce136ce08ba9f1589803bdf8af"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "9db35f33266f42aaae6b1575e5e647fb7294fd0729437f0f3c4296cfa658e45c"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "06e40a33c7ca79f7b5aa982dd0f89faa0eeac782b712d7f7e8e8af66252fe7b0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "8b56a7b87a654707d9278eb7547d2dd54365b099970f667b67252271f42311b7"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "c1251d58628e01c622193c278fe1fa8da64e51ab61e9e0f63f5ef667af1d8aca"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 8,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        }
+      ],
+      "norm_numerator_sha256": "6b2157ff66ca6f7a052419bf46a40344abc7256c71cfc1613bd828a744e4b951",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "root_fiber_census": [
+        {
+          "boundary_candidate_count": 0,
+          "source_candidate_count": 0,
+          "x": 153731577,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 583634934,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 1547071505,
+          "y_root_count": 2
+        }
+      ],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 6,
+      "tower_chart_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "tower_program_sha256": "83f3ca171563b2a841cc696720280787528b2c2af63abdc9432d067a5c7034ab",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "chart_boundary_roots": [],
+      "epsilon": [
+        -1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 10,
+      "norm_denominator_sha256": "2aaf7d186b55273c338f410081e57b7f6942c2c55d33968e71b1da06df3862e2",
+      "norm_numerator_degree": 32,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "32bd5ed9f2265b3886c5375225710a89aeb95b1bd166bbd62160e652798504e1"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "4f45970c8d843996b434f76d5eea7969177015a56edec908c96166d9983b671f"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 8,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 12,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "c15ecafd0a8d186df424e77942c7756b112e379081f2343e92d21ad7a383b0b6",
+      "off_chart_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "root_fiber_census": [],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 9,
+      "tower_chart_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "tower_program_sha256": "3ad7bfbe4215f07e0fe8b8174f5afc02c6de427c80440815b8920f0dab2418a7",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [
+        {
+          "b": 1357170683,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170683,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 391001680,
+          "t": 2113994754,
+          "x": 583634934,
+          "y": 583634933
+        },
+        {
+          "b": 773535750,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535750,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1739704753,
+          "t": 2113994754,
+          "x": 583634934,
+          "y": 1547071500
+        },
+        {
+          "b": 1357170681,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170681,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 391001680,
+          "t": 2113994754,
+          "x": 1547071505,
+          "y": 583634929
+        },
+        {
+          "b": 773535752,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535752,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1739704753,
+          "t": 2113994754,
+          "x": 1547071505,
+          "y": 1547071504
+        }
+      ],
+      "chart_boundary_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        }
+      ],
+      "epsilon": [
+        -1,
+        1
+      ],
+      "field_boundary_point_count": 4,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 14,
+      "norm_denominator_sha256": "999aed1703c1512fb1845d418306013fc5d1f4be412bddf760f3fb4718c5c781",
+      "norm_numerator_degree": 36,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "5fb7eda44b4f37a36161d1a49ab0bc2872ee7cce136ce08ba9f1589803bdf8af"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "9db35f33266f42aaae6b1575e5e647fb7294fd0729437f0f3c4296cfa658e45c"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "06e40a33c7ca79f7b5aa982dd0f89faa0eeac782b712d7f7e8e8af66252fe7b0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "8b56a7b87a654707d9278eb7547d2dd54365b099970f667b67252271f42311b7"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "c1251d58628e01c622193c278fe1fa8da64e51ab61e9e0f63f5ef667af1d8aca"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 8,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        }
+      ],
+      "norm_numerator_sha256": "6b2157ff66ca6f7a052419bf46a40344abc7256c71cfc1613bd828a744e4b951",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "root_fiber_census": [
+        {
+          "boundary_candidate_count": 0,
+          "source_candidate_count": 0,
+          "x": 153731577,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 583634934,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 1547071505,
+          "y_root_count": 2
+        }
+      ],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 6,
+      "tower_chart_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "tower_program_sha256": "a901e246b30e9476b3397f1da6f47d210d295bb62774ff123b7adee51103cfaf",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "chart_boundary_roots": [],
+      "epsilon": [
+        1,
+        -1
+      ],
+      "field_boundary_point_count": 0,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 10,
+      "norm_denominator_sha256": "2aaf7d186b55273c338f410081e57b7f6942c2c55d33968e71b1da06df3862e2",
+      "norm_numerator_degree": 32,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "32bd5ed9f2265b3886c5375225710a89aeb95b1bd166bbd62160e652798504e1"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "4f45970c8d843996b434f76d5eea7969177015a56edec908c96166d9983b671f"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 8,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 12,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "c15ecafd0a8d186df424e77942c7756b112e379081f2343e92d21ad7a383b0b6",
+      "off_chart_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "root_fiber_census": [],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 9,
+      "tower_chart_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "tower_program_sha256": "a9c14bb42951197fe4a54dcce4be41bd78287c3cdd7baa61ad3289d29f55d9e9",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [
+        {
+          "b": 1357170683,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170683,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 382534071,
+          "t": 16711679,
+          "x": 583634934,
+          "y": 583634933
+        },
+        {
+          "b": 773535750,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535750,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1748172362,
+          "t": 16711679,
+          "x": 583634934,
+          "y": 1547071500
+        },
+        {
+          "b": 1357170681,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170681,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 382534071,
+          "t": 16711679,
+          "x": 1547071505,
+          "y": 583634929
+        },
+        {
+          "b": 773535752,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535752,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1748172362,
+          "t": 16711679,
+          "x": 1547071505,
+          "y": 1547071504
+        }
+      ],
+      "chart_boundary_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        }
+      ],
+      "epsilon": [
+        1,
+        -1
+      ],
+      "field_boundary_point_count": 4,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 14,
+      "norm_denominator_sha256": "999aed1703c1512fb1845d418306013fc5d1f4be412bddf760f3fb4718c5c781",
+      "norm_numerator_degree": 36,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "5fb7eda44b4f37a36161d1a49ab0bc2872ee7cce136ce08ba9f1589803bdf8af"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "9db35f33266f42aaae6b1575e5e647fb7294fd0729437f0f3c4296cfa658e45c"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "06e40a33c7ca79f7b5aa982dd0f89faa0eeac782b712d7f7e8e8af66252fe7b0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "8b56a7b87a654707d9278eb7547d2dd54365b099970f667b67252271f42311b7"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "c1251d58628e01c622193c278fe1fa8da64e51ab61e9e0f63f5ef667af1d8aca"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 8,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        }
+      ],
+      "norm_numerator_sha256": "6b2157ff66ca6f7a052419bf46a40344abc7256c71cfc1613bd828a744e4b951",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "root_fiber_census": [
+        {
+          "boundary_candidate_count": 0,
+          "source_candidate_count": 0,
+          "x": 153731577,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 583634934,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 1547071505,
+          "y_root_count": 2
+        }
+      ],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 6,
+      "tower_chart_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "tower_program_sha256": "63d2837af430dd50684f536256435208d97ffc1155ac2bee31bc27c51b3ac76c",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 6,
+      "base_field_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "bc_sign": -1,
+      "boundary_points": [],
+      "chart_boundary_roots": [],
+      "epsilon": [
+        1,
+        1
+      ],
+      "field_boundary_point_count": 0,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 10,
+      "norm_denominator_sha256": "2aaf7d186b55273c338f410081e57b7f6942c2c55d33968e71b1da06df3862e2",
+      "norm_numerator_degree": 32,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "32bd5ed9f2265b3886c5375225710a89aeb95b1bd166bbd62160e652798504e1"
+        },
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "4f45970c8d843996b434f76d5eea7969177015a56edec908c96166d9983b671f"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 8,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 12,
+          "sha256": "90b200f2835231116b91a70ad14f795df828702cf3c1ba2b6891163594860f1c"
+        }
+      ],
+      "norm_numerator_sha256": "c15ecafd0a8d186df424e77942c7756b112e379081f2343e92d21ad7a383b0b6",
+      "off_chart_roots": [
+        {
+          "multiplicity": 8,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "multiplicity": 12,
+          "tower_chart_guards_nonzero": false,
+          "x": 1,
+          "zero_guard_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "root_fiber_census": [],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 9,
+      "tower_chart_guard_sha256": [
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "f49b9dc62ee7904aeb02fbcc8b7ebaf9eb91d9ba12129d9961d5940ad48854ba",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795",
+        "d2fe8732c3ec0ed521e2cdef18cc479cb176955bb57ba9587835875444059795"
+      ],
+      "tower_program_sha256": "447f7810d8dbccc4b47280f9d653179580ec0b60700fe32e8fe889f3705e352f",
+      "tower_valid": true
+    },
+    {
+      "algebra_dimension": 4,
+      "base_field_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "bc_sign": 1,
+      "boundary_points": [
+        {
+          "b": 1357170683,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170683,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1739704753,
+          "t": 16711679,
+          "x": 583634934,
+          "y": 583634933
+        },
+        {
+          "b": 773535750,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535750,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 391001680,
+          "t": 16711679,
+          "x": 583634934,
+          "y": 1547071500
+        },
+        {
+          "b": 1357170681,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 1357170681,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 1739704753,
+          "t": 16711679,
+          "x": 1547071505,
+          "y": 583634929
+        },
+        {
+          "b": 773535752,
+          "b_equals_c": true,
+          "bc_matches_x": true,
+          "c": 773535752,
+          "common_equations_zero": true,
+          "common_guard_nonzero": false,
+          "guarded": false,
+          "r": 391001680,
+          "t": 16711679,
+          "x": 1547071505,
+          "y": 1547071504
+        }
+      ],
+      "chart_boundary_roots": [
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 153731577,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 583634934,
+          "zero_guard_indices": []
+        },
+        {
+          "multiplicity": 2,
+          "tower_chart_guards_nonzero": true,
+          "x": 1547071505,
+          "zero_guard_indices": []
+        }
+      ],
+      "epsilon": [
+        1,
+        1
+      ],
+      "field_boundary_point_count": 4,
+      "guarded_boundary_point_count": 0,
+      "norm_denominator_degree": 14,
+      "norm_denominator_sha256": "999aed1703c1512fb1845d418306013fc5d1f4be412bddf760f3fb4718c5c781",
+      "norm_numerator_degree": 36,
+      "norm_numerator_factorization": [
+        {
+          "degree": 3,
+          "multiplicity": 2,
+          "sha256": "5fb7eda44b4f37a36161d1a49ab0bc2872ee7cce136ce08ba9f1589803bdf8af"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "9db35f33266f42aaae6b1575e5e647fb7294fd0729437f0f3c4296cfa658e45c"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "06e40a33c7ca79f7b5aa982dd0f89faa0eeac782b712d7f7e8e8af66252fe7b0"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 2,
+          "sha256": "8b56a7b87a654707d9278eb7547d2dd54365b099970f667b67252271f42311b7"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 2,
+          "sha256": "c1251d58628e01c622193c278fe1fa8da64e51ab61e9e0f63f5ef667af1d8aca"
+        },
+        {
+          "degree": 1,
+          "multiplicity": 4,
+          "sha256": "e61b9f584dbe27741cef6e9ee440831d7d94470c0871b0871541f0308916efea"
+        },
+        {
+          "degree": 2,
+          "multiplicity": 8,
+          "sha256": "51b5dec31aa0ea9afcbef69fde42fc30d0350901d22ab5c9e020421219ae0f22"
+        }
+      ],
+      "norm_numerator_sha256": "6b2157ff66ca6f7a052419bf46a40344abc7256c71cfc1613bd828a744e4b951",
+      "off_chart_roots": [
+        {
+          "multiplicity": 4,
+          "tower_chart_guards_nonzero": false,
+          "x": 2130706432,
+          "zero_guard_indices": [
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "root_fiber_census": [
+        {
+          "boundary_candidate_count": 0,
+          "source_candidate_count": 0,
+          "x": 153731577,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 583634934,
+          "y_root_count": 2
+        },
+        {
+          "boundary_candidate_count": 2,
+          "source_candidate_count": 2,
+          "x": 1547071505,
+          "y_root_count": 2
+        }
+      ],
+      "status": "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT",
+      "tower_chart_guard_count": 6,
+      "tower_chart_guard_sha256": [
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "29b989dbc637471ea90d4c3997c01895e89752c0cab228930113c755da171528",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477",
+        "fcb99bcf1428bb917ed25f2260c182b4054a03c2d762fd70d816c9c34b374477"
+      ],
+      "tower_program_sha256": "db3eefe33a32badb89d2dd7dd3c56357a27d2e3498e00bd74771d99028acc54b",
+      "tower_valid": true
+    }
+  ],
+  "schema": "kb-positive-433-1b-o0b-cell11-reconstruction-denominator-boundary-v1",
+  "statement": "Exact source-algebra norm roots of A(lambda_missing), lifted and replayed against the original common equations and guard.",
+  "status_counts": {
+    "NO_GUARDED_RECONSTRUCTION_BOUNDARY_POINT": 8
+  }
+}
