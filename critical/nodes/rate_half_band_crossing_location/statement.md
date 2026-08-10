@@ -1166,3 +1166,35 @@ A bounded `m=2`, `F_97` Modal profile tested `125,335` bad pair unions
 and both tested trace-related blocks independently had full residual rank in every
 case; there were no exceptions. This is strong one-scale falsification
 evidence, not a proof, so the critical status remains unchanged.
+
+## Cycles 62-63: locator extension added; incidence-only rank refuted (2026-08-10, Codex)
+
+The old matrix omitted an official linear condition. Writing
+`Q_Y(x)=A_x(Y)R_x(Y)`, every coefficient must extend on `W` to an
+`X`-polynomial of degree at most `rho`. Dual Reed-Solomon interpolation gives
+the exact additional rows
+
+```text
+E_W[(i,j),(x,t)]
+ =x^i [Y^j](A_x(Y)Y^t)/sigma'_W(x),
+0<=i<|W|-rho-1,  0<=j<=m.
+```
+
+Every actual failure therefore has a blockwise-nonzero kernel for the
+strengthened matrix `C_W=[M_W;E_W]`. This is the proved node
+`rate_half_bivariate_locator_extension_kernel_reduction`. The new rows retain
+the genuine `m=1` failure on all ten pair unions (`rank 5/6`).
+
+They also diagnose a new adversarial fence. At `m=2` over `F_97`, an explicit
+`T=rho+2` one-deficit incidence pattern uses six inverse pairs and
+`nu_x=x+x^(-1)=(x^2+1)/x`. Its chosen `|W|=12` pair is minimum, all pair
+intersections are at most two, and bad overlap is `2>1`, yet
+`rank(M_W)=11/12` with an all-nonzero kernel. Thus the earlier random
+zero-exception profile cannot support an incidence-only rank theorem. The
+witness fails locator extension and `rank(C_W)=12/12`; it is not a Hankel or
+Prize counterexample. The proved fence is
+`rate_half_bivariate_incidence_only_rational_trace_route_fence`.
+
+The live theorem is now structured full rank, or exclusion of blockwise
+nonzero kernels, for `C_W` under the remaining outside-root and Hankel
+constraints. Critical status remains unchanged.

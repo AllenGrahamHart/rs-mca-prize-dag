@@ -26314,3 +26314,79 @@ This is falsification evidence at one small field, not an official-scale
 proof. The proved leaf
 `rate_half_bivariate_single_coefficient_rational_interpolation_criterion`
 isolates the exact theorem still needed; no critical status changes.
+# Cycle 62: rate-half locator-extension kernel (2026-08-10)
+
+## Missing linear layer
+
+The deficiency-aware matrix `M_W` enforces the shortened apolarity condition
+on `L_x(Y)Q_Y(x)`, but it does not separately enforce that the values
+`Q_Y(x)` come from locator coefficient polynomials of `X`-degree at most
+`rho`.
+
+For `a=|W|`, put `sigma_W(X)=product_(x in W)(X-x)`. The exact missing rows
+are
+
+```text
+sum_(x in W) x^i [Y^j]Q_Y(x)/sigma'_W(x)=0,
+0<=i<a-rho-1,  0<=j<=m.
+```
+
+After substituting `Q_Y(x)=A_x(Y)R_x(Y)`, these form a linear matrix `E_W`
+on the same deficiency-clone variables. Dual Reed-Solomon interpolation
+proves that `E_W r=0` is equivalent to coefficientwise extension with
+`X`-degree at most `rho`.
+
+## New rank target
+
+Every actual failure has a blockwise-nonzero kernel for
+
+```text
+C_W=vertical_stack(M_W,E_W).
+```
+
+The proved node `rate_half_bivariate_locator_extension_kernel_reduction`
+adds this exact necessary layer. It preserves all ten genuine `m=1`
+failures: `rank(M_W)=rank(C_W)=5<6`. The live rank problem is now `C_W`, not
+`M_W`; no critical status changes.
+# Cycle 63: rate-half incidence rational-trace fence (2026-08-10)
+
+## Adversarial construction
+
+At `m=2` over `F_97`, choose six inverse pairs in the order-32 subgroup and
+set
+
+```text
+nu_x=x+x^(-1)=(x^2+1)/x.
+```
+
+An explicit seven-vertex outside-incidence completion gives nine slope rows
+of size seven, one total deficiency unit, and a selected minimum pair union
+`W` of size 12. All 36 pair unions are at least 12, pair intersections are
+at most two, and the bad-overlap value is `2>1`.
+
+Since the residual width is three, `P=X`, `Q=X^2+1` are an allowed rational
+certificate. Exact rank computation gives
+
+```text
+rank(M_W)=11<12,
+```
+
+with a one-dimensional all-nonzero kernel. This falsifies any attempt to
+promote the earlier random zero-exception profile into an incidence-only
+full-rank theorem.
+
+## Diagnosis and repair
+
+The witness is not an actual Hankel pencil: its locator coefficient values
+do not extend to `X`-degree seven. The Cycle-62 rows detect this exactly:
+
+```text
+rank([M_W;E_W])=12.
+```
+
+The proved node
+`rate_half_bivariate_incidence_only_rational_trace_route_fence` therefore
+redirects the official proof toward the strengthened matrix rather than
+killing the bivariate route. The construction used one deterministic 256 MB
+Modal task and has two standard-library local replayers. No critical status
+changes.
