@@ -23,5 +23,5 @@ split-and-exact points must be counted. No critical status changes: aggregate
 split-point and chronology-valid owner/profile control remain open.
 
 The identical theorem is exported in upstream PR #1151 at pinned head
-`5b372a30324b6356f4f42d8b8946efb4cba92a94`; the PR remains an open
+`5b372a304d414d7a8bddd057c448b1054899048d`; the PR remains an open
 mergeable draft.

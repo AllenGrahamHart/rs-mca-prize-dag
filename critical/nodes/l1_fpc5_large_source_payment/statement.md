@@ -72,6 +72,19 @@ every `t`. The target must count the coordinates whose reconstructed locator
 splits and passes the exact guards, aggregated without summing independent
 owner pencils.
 
+The proved node `l1_fpc5_tpetal_anchor_pade_chart` makes that reconstruction
+explicit. If `I=W^(-1) mod F`, then
+
+```text
+G_H=F+rem_F(-Lambda H I),
+B_H=(G_H W+Lambda H)/F.
+```
+
+The primitive condition is an exact root-local nonvanishing test in `H` and
+`H'`. Hence the remaining fixed-cell object is a typed primitive
+split-remainder maximum; it is not an implicit coefficient or pair-counting
+problem.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three

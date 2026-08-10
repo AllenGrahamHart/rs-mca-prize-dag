@@ -25104,7 +25104,7 @@ critical status changes: a dimension-uniform split-point bound and aggregate
 owner/profile payment are still required.
 
 Upstream custody is PR #1151, pinned at
-`5b372a30324b6356f4f42d8b8946efb4cba92a94`. The companion theorem is
+`5b372a304d414d7a8bddd057c448b1054899048d`. The companion theorem is
 exported there with identical field, unit, quantifier, and nonclaim; the PR
 remains an open mergeable draft.
 ### 2026-08-10 general-t FPC5 anchor coordinate
@@ -25132,5 +25132,24 @@ split-and-exact points must be counted. No critical status changes: aggregate
 split-point and chronology-valid owner/profile control remain open.
 
 The identical theorem is exported in upstream PR #1151 at pinned head
-`5b372a30324b6356f4f42d8b8946efb4cba92a94`; the PR remains an open
+`5b372a304d414d7a8bddd057c448b1054899048d`; the PR remains an open
 mergeable draft.
+### 2026-08-10 general-t FPC5 Pade chart
+
+The new PROVED node `l1_fpc5_tpetal_anchor_pade_chart` prints the exact
+inverse of the arbitrary-`t` anchor coordinate. With
+`I=W^(-1) mod F`, every coordinate `H` reconstructs as
+
+```text
+G_H=F+rem_F(-Lambda H I),
+B_H=(G_H W+Lambda H)/F.
+```
+
+The theorem also gives the exact root-local primitive guard, including the
+derivative condition at roots common to `F` and `G_H`. This aligns every
+surviving large-source fixed cell with the primitive determinant/remainder
+language already available in the rate-half `t=3` LS6 branch.
+
+No critical status changes. The fixed-cell obstruction is now sharply one
+split-remainder maximum with printed primitive guards; a dimension-uniform
+bound and chronology-valid aggregation remain open.
