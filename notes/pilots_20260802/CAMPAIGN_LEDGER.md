@@ -4898,3 +4898,36 @@ sampler capped at T = 3); (EQ) converse sampled not proved. No
 status flips; neither budget closes. Files:
 notes/pilots_20260810/rh_type2_stratum/ (REPORT, FABLE_AUDIT,
 d1-d4 scripts + results, 8 census cells).
+
+## ROUND 31 BANK 2/4 — rh_overlap_cap (2026-08-10, coordinator)
+
+**BANKED — THE ROUND-29 NAMED OBJECT IS REFUTED: the safe-half
+"one inequality" (pairwise-overlap cap below a^2/n at sigma = 2^34)
+is FALSE three ways. (1) OBJECT SLIP (CATCH-24C on my own round-29
+bank): T5's constant k-1 is the SINGLE-WORD list cap; the column-far
+core is a CODEWORD-PAIR agreement whose ceiling is a-1 — banked
+twice in-repo ((AP3); the KEY LEMMA graded consequence) and bigger
+by exactly 2^34. (2) ATTAINMENT — LB1 (new, unconditional,
+coordinator hand-verified): at every posed row q > 2^167,
+B_ca^far(a) >= n-a+1 via the maximal-core pencil (one full T1-line,
+r+1 slopes, every overlap exactly a-1, unique witnesses);
+exhaustively verified at (8,4,17) over all 46,656 witness
+assignments; strengthens with scale. (3) SELF-DEFEAT — a-1 > a^2/n
+for ALL 2 <= a <= n-2: the route is dead on the whole bracket. The
+0.999748 "they end together" was an identity artifact (true ratio
+1.032006). POSITIVE YIELD: first-ever LOWER bound
+B_ca^far(k+2^34) >= 2^39.9773 (88.02 bits under budget); the banked
+T <= r+1 is TIGHT (= B_ca^far(n-r)); B_ca^far(3n/4) >= 2^39+1
+EXACTLY — budget 2^39 unattainable at the bracket top. S3: T3's
+hypothesis forces s > 2^39-2^27 (empty on 50.78% of the s-range),
+and the round-29 21,832-census T3 validation is likely largely
+VACUOUS (silent guard skip — flagged inference, skip fraction
+unmeasured, cheap follow-up). RESIDUALS OF RECORD: R-LINEDEGREE
+(== the banked T2/(RR2) bottleneck), R-SECONDLEVEL (~2^10 farther),
+R-UPPERBOUND (the only remaining safe-half shape, target window
+[2^39.9773, 2^128)). Forced corrections applied: inline FALSE
+marker on T5 + the round-31 addendum on crossing_location (chain
+green). The pilot registered the same wrong cap it was auditing and
+caught itself — scored as its own miss. No status flips. Files:
+notes/pilots_20260810/rh_overlap_cap/ (REPORT, FABLE_AUDIT, d1-d4
+scripts + results).

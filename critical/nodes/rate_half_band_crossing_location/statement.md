@@ -363,6 +363,8 @@ theta = a^2/n - 1); T4 elementary thresholds (one-line at
 a >= 5n/6; Fisher-finite at a/n > 0.8202 — both worse than the
 banked 3n/4, reported as re-derivation).
 
+**[THE FOLLOWING T5 PARAGRAPH IS FALSE — round-31 rh_overlap_cap refutation, coordinator-verified against the banked (AP3) and KEY-LEMMA caps and the replayed LB1 construction; see the round-31 overlap-cap addendum below. The cap constant k-1 was the WRONG OBJECT (single-word list cap), the correct column-far ceiling is a-1 and it is ATTAINED; the 0.999748 coincidence is an artifact; the named next object does not exist at any a in the open bracket.]**
+
 **T5 — THE EXACT OBSTRUCTION (the number to carry forward):**
 GAP_FISHER = (k-1) - a^2/n = 532,441,726,975 vs the open bracket
 532,575,944,704 — **ratio 0.999748. The open bracket IS the region
@@ -568,3 +570,65 @@ the algebra and independently re-derived every ledger number):
   unexercised (the census sampler never reached T > 3); (EQ)'s
   converse is sampled (121/121), not proved. No status flips;
   neither budget closes.
+
+## Round-31 overlap-cap addendum (2026-08-10, coordinator-audited): THE SAFE-HALF ROUTE IS DEAD; LB1 REPLACES IT
+
+The round-31 rh_overlap_cap pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_overlap_cap/) REFUTED the round-29 T5 named
+object. Coordinator verification: the banked cap anchors quoted
+verbatim ((AP3) s+t-r >= 1; the KEY-LEMMA graded consequence — max
+joint pair agreement <= A-2, i.e. overlap <= a-1), the LB1 counting
+argument hand-verified, d1/d4 replayed exactly.
+
+- **OBJECT SLIP (CATCH-24C, on the round-29 bank):** T5's cap
+  constant k-1 is the SINGLE-WORD list cap (Agr(z,c_i) ^ Agr(z,c_j)
+  subset Agr(c_i,c_j)) — the wrong object. The T1 core E_P of a
+  column-far pair is a CODEWORD-PAIR joint agreement; its correct
+  ceiling is a-1, banked twice ((AP3); KEY LEMMA), and a-1 exceeds
+  k-1 by exactly 2^34 at the razor.
+- **THE CEILING IS ATTAINED — LB1 (new, unconditional):** for the
+  razor row and every a in the open bracket, B_ca^far(a) >= n-a+1 =
+  r+1: an explicit column-far pair (d_2 = 1_T, d_1 = -lam_j on T)
+  whose bad-slope set is one full T1-line of r+1 slopes, EVERY
+  pairwise overlap exactly a-1, unique witness each. Admissibility
+  (LB1-C): n < (a-k-1) log2 q — holds at EVERY row of the widened
+  quantifier q > 2^167 (margin 670,014,898,009 at the bottom; fails
+  only below ~2^129). Verified exhaustively at (8,4,17) (46,656
+  witness assignments — the hypothesis fails under every one) and
+  at 6 more cells over 3 scales; the refutation STRENGTHENS with
+  scale (RATIO_FAR -> 1.969231 at the razor).
+- **SELF-DEFEAT:** a-1 > a^2/n for every 2 <= a <= n-2 — no cap
+  below a^2/n exists at ANY agreement in the open bracket. The T3
+  closure route (the "89 bits margin") is dead on the whole bracket,
+  not just at sigma = 2^34.
+- **THE 0.999748 IS AN ARTIFACT:** GAP_ALG = BRACKET - 1 -
+  sigma^2/(2k) evaluated where sigma^2/(2k) = 2^27 is negligible;
+  the two ends differ by 94,323,185,676 and with the correct cap
+  the ratio is 1.032006. "They end together" is FALSE.
+- **WHAT LB1 BUYS (the positive yield):** (i) the campaign's FIRST
+  lower bound on B_ca^far at the safe index: B_ca^far(k+2^34) >=
+  1,082,331,758,593 = 2^39.9773 — 88.02 bits below the 2^128
+  budget; (ii) the banked upper bound T <= r+1 is TIGHT on its
+  whole proved domain (B_ca^far(n-r) = r+1 exactly); (iii)
+  B_ca^far(3n/4) >= 2^39+1, matching the D4-precision-fix budget
+  EXACTLY — the residual budget 2^39 is UNATTAINABLE at a = 3n/4
+  (the "one slope past the provable incidence limit" is a real
+  slope, not proof slack).
+- **S3 (new):** T3's hypothesis FORCES every bad slope to error
+  weight s > a(n-a)/n = 2^39-2^27 — empty on 50.78% of the s-range;
+  one slope at agreement >= 3n/4 + 2^27 kills it outright. And the
+  round-29 "0 violations / 21,832 configurations" validation is
+  structurally consistent with the T3 test being SKIPPED on most of
+  the census (the guard theta*n < a*a fails on the planted
+  maximal-core family); the skip fraction was NOT measured — flagged
+  inference, not a claim.
+- **RESIDUALS OF RECORD for the safe half:** R-LINEDEGREE (bound
+  T1-lines through one slope by 2^88 — exactly the banked T2/(RR2)
+  bottleneck, unmoved); R-SECONDLEVEL (the second Fisher level is
+  ~2^10 FARTHER than the first — not the cheaper door);
+  R-UPPERBOUND (the only remaining shape: a code-theoretic upper
+  bound with target window [2^39.9773, 2^128) at sigma = 2^34).
+- **CAVEATS LIVE:** LB1's razor step is a verified human proof
+  (machine-checked arithmetic, exhaustive only at small cells);
+  (16,8,9) returned a sampled negative (zero power); (16,8,10) not
+  measured. No status flips; NEITHER half of RH-AC closes.
