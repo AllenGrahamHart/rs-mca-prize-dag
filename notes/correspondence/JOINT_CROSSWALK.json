@@ -2,9 +2,9 @@
  "schema": "joint-crosswalk-v1",
  "policy": "Additive alias layer (maintainer-approved 2026-07-24): primary node ids NEVER rename; conversation prefers upstream labels; Lean namespace adopts upstream conventions; IDENTICAL requires a machine-verified chain at its stated scope; ANALOGY_ONLY is never silently promotable; aliases evolve with upstream vocabulary, re-pinned per wave.",
  "provenance": {
-  "our_sha": "7f02c2b78",
+  "our_sha": "052061e85",
   "his_sha": "93fba1be",
-  "note": "re-pinned 2026-08-06 after the SP quotient-sieve harvest and linear translated-divisor interface; previous his_sha fde7d56d was a fork branch head, not upstream main"
+  "note": "re-pinned 2026-08-10 after canonical round 31 and the rate-half band conditional-status audit; upstream main remains 93fba1be"
  },
  "rows": [
   {
@@ -976,12 +976,12 @@
    "nonclaims": [
     "the Q <-> band_closure bridge is NOT an identification and is never silently promotable"
    ],
-   "status_ours": "TARGET",
+   "status_ours": "CONDITIONAL",
    "status_his": "open",
    "lean": null,
    "provenance": {
-    "our_sha": "da8b9a85",
-    "his_sha": "b13de811"
+    "our_sha": "052061e85",
+    "his_sha": "93fba1be"
    }
   },
   {

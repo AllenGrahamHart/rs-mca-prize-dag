@@ -33,10 +33,18 @@ The parameters lie outside the ordinary Johnson range, so this is not a
 hidden standard list-decoding closure. It identifies precisely what a
 source-core-specific or cofactor-aware list theorem would need to prove.
 
+The live upstream PR #1125 determinant atlas transports exactly after this
+shortening. Its balance parameters become `w=ell-1`, `omega=2ell-3`, and
+`s=ell-2`. For one anchor it recovers every common-error owner
+`D=gcd(F_0,F)` by one determinant gcd and pays each fixed owner by the two
+explicit bounds in `(SH8)`; the maximal-intersection owner has size at most
+two. This removes fixed-pencil and coefficient multiplicity from the sharp
+frontier. The unpaid object is the aggregate number of realized gcd owners.
+
 The critical node remains TARGET. A closure must still:
 
-1. prove a polynomial count for the sharp marked maps, or an equivalent
-   structured shortened-list theorem;
+1. coalesce the sharp realized gcd owners using the marked rational-map or
+   cofactor structure, without summing all divisors of one anchor;
 2. handle every nonsharp `s` cell in the uniform root-rich split-pair locus;
 3. retain the six touched-pair owners and avoid a sum over background sets;
 4. compose through first-layout domination without reintroducing source

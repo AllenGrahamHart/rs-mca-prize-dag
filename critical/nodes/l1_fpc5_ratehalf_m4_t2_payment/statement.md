@@ -98,6 +98,11 @@ agreement=3ell-2,   radius=2ell-3.                    (RH2)
 The latter is outside the ordinary Johnson range and is not itself a
 payment. Together the descriptors offer two non-equivalent attack routes:
 marked rational-map incidence and a structured shortened-list theorem.
+Specializing the proved balanced-pencil determinant atlas to (RH2) pays
+every fixed common-error gcd owner and caps the maximal-intersection owner by
+two. The unresolved sharp count is therefore the aggregate over realized gcd
+owners, with the marked cofactor guards retained; it is not a fixed-pencil or
+coefficient-multiplicity problem.
 
 Prove one disjoint aggregate payment of the remaining root-rich split-pair
 locus over the six touched pairs and all defect/background cells in this

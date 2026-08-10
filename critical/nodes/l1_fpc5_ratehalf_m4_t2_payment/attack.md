@@ -28,4 +28,7 @@
    domain, or the shortening to `RS[C,2ell-1]` at agreement `3ell-2`. The
    latter lies beyond the ordinary Johnson radius, so importing Johnson alone
    is not progress; any list theorem must use the source-core or cofactor
-   structure retained by the former descriptor.
+   structure retained by the former descriptor. The balanced determinant
+   atlas already pays each fixed `D=gcd(F_0,F)`, including a cap of two at
+   maximal intersection. Attack coalescence of the realized `D` owners; do
+   not re-prove the fixed-pencil bound or sum all divisors of `F_0`.

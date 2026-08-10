@@ -10,3 +10,7 @@
    and upper-bound interface are claimed.
 5. The displayed radius is outside the asymptotic ordinary Johnson range;
    no standard Johnson payment is smuggled into the node.
+6. The balanced determinant theorem applies to the complete shortened exact
+   shell, so its bounds remain valid for the filtered FPC5 subset.
+7. `(SH8)` is per fixed `D=gcd(F_0,F)`. The number of realized divisors is
+   the remaining aggregate obstruction and is not charged independently.

@@ -31,4 +31,31 @@ floor(2(3ell-4)/3)=2ell-3.
 
 Finally, `P` is recovered uniquely from `T` by `(SH2)`, so the map is
 injective. The remaining FPC5 guards can only shrink the shortened list.
-QED.
+
+For the determinant specialization, substitute the parameters in `(SH5)`
+into the balance definitions of
+`l1_balanced_pencil_anchor_determinant_atlas`:
+
+```text
+w=m'-k'=ell-1,
+omega=n'-m'=2ell-3,
+s=omega-w=ell-2.
+```
+
+Thus `s>=1` and the balanced-shell theorem applies. Its deficiency variable
+is `j=s-1-deg D=ell-3-deg D`, proving `(SH7)`. Its determinant degree is at
+most `s-1=ell-3`. Substituting `m'=3ell-2` and
+`h=w+1+j=ell+j` into its two fixed-owner bounds gives
+
+```text
+floor( binom(m',j+1)/binom(h,j+1) )
+ =floor( binom(3ell-2,j+1)/binom(ell+j,j+1) ),
+
+floor( binom(m',r)/(h-r+1) )
+ =floor( binom(3ell-2,r)/(ell+j-r+1) ),
+```
+
+which proves `(SH8)`. At `j=0` the realized projective rank is one and the
+moving-root bound is `floor(m'/(w+1))=floor((3ell-2)/ell)=2`, proving
+`(SH9)`. The atlas explicitly retains the sum over the possible gcd owners,
+so no aggregate bound follows. QED.

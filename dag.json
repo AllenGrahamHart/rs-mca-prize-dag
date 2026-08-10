@@ -29708,7 +29708,7 @@
    "title": "Sharp rate-half FPC5 cells shorten to one explicit RS list instance",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "After fixing the full background and two touched petals, every exact sharp rate-half M=4,t=2 contributor injects into RS[C,2ell-1] on |C|=5ell-5 core points, at exact agreement 3ell-2 and radius 2ell-3=floor(2(N-K_0)/3). The FPC5 cofactor, untouched-petal, and first-owner conditions remain filters. This is an exact shortening interface, not a polynomial list-size bound.",
+   "statement": "After fixing the full background and two touched petals, every exact sharp rate-half M=4,t=2 contributor injects into RS[C,2ell-1] on |C|=5ell-5 core points, at exact agreement 3ell-2 and radius 2ell-3=floor(2(N-K_0)/3). The balanced determinant atlas then recovers each common-error gcd owner and gives the exact fixed-owner bounds (SH8), including a cap of two at maximal intersection. The FPC5 cofactor, untouched-petal, and first-owner conditions remain filters. Aggregate gcd-owner coalescence remains open.",
    "refs": [
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/proof.md",
@@ -29716,7 +29716,8 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/dependency_subdag.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/audit.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/result.md",
-    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/provenance.md"
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/provenance.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/upstream_crosswalk.md"
    ],
    "upstream": {
     "source": "rs-mca split-locator flatness and list-completion route",
@@ -61810,6 +61811,11 @@
    "from": "f_termination_mds",
    "to": "f_imgfib_consumer_descriptor",
    "kind": "ev"
+  },
+  {
+   "from": "l1_balanced_pencil_anchor_determinant_atlas",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "kind": "req"
   },
   {
    "from": "l1_core_defect_reduction",
