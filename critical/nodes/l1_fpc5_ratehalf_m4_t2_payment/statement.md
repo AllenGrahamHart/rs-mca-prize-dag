@@ -104,6 +104,20 @@ two. The unresolved sharp count is therefore the aggregate over realized gcd
 owners, with the marked cofactor guards retained; it is not a fixed-pencil or
 coefficient-multiplicity problem.
 
+The cross-cofactor coordinate makes that aggregate explicit. Relative to one
+exact anchor,
+
+```text
+E=(A_1A'_2-A'_1A_2)/L_0,       deg E<=ell-3             (RH3)
+```
+
+is an affine coordinate on the complete guarded monic slice and satisfies
+`gcd(E,F_0)=gcd(F,F_0)` for every distinct exact contributor. Hence all
+fixed owners are gcd strata of one low-degree coordinate body. Closure must
+bound the coordinates whose reconstructed locator splits and passes the
+marked-map guards; neither background-set enumeration nor independent
+fixed-owner pencils remain legitimate missing steps.
+
 Prove one disjoint aggregate payment of the remaining root-rich split-pair
 locus over the six touched pairs and all defect/background cells in this
 fixed source. Internal tangent, quotient, background-root, and

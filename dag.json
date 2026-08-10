@@ -29662,6 +29662,7 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/statement.md"
@@ -29683,6 +29684,27 @@
     "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census.py",
     "notes/pilots_20260807/fpc5_ratehalf_m4_t2_small_census_result.json"
    ]
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "title": "The sharp FPC5 cofactor cross determinant is an exact gcd-owner coordinate",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Fix one exact sharp rate-half M=4,t=2 anchor. Dividing its cross-cofactor determinant with any guarded monic point by the forced background locator gives a degree-at-most-(ell-3) polynomial E. This is an affine bijection from the complete guarded monic slice, and for every distinct exact contributor gcd(E,F_0)=gcd(F,F_0). Thus E directly realizes the balanced determinant common-error owner. The split-point and aggregate owner count remain open.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/provenance.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1125 balanced-pencil anchor determinant atlas",
+    "relation": "FPC5_DIRECT_COORDINATE_SPECIALIZATION"
+   }
   },
   {
    "id": "l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence",
@@ -61919,6 +61941,11 @@
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
    "kind": "req"
   },
@@ -61953,6 +61980,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
@@ -61961,6 +61993,11 @@
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",

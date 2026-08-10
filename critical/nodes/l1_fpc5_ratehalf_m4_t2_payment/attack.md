@@ -31,4 +31,7 @@
    structure retained by the former descriptor. The balanced determinant
    atlas already pays each fixed `D=gcd(F_0,F)`, including a cap of two at
    maximal intersection. Attack coalescence of the realized `D` owners; do
-   not re-prove the fixed-pencil bound or sum all divisors of `F_0`.
+   not re-prove the fixed-pencil bound or sum all divisors of `F_0`. Use the
+   exact coordinate `E=(A_1A'_2-A'_1A_2)/L_0`: it parametrizes the whole
+   guarded monic body and recovers `D` by `gcd(E,F_0)`. The next theorem must
+   constrain which `E` reconstruct split, exact marked maps.

@@ -15,6 +15,8 @@ l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map
   [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening
   [PROVED] --------------------------------------------------ev----+
+l1_fpc5_ratehalf_m4_t2_sharp_cross_cofactor_coordinate
+  [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension
   [PROVED] --------------------------------------------------ev----+
 l1_fpc5_ratehalf_m4_t2_joint_support_distance

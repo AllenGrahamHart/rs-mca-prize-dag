@@ -41,6 +41,19 @@ explicit bounds in `(SH8)`; the maximal-intersection owner has size at most
 two. This removes fixed-pencil and coefficient multiplicity from the sharp
 frontier. The unpaid object is the aggregate number of realized gcd owners.
 
+The direct FPC5 coordinate for this aggregate is also proved. Relative to one
+anchor, the forced background divides the cofactor cross determinant and
+
+```text
+E=(A_1A'_2-A'_1A_2)/L_0,       deg E<=ell-3
+```
+
+is an affine coordinate on the whole guarded monic slice. For every distinct
+exact contributor, `gcd(E,F_0)=gcd(F,F_0)`. Thus all owners are gcd strata
+of one explicit low-degree coordinate family. The live theorem is now a
+split/marked-point bound on this family, not a reconstruction, fixed-owner,
+or background-root problem.
+
 The critical node remains TARGET. A closure must still:
 
 1. coalesce the sharp realized gcd owners using the marked rational-map or
