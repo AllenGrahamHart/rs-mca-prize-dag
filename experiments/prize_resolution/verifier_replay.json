@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify.py",
-      "seconds": 0.015391,
+      "script": "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify.py",
+      "seconds": 0.362261,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_GRS_SHELL_CONSTANT_WEIGHT_SHORTENING_CAP_PASS checked_shells=8 max_depth=4\n"
+      "stdout_tail": "RH_TYPE2_FR_INCIDENCE_ROUTE_FENCE_PASS m=64 N=1024 T=257 min_union=447 min_spend=66 max_W_intersection=189 two_m=128 violation=61\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify_audit.py",
-      "seconds": 0.01392,
+      "script": "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify_audit.py",
+      "seconds": 0.073674,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_GRS_SHELL_CONSTANT_WEIGHT_SHORTENING_CAP_AUDIT_PASS direct_rows=8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify.py",
-      "seconds": 2.228177,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_GRS_SHORTENING_OFFICIAL_PREFIX_PAYMENT_PASS rate8_cells=126 rate16_cells=374 blocked_scales=4\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify_audit.py",
-      "seconds": 2.229728,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_GRS_SHORTENING_OFFICIAL_PREFIX_PAYMENT_AUDIT_PASS prefixes=2 blocked_scales=4 mutation_controls=1\n"
+      "stdout_tail": "RH_TYPE2_FR_INCIDENCE_ROUTE_FENCE_AUDIT_PASS rows=257 points=1024 min_union=447 min_spend=66 max_meet=189 gap=61\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

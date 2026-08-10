@@ -763,3 +763,31 @@ The previous upper bracket was `3n/4=1649267441664`; the maximal gain is
 `86,139,268,540` agreement steps. This is a real bracket movement but no
 status flip: Haboeck supplies no adjacent-unsafe witness at `a_m-1`, and the
 gap to the proved lower endpoint `k+2^34` remains large.
+
+## Type-2 FR incidence-only route fence (2026-08-10)
+
+The proved node `rate_half_type2_fr_incidence_only_route_fence` answers the
+Round-31 `(FR)` route question negatively at the level of the currently
+banked support inequalities. At the power-of-two scale `m=64`, an explicit
+quartic-difference-family set system satisfies
+
+```text
+N=16m, rho=4m-1, T=rho+2, a=7m-1,
+sum_x(m-d_x)=1,
+min pair union=a,
+min |S_gamma\W|=m+2,
+```
+
+while
+
+```text
+max |S_gamma intersect W|=3m-3=189>128=2m.
+```
+
+Thus saturation, `(OV)`, and the individual `(C2)` distance spend cannot by
+themselves prove the max-vs-mean upgrade. This is not a realizable
+Hankel-pencil counterexample and does not refute algebraic `(FR)`. It removes
+the incidence-only continuation: the positive residual-(ii) attack must now
+use the generalized locator polynomials `f_gamma`, the common syndrome
+pencil, or the apolar Hankel equations. The `9/4` official residual and both
+crossing budgets remain open.

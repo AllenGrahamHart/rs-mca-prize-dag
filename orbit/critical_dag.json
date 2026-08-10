@@ -939,7 +939,7 @@
   {
    "id": "rate_half_band_crossing_location",
    "label": "UNPROVED",
-   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at every admissible q > 2^167 within the proved bracket"
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row"
   },
   {
    "id": "rate_half_cyclic_rotated_prefix_floor",

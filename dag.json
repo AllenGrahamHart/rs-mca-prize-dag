@@ -28996,21 +28996,23 @@
   },
   {
    "id": "rate_half_band_crossing_location",
-   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at every admissible q > 2^167 within the proved bracket",
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "DECOMPOSITION CHILD 2 of rate_half_band_closure (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md). THE POSE OF RECORD (RH-AC), adopted from the round-27 draft with the decomposition ratification: at every admissible row (n = 2^41, k = 2^40, q prime, q = 1 mod n, 2^167 < q < 2^256 \u2014 QUANTIFIER WIDENED 2026-08-10 from razor-only, executing the ratified tiling intent after the round-28 mca_safe_rewire audit proved the children did not tile the parent: rows q in [2^167, 2^255.9] were located by nothing; below 2^167 the crossing is PROVED by the wave-10 staircase; the razor slice remains the hard corner), locate the exact adjacent crossing a_RH(q) of (RH-ADJ) \u2014 B_mca(a_RH) <= B*(q) = floor(q/2^128) < B_mca(a_RH - 1) \u2014 within the PROVED bracket a_RH in [k + 2^34, 3n/4]. The binding term is S_sparse ALONE: B_ca^far is free at razor rows (B* ~ 2^128 >> n, the Hankel layer discharges the far-CA half), so the open content is exactly min{a : S_sparse(a) <= B*}. NO RANDOM-WORD QUANTITY MAY APPEAR IN THE STATEMENT (the round-27 forced correction: FLOOR v2 fell to its own falsifier via the max-vs-mean type error). Named candidate endpoints, NO discriminating evidence held: (RH-AC-lo) a_RH = k + 2^34 (the quotient floor is tight) vs (RH-AC-hi) a_RH = 3n/4 (the half-distance pincer HD1 is tight); the determined-region ratio extrapolation (~2^38.9, near -hi) is a heuristic across a mechanism change, labelled as such. KNOWN STRUCTURE AT CREATION (round 27): the lower end is counting-exhausted (the next floor rung is 11.87 bits short with a provably tight normalizer; the conversion goes lossless as q grows; counting cannot cross n/log2 q); the upper end is gated by residual budget 2^39+1, itself diagnosed to the unit (one slope past the provable incidence limit; evidence-grade TRUE on the forced prime-field axis; proof needs the APOLAR ORIGIN); closing that budget extends the bracket top from q >= 2^169 to all q > 2^167. The supply-side flank is censused (THEOREM CAP slack-0-scoped; the arbitrary-word maximum's scaling is the one undetermined number, decided by the named Modal-class n=32 maxscan). HABOECK-JOHNSON BRACKET (2026-08-10): the proved quadratic MCA theorem now replaces 3n/4 by a_94=1563215236073 on every razor row q>2^255.9 and by a_95=1563128173124 once q>=330298791207625937408605578064099942258*2^128. This is safe-side evidence only; the exact crossing and adjacent unsafe half remain open.",
-   "falsifier": "Pre-registered (round 27, with power controls): F1 \u2014 push the quotient-remainder floor's razor reach beyond 2^34 - 1 (high power: the constant moved 2^33 -> 2^34 in one wave; fires against (RH-AC-lo)). F2 \u2014 exhibit one received word y and razor row with N(y, k + 2^34; q) > floor(q/2^128) (fires against (RH-AC-lo) from the safe side). F3 \u2014 ZERO-POWER DECLARATION: any random-word or window-law count check at q < 2^128 has NO power over this pose (it measures the mean object; this is the guard that would have prevented the FLOOR v2 mis-banking).",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, the non-minimum type-2 residual is capped at 9/4 times budget by NEWCAP; an explicit incidence countermodel now proves that saturation, pairwise union OV, and individual distance spend C2 alone cannot supply the required FR max-intersection upgrade. Any positive continuation must use the generalized locator polynomials, common syndrome pencil, or Hankel/apolar equations.",
+   "attack_surface": "Prioritize a genuinely algebraic type-2 theorem using the GRS locator polynomials f_gamma or the Hankel pencil; do not continue the incidence-only FR route. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
-   "notes": "Created 2026-08-09 in the user-directed band decomposition; quantifier widened 2026-08-10 (see statement). Consumer bars (CATCH-24C, ROUND-28 CORRECTED): adjacency_closing needs the LOCATED crossing (both halves, adjacent indices \u2014 the moving bar); mca_safe needs the safe half AT THE LOCATED INDEX \u2014 the 2026-08-09 reading (a_safe free, HD1 discharges at q >= 2^169) is WITHDRAWN per the round-28 mca_safe_rewire audit (a_safe is pinned by mca_unsafe stating its claim at a_safe - 1 and by mca_grand exhibiting the crossing; B_mca nonincreasing makes a bracket end bound nothing at the crossing; the premise-weakening surgery is RETIRED AS UNSOUND); list_adjacency_closing no longer consumes this content. Round-28 anchors: the apolar-origin theorem (the residual proof target; its payoff covers the [2^167, 2^167+2^129) budget interval of the widened quantifier); the K5 re-mint.",
    "refs": [
-    "notes/band_decomposition_plan_20260809.md",
+    "critical/nodes/rate_half_band_crossing_location/statement.md",
     "critical/nodes/rate_half_band_closure/statement.md",
-    "background/nodes/rate_half_half_distance_safe_bracket/statement.md",
     "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/statement.md",
-    "background/nodes/rate_half_quadratic_exact_range/statement.md",
-    "notes/pilots_20260809/pincer_formalization/REPORT.md",
-    "notes/pilots_20260809/staircase_extension/REPORT.md"
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
+    "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
+    "notes/pilots_20260810/rh_overlap_cap/REPORT.md",
+    "notes/pilots_20260810/rh_e_axis_audit/REPORT.md",
+    "notes/pilots_20260810/rh_transport_dictionary/REPORT.md"
    ]
   },
   {
@@ -35624,6 +35626,24 @@
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_pin.json",
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify.py",
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_type2_fr_incidence_only_route_fence",
+   "title": "Incidence-only route fence for the rate-half type-2 FR bound",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the power-of-two scale m=64 there is an explicit set system with N=16m, rho=4m-1, T=rho+2, a=7m-1, exact saturation deficit sum_x(m-d_x)=1, every pair union at least a, and every individual outside-W spend at least m+2, but max_gamma |S_gamma intersect W|=3m-3>2m. Thus the incidence/cardinality inputs used by NEWCAP do not imply the proposed FR max-intersection bound. The witness is not a realizable Hankel-pencil counterexample; any positive FR theorem must use additional GRS/apolar algebra.",
+   "refs": [
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/proof.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/claim_contract.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/audit.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/result.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/provenance.md",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify.py",
+    "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify_audit.py"
    ]
   },
   {
@@ -62984,6 +63004,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_type2_fr_incidence_only_route_fence",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "rate_half_crossing_multiscale_haar_norm_router",
    "kind": "req"
@@ -68022,6 +68047,11 @@
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_type2_fr_incidence_only_route_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_unique_decoding_ca_mca_scope_fence",

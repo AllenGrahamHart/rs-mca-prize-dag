@@ -1,0 +1,22 @@
+{
+  "schema": "rh-type2-fr-incidence-witness-v1",
+  "status": "witness",
+  "m": 64,
+  "field_order": 257,
+  "generator": 3,
+  "N": 1024,
+  "rho": 255,
+  "T": 257,
+  "a": 447,
+  "deficit": 1,
+  "minimum_pair_union": 447,
+  "minimum_spend": 66,
+  "maximum_intersection_with_W": 189,
+  "maximizers": [0],
+  "two_m": 128,
+  "violation": 61,
+  "trials": 1,
+  "W_bitset_hex_little_endian": "03ee7ab1021cd468a5a30538d382a6c599cda34b0682a1d481663435c6c423c66429950317fccc373b9802a725ca5bc11821716ae13040ce4c7cdb099d211426b2f1131f0c220ba4e0f2e881d200bdc86cd40125b8442a61f4f1b039f113cac1f0026c1c59d0cac0c1f63698137004209f6f7e98a86ea5a2be08e41b619c590b",
+  "W_sha256": "72155c521c66909f8bd117d0a557a67e8f33920f5d88c4d84e03d72e87db944f",
+  "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-bka0pnz6NRrCzksbZzo2AX"
+}
