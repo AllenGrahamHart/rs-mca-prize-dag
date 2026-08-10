@@ -4625,3 +4625,38 @@ ABF26-Przemek question / FLAG E adjudication); the supply side
 moved to the (t,M) transport dictionary. Two banked-line
 corrections and one refuted transport this round — the audit
 cadence still catching everything inherited within one round.**
+
+## WAVE 56 — Codex cell-11 uncolored closure (2026-08-10, coordinator audit)
+
+**AUDITED SOUND AND MERGED (exact ac8ccdc33, Codex commits
+d317c461a/77b30b5ea/81f218e38): the repeated-BC/O0b cell-11
+uncolored branch (missing DE+/DF+/EF) is CLOSED at both the generic
+and deployed levels.** Four background PROVED nodes, all four
+primary + hostile verifiers replayed green by the coordinator:
+symmetric function-field tower (8 rows, degree-6/4 bases, chart
+coverage unit-ideal — no guarded point lost), common-kernel
+reconstruction (56/40/40/48 identities; product = B/A, sum^2 =
+lambda*beta^2/A^2), generic-rank atlas (720/720 full rank at x=2,
+census 64:248/96:112 + 96:248/144:112), and the DEPLOYED OFF-GUARD
+PAIR EXCLUSION (nested norms to F_p(x); 288 systems rootless + 432
+systems' 1,584 exceptional occurrences over 126 base values ALL
+excluded by hash-pinned all-pair replay; hostile 7/7). Merge audit:
+purely additive (83 files, 0 deletions; our-side restricted diff
+EMPTY); Codex explicitly cross-checked our rounds 28-29 landing and
+declared no collision — correct. Scope honesty verified: every
+node carries its own non-claims (BE/CF colored cuts, registered
+guard + selected-cofactor boundary loci, cell 14, K3 payment all
+open). FIX-FORWARD (forced, mechanical): tools/verifier_manifest.json
+refreshed via run_all_verifiers.py --refresh-manifest — adds the
+off-guard node's 4 missing entries (Codex gap) AND re-hashes 5
+proof assets our own rounds 23-29 edits had left stale (both sides
+lagged; all 5 provenance-checked to banked commits).
+VERIFIER_MANIFEST_PASS scripts=2961. Full chain green; census
+unchanged 239 = 167/40/32; critical orbit unchanged; no status
+flips. Board effect on the K3 arm: route 433-1b->O0b residual is
+now split-BC product-rank-five (37,800 labels, transport audit
+pending), repeated cells 1/2 (1,680), cell-11 colored BE/CF +
+boundary loci, and the cell-14 duplicate transport. Upstream PR
+#1155 noted by Codex as a compatible fence, not a transplant
+(guard-only closure unavailable; the residual quadratic cover must
+be counted). Codex next: BE/CF cuts + guard boundary.
