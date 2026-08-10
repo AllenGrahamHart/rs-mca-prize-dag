@@ -4244,3 +4244,34 @@ net +1 = the split, not growth). Verify chain green; board r6 note
 in section 12; site republished (orbit view changed: 233 nodes).
 Round-28 anchors standing: the apolar-origin theorem, the mca_safe
 premise-weakening, the Modal n=32 maxscan, wave-55.
+
+## WAVE 55 INTEGRATED (2026-08-10, coordinator) — THE RAW K3 WORKBOARD IS CLOSED; the honest gap became DAG structure
+
+**Merged exact audited pin e9bcad4d9 (merge 9690483a8; 26 commits, 72
+new nodes vs canonical — 66 background PROVED packets + 6 new
+CRITICAL).** Closures: cell 5, role orbit [5,8], the COMPLETE cell-11
+campaign (10 pairing packets -> complete exclusion), [9,10] via the
+[12,13] transport pattern, and the RAW-WORKBOARD COMPOSITION
+(15/15 role cells, 1575/1575 raw labels, 25200/25200 signed principal
+systems, rank-drop branch empty). WORKER-INITIATED CRITICAL FLIP
+(wave-46 precedent, audited SOUND): rate_half_band_structural_surplus
+TARGET -> CONDITIONAL over a new six-node K3 subtree ending in FOUR
+TARGET leaves (eleven-route payment via
+coordinate_positive_remaining_route_payment, orientation assembly,
+allocation inequality, independent review) — the raw close "does not
+itself close K3" per Przemek's distinct-slope definition, and that
+gap is now explicit structure. Codex also repinned the census itself
+(239 = 167/40/32 math, 254 = 179/42/33 submission — my recount
+agrees; provenance comment stacked correctly on mine) and has ALREADY
+STARTED on the eleven routes (the repeated-BC/O0b campaign; two of 13
+router routes closed). REPLAYS: verify_sectioned + verify_prize_dag +
+census PASS at the pin; **141/141 verifier runs PASS** (background
+batch, all 72+6 nodes). PUSH-ON-CLOSE (ratified cadence, same-day
+audit): three new certs on PR #1152 ([5,8], cell 11, the raw close —
+now shipping their own verify.py), all convention-compliant,
+nonclaims mirror the subtree leaves; pinned commits publicly
+reachable with this push. MERGE CONFLICTS: statement.md resolved
+OURS (Codex's harvest predated banks 3/4+4/4 — theirs was a strict
+subset, 0 unique lines); child files THEIRS (the audited flip);
+census THEIRS (stacked provenance); compiled artifacts regenerated.
+Census of record: math 239 = 167/40/32, submission 254 = 179/42/33.
