@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify.py",
-      "seconds": 0.015603,
+      "script": "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify.py",
+      "seconds": 0.017287,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_EXACT_SPEND_CALIBRATION_PASS m=137438953472 p_req=309237645313 intersection_max=240518168574 old_total=618475290622 target=549755813888\n"
+      "stdout_tail": "RH_TYPE2_FR_TWO_TYPE1_FIBRE_SPEND_PASS m=137438953472 baseline_spend=274877906945 required_spend=309237645313 total_cap=618475290624\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify_audit.py",
-      "seconds": 0.021884,
+      "script": "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify_audit.py",
+      "seconds": 0.023534,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_EXACT_SPEND_CALIBRATION_AUDIT_PASS power_two_cases=36 p_req=309237645313 old_residual=68719476734\n"
+      "stdout_tail": "RH_TYPE2_FR_TWO_TYPE1_FIBRE_SPEND_AUDIT_PASS cases=4096 official_total=618475290624 residual=68719476736\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

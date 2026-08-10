@@ -874,3 +874,38 @@ By contrast the old proposal `p=2m+2` gives total cap
 room and an asymptotic factor `9/8`. Future algebraic attacks must target the
 calibrated spend; proving only the old `~2m` max-intersection statement would
 not close the printed counting route.
+
+## Two-type-1 fibre calibration (2026-08-10)
+
+The proved node
+`rate_half_type2_fr_two_type1_fibre_spend_calibration` composes the
+projective-fibre structure of the minimum-support representation pencil with
+the corrected capacity threshold. If the endpoint stratum has two type-1
+slopes, their two fibres each have size at least `3m`. For every type-2
+slope this proves
+
+```text
+outside spend >= 2m+1.
+```
+
+Inserted into the printed outside-capacity ledger, this gives the exact cap
+
+```text
+T<=2+floor(((9m+1)m)/(2m+1))=9m/2,
+```
+
+still an exact factor `9/8` above the target `4m`. Thus the two-type-1
+argument is valid but does not close `(FR)` after the spend correction.
+
+For that same fibre lower bound to reach the required spend `9m/4+1`, the
+two named fibres must total at least
+
+```text
+25m/4,
+```
+
+which is `m/4` above their automatic `6m` baseline. Equivalently, the two
+type-1 root sets must have total size deficit at least `m/4` below `2rho`,
+or all other fibres must carry at most `3m/4-1` points. This is now the exact
+concentration target. It is not yet proved to hold, and no critical status
+changes.

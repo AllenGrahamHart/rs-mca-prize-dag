@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, NEWCAP leaves a 9/4 residual. The old proposed FR spend 2m+2 was under-calibrated: the printed capacity route requires exactly floor((9m+1)m/(4m-1))+1, equal to 9m/4+1 officially. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. General algebraic control remains open.",
-   "attack_surface": "Prioritize a collective theorem for arbitrary realizable shortened-apolar families or the common Hankel pencil, calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2) at the NEWCAP endpoint. Do not continue the incidence-only FR route, prove only the insufficient old 2m+2 target, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, NEWCAP leaves a 9/4 residual. The capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. General algebraic control remains open.",
+   "attack_surface": "Prioritize a theorem forcing two-fibre mass at least 25m/4, extracting at least m/4 additional overlap slack beyond the projective-fibre union bound, or giving a collective inequality for arbitrary realizable shortened-apolar families that bypasses uniform pointwise spend. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29009,6 +29009,7 @@
     "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/statement.md",
     "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
     "background/nodes/rate_half_type2_fr_exact_spend_calibration/statement.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/statement.md",
     "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -35682,6 +35683,26 @@
     "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/provenance.md",
     "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify.py",
     "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+   "title": "Two-type-1 fibre spend calibration",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the worst strict endpoint a=7m-1 with 4 dividing m, the projective fibres of the minimum-support representation pencil imply that two type-1 slopes force outside spend at least 2m+1 for every type-2 slope. The printed capacity ledger then gives only T<=9m/2, not T<=4m. The same fibre lower bound reaches the calibrated closing spend 9m/4+1 exactly when the two named fibres total at least 25m/4, an additional m/4 beyond the automatic 6m baseline. This is a proved route calibration, not the missing concentration theorem.",
+   "refs": [
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/statement.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/proof.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/claim_contract.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/dependency_subdag.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/audit.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/result.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/provenance.md",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify.py",
+    "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify_audit.py",
+    "notes/pilots_20260810/rh_type2_stratum/PREREG.md",
+    "notes/pilots_20260810/rh_type2_stratum/REPORT.md"
    ]
   },
   {
@@ -63052,6 +63073,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "to": "rate_half_crossing_multiscale_haar_norm_router",
    "kind": "req"
@@ -68097,6 +68123,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_type2_fr_exact_spend_calibration",
+   "to": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_type2_fr_incidence_only_route_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -68108,6 +68139,11 @@
   },
   {
    "from": "rate_half_type2_fr_quartic_coset_biform_lift_obstruction",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
