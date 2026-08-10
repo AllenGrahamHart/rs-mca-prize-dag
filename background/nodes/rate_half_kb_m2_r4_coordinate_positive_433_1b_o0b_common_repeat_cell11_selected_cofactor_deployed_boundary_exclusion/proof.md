@@ -17,5 +17,12 @@ Exact `python-flint` arithmetic factors each norm numerator over
 `(1,10)`; the linear factor gives only `x=1`.  For BC+ they are `(3,2)`,
 `(2,4)`, and `(1,4)`; the linear factor gives only `x=-1`.  At `x=1`, six of
 the nine BC- tower guards vanish.  At `x=-1`, four of the six BC+ guards
-vanish.  Thus no norm root lies on the deployed tower chart, and consequently
-the selected cofactor is nonzero at every deployed base-field point.
+vanish.
+
+The parent symmetric-tower theorem includes an independent exact
+chart-coverage certificate: adjoining
+`b*c*(b+c)*(bc-1)*(bc+1)=0` to each original common ideal localized by its
+source/target guard gives the unit ideal.  Therefore no original guarded
+source point lies over `x=1` or `x=-1`.  Since every possible base-field zero
+of the selected cofactor would force one of those two norm roots, no guarded
+base-field source point lies on the selected-cofactor fiber.

@@ -2,13 +2,14 @@
 
 - **status:** PROVED
 - **field:** `F_2130706433`
-- **scope:** all eight deployed symmetric tower charts
+- **scope:** all eight guarded cell-11 common rows
 
-The selected degree-seven product-rank cofactor has no zero at a deployed
-base-field point.  Its norm has only the base-field root `x=1` for BC- and
-`x=-1` for BC+, and the registered tower guards vanish at those roots.
+The selected degree-seven product-rank cofactor has no zero at a guarded
+base-field source point.  Its norm has only the base-field root `x=1` for
+BC- and `x=-1` for BC+.  The parent tower's exact chart-coverage theorem
+excludes both values from every original guarded common-source row.
 
 ## Falsifier
 
-A base-field root of a selected-cofactor norm numerator at which every
-pre-cofactor tower guard is nonzero.
+A guarded common-source point over the base field where the selected
+product-rank cofactor vanishes.

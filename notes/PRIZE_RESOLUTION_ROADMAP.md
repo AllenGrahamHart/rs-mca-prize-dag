@@ -23962,10 +23962,13 @@ deployed base-field roots: 0 across all eight epsilon/sign rows
 Modal app: ap-DLOARcauDwqntFrwdXYTMQ
 ```
 
-This removes the selected-cofactor qualification on the deployed chart.  It
-does not absorb `x=1`/`x=-1` or any other point omitted by the registered
-tower guards.  The cell-11 frontier is therefore the guard complement, then
-cell-14 transport and exact K3 slope/allocation payment.
+The parent symmetric-tower theorem already proves by eight exact unit ideals
+that no original guarded common-source point lies on
+`x*y*(x-1)*(x+1)=0`.  The norm result therefore removes the
+selected-cofactor qualification from every guarded cell-11 source, not only
+from the displayed tower chart.  The cell-11 frontier is now the later guard
+divisors introduced by missing-record reconstruction and outside-resultant
+elimination, then cell-14 transport and exact K3 slope/allocation payment.
 ### 2026-08-10 positive `433-1b/O0a` aggregate and K3 critical split
 
 An audit of the nominally complete raw workboard found one missing ownership
