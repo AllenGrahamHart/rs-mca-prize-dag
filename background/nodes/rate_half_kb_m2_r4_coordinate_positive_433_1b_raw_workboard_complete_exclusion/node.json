@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+    "title": "KoalaBear positive 433-1b raw workboard complete exclusion",
+    "status": "PROVED",
+    "closure": "exact disjoint closure of all 15 role cells, 1575 raw labels, and 25200 signed principal systems, plus the global rank-drop branch",
+    "statement": "The deployed positive 433-1b to O0a raw workboard is empty. The common compiler gives exactly 15 role cells. Nine proved owner packets cover those cells disjointly as [0], [1,2], [3,6], [4,7], [5,8], [9,10], [11], [12,13], [14]. Each cell has 105 missing-record/matching labels and 16 source-sign/target-lane systems per label, so the principal census is exactly 1575 labels and 25200 systems. The global product-rank-drop theorem excludes the complementary branch. This is raw workboard closure only; it does not convert labels to distinct affine slopes, prove balanced-core exhaustiveness or genuine-pencil line counts, close K3, or move the Prize ledger.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell0_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus"},
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment"}
+  ],
+  "refutes": []
+}

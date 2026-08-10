@@ -127,9 +127,11 @@ def main() -> None:
     proved = [node["id"] for node in critical["nodes"] if node["label"] == "PROVED"]
 
     # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
-    # The Conjecture-F scope decomposition adds one proved interface and one
-    # conditional compiler while preserving 28 mathematical leaves.
-    require(len(critical["nodes"]) == 231, "critical orbit size drift")
+    # Conjecture-F scope decomposition adds one proved interface and one
+    # conditional compiler. The 2026-08-09 band split grows the orbit to 233;
+    # the 2026-08-10 K3 exact-payment split adds six explicit red/amber nodes
+    # without changing the 167 proved-node harness census.
+    require(len(critical["nodes"]) == 239, "critical orbit size drift")
     require(len(proved) == 167, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()

@@ -41,6 +41,9 @@
     {
       "to": "rate_half_band_closure",
       "order": 3155
+    },
+    {
+      "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment"
     }
   ],
   "refutes": []

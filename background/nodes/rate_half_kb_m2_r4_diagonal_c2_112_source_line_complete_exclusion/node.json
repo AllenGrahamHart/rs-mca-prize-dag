@@ -159,6 +159,9 @@
     {
       "to": "rate_half_band_closure",
       "order": 4801
+    },
+    {
+      "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
     }
   ],
   "refutes": []

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cells 9-10 complete exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of source role-cell orbit [9,10] by exact duplicate-role transport and global rank-drop exclusion",
+    "statement": "The complete deployed positive 433-1b to O0a route is empty in source role cells 9 and 10. Cell 9 is empty by its exact 105-label assembly. Exchanging common target roles B,C, fixing r and t, flipping the second source sign, gauging D,E,F by sigma_c, and swapping outside BF/CF roles gives an exact bijection of all 105 labels and 1680 signed principal systems between cells 9 and 10. The global product-rankdrop theorem excludes the complementary branch in both cells. No other role orbit or Prize result is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}

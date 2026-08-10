@@ -3,20 +3,25 @@
   "order": 1847,
   "node": {
     "id": "rate_half_band_structural_surplus",
-    "title": "BAND CHILD 1 (K3 ARM): the enumerated structural-supply cap at the deployed rows — the positive-433 workboard completes in distinct affine slopes",
-    "status": "TARGET",
+    "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains",
+    "status": "CONDITIONAL",
     "key": true,
-    "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md). CLAIM: the kb_m2_r4 positive-433 workboard enumeration COMPLETES — every cell and role orbit of the 433-1b board is closed (state at creation: c112 coverage + cells 3, 4, 9, 12-13 CLOSED; cell 5 in flight at 24 labels / 6 orbits; role orbits [5,8], [9,10] second half, [11] open), the label census is CONVERTED to upstream item K3's unit of account (distinct affine slopes, per przchojecki agents.md K3: exhaustive balanced-core coverage, genuine-pencil proof obligations, exact line counts), and the resulting enumerated supply cap at the deployed rows passes the independent proof review that the export certificates themselves require. This is the STRUCTURAL-SURPLUS arm: it establishes by enumeration that no unaccounted supply exists at the workboard rows. SCOPE: the workboard rows are n = 2^21 extension rows; transport to the n = 2^41 prime razor rows is NOTE-LEVEL (the WP5 quantifier mismatch stands) — this child feeds the parent as the enumerated arm, not as razor-row coverage. INHERITED FALSIFIER (the surplus direction of the parent's retired v2 falsifier, re-scoped): any deployed-row supply object outside the workboard's enumerated classes, or any workboard cell whose exclusion fails independent replay. Evidence at creation: the living export PR #1152 (cells 3/4/9/12-13 certified, whole-cell convention, per-node verifier sha256); 54/54 wave-54 verifier replays; the round-26/27 kill of the complement re-pose route (the enumerated classes survive adversarial re-pose attempts).",
+    "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear m2/r4 distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is now proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems. That does not itself close K3: the exact positive router has eleven other named routes after the two proved route closures, and the c112 source-line theorem explicitly leaves coordinate/source-cover orientation assembly open. The budget-ledger premise must therefore provide exhaustive same-owner balanced-core routing, literal route/source-cover integers, genuine-pencil and exact line-count checks for nonzero payments, higher-dimensional ray compilers, and the active allocation inequality. Scope remains the n=2^21 extension-field deployed rows; no transport to n=2^41 prime razor rows is claimed.",
     "falsifier": "A deployed-row supply object outside the workboard's enumerated classes; a workboard cell whose exclusion fails independent replay; or a labels-to-slopes conversion that changes any cell verdict.",
     "gate": "all",
-    "notes": "Created 2026-08-09 in the user-directed band decomposition. The kb workboard ev edges remain on the parent at creation (migration deferred to the labels-to-slopes conversion audit per the plan). Closure path: cell 5 + role orbits [5,8]/[9,10]/[11] (Codex, in flight) -> the conversion -> K3_closed cert -> independent review -> PROVED.",
+    "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure. The former labels-to-slopes placeholder is decomposed into eleven-route payment, positive-coordinate composition, orientation/source-cover assembly, exact K3 budget ledger, and independent review. Raw-cell closure is complete; route and assembly leaves remain open.",
     "refs": [
       "notes/band_decomposition_plan_20260809.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
-      "notes/exports_20260809/k3_433_export/BRIEF.md"
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+      "critical/nodes/rate_half_band_structural_surplus/conditional.md"
     ]
   },
-  "requires": [],
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"},
+    {"from": "rate_half_kb_m2_r4_k3_independent_review"}
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

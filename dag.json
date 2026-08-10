@@ -28979,17 +28979,19 @@
   },
   {
    "id": "rate_half_band_structural_surplus",
-   "title": "BAND CHILD 1 (K3 ARM): the enumerated structural-supply cap at the deployed rows \u2014 the positive-433 workboard completes in distinct affine slopes",
-   "status": "TARGET",
+   "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains",
+   "status": "CONDITIONAL",
    "key": true,
-   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md). CLAIM: the kb_m2_r4 positive-433 workboard enumeration COMPLETES \u2014 every cell and role orbit of the 433-1b board is closed (state at creation: c112 coverage + cells 3, 4, 9, 12-13 CLOSED; cell 5 in flight at 24 labels / 6 orbits; role orbits [5,8], [9,10] second half, [11] open), the label census is CONVERTED to upstream item K3's unit of account (distinct affine slopes, per przchojecki agents.md K3: exhaustive balanced-core coverage, genuine-pencil proof obligations, exact line counts), and the resulting enumerated supply cap at the deployed rows passes the independent proof review that the export certificates themselves require. This is the STRUCTURAL-SURPLUS arm: it establishes by enumeration that no unaccounted supply exists at the workboard rows. SCOPE: the workboard rows are n = 2^21 extension rows; transport to the n = 2^41 prime razor rows is NOTE-LEVEL (the WP5 quantifier mismatch stands) \u2014 this child feeds the parent as the enumerated arm, not as razor-row coverage. INHERITED FALSIFIER (the surplus direction of the parent's retired v2 falsifier, re-scoped): any deployed-row supply object outside the workboard's enumerated classes, or any workboard cell whose exclusion fails independent replay. Evidence at creation: the living export PR #1152 (cells 3/4/9/12-13 certified, whole-cell convention, per-node verifier sha256); 54/54 wave-54 verifier replays; the round-26/27 kill of the complement re-pose route (the enumerated classes survive adversarial re-pose attempts).",
+   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear m2/r4 distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is now proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems. That does not itself close K3: the exact positive router has eleven other named routes after the two proved route closures, and the c112 source-line theorem explicitly leaves coordinate/source-cover orientation assembly open. The budget-ledger premise must therefore provide exhaustive same-owner balanced-core routing, literal route/source-cover integers, genuine-pencil and exact line-count checks for nonzero payments, higher-dimensional ray compilers, and the active allocation inequality. Scope remains the n=2^21 extension-field deployed rows; no transport to n=2^41 prime razor rows is claimed.",
    "falsifier": "A deployed-row supply object outside the workboard's enumerated classes; a workboard cell whose exclusion fails independent replay; or a labels-to-slopes conversion that changes any cell verdict.",
    "gate": "all",
-   "notes": "Created 2026-08-09 in the user-directed band decomposition. The kb workboard ev edges remain on the parent at creation (migration deferred to the labels-to-slopes conversion audit per the plan). Closure path: cell 5 + role orbits [5,8]/[9,10]/[11] (Codex, in flight) -> the conversion -> K3_closed cert -> independent review -> PROVED.",
+   "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure. The former labels-to-slopes placeholder is decomposed into eleven-route payment, positive-coordinate composition, orientation/source-cover assembly, exact K3 budget ledger, and independent review. Raw-cell closure is complete; route and assembly leaves remain open.",
    "refs": [
     "notes/band_decomposition_plan_20260809.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
-    "notes/exports_20260809/k3_433_export/BRIEF.md"
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+    "critical/nodes/rate_half_band_structural_surplus/conditional.md"
    ]
   },
   {
@@ -32795,6 +32797,67 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+   "title": "KoalaBear m2 r4 positive 433-1b cells 9-10 complete exclusion",
+   "status": "PROVED",
+   "closure": "complete deployed exclusion of source role-cell orbit [9,10] by exact duplicate-role transport and global rank-drop exclusion",
+   "statement": "The complete deployed positive 433-1b to O0a route is empty in source role cells 9 and 10. Cell 9 is empty by its exact 105-label assembly. Exchanging common target roles B,C, fixing r and t, flipping the second source sign, gauging D,E,F by sigma_c, and swapping outside BF/CF roles gives an exact bijection of all 105 labels and 1680 signed principal systems between cells 9 and 10. The global product-rankdrop theorem excludes the complementary branch in both cells. No other role orbit or Prize result is claimed.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "title": "KoalaBear m2 r4 positive 433-1b duplicate-role cells 9-10 transport",
+   "status": "PROVED",
+   "closure": "exact B/C duplicate-role bijection of all 1680 signed principal systems from cell 9 to cell 10",
+   "statement": "Exchanging common target roles B,C, fixing r and the singleton parameter t, flipping the second source sign, gauging D,E,F by sigma_c, and swapping outside records BF and sigma_c CF gives an exact bijection from every principal positive 433-1b system in source role cell 9 to one in cell 10. It preserves target lanes, common Vieta rows, outside products and squared sums, all guards, and bijects all 105 labels. Hence all 4 source-sign by 4 target-lane by 105 principal systems are transported. Together with the global product-rank-drop exclusion, complete emptiness of cell 9 implies complete emptiness of cell 10.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_cells9_10_duplicate_role_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "title": "KoalaBear positive 433-1b raw workboard complete exclusion",
+   "status": "PROVED",
+   "closure": "exact disjoint closure of all 15 role cells, 1575 raw labels, and 25200 signed principal systems, plus the global rank-drop branch",
+   "statement": "The deployed positive 433-1b to O0a raw workboard is empty. The common compiler gives exactly 15 role cells. Nine proved owner packets cover those cells disjointly as [0], [1,2], [3,6], [4,7], [5,8], [9,10], [11], [12,13], [14]. Each cell has 105 missing-record/matching labels and 16 source-sign/target-lane systems per label, so the principal census is exactly 1575 labels and 25200 systems. The global product-rank-drop theorem excludes the complementary branch. This is raw workboard closure only; it does not convert labels to distinct affine slopes, prove balanced-core exhaustiveness or genuine-pencil line counts, close K3, or move the Prize ledger.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "title": "KoalaBear m2 r4 positive 433-1b universal outside-label quotient",
    "status": "PROVED",
@@ -32813,6 +32876,31 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/verify.py",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_universal_generic_label_orbit_router.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "title": "KoalaBear m2 r4 positive-coordinate complete payment",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "title": "KoalaBear m2 r4 positive-coordinate remaining-route payment",
+   "status": "TARGET",
+   "statement": "Every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact multiplicity, and add-back chronology.",
+   "falsifier": "A guarded packet on any of the eleven routes, or a slope payment that loses owner identity, multiplicity, or first-match chronology.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/attack.md",
+    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/dependency_subdag.md"
    ]
   },
   {
@@ -33884,6 +33972,55 @@
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/frontier.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/result.md",
     "background/nodes/rate_half_kb_m2_r4_diagonal_c2_112_source_line_literal_assignment_coverage/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "title": "KoalaBear m2 r4 K3 exact active-allocation inequality",
+   "status": "TARGET",
+   "statement": "In the active KoalaBear m2 r4 first-match manifest, print the exact integers U_positive, U_sourcecover, U_K3=U_positive+U_sourcecover, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. No floating-point comparison, owner renormalization, omitted line multiplicity, or allocation imported from a different row or partition is allowed.",
+   "falsifier": "The exact total exceeds the allocation, an input integer lacks a pinned proof certificate, a digest or row differs, or the comparison uses a different owner/normalization convention.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "title": "KoalaBear m2 r4 K3 exact distinct-slope budget ledger",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the complete positive-coordinate payment, the exhaustive orientation/source-cover assembly, and the exact active-allocation inequality, the KoalaBear m2 r4 K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_sourcecover within its active allocation. The proved c2(1,1,2) source-line and negative-coordinate exclusions contribute zero as evidence. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, owner change, or separately normalized budget is allowed.",
+   "falsifier": "A missing or overlapping slope owner, incorrect route integer, non-genuine pencil payment, uncounted line, unpaid higher-dimensional survivor, or U_K3 above the active allocation.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/conditional.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/attack.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_k3_independent_review",
+   "title": "KoalaBear m2 r4 K3 independent proof review",
+   "status": "TARGET",
+   "statement": "A fresh independent reviewer has replayed and audited the load-bearing c112, coordinate-route, orientation-assembly, and distinct-slope composition certificates at pinned commits, confirmed the active row/partition contract and same-owner chronology, and recorded no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by the producing implementation is insufficient.",
+   "falsifier": "A failed replay, digest mismatch, missing dependency, owner/row mismatch, unreviewed load-bearing argument, or unresolved reviewer objection.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/review_protocol.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "title": "KoalaBear m2 r4 K3 orientation and owner assembly",
+   "status": "TARGET",
+   "statement": "Every unpaid same-owner balanced-core bad-slope witness in the active KoalaBear m2 r4 first-match residual is routed exhaustively and without overlap into the source-line, coordinate, or source-cover orientation. The source-line image is exactly the declared c2(1,1,2) source-line workboard; the coordinate image is exactly the signed negative/positive coordinate workboards; every source-cover image is either proved empty, mapped bijectively to one of those two images, or paid by a printed exact distinct-affine-slope integer. The theorem outputs the disjoint source-cover sum U_sourcecover and preserves received-line owner, support reconstruction, affine slope, and chronology.",
+   "falsifier": "A balanced-core bad slope outside the three orientations, a source-cover survivor with no exact payment, overlap between owners, or loss of received-line/slope identity under routing.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md"
    ]
   },
   {
@@ -61236,7 +61373,27 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell0_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
    "kind": "req"
   },
   {
@@ -61263,6 +61420,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion",
    "to": "rate_half_band_structural_surplus",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion",
@@ -62190,6 +62352,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -62793,6 +62960,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_compatibility_decomposition",
@@ -63435,6 +63607,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
    "to": "rate_half_band_closure",
    "kind": "ev"
@@ -63445,14 +63622,34 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
    "to": "rate_half_band_closure",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
@@ -63462,6 +63659,26 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
    "kind": "req"
   },
   {
@@ -63512,6 +63729,16 @@
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
    "kind": "req"
   },
   {
@@ -63861,6 +64088,16 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "kind": "req"
   },
@@ -63933,6 +64170,31 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
@@ -64168,6 +64430,21 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
@@ -64975,6 +65252,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
    "to": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_literal_cell_crosswalk",
    "kind": "req"
@@ -65065,6 +65347,31 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_independent_review",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel",
    "kind": "req"
@@ -65107,6 +65414,11 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
    "kind": "req"
   },
   {
