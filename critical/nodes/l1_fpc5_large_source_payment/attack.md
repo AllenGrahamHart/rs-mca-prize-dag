@@ -17,6 +17,11 @@
 6. Use `l1_fpc5_tpetal_joint_owner_packing` for every fixed owner. Do not
    re-prove bounded co-deficiency packing or sum its per-owner charge over
    all divisors of the anchor polynomial.
+   The exact small-cell Modal probe
+   `experiments/prize_resolution/fpc5_joint_owner_probe_result.json` found
+   that 3781/4012 realized owner groups were singletons and 905/1095 anchor
+   views had an injective neighbor-to-owner map. Do not assume only a bounded
+   number of owners occur; seek structure across many distinct owners.
 7. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
 8. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
