@@ -30029,6 +30029,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_active_bc_order32_adapter",
+   "title": "KoalaBear active balanced-core certificates to order-32 adapter",
+   "status": "PROVED",
+   "closure": "same-owner finite-subset transport into upstream v4 relative classification",
+   "statement": "For every deployed KoalaBear received line, the canonical active balanced-core certificate selector transports Z_BC into the exact input of the upstream partial relative order-32 theorem. If |Z_BC|<=31 it already fits the theorem's exceptional cardinality threshold. Otherwise every 32-subset consists of distinct bad slopes on the same received line with explicit explaining data and exact agreement supports; maximal agreement sets and the stored m-subsupports satisfy the theorem's support normalization. Applying the harvested theorem preserves line and slope labels and yields its affine/rational/near-sunflower or primitive-spread alternatives. This supplies no S, A, E payment and does not imply the legacy Q6 endpoint realization.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/statement.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/proof.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/claim_contract.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/source_evidence.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/audit.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/result.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/frontier.md",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/verify.py",
+    "background/nodes/rate_half_kb_active_bc_order32_adapter/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_active_bc_partition_semantic_gap_audit",
    "title": "KoalaBear active balanced-core partition semantic-gap audit",
    "status": "PROVED",
@@ -35023,6 +35042,26 @@
    "refs": [
     "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
     "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_mca_order32_partial_relative_harvest",
+   "title": "Upstream v4 partial relative order-32 explanation theorem",
+   "status": "PROVED",
+   "closure": "immutable upstream theorem harvest with exact row replay",
+   "statement": "For either deployed adjacent MCA row and any 32 distinct bad slopes with maximal supports and selected exact m-subsupports, every non-global-affine explanation outside the common-support, pure-locator, denominator-root, and scalar-locator rational-profile cells has slope degree 18 through 31 and two-cover complexity chi at least 3m-k+3: 2299571 on KoalaBear and 2299499 on Mersenne-31. If every residual 32-subset is affine or rational, then all bad slopes lie in one coherent structure or a 31-overlap enters the quantified near-sunflower branch. This is classification, not spread, large-owner, exception, or row closure.",
+   "refs": [
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/statement.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/proof.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/claim_contract.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_evidence.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/dependency_subdag.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/audit.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/result.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/frontier.md",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_pin.json",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify.py",
+    "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify_audit.py"
    ]
   },
   {
@@ -62074,6 +62113,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_active_balanced_core_witness_compiler",
+   "to": "rate_half_kb_active_bc_order32_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_bc_order32_adapter",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
    "to": "rate_half_kb_active_balanced_core_component_bridge",
    "kind": "ev"
@@ -67041,6 +67090,11 @@
   {
    "from": "rate_half_kb_v4_tangent_source_atom",
    "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_kb_active_bc_order32_adapter",
    "kind": "req"
   },
   {

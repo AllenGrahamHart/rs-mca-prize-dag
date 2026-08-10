@@ -8,11 +8,11 @@
   "results": [
     {
       "returncode": 0,
-      "script": "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
-      "seconds": 0.026703,
+      "script": "tools/verify_joint_prize_resolution_protocol.py",
+      "seconds": 0.747719,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS active-BC component bridge conditional dependencies=2\n"
+      "stdout_tail": "JOINT_PRIZE_RESOLUTION_PROTOCOL_PASS checks=152\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

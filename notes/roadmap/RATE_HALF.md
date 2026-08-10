@@ -30,16 +30,22 @@ balanced-core allocation definition, and fresh independent review.
 
 Upstream `main` currently phrases its final MCA route as same-owner
 `(S)` spread routing, `(A)` large-owner control, and `(E)` exception routing.
-That is an alternative completion architecture, not evidence that the K3
-endpoint realization exists. The concrete active-BC witness is now available
-to both routes. Compare direct v4 `(S)/(A)/(E)` routing against the K3 endpoint
-route before doing more raw-cell work.
+The direct route is now preferred over the longer K3 route. Upstream's exact
+order-32 partial-relative theorem is source-pinned locally, and a proved
+adapter sends every 32-subset of canonical active-BC certificates into its
+affine/rational/near-sunflower/primitive-spread alternatives without losing
+line, slope, support, or owner data. Classes of size at most 31 are already
+below that theorem's exception threshold. This is a route reduction, not a
+row closure: all three terminal inputs `(S)`, `(A)`, and `(E)` remain open.
+The K3 endpoint realization remains a valid red alternative and is not
+implied by the order-32 theorem.
 
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard
 `18-k3-bridge-and-allocation-refactor-20260810.md` and
-`19-active-bc-semantic-gap-20260810.md` for the corrected sub-DAG and route
-decision.
+`19-active-bc-semantic-gap-20260810.md` for the corrected sub-DAG. See
+`20-active-bc-order32-route-20260810.md` for the proved upstream adapter and
+current route decision.
 
 ## Current decomposition
 

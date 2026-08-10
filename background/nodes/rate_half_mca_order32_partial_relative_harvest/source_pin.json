@@ -1,0 +1,14 @@
+{
+  "repository": "przchojecki/rs-mca",
+  "commit": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "path": "experimental/grande_finale.tex",
+  "git_blob": "6b21d6ea937a8a9f85fc7ade6032d73efd4c7222",
+  "label": "thm:partial-relative",
+  "source_line": 6619,
+  "status": "PROVED_UPSTREAM_THEOREM",
+  "excluded_open_labels": [
+    "prob:mca-spread-routing",
+    "prob:large-owner",
+    "prob:mca-exception-routing"
+  ]
+}
