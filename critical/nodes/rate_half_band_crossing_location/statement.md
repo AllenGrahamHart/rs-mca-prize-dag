@@ -1112,3 +1112,23 @@ zero downstream counts mean the extension gates had no opportunity to add
 evidence. The complete per-worker packet and deterministic aggregate verifier
 are `rh_bivariate_m2_badpattern_result.json` and
 `verify_rh_bivariate_m2_badpattern.py`. No critical status changes.
+
+## Cycle-59 top-coefficient Schur reduction (2026-08-10, Codex)
+
+After a projective parameter-basis change avoiding the at most `|W|<q`
+coordinate fibre roots, every `L_x` has nonzero leading coefficient. The
+`j=m+1` rows of the deficiency-aware matrix then contain one scaled
+Vandermonde column per point of `W`, so they pay exactly `4m+1` columns.
+Block elimination gives
+
+```text
+rank(M_W)=4m+1+rank(S_W),
+columns(S_W)=|W|+Delta_W-(4m+1).
+```
+
+The residual width is at most `4m-2` over the whole `a<=7m-1` band and at
+most `3m-1` when `O=0`. For the `m=1` failure it is one and its residual rank
+is zero; for the sampled `m=2` open band it is only `2..5`. The proved node is
+`rate_half_bivariate_top_vandermonde_schur_reduction`. The remaining theorem
+is now the structured full-column-rank problem for `S_W`, not the original
+large matrix. No critical status changes.
