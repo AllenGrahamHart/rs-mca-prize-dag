@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion",
+    "title": "Clean-endpoint Picard--Forney contact exclusion",
+    "status": "PROVED",
+    "closure": "exact boundary contact and vanishing cohomology",
+    "statement": "For m>3, the full Hankel recurrence makes the canonical Forney numerator vanish to order 2rho+2 along the domain-infinity fibre of the integral clean-endpoint curve. The residual nonzero section lies in O_C(-rho-3,m+1). Its fourth power times the proved point section O_C(N,-T)=O_C(P_*) would be a nonzero section of O_C(-8,3), but the ambient restriction sequence and Kunneth formula give H^0(C,O_C(-8,3))=0. Thus the strict e=m, O=0 endpoint is impossible, including the official m=2^37 row.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

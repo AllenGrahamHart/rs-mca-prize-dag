@@ -1408,3 +1408,42 @@ remaining clean theorem is a low-degree interpolation obstruction for these
 Forney products across the at least `2m+3` good split slopes, using their
 shared supported-root incidence and the degree-`m` motion of `q`. No critical
 status changes.
+
+## Cycle 70: clean Picard--Forney endpoint close (2026-08-11, Codex)
+
+The clean strict endpoint is now excluded. On the domain-infinity chart
+`u=X^(-1)`, the full `rho+2` Hankel recurrence rows give
+
+```text
+q^vee(z;u)sum_(i=0)^(2rho+1)y_i(z)u^i
+ =N(z;u)+u^(2rho+2)R(z;u).
+```
+
+Since `N=u^(rho-1)P(z;u^(-1))`, restriction to `C:Q=0` makes the nonzero
+Forney section vanish to order `2rho+2` along the full `X=infinity` divisor.
+Its residual line bundle is
+
+```text
+L_F=O_C(-rho-3,m+1),       deg L_F=m-1.
+```
+
+The proved clean Picard point satisfies `O_C(P_*)=O_C(N,-T)`. Consequently
+
+```text
+L_F^4 tensor O_C(P_*)=O_C(-8,3).
+```
+
+The residual and point sections would make the right side effective. But
+the restriction sequence
+
+```text
+0 -> O(-rho-8,3-m) -> O(-8,3) -> O_C(-8,3) -> 0
+```
+
+and Kunneth give `H^0(C,O_C(-8,3))=0` for `m>3`. This contradiction uses
+only integrality and applies to the official `m=2^37` row. The proved node
+is `rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion`.
+The live strict endpoint is now confined to positive omission defect
+`1<=O<=m-1`; the `O=0` branch needs no further casework. The critical node
+remains open because those defect strata and the adjacent unsafe witness are
+not yet closed.
