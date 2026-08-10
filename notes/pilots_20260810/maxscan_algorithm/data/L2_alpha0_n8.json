@@ -1,0 +1,28 @@
+{
+ "mode": "alpha0",
+ "n": 8,
+ "q": 10009,
+ "m": 3,
+ "g": 6382,
+ "N_subsets": 56,
+ "mean_per_class": 0.005594964531921271,
+ "MAXSCAN_0": 6,
+ "n_argmax_fibers": 4,
+ "argmax_v": [
+  1,
+  3303,
+  6706,
+  10008
+ ],
+ "argmax_W2": [
+  10008,
+  6706,
+  3303,
+  1
+ ],
+ "count_tail_top": {
+  "2": 16,
+  "6": 4
+ },
+ "distinct_nonzero_fibers": 20
+}

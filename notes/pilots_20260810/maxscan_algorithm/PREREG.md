@@ -102,3 +102,154 @@ EVERY n at once — strictly stronger than any single maxscan.
   paragraph.
 
 ## Pilot registrations (appended by the pilot before any computation)
+
+Pilot: maxscan_algorithm (Opus), round 28, 2026-08-10. Everything below
+was written BEFORE any interpreter was invoked. Inputs read first (file
+reads only, no computation): round-27 `REPORT.md`, `FABLE_AUDIT.md`,
+`scratch/nf_maxscan.py`, and the three banked maxscan JSONs
+(`data/s2_maxscan_n8.json`, `s2_maxscan_n16.json`,
+`s2_maxscan_n16_q2.json`).
+
+### R0 — the object, restated exactly (so the price is honest)
+
+Complement form (banked, `nf_maxscan.py`): t=1, δ=1, n even, k=n/2,
+B ⊂ D=μ_n with |B| = k−1 = m. Writing e1(B), e2(B) for the elementary
+symmetric functions of B, the admissibility condition is the LINE
+
+  e2(B) − W1·e1(B) + W2 = 0   in the (W1,W2) plane.
+
+So with α := −W1, β := W2:
+
+  **F_SUBSET(n,q,α,β) := #{B ⊂ μ_n, |B| = n/2−1 : e2(B) + α·e1(B) + β = 0}**
+  **MAXSCAN(n,q) := max over (α,β) ∈ F_q² of F_SUBSET**   [the target]
+  **MAXSCAN_0(n,q) := max over β of F_SUBSET(n,q,0,β)**   [the α=0 slice]
+  **TAIL_0(n,q,τ) := #{β : F_SUBSET(n,q,0,β) ≥ τ}**       [background meter]
+  **STRAT_s(n,q,α,β) := the |S|=s part of F_SUBSET** (S defined in R3)
+  **PLATEAU(n) := C(n/2−1, n/4)**  (3, 35, 6435 at n=8,16,32)
+  **RATIO(n) := MAXSCAN(n)/PLATEAU(n)**, **SURPLUS(n) := log2 RATIO(n)**
+
+Banked ground truth I must reproduce: MAXSCAN(8,10009)=6 at (W1,W2)=(0,1);
+MAXSCAN(16,10177)=46 at (0,6891); MAXSCAN(16,10193)=46 at (0,4729).
+N := C(32,15) = 565,722,720.
+
+Signal-separation constraint (this is what prices q, and the banked runs
+never had to state it): the mean per word class is μ = N/q, and a heavy
+line is only readable if μ ≪ the target. At n=16 the banked runs used
+μ≈1.12 because the target was 46. At n=32 the comparator is 6435, so μ up
+to ~20 is harmless — **q ≈ 3·10⁷ suffices, q ≈ N is not needed.** This is
+the first half of the break.
+
+### D1 — routes priced BEFORE building (ops, RAM, verdict)
+
+| route | time (n=32) | RAM | verdict |
+|---|---|---|---|
+| **R0** banked `nf_maxscan` as-is: loop α∈F_q, hash N values | q·N ≥ 5.7·10¹³ (q≥10⁵ forced by signal separation) | two length-N int arrays ≈ 9 GB (45 GB as lists) | dead on BOTH axes |
+| **R1** 2-D histogram G[e1][e2], then scan lines | N + q³; balanced at q≈N^{1/3}=827 but then mean line weight N/q = 6.8·10⁵ swamps a 6435 signal; separation forces q≳10⁵ ⇒ q³ ≥ 10¹⁵ | q² counters | dead (the balance point and the signal window are disjoint) |
+| **R2** meet-in-the-middle, 16 antipodal pairs split 8/8 (4⁸ × 4⁸) | join is per-(p1L,p1R) class because the coupling 2·p1L·p1R is bilinear ⇒ total join work is exactly N; no asymptotic gain | 65536 half-states | fixes RAM only; subsumed by R3 |
+| **R3 (CHOSEN)** stratified antipodal enumeration + dense small-q counter | N inner increments per α; **N/2 at α=0** by the σ→−σ symmetry ⇒ ≈2.8·10⁸ steps | one `array('H')` of length q = 60 MB at q=3·10⁷, plus O(2^s) scratch | **RAM wall broken (9 GB → 60 MB); per-α time 2–10 min** |
+| **R4** α-restriction by symmetry + char-0 identification | (#α scanned) × N | as R3 | the residual wall: q/(n·φ(n)) ≈ 5.9·10⁴ orbits × N = 3.3·10¹³ — **NOT broken** |
+| **R5** orbit quotient alone | rotation (α,β)→(ζα,ζ²β) and Galois give ≤ n·φ(n) = 512 at n=32 | — | factor 512 only; insufficient alone |
+
+**R3, the identity it runs on.** Pair up antipodes: μ_n = ⊔_{j<M} {ζ^j,−ζ^j},
+M = n/2, ω := ζ². A subset B is (S,σ,T): S = pairs meeting B once (sign
+σ_j = ±1), T = pairs contained in B, |S| + 2|T| = m. Then with
+P := Σ_{j∈S} σ_j ζ^j, ω_X := Σ_{j∈X} ω^j:
+
+  **e1(B) = P,  e2(B) = (P² − ω_S − 2ω_T)/2.**
+
+(Direct check: cross terms between two doubled pairs and between a doubled
+pair and anything else vanish, since ζ^j + (−ζ^j) = 0.) Enumeration order:
+s (odd) → S → precompute the ω_T list once per S → σ → inner loop over the
+ω_T list. At α=0, e2 depends on σ only through P², so σ and −σ give the
+same fiber: enumerate 2^{s−1} sign patterns and weight 2.
+
+**Honest statement of what R3 does and does not break.** It breaks the RAM
+wall outright and makes ONE direction α exact at n=32 for the first time.
+It does not break the α-count. So the reachable exact object is the α=0
+slice plus a registered finite α-list — not the full q² word space. I
+register that asymmetry now: **a lower bound suffices to prove GROWS; only
+an upper bound proves COLLAPSES.** If the α=0 slice at n=32 exceeds the
+plateau the verdict is proved; if it does not, the collapse verdict is
+conditional on the argmax-at-α=0 law and the Modal request is emitted.
+
+**Why α=0 is the right slice (2 scales, 2 fields, already banked).**
+α=0 is the unique fixed point of the rotation action (α,β)↦(ζα,ζ²β), and
+the banked per-W1 histograms show every other level occurring in exact
+multiples of n (n=16: 46 at 1 α; 39 and 36 at 16 each; 26 at 64; …), i.e.
+free rotation orbits off α=0. The banked argmax is W1=0 at n=8 AND n=16,
+in both n=16 fields.
+
+### D2 — the validation ladder (run in this order, before the target)
+
+- **L0** replay `nf_maxscan.py` (scratch copy, unmodified) at n=8, q=10009.
+- **L1** same at n=16, q=10177 and q=10193.
+- **L2** my R3 enumerator must reproduce MAXSCAN_0 **and its argmax field
+  element** at n=8 and n=16 in both fields (an exact F_q element match, not
+  just the count), and must reproduce a sample of the banked per-W1
+  histogram at α≠0 via its general-α path.
+- **L3** the n=32 target.
+
+### Predictions (numeric windows, misses reported first)
+
+- **P1** (L0, tol 0): 6 / W1=0 / W2=1 / histogram {1:9504, 2:472, 5:8, 6:25}.
+- **P2** (L1, tol 0): 46 / 0 / 6891 at q=10177; 46 / 0 / 4729 at q=10193.
+- **P3** (L2, tol 0): my enumerator returns exactly those counts AND those
+  argmax field elements at n=8 and n=16.
+- **P4 — the closed form for the antipodal-pair-locator (|S|=1) family.**
+  I claim, derived before computing, that the s=1 stratum's maximum
+  single-fiber count is, for n = 2M with M a power of two and h := M/2 − 1:
+
+    **STRAT_1^max(n) = 2(M−h)·C(M/2−1, (h−1)/2) = (M+2)·C(M/2−1, M/4−1).**
+
+  Derivation: for s=1, e2 = −ω_T, so the fiber count is
+  Σ_{j0∈[M]} 2·#{T ⊄∋ j0, |T|=h, ω_T = τ} = 2(M·A − h·A) = 2A(M−h) where A
+  is the unrestricted prescribed-sum multiplicity, whose max over τ is
+  C(M/2−1,(h−1)/2) by the banked P4 prescribed-sum theorem (h is odd here,
+  so the support size s′ must be odd and s′=1 is optimal).
+  Values: **n=8 → 6, n=16 → 30, n=32 → 630, n=64 → 218790.**
+  Note this CORRECTS the banked round-27 model n·C(n/4−1,n/8−1) (= 48 at
+  n=16), which omits the S∩T=∅ exclusion and overcounts by 2M/(M+2).
+  Tolerance 0 at all three n.
+- **P5 — the target, MAXSCAN_0(32).** Point estimate **1500**; registered
+  window **[630, 4000]**. Trichotomy on R32 := MAXSCAN_0(32,q)/6435:
+  * **GROWS** if R32 ≥ 1.314 (i.e. ≥ 8456 — the surplus is not shrinking
+    relative to RATIO(16) = 46/35 = 1.314);
+  * **SURVIVES-BUT-SHRINKS** if 1 ≤ R32 < 1.314 (6435 … 8455);
+  * **COLLAPSES** if R32 < 1 (< 6435) — the δ=1 flank maximum has fallen
+    below the slack-0 plateau by n=32 and the δ=1 mechanism cannot
+    contribute to the 4.83-bit razor need.
+  I predict COLLAPSES.
+- **P6** (background meter): at q ≈ 3·10⁷ (μ ≈ 18.9) the largest non-structural
+  fiber count at n=32, α=0 lands in **[35, 70]**; TAIL_0(32,q,100) is a
+  small structured set, not a Poisson tail.
+- **P7** (heavy-α family, n=16): the α with slice-max ≥ 20 number ≤ 800
+  (≤ 50 rotation orbits), and ≥ 60% of them are reductions of cyclotomic
+  integers of height ≤ 2 with ≤ 3 terms in the power basis (allowing a
+  denominator of 2).
+- **P8** (two-field): |MAXSCAN_0(32,q1) − MAXSCAN_0(32,q2)| ≤ 60 for the two
+  registered fields, and the top fiber's structural description agrees.
+- **P9** (honest reachable point if R4 stands): the largest n at which the
+  FULL (α,β) scan is stdlib-reachable is **n = 16** (q·N = 1.2·10⁸); at
+  n = 32 only finite α-lists are reachable. Registered in advance so the
+  fallback is not retro-fitted.
+
+### Late registration — P10, n=64 (appended 08:49, while the n=64 job runs and BEFORE it returns any value)
+
+The parity theorem proved mid-run (only S inside one parity class of pairs
+contributes at antipodal targets ⇒ stratum ceiling s ≤ n/4) reduces the
+antipodal-target count to (3^{n/4} − 1)/2 nodes, which puts **n=64** inside
+stdlib reach for the first time. Registered before the answer:
+- **P10a** ANTIPODAL(64) ∈ [10⁶, 5·10⁷]; RATIO(64) = ANTIPODAL(64)/300540195
+  < 0.1 (i.e. the collapse continues and deepens).
+- **P10b** STRAT_1(64) = 218790 exactly (the P4 closed form at M=32).
+- **P10c** the per-stratum profile has at least one nonzero stratum beyond
+  s=3 (i.e. s=5 or higher switches on), since s=5,7 were exactly 0 at n=32
+  only for arithmetic reasons, not by the ceiling.
+
+### Fallback (registered now)
+
+If P5 lands COLLAPSES on the α=0 slice, that is a conditional verdict, and
+I will emit `MODAL_REQUEST.md` in this directory pricing the full n=32
+(α,β) scan (app design, sharding over α-orbit representatives, fail-closed
+manifest, expected cost) rather than claiming the unconditional result.
+

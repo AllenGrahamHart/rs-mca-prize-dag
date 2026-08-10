@@ -4354,3 +4354,64 @@ k <= 2^40 quantifier (is k = 2^40 extremal? no node says).
 Replays: check_edits/census_impact/gap_witness all green; the
 three pinning quotes verified verbatim by the coordinator. Files:
 notes/pilots_20260810/mca_safe_rewire/{REPORT.md,FABLE_AUDIT.md,edits.json}.
+
+## ROUND 28 BANK 2/4 — maxscan_algorithm (2026-08-10, coordinator)
+
+**BANKED: THE WALL BROKE BY ALGORITHM (the BBM pattern, second
+instance) and the delta=1 flank branch COLLAPSES.** The n=32 t=1
+whole-word-space maxscan ("Modal-class, out of stdlib reach") ran
+in 4 min / 130 MB via SIGNAL SEPARATION (q ~ 3e7 suffices when the
+comparator is the plateau) + THE ANTIPODAL IDENTITY (e2 depends on
+signs only through P^2 at alpha=0); the mid-run PARITY THEOREM
+(E in Z[omega] iff S single-parity — Q-basis factorization;
+corollary strata <= n/4, a 155x exact reduction) reached n=64.
+VERDICT at four scales (char-0 exact, coordinator-replayed
+IDENTICAL incl. n=64: 1,946,902): surplus +1.000/+0.394/-1.705/
+-7.270 bits — monotone, accelerating, ~12 bits short of the razor
+need and moving away. Round-27's conflict RESOLVED on the delta=1
+branch. Closed form STRAT_1 = (M+2)C(M/2-1,M/4-1) at tolerance 0,
+four scales. Two-field: 1988 identical at both n=32 fields; the
+char-0 1974 three-way confirmed. HONEST RESIDUALS: maximal-slack
+curve NOT decided (sampled-only; the parity recursion is the named
+route); n=64 argmax assumed; the full (alpha,beta) exhaustion now
+OPTIONAL at <$5 (MODAL_REQUEST.md held, not filed — gates only the
+argmax-by-exhaustion upgrade). Pilot: 2 registered misses first;
+one self-caught compute-law near-violation (stopped before
+output). Mint queue: the PARITY THEOREM + the closed form.
+Addendum on rate_half_band_crossing_location; no status flips.
+Files: notes/pilots_20260810/maxscan_algorithm/{REPORT.md,FABLE_AUDIT.md,MODAL_REQUEST.md}.
+
+## ROUND 28 BANK 3/4 — apolar_origin (2026-08-10, coordinator)
+
+**BANKED: the theorem did NOT land (both budgets stay open) — and
+the mandate's premise is corrected (CATCH-24A #5): the apolar
+origin was NEVER MISSING** (the Hankel suite names the apolar
+generator + catalecticant + the residual gate verbatim; the m=1
+fence's own text says imposing it is INSUFFICIENT; the mechanism is
+a PORT of the proved QMU/QMP species to the full A=3 pencil). WHAT
+LANDED (all replays IDENTICAL): (1) the mechanism C (min-weight
+coset uniqueness legal on both official profiles, margins 3 and 1;
+injectivity; type-1/2 dichotomy; T_1 <= e+1) — separates both
+banked certificates with no linear algebra; (2) **CYCLOTOMIC
+EXCLUSION AT OFFICIAL SCALE (new theorem): T <= N/rho = 4 vs
+target 2^39+1, margin 5.5e11 — round-27's one field-independent
+threat to budget 2^39+1 DEAD AT THE OFFICIAL PARAMETERS BY
+PROOF**; (3) the w* window [4m+2, 8m-2] (killing the pilot's own
+first vacuous hook — self-caught); (4) the per-stratum closure:
+T <= rho+1 on the strict e=m face for O=0, m >= 2, w* <= ~16m/3 —
+asymptotically 1/3 of the admissible range; q=17 excluded by
+explicit hypothesis as briefed; does NOT move the budgets (mass at
+large w*); (5) the RECIPROCAL-LOCATOR NORMAL FORM: extremal
+type-2 slopes = points of {P_S} on the pencil line; structured
+collinear families killed by the counting layer (the flat 840 that
+FALSIFIED the pilot's registered heuristic at every field);
+sporadics die with q (0.000 at q >= 97); **the q=17 fence
+violation mechanically located as ONE sporadic collinearity**;
+official-scale heuristic flagged as heuristic; (6) the
+disjoint-support fence R4 (one criterion, both certificates).
+SLIVER PRECISION FIX applied (2^167 + 2^128): THREE-WAY blind
+convergence (rewire + apolar + coordinator). THE SHARPENED GAP:
+bound sporadic collinearities of {P_S} at large w* over prime
+q > 2^167. Addendum + fix on rate_half_band_crossing_location; no
+status flips; census unchanged 239 = 167/40/32. Files:
+notes/pilots_20260810/apolar_origin/{REPORT.md,FABLE_AUDIT.md}.

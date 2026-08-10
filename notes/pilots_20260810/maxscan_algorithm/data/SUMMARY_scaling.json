@@ -1,0 +1,76 @@
+{
+ "functional": "MAXSCAN_0 = max over beta of #{B subset mu_n, |B|=n/2-1 : e2(B)+beta=0}",
+ "note": "ANTIPODAL_char0 = exact char-0 count at the antipodal-pair-locator target e2=x^2; equals MAXSCAN_0 at n=8,16,32 (verified); lower bound at n=64",
+ "scaling": [
+  {
+   "n": 8,
+   "M": 4,
+   "stratum_ceiling": 2,
+   "ANTIPODAL_char0": 6,
+   "per_stratum": {
+    "1": 6
+   },
+   "PLATEAU": 3,
+   "RATIO": 2.0,
+   "SURPLUS_bits": 1.0,
+   "STRAT1_closed_form": 6
+  },
+  {
+   "n": 16,
+   "M": 8,
+   "stratum_ceiling": 4,
+   "ANTIPODAL_char0": 46,
+   "per_stratum": {
+    "1": 30,
+    "3": 16
+   },
+   "PLATEAU": 35,
+   "RATIO": 1.3142857142857143,
+   "SURPLUS_bits": 0.3942789391120464,
+   "STRAT1_closed_form": 30
+  },
+  {
+   "n": 32,
+   "M": 16,
+   "stratum_ceiling": 8,
+   "ANTIPODAL_char0": 1974,
+   "per_stratum": {
+    "1": 630,
+    "3": 1344
+   },
+   "PLATEAU": 6435,
+   "RATIO": 0.3067599067599068,
+   "SURPLUS_bits": -1.7048181586516664,
+   "STRAT1_closed_form": 630
+  },
+  {
+   "n": 64,
+   "M": 32,
+   "stratum_ceiling": 16,
+   "ANTIPODAL_char0": 1946902,
+   "per_stratum": {
+    "1": 218790,
+    "3": 1529088,
+    "5": 199024
+   },
+   "PLATEAU": 300540195,
+   "RATIO": 0.0064780087069551545,
+   "SURPLUS_bits": -7.270233877431646,
+   "STRAT1_closed_form": 218790
+  }
+ ],
+ "modq_measurements": {
+  "n32_q30000001_MAXSCAN_0": 1988,
+  "n32_q30000193_MAXSCAN_0": 1988,
+  "n32_char0_strata13_q1": 1974,
+  "n32_char0_strata13_q2": 1974,
+  "n32_collision_background_at_argmax": 14,
+  "n32_runner_up_fiber": 792,
+  "n32_mu32_family_alpha_eq_minus1_q1": 1697,
+  "n32_mu32_family_q2": 1679,
+  "n32_generic_alpha_12345677_q1": 188,
+  "n16_q10177_MAXSCAN": 46,
+  "n16_q10193_MAXSCAN": 46,
+  "n8_q10009_MAXSCAN": 6
+ }
+}

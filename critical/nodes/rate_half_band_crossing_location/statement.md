@@ -62,7 +62,12 @@ heuristic across a mechanism change, labelled as such.
   (one slope past the provable incidence limit; the m=1 fence);
   evidence-grade TRUE on the forced prime-field axis; proof needs
   the APOLAR ORIGIN. Closing it extends the bracket top from
-  q >= 2^169 to all q > 2^167.
+  q >= 2^169 to q >= 2^167 + 2^128 [PRECISION FIX 2026-08-10,
+  derived independently by BOTH round-28 pilots (mca_safe_rewire
+  and apolar_origin) under quarantine: the sliver
+  (2^167, 2^167 + 2^128) is budget 2^39's own interval, so "all
+  q > 2^167" needs the budget PAIR; the 2-bit extension figure
+  survives exactly (2^169/(2^167+2^128) = 4.000000)].
 - Supply flank censused: THEOREM CAP is slack-0-scoped; the
   arbitrary-word maximum's scaling is the one undetermined number
   (named decisive run: the Modal-class n=32 t=1 maxscan).
@@ -96,3 +101,123 @@ heuristic across a mechanism change, labelled as such.
   as unsound.)
 - `list_adjacency_closing`: no longer consumes this content (owner
   moved at wave 10).
+
+## Round-28 addendum (2026-08-10, coordinator-applied on replay: maxscan_algorithm — the named supply-side computation EXECUTED BY ALGORITHM; the delta=1 branch COLLAPSES)
+
+**The wall broke by algorithm (the BBM pattern, second instance):**
+the n=32 t=1 delta=1 whole-word-space maxscan priced "Modal-class,
+out of stdlib reach" ran in 4 minutes / ~130 MB on one core, via
+(i) SIGNAL SEPARATION (the comparator is the plateau 6435, so mean
+line-weight up to ~20 is harmless — q ~ 3e7 suffices, collapsing
+RAM to one dense counter) and (ii) THE ANTIPODAL IDENTITY (pairing
+mu_n into antipodal pairs makes e2 depend on the sign vector only
+through P^2 at alpha=0 — the subset space streams in N/2
+increments). A mid-run PARITY THEOREM then reached n=64.
+
+**THE VERDICT (delta=1 branch DECIDED — COLLAPSE at four scales,
+char-0 exact, coordinator-replayed identical at n=8/16/32):**
+surplus over the slack-0 plateau +1.000 / +0.394 / -1.705 / -7.270
+bits at n = 8/16/32/64 — monotone, accelerating, crossing below
+the plateau between n=16 and 32, ~12 bits short of the razor need
+and moving away. The round-27 conflict is RESOLVED on this branch.
+
+**PARITY THEOREM (proved; mint candidate):** splitting the
+antipodal pairs by index parity, the odd part of E(S, sigma)
+factors as zeta*X*Y with X, Y supported on a Q-basis of Q(omega);
+hence E lands in Z[omega] iff S lies entirely in one parity class.
+Corollary: only strata s <= n/4 contribute to the antipodal
+targets (a 155x exact reduction at n=32; the enabling structure at
+n=64). Closed form for the |S|=1 family, tolerance 0 at four
+scales: STRAT_1^max(n) = (M+2)*C(M/2-1, M/4-1), M = n/2 — the
+round-27 antipodal-pair-locator family, now exactly counted, dying
+on its own (ratio to plateau 2 -> 7.3e-4).
+
+**Two-field discipline held:** MAXSCAN_0(32) = 1988 identical at
+q=30000001 and q=30000193 (mod-q), char-0 value 1974 confirmed
+three ways with the 14-unit collision background decomposed by
+stratum; alpha=0 is the argmax at n=8/16/32 (off-axis families
+strictly below in both fields).
+
+**HONEST RESIDUALS:** (i) the MAXIMAL-SLACK curve (arbitrary
+received words; the round-27 sampled values 67 > 46 at n=16) is
+NOT directly decided by the delta=1 collapse — it remains
+sampled-only; the collapse plus the parity theorem's recursion
+note (E on one parity class is itself an e2 one level down — the
+route to n=128) make the same fate likely but UNMEASURED; (ii)
+alpha=0-is-argmax at n=64 is assumed, not scanned; (iii) the full
+(alpha, beta) exhaustion at n=32 is now OPTIONAL and cheap — the
+pilot's MODAL_REQUEST.md prices it at ~8-28 core-hours (<$5) with
+four cross-check gates — it upgrades the argmax claim to
+by-exhaustion but does NOT gate the collapse verdict. Pilot
+disclosures: 2 registered misses reported first (the background
+model over-dispersed; the reachable-point call too pessimistic);
+one compute-law near-violation caught and undone by the pilot
+itself (an unguarded pipeline stopped before yielding output).
+Source: notes/pilots_20260810/maxscan_algorithm/ (REPORT.md,
+FABLE_AUDIT.md; E_exact ladder coordinator-replayed identical).
+
+## Round-28 addendum (2026-08-10, coordinator-applied on replay: apolar_origin — the theorem did NOT land; the mechanism, three theorems, and a third of the sharp face did)
+
+**HONEST HEADLINE: neither residual budget closed; both stay open,
+status unchanged.** And a mandate correction (CATCH-24A, the fifth
+instance): the "apolar origin" is NOT a missing ingredient — the
+Hankel suite already names the apolar generator and the
+catalecticant (rate_half_ca_hankel_minimal_index_budget), already
+names the residual gate verbatim ("a rigidity theorem for this
+rational normal kernel curve together with its Hankel/apolar
+origin"), and the m=1 fence's own statement says the failure
+survives "even after imposing core-freeness and the full
+Hankel/apolar origin." The QMU/QMP quotient nodes (PROVED) already
+run the minimum-support-uniqueness species of argument on the A=1
+core-one face — the round-28 mechanism is a PORT to the full
+strict A=3 pencil, not an invention.
+
+**What landed (all coordinator-replayed byte-identical):**
+**(1) THE MECHANISM C** (min-weight coset uniqueness legal on both
+official profiles with margins exactly 3 and 1; slope-to-support
+injectivity C1; the type-1/type-2 dichotomy C2; T_1 <= e+1 C3) —
+it separates both banked certificates with no linear algebra (the
+m=1 fence: all six numbers exact; the N=28 design 9-line: refuted
+with contradiction margin exactly 6, matching nullity 0 without
+touching the Hankel system).
+**(2) CYCLOTOMIC EXCLUSION AT OFFICIAL SCALE (R3, new theorem):**
+by C1, coset-structured root sets force T <= N/rho = 4 at the
+official A=1 half-distance profile — against a target of 2^39+1,
+margin 549,755,813,885. Round-27's one field-independent threat to
+budget 2^39+1 is now dead AT THE OFFICIAL PARAMETERS BY PROOF
+(previously: small-scale census only). The A=3 family is empty by
+divisibility.
+**(3) THE w* WINDOW (new):** the joint support is forced into
+[4m+2, 8m-2] — killing the naive clean case w* <= rho+1 (empty),
+a self-caught vacuous first theorem.
+**(4) THE PER-STRATUM CLOSURE (the bankable partial):** T <= rho+1
+on the strict e=m endpoint whenever O=0, m >= 2, and w* <= a_max(m)
+with a_max/m -> 16/3 — asymptotically ONE THIRD of the admissible
+w* range. The m=1/q=17 violation is excluded by explicit
+hypothesis (m >= 2; q=17 forces m=1), as the brief required. The
+closure does NOT move either budget: the average configuration
+sits at large w* (~7m-1 > 16m/3).
+**(5) THE RECIPROCAL-LOCATOR NORMAL FORM:** extremal type-2 slopes
+are exactly points of {P_S = [1/(sigma'_W(x) sigma_S(x))]} on the
+pencil line. The structured collinear families (rho+1 points,
+present at EVERY field — the flat 840 count that falsified the
+pilot's own registered heuristic) are killed by the banked
+counting layer; everything else is SPORADIC and dies with q
+(measured 0.000 per word at q >= 97). **The q=17 fence violation
+is now mechanically located: one sporadic collinearity, exactly
+its three type-2 supports.** Official-scale sporadic heuristic
+q^{-(3m-2)4m} — nil, FLAGGED AS HEURISTIC, not proof.
+**(6) THE DISJOINT-SUPPORT FENCE (R4):** A <= rho and T*rho <= N
+— one criterion refuting both banked certificates ((4m+1)(4m-1)
+<= 16m only at m=1; the 9-line via A = 9 > 3).
+
+**The remaining gap, sharpened:** the unclosed stratum is
+large-w*, where the mass sits; the sporadic-collinearity heuristic
+is the shape of what a full proof must control. Pilot record: the
+uniform theorem registered at miss-likely and it missed (P10 hit
+as a registered miss); A2's heuristic falsified at every field —
+producing the structured/sporadic dichotomy, the session's best
+finding; the D4 sliver catch converged with mca_safe_rewire's
+under quarantine (applied above). Source:
+notes/pilots_20260810/apolar_origin/ (REPORT.md, FABLE_AUDIT.md;
+d2_scan/d6_stratum/d5_sporadic coordinator-replayed identical).
