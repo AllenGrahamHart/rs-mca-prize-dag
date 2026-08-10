@@ -24374,3 +24374,45 @@ exact remaining blocks:  3
 exact remaining labels:  42,840
 next:                    attack repeated-BC cells 11/14 dimension-one loci
 ```
+
+### Cell-11 principal-curve and rank partition
+
+The preferred residual block now has an exact geometric front end.  For role
+cell 11, all eight `(epsilon_1,epsilon_2,BC sign)` localized common ideals
+have dimension one.  Their projection to `(b,c)` is independent of the
+epsilon signs and has one generator per BC sign:
+
+```text
+BC-: total degree 8, full reduced basis size 21
+BC+: total degree 6, full reduced basis size 17
+```
+
+In symmetric coordinates `x=bc`, `y=b+c`, the BC+ equation is
+`y^2(x-1)^2-2x(x+1)^2=0`; the exact BC- symmetric equation is printed in the
+curve certificate.  Every source curve also satisfies the exact relation
+
+```text
+t = (epsilon_1 epsilon_2) r^2.
+```
+
+A selected degree-seven product cofactor is nonzero on each common curve.
+Its zero fiber is finite of scheme degree four in every BC- row and six in
+every BC+ row.  Thus the generic outside problem can be handled on a genuine
+cofactor-open, with only a total formal boundary degree of
+`4*4 + 4*6 = 40` across cell 11's eight sign rows.
+
+The monolithic all-variable outside ideal is not a viable bulk route: one
+pilot label for each BC sign hit a 300-second Modal cap.  The next attack
+must instead build a function-field resultant/rank atlas on the selected-
+cofactor open and replay only the finite degree-4/6 boundary.  After cell 11
+is paid, certify the duplicate-BC role transport to cell 14 rather than
+repeating all 1,680 labels.
+
+```text
+projection runs:          ap-8KLIgqAQgBeBXIq1Z0XoaX, ap-UsJV6Fav32SwF0JGwWWAEZ
+rank-fiber run:           ap-92wEVRbP8NlDfrlA2XgCNb
+direct-route fence:       ap-532TAx5h3Qaw22D3ueMOVZ (two 300s timeouts)
+additional DAG delta:     +2 background PROVED; critical orbit unchanged
+outside labels closed:    0 (geometry/rank partition only)
+next:                     function-field resultants plus finite replay
+```

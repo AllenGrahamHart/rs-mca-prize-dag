@@ -1,0 +1,178 @@
+{
+  "rows": [
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_basis_size": 21,
+      "full_dimension": 1,
+      "program_sha256": "3593a7cd1611b494c2214531633e9bfa6044d29d3b0cecffce0db43593be8383",
+      "seconds": 5.838532259000001,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 4,
+      "selected_rank_minor_remainder": "-16711680t4b-66846718t3b2+16711680t3r+66846698t3b-66846732t2b2-33423358t3-83558382t2r+568197062t2b+66846732trb-768737248tcb+167116774tb2-267386864t2-484638664tr+434503652tc+167116822tb+28rb-33423368cb+167116788b2-635043834t+618332134r+100270100c-183828486b",
+      "selected_rank_minor_remainder_sha256": "5e38472a89691357937818bd40ac02772b4a70f14a1341100dbffedace827c04",
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_basis_size": 17,
+      "full_dimension": 1,
+      "program_sha256": "5cd0df4a75b187227563ad76496f84bd9505b2c6642ca1af3315c9bf28fd7006",
+      "seconds": 0.8902799909999999,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 6,
+      "selected_rank_minor_remainder": "16711680t4b+33423358t3b2+16711678t3r-100270066t3b+133693432t2b2-2t3+116981756t2r-233963506t2b-334233576tcb+367656942tb2+66846716t2+250675190tr+33423356tc-133693442tb-935854032rb+334233576cb+66846736b2+267386850t+83558392r-33423356c-16711682b",
+      "selected_rank_minor_remainder_sha256": "4bd18567e63a58eaedea5d2b08c990874196ee849781d2c5b71535655db19405",
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_basis_size": 21,
+      "full_dimension": 1,
+      "program_sha256": "ecd69f295cd88be01016cac6bd9b07553ffe357e524c96a966e2df94f6c19b16",
+      "seconds": 7.777448809000001,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 4,
+      "selected_rank_minor_remainder": "16711678t4b-66846714t3b2-16711678t3r+66846734t3b+66846700t2b2-33423358t3-83558408t2r-568197110t2b-66846700trb-768737220tcb+167116806tb2+267386864t2+484638718tr+434503656tc+167116758tb-28rb+33423348cb-167116792b2-635043770t+618332112r-100270048c+183828452b",
+      "selected_rank_minor_remainder_sha256": "2e9f48f6e26b755f0b076e6c0755820943bfa6cc3151f66a5b30402e28afbea3",
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=-1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_basis_size": 17,
+      "full_dimension": 1,
+      "program_sha256": "06e6fd607704d9b7c00f084598fdd641b260956405fab95f4b5ca2d299ee5755",
+      "seconds": 0.9727584650000001,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 6,
+      "selected_rank_minor_remainder": "-16711678t4b+33423358t3b2-16711680t3r-100270082t3b-133693432t2b2+2t3+116981750t2r+233963506t2b-334233584tcb+367656934tb2-66846716t2-250675180tr+33423360tc-133693422tb-935854016rb-334233584cb-66846696b2+267386878t+83558398r+33423360c+16711676b",
+      "selected_rank_minor_remainder_sha256": "bb3d900fb33fef12df5113bb5d8a5d5afaa4601b8b97aae5947bed2cfc6e16ab",
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=-1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_basis_size": 21,
+      "full_dimension": 1,
+      "program_sha256": "d2b79a0348fbf9b53e748dbfb46e3bf4b507b364be38eb70ecea97a30c8a8e59",
+      "seconds": 6.8764371220000005,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 4,
+      "selected_rank_minor_remainder": "-16711680t4b+66846718t3b2+16711680t3r-66846698t3b-66846732t2b2+33423358t3+83558382t2r+568197062t2b+66846732trb+768737248tcb-167116774tb2-267386864t2-484638664tr-434503652tc-167116822tb-28rb-33423368cb+167116788b2+635043834t-618332134r+100270100c-183828486b",
+      "selected_rank_minor_remainder_sha256": "e156ac39bd6ed4e6c9716fc77daa31ef7cf7c4ceb5c1bc0247fc37a0e920d13b",
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=-1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_basis_size": 17,
+      "full_dimension": 1,
+      "program_sha256": "d03c0ec75590f28819cc05e89c8e7d8189e2c390137074f5b151377d7fbdf2b7",
+      "seconds": 0.8180381260000003,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 6,
+      "selected_rank_minor_remainder": "16711680t4b-33423358t3b2+16711678t3r+100270066t3b+133693432t2b2+2t3-116981756t2r-233963506t2b+334233576tcb-367656942tb2+66846716t2+250675190tr-33423356tc+133693442tb+935854032rb+334233576cb+66846736b2-267386850t-83558392r-33423356c-16711682b",
+      "selected_rank_minor_remainder_sha256": "1968d43608af57fdf9ac92159b88d24e5713bb117652b4b54f14aa2fe9a36a92",
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=-1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_basis_size": 21,
+      "full_dimension": 1,
+      "program_sha256": "3746d312255cc0119c60fb5015da541f822e5c721e21e06f9998a192b43d2840",
+      "seconds": 6.947145761000001,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 4,
+      "selected_rank_minor_remainder": "16711678t4b+66846714t3b2-16711678t3r-66846734t3b+66846700t2b2+33423358t3+83558408t2r-568197110t2b-66846700trb+768737220tcb-167116806tb2+267386864t2+484638718tr-434503656tc-167116758tb+28rb+33423348cb-167116792b2+635043770t-618332112r-100270048c+183828452b",
+      "selected_rank_minor_remainder_sha256": "c594120ad7729af3026188d6e4bd6adb81a4db5e09d0cac92d746b5e0c219048",
+      "selected_rank_minor_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=1*r^2",
+      "t_relation_remainder": "0"
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_basis_size": 17,
+      "full_dimension": 1,
+      "program_sha256": "fe90dcb076badfc67211af115bde6a932416072d9f0dc61f9686d8c55da5f64a",
+      "seconds": 0.9938155370000001,
+      "selected_rank_fiber_basis_size": 8,
+      "selected_rank_fiber_dimension": 0,
+      "selected_rank_fiber_vdim": 6,
+      "selected_rank_minor_remainder": "-16711678t4b-33423358t3b2-16711680t3r+100270082t3b-133693432t2b2-2t3-116981750t2r+233963506t2b+334233584tcb-367656934tb2-66846716t2-250675180tr-33423360tc+133693422tb+935854016rb-334233584cb-66846696b2-267386878t-83558398r+33423360c+16711676b",
+      "selected_rank_minor_remainder_sha256": "77e050cfcbf36f043c41e58036303b089c0054aa9ca3cd4c62ac085d712328f5",
+      "selected_rank_minor_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "status": "COMPLETE",
+      "stderr": "",
+      "t_relation": "t=1*r^2",
+      "t_relation_remainder": "0"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-common-repeat-cell11-rank-fiber-v1",
+  "scope": "Exact t-relation membership and selected product-rank cofactor fiber dimensions for all eight cell-11 common rows.",
+  "source_sha256": "a9c3f10fc7e368f88599bce085598d641d0a73352a1f7d54e06abcd9b4aabbf7",
+  "status_counts": {
+    "COMPLETE": 8
+  }
+}
