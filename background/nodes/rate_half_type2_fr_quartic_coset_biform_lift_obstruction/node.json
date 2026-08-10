@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_fr_quartic_coset_biform_lift_obstruction",
+    "title": "Quartic-coset biform lift obstruction for the rate-half type-2 FR countermodel",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the four-copy quartic incidence countermodel, any coset-preserving identification (i,x) -> tau_i x with the smooth domain mu_(16m) is incompatible with a biform of parameter degree m and locator degree at most rho=4m-1, even after arbitrary nonzero row scaling. The leading two parameter coefficients would give degree-at-most-rho polynomials A,B with B(tau_i x)=xA(tau_i x) on three full mu_(4m) cosets; root counting forces A=B=0. Thus the pinned m=64 incidence witness has no natural degree-255 apolar-biform lift. Arbitrary point permutations and the general algebraic FR statement remain open.",
+    "refs": [
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/statement.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/proof.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/claim_contract.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/dependency_subdag.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/audit.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/result.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/provenance.md",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify.py",
+      "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_type2_fr_incidence_only_route_fence"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

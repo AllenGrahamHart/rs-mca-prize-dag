@@ -791,3 +791,35 @@ the incidence-only continuation: the positive residual-(ii) attack must now
 use the generalized locator polynomials `f_gamma`, the common syndrome
 pencil, or the apolar Hankel equations. The `9/4` official residual and both
 crossing budgets remain open.
+
+## Quartic-countermodel biform-lift obstruction (2026-08-10)
+
+The proved node
+`rate_half_type2_fr_quartic_coset_biform_lift_obstruction` tests the most
+natural algebraic continuation of the preceding incidence witness. Identify
+its four copies of `F_257^*` with the four multiplicative cosets of
+`mu_256` in `mu_1024`. On each of the three copies untouched by the deleted
+incidence, the parameter-root polynomial is
+
+```text
+(Gamma-x)^64-c_i.
+```
+
+If these rows came from a biform of locator degree at most `rho=255`, its
+leading two parameter coefficients would give degree-at-most-255 polynomials
+`A,B` satisfying
+
+```text
+B(tau_i x)=x A(tau_i x)
+```
+
+on three full `mu_256` cosets. Root counting forces `A=B=0`, contradicting
+the nonzero row scales. Thus this countermodel has no coset-preserving
+degree-255 apolar-biform lift, even before the Hankel equations are imposed.
+
+This is evidence that the algebraic constraint excluded by the incidence
+fence is material, but it is not `(FR)`: arbitrary point permutations and
+other incidence geometries remain open. The next positive route is now a
+classification or aggregate near-minimum-fiber bound for arbitrary
+realizable shortened-apolar families, not another audit of this quartic
+construction.

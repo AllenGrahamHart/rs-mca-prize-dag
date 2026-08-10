@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify.py",
-      "seconds": 0.362261,
+      "script": "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify.py",
+      "seconds": 0.177356,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_INCIDENCE_ROUTE_FENCE_PASS m=64 N=1024 T=257 min_union=447 min_spend=66 max_W_intersection=189 two_m=128 violation=61\n"
+      "stdout_tail": "RH_TYPE2_FR_QUARTIC_BIFORM_LIFT_OBSTRUCTION_PASS scales=5 ranks=8,16,32,64,128 m=64 n=256 N=1024 rho=255 gcd=1\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_incidence_only_route_fence/verify_audit.py",
-      "seconds": 0.073674,
+      "script": "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/verify_audit.py",
+      "seconds": 0.018919,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_INCIDENCE_ROUTE_FENCE_AUDIT_PASS rows=257 points=1024 min_union=447 min_spend=66 max_meet=189 gap=61\n"
+      "stdout_tail": "RH_TYPE2_FR_QUARTIC_BIFORM_LIFT_OBSTRUCTION_AUDIT_PASS scales=7 pinned_m=64 pinned_N=1024 exponent=255\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
