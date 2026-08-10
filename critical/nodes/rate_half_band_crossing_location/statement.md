@@ -308,3 +308,82 @@ new-mathematics event, which is exactly what a falsifier should
 price). The open theorem target under this hypothesis: the
 max-list-profile upper bound just above sigma = 2^34 (the round-29
 list_profile_bound brief).
+
+## Round-29 addendum (2026-08-10, coordinator-applied on replay: list_profile_bound — no UB landed; the target TRANSFORMED into one exact inequality; a round-28 transport REFUTED)
+
+**THE CONSUMER-BAR CORRECTION (CATCH-24C, sharpens the working
+hypothesis's operational meaning):** the round-28 flagged
+consequence ("the PROVED floor supplies the unsafe half IF the
+crossing lands at k+2^34+c") holds ONLY AT c = 0 — for any c >= 1
+the required unsafe index k+2^34+c-1 exceeds the floor's
+mechanism-space-exhausted reach of 2^34-1, so every c >= 1
+re-opens the unsafe half and demands a NEW floor. **c = 0 is the
+only value that serves adjacency_closing.** Sharpest honest
+bracket on c: [0, 532,575,944,704] (the HD1 top, unbeaten).
+
+**A ROUND-28 TRANSPORT REFUTED (the q-ladder miss, reported as
+such):** the round-28 decay figure was transported as a RATIO
+(0.6865 * log2 q); the three-field exact ladder shows F_LMAX at
+the cell is a q-INDEPENDENT ABSOLUTE constant (7/7/7 at
+q = 17/41/97; decay exactly 2.8074 bits; the ratio falls
+0.687 -> 0.425 as a saturated cap must). The ratio transport
+overstated the razor decay by 62.6x; the corrected absolute
+transport gives c ~ 32, not c ~ 1. ALSO: F_LMAX and B_ca^far are
+NOT equivalent objects (measured: one q-independent, the other
+grows 17/37/51) — the "equivalently" in the round-29 brief was
+wrong. AND: the round-28 "0.1451 -> ~217 units" line has a 91x
+two-readings discrepancy — DO NOT QUOTE until resolved. AND: the
+(FLAT) falsifier and (RH-AC-hi)'s 2^40 flatness demand are NESTED,
+not equivalent — the -hi refutation supplies NO part of the UB
+target (power ratios 2^30.8-2^38.6).
+
+**THE STRUCTURE THEOREM (the instrument survey's real finding):**
+all seven in-repo far-CA instruments share ONE domain for ONE
+reason — each is the unique-decoding threshold 2(n-a) <= n-k,
+i.e. a >= 3n/4, of the difference code, seen seven ways. The open
+bracket [k+2^34, 3n/4) is precisely its non-uniqueness region;
+0 of 7 reach below. The unique threshold-crosser
+(rate_half_list_integer_johnson_safe_anchor, PROVED, reaching
+0.70711n) bounds L_1, not B_ca^far. The Hankel moving-kernel
+branch is ABSENT (the a > 3n/4 discharge is itself incomplete —
+a residual sentence, no node).
+
+**BANKED THEOREMS (validated 0 violations / 21,832 exhaustive
+column-far configurations; T4 tight at its threshold):** T1
+SUNFLOWER RIGIDITY (bad-slope pairs partition into lines; all
+pairwise intersections on a line coincide; petals disjoint;
+m_P <= 1 + r/(a - e_P)); T2 STRATIFIED RIDER (halves the banked
+(RR2) exponent — L_2 -> L_1 — and replaces the blanket r+1 by a
+per-stratum weight = 1 at the minimal core; changes nothing about
+reach, ~2.7e14 bits above target, stated plainly); T3 FISHER
+SUB-STRATUM (pairwise overlaps <= theta < a^2/n give
+#slopes <= (a-theta)/(a^2/n - theta): at sigma = 2^34, <= 32 with
+123 bits margin at theta = n/4; <= 2^39-2^27+1 with 89 bits at
+theta = a^2/n - 1); T4 elementary thresholds (one-line at
+a >= 5n/6; Fisher-finite at a/n > 0.8202 — both worse than the
+banked 3n/4, reported as re-derivation).
+
+**T5 — THE EXACT OBSTRUCTION (the number to carry forward):**
+GAP_FISHER = (k-1) - a^2/n = 532,441,726,975 vs the open bracket
+532,575,944,704 — **ratio 0.999748. The open bracket IS the region
+where the MDS pairwise-overlap cap exceeds the Fisher threshold;
+they end together.** THE NAMED NEXT OBJECT IS SUPERSEDED AND
+SHARPENED: not "an upper bound on the max list profile" but **a
+pairwise-overlap cap below a^2/n = 2^39 + 2^34 + 2^27 (exact
+integer) at sigma = 2^34** — the moment it lands, T3 closes
+(UB-far) with 89 bits of margin. No honest conditional UB exists
+on the rider route (the required hypothesis is false, not
+unproved — T6). The scaled-cell program is STRUCTURALLY INCAPABLE
+of resolving c (bracket interior width 1 at n_s = 8; n_s >= 44
+for ten interior points) and is DECOMMISSIONED for that purpose.
+
+Pilot record: 14 HITS / 1 hard MISS + 1 partial (both its own
+slips, disclosed with direction); a real bug in its own validator
+caught and fixed WITHOUT weakening the theorem (1.68M spurious
+violations diagnosed to a leaked-degree functional; 0 after);
+CATCH-24A fired three times including against its own mandate.
+Replays: d1_core (GAP_FISHER exact) + d2_sunflower (0/21,832) +
+d3_ladder (the exact F_LMAX section identical; the sampled section
+differs only by sample count) — coordinator-verified. Source:
+notes/pilots_20260810/list_profile_bound/ (REPORT.md,
+FABLE_AUDIT.md).

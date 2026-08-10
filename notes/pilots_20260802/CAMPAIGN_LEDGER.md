@@ -4528,3 +4528,41 @@ question (outward); FLAG E adjudication. Pilot: 14 min, blind
 priors before reading, P3's 55% HOLE prior hit, P7 hit-on-location
 miss-on-outcome (the one-level-up nodes CONFIRMED the hole).
 Files: notes/pilots_20260810/k_extremal/{REPORT.md,FABLE_AUDIT.md,DRAFT_SCOPE_FLAGS.md}.
+
+## ROUND 29 BANK 2/4 — list_profile_bound (2026-08-10, coordinator)
+
+**BANKED: no UB at small c — and the failure is an exact number.
+T5 THE OBSTRUCTION IDENTITY: GAP_FISHER = (k-1) - a^2/n =
+532,441,726,975 vs the open bracket 532,575,944,704 — ratio
+0.999748: the bracket IS the MDS-vs-Fisher overlap region; they end
+together.** THE TARGET TRANSFORMED: not "a max-list-profile UB" but
+ONE INEQUALITY — a pairwise-overlap cap below a^2/n = 2^39 + 2^34 +
+2^27 at sigma = 2^34 (T3 then closes UB-far with 89 bits of
+margin). CONSUMER-BAR CORRECTION: c = 0 is the ONLY value serving
+adjacency_closing (c >= 1 re-opens the unsafe half against the
+round-28-exhausted mechanism space) — the working hypothesis's
+payoff is all-or-nothing at c = 0. ROUND-28 TRANSPORT REFUTED: the
+ratio (0.6865 log2 q) reading dies on a three-field q-ladder —
+F_LMAX is an ABSOLUTE 2.8074-bit constant (7/7/7 at q=17/41/97);
+corrected transport c ~ 32; F_LMAX != B_ca^far (measured); the
+"217 units" figure has a 91x two-readings discrepancy —
+DO-NOT-QUOTE flag applied; the (FLAT)/(RH-AC-hi) demands are
+NESTED not equivalent (the 2^40 -hi refutation supplies no part of
+UB-far). STRUCTURE THEOREM: all 7 far-CA instruments = ONE
+unique-decoding threshold (a >= 3n/4) seen seven ways; 0/7 reach
+the bracket; the unique crosser (integer-Johnson, 0.707n) bounds
+L_1 not B_ca^far; the Hankel MOVING-KERNEL branch is ABSENT (the
+above-3n/4 discharge itself incomplete — flagged for Codex).
+BANKED THEOREMS T1-T4 (sunflower rigidity; the stratified rider
+halving (RR2)'s exponent, reach-honest; the Fisher sub-stratum
+bound; elementary thresholds) — validated 0/21,832 exhaustive,
+T4 tight. The scaled-cell program DECOMMISSIONED for c
+(structural width-1 finding). CROSS-PILOT CONVERGENCE flagged:
+T5's overlap-cap object and collinearity_object's {P_S} structure
+are adjacent facets of one extremal question. Pilot: validator bug
+self-caught (1.68M spurious violations diagnosed as code, not used
+to weaken the theorem); CATCH-24A x3 incl. against its own
+mandate; 14 HIT / 2 MISS own-slips disclosed. Replays: GAP exact,
+0/21,832, the q-ladder identical (sampled section differs by
+sample count only — benign). Addendum applied; no status flips.
+Files: notes/pilots_20260810/list_profile_bound/{REPORT.md,FABLE_AUDIT.md}.
