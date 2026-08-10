@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
+    "title": "Clean-endpoint two-sided complement weld",
+    "status": "PROVED",
+    "closure": "exact interpolation and coprime elimination",
+    "statement": "On the clean strict endpoint, interpolation of (X^N-1)/Q_gamma over all supported slopes gives QA+HB=X^N-1 with deg_z B<=m-1. Eliminating this against QV+P_sat W=H yields WB-(X-x_0)=QK and VB+A=-P_sat K, with deg_z K<=4m and deg_X K<=N-1. Thus WB=X-x_0 in the remaining irreducible curve function field.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

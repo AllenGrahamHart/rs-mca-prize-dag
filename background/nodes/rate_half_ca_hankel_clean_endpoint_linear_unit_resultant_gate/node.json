@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
+    "title": "Clean-endpoint linear unit-resultant gate",
+    "status": "PROVED",
+    "closure": "exact norm and local-intersection calculation",
+    "statement": "For the clean two-sided weld WB-(X-x_0)=QK, choose parameter infinity so q_inf=[z^m]Q has degree rho and q_inf(x_0) is nonzero. Then Res_z(Q,W)Res_z(Q,B)=q_inf^(deg_z W+deg_z B)(X-x_0)^m. The exceptional valuations split exactly as ord Res(Q,B)=1 and ord Res(Q,W)=m-1; all remaining resultant factors are supported on q_inf. Both B and W are parameter-dependent, K is nonzero, and deg_z K=deg_z W+deg_z B-m. Thus B has parameter degree strictly between zero and m and, away from the infinity fibre, norm with one simple zero.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

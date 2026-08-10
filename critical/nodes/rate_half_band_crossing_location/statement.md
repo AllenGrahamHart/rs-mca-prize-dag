@@ -1219,3 +1219,40 @@ reducible or product-of-rational-moving-branches continuation remains on the
 clean branch; the live geometric object is the irreducible near-perfect
 cyclic norm. Positive-`O` branches are outside this corollary, and critical
 status remains unchanged.
+
+## Cycle 65: clean two-sided weld and linear unit-resultant gate (2026-08-10, Codex)
+
+The clean irreducible norm now has an exact dual complement. Interpolating
+`(X^N-1)/Q_gamma` over all `4m+1` supported slopes and eliminating against
+the domain-side complement gives
+
+```text
+Q A+H B=X^N-1,       deg_z B<=m-1,
+W B-(X-x_0)=Q K.
+```
+
+Hence `WB=X-x_0` on the irreducible curve. Taking the parameter resultant,
+with `q_inf=[z^m]Q` and actual degrees `b=deg_z B`, `w=deg_z W`, gives
+
+```text
+Res_z(Q,W)Res_z(Q,B)=q_inf^(w+b)(X-x_0)^m.
+```
+
+The exceptional fibre factors as `Q(z;x_0)=c A_0(z)S(z)` with
+`deg A_0=m-1`. The two complements force the exact resultant allocation
+
+```text
+ord_(X-x_0)Res_z(Q,B)=1,
+ord_(X-x_0)Res_z(Q,W)=m-1,
+```
+
+and every remaining factor is supported on the single parameter-infinity
+specialization `q_inf`. An `m`th-power valuation argument further proves
+`1<=deg_z B<=m-1`, `deg_z W>=1`, and
+`deg_z K=deg_z W+deg_z B-m>=0`. The proved leaves are
+`rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld` and
+`rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate`. The live
+clean theorem is now the incompatibility of this degree-`<m` linear
+unit-resultant with the maximal-separation-rank Hankel/apolar kernel curve;
+general curve theory alone does not supply that incompatibility. No critical
+status changes.

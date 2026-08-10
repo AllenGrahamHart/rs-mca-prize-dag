@@ -30577,6 +30577,42 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
+   "title": "Clean-endpoint linear unit-resultant gate",
+   "status": "PROVED",
+   "closure": "exact norm and local-intersection calculation",
+   "statement": "For the clean two-sided weld WB-(X-x_0)=QK, choose parameter infinity so q_inf=[z^m]Q has degree rho and q_inf(x_0) is nonzero. Then Res_z(Q,W)Res_z(Q,B)=q_inf^(deg_z W+deg_z B)(X-x_0)^m. The exceptional valuations split exactly as ord Res(Q,B)=1 and ord Res(Q,W)=m-1; all remaining resultant factors are supported on q_inf. Both B and W are parameter-dependent, K is nonzero, and deg_z K=deg_z W+deg_z B-m. Thus B has parameter degree strictly between zero and m and, away from the infinity fibre, norm with one simple zero.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
+   "title": "Clean-endpoint two-sided complement weld",
+   "status": "PROVED",
+   "closure": "exact interpolation and coprime elimination",
+   "statement": "On the clean strict endpoint, interpolation of (X^N-1)/Q_gamma over all supported slopes gives QA+HB=X^N-1 with deg_z B<=m-1. Eliminating this against QV+P_sat W=H yields WB-(X-x_0)=QK and VB+A=-P_sat K, with deg_z K<=4m and deg_X K<=N-1. Thus WB=X-x_0 in the remaining irreducible curve function field.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
    "status": "PROVED",
@@ -63311,6 +63347,26 @@
    "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "to": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld",
+   "to": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
