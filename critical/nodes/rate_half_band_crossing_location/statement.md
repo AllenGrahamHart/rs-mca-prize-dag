@@ -1068,8 +1068,14 @@ min(a-(4m+2), 4rho-2a); at the argmax 5m/3 needed vs 8m/3 proved —
 ceiling" caution is REFUTED IN PART (a pure cardinality move
 reached 7/4); the next instrument is D2.4's DEGREE COUNT (psi_gamma
 mean weight 5.25m vs the 5m-1 need — NOT self-defeating, ~5%
-headroom) or the overdetermined bivariate system
-P_x(Z) = lambda_x prod_{A_x}(Z-gamma)(Z-mu(x)). The census's
+headroom) or the deficiency-aware bivariate kernel system. At a saturated
+coordinate its column is
+P_x(Z) = lambda_x L_x(Z) prod_{A_x}(Z-gamma); at a deficient coordinate
+the product carries an additional quotient polynomial of degree at most
+m-d_x. Thus the exact unknown count is |W|+Delta_W, not always |W|, with
+Delta_W<=1+O<=m and only one possible extra column when O=0. This correction
+is the proved node `rate_half_bivariate_deficiency_clone_kernel_reduction`;
+raw overdetermination is not itself a rank proof. The census's
 (SAT3) zero-power carries: T = 3 everywhere; F2 (a T = rho+2
 configuration with a* > 7m-1) remains the live falsifier. Pilot
 process note: it caught its own false vacuity fence mid-session
