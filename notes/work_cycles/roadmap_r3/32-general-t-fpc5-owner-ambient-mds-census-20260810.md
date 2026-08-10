@@ -29,4 +29,11 @@ No critical status changes. These ambient points need not reconstruct split
 primitive guarded locators. The exact conclusion is a no-go: owner
 coordinates, MDS support counting, and unguarded linear algebra cannot
 coalesce the residual. The live theorem must count simultaneous splitting
-and guards across the full coordinate body. Upstream export is pending.
+and guards across the full coordinate body.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 7 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `ca93321887b47b0f3323c24ecd4427df2c8dad47`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`058febd07e71302be851d2f13e62cc55a8e689ba`.

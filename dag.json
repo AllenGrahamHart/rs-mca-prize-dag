@@ -30079,7 +30079,11 @@
     "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/result.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/provenance.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_ambient_mds_census/upstream_crosswalk.md"
-   ]
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 exact ambient joint-owner MDS census",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
   },
   {
    "id": "l1_fpc5_tpetal_joint_owner_packing",
