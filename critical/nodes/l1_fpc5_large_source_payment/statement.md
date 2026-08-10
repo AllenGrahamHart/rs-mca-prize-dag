@@ -23,6 +23,23 @@ The target is one disjoint polynomial/profile allocation across first-owned
 sources, touched-petal sets, defects, and exact owners. Raw enumeration of
 sources or touched subsets is not an admissible payment.
 
+## Exact proved prefilter
+
+The proved node `l1_fpc5_large_source_exact_prefilter` now separates the
+bookkeeping reductions from the aggregate target. For every fixed source,
+touched set, and defect degree, put
+
+```text
+h=t ell,       r=2d-h,       u=d-(t-1)ell.
+```
+
+The cell is empty if `u>b`, is a singleton if `r<0` or
+`2d>N+(t-2)ell+b`, and is polynomially paid whenever either the ordinary or
+joint-background Johnson denominator is positive. Hence the only live fixed
+cells satisfy the exact residual `(PF6)` in that supplier. This reduction is
+uniform over every official `ell`; the sampled EMPTY/SINGLETON percentages
+below remain evidence and are not used as theorem premises.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three

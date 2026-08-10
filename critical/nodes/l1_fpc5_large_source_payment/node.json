@@ -5,8 +5,8 @@
     "title": "L1 FPC5: large-source full-petal payment",
     "status": "TARGET",
     "key": true,
-    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales. The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. In every cell, 2<=t<2M-4, d<ell(M-2), and max(0,2d+1-t ell)->infinity. The conclusion is one disjoint polynomial/profile allocation across source layouts, touched-petal sets, defects, and exact owners.",
-    "attack_surface": "derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
+    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
+    "attack_surface": "inside (PF6), derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
     "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
     "refs": [
       "critical/nodes/l1_fpc5_large_source_payment/statement.md",

@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_large_source_exact_prefilter",
+    "title": "Exact EMPTY, singleton, and Johnson prefilter for large-source FPC5 cells",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a fixed large-source FPC5 full-petal cell with h=t ell, r=2d-h, and u=d-(t-1)ell, u>b makes the cell empty; r<0 or 2d>N+(t-2)ell+b makes it a singleton; and the ordinary and joint-background positive-Johnson denominators give polynomial fixed-cell payments. Every unpaid cell therefore lies in the exact residual (PF6).",
+    "refs": [
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/statement.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/proof.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/claim_contract.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/dependency_subdag.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/audit.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/result.md",
+      "background/nodes/l1_fpc5_large_source_exact_prefilter/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fixed_support_defect_johnson_bound"
+    },
+    {
+      "from": "l1_background_overlap_singleton_payment"
+    },
+    {
+      "from": "l1_joint_core_background_johnson_bound"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

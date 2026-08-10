@@ -29454,12 +29454,28 @@
    ]
   },
   {
+   "id": "l1_fpc5_large_source_exact_prefilter",
+   "title": "Exact EMPTY, singleton, and Johnson prefilter for large-source FPC5 cells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a fixed large-source FPC5 full-petal cell with h=t ell, r=2d-h, and u=d-(t-1)ell, u>b makes the cell empty; r<0 or 2d>N+(t-2)ell+b makes it a singleton; and the ordinary and joint-background positive-Johnson denominators give polynomial fixed-cell payments. Every unpaid cell therefore lies in the exact residual (PF6).",
+   "refs": [
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/statement.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/proof.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/claim_contract.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/dependency_subdag.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/audit.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/result.md",
+    "background/nodes/l1_fpc5_large_source_exact_prefilter/provenance.md"
+   ]
+  },
+  {
    "id": "l1_fpc5_large_source_payment",
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales. The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. In every cell, 2<=t<2M-4, d<ell(M-2), and max(0,2d+1-t ell)->infinity. The conclusion is one disjoint polynomial/profile allocation across source layouts, touched-petal sets, defects, and exact owners.",
-   "attack_surface": "derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
+   "attack_surface": "inside (PF6), derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -61835,6 +61851,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_background_overlap_singleton_payment",
+   "to": "l1_fpc5_large_source_exact_prefilter",
+   "kind": "req"
+  },
+  {
    "from": "l1_balanced_pencil_anchor_determinant_atlas",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
    "kind": "req"
@@ -61848,6 +61869,16 @@
    "from": "l1_first_match_totality_scope_pin",
    "to": "f_imgfib_consumer_descriptor",
    "kind": "req"
+  },
+  {
+   "from": "l1_fixed_support_defect_johnson_bound",
+   "to": "l1_fpc5_large_source_exact_prefilter",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_large_source_payment",
@@ -62132,6 +62163,11 @@
   {
    "from": "l1_general_first_layout_domination",
    "to": "l1_fpc5_ratequarter_m4_t2_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_joint_core_background_johnson_bound",
+   "to": "l1_fpc5_large_source_exact_prefilter",
    "kind": "req"
   },
   {
