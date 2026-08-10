@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+    "title": "Every fixed required background set gives a codimension ell-1 Hankel cell",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "In any arbitrary-t FPC5 cell with u=d-(t-1)ell>=0, fix a required u-subset R of background zeros. Adjoining its locator with label zero to the touched-petal CRT problem gives one owner-free rational Pade-Hankel kernel with exactly ell-1 full-rank rows. Its locator vector space has dimension d-ell+2 and its monic chart has affine codimension ell-1, independently of t and u. The fixed-R incidences obey the exact binomial background-root identity, and lexicographic first-R assignment partitions contributors; no sum over R is paid.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/statement.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/proof.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/audit.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/result.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/upstream_crosswalk.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_cauchy_hankel_kernel"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

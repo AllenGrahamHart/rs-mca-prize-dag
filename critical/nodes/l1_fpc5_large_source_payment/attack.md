@@ -39,20 +39,25 @@
    obey the exact `Lambda` recurrence. Attack this structured
    split-divisor kernel rather than a generic affine flat; retain all
    punctured primitive and background Cauchy tests.
-10. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+10. For `u>=0`, use
+   `l1_fpc5_tpetal_fixed_background_hankel_codimension`: each fixed required
+   `u`-set gives exactly `ell-1` full-rank Hankel rows and monic codimension
+   `ell-1`. Respect the weighted incidence identity or a canonical first-`R`
+   rule; do not multiply a per-`R` bound by all formal subsets.
+11. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
    `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
    pencil of core-split locators. Do not identify it with a same-domain
    divisor census: its natural determinant parent is the disjoint
    touched-petal locator.
-11. Seek a uniform bounded-tail dual-domain pencil census across many
+12. Seek a uniform bounded-tail dual-domain pencil census across many
    distinct owners, preserving the petal congruences and remaining affine
    background guards. Reuse Przemek's split-pencil methods only after
    proving the required domain and normalization transport.
-12. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-13. Seek a collective large-`M` incidence or first-owner inequality before
+13. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+14. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-14. Price touched-petal multiplicity and source multiplicity together.
-15. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+15. Price touched-petal multiplicity and source multiplicity together.
+16. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

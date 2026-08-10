@@ -165,6 +165,21 @@ exact `Lambda` recurrence. Thus the remaining flat is not arbitrary: it is
 a rational Pade-Hankel kernel intersected with the core divisors, with
 punctured first-row primitive tests and background Cauchy guards.
 
+For `u=d-(t-1)ell>=0`, the proved node
+`l1_fpc5_tpetal_fixed_background_hankel_codimension` moves any fixed
+required `u`-set `R` of background zeros into the same CRT/Hankel system by
+giving it label zero. The augmented block has exactly
+
+```text
+t ell+u-d-1=ell-1
+```
+
+full-rank rows, locator dimension `d-ell+2`, and monic codimension
+`ell-1`, independently of `t` and `u`. The exact incidence sum weights a
+candidate by `binom(|R_H|,u)`; a first-`R` rule is disjoint but no longer a
+complete linear chart. Thus the background threshold is now normalized,
+but its aggregate payment remains open.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write
