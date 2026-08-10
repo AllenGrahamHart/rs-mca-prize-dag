@@ -823,3 +823,18 @@ other incidence geometries remain open. The next positive route is now a
 classification or aggregate near-minimum-fiber bound for arbitrary
 realizable shortened-apolar families, not another audit of this quartic
 construction.
+
+## Small-endpoint product-lift falsifier sweep (2026-08-10)
+
+The preregistered `m=2` sweep tested the exact forced `O=0`, `T=rho+2`
+incidence shape over `F_97`: 31 double-root rows form `K_9` minus five
+edges, and one row has one supported plus one residual root. Across eight
+bounded Modal workers, all `599,897` random placements had product-code
+parity rank `32`; no nonzero row scaling existed, so none reached Hankel
+compatibility.
+
+This is recorded as a **zero-power null**, not evidence of universal
+nonrealizability. Generic placements overwhelmingly have full rank; any
+lift must be highly structured. The route decision is to stop random
+placement sampling and seek an exact classification of the near-saturated
+biform or a coverage-defined structured search.
