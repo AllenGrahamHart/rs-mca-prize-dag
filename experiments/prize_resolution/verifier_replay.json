@@ -2,14 +2,78 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 10,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_deficiency_clone_kernel_reduction/verify.py",
+      "seconds": 0.015984,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_DEFICIENCY_CLONE_KERNEL_REDUCTION_PASS coefficient_checks=167\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_deficiency_clone_kernel_reduction/verify_audit.py",
+      "seconds": 0.014934,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_DEFICIENCY_CLONE_KERNEL_REDUCTION_AUDIT_PASS coefficient_checks=147\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify.py",
+      "seconds": 0.33819,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_PASS pairs=10 rank=5\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify_audit.py",
+      "seconds": 0.023466,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_AUDIT_PASS pairs=10\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_schur_interpolation_defect_formula/verify.py",
+      "seconds": 0.028956,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_SCHUR_INTERPOLATION_DEFECT_FORMULA_PASS cases=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_schur_interpolation_defect_formula/verify_audit.py",
+      "seconds": 0.023167,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_SCHUR_INTERPOLATION_DEFECT_FORMULA_AUDIT_PASS zero_defects=100\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_single_coefficient_rational_interpolation_criterion/verify.py",
+      "seconds": 0.015953,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_SINGLE_COEFFICIENT_RATIONAL_INTERPOLATION_CRITERION_PASS cases=16\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_bivariate_single_coefficient_rational_interpolation_criterion/verify_audit.py",
+      "seconds": 0.018056,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_BIVARIATE_SINGLE_COEFFICIENT_RATIONAL_INTERPOLATION_CRITERION_AUDIT_PASS examples=3\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_bivariate_top_vandermonde_schur_reduction/verify.py",
-      "seconds": 0.017947,
+      "seconds": 0.017561,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_BIVARIATE_TOP_VANDERMONDE_SCHUR_REDUCTION_PASS cases=3\n"
@@ -17,7 +81,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_bivariate_top_vandermonde_schur_reduction/verify_audit.py",
-      "seconds": 0.019848,
+      "seconds": 0.02151,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_BIVARIATE_TOP_VANDERMONDE_SCHUR_REDUCTION_AUDIT_PASS m1_pairs=10 residual_width=1 residual_rank=0\n"

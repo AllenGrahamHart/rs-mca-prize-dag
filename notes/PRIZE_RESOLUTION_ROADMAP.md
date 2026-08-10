@@ -26243,3 +26243,74 @@ rank zero; the bounded `m=2` bad-pattern campaign tests widths `2..5` and
 always finds full residual rank. The next task is to derive an incidence-level
 formula or minor system for `S_W` and connect bad overlap to its column
 independence. No critical status changes.
+# Cycle 60: rate-half Schur interpolation defect (2026-08-10)
+
+## Exact residual formula
+
+Write the normalized highest-clone polynomial at `x` as
+
+```text
+H_x(Y)=Y^Delta_x (Y-mu_x) product_(gamma in A_x)(Y-gamma)
+      =sum_j h_j(x)Y^j.
+```
+
+After pivoting on any `4m+1` points `P`, exact Lagrange elimination gives the
+nonpivot Schur entry
+
+```text
+c_(1,x) (x^i h_j(x)-sum_(p in P) ell_p(x)p^i h_j(p)).
+```
+
+Lower deficiency clones retain their original entries because their top
+coefficient is zero. Thus the residual matrix is not a generic rectangular
+matrix: it is precisely the interpolation defect of elementary-symmetric
+root data, with direct monomial columns at deficient points.
+
+## Frontier
+
+`rate_half_bivariate_schur_interpolation_defect_formula` is a proved leaf.
+In the saturated branch, full rank of any one coefficient-defect block pays
+the full residual rank. The formula itself asserts no such rank bound. The
+next task is to characterize failure of a single coefficient block without
+depending on the chosen pivots.
+# Cycle 61: rate-half rational trace criterion (2026-08-10)
+
+## Pivot-free equivalence
+
+Put `s=4m+1`, `n=|W|`, and `r=n-s`. For scalar data `h:W->F`, the two-block
+matrix with columns
+
+```text
+(x^i)_(0<=i<s)  and  (h(x)x^i)_(0<=i<s)
+```
+
+has full column rank exactly when there are no polynomials `0!=P,Q` with
+`deg P,deg Q<r` and `Q(x)=h(x)P(x)` on `W`. If the unique clean-endpoint
+deficient point belongs to `W`, its lower clone punctures that one agreement
+condition. This follows from the exact dual Reed-Solomon kernel
+`lambda_x=P(x)/sigma'_W(x)`.
+
+For the official coefficient one below the top,
+
+```text
+h_m(x)=-(mu_x+sum_(gamma in A_x)gamma).
+```
+
+At `m=2` this differs by a constant from the third incidence root `nu_x`.
+The remaining scalar theorem is therefore explicit: the official trace data
+must avoid a numerator/denominator of degree below the residual width.
+
+## Bounded falsification evidence
+
+A 16-worker, 30-second-per-worker Modal profile over `F_97` covered `125,335`
+bad canonical pair unions from `58,644` regular incidence systems. It found
+`105,574` saturated and `19,761` one-deficient cases. Every complete matrix
+had full rank, and each of the `j=1` and `j=2` coefficient blocks independently
+had full residual rank in every case. The `j=0` block failed in `23,327`
+saturated and `4,326` deficient cases, exactly exposing the zero-root scalar
+factor and showing why the top trace coefficient is the robust choice.
+
+This is falsification evidence at one small field, not an official-scale
+proof. The proved leaf
+`rate_half_bivariate_single_coefficient_rational_interpolation_criterion`
+isolates the exact theorem still needed; no critical status changes.

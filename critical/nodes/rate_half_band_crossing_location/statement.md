@@ -1132,3 +1132,37 @@ is zero; for the sampled `m=2` open band it is only `2..5`. The proved node is
 `rate_half_bivariate_top_vandermonde_schur_reduction`. The remaining theorem
 is now the structured full-column-rank problem for `S_W`, not the original
 large matrix. No critical status changes.
+
+## Cycles 60-61: exact interpolation defect and rational trace criterion (2026-08-10, Codex)
+
+The Schur matrix now has an exact entry formula. If
+`H_x(Y)=sum_j h_j(x)Y^j` is the normalized highest-clone root product and
+`P` is a `4m+1`-point pivot set, a nonpivot highest clone contributes
+
+```text
+c_(1,x)(x^i h_j(x)-sum_(p in P) ell_p(x)p^i h_j(p)).
+```
+
+Lower deficiency clones remain direct monomial columns. The proved node is
+`rate_half_bivariate_schur_interpolation_defect_formula`.
+
+The coefficient block one below the top admits a pivot-free characterization.
+Writing `r=|W|-(4m+1)`, it has full rank exactly when there are no
+`0!=P,Q` of degrees below `r` satisfying
+
+```text
+Q(x)=h_m(x)P(x),
+h_m(x)=-(mu_x+sum_(gamma in A_x)gamma),
+```
+
+on `W`; when the unique deficient point lies in `W`, that one equation is
+punctured. This is the proved node
+`rate_half_bivariate_single_coefficient_rational_interpolation_criterion`.
+The unresolved rank step is therefore the explicit official-scale exclusion
+of this low-degree rational trace interpolant.
+
+A bounded `m=2`, `F_97` Modal profile tested `125,335` bad pair unions
+(`105,574` saturated, `19,761` deficient). Every full matrix had full rank,
+and both tested trace-related blocks independently had full residual rank in every
+case; there were no exceptions. This is strong one-scale falsification
+evidence, not a proof, so the critical status remains unchanged.

@@ -1,0 +1,964 @@
+{
+  "complete": true,
+  "completed_tasks": 16,
+  "error": null,
+  "exceptions": [],
+  "histograms": {
+    "deficient_block_ranks": {
+      "0,2,2": 1803,
+      "0,3,3": 2523,
+      "2,2,2": 6455,
+      "3,3,3": 8980
+    },
+    "deficient_full_schur_block_ranks": {
+      "0,3,3": 1803,
+      "0,4,4": 2523,
+      "3,3,3": 6455,
+      "4,4,4": 8980
+    },
+    "deficient_pair_full_sets": {
+      "01,02,12": 19761
+    },
+    "saturated_block_ranks": {
+      "0,2,2": 10993,
+      "0,3,3": 12334,
+      "2,2,2": 38366,
+      "3,3,3": 43881
+    },
+    "saturated_full_schur_block_ranks": {
+      "0,2,2": 10993,
+      "0,3,3": 12334,
+      "2,2,2": 38366,
+      "3,3,3": 43881
+    },
+    "saturated_pair_full_sets": {
+      "01,02,12": 105574
+    }
+  },
+  "parameters": {
+    "field": 97,
+    "m": 2,
+    "pivot_rule": "first 9 sorted support points",
+    "seconds_per_task": 30.0,
+    "tasks": 16,
+    "trial_cap_per_task": 100000
+  },
+  "rows": [
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6482,
+        "any_pair_full_deficient": 1164,
+        "any_pair_full_saturated": 6482,
+        "any_single_full_deficient": 1164,
+        "any_single_full_saturated": 6482,
+        "attempted": 5394,
+        "bad_pairs": 7646,
+        "deficient_w": 1164,
+        "full_matrix_rank": 7646,
+        "j0_full_deficient": 928,
+        "j0_full_saturated": 5056,
+        "j1_full_deficient": 1164,
+        "j1_full_saturated": 6482,
+        "j2_full_deficient": 1164,
+        "j2_full_saturated": 6482,
+        "regular_incidence": 3579,
+        "saturated_w": 6482
+      },
+      "elapsed": 30.007990727,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 116,
+          "0,3,3": 120,
+          "2,2,2": 399,
+          "3,3,3": 529
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 116,
+          "0,4,4": 120,
+          "3,3,3": 399,
+          "4,4,4": 529
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1164
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 652,
+          "0,3,3": 774,
+          "2,2,2": 2369,
+          "3,3,3": 2687
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 652,
+          "0,3,3": 774,
+          "2,2,2": 2369,
+          "3,3,3": 2687
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6482
+        }
+      },
+      "seed": 0
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 7917,
+        "any_pair_full_deficient": 1464,
+        "any_pair_full_saturated": 7917,
+        "any_single_full_deficient": 1464,
+        "any_single_full_saturated": 7917,
+        "attempted": 6597,
+        "bad_pairs": 9381,
+        "deficient_w": 1464,
+        "full_matrix_rank": 9381,
+        "j0_full_deficient": 1155,
+        "j0_full_saturated": 6136,
+        "j1_full_deficient": 1464,
+        "j1_full_saturated": 7917,
+        "j2_full_deficient": 1464,
+        "j2_full_saturated": 7917,
+        "regular_incidence": 4360,
+        "saturated_w": 7917
+      },
+      "elapsed": 30.00372251,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 115,
+          "0,3,3": 194,
+          "2,2,2": 444,
+          "3,3,3": 711
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 115,
+          "0,4,4": 194,
+          "3,3,3": 444,
+          "4,4,4": 711
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1464
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 827,
+          "0,3,3": 954,
+          "2,2,2": 2841,
+          "3,3,3": 3295
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 827,
+          "0,3,3": 954,
+          "2,2,2": 2841,
+          "3,3,3": 3295
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 7917
+        }
+      },
+      "seed": 1
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6166,
+        "any_pair_full_deficient": 1198,
+        "any_pair_full_saturated": 6166,
+        "any_single_full_deficient": 1198,
+        "any_single_full_saturated": 6166,
+        "attempted": 5323,
+        "bad_pairs": 7364,
+        "deficient_w": 1198,
+        "full_matrix_rank": 7364,
+        "j0_full_deficient": 953,
+        "j0_full_saturated": 4783,
+        "j1_full_deficient": 1198,
+        "j1_full_saturated": 6166,
+        "j2_full_deficient": 1198,
+        "j2_full_saturated": 6166,
+        "regular_incidence": 3474,
+        "saturated_w": 6166
+      },
+      "elapsed": 30.004863601,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 99,
+          "0,3,3": 146,
+          "2,2,2": 413,
+          "3,3,3": 540
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 99,
+          "0,4,4": 146,
+          "3,3,3": 413,
+          "4,4,4": 540
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1198
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 645,
+          "0,3,3": 738,
+          "2,2,2": 2193,
+          "3,3,3": 2590
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 645,
+          "0,3,3": 738,
+          "2,2,2": 2193,
+          "3,3,3": 2590
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6166
+        }
+      },
+      "seed": 2
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6445,
+        "any_pair_full_deficient": 1169,
+        "any_pair_full_saturated": 6445,
+        "any_single_full_deficient": 1169,
+        "any_single_full_saturated": 6445,
+        "attempted": 5328,
+        "bad_pairs": 7614,
+        "deficient_w": 1169,
+        "full_matrix_rank": 7614,
+        "j0_full_deficient": 904,
+        "j0_full_saturated": 5037,
+        "j1_full_deficient": 1169,
+        "j1_full_saturated": 6445,
+        "j2_full_deficient": 1169,
+        "j2_full_saturated": 6445,
+        "regular_incidence": 3566,
+        "saturated_w": 6445
+      },
+      "elapsed": 30.001982612,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 120,
+          "0,3,3": 145,
+          "2,2,2": 378,
+          "3,3,3": 526
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 120,
+          "0,4,4": 145,
+          "3,3,3": 378,
+          "4,4,4": 526
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1169
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 652,
+          "0,3,3": 756,
+          "2,2,2": 2409,
+          "3,3,3": 2628
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 652,
+          "0,3,3": 756,
+          "2,2,2": 2409,
+          "3,3,3": 2628
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6445
+        }
+      },
+      "seed": 3
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6367,
+        "any_pair_full_deficient": 1204,
+        "any_pair_full_saturated": 6367,
+        "any_single_full_deficient": 1204,
+        "any_single_full_saturated": 6367,
+        "attempted": 5308,
+        "bad_pairs": 7571,
+        "deficient_w": 1204,
+        "full_matrix_rank": 7571,
+        "j0_full_deficient": 947,
+        "j0_full_saturated": 4923,
+        "j1_full_deficient": 1204,
+        "j1_full_saturated": 6367,
+        "j2_full_deficient": 1204,
+        "j2_full_saturated": 6367,
+        "regular_incidence": 3508,
+        "saturated_w": 6367
+      },
+      "elapsed": 30.003467331,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 96,
+          "0,3,3": 161,
+          "2,2,2": 393,
+          "3,3,3": 554
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 96,
+          "0,4,4": 161,
+          "3,3,3": 393,
+          "4,4,4": 554
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1204
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 681,
+          "0,3,3": 763,
+          "2,2,2": 2255,
+          "3,3,3": 2668
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 681,
+          "0,3,3": 763,
+          "2,2,2": 2255,
+          "3,3,3": 2668
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6367
+        }
+      },
+      "seed": 4
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 7913,
+        "any_pair_full_deficient": 1510,
+        "any_pair_full_saturated": 7913,
+        "any_single_full_deficient": 1510,
+        "any_single_full_saturated": 7913,
+        "attempted": 6781,
+        "bad_pairs": 9423,
+        "deficient_w": 1510,
+        "full_matrix_rank": 9423,
+        "j0_full_deficient": 1157,
+        "j0_full_saturated": 6217,
+        "j1_full_deficient": 1510,
+        "j1_full_saturated": 7913,
+        "j2_full_deficient": 1510,
+        "j2_full_saturated": 7913,
+        "regular_incidence": 4378,
+        "saturated_w": 7913
+      },
+      "elapsed": 30.003357329,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 153,
+          "0,3,3": 200,
+          "2,2,2": 495,
+          "3,3,3": 662
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 153,
+          "0,4,4": 200,
+          "3,3,3": 495,
+          "4,4,4": 662
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1510
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 796,
+          "0,3,3": 900,
+          "2,2,2": 2897,
+          "3,3,3": 3320
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 796,
+          "0,3,3": 900,
+          "2,2,2": 2897,
+          "3,3,3": 3320
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 7913
+        }
+      },
+      "seed": 5
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 5463,
+        "any_pair_full_deficient": 992,
+        "any_pair_full_saturated": 5463,
+        "any_single_full_deficient": 992,
+        "any_single_full_saturated": 5463,
+        "attempted": 4611,
+        "bad_pairs": 6455,
+        "deficient_w": 992,
+        "full_matrix_rank": 6455,
+        "j0_full_deficient": 768,
+        "j0_full_saturated": 4243,
+        "j1_full_deficient": 992,
+        "j1_full_saturated": 5463,
+        "j2_full_deficient": 992,
+        "j2_full_saturated": 5463,
+        "regular_incidence": 3074,
+        "saturated_w": 5463
+      },
+      "elapsed": 30.002245551999998,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 95,
+          "0,3,3": 129,
+          "2,2,2": 321,
+          "3,3,3": 447
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 95,
+          "0,4,4": 129,
+          "3,3,3": 321,
+          "4,4,4": 447
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 992
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 581,
+          "0,3,3": 639,
+          "2,2,2": 1988,
+          "3,3,3": 2255
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 581,
+          "0,3,3": 639,
+          "2,2,2": 1988,
+          "3,3,3": 2255
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 5463
+        }
+      },
+      "seed": 6
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6376,
+        "any_pair_full_deficient": 1184,
+        "any_pair_full_saturated": 6376,
+        "any_single_full_deficient": 1184,
+        "any_single_full_saturated": 6376,
+        "attempted": 5357,
+        "bad_pairs": 7560,
+        "deficient_w": 1184,
+        "full_matrix_rank": 7560,
+        "j0_full_deficient": 938,
+        "j0_full_saturated": 4995,
+        "j1_full_deficient": 1184,
+        "j1_full_saturated": 6376,
+        "j2_full_deficient": 1184,
+        "j2_full_saturated": 6376,
+        "regular_incidence": 3554,
+        "saturated_w": 6376
+      },
+      "elapsed": 30.002108407999998,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 100,
+          "0,3,3": 146,
+          "2,2,2": 381,
+          "3,3,3": 557
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 100,
+          "0,4,4": 146,
+          "3,3,3": 381,
+          "4,4,4": 557
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1184
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 674,
+          "0,3,3": 707,
+          "2,2,2": 2346,
+          "3,3,3": 2649
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 674,
+          "0,3,3": 707,
+          "2,2,2": 2346,
+          "3,3,3": 2649
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6376
+        }
+      },
+      "seed": 7
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 5528,
+        "any_pair_full_deficient": 1015,
+        "any_pair_full_saturated": 5528,
+        "any_single_full_deficient": 1015,
+        "any_single_full_saturated": 5528,
+        "attempted": 4588,
+        "bad_pairs": 6543,
+        "deficient_w": 1015,
+        "full_matrix_rank": 6543,
+        "j0_full_deficient": 777,
+        "j0_full_saturated": 4337,
+        "j1_full_deficient": 1015,
+        "j1_full_saturated": 5528,
+        "j2_full_deficient": 1015,
+        "j2_full_saturated": 5528,
+        "regular_incidence": 3036,
+        "saturated_w": 5528
+      },
+      "elapsed": 30.010742726,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 104,
+          "0,3,3": 134,
+          "2,2,2": 328,
+          "3,3,3": 449
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 104,
+          "0,4,4": 134,
+          "3,3,3": 328,
+          "4,4,4": 449
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1015
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 565,
+          "0,3,3": 626,
+          "2,2,2": 2010,
+          "3,3,3": 2327
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 565,
+          "0,3,3": 626,
+          "2,2,2": 2010,
+          "3,3,3": 2327
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 5528
+        }
+      },
+      "seed": 8
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 7819,
+        "any_pair_full_deficient": 1490,
+        "any_pair_full_saturated": 7819,
+        "any_single_full_deficient": 1490,
+        "any_single_full_saturated": 7819,
+        "attempted": 6579,
+        "bad_pairs": 9309,
+        "deficient_w": 1490,
+        "full_matrix_rank": 9309,
+        "j0_full_deficient": 1140,
+        "j0_full_saturated": 6122,
+        "j1_full_deficient": 1490,
+        "j1_full_saturated": 7819,
+        "j2_full_deficient": 1490,
+        "j2_full_saturated": 7819,
+        "regular_incidence": 4375,
+        "saturated_w": 7819
+      },
+      "elapsed": 30.006869496,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 158,
+          "0,3,3": 192,
+          "2,2,2": 458,
+          "3,3,3": 682
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 158,
+          "0,4,4": 192,
+          "3,3,3": 458,
+          "4,4,4": 682
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1490
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 783,
+          "0,3,3": 914,
+          "2,2,2": 2805,
+          "3,3,3": 3317
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 783,
+          "0,3,3": 914,
+          "2,2,2": 2805,
+          "3,3,3": 3317
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 7819
+        }
+      },
+      "seed": 9
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6347,
+        "any_pair_full_deficient": 1211,
+        "any_pair_full_saturated": 6347,
+        "any_single_full_deficient": 1211,
+        "any_single_full_saturated": 6347,
+        "attempted": 5377,
+        "bad_pairs": 7558,
+        "deficient_w": 1211,
+        "full_matrix_rank": 7558,
+        "j0_full_deficient": 932,
+        "j0_full_saturated": 4944,
+        "j1_full_deficient": 1211,
+        "j1_full_saturated": 6347,
+        "j2_full_deficient": 1211,
+        "j2_full_saturated": 6347,
+        "regular_incidence": 3563,
+        "saturated_w": 6347
+      },
+      "elapsed": 30.014133956,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 117,
+          "0,3,3": 162,
+          "2,2,2": 416,
+          "3,3,3": 516
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 117,
+          "0,4,4": 162,
+          "3,3,3": 416,
+          "4,4,4": 516
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1211
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 675,
+          "0,3,3": 728,
+          "2,2,2": 2452,
+          "3,3,3": 2492
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 675,
+          "0,3,3": 728,
+          "2,2,2": 2452,
+          "3,3,3": 2492
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6347
+        }
+      },
+      "seed": 10
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 4522,
+        "any_pair_full_deficient": 844,
+        "any_pair_full_saturated": 4522,
+        "any_single_full_deficient": 844,
+        "any_single_full_saturated": 4522,
+        "attempted": 3853,
+        "bad_pairs": 5366,
+        "deficient_w": 844,
+        "full_matrix_rank": 5366,
+        "j0_full_deficient": 652,
+        "j0_full_saturated": 3509,
+        "j1_full_deficient": 844,
+        "j1_full_saturated": 4522,
+        "j2_full_deficient": 844,
+        "j2_full_saturated": 4522,
+        "regular_incidence": 2505,
+        "saturated_w": 4522
+      },
+      "elapsed": 30.008802687000003,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 74,
+          "0,3,3": 118,
+          "2,2,2": 268,
+          "3,3,3": 384
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 74,
+          "0,4,4": 118,
+          "3,3,3": 268,
+          "4,4,4": 384
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 844
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 487,
+          "0,3,3": 526,
+          "2,2,2": 1621,
+          "3,3,3": 1888
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 487,
+          "0,3,3": 526,
+          "2,2,2": 1621,
+          "3,3,3": 1888
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 4522
+        }
+      },
+      "seed": 11
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6239,
+        "any_pair_full_deficient": 1194,
+        "any_pair_full_saturated": 6239,
+        "any_single_full_deficient": 1194,
+        "any_single_full_saturated": 6239,
+        "attempted": 5382,
+        "bad_pairs": 7433,
+        "deficient_w": 1194,
+        "full_matrix_rank": 7433,
+        "j0_full_deficient": 936,
+        "j0_full_saturated": 4846,
+        "j1_full_deficient": 1194,
+        "j1_full_saturated": 6239,
+        "j2_full_deficient": 1194,
+        "j2_full_saturated": 6239,
+        "regular_incidence": 3550,
+        "saturated_w": 6239
+      },
+      "elapsed": 30.002403774999998,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 117,
+          "0,3,3": 141,
+          "2,2,2": 410,
+          "3,3,3": 526
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 117,
+          "0,4,4": 141,
+          "3,3,3": 410,
+          "4,4,4": 526
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1194
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 668,
+          "0,3,3": 725,
+          "2,2,2": 2283,
+          "3,3,3": 2563
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 668,
+          "0,3,3": 725,
+          "2,2,2": 2283,
+          "3,3,3": 2563
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6239
+        }
+      },
+      "seed": 12
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 7650,
+        "any_pair_full_deficient": 1460,
+        "any_pair_full_saturated": 7650,
+        "any_single_full_deficient": 1460,
+        "any_single_full_saturated": 7650,
+        "attempted": 6372,
+        "bad_pairs": 9110,
+        "deficient_w": 1460,
+        "full_matrix_rank": 9110,
+        "j0_full_deficient": 1171,
+        "j0_full_saturated": 5903,
+        "j1_full_deficient": 1460,
+        "j1_full_saturated": 7650,
+        "j2_full_deficient": 1460,
+        "j2_full_saturated": 7650,
+        "regular_incidence": 4199,
+        "saturated_w": 7650
+      },
+      "elapsed": 30.001281636999998,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 123,
+          "0,3,3": 166,
+          "2,2,2": 487,
+          "3,3,3": 684
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 123,
+          "0,4,4": 166,
+          "3,3,3": 487,
+          "4,4,4": 684
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1460
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 781,
+          "0,3,3": 966,
+          "2,2,2": 2673,
+          "3,3,3": 3230
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 781,
+          "0,3,3": 966,
+          "2,2,2": 2673,
+          "3,3,3": 3230
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 7650
+        }
+      },
+      "seed": 13
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 7939,
+        "any_pair_full_deficient": 1436,
+        "any_pair_full_saturated": 7939,
+        "any_single_full_deficient": 1436,
+        "any_single_full_saturated": 7939,
+        "attempted": 6690,
+        "bad_pairs": 9375,
+        "deficient_w": 1436,
+        "full_matrix_rank": 9375,
+        "j0_full_deficient": 1130,
+        "j0_full_saturated": 6193,
+        "j1_full_deficient": 1436,
+        "j1_full_saturated": 7939,
+        "j2_full_deficient": 1436,
+        "j2_full_saturated": 7939,
+        "regular_incidence": 4400,
+        "saturated_w": 7939
+      },
+      "elapsed": 30.002026002,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 119,
+          "0,3,3": 187,
+          "2,2,2": 467,
+          "3,3,3": 663
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 119,
+          "0,4,4": 187,
+          "3,3,3": 467,
+          "4,4,4": 663
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1436
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 842,
+          "0,3,3": 904,
+          "2,2,2": 2885,
+          "3,3,3": 3308
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 842,
+          "0,3,3": 904,
+          "2,2,2": 2885,
+          "3,3,3": 3308
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 7939
+        }
+      },
+      "seed": 14
+    },
+    {
+      "counters": {
+        "all_blocks_full_saturated": 6401,
+        "any_pair_full_deficient": 1226,
+        "any_pair_full_saturated": 6401,
+        "any_single_full_deficient": 1226,
+        "any_single_full_saturated": 6401,
+        "attempted": 5327,
+        "bad_pairs": 7627,
+        "deficient_w": 1226,
+        "full_matrix_rank": 7627,
+        "j0_full_deficient": 947,
+        "j0_full_saturated": 5003,
+        "j1_full_deficient": 1226,
+        "j1_full_saturated": 6401,
+        "j2_full_deficient": 1226,
+        "j2_full_saturated": 6401,
+        "regular_incidence": 3523,
+        "saturated_w": 6401
+      },
+      "elapsed": 30.002776205000004,
+      "exceptions": [],
+      "histograms": {
+        "deficient_block_ranks": {
+          "0,2,2": 97,
+          "0,3,3": 182,
+          "2,2,2": 397,
+          "3,3,3": 550
+        },
+        "deficient_full_schur_block_ranks": {
+          "0,3,3": 97,
+          "0,4,4": 182,
+          "3,3,3": 397,
+          "4,4,4": 550
+        },
+        "deficient_pair_full_sets": {
+          "01,02,12": 1226
+        },
+        "saturated_block_ranks": {
+          "0,2,2": 684,
+          "0,3,3": 714,
+          "2,2,2": 2339,
+          "3,3,3": 2664
+        },
+        "saturated_full_schur_block_ranks": {
+          "0,2,2": 684,
+          "0,3,3": 714,
+          "2,2,2": 2339,
+          "3,3,3": 2664
+        },
+        "saturated_pair_full_sets": {
+          "01,02,12": 6401
+        }
+      },
+      "seed": 15
+    }
+  ],
+  "schema": "rate-half-bivariate-m2-schur-profile-v1",
+  "totals": {
+    "all_blocks_full_saturated": 105574,
+    "any_pair_full_deficient": 19761,
+    "any_pair_full_saturated": 105574,
+    "any_single_full_deficient": 19761,
+    "any_single_full_saturated": 105574,
+    "attempted": 88867,
+    "bad_pairs": 125335,
+    "deficient_w": 19761,
+    "full_matrix_rank": 125335,
+    "j0_full_deficient": 15435,
+    "j0_full_saturated": 82247,
+    "j1_full_deficient": 19761,
+    "j1_full_saturated": 105574,
+    "j2_full_deficient": 19761,
+    "j2_full_saturated": 105574,
+    "regular_incidence": 58644,
+    "saturated_w": 105574
+  }
+}
