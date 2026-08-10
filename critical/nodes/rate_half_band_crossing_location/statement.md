@@ -1374,3 +1374,37 @@ The proved node is
 clean gate is to combine the corner subset identity, or its sparse
 Forney-weight form, across those `2m+3` slopes with the degree-`m` motion of
 `q`. No critical status changes.
+
+## Cycle 69: clean Forney resultant normalization (2026-08-11, Codex)
+
+The sparse moment representation now has a canonical polynomial numerator.
+For the reciprocal locator `q^vee`, set
+
+```text
+N(t;Z)=[q^vee(t;Z)sum_(i=0)^(rho-1)y_i(t)Z^i]_(<rho),
+P(t;X)=X^(rho-1)N(t;X^(-1)).
+```
+
+Then `P` has bidegree at most `(rho-1,m+1)`, and at every good supported
+slope its values are the exact Forney evaluations
+
+```text
+P(gamma;x)=theta_(gamma,x)partial_X q(gamma;x).
+```
+
+The top Hankel cofactor identifies their product, and formal resultant
+homogeneity gives the global polynomial identity
+
+```text
+Res_X^(rho,rho-1)(q(t;X),P(t;X))
+ =c a(t)^(2rho+2)Delta(t),       deg Delta=m-1.
+```
+
+Thus the apparent quadratic-degree resultant has only the already isolated
+degree-`m-1` regular factor after its explicit leading-coefficient power is
+removed. The proved node is
+`rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor`. The
+remaining clean theorem is a low-degree interpolation obstruction for these
+Forney products across the at least `2m+3` good split slopes, using their
+shared supported-root incidence and the degree-`m` motion of `q`. No critical
+status changes.
