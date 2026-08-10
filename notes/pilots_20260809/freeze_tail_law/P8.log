@@ -1,0 +1,141 @@
+==============================================================================
+P8 -- THE TAIL AS A SHORT-VECTOR CENSUS (exact, T=1 cells)
+==============================================================================
+
+  CELL (32,2,1)  u=2 e=8  box=390625  Hadamard B=20.0  Q*=273857
+        Lam  #A!=0  |A1|^2  y (exact)  |A1|^2/(u ln2)  share of A1
+     10.645    272       9     0.1030          6.4921       0.3771
+     11.023    192       9     0.3543          6.4921       0.4489
+     11.570    112       9     0.8804          6.4921       0.6465
+     12.012     96      11     1.9565          7.9348       0.5111
+     12.516     32      12     3.4874          8.6562       0.9846
+     13.028     48      11     2.7706          7.9348       0.8986
+     13.504     32      15     4.9793         10.8202       0.6923
+     14.003     16      14     4.6797         10.0989       1.0000
+     14.502     16      16     6.0947         11.5416       1.0000
+     15.001     16      15     5.5098         10.8202       1.0000
+     15.515      0       -     FROZEN               -            -
+     16.000      0       -     FROZEN               -            -
+     16.501      0       -     FROZEN               -            -
+     17.002      0       -     FROZEN               -            -
+     17.501      0       -     FROZEN               -            -
+     18.001      0       -     FROZEN               -            -
+     18.502      0       -     FROZEN               -            -
+     19.000      0       -     FROZEN               -            -
+     19.500      0       -     FROZEN               -            -
+     20.000      0       -     FROZEN               -            -
+     20.500      0       -     FROZEN               -            -
+     21.000      0       -     FROZEN               -            -
+     21.500      0       -     FROZEN               -            -
+     22.000      0       -     FROZEN               -            -
+     22.500      0       -     FROZEN               -            -
+     23.000      0       -     FROZEN               -            -
+     23.500      0       -     FROZEN               -            -
+     24.000      0       -     FROZEN               -            -
+     24.500      0       -     FROZEN               -            -
+     25.000      0       -     FROZEN               -            -
+     25.500      0       -     FROZEN               -            -
+     26.000      0       -     FROZEN               -            -
+     26.500      0       -     FROZEN               -            -
+     27.000      0       -     FROZEN               -            -
+     27.500      0       -     FROZEN               -            -
+     28.000      0       -     FROZEN               -            -
+     28.500      0       -     FROZEN               -            -
+     29.000      0       -     FROZEN               -            -
+     29.500      0       -     FROZEN               -            -
+     30.000      0       -     FROZEN               -            -
+     30.500      0       -     FROZEN               -            -
+     31.000      0       -     FROZEN               -            -
+     31.500      0       -     FROZEN               -            -
+     32.000      0       -     FROZEN               -            -
+     32.500      0       -     FROZEN               -            -
+     33.000      0       -     FROZEN               -            -
+     33.500      0       -     FROZEN               -            -
+     34.000      0       -     FROZEN               -            -
+     34.500      0       -     FROZEN               -            -
+     35.000      0       -     FROZEN               -            -
+     35.500      0       -     FROZEN               -            -
+     36.000      0       -     FROZEN               -            -
+     36.500      0       -     FROZEN               -            -
+     37.000      0       -     FROZEN               -            -
+     37.500      0       -     FROZEN               -            -
+     38.000      0       -     FROZEN               -            -
+    -> rows with y > 0.5: 8;  mean |A1|^2/(u ln2) / y = 3.121;  mean weight share of the shortest vector = 0.756
+
+  CELL (64,8,3)  u=8 e=4  box=83521  Hadamard B=16.0  Q*=26177
+        Lam  #A!=0  |A1|^2  y (exact)  |A1|^2/(u ln2)  share of A1
+      8.811    192      29     0.6570          5.2298       0.3767
+      9.172    136      33     1.4072          5.9511       0.3943
+      9.587    112      29     1.8629          5.2298       0.8690
+     10.171     72      35     3.0490          6.3118       0.9587
+     10.645     56      49     5.2925          8.8365       0.7469
+     11.045     32      49     5.9252          8.8365       0.9572
+     11.615     32      67     9.6895         12.0826       0.9176
+     12.066      8      67     9.0368         12.0826       1.0000
+     12.539     16      79    11.3852         14.2466       1.0000
+     13.055      8      95    15.1255         17.1320       1.0000
+     22.000      0       -     FROZEN               -            -
+     25.000      0       -     FROZEN               -            -
+     31.000      0       -     FROZEN               -            -
+     35.000      0       -     FROZEN               -            -
+     40.000      0       -     FROZEN               -            -
+     49.000      0       -     FROZEN               -            -
+     58.000      0       -     FROZEN               -            -
+     67.000      0       -     FROZEN               -            -
+    -> rows with y > 0.5: 10;  mean |A1|^2/(u ln2) / y = 2.520;  mean weight share of the shortest vector = 0.822
+
+  CELL (128,16,4)  u=16 e=4  box=1185921  Hadamard B=20.0  Q*=509441
+        Lam  #A!=0  |A1|^2  y (exact)  |A1|^2/(u ln2)  share of A1
+     11.393    392      67     1.9379          6.0413       0.4777
+     11.701    360      61     2.2000          5.5003       0.8733
+     12.130    248      67     3.0371          6.0413       0.9580
+     12.673    192      81     4.3117          7.3036       0.9829
+     13.210    144     131     7.9473         11.8121       0.5385
+     13.524    120     145     9.3971         13.0744       0.6215
+     14.129     64     157    11.5820         14.1564       0.9093
+     14.508     48     157    11.4184         14.1564       0.9999
+     15.028     40     189    15.6494         17.0418       0.9997
+     34.000      0       -     FROZEN               -            -
+     40.000      0       -     FROZEN               -            -
+     53.000      0       -     FROZEN               -            -
+     60.000      0       -     FROZEN               -            -
+     72.000      0       -     FROZEN               -            -
+     91.000      0       -     FROZEN               -            -
+    -> rows with y > 0.5: 9;  mean |A1|^2/(u ln2) / y = 1.748;  mean weight share of the shortest vector = 0.818
+==============================================================================
+P7 -- THE (232, 256] PRICING  [law]
+==============================================================================
+  official schedule: n = 2^41, t = 2^33, e = n/(2t) = 128
+
+  depth of the level-0 coset term, d(Lam) = e - n + t*Lam:
+    log2 q =       232.000000000000   depth =   -206158430080.000000  DEEP BAND
+    log2 q =       240.000000000000   depth =   -137438953344.000000  DEEP BAND
+    log2 q =       248.000000000000   depth =    -68719476608.000000  DEEP BAND
+    log2 q =       255.000000000000   depth =     -8589934464.000000  DEEP BAND
+    log2 q =       255.999999985099   depth =              +0.000000  FREEZE TAIL
+    log2 q =       255.999999987544   depth =             +21.000000  FREEZE TAIL
+    log2 q =       256.000000000000   depth =            +128.000000  FREEZE TAIL
+
+  the tail begins (depth = 0) at log2 q = 255.999999985099 = 256 - 128/2^33
+  the reserve breaks (depth = 21) at log2 q = 255.999999987544 = 256 - 107/2^33
+  => the whole band (232, 255.999999985] is DEEP BAND; the freeze
+     tail occupies only the last 1.490e-08 of log2 q.
+
+  census cost of a targeted exact census at level lev (states, log2):
+     lev            u              h            T     MITM (u+1)^(h/2)              reduced
+       0          2^0           2^41         2^33           1.0995e+12                  nan
+       1          2^1           2^40         2^32           8.7134e+11                  nan
+       2          2^2           2^39         2^31           6.3825e+11                  nan
+      10         2^10           2^31         2^23           1.0739e+10                  nan
+      20         2^20           2^21         2^13           2.0972e+07                  nan
+      30         2^30           2^11          2^3           3.0720e+04                  nan
+      32         2^32            2^9          2^1           8.1920e+03                  nan
+      33         2^33            2^8          2^0           4.2240e+03           2.1760e+03
+
+  cheapest exact level census over all 34 levels: 2^4.2240e+03 states.
+  PR-9: the (232,256] band is NOT reachable by exact census; the
+  cheapest object is 2^4.224e+03 states, and no cutoff law helps
+  because the band is deep-band, not tail.  Reachability of the
+  band moves ONLY through the falsifier tolerance (PR-7).
+
+checkpoint: /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260809/freeze_tail_law/tailckpt.json

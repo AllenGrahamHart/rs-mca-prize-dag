@@ -325,3 +325,188 @@ replays: all four scripts byte-identical; the simple-pole proof
 mechanism verified verbatim. No status flip. Source:
 notes/pilots_20260809/cancellation_recon/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: nonpoly_flank_census — the flank censused; THEOREM CAP scope-limited; the falsifier does NOT fire)
+
+**The named residual hunt space is now parameterized, censused, and
+NON-EMPTY — but the node's pre-registered falsifier does NOT fire.**
+The first-moment law held EXACTLY in 58/58 exhaustive cells
+(delta-independence proved: every term of the stratum total carries
+q^{k-i}, so the FM model transfers to the flank with ZERO
+correction), F_MAX <= B_pois in every exhaustive cell, and the
+sporadic ladder is empty in every starved row to q ~ 2^40. What IS
+new: **THEOREM CAP is scope-limited to slack 0.** Off that stratum
+the exact maximum exceeds the plateau — char-0 (q-stable), two
+independent fields, two scales: n=8 +0.737 bits (4 fields); n=16
+delta=1 F_SUBSET = 46 vs plateau 35 (exact max over all 1.036e8
+word classes, IDENTICAL at q=10177 and q=10193 —
+coordinator-verified in both maxscan files), achieved F_LIST 39;
+maximal slack (= ARBITRARY received words) 67 two-field. The
+explicit maximizer is clean: the ANTIPODAL-PAIR LOCATOR
+W = L_{{x,-x}}. The surplus is a max/supply phenomenon at 2 scales
+— not the falsifier's 3-scale mean deviation.
+
+**The flank, parameterized exactly:** every received word is a
+polynomial; the escape class is POSITIVE SLACK delta = deg Y - a in
+[1, n-1-a]; the planted-hybrid family is the SUPPORT SUB-CLASS, not
+the whole class; giant slack saturates at the arbitrary-word set —
+the banked census measured one stratum of a family whose top
+stratum is the prize's own list-side object. **The useful reduction
+(proved):** in complement coordinates the flank is the SAME width-t
+window SHIFTED by delta ([delta+1, delta+t] vs [1, t]). Also
+proved: the dedup law (subset counts = list counts x C(j,a),
+tolerance 0); and the PRESCRIBED-SUM THEOREM P4 (h-subset sum
+multiplicities peak at v=0 ONLY; exhaustive char-0 at N=8/16, exact
+probes at N=32 q~2^40) — the prescribed-nonzero-sum escape
+generalization is CLOSED at three scales.
+
+**THE NAMED RESIDUAL (sharpened, honestly conflicted):** the
+delta=1 mechanism's analytic model matches at n=8/16 then COLLAPSES
+(2^-500 at prize scale — it cannot reach the 4.83-bit need), but
+the maximal-slack surplus GREW over the two measured scales
+(+0.74 -> +0.94/1.25 bits). Two points, both lower bounds,
+different mechanisms: **the scaling of the arbitrary-word maximum
+is UNDETERMINED.** The deciding computation is named: the exact
+n=32, t=1 whole-word-space maxscan (C(32,15) = 5.7e8 per word —
+Modal-class, out of stdlib reach).
+
+**The 2^-5.2 price: verified and explained.** lg C(255,128) =
+250.67284 (coordinator-recomputed); the banked 2^-5.2 and 2^-5.3
+are THE SAME QUANTITY at the two ends of the razor slice (255.900
+vs 256.000). The flank does not multiply the trial count (the
+sporadic event depends on (q,N,h) only); the hatch sits 133.3 bits
+from mattering; the banked R1c kill line stands. The 4.7286-4.8286
+bit deficit vs C(127,64) = 2^123.1714 reproduced exactly
+(coordinator-recomputed) — NOTE per the cancellation_recon
+addendum above: that figure is the WITNESS-SUPPLY gap; the
+LB-floor rung deficit is the separate 11.87-bit figure — two
+different objects on this node, now both priced.
+
+Pilot record: 6 registered predictions HIT (incl. the price within
+0.002 bits), its OWN registered reduction REFUTED by its own
+census (reported first; obstruction named exactly: the flank's
+admissible set is a delta-dimensional affine subspace, not a
+point); 5 self-corrections disclosed (incl. a subset-vs-list
+near-miss and an invalid cross-field RNG comparison caught and
+excluded). Coordinator replays: the 31-cell n=8 exhaustive census
+BYTE-IDENTICAL; the price/deficit arithmetic re-derived; the
+two-field argmax verified in both banked maxscan files. No status
+flip. Source: notes/pilots_20260809/nonpoly_flank_census/
+(REPORT.md, FABLE_AUDIT.md; data/ 12 result files).
+
+## Round-27 addendum (2026-08-09, coordinator-applied on replay: staircase_extension — the residual diagnosed to the unit; the razor is a NEW THEOREM; the cyclotomic threat killed)
+
+**The {2^39, 2^39+1} residual is NOT closed and is NOT a
+proof-budget artifact: the counting layer is EXACTLY ONE SLOPE
+short at its limit** (cap T <= 4e+1 = rho+2 vs target rho+1 at the
+first live degree), and the m=1 fence (PROVED, explicit F_17
+witness) says no incidence/core-freeness/split-fiber/Hankel
+argument closes the endpoint uniformly. Sized exactly:
+687,194,767,358 ~ 2^39.32 open (A,s,e) strata; per-stratum
+deficits 1 / 4 / 3-4 slopes; at e=m every failure is forced onto
+the sharp face h=0, T=rho+2.
+
+**But the TRUTH-vs-PROOF question is closed on the officially
+relevant axis:** at the exact scaled analogue of the strict
+residual (N=16, complete line census), the violating configuration
+exists at THE SMALLEST FIELD ONLY (q=17) and dies at every prime
+field 97 <= q < 5000 — and rate_half_residual_prime_field_collapse
+(PROVED) forces both residual budgets onto prime fields q > 2^167.
+The staircase-shaped formula HOLDS at scale on the prime-field
+axis. The residual is (evidence-grade) TRUE with the proof needing
+the apolar origin the incidence family provably lacks.
+
+**Boundary diagnosis per layer (D2):** staircase equality —
+STRUCTURAL (proved counterexample at the first post-quadratic
+radius); (RQ4) — STRUCTURAL, it IS the half-distance barrier
+verbatim (r_sp = min(floor((n-k)/2), B*), PR5); far-CA Hankel —
+method wall with a proved no-go for the whole incidence family
+(the counting cap is ATTAINED by non-Hankel objects: 9 collinear
+disjoint split cubics at N=28 with Hankel nullity 0 — exact
+certificate, coordinator-replayed byte-identical). **Consequence:
+the razor determination is a NEW THEOREM, not a computation** —
+at razor rows B* ~ 2^128 >> n and a = n-B+1 is not even well
+posed.
+
+**THE CYCLOTOMIC THREAT — the one field-independent threat to
+budget 2^39+1 — TESTED AND KILLED at every accessible analogue:**
+the family Q = X^rho U^e - (c_0 U + c_1 V)^e saturates the design
+cap whenever rho = e*r_0 with r_0 | N — and at the official A=1
+profile rho = 2^39 DOES divide N = 2^41 with e inside the window.
+Measured (coordinator-replayed byte-identical): every over-target
+instance has Hankel nullity 0; the only realizable instances are
+at or below target. Clean law: **realizable exactly when it does
+not exceed the target.**
+
+**D4 CROSS-LINK (new leverage):** the q >= 2^169 condition on the
+bracket top a_RH <= 3n/4 is imposed by the far-CA term ALONE, and
+the imposing term IS residual budget 2^39+1 itself. Closing it
+extends the proved bracket top to ALL q > 2^167 — a 2-bit window,
+materially larger than the residual's own 2^-38 q-axis payoff.
+This re-prices the residual from "smallest open piece" to "the
+gate on the bracket top."
+
+Pilot record: 9/10 registered predictions HIT (P8's A=1 e in
+[2,4] census NOT RUN — out of reach, only the cyclotomic
+sub-family tested — disclosed); one COMPUTE-LAW BREACH disclosed
+(a single un-ramguarded patch heredoc; 12/13 invocations
+compliant); a RAM-cap hit handled by redesign; an out-of-domain
+(ERC2) evaluation caught by absurdity and corrected. The pilot
+read this statement's mid-session round-27 growth as primary text
+(legitimate; sibling dirs never read). Coordinator replays:
+d1_realizability + d1_cyclotomic byte-identical; escape anchors +
+the 2^39.32 stratum count exact. No status flip. Source:
+notes/pilots_20260809/staircase_extension/ (REPORT.md,
+FABLE_AUDIT.md).
+
+## Round-28 addendum (2026-08-10, coordinator-applied on replay:
+## mca_safe_rewire — the consumer-bar lead REFUTED; two D4 precision fixes)
+
+**THE FLAGGED LEAD IS REFUTED.** The wave-10/round-27 flag above
+("HD1 may already discharge mca_safe's rate-1/2 bar at razor rows;
+needs a dedicated read of whether the consumer's a_safe is free or
+pinned") got its dedicated read. Verdict: a_safe is UNBOUND in
+mca_safe's own prose and BOUND by its consumers — the unsafe-side
+claim of record is stated at a_safe - 1, and mca_grand's claim is
+to EXHIBIT the crossing. Since B_mca is nonincreasing
+(crossing_localization, PROVED), HD1's safe point at 3n/4 bounds
+nothing at any smaller index: it is an upper bracket END, never the
+safe half at the crossing. REDUCTIO that settles it: a genuinely
+free a_safe would be discharged at a = n, unconditionally and for
+EVERY admissible q, by the PROVED mca_full_agreement_endpoint
+(FA1: B_mca(n) = 1) — strictly stronger than HD1, available since
+wave 6, and plainly not what the assembly consumes. Both consumer
+bars are therefore THE SAME moving bar. The premise-weakening
+surgery is retired; mca_safe keeps this node as a premise.
+
+**D4 precision fix 1 — the cross-link's threshold is
+(2^39+1)*2^128, not 2^167.** Closing budget 2^39+1 gives
+B_ca^far(3n/4) <= 2^39+1, which clears B*(q) only when
+2^39+1 <= floor(q/2^128), i.e. q >= (2^39+1)*2^128 = 2^167 + 2^128
+(log2 = 167.0000000000026). The sliver [2^167, 2^167 + 2^128) is
+not reached by that budget alone; it is exactly budget 2^39's own
+interval, so "ALL q > 2^167" holds for the PAIR of residual budgets
+and not for 2^39+1 alone. The first admissible row above 2^167
+(q = 187072209578355573530071658587684226537949598056449, prime,
+q = 1 mod 2^41) has B* = 2^39 exactly and lies in that sliver.
+
+**D4 precision fix 2 — the (2^167, 2^169) gap is a BRACKET-TOP gap,
+not a safe-half gap.** Above 2^167 no safe-half-at-the-crossing
+input exists anywhere, the razor slice included; below 2^169 the
+only proved bracket top is n (FA1). Closing the gap therefore
+restores the 3n/4 bracket top on 2 bits of q-axis; it does not give
+any consumer its safe half.
+
+## Round-29 row-size scope flag (2026-08-10, coordinator-applied: k_extremal)
+
+ROW-SIZE SCOPE: this node is posed AT n = 2^41, k = 2^40 ONLY. The
+node.json phrase "every admissible rate-1/2 row" is hereby read as
+"every admissible rate-1/2 row AT n = 2^41, k = 2^40" — the live
+quantifier is over q, not the row size. The band-interval arithmetic
+(sigma*, the razor-slice nonemptiness) is an n = 2^41 computation and
+carries NO information at s < 41. Under the descriptor family
+(k <= 2^40 is a CAP: the rate-1/2 family is n = 2^s, k = 2^(s-1),
+s = 1..41), rows with s < 41 are OUTSIDE this node — the k_extremal
+HOLE verdict; candidate reduction poses at
+notes/pilots_20260810/k_extremal/DRAFT_SCOPE_FLAGS.md (POSE 3 per-s
+family recommended, AWAITING USER). FLAGGED, not resolved.

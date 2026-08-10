@@ -1,0 +1,66 @@
+[
+ {
+  "F_SUBSET": 715,
+  "F_LIST": 715,
+  "agreement_profile": {
+   "9": 715
+  },
+  "dedup_ok": true,
+  "n": 16,
+  "q": 10177,
+  "t": 1,
+  "a": 9,
+  "word": "prod_c0=D[0]",
+  "cs_index": 0,
+  "PLATEAU_t1": 35,
+  "pred_t1": 715
+ },
+ {
+  "F_SUBSET": 715,
+  "F_LIST": 715,
+  "agreement_profile": {
+   "9": 715
+  },
+  "dedup_ok": true,
+  "n": 16,
+  "q": 10177,
+  "t": 1,
+  "a": 9,
+  "word": "prod_c0=D[1]",
+  "cs_index": 1,
+  "PLATEAU_t1": 35,
+  "pred_t1": 715
+ },
+ {
+  "F_SUBSET": 715,
+  "F_LIST": 715,
+  "agreement_profile": {
+   "9": 715
+  },
+  "dedup_ok": true,
+  "n": 16,
+  "q": 10177,
+  "t": 1,
+  "a": 9,
+  "word": "prod_c0=D[2]",
+  "cs_index": 2,
+  "PLATEAU_t1": 35,
+  "pred_t1": 715
+ },
+ {
+  "F_SUBSET": 715,
+  "F_LIST": 715,
+  "agreement_profile": {
+   "9": 715
+  },
+  "dedup_ok": true,
+  "n": 16,
+  "q": 10177,
+  "t": 1,
+  "a": 9,
+  "word": "prod_c0=D[3]",
+  "cs_index": 3,
+  "PLATEAU_t1": 35,
+  "pred_t1": 715
+ }
+]

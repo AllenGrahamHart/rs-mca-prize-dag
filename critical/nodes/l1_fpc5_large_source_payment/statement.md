@@ -32,6 +32,8 @@ plus two missing pieces the m4 reds already have: (i) NO mu-basis /
 overlap-cap theorem exists for t >= 4 (the three-petal theorems do
 not generalize as stated; even the Johnson functional J is
 undefined there); (ii) NO background-guard analogue at M >= 5.
+**[Claim (ii) is FALSE — round-25 forced correction below, the
+same mechanism that felled claim (i) in round 24.]**
 Exact facts established: t <= M always (so the rate-quarter
 uniqueness template applies exactly on the t = M, b <= 1 stratum
 and nowhere else); touched-subset multiplicity is FREE
@@ -115,3 +117,89 @@ the line K(F,W)) — the t >= 4 rows are now POSABLE AS FLATS, so
 red 3's mystery-7 membership is DECIDABLE. Bonus (proved +
 machine-checked): the core/petal disjointness hypothesis is FREE
 for primitive members.
+
+## Round-25 forced correction (2026-08-09, coordinator-applied on replay: m7_complement_repose)
+
+**Claim (ii) of the round-23 diagnosis is FALSE — the named next
+probe is DONE and DECIDED: the (CJ2)/(CJ3) chart hypotheses of
+l1_joint_core_background_johnson_bound TRANSFER at M >= 5**, by
+the same bookkeeping mechanism that made claim (i) false in round
+24. Hypothesis ledger over all 408 residual rows: background
+capacity 0 <= b < ell — 0 failures (the sieve's b IS the node's
+background capacity; measured b in [0, 5.13e11] against ell in
+[6.47e10, 5.31e11]); g = ell-b >= 1 — 0; r = 2d-h >= 0 — 0;
+core/petal/background pairwise disjoint — 0, verified
+ARITHMETICALLY at every rate ((k-1)+S = rate·k and S = M·ell+b
+hold identically, so core and source partition the ambient);
+N = k-1 — 0. The only binding condition is the list threshold
+h >= d+g, which is ALGEBRAICALLY the round-24 u <= b correction
+under another name (u = d-(t-1)ell <= b iff t·ell >= d+ell-b).
+Replay MATCHED exactly in two independent paths: **71 of 408
+residual rows rescued, 3,972,788,690,368 d-values = 1.97% of
+residual d-mass** (coordinator replay byte-identical).
+
+**Honest scope:** the rescue is PARTIAL on every row (max 74.2% of
+any one row's d-window; 0 rows fully rescued; the residual row
+count stays 408). Coverage: t = 2..5, M = 5..18, rates 1/2 (24
+rows), 1/4 (39), 1/8 (8); **rate 1/16 gets nothing.** (CJ4) gives
+m <= 97 on the leading sampled row and m up to 2.33e13 across the
+71, all <= n^3 — a defined finite payment exists, not a cheap one.
+With both (i) and (ii) of the round-23 diagnosis now false, this
+red's "least defended of the three" classification rests solely on
+the MF wall itself. Source:
+notes/pilots_20260809/m7_complement_repose/ (d4_cj3_audit.py,
+replayed byte-identical by the coordinator).
+
+## Round-26 addendum (2026-08-09, coordinator-applied on replay: m7_falsifier_hunt — the sharp cap, the EMPTY charge, red 3 undecided)
+
+**(1) THE SHARP OVERLAP CAP (a corollary of this chain's own
+(CJ2), un-summed — NOT new mathematics, never before drawn):**
+guarded overlap max = r_J - |R_1 cap R_2| <= r_J - max(0, 2u-b),
+and EXACTLY d - ell at u = b. Verified 0 violations in 8336 exact
+configs across 25 cells (rates 1/2..1/16, M = 5..120, t in {2,3}),
+ATTAINED at every cell with m>=2. Consequence: THE PENCIL STRATUM
+IS DELETED — split-only members reach r_J = d-1 in quantity (up to
+52% of pairs) while guarded contributors reach it 0/8336, and
+PENCIL_MAX = 1 everywhere; round-25's config-18 sunflower deletion
+is systematic at M >= 5 and now explained. The registered
+codimension identity (dim V = d-ell+2; the round-24
+slice-dimension theorem = its u=0 case) held 28/28.
+
+**(2) THE EMPTY CHARGE (the third instance of the bookkeeping
+mechanism that felled claims (i) and (ii) — REPLAYED, NOT YET
+ADOPTED):** the sieve of record (p7_large_source_sieve) caps d at
+min(ell(M-2)-1, N) only, and never charges this node's own list
+threshold. Charging it (u = d-(t-1)ell > b means the forced
+background agreements exceed |B| — no contributor can exist;
+coordinator-verified logic): **71.380% of the residual d-mass is
+EMPTY** (143,981,892,664,856 of 201,710,563,424,605 d-values; 35
+of 408 rows entirely empty) **plus 0.679% SINGLETON by the PROVED
+l1_background_overlap_singleton_payment (BO2)** (disjoint from
+EMPTY by construction; 39 rows entirely paid) — versus the 1.97%
+CJ3 rescue banked in round 25, on the identical denominator.
+Residual after EMPTY + SINGLETON: 27.94%. Rate 1/16 has NO
+residual rows at all (why the CJ rescue "got nothing" there). The
+pilot's own (SING) derivation was caught by its CATCH-24A grep as
+a re-derivation of (BO2) and is credited as such. CAVEATS
+(binding before adoption): the denominator is the banked 3-point
+ell-sample, counts (row,d) cells not distinct d (a d killed at
+small t may live at larger t), and the CJ3/SINGLETON band overlap
+is UNCOMPUTED — the full-grid distinct-d computation is THE
+HIGHEST-VALUE NAMED FOLLOW-UP before any residual repricing.
+Coordinator replay: d4_bo_sieve.py byte-identical (incl. the CJ3
+baseline 0.01969549 byte-match).
+
+**(3) RED 3's MYSTERY-7 MEMBERSHIP STAYS UNDECIDED — honest
+refusal of record:** t >= 4 exact enumeration priced at ~17
+min/config (~2.3 h for a grid of 8) and NOT spent; and the 23b
+repaired max-to-mean functional FAILS ITS POWER CONTROL at every
+accessible t <= 3 cell (guarded flats statistically
+indistinguishable from matched-random on the discriminating
+functional: 3.96 vs 4.43 at dim 3). Membership must not be
+flipped on this evidence. The falsifier-firing story for this
+node is recorded on l1_rootfree_rational_q_projective_packing
+(round-26 correction): 156/408 rows pass sigma < 2a and ALL are
+~10^11 bits short of the polynomial target — 17 of the 156 are
+already (BO2) singletons. Source:
+notes/pilots_20260809/m7_falsifier_hunt/ (REPORT.md,
+FABLE_AUDIT.md).

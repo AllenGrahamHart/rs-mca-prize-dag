@@ -1,0 +1,37 @@
+/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/ssparse_endpoints/d2_sparse.py:1: SyntaxWarning: invalid escape sequence '\E'
+  """D2/D3 sparse side: EXACT S_sparse structure at scaled rows, and F_COLL --
+=== tangent floor (T): S_sparse(a) >= min(r,q), r = n_s - a ===
+  n_s=8   a=K+1 =5   r=3   wedge(r<=tau, S<=r): False
+  n_s=8   a=K+2 =6   r=2   wedge(r<=tau, S<=r): True
+  n_s=8   a=K+3 =7   r=1   wedge(r<=tau, S<=r): True
+
+  n_s=16  a=K+1 =9   r=7   wedge(r<=tau, S<=r): False
+  n_s=16  a=K+2 =10  r=6   wedge(r<=tau, S<=r): False
+  n_s=16  a=K+3 =11  r=5   wedge(r<=tau, S<=r): False
+  n_s=16  a=K+4 =12  r=4   wedge(r<=tau, S<=r): True
+  n_s=16  a=K+5 =13  r=3   wedge(r<=tau, S<=r): True
+  n_s=16  a=K+6 =14  r=2   wedge(r<=tau, S<=r): True
+  n_s=16  a=K+7 =15  r=1   wedge(r<=tau, S<=r): True
+
+=== EXACT S_sparse at e=2, tau=1 (q-independent cost), n_s=8,16 ===
+ n_s          q   log2q      B_s       #Z     S_e2   >B_s?  upper e-bound
+   8         17    4.09        4       20       17    True             22
+   8         41    5.36        6       20       19    True             22
+   8         97    6.60        9       20       19    True             22
+   8        257    8.01       16       20       19    True             22
+   8      65537   16.00      256       20       19   False             22
+   8   16777289   24.00     4096       20       19   False             22
+
+  16         17    4.09        4     3432       17    True           3434
+  16         97    6.60        9     3432       97    True           3434
+  16        257    8.01       16     3432      257    True           3434
+  16      65537   16.00      256     3432      955    True           3434
+
+=== F_COLL: max collinear locator points (sharp scaled F2), n_s=16 ===
+ n_s  tau   e        q      #Z    #pts  F_COLL     B_s  fires?
+  16    2   3       17    1716     256      16       4    True
+  16    2   3       97    1716    1621      34       9    True
+  16    2   3    65537    1716    1706      28     256   False
+  16    3   4       17     792     750      12       4    True
+  16    3   4       97     792     792      10       9    True
+  16    3   4    65537     792     792      10     256   False

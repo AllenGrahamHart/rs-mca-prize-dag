@@ -1,0 +1,1 @@
+{"n": 64, "M": 32, "K": 16, "m": 31, "ANTIPODAL_exact": 1946902, "per_stratum": {"1": 218790, "3": 1529088, "5": 199024}, "stratum_ceiling": 16, "PLATEAU": 300540195, "STRAT1_closed_form": 218790, "ratio_to_plateau": 0.0064780087069551545}

@@ -1,0 +1,7 @@
+=== dead scales: the counting layer already closes B = R/2 ===
+R    N    rho  q     #loc     rho+2(need)  ERC2 cap  Tmax_cf  verdict
+10   20   4    41    4845     6            5         5        closed (Tmax_cf < rho+2)
+     extremal core-free line supports: [(1, 2, 39, 40), (4, 20, 21, 37), (5, 16, 25, 36), (8, 10, 31, 33), (9, 18, 23, 32)]
+12   24   5    73    42504    7            5         3        closed (Tmax_cf < rho+2)
+     extremal core-free line supports: [(1, 3, 7, 8, 10), (9, 24, 30, 52, 64), (17, 21, 22, 66, 70)]
+ramguard: local profile reached its 2400 wall limit

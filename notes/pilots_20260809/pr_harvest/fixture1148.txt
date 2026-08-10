@@ -1,0 +1,60 @@
+field p                    = 2147483647 = 2^31-1? True
+core size                  = 509
+branch count               = 16
+branch sizes               = [35]
+|U| (union of branches)    = 514
+locator degree |U|-|B_i|   = 479  [their stated degree 479 -> True]
+core disjoint from U?      = True
+|U| + |core|               = 1023  [their stated 1,023-point fixture domain -> True]
+degenerate parameter pairs = [(5, (1, 0)), (11, (2, 0))]
+
+F5 RESOLVED: the '1,023-point fixture domain' is  U (514 branch roots)
+            DISJOINT-UNION core (509 evaluation points); each locator is
+            monic of degree |U|-35 = 479 with all roots inside U; the
+            '509 core rows' are the evaluation coordinates.
+
+PAIRWISE ROOT-SET INTERSECTIONS of the 16 split locators (120 pairs)
+   min = 444   max = 446   (degree = 479)
+   distribution: [444, 445, 446]
+
+(PC3) HYPOTHESIS TEST -- l1_rootfree_rational_q_projective_packing
+   (PC3) is stated for a space V with dim V = D+1 whose distinct members
+   have root-set intersection <= D-1.  Here the linear span has dim 16, so
+   (PC3) would need pairwise intersection <= 14.  MEASURED max = 446.
+   => (PC3) AS LITERALLY STATED DOES NOT APPLY to #1148's flat: confirmed (max 446 > 14)
+
+   The honest packing ceiling at the MEASURED overlap cap r = 446 is
+      C(1023,447)/C(479,447) = 8349739998715195561015297709269230756746881861575762219889577766348210263577990950240958769705270257537227727590550927083374228605576866291409221366531570188526308894627993275762850439395116880494501544343939267413044945288117013331902316282458037901432   (log2 = 840.188)  vs TRUTH 16 (log2 4.000)
+      looseness at the measured overlap cap: 2^836.188
+
+   SELF-CORRECTION to mystery7_calibration.py: the dimension-driven
+   ceiling C(1023,15)/C(479,15) = 98739 (log2 16.591) is NOT a valid bound
+   here, because (PC3)'s overlap hypothesis fails by a factor of 30. It is
+   only 'what the instrument would give IF its hypothesis tracked the
+   dimension'. The VALID anticode ceiling at this flat is the 2^836.2 one.
+
+==========================================================================
+THE COMPLEMENT (BRANCH) COORDINATES -- a concrete instrument lead
+==========================================================================
+  root sets are complements: roots_i = U \ B_i, |B_i| = 35 inside |U| = 514.
+  |roots_i cap roots_j| = |U| - 70 + |B_i cap B_j| = 444 + |B_i cap B_j|.
+  MEASURED branch intersections |B_i cap B_j|: max = 2, distribution [0, 1, 2]
+  So the 16 branches are 35-subsets of a 514-set, pairwise meeting in <= 2
+  points (and 16*35 = 560 > 514, so they cannot be disjoint).
+  ANTICODE BOUND IN THE COMPLEMENT: C(514,3)/C(35,3) = 3437 (log2 11.747)
+  vs TRUTH 16  ->  LOOSENESS 2^7.747
+
+  THE SAME INSTRUMENT IN THE SAME COORDINATES AT OUR OWN FIXTURE
+  (l1_m31_fixed_support_divisor_direction_cap_route_cut, PROVED):
+     J_a = R*(X-a), a in S \ R0, |R0| = t-1 = 4979, |S| = m = 72428.
+     every pair shares exactly |R0| = 4979 = deg-1 roots (MAXIMAL overlap).
+     the sunflower-core count is EXACT: m - (t-1) = 67449 = the node's 67449
+     looseness 2^0.000 -- the right instrument is EXACT there.
+
+  READ-OFF (CANDIDATE lead for mystery 7, not a theorem):
+    at BOTH exhibited flats the members share almost all their roots
+    (overlap/degree = 0.9311 theirs, 0.9998 ours), which is exactly the regime
+    where a root-coordinate anticode/packing argument is empty. Changing
+    coordinates to the small SYMMETRIC-DIFFERENCE data (branch sets there,
+    the sunflower core here) turns a 2^836-vacuous instrument into one that
+    is 2^7.7 loose (theirs) and EXACT (ours).

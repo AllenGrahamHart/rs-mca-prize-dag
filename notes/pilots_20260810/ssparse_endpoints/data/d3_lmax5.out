@@ -1,0 +1,12 @@
+/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/ssparse_endpoints/d3_lmax.py:1: SyntaxWarning: invalid escape sequence '\S'
+  """D3: EXACT max list profile F_LMAX at scaled rate-1/2 RS rows, and its
+=== F_LMAX(a=5) via the rank-3 normal-triple candidate family ===
+         q   log2q     B_s  #normals   #cands  F_LMAX(5)  F_LMAX(6)   F_DECAY   /log2q  safe(5)?
+        17    4.09       4        56     3248          5          1    2.3219   0.5681     False
+        41    5.36       6        56     5088          5          1    2.3219   0.4334      True
+        97    6.60       9        56     5184          5          1    2.3219   0.3518      True
+       257    8.01      16        56     5184          5          1    2.3219   0.2900      True
+     65537   16.00     256        56     5184          5          1    2.3219   0.1451      True
+
+  ANCHOR: q=17 must give F_LMAX(5) = 7 (brute-force verified).
+  measured F_DECAY/log2 q range: [0.1451, 0.5681]

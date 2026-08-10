@@ -1,0 +1,80 @@
+==========================================================================
+PART 0 -- dictionary self-checks against THEIR note (internal consistency)
+==========================================================================
+  p=23   |Q|=(p-1)/11 = 2    >= m+tau=11 (tau=5,m=6 row)? NO -> excluded
+  p=67   |Q|=(p-1)/11 = 6    >= m+tau=11 (tau=5,m=6 row)? NO -> excluded
+  p=199  |Q|=(p-1)/11 = 18   >= m+tau=11 (tau=5,m=6 row)? YES
+  p=419  |Q|=(p-1)/11 = 38   >= m+tau=11 (tau=5,m=6 row)? YES
+  p=331  |Q|=(p-1)/11 = 30   >= m+tau=11 (tau=5,m=6 row)? YES
+  => their exclusion of 23,67 is EXACTLY the condition |Q| >= m+tau = 11,
+     which PROVES the dictionary component  n = (m+tau)*ell.
+
+  witness A={1,3,5,7,9} spectrum 5^2 3^2 2^4 1^22 -> (S_6..S_9) = (20, 22, 24, 25)   [audit says (20,22,24,25)]
+  p=199 profile 6^1 2^8 1^9  -> S_6 = 16  [note prints 20: audit F8 confirmed]
+  p=419 profile 6^1 2^5 1^32 -> S_6 = 16  [same]
+  F_199 equality witness  S_3(P|Q^2) = 10  doubled S_6(Gamma) = 20  [their 10 / 20]
+  envelope (20,22,24,27) increments = [2, 2, 3] -> increasing: no single state attains it (F7)
+
+==========================================================================
+PART 1 -- THEOREM J (l1_program_frontier, PROVED) on their rows
+  clause (1): 2s > n+k-1  => |ImgFib| <= 1
+  clause (2): s^2 > n(k-1) => |ImgFib| <= n(n-k+1)/(s^2-n(k-1))
+==========================================================================
+  row(tau,m)   n     k-1     s     2s-(n+k-1)   s^2-n(k-1)   verdict
+  (6, 8) CERTIFIED  154   88     99    -44      -3751        MISSES (sub-Johnson, clause1 fails)
+  (6, 9) CERTIFIED  165   99     110   -44      -4235        MISSES (sub-Johnson, clause1 fails)
+  (6,10) CERTIFIED  176   110    121   -44      -4719        MISSES (sub-Johnson, clause1 fails)
+  (7, 9) CERTIFIED  176   99     110   -55      -5324        MISSES (sub-Johnson, clause1 fails)
+  (7,10) CERTIFIED  187   110    121   -55      -5929        MISSES (sub-Johnson, clause1 fails)
+  (8,10) CERTIFIED  198   110    121   -66      -7139        MISSES (sub-Johnson, clause1 fails)
+  (5, 6) tau=5 open 121   66     77    -33      -2057        MISSES (sub-Johnson, clause1 fails)
+  (5, 7) tau=5 open 132   77     88    -33      -2420        MISSES (sub-Johnson, clause1 fails)
+  (5, 8) tau=5 open 143   88     99    -33      -2783        MISSES (sub-Johnson, clause1 fails)
+  (5, 9) tau=5 open 154   99     110   -33      -3146        MISSES (sub-Johnson, clause1 fails)
+  closed form: s^2 - n(k-1) = ell^2 * (1 - m*(tau-2)); clause1 <=> tau < 2.
+  Enlarging n beyond the minimal support domain only decreases s^2-n(k-1).
+
+==========================================================================
+PART 2 -- THE NEW TEST: defect-side (JB2)/(JB3)/(JB4)
+  N=k-1=m*ell, h=petal agreement, r_J=2d-h, e=max(0,r_J+1),
+  J=d^2-N*r_J; r_J<0 => |Z|<=1;  J>0 => |Z| <= N(d-r_J)/J
+  background-free: g=ell=11, list threshold h >= d+g
+==========================================================================
+
+(2a) CONDITIONAL ON THEIR ENVELOPE  h <= S_tau  (parity supports)
+     d_max = S_tau - g ;  r_J = 2d-h <= d-g
+  (tau=6,m= 8) N= 88  S_tau=20  d in [1, 9]  outcomes=['UNIQUE']  worst-bound=none
+  (tau=6,m= 9) N= 99  S_tau=20  d in [1, 9]  outcomes=['UNIQUE']  worst-bound=none
+  (tau=6,m=10) N=110  S_tau=20  d in [1, 9]  outcomes=['UNIQUE']  worst-bound=none
+  (tau=7,m= 9) N= 99  S_tau=22  d in [1,11]  outcomes=['BOUND', 'UNIQUE']  worst-bound=|Z|<=9 at d=11,h=22 (r_J=0,J=121, exact 9)
+  (tau=7,m=10) N=110  S_tau=22  d in [1,11]  outcomes=['BOUND', 'UNIQUE']  worst-bound=|Z|<=10 at d=11,h=22 (r_J=0,J=121, exact 10)
+  (tau=8,m=10) N=110  S_tau=24  d in [1,13]  outcomes=['BOUND', 'UNIQUE', 'VACUOUS']  worst-bound=|Z|<=35 at d=12,h=23 (r_J=1,J=34, exact 605/17)
+
+(2b) UNCONDITIONAL (their theorem NOT used): only the quintic fibre cap
+     h <= 5*tau. d_max = 5*tau - g.
+  (tau=6,m= 8) N= 88 cap=30 d in [1,19]: sieve LIVE for d in 1..16 ; VACUOUS for d in [17, 18, 19]
+        worst per-pattern bound |Z| <= 52  (d=14,h=26,r_J=2,J=20, exact 264/5)
+  (tau=6,m= 9) N= 99 cap=30 d in [1,19]: sieve LIVE for d in 1..16 ; VACUOUS for d in [17, 18, 19]
+        worst per-pattern bound |Z| <= 47  (d=15,h=28,r_J=2,J=27, exact 143/3)
+  (tau=6,m=10) N=110 cap=30 d in [1,19]: sieve LIVE for d in 1..16 ; VACUOUS for d in [17, 18, 19]
+        worst per-pattern bound |Z| <= 286  (d=15,h=28,r_J=2,J=5, exact 286)
+  (tau=7,m= 9) N= 99 cap=35 d in [1,24]: sieve LIVE for d in 1..19 ; VACUOUS for d in [20, 21, 22, 23, 24]
+        worst per-pattern bound |Z| <= 55  (d=18,h=33,r_J=3,J=27, exact 55)
+  (tau=7,m=10) N=110 cap=35 d in [1,24]: sieve LIVE for d in 1..19 ; VACUOUS for d in [20, 21, 22, 23, 24]
+        worst per-pattern bound |Z| <= 286  (d=15,h=28,r_J=2,J=5, exact 286)
+  (tau=8,m=10) N=110 cap=40 d in [1,29]: sieve LIVE for d in 1..22 ; VACUOUS for d in [23, 24, 25, 26, 27, 28, 29]
+        worst per-pattern bound |Z| <= 1870  (d=21,h=38,r_J=4,J=1, exact 1870)
+
+(2c) THE CROSSOVER: with h at the trivial cap and h=d+g the two extremes,
+     r_J<0 <=> h>2d;  combined with h>=d+g this holds for all d<g=11.
+     => on EVERY background-free ell=11 row, d<=10 forces |Z|<=1 outright.
+       tau=6: envelope S_tau=20 -> d <=  9 ; d<=10 forced? YES
+       tau=7: envelope S_tau=22 -> d <= 11 ; d<=10 forced? NO (d can reach 11)
+       tau=8: envelope S_tau=24 -> d <= 13 ; d<=10 forced? NO (d can reach 13)
+       tau=9: envelope S_tau=27 -> d <= 16 ; d<=10 forced? NO (d can reach 16)
+
+(2d) the same for the gcd_A=1 (250-support) census maxima
+       tau=6: S_tau(gcd1)=18 -> d <=  7 ; d<=10 forced? YES
+       tau=7: S_tau(gcd1)=21 -> d <= 10 ; d<=10 forced? YES
+       tau=8: S_tau(gcd1)=24 -> d <= 13 ; d<=10 forced? NO (d can reach 13)
+       tau=9: S_tau(gcd1)=27 -> d <= 16 ; d<=10 forced? NO (d can reach 16)

@@ -1,0 +1,20 @@
+M4   N=8   k=1 p=97           sig=+1.4001 CRATIO=0.7922585227 NKER=65        dpeak=20          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=113          sig=+1.1798 CRATIO=0.7292798913 NKER=65        dpeak=18          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=193          sig=+0.4075 CRATIO=0.7539062500 NKER=33        dpeak=21          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=241          sig=+0.0871 CRATIO=0.7288306452 NKER=17        dpeak=24          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=257          sig=-0.0056 CRATIO=0.5019531250 NKER=1         dpeak=22          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=337          sig=-0.3966 CRATIO=0.6404138514 NKER=17        dpeak=22          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=353          sig=-0.4635 CRATIO=0.7983141447 NKER=33        dpeak=21          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=401          sig=-0.6475 CRATIO=0.9169207317 NKER=17        dpeak=21          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=433          sig=-0.7582 CRATIO=0.9440406977 NKER=17        dpeak=23          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=449          sig=-0.8106 CRATIO=0.6377840909 NKER=1         dpeak=19          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=577          sig=-1.1724 CRATIO=0.8668870192 NKER=17        dpeak=21          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=593          sig=-1.2119 CRATIO=0.6992924528 NKER=1         dpeak=23          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=641          sig=-1.3242 CRATIO=0.7154017857 NKER=1         dpeak=27          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=673          sig=-1.3945 CRATIO=0.7252155172 NKER=1         dpeak=23          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=769          sig=-1.5868 CRATIO=0.7509765625 NKER=1         dpeak=32          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=881          sig=-1.7830 CRATIO=0.8724691901 NKER=17        dpeak=22          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=929          sig=-1.8595 CRATIO=0.7846283784 NKER=1         dpeak=26          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=977          sig=-1.9322 CRATIO=0.7930194805 NKER=1         dpeak=23          0.0s  LAD8-exhaustive
+M4   N=8   k=1 p=1009         sig=-1.9787 CRATIO=0.7982594937 NKER=1         dpeak=28          0.0s  LAD8-exhaustive
+done: 19 new cells

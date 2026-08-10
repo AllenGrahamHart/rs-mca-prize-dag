@@ -49,3 +49,14 @@ for 2 of 252 supports; #1145's own certificate field
 Also never cite the envelope `(20,22,24,27)` as one state's spectrum — its
 increments increase, so no single state attains it; their own witness gives
 `(20,22,24,25)`.
+
+## Round-25a note (2026-08-09): the domination check extended and the composition executed
+
+The 08-07 domination resolution stands, independently re-derived
+and EXTENDED to the four tau = 5 rows (clause-2 deficits -2057 to
+-3146): Theorem J misses the #1145/#1146 family entirely. The
+NEW composition (round-24's every-t (JB3) sieve + #1146's S_6
+envelope) yields per-pattern uniqueness on the whole tau = 6
+family — see the round-25a addendum on
+l1_fixed_support_defect_johnson_bound (chart-mapping caveat
+there).

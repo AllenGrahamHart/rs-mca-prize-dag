@@ -1,0 +1,2 @@
+M2   N=32  k=2 p=63361        sig=+0.0974 CRATIO=1.3887176890 NKER=478273    dpeak=171861    320.5s  T4/R2-sample
+M2   N=32  k=2 p=34369        sig=+1.8624 CRATIO=0.9843159072 NKER=1576065   dpeak=167962    300.9s  T4/R2-sample

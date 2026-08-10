@@ -1,0 +1,33 @@
+=== saturation-collapse: Tmax_cf(N,rho,q) vs the incidence cap ===
+N   rho  q     #loc   floor(N/rho)  Tmax_cf  saturated?
+16  3    17    560    5             5        True
+16  3    97    560    5             3        False
+16  3    113   560    5             3        False
+16  3    193   560    5             3        False
+16  3    241   560    5             3        False
+16  3    337   560    5             3        False
+16  3    449   560    5             3        False
+16  3    577   560    5             3        False
+16  3    673   560    5             3        False
+16  3    769   560    5             3        False
+12  3    13    220    4             4        True
+20  3    41    1140   6             6        True
+      witness supports: [(1, 2, 18), (4, 5, 8), (9, 33, 39), (10, 37, 40), (20, 23, 31), (25, 32, 36)]
+24  3    73    2024   8             8        True
+      witness supports: [(1, 8, 64), (3, 24, 46), (7, 10, 56), (9, 65, 72), (17, 63, 66), (21, 22, 30), (27, 49, 70), (43, 51, 52)]
+28  3    29    3276   9             9        True
+      witness supports: [(1, 2, 5), (3, 6, 7), (4, 16, 21), (9, 17, 23), (10, 19, 26), (11, 18, 27), (12, 13, 22), (14, 20, 28), (15, 24, 25)]
+32  3    97    4960   10            6        False
+      witness supports: [(1, 8, 19), (18, 27, 64), (22, 28, 30), (33, 46, 75), (34, 52, 55), (45, 78, 85)]
+36  3    37    7140   12            12       True
+      witness supports: [(1, 10, 26), (2, 15, 20), (3, 4, 30), (5, 13, 19), (6, 8, 23), (7, 33, 34), (9, 12, 16), (11, 27, 36), (14, 29, 31), (17, 22, 35), (18, 24, 32), (21, 25, 28)]
+40  3    41    9880   13            13       True
+      witness supports: [(1, 2, 10), (3, 24, 39), (4, 17, 22), (5, 12, 14), (6, 13, 36), (7, 18, 34), (8, 25, 37), (9, 30, 35), (11, 16, 29), (15, 26, 40), (19, 21, 28), (20, 27, 38), (23, 31, 32)]
+
+=== rho=4 and rho=5 spot checks (smallest admissible prime field) ===
+N=16  rho=4  q=17    #loc=1820    floor(N/rho)=4   Tmax_cf=4   SATURATED
+N=20  rho=4  q=41    #loc=4845    floor(N/rho)=5   Tmax_cf=5   SATURATED
+N=24  rho=4  q=73    #loc=10626   floor(N/rho)=6   Tmax_cf=6   SATURATED
+N=16  rho=5  q=17    #loc=4368    floor(N/rho)=3   Tmax_cf=3   SATURATED
+N=20  rho=5  q=41    #loc=15504   floor(N/rho)=4   Tmax_cf=4   SATURATED
+=== END ===

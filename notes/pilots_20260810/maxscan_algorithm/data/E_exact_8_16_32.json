@@ -1,0 +1,46 @@
+[
+ {
+  "n": 8,
+  "M": 4,
+  "K": 2,
+  "m": 3,
+  "ANTIPODAL_exact": 6,
+  "per_stratum": {
+   "1": 6
+  },
+  "stratum_ceiling": 2,
+  "PLATEAU": 3,
+  "STRAT1_closed_form": 6,
+  "ratio_to_plateau": 2.0
+ },
+ {
+  "n": 16,
+  "M": 8,
+  "K": 4,
+  "m": 7,
+  "ANTIPODAL_exact": 46,
+  "per_stratum": {
+   "1": 30,
+   "3": 16
+  },
+  "stratum_ceiling": 4,
+  "PLATEAU": 35,
+  "STRAT1_closed_form": 30,
+  "ratio_to_plateau": 1.3142857142857143
+ },
+ {
+  "n": 32,
+  "M": 16,
+  "K": 8,
+  "m": 15,
+  "ANTIPODAL_exact": 1974,
+  "per_stratum": {
+   "1": 630,
+   "3": 1344
+  },
+  "stratum_ceiling": 8,
+  "PLATEAU": 6435,
+  "STRAT1_closed_form": 630,
+  "ratio_to_plateau": 0.3067599067599068
+ }
+]

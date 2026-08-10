@@ -9,7 +9,7 @@
     "refs": [
       "proof_sketch/s2_paid_ledger.md#4"
     ],
-    "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing).",
+    "statement": "B_C(a_safe - 1) > B*: cap above 1-rho-2^-9 (proved) + witnesses at the adjacent grid point (unsafe_at_crossing). | SYMBOL BINDING (round-28 quantifier audit, 2026-08-10): a_safe here is THE SAME SYMBOL as in the safe-side node, and this claim is what pins it -- the safe side leaves a_safe unbound, while this statement plus the root assembly's requirement to EXHIBIT the crossing make a_safe the located crossing index. A safe point supplied at a bracket end (half distance 3n/4, or full agreement n) is NOT a legal value of a_safe: it makes this claim false or open. No pass may re-point a_safe at one of the two nodes alone.",
     "notes": "PROMOTED red -> amber (ring-1 assembly sweep 2026-07-04). FALSE-GREEN CASCADE CORRECTION 2026-07-26: zone_b is route evidence, not a duplicated universal premise; the live missing input is the corrected unsafe_at_crossing implication gated by unsafe_crossing_family_instantiation."
   },
   "requires": [

@@ -252,3 +252,4 @@ report: the exact load-bearing steps that fail, the CATCH-24A finding,
 the D2 negative control that prices the failure, and a corrected
 BAND-AC pose offered as a DRAFT recommendation, not as a fait
 accompli. No new object is constructed on a broken foundation.
+

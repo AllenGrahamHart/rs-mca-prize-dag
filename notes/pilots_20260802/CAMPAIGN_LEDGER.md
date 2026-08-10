@@ -4244,3 +4244,384 @@ net +1 = the split, not growth). Verify chain green; board r6 note
 in section 12; site republished (orbit view changed: 233 nodes).
 Round-28 anchors standing: the apolar-origin theorem, the mca_safe
 premise-weakening, the Modal n=32 maxscan, wave-55.
+
+## WAVE 55 INTEGRATED (2026-08-10, coordinator) — THE RAW K3 WORKBOARD IS CLOSED; the honest gap became DAG structure
+
+**Merged exact audited pin e9bcad4d9 (merge 9690483a8; 26 commits, 72
+new nodes vs canonical — 66 background PROVED packets + 6 new
+CRITICAL).** Closures: cell 5, role orbit [5,8], the COMPLETE cell-11
+campaign (10 pairing packets -> complete exclusion), [9,10] via the
+[12,13] transport pattern, and the RAW-WORKBOARD COMPOSITION
+(15/15 role cells, 1575/1575 raw labels, 25200/25200 signed principal
+systems, rank-drop branch empty). WORKER-INITIATED CRITICAL FLIP
+(wave-46 precedent, audited SOUND): rate_half_band_structural_surplus
+TARGET -> CONDITIONAL over a new six-node K3 subtree ending in FOUR
+TARGET leaves (eleven-route payment via
+coordinate_positive_remaining_route_payment, orientation assembly,
+allocation inequality, independent review) — the raw close "does not
+itself close K3" per Przemek's distinct-slope definition, and that
+gap is now explicit structure. Codex also repinned the census itself
+(239 = 167/40/32 math, 254 = 179/42/33 submission — my recount
+agrees; provenance comment stacked correctly on mine) and has ALREADY
+STARTED on the eleven routes (the repeated-BC/O0b campaign; two of 13
+router routes closed). REPLAYS: verify_sectioned + verify_prize_dag +
+census PASS at the pin; **141/141 verifier runs PASS** (background
+batch, all 72+6 nodes). PUSH-ON-CLOSE (ratified cadence, same-day
+audit): three new certs on PR #1152 ([5,8], cell 11, the raw close —
+now shipping their own verify.py), all convention-compliant,
+nonclaims mirror the subtree leaves; pinned commits publicly
+reachable with this push. MERGE CONFLICTS: statement.md resolved
+OURS (Codex's harvest predated banks 3/4+4/4 — theirs was a strict
+subset, 0 unique lines); child files THEIRS (the audited flip);
+census THEIRS (stacked provenance); compiled artifacts regenerated.
+Census of record: math 239 = 167/40/32, submission 254 = 179/42/33.
+
+## SCOTT'S REPLAY BLOCKER — RESOLVED + FIX-FORWARD (2026-08-10, user-approved)
+
+scottdhughes' PR #1152 comment (2026-08-09T19:33Z): the [5,8] cert's
+pinned commit 3fa298743 was publicly unreachable at his check time —
+he hit the known push-on-close latency window (cert pushed ~15:43,
+his check 20:30 local, the wave-55 merge landed 2026-08-10). NOT a
+math objection (his own words); the fail-closed provenance standard
+enforced from outside. RESOLVED: as of master 711fcb977 the pin and
+all named nodes (pairing-7/8/11, cell-5 aggregate, [5,8],
+duplicate-role transport) are publicly reachable — verified by
+ancestor check before replying. ACTIONS (user-approved): reply
+posted on #1152 (comment 5236854028: reachability confirmed, 141/141
+coordinator replays noted, his 46-script replay welcomed);
+FIX-FORWARD commit 49b6bea5 on the PR branch annotating all five
+Codex-pushed certs (durable pin = the commit hash; branch field is
+worker-local; replay against master 711fcb977+; the latency window
+documented). STRATEGIC NOTE: Scott pre-commits to replaying all 46
+scripts + auditing endpoint rootlessness and the duplicate-role
+transport — a third-party down-payment on the
+rate_half_kb_m2_r4_k3_independent_review TARGET leaf. His PR #1153
+(independent public-source replay of the cell-5 xi3 pairing
+frontier) queued for the next PR sweep.
+
+## ROUND 28 LAUNCHED (2026-08-10) — QUARANTINE MARKER — THE RH-AC ROUND
+
+Four Opus pilots on the crossing-location child's anchors
+(user-directed): apolar_origin (prove residual budgets {2^39,
+2^39+1} via the apolar structure the incidence family provably
+lacks — the named theorem target; payoff = the bracket top extends
+to all q > 2^167), ssparse_endpoints (execute the registered RH-AC
+falsifiers F1/F2 + the first scaled measurements of the S_sparse
+crossing between (RH-AC-lo) and (RH-AC-hi)), maxscan_algorithm
+(the BBM pattern: break the n=32 t=1 whole-word-space maxscan wall
+by algorithm under 1G, else validate + emit the priced Modal
+request), mca_safe_rewire (draft the HD1 premise-weakening surgery
++ map the (2^167, 2^169) seam exactly — surgery stays
+coordinator-gated). Pilots MUST NOT read ledger entries below this
+marker and MUST pass this clause to any subagent. RAM discipline
+binding; banked scripts from SCRATCH COPIES only; draft-only; no
+status flips; REPORT.md persisted by the coordinator; zero-power
+instrument classes declared in advance where a pose quantifies
+over a max (the round-27 F3 lesson).
+
+## ROUND 28 BANK 1/4 — mca_safe_rewire (2026-08-10, coordinator)
+
+**BANKED: D1 = UNSOUND — the audit-and-draft gate caught MY OWN
+resolved lead before it became surgery, and a second catch found the
+decomposition's children did not tile the parent.** The HD1
+premise-weakening is RETIRED: a_safe is unbound in mca_safe's prose
+but PINNED by its consumers (mca_unsafe states its claim at
+a_safe - 1 with the SAME symbol — mca_unsafe/statement.md:9, a node
+the brief never named; mca_grand must EXHIBIT the adjacent pair);
+B_mca is NONINCREASING (proved) so HD1's 3n/4 bracket end bounds
+nothing at the crossing; REDUCTIO: a free a_safe would be discharged
+unconditionally by wave-6 FA1 (B_mca(n)=1, no field floor) — absurd
+for an eight-premise claim. The naive swap = a hidden burden-shuffle
+into mca_unsafe's claim (true iff RH-AC-hi is tight). D2 REFRAME:
+the (2^167, 2^169) gap was a BRACKET-TOP gap, never a safe-half gap;
+above 2^167 NO safe-half-at-the-crossing input exists anywhere
+(~89 bits uncovered, not 2). Apolar cross-link VERIFIED with a
+precision fix: budget 2^39+1 alone reaches q >= 2^167 + 2^128 (the
+2^128 sliver is budget 2^39's own interval; "all q > 2^167" holds
+for the PAIR); HD1's 2^169 floor is SHARP (witness prime exhibited).
+TILING CATCH (E7): rows q in [2^167, 2^255.9] were located by
+NOTHING — adjacency_closing's no-remaining-exception line was
+unsupported. CORRECTIONS APPLIED: Draft B all 8 pairs verbatim
+(preconditions replayed OK; conditional-propagation clean by
+design) + THE COORDINATOR'S TILING REPAIR: the crossing child's
+quantifier WIDENED to all admissible 2^167 < q < 2^256 (statement +
+shard + title + refuted notes replaced; E7 flag RESOLVED same-day
+on adjacency_closing). Verify chain green; census unchanged
+239 = 167/40/32. Pilot predictions: P1 hit its 15% branch; P5
+registered backwards and its correction PRODUCED the verdict; own
+falsifier disclosed as mis-scoped. Flagged for round 29: the
+k <= 2^40 quantifier (is k = 2^40 extremal? no node says).
+Replays: check_edits/census_impact/gap_witness all green; the
+three pinning quotes verified verbatim by the coordinator. Files:
+notes/pilots_20260810/mca_safe_rewire/{REPORT.md,FABLE_AUDIT.md,edits.json}.
+
+## ROUND 28 BANK 2/4 — maxscan_algorithm (2026-08-10, coordinator)
+
+**BANKED: THE WALL BROKE BY ALGORITHM (the BBM pattern, second
+instance) and the delta=1 flank branch COLLAPSES.** The n=32 t=1
+whole-word-space maxscan ("Modal-class, out of stdlib reach") ran
+in 4 min / 130 MB via SIGNAL SEPARATION (q ~ 3e7 suffices when the
+comparator is the plateau) + THE ANTIPODAL IDENTITY (e2 depends on
+signs only through P^2 at alpha=0); the mid-run PARITY THEOREM
+(E in Z[omega] iff S single-parity — Q-basis factorization;
+corollary strata <= n/4, a 155x exact reduction) reached n=64.
+VERDICT at four scales (char-0 exact, coordinator-replayed
+IDENTICAL incl. n=64: 1,946,902): surplus +1.000/+0.394/-1.705/
+-7.270 bits — monotone, accelerating, ~12 bits short of the razor
+need and moving away. Round-27's conflict RESOLVED on the delta=1
+branch. Closed form STRAT_1 = (M+2)C(M/2-1,M/4-1) at tolerance 0,
+four scales. Two-field: 1988 identical at both n=32 fields; the
+char-0 1974 three-way confirmed. HONEST RESIDUALS: maximal-slack
+curve NOT decided (sampled-only; the parity recursion is the named
+route); n=64 argmax assumed; the full (alpha,beta) exhaustion now
+OPTIONAL at <$5 (MODAL_REQUEST.md held, not filed — gates only the
+argmax-by-exhaustion upgrade). Pilot: 2 registered misses first;
+one self-caught compute-law near-violation (stopped before
+output). Mint queue: the PARITY THEOREM + the closed form.
+Addendum on rate_half_band_crossing_location; no status flips.
+Files: notes/pilots_20260810/maxscan_algorithm/{REPORT.md,FABLE_AUDIT.md,MODAL_REQUEST.md}.
+
+## ROUND 28 BANK 3/4 — apolar_origin (2026-08-10, coordinator)
+
+**BANKED: the theorem did NOT land (both budgets stay open) — and
+the mandate's premise is corrected (CATCH-24A #5): the apolar
+origin was NEVER MISSING** (the Hankel suite names the apolar
+generator + catalecticant + the residual gate verbatim; the m=1
+fence's own text says imposing it is INSUFFICIENT; the mechanism is
+a PORT of the proved QMU/QMP species to the full A=3 pencil). WHAT
+LANDED (all replays IDENTICAL): (1) the mechanism C (min-weight
+coset uniqueness legal on both official profiles, margins 3 and 1;
+injectivity; type-1/2 dichotomy; T_1 <= e+1) — separates both
+banked certificates with no linear algebra; (2) **CYCLOTOMIC
+EXCLUSION AT OFFICIAL SCALE (new theorem): T <= N/rho = 4 vs
+target 2^39+1, margin 5.5e11 — round-27's one field-independent
+threat to budget 2^39+1 DEAD AT THE OFFICIAL PARAMETERS BY
+PROOF**; (3) the w* window [4m+2, 8m-2] (killing the pilot's own
+first vacuous hook — self-caught); (4) the per-stratum closure:
+T <= rho+1 on the strict e=m face for O=0, m >= 2, w* <= ~16m/3 —
+asymptotically 1/3 of the admissible range; q=17 excluded by
+explicit hypothesis as briefed; does NOT move the budgets (mass at
+large w*); (5) the RECIPROCAL-LOCATOR NORMAL FORM: extremal
+type-2 slopes = points of {P_S} on the pencil line; structured
+collinear families killed by the counting layer (the flat 840 that
+FALSIFIED the pilot's registered heuristic at every field);
+sporadics die with q (0.000 at q >= 97); **the q=17 fence
+violation mechanically located as ONE sporadic collinearity**;
+official-scale heuristic flagged as heuristic; (6) the
+disjoint-support fence R4 (one criterion, both certificates).
+SLIVER PRECISION FIX applied (2^167 + 2^128): THREE-WAY blind
+convergence (rewire + apolar + coordinator). THE SHARPENED GAP:
+bound sporadic collinearities of {P_S} at large w* over prime
+q > 2^167. Addendum + fix on rate_half_band_crossing_location; no
+status flips; census unchanged 239 = 167/40/32. Files:
+notes/pilots_20260810/apolar_origin/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 28 BANK 4/4 — ssparse_endpoints (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED: P0 — the pose's central reduction is FALSE and CORRECTED
+(the third structural correction of the round, coordinator-verified
+from primary text):** the Hankel far-CA layer's scope is r < 2^39
+(a > 3n/4 ONLY — verbatim from both nodes); the PROVED simple-pole
+pair is COLUMN-FAR with payload B_ca^far(k+2^34-1) >= 2^216 vs
+B* = 2^128; **the open content of RH-AC is the FAR-CA crossing on
+[k+2^34, 3n/4), not the S_sparse localization** (inline FALSE
+marker + addendum applied; falsifiers F1/F2/F3 survive untouched).
+**F1 DOES NOT FIRE — the mechanism space EXHAUSTED** (7 surfaces:
+the exact rung lattice, N >= 512 pruned by theorem, non-2-power
+scale EMPTY by divisibility, d >= 2 dead twice incl. the
+additive/multiplicative structural collapse, rotation exponents
+closed at exactly d+1, hybrid/rider/overflow priced dead, the
+pilot's own mid-run subgroup route closed exactly): max reach
+2^34-1 EVERYWHERE, margin 114.6503 (replayed). F2 does not fire
+(priced unreachable BEFORE attempting; scaled sharp form 9.1x
+under budget). **ENDPOINT VERDICT: a_RH = k + 2^34 + O(1)** — the
+slack buys 0.65-3.09 sigma-units against measured max-profile
+decay; all three separating scaled cells track -lo; and
+TRANSPORT-FREE: **(RH-AC-hi) demands 2^40.11-fold flatness over
+5.3e11 consecutive agreements** — not a rival, a pathology.
+CONSUMER CONSEQUENCE FLAGGED: with P0, adjacency's lower bar at
+k+2^34 would be met by the PROVED floor at a-1 IF the crossing
+lands there. NAMED NEXT OBJECT: an upper bound on the max list
+profile just above sigma = 2^34. ESC-1: the BRIEF's escape was
+ill-posed (difference vs max) — registered as a miss BEFORE
+running, corrected escape 6/6. Misses: F_COLL 10-34 vs registered
+<= 4 (7-9x-random collinear structure in the locator set — the
+SAME object as apolar's sporadic-collinearity gap, from the other
+side; joint-brief candidate). One disclosed breach (empty heredoc,
+no program ran; 13/14). Replays: d1_rungs/d4_margins/escapes
+green. Addendum applied; no status flips; census unchanged
+239 = 167/40/32. Files:
+notes/pilots_20260810/ssparse_endpoints/{REPORT.md,FABLE_AUDIT.md,data/}.
+
+**ROUND 28 COMPLETE: 4/4 banked. The RH-AC child was REBUILT BY ITS
+OWN ROUND: quantifier widened to all q > 2^167 (bank 1's tiling
+catch), the naive premise-weakening retired as unsound (bank 1),
+the supply flank's delta=1 branch decided by algorithm — collapse
+at four scales with the parity theorem (bank 2), the upper gate's
+threat killed at official scale by proof + the reciprocal-locator
+normal form locating q=17 (bank 3), and the binding object
+corrected to the far-CA crossing with the endpoint bracketed to
+k + 2^34 + O(1) and -hi facing a 2^40 flatness pathology (bank 4).
+Three structural corrections of inherited text in one round; the
+sliver constant three-way blind-converged; two walls broken by
+algorithm this week; zero status flips. PENDING USER: the
+endpoint-pose sharpening (-lo + O(1) working hypothesis, -hi
+demoted); the joint sporadic-collinearity brief (apolar gap =
+ssparse F_COLL structure, one object two sides) as the round-29
+anchor alongside the named next object (the max-list-profile upper
+bound just above sigma = 2^34).**
+
+## ROUND 29 LAUNCHED (2026-08-10) — QUARANTINE MARKER — THE CONVERGENCE ROUND
+
+Four Opus pilots (user-directed continuation of round 28):
+collinearity_object (the JOINT brief — apolar's
+sporadic-collinearity gap and ssparse's F_COLL 7-9x-random
+structure are one object, the reciprocal-locator point set {P_S};
+unify the measurements, characterize structured-vs-sporadic
+completely, attempt the sporadic bound via the normal form),
+list_profile_bound (THE theorem target under the new working
+hypothesis: an upper bound on the max list profile just above
+sigma = 2^34 — the far-CA safe half at the presumptive crossing),
+k_extremal (the bank-1 flagged seam: is k = 2^40 extremal for the
+rate-half lane, or does k < 2^40 need coverage? audit-and-draft),
+slack_recursion (the supply side's last number: implement the
+parity recursion, measure maximal slack exactly at n=32, close the
+flank entirely). Endpoint working hypothesis a_RH = k + 2^34 +
+O(1) adopted on the child (addendum; falsifiers unchanged).
+Pilots MUST NOT read ledger entries below this marker and MUST
+pass this clause to any subagent. All round-28 lessons binding:
+scratch copies, zero-power declarations on max-quantified poses,
+consumer-side quantifier reads, RAM discipline, draft-only, no
+status flips, REPORT.md persisted by the coordinator.
+
+## ROUND 29 BANK 1/4 — k_extremal (2026-08-10, coordinator)
+
+**BANKED: HOLE — the largest quantifier catch of the campaign.** The
+grand-challenge rate-half family is 41 ROW SIZES (n = 2^s,
+k = 2^(s-1), s = 1..41 — the PROVED descriptor node makes k <= 2^40
+a CAP over the family, not a pin; coordinator-verified verbatim),
+and the ENTIRE rate-half crossing/floor lane is posed at s = 41
+alone. No extremality/reduction/monotonicity theorem exists
+(grep-gated); admissibility does NOT exclude small rows (the repo's
+own regression fixture is the fully admissible s = 9 row F_17^32,
+n = 512, k = 256 — coordinator-verified). UNCOVERED SET MAPPED:
+s = 8..40 entirely (33 sizes); s = 1..7 above per-s q-thresholds
+(the pilot's elementary POSE 1 list-side corridor; shuts permanently
+at s = 8). HARD VACUITY: the proved bracket is EMPTY below k = 2^35;
+the floors are absolute-width objects not evaluable below s = 34.
+BLAST RADIUS narrow (4 crossing/floor nodes + 2 constants) — narrow
+because small rows are simply UNADDRESSED. FLAGS APPLIED (E7
+pattern, all verify-green incl. the three-write sectioned-addendum
+discipline + a mechanical lesson: regenerate document.json per-node,
+the repacket path refuses on grown sources): A mca_grand, B
+band_closure both-texts (incl. its own node.json/statement.md
+quantifier disagreement), C list_adjacent_crossing (addendum 16), D
+BAND_LANE_DEFINITIONS item 13 ("official row" banned bare). SECOND
+CATCH — FLAG E: two mutually exclusive maximal-row conventions
+(A: N = 2^41, K = rho*N vs B: n = 2^41..2^44, k = 2^40), agreeing
+only at rate 1/2 — decides which rows the CLEAN-RATE lane is about;
+ADJUDICATION PENDING. HONEST UNRESOLVED: ABF26's "sufficiently
+large |F|" proviso could flip HOLE -> PINNED — not vendored
+in-tree; a rules-citation/Przemek question. PENDING USER: POSE 3
+(the per-s four-band family re-pose, recommended); the ABF26
+question (outward); FLAG E adjudication. Pilot: 14 min, blind
+priors before reading, P3's 55% HOLE prior hit, P7 hit-on-location
+miss-on-outcome (the one-level-up nodes CONFIRMED the hole).
+Files: notes/pilots_20260810/k_extremal/{REPORT.md,FABLE_AUDIT.md,DRAFT_SCOPE_FLAGS.md}.
+
+## ROUND 29 BANK 2/4 — list_profile_bound (2026-08-10, coordinator)
+
+**BANKED: no UB at small c — and the failure is an exact number.
+T5 THE OBSTRUCTION IDENTITY: GAP_FISHER = (k-1) - a^2/n =
+532,441,726,975 vs the open bracket 532,575,944,704 — ratio
+0.999748: the bracket IS the MDS-vs-Fisher overlap region; they end
+together.** THE TARGET TRANSFORMED: not "a max-list-profile UB" but
+ONE INEQUALITY — a pairwise-overlap cap below a^2/n = 2^39 + 2^34 +
+2^27 at sigma = 2^34 (T3 then closes UB-far with 89 bits of
+margin). CONSUMER-BAR CORRECTION: c = 0 is the ONLY value serving
+adjacency_closing (c >= 1 re-opens the unsafe half against the
+round-28-exhausted mechanism space) — the working hypothesis's
+payoff is all-or-nothing at c = 0. ROUND-28 TRANSPORT REFUTED: the
+ratio (0.6865 log2 q) reading dies on a three-field q-ladder —
+F_LMAX is an ABSOLUTE 2.8074-bit constant (7/7/7 at q=17/41/97);
+corrected transport c ~ 32; F_LMAX != B_ca^far (measured); the
+"217 units" figure has a 91x two-readings discrepancy —
+DO-NOT-QUOTE flag applied; the (FLAT)/(RH-AC-hi) demands are
+NESTED not equivalent (the 2^40 -hi refutation supplies no part of
+UB-far). STRUCTURE THEOREM: all 7 far-CA instruments = ONE
+unique-decoding threshold (a >= 3n/4) seen seven ways; 0/7 reach
+the bracket; the unique crosser (integer-Johnson, 0.707n) bounds
+L_1 not B_ca^far; the Hankel MOVING-KERNEL branch is ABSENT (the
+above-3n/4 discharge itself incomplete — flagged for Codex).
+BANKED THEOREMS T1-T4 (sunflower rigidity; the stratified rider
+halving (RR2)'s exponent, reach-honest; the Fisher sub-stratum
+bound; elementary thresholds) — validated 0/21,832 exhaustive,
+T4 tight. The scaled-cell program DECOMMISSIONED for c
+(structural width-1 finding). CROSS-PILOT CONVERGENCE flagged:
+T5's overlap-cap object and collinearity_object's {P_S} structure
+are adjacent facets of one extremal question. Pilot: validator bug
+self-caught (1.68M spurious violations diagnosed as code, not used
+to weaken the theorem); CATCH-24A x3 incl. against its own
+mandate; 14 HIT / 2 MISS own-slips disclosed. Replays: GAP exact,
+0/21,832, the q-ladder identical (sampled section differs by
+sample count only — benign). Addendum applied; no status flips.
+Files: notes/pilots_20260810/list_profile_bound/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 29 BANK 3/4 — slack_recursion (2026-08-10, coordinator)
+
+**BANKED: the supply side closes THE OTHER WAY — the arbitrary-word
+maximum is a THEOREM (product word realizing Graham-Sloane; matching
+upper within one bit), it GROWS (+1.2/+4.4/+11.4/+26.5 bits at
+n=8/16/32/64), crossing the razor need between n=16 and 32 — and
+the honest verdict is a MODEL CRITIQUE, not an F2 firing** (naive
+transport over-satisfies by ~115 bits; the t=1 model is provably
+unfaithful — the razor lives at t = 2^34; first coset-faithful data
+point measured; **C(127,64) matches NEITHER coset formula — the
+(t,M) TRANSPORT DICTIONARY is the named gate on all supply-side
+razor claims**). The recursion KILLED (88/103 mixed-parity
+counterexamples; REC-BOX survives at prune 2.7; n=128 dead).
+CORRECTED BANKED LINES: round-28's "same fate likely" falsified
+twice; round-27's frame under-measured 6.4x (111 in-frame vs 715
+true); the 5-vs-6 conflict dissolved (F_LIST vs F_SUBSET). The
+pilot's OWN registered direction refuted by its own measurement —
+the R6 fallback rule fired and was followed. Theorems A-D +
+MINT_PACKAGE.md queued. One no-op compute-law breach disclosed.
+Addendum applied; no status flips. Files:
+notes/pilots_20260810/slack_recursion/{REPORT.md,FABLE_AUDIT.md,MINT_PACKAGE.md}.
+
+## ROUND 29 BANK 4/4 — collinearity_object (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED: T4 — THE SPORADIC BOUND, UNCONDITIONAL: for
+RIG = a-1-2s >= 0, sporadic collinearities of {P_S} DO NOT EXIST
+(two-line divisibility argument, coordinator hand-verified);** with
+the banked counting layer, T <= rho+1 on the TOP TWO THIRDS of the
+w* window — **exactly complementary to apolar's round-28
+one-third.** THE UNIFICATION IS AN IDENTITY (U1: the two round-28
+point sets are one set up to a fixed collineation; 1024/1024;
+ssparse's F_COLL reproduced exactly from the reciprocal side).
+ssparse's excess = a THIRD CLASS (small-ambient floppy artifact,
+a <= 4; vanishes at a >= 5 in 1152 configs; official ambient
+w* >= 2^39+2 — the round-28 flag RESOLVED zero-power, declared by
+the pilot against its own headline). The complete structured census
+answers the SAFETY QUESTION NO (every family capped at m+1 by the
+d_x law, zero violations). q=17 explained TO THE UNIT (hypothesis
+fails by exactly one; boundary term 4*sigma_W). **NEITHER BUDGET
+CLOSES — THE THREE NAMED RESIDUALS: (i) the 1-or-3-integer w*
+tiling gap; (ii) the non-minimum-weight type-2 stratum (cap
+5.04e22 vs 2^39 — the big one); (iii) m=1.** Fourth sliver
+derivation; precision nit banked (the extension factor is
+4 - 7.28e-12, not exactly 4). Two self-caught bugs + a mislabelled
+counter reported as such; CATCH-24A port credit (dihedral family).
+Replays: d1_unify + d3_coverage IDENTICAL. Addendum applied; no
+status flips; census unchanged 239 = 167/40/32.
+Files: notes/pilots_20260810/collinearity_object/{REPORT.md,FABLE_AUDIT.md}.
+
+**ROUND 29 COMPLETE: 4/4 banked. THE RESIDUAL BUDGETS NOW HAVE AN
+ENUMERATED ENDGAME — apolar's 1/3 + T4's 2/3 with three named
+residuals — and the RH-AC safe half has ONE named inequality (the
+overlap cap below a^2/n, T5). The k-quantifier HOLE is flagged
+across the lane with three user decisions pending (POSE 3 / the
+ABF26-Przemek question / FLAG E adjudication); the supply side
+moved to the (t,M) transport dictionary. Two banked-line
+corrections and one refuted transport this round — the audit
+cadence still catching everything inherited within one round.**

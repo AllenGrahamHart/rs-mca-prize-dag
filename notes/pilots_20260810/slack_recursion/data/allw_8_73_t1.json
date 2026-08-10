@@ -1,0 +1,114 @@
+{
+ "mode": "allw",
+ "n": 8,
+ "q": 73,
+ "t": 1,
+ "a": 5,
+ "dmax": 2,
+ "g": 10,
+ "MAXWORD_SUB": 21,
+ "MAXWORD_LIST": 7,
+ "n_items": 302568,
+ "n_cosets": 225256,
+ "PRODUCT_PRED": 7,
+ "per_delta": {
+  "2": {
+   "maxlist": 7,
+   "maxsub": 21
+  },
+  "1": {
+   "maxlist": 5,
+   "maxsub": 6
+  },
+  "0": {
+   "maxlist": 3,
+   "maxsub": 3
+  }
+ },
+ "top": [
+  {
+   "key": [
+    27,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  },
+  {
+   "key": [
+    10,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  },
+  {
+   "key": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  },
+  {
+   "key": [
+    22,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  },
+  {
+   "key": [
+    46,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  },
+  {
+   "key": [
+    63,
+    0,
+    0,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 7,
+   "delta": 2,
+   "profile": {
+    "5": 7
+   }
+  }
+ ]
+}

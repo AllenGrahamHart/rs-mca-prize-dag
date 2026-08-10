@@ -1,0 +1,24 @@
+=== (a) N=16 q=17 : the PROVED fence 5-line ===
+fence 5-line: N=16 R=8 r=rho=3 q=17  #locators=5  collinear=True
+   line parameters (slopes up to affine change): [0, 1, 2, 4, 15]
+   A = R+1-2rho = 3 ; (ERC2) cap at e=1,s=0 : T <= 5 ; design count = 5
+   Hankel realizability: nullity of the 15x16 system = 1
+   solution 0: column-far=True  supported finite slopes T=5 (target T<=rho+1=4)
+
+=== (b) N=28 q=29 : the saturating design 9-line ===
+design 9-line: N=28 R=14 r=rho=3 q=29  #locators=9  collinear=True
+   line parameters (slopes up to affine change): [0, 1, 15, 16, 24, 6, 23, 14, 7]
+   A = R+1-2rho = 9 ; (ERC2) cap at e=1,s=0 : T <= 7 ; design count = 9
+   Hankel realizability: nullity of the 33x28 system = 0
+   => NOT Hankel-realizable: the design line is not a syndrome pencil.  The counting cap is attained by a NON-Hankel object.
+
+=== (c) N=12 q=13 : the cyclotomic family X^3 - c ===
+cube classes: [(1, 3, 9), (7, 8, 11), (2, 5, 6), (4, 10, 12)]
+cyclotomic 4-line: N=12 R=6 r=rho=3 q=13  #locators=4  collinear=True
+   line parameters (slopes up to affine change): [0, 1, 5, 6]
+   A = R+1-2rho = 1 ; (ERC2) cap at e=1,s=0 : T <= 4 ; design count = 4
+   Hankel realizability: nullity of the 9x12 system = 3
+   solution 0: column-far=True  supported finite slopes T=4 (target T<=rho+1=4)
+   solution 1: column-far=True  supported finite slopes T=4 (target T<=rho+1=4)
+   solution 2: column-far=True  supported finite slopes T=4 (target T<=rho+1=4)
+=== END ===

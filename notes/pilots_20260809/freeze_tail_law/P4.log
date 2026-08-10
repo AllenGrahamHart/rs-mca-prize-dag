@@ -1,0 +1,14 @@
+==============================================================================
+P4 -- EXACT INTEGER CUTOFFS Q* by norm enumeration over the box
+==============================================================================
+  cell (32,2,1) u=2 e=8 box=   390625 distinct|norm|=    124  max|norm|=2^19.23 (Hadamard 2^20.0)
+     EXACT CUTOFF Q* = 273857  = 2^18.063   witness A=[-2, -2, -2, 1, -2, 1, -1, -2]
+  cell (64,4,2): box 43046721 > budget 20000000 -- SKIPPED (bracketed in P6 instead)
+  cell (64,8,3) u=8 e=4 box=    83521 distinct|norm|=     90  max|norm|=2^15.17 (Hadamard 2^16.0)
+     EXACT CUTOFF Q* = 26177  = 2^14.676   witness A=[-8, -7, -1, -7]
+  cell (128,16,4) u=16 e=4 box=  1185921 distinct|norm|=    231  max|norm|=2^19.17 (Hadamard 2^20.0)
+     EXACT CUTOFF Q* = 509441  = 2^18.959   witness A=[-16, -16, 5, -14]
+  cell (256,32,5) u=32 e=4 box= 17850625 distinct|norm|=    509  max|norm|=2^23.17 (Hadamard 2^24.0)
+     EXACT CUTOFF Q* = 8677121  = 2^23.049   witness A=[-32, -31, -1, -31]
+
+checkpoint: /home/u2470931/smooth-read-solomin/prize/notes/pilots_20260809/freeze_tail_law/tailckpt.json

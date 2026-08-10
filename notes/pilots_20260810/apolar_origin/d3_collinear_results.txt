@@ -1,0 +1,20 @@
+=== A1 : the m=1 fence, extremal normal form ===
+  S=(9, 12, 13) -> P_S = (1, 5, 13, 14, 2, 13)
+  S=(4, 6, 16) -> P_S = (1, 5, 3, 14, 7, 3)
+  S=(8, 10, 15) -> P_S = (1, 5, 10, 14, 12, 10)
+  P_3 on line(P_1,P_2) : True
+  (type-1 slopes contribute the two points of L with 3 vanishing coordinates; they are the S_0,S_1 halves of W)
+
+=== A2 : field census of collinearity at m=1 (N=16, rho=3, a=6) ===
+   q     #W sampled  mean trip(W)  max collin(W)  heuristic C(120,3)/q^4
+  17    6           840.167       4              3.3625
+  97    6           840.000       4              0.0032
+  113   6           840.000       4              0.0017
+  193   6           840.000       4              0.0002
+  241   6           840.000       4              0.0001
+
+=== A3 : m=2 sampled search (N=32, rho=7, a=10, q=97) ===
+  W sample: M = 170544 points in P^9 ; 120 random lines ; max collinear count = 2  (need 6)
+  W sample: M = 170544 points in P^9 ; 120 random lines ; max collinear count = 2  (need 6)
+  W sample: M = 170544 points in P^9 ; 120 random lines ; max collinear count = 2  (need 6)
+=== END part 3 ===

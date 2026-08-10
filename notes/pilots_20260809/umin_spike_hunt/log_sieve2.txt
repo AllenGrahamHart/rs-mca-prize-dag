@@ -1,0 +1,10 @@
+in-band M2 primes (p = 1 mod 64, 2^15 < p <= 2^17): 266
+  U=1: 1 leaves, 0 square-candidates, 0 verified kernel vectors
+  U=2: 32 leaves, 0 square-candidates, 0 verified kernel vectors
+  U=3: 620 leaves, 0 square-candidates, 0 verified kernel vectors
+  U=4: 9024 leaves, 0 square-candidates, 0 verified kernel vectors
+  U=5: 100688 leaves, 576 square-candidates, 0 verified kernel vectors
+  U=6: 906752 leaves, 2352 square-candidates, 0 verified kernel vectors
+  U=7: 6731712 leaves, 7984 square-candidates, 32 verified kernel vectors
+   p=33409   UMIN=7 PREDCR=1.1031 AU=7:64
+kappa=2 arm: 1 of 266 in-band primes carry an orbit of weight <= 7 (401.8s)

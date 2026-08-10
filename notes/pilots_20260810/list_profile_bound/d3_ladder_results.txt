@@ -1,0 +1,31 @@
+==========================================================================
+(A) EXACT F_LMAX(n=8,k=4,a) -- exhaustive modulo translation+scaling
+==========================================================================
+q      a      F_LMAX     log2       log2 q      
+17     5      7          2.8074     4.0875         witness supp/vals ((0, 1, 2), (1, 5, 15))
+17     6      1          0.0000     4.0875         witness supp/vals None
+17     7      1          0.0000     4.0875         witness supp/vals None
+41     5      7          2.8074     5.3576         witness supp/vals ((0, 1, 2), (1, 18, 3))
+41     6      1          0.0000     5.3576         witness supp/vals None
+41     7      1          0.0000     5.3576         witness supp/vals None
+97     5      7          2.8074     6.5999         witness supp/vals ((0, 1, 2), (1, 86, 50))
+97     6      1          0.0000     6.5999         witness supp/vals None
+97     7      1          0.0000     6.5999         witness supp/vals None
+
+decay of the exact max list profile, per unit of a:
+  q=17      a:5->6  F_DECAY = 2.8074 bits   ratio to log2 q = 0.6868
+  q=41      a:5->6  F_DECAY = 2.8074 bits   ratio to log2 q = 0.5240
+  q=97      a:5->6  F_DECAY = 2.8074 bits   ratio to log2 q = 0.4254
+
+(B) B_CAFAR(n=8,k=4,a) sampled lower bounds (300 candidate pairs/cell)
+q      a      M_max      n-a+1      col-far   
+17     5      17         4          220       
+17     6      5          3          298       
+17     7      1          2          300       
+41     5      37         4          269       
+41     6      4          3          300       
+41     7      1          2          300       
+97     5      51         4          288       
+97     6      4          3          300       
+97     7      1          2          300       
+==========================================================================

@@ -1,0 +1,54 @@
+!! SELF-CORRECTION, READ FIRST: the DIMENSION-DRIVEN ceilings computed
+!! below assume (PC3)'s overlap hypothesis (distinct members share <= D-1
+!! roots). fixture1148.py MEASURED the actual overlaps -- 446 of 479
+!! (theirs) and 4979 of 4980 (ours) -- so that hypothesis FAILS at BOTH
+!! fixtures and these ceilings are NOT valid bounds. They are kept only as
+!! 'what the instrument would give if its parameter tracked the dimension'.
+!! The VALID numbers, and the instrument lead, are in fixture1148.txt.
+
+==============================================================================
+MYSTERY-7 CALIBRATION: the (PC3) anticode/packing ceiling vs the truth
+at the two exhibited M31 split-locator flats (p = 2^31-1)
+==============================================================================
+  OURS  l1_m31_fixed_support_divisor_direction_cap_route_cut (PROVED)
+     points n'=72428  degree=4980  dim V=6 (projective dim 5)  TRUTH=67449
+     (PC3) packing ceiling  C(72428,5)/C(4980,5) = 651925   (log2 = 19.314)
+     TRUTH log2 = 16.042    ->  INSTRUMENT LOOSENESS = 2^3.273 (factor 9.665)
+     mean over a random flat of the same dim: log2 = -128066.26
+     MAX-TO-MEAN (what mystery 7 must bound): 2^128082.30
+
+  THEIRS maelcar #1148 full-affine-hull rigidity (synthesis replayed)
+     points n'=1023  degree=479  dim V=16 (projective dim 15)  TRUTH=16
+     (PC3) packing ceiling  C(1023,15)/C(479,15) = 98739   (log2 = 16.591)
+     TRUTH log2 = 4.000    ->  INSTRUMENT LOOSENESS = 2^12.591 (factor 6171)
+     mean over a random flat of the same dim: log2 = -13369.30
+     MAX-TO-MEAN (what mystery 7 must bound): 2^13373.30
+
+==============================================================================
+THE CALIBRATION (this is the new content)
+==============================================================================
+  flat dim  6 (proj 5):  instrument loose by 2^3.273
+  flat dim 16 (proj 15): instrument loose by 2^12.591
+  looseness GROWTH across the two exhibited dimensions: 2^9.318
+  per extra projective dimension: 2^0.9318  (over 10 dimensions)
+
+  DIRECTION CHECK (the reason a dimension-uniform theorem is not obviously
+  false and not obviously easy): the LOWER-dimensional flat carries VASTLY
+  MORE split members.
+     dim  6 -> 67449 split members
+     dim 16 ->    16 split members
+  so 'more dimensions => more split members' is FALSE as a monotone
+  principle, exactly as l1_m31_fixed_support_divisor_direction_cap_route_cut
+  already recorded; #1148 supplies the missing HIGH-dimension data point.
+
+  MAX-TO-MEAN, the quantity mystery 7 must bound uniformly:
+     dim  6 : 2^128082.30
+     dim 16 : 2^13373.30
+
+SANITY: hand-checkable identities from the #1148 synthesis (replayed)
+  2^16 - 1                    = 65535 (all nonempty supports)
+  sum_{s=9}^{16} C(16,s)      = 26333
+  C(16,8)                     = 12870
+  136 = C(17,2) = k(k+1)/2    = 136 -> Schur square MAXIMAL at k=16
+  GRS would give 2k-1         = 31
+  primary vs audit normals    = 10694457224 vs 10694457231, difference = 7 (FLAG F4 still open)

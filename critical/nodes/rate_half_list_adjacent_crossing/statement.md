@@ -39,6 +39,8 @@ anchor and unsafe floor do not meet, so this node remains `TARGET`.
 - `statement_addenda/15-round23-cw-pricing.md`: Round-23 constant-weight
   pricing — deep stratum settled at v>=35; Acc_shallow not bridged; one
   object, two targets.
+- `statement_addenda/16-round29-row-size-scope.md`: Round-29 row-size
+  scope flag — the claim/machinery quantifier seam (k_extremal).
 
 Each mathematical supplier is already an independent DAG node.  This parent
 does not absorb those theorems and does not become conditional on them.

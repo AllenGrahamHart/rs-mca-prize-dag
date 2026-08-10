@@ -1,0 +1,5 @@
+PASS  E4 N=16 IFF over the WHOLE band: cell sets agree         sieve 1298 cells (1129229 leaves, 28.4s), truth 1298 cells (22.3s)
+PASS  E4 N=16 IFF: every AU[U], U<=12, exact                   mismatches=[]
+   wrote N16_CENSUS.json (1298 cells)
+================================================================================
+TOTAL 2 PASS / 0 FAIL

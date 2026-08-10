@@ -32,9 +32,13 @@ localization. Child 1 supplies the enumerated supply cap on the
 deployed-row side in K3's unit of account. Together they give the
 consumers what they consume from this node: adjacency_closing takes
 the located adjacent pair (both halves of RH-ADJ); mca_safe takes
-the safe half (independently HD1-dischargeable at q >= 2^169 — the
-named premise-weakening follow-up); list_adjacency_closing no
-longer consumes this node's MCA content (owner moved at wave 10).
+the safe half AT THE LOCATED INDEX (round-28 quantifier audit,
+2026-08-10: the named premise-weakening follow-up onto HD1 is
+RETIRED AS UNSOUND — HD1 is an upper bracket END at 3n/4, and
+B_mca is nonincreasing, so it bounds nothing at the crossing; the
+consumer's a_safe is the shared crossing symbol, not a free
+choice); list_adjacency_closing no longer consumes this node's MCA
+content (owner moved at wave 10).
 
 No random-word quantity appears in either premise (the F3 zero-power
 declaration is load-bearing on child 2; the FLOOR v2 history and its
