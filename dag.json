@@ -30059,6 +30059,24 @@
    ]
   },
   {
+   "id": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "title": "FPC5 shifted-Johnson first-layout aggregate payment",
+   "status": "PROVED",
+   "closure": "proof composition and independent exact threshold replay",
+   "statement": "If one fixed FPC5 source/touched/defect cell has shifted-Johnson cap W L_m(q), then canonical first-layout domination bounds the complete class across all maximal source layouts by binom(M,t) W L_m(q)+M. Disjoint exact defect cells may be summed before adding M once. At n=8192 this globally pays the unique shifted cells at rates 1/2, 1/4, and 1/8 on explicit upper field slices and jointly pays defects 248 and 292 at rate 1/16, M=61 for q>=2^254; the other six shifted M=61 defects fail after touched-set aggregation even at q=2^256-1.",
+   "refs": [
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/statement.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/proof.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/claim_contract.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/dependency_subdag.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/audit.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/result.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/provenance.md",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/verify.py",
+    "background/nodes/l1_fpc5_shifted_johnson_first_layout_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "l1_fpc5_shifted_johnson_grs_shell_cap",
    "title": "FPC5 shifted-Johnson GRS shell cap",
    "status": "PROVED",
@@ -62570,9 +62588,19 @@
    "kind": "req"
   },
   {
+   "from": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_shifted_johnson_grs_shell_cap",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_shifted_johnson_grs_shell_cap",
+   "to": "l1_fpc5_shifted_johnson_first_layout_payment",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_tpetal_anchor_coordinate",
@@ -62732,6 +62760,11 @@
   {
    "from": "l1_general_first_layout_domination",
    "to": "l1_fpc5_ratequarter_m4_t2_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_shifted_johnson_first_layout_payment",
    "kind": "req"
   },
   {

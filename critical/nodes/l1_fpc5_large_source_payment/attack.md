@@ -66,9 +66,11 @@
    `l1_fpc5_shifted_johnson_grs_shell_cap` to the adjacent-dimension strip
    `N(K-1)<a^2<=NK`. Keep its exact field-dependent denominator and
    `binom(b,u)` factor. Treat a local `B*` cap as a cell bound, not as
-   permission to sum source layouts or other cells. Do not spend time on
-   this route when `a^2<=N(K-1)`; Haboeck cannot reach that region for any
-   finite `m`.
+   permission to sum source layouts or other cells. Then apply
+   `l1_fpc5_shifted_johnson_first_layout_payment`, which pays
+   `binom(M,t)` and removes later layouts by adding `M` anchors. Do not spend
+   time on this route when `a^2<=N(K-1)`; Haboeck cannot reach that region
+   for any finite `m`.
 15. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where

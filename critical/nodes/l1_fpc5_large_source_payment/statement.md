@@ -266,8 +266,25 @@ first-scale cell at rates `1/2`, `1/4`, and `1/8`, and on six of eight
 shifted/nonpositive-Johnson cells in the rate-`1/16`, `M=61` slice. The two
 remaining cells exceed the budget below `2^256`; most other `(PF6)` cells lie
 more than one dimension beyond Johnson. The middle-polarity/nonpositive-
-`J_fix` region outside this thin strip, and the source/profile aggregate of
-the capped cells, remain open.
+`J_fix` region outside this thin strip remains open at fixed-cell level.
+
+The proved node `l1_fpc5_shifted_johnson_first_layout_payment` compiles the
+thin-strip cap through the canonical outer ownership. For fixed `(M,t,d)`,
+the complete class across every maximal source layout is at most
+
+```text
+binom(M,t) W L_m(q)+M.
+```
+
+The first-layout theorem removes all source-layout multiplicity; the
+binomial touched-set factor and planted-anchor remainder are paid explicitly.
+At `n=8192`, this globally pays the unique shifted cells at the first live
+scales of rates `1/2`, `1/4`, and `1/8` on the printed upper field slices. At
+rate `1/16`, `M=61`, defects `d=248,292` are jointly paid for `q>=2^254`,
+while the other six shifted defects fail this aggregate even at the strict
+field cap. Thus these selected cells no longer have an outer source/profile
+gap; lower fields, other shifted cells, and the much larger region beyond
+the adjacent-code strip remain open.
 
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
