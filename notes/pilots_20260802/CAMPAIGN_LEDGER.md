@@ -4470,3 +4470,26 @@ demoted); the joint sporadic-collinearity brief (apolar gap =
 ssparse F_COLL structure, one object two sides) as the round-29
 anchor alongside the named next object (the max-list-profile upper
 bound just above sigma = 2^34).**
+
+## ROUND 29 LAUNCHED (2026-08-10) — QUARANTINE MARKER — THE CONVERGENCE ROUND
+
+Four Opus pilots (user-directed continuation of round 28):
+collinearity_object (the JOINT brief — apolar's
+sporadic-collinearity gap and ssparse's F_COLL 7-9x-random
+structure are one object, the reciprocal-locator point set {P_S};
+unify the measurements, characterize structured-vs-sporadic
+completely, attempt the sporadic bound via the normal form),
+list_profile_bound (THE theorem target under the new working
+hypothesis: an upper bound on the max list profile just above
+sigma = 2^34 — the far-CA safe half at the presumptive crossing),
+k_extremal (the bank-1 flagged seam: is k = 2^40 extremal for the
+rate-half lane, or does k < 2^40 need coverage? audit-and-draft),
+slack_recursion (the supply side's last number: implement the
+parity recursion, measure maximal slack exactly at n=32, close the
+flank entirely). Endpoint working hypothesis a_RH = k + 2^34 +
+O(1) adopted on the child (addendum; falsifiers unchanged).
+Pilots MUST NOT read ledger entries below this marker and MUST
+pass this clause to any subagent. All round-28 lessons binding:
+scratch copies, zero-power declarations on max-quantified poses,
+consumer-side quantifier reads, RAM discipline, draft-only, no
+status flips, REPORT.md persisted by the coordinator.

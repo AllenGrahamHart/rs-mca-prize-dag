@@ -296,3 +296,15 @@ d1_rungs + d4_margins + escapes green (114.6503 / -11.8737 / the
 ladder reproduced). Source:
 notes/pilots_20260810/ssparse_endpoints/ (REPORT.md,
 FABLE_AUDIT.md; data/).
+
+## Working hypothesis of record (2026-08-10, adopted at the round-29 launch with user endorsement of the round-28 verdict)
+
+**a_RH(q) = k + 2^34 + O(1)** — (RH-AC-lo) plus a small constant is
+the working hypothesis; (RH-AC-hi) is DEMOTED from candidate to
+refuted-modulo-transport (the 2^40.11-fold flatness demand). The
+falsifiers F1/F2/F3 remain armed unchanged (F1's firing would still
+kill the hypothesis; the mechanism-space exhaustion makes that a
+new-mathematics event, which is exactly what a falsifier should
+price). The open theorem target under this hypothesis: the
+max-list-profile upper bound just above sigma = 2^34 (the round-29
+list_profile_bound brief).
