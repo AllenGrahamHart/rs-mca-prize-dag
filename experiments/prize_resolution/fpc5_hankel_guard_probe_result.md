@@ -34,3 +34,11 @@ The complete emitted payload has 78,469 bytes and SHA-256
 The compact machine-readable summary is
 `fpc5_hankel_guard_probe_result.json`; the deterministic launcher and seeds
 reconstruct every individual record.
+
+The compact certificate and its three hostile mutations replay with
+
+```text
+./tools/ramguard tiny -- python3 \
+  experiments/prize_resolution/verify_fpc5_hankel_guard_probe_result.py \
+  --tamper-selftest
+```
