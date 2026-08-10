@@ -1,0 +1,88 @@
+{
+  "schema": "fpc5-hankel-guard-probe-summary-v1",
+  "preregistration_commit": "468f04f1d",
+  "modal_run_url": "https://modal.com/apps/allengrahamhart/main/ap-DlZD96lRzxt52OuV2msERv",
+  "full_payload_bytes": 78469,
+  "full_payload_sha256": "bc9ec288a00a35790dd157dc44fb2c078751e3cb1b85d7867107b34089aba05d",
+  "completed_configurations": 280,
+  "completed_fixed_charts": 504,
+  "decision": {
+    "rational_excess_alarm": false,
+    "guard_suppression_signal": false,
+    "classification": "NO_SEPARATION"
+  },
+  "cells": {
+    "t4e2": {
+      "completed": 64,
+      "fixed_charts": 64,
+      "mean_ambient": 14.347826086956522,
+      "max_primitive": 15,
+      "max_random_primitive": 17,
+      "max_guarded": 14,
+      "mean_primitive": 10.328125,
+      "mean_random_primitive": 10.40625,
+      "mean_guarded": 9.421875,
+      "median_guard_fraction": 0.9166666666666666
+    },
+    "t4e3": {
+      "completed": 64,
+      "fixed_charts": 128,
+      "mean_ambient": 2.193571950328707,
+      "max_primitive": 5,
+      "max_random_primitive": 6,
+      "max_guarded": 5,
+      "mean_primitive": 1.765625,
+      "mean_random_primitive": 1.609375,
+      "mean_guarded": 1.609375,
+      "median_guard_fraction": 1.0
+    },
+    "t4e4": {
+      "completed": 32,
+      "fixed_charts": 96,
+      "mean_ambient": 0.3412529714364773,
+      "max_primitive": 2,
+      "max_random_primitive": 2,
+      "max_guarded": 2,
+      "mean_primitive": 0.3229166666666667,
+      "mean_random_primitive": 0.21875,
+      "mean_guarded": 0.3020833333333333,
+      "median_guard_fraction": 1.0
+    },
+    "t5e2": {
+      "completed": 48,
+      "fixed_charts": 48,
+      "mean_ambient": 24.655172413793103,
+      "max_primitive": 24,
+      "max_random_primitive": 23,
+      "max_guarded": 23,
+      "mean_primitive": 17.770833333333332,
+      "mean_random_primitive": 18.041666666666668,
+      "mean_guarded": 16.625,
+      "median_guard_fraction": 0.9473684210526315
+    },
+    "t5e3": {
+      "completed": 48,
+      "fixed_charts": 96,
+      "mean_ambient": 5.096966091612136,
+      "max_primitive": 8,
+      "max_random_primitive": 8,
+      "max_guarded": 8,
+      "mean_primitive": 3.9375,
+      "mean_random_primitive": 3.65625,
+      "mean_guarded": 3.6875,
+      "median_guard_fraction": 1.0
+    },
+    "t5e4": {
+      "completed": 24,
+      "fixed_charts": 72,
+      "mean_ambient": 0.1768842735949811,
+      "max_primitive": 2,
+      "max_random_primitive": 1,
+      "max_guarded": 2,
+      "mean_primitive": 0.1388888888888889,
+      "mean_random_primitive": 0.08333333333333333,
+      "mean_guarded": 0.1388888888888889,
+      "median_guard_fraction": 1.0
+    }
+  }
+}
