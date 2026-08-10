@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_denominator_root_trivialized_support_packing",
+    "title": "Denominator-root trivialized-support shadow packing",
+    "status": "PROVED",
+    "closure": "exact interpolation packing and quantified non-payment fence",
+    "statement": "In the puncture-trivialized branch of the denominator-root cancellation dichotomy, each reduced support determines a unique simultaneous degree-<k explaining pair. Two distinct-slope reduced supports intersect in at most k-1 coordinates. Consequently their k-shadows are disjoint and |T|*binom(m-t,k)<=binom(n-t,k). At both deployed rows this shadow-packing upper bound is itself larger than the row budget for every 0<=t<=m-k, so it is a structural theorem but not an exception payment; further polynomial, owner, or field geometry is necessary.",
+    "refs": [
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/statement.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/proof.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/claim_contract.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/dependency_subdag.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/audit.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/result.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/frontier.md",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify.py",
+      "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_denominator_root_cancellation_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus"}
+  ],
+  "refutes": []
+}

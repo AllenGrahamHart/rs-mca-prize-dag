@@ -40,6 +40,16 @@ row closure: all three terminal inputs `(S)`, `(A)`, and `(E)` remain open.
 The K3 endpoint realization remains a valid red alternative and is not
 implied by the order-32 theorem.
 
+Within terminal `(E)`, the denominator-root source gap is narrowed by three
+proved nodes. The upstream pole-tolerant localization/cancellation theorem is
+source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
+same-owner nonzero rank-one pole-defect record with recoverable slope; and an
+interpolation theorem makes the trivialized supports pairwise `<k`
+intersecting. The resulting disjoint-`k`-shadow bound is quantitatively
+non-paying by more than a million bits at both rows. Do not spend compute on
+further support-only packing. The live denominator-root target is a coupled
+polynomial/owner theorem for the pole-defect records.
+
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard
 `18-k3-bridge-and-allocation-refactor-20260810.md` and

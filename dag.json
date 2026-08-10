@@ -35045,6 +35045,43 @@
    ]
   },
   {
+   "id": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "title": "Denominator-root cancellation and puncture-trivialization dichotomy",
+   "status": "PROVED",
+   "closure": "exact same-owner source decomposition after common-pole cancellation",
+   "statement": "After exact common-pole cancellation in a source-normalized rational atom, the nonzero-scalar indices split canonically into reduced support-wise MCA witnesses and puncture-trivialized indices. The former retain the same received-line and slope owner in the reduced root-free certificate. For every trivialized index, because t<=m-k, polynomial uniqueness forces h_i=p0_i+gamma_i p1_i globally; on the deleted pole set P the defect vectors u_i=r0-p0_i and v_i=r1-p1_i obey u_i+gamma_i v_i=0 with v_i nonzero, so the slope is recovered from the defect. Distinct slopes cannot share the same ordered polynomial pair (p0_i,p1_i). The split is exhaustive and disjoint but gives no bound on the number of defect records and does not prove exception routing.",
+   "refs": [
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/statement.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/proof.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/source_evidence.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/audit.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/result.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/frontier.md",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify.py",
+    "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "title": "Denominator-root trivialized-support shadow packing",
+   "status": "PROVED",
+   "closure": "exact interpolation packing and quantified non-payment fence",
+   "statement": "In the puncture-trivialized branch of the denominator-root cancellation dichotomy, each reduced support determines a unique simultaneous degree-<k explaining pair. Two distinct-slope reduced supports intersect in at most k-1 coordinates. Consequently their k-shadows are disjoint and |T|*binom(m-t,k)<=binom(n-t,k). At both deployed rows this shadow-packing upper bound is itself larger than the row budget for every 0<=t<=m-k, so it is a structural theorem but not an exception payment; further polynomial, owner, or field geometry is necessary.",
+   "refs": [
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/statement.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/proof.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/claim_contract.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/dependency_subdag.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/audit.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/result.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/frontier.md",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify.py",
+    "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_order32_partial_relative_harvest",
    "title": "Upstream v4 partial relative order-32 explanation theorem",
    "status": "PROVED",
@@ -35062,6 +35099,26 @@
     "background/nodes/rate_half_mca_order32_partial_relative_harvest/source_pin.json",
     "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify.py",
     "background/nodes/rate_half_mca_order32_partial_relative_harvest/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "title": "Upstream pole-tolerant scalar-locator localization",
+   "status": "PROVED",
+   "closure": "immutable upstream local-theorem harvest",
+   "statement": "For a coherent scalar-locator certificate with exact support locators, denominator roots need not be divided away to obtain exclusive owner localization. Outside the algebraic coincidence core, each coordinate belongs to at most one selected support, giving the stated small-core and punctured-core slope bounds. After deleting at most one zero-scalar slope, every common denominator pole belongs to every support; its squarefree domain factor divides Q, A, B, and every exact locator, and cancellation preserves the exact locator identity, degree profile, and reduced coincidence core. The theorem does not assert that support-wise MCA nontriviality survives cancellation and supplies no exception payment.",
+   "refs": [
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/statement.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/proof.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/claim_contract.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_evidence.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/dependency_subdag.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/audit.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/result.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/frontier.md",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_pin.json",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify.py",
+    "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify_audit.py"
    ]
   },
   {
@@ -67093,8 +67150,28 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "to": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_denominator_root_trivialized_support_packing",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_order32_partial_relative_harvest",
    "to": "rate_half_kb_active_bc_order32_adapter",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
   },
   {

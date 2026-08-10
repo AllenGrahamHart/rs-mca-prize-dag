@@ -24818,3 +24818,33 @@ The denominator-root lane already has a pole-tolerant localization theorem;
 its remaining source-compiler/counting obligation is a smaller target than
 the complete K3 endpoint-and-payment chain.  The K3 realization target stays
 red and is not refuted by this route choice.
+
+The first denominator-root increment is now banked. The upstream
+pole-tolerant theorem is source-pinned and harvested: it localizes coherent
+atoms without dividing by the denominator, then cancels the exact common
+domain-pole locator after deleting at most one zero-scalar slope. A new exact
+source dichotomy resolves the theorem's semantic gap. Every post-cancellation
+support either remains MCA-nontrivial in the reduced root-free certificate or
+has a unique simultaneous explaining pair. In the latter case the original
+support obstruction becomes a nonzero rank-one defect on the deleted pole
+set,
+
+```text
+u_i + gamma_i v_i = 0,  v_i != 0,
+```
+
+so the same slope and received-line owner are retained and distinct slopes
+have distinct explaining pairs.
+
+Interpolation also proves that two trivialized reduced supports meet in at
+most `k-1` coordinates. Their `k`-shadows are disjoint, giving
+
+```text
+|T| binom(m-t,k) <= binom(n-t,k).
+```
+
+This is not a payment. Uniformly in `0<=t<=m-k`, the right-hand ratio is
+larger than `(3/2)^k>2^58`, already above the KoalaBear budget and far above
+the Mersenne-31 budget. The pure support-packing route is therefore fenced.
+The next denominator-root step must couple the full divided scalar-locator
+identity across indices and force a paid owner or correction space.

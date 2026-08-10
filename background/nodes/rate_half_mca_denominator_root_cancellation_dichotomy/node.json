@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_denominator_root_cancellation_dichotomy",
+    "title": "Denominator-root cancellation and puncture-trivialization dichotomy",
+    "status": "PROVED",
+    "closure": "exact same-owner source decomposition after common-pole cancellation",
+    "statement": "After exact common-pole cancellation in a source-normalized rational atom, the nonzero-scalar indices split canonically into reduced support-wise MCA witnesses and puncture-trivialized indices. The former retain the same received-line and slope owner in the reduced root-free certificate. For every trivialized index, because t<=m-k, polynomial uniqueness forces h_i=p0_i+gamma_i p1_i globally; on the deleted pole set P the defect vectors u_i=r0-p0_i and v_i=r1-p1_i obey u_i+gamma_i v_i=0 with v_i nonzero, so the slope is recovered from the defect. Distinct slopes cannot share the same ordered polynomial pair (p0_i,p1_i). The split is exhaustive and disjoint but gives no bound on the number of defect records and does not prove exception routing.",
+    "refs": [
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/statement.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/proof.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/source_evidence.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/audit.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/result.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/frontier.md",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify.py",
+      "background/nodes/rate_half_mca_denominator_root_cancellation_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_pole_tolerant_scalar_locator_harvest"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus"}
+  ],
+  "refutes": []
+}

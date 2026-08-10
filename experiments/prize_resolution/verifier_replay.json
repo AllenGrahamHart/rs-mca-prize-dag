@@ -2,17 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 1,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "tools/verify_joint_prize_resolution_protocol.py",
-      "seconds": 0.747719,
+      "script": "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify.py",
+      "seconds": 0.024212,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "JOINT_PRIZE_RESOLUTION_PROTOCOL_PASS checks=152\n"
+      "stdout_tail": "PASS trivialized-support shadow packing small_grid_and_exact_budget_fence\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_denominator_root_trivialized_support_packing/verify_audit.py",
+      "seconds": 0.015513,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "PASS independent shadow-disjointness audit family=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
