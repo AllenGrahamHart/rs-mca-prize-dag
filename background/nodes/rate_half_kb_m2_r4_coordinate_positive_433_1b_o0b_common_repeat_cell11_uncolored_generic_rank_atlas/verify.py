@@ -19,15 +19,15 @@ TOWER_SHA256 = "e80940956518b958dafe74eb34e8ce4f00ce729e78646203bb0724057e6f7899
 FILES = {
     "launcher": (
         "rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_uncolored_generic_rank_modal.py",
-        "3dde3ec726592e8c41147ad4b75853d241ad89f012318d02e74ebdeb01153da6",
+        "d6995ccc293a30c3277c108a42dcbcbe1c7afa7eece40cd263a1cfd9cc9cb786",
     ),
     "plus": (
         "rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_uncolored_generic_rank_bcplus_result.json",
-        "8899dbfb22da18680d74efc8accb53200d937fdc1b8abf0d9417fd5ac8a9a207",
+        "8f7e84f601514685dbb0079ec8f5b9851e5e051602dd815d06a82e0c34c8d1ec",
     ),
     "minus": (
         "rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_uncolored_generic_rank_bcminus_result.json",
-        "af843ecbf6fd70ed17ec910b9f73378f529a355a602c55623c2faab49ec79889",
+        "bae6700ba440c027ff97c40188f5fa6d33b82ad38183fffc3c70222ae84518c3",
     ),
 }
 MISSING = ("DE+", "DF+", "EF")

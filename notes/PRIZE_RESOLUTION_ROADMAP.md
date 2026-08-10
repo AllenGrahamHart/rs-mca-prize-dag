@@ -23881,6 +23881,45 @@ Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
                           ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
 next:                     complete workboard aggregate and labels-to-slopes audit
 ```
+
+### 2026-08-10 cell-11 `433-1b -> O0b` off-guard exclusion
+
+The closed `433-1b -> O0a` raw workboard above does not pay the eleven-route
+positive-coordinate remainder.  On its repeated-BC `O0b` cell-11 route, the
+exact symmetric tower and common-kernel reconstruction now support a complete
+deployed off-guard theorem for missing representatives `DE+`, `DF+`, and
+`EF`.
+
+For each of `8*3*2*15=720` representative systems, a selected pair of
+paired-product equations is reduced first to its exact quartic resultant and
+then by nested norms to `F_2130706433(x)`.  Exact root extraction leaves 288
+systems with no non-guard root and 432 systems with 1,584 root occurrences
+over 126 deployed base values.  A hash-pinned all-pair replay evaluates all
+three Sylvester matrices at every occurrence; all 1,584 have a full-rank
+pair.  The determinant-zero-fiber qualification is therefore removed on the
+registered nonzero-guard chart.
+
+```text
+new result:               repeated-BC/O0b cell-11 off-guard exclusion PROVED
+representatives:          720/720
+norm-root occurrences:    1,584 over 126 base values
+all-pair exclusions:      1,584/1,584
+remaining route boundary: missing BE/CF; registered guard and selected-
+                          cofactor loci; cell 14; slope/allocation payment
+Modal norm apps:          ap-nc3lZFAzCeszB3edd6VeoW,
+                          ap-J7jGghTVhDDBFj1pdjN0Su
+Modal replay app:         ap-LkxpdxjswBQQ9TiOqKpQGv
+```
+
+Upstream PR #1155 remains a compatible route cut, not a closure transplant:
+its complete signed-pair resultant has an additional quadratic factor and a
+guarded deployed point.  The theorem here concerns the three paired-product
+equations and explicitly leaves guard loci open.  Canonical `prize@2f4599a0b`
+has since completed rounds 28--29 in the rate-half MCA/LIST crossing lanes;
+none of those commits touches cell 11 or the K3 ledger.  The earlier custody
+review still records no mathematical objection to PR #1152.  The new
+rate-half supply and collinearity banks should be harvested separately rather
+than conflated with this exact K3 exclusion.
 ### 2026-08-10 positive `433-1b/O0a` aggregate and K3 critical split
 
 An audit of the nominally complete raw workboard found one missing ownership

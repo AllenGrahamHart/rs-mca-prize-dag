@@ -55,18 +55,23 @@ def polynomial_coefficients(value):
     return [int(value[index]) for index in range(int(value.degree()) + 1)]
 
 
-@app.function(image=image, cpu=2.0, memory=4096, timeout=420, max_containers=32)
+@app.function(image=image, cpu=2.0, memory=4096, timeout=600, max_containers=64)
 def profile(case):
     started = time.perf_counter()
     sys.path.insert(0, "/root")
     import cell11_core as core
+    from flint import fmpz_mod_ctx, fmpz_mod_mat
 
-    tower_row, missing_record, sigma_o, pairing_index = case
+    (
+        tower_row, missing_record, sigma_o, pairing_index,
+        determinant_metadata, resultant_metadata, norm_metadata, replay_x,
+    ) = case
     context = core.FunctionFieldContext(tower_row)
     epsilon_1, epsilon_2 = tower_row["epsilon"]
     common = core.cell11_common_data(
         context, epsilon_1, epsilon_2, tower_row["bc_sign"]
     )
+    modular_context = fmpz_mod_ctx(core.PRIME)
     base_zero = context.zero()
     base_one = context.one()
     q_value = common["missing_product"]
@@ -354,39 +359,69 @@ def profile(case):
             output.append(specialized)
         return output
 
-    def matrix_rank(matrix):
+    def matrix_determinant(matrix):
+        return int(fmpz_mod_mat(matrix, modular_context).det()) % core.PRIME
+
+    def determinant_subset(matrix, zero, one):
+        size = len(matrix)
+        states = {0: one}
+        for row in range(size):
+            updated = {}
+            for mask, value in states.items():
+                for column in range(size):
+                    bit = 1 << column
+                    if mask & bit:
+                        continue
+                    term = value * matrix[row][column]
+                    if (mask >> (column + 1)).bit_count() % 2:
+                        term = -term
+                    target = mask | bit
+                    updated[target] = updated.get(target, zero) + term
+            states = updated
+        return states[(1 << size) - 1]
+
+    def quartic_determinant(matrix):
+        return determinant_subset(matrix, Quartic(), Quartic(1))
+
+    def rational_function_determinant(matrix):
+        size = len(matrix)
         work = [row[:] for row in matrix]
-        row_index = 0
-        determinant = 1
-        for column in range(len(work[0])):
+        output = context._rf_one()
+
+        def divide_without_guard(left, right):
+            if right.is_zero():
+                raise ZeroDivisionError("zero determinant pivot")
+            return core.RationalFunction(
+                context,
+                left.numer * right.denom,
+                left.denom * right.numer,
+            )
+
+        for column in range(size):
             pivot = next(
-                (row for row in range(row_index, len(work))
-                 if work[row][column]),
+                (
+                    row for row in range(column, size)
+                    if not work[row][column].is_zero()
+                ),
                 None,
             )
             if pivot is None:
-                continue
-            if pivot != row_index:
-                work[row_index], work[pivot] = work[pivot], work[row_index]
-                determinant = -determinant % core.PRIME
-            pivot_value = work[row_index][column]
-            determinant = determinant * pivot_value % core.PRIME
-            inverse = pow(pivot_value, -1, core.PRIME)
-            work[row_index] = [
-                value * inverse % core.PRIME for value in work[row_index]
-            ]
-            for row in range(row_index + 1, len(work)):
-                scalar = work[row][column]
-                if not scalar:
+                return context._rf_zero()
+            if pivot != column:
+                work[column], work[pivot] = work[pivot], work[column]
+                output = -output
+            pivot_value = work[column][column]
+            output = output * pivot_value
+            for row in range(column + 1, size):
+                if work[row][column].is_zero():
                     continue
-                work[row] = [
-                    (left - scalar * right) % core.PRIME
-                    for left, right in zip(work[row], work[row_index])
-                ]
-            row_index += 1
-            if row_index == len(work):
-                break
-        return row_index, determinant % core.PRIME
+                scalar = divide_without_guard(work[row][column], pivot_value)
+                for target in range(column + 1, size):
+                    work[row][target] = (
+                        work[row][target] - scalar * work[column][target]
+                    )
+                work[row][column] = context._rf_zero()
+        return output
 
     def normalize_guard(polynomial):
         if polynomial.is_zero():
@@ -394,22 +429,64 @@ def profile(case):
         leading = int(polynomial[polynomial.degree()]) % core.PRIME
         return polynomial * pow(leading, -1, core.PRIME)
 
+    def polynomial_descriptor(polynomial, include_coefficients=False):
+        normalized = normalize_guard(polynomial)
+        coefficients = polynomial_coefficients(normalized)
+        output = {
+            "degree": int(normalized.degree()),
+            "sha256": hashlib.sha256(
+                json.dumps(coefficients, separators=(",", ":")).encode()
+            ).hexdigest(),
+        }
+        if include_coefficients:
+            output["coefficients"] = coefficients
+        return output
+
     def construction_guards_nonzero(x_value):
         return all(
             evaluate_polynomial(guard, x_value) != 0
             for guard in context.guards
         )
 
+    guard_factors = {}
+    if resultant_metadata:
+        for guard in context.guards:
+            _, factors = normalize_guard(guard).factor()
+            for factor, _ in factors:
+                descriptor = polynomial_descriptor(
+                    factor, include_coefficients=factor.degree() == 1
+                )
+                guard_factors[descriptor["sha256"]] = descriptor
+
     pair_rows = []
     selected = None
     for left, right in itertools.combinations(range(3), 2):
-        matrix = flatten(sylvester(equations[left], equations[right]))
+        sylvester_matrix = sylvester(equations[left], equations[right])
+        matrix = flatten(sylvester_matrix)
         row = {
             "equations": [left, right],
             "size": len(matrix),
             "specialization_attempts": 0,
         }
         pair_rows.append(row)
+        if replay_x:
+            row["replay_x"] = replay_x
+            row["construction_guards_nonzero"] = (
+                construction_guards_nonzero(replay_x)
+            )
+            specialized = specialize(matrix, replay_x)
+            if not row["construction_guards_nonzero"] or specialized is None:
+                row["replay_status"] = "REPLAY_UNDEFINED"
+                continue
+            determinant = matrix_determinant(specialized)
+            row["replay_determinant"] = determinant
+            row["last_rank"] = len(matrix) if determinant else None
+            row["replay_status"] = (
+                "FULL_RANK" if determinant else "SINGULAR"
+            )
+            if determinant and selected is None:
+                selected = row
+            continue
         for x_value in range(2, 130):
             row["specialization_attempts"] += 1
             if not construction_guards_nonzero(x_value):
@@ -417,16 +494,225 @@ def profile(case):
             specialized = specialize(matrix, x_value)
             if specialized is None:
                 continue
-            rank, determinant = matrix_rank(specialized)
-            row["last_rank"] = rank
-            if rank != len(matrix):
+            determinant = matrix_determinant(specialized)
+            if determinant == 0:
                 continue
             row["witness_x"] = x_value
             row["witness_determinant"] = determinant
+            row["last_rank"] = len(matrix)
             row["construction_guards_nonzero"] = True
+            fingerprint = []
+            inverse_witness = pow(determinant, -1, core.PRIME)
+            for sample in (2, 3, 5, 7, 11, 13, 17, 19):
+                if not construction_guards_nonzero(sample):
+                    fingerprint.append(f"{sample}:X")
+                    continue
+                sample_matrix = specialize(matrix, sample)
+                if sample_matrix is None:
+                    fingerprint.append(f"{sample}:X")
+                    continue
+                sample_determinant = matrix_determinant(sample_matrix)
+                fingerprint.append(
+                    f"{sample}:{sample_determinant * inverse_witness % core.PRIME}"
+                )
+            row["normalized_determinant_fingerprint"] = ",".join(fingerprint)
+            if resultant_metadata:
+                resultant = quartic_determinant(sylvester_matrix)
+                coordinates = []
+                for quartic_index, algebra_value in enumerate(resultant.values):
+                    for base_index, value in enumerate(algebra_value.values):
+                        if value.is_zero():
+                            continue
+                        numerator = normalize_guard(value.numer)
+                        denominator = normalize_guard(value.denom)
+                        descriptor = {
+                            "quartic_index": quartic_index,
+                            "base_index": base_index,
+                            "numerator": polynomial_descriptor(numerator),
+                            "denominator": polynomial_descriptor(denominator),
+                        }
+                        coordinates.append((descriptor, numerator))
+                if not coordinates:
+                    raise ValueError("selected quartic resultant is zero")
+                row["resultant_nonzero_coordinate_count"] = len(coordinates)
+                minimum, _ = min(
+                    coordinates,
+                    key=lambda item: (
+                        item[0]["numerator"]["degree"],
+                        item[0]["denominator"]["degree"],
+                        item[0]["quartic_index"],
+                        item[0]["base_index"],
+                    ),
+                )
+                common_numerator = context.polynomial_context.zero()
+                for _, numerator in coordinates:
+                    common_numerator = common_numerator.gcd(numerator)
+                common_numerator = normalize_guard(common_numerator)
+                _, factors = common_numerator.factor()
+                factorization = []
+                base_field_roots = []
+                for factor, multiplicity in factors:
+                    descriptor = polynomial_descriptor(
+                        factor, include_coefficients=factor.degree() == 1
+                    )
+                    descriptor["multiplicity"] = int(multiplicity)
+                    descriptor["construction_guard_factor"] = (
+                        descriptor["sha256"] in guard_factors
+                    )
+                    factorization.append(descriptor)
+                    if factor.degree() == 1:
+                        coefficients = descriptor["coefficients"]
+                        root = (
+                            -coefficients[0]
+                            * pow(coefficients[1], -1, core.PRIME)
+                        ) % core.PRIME
+                        base_field_roots.append({
+                            "x": root,
+                            "factor_sha256": descriptor["sha256"],
+                            "construction_guard_factor": descriptor[
+                                "construction_guard_factor"
+                            ],
+                        })
+                row["resultant_minimum_coordinate"] = minimum
+                row["resultant_coordinate_gcd"] = {
+                    **polynomial_descriptor(common_numerator),
+                    "factorization": factorization,
+                    "all_factors_construction_guards": all(
+                        factor["construction_guard_factor"]
+                        for factor in factorization
+                    ),
+                    "base_field_roots": sorted(
+                        base_field_roots, key=lambda item: item["x"]
+                    ),
+                    "non_guard_base_field_roots": sorted(
+                        (
+                            item for item in base_field_roots
+                            if not item["construction_guard_factor"]
+                        ),
+                        key=lambda item: item["x"],
+                    ),
+                }
+                if norm_metadata:
+                    endpoint_norm = determinant_subset(
+                        resultant.multiplication_matrix(),
+                        context.zero(),
+                        context.one(),
+                    )
+                    nested_norm = rational_function_determinant(
+                        endpoint_norm.multiplication_matrix()
+                    )
+                    if nested_norm.is_zero():
+                        raise ValueError("selected nested norm is zero")
+                    nested_norm_at_witness = (
+                        evaluate_polynomial(nested_norm.numer, x_value)
+                        * pow(
+                            evaluate_polynomial(nested_norm.denom, x_value),
+                            -1,
+                            core.PRIME,
+                        )
+                    ) % core.PRIME
+                    if nested_norm_at_witness != determinant:
+                        raise ValueError("nested norm determinant mismatch")
+                    norm_numerator = normalize_guard(nested_norm.numer)
+                    norm_denominator = normalize_guard(nested_norm.denom)
+                    norm_base_field_roots = []
+                    for root_value, multiplicity in norm_numerator.roots():
+                        root = int(root_value) % core.PRIME
+                        factor = context.polynomial_context([-root, 1])
+                        descriptor = polynomial_descriptor(
+                            factor, include_coefficients=True
+                        )
+                        construction_guard_factor = (
+                            descriptor["sha256"] in guard_factors
+                        )
+                        norm_base_field_roots.append({
+                            "x": root,
+                            "multiplicity": int(multiplicity),
+                            "factor_sha256": descriptor["sha256"],
+                            "construction_guard_factor": (
+                                construction_guard_factor
+                            ),
+                        })
+                    row["resultant_nested_norm"] = {
+                        "numerator": polynomial_descriptor(norm_numerator),
+                        "denominator": polynomial_descriptor(norm_denominator),
+                        "witness_value": nested_norm_at_witness,
+                        "base_field_roots": sorted(
+                            norm_base_field_roots,
+                            key=lambda item: item["x"],
+                        ),
+                        "non_guard_base_field_roots": sorted(
+                            (
+                                item for item in norm_base_field_roots
+                                if not item["construction_guard_factor"]
+                            ),
+                            key=lambda item: item["x"],
+                        ),
+                    }
+            if determinant_metadata:
+                degree_bound = 0
+                row_denominator_degree_sum = 0
+                maximum_entry_degree = 0
+                cleared_matrix = []
+                for matrix_row in matrix:
+                    row_denominator = context.polynomial_context.one()
+                    for value in matrix_row:
+                        common_denominator = row_denominator.gcd(value.denom)
+                        row_denominator = (
+                            row_denominator // common_denominator
+                        ) * value.denom
+                    row_denominator_degree_sum += int(row_denominator.degree())
+                    row_maximum = 0
+                    cleared_row = []
+                    for value in matrix_row:
+                        cleared = value.numer * (
+                            row_denominator // value.denom
+                        )
+                        cleared_row.append(cleared)
+                        row_maximum = max(
+                            row_maximum, int(cleared.degree())
+                        )
+                    cleared_matrix.append(cleared_row)
+                    degree_bound += row_maximum
+                    maximum_entry_degree = max(maximum_entry_degree, row_maximum)
+                row_content_degree_sum = 0
+                for row_index, cleared_row in enumerate(cleared_matrix):
+                    content = context.polynomial_context.zero()
+                    for value in cleared_row:
+                        content = content.gcd(value)
+                    if content.is_zero():
+                        raise ValueError("zero cleared row")
+                    row_content_degree_sum += int(content.degree())
+                    if content.degree() > 0:
+                        cleared_matrix[row_index] = [
+                            value // content for value in cleared_row
+                        ]
+                column_content_degree_sum = 0
+                for column in range(len(cleared_matrix)):
+                    content = context.polynomial_context.zero()
+                    for cleared_row in cleared_matrix:
+                        content = content.gcd(cleared_row[column])
+                    if content.is_zero():
+                        raise ValueError("zero cleared column")
+                    column_content_degree_sum += int(content.degree())
+                    if content.degree() > 0:
+                        for cleared_row in cleared_matrix:
+                            cleared_row[column] = (
+                                cleared_row[column] // content
+                            )
+                primitive_degree_bound = sum(
+                    max(int(value.degree()) for value in cleared_row)
+                    for cleared_row in cleared_matrix
+                )
+                row["cleared_determinant_degree_bound"] = degree_bound
+                row["row_denominator_degree_sum"] = row_denominator_degree_sum
+                row["maximum_cleared_entry_degree"] = maximum_entry_degree
+                row["row_content_degree_sum"] = row_content_degree_sum
+                row["column_content_degree_sum"] = column_content_degree_sum
+                row["primitive_determinant_degree_bound"] = primitive_degree_bound
             selected = row
             break
-        if selected:
+        if selected and not replay_x:
             break
 
     unique_guards = {}
@@ -437,7 +723,7 @@ def profile(case):
             json.dumps(coefficients, separators=(",", ":")).encode()
         ).hexdigest()
         unique_guards[digest] = coefficients
-    return {
+    output = {
         "epsilon": tower_row["epsilon"],
         "bc_sign": tower_row["bc_sign"],
         "missing_record": missing_record,
@@ -452,47 +738,98 @@ def profile(case):
         "base_degree": context.dimension,
         "pair_rows": pair_rows,
         "selected": selected,
-        "status": "GENERIC_UNIT" if selected else "NO_UNIT_PAIR",
+        "status": (
+            "EXCEPTIONAL_ROOT_EXCLUDED"
+            if replay_x and selected
+            else "EXCEPTIONAL_ROOT_UNRESOLVED"
+            if replay_x
+            else "DEPLOYED_OFF_GUARD_UNIT"
+            if selected and norm_metadata and not selected[
+                "resultant_nested_norm"
+            ]["non_guard_base_field_roots"]
+            else "DEPLOYED_POINTWISE_NORM_COVER"
+            if selected and norm_metadata
+            else "NO_OFF_GUARD_VERTICAL_COMPONENT"
+            if selected and resultant_metadata and selected[
+                "resultant_coordinate_gcd"
+            ]["all_factors_construction_guards"]
+            else "GENERIC_UNIT" if selected else "NO_UNIT_PAIR"
+        ),
         "guards": unique_guards,
+        "guard_factors": guard_factors,
         "seconds": time.perf_counter() - started,
     }
+    if replay_x:
+        output["replay_x"] = replay_x
+    return output
 
 
 @app.local_entrypoint()
-def main(bc_sign: int = 0, limit: int = 0):
+def main(bc_sign: int = 0, limit: int = 0,
+         determinant_metadata: bool = False,
+         resultant_metadata: bool = False, norm_metadata: bool = False,
+         start: int = 0, replay_manifest: str = ""):
+    if norm_metadata and not resultant_metadata:
+        raise ValueError("norm metadata requires resultant metadata")
     tower = json.loads(TOWER.read_text())
     rows = tuple(
         row for row in tower["rows"]
         if not bc_sign or row["bc_sign"] == bc_sign
     )
-    cases = tuple(
-        (row, missing_record, sigma_o, pairing_index)
-        for row in rows
-        for missing_record, sigma_o, pairing_index in itertools.product(
-            MISSING_RECORDS, (-1, 1), range(15)
+    if replay_manifest:
+        manifest = json.loads(Path(replay_manifest).read_text())
+        tower_by_key = {
+            (row["bc_sign"], tuple(row["epsilon"])): row
+            for row in tower["rows"]
+        }
+        cases = tuple(
+            (
+                tower_by_key[(case["bc_sign"], tuple(case["epsilon"]))],
+                case["missing_record"], case["sigma_o"],
+                case["pairing_index"], False, False, False, case["x"],
+            )
+            for case in manifest["cases"]
         )
-    )
+    else:
+        cases = tuple(
+            (
+                row, missing_record, sigma_o, pairing_index,
+                determinant_metadata, resultant_metadata, norm_metadata, 0,
+            )
+            for row in rows
+            for missing_record, sigma_o, pairing_index in itertools.product(
+                MISSING_RECORDS, (-1, 1), range(15)
+            )
+        )
+    if start:
+        cases = cases[start:]
     if limit:
         cases = cases[:limit]
     raw = list(profile.map(cases, order_outputs=True, return_exceptions=True))
     output_rows = []
     guard_atlas = {}
+    guard_factor_atlas = {}
     for case, row in zip(cases, raw):
         if isinstance(row, BaseException):
-            tower_row, missing_record, sigma_o, pairing_index = case
+            tower_row, missing_record, sigma_o, pairing_index, _, _, _, replay_x = case
             output_rows.append({
                 "epsilon": tower_row["epsilon"],
                 "bc_sign": tower_row["bc_sign"],
                 "missing_record": missing_record,
                 "sigma_o": sigma_o,
                 "pairing_index": pairing_index,
+                "replay_x": replay_x or None,
                 "status": "REMOTE_ERROR",
                 "error": repr(row),
             })
             continue
         guards = row.pop("guards")
+        guard_factors = row.pop("guard_factors")
         row["guard_hashes"] = sorted(guards)
+        if resultant_metadata:
+            row["guard_factor_hashes"] = sorted(guard_factors)
         guard_atlas.update(guards)
+        guard_factor_atlas.update(guard_factors)
         output_rows.append(row)
     suffix = ""
     if bc_sign == -1:
@@ -500,7 +837,15 @@ def main(bc_sign: int = 0, limit: int = 0):
     elif bc_sign == 1:
         suffix = "_bcplus"
     if limit:
-        suffix += "_pilot"
+        suffix += f"_pilot_s{start}_n{limit}"
+    if determinant_metadata:
+        suffix += "_metadata"
+    if resultant_metadata:
+        suffix += "_resultant"
+    if norm_metadata:
+        suffix += "_norm"
+    if replay_manifest:
+        suffix = "_exceptional_replay"
     result = DIRECTORY / (
         "rate_half_kb_positive_433_1b_o0b_common_repeat_"
         f"cell11_uncolored_generic_rank{suffix}_result.json"
@@ -518,6 +863,7 @@ def main(bc_sign: int = 0, limit: int = 0):
         "core_sha256": hashlib.sha256(CORE.read_bytes()).hexdigest(),
         "tower_sha256": hashlib.sha256(TOWER.read_bytes()).hexdigest(),
         "bc_sign_filter": bc_sign,
+        "case_offset": start,
         "complete_atlas": not limit,
         "case_count": len(output_rows),
         "status_counts": dict(sorted(Counter(
@@ -529,9 +875,145 @@ def main(bc_sign: int = 0, limit: int = 0):
         },
         "rows": output_rows,
     }
-    result.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+    if resultant_metadata:
+        output["guard_factor_atlas"] = {
+            digest: descriptor
+            for digest, descriptor in sorted(guard_factor_atlas.items())
+        }
+
+    result_paths = []
+    if replay_manifest:
+        grouped_rows = {}
+        for row in output_rows:
+            key = (row["bc_sign"], tuple(row["epsilon"]))
+            grouped_rows.setdefault(key, []).append(row)
+        for (row_bc_sign, epsilon), rows_for_tower in sorted(grouped_rows.items()):
+            compact_rows = []
+            shard_guard_hashes = set()
+            for row in rows_for_tower:
+                if row["status"] == "REMOTE_ERROR":
+                    compact_rows.append(row)
+                    continue
+                shard_guard_hashes.update(row["guard_hashes"])
+                compact_rows.append({
+                    key: row[key]
+                    for key in (
+                        "epsilon", "bc_sign", "missing_record", "sigma_o",
+                        "pairing_index", "matching", "equation_degrees",
+                        "base_degree", "pair_rows", "replay_x", "status",
+                        "seconds",
+                    )
+                })
+            sign_token = "plus" if row_bc_sign == 1 else "minus"
+            epsilon_token = "".join(
+                "p" if value == 1 else "m" for value in epsilon
+            )
+            shard_result = DIRECTORY / (
+                "rate_half_kb_positive_433_1b_o0b_common_repeat_"
+                "cell11_uncolored_exceptional_replay_"
+                f"bc{sign_token}_e{epsilon_token}_result.json"
+            )
+            shard_output = {
+                "schema": (
+                    "rate-half-kb-positive-433-1b-o0b-common-repeat-"
+                    "cell11-uncolored-exceptional-pair-replay-v1"
+                ),
+                "scope": (
+                    "Exact all-pair rank replay on every non-guard deployed "
+                    "root in the nested-norm atlas for one source tower."
+                ),
+                "core_sha256": output["core_sha256"],
+                "tower_sha256": output["tower_sha256"],
+                "bc_sign": row_bc_sign,
+                "epsilon": list(epsilon),
+                "case_count": len(compact_rows),
+                "status_counts": dict(sorted(Counter(
+                    row["status"] for row in compact_rows
+                ).items())),
+                "guard_atlas": {
+                    digest: output["guard_atlas"][digest]
+                    for digest in sorted(shard_guard_hashes)
+                },
+                "rows": compact_rows,
+            }
+            shard_result.write_text(
+                json.dumps(shard_output, indent=2, sort_keys=True) + "\n"
+            )
+            result_paths.append(str(shard_result))
+    elif resultant_metadata and not limit:
+        grouped_rows = {}
+        for row in output_rows:
+            key = (row["bc_sign"], tuple(row["epsilon"]))
+            grouped_rows.setdefault(key, []).append(row)
+        for (row_bc_sign, epsilon), rows_for_tower in sorted(grouped_rows.items()):
+            compact_rows = []
+            shard_guard_hashes = set()
+            shard_guard_factor_hashes = set()
+            for row in rows_for_tower:
+                if row["status"] == "REMOTE_ERROR":
+                    compact_rows.append(row)
+                    continue
+                shard_guard_hashes.update(row["guard_hashes"])
+                shard_guard_factor_hashes.update(row["guard_factor_hashes"])
+                compact_rows.append({
+                    key: row[key]
+                    for key in (
+                        "epsilon", "bc_sign", "missing_record", "sigma_o",
+                        "pairing_index", "matching", "equation_degrees",
+                        "base_degree", "selected", "status", "seconds",
+                    )
+                })
+            sign_token = "plus" if row_bc_sign == 1 else "minus"
+            epsilon_token = "".join("p" if value == 1 else "m" for value in epsilon)
+            norm_token = "_norm" if norm_metadata else ""
+            shard_result = DIRECTORY / (
+                "rate_half_kb_positive_433_1b_o0b_common_repeat_"
+                f"cell11_uncolored_resultant{norm_token}_"
+                f"bc{sign_token}_e{epsilon_token}_result.json"
+            )
+            shard_output = {
+                "schema": (
+                    "rate-half-kb-positive-433-1b-o0b-common-repeat-"
+                    "cell11-uncolored-resultant-factor-atlas-v1"
+                ),
+                "scope": (
+                    "Exact nested-norm factor atlas for one cell-11 source "
+                    "tower; its non-guard base-field roots are the complete "
+                    "pointwise exceptional cover."
+                    if norm_metadata else
+                    "Exact coordinate-gcd factor atlas for one cell-11 "
+                    "source tower. It excludes off-guard vertical resultant "
+                    "components; pointwise zeros in split source fibers and "
+                    "their norm/owner payment remain open."
+                ),
+                "core_sha256": output["core_sha256"],
+                "tower_sha256": output["tower_sha256"],
+                "bc_sign": row_bc_sign,
+                "epsilon": list(epsilon),
+                "complete_source_tower_atlas": len(compact_rows) == 90,
+                "case_count": len(compact_rows),
+                "status_counts": dict(sorted(Counter(
+                    row["status"] for row in compact_rows
+                ).items())),
+                "guard_atlas": {
+                    digest: output["guard_atlas"][digest]
+                    for digest in sorted(shard_guard_hashes)
+                },
+                "guard_factor_atlas": {
+                    digest: output["guard_factor_atlas"][digest]
+                    for digest in sorted(shard_guard_factor_hashes)
+                },
+                "rows": compact_rows,
+            }
+            shard_result.write_text(
+                json.dumps(shard_output, indent=2, sort_keys=True) + "\n"
+            )
+            result_paths.append(str(shard_result))
+    else:
+        result.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+        result_paths.append(str(result))
     print(json.dumps({
-        "result": str(result),
+        "results": result_paths,
         "case_count": len(output_rows),
         "status_counts": output["status_counts"],
         "guard_count": len(guard_atlas),
