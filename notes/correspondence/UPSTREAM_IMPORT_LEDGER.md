@@ -37,3 +37,4 @@ order 12 precedent, already encoded in v13_prefix_collision_ledger).
 
 Codex's "7 not 8" caveat: resolved — the critical surface has exactly 7 reds
 (correct as rendered); the shared_census_kernel red is off-critical by design.
+| haboeck_quadratic_johnson_mca_import | Haboeck, ePrint 2025/2110 Thm 2 (public note; = ABF26's [Hab25]) | quadratic Johnson-range support-wise MCA bound (HJ1), proved | NO ordinary-LIST bound; BCHKS25 linear refinement EXCLUDED (conditional) | upstream audit pin @ 93fba1be (BCHKS25 Thm 4.6 packet, whose 'resolved one level further' section carries the independent Hab25 Thm 2 proof audit; external trail github.com/latifkasuli/mca) | round-32 seam audit: CERTIFIED, 28 attacks, no mathematical kill |

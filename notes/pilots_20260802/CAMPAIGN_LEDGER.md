@@ -5097,3 +5097,36 @@ skip-fraction measurement. QUARANTINE MARKER: this entry and below
 quarantined for round-32 pilots (the ledger closed to them
 entirely); sibling round-32 dirs mutually quarantined; round-31
 and earlier readable. Launched on Opus.
+
+## ROUND 32 BANK 1/4 — rh_haboeck_seam (2026-08-10, coordinator)
+
+**BANKED — THE HABOECK IMPORT CHAIN CERTIFIED: 28 adversarial
+attacks, NO mathematical kill.** Object identity DEAD (E_m ==
+(SL1), same support/conjunction — no pair-explained class dropped);
+the d = k-1 convention verified independently and shown
+LOAD-BEARING (rho = k/n counterfactual: banked a_m unsafe by
+exactly 1 — the check had teeth); roundings safe; full ladder
+m = 3..96 reproduced from (HJ1) alone; razor thresholds exact;
+field scope clean (six e-strata, O6 untripped); BCHKS25 exclusion
+leak-free; the shell-cap consumer's CA <= MCA transport valid.
+FOUR DEFECTS, all extra-mathematical, ALL HANDLED THIS BANK:
+F1 the 23-bit UNDER-TRANSPORT (m = 9..93 proved, unrecorded) —
+the staircase-of-record addendum now on crossing_location
+(a_RH(q) <= a_{m(q)}, landmarks m=9/20/40/60/80/94/95); F2 the
+now-false adjacency_closing narrative sentence — superseded;
+F3 the stale headline bracket — pointer applied; F4 the
+232.650531 -> 232.650530 printed constant — fixed on the supplier
+(safe direction). F6 CLOSED BY THE COORDINATOR from the pinned
+upstream audit itself (read at rs-mca @ 93fba1be): its "resolved
+one level further" section carries the INDEPENDENT Hab25/2110
+Thm 2 proof audit (latifkasuli/mca trail) — the import's closure
+line is accurate, and [Hab25] = 2025/2110 is ABF26's own
+bibliography entry. F7 import-ledger row added. F5 (16
+conflicting-kind doubled edges, standing pattern) + the
+supplier-side m(q) generalization + F9 per-s specialization ->
+wave-58 brief. NEW PROCESS LESSON BANKED: when a supplier lands,
+diff its PROVED content against what the consumer records, BOTH
+directions (under-transport is a seam class too). **THE EXPORT
+GATE IS PASSED: the Haboeck packet (import + bracket + both
+fences) is EXPORT-READY.** All four pilot scripts
+coordinator-replayed. Files: notes/pilots_20260810/rh_haboeck_seam/.
