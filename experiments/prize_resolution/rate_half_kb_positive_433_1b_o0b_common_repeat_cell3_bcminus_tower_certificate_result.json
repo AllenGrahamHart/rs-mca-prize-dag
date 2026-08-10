@@ -1,0 +1,110 @@
+{
+  "rows": [
+    {
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "original_dimension": 1,
+      "program_sha256": "89288757b3ae07eda7b07f6f7823f2e748dfcac9bfe186eaf6cd268771422c67",
+      "projection": "b**3*c**3 + b**2*c**4 + 3*b**2*c**3 - 2*b**2*c**2 - 2*b**2*c - b**2 - b*c**4 - 2*b*c**3 - 2*b*c**2 + 3*b*c + b + c",
+      "r_relation": "b*c*r**2 - 16711679*b*c - 16711678*b*r + 16711678*c*r - r**2 + 16711679",
+      "remainders": {
+        "primitive_0_mod_tower": "0",
+        "primitive_1_mod_tower": "0",
+        "primitive_2_mod_tower": "0",
+        "projection_mod_original": "0",
+        "r_relation_mod_original": "0"
+      },
+      "removed_gcd": "r**2",
+      "seconds": 22.986684266,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "1*r^2"
+      },
+      "tower_dimension": 1
+    },
+    {
+      "epsilon": [
+        -1,
+        1
+      ],
+      "original_dimension": 1,
+      "program_sha256": "b21e0f751884c357a04a3796f54b2574a227b1f3d6ac3cb88e65f82b906a88d3",
+      "projection": "b**3*c**3 + b**2*c**4 + 3*b**2*c**3 - 2*b**2*c**2 - 2*b**2*c - b**2 - b*c**4 - 2*b*c**3 - 2*b*c**2 + 3*b*c + b + c",
+      "r_relation": "-b*c*r**2 - 16711679*b*c + 16711680*b*r - 16711680*c*r + r**2 + 16711679",
+      "remainders": {
+        "primitive_0_mod_tower": "0",
+        "primitive_1_mod_tower": "0",
+        "primitive_2_mod_tower": "0",
+        "projection_mod_original": "0",
+        "r_relation_mod_original": "0"
+      },
+      "removed_gcd": "r**2",
+      "seconds": 27.018468841,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "-1*r^2"
+      },
+      "tower_dimension": 1
+    },
+    {
+      "epsilon": [
+        1,
+        -1
+      ],
+      "original_dimension": 1,
+      "program_sha256": "1259abdf70348ccd642a0b059bc7febfbbc1f142f5ef1976e6a335acc3432501",
+      "projection": "b**3*c**3 + b**2*c**4 + 3*b**2*c**3 - 2*b**2*c**2 - 2*b**2*c - b**2 - b*c**4 - 2*b*c**3 - 2*b*c**2 + 3*b*c + b + c",
+      "r_relation": "-b*c*r**2 + 16711679*b*c - 16711678*b*r + 16711678*c*r + r**2 - 16711679",
+      "remainders": {
+        "primitive_0_mod_tower": "0",
+        "primitive_1_mod_tower": "0",
+        "primitive_2_mod_tower": "0",
+        "projection_mod_original": "0",
+        "r_relation_mod_original": "0"
+      },
+      "removed_gcd": "r**2",
+      "seconds": 31.642756139999996,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "-1*r^2"
+      },
+      "tower_dimension": 1
+    },
+    {
+      "epsilon": [
+        1,
+        1
+      ],
+      "original_dimension": 1,
+      "program_sha256": "fbfc1fa0360a48affc636a6b76455a7a06a961506adcf2a5b88b05209380b881",
+      "projection": "b**3*c**3 + b**2*c**4 + 3*b**2*c**3 - 2*b**2*c**2 - 2*b**2*c - b**2 - b*c**4 - 2*b*c**3 - 2*b*c**2 + 3*b*c + b + c",
+      "r_relation": "b*c*r**2 + 16711679*b*c + 16711680*b*r - 16711680*c*r - r**2 - 16711679",
+      "remainders": {
+        "primitive_0_mod_tower": "0",
+        "primitive_1_mod_tower": "0",
+        "primitive_2_mod_tower": "0",
+        "projection_mod_original": "0",
+        "r_relation_mod_original": "0"
+      },
+      "removed_gcd": "r**2",
+      "seconds": 26.155817668,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "1*r^2"
+      },
+      "tower_dimension": 1
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-cell3-bcminus-tower-v1",
+  "scope": "Bidirectional guarded ideal certificate for the four cell-3 BC- common curves; outside systems unpaid.",
+  "source_sha256": "713122da1efabb83a8c10598591240e6e7abb1069c1d105f6bea973de6a9d554",
+  "status_counts": {
+    "COMPLETE": 4
+  }
+}

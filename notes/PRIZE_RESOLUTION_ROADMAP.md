@@ -24149,3 +24149,50 @@ critical status movement:   none
 next local sibling:         derive and attack the cells-3/6 BC- torus
 parallel route frontier:    owner [1,2], owner [11,14], split lanes, rank exceptions
 ```
+
+### 2026-08-10 repeated-BC cell-3 `BC-` genus-two and generic atlas
+
+The opaque 23-element common standard bases in the `BC-` sibling now have an
+exact two-equation model. In all four root-sign rows, after
+`t=epsilon_1 epsilon_2 r^2`, the guarded compact ideal equals a
+sign-independent curve `F(b,c)=0` plus one sign-dependent quadratic in `r`.
+The Mobius coordinates
+
+```text
+y=(c+1)/(c-1),
+q=((b+1)/(b-1))/y
+```
+
+put the projected curve in the form `y^2=N(q)/D(q)`, where
+`N=q^3+2q^2+q+4` and `D=q^3+6q^2+q`. The degree-six hyperelliptic polynomial
+`ND` is squarefree, so the projected curve has genus two. Bidirectional
+guard-saturated ideal reductions certify this model in all four sign rows.
+
+The uncolored outside classifier has also been lifted to the resulting
+degree-four function-field tower. Minimum-degree pair selection keeps every
+Sylvester multiplication matrix at size 16, and all 360 systems with missing
+`DE+`, `DF+`, or `EF` have exact rank 16. Their construction and determinant
+norms deduplicate to 47 guards. Exact deployed-field root extraction and
+common-tower lifting give:
+
+```text
+guard polynomials:          47
+root incidences / union:    73 / 48
+no base-field y:            19 q-values
+projection boundary:         3 q-values
+no guarded common point:     3 q-values
+live lifted base values:     23 q-values
+live guarded common points: 368 across all four sign rows
+```
+
+The next local task is direct outside replay at those 368 points, sharded by
+missing record. Colored missing `BE` and `CF` remain separate, as does exact
+transport from cell 3 to cell 6 for the completed `BC-` workload.
+
+```text
+new proved leaves:          BC- genus-two tower / generic rank / guard lifts
+generic systems paid:       360 / 360
+finite uncolored frontier:  368 guarded common points before case incidence
+critical status movement:   none
+next:                       DE+ / DF+ / EF exceptional replay
+```
