@@ -1,0 +1,23 @@
+=== ESC-1 (corrected): translation invariance of the MCA-bad set ===
+    n_s=8 K=4 q=17 a=5 r=3
+  trial 0: |supp union|=3 <= r=3: True;  |bad(f)|=16 |bad(eps)|=16  IDENTICAL: True
+  trial 1: |supp union|=3 <= r=3: True;  |bad(f)|=17 |bad(eps)|=17  IDENTICAL: True
+  trial 2: |supp union|=3 <= r=3: True;  |bad(f)|=17 |bad(eps)|=17  IDENTICAL: True
+  trial 3: |supp union|=3 <= r=3: True;  |bad(f)|=17 |bad(eps)|=17  IDENTICAL: True
+  trial 4: |supp union|=3 <= r=3: True;  |bad(f)|=16 |bad(eps)|=16  IDENTICAL: True
+  trial 5: |supp union|=3 <= r=3: True;  |bad(f)|=16 |bad(eps)|=16  IDENTICAL: True
+  ESC-1 result: 6/6 identical
+
+=== tangent lemma (T): every tangent slope is MCA-bad ===
+  trial 0: #tangent=2 all MCA-bad: True; |S_sparse(this pair)|=16 (>= min(r,q)=3: True)
+  trial 1: #tangent=3 all MCA-bad: True; |S_sparse(this pair)|=17 (>= min(r,q)=3: True)
+  trial 2: #tangent=3 all MCA-bad: True; |S_sparse(this pair)|=17 (>= min(r,q)=3: True)
+  trial 3: #tangent=2 all MCA-bad: True; |S_sparse(this pair)|=15 (>= min(r,q)=3: True)
+  trial 4: #tangent=3 all MCA-bad: True; |S_sparse(this pair)|=16 (>= min(r,q)=3: True)
+  trial 5: #tangent=3 all MCA-bad: True; |S_sparse(this pair)|=17 (>= min(r,q)=3: True)
+  tangent lemma: 6/6
+
+=== ESC-2: wave-10 determined-region formula a_RH(q) = n - B*(q) + 1 ===
+  q=2^129  B*=2                      a_RH=2199023255551   n-a_RH+1==B*: True  a_RH in [k+2^34, n]: True  B*<=B_Q (quadratic range): True
+  q=2^150  B*=4194304                a_RH=2199019061249   n-a_RH+1==B*: True  a_RH in [k+2^34, n]: True  B*<=B_Q (quadratic range): True
+  q=2^166  B*=274877906944           a_RH=1924145348609   n-a_RH+1==B*: True  a_RH in [k+2^34, n]: True  B*<=B_Q (quadratic range): True

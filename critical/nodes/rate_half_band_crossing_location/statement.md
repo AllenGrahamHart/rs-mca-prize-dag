@@ -42,6 +42,14 @@ the open content is exactly
 min { a : S_sparse(a) <= floor(q/2^128) }.
 ```
 
+**[THIS PARAGRAPH IS FALSE — round-28 P0 correction below,
+coordinator-verified from primary text: the Hankel layer's scope is
+r < 2^39, i.e. a > 3n/4 ONLY; on the open bracket [k+2^34, 3n/4)
+the far-CA term is not discharged and is in fact BINDING (the
+PROVED simple-pole floor's pair is column-far, payload
+B_ca^far(k+2^34-1) >= 2^216 vs B* = 2^128). The open content is
+the FAR-CA crossing.]**
+
 **No random-word quantity may appear in this statement** (the
 round-27 forced correction: FLOOR v2 fell to its own falsifier via
 the max-vs-mean type error; its four survivals were zero-power).
@@ -221,3 +229,70 @@ finding; the D4 sliver catch converged with mca_safe_rewire's
 under quarantine (applied above). Source:
 notes/pilots_20260810/apolar_origin/ (REPORT.md, FABLE_AUDIT.md;
 d2_scan/d6_stratum/d5_sporadic coordinator-replayed identical).
+
+## Round-28 addendum (2026-08-10, coordinator-applied on replay: ssparse_endpoints — P0: the pose's reduction CORRECTED; both falsifiers silent; the endpoint evidence lands hard on -lo)
+
+**P0 (FORCED CORRECTION, coordinator-verified from primary text):
+the "binding term is S_sparse alone" reduction — inherited from the
+round-27 (RH-AC) draft — is FALSE on the entire open bracket
+[k+2^34, 3n/4).** Three primary-text facts: (1) the Hankel far-CA
+layer's own scope hypothesis is r < R/2 = 2^39
+(rate_half_ca_hankel_fullrank_branch:10, split_pencil_equivalence:
+44-46 — verified verbatim), i.e. a > 3n/4 ONLY; at razor rows
+B* ~ 2^128 >> 2^39, so the layer never touches the bracket
+interior. (2) The PROVED simple-pole floor's received pair is
+COLUMN-FAR (its own proof establishes no code explanation on more
+than k positions), so its payload lands in B_ca^far — measured by
+exact integer replay: B_ca^far(k+2^34-1) >= 2^216.0000 vs
+B* = 2^128, 88 bits inside unsafe. (3) The rider reduction needs
+L_2 at 2^35 << k — hopeless there. **THE OPEN CONTENT OF RH-AC IS
+THE FAR-CA CROSSING on [k+2^34, 3n/4); S_sparse is dominated.**
+Own-repo grep: nothing in-repo carried this correction before.
+
+**F1 DOES NOT FIRE — and the mechanism space is now EXHAUSTED, not
+merely unsearched:** seven attack surfaces enumerated and priced
+(the exact rung lattice over all N = 2^i <= 256 x all legal d, both
+families, with N >= 512 closed by a pruning theorem; the non-2-power
+scale EMPTY by divisibility; depth d >= 2 dead twice — admissibility
+scaling AND the structural additive/multiplicative collapse, largest
+(a_0,a_1) class 4-9 vs the 2519 needed; rotation exponents closed
+exactly at d+1 constrained coefficients; hybrid/rider/overflow
+priced dead; the pilot's own mid-run subgroup route closed exactly).
+Max admissible reach over EVERYTHING: **exactly 2^34 - 1**, at the
+printed rung only, margin 114.6503 bits (coordinator-replayed).
+**(RH-AC-lo) HARDENS from "no discriminating evidence" to
+"mechanism-space-exhausted floor".** F2 does not fire (priced
+unreachable BEFORE attempting; the scaled sharp form F_COLL is
+9.1x under the scaled budget at the one meaningful cell).
+
+**THE ENDPOINT VERDICT (margin ladder banked in the report):**
+best current estimate **a_RH(q) = k + 2^34 + O(1)** — the 114.65
+bits of family slack buy 0.65-3.09 units of sigma against the
+measured max-profile decay; the three separating scaled cells all
+track the -lo image; and — TRANSPORT-FREE ARITHMETIC — **(RH-AC-hi)
+requires the max list profile flat over 532,575,944,705 consecutive
+agreements at average decay <= 2.15e-10 bits/unit, a factor 2^40.11
+below the mean rate.** -hi is not a rival endpoint; it is a demand
+for 2^40-fold flatness. Caveats stated: the decay measurement is
+scaled across a mechanism change with a NAMED downward bias; the
+2^40 flatness figure is not.
+
+**CONSUMER CONSEQUENCE (FLAGGED, not applied):** with P0 in place,
+the safe half at a = k + 2^34 is a far-CA problem, and
+adjacency_closing's moving LOWER bar would be met exactly by the
+already-PROVED floor at a - 1 — IF the crossing is located at
+k + 2^34. **THE NAMED NEXT OBJECT: an upper bound on the max list
+profile just above sigma = 2^34** — not the sparse coupled system.
+
+Pilot record: 11 HITS / 2 MISSES reported first (incl. F_COLL
+10-34 vs registered <= 4 — the locator set carries real collinear
+structure, 7-9x random, though 2^126 short of F2's need) / 4
+declared deviations; ESC-1 registered AS A MISS before running
+(the brief's difference-form escape was ill-posed against the max
+decomposition — the corrected escape 6/6); one disclosed
+compute-law breach (an empty heredoc, no program ran; 13/14
+compliant); two wall-hits re-scoped rather than extended. Replays:
+d1_rungs + d4_margins + escapes green (114.6503 / -11.8737 / the
+ladder reproduced). Source:
+notes/pilots_20260810/ssparse_endpoints/ (REPORT.md,
+FABLE_AUDIT.md; data/).

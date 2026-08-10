@@ -1,0 +1,15 @@
+/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/ssparse_endpoints/d3_lmax.py:1: SyntaxWarning: invalid escape sequence '\S'
+  """D3: EXACT max list profile F_LMAX at scaled rate-1/2 RS rows, and its
+=== VALIDATION: closure algorithm vs direct enumeration (n_s=8) ===
+  q=17   a=5: direct=7     closure=7     agree=True  (closure size 4292)
+  q=17   a=6: direct=1     closure=1     agree=True  (closure size 36)
+  q=17   a=7: direct=1     closure=1     agree=True  (closure size 8)
+
+=== F_LMAX / F_DECAY ladder, n_s=8, K=4, rate 1/2 ===
+           q   log2q      B_s   a  tau   F_LMAX     lam_FM  safe?  F_DECAY   /log2q
+          17    4.09        4   5    1        7      3.294  False    2.807    0.687
+          17    4.09        4   6    2        1    0.09689   True    0.000    0.000
+          17    4.09        4   7    3        1   0.001628   True    0.000    0.000
+          17    4.09        4   8    4        1  1.197e-05   True      nan      nan
+
+ramguard: local profile reached its 290 wall limit

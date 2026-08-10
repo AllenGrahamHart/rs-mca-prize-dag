@@ -4415,3 +4415,58 @@ bound sporadic collinearities of {P_S} at large w* over prime
 q > 2^167. Addendum + fix on rate_half_band_crossing_location; no
 status flips; census unchanged 239 = 167/40/32. Files:
 notes/pilots_20260810/apolar_origin/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 28 BANK 4/4 — ssparse_endpoints (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED: P0 — the pose's central reduction is FALSE and CORRECTED
+(the third structural correction of the round, coordinator-verified
+from primary text):** the Hankel far-CA layer's scope is r < 2^39
+(a > 3n/4 ONLY — verbatim from both nodes); the PROVED simple-pole
+pair is COLUMN-FAR with payload B_ca^far(k+2^34-1) >= 2^216 vs
+B* = 2^128; **the open content of RH-AC is the FAR-CA crossing on
+[k+2^34, 3n/4), not the S_sparse localization** (inline FALSE
+marker + addendum applied; falsifiers F1/F2/F3 survive untouched).
+**F1 DOES NOT FIRE — the mechanism space EXHAUSTED** (7 surfaces:
+the exact rung lattice, N >= 512 pruned by theorem, non-2-power
+scale EMPTY by divisibility, d >= 2 dead twice incl. the
+additive/multiplicative structural collapse, rotation exponents
+closed at exactly d+1, hybrid/rider/overflow priced dead, the
+pilot's own mid-run subgroup route closed exactly): max reach
+2^34-1 EVERYWHERE, margin 114.6503 (replayed). F2 does not fire
+(priced unreachable BEFORE attempting; scaled sharp form 9.1x
+under budget). **ENDPOINT VERDICT: a_RH = k + 2^34 + O(1)** — the
+slack buys 0.65-3.09 sigma-units against measured max-profile
+decay; all three separating scaled cells track -lo; and
+TRANSPORT-FREE: **(RH-AC-hi) demands 2^40.11-fold flatness over
+5.3e11 consecutive agreements** — not a rival, a pathology.
+CONSUMER CONSEQUENCE FLAGGED: with P0, adjacency's lower bar at
+k+2^34 would be met by the PROVED floor at a-1 IF the crossing
+lands there. NAMED NEXT OBJECT: an upper bound on the max list
+profile just above sigma = 2^34. ESC-1: the BRIEF's escape was
+ill-posed (difference vs max) — registered as a miss BEFORE
+running, corrected escape 6/6. Misses: F_COLL 10-34 vs registered
+<= 4 (7-9x-random collinear structure in the locator set — the
+SAME object as apolar's sporadic-collinearity gap, from the other
+side; joint-brief candidate). One disclosed breach (empty heredoc,
+no program ran; 13/14). Replays: d1_rungs/d4_margins/escapes
+green. Addendum applied; no status flips; census unchanged
+239 = 167/40/32. Files:
+notes/pilots_20260810/ssparse_endpoints/{REPORT.md,FABLE_AUDIT.md,data/}.
+
+**ROUND 28 COMPLETE: 4/4 banked. The RH-AC child was REBUILT BY ITS
+OWN ROUND: quantifier widened to all q > 2^167 (bank 1's tiling
+catch), the naive premise-weakening retired as unsound (bank 1),
+the supply flank's delta=1 branch decided by algorithm — collapse
+at four scales with the parity theorem (bank 2), the upper gate's
+threat killed at official scale by proof + the reciprocal-locator
+normal form locating q=17 (bank 3), and the binding object
+corrected to the far-CA crossing with the endpoint bracketed to
+k + 2^34 + O(1) and -hi facing a 2^40 flatness pathology (bank 4).
+Three structural corrections of inherited text in one round; the
+sliver constant three-way blind-converged; two walls broken by
+algorithm this week; zero status flips. PENDING USER: the
+endpoint-pose sharpening (-lo + O(1) working hypothesis, -hi
+demoted); the joint sporadic-collinearity brief (apolar gap =
+ssparse F_COLL structure, one object two sides) as the round-29
+anchor alongside the named next object (the max-list-profile upper
+bound just above sigma = 2^34).**
