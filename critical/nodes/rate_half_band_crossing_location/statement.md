@@ -488,3 +488,25 @@ zero-power declaration against its own headline. Replays: d1_unify
 re-derivation; the payoff arithmetic). Source:
 notes/pilots_20260810/collinearity_object/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-30 F4 flag: the e-axis (q prime vs q = p^e) — FLAGGED, NOT RESOLVED
+
+The round-30 seam hunt (notes/pilots_20260810/k3_chain_seams/,
+finding F4) exhibits a NEW uncovered direction, orthogonal to the
+round-29 s-axis flag: this pose reads "q prime", while the item-13
+admissible family (notes/BAND_LANE_DEFINITIONS.md) is q = p^e, and
+the sub-2^167 determination covers every admissible q. Exhibited by
+exact integer arithmetic (replay:
+notes/pilots_20260810/k3_chain_seams/exhibit_extension_rows.py):
+p = 340282366920938463463374556854233333761 (prime), q = p^2 with
+q.bit_length() = 256, q > floor(2^255.9) (INSIDE the razor slice),
+v_2(q-1) = 42 so n = 2^41 | q-1, k = 2^40 — an admissible rate-1/2
+family row that no child of rate_half_band_closure locates. A second
+exhibit sits at q ~ 2^201. Nothing in-repo flags the exclusion
+(own-repo grep banked in the REPORT). RESOLUTION SURFACED: either
+(a) widen this pose to q = p^e (requires auditing which of the
+rounds-27..29 instruments are primality-sensitive — the WP5 verdict's
+"31-bit prefix charges" note suggests extension rows differ
+materially), or (b) restrict the lane's family claim to prime q and
+open a separate extension-row child. Until ruled, every consumer
+reading "each admissible row" must count e >= 2 as UNCOVERED.

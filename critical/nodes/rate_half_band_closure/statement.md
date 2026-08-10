@@ -510,3 +510,64 @@ s = 1..41), rows with s < 41 are OUTSIDE this node — the k_extremal
 HOLE verdict; candidate reduction poses at
 notes/pilots_20260810/k_extremal/DRAFT_SCOPE_FLAGS.md (POSE 3 per-s
 family recommended, AWAITING USER). FLAGGED, not resolved.
+
+## Round-30 chain-seam propagations and flags (2026-08-10, coordinator)
+
+The round-30 adversarial seam hunt
+(notes/pilots_20260810/k3_chain_seams/REPORT.md, 12 findings) audited
+this node's decomposition chain. Coordinator actions, forced items
+applied, choices surfaced:
+
+- **F1 APPLIED (P0 propagation).** conditional.md and the shard
+  statement had retained the round-27 "S_sparse is the binding term /
+  far-CA discharged by the Hankel layer" reduction, which the banked
+  round-28 P0 correction (coordinator-verified from primary text)
+  proved FALSE on the whole open bracket [k+2^34, 3n/4). Both texts
+  now carry the far-CA correction. The statement.md block at the
+  round-27 rebuild retains the old wording as append-only history;
+  THIS addendum is its correction of record.
+- **F6 APPLIED.** conditional.md's premises/claim said "razor row"
+  although child 2's pose was widened 2026-08-10 to
+  2^167 < q < 2^256 with the widening recorded on the child and on
+  adjacency_closing but not here. Now consistent.
+- **F7 APPLIED.** The shard still asserted the HD1
+  premise-weakening lead retired as unsound at the round-28 bank.
+  Removed.
+- **F8 APPLIED (shard sync) + FLAG.** The shard falsifier field
+  still carried the retired FLOOR v2 falsifier; it now records the
+  per-child split. UNRESOLVED FLAG: the razor-row structural-surplus
+  direction has NO owner (child 1's inherited surplus falsifier was
+  re-scoped to the deployed row; child 2's falsifiers act at the
+  crossing index only).
+- **F5 APPLIED.** "deployed rows" (plural) narrowed to the active
+  deployed KoalaBear row: every node in the K3 chain is kb_-prefixed
+  at p = 2130706433; the M31 rows are extra-official and untouched.
+- **F4 FLAGGED, NOT RESOLVED (new axis: e).** Child 2 poses at
+  q PRIME; the item-13 admissible family is q = p^e. Exhibited
+  (exact integer arithmetic, replayed): p prime ~ 2^128,
+  q = p^2 inside the razor slice (q > floor(2^255.9)), v_2(q-1) = 42
+  so n = 2^41 | q-1 — a family row located by NEITHER child.
+  Resolution (widen the pose to p^e vs restrict the family claim to
+  prime q + open an extension-row child) is a SURFACED user/
+  coordinator decision. Same E7 shape as the round-29 s-axis flag:
+  the consumers' "each admissible row" now has TWO live uncovered
+  directions (s < 41; e >= 2).
+- **F2/F3 SURFACED, NOT APPLIED.** Child 1 (the K3 arm) is an
+  exhibit-scoped certificate at n = 2^21 under the standing WP5
+  no-transport verdict (quoted in this shard), and serves no
+  consumer bar of this node — yet gate all makes it a hard blocker
+  of the spine. Options: demote the child-1 edge req -> ev
+  (matches WP5's "ev-edge upgrade, not an amber"), or keep gate all
+  with the rider status now stated in conditional.md. USER DECISION.
+- **F9 QUEUED.** 418 of 422 KoalaBear ev-in edges never migrated to
+  child 1 (the decomposition plan's migration was gated on a
+  labels-to-slopes audit that was superseded, not satisfied).
+  Migration is a large write-path operation touching Codex-shared
+  territory: queued, not executed.
+- **F10/F11/F12 -> the wave-57 Codex brief** (ledger double-wire;
+  review-scope wording; the balanced-core qualifier carry).
+
+Clean results with power (banked): the located-index quantifier
+survives every consumer rung (A3, no kill); the 11+2=13 route
+partition and the full (KBPRW) reproduction (A5b/A5c, no kill); the
+two zero-contribution evidence theorems genuinely PROVED and wired.

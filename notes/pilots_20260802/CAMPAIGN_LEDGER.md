@@ -4778,3 +4778,40 @@ both overlap traps cleared.** Replay: both banked censuses
 reproduced exactly + three new counts. ZERO node edits; the draft
 Codex brief held in the pilot dir pending round close. Files:
 notes/pilots_20260810/k3_splitbc_transport/{REPORT.md,FABLE_AUDIT.md,label_orbits.py,DRAFT_CODEX_BRIEF.md}.
+
+## ROUND 30 BANK 4/4 — k3_chain_seams (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED — the decisive pilot: 12 findings, 3 HIGH, chain arithmetic
+clean but quantifiers/scopes not. F1: band_closure's LIVE conditional
+proof + shard still asserted the S_sparse reduction banked FALSE at
+round 28 (P0) — same-day propagation failure; APPLIED (forced), the
+far-CA correction now the parent's text of record. F2/F3 (SURFACED):
+the K3 arm is an exhibit-scoped n=2^21 certificate under the standing
+WP5 no-transport verdict, serves NO consumer bar, yet gate-all makes
+it a spine blocker — demote req->ev vs keep-with-rider = USER
+DECISION. F4 (NEW AXIS, FLAGGED both nodes): crossing_location poses
+q PRIME; the admissible family is q = p^e; exhibited razor-slice
+extension row (q = p^2 > floor(2^255.9), v_2(q-1) = 42) located by
+NEITHER child — the consumers' "each admissible row" now has TWO
+uncovered directions (s < 41; e >= 2). F5/F6/F7/F8 APPLIED (forced
+shard/conditional syncs: plural row narrowed, widened pose
+propagated, retired HD1 clause removed, falsifier field synced to
+the per-child split + the UNOWNED razor-surplus direction flagged).
+F9 QUEUED (418/422 ev edges never migrated). F10/F11/F12 -> wave-57
+brief. CLEAN WITH POWER: located-index quantifier survives all six
+consumer rungs; 11+2=13 route partition + full KBPRW reproduction
+(orbit sizes exact). All four scripts coordinator-replayed. Pilot
+disclosed its own float bug (M3) and two wall-hits honestly.**
+
+**ROUND 30 COMPLETE: 4/4 banked, 0 status flips, census 239 =
+167/40/32 unchanged. THE ROUND'S SHAPE: the K3 arm was re-priced
+from "four leaves closing on census cadence" to an honest program —
+the trichotomy theorem is free, the transports cut the split block
+3.34x, but the ledger needs a bridge, a unit conversion, an
+allocation DEFINITION, a source-cover object, and its (2,8,1)
+fourth class; and the decomposition chain needed five forced
+propagations + carries two surfaced structural decisions (child-1
+gate status; the e-axis). PROCESS RULE CANDIDATE BANKED: forced
+corrections propagate by claim-grep over ALL carrying texts, not by
+editing the node where the claim was found (how F1/F6/F7 escaped
+round 28).**
