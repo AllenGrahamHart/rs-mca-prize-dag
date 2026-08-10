@@ -29660,6 +29660,8 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_dyadic_quotient_absence/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_joint_support_distance/statement.md",
     "background/nodes/l1_fpc5_ratehalf_m4_t2_distance_only_no_go/statement.md"
@@ -29702,6 +29704,26 @@
    }
   },
   {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "title": "Sharp rate-half FPC5 cells shorten to one explicit RS list instance",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "After fixing the full background and two touched petals, every exact sharp rate-half M=4,t=2 contributor injects into RS[C,2ell-1] on |C|=5ell-5 core points, at exact agreement 3ell-2 and radius 2ell-3=floor(2(N-K_0)/3). The FPC5 cofactor, untouched-petal, and first-owner conditions remain filters. This is an exact shortening interface, not a polynomial list-size bound.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/provenance.md"
+   ],
+   "upstream": {
+    "source": "rs-mca split-locator flatness and list-completion route",
+    "relation": "FPC5_SHORTENED_LIST_INSTANCE"
+   }
+  },
+  {
    "id": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
    "title": "The sharp rate-half FPC5 guarded locator flat has no common gcd",
    "status": "PROVED",
@@ -29738,6 +29760,26 @@
    "upstream": {
     "source": "rs-mca split-locator master flatness / experimental m1 Conjecture F",
     "relation": "EXACT_TYPED_INSTANCE"
+   }
+  },
+  {
+   "id": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "title": "Sharp rate-half FPC5 contributors have a six-value rational-map encoding",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every exact sharp rate-half M=4,t=2 contributor injects into a degree-(2ell-3) rational map phi=L_1A_1/(L_2A_2). Its complete reduced 1-fiber is the defect set in the core; the two touched petals lie in the zero and pole fibers; the full background lies in the c_1/c_2 fiber; and each untouched petal avoids its own distinct marked fiber. The core, background, and four petals partition the whole official domain. This is a typed descriptor, not a count.",
+   "refs": [
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/statement.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/proof.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/claim_contract.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/dependency_subdag.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/audit.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/result.md",
+    "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map/provenance.md"
+   ],
+   "upstream": {
+    "source": "rs-mca determinantal incidence and split-pencil route",
+    "relation": "FPC5_MARKED_RATIONAL_MAP_INSTANCE"
    }
   },
   {
@@ -61871,6 +61913,11 @@
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "kind": "req"
   },
@@ -61905,6 +61952,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
    "to": "l1_fpc5_ratehalf_m4_t2_payment",
    "kind": "ev"
@@ -61923,6 +61975,16 @@
    "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
    "to": "l1_fpc5_ratehalf_m4_t2_sharp_gcd_triviality",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_projective_flat_descriptor",
+   "to": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_ratehalf_m4_t2_sharp_six_value_rational_map",
+   "to": "l1_fpc5_ratehalf_m4_t2_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_ratehalf_m4_t2_uniform_guarded_codimension",

@@ -6,8 +6,10 @@
   codimension, uniform fixed-background codimension at least `ell-1`, exact
   sharp projective split-flat descriptor, sharp flat-wide gcd triviality, and
   pure dyadic quotient-pullback absence, plus aggregate joint-support distance
-  and packing without background enumeration. A sharp Gilbert fence proves
-  support distance alone cannot make that packing polynomial.
+  and packing without background enumeration. The sharp cell also has exact
+  six-value rational-map and fixed-agreement shortening descriptors. A sharp
+  Gilbert fence proves support distance alone cannot make the packing
+  polynomial.
 - **Global composition:** the fixed-source result plus at most four anchors
   is global by first-layout domination.
 - **Output:** one polynomial or legitimate profile payment with internal

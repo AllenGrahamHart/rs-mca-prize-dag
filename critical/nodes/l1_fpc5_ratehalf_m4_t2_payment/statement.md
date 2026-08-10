@@ -82,6 +82,23 @@ quotient tails and reciprocal/dihedral classes remain. Because the projective
 dimension grows with `ell`, the upstream fixed-dimensional split-flat bound
 does not close (RH1).
 
+Two further exact descriptors expose structure hidden by (RH1). First, each
+sharp contributor gives a degree-`2ell-3` rational map with a complete
+core `1`-fiber, the touched petals in its zero and pole fibers, the full
+background in a fourth marked fiber, and two distinct forbidden fibers on
+the untouched petals. These blocks partition the whole official domain.
+Second, shortening the fixed background and touched pair injects the same
+contributors into
+
+```text
+RS[C,2ell-1],       |C|=5ell-5,
+agreement=3ell-2,   radius=2ell-3.                    (RH2)
+```
+
+The latter is outside the ordinary Johnson range and is not itself a
+payment. Together the descriptors offer two non-equivalent attack routes:
+marked rational-map incidence and a structured shortened-list theorem.
+
 Prove one disjoint aggregate payment of the remaining root-rich split-pair
 locus over the six touched pairs and all defect/background cells in this
 fixed source. Internal tangent, quotient, background-root, and

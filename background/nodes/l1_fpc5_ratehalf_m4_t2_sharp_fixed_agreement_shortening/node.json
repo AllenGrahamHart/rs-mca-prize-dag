@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening",
+    "title": "Sharp rate-half FPC5 cells shorten to one explicit RS list instance",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "After fixing the full background and two touched petals, every exact sharp rate-half M=4,t=2 contributor injects into RS[C,2ell-1] on |C|=5ell-5 core points, at exact agreement 3ell-2 and radius 2ell-3=floor(2(N-K_0)/3). The FPC5 cofactor, untouched-petal, and first-owner conditions remain filters. This is an exact shortening interface, not a polynomial list-size bound.",
+    "refs": [
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/statement.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/proof.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/claim_contract.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/dependency_subdag.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/audit.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/result.md",
+      "background/nodes/l1_fpc5_ratehalf_m4_t2_sharp_fixed_agreement_shortening/provenance.md"
+    ],
+    "upstream": {
+      "source": "rs-mca split-locator flatness and list-completion route",
+      "relation": "FPC5_SHORTENED_LIST_INSTANCE"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_ratehalf_m4_t2_payment"
+    }
+  ],
+  "refutes": []
+}
