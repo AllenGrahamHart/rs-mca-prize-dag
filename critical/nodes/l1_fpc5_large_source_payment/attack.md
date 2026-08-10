@@ -28,20 +28,26 @@
    must retain the reconstructed-locator split predicate and all exact
    guards; owner dimension, MDS support counting, or unguarded linear
    algebra has no power.
-8. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+8. Use `l1_fpc5_tpetal_owner_free_cauchy_divisor_chart` for the collective
+   formulation. Count degree-`d` divisors `G|L_Core`, equivalently their
+   complements `A=L_Core/G`, satisfying the weighted petal moments, all
+   punctured primitive nonvanishing tests, and the required background
+   Cauchy equations. Do not discard those guards or replace the weighted
+   moment map by an ordinary prefix map without a proved transport.
+9. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
    `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
    pencil of core-split locators. Do not identify it with a same-domain
    divisor census: its natural determinant parent is the disjoint
    touched-petal locator.
-9. Seek a uniform bounded-tail dual-domain pencil census across many
+10. Seek a uniform bounded-tail dual-domain pencil census across many
    distinct owners, preserving the petal congruences and remaining affine
    background guards. Reuse Przemek's split-pencil methods only after
    proving the required domain and normalization transport.
-10. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-11. Seek a collective large-`M` incidence or first-owner inequality before
+11. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+12. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-12. Price touched-petal multiplicity and source multiplicity together.
-13. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+13. Price touched-petal multiplicity and source multiplicity together.
+14. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

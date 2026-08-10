@@ -129,6 +129,23 @@ These ambient pairs need not have split locators or pass the guards. The
 theorem therefore forbids owner-only and unguarded-linear coalescence; the
 simultaneous split-and-guard predicate must supply the full saving.
 
+The proved node `l1_fpc5_tpetal_owner_free_cauchy_divisor_chart` now prints
+that simultaneous predicate without choosing an anchor. If `chi` is the
+CRT multiplier equal to `c_i` modulo `L_i`, every core-split locator `G`
+reconstructs as
+
+```text
+B_G=rem_Lambda(chi G).
+```
+
+The condition `deg B_G<=d` is exactly a block of `h-d-1` weighted moments
+on the petal roots. Primitivity is nonvanishing of the punctured zeroth
+moment at each root of `G`, and every background agreement is one explicit
+Cauchy-transform zero. Equivalently, with `A=L_Core/G`, the complete cell
+is one weighted reciprocal-divisor census over `A|L_Core`. This formulation
+retains the predicates omitted by the ambient MDS theorem and does not sum
+owners independently.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write

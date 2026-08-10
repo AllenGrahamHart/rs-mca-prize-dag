@@ -5,8 +5,8 @@
     "title": "L1 FPC5: large-source full-petal payment",
     "status": "TARGET",
     "key": true,
-    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has a proved affine anchor chart and joint owner; owner cancellation reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, determinant tails, and exact owners.",
-    "attack_surface": "inside the typed owner-cancelled charts over (PF6), prove a dimension-uniform simultaneous split-and-guard census and collective first-owner theorem across the many realized owners; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
+    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart; owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, determinant tails, and exact owners.",
+    "attack_surface": "prove a base-field-normalized bound for the owner-free weighted reciprocal-divisor Cauchy census, retaining its punctured primitive tests and background equations, then supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
     "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
     "refs": [
       "critical/nodes/l1_fpc5_large_source_payment/statement.md",

@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+    "title": "The full t-petal cell is an owner-free weighted Cauchy divisor census",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For a saturated t-petal pair slice, let chi be the CRT multiplier equal to label c_i modulo petal locator L_i. Every core-split locator G reconstructs anchor-freely as B_G=rem_Lambda(chi G). The degree condition deg B_G<=d is exactly a printed block of h-d-1 weighted moments on the petal roots; primitivity is exactly nonvanishing of the corresponding punctured zeroth moment at every root of G, and every background zero is exactly one printed Cauchy-transform equation. Equivalently the entire guarded cell is one reciprocal-divisor census over complements of G in the core locator, without summing joint owners.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/statement.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/proof.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/audit.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/result.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/upstream_crosswalk.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_saturated_slice_dimension"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}
