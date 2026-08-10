@@ -731,3 +731,35 @@ hand-checked by the coordinator, all quotes verified verbatim):
   sigma >= 2; nothing measures B_mca/B_ca^far/S_sparse; q window
   ends at 10^6 (regime membership transports; the 2^256 arithmetic
   does not). No status flips.
+
+## Haboeck-Johnson safe-bracket addendum (2026-08-10)
+
+The proved quadratic Johnson-range MCA theorem now supplies a direct
+safe-side bound below `3n/4`; it does not use the fenced unique-decoding
+CA-to-MCA transfer. With the source convention corrected to
+`rho=(k-1)/n`, the exact integer specialization is banked as
+`rate_half_haboeck_quadratic_johnson_safe_bracket`.
+
+For every razor row `q>2^255.9`, its `m=94` member gives
+
+```text
+a_RH(q) <= 1563215236073 = 0.7108679874... n.
+```
+
+At
+
+```text
+q >= 330298791207625937408605578064099942258 * 2^128,
+```
+
+the strongest member affordable below the strict `2^256` field cap is
+`m=95`, giving
+
+```text
+a_RH(q) <= 1563128173124 = 0.7108283958... n.
+```
+
+The previous upper bracket was `3n/4=1649267441664`; the maximal gain is
+`86,139,268,540` agreement steps. This is a real bracket movement but no
+status flip: Haboeck supplies no adjacent-unsafe witness at `a_m-1`, and the
+gap to the proved lower endpoint `k+2^34` remains large.

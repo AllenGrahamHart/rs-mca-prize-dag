@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "haboeck_quadratic_johnson_mca_import",
+    "title": "Haboeck's proved quadratic Johnson-range MCA theorem",
+    "status": "PROVED",
+    "closure": "published theorem import with proof and convention audit",
+    "statement": "For C={eval_D(p):deg(p)<=d}, rho=d/n, and every integer m>=3, Haboeck Theorem 2 bounds the finite-affine same-support MCA exceptional-slope set at gamma=1-(1+1/(2m))sqrt(rho) by (ell^7/3)(rho*n)^2, where ell=(m+1/2)/sqrt(rho). In repository dimension convention K this uses d=K-1 and rho=(K-1)/n. Only the proved quadratic bound is imported; the BCHKS25 linear refinement and higher-degree samplers are not claimed.",
+    "refs": [
+      "background/nodes/haboeck_quadratic_johnson_mca_import/statement.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/proof.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/claim_contract.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/dependency_subdag.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/audit.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/result.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/provenance.md",
+      "background/nodes/haboeck_quadratic_johnson_mca_import/verify.py"
+    ],
+    "upstream": {
+      "source": "Haboeck ePrint 2025/2110 Theorem 2; rs-mca audit at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+      "relation": "PROVED_IMPORT"
+    }
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_haboeck_quadratic_johnson_safe_bracket"
+    }
+  ],
+  "refutes": []
+}
