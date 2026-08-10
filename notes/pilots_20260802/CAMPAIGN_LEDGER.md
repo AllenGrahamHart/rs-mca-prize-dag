@@ -4298,3 +4298,23 @@ transport — a third-party down-payment on the
 rate_half_kb_m2_r4_k3_independent_review TARGET leaf. His PR #1153
 (independent public-source replay of the cell-5 xi3 pairing
 frontier) queued for the next PR sweep.
+
+## ROUND 28 LAUNCHED (2026-08-10) — QUARANTINE MARKER — THE RH-AC ROUND
+
+Four Opus pilots on the crossing-location child's anchors
+(user-directed): apolar_origin (prove residual budgets {2^39,
+2^39+1} via the apolar structure the incidence family provably
+lacks — the named theorem target; payoff = the bracket top extends
+to all q > 2^167), ssparse_endpoints (execute the registered RH-AC
+falsifiers F1/F2 + the first scaled measurements of the S_sparse
+crossing between (RH-AC-lo) and (RH-AC-hi)), maxscan_algorithm
+(the BBM pattern: break the n=32 t=1 whole-word-space maxscan wall
+by algorithm under 1G, else validate + emit the priced Modal
+request), mca_safe_rewire (draft the HD1 premise-weakening surgery
++ map the (2^167, 2^169) seam exactly — surgery stays
+coordinator-gated). Pilots MUST NOT read ledger entries below this
+marker and MUST pass this clause to any subagent. RAM discipline
+binding; banked scripts from SCRATCH COPIES only; draft-only; no
+status flips; REPORT.md persisted by the coordinator; zero-power
+instrument classes declared in advance where a pose quantifies
+over a max (the round-27 F3 lesson).
