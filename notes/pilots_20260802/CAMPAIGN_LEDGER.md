@@ -5073,3 +5073,27 @@ MERGE: clean; Codex's edits to crossing_location accepted (the
 scope-fence correction of my note + two properly-scoped addenda,
 each backed by a PROVED node in the same push). Census + chain
 green post-merge. No conflicts.
+
+## ROUND 32 LAUNCH — the post-wave-57 frontier round (2026-08-10)
+
+Four Opus pilots; briefs in notes/pilots_20260810/{rh_fr_algebraic,
+rh_farca_upper,rh_haboeck_seam,rh_residuals_close}/PREREG.md:
+(A) THE ALGEBRAIC (FR) — exclude the wave-57 fence's m=64 system
+from realizability via (GNF)/syndrome pencil/apolar Hankel and
+derive the realizable max-bound (D1 carries the route-deciding
+converse: if the fence system IS realizable, (FR) is false and 9/4
+is real); (B) THE FAR-CA UPPER BOUND at k+2^34 (R-UPPERBOUND) —
+three routes priced (line-degree, the absent moving-kernel branch,
+the catalecticant extension), plus the interior-tightness
+measurement of LB1's floor (if tight everywhere, -lo follows);
+(C) ADVERSARIAL Haboeck-import seam hunt — object identity (E_m's
+pair-unexplained count vs the B_mca numerator: the T5 failure
+shape), the rho convention, rounding directions, the full m-ladder
+re-derived independently, the e-axis field hypothesis under O6;
+(D) THE RESIDUAL CLOSEOUT — residual (i) the w* tiling gap
+post-(NEWCAP), residual (iii) m=1 exhaustion at q=17, the
+one-table residual-budget ledger reconciliation, and the T3-guard
+skip-fraction measurement. QUARANTINE MARKER: this entry and below
+quarantined for round-32 pilots (the ledger closed to them
+entirely); sibling round-32 dirs mutually quarantined; round-31
+and earlier readable. Launched on Opus.
