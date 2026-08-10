@@ -2,13 +2,14 @@
 
 ## In scope
 
-- All 15 positive `433-1b` common role cells.
+- All 15 positive `433-1b -> O0a` common role cells.
 - Exact label action of the two displayed involutions.
 - Full, endpoint, and non-endpoint orbit profiles.
 
 ## Out of scope
 
 - Exclusion of any representative or source point.
+- The `433-1b -> O0b` route.
 - Any rank-drop, negative route, K3, MCA, LIST, or Prize endpoint.
 
 ## Promotion rule

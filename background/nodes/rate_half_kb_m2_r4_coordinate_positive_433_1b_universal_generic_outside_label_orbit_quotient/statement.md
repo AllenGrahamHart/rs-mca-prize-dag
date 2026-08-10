@@ -2,7 +2,7 @@
 
 ## Theorem (KBP1B-LABEL-QUOTIENT-1)
 
-In every positive deployed `433-1b` common role cell, the involutions
+In every positive deployed `433-1b -> O0a` common role cell, the involutions
 
 ```text
 P=(0 1),       Q=(3 4)
@@ -15,3 +15,7 @@ labels.  Its invariant complement is 24 orbits on 75 labels, with sizes
 `1:1,2:9,4:14`.
 
 No representative is excluded by this theorem.
+
+This quotient does not transport to `433-1b -> O0b`.  There `P` is available
+only on the `SDE/SDF` lanes with an identical record pair, while `Q` fails
+because `D/E` exchange does not preserve the colored incidences `BE,CF`.

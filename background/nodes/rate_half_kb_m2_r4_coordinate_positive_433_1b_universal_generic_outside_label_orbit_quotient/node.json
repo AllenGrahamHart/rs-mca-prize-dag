@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
-    "title": "KoalaBear m2 r4 positive 433-1b universal outside-label quotient",
+    "title": "KoalaBear m2 r4 positive 433-1b to O0a universal outside-label quotient",
     "status": "PROVED",
-    "closure": "universal 105-to-36 label quotient in every common role cell",
-    "statement": "For every guarded positive deployed 433-1b common role cell, exchange of the two identical positive DE records and the universal D/E outside transport preserve the complete source and target systems. Their action partitions the 105 omitted-record/residual-matching labels into 36 orbits with size profile 1:3, 2:15, 4:18. The 30 endpoint labels form 12 invariant orbits; the other 75 labels form 24 invariant orbits with profile 1:1, 2:9, 4:14. This theorem is a workload quotient and excludes no representative.",
+    "closure": "universal 105-to-36 label quotient in every 433-1b to O0a common role cell",
+    "statement": "For every guarded positive deployed 433-1b to O0a common role cell, exchange of the two identical positive DE records and the O0a D/E outside transport preserve the complete source and target systems. Their action partitions the 105 omitted-record/residual-matching labels into 36 orbits with size profile 1:3, 2:15, 4:18. The 30 endpoint labels form 12 invariant orbits; the other 75 labels form 24 invariant orbits with profile 1:1, 2:9, 4:14. This theorem is a workload quotient and excludes no representative. It does not apply to 433-1b to O0b: the repeated-BC record pair is signed rather than identical on its S0 lanes, and D/E transport does not preserve O0b's BE/CF colored incidences.",
     "refs": [
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/statement.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient/proof.md",
