@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r8_trivial_stabilizer_payment",
+    "title": "KoalaBear m2 r8 trivial-stabilizer component payment",
+    "status": "TARGET",
+    "statement": "In the active image of the balanced-core component bridge, every actual residual component of type (m,r,delta)=(2,8,1), equivalently trivial V4 stabilizer, is either excluded or assigned an exact distinct-affine-slope payment with the bridge multiplicity, same received-line owner, and first-match chronology. The theorem prints the total U_trivial.",
+    "falsifier": "A bridge-produced trivial-stabilizer component outside the classification, a surviving component with no exact slope payment, or a payment that changes owner, slope, or multiplicity.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/statement.md",
+      "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

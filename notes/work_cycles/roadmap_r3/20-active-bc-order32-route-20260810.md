@@ -120,3 +120,28 @@ The excluded identically-zero coordinate branch and that unique large class
 remain open and must retain the owner-pencil chronology. This theorem and its
 independent certificate were added to draft PR `#1156`; the PR is now titled
 **MCA (E): route denominator-root and coordinate-clone exceptions**.
+
+#### Round-31 scope ruling
+
+Canonical round 31 separates two rate-half completion programs that use
+related language but live at different row sizes:
+
+```text
+n=2^41 prime razor rows:     rate_half_band_crossing_location [critical]
+n=2^21 deployed rows:        order-32 partial-relative -> (S)/(A)/(E)
+```
+
+The first line is now the only required child of `rate_half_band_closure`.
+The K3 structural-surplus arm is background evidence because its exact
+certificates are confined to the deployed extension-field row and no proved
+row-transport theorem carries them to the prime razor row. The round-31
+analytic pilots (`rh_e_axis_audit`, `rh_overlap_cap`,
+`rh_transport_dictionary`, and `rh_type2_stratum`) therefore own the current
+critical attack on the crossing-location node.
+
+The second line remains the direct route for Przemek's deployed adjacent MCA
+rows and the scope of draft PR `#1156`. Progress on `(S)`, `(A)`, or `(E)` is
+valuable upstream and may inform the razor analysis, but it is not a logical
+premise of the `n=2^41` critical node without a separately proved transport
+adapter. Conversely, a razor crossing theorem would not by itself discharge
+the finite deployed-row exception ledger.

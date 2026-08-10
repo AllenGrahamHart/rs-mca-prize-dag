@@ -1,0 +1,26 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_k3_allocation_inequality",
+    "title": "KoalaBear m2 r4 K3 exact active-allocation inequality",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "statement": "Conditional on the positive-coordinate payment, corrected geometry/orientation assembly, and certified balanced-core allocation definition, print the exact integers U_positive, U_geometry, U_K3=U_positive+U_geometry, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. The joint unpaid reserve is not a K3-only allocation. No floating-point comparison, owner renormalization, omitted bridge or line multiplicity, or allocation imported from a different row, cell, or partition is allowed.",
+    "falsifier": "The exact total exceeds the allocation, an input integer lacks a pinned proof certificate, a digest or row differs, or the comparison uses a different owner/normalization convention.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/conditional.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/verify.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment"},
+    {"from": "rate_half_kb_m2_r4_k3_orientation_assembly"},
+    {"from": "rate_half_kb_v4_balanced_core_allocation_definition"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

@@ -4815,3 +4815,56 @@ gate status; the e-axis). PROCESS RULE CANDIDATE BANKED: forced
 corrections propagate by claim-grep over ALL carrying texts, not by
 editing the node where the claim was found (how F1/F6/F7 escaped
 round 28).**
+
+## DECISIONS 2026-08-10 (2) — the three round-30 rulings (user-delegated)
+
+1. **F2/F3 RULED: the K3 arm DEMOTED req -> ev.** band_closure is
+   CONDITIONAL (gate all) on crossing_location ALONE;
+   structural_surplus wired evidence_for (order 5137). Grounds: WP5's
+   standing "ev-edge upgrade, not an amber" adjudication +
+   official_row_primes_pinning + the round-30 no-consumer-bar
+   verification. Re-promotion pre-registered (bridge +
+   labels-to-slopes + row transport). STRUCTURAL CONSEQUENCE, the
+   partition law fired as designed: the 7-node K3 subtree
+   (structural_surplus, ledger, allocation, independent_review,
+   orientation_assembly, complete_payment, remaining_route_payment;
+   3 CONDITIONAL / 4 TARGET) moved critical/ -> background/ with
+   self-refs fixed; CENSUS REPINNED with dated provenance: math
+   239 -> 232 = 167/37/28, submission 254 -> 247 = 179/39/29
+   (verify_orbit_census + verify_conditional_propagation both).
+   The K3 PROGRAM CONTINUES UNCHANGED in Codex's lane — only the
+   gate and the folder partition changed. F8 rider: the razor-row
+   surplus falsifier direction is now PARENT-OWNED and
+   pre-registered in band_closure's shard falsifier field.
+2. **F4 RULED: the pose STAYS prime-q; blind widening RULED OUT**
+   (it would assert unaudited instrument transport to extension
+   rows — the exact seam shape the campaign keeps catching). The
+   per-instrument primality-sensitivity audit is COMMISSIONED as a
+   round-31 pilot; widen-vs-separate-child decided on its evidence.
+3. **F9 EXECUTED: the evidence migration ran** — 416 rate_half_kb_*
+   evidence edges retargeted band_closure ->
+   structural_surplus, 2 deduped (already had both), 418 shards
+   touched, verify-gated green. The decomposition plan's dangling
+   directive is discharged.
+
+Full chain green; verifier manifest refreshed (paths moved); orbit
+rebuilt. One crash mid-execution (exit 144 on the first rewire
+attempt) — verified zero partial writes before redoing from a
+script file.
+
+## ROUND 31 LAUNCH — the analytic-endgame round (2026-08-10)
+
+Four Opus pilots on the RH-AC endgame objects + the commissioned
+e-axis audit; briefs in notes/pilots_20260810/{rh_overlap_cap,
+rh_type2_stratum,rh_transport_dictionary,rh_e_axis_audit}/PREREG.md:
+(A) the safe-half overlap-cap inequality attacked WITH the T4
+pencils-only census in hand (extremal structure, subclass proofs,
+scaled gap); (B) residual (ii) — the non-minimum-weight type-2
+stratum's 5.04e22-vs-2^39 gap: crude counting or real wall; (C) the
+(t,M) transport dictionary's first entries (faithful model posed,
+small-t exact measurements, the candidate law vs the C(127,64)
+puzzle); (D) the F4-commissioned per-instrument primality audit
+ending in widen-vs-child. QUARANTINE MARKER: this entry and below
+quarantined for round-31 pilots (the ledger closed to them
+entirely); sibling round-31 dirs mutually quarantined; round-30 and
+earlier readable. Launched on Opus.

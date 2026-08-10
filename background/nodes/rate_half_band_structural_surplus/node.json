@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1847,
+  "node": {
+    "id": "rate_half_band_structural_surplus",
+    "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains",
+    "status": "CONDITIONAL",
+    "key": true,
+    "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear balanced-core distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems, but raw closure is not an active slope payment. The budget-ledger premise must provide the active bad-slope-to-component bridge, the separate trivial-stabilizer branch, all remaining positive/source-line/source-cover payments, exact bridge and line multiplicities, higher-dimensional ray compilers, and a balanced-core allocation after sibling U_Q and U_new charges. Scope remains the n=2^21 extension-field deployed row; no transport to n=2^41 prime razor rows is claimed.",
+    "falsifier": "An active bad slope outside the component bridge; a live component outside the order-two/trivial-stabilizer split; a failed raw-cell replay; an owner or multiplicity error; or a K3 charge above its certified balanced-core allocation.",
+    "gate": "all",
+    "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure and round-30 domain audit. The former labels-to-slopes placeholder is decomposed into an active slope-to-component bridge, positive/source-line/source-cover/trivial-stabilizer payments, corrected orientation composition, certified balanced-core allocation, exact K3 ledger, and independent review. Raw-cell closure is complete; the active bridge and payment leaves remain open.",
+    "refs": [
+      "notes/band_decomposition_plan_20260809.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+      "background/nodes/rate_half_band_structural_surplus/conditional.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_k3_independent_review"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5137
+    }
+  ],
+  "refutes": []
+}

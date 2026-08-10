@@ -64,8 +64,10 @@ GRANDS = {"mca_grand", "list_grand"}
 # The 2026-08-10 K3 exact-payment decomposition replaces the structural-surplus
 # TARGET by four exact TARGET leaves and adds three CONDITIONAL composition
 # nodes, for a net +3 TARGET / +3 CONDITIONAL change.
-EXPECTED_TARGETS = 32
-EXPECTED_CONDITIONALS = 40
+# F2/F3 ruling 2026-08-10: K3 subtree (4 TARGET / 3 CONDITIONAL) left the
+# critical orbit when the arm demoted req -> ev (partition law move).
+EXPECTED_TARGETS = 28
+EXPECTED_CONDITIONALS = 37
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).

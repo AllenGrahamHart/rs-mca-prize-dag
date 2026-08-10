@@ -19,7 +19,7 @@ for dep in deps:
     assert len(matches) == 1
     assert json.loads(matches[0].read_text())["node"]["status"] == "PROVED"
 
-schema = json.loads((ROOT / "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json").read_text())
+schema = json.loads((ROOT / "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json").read_text())
 assert schema["row"]["agreement"] == 1116048
 assert schema["canonical_selector"]["selected_per_active_slope"] == 1
 

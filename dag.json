@@ -7137,9 +7137,9 @@
    "title": "FLOOR CONJECTURE (BAND-DETERMINATION): the rate-1/2 band determination equals the first-moment prediction at every admissible razor row",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "FLOOR RE-POSE v2 (2026-07-07, floor campaign; v1 SIGN ERROR CAUGHT SAME DAY before any attack ran \u2014 v1 said 'every band radius is safe-side', but the primary docs (P6_RATEHALF_SIBLING.md) show the band is the UNDETERMINED stretch between the proved deficit side (quotient windows, reach 2^33) and the proved safe side (above sigma* = 8,592,912,738); the band is not conjectured-safe): CORRECTED FLOOR \u2014 at every admissible rate-1/2 row in the razor slice (log2 q in (255.900, 256), the only rows where the band is nonempty), the band determination equals the first-moment prediction: true counts B(sigma) track the first-moment model through the band (deficit up to the first-moment crossing, safe above), i.e. the WINDOW LAW holds at the band radii \u2014 no structural surplus (which would move the crossing down... up) and no anti-concentration failure (which would move it the other way). All three consumers (adjacency_closing, list_adjacency_closing, mca_safe) need exactly the located determination; the 'new priced mechanism' demand is route (a mechanism is how you CERTIFY the band, not what is true there). Pre-registered falsifier: scaled rate-1/2 band-analogue rows where exact counts at band-analogue radii deviate from the first-moment model beyond Poisson, sustained across >= 3 scales \u2014 EITHER direction fires it; mechanism failures (AQB, dihedral sibling) do NOT count. Opening evidence: window law verified at every band-analogue probed campaign-wide; both dead routes died as mechanisms, never as count anomalies. | Strong full-determination target: cover the rate-1/2 residual band 2^33 < sigma <= sigma* by a genuinely new priced mechanism. AQB and the dihedral/Chebyshev sibling window are both refuted. A bracket-grade obstruction for some band radius would be a creditable partial result, but it does not satisfy this node as consumed by adjacency_closing, list_adjacency_closing, or mca_safe. | SURVIVAL +1 (2026-07-07, F6-A2, notes/f6a2_fullscale_sweep_modal.py): the composite-family attack channel (nested two-scale quotient stacks, full razor sweep, mpmath dps=40) scores ZERO hits \u2014 empty at every razor row. Retained refinement: the band is lq-GRADED (width ~0 at lq=255.900 rising to 2,978,146 at the cap; reach interpolates above 2^33 mid-slice). A preliminary 'band is a fixed-sigma* artifact' hypothesis was raised and KILLED in classification (the swept crossing was the random-word mean, not the worst-word pincer object \u2014 sigma* provenance: generic pincer, pro_brief_razor.md). | SURVIVAL +2 (2026-07-07, crossing-fidelity family): 18/18 exact determination matches vs the first-moment prediction across a 9-point q-ladder at sigma = 1,2, including through the crossing transition \u2014 the BAND-DETERMINATION floor's location claim verified throughout its accessible regime. | SURVIVAL +3 -> **HARDENED** (2026-07-07): word-class anti-concentration absent (min counts Poisson-ordinary across 60 layouts x 3 q x 2 cells). Families: composite-stack sweep / crossing-fidelity / anti-concentration. | SURVIVAL +4 (2026-07-07, Pro floor-window 6): genuine engagement, no kill \u2014 razor arithmetic replayed exactly (incl. an errata catch: our 255.95 band-width log line mixed columns; correct width 1,667,426); the multi-word amortization surface CLOSED as pure averaging (avg > T forces max > T; pooling gain cancels under normalization \u2014 0 bits/fiber net, the AQB pattern); the pincer-at-cap route attempted without result and remains the floor's live open surface. | UPSTREAM DETERMINATION DATUM (2026-07-07, regime map, notes/correspondence/REGIME_MAP.md + nodes/rate_half_band_closure/notes/upstream_determination_datum.md): external crossing-fidelity evidence at n = 2^21 \u2014 upstream's four deployed adjacent pairs (KB MCA/list 1116047/1116046, M31 MCA/list 1116023/1116022) are first-moment crossing predictions (C(n,m) vs p^(m-K-s)*floor(q*eps), s = pencil shift) whose locations AND margins (22.197/22.011/3.259/3.073 bits) we replayed exactly by integer arithmetic. This is the floor's determination-location claim confirmed at a scale five orders beyond our q <= 1153 ladders (by upstream's proof, our replay). | WP5 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP5_RATEHALF_VERDICT.md): does NOT conditionally close on row-sharp Q (side mismatch: the open content is deficit-side witnesses, no upper-bound theorem can cover a true-unsafe band; quantifier mismatch: K3's rows are n=2^21 extension fields vs the n=2^41 prime razor rows, transport NOTE-LEVEL). Own kernel minted: K5 razor-band witness kernel. Replay pinned sigma* = t*-1 = 8,592,912,738 exactly, cap reach 2^33 exact, band width 2,978,146; NEW open item OF THE FLOOR: the intended first-moment model is the worst-word/pincer object whose per-row crossing is not yet formalized (the random-word crossing is contradicted near the cap by the proved unsafe reach). || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/rate_half_band_closure/QUALITY.md || WITNESS-HUNT RECON (2026-07-12, the early WP7 lane \u2014 roadmap addendum r1 amendment 3; scripts + the validated Modal launcher banked at notes/witness_hunt_20260712/): GAP ANATOMY EXACT \u2014 the razor need is 2^127.90..2^128.00, the deduped qcore plateau supplies C(127,64) = 2^123.1714, deficit 4.73..4.83 bits, FLAT across all 2,978,146 band cells (no easier sub-cell); tangent supplies 2^39.99, planted 127 (catch #103: tangent, not planted, is the dominant secondary column \u2014 2^-88 of the need). THEOREM CAP: within the coset/dressing/perturbation universe the char-0 supply is capped at the plateau (Lam-Leung + NESTING \u2014 catch #102: order-2M cosets ARE pairs of order-M cosets, so multi-scale families dedup to C(127,64) ALONE; any sum-over-scales double-counts; verified in vivo, fiber = 3 = deduped not 4). NEW SUPPLY LAW (banked finding): for polynomial received words the complete list bijects with a truncated-locator moment-map fiber, and the generic-core law fiber = C(N-r, h) + Poisson background (r = cosets touched) holds EXACTLY in vivo \u2014 the banked one-coset core is optimal over the whole mechanism class. SEVEN candidate mechanisms triaged falsification-first: C1/C3/C4 re-params or dominated (exact bijections shown), C2 priced at O(1) vs 2^127.6 needed (divisor-quantized, satellite-29 phenomenology), C5/C6 vacuous at prime q, C7 = the killed dihedral route (NOT reopened; the fold arithmetic independently confirms the Pro T8 kill). WINDOW-LAW READ: first-moment + Poisson reproduced every count at 3 scales / ~200 primes / q to 2^40 including fine structure \u2014 the pre-registered falsifier's no-deviation direction. HONEST OPEN FLANK: non-polynomial received words (planted-hybrid at giant slack) are outside the fiber reduction and uncensused \u2014 the named residual hunt space. Sporadic escape hatch priced at ~2^-5.2 per razor row. || AMPLIFICATION FENCE (2026-07-12 wave-3; scope per catch #105): rate_half_multiplicative_amplification_floor PROVED \u2014 any multiplicative amplification route needs a factor ~2^91.85 at the slice top against the CAP PROXY (2^216 MCA-side trigger). SCOPE FACTS: the figure is q-GRADED (2^19.9 at lgq = 255.901, 2^2.6 at the slice bottom \u2014 exact computations banked) and it fences the NON-BINDING cap-proxy lane, not the binding eps* = 2^-128 list-side target (banked gap x28.4, kill line R1c) where the protection remains the mechanism kills. Dedup-safe (max over scales, catch #102); does not cut the pro-brief box-charge route; reopens nothing. || FIXED-CROSSING REFUTATION + RE-POSE (RH-ADJ) (wave-9 audited, 2026-07-17): the fixed rate-half crossing at sigma* is REFUTED (the cyclic count is s-independent; sigma_0 = 8,594,128,895 > sigma*+1 is also list-unsafe via the exact simple-pole conversion E(q,L) = L(q-n)/(q(q-n+kL)) > 2^-83). RE-POSED: find field-dependent a_RH(q) >= k + 8,594,128,896 with B_mca(a_RH) <= floor(q/2^128) < B_mca(a_RH - 1); safe side exactly = {B_ca^far <= B*, S_sparse <= B*} (proved lossless split; tangent absorbed for q >= 2^168). The LIST safe side is likewise OPEN (w9-C2 correction: the wave-8 'crossing DETERMINED' claim is withdrawn; unsafety proved through sigma_0). Full pose bodies + refutation.md in the node folder. [HISTORY: previous poses preserved in statement.md] || CROSSING DETERMINED BELOW 2^167 (wave-10 audited, 2026-07-18): for every admissible 2^128 < q < 2^167, a_RH(q) = n - floor(q/2^128) + 1, unconditional (quadratic staircase + (RQ4) + the Hankel far-CA layer + the universal coordinate-tangent unsafe witness). EXACT residual: budgets {2^39, 2^39+1}; beyond 2^167 brackets a_RH in [k+2^34, 3n/4 or n] (the k+2^34 optimized floor supersedes sigma_0 forward-facing). LIST side: safe side OWNED (rate_half_list_adjacent_crossing TARGET), crossing determined for budgets {1,2}, unsafe reach 2^34-1. Full reconciled narrative in statement.md. || DECOMPOSED (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md; executed at the round-27 bank): this node is now CONDITIONAL (gate all) on its two children \u2014 rate_half_band_structural_surplus (the K3/workboard arm: the enumerated supply cap, closing via the positive-433 board + the labels-to-slopes conversion + independent review) and rate_half_band_crossing_location (RH-AC: locate a_RH within the PROVED bracket [k+2^34, 3n/4]; the open content is the FAR-CA crossing on [k+2^34, 3n/4) (round-28 P0 correction, propagated to this shard round 30 \u2014 S_sparse is dominated there; the earlier 'S_sparse is the binding term' reading is FALSE); falsifiers F1/F2 + the F3 zero-power declaration). The retired FLOOR v2 two-directional falsifier splits per child (surplus direction -> child 1, re-scoped; the location content -> child 2's F1/F2). The consumers are unchanged (this node remains the conjunction point: adjacency_closing needs both halves located-adjacent; mca_safe consumes the safe half at the located index (the HD1 premise-weakening follow-up was RETIRED AS UNSOUND at the round-28 bank; propagated to this shard round 30)). All prior poses and the round-27 corrections are preserved above and in statement.md. || ROW-SIZE SCOPE (k_extremal 2026-08-10): this node is posed AT n=2^41, k=2^40 ONLY. The phrase 'every admissible rate-1/2 row' in this statement is hereby read as 'every admissible rate-1/2 row AT n=2^41, k=2^40' \u2014 the live quantifier is over q, not the row size. The band-interval arithmetic (sigma* etc.) is an n=2^41 computation carrying NO information at s<41. Rate-1/2 rows with s<41 are OUTSIDE this node (the k_extremal HOLE; owner = the reduction poses in notes/pilots_20260810/k_extremal/DRAFT_SCOPE_FLAGS.md). FLAGGED, not resolved.",
+   "statement": "FLOOR RE-POSE v2 (2026-07-07, floor campaign; v1 SIGN ERROR CAUGHT SAME DAY before any attack ran \u2014 v1 said 'every band radius is safe-side', but the primary docs (P6_RATEHALF_SIBLING.md) show the band is the UNDETERMINED stretch between the proved deficit side (quotient windows, reach 2^33) and the proved safe side (above sigma* = 8,592,912,738); the band is not conjectured-safe): CORRECTED FLOOR \u2014 at every admissible rate-1/2 row in the razor slice (log2 q in (255.900, 256), the only rows where the band is nonempty), the band determination equals the first-moment prediction: true counts B(sigma) track the first-moment model through the band (deficit up to the first-moment crossing, safe above), i.e. the WINDOW LAW holds at the band radii \u2014 no structural surplus (which would move the crossing down... up) and no anti-concentration failure (which would move it the other way). All three consumers (adjacency_closing, list_adjacency_closing, mca_safe) need exactly the located determination; the 'new priced mechanism' demand is route (a mechanism is how you CERTIFY the band, not what is true there). Pre-registered falsifier: scaled rate-1/2 band-analogue rows where exact counts at band-analogue radii deviate from the first-moment model beyond Poisson, sustained across >= 3 scales \u2014 EITHER direction fires it; mechanism failures (AQB, dihedral sibling) do NOT count. Opening evidence: window law verified at every band-analogue probed campaign-wide; both dead routes died as mechanisms, never as count anomalies. | Strong full-determination target: cover the rate-1/2 residual band 2^33 < sigma <= sigma* by a genuinely new priced mechanism. AQB and the dihedral/Chebyshev sibling window are both refuted. A bracket-grade obstruction for some band radius would be a creditable partial result, but it does not satisfy this node as consumed by adjacency_closing, list_adjacency_closing, or mca_safe. | SURVIVAL +1 (2026-07-07, F6-A2, notes/f6a2_fullscale_sweep_modal.py): the composite-family attack channel (nested two-scale quotient stacks, full razor sweep, mpmath dps=40) scores ZERO hits \u2014 empty at every razor row. Retained refinement: the band is lq-GRADED (width ~0 at lq=255.900 rising to 2,978,146 at the cap; reach interpolates above 2^33 mid-slice). A preliminary 'band is a fixed-sigma* artifact' hypothesis was raised and KILLED in classification (the swept crossing was the random-word mean, not the worst-word pincer object \u2014 sigma* provenance: generic pincer, pro_brief_razor.md). | SURVIVAL +2 (2026-07-07, crossing-fidelity family): 18/18 exact determination matches vs the first-moment prediction across a 9-point q-ladder at sigma = 1,2, including through the crossing transition \u2014 the BAND-DETERMINATION floor's location claim verified throughout its accessible regime. | SURVIVAL +3 -> **HARDENED** (2026-07-07): word-class anti-concentration absent (min counts Poisson-ordinary across 60 layouts x 3 q x 2 cells). Families: composite-stack sweep / crossing-fidelity / anti-concentration. | SURVIVAL +4 (2026-07-07, Pro floor-window 6): genuine engagement, no kill \u2014 razor arithmetic replayed exactly (incl. an errata catch: our 255.95 band-width log line mixed columns; correct width 1,667,426); the multi-word amortization surface CLOSED as pure averaging (avg > T forces max > T; pooling gain cancels under normalization \u2014 0 bits/fiber net, the AQB pattern); the pincer-at-cap route attempted without result and remains the floor's live open surface. | UPSTREAM DETERMINATION DATUM (2026-07-07, regime map, notes/correspondence/REGIME_MAP.md + nodes/rate_half_band_closure/notes/upstream_determination_datum.md): external crossing-fidelity evidence at n = 2^21 \u2014 upstream's four deployed adjacent pairs (KB MCA/list 1116047/1116046, M31 MCA/list 1116023/1116022) are first-moment crossing predictions (C(n,m) vs p^(m-K-s)*floor(q*eps), s = pencil shift) whose locations AND margins (22.197/22.011/3.259/3.073 bits) we replayed exactly by integer arithmetic. This is the floor's determination-location claim confirmed at a scale five orders beyond our q <= 1153 ladders (by upstream's proof, our replay). | WP5 KERNEL-BASIS VERDICT (2026-07-10, notes/kernel_basis/WP5_RATEHALF_VERDICT.md): does NOT conditionally close on row-sharp Q (side mismatch: the open content is deficit-side witnesses, no upper-bound theorem can cover a true-unsafe band; quantifier mismatch: K3's rows are n=2^21 extension fields vs the n=2^41 prime razor rows, transport NOTE-LEVEL). Own kernel minted: K5 razor-band witness kernel. Replay pinned sigma* = t*-1 = 8,592,912,738 exactly, cap reach 2^33 exact, band width 2,978,146; NEW open item OF THE FLOOR: the intended first-moment model is the worst-word/pincer object whose per-row crossing is not yet formalized (the random-word crossing is contradicted near the cap by the proved unsafe reach). || QUALITY CERT (2026-07-10, red-quality program): critical/nodes/rate_half_band_closure/QUALITY.md || WITNESS-HUNT RECON (2026-07-12, the early WP7 lane \u2014 roadmap addendum r1 amendment 3; scripts + the validated Modal launcher banked at notes/witness_hunt_20260712/): GAP ANATOMY EXACT \u2014 the razor need is 2^127.90..2^128.00, the deduped qcore plateau supplies C(127,64) = 2^123.1714, deficit 4.73..4.83 bits, FLAT across all 2,978,146 band cells (no easier sub-cell); tangent supplies 2^39.99, planted 127 (catch #103: tangent, not planted, is the dominant secondary column \u2014 2^-88 of the need). THEOREM CAP: within the coset/dressing/perturbation universe the char-0 supply is capped at the plateau (Lam-Leung + NESTING \u2014 catch #102: order-2M cosets ARE pairs of order-M cosets, so multi-scale families dedup to C(127,64) ALONE; any sum-over-scales double-counts; verified in vivo, fiber = 3 = deduped not 4). NEW SUPPLY LAW (banked finding): for polynomial received words the complete list bijects with a truncated-locator moment-map fiber, and the generic-core law fiber = C(N-r, h) + Poisson background (r = cosets touched) holds EXACTLY in vivo \u2014 the banked one-coset core is optimal over the whole mechanism class. SEVEN candidate mechanisms triaged falsification-first: C1/C3/C4 re-params or dominated (exact bijections shown), C2 priced at O(1) vs 2^127.6 needed (divisor-quantized, satellite-29 phenomenology), C5/C6 vacuous at prime q, C7 = the killed dihedral route (NOT reopened; the fold arithmetic independently confirms the Pro T8 kill). WINDOW-LAW READ: first-moment + Poisson reproduced every count at 3 scales / ~200 primes / q to 2^40 including fine structure \u2014 the pre-registered falsifier's no-deviation direction. HONEST OPEN FLANK: non-polynomial received words (planted-hybrid at giant slack) are outside the fiber reduction and uncensused \u2014 the named residual hunt space. Sporadic escape hatch priced at ~2^-5.2 per razor row. || AMPLIFICATION FENCE (2026-07-12 wave-3; scope per catch #105): rate_half_multiplicative_amplification_floor PROVED \u2014 any multiplicative amplification route needs a factor ~2^91.85 at the slice top against the CAP PROXY (2^216 MCA-side trigger). SCOPE FACTS: the figure is q-GRADED (2^19.9 at lgq = 255.901, 2^2.6 at the slice bottom \u2014 exact computations banked) and it fences the NON-BINDING cap-proxy lane, not the binding eps* = 2^-128 list-side target (banked gap x28.4, kill line R1c) where the protection remains the mechanism kills. Dedup-safe (max over scales, catch #102); does not cut the pro-brief box-charge route; reopens nothing. || FIXED-CROSSING REFUTATION + RE-POSE (RH-ADJ) (wave-9 audited, 2026-07-17): the fixed rate-half crossing at sigma* is REFUTED (the cyclic count is s-independent; sigma_0 = 8,594,128,895 > sigma*+1 is also list-unsafe via the exact simple-pole conversion E(q,L) = L(q-n)/(q(q-n+kL)) > 2^-83). RE-POSED: find field-dependent a_RH(q) >= k + 8,594,128,896 with B_mca(a_RH) <= floor(q/2^128) < B_mca(a_RH - 1); safe side exactly = {B_ca^far <= B*, S_sparse <= B*} (proved lossless split; tangent absorbed for q >= 2^168). The LIST safe side is likewise OPEN (w9-C2 correction: the wave-8 'crossing DETERMINED' claim is withdrawn; unsafety proved through sigma_0). Full pose bodies + refutation.md in the node folder. [HISTORY: previous poses preserved in statement.md] || CROSSING DETERMINED BELOW 2^167 (wave-10 audited, 2026-07-18): for every admissible 2^128 < q < 2^167, a_RH(q) = n - floor(q/2^128) + 1, unconditional (quadratic staircase + (RQ4) + the Hankel far-CA layer + the universal coordinate-tangent unsafe witness). EXACT residual: budgets {2^39, 2^39+1}; beyond 2^167 brackets a_RH in [k+2^34, 3n/4 or n] (the k+2^34 optimized floor supersedes sigma_0 forward-facing). LIST side: safe side OWNED (rate_half_list_adjacent_crossing TARGET), crossing determined for budgets {1,2}, unsafe reach 2^34-1. Full reconciled narrative in statement.md. || DECOMPOSED (2026-08-09, user-directed; plan notes/band_decomposition_plan_20260809.md; executed at the round-27 bank): this node is CONDITIONAL (gate all) on the single premise rate_half_band_crossing_location [RESTRUCTURED 2026-08-10, user-delegated F2/F3 ruling: the K3 arm rate_half_band_structural_surplus was DEMOTED req -> ev per the standing WP5 adjudication ('an ev-edge upgrade, not an amber') \u2014 it is an exhibit-scoped n=2^21 certificate serving no consumer bar; re-promotion pre-registered on a proved bridge + labels-to-slopes conversion + row transport]. Original decomposition text: two children \u2014 \u2014 rate_half_band_structural_surplus (the K3/workboard arm: the enumerated supply cap, closing via the positive-433 board + the labels-to-slopes conversion + independent review) and rate_half_band_crossing_location (RH-AC: locate a_RH within the PROVED bracket [k+2^34, 3n/4]; the open content is the FAR-CA crossing on [k+2^34, 3n/4) (round-28 P0 correction, propagated to this shard round 30 \u2014 S_sparse is dominated there; the earlier 'S_sparse is the binding term' reading is FALSE); falsifiers F1/F2 + the F3 zero-power declaration). The retired FLOOR v2 two-directional falsifier splits per child (surplus direction -> child 1, re-scoped; the location content -> child 2's F1/F2). The consumers are unchanged (this node remains the conjunction point: adjacency_closing needs both halves located-adjacent; mca_safe consumes the safe half at the located index (the HD1 premise-weakening follow-up was RETIRED AS UNSOUND at the round-28 bank; propagated to this shard round 30)). All prior poses and the round-27 corrections are preserved above and in statement.md. || ROW-SIZE SCOPE (k_extremal 2026-08-10): this node is posed AT n=2^41, k=2^40 ONLY. The phrase 'every admissible rate-1/2 row' in this statement is hereby read as 'every admissible rate-1/2 row AT n=2^41, k=2^40' \u2014 the live quantifier is over q, not the row size. The band-interval arithmetic (sigma* etc.) is an n=2^41 computation carrying NO information at s<41. Rate-1/2 rows with s<41 are OUTSIDE this node (the k_extremal HOLE; owner = the reduction poses in notes/pilots_20260810/k_extremal/DRAFT_SCOPE_FLAGS.md). FLAGGED, not resolved.",
    "attack_surface": "ROUTE 1 (extended quotient scales) CLOSED by arithmetic \u2014 see notes/floor_depth.md: the floor family caps at n/256 = 2^33 exactly; the band is its shadow. Remaining: (2) averaged conversion at giant M; (3) B2b-style balance; (4) safe-side push through sigma*; (5) QUEUED: the q-threshold refinement \u2014 the band may exist only for log2 q > ~255.91.",
-   "falsifier": "SPLIT PER CHILD after the 2026-08-09 decomposition (round-30 F8 shard sync): the structural-surplus direction lives in rate_half_band_structural_surplus, re-scoped to the active deployed KoalaBear row; the location content lives in rate_half_band_crossing_location (F1 quotient-floor push / F2 N(y,k+2^34;q) > B* at the crossing index / F3 zero-power declaration). FLAG (round-30 F8, unresolved): no falsifier currently covers a structural surplus at razor rows away from a = k+2^34 \u2014 that direction is unowned pending a razor-row surplus re-pose. [Historical FLOOR v2 falsifier text \u2014 fired and retired at the round-27 bank \u2014 preserved in statement.md.]",
+   "falsifier": "SPLIT PER CHILD after the 2026-08-09 decomposition (round-30 F8 shard sync): the structural-surplus direction lives in rate_half_band_structural_surplus, re-scoped to the active deployed KoalaBear row; the location content lives in rate_half_band_crossing_location (F1 quotient-floor push / F2 N(y,k+2^34;q) > B* at the crossing index / F3 zero-power declaration). PARENT-OWNED DIRECTION (F8 resolved by the 2026-08-10 F2/F3 ruling): with the K3 arm demoted to evidence, the razor-row structural-surplus direction belongs to THIS node \u2014 pre-registered: exhibit, at any admissible prime-q row in 2^167 < q < 2^256, a structural-supply object producing B_mca(a) > B* at an index a strictly above the located crossing a_RH(q) (fires safe: it would move the crossing, not break the frame). [Historical FLOOR v2 falsifier text \u2014 fired and retired at the round-27 bank \u2014 preserved in statement.md.]",
    "refs": [
     "background/nodes/mca_full_agreement_endpoint/proof.md",
     "background/nodes/mca_full_agreement_endpoint/statement.md",
@@ -28990,8 +28990,8 @@
     "notes/band_decomposition_plan_20260809.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
-    "critical/nodes/rate_half_band_structural_surplus/conditional.md"
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+    "background/nodes/rate_half_band_structural_surplus/conditional.md"
    ]
   },
   {
@@ -29998,11 +29998,11 @@
    "statement": "Conditional on a concrete source-bound compiler for the active balanced-core certificate and a same-record realization of each compiled witness as an actual Q=6,s=6,u=2 endpoint component, every slope in the deployed KoalaBear Z_BC cell is assigned on the same received line, with its support and affine slope unchanged, to exactly one live component type (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and carries an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
    "falsifier": "An active Z_BC slope with no actual component record, a component outside the two live types, two owners assigned to one slope, loss of support or affine-slope identity, or an unbounded/unprinted record multiplicity.",
    "refs": [
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/conditional.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/conditional.md",
+    "background/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
     "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
     "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md"
    ]
@@ -30015,17 +30015,17 @@
    "statement": "For every admissible received line in the deployed KoalaBear MCA row, the named active-v4 bcCertified predicate is instantiated by existence of an explicit finite shifted-lattice balanced-core certificate. The certificate records the original line and affine slope, active MCA lattice and canonical reduced basis, a degree-981104 split locator/support witness, explaining data, balanced depth w=67471, earlier-owner exclusions, and chronology. The first-match cell Z_BC is exactly the slope projection of valid certificates after tangent and Q. Lexicographic minimization selects exactly one certificate per Z_BC slope, so the selected-certificate-to-slope map is bijective and every selector fiber is one. No endpoint component, K3 payment, or row close is claimed.",
    "falsifier": "A Z_BC slope with no valid source certificate, a valid certificate projecting outside Z_BC, nondeterministic or non-finite selector fibers, or loss of received-line, slope, support, locator, depth, or chronology data.",
    "refs": [
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/statement.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/proof.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/claim_contract.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/source_evidence.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/audit.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/result.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/frontier.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify.py",
-    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify_audit.py"
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/statement.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/proof.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/claim_contract.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/source_evidence.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/audit.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/result.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/frontier.md",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify.py",
+    "background/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify_audit.py"
    ]
   },
   {
@@ -30073,8 +30073,8 @@
    "statement": "For every canonical source certificate emitted by rate_half_kb_active_balanced_core_witness_compiler, prove the equality-wall Q=6,s=6,u=2 hypotheses and construct on the same received line an actual endpoint record and residual component. Preserve the certificate's affine slope, selected support, explaining data, and first-match owner; keep the endpoint parameter line distinct from the evaluation carrier; and print an injection or exact finite multiplicity for every certificate-to-record and record-to-component fiber.",
    "falsifier": "A valid active balanced-core source certificate that does not satisfy the Q6,s6,u2 endpoint hypotheses, has no actual residual component, changes owner/support/slope, conflates parameter and carrier coordinates, or has an uncontrolled realization fiber.",
    "refs": [
-    "critical/nodes/rate_half_kb_active_bc_q6_endpoint_realization/statement.md",
-    "critical/nodes/rate_half_kb_active_bc_q6_endpoint_realization/attack.md"
+    "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/statement.md",
+    "background/nodes/rate_half_kb_active_bc_q6_endpoint_realization/attack.md"
    ]
   },
   {
@@ -33836,10 +33836,10 @@
    "gate": "all",
    "statement": "Conditional on the active balanced-core bad-slope-to-component bridge and the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement with exact bridge multiplicity. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/verify.py"
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/verify.py"
    ]
   },
   {
@@ -33849,9 +33849,9 @@
    "statement": "Within the active image supplied by the balanced-core component bridge, every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact bridge multiplicity, and add-back chronology.",
    "falsifier": "A guarded packet on any of the eleven routes, or a slope payment that loses owner identity, multiplicity, or first-match chronology.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/attack.md",
-    "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/dependency_subdag.md"
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/dependency_subdag.md"
    ]
   },
   {
@@ -34932,8 +34932,8 @@
    "statement": "For every active bridge-produced diagonal component whose diagonal action does not preserve the quadratic source intermediate field, compile the genus-zero and genus-one biquadratic V4 source-cover passports against every live source-mixing row. Every resulting terminal is empty, transported bijectively to an already paid active image, or assigned an exact distinct-affine-slope payment with bridge multiplicity and chronology. The theorem prints U_source_cover.",
    "falsifier": "A live source-cover passport or mixing row outside the compiler, a non-bijective transport, an unpaid survivor, or an incorrect owner/slope multiplicity.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/attack.md"
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/attack.md"
    ]
   },
   {
@@ -34943,8 +34943,8 @@
    "statement": "In the active bridge image of the diagonal source-line branch, the proved c2(2,0,2) exclusion and saturated c2(1,1,2) source-line exclusion contribute zero. Every remaining source-line packet in rows (1,0,4), (0,1,4), the near-aligned part of (0,0,6), and the exceptional unsaturated (1,1,2) orbit is empty or has a printed exact distinct-affine-slope payment with bridge multiplicity and active chronology. The theorem outputs U_source_line.",
    "falsifier": "A source-line packet outside the five-row mixing census, a claimed-zero packet that survives, an omitted exceptional orbit, or an owner/multiplicity error in a nonzero payment.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/attack.md"
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/attack.md"
    ]
   },
   {
@@ -34955,11 +34955,11 @@
    "statement": "Conditional on the positive-coordinate payment, corrected geometry/orientation assembly, and certified balanced-core allocation definition, print the exact integers U_positive, U_geometry, U_K3=U_positive+U_geometry, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. The joint unpaid reserve is not a K3-only allocation. No floating-point comparison, owner renormalization, omitted bridge or line multiplicity, or allocation imported from a different row, cell, or partition is allowed.",
    "falsifier": "The exact total exceeds the allocation, an input integer lacks a pinned proof certificate, a digest or row differs, or the comparison uses a different owner/normalization convention.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/conditional.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/verify.py"
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/conditional.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/verify.py"
    ]
   },
   {
@@ -34970,11 +34970,11 @@
    "statement": "Conditional on the complete positive-coordinate payment, corrected active component/orientation assembly, and exact active-allocation inequality, the balanced-core K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_geometry within its active allocation. Here U_geometry includes the remaining source-line, biquadratic source-cover, and trivial-stabilizer payments; the proved saturated c2(1,1,2), c2(2,0,2), and negative-coordinate exclusions contribute zero. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line and bridge multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, dropped balanced-core qualifier, owner change, or separately normalized budget is allowed.",
    "falsifier": "A missing or overlapping slope owner, incorrect route integer, non-genuine pencil payment, uncounted line, unpaid higher-dimensional survivor, or U_K3 above the active allocation.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/conditional.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/attack.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/verify.py"
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/conditional.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/verify.py"
    ]
   },
   {
@@ -34984,8 +34984,8 @@
    "statement": "A fresh independent reviewer outside the producing implementations has replayed and audited the complete load-bearing K3 sub-DAG at pinned commits: the active bad-slope-to-component bridge; full-V4 and negative-coordinate exclusions; positive raw workboards and all remaining route payments; complete source-line, source-cover, and trivial-stabilizer payments; orientation composition; allocation definition; and distinct-slope ledger. The reviewer confirms the active row/partition contract, exact multiplicities, and same-owner chronology and records no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by a producing implementation is insufficient.",
    "falsifier": "A failed replay, digest mismatch, missing dependency, owner/row mismatch, unreviewed load-bearing argument, or unresolved reviewer objection.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/review_protocol.md"
+    "background/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_independent_review/review_protocol.md"
    ]
   },
   {
@@ -34996,11 +34996,11 @@
    "statement": "Conditional on the active balanced-core bad-slope-to-component bridge, the proved order-two component trichotomy, complete positive-coordinate payment, complete negative-coordinate exclusion, complete remaining source-line and biquadratic source-cover payments, and complete trivial-stabilizer payment, every active KoalaBear Z_BC slope is owned exactly once. The order-two image splits into coordinate, source-line, and source-cover branches; the separate (m,r,delta)=(2,8,1) image is paid by U_trivial. The theorem outputs U_geometry=U_source_line+U_source_cover+U_trivial and preserves received line, witness support, affine slope, exact bridge multiplicity, and first-match chronology.",
    "falsifier": "An active balanced-core slope outside the bridge image, a component outside the order-two or trivial-stabilizer types, an omitted source-line row or source-cover passport, overlap between owners, or loss of received-line/support/slope identity or bridge multiplicity.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/conditional.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/verify.py"
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/conditional.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/verify.py"
    ]
   },
   {
@@ -35029,8 +35029,8 @@
    "statement": "In the active image of the balanced-core component bridge, every actual residual component of type (m,r,delta)=(2,8,1), equivalently trivial V4 stabilizer, is either excluded or assigned an exact distinct-affine-slope payment with the bridge multiplicity, same received-line owner, and first-match chronology. The theorem prints the total U_trivial.",
    "falsifier": "A bridge-produced trivial-stabilizer component outside the classification, a surviving component with no exact slope payment, or a payment that changes owner, slope, or multiplicity.",
    "refs": [
-    "critical/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/statement.md",
-    "critical/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/attack.md"
+    "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/statement.md",
+    "background/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/attack.md"
    ]
   },
   {
@@ -35040,8 +35040,8 @@
    "statement": "Under the frozen KoalaBear Grande Finale v4 first-match partition, prove exact bounds U_Q and U_new for the two sibling unpaid cells, or an equivalent certified three-way allocation, and define the balanced-core allowance U_K3_allocation by exact integer subtraction from B*=274980728111395087 after U_paid=981104. The joint reserve 274980728110413983 is not by itself a K3 allocation. The certificate binds row, partition digest, owner order, and all sibling atom proofs.",
    "falsifier": "Using the joint reserve as a K3-only budget without paying U_Q and U_new, a negative or mismatched allocation, or any drift in row, partition, owner, or integer unit.",
    "refs": [
-    "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
-    "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
+    "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
+    "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
    ]
   },
   {
@@ -50681,7 +50681,7 @@
   },
   {
    "from": "rate_half_kb_v4_tangent_source_atom",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50691,12 +50691,12 @@
   },
   {
    "from": "rate_half_kb_q6_u2_complete_source_conic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_q6_u2_primitive_subdegree4_route_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50711,12 +50711,12 @@
   },
   {
    "from": "rate_half_kb_degree60_decomposition_divisor_adapter",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_degree5_decomposition_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50731,7 +50731,7 @@
   },
   {
    "from": "rate_half_kb_decomposition_source_pencil_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50741,7 +50741,7 @@
   },
   {
    "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50751,7 +50751,7 @@
   },
   {
    "from": "rate_half_kb_m12_outer_subdegree_route_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50761,7 +50761,7 @@
   },
   {
    "from": "rate_half_kb_m12_diagonal_socle_route_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50776,7 +50776,7 @@
   },
   {
    "from": "rate_half_kb_m12_secondary_degree5_decomposition_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50786,7 +50786,7 @@
   },
   {
    "from": "rate_half_kb_m10_scott_strip_lower_degree_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50801,7 +50801,7 @@
   },
   {
    "from": "rate_half_kb_m6_scott_cartesian_degree2_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50816,7 +50816,7 @@
   },
   {
    "from": "rate_half_kb_m4_outer_a6s6_route_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50826,7 +50826,7 @@
   },
   {
    "from": "rate_half_kb_m4_a6s6_genus_zero_passport_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50836,7 +50836,7 @@
   },
   {
    "from": "rate_half_kb_m4_s6_652_pair_quotient_normal_form",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50846,7 +50846,7 @@
   },
   {
    "from": "rate_half_kb_m4_s6_562_pair_quotient_normal_form",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50856,7 +50856,7 @@
   },
   {
    "from": "rate_half_kb_m4_a6_542_pair_quotient_normal_form",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50876,7 +50876,7 @@
   },
   {
    "from": "rate_half_kb_m4_adjacency_genus_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50906,7 +50906,7 @@
   },
   {
    "from": "rate_half_kb_m3_primitive_outer_degree2_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50951,7 +50951,7 @@
   },
   {
    "from": "rate_half_kb_m2_v4_outer_recurrence_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50966,7 +50966,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -50981,7 +50981,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_fiber_resultant_interpolation_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51001,12 +51001,12 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_facet_mixing_obstruction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51016,7 +51016,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_branch_coefficient_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51031,7 +51031,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_source_row_interpolation_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51046,7 +51046,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_coefficient_normal_form",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51086,7 +51086,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_colored_quotient_resultant_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51096,7 +51096,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_k_fiber_vieta_rank_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51116,7 +51116,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_vieta_profile_only_f29_route_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51136,7 +51136,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51146,7 +51146,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_paired_product_involution_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51156,7 +51156,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_budget_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51171,7 +51171,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_loop_stratified_q_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51186,7 +51186,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_product_q_weld",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51201,7 +51201,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_product_q_weld",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51216,7 +51216,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_mixed_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51231,7 +51231,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_doubled_singleton_opposite_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51246,7 +51246,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_aligned_doubled_pair_finite_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51266,7 +51266,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51286,7 +51286,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_product_skeleton_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51301,7 +51301,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_finite_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51321,7 +51321,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_bc_singleton_product_skeleton_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51341,7 +51341,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_vieta_exclusion_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51351,7 +51351,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_zero_loop_433_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51386,7 +51386,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51401,7 +51401,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_loop_ramification_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51416,7 +51416,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51431,7 +51431,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_kernel_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51446,7 +51446,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_common_placement_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51466,7 +51466,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_signed_outside_vieta_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51481,7 +51481,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_outside_edge_eliminant_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51501,7 +51501,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_three_loop_neighbor_norm_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51526,7 +51526,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_ramified_loop_multiplicity_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51546,7 +51546,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51561,7 +51561,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_signed_edge_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51581,7 +51581,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_minor_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51591,7 +51591,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_vieta_pivot_chart_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51601,7 +51601,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_three_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51616,7 +51616,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_five_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51631,7 +51631,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_product_base_rank_global_certificate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51651,7 +51651,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_kernel_uniqueness",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51666,7 +51666,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_quadratic_paired_product_resultant_interface",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51676,7 +51676,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_edge_eliminant_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51686,7 +51686,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_triangle_target_elimination_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51696,7 +51696,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_outside_case_symmetry_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51706,7 +51706,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_universal_target_elimination_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51721,7 +51721,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_chart_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51731,7 +51731,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_ratio_exceptional_branch_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51746,7 +51746,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_family_target_free_interface",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51756,7 +51756,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_reciprocal_trace_quadratic",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51766,7 +51766,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_fp_rational_lift_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51786,7 +51786,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_stable_rank",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51796,7 +51796,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_generic_reducedness",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51806,7 +51806,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_residue_ledger",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51816,7 +51816,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_guard_primitive_coordinate_map",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51826,7 +51826,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_guard_unit_ledger",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51866,7 +51866,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_signed_pair_generic_colored_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51886,7 +51886,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_exceptional_fiber_router_census",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51906,7 +51906,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_finite_candidate_first_batch_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51931,7 +51931,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_dynamic_map_pole_fiber_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -51981,7 +51981,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell5_complete_sign_row_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52001,7 +52001,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_epsilon2_minus_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52021,7 +52021,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell58_complete_root_sign_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52046,7 +52046,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_common_root_sign_symmetry_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52061,7 +52061,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell1_2_common_root_sign_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52081,7 +52081,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_remaining_common_curve_profile",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52096,7 +52096,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_common_lex_rational_witness",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52121,7 +52121,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell0_generic_signed_pair_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52141,7 +52141,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_genus3_plane_kernel_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52161,7 +52161,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_exceptional_scale_chart_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52181,7 +52181,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_genus1_plane_kernel_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52196,7 +52196,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_scale_chart_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52216,7 +52216,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_signed_pair_projection_reconstruction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52231,7 +52231,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_coefficient_projection_decomposition",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52256,7 +52256,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_exceptional_reconstruction_colored_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52281,7 +52281,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell4_main_projection_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52306,7 +52306,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell3_signed_pair_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52336,7 +52336,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell14_signed_pair_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52366,7 +52366,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell12_signed_pair_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52396,7 +52396,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell11_signed_pair_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52426,7 +52426,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_cell9_signed_pair_guard_factorization_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52486,7 +52486,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1a_o0b_complete_route_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52501,7 +52501,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52521,7 +52521,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52531,7 +52531,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_common_exception_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52541,7 +52541,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52566,7 +52566,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52621,7 +52621,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52656,7 +52656,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52671,7 +52671,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_aligned_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52686,7 +52686,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_loop_singleton_crossed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52706,7 +52706,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52721,7 +52721,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_ab_ac_finite_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52736,7 +52736,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_bc_mixed_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52751,7 +52751,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_mixed_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52766,7 +52766,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_433_nonloop_singleton_opposite_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52781,7 +52781,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_pair_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52796,7 +52796,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_crossed_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52816,7 +52816,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52836,7 +52836,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_outside_product_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52856,7 +52856,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_aligned_loop_q_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52891,7 +52891,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52906,7 +52906,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_opposite_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52921,7 +52921,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_finite_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52941,7 +52941,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_product_involution_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52956,7 +52956,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s2_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52976,7 +52976,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s0_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -52996,7 +52996,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_ab_s1_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53011,7 +53011,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_mixed_pair_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53026,7 +53026,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_cubic_root_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53036,7 +53036,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_degree12_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53056,7 +53056,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_explicit_involution_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53071,7 +53071,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_quotient_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53086,7 +53086,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_nonloop_singleton_sextic_mate_coordinate_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53096,7 +53096,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_sign_orbit_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53111,7 +53111,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_template_orbit_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53131,7 +53131,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_invariance_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53146,7 +53146,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_eigenvalue_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53166,7 +53166,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_outside_binary_sextic_uniform_row_selector",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53191,7 +53191,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_f41_product_witness",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53216,7 +53216,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53231,7 +53231,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_de_opposite_parity_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53246,7 +53246,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_colored_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53261,7 +53261,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_plus_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53276,7 +53276,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_ef_tau_minus_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53291,7 +53291,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_forced_loop_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53311,7 +53311,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s1_common_sign_product_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53326,7 +53326,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_colored_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53341,7 +53341,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_ef_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53356,7 +53356,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_df_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53371,7 +53371,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s2_forced_loop_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53386,7 +53386,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_colored_deployed_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53401,7 +53401,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_ef_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53416,7 +53416,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_one_loop_442_s0_forced_internal_guarded_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53431,7 +53431,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_product_q_weld",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53446,7 +53446,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_antipodal_label_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53461,7 +53461,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_exceptional_product_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53476,7 +53476,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_q_orientation_lift",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53491,7 +53491,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_antipodal_label_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53506,7 +53506,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_product_minor_cell_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53521,7 +53521,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_product_q_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53536,7 +53536,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m1_product_q_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53561,7 +53561,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_product_q_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53581,7 +53581,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_outside_product_involution_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53601,7 +53601,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53621,7 +53621,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_complete_product_invariance_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53646,7 +53646,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_m2_m3_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53671,7 +53671,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_outside_product_involution_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53691,7 +53691,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_433_constrained_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53711,7 +53711,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_edge_skeleton_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53741,7 +53741,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_outside_product_involution_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53761,7 +53761,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_complete_product_invariance_router",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53776,7 +53776,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_signed_pair_matching_template_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53796,7 +53796,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_cd_cell_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53816,7 +53816,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8l_minus_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53836,7 +53836,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8m_minus_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53866,7 +53866,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h8_positive_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53896,7 +53896,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_negative_two_loop_442_h6_complete_product_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53911,22 +53911,22 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_transpose_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_u2_colored_source_resultant_split_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_u2_universal_component_color_profile_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_u2_universal_source_facet_census",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53946,7 +53946,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_full_v4_source_genus_drop",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53961,7 +53961,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_outer_factor_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53976,7 +53976,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree5_source_star_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -53991,7 +53991,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree2_source_star_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54001,7 +54001,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_residual_star_graph_rigidity",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54011,7 +54011,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_residual_coefficient_quartic_pin",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54021,7 +54021,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_residual_one_parameter_quartic_normal_form",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54031,7 +54031,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_residual_quartic_singularity_atlas",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54041,7 +54041,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_residual_source_cover_twist_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54056,7 +54056,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree6_common_pole_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54071,7 +54071,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree3_geometric_realization_fence",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54086,7 +54086,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree3_endpoint_cofactor_interpolation_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54101,7 +54101,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_degree3_source_facet_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54131,7 +54131,7 @@
   },
   {
    "from": "rate_half_kb_m2_r2_dihedral_full_v4_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54141,7 +54141,7 @@
   },
   {
    "from": "rate_half_kb_m12_r4_low_genus_branch_profile_reduction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54156,7 +54156,7 @@
   },
   {
    "from": "rate_half_kb_m12_outer_normal_form_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -54166,7 +54166,7 @@
   },
   {
    "from": "rate_half_kb_m12_split_fiber_arithmetic_descent",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59091,7 +59091,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_square_fiber_linear_cut",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59106,7 +59106,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_202_ramified_defect_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59121,7 +59121,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_202_defect_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59141,7 +59141,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_saturated_defect_classifier",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59156,7 +59156,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_colored_quotient_compiler",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59171,7 +59171,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_odd_part_incidence_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59186,7 +59186,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_ramified_complete_source_repair",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59201,7 +59201,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_internal_star_reconstruction",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59216,7 +59216,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_q_slice_resultant_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59226,7 +59226,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_negative_reconstruction_factor_gate",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59241,7 +59241,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_aligned_negative_q_slice_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59256,7 +59256,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_direct_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59271,7 +59271,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_swapped_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59286,7 +59286,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_fixed_xi_mixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59301,7 +59301,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_mixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59316,7 +59316,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_tau_xi_square_exclusions",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59331,7 +59331,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_xi_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59346,7 +59346,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_square_ell_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59361,7 +59361,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_other_xi_mixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59376,7 +59376,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59391,7 +59391,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_square_ell_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59406,7 +59406,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_a_xi_mixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59421,7 +59421,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_tau_xi_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59436,7 +59436,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_xi_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59451,7 +59451,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_square_ell_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59466,7 +59466,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_moving_moving_other_xi_mixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59481,7 +59481,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_negative_q_slice_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59496,7 +59496,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_ramified_q_slice_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59511,7 +59511,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_swap_q_slice_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59526,7 +59526,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_same_q_slice_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59546,7 +59546,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_moving_mixed_full_quotient_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59566,7 +59566,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_same_full_quotient_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59586,7 +59586,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_swap_full_quotient_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59606,7 +59606,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_positive_unramified_fixed_mixed_full_quotient_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59771,7 +59771,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_source_line_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59786,7 +59786,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_near_positive_projective_boundary_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59821,7 +59821,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell0_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59856,7 +59856,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells1_2_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -59891,7 +59891,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_quadratic_curve_structure",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60096,7 +60096,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_compact_curve_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60106,7 +60106,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_global_quadratic_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60116,7 +60116,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi0_pairing0_outside_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60126,7 +60126,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi1_pairing0_parallel_edge_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60136,7 +60136,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi2_pairing0_outside_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60156,7 +60156,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_firstpair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60166,7 +60166,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing3_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60176,7 +60176,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing4_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60186,7 +60186,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing5_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60196,7 +60196,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing6_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60206,7 +60206,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing7_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60216,7 +60216,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing8_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60226,7 +60226,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing9_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60236,7 +60236,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing10_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60246,7 +60246,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing11_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60256,7 +60256,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing12_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60266,7 +60266,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing13_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60276,7 +60276,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_de_pairing14_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60286,7 +60286,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60296,7 +60296,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_pairings1_2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60306,7 +60306,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings3_6_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60316,7 +60316,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings11_14_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60326,7 +60326,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_fully_mixed_pairings7_8_10_13_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60336,7 +60336,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi3_opposite_de_pairings4_5_9_12_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60346,7 +60346,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi6_endpoint_compatibility_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60356,7 +60356,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_xi5_finite_source_pairing_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60516,7 +60516,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell3_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60546,7 +60546,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells3_6_duplicate_role_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60566,7 +60566,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_linear_pair_outside_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60586,7 +60586,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_rankone_target_projection_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60611,7 +60611,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_chain_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60641,7 +60641,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell14_fixed_a_rankone_allmixed_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60676,7 +60676,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60691,7 +60691,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi0_pairing0_four_basis_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60706,7 +60706,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi1_pairing0_parallel_edge_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60971,7 +60971,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi2_pairing0_four_basis_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -60991,7 +60991,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_firstpair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61006,7 +61006,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61021,7 +61021,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61036,7 +61036,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61051,7 +61051,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing6_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61066,7 +61066,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing3_6_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61081,7 +61081,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61101,7 +61101,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61116,7 +61116,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing9_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61131,7 +61131,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing4_9_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61146,7 +61146,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing5_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61166,7 +61166,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing5_12_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61181,7 +61181,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing12_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61196,7 +61196,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing5_12_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61211,7 +61211,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing7_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61231,7 +61231,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing7_10_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61246,7 +61246,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing10_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61261,7 +61261,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing7_10_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61276,7 +61276,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing8_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61296,7 +61296,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing8_13_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61311,7 +61311,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing13_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61326,7 +61326,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing8_13_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61341,7 +61341,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61361,7 +61361,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_orbit_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61376,7 +61376,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_positive_de_pairing14_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61391,7 +61391,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_de_pairing11_14_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61406,7 +61406,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -61421,18 +61421,18 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
-  },
-  {
-   "from": "rate_half_band_structural_surplus",
-   "to": "rate_half_band_closure",
-   "kind": "req"
   },
   {
    "from": "rate_half_band_crossing_location",
    "to": "rate_half_band_closure",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_band_structural_surplus",
+   "to": "rate_half_band_closure",
+   "kind": "ev"
   },
   {
    "from": "b1_char0_giant_coset_theorem",
@@ -62581,11 +62581,6 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_active_labels_complete_exclusion",
-   "to": "rate_half_band_closure",
-   "kind": "ev"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_active_labels_complete_exclusion",
    "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
@@ -62593,11 +62588,6 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_active_labels_complete_exclusion",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion",
    "kind": "req"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion",
-   "to": "rate_half_band_closure",
-   "kind": "ev"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_complete_exclusion",
@@ -62611,7 +62601,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62621,7 +62611,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62711,7 +62701,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_first_pair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62721,7 +62711,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62731,7 +62721,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing3_6_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62741,7 +62731,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62751,7 +62741,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62761,7 +62751,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_positive_de_pairing12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62771,7 +62761,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_positive_de_pairing14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62781,7 +62771,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_positive_de_pairing9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62791,7 +62781,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_quadratic_four_basis_common_locus",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62886,7 +62876,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62896,7 +62886,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_pairings1_2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62906,7 +62896,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing11_14_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62916,7 +62906,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing3_6_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62926,7 +62916,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing4_9_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62936,7 +62926,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing5_12_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62946,7 +62936,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62956,7 +62946,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62966,7 +62956,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -62976,7 +62966,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_elliptic_four_basis_common_locus",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63081,7 +63071,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_endpoint_roles_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63091,7 +63081,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_generic_outside_label_orbit_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63181,7 +63171,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_global_common_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63276,7 +63266,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_first_pair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63286,7 +63276,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing11_14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63296,7 +63286,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing3_6_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63306,7 +63296,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63316,7 +63306,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63326,7 +63316,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63336,7 +63326,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63346,7 +63336,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_positive_de_pairing9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63356,7 +63346,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_rational_boundary_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63456,7 +63446,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63466,7 +63456,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_pairings1_2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63476,7 +63466,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing11_14_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63486,7 +63476,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing3_6_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63496,7 +63486,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing4_9_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63506,7 +63496,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing5_12_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63516,7 +63506,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63526,7 +63516,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell12_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63541,7 +63531,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63626,7 +63616,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63666,7 +63656,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63681,7 +63671,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing11_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63691,7 +63681,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing3_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63701,7 +63691,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing4_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63711,7 +63701,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing5_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63721,7 +63711,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing7_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63731,7 +63721,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing8_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63741,7 +63731,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63756,7 +63746,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63766,7 +63756,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing11_14_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63776,7 +63766,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63786,7 +63776,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63796,7 +63786,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing5_12_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63806,7 +63796,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing7_10_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63816,7 +63806,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing8_13_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63826,7 +63816,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63836,7 +63826,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63851,7 +63841,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_active_labels_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63861,7 +63851,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63871,7 +63861,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63961,7 +63951,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_endpoint_roles_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63971,7 +63961,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63981,7 +63971,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -63991,7 +63981,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing11_14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64001,7 +63991,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing3_6_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64011,7 +64001,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64021,7 +64011,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64031,7 +64021,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64041,7 +64031,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64051,7 +64041,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_positive_de_pairing9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64061,7 +64051,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64071,7 +64061,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_pairings1_2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64081,7 +64071,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing11_14_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64091,7 +64081,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing3_6_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64101,7 +64091,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing4_9_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64111,7 +64101,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing5_12_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64121,7 +64111,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing7_10_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64131,7 +64121,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_xi3_xi4_pairing8_13_quadratic_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64141,7 +64131,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64171,7 +64161,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64186,7 +64176,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_common_kernel",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64291,7 +64281,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_global_five_relation_common_locus",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64326,7 +64316,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64336,7 +64326,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_source_census",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64346,7 +64336,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64356,7 +64346,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64366,7 +64356,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64376,7 +64366,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64386,7 +64376,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64396,7 +64386,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64406,7 +64396,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64511,7 +64501,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64606,7 +64596,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_six_chart_four_basis_common_locus",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64696,7 +64686,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64706,7 +64696,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64716,7 +64706,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64726,7 +64716,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64736,7 +64726,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64746,7 +64736,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64756,7 +64746,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64766,7 +64756,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64776,7 +64766,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64786,7 +64776,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64796,7 +64786,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells12_13_duplicate_role_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64816,7 +64806,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells4_7_duplicate_role_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64826,7 +64816,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64836,7 +64826,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64846,7 +64836,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_complete_exclusion",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -64856,7 +64846,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells9_10_duplicate_role_transport",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
@@ -65871,7 +65861,7 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient",
-   "to": "rate_half_band_closure",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {

@@ -571,3 +571,33 @@ Clean results with power (banked): the located-index quantifier
 survives every consumer rung (A3, no kill); the 11+2=13 route
 partition and the full (KBPRW) reproduction (A5b/A5c, no kill); the
 two zero-contribution evidence theorems genuinely PROVED and wired.
+
+## Round-30 decision rulings (2026-08-10, user-delegated coordinator)
+
+The three decisions surfaced at the round-30 close are RULED:
+
+1. **F2/F3 — the K3 arm is DEMOTED req -> ev.** band_closure is now
+   CONDITIONAL (gate all) on rate_half_band_crossing_location alone;
+   rate_half_band_structural_surplus is wired evidence_for this node
+   (edge order 5137). Grounds: the standing WP5 adjudication ("an
+   ev-edge upgrade, not an amber"), official_row_primes_pinning
+   (exhibit-scoped certificates do not gate family claims without a
+   transport theorem), and the round-30 verification that no
+   consumer bar consumes the arm. RE-PROMOTION pre-registered in
+   conditional.md: proved bridge + labels-to-slopes conversion + row
+   transport restores the req edge. The two-arm program CONTINUES
+   unchanged on the Codex side; only the gate changed.
+2. **F4 (e-axis) — the pose STAYS prime-q; blind widening RULED
+   OUT.** The per-instrument primality-sensitivity audit is
+   commissioned as a round-31 pilot; widen-vs-separate-child gets
+   decided on its evidence. Consumers count e >= 2 as UNCOVERED
+   meanwhile.
+3. **F9 — the evidence migration EXECUTES now** (the decomposition
+   plan's own directive, correct under ruling 1): rate_half_kb_*
+   evidence_for edges pointing at this node migrate to
+   rate_half_band_structural_surplus, verify-gated.
+
+F8 rider: with ruling 1, the razor-row structural-surplus falsifier
+direction is PARENT-OWNED and pre-registered in the shard falsifier
+field (a supply object with B_mca(a) > B* strictly above the located
+crossing; fires safe).

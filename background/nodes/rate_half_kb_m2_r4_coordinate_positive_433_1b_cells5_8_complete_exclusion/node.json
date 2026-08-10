@@ -21,11 +21,21 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cells5_8_duplicate_role_transport"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"
+    }
   ],
   "alternatives": [],
-  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
+  ],
   "refutes": []
 }

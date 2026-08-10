@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_v4_balanced_core_allocation_definition",
+    "title": "KoalaBear v4 balanced-core allocation definition",
+    "status": "TARGET",
+    "statement": "Under the frozen KoalaBear Grande Finale v4 first-match partition, prove exact bounds U_Q and U_new for the two sibling unpaid cells, or an equivalent certified three-way allocation, and define the balanced-core allowance U_K3_allocation by exact integer subtraction from B*=274980728111395087 after U_paid=981104. The joint reserve 274980728110413983 is not by itself a K3 allocation. The certificate binds row, partition digest, owner order, and all sibling atom proofs.",
+    "falsifier": "Using the joint reserve as a K3-only budget without paying U_Q and U_new, a negative or mismatched allocation, or any drift in row, partition, owner, or integer unit.",
+    "refs": [
+      "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
+      "background/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

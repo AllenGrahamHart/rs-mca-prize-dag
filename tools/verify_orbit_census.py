@@ -139,8 +139,18 @@ SUBMISSION_ROOT = "prize"
 # assembly TARGET, and exact allocation TARGET; the positive payment depends on
 # the eleven-route TARGET. Net from the band pin: +3 TARGET / +3 CONDITIONAL.
 # Proved raw workboard packets remain evidence-only and off strict ancestry.
-EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 40, "TARGET": 32}
-EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 42, "TARGET": 33}
+# F2/F3 RULING (2026-08-10, user-delegated, round-30 seam hunt): the K3 arm
+# (rate_half_band_structural_surplus) demoted req -> ev on rate_half_band_closure
+# per the standing WP5 adjudication ("an ev-edge upgrade, not an amber") — the
+# arm is an exhibit-scoped n=2^21 certificate serving no consumer bar. The
+# partition law then moves the 7-node K3 subtree (structural_surplus + ledger +
+# allocation + independent_review + orientation_assembly + complete_payment +
+# remaining_route_payment; 3 CONDITIONAL / 4 TARGET) out of the critical orbit
+# to background. The K3 program itself continues unchanged (Codex lane);
+# re-promotion pre-registered on bridge + labels-to-slopes + row transport.
+# Net from the wave-55 pin: -3 CONDITIONAL / -4 TARGET on both censuses.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 37, "TARGET": 28}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 29}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no

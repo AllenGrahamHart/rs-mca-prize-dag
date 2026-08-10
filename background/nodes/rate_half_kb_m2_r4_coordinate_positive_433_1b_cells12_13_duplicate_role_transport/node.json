@@ -22,13 +22,27 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
-    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_common_vieta_minor_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"
+    }
   ],
   "alternatives": [],
-  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
+  ],
   "refutes": []
 }
