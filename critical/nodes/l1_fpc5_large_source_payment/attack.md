@@ -6,9 +6,11 @@
 2. Work in the exact affine locator chart supplied by
    `l1_fpc5_tpetal_saturated_slice_dimension`; do not re-prove a `t`-petal
    syzygy or dimension formula.
-3. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-4. Seek a collective large-`M` incidence or first-owner inequality before
+3. Use the anchor coordinate in `l1_fpc5_tpetal_anchor_coordinate`; do not
+   enumerate cofactor pairs or independent fixed-owner pencils.
+4. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+5. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-5. Price touched-petal multiplicity and source multiplicity together.
-6. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+6. Price touched-petal multiplicity and source multiplicity together.
+7. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

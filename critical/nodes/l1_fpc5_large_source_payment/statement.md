@@ -53,6 +53,25 @@ cell is a correctly typed split-locator max-to-mean instance. The open
 content is the uniform split-point and aggregate owner/profile payment, not
 the existence or dimension of the flat.
 
+The proved node `l1_fpc5_tpetal_anchor_coordinate` removes the remaining
+fixed-pair multiplicity. Relative to one exact anchor `(F,W)`,
+
+```text
+H=(FB-GW)/Lambda,       deg H<=e-1,
+```
+
+is an affine coordinate on the complete monic pair chart, and every exact
+member obeys
+
+```text
+gcd(H,F)=gcd(G,F).
+```
+
+Thus all fixed common-defect owners are gcd strata of one coordinate body at
+every `t`. The target must count the coordinates whose reconstructed locator
+splits and passes the exact guards, aggregated without summing independent
+owner pencils.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three

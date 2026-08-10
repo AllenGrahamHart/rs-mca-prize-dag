@@ -5,8 +5,8 @@
     "title": "L1 FPC5: large-source full-petal payment",
     "status": "TARGET",
     "key": true,
-    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every nonempty survivor is represented by a proved monic affine e-flat locator chart. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
-    "attack_surface": "inside the typed affine locator charts over (PF6), derive a dimension-uniform split-point and collective first-owner theorem without enumerating layouts or touched-petal subsets",
+    "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every nonempty survivor has a proved monic affine e-flat locator chart and an exact anchor coordinate recovering common-defect owners by gcd. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
+    "attack_surface": "inside the typed anchor-coordinate charts over (PF6), derive a dimension-uniform split-point and collective first-owner theorem without enumerating layouts, cofactor pairs, gcd owners, or touched-petal subsets",
     "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
     "refs": [
       "critical/nodes/l1_fpc5_large_source_payment/statement.md",
