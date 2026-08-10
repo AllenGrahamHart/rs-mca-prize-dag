@@ -17,3 +17,7 @@ language already available in the rate-half `t=3` LS6 branch.
 No critical status changes. The fixed-cell obstruction is now sharply one
 split-remainder maximum with printed primitive guards; a dimension-uniform
 bound and chronology-valid aggregation remain open.
+
+The identical primitive remainder theorem is exported in upstream PR #1151
+at pinned head `c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`; the PR remains an open
+mergeable draft.

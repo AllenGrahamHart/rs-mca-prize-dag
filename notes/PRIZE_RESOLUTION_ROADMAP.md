@@ -25104,7 +25104,7 @@ critical status changes: a dimension-uniform split-point bound and aggregate
 owner/profile payment are still required.
 
 Upstream custody is PR #1151, pinned at
-`5b372a304d414d7a8bddd057c448b1054899048d`. The companion theorem is
+`c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`. The companion theorem is
 exported there with identical field, unit, quantifier, and nonclaim; the PR
 remains an open mergeable draft.
 ### 2026-08-10 general-t FPC5 anchor coordinate
@@ -25132,7 +25132,7 @@ split-and-exact points must be counted. No critical status changes: aggregate
 split-point and chronology-valid owner/profile control remain open.
 
 The identical theorem is exported in upstream PR #1151 at pinned head
-`5b372a304d414d7a8bddd057c448b1054899048d`; the PR remains an open
+`c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`; the PR remains an open
 mergeable draft.
 ### 2026-08-10 general-t FPC5 Pade chart
 
@@ -25153,3 +25153,7 @@ language already available in the rate-half `t=3` LS6 branch.
 No critical status changes. The fixed-cell obstruction is now sharply one
 split-remainder maximum with printed primitive guards; a dimension-uniform
 bound and chronology-valid aggregation remain open.
+
+The identical primitive remainder theorem is exported in upstream PR #1151
+at pinned head `c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`; the PR remains an open
+mergeable draft.

@@ -2,7 +2,7 @@
 
 - **upstream packet:** `przchojecki/rs-mca` PR #1151, `LIST: add FPC5 LS6
   and general t-petal reductions`;
-- **pinned head:** `5b372a304d414d7a8bddd057c448b1054899048d`;
+- **pinned head:** `c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`;
 - **upstream status at pin:** open draft, mergeable;
 - **relation:** the companion note
   `experimental/notes/l1/list_tpetal_saturated_slice_dimension_v1.md`
