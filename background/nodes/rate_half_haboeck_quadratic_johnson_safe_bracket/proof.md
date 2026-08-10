@@ -32,6 +32,30 @@ An integer support meets `(4)` exactly when its size is at least the least
 integer satisfying `(RHJ2)`, namely `a_m`. Equations `(3)--(4)` prove
 `B_mca(a_m)<=Q_m`. If `Q_m<=B*=floor(q/2^128)`, this proves `(RHJ3)`.
 
+The real quantity below the floor in `Q_m` is a positive constant times
+`(2m+1)^7`. It is strictly increasing and unbounded in `m`, so `Q_m` is
+nondecreasing and unbounded. The real threshold below the ceiling in `a_m`
+is
+
+```text
+(1+1/(2m))*sqrt(n(k-1)),
+```
+
+which is decreasing in `m`; hence `a_m` is nonincreasing. It follows that
+the largest affordable index `m_B` minimizes `a_m` over all affordable
+members, proving `(RHJ7)`.
+
+For fixed integer support `s`, support-wise MCA monotonicity gives
+
+```text
+B_mca(s)<=B_mca(a_m)<=Q_m whenever a_m<=s.             (5)
+```
+
+The least admissible index `m_s` minimizes the nondecreasing sequence `Q_m`
+over this tail. Equation `(5)` therefore proves `(RHJ8)`. These are exact
+optimizers within the printed theorem family; no support parameter remains
+in the imported bound after the threshold condition is met.
+
 The exact replay checks the floor and ceiling characterizations by their two
 adjacent squared inequalities. It gives:
 
@@ -48,7 +72,8 @@ Q_95<=2^128-1<Q_96,
 ```
 
 and verifies that `Q_m` is nondecreasing through the cap boundary. Hence
-`m=95` is the largest affordable member for every `q<2^256`.
+`m=95` is the largest member that can be affordable anywhere in the official
+range `q<2^256`, and no official row can afford `m>=96`.
 
 Finally, exact integer exponentiation proves
 
@@ -59,4 +84,4 @@ Finally, exact integer exponentiation proves
 which is the assertion `Q_94*2^128<2^255.9`. Thus every row in the named
 razor slice can use `m=94`; `m=95` applies precisely after its printed exact
 threshold. Since a safe agreement is an upper bound on the first safe
-agreement `a_RH(q)`, `(RHJ7)` follows. QED.
+agreement `a_RH(q)`, `(RHJ9)` follows. QED.

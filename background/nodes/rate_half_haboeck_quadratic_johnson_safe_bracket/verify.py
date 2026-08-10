@@ -32,6 +32,24 @@ def check_ceiling(m: int, a_m: int) -> None:
     assert threshold <= (2 * m * a_m) ** 2
 
 
+def budget_optimizer(
+    budget: int,
+    rows: list[tuple[int, int, int]],
+) -> tuple[int, int, int]:
+    affordable = [row for row in rows if row[1] <= budget]
+    assert affordable
+    return max(affordable, key=lambda row: row[0])
+
+
+def support_optimizer(
+    support: int,
+    rows: list[tuple[int, int, int]],
+) -> tuple[int, int, int]:
+    admissible = [row for row in rows if row[2] <= support]
+    assert admissible
+    return min(admissible, key=lambda row: row[0])
+
+
 def main() -> None:
     values = []
     for m in range(3, 97):
@@ -43,6 +61,15 @@ def main() -> None:
 
     assert all(values[i][1] <= values[i + 1][1] for i in range(len(values) - 1))
     assert all(values[i][2] >= values[i + 1][2] for i in range(len(values) - 1))
+
+    # Boundary probes certify both optimizer descriptions on the complete
+    # official-cap ladder. Strictness here also rules out hidden plateaus.
+    for index, row in enumerate(values[:-1]):
+        next_row = values[index + 1]
+        assert budget_optimizer(row[1], values) == row
+        assert budget_optimizer(next_row[1] - 1, values) == row
+        assert support_optimizer(row[2], values) == row
+        assert support_optimizer(row[2] - 1, values) == next_row
 
     expected = {
         8: (14615573564915989387247529921134, 1652128271987),
@@ -72,7 +99,7 @@ def main() -> None:
         "RATE_HALF_HABOECK_QUADRATIC_JOHNSON_SAFE_BRACKET_PASS "
         f"m_first=9 log2_q_first={128 + log2(budget_floor(9)):.12f} "
         f"m_cap=95 log2_q95={128 + log2(budget_floor(95)):.12f} "
-        f"a95={agreement_ceiling(95)}"
+        f"a95={agreement_ceiling(95)} dual_optimizers=certified"
     )
 
 

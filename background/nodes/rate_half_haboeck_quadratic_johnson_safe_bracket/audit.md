@@ -13,5 +13,10 @@
 6. `a_m` is only a safe point. Monotonicity places the exact crossing at or
    below it but supplies no unsafety at `a_m-1`.
 7. The stronger BCHKS25 linear error term is deliberately absent.
-8. `verify_audit.py` checks the hard-coded landmarks independently of the
-   search routine in `verify.py`.
+8. The source theorem retains no exact-support parameter after its threshold
+   is met. `(RHJ8)` therefore optimizes the imported family; it does not claim
+   a new support-sensitive estimate.
+9. `verify_audit.py` reconstructs all 94 rows `m=3..96` by independent binary
+   searches, checks their adjacent inequalities and monotonicity, and replays
+   both optimizer boundaries. The five printed landmarks remain hard-coded
+   cross-checks.
