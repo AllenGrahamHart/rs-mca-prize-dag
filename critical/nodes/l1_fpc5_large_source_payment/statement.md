@@ -195,6 +195,23 @@ target is therefore a printed quasi-affine determinantal point count modulo
 support permutations, with the remaining background and chronology filters
 still visible.
 
+The proved node `l1_fpc5_tpetal_hankel_grs_syndrome_shell` imports the exact
+upstream syndrome-locator bijection. For locator degree `d` and `c` Hankel
+rows, put `D=d+c`. Primitive split locators are exactly the weight-`d`
+vectors in one syndrome coset of the `D`-row weighted Vandermonde check on
+the `N` core points. If `D<N`, this is the exact radius-`d` shell of
+
+```text
+RS[F,Core,N-D];
+```
+
+if `D>=N`, each fixed chart contains at most one primitive locator. In the
+fixed-background branch `c=ell-1`, so `D=d+ell-1`, and the MDS distance
+recovers the sharp support-overlap cap `d-ell`. This identifies the
+noninjective local wall with an ordinary GRS exact-list shell rather than a
+new Hankel-only object. It does not coalesce the required background sets or
+pay the guarded/chronology aggregate.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write

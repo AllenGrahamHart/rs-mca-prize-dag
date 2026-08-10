@@ -30086,6 +30086,27 @@
    }
   },
   {
+   "id": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "title": "FPC5 Hankel split locators are exact GRS syndrome shells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For an FPC5 Hankel chart with locator degree d and c recurrence rows, put D=d+c. Primitive core-split locators are canonically bijective with weight-d vectors in the syndrome fiber of the D-row weighted Vandermonde parity check on the core. If D<N this is an exact radius-d shell of RS[F,Core,N-D]; if D>=N the fixed chart contains at most one primitive locator. Distinct supports in the noninjective range intersect in at most d-c-1 points. Background, owner, and chronology guards are retained.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/statement.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/proof.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/audit.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/result.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_grs_syndrome_shell/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca experimental/notes/l1/l1_syndrome_catalecticant_shells.md at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+    "relation": "FPC5_SPECIALIZATION"
+   }
+  },
+  {
    "id": "l1_fpc5_tpetal_hankel_support_determinantal_system",
    "title": "FPC5 Hankel split locators are an explicit guarded support-determinant system",
    "status": "PROVED",
@@ -62412,9 +62433,19 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_tpetal_hankel_support_determinantal_system",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "to": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_tpetal_joint_anchor_owner",

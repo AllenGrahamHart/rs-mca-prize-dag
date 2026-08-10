@@ -27,6 +27,8 @@ l1_fpc5_tpetal_fixed_background_hankel_codimension [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_tpetal_hankel_support_determinantal_system [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
+l1_fpc5_tpetal_hankel_grs_syndrome_shell [PROVED] --ev-->
+  l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_large_source_payment [TARGET]
   --req--> l1_full_petal_fpc5_payment [CONDITIONAL]
 ```
