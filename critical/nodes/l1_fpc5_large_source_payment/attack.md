@@ -22,9 +22,20 @@
    that 3781/4012 realized owner groups were singletons and 905/1095 anchor
    views had an injective neighbor-to-owner map. Do not assume only a bounded
    number of owners occur; seek structure across many distinct owners.
-7. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-8. Seek a collective large-`M` incidence or first-owner inequality before
+7. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+   with `AV-CU=Lambda K` and the fixed-owner coordinate
+   `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
+   `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
+   pencil of core-split locators. Do not identify it with a same-domain
+   divisor census: its natural determinant parent is the disjoint
+   touched-petal locator.
+8. Seek a uniform bounded-tail dual-domain pencil census across many
+   distinct owners, preserving the petal congruences and remaining affine
+   background guards. Reuse Przemek's split-pencil methods only after
+   proving the required domain and normalization transport.
+9. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+10. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-9. Price touched-petal multiplicity and source multiplicity together.
-10. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+11. Price touched-petal multiplicity and source multiplicity together.
+12. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

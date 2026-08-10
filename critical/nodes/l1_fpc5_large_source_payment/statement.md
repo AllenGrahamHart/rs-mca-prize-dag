@@ -105,8 +105,33 @@ binom(N+b-q,r-q+1) / binom(d+max(0,u)-q,r-q+1).
 ```
 
 In particular, every bounded co-deficiency owner `q=r-O(1)` is polynomial
-per owner. The unresolved issue is now sharply owner coalescence: the target
-must avoid an exponential sum over the realized divisors `Q`.
+per owner. The exact small-cell owner probe shows that realized owner groups
+are usually singletons, so a bounded-owner coalescence theorem is not a
+credible aggregate route.
+
+The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
+replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
+two core locators and `E` from the two background numerators, and write
+`H=DEK`. Then
+
+```text
+A V-C U=Lambda K,       deg K<=r-deg Q.
+```
+
+The two reduced columns are primitive, the locator entries remain
+squarefree and split, and all petal congruences survive explicitly. Within
+one fixed owner chamber and relative to one member,
+
+```text
+K_0(C,V)=K(C_0,V_0)+T(A,U),       deg K,deg T<=r-deg Q.
+```
+
+At top ownership this is an ordinary affine pencil of locators split on the
+core, coupled to a scalar determinant of the disjoint touched-petal locator.
+Bounded co-deficiency gives a bounded-degree rational pencil. The unresolved
+issue is therefore a uniform dual-domain pencil census and
+chronology-valid aggregation across many distinct owners, not a missing
+owner coordinate or an expected small number of realized owners.
 
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
