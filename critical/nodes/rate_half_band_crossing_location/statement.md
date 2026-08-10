@@ -1343,3 +1343,34 @@ supported set. The proved nodes are
 The live clean theorem is incompatibility of this tensor dependence with
 the simultaneous degree-`rho` domain interpolation and supported-root
 incidence. No critical status changes.
+
+## Cycle 68: clean marked adjugate subset ledger (2026-08-11, Codex)
+
+Contracting the full rectangular Hankel pencil at the marked domain point
+gives the square pencil
+
+```text
+L(t)=H_1(t)-x_0H_0(t),       rank_F(t)L(t)=rho.
+```
+
+Its adjugate and scalar factor are exact:
+
+```text
+adj L(t)=D(t)q(t)q(t)^T,
+D(t)=c Delta(t)Q(t;x_0)=c Delta(t)A_0(t)S(t),
+deg Delta=m-1,       deg D=2m-1.
+```
+
+Factoring `L` through the marked Vandermonde support gives a printed
+Cauchy-Binet expansion of every cofactor over all `rho`-subsets. The corner
+minors are ordinary nonzero Vandermondes; interior generalized minors may
+vanish and no termwise positivity is used. Since the marked fibre factor has
+exactly `m-1` distinct supported roots and `Delta` has degree `m-1`, at least
+`2m+3` supported slopes specialize the subset ledger to the nonzero outer
+square of a fully split locator.
+
+The proved node is
+`rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger`. The next
+clean gate is to combine the corner subset identity, or its sparse
+Forney-weight form, across those `2m+3` slopes with the degree-`m` motion of
+`q`. No critical status changes.

@@ -30613,6 +30613,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger",
+   "title": "Clean-endpoint marked adjugate subset ledger",
+   "status": "PROVED",
+   "closure": "exact adjugate and Cauchy-Binet factorization",
+   "statement": "The marked square Hankel pencil L(t)=H_1(t)-x_0H_0(t) has generic rank rho and adjugate D(t)q(t)q(t)^T. Its scalar factors exactly as D=c Delta(t)Q(t;x_0), where Delta is the degree-(m-1) regular Kronecker determinant and Q(t;x_0)=A_0(t)S(t) has degree m. Factoring L through the marked Vandermonde support gives an exact Cauchy-Binet formula for every cofactor as a sum over rho-subsets. At least 2m+3 of the 4m+1 supported slopes avoid D and specialize the ledger to a nonzero rank-one outer square of a squarefree D-split locator.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency",
    "title": "Clean-endpoint marked-row split-Veronese dependency",
    "status": "PROVED",
@@ -63546,9 +63564,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency",
+   "to": "rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy",
@@ -63658,6 +63686,11 @@
   {
    "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
    "to": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve",
+   "to": "rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger",
    "kind": "req"
   },
   {
