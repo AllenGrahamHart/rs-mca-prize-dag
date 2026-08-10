@@ -32838,6 +32838,30 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ colored-missing atlas",
+   "status": "PROVED",
+   "closure": "complete deployed-field exclusion of missing BE in cell 3 and transported missing CF in cell 6",
+   "statement": "On the guarded cell-3 repeated-BC BC+ torus, eliminate the missing target coordinate from the missing-product and squared-sum equations for records BE and CF. For every root-sign row, the resulting common-only ideals are zero-dimensional. Exact resultants and exhaustive F_2130706433 root lifting show that the BE cut has 9 candidate u roots and 12 raw r lifts, all 12 on inherited guard boundaries, hence no guarded point. Thus all 4*2*15=120 cell-3 BC+ systems with missing BE are empty, independently of outside sign and residual matching. Exact cell-3/cell-6 transport closes the 120 cell-6 systems with missing CF. The CF cut in cell 3 has 11 candidate u roots, 16 raw r lifts, 12 guard boundaries, and exactly 4 guarded necessary points per root-sign row; those residual matchings remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_result.json",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_roots_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_roots_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ torus locus",
    "status": "PROVED",
@@ -32857,6 +32881,27 @@
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/verify_audit.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_monomial_probe_modal.py",
     "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_monomial_probe_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 outside-label quotient",
+   "status": "PROVED",
+   "closure": "exact 105-to-57 outside-label quotient under the D-sign involution",
+   "statement": "For the seven repeated-BC outside records (BE,CF,DE+,DE-,DF+,DF-,EF), the target change d -> -d fixes BE, CF, and EF and exchanges DE+ with DE- and DF+ with DF-. It preserves every outside product and squared sum after that record permutation. The induced involution on the 7 choices of missing record and 15 perfect matchings of the residual six records partitions all 105 labels into 57 exact orbits: 9 fixed orbits and 48 orbits of size 2.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_outside_label_router.py"
    ]
   },
   {
@@ -64292,7 +64337,22 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
   },
@@ -64310,6 +64370,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_colored_missing_atlas",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
@@ -64365,6 +64430,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_vieta_minor_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_outside_label_quotient",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
