@@ -15,7 +15,11 @@
       "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/result.md",
       "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/provenance.md",
       "background/nodes/l1_fpc5_tpetal_fixed_background_hankel_codimension/upstream_crosswalk.md"
-    ]
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 fixed-background FPC5 Hankel normalization",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
   },
   "requires": [
     {
