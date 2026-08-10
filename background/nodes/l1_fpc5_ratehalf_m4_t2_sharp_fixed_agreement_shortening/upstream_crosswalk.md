@@ -2,10 +2,11 @@
 
 - **upstream packet:** `przchojecki/rs-mca` PR #1125, `LIST: add
   balanced-pencil anchor determinant atlas`;
-- **pinned head:** `a663e68df61a49a30289ea148e6f23624b447c89`;
+- **pinned head:** `f1503e54024f4949cf6542683712729e730eb6ca`;
 - **upstream status at pin:** open, ready for review;
 - **local supplier:** `l1_balanced_pencil_anchor_determinant_atlas`;
-- **relation:** exact theorem specialization after the proved shortening.
+- **relation:** exact theorem specialization after the proved shortening,
+  now exported upstream in the companion FPC5 note at this pin.
 
 The parameter dictionary is
 
@@ -24,6 +25,6 @@ No field, object, quantifier, or unit changes: both sides count exact LIST
 codewords in one received-word shell. The FPC5 contributors form a filtered
 subset of that shell.
 
-The transport does not aggregate the possible gcd owners, preserve an
-upstream first-match owner for the FPC5 source chart, or prove a finite row
-numerator. Those are the remaining local obligations.
+The exported theorem does not aggregate the possible gcd owners, preserve a
+first-match owner for the FPC5 source chart, or prove a finite row numerator.
+Those are the remaining shared obligations.

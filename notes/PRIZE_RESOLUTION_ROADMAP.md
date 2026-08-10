@@ -10005,7 +10005,9 @@ scope fence:
   no row reserve, L1 status, or Prize status movement
 compute spend: none; exact module determinant and matroid proof
 upstream custody:
-  PR #1125, ready for review, head a663e68df61a49a30289ea148e6f23624b447c89
+  PR #1125, ready for review, head f1503e54024f4949cf6542683712729e730eb6ca
+  the sharp FPC5 six-marked map, shortening, fixed-owner specialization,
+  and native gcd-owner coordinate are now exported on the same branch
 next route-deciding action: seek a received-word/Pade priority map that
                               coalesces determinant owners across D, or a
                               route cut proving such coalescence impossible
