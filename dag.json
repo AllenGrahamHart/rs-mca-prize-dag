@@ -29474,8 +29474,8 @@
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). The exact official lower source sizes are M>=5 at rates 1/2 and 1/4, M>=7 at rate 1/8, and M>=15 at rate 1/16. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
-   "attack_surface": "inside (PF6), derive a large-M collective incidence or first-owner theorem; exploit the source equation and deficit coordinates without enumerating layouts or touched-petal subsets",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every nonempty survivor is represented by a proved monic affine e-flat locator chart. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, defects, and exact owners.",
+   "attack_surface": "inside the typed affine locator charts over (PF6), derive a dimension-uniform split-point and collective first-owner theorem without enumerating layouts or touched-petal subsets",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -29999,6 +29999,22 @@
     "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/dependency_subdag.md",
     "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/audit.md",
     "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/verify.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "title": "General t-petal saturated slices have exact locator-flat dimension",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For a labelled t-petal pair slice with d<h<=2d+1 and one saturated anchor, the pair space and its locator image have dimension e+1, where e=2d+1-h, and the monic locator chart is an affine e-flat. Every nonempty large-source cell surviving (PF6) satisfies these hypotheses.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/statement.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/proof.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/audit.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/result.md",
+    "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/provenance.md"
    ]
   },
   {
@@ -62139,6 +62155,11 @@
    "from": "l1_fpc5_ratequarter_m4_t2_payment",
    "to": "l1_fpc5_m4_t2_payment",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_saturated_slice_dimension",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_full_petal_fpc5_payment",

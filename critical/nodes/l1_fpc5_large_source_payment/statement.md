@@ -40,6 +40,19 @@ cells satisfy the exact residual `(PF6)` in that supplier. This reduction is
 uniform over every official `ell`; the sampled EMPTY/SINGLETON percentages
 below remain evidence and are not used as theorem premises.
 
+The proved node `l1_fpc5_tpetal_saturated_slice_dimension` also removes the
+general-`t` linearization gap. Every nonempty survivor has
+
+```text
+e=2d+1-t ell=r+1>=1,       t ell>d,
+```
+
+so its guarded pair slice projects isomorphically to a locator space of
+dimension `e+1`, with a monic affine `e`-flat. Thus every surviving fixed
+cell is a correctly typed split-locator max-to-mean instance. The open
+content is the uniform split-point and aggregate owner/profile payment, not
+the existence or dimension of the flat.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three
