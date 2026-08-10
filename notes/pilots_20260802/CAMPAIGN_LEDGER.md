@@ -4275,3 +4275,26 @@ OURS (Codex's harvest predated banks 3/4+4/4 — theirs was a strict
 subset, 0 unique lines); child files THEIRS (the audited flip);
 census THEIRS (stacked provenance); compiled artifacts regenerated.
 Census of record: math 239 = 167/40/32, submission 254 = 179/42/33.
+
+## SCOTT'S REPLAY BLOCKER — RESOLVED + FIX-FORWARD (2026-08-10, user-approved)
+
+scottdhughes' PR #1152 comment (2026-08-09T19:33Z): the [5,8] cert's
+pinned commit 3fa298743 was publicly unreachable at his check time —
+he hit the known push-on-close latency window (cert pushed ~15:43,
+his check 20:30 local, the wave-55 merge landed 2026-08-10). NOT a
+math objection (his own words); the fail-closed provenance standard
+enforced from outside. RESOLVED: as of master 711fcb977 the pin and
+all named nodes (pairing-7/8/11, cell-5 aggregate, [5,8],
+duplicate-role transport) are publicly reachable — verified by
+ancestor check before replying. ACTIONS (user-approved): reply
+posted on #1152 (comment 5236854028: reachability confirmed, 141/141
+coordinator replays noted, his 46-script replay welcomed);
+FIX-FORWARD commit 49b6bea5 on the PR branch annotating all five
+Codex-pushed certs (durable pin = the commit hash; branch field is
+worker-local; replay against master 711fcb977+; the latency window
+documented). STRATEGIC NOTE: Scott pre-commits to replaying all 46
+scripts + auditing endpoint rootlessness and the duplicate-role
+transport — a third-party down-payment on the
+rate_half_kb_m2_r4_k3_independent_review TARGET leaf. His PR #1153
+(independent public-source replay of the cell-5 xi3 pairing
+frontier) queued for the next PR sweep.
