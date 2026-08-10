@@ -18,5 +18,5 @@ defect/background owner bookkeeping, but the split-root maximum and a
 chronology-valid aggregate over realized joint owners remain open.
 
 The identical joint-owner theorem is exported in upstream PR #1151 at pinned
-head `4c8b84f05521bd432b6984e1dd7ca28e3194ab80`; the PR remains an open
+head `bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
 mergeable draft.

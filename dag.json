@@ -30077,8 +30077,13 @@
     "background/nodes/l1_fpc5_tpetal_joint_owner_packing/dependency_subdag.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_packing/audit.md",
     "background/nodes/l1_fpc5_tpetal_joint_owner_packing/result.md",
-    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/provenance.md"
-   ]
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_owner_packing/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal fixed joint-owner packing",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
   },
   {
    "id": "l1_fpc5_tpetal_saturated_slice_dimension",

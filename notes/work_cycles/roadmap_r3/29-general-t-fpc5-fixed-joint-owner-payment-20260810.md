@@ -15,3 +15,7 @@ owner and gives a sharp one-subset ratio at `q=r`.
 No critical status changes. The theorem does not permit summing over all
 divisors `Q`; chronology-valid coalescence of realized owners is now the
 precise aggregate obstruction.
+
+The identical fixed-owner payment is exported in upstream PR #1151 at pinned
+head `bae58ad1ac057e4857947dc7a0c0caff4113ccf4`; the PR remains an open
+mergeable draft.
