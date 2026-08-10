@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency",
+    "title": "Clean-endpoint marked-row split-Veronese dependency",
+    "status": "PROVED",
+    "closure": "exact marked-row elimination and source combination",
+    "statement": "Subtracting x_0 times each unshifted Hankel frame from its shifted frame removes the unique deficient row. A Vandermonde-radical argument excludes marked generic support sizes rho and rho+1; column-farness and a generic combination of the two source relations therefore give a full-support dependence sum lambda_x v_x v_x^T=0 on a set U of at least rho+2=4m+1 domain points. Every x in U is saturated, so v_x is the coefficient vector of a squarefree degree-m locator split on the supported slopes. Equivalently sum lambda_x Q(z;x)Q(w;x)=0, with no residual factor or deficient row remaining.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

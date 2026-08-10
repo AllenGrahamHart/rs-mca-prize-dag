@@ -1304,3 +1304,42 @@ two infinity radicals. The live clean theorem is now incompatibility of this
 four-Hankel frame and supported-locator incidence with the unique-section
 elementary modification. Six proved leaves record the reductions and route
 fences; no critical status changes.
+
+## Cycle 67: clean socle frame and marked Veronese reduction (2026-08-11, Codex)
+
+The unique-section modification now has explicit directions on both axes.
+Writing
+
+```text
+Q(z;x_0)=A_0(z)S(z),
+Q(S;X)=(X-x_0)C_0(X),
+```
+
+the fibre-socle classes `[A_0]` and `[C_0]` map under the two Serre-dual
+connecting maps to the rational-normal evaluation directions `ev_S` and
+`ev_x0`. This remains exact in the repeated-root branch and independently
+forces the unique-section splitting under both finite projections.
+
+The domain direction permits an exact deletion of the deficient row from
+the Hankel frame. If `U` is the remaining generic joint source support, a
+Vandermonde-radical argument excludes `|U|=rho` and `|U|=rho+1`; hence
+
+```text
+|U|>=rho+2=4m+1.
+```
+
+A generic source combination therefore gives a full-support relation
+
+```text
+sum_(x in U) lambda_x v_xv_x^T=0,       lambda_x!=0,
+v_x=(Q_0(x),...,Q_m(x)),
+```
+
+on at least `4m+1` fully saturated squarefree locators split on the common
+supported set. The proved nodes are
+`rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction`,
+`rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame`, and
+`rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency`.
+The live clean theorem is incompatibility of this tensor dependence with
+the simultaneous degree-`rho` domain interpolation and supported-root
+incidence. No critical status changes.
