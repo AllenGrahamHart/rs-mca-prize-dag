@@ -165,3 +165,12 @@ For a quotient row consumed through `TR`, replace `(N,K,q,t,A)` by the exact
 transported tuple emitted by that compiler and use its own `16N^3` allowance.
 No base-row numerical bound transports merely from the algebraic dictionary;
 every consumed quotient tuple must appear in the final summed table.
+
+> **Row-vocabulary note (2026-08-10, FLAG E adjudication).** This
+> statement's row family "N = 2^41, K = rho*N" is Convention A:
+> ADMISSIBLE BUT NOT MAXIMAL at rates < 1/2. Per the ABF26 page-5
+> box, "maximal row" = the cap-saturating Convention B rows
+> (k = 2^40, n = 2^40/rho). The claim here is unchanged — it is
+> about the rows it defines (node-local-pin reading rule) — but any
+> "maximal/official row" phrasing is read per
+> notes/BAND_LANE_DEFINITIONS.md item 13. Rate 1/2 unaffected.
