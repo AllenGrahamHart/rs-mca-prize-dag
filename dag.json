@@ -32838,6 +32838,94 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-3 BC+ torus locus",
+   "status": "PROVED",
+   "closure": "exact guarded one-equation torus parameterization for all four cell-3 BC+ root-sign rows",
+   "statement": "Over F_2130706433, let iota=16711679, so iota^2=-1. In repeated-BC common cell 3 with BC sign +1 and root signs epsilon=(epsilon_1,epsilon_2), the complete guarded common locus is obtained by t=epsilon_1 epsilon_2 r^2, c=u, b=-u^-3 and the single equation H_epsilon(r,u)=u r^2-epsilon_1(iota+epsilon_2)(u^2+1)r+epsilon_2 iota u=0. Direct guarded reductions force the two parameter relations. After substitution, the exact gcd of the three compact equations is r^2(u^2-1)^2 H_epsilon; the first two factors are guards, and the residual primitive ideal is unit after guard saturation. All four root-sign rows complete. Outside-record compatibility and route exclusion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_monomial_probe_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell3_bcplus_monomial_probe_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cells 3 and 6 compact locus",
+   "status": "PROVED",
+   "closure": "exact coefficient kernels and guarded dimension-one common ideals in all sixteen sign rows",
+   "statement": "In repeated-BC common cells 3 and 6 the product rank is five everywhere on the admissible open set. For all four source-root signs and both BC signs, an exact projective coefficient kernel is constructed from product cofactors plus the loop and pivot sum rows. The first seven common rows vanish identically on this kernel; the remaining three give complete guarded common ideals of dimension one, and every common row reduces to zero modulo those ideals. All sixteen cases complete. Outside-record compatibility and route exclusion remain open.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cells3_6_compact_kernel_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cells3_6_compact_kernel_result.json"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cells 3 and 6 full-system transport",
+   "status": "PROVED",
+   "closure": "exact involutive bijection of all common and outside role/sign/label systems",
+   "statement": "The simultaneous target permutation B<->C and E<->F, together with common-role exchange AB<->AC, maps repeated-BC role cell 3 to cell 6 and back. It preserves both BC and outside-cycle signs, exchanges BE with CF and the split DE pair with the split DF pair, and induces an involution on all 105 missing-record/matching labels. For each cell it bijects all 1,680 root-sign/target-lane/outside-label systems. Therefore a complete exclusion or survivor classification for cell 3 transports exactly to cell 6.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cells3_6_transport.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas",
+   "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC product-rank atlas",
+   "status": "PROVED",
+   "closure": "exact maximal-minor and cofactor-kernel compilation in all thirty cell/sign rows",
+   "statement": "For every one of the fifteen repeated-BC common role cells and both BC signs, all six maximal minors and the signed cofactor kernel of the five by six product block are compiled exactly over the deployed field. All thirty cases complete. In cells 3 and 6, for both BC signs, cofactor columns 1 and 4 strip entirely to nonzero constants after removing only admissibility guards; hence the product block has rank exactly five throughout those guarded cells. Other cells retain nonconstant rank-drop equations and are not classified here.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/result.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/lineage.md",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas/verify_audit.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_product_rank_compiler.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_product_rank_compiler_modal.py",
+    "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_product_rank_compiler_result.json"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_saturation_classification",
    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC common saturation classification",
    "status": "PROVED",
@@ -64204,9 +64292,54 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell3_bcplus_torus_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_saturation_classification",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_compact_locus",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_saturation_classification",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_product_rank_atlas",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_vieta_minor_compiler",
@@ -64232,6 +64365,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_vieta_minor_atlas",
    "to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cells3_6_full_system_transport",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
