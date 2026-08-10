@@ -146,6 +146,25 @@ is one weighted reciprocal-divisor census over `A|L_Core`. This formulation
 retains the predicates omitted by the ambient MDS theorem and does not sum
 owners independently.
 
+The proved node `l1_fpc5_tpetal_cauchy_hankel_kernel` identifies the linear
+part of that census more sharply. If
+
+```text
+mu_s=sum_(z in T)c(z)z^s/Lambda'(z),
+```
+
+then the coefficient vector of `G=sum g_a X^a` lies in the full-row-rank
+Hankel kernel
+
+```text
+sum_a mu_(j+a)g_a=0,       0<=j<h-d-1.
+```
+
+The moment generating function is `chi/Lambda` at infinity and obeys the
+exact `Lambda` recurrence. Thus the remaining flat is not arbitrary: it is
+a rational Pade-Hankel kernel intersected with the core divisors, with
+punctured first-row primitive tests and background Cauchy guards.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write

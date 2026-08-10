@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+    "title": "The owner-free FPC5 moment flat is a full-rank Pade-Hankel kernel",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For the owner-free t-petal Cauchy chart, let mu_s be the weighted petal moment of X^s. The h-d-1 low-numerator equations on G=sum g_a X^a are exactly the full-row-rank Hankel system sum_a mu_(j+a)g_a=0. Its generating function is chi/Lambda at infinity and its moments satisfy the Lambda recurrence. Thus every surviving split locator is a monic degree-d divisor of the core locator inside one canonical Pade-Hankel kernel, with primitivity given by nonzero punctured first-row pairings; the remaining background Cauchy guards stay explicit.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/statement.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/proof.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/audit.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/result.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/upstream_crosswalk.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

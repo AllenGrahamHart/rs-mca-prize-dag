@@ -29474,8 +29474,8 @@
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart; owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, determinant tails, and exact owners.",
-   "attack_surface": "prove a base-field-normalized bound for the owner-free weighted reciprocal-divisor Cauchy census, retaining its punctured primitive tests and background equations, then supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, determinant tails, and exact owners.",
+   "attack_surface": "prove a base-field-normalized split-divisor bound for the full-rank rational Pade-Hankel kernel, retaining its punctured primitive tests and background Cauchy equations, then supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -30042,6 +30042,23 @@
     "source": "rs-mca PR #1151 general t-petal primitive remainder theorem",
     "relation": "IDENTICAL_THEOREM_EXPORT"
    }
+  },
+  {
+   "id": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "title": "The owner-free FPC5 moment flat is a full-rank Pade-Hankel kernel",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For the owner-free t-petal Cauchy chart, let mu_s be the weighted petal moment of X^s. The h-d-1 low-numerator equations on G=sum g_a X^a are exactly the full-row-rank Hankel system sum_a mu_(j+a)g_a=0. Its generating function is chi/Lambda at infinity and its moments satisfy the Lambda recurrence. Thus every surviving split locator is a monic degree-d divisor of the core locator inside one canonical Pade-Hankel kernel, with primitivity given by nonzero punctured first-row pairings; the remaining background Cauchy guards stay explicit.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/statement.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/proof.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/audit.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/result.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_cauchy_hankel_kernel/upstream_crosswalk.md"
+   ]
   },
   {
    "id": "l1_fpc5_tpetal_joint_anchor_owner",
@@ -62329,6 +62346,11 @@
    "kind": "req"
   },
   {
+   "from": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
    "from": "l1_fpc5_tpetal_joint_anchor_owner",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
@@ -62367,6 +62389,11 @@
    "from": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_owner_free_cauchy_divisor_chart",
+   "to": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "kind": "req"
   },
   {
    "from": "l1_fpc5_tpetal_saturated_slice_dimension",
