@@ -14,9 +14,12 @@
    background overlap are one gcd stratum, while non-anchor background roots
    are affine coordinate equations. Do not sum the two owner types
    independently.
-6. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-7. Seek a collective large-`M` incidence or first-owner inequality before
+6. Use `l1_fpc5_tpetal_joint_owner_packing` for every fixed owner. Do not
+   re-prove bounded co-deficiency packing or sum its per-owner charge over
+   all divisors of the anchor polynomial.
+7. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+8. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-8. Price touched-petal multiplicity and source multiplicity together.
-9. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+9. Price touched-petal multiplicity and source multiplicity together.
+10. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

@@ -13,6 +13,8 @@ l1_fpc5_tpetal_anchor_pade_chart [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_tpetal_joint_anchor_owner [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
+l1_fpc5_tpetal_joint_owner_packing [PROVED] --ev-->
+  l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_large_source_payment [TARGET]
   --req--> l1_full_petal_fpc5_payment [CONDITIONAL]
 ```

@@ -97,6 +97,17 @@ background roots with the anchor. Every other background root is one printed
 affine equation in `H`. Thus fixed defect and background owners must be
 treated as one coordinate stratum, not independently summed ledgers.
 
+The proved node `l1_fpc5_tpetal_joint_owner_packing` pays every fixed joint
+owner by
+
+```text
+binom(N+b-q,r-q+1) / binom(d+max(0,u)-q,r-q+1).
+```
+
+In particular, every bounded co-deficiency owner `q=r-O(1)` is polynomial
+per owner. The unresolved issue is now sharply owner coalescence: the target
+must avoid an exponential sum over the realized divisors `Q`.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three

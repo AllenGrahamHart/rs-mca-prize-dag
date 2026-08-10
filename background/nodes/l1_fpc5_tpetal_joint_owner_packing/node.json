@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_joint_owner_packing",
+    "title": "Every fixed general t-petal joint owner has an exact packing payment",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At a fixed joint defect/background owner Q of degree q, reduced marked sets have size at least d+max(0,u)-q in an N+b-q point universe and pairwise intersection at most r-q. Hence their number is at most binom(N+b-q,r-q+1)/binom(d+max(0,u)-q,r-q+1), paying every bounded co-deficiency chamber per owner.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/statement.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/proof.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/audit.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/result.md",
+      "background/nodes/l1_fpc5_tpetal_joint_owner_packing/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_joint_anchor_owner"
+    },
+    {
+      "from": "l1_joint_core_background_johnson_bound"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}
