@@ -1,0 +1,1474 @@
+{
+  "app": "rs-mca-positive-433-1b-o0b-split-rankdrop-outside",
+  "case_count": 10080,
+  "lane_count": 96,
+  "lane_summaries": [
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 0,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 1,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 2,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 3,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 4,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 5,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 6,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 9,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 7,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 8,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "point_id": 9,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 10,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "point_id": 11,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 12,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "point_id": 13,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 14,
+      "point_index": 0,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "S0",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDE",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": -1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    },
+    {
+      "cell": 10,
+      "epsilon": [
+        1,
+        1
+      ],
+      "point_id": 15,
+      "point_index": 1,
+      "rational_candidate_cases": 0,
+      "sigma_o": 1,
+      "status": "COMPLETE",
+      "stratum": "SDF",
+      "survivor_count": 0,
+      "unit_count": 105
+    }
+  ],
+  "point_count": 16,
+  "schema": "rate-half-kb-positive-433-1b-o0b-split-rankdrop-outside-v1",
+  "scope": "Exact target-guarded O0b split-lane missing-product, three paired-product, and missing-mate squared-sum ideals at every deployed split-common product-rank-drop point.",
+  "shard_manifest": {
+    "S0": {
+      "case_count": 3360,
+      "file": "rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_S0_result.json",
+      "lane_count": 32,
+      "sha256": "a4e07c7e26a47eaa5607a594438d92810bfaec1219cc691a7e2473786d70691d"
+    },
+    "SDE": {
+      "case_count": 3360,
+      "file": "rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_SDE_result.json",
+      "lane_count": 32,
+      "sha256": "f55ca390b1984bd8177acdda665e10f2eaaa22505337ca6805724d16192d3177"
+    },
+    "SDF": {
+      "case_count": 3360,
+      "file": "rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_SDF_result.json",
+      "lane_count": 32,
+      "sha256": "89b23e31564c4ae800046f440da1fdb1581a5cb2de453dcda3b1cd250b8e3c25"
+    }
+  },
+  "source_points_sha256": "1ef0469634892459a35ea9b7b2b72d112d0b10a099ddab2c6754cc9c8e184017",
+  "status_counts": {
+    "COMPLETE": 10080
+  }
+}

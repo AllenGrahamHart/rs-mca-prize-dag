@@ -114,3 +114,65 @@ new assumptions:         none
 live compute requests:   none
 next:                    compile the post-closure 433-1b/O0b residual owner census
 ```
+
+### Split-BC product-rank-drop closure
+
+The six `O0b` split lanes share the certified split-common rank-drop locus
+from the closed `O0a` campaign: exactly sixteen guarded deployed points,
+all in common role cells 9 and 10.  The outside graph is not transported;
+it is rebuilt for the six `O0b` lanes
+
+```text
+S0  x sigma_o in {-1,+1},
+SDE x sigma_o in {-1,+1},
+SDF x sigma_o in {-1,+1}.
+```
+
+At each point and lane, all seven missing-record choices and fifteen
+residual matchings were tested by the exact five-equation necessary ideal,
+localized by the complete target guard.  Singular returns the unit ideal in
+all
+
+```text
+16 * 6 * 7 * 15 = 10,080
+```
+
+cases.  There are no survivors, timeouts, errors, or rational fallbacks.
+The 92,558-line raw result was deterministically split into `S0`, `SDE`, and
+`SDF` shards of 30,857 lines each plus a 1,474-line master.
+
+```text
+pilot run:                ap-jGUvfdwogz0PvfIgfP6I80
+full run:                 ap-aCk9dJ6WSV6CIV8Mb9QXq5
+sharding replay:          ap-akQVtCCYX7cIBMhjAw2tB3
+result:                   split-BC product-rank-drop branch PROVED empty
+```
+
+### Exact post-closure owner partition
+
+The resulting residual owner node composes the ten-lane atlas, repeated
+common saturation, cells-3/6 closure, split rank-drop closure, and the exact
+105-label outside ledger.  The residual is now exactly:
+
+```text
+owner block                    common rows   raw outside labels
+split BC, product rank five    360           37,800
+repeated BC, cells 1/2          16            1,680
+repeated BC, cells 11/14        32            3,360
+total                          408           42,840
+```
+
+The blocks are disjoint and exhaustive, but none is declared empty by the
+partition theorem.  Repeated cells 11/14 are the preferred next attack:
+their common loci are dimension one, whereas cells 1/2 are dimension two;
+the split-principal block is much larger and should first receive a
+transport/quotient audit against the closed `O0a` owner machinery.
+
+```text
+lane:                    MCA / coordinate-positive 433-1b -> O0b
+additional DAG delta:    +2 background PROVED; critical orbit unchanged
+closed geometric branch: split-BC product rank at most four
+exact remaining blocks:  3
+exact remaining labels:  42,840
+next:                    attack repeated-BC cells 11/14 dimension-one loci
+```
