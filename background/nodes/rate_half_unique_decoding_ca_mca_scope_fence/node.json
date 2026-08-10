@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_unique_decoding_ca_mca_scope_fence",
+    "title": "Unique-decoding CA/MCA transfer is disjoint from the live rate-half crossing interval",
+    "status": "PROVED",
+    "closure": "proof and exact arithmetic replay",
+    "statement": "For the official rate-half row n=2^41, k=2^40, the unique-decoding MCA-from-CA transfer and the BCIKS correlated-agreement import require 2(n-a)<=n-k, equivalently a>=3n/4. Every live interior agreement k+2^34<=a<3n/4 violates that hypothesis, with failure already equal to two at a=3n/4-1. The transfer recovers the existing half-distance endpoint but cannot supply the live far-CA upper bound. This fences only the named unique-decoding route; it does not rule out a new beyond-half-distance CA/MCA theorem.",
+    "refs": [
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/proof.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/claim_contract.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/dependency_subdag.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/audit.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/result.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/verify.py",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/provenance.md",
+      "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca tex/towards-prize.tex at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+      "relation": "SCOPE_SPECIALIZATION"
+    }
+  },
+  "requires": [
+    {
+      "from": "mca_from_ca_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

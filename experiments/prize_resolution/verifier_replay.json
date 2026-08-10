@@ -2,25 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify.py",
-      "seconds": 0.037602,
+      "script": "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/verify.py",
+      "seconds": 0.038519,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS coordinate-clone subcritical payment rows=2 test_classes=5 total=4194304\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_coordinate_clone_subcritical_payment/verify_audit.py",
-      "seconds": 0.022125,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS independent clone Bezout fixtures fields=3 and integer_grid_n<=30\n"
+      "stdout_tail": "RATE_HALF_UNIQUE_DECODING_CA_MCA_SCOPE_FENCE_PASS n=2199023255552 k=1099511627776 live_lo=1116691496960 endpoint=1649267441664 nearest_failure=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

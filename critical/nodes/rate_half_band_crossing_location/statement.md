@@ -705,10 +705,14 @@ hand-checked by the coordinator, all quotes verified verbatim):
   list-adjacent contract's own object), and the audited guard
   (literature map) FORBIDS the list-threshold-as-MCA-surrogate. So
   the supply lane CANNOT reach this node's open content without a
-  proved CA/MCA conversion — **the missing dictionary entry is the
-  CA/MCA CONVERSION, not more (t,M) entries.** (Candidate door,
-  unverified: ABF26 Lemma 4.6's field-general eps_mca = eps_ca at
-  delta < delta_min/2.)
+  CA/MCA conversion valid beyond half distance. The specifically
+  suggested ABF26/BCIKS unique-decoding door is now **RULED OUT BY
+  SCOPE** by the proved
+  `rate_half_unique_decoding_ca_mca_scope_fence`: its exact gate is
+  `2(n-a)<=n-k`, equivalently `a>=3n/4`, while the whole live
+  interval has `a<3n/4`. It recovers only the already-proved endpoint.
+  A genuinely beyond-half-distance conversion would be new mathematics;
+  **more (t,M) entries are still not the missing step.**
 - **POSITIVE CONFIRMATION OF THE BANKED CAP**: the char-0
   minimal-slack maximum is EXACTLY the qcore value at every 2-power
   n measured (the razor's regime) and fails off 2-powers precisely

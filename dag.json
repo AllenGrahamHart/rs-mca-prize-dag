@@ -35492,6 +35492,28 @@
    ]
   },
   {
+   "id": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "title": "Unique-decoding CA/MCA transfer is disjoint from the live rate-half crossing interval",
+   "status": "PROVED",
+   "closure": "proof and exact arithmetic replay",
+   "statement": "For the official rate-half row n=2^41, k=2^40, the unique-decoding MCA-from-CA transfer and the BCIKS correlated-agreement import require 2(n-a)<=n-k, equivalently a>=3n/4. Every live interior agreement k+2^34<=a<3n/4 violates that hypothesis, with failure already equal to two at a=3n/4-1. The transfer recovers the existing half-distance endpoint but cannot supply the live far-CA upper bound. This fences only the named unique-decoding route; it does not rule out a new beyond-half-distance CA/MCA theorem.",
+   "refs": [
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/proof.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/claim_contract.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/dependency_subdag.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/audit.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/result.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/verify.py",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/provenance.md",
+    "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca tex/towards-prize.tex at 93fba1be3f3299b0ba4708d88715377bbb656e45",
+    "relation": "SCOPE_SPECIALIZATION"
+   }
+  },
+  {
    "id": "tern_master_threshold",
    "title": "The ternary unification, GRADED AND GATED (round-19 attack-first): the OBJECT survives (T(P,Lambda) = ternary words of a negacyclic code; three exact dictionaries, the fourth instance demoted), the REGIME survives as satisfiability (THEOREM SR: an explicit shared admissible 256-bit prime row \u2014 the anti-(ES) result; no shared discharge), the METHOD survives as scaffold (12 verbatim transfers, every one vacuous at its target's tau), and the SINGLE-THEOREM form is KILLED by THEOREM PT \u2014 the phase transition at tau = g log2 p / h (I1 forced to tau = 1 supercritical where only MASS can be true; I2/I3 at tau = 2 subcritical where EMPTINESS is the target; four banked constants reproduced unfitted); with THEOREM MT (one threshold, three lanes), LEMMA BR, I3-FORCE, and the PT-2 watch line (scope-corrected round 20: clearance p-dependent, 0.336 bits at log2 p = 256 only)",
    "status": "PROVED",
@@ -62580,6 +62602,11 @@
    "kind": "ev"
   },
   {
+   "from": "mca_from_ca_reduction",
+   "to": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "kind": "req"
+  },
+  {
    "from": "moment_trade_staircase",
    "to": "x4_exactlist_bucket_currency_ownership",
    "kind": "req"
@@ -67733,6 +67760,11 @@
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_unique_decoding_ca_mca_scope_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "spi_component_control",
