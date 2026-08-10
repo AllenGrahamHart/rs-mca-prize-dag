@@ -35,7 +35,7 @@ a_9=1641330047987 < 3n/4=1649267441664.                (RHJ4)
 ```
 
 Thus `(RHJ4)` applies whenever `q>=Q_9*2^128`, approximately
-`log2(q)>=232.650531`.
+`log2(q)>=232.650530`.
 
 Under the strict prize cap `q<2^256`, no `m>=96` is affordable. The strongest
 possible theorem member is `m=95`:

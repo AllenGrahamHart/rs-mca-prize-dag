@@ -68,7 +68,10 @@ both nodes.]
 
 ```text
 B_mca(a_RH) <= B*(q) = floor(q/2^128) < B_mca(a_RH - 1),
-a_RH in [k + 2^34, 3n/4]          (the PROVED bracket).
+a_RH in [k + 2^34, 3n/4]          (the PROVED bracket; TOP
+IMPROVED 2026-08-10 for q >= Q_9*2^128 ~ 2^232.65 by the Haboeck
+staircase — a_RH <= a_m(q), razor rows a_94/a_95; see the
+Haboeck-Johnson addendum and the round-32 staircase addendum below).
 ```
 
 The binding term is S_sparse alone — B_ca^far is free at razor rows
@@ -909,3 +912,65 @@ type-1 root sets must have total size deficit at least `m/4` below `2rho`,
 or all other fibres must carry at most `3m/4-1` points. This is now the exact
 concentration target. It is not yet proved to hold, and no critical status
 changes.
+
+## Round-32 Haboeck staircase addendum (2026-08-10, coordinator-audited): the import chain CERTIFIED; the full staircase recorded (F1)
+
+The round-32 adversarial `rh_haboeck_seam` packet (`FABLE_AUDIT.md`
+plus four replay scripts in `notes/pilots_20260810/rh_haboeck_seam/`) ran
+28 attacks on the
+wave-57 import chain. **NO KILL on the mathematics** — certified on
+object identity (Haboeck's E_m exclusion is word-for-word the repo's
+own (SL1) support-wise MCA-bad predicate, same support, same
+conjunction; the pair-explained class I feared E_m dropped does not
+exist), convention (d = k-1 verified independently; the
+counterfactual rho = k/n would make the banked a_m UNSAFE BY
+EXACTLY 1 — the correction was load-bearing and applied), rounding
+(both directions safe, verifier-characterized), the full ladder
+(every banked integer reproduced from (HJ1) alone, m = 3..96), the
+Johnson non-crossing, the field scope (no subfield/primality
+hypothesis; all six e-strata covered; O6 untripped), the BCHKS25
+exclusion boundary (no leak), and the second consumer's CA <= MCA
+transport (valid — epsilon_ca is far-branch by construction).
+COORDINATOR CLOSURE OF THE PILOT'S ONE ZERO-POWER ITEM (F6): the
+pinned upstream audit (przchojecki/rs-mca @ 93fba1be,
+audit_bchks25_thm46_conditional_johnson_import.md, read directly)
+contains, in its "resolved one level further" section, the
+INDEPENDENT PROOF AUDIT of ePrint 2025/2110 Theorem 2 (external
+trail github.com/latifkasuli/mca, section "Hab25 proof audit"):
+the quadratic mechanism PROVED, the same ell_m constant form, the
+linear refinement the sole remaining condition. The import's
+"statement and proof audit" closure line is ACCURATE. [Hab25] =
+2025/2110 is also ABF26's own bibliography entry. THE HABOECK
+PACKET IS EXPORT-READY.
+
+**F1 — THE STAIRCASE OF RECORD (the pilot's finding, now the
+consumer text):** the supplier proves, and its verifier checks, the
+FULL ladder m = 9..95, not only the razor members. For every
+admissible q with q >= Q_9 * 2^128 (log2 q >= 232.650530):
+
+```text
+a_RH(q) <= a_{m(q)},   m(q) = max{ m : Q_m * 2^128 <= q },
+```
+
+with the named landmarks (exact integers, coordinator-replayed):
+m=9 from log2 q ~ 232.6505 (a_9 = 1641330047987, first strict
+improvement over 3n/4); m=20 @ ~240.42 (a_20 = 1593817862387);
+m=40 @ ~247.54 (a_40 = 1573574783987); m=60 @ ~251.46
+(a_60 = 1568006769587); m=80 @ ~254.14 (a_80 = 1565216767187);
+m=94 on every razor row (a_94 = 1563215236073); m=95 above
+Q_95*2^128 (a_95 = 1563128173124); m=96 unaffordable. The ~23-bit
+window log2 q in [232.65, 255.9) carries 86 proved bracket steps
+previously unrecorded on this node. Below 2^232.65 the top remains
+3n/4 (q >= 2^169) / n (below).
+
+Remaining stale-text items applied elsewhere this bank: F2
+(adjacency_closing's "only proved bracket tops" sentence
+superseded), F4 (the 232.650531 -> 232.650530 printed-constant fix
+on the supplier, safe direction). F5 (16 conflicting-kind doubled
+edges, a standing repo pattern) and the supplier-side (RHJ7)
+generalization go to the wave-58 Codex brief. No status flips.
+
+Custody note: canonical commit `31aa1e684` says a separate `REPORT.md` was
+persisted, but that file is absent from the commit. No claim here depends on
+it; the retained audit and deterministic replay scripts are the evidence
+surface imported into this tree.

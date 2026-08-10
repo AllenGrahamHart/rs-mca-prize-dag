@@ -126,3 +126,12 @@ WIDENED to all admissible 2^167 < q < 2^256 (statement + shard, dated
 widening note in place). With the sub-2^167 range proved by the wave-10
 staircase and the widened child owning the rest, the premise as
 decomposed again supports the no-remaining-exception sentence.
+
+> **Round-32 supersession note (2026-08-10).** The sentence above
+> reading "the only proved bracket tops there are n ... and 3n/4"
+> was made false by the same day's wave-57 landing: above
+> q ~ 2^232.65 the Haboeck staircase supplies proved bracket tops
+> a_9 .. a_95 (see rate_half_haboeck_quadratic_johnson_safe_bracket
+> and the round-32 staircase addendum on
+> rate_half_band_crossing_location). The block it sits in was
+> already marked RESOLVED; this note corrects the narrative claim.

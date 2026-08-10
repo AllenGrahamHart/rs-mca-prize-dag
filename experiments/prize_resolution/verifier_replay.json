@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify.py",
-      "seconds": 0.017287,
+      "script": "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/verify.py",
+      "seconds": 0.015404,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_TWO_TYPE1_FIBRE_SPEND_PASS m=137438953472 baseline_spend=274877906945 required_spend=309237645313 total_cap=618475290624\n"
+      "stdout_tail": "RATE_HALF_HABOECK_QUADRATIC_JOHNSON_SAFE_BRACKET_PASS m_first=9 log2_q_first=232.650530093386 m_cap=95 log2_q95=255.957039295531 a95=1563128173124\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify_audit.py",
-      "seconds": 0.023534,
+      "script": "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/verify_audit.py",
+      "seconds": 0.01574,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RH_TYPE2_FR_TWO_TYPE1_FIBRE_SPEND_AUDIT_PASS cases=4096 official_total=618475290624 residual=68719476736\n"
+      "stdout_tail": "RATE_HALF_HABOECK_QUADRATIC_JOHNSON_SAFE_BRACKET_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

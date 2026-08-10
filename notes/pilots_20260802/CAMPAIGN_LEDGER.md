@@ -5002,3 +5002,130 @@ artifact, and the coordinator's own "~39 orders" brief line. THE
 AUDIT CADENCE HELD: every round-29 headline object was either
 confirmed exactly (THEOREM CAP, T <= r+1 now tight) or corrected
 within two rounds by its own campaign.**
+## WAVE 57 — Codex mega-wave (2026-08-10, coordinator audit)
+
+**AUDITED SOUND AND MERGED (exact 7d7fda357): 31 work cycles
+(18-48), ~60 commits, 485 shards touched — the largest wave of the
+campaign, and the most responsive: every item of the wave-57 brief
+and every round-30/31 bank is absorbed correctly.**
+
+THE HEADLINE — **THE RAZOR BRACKET TOP MOVED, first time since the
+round-27 rebuild:** haboeck_quadratic_johnson_mca_import (IACR
+ePrint 2025/2110 Thm 2, statement+proof audited, the unproved
+BCHKS25 refinement explicitly excluded) + the exact official-row
+specialization rate_half_haboeck_quadratic_johnson_safe_bracket:
+a_RH(q) <= a_94 = 1,563,215,236,073 on the whole razor slice
+(vs 3n/4 = 1,649,267,441,664 — a gain of 86,139,268,540 steps;
+m=95 above q >= Q_95*2^128; m=96 impossible under the cap; first
+improvement m=9 from log2 q >= 232.65). Coordinator replays: import
++ bracket + hostile ALL PASS. This is exactly the R-UPPERBOUND
+shape round-31 bank 2 named — supplied from the literature within
+hours. A strict improvement, so no propagation obligation on the
+older 3n/4 texts (still true as the weaker bracket).
+
+ROUND-31 RESPONSES, both fences replayed green: (1)
+rate_half_unique_decoding_ca_mca_scope_fence — my ABF26 Lemma 4.6
+candidate door is RULED OUT BY SCOPE (the gate 2r <= n-k is
+a >= 3n/4 exactly; the whole live interval fails, by 2 at the
+closest point) — Codex corrected MY unverified note on the
+crossing node with a proved fence (accepted; wave-55 precedent).
+(2) rate_half_type2_fr_incidence_only_route_fence — (FR) CANNOT
+come from incidence inputs: explicit quartic cyclotomic system at
+m=64 satisfying ALL banked incidence constraints with
+max |S^W| = 189 > 2m = 128 (violation 61 = m-3); replayed exactly.
+The 9/4 residual is the COMBINATORIAL CEILING; residual-(ii)'s
+continuation must be algebraic ((GNF) f_gamma / syndrome pencil /
+apolar Hankel) — bank-1's anticipation confirmed by construction.
+
+K3 (the wave-57 brief executed): cycle 18 — the orientation leaf's
+three-domain conflation FIXED (the trichotomy isolated as a PROVED
+component theorem with NO slope conclusion; the (2,8,1) class +
+source-line rows + source-cover workboard now explicit TARGETs; the
+false allocation placeholder corrected, U_K3_allocation a new red
+leaf). Cycle 19 — THE SEMANTIC GAP: the partition contract's BC
+predicate is LOGICALLY INDEPENDENT of the bridge (256-assignment
+exhaustive proof; 31 assignments with nonempty Z_BC and empty
+endpoint set); the bridge decomposed, the balanced-core WITNESS
+COMPILER PROVED (unit fibers via lexicographic minimization); the
+remaining target = same-record Q6 endpoint realization. Cycle 20 —
+the upstream order-32 (S)/(A)/(E) route adapter.
+
+STRUCTURAL (worker-initiated, audited): cycle 21's u2 repair —
+u2_per_row_certifier (exhibit-scoped by its own status ruling,
+cannot prove the family-uniform u2c statement) converted req -> ev
+on x4_exactlist_staircase_split and moved to background/ (the same
+POSE-3/exhibit-scoping discipline as our F2/F3 ruling; x4 req list
+verified). CENSUS REPINNED 232 -> 231 = 167/37/27 math, 247 -> 246
+= 179/39/28 submission — stacked correctly on our F2/F3 pins, full
+chain green. Plus a no-go fence on its own coordinate-clone lane
+(the c >= m owner-line zeros are not common support).
+
+FPC5/LIST (cycles 22-47): the typed frontier campaign — Hankel/GRS
+shell identifications, shifted-Johnson shell caps (sampled
+replays: 9/11 frontier cells paid; GRS shortening 126+374 cells
+paid, 4 scales blocked), the constant-weight LP route fence, and
+the large-source exact prefilter. Narrative-level audit + two
+sampled verifier replays; the lane is Codex-internal with its own
+verifier discipline (manifest refreshed in-wave).
+
+MERGE: clean; Codex's edits to crossing_location accepted (the
+scope-fence correction of my note + two properly-scoped addenda,
+each backed by a PROVED node in the same push). Census + chain
+green post-merge. No conflicts.
+
+## ROUND 32 LAUNCH — the post-wave-57 frontier round (2026-08-10)
+
+Four Opus pilots; briefs in notes/pilots_20260810/{rh_fr_algebraic,
+rh_farca_upper,rh_haboeck_seam,rh_residuals_close}/PREREG.md:
+(A) THE ALGEBRAIC (FR) — exclude the wave-57 fence's m=64 system
+from realizability via (GNF)/syndrome pencil/apolar Hankel and
+derive the realizable max-bound (D1 carries the route-deciding
+converse: if the fence system IS realizable, (FR) is false and 9/4
+is real); (B) THE FAR-CA UPPER BOUND at k+2^34 (R-UPPERBOUND) —
+three routes priced (line-degree, the absent moving-kernel branch,
+the catalecticant extension), plus the interior-tightness
+measurement of LB1's floor (if tight everywhere, -lo follows);
+(C) ADVERSARIAL Haboeck-import seam hunt — object identity (E_m's
+pair-unexplained count vs the B_mca numerator: the T5 failure
+shape), the rho convention, rounding directions, the full m-ladder
+re-derived independently, the e-axis field hypothesis under O6;
+(D) THE RESIDUAL CLOSEOUT — residual (i) the w* tiling gap
+post-(NEWCAP), residual (iii) m=1 exhaustion at q=17, the
+one-table residual-budget ledger reconciliation, and the T3-guard
+skip-fraction measurement. QUARANTINE MARKER: this entry and below
+quarantined for round-32 pilots (the ledger closed to them
+entirely); sibling round-32 dirs mutually quarantined; round-31
+and earlier readable. Launched on Opus.
+
+## ROUND 32 BANK 1/4 — rh_haboeck_seam (2026-08-10, coordinator)
+
+**BANKED — THE HABOECK IMPORT CHAIN CERTIFIED: 28 adversarial
+attacks, NO mathematical kill.** Object identity DEAD (E_m ==
+(SL1), same support/conjunction — no pair-explained class dropped);
+the d = k-1 convention verified independently and shown
+LOAD-BEARING (rho = k/n counterfactual: banked a_m unsafe by
+exactly 1 — the check had teeth); roundings safe; full ladder
+m = 3..96 reproduced from (HJ1) alone; razor thresholds exact;
+field scope clean (six e-strata, O6 untripped); BCHKS25 exclusion
+leak-free; the shell-cap consumer's CA <= MCA transport valid.
+FOUR DEFECTS, all extra-mathematical, ALL HANDLED THIS BANK:
+F1 the 23-bit UNDER-TRANSPORT (m = 9..93 proved, unrecorded) —
+the staircase-of-record addendum now on crossing_location
+(a_RH(q) <= a_{m(q)}, landmarks m=9/20/40/60/80/94/95); F2 the
+now-false adjacency_closing narrative sentence — superseded;
+F3 the stale headline bracket — pointer applied; F4 the
+232.650531 -> 232.650530 printed constant — fixed on the supplier
+(safe direction). F6 CLOSED BY THE COORDINATOR from the pinned
+upstream audit itself (read at rs-mca @ 93fba1be): its "resolved
+one level further" section carries the INDEPENDENT Hab25/2110
+Thm 2 proof audit (latifkasuli/mca trail) — the import's closure
+line is accurate, and [Hab25] = 2025/2110 is ABF26's own
+bibliography entry. F7 import-ledger row added. F5 (16
+conflicting-kind doubled edges, standing pattern) + the
+supplier-side m(q) generalization + F9 per-s specialization ->
+wave-58 brief. NEW PROCESS LESSON BANKED: when a supplier lands,
+diff its PROVED content against what the consumer records, BOTH
+directions (under-transport is a seam class too). **THE EXPORT
+GATE IS PASSED: the Haboeck packet (import + bracket + both
+fences) is EXPORT-READY.** All four pilot scripts
+coordinator-replayed. Files: notes/pilots_20260810/rh_haboeck_seam/.
