@@ -180,6 +180,21 @@ candidate by `binom(|R_H|,u)`; a first-`R` rule is disjoint but no longer a
 complete linear chart. Thus the background threshold is now normalized,
 but its aggregate payment remains open.
 
+The proved node `l1_fpc5_tpetal_hankel_support_determinantal_system`
+imports Przemek's generalized-Vandermonde criterion and makes the support
+geometry explicit. Each Hankel row is one determinant equation on the
+selected core roots and moment column. If `w_i` is the corresponding Cramer
+amplitude, then
+
+```text
+M_0(G/(X-x_i))=w_i G'(x_i),
+```
+
+so the primitive puncture is exactly `w_i!=0`. The fixed-background local
+target is therefore a printed quasi-affine determinantal point count modulo
+support permutations, with the remaining background and chronology filters
+still visible.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write

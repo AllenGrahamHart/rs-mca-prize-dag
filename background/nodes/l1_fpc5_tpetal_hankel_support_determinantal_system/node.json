@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+    "title": "FPC5 Hankel split locators are an explicit guarded support-determinant system",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "For every owner-free FPC5 Pade-Hankel cell, each locator recurrence is equivalent to vanishing of one printed generalized-Vandermonde determinant on the selected core roots and the weighted moment column. The punctured primitive pairing at root x_i equals w_i G'(x_i), where w_i is the unique Cramer amplitude of that support, so primitivity is exactly nonvanishing of all support-column Cramer minors. Thus guarded core-split locators are the symmetric quotient of one explicit quasi-affine determinantal incidence, with the remaining background Cauchy guards appended.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/statement.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/proof.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/audit.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/result.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca experimental/notes/l1/l1_determinantal_support_criterion.md at fde7d56d0f2d8f135db4f2226e1978644a6c9f44",
+      "relation": "FPC5_SPECIALIZATION"
+    }
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_cauchy_hankel_kernel"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

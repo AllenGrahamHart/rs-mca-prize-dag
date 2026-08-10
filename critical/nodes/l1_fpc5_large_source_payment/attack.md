@@ -44,20 +44,25 @@
    `u`-set gives exactly `ell-1` full-rank Hankel rows and monic codimension
    `ell-1`. Respect the weighted incidence identity or a canonical first-`R`
    rule; do not multiply a per-`R` bound by all formal subsets.
-11. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+11. Use `l1_fpc5_tpetal_hankel_support_determinantal_system`: the split
+   kernel is the explicit generalized-Vandermonde support incidence, and
+   each primitive puncture is a nonzero Cramer amplitude. Seek a component
+   classification or base-field point bound on this guarded incidence; do
+   not treat the determinant equations alone as a count.
+12. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
    `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
    pencil of core-split locators. Do not identify it with a same-domain
    divisor census: its natural determinant parent is the disjoint
    touched-petal locator.
-12. Seek a uniform bounded-tail dual-domain pencil census across many
+13. Seek a uniform bounded-tail dual-domain pencil census across many
    distinct owners, preserving the petal congruences and remaining affine
    background guards. Reuse Przemek's split-pencil methods only after
    proving the required domain and normalization transport.
-13. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-14. Seek a collective large-`M` incidence or first-owner inequality before
+14. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+15. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-15. Price touched-petal multiplicity and source multiplicity together.
-16. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+16. Price touched-petal multiplicity and source multiplicity together.
+17. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

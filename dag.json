@@ -29474,8 +29474,8 @@
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
-   "attack_surface": "prove a base-field-normalized split-divisor bound for the full-rank rational Pade-Hankel kernels, retaining punctured primitive tests and exact background guards, then coalesce fixed background sets and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
+   "attack_surface": "prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, then coalesce fixed background sets and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -30083,6 +30083,27 @@
    "upstream": {
     "source": "rs-mca PR #1151 fixed-background FPC5 Hankel normalization",
     "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
+  },
+  {
+   "id": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "title": "FPC5 Hankel split locators are an explicit guarded support-determinant system",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "For every owner-free FPC5 Pade-Hankel cell, each locator recurrence is equivalent to vanishing of one printed generalized-Vandermonde determinant on the selected core roots and the weighted moment column. The punctured primitive pairing at root x_i equals w_i G'(x_i), where w_i is the unique Cramer amplitude of that support, so primitivity is exactly nonvanishing of all support-column Cramer minors. Thus guarded core-split locators are the symmetric quotient of one explicit quasi-affine determinantal incidence, with the remaining background Cauchy guards appended.",
+   "refs": [
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/statement.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/proof.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/claim_contract.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/dependency_subdag.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/audit.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/result.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_hankel_support_determinantal_system/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca experimental/notes/l1/l1_determinantal_support_criterion.md at fde7d56d0f2d8f135db4f2226e1978644a6c9f44",
+    "relation": "FPC5_SPECIALIZATION"
    }
   },
   {
@@ -62381,7 +62402,17 @@
    "kind": "req"
   },
   {
+   "from": "l1_fpc5_tpetal_cauchy_hankel_kernel",
+   "to": "l1_fpc5_tpetal_hankel_support_determinantal_system",
+   "kind": "req"
+  },
+  {
    "from": "l1_fpc5_tpetal_fixed_background_hankel_codimension",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_support_determinantal_system",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
   },
