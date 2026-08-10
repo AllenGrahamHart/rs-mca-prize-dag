@@ -85,3 +85,58 @@ Misses first.
   Every quantifier claim quoted file:line (CATCH-24C). Own-repo greps
   before any novelty claim (CATCH-24A).
 - Banked scripts run from scratch copies only (copy into your dir).
+
+## Pilot registrations
+
+Appended by the pilot after reading ONLY the two named anchors
+(`rate_half_band_structural_surplus/conditional.md`,
+`rate_half_band_closure/conditional.md`) and BEFORE any further read.
+Timestamp: round 30, 2026-08-10.
+
+**R1 — P(at least one real seam in the K3 conditional chain) = 0.75.**
+Rationale for the high prior: (i) the brief states the audit cadence has
+caught a quantifier seam within one round of every major text landing and
+this chain has had no dedicated hunt; (ii) already visible in the two
+anchors alone, the child's conclusion is scoped to "the deployed rows"
+with an explicit non-transport disclaimer ("The conclusion does not
+transport this result to the prime razor rows"), while the parent's Claim
+mixes "every admissible razor row" (crossing arm) with "the deployed
+rows" (enumerated arm) in a single sentence — a mixed-scope conjunction is
+exactly the shape that hides a seam one level down at the consumers.
+I register that (ii) is NOT yet a finding: the parent's restatement looks
+scope-faithful at this level; the live question is whether any CONSUMER
+needs the enumerated cap at razor rows.
+
+**R2 — Link I expect to be weakest.** Ranked, registered blind:
+1. The **row bridge** (D2): KB-row (kb_m2_r4 / p = 2130706433) K3
+   certificates vs the n = 2^41, k = 2^40, q < 2^256 flagship row. I
+   expect the weakness to sit at the ledger → structural_surplus link
+   or one step below it, because that is where the KB prefix enters and
+   where "deployed rows" is defined.
+2. structural_surplus → band_closure, on the "deployed rows" vs
+   "admissible razor rows" scope mix noted above.
+3. The ledger's three-way gate (complete_payment + orientation_assembly
+   + allocation_inequality) — partition/owner mismatch, i.e. the three
+   children not jointly covering what the ledger's "prints and proves
+   ... and fits the active K3 allocation" consumes.
+4. complete_payment → remaining_route_payment (single-premise links are
+   the least likely to hide a gap, but "complete" over "remaining" is a
+   suspicious word pair and I flag it blind).
+
+**R3 — Expected row-bridge status.** I predict: **no statement-level
+bridge exists** (p ~ 0.6), with the second most likely outcome being a
+bridge that exists only as a disclaimer/non-transport clause rather than
+as a usable hypothesis (p ~ 0.25), and a genuine quoted bridge hypothesis
+least likely (p ~ 0.15). Evidence pre-committed: the child conditional
+already contains the sentence "The conclusion does not transport this
+result to the prime razor rows", which is a non-transport declaration,
+not a bridge. If the outcome is "no bridge", I pre-register that the
+finding is only material if some node ABOVE band_closure consumes the
+enumerated arm at razor rows; if every consumer takes only the crossing
+arm at razor rows and the enumerated arm at deployed rows, the absent
+bridge is a correctly-scoped hole, not a false green. I will decide this
+by quoting consumers, not by argument.
+
+**R4 — Zero-power pre-commitment.** I pre-declare that any attack whose
+search returns no hits will be logged as ZERO-POWER with the exact grep
+patterns used, and will NOT be converted into a "no seam" claim.

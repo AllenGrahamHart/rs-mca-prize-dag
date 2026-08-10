@@ -74,3 +74,82 @@ digest. If not, name the exact missing certificate.
   (CATCH-24C). Own-repo greps before any novelty claim (CATCH-24A).
   Zero-power declarations on any max-quantified claim you make.
 - Banked scripts run from scratch copies only (copy into your dir).
+
+## Pilot registrations
+
+Registered 2026-08-10 by pilot k3_orientation_assembly AFTER reading exactly
+two files (the two named anchors' node.json) and BEFORE any further read,
+grep, or interpreter invocation. Interpreter invocations so far: 0.
+
+**P0 — expected shape of the routing theorem.** I expect a three-branch
+total function `route: W -> {sourceline, coordinate, sourcecover}` on the
+witness set W of unpaid same-owner balanced-core bad-slope witnesses in the
+active first-match residual, defined by a *priority* case split (first
+matching branch wins), not by three independent predicates. Predicted
+skeleton, in order:
+  (a) a *well-definedness / discriminator* lemma — the branch predicate is a
+      function of data already carried by the witness (received-line owner +
+      the pair generating the bad slope), so `route` is single-valued;
+  (b) an *exhaustiveness* (trichotomy) lemma — no witness escapes all three
+      branches, i.e. the residual has no fourth orientation. I expect this to
+      be the enumeration-backed half, discharged by a manifest/certificate
+      replay rather than by algebra;
+  (c) a *disjointness* lemma — with a priority split this is nearly free for
+      (a),(b) but NOT free at the image level: the statement demands the
+      images be *exactly* the declared workboards, so I expect a separate
+      *surjectivity onto the declared image* obligation per branch, and I
+      predict that is where the real work is;
+  (d) four *preservation* lemmas, one per preserved quantity (received-line
+      owner, support reconstruction, affine slope, chronology). I predict
+      owner and affine slope are cheap (routing does not move the received
+      line or rescale), support reconstruction is medium (re-indexing under
+      the source-cover branch), and chronology is the one that actually bites,
+      because a source-cover object is naturally *later* than the witness it
+      absorbs and a naive route can invert first-match order;
+  (e) a *source-cover trichotomy*: each source-cover image is (i) proved
+      empty, (ii) bijected into the source-line or coordinate image, or
+      (iii) paid by a printed exact distinct-affine-slope integer; and
+  (f) `U_sourcecover = sum over the (iii) class`, disjointly.
+I predict the node's own attack.md already names something close to (c)+(d).
+
+**P1 — expected obstruction count.** Point estimate **5** named obstructions
+at the end of D3 (80% interval 3-8). Predicted composition: >=1 on
+exhaustiveness (a fourth orientation / an unclassified residual bucket),
+>=1 on image-exactness (declared workboard not equal to the routed image),
+>=1 on chronology, >=1 on the source-cover payment being *exact* rather than
+bounded, and >=1 arithmetic/allocation obstruction inherited from the
+sibling nodes I am not allowed to read.
+
+**P2 — probability the theorem is already implicit in a banked certificate.**
+  - Full disjoint-exhaustive routing theorem, statement-complete, already
+    banked under another name: **0.15**.
+  - The *exhaustiveness half only* (an enumeration certificate showing every
+    residual witness falls in one of the three orientations): **0.55**.
+  - At least one of the four preservation properties already proved in-repo
+    under another name: **0.65**.
+
+**P3 — D1 object existence.** Probability that all three named object
+families (declared c2(1,1,2) source-line workboard; signed negative AND
+positive coordinate workboards; source-cover objects) exist under
+recognisable names inside the ACTIVE first-match residual manifest:
+**0.55**. Probability that at least one is a naming mismatch or lives only
+in a *non-active* (superseded) manifest, which the brief says is itself a
+finding: **0.45**. Probability the active manifest carries a digest I can
+quote verbatim: **0.7**.
+
+**P4 — D4 computability.** Probability `U_sourcecover` is computable today
+from banked certificates without new mathematics: **0.35**. Probability I
+end D4 by naming a missing certificate instead: **0.6**. Probability I can
+at least print an exact *upper bound* or a candidate value flagged
+unverified: **0.75**. Prior on the magnitude of `U_sourcecover`, if it
+exists: small non-negative integer, median 0-2, 80% interval 0-12; I give
+**0.4** to the value being exactly 0 (all source-cover images empty or
+bijected away).
+
+**P5 — zero-power warning registered in advance.** If the active residual
+manifest turns out to be stored only inside a large results JSON that I must
+stream-parse, any claim I make of the form "no witness of type X exists" is
+at risk of being a search-shaped-hole rather than a fact; I pre-commit to
+labelling such claims ZERO-POWER in the report rather than reporting them as
+negative results.
+

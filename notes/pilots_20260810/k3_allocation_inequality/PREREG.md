@@ -73,3 +73,85 @@ schema the eventual verifier can enforce). Draft only, in your dir.
   before any novelty claim (CATCH-24A). Zero-power declarations on any
   max-quantified claim.
 - Banked scripts run from scratch copies only (copy into your dir).
+
+## Pilot registrations
+
+Registered after reading ONLY the two named anchors
+(`critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/node.json`,
+`critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/node.json`)
+and BEFORE any other read, grep, or interpreter invocation.
+
+### P1 — Where U_K3_allocation lives
+
+P1a (60%): U_K3_allocation is defined in a *subtraction-table* /
+budget-ledger note under `notes/` (prose or a small JSON), keyed by the
+rate-1/2 KoalaBear row and a per-arm partition (K1/K2/K3/...), NOT in a
+`critical/nodes/*/node.json` shard. Rationale: the anchor node's
+falsifier speaks of "a different row or partition", which is
+subtraction-table vocabulary, and the ledger node names an "active
+allocation" as an external budget the K3 arm must fit inside.
+
+P1b (25%): it lives in a machine-readable manifest/result JSON
+(`results/` or similar) as a named field like `allocation` /
+`budget_K3`, with a digest already banked.
+
+P1c (15%): it is NOT pinned anywhere yet — only implied by a global
+budget minus sibling-arm allocations, i.e. the row contract has to be
+derived, which would itself be a MISS worth reporting.
+
+I expect the *partition seam* (does the row that defines the allocation
+use the same K1/K2/K3 partition and the same owner convention as the K3
+manifests?) to be the weakest link, per the falsifier's
+imported-allocation clause. Prior that I find at least one genuine
+row/partition/owner mismatch or ambiguity: 45%.
+
+### P2 — Computability of the dry run today
+
+P2a (65%): PARTIALLY computable. I expect U_positive to be recoverable
+by exact integer arithmetic from banked workboard manifests (waves 55
+and 56 are described as closed), while U_sourcecover is gated on the
+open `rate_half_kb_m2_r4_k3_orientation_assembly` TARGET and can only
+be *bounded*, not printed. So the honest D3 output is an inequality
+with a placeholder/bound for U_sourcecover, not a closed total.
+
+P2b (20%): FULLY computable — both summands already banked with
+digests, and the node is TARGET only because nobody assembled them.
+
+P2c (15%): NEITHER summand is cleanly extractable at audit grade
+(multiplicity or owner conventions unresolved), so the deliverable
+degrades to a provenance map plus an explicit blocked-on-certificate
+list.
+
+Prior that I can print an exact integer for U_positive with a pinned
+digest: 55%. For U_sourcecover: 25%.
+
+### P3 — Expected slack sign
+
+P3a (70%): the inequality HOLDS, i.e. U_K3 <= U_K3_allocation, with
+strictly positive slack. Rationale: the ledger node is CONDITIONAL (not
+refuted) and the arm was designed to fit; a designed-to-fit budget
+usually carries deliberate headroom.
+
+P3b (20%): it holds with slack exactly 0 (tight/saturated allocation) —
+which would be a notable finding because any omitted line multiplicity
+then flips the falsifier immediately.
+
+P3c (10%): it FAILS with today's integers under the honest placeholder,
+i.e. negative slack, most likely because a bound for U_sourcecover is
+too coarse rather than because the true total exceeds the budget.
+
+Prior that today's evidence is strong enough to *decide* the sign at
+audit grade (rather than report "blocked"): 40%.
+
+### P4 — Process priors
+
+- Prior that some banked artifact already contains a floating-point
+  comparison or a renormalized owner count that would trip this node's
+  falsifier if imported verbatim: 35%.
+- Prior that "line multiplicity" is recorded per-line somewhere but is
+  summed with multiplicity dropped in at least one place: 30%.
+- Zero-power warning registered in advance: any claim of the form "no
+  file in the repo defines U_K3_allocation" will be made only if I have
+  run greps over the whole repo for the token families I list in the
+  report; otherwise I will declare zero power.
+

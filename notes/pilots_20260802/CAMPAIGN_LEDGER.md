@@ -4709,3 +4709,109 @@ Codex worktree or runs a census. QUARANTINE MARKER: this entry and
 everything below is quarantined for round-30 pilots (the ledger is
 closed to them entirely, as always); sibling round-30 dirs mutually
 quarantined. Launched on Opus.
+
+## ROUND 30 BANK 1/4 — k3_orientation_assembly (2026-08-10, coordinator)
+
+**BANKED: the routing theorem is NOT buildable today — the domain
+(Z_BC bad slopes) and codomain (workboard cells) have NO proved map;
+the bridge is disclaimed by the geometry's own supplier ("The
+endpoint parameter line is not the evaluation carrier"). EIGHT named
+obstructions with pre-registered falsifiers: O1 bridge (fatal, top),
+O2 the LIVE (2,8,1) FOURTH CLASS outside the node's three
+orientations, O3 source-line image INEXACT as written (rows
+(1,0,4)/(0,1,4)/(0,0,6) + orbit (KBDM-10) have no declared image),
+O4 the source-cover object DOES NOT EXIST (U_sourcecover has no
+domain), O5 labels-vs-slopes unit gap, O6-O8 preservation/transpose/
+chronology unstated. OFFSET: the orientation TRICHOTOMY is already a
+theorem (delta=|S| + exclusive source-subfield dichotomy) — the
+conditional draft theorem under one named hypothesis (H-bridge) is
+written and mint-ready.** Replay: 17/17 checks (incl. the new
+five-row diagonal census 1350/2700/3600/1800/720 and FINDING D1-b:
+the two coordinate workboards are DIFFERENT five-skeleton lists
+sharing three). All findings surfaced, ZERO node edits (K3 = Codex's
+write lane). One disclosed grep leak, accepted. Files:
+notes/pilots_20260810/k3_orientation_assembly/{REPORT.md,FABLE_AUDIT.md,replay_orientation_images.py}.
+
+## ROUND 30 BANK 2/4 — k3_allocation_inequality (2026-08-10, coordinator)
+
+**BANKED: the dry run is BLOCKED THREE WAYS and the fourth integer
+UNDEFINED — U_positive blocked on the eleven-route TARGET (0/11
+printed), U_sourcecover blocked on the orientation TARGET (no cap
+derivable), and U_K3_allocation DEFINED NOWHERE (4 occurrences
+in-repo, all in the two K3 nodes that demand it; the allocation node
+has requires=[], so its demanded binding is not representable).
+Strongest exact statement: 0 <= U_K3_allocation <=
+274980728110413983 (the joint three-cell reserve; attained by K3
+only under unproved U_Q = U_new = 0). DERIVED floor: U_Q + U_BC +
+U_new >= 57197049262 — the ledger's "record U_K3=0" fallback is NOT
+free. Five new-to-repo findings (allocation undefined; node unwired;
+the B_star row-key collision kb_mca/kb_list; the "allocation"
+homonym; the floor). The two blind pilots CONVERGED independently on
+the labels-vs-slopes unit seam as the binding blocker — it has no
+owner.** Replays: 56/56 + digest MATCH. Binding schema draft
+(refuse-to-substitute) banked. ZERO node edits. Files:
+notes/pilots_20260810/k3_allocation_inequality/{REPORT.md,FABLE_AUDIT.md,compute_arith.py,verify_partition_digest.py,binding_schema_draft.json}.
+
+## ROUND 30 BANK 3/4 — k3_splitbc_transport (2026-08-10, coordinator)
+
+**BANKED: the split-BC transport audit — the common layer is
+LITERALLY the closed O0a route's 60 compiled algebra rows (100%
+transport, zero recomputation), and four exact outside transports
+cut 37,800 raw labels to 11,304 representative systems (3.34x)
+before any algebra: S0 takes the banked d->-d 105->57 quotient
+verbatim (M3: the PROVED cell-3 node's proof never uses cell 3 —
+widened reissue covers 12,600 labels), SDE/SDF take the
+identical-pair quotient (60 orbits, NEW, replayed), SDE->SDF lane
+transport makes two lanes FREE, and the S0 role self-map folds
+15->9 cells (56/32-orbit Klein option). The D/E transport DIES
+structurally (colored incidences {F,F} -> {E,F}; be -> bd is not a
+record; no repair) — that is exactly why O0b tops at 57/60 vs
+O0a's 36. Named missing certificate M6 (the 433-1b root-sign
+quotient) would reach ~3,414 (11.1x). No guard-only closure;
+PR #1155 fence intact. THE CATCH: M1 — the "universal 433-1b
+outside-label quotient" node DROPPED its parent's "-> O0a" scope
+qualifier; both generators fail on O0b; misapplication would
+falsely delete 65.7% of labels. A LIVE BOOBY TRAP on Codex's
+active path — top of the wave-57 brief. M8: the three-block
+partition closes exactly (63,000 - 16,800 - 3,360 = 42,840),
+both overlap traps cleared.** Replay: both banked censuses
+reproduced exactly + three new counts. ZERO node edits; the draft
+Codex brief held in the pilot dir pending round close. Files:
+notes/pilots_20260810/k3_splitbc_transport/{REPORT.md,FABLE_AUDIT.md,label_orbits.py,DRAFT_CODEX_BRIEF.md}.
+
+## ROUND 30 BANK 4/4 — k3_chain_seams (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED — the decisive pilot: 12 findings, 3 HIGH, chain arithmetic
+clean but quantifiers/scopes not. F1: band_closure's LIVE conditional
+proof + shard still asserted the S_sparse reduction banked FALSE at
+round 28 (P0) — same-day propagation failure; APPLIED (forced), the
+far-CA correction now the parent's text of record. F2/F3 (SURFACED):
+the K3 arm is an exhibit-scoped n=2^21 certificate under the standing
+WP5 no-transport verdict, serves NO consumer bar, yet gate-all makes
+it a spine blocker — demote req->ev vs keep-with-rider = USER
+DECISION. F4 (NEW AXIS, FLAGGED both nodes): crossing_location poses
+q PRIME; the admissible family is q = p^e; exhibited razor-slice
+extension row (q = p^2 > floor(2^255.9), v_2(q-1) = 42) located by
+NEITHER child — the consumers' "each admissible row" now has TWO
+uncovered directions (s < 41; e >= 2). F5/F6/F7/F8 APPLIED (forced
+shard/conditional syncs: plural row narrowed, widened pose
+propagated, retired HD1 clause removed, falsifier field synced to
+the per-child split + the UNOWNED razor-surplus direction flagged).
+F9 QUEUED (418/422 ev edges never migrated). F10/F11/F12 -> wave-57
+brief. CLEAN WITH POWER: located-index quantifier survives all six
+consumer rungs; 11+2=13 route partition + full KBPRW reproduction
+(orbit sizes exact). All four scripts coordinator-replayed. Pilot
+disclosed its own float bug (M3) and two wall-hits honestly.**
+
+**ROUND 30 COMPLETE: 4/4 banked, 0 status flips, census 239 =
+167/40/32 unchanged. THE ROUND'S SHAPE: the K3 arm was re-priced
+from "four leaves closing on census cadence" to an honest program —
+the trichotomy theorem is free, the transports cut the split block
+3.34x, but the ledger needs a bridge, a unit conversion, an
+allocation DEFINITION, a source-cover object, and its (2,8,1)
+fourth class; and the decomposition chain needed five forced
+propagations + carries two surfaced structural decisions (child-1
+gate status; the e-axis). PROCESS RULE CANDIDATE BANKED: forced
+corrections propagate by claim-grep over ALL carrying texts, not by
+editing the node where the claim was found (how F1/F6/F7 escaped
+round 28).**
