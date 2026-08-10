@@ -19,5 +19,5 @@ split-remainder maximum with printed primitive guards; a dimension-uniform
 bound and chronology-valid aggregation remain open.
 
 The identical primitive remainder theorem is exported in upstream PR #1151
-at pinned head `c2b8a07206fe0e99f210b13d31e3a821d55a4c8e`; the PR remains an open
+at pinned head `4c8b84f05521bd432b6984e1dd7ca28e3194ab80`; the PR remains an open
 mergeable draft.

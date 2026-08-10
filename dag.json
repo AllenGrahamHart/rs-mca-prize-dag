@@ -30056,8 +30056,13 @@
     "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/dependency_subdag.md",
     "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/audit.md",
     "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/result.md",
-    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/provenance.md"
-   ]
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/provenance.md",
+    "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/upstream_crosswalk.md"
+   ],
+   "upstream": {
+    "source": "rs-mca PR #1151 general t-petal joint-owner theorem",
+    "relation": "IDENTICAL_THEOREM_EXPORT"
+   }
   },
   {
    "id": "l1_fpc5_tpetal_saturated_slice_dimension",
