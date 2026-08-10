@@ -8,6 +8,30 @@
  },
  "rows": [
   {
+   "our_node": "rs_deep_point_list_to_ca_conversion",
+   "his_object": {
+    "label": "deep-point list-to-CA conversion (thm:A)",
+    "file": "tex/cs25_cap_v13_2.tex",
+    "line": "thm:A"
+   },
+   "relation": "IDENTICAL",
+   "chain": "independent local reconstruction of the simple-pole proof plus exact integer-numerator denominator and ceiling audit",
+   "scope": "general adjacent-dimension RS conversion at q>n with floor(delta n)<=n-k-1 and finite-slope CA normalization",
+   "owner": "HIM",
+   "nonclaims": [
+    "not the older local interleaved deep_point identity",
+    "does not remove the strict q-n-kQ denominator gate",
+    "does not aggregate the downstream FPC5 source and chronology cells"
+   ],
+   "status_ours": "PROVED",
+   "status_his": "proved",
+   "lean": null,
+   "provenance": {
+    "our_sha": "1e555bbab",
+    "his_sha": "fde7d56d0f2d8f135db4f2226e1978644a6c9f44"
+   }
+  },
+  {
    "our_node": "rs_tangent_flexible_budget_unsafe_floor",
    "his_object": {
     "label": "Tangent floor (prop:floor)",

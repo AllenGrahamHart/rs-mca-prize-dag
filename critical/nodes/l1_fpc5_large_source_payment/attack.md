@@ -62,20 +62,27 @@
    bounded distance from `u=0` or `u=b`. The live fixed-background branch is
    middle polarity and/or `J_fix=d^2-N(d-ell)<=0`; never drop the binomial
    background-choice factor.
-14. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+14. After the ordinary shell payment, apply
+   `l1_fpc5_shifted_johnson_grs_shell_cap` to the adjacent-dimension strip
+   `N(K-1)<a^2<=NK`. Keep its exact field-dependent denominator and
+   `binom(b,u)` factor. Treat a local `B*` cap as a cell bound, not as
+   permission to sum source layouts or other cells. Do not spend time on
+   this route when `a^2<=N(K-1)`; Haboeck cannot reach that region for any
+   finite `m`.
+15. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
    `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
    pencil of core-split locators. Do not identify it with a same-domain
    divisor census: its natural determinant parent is the disjoint
    touched-petal locator.
-15. Seek a uniform bounded-tail dual-domain pencil census across many
+16. Seek a uniform bounded-tail dual-domain pencil census across many
    distinct owners, preserving the petal congruences and remaining affine
    background guards. Reuse Przemek's split-pencil methods only after
    proving the required domain and normalization transport.
-16. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-17. Seek a collective large-`M` incidence or first-owner inequality before
+17. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+18. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-18. Price touched-petal multiplicity and source multiplicity together.
-19. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+19. Price touched-petal multiplicity and source multiplicity together.
+20. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.

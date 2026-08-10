@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_shifted_johnson_grs_shell_cap",
+    "title": "FPC5 shifted-Johnson GRS shell cap",
+    "status": "PROVED",
+    "closure": "theorem composition plus independent exact official-row replay",
+    "statement": "For one FPC5 source/touched/degree cell, let H=t ell and W=1 when u<0, while H=d+ell and W=binom(b,u) when 0<=u<=b; put K=N-H and a=N-d. For m>=3 define Q_m=floor sqrt((2m+1)^14 N^7/(384^2(K-1)^3)). If K>=2, (2ma)^2>=(2m+1)^2N(K-1), and KQ_m<q-N, then the complete fixed cell has at most W ceil(Q_m(q-N)/(q-N-KQ_m)) contributors. The exact background factor is retained. Smallest-row replay newly caps one first-scale cell at rates 1/2, 1/4, 1/8 and six shifted/nonpositive-Johnson cells in the rate-1/16 M=61 slice on explicit upper field slices; no source/profile aggregation is claimed.",
+    "refs": [
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/statement.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/proof.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/claim_contract.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/dependency_subdag.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/audit.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/result.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/provenance.md",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/verify.py",
+      "background/nodes/l1_fpc5_shifted_johnson_grs_shell_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "haboeck_quadratic_johnson_mca_import"},
+    {"from": "rs_deep_point_list_to_ca_conversion"},
+    {"from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell"},
+    {"from": "l1_fpc5_tpetal_fixed_background_hankel_codimension"},
+    {"from": "l1_fpc5_large_source_exact_prefilter"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "l1_fpc5_large_source_payment"}
+  ],
+  "refutes": []
+}

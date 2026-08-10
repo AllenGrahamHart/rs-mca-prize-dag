@@ -248,8 +248,26 @@ J_bg=b J_fix-Nu(b-u)
 
 shows why this is not already contained in the joint-background Johnson
 sieve: it pays boundary background polarity after exposing, rather than
-discarding, the binomial entropy cost. The middle-polarity and
-nonpositive-`J_fix` regime remains open.
+discarding, the binomial entropy cost.
+
+The proved node `l1_fpc5_shifted_johnson_grs_shell_cap` now enters the
+adjacent-code strip beyond that ordinary shell boundary. It applies Haboeck's
+proved MCA numerator bound to the adjacent dimension-`K` RS code and
+Przemek's self-contained deep-point conversion to the dimension-`K+1`
+shell. For one fixed cell it gives
+
+```text
+binom(b,u) ceil(Q_m(q-N)/(q-N-KQ_m))
+```
+
+in the fixed-background branch, with the binomial factor replaced by one
+when `u<0`. Exact smallest-row replay gives a prize-budget local cap on one
+first-scale cell at rates `1/2`, `1/4`, and `1/8`, and on six of eight
+shifted/nonpositive-Johnson cells in the rate-`1/16`, `M=61` slice. The two
+remaining cells exceed the budget below `2^256`; most other `(PF6)` cells lie
+more than one dimension beyond Johnson. The middle-polarity/nonpositive-
+`J_fix` region outside this thin strip, and the source/profile aggregate of
+the capped cells, remain open.
 
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
