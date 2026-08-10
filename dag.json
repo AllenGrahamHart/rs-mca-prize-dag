@@ -30559,6 +30559,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "title": "Clean-endpoint irreducible norm corollary",
+   "status": "PROVED",
+   "closure": "exact specialization of the component-defect ledger",
+   "statement": "On the strict m>1 branch with omission budget O=0, every supported slope has rho roots, exactly one domain point has incidence deficit one, and every other point is saturated. The primitive generic apolar generator is absolutely irreducible of bidegree (4m-1,m). Its domain norm is R=H^rho S with S linear, and the complementary identity uses P_sat=(X^N-1)/(X-x_0). At least 3m+1 supported slopes are generic-rank, fully split, and parameter-transverse. The corollary does not exclude the dominant irreducible curve or cover O>0.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/statement.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/proof.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/audit.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/result.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/provenance.md",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify.py",
+    "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
    "status": "PROVED",
@@ -63290,8 +63308,28 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_component_defect_localization",
+   "to": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_norm_factorization",
+   "to": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
    "to": "rate_half_bivariate_deficiency_clone_kernel_reduction",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary",
    "kind": "req"
   },
   {

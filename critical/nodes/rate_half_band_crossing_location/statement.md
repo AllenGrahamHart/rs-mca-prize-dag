@@ -1198,3 +1198,24 @@ Prize counterexample. The proved fence is
 The live theorem is now structured full rank, or exclusion of blockwise
 nonzero kernels, for `C_W` under the remaining outside-root and Hankel
 constraints. Critical status remains unchanged.
+
+## Cycle 64: clean branch is one irreducible cyclic-norm curve (2026-08-10, Codex)
+
+The omission-sensitive component ledger sharpens completely at `O=0`. Its
+overlap correction and residual parameter degree both vanish, so the generic
+apolar generator is absolutely irreducible of bidegree `(4m-1,m)`. The exact
+deficit identity leaves one point `x_0` with `d_(x_0)=m-1` and saturates every
+other domain point. The norm and complementary identities become
+
+```text
+R=H^(4m-1)S,       deg S=1,
+Q Vbar+((X^(16m)-1)/(X-x_0))W=H.
+```
+
+At least `3m+1` supported slopes are also generic-rank, fully split, and
+parameter-transverse. The proved node is
+`rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary`. Hence no
+reducible or product-of-rational-moving-branches continuation remains on the
+clean branch; the live geometric object is the irreducible near-perfect
+cyclic norm. Positive-`O` branches are outside this corollary, and critical
+status remains unchanged.
