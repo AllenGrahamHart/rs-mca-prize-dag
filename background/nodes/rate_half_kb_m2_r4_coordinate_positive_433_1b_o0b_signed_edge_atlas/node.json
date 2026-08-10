@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b signed-edge atlas",
+    "status": "PROVED",
+    "closure": "exact four-stratum, ten-lane target-sign gauge quotient",
+    "statement": "The positive 433-1b to O0b route has exactly four admissible signed-collision strata: no repeated signed pair, or a repeated signed pair on exactly one of BC, DE, DF. Their 224 active-sign assignments split into 10 target-gauge lanes with stratum counts 2,4,2,2 and orbit sizes 16,16,32,32 respectively. Every lane has the complete twelve target product and squared-sum rows, target degree four, and total collision defect 1 or 3. No source-label assignment, algebraic realizability, emptiness, slope payment, K3, or Prize conclusion is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_signed_edge_atlas.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}
