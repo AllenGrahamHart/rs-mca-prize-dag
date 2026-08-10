@@ -76,7 +76,6 @@ KNOWN_TRUTH_STATUS_REVIEW = {
     "far_pair_separation",
     "generator_economy",
     "integer_code_distance_cert",
-    "u2_per_row_certifier",
 }
 
 
@@ -129,9 +128,9 @@ def main() -> None:
     # The direct primitive-SP re-pose leaves the F-4/u1 route as evidence. The
     # Conjecture-F scope decomposition adds one proved interface and one
     # conditional compiler. The 2026-08-09 band split grows the orbit to 233;
-    # the 2026-08-10 K3 exact-payment split adds six explicit red/amber nodes
-    # without changing the 167 proved-node harness census.
-    require(len(critical["nodes"]) == 239, "critical orbit size drift")
+    # the round-31 K3 scope ruling and the U2 consumer-scope repair reduce it
+    # to 231 without changing the 167 proved-node harness census.
+    require(len(critical["nodes"]) == 231, "critical orbit size drift")
     require(len(proved) == 167, "critical PROVED count drift")
 
     categories: Counter[str] = Counter()
@@ -196,11 +195,6 @@ def main() -> None:
         == "left_red_with_execution_report",
         "integer-code status review marker drift",
     )
-    require(
-        "honest blocker" in nodes["u2_per_row_certifier"]["statement"].lower(),
-        "u2 status review marker drift",
-    )
-
     print(
         "CRITICAL_HARNESS_COVERAGE_PASS "
         f"proved={len(proved)} local={categories['local-verifier']} "

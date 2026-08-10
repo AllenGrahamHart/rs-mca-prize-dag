@@ -104,4 +104,10 @@ NOTES: Reframed by the unification: the per-row question is 'which polynomial-fi
 - dli_truncated_log_transfer [PROVED]
 - skew_support_threshold [PROVED]
 - subfield_trace_paid_gate [PROVED]
-- u2_per_row_certifier [PROVED]
+
+## Evidence-only finite calibration
+
+- `u2_per_row_certifier` [TARGET, background evidence]. Its representative
+  per-exhibit certificates calibrate the structured moment route, but no
+  fixed-prime or finite row list exists for the official family-uniform
+  claim. The actual consumed input is `u2c_exact_slice_extras_budget`.

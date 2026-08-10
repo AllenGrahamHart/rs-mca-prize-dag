@@ -1027,11 +1027,6 @@
    "title": "FACE-1 LEG (identification): per-character sets = the list kernel at quotient rows"
   },
   {
-   "id": "u2_per_row_certifier",
-   "label": "UNPROVED",
-   "title": "U2-B: the per-row moment certificates (small-t rows)"
-  },
-  {
    "id": "u2c_exact_slice_extras_budget",
    "label": "UNPROVED",
    "title": "Official exact-slice structured moment/pullback column budget"
@@ -1902,10 +1897,6 @@
   },
   {
    "from": "subfield_trace_paid_gate",
-   "to": "x4_exactlist_staircase_split"
-  },
-  {
-   "from": "u2_per_row_certifier",
    "to": "x4_exactlist_staircase_split"
   },
   {

@@ -22,8 +22,11 @@ Hypotheses (matches wiring after full-lane compression):
 - dli_truncated_log_transfer
 - skew_support_threshold
 - subfield_trace_paid_gate
-- u2_per_row_certifier
 - xr_syzygy_support_lemma
 - xr_scattered_syzygy_flattice
 
 Composed proof: REDUCTION_PACKET.md.
+
+Evidence only: `u2_per_row_certifier` records finite per-exhibit moment
+certificates, but it is not family-uniform and is not consumed by this
+assembly after the structured-column ownership correction.
