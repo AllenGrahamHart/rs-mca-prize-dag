@@ -82,3 +82,23 @@ floor(q/2^128)<=2^39-1,
 including all admissible `q<2^167`.  In the CA-only block, only the final
 strict budget `2^39` (`r=R/2-1`, possible `A=3`) and the half-distance budget
 `2^39+1` (`r=R/2`, possible `A=1` or `3`) remain.
+
+## Round-32 scope correction (2026-08-10, coordinator, forced)
+
+The general claim's quantifier ("every syndrome Hankel pencil of
+generic rank 1 <= rho <= r") is REFUTED in the wide regime
+r > R/2 by exhibition (rh_farca_upper, coordinator-replayed): at an
+explicit column-far RS[F_11,{0..6},2] pencil with r=3, R=5, rho=2,
+the generic kernel has gcd degree 0 at 10 of 11 slopes — NOT the
+shift family of a single degree-rho apolar form Q_Z. Structural
+reason: the apolar ideal is a two-generator complete intersection
+(degrees p, R+1-p); the kernel is a shift family iff r < R+1-p, and
+the generic wide pencil has rho = R-r with p >= R+1-r, so the
+second generator always enters. Without a single generator, e is
+undefined and (MI1)/(MI2) have no instance; a naive instantiation
+(s=0, e=1) gives <= 3 against a measured T = 8. THE GENERAL
+STATEMENT AND CLAIM CONTRACT ARE NARROWED to r < R/2 (equivalently:
+the generic kernel is a shift family). THE DEPLOYED OFFICIAL
+COROLLARY (r <= R/2-2) IS UNTOUCHED AND REMAINS CORRECT — the
+pencil is tall there and the single-generator step holds. Status
+unchanged (PROVED, on the narrowed scope).

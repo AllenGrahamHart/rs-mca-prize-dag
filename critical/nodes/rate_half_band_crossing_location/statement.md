@@ -850,3 +850,104 @@ superseded), F4 (the 232.650531 -> 232.650530 printed-constant fix
 on the supplier, safe direction). F5 (16 conflicting-kind doubled
 edges, a standing repo pattern) and the supplier-side (RHJ7)
 generalization go to the wave-58 Codex brief. No status flips.
+
+## Round-32 close addendum (2026-08-10, coordinator-audited): banks 2-4 — the bracket's anatomy, the residual ledger, and (FR) proved-but-insufficient
+
+**BANK 2 (rh_farca_upper) — THE OPEN BRACKET'S STRUCTURAL ANATOMY.**
+The bracket [k+2^34, 3n/4) is the gap between two classical radii:
+3n/4 IS the unique-decoding radius (r <= R/2 <=> a >= n-R/2 = 3n/4
+exactly — the Hankel layer's scope is not a technical limit but the
+tall/wide pencil boundary), and sqrt(nk) = 0.70710678n is the
+common wall of ALL counting instruments (k-subset short by 32
+exactly; Johnson by 45.25 at the worst anchor, by 1.3924564 even at
+the best). The razor (0.5078n) is below both: counting void, and
+the algebra's single-generator step (MI1) REFUTED in the wide
+regime by exhibition (see the minimal_index_budget round-32 scope
+correction; the deployed tall-regime corollary untouched). FIRST
+INTERIOR BOUNDS: **UB-NEAR (unconditional)** — #{bad slopes of
+agreement >= 3n/4+2} <= 2^39-1 (scope-monotonicity of column-
+farness + the banked tall corollary; 89.00 bits under budget; the
+whole exposure is now the DEEP stratum, error weight past R/2-2);
+**UB-FIXED (conditional on (HK1))** — B_ca^far(a) <= a-k on the
+fixed-kernel class ((HK2) carries NO radius hypothesis; 94.00 bits
+at the razor) — but the class is thin (0/1700 sampled) and LB1 is
+moving-kernel. **THE FLOOR IS NOT TIGHT INTERIOR**: B_ca^far =
+n-a+1 is REFUTED (measured 2x-2.5x (r+1) at small cells,
+exhaustive at (7,2,4,q=7); and the banked 2^216 >= at k+2^34-1) —
+the -lo shortcut via floor-tightness is dead. NEW LAW CANDIDATE:
+the extremal count is q-INDEPENDENT (two cells, five fields;
+zero-power beyond). RESIDUALS OF RECORD: R-DEEP (bound the deep
+stratum), R-MOVING (the 2-generated-truncation budget — one
+generator is FORCED FIXED by multiplicity arithmetic, column-
+farness forbids it D-split; bounding the other's slopes is the
+open problem), R-KER (the >= r+1-2rho ~ 2^40-dim common kernel
+with no D-split member; count slopes where a <= 2^34-dim increment
+acquires one). CORRECTIONS: the round-32 brief's "2^216 upper
+bound" misread the banked LOWER bound (coordinator's error); the
+P0 phrase "the layer never touches the bracket interior" is too
+strong by UB-NEAR (the P0 conclusion itself stands).
+
+**BANK 3 (rh_residuals_close) — THE RESIDUAL LEDGER, EXACT.**
+Residual (i) IS ONE INTEGER at the official profile:
+w* = (2^41+1)/3 = 733007751851, certified exhaustively by divisor-
+block enumeration (1,482,906 blocks, O in {0,1,m/2,m-2} alike) —
+(AO1) returns rho+2 there (deficit exactly 1, the q=17-fence
+signature) and T4's hypothesis fails by exactly one point of W
+(RIG = -2; the obstruction is sigma_W*(linear)). GAP LAW (m in
+[1,300]): 3 integers iff m = 1 mod 3, else 1, exceptions
+{1,5,8} — CORRECTING the banked round-29 "1 or 3" claim: **at
+m = 8 the (AO1) band has a HOLE (gap = {41,43}, size 2)** — the
+band is not always an interval (floor(a/(a-rho)) steps), and
+banked range-notation hid it. Residual (i) is INCIDENCE-FENCED
+(K_7-vertex-star system at m=2 satisfies every banked axiom at the
+gap integer with T = rho+2): residuals (i) and (ii) are THE SAME
+ALGEBRAIC FRONTIER. What would close (i): T4's conclusion
+transported at RIG = -2 (margin 5/3) — CONDITIONAL on the
+collinearity transport not needing S^W = 0 (unresolved, flagged).
+**RESIDUAL (iii) IS RETIRED**: m=1 is not open — it is the PROVED
+five-slope counterexample node; independently replayed by a
+disjoint route (support configs, disjointness PROVED not assumed;
+16 configurations, one per omitted point). NEW: **the m=1 failure
+is a q=17 ARTIFACT** — exhaustive at ten admissible fields: 16
+configs at q=17 (where D = F_q^*), ZERO at q in {97..433} (D a
+proper subgroup) — matching round-29's RIG=-1 decay; the fence
+node's "uniformly in m" sharpens to "uniformly in (m,q)"
+(measurement, ten fields, zero power at official q). THE
+BUDGET x REGION TABLE is banked in the pilot's D3 (S1/S2/S3
+regions; budget 2^39 DEAD at a = 3n/4 by LB1; every open cell
+reduces to the two w* residuals). PRECISION NIT: the "9/4 exactly"
+is 9/4 - 15/(4m) (asymptotic; integers exact). **D4 DISCHARGED:
+the T3 skip fraction is MEASURED = 19518/21832 = 0.894009** —
+the guard passes 0/5842 at a=5 (T3 100% vacuous exactly where
+M_max = 17 most needed a cap); the round-31 flagged inference was
+right and is now a number.
+
+**BANK 4 (rh_fr_algebraic) — (FR) PROVED, AND INSUFFICIENT.**
+**FR-CANONICAL (proved, two lines, no saturation needed): at a
+minimising pair union W* = S_g u S_h (a* = |W*| = the min pair
+union — an admissible joint support per the banked round-28
+convention), every supported slope has |S_gamma ^ W*| <=
+4rho - 2a* - 2o_gamma - o_g - o_h; at a* = 7m-1, O = 0: <= 2m-2.**
+The (FR) quantifier over W was simply never fixed: for ARBITRARY
+joint supports (FR) is REALIZABLY FALSE already at m=3 (j >= 1
+stratum; T=3, so (SAT3) untested), and the wave-57 fence's own
+system satisfies FR-canonical at every one of its 32896 pair
+unions (max 115 <= 128, EXHAUSTIVE — its 189 lives at a W that is
+no pair union; see the fence node's round-32 addendum). LEDGER
+EFFECT: residual (ii)'s factor drops 9/4 -> 7/4 over the band
+(9/4 -> 9/8 at the banked point a = 7m-1); the argmax MOVES to
+a = (20m-2)/3; the closed sub-band is UNCHANGED to the integer;
+NEITHER BUDGET MOVES. THE MISSING STEP, named to the constant:
+closure needs X <= a/4 on (16m/3, 7m-1]; proved is
+min(a-(4m+2), 4rho-2a); at the argmax 5m/3 needed vs 8m/3 proved —
+**a factor of exactly 8/5**. The round-31 "9/4 is the combinatorial
+ceiling" caution is REFUTED IN PART (a pure cardinality move
+reached 7/4); the next instrument is D2.4's DEGREE COUNT (psi_gamma
+mean weight 5.25m vs the 5m-1 need — NOT self-defeating, ~5%
+headroom) or the overdetermined bivariate system
+P_x(Z) = lambda_x prod_{A_x}(Z-gamma)(Z-mu(x)). The census's
+(SAT3) zero-power carries: T = 3 everywhere; F2 (a T = rho+2
+configuration with a* > 7m-1) remains the live falsifier. Pilot
+process note: it caught its own false vacuity fence mid-session
+(min <= mean does not kill proven floors) — the check that saved
+a live route.

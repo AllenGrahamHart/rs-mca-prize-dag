@@ -1,0 +1,65 @@
+d4_deficient.py -- rh_farca_upper round 32
+[F_11] irreducible monic quadratics: 55
+
+========================================================================
+DEFICIENT PROBE  n=9 k=2 a=5 r=4 R=7 q=11 R-r=3 r+1=5  [P irreducible quadratic, R-r=3]
+  planes probed=55  column-far=55  rho histogram={2: 55}
+  MAX bad-point count over column-far deficient planes = 0   (UB-DEFICIENT predicts <= rho)
+  witness (P, rho, bad points) = ((1, 0, 1), 2, [])
+  UB-DEFICIENT VIOLATIONS (T > rho) = 0
+
+========================================================================
+DEFICIENT PROBE  n=9 k=2 a=5 r=4 R=7 q=11 R-r=3 r+1=5  [CONTROL: P split over D (expect column-close)]
+  planes probed=20  column-far=0  rho histogram={2: 20}
+  MAX bad-point count over column-far deficient planes = -1   (UB-DEFICIENT predicts <= rho)
+  witness (P, rho, bad points) = None
+  UB-DEFICIENT VIOLATIONS (T > rho) = 0
+
+========================================================================
+DEFICIENT PROBE  n=8 k=1 a=4 r=4 R=7 q=11 R-r=3 r+1=5  [P irreducible quadratic, R-r=3, k=1]
+  planes probed=55  column-far=55  rho histogram={2: 55}
+  MAX bad-point count over column-far deficient planes = 0   (UB-DEFICIENT predicts <= rho)
+  witness (P, rho, bad points) = ((1, 0, 1), 2, [])
+  UB-DEFICIENT VIOLATIONS (T > rho) = 0
+
+q-LADDER  n=7 k=2 a=4 r=3 R=5 q=11  r+1=4 C(n,r)=35 q+1=12  samples=40000
+  T dist = {0: 763, 1: 6675, 2: 12893, 3: 9479, 4: 5017, 5: 3788, 6: 1091, 7: 159, 8: 36}
+  sampled MAX T = 8  (ratio to r+1 = 2.000; fraction of q+1 = 0.667)
+  witness = ([5, 8, 7, 5, 4], [4, 10, 7, 4, 3], [0, 2, 3, 4, 5, 7, 8, 9])
+
+q-LADDER  n=7 k=2 a=4 r=3 R=5 q=13  r+1=4 C(n,r)=35 q+1=14  samples=40000
+  T dist = {0: 1644, 1: 9416, 2: 14132, 3: 7635, 4: 3731, 5: 2607, 6: 673, 7: 88, 8: 27}
+  sampled MAX T = 8  (ratio to r+1 = 2.000; fraction of q+1 = 0.571)
+  witness = ([5, 7, 3, 9, 5], [2, 6, 1, 12, 9], [0, 3, 5, 6, 7, 9, 10, None])
+
+q-LADDER  n=7 k=2 a=4 r=3 R=5 q=17  r+1=4 C(n,r)=35 q+1=18  samples=40000
+  T dist = {0: 3779, 1: 13555, 2: 13410, 3: 4969, 4: 2391, 5: 1546, 6: 289, 7: 35, 8: 11}
+  sampled MAX T = 8  (ratio to r+1 = 2.000; fraction of q+1 = 0.444)
+  witness = ([8, 0, 14, 6, 0], [6, 4, 12, 10, 5], [0, 4, 5, 6, 9, 11, 12, 16])
+
+q-LADDER  n=7 k=2 a=4 r=3 R=5 q=23  r+1=4 C(n,r)=35 q+1=24  samples=40000
+  T dist = {0: 7435, 1: 16805, 2: 10674, 3: 2692, 4: 1422, 5: 833, 6: 123, 7: 10, 8: 1}
+  sampled MAX T = 8  (ratio to r+1 = 2.000; fraction of q+1 = 0.333)
+  witness = ([9, 22, 6, 22, 21], [19, 14, 18, 9, 11], [4, 7, 13, 14, 16, 17, 20, 22])
+
+q-LADDER  n=7 k=2 a=4 r=3 R=5 q=31  r+1=4 C(n,r)=35 q+1=32  samples=40000
+  T dist = {0: 11998, 1: 17676, 2: 7594, 3: 1431, 4: 867, 5: 389, 6: 43, 8: 2}
+  sampled MAX T = 8  (ratio to r+1 = 2.000; fraction of q+1 = 0.250)
+  witness = ([13, 1, 13, 27, 26], [19, 22, 25, 1, 21], [1, 3, 6, 7, 10, 17, 27, 30])
+
+q-LADDER  n=8 k=3 a=5 r=3 R=5 q=11  r+1=4 C(n,r)=56 q+1=12  samples=30000
+  T dist = {0: 36, 1: 702, 2: 3627, 3: 7011, 4: 6778, 5: 5459, 6: 4064, 7: 1615, 8: 455, 9: 118, 10: 12}
+  sampled MAX T = 10  (ratio to r+1 = 2.500; fraction of q+1 = 0.833)
+  witness = ([3, 2, 5, 10, 3], [2, 2, 10, 8, 4], [0, 2, 3, 4, 5, 6, 7, 8, 10, None])
+
+q-LADDER  n=8 k=3 a=5 r=3 R=5 q=13  r+1=4 C(n,r)=56 q+1=14  samples=30000
+  T dist = {0: 113, 1: 1612, 2: 5872, 3: 7772, 4: 5909, 5: 4385, 6: 2976, 7: 963, 8: 259, 9: 73, 10: 5}
+  sampled MAX T = 10  (ratio to r+1 = 2.500; fraction of q+1 = 0.714)
+  witness = ([6, 0, 9, 10, 1], [4, 0, 1, 9, 11], [0, 1, 2, 4, 5, 7, 9, 10, 12, None])
+
+q-LADDER  n=8 k=3 a=5 r=3 R=5 q=17  r+1=4 C(n,r)=56 q+1=18  samples=30000
+  T dist = {0: 594, 1: 4134, 2: 8713, 3: 7523, 4: 4105, 5: 2910, 6: 1466, 7: 410, 8: 104, 9: 22, 10: 3}
+  sampled MAX T = 10  (ratio to r+1 = 2.500; fraction of q+1 = 0.556)
+  witness = ([2, 10, 6, 6, 13], [6, 10, 0, 3, 4], [0, 1, 3, 5, 7, 8, 10, 11, 12, 16])
+
+elapsed 20.0s

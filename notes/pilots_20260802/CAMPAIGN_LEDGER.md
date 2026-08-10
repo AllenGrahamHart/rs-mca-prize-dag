@@ -5130,3 +5130,85 @@ directions (under-transport is a seam class too). **THE EXPORT
 GATE IS PASSED: the Haboeck packet (import + bracket + both
 fences) is EXPORT-READY.** All four pilot scripts
 coordinator-replayed. Files: notes/pilots_20260810/rh_haboeck_seam/.
+
+## ROUND 32 BANKS 2/4 + 3/4 + 4/4 (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANK 2 — rh_farca_upper: THE BRACKET'S ANATOMY.** The open
+bracket = the gap between the unique-decoding radius (3n/4 EXACTLY
+— the tall/wide pencil boundary) and the counting wall sqrt(nk) =
+0.7071n (all four instruments; best-anchor deficit 1.3924564).
+FIRST INTERIOR BOUNDS: UB-NEAR unconditional (deep-stratum
+complement <= 2^39-1, 89.00 bits under budget) + UB-FIXED
+conditional ((HK2) has no radius hypothesis; <= a-k = 2^34, 94
+bits; class thin 0/1700). The (MI1) single-generator step REFUTED
+in the wide regime by exhibition (gcd degree 0 at 10/11 slopes;
+second apolar generator always enters at rho = R-r) — FORCED SCOPE
+CORRECTION applied to minimal_index_budget (narrowed to r < R/2;
+deployed corollary untouched; status unchanged). THE FLOOR
+n-a+1 NOT TIGHT INTERIOR (working conjecture refuted twice) — the
+-lo floor-tightness shortcut is dead. q-INDEPENDENCE of the
+extremal count observed (2 cells, 5 fields). Residuals named:
+R-DEEP / R-MOVING (one generator FORCED FIXED — the crack) /
+R-KER. Coordinator replays: d1_prices, d6_kernel (the MI2
+3-vs-T=4 kill), d5_minindex — green. My own brief's "2^216 upper
+bound" misread banked as a coordinator error. One disclosed no-op
+bare-python3 breach — accepted with flag.
+
+**BANK 3 — rh_residuals_close: THE LEDGER, EXACT.** Residual (i)
+= ONE integer, w* = (2^41+1)/3 = 733007751851, certified by
+divisor-block enumeration (not search); deficit exactly 1;
+obstruction sigma_W*(linear); INCIDENCE-FENCED at m=2 (K_7 vertex
+stars) — residuals (i) and (ii) are ONE algebraic frontier. GAP
+LAW corrected against round 29: 3 iff m = 1 mod 3 else 1,
+exceptions {1,5,8} — **the m=8 (AO1) band has a HOLE (gap size 2);
+"1 or 3" was FALSE and range-notation hid it** (coordinator
+replayed d1_gap + d1b_holes). RESIDUAL (iii) RETIRED: m=1 is the
+PROVED counterexample node (independent disjoint-route replay, 16
+configs) — and NEW: it is a q=17 ARTIFACT (exhaustive at 10
+fields: 16 at q=17, 0 at q in {97..433}; coordinator replayed both
+ends) — "uniformly in m" sharpens to "uniformly in (m,q)". The
+budget x region table banked (budget 2^39 DEAD at 3n/4 by LB1).
+T3 SKIP FRACTION MEASURED = 0.894009 (0/5842 guard passes at a=5 —
+T3 100% vacuous exactly where needed; the round-31 inference
+discharged; coordinator replayed d4_skip). 9/4 precision nit
+banked. ONE QUARANTINE BREACH disclosed (4 ledger lines surfaced
+by one unexcluded grep; content unused; subsequent greps excluded)
+— accepted with flag, noted as the round's process exhibit.
+Pilot withdrew its own false accusation against round 29 (miss 1)
+— the discipline working.
+
+**BANK 4 — rh_fr_algebraic: (FR) PROVED, INSUFFICIENT.**
+FR-CANONICAL: at a minimising pair union W*, |S^W*| <=
+4rho-2a*-2o-o_g-o_h (two lines, cardinalities only, no saturation)
+— <= 2m-2 at a* = 7m-1. The (FR) quantifier over W was never
+fixed: arbitrary-W (FR) is REALIZABLY FALSE at m=3; the wave-57
+fence's own system satisfies FR-canonical at ALL 32896 pair unions
+(max 115 <= 128 EXHAUSTIVE — its 189 lives at a non-pair-union W).
+FENCE-NODE ADDENDUM APPLIED (the missing axiom was combinatorial —
+"W is a pair union" — not f_gamma/pencil/apolar; fence itself
+remains PROVED for arbitrary W). LEDGER: 9/4 -> 7/4 over the band
+(9/8 at the banked point); argmax moves to (20m-2)/3; band
+unchanged; NEITHER BUDGET MOVES; the missing step = a factor of
+EXACTLY 8/5 (X <= a/4 needed vs min(a-(4m+2), 4rho-2a) proved).
+Next instruments: the psi_gamma degree count (mean 5.25m vs need
+5m-1 — not self-defeating) or the overdetermined bivariate system.
+The round-31 "9/4 is the combinatorial ceiling" REFUTED IN PART.
+D1 as posed UNRESOLVED and demoted to not-worth-answering (honest
+pivot, declared). Pilot self-caught a false vacuity fence
+mid-session. Coordinator replays: d4_verdict + d1_fence green;
+FR-CANONICAL hand-verified (the coordinator's own argmax slip
+caught and corrected in the process).
+
+**ROUND 32 COMPLETE: 4/4 banked, 0 status flips, census unchanged
+231 = 167/37/27. THE ROUND'S SHAPE: the Haboeck chain certified
+and export-ready (bank 1); the bracket's anatomy exact (two
+classical radii; first interior bounds; the -lo shortcut dead);
+the residual ledger exact (residual (i) = one integer, (iii)
+retired as a q=17 artifact, (i)+(ii) = one algebraic frontier now
+priced 7/4 with the missing 8/5 named); (FR) proved at the
+canonical W. RH-AC's open content after round 32: R-DEEP/R-MOVING
+(the far-CA deep stratum), the 8/5 on the type-2 frontier (degree
+count or bivariate system), the located crossing itself. THREE
+banked-claim corrections this round (round-29's "1 or 3"; my
+"2^216" brief line; round-31's "combinatorial ceiling") — the
+audit cadence unbroken across five rounds.**

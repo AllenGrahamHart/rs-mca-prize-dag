@@ -1,0 +1,47 @@
+==========================================================================
+D3 (round 32) FR CENSUS   m=4 q=193   rho=15 N=64 R+1=33
+   incidence bound 3m-3 = 9 ;  target 2m = 8 ;  2(m-1) = 6
+==========================================================================
+
+PRE-REGISTERED (PREREG R4): P4.1 planted-W max |S^W| exceeds 2m and
+reaches rho-(R+1-a)=12 ; P4.2/P4.3 zero (OV+)/(FR) violations at the
+canonical W* ; P4.4 census cannot separate 2m from 3m-3 ; P4.5 T_1=2.
+
+  planted a=30    : pencils=78    canonical passes=78   
+  planted a=24    : pencils=120   canonical passes=78   
+
+--- RESULTS ---
+  planted W  : max |S_gamma ^ W| over 78 pencils : max 12  mean 5.987
+               vs 2m=8 : exceeded in 24 / 78 pencils
+               vs 3m-3=9 : exceeded in 17 / 78 pencils
+  planted W, MANDATE STRATUM ONLY (non-minimum-weight, j>=1): 72 pencils, max 11, vs 2m=8 exceeded in 18, vs 3m-3=9 exceeded in 11
+  canonical W*: a* histogram [22, 23, 24, 25, 26, 27, 28, 29, 30]
+               max |S_gamma ^ W*| : max 6  mean 2.333
+               vs 2m=8 : exceeded in 0 / 78
+               vs 2(2rho-a*) (the theorem) : exceeded in 0 / 78
+               vs 3m-3=9 : exceeded in 0 / 78
+     a*     n    max X   maxT   2(2rho-a*)   2m   3m-3
+     22     3       3      3          16     8      9
+     23     6       5      3          14     8      9
+     24    10       6      3          12     8      9
+     25     8       5      3          10     8      9
+     26    14       4      3           8     8      9
+     27    10       3      3           6     8      9
+     28    13       2      3           4     8      9
+     29     8       1      3           2     8      9
+     30     6       0      3           0     8      9
+  (all X above are over TYPE-2 slopes only -- type-1 supports lie in W* by definition)
+  closure threshold need_X = rho - (floor((N-a*)e/(T-2))+1) per a*: [(22, 3), (23, 4), (24, 4), (25, 4), (26, 4), (27, 5), (28, 5), (29, 5), (30, 5)]
+  T_1 histogram at W* : [(2, 78)]
+  T   histogram at W* : [3]
+
+--- FALSIFIERS ---
+  (FIB) fibres partition W*        : OK 78  BAD 0
+  (OV+) n_g - |S^F_g| <= p_gamma   : OK 1155  BAD 0
+  (C2)  p >= R+1-a*+n_gamma        : OK 78  BAD 0
+  (FR)  X <= 2(2rho-a*)            : OK 78  BAD 0
+  a* minimality violations         : 0
+  (round-31 carried checks) GNF OK 0 BAD 0 ; w*_bad 0 ; TR1' bad 0
+
+  max T over all pencils = 3   (rho+2 = 17)  -> (SAT3) UNTESTED: True
+=== END d3_frcensus m=4 q=193 ===

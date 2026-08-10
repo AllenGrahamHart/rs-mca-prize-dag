@@ -1,0 +1,99 @@
+==========================================================================
+D1c(A)  INCIDENCE FEASIBILITY at the gap integer a*  (necessary conditions)
+==========================================================================
+
+  m = 2 :  N=32 rho=7 T=rho+2=9  a*=11  s=6  T1=2  T2=7  CAP=7
+    AO1 = T1 + CAP = 9  vs rho+1 = 8   deficit 1
+    sum_x d_x = T*rho = 63 ; N*e = 64 ; sum_x (e-d_x) = 1 (must be 1+O)
+    outside capacity (N-a)e = 42 ; min type-2 spend T2*s = 42 ; slack 0
+    => #{minimum-weight type-2} >= 7  ((5m-10)/3 = 0)
+    type-1: |K_gamma| = a-rho = 4, pairwise disjoint, T1*K = 8 <= a = 11 : True
+    type-1 pair overlap forced to 2rho-a = 3 (>= 0 : True)
+    type-2: |S n W| <= rho - s = 1 ; sum over type-2 of |S n W| = 7..8
+      mean |S n W| over type-2 = 1.1429 (max allowed 1)
+      MEAN <= MAX feasible: False
+    (OV) pair-sum: Lmin(0) = 31 <= C(T,2)(2rho-a) = 108 : True
+    ==> NO numerical obstruction at a* from the incidence axioms.
+
+  m = 8 :  N=128 rho=31 T=rho+2=33  a*=43  s=22  T1=3  T2=30  CAP=30
+    AO1 = T1 + CAP = 33  vs rho+1 = 32   deficit 1
+    sum_x d_x = T*rho = 1023 ; N*e = 1024 ; sum_x (e-d_x) = 1 (must be 1+O)
+    outside capacity (N-a)e = 680 ; min type-2 spend T2*s = 660 ; slack 20
+    => #{minimum-weight type-2} >= 10  ((5m-10)/3 = 10)
+    type-1: |K_gamma| = a-rho = 12, pairwise disjoint, T1*K = 36 <= a = 43 : True
+    type-1 pair overlap forced to 2rho-a = 19 (>= 0 : True)
+    type-2: |S n W| <= rho - s = 9 ; sum over type-2 of |S n W| = 250..251
+      mean |S n W| over type-2 = 8.3667 (max allowed 9)
+      MEAN <= MAX feasible: True
+    (OV) pair-sum: Lmin(0) = 3577 <= C(T,2)(2rho-a) = 10032 : True
+    ==> NO numerical obstruction at a* from the incidence axioms.
+
+  m = 32 :  N=512 rho=127 T=rho+2=129  a*=171  s=86  T1=3  T2=126  CAP=126
+    AO1 = T1 + CAP = 129  vs rho+1 = 128   deficit 1
+    sum_x d_x = T*rho = 16383 ; N*e = 16384 ; sum_x (e-d_x) = 1 (must be 1+O)
+    outside capacity (N-a)e = 10912 ; min type-2 spend T2*s = 10836 ; slack 76
+    => #{minimum-weight type-2} >= 50  ((5m-10)/3 = 50)
+    type-1: |K_gamma| = a-rho = 44, pairwise disjoint, T1*K = 132 <= a = 171 : True
+    type-1 pair overlap forced to 2rho-a = 83 (>= 0 : True)
+    type-2: |S n W| <= rho - s = 41 ; sum over type-2 of |S n W| = 5090..5091
+      mean |S n W| over type-2 = 40.4048 (max allowed 41)
+      MEAN <= MAX feasible: True
+    (OV) pair-sum: Lmin(0) = 253921 <= C(T,2)(2rho-a) = 685248 : True
+    ==> NO numerical obstruction at a* from the incidence axioms.
+
+  m = 137438953472 :  N=2199023255552 rho=549755813887 T=rho+2=549755813889  a*=733007751851  s=366503875926  T1=3  T2=549755813886  CAP=549755813886
+    AO1 = T1 + CAP = 549755813889  vs rho+1 = 549755813888   deficit 1
+    sum_x d_x = T*rho = 302231454903657293676543 ; N*e = 302231454903657293676544 ; sum_x (e-d_x) = 1 (must be 1+O)
+    outside capacity (N-a)e = 201487636602392382799872 ; min type-2 spend T2*s = 201487636602071691908436 ; slack 320690891436
+    => #{minimum-weight type-2} >= 229064922450  ((5m-10)/3 = 229064922450)
+    type-1: |K_gamma| = a-rho = 183251937964, pairwise disjoint, T1*K = 549755813892 <= a = 733007751851 : True
+    type-1 pair overlap forced to 2rho-a = 366503875923 (>= 0 : True)
+    type-2: |S n W| <= rho - s = 183251937961 ; sum over type-2 of |S n W| = 100743818299615643435010..100743818299615643435011
+      mean |S n W| over type-2 = 183251937960.4167 (max allowed 183251937961)
+      MEAN <= MAX feasible: True
+    (OV) pair-sum: Lmin(0) = 20769187433988194786670019231088641 <= C(T,2)(2rho-a) = 55384499824119635158571605051834368 : True
+    ==> NO numerical obstruction at a* from the incidence axioms.
+
+==========================================================================
+D1c(B)  EXPLICIT incidence-only set system at m = 2, a* = 11
+==========================================================================
+  W = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]   (|W| = a = 11)
+  type-1 blocks (S subset W):
+    [4, 5, 6, 7, 8, 9, 10]
+    [0, 1, 2, 3, 8, 9, 10]
+  type-2 blocks (K_7 vertex star + one W point):
+    [0, 11, 12, 13, 14, 15, 16]
+    [1, 11, 17, 18, 19, 20, 21]
+    [2, 12, 17, 22, 23, 24, 25]
+    [3, 13, 18, 22, 26, 27, 28]
+    [4, 14, 19, 23, 26, 29, 30]
+    [5, 15, 20, 24, 27, 29, 31]
+    [6, 16, 21, 25, 28, 30, 31]
+
+  [OK] block count = T = rho+2                                    9 = 9
+  [OK] every |S_gamma| = rho                                      sizes [7]
+  [OK] d_x <= e = m                                               max d_x = 2
+  [OK] sum_x (e - d_x) = 1 + O with O = 0                         = 1
+  [OK] T1 blocks are inside W                                     
+  [OK] type-2 spend |S \ W| >= s = R+1-a                          spends [6] (s = 6)
+  [OK] (OV): |S u S'| >= w* = a for every pair                    min union = 11, a = 11
+  [OK] incidence identity sum_pairs |S n S'| = sum_x C(d_x,2)     31 = 31
+  [OK] pairwise overlap <= 2rho - a                               max overlap 3 <= 3
+  [OK] #minimum-weight type-2 >= (5m-10)/3                        7 min-weight of 7 type-2 ((5m-10)/3 = 0)
+  [OK] T_1 = 2 and T_2 = 7 as forced by AO1                       
+
+  ALL INCIDENCE AXIOMS SATISFIED: True
+
+  CONSEQUENCE (the residual-(i) analogue of the wave-57 fence):
+  at the gap integer a* = 11 of the m = 2 profile -- same residue class
+  m = 2 mod 3 and the same RIG = -2 as the OFFICIAL gap integer -- the
+  numerical endpoint axioms (block sizes, d_x <= e, the exact saturation
+  deficit, pairwise union (OV), the MDS spend floor (C2)) are SATISFIABLE
+  with T = rho+2.  So no proof using ONLY those cardinalities can close
+  residual (i) either.  The closure must come from the algebra: T4's
+  divisibility at RIG = -2.
+
+  SCOPE, stated against my own claim: this is an explicit system at
+  m = 2 only.  For m = 8, 32, 2^37 part (A) gives integer feasibility of
+  the NECESSARY conditions, which is NOT a construction -- exactly the
+  over-reading that round 31 self-falsified (rh_type2_stratum MISS 2).
