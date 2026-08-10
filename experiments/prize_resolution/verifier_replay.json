@@ -2,25 +2,17 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 1,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify.py",
-      "seconds": 0.062436,
+      "script": "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
+      "seconds": 0.026703,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_KB_POSITIVE_433_1B_O0B_CELL11_SELECTED_BOUNDARY_PASS rows=8 base_roots=8 deployed_roots=0 field_points=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_cofactor_deployed_boundary_exclusion/verify_audit.py",
-      "seconds": 0.038149,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "PASS cell11 selected-cofactor boundary hostile audit: 8/8\n"
+      "stdout_tail": "PASS active-BC component bridge conditional dependencies=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

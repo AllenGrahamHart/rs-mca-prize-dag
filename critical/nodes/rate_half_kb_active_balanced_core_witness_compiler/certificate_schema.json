@@ -1,0 +1,63 @@
+{
+  "schema": "rate-half-kb-active-bc-certificate-v1",
+  "architecture_id": "GRANDE_FINALE_V4_KB_MCA_TANGENT_SOURCE_ADAPTER_V1",
+  "partition_sha256": "4fade91abc408264989babcff6f8f9bbd80bcec52545a5db15ac376bf17d88fc",
+  "row": {
+    "base_prime": 2130706433,
+    "extension_degree": 6,
+    "domain_size": 2097152,
+    "code_dimension": 1048576,
+    "effective_mca_locator_dimension": 1048577,
+    "agreement": 1116048,
+    "locator_degree": 981104,
+    "balanced_depth": 67471
+  },
+  "predicate_semantics": {
+    "name": "HAS_ACTIVE_V4_BALANCED_CORE_CERTIFICATE",
+    "definition": "EXISTS_VALID_CERTIFICATE",
+    "balanced_profile": "MINIMAL_SHIFTED_DEGREE_AT_LEAST_BALANCED_DEPTH_PLUS_ONE",
+    "first_match_exclusions": [
+      "SOURCE_COORDINATE_TANGENT_IMAGE",
+      "ACTIVE_V4_BOUNDARY_PREFIX_Q"
+    ]
+  },
+  "required_fields": [
+    "received_line_id",
+    "affine_slope",
+    "received_word",
+    "explaining_data",
+    "agreement_support",
+    "nonagreement_support",
+    "split_locator_W",
+    "lattice_numerator_N",
+    "canonical_shifted_reduced_basis",
+    "minimal_shifted_degree",
+    "common_planted_quotient_tags",
+    "first_match_owner_trace"
+  ],
+  "guards": [
+    "W_MONIC",
+    "DEG_W_EQUALS_981104",
+    "W_SQUAREFREE_AND_DIVIDES_DOMAIN_POLYNOMIAL",
+    "W_TIMES_RECEIVED_WORD_EQUALS_N_ON_DOMAIN",
+    "ACTIVE_SHIFTED_DEGREE_CAP",
+    "MINIMAL_SHIFTED_DEGREE_AT_LEAST_67472",
+    "SUPPORTS_ARE_EXACT_COMPLEMENTS",
+    "AGREEMENT_SUPPORT_SIZE_EQUALS_1116048",
+    "NOT_EARLIER_TANGENT_OWNER",
+    "NOT_EARLIER_Q_OWNER"
+  ],
+  "canonical_selector": {
+    "order": "LEXICOGRAPHIC_OVER_PUBLIC_FIELD_BASIS_DOMAIN_COEFFICIENT_SUPPORT_AND_TAG_ORDERS",
+    "selected_per_active_slope": 1,
+    "selected_certificate_to_slope_fiber": 1,
+    "slope_to_selected_certificate_fiber": 1
+  },
+  "nonclaims": [
+    "NO_Q6_S6_U2_ENDPOINT_REALIZATION",
+    "NO_PARAMETER_TO_CARRIER_IDENTIFICATION",
+    "NO_DISTINCT_SLOPE_BOUND",
+    "NO_BALANCED_CORE_PAYMENT",
+    "NO_K3_OR_ROW_CLOSE"
+  ]
+}

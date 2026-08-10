@@ -1,12 +1,16 @@
 # Attack
 
-1. Expand the predicate `HAS_ACTIVE_V4_BALANCED_CORE_CERTIFICATE` from the
-   frozen partition into its source-bound witness data.
-2. Reconstruct the endpoint map and outgoing component directly from that
-   witness, retaining the original support and slope as labels.
-3. Prove the Q6/s6/u2 hypotheses used by the existing component chain.
-4. Compose the proved degree routers and the full-V4 exclusion to obtain the
-   two live types.
-5. Compute the exact fibers of the slope-to-record assignment. For an empty
-   component route, coverage is enough; a nonzero route also needs this
-   multiplicity for its slope payment.
+The hidden interface has been split into two red leaves.
+
+1. `rate_half_kb_active_balanced_core_witness_compiler` must replace the
+   symbolic `bcCertified` Boolean by explicit source-bound witness data and
+   prove exact first-match projection to `Z_BC`.
+2. `rate_half_kb_active_bc_q6_endpoint_realization` must reconstruct the
+   endpoint map and actual component from that witness, retaining the
+   received line, support, slope, chronology, and exact fibers.
+3. Compose those outputs with the proved degree routers and full-V4
+   exclusion. This is the conditional step recorded here.
+
+The proved semantic-gap audit gives a finite countermodel to any attempted
+derivation from the partition contract alone. Do not perform further raw
+workboard enumeration as a substitute for either red leaf.

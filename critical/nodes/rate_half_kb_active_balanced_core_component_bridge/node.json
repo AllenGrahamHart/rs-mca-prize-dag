@@ -3,16 +3,23 @@
   "node": {
     "id": "rate_half_kb_active_balanced_core_component_bridge",
     "title": "KoalaBear active balanced-core bad-slope to component bridge",
-    "status": "TARGET",
-    "statement": "For the deployed KoalaBear MCA row and frozen Grande Finale v4 first-match partition, every slope in the active Z_BC cell is assigned, on the same received line and without changing its witness support or affine slope, to an actual Q=6,s=6,u=2 endpoint record and one residual component. Existing decomposition routers then place it in exactly one of the live types (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and prints either an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
+    "status": "CONDITIONAL",
+    "statement": "Conditional on a concrete source-bound compiler for the active balanced-core certificate and a same-record realization of each compiled witness as an actual Q=6,s=6,u=2 endpoint component, every slope in the deployed KoalaBear Z_BC cell is assigned on the same received line, with its support and affine slope unchanged, to exactly one live component type (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and carries an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
     "falsifier": "An active Z_BC slope with no actual component record, a component outside the two live types, two owners assigned to one slope, loss of support or affine-slope identity, or an unbounded/unprinted record multiplicity.",
     "refs": [
       "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
       "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
-      "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md"
+      "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md",
+      "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/conditional.md",
+      "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
+      "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
+      "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md"
     ]
   },
-  "requires": [],
+  "requires": [
+    {"from": "rate_half_kb_active_balanced_core_witness_compiler"},
+    {"from": "rate_half_kb_active_bc_q6_endpoint_realization"}
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

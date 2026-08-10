@@ -6,21 +6,40 @@ This lane attacks the deployed KoalaBear rate-half band required by
 ## Current K3 gate
 
 The raw `433-1b -> O0a` workboard is now completely empty, but that is a
-component-system theorem rather than an active bad-slope payment. The binding
-frontier is the source-bound map from the frozen active `Z_BC` slope cell to
-actual endpoint component records, with exact slope-to-record fibers.
+component-system theorem rather than an active bad-slope payment. A semantic
+audit proves that the frozen active partition treats `bcCertified` as an
+arbitrary Boolean predicate and provides no structured witness payload. The
+K3 chain begins only after an actual endpoint record has been supplied.
+
+The former bridge was therefore split into a source-bound balanced-core
+certificate compiler and a same-record endpoint realization. The compiler is
+now PROVED: it instantiates `bcCertified` by the active shifted-lattice
+certificate relation, proves exact first-match projection, and selects one
+certificate per slope with unit fibers. The remaining binding red is to
+realize each canonical certificate as an actual `Q=6,s=6,u=2` endpoint
+record. The composition is an honest amber theorem. The audit's finite
+countermodel proves only that the old contracts did not imply this bridge,
+not that the intended balanced-core statement is false.
 
 At component level, the order-two `(m,r,delta)=(2,4,2)` frontier is proved to
 split into coordinate, source-line, and biquadratic source-cover branches.
 The active assembly must additionally retain the trivial-stabilizer
-`(2,8,1)` type. The remaining red leaves are the active bridge, eleven
-positive routes, the unsolved source-line rows, source-cover workboard,
-trivial-stabilizer payment, balanced-core allocation definition, and fresh
-independent review.
+`(2,8,1)` type. Downstream red leaves remain the eleven positive routes, the
+unsolved source-line rows, source-cover workboard, trivial-stabilizer payment,
+balanced-core allocation definition, and fresh independent review.
+
+Upstream `main` currently phrases its final MCA route as same-owner
+`(S)` spread routing, `(A)` large-owner control, and `(E)` exception routing.
+That is an alternative completion architecture, not evidence that the K3
+endpoint realization exists. The concrete active-BC witness is now available
+to both routes. Compare direct v4 `(S)/(A)/(E)` routing against the K3 endpoint
+route before doing more raw-cell work.
 
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard
-`18-k3-bridge-and-allocation-refactor-20260810.md` for the corrected sub-DAG.
+`18-k3-bridge-and-allocation-refactor-20260810.md` and
+`19-active-bc-semantic-gap-20260810.md` for the corrected sub-DAG and route
+decision.
 
 ## Current decomposition
 

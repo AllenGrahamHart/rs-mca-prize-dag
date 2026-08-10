@@ -29994,13 +29994,68 @@
   {
    "id": "rate_half_kb_active_balanced_core_component_bridge",
    "title": "KoalaBear active balanced-core bad-slope to component bridge",
-   "status": "TARGET",
-   "statement": "For the deployed KoalaBear MCA row and frozen Grande Finale v4 first-match partition, every slope in the active Z_BC cell is assigned, on the same received line and without changing its witness support or affine slope, to an actual Q=6,s=6,u=2 endpoint record and one residual component. Existing decomposition routers then place it in exactly one of the live types (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and prints either an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
+   "status": "CONDITIONAL",
+   "statement": "Conditional on a concrete source-bound compiler for the active balanced-core certificate and a same-record realization of each compiled witness as an actual Q=6,s=6,u=2 endpoint component, every slope in the deployed KoalaBear Z_BC cell is assigned on the same received line, with its support and affine slope unchanged, to exactly one live component type (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and carries an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
    "falsifier": "An active Z_BC slope with no actual component record, a component outside the two live types, two owners assigned to one slope, loss of support or affine-slope identity, or an unbounded/unprinted record multiplicity.",
    "refs": [
     "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
     "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
-    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md"
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/conditional.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/verify.py",
+    "background/nodes/rate_half_kb_m3_primitive_outer_degree2_router/statement.md",
+    "background/nodes/rate_half_kb_m2_r2_dihedral_full_v4_exclusion/statement.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_balanced_core_witness_compiler",
+   "title": "KoalaBear active balanced-core source-witness compiler",
+   "status": "PROVED",
+   "closure": "explicit shifted-lattice certificate semantics plus canonical finite selection",
+   "statement": "For every admissible received line in the deployed KoalaBear MCA row, the named active-v4 bcCertified predicate is instantiated by existence of an explicit finite shifted-lattice balanced-core certificate. The certificate records the original line and affine slope, active MCA lattice and canonical reduced basis, a degree-981104 split locator/support witness, explaining data, balanced depth w=67471, earlier-owner exclusions, and chronology. The first-match cell Z_BC is exactly the slope projection of valid certificates after tangent and Q. Lexicographic minimization selects exactly one certificate per Z_BC slope, so the selected-certificate-to-slope map is bijective and every selector fiber is one. No endpoint component, K3 payment, or row close is claimed.",
+   "falsifier": "A Z_BC slope with no valid source certificate, a valid certificate projecting outside Z_BC, nondeterministic or non-finite selector fibers, or loss of received-line, slope, support, locator, depth, or chronology data.",
+   "refs": [
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/statement.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/proof.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/claim_contract.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/source_evidence.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/certificate_schema.json",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/audit.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/result.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/frontier.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify.py",
+    "critical/nodes/rate_half_kb_active_balanced_core_witness_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "title": "KoalaBear active balanced-core partition semantic-gap audit",
+   "status": "PROVED",
+   "closure": "finite logical countermodel plus source-contract audit",
+   "statement": "The frozen Grande Finale v4 tangent-source partition proves exact first-match set algebra for arbitrary Q and bcCertified predicates, but supplies no source-bound data or semantic restriction for bcCertified. A one-slope finite countermodel satisfies bad-slope exhaustion, first-owner uniqueness, and pairwise disjointness while Z_BC is nonempty and the endpoint-record set is empty. Therefore the active partition contract alone cannot imply a Z_BC-to-Q6 endpoint bridge. Independently, the K3 source-pencil packets quantify over supplied actual endpoint records and explicitly disclaim received-data, slope, owner, and parameter-to-carrier descent. This is a logical-independence and provenance result, not a counterexample to a future concretely defined balanced-core theorem.",
+   "refs": [
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/statement.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/proof.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/claim_contract.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/source_evidence.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/dependency_subdag.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/audit.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/result.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/frontier.md",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify.py",
+    "background/nodes/rate_half_kb_active_bc_partition_semantic_gap_audit/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "title": "KoalaBear active balanced-core witness to Q6 endpoint realization",
+   "status": "TARGET",
+   "statement": "For every canonical source certificate emitted by rate_half_kb_active_balanced_core_witness_compiler, prove the equality-wall Q=6,s=6,u=2 hypotheses and construct on the same received line an actual endpoint record and residual component. Preserve the certificate's affine slope, selected support, explaining data, and first-match owner; keep the endpoint parameter line distinct from the evaluation carrier; and print an injection or exact finite multiplicity for every certificate-to-record and record-to-component fiber.",
+   "falsifier": "A valid active balanced-core source certificate that does not satisfy the Q6,s6,u2 endpoint hypotheses, has no actual residual component, changes owner/support/slope, conflates parameter and carrier coordinates, or has an uncontrolled realization fiber.",
+   "refs": [
+    "critical/nodes/rate_half_kb_active_bc_q6_endpoint_realization/statement.md",
+    "critical/nodes/rate_half_kb_active_bc_q6_endpoint_realization/attack.md"
    ]
   },
   {
@@ -62014,6 +62069,36 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_active_balanced_core_witness_compiler",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_balanced_core_witness_compiler",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "to": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_bc_q6_endpoint_realization",
+   "to": "rate_half_kb_active_balanced_core_component_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_decomposition_source_pencil_compiler",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion",
    "kind": "req"
@@ -66944,8 +67029,18 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_kb_source_pencil_rank_transverse_compiler",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_v4_balanced_core_allocation_definition",
    "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_v4_tangent_source_atom",
+   "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
    "kind": "req"
   },
   {
