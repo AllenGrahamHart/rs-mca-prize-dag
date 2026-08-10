@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify.py",
-      "seconds": 0.322231,
+      "script": "background/nodes/rate_half_bivariate_top_vandermonde_schur_reduction/verify.py",
+      "seconds": 0.017947,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_PASS pairs=10 rank=5\n"
+      "stdout_tail": "RATE_HALF_BIVARIATE_TOP_VANDERMONDE_SCHUR_REDUCTION_PASS cases=3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify_audit.py",
-      "seconds": 0.031063,
+      "script": "background/nodes/rate_half_bivariate_top_vandermonde_schur_reduction/verify_audit.py",
+      "seconds": 0.019848,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_AUDIT_PASS pairs=10\n"
+      "stdout_tail": "RATE_HALF_BIVARIATE_TOP_VANDERMONDE_SCHUR_REDUCTION_AUDIT_PASS m1_pairs=10 residual_width=1 residual_rank=0\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
