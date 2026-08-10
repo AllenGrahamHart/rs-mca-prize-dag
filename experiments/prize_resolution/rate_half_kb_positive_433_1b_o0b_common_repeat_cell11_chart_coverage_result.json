@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "basis_size": 1,
+      "bc_sign": -1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "6e276224887fd7faceb39918cce90ba868a16a829cd31b46437e6aaaaf0f6d6d",
+      "seconds": 0.6441758689999999,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": 1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "c5a1bd7920a8291b179264d3950f035e8c1553df55eabf2924be9a80708dbc06",
+      "seconds": 0.13455710500000007,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": -1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "935e36784313f430f3ff039af406e362405b4be1a26e351d5271b2695945e2ba",
+      "seconds": 0.6121343349999999,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": 1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "e60dc4d403a28d25f37ed0ad27d945838b24f30a3321ba9d3bed8d6520cff0f4",
+      "seconds": 0.10991731600000021,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": -1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "a33ad056851ccd15f4552c610b6ddb9b4f9d142b9ad90ebe014823e0780cbb96",
+      "seconds": 0.6151026580000001,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": 1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "b9ddb450c0cbd111abaea49e59f7b989f178ad2149f9a8c24fd765805f7cddf3",
+      "seconds": 0.1091339330000003,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": -1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        1,
+        1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "4a57062738eae982e10249b1cec229d8d4fea68b776a2f7039e38d08b013125c",
+      "seconds": 0.6130722729999998,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    },
+    {
+      "basis_size": 1,
+      "bc_sign": 1,
+      "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+      "epsilon": [
+        1,
+        1
+      ],
+      "one_remainder": "0",
+      "program_sha256": "fc1b9d1d76c6d3b809c81efcfadc90727d979d4bc006e50293c5c3728b8079d3",
+      "seconds": 0.142561025,
+      "status": "UNIT",
+      "stderr": "",
+      "stdout_on_error": null
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-common-repeat-cell11-chart-coverage-v1",
+  "scope": "Exact unit-ideal exclusion of the symmetric two-relation chart boundary from all guarded cell-11 source curves.",
+  "source_sha256": "a9c3f10fc7e368f88599bce085598d641d0a73352a1f7d54e06abcd9b4aabbf7",
+  "status_counts": {
+    "UNIT": 8
+  }
+}

@@ -218,3 +218,104 @@ additional DAG delta:     +2 background PROVED; critical orbit unchanged
 outside labels closed:    0 (geometry/rank partition only)
 next:                     function-field resultants plus finite replay
 ```
+
+### Cell-11 symmetric tower and common-kernel reconstruction
+
+The selected-cofactor open now has an exact source-level finite algebra.
+After `t=(epsilon_1 epsilon_2)r^2`, put `x=bc` and `y=b+c`.  Exact localized
+standard-basis comparison proves that the full four-generator symmetric
+tower equals a plane-plus-quadratic complete intersection on
+
+```text
+x*y*(x-1)*(x+1) != 0.
+```
+
+The original guarded source ideal has empty intersection with this chart
+boundary in all eight sign rows, even though the projected closure itself
+meets the boundary.  The resulting bases over `F_p(x)` are
+
+```text
+BC-:  1,y,y^2,r,ry,ry^2  (degree 6),
+BC+:  1,y,r,ry            (degree 4).
+```
+
+The ordered lift is monic linear in `b`, so `b` and `c=y-b` live in the same
+finite algebra without an additional quadratic extension.  A native
+`python-flint` quotient engine was audited against all four tower equations,
+the ordered lift, `b+c=y`, and `bc=x`.  Its first run correctly failed because
+the parser retained only one monomial of the `r^2` coefficient; after
+accumulating the full polynomial coefficient, all eight rows passed exactly.
+
+On these towers the signed maximal minors of the five common product rows
+give the exact `A/B` kernel.  A linear beta reconstructed from one pivot row
+satisfies all five common sum equations.  Therefore a missing label `lambda`
+has, on the recorded rational open,
+
+```text
+product = B(lambda)/A(lambda),
+sum^2  = lambda*beta(lambda)^2/A(lambda)^2.
+```
+
+The audit replays 56/56 tower/lift identities, 40/40 product identities,
+40/40 sum identities, and 48/48 nonzero cofactor entries.  This is the exact
+input needed by an endpoint-quartic and paired-product resultant atlas; it
+does not yet close an outside label or pay the finite rational boundary.
+
+```text
+symmetric tower run:      ap-NSWAPJgNvDLBb8t35YaqNl
+two-relation run:         ap-pmMRaqZukIUNvViyI534SO
+source-chart run:         ap-tGR2mgxrAh40NScoNnlhQJ
+passing quotient audit:   ap-zwR0xJhIs6EqBpvJ4PtLOF
+additional DAG delta:     +2 background PROVED; critical orbit unchanged
+outside labels closed:    0 (source and common-kernel reconstruction only)
+next:                     generic endpoint-quartic paired-product rank atlas
+```
+
+### Cell-11 uncolored generic-rank atlas
+
+The generic DE/DF/EF branch is now paid over the generic source point.  For
+each of the eight source towers, both outside signs, three missing-record
+representatives, and fifteen matchings, the missing product and squared sum
+define the endpoint quartic
+
+```text
+X^4 + (2q-s^2)X^2 + q^2 = 0.
+```
+
+The three paired-product equations in the remaining endpoint have degree
+profiles among `(0,4,4)`, `(2,2,4)`, `(2,4,2)`, `(4,0,4)`, and `(4,2,2)`.
+Flattening a selected Sylvester matrix through both the endpoint quartic and
+the source algebra gives exact matrices over `F_p(x)`.
+
+The first implementation performed symbolic rational-function Gaussian
+elimination.  One `BC+` pilot was generically unit but took 309 seconds, so
+that route was stopped.  A full-rank exact specialization at one defined base
+value already proves that the determinant rational function is nonzero.  The
+replacement checks every construction guard and denominator, then specializes
+at the common value `x=2`.  It proves full rank in all
+
+```text
+8 * 2 * 3 * 15 = 720
+```
+
+representative systems.  The exact rank census is `64:248,96:112` for `BC+`
+and `96:248,144:112` for `BC-`.
+
+This is generic emptiness, not deployed-field closure.  The determinant-zero
+base fibers are not yet reconstructed.  Missing `BE/CF`, the selected-cofactor
+boundary, and cell 14 also remain.  Upstream PR #1155 supplies a useful route
+fence: in one source chart the `433-1a` signed-pair guard factorization does
+not transplant, and an exact guarded necessary signed-pair point survives.
+That point is not a full outside witness, but it proves that a guard-only
+closure is unavailable and that the residual quadratic cover must be counted
+or routed to an owner.
+
+```text
+slow symbolic fence:      ap-3fx534kFlglEoYLllxvGCl (1 case, 309s)
+BC+ full replay:          ap-3cy8u05mzDVHye8DChswrT (360/360)
+BC- full replay:          ap-EHJ944sxlE9sssyZdjiEeE (360/360)
+additional DAG delta:     +1 background PROVED; critical orbit unchanged
+generic systems paid:     720 representative systems
+deployed labels closed:   0 (determinant-zero fibers remain)
+next:                     determinant fingerprint/reconstruction and BE/CF cuts
+```

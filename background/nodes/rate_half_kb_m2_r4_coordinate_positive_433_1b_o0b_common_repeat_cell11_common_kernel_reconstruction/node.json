@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-11 common-kernel reconstruction",
+    "status": "PROVED",
+    "closure": "exact product and sum kernel reconstruction on all eight cell-11 symmetric source towers",
+    "statement": "Over F_2130706433, the signed maximal minors of the five cell-11 common product rows give polynomials A,B satisfying B(lambda_i)=p_i A(lambda_i), and a linear beta satisfies (root_i s_i)A(lambda_i)+lambda_i beta(lambda_i)=0 for all five common rows. On the rational open A(lambda) nonzero, a missing label has product B(lambda)/A(lambda) and squared sum lambda beta(lambda)^2/A(lambda)^2. Exact degree-six/degree-four quotient arithmetic replays all identities in all eight sign rows. No outside pairing or finite-boundary payment is claimed.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_common_kernel_reconstruction/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_function_field_core.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_function_field_audit_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_function_field_audit_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_symmetric_function_field_tower"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

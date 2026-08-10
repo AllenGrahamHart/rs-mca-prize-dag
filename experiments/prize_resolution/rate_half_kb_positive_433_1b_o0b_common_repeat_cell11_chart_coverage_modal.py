@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""Check that the two-relation chart covers every guarded cell-11 source."""
+
+from collections import Counter
+import hashlib
+import itertools
+import json
+from pathlib import Path
+import re
+import subprocess
+import time
+
+import modal
+
+
+DIRECTORY = Path(__file__).parent
+INPUT = DIRECTORY / (
+    "rate_half_kb_positive_433_1b_o0b_common_repeat_"
+    "cell11_principal_input_result.json"
+)
+RESULT = DIRECTORY / (
+    "rate_half_kb_positive_433_1b_o0b_common_repeat_"
+    "cell11_chart_coverage_result.json"
+)
+REMOTE_INPUT = "/root/input.json"
+PRIME = 2130706433
+
+app = modal.App("rs-mca-positive-433-1b-o0b-cell11-chart-coverage")
+image = (
+    modal.Image.debian_slim(python_version="3.12")
+    .apt_install("singular")
+    .add_local_file(INPUT, REMOTE_INPUT)
+)
+
+
+@app.function(image=image, cpu=1.0, memory=2048, timeout=120, max_containers=8)
+def certify(case):
+    started = time.perf_counter()
+    epsilon_1, epsilon_2, bc_sign = case
+    payload = json.loads(Path(REMOTE_INPUT).read_text())
+    common = next(
+        row for row in payload["common_rows"]
+        if row["epsilon"] == [epsilon_1, epsilon_2]
+        and row["bc_sign"] == bc_sign
+    )
+
+    def singular(value):
+        return value.replace("**", "^")
+
+    definitions = "\n".join(
+        f"poly f{index}={singular(value)};"
+        for index, value in enumerate(common["equations"])
+    )
+    program = f"""
+ring R={PRIME},(z,t,r,c,b),(dp(1),dp(4));
+option(redSB);
+{definitions}
+poly common_guard={singular(common['guard'])};
+poly chart=b*c*(b+c)*(b*c-1)*(b*c+1);
+ideal I=f0,f1,f2,f3,f4,f5,z*common_guard-1,chart;
+ideal G=std(I);
+print("BEGIN"); print(reduce(1,G)); print("END_BLOCK");
+print("SIZE="+string(size(G))); print("END"); quit;
+"""
+    process = subprocess.run(
+        ["Singular", "--quiet"], input=program, capture_output=True,
+        text=True, timeout=90,
+    )
+    match = re.search(r"BEGIN\n(.*?)\nEND_BLOCK", process.stdout, re.DOTALL)
+    remainder = "".join(match.group(1).split()) if match else None
+    size = re.search(r"SIZE=(\d+)", process.stdout)
+    valid = (
+        process.returncode == 0 and "END" in process.stdout
+        and "?" not in process.stdout and remainder == "0" and size
+    )
+    return {
+        "epsilon": [epsilon_1, epsilon_2], "bc_sign": bc_sign,
+        "status": "UNIT" if valid else "ERROR",
+        "chart": "b*c*(b+c)*(b*c-1)*(b*c+1)",
+        "one_remainder": remainder,
+        "basis_size": int(size.group(1)) if size else None,
+        "program_sha256": hashlib.sha256(program.encode()).hexdigest(),
+        "stderr": process.stderr[-2000:],
+        "stdout_on_error": process.stdout[-8000:] if not valid else None,
+        "seconds": time.perf_counter() - started,
+    }
+
+
+@app.local_entrypoint()
+def main():
+    cases = tuple(itertools.product((-1, 1), (-1, 1), (-1, 1)))
+    raw = list(certify.map(cases, order_outputs=True, return_exceptions=True))
+    rows = []
+    for case, row in zip(cases, raw):
+        if isinstance(row, BaseException):
+            rows.append({
+                "epsilon": list(case[:2]), "bc_sign": case[2],
+                "status": "REMOTE_ERROR", "error": repr(row),
+            })
+        else:
+            rows.append(row)
+    output = {
+        "schema": (
+            "rate-half-kb-positive-433-1b-o0b-common-repeat-"
+            "cell11-chart-coverage-v1"
+        ),
+        "scope": (
+            "Exact unit-ideal exclusion of the symmetric two-relation chart "
+            "boundary from all guarded cell-11 source curves."
+        ),
+        "source_sha256": hashlib.sha256(INPUT.read_bytes()).hexdigest(),
+        "status_counts": dict(sorted(Counter(
+            row["status"] for row in rows
+        ).items())),
+        "rows": rows,
+    }
+    RESULT.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n")
+    print(json.dumps({
+        "result": str(RESULT), "status_counts": output["status_counts"],
+        "rows": [{
+            "epsilon": row["epsilon"], "bc_sign": row["bc_sign"],
+            "status": row["status"], "basis_size": row.get("basis_size"),
+            "seconds": row.get("seconds"),
+        } for row in rows],
+    }, sort_keys=True))

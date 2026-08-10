@@ -1,0 +1,194 @@
+{
+  "rows": [
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 15,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x+8355840ry2x2+16711680ry2x+8355840ry2-8355840ryx3+8355840ryx2+8355840ryx-8355840ry-16711680rx3-100270080rx2-16711680rx+16711679x3-33423358x2+16711679x,\nr2y-r2x2+3r2x-8355840ry2x-8355840ry2+8355840ryx2-16711680ryx+8355840ry+16711680rx2+66846720rx-16711680r+16711679y-16711679x2+50135037x,\nr4x+16711680r3x-16711679r2x2-66846716r2x-16711679r2+16711678rx2-16711678rx+16711678r+yx+y+3x,\nb-1061175297r3x2+1061175297r3x-532676609r2x2+532676609r2x-2088960ry2x-6266880ry2-2088960ryx2+2088960ry+4177920rx3+4177920rx2+29245440rx-4177920r+268427264y3x+268427264y3-268427264y2x2+16711679y2x-788570113y2-16711679yx2+536854528yx+528498688y+536854528x3+470007812x2+1023574019x",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "plane_size": 1,
+      "program_sha256": "b02b26e0f2784f7099e202aa6c83827563188346d35176d093719a5a894ca066",
+      "seconds": 4.1292409359999995,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x+8355840ry2x2+16711680ry2x+8355840ry2-8355840ryx3+8355840ryx2+8355840ryx-8355840ry-16711680rx3-100270080rx2-16711680rx+16711679x3-33423358x2+16711679x,\nr2y-r2x2+3r2x-8355840ry2x-8355840ry2+8355840ryx2-16711680ryx+8355840ry+16711680rx2+66846720rx-16711680r+16711679y-16711679x2+50135037x,\nr4x+16711680r3x-16711679r2x2-66846716r2x-16711679r2+16711678rx2-16711678rx+16711678r+yx+y+3x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 13,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x+8355839ryx2-16711678ryx+8355839ry-16711679x2-16711679x,\nr2y+16711678rx+16711678r-16711679y,\nr4x-83558395r2x+16711679r2+8355840ryx2-16711680ryx+8355840ry-x2-2x,\nb-4177920r3x-534765568ry2x+534765568ry2+25067517rx+1061175297r+536854528yx+528498688y",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny2x2-2y2x+y2-2x3-4x2-2x",
+      "plane_size": 1,
+      "program_sha256": "83f3ca171563b2a841cc696720280787528b2c2af63abdc9432d067a5c7034ab",
+      "seconds": 0.6279482720000003,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x+8355839ryx2-16711678ryx+8355839ry-16711679x2-16711679x,\nr2y+16711678rx+16711678r-16711679y,\nr4x-83558395r2x+16711679r2+8355840ryx2-16711680ryx+8355840ry-x2-2x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 15,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x+8355839ry2x2+16711678ry2x+8355839ry2-8355839ryx3+8355839ryx2+8355839ryx-8355839ry-16711678rx3-100270068rx2-16711678rx-16711679x3+33423358x2-16711679x,\nr2y-r2x2+3r2x-8355839ry2x-8355839ry2+8355839ryx2-16711678ryx+8355839ry+16711678rx2+66846712rx-16711678r-16711679y+16711679x2-50135037x,\nr4x+16711678r3x+16711679r2x2+66846716r2x+16711679r2+16711680rx2-16711680rx+16711680r+yx+y+3x,\nb+4177920r3x2-4177920r3x-532676609r2x2+532676609r2x-534765568ry2x+526409729ry2-534765568ryx2+534765568ry-1061175297rx3-1061175297rx2-1036107780rx+1061175297r-268427264y3x-268427264y3+268427264y2x2-16711679y2x+788570113y2+16711679yx2-536854528yx-528498689y-536854528x3-470007812x2-1023574019x",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "plane_size": 1,
+      "program_sha256": "3ad7bfbe4215f07e0fe8b8174f5afc02c6de427c80440815b8920f0dab2418a7",
+      "seconds": 4.199783946999999,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=-1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x+8355839ry2x2+16711678ry2x+8355839ry2-8355839ryx3+8355839ryx2+8355839ryx-8355839ry-16711678rx3-100270068rx2-16711678rx-16711679x3+33423358x2-16711679x,\nr2y-r2x2+3r2x-8355839ry2x-8355839ry2+8355839ryx2-16711678ryx+8355839ry+16711678rx2+66846712rx-16711678r-16711679y+16711679x2-50135037x,\nr4x+16711678r3x+16711679r2x2+66846716r2x+16711679r2+16711680rx2-16711680rx+16711680r+yx+y+3x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 13,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x+8355840ryx2-16711680ryx+8355840ry+16711679x2+16711679x,\nr2y+16711680rx+16711680r+16711679y,\nr4x+83558395r2x-16711679r2+8355839ryx2-16711678ryx+8355839ry-x2-2x,\nb+1061175297r3x-2088960ry2x+2088960ry2+25067520rx-4177920r-536854528yx-528498689y",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny2x2-2y2x+y2-2x3-4x2-2x",
+      "plane_size": 1,
+      "program_sha256": "a901e246b30e9476b3397f1da6f47d210d295bb62774ff123b7adee51103cfaf",
+      "seconds": 0.6555913420000001,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=-1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x+8355840ryx2-16711680ryx+8355840ry+16711679x2+16711679x,\nr2y+16711680rx+16711680r+16711679y,\nr4x+83558395r2x-16711679r2+8355839ryx2-16711678ryx+8355839ry-x2-2x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 15,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x-8355840ry2x2-16711680ry2x-8355840ry2+8355840ryx3-8355840ryx2-8355840ryx+8355840ry+16711680rx3+100270080rx2+16711680rx+16711679x3-33423358x2+16711679x,\nr2y-r2x2+3r2x+8355840ry2x+8355840ry2-8355840ryx2+16711680ryx-8355840ry-16711680rx2-66846720rx+16711680r+16711679y-16711679x2+50135037x,\nr4x-16711680r3x-16711679r2x2-66846716r2x-16711679r2-16711678rx2+16711678rx-16711678r+yx+y+3x,\nb+1061175297r3x2-1061175297r3x-532676609r2x2+532676609r2x+2088960ry2x+6266880ry2+2088960ryx2-2088960ry-4177920rx3-4177920rx2-29245440rx+4177920r+268427264y3x+268427264y3-268427264y2x2+16711679y2x-788570113y2-16711679yx2+536854528yx+528498688y+536854528x3+470007812x2+1023574019x",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "plane_size": 1,
+      "program_sha256": "a9c14bb42951197fe4a54dcce4be41bd78287c3cdd7baa61ad3289d29f55d9e9",
+      "seconds": 4.821240474,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=-1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x-8355840ry2x2-16711680ry2x-8355840ry2+8355840ryx3-8355840ryx2-8355840ryx+8355840ry+16711680rx3+100270080rx2+16711680rx+16711679x3-33423358x2+16711679x,\nr2y-r2x2+3r2x+8355840ry2x+8355840ry2-8355840ryx2+16711680ryx-8355840ry-16711680rx2-66846720rx+16711680r+16711679y-16711679x2+50135037x,\nr4x-16711680r3x-16711679r2x2-66846716r2x-16711679r2-16711678rx2+16711678rx-16711678r+yx+y+3x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 13,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x-8355839ryx2+16711678ryx-8355839ry-16711679x2-16711679x,\nr2y-16711678rx-16711678r-16711679y,\nr4x-83558395r2x+16711679r2-8355840ryx2+16711680ryx-8355840ry-x2-2x,\nb+4177920r3x+534765568ry2x-534765568ry2-25067517rx-1061175297r+536854528yx+528498688y",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny2x2-2y2x+y2-2x3-4x2-2x",
+      "plane_size": 1,
+      "program_sha256": "63d2837af430dd50684f536256435208d97ffc1155ac2bee31bc27c51b3ac76c",
+      "seconds": 0.5944930519999998,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=-1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x-8355839ryx2+16711678ryx-8355839ry-16711679x2-16711679x,\nr2y-16711678rx-16711678r-16711679y,\nr4x-83558395r2x+16711679r2-8355840ryx2+16711680ryx-8355840ry-x2-2x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 15,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x-8355839ry2x2-16711678ry2x-8355839ry2+8355839ryx3-8355839ryx2-8355839ryx+8355839ry+16711678rx3+100270068rx2+16711678rx-16711679x3+33423358x2-16711679x,\nr2y-r2x2+3r2x+8355839ry2x+8355839ry2-8355839ryx2+16711678ryx-8355839ry-16711678rx2-66846712rx+16711678r-16711679y+16711679x2-50135037x,\nr4x-16711678r3x+16711679r2x2+66846716r2x+16711679r2-16711680rx2+16711680rx-16711680r+yx+y+3x,\nb-4177920r3x2+4177920r3x-532676609r2x2+532676609r2x+534765568ry2x-526409729ry2+534765568ryx2-534765568ry+1061175297rx3+1061175297rx2+1036107780rx-1061175297r-268427264y3x-268427264y3+268427264y2x2-16711679y2x+788570113y2+16711679yx2-536854528yx-528498689y-536854528x3-470007812x2-1023574019x",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x",
+      "plane_size": 1,
+      "program_sha256": "447f7810d8dbccc4b47280f9d653179580ec0b60700fe32e8fe889f3705e352f",
+      "seconds": 4.748065305,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny3x2+2y3x+y3-y2x3+5y2x2+5y2x-y2-6yx3-4yx2-6yx+2x4-18x3-18x2+2x,\nr2x3-2r2x2+r2x-8355839ry2x2-16711678ry2x-8355839ry2+8355839ryx3-8355839ryx2-8355839ryx+8355839ry+16711678rx3+100270068rx2+16711678rx-16711679x3+33423358x2-16711679x,\nr2y-r2x2+3r2x+8355839ry2x+8355839ry2-8355839ryx2+16711678ryx-8355839ry-16711678rx2-66846712rx+16711678r-16711679y+16711679x2-50135037x,\nr4x-16711678r3x+16711679r2x2+66846716r2x+16711679r2-16711680rx2+16711680rx-16711680r+yx+y+3x",
+      "tower_size": 4
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 13,
+      "ordered_lift_dimension": 3,
+      "ordered_lift_output": "DIM=3\nSIZE=5\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x-8355840ryx2+16711680ryx-8355840ry+16711679x2+16711679x,\nr2y-16711680rx-16711680r+16711679y,\nr4x+83558395r2x-16711679r2-8355839ryx2+16711678ryx-8355839ry-x2-2x,\nb-1061175297r3x+2088960ry2x-2088960ry2-25067520rx+4177920r-536854528yx-528498689y",
+      "ordered_lift_size": 5,
+      "plane_dimension": 5,
+      "plane_output": "DIM=5\nSIZE=1\ny2x2-2y2x+y2-2x3-4x2-2x",
+      "plane_size": 1,
+      "program_sha256": "db3eefe33a32badb89d2dd7dd3c56357a27d2e3498e00bd74771d99028acc54b",
+      "seconds": 0.771601574,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": "t=1*r^2",
+      "tower_dimension": 4,
+      "tower_output": "DIM=4\nSIZE=4\ny2x2-2y2x+y2-2x3-4x2-2x,\nr2x2+r2x-8355840ryx2+16711680ryx-8355840ry+16711679x2+16711679x,\nr2y-16711680rx-16711680r+16711679y,\nr4x+83558395r2x-16711679r2-8355839ryx2+16711678ryx-8355839ry-x2-2x",
+      "tower_size": 4
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-common-repeat-cell11-symmetric-tower-v1",
+  "scope": "Exact guarded elimination to symmetric source coordinates x=bc, y=b+c after the certified t relation.",
+  "source_sha256": "a9c3f10fc7e368f88599bce085598d641d0a73352a1f7d54e06abcd9b4aabbf7",
+  "status_counts": {
+    "COMPLETE": 8
+  }
+}
