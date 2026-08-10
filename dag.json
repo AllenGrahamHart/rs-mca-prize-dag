@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, the non-minimum type-2 residual is capped at 9/4 times budget by NEWCAP. An explicit incidence countermodel fences support-only FR, but a proved root-counting obstruction now shows that countermodel has no coset-preserving degree-255 apolar-biform lift. General algebraic FR remains open.",
-   "attack_surface": "Prioritize a collective theorem for arbitrary realizable shortened-apolar families or the common Hankel pencil; do not continue the incidence-only FR route or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, NEWCAP leaves a 9/4 residual. The old proposed FR spend 2m+2 was under-calibrated: the printed capacity route requires exactly floor((9m+1)m/(4m-1))+1, equal to 9m/4+1 officially. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. General algebraic control remains open.",
+   "attack_surface": "Prioritize a collective theorem for arbitrary realizable shortened-apolar families or the common Hankel pencil, calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2) at the NEWCAP endpoint. Do not continue the incidence-only FR route, prove only the insufficient old 2m+2 target, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29008,6 +29008,7 @@
     "critical/nodes/rate_half_band_closure/statement.md",
     "background/nodes/rate_half_haboeck_quadratic_johnson_safe_bracket/statement.md",
     "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/statement.md",
     "background/nodes/rate_half_type2_fr_quartic_coset_biform_lift_obstruction/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -35627,6 +35628,24 @@
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/source_pin.json",
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify.py",
     "background/nodes/rate_half_mca_pole_tolerant_scalar_locator_harvest/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_type2_fr_exact_spend_calibration",
+   "title": "Exact spend calibration for the rate-half type-2 FR route",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At the worst NEWCAP support size a=7m-1, the outside-incidence ledger gives T<=2+floor((9m+1)m/p) when every type-2 slope spends at least p roots outside W. The exact least spend closing T<=4m is floor((9m+1)m/(4m-1))+1, equal to 9m/4+1 when 4 divides m. For a clean locator this is |S intersect W|<=7m/4-2. The prior p=2m+2 proposal is insufficient for m>=8 and leaves an asymptotic 9/8 residual. This calibrates the route and does not prove the required spend.",
+   "refs": [
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/statement.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/proof.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/claim_contract.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/dependency_subdag.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/audit.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/result.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/provenance.md",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify.py",
+    "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify_audit.py"
    ]
   },
   {
@@ -63024,6 +63043,11 @@
   },
   {
    "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
+   "to": "rate_half_type2_fr_exact_spend_calibration",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
    "to": "rate_half_type2_fr_incidence_only_route_fence",
    "kind": "req"
   },
@@ -68066,6 +68090,11 @@
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_type2_fr_exact_spend_calibration",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_type2_fr_incidence_only_route_fence",

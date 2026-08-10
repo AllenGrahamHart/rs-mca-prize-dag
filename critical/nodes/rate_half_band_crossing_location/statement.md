@@ -583,9 +583,15 @@ the algebra and independently re-derived every ledger number):
   p in [3,3] and wt(kappa) = 9 - n_0 >= 9 forces j = 0) — the q=17
   fence contains none of this stratum; residual (iii) and residual
   (ii) do not overlap.
-- **THE HONEST FRONTIER — (FR), the one missing inequality:**
-  |S_gamma ^ W| <= ~2m against ALL of W at once (the max-vs-mean
-  upgrade; (OV) gives it pairwise only). CAUTION: the l1_fpc5
+- **THE HONEST FRONTIER — (FR), CALIBRATED:** the original pilot's
+  `|S_gamma ^ W| <= ~2m` phrase is arithmetically insufficient after
+  `NEWCAP` moves the worst case to `a=7m-1`. The exact spend needed by
+  the printed outside-capacity ledger is
+  `p_req=floor((9m+1)m/(4m-1))+1`; on the official row this is
+  `9m/4+1`, equivalently `|S_gamma intersect W|<=7m/4-2` for a clean
+  locator. The old `2m+2` spend leaves an asymptotic `9/8` residual.
+  This is still a max-vs-mean upgrade against ALL of W; `(OV)` gives
+  only pairwise control. CAUTION: the l1_fpc5
   distance-only no-go ("support weights + pairwise overlaps cannot
   close this consumer") is an in-repo precedent from a sibling lane
   — if it transports, 9/4 is the CEILING of the combinatorial route
@@ -785,7 +791,8 @@ max |S_gamma intersect W|=3m-3=189>128=2m.
 ```
 
 Thus saturation, `(OV)`, and the individual `(C2)` distance spend cannot by
-themselves prove the max-vs-mean upgrade. This is not a realizable
+themselves prove even the old max-vs-mean upgrade, and hence cannot prove the
+stronger calibrated cap `7m/4-2=110` at `m=64`. This is not a realizable
 Hankel-pencil counterexample and does not refute algebraic `(FR)`. It removes
 the incidence-only continuation: the positive residual-(ii) attack must now
 use the generalized locator polynomials `f_gamma`, the common syndrome
@@ -838,3 +845,32 @@ nonrealizability. Generic placements overwhelmingly have full rank; any
 lift must be highly structured. The route decision is to stop random
 placement sampling and seek an exact classification of the near-saturated
 biform or a coverage-defined structured search.
+
+## Type-2 FR spend-calibration correction (2026-08-10)
+
+The proved node `rate_half_type2_fr_exact_spend_calibration` corrects a
+load-bearing arithmetic target in the Round-31 report. At `a=7m-1`, the
+type-1 term is at most two and a uniform outside spend `p` gives only
+
+```text
+T<=2+floor(((9m+1)m)/p).
+```
+
+The exact least spend closing this inequality at `T<=4m` is
+
+```text
+p_req=floor(((9m+1)m)/(4m-1))+1.
+```
+
+For the official `m=2^37`,
+
+```text
+p_req=9m/4+1=309237645313,
+clean max intersection=7m/4-2=240518168574.
+```
+
+By contrast the old proposal `p=2m+2` gives total cap
+`618475290622>549755813888`, leaving `68719476734` slopes of residual
+room and an asymptotic factor `9/8`. Future algebraic attacks must target the
+calibrated spend; proving only the old `~2m` max-intersection statement would
+not close the printed counting route.
