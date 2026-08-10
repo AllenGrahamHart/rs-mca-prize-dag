@@ -4692,3 +4692,20 @@ notes/BAND_LANE_DEFINITIONS.md items 13-15:
 
 mca_grand's FLAG A parenthetical updated to the post-ruling state.
 Full chain green; census unchanged 239 = 167/40/32; no status flips.
+
+## ROUND 30 LAUNCH — the K3 development round (2026-08-10)
+
+User directive: develop K3 with the next Opus fleet. Four pilots,
+briefs in notes/pilots_20260810/{k3_orientation_assembly,
+k3_allocation_inequality,k3_splitbc_transport,k3_chain_seams}/PREREG.md:
+(A) the orientation-assembly routing theorem to draft grade +
+U_sourcecover; (B) the allocation-inequality provenance map + dry-run
+integers; (C) the split-BC O0a->O0b transport audit (Codex's own
+pre-registered precondition for the 37,800-label block; output = a
+draft Codex brief); (D) ADVERSARIAL seam hunt on the K3 conditional
+chain, with the KB-row -> band-row bridge as prime suspect
+(CATCH-24C consumers' consumers included). No pilot touches the
+Codex worktree or runs a census. QUARANTINE MARKER: this entry and
+everything below is quarantined for round-30 pilots (the ledger is
+closed to them entirely, as always); sibling round-30 dirs mutually
+quarantined. Launched on Opus.
