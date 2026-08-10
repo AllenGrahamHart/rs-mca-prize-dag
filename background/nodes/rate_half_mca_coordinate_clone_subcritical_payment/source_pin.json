@@ -1,0 +1,17 @@
+{
+  "repository": "przchojecki/rs-mca",
+  "commit": "93fba1be3f3299b0ba4708d88715377bbb656e45",
+  "path": "experimental/grande_finale.tex",
+  "git_blob": "6b21d6ea937a8a9f85fc7ade6032d73efd4c7222",
+  "source_lines": "6957-7009",
+  "labels": [
+    "thm:owner-pencil",
+    "shared-component branches are explicit"
+  ],
+  "excluded_branches": [
+    "identically-zero coordinate equation",
+    "fixed-slope vertical component",
+    "fixed-owner horizontal component",
+    "clone class of size at least m"
+  ]
+}

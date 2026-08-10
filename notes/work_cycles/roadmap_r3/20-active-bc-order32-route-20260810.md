@@ -102,3 +102,19 @@ metadata mutations, and a narrow repair of the pre-existing pole verifier's
 stale `grande_finale.tex` blob pin. The old and new pinned scalar-locator
 definitions were compared byte-for-byte and are identical. The PR requests
 independent review and makes no `(E)` or row-closure claim.
+
+The coordinate-clone branch now has a separate exact reduction. After the
+owner-pencil theorem's identically-zero, vertical, and horizontal component
+branches are routed separately, group nonzero coordinate curves by shared
+irreducible bidegree-`(1,1)` component. A class of size `2<=c<m` satisfies
+
+```text
+N_C(m-c) <= 2(n-c) <= 2c(m-c),
+```
+
+so `N_C<=2c`. Clone classes are disjoint coordinate sets; all subcritical
+classes therefore cost at most `2n=4194304`, below both MCA budgets. Since
+`n<2m`, at most one class can have size at least `m`. Thus all unpaid
+coordinate-clone content is concentrated on one unique large component.
+The excluded identically-zero coordinate branch and that unique large class
+remain open and must retain the owner-pencil chronology.

@@ -55,6 +55,12 @@ terminology and nonclaims follow Grande Finale v4's `(E)` interface, so any
 review repair can be harvested without translating through the K3 workboard
 vocabulary.
 
+The coordinate-clone part of `(E)` is also reduced: every irreducible clone
+class of size below `m` is paid simultaneously by the exact bound
+`2n=4194304`, and at most one class can have size at least `m`. The remaining
+clone target is therefore one large component plus the separately named
+identically-zero/fixed-owner branch, not an arbitrary family of clone cells.
+
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard
 `18-k3-bridge-and-allocation-refactor-20260810.md` and
