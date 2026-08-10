@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_source_cover_payment",
+    "title": "KoalaBear m2 r4 biquadratic source-cover payment",
+    "status": "TARGET",
+    "statement": "For every active bridge-produced diagonal component whose diagonal action does not preserve the quadratic source intermediate field, compile the genus-zero and genus-one biquadratic V4 source-cover passports against every live source-mixing row. Every resulting terminal is empty, transported bijectively to an already paid active image, or assigned an exact distinct-affine-slope payment with bridge multiplicity and chronology. The theorem prints U_source_cover.",
+    "falsifier": "A live source-cover passport or mixing row outside the compiler, a non-bijective transport, an unpaid survivor, or an incorrect owner/slope multiplicity.",
+    "refs": [
+      "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

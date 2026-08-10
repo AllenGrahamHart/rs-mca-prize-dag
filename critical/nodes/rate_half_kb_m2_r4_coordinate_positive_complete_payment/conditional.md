@@ -1,6 +1,8 @@
 # Conditional proof
 
-The workboard theorem proves that its 13 printed routes are exhaustive. The
+The active bridge first identifies the positive-coordinate image and its
+exact slope-to-record multiplicity. The workboard theorem proves that its 13
+printed routes are exhaustive inside that image. The
 `433-1a -> O0b` theorem closes one route with contribution zero. The raw
 `433-1b -> O0a` theorem closes a second route with contribution zero. The
 remaining-route premise names and pays the other eleven with exact total

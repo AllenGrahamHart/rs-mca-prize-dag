@@ -1,9 +1,11 @@
 # Dependency sub-DAG
 
 ```text
-balanced-core first-match residual
-       |             |             |
- source-line     coordinate    source-cover
-       \             |             /
-        exact same-owner orientation assembly (TARGET)
+active Z_BC slopes -- bridge --> actual components
+                                 |             |
+                         (2,4,2) order two   (2,8,1) trivial
+                           /       |       \          |
+                    coordinate source-line source-cover payment
+                           \       |       /          /
+                      exact same-owner assembly (CONDITIONAL)
 ```

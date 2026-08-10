@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment",
+    "title": "KoalaBear m2 r4 diagonal source-line remaining payment",
+    "status": "TARGET",
+    "statement": "In the active bridge image of the diagonal source-line branch, the proved c2(2,0,2) exclusion and saturated c2(1,1,2) source-line exclusion contribute zero. Every remaining source-line packet in rows (1,0,4), (0,1,4), the near-aligned part of (0,0,6), and the exceptional unsaturated (1,1,2) orbit is empty or has a printed exact distinct-affine-slope payment with bridge multiplicity and active chronology. The theorem outputs U_source_line.",
+    "falsifier": "A source-line packet outside the five-row mixing census, a claimed-zero packet that survives, an omitted exceptional orbit, or an owner/multiplicity error in a nonzero payment.",
+    "refs": [
+      "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/attack.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

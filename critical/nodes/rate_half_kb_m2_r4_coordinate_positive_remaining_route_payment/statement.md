@@ -1,7 +1,8 @@
 # Statement
 
-The exact positive residual workboard has 13 routes. Two are now proved
-empty:
+Within the active bad-slope image supplied by
+`rate_half_kb_active_balanced_core_component_bridge`, the exact positive
+residual workboard has 13 routes. Two are now proved empty:
 
 ```text
 433-1a -> O0b
@@ -18,10 +19,11 @@ This target closes or pays the other eleven in distinct affine slopes:
 ```
 
 The theorem must print one exact integer for every surviving route and
-their disjoint sum `U_remaining`. Any nonzero payment must use the active first-match owner, exact finite
-multiplicity, and chronology-correct add-back. A moving-root argument is
-admissible only after its chart is proved to be a genuine pencil; a
-line-by-line decomposition must count the relevant lines exactly.
+their disjoint sum `U_remaining`. Any nonzero payment must use the active
+first-match owner, exact finite bridge multiplicity, and chronology-correct
+add-back. A moving-root argument is admissible only after its chart is proved
+to be a genuine pencil; a line-by-line decomposition must count the relevant
+lines exactly.
 
 ## Falsifier
 

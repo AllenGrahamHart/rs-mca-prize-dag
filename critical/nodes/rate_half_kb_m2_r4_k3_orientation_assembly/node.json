@@ -2,17 +2,26 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
-    "title": "KoalaBear m2 r4 K3 orientation and owner assembly",
-    "status": "TARGET",
-    "statement": "Every unpaid same-owner balanced-core bad-slope witness in the active KoalaBear m2 r4 first-match residual is routed exhaustively and without overlap into the source-line, coordinate, or source-cover orientation. The source-line image is exactly the declared c2(1,1,2) source-line workboard; the coordinate image is exactly the signed negative/positive coordinate workboards; every source-cover image is either proved empty, mapped bijectively to one of those two images, or paid by a printed exact distinct-affine-slope integer. The theorem outputs the disjoint source-cover sum U_sourcecover and preserves received-line owner, support reconstruction, affine slope, and chronology.",
-    "falsifier": "A balanced-core bad slope outside the three orientations, a source-cover survivor with no exact payment, overlap between owners, or loss of received-line/slope identity under routing.",
+    "title": "KoalaBear K3 active component and orientation assembly",
+    "status": "CONDITIONAL",
+    "gate": "all",
+    "statement": "Conditional on the active balanced-core bad-slope-to-component bridge, the proved order-two component trichotomy, complete positive-coordinate payment, complete negative-coordinate exclusion, complete remaining source-line and biquadratic source-cover payments, and complete trivial-stabilizer payment, every active KoalaBear Z_BC slope is owned exactly once. The order-two image splits into coordinate, source-line, and source-cover branches; the separate (m,r,delta)=(2,8,1) image is paid by U_trivial. The theorem outputs U_geometry=U_source_line+U_source_cover+U_trivial and preserves received line, witness support, affine slope, exact bridge multiplicity, and first-match chronology.",
+    "falsifier": "An active balanced-core slope outside the bridge image, a component outside the order-two or trivial-stabilizer types, an omitted source-line row or source-cover passport, overlap between owners, or loss of received-line/support/slope identity or bridge multiplicity.",
     "refs": [
       "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/conditional.md",
       "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md"
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/verify.py"
     ]
   },
-  "requires": [],
+  "requires": [
+    {"from": "rate_half_kb_active_balanced_core_component_bridge"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment"},
+    {"from": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment"},
+    {"from": "rate_half_kb_m2_r4_diagonal_source_cover_payment"},
+    {"from": "rate_half_kb_m2_r8_trivial_stabilizer_payment"}
+  ],
   "alternatives": [],
   "evidence_for": [],
   "refutes": []

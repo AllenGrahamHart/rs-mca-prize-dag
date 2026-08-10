@@ -1,10 +1,13 @@
 # Attack
 
-1. Recover the original orientation split from the order-two coefficient
-   compiler and state its domain and inverse reconstruction maps.
-2. Prove the three images are exhaustive and first-match disjoint.
-3. Match source-line and coordinate images to the exact deployed workboard
-   manifests, not to informal cell names.
-4. Enumerate source-cover terminal cells. Seek exact transports to the two
-   closed images; otherwise assign literal distinct-slope payments.
-5. Audit every map for same-owner and affine-slope preservation.
+1. Close the active bad-slope-to-component bridge; the component trichotomy
+   alone has no slope-domain conclusion.
+2. Use the proved order-two trichotomy and retain the separate
+   trivial-stabilizer `(2,8,1)` branch.
+3. Compose the positive and negative coordinate results with parity as the
+   disjointness key.
+4. Pay all source-line rows, including `(1,0,4)`, `(0,1,4)`, the near-aligned
+   `(0,0,6)` row, and exceptional unsaturated `(1,1,2)` orbit.
+5. Build and pay the missing genus-zero/genus-one source-cover workboard.
+6. Audit every map for same-owner, support, affine-slope, bridge-multiplicity,
+   and chronology preservation.

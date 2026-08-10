@@ -25,7 +25,7 @@ def main():
             "conditional all-gate")
     require({row["from"] for row in manifest["requires"]} == PREMISES,
             "exact premise set")
-    require("U_K3=U_positive+U_sourcecover" in node["statement"],
+    require("U_K3=U_positive+U_geometry" in node["statement"],
             "exact ledger identity")
     print("PASS K3 conditional budget-ledger composition")
 

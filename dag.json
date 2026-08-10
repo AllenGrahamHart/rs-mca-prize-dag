@@ -28982,10 +28982,10 @@
    "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains",
    "status": "CONDITIONAL",
    "key": true,
-   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear m2/r4 distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is now proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems. That does not itself close K3: the exact positive router has eleven other named routes after the two proved route closures, and the c112 source-line theorem explicitly leaves coordinate/source-cover orientation assembly open. The budget-ledger premise must therefore provide exhaustive same-owner balanced-core routing, literal route/source-cover integers, genuine-pencil and exact line-count checks for nonzero payments, higher-dimensional ray compilers, and the active allocation inequality. Scope remains the n=2^21 extension-field deployed rows; no transport to n=2^41 prime razor rows is claimed.",
-   "falsifier": "A deployed-row supply object outside the workboard's enumerated classes; a workboard cell whose exclusion fails independent replay; or a labels-to-slopes conversion that changes any cell verdict.",
+   "statement": "DECOMPOSITION CHILD 1 of rate_half_band_closure. Conditional on the exact KoalaBear balanced-core distinct-affine-slope budget ledger and fresh independent review, the deployed-row K3 structural-supply arm has no unaccounted surplus. The positive 433-1b/O0a raw workboard is proved empty at 15/15 role cells, 1575 labels, and 25200 signed principal systems, but raw closure is not an active slope payment. The budget-ledger premise must provide the active bad-slope-to-component bridge, the separate trivial-stabilizer branch, all remaining positive/source-line/source-cover payments, exact bridge and line multiplicities, higher-dimensional ray compilers, and a balanced-core allocation after sibling U_Q and U_new charges. Scope remains the n=2^21 extension-field deployed row; no transport to n=2^41 prime razor rows is claimed.",
+   "falsifier": "An active bad slope outside the component bridge; a live component outside the order-two/trivial-stabilizer split; a failed raw-cell replay; an owner or multiplicity error; or a K3 charge above its certified balanced-core allocation.",
    "gate": "all",
-   "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure. The former labels-to-slopes placeholder is decomposed into eleven-route payment, positive-coordinate composition, orientation/source-cover assembly, exact K3 budget ledger, and independent review. Raw-cell closure is complete; route and assembly leaves remain open.",
+   "notes": "Re-audited 2026-08-10 after raw 433-1b workboard closure and round-30 domain audit. The former labels-to-slopes placeholder is decomposed into an active slope-to-component bridge, positive/source-line/source-cover/trivial-stabilizer payments, corrected orientation composition, certified balanced-core allocation, exact K3 ledger, and independent review. Raw-cell closure is complete; the active bridge and payment leaves remain open.",
    "refs": [
     "notes/band_decomposition_plan_20260809.md",
     "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
@@ -29989,6 +29989,18 @@
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_active_balanced_core_component_bridge",
+   "title": "KoalaBear active balanced-core bad-slope to component bridge",
+   "status": "TARGET",
+   "statement": "For the deployed KoalaBear MCA row and frozen Grande Finale v4 first-match partition, every slope in the active Z_BC cell is assigned, on the same received line and without changing its witness support or affine slope, to an actual Q=6,s=6,u=2 endpoint record and one residual component. Existing decomposition routers then place it in exactly one of the live types (m,r,delta)=(2,4,2) or (2,8,1). The assignment is first-match exhaustive and disjoint and prints either an injection or exact finite fiber multiplicities from slopes to records/components. No parameter-line point is identified with an evaluation-carrier point.",
+   "falsifier": "An active Z_BC slope with no actual component record, a component outside the two live types, two owners assigned to one slope, loss of support or affine-slope identity, or an unbounded/unprinted record multiplicity.",
+   "refs": [
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/statement.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/attack.md",
+    "critical/nodes/rate_half_kb_active_balanced_core_component_bridge/dependency_subdag.md"
    ]
   },
   {
@@ -33748,7 +33760,7 @@
    "title": "KoalaBear m2 r4 positive-coordinate complete payment",
    "status": "CONDITIONAL",
    "gate": "all",
-   "statement": "Conditional on the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
+   "statement": "Conditional on the active balanced-core bad-slope-to-component bridge and the exact eleven-route payment with literal integer U_remaining, the positive coordinate orientation has exact distinct-affine-slope contribution at most U_positive=U_remaining: the exact workboard has thirteen routes, 433-1a to O0b is proved empty, 433-1b to O0a is proved empty at raw-system level, and the remaining premise handles the disjoint complement with exact bridge multiplicity. No negative, source-line, source-cover, K3, or Prize conclusion is claimed.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/statement.md",
     "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_complete_payment/conditional.md",
@@ -33760,7 +33772,7 @@
    "id": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
    "title": "KoalaBear m2 r4 positive-coordinate remaining-route payment",
    "status": "TARGET",
-   "statement": "Every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact multiplicity, and add-back chronology.",
+   "statement": "Within the active image supplied by the balanced-core component bridge, every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact bridge multiplicity, and add-back chronology.",
    "falsifier": "A guarded packet on any of the eleven routes, or a slope payment that loses owner identity, multiplicity, or first-match chronology.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
@@ -34840,14 +34852,40 @@
    ]
   },
   {
+   "id": "rate_half_kb_m2_r4_diagonal_source_cover_payment",
+   "title": "KoalaBear m2 r4 biquadratic source-cover payment",
+   "status": "TARGET",
+   "statement": "For every active bridge-produced diagonal component whose diagonal action does not preserve the quadratic source intermediate field, compile the genus-zero and genus-one biquadratic V4 source-cover passports against every live source-mixing row. Every resulting terminal is empty, transported bijectively to an already paid active image, or assigned an exact distinct-affine-slope payment with bridge multiplicity and chronology. The theorem prints U_source_cover.",
+   "falsifier": "A live source-cover passport or mixing row outside the compiler, a non-bijective transport, an unpaid survivor, or an incorrect owner/slope multiplicity.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_cover_payment/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment",
+   "title": "KoalaBear m2 r4 diagonal source-line remaining payment",
+   "status": "TARGET",
+   "statement": "In the active bridge image of the diagonal source-line branch, the proved c2(2,0,2) exclusion and saturated c2(1,1,2) source-line exclusion contribute zero. Every remaining source-line packet in rows (1,0,4), (0,1,4), the near-aligned part of (0,0,6), and the exceptional unsaturated (1,1,2) orbit is empty or has a printed exact distinct-affine-slope payment with bridge multiplicity and active chronology. The theorem outputs U_source_line.",
+   "falsifier": "A source-line packet outside the five-row mixing census, a claimed-zero packet that survives, an omitted exceptional orbit, or an owner/multiplicity error in a nonzero payment.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_diagonal_source_line_remaining_payment/attack.md"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_k3_allocation_inequality",
    "title": "KoalaBear m2 r4 K3 exact active-allocation inequality",
-   "status": "TARGET",
-   "statement": "In the active KoalaBear m2 r4 first-match manifest, print the exact integers U_positive, U_sourcecover, U_K3=U_positive+U_sourcecover, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. No floating-point comparison, owner renormalization, omitted line multiplicity, or allocation imported from a different row or partition is allowed.",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the positive-coordinate payment, corrected geometry/orientation assembly, and certified balanced-core allocation definition, print the exact integers U_positive, U_geometry, U_K3=U_positive+U_geometry, and U_K3_allocation, bind each input to its proof certificate and manifest digest, and prove by exact integer arithmetic that U_K3 does not exceed U_K3_allocation. The joint unpaid reserve is not a K3-only allocation. No floating-point comparison, owner renormalization, omitted bridge or line multiplicity, or allocation imported from a different row, cell, or partition is allowed.",
    "falsifier": "The exact total exceeds the allocation, an input integer lacks a pinned proof certificate, a digest or row differs, or the comparison uses a different owner/normalization convention.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/statement.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md"
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/conditional.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/attack.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_allocation_inequality/verify.py"
    ]
   },
   {
@@ -34855,7 +34893,7 @@
    "title": "KoalaBear m2 r4 K3 exact distinct-slope budget ledger",
    "status": "CONDITIONAL",
    "gate": "all",
-   "statement": "Conditional on the complete positive-coordinate payment, the exhaustive orientation/source-cover assembly, and the exact active-allocation inequality, the KoalaBear m2 r4 K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_sourcecover within its active allocation. The proved c2(1,1,2) source-line and negative-coordinate exclusions contribute zero as evidence. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, owner change, or separately normalized budget is allowed.",
+   "statement": "Conditional on the complete positive-coordinate payment, corrected active component/orientation assembly, and exact active-allocation inequality, the balanced-core K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_geometry within its active allocation. Here U_geometry includes the remaining source-line, biquadratic source-cover, and trivial-stabilizer payments; the proved saturated c2(1,1,2), c2(2,0,2), and negative-coordinate exclusions contribute zero. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line and bridge multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, dropped balanced-core qualifier, owner change, or separately normalized budget is allowed.",
    "falsifier": "A missing or overlapping slope owner, incorrect route integer, non-genuine pencil payment, uncounted line, unpaid higher-dimensional survivor, or U_K3 above the active allocation.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
@@ -34869,7 +34907,7 @@
    "id": "rate_half_kb_m2_r4_k3_independent_review",
    "title": "KoalaBear m2 r4 K3 independent proof review",
    "status": "TARGET",
-   "statement": "A fresh independent reviewer has replayed and audited the load-bearing c112, coordinate-route, orientation-assembly, and distinct-slope composition certificates at pinned commits, confirmed the active row/partition contract and same-owner chronology, and recorded no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by the producing implementation is insufficient.",
+   "statement": "A fresh independent reviewer outside the producing implementations has replayed and audited the complete load-bearing K3 sub-DAG at pinned commits: the active bad-slope-to-component bridge; full-V4 and negative-coordinate exclusions; positive raw workboards and all remaining route payments; complete source-line, source-cover, and trivial-stabilizer payments; orientation composition; allocation definition; and distinct-slope ledger. The reviewer confirms the active row/partition contract, exact multiplicities, and same-owner chronology and records no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by a producing implementation is insufficient.",
    "falsifier": "A failed replay, digest mismatch, missing dependency, owner/row mismatch, unreviewed load-bearing argument, or unresolved reviewer objection.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
@@ -34878,14 +34916,58 @@
   },
   {
    "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
-   "title": "KoalaBear m2 r4 K3 orientation and owner assembly",
-   "status": "TARGET",
-   "statement": "Every unpaid same-owner balanced-core bad-slope witness in the active KoalaBear m2 r4 first-match residual is routed exhaustively and without overlap into the source-line, coordinate, or source-cover orientation. The source-line image is exactly the declared c2(1,1,2) source-line workboard; the coordinate image is exactly the signed negative/positive coordinate workboards; every source-cover image is either proved empty, mapped bijectively to one of those two images, or paid by a printed exact distinct-affine-slope integer. The theorem outputs the disjoint source-cover sum U_sourcecover and preserves received-line owner, support reconstruction, affine slope, and chronology.",
-   "falsifier": "A balanced-core bad slope outside the three orientations, a source-cover survivor with no exact payment, overlap between owners, or loss of received-line/slope identity under routing.",
+   "title": "KoalaBear K3 active component and orientation assembly",
+   "status": "CONDITIONAL",
+   "gate": "all",
+   "statement": "Conditional on the active balanced-core bad-slope-to-component bridge, the proved order-two component trichotomy, complete positive-coordinate payment, complete negative-coordinate exclusion, complete remaining source-line and biquadratic source-cover payments, and complete trivial-stabilizer payment, every active KoalaBear Z_BC slope is owned exactly once. The order-two image splits into coordinate, source-line, and source-cover branches; the separate (m,r,delta)=(2,8,1) image is paid by U_trivial. The theorem outputs U_geometry=U_source_line+U_source_cover+U_trivial and preserves received line, witness support, affine slope, exact bridge multiplicity, and first-match chronology.",
+   "falsifier": "An active balanced-core slope outside the bridge image, a component outside the order-two or trivial-stabilizer types, an omitted source-line row or source-cover passport, overlap between owners, or loss of received-line/support/slope identity or bridge multiplicity.",
    "refs": [
     "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/conditional.md",
     "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
-    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md"
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md",
+    "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "title": "KoalaBear m2 r4 order-two component orientation trichotomy",
+   "status": "PROVED",
+   "closure": "exact component-level coordinate/source-line/source-cover trichotomy",
+   "statement": "Every actual residual KoalaBear component of type (m,r,delta)=(2,4,2) has an order-two stabilizer in V4. The two coordinate subgroups are equivalent under endpoint transposition, with a fresh source record after transport. The remaining diagonal subgroup splits exhaustively according to whether its action preserves the quadratic source intermediate field: the preserving branch is the reciprocal source-line lift, and the nonpreserving branch is a genus-zero or genus-one biquadratic source cover with the printed V4 passports. This is a component-level classification only; it does not map active bad slopes to components, cover the live trivial-stabilizer (2,8,1) type, delete any orientation, or move a ledger value.",
+   "refs": [
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/statement.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/proof.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/claim_contract.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/source_evidence.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/audit.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/result.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/frontier.md",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify.py",
+    "background/nodes/rate_half_kb_m2_r4_order2_orientation_trichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_kb_m2_r8_trivial_stabilizer_payment",
+   "title": "KoalaBear m2 r8 trivial-stabilizer component payment",
+   "status": "TARGET",
+   "statement": "In the active image of the balanced-core component bridge, every actual residual component of type (m,r,delta)=(2,8,1), equivalently trivial V4 stabilizer, is either excluded or assigned an exact distinct-affine-slope payment with the bridge multiplicity, same received-line owner, and first-match chronology. The theorem prints the total U_trivial.",
+   "falsifier": "A bridge-produced trivial-stabilizer component outside the classification, a surviving component with no exact slope payment, or a payment that changes owner, slope, or multiplicity.",
+   "refs": [
+    "critical/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/statement.md",
+    "critical/nodes/rate_half_kb_m2_r8_trivial_stabilizer_payment/attack.md"
+   ]
+  },
+  {
+   "id": "rate_half_kb_v4_balanced_core_allocation_definition",
+   "title": "KoalaBear v4 balanced-core allocation definition",
+   "status": "TARGET",
+   "statement": "Under the frozen KoalaBear Grande Finale v4 first-match partition, prove exact bounds U_Q and U_new for the two sibling unpaid cells, or an equivalent certified three-way allocation, and define the balanced-core allowance U_K3_allocation by exact integer subtraction from B*=274980728111395087 after U_paid=981104. The joint reserve 274980728110413983 is not by itself a K3 allocation. The certificate binds row, partition digest, owner order, and all sibling atom proofs.",
+   "falsifier": "Using the joint reserve as a K3-only budget without paying U_Q and U_new, a negative or mismatched allocation, or any drift in row, partition, owner, or integer unit.",
+   "refs": [
+    "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/statement.md",
+    "critical/nodes/rate_half_kb_v4_balanced_core_allocation_definition/attack.md"
    ]
   },
   {
@@ -61922,6 +62004,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_active_balanced_core_component_bridge",
+   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_component_bridge",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion",
    "kind": "req"
@@ -65803,7 +65895,17 @@
   },
   {
    "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
    "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
    "kind": "req"
   },
   {
@@ -65820,6 +65922,11 @@
    "from": "rate_half_kb_m2_r4_coordinate_positive_residual_loop_workboard",
    "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_coordinate_transpose_transport",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_diagonal_c2_112_aligned_negative_literal_assignment_coverage",
@@ -66722,14 +66829,24 @@
    "kind": "req"
   },
   {
-   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
-   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "from": "rate_half_kb_m2_r4_diagonal_source_cover_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
    "kind": "req"
   },
   {
-   "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
-   "to": "rate_half_band_structural_surplus",
-   "kind": "ev"
+   "from": "rate_half_kb_m2_r4_diagonal_source_line_remaining_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_diagonal_source_subfield_dichotomy",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
+   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
@@ -66739,6 +66856,11 @@
   {
    "from": "rate_half_kb_m2_r4_k3_independent_review",
    "to": "rate_half_band_structural_surplus",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
    "kind": "req"
   },
   {
@@ -66804,6 +66926,26 @@
   {
    "from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature",
    "to": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_m2_r8_trivial_stabilizer_payment",
+   "to": "rate_half_kb_m2_r4_k3_orientation_assembly",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_m2_v4_outer_recurrence_router",
+   "to": "rate_half_kb_m2_r4_order2_orientation_trichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_v4_balanced_core_allocation_definition",
+   "to": "rate_half_kb_m2_r4_k3_allocation_inequality",
    "kind": "req"
   },
   {

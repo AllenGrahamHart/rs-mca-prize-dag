@@ -3,6 +3,25 @@
 This lane attacks the deployed KoalaBear rate-half band required by
 `rate_half_band_closure`.
 
+## Current K3 gate
+
+The raw `433-1b -> O0a` workboard is now completely empty, but that is a
+component-system theorem rather than an active bad-slope payment. The binding
+frontier is the source-bound map from the frozen active `Z_BC` slope cell to
+actual endpoint component records, with exact slope-to-record fibers.
+
+At component level, the order-two `(m,r,delta)=(2,4,2)` frontier is proved to
+split into coordinate, source-line, and biquadratic source-cover branches.
+The active assembly must additionally retain the trivial-stabilizer
+`(2,8,1)` type. The remaining red leaves are the active bridge, eleven
+positive routes, the unsolved source-line rows, source-cover workboard,
+trivial-stabilizer payment, balanced-core allocation definition, and fresh
+independent review.
+
+The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
+it is not a K3-only allocation. See work-cycle shard
+`18-k3-bridge-and-allocation-refactor-20260810.md` for the corrected sub-DAG.
+
 ## Current decomposition
 
 The positive `433-1b -> O0a` role-cell ledger has closed:

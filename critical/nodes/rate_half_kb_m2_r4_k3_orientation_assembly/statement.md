@@ -1,23 +1,35 @@
 # Statement
 
-Prove an active-first-match, same-owner partition of every residual
-KoalaBear `m=2,r=4` balanced-core bad slope into:
+- **status:** CONDITIONAL
+- **gate:** all
+
+Conditional on the wired premises, every active first-match `Z_BC` bad slope
+is assigned exactly once to
 
 ```text
-source-line | coordinate | source-cover.
+positive coordinate | negative coordinate | source line |
+biquadratic source cover | trivial stabilizer.
 ```
 
-Identify the first image exactly with the closed `c2(1,1,2)` source-line
-workboard and the second with the negative/positive coordinate workboards.
-Every source-cover image must be eliminated, paid in distinct affine slopes
-with exact multiplicity, or carried bijectively to a closed image. The
-theorem must print their disjoint total `U_sourcecover`.
+The order-two component trichotomy proves the first four component-level
+orientations. The bridge connects them to active slopes and separately
+retains the live `(m,r,delta)=(2,8,1)` trivial-stabilizer type. The positive,
+source-line, source-cover, and trivial premises print exact payments; the
+negative branch is proved empty.
 
-The compiler must preserve the received line, reconstructed support,
-affine-slope parameter, owner order, and add-back chronology. A mere list of
-similarly named cells is not a composition theorem.
+The output is
+
+```text
+U_geometry = U_source_line + U_source_cover + U_trivial.
+```
+
+The positive value is kept separate as `U_positive`. Every map preserves the
+received line, chosen witness support, affine slope, owner order, exact
+bridge multiplicity, and add-back chronology.
 
 ## Falsifier
 
-An unclassified balanced-core witness, an overlapping owner, an unpaid
-source-cover cell, or a transport that changes line, support, or slope.
+An active slope outside the component bridge, an omitted trivial-stabilizer
+component, an omitted source-line row or source-cover passport, an
+overlapping owner, or a transport that changes line, support, slope, or
+multiplicity.
