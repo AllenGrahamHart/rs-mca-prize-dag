@@ -1,0 +1,204 @@
+{
+ "n": 8,
+ "q": 73,
+ "k": 4,
+ "ratios": [
+  1,
+  2,
+  3,
+  10,
+  11,
+  27,
+  72
+ ],
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 5,
+   "qcore_count": 3,
+   "qcore_M_N_km": [
+    2,
+    4,
+    2,
+    3
+   ],
+   "C(n,a)/n": 7.0,
+   "C(n,a)/n^sigma": 7.0,
+   "scanned_words": 46,
+   "top": [
+    {
+     "F_LIST": 7,
+     "F_SUBSET": 7,
+     "degrees": [
+      7,
+      4
+     ],
+     "ratio": 72,
+     "slack": 2,
+     "profile": {
+      "5": 7
+     }
+    },
+    {
+     "F_LIST": 7,
+     "F_SUBSET": 7,
+     "degrees": [
+      7,
+      4
+     ],
+     "ratio": 27,
+     "slack": 2,
+     "profile": {
+      "5": 7
+     }
+    },
+    {
+     "F_LIST": 7,
+     "F_SUBSET": 7,
+     "degrees": [
+      7,
+      4
+     ],
+     "ratio": 10,
+     "slack": 2,
+     "profile": {
+      "5": 7
+     }
+    },
+    {
+     "F_LIST": 7,
+     "F_SUBSET": 7,
+     "degrees": [
+      7,
+      4
+     ],
+     "ratio": 1,
+     "slack": 2,
+     "profile": {
+      "5": 7
+     }
+    },
+    {
+     "F_LIST": 5,
+     "F_SUBSET": 5,
+     "degrees": [
+      6,
+      5
+     ],
+     "ratio": 72,
+     "slack": 1,
+     "profile": {
+      "5": 5
+     }
+    },
+    {
+     "F_LIST": 5,
+     "F_SUBSET": 5,
+     "degrees": [
+      6,
+      5
+     ],
+     "ratio": 27,
+     "slack": 1,
+     "profile": {
+      "5": 5
+     }
+    }
+   ]
+  },
+  {
+   "sigma": 2,
+   "a": 6,
+   "qcore_count": 1,
+   "qcore_M_N_km": [
+    4,
+    2,
+    1,
+    1
+   ],
+   "C(n,a)/n": 3.5,
+   "C(n,a)/n^sigma": 0.4375,
+   "scanned_words": 46,
+   "top": [
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      7,
+      5
+     ],
+     "ratio": 72,
+     "slack": 1,
+     "profile": {
+      "6": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      7,
+      5
+     ],
+     "ratio": 27,
+     "slack": 1,
+     "profile": {
+      "6": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      7,
+      5
+     ],
+     "ratio": 1,
+     "slack": 1,
+     "profile": {
+      "6": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      6,
+      4
+     ],
+     "ratio": 72,
+     "slack": 0,
+     "profile": {
+      "6": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      6,
+      4
+     ],
+     "ratio": 27,
+     "slack": 0,
+     "profile": {
+      "6": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      6,
+      4
+     ],
+     "ratio": 1,
+     "slack": 0,
+     "profile": {
+      "6": 1
+     }
+    }
+   ]
+  }
+ ]
+}

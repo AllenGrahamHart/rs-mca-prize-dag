@@ -1,0 +1,312 @@
+{
+ "n": 16,
+ "q": 17,
+ "k": 8,
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 9,
+   "C(n,a)": 11440,
+   "delta0_max": 673,
+   "n_keys_hit": 17,
+   "n_keys_at_max": 16,
+   "bucket_hist_top": [
+    [
+     673,
+     16
+    ],
+    [
+     672,
+     1
+    ]
+   ],
+   "qcore_count": 35,
+   "qcore_best_M_N_km": [
+    2,
+    8,
+    4,
+    35
+   ],
+   "qcore_family": [
+    [
+     2,
+     8,
+     4,
+     35
+    ],
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 24310,
+   "qcore_signature": [
+    1
+   ],
+   "qcore_bucket_measured": 673,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "sigma": 2,
+   "a": 10,
+   "C(n,a)": 8008,
+   "delta0_max": 32,
+   "n_keys_hit": 289,
+   "n_keys_at_max": 1,
+   "bucket_hist_top": [
+    [
+     32,
+     1
+    ],
+    [
+     31,
+     32
+    ],
+    [
+     29,
+     56
+    ],
+    [
+     28,
+     64
+    ],
+    [
+     27,
+     48
+    ],
+    [
+     26,
+     72
+    ],
+    [
+     25,
+     16
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    4,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 19448,
+   "qcore_signature": [
+    14,
+    13
+   ],
+   "qcore_bucket_measured": 31,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    9,
+    10,
+    13,
+    14
+   ]
+  },
+  {
+   "sigma": 3,
+   "a": 11,
+   "C(n,a)": 4368,
+   "delta0_max": 3,
+   "n_keys_hit": 3328,
+   "n_keys_at_max": 80,
+   "bucket_hist_top": [
+    [
+     3,
+     80
+    ],
+    [
+     2,
+     880
+    ],
+    [
+     1,
+     2368
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    4,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 12376,
+   "qcore_signature": [
+    13,
+    16,
+    4
+   ],
+   "qcore_bucket_measured": 3,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    13,
+    14
+   ]
+  },
+  {
+   "sigma": 4,
+   "a": 12,
+   "C(n,a)": 1820,
+   "delta0_max": 1,
+   "n_keys_hit": 1820,
+   "n_keys_at_max": 1820,
+   "bucket_hist_top": [
+    [
+     1,
+     1820
+    ]
+   ],
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "qcore_family": [
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 6188,
+   "qcore_signature": [
+    4,
+    8,
+    9,
+    4
+   ],
+   "qcore_bucket_measured": 1,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    13,
+    15
+   ]
+  },
+  {
+   "sigma": 5,
+   "a": 13,
+   "C(n,a)": 560,
+   "delta0_max": 1,
+   "n_keys_hit": 560,
+   "n_keys_at_max": 560,
+   "bucket_hist_top": [
+    [
+     1,
+     560
+    ]
+   ],
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "qcore_family": [
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 2380,
+   "qcore_signature": [
+    3,
+    4,
+    1,
+    12,
+    13
+   ],
+   "qcore_bucket_measured": 1,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    15
+   ]
+  }
+ ]
+}

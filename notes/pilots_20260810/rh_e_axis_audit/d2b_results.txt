@@ -1,0 +1,72 @@
+==============================================================================
+D2b.1  CAN THE CHARACTERISTIC EVER DROP TO OR BELOW n = 2^41 ?
+==============================================================================
+Per-e congruence floor (LTE) and the floor forced by q > 2^167:
+  e    congruence floor on p    q>2^167 floor on p   binding floor  <= n ?
+  1           p = 1 mod 2^41             ~2^168.00           168 b   False
+  2         p = +-1 mod 2^40              ~2^84.00            84 b   False
+  3           p = 1 mod 2^41              ~2^56.00            56 b   False
+  4         p = +-1 mod 2^39              ~2^42.00            42 b   False
+  5           p = 1 mod 2^41              ~2^34.00            42 b   False
+  6         p = +-1 mod 2^40              ~2^28.00            40 b    True
+
+Only these e can even in principle have char <= n; enumerate them EXACTLY:
+  e = 6: candidates p = j*2^40 +- 1 with p <= n = 2^41 and p^6 > 2^167
+      p = 1099511627775    prime? False
+      p = 1099511627777    prime? False
+      p = 2199023255551    prime? False
+      -> any admissible row with char <= n at e = 6: False
+
+VERDICT: an admissible row with characteristic <= the evaluation-domain
+size n = 2^41 exists iff one of the integers printed above is prime.
+
+==============================================================================
+D2b.2  q IS ALWAYS ODD, AND THE SUBFIELD LATTICE PER e
+==============================================================================
+2^41 | q-1 forces q odd, so every 'odd characteristic' hypothesis in the
+far-CA subtree is satisfied on every admissible row, prime or not.
+
+  e     proper subfields   largest proper subfield size
+  1   none (prime field)                              -
+  2            ['F_p^1']                  p^1 = q^(1/2)
+  3            ['F_p^1']                  p^1 = q^(1/3)
+  4   ['F_p^1', 'F_p^2']                  p^2 = q^(2/4)
+  5            ['F_p^1']                  p^1 = q^(1/5)
+  6 ['F_p^1', 'F_p^2', 'F_p^3']                  p^3 = q^(3/6)
+
+In the RAZOR SLICE the largest proper subfield of an admissible row is:
+  e = 2: p ~ 2^128, largest proper subfield F_(p^1) has ~2^128 elements (target scale 2^128)
+  e = 3: p ~ 2^86, largest proper subfield F_(p^1) has ~2^86 elements (target scale 2^128)
+  e = 4: p ~ 2^64, largest proper subfield F_(p^2) has ~2^128 elements (target scale 2^128)
+  e = 5: p ~ 2^52, largest proper subfield F_(p^1) has ~2^52 elements (target scale 2^128)
+
+==============================================================================
+D2b.3  THE RPFC CONTRAPOSITIVE (this is the load-bearing one)
+==============================================================================
+rate_half_residual_prime_field_collapse (PROVED) statement.md:11-20:
+   N=2^41, q=p^f, B=floor(q/2^128) in {2^39, 2^39+1}, N | q-1  ==>  f=1.
+
+CONTRAPOSITIVE: on the admissible family, f >= 2  ==>  B not in
+{2^39, 2^39+1}, i.e. every admissible EXTENSION row has
+   q  outside  [2^167, 2^167 + 2^129).
+   excluded interval = [2^167, 2^167 + 2^129) = [187072209578355573530071658587684226515959365500928, 187072209579036138263913535514610975730822901923840)
+
+Consequence for the audit: the ONLY residual-budget territory in the
+pose's range -- the two open budgets {2^39, 2^39+1}, which is where the
+A=1 / A=3 exceptional core and its prime-field instruments live -- is
+EMPTY of extension rows, by a PROVED node.  Widening the pose therefore
+cannot import extension rows into the prime-field-dependent machinery.
+
+Direct check: for each feasible e >= 2, is there any p with
+2^167 <= p^e < 2^167 + 2^129 and 2^41 | p^e - 1 ?
+  e = 2: 46 integer candidates in the window, of which PRIME: 0
+  e = 3: 0 integer candidates in the window, of which PRIME: 0
+  e = 4: 0 integer candidates in the window, of which PRIME: 0
+  e = 5: 0 integer candidates in the window, of which PRIME: 0
+  e = 6: 0 integer candidates in the window, of which PRIME: 0
+
+==============================================================================
+D2b.4  AN EXPLICIT e = 6 ADMISSIBLE ROW (the largest feasible e)
+==============================================================================
+  p = 6597069766657  (43 bits, p > n = 2^41: True)
+  q = p^6 has 256 bits, v_2(q-1) = 42, B* = floor(q/2^128) has 128 bits

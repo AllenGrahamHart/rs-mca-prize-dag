@@ -33,18 +33,19 @@
 ## Claim
 
 Conditional on the premise, the rowwise adjacent certificate of
-(RH-ADJ) holds at every admissible prime-q row in 2^167 < q < 2^256
-with the crossing located. [Round-30 F4 FLAG on the e-axis, RULED
-2026-08-10 (user-delegated): the pose STAYS prime-q; blind widening
-to q = p^e is RULED OUT (it would assert unaudited transport of the
-rounds-27..29 instruments to extension rows — the exact seam shape
-this campaign keeps catching); the per-instrument primality-
-sensitivity audit is commissioned as a round-31 pilot, after which
-the choice (widen with proof vs a separate extension-row child)
-gets made on evidence. Until then rows with q = p^e, e >= 2 in this
-range — including the exhibited razor-slice instances — are
-UNCOVERED and every consumer reading "each admissible row" must
-count them so.]
+(RH-ADJ) holds at every admissible row q = p^e (e in {1..6}) in
+2^167 < q < 2^256 with the crossing located. [Round-30 F4 FLAG
+RESOLVED 2026-08-10, same day, by the commissioned rh_e_axis_audit:
+the child pose is WIDENED to q = p^e — 13/14 instruments
+field-general by printed hypothesis, the one Legendre-gate
+instrument unreachable by extension rows (the PROVED RPFC
+contrapositive), char > n on the whole family (stratum lemma), and
+the HD1 import verified field-general against ABF26 Thm 4.9 /
+BCIKS20 Thm 1.4 by the coordinator. The e-axis coverage gap on the
+consumers' "each admissible row" is CLOSED at pose level; the
+prime-only evidence base below the pose carries the standing O7
+re-run flag, and future far-CA upper bounds carry the O6
+no-subfield-assumption rule (both on the child pose).]
 
 ## Proof
 

@@ -4931,3 +4931,74 @@ green). The pilot registered the same wrong cap it was auditing and
 caught itself — scored as its own miss. No status flips. Files:
 notes/pilots_20260810/rh_overlap_cap/ (REPORT, FABLE_AUDIT, d1-d4
 scripts + results).
+
+## ROUND 31 BANK 3/4 — rh_e_axis_audit (2026-08-10, coordinator)
+
+**BANKED AND THE F4 RULING EXECUTED: WIDEN. The pose is now
+q = p^e, e in {1..6} EXACTLY (stratum lemma, replayed).** Grounds:
+13/14 instruments field-general by printed hypothesis (file:line
+inventory); the ONE primality-using instrument (the A=1 Legendre
+router) UNREACHABLE by extension rows via the PROVED RPFC
+contrapositive — stated nowhere in-repo before, now banked as an
+RPFC addendum (mint candidate); char = p > n = 2^41 on the whole
+family (the three sub-2^41 e=6 candidates all composite); O3 (the
+HD1 import) CLOSED BY THE COORDINATOR against the vendored primary
+source (ABF26 Thm 4.9 / BCIKS20 Thm 1.4: RS[F,L,k] over an
+ARBITRARY field — no primality hypothesis); the first
+extension-field supply measurement in the lane's history (the old
+field layer could not represent F_{p^e}) finds NO excess at the
+razor-analogue cell — H-SUBFIELD refuted at q = 289 with the clean
+structural reason (F_p-rational keys reproduce the F_p profile
+exactly); the only visible excess is the full-group degeneracy,
+unreachable at n = 2^41 (2^41+1 = 3*83*8831418697). "q prime" was a
+THEOREM on 2^-127 of the range and an assumption elsewhere — the
+widening removes the 2^167 discontinuity. STANDING: O6 (no future
+far-CA upper bound may assume no-subfield) + O7 (prime-only
+evidence base flagged for extension re-runs) on the pose;
+BAND_LANE_DEFINITIONS item 16; band_closure conditional synced.
+Pilot disclosed one bare-python3 no-op breach + a weaker quarantine
+mechanism — accepted with flags. The consumers' e-axis coverage gap
+is CLOSED at pose level. Files:
+notes/pilots_20260810/rh_e_axis_audit/.
+
+## ROUND 31 BANK 4/4 — rh_transport_dictionary (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED — THE (t,M) DICTIONARY EXISTS, HAS FIVE ENTRIES, AND
+INVERTS ROUND 29'S DIRECTION.** The C(127,64) puzzle RESOLVED by an
+exact identity (PLATEAU = QCORE at (M,sigma) = (2,1), seven scales);
+the round-29 t = M identification is OFF BY ONE (sigma < M, banked
+verbatim); sigma = 2^34 is itself a coset scale — the exact ladder
+(coordinator hand-checked): qcore cliff 63.503 bits at the crossing
+index, the CPW family cuts it to 6.02 bits at 2^117.15, which is
+57.480 bits above qcore yet 10.75-10.85 bits BELOW the need. The
+round-29 "+115 bits over-satisfaction" RETIRED as a scale artifact
+(the same law at razor-n gives 1.1e12 bits); THE DIRECTION INVERTS
+— the faithful transport UNDERSHOOTS (decisive datum: exact global
+L_1 = 5 vs naive 41.25 at the first structure-dominated sigma=2
+cell). THE LANE LANDS LIST-SIDE: F_LIST is L_1 and the audited
+guard forbids the MCA surrogate — THE MISSING DICTIONARY ENTRY IS
+THE CA/MCA CONVERSION (candidate door: ABF26 Lemma 4.6, field-
+general, unverified). POSITIVE: the banked THEOREM CAP confirmed
+exactly tight in char-0 at 2-power n (the razor's regime), failing
+off 2-powers at the Lam-Leung boundary — its domain hypothesis
+shown load-bearing. Falsifiers F-CAP/F-CPW/F-SIGMA1/F-OBJECT armed.
+45/45 ramguard invocations; one RAM death disclosed+relaunched.
+Files: notes/pilots_20260810/rh_transport_dictionary/.
+
+**ROUND 31 COMPLETE: 4/4 banked, 0 status flips, census unchanged
+232 = 167/37/28. THE ROUND RESHAPED THE RH-AC ENDGAME: residual
+(ii) re-priced 10.61 orders to a 9/4 factor with (FR) named; the
+safe-half overlap route REFUTED and replaced by LB1's two-sided
+window B_ca^far(k+2^34) in [2^39.9773, 2^128); the supply lane
+CLOSED as posed (coset families undershoot; the CA/MCA conversion
+is the single named supply gate); the e-axis WIDENED with the
+prime machinery provably shielded. THE OPEN CONTENT OF RH-AC IS
+NOW: the far-CA upper bound (R-UPPERBOUND, target window two-sided)
++ (FR) on residual (ii) + the CA/MCA conversion + residuals
+(i)/(iii). Round-29 corrections banked this round: the T5 object
+slip (k-1 vs a-1), the 0.999748 artifact, the 5.04e22 and
+2/3-window supersessions, the t = M off-by-one, the +115-bit scale
+artifact, and the coordinator's own "~39 orders" brief line. THE
+AUDIT CADENCE HELD: every round-29 headline object was either
+confirmed exactly (THEOREM CAP, T <= r+1 now tight) or corrected
+within two rounds by its own campaign.**

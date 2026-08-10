@@ -6,10 +6,47 @@
   (notes/band_decomposition_plan_20260809.md); pose adopted from the
   round-27 (RH-AC) draft with the decomposition ratification
 
-## Statement (RH-AC, the pose of record; quantifier WIDENED 2026-08-10)
+## Statement (RH-AC, the pose of record; quantifier WIDENED 2026-08-10, e-axis WIDENED same day)
 
-At every admissible row with n = 2^41, k = 2^40, **q prime,
-q = 1 mod n, 2^167 < q < 2^256** — the entire undetermined range;
+At every admissible row with n = 2^41, k = 2^40, **q = p^e (p prime,
+e >= 1; exactly six strata e in {1,2,3,4,5,6} are admissible — the
+round-31 stratum lemma), q = 1 mod n, 2^167 < q < 2^256** — the
+entire undetermined range;
+
+[E-AXIS WIDENING (2026-08-10, coordinator, executing the F4 ruling
+per its own terms — "the audit decides the fork"): the pose read
+"q prime". The round-31 rh_e_axis_audit found: (i) 13 of 14
+instruments in the located-crossing stack are field-general BY THEIR
+OWN PRINTED HYPOTHESES (inventory with file:line in the pilot
+REPORT); (ii) the ONE primality-using instrument (the A=1
+exceptional-core Legendre router) is UNREACHABLE by extension rows —
+the PROVED rate_half_residual_prime_field_collapse contrapositive
+puts every admissible extension row outside the residual-budget
+window [2^167, 2^167+2^129) that is that machinery's sole territory;
+(iii) the widening is FINITE: e in {1..6} exactly, with per-stratum
+p-windows, and char = p > n = 2^41 on every admissible row (the
+three sub-2^41 candidates at e=6 are all composite) — so every
+degree bound in the Hankel/pair-Lagrange reductions holds with
+primality never needed; (iv) the O3 import is VERIFIED FIELD-GENERAL
+by the coordinator against the primary source: ABF26 Theorem 4.9
+states the unique-decoding CA bound ([BCIKS20, Thm 1.4]:
+eps_mca = eps_ca <= n/|F|) for RS[F, L, k] over an arbitrary field
+(and Thm 4.8 "any linear code", Lemma 4.6 "any F-additive code") —
+the HD1 bracket-top import carries no primality hypothesis; (v) the
+first extension-field supply measurement in-repo finds NO EXCESS at
+the analogue of the exhibited razor row (the only small-scale excess
+is the full-multiplicative-group degeneracy D = F_q'^*, unreachable
+at n = 2^41 since 2^41+1 = 3*83*8831418697); (vi) sub-2^167 was
+already family-uniform in e, so this widening removes the
+discontinuity at 2^167. STANDING OBLIGATIONS: O6 — any future
+far-CA UPPER bound must not use "F_q has no proper subfield"
+(pre-registered falsifier: a subfield-structured configuration
+beating the prime-field maximum at matched (n,k,a)); O7 — the
+prime-only evidence base (the 21,832-configuration census, the
+collinearity census, F_LMAX/F_SSPARSE ladders) is flagged for
+extension-field re-runs (the pilot's ffq.py field layer makes this
+possible for the first time). The round-30 F4 flag below is
+RESOLVED by this widening.]
 below 2^167 the crossing is PROVED (the wave-10 staircase), and the
 razor slice (2^255.9, 2^256) remains the hard corner — locate the
 exact adjacent crossing a_RH(q) of (RH-ADJ):
@@ -632,3 +669,61 @@ argument hand-verified, d1/d4 replayed exactly.
   (machine-checked arithmetic, exhaustive only at small cells);
   (16,8,9) returned a sampled negative (zero power); (16,8,10) not
   measured. No status flips; NEITHER half of RH-AC closes.
+
+## Round-31 supply addendum (2026-08-10, coordinator-audited): the (t,M) dictionary lands — and the supply lane closes as posed
+
+The round-31 rh_transport_dictionary pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_transport_dictionary/; the razor ladder
+hand-checked by the coordinator, all quotes verified verbatim):
+
+- **THE C(127,64) PUZZLE IS RESOLVED** by an exact integer identity:
+  PLATEAU(n) = C(n/2-1, n/4) = QCORE(n, sigma=1) = C(n/M-1, k/M) at
+  M = 2 (verified at seven scales). The round-29 model and the razor
+  are two points of ONE family — (M,sigma) = (2,1) vs (2^34,
+  2^34-1) — and only the plateau coincided.
+- **THE ROUND-29 "t = M" IDENTIFICATION IS OFF BY ONE**: the banked
+  qcore requires sigma < M (ww_lower_witnesses/proof.md:18,
+  extremal at sigma = M-1). The step matters: sigma = 2^34 is
+  itself a coset scale, exactly where the two coset families
+  separate. THE LADDER AT THE RAZOR ROW: qcore at 2^34-1 =
+  C(127,64) = 2^123.17; qcore at 2^34 = C(63,32) = 2^59.67 (a
+  63.503-bit cliff); the CPW full-coset product-word family cuts
+  the drop to 6.02 bits with C(128,65)/128 = 2^117.15 (exact
+  integer) — 57.480 bits above qcore at the crossing index and
+  **10.75-10.85 bits BELOW the need**.
+- **THE "+115 BITS OVER-SATISFACTION" (round 29) IS RETIRED AS A
+  SCALE ARTIFACT**: the same sigma=1 law at the razor's own n gives
+  a 1.1e12-bit surplus — a quantity that moves ten orders under a
+  scale change transports in neither direction. THE DIRECTION
+  INVERTS: the faithful coset transport UNDERSHOOTS the need.
+  Decisive small-scale datum: the first exact global maximum at
+  sigma >= 2 in a structure-dominated field (n=12, q=37) is
+  L_1 = 5 vs the naive C(n,a)/n transport's 41.25 — the sigma=1
+  law dies at sigma >= 2 (the extra matching conditions are
+  F_q-valued, not cyclic).
+- **THE LANE LANDS ON THE LIST SIDE**: F_LIST is L_1 (the
+  list-adjacent contract's own object), and the audited guard
+  (literature map) FORBIDS the list-threshold-as-MCA-surrogate. So
+  the supply lane CANNOT reach this node's open content without a
+  proved CA/MCA conversion — **the missing dictionary entry is the
+  CA/MCA CONVERSION, not more (t,M) entries.** (Candidate door,
+  unverified: ABF26 Lemma 4.6's field-general eps_mca = eps_ca at
+  delta < delta_min/2.)
+- **POSITIVE CONFIRMATION OF THE BANKED CAP**: the char-0
+  minimal-slack maximum is EXACTLY the qcore value at every 2-power
+  n measured (the razor's regime) and fails off 2-powers precisely
+  at the Lam-Leung boundary — the banked THEOREM CAP verified
+  independently in its own stratum, with its domain hypothesis
+  (2-power coset structure) shown load-bearing.
+- **THE SLACK AXIS (Q6) is where all surplus lives**: the banked
+  razor witness is slack-0, the stratum where the cap is tight;
+  the measured surplus is entirely the climb to maximal slack.
+- **Falsifiers armed**: F-CAP (char-0 2-power cap exact; untested
+  n >= 32), F-CPW (the two-family ladder + sporadic excess +2),
+  F-SIGMA1 (L_1(k+1) = C(n,a)/n exactly; verified n = 8, 12),
+  F-OBJECT (a proved CA/MCA conversion re-prices the crossing-index
+  supply from 2^59.67 to 2^117.15 — a 57.5-bit gap-anatomy change).
+- **Zero-power of record**: no exact global max at 2-power n with
+  sigma >= 2; nothing measures B_mca/B_ca^far/S_sparse; q window
+  ends at 10^6 (regime membership transports; the 2^256 arithmetic
+  does not). No status flips.

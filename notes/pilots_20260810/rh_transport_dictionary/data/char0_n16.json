@@ -1,0 +1,142 @@
+{
+ "n": 16,
+ "k": 8,
+ "char": 0,
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 9,
+   "C(n,a)": 11440,
+   "char0_delta0_max": 35,
+   "n_keys": 3280,
+   "bucket_hist_top": [
+    [
+     35,
+     16
+    ],
+    [
+     10,
+     448
+    ],
+    [
+     3,
+     1792
+    ],
+    [
+     1,
+     1024
+    ]
+   ],
+   "qcore_count": 35,
+   "qcore_best_M_N_km": [
+    2,
+    8,
+    4,
+    35
+   ],
+   "qcore_family": [
+    [
+     2,
+     8,
+     4,
+     35
+    ],
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 24310
+  },
+  {
+   "sigma": 2,
+   "a": 10,
+   "C(n,a)": 8008,
+   "char0_delta0_max": 3,
+   "n_keys": 7864,
+   "bucket_hist_top": [
+    [
+     3,
+     24
+    ],
+    [
+     2,
+     96
+    ],
+    [
+     1,
+     7744
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    4,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 19448
+  },
+  {
+   "sigma": 3,
+   "a": 11,
+   "C(n,a)": 4368,
+   "char0_delta0_max": 3,
+   "n_keys": 4336,
+   "bucket_hist_top": [
+    [
+     3,
+     16
+    ],
+    [
+     1,
+     4320
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    4,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 12376
+  }
+ ]
+}

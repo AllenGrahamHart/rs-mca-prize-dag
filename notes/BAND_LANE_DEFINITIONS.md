@@ -206,3 +206,15 @@ codimension `2d`. The corrected residual of record is
     crossing/floor nodes rides the next mint wave; until then this
     item plus the node-local scope flags (k_extremal FLAGs A-D) are
     the reading of record.
+
+16. **The e-axis (2026-08-10, F4 RULING EXECUTED: WIDEN).** The
+    RH-AC pose is q = p^e, e in {1..6} exactly (the stratum lemma on
+    rate_half_residual_prime_field_collapse's round-31 addendum);
+    "q prime" was PROVED only on the residual-budget sliver
+    [2^167, 2^167+2^129) (RPFC) and was an unstated assumption
+    elsewhere. The RPFC contrapositive keeps every extension row out
+    of the prime-field machinery's territory. Standing rules: any
+    future far-CA UPPER bound must not assume "no proper subfield"
+    (O6); the prime-only evidence base is flagged for extension
+    re-runs (O7). Full grounds: the rh_e_axis_audit REPORT +
+    the e-axis widening block on the crossing pose.

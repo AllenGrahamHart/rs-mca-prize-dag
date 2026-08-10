@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 144, in <module>
+    main()
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 136, in main
+    cell = run_cell(n, q, k, sigma, logP, thr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 93, in run_cell
+    acc = walk(True)
+          ^^^^^^^^^^
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 89, in walk
+    rec(0, w, True)
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 85, in rec
+    rec(i + 1, supp_left - 1, False)
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 85, in rec
+    rec(i + 1, supp_left - 1, False)
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 85, in rec
+    rec(i + 1, supp_left - 1, False)
+  [Previous line repeated 1 more time]
+  File "/home/u2470931/smooth-read-solomin/prize/notes/pilots_20260810/rh_transport_dictionary/scratch/td_global.py", line 72, in rec
+    acc[key] = acc.get(key, 0) + 1
+    ~~~^^^^^
+MemoryError
+Q61RETRY_DONE
