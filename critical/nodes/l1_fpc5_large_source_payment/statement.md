@@ -3,13 +3,14 @@
 - **status:** TARGET
 - **consumer:** `l1_full_petal_fpc5_payment`
 
-After the official small-source sieve, the remaining large source scales are
+After the official small-source and exact-prefilter scale sieves, the
+remaining large source scales are
 
 ```text
 rate 1/2:   M>=5,
-rate 1/4:   M>=5,
-rate 1/8:   M>=7,
-rate 1/16:  M>=15.
+rate 1/4:   M>=13,
+rate 1/8:   M>=29,
+rate 1/16:  M>=57.
 ```
 
 Every cell satisfies
@@ -24,6 +25,13 @@ sources, touched-petal sets, defects, and exact owners. Raw enumeration of
 sources or touched subsets is not an admissible payment.
 
 ## Exact proved prefilter
+
+The proved node `l1_fpc5_official_rate_prefilter_scale_gap` exhausts the
+official low-rate prefixes after `(PF6)`. On every `n=2^s`, `13<=s<=44`,
+that residual is empty through `M=12,28,56` at rates `1/4,1/8,1/16`.
+The first omitted scales have exact `(PF6)` parameter survivors, so the new
+cutoffs cannot be extended using the prefilter alone. Rate half remains live
+from `M=5`.
 
 The proved node `l1_fpc5_large_source_exact_prefilter` now separates the
 bookkeeping reductions from the aggregate target. For every fixed source,

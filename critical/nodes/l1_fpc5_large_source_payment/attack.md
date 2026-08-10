@@ -3,6 +3,8 @@
 1. Start from the exact survivor region `(PF6)` in
    `l1_fpc5_large_source_exact_prefilter`; do not revisit EMPTY, singleton,
    or positive-Johnson cells.
+   Apply `l1_fpc5_official_rate_prefilter_scale_gap` immediately: there are
+   no low-rate survivors before `M=13,29,57` at rates `1/4,1/8,1/16`.
 2. Work in the exact affine locator chart supplied by
    `l1_fpc5_tpetal_saturated_slice_dimension`; do not re-prove a `t`-petal
    syzygy or dimension formula.

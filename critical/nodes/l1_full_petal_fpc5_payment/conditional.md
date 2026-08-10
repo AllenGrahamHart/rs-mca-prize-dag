@@ -26,11 +26,14 @@ removes every strict `M=4` cell at rates `1/8` and `1/16`.
   first-layout domination and pair uniqueness pay rate quarter absolutely;
   only the rate-half guarded split-locator payment remains conditional.
 
-If `M>=5`, the small-source sieve removes strict cells through `M=6` at rate
-`1/8` and through `M=14` at rate `1/16`; it removes no additional `M>=5`
-cell at rates `1/2` or `1/4`. Since FPC5 has unbounded root excess, bounded
+If `M>=5`, the exact prefilter classifies every fixed cell outside `(PF6)` as
+empty, singleton, or fixed-cell polynomial; by the definition of the
+large-source leaf, only `(PF6)` remains. The official-rate scale-gap theorem
+proves that `(PF6)` is empty through `M=12` at rate `1/4`, through `M=28` at
+rate `1/8`, and through `M=56` at rate `1/16`; rate half has a parameter
+survivor already at `M=5`. Since FPC5 has unbounded root excess, bounded
 transition cells are already in the root-pinning payment. The remaining
-scales are exactly `M>=5,5,7,15`, the third leaf.
+scales are exactly `M>=5,13,29,57`, the third leaf.
 
 The cases are disjoint by `(M,t,rate)` and exhaustive. Granting their three
 aggregate payments therefore pays every FPC5 contributor with no duplicate

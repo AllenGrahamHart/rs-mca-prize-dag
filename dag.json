@@ -29513,8 +29513,8 @@
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales after the exact proved prefilter (PF6). Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
-   "attack_surface": "prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, then coalesce fixed background sets and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 after the exact proved prefilter (PF6) and official-rate scale-gap theorem. Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
+   "attack_surface": "start only at M>=5,13,29,57 for rates 1/2,1/4,1/8,1/16; prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, then coalesce fixed background sets and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -29559,6 +29559,24 @@
     "background/nodes/l1_fpc5_ratehalf_m4_t2_codimtwo_guarded_slice/statement.md",
     "critical/nodes/l1_fpc5_ratequarter_m4_t2_payment/statement.md",
     "critical/nodes/l1_fpc5_ratehalf_m4_t2_payment/statement.md"
+   ]
+  },
+  {
+   "id": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "title": "Official-rate FPC5 exact-prefilter scale gap",
+   "status": "PROVED",
+   "closure": "symbolic reduction plus independent exhaustive integer replay",
+   "statement": "On every official row n=2^s with 13<=s<=44, the exact FPC5 residual (PF6) is empty for rate 1/4 and 5<=M<=12, rate 1/8 and 7<=M<=28, and rate 1/16 and 15<=M<=56. Hence the unresolved large-source scales begin at M=13,29,57 respectively, while rate half remains M>=5. Exact PF6 parameter survivors at n=8192 and M=13,29,57 prove that the new low-rate cutoffs are sharp for this arithmetic prefilter.",
+   "refs": [
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/statement.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/proof.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/claim_contract.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/dependency_subdag.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/audit.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/result.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/provenance.md",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify.py",
+    "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify_audit.py"
    ]
   },
   {
@@ -30298,7 +30316,7 @@
    "status": "CONDITIONAL",
    "closure": "proof",
    "key": true,
-   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residual routers: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 rate split, whose rate-quarter branch is proved and whose only open child is rate half; and large sources M>=5,5,7,15 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint branches, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
+   "statement": "At every official row and for every received word, after first-match assignment to one carried maximal sunflower source, the remaining full-petal contributors satisfying FPC5 admit one disjoint polynomial/profile allocation. The proved official partition has exactly three residual routers: the rate-half M=4,t=3 Johnson-nonpositive guarded LS6 slices; the M=4,t=2 rate split, whose rate-quarter branch is proved and whose only open child is rate half; and large sources M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 respectively. Conditional on aggregate payment of those three disjoint branches, the FPC5 target is proved. Mixed or partial petals are not part of this node.",
    "attack_surface": "pay the unbounded root-excess full-petal complement by the mu-basis/split-core-divisor, exact-shell Pade, or aggregate first-owner route without identifying source-petal count M with touched-petal count t",
    "falsifier": "a reserve-valid official-row family in FPC5 whose first-owner contribution exceeds every polynomial and every legitimate quotient/profile column",
    "refs": [
@@ -62232,6 +62250,11 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "kind": "req"
+  },
+  {
    "from": "l1_fpc5_large_source_payment",
    "to": "l1_full_petal_fpc5_payment",
    "kind": "req"
@@ -62255,6 +62278,11 @@
    "from": "l1_fpc5_m4_t2_payment",
    "to": "l1_full_petal_fpc5_payment",
    "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
   },
   {
    "from": "l1_fpc5_ratehalf_inverse_ratio_degree_gate",
@@ -62684,6 +62712,11 @@
   {
    "from": "pma_full_petal_band_composition",
    "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "pma_official_rate_small_source_degree_sieve",
+   "to": "l1_fpc5_official_rate_prefilter_scale_gap",
    "kind": "req"
   },
   {
