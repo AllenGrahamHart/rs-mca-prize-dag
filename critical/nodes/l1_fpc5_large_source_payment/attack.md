@@ -76,6 +76,12 @@
    locator supports, choose the exact shortening depth `j`, and retain the
    `binom(b,u)` background incidence factor. A bounded or budget-compatible
    shortening depth is a complete cap, not heuristic evidence.
+   The bounded Delsarte LP screen
+   `experiments/prize_resolution/FPC5_CONSTANT_WEIGHT_LP_RESULT.md` is a
+   route fence at the closest blocked scale: on `(N,w,sigma)=(511,255,112)`
+   it is four bits weaker than shortening and roughly 24 bits above the
+   needed per-chart target. Do not repeat support-only LP optimization there;
+   retain primitive amplitudes or background/split-divisor structure.
 16. Use `l1_fpc5_grs_shortening_official_prefix_payment` on the smallest
    row. On its printed upper field slices, rate `1/8` is paid through `M=32`
    and rate `1/16` through `M=67`; begin those residual scans at `M=33` and
