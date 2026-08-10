@@ -1081,3 +1081,17 @@ configuration with a* > 7m-1) remains the live falsifier. Pilot
 process note: it caught its own false vacuity fence mid-session
 (min <= mean does not kill proven floors) — the check that saved
 a live route.
+
+## Cycle-57 bivariate rank-count fence (2026-08-10, Codex)
+
+The deficiency-aware matrix has now been evaluated on the proved `m=1`,
+`q=17` five-slope Hankel failure. For all ten canonical pair unions, the
+unique deficient point lies outside `W`, so the scalar-column model is exact;
+nevertheless every matrix has shape `15 x 6`, rank `5`, and nullity `1`.
+Each rank has both an explicit all-nonzero kernel vector and a nonzero `5 x 5`
+minor certificate. Thus even a `5/2` row surplus plus saturation of every
+coordinate in `W` does not imply full column rank. The general route remains
+live, but its rank theorem must use an official `m>1` structural exclusion or
+be restricted to incidence patterns violating the required `5m/3` cap. The
+proved fence is `rate_half_bivariate_row_surplus_route_fence`; no critical
+status changes.

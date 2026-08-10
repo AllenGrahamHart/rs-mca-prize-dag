@@ -30441,6 +30441,26 @@
    ]
   },
   {
+   "id": "rate_half_bivariate_row_surplus_route_fence",
+   "title": "Bivariate row-surplus route fence",
+   "status": "PROVED",
+   "closure": "exact finite-field rank certificates",
+   "statement": "For the proved strict m=1, q=17 five-slope Hankel witness, every one of the ten canonical pair-union supports W excludes the unique deficient point and yields the exact scalar-column bivariate matrix M_W of shape 15 by 6. Each matrix has an explicit all-nonzero kernel vector and a certified nonzero 5 by 5 minor, hence rank exactly 5 and nullity one. Thus a 5/2 row surplus and saturation of every coordinate in W do not force full column rank uniformly in m. This fences generic overdetermination, not an official-scale structured rank theorem.",
+   "refs": [
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/statement.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/proof.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/claim_contract.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/audit.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/result.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/provenance.md",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/certificate.json",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify.py",
+    "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify_audit.py",
+    "experiments/prize_resolution/rh_bivariate_m1_rank_probe.py"
+   ]
+  },
+  {
    "id": "rate_half_crossing_ideal_galois_multiplicity_exclusion",
    "title": "Ideal-level Galois multiplicity exclusion for dyadic moment windows",
    "status": "PROVED",
@@ -63107,6 +63127,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_bivariate_deficiency_clone_kernel_reduction",
+   "to": "rate_half_bivariate_row_surplus_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_bivariate_row_surplus_route_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
    "to": "rate_half_bivariate_deficiency_clone_kernel_reduction",
    "kind": "req"
@@ -63124,6 +63154,11 @@
   {
    "from": "rate_half_ca_hankel_endpoint_saturation_rigidity",
    "to": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_strict_m1_corefree_five_slope_route_fence",
+   "to": "rate_half_bivariate_row_surplus_route_fence",
    "kind": "req"
   },
   {

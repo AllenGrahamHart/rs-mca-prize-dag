@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_bivariate_deficiency_clone_kernel_reduction/verify.py",
-      "seconds": 0.017031,
+      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify.py",
+      "seconds": 0.322231,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_BIVARIATE_DEFICIENCY_CLONE_KERNEL_REDUCTION_PASS coefficient_checks=167\n"
+      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_PASS pairs=10 rank=5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_bivariate_deficiency_clone_kernel_reduction/verify_audit.py",
-      "seconds": 0.014516,
+      "script": "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify_audit.py",
+      "seconds": 0.031063,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_BIVARIATE_DEFICIENCY_CLONE_KERNEL_REDUCTION_AUDIT_PASS coefficient_checks=147\n"
+      "stdout_tail": "RATE_HALF_BIVARIATE_ROW_SURPLUS_ROUTE_FENCE_AUDIT_PASS pairs=10\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
