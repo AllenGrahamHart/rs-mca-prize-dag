@@ -1,0 +1,36 @@
+====================================================================================================
+D3.0  VALIDATION: projective algorithm vs exhaustive enumeration
+====================================================================================================
+  q=9    (p=3,e=2) a=5: exhaustive=8    projective=8    AGREE=True
+  q=9    (p=3,e=2) a=6: exhaustive=1    projective=1    AGREE=True
+  q=9    (p=3,e=2) a=7: exhaustive=1    projective=1    AGREE=True
+  q=17   (p=17,e=1) a=5: exhaustive=7    projective=7    AGREE=True
+  q=17   (p=17,e=1) a=6: exhaustive=1    projective=1    AGREE=True
+  q=17   (p=17,e=1) a=7: exhaustive=1    projective=1    AGREE=True
+  q=25   (p=5,e=2) a=5: exhaustive=7    projective=7    AGREE=True
+  q=25   (p=5,e=2) a=6: exhaustive=1    projective=1    AGREE=True
+  q=25   (p=5,e=2) a=7: exhaustive=1    projective=1    AGREE=True
+
+====================================================================================================
+D3.1  F_LMAX LADDER, n_s = 8, K = 4 (rate 1/2), PRIME vs EXTENSION
+====================================================================================================
+    q     p  e  type  D<=F_p^d   B_s  FL(5)  FL(6)  FL(7)  sigma_L  #argmax(5)                 argmax flags
+    9     3  2   EXT         2     3      8      1      1        1           2          rational/frob-fixed
+   17    17  1 PRIME         1     4      7      1      1        1           8                          -/-
+   25     5  2   EXT         2     5      7      1      1        1           8          rational/frob-fixed
+   41    41  1 PRIME         1     6      7      1      1        1           8                          -/-
+   49     7  2   EXT         2     7      7      1      1        0         168        irrational/frob-moved
+   73    73  1 PRIME         1     8      7      1      1        0           8                          -/-
+   81     3  4   EXT         2     9      8      1      1        0           2          rational/frob-fixed
+   89    89  1 PRIME         1     9      7      1      1        0           8                          -/-
+   97    97  1 PRIME         1     9      7      1      1        0           8                          -/-
+  113   113  1 PRIME         1    10      7      1      1        0           8                          -/-
+  121    11  2   EXT         2    11      7      1      1        0           8        irrational/frob-moved
+  137   137  1 PRIME         1    11      7      1      1        0           8                          -/-
+  169    13  2   EXT         2    13      7      1      1        0           8          rational/frob-fixed
+  193   193  1 PRIME         1    13      7      1      1        0           8                          -/-
+  233   233  1 PRIME         1    15      7      1      1        0           8                          -/-
+  241   241  1 PRIME         1    15      7      1      1        0           8                          -/-
+  257   257  1 PRIME         1    16      7      1      1        0           8                          -/-
+  281   281  1 PRIME         1    16      7      1      1        0           8                          -/-
+ramguard: local profile reached its 5m wall limit

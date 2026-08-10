@@ -1,0 +1,127 @@
+========================================================================
+D1.1  reproduce the banked 5.04e22 and pin its exact value
+========================================================================
+  m = 2^37 = 137438953472,  N = 16m = 2^41 = 2199023255552
+  rho = 4m-1 = 549755813887 = 2^39-1,  R+1 = 8m+1 = 1099511627777
+  a = w*_max = 8m-2 = 1099511627774,  s = R+1-a = 3,  N-a = 8m+2 = 1099511627778
+  CAP(2^37, 8m-2) = (N-a)*e//s = 50371909150701174915072
+  banked figure at collinearity_object/d3_coverage_results.txt:94 = 50371909150701174915072
+  MATCH: True
+  closed form 2^38*(2^39+1)/3 = 50371909150701174915072   MATCH: True
+  exactly divisible (no floor loss): (N-a)*e % s = 0
+
+========================================================================
+D1.2  the size of the gap -- the brief says '~39-order'
+========================================================================
+  CAP / (rho+1 = 2^39) = 91625968981  (remainder 274877906944)
+      decimal digits of the ratio : 11   bit length : 37
+  CAP / (rho+2 = 2^39+1) = 91625968981  (remainder 183251937963)
+      decimal digits of the ratio : 11   bit length : 37
+  CAP/(rho+2) in closed form = 2^38/3 = 91625968981 (exact: True)
+  CAP/(rho+1) in closed form = (2^39+1)/6 = 91625968981
+  decimal digits: CAP = 23, rho+1 = 12  ->  gap = 11 decimal orders
+  bit lengths  : CAP = 76, rho+1 = 40  ->  gap = 36 binary orders
+  VERDICT: the gap is ~11 decimal / ~36.4 binary orders, NOT 39 orders.
+
+========================================================================
+D1.3  CAP as a function of a on the admissible window [4m+2, 8m-2]
+========================================================================
+  m              a                CAP(m,a)               T1cap            rho+1       
+  2              10               6                      2                8            CLOSES
+  2              12               8                      2                8            open
+  2              14               12                     2                8            open
+  8              34               24                     8                32           CLOSES
+  8              44               32                     3                32           open
+  8              48               37                     2                32           open
+  8              62               176                    2                32           open
+  1048576        4194306          3145728                1048576          4194304      CLOSES
+  1048576        5592407          4194304                3                4194304      open
+  1048576        6291456          5242877                2                4194304      open
+  1048576        8388606          2932031706453          2                4194304      open
+  137438953472   549755813890     412316860416           137438953472     549755813888 CLOSES
+  137438953472   733007751852     549755813888           3                549755813888 open
+  137438953472   824633720832     687194767357           2                549755813888 open
+  137438953472   1099511627774    50371909150701174915072 2                549755813888 open
+
+  monotone increasing in a?
+     m=2      strictly non-decreasing: True   CAP(4m+2)=6  CAP(8m-2)=12
+     m=8      strictly non-decreasing: True   CAP(4m+2)=24  CAP(8m-2)=176
+     m=64     strictly non-decreasing: True   CAP(4m+2)=192  CAP(8m-2)=10965
+  CAP(m,4m+2) closed form = floor((12m-2)m/(4m-1)); leading order 3m:
+     m=1024             CAP(m,4m+2) = 3072                  = 3m - 0
+     m=1048576          CAP(m,4m+2) = 3145728               = 3m - 0
+     m=137438953472     CAP(m,4m+2) = 412316860416          = 3m - 0
+
+========================================================================
+D1.4  WHERE THE SLACK IS: invert the count for the required spend floor
+========================================================================
+  The cap is the single incidence count
+      T_2 * p_min  <=  sum_{x notin W} d_x  <=  (N-a) * e,
+  with p_min := the per-slope floor on p_gamma = |S_gamma \ W|.
+  (C2) supplies only p_min = R+1-a. Invert: what p_min would close?
+  m              R+1-a    need T_2 <=      p* required    p*/(R+1-a)     p*/m      
+  2              3        6                6              2              6/2       
+  8              3        30               18             6              18/8      
+  1024           3        4094             2050           683            2050/1024 
+  1048576        3        4194302          2097154        699051         2097154/1048576
+  137438953472   3        549755813886     274877906946   91625968982    274877906946/137438953472
+
+  CONSEQUENCE: the whole 5.04e22-vs-2^39 discrepancy is ONE input --
+  the per-slope spend floor 3 versus the required ~2m+2. The ratio of
+  the two caps is exactly the ratio of the two floors:
+     p* = 274877906946 = 2m + 2 ;  p*/3 = 91625968982 ;  CAP/(rho+2) = 2^38/3 = 91625968981
+     ratio of ratios (p*/3) / (CAP/(rho+2)) = 91625968982 / 91625968981
+
+========================================================================
+D1.5  m=1 IS STRUCTURALLY EMPTY OF THE RESIDUAL STRATUM
+========================================================================
+  At a = 8m-2 the admissible p = |S\W| lies in [R+1-a, rho] = [3, 4m-1].
+     m=1    a=8m-2=6     p in [3, 3]  -> #non-min-weight p values = 0
+     m=2    a=8m-2=14    p in [3, 7]  -> #non-min-weight p values = 4
+     m=3    a=8m-2=22    p in [3, 11]  -> #non-min-weight p values = 8
+     m=4    a=8m-2=30    p in [3, 15]  -> #non-min-weight p values = 12
+     m=8    a=8m-2=62    p in [3, 31]  -> #non-min-weight p values = 28
+  m=1: the interval is the single point p=3, and wt(kappa) = a+p-n_0
+       = 9-n_0 >= R+1 = 9 forces n_0 = 0, hence j = 0 for EVERY type-2
+       slope. The non-minimum-weight type-2 stratum is EMPTY at m=1.
+  Also at m=1 the whole w* window degenerates: [4m+2, 8m-2] = [6,6].
+
+========================================================================
+D1.6  COUNTING FEASIBILITY CERTIFICATE  (is the wall real?)
+========================================================================
+  Build an explicit integer pseudo-configuration at a = 8m-2 meeting
+  EVERY banked counting constraint with T = rho+2 (the SAT3 failure).
+  Constraints checked: (SAT2) 0<=O<=delta; (SAT3) T=rho+2;
+  (SAT4) sum_x (m-d_x) = 1+O; d_x <= m; I = sum_gamma |S_gamma| = T*rho-O;
+  (C2) type-2: p_gamma >= R+1-a+n_gamma and |S n W| <= a-n-(R-r+1), r=rho;
+  (C3) T_1 <= e+1; T_1 <= floor(a/(a-rho)); p_gamma <= |S_gamma|.
+
+  m              T      T_1    sum p_gamma      (N-a)m           ALL OK    
+  1              5      2      9                10               True       
+  2              9      2      35               36               True       
+  3              13     2      77               78               True       
+  4              17     2      135              136              True       
+  8              33     2      527              528              True       
+  1024           4097   2      8390655          8390656          True       
+  1048576        4194305 2      8796095119359    8796095119360    True       
+  137438953472   549755813889 2      151115727452103524745215 151115727452103524745216 True       
+
+  the p_gamma multiset is essentially constant; its value:
+     m=1              T_2=3              p_gamma in {3, 3}  (mean ~ 2m = 2)
+     m=2              T_2=7              p_gamma in {5, 5}  (mean ~ 2m = 4)
+     m=4              T_2=15             p_gamma in {9, 9}  (mean ~ 2m = 8)
+     m=1048576        T_2=4194303        p_gamma in {2097153, 2097153}  (mean ~ 2m = 2097152)
+     m=137438953472   T_2=549755813887   p_gamma in {274877906945, 274877906945}  (mean ~ 2m = 274877906944)
+
+  m=1 CROSS-CHECK against the banked q=17 fence (apolar_origin/REPORT.md:53):
+     certificate at m=1 gives T=5=rho+2, T_1=2, T_2=3, every p_gamma=3,
+     |S n W| = 0, one outside point unused. The fence's measured numbers
+     are T_1=2, T_2=3, |S\W|=3 with EQUALITY, |S n W| <= 0. IDENTICAL.
+
+  CONCLUSION: the counting system at a=8m-2 with T=rho+2 is EXACTLY
+  integer-feasible at every m tested, including m=2^37. Therefore NO
+  argument that uses only (SAT2)-(SAT5), d_x<=m, (C2) and (C3) can
+  close the a=8m-2 face. The 5.04e22 is not a sloppy count; it is the
+  exact output of the only per-slope floor available.
+
+=== END d1_anatomy ===

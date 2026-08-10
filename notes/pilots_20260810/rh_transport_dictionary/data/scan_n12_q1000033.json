@@ -1,0 +1,308 @@
+{
+ "n": 12,
+ "q": 1000033,
+ "k": 6,
+ "ratios": [
+  1,
+  2,
+  3,
+  385966,
+  385967,
+  837344,
+  1000032
+ ],
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 7,
+   "qcore_count": 10,
+   "qcore_M_N_km": [
+    2,
+    6,
+    3,
+    10
+   ],
+   "C(n,a)/n": 66.0,
+   "C(n,a)/n^sigma": 66.0,
+   "scanned_words": 111,
+   "top": [
+    {
+     "F_LIST": 66,
+     "F_SUBSET": 66,
+     "degrees": [
+      11,
+      6
+     ],
+     "ratio": 1000032,
+     "slack": 4,
+     "profile": {
+      "7": 66
+     }
+    },
+    {
+     "F_LIST": 66,
+     "F_SUBSET": 66,
+     "degrees": [
+      11,
+      6
+     ],
+     "ratio": 837344,
+     "slack": 4,
+     "profile": {
+      "7": 66
+     }
+    },
+    {
+     "F_LIST": 66,
+     "F_SUBSET": 66,
+     "degrees": [
+      11,
+      6
+     ],
+     "ratio": 385966,
+     "slack": 4,
+     "profile": {
+      "7": 66
+     }
+    },
+    {
+     "F_LIST": 66,
+     "F_SUBSET": 66,
+     "degrees": [
+      11,
+      6
+     ],
+     "ratio": 1,
+     "slack": 4,
+     "profile": {
+      "7": 66
+     }
+    },
+    {
+     "F_LIST": 25,
+     "F_SUBSET": 81,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1000032,
+     "slack": 3,
+     "profile": {
+      "7": 21,
+      "8": 3,
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 25,
+     "F_SUBSET": 81,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1,
+     "slack": 3,
+     "profile": {
+      "7": 21,
+      "8": 3,
+      "9": 1
+     }
+    }
+   ]
+  },
+  {
+   "sigma": 2,
+   "a": 8,
+   "qcore_count": 3,
+   "qcore_M_N_km": [
+    3,
+    4,
+    2,
+    3
+   ],
+   "C(n,a)/n": 41.25,
+   "C(n,a)/n^sigma": 3.4375,
+   "scanned_words": 111,
+   "top": [
+    {
+     "F_LIST": 4,
+     "F_SUBSET": 12,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1000032,
+     "slack": 2,
+     "profile": {
+      "8": 3,
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 4,
+     "F_SUBSET": 12,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1,
+     "slack": 2,
+     "profile": {
+      "8": 3,
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 3,
+     "F_SUBSET": 11,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 1000032,
+     "slack": 1,
+     "profile": {
+      "9": 1,
+      "8": 2
+     }
+    },
+    {
+     "F_LIST": 3,
+     "F_SUBSET": 11,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 837344,
+     "slack": 1,
+     "profile": {
+      "9": 1,
+      "8": 2
+     }
+    },
+    {
+     "F_LIST": 3,
+     "F_SUBSET": 11,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 385966,
+     "slack": 1,
+     "profile": {
+      "8": 2,
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 3,
+     "F_SUBSET": 11,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 1,
+     "slack": 1,
+     "profile": {
+      "8": 2,
+      "9": 1
+     }
+    }
+   ]
+  },
+  {
+   "sigma": 3,
+   "a": 9,
+   "qcore_count": 1,
+   "qcore_M_N_km": [
+    6,
+    2,
+    1,
+    1
+   ],
+   "C(n,a)/n": 18.333333333333332,
+   "C(n,a)/n^sigma": 0.12731481481481483,
+   "scanned_words": 111,
+   "top": [
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      11,
+      8
+     ],
+     "ratio": 1000032,
+     "slack": 2,
+     "profile": {
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      11,
+      8
+     ],
+     "ratio": 1,
+     "slack": 2,
+     "profile": {
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1000032,
+     "slack": 1,
+     "profile": {
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      10,
+      7
+     ],
+     "ratio": 1,
+     "slack": 1,
+     "profile": {
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 1000032,
+     "slack": 0,
+     "profile": {
+      "9": 1
+     }
+    },
+    {
+     "F_LIST": 1,
+     "F_SUBSET": 1,
+     "degrees": [
+      9,
+      8
+     ],
+     "ratio": 837344,
+     "slack": 0,
+     "profile": {
+      "9": 1
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+.==========================================================================
+D3 CENSUS   m=4  q=193   rho=15 N=64 R+1=33  window w* in [18,30]
+==========================================================================
+
+--- MODE A: random pencils at three w* values (a = |S_1 u S_2|) ---
+  a=18     cap CAP(m,a)=12         pencils=25  T histogram [(2, 25)]
+       type-2 seen=0   j=0: 0   j>=1: 0   p hist []   j hist []
+  a=24     cap CAP(m,a)=17         pencils=25  T histogram [(2, 25)]
+       type-2 seen=0   j=0: 0   j>=1: 0   p hist []   j hist []
+  a=30     cap CAP(m,a)=45         pencils=25  T histogram [(2, 25)]
+       type-2 seen=0   j=0: 0   j>=1: 0   p hist []   j hist []
+
+--- MODE B: TARGETED pencils, a = 2rho = 8m-2, third slope planted ---
+    Construction: W = S_1 u S_2 disjoint; pick P of size p outside W,
+    S_3 = P u (subset of W); kappa in K supported on Z = W u P built by
+    NULLSPACE (not by the GNF, so the GNF check stays independent);
+    v_1 := kappa on S_1\S_3 (free on S_1 ^ S_3), same for v_2; then
+    v_3 = v_1 + v_2 - kappa is automatically supported in S_3.
+    a = 30, CAP(m,a) = 45, target rho+1 = 16
+    p=3    built=8     type-2 found=8       j=0: 8       j>=1: 0     
+    p=4    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=5    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=6    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=7    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=8    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=9    built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=10   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=11   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=12   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=13   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=14   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    p=15   built=8     type-2 found=8       j=0: 0       j>=1: 8     
+    overall p histogram: [(3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8), (13, 8), (14, 8), (15, 8)]
+    overall j histogram: [(0, 8), (1, 8), (2, 8), (3, 8), (4, 8), (5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8)]
+    T histogram        : [(3, 104)]
+
+--- CHECKS ---
+  (GNF)  kappa_x = f(x)/sigma'_Z(x), deg f <= |Z|-(R+1):  OK 40  BAD 0
+  (EQ->) equality in (C2)  =>  j=0            :  OK 8  BAD 0
+  (EQ<-) j=0  =>  equality in (C2)            :  OK 8  BAD 0
+  (TR1') triples: |u S| >= R+1 : 104    exact relation : 0    VIOLATIONS: 0
+  w* minimality violations (a supported pair with smaller union): 181
+
+--- SUMMARY (m=4, q=193) ---
+  pencils analysed        : 179
+  supported slopes seen   : 462
+  max T over all pencils  : 3      (rho+2 = 17)
+  type-2 slopes seen      : 104
+    of which j = 0        : 8
+    of which j >= 1       : 96   <-- THE MANDATE'S STRATUM
+  max T_2^{>} in ONE pencil: 1    CAP(m,8m-2) = 45
+=== END d3_census m=4 q=193 ===

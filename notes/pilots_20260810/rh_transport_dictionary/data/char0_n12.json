@@ -1,0 +1,132 @@
+{
+ "n": 12,
+ "k": 6,
+ "char": 0,
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 7,
+   "C(n,a)": 792,
+   "char0_delta0_max": 12,
+   "n_keys": 289,
+   "bucket_hist_top": [
+    [
+     12,
+     13
+    ],
+    [
+     6,
+     36
+    ],
+    [
+     3,
+     84
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     1,
+     144
+    ]
+   ],
+   "qcore_count": 10,
+   "qcore_best_M_N_km": [
+    2,
+    6,
+    3,
+    10
+   ],
+   "qcore_family": [
+    [
+     2,
+     6,
+     3,
+     10
+    ],
+    [
+     3,
+     4,
+     2,
+     3
+    ],
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 1716
+  },
+  {
+   "sigma": 2,
+   "a": 8,
+   "C(n,a)": 495,
+   "char0_delta0_max": 3,
+   "n_keys": 469,
+   "bucket_hist_top": [
+    [
+     3,
+     13
+    ],
+    [
+     1,
+     456
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    3,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     3,
+     4,
+     2,
+     3
+    ],
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 1287
+  },
+  {
+   "sigma": 3,
+   "a": 9,
+   "C(n,a)": 220,
+   "char0_delta0_max": 1,
+   "n_keys": 220,
+   "bucket_hist_top": [
+    [
+     1,
+     220
+    ]
+   ],
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    6,
+    2,
+    1,
+    1
+   ],
+   "qcore_family": [
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 715
+  }
+ ]
+}

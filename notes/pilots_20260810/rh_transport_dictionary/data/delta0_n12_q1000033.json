@@ -1,0 +1,180 @@
+{
+ "n": 12,
+ "q": 1000033,
+ "k": 6,
+ "cells": [
+  {
+   "sigma": 1,
+   "a": 7,
+   "C(n,a)": 792,
+   "delta0_max": 12,
+   "n_keys_hit": 289,
+   "n_keys_at_max": 13,
+   "bucket_hist_top": [
+    [
+     12,
+     13
+    ],
+    [
+     6,
+     36
+    ],
+    [
+     3,
+     84
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     1,
+     144
+    ]
+   ],
+   "qcore_count": 10,
+   "qcore_best_M_N_km": [
+    2,
+    6,
+    3,
+    10
+   ],
+   "qcore_family": [
+    [
+     2,
+     6,
+     3,
+     10
+    ],
+    [
+     3,
+     4,
+     2,
+     3
+    ],
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 1716,
+   "qcore_signature": [
+    1
+   ],
+   "qcore_bucket_measured": 12,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "sigma": 2,
+   "a": 8,
+   "C(n,a)": 495,
+   "delta0_max": 3,
+   "n_keys_hit": 469,
+   "n_keys_at_max": 13,
+   "bucket_hist_top": [
+    [
+     3,
+     13
+    ],
+    [
+     1,
+     456
+    ]
+   ],
+   "qcore_count": 3,
+   "qcore_best_M_N_km": [
+    3,
+    4,
+    2,
+    3
+   ],
+   "qcore_family": [
+    [
+     3,
+     4,
+     2,
+     3
+    ],
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 1287,
+   "qcore_signature": [
+    837344,
+    837343
+   ],
+   "qcore_bucket_measured": 3,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "sigma": 3,
+   "a": 9,
+   "C(n,a)": 220,
+   "delta0_max": 1,
+   "n_keys_hit": 220,
+   "n_keys_at_max": 220,
+   "bucket_hist_top": [
+    [
+     1,
+     220
+    ]
+   ],
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    6,
+    2,
+    1,
+    1
+   ],
+   "qcore_family": [
+    [
+     6,
+     2,
+     1,
+     1
+    ]
+   ],
+   "dfs_nodes": 715,
+   "qcore_signature": [
+    674655,
+    674653,
+    1000032
+   ],
+   "qcore_bucket_measured": 1,
+   "qcore_example_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    11
+   ]
+  }
+ ]
+}

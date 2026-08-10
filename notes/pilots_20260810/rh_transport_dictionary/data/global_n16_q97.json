@@ -1,0 +1,91 @@
+{
+ "n": 16,
+ "q": 97,
+ "k": 8,
+ "cells": [
+  {
+   "n": 16,
+   "q": 97,
+   "k": 8,
+   "sigma": 5,
+   "a": 13,
+   "m": 3,
+   "normalized_patterns": 5172496,
+   "C(n,a)": 560,
+   "pigeonhole_avg": 6.52122756570073e-08,
+   "MAXWORD_LIST": 1,
+   "max_slack_of_argmax": 2,
+   "max_per_slack": {
+    "0": 1,
+    "1": 1,
+    "2": 1
+   },
+   "slack_strata_below_threshold": 2,
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "coarse_max": 11,
+   "logP": 22,
+   "threshold": 2,
+   "surviving_keys": 3677748
+  },
+  {
+   "n": 16,
+   "q": 97,
+   "k": 8,
+   "sigma": 6,
+   "a": 14,
+   "m": 2,
+   "normalized_patterns": 11536,
+   "C(n,a)": 120,
+   "pigeonhole_avg": 1.44062464632564e-10,
+   "MAXWORD_LIST": 1,
+   "max_slack_of_argmax": 1,
+   "max_per_slack": {
+    "1": 1
+   },
+   "slack_strata_below_threshold": 2,
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "coarse_max": 2,
+   "logP": 22,
+   "threshold": 2,
+   "surviving_keys": 52
+  },
+  {
+   "n": 16,
+   "q": 97,
+   "k": 8,
+   "sigma": 7,
+   "a": 15,
+   "m": 1,
+   "normalized_patterns": 16,
+   "C(n,a)": 16,
+   "pigeonhole_avg": 1.9802400636778558e-13,
+   "MAXWORD_LIST": 1,
+   "max_slack_of_argmax": null,
+   "max_per_slack": {},
+   "slack_strata_below_threshold": 2,
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "coarse_max": 1,
+   "logP": 22,
+   "threshold": 2,
+   "surviving_keys": 0
+  }
+ ]
+}

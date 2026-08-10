@@ -84,3 +84,148 @@ see.
   claim quoted file:line (CATCH-24C); own-repo greps before novelty
   claims (CATCH-24A); zero-power declarations on max-quantified
   claims; banked scripts from scratch copies only.
+
+## Pilot registrations
+
+Appended by the round-31 pilot `rh_e_axis_audit` after reading ONLY
+the two named anchors (`notes/pilots_20260810/k3_chain_seams/REPORT.md`
+in full; `critical/nodes/rate_half_band_crossing_location/statement.md`
+lines 1-64 and 492-512 by bounded windows) and BEFORE any other read
+or any computation.
+
+### R1 — headline prior
+
+**P(recommendation = WIDEN the pose to q = p^e) = 0.55.**
+P(MINT a separate extension-row child) = 0.35. P(neither clean —
+recommendation is a third shape, e.g. widen-with-an-e-cap or
+"widen the pose, child the residue") = 0.10.
+
+Reasoning I am committing to in advance: the item-13 family is
+`q = p^e`; the sub-2^167 determination is claimed for *every*
+admissible q; and `official_row_primes_pinning` (PROVED) forbids a
+certificate that is neither family-uniform nor exhibit-scoped. Those
+three push toward widening. The counterweight is that a widened pose
+that no instrument actually supports is worse than an honest child.
+
+### R2 — expected count of prime-dependent instruments
+
+Against the eight instrument families the brief names (sub-2^167
+determination; Hankel layer; PROVED simple-pole floor; far-CA floor;
+quotient floors / F1 mechanism space; S_sparse + rung lattice;
+Fisher/MDS T1-T5; bracket theorems), I register:
+
+**Expected count that genuinely use primality of q: 2.** 80% interval
+[0, 4]. Median guess for *which*: (i) something in the S_sparse /
+rung-lattice layer that uses a prime-field character-sum or a
+`v_p`-style arithmetic step; (ii) an encoding-level dependence
+inherited from the WP5 "31-bit prefix charges" note. I predict the
+MDS/Fisher instruments (T1-T5) and the bracket theorems are
+**field-agnostic** (Reed-Solomon and Singleton/Johnson-type counting
+work over any finite field) at ~0.8 each, and that the Hankel layer
+is field-agnostic at ~0.75 (rank of a Hankel/Toeplitz matrix is a
+linear-algebra fact over any field).
+
+I further register the *shape* of the answer I expect: most
+instruments will transport because they depend on `q` only through
+`|F| = q`, `n | q-1`, and `B* = floor(q/2^128)`; the risk is
+concentrated not in "primality is used in a proof step" but in
+"extension fields have MORE structure, so a *supply upper bound*
+proved for prime fields may simply be false for `p^e`". Upper bounds
+are the fragile direction; lower bounds/floors transport.
+
+### R3 — the subfield supply question
+
+**P(subfield structure changes the crossing arithmetic materially,
+i.e. moves `a_RH` or breaks a floor) = 0.35.**
+P(it changes some measurable supply count but not the located
+crossing) = 0.30. P(no measurable difference at all) = 0.35.
+
+Pre-registered mechanism guesses, in order:
+1. (~0.45) The evaluation domain is the `n`-th roots of unity, and
+   Frobenius `x -> x^p` permutes it (index multiplication by `p mod n`).
+   Frobenius-stable subsets of the domain give `F_p`-rational
+   locator polynomials, so the *symmetric-function* conditions that
+   the agreement counting solves can have a different solution count
+   over `p^e` than over a prime field. This is the mechanism I think
+   is real if any is.
+2. (~0.25) Subspace/linearized-polynomial supply (the classical
+   extension-field-only list-decoding lower bounds). I predict this
+   one does **NOT** apply here because the domain is multiplicative
+   (a group of roots of unity), not an additive `F_p`-subspace.
+3. (~0.15) Intermediate fields / norm-and-trace structured received
+   words creating supply the prime case lacks.
+
+**Specific falsifiable side-prediction (registered because it is
+cheap and would be a real finding either way): for the exhibited
+`e = 2` rows, the `2^41`-torsion does NOT lie in `F_p`.** Since
+`q - 1 = (p-1)(p+1)` and `gcd(p-1, p+1) = 2`, essentially all of the
+2-power torsion sits in one factor; if it sits in `p+1` the domain
+lies in the norm-one ("circle") subgroup, which is exactly the
+structure the repo elsewhere marks **extra-official**. **P(the
+exhibited razor-slice row has its `2^41`-torsion in the norm-one
+subgroup rather than in `F_p^*`) = 0.70.** If true this is a
+material input to widen-vs-child that round 30 did not compute.
+
+### R4 — power
+
+**P(small-scale exhaustive computation has power to discriminate
+prime vs extension supply at matched `(n, k)`) = 0.50.** The
+honest obstruction is that exhaustive `max_y` costs `q^(n+k)`, so
+matched prime/extension pairs are only reachable at `q <= ~17`,
+`n = 4`. I pre-commit: if the reachable window cannot separate the
+hypotheses, I will declare **ZERO POWER** rather than report a null
+as evidence of transport.
+
+### R5 — misses discipline
+
+I pre-commit to a MISSES-FIRST section scoring R1-R4 explicitly,
+including direction of error, and to naming any instrument I could
+not locate in-repo as an inventory **gap** rather than silently
+omitting it from D1.
+
+### R6 — D3 experiment pre-registration (written after D1/D2 reading and
+### after the D2 arithmetic ran, but BEFORE any D3 measurement)
+
+Instrument: `F_LMAX(n_s, K, q, a) = max_U #{c in C : agreement(U,c) >= a}`
+— the exact max list profile at the scaled rate-1/2 RS row, the same
+object the round-29 `list_profile_bound` pilot measured at
+`q = 17 / 41 / 97` and found to be the **q-independent absolute
+constant 7** at the cell `(n_s, K, a) = (8, 4, 5)`. Every field ever
+used in that measurement (and in every other rounds-27..29 experiment
+I could find) is PRIME.
+
+Design: matched `(n_s, K) = (8, 4)`, `a = 5, 6, 7`, over
+- primes `q = 17, 41, 73, 89, 97, 113`;
+- extensions `q = 9 (3^2), 25 (5^2), 49 (7^2), 81 (3^4), 121 (11^2),
+  169 (13^2), 289 (17^2), 361 (19^2)`.
+
+`q = 289 = 17^2` is the designed analogue of the round-30 razor
+exhibit: there `8 | p-1`, so the order-8 domain lies **inside the prime
+subfield** `F_17` — exactly the branch the exhibited razor row is in
+(measured in D2: `v_2(p-1) = 41`, so `D` is inside `F_p`). `q = 9, 25,
+49, 121, 169, 361` are the other branch (`D` not inside `F_p`), and
+`q = 81 = 3^4` puts `D` inside the intermediate field `F_9`.
+
+Pre-registered expectations, committed before running:
+
+- **E1.** `F_LMAX(8,4,5) = 7` at every extension field too — i.e. the
+  constant is field-TYPE-independent, not merely q-independent.
+  **P = 0.60.** If it exceeds 7 anywhere, that is a supply excess the
+  prime-field evidence base cannot see, and it flips me toward CHILD.
+- **E2.** If any field type shows excess, it is the `D` inside `F_p`
+  branch (`q = 289`), not the `D` outside branch. **P = 0.55**
+  conditional on any excess existing.
+- **E3.** The maximizing key at an extension field is NOT
+  `F_p`-rational (a rational key forces the whole agreement list to be
+  rational, by the splitting argument, so rational keys can only
+  reproduce the prime-field value). **P = 0.7.**
+- **E4.** The scaled crossing `sigma_L(q) = max{sigma : F_LMAX(K+sigma)
+  > isqrt(q)}` is a function of `q` alone, identical between prime and
+  extension fields of the same size when both exist — untestable
+  directly (no `q` is both), so the honest test is monotone
+  consistency along the merged ladder. **P(consistent) = 0.75.**
+- **E5 (ZERO-POWER pre-commitment).** `n_s = 8` cannot see the razor
+  row's mechanism (round-29 already declared the scaled-cell program
+  STRUCTURALLY INCAPABLE of resolving `c`); a null here is evidence
+  about *supply parity*, never about the located crossing itself. I
+  pre-commit to saying so in the report whatever the outcome.

@@ -6,10 +6,47 @@
   (notes/band_decomposition_plan_20260809.md); pose adopted from the
   round-27 (RH-AC) draft with the decomposition ratification
 
-## Statement (RH-AC, the pose of record; quantifier WIDENED 2026-08-10)
+## Statement (RH-AC, the pose of record; quantifier WIDENED 2026-08-10, e-axis WIDENED same day)
 
-At every admissible row with n = 2^41, k = 2^40, **q prime,
-q = 1 mod n, 2^167 < q < 2^256** — the entire undetermined range;
+At every admissible row with n = 2^41, k = 2^40, **q = p^e (p prime,
+e >= 1; exactly six strata e in {1,2,3,4,5,6} are admissible — the
+round-31 stratum lemma), q = 1 mod n, 2^167 < q < 2^256** — the
+entire undetermined range;
+
+[E-AXIS WIDENING (2026-08-10, coordinator, executing the F4 ruling
+per its own terms — "the audit decides the fork"): the pose read
+"q prime". The round-31 rh_e_axis_audit found: (i) 13 of 14
+instruments in the located-crossing stack are field-general BY THEIR
+OWN PRINTED HYPOTHESES (inventory with file:line in the pilot
+REPORT); (ii) the ONE primality-using instrument (the A=1
+exceptional-core Legendre router) is UNREACHABLE by extension rows —
+the PROVED rate_half_residual_prime_field_collapse contrapositive
+puts every admissible extension row outside the residual-budget
+window [2^167, 2^167+2^129) that is that machinery's sole territory;
+(iii) the widening is FINITE: e in {1..6} exactly, with per-stratum
+p-windows, and char = p > n = 2^41 on every admissible row (the
+three sub-2^41 candidates at e=6 are all composite) — so every
+degree bound in the Hankel/pair-Lagrange reductions holds with
+primality never needed; (iv) the O3 import is VERIFIED FIELD-GENERAL
+by the coordinator against the primary source: ABF26 Theorem 4.9
+states the unique-decoding CA bound ([BCIKS20, Thm 1.4]:
+eps_mca = eps_ca <= n/|F|) for RS[F, L, k] over an arbitrary field
+(and Thm 4.8 "any linear code", Lemma 4.6 "any F-additive code") —
+the HD1 bracket-top import carries no primality hypothesis; (v) the
+first extension-field supply measurement in-repo finds NO EXCESS at
+the analogue of the exhibited razor row (the only small-scale excess
+is the full-multiplicative-group degeneracy D = F_q'^*, unreachable
+at n = 2^41 since 2^41+1 = 3*83*8831418697); (vi) sub-2^167 was
+already family-uniform in e, so this widening removes the
+discontinuity at 2^167. STANDING OBLIGATIONS: O6 — any future
+far-CA UPPER bound must not use "F_q has no proper subfield"
+(pre-registered falsifier: a subfield-structured configuration
+beating the prime-field maximum at matched (n,k,a)); O7 — the
+prime-only evidence base (the 21,832-configuration census, the
+collinearity census, F_LMAX/F_SSPARSE ladders) is flagged for
+extension-field re-runs (the pilot's ffq.py field layer makes this
+possible for the first time). The round-30 F4 flag below is
+RESOLVED by this widening.]
 below 2^167 the crossing is PROVED (the wave-10 staircase), and the
 razor slice (2^255.9, 2^256) remains the hard corner — locate the
 exact adjacent crossing a_RH(q) of (RH-ADJ):
@@ -363,6 +400,8 @@ theta = a^2/n - 1); T4 elementary thresholds (one-line at
 a >= 5n/6; Fisher-finite at a/n > 0.8202 — both worse than the
 banked 3n/4, reported as re-derivation).
 
+**[THE FOLLOWING T5 PARAGRAPH IS FALSE — round-31 rh_overlap_cap refutation, coordinator-verified against the banked (AP3) and KEY-LEMMA caps and the replayed LB1 construction; see the round-31 overlap-cap addendum below. The cap constant k-1 was the WRONG OBJECT (single-word list cap), the correct column-far ceiling is a-1 and it is ATTAINED; the 0.999748 coincidence is an artifact; the named next object does not exist at any a in the open bracket.]**
+
 **T5 — THE EXACT OBSTRUCTION (the number to carry forward):**
 GAP_FISHER = (k-1) - a^2/n = 532,441,726,975 vs the open bracket
 532,575,944,704 — **ratio 0.999748. The open bracket IS the region
@@ -510,3 +549,181 @@ rounds-27..29 instruments are primality-sensitive — the WP5 verdict's
 materially), or (b) restrict the lane's family claim to prime q and
 open a separate extension-row child. Until ruled, every consumer
 reading "each admissible row" must count e >= 2 as UNCOVERED.
+
+## Round-31 type-2 stratum addendum (2026-08-10, coordinator-audited)
+
+**RESIDUAL (ii) RE-PRICED BY 10.61 DECIMAL ORDERS.** The round-31
+rh_type2_stratum pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_type2_stratum/; coordinator hand-verified
+the algebra and independently re-derived every ledger number):
+
+- **(OV)** For every pair of distinct supported slopes,
+  w* <= |S_gamma u S_gamma'| (the round-28 apolar union bound with
+  the every-pair quantifier made explicit — a direction-reversal of
+  banked material, not new arithmetic).
+- **(NEWCAP), conditional on (SAT1)-(SAT4) with T = rho+2:**
+  summing (OV) over all C(T,2) pairs through the incidence identity
+  sum_{pairs} |S ^ S'| = sum_x C(d_x,2) and the SAT4 convexity
+  minimum gives w* <= 2rho - (Lmin(O)+(T-1)O)/C(T,2), tightest
+  universal form at O = 0: **w* <= 7m-1** asymptotically — the SAME
+  7m-1 that the round-28 apolar bank computed as the location of
+  the MEAN configuration and read as "does not move either budget."
+- **THE SHARPENED LEDGER at m = 2^37** (exact, replayed +
+  coordinator re-derived): a_max = 7m-1 = 962072674303; spend floor
+  R+1-a_max = m+2; residual-(ii) cap = floor((9m+1)m/(m+2)) =
+  **1,236,950,581,231** (banked figure was 50371909150701174915072;
+  shrink 40,722,652,881x); AO1 = 1,236,950,581,233 vs rho+1 = 2^39:
+  **residual factor 9/4 exactly.** The w* window share drops
+  2/3 -> 5/12.
+- **VACUITY LEMMA:** a = 8m-2 (where the old cap was evaluated) is
+  vacuous for every m >= 2 — w* = 2rho forces pairwise-disjoint
+  full-size supports, i.e. T*rho <= N, true only at m = 1 (the R4
+  fence, now forced rather than assumed).
+- **m = 1 IS STRUCTURALLY DISJOINT from residual (ii)** (proof:
+  p in [3,3] and wt(kappa) = 9 - n_0 >= 9 forces j = 0) — the q=17
+  fence contains none of this stratum; residual (iii) and residual
+  (ii) do not overlap.
+- **THE HONEST FRONTIER — (FR), the one missing inequality:**
+  |S_gamma ^ W| <= ~2m against ALL of W at once (the max-vs-mean
+  upgrade; (OV) gives it pairwise only). CAUTION: the l1_fpc5
+  distance-only no-go ("support weights + pairwise overlaps cannot
+  close this consumer") is an in-repo precedent from a sibling lane
+  — if it transports, 9/4 is the CEILING of the combinatorial route
+  and the next instrument is algebraic ((GNF) f_gamma polynomials
+  or the Hankel pencil).
+- **(GNF)** the generalized reciprocal-locator normal form
+  kappa_x = f(x)/sigma'_Z(x), deg f <= wt(kappa)-(R+1), a port of
+  the xr-lane RS duality basis, verified 280/280: j >= 1 does NOT
+  break the normal form, it breaks UNIQUENESS (dimension j+1) —
+  the honest reason T4 does not transport to this stratum.
+- **SUPERSESSIONS:** the banked "counting cap there is 5.04e22"
+  line (round-29, above) and the "2/3 of the w* window" share are
+  SUPERSEDED by this addendum. The round-31 brief's "~39-order gap"
+  phrasing was WRONG (coordinator's own error, conflating 2^39
+  with decimal orders): the true gap was 11 decimal / 36 binary
+  orders, now 9/4.
+- **LIVE CAVEATS:** (NEWCAP) is conditional on (SAT3); falsifier F1
+  (a realizable T = rho+2 configuration with w* > 7m-1) is live and
+  unexercised (the census sampler never reached T > 3); (EQ)'s
+  converse is sampled (121/121), not proved. No status flips;
+  neither budget closes.
+
+## Round-31 overlap-cap addendum (2026-08-10, coordinator-audited): THE SAFE-HALF ROUTE IS DEAD; LB1 REPLACES IT
+
+The round-31 rh_overlap_cap pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_overlap_cap/) REFUTED the round-29 T5 named
+object. Coordinator verification: the banked cap anchors quoted
+verbatim ((AP3) s+t-r >= 1; the KEY-LEMMA graded consequence — max
+joint pair agreement <= A-2, i.e. overlap <= a-1), the LB1 counting
+argument hand-verified, d1/d4 replayed exactly.
+
+- **OBJECT SLIP (CATCH-24C, on the round-29 bank):** T5's cap
+  constant k-1 is the SINGLE-WORD list cap (Agr(z,c_i) ^ Agr(z,c_j)
+  subset Agr(c_i,c_j)) — the wrong object. The T1 core E_P of a
+  column-far pair is a CODEWORD-PAIR joint agreement; its correct
+  ceiling is a-1, banked twice ((AP3); KEY LEMMA), and a-1 exceeds
+  k-1 by exactly 2^34 at the razor.
+- **THE CEILING IS ATTAINED — LB1 (new, unconditional):** for the
+  razor row and every a in the open bracket, B_ca^far(a) >= n-a+1 =
+  r+1: an explicit column-far pair (d_2 = 1_T, d_1 = -lam_j on T)
+  whose bad-slope set is one full T1-line of r+1 slopes, EVERY
+  pairwise overlap exactly a-1, unique witness each. Admissibility
+  (LB1-C): n < (a-k-1) log2 q — holds at EVERY row of the widened
+  quantifier q > 2^167 (margin 670,014,898,009 at the bottom; fails
+  only below ~2^129). Verified exhaustively at (8,4,17) (46,656
+  witness assignments — the hypothesis fails under every one) and
+  at 6 more cells over 3 scales; the refutation STRENGTHENS with
+  scale (RATIO_FAR -> 1.969231 at the razor).
+- **SELF-DEFEAT:** a-1 > a^2/n for every 2 <= a <= n-2 — no cap
+  below a^2/n exists at ANY agreement in the open bracket. The T3
+  closure route (the "89 bits margin") is dead on the whole bracket,
+  not just at sigma = 2^34.
+- **THE 0.999748 IS AN ARTIFACT:** GAP_ALG = BRACKET - 1 -
+  sigma^2/(2k) evaluated where sigma^2/(2k) = 2^27 is negligible;
+  the two ends differ by 94,323,185,676 and with the correct cap
+  the ratio is 1.032006. "They end together" is FALSE.
+- **WHAT LB1 BUYS (the positive yield):** (i) the campaign's FIRST
+  lower bound on B_ca^far at the safe index: B_ca^far(k+2^34) >=
+  1,082,331,758,593 = 2^39.9773 — 88.02 bits below the 2^128
+  budget; (ii) the banked upper bound T <= r+1 is TIGHT on its
+  whole proved domain (B_ca^far(n-r) = r+1 exactly); (iii)
+  B_ca^far(3n/4) >= 2^39+1, matching the D4-precision-fix budget
+  EXACTLY — the residual budget 2^39 is UNATTAINABLE at a = 3n/4
+  (the "one slope past the provable incidence limit" is a real
+  slope, not proof slack).
+- **S3 (new):** T3's hypothesis FORCES every bad slope to error
+  weight s > a(n-a)/n = 2^39-2^27 — empty on 50.78% of the s-range;
+  one slope at agreement >= 3n/4 + 2^27 kills it outright. And the
+  round-29 "0 violations / 21,832 configurations" validation is
+  structurally consistent with the T3 test being SKIPPED on most of
+  the census (the guard theta*n < a*a fails on the planted
+  maximal-core family); the skip fraction was NOT measured — flagged
+  inference, not a claim.
+- **RESIDUALS OF RECORD for the safe half:** R-LINEDEGREE (bound
+  T1-lines through one slope by 2^88 — exactly the banked T2/(RR2)
+  bottleneck, unmoved); R-SECONDLEVEL (the second Fisher level is
+  ~2^10 FARTHER than the first — not the cheaper door);
+  R-UPPERBOUND (the only remaining shape: a code-theoretic upper
+  bound with target window [2^39.9773, 2^128) at sigma = 2^34).
+- **CAVEATS LIVE:** LB1's razor step is a verified human proof
+  (machine-checked arithmetic, exhaustive only at small cells);
+  (16,8,9) returned a sampled negative (zero power); (16,8,10) not
+  measured. No status flips; NEITHER half of RH-AC closes.
+
+## Round-31 supply addendum (2026-08-10, coordinator-audited): the (t,M) dictionary lands — and the supply lane closes as posed
+
+The round-31 rh_transport_dictionary pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_transport_dictionary/; the razor ladder
+hand-checked by the coordinator, all quotes verified verbatim):
+
+- **THE C(127,64) PUZZLE IS RESOLVED** by an exact integer identity:
+  PLATEAU(n) = C(n/2-1, n/4) = QCORE(n, sigma=1) = C(n/M-1, k/M) at
+  M = 2 (verified at seven scales). The round-29 model and the razor
+  are two points of ONE family — (M,sigma) = (2,1) vs (2^34,
+  2^34-1) — and only the plateau coincided.
+- **THE ROUND-29 "t = M" IDENTIFICATION IS OFF BY ONE**: the banked
+  qcore requires sigma < M (ww_lower_witnesses/proof.md:18,
+  extremal at sigma = M-1). The step matters: sigma = 2^34 is
+  itself a coset scale, exactly where the two coset families
+  separate. THE LADDER AT THE RAZOR ROW: qcore at 2^34-1 =
+  C(127,64) = 2^123.17; qcore at 2^34 = C(63,32) = 2^59.67 (a
+  63.503-bit cliff); the CPW full-coset product-word family cuts
+  the drop to 6.02 bits with C(128,65)/128 = 2^117.15 (exact
+  integer) — 57.480 bits above qcore at the crossing index and
+  **10.75-10.85 bits BELOW the need**.
+- **THE "+115 BITS OVER-SATISFACTION" (round 29) IS RETIRED AS A
+  SCALE ARTIFACT**: the same sigma=1 law at the razor's own n gives
+  a 1.1e12-bit surplus — a quantity that moves ten orders under a
+  scale change transports in neither direction. THE DIRECTION
+  INVERTS: the faithful coset transport UNDERSHOOTS the need.
+  Decisive small-scale datum: the first exact global maximum at
+  sigma >= 2 in a structure-dominated field (n=12, q=37) is
+  L_1 = 5 vs the naive C(n,a)/n transport's 41.25 — the sigma=1
+  law dies at sigma >= 2 (the extra matching conditions are
+  F_q-valued, not cyclic).
+- **THE LANE LANDS ON THE LIST SIDE**: F_LIST is L_1 (the
+  list-adjacent contract's own object), and the audited guard
+  (literature map) FORBIDS the list-threshold-as-MCA-surrogate. So
+  the supply lane CANNOT reach this node's open content without a
+  proved CA/MCA conversion — **the missing dictionary entry is the
+  CA/MCA CONVERSION, not more (t,M) entries.** (Candidate door,
+  unverified: ABF26 Lemma 4.6's field-general eps_mca = eps_ca at
+  delta < delta_min/2.)
+- **POSITIVE CONFIRMATION OF THE BANKED CAP**: the char-0
+  minimal-slack maximum is EXACTLY the qcore value at every 2-power
+  n measured (the razor's regime) and fails off 2-powers precisely
+  at the Lam-Leung boundary — the banked THEOREM CAP verified
+  independently in its own stratum, with its domain hypothesis
+  (2-power coset structure) shown load-bearing.
+- **THE SLACK AXIS (Q6) is where all surplus lives**: the banked
+  razor witness is slack-0, the stratum where the cap is tight;
+  the measured surplus is entirely the climb to maximal slack.
+- **Falsifiers armed**: F-CAP (char-0 2-power cap exact; untested
+  n >= 32), F-CPW (the two-family ladder + sporadic excess +2),
+  F-SIGMA1 (L_1(k+1) = C(n,a)/n exactly; verified n = 8, 12),
+  F-OBJECT (a proved CA/MCA conversion re-prices the crossing-index
+  supply from 2^59.67 to 2^117.15 — a 57.5-bit gap-anatomy change).
+- **Zero-power of record**: no exact global max at 2-power n with
+  sigma >= 2; nothing measures B_mca/B_ca^far/S_sparse; q window
+  ends at 10^6 (regime membership transports; the 2^256 arithmetic
+  does not). No status flips.

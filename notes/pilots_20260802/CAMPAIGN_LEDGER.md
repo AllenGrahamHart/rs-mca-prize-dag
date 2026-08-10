@@ -4868,3 +4868,137 @@ ending in widen-vs-child. QUARANTINE MARKER: this entry and below
 quarantined for round-31 pilots (the ledger closed to them
 entirely); sibling round-31 dirs mutually quarantined; round-30 and
 earlier readable. Launched on Opus.
+
+## ROUND 31 BANK 1/4 — rh_type2_stratum (2026-08-10, coordinator)
+
+**BANKED — THE LARGEST CAP MOVEMENT OF THE CAMPAIGN: residual (ii)
+re-priced 5.04e22 -> 1,236,950,581,231 (40,722,652,881x = 10.61
+decimal orders), residual factor 9/4 EXACTLY, one named missing
+inequality.** Mechanism = a DIRECTION-REVERSAL of banked material:
+(OV) w* <= |S u S'| for EVERY pair (apolar's union bound, never
+summed) -> (NEWCAP) w* <= 7m-1 under (SAT1)-(SAT4) at T = rho+2 —
+the same 7m-1 apolar computed as the MEAN's location and read as
+"does not move either budget." CAP monotone in a re-evaluates at
+spend floor m+2 (was 3): cap 9m-17. BONUS THEOREMS: a = 8m-2 is
+VACUOUS for m >= 2 (w* = 2rho forces the R4-refuted disjointness);
+m = 1 is STRUCTURALLY DISJOINT from residual (ii) (j = 0 forced —
+proof). FRONTIER NAMED: (FR) |S ^ W| <= ~2m against ALL of W (the
+max-vs-mean upgrade); the l1_fpc5 distance-only no-go flagged as a
+possible ceiling — if it transports, the combinatorial route ends
+at 9/4 and the next instrument is algebraic. Coordinator
+hand-verified the (OV)->(NEWCAP) algebra AND independently
+re-derived all five ledger numbers exactly. Pilot process exhibit:
+it FALSIFIED ITS OWN published D1.6 feasibility certificate
+in-session (the failure mode IS the theorem; stale text flagged
+in-file per the round-29 precedent). Corrections banked: the
+5.04e22 and 2/3-window lines SUPERSEDED; the coordinator's own
+"~39-order" brief phrasing corrected (true gap was 11 decimal
+orders). Caveats live: (SAT3)-conditional; F1 unexercised (census
+sampler capped at T = 3); (EQ) converse sampled not proved. No
+status flips; neither budget closes. Files:
+notes/pilots_20260810/rh_type2_stratum/ (REPORT, FABLE_AUDIT,
+d1-d4 scripts + results, 8 census cells).
+
+## ROUND 31 BANK 2/4 — rh_overlap_cap (2026-08-10, coordinator)
+
+**BANKED — THE ROUND-29 NAMED OBJECT IS REFUTED: the safe-half
+"one inequality" (pairwise-overlap cap below a^2/n at sigma = 2^34)
+is FALSE three ways. (1) OBJECT SLIP (CATCH-24C on my own round-29
+bank): T5's constant k-1 is the SINGLE-WORD list cap; the column-far
+core is a CODEWORD-PAIR agreement whose ceiling is a-1 — banked
+twice in-repo ((AP3); the KEY LEMMA graded consequence) and bigger
+by exactly 2^34. (2) ATTAINMENT — LB1 (new, unconditional,
+coordinator hand-verified): at every posed row q > 2^167,
+B_ca^far(a) >= n-a+1 via the maximal-core pencil (one full T1-line,
+r+1 slopes, every overlap exactly a-1, unique witnesses);
+exhaustively verified at (8,4,17) over all 46,656 witness
+assignments; strengthens with scale. (3) SELF-DEFEAT — a-1 > a^2/n
+for ALL 2 <= a <= n-2: the route is dead on the whole bracket. The
+0.999748 "they end together" was an identity artifact (true ratio
+1.032006). POSITIVE YIELD: first-ever LOWER bound
+B_ca^far(k+2^34) >= 2^39.9773 (88.02 bits under budget); the banked
+T <= r+1 is TIGHT (= B_ca^far(n-r)); B_ca^far(3n/4) >= 2^39+1
+EXACTLY — budget 2^39 unattainable at the bracket top. S3: T3's
+hypothesis forces s > 2^39-2^27 (empty on 50.78% of the s-range),
+and the round-29 21,832-census T3 validation is likely largely
+VACUOUS (silent guard skip — flagged inference, skip fraction
+unmeasured, cheap follow-up). RESIDUALS OF RECORD: R-LINEDEGREE
+(== the banked T2/(RR2) bottleneck), R-SECONDLEVEL (~2^10 farther),
+R-UPPERBOUND (the only remaining safe-half shape, target window
+[2^39.9773, 2^128)). Forced corrections applied: inline FALSE
+marker on T5 + the round-31 addendum on crossing_location (chain
+green). The pilot registered the same wrong cap it was auditing and
+caught itself — scored as its own miss. No status flips. Files:
+notes/pilots_20260810/rh_overlap_cap/ (REPORT, FABLE_AUDIT, d1-d4
+scripts + results).
+
+## ROUND 31 BANK 3/4 — rh_e_axis_audit (2026-08-10, coordinator)
+
+**BANKED AND THE F4 RULING EXECUTED: WIDEN. The pose is now
+q = p^e, e in {1..6} EXACTLY (stratum lemma, replayed).** Grounds:
+13/14 instruments field-general by printed hypothesis (file:line
+inventory); the ONE primality-using instrument (the A=1 Legendre
+router) UNREACHABLE by extension rows via the PROVED RPFC
+contrapositive — stated nowhere in-repo before, now banked as an
+RPFC addendum (mint candidate); char = p > n = 2^41 on the whole
+family (the three sub-2^41 e=6 candidates all composite); O3 (the
+HD1 import) CLOSED BY THE COORDINATOR against the vendored primary
+source (ABF26 Thm 4.9 / BCIKS20 Thm 1.4: RS[F,L,k] over an
+ARBITRARY field — no primality hypothesis); the first
+extension-field supply measurement in the lane's history (the old
+field layer could not represent F_{p^e}) finds NO excess at the
+razor-analogue cell — H-SUBFIELD refuted at q = 289 with the clean
+structural reason (F_p-rational keys reproduce the F_p profile
+exactly); the only visible excess is the full-group degeneracy,
+unreachable at n = 2^41 (2^41+1 = 3*83*8831418697). "q prime" was a
+THEOREM on 2^-127 of the range and an assumption elsewhere — the
+widening removes the 2^167 discontinuity. STANDING: O6 (no future
+far-CA upper bound may assume no-subfield) + O7 (prime-only
+evidence base flagged for extension re-runs) on the pose;
+BAND_LANE_DEFINITIONS item 16; band_closure conditional synced.
+Pilot disclosed one bare-python3 no-op breach + a weaker quarantine
+mechanism — accepted with flags. The consumers' e-axis coverage gap
+is CLOSED at pose level. Files:
+notes/pilots_20260810/rh_e_axis_audit/.
+
+## ROUND 31 BANK 4/4 — rh_transport_dictionary (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED — THE (t,M) DICTIONARY EXISTS, HAS FIVE ENTRIES, AND
+INVERTS ROUND 29'S DIRECTION.** The C(127,64) puzzle RESOLVED by an
+exact identity (PLATEAU = QCORE at (M,sigma) = (2,1), seven scales);
+the round-29 t = M identification is OFF BY ONE (sigma < M, banked
+verbatim); sigma = 2^34 is itself a coset scale — the exact ladder
+(coordinator hand-checked): qcore cliff 63.503 bits at the crossing
+index, the CPW family cuts it to 6.02 bits at 2^117.15, which is
+57.480 bits above qcore yet 10.75-10.85 bits BELOW the need. The
+round-29 "+115 bits over-satisfaction" RETIRED as a scale artifact
+(the same law at razor-n gives 1.1e12 bits); THE DIRECTION INVERTS
+— the faithful transport UNDERSHOOTS (decisive datum: exact global
+L_1 = 5 vs naive 41.25 at the first structure-dominated sigma=2
+cell). THE LANE LANDS LIST-SIDE: F_LIST is L_1 and the audited
+guard forbids the MCA surrogate — THE MISSING DICTIONARY ENTRY IS
+THE CA/MCA CONVERSION (candidate door: ABF26 Lemma 4.6, field-
+general, unverified). POSITIVE: the banked THEOREM CAP confirmed
+exactly tight in char-0 at 2-power n (the razor's regime), failing
+off 2-powers at the Lam-Leung boundary — its domain hypothesis
+shown load-bearing. Falsifiers F-CAP/F-CPW/F-SIGMA1/F-OBJECT armed.
+45/45 ramguard invocations; one RAM death disclosed+relaunched.
+Files: notes/pilots_20260810/rh_transport_dictionary/.
+
+**ROUND 31 COMPLETE: 4/4 banked, 0 status flips, census unchanged
+232 = 167/37/28. THE ROUND RESHAPED THE RH-AC ENDGAME: residual
+(ii) re-priced 10.61 orders to a 9/4 factor with (FR) named; the
+safe-half overlap route REFUTED and replaced by LB1's two-sided
+window B_ca^far(k+2^34) in [2^39.9773, 2^128); the supply lane
+CLOSED as posed (coset families undershoot; the CA/MCA conversion
+is the single named supply gate); the e-axis WIDENED with the
+prime machinery provably shielded. THE OPEN CONTENT OF RH-AC IS
+NOW: the far-CA upper bound (R-UPPERBOUND, target window two-sided)
++ (FR) on residual (ii) + the CA/MCA conversion + residuals
+(i)/(iii). Round-29 corrections banked this round: the T5 object
+slip (k-1 vs a-1), the 0.999748 artifact, the 5.04e22 and
+2/3-window supersessions, the t = M off-by-one, the +115-bit scale
+artifact, and the coordinator's own "~39 orders" brief line. THE
+AUDIT CADENCE HELD: every round-29 headline object was either
+confirmed exactly (THEOREM CAP, T <= r+1 now tight) or corrected
+within two rounds by its own campaign.**

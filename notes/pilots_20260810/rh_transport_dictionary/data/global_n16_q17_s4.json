@@ -1,0 +1,38 @@
+{
+ "n": 16,
+ "q": 17,
+ "k": 8,
+ "cells": [
+  {
+   "n": 16,
+   "q": 17,
+   "k": 8,
+   "sigma": 4,
+   "a": 12,
+   "m": 4,
+   "normalized_patterns": 7600016,
+   "C(n,a)": 1820,
+   "pigeonhole_avg": 0.021790926832772596,
+   "MAXWORD_LIST": 1,
+   "max_slack_of_argmax": 3,
+   "max_per_slack": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1
+   },
+   "slack_strata_below_threshold": 2,
+   "qcore_count": 1,
+   "qcore_best_M_N_km": [
+    8,
+    2,
+    1,
+    1
+   ],
+   "coarse_max": 7,
+   "logP": 24,
+   "threshold": 2,
+   "surviving_keys": 2704093
+  }
+ ]
+}
