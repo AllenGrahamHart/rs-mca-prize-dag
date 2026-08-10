@@ -60,6 +60,7 @@ class of size below `m` is paid simultaneously by the exact bound
 `2n=4194304`, and at most one class can have size at least `m`. The remaining
 clone target is therefore one large component plus the separately named
 identically-zero/fixed-owner branch, not an arbitrary family of clone cells.
+The clone packet is included in the same draft upstream PR `#1156`.
 
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard

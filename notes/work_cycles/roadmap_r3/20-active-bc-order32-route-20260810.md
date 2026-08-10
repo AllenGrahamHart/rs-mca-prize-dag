@@ -117,4 +117,6 @@ classes therefore cost at most `2n=4194304`, below both MCA budgets. Since
 `n<2m`, at most one class can have size at least `m`. Thus all unpaid
 coordinate-clone content is concentrated on one unique large component.
 The excluded identically-zero coordinate branch and that unique large class
-remain open and must retain the owner-pencil chronology.
+remain open and must retain the owner-pencil chronology. This theorem and its
+independent certificate were added to draft PR `#1156`; the PR is now titled
+**MCA (E): route denominator-root and coordinate-clone exceptions**.
