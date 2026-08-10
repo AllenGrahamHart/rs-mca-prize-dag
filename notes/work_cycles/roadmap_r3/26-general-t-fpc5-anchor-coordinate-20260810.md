@@ -21,3 +21,7 @@ fixed common-defect owner ambiguity at arbitrary `t`. Every surviving
 large-source fixed cell is now one explicit low-degree coordinate body whose
 split-and-exact points must be counted. No critical status changes: aggregate
 split-point and chronology-valid owner/profile control remain open.
+
+The identical theorem is exported in upstream PR #1151 at pinned head
+`5b372a30324b6356f4f42d8b8946efb4cba92a94`; the PR remains an open
+mergeable draft.

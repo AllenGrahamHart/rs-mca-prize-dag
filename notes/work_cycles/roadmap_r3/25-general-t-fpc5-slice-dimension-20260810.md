@@ -22,6 +22,6 @@ critical status changes: a dimension-uniform split-point bound and aggregate
 owner/profile payment are still required.
 
 Upstream custody is PR #1151, pinned at
-`d9324dbf48860b9eddbb2d68adc404024f56c768`. The companion theorem is
+`5b372a30324b6356f4f42d8b8946efb4cba92a94`. The companion theorem is
 exported there with identical field, unit, quantifier, and nonclaim; the PR
 remains an open mergeable draft.
