@@ -1,0 +1,92 @@
+{
+ "path": "notes/pilots_20260809/nonpoly_flank_census/data/s2_locscan.json",
+ "n_rows": 352,
+ "cells": {
+  "(8, 10009, 1, 2)": {
+   "n": 8,
+   "q": 10009,
+   "t": 1,
+   "delta": 2,
+   "count": 56,
+   "maxsub": 21,
+   "maxlist": 3,
+   "argsub": "locScan_0,2,4",
+   "arglist": "locScan_0,1,2",
+   "profsub": {
+    "7": 1
+   },
+   "proflist": {
+    "5": 2,
+    "6": 1
+   },
+   "listatsub": 1,
+   "subatlist": 8
+  },
+  "(8, 1099511628161, 1, 2)": {
+   "n": 8,
+   "q": 1099511628161,
+   "t": 1,
+   "delta": 2,
+   "count": 56,
+   "maxsub": 21,
+   "maxlist": 3,
+   "argsub": "locScan_0,2,4",
+   "arglist": "locScan_0,1,2",
+   "profsub": {
+    "7": 1
+   },
+   "proflist": {
+    "5": 2,
+    "6": 1
+   },
+   "listatsub": 1,
+   "subatlist": 8
+  },
+  "(16, 65537, 1, 6)": {
+   "n": 16,
+   "q": 65537,
+   "t": 1,
+   "delta": 6,
+   "count": 120,
+   "maxsub": 2054,
+   "maxlist": 67,
+   "argsub": "locScan_1,3,7,9,11,12,15",
+   "arglist": "locScan_2,6,7,9,10,11,14",
+   "profsub": {
+    "9": 52,
+    "14": 1
+   },
+   "proflist": {
+    "9": 64,
+    "10": 1,
+    "11": 1,
+    "12": 1
+   },
+   "listatsub": 53,
+   "subatlist": 349
+  },
+  "(16, 10177, 1, 6)": {
+   "n": 16,
+   "q": 10177,
+   "t": 1,
+   "delta": 6,
+   "count": 120,
+   "maxsub": 2054,
+   "maxlist": 67,
+   "argsub": "locScan_1,3,7,9,11,12,15",
+   "arglist": "locScan_2,6,7,9,10,11,14",
+   "profsub": {
+    "9": 52,
+    "14": 1
+   },
+   "proflist": {
+    "9": 64,
+    "10": 1,
+    "11": 1,
+    "12": 1
+   },
+   "listatsub": 53,
+   "subatlist": 349
+  }
+ }
+}

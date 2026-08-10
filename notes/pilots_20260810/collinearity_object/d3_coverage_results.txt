@@ -1,0 +1,96 @@
+=== 1. (AO1) re-derivation vs apolar's banked table (O=0) ===
+   m   band [a_min..a_max]   rho+1   4m+2   banked
+    1  [4..5]         4      6   (4, 5) AGREE
+    2  [8..10]         8     10   (8, 10) AGREE
+    3  [12..15]        12     14   (12, 15) AGREE
+    4  [16..19]        16     18   (16, 19) AGREE
+    5  [20..24]        20     22   (20, 24) AGREE
+    6  [24..31]        24     26   (24, 31) AGREE
+    7  [28..35]        28     30   (28, 35) AGREE
+   36  [144..191]       144    146   (144, 191) AGREE
+   37  [148..195]       148    150   (148, 195) AGREE
+   38  [152..202]       152    154   (152, 202) AGREE
+   39  [156..207]       156    158   (156, 207) AGREE
+   40  [160..211]       160    162   (160, 211) AGREE
+  12/12 rows reproduced
+
+=== 2. THE TILING: apolar's band + my rigid band vs the w* window ===
+   w* window = [4m+2, 8m-2]  (apolar's proved joint-support window)
+   m    window        apolar [4m+2..a_max]   mine [thr..8m-2]     GAP
+    1  [6..6]  [6..5] (EMPTY)  [7..6] (EMPTY)   [6]
+    2  [10..14]  [10..10]  [12..14]   [11]
+    3  [14..22]  [14..15]  [17..22]   [16]
+    4  [18..30]  [18..19]  [23..30]   [20, 21, 22]
+    5  [22..38]  [22..24]  [28..38]   [25, 26, 27]
+    6  [26..46]  [26..31]  [33..46]   [32]
+    7  [30..54]  [30..35]  [39..54]   [36, 37, 38]
+    8  [34..62]  [34..42]  [44..62]   [43]
+    9  [38..70]  [38..47]  [49..70]   [48]
+   10  [42..78]  [42..51]  [55..78]   [52, 53, 54]
+   11  [46..86]  [46..58]  [60..86]   [59]
+   12  [50..94]  [50..63]  [65..94]   [64]
+   13  [54..102]  [54..67]  [71..102]   [68, 69, 70]
+   14  [58..110]  [58..74]  [76..110]   [75]
+   15  [62..118]  [62..79]  [81..118]   [80]
+   16  [66..126]  [66..83]  [87..126]   [84, 85, 86]
+   17  [70..134]  [70..90]  [92..134]   [91]
+   18  [74..142]  [74..95]  [97..142]   [96]
+   19  [78..150]  [78..99]  [103..150]   [100, 101, 102]
+   20  [82..158]  [82..106]  [108..158]   [107]
+   24  [98..190]  [98..127]  [129..190]   [128]
+   30  [122..238]  [122..159]  [161..238]   [160]
+   32  [130..254]  [130..170]  [172..254]   [171]
+   36  [146..286]  [146..191]  [193..286]   [192]
+   39  [158..310]  [158..207]  [209..310]   [208]
+   40  [162..318]  [162..211]  [215..318]   [212, 213, 214]
+  gap sizes over m in [1,20]: [1, 3]
+  m mod 3 -> gap size: [(0, 1), (1, 3), (2, 1), (2, 3)]
+
+=== 3. asymptotic share of the w* window ===
+  m=2^10  window=4093           apolar=1362           (0.3328)  mine=2728           (0.6665)  GAP=3
+  m=2^20  window=4194301        apolar=1398098        (0.3333)  mine=2796200        (0.6667)  GAP=3
+  m=2^30  window=4294967293     apolar=1431655762     (0.3333)  mine=2863311528     (0.6667)  GAP=3
+  m=2^37  window=549755813885   apolar=183251937961   (0.3333)  mine=366503875923   (0.6667)  GAP=1
+
+=== 4. D4 THE PAYOFF MAP, re-derived (not cited) ===
+  m = 2^37 => N = 16m = 2199023255552 = 2^41 = n ; rho = 4m-1 = 2^39-1 ;
+  rho+1 = 549755813888 = 2^39 (budget 1) ; rho+2 = 549755813889 = 2^39+1 (budget 2)
+  R = 8m = 2^40 ; A = R+1-2rho = 3 ; e = m ; SAT3 failure size = rho+2, deficit exactly 1 slope
+
+  B*(q) = floor(q / 2^128).  A budget b is met on the rows where B* >= b, i.e. q >= 2^128 * b.
+    budget rho+1 = 2^39   : q >= 2^128*549755813888 = 187072209578355573530071658587684226515959365500928 = 2^167
+    budget rho+2 = 2^39+1 : q >= 2^128*549755813889 = 187072209578695855896992597051147601123391133712384 = 2^167 + 2^128
+  bracket top before  : q >= 2^169 = 2^128 * n = 2^128 * 2^41 = 748288838313422294120286634350736906063837462003712
+  bracket top after closing 2^39+1 : q >= 2^167 + 2^128 = 187072209578695855896992597051147601123391133712384
+  extension factor 2^169/(2^167+2^128) = 2^41/(2^39+1) = 4.000000
+      exact: 4 - 4/(2^39+1) = 4 - 7.275958e-12   -> '4.000000' to 6 dp, NOT exactly 4
+  the SLIVER (2^167, 2^167+2^128): floor(q/2^128) there = 549755813888 = 2^39
+      so budget 2^39 alone owns the sliver; 'all q > 2^167' needs the PAIR.  Sliver relative width = 2^128/2^167 = 2^-39.
+  low end: rho <= R - r = 2^34 (the quotient-floor cap).
+
+=== 5. what T4 closes, and what it does NOT (honest ledger) ===
+  T4 (this pilot): for RIG >= 0, every collinear family of the
+  reciprocal-locator set is a PENCIL; sporadic (non-pencil)
+  collinearities are IMPOSSIBLE, not merely rare; and the counting
+  layer d_x <= e caps every pencil family at M <= e+1 = m+1.
+  Hence, on that band, #(weight-extremal type-2 slopes) <= m+1 and
+  T_1 <= e+1 = m+1, so T <= 2m+2 <= 4m = rho+1 for every m >= 1.
+     m=1              : 2m+2 = 4                vs rho+1 = 4                 OK
+     m=2              : 2m+2 = 6                vs rho+1 = 8                 OK
+     m=3              : 2m+2 = 8                vs rho+1 = 12                OK
+     m=137438953472   : 2m+2 = 274877906946     vs rho+1 = 549755813888      OK
+  NOT closed by T4: (i) the gap values of w*; (ii) type-2 slopes
+  whose difference codeword is NOT of minimum weight R+1 (the
+  reciprocal-locator normal form does not apply to them); (iii) m=1.
+  Counting-layer arithmetic for the residual (ii), re-derived:
+     m=2            a=10             s=R+1-a=7               counting cap (N-a)e/s = 6                   target rho+1 = 8
+     m=2            a=12             s=R+1-a=5               counting cap (N-a)e/s = 8                   target rho+1 = 8
+     m=2            a=14             s=R+1-a=3               counting cap (N-a)e/s = 12                  target rho+1 = 8
+     m=8            a=34             s=R+1-a=31              counting cap (N-a)e/s = 24                  target rho+1 = 32
+     m=8            a=48             s=R+1-a=17              counting cap (N-a)e/s = 37                  target rho+1 = 32
+     m=8            a=62             s=R+1-a=3               counting cap (N-a)e/s = 176                 target rho+1 = 32
+     m=137438953472 a=549755813890   s=R+1-a=549755813887    counting cap (N-a)e/s = 412316860416        target rho+1 = 549755813888
+     m=137438953472 a=824633720832   s=R+1-a=274877906945    counting cap (N-a)e/s = 687194767357        target rho+1 = 549755813888
+     m=137438953472 a=1099511627774  s=R+1-a=3               counting cap (N-a)e/s = 50371909150701174915072  target rho+1 = 549755813888
+
+=== END d3_coverage ===

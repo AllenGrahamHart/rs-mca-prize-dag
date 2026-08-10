@@ -1,0 +1,479 @@
+[
+ {
+  "mode": "n8all",
+  "n": 8,
+  "q": 73,
+  "g": 10,
+  "a": 5,
+  "dmax": 2,
+  "n_cosets_hit": 225256,
+  "n_items": 302568,
+  "MAXWORD_SUB": 21,
+  "MAXWORD_LIST": 7,
+  "PLATEAU": 3,
+  "C_nm1_a": 21,
+  "tau": 3,
+  "top_by_list": [
+   {
+    "key": 389044,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389027,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389018,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389039,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389063,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389080,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389089,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 389068,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   }
+  ],
+  "top_by_subset": [
+   {
+    "key": 726737,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 509676,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 639434,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 772850,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 664164,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 538202,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   }
+  ],
+  "per_delta_over_hot": {
+   "2": {
+    "maxlist": 7,
+    "maxsub": 21
+   },
+   "1": {
+    "maxlist": 5,
+    "maxsub": 6
+   },
+   "0": {
+    "maxlist": 3,
+    "maxsub": 3
+   }
+  }
+ },
+ {
+  "mode": "n8all",
+  "n": 8,
+  "q": 97,
+  "g": 64,
+  "a": 5,
+  "dmax": 2,
+  "n_cosets_hit": 426760,
+  "n_items": 532392,
+  "MAXWORD_SUB": 21,
+  "MAXWORD_LIST": 7,
+  "PLATEAU": 3,
+  "C_nm1_a": 21,
+  "tau": 3,
+  "top_by_list": [
+   {
+    "key": 912695,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912737,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912674,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912720,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912748,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912706,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912769,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 912723,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   }
+  ],
+  "top_by_subset": [
+   {
+    "key": 1627682,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1225351,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1362204,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1816130,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1390462,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1129058,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   }
+  ],
+  "per_delta_over_hot": {
+   "2": {
+    "maxlist": 7,
+    "maxsub": 21
+   },
+   "1": {
+    "maxlist": 5,
+    "maxsub": 6
+   },
+   "0": {
+    "maxlist": 3,
+    "maxsub": 3
+   }
+  }
+ },
+ {
+  "mode": "n8all",
+  "n": 8,
+  "q": 113,
+  "g": 18,
+  "a": 5,
+  "dmax": 2,
+  "n_cosets_hit": 596936,
+  "n_items": 721448,
+  "MAXWORD_SUB": 21,
+  "MAXWORD_LIST": 7,
+  "PLATEAU": 3,
+  "C_nm1_a": 21,
+  "tau": 3,
+  "top_by_list": [
+   {
+    "key": 1442995,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442915,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442898,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442941,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442912,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442992,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1443009,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   },
+   {
+    "key": 1442966,
+    "F_SUBSET": 7,
+    "F_LIST": 7,
+    "delta": 2,
+    "profile": {
+     "5": 7
+    }
+   }
+  ],
+  "top_by_subset": [
+   {
+    "key": 2006523,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 2667070,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 1647186,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 2873250,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 2325671,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   },
+   {
+    "key": 2706930,
+    "F_SUBSET": 21,
+    "F_LIST": 1,
+    "delta": 2,
+    "profile": {
+     "7": 1
+    }
+   }
+  ],
+  "per_delta_over_hot": {
+   "2": {
+    "maxlist": 7,
+    "maxsub": 21
+   },
+   "1": {
+    "maxlist": 5,
+    "maxsub": 6
+   },
+   "0": {
+    "maxlist": 3,
+    "maxsub": 3
+   }
+  }
+ }
+]

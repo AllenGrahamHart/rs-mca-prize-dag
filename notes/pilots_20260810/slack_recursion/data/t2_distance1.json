@@ -1,0 +1,272 @@
+[
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 73,
+  "delta": 2,
+  "u_index": 0,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 73,
+  "delta": 2,
+  "u_index": 1,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 73,
+  "delta": 2,
+  "u_index": 3,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 97,
+  "delta": 2,
+  "u_index": 0,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 97,
+  "delta": 2,
+  "u_index": 1,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 97,
+  "delta": 2,
+  "u_index": 3,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 113,
+  "delta": 2,
+  "u_index": 0,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 113,
+  "delta": 2,
+  "u_index": 1,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 21,
+  "agreement_profile": {
+   "7": 1
+  },
+  "coset_like_A": 3,
+  "plateau_M": 4,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 8,
+  "q": 113,
+  "delta": 2,
+  "u_index": 3,
+  "pred_F_SUBSET": 21,
+  "PLATEAU": 3,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 10177,
+  "delta": 6,
+  "u_index": 0,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 10177,
+  "delta": 6,
+  "u_index": 1,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 10177,
+  "delta": 6,
+  "u_index": 3,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 12289,
+  "delta": 6,
+  "u_index": 0,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 12289,
+  "delta": 6,
+  "u_index": 1,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ },
+ {
+  "F_LIST": 1,
+  "F_SUBSET": 5005,
+  "agreement_profile": {
+   "15": 1
+  },
+  "coset_like_A": 7,
+  "plateau_M": 8,
+  "plateau_pred": 1,
+  "subset_identity_ok": true,
+  "n": 16,
+  "q": 12289,
+  "delta": 6,
+  "u_index": 3,
+  "pred_F_SUBSET": 5005,
+  "PLATEAU": 35,
+  "T2_hit": true
+ }
+]

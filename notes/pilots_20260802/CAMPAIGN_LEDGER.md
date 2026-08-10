@@ -4566,3 +4566,62 @@ mandate; 14 HIT / 2 MISS own-slips disclosed. Replays: GAP exact,
 0/21,832, the q-ladder identical (sampled section differs by
 sample count only — benign). Addendum applied; no status flips.
 Files: notes/pilots_20260810/list_profile_bound/{REPORT.md,FABLE_AUDIT.md}.
+
+## ROUND 29 BANK 3/4 — slack_recursion (2026-08-10, coordinator)
+
+**BANKED: the supply side closes THE OTHER WAY — the arbitrary-word
+maximum is a THEOREM (product word realizing Graham-Sloane; matching
+upper within one bit), it GROWS (+1.2/+4.4/+11.4/+26.5 bits at
+n=8/16/32/64), crossing the razor need between n=16 and 32 — and
+the honest verdict is a MODEL CRITIQUE, not an F2 firing** (naive
+transport over-satisfies by ~115 bits; the t=1 model is provably
+unfaithful — the razor lives at t = 2^34; first coset-faithful data
+point measured; **C(127,64) matches NEITHER coset formula — the
+(t,M) TRANSPORT DICTIONARY is the named gate on all supply-side
+razor claims**). The recursion KILLED (88/103 mixed-parity
+counterexamples; REC-BOX survives at prune 2.7; n=128 dead).
+CORRECTED BANKED LINES: round-28's "same fate likely" falsified
+twice; round-27's frame under-measured 6.4x (111 in-frame vs 715
+true); the 5-vs-6 conflict dissolved (F_LIST vs F_SUBSET). The
+pilot's OWN registered direction refuted by its own measurement —
+the R6 fallback rule fired and was followed. Theorems A-D +
+MINT_PACKAGE.md queued. One no-op compute-law breach disclosed.
+Addendum applied; no status flips. Files:
+notes/pilots_20260810/slack_recursion/{REPORT.md,FABLE_AUDIT.md,MINT_PACKAGE.md}.
+
+## ROUND 29 BANK 4/4 — collinearity_object (2026-08-10, coordinator) — ROUND COMPLETE
+
+**BANKED: T4 — THE SPORADIC BOUND, UNCONDITIONAL: for
+RIG = a-1-2s >= 0, sporadic collinearities of {P_S} DO NOT EXIST
+(two-line divisibility argument, coordinator hand-verified);** with
+the banked counting layer, T <= rho+1 on the TOP TWO THIRDS of the
+w* window — **exactly complementary to apolar's round-28
+one-third.** THE UNIFICATION IS AN IDENTITY (U1: the two round-28
+point sets are one set up to a fixed collineation; 1024/1024;
+ssparse's F_COLL reproduced exactly from the reciprocal side).
+ssparse's excess = a THIRD CLASS (small-ambient floppy artifact,
+a <= 4; vanishes at a >= 5 in 1152 configs; official ambient
+w* >= 2^39+2 — the round-28 flag RESOLVED zero-power, declared by
+the pilot against its own headline). The complete structured census
+answers the SAFETY QUESTION NO (every family capped at m+1 by the
+d_x law, zero violations). q=17 explained TO THE UNIT (hypothesis
+fails by exactly one; boundary term 4*sigma_W). **NEITHER BUDGET
+CLOSES — THE THREE NAMED RESIDUALS: (i) the 1-or-3-integer w*
+tiling gap; (ii) the non-minimum-weight type-2 stratum (cap
+5.04e22 vs 2^39 — the big one); (iii) m=1.** Fourth sliver
+derivation; precision nit banked (the extension factor is
+4 - 7.28e-12, not exactly 4). Two self-caught bugs + a mislabelled
+counter reported as such; CATCH-24A port credit (dihedral family).
+Replays: d1_unify + d3_coverage IDENTICAL. Addendum applied; no
+status flips; census unchanged 239 = 167/40/32.
+Files: notes/pilots_20260810/collinearity_object/{REPORT.md,FABLE_AUDIT.md}.
+
+**ROUND 29 COMPLETE: 4/4 banked. THE RESIDUAL BUDGETS NOW HAVE AN
+ENUMERATED ENDGAME — apolar's 1/3 + T4's 2/3 with three named
+residuals — and the RH-AC safe half has ONE named inequality (the
+overlap cap below a^2/n, T5). The k-quantifier HOLE is flagged
+across the lane with three user decisions pending (POSE 3 / the
+ABF26-Przemek question / FLAG E adjudication); the supply side
+moved to the (t,M) transport dictionary. Two banked-line
+corrections and one refuted transport this round — the audit
+cadence still catching everything inherited within one round.**

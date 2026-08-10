@@ -1,0 +1,24 @@
+=== D2 : N=32 census (two fields) ===
+  N32   q=97     N=32  a=3   s=2  RIG=-2   #pts=406    F_COLL=14   s+1=3   | pencil-lines=699     NON-PENCIL(pdim>2)=20793  maxM(non-pencil)=14   | M*k>|G| viol=0  d_x-law viol=19861
+        by moving degree k: k=1:{n=699,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=2457,Mmax=4,dmax=2,bound 1+s/k=1.7}  k=4:{n=6082,Mmax=6,dmax=2,bound 1+s/k=1.5}  k=5:{n=2658,Mmax=5,dmax=2,bound 1+s/k=1.4}  k=6:{n=3741,Mmax=7,dmax=2,bound 1+s/k=1.3}  k=7:{n=1874,Mmax=9,dmax=2,bound 1+s/k=1.3}  k=8:{n=1840,Mmax=8,dmax=2,bound 1+s/k=1.2}  k=9:{n=876,Mmax=10,dmax=2,bound 1+s/k=1.2}  k=10:{n=645,Mmax=9,dmax=2,bound 1+s/k=1.2}  k=11:{n=289,Mmax=11,dmax=2,bound 1+s/k=1.2}  k=12:{n=180,Mmax=10,dmax=2,bound 1+s/k=1.2}  k=13:{n=88,Mmax=12,dmax=2,bound 1+s/k=1.2}  k=14:{n=29,Mmax=14,dmax=2,bound 1+s/k=1.1}  k=15:{n=12,Mmax=13,dmax=2,bound 1+s/k=1.1}  k=16:{n=4,Mmax=12,dmax=2,bound 1+s/k=1.1}  k=17:{n=3,Mmax=14,dmax=2,bound 1+s/k=1.1}  k=18:{n=3,Mmax=10,dmax=1,bound 1+s/k=1.1}  k=20:{n=3,Mmax=11,dmax=1,bound 1+s/k=1.1}  k=22:{n=3,Mmax=12,dmax=1,bound 1+s/k=1.1}  k=24:{n=3,Mmax=13,dmax=1,bound 1+s/k=1.1}  k=26:{n=3,Mmax=14,dmax=1,bound 1+s/k=1.1}
+  N32   q=97     N=32  a=5   s=2  RIG=0    #pts=351    F_COLL=3    s+1=3   | pencil-lines=2925    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=2925,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  N32   q=97     N=32  a=6   s=2  RIG=1    #pts=325    F_COLL=3    s+1=3   | pencil-lines=2600    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=2600,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  N32   q=97     N=32  a=7   s=3  RIG=0    #pts=2300   F_COLL=4    s+1=4   | pencil-lines=25300   NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=25300,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  N32   q=97     N=32  a=8   s=3  RIG=1    #pts=2024   F_COLL=4    s+1=4   | pencil-lines=21252   NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=21252,Mmax=4,dmax=3,bound 1+s/k=4.0}
+
+  N32   q=65537  N=32  a=3   s=2  RIG=-2   #pts=406    F_COLL=14   s+1=3   | pencil-lines=3588    NON-PENCIL(pdim>2)=294    maxM(non-pencil)=14   | M*k>|G| viol=0  d_x-law viol=229
+        by moving degree k: k=1:{n=3588,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=162,Mmax=4,dmax=2,bound 1+s/k=1.7}  k=4:{n=96,Mmax=3,dmax=1,bound 1+s/k=1.5}  k=5:{n=3,Mmax=5,dmax=2,bound 1+s/k=1.4}  k=6:{n=3,Mmax=4,dmax=1,bound 1+s/k=1.3}  k=8:{n=3,Mmax=5,dmax=1,bound 1+s/k=1.2}  k=10:{n=3,Mmax=6,dmax=1,bound 1+s/k=1.2}  k=12:{n=3,Mmax=7,dmax=1,bound 1+s/k=1.2}  k=14:{n=3,Mmax=8,dmax=1,bound 1+s/k=1.1}  k=16:{n=3,Mmax=9,dmax=1,bound 1+s/k=1.1}  k=18:{n=3,Mmax=10,dmax=1,bound 1+s/k=1.1}  k=20:{n=3,Mmax=11,dmax=1,bound 1+s/k=1.1}  k=22:{n=3,Mmax=12,dmax=1,bound 1+s/k=1.1}  k=24:{n=3,Mmax=13,dmax=1,bound 1+s/k=1.1}  k=26:{n=3,Mmax=14,dmax=1,bound 1+s/k=1.1}
+  N32   q=65537  N=32  a=5   s=2  RIG=0    #pts=351    F_COLL=3    s+1=3   | pencil-lines=2925    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=2925,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  N32   q=65537  N=32  a=6   s=2  RIG=1    #pts=325    F_COLL=3    s+1=3   | pencil-lines=2600    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=2600,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  N32   q=65537  N=32  a=7   s=3  RIG=0    #pts=2300   F_COLL=4    s+1=4   | pencil-lines=25300   NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=25300,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  N32   q=65537  N=32  a=8   s=3  RIG=1    #pts=2024   F_COLL=4    s+1=4   | pencil-lines=21252   NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=21252,Mmax=4,dmax=3,bound 1+s/k=4.0}
+
+=== END d2_census ===

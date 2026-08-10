@@ -1,0 +1,41 @@
+[
+ {
+  "n": 8,
+  "q": 73,
+  "t": 1,
+  "a": 5,
+  "n_subsets": 56,
+  "SLACK0": 3,
+  "PRODW": 7,
+  "SLACK0_classes": 40,
+  "PRODW_classes": 8,
+  "ratio_prod_over_slack0": 2.3333333333333335,
+  "bits": 1.222392421336448
+ },
+ {
+  "n": 8,
+  "q": 73,
+  "t": 2,
+  "a": 6,
+  "n_subsets": 28,
+  "SLACK0": 1,
+  "PRODW": 1,
+  "SLACK0_classes": 28,
+  "PRODW_classes": 28,
+  "ratio_prod_over_slack0": 1.0,
+  "bits": 0.0
+ },
+ {
+  "n": 8,
+  "q": 73,
+  "t": 3,
+  "a": 7,
+  "n_subsets": 8,
+  "SLACK0": 1,
+  "PRODW": 1,
+  "SLACK0_classes": 8,
+  "PRODW_classes": 8,
+  "ratio_prod_over_slack0": 1.0,
+  "bits": 0.0
+ }
+]

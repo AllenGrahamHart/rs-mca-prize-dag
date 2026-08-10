@@ -1,0 +1,106 @@
+{
+ "mode": "allw",
+ "n": 8,
+ "q": 73,
+ "t": 2,
+ "a": 6,
+ "dmax": 1,
+ "g": 10,
+ "MAXWORD_SUB": 7,
+ "MAXWORD_LIST": 1,
+ "n_items": 2072,
+ "n_cosets": 2024,
+ "PRODUCT_PRED": 3.5,
+ "per_delta": {
+  "1": {
+   "maxlist": 1,
+   "maxsub": 7
+  }
+ },
+ "top": [
+  {
+   "key": [
+    63,
+    46,
+    22,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  },
+  {
+   "key": [
+    27,
+    72,
+    46,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  },
+  {
+   "key": [
+    22,
+    27,
+    63,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  },
+  {
+   "key": [
+    72,
+    1,
+    72,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  },
+  {
+   "key": [
+    10,
+    46,
+    51,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  },
+  {
+   "key": [
+    46,
+    72,
+    27,
+    1
+   ],
+   "F_SUBSET": 7,
+   "F_LIST": 1,
+   "delta": 1,
+   "profile": {
+    "7": 1
+   }
+  }
+ ]
+}

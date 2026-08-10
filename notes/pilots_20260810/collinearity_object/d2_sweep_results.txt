@@ -1,0 +1,161 @@
+=== D2 : RIG SWEEP -- F_COLL vs RIG = a-1-2s (N=16, two fields) ===
+    R2 predicts F_COLL = s+1 and ZERO non-pencil families for RIG >= 0
+  S2    q=97     N=16  a=3   s=2  RIG=-2   #pts=78     F_COLL=6    s+1=3   | pencil-lines=219     NON-PENCIL(pdim>2)=369    maxM(non-pencil)=6    | M*k>|G| viol=0  d_x-law viol=311
+        by moving degree k: k=1:{n=219,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=153,Mmax=4,dmax=2,bound 1+s/k=1.7}  k=4:{n=169,Mmax=3,dmax=1,bound 1+s/k=1.5}  k=5:{n=23,Mmax=5,dmax=2,bound 1+s/k=1.4}  k=6:{n=15,Mmax=4,dmax=1,bound 1+s/k=1.3}  k=7:{n=3,Mmax=6,dmax=2,bound 1+s/k=1.3}  k=8:{n=3,Mmax=5,dmax=1,bound 1+s/k=1.2}  k=10:{n=3,Mmax=6,dmax=1,bound 1+s/k=1.2}
+  S2    q=97     N=16  a=4   s=2  RIG=-1   #pts=66     F_COLL=6    s+1=3   | pencil-lines=220     NON-PENCIL(pdim>2)=5      maxM(non-pencil)=6    | M*k>|G| viol=0  d_x-law viol=5
+        by moving degree k: k=1:{n=220,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=4:{n=2,Mmax=3,dmax=1,bound 1+s/k=1.5}  k=6:{n=1,Mmax=4,dmax=1,bound 1+s/k=1.3}  k=8:{n=1,Mmax=5,dmax=1,bound 1+s/k=1.2}  k=10:{n=1,Mmax=6,dmax=1,bound 1+s/k=1.2}
+  S2    q=97     N=16  a=5   s=2  RIG=0    #pts=55     F_COLL=3    s+1=3   | pencil-lines=165     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=165,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=97     N=16  a=6   s=2  RIG=1    #pts=45     F_COLL=3    s+1=3   | pencil-lines=120     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=120,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=97     N=16  a=7   s=2  RIG=2    #pts=36     F_COLL=3    s+1=3   | pencil-lines=84      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=84,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=97     N=16  a=8   s=2  RIG=3    #pts=28     F_COLL=3    s+1=3   | pencil-lines=56      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=56,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S3    q=97     N=16  a=3   s=3  RIG=-4   #pts=286    F_COLL=10   s+1=4   | pencil-lines=428     NON-PENCIL(pdim>2)=10806  maxM(non-pencil)=10   | M*k>|G| viol=0  d_x-law viol=4573
+        by moving degree k: k=1:{n=428,Mmax=4,dmax=3,bound 1+s/k=4.0}  k=3:{n=948,Mmax=5,dmax=4,bound 1+s/k=2.0}  k=4:{n=2904,Mmax=6,dmax=4,bound 1+s/k=1.8}  k=5:{n=2875,Mmax=8,dmax=5,bound 1+s/k=1.6}  k=6:{n=1940,Mmax=10,dmax=5,bound 1+s/k=1.5}  k=7:{n=1235,Mmax=9,dmax=5,bound 1+s/k=1.4}  k=8:{n=617,Mmax=10,dmax=6,bound 1+s/k=1.4}  k=9:{n=243,Mmax=9,dmax=6,bound 1+s/k=1.3}  k=10:{n=44,Mmax=10,dmax=6,bound 1+s/k=1.3}
+  S3    q=97     N=16  a=4   s=3  RIG=-3   #pts=220    F_COLL=5    s+1=4   | pencil-lines=990     NON-PENCIL(pdim>2)=134    maxM(non-pencil)=5    | M*k>|G| viol=0  d_x-law viol=6
+        by moving degree k: k=1:{n=990,Mmax=4,dmax=3,bound 1+s/k=4.0}  k=4:{n=72,Mmax=3,dmax=3,bound 1+s/k=1.8}  k=5:{n=34,Mmax=4,dmax=2,bound 1+s/k=1.6}  k=6:{n=16,Mmax=4,dmax=4,bound 1+s/k=1.5}  k=8:{n=12,Mmax=5,dmax=5,bound 1+s/k=1.4}
+  S3    q=97     N=16  a=5   s=3  RIG=-2   #pts=165    F_COLL=4    s+1=4   | pencil-lines=660     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=660,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=97     N=16  a=6   s=3  RIG=-1   #pts=120    F_COLL=4    s+1=4   | pencil-lines=420     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=420,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=97     N=16  a=7   s=3  RIG=0    #pts=84     F_COLL=4    s+1=4   | pencil-lines=252     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=252,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=97     N=16  a=8   s=3  RIG=1    #pts=56     F_COLL=4    s+1=4   | pencil-lines=140     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=140,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=97     N=16  a=9   s=3  RIG=2    #pts=35     F_COLL=4    s+1=4   | pencil-lines=70      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=70,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=97     N=16  a=10  s=3  RIG=3    #pts=20     F_COLL=4    s+1=4   | pencil-lines=30      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=30,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S4    q=97     N=16  a=3   s=4  RIG=-6   #pts=710    F_COLL=18   s+1=5   | pencil-lines=437     NON-PENCIL(pdim>2)=50153  maxM(non-pencil)=18   | M*k>|G| viol=0  d_x-law viol=29409
+        by moving degree k: k=1:{n=413,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=24,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=1360,Mmax=7,dmax=5,bound 1+s/k=2.3}  k=4:{n=4731,Mmax=8,dmax=6,bound 1+s/k=2.0}  k=5:{n=6970,Mmax=10,dmax=8,bound 1+s/k=1.8}  k=6:{n=8216,Mmax=12,dmax=8,bound 1+s/k=1.7}  k=7:{n=9670,Mmax=13,dmax=9,bound 1+s/k=1.6}  k=8:{n=10709,Mmax=17,dmax=10,bound 1+s/k=1.5}  k=9:{n=8497,Mmax=18,dmax=10,bound 1+s/k=1.4}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 3), ('DIHEDRAL(uv=18)', 1), ('DIHEDRAL(uv=22)', 2), ('DIHEDRAL(uv=27)', 1), ('DIHEDRAL(uv=50)', 2), ('DIHEDRAL(uv=64)', 1), ('DIHEDRAL(uv=79)', 3), ('DIHEDRAL(uv=8)', 1), ('DIHEDRAL(uv=89)', 1), ('non-Galois', 9)]
+  S4    q=97     N=16  a=4   s=4  RIG=-5   #pts=495    F_COLL=15   s+1=5   | pencil-lines=2544    NON-PENCIL(pdim>2)=1740   maxM(non-pencil)=15   | M*k>|G| viol=0  d_x-law viol=29
+        by moving degree k: k=1:{n=2376,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=168,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=4:{n=707,Mmax=6,dmax=3,bound 1+s/k=2.0}  k=5:{n=645,Mmax=5,dmax=4,bound 1+s/k=1.8}  k=6:{n=349,Mmax=10,dmax=4,bound 1+s/k=1.7}  k=7:{n=27,Mmax=4,dmax=2,bound 1+s/k=1.6}  k=8:{n=12,Mmax=15,dmax=5,bound 1+s/k=1.5}
+        k=2 fibre types: [('COSET(mu_2)', 4), ('DIHEDRAL(uv=1)', 4), ('DIHEDRAL(uv=12)', 4), ('DIHEDRAL(uv=18)', 4), ('DIHEDRAL(uv=22)', 10), ('DIHEDRAL(uv=27)', 1), ('DIHEDRAL(uv=33)', 1), ('DIHEDRAL(uv=47)', 1), ('DIHEDRAL(uv=50)', 4), ('DIHEDRAL(uv=64)', 10), ('DIHEDRAL(uv=70)', 4), ('DIHEDRAL(uv=75)', 1), ('DIHEDRAL(uv=79)', 10), ('DIHEDRAL(uv=8)', 10), ('DIHEDRAL(uv=85)', 4), ('DIHEDRAL(uv=89)', 4), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 91)]
+  S4    q=97     N=16  a=5   s=4  RIG=-4   #pts=330    F_COLL=5    s+1=5   | pencil-lines=1479    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=1386,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=93,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('COSET(mu_2)', 1), ('DIHEDRAL(uv=1)', 1), ('DIHEDRAL(uv=12)', 4), ('DIHEDRAL(uv=18)', 1), ('DIHEDRAL(uv=22)', 10), ('DIHEDRAL(uv=27)', 10), ('DIHEDRAL(uv=50)', 4), ('DIHEDRAL(uv=64)', 4), ('DIHEDRAL(uv=70)', 1), ('DIHEDRAL(uv=79)', 10), ('DIHEDRAL(uv=8)', 4), ('DIHEDRAL(uv=85)', 1), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 40)]
+  S4    q=97     N=16  a=6   s=4  RIG=-3   #pts=210    F_COLL=5    s+1=5   | pencil-lines=800     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=756,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=44,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 4), ('DIHEDRAL(uv=22)', 4), ('DIHEDRAL(uv=27)', 4), ('DIHEDRAL(uv=50)', 4), ('DIHEDRAL(uv=64)', 1), ('DIHEDRAL(uv=79)', 10), ('DIHEDRAL(uv=8)', 1), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 14)]
+  S4    q=97     N=16  a=7   s=4  RIG=-2   #pts=126    F_COLL=5    s+1=5   | pencil-lines=400     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=378,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=22,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 4), ('DIHEDRAL(uv=22)', 1), ('DIHEDRAL(uv=27)', 1), ('DIHEDRAL(uv=50)', 4), ('DIHEDRAL(uv=79)', 4), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 6)]
+  S4    q=97     N=16  a=8   s=4  RIG=-1   #pts=70     F_COLL=5    s+1=5   | pencil-lines=180     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=168,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=12,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 4), ('DIHEDRAL(uv=50)', 1), ('DIHEDRAL(uv=79)', 1), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 4)]
+  S4    q=97     N=16  a=9   s=4  RIG=0    #pts=35     F_COLL=5    s+1=5   | pencil-lines=68      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=63,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=5,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 1), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 2)]
+  S4    q=97     N=16  a=10  s=4  RIG=1    #pts=15     F_COLL=5    s+1=5   | pencil-lines=19      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=18,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=1,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=89)', 1)]
+  S4    q=97     N=16  a=11  s=4  RIG=2    #pts=5      F_COLL=5    s+1=5   | pencil-lines=3       NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=3,Mmax=5,dmax=4,bound 1+s/k=5.0}
+  S5    q=97     N=16  a=3   s=5  RIG=-8   #pts=1258   F_COLL=28   s+1=6   | pencil-lines=430     NON-PENCIL(pdim>2)=103846 maxM(non-pencil)=28   | M*k>|G| viol=0  d_x-law viol=70288
+        by moving degree k: k=1:{n=372,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=58,Mmax=3,dmax=3,bound 1+s/k=3.5}  k=3:{n=1829,Mmax=8,dmax=7,bound 1+s/k=2.7}  k=4:{n=6099,Mmax=11,dmax=9,bound 1+s/k=2.2}  k=5:{n=10234,Mmax=12,dmax=10,bound 1+s/k=2.0}  k=6:{n=15674,Mmax=15,dmax=12,bound 1+s/k=1.8}  k=7:{n=26015,Mmax=21,dmax=13,bound 1+s/k=1.7}  k=8:{n=43995,Mmax=28,dmax=17,bound 1+s/k=1.6}
+        k=2 fibre types: [('DIHEDRAL(uv=1)', 1), ('DIHEDRAL(uv=12)', 8), ('DIHEDRAL(uv=18)', 1), ('DIHEDRAL(uv=22)', 4), ('DIHEDRAL(uv=27)', 5), ('DIHEDRAL(uv=50)', 6), ('DIHEDRAL(uv=64)', 3), ('DIHEDRAL(uv=79)', 7), ('DIHEDRAL(uv=8)', 2), ('DIHEDRAL(uv=89)', 3), ('DIHEDRAL(uv=96)', 2), ('non-Galois', 16)]
+  S5    q=97     N=16  a=4   s=5  RIG=-7   #pts=792    F_COLL=10   s+1=6   | pencil-lines=4686    NON-PENCIL(pdim>2)=7226   maxM(non-pencil)=10   | M*k>|G| viol=0  d_x-law viol=4
+        by moving degree k: k=1:{n=3688,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=998,Mmax=3,dmax=3,bound 1+s/k=3.5}  k=4:{n=2679,Mmax=6,dmax=6,bound 1+s/k=2.2}  k=5:{n=2853,Mmax=5,dmax=5,bound 1+s/k=2.0}  k=6:{n=1511,Mmax=10,dmax=10,bound 1+s/k=1.8}  k=7:{n=183,Mmax=5,dmax=4,bound 1+s/k=1.7}
+        k=2 fibre types: [('COSET(mu_2)', 20), ('DIHEDRAL(uv=1)', 24), ('DIHEDRAL(uv=12)', 24), ('DIHEDRAL(uv=18)', 24), ('DIHEDRAL(uv=22)', 60), ('DIHEDRAL(uv=27)', 12), ('DIHEDRAL(uv=33)', 6), ('DIHEDRAL(uv=47)', 5), ('DIHEDRAL(uv=50)', 24), ('DIHEDRAL(uv=64)', 60), ('DIHEDRAL(uv=70)', 24), ('DIHEDRAL(uv=75)', 6), ('DIHEDRAL(uv=79)', 60), ('DIHEDRAL(uv=8)', 60), ('DIHEDRAL(uv=85)', 24), ('DIHEDRAL(uv=89)', 24), ('DIHEDRAL(uv=96)', 6), ('non-Galois', 535)]
+  S5    q=97     N=16  a=5   s=5  RIG=-6   #pts=462    F_COLL=6    s+1=6   | pencil-lines=2313    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=1848,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=465,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('COSET(mu_2)', 5), ('DIHEDRAL(uv=1)', 5), ('DIHEDRAL(uv=12)', 20), ('DIHEDRAL(uv=18)', 5), ('DIHEDRAL(uv=22)', 50), ('DIHEDRAL(uv=27)', 50), ('DIHEDRAL(uv=50)', 20), ('DIHEDRAL(uv=64)', 20), ('DIHEDRAL(uv=70)', 5), ('DIHEDRAL(uv=79)', 50), ('DIHEDRAL(uv=8)', 20), ('DIHEDRAL(uv=85)', 5), ('DIHEDRAL(uv=89)', 5), ('DIHEDRAL(uv=96)', 5), ('non-Galois', 200)]
+  S5    q=97     N=16  a=6   s=5  RIG=-5   #pts=252    F_COLL=6    s+1=6   | pencil-lines=1016    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=840,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=176,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 16), ('DIHEDRAL(uv=22)', 16), ('DIHEDRAL(uv=27)', 16), ('DIHEDRAL(uv=50)', 16), ('DIHEDRAL(uv=64)', 4), ('DIHEDRAL(uv=79)', 40), ('DIHEDRAL(uv=8)', 4), ('DIHEDRAL(uv=89)', 4), ('DIHEDRAL(uv=96)', 4), ('non-Galois', 56)]
+  S5    q=97     N=16  a=7   s=5  RIG=-4   #pts=126    F_COLL=6    s+1=6   | pencil-lines=402     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=336,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=66,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 12), ('DIHEDRAL(uv=22)', 3), ('DIHEDRAL(uv=27)', 3), ('DIHEDRAL(uv=50)', 12), ('DIHEDRAL(uv=79)', 12), ('DIHEDRAL(uv=89)', 3), ('DIHEDRAL(uv=96)', 3), ('non-Galois', 18)]
+  S5    q=97     N=16  a=8   s=5  RIG=-3   #pts=56     F_COLL=6    s+1=6   | pencil-lines=136     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=112,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=24,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 8), ('DIHEDRAL(uv=50)', 2), ('DIHEDRAL(uv=79)', 2), ('DIHEDRAL(uv=89)', 2), ('DIHEDRAL(uv=96)', 2), ('non-Galois', 8)]
+  S5    q=97     N=16  a=9   s=5  RIG=-2   #pts=21     F_COLL=6    s+1=6   | pencil-lines=33      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=28,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=5,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=12)', 1), ('DIHEDRAL(uv=89)', 1), ('DIHEDRAL(uv=96)', 1), ('non-Galois', 2)]
+  S5    q=97     N=16  a=10  s=5  RIG=-1   #pts=6      F_COLL=6    s+1=6   | pencil-lines=4       NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=4,Mmax=6,dmax=5,bound 1+s/k=6.0}
+
+  S2    q=65537  N=16  a=3   s=2  RIG=-2   #pts=78     F_COLL=6    s+1=3   | pencil-lines=268     NON-PENCIL(pdim>2)=62     maxM(non-pencil)=6    | M*k>|G| viol=0  d_x-law viol=44
+        by moving degree k: k=1:{n=268,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=42,Mmax=4,dmax=2,bound 1+s/k=1.7}  k=4:{n=11,Mmax=3,dmax=1,bound 1+s/k=1.5}  k=6:{n=3,Mmax=4,dmax=1,bound 1+s/k=1.3}  k=8:{n=3,Mmax=5,dmax=1,bound 1+s/k=1.2}  k=10:{n=3,Mmax=6,dmax=1,bound 1+s/k=1.2}
+  S2    q=65537  N=16  a=4   s=2  RIG=-1   #pts=66     F_COLL=6    s+1=3   | pencil-lines=220     NON-PENCIL(pdim>2)=4      maxM(non-pencil)=6    | M*k>|G| viol=0  d_x-law viol=4
+        by moving degree k: k=1:{n=220,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=4:{n=1,Mmax=3,dmax=1,bound 1+s/k=1.5}  k=6:{n=1,Mmax=4,dmax=1,bound 1+s/k=1.3}  k=8:{n=1,Mmax=5,dmax=1,bound 1+s/k=1.2}  k=10:{n=1,Mmax=6,dmax=1,bound 1+s/k=1.2}
+  S2    q=65537  N=16  a=5   s=2  RIG=0    #pts=55     F_COLL=3    s+1=3   | pencil-lines=165     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=165,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=65537  N=16  a=6   s=2  RIG=1    #pts=45     F_COLL=3    s+1=3   | pencil-lines=120     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=120,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=65537  N=16  a=7   s=2  RIG=2    #pts=36     F_COLL=3    s+1=3   | pencil-lines=84      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=84,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S2    q=65537  N=16  a=8   s=2  RIG=3    #pts=28     F_COLL=3    s+1=3   | pencil-lines=56      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=56,Mmax=3,dmax=2,bound 1+s/k=3.0}
+  S3    q=65537  N=16  a=3   s=3  RIG=-4   #pts=286    F_COLL=8    s+1=4   | pencil-lines=1124    NON-PENCIL(pdim>2)=1344   maxM(non-pencil)=8    | M*k>|G| viol=0  d_x-law viol=203
+        by moving degree k: k=1:{n=1124,Mmax=4,dmax=3,bound 1+s/k=4.0}  k=3:{n=486,Mmax=5,dmax=4,bound 1+s/k=2.0}  k=4:{n=505,Mmax=6,dmax=4,bound 1+s/k=1.8}  k=5:{n=192,Mmax=8,dmax=4,bound 1+s/k=1.6}  k=6:{n=87,Mmax=7,dmax=4,bound 1+s/k=1.5}  k=7:{n=18,Mmax=6,dmax=4,bound 1+s/k=1.4}  k=8:{n=39,Mmax=6,dmax=5,bound 1+s/k=1.4}  k=9:{n=14,Mmax=7,dmax=5,bound 1+s/k=1.3}  k=10:{n=3,Mmax=7,dmax=6,bound 1+s/k=1.3}
+  S3    q=65537  N=16  a=4   s=3  RIG=-3   #pts=220    F_COLL=5    s+1=4   | pencil-lines=990     NON-PENCIL(pdim>2)=48     maxM(non-pencil)=5    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=990,Mmax=4,dmax=3,bound 1+s/k=4.0}  k=4:{n=24,Mmax=3,dmax=3,bound 1+s/k=1.8}  k=6:{n=12,Mmax=4,dmax=4,bound 1+s/k=1.5}  k=8:{n=12,Mmax=5,dmax=5,bound 1+s/k=1.4}
+  S3    q=65537  N=16  a=5   s=3  RIG=-2   #pts=165    F_COLL=4    s+1=4   | pencil-lines=660     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=660,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=65537  N=16  a=6   s=3  RIG=-1   #pts=120    F_COLL=4    s+1=4   | pencil-lines=420     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=420,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=65537  N=16  a=7   s=3  RIG=0    #pts=84     F_COLL=4    s+1=4   | pencil-lines=252     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=252,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=65537  N=16  a=8   s=3  RIG=1    #pts=56     F_COLL=4    s+1=4   | pencil-lines=140     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=140,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=65537  N=16  a=9   s=3  RIG=2    #pts=35     F_COLL=4    s+1=4   | pencil-lines=70      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=70,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S3    q=65537  N=16  a=10  s=3  RIG=3    #pts=20     F_COLL=4    s+1=4   | pencil-lines=30      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=30,Mmax=4,dmax=3,bound 1+s/k=4.0}
+  S4    q=65537  N=16  a=3   s=4  RIG=-6   #pts=714    F_COLL=18   s+1=5   | pencil-lines=2524    NON-PENCIL(pdim>2)=10140  maxM(non-pencil)=18   | M*k>|G| viol=0  d_x-law viol=771
+        by moving degree k: k=1:{n=2354,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=170,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=3:{n=2608,Mmax=6,dmax=5,bound 1+s/k=2.3}  k=4:{n=3692,Mmax=8,dmax=6,bound 1+s/k=2.0}  k=5:{n=2238,Mmax=9,dmax=8,bound 1+s/k=1.8}  k=6:{n=1066,Mmax=12,dmax=7,bound 1+s/k=1.7}  k=7:{n=355,Mmax=11,dmax=8,bound 1+s/k=1.6}  k=8:{n=151,Mmax=17,dmax=6,bound 1+s/k=1.5}  k=9:{n=30,Mmax=18,dmax=7,bound 1+s/k=1.4}
+        k=2 fibre types: [('DIHEDRAL(uv=1)', 10), ('DIHEDRAL(uv=1024)', 7), ('DIHEDRAL(uv=16)', 3), ('DIHEDRAL(uv=16384)', 7), ('DIHEDRAL(uv=256)', 4), ('DIHEDRAL(uv=4)', 7), ('DIHEDRAL(uv=4096)', 1), ('DIHEDRAL(uv=49153)', 7), ('DIHEDRAL(uv=64)', 1), ('DIHEDRAL(uv=64513)', 8), ('DIHEDRAL(uv=65281)', 10), ('DIHEDRAL(uv=65473)', 6), ('DIHEDRAL(uv=65521)', 3), ('DIHEDRAL(uv=65533)', 1), ('DIHEDRAL(uv=65536)', 3), ('non-Galois', 92)]
+  S4    q=65537  N=16  a=4   s=4  RIG=-5   #pts=495    F_COLL=15   s+1=5   | pencil-lines=2499    NON-PENCIL(pdim>2)=231    maxM(non-pencil)=15   | M*k>|G| viol=0  d_x-law viol=11
+        by moving degree k: k=1:{n=2376,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=123,Mmax=3,dmax=2,bound 1+s/k=3.0}  k=4:{n=154,Mmax=6,dmax=3,bound 1+s/k=2.0}  k=5:{n=6,Mmax=3,dmax=2,bound 1+s/k=1.8}  k=6:{n=66,Mmax=10,dmax=4,bound 1+s/k=1.7}  k=8:{n=5,Mmax=15,dmax=5,bound 1+s/k=1.5}
+        k=2 fibre types: [('COSET(mu_2)', 4), ('DIHEDRAL(uv=1)', 4), ('DIHEDRAL(uv=1024)', 4), ('DIHEDRAL(uv=16)', 4), ('DIHEDRAL(uv=16384)', 4), ('DIHEDRAL(uv=256)', 1), ('DIHEDRAL(uv=4)', 4), ('DIHEDRAL(uv=4096)', 10), ('DIHEDRAL(uv=49153)', 10), ('DIHEDRAL(uv=61441)', 1), ('DIHEDRAL(uv=64)', 10), ('DIHEDRAL(uv=64513)', 4), ('DIHEDRAL(uv=65281)', 10), ('DIHEDRAL(uv=65473)', 4), ('DIHEDRAL(uv=65521)', 1), ('DIHEDRAL(uv=65533)', 1), ('DIHEDRAL(uv=65536)', 1), ('non-Galois', 46)]
+  S4    q=65537  N=16  a=5   s=4  RIG=-4   #pts=330    F_COLL=5    s+1=5   | pencil-lines=1455    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=1386,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=69,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('COSET(mu_2)', 1), ('DIHEDRAL(uv=1)', 1), ('DIHEDRAL(uv=1024)', 4), ('DIHEDRAL(uv=16)', 4), ('DIHEDRAL(uv=16384)', 1), ('DIHEDRAL(uv=4)', 1), ('DIHEDRAL(uv=4096)', 4), ('DIHEDRAL(uv=49153)', 10), ('DIHEDRAL(uv=64)', 4), ('DIHEDRAL(uv=64513)', 1), ('DIHEDRAL(uv=65281)', 10), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65533)', 10), ('DIHEDRAL(uv=65536)', 1), ('non-Galois', 16)]
+  S4    q=65537  N=16  a=6   s=4  RIG=-3   #pts=210    F_COLL=5    s+1=5   | pencil-lines=790     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=756,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=34,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 4), ('DIHEDRAL(uv=16)', 4), ('DIHEDRAL(uv=4096)', 1), ('DIHEDRAL(uv=49153)', 10), ('DIHEDRAL(uv=64)', 1), ('DIHEDRAL(uv=65281)', 4), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65533)', 4), ('DIHEDRAL(uv=65536)', 1), ('non-Galois', 4)]
+  S4    q=65537  N=16  a=7   s=4  RIG=-2   #pts=126    F_COLL=5    s+1=5   | pencil-lines=394     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=378,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=16,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 4), ('DIHEDRAL(uv=16)', 4), ('DIHEDRAL(uv=49153)', 4), ('DIHEDRAL(uv=65281)', 1), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65533)', 1), ('DIHEDRAL(uv=65536)', 1)]
+  S4    q=65537  N=16  a=8   s=4  RIG=-1   #pts=70     F_COLL=5    s+1=5   | pencil-lines=176     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=168,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=8,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 4), ('DIHEDRAL(uv=16)', 1), ('DIHEDRAL(uv=49153)', 1), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65536)', 1)]
+  S4    q=65537  N=16  a=9   s=4  RIG=0    #pts=35     F_COLL=5    s+1=5   | pencil-lines=66      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=63,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=3,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 1), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65536)', 1)]
+  S4    q=65537  N=16  a=10  s=4  RIG=1    #pts=15     F_COLL=5    s+1=5   | pencil-lines=19      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=18,Mmax=5,dmax=4,bound 1+s/k=5.0}  k=2:{n=1,Mmax=3,dmax=2,bound 1+s/k=3.0}
+        k=2 fibre types: [('DIHEDRAL(uv=65473)', 1)]
+  S4    q=65537  N=16  a=11  s=4  RIG=2    #pts=5      F_COLL=5    s+1=5   | pencil-lines=3       NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=3,Mmax=5,dmax=4,bound 1+s/k=5.0}
+  S5    q=65537  N=16  a=3   s=5  RIG=-8   #pts=1282   F_COLL=20   s+1=6   | pencil-lines=4357    NON-PENCIL(pdim>2)=35528  maxM(non-pencil)=20   | M*k>|G| viol=0  d_x-law viol=1439
+        by moving degree k: k=1:{n=3285,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=1072,Mmax=3,dmax=3,bound 1+s/k=3.5}  k=3:{n=7691,Mmax=8,dmax=7,bound 1+s/k=2.7}  k=4:{n=11794,Mmax=11,dmax=8,bound 1+s/k=2.2}  k=5:{n=9261,Mmax=11,dmax=9,bound 1+s/k=2.0}  k=6:{n=4828,Mmax=12,dmax=12,bound 1+s/k=1.8}  k=7:{n=1650,Mmax=16,dmax=12,bound 1+s/k=1.7}  k=8:{n=304,Mmax=20,dmax=17,bound 1+s/k=1.6}
+        k=2 fibre types: [('COSET(mu_2)', 7), ('DIHEDRAL(uv=1)', 66), ('DIHEDRAL(uv=1024)', 27), ('DIHEDRAL(uv=16)', 20), ('DIHEDRAL(uv=16384)', 35), ('DIHEDRAL(uv=256)', 22), ('DIHEDRAL(uv=4)', 45), ('DIHEDRAL(uv=4096)', 10), ('DIHEDRAL(uv=49153)', 36), ('DIHEDRAL(uv=61441)', 2), ('DIHEDRAL(uv=64)', 8), ('DIHEDRAL(uv=64513)', 48), ('DIHEDRAL(uv=65281)', 54), ('DIHEDRAL(uv=65473)', 45), ('DIHEDRAL(uv=65521)', 21), ('DIHEDRAL(uv=65533)', 8), ('DIHEDRAL(uv=65536)', 19), ('non-Galois', 599)]
+  S5    q=65537  N=16  a=4   s=5  RIG=-7   #pts=792    F_COLL=10   s+1=6   | pencil-lines=4440    NON-PENCIL(pdim>2)=556    maxM(non-pencil)=10   | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=3696,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=744,Mmax=3,dmax=3,bound 1+s/k=3.5}  k=4:{n=464,Mmax=6,dmax=6,bound 1+s/k=2.2}  k=5:{n=28,Mmax=4,dmax=3,bound 1+s/k=2.0}  k=6:{n=62,Mmax=10,dmax=10,bound 1+s/k=1.8}  k=7:{n=2,Mmax=5,dmax=4,bound 1+s/k=1.7}
+        k=2 fibre types: [('COSET(mu_2)', 24), ('DIHEDRAL(uv=1)', 24), ('DIHEDRAL(uv=1024)', 24), ('DIHEDRAL(uv=16)', 24), ('DIHEDRAL(uv=16384)', 24), ('DIHEDRAL(uv=256)', 6), ('DIHEDRAL(uv=4)', 24), ('DIHEDRAL(uv=4096)', 60), ('DIHEDRAL(uv=49153)', 60), ('DIHEDRAL(uv=61441)', 6), ('DIHEDRAL(uv=64)', 60), ('DIHEDRAL(uv=64513)', 24), ('DIHEDRAL(uv=65281)', 60), ('DIHEDRAL(uv=65473)', 24), ('DIHEDRAL(uv=65521)', 6), ('DIHEDRAL(uv=65533)', 12), ('DIHEDRAL(uv=65536)', 6), ('non-Galois', 276)]
+  S5    q=65537  N=16  a=5   s=5  RIG=-6   #pts=462    F_COLL=6    s+1=6   | pencil-lines=2193    NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=1848,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=345,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('COSET(mu_2)', 5), ('DIHEDRAL(uv=1)', 5), ('DIHEDRAL(uv=1024)', 20), ('DIHEDRAL(uv=16)', 20), ('DIHEDRAL(uv=16384)', 5), ('DIHEDRAL(uv=4)', 5), ('DIHEDRAL(uv=4096)', 20), ('DIHEDRAL(uv=49153)', 50), ('DIHEDRAL(uv=64)', 20), ('DIHEDRAL(uv=64513)', 5), ('DIHEDRAL(uv=65281)', 50), ('DIHEDRAL(uv=65473)', 5), ('DIHEDRAL(uv=65533)', 50), ('DIHEDRAL(uv=65536)', 5), ('non-Galois', 80)]
+  S5    q=65537  N=16  a=6   s=5  RIG=-5   #pts=252    F_COLL=6    s+1=6   | pencil-lines=976     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=840,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=136,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 16), ('DIHEDRAL(uv=16)', 16), ('DIHEDRAL(uv=4096)', 4), ('DIHEDRAL(uv=49153)', 40), ('DIHEDRAL(uv=64)', 4), ('DIHEDRAL(uv=65281)', 16), ('DIHEDRAL(uv=65473)', 4), ('DIHEDRAL(uv=65533)', 16), ('DIHEDRAL(uv=65536)', 4), ('non-Galois', 16)]
+  S5    q=65537  N=16  a=7   s=5  RIG=-4   #pts=126    F_COLL=6    s+1=6   | pencil-lines=384     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=336,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=48,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 12), ('DIHEDRAL(uv=16)', 12), ('DIHEDRAL(uv=49153)', 12), ('DIHEDRAL(uv=65281)', 3), ('DIHEDRAL(uv=65473)', 3), ('DIHEDRAL(uv=65533)', 3), ('DIHEDRAL(uv=65536)', 3)]
+  S5    q=65537  N=16  a=8   s=5  RIG=-3   #pts=56     F_COLL=6    s+1=6   | pencil-lines=128     NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=112,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=16,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 8), ('DIHEDRAL(uv=16)', 2), ('DIHEDRAL(uv=49153)', 2), ('DIHEDRAL(uv=65473)', 2), ('DIHEDRAL(uv=65536)', 2)]
+  S5    q=65537  N=16  a=9   s=5  RIG=-2   #pts=21     F_COLL=6    s+1=6   | pencil-lines=31      NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=28,Mmax=6,dmax=5,bound 1+s/k=6.0}  k=2:{n=3,Mmax=3,dmax=3,bound 1+s/k=3.5}
+        k=2 fibre types: [('DIHEDRAL(uv=1024)', 1), ('DIHEDRAL(uv=65473)', 1), ('DIHEDRAL(uv=65536)', 1)]
+  S5    q=65537  N=16  a=10  s=5  RIG=-1   #pts=6      F_COLL=6    s+1=6   | pencil-lines=4       NON-PENCIL(pdim>2)=0      maxM(non-pencil)=0    | M*k>|G| viol=0  d_x-law viol=0
+        by moving degree k: k=1:{n=4,Mmax=6,dmax=5,bound 1+s/k=6.0}
+
+  TOTAL structure-theorem violations across the sweep: 107097
+
+=== END d2_census ===

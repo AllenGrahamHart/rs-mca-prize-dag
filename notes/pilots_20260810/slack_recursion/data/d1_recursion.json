@@ -1,0 +1,238 @@
+[
+ {
+  "n": 8,
+  "M": 4,
+  "K": 2,
+  "m": 3,
+  "ANTIPODAL_exact": 6,
+  "per_stratum": {
+   "1": 6
+  },
+  "PLATEAU": 3,
+  "contributing_nodes_evenclass": 1,
+  "REC_STRONG_counterexamples": 0,
+  "pure_parity_contributors": 1,
+  "REC_STRONG_verdict": "consistent",
+  "mixed_examples": [],
+  "boxfrac": {
+   "n": 8,
+   "K": 2,
+   "nodes": 9,
+   "box_pass": 9,
+   "BOXFRAC": 1.0,
+   "prune_factor": 1.0
+  }
+ },
+ {
+  "n": 16,
+  "M": 8,
+  "K": 4,
+  "m": 7,
+  "ANTIPODAL_exact": 46,
+  "per_stratum": {
+   "1": 30,
+   "3": 16
+  },
+  "PLATEAU": 35,
+  "contributing_nodes_evenclass": 7,
+  "REC_STRONG_counterexamples": 4,
+  "pure_parity_contributors": 3,
+  "REC_STRONG_verdict": "REFUTED",
+  "mixed_examples": [
+   {
+    "ch": [
+     0,
+     1,
+     3
+    ],
+    "s": 3,
+    "add": 2,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     3
+    ],
+    "s": 3,
+    "add": 2,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   },
+   {
+    "ch": [
+     1,
+     2,
+     3
+    ],
+    "s": 3,
+    "add": 2,
+    "even_part": [
+     2
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   },
+   {
+    "ch": [
+     1,
+     2,
+     3
+    ],
+    "s": 3,
+    "add": 2,
+    "even_part": [
+     2
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   }
+  ],
+  "boxfrac": {
+   "n": 16,
+   "K": 4,
+   "nodes": 81,
+   "box_pass": 65,
+   "BOXFRAC": 0.8024691358024691,
+   "prune_factor": 1.2461538461538462
+  }
+ },
+ {
+  "n": 32,
+  "M": 16,
+  "K": 8,
+  "m": 15,
+  "ANTIPODAL_exact": 1974,
+  "per_stratum": {
+   "1": 630,
+   "3": 1344
+  },
+  "PLATEAU": 6435,
+  "contributing_nodes_evenclass": 103,
+  "REC_STRONG_counterexamples": 88,
+  "pure_parity_contributors": 15,
+  "REC_STRONG_verdict": "REFUTED",
+  "mixed_examples": [
+   {
+    "ch": [
+     0,
+     1,
+     2
+    ],
+    "s": 3,
+    "add": 6,
+    "even_part": [
+     0,
+     2
+    ],
+    "odd_part": [
+     1
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     3
+    ],
+    "s": 3,
+    "add": 4,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     3
+    ],
+    "s": 3,
+    "add": 4,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     3
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     5
+    ],
+    "s": 3,
+    "add": 6,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     5
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     5
+    ],
+    "s": 3,
+    "add": 6,
+    "even_part": [
+     0
+    ],
+    "odd_part": [
+     1,
+     5
+    ]
+   },
+   {
+    "ch": [
+     0,
+     1,
+     6
+    ],
+    "s": 3,
+    "add": 4,
+    "even_part": [
+     0,
+     6
+    ],
+    "odd_part": [
+     1
+    ]
+   }
+  ],
+  "boxfrac": {
+   "n": 32,
+   "K": 8,
+   "nodes": 6561,
+   "box_pass": 2401,
+   "BOXFRAC": 0.3659503124523701,
+   "prune_factor": 2.7326114119117033
+  }
+ }
+]

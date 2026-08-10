@@ -387,3 +387,104 @@ d3_ladder (the exact F_LMAX section identical; the sampled section
 differs only by sample count) — coordinator-verified. Source:
 notes/pilots_20260810/list_profile_bound/ (REPORT.md,
 FABLE_AUDIT.md).
+
+## Round-29 addendum (2026-08-10, coordinator-applied on replay: slack_recursion — the supply side does NOT close; it closes THE OTHER WAY, and the model is the casualty)
+
+**The round-28 maxscan addendum's residual line ("the collapse plus
+the parity theorem's recursion note make the same fate likely") is
+FALSIFIED TWICE:** the recursion is KILLED (REC-STRONG false by
+explicit counterexamples — 88/103 contributing nodes at n=32 mix
+parity classes; only the weaker REC-BOX prune survives, measured
+1.0/1.25/2.7, leaving n=128 Modal-class-dead and now valueless);
+and the maximal-slack curve GROWS. **THE ARBITRARY-WORD MAXIMUM IS
+NOW A THEOREM, pinned within one bit at every scale:** THEOREM A
+(the PRODUCT WORD y = x^{-1} + c*x^{n/2}: agreement sets = exactly
+the a-subsets with prescribed product -1/c; flat profile; count
+C(n,a)/n — the classical Graham-Sloane prescribed-sum construction
+realized as ONE explicit word, char-0, field-independent, OUTSIDE
+the coset/dressing universe THEOREM CAP scopes) + THEOREM B (the
+matching constant-weight distance-4 upper bound 2C(n,a)/n).
+Surplus over the plateau: +1.222 / +4.352 / +11.424 / +26.461 bits
+at n = 8/16/32/64 — **crossing the razor's +4.73..4.83-bit need
+between n=16 and n=32**, and over-satisfying it by ~115 bits at
+the razor's model scale. Exact at n=8 by 3-field exhaustion over
+EVERY received word; verified at n=32/64 by criterion +
+planted-subset checks, two fields.
+
+**THE HONEST STING — A MODEL CRITIQUE, NOT AN F2 FIRING:** nobody
+believes a 115-bit over-satisfaction transports; the correct
+reading is that **the t=1 model rounds 27-28 measured is NOT a
+faithful transport of the razor's supply question** — the razor
+has t = 2^34 (t = M, the coset scale), where the constraint
+universe differs. First coset-faithful data point measured exactly
+(n=16, t=2: SLACK0 = 3 vs PRODW = 7, both formulas confirmed
+against the coset picture); **the banked razor plateau C(127,64)
+matches NEITHER coset-level formula, so the transport dictionary
+needs the banked derivation before ANY razor-scale statement.**
+THE NAMED NEXT OBJECT: fix the (t,M) correspondence, then re-run
+the two-sided pinning in the coset-faithful regime. Also
+corrected: the round-27 sampling frame under-measured by design
+(frame gap 6.4x at n=16: in-frame max 111 vs sampled 67 vs true
+715); the n=8 "5 vs 6" conflict dissolved (F_LIST vs F_SUBSET).
+Mint package (Theorems A-D, proofs, harness) at
+notes/pilots_20260810/slack_recursion/MINT_PACKAGE.md. Pilot
+record: its OWN registered supply direction refuted by its own
+measurement (the R6 fallback rule fired and was followed); one
+disclosed no-op compute-law breach. Source:
+notes/pilots_20260810/slack_recursion/ (REPORT.md, FABLE_AUDIT.md).
+
+## Round-29 addendum (2026-08-10, coordinator-applied on replay: collinearity_object — the sporadic bound LANDS UNCONDITIONALLY on the top TWO THIRDS; the two round-28 sides unified as ONE identity)
+
+**THE UNIFICATION (U1, proved + 1024/1024 two fields two N):** for
+subgroup domains, P_S = diag(x/N) * L_T with T = (D\W)\S — the
+reciprocal-locator set (apolar) and the direct-locator set
+(ssparse) are THE SAME POINT SET up to a fixed collineation.
+ssparse's 7-9x-random excess is a THIRD CLASS — a small-ambient
+(a <= 4) floppy-regime artifact where the index map is not even
+injective; at a >= 5 the excess VANISHES (max F_COLL = s+1 in all
+1152 sampled configurations, six fields). The official ambient is
+w* >= 2^39+2 — deep in the rigid regime. **The round-28 F_COLL
+flag is RESOLVED as zero-power at official parameters** (the
+pilot's own declaration, stated against its own headline).
+
+**T4 (THE SPORADIC BOUND — unconditional, uniform in q):** if
+RIG = a-1-2s >= 0, sporadic collinearities of {P_S} DO NOT EXIST:
+three collinear points force two degree-2s polynomials to agree at
+a > 2s points, hence a polynomial identity, hence
+sigma_{S_i} | sigma_{S_1}sigma_{S_2} — every S_i lies in
+G = S_1 u S_2 and the complements are pairwise-disjoint fibres of
+a degree-k map, so M <= 1 + s/k <= s+1: EVERY collinear family is
+a pencil (coordinator hand-verified the argument). With the banked
+counting layer (SAT2-SAT4, verified verbatim): M <= m+1, hence
+T <= 2m+2 <= rho+1 for every m >= 1 — contradicting SAT3. **On the
+official profile the hypothesis reads w* >= ceil((16m+3)/3): the
+TOP TWO THIRDS of the admissible window — exactly complementary to
+apolar's (AO1) one-third.** The q=17 fence violation is explained
+TO THE UNIT: the hypothesis fails by exactly one (2s = 6 = a), and
+the forbidden boundary term is measured as 4*sigma_W.
+
+**THE COMPLETE STRUCTURED CENSUS + THE SAFETY ANSWER: NO** — every
+collinear family in the rigid regime (linear, mu_2-coset, dihedral
+[a port: dihedral_quotient_stratum has the family in-repo],
+non-Galois, cyclotomic, general degree-k) satisfies the d_x law
+(zero violations), so the banked layer caps EVERY structured
+family at M <= m+1. No structured family threatens the budgets.
+
+**NEITHER BUDGET CLOSES — the three named residuals, exactly:**
+(i) the tiling gap between the (AO1) band and T4's band is 1 OR 3
+integers of w* per m (P11 miss: never 0); (ii) type-2 slopes whose
+difference codeword is NOT minimum-weight — the normal form does
+not apply, and the counting cap there is 5.04e22 vs the 2^39
+target; (iii) m = 1. All three open; any one keeps both budgets
+open. FOURTH independent derivation of the sliver constant; one
+precision nit on the round-28 fix as banked here: the extension
+factor is 4 - 7.28e-12 (4.000000 to six decimals, NOT exactly 4).
+Pilot record: two self-caught bugs (a normalization-basis error
+producing a false contradiction; a mislabelled violation counter
+reported as a mislabel), one arithmetic slip corrected by its own
+measurement, CATCH-24A subtraction on the dihedral family, and a
+zero-power declaration against its own headline. Replays: d1_unify
++ d3_coverage IDENTICAL (the identity 1024/1024; the 12/12 (AO1)
+re-derivation; the payoff arithmetic). Source:
+notes/pilots_20260810/collinearity_object/ (REPORT.md,
+FABLE_AUDIT.md).
