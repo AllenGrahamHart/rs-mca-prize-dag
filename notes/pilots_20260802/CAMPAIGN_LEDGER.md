@@ -4851,3 +4851,20 @@ Full chain green; verifier manifest refreshed (paths moved); orbit
 rebuilt. One crash mid-execution (exit 144 on the first rewire
 attempt) — verified zero partial writes before redoing from a
 script file.
+
+## ROUND 31 LAUNCH — the analytic-endgame round (2026-08-10)
+
+Four Opus pilots on the RH-AC endgame objects + the commissioned
+e-axis audit; briefs in notes/pilots_20260810/{rh_overlap_cap,
+rh_type2_stratum,rh_transport_dictionary,rh_e_axis_audit}/PREREG.md:
+(A) the safe-half overlap-cap inequality attacked WITH the T4
+pencils-only census in hand (extremal structure, subclass proofs,
+scaled gap); (B) residual (ii) — the non-minimum-weight type-2
+stratum's 5.04e22-vs-2^39 gap: crude counting or real wall; (C) the
+(t,M) transport dictionary's first entries (faithful model posed,
+small-t exact measurements, the candidate law vs the C(127,64)
+puzzle); (D) the F4-commissioned per-instrument primality audit
+ending in widen-vs-child. QUARANTINE MARKER: this entry and below
+quarantined for round-31 pilots (the ledger closed to them
+entirely); sibling round-31 dirs mutually quarantined; round-30 and
+earlier readable. Launched on Opus.
