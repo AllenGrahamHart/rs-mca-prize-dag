@@ -8,3 +8,7 @@ The rank probe was performed locally under `ramguard tiny` in
 `experiments/prize_resolution/rh_bivariate_m1_rank_probe.py`. The persisted
 certificate contains only exact `F_17` data; both node verifiers replay it
 without external libraries or enumeration beyond the ten pair unions.
+
+The contrasting bounded `m=2` campaign is retained in
+`experiments/prize_resolution/rh_bivariate_m2_badpattern_result.json` with a
+deterministic aggregate verifier. Its zero-hit result is evidence only.

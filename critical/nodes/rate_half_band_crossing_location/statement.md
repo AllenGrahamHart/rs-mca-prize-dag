@@ -1095,3 +1095,20 @@ live, but its rank theorem must use an official `m>1` structural exclusion or
 be restricted to incidence patterns violating the required `5m/3` cap. The
 proved fence is `rate_half_bivariate_row_surplus_route_fence`; no critical
 status changes.
+
+## Cycle-58 bounded `m=2` bad-pattern search (2026-08-10, Codex)
+
+A 32-worker, 45-second-per-worker Modal campaign tested the next precise
+falsifier at `m=2` over `F_97`. It generated `1,276,996` random incidence
+trials, of which `841,449` met the exact row-degree/column-deficit ledger.
+Across their minimum pair unions it tested `1,795,113` open-band cases that
+all violated the closing intersection cap. Every deficiency-aware matrix had
+full column rank: `rank_deficient=0`, hence no blockwise kernel, degree-`rho`
+extension, or Hankel witness survived.
+
+This is substantial heuristic support for a bad-pattern rank theorem at the
+first nontrivial scale, not a proof. It is one field and a random sample; the
+zero downstream counts mean the extension gates had no opportunity to add
+evidence. The complete per-worker packet and deterministic aggregate verifier
+are `rh_bivariate_m2_badpattern_result.json` and
+`verify_rh_bivariate_m2_badpattern.py`. No critical status changes.

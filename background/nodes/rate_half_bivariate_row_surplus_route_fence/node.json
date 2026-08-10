@@ -17,7 +17,10 @@
       "background/nodes/rate_half_bivariate_row_surplus_route_fence/certificate.json",
       "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify.py",
       "background/nodes/rate_half_bivariate_row_surplus_route_fence/verify_audit.py",
-      "experiments/prize_resolution/rh_bivariate_m1_rank_probe.py"
+      "experiments/prize_resolution/rh_bivariate_m1_rank_probe.py",
+      "experiments/prize_resolution/rh_bivariate_m2_badpattern_modal.py",
+      "experiments/prize_resolution/rh_bivariate_m2_badpattern_result.json",
+      "experiments/prize_resolution/verify_rh_bivariate_m2_badpattern.py"
     ]
   },
   "requires": [
