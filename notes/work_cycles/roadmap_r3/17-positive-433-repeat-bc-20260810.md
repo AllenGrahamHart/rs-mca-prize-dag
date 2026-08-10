@@ -270,3 +270,52 @@ additional DAG delta:     +2 background PROVED; critical orbit unchanged
 outside labels closed:    0 (source and common-kernel reconstruction only)
 next:                     generic endpoint-quartic paired-product rank atlas
 ```
+
+### Cell-11 uncolored generic-rank atlas
+
+The generic DE/DF/EF branch is now paid over the generic source point.  For
+each of the eight source towers, both outside signs, three missing-record
+representatives, and fifteen matchings, the missing product and squared sum
+define the endpoint quartic
+
+```text
+X^4 + (2q-s^2)X^2 + q^2 = 0.
+```
+
+The three paired-product equations in the remaining endpoint have degree
+profiles among `(0,4,4)`, `(2,2,4)`, `(2,4,2)`, `(4,0,4)`, and `(4,2,2)`.
+Flattening a selected Sylvester matrix through both the endpoint quartic and
+the source algebra gives exact matrices over `F_p(x)`.
+
+The first implementation performed symbolic rational-function Gaussian
+elimination.  One `BC+` pilot was generically unit but took 309 seconds, so
+that route was stopped.  A full-rank exact specialization at one defined base
+value already proves that the determinant rational function is nonzero.  The
+replacement checks every construction guard and denominator, then specializes
+at the common value `x=2`.  It proves full rank in all
+
+```text
+8 * 2 * 3 * 15 = 720
+```
+
+representative systems.  The exact rank census is `64:248,96:112` for `BC+`
+and `96:248,144:112` for `BC-`.
+
+This is generic emptiness, not deployed-field closure.  The determinant-zero
+base fibers are not yet reconstructed.  Missing `BE/CF`, the selected-cofactor
+boundary, and cell 14 also remain.  Upstream PR #1155 supplies a useful route
+fence: in one source chart the `433-1a` signed-pair guard factorization does
+not transplant, and an exact guarded necessary signed-pair point survives.
+That point is not a full outside witness, but it proves that a guard-only
+closure is unavailable and that the residual quadratic cover must be counted
+or routed to an owner.
+
+```text
+slow symbolic fence:      ap-3fx534kFlglEoYLllxvGCl (1 case, 309s)
+BC+ full replay:          ap-3cy8u05mzDVHye8DChswrT (360/360)
+BC- full replay:          ap-EHJ944sxlE9sssyZdjiEeE (360/360)
+additional DAG delta:     +1 background PROVED; critical orbit unchanged
+generic systems paid:     720 representative systems
+deployed labels closed:   0 (determinant-zero fibers remain)
+next:                     determinant fingerprint/reconstruction and BE/CF cuts
+```
