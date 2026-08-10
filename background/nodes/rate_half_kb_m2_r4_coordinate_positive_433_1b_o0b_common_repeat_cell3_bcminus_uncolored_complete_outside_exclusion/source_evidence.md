@@ -1,0 +1,8 @@
+# Source evidence
+
+- Exceptional launcher SHA256: `a8528c7e57423cd96ca531d9899e228247fb26eacd41c5d1bcb525e32ea62b54`.
+- Compact master SHA256: `f88db7c36a247f02c14689e9b6db755b345f3c9a6712cea229c22068280ce096`.
+- `DE+` shard SHA256: `fcb5c90cc87762372691368921863e6db04d58205d67e53e8317e96e4d8aa0fd`.
+- `DF+` shard SHA256: `921f8a76d5b426617e6a6d437bd14e26092f29dd902eb6c5f6502b21c3707315`.
+- `EF` shard SHA256: `519418c3a1fc95f78ec58005481c49769ae14d5119e8bc45eb01f0db3f2919c1`.
+- Modal run: `ap-S0dFAbvKa1AIutI3eJxkFP`.
