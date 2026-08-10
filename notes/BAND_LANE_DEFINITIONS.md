@@ -163,5 +163,46 @@ codimension `2d`. The corrected residual of record is
     family's parenthetical "(q < 2^256, v_2(q-1) >= 41)" IS an s = 41
     pin and does not cover s < 41. Two maximal-row conventions coexist
     (Convention A: N = 2^41, K = rho*N; Convention B: n = 2^41..2^44,
-    k = 2^40) — they agree only at rate 1/2; ADJUDICATION PENDING
-    (k_extremal FLAG E, 2026-08-10).
+    k = 2^40) — they agree only at rate 1/2. **ADJUDICATED 2026-08-10
+    (user-delegated coordinator ruling): "maximal row" = CONVENTION B**,
+    the cap-saturating rows, per the primary source: the ABF26 page-5
+    grand-challenge box fixes rate rho in {1/2, 1/4, 1/8, 1/16} with
+    k <= 2^40, so the maximal admissible row per rate is k = 2^40,
+    n = 2^40/rho in {2^41..2^44} — exactly Convention B, and exactly
+    the cp-packet/petal_g3 usage. Convention A's rows at rates < 1/2
+    (K = rho*2^41, i.e. k = 2^37..2^39) are ADMISSIBLE BUT NOT MAXIMAL
+    and must be called "rate-scaled N=2^41 rows"; the three A-statements
+    (x4_primitive_star_u1_coverage, b2b_near_tail_bound,
+    u2c_exact_slice_extras_budget) keep their content under the
+    node-local-pin reading rule — their claims are about the rows they
+    define — but their row vocabulary is read per this ruling. Nothing
+    at rate 1/2 changes.
+
+14. **The ABF26 "sufficiently large |F|" proviso is RESOLVED NEGATIVE**
+    (2026-08-10, primary source read): abf26 = Arnon-Boneh-Fenzi,
+    "Open Problems in List Decoding and Correlated Agreement"
+    (2026-04-08). The page-5 box reads "assuming |F| is sufficiently
+    large so that such a delta*_C exists" — a FIELD-SIZE
+    well-definedness clause (epsilon_mca has 1/|F| scaling, so
+    epsilon* = 2^-128 needs a large field), NOT a row-size exclusion.
+    Small-k rows make the clause EASIER, not excluded. With "for every
+    choice of F, L, and k" and "mostly interested in ... k <= 2^40,
+    and |F| < 2^256" (a cap over the family), the k_extremal HOLE
+    STANDS: the rate-half grand-challenge family is the 41 row sizes,
+    and no Przemek/rules question is needed. Version note: the
+    vendored rs-mca open-proximity.pdf read for this ruling hashes
+    e543ec6a...81de3, while official_row_primes_reframe.json pins
+    426a979c...caa5 — version drift; all four pinned fragments were
+    re-verified VERBATIM on page 5 of the version read.
+
+15. **POSE 3 ADOPTED (2026-08-10, user-delegated coordinator ruling):
+    the rate-half lane's official pose is the PER-S FOUR-BAND FAMILY**
+    (n = 2^s, k = 2^(s-1), s = 1..41), with s = 41 the flagship
+    instance. All existing s = 41 results keep their pins unchanged;
+    POSE 1's elementary corridor covers the list side at s <= 7 above
+    its per-s thresholds (pending referee); the s = 8..40 interior is
+    open family territory and every new band statement must declare
+    its s-scope explicitly. Node-level retrofit of the four
+    crossing/floor nodes rides the next mint wave; until then this
+    item plus the node-local scope flags (k_extremal FLAGs A-D) are
+    the reading of record.

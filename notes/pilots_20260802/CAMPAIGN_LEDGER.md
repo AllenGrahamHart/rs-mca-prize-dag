@@ -4660,3 +4660,35 @@ boundary loci, and the cell-14 duplicate transport. Upstream PR
 #1155 noted by Codex as a compatible fence, not a transplant
 (guard-only closure unavailable; the residual quadratic cover must
 be counted). Codex next: BE/CF cuts + guard boundary.
+
+## DECISIONS 2026-08-10 — the three round-29 rulings (user-delegated)
+
+The user delegated all three pending decisions ("make whichever
+decision you think is wisest"). Rulings, all recorded in
+notes/BAND_LANE_DEFINITIONS.md items 13-15:
+
+1. **POSE 3 ADOPTED** — the rate-half lane's official pose is the
+   per-s four-band family (s = 1..41), s = 41 flagship, all s = 41
+   pins unchanged, every new band statement must declare s-scope;
+   node retrofit rides the next mint wave (item 15).
+2. **ABF26 RESOLVED NEGATIVE, no Przemek question needed** — the
+   proviso settled from the PRIMARY SOURCE (abf26 =
+   Arnon-Boneh-Fenzi "Open Problems in List Decoding and Correlated
+   Agreement", 2026-04-08; read from the vendored rs-mca
+   open-proximity.pdf; version drift vs the reframe pin noted, all
+   four fragments re-verified verbatim on p.5): "assuming |F| is
+   sufficiently large so that such a delta*_C exists" is a
+   FIELD-SIZE well-definedness clause, not a row-size exclusion;
+   k <= 2^40 is a cap in the paper's own words. THE k_extremal HOLE
+   STANDS. The outward question is retired unused (item 14 +
+   notes/pilots_20260810/k_extremal/ABF26_RESOLUTION.md).
+3. **FLAG E: CONVENTION B** — "maximal row" = the cap-saturating
+   rows k = 2^40, n = 2^40/rho in {2^41..2^44}, straight from the
+   same page-5 box (rate in {1/2,1/4,1/8,1/16} under k <= 2^40).
+   Convention A's sub-rate rows renamed "rate-scaled N=2^41 rows";
+   reading notes appended to the three A-statements
+   (x4_primitive_star_u1_coverage, b2b_near_tail_bound,
+   u2c_exact_slice_extras_budget); rate 1/2 unaffected (item 13).
+
+mca_grand's FLAG A parenthetical updated to the post-ruling state.
+Full chain green; census unchanged 239 = 167/40/32; no status flips.
