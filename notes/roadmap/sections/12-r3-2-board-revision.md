@@ -1006,3 +1006,23 @@ Together with the 720-system uncolored replay, no missing-record family is
 open on the selected rational chart.  The cell-11 frontier is now the finite
 registered-guard/selected-cofactor boundary, followed by cell-14 transport
 and exact slope allocation.  No boundary or K3 closure is claimed.
+
+### 2026-08-10 cell-11 selected-cofactor deployed boundary exclusion
+
+The finite selected-cofactor fiber is empty over the base field on every
+deployed symmetric tower chart.  The exact multiplication norms of the
+printed degree-seven product-rank cofactor have the following complete
+factor profiles over `F_2130706433`:
+
+```text
+BC-:  (degree 2)^2 * (degree 1)^10; only root x=1, six guards vanish
+BC+:  (degree 3)^2 * (degree 2)^4 * (degree 1)^4;
+      only root x=-1, four guards vanish
+deployed base-field roots: 0 across all eight epsilon/sign rows
+Modal app: ap-DLOARcauDwqntFrwdXYTMQ
+```
+
+This removes the selected-cofactor qualification on the deployed chart.  It
+does not absorb `x=1`/`x=-1` or any other point omitted by the registered
+tower guards.  The cell-11 frontier is therefore the guard complement, then
+cell-14 transport and exact K3 slope/allocation payment.

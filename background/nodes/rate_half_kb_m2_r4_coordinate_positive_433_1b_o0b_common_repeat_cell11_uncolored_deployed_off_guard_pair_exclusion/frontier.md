@@ -1,10 +1,11 @@
 # Frontier
 
-The sibling colored-consistency theorem now also excludes missing `BE/CF` on
-the same rational open.  The remaining cell-11 route obligations are
+The colored-consistency theorem excludes missing `BE/CF` on the same rational
+open, and the selected-cofactor sibling proves that its zero fiber has no
+deployed base-field point.  The remaining cell-11 route obligations are
 structural boundaries, not unclassified determinant-zero fibers:
 
-- registered guard loci, including the selected-cofactor boundary;
+- registered guard loci, which contain all base-field selected-cofactor roots;
 - the cell-14 transport/closure interface;
 - conversion from surviving raw systems to distinct affine slopes and K3
   allocation.
