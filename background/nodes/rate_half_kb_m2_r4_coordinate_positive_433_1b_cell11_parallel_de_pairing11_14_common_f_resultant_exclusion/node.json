@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-11 parallel-DE pairing-11/14 common-f exclusion",
+    "status": "PROVED",
+    "closure": "complete deployed exclusion of four parallel-DE labels represented by pairings 11 and 14 in cell 11",
+    "statement": "On the guarded product-rank-five positive 433-1b to O0a route in source-role cell 11, the parallel-DE labels (0,11) and (2,11) are empty over the deployed field. A common-f quadratic resultant is replayed on all 32 source-sign and target-lane rows. The packet has 216 target roots, 360 candidates, and 272 guarded source points; 64 cases are missing-impossible, 64 are zero-product boundaries, and all 144 checked interior cases have no common-f lift. External Frobenius/gcd reconstruction covers 53 profiles, 222 roots, and degrees through 1420. Independent direct replay pays all 64 leading-boundary cases and leaves no colored candidate, witness, or unresolved branch. Exact duplicate-copy and matching transport close {(0,11),(1,11),(2,11),(2,14)}. Together with the earlier cell-11 packets, 30 labels in 9 active outside-role orbits remain.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_parallel_de_pairing11_14_common_f_resultant_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_template_adapter_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_template_adapter_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_frobenius_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_frobenius_roots_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_common_f_resultant_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_direct_audit_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_de_pairing11_direct_audit_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell4_de_pairing11_common_f_resultant_modal.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_quadratic_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "refutes": []
+}

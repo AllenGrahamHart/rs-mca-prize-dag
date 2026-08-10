@@ -4910,3 +4910,186 @@ compute:                   ap-nmQOvYZaed4IjqgLRQJaS0, ap-oazobs3PP680DoKqwwUjCi,
 live compute requests:     none
 next:                      attack xi3 pairings 3, 4, and 5
 ```
+
+### Role-orbit [5,8] xi3 pairings-3/4/5 payments
+
+Three small nodes now own one exact four-label orbit each. Pairing 3 closes
+all 8 source-sign/`sigma_c` rows with 32 target roots, 88 candidates, and
+80 guarded routes; its direct replay finds no compatible `q` lift. Pairing
+4 closes all 4 source-sign rows with 40 target roots, 80 candidates, and 144
+guarded routes; direct replay checks 352 nested intersections, retains 24
+`q` lifts, and proves all 96 final colored lanes nonzero. Pairing 5 closes
+all 8 source-sign/`sigma_c` rows with 48 target roots, 128 candidates, and
+208 guarded routes; direct replay checks 320 nested intersections and finds
+no compatible `q` lift.
+
+Independent SymPy/Galois-tools reconstruction covers the shared packet's 69
+profiles, 332 deployed roots, and degrees through 4560. The reconstruction
+packet was written before its Modal client was interrupted; the dedicated
+direct audit subsequently consumed that exact hash and passed. Universal
+transport pays
+`{(3,3),(3,6),(4,3),(4,6)}`,
+`{(3,4),(3,9),(4,4),(4,9)}`, and
+`{(3,5),(3,12),(4,5),(4,12)}`. Cell 5 has now paid 63 of 75 active
+labels in 21 of 24 orbits. The remaining 12 labels are the three `xi=3`
+orbits represented by pairings `7`, `8`, and `11`.
+
+```text
+starting pin:              91e580f19
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-3/6 reciprocal-square exclusion PROVED
+                           cell-5 xi3 pairing-4/9 nested sign-free exclusion PROVED
+                           cell-5 xi3 pairing-5/12 nested sign-free exclusion PROVED
+DAG status delta:          +3 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-H0IIW2thzDFwlMIUs1N0Ig,
+                           ap-XadN0KGQxn6OQnBbxLkk8c,
+                           ap-5fFJNffd0PbaElqqI84YVS,
+                           ap-YDq3UwLeD4BRPYUnsWYE5t,
+                           ap-yfMG7vQfVKsexBoGGb4Jxu
+live compute requests:     none
+next:                      attack xi3 pairings 7, 8, and 11
+```
+
+### Role-orbit [5,8] xi3 pairings-7/8/11 and active-label closure
+
+Three final small owner nodes close the remaining active representatives.
+Pairings 7 and 8 each close all 8 source-sign/`sigma_c` rows with 44 target
+roots, 100 candidates, and 96 guarded routes. Each retains 8 compatible
+`q` lifts and proves all 16 final colored lanes nonzero. Pairing 11 closes
+all 8 rows with 52 target roots, 108 candidates, 120 guarded routes, 24
+compatible lifts, and 48 nonzero final lanes. No packet has a witness,
+unresolved branch, or leading-boundary remainder.
+
+Independent reconstruction for each packet covers 45 profiles. Pairings 7
+and 8 each reconstruct 164 deployed roots with degrees through 3,656;
+pairing 11 reconstructs 172 roots with degrees through 3,432. Dedicated
+direct audits replay every route, candidate classification, lift, and final
+cut. Universal transport pays
+`{(3,7),(3,10),(4,7),(4,10)}`,
+`{(3,8),(3,13),(4,8),(4,13)}`, and
+`{(3,11),(3,14),(4,11),(4,14)}`.
+
+A separate aggregate verifier now compiles the universal quotient and checks
+that 16 proved owner packets pay exactly its 24 active orbits, with size
+profile `1^1 2^9 4^14`, and hence all 75 labels with `xi <= 4`. Hostile
+mutations dropping or duplicating a representative or demoting a dependency
+are rejected. This closes the active-label branch only. The 30 endpoint
+labels with `xi in {5,6}` remain the exact next obligation before complete
+cell-5 exclusion and duplicate-role transport to cell 8.
+
+```text
+starting pin:              6bc763766
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-7/10 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-8/13 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-11/14 quadratic-resultant exclusion PROVED
+                           cell-5 active-label complete exclusion PROVED
+DAG status delta:          +4 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-JVAkbmNq1b4mAOKtYIt1dw, ap-xlAamIanZVw5NgoF2jxw5W,
+                           ap-W2bJPFYLwSp5SKtLSvBOQd, ap-3ROjlQtUxKOPkuj5qd5Ayx,
+                           ap-a5Z8hUVMngFvtGJlwxC36x, ap-P5jk6t0UaLcWiJ9blRRD3n,
+                           ap-sQjOrD7mWOSAen2kmmEl99, ap-xqjrYDCvaZriiWWjg9sRQc,
+                           ap-2DaEfR6hQbRZIVTQsAd5lG
+live compute requests:     none
+next:                      adapt the endpoint-role campaign to cell 5, then aggregate
+                           complete cell 5 and transport the duplicate role to cell 8
+```
+
+### Role-orbit [5,8] endpoint rootlessness and complete closure
+
+The cell-12 endpoint architecture was specialized to cell 5's boundary-free
+row-6 tower. All eight source-sign/endpoint compatibility ideals are
+zero-dimensional with one univariate `r` eliminant. The four `b`-endpoint
+eliminants have degree 16 and the four `c`-endpoint eliminants degree 11.
+Finite-field factor replay finds no linear factor and therefore no deployed
+`r` root, tower lift, or generic endpoint candidate in any row. An
+independently parsed Galois-tools audit proves
+`gcd(E(r),r^p-r)=1` for all eight eliminants. The inherited 2,400-system
+residual census is consequently unnecessary: source compatibility already
+excludes all `2*15=30` endpoint labels.
+
+The endpoint theorem combines with the 75-label active aggregate to close
+cell 5 at 105/105. A fresh B/C transport then verifies the exact duplicate
+role map from cell 5 to cell 8: `r,t` stay fixed, the first source sign flips,
+`D,E,F` are gauged by `sigma_c`, and `BF` exchanges with `sigma_c CF`.
+Symbolic expansion checks all common rows, outside rows, guards, and 420
+target-lane label images; an independent role-cell/pairing reconstruction
+confirms `5 -> 8`. Together with the proved global rank-drop theorem this
+closes the complete `[5,8]` role orbit.
+
+```text
+starting pin:              d6fdd64c2
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 endpoint-role complete exclusion PROVED
+                           cell-5 complete exclusion PROVED
+                           cells-5/8 duplicate-role transport PROVED
+                           role orbit [5,8] complete exclusion PROVED
+DAG status delta:          +4 background PROVED; role orbit [5,8] closed
+upstream terminal delta:   PR #1152 may now receive the pinned [5,8] closure certificate
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-eKyJeKljojhF7wqgT2WNhY,
+                           ap-cDjdfxWRQcs5eL4RgeKbQ3,
+                           ap-j1NvsU2Pzw7d8R5CrHhwYC
+avoided compute:           inherited 2,400-system residual census was not launched
+live compute requests:     none
+next:                      commit, run the closure gate, and export the exact pinned
+                           certificate to upstream PR #1152
+```
+
+### Canonical round-27 harvest and `[5,8]` upstream export
+
+The exact `[5,8]` closure was exported to Przemek's living K3 PR #1152 as
+commit `5443db878c488ac9cfa204d1d79e211caf9e8608`. The certificate pins 23
+`PROVED` campaign nodes and verifier hashes at campaign commit
+`3fa2987430242cb631ab76be4ebbee549ce95fb8`, claims 210/210 raw labels across
+the role orbit, moves no ledger value, and leaves `[11]` as the sole open
+role orbit within the exported coordinate-positive `433-1b` workboard. The
+PR title and body were updated without changing the explicit non-claim that
+K3 and the KoalaBear row remain open.
+
+Fable's canonical round-27 analytic audit also corrects the central
+rate-half band pose. The former FLOOR-v2 statement treated the random-word
+first-moment crossing `sigma*=8,592,912,738` as a proved safe-side pincer.
+That is false: the `PROVED` simple-pole floor is still unsafe above this
+point, and the only proved half-distance safe point is at excess `2^39`.
+The honest razor-row bracket is therefore
+
+`sigma_RH(q) in [2^34, 2^39]`.
+
+The open positive content is to locate the worst-word sparse crossing
+`min{a : S_sparse(a) <= floor(q/2^128)}`; random-word/window-law counts have
+zero power over this max-over-words question. The existing counting-floor
+family is exactly capped at reach `2^34-1`. Its first improving rung is
+short by 11.8737 bits (factor about 3,750), and the seven-bit prefix-class
+normalizer is exactly equidistributed and unrecoverable. Consequently:
+
+- `mca_safe` may already receive the safe half from the proved
+  half-distance bracket; this is an explicit lead requiring a direct
+  consumer-edge audit;
+- `adjacency_closing` still needs the exact adjacent crossing and remains
+  the genuine MCA consumer;
+- no future evidence from `q<2^128` random-word experiments may be banked
+  against the razor-row worst-word crossing;
+- further progress must either improve the structural quotient floor beyond
+  `2^34-1` or control `S_sparse` directly.
+
+```text
+canonical prize pin:       b5e088791
+upstream PR:               https://github.com/przchojecki/rs-mca/pull/1152
+upstream export pin:       5443db878c488ac9cfa204d1d79e211caf9e8608
+campaign certificate pin:  3fa2987430242cb631ab76be4ebbee549ce95fb8
+critical correction:       FLOOR v2 refuted; RH-AC sparse crossing is the live pose
+proved bracket:             2^34 <= sigma_RH(q) <= 2^39
+next finite-track target:   close role orbit [11]
+next analytic audit:        test whether mca_safe's rate-half consumer bar is already met
+```

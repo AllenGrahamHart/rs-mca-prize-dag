@@ -1,0 +1,2079 @@
+{
+  "cut_zero_points": [],
+  "guarded_point_count": 0,
+  "q_count": 8,
+  "root_ledger": [
+    {
+      "degree": 92,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1221401889,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 104,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 100,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1438869381,
+        1547071499,
+        1860935541
+      ]
+    },
+    {
+      "degree": 112,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 92,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1221401889,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 104,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 100,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1438869381,
+        1547071499,
+        1860935541
+      ]
+    },
+    {
+      "degree": 112,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 92,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1221401889,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 104,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 100,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1438869381,
+        1547071499,
+        1860935541
+      ]
+    },
+    {
+      "degree": 112,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 92,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1221401889,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 104,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "BE",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 100,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "numerator",
+      "kind": "CUT_NORM_NUMERATOR",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1438869381,
+        1547071499,
+        1860935541
+      ]
+    },
+    {
+      "degree": 112,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "denominator",
+      "kind": "CUT_NORM_DENOMINATOR",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 3,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        0,
+        583634928,
+        1547071499
+      ]
+    },
+    {
+      "degree": 2,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "degree": 5,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        583634928,
+        1438869381,
+        1547071499
+      ]
+    },
+    {
+      "degree": 4,
+      "epsilon": [
+        1,
+        1
+      ],
+      "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+      "kind": "CONSTRUCTION_GUARD",
+      "missing_record": "CF",
+      "roots": [
+        1,
+        2130706432
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "denominator": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 4,
+      "q": 0,
+      "status": "PROJECTION_DENOMINATOR_BOUNDARY",
+      "y_rows": []
+    },
+    {
+      "denominator": 8,
+      "guarded_point_count": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 8,
+      "q": 1,
+      "status": "NO_GUARDED_COMMON_POINT",
+      "y_rows": [
+        {
+          "sign_rows": [],
+          "status": "MOBIUS_DENOMINATOR_BOUNDARY",
+          "y": 1
+        },
+        {
+          "b": 0,
+          "c": 0,
+          "sign_rows": [],
+          "status": "TARGET_GUARD_BOUNDARY",
+          "y": 2130706432
+        }
+      ],
+      "y_square": 1,
+      "y_values": [
+        1,
+        2130706432
+      ]
+    },
+    {
+      "denominator": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 1222999682,
+      "q": 583634928,
+      "status": "PROJECTION_DENOMINATOR_BOUNDARY",
+      "y_rows": []
+    },
+    {
+      "denominator": 1203012790,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        }
+      ],
+      "numerator": 838372746,
+      "q": 1221401889,
+      "status": "NO_BASE_FIELD_Y",
+      "y_rows": [],
+      "y_square": 808160066,
+      "y_values": []
+    },
+    {
+      "denominator": 675223826,
+      "guarded_point_count": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 0,
+      "q": 1438869381,
+      "status": "NO_GUARDED_COMMON_POINT",
+      "y_rows": [
+        {
+          "b": 2130706432,
+          "c": 2130706432,
+          "sign_rows": [],
+          "status": "TARGET_GUARD_BOUNDARY",
+          "y": 0
+        }
+      ],
+      "y_square": 0,
+      "y_values": [
+        0
+      ]
+    },
+    {
+      "denominator": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "546ee4876f1221b10c68c08cf4e3e77a1480cdb25703ef38eff962f4fb1ea8a7",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "d3c3007d63321be0925970c448b0a7c1d56b08b8d1276a86d6446946d3fe201d",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 907706623,
+      "q": 1547071499,
+      "status": "PROJECTION_DENOMINATOR_BOUNDARY",
+      "y_rows": []
+    },
+    {
+      "denominator": 2079584753,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "numerator",
+          "kind": "CUT_NORM_NUMERATOR",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 670267048,
+      "q": 1860935541,
+      "status": "NO_BASE_FIELD_Y",
+      "y_rows": [],
+      "y_square": 1903410861,
+      "y_values": []
+    },
+    {
+      "denominator": 4,
+      "guarded_point_count": 0,
+      "incidence": [
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            -1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            -1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "BE"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "denominator",
+          "kind": "CUT_NORM_DENOMINATOR",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "afe60e69b10d711248fe61f8da8a8a730b46dd4314491394079ebfd373bb468f",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        },
+        {
+          "epsilon": [
+            1,
+            1
+          ],
+          "identity": "e9276424c8521d65af28f3b18ab63fd13b10b947c1a3f663bbaa8d51c3dafc70",
+          "kind": "CONSTRUCTION_GUARD",
+          "missing_record": "CF"
+        }
+      ],
+      "numerator": 4,
+      "q": 2130706432,
+      "status": "NO_GUARDED_COMMON_POINT",
+      "y_rows": [
+        {
+          "sign_rows": [],
+          "status": "MOBIUS_DENOMINATOR_BOUNDARY",
+          "y": 1
+        },
+        {
+          "sign_rows": [],
+          "status": "MOBIUS_DENOMINATOR_BOUNDARY",
+          "y": 2130706432
+        }
+      ],
+      "y_square": 1,
+      "y_values": [
+        1,
+        2130706432
+      ]
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-cell3-bcminus-colored-finite-replay-v1",
+  "scope": "Exact deployed-field replay of every colored-cut norm zero, norm pole, and registered tower-construction boundary.",
+  "seconds": 0.029927332999999834,
+  "source_norms_sha256": "323507a457f1fa34a0e1f9ad77cdfae34ee8ff21c56551ebf32234ce7d64d687",
+  "status_counts": {
+    "NO_BASE_FIELD_Y": 2,
+    "NO_GUARDED_COMMON_POINT": 3,
+    "PROJECTION_DENOMINATOR_BOUNDARY": 3
+  }
+}

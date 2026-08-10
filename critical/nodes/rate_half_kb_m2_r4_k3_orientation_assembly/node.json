@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
+    "title": "KoalaBear m2 r4 K3 orientation and owner assembly",
+    "status": "TARGET",
+    "statement": "Every unpaid same-owner balanced-core bad-slope witness in the active KoalaBear m2 r4 first-match residual is routed exhaustively and without overlap into the source-line, coordinate, or source-cover orientation. The source-line image is exactly the declared c2(1,1,2) source-line workboard; the coordinate image is exactly the signed negative/positive coordinate workboards; every source-cover image is either proved empty, mapped bijectively to one of those two images, or paid by a printed exact distinct-affine-slope integer. The theorem outputs the disjoint source-cover sum U_sourcecover and preserves received-line owner, support reconstruction, affine slope, and chronology.",
+    "falsifier": "A balanced-core bad slope outside the three orientations, a source-cover survivor with no exact payment, overlap between owners, or loss of received-line/slope identity under routing.",
+    "refs": [
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/attack.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_orientation_assembly/dependency_subdag.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

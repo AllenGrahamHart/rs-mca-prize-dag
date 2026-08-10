@@ -22755,6 +22755,189 @@ compute:                   ap-nmQOvYZaed4IjqgLRQJaS0, ap-oazobs3PP680DoKqwwUjCi,
 live compute requests:     none
 next:                      attack xi3 pairings 3, 4, and 5
 ```
+
+### Role-orbit [5,8] xi3 pairings-3/4/5 payments
+
+Three small nodes now own one exact four-label orbit each. Pairing 3 closes
+all 8 source-sign/`sigma_c` rows with 32 target roots, 88 candidates, and
+80 guarded routes; its direct replay finds no compatible `q` lift. Pairing
+4 closes all 4 source-sign rows with 40 target roots, 80 candidates, and 144
+guarded routes; direct replay checks 352 nested intersections, retains 24
+`q` lifts, and proves all 96 final colored lanes nonzero. Pairing 5 closes
+all 8 source-sign/`sigma_c` rows with 48 target roots, 128 candidates, and
+208 guarded routes; direct replay checks 320 nested intersections and finds
+no compatible `q` lift.
+
+Independent SymPy/Galois-tools reconstruction covers the shared packet's 69
+profiles, 332 deployed roots, and degrees through 4560. The reconstruction
+packet was written before its Modal client was interrupted; the dedicated
+direct audit subsequently consumed that exact hash and passed. Universal
+transport pays
+`{(3,3),(3,6),(4,3),(4,6)}`,
+`{(3,4),(3,9),(4,4),(4,9)}`, and
+`{(3,5),(3,12),(4,5),(4,12)}`. Cell 5 has now paid 63 of 75 active
+labels in 21 of 24 orbits. The remaining 12 labels are the three `xi=3`
+orbits represented by pairings `7`, `8`, and `11`.
+
+```text
+starting pin:              91e580f19
+canonical prize pin:       ad68ac834
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-3/6 reciprocal-square exclusion PROVED
+                           cell-5 xi3 pairing-4/9 nested sign-free exclusion PROVED
+                           cell-5 xi3 pairing-5/12 nested sign-free exclusion PROVED
+DAG status delta:          +3 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-H0IIW2thzDFwlMIUs1N0Ig,
+                           ap-XadN0KGQxn6OQnBbxLkk8c,
+                           ap-5fFJNffd0PbaElqqI84YVS,
+                           ap-YDq3UwLeD4BRPYUnsWYE5t,
+                           ap-yfMG7vQfVKsexBoGGb4Jxu
+live compute requests:     none
+next:                      attack xi3 pairings 7, 8, and 11
+```
+
+### Role-orbit [5,8] xi3 pairings-7/8/11 and active-label closure
+
+Three final small owner nodes close the remaining active representatives.
+Pairings 7 and 8 each close all 8 source-sign/`sigma_c` rows with 44 target
+roots, 100 candidates, and 96 guarded routes. Each retains 8 compatible
+`q` lifts and proves all 16 final colored lanes nonzero. Pairing 11 closes
+all 8 rows with 52 target roots, 108 candidates, 120 guarded routes, 24
+compatible lifts, and 48 nonzero final lanes. No packet has a witness,
+unresolved branch, or leading-boundary remainder.
+
+Independent reconstruction for each packet covers 45 profiles. Pairings 7
+and 8 each reconstruct 164 deployed roots with degrees through 3,656;
+pairing 11 reconstructs 172 roots with degrees through 3,432. Dedicated
+direct audits replay every route, candidate classification, lift, and final
+cut. Universal transport pays
+`{(3,7),(3,10),(4,7),(4,10)}`,
+`{(3,8),(3,13),(4,8),(4,13)}`, and
+`{(3,11),(3,14),(4,11),(4,14)}`.
+
+A separate aggregate verifier now compiles the universal quotient and checks
+that 16 proved owner packets pay exactly its 24 active orbits, with size
+profile `1^1 2^9 4^14`, and hence all 75 labels with `xi <= 4`. Hostile
+mutations dropping or duplicating a representative or demoting a dependency
+are rejected. This closes the active-label branch only. The 30 endpoint
+labels with `xi in {5,6}` remain the exact next obligation before complete
+cell-5 exclusion and duplicate-role transport to cell 8.
+
+```text
+starting pin:              6bc763766
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 xi3 pairing-7/10 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-8/13 quadratic-resultant exclusion PROVED
+                           cell-5 xi3 pairing-11/14 quadratic-resultant exclusion PROVED
+                           cell-5 active-label complete exclusion PROVED
+DAG status delta:          +4 background PROVED; critical orbit unchanged
+upstream terminal delta:   none yet; role orbit [5,8] remains open
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-JVAkbmNq1b4mAOKtYIt1dw, ap-xlAamIanZVw5NgoF2jxw5W,
+                           ap-W2bJPFYLwSp5SKtLSvBOQd, ap-3ROjlQtUxKOPkuj5qd5Ayx,
+                           ap-a5Z8hUVMngFvtGJlwxC36x, ap-P5jk6t0UaLcWiJ9blRRD3n,
+                           ap-sQjOrD7mWOSAen2kmmEl99, ap-xqjrYDCvaZriiWWjg9sRQc,
+                           ap-2DaEfR6hQbRZIVTQsAd5lG
+live compute requests:     none
+next:                      adapt the endpoint-role campaign to cell 5, then aggregate
+                           complete cell 5 and transport the duplicate role to cell 8
+```
+
+### Role-orbit [5,8] endpoint rootlessness and complete closure
+
+The cell-12 endpoint architecture was specialized to cell 5's boundary-free
+row-6 tower. All eight source-sign/endpoint compatibility ideals are
+zero-dimensional with one univariate `r` eliminant. The four `b`-endpoint
+eliminants have degree 16 and the four `c`-endpoint eliminants degree 11.
+Finite-field factor replay finds no linear factor and therefore no deployed
+`r` root, tower lift, or generic endpoint candidate in any row. An
+independently parsed Galois-tools audit proves
+`gcd(E(r),r^p-r)=1` for all eight eliminants. The inherited 2,400-system
+residual census is consequently unnecessary: source compatibility already
+excludes all `2*15=30` endpoint labels.
+
+The endpoint theorem combines with the 75-label active aggregate to close
+cell 5 at 105/105. A fresh B/C transport then verifies the exact duplicate
+role map from cell 5 to cell 8: `r,t` stay fixed, the first source sign flips,
+`D,E,F` are gauged by `sigma_c`, and `BF` exchanges with `sigma_c CF`.
+Symbolic expansion checks all common rows, outside rows, guards, and 420
+target-lane label images; an independent role-cell/pairing reconstruction
+confirms `5 -> 8`. Together with the proved global rank-drop theorem this
+closes the complete `[5,8]` role orbit.
+
+```text
+starting pin:              d6fdd64c2
+canonical prize pin:       b5e088791
+lane:                      MCA / K3 / coordinate-positive 433-1b role orbit [5,8]
+results:                   cell-5 endpoint-role complete exclusion PROVED
+                           cell-5 complete exclusion PROVED
+                           cells-5/8 duplicate-role transport PROVED
+                           role orbit [5,8] complete exclusion PROVED
+DAG status delta:          +4 background PROVED; role orbit [5,8] closed
+upstream terminal delta:   PR #1152 may now receive the pinned [5,8] closure certificate
+delta-star movement:       none
+new assumptions:           none
+compute:                   ap-eKyJeKljojhF7wqgT2WNhY,
+                           ap-cDjdfxWRQcs5eL4RgeKbQ3,
+                           ap-j1NvsU2Pzw7d8R5CrHhwYC
+avoided compute:           inherited 2,400-system residual census was not launched
+live compute requests:     none
+next:                      commit, run the closure gate, and export the exact pinned
+                           certificate to upstream PR #1152
+```
+
+### Canonical round-27 harvest and `[5,8]` upstream export
+
+The exact `[5,8]` closure was exported to Przemek's living K3 PR #1152 as
+commit `5443db878c488ac9cfa204d1d79e211caf9e8608`. The certificate pins 23
+`PROVED` campaign nodes and verifier hashes at campaign commit
+`3fa2987430242cb631ab76be4ebbee549ce95fb8`, claims 210/210 raw labels across
+the role orbit, moves no ledger value, and leaves `[11]` as the sole open
+role orbit within the exported coordinate-positive `433-1b` workboard. The
+PR title and body were updated without changing the explicit non-claim that
+K3 and the KoalaBear row remain open.
+
+Fable's canonical round-27 analytic audit also corrects the central
+rate-half band pose. The former FLOOR-v2 statement treated the random-word
+first-moment crossing `sigma*=8,592,912,738` as a proved safe-side pincer.
+That is false: the `PROVED` simple-pole floor is still unsafe above this
+point, and the only proved half-distance safe point is at excess `2^39`.
+The honest razor-row bracket is therefore
+
+`sigma_RH(q) in [2^34, 2^39]`.
+
+The open positive content is to locate the worst-word sparse crossing
+`min{a : S_sparse(a) <= floor(q/2^128)}`; random-word/window-law counts have
+zero power over this max-over-words question. The existing counting-floor
+family is exactly capped at reach `2^34-1`. Its first improving rung is
+short by 11.8737 bits (factor about 3,750), and the seven-bit prefix-class
+normalizer is exactly equidistributed and unrecoverable. Consequently:
+
+- `mca_safe` may already receive the safe half from the proved
+  half-distance bracket; this is an explicit lead requiring a direct
+  consumer-edge audit;
+- `adjacency_closing` still needs the exact adjacent crossing and remains
+  the genuine MCA consumer;
+- no future evidence from `q<2^128` random-word experiments may be banked
+  against the razor-row worst-word crossing;
+- further progress must either improve the structural quotient floor beyond
+  `2^34-1` or control `S_sparse` directly.
+
+```text
+canonical prize pin:       b5e088791
+upstream PR:               https://github.com/przchojecki/rs-mca/pull/1152
+upstream export pin:       5443db878c488ac9cfa204d1d79e211caf9e8608
+campaign certificate pin:  3fa2987430242cb631ab76be4ebbee549ce95fb8
+critical correction:       FLOOR v2 refuted; RH-AC sparse crossing is the live pose
+proved bracket:             2^34 <= sigma_RH(q) <= 2^39
+next finite-track target:   close role orbit [11]
+next analytic audit:        test whether mca_safe's rate-half consumer bar is already met
+```
 ## r3.2 BOARD REVISION (2026-08-03, ratified task #37): SEVEN MYSTERIES -> FOUR
 
 [RESTORED after wave-45 roadmap adoption — coordinator port.]
@@ -23546,4 +23729,695 @@ Modal:                    primary <=9.57s; audit <=11.89s; peak <=405168 KiB
 aggregate promotions:     literal-assignment coverage PROVED
                            complete c2(1,1,2) source-line exclusion PROVED
 remaining c2 branches:    coordinate/source-cover and later assembly
+```
+
+### 2026-08-09 upstream and canonical reconciliation
+
+Canonical `prize@4cdc2471f` decomposes the old rate-half band parent into two
+explicit critical children. `rate_half_band_structural_surplus` is the K3
+workboard arm and still requires complete positive-433 coverage, an audited
+raw-label-to-distinct-slope conversion, and independent review.
+`rate_half_band_crossing_location` is the separate razor-row `(RH-AC)` arm;
+its binding object is `S_sparse`, with the proved bracket
+`[k+2^34,3n/4]`. Raw K3 cells do not prove that crossing.
+
+Upstream `main` remains `93fba1be3`. PR #1152 is the living K3 export and PR
+#1153 independently replays the six residual cell-5 `xi=3` representatives.
+The latter supplies useful independent evidence but explicitly does not audit
+endpoint rootlessness or the cell-5-to-cell-8 transport. Its only RED finding
+against #1152 was custody: pinned source commit `3fa298743` was not publicly
+reachable. The exact campaign branch has now been pushed to
+`AllenGrahamHart/rs-mca-prize-dag` as
+`codex/full-prize-resolution-v12-20260807`; GitHub resolves the pinned commit.
+No theorem or ledger value changed in that repair.
+
+### Cell-11 common geometry, endpoints, and first active orbits
+
+The final positive `433-1b` common-role representative is cell `11`, with
+singleton `BC+` and source pairs `(LA,BC-)`, `(AB,AC)`. Four exact packets are
+now PROVED over `F_2130706433`:
+
+- the complete four-basis common locus in all 24 chart/sign rows, with a
+  genus-three base curve and eight individually nonsplit boundary fibers;
+- one sign-independent eight-coordinate common kernel, with 40/40 exact row
+  reductions;
+- all 30 endpoint labels, using eight degree-32 eliminants, 16 guarded lifts,
+  and zero compatible lifts;
+- the nine first-pair parallel-`DE` labels, using 80 case-labelled norm roots
+  and an independent Frobenius-gcd root-union audit.
+
+The next nested-quadratic packet closes the representatives `(0,3)` and
+`(2,3)`. All 32 sign/lane/role rows complete with 192 target roots, 336
+candidate roots, 224 guarded source points, 128 compatible `(u,v)` lifts,
+and 256 final nonzero colored cuts. Independent app
+`ap-frKYHquD9otZjb2wGNRbqV` reconstructs all 49 profiles, 194 base-field
+roots, and degrees through 4960. Universal label transport pays six labels
+at pairings `3/6`.
+
+The pairing-4 packet then closes representatives `(0,4)` and `(2,4)`. Its
+32 rows have 192 target roots, 336 candidate roots, 224 guarded source
+points, and 256 final `(u,f)` rows. The missing relation excludes 224 rows;
+the other 32 reconstruct and have nonzero colored-pair cut. Independent app
+`ap-MXqCb9CahGt3YsLS2gltzf` reconstructs all 41 profiles, 146 base-field
+roots, and degrees through 11240. Universal label transport pays eight more
+labels at pairings `4/7/9/10`.
+
+The pairing-5 sibling also closes all 32 rows. It has the same exact
+192/336/224 source census and 256 final `(u,f)` rows, but its audit swaps the
+second and final target factors as required by matching
+`((0,2),(1,5),(3,4))`. Independent app `ap-u2uuv4l53a60zXAa2TCy35`
+reconstructs 41 profiles, 146 roots, and degrees through 11240. Direct replay
+finds 224 nonzero missing relations and 32 nonzero colored cuts. Transport
+pays eight labels at pairings `5/8/12/13`.
+
+The positive pairing-9 packet pays the still-open half of the next orbit.
+All 16 rows complete with 128 target roots, 200 candidate roots, 160 guarded
+source points, and 256 `(u,f)` rows. Direct replay excludes 224 by the
+missing relation and 32 by a nonzero colored cut. Independent app
+`ap-Bg9tWdJEGuzLc3RgxJJQs9` reconstructs 33 profiles, 114 roots, and degrees
+through 11056. Transport pays `(0,9),(0,10),(1,9),(1,10)`; the reciprocal
+`xi=2` labels were already paid by the pairing-4 packet.
+
+The positive pairing-12 sibling repeats the 16-row `128/200/160` census.
+Its 256 direct rows again split into 224 nonzero missing relations and 32
+nonzero colored cuts. The audit additionally checks all 16 `b`-leading and
+16 `c`-leading boundary payments against the exact cell-11 tower.
+Independent app `ap-MmbvKEIYfBChxPyF6AEeZb` reconstructs 33 profiles, 114
+roots, and degrees through 11056. Transport pays the four labels at pairings
+`12/13` for `xi in {0,1}`.
+
+Positive pairing 14 uses the smaller common-`f` resultant. All 16 rows close
+with 136 target roots, 208 candidates, and 208 guarded source points. The 144
+checked points have no compatible common-`f` lift; 32 leading payments are
+validated separately. Independent apps `ap-awforC5jf7bqWTpJBBjKYj` and
+`ap-Q6cnEnq3P3Th3x066OGBvc` certify 37 profiles, 150 roots through degree
+1396, and the complete direct replay. Duplicate transport pays `(0,14)` and
+`(1,14)`. The final direct-role pairing-11 packet closes those remaining
+representatives `(0,11)` and `(2,11)`. Its 32 rows contain 216 target roots,
+360 candidates, and 272 guarded source points. The direct replay separates
+64 missing-impossible cases, 64 product boundaries, 64 leading-boundary
+payments, and 144 checked interior cases with no common-`f` lift. External
+apps `ap-K7CqAwIbCnq0ChQgRzWLTN` and `ap-sJivx4sRP3aAe5nk9zNWN4` certify 53
+profiles, 222 roots through degree 1420, and the complete independent replay.
+Transport pays `{(0,11),(1,11),(2,11),(2,14)}`. Every direct-role label is
+therefore closed.
+
+Outside pairing 0 is the first transported-role packet. The reciprocal-square
+compiler closes all 24 sign/branch rows with 136 target roots, 300 candidates,
+320 guarded routes, 192 recovered `(y,d)` candidates, and 384 nonzero final
+lanes. Independent apps `ap-wrPlrdL56UVupbu5JZCyTv` and
+`ap-l5CyllQGIPwwET0B1BfqS1` reconstruct 89 profiles, 402 roots through degree
+756, and the full direct replay, including 48 exact leading-boundary payments.
+Outside-role transport pays `{(3,0),(4,0)}`.
+
+The shared reciprocal-linear packet closes outside pairings 1 and 2 in 36
+rows. Pairing 1 has 72 target roots, 162 candidates, 176 routes, 16 lifts,
+and 64 nonzero final lanes; pairing 2 has 144 target roots, 324 candidates,
+352 routes, 32 lifts, and 64 nonzero final lanes. Independent apps
+`ap-iZ4eiGhr8umjRNEEyLt4Sh` and `ap-VnmB02JnfxS2C1q6Dljay3` certify 125
+profiles, 610 roots through degree 712, both per-pairing ledgers, and all 72
+leading-boundary payments. Transport pays the four labels in the pairing-1
+and pairing-2 outside-role orbits.
+
+The next shared outside-role packet closes pairings 3, 4, and 5. Pairing 3
+has 8 rows, 48 target roots, 84 candidates, and 32 routes; every finite
+candidate terminates before the `z` stage. Pairing 4 has 4 rows, 28 target
+roots, 70 candidates, and 120 routes; its 224 nested intersections retain 8
+`q` lifts whose 32 colored lanes are all nonzero. Pairing 5 has 8 rows, 56
+target roots, 140 candidates, and 240 routes; its 448 intersections retain
+16 `q` lifts whose 32 colored lanes are all nonzero. The aggregate terminal
+ledger also audits 40 missing-impossible exits, 40 product boundaries, 100
+`r`-boundaries, 40 `t`-boundaries, 40 cell-11 leading boundaries, and 122
+no-`b` exits. Independent apps `ap-o7XtMQ7CuyhB7S6MVpI3GJ` and
+`ap-6qp5CJr9byI7fhgDqKLFVc` reconstruct 73 profiles, 370 roots through
+degree 6510, and the complete direct replay. Outside-role transport pays the
+twelve labels in the pairing-3/6, pairing-4/9, and pairing-5/12 orbits.
+
+The final quadratic-resultant packet closes outside pairings 7, 8, and 11.
+Pairings 7 and 8 each have 8 rows, 88 target roots, 124 candidates, 144
+routes, 64 compatible `q` lifts, and 128 nonzero final lanes. Pairing 11 has
+8 rows, 64 target roots, 100 candidates, 80 routes, 16 lifts, and 32 nonzero
+lanes. Each pairing also pays 16 exact cell-11 leading boundaries. Full apps
+`ap-ahB3FdCNoaiERxtJIcNC5S`, `ap-jjRHWhngbrhZi3Hi5SG0vT`, and
+`ap-3EuijW7G1y3wnyCiCidzdy` close all 24 rows. Independent app
+`ap-B1J6bxiNSGjnN5683JO3oD` reconstructs the shared 61-profile, 302-root
+packet through degree 5192; three local direct audits replay all original
+paired-scalar equations and leading-boundary payments.
+
+Transport pays the last twelve active labels. A separate aggregate verifier
+then checks that 16 proved owner packets pay exactly one representative of
+all 24 active quotient orbits, hence all 75 active labels. Composing that
+theorem with the earlier 30-label endpoint theorem gives a disjoint
+`75+30=105` cover. Positive `433-1b` source-role cell 11 is therefore PROVED
+complete at 105/105 raw labels. This is a source-cell theorem only; the K3
+raw-label-to-distinct-affine-slope conversion remains open.
+
+```text
+lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
+cell-11 raw labels:       105/105 closed
+active quotient frontier: 0 outside-role representatives / 0 labels
+DAG status delta:         +21 background PROVED; critical child unchanged
+upstream terminal delta:  complete source-cell packet; no slope conversion
+Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
+                          ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
+                          ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
+                          ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
+                          ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
+                          ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
+next:                     complete workboard aggregate and labels-to-slopes audit
+```
+### 2026-08-10 positive `433-1b/O0a` aggregate and K3 critical split
+
+An audit of the nominally complete raw workboard found one missing ownership
+edge: cell 9 had a complete proof, but cell 10 had no explicit principal-system
+transport. The exact `B<->C` duplicate-role map now closes that gap. It fixes
+the singleton `BC+`, flips the second source sign, gauges the outside records,
+and bijects all 105 labels and 1,680 signed principal systems in cells 9 and
+10. Primary and hostile verifiers pass.
+
+The nine disjoint proved owner packets now cover
+
+```text
+[0] | [1,2] | [3,6] | [4,7] | [5,8] | [9,10] | [11] | [12,13] | [14]
+```
+
+and therefore prove the complete `433-1b -> O0a` raw workboard empty at
+15 role cells, 1,575 labels, and 25,200 signed principal systems, with the
+global rank-drop branch excluded separately. This is a raw-system theorem;
+it is not a distinct-affine-slope payment.
+
+The broader K3 audit recovered the exact positive residual workboard from the
+upstream v4 route compiler. It has 13 routes. Only `433-1a -> O0b` and
+`433-1b -> O0a` are closed, so eleven positive routes remain. The source-line
+theorem also leaves source-cover/coordinate orientation assembly open. The
+old generic labels-to-slopes placeholder has therefore been replaced by this
+critical sub-DAG:
+
+```text
+eleven-route payment ----> positive-coordinate composition --+
+orientation assembly -----------------------------------------+--> K3 ledger
+exact active-allocation inequality ---------------------------+
+independent review ------------------------------------------------> structural arm
+```
+
+The red leaves are now the eleven-route payment, orientation assembly, exact
+allocation inequality, and independent review. The positive composition,
+K3 ledger, and structural arm are amber implications. Proved source-line,
+negative-coordinate, and raw-workboard packets enter as evidence rather than
+re-expanding their implementation trees on the critical surface.
+
+Upstream PRs `#1154` and `#1155` were checked. They provide a yellow compact
+tower for cell 11 and a guarded survivor that refutes transplantation of one
+`433-1a` factorization. They do not conflict with the stronger independent
+105-label cell-11 closure; their route-cut warning is useful provenance, but
+does not change the closed raw-board verdict. The next mathematical attack is
+the remaining `433-1b -> O0b` route, chosen because it is the closest sibling
+of the newly closed `O0a` route and may admit an owner-preserving transport or
+a sharply isolated obstruction.
+
+```text
+new proved result:         raw 433-1b/O0a workboard complete
+exact census:              15 cells / 1575 labels / 25200 systems
+critical orbit:            167 PROVED / 40 CONDITIONAL / 32 TARGET
+ledger movement:           none
+next:                      attack 433-1b -> O0b, then remaining ten routes
+```
+
+### 2026-08-10 `433-1b/O0b` common-stage reduction
+
+The next route now has an exact target-sign and common-algebra front end.
+Its collision-defect cap permits exactly four strata: all three doubled
+pairs split, or exactly one of `BC,DE,DF` repeated. The 224 active-sign
+assignments quotient to ten target-gauge lanes with stratum counts
+`2,4,2,2`. Six lanes have split `BC`; four have repeated `BC`.
+
+The split lanes transport to the existing 60-row common Vieta compiler. A
+new repeated-BC compiler completed all `15*4*2=120` algebra rows in both raw
+and guard-stripped modes. The complete common atlas therefore has 600 formal
+lane/source systems represented by 180 distinct algebra rows.
+
+An exact deployed-field guarded saturation of all 72 duplicate-role
+representatives then classified the repeated branch:
+
+```text
+repeated algebra rows:      120 = 80 unit + 40 surviving
+formal repeated systems:    240 = 160 deleted + 80 surviving
+survivor owner blocks:      opposite signs in [1,2]
+                            all signs in [3], [6], [11,14]
+survivor dimensions:        2 on [1,2], 1 on the other blocks
+```
+
+This is genuine route progress but not route closure. The forty surviving
+common rows still need compact coefficient kernels and outside-row cuts; the
+split lanes and base-rank exceptions must remain separately accounted for.
+No critical status moves yet.
+
+The Fable checkout remains at the pre-split 233-node critical orbit
+(`167/37/29`), while this checkout has the explicit K3 decomposition at
+239 nodes (`167/40/32`). There are no contrary Fable-only critical nodes.
+The upstream open-PR head is unchanged at `#1155`; `#1152` remains the living
+export for the source-line and raw `433-1b/O0a` workboards.
+
+### 2026-08-10 repeated-BC compact and torus refinement
+
+The surviving repeated-BC common branch has been split into four replayable
+proved nodes rather than accumulated in the aggregate workboard.
+
+First, a guard-only maximal-minor atlas proves product rank exactly five in
+cells 3 and 6 for both BC signs. All 30 cell/sign rank probes complete; cells
+3 and 6 are precisely the rank-five rows witnessed by minor columns `[1,4]`.
+The resulting cofactor kernel extends through the loop and pivot rows to an
+exact eight-entry projective coefficient kernel. Across the sixteen
+cell/root-sign/BC-sign cases, seven common rows vanish identically, the final
+three generate the complete guarded ideal, and all ten rows reduce to zero.
+Every such common ideal has dimension one.
+
+Second, the exact `B<->C`, `E<->F` map transports the full cell-3 workload to
+cell 6. It preserves BC and outside-cycle signs, permutes all seven outside
+records, and bijects all 105 outside labels and all 1,680 formal systems in
+each cell. Thus subsequent outside work need only be done in cell 3.
+
+Third, the cell-3 `BC+` common ideals now have a one-equation torus form. Over
+the deployed audit field, for each root-sign pair `epsilon`, exact guarded
+reduction gives
+
+```text
+t = epsilon_1 epsilon_2 r^2,
+c = u,
+b = -u^-3,
+H_epsilon = u r^2
+            - epsilon_1(iota+epsilon_2)(u^2+1)r
+            + epsilon_2 iota u = 0.
+```
+
+The exact gcd of the three substituted compact equations is
+`r^2(u^2-1)^2 H_epsilon`. The first two factors are guards, and the residual
+primitive ideal is unit after full guard saturation in all four sign rows.
+This replaces a large standard-basis object by one explicit curve.
+
+These are common-stage theorems, not an outside payment. The immediate next
+task is to quotient the 840 formal cell-3 `BC+` outside systems by record
+symmetries, compile their necessary resultant equations modulo
+`H_epsilon`, and certify emptiness or isolate genuine survivors. The `BC-`
+curves, owner blocks `[1,2]` and `[11,14]`, six split-BC lanes, and base-rank
+exceptions remain separate children of the open route.
+
+### 2026-08-10 repeated-BC outside quotient and colored missing cuts
+
+The cell-3 outside workload now has an exact target-sign quotient. The
+involution `d -> -d` fixes `BE`, `CF`, and `EF`, and swaps the `DE+/-` and
+`DF+/-` records. Symbolic replay proves that it carries both product and
+squared-sum rows by the same record permutation. Its action on the 105
+missing-record/matching labels has exactly 57 orbits: 9 singleton and 48
+doubleton. This is an exact workload quotient, not an assumption about
+genericity.
+
+For the `BC+` torus branch, imposing only the colored missing-edge equations
+already gives a finite necessary cut in all eight root-sign/missing-record
+cases. Exhaustive deployed-field root lifting gives
+
+```text
+missing BE: 4 sign rows, 48 raw lifts, 48 guard boundaries, 0 live points
+missing CF: 4 sign rows, 64 raw lifts, 48 guard boundaries, 16 live points
+```
+
+Consequently all `4*2*15=120` cell-3 systems with missing record `BE` are
+empty before any residual matching equations are charged. Full-system
+transport excludes the corresponding 120 cell-6 systems with missing record
+`CF`. The sixteen live `CF` points are only necessary points, not witnesses.
+They leave a finite next task: evaluate the three residual paired-product
+equations for two outside signs and fifteen matchings, at most 480 exact
+matching evaluations in cell 3; cell 6 follows by transport.
+
+A direct six-variable saturation was tested as an alternative endpoint. The
+large-prime finite-field backend rejected that representation in the local
+Singular build, while the exact `(integer,p)` ring exceeded a 240-second
+standard-basis limit. The staged torus-to-resultant-to-root route completed
+quickly and is now the preferred auditable endpoint. This timeout is a route
+selection fence, not mathematical evidence.
+
+```text
+new proved results:         105 -> 57 outside-label quotient
+                            colored missing-edge finite atlas
+new formal exclusions:      120 cell-3 BE + 120 cell-6 CF
+finite live frontier:       16 cell-3 CF necessary points
+critical status movement:   none
+next:                       replay 480 residual matching evaluations
+```
+
+### 2026-08-10 repeated-BC colored-record closure
+
+The sixteen live missing-`CF` points have now been paid exactly. For each
+point, both outside-cycle signs, and all fifteen matchings of the six residual
+records, the three paired-product equations form a bivariate system in the
+remaining target coordinates `(d,e)`. All 480 systems are empty over the
+deployed field.
+
+The certificate selects a nonzero resultant of degree 8, 12, or 16 in every
+system. Exact finite-field root extraction gives 432 projected roots in total;
+specializing all three equations at every root gives gcd one. A separate
+pure-Python verifier reconstructs the kernels and record equations, checks
+each resultant up to nonzero scalar by 33-point interpolation, proves the
+root lists complete through `gcd(R,x^p-x)`, and replays all 432 unit fibers.
+
+Thus all 120 formal cell-3 `BC+` systems with missing `CF` are empty, and
+full-system transport closes the corresponding 120 cell-6 systems with
+missing `BE`. Together with the preceding colored-missing theorem, both
+colored records are closed in both cells. The `d -> -d` quotient identifies
+the signs within each `DE` and `DF` pair, so the remaining cell-3 `BC+`
+outside frontier has three missing-record representatives:
+
+```text
+DE+  (also DE-),
+DF+  (also DF-),
+EF.
+```
+
+These represent 600 unclosed formal systems but only 360 representative
+systems before further matching symmetries. The next attack should derive a
+missing-edge necessary cut for `DE+`, `DF+`, and `EF`, then apply the same
+torus/resultant/root/fiber pipeline rather than a direct six-variable basis.
+
+```text
+new proved result:          missing-CF residual pairing exclusion
+new formal exclusions:      120 cell-3 CF + 120 cell-6 BE
+colored-record status:      complete in cells 3 and 6 for BC+
+remaining representatives: DE+, DF+, EF
+critical status movement:   none
+next:                       finite missing-edge cuts for DE+, DF+, EF
+```
+
+### 2026-08-10 repeated-BC cells 3/6 `BC+` complete outside closure
+
+The uncolored frontier is now fully paid. A generic function-field atlas over
+the exact cell-3 torus and missing-endpoint quartic has full flattened
+Sylvester rank in all 360 representative systems: rank 16 in 248 cases and
+rank 24 in 112. The five construction/determinant guards per case deduplicate
+to 54 exact polynomials.
+
+Exact `gcd(g,u^p-u)` gives the complete deployed-field exceptional base atlas:
+67 distinct `u` values and 78 guard/root incidences. Direct replay then pays
+every torus lift of every relevant guard root, split into three record-owned
+certificate shards:
+
+```text
+record     cases   torus fibers   endpoint rows   survivors/unresolved
+DE+          120          2488            1792          0 / 0
+DF+          120          2248             832          0 / 0
+EF           120          2264             896          0 / 0
+total        360          7000            3520          0 / 0
+```
+
+The pure-Python verifier independently reconstructs every degree-two torus
+root set, original common guard, cofactor kernel, missing-product quartic,
+complete degree-four endpoint root set, and residual unit gcd. The 81,000-line
+raw ledger is not a node: it is decomposed into `DE`, `DF`, and `EF` leaves
+plus a compact master index.
+
+The target-sign quotient closes the opposite `DE` and `DF` records. Combining
+these leaves with the colored packets gives the exhaustive cell-3 census
+
+```text
+BE 120 + CF 120 + DE+/- 240 + DF+/- 240 + EF 120 = 840 empty.
+```
+
+Full-system transport closes all 840 cell-6 systems. Thus repeated-BC owner
+block `[3,6]` is complete for `BC+`. This does not move the remaining-route
+TARGET: its `BC-` branch, the `[1,2]` and `[11,14]` repeated owner blocks, six
+split-BC lanes, and base-rank exceptions remain separate obligations.
+
+```text
+new proved leaves:          generic rank / guard roots / DE / DF / EF
+new proved aggregate:       cells 3/6 BC+ complete outside exclusion
+new formal exclusions:      840 cell 3 + 840 cell 6
+critical status movement:   none
+next local sibling:         derive and attack the cells-3/6 BC- torus
+parallel route frontier:    owner [1,2], owner [11,14], split lanes, rank exceptions
+```
+
+### 2026-08-10 repeated-BC cell-3 `BC-` genus-two and generic atlas
+
+The opaque 23-element common standard bases in the `BC-` sibling now have an
+exact two-equation model. In all four root-sign rows, after
+`t=epsilon_1 epsilon_2 r^2`, the guarded compact ideal equals a
+sign-independent curve `F(b,c)=0` plus one sign-dependent quadratic in `r`.
+The Mobius coordinates
+
+```text
+y=(c+1)/(c-1),
+q=((b+1)/(b-1))/y
+```
+
+put the projected curve in the form `y^2=N(q)/D(q)`, where
+`N=q^3+2q^2+q+4` and `D=q^3+6q^2+q`. The degree-six hyperelliptic polynomial
+`ND` is squarefree, so the projected curve has genus two. Bidirectional
+guard-saturated ideal reductions certify this model in all four sign rows.
+
+The uncolored outside classifier has also been lifted to the resulting
+degree-four function-field tower. Minimum-degree pair selection keeps every
+Sylvester multiplication matrix at size 16, and all 360 systems with missing
+`DE+`, `DF+`, or `EF` have exact rank 16. Their construction and determinant
+norms deduplicate to 47 guards. Exact deployed-field root extraction and
+common-tower lifting give:
+
+```text
+guard polynomials:          47
+root incidences / union:    73 / 48
+no base-field y:            19 q-values
+projection boundary:         3 q-values
+no guarded common point:     3 q-values
+live lifted base values:     23 q-values
+live guarded common points: 368 across all four sign rows
+```
+
+The next local task is direct outside replay at those 368 points, sharded by
+missing record. Colored missing `BE` and `CF` remain separate, as does exact
+transport from cell 3 to cell 6 for the completed `BC-` workload.
+
+```text
+new proved leaves:          BC- genus-two tower / generic rank / guard lifts
+generic systems paid:       360 / 360
+finite uncolored frontier:  368 guarded common points before case incidence
+critical status movement:   none
+next:                       DE+ / DF+ / EF exceptional replay
+```
+## Work cycle 17: positive 433-1b repeated-BC cells 3/6 closure
+
+### Scope and taxonomy
+
+This cycle concerns the coordinate-positive `433-1b -> O0b` route node, not
+the separately exported K3 role-cell campaign.  Its unit is the guarded
+repeated-`BC` outside-system census in owner cells 3 and 6.  The existing
+`BC+` aggregate had already excluded all 840 systems in each cell.  This
+cycle closes the matching `BC-` block.
+
+The closure is deliberately split into reviewable DAG leaves:
+
+```text
+BC- genus-two common tower [PROVED]
+  + generic uncolored rank atlas [PROVED]
+  + exhaustive uncolored guard fibers [PROVED]
+      -> DE residual exclusion [PROVED]  240 labels
+      -> DF residual exclusion [PROVED]  240 labels
+      -> EF residual exclusion [PROVED]  120 labels
+      -> uncolored aggregate [PROVED]     600 labels
+
+BC- genus-two common tower [PROVED]
+  -> colored norm atlas [PROVED]
+  -> colored finite exclusion [PROVED]   240 labels
+
+colored 240 + uncolored 600 + exact cell-3/6 transport
+  -> cells-3/6 BC- complete outside exclusion [PROVED]
+```
+
+### Uncolored finite payment
+
+All 360 representative residual-pairing systems have generic rank 16.  The
+47 one-variable rank/construction guards have 73 root incidences and 48
+distinct deployed-field roots.  Exact tower lifting and endpoint replay pay
+all exceptional fibers:
+
+```text
+packet  representative cases  exceptional fibers  unit endpoint rows  labels
+DE+     120                   640                 512                 240
+DF+     120                   864                 1408                240
+EF      120                   832                 1152                120
+total   360                   2336                3072                600
+```
+
+No survivor or unresolved row remains.  The exact `d -> -d` quotient pays
+the opposite `DE` and `DF` signs.
+
+### Colored finite payment
+
+For missing `BE` and `CF`, eliminate the unknown endpoint without dividing
+by the missing `A` value.  The resulting necessary cut is
+
+```text
+r^4 k^2 betam^2 + (k^2 am + bm)^2 = 0,
+```
+
+where `k=b` or `c`.  Successive norms through the certified genus-two
+quadratic tower produce eight exact rational functions in `q`.  The `BE`
+numerators have degree 92 and the `CF` numerators degree 100; their
+denominators have degrees 104 and 112.  Four construction guards record
+every inversion.
+
+The complete union of numerator roots, denominator roots, and construction
+guard roots has 136 incidences but only eight `q` values.  Exact finite
+replay classifies them as
+
+```text
+projection-denominator boundary: 3
+no base-field y:                 2
+only Mobius/target-guard lifts:  3
+guarded common points:           0
+```
+
+Hence all 120 missing-`BE` and all 120 missing-`CF` systems are empty before
+any residual matching solver is needed.
+
+### Audit and compute custody
+
+- Uncolored replay: 360/360 rows, 2,336 fibers, 3,072 endpoint rows; three
+  result shards remain below the 50,000-line artifact ceiling.
+- Colored norm run: `ap-TTQ0R12MXpviluGNnM1EbZ`.
+- Colored finite replay: `ap-y6eox0bJ27lgXvolqxNXnU`.
+- The colored primary verifier independently recomputes every deployed-field
+  root set via pure-Python `gcd(P,q^p-q)`, rebuilds all incidences, and
+  replays every `y,b,c` boundary.
+- Seven new PROVED nodes have primary and hostile verifiers.  The compiled
+  DAG and sectioned-document gates pass, and the verifier manifest is
+  refreshed.
+
+### Board effect and next move
+
+Both `BC` signs are now closed for the repeated-`BC` cells-3/6 owner block:
+
+```text
+BC+ cell 3: 840 empty     BC+ cell 6: 840 empty
+BC- cell 3: 840 empty     BC- cell 6: 840 empty
+```
+
+This is strict evidence for
+`rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment`; it does
+not promote that critical node because other owner blocks and split-`BC`
+lanes in `433-1b -> O0b`, plus the other ten positive routes, remain unpaid.
+The next attack should first compile the exact residual partition of the
+`433-1b -> O0b` route after subtracting all now-closed owner blocks.  Only
+then should another elimination campaign be selected, preferring an exact
+transport or quotient over a fresh per-system census.
+
+```text
+lane:                    MCA / coordinate-positive 433-1b -> O0b
+result:                  repeated-BC cells 3/6 closed for BC+ and BC-
+DAG status delta:        +7 background PROVED; critical orbit unchanged
+delta-star movement:     none
+new assumptions:         none
+live compute requests:   none
+next:                    compile the post-closure 433-1b/O0b residual owner census
+```
+
+### Split-BC product-rank-drop closure
+
+The six `O0b` split lanes share the certified split-common rank-drop locus
+from the closed `O0a` campaign: exactly sixteen guarded deployed points,
+all in common role cells 9 and 10.  The outside graph is not transported;
+it is rebuilt for the six `O0b` lanes
+
+```text
+S0  x sigma_o in {-1,+1},
+SDE x sigma_o in {-1,+1},
+SDF x sigma_o in {-1,+1}.
+```
+
+At each point and lane, all seven missing-record choices and fifteen
+residual matchings were tested by the exact five-equation necessary ideal,
+localized by the complete target guard.  Singular returns the unit ideal in
+all
+
+```text
+16 * 6 * 7 * 15 = 10,080
+```
+
+cases.  There are no survivors, timeouts, errors, or rational fallbacks.
+The 92,558-line raw result was deterministically split into `S0`, `SDE`, and
+`SDF` shards of 30,857 lines each plus a 1,474-line master.
+
+```text
+pilot run:                ap-jGUvfdwogz0PvfIgfP6I80
+full run:                 ap-aCk9dJ6WSV6CIV8Mb9QXq5
+sharding replay:          ap-akQVtCCYX7cIBMhjAw2tB3
+result:                   split-BC product-rank-drop branch PROVED empty
+```
+
+### Exact post-closure owner partition
+
+The resulting residual owner node composes the ten-lane atlas, repeated
+common saturation, cells-3/6 closure, split rank-drop closure, and the exact
+105-label outside ledger.  The residual is now exactly:
+
+```text
+owner block                    common rows   raw outside labels
+split BC, product rank five    360           37,800
+repeated BC, cells 1/2          16            1,680
+repeated BC, cells 11/14        32            3,360
+total                          408           42,840
+```
+
+The blocks are disjoint and exhaustive, but none is declared empty by the
+partition theorem.  Repeated cells 11/14 are the preferred next attack:
+their common loci are dimension one, whereas cells 1/2 are dimension two;
+the split-principal block is much larger and should first receive a
+transport/quotient audit against the closed `O0a` owner machinery.
+
+```text
+lane:                    MCA / coordinate-positive 433-1b -> O0b
+additional DAG delta:    +2 background PROVED; critical orbit unchanged
+closed geometric branch: split-BC product rank at most four
+exact remaining blocks:  3
+exact remaining labels:  42,840
+next:                    attack repeated-BC cells 11/14 dimension-one loci
+```
+
+### Cell-11 principal-curve and rank partition
+
+The preferred residual block now has an exact geometric front end.  For role
+cell 11, all eight `(epsilon_1,epsilon_2,BC sign)` localized common ideals
+have dimension one.  Their projection to `(b,c)` is independent of the
+epsilon signs and has one generator per BC sign:
+
+```text
+BC-: total degree 8, full reduced basis size 21
+BC+: total degree 6, full reduced basis size 17
+```
+
+In symmetric coordinates `x=bc`, `y=b+c`, the BC+ equation is
+`y^2(x-1)^2-2x(x+1)^2=0`; the exact BC- symmetric equation is printed in the
+curve certificate.  Every source curve also satisfies the exact relation
+
+```text
+t = (epsilon_1 epsilon_2) r^2.
+```
+
+A selected degree-seven product cofactor is nonzero on each common curve.
+Its zero fiber is finite of scheme degree four in every BC- row and six in
+every BC+ row.  Thus the generic outside problem can be handled on a genuine
+cofactor-open, with only a total formal boundary degree of
+`4*4 + 4*6 = 40` across cell 11's eight sign rows.
+
+The monolithic all-variable outside ideal is not a viable bulk route: one
+pilot label for each BC sign hit a 300-second Modal cap.  The next attack
+must instead build a function-field resultant/rank atlas on the selected-
+cofactor open and replay only the finite degree-4/6 boundary.  After cell 11
+is paid, certify the duplicate-BC role transport to cell 14 rather than
+repeating all 1,680 labels.
+
+```text
+projection runs:          ap-8KLIgqAQgBeBXIq1Z0XoaX, ap-UsJV6Fav32SwF0JGwWWAEZ
+rank-fiber run:           ap-92wEVRbP8NlDfrlA2XgCNb
+direct-route fence:       ap-532TAx5h3Qaw22D3ueMOVZ (two 300s timeouts)
+additional DAG delta:     +2 background PROVED; critical orbit unchanged
+outside labels closed:    0 (geometry/rank partition only)
+next:                     function-field resultants plus finite replay
 ```

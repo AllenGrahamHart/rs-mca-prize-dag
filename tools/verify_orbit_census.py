@@ -7,20 +7,20 @@ declared one of them "stale". This verifier pins both and their exact delta so
 the confusion cannot silently return.
 
   MATH ORBIT      req-ancestry (+ the alt-closure rule) of the two grand-challenge
-                  nodes {mca_grand, list_grand}.  231 = 167 PROVED / 36 CONDITIONAL
-                  / 28 TARGET.  This is what orbit/critical_dag.json, the radial
+                  nodes {mca_grand, list_grand}.  239 = 167 PROVED / 40 CONDITIONAL
+                  / 32 TARGET.  This is what orbit/critical_dag.json, the radial
                   SVG, the published site, the partition law in verify_prize_dag.py,
-                  and verify_critical_harness_coverage.py all measure.  Its 28
+                  and verify_critical_harness_coverage.py all measure.  Its 32
                   TARGETs are the mathematical leaves of the roadmap.
 
-  SUBMISSION ORBIT  the same closure rooted at `prize`.  246 = 179 / 38 / 29.
+  SUBMISSION ORBIT  the same closure rooted at `prize`.  254 = 179 / 42 / 33.
                   Strict superset: MATH ORBIT + 15 packaging/bridge/Lean-harness
                   nodes (12 PROVED, 2 CONDITIONAL, 1 TARGET), enumerated below.
                   This is the Convergence Ledger's baseline and equals the
                   dominator set printed by verify_prize_dag.py's every-route
-                  analysis (29 open dominators == the 29 submission-orbit TARGETs).
+                  analysis (33 open dominators == the 33 submission-orbit TARGETs).
 
-Neither census is stale; 246 - 231 = 15 is definitional, not drift. Consumers must
+Neither census is stale; 254 - 239 = 15 is definitional, not drift. Consumers must
 say WHICH orbit they mean. Burn-down of *mathematics* is the math orbit; the
 "all-green DAG" end state is the submission orbit (it owns the dossier leaf).
 
@@ -133,8 +133,14 @@ SUBMISSION_ROOT = "prize"
 # enter). Recomputed and pinned by the coordinator at the surgery;
 # audit trail: the four round-27 FABLE_AUDITs + the ledger
 # "ROUND 27" entries.
-EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 37, "TARGET": 29}
-EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 39, "TARGET": 30}
+# K3 PAYMENT DECOMPOSITION (2026-08-10): the structural-surplus TARGET becomes
+# CONDITIONAL over an exact K3 ledger and independent review. The ledger is a
+# CONDITIONAL composition over the positive-payment CONDITIONAL, orientation
+# assembly TARGET, and exact allocation TARGET; the positive payment depends on
+# the eleven-route TARGET. Net from the band pin: +3 TARGET / +3 CONDITIONAL.
+# Proved raw workboard packets remain evidence-only and off strict ancestry.
+EXPECTED_MATH = {"PROVED": 167, "CONDITIONAL": 40, "TARGET": 32}
+EXPECTED_SUBMISSION = {"PROVED": 179, "CONDITIONAL": 42, "TARGET": 33}
 
 # The submission spine: exactly the nodes reachable from `prize` but not from the
 # grand challenges. Packaging, bridge ledgers, and the Lean/harness rails — no
@@ -163,7 +169,7 @@ EXPECTED_DELTA = {
 NON_MATH_TARGET = "submission_quality_paper_dossier"
 
 # ...and the two CONDITIONALs on the spine are likewise non-mathematical, so a
-    # conditional-dedup ledger over the 36 must account for 34 mathematical ones.
+    # submission conditional ledger over 42 must account for 40 mathematical ones.
 NON_MATH_CONDITIONALS = {"prize", "packaging"}
 
 

@@ -1,0 +1,19 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
+    "title": "KoalaBear m2 r4 positive-coordinate remaining-route payment",
+    "status": "TARGET",
+    "statement": "Every positive-coordinate route left by the exact 13-route residual workboard, except the already proved 433-1a to O0b and 433-1b to O0a routes, is empty or has a printed exact distinct-affine-slope payment in the active first-match ledger. The eleven obligations are 442-0a to O0b/O1b/O1d, 442-1b to O0a/O0b, 433-0 to O0a/O0b/O1b/O1c/O1d, and 433-1b to O0b. The theorem outputs a literal integer U_remaining equal to the sum of the disjoint route payments and retains the same received-line owner, exact multiplicity, and add-back chronology.",
+    "falsifier": "A guarded packet on any of the eleven routes, or a slope payment that loses owner identity, multiplicity, or first-match chronology.",
+    "refs": [
+      "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/attack.md",
+      "critical/nodes/rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment/dependency_subdag.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

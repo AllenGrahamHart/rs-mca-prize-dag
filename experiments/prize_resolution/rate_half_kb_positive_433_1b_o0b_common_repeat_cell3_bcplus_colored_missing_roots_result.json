@@ -1,0 +1,2056 @@
+{
+  "case_count": 8,
+  "rows": [
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "BE",
+      "point_count": 0,
+      "points": [],
+      "raw_r_root_count": 12,
+      "resultant_degree": 116,
+      "resultant_sha256": "a58db7979401388fa4e2e73ec1efab1db43fb45bc93adc5d4ff5a797827b0fa1",
+      "resultant_terms": 97,
+      "seconds": 1.1689578670000003,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        382534071,
+        391001680,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            365822393,
+            1731460684
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 365822393,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1731460684,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            399245749,
+            1764884040
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 399245749,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1764884040,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "CF",
+      "point_count": 4,
+      "points": [
+        {
+          "a_missing": 1584362023,
+          "b": 142720543,
+          "b_missing": 841866522,
+          "beta_missing": 998115139,
+          "missing_target_coordinate": 1123602813,
+          "r": 1430654903,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 1743880765,
+          "b": 142720543,
+          "b_missing": 1929156199,
+          "beta_missing": 1799256033,
+          "missing_target_coordinate": 1123602813,
+          "r": 1689971530,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 1381555145,
+          "b": 636542333,
+          "b_missing": 1044602083,
+          "beta_missing": 290716423,
+          "missing_target_coordinate": 779630482,
+          "r": 1430654903,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        },
+        {
+          "a_missing": 2121946435,
+          "b": 636542333,
+          "b_missing": 1707777831,
+          "beta_missing": 1126981010,
+          "missing_target_coordinate": 779630482,
+          "r": 1689971530,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        }
+      ],
+      "raw_r_root_count": 16,
+      "resultant_degree": 124,
+      "resultant_sha256": "954d2919f5bfce2f60b2d754343477ab138ec2d044d8b6b8661688bf5e5f07ef",
+      "resultant_terms": 103,
+      "seconds": 1.3733286619999998,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        253127561,
+        382534071,
+        391001680,
+        1697536005,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            365822393,
+            1731460684
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 365822393,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1731460684,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1430654903,
+            1689971530
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1385546352,
+              "point_index": 0,
+              "r": 1430654903,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1215418360,
+              "point_index": 1,
+              "r": 1689971530,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 253127561
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1430654903,
+            1689971530
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1714272664,
+              "point_index": 2,
+              "r": 1430654903,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1003307117,
+              "point_index": 3,
+              "r": 1689971530,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1697536005
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            399245749,
+            1764884040
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 399245749,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1764884040,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "BE",
+      "point_count": 0,
+      "points": [],
+      "raw_r_root_count": 12,
+      "resultant_degree": 116,
+      "resultant_sha256": "a58db7979401388fa4e2e73ec1efab1db43fb45bc93adc5d4ff5a797827b0fa1",
+      "resultant_terms": 97,
+      "seconds": 1.168090016,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        382534071,
+        391001680,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            374290000,
+            1722993073
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 374290000,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1722993073,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            407713360,
+            1756416433
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 407713360,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1756416433,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "CF",
+      "point_count": 4,
+      "points": [
+        {
+          "a_missing": 386825668,
+          "b": 142720543,
+          "b_missing": 201550234,
+          "beta_missing": 331450400,
+          "missing_target_coordinate": 1123602813,
+          "r": 617557036,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 546344410,
+          "b": 142720543,
+          "b_missing": 1288839911,
+          "beta_missing": 1132591294,
+          "missing_target_coordinate": 1123602813,
+          "r": 732448698,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 8759998,
+          "b": 636542333,
+          "b_missing": 422928602,
+          "beta_missing": 1003725423,
+          "missing_target_coordinate": 779630482,
+          "r": 617557036,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        },
+        {
+          "a_missing": 749151288,
+          "b": 636542333,
+          "b_missing": 1086104350,
+          "beta_missing": 1839990010,
+          "missing_target_coordinate": 779630482,
+          "r": 732448698,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        }
+      ],
+      "raw_r_root_count": 16,
+      "resultant_degree": 124,
+      "resultant_sha256": "954d2919f5bfce2f60b2d754343477ab138ec2d044d8b6b8661688bf5e5f07ef",
+      "resultant_terms": 103,
+      "seconds": 1.3298508130000002,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        253127561,
+        382534071,
+        391001680,
+        1697536005,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            374290000,
+            1722993073
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 374290000,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1722993073,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            617557036,
+            732448698
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 2029733280,
+              "point_index": 0,
+              "r": 617557036,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 682333293,
+              "point_index": 1,
+              "r": 732448698,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 253127561
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            617557036,
+            732448698
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 62018425,
+              "point_index": 2,
+              "r": 617557036,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 512942850,
+              "point_index": 3,
+              "r": 732448698,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1697536005
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            407713360,
+            1756416433
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 407713360,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1756416433,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "BE",
+      "point_count": 0,
+      "points": [],
+      "raw_r_root_count": 12,
+      "resultant_degree": 116,
+      "resultant_sha256": "a58db7979401388fa4e2e73ec1efab1db43fb45bc93adc5d4ff5a797827b0fa1",
+      "resultant_terms": 97,
+      "seconds": 0.9474028409999999,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        382534071,
+        391001680,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            399245749,
+            1764884040
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 399245749,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1764884040,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            365822393,
+            1731460684
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 365822393,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1731460684,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "CF",
+      "point_count": 4,
+      "points": [
+        {
+          "a_missing": 1743880765,
+          "b": 142720543,
+          "b_missing": 1929156199,
+          "beta_missing": 331450400,
+          "missing_target_coordinate": 1123602813,
+          "r": 440734903,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 1584362023,
+          "b": 142720543,
+          "b_missing": 841866522,
+          "beta_missing": 1132591294,
+          "missing_target_coordinate": 1123602813,
+          "r": 700051530,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 2121946435,
+          "b": 636542333,
+          "b_missing": 1707777831,
+          "beta_missing": 1003725423,
+          "missing_target_coordinate": 779630482,
+          "r": 440734903,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        },
+        {
+          "a_missing": 1381555145,
+          "b": 636542333,
+          "b_missing": 1044602083,
+          "beta_missing": 1839990010,
+          "missing_target_coordinate": 779630482,
+          "r": 700051530,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        }
+      ],
+      "raw_r_root_count": 16,
+      "resultant_degree": 124,
+      "resultant_sha256": "954d2919f5bfce2f60b2d754343477ab138ec2d044d8b6b8661688bf5e5f07ef",
+      "resultant_terms": 103,
+      "seconds": 0.960797377,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        253127561,
+        382534071,
+        391001680,
+        1697536005,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            399245749,
+            1764884040
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 399245749,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1764884040,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            440734903,
+            700051530
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 915288073,
+              "point_index": 0,
+              "r": 440734903,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 745160081,
+              "point_index": 1,
+              "r": 700051530,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 253127561
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            440734903,
+            700051530
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1127399316,
+              "point_index": 2,
+              "r": 440734903,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 416433769,
+              "point_index": 3,
+              "r": 700051530,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1697536005
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680,
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            365822393,
+            1731460684
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 365822393,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1731460684,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "BE",
+      "point_count": 0,
+      "points": [],
+      "raw_r_root_count": 12,
+      "resultant_degree": 116,
+      "resultant_sha256": "a58db7979401388fa4e2e73ec1efab1db43fb45bc93adc5d4ff5a797827b0fa1",
+      "resultant_terms": 97,
+      "seconds": 1.493841906,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        382534071,
+        391001680,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            407713360,
+            1756416433
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 407713360,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1756416433,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            374290000,
+            1722993073
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 374290000,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1722993073,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "boundary_count": 0,
+      "epsilon": [
+        1,
+        1
+      ],
+      "guard_boundary_count": 12,
+      "missing_record": "CF",
+      "point_count": 4,
+      "points": [
+        {
+          "a_missing": 546344410,
+          "b": 142720543,
+          "b_missing": 1288839911,
+          "beta_missing": 998115139,
+          "missing_target_coordinate": 1123602813,
+          "r": 1398257735,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 386825668,
+          "b": 142720543,
+          "b_missing": 201550234,
+          "beta_missing": 1799256033,
+          "missing_target_coordinate": 1123602813,
+          "r": 1513149397,
+          "source_product": 1350602167,
+          "source_squared_sum": 2100971775,
+          "status": "LIFTED",
+          "u": 253127561
+        },
+        {
+          "a_missing": 749151288,
+          "b": 636542333,
+          "b_missing": 1086104350,
+          "beta_missing": 290716423,
+          "missing_target_coordinate": 779630482,
+          "r": 1398257735,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        },
+        {
+          "a_missing": 8759998,
+          "b": 636542333,
+          "b_missing": 422928602,
+          "beta_missing": 1126981010,
+          "missing_target_coordinate": 779630482,
+          "r": 1513149397,
+          "source_product": 581536612,
+          "source_squared_sum": 1219841807,
+          "status": "LIFTED",
+          "u": 1697536005
+        }
+      ],
+      "raw_r_root_count": 16,
+      "resultant_degree": 124,
+      "resultant_sha256": "954d2919f5bfce2f60b2d754343477ab138ec2d044d8b6b8661688bf5e5f07ef",
+      "resultant_terms": 103,
+      "seconds": 1.2093667350000001,
+      "status": "COMPLETE",
+      "u_roots": [
+        0,
+        1,
+        16711679,
+        253127561,
+        382534071,
+        391001680,
+        1697536005,
+        1739704753,
+        1748172362,
+        2113994754,
+        2130706432
+      ],
+      "u_rows": [
+        {
+          "status": "U_BOUNDARY",
+          "u": 0
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            407713360,
+            1756416433
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 407713360,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1756416433,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 16711679
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1398257735,
+            1513149397
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1448373140,
+              "point_index": 0,
+              "r": 1398257735,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 100973153,
+              "point_index": 1,
+              "r": 1513149397,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 253127561
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 382534071
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            391001680
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 391001680,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 391001680
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1398257735,
+            1513149397
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 1617763583,
+              "point_index": 2,
+              "r": 1398257735,
+              "status": "LIFTED"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 2068688008,
+              "point_index": 3,
+              "r": 1513149397,
+              "status": "LIFTED"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1697536005
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1739704753
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            1739704753
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1739704753,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 1748172362
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            382534071,
+            1748172362
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 382534071,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1748172362,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2113994754
+        },
+        {
+          "gcd_degree": 2,
+          "r_roots": [
+            374290000,
+            1722993073
+          ],
+          "root_rows": [
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 374290000,
+              "status": "GUARD_BOUNDARY"
+            },
+            {
+              "core_value": 0,
+              "cut_value": 0,
+              "guard_value": 0,
+              "r": 1722993073,
+              "status": "GUARD_BOUNDARY"
+            }
+          ],
+          "status": "CHECKED",
+          "u": 2130706432
+        }
+      ],
+      "unresolved": []
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-cell3-bcplus-colored-roots-v1",
+  "scope": "Exact deployed-field roots of the BE/CF common-only missing cuts; no residual matching or outside exclusion claim.",
+  "source_cut_sha256": "652c3ac853708cfe59a8d7751f7ca22d8b71120920c2fc1c4e6d29fbc53d5f8d",
+  "source_torus_sha256": "9ad509b330416fc095fcbf6ff2ac75ae82123cc824b4f819e3c6aac0c78279fc",
+  "status_counts": {
+    "COMPLETE": 8
+  }
+}

@@ -1,0 +1,4770 @@
+{
+  "representative_cells": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11
+  ],
+  "rows": [
+    {
+      "bc_sign": -1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "3543de285c4c72c8aecb61e4058ba4cda9bd41fa6b5f65932159471ef25198a5",
+        "0730adfc3e7889ab0b35d2c4da26a6702722cd2a9577c4622928c99a5181aab5",
+        "e005a7184a7d7ebd9861d8370558a03d902b875d2674e8fbdf2a3970b392dcbe",
+        "a25c33a8ae01c2fb10159baa238c37d562eefb62c93d9f5c49631ca47aa5e37b",
+        "3d4bc0103dbd081c2ce537319604765a205b1084a2c0e6383baa782089fd1e71",
+        "c76f8b1d3d4efe7f50a518d0a3b9313b74660c8e2884f883c4736fb6b9bc3fa2"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 16
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 7,
+          "terms": 18
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "15a133a05dfb35d9329a725b5f20b037516fa392988eb2b8e4c0506dcb17eab0",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "50fe2a8f7bf99f35a404b74994dc07bf8f4e75ea63b63866569dfd74694f49be",
+        "b6ed760e0754ef269d142a03387cbe80b7163fe9dfbb68ea642f979f5938bbf2",
+        "82fefaa0390c44f652118cc0e8fa0cc09b547f517fe5747ce3a5617229cdabbf",
+        "f546ae70ffdca5940ad0094b8896a778acb799af994930ca3ea99f832b7d44d5",
+        "7481c5fa1b5bae6237a20f0193a4067ef1e6a6124d06d7b3488ce1f654722845",
+        "d47457d79e9c1dcf131358d9c27f9ce196da16e650751d0e113dddde0e6b73ad"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 12
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 7,
+          "terms": 16
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "9be231e13dcc4a6ed5434e6167f0bd425511c3a18a589a846f5f1b26a892c8da",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "3543de285c4c72c8aecb61e4058ba4cda9bd41fa6b5f65932159471ef25198a5",
+        "0730adfc3e7889ab0b35d2c4da26a6702722cd2a9577c4622928c99a5181aab5",
+        "2c47f5a8f8e5a22e434baea45deb1836c7d4797cb74cc34dd95697ac41e038e6",
+        "a25c33a8ae01c2fb10159baa238c37d562eefb62c93d9f5c49631ca47aa5e37b",
+        "9dc5108c401d1d48207d5346545d90ed2739656849af678cb820434175032395",
+        "4069425eea7b457cac8932183db245a039587e508938a1a5a4c3f8823659ca8d"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 16
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 7,
+          "terms": 18
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "facb72258d495a0ab936c79341d65aa93cc12a8a6664e1f6720b028419262a2b",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "50fe2a8f7bf99f35a404b74994dc07bf8f4e75ea63b63866569dfd74694f49be",
+        "b6ed760e0754ef269d142a03387cbe80b7163fe9dfbb68ea642f979f5938bbf2",
+        "e11cd7173f73c0a84e131ba6225f169c5c68d31a943929591568df2adcb59e75",
+        "f546ae70ffdca5940ad0094b8896a778acb799af994930ca3ea99f832b7d44d5",
+        "da8e31cff36327641a55cc0495828467044ba4fd2c03e5882c79971216e21bf0",
+        "78a4ae67e9e69022af37567b2a3390bf9d559ec9493ea8de910b361c5d88a52e"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 12
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 7,
+          "terms": 16
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "95260cfa5a2912e3ec9e73e72b8c17023bb395763847bb55825840d01f7ba32c",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "88ac1741298a8fa50b73b2e0957b549c7d0c0d57460d0390b9a2b3b3bbca3824",
+        "0730adfc3e7889ab0b35d2c4da26a6702722cd2a9577c4622928c99a5181aab5",
+        "e005a7184a7d7ebd9861d8370558a03d902b875d2674e8fbdf2a3970b392dcbe",
+        "9ba22bb0d7972633cd08beb63c19a8e3c01a89fc677441171934c06b1df6a4bc",
+        "9dc5108c401d1d48207d5346545d90ed2739656849af678cb820434175032395",
+        "c76f8b1d3d4efe7f50a518d0a3b9313b74660c8e2884f883c4736fb6b9bc3fa2"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 16
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 7,
+          "terms": 18
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "db4afe5d4cbe029569f3715246c53ae5fb9550569c7a16ecb53393cee731109d",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "3b4a8df0c8ecea34d6e5b416ef82126ceb0e4eafc7c9d1b108787a3694f138e4",
+        "b6ed760e0754ef269d142a03387cbe80b7163fe9dfbb68ea642f979f5938bbf2",
+        "82fefaa0390c44f652118cc0e8fa0cc09b547f517fe5747ce3a5617229cdabbf",
+        "50e49f2f508a5fb9ee71ca0f7edcd31b0e6c608fbaa770d3a4cf2453ab54c19f",
+        "da8e31cff36327641a55cc0495828467044ba4fd2c03e5882c79971216e21bf0",
+        "d47457d79e9c1dcf131358d9c27f9ce196da16e650751d0e113dddde0e6b73ad"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 12
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 7,
+          "terms": 16
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "00d0d54b8683ad41439623059092420832ea98c38c5315c584b630f3e67d0357",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "88ac1741298a8fa50b73b2e0957b549c7d0c0d57460d0390b9a2b3b3bbca3824",
+        "0730adfc3e7889ab0b35d2c4da26a6702722cd2a9577c4622928c99a5181aab5",
+        "2c47f5a8f8e5a22e434baea45deb1836c7d4797cb74cc34dd95697ac41e038e6",
+        "9ba22bb0d7972633cd08beb63c19a8e3c01a89fc677441171934c06b1df6a4bc",
+        "3d4bc0103dbd081c2ce537319604765a205b1084a2c0e6383baa782089fd1e71",
+        "4069425eea7b457cac8932183db245a039587e508938a1a5a4c3f8823659ca8d"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 16
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 36
+        },
+        {
+          "degree": 7,
+          "terms": 18
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "72baa259d0e2a41210cbc5c11aa03d9c596b5b4ba6d7a3381fd6c3dde0d67e32",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 0,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "3b4a8df0c8ecea34d6e5b416ef82126ceb0e4eafc7c9d1b108787a3694f138e4",
+        "b6ed760e0754ef269d142a03387cbe80b7163fe9dfbb68ea642f979f5938bbf2",
+        "e11cd7173f73c0a84e131ba6225f169c5c68d31a943929591568df2adcb59e75",
+        "50e49f2f508a5fb9ee71ca0f7edcd31b0e6c608fbaa770d3a4cf2453ab54c19f",
+        "7481c5fa1b5bae6237a20f0193a4067ef1e6a6124d06d7b3488ce1f654722845",
+        "78a4ae67e9e69022af37567b2a3390bf9d559ec9493ea8de910b361c5d88a52e"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 7,
+          "terms": 12
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 8,
+          "terms": 28
+        },
+        {
+          "degree": 7,
+          "terms": 16
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "58314636ea4ac9d6dc0d02cf40888857cbe1983df91c8fc9a194f4aca93ef26b",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "9152704933b3dfba82e0dd013a22e262a910bcd857392e3f76db8ed8950a371a",
+        "f07ce8ba73e4ed3e10869347b0573db5f1f3711a98d50ec522df2abd78823a69",
+        "6663f471e629b8bba3e098a6ea35a437454d51f906b3d09be6d957b05b32bc86",
+        "7b91cd4a553ca2af9ecdff68c27b0ec7b902a0feae665d5b3195979a87d153e5",
+        "a70e931245737d3446cb6a52c2863dc3d564553411165ac821c9301cdf1efbeb",
+        "8999f91295014d3df7dc5a829a542eba521a31245c04e1b75f152198b93ab7ad"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 24
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 32
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "985576ff3fc147b8655b6e2d99eb9ecc9ecca66a055a8683b5654e0e8173a95a",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "815908a258ebac088fa73659d0b4dac8cee8a837cd9ef841dda78fa87067cb8e",
+        "e3daa37be6b90832786409b001d40863caa20bf3a2691fb4764d1e8598cdf726",
+        "386aaac8fd0fc31fc68501e99c4da9ee3142f95d57d6ee0cf6ed26fabba9081a",
+        "7d9e0fc1db219cc491b6a1aed9a501b864abb1bd78570e3c815ca12e27134a6b",
+        "e6098e6b1a84d89b7f3a39ebc9448c6b2ae77ecbb77396967eb27b9d5a59c115",
+        "6ad0734b7a62d628400604117065936704c2959e6029db73bb71e533d585f351"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 16
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "affb160a50f406a6b70a6fcd4feb1dcd2efb80355cb0d6567289ba541765d951",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "9152704933b3dfba82e0dd013a22e262a910bcd857392e3f76db8ed8950a371a",
+        "f07ce8ba73e4ed3e10869347b0573db5f1f3711a98d50ec522df2abd78823a69",
+        "8f874a2c8f991a75487c99337935f76354baced89aa8be3cbe0c8276b3f3206b",
+        "7b91cd4a553ca2af9ecdff68c27b0ec7b902a0feae665d5b3195979a87d153e5",
+        "9299d77c4c26007e3cf94e14f073c4477ca5d93f02fca211ef9e8c5394b3fb11",
+        "ad6a9812a1969f85adfb39aa0b14bc1a4989d7e3ccbc343d30cd98aaeaa5acb5"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 24
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 32
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "36dabe4b19110ccf22bdd2830bb1deaa50408281d48466d069d0a1b98f41b316",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=2\nSIZE=65\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=2\nSIZE=65\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "815908a258ebac088fa73659d0b4dac8cee8a837cd9ef841dda78fa87067cb8e",
+        "e3daa37be6b90832786409b001d40863caa20bf3a2691fb4764d1e8598cdf726",
+        "6c8a9757c3ce85a5c5b5b0a2b10ff5142ff63bd98ad21b38cfc26fd560434a86",
+        "7d9e0fc1db219cc491b6a1aed9a501b864abb1bd78570e3c815ca12e27134a6b",
+        "b8a89cc0ddbcd2f93dbdbb2260d3806c4084dcae320e9bc459e3c06d58b252a5",
+        "04c534a797b0b624260a08d5ac783f82492c71d8ba0e275ea54b3a303f969461"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 16
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "7812ec33b4ed07c3946bf929c268e04f6db7a77c09832be29f7503a730de135c",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=2\nSIZE=54\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=2\nSIZE=54\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "9152704933b3dfba82e0dd013a22e262a910bcd857392e3f76db8ed8950a371a",
+        "d06987cddfae1f4a71fbb67d34a96eab60a252b0e613d3f131ec9cc741329895",
+        "6663f471e629b8bba3e098a6ea35a437454d51f906b3d09be6d957b05b32bc86",
+        "7796a3aa130033b037dd803aed19e8490c0878b7f46461972ac3e2b7b0414f2b",
+        "a70e931245737d3446cb6a52c2863dc3d564553411165ac821c9301cdf1efbeb",
+        "ad6a9812a1969f85adfb39aa0b14bc1a4989d7e3ccbc343d30cd98aaeaa5acb5"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 24
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 32
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "4602c8345ca82b3bca5deffb709372b5b2f14ad3d31e2c0f446c69d0793a18de",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=2\nSIZE=65\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=2\nSIZE=65\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "815908a258ebac088fa73659d0b4dac8cee8a837cd9ef841dda78fa87067cb8e",
+        "639ba259ee3e4b659aa0b8d9e92e1b83257b8b8e641d955f7f017e893fb7512e",
+        "386aaac8fd0fc31fc68501e99c4da9ee3142f95d57d6ee0cf6ed26fabba9081a",
+        "0973268cdfc1d276fdf942325b2723f6b12a1b8f7f5fe037b9b5fc5cc81092d7",
+        "e6098e6b1a84d89b7f3a39ebc9448c6b2ae77ecbb77396967eb27b9d5a59c115",
+        "04c534a797b0b624260a08d5ac783f82492c71d8ba0e275ea54b3a303f969461"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 16
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "30819f1e4b6cd36c8d92aef3b7a8462c4f04e345a35090d7def37d516634e881",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=2\nSIZE=54\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=2\nSIZE=54\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "9152704933b3dfba82e0dd013a22e262a910bcd857392e3f76db8ed8950a371a",
+        "d06987cddfae1f4a71fbb67d34a96eab60a252b0e613d3f131ec9cc741329895",
+        "8f874a2c8f991a75487c99337935f76354baced89aa8be3cbe0c8276b3f3206b",
+        "7796a3aa130033b037dd803aed19e8490c0878b7f46461972ac3e2b7b0414f2b",
+        "9299d77c4c26007e3cf94e14f073c4477ca5d93f02fca211ef9e8c5394b3fb11",
+        "8999f91295014d3df7dc5a829a542eba521a31245c04e1b75f152198b93ab7ad"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 24
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 32
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "50f7c450aa9f85811c9c61033f8d0636a8cf2a56cfe545387e203edfe5dbab07",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 1,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "815908a258ebac088fa73659d0b4dac8cee8a837cd9ef841dda78fa87067cb8e",
+        "639ba259ee3e4b659aa0b8d9e92e1b83257b8b8e641d955f7f017e893fb7512e",
+        "6c8a9757c3ce85a5c5b5b0a2b10ff5142ff63bd98ad21b38cfc26fd560434a86",
+        "0973268cdfc1d276fdf942325b2723f6b12a1b8f7f5fe037b9b5fc5cc81092d7",
+        "b8a89cc0ddbcd2f93dbdbb2260d3806c4084dcae320e9bc459e3c06d58b252a5",
+        "6ad0734b7a62d628400604117065936704c2959e6029db73bb71e533d585f351"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 8,
+          "terms": 16
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 9,
+          "terms": 36
+        },
+        {
+          "degree": 8,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "5a9aa4ffb2436559977661aba4acf86b89e3c79c8bebcc4ad0363175433d041f",
+      "singleton": 0,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "93221b57289f7df068f97a31d4d7ff3762d588b88905095851de8a01e7eea3d4",
+        "7bb521ee85dbbefb9e4cace817ec44dea3c080df1fe1caf94f3202524b0b3a9a",
+        "b7a99c645a83a2c67d50767f497e7306991c56a86122c3565de689d90d578337",
+        "190204647abfae97c5194121fc7d8419b940d69d712fb6fe5e3f65400c268bc3",
+        "003ae83da914889cf9b8008ac3e20bcfdd809b33c9095478412ddee71d9da1b8",
+        "072d13e42d5b68a6bf413f9b2a917d14255f7258bff4a35a91bbb0b6905846d4"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "d7c1b9d2b19c7e4b04a7282e613c09cdbdd5c6443afd9f9d4b7faa6acb4f6f2f",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "3200e772c25c4dec259f619f19332c0765168ee4cc61b29fc8446da39af7723c",
+        "b9d2c9b5e8f57f3dfa4fe9438026ea6188da300d21867c03e026507996937236",
+        "97e7f2dc6c8ad0dfca2251bd5ae8d3f3391945056a53481f4e16766119cad830",
+        "8ebb6985c0e1e34b7847e5b0e43a4059fc33a23f860e9bd4d7121ad0d53051cb",
+        "6c491f366fc50f0de5c6229f31aa9ba1baf85f4b0029f482603d7b19dea7d9c7",
+        "0ae79129a6475c1c85f59e0ad24020c990debf0c88052cb128355b30afab8787"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "1175729fb144c51d6afffff708748f670cafdf527d374bc058a846903272299c",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=18\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=18\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "93221b57289f7df068f97a31d4d7ff3762d588b88905095851de8a01e7eea3d4",
+        "7bb521ee85dbbefb9e4cace817ec44dea3c080df1fe1caf94f3202524b0b3a9a",
+        "7cb38c557183cf289298a2528e02bae4ee492f8368fbee79c7931ab4f08c61b1",
+        "190204647abfae97c5194121fc7d8419b940d69d712fb6fe5e3f65400c268bc3",
+        "7ddd99061ebf1bc993b8d1c89aa19355520a67372aff4c21ebb0437fe79a050f",
+        "28d966461b354706fe260308e63eae8f7f18eec7d7b53065d1d94109d40bfb64"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "5364684c100508acd01b83290a91be61c80ce39d99a196a951096a988a7001a0",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "3200e772c25c4dec259f619f19332c0765168ee4cc61b29fc8446da39af7723c",
+        "b9d2c9b5e8f57f3dfa4fe9438026ea6188da300d21867c03e026507996937236",
+        "19ef6abe3e8a76f499a313cbc71307b87b6768c375cd63c3b6daaaeb44c9d27c",
+        "8ebb6985c0e1e34b7847e5b0e43a4059fc33a23f860e9bd4d7121ad0d53051cb",
+        "cd08625dd3eaa181d2830a6e3c4d13d69475aafb547e91e0a9677e7ba83ef953",
+        "acdc577302d05ca51718c6e72fa5a245e9865f63b325f3610c9a4add5c4db9e9"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "24a6c6cccfcf3df55c693e4264804ebef60cdbc91b6324a54e4988e58e5449c3",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=18\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=18\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "f85eec750a0c461d27538ea85ff701ddad2f9d84152f94c6761b85b1d803b895",
+        "7bb521ee85dbbefb9e4cace817ec44dea3c080df1fe1caf94f3202524b0b3a9a",
+        "b7a99c645a83a2c67d50767f497e7306991c56a86122c3565de689d90d578337",
+        "e84ef1c665abcb3750369b0f27cca2c2db255f0efcaaf37d24f524a3900116b5",
+        "7ddd99061ebf1bc993b8d1c89aa19355520a67372aff4c21ebb0437fe79a050f",
+        "072d13e42d5b68a6bf413f9b2a917d14255f7258bff4a35a91bbb0b6905846d4"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "e76a141800ddbe11871aa137c783fe4c53a08940c10118d21091ca927619b372",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "0e82e1af8e3abb120f03f2cb19e5697a1af1d0937a47bc2b65c7f5447eefd079",
+        "b9d2c9b5e8f57f3dfa4fe9438026ea6188da300d21867c03e026507996937236",
+        "97e7f2dc6c8ad0dfca2251bd5ae8d3f3391945056a53481f4e16766119cad830",
+        "09fbf6ab5ea105312bd9e2914fc544dda389ecfac81dffe0a2642b7a400f9ecc",
+        "cd08625dd3eaa181d2830a6e3c4d13d69475aafb547e91e0a9677e7ba83ef953",
+        "0ae79129a6475c1c85f59e0ad24020c990debf0c88052cb128355b30afab8787"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "580b96e965f39854f90e140c1b93185ed6abea2bc2c66508fb84293ef732fe08",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=18\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=18\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "f85eec750a0c461d27538ea85ff701ddad2f9d84152f94c6761b85b1d803b895",
+        "7bb521ee85dbbefb9e4cace817ec44dea3c080df1fe1caf94f3202524b0b3a9a",
+        "7cb38c557183cf289298a2528e02bae4ee492f8368fbee79c7931ab4f08c61b1",
+        "e84ef1c665abcb3750369b0f27cca2c2db255f0efcaaf37d24f524a3900116b5",
+        "003ae83da914889cf9b8008ac3e20bcfdd809b33c9095478412ddee71d9da1b8",
+        "28d966461b354706fe260308e63eae8f7f18eec7d7b53065d1d94109d40bfb64"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "899e779b5c6fac5bf8fb5dc5d948053ea698c8452a70e20aac4a9140f7d58f0e",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 3,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "0e82e1af8e3abb120f03f2cb19e5697a1af1d0937a47bc2b65c7f5447eefd079",
+        "b9d2c9b5e8f57f3dfa4fe9438026ea6188da300d21867c03e026507996937236",
+        "19ef6abe3e8a76f499a313cbc71307b87b6768c375cd63c3b6daaaeb44c9d27c",
+        "09fbf6ab5ea105312bd9e2914fc544dda389ecfac81dffe0a2642b7a400f9ecc",
+        "6c491f366fc50f0de5c6229f31aa9ba1baf85f4b0029f482603d7b19dea7d9c7",
+        "acdc577302d05ca51718c6e72fa5a245e9865f63b325f3610c9a4add5c4db9e9"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "bd4cb76a451cdb8addc70e21710b3686164869c12237c815cb6310f595162240",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=18\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=18\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "5405f98524a5d0273480c0194483de01f3ed432a707f6183eb2f9f748aee9a3a",
+        "56a58eedf97fc66c21547a83085d7f6d8da6d6812906eb67797b2fdc49b4da42",
+        "4d81b1771291d2d6be0dbe2e1f78dbcb1a27e55c2084416c2d89b8b1b809fb3e",
+        "7dc753b6aee4608b754d9bebd199b7a5d878d34dafd4d8a5cc40775587fd13cc",
+        "8ecde542bc6d858cca1d2d178b37fb4f2cdefd5d29b43104e7a63fc7ef2be74a",
+        "968f1d70305d05d8b229c2455cf4a208f2322c7e82d5114aa97818e1c7da6304"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "42950feed3264e839d2bb9b7a0e2f0547d5e1b0b277badd8297229b9fe4dcde3",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "0d61e8825ad9d8ea44eeb5429809aa2b5aed7af78a5b6f6ecc36e00efff5533c",
+        "d58f3ce60871a46376cf29cb3fb2e3584c9d465dad0407d1186084ec845448e4",
+        "c5093bb88584d9b90cc7225365a2913a45aab428b876e4498bf585f43bb39d88",
+        "39126343cf52e57e414d8d04d53fd10fef8f91defcd2c17418cf00a0200b4198",
+        "8b1a3ebe3dc1021a0ff4bd978bcf66bd3b4e4c2c6021a4371010722625df68e1",
+        "5661d064f6297bda377e7ef348f93fc2f2833a0d0bf94526cf16c830000b303f"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "c505f2e34561d0314ad19e17d8afb980a6326a1d064df2844414343b8053f5ec",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "5405f98524a5d0273480c0194483de01f3ed432a707f6183eb2f9f748aee9a3a",
+        "56a58eedf97fc66c21547a83085d7f6d8da6d6812906eb67797b2fdc49b4da42",
+        "611dc4890e1d6262cdded74623ced5f46f468630fa09dc48cf8238e79a50bd56",
+        "7dc753b6aee4608b754d9bebd199b7a5d878d34dafd4d8a5cc40775587fd13cc",
+        "6988d26ac631d1008a63c653878402334bbc24db5120a5bf5d2101cec7ff5971",
+        "6f959543b4fb3789d3229295d419f8cbbcf5fd976e0fc85a409f24fa9a3dbd2a"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "8cff0d9cfd16a4c8317ed99cca743417f2156b650677b503da4694d515169548",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "0d61e8825ad9d8ea44eeb5429809aa2b5aed7af78a5b6f6ecc36e00efff5533c",
+        "d58f3ce60871a46376cf29cb3fb2e3584c9d465dad0407d1186084ec845448e4",
+        "14a8e9dd0c9c695f103c1d5219c8db22283666753b049023d1df8c4fee557040",
+        "39126343cf52e57e414d8d04d53fd10fef8f91defcd2c17418cf00a0200b4198",
+        "5683d8928a36a491b1c32a02f2547752f2260dfc7aee07c10ddb428c0dbb8a9a",
+        "b820b08ae98bfa71ec3f75466df4400d2d5502c11ecb1ce23d7324056c94bb3a"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "8b45acbd0e19a5ae5c65c63aca7908b1b6d8ba2add2788ec774f5ba428d342f5",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "5405f98524a5d0273480c0194483de01f3ed432a707f6183eb2f9f748aee9a3a",
+        "12c87408e9bf96b1740b722a69fe7d088d595cca9aa34fdfca45a8441f4c4ef5",
+        "4d81b1771291d2d6be0dbe2e1f78dbcb1a27e55c2084416c2d89b8b1b809fb3e",
+        "cd7d516835c859eef44c4522792100dfa093ab45010329515c2baa272489c859",
+        "8ecde542bc6d858cca1d2d178b37fb4f2cdefd5d29b43104e7a63fc7ef2be74a",
+        "6f959543b4fb3789d3229295d419f8cbbcf5fd976e0fc85a409f24fa9a3dbd2a"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "44c2056036b36948bbfbff9f72cfcbddf77ebe506d361af10af10bda8a0eea8a",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "0d61e8825ad9d8ea44eeb5429809aa2b5aed7af78a5b6f6ecc36e00efff5533c",
+        "4cc9fae51821cfd0653938caef14c92093461417f5a1b5885e2aea15060947f7",
+        "c5093bb88584d9b90cc7225365a2913a45aab428b876e4498bf585f43bb39d88",
+        "b6b47a8ad6eef13435e4c0153f0d25732500fc3586f03469c84c8dbfd8edc0b9",
+        "8b1a3ebe3dc1021a0ff4bd978bcf66bd3b4e4c2c6021a4371010722625df68e1",
+        "b820b08ae98bfa71ec3f75466df4400d2d5502c11ecb1ce23d7324056c94bb3a"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "61e47cbe29946471d29ab10a7acff016597f912d6f848cd9544741d980160f1d",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "5405f98524a5d0273480c0194483de01f3ed432a707f6183eb2f9f748aee9a3a",
+        "12c87408e9bf96b1740b722a69fe7d088d595cca9aa34fdfca45a8441f4c4ef5",
+        "611dc4890e1d6262cdded74623ced5f46f468630fa09dc48cf8238e79a50bd56",
+        "cd7d516835c859eef44c4522792100dfa093ab45010329515c2baa272489c859",
+        "6988d26ac631d1008a63c653878402334bbc24db5120a5bf5d2101cec7ff5971",
+        "968f1d70305d05d8b229c2455cf4a208f2322c7e82d5114aa97818e1c7da6304"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "89d9732a906f4923fb7bfd26db812e77ef55a7094d9fd96aed91827484073eba",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 4,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "0d61e8825ad9d8ea44eeb5429809aa2b5aed7af78a5b6f6ecc36e00efff5533c",
+        "4cc9fae51821cfd0653938caef14c92093461417f5a1b5885e2aea15060947f7",
+        "14a8e9dd0c9c695f103c1d5219c8db22283666753b049023d1df8c4fee557040",
+        "b6b47a8ad6eef13435e4c0153f0d25732500fc3586f03469c84c8dbfd8edc0b9",
+        "5683d8928a36a491b1c32a02f2547752f2260dfc7aee07c10ddb428c0dbb8a9a",
+        "5661d064f6297bda377e7ef348f93fc2f2833a0d0bf94526cf16c830000b303f"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "fb99517dc2d68044c216a383dd7aaa88505d045912e67860a05e7bf57100e764",
+      "singleton": 1,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "c5f2569fcd8a70fda1ea4ba8940705bee552fcbf9e733d1857d57c1e22446d30",
+        "52e6726054549884584fca840fdd4a079625fb6ee5d86589ce12278713ce1be5",
+        "493e3fa67e9a5a4eb8bbc3243bc1aca0e7e4ceb7738c09e6ff5bc589bd8e855c",
+        "25399d39823fe99d5da4a2b11e4c909f8edc835f05984a83844919444195854b",
+        "4b99adbb5d0d6102b7af3611ef7960a93c2d9411e2a3287becffa99f998ce7be",
+        "a2903503061ad12074bb0c83acb1f6bb3bba9e5bd15fdef301c46ee30ee9b5b1"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "fc522489eefd599784321e6755b689ac9e0a5fa7bbdeebbd16b40aae07d0cf7d",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "5d97d0321a230cac7822489f34841592d2b3b01ee853126b9aa5c4ee0200ad01",
+        "57ecf8e99ebbedf95eb9afedf90463bd73df0624c1940d5ce1bd40ba2c545f55",
+        "9de61d58b4bbd29039ffb601e6d076650a19faaa22c1a631ed4ac5a6762c0e2f",
+        "efbf8a30d703fb379cac30f6ffec4b2f39c463ee767f37f3d432fbd7a947e5b8",
+        "ebad14a31cbdd1b1daca99cc649a1457a2506e670347e8e3a3b30b2b7ca36b2b",
+        "66d21732e3b6ccfd14b56f5ece0753eafca48fbf5fde1c5ba5c1cfab5f7a4504"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "6257e6b125badd3bac7e5e166ce59aa644e568ddda908692baf83d03f6b806fd",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=16\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=16\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "c5f2569fcd8a70fda1ea4ba8940705bee552fcbf9e733d1857d57c1e22446d30",
+        "52e6726054549884584fca840fdd4a079625fb6ee5d86589ce12278713ce1be5",
+        "e8cadbfa1a9dc6b61ebce93ff33a1d64075a1858ebcd6e1b92469fb0692598ac",
+        "25399d39823fe99d5da4a2b11e4c909f8edc835f05984a83844919444195854b",
+        "52323402c0cdb81d78e3a6f39ef4c100fd4691d8ef2ce41efbc7efeb76d04a5c",
+        "05839ce60aada86614f5afef16df259c45c9ff15db8c75fdede50e9c74770b78"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "ca6f2378f887a2f9bb2d2f5bee146db3dc27473e00e7aef6e962be379631d3e6",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "5d97d0321a230cac7822489f34841592d2b3b01ee853126b9aa5c4ee0200ad01",
+        "57ecf8e99ebbedf95eb9afedf90463bd73df0624c1940d5ce1bd40ba2c545f55",
+        "dfc34d2ff6c89df7f4403b5e431180c4dc8c497e3d3354ab7611ec4026dcef90",
+        "efbf8a30d703fb379cac30f6ffec4b2f39c463ee767f37f3d432fbd7a947e5b8",
+        "f1752c64bd5446430573101812b6d6e61601055653b592a60727c88f41aacb01",
+        "26238be1035682878baa6f4b50da7b696e95d90d16b08f5d1075eed07c988aa9"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "865a9cf2f5b7108b72d65b322a0a04d430c81f508348e58c73ff16d859663324",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=16\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=16\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "1548061721da65ba415a7364f5f4af1fdc4f8a4289d4ab491adb1140e72182ea",
+        "5a01bbab0ac4b3931bfa6996ee3989b985405c2bbd15f90bbf023d30b108539f",
+        "e8cadbfa1a9dc6b61ebce93ff33a1d64075a1858ebcd6e1b92469fb0692598ac",
+        "25399d39823fe99d5da4a2b11e4c909f8edc835f05984a83844919444195854b",
+        "4b99adbb5d0d6102b7af3611ef7960a93c2d9411e2a3287becffa99f998ce7be",
+        "a2903503061ad12074bb0c83acb1f6bb3bba9e5bd15fdef301c46ee30ee9b5b1"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "ecee145dad05a332f55e1ebee60a7ad6023e2f5cd0fe04c4f4df2d7817c959e3",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "265747dc7d2150fb157535dc79a18e52a7a48f2e7762a8d3b244ee06438631ad",
+        "1de35373f2a0ef428eee5c57f94b75fa70d97551e389f9c277f30eb1cc88cdd3",
+        "dfc34d2ff6c89df7f4403b5e431180c4dc8c497e3d3354ab7611ec4026dcef90",
+        "efbf8a30d703fb379cac30f6ffec4b2f39c463ee767f37f3d432fbd7a947e5b8",
+        "ebad14a31cbdd1b1daca99cc649a1457a2506e670347e8e3a3b30b2b7ca36b2b",
+        "66d21732e3b6ccfd14b56f5ece0753eafca48fbf5fde1c5ba5c1cfab5f7a4504"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "09f10678622857fa389859936cef7dd1a753f2d681aa8061d3cf34b6682e39b7",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=16\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=16\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "1548061721da65ba415a7364f5f4af1fdc4f8a4289d4ab491adb1140e72182ea",
+        "5a01bbab0ac4b3931bfa6996ee3989b985405c2bbd15f90bbf023d30b108539f",
+        "493e3fa67e9a5a4eb8bbc3243bc1aca0e7e4ceb7738c09e6ff5bc589bd8e855c",
+        "25399d39823fe99d5da4a2b11e4c909f8edc835f05984a83844919444195854b",
+        "52323402c0cdb81d78e3a6f39ef4c100fd4691d8ef2ce41efbc7efeb76d04a5c",
+        "05839ce60aada86614f5afef16df259c45c9ff15db8c75fdede50e9c74770b78"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 36
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 34
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "a2aaa73bceaad02104163eaddc44c6c30cbdb7011d228fb8e84aba2ff2bfb605",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=23\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=23\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 6,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "265747dc7d2150fb157535dc79a18e52a7a48f2e7762a8d3b244ee06438631ad",
+        "1de35373f2a0ef428eee5c57f94b75fa70d97551e389f9c277f30eb1cc88cdd3",
+        "9de61d58b4bbd29039ffb601e6d076650a19faaa22c1a631ed4ac5a6762c0e2f",
+        "efbf8a30d703fb379cac30f6ffec4b2f39c463ee767f37f3d432fbd7a947e5b8",
+        "f1752c64bd5446430573101812b6d6e61601055653b592a60727c88f41aacb01",
+        "26238be1035682878baa6f4b50da7b696e95d90d16b08f5d1075eed07c988aa9"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 12,
+          "terms": 24
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 24
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "program_sha256": "dff8773ec7786d7117c90e45ee8265ad9ddc1912740ed63371a124c3bbd5ee48",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=16\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=16\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "cf61aed34d63a8d27615966889c4677a3903e7662808bf7eb45dc067caa9b64c",
+        "bccc5539c015b9c74ba91a7ac9d284fa989195a3e671ce0d4ee0a6552e37011b",
+        "978f39530117020a94369886f545f1932c9014eb38e08f36bcd9a2e2d5e9d79b",
+        "3c18a17165933c6a88a5f38e90bddc35a38c5c04e5ac557715651edbe8f65bfb",
+        "9603bb96a64d845bfcde2c085a5f69d2af0a4c9e30487ac082f2655dae656deb",
+        "aab63629ebd2ac2a9c6fae25b7ea8844e31b33be20791e23a0b07168ae7ab585"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "99ee00eb47fed16e9c6bf551da0e13b67107bbdf91931ba74c8e5d72c2353049",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "5bd4ebdf0b602f40d36e7603702c01f30dfea572f21b2a449c30dede416bba43",
+        "e8d643987b68855a8bd646c48ffdbc8912557855ad9d81b1ae4d6b9c85bbbbbf",
+        "742a21a22ef9542ecb0e8becd4d74bc8f01245229d9d138d6fc8bab450752b1a",
+        "dfc569ec5ddfad1d2125270d73d8dfe458832a7078a3441eb680fa95fa9faaa5",
+        "ddbf08e2761cad68fdb4e39ad3a8d0897aa93ea3069e91ed6ba4d7a9f7e982f7",
+        "c581f8483148f7e0eeeffe7f1ae0f897464057fea2d3bc9acc6754f55d048d11"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "e3aab9b4b196ce0ce694acebe0549bd9713ee810b6b343e4ca3e4cca73575cfe",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "cf61aed34d63a8d27615966889c4677a3903e7662808bf7eb45dc067caa9b64c",
+        "bccc5539c015b9c74ba91a7ac9d284fa989195a3e671ce0d4ee0a6552e37011b",
+        "8dbeaf33763ba124b6b0d4cdf0d76b19f46cb6828307fe33f713b2a920798154",
+        "3c18a17165933c6a88a5f38e90bddc35a38c5c04e5ac557715651edbe8f65bfb",
+        "c18d0d45811e9357e8fdd0eb4a7f64302e42e0149111160ee249bba7c9e1463e",
+        "f5929abd6842e12bcc33a819ed92030c031d85a9a240d6687538fc59f94b1562"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "bfc5e89cdd1522275db923242159ffa19a8fa3effe0aa50b82a8e443e8b69269",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "5bd4ebdf0b602f40d36e7603702c01f30dfea572f21b2a449c30dede416bba43",
+        "e8d643987b68855a8bd646c48ffdbc8912557855ad9d81b1ae4d6b9c85bbbbbf",
+        "3cedeee67951843aebc5a79ebb50f2048650e654727b144ddee32bb2ae09a309",
+        "dfc569ec5ddfad1d2125270d73d8dfe458832a7078a3441eb680fa95fa9faaa5",
+        "34f362a929ce2b6d84bbe76723c38779d16fecdc40a24c4c1aae35a50bc6b1b9",
+        "2f0651497451f846315e9cdaaa248e01f70e7c1d2d1c6bbd9c10557836f4bbbc"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "86ac9b16d603fc319c4171e38acfc6c28ff5015b1e82649d59bc0b4383ca18bb",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "cf61aed34d63a8d27615966889c4677a3903e7662808bf7eb45dc067caa9b64c",
+        "8bd2fa78ff43d7ecc484fd9b861fb68f08ef2e5c00efc82a74d24cb147c86172",
+        "978f39530117020a94369886f545f1932c9014eb38e08f36bcd9a2e2d5e9d79b",
+        "e2424d8d691103d109cf2fcc37dc43259fad5c632ba2d8df9e79c18a4e1a44e4",
+        "9603bb96a64d845bfcde2c085a5f69d2af0a4c9e30487ac082f2655dae656deb",
+        "f5929abd6842e12bcc33a819ed92030c031d85a9a240d6687538fc59f94b1562"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "f1981b5d385482bccfb81057d2729ab66c548fd1e1d33fc44222688b6d07728a",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "5bd4ebdf0b602f40d36e7603702c01f30dfea572f21b2a449c30dede416bba43",
+        "32057adf8b209af51348328cb7db08c63c7d5ddd295aaf9f4aaf8a88184515b5",
+        "742a21a22ef9542ecb0e8becd4d74bc8f01245229d9d138d6fc8bab450752b1a",
+        "884bcb18251fd12bb83df39d2677b03be510ed6c25a6c379b21342a8e9a92e6a",
+        "ddbf08e2761cad68fdb4e39ad3a8d0897aa93ea3069e91ed6ba4d7a9f7e982f7",
+        "2f0651497451f846315e9cdaaa248e01f70e7c1d2d1c6bbd9c10557836f4bbbc"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "410de2236ae5889353c8e53def42261f580e8845520f665514bcf9d0664e0509",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "cf61aed34d63a8d27615966889c4677a3903e7662808bf7eb45dc067caa9b64c",
+        "8bd2fa78ff43d7ecc484fd9b861fb68f08ef2e5c00efc82a74d24cb147c86172",
+        "8dbeaf33763ba124b6b0d4cdf0d76b19f46cb6828307fe33f713b2a920798154",
+        "e2424d8d691103d109cf2fcc37dc43259fad5c632ba2d8df9e79c18a4e1a44e4",
+        "c18d0d45811e9357e8fdd0eb4a7f64302e42e0149111160ee249bba7c9e1463e",
+        "aab63629ebd2ac2a9c6fae25b7ea8844e31b33be20791e23a0b07168ae7ab585"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 60
+        },
+        {
+          "degree": 10,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 66
+        },
+        {
+          "degree": 11,
+          "terms": 60
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "f935f8474e6dc34f247f277499f2f0a404c1962052922683fd8caa01855e0f4a",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 7,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "5bd4ebdf0b602f40d36e7603702c01f30dfea572f21b2a449c30dede416bba43",
+        "32057adf8b209af51348328cb7db08c63c7d5ddd295aaf9f4aaf8a88184515b5",
+        "3cedeee67951843aebc5a79ebb50f2048650e654727b144ddee32bb2ae09a309",
+        "884bcb18251fd12bb83df39d2677b03be510ed6c25a6c379b21342a8e9a92e6a",
+        "34f362a929ce2b6d84bbe76723c38779d16fecdc40a24c4c1aae35a50bc6b1b9",
+        "c581f8483148f7e0eeeffe7f1ae0f897464057fea2d3bc9acc6754f55d048d11"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 56
+        },
+        {
+          "degree": 11,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "19af26c3cc78d602581d63813959054063671b43cea328154ea07f2611be31b7",
+      "singleton": 2,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "27c086a2f2b28417e85e641f4c7897af522d9269f74fba82819d4390a544b628",
+        "283ae5957ca0dcdb4e8b652e6e89d6c67aee6041e536872330ad578badfbc51b",
+        "b5c60abbbc72000f4ccc53d845eaf25d9befd253fb39c73c498d3285d6eaef35",
+        "4c6201bd623ef97ccf171502761bca5551ff9c794065dd7ffe401d2f03f99f53",
+        "1837d029cb97343f3c9ad7c499f09fe9ead44f25214dbb6f380c873d471bdd76",
+        "8591b527f48459dca267d819124c9553b23710ba477348c9b35f8fcaa6bfde7b"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "e7bdad70b198ab316e745fc5eb08da925cf4ec871ff700d30de45e11d0eb4cba",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "010545d94ce90970efcf0bc7013e04dbc4d857c18855a51b00035f273505933c",
+        "90e41fdbffca834b621f34d8ae8c7f701e165915e4586885338ebf1feeb56faa",
+        "3b6156581596559e108fdd44f12f32990f47464c53eb94db1219dc8e9f676406",
+        "a613dd2a7bdf237e4ad538247b69286e5015cfae0fca6e3d60786d59a3838cf8",
+        "c337ab07f83b59386729758a74cd88316a4e2dd2ca8dc9be4bbf276691a4042a",
+        "0d6493df207740ef7e514feb1dd7ae21f068abb9d8a6063294780cdeedd6d629"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "1aa54b67b89f20f93fcf470fe7fe08fdfc253cc487eacc797e5cd1a45c0149cf",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "27c086a2f2b28417e85e641f4c7897af522d9269f74fba82819d4390a544b628",
+        "283ae5957ca0dcdb4e8b652e6e89d6c67aee6041e536872330ad578badfbc51b",
+        "53f3a8748753c77f01f515bb7774dd111f125ca3ddd0d5e4adc4c06a4d8ac132",
+        "4c6201bd623ef97ccf171502761bca5551ff9c794065dd7ffe401d2f03f99f53",
+        "3547caa7d7288e66d628c2f4e37f14a77999b81e4136ee7f22e7ea322a942f70",
+        "df878bf0fa530cb4ad74c1ad40a78b11952815194cf532147abbd19ad5150400"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "62841a7ab6c01f26d510a1f30b7f00f84a080e2ddb8c24820f373a3f695df57f",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "010545d94ce90970efcf0bc7013e04dbc4d857c18855a51b00035f273505933c",
+        "90e41fdbffca834b621f34d8ae8c7f701e165915e4586885338ebf1feeb56faa",
+        "ffca5bfb74e7a85612e9ae93d525c3c4c64d4225c71a319edaf51bcc7972ba2c",
+        "a613dd2a7bdf237e4ad538247b69286e5015cfae0fca6e3d60786d59a3838cf8",
+        "0341b81a0083579226ad9da86a5ae1b6238f2475ae01697c6c458888b18bb34d",
+        "afaa6df6a0153366e941146a6450fe4a401d12bfd62e37978449d444b47766b5"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "4d2ddd15300885de539a8e27b53feea0441e111badf119c26aaa0737fdd5c473",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "b166d8c01a9110f71425c5e3df2037b9b2a1fbda7c04ea203ab8410e74bcc804",
+        "cb5507d6eecc67bedfc1b86798ec7d03aa816e19526c4cd1d902290eae003fd5",
+        "53f3a8748753c77f01f515bb7774dd111f125ca3ddd0d5e4adc4c06a4d8ac132",
+        "4c6201bd623ef97ccf171502761bca5551ff9c794065dd7ffe401d2f03f99f53",
+        "1837d029cb97343f3c9ad7c499f09fe9ead44f25214dbb6f380c873d471bdd76",
+        "8591b527f48459dca267d819124c9553b23710ba477348c9b35f8fcaa6bfde7b"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "15b2df834b9c2089862b77930129e3097d11bdad12c9317f0b634d9f9ccd26e1",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "f7f39702de898b80ff62ca0c2fef918f7346a5cd910a7016aed2eec71fcc5909",
+        "ced07caa1ede12f00681620ec1090ab0693de25165d9631429f82bb47765e366",
+        "ffca5bfb74e7a85612e9ae93d525c3c4c64d4225c71a319edaf51bcc7972ba2c",
+        "a613dd2a7bdf237e4ad538247b69286e5015cfae0fca6e3d60786d59a3838cf8",
+        "c337ab07f83b59386729758a74cd88316a4e2dd2ca8dc9be4bbf276691a4042a",
+        "0d6493df207740ef7e514feb1dd7ae21f068abb9d8a6063294780cdeedd6d629"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "c1779d556ab742e573032883dad2779cce1bd6a5b2f9fa787c7b327b0c345810",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "b166d8c01a9110f71425c5e3df2037b9b2a1fbda7c04ea203ab8410e74bcc804",
+        "cb5507d6eecc67bedfc1b86798ec7d03aa816e19526c4cd1d902290eae003fd5",
+        "b5c60abbbc72000f4ccc53d845eaf25d9befd253fb39c73c498d3285d6eaef35",
+        "4c6201bd623ef97ccf171502761bca5551ff9c794065dd7ffe401d2f03f99f53",
+        "3547caa7d7288e66d628c2f4e37f14a77999b81e4136ee7f22e7ea322a942f70",
+        "df878bf0fa530cb4ad74c1ad40a78b11952815194cf532147abbd19ad5150400"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "a2ba5ac0c76e8a679ee5b57d54e3eb574b55a0a6993972e733b52c3efb63088d",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 9,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "f7f39702de898b80ff62ca0c2fef918f7346a5cd910a7016aed2eec71fcc5909",
+        "ced07caa1ede12f00681620ec1090ab0693de25165d9631429f82bb47765e366",
+        "3b6156581596559e108fdd44f12f32990f47464c53eb94db1219dc8e9f676406",
+        "a613dd2a7bdf237e4ad538247b69286e5015cfae0fca6e3d60786d59a3838cf8",
+        "0341b81a0083579226ad9da86a5ae1b6238f2475ae01697c6c458888b18bb34d",
+        "afaa6df6a0153366e941146a6450fe4a401d12bfd62e37978449d444b47766b5"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "program_sha256": "a5b1f5a5a7d159859a788a9e8d7c25e800b17a2dd4ded81757664d7f2870cd54",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "68dfdc755bd9f09ef80cafa9ab99a5cd92774af768313da14c9ec64d9735ed1c",
+        "d4ce716cd772ddfc483d9980820c81b80d7ac1500a905689a7e4492c9779ae6d",
+        "4e88e149a0fdac13fea1068707fa790228d810528d07b9a9990abdecae12c154",
+        "53f181afbeee7ccdb08210daebbb8567885ac9805d5f12715825c00f1218686c",
+        "409f65d2a4e34bba0a4f5c2d96da2616bb4e0fddd2c735d92021ad6d01ba1b11",
+        "6525380b3270dc1d02f4070834326cea9fe56fd33879a6163a3cab53425b47eb"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "db8fb7099d83a43fbce3d41f921333a1324b4a0886f69da6542b6c172fb7c28a",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "beeaae41727613f85320d76a2de99226597a8bdf5c051e43eb11fba17d8e2ca5",
+        "68671a492ca1c0917a92a79c06905413cabe3f6d1c9de5ebec487d3579f3fc9a",
+        "ecb76a8f5be211180ab96a276b491d7ce8fa3b698b0d752b72155f432fbb5715",
+        "6ae3059c9d94797aa1dd82044821b7b735b73ddb2fd11c4deb4b5274f2eb8dd8",
+        "676a90429b6e5f7418ca0acd24e91a76ab9099d4689b502a25c299e985ffbec3",
+        "8ac032b92c48eb72b27693878907e679fbd80fdc35bb3c36e51754ed8a001888"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "49384d4c35fbd42c074580976b760da65aa4f39080fd81ac8b8296f0020b79b5",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "68dfdc755bd9f09ef80cafa9ab99a5cd92774af768313da14c9ec64d9735ed1c",
+        "d4ce716cd772ddfc483d9980820c81b80d7ac1500a905689a7e4492c9779ae6d",
+        "a3c47726fdaa46891cd2e3e107264a4ebed262462a7b3e2c6a3c4be4a89b4e62",
+        "53f181afbeee7ccdb08210daebbb8567885ac9805d5f12715825c00f1218686c",
+        "df41b29c386bd6019906cd0c581106fa4475e2b89be0086af3eeebcf553375aa",
+        "2b0514ac9fc45d68568ff8e9aa427db98625d50390107e6c1f3fc9f7e71e64e2"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "3a248e74ef0af829f13a7407533470225593a3b9833d22982d65b5821af6c9cb",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "beeaae41727613f85320d76a2de99226597a8bdf5c051e43eb11fba17d8e2ca5",
+        "68671a492ca1c0917a92a79c06905413cabe3f6d1c9de5ebec487d3579f3fc9a",
+        "5bcc92ce1ffd5d46951494c173c2ad5c463db5a1b00602ca68797147af3f5b24",
+        "6ae3059c9d94797aa1dd82044821b7b735b73ddb2fd11c4deb4b5274f2eb8dd8",
+        "6a6ff68ad2f6f4bb4b11a63fc9aef650c6e4076b03e42100eedd04e2ef0f735f",
+        "81ab46e107a47bca39aad1ff1bf59a57f01727404cb02e6617f3d448c1cf2a27"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "4fab5875ec52a6c1f40fb1fb3bdb6fe29f48e97cec4369b3c2b8588e2fdb3ca9",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "5ad511cb10e36891dd8a8ee52ca51874ab83bdff68aa3e1243d839f4e4267cfe",
+        "d4ce716cd772ddfc483d9980820c81b80d7ac1500a905689a7e4492c9779ae6d",
+        "4e88e149a0fdac13fea1068707fa790228d810528d07b9a9990abdecae12c154",
+        "e55738482adf55dfaf86d9d535d3208e6a8046c3191805126850c5476e663e62",
+        "df41b29c386bd6019906cd0c581106fa4475e2b89be0086af3eeebcf553375aa",
+        "6525380b3270dc1d02f4070834326cea9fe56fd33879a6163a3cab53425b47eb"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "86b41ed8085984400a41ca95c74631309f0d1988b95a976bdfd7b08cadb2e45a",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "b0e553daaa5722244d7905d62ff0117fc29d421818013208c20917aa27e11ac8",
+        "68671a492ca1c0917a92a79c06905413cabe3f6d1c9de5ebec487d3579f3fc9a",
+        "ecb76a8f5be211180ab96a276b491d7ce8fa3b698b0d752b72155f432fbb5715",
+        "789aefc40dd8fbd863970286df419e38ed327ba2722437ef70eb05a11bc3fc8f",
+        "6a6ff68ad2f6f4bb4b11a63fc9aef650c6e4076b03e42100eedd04e2ef0f735f",
+        "8ac032b92c48eb72b27693878907e679fbd80fdc35bb3c36e51754ed8a001888"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "0d96d0bb30acdf94b528cecab2a67da440ad395eeea43fab5b90024a88847781",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "5ad511cb10e36891dd8a8ee52ca51874ab83bdff68aa3e1243d839f4e4267cfe",
+        "d4ce716cd772ddfc483d9980820c81b80d7ac1500a905689a7e4492c9779ae6d",
+        "a3c47726fdaa46891cd2e3e107264a4ebed262462a7b3e2c6a3c4be4a89b4e62",
+        "e55738482adf55dfaf86d9d535d3208e6a8046c3191805126850c5476e663e62",
+        "409f65d2a4e34bba0a4f5c2d96da2616bb4e0fddd2c735d92021ad6d01ba1b11",
+        "2b0514ac9fc45d68568ff8e9aa427db98625d50390107e6c1f3fc9f7e71e64e2"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 10,
+          "terms": 52
+        },
+        {
+          "degree": 12,
+          "terms": 64
+        },
+        {
+          "degree": 11,
+          "terms": 52
+        },
+        {
+          "degree": 11,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "7746832aac8375d861fc68e092002047b2ece3f3973c33c823881b9a25ab0ca3",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 10,
+      "chart_complete": true,
+      "chart_unit": true,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "b0e553daaa5722244d7905d62ff0117fc29d421818013208c20917aa27e11ac8",
+        "68671a492ca1c0917a92a79c06905413cabe3f6d1c9de5ebec487d3579f3fc9a",
+        "5bcc92ce1ffd5d46951494c173c2ad5c463db5a1b00602ca68797147af3f5b24",
+        "789aefc40dd8fbd863970286df419e38ed327ba2722437ef70eb05a11bc3fc8f",
+        "676a90429b6e5f7418ca0acd24e91a76ab9099d4689b502a25c299e985ffbec3",
+        "81ab46e107a47bca39aad1ff1bf59a57f01727404cb02e6617f3d448c1cf2a27"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 32
+        },
+        {
+          "degree": 10,
+          "terms": 36
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 48
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": true,
+      "guard_sha256": "2572de7338689dc5ee0f0b3fea8ef2ff759d8061612ebc49cce44794ad5556b2",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "program_sha256": "2701ea663264f6e0d0009b2d2c426929e75f152c29641a65e09cda7dcb9d96d9",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=-1\nSIZE=1\nCHART_UNIT=1\nEND_CHART\nBEGIN_FULL\nDIM=-1\nSIZE=1\nFULL_UNIT=1\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "8e5cb6b0cf545ef1f3c7fc82e8808bcbbe6b10cc13228edf86e1d5844e08c0f9",
+        "5796b484c636207af764c0ca3212cef6be21b124581712849a8df06da8d3a529",
+        "fc7c29cbacbeac4e36ac9b6a7d32a460503ba8b71aba0e29f582ce8584f6bf8e",
+        "246fab7b265662026ad27e497f5612e33cc6fe44fe09d035a9a6ebc88dee47ca",
+        "767b9d82aec07ea0d75719be6f00fe5d1d94531b124374723a312f3d03d92d4e",
+        "040a862aa04d138ab4f25f9748b73d6a13743d2ce4eedcc5d2f89c170b21b1ce"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 12,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "ad71a6545a1163591604cbc8a035a9cc36d1375f99698269bb91976c44c4bdb7",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=21\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=21\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "equation_sha256": [
+        "98886685deaef677cdcb1d98e56fdab542c4b0a188ac5bc5384ef49eb051c254",
+        "828b3c8f88236451bad63e33e3f189b8d53ef17d672c4dd0ab5d82cd32a92ebc",
+        "fa804167996feedec2144cc69d2c6e4b4b619085d180178cbaf648dd1f4b3966",
+        "24693fd89596b0793734b921ea6cf70ee7a04fdd8485718fcb5108035faf46c8",
+        "4fb3fe985dac8c7b3f863283ae9e83b7ab4b0f81fd35cb1d5759be9dbe287c2b",
+        "4f35ea0759a28000bd92de99c628d85fe65c905fdf895ded060fdba34ba6393f"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "a499f5bfbb1ed936a3efb01948605a673b5762d58e85c2f69225f2477d472378",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=17\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=17\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "974820230df7112f44590042ff6095db6e01f6514928c6dbe1099a378f851af2",
+        "5796b484c636207af764c0ca3212cef6be21b124581712849a8df06da8d3a529",
+        "fc7c29cbacbeac4e36ac9b6a7d32a460503ba8b71aba0e29f582ce8584f6bf8e",
+        "2453b528a77a3b00393e5fbcd5c76c442c1b92b98b80428fa44566b87ecc79d5",
+        "5055dab31ce5a859cbf788154613ae22e400b1bb90b3f31f4149c2546cc3736e",
+        "040a862aa04d138ab4f25f9748b73d6a13743d2ce4eedcc5d2f89c170b21b1ce"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 12,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "106cfa72a3f6316aa8a62c9b54b3e46736ade293701e55b7ea9ec0e66896bc07",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=21\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=21\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "equation_sha256": [
+        "6a42cd895197510f815a9f018ed43919ef81b4f71611aefa5fb757b5c16dc2f7",
+        "828b3c8f88236451bad63e33e3f189b8d53ef17d672c4dd0ab5d82cd32a92ebc",
+        "fa804167996feedec2144cc69d2c6e4b4b619085d180178cbaf648dd1f4b3966",
+        "0233de9fadb9976695861280957f14ecd0ad875da0d8ea881f2432a4ef70bcba",
+        "367153542b00b0a5079c5f37971b53f7140718c3801d82db73bdef22f304f86a",
+        "4f35ea0759a28000bd92de99c628d85fe65c905fdf895ded060fdba34ba6393f"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "e99462215b705d4349107a9650b6db639d003c40ef5c29fa7bf38e47383d9244",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=17\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=17\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "8e5cb6b0cf545ef1f3c7fc82e8808bcbbe6b10cc13228edf86e1d5844e08c0f9",
+        "5796b484c636207af764c0ca3212cef6be21b124581712849a8df06da8d3a529",
+        "be1458538be71607841111b0f1e4337681d8bd06c583054b257605e88e35e351",
+        "246fab7b265662026ad27e497f5612e33cc6fe44fe09d035a9a6ebc88dee47ca",
+        "5055dab31ce5a859cbf788154613ae22e400b1bb90b3f31f4149c2546cc3736e",
+        "db746d90d9627184e19faaddc03288edf7499db88693eecd4a4b06f69eeed186"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 12,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "a55ffbcc48dc2bcd83ffc58c4f4eb757ba371400f440f2fb3b2ff27aa20a6198",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=21\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=21\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "equation_sha256": [
+        "98886685deaef677cdcb1d98e56fdab542c4b0a188ac5bc5384ef49eb051c254",
+        "828b3c8f88236451bad63e33e3f189b8d53ef17d672c4dd0ab5d82cd32a92ebc",
+        "27852899f44dd91c77b7a29f169c00c1d8606e61ff5522a39d009657bebce554",
+        "24693fd89596b0793734b921ea6cf70ee7a04fdd8485718fcb5108035faf46c8",
+        "367153542b00b0a5079c5f37971b53f7140718c3801d82db73bdef22f304f86a",
+        "92a6bc9da0106a966c1fa1abad30c101f9202cb0ae1ceff55aaf67bedb2977bd"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "77d74c0e55e096ddd6544d73472fad2db92aa4e57719bfc094129e410f94a1bf",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=17\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=17\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": -1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "974820230df7112f44590042ff6095db6e01f6514928c6dbe1099a378f851af2",
+        "5796b484c636207af764c0ca3212cef6be21b124581712849a8df06da8d3a529",
+        "be1458538be71607841111b0f1e4337681d8bd06c583054b257605e88e35e351",
+        "2453b528a77a3b00393e5fbcd5c76c442c1b92b98b80428fa44566b87ecc79d5",
+        "767b9d82aec07ea0d75719be6f00fe5d1d94531b124374723a312f3d03d92d4e",
+        "db746d90d9627184e19faaddc03288edf7499db88693eecd4a4b06f69eeed186"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 48
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 11,
+          "terms": 54
+        },
+        {
+          "degree": 10,
+          "terms": 60
+        },
+        {
+          "degree": 12,
+          "terms": 62
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "72923bf886c9ca014516cfe18d8f8fb304a94c2f6d8042aa2b61d4070afe412a",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=21\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=21\nFULL_UNIT=0\nEND_FULL\n"
+    },
+    {
+      "bc_sign": 1,
+      "cell": 11,
+      "chart_complete": true,
+      "chart_unit": false,
+      "epsilon": [
+        1,
+        1
+      ],
+      "equation_sha256": [
+        "6a42cd895197510f815a9f018ed43919ef81b4f71611aefa5fb757b5c16dc2f7",
+        "828b3c8f88236451bad63e33e3f189b8d53ef17d672c4dd0ab5d82cd32a92ebc",
+        "27852899f44dd91c77b7a29f169c00c1d8606e61ff5522a39d009657bebce554",
+        "0233de9fadb9976695861280957f14ecd0ad875da0d8ea881f2432a4ef70bcba",
+        "4fb3fe985dac8c7b3f863283ae9e83b7ab4b0f81fd35cb1d5759be9dbe287c2b",
+        "92a6bc9da0106a966c1fa1abad30c101f9202cb0ae1ceff55aaf67bedb2977bd"
+      ],
+      "equation_shapes": [
+        {
+          "degree": 11,
+          "terms": 36
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 11,
+          "terms": 40
+        },
+        {
+          "degree": 10,
+          "terms": 44
+        },
+        {
+          "degree": 12,
+          "terms": 56
+        }
+      ],
+      "field": 2130706433,
+      "full_unit": false,
+      "guard_sha256": "e4c06ec8ad525b0fb70f53472ce4ca6759504bc80039489564708cf4f442dfad",
+      "guard_shape": {
+        "degree": 28,
+        "terms": 60
+      },
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "program_sha256": "9ba6b480cfcc5bc19c943867f5d1384a681c74fa3eb0645af82dc1b33516a887",
+      "singleton": 3,
+      "status": "COMPLETE",
+      "stderr": "",
+      "stdout": "BEGIN_CHART\nDIM=1\nSIZE=17\nCHART_UNIT=0\nEND_CHART\nBEGIN_FULL\nDIM=1\nSIZE=17\nFULL_UNIT=0\nEND_FULL\n"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-repeat-saturation-v1",
+  "scope": "Exact deployed-field guarded common-ideal scout on all 72 duplicate-role representatives; unit ideals prove only common class emptiness, while survivors/timeouts make no route claim.",
+  "source_sha256": "e438d227f5ed7b92c8b787daf075dd56aadb1f6e871f3ffd06e8dd4823b3deea"
+}

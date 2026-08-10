@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b split-BC product-rank-drop complete exclusion",
+    "status": "PROVED",
+    "closure": "exact unit-ideal exclusion of all 10,080 outside systems over the sixteen split-common product-rank-drop points",
+    "statement": "The six split-BC O0b target-gauge lanes are S0, SDE, and SDF with both outside-cycle signs. The certified split-common product-rank-drop classifier has exactly sixteen deployed guarded points. At each point and lane, the seven missing-record choices and fifteen residual matchings give 105 exhaustive necessary ideals. Exact guarded standard bases make all 16*6*105=10,080 ideals the unit ideal. Therefore the complete deployed split-BC product-rank-drop branch of 433-1b -> O0b is empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_split_rankdrop_complete_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_S0_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_SDE_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_split_rankdrop_outside_SDF_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_deployed_rational_classifier"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_vieta_minor_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"},
+    {"from": "rate_half_kb_m2_r4_order2_coordinate_source_facet_signature"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

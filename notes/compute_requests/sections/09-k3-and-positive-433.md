@@ -2286,3 +2286,59 @@ roots, and degrees through 508. Dedicated direct replay
 ledgers. Exact transport pays four labels in two orbits, leaving 24 labels in
 6 active cell-5 orbits. No rerun is requested; the next bounded family is
 `xi=3` pairings `3/4/5`.
+
+**Cell-5 xi3 pairings-3/4/5 payments.** Pairing-3 pilot
+`ap-MPpRkT66xLx6Ds86ClR7ax` and full app
+`ap-H0IIW2thzDFwlMIUs1N0Ig` closed all 8 rows with 88 candidates and 80
+guarded routes. Pairing-4 pilot `ap-Ecx21odPCc08JkqkmHRaZb` and full app
+`ap-XadN0KGQxn6OQnBbxLkk8c` closed all 4 rows with 80 candidates, 144
+guarded routes, 24 compatible `q` lifts, and 96 nonzero final lanes.
+Pairing-5 pilot `ap-Jdx1xl0uXWxWByUY2zolSb` and full app
+`ap-5fFJNffd0PbaElqqI84YVS` closed all 8 rows with 128 candidates and 208
+guarded routes.
+
+Independent root app `ap-YDq3UwLeD4BRPYUnsWYE5t` wrote a complete packet
+covering 69 profiles, 332 deployed roots, and degrees through 4560 before
+the local Modal client was interrupted. Its retained sha256 is
+`c4e2d14ca8bec16eaed65c40191fc70a1844bf086754c8a124118fa6b9f2f0c3`.
+Dedicated direct replay `ap-yfMG7vQfVKsexBoGGb4Jxu` consumed that exact
+packet and passed every pairing-separated ledger. Exact transport pays 12
+labels in three orbits, leaving 12 labels in 3 active cell-5 orbits. No
+rerun is requested; the next bounded family is `xi=3` pairings `7/8/11`.
+
+**Cell-5 xi3 pairings-7/8/11 and active-label closure.** Pairing-7 pilot
+`ap-JVAkbmNq1b4mAOKtYIt1dw` and full app
+`ap-xlAamIanZVw5NgoF2jxw5W` closed all 8 rows with 100 candidates, 96
+guarded routes, 8 compatible lifts, and 16 nonzero final lanes. Pairing-8
+pilot `ap-W2bJPFYLwSp5SKtLSvBOQd` and full app
+`ap-3ROjlQtUxKOPkuj5qd5Ayx` returned the same exact totals under its changed
+source signs. Pairing-11 pilot `ap-a5Z8hUVMngFvtGJlwxC36x` and full app
+`ap-P5jk6t0UaLcWiJ9blRRD3n` closed all 8 rows with 108 candidates, 120
+guarded routes, 24 lifts, and 48 nonzero lanes.
+
+Independent root apps `ap-sQjOrD7mWOSAen2kmmEl99`,
+`ap-xqjrYDCvaZriiWWjg9sRQc`, and `ap-2DaEfR6hQbRZIVTQsAd5lG` each cover
+45 profiles and respectively reconstruct 164, 164, and 172 deployed roots.
+All three direct audits pass. Exact transport pays the final 12 active
+labels in three four-label orbits. A separate zero-compute composition
+checks that 16 proved owner packets pay exactly all 24 active orbits and all
+75 labels with `xi <= 4`. No rerun is requested. The next bounded compute
+target is the disjoint 30-label endpoint branch `xi in {5,6}`; it is not
+claimed by the active-label aggregate.
+
+**Cell-5 endpoint rootlessness and role-orbit `[5,8]` closure.** Exact
+compatibility app `ap-eKyJeKljojhF7wqgT2WNhY` completed all eight
+source-sign/endpoint ideals. Each has one univariate eliminant: degree 16 for
+the four `b` rows and degree 11 for the four `c` rows. Replay app
+`ap-cDjdfxWRQcs5eL4RgeKbQ3` found zero base-field roots, tower lifts, or
+generic candidates in every row. Independent app
+`ap-j1NvsU2Pzw7d8R5CrHhwYC` separately parsed the eliminants and certified
+`gcd(E,r^p-r)=1` eight times. Thus all 30 endpoint labels close before any
+target matching is introduced; the inherited 2,400-system residual census
+was intentionally not launched.
+
+Zero-compute exact compositions close cell 5 at `75+30=105` labels, verify
+the B/C duplicate-role map over all 1,680 signed principal systems, and
+close role orbit `[5,8]` using the proved rank-drop theorem. No rerun or
+further compute is requested. Export the pinned closure certificate through
+upstream PR #1152.

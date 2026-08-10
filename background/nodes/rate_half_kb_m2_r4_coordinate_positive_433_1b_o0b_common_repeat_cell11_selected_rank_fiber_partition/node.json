@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition",
+    "title": "KoalaBear m2 r4 positive 433-1b/O0b repeated-BC cell-11 selected-rank fiber partition",
+    "status": "PROVED",
+    "closure": "exact t relation and finite selected-cofactor boundary for all eight cell-11 common rows",
+    "statement": "On every guarded repeated-BC cell-11 common curve over F_2130706433, t=(epsilon_1 epsilon_2)r^2. For each BC sign, the printed degree-seven product-row cofactor is nonzero in the common coordinate ring. Its vanishing fiber is zero-dimensional of scheme degree four for BC- and six for BC+, independently of the epsilon signs. Thus each common row splits into a certified selected-cofactor open and a finite boundary of degree 4 or 6. This does not assert that every boundary point has product rank at most four and does not pay any outside record.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_selected_rank_fiber_partition/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_rank_fiber_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_o0b_common_repeat_cell11_rank_fiber_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0b_common_repeat_cell11_curve_projection_atlas"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment"}
+  ],
+  "refutes": []
+}

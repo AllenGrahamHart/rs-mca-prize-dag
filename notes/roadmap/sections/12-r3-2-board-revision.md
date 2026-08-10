@@ -790,3 +790,159 @@ aggregate promotions:     literal-assignment coverage PROVED
                            complete c2(1,1,2) source-line exclusion PROVED
 remaining c2 branches:    coordinate/source-cover and later assembly
 ```
+
+### 2026-08-09 upstream and canonical reconciliation
+
+Canonical `prize@4cdc2471f` decomposes the old rate-half band parent into two
+explicit critical children. `rate_half_band_structural_surplus` is the K3
+workboard arm and still requires complete positive-433 coverage, an audited
+raw-label-to-distinct-slope conversion, and independent review.
+`rate_half_band_crossing_location` is the separate razor-row `(RH-AC)` arm;
+its binding object is `S_sparse`, with the proved bracket
+`[k+2^34,3n/4]`. Raw K3 cells do not prove that crossing.
+
+Upstream `main` remains `93fba1be3`. PR #1152 is the living K3 export and PR
+#1153 independently replays the six residual cell-5 `xi=3` representatives.
+The latter supplies useful independent evidence but explicitly does not audit
+endpoint rootlessness or the cell-5-to-cell-8 transport. Its only RED finding
+against #1152 was custody: pinned source commit `3fa298743` was not publicly
+reachable. The exact campaign branch has now been pushed to
+`AllenGrahamHart/rs-mca-prize-dag` as
+`codex/full-prize-resolution-v12-20260807`; GitHub resolves the pinned commit.
+No theorem or ledger value changed in that repair.
+
+### Cell-11 common geometry, endpoints, and first active orbits
+
+The final positive `433-1b` common-role representative is cell `11`, with
+singleton `BC+` and source pairs `(LA,BC-)`, `(AB,AC)`. Four exact packets are
+now PROVED over `F_2130706433`:
+
+- the complete four-basis common locus in all 24 chart/sign rows, with a
+  genus-three base curve and eight individually nonsplit boundary fibers;
+- one sign-independent eight-coordinate common kernel, with 40/40 exact row
+  reductions;
+- all 30 endpoint labels, using eight degree-32 eliminants, 16 guarded lifts,
+  and zero compatible lifts;
+- the nine first-pair parallel-`DE` labels, using 80 case-labelled norm roots
+  and an independent Frobenius-gcd root-union audit.
+
+The next nested-quadratic packet closes the representatives `(0,3)` and
+`(2,3)`. All 32 sign/lane/role rows complete with 192 target roots, 336
+candidate roots, 224 guarded source points, 128 compatible `(u,v)` lifts,
+and 256 final nonzero colored cuts. Independent app
+`ap-frKYHquD9otZjb2wGNRbqV` reconstructs all 49 profiles, 194 base-field
+roots, and degrees through 4960. Universal label transport pays six labels
+at pairings `3/6`.
+
+The pairing-4 packet then closes representatives `(0,4)` and `(2,4)`. Its
+32 rows have 192 target roots, 336 candidate roots, 224 guarded source
+points, and 256 final `(u,f)` rows. The missing relation excludes 224 rows;
+the other 32 reconstruct and have nonzero colored-pair cut. Independent app
+`ap-MXqCb9CahGt3YsLS2gltzf` reconstructs all 41 profiles, 146 base-field
+roots, and degrees through 11240. Universal label transport pays eight more
+labels at pairings `4/7/9/10`.
+
+The pairing-5 sibling also closes all 32 rows. It has the same exact
+192/336/224 source census and 256 final `(u,f)` rows, but its audit swaps the
+second and final target factors as required by matching
+`((0,2),(1,5),(3,4))`. Independent app `ap-u2uuv4l53a60zXAa2TCy35`
+reconstructs 41 profiles, 146 roots, and degrees through 11240. Direct replay
+finds 224 nonzero missing relations and 32 nonzero colored cuts. Transport
+pays eight labels at pairings `5/8/12/13`.
+
+The positive pairing-9 packet pays the still-open half of the next orbit.
+All 16 rows complete with 128 target roots, 200 candidate roots, 160 guarded
+source points, and 256 `(u,f)` rows. Direct replay excludes 224 by the
+missing relation and 32 by a nonzero colored cut. Independent app
+`ap-Bg9tWdJEGuzLc3RgxJJQs9` reconstructs 33 profiles, 114 roots, and degrees
+through 11056. Transport pays `(0,9),(0,10),(1,9),(1,10)`; the reciprocal
+`xi=2` labels were already paid by the pairing-4 packet.
+
+The positive pairing-12 sibling repeats the 16-row `128/200/160` census.
+Its 256 direct rows again split into 224 nonzero missing relations and 32
+nonzero colored cuts. The audit additionally checks all 16 `b`-leading and
+16 `c`-leading boundary payments against the exact cell-11 tower.
+Independent app `ap-MmbvKEIYfBChxPyF6AEeZb` reconstructs 33 profiles, 114
+roots, and degrees through 11056. Transport pays the four labels at pairings
+`12/13` for `xi in {0,1}`.
+
+Positive pairing 14 uses the smaller common-`f` resultant. All 16 rows close
+with 136 target roots, 208 candidates, and 208 guarded source points. The 144
+checked points have no compatible common-`f` lift; 32 leading payments are
+validated separately. Independent apps `ap-awforC5jf7bqWTpJBBjKYj` and
+`ap-Q6cnEnq3P3Th3x066OGBvc` certify 37 profiles, 150 roots through degree
+1396, and the complete direct replay. Duplicate transport pays `(0,14)` and
+`(1,14)`. The final direct-role pairing-11 packet closes those remaining
+representatives `(0,11)` and `(2,11)`. Its 32 rows contain 216 target roots,
+360 candidates, and 272 guarded source points. The direct replay separates
+64 missing-impossible cases, 64 product boundaries, 64 leading-boundary
+payments, and 144 checked interior cases with no common-`f` lift. External
+apps `ap-K7CqAwIbCnq0ChQgRzWLTN` and `ap-sJivx4sRP3aAe5nk9zNWN4` certify 53
+profiles, 222 roots through degree 1420, and the complete independent replay.
+Transport pays `{(0,11),(1,11),(2,11),(2,14)}`. Every direct-role label is
+therefore closed.
+
+Outside pairing 0 is the first transported-role packet. The reciprocal-square
+compiler closes all 24 sign/branch rows with 136 target roots, 300 candidates,
+320 guarded routes, 192 recovered `(y,d)` candidates, and 384 nonzero final
+lanes. Independent apps `ap-wrPlrdL56UVupbu5JZCyTv` and
+`ap-l5CyllQGIPwwET0B1BfqS1` reconstruct 89 profiles, 402 roots through degree
+756, and the full direct replay, including 48 exact leading-boundary payments.
+Outside-role transport pays `{(3,0),(4,0)}`.
+
+The shared reciprocal-linear packet closes outside pairings 1 and 2 in 36
+rows. Pairing 1 has 72 target roots, 162 candidates, 176 routes, 16 lifts,
+and 64 nonzero final lanes; pairing 2 has 144 target roots, 324 candidates,
+352 routes, 32 lifts, and 64 nonzero final lanes. Independent apps
+`ap-iZ4eiGhr8umjRNEEyLt4Sh` and `ap-VnmB02JnfxS2C1q6Dljay3` certify 125
+profiles, 610 roots through degree 712, both per-pairing ledgers, and all 72
+leading-boundary payments. Transport pays the four labels in the pairing-1
+and pairing-2 outside-role orbits.
+
+The next shared outside-role packet closes pairings 3, 4, and 5. Pairing 3
+has 8 rows, 48 target roots, 84 candidates, and 32 routes; every finite
+candidate terminates before the `z` stage. Pairing 4 has 4 rows, 28 target
+roots, 70 candidates, and 120 routes; its 224 nested intersections retain 8
+`q` lifts whose 32 colored lanes are all nonzero. Pairing 5 has 8 rows, 56
+target roots, 140 candidates, and 240 routes; its 448 intersections retain
+16 `q` lifts whose 32 colored lanes are all nonzero. The aggregate terminal
+ledger also audits 40 missing-impossible exits, 40 product boundaries, 100
+`r`-boundaries, 40 `t`-boundaries, 40 cell-11 leading boundaries, and 122
+no-`b` exits. Independent apps `ap-o7XtMQ7CuyhB7S6MVpI3GJ` and
+`ap-6qp5CJr9byI7fhgDqKLFVc` reconstruct 73 profiles, 370 roots through
+degree 6510, and the complete direct replay. Outside-role transport pays the
+twelve labels in the pairing-3/6, pairing-4/9, and pairing-5/12 orbits.
+
+The final quadratic-resultant packet closes outside pairings 7, 8, and 11.
+Pairings 7 and 8 each have 8 rows, 88 target roots, 124 candidates, 144
+routes, 64 compatible `q` lifts, and 128 nonzero final lanes. Pairing 11 has
+8 rows, 64 target roots, 100 candidates, 80 routes, 16 lifts, and 32 nonzero
+lanes. Each pairing also pays 16 exact cell-11 leading boundaries. Full apps
+`ap-ahB3FdCNoaiERxtJIcNC5S`, `ap-jjRHWhngbrhZi3Hi5SG0vT`, and
+`ap-3EuijW7G1y3wnyCiCidzdy` close all 24 rows. Independent app
+`ap-B1J6bxiNSGjnN5683JO3oD` reconstructs the shared 61-profile, 302-root
+packet through degree 5192; three local direct audits replay all original
+paired-scalar equations and leading-boundary payments.
+
+Transport pays the last twelve active labels. A separate aggregate verifier
+then checks that 16 proved owner packets pay exactly one representative of
+all 24 active quotient orbits, hence all 75 active labels. Composing that
+theorem with the earlier 30-label endpoint theorem gives a disjoint
+`75+30=105` cover. Positive `433-1b` source-role cell 11 is therefore PROVED
+complete at 105/105 raw labels. This is a source-cell theorem only; the K3
+raw-label-to-distinct-affine-slope conversion remains open.
+
+```text
+lane:                     MCA / K3 / coordinate-positive 433-1b cell 11
+cell-11 raw labels:       105/105 closed
+active quotient frontier: 0 outside-role representatives / 0 labels
+DAG status delta:         +21 background PROVED; critical child unchanged
+upstream terminal delta:  complete source-cell packet; no slope conversion
+Modal primary apps:       ap-PXOGCuPw5mZOz08P4sVPQb, ap-XVGCXYXryoBPGqTwLHfFy2,
+                          ap-kZeY7ntbuu7JTHfTLWZehM, ap-YiTN2Ynav6XLzUcNCAvwoB,
+                          ap-AAjsUngSWRL1pV2Fja1h5k, ap-QXyAhMWuFZqkvHwHQcsQ2D,
+                          ap-TWGHPcGCiL5Pvp6blq7acF, ap-lnY3DmInpYakNtFRf0GfgO,
+                          ap-WjlcKuiffUMXWrMYaYIfAD, ap-Sk0zngFXCtsu8cZURKkRZ7,
+                          ap-ch4yReZgteGYMgTrfepTQQ, ap-9quSowL2Lub0UceLg7eQfl
+next:                     complete workboard aggregate and labels-to-slopes audit
+```

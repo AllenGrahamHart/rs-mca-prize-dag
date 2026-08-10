@@ -1,0 +1,146 @@
+{
+  "field": 2130706433,
+  "rows": [
+    {
+      "eliminant_degree": 16,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 11,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 16,
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 11,
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 16,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 11,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 16,
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    },
+    {
+      "eliminant_degree": 11,
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "generic_point_count": 0,
+      "generic_points": [],
+      "leading_boundary": [],
+      "lifted_point_count": 0,
+      "no_lift": [],
+      "r_root_count": 0,
+      "r_roots": [],
+      "route_boundary": [],
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell5-endpoint-replay-v1",
+  "scope": "Complete deployed-root replay of cell-5 source-only endpoint compatibility eliminants; no residual matching claim.",
+  "source_kernel_sha256": "627a8df8bb8a2da4e11488658d1c2145b8c65ef7fbcef3f0f4f53f9d05ea752d",
+  "source_pilot_sha256": "2aa299a33d85a14eec78a0722ec9c82d137327acdfdc7ef8a370243ea9f21030",
+  "source_tower_sha256": "68c18173d4133f66a85136b1ecc33235f7e979c26b6f96d8592030901a8a335c"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion",
+    "title": "KoalaBear m2 r4 positive 433-1b cell-11 endpoint-role exclusion",
+    "status": "PROVED",
+    "closure": "all 30 raw endpoint labels in cell 11 excluded by complete source-cut root and tower replay",
+    "statement": "On the deployed guarded positive 433-1b cell-11 common locus, neither endpoint outside role xi=5 nor xi=6 is compatible with a missing source record. For each of four source-sign rows and each endpoint, the necessary source-only compatibility ideal has one degree-32 univariate r eliminant. Independent Frobenius gcd computation and factorization agree on its unique base-field root. Complete quadratic tower replay checks all sixteen guarded common lifts and finds the compatibility equation nonzero at every lift; the leading-boundary complement has no deployed point. Hence all 2*15=30 endpoint pairing labels are empty.",
+    "refs": [
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/proof.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/claim_contract.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/source_evidence.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/audit.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/result.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/frontier.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/lineage.md",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/verify.py",
+      "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_endpoint_roles_complete_exclusion/verify_audit.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_compatibility_pilot_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_compatibility_pilot_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_compatibility_replay_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_compatibility_replay_result.json",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_eliminant_frobenius_roots_modal.py",
+      "experiments/prize_resolution/rate_half_kb_positive_433_1b_cell11_endpoint_eliminant_frobenius_roots_result.json"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_quadratic_four_basis_common_locus"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_global_common_kernel"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
+    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
+    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_closure"}
+  ],
+  "refutes": []
+}

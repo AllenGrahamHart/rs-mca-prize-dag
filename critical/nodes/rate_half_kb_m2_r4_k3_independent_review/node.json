@@ -1,0 +1,18 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_kb_m2_r4_k3_independent_review",
+    "title": "KoalaBear m2 r4 K3 independent proof review",
+    "status": "TARGET",
+    "statement": "A fresh independent reviewer has replayed and audited the load-bearing c112, coordinate-route, orientation-assembly, and distinct-slope composition certificates at pinned commits, confirmed the active row/partition contract and same-owner chronology, and recorded no unresolved mathematical or custody objection. Review of similarly named experimental packets or self-review by the producing implementation is insufficient.",
+    "falsifier": "A failed replay, digest mismatch, missing dependency, owner/row mismatch, unreviewed load-bearing argument, or unresolved reviewer objection.",
+    "refs": [
+      "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/statement.md",
+      "critical/nodes/rate_half_kb_m2_r4_k3_independent_review/review_protocol.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

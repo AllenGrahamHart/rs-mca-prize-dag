@@ -1,0 +1,155 @@
+{
+  "case_count": 8,
+  "rows": [
+    {
+      "bc_sign": -1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc5b3+c3b5-c5b2+3c4b3+3c3b4-c2b5-5c4b2+8c3b3-5c2b4-2c4b-2c3b2-2c2b3-2cb4-5c3b+8c2b2-5cb3-c3+3c2b+3cb2-b3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 21,
+      "product_rank_saturated": false,
+      "program_sha256": "5a90adb2d2e2f74aae99d5a97b0851b3528896d850684d1dadcb115bfb99024f",
+      "rank_guard_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "seconds": 6.851672499,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": 1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc4b2+c2b4-2c3b-8c2b2-2cb3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 17,
+      "product_rank_saturated": false,
+      "program_sha256": "d9a643521f4479c8533f075418ee378c7a04d8d7060d591e941f70004f8b5c43",
+      "rank_guard_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "seconds": 0.8809532509999998,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": -1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc5b3+c3b5-c5b2+3c4b3+3c3b4-c2b5-5c4b2+8c3b3-5c2b4-2c4b-2c3b2-2c2b3-2cb4-5c3b+8c2b2-5cb3-c3+3c2b+3cb2-b3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 21,
+      "product_rank_saturated": false,
+      "program_sha256": "d3e757e01716ab497ff257b3d007a32b467b977b49afeae536dd4bf596479d58",
+      "rank_guard_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "seconds": 8.996211968,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": 1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc4b2+c2b4-2c3b-8c2b2-2cb3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 17,
+      "product_rank_saturated": false,
+      "program_sha256": "9e8ad840727c8c550ec017f206a6e85c76caa00e6e8b62938e4dc548fe805667",
+      "rank_guard_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "seconds": 0.9134923509999999,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": -1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc5b3+c3b5-c5b2+3c4b3+3c3b4-c2b5-5c4b2+8c3b3-5c2b4-2c4b-2c3b2-2c2b3-2cb4-5c3b+8c2b2-5cb3-c3+3c2b+3cb2-b3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 21,
+      "product_rank_saturated": false,
+      "program_sha256": "27dd1336f476925aa40695a41ec2384ac126ff407a4ac2008c55ea574c6ff936",
+      "rank_guard_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "seconds": 10.453818088,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": 1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc4b2+c2b4-2c3b-8c2b2-2cb3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_dimension": 1,
+      "full_size": 17,
+      "product_rank_saturated": false,
+      "program_sha256": "b71972bd9fe303e50f8510530104eb516130e246dababd856c771e5e50fb33fc",
+      "rank_guard_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "seconds": 0.9307916730000001,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": -1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc5b3+c3b5-c5b2+3c4b3+3c3b4-c2b5-5c4b2+8c3b3-5c2b4-2c4b-2c3b2-2c2b3-2cb4-5c3b+8c2b2-5cb3-c3+3c2b+3cb2-b3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 21,
+      "product_rank_saturated": false,
+      "program_sha256": "6dc14fff71e9774410648036bffa0f7126a8c03f059d993ef59d1529231afca1",
+      "rank_guard_sha256": "565aa4fb6fb918dfd2cad221ba290a17c8e148890f31c52996b2a3759c8bd9ef",
+      "seconds": 7.066816127,
+      "status": "COMPLETE",
+      "stderr": ""
+    },
+    {
+      "bc_sign": 1,
+      "elimination_dimension": 4,
+      "elimination_output": "DIM=4\nSIZE=1\nc4b2+c2b4-2c3b-8c2b2-2cb3+c2+b2",
+      "elimination_size": 1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_dimension": 1,
+      "full_size": 17,
+      "product_rank_saturated": false,
+      "program_sha256": "1d1ae62d2f4a824f7ab78a45a0ce89ff602a2e4a80a5e090476605821ae53747",
+      "rank_guard_sha256": "e3570ad8e5401672b4212af63f2c30d9b454f178335c51e21289b211a693ee99",
+      "seconds": 0.8894144170000002,
+      "status": "COMPLETE",
+      "stderr": ""
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-common-repeat-cell11-principal-projection-v1",
+  "scope": "Exact guarded common-curve projection to target coordinates (c,b), with the product-rank exceptional divisor retained.",
+  "source_sha256": "a9c3f10fc7e368f88599bce085598d641d0a73352a1f7d54e06abcd9b4aabbf7",
+  "status_counts": {
+    "COMPLETE": 8
+  }
+}

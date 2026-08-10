@@ -60,8 +60,12 @@ GRANDS = {"mca_grand", "list_grand"}
 # over three TARGET leaves and strict proved suppliers.
 # The M=4,t=2 rate split proves rate quarter and replaces that TARGET by one
 # CONDITIONAL over a single rate-half TARGET; leaves stay 28.
-EXPECTED_TARGETS = 28
-EXPECTED_CONDITIONALS = 36
+# The 2026-08-09 band decomposition moved this to 29 TARGETs / 37 CONDITIONALs.
+# The 2026-08-10 K3 exact-payment decomposition replaces the structural-surplus
+# TARGET by four exact TARGET leaves and adds three CONDITIONAL composition
+# nodes, for a net +3 TARGET / +3 CONDITIONAL change.
+EXPECTED_TARGETS = 32
+EXPECTED_CONDITIONALS = 40
 EXPECTED_ROUNDS = 8
 
 # Audited 2026-07-26.  Each entry: (conditional, mentioned open node, why benign).
@@ -70,6 +74,10 @@ AUDITED_UNRELATED = {
     ("knife_edge_census", "census_dodge_selection"),
     ("list_adjacency_closing", "ww_row_envelope_clause"),
     ("list_grand", "rate_half_band_closure"),
+    # Consumer and sibling references in the historical band narrative; neither
+    # is used as a premise of rate_half_band_closure.
+    ("rate_half_band_closure", "list_adjacency_closing"),
+    ("rate_half_band_closure", "rate_half_list_adjacent_crossing"),
     ("xr_clean_residual_any_gate", "rigidity_kernel"),
     ("xr_smallcore_spread_count", "rigidity_kernel"),
     ("xr_smallcore_spread_count", "rk_rigidity_kernel"),

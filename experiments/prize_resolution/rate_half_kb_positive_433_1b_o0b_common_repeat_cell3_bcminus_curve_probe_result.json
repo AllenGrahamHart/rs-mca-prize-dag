@@ -1,0 +1,170 @@
+{
+  "rows": [
+    {
+      "elimination_output": "DIM=3\nSIZE=1\nc4b2+c3b3-c4b+3c3b2-2c3b-2c2b2-2c2b-2cb2+3cb-b2+c+b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "full_dimension": 1,
+      "primitive_degrees": [
+        13,
+        12,
+        12
+      ],
+      "primitive_terms": [
+        30,
+        56,
+        56
+      ],
+      "program_sha256": "4be8056887d476384fd536041d79c7a152bf1fb83e21ee6c95922c10809abc7c",
+      "removed_gcd": {
+        "degree": 2,
+        "expression": "r**2",
+        "terms": 1
+      },
+      "seconds": 26.950615991,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "1*r^2"
+      },
+      "transformed_degrees": [
+        15,
+        14,
+        14
+      ],
+      "transformed_terms": [
+        30,
+        56,
+        56
+      ]
+    },
+    {
+      "elimination_output": "DIM=3\nSIZE=1\nc4b2+c3b3-c4b+3c3b2-2c3b-2c2b2-2c2b-2cb2+3cb-b2+c+b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "full_dimension": 1,
+      "primitive_degrees": [
+        13,
+        12,
+        12
+      ],
+      "primitive_terms": [
+        30,
+        56,
+        56
+      ],
+      "program_sha256": "67f545edeee73343252a71c2eb4e566b4f420b20dc98794086301ed14823486f",
+      "removed_gcd": {
+        "degree": 2,
+        "expression": "r**2",
+        "terms": 1
+      },
+      "seconds": 26.731110725999997,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "-1*r^2"
+      },
+      "transformed_degrees": [
+        15,
+        14,
+        14
+      ],
+      "transformed_terms": [
+        30,
+        56,
+        56
+      ]
+    },
+    {
+      "elimination_output": "DIM=3\nSIZE=1\nc4b2+c3b3-c4b+3c3b2-2c3b-2c2b2-2c2b-2cb2+3cb-b2+c+b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "full_dimension": 1,
+      "primitive_degrees": [
+        13,
+        12,
+        12
+      ],
+      "primitive_terms": [
+        30,
+        56,
+        56
+      ],
+      "program_sha256": "e62440ad0b90ca449326895e61c42f72aa27ff81e41aead0a0d3b98b2d0e85d9",
+      "removed_gcd": {
+        "degree": 2,
+        "expression": "r**2",
+        "terms": 1
+      },
+      "seconds": 23.008786234,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "-1*r^2"
+      },
+      "transformed_degrees": [
+        15,
+        14,
+        14
+      ],
+      "transformed_terms": [
+        30,
+        56,
+        56
+      ]
+    },
+    {
+      "elimination_output": "DIM=3\nSIZE=1\nc4b2+c3b3-c4b+3c3b2-2c3b-2c2b2-2c2b-2cb2+3cb-b2+c+b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "full_dimension": 1,
+      "primitive_degrees": [
+        13,
+        12,
+        12
+      ],
+      "primitive_terms": [
+        30,
+        56,
+        56
+      ],
+      "program_sha256": "562d437e48d84427ebb17a5c209c621ffd1d89e2766f9d2dc6ce821a3e6b2dd8",
+      "removed_gcd": {
+        "degree": 2,
+        "expression": "r**2",
+        "terms": 1
+      },
+      "seconds": 23.192222133,
+      "status": "COMPLETE",
+      "stderr": "",
+      "substitution": {
+        "t": "1*r^2"
+      },
+      "transformed_degrees": [
+        15,
+        14,
+        14
+      ],
+      "transformed_terms": [
+        30,
+        56,
+        56
+      ]
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-o0b-cell3-bcminus-curve-probe-v1",
+  "scope": "Exact guard-saturated projection of the four cell-3 BC- common curves to target coordinates (c,b); outside systems unpaid.",
+  "source_sha256": "713122da1efabb83a8c10598591240e6e7abb1069c1d105f6bea973de6a9d554",
+  "status_counts": {
+    "COMPLETE": 4
+  }
+}

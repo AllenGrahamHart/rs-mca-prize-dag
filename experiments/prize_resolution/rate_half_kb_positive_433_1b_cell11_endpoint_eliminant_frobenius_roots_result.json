@@ -1,0 +1,161 @@
+{
+  "complete": true,
+  "field": 2130706433,
+  "method": "independent galoistools gcd(E(r), r^p-r)",
+  "rows": [
+    {
+      "degree": 32,
+      "eliminant_sha256": "b16b3a5ec6a0651aa9f29befed1290fa3b6ce493473d3649e5825e0db4e9f5f3",
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "30ca11176582112bb0ee95f0ef39ca1d16e5ef45a9debd255a098334d931dce4",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        198499103
+      ],
+      "roots": [
+        1932207330
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "14d70cc05c443e483aa90acc9bb73b194a1172c4e6a2e9477bbd4e15fcbc2b0b",
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "d643265a83f6927172c5325ff6f03bfd3f7523ee5c3bc30eb09c410c8a22f1e1",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        507325566
+      ],
+      "roots": [
+        1623380867
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "abd110efb1e9bf91f8f38140872a4079a5b567a7fb70cb507d396547ccd23d07",
+      "endpoint": "b",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "frobenius_remainder_sha256": "d178ea7ab163cc7bb8f53de20efe02445ea4fbd5e548c67911d6235e76abeaac",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        531509
+      ],
+      "roots": [
+        2130174924
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "3c33ecff22de8da16de008bfbb7e003d10c63de4c2461cd8e089fb133e405aef",
+      "endpoint": "c",
+      "epsilon": [
+        -1,
+        1
+      ],
+      "frobenius_remainder_sha256": "db2c300a66aa532dd3d325d57f64a1222adf0cccc3e7a5db40eaa838f33df3d5",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        1190421330
+      ],
+      "roots": [
+        940285103
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "43c469e81172b0d1a381188cfad3b2635d0f4b0eb2d8472b17b842cdeea1c4e3",
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "437083b0b3cdd9b0623f2076bf04fc3d69a9e5963fece4304a7be41dce3db2d3",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        1932207330
+      ],
+      "roots": [
+        198499103
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "554c52fbffa289d297c15290ae3e925017f25876d7bb393c4fbb185739c9e110",
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        -1
+      ],
+      "frobenius_remainder_sha256": "8ce1a0844cb8989ef5ce181b334dd191e463d6130d19e63a1da5034d3eff82a9",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        1623380867
+      ],
+      "roots": [
+        507325566
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "2f0bd494d79ab25324ef2fbdd33643ce7c993ec4aeef66f89920ffa1b71c9b2f",
+      "endpoint": "b",
+      "epsilon": [
+        1,
+        1
+      ],
+      "frobenius_remainder_sha256": "7909e0a5c64b9dc07f58762865292cadf1b7be044672d1879ede903b7df82886",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        2130174924
+      ],
+      "roots": [
+        531509
+      ],
+      "terms": 33
+    },
+    {
+      "degree": 32,
+      "eliminant_sha256": "fb4bc4a43276a672e1fa5c94467f44042d2f6916c18ef4c98d20b1f3a40925ca",
+      "endpoint": "c",
+      "epsilon": [
+        1,
+        1
+      ],
+      "frobenius_remainder_sha256": "cddde1b127e9ea05270d06bfe70a3b29d5793cc97565005aed300ef8dd442e1a",
+      "root_count": 1,
+      "root_gcd": [
+        1,
+        940285103
+      ],
+      "roots": [
+        1190421330
+      ],
+      "terms": 33
+    }
+  ],
+  "schema": "rate-half-kb-positive-433-1b-cell11-endpoint-eliminant-frobenius-roots-v1",
+  "source_pilot_sha256": "878c5e1eaacba6b646c9f01208e89ac1780b73f1bd20508f8a966c4c1c0c6467"
+}

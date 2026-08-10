@@ -1,23 +1,34 @@
 # BAND CHILD 1 (K3 arm): the enumerated structural-supply cap
 
-- **status:** TARGET
+- **status:** CONDITIONAL
+- **gate:** all
 - **parent:** `rate_half_band_closure` (req, gate all)
 - **created:** 2026-08-09, the user-directed band decomposition
   (notes/band_decomposition_plan_20260809.md)
 
 ## Statement
 
-The kb_m2_r4 positive-433 workboard enumeration COMPLETES: every cell
-and role orbit of the 433-1b board closed, the label census converted
-to upstream item K3's unit of account (distinct affine slopes — the
-przchojecki agents.md K3 definition: exhaustive balanced-core coverage,
-genuine-pencil proof obligations, exact line counts), and the
-enumerated supply cap at the deployed rows passing the independent
-proof review the export certificates themselves require.
+Conditional on the exact `m=2,r=4` K3 distinct-slope budget ledger and
+fresh independent review, the deployed-row structural-supply arm has no
+unaccounted surplus.
 
-State at creation: c112 coverage + cells 3, 4, 9, 12-13 CLOSED
-(living export PR #1152); cell 5 in flight (24 labels / 6 orbits);
-role orbits [5,8], [9,10] second half, [11] open.
+The raw `433-1b -> O0a` board is now proved empty at:
+
+```text
+15/15 role cells
+1575/1575 raw labels
+25200/25200 signed principal systems
+global rank-drop branch empty
+```
+
+This is not yet K3 closure. The exact positive router has 13 routes; only
+`433-1a -> O0b` and `433-1b -> O0a` are closed, leaving eleven named route
+payments. The proved `c112` source-line theorem also explicitly leaves the
+coordinate/source-cover orientation assembly open. The K3 ledger must
+therefore prove exhaustive same-owner balanced-core routing, print literal
+route and source-cover integers, check genuine-pencil hypotheses and exact
+line multiplicities for every nonzero pencil payment, supply ray compilers
+for higher-dimensional survivors, and fit the active allocation.
 
 ## Scope
 
@@ -28,14 +39,12 @@ structural-surplus arm, not as razor-row coverage.
 
 ## Falsifier (inherited, surplus direction, re-scoped)
 
-A deployed-row supply object outside the workboard's enumerated
-classes; a workboard cell whose exclusion fails independent replay; a
-labels-to-slopes conversion that changes any cell verdict.
+A deployed-row supply object outside the assembled classes; a failed raw
+cell replay; an omitted positive or source-cover route; an owner-changing
+transport; an invalid pencil/ray multiplicity; or a K3 total above the
+active allocation.
 
 ## Closure path
 
-Cell 5 + role orbits (Codex, in flight) -> the labels-to-slopes
-conversion (dedicated audit) -> the K3_closed composition certificate
--> independent review -> PROVED. The kb workboard ev edges remain on
-the parent at creation; migration is deferred to the conversion audit
-per the plan.
+Eleven-route payment + orientation/source-cover assembly -> exact K3
+distinct-slope budget ledger -> independent review -> PROVED.
