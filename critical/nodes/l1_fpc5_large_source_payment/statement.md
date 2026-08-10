@@ -109,6 +109,26 @@ per owner. The exact small-cell owner probe shows that realized owner groups
 are usually singletons, so a bounded-owner coalescence theorem is not a
 credible aggregate route.
 
+The proved node `l1_fpc5_tpetal_joint_owner_ambient_mds_census` makes that
+route cut exact in the complete monic chart. If
+
+```text
+P_0=F L_(R_0),       p=deg P_0,
+```
+
+then the owner zeros are the zero support of the degree-at-most-`r`
+Reed-Solomon evaluation word `H|Z(P_0)`, up to nonzero diagonal scaling.
+Every degree-`r` divisor `Q|P_0` occurs as a top owner with exactly
+`|mathbb F|-1` ambient chart points, for a total of
+
+```text
+binom(p,r)(|mathbb F|-1).
+```
+
+These ambient pairs need not have split locators or pass the guards. The
+theorem therefore forbids owner-only and unguarded-linear coalescence; the
+simultaneous split-and-guard predicate must supply the full saving.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write
@@ -129,7 +149,7 @@ K_0(C,V)=K(C_0,V_0)+T(A,U),       deg K,deg T<=r-deg Q.
 At top ownership this is an ordinary affine pencil of locators split on the
 core, coupled to a scalar determinant of the disjoint touched-petal locator.
 Bounded co-deficiency gives a bounded-degree rational pencil. The unresolved
-issue is therefore a uniform dual-domain pencil census and
+issue is therefore a uniform dual-domain simultaneous split-and-guard census and
 chronology-valid aggregation across many distinct owners, not a missing
 owner coordinate or an expected small number of realized owners.
 
