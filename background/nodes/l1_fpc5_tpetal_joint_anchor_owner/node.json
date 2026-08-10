@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_tpetal_joint_anchor_owner",
+    "title": "One determinant gcd recovers joint defect and background owners",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Relative to one exact anchor, gcd(H,F L_R0) records both common defect roots and common background-agreement roots. Owner-containment strata are the exact coordinate spaces H=QK, and all other background roots impose explicit affine equations.",
+    "refs": [
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/statement.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/proof.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/claim_contract.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/dependency_subdag.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/audit.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/result.md",
+      "background/nodes/l1_fpc5_tpetal_joint_anchor_owner/provenance.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_anchor_pade_chart"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

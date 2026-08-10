@@ -85,6 +85,18 @@ The primitive condition is an exact root-local nonvanishing test in `H` and
 split-remainder maximum; it is not an implicit coefficient or pair-counting
 problem.
 
+The proved node `l1_fpc5_tpetal_joint_anchor_owner` also incorporates the
+background guard. If `R_0` is the anchor's background zero set, then
+
+```text
+gcd(H,F L_(R_0))
+```
+
+simultaneously recovers the candidate's common defect roots and common
+background roots with the anchor. Every other background root is one printed
+affine equation in `H`. Thus fixed defect and background owners must be
+treated as one coordinate stratum, not independently summed ledgers.
+
 ## Round-23 diagnosis addendum (2026-08-07, coordinator-applied on replay: fpc5_diag)
 
 **CLASSIFICATION: MYSTERY-HARD, and the LEAST DEFENDED of the three
