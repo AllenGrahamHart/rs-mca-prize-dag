@@ -19,8 +19,10 @@ The indices split canonically and disjointly into:
 
 The source degree profile gives `t<=m-k`, hence `m-t >= k`.
 
-Indices in `N` remain support-wise MCA witnesses in the reduced root-free
-certificate, with the original received-line and slope owner retained.
+Indices in `N` remain support-wise MCA witnesses in the reduced certificate,
+with the original received-line and slope owner retained. Its denominator is
+nonzero on the reduced coincidence core; it need not be root-free on all of
+`D'`.
 
 For every `i in T`,
 

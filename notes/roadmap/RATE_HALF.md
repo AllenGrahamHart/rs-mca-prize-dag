@@ -50,6 +50,11 @@ non-paying by more than a million bits at both rows. Do not spend compute on
 further support-only packing. The live denominator-root target is a coupled
 polynomial/owner theorem for the pole-defect records.
 
+The denominator-root packet is available upstream in draft PR `#1156`. Its
+terminology and nonclaims follow Grande Finale v4's `(E)` interface, so any
+review repair can be harvested without translating through the K3 workboard
+vocabulary.
+
 The exact joint reserve `274980728110413983` belongs to `U_Q+U_BC+U_new`;
 it is not a K3-only allocation. See work-cycle shard
 `18-k3-bridge-and-allocation-refactor-20260810.md` and

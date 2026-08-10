@@ -69,8 +69,9 @@ pole-tolerant theorem is source-pinned and harvested: it localizes coherent
 atoms without dividing by the denominator, then cancels the exact common
 domain-pole locator after deleting at most one zero-scalar slope. A new exact
 source dichotomy resolves the theorem's semantic gap. Every post-cancellation
-support either remains MCA-nontrivial in the reduced root-free certificate or
-has a unique simultaneous explaining pair. In the latter case the original
+support either remains MCA-nontrivial in the reduced certificate (with `Q'`
+regular on its coincidence core, not necessarily on all of `D'`) or has a
+unique simultaneous explaining pair. In the latter case the original
 support obstruction becomes a nonzero rank-one defect on the deleted pole
 set,
 
@@ -93,3 +94,11 @@ larger than `(3/2)^k>2^58`, already above the KoalaBear budget and far above
 the Mersenne-31 budget. The pure support-packing route is therefore fenced.
 The next denominator-root step must couple the full divided scalar-locator
 identity across indices and force a paid owner or correction space.
+
+This packet was exported to upstream as draft PR `#1156`, **MCA (E): route
+denominator-root puncture defects**. The PR carries a self-contained theorem
+note, a standard-library certificate with normal and `-O` replay, five hostile
+metadata mutations, and a narrow repair of the pre-existing pole verifier's
+stale `grande_finale.tex` blob pin. The old and new pinned scalar-locator
+definitions were compared byte-for-byte and are identical. The PR requests
+independent review and makes no `(E)` or row-closure claim.

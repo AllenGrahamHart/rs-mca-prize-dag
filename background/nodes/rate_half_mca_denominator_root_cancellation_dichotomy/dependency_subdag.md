@@ -7,7 +7,7 @@ pole-tolerant common-pole cancellation [PROVED]
           |                     |
           v                     v
 reduced MCA witnesses    puncture-trivialized supports
-     [root-free]                    |
+ [core-regular Q']                  |
                                     v
                      nonzero rank-one pole defects
                      with slope and pair injection

@@ -11,7 +11,9 @@ Partition the nonzero-scalar indices according to whether a simultaneous
 degree-`<k` explaining pair exists on `S_i'`. This is exhaustive and
 disjoint. The `N` indices satisfy reduced support-wise MCA nontriviality by
 definition, and the harvested divided identity preserves the original line,
-slope, and exact support locator.
+slope, and exact support locator. The harvested theorem makes `Q'` nonzero on
+the reduced coincidence core only; roots elsewhere in `D'` remain under the
+exclusive-localization theorem.
 
 Fix `i in T` and choose one explaining pair `(p0_i,p1_i)`. On `S_i'`, both
 `h_i` and `p0_i+gamma_i p1_i` equal `r0+gamma_i r1`. Their difference has
