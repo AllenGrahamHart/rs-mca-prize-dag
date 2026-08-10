@@ -25314,5 +25314,11 @@ no divisor owner is summed independently.
 
 No critical status changes. The live bound is now precise: control this
 weighted reciprocal-divisor census at the base-field-normalized scale and
-then perform the chronology-valid source allocation. Export to the related
-general-t packet in `rs-mca` PR #1151 is pending.
+then perform the chronology-valid source allocation.
+
+The theorem is exported reciprocally in `przchojecki/rs-mca` PR #1151,
+Section 8 of
+`experimental/notes/l1/list_tpetal_joint_anchor_owner_v1.md`, pinned at
+head `1699b933f21288ed0d72ff2b0f85b4b10277c999`. The PR was open, draft, and
+mergeable at the pin; its source note points back to DAG commit
+`a530e44835630165f92e01d91aa0b8e57f0ae0d7`.

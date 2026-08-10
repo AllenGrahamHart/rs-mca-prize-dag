@@ -15,7 +15,11 @@
       "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/result.md",
       "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/provenance.md",
       "background/nodes/l1_fpc5_tpetal_owner_free_cauchy_divisor_chart/upstream_crosswalk.md"
-    ]
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 owner-free weighted Cauchy divisor formulation",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
   },
   "requires": [
     {
