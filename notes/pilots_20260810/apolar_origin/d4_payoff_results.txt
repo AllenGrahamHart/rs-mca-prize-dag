@@ -1,0 +1,55 @@
+official row: n = 2^41 = 2199023255552, k = 2^40 = 1099511627776, R = n-k = 2^40 = 1099511627776
+B*(q) = floor(q / 2^128).
+
+=== 1. where the residual sits on the q-axis ===
+  wave-10 staircase proves the crossing for B* <= 2^39-1, i.e.
+    q < 2^128 * 2^39 = 2^167 = 187072209578355573530071658587684226515959365500928
+  the two residual budgets are B* = 2^39 and B* = 2^39+1, i.e.
+    q in [2^128*2^39, 2^128*(2^39+2)) = [2^167, 2^167 + 2^129)
+    width = 2^129 = 680564733841876926926749214863536422912  (relative width 2^129/2^167 = 2^-38)
+
+=== 2. the two budgets, as radii ===
+  budget B* = 549755813888 : r = B*-1 = 549755813887 ; R-r = 549755813889 ; r+1 = 549755813888 ; r vs R/2 : r = R/2-1
+  budget B* = 549755813889 : r = B*-1 = 549755813888 ; R-r = 549755813888 ; r+1 = 549755813889 ; r vs R/2 : r = R/2
+  strict budget 2^39 -> r = R/2 - 1 (A = 3 possible)
+  half-distance budget 2^39+1 -> r = R/2 (A = 1 or 3)
+
+=== 3. (ERC4) at the strict A=3 profile — the exact one-slope deficit ===
+  m = 2^37 = 137438953472, rho = 4m-1 = 2^39-1 = 549755813887, N = 16m = 2^41 = 2199023255552
+  (ERC4): T <= 4e+1.  First live degree e = m = 2^37:
+    cap  = 4m+1 = 549755813889
+    target rho+1 = 549755813888
+    DEFICIT = cap - target = 1  (exactly one slope)
+
+=== 4. bracket ENDS: the far-CA caps, re-derived ===
+  lower end a = k + 2^34 = 1116691496960 ; r = n-a = 1082331758592 ; R-r = 17179869184
+    generic Hankel rank rho <= min(R-r, r+1) = 17179869184 = 2^34
+    fixed-kernel / rank branch gives T <= rho <= 2^34 = 17179869184
+  upper end a = 3n/4 = 1649267441664 ; r = n-a = 549755813888 = R/2 ; R-r = 549755813888 ; r+1 = 549755813889
+    (HD1) as PROVED gives B_mca(3n/4) <= n = 2199023255552
+    the far-CA TARGET at this row is T <= r+1 = 549755813889 = 2^39+1
+
+=== 5. the bracket-top field condition, exactly ===
+  (HD2) needs B*(q) >= cap(3n/4).
+  with cap = n = 2^41 : q >= 2^128 * 2^41 = 2^169 = 748288838313422294120286634350736906063837462003712
+      -> reproduces the PROVED hypothesis q >= 2^169 EXACTLY.
+  with cap = r+1 = 2^39+1 (i.e. budget 2^39+1 CLOSED) :
+      q >= 2^128 * (2^39+1) = 2^167 + 2^128 = 187072209578695855896992597051147601123391133712384
+      = 2^167 * (1 + 2^-39).
+  EXTENSION FACTOR = 2^169 / (2^167+2^128) = 4.000000  (= 2.0000 bits)
+  PRECISION NOTE: the payoff is 'all q >= 2^167 + 2^128', NOT literally
+  'all q > 2^167'; the uncovered sliver (2^167, 2^167+2^128) has
+  B* = 2^39 exactly, where the needed cap 2^39+1 still exceeds B*.
+  Relative size of the sliver: 2^128 / 2^167 = 2^-39.
+
+=== 6. the crossing-formula payoff ===
+  closing BOTH budgets makes a_RH = n - B*(q) + 1 exact for every
+  B* <= 2^39+1, i.e. every q < 2^167 + 2^129 = 187072209579036138263913535514610975730822901923840
+  the currently-proved reach is q < 2^167 = 187072209578355573530071658587684226515959365500928
+  gain on the q-axis: a factor 1 + 2^-38 (relative 2^-38), i.e. the
+  whole residual-budget interval [2^167, 2^167+2^129).
+  NOTE the two payoffs are DIFFERENT and the bracket-top one is bigger:
+    crossing formula gain : relative 2^-38
+    bracket-top gain      : 2^169 -> 2^167+2^128, a ~2-bit window
+
+=== END part 4 ===

@@ -1,0 +1,53 @@
+=== A2' : structured lines are field-independent and counting-dead ===
+  q=17 N=16 rho=3 a=6 : U of size rho+1=4 -> 4 points, all collinear : True
+      their supports give d_x = rho = 3 for x in U ; counting layer needs d_x <= e = m = 1  ->  EXCLUDED
+  q=97 N=32 rho=7 a=10 : U of size rho+1=8 -> 8 points, all collinear : True
+      their supports give d_x = rho = 7 for x in U ; counting layer needs d_x <= e = m = 2  ->  EXCLUDED
+
+=== A4 : the m=1 fence's own W vs random W, at q=17 ===
+  FENCE W                q=17   M=120  structured=840    sporadic=1   
+        sporadic: (4, 6, 16) (8, 10, 15) (9, 12, 13)
+  random W #0            q=17   M=120  structured=840    sporadic=0   
+  random W #1            q=17   M=120  structured=840    sporadic=0   
+  random W #2            q=17   M=120  structured=840    sporadic=0   
+  random W #3            q=17   M=120  structured=840    sporadic=0   
+
+=== A3' : sporadic census across prime fields (m=1, N=16, rho=3, a=6) ===
+   q     #W   mean structured  mean sporadic   heuristic 280000/q^4
+    scan                 q=17   M=120  structured=840    sporadic=0   
+    scan                 q=17   M=120  structured=840    sporadic=0   
+    scan                 q=17   M=120  structured=840    sporadic=0   
+    scan                 q=17   M=120  structured=840    sporadic=0   
+    scan                 q=17   M=120  structured=840    sporadic=0   
+    scan                 q=17   M=120  structured=840    sporadic=1   
+        sporadic: (2, 12, 16) (3, 11, 14) (4, 9, 10)
+  17    6    840.00           0.167           3.3525
+    scan                 q=97   M=120  structured=840    sporadic=0   
+    scan                 q=97   M=120  structured=840    sporadic=0   
+    scan                 q=97   M=120  structured=840    sporadic=0   
+    scan                 q=97   M=120  structured=840    sporadic=0   
+    scan                 q=97   M=120  structured=840    sporadic=0   
+    scan                 q=97   M=120  structured=840    sporadic=0   
+  97    6    840.00           0.000           0.0032
+    scan                 q=113  M=120  structured=840    sporadic=0   
+    scan                 q=113  M=120  structured=840    sporadic=0   
+    scan                 q=113  M=120  structured=840    sporadic=0   
+    scan                 q=113  M=120  structured=840    sporadic=0   
+    scan                 q=113  M=120  structured=840    sporadic=0   
+    scan                 q=113  M=120  structured=840    sporadic=0   
+  113   6    840.00           0.000           0.0017
+    scan                 q=193  M=120  structured=840    sporadic=0   
+    scan                 q=193  M=120  structured=840    sporadic=0   
+    scan                 q=193  M=120  structured=840    sporadic=0   
+    scan                 q=193  M=120  structured=840    sporadic=0   
+    scan                 q=193  M=120  structured=840    sporadic=0   
+    scan                 q=193  M=120  structured=840    sporadic=0   
+  193   6    840.00           0.000           0.0002
+    scan                 q=241  M=120  structured=840    sporadic=0   
+    scan                 q=241  M=120  structured=840    sporadic=0   
+    scan                 q=241  M=120  structured=840    sporadic=0   
+    scan                 q=241  M=120  structured=840    sporadic=0   
+    scan                 q=241  M=120  structured=840    sporadic=0   
+    scan                 q=241  M=120  structured=840    sporadic=0   
+  241   6    840.00           0.000           0.0001
+=== END part 5 ===

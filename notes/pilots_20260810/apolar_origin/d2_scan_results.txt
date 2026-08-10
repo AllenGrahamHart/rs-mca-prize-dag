@@ -1,0 +1,106 @@
+=== P4 : the N=28 q=29 design 9-line under characterization C ===
+  9 triples pairwise disjoint : True   |union| = 27 of N = 28
+  A = R+1-2rho = 9 ; R4 needs A <= rho = 3  ->  VIOLATED
+  for any pair, a = |S_i u S_j| = 6 ; type-2 lower bound |S\W| >= R+1-a = 9, but |S| = rho = 3
+  contradiction margin = 6 ; so every third slope is neither type-1 (disjointness) nor type-2  ->  T forced to 2, not 9.
+  round-27 measured Hankel nullity for this line = 0 (NOT realizable): C AGREES, with no linear algebra.
+
+=== P5 : the cyclotomic law explained by C1 (injectivity) ===
+  row                    N    rho  e   design T  #distinct root sets = N/rho   C1 verdict     round-27 nullity
+  N=16 rho=4 e=2 r0=2   16   4    2   8         4                   repeats -> NOT column-far  0   AGREE
+  N=16 rho=4 e=4 r0=1   16   4    4   16        4                   repeats -> NOT column-far  0   AGREE
+  N=12 rho=3 e=1 r0=3   12   3    1   4         4                   distinct -> allowed        3   AGREE
+  N=20 rho=5 e=1 r0=5   20   5    1   4         4                   distinct -> allowed        5   AGREE
+  N=24 rho=6 e=2 r0=3   24   6    2   8         4                   repeats -> NOT column-far  0   AGREE
+  N=16 rho=4 e=2 r0=2   16   4    2   8         4                   repeats -> NOT column-far  0   AGREE
+  N=16 rho=4 e=2 r0=2   16   4    2   8         4                   repeats -> NOT column-far  0   AGREE
+  sign agreement: 7 / 7 rows
+
+=== R3 : cyclotomic exclusion at OFFICIAL scale (proof arithmetic) ===
+  A=1 half-distance profile: rho = 2^39 = 549755813888, N = 2^41 = 2199023255552, R = 2^40
+  rho | N : True ; #distinct mu_rho-cosets = N/rho = 4
+  C1 => T <= 4 ; targets are rho+1 = 549755813889 and rho+2 = 549755813890.
+  => the cyclotomic family CANNOT violate either budget. Margin = 549755813885.
+  A=3 strict profile: rho = 4m-1 = 549755813887, N = 16m = 2199023255552, rho | N ? False
+  (gcd(4m-1,16m) = gcd(4m-1,4) * ... ; 4m-1 is odd and 4m-1 > 16m/2 for m>=1 is false, so check directly:) 16m mod (4m-1) = 4
+
+=== R4 : disjoint-support fence across the scale parameter ===
+   m   N=16m  rho=4m-1  T=rho+2  T*rho    N     T*rho<=N ?  A<=rho ?
+  1   16     3         5        15       16    True        True
+  2   32     7         9        63       32    False       True
+  3   48     11        13       143      48    False       True
+  4   64     15        17       255      64    False       True
+  5   80     19        21       399      80    False       True
+  10  160    39        41       1599     160   False       True
+  => the fully-disjoint mechanism of the m=1 fence is arithmetically available ONLY at m=1.
+
+=== P6 : (AO1) closure scan, strict A=3 endpoint (e=m, rho=4m-1) ===
+   m   O    closing a-window {a : (AO1) <= rho+1}          width
+  1   0    [4..5] (rho+1=4, 4m+2=6)                         2
+  2   0    [8..10] (rho+1=8, 4m+2=10)                       3
+  2   1    [8..9] (rho+1=8, 4m+2=10)                        2
+  3   0    [12..15] (rho+1=12, 4m+2=14)                     4
+  3   1    [12..15] (rho+1=12, 4m+2=14)                     4
+  3   2    [12..15] (rho+1=12, 4m+2=14)                     3
+  4   0    [16..19] (rho+1=16, 4m+2=18)                     4
+  4   1    [16..19] (rho+1=16, 4m+2=18)                     4
+  4   2    [16..19] (rho+1=16, 4m+2=18)                     4
+  4   3    [16..19] (rho+1=16, 4m+2=18)                     3
+  5   0    [20..24] (rho+1=20, 4m+2=22)                     5
+  5   1    [20..24] (rho+1=20, 4m+2=22)                     5
+  5   2    [20..24] (rho+1=20, 4m+2=22)                     5
+  5   3    [20..24] (rho+1=20, 4m+2=22)                     5
+  6   0    [24..31] (rho+1=24, 4m+2=26)                     8
+  6   1    [24..31] (rho+1=24, 4m+2=26)                     8
+  6   2    [24..31] (rho+1=24, 4m+2=26)                     8
+  6   3    [24..31] (rho+1=24, 4m+2=26)                     8
+  7   0    [28..35] (rho+1=28, 4m+2=30)                     8
+  7   1    [28..35] (rho+1=28, 4m+2=30)                     8
+  7   2    [28..35] (rho+1=28, 4m+2=30)                     8
+  7   3    [28..35] (rho+1=28, 4m+2=30)                     8
+  8   0    [32..42] (rho+1=32, 4m+2=34)                     10
+  8   1    [32..42] (rho+1=32, 4m+2=34)                     10
+  8   2    [32..42] (rho+1=32, 4m+2=34)                     10
+  8   3    [32..42] (rho+1=32, 4m+2=34)                     10
+  9   0    [36..47] (rho+1=36, 4m+2=38)                     12
+  10  0    [40..51] (rho+1=40, 4m+2=42)                     12
+  11  0    [44..58] (rho+1=44, 4m+2=46)                     15
+  12  0    [48..63] (rho+1=48, 4m+2=50)                     16
+  13  0    [52..67] (rho+1=52, 4m+2=54)                     16
+  14  0    [56..74] (rho+1=56, 4m+2=58)                     19
+  15  0    [60..79] (rho+1=60, 4m+2=62)                     20
+  16  0    [64..83] (rho+1=64, 4m+2=66)                     20
+  17  0    [68..90] (rho+1=68, 4m+2=70)                     23
+  18  0    [72..95] (rho+1=72, 4m+2=74)                     24
+  19  0    [76..99] (rho+1=76, 4m+2=78)                     24
+  20  0    [80..106] (rho+1=80, 4m+2=82)                    27
+  21  0    [84..111] (rho+1=84, 4m+2=86)                    28
+  22  0    [88..115] (rho+1=88, 4m+2=90)                    28
+  23  0    [92..122] (rho+1=92, 4m+2=94)                    31
+  24  0    [96..127] (rho+1=96, 4m+2=98)                    32
+  25  0    [100..131] (rho+1=100, 4m+2=102)                 32
+  26  0    [104..138] (rho+1=104, 4m+2=106)                 35
+  27  0    [108..143] (rho+1=108, 4m+2=110)                 36
+  28  0    [112..147] (rho+1=112, 4m+2=114)                 36
+  29  0    [116..154] (rho+1=116, 4m+2=118)                 39
+  30  0    [120..159] (rho+1=120, 4m+2=122)                 40
+  31  0    [124..163] (rho+1=124, 4m+2=126)                 40
+  32  0    [128..170] (rho+1=128, 4m+2=130)                 43
+  33  0    [132..175] (rho+1=132, 4m+2=134)                 44
+  34  0    [136..179] (rho+1=136, 4m+2=138)                 44
+  35  0    [140..186] (rho+1=140, 4m+2=142)                 47
+  36  0    [144..191] (rho+1=144, 4m+2=146)                 48
+  37  0    [148..195] (rho+1=148, 4m+2=150)                 48
+  38  0    [152..202] (rho+1=152, 4m+2=154)                 51
+  39  0    [156..207] (rho+1=156, 4m+2=158)                 52
+  40  0    [160..211] (rho+1=160, 4m+2=162)                 52
+
+  O=0 summary: m, width, a_min, a_max
+   widths over m in [2,40]: min=3 max=52 ; a_min-4m always = [0]
+   m=1 width = 2 (fence: must be 0)
+
+=== P7 : O-sensitivity at m=2, a=4m+2=10 ===
+  m=2 a=10 O=0 : (AO1) = 8   (target rho+1 = 8, cap rho+2 = 9)
+  m=2 a=10 O=1 : (AO1) = 9   (target rho+1 = 8, cap rho+2 = 9)
+
+=== END part 2 ===
