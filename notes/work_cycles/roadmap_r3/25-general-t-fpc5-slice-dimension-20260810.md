@@ -20,3 +20,8 @@ Every nonempty large-source cell surviving `(PF6)` satisfies these hypotheses:
 linearization gap is closed for the complete live fixed-cell frontier. No
 critical status changes: a dimension-uniform split-point bound and aggregate
 owner/profile payment are still required.
+
+Upstream custody is PR #1151, pinned at
+`d9324dbf48860b9eddbb2d68adc404024f56c768`. The companion theorem is
+exported there with identical field, unit, quantifier, and nonclaim; the PR
+remains an open mergeable draft.

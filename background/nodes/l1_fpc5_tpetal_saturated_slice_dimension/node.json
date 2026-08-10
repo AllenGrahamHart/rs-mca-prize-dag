@@ -13,8 +13,13 @@
       "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/dependency_subdag.md",
       "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/audit.md",
       "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/result.md",
-      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/provenance.md"
-    ]
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/provenance.md",
+      "background/nodes/l1_fpc5_tpetal_saturated_slice_dimension/upstream_crosswalk.md"
+    ],
+    "upstream": {
+      "source": "rs-mca PR #1151 general t-petal saturated-slice theorem",
+      "relation": "IDENTICAL_THEOREM_EXPORT"
+    }
   },
   "requires": [],
   "alternatives": [],
