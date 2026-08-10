@@ -1,0 +1,501 @@
+{
+  "case_count": 16,
+  "distinct_non_guard_root_count": 0,
+  "non_guard_root_occurrences": 0,
+  "rows": [
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "b02b26e0f2784f7099e202aa6c83827563188346d35176d093719a5a894ca066",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        -1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "83f3ca171563b2a841cc696720280787528b2c2af63abdc9432d067a5c7034ab",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "3ad7bfbe4215f07e0fe8b8174f5afc02c6de427c80440815b8920f0dab2418a7",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        -1,
+        1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "a901e246b30e9476b3397f1da6f47d210d295bb62774ff123b7adee51103cfaf",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "a9c14bb42951197fe4a54dcce4be41bd78287c3cdd7baa61ad3289d29f55d9e9",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        -1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "63d2837af430dd50684f536256435208d97ffc1155ac2bee31bc27c51b3ac76c",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": -1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 6,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 5,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 12,
+              "x": 1
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 26,
+          "determinant_numerator_degree": 33,
+          "determinant_numerator_sha256": "01fa875d5748ead68b189782a993ab9dfd07e8542672002c28825976a3d80f46",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 938557691,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "447f7810d8dbccc4b47280f9d653179580ec0b60700fe32e8fe889f3705e352f",
+      "tower_valid": true
+    },
+    {
+      "bc_sign": 1,
+      "epsilon": [
+        1,
+        1
+      ],
+      "rows": [
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "BE",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        },
+        {
+          "algebra_dimension": 4,
+          "base_field_roots": [
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 4,
+              "x": 0
+            },
+            {
+              "construction_guards_nonzero": false,
+              "multiplicity": 8,
+              "x": 2130706432
+            }
+          ],
+          "consistency_identity": false,
+          "determinant_denominator_degree": 32,
+          "determinant_numerator_degree": 36,
+          "determinant_numerator_sha256": "4a2d502b1e40123516fc26c5ee35decfe3e97c2de53c90949b072ca47852e7d7",
+          "determinant_zero": false,
+          "missing_record": "CF",
+          "non_guard_base_field_roots": [],
+          "status": "DEPLOYED_OFF_GUARD_UNIT",
+          "witness_value": 1075030386,
+          "witness_x": 2
+        }
+      ],
+      "tower_program_sha256": "db3eefe33a32badb89d2dd7dd3c56357a27d2e3498e00bd74771d99028acc54b",
+      "tower_valid": true
+    }
+  ],
+  "schema": "kb-positive-433-1b-o0b-cell11-colored-consistency-v1",
+  "source_tower_count": 8,
+  "statement": "Exact generic unit test for the necessary missing-BE/CF endpoint product/squared-sum consistency identities.",
+  "status_counts": {
+    "DEPLOYED_OFF_GUARD_UNIT": 16
+  }
+}

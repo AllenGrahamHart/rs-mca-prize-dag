@@ -23925,6 +23925,27 @@ none of those commits touches cell 11 or the K3 ledger.  The earlier custody
 review still records no mathematical objection to PR #1152.  The new
 rate-half supply and collinearity banks should be harvested separately rather
 than conflated with this exact K3 exclusion.
+
+### 2026-08-10 cell-11 colored off-guard consistency exclusion
+
+The two colored missing records do not require the bivariate outside
+eliminant suggested by their raw presentation.  If `BE` is missing, the
+common-kernel reconstruction fixes `e=q/b`, so `(b+q/b)^2=s^2` is necessary;
+the `CF` identity is symmetric.  Exact source-algebra norms settle all eight
+source towers before residual matching:
+
+```text
+cases:                     8 towers * {BE,CF} = 16
+BC- deployed norm roots:  x=0,1 (both registered guards)
+BC+ deployed norm roots:  x=0,-1 (both registered guards)
+non-guard root count:      0
+Modal app:                 ap-rUIJmUwwAvE2TTjb34RqLA
+```
+
+Together with the 720-system uncolored replay, no missing-record family is
+open on the selected rational chart.  The cell-11 frontier is now the finite
+registered-guard/selected-cofactor boundary, followed by cell-14 transport
+and exact slope allocation.  No boundary or K3 closure is claimed.
 ### 2026-08-10 positive `433-1b/O0a` aggregate and K3 critical split
 
 An audit of the nominally complete raw workboard found one missing ownership

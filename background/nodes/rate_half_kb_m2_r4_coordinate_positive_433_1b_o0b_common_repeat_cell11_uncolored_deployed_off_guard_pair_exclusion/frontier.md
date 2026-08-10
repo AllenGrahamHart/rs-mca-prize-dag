@@ -1,9 +1,9 @@
 # Frontier
 
-The remaining cell-11 route obligations are now structural boundaries, not
-unclassified determinant-zero fibers:
+The sibling colored-consistency theorem now also excludes missing `BE/CF` on
+the same rational open.  The remaining cell-11 route obligations are
+structural boundaries, not unclassified determinant-zero fibers:
 
-- missing common records `BE` and `CF`;
 - registered guard loci, including the selected-cofactor boundary;
 - the cell-14 transport/closure interface;
 - conversion from surviving raw systems to distinct affine slopes and K3
