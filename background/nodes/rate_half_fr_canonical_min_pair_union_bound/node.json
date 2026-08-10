@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_fr_canonical_min_pair_union_bound",
+    "title": "Canonical minimum-pair-union FR bound",
+    "status": "PROVED",
+    "closure": "elementary set identity with exhaustive finite replay",
+    "statement": "For finite locator sets S_gamma of sizes u_gamma=rho-o_gamma, choose distinct g,h minimizing a*=|S_g union S_h| and put W*=S_g union S_h. Every third supported slope satisfies |S_gamma intersect W*|<=4rho-2a*-2o_gamma-o_g-o_h and |S_gamma\\W*|>=2a*-3rho+o_gamma+o_g+o_h. At rho=4m-1, a*=7m-1 and zero defects this is intersection at most 2m-2 and outside spend at least 2m+1. The theorem is purely set-theoretic and applies only to the canonical minimum pair union, not an arbitrary support set; its spend does not by itself close the calibrated rate-half ledger.",
+    "refs": [
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/statement.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/proof.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/claim_contract.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/dependency_subdag.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/audit.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/result.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/provenance.md",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/verify.py",
+      "background/nodes/rate_half_fr_canonical_min_pair_union_bound/verify_audit.py",
+      "notes/pilots_20260810/rh_fr_algebraic/REPORT.md"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

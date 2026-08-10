@@ -30459,6 +30459,25 @@
    ]
   },
   {
+   "id": "rate_half_fr_canonical_min_pair_union_bound",
+   "title": "Canonical minimum-pair-union FR bound",
+   "status": "PROVED",
+   "closure": "elementary set identity with exhaustive finite replay",
+   "statement": "For finite locator sets S_gamma of sizes u_gamma=rho-o_gamma, choose distinct g,h minimizing a*=|S_g union S_h| and put W*=S_g union S_h. Every third supported slope satisfies |S_gamma intersect W*|<=4rho-2a*-2o_gamma-o_g-o_h and |S_gamma\\W*|>=2a*-3rho+o_gamma+o_g+o_h. At rho=4m-1, a*=7m-1 and zero defects this is intersection at most 2m-2 and outside spend at least 2m+1. The theorem is purely set-theoretic and applies only to the canonical minimum pair union, not an arbitrary support set; its spend does not by itself close the calibrated rate-half ledger.",
+   "refs": [
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/statement.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/proof.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/claim_contract.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/dependency_subdag.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/audit.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/result.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/provenance.md",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/verify.py",
+    "background/nodes/rate_half_fr_canonical_min_pair_union_bound/verify_audit.py",
+    "notes/pilots_20260810/rh_fr_algebraic/REPORT.md"
+   ]
+  },
+  {
    "id": "rate_half_haboeck_quadratic_johnson_safe_bracket",
    "title": "Exact rate-half safe bracket from Haboeck's quadratic Johnson MCA theorem",
    "status": "PROVED",
@@ -35654,7 +35673,7 @@
    "title": "Incidence-only route fence for the rate-half type-2 FR bound",
    "status": "PROVED",
    "closure": "proof",
-   "statement": "At the power-of-two scale m=64 there is an explicit set system with N=16m, rho=4m-1, T=rho+2, a=7m-1, exact saturation deficit sum_x(m-d_x)=1, every pair union at least a, and every individual outside-W spend at least m+2, but max_gamma |S_gamma intersect W|=3m-3>2m. Thus the incidence/cardinality inputs used by NEWCAP do not imply the proposed FR max-intersection bound. The witness is not a realizable Hankel-pencil counterexample; any positive FR theorem must use additional GRS/apolar algebra.",
+   "statement": "At the power-of-two scale m=64 there is an explicit set system with N=16m, rho=4m-1, T=rho+2, a=7m-1, exact saturation deficit sum_x(m-d_x)=1, every pair union at least a, and every individual outside-W spend at least m+2, but max_gamma |S_gamma intersect W|=3m-3>2m. Thus the incidence/cardinality inputs used by NEWCAP do not imply the arbitrary-W FR max-intersection bound. The distinguished witness W is not a pair union, so this does not refute the separate proved canonical minimum-pair-union bound or construct a realizable Hankel-pencil counterexample.",
    "refs": [
     "background/nodes/rate_half_type2_fr_incidence_only_route_fence/statement.md",
     "background/nodes/rate_half_type2_fr_incidence_only_route_fence/proof.md",
@@ -63095,6 +63114,11 @@
   {
    "from": "rate_half_crossing_multiscale_haar_norm_router",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_fr_canonical_min_pair_union_bound",
+   "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
