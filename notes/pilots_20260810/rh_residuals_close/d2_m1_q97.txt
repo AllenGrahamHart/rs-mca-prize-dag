@@ -1,0 +1,24 @@
+==========================================================================
+D2  m = 1 EXHAUSTIVE support-configuration census   q = 97
+==========================================================================
+  D = mu_16 = [1, 8, 64, 27, 22, 79, 50, 12, 96, 89, 33, 70, 75, 18, 47, 85]
+  S_1 orbit representatives: 35 (of 560 triples)
+  (S_1,S_2) pairs scanned  : 10010
+  candidate triples per pair: 120
+  RAW configurations found (up to the zeta-shift symmetry): 0
+
+  --- verification of every configuration found ---
+  configurations verified: 0
+  T histogram over configurations: {}
+  every configuration omits exactly ONE domain point: True
+  omitted points (as field elements): []
+
+
+  BANKED comparison (q=17 only), (M1F3) triples
+    {1,2,5} {3,7,11} {9,12,13} {4,6,16} {8,10,15}, omitting 14
+    (M1F3) found verbatim among my configurations: False
+
+  FULL ORBIT COUNT (configurations before quotienting by the 16 shifts):
+    0  (banked node claims exactly 16 five-lines at q=17, one per omitted point)
+    distinct omitted-point patterns: 0 ; counts []
+    omitted points covered: []

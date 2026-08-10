@@ -1,0 +1,36 @@
+=== D4  verdict ledger: banked (C2)-only vs (C2)+(FR at canonical W) ===
+
+   m        worst a (old)  factor_old   worst a (new)  factor_new   a_new/m   X_proved  X_needed  gap
+  2                      13    1.37500             12     1.25000   6.0000          2         1 2.0000
+  3                      20    1.50000             19     1.33333   6.3333          5         3 1.6667
+  4                      27    1.62500             26     1.43750   6.5000          8         4 2.0000
+  8                      55    1.87500             52     1.50000   6.5000         18        11 1.6364
+  64                    447    2.19141            426     1.72266   6.6562        168       104 1.6154
+  1024                 7167    2.24634           6826     1.74829   6.6660       2728      1704 1.6009
+  1048576           7340031    2.25000        6990506     1.75000   6.6667    2796200   1747624 1.6000
+  137438953472 962072674303    2.25000   916259689812     1.75000   6.6667 366503875922 229064922451 1.6000
+
+  columns: worst a = argmax over the admissible band [4m+2, 7m-1] of the
+  residual factor (AO1)/(rho+1);  X_proved = the (C2)^(FR) bound at that a;
+  X_needed = rho - (floor((N-a)e/(T-2))+1), the max-intersection bound that
+  WOULD close;  gap = X_proved/X_needed  (the factor still missing).
+
+-- the three landmark a-values at m = 2^37 (exact integers) --
+  a=824633720832   6m     (where the (AO1) first term drops to 2)
+    X<=  banked 274877906942 -> sharpened 274877906942 ; needed 206158430206
+    AO1  banked 687194767359 -> sharpened 687194767359 ; rho+1 = 549755813888
+    factor banked 1.250000 -> sharpened 1.250000
+  a=916259689812   20m/3  (NEW argmax after (FR))
+    X<=  banked 366503875922 -> sharpened 366503875922 ; needed 229064922451
+    AO1  banked 962072674294 -> sharpened 962072674294 ; rho+1 = 549755813888
+    factor banked 1.750000 -> sharpened 1.750000
+  a=962072674303   7m-1   (banked evaluation point, (NEWCAP) top)
+    X<=  banked 412316860413 -> sharpened 274877906942 ; needed 240518168574
+    AO1  banked 1236950581233 -> sharpened 618475290624 ; rho+1 = 549755813888
+    factor banked 2.250000 -> sharpened 1.125000
+
+-- headline --
+  residual (ii) factor over the whole band: 2.250000  ->  1.750000   (9/4 -> 7/4)
+  at the banked evaluation point a=7m-1 alone:      2.250000 -> 1.125000  (9/4 -> 9/8)
+  the band itself is UNCHANGED: (16m/3, 7m-1].  NEITHER BUDGET CLOSES.
+  what is still missing at the new argmax a=(20m-2)/3: X <= 5m/3, proved X <= 8m/3.

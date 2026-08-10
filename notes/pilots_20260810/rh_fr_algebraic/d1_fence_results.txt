@@ -1,0 +1,16 @@
+=== D1  fence anatomy (rh_fr_algebraic, round 32) ===
+m=64 q=257 N=1024 rho=255 T=257 a=447 R=512 R+1=513
+7m-1=447  2m=128  3m-3=189  2(m-1)=126  (8m-8)/3=168.0000
+[rebuild] block count 257; sizes set [255]
+[mask] sha256 OK, |W|=447 (claimed 447)
+[deg] sum_x (m-d_x) = 1  (claim 1); max d_x=64 min d_x=63
+[pairs] max |S ^ S'| = 63 (m-1=63);  min |S u S'| = 447 (a=447);  #minimising pairs = 24769
+[fenceW] max |S ^ W| = 189 at [0]; min |S \ W| = 66;  mean |S ^ W| = 111.3113
+[fenceW] blocks CONTAINED in W (type-1 count for the fence's W): 0
+[fenceW] is W equal to some pair union?  False
+[fenceW] sum_gamma |S ^ W| = 28607 ; m*a - def = 28608 - def
+[canonW-min] over the 24769 MINIMISING pairs (|W*|=447): max_gamma |S_gamma ^ W*| = 115 at pair (0, 1)   [2m=128, 2(m-1)=126, fence's 3m-3=189]
+[canonW-all] over ALL 32896 pair unions: max_gamma |S_gamma ^ (S_g u S_h)| = 115 at pair (0, 1) (|W*|=447)   [2m=128]
+[canonW-all] VERDICT: fence's 3m-3=189 occurs at NO pair-union W; the sup over canonical W is 115 <= 2m=128: True
+[C2] n_gamma <= |S\W| - (R+1-a): min slack 0, max slack 99, sum slack 19966
+[C2] sum_gamma |S \ W| = 36928 ; (N-a)m = 36928

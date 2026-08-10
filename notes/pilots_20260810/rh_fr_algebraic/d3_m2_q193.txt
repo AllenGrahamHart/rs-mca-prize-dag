@@ -1,0 +1,42 @@
+==========================================================================
+D3 (round 32) FR CENSUS   m=2 q=193   rho=7 N=32 R+1=17
+   incidence bound 3m-3 = 3 ;  target 2m = 4 ;  2(m-1) = 2
+==========================================================================
+
+PRE-REGISTERED (PREREG R4): P4.1 planted-W max |S^W| exceeds 2m and
+reaches rho-(R+1-a)=4 ; P4.2/P4.3 zero (OV+)/(FR) violations at the
+canonical W* ; P4.4 census cannot separate 2m from 3m-3 ; P4.5 T_1=2.
+
+  planted a=14    : pencils=60    canonical passes=60   
+  planted a=12    : pencils=96    canonical passes=60   
+
+--- RESULTS ---
+  planted W  : max |S_gamma ^ W| over 60 pencils : max 4  mean 1.983
+               vs 2m=4 : exceeded in 0 / 60 pencils
+               vs 3m-3=3 : exceeded in 11 / 60 pencils
+  canonical W*: a* histogram [10, 11, 12, 13, 14]
+               max |S_gamma ^ W*| : max 2  mean 0.417
+               vs 2m=4 : exceeded in 0 / 60
+               vs 2(2rho-a*) (the theorem) : exceeded in 0 / 60
+               vs 3m-3=3 : exceeded in 0 / 60
+     a*     n    max X   maxT   2(2rho-a*)   2m   3m-3
+     10     2       0      3           8     4      3
+     11    10       1      3           6     4      3
+     12    21       2      3           4     4      3
+     13    15       1      3           2     4      3
+     14    12       0      3           0     4      3
+  (all X above are over TYPE-2 slopes only -- type-1 supports lie in W* by definition)
+  closure threshold need_X = rho - (floor((N-a*)e/(T-2))+1) per a*: [(10, 0), (11, 0), (12, 1), (13, 1), (14, 1)]
+  T_1 histogram at W* : [(2, 60)]
+  T   histogram at W* : [3]
+
+--- FALSIFIERS ---
+  (FIB) fibres partition W*        : OK 60  BAD 0
+  (OV+) n_g - |S^F_g| <= p_gamma   : OK 522  BAD 0
+  (C2)  p >= R+1-a*+n_gamma        : OK 60  BAD 0
+  (FR)  X <= 2(2rho-a*)            : OK 60  BAD 0
+  a* minimality violations         : 0
+  (round-31 carried checks) GNF OK 0 BAD 0 ; w*_bad 0 ; TR1' bad 0
+
+  max T over all pencils = 3   (rho+2 = 9)  -> (SAT3) UNTESTED: True
+=== END d3_frcensus m=2 q=193 ===

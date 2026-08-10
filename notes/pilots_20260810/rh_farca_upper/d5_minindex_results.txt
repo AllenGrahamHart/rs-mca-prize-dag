@@ -1,0 +1,70 @@
+d5_minindex.py -- rh_farca_upper round 32
+wide-regime minimal-index structure (r > R/2)
+
+== census maximisers (from d3_wide / d4_deficient) ==
+  (7,2,a=4,r=3,q=7) exhaustive max T=7: rho=2 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 2, 4, 6, 8, 10, 12]
+    right minimal indices = [1, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 2 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  (7,2,a=4,r=3,q=11) sampled max T=8: rho=2 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 2, 4, 6, 8, 10, 12]
+    right minimal indices = [1, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 2 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  (8,3,a=5,r=3,q=11) sampled max T=10: rho=2 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 2, 4, 6, 8, 10, 12]
+    right minimal indices = [1, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 2 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  (9,2,a=5,r=4,q=11) sampled max T=6: rho=3 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 1, 3, 5, 7, 9, 11]
+    right minimal indices = [1, 2]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? False   sum(eps) = 3 (Kronecker: sum(eps)+sum(eta)+delta = rho = 3)
+
+== LB1 (round-31 extremiser) pencils ==
+  LB1 n=7 k=2 a=4 r=3 q=11 lams=[6, 1, 10, 9]: rho=2 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 2, 4, 6, 8, 10, 12]
+    right minimal indices = [1, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 2 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  LB1 n=8 k=3 a=5 r=3 q=11 lams=[8, 1, 7, 9]: rho=2 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 2, 4, 6, 8, 10, 12]
+    right minimal indices = [1, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 2 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  LB1 n=9 k=2 a=5 r=4 q=11 lams=[1, 7, 2, 4, 3]: rho=3 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [0, 1, 3, 5, 7, 9, 11]
+    right minimal indices = [1, 2]   (count 2, expected nu_R = 2)
+    dim K_0 = 0   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? False   sum(eps) = 3 (Kronecker: sum(eps)+sum(eta)+delta = rho = 3)
+  LB1 n=6 k=3 a=4 r=2 q=17 lams=[2, 5, 11]: rho=1 nu_R=2 nu_L=0 A=R+1-2rho=2
+    N(d) = [1, 3, 5, 7, 9, 11, 13]
+    right minimal indices = [0, 1]   (count 2, expected nu_R = 2)
+    dim K_0 = 1   (HK1 holds iff = nu_R : False)
+    ALL RIGHT MINIMAL INDICES EQUAL ? False   sum(eps) = 1 (Kronecker: sum(eps)+sum(eta)+delta = rho = 1)
+
+== deficient (irreducible-P) planes: P = x^2+1 over F_11 ==
+  P-annihilated plane n=9 k=2 a=5 r=4 q=11: rho=2 nu_R=3 nu_L=1 A=R+1-2rho=4
+    N(d) = [3, 6, 9, 12, 15, 18, 21]
+    right minimal indices = [0, 0, 0]   (count 3, expected nu_R = 3)
+    dim K_0 = 3   (HK1 holds iff = nu_R : True)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 0 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+  P-annihilated plane n=8 k=1 a=4 r=4 q=11: rho=2 nu_R=3 nu_L=1 A=R+1-2rho=4
+    N(d) = [3, 6, 9, 12, 15, 18, 21]
+    right minimal indices = [0, 0, 0]   (count 3, expected nu_R = 3)
+    dim K_0 = 3   (HK1 holds iff = nu_R : True)
+    ALL RIGHT MINIMAL INDICES EQUAL ? True   sum(eps) = 0 (Kronecker: sum(eps)+sum(eta)+delta = rho = 2)
+
+== how often is the (MI1) premise 'all minimal indices equal' true?  random column-far planes ==
+  n=7 k=2 a=4 r=3 q=7: 500 random planes; all-indices-equal in 424 (0.848); (HK1) fixed kernel in 0 (0.000)
+    index patterns = {(0, 1): 7, (0, 2): 69, (1, 1): 424}
+  n=7 k=2 a=4 r=3 q=11: 500 random planes; all-indices-equal in 450 (0.900); (HK1) fixed kernel in 0 (0.000)
+    index patterns = {(0, 1): 5, (0, 2): 45, (1, 1): 450}
+  n=8 k=3 a=5 r=3 q=11: 400 random planes; all-indices-equal in 359 (0.897); (HK1) fixed kernel in 0 (0.000)
+    index patterns = {(0, 1): 5, (0, 2): 36, (1, 1): 359}
+  n=9 k=2 a=5 r=4 q=11: 300 random planes; all-indices-equal in 5 (0.017); (HK1) fixed kernel in 0 (0.000)
+    index patterns = {(0, 2): 1, (0, 3): 2, (1, 1): 5, (1, 2): 292}
+
+elapsed 0.5s

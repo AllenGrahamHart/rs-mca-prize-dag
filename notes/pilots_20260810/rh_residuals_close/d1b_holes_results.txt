@@ -1,0 +1,31 @@
+==========================================================================
+D1b  EXHAUSTIVE uncovered-w* certificate at the official profile
+==========================================================================
+  m = 2^37   N = 2199023255552   R+1 = 1099511627777   rho = 549755813887   window [549755813890..1099511627774]
+  T4 threshold (2s <= a-1)  = 733007751852
+  monotonicity: on each divisor block of rho, j(a) is CONSTANT, the
+  third term of the min is nondecreasing, and CAP is nondecreasing;
+  hence AO1 is nondecreasing and the block TOP decides the block.
+
+  O = 0
+    divisor blocks scanned : 1482906
+    UNCOVERED w* below T4  : [733007751851]
+      a = 733007751851 : s = 366503875926, 2s-a = 1, RIG = -2, AO1 = 549755813889, deficit 1
+
+  O = 1
+    divisor blocks scanned : 1482906
+    UNCOVERED w* below T4  : [733007751851]
+      a = 733007751851 : s = 366503875926, 2s-a = 1, RIG = -2, AO1 = 549755813889, deficit 1
+
+  O = 68719476736
+    divisor blocks scanned : 1482906
+    UNCOVERED w* below T4  : [733007751851]
+      a = 733007751851 : s = 366503875926, 2s-a = 1, RIG = -2, AO1 = 549755813889, deficit 1
+
+  O = 137438953470
+    divisor blocks scanned : 1482906
+    UNCOVERED w* below T4  : [733007751851]
+      a = 733007751851 : s = 366503875926, 2s-a = 1, RIG = -2, AO1 = 549755813889, deficit 1
+
+  CONCLUSION: at O = 0 the uncovered set is a SINGLE integer; the
+  (AO1) band is hole-free at the official profile, unlike m = 8.

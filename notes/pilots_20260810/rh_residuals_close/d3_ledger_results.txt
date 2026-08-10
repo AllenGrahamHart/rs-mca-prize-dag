@@ -1,0 +1,78 @@
+==========================================================================
+D3.1  THE PROFILE AND THE TWO BUDGETS
+==========================================================================
+  m = 2^37 = 137438953472   n = N = 16m = 2199023255552 = 2^41   k = 1099511627776 = 2^40
+  rho = 4m-1 = 549755813887 = 2^39-1   R+1 = 8m+1 = 1099511627777
+  budget 1 = rho+1 = 549755813888 = 2^39
+  budget 2 = rho+2 = 549755813889 = 2^39+1
+  B*(q) = floor(q/2^128); budget b is met exactly when q >= 2^128 * b:
+    budget 2^39   met for q >= 187072209578355573530071658587684226515959365500928 = 2^167
+    budget 2^39+1 met for q >= 187072209578695855896992597051147601123391133712384 = 2^167+2^128
+  RPFC territory (B* in {2^39,2^39+1}) = [187072209578355573530071658587684226515959365500928, 187072209579036138263913535514610975730822901923840) = [2^167, 2^167+2^129)
+    width 680564733841876926926749214863536422912 = 2^129 ; pose range (2^167, 2^256) width ~2^256
+    fraction of the pose on which 'q prime' is PROVED = 2^-127
+
+==========================================================================
+D3.2  THE q-AXIS: three regions, exact endpoints
+==========================================================================
+  S1  sliver  q in [187072209578355573530071658587684226515959365500928, 187072209578695855896992597051147601123391133712384)
+              B*(q) = 549755813888 = 2^39
+  S2  mid     q in [187072209578695855896992597051147601123391133712384, 187072209579036138263913535514610975730822901923840)
+              B*(q) = 549755813889 = 2^39+1
+  S3  above   q in [187072209579036138263913535514610975730822901923840, 115792089237316195423570985008687907853269984665640564039457584007913129639936)
+              B*(q) = 549755813890 >= 2^39+2
+  relative width of S1 inside [2^167, 2^167+2^129) = 1/2
+  relative width of S1 inside the pose (2^167,2^256) = 2^-128 * 2^-... :
+    S1 width / pose width = 1/340282366920938463463374606882012397568
+
+==========================================================================
+D3.3  THE w*-AXIS: the window splits EXACTLY into four pieces
+==========================================================================
+  window [4m+2, 8m-2] = [549755813890, 1099511627774]   width 549755813885
+  (AO1) CLOSED                                     [549755813890..733007751850]  width 183251937961  share 183251937961/549755813885
+  RESIDUAL (i) gap                                 [733007751851..733007751851]  width 1  share 1/549755813885
+  RESIDUAL (ii) band (T4 applies, min-weight only) [733007751852..962072674303]  width 229064922452  share 229064922452/549755813885
+  DEAD by (NEWCAP) w* <= 7m-1                      [962072674304..1099511627774]  width 137438953471  share 137438953471/549755813885
+  widths sum to the window: True (549755813885 vs 549755813885)
+  shares as exact fractions: 1/3 + (one integer) + 5/12 + 1/4
+    1/3 check: 183251937961/549755813885 ; 5/12 check: 229064922452/549755813885 ; 1/4 check: 137438953471/549755813885
+
+==========================================================================
+D3.4  THE RESIDUAL-(ii) CAP, and a PRECISION NIT on '9/4 exactly'
+==========================================================================
+  a_max = 7m-1 = 962072674303 ; s = R+1-a_max = 137438953474 = m+2 : True
+  cap = floor((N-a)m/s) = 1236950581231
+  closed form 9m-17 = 1236950581231 : True
+  AO1 = T1cap + cap = 2 + 1236950581231 = 1236950581233
+  closed form 9m-15 = 1236950581233 : True
+  banked figures 1236950581231 / 1236950581233 : True / True
+  ratio AO1/(rho+1) = 1236950581233/549755813888 = 2.249999999973
+  9/4 = 2.250000000000 ; the exact ratio is 9/4 - 15/(4m) = 9/4 - 2.728484e-11
+  => 'residual factor 9/4 EXACTLY' is asymptotic, not exact; the exact
+     statement is AO1 = 9m-15 and (rho+1) = 4m, ratio (9m-15)/(4m).
+     Same class of nit as round 29's '4 - 7.28e-12, NOT exactly 4'.
+
+==========================================================================
+D3.5  RESIDUAL (i) AND (ii) ARE THE SAME MISSING STEP, priced
+==========================================================================
+  residual (i)  at a* = 733007751851 : needs #{min-weight type-2} <= 229064922450
+    T4's conclusion M <= m+1 = 137438953473 would give it, margin ratio 76354974150/45812984491
+    obstruction: T4 hypothesis 2s <= a-1 fails by ONE point (2s = a*+1)
+  residual (ii) at a in [733007751852, 962072674303] : needs (FR) |S ^ W| <= ~2m
+    obstruction: the max-vs-mean upgrade, FENCED for incidence-only
+    axioms by background/nodes/rate_half_type2_fr_incidence_only_route_fence
+  BOTH obstructions are algebraic-not-combinatorial; residual (i) is now
+  fenced the same way (d1c_fence.py, explicit m=2 system).
+
+==========================================================================
+D3.6  LB1 AND THE FAR-CA SIDE (different object, same endgame)
+==========================================================================
+  bracket [k+2^34, 3n/4] = [1116691496960, 1649267441664]
+  LB1: B_ca^far(a) >= n-a+1
+    at a = 3n/4   : >= 549755813889 = 2^39+1  == budget 2 exactly
+    at a = k+2^34 : >= 1082331758593 = 2^39.9773
+  => budget 2^39 is UNATTAINABLE at a = 3n/4 (n-a+1 exceeds it by 1)
+  => on the q-sliver S1 (B* = 2^39) the far-CA route is DEAD at the
+     bracket TOP; it can only survive at smaller a.
+  distance from the far-CA lower bound to the 2^128 budget at a=k+2^34:
+    2^128 / 1082331758593 = 2^89.0000

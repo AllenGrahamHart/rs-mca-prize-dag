@@ -1,0 +1,57 @@
+=== D2  (AO1) ledger with the canonical-W (FR) bound ===
+
+-- 1. (NEWCAP) exact: bound on the minimum pair union a* --
+  m=     2: max over O in [0,m-1] of floor(mean pair union) = 13  at O=0   7m-1=13   OK=True
+  m=     3: max over O in [0,m-1] of floor(mean pair union) = 20  at O=0   7m-1=20   OK=True
+  m=     4: max over O in [0,m-1] of floor(mean pair union) = 27  at O=0   7m-1=27   OK=True
+  m=     8: max over O in [0,m-1] of floor(mean pair union) = 55  at O=0   7m-1=55   OK=True
+  m=    64: max over O in [0,m-1] of floor(mean pair union) = 447  at O=0   7m-1=447   OK=True
+  m=  1024: max over O in [0,m-1] of floor(mean pair union) = 7167  at O=0   7m-1=7167   OK=True
+
+-- 2. a-sweep at m=64 (the fence's scale): banked vs sharpened --
+     a   X<=(C2)  X<=(FR)  X_new  p_new   CAP_old   CAP_new   AO1_new  need_p need_X  ratio
+    258        0      504      0    255       192       192       256    255      0  1.0000
+    288       30      444     30    225       209       209       217    190     65  0.8477
+    320       62      380     62    193       233       233       237    179     76  0.9258
+    352       94      316     94    161       267       267       270    170     85  1.0547
+    384      126      252    126    129       317       317       319    161     94  1.2461
+    416      158      188    158     97       401       401       403    153    102  1.5742
+    447      189      126    126    129       559       286       288    145    110  1.1250
+  ARGMAX ratio at a=426 (= 6.6562 m): ratio=1.7227  [20m/3=426.67]  AO1=441 vs rho+1=256
+  a-values where the sharpened (AO1) CLOSES (AO1<=rho+1): a<=339   [16m/3=341.33]  open band = (339, 447]
+  banked ((C2) only) closes for a<=339 -- the SAME threshold, so (FR) does not move the band, only the factor inside it
+
+-- 3. official scale m=2^37 --
+  a=7m-1 (top of band, round-31 evaluation point)
+    a=962072674303  X<=(C2)=412316860413  X<=(FR)=274877906942  ->  X<=274877906942
+    p_min: banked 137438953474 -> sharpened 274877906945   (needed to refute: 309237645313)
+    CAP:   banked 1236950581231 -> sharpened 618475290622
+    AO1:   banked 1236950581233 -> sharpened 618475290624   vs rho+1=549755813888
+    residual factor: banked 2.250000 -> sharpened 1.125000
+  a=(20m-2)/3 (new argmax)
+    a=916259689812  X<=(C2)=366503875922  X<=(FR)=366503875924  ->  X<=366503875922
+    p_min: banked 183251937965 -> sharpened 183251937965   (needed to refute: 320690891436)
+    CAP:   banked 962072674292 -> sharpened 962072674292
+    AO1:   banked 962072674294 -> sharpened 962072674294   vs rho+1=549755813888
+    residual factor: banked 1.750000 -> sharpened 1.750000
+  a=16m/3 (banked closure threshold)
+    a=733007751850  X<=(C2)=183251937960  X<=(FR)=733007751848  ->  X<=183251937960
+    p_min: banked 366503875927 -> sharpened 366503875927   (needed to refute: 366503875927)
+    CAP:   banked 549755813885 -> sharpened 549755813885
+    AO1:   banked 549755813887 -> sharpened 549755813887   vs rho+1=549755813888
+    residual factor: banked 1.000000 -> sharpened 1.000000
+
+-- 4. asymptotic constants (m=2^37, ratio to m) --
+  X<=(FR) at a=7m-1 : 274877906942 = 2m-2 ? True
+  crossing (C2)=(FR): a=(20m-2)/3=916259689812, X there = 366503875922 ~ (8m-8)/3 = 366503875922
+  needed X at a=7m-1: 240518168574  ~ 7m/4 = 240518168576
+  mean |S^W| at a=7m-1 over all T slopes: m*a/T = 240518168575 ~ 7m/4 = 240518168576
+
+-- 5. counting-instrument audit (why a floor must beat the MEAN, not the MDS bound) --
+  m=  2 a=   13: sum_(type-2) p = (N-a)e - def_out = 38 - def_out ; T_2=7 ; mean p = 5.4286 ; (C2) floor = 4 ; (FR) floor = 5
+  m=  3 a=   20: sum_(type-2) p = (N-a)e - def_out = 84 - def_out ; T_2=11 ; mean p = 7.6364 ; (C2) floor = 5 ; (FR) floor = 7
+  m=  4 a=   27: sum_(type-2) p = (N-a)e - def_out = 148 - def_out ; T_2=15 ; mean p = 9.8667 ; (C2) floor = 6 ; (FR) floor = 9
+  m=  8 a=   55: sum_(type-2) p = (N-a)e - def_out = 584 - def_out ; T_2=31 ; mean p = 18.8387 ; (C2) floor = 10 ; (FR) floor = 17
+  m= 64 a=  447: sum_(type-2) p = (N-a)e - def_out = 36928 - def_out ; T_2=255 ; mean p = 144.8157 ; (C2) floor = 66 ; (FR) floor = 129
+  A per-slope floor P refutes T=rho+2 iff P*T_2 > (N-a)e - def_out, i.e. iff P exceeds the
+  MEAN spend.  (C2) gives m+2 (mean/floor = 9/4); (FR) gives 2m+1 (mean/floor = 9/8).

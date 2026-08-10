@@ -1,0 +1,183 @@
+==========================================================================
+D1.1  own re-derivation of the (AO1) closure band + T4 threshold + GAP
+      (independent of round 29's d3_coverage.py; O = 0)
+==========================================================================
+  m   window        AO1-band top   contiguous  T4 thr   GAP (w* values)
+    1 [6..6]  EMPTY  n       7   [6]                    AGREE
+    2 [10..14]  10  Y      12   [11]                   AGREE
+    3 [14..22]  15  Y      17   [16]                   AGREE
+    4 [18..30]  19  Y      23   [20, 21, 22]           AGREE
+    5 [22..38]  24  Y      28   [25, 26, 27]           AGREE
+    6 [26..46]  31  Y      33   [32]                   AGREE
+    7 [30..54]  35  Y      39   [36, 37, 38]           AGREE
+    8 [34..62]  40  n      44   [41, 43]               DISAGREE vs banked [43]
+    9 [38..70]  47  Y      49   [48]                   AGREE
+   10 [42..78]  51  Y      55   [52, 53, 54]           AGREE
+   11 [46..86]  58  Y      60   [59]                   AGREE
+   12 [50..94]  63  Y      65   [64]                   AGREE
+   13 [54..102]  67  Y      71   [68, 69, 70]           AGREE
+   14 [58..110]  74  Y      76   [75]                   AGREE
+   15 [62..118]  79  Y      81   [80]                   AGREE
+   16 [66..126]  83  Y      87   [84, 85, 86]           AGREE
+   17 [70..134]  90  Y      92   [91]                   AGREE
+   18 [74..142]  95  Y      97   [96]                   AGREE
+   19 [78..150]  99  Y     103   [100, 101, 102]        AGREE
+   20 [82..158]  106  Y     108   [107]                  AGREE
+   24 [98..190]  127  Y     129   [128]                  AGREE
+   30 [122..238]  159  Y     161   [160]                  AGREE
+   32 [130..254]  170  Y     172   [171]                  AGREE
+   36 [146..286]  191  Y     193   [192]                  AGREE
+   39 [158..310]  207  Y     209   [208]                  AGREE
+   40 [162..318]  211  Y     215   [212, 213, 214]        AGREE
+  banked-table reproduction: 25/26 rows
+
+==========================================================================
+D1.2  gap size as a function of m mod 3  (m = 1..300, O = 0)
+==========================================================================
+  m = 0 mod 3 : gap-size histogram {1: 100}
+  m = 1 mod 3 : gap-size histogram {1: 1, 3: 99}
+  m = 2 mod 3 : gap-size histogram {1: 98, 2: 1, 3: 1}
+
+  closed forms tested for m in [1,300]:
+    m=0 mod 3 -> {16m/3} ; m=1 mod 3 -> {(16m-4)/3,(16m-1)/3,(16m+2)/3} ; m=2 mod 3 -> {(16m+1)/3}
+    exceptions: [1, 5, 8]
+       m=1 : predicted [4, 5, 6]   actual [6]   (AO1 band top EMPTY, T4 thr 7)
+       m=5 : predicted [27]   actual [25, 26, 27]   (AO1 band top 24, T4 thr 28)
+       m=8 : predicted [43]   actual [41, 43]   (AO1 band top 40, T4 thr 44)
+
+==========================================================================
+D1.3  THE OFFICIAL PROFILE  m = 2^37
+==========================================================================
+  m = 2^37 = 137438953472   N = 2199023255552 = 2^41   R+1 = 1099511627777   rho = 549755813887 = 2^39-1
+  budgets {rho+1, rho+2} = {549755813888, 549755813889} = {2^39, 2^39+1}
+  (AO1) closure band  = [549755813890 .. 733007751850]   (binary search)
+  local check around the top (offset, closes?): [(-8, True), (-7, True), (-6, True), (-5, True), (-4, True), (-3, True), (-2, True), (-1, True), (0, True), (1, False), (2, False), (3, False), (4, False), (5, False), (6, False), (7, False), (8, False)]
+  T4 band             = [733007751852 .. 1099511627774]
+  GAP                 = [733007751851]        (1 integer)
+  gap integer a* = 733007751851 ; (2^41+1)/3 = 733007751851 ; equal: True
+
+  AT a*:
+    s = R+1-a*            = 366503875926 = (8m+2)/3   exact: True
+    2s - a*               = 1      (T4 needs 2s <= a*-1, i.e. this <= -1)
+    RIG = a*-1-2s         = -2      (round-29 threshold RIG >= 0)
+    T1cap                 = 3
+      floor(a/(a-rho))    = 3   ;  m+1 = 137438953473 ;  floor(am/rho) = 183251937963
+    CAP = T2cap           = 549755813886      ( = 4m-2 : True)
+    (AO1) total           = 549755813889
+    rho+1 (target)        = 549755813888
+    DEFICIT (AO1-(rho+1)) = 1      <-- fails by EXACTLY this many slopes
+
+  one integer below (a*-1 = 733007751850, the top of the AO1 band):
+    s = 366503875927  T1cap = 3  CAP = 549755813885  AO1 = 549755813888  <= rho+1 = 549755813888 : True
+  one integer above (a*+1 = 733007751852, the bottom of the T4 band):
+    s = 366503875925  2s-(a*+1) = -2 (T4 hypothesis holds: True)  AO1 = 549755813891 (irrelevant, T4 covers it)
+
+==========================================================================
+D1.4  WHAT IS FORCED AT a = a*  (under (SAT3) T = rho+2)
+==========================================================================
+  T = rho+2                       = 549755813889
+  T_1 <= floor(a*/(a*-rho))       = 3
+  T_2 >= T - T_1                  = 549755813886
+  T_2 <= CAP                      = 549755813886
+  => T_1 = 3 and T_2 = 549755813886 are FORCED EXACTLY (T2min == CAP: True)
+
+  outside-W capacity  (N-a*)e     = 201487636602392382799872
+  minimum type-2 spend  T_2 * s   = 201487636602071691908436
+  total excess  sum_gamma eps_g   <= 320690891436          (eps_g := |S_g\W| - s >= 0)
+    = (7m+4)/3 : True
+  #{gamma : eps_gamma >= 1}       <= 320690891436
+  #{MINIMUM-WEIGHT type-2}        >= T_2 - excess = 229064922450
+    = (5m-10)/3 : True
+  T4's conclusion (if its hypothesis held) caps a collinear family at
+  M <= e+1 = m+1                  = 137438953473
+  CONTRADICTION MARGIN            = 91625968977  (ratio 1.6667)
+  => T4's CONCLUSION at a* would close residual (i) with 1.6667x of room;
+     only its HYPOTHESIS fails, and it fails by exactly one point (2s = a*+1).
+
+==========================================================================
+D1.5  (NEWCAP) INTERACTION  (round 31:  w* <= 7m-1)
+==========================================================================
+  7m-1                            = 962072674303
+  gap integer a*                  = 733007751851
+  a* <= 7m-1 : True  => (NEWCAP) does NOT remove the gap
+  a* survives for every m in [1,300]: True
+  the w* ceiling that WOULD close residual (i) is the AO1 band top = 733007751850
+  required strengthening of (NEWCAP): 962072674303 -> 733007751850, factor 1.312500 (-> 21/16 = 1.312500)
+  such a ceiling would ALSO kill residual (ii) (its whole band is above a*).
+
+==========================================================================
+D1.6  O-SENSITIVITY of the gap  (O <= delta = m-1, apolar (C4))
+==========================================================================
+  m=4 : O in [0..2] -> [20, 21, 22]; O in [3..3] -> [18, 20, 21, 22]
+  m=8 : O in [0..6] -> [41, 43]; O in [7..7] -> [34, 41, 43]
+  m=40 : O in [0..38] -> [212, 213, 214]; O in [39..39] -> [162, 212, 213, 214]
+  m=64 : O in [0..62] -> [340, 341, 342]; O in [63..63] -> [258, 340, 341, 342]
+  official m=2^37: the AO1 band BOTTOM (a=4m+2) closes iff O <= m-2;
+    O=m-2 : AO1(4m+2) = 549755813888 <= rho+1 ; O=m-1 : AO1(4m+2) = 549755813889 = rho+2 (apolar P7)
+    gap at O=0     : [733007751851]
+    gap at O=m-2   : [733007751851]
+    at O=m-1 the AO1 band is EMPTY at its own bottom, so the 'gap' is the
+    whole sub-T4 window; the tiling statement is an O=0 statement.
+
+==========================================================================
+D1.7  the DEFICIT at every gap integer (how far AO1 misses rho+1)
+==========================================================================
+   m   gap value   s   2s-a   RIG   AO1   rho+1   deficit
+     2        11     6     1    -2       9       8   1
+     3        16     9     2    -3      13      12   1
+     4        20    13     6    -7      17      16   1
+     4        21    12     3    -4      17      16   1
+     4        22    11     0    -1      18      16   2
+     5        25    16     7    -8      21      20   1
+     5        26    15     4    -5      21      20   1
+     5        27    14     1    -2      21      20   1
+     8        41    24     7    -8      33      32   1
+     8        43    22     1    -2      33      32   1
+    16        84    45     6    -7      65      64   1
+    16        85    44     3    -4      65      64   1
+    16        86    43     0    -1      66      64   2
+    40       212   109     6    -7     161     160   1
+    40       213   108     3    -4     161     160   1
+    40       214   107     0    -1     162     160   2
+    64       340   173     6    -7     257     256   1
+    64       341   172     3    -4     257     256   1
+    64       342   171     0    -1     258     256   2
+   100       532   269     6    -7     401     400   1
+   100       533   268     3    -4     401     400   1
+   100       534   267     0    -1     402     400   2
+  1024      5460  2733     6    -7    4097    4096   1
+  1024      5461  2732     3    -4    4097    4096   1
+  1024      5462  2731     0    -1    4098    4096   2
+
+==========================================================================
+D1.8  NO-HOLE CERTIFICATE at m = 2^37 (the binary search of D1.3 assumed
+      contiguity; at m=8 contiguity FAILS, so it must be certified here)
+==========================================================================
+  For a >= 4m+4, T1cap = j(a) := floor(a/(a-rho)) (the other two terms of
+  the min are >= m and j(a) <= m there).  On I_j := {a : j(a) = j} =
+  ((j+1)rho/j, j*rho/(j-1)], AO1 = j + CAP(a) is NONDECREASING (CAP is),
+  so the covered part of I_j is a PREFIX and the uncovered part a SUFFIX.
+  Hence it suffices to test the TOP of each I_j.
+
+   j   top(I_j)=floor(j*rho/(j-1))   AO1 there   <= rho+1 ?   T1cap there
+   3   824633720830                687194767356 False       3
+   4   733007751849                549755813888 True        4
+   5   687194767358                503942829399 True        5
+   6   659706976664                481036337155 True        6
+   7   641381782868                467292441809 True        7
+   8   628292358728                458129844912 True        8
+   9   618475290622                451585132843 True        9
+  10   610839793207                446676598791 True        10
+  11   604731395275                442858850085 True        11
+
+  Every I_j with j >= 4 has its TOP covered, therefore ALL of I_j is
+  covered (prefix property).  The uncovered set below the T4 threshold is
+  therefore contained in I_3, where the band top is 733007751850.
+  => GAP = {733007751851} EXACTLY, certified, not merely binary-searched.
+  (At m=8 the same test fails: top(I_4) = 41 has AO1 = 33 > rho+1 = 32,
+   which is precisely the hole at w* = 41 that the banked table hides.)
+
+  RIG at the gap integers, closed form 3g-16m-3 :
+    m=2 mod 3 (official class): RIG = -2 exactly, i.e. 2s = a+1,
+    so the T4 difference polynomial is sigma_W * (LINEAR), one degree
+    beyond the q=17 fence's sigma_W * (CONSTANT).
