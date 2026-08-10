@@ -4868,3 +4868,33 @@ ending in widen-vs-child. QUARANTINE MARKER: this entry and below
 quarantined for round-31 pilots (the ledger closed to them
 entirely); sibling round-31 dirs mutually quarantined; round-30 and
 earlier readable. Launched on Opus.
+
+## ROUND 31 BANK 1/4 — rh_type2_stratum (2026-08-10, coordinator)
+
+**BANKED — THE LARGEST CAP MOVEMENT OF THE CAMPAIGN: residual (ii)
+re-priced 5.04e22 -> 1,236,950,581,231 (40,722,652,881x = 10.61
+decimal orders), residual factor 9/4 EXACTLY, one named missing
+inequality.** Mechanism = a DIRECTION-REVERSAL of banked material:
+(OV) w* <= |S u S'| for EVERY pair (apolar's union bound, never
+summed) -> (NEWCAP) w* <= 7m-1 under (SAT1)-(SAT4) at T = rho+2 —
+the same 7m-1 apolar computed as the MEAN's location and read as
+"does not move either budget." CAP monotone in a re-evaluates at
+spend floor m+2 (was 3): cap 9m-17. BONUS THEOREMS: a = 8m-2 is
+VACUOUS for m >= 2 (w* = 2rho forces the R4-refuted disjointness);
+m = 1 is STRUCTURALLY DISJOINT from residual (ii) (j = 0 forced —
+proof). FRONTIER NAMED: (FR) |S ^ W| <= ~2m against ALL of W (the
+max-vs-mean upgrade); the l1_fpc5 distance-only no-go flagged as a
+possible ceiling — if it transports, the combinatorial route ends
+at 9/4 and the next instrument is algebraic. Coordinator
+hand-verified the (OV)->(NEWCAP) algebra AND independently
+re-derived all five ledger numbers exactly. Pilot process exhibit:
+it FALSIFIED ITS OWN published D1.6 feasibility certificate
+in-session (the failure mode IS the theorem; stale text flagged
+in-file per the round-29 precedent). Corrections banked: the
+5.04e22 and 2/3-window lines SUPERSEDED; the coordinator's own
+"~39-order" brief phrasing corrected (true gap was 11 decimal
+orders). Caveats live: (SAT3)-conditional; F1 unexercised (census
+sampler capped at T = 3); (EQ) converse sampled not proved. No
+status flips; neither budget closes. Files:
+notes/pilots_20260810/rh_type2_stratum/ (REPORT, FABLE_AUDIT,
+d1-d4 scripts + results, 8 census cells).

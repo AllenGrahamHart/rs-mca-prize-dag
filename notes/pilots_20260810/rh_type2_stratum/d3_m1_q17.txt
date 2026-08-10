@@ -1,0 +1,36 @@
+==========================================================================
+D3 CENSUS   m=1  q=17   rho=3 N=16 R+1=9  window w* in [6,6]
+==========================================================================
+
+--- MODE A: random pencils at three w* values (a = |S_1 u S_2|) ---
+  a=6      cap CAP(m,a)=3          pencils=60  T histogram [(2, 60)]
+       type-2 seen=0   j=0: 0   j>=1: 0   p hist []   j hist []
+
+--- MODE B: TARGETED pencils, a = 2rho = 8m-2, third slope planted ---
+    Construction: W = S_1 u S_2 disjoint; pick P of size p outside W,
+    S_3 = P u (subset of W); kappa in K supported on Z = W u P built by
+    NULLSPACE (not by the GNF, so the GNF check stays independent);
+    v_1 := kappa on S_1\S_3 (free on S_1 ^ S_3), same for v_2; then
+    v_3 = v_1 + v_2 - kappa is automatically supported in S_3.
+    a = 6, CAP(m,a) = 3, target rho+1 = 4
+    p=3    built=20    type-2 found=20      j=0: 20      j>=1: 0     
+    overall p histogram: [(3, 20)]
+    overall j histogram: [(0, 20)]
+    T histogram        : [(3, 20)]
+
+--- CHECKS ---
+  (GNF)  kappa_x = f(x)/sigma'_Z(x), deg f <= |Z|-(R+1):  OK 20  BAD 0
+  (EQ->) equality in (C2)  =>  j=0            :  OK 20  BAD 0
+  (EQ<-) j=0  =>  equality in (C2)            :  OK 20  BAD 0
+  (TR1') triples: |u S| >= R+1 : 20    exact relation : 0    VIOLATIONS: 0
+  w* minimality violations (a supported pair with smaller union): 0
+
+--- SUMMARY (m=1, q=17) ---
+  pencils analysed        : 80
+  supported slopes seen   : 180
+  max T over all pencils  : 3      (rho+2 = 5)
+  type-2 slopes seen      : 20
+    of which j = 0        : 20
+    of which j >= 1       : 0   <-- THE MANDATE'S STRATUM
+  max T_2^{>} in ONE pencil: 0    CAP(m,8m-2) = 3
+=== END d3_census m=1 q=17 ===

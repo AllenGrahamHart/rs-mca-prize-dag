@@ -510,3 +510,61 @@ rounds-27..29 instruments are primality-sensitive — the WP5 verdict's
 materially), or (b) restrict the lane's family claim to prime q and
 open a separate extension-row child. Until ruled, every consumer
 reading "each admissible row" must count e >= 2 as UNCOVERED.
+
+## Round-31 type-2 stratum addendum (2026-08-10, coordinator-audited)
+
+**RESIDUAL (ii) RE-PRICED BY 10.61 DECIMAL ORDERS.** The round-31
+rh_type2_stratum pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260810/rh_type2_stratum/; coordinator hand-verified
+the algebra and independently re-derived every ledger number):
+
+- **(OV)** For every pair of distinct supported slopes,
+  w* <= |S_gamma u S_gamma'| (the round-28 apolar union bound with
+  the every-pair quantifier made explicit — a direction-reversal of
+  banked material, not new arithmetic).
+- **(NEWCAP), conditional on (SAT1)-(SAT4) with T = rho+2:**
+  summing (OV) over all C(T,2) pairs through the incidence identity
+  sum_{pairs} |S ^ S'| = sum_x C(d_x,2) and the SAT4 convexity
+  minimum gives w* <= 2rho - (Lmin(O)+(T-1)O)/C(T,2), tightest
+  universal form at O = 0: **w* <= 7m-1** asymptotically — the SAME
+  7m-1 that the round-28 apolar bank computed as the location of
+  the MEAN configuration and read as "does not move either budget."
+- **THE SHARPENED LEDGER at m = 2^37** (exact, replayed +
+  coordinator re-derived): a_max = 7m-1 = 962072674303; spend floor
+  R+1-a_max = m+2; residual-(ii) cap = floor((9m+1)m/(m+2)) =
+  **1,236,950,581,231** (banked figure was 50371909150701174915072;
+  shrink 40,722,652,881x); AO1 = 1,236,950,581,233 vs rho+1 = 2^39:
+  **residual factor 9/4 exactly.** The w* window share drops
+  2/3 -> 5/12.
+- **VACUITY LEMMA:** a = 8m-2 (where the old cap was evaluated) is
+  vacuous for every m >= 2 — w* = 2rho forces pairwise-disjoint
+  full-size supports, i.e. T*rho <= N, true only at m = 1 (the R4
+  fence, now forced rather than assumed).
+- **m = 1 IS STRUCTURALLY DISJOINT from residual (ii)** (proof:
+  p in [3,3] and wt(kappa) = 9 - n_0 >= 9 forces j = 0) — the q=17
+  fence contains none of this stratum; residual (iii) and residual
+  (ii) do not overlap.
+- **THE HONEST FRONTIER — (FR), the one missing inequality:**
+  |S_gamma ^ W| <= ~2m against ALL of W at once (the max-vs-mean
+  upgrade; (OV) gives it pairwise only). CAUTION: the l1_fpc5
+  distance-only no-go ("support weights + pairwise overlaps cannot
+  close this consumer") is an in-repo precedent from a sibling lane
+  — if it transports, 9/4 is the CEILING of the combinatorial route
+  and the next instrument is algebraic ((GNF) f_gamma polynomials
+  or the Hankel pencil).
+- **(GNF)** the generalized reciprocal-locator normal form
+  kappa_x = f(x)/sigma'_Z(x), deg f <= wt(kappa)-(R+1), a port of
+  the xr-lane RS duality basis, verified 280/280: j >= 1 does NOT
+  break the normal form, it breaks UNIQUENESS (dimension j+1) —
+  the honest reason T4 does not transport to this stratum.
+- **SUPERSESSIONS:** the banked "counting cap there is 5.04e22"
+  line (round-29, above) and the "2/3 of the w* window" share are
+  SUPERSEDED by this addendum. The round-31 brief's "~39-order gap"
+  phrasing was WRONG (coordinator's own error, conflating 2^39
+  with decimal orders): the true gap was 11 decimal / 36 binary
+  orders, now 9/4.
+- **LIVE CAVEATS:** (NEWCAP) is conditional on (SAT3); falsifier F1
+  (a realizable T = rho+2 configuration with w* > 7m-1) is live and
+  unexercised (the census sampler never reached T > 3); (EQ)'s
+  converse is sampled (121/121), not proved. No status flips;
+  neither budget closes.

@@ -1,0 +1,132 @@
+==========================================================================
+D2.1  the O-monotonicity of (NEWCAP)  (justifies evaluating at O=0)
+==========================================================================
+  d/dO of [Lmin(O) + (T-1)O] = (T-1) - (C(m,2)-C(m-1,2)) = 4m - (m-1)
+                             = 3m+1 > 0, so the cap is tightest at O=0.
+     m=2     T-1=8       C(m,2)-C(m-1,2)=1       slope=7
+     m=4     T-1=16      C(m,2)-C(m-1,2)=3       slope=13
+     m=8     T-1=32      C(m,2)-C(m-1,2)=7       slope=25
+     m=64    T-1=256     C(m,2)-C(m-1,2)=63      slope=193
+
+==========================================================================
+D2.2  THE SHARPENED w* CEILING AND THE SHARPENED TYPE-2 CAP
+==========================================================================
+  m              old a_max  NEW a_max    T4 band lo   CAP(m,NEW a_max)         rho+1         
+  1              6          6            7            3                        4             
+  2              14         13           12           9                        8             
+  3              22         20           17           16                       12            
+  4              30         27           23           24                       16            
+  8              62         55           44           58                       32            
+  64             510        447          343          559                      256           
+  1024           8190       7167         5463         9199                     4096          
+  1048576        8388606    7340031      5592407      9437167                  4194304       
+  137438953472   1099511627774 962072674303 733007751852 1236950581231            549755813888  
+
+  the same table as a REDUCTION of the mandate's 5.04e22:
+  m              old CAP(m,8m-2)            new CAP(m,a_max)       shrink x    
+  1              3                          3                      1           
+  2              12                         9                      1           
+  3              26                         16                     1           
+  4              45                         24                     1           
+  8              176                        58                     3           
+  64             10965                      559                    19          
+  1024           2796885                    9199                   304         
+  1048576        2932031706453              9437167                310689      
+  137438953472   50371909150701174915072    1236950581231          40722652881 
+
+  residual factor still open (new cap vs budget rho+1):
+     m=1               AO1(new) = 2 + 3 = 5                       rho+1 = 4               ratio 1.25
+     m=2               AO1(new) = 2 + 9 = 11                      rho+1 = 8               ratio 1.37
+     m=3               AO1(new) = 2 + 16 = 18                      rho+1 = 12              ratio 1.50
+     m=4               AO1(new) = 2 + 24 = 26                      rho+1 = 16              ratio 1.62
+     m=8               AO1(new) = 2 + 58 = 60                      rho+1 = 32              ratio 1.87
+     m=64              AO1(new) = 2 + 559 = 561                     rho+1 = 256             ratio 2.19
+     m=1024            AO1(new) = 2 + 9199 = 9201                    rho+1 = 4096            ratio 2.24
+     m=1048576         AO1(new) = 2 + 9437167 = 9437169                 rho+1 = 4194304         ratio 2.24
+     m=137438953472    AO1(new) = 2 + 1236950581231 = 1236950581233           rho+1 = 549755813888    ratio 2.24
+
+  asymptotics: a_max -> 7m (leading order), s = R+1-a -> m, so
+  CAP -> 9m and AO1 -> 9m+2 against rho+1 = 4m: residual factor 9/4 = 2.25.
+     m=1024             a_max = 7167             = 7m - 1           s = 1026             = m + 2
+     m=1048576          a_max = 7340031          = 7m - 1           s = 1048578          = m + 2
+     m=137438953472     a_max = 962072674303     = 7m - 1           s = 137438953474     = m + 2
+
+==========================================================================
+D2.3  THE OFFICIAL NUMBER
+==========================================================================
+  m = 2^37, rho+1 = 2^39 = 549755813888
+  banked cap  CAP(m, 8m-2)   = 50371909150701174915072   (23 decimal digits)
+  sharpened   a_max          = 962072674303   (= 7m - 1)
+  sharpened   CAP(m, a_max)  = 1236950581231   (13 decimal digits)
+  sharpened   AO1(m, a_max)  = 2 + 1236950581231 = 1236950581233
+  shrink factor              = 40722652881  (10 decimal orders of the 11-order gap)
+  STILL OPEN by the factor    = 1236950581233 / 549755813888 = 2.25...
+
+==========================================================================
+D2.4  SELF-CORRECTION: the D1.6 feasibility certificate was INCOMPLETE
+==========================================================================
+  d1_anatomy.py D1.6 exhibited an integer-feasible pseudo-configuration
+  at a = 8m-2 for every m.  That certificate omitted (OV).  Re-test it:
+  in it |S_gamma ^ W| = rho - p_gamma, and W = S_1 u S_2 with S_1,S_2
+  disjoint of size rho, so max(|S_gamma^S_1|,|S_gamma^S_2|) >= ceil((rho-p)/2)
+  and then |S_gamma u S_1| <= 2rho - ceil((rho-p)/2) < a whenever p < rho.
+  m              p_gamma    |S^W|=rho-p    min pair union   a = 8m-2  
+  1              3          0              6                6          OK
+  2              5          2              13               14         VIOLATES (OV): w* < a
+  3              7          4              20               22         VIOLATES (OV): w* < a
+  4              9          6              27               30         VIOLATES (OV): w* < a
+  8              17         14             55               62         VIOLATES (OV): w* < a
+  1048576        2097153    2097150        7340031          8388606    VIOLATES (OV): w* < a
+
+  So a = 8m-2 is NOT realizable for m >= 2, and the 5.04e22 is evaluated
+  at a VACUOUS point of the window.  At m=1 the certificate survives
+  (p = rho = 3, |S ^ W| = 0, all supports disjoint) -- and it is exactly
+  the banked q=17 fence.  Disjointness needs T*rho <= N, i.e.
+     m=1    T*rho = 15        N = 16        feasible
+     m=2    T*rho = 63        N = 32        IMPOSSIBLE
+     m=3    T*rho = 143       N = 48        IMPOSSIBLE
+     m=4    T*rho = 255       N = 64        IMPOSSIBLE
+  (this is apolar_origin/REPORT.md:78 R4 -- ported, not discovered;
+   what is new is that a = 2rho FORCES the disjointness it refutes.)
+
+==========================================================================
+D2.5  RE-RUN OF THE COUNTING CERTIFICATE WITH (OV) ADDED
+==========================================================================
+  Same construction, now at a = NEW a_max, with all pairwise overlaps
+  set to the (OV) ceiling 2rho-a and the second moment forced to Lmin(0).
+  m              a              C(T,2)*(2rho-a)      Lmin(0)              feasible
+  1              6              0                    0                    True    
+  2              13             36                   31                   True    
+  3              20             156                  142                  True    
+  4              27             408                  381                  True    
+  8              55             3696                 3577                 True    
+  64             447            2072448              2064321              True    
+  1048576        7340031        9223365439782912000  9223363240760705025  True    
+  137438953472   962072674303   20769187434025973718532838953844736 20769187433988194786670019231088641 True    
+
+  and one integer BELOW-the-ceiling check (a = a_max+1 must fail):
+     m=2          a=14             C(T,2)(2rho-a)=0                    Lmin=31                   INFEASIBLE (correct)
+     m=3          a=21             C(T,2)(2rho-a)=78                   Lmin=142                  INFEASIBLE (correct)
+     m=4          a=28             C(T,2)(2rho-a)=272                  Lmin=381                  INFEASIBLE (correct)
+     m=8          a=56             C(T,2)(2rho-a)=3168                 Lmin=3577                 INFEASIBLE (correct)
+     m=64         a=448            C(T,2)(2rho-a)=2039552              Lmin=2064321              INFEASIBLE (correct)
+     m=1048576    a=7340032        C(T,2)(2rho-a)=9223356643687792640  Lmin=9223363240760705025  INFEASIBLE (correct)
+
+==========================================================================
+D2.6  WHAT (OV)+second moment DOES NOT SUPPLY (the named residual)
+==========================================================================
+  The type-2 count is T_2 <= (N-a)e / (R+1-a).  To reach rho+1 the
+  per-slope spend floor must be p* ~ 2m+2 (d1_anatomy D1.4).  (OV)
+  raises the floor from R+1-a = 3 to R+1-a_max ~ m+2 -- a factor ~ (m+2)/3
+  -- but 2m+2 needs ANOTHER factor of ~2.  Exactly:
+     m=1024             floor now = 1026             needed = 2305             shortfall x 2.24
+     m=1048576          floor now = 1048578          needed = 2359297          shortfall x 2.24
+     m=137438953472     floor now = 137438953474     needed = 309237645313     shortfall x 2.24
+
+  THE MISSING INGREDIENT, named: a lower bound |S_gamma \ W| >= ~2m for
+  NON-minimum-weight type-2 slopes, i.e. |S_gamma ^ W| <= ~2m.  Equivalently
+  a bound on how much of a type-2 locator can sit inside the MINIMUM joint
+  support.  (OV) gives it pairwise against a single other locator; what is
+  missing is the same statement against the whole of W at once.
+
+=== END d2_transport ===
