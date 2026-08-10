@@ -37,6 +37,10 @@ l1_fpc5_shifted_johnson_grs_shell_cap [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_shifted_johnson_first_layout_payment [PROVED] --ev-->
   l1_fpc5_large_source_payment [TARGET]
+l1_fpc5_grs_shell_constant_weight_shortening_cap [PROVED] --ev-->
+  l1_fpc5_large_source_payment [TARGET]
+l1_fpc5_grs_shortening_official_prefix_payment [PROVED] --ev-->
+  l1_fpc5_large_source_payment [TARGET]
 l1_fpc5_large_source_payment [TARGET]
   --req--> l1_full_petal_fpc5_payment [CONDITIONAL]
 ```

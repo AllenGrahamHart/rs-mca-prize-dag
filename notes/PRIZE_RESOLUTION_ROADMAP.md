@@ -25655,3 +25655,47 @@ status changed, no assumptions added, and no Modal spend. The remaining
 large-source work is now cleanly split between lower-field versions of the
 same cells, six rate-`1/16` cells that need a stronger local bound, and the
 dominant region `a^2<=N(K-1)` where Haboeck cannot apply at all.
+### 2026-08-10 FPC5 GRS constant-weight shortening cap
+
+Every fixed FPC5 GRS syndrome shell now injects into a binary
+constant-weight support code. If the shell endpoint is `H`, distinct locator
+supports have distance at least `2(H-d)`. Complementing supports and fixing a
+common `j`-subset gives an exact shortened Plotkin-Johnson cap
+
+```text
+floor { binom(N,j)/binom(w,j)
+        floor((N-j)sigma/[x^2-(N-j)(x-sigma)]) },
+```
+
+where `w=min(d,N-d)`, `x=w-j`, and `sigma=H-d`; a residual weight below
+`sigma` is singleton. The fixed-background incidence factor `binom(b,u)` is
+retained.
+
+This is a proved field-independent cap and a new route beyond the
+adjacent-dimension Haboeck strip. It is not a uniform large-source payment:
+the binomial ratio may remain exponential when the required shortening
+depth grows.
+### 2026-08-10 FPC5 GRS shortening official-prefix payment
+
+The support-shortening cap was replayed on every exact `(PF6)` cell at
+`n=8192` and compiled through canonical first-layout ownership. The complete
+rate-`1/8` prefix `M=29..32` has 126 cells and total cap
+
+```text
+195112047344632914122867933361797765038,
+```
+
+so it is paid on a nonempty 256-bit field slice. The complete rate-`1/16`
+prefix `M=57..67` has 374 cells and total cap
+
+```text
+2444555448501019158442942184801171570,
+```
+
+so it is paid from a 249-bit threshold. This closes every `M=61,t=3` cell,
+including the 37 cells outside the shifted-Johnson strip.
+
+The exact negative controls are equally important: this compiler exceeds the
+strict budget at rate-half `M=5`, rate-quarter `M=13`, rate-`1/8` `M=33`,
+and rate-`1/16` `M=68`. The critical target remains open, but its smallest-row
+frontier now begins at `M=5,13,33,68` on the relevant upper field slices.

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+    "title": "Constant-weight shortening cap for FPC5 GRS shells",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "Every fixed FPC5 GRS syndrome shell injects through locator support into a binary constant-weight code of length N, weight w=min(d,N-d), and distance at least 2 sigma, where sigma=H-d and H=t ell for u<0 while H=d+ell for a fixed required-background chart. After fixing any j common support coordinates, the residual weight is x=w-j. If x<sigma the shortened family is singleton; if Delta_j=x^2-(N-j)(x-sigma)>0, Plotkin-Johnson gives P_j=floor((N-j)sigma/Delta_j). Hence the original chart has size at most floor(binom(N,j)P_j/binom(w,j)). For u>=0 the complete fixed source/touched/degree cell is at most binom(b,u) times this cap; for u<0 there is one chart.",
+    "refs": [
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/statement.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/proof.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/claim_contract.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/dependency_subdag.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/audit.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/result.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/provenance.md",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify.py",
+      "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "l1_fpc5_large_source_payment"
+    }
+  ],
+  "refutes": []
+}

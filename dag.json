@@ -29493,6 +29493,42 @@
    ]
   },
   {
+   "id": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "title": "Constant-weight shortening cap for FPC5 GRS shells",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "Every fixed FPC5 GRS syndrome shell injects through locator support into a binary constant-weight code of length N, weight w=min(d,N-d), and distance at least 2 sigma, where sigma=H-d and H=t ell for u<0 while H=d+ell for a fixed required-background chart. After fixing any j common support coordinates, the residual weight is x=w-j. If x<sigma the shortened family is singleton; if Delta_j=x^2-(N-j)(x-sigma)>0, Plotkin-Johnson gives P_j=floor((N-j)sigma/Delta_j). Hence the original chart has size at most floor(binom(N,j)P_j/binom(w,j)). For u>=0 the complete fixed source/touched/degree cell is at most binom(b,u) times this cap; for u<0 there is one chart.",
+   "refs": [
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/statement.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/proof.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/claim_contract.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/dependency_subdag.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/audit.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/result.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/provenance.md",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify.py",
+    "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "title": "Official FPC5 prefixes paid by GRS support shortening",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "At n=8192, apply the exact constant-weight shortening cap to every PF6 cell and compile it through canonical first-layout domination. At rate 1/8, the complete residual source-scale prefix M=29,...,32 has total cap 195112047344632914122867933361797765038 and is paid for q at least 2^128 times that integer, a nonempty 256-bit field slice. At rate 1/16, the complete prefix M=57,...,67 has total cap 2444555448501019158442942184801171570 and is paid from a 249-bit field threshold. The same cap fails at the strict field maximum for rate 1/2 M=5, rate 1/4 M=13, rate 1/8 M=33, and rate 1/16 M=68; these are route fences, not lower bounds.",
+   "refs": [
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/statement.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/proof.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/claim_contract.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/dependency_subdag.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/audit.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/result.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/provenance.md",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify.py",
+    "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "l1_fpc5_large_source_exact_prefilter",
    "title": "Exact EMPTY, singleton, and Johnson prefilter for large-source FPC5 cells",
    "status": "PROVED",
@@ -29513,8 +29549,8 @@
    "title": "L1 FPC5: large-source full-petal payment",
    "status": "TARGET",
    "key": true,
-   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 after the exact proved prefilter (PF6) and official-rate scale-gap theorem. Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
-   "attack_surface": "start only at M>=5,13,29,57 for rates 1/2,1/4,1/8,1/16; prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, then coalesce fixed background sets and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
+   "statement": "Aggregate every first-owned FPC5 contributor on the remaining large source scales M>=5,13,29,57 at rates 1/2,1/4,1/8,1/16 after the exact proved prefilter (PF6) and official-rate scale-gap theorem. Every survivor has both a proved affine anchor chart and an anchor-free weighted Cauchy divisor chart whose coefficient space is a full-rank rational Pade-Hankel kernel; when u>=0, every fixed required background u-set gives exactly ell-1 Hankel rows and monic codimension ell-1. The core split predicate and primitive punctures are equivalently one explicit generalized-Vandermonde support-determinant system with nonzero Cramer amplitudes. Exact constant-weight shortening now supplies a field-independent cap for every fixed GRS shell and, at n=8192, pays the complete rate-1/8 M=29..32 and rate-1/16 M=57..67 prefixes on printed upper field slices. Owner cancellation separately reduces co-deficiency c to a primitive touched-petal determinant AV-CU=Lambda K with deg K at most c. The conclusion is one disjoint polynomial/profile allocation across the surviving source layouts, touched-petal sets, background sets, determinant tails, and exact owners.",
+   "attack_surface": "apply the exact GRS support-shortening cap before any split-pencil attack; at n=8192 on its printed upper field slices the first unpaid scales are M=5,13,33,68 at rates 1/2,1/4,1/8,1/16, while other rows retain their own exact cutoffs; then prove a base-field-normalized point bound and component classification for the explicit generalized-Vandermonde support system, retaining nonzero Cramer amplitudes and exact background guards, coalesce fixed background sets, and supply a collective first-owner theorem; the exact ambient MDS census realizes every top owner, so no owner-coordinate or unguarded linear argument can suffice",
    "falsifier": "an official large-source first-owned FPC5 family exceeding every polynomial and legitimate quotient/profile column",
    "refs": [
     "critical/nodes/l1_fpc5_large_source_payment/statement.md",
@@ -62308,6 +62344,26 @@
    "kind": "ev"
   },
   {
+   "from": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "to": "l1_fpc5_large_source_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "l1_fpc5_large_source_exact_prefilter",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
+   "kind": "req"
+  },
+  {
    "from": "l1_fpc5_large_source_exact_prefilter",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
@@ -62345,6 +62401,11 @@
   {
    "from": "l1_fpc5_m4_t2_payment",
    "to": "l1_full_petal_fpc5_payment",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_official_rate_prefilter_scale_gap",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
    "kind": "req"
   },
   {
@@ -62659,6 +62720,11 @@
   },
   {
    "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
+   "to": "l1_fpc5_grs_shell_constant_weight_shortening_cap",
+   "kind": "req"
+  },
+  {
+   "from": "l1_fpc5_tpetal_hankel_grs_syndrome_shell",
    "to": "l1_fpc5_large_source_payment",
    "kind": "ev"
   },
@@ -62740,6 +62806,11 @@
   {
    "from": "l1_full_petal_fpc5_payment",
    "to": "imgfib",
+   "kind": "req"
+  },
+  {
+   "from": "l1_general_first_layout_domination",
+   "to": "l1_fpc5_grs_shortening_official_prefix_payment",
    "kind": "req"
   },
   {

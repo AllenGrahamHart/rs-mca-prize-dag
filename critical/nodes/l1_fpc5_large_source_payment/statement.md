@@ -286,6 +286,56 @@ field cap. Thus these selected cells no longer have an outer source/profile
 gap; lower fields, other shifted cells, and the much larger region beyond
 the adjacent-code strip remain open.
 
+The proved node `l1_fpc5_grs_shell_constant_weight_shortening_cap` now
+removes the adjacent-code restriction. Every fixed GRS shell injects into a
+binary constant-weight support code of length `N`, weight
+`w=min(d,N-d)`, and distance at least `2 sigma`, where
+
+```text
+sigma=t ell-d              when u<0,
+sigma=ell                  in a fixed-background chart.
+```
+
+After fixing `j` common support coordinates, put `x=w-j` and
+
+```text
+Delta_j=x^2-(N-j)(x-sigma).
+```
+
+If `x<sigma` the shortened family is singleton; if `Delta_j>0`, the fixed
+chart has the exact cap
+
+```text
+floor { binom(N,j)/binom(w,j)
+        floor((N-j)sigma/Delta_j) }.
+```
+
+This is field-independent and applies at any shortening depth, but it can be
+exponential when the required depth grows. The full fixed cell retains the
+factor `binom(b,u)` when `u>=0`.
+
+The proved node `l1_fpc5_grs_shortening_official_prefix_payment` compiles
+that cap through first-layout ownership on `n=8192`. It simultaneously pays
+all `126` residual fixed cells at rate `1/8`, source scales `M=29,...,32`,
+for
+
+```text
+q>=2^128 * 195112047344632914122867933361797765038,
+```
+
+and all `374` residual fixed cells at rate `1/16`, source scales
+`M=57,...,67`, for
+
+```text
+q>=2^128 * 2444555448501019158442942184801171570.
+```
+
+Both thresholds lie below `2^256`; the first has 256 bits and the second 249.
+The same cap fails at the strict field maximum for rate-half `M=5`,
+rate-quarter `M=13`, rate-`1/8` `M=33`, and rate-`1/16` `M=68`. These are
+upper-bound route fences, not lower bounds. Larger rows and all later source
+scales remain open.
+
 The proved node `l1_fpc5_tpetal_joint_owner_split_pencil` gives the
 replacement terminal. Factor the exact owner as `Q=DE`, remove `D` from the
 two core locators and `E` from the two background numerators, and write

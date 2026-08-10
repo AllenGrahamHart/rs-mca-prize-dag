@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify.py",
-      "seconds": 0.075956,
+      "script": "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify.py",
+      "seconds": 0.015391,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_OFFICIAL_RATE_PREFILTER_SCALE_GAP_PASS low_t_cells=4608 high_t_cells=55296 cutoffs=12,28,56 boundaries=13,29,57\n"
+      "stdout_tail": "L1_FPC5_GRS_SHELL_CONSTANT_WEIGHT_SHORTENING_CAP_PASS checked_shells=8 max_depth=4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/l1_fpc5_official_rate_prefilter_scale_gap/verify_audit.py",
-      "seconds": 0.173548,
+      "script": "background/nodes/l1_fpc5_grs_shell_constant_weight_shortening_cap/verify_audit.py",
+      "seconds": 0.01392,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "L1_FPC5_OFFICIAL_RATE_PREFILTER_SCALE_GAP_AUDIT_PASS cells=59904 hostile_boundaries=3 rate_half_control=1\n"
+      "stdout_tail": "L1_FPC5_GRS_SHELL_CONSTANT_WEIGHT_SHORTENING_CAP_AUDIT_PASS direct_rows=8\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify.py",
+      "seconds": 2.228177,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_FPC5_GRS_SHORTENING_OFFICIAL_PREFIX_PAYMENT_PASS rate8_cells=126 rate16_cells=374 blocked_scales=4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/l1_fpc5_grs_shortening_official_prefix_payment/verify_audit.py",
+      "seconds": 2.229728,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "L1_FPC5_GRS_SHORTENING_OFFICIAL_PREFIX_PAYMENT_AUDIT_PASS prefixes=2 blocked_scales=4 mutation_controls=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

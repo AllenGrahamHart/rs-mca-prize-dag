@@ -71,20 +71,31 @@
    `binom(M,t)` and removes later layouts by adding `M` anchors. Do not spend
    time on this route when `a^2<=N(K-1)`; Haboeck cannot reach that region
    for any finite `m`.
-15. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
+15. Apply `l1_fpc5_grs_shell_constant_weight_shortening_cap` to every fixed
+   GRS shell before invoking a harder split-pencil theorem. Complement the
+   locator supports, choose the exact shortening depth `j`, and retain the
+   `binom(b,u)` background incidence factor. A bounded or budget-compatible
+   shortening depth is a complete cap, not heuristic evidence.
+16. Use `l1_fpc5_grs_shortening_official_prefix_payment` on the smallest
+   row. On its printed upper field slices, rate `1/8` is paid through `M=32`
+   and rate `1/16` through `M=67`; begin those residual scans at `M=33` and
+   `M=68`. The failures at rate-half `M=5`, rate-quarter `M=13`, and the two
+   next scales are route fences only. Do not transport these finite cutoffs
+   to a larger row without replay.
+17. Use `l1_fpc5_tpetal_joint_owner_split_pencil`: after writing `Q=DE`, work
    with `AV-CU=Lambda K` and the fixed-owner coordinate
    `K_0(C,V)=K(C_0,V_0)+T(A,U)`, where
    `deg K,deg T<=r-deg Q`. At top ownership the latter is an ordinary affine
    pencil of core-split locators. Do not identify it with a same-domain
    divisor census: its natural determinant parent is the disjoint
    touched-petal locator.
-16. Seek a uniform bounded-tail dual-domain pencil census across many
+18. Seek a uniform bounded-tail dual-domain pencil census across many
    distinct owners, preserving the petal congruences and remaining affine
    background guards. Reuse Przemek's split-pencil methods only after
    proving the required domain and normalization transport.
-17. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
-18. Seek a collective large-`M` incidence or first-owner inequality before
+19. Use the source equation `n-k+1=Mell+b` and the FPC6 deficit coordinates.
+20. Seek a collective large-`M` incidence or first-owner inequality before
    refining individual locator tuples.
-19. Price touched-petal multiplicity and source multiplicity together.
-20. Keep rate-dependent lower source sizes explicit; do not reintroduce the
+21. Price touched-petal multiplicity and source multiplicity together.
+22. Keep rate-dependent lower source sizes explicit; do not reintroduce the
    strict cells removed by the small-source degree sieve.
