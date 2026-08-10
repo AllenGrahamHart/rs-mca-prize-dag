@@ -154,3 +154,14 @@ require: (i) the reconstructed pair's full core is exactly `H\T`, and
 Single-word Toeplitz rank `d` also does not imply stacked joint
 codimension `2d`. The corrected residual of record is
 `xr_band_maximal_window_divisor_count`.
+
+13. **official row** is AMBIGUOUS in-repo and must never be used bare
+    in a new statement. Write either "admissible row" (the descriptor
+    family — q = p^e, n = 2^s, k = rho*n under q < 2^256, k <= 2^40,
+    n | q-1; s free) or "maximal row" (s pinned; state the pin).
+    Existing bare uses are read at their node-local pin; the dli_wcl_*
+    family's parenthetical "(q < 2^256, v_2(q-1) >= 41)" IS an s = 41
+    pin and does not cover s < 41. Two maximal-row conventions coexist
+    (Convention A: N = 2^41, K = rho*N; Convention B: n = 2^41..2^44,
+    k = 2^40) — they agree only at rate 1/2; ADJUDICATION PENDING
+    (k_extremal FLAG E, 2026-08-10).

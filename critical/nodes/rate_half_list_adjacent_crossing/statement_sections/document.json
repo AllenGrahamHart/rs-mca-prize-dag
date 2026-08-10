@@ -1,169 +1,175 @@
 {
- "post_refactor_addenda": [
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing",
-    "crossing_dsa_refutation",
-    "es_ternary_suppression_instruments"
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/12-round18-dsa-scope.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing",
-    "crossing_dsa_refutation"
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/13-wave47-theorem-bb.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing",
-    "crossing_dsa_refutation",
-    "es_ternary_suppression_instruments"
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/14-round22-u2-accident-cap.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing",
-    "crossing_dsa_refutation",
-    "es_ternary_suppression_instruments"
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/15-round23-cw-pricing.md"
-  }
- ],
- "pre_refactor_line_count": 4059,
- "pre_refactor_sha256": "ce6bc78cb6f9135a596c9e0caa5fadf923f77447430b834e0b33911e65d23cf1",
- "schema": "sectioned-critical-node-document-v1",
- "sections": [
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing",
-    "rate_half_list_low_budget_exact_crossing",
-    "rate_half_list_budget_three_intersection_reduction"
-   ],
-   "original_lines": [
-    1,
-    142
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/00-live-contract-and-base-reductions.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
-    "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
-    "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse"
-   ],
-   "original_lines": [
-    143,
-    491
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/01-c2-one-antipodal-fourier-chain.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_fiber_two_path_exclusion",
-    "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
-    "rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer",
-    "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router"
-   ],
-   "original_lines": [
-    492,
-    1111
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/02-fiber-two-cycle-c1-c2-chain.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_intersection_reduction"
-   ],
-   "original_lines": [
-    1112,
-    1347
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/03-wave11-pin-v1.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_split_pencil_normal_form"
-   ],
-   "original_lines": [
-    1348,
-    1595
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/04-wave12-pin-v1.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_multideletion_multifiber_exclusion"
-   ],
-   "original_lines": [
-    1596,
-    1684
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/05-wave13-pin.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_intersection_reduction"
-   ],
-   "original_lines": [
-    1685,
-    2402
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/06-wave11-pin-v2.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_split_pencil_normal_form"
-   ],
-   "original_lines": [
-    2403,
-    2650
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/07-wave12-pin-v2.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_fiber_four_rank_gate"
-   ],
-   "original_lines": [
-    2651,
-    2739
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/08-wave14-pin.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_intersection_reduction"
-   ],
-   "original_lines": [
-    2740,
-    3764
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/09-wave11-pin-of-record.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_budget_three_split_pencil_normal_form"
-   ],
-   "original_lines": [
-    3765,
-    4010
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/10-wave12-pin-of-record.md"
-  },
-  {
-   "dag_nodes": [
-    "rate_half_list_adjacent_crossing"
-   ],
-   "original_lines": [
-    4011,
-    4059
-   ],
-   "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/11-h1-s3-addendum.md"
-  }
- ],
- "source_index": "critical/nodes/rate_half_list_adjacent_crossing/statement.md",
- "status_semantics": "presentation-only; node.json remains authoritative"
+  "post_refactor_addenda": [
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing",
+        "crossing_dsa_refutation",
+        "es_ternary_suppression_instruments"
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/12-round18-dsa-scope.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing",
+        "crossing_dsa_refutation"
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/13-wave47-theorem-bb.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing",
+        "crossing_dsa_refutation",
+        "es_ternary_suppression_instruments"
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/14-round22-u2-accident-cap.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing",
+        "crossing_dsa_refutation",
+        "es_ternary_suppression_instruments"
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/15-round23-cw-pricing.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing"
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_addenda/16-round29-row-size-scope.md"
+    }
+  ],
+  "pre_refactor_line_count": 4059,
+  "pre_refactor_sha256": "ce6bc78cb6f9135a596c9e0caa5fadf923f77447430b834e0b33911e65d23cf1",
+  "schema": "sectioned-critical-node-document-v1",
+  "sections": [
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing",
+        "rate_half_list_low_budget_exact_crossing",
+        "rate_half_list_budget_three_intersection_reduction"
+      ],
+      "original_lines": [
+        1,
+        142
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/00-live-contract-and-base-reductions.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_canonical_cell_fourier_ladder",
+        "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_degree_defect_global_gate_router",
+        "rate_half_list_budget_three_fiber_two_cycle_c2_one_antipodal_reciprocal_affine_collapse"
+      ],
+      "original_lines": [
+        143,
+        491
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/01-c2-one-antipodal-fourier-chain.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_fiber_two_path_exclusion",
+        "rate_half_list_budget_three_fiber_two_cycle_quotient_embedding",
+        "rate_half_list_budget_three_fiber_two_cycle_matched_trace_jacobi_norm_transfer",
+        "rate_half_list_budget_three_fiber_two_cycle_c2_torsion_field_router"
+      ],
+      "original_lines": [
+        492,
+        1111
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/02-fiber-two-cycle-c1-c2-chain.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_intersection_reduction"
+      ],
+      "original_lines": [
+        1112,
+        1347
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/03-wave11-pin-v1.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_split_pencil_normal_form"
+      ],
+      "original_lines": [
+        1348,
+        1595
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/04-wave12-pin-v1.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_multideletion_multifiber_exclusion"
+      ],
+      "original_lines": [
+        1596,
+        1684
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/05-wave13-pin.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_intersection_reduction"
+      ],
+      "original_lines": [
+        1685,
+        2402
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/06-wave11-pin-v2.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_split_pencil_normal_form"
+      ],
+      "original_lines": [
+        2403,
+        2650
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/07-wave12-pin-v2.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_fiber_four_rank_gate"
+      ],
+      "original_lines": [
+        2651,
+        2739
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/08-wave14-pin.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_intersection_reduction"
+      ],
+      "original_lines": [
+        2740,
+        3764
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/09-wave11-pin-of-record.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_budget_three_split_pencil_normal_form"
+      ],
+      "original_lines": [
+        3765,
+        4010
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/10-wave12-pin-of-record.md"
+    },
+    {
+      "dag_nodes": [
+        "rate_half_list_adjacent_crossing"
+      ],
+      "original_lines": [
+        4011,
+        4059
+      ],
+      "path": "critical/nodes/rate_half_list_adjacent_crossing/statement_sections/11-h1-s3-addendum.md"
+    }
+  ],
+  "source_index": "critical/nodes/rate_half_list_adjacent_crossing/statement.md",
+  "status_semantics": "presentation-only; node.json remains authoritative"
 }

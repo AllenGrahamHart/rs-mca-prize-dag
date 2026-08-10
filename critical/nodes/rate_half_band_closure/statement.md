@@ -496,3 +496,17 @@ input exists anywhere, the razor slice included; below 2^169 the
 only proved bracket top is n (FA1). Closing the gap therefore
 restores the 3n/4 bracket top on 2 bits of q-axis; it does not give
 any consumer its safe half.
+
+## Round-29 row-size scope flag (2026-08-10, coordinator-applied: k_extremal)
+
+ROW-SIZE SCOPE: this node is posed AT n = 2^41, k = 2^40 ONLY. The
+node.json phrase "every admissible rate-1/2 row" is hereby read as
+"every admissible rate-1/2 row AT n = 2^41, k = 2^40" — the live
+quantifier is over q, not the row size. The band-interval arithmetic
+(sigma*, the razor-slice nonemptiness) is an n = 2^41 computation and
+carries NO information at s < 41. Under the descriptor family
+(k <= 2^40 is a CAP: the rate-1/2 family is n = 2^s, k = 2^(s-1),
+s = 1..41), rows with s < 41 are OUTSIDE this node — the k_extremal
+HOLE verdict; candidate reduction poses at
+notes/pilots_20260810/k_extremal/DRAFT_SCOPE_FLAGS.md (POSE 3 per-s
+family recommended, AWAITING USER). FLAGGED, not resolved.

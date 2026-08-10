@@ -4493,3 +4493,38 @@ pass this clause to any subagent. All round-28 lessons binding:
 scratch copies, zero-power declarations on max-quantified poses,
 consumer-side quantifier reads, RAM discipline, draft-only, no
 status flips, REPORT.md persisted by the coordinator.
+
+## ROUND 29 BANK 1/4 — k_extremal (2026-08-10, coordinator)
+
+**BANKED: HOLE — the largest quantifier catch of the campaign.** The
+grand-challenge rate-half family is 41 ROW SIZES (n = 2^s,
+k = 2^(s-1), s = 1..41 — the PROVED descriptor node makes k <= 2^40
+a CAP over the family, not a pin; coordinator-verified verbatim),
+and the ENTIRE rate-half crossing/floor lane is posed at s = 41
+alone. No extremality/reduction/monotonicity theorem exists
+(grep-gated); admissibility does NOT exclude small rows (the repo's
+own regression fixture is the fully admissible s = 9 row F_17^32,
+n = 512, k = 256 — coordinator-verified). UNCOVERED SET MAPPED:
+s = 8..40 entirely (33 sizes); s = 1..7 above per-s q-thresholds
+(the pilot's elementary POSE 1 list-side corridor; shuts permanently
+at s = 8). HARD VACUITY: the proved bracket is EMPTY below k = 2^35;
+the floors are absolute-width objects not evaluable below s = 34.
+BLAST RADIUS narrow (4 crossing/floor nodes + 2 constants) — narrow
+because small rows are simply UNADDRESSED. FLAGS APPLIED (E7
+pattern, all verify-green incl. the three-write sectioned-addendum
+discipline + a mechanical lesson: regenerate document.json per-node,
+the repacket path refuses on grown sources): A mca_grand, B
+band_closure both-texts (incl. its own node.json/statement.md
+quantifier disagreement), C list_adjacent_crossing (addendum 16), D
+BAND_LANE_DEFINITIONS item 13 ("official row" banned bare). SECOND
+CATCH — FLAG E: two mutually exclusive maximal-row conventions
+(A: N = 2^41, K = rho*N vs B: n = 2^41..2^44, k = 2^40), agreeing
+only at rate 1/2 — decides which rows the CLEAN-RATE lane is about;
+ADJUDICATION PENDING. HONEST UNRESOLVED: ABF26's "sufficiently
+large |F|" proviso could flip HOLE -> PINNED — not vendored
+in-tree; a rules-citation/Przemek question. PENDING USER: POSE 3
+(the per-s four-band family re-pose, recommended); the ABF26
+question (outward); FLAG E adjudication. Pilot: 14 min, blind
+priors before reading, P3's 55% HOLE prior hit, P7 hit-on-location
+miss-on-outcome (the one-level-up nodes CONFIRMED the hole).
+Files: notes/pilots_20260810/k_extremal/{REPORT.md,FABLE_AUDIT.md,DRAFT_SCOPE_FLAGS.md}.
