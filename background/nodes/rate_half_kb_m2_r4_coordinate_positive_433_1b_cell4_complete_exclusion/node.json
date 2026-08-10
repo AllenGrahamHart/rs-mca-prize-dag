@@ -21,14 +21,24 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_product_rankdrop_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi5_xi6_endpoint_compatibility_exclusion"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }

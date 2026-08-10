@@ -21,11 +21,21 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_regularized_base_locus_complete_exclusion"
+    }
   ],
   "alternatives": [],
-  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
+  ],
   "refutes": []
 }

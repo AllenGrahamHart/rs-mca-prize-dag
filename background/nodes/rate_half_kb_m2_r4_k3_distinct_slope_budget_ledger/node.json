@@ -8,11 +8,11 @@
     "statement": "Conditional on the complete positive-coordinate payment, the exhaustive orientation/source-cover assembly, and the exact active-allocation inequality, the KoalaBear m2 r4 K3 arm has the disjoint distinct-affine-slope ledger U_K3=U_positive+U_sourcecover within its active allocation. The proved c2(1,1,2) source-line and negative-coordinate exclusions contribute zero as evidence. Every nonzero one-pencil payment has genuine-pencil hypotheses and exact relevant-line multiplicity; every higher-dimensional survivor has an exact ray compiler. No unnamed multiplicity, owner change, or separately normalized budget is allowed.",
     "falsifier": "A missing or overlapping slope owner, incorrect route integer, non-genuine pencil payment, uncounted line, unpaid higher-dimensional survivor, or U_K3 above the active allocation.",
     "refs": [
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/conditional.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/attack.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/dependency_subdag.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/verify.py"
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/conditional.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/attack.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/verify.py"
     ]
   },
   "requires": [

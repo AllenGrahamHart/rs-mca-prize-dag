@@ -939,47 +939,12 @@
   {
    "id": "rate_half_band_crossing_location",
    "label": "UNPROVED",
-   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at the razor rows within the proved bracket"
-  },
-  {
-   "id": "rate_half_band_structural_surplus",
-   "label": "CONDITIONAL",
-   "title": "BAND CHILD 1 (K3 ARM): the raw positive-433 sub-workboard is closed; exact distinct-slope payment remains"
+   "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) at every admissible q > 2^167 within the proved bracket"
   },
   {
    "id": "rate_half_cyclic_rotated_prefix_floor",
    "label": "PROVED",
    "title": "Cyclic quotient rotation closes the rate-half list-unsafe band"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
-   "label": "CONDITIONAL",
-   "title": "KoalaBear m2 r4 positive-coordinate complete payment"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
-   "label": "UNPROVED",
-   "title": "KoalaBear m2 r4 positive-coordinate remaining-route payment"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_k3_allocation_inequality",
-   "label": "UNPROVED",
-   "title": "KoalaBear m2 r4 K3 exact active-allocation inequality"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
-   "label": "CONDITIONAL",
-   "title": "KoalaBear m2 r4 K3 exact distinct-slope budget ledger"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_k3_independent_review",
-   "label": "UNPROVED",
-   "title": "KoalaBear m2 r4 K3 independent proof review"
-  },
-  {
-   "id": "rate_half_kb_m2_r4_k3_orientation_assembly",
-   "label": "UNPROVED",
-   "title": "KoalaBear m2 r4 K3 orientation and owner assembly"
   },
   {
    "id": "rate_half_list_adjacent_crossing",
@@ -2296,10 +2261,6 @@
    "to": "dli_wcl_slot_1_5_emptiness"
   },
   {
-   "from": "rate_half_band_structural_surplus",
-   "to": "rate_half_band_closure"
-  },
-  {
    "from": "rate_half_band_crossing_location",
    "to": "rate_half_band_closure"
   },
@@ -2350,30 +2311,6 @@
   {
    "from": "pma_two_full_petal_linear_slice_reduction",
    "to": "l1_full_petal_fpc5_payment"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_coordinate_positive_complete_payment",
-   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_coordinate_positive_remaining_route_payment",
-   "to": "rate_half_kb_m2_r4_coordinate_positive_complete_payment"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_k3_allocation_inequality",
-   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger",
-   "to": "rate_half_band_structural_surplus"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_k3_independent_review",
-   "to": "rate_half_band_structural_surplus"
-  },
-  {
-   "from": "rate_half_kb_m2_r4_k3_orientation_assembly",
-   "to": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
   },
   {
    "from": "x4_exactlist_summed_budget",

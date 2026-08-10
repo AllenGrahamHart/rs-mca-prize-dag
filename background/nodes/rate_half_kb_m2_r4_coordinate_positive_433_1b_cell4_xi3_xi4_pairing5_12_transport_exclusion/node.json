@@ -21,13 +21,21 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing5_nested_signfree_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing5_nested_signfree_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_parallel_de_matching_orbit_quotient"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_xi4_xi3_outside_role_transport"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }

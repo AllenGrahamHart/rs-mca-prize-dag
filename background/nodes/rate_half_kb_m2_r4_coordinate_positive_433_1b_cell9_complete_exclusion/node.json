@@ -21,29 +21,69 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_endpoint_roles_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_remaining_generic_label_orbit_quotient"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_first_pair_complete_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing11_14_common_f_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing3_6_nested_quadratic_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing4_7_9_10_nested_quadratic_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_parallel_de_pairing5_8_12_13_nested_quadratic_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing9_10_nested_quadratic_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing12_13_nested_quadratic_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_positive_de_pairing14_common_f_resultant_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing0_reciprocal_square_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing1_reciprocal_linear_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing2_reciprocal_linear_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing3_reciprocal_square_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing4_nested_signfree_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing5_nested_signfree_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing7_quadratic_resultant_signfree_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing8_quadratic_resultant_signfree_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_xi3_pairing11_quadratic_resultant_signfree_exclusion"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }

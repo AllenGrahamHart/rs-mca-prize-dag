@@ -25,12 +25,18 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_parallel_de_first_pair_source_census"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }

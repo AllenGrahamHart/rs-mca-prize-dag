@@ -21,20 +21,42 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing0_reciprocal_square_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing5_12_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing7_10_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing8_13_transport_exclusion"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing11_14_transport_exclusion"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairing0_reciprocal_square_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairing0_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_pairings1_2_reciprocal_linear_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi4_xi3_pairings1_2_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing3_6_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing4_9_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing5_12_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing7_10_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing8_13_transport_exclusion"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_xi3_xi4_pairing11_14_transport_exclusion"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }

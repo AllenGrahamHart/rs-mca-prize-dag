@@ -27,12 +27,24 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"},
-    {"from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell5_elliptic_common_kernel"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_universal_generic_outside_label_orbit_quotient"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_complete_fiber_vieta_compiler"
+    }
   ],
   "alternatives": [],
-  "evidence_for": [{"to": "rate_half_band_closure"}],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
+  ],
   "refutes": []
 }

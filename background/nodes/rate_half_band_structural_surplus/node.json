@@ -14,15 +14,24 @@
       "notes/band_decomposition_plan_20260809.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_cell9_complete_exclusion/statement.md",
       "background/nodes/rate_half_kb_m2_r4_coordinate_positive_433_1b_raw_workboard_complete_exclusion/statement.md",
-      "critical/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
-      "critical/nodes/rate_half_band_structural_surplus/conditional.md"
+      "background/nodes/rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger/statement.md",
+      "background/nodes/rate_half_band_structural_surplus/conditional.md"
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"},
-    {"from": "rate_half_kb_m2_r4_k3_independent_review"}
+    {
+      "from": "rate_half_kb_m2_r4_k3_distinct_slope_budget_ledger"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_k3_independent_review"
+    }
   ],
   "alternatives": [],
-  "evidence_for": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure",
+      "order": 5137
+    }
+  ],
   "refutes": []
 }

@@ -23,12 +23,18 @@
     ]
   },
   "requires": [
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel"},
-    {"from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"}
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell4_four_basis_tower_kernel"
+    },
+    {
+      "from": "rate_half_kb_m2_r4_coordinate_positive_433_1b_o0a_signed_edge_atlas"
+    }
   ],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_closure"}
+    {
+      "to": "rate_half_band_structural_surplus"
+    }
   ],
   "refutes": []
 }
