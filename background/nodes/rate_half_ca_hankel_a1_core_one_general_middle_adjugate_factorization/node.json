@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization",
+    "title": "A=1 core-one general middle-Hankel adjugate factorization",
+    "status": "PROVED",
+    "closure": "primitive-kernel adjugate factorization and local Smith ledger",
+    "statement": "For every live half-distance A=1 core-one profile, the contracted square symmetric middle-Hankel pencil satisfies adj(M)=D q q^T, where q is the primitive degree-e apolar vector and D is the degree-Delta regular Kronecker determinant. The gcd of nonzero maximal minors is exactly D. Local residual rank loss is at most the corresponding order of D, and the pushforward pole divisor is an effective subdivisor of div(D), leaving residual degree Delta-p.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

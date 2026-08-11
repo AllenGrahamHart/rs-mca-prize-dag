@@ -1728,3 +1728,38 @@ ell>=e-3-floor(Delta/5)
 
 in addition to the prior three-contact bound. The core-free threshold
 remains `149933403787`.
+
+## Cycle 80: general core-one adjugate and first cubic corner (2026-08-11, Codex)
+
+For every core-one degree, contraction gives a square symmetric middle
+Hankel pencil of size `d+1` and generic corank one. Its primitive degree-`e`
+kernel vector satisfies
+
+```text
+adj M=D q q^T,       deg D=Delta=d-2e.
+```
+
+The common cofactor factor `D` is the regular Kronecker determinant. Local
+pole length is bounded by local rank loss and then by `ord(D)`, so the
+pushed-forward pole divisor is an effective subdivisor of `div(D)`.
+
+At the first remaining official core-one degree
+
+```text
+e=floor(16m/13)=169155635042,
+```
+
+the carrier inequality meets the maximal slack exactly. Every failure is
+therefore forced to
+
+```text
+ell=126866726279,       T=rho+2,
+Delta-3<=p<=O<=sum c_gamma<=Delta.
+```
+
+Thus `D=P_pE_3` with `deg E_3<=3`, and at least `T-Delta=2e+3` supported
+fibres are clean and completely split. The proved nodes are
+`rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization` and
+`rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner`.
+The next finite-defect target is the cubic residual factor coupled to those
+clean fibres; the corner itself is not yet excluded.

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner",
+    "title": "A=1 core-one first surviving cubic-residual corner",
+    "status": "PROVED",
+    "closure": "exact endpoint arithmetic and adjugate-pole divisor ledger",
+    "statement": "At the first unexcluded official core-one degree e=floor(16m/13)=169155635042, every possible failure has the unique slack ell=126866726279 and minimal slope count T=rho+2. Its pole length satisfies Delta-3<=p<=O<=sum c_gamma<=Delta, so adj(M)=D q q^T factors as D=P_p E_3 with deg(E_3)<=3. At least T-Delta=2e+3 supported fibres are clean, squarefree, and completely split.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
