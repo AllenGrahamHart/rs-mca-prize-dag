@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate",
+    "title": "A=1 core-free cubic gap-one two-slope source Vandermonde gate",
+    "status": "PROVED",
+    "closure": "first-jet pairing expressed on exact error-support differences",
+    "statement": "For a transverse supported slope alpha and any other supported slope beta, subtracting the affine codeword line through their unique centers expresses the first-jet pairing as a nonzero weighted evaluation pairing on S_beta minus S_alpha. Hence this difference has at least c_alpha points. At equality it is exactly the root set of R_alpha. In each w=0 packet every pair of specialized minimal-locator supports has union at least rho.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

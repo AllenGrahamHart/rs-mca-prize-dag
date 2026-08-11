@@ -2702,3 +2702,36 @@ first `w=1` packet has at most the single slope cut out by `E_1` as an
 exception. This turns the exact determinant factors into field-valued local
 constraints; it is not yet a packet exclusion. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing`.
+
+## Cycle 113: the cubic first jet lives on a two-error support difference (2026-08-11, Codex)
+
+Let `S_gamma` be the exact support of the unique error at a supported slope,
+so `|S_gamma|=rho-c_gamma`. Subtract the affine codeword line through the
+unique centers at distinct slopes `alpha,beta`. The derivative moment form
+at a transverse positive-loss slope `alpha` becomes
+
+```text
+B_alpha(A,B)
+ =sum_(x in S_beta\S_alpha) mu_x A(x)B(x),
+mu_x!=0.
+```
+
+Since this pairing has rank `c_alpha`,
+
+```text
+|S_beta\S_alpha|>=c_alpha.
+```
+
+If equality holds, the square Vandermonde system and the known right radical
+force
+
+```text
+roots(R_alpha)=S_beta\S_alpha.
+```
+
+Thus equality identifies every newly introduced error location with an
+excess-recurrence root. In each of the three `w=0` packets, transversality is
+universal and every locator-support pair satisfies
+`|S_alpha union S_beta|>=rho`. The strict branch retains the exact weighted
+moment system; no positivity is assumed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate`.
