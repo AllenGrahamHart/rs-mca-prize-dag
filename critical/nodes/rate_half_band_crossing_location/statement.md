@@ -3300,3 +3300,27 @@ proved node is
 The next route is the coprime resultant/intersection ledger; the tangent-
 product route must retain transversality rather than seek ramification at
 the selected incidences.
+
+## Cycle 148 addendum: the extremal coprime resultant has only four plus bad padding degrees
+
+Since the extremal locator `Q` and split biform `G` are coprime, their
+parameter resultant is nonzero. Removing the classified-row factor
+`L_M^(e-2)` leaves degree at most `2e-5` for `d_A=0` and `e-3` for
+`d_A=1`.
+
+Every zero-excess padded-heavy factor divides this residual resultant. In
+the `d_A=0` profile, the exceptional row contributes exactly `e-3`
+additional off-line common points. If `r_bad` denotes total padding on
+positive-excess slopes, removing all mandatory factors leaves one nonzero
+polynomial `W_QG` with
+
+```text
+deg W_QG<=4+r_bad.
+```
+
+Every unclassified common point or excess local intersection multiplicity
+must fit in this allowance; selected actual-support points are transverse
+and add no excess. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack`.
+The extremal route now needs either `r_bad` control or `5+r_bad` forced
+additional intersection units.
