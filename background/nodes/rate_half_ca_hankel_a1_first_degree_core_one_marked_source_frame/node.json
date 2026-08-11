@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame",
+    "title": "A=1 first-degree core-one marked source frame",
+    "status": "PROVED",
+    "closure": "common coefficient isotropy and exact marked-source Vandermonde sum",
+    "statement": "The e+1 coefficient vectors of the first-degree core-one primitive kernel form a common totally isotropic plane for both endpoint Hankel forms, giving two exact source-frame cancellations. At the u=4 quadratic double root, Cauchy-Binet identifies the rank-one marked determinant with a sum of squared Vandermonde minors times contracted affine source weights, and this sum equals c^2 D_1 g_*^2 S_B^6.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

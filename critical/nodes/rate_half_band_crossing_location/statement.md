@@ -2448,3 +2448,35 @@ This is a concrete determinant gate, not yet an exclusion: any use of its
 Vandermonde/source expansion must retain signs and possible cancellation.
 The proved node is
 `rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate`.
+
+## Cycle 104: the core-one determinant has an exact source subset sum (2026-08-11, Codex)
+
+Write `q(z)=sum_i z^iq_i` for the primitive kernel of the first-degree
+core-one symmetric middle Hankel pencil. The `e+1` coefficient vectors are
+independent and form a common totally isotropic plane for both endpoint
+Hankel forms:
+
+```text
+q_i^TM_sq_j=0,       s in {0,1}.
+```
+
+In contracted source coordinates, with
+`v_x=(Q_0(x),...,Q_e(x))^T`, these are the two exact frame cancellations
+
+```text
+sum_x omega_x^(s)v_xv_x^T=0.
+```
+
+For the quadratic double heavy row `x_*`, Cauchy--Binet gives the marked
+determinant as the explicit subset sum
+
+```text
+sum_(J subset D_res\{x_*}, |J|=d)
+ Vand(x_*,J)^2 product_(x in J)mu_x(U,V)
+ =c^2D_1g_*^2S_B^6.
+```
+
+This couples the sixth-order quadratic residual to the actual contracted
+RS source weights. It is not yet an exclusion: the Vandermonde squares are
+nonzero, but the field-valued terms may cancel. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame`.
