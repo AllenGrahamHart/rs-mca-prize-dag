@@ -31352,6 +31352,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
+   "title": "A=1 quadratic paired split-biform scalar-weld gate",
+   "status": "PROVED",
+   "closure": "joint row and parameter realizability is one augmented full-support kernel condition",
+   "statement": "Evaluate the fixed-domain and zero-excess parameter factorizations on their common grid. On every nonincidence cell their nonzero row and fiber scalars must weld. Eliminating the fiber scalars gives a sparse two-entry linear matrix W. The two factorization directions come from one biform if and only if the fixed-domain coefficient-MDS matrix augmented by W has a kernel vector with every coordinate nonzero. In that event the parameter coefficient-MDS gate follows automatically.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
    "title": "A=1 quadratic paired zero-excess padded-fiber factorization",
    "status": "PROVED",
@@ -65434,6 +65452,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65441,6 +65469,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
    "kind": "req"
   },
   {
