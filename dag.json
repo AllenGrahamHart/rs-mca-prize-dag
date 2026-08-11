@@ -31170,6 +31170,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "title": "A=1 quadratic extremal resultant regular-quartic identification",
+   "status": "PROVED",
+   "closure": "exact parameter eliminant for the four-core",
+   "statement": "The homogeneous X-resultant of the locator and split biform is the product of one mandatory factor ell_delta^(n-a_delta) for every off-line supported slope and the regular-block quartic E_4. Therefore the parameter pushforward of the exact residual four-cycle is div(E_4), namely twice the quadratic correction divisor in the double-root arm or the degree-one plus degree-three correction divisors in the two-simple arm.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
    "title": "A=1 quadratic extremal three-center minimum-word reduction",
    "status": "PROVED",
@@ -31347,6 +31365,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "title": "A=1 quadratic gap-four Pade regular-factor identity",
+   "status": "PROVED",
+   "closure": "exact contracted Pade resultant and correction-quartic factorization",
+   "statement": "The contracted second-kind Pade numerator satisfies QB-Lambda G=L_U0 P_F and Res_X(Q,P_F)=c a^(2d+1)D_1. After the fixed infinity normalization, D_1 is the parameter pushforward of the Forney-contact divisor. Hence the regular quartic is S_B^2 in the double-root arm and S_1S_2 in the two-simple arm.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/verify_audit.py"
    ]
   },
   {
@@ -65144,6 +65180,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
    "kind": "req"
   },
@@ -65458,6 +65499,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65475,6 +65521,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
    "kind": "req"
   },
   {
@@ -65501,6 +65552,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
@@ -65540,6 +65596,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
    "kind": "req"
   },
   {
@@ -65653,6 +65714,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65660,6 +65731,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
    "kind": "req"
   },
   {
@@ -65773,6 +65849,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65780,6 +65861,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
    "kind": "req"
   },
   {

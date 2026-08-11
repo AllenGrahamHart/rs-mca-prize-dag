@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+    "title": "A=1 quadratic extremal resultant regular-quartic identification",
+    "status": "PROVED",
+    "closure": "exact parameter eliminant for the four-core",
+    "statement": "The homogeneous X-resultant of the locator and split biform is the product of one mandatory factor ell_delta^(n-a_delta) for every off-line supported slope and the regular-block quartic E_4. Therefore the parameter pushforward of the exact residual four-cycle is div(E_4), namely twice the quadratic correction divisor in the double-root arm or the degree-one plus degree-three correction divisors in the two-simple arm.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_crossing_location"}],
+  "refutes": []
+}

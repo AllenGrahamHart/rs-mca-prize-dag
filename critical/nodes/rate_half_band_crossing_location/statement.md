@@ -3380,3 +3380,38 @@ The proved node is
 The extremal branch is now a constant-size problem outside ordinary
 supported-fiber root supply: classify the four-core or force five excess
 or nonordinary intersection units.
+
+## Cycles 151--152 addendum: the four-core is the regular correction quartic
+
+The contracted source moments have a canonical second-kind numerator
+`P_F`. Its interpolation syzygy and normalized Hankel resultant are
+
+```text
+QB-Lambda G=L_U0 P_F,
+Res_X(Q,P_F)=c a^(2d+1)D_1.
+```
+
+Thus `D_1` is the parameter pushforward of the Forney-contact divisor. The
+regular quartic from Cycle 110 is now identified exactly:
+
+```text
+double root: E_4 proportional to S_B^2,
+two simple:  E_4 proportional to S_1S_2.
+```
+
+Taking the `X`-resultant of the syzygy and inserting the exact row and
+rank-loss factors gives
+
+```text
+Res_X(Q,G)
+ =c E_4 product_(delta off line)ell_delta^(n-a_delta).
+```
+
+Every center factor cancels, including center-line rank loss. Hence the
+parameter pushforward of the exact residual four-cycle is `div(E_4)`, with
+no unlisted unsupported or infinity fiber. The proved nodes are
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity`
+and
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification`.
+The next live obstruction is local Hankel jet realizability of the forced
+square or linear-times-cubic correction quartic.

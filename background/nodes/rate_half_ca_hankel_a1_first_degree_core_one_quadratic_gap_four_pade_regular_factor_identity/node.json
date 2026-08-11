@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+    "title": "A=1 quadratic gap-four Pade regular-factor identity",
+    "status": "PROVED",
+    "closure": "exact contracted Pade resultant and correction-quartic factorization",
+    "statement": "The contracted second-kind Pade numerator satisfies QB-Lambda G=L_U0 P_F and Res_X(Q,P_F)=c a^(2d+1)D_1. After the fixed infinity normalization, D_1 is the parameter pushforward of the Forney-contact divisor. Hence the regular quartic is S_B^2 in the double-root arm and S_1S_2 in the two-simple arm.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_crossing_location"}],
+  "refutes": []
+}
