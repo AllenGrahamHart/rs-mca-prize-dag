@@ -2539,3 +2539,27 @@ centers would lie on the line through the first two. This is a joint
 incidence/coding constraint, not yet an exclusion of the exact design. The
 proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread`.
+
+## Cycle 107: the exact block degrees have an abstract cyclic realization (2026-08-11, Codex)
+
+The Cycle-106 degree sequence is not itself contradictory. For every
+`e>=7`, take `3e+3` cyclic starts and mark seven of them with the balanced
+mechanical word
+
+```text
+sigma_j=floor(7(j+1)/(3e+3))-floor(7j/(3e+3)).
+```
+
+Start three light rows at every unmarked position and two at every marked
+position; each row occupies `e` consecutive blocks. Every `e`-window has
+two or three marks, so a block has `3e-2` or `3e-3` light rows. Exactly
+`e-6` blocks have the smaller size. Adding `x_*` to those blocks, adding
+the fixed core to every block, and adjoining `rho-7` inactive points
+realizes all Cycle-106 block sizes and point degrees exactly.
+
+Thus handshake, divisibility, and degree-only support arguments cannot close
+the packet. A bounded toy probe for `7<=e<=30` also found at least `e+3`
+triple-union expanders for every pair, but that is numerical evidence only.
+No RS word pair, center assignment, Hankel pencil, or cube identity is
+constructed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design`.

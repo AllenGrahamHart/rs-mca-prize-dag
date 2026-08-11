@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design",
+    "title": "A=1 core-one quadratic gap-four abstract incidence design",
+    "status": "PROVED",
+    "closure": "explicit support-only realization of the exact locator degrees",
+    "statement": "For every e at least 7, a balanced seven-mark cyclic construction realizes rho+4 abstract rho-subsets with one common point, 3rho+5 light points of degree e, one point of degree e-6, and rho-7 inactive points. Thus the exact support degree sequence of the retained u=4 packet is combinatorially consistent and cannot be excluded by block-degree arguments alone. No RS, Hankel, center, or field-valued realization is claimed.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/falsification.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
