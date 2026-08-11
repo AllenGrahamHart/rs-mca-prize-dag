@@ -1,0 +1,31 @@
+=== D2b  (DEG-m)-TIGHTENED m=4 2-SHARING SEARCH ===
+class: (SPLIT-4)+sigma(x)=-x on mu_64, shared triple per orbit
+budget 12000 DFS nodes/draw, 215 draws/field -- MATCHED to anchor 1's
+m4_struct cell (r35 REPORT.md:170-176: budget 12000, ~215 draws)
+target = 12 of 12 shared triples
+
+--- q = 193 : 215 draws, 32 orbits/draw
+    V-RELAXED  (deg<=3, <=15 slopes, linear)      BEST =  7 of 12
+      histogram {3: 2, 5: 4, 6: 191, 7: 18}
+    V-TIGHTENED (+ (DEG-m): n_1 + 2(15-s) <= 6)   BEST =  7 of 12
+      histogram {3: 2, 5: 4, 6: 191, 7: 18}
+    CEILING MOVED BY 0 triple(s)
+    best partial profile: s = 15 slopes, n_1 = 9 degree-1 slopes,
+      degree sequence [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+      completion bounds: n_1 <= 4 ? False ; n_0 = 15-s = 0 <= 3 ? True
+      -> the partial is NOT (DEG-m)-completable as it stands
+
+--- q = 257 : 215 draws, 32 orbits/draw
+    V-RELAXED  (deg<=3, <=15 slopes, linear)      BEST =  7 of 12
+      histogram {3: 1, 5: 28, 6: 180, 7: 6}
+    V-TIGHTENED (+ (DEG-m): n_1 + 2(15-s) <= 6)   BEST =  7 of 12
+      histogram {3: 1, 5: 28, 6: 180, 7: 6}
+    CEILING MOVED BY 0 triple(s)
+    best partial profile: s = 15 slopes, n_1 = 9 degree-1 slopes,
+      degree sequence [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+      completion bounds: n_1 <= 4 ? False ; n_0 = 15-s = 0 <= 3 ? True
+      -> the partial is NOT (DEG-m)-completable as it stands
+
+NOTE: both variants are DFS CEILINGS under the named budget over the
+named class -- not upper bounds (R7.1).
+total wall 8.8 s

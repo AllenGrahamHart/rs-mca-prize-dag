@@ -1,0 +1,71 @@
+=== D2  (SHARE3-4) ARITHMETIC LAYER + EXHAUSTIVE MULTIPLICATIVE CENSUS ===
+design (R1.11 cert C2): 8 triples, 11 edge-slopes + 2 pendants = 13,
+  plus 2 middle slopes = T_2 = rho = 15 exactly.
+  slot sum = 24 ; degree sequence = [1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+--- q = 193  PART A1: EXHAUSTIVE constant-(e1,e3) census (Delta ~ X)
+    buckets = 12352 ; size histogram (size:count) = {1: 1024, 2: 1536, 3: 4864, 4: 2688, 5: 2048, 9: 64, 10: 64, 12: 64}
+    MAX complete fibres in one such pencil = 12   (need 9)
+    pencils with >= 9 fibres = 192 ; with >= 8 = 192
+    EXHAUSTIVE over that sub-family -- not a ceiling.
+    PART A2: constant-e3 family (Delta = X(cX+d)), 200 bases per e3
+       exhaustive over every line through each sampled base triple
+       pencils found with >= 9 disjoint complete fibres : 1750
+       MAX complete fibres over the family = 12
+    chosen pencil has 12 fibres ; using 9
+    fibre parameters t_j = [0, 2, 69, 113, 124, 128, 139, 158, 161]
+    27 W-points, all distinct : True ; |W| = 27 = a = 7m-1 : True
+    PART B: arithmetic layer, 16 coefficients of Psi~
+      B0 RANK TEST (feasible iff rank <= 15): 400 random slope draws
+         min rank over draws = 16   (16 = infeasible, <=15 = WITNESS)
+      B1 RANDOM Psi~ (3000 draws): best k = 6 of 8 fully-split fibres;
+         best (k, |slopes|, coincidences C = 3k-|slopes|) = (6, 16, 2)
+      B2 ALLOC (15 prescribed incidences, 40000 draws, 40000 solved):
+         pencils sampled from 1750 with >=9 fibres; random 8-subsets
+         mean fully-split fibres = 7.382 of 8 ; max = 8
+         best (k, |slopes|, C=3k-|slopes|, prescribed-slope hits) = (8, 12, 12, 22)
+         |slopes| histogram AT k = 8 (need <= 13): {12: 2, 13: 4, 14: 3, 15: 44, 16: 452, 17: 2638, 18: 7108, 19: 7326}
+         CEILING: min |slopes| at k=8 = 12 ; DEMAND <= 13 ; SHORT BY -1
+         coincidence currency: achieved C = 12 vs demand C >= 11
+      B2V STRUCTURAL VERIFICATION of every k=8, |slopes|<=13 draw
+         (MISS-2 guard: |slopes| is NOT the constrained quantity)
+         outcome tally over ALL k=8 draws = {'PASS': 13208, 'hypergraph degree 3 > 2': 3138, 'hypergraph degree 8 > 2': 6, 'no 4/4 per-side balance': 64, 'pair multiplicity 2 > 1': 462, 'slope graph not bipartite': 699}
+         |slopes| histogram among STRUCTURALLY LEGAL k=8 draws: {14: 1, 16: 43, 17: 883, 18: 4955, 19: 7326}
+         STRUCTURAL CEILING: min |slopes| over legal k=8 = 14
+         => legal coincidence supply C = 10 ; DEMAND C >= 11
+         NO draw passed the structural verification.
+
+--- q = 257  PART A1: EXHAUSTIVE constant-(e1,e3) census (Delta ~ X)
+    buckets = 15872 ; size histogram (size:count) = {1: 3328, 2: 4736, 3: 4096, 4: 2112, 5: 1472, 6: 128}
+    MAX complete fibres in one such pencil = 6   (need 9)
+    pencils with >= 9 fibres = 0 ; with >= 8 = 0
+    EXHAUSTIVE over that sub-family -- not a ceiling.
+    PART A2: constant-e3 family (Delta = X(cX+d)), 200 bases per e3
+       exhaustive over every line through each sampled base triple
+       pencils found with >= 9 disjoint complete fibres : 709
+       MAX complete fibres over the family = 9
+    chosen pencil has 9 fibres ; using 9
+    fibre parameters t_j = [0, 25, 29, 59, 67, 82, 89, 154, 232]
+    27 W-points, all distinct : True ; |W| = 27 = a = 7m-1 : True
+    PART B: arithmetic layer, 16 coefficients of Psi~
+      B0 RANK TEST (feasible iff rank <= 15): 400 random slope draws
+         min rank over draws = 16   (16 = infeasible, <=15 = WITNESS)
+      B1 RANDOM Psi~ (3000 draws): best k = 6 of 8 fully-split fibres;
+         best (k, |slopes|, coincidences C = 3k-|slopes|) = (6, 17, 1)
+      B2 ALLOC (15 prescribed incidences, 40000 draws, 40000 solved):
+         pencils sampled from 709 with >=9 fibres; random 8-subsets
+         mean fully-split fibres = 7.408 of 8 ; max = 8
+         best (k, |slopes|, C=3k-|slopes|, prescribed-slope hits) = (8, 12, 12, 22)
+         |slopes| histogram AT k = 8 (need <= 13): {12: 2, 13: 2, 14: 1, 15: 25, 16: 247, 17: 2020, 18: 7018, 19: 8745}
+         CEILING: min |slopes| at k=8 = 12 ; DEMAND <= 13 ; SHORT BY -1
+         coincidence currency: achieved C = 12 vs demand C >= 11
+      B2V STRUCTURAL VERIFICATION of every k=8, |slopes|<=13 draw
+         (MISS-2 guard: |slopes| is NOT the constrained quantity)
+         outcome tally over ALL k=8 draws = {'PASS': 14594, 'hypergraph degree 3 > 2': 2515, 'hypergraph degree 8 > 2': 4, 'no 4/4 per-side balance': 26, 'pair multiplicity 2 > 1': 404, 'slope graph not bipartite': 517}
+         |slopes| histogram among STRUCTURALLY LEGAL k=8 draws: {15: 1, 16: 25, 17: 715, 18: 5108, 19: 8745}
+         STRUCTURAL CEILING: min |slopes| over legal k=8 = 15
+         => legal coincidence supply C = 9 ; DEMAND C >= 11
+         NO draw passed the structural verification.
+
+=== SUMMARY ===
+total wall 48.7 s

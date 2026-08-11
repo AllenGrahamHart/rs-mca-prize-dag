@@ -1,0 +1,4 @@
+q=193 bases=60 max=12 wall=1.3
+q=257 bases=400 max=9 wall=10.2
+q=449 bases=800 max=9 wall=28.2
+q=577 bases=800 max=7 wall=29.9

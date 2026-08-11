@@ -5886,3 +5886,70 @@ COMPLIANCE: 6/6 clean (11th consecutive; one SIGPIPE-lost run
 disclosed — round-37 rule: results files never through a pipe).
 Node: 2 inline markers + addendum + supplier fence. Mint +5.
 Files: notes/pilots_20260811/r36_hrlow/.**
+
+## ROUND 36 BANK 4/4 — r36_m4_nonsplit (2026-08-11, coordinator)
+
+**BANKED — THE m=4 GAP IS ONE COINCIDENCE; THE DEMAND LAW
+CORRECTED TO LINEAR; LÜROTH IDENTIFIED; ONE COMPUTE-LAW BREACH
+CENSURED. Order-3 sharing = a Lüroth pullback (the lattice is
+BANKED machinery — f_weight2_inverse + payment_completeness,
+verified; new = the (BIV-CURVE) identification + the degree
+arithmetic: maximal sharing k = m-1 meets the 3m-3 budget with
+EQUALITY, waste = 3(m-1) mod k). (SHARE3-4) built: the
+line-in-P^3 instrument (exhaustive per base — the lane's first
+non-truncated negative instrument); the pencils EXIST (12/9/9
+fibres at q=193/257/449) and are CONSTANT-NORM (mu_N group
+structure; the pilot's own q^-12 moment refuted 3400x, withdrawn
+— counting dead on structured sets, third exhibit this round);
+|W| = 27 = 7m-1 exact; selection layer FREE (13208+14594/40000
+verified legal); FULL TARGET 8/8 REACHED (first m=4 class ever);
+shortfall |slopes| = 14/15 vs 13 (ONE/TWO coincidences). THE
+GUARD AS THE FINDING: the raw C=12 witness was a degree-8-slope
+artefact, killed by the structural verifier BEFORE reporting.
+(DEG-m): zero selection power (bit-identical ceilings) but every
+2-sharing ceiling configuration is provably non-completable
+(n_1 = 9 > 4) — the negative upgrades to dead-objects-at-the-
+ceiling. FLAT-SUPPLY LAW part-proved (unconditional demand-side
+Omega(m), binding from m=7; conditional q ~ 10^4 kill for pencil
+classes at 8 <= m <= 128). FORCED CORRECTION on MY round-35 law
+bullet: middles undercharged (8/25/47 ceilinged); the QUADRATIC
+is a 2-SHARING ARTEFACT — D_max(m) = 4m-8 LINEAR (the m >= 5
+fence weakens materially; crossing stays m=3). COMPLIANCE: ONE
+bare-python3 breach (empty heredoc no-op; self-reported FIRST;
+formally censured; the 11-pilot streak ends and resets); all else
+clean. Node: CORRECTED marker + (SHARE3-4) addendum + ROUND 36
+CLOSE. Mint +5. Files: notes/pilots_20260811/r36_m4_nonsplit/.**
+
+## ROUND 36 COMPLETE (2026-08-11, coordinator)
+
+**FOUR BANKS, ZERO STATUS FLIPS, CENSUS UNCHANGED
+(231=167/37/27, 246=179/39/28) — THE THEOREM ROUND became the
+CONSTRUCTION round: counting died three more times and every
+load-bearing move was a construction. Bank 1: the rank target
+RETIRED ((LA-EQ) — it strictly implies the endpoint exclusion;
+H1/H1+H2 refuted constructively; the fence an infinite family;
+mechanism = the PROVED (RIC3)); THE TWO LANES ARE ONE QUESTION,
+with a closed-form starting variety. Bank 2: (SAT3)-on-(L2)
+NON-VACUOUS (T = 2 over mu_32, certified e=m=2, both fields) via
+(PAR) — a rational parametrization of the whole stratum (rate 1;
+membership = a gcd; coordinator hand-verified completely); the
+realizability ledger's m=2 cell flips (+4-O; doubly re-posed
+m <= 1); THE THIRD EXACT SOLVE = the named instrument. Bank 3:
+h_r DISSOLVED (= rho + deg ratio; common support a THEOREM; LB1
+unique-and-forced; rho+2 band floor-carrying); the
+negation-closure excess (T = 95 vs 9, mu_1-free, exact count,
+killed at razor rho by 2^33-1 conditions); **STATEMENT U =>
+B_ca^far(k+2^34) = r+1 EXACTLY** — U-rand the only unpriced
+mode. Bank 4: the m=4 gap cut to ONE coincidence
+(Lüroth/constant-norm); the demand law linear under maximal
+sharing. AUDIT LEDGER (11th consecutive catching round): seven
+banked texts corrected, four of them MINE (the anchor-1 pricing
+twice, the law bullet, the narrowing). COMPLIANCE: banks 1-3
+clean (9th-11th consecutive); bank 4 one bare-python3 breach,
+self-reported first, censured, streak reset. ROUND-37 RULES:
+results files never through pipes / never blind-overwrite;
+helpers-duplicated-per-file recommended. ROUND-37 ANCHORS:
+(1) THE THIRD EXACT SOLVE; (2) U-rand; (3) the (SHARE3-4)
+one-coincidence gap; (4) rho=3 symmetric-T + C(128,63); (5) THE
+MINT WAVE (~30 queued items — consolidation due); (6) the 16=16
+node + eigenvalue-confinement shape.**

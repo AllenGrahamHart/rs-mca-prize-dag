@@ -3735,7 +3735,16 @@ algebra all verified.
   **coincidence demand D(m) = 3m(m-1)-(rho-1) = 8, 22, 42 at
   m = 3, 4, 5 against supply FLAT in m (best achieved 8, 12, 9) —
   m = 3 is the last m where supply meets demand, exactly** (which
-  is why the m=3 witness cost 632/24939 trials). The pair-
+  is why the m=3 witness cost 632/24939 trials).
+  [CORRECTED (round 36): the demand row undercharges the middle
+  tuples — with ceilings the 2-sharing values are 8, 25, 47 (exact
+  only at m=3, where the two errors cancel); and the QUADRATIC is
+  a 2-SHARING ARTEFACT: under maximal sharing k = m-1 (a Lüroth
+  pullback through a degree-3 map — legal, budget met with
+  EQUALITY, waste = 3(m-1) mod k) the demand is D_max(m) = 4m-8,
+  LINEAR, for m >= 7 (11 at m=4). The crossing stays at m=3, but
+  the m >= 5 fence is linear, not quadratic. See the round-36
+  (SHARE3-4) addendum.] The pair-
   multiplicity cap generalises to floor((m-1)/2) (linearity = its
   m=4 face, as round 34's caution said — and it is inert there
   too). Positive control: the same engine reaches 9/9 at m=3 on
@@ -4494,3 +4503,143 @@ check). All pass.
   total-T census at rho >= 3 (the even-locator carrier IS swept
   completely there); char 2 unmeasured; T_rand unpriced;
   everything else per the pilot's 13 zero-power declarations.
+
+## Round-36 (SHARE3-4) addendum (2026-08-11, coordinator-audited): the m=4 gap is ONE coincidence; the demand law corrected to linear; Lüroth identified
+
+Pilot r36_m4_nonsplit (round 36, bank 4). Coordinator hand-checks:
+the Lüroth degree arithmetic (deg_x = k*deg_w; k = m-1 gives
+deg_w = 3 exactly; waste = 3(m-1) mod k, reproducing the even-m
+lost unit at k=2); the demand calibration (D(2,2) = 8 at m=3;
+D(3,3) = 11 at m=4; D_max = (8m-9)-(4m-1) = 4m-8); the m=4
+3-sharing structure chain ((OV) equality => pair multiplicity 1;
+per-side => d <= 2 => s = 13 forced); Lemma 1 (Möbius injectivity
+6m > rho); the Cauchy-Schwarz bound. AUDIT NOTE: the closed-form
+demand display is the divisible-case idealization — the ceiling
+version (e.g. 25 = 36+4-15 at m=4, k=2) is operative.
+
+- **ORDER-3 SHARING IS A LÜROTH PULLBACK, and the machinery is
+  BANKED** (the pilot's own load-bearing subtraction, verified:
+  f_weight2_inverse's GLOBAL PULLBACK Theorem 1 + payment_
+  completeness's Lüroth-lattice unification — the repo already
+  states the lattice subsumes multiplicative and affine-involution
+  as one class; anchor 1's sigma and this w are members). New
+  here: the identification of (BIV-CURVE) tuple-sharing as a
+  lattice member + the x-degree arithmetic (maximal sharing is
+  FREE in the budget — the exact opposite of the involution's
+  wasted unit).
+- **(SHARE3-4), the sixth m=4 class — full target REACHED, gap =
+  ONE coincidence.** The line-in-P^3 reformulation (a 3-sharing
+  pattern = a line through >= 8 of the 41664 mu_64-split cubics)
+  gives the lane's first exhaustive-per-base non-DFS instrument.
+  The pencils EXIST (12/9/9 complete fibres at q = 193/257/449)
+  and are CONSTANT-NORM — the mu_N group structure supplies the
+  sharing (fixed root-product costs 1/N, not 1/q), refuting the
+  pilot's own registered q^-12 moment by 3400x (falsifier fired,
+  threshold withdrawn — the third instrument-class this round
+  where counting died on structured sets). |W| = 27 = 7m-1 lands
+  exactly; the selection layer is FREE (13208 + 14594 of 40000
+  structurally-verified legal draws); k = 8 of 8 reached — the
+  first m=4 class ever to reach its full target; the shortfall is
+  |slopes| = 14/15 vs 13 required (ONE/TWO coincidences, 40000
+  ALLOC draws per field). m = 4 stays OPEN, six classes
+  searched-negative, and this class is the live route.
+- **THE GUARD AS THE FINDING:** the raw search reported a witness
+  on the coincidence currency (C = 12 vs demand 11) that the
+  structural verifier killed — one slope with hypergraph degree 8
+  (a common root of Psi~) blowing the per-side cap by 8x. The
+  registered quantity was satisfied while the configuration was
+  infeasible; caught BEFORE being reported as a result.
+- **(DEG-m): zero selection power, decisive at completion.** The
+  tightened and relaxed 2-sharing ceilings are BIT-IDENTICAL
+  (7/12, two fields) — it is a completion-level condition; but
+  every ceiling configuration has n_1 = 9 against the
+  completeness bound 4: **the 2-sharing m=4 negative upgrades
+  from a ceiling to dead-objects-at-the-ceiling** (two fields).
+- **THE FLAT-SUPPLY LAW, PART-PROVED:** unconditional for
+  pencil-image classes — no degree-1 factor (Lemma 1) + AM-HM +
+  Cauchy-Schwarz give required cross-coincidence >= ~m-5,
+  VACUOUS for m <= 6, BINDING from m = 7; with the measured
+  Weil-type supply the pencil classes die for q >~ 10^4 at every
+  8 <= m <= 128 (CONDITIONAL). The o(m^2) supply bound is NOT
+  delivered; m = 4 is untouched by the theorem (vacuous there,
+  pre-declared).
+- **SCOPE FENCES:** no G built, no completion, no bivariate
+  system, nothing gated by bank 2's verifier; mu(x)-at-middles
+  unchecked; sporadic (non-factoring) sharing unsearched (priced
+  < 1e-4); base triples sampled (60-800 of 41664, exhaustive per
+  base); the constant-norm censuses exhaustive over their named
+  sub-families only; (OUT-m)/(DEG-m)-derived statements inherit
+  POSED status. COMPLIANCE: ONE bare-python3 breach (empty
+  heredoc no-op) — the first since the round-33 censures; the
+  11-pilot clean streak ends; self-reported FIRST, censured.
+
+## ROUND 36 CLOSE (2026-08-11): the four banks reconciled — construction is the only currency
+
+**BANK 1 (r36_lawcount_geom):** the rank target RETIRED ((LA-EQ):
+it strictly implies the endpoint exclusion; H1 and H1+H2 refuted
+constructively; the fence an infinite family, nullity 2m; the
+failure locus = the PROVED (RIC3) mechanism) — **the layer-A and
+realizability lanes are ONE question**, with a closed-form
+starting variety handed to the realizability side. **BANK 2
+(r36_sat3_on_l2):** (SAT3)-on-(L2) NON-VACUOUS — T = 2 over mu_32
+on certified e=m=2 objects via (PAR), a rational parametrization
+of the whole stratum (rate 1; membership = a gcd); the
+realizability ledger's m=2 cell flips (+4-O; doubly re-posed
+m <= 1); the missing instrument is a THIRD EXACT SOLVE. **BANK 3
+(r36_hrlow):** h_r dissolved (= rho + deg ratio; common support a
+theorem; LB1 unique-and-forced; the rho+2 band floor-carrying);
+the negation-closure excess found (T = 95 vs 9, mu_1-free) and
+killed at razor rho; **STATEMENT U: every bad slope has a locator
+inside W => B_ca^far(k+2^34) = r+1 EXACTLY** — U-sym
+condition-killed, U-rand the unpriced residual. **BANK 4
+(r36_m4_nonsplit):** the m=4 gap cut to ONE coincidence by the
+Lüroth/constant-norm (SHARE3-4) class; the demand law corrected
+(linear under maximal sharing); the flat-supply law part-proved.
+
+**THE RECONCILED PICTURE.** The round's meta-result: **counting
+died as a verdict-carrier, three more times** (the 11m-4-vs-+4
+lesson repeated by the pilot's own q^-12 refutation on
+constant-norm sets; the H1+H2 nullity-1 families against the
+excess; the ledger flip that still cannot exclude). Every load-
+bearing move this round was a CONSTRUCTION: the H1+H2 families,
+the (PAR) parametrization + T = 2 objects, the T = 95 pencils,
+the constant-norm 3-sharing pencils. The frontier after round 36:
+
+1. **The converged small-m question** ((SAT3) realizability =
+   layer-A rank over completable configurations): attacked from
+   the B-side with rate-1 parametrization and T = 2 achieved;
+   FOUR counting instruments say empty, ZERO mechanisms; **the
+   third exact solve is the named instrument** — it decides
+   whether T climbs to the q-invariant +62.5-bit T = 3 cell and
+   beyond, or walls into the first genuine mechanism.
+2. **Far-CA = STATEMENT U** (U-rand the only unpriced mode);
+   proof carriers named; the C(128,63)-vs-C(127,64)
+   correspondence queued.
+3. **(BIV-CURVE) m = 4**: one coincidence short, on a class whose
+   existence mechanism (constant-norm on mu_N) is exactly
+   understood — more fields / finer constant-norm sub-families /
+   exhaustive line censuses are cheap next probes.
+
+**AUDIT LEDGER (11th consecutive catching round):** my round-35
+"law of record" demand row corrected (middles undercharged; the
+quadratic an artefact); my wave-59/round-35 anchor-1 pricing
+retired by (LA-EQ); the round-34 narrowing corrected AGAIN
+(mu_1-free excess); the round-33 realizability ledger's ambient
+dimension corrected ((ERC2)-forced 18); h_r retired as a
+coordinate; the round-34/35 h_r-floorlessness reading corrected
+(witness-B's K_0, not h_r); p*-converse refuted. COMPLIANCE:
+banks 1-3 clean (9th-11th consecutive); bank 4 ONE bare-python3
+breach (self-reported first — the honesty machinery held; the
+streak resets). ROUND-37 RULES: results files never through a
+pipe; the helpers-duplicated-per-file anti-import pattern
+recommended.
+
+**ROUND-37 ANCHORS (priority order):** (1) THE THIRD EXACT SOLVE
+(T >= 3 over mu_32 — the single named instrument of the converged
+question); (2) U-rand (price or fence the codeword-mediated mode
+— the last far-CA unknown); (3) the (SHARE3-4) one-coincidence
+gap (constant-norm at more fields; exhaustive line censuses;
+the split sub-case fence); (4) the rho = 3 symmetric-T gap +
+the C(128,63) correspondence; (5) THE MINT WAVE (the queue now
+holds ~30 items across rounds 34-36 — a consolidation round is
+due); (6) m = 1 16=16 node + the eigenvalue-confinement shape.
