@@ -3921,7 +3921,17 @@ coordinator hand-verified AND verifier-replayed). The rank theorem
 MUST use the endpoint geometry (W = union of two degree-rho slope
 supports, split-biform/support-intersection/Hankel-source
 constraints) — exactly the fence's own scope note. The anchor
-stands in re-posed form]; (2)
+stands in re-posed form]
+[RETIRED (round 36, bank 1): the unconditional rank target is
+DEAD at every cheaply testable rung — (LA-EQ) shows the theorem
+STRICTLY IMPLIES the strict-endpoint exclusion (any realized
+endpoint's kernel biform restricted to 7m-1 of its >= 15m
+saturated points gives nullity >= 1), H1 and H1+H2 are refuted
+CONSTRUCTIVELY (closed-form nullity-1 families, both fields), and
+the fence generalizes to Q_0 = Z^m - X^{2m} with nullity exactly
+2m at every m >= 2. The surviving question — rank over
+(SAT2)-completable configurations — IS the realizability
+question. See the round-36 (LA-EQ) addendum]; (2)
 **(SAT3)-on-(L2)** (bank 1's free-B design vs the first-moment
 gate — either a witness that beats three instruments or evidence
 the class is empty); (3) **R-HRLOW** (the h_r = rho+2..O(1) band:
@@ -4236,3 +4246,80 @@ All but at most three roots of the fixed heavy row are now prescribed. Its
 coefficient vector augments the extremal coefficient-MDS system with at
 most four scalar unknowns. The remaining separated double-root terminal is
 the rank/nullity of this augmented system, not an untyped correction jet.
+
+## Round-36 (LA-EQ) addendum (2026-08-11, coordinator-audited): the rank target retired; the layer-A and realizability lanes are ONE question
+
+Pilot r36_lawcount_geom (round 36, bank 1). Coordinator
+verifications: (LA-EQ)'s five-line derivation hand-checked against
+the cited PROVED lines of saturation_rigidity and the RNC node;
+the H1 closed form's algebra hand-checked (Q(g,.) = a(g-h)sigma_g,
+Q(h,.) = b(g-h)sigma_h); the m=3 generalized-fence arithmetic
+hand-checked; the (RIC3) and row-surplus nodes read (both PROVED,
+exactly as subtracted).
+
+- **(LA-EQ), the repricing reading:** for any hypothesis set H
+  satisfied by the restriction of a strict A=3, e=m endpoint
+  configuration to 7m-1 of its >= 15m parameter-saturated points,
+  (LA-W COUNT | H) IMPLIES the endpoint is empty — the endpoint's
+  own nonzero kernel biform lies in the layer-A kernel of the
+  restriction. The rank theorem was never a route to the
+  exclusion; it is a STRICT strengthening (strict because of the
+  next bullet). Five lines from (SAT4)-(SAT5) + (RNC1)-(RNC2),
+  both PROVED; a reading, not new mathematics — priced as such.
+- **RUNGS H1 AND H1+H2 ARE CONSTRUCTIVELY FALSE.** The closed
+  form Q = (Z-g)(Z-h)C(X) + a(Z-h)sigma_g(X) - b(Z-g)sigma_h(X)
+  satisfies H1 by construction (two degree-rho supports split over
+  mu_32, |S_g ^ S_h| = m-1); merging the induced second slopes is
+  LINEAR in C: 4047/4047 (q=97) and 4426/4426 (q=193) admissible
+  builds all have nullity 1. Forcing H2 (ALL pair intersections
+  <= m-1, T = 9 exactly) leaves one scalar condition, solved:
+  exhibits on both fields (supports [7,7,2,2,2,2,2,1,1], max
+  pair-intersection 1, nullity 1), verified by two independent
+  code paths; controls (unsolved shape, random saturated) give
+  nullity 0 at 40-60/cell. NOT of invariant/subgroup type
+  (P_1 != 0; slopes not a coset).
+- **THE FENCE IS AN INFINITE FAMILY.** Q_0 = Z^m - X^{2m}, W
+  inside 4 fibres of x -> x^{2m} on mu_{16m}, Gamma = the 4m
+  m-th roots + one spare: saturated a = 7m-1, nullity EXACTLY 2m
+  (measured m = 2,3,4,6 over five fields; = Codex's fence at
+  m=2). The bare count is dead at EVERY m >= 2. Binomial
+  subfamily classified (k = 2m admissible for all m <= 12; at
+  m = 2 it is the UNIQUE admissible k — why the fence looked like
+  an accident and is not).
+- **THE EXACT FAILURE LOCUS ((LA-PADE)/(LA-DEG); mechanism =
+  the PROVED (RIC3), found by subtraction after derivation):**
+  nullity(E_I) = dim of the simultaneous Pade/Hankel kernel over
+  the elementary-symmetric slope data E_j, with the reduced-basis
+  degree formula dim K_j = max(0,4m-d_j) + max(0,4m-d'_j),
+  d_j + d'_j = 7m-1 — agrees 9/9 with direct nullity including
+  the fence (8-4 = 4) and the m=1 sign ((4-3)+(4-3) = 2, which
+  (LA-EQ) also forces since the m=1 endpoint is realized).
+  (RIC3)'s scope note ("one coefficient block") is exactly what
+  the all-block form extends. CROSS-POINTERS of record: the
+  saturation-count fence node, (RIC3), and the row-surplus fence
+  (its m=1 instance) are three faces of one mechanism; neither
+  fence node cites (RIC3) — recorded here.
+- **THE LADDER TERMINATES AT THE OPEN PROBLEM.** The rung that
+  kills every constructed counterexample is (SAT2)/global block
+  completion (the exhibits sit at O in [34,37] against the cap
+  m-1 = 1) — and a configuration PASSING that rung is a realized
+  (SAT3) witness at m=2. **The layer-A lane and the realizability
+  lane are the same question from two sides: a positive on either
+  settles the other's negative.** Transportable to the
+  realizability search: the closed form above is a starting
+  variety that satisfies the pair-union + pair-cap geometry
+  exactly, leaving all freedom for block completion.
+- **STATUS AFTER THIS BANK:** layer A remains a per-witness
+  instrument (round 35's completion-independent kills are
+  untouched); the ambition of a standalone universal exclusion at
+  a = 7m-1 is retired; the board's face-off collapses into ONE
+  question — (SAT2)-completable saturated configurations, i.e.
+  (SAT3) realizability at m >= 2 — attacked from the B-design
+  side and now equipped with this bank's starting variety.
+- **SCOPE FENCES:** H3/H4 untested (structural coverage via
+  (LA-EQ) only); the H1+H2 refutation is m=2/two-field (enough to
+  kill the m >= 2-quantified statement, no more); the O minima
+  are sample minima over six exhibits; the generalized fence's
+  2m is constructed-lower-bound + measured-equality (ten cells);
+  no (SAT2)-satisfying configuration at m >= 2 was built or
+  sought; everything hypothesis-class conditional.

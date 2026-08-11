@@ -69,3 +69,21 @@ degree-seven slope supports, does not complete all nine slopes to the required
 global blocks, and does not impose the split-biform, support-intersection, or
 Hankel-source constraints. Any valid Layer-A theorem must use at least some of
 that additional geometry rather than the count alone.
+
+## Coordinator addendum (2026-08-11, round-36 bank 1)
+
+The fence generalizes: Q_0 = Z^m - X^{2m} (W inside 4 fibres of
+x -> x^{2m} on mu_{16m}; Gamma = the 4m m-th roots + one spare)
+gives a saturated a = 7m-1 configuration of nullity exactly 2m at
+EVERY m >= 2 (measured m = 2,3,4,6, five fields; this node is the
+m = 2 member). The mechanism of both is the PROVED
+rate_half_bivariate_single_coefficient_rational_interpolation_criterion
+((RIC3): rank failure = a low-degree rational interpolant of the
+slope data), whose m=1 instance is the PROVED
+rate_half_bivariate_row_surplus_route_fence. The scope note below
+is confirmed sharp in one direction and NOT the other: the H1 and
+H1+H2 rungs it leaves open are refuted constructively (round-36
+bank 1, r36_lawcount_geom — closed-form nullity-1 families
+satisfying both), so only the global-block-completion rung
+((SAT2)) can carry a rank theorem, and a configuration passing it
+is a realized (SAT3) witness.

@@ -1,0 +1,25 @@
+==============================================================================
+D4 VERIFICATION: independent second path on the H1^H2 exhibit
+==============================================================================
+
+### F_97
+  Q(g,.) == a(g-h)*sigma_g as polynomials : True   (deg 7, roots = S_g, all in mu_32)
+  Q(h,.) == b(g-h)*sigma_h as polynomials : True   (deg 7, roots = S_h, all in mu_32)
+  Q vanishes on all 26 incidences: True (0 failures)
+  E_I * vec(Q) = 0 on all 26 rows: True ; Q nonzero: True
+  nullity(E_I) from path 1 = 1 ; a kernel element exhibited in closed form by path 2
+  count excess = 26 - 24 = +2 (positive), saturation |A_x| = 2 for all 13 points
+
+  [H1-ONLY family, honest count] 4047 nullity>0 out of 4047 admissible configurations built; nullity histogram {1: 4047}
+  coincidence-system kernel dim on C: [3] (family dimension in C)
+
+### F_193
+  Q(g,.) == a(g-h)*sigma_g as polynomials : True   (deg 7, roots = S_g, all in mu_32)
+  Q(h,.) == b(g-h)*sigma_h as polynomials : True   (deg 7, roots = S_h, all in mu_32)
+  Q vanishes on all 26 incidences: True (0 failures)
+  E_I * vec(Q) = 0 on all 26 rows: True ; Q nonzero: True
+  nullity(E_I) from path 1 = 1 ; a kernel element exhibited in closed form by path 2
+  count excess = 26 - 24 = +2 (positive), saturation |A_x| = 2 for all 13 points
+
+  [H1-ONLY family, honest count] 4426 nullity>0 out of 4426 admissible configurations built; nullity histogram {1: 4426}
+  coincidence-system kernel dim on C: [3] (family dimension in C)

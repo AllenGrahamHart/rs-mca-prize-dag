@@ -5784,3 +5784,35 @@ floor, pose the floor dichotomy, state the upper-bound statement.
 ORDER-3 sharing patterns (legal at m=4, never tried), the
 (DEG-m)-tightened true search, and the flat-supply law as a
 theorem for pencil classes. Bank each on report, same cadence.
+
+## ROUND 36 BANK 1/4 — r36_lawcount_geom (2026-08-11, coordinator)
+
+**BANKED — THE UNCONDITIONAL RANK TARGET RETIRED; THE LAYER-A AND
+REALIZABILITY LANES PROVED TO BE ONE QUESTION. (LA-EQ)
+(coordinator hand-checked, five lines from PROVED nodes): any
+realized strict endpoint's kernel biform restricted to 7m-1 of
+its >= 15m saturated points gives layer-A nullity >= 1 — so the
+rank theorem STRICTLY IMPLIES the endpoint exclusion; my
+round-35/wave-59 anchor pricing corrected AGAIN (10th consecutive
+catching round). RUNGS REFUTED CONSTRUCTIVELY: H1 (closed form
+Q = (Z-g)(Z-h)C + a(Z-h)sigma_g - b(Z-g)sigma_h; 4047/4047 +
+4426/4426 nullity-1 builds, both fields) and H1+H2 (exhibits with
+T=9, all pair-intersections <= 1, nullity 1, two independent code
+paths; controls 0-nullity 40-60/cell). THE FENCE IS AN INFINITE
+FAMILY: Q_0 = Z^m - X^{2m}, nullity exactly 2m at m = 2,3,4,6
+over five fields (m=2 = Codex's fence, the unique admissible k
+there — not an accident). EXACT FAILURE LOCUS: (LA-PADE)/(LA-DEG)
+simultaneous Pade/Hankel kernel + reduced-basis degree formula,
+9/9 agreement incl. the fence (4) and the m=1 sign (2) — mechanism
+SUBTRACTS to the PROVED (RIC3) node (self-caught; its m=1
+instance = the PROVED row-surplus fence; neither fence node cites
+(RIC3) — cross-pointers recorded). THE LADDER TERMINATES AT
+(SAT2)/BLOCK COMPLETION (exhibits at O in [34,37] vs cap 1) —
+passing it IS a realized (SAT3) witness: the two lanes converge,
+and the closed form is a STARTING VARIETY for the realizability
+search (pair-union + pair-cap geometry free, all freedom left for
+completion). COMPLIANCE: 4/4 ramguard clean (9th consecutive);
+imported-script rule vacuously satisfied the right way;
+registered-formula-vs-code off-by-one self-caught. Node: RETIRED
+marker + (LA-EQ) addendum + fence-node cross-pointer addendum.
+Mint +4. Files: notes/pilots_20260811/r36_lawcount_geom/.**

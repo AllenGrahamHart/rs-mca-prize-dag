@@ -1,0 +1,107 @@
+==============================================================================
+D1/D2 CORE  (r36_lawcount_geom)
+==============================================================================
+
+[A] FENCE REPLAY (anchor 2, (LAW1)-(LAW3)) - the mandatory regression
+  q=97  |D|=32 |U|=16 |H|=8 |W|=13 |Gamma|=9  saturated: True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [(LAW3) says 4]
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [fence] |Gamma|=8  support sizes(top5)=[4, 4, 3, 3, 3]  max pair-int=4 (cap m-1=1)
+    [fence] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+  O = sum_gamma (rho - u_gamma) = 31   [(SAT2) cap is m-1 = 1]  -> VIOLATED
+
+  q=193  |D|=32 |U|=16 |H|=8 |W|=13 |Gamma|=9  saturated: True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [(LAW3) says 4]
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [fence] |Gamma|=8  support sizes(top5)=[4, 4, 3, 3, 3]  max pair-int=4 (cap m-1=1)
+    [fence] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+  O = sum_gamma (rho - u_gamma) = 31   [(SAT2) cap is m-1 = 1]  -> VIOLATED
+
+[B] THE m=1 BANKED WITNESS (BRS1) - the sign-change regression
+  banked (BRS1) over F_17: slopes with 3 distinct domain roots: [0, 1, 2, 4, 15]
+     gamma= 0  S_gamma=[1, 2, 5]
+     gamma= 1  S_gamma=[3, 7, 11]
+     gamma= 2  S_gamma=[9, 12, 13]
+     gamma= 4  S_gamma=[4, 6, 16]
+     gamma=15  S_gamma=[8, 10, 15]
+  covered 15/16 domain points, missing [14]
+  the 10 canonical W = S_g u S_h (H1 holds, |S_g ^ S_h| = m-1 = 0):
+     layer-A nullity values over all 10: [2]  (predicted 2 = -(3m^2-5m))
+     (LA-PADE) agrees on all 10: True
+    [m=1 banked] |Gamma|=2  support sizes(top5)=[3, 3]  max pair-int=0 (cap m-1=0)
+    [m=1 banked] H1 (W = two rho-supports, meet m-1): YES   H2 ((OV) cap met): YES
+
+[C] GENERALIZED FENCE  Q_0 = Z^m - X^{2m}  (registered R2.3)
+  m=2 q=97  N=32 rho=7 T=9  |fibres|=4(size 4) |W|=13(need 13) |Gamma|=9(need T=9) saturated:True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [predicted 2m = 4]  HIT
+  excess (7m-1)m - 4m(m+1) = 2
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [genfence m=2] |Gamma|=8  support sizes(top5)=[4, 4, 4, 4, 3]  max pair-int=4 (cap m-1=1)
+    [genfence m=2] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=2 q=193  N=32 rho=7 T=9  |fibres|=4(size 4) |W|=13(need 13) |Gamma|=9(need T=9) saturated:True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [predicted 2m = 4]  HIT
+  excess (7m-1)m - 4m(m+1) = 2
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [genfence m=2] |Gamma|=8  support sizes(top5)=[4, 4, 3, 3, 3]  max pair-int=4 (cap m-1=1)
+    [genfence m=2] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=2 q=257  N=32 rho=7 T=9  |fibres|=4(size 4) |W|=13(need 13) |Gamma|=9(need T=9) saturated:True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [predicted 2m = 4]  HIT
+  excess (7m-1)m - 4m(m+1) = 2
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [genfence m=2] |Gamma|=8  support sizes(top5)=[4, 4, 4, 4, 3]  max pair-int=4 (cap m-1=1)
+    [genfence m=2] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=2 q=449  N=32 rho=7 T=9  |fibres|=4(size 4) |W|=13(need 13) |Gamma|=9(need T=9) saturated:True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [predicted 2m = 4]  HIT
+  excess (7m-1)m - 4m(m+1) = 2
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [genfence m=2] |Gamma|=8  support sizes(top5)=[4, 4, 3, 3, 3]  max pair-int=4 (cap m-1=1)
+    [genfence m=2] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=2 q=577  N=32 rho=7 T=9  |fibres|=4(size 4) |W|=13(need 13) |Gamma|=9(need T=9) saturated:True
+  E_I: 26 rows x 24 cols -> rank 20 NULLITY 4   [predicted 2m = 4]  HIT
+  excess (7m-1)m - 4m(m+1) = 2
+  (LA-PADE) predicted nullity = 4   AGREE: True
+    [genfence m=2] |Gamma|=8  support sizes(top5)=[4, 4, 4, 4, 3]  max pair-int=4 (cap m-1=1)
+    [genfence m=2] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=3 q=97  N=48 rho=11 T=13  |fibres|=4(size 6) |W|=20(need 20) |Gamma|=13(need T=13) saturated:True
+  E_I: 60 rows x 48 cols -> rank 42 NULLITY 6   [predicted 2m = 6]  HIT
+  excess (7m-1)m - 4m(m+1) = 12
+  (LA-PADE) predicted nullity = 6   AGREE: True
+    [genfence m=3] |Gamma|=12  support sizes(top5)=[5, 5, 5, 5, 5]  max pair-int=5 (cap m-1=2)
+    [genfence m=3] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=3 q=193  N=48 rho=11 T=13  |fibres|=4(size 6) |W|=20(need 20) |Gamma|=13(need T=13) saturated:True
+  E_I: 60 rows x 48 cols -> rank 42 NULLITY 6   [predicted 2m = 6]  HIT
+  excess (7m-1)m - 4m(m+1) = 12
+  (LA-PADE) predicted nullity = 6   AGREE: True
+    [genfence m=3] |Gamma|=12  support sizes(top5)=[5, 5, 5, 5, 5]  max pair-int=5 (cap m-1=2)
+    [genfence m=3] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=3 q=577  N=48 rho=11 T=13  |fibres|=4(size 6) |W|=20(need 20) |Gamma|=13(need T=13) saturated:True
+  E_I: 60 rows x 48 cols -> rank 42 NULLITY 6   [predicted 2m = 6]  HIT
+  excess (7m-1)m - 4m(m+1) = 12
+  (LA-PADE) predicted nullity = 6   AGREE: True
+    [genfence m=3] |Gamma|=12  support sizes(top5)=[5, 5, 5, 5, 5]  max pair-int=5 (cap m-1=2)
+    [genfence m=3] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=4 q=193  N=64 rho=15 T=17  |fibres|=4(size 8) |W|=27(need 27) |Gamma|=17(need T=17) saturated:True
+  E_I: 108 rows x 80 cols -> rank 72 NULLITY 8   [predicted 2m = 8]  HIT
+  excess (7m-1)m - 4m(m+1) = 28
+  (LA-PADE) predicted nullity = 8   AGREE: True
+    [genfence m=4] |Gamma|=16  support sizes(top5)=[8, 8, 8, 8, 7]  max pair-int=8 (cap m-1=3)
+    [genfence m=4] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+  m=6 q=97  N=96 rho=23 T=25  |fibres|=4(size 12) |W|=41(need 41) |Gamma|=25(need T=25) saturated:True
+  E_I: 246 rows x 168 cols -> rank 156 NULLITY 12   [predicted 2m = 12]  HIT
+  excess (7m-1)m - 4m(m+1) = 78
+    [genfence m=6] |Gamma|=24  support sizes(top5)=[12, 12, 12, 12, 12]  max pair-int=12 (cap m-1=5)
+    [genfence m=6] H1 (W = two rho-supports, meet m-1): NO   H2 ((OV) cap met): NO
+
+[D] CONTROL: random saturated configurations
+  m=2 q=97  40 random saturated configs: nullity histogram {0: 40}
+  m=2 q=193  40 random saturated configs: nullity histogram {0: 40}
+
