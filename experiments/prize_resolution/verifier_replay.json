@@ -2,41 +2,33 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 3,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/verify.py",
-      "seconds": 0.054182,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify.py",
+      "seconds": 0.091518,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_STRICT_BOUNDARY_DUAL_MDS_BIFORM_PASS (549755813888, 274877906944, 183251937962, 274877906942, 549755813888, 91625968989)\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_GATE_PASS (549755813888, 274877906944, 824633720829, 100743818300669342078294, 549755813888, 50371909150884426853035)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/verify_audit.py",
-      "seconds": 0.020375,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_audit.py",
+      "seconds": 0.041344,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_STRICT_BOUNDARY_DUAL_MDS_BIFORM_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_GATE_AUDIT_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify.py",
-      "seconds": 0.046548,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_probe.py",
+      "seconds": 1.723895,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_STRICT_BOUNDARY_MINWORD_PASS (549755813888, 274877906944, 824633720831, 549755813890, 274877906946, 91625968989)\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify_audit.py",
-      "seconds": 0.016408,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_STRICT_BOUNDARY_MINWORD_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_COEFFICIENT_MDS_PROBE 337 {28: 250}\nRATE_HALF_COEFFICIENT_MDS_PROBE 421 {28: 250}\nRATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_PROBE_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
