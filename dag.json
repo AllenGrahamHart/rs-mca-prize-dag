@@ -37549,6 +37549,25 @@
    ]
   },
   {
+   "id": "rate_half_layer_a_saturation_count_route_fence",
+   "title": "Layer-A saturation-count route fence",
+   "status": "PROVED",
+   "closure": "exact algebraic counterexample family",
+   "statement": "At m=2, rho=7, T=9, and a=13=7m-1, there is an exact Layer-A incidence system in which every point is saturated by two slopes and the 26 incidence rows exceed the 24 biform coefficients, but the evaluation matrix has kernel {A(X)(Z^2-X^4): deg A<=3}, rank 20, and nullity four. Thus positive row surplus plus pointwise saturation does not imply full Layer-A rank. This fences only the bare count route, not a theorem using canonical pair-union supports, global block completion, split-biform geometry, or Hankel/source constraints.",
+   "refs": [
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/statement.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/proof.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/claim_contract.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/audit.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/result.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/provenance.md",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/certificate.json",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/verify.py",
+    "background/nodes/rate_half_layer_a_saturation_count_route_fence/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_coordinate_clone_subcritical_payment",
    "title": "MCA coordinate-clone subcritical-class payment",
    "status": "PROVED",
@@ -71817,6 +71836,11 @@
    "from": "rate_half_kb_v4_tangent_source_atom",
    "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_layer_a_saturation_count_route_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_coordinate_clone_subcritical_payment",
