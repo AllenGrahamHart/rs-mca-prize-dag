@@ -1693,3 +1693,31 @@ This retires the historical maximal-degree core-one corrected-square route
 as a live frontier: its necessary reductions remain valid, but their
 sharp-cap parent is now impossible. All remaining `A=1` profiles have
 positive slope slack and lie in the upper `s=0,1` degree ranges.
+
+## Cycle 79: core-one quartic-carrier exclusion (2026-08-11, Codex)
+
+The four-contact argument admits one more domain degree on the core-one
+branch. A biform of bidegree `(4,floor(p/5))` clears the pole scheme, and
+four contact copies would produce a section of
+
+```text
+O_C(-1,floor(p/5)+ell+3).
+```
+
+The only obstruction to the usual noncontainment proof is a contact-active
+component of bidegree `(4,1)`. That obstruction is itself impossible: all
+other components are contact-inactive and divide the Forney numerator, so
+cancelling their product from the full recurrence leaves a degree-four
+kernel vector for the generic rank-`d` contracted Hankel pencil. Its unique
+primitive kernel has degree `d=rho-1>4`.
+
+The proved node
+`rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion` excludes every
+official core-one degree
+
+```text
+m+1<=e<=floor(16m/13)-1.
+```
+
+Thus the first live core-one degree moves from `164926744166` to
+`169155635042`. The core-free threshold remains `149933403787`.
