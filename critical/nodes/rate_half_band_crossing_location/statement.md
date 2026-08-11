@@ -2045,3 +2045,23 @@ s=0,j=0: a in {3,4,5}.
 
 The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion`.
+
+## Cycle 90: first tangent packet has only the canonical Picard section (2026-08-11, Codex)
+
+In the vertical fibre at `x_*`, the two doubled parameter roots give local
+algebras `Fbar[s_alpha]/(s_alpha^2)` and
+`Fbar[s_beta]/(s_beta^2)`. The two positive elementary-modification
+directions are the nilpotent classes `s_alpha,s_beta`. They vanish on all
+other `e-4` fibre factors, while the constant direction does not.
+
+Thus their span misses the constant line and projects with rank two to the
+negative block of `pi_*O_C`. The PENCIL splitting is impossible; necessarily
+
+```text
+pi_*O_C(P_alpha+P_beta)
+ =O direct_sum O(1-d)^2 direct_sum O(-d)^(e-3),
+h^0(C,O_C(P_alpha+P_beta))=1.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion`.

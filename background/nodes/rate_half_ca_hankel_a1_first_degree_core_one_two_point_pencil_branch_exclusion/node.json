@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion",
+    "title": "A=1 core-one two-point pencil-branch exclusion",
+    "status": "PROVED",
+    "closure": "local fibre-algebra modification directions",
+    "statement": "In the first core-one two-point packet, the positive-modification directions are the nilpotent classes in the two double local factors of the vertical fibre. They vanish on the other e-4 factors, so their span misses the constant line and projects with rank two to the negative pushforward block. Therefore the PENCIL splitting is impossible and O_C(P_alpha+P_beta) has only its canonical section.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
