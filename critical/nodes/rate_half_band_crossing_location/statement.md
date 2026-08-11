@@ -2621,3 +2621,28 @@ In characteristic three, `Q(z;x_i)/G_i(z)^2` has zero derivative. Shared
 roots among `G_1,G_2,S_1,S_2` remain allowed, so these are exact necessary
 gates rather than exclusions. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization`.
+
+## Cycle 110: all unallocated quadratic regular degree is quartic (2026-08-11, Codex)
+
+The residual regular Kronecker determinant `D_1` has degree `e-2`. At
+`u=4`, the named heavy incidences account for exact rank-loss degree `e-6`.
+Local Smith divisibility therefore leaves one binary quartic `E_4`:
+
+```text
+double root: D_1=a g_*E_4;
+two simple:  D_1=a G_1G_2E_4,
+```
+
+where a common root of `G_1,G_2` is counted twice. Combining this with the
+row factorizations gives
+
+```text
+double:   det marked=tau ac^2E_4g_*^3S_B^6;
+simple 1: det marked=tau ac_1^2E_4G_1^5G_2S_1^6;
+simple 2: det marked=tau ac_2^2E_4G_1G_2^5S_2^6.
+```
+
+Thus every unallocated regular rank-drop slope lies in a degree-four
+divisor. The quartic may be nonreduced or share roots with all named factors;
+it is not identified with `S_B^2` or `S_1S_2`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin`.

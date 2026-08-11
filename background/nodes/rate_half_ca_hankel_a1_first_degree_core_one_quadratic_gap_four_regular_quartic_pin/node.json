@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin",
+    "title": "A=1 core-one quadratic gap-four regular quartic pin",
+    "status": "PROVED",
+    "closure": "all unallocated regular-block degree is one quartic",
+    "statement": "At quadratic gap four, the supported rank losses consume e-6 degrees of the degree-(e-2) regular determinant. In the double-root arm D_1=a g_* E_4; in the two-simple arm D_1=a G_1 G_2 E_4, with overlap counted twice. Thus all unallocated regular rank-drop behavior lies in a binary quartic, and the marked determinants sharpen to the displayed supported cubic/fifth powers times residual sixth powers.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
