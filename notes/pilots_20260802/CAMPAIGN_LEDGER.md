@@ -5212,3 +5212,34 @@ count or bivariate system), the located crossing itself. THREE
 banked-claim corrections this round (round-29's "1 or 3"; my
 "2^216" brief line; round-31's "combinatorial ceiling") — the
 audit cadence unbroken across five rounds.**
+
+## WAVE 58 — Codex A1 exceptional-core campaign (2026-08-11, coordinator audit)
+
+**AUDITED SOUND AND MERGED (exact 04179c43a): 78 commits, work
+cycles 49-124 — a single-lane census-neutral wave (231 = 167/37/27
+unchanged) with two arcs.** ARC 1 (cycle 49): the (FR) fence chased
+into its first algebraic obstruction — the quartic countermodel
+does NOT lift to the smooth cyclic domain under any coset-preserving
+placement (replayed: 5 scales, gcd 1); the live positive object
+confirmed as the Psi_gamma family (converging with our round-32
+bank-4 verdict from the opposite side). ARC 2 (cycles ~50-124): the
+A1 exceptional-core program — the strict A=3 branch closure chain
+(Picard-Forney endpoint closes, cycles 64-74), then the A=1
+core-free/core-one campaign (bounded divisors, root routers,
+double-root resultant/cube gates, gap-one/gap-four closures)
+through the rho+3 quadratic pair-profile closure (cycle 124,
+"2e <= 9 impossible on the official row"). All "narrowed, still
+TARGET" — no flips claimed, none taken. 69 per-cycle addenda
+appended to crossing_location (accepted; the wave-55/57 precedent;
+all dated and Codex-tagged). Sampled replays green (3/3 incl. the
+330,998-case three-contact exclusion). MERGE: conflicts resolved —
+banked pilot scripts kept as ORIGINALS (Codex's cosmetic claim-
+string syncs declined: banked artifacts stay byte-stable);
+supplier nodes taken THEIRS (our F4/FR corrections verified
+surviving); ledger OURS (whitespace). **CODEX CUSTODY CATCH,
+VALID: the rh_haboeck_seam REPORT.md was ABSENT from 31aa1e684 —
+the bank-1 recovery invocation had failed silently and the
+coordinator missed it; recovered verbatim and committed in the
+repair preceding this merge. PROCESS RULE: verify the recovery
+script's WROTE line explicitly on every persist.** Codex tracks
+upstream at fde7d56d0 (main has moved past 93fba1be).
