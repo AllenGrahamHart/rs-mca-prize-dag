@@ -2594,3 +2594,30 @@ incidence/coding constraint for both `u=4` quadratic root patterns. It does
 not constrain the overlap of the two heavy incidence sets or exclude the
 packet. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread`.
+
+## Cycle 109: the two-simple heavy rows are square-times-cube forms (2026-08-11, Codex)
+
+The exact vertical divisors of the two heavy rows push to base-field
+parameter factorizations
+
+```text
+Q(U,V;x_1)=c_1G_1^2S_1^3,
+deg G_1=(e-3)/2,       deg S_1=1;
+
+Q(U,V;x_2)=c_2G_2^2S_2^3,
+deg G_2=(e-9)/2,       deg S_2=3.
+```
+
+Here `G_i` is the squarefree supported incidence factor and `S_i` is the
+pushforward of the correction divisor. The core-one marked-Hankel identity
+therefore becomes
+
+```text
+det(M_1+tau nu(x_i)nu(x_i)^T)
+ =tau c_i^2D_1G_i^4S_i^6.
+```
+
+In characteristic three, `Q(z;x_i)/G_i(z)^2` has zero derivative. Shared
+roots among `G_1,G_2,S_1,S_2` remain allowed, so these are exact necessary
+gates rather than exclusions. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization`.
