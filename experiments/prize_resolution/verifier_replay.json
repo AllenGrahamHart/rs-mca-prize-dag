@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/verify.py",
-      "seconds": 0.013894,
+      "script": "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify.py",
+      "seconds": 0.050419,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_ONE_FIRST_CUBIC_CORNER_PASS e=169155635042 slack=126866726279 pole_min=211444543800 clean=338311270087\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_DIRECT_THREE_CONTACT_EXCLUSION_PASS checked=330998 official_first=183251937963\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/verify_audit.py",
-      "seconds": 0.012774,
+      "script": "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify_audit.py",
+      "seconds": 0.013068,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_ONE_FIRST_CUBIC_CORNER_AUDIT_PASS e=169155635042 chains=10\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_DIRECT_THREE_CONTACT_EXCLUSION_AUDIT_PASS first=183251937963 profiles=6\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

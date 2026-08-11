@@ -1763,3 +1763,48 @@ fibres are clean and completely split. The proved nodes are
 `rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner`.
 The next finite-defect target is the cubic residual factor coupled to those
 clean fibres; the corner itself is not yet excluded.
+
+## Cycle 81: Forney pole absorption and direct three-contact close (2026-08-11, Codex)
+
+The Forney numerator clears the pole scheme without interpolation. On each
+supported residual fibre, write
+
+```text
+Qbar=Q_min R,       G=Q_min G_1.
+```
+
+The recurrence numerator factors as `N_F=R N_min`, so
+`Qbar` divides `N_FG`. In the full fibre algebra this is exactly
+
+```text
+N_F in (H:G).
+```
+
+Thus one contact copy makes `s_FG/H` regular. Three copies give a nonzero
+section of
+
+```text
+O_C(d-3,ell-e+3-beta).
+```
+
+Restriction-sequence vanishing forces `ell>=e-3+beta`. Combining this with
+the maximal-slack ledger excludes both `s=0` and `s=1` whenever
+`3e<rho-1`.
+
+The two live core ranges now share the first degree
+
+```text
+e_0=ceil((rho-1)/3)=183251937963.
+```
+
+At `e_0` there are exactly six profiles:
+
+```text
+s=0: ell=e_0-3,e_0-2,e_0-1;
+s=1: ell=e_0-2,e_0-1,e_0;
+T=rho+4,rho+3,rho+2.
+```
+
+The proved nodes are `rate_half_ca_hankel_a1_forney_pole_ideal_absorption`
+and `rate_half_ca_hankel_a1_direct_three_contact_exclusion`. They retire the
+earlier cubic-residual corner at `e=floor(16m/13)` as a live target.

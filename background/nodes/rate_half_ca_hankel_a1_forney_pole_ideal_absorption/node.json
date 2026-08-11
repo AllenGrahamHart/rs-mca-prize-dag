@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+    "title": "A=1 Forney numerator absorbs the pole ideal",
+    "status": "PROVED",
+    "closure": "fibrewise recurrence-factor ideal membership",
+    "statement": "For every residual half-distance A=1 curve and every fixed core s in {0,1,2}, the full Forney numerator belongs scheme-theoretically to the pole-cancellation ideal (H:G). On a supported fibre the contracted split recurrence factor divides both Qbar and the residual domain locator, while the complementary recurrence factor divides the Forney numerator. Hence one contact copy cancels every finite pole of G/H without an auxiliary interpolation form.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

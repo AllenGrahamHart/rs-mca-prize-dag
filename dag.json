@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 sharp-cap profile are excluded. The remaining positive-slack A=1 ranges begin at core-free degree 149933403787 and core-one degree 169155635042; core-one survivors obey both ell>=e-2-floor(Delta/3) and ell>=e-3-floor(Delta/5). At the first core-one degree, the only possible failure has T=rho+2, at least 2e+3 clean fibres, and a general adjugate factorization Dqq^T in which the pole divisor leaves a residual factor of degree at most three. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
-   "attack_surface": "Prioritize the first core-one cubic-residual corner: classify the degree-at-most-three quotient of the regular determinant by the pole divisor jointly with its 2e+3 clean split fibres and adj(M)=Dqq^T. Then extend or iterate the mechanism for core-one e>floor(16m/13) and core-free e>=floor(12m/11), retaining the exact pole/contact inequalities and carrier descent; core two, every sharp-cap profile, and the lower prefixes are closed. Do not continue the historical reciprocal corrected-square sharp-cap classifier. Seek a stronger pole-clearing/contact construction only with a proved cohomology or carrier-descent gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 degree below 183251937963 are excluded. The remaining positive-slack A=1 core-free and core-one ranges share that first degree. At the first degree there are exactly six core/slack profiles, with T in {rho+2,rho+3,rho+4}. The key mechanism is scheme-theoretic Forney pole absorption: the Forney numerator belongs to (H:G), so direct three-contact vanishing forces ell>=e-3+beta without an auxiliary pole clearer. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
+   "attack_surface": "Prioritize the six first-degree A=1 corners at e=ceil((rho-1)/3), separately for s=0,1 and T=rho+2,rho+3,rho+4. Exploit exact Forney pole absorption and the boundary cases ell=e-3+beta through e-1+beta; do not continue the now-excluded cubic-residual corner at e=floor(16m/13). Then extend the mechanism to higher e. Core two, every sharp-cap profile, and all lower degrees are closed. Seek a stronger contact product only with a proved restriction-sequence or divisor gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the historical reciprocal corrected-square classifier, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29019,6 +29019,8 @@
     "background/nodes/rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -30626,7 +30628,7 @@
    "title": "A=1 core-one first surviving cubic-residual corner",
    "status": "PROVED",
    "closure": "exact endpoint arithmetic and adjugate-pole divisor ledger",
-   "statement": "At the first unexcluded official core-one degree e=floor(16m/13)=169155635042, every possible failure has the unique slack ell=126866726279 and minimal slope count T=rho+2. Its pole length satisfies Delta-3<=p<=O<=sum c_gamma<=Delta, so adj(M)=D q q^T factors as D=P_p E_3 with deg(E_3)<=3. At least T-Delta=2e+3 supported fibres are clean, squarefree, and completely split.",
+   "statement": "Relative to the carrier-descent bound, at e=floor(16m/13)=169155635042 every possible core-one failure has the unique slack ell=126866726279 and minimal slope count T=rho+2. Its pole length satisfies Delta-3<=p<=O<=sum c_gamma<=Delta, so adj(M)=D q q^T factors as D=P_p E_3 with deg(E_3)<=3. At least T-Delta=2e+3 supported fibres are clean, squarefree, and completely split. The later direct three-contact theorem excludes this parent degree, so the reduction is no longer a live endpoint.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner/proof.md",
@@ -30694,6 +30696,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_direct_three_contact_exclusion",
+   "title": "A=1 direct three-contact exclusion",
+   "status": "PROVED",
+   "closure": "pole-absorbing contact product and restriction vanishing",
+   "statement": "Because one Forney contact copy absorbs the complete pole scheme of G/H, three copies produce a nonzero regular section of O_C(d-3,ell-e+3-beta). Restriction-sequence vanishing forces ell>=e-3+beta. On the official row this excludes every core-free and core-one degree below ceil((rho-1)/3)=183251937963. At that first degree each core has exactly three remaining slacks, all mapping to T in {rho+2,rho+3,rho+4}.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
    "title": "A=1 fixed-core pole-slack exclusion",
    "status": "PROVED",
@@ -30709,6 +30729,24 @@
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+   "title": "A=1 Forney numerator absorbs the pole ideal",
+   "status": "PROVED",
+   "closure": "fibrewise recurrence-factor ideal membership",
+   "statement": "For every residual half-distance A=1 curve and every fixed core s in {0,1,2}, the full Forney numerator belongs scheme-theoretically to the pole-cancellation ideal (H:G). On a supported fibre the contracted split recurrence factor divides both Qbar and the residual domain locator, while the complementary recurrence factor divides the Forney numerator. Hence one contact copy cancels every finite pole of G/H without an auxiliary interpolation form.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_forney_pole_ideal_absorption/verify_audit.py"
    ]
   },
   {
@@ -63887,8 +63925,18 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+   "to": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
    "to": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_direct_three_contact_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
@@ -63908,6 +63956,16 @@
   {
    "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
    "to": "rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+   "to": "rate_half_ca_hankel_a1_direct_three_contact_exclusion",
    "kind": "req"
   },
   {
@@ -64181,6 +64239,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_exceptional_root_charge",
+   "to": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_core_free_forney_contact_section",
    "kind": "req"
@@ -64203,6 +64266,11 @@
   {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+   "to": "rate_half_ca_hankel_a1_direct_three_contact_exclusion",
    "kind": "req"
   },
   {

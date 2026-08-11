@@ -11,3 +11,5 @@
   be reducible, repeated, or supported at infinity.
 - The `2e+3` clean fibres are a lower bound. Additional clean fibres are
   allowed when the total rank loss is below `Delta`.
+- The subsequent direct three-contact exclusion closes this parent degree.
+  No consumer should continue classifying `E_3` as a live endpoint.
