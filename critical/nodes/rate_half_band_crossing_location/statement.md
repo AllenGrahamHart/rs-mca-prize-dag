@@ -3042,7 +3042,9 @@ and it is the same object as (NS-m): banks 1+2 converge. Lesson:
 random-embedding censuses have q^{-Theta(m^2)} power —
 construction or nothing. The m >= 3 (BIV-CURVE) feasibility is the
 open fork (heuristic says infeasible for m >= ~16; the m = 2
-witness says the heuristic fails at small m).
+witness says the heuristic fails at small m). [RESOLVED at m = 3
+(round 34): REALIZABLE, explicit two-field witness — see the
+round-34 (BIV-CURVE) addendum below; m = 4 remains open.]
 
 **BANK 4 (rh_moving_kernel) — R-MOVING WITHDRAWN (see the FALSE
 marker above).** What replaces it: the STACKED RANK h_r
@@ -3145,3 +3147,92 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   RNC node's own named gate (the multiplicative-domain structure of
   D = mu_N — untouched by the cardinality-only count; survivors are
   few: 1 profile at m = 2,3,4); (2) decide Rout. No status flips.
+
+## Round-34 (BIV-CURVE) addendum (2026-08-11, coordinator-audited): REALIZABLE at m = 3; the W-layer fence extends; the boundaries diverge
+
+Pilot r34_bivcurve_m34 (round 34, bank 3; replay byte-identical,
+two fields). Everything below is (SAT3)-conditional (T = rho+2) and
+W-layer only.
+
+- **(BIV-CURVE) IS REALIZABLE AT m = 3** — the round-33 open fork
+  resolves POSITIVELY by explicit witness (F_97 and F_193;
+  T = rho+2 = 13, a = w* = a* = 7m-1 = 20, every banked incidence
+  axiom measured exactly, (BIV-CURVE) checked directly on the
+  explicit G, bivariate system rank 39 / nullity 1 with an
+  admissible kernel and the predicted mu). **The W-layer fence now
+  covers m in {2,3}: no proof from the banked incidence axioms plus
+  the W-restricted bivariate system can exclude w* = a* = 7m-1 at
+  m = 3. The type-2 exclusion at m = 3 must come from layer A
+  alone** — consistent with this round's orthogonality result
+  (layer A ⊥ (BIV-CURVE), 80/80 above) and with round 33's "LAYER A
+  IS THE INSTRUMENT".
+- **THE MECHANISM ((SPLIT-m) + involution), new in this lane:**
+  G(Z,x) = prod_{j=1}^{m-1}(u_j(x)Z - v_j(x)), deg u_j,v_j <= 3 —
+  deg_Z = m-1 exact and deg_x <= 3(m-1) = 3m-3 meets the (BIV-G)
+  budget with equality at EVERY m; the m = 2 exhibit is its
+  one-factor case. The witness is its sigma-symmetric
+  specialisation (sigma(x) = -x on mu_48, psi = phi o sigma): each
+  sigma-orbit carries one shared slope pair, so 20 points cost 11
+  slopes. Ramification is FREE in this class (every fibre splits by
+  construction) — the heuristic's cost model does not see it. The
+  first-moment heuristic (log2 E = +176.5 at m = 3, round 33) is
+  CONFIRMED at m = 3; its failure mode is the inference step, not
+  the small-m count.
+- **m = 4 IS OPEN — searched-negative over ONE named ansatz class**
+  ((SPLIT-4) with sigma(x) = -x and the forced 3+3+2 degree split;
+  1600 draws, two fields, truncated DFS): NOT a theorem. The named
+  obstruction is NOT the ramification budget — it is the (OV) pair
+  cap 2rho-a = m-1 = 3 forcing the 12 shared slope-TRIPLES to form
+  a linear (partial-Steiner) 3-uniform hypergraph (measured ceiling
+  7 of 12), plus even m forcing a sigma-invariant factor that is
+  Möbius in u = x^2, hence injective on orbits (one fresh slope per
+  orbit; the cross-coincidence supply falls short by ~an order).
+  CAUTION for m-uniform readings: at m >= 5 the cap m-1 >= 4
+  re-admits tuple multiplicity 4, so the linearity constraint is
+  SPECIFIC to m = 4; the odd/even parity prediction rests on two
+  data points (falsifier: m = 5). PRIOR ART (coordinator catch):
+  the repo already holds a PROVED linear-3-uniform-hypergraph
+  compiler in the u1_x4 lane
+  (background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
+  — pair-uniqueness forcing linearity); transport candidate for any
+  m = 4 decision attempt.
+- **THE BOUNDARIES DIVERGE (registered prior 0.12, resolved NO):**
+  TCAP-DIM (full Hankel realizability; posed boundary m <= 2,
+  excess +35 at m = 3) and (BIV-CURVE) (W-layer incidence;
+  realizable at m = 3) part company at m = 3. Every joule spent on
+  the W-layer at m >= 3 is spent on the weaker layer; the
+  exclusion instruments of record are layer A and realizability.
+- **(OUT-m), POSED — the first LOWER bound on type-2 W-incidence
+  in this lane, WITH COORDINATOR CORRECTIONS:** at a minimising
+  pair union with (SAT1)-(SAT4), T = rho+2, a = 7m-1, writing
+  X'_g = |S_gamma ^ (S_g D S_h)|, X''_g = |S_gamma ^ (S_g ^ S_h)|:
+  **X'_gamma + 2 X''_gamma >= m-1 - eps_gamma**, where eps_gamma =
+  total saturation deficiency on S_gamma, eps_gamma <= 1+O per
+  slope. (Proof: place the (rho-X_gamma)(m-1) - eps outside
+  block-pair incidences of S_gamma into the rho-1 other type-2
+  blocks at pair capacity (m-1) - I_in each; audited.) CORRECTIONS
+  to the pilot's statement: (i) the aggregate rider
+  "sum_gamma eps_gamma <= 1+O" is FALSE — a deficient point outside
+  W charges every type-2 block through it, so the correct aggregate
+  is (m-1)(1+O); the pilot's own witness (deficient point = the
+  outside pair) has sum eps = 2 > 1+O = 1. (ii) The corollary
+  "X_gamma = 0 impossible" requires 1+O < m-1, i.e. O <= m-3 (at
+  m = 3: O = 0 — satisfied by the witness and by the profile-target
+  derivation, but NOT free in general). Checks: tight on the two
+  degree-1 H-slopes of the m = 3 witness (X' = 2 = m-1); consistent
+  with the m = 2 exhibit's min X = 1 (its deficient point is INSIDE
+  W, so eps = 0 off that slope). It killed X = 0 slope-padding and
+  two of the pilot's own designs; it is a constraint on the
+  configuration space, not progress on residual (ii)'s direction.
+- **DEAD SUB-ANSATZE (recorded so they are not retried):** the
+  rank-2 pencil-of-quadratics G = N(Z)f(x) + M(Z)g(x) is DEAD at
+  m >= 3 (fibres of size <= m-1 force >= 2(m+... distinct pairs
+  > rho slopes at m = 3: 18 > 11); the explicit phi = x^4, psi =
+  x^2 design dies on the per-side cap (a full mu_4-coset with a
+  middle point forces |S_gamma ^ S_g| >= 3 > m-1).
+- **SCOPE FENCES:** layer A was NOT run on the m = 3 witness (the
+  banked expectation from the orthogonality result is that it dies
+  there; unmeasured); the unsaturated exception was never exercised
+  (O = 0, deficient point outside W); no random-embedding census
+  was run; two fields is not q-uniformity; nothing here bears on
+  (SAT3) itself.

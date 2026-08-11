@@ -5443,3 +5443,37 @@ self-caught (the span reading is the PROVED
 rational_normal_kernel_curve node). 7/7 ramguard, zero breaches —
 second clean pilot under the upgraded law. Addendum applied.
 Files: notes/pilots_20260811/r34_layer_a/.**
+
+## ROUND 34 BANK 3/4 — r34_bivcurve_m34 (2026-08-11, coordinator)
+
+**BANKED — (BIV-CURVE) REALIZABLE AT m = 3: the round-33 open fork
+resolves POSITIVELY (explicit witness, F_97 + F_193, replay
+BYTE-IDENTICAL; T = rho+2 = 13, a = w* = a* = 20, every banked
+axiom, (BIV-CURVE) direct, bivariate nullity 1 admissible on bank
+2's own verifier). THE W-LAYER FENCE COVERS m in {2,3}; the type-2
+exclusion at m = 3 must come from LAYER A ALONE (converges with
+bank 2's orthogonality). Mechanism new in lane: (SPLIT-m) +
+involution (budget 3(m-1) = 3m-3 exact at every m; ramification
+FREE; the m=2 exhibit is the one-factor case). m = 4 OPEN:
+searched-negative over the (SPLIT-4)+sigma class only (ceiling
+7/12 triples; the obstruction is the (OV) cap forcing a linear
+3-uniform hypergraph + even-m sigma-invariant factor injective on
+orbits — NOT ramification; linearity is SPECIFIC to m=4).
+BOUNDARIES DIVERGE: (BIV-CURVE) yes at m=3 vs TCAP-DIM posed
+excess +35 — the W-layer is the weaker layer at m >= 3; spend
+layer A / realizability. (OUT-m) POSED WITH COORDINATOR
+CORRECTIONS: display X' + 2X'' >= m-1 - eps verified by hand;
+aggregate rider sum eps <= 1+O FALSE (correct (m-1)(1+O); the
+pilot's own witness refutes it: outside deficient pair, sum eps =
+2 > 1); corollary X = 0-impossible gated on O <= m-3. SUBTRACTION
+CATCH (fifth-surface lesson): the pilot's "zero files" grep missed
+the F3 h=3 PROVED linear-hypergraph compiler (u1_x4 lane) —
+hyphenation/infix blind spot; transport candidate recorded.
+COMPLIANCE: compute law CLEAN 6/6 (third consecutive clean pilot
+under the upgraded clause; one wall kill disclosed); ONE sed -i
+write-path deviation CENSURED (round-35 CONSTRAINTS to name it).
+Registration errors (R2.2 capacity 98->90, R2.4 powerless
+aggregate) self-reported not edited; MISS-2 guard fired both
+directions. Node addendum + RESOLVED marker applied; mint queue +3
+((OUT-m) corrected, m=3 witness fence, (SPLIT-m) template).
+Files: notes/pilots_20260811/r34_bivcurve_m34/.**
