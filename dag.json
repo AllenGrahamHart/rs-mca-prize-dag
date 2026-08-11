@@ -29031,6 +29031,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/statement.md",
@@ -30815,6 +30816,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
+   "title": "A=1 core-free cubic residual-root multiplicity router",
+   "status": "PROVED",
+   "closure": "exact incidence/new-root capacity split",
+   "statement": "For the core-free first-degree scalar residual a=3, simple heavy residual roots satisfy (3-r)e<=3u+2I_0<=5u, and a triple-root residual requires 2u>=e. Consequently throughout 5u<e the cubic is either squarefree with all three roots heavy, or has one double and one simple root with both heavy. Triple roots and residual roots outside the heavy set are absent in that range.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router/verify_audit.py"
    ]
   },
   {
@@ -64275,9 +64294,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets",
@@ -64313,6 +64342,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion",

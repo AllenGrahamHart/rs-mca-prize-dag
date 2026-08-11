@@ -2157,3 +2157,31 @@ row costs. This packages the mechanism that killed core-free degree two and
 now applies uniformly to the remaining scalar degrees `3,4,5`. It is a
 necessary constraint, not an exclusion. The proved node is
 `rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction`.
+
+## Cycle 95: the first fifth of the cubic gap has two root patterns (2026-08-11, Codex)
+
+For the core-free scalar residual `a=3`, exact omission accounting and the
+simple-root vertical bound give
+
+```text
+u+v=e+1,
+(3-r)e<=3u+2I_0<=5u
+```
+
+whenever all `r` heavy residual roots are simple. A triple-root residual
+requires `2u>=e`. Therefore throughout
+
+```text
+5u<e
+```
+
+the cubic is forced into exactly one of two patterns:
+
+```text
+SQUAREFREE: three distinct heavy roots;
+DOUBLE:     one double and one simple root, both heavy.
+```
+
+This excludes triple roots and roots outside the heavy set for
+`0<=u<=36650387592`. Both retained patterns remain live. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router`.
