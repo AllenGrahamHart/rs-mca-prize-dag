@@ -3324,3 +3324,59 @@ and add no excess. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack`.
 The extremal route now needs either `r_bad` control or `5+r_bad` forced
 additional intersection units.
+
+## Cycle 149 addendum: every positive-excess fiber also contains all padding
+
+For an arbitrary off-line slope, factor the center-difference codeword by
+its `k-1-a_delta` forced zeros. The residual is a nonzero polynomial
+`H_delta` of degree at most `a_delta`, and the split-biform fiber satisfies
+
+```text
+Qbar(delta,X)=chi A_delta B_delta R_delta,
+G(delta,X)=zeta A_delta H_delta R_delta.
+```
+
+Thus every padded-heavy factor is present on the split-biform fiber,
+including positive-excess slopes, and
+
+```text
+n-deg_X G(delta,X)=a_delta-deg H_delta.
+```
+
+The actual-error first-jet calculation also extends to every off-line
+slope, so every actual-support common root is transverse. The proved node
+is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization`.
+In particular `r_bad` is now mandatory in the extremal resultant rather
+than part of its unexplained allowance.
+
+## Cycle 150 addendum: the extremal resultant residual is degree at most four
+
+Insert every positive-excess padded factor from Cycle 149 into the nonzero
+resultant of Cycle 148. In both `d_A` profiles,
+
+```text
+R_QG=L_M^(e-2) E_circ
+     [product_(all off-line delta)R_delta] W_4,
+deg W_4<=4,
+```
+
+where `E_circ=(X-x_circ)^(e-3)` for `d_A=0` and is one for `d_A=1`.
+There are no additional vertical common factors:
+`gcd(B_delta,H_delta)=1`, so every common root on an ordinary supported
+off-line fiber is actual support or padding and is already accounted for.
+Every excess mandatory-root multiplicity or common point over a center-
+line, unsupported, or projective-infinity fiber uses the same four-degree
+allowance; actual-support roots are transverse.
+
+The projective statement is exact: Bezout gives total intersection
+`(9e^2-23e+8)/2`, while the `n-a_delta` mandatory roots on the `3e`
+off-line slopes sum to four fewer. After removing one copy of every actual-
+support and padding point, the residual effective intersection cycle has
+degree exactly four.
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core`.
+The extremal branch is now a constant-size problem outside ordinary
+supported-fiber root supply: classify the four-core or force five excess
+or nonordinary intersection units.

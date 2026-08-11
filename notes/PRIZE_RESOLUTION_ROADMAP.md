@@ -30946,3 +30946,98 @@ new assumptions:         none
 The extremal closing target is now concrete: eliminate positive-excess
 padding or force at least `5+r_bad` additional intersection units. The
 strict resultant remains larger and should be treated separately.
+# Cycle 149: rate-half `A=1` paired all-excess fiber factorization (2026-08-11)
+
+## Residual minimum-word polynomial
+
+For an arbitrary off-line slope, the center difference is a nonzero RS
+codeword supported inside a set of size `d_min+a_delta`. Factoring its
+forced `k-1-a_delta` zeros leaves a nonzero polynomial `H_delta` with
+degree at most `a_delta`.
+
+Keeping this polynomial in the source calculation extends the prior
+zero-excess theorem to every off-line slope:
+
+```text
+Qbar(delta,X)=chi A_delta B_delta R_delta,
+G(delta,X)=zeta A_delta H_delta R_delta.
+```
+
+Consequently
+
+```text
+n-deg_X G(delta,X)=a_delta-deg H_delta,
+gcd_X(Qbar_delta,G_delta)=A_delta R_delta.
+```
+
+Every padded-heavy factor is therefore present even on positive-excess
+fibers. The absence of an extra outside-support gcd is exact: at
+`x in S_delta\U`, both endpoint codewords and their line equal `f(x)`, so
+`g_delta(x)=-e_delta(x)!=0`, forcing `H_delta(x)!=0`.
+
+## Universal first jet
+
+At an actual-support root, the same retained actual-error term gives
+
+```text
+G_t/Q_t-G_X/Q_X
+ =(x-s_0)v_x L_U0'(x)e_delta(x)/Lambda(delta) !=0.
+```
+
+Thus all actual-support intersections are transverse, with no zero-excess
+restriction.
+
+## Burn-down
+
+```text
+result:                  PROVED all-excess residual-fiber factorization
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer degree/tamper checks only
+new assumptions:         none
+```
+
+The immediate consequence for the extremal resultant is that `r_bad` is no
+longer residual: all of it is a mandatory common-fiber factor. The next
+node should sharpen the Cycle-148 bound from `4+r_bad` to exactly four.
+# Cycle 150: rate-half `A=1` extremal resultant exact four-core (2026-08-11)
+
+Cycle 149 proves that positive-excess fibers contain all of their padded-
+heavy factors. Inserting those factors into the Cycle-148 resultant removes
+the entire `r_bad` allowance:
+
+```text
+R_QG=L_M^(e-2) E_circ
+     [product_(all off-line delta)R_delta] W_4,
+deg W_4<=4.
+```
+
+Here `E_circ=(X-x_circ)^(e-3)` for `d_A=0` and is one for `d_A=1`.
+
+There are no remaining vertical common factors on a supported off-line
+fiber: `gcd(B_delta,H_delta)=1`, so its complete common-root polynomial is
+`A_delta R_delta`. Every extra local intersection multiplicity and every
+common point over a center-line, unsupported, or projective-infinity fiber
+is charged to the same four degrees. Actual-support roots are universally
+transverse and contribute no excess.
+
+Projectively the count is exact. Bezout gives
+`I=(9e^2-23e+8)/2`, while the sum of the `n-a_delta` mandatory common-root
+degrees over all `3e` off-line slopes is `I-4`. The residual effective
+intersection cycle therefore has degree exactly four; the affine
+resultant quotient can be smaller only when some of that cycle projects to
+domain infinity.
+
+## Burn-down
+
+```text
+result:                  PROVED extremal exact four-core
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer subtraction/tamper only
+new assumptions:         none
+```
+
+The extremal branch is now reduced to a constant-size obstruction outside
+ordinary supported-fiber root supply: classify the four-core or force five
+excess/nonordinary intersection units.
