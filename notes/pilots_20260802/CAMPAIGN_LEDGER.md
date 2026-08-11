@@ -5953,3 +5953,26 @@ helpers-duplicated-per-file recommended. ROUND-37 ANCHORS:
 one-coincidence gap; (4) rho=3 symmetric-T + C(128,63); (5) THE
 MINT WAVE (~30 queued items — consolidation due); (6) the 16=16
 node + eigenvalue-confinement shape.**
+
+## ROUND 37 LAUNCH (2026-08-11, coordinator)
+
+**THE SOLVE-AND-CONSOLIDATE ROUND — 4 Opus pilots on the round-36
+close's anchors (briefs notes/pilots_20260811/r37_*/PREREG.md;
+CONSTRAINTS add the two round-36 loss rules: results files
+append-or-version never blind-"w"; results runs never piped
+through head):** (A) r37_third_solve — THE THIRD EXACT SOLVE
+(the named instrument of the converged question: T >= 3 over
+mu_32 at the q-invariant +62.5-bit cell; solve-or-name-the-
+mechanism; the s != 0 criterion; Möbius re-basing z = 0,1,inf).
+(B) r37_urand — U-rand priced (the codeword-mediated algebra;
+the T_fib/T_sym/T_rand census; a fence attempt) + the rho=3
+symmetric-T cell + the C(128,63) correspondence. (C)
+r37_share3_gap — the one-coincidence gap (dense field window
+97..690; the FULL constant-norm census; the structured
+slope-merge one level finer; the complete round-34 pipeline on
+any 13-slope hit = a potential m=4 witness). (D) r37_mint_drafts
+— THE MINT WAVE drafted: the top TEN of the ~30 queued items as
+complete node packages (statement + node.json + PASSING
+verify.py) in the pilot's own dir, for coordinator line-audit
+and wiring; MANIFEST + DISCREPANCY section. Bank each on report,
+same cadence.
