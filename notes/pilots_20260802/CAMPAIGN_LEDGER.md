@@ -5762,3 +5762,25 @@ A=3 e=m endpoint closed by its cycles 71-74 (= the residual_pole
 chain round 35 surfaced) — consistent. EXPORTS: both wave-59
 export records are additional commits on draft PR #1161 (no new
 PR numbers). Verify chain 4/4 PASS post-merge.**
+
+## ROUND 36 LAUNCH (2026-08-11, coordinator)
+
+**THE THEOREM ROUND — 4 Opus pilots on the round-35 close's
+anchors as re-posed by wave 59 (briefs
+notes/pilots_20260811/r36_*/PREREG.md; CONSTRAINTS UPGRADED: the
+imported-script output-path audit rule (round-35 breach), sibling
+dir names PRE-LISTED (no parent ls needed), --exclude=dag.json
+standard):** (A) r36_lawcount_geom — the geometry-constrained
+(LA-W COUNT) rank theorem with Codex's fence as MANDATORY
+regression (hypothesis ladder H1-H4; the failure-locus structure
+theorem as the dual route). (B) r36_sat3_on_l2 — the face-off:
+design the free B-parameters of the L2 inversion to reach split
+locators at T = rho+2 (inverted prescription: choose Q_0's roots
+first); witness => realized (SAT3) at m=2 + first real F1 test;
+wall => the fourth instrument. (C) r36_hrlow — classify
+h_r = rho+1 (is LB1 unique?), census h_r = rho+2 for a structural
+floor, pose the floor dichotomy, state the upper-bound statement.
+(D) r36_m4_nonsplit — the last m=4 class (general non-split G) +
+ORDER-3 sharing patterns (legal at m=4, never tried), the
+(DEG-m)-tightened true search, and the flat-supply law as a
+theorem for pencil classes. Bank each on report, same cadence.
