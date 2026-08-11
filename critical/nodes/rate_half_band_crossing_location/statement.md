@@ -3078,11 +3078,21 @@ R-KER is NOT the sole residual; R-FG is live with razor
 coordinates. The codimension law codim{p* <= p} = 2R-3p calibrated
 at 10 points (max dev 0.090); the FG3 descent widened to all
 p* <= r with P* squarefree (1586/1586); LB1 is GENERIC
-(p* = r+1 = ceil(2R/3), 3591/3591); the round-33 "on FG measured
+(p* = r+1 = ceil(2R/3), 3591/3591) [SCOPE-CORRECTED (round 35):
+that measurement is at LB1's own k=2 small cell and does NOT
+transfer — at razor-faithful shape (a > R+1, a-1 > r)
+p*(LB1) = max(rho+1, floor((R+2)/2)) = floor(R/2)+1, 5/5 shapes;
+see the round-35 R-FG-RAZOR addendum]; the round-33 "on FG measured
 T = q" narrowed — the saturation tracks mu_1 = C(n,r)/q^rho, not FG
 membership (T <= r+1 survives at 2 of 4 cells; the three universal
 bounds stay dead); q_crit ~ 2^64: below it the column-far locus is
-measure-zero and every random model in this lane is void]**. R-DEEP/R-KER/R-LINEDEGREE
+measure-zero and every random model in this lane is void
+[SCOPE-CORRECTED (round 35): a RAZOR-ROW constant —
+theta_2 = n*H2(r/n)/(2rho) = 64*H2(63/128) = 63.988728 at
+a = k+2^34 only; at the official candidate row's OWN shape the
+same formula gives 1.6226; the key-equation threshold is
+theta_1 = 2*theta_2 = 127.977457, and every admissible official
+row (q > 2^128) is subcritical for BOTH]]**. R-DEEP/R-KER/R-LINEDEGREE
 unchanged. Round 32's report is noted internally inconsistent (its
 0/1700 (HK1) data contradicts its own forced-fixed claim) — the
 audit cadence's sixth consecutive round of catching banked text.
@@ -3361,6 +3371,13 @@ into a clean two-front structure:
    entire W-layer/layer-A program at m >= 2 becomes moot. Nonempty
    => feed the witness to bank 4's machinery: the first real
    m >= 2 T-measurement, and F1/(NEWCAP) finally exercised.
+   [RESOLVED (round 35): NONEMPTY, constructively — 12 certified
+   objects over five fields, coordinator-independently verified;
+   AND the "empty => closes outright" stake was over-priced: the
+   PROVED residual_pole_interpolation_exclusion node already
+   excludes strict A=3 e=m ENDPOINT PROFILES on even rows m >= 6
+   including the official m = 2^37 row. See the round-35 R-L2
+   addendum.]
 2. **The instrument front (if the stratum is nonempty):** the
    W-layer CANNOT exclude at m = 2, 3 (witness fences, banks 3 +
    round 33); layer A is the sole instrument there (orthogonality
@@ -3396,3 +3413,159 @@ measurement (decides (NS-W-m)'s reach); (3) layer A on the m=3
 R-FG-RAZOR — the key-equation budget at witness B's coordinates;
 (5) DEF-ID; (6) the m=5 parity falsifier; (7) q_crit on the
 official candidate.
+
+## Round-35 R-L2 addendum (2026-08-11, coordinator-audited): the e=m stratum is NONEMPTY at m=2 — constructively; the emptiness route is dead; the gate moves to (SAT3)-on-(L2)
+
+Pilot r35_l2_gate (round 35, bank 1). The witness is
+coordinator-independently verified: I re-checked the published
+q=97 object with code written from scratch (E1/E2 identities, all
+four blocks of M(Z)Q_Z = 0, degrees (7,7,7), s = 0, generic rank
+7, single rank-drop z=10 to rank 6, full rank at infinity,
+nullity(36x32) = 1, no degree-<=1 kernel so e = 2 exactly) — ALL
+PASS. Existence is witness-checkable: this part is a THEOREM.
+
+- **R-L2 RESOLVED: NONEMPTY.** Twelve certified (4m+1) x 4m
+  syndrome Hankel pencils with minimal index exactly m = 2,
+  generic rank 4m-1 = 7, s = 0, delta = m-1 = 1, independent
+  Q_0,Q_1,Q_2, over five fields (q = 97, 193, 257, 641, 769).
+  Route: the (D-B) congruence criterion (nullity(36x32) =
+  10 - rank Phi for the 14x10 matrix (f,g) -> (Q_2f-Q_1g mod Q_0,
+  Q_1f-Q_0g mod Q_2); verified 120/120 per field) + the (D-F)
+  inversion (for fixed B = (f,g,h,k) the cleared system is a
+  SQUARE 24x24 in the curve; existence = det M(B) = 0, ONE
+  condition, hit rate ~1/q vs blind q^-5).
+- **THE +4 WAS NEVER THE EXISTENCE COUNT (round-34 reading
+  corrected).** The equation-count excess 4m^2-7m+2 is not an
+  existence codimension. The honest count: determinantal codim
+  (36-31)(32-31) = 5 in the 23-dim projective curve space —
+  **expected dimension 11m-4 > 0 at EVERY m >= 1**. The round-34
+  incidence count (19) is contaminated by an excess component of
+  dimension 21 (the degenerate common-root family — round 34's
+  rank-1/s!=0 family, now with a dimension; nullity 2 on 40/40
+  planted curves per field); the good component has dimension
+  EXACTLY 18 = 23-5 (the +4/codim-5 condition is transverse there;
+  the B-fibre is a point). The TCAP ledger (+3..+5) prices the
+  full (SAT3) object and is untouched. **The emptiness route to
+  the strict endpoint is dead at m = 2 constructively and
+  expected-dead at every m by the 11m-4 count.**
+- **THE STRICT-ENDPOINT STAKE, RE-PRICED (coordinator forced
+  correction of the round-34 close):** the PROVED background node
+  rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion
+  (wave-57/58 strict-A=3 Picard-Forney chain) already excludes
+  every strict A=3, e=m ENDPOINT PROFILE on even rows m >= 6 —
+  including the official m = 2^37 row (pole-ideal interpolation +
+  surface cohomology; scope fence: e>m strict profiles, A=1
+  residuals, the complete crossing, the adjacent unsafe witness
+  remain open). R-L2's emptiness branch was therefore never the
+  decisive route to the OFFICIAL endpoint; its value was always
+  the structural/small-m content, which the witness now delivers.
+  (The witness — m=2, T=0 — is outside that node's hypotheses on
+  both counts; no contradiction.)
+- **THE DIFFICULTY MOVES, UNDIMINISHED, TO THE SPLITTING LAYER.**
+  All witnesses have T = 0; not one locator splits completely over
+  F_q; the root-count histogram is the Poisson(1) law of RANDOM
+  degree-7 polynomials to within noise. Having a syndrome pencil
+  buys NOTHING at the splitting layer — the same "no structural
+  enhancement" round 34 measured on nets without pencils, now
+  measured on nets with them. **The gate of record is now
+  (SAT3)-ON-(L2): design B = (f,g,h,k) so the resulting locators
+  split over mu_32 at T = rho+2 supported slopes.** The inversion
+  leaves B entirely free — this is the named next instrument.
+- **F1: first (weak) exercise in four rounds.** a* over ALL slope
+  pairs = 13 = 7m-1 on 5 of 6 headline witnesses, and 12 on one —
+  so a* is NOT forced to 7m-1 by the pencil alone. Not the
+  endpoint functional (min over supported pairs needs supported
+  slopes; none exist at T = 0). (NEWCAP) still at zero power.
+- **DEF-ID RESOLVED: COINCIDENCE.** The identity
+  (m+2)(4m+1) + m(3m-2) = (m-1)(7m-2) + 16m = 7m^2+7m+2 is exact,
+  but the two systems' shapes are incompatible (quadratic/quadratic
+  ratio -> 7/3 vs quadratic/linear -> infinity), the deficits have
+  different provenance, and — decisively — the shared quantity
+  governs NEITHER layer's existence ((L2) is nonempty at m=2
+  despite +4; (BIV-G) realizable at m=3 despite +17). Closed as
+  posed.
+- **SCOPE FENCES:** the m >= 3 branch of R-L2 is untouched (the
+  24x24 squareness is an m=2 accident: 80 equations on 48 for
+  fixed B at m=3 — a new inversion is needed); five prime fields
+  is not a lift to Z nor a q ~ 2^128 statement; the witnesses
+  satisfy the pencil-intrinsic half of (SAT1) and NONE of
+  (SAT2)-(SAT5) (vacuous at T=0, not verified); the designed-
+  domain question is untested (the greedy instrument had zero
+  input). Blind (L2) search is banned at every m (q^-5; use the
+  inversion).
+
+## Round-35 R-FG-RAZOR addendum (2026-08-11, coordinator-audited): walled AND downgraded; the type-2 ledger is vacuous on the open bracket; R-HRLOW is the new load-bearing residual
+
+Pilot r35_fg_razor (round 35, bank 2; e3 exact-integer arithmetic
+replayed — every committed razor integer E1-E22 exact, the banked
+LB1-C constant 670,014,898,009 reproduced to the digit). No bound
+on B_ca^far(k+2^34) either way.
+
+- **THE TYPE-2 SPEND/LIST LEDGER IS VACUOUS ON THE WHOLE OPEN
+  BRACKET — a SCOPE FENCE of record.** (C2)'s per-slope floor is
+  (R+1) - w* with w* = |W| in [r, 2r]; it is positive for every
+  admissible W iff 2r <= R iff a >= 3n/4 — exactly the top of the
+  open bracket (the unique-decoding radius). At razor shape the
+  adversary takes w* = 2r and the floor is -1,065,151,889,407:
+  vacuous BY SIGN, not by slack (positive iff
+  |S_g ^ S_h| >= 2r-R = 62r/63 = 98.41% of r — adversary-free).
+  CONSEQUENCE: no transport of (C2)/(C3)/(C4)/X_gamma/layer-A
+  instruments into [k+2^34, 3n/4) can bind — vacuous by sign
+  before it is vacuous by counting. (No banked text connected the
+  type-2 ledger to far-CA — zero grep hits — and now there is a
+  proved reason not to.)
+- **FG CARRIES NO STRUCTURAL BAD-SLOPE FLOOR; LB1 DOES.** At six
+  razor-faithful rate-half cells across ten fields spanning
+  mu_1 in [2.9e-5, 238]: LB1's type-1 count is EXACTLY r+1
+  (field-size independent, 9/9 ledger rows; (C3) T_1 <= e+1
+  ATTAINED at 0 bits with e = d_x = r); witness B's FG replica has
+  T_1 in {2,3} and total T that tracks q*mu_1 and falls BELOW r+1
+  in the subcritical regime (T = 1 at n=22, q=65537 vs r+1 = 10).
+  Since every admissible official row is deeply subcritical, **the
+  FG stratum is not where the extremal B_ca^far count can live**
+  unless it beats its own first moment — and LB1 is the exhibit
+  that beating it is possible: at q = 2^167 the first moment
+  predicts E[T] = 2^{-6.704e11} against the PROVED floor r+1 =
+  2^39.98. **The first moment is wrong by 6.70e11 bits in this
+  lane** (LB1-C IS the subcriticality condition up to the exact
+  residue log2 q + n(1-H2(r/n)) — verified to the digit at two q).
+- **THE h_r DICTIONARY ORDERS THE RESIDUALS; PRIORITY INVERTED.**
+  R-FG nests strictly inside R-KER (V_r = F[x]_{<=r}/K_0 of dim
+  h_r; R-KER counts slopes where the (h_r-rho)-dim increment
+  acquires a D_r(D) member; R-FG is the sub-stratum where V_r is
+  a RING and U_gamma cyclic). Closing R-FG would NOT move
+  B_ca^far. The extremal object sits at the SMALL end:
+  **R-HRLOW (new residual of record): bound T for column-far
+  razor pencils with h_r near rho** — LB1 is the h_r = rho+1
+  extremal with p*(LB1) = floor(R/2)+1 = 2^39+1 (exactly ONE
+  integer above the intermediate band's top), dim K_0 = r-rho,
+  T_1 = r+1. Any upper bound in this lane must clear T = r+1 at
+  h_r = rho+1 or exclude that configuration. Far-CA residual set
+  after this round: {R-HRLOW > R-KER > R-FG-RAZOR (downgraded)};
+  R-PSTAR-INTERMEDIATE carried no load as a stratum but its top
+  edge floor(R/2) is LB1's sharp coordinate.
+- **CRITERION CORRECTION (banked artifact, recorded here — the
+  r34_pstar REPORT stays byte-original):** h_r = p* is NECESSARY
+  but NOT SUFFICIENT for round-33 FG. FG needs K_0 = P*F[x]_{<=r-p}
+  with p = deg P; h_r = p* only yields it with the WINDOW index
+  p*, and deg P = d* can be strictly smaller (three exhibited
+  counterexamples: LB1 at k=1 cells has p* = 4 = h_r, d* = 3,
+  FG FALSE). The r34_pstar D1.2 table's "FG" label on the
+  h_r = p* row is wrong as a criterion; witness B itself is
+  unaffected (deg P = p verified 10/10).
+- **q_crit PASSES on the official candidate** (secondary): by
+  103.01 bits on the razor-shape threshold and 126.38 bits on the
+  row's own threshold, at every admissible official row — the
+  random model is not void there, and the key equation is
+  subcritical too (theta_1 = 2*theta_2 exactly). The two inline
+  SCOPE-CORRECTED markers above (LB1-generic; q_crit) are this
+  bank's forced corrections.
+- **SCOPE FENCES:** all machine numbers at q <= 65537, R <= 14 —
+  zero razor-regime measurement; k=1 cells are non-faithful for
+  p*(LB1) (they miss a > R+1 and a-1 > r — the pilot's own first
+  design would have inverted the headline and was caught by hand);
+  w* is reported under a 24-locator cap (direction favors the
+  vacuity conclusion); the 2^128 numerology (theta_1 within 0.02
+  bits of EPSILON_BITS) is a COINCIDENCE (n/rho vs the prize
+  soundness parameter) and is recorded to prevent a future false
+  link.

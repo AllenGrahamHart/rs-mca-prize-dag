@@ -1,0 +1,86 @@
+=== r35_fg_razor  e4_classify  (corrected stratum test) ===
+Round-33 FG (crossing_location:3059) = 'fixed squarefree generator
+P, rho < p <= 2rho' with K_0 = P.F[x]_{<= r-p}, p = deg P.
+h_r = p* gives only K_0 = P.F[x]_{<= r - p*}; the two agree iff
+d* := deg P equals p*.  BOTH tests are reported below.
+
+CELL[rate-half] q=101 n=20 k=10 R=10 rho=2 r=8 a=12 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=4 floor(R/2)=5
+   [FG(witness B)] p*=4   d*=deg P=4   dim Ann(V)_{p*}=1  h_r=4   dim K_0=5   (r+1-h_r=5)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=4, h_r=2rho, dim K_0=r+1-2rho=5
+   [LB1] p*=6   d*=deg P=6   dim Ann(V)_{p*}=2  h_r=3   dim K_0=6   (r+1-h_r=6)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=3, dim K_0=r-rho=6, p*=max(rho+1, floor((R+2)/2)) = max(3,6) = 6, d* = min(a-1, .) = 11
+
+CELL[rate-half] q=65537 n=20 k=10 R=10 rho=2 r=8 a=12 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=4 floor(R/2)=5
+   [FG(witness B)] p*=4   d*=deg P=4   dim Ann(V)_{p*}=1  h_r=4   dim K_0=5   (r+1-h_r=5)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=4, h_r=2rho, dim K_0=r+1-2rho=5
+   [LB1] p*=6   d*=deg P=6   dim Ann(V)_{p*}=2  h_r=3   dim K_0=6   (r+1-h_r=6)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=3, dim K_0=r-rho=6, p*=max(rho+1, floor((R+2)/2)) = max(3,6) = 6, d* = min(a-1, .) = 11
+
+CELL[rate-half] q=101 n=22 k=11 R=11 rho=2 r=9 a=13 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=4 floor(R/2)=5
+   [FG(witness B)] p*=4   d*=deg P=4   dim Ann(V)_{p*}=1  h_r=4   dim K_0=6   (r+1-h_r=6)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=4, h_r=2rho, dim K_0=r+1-2rho=6
+   [LB1] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=3   dim K_0=7   (r+1-h_r=7)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=3, dim K_0=r-rho=7, p*=max(rho+1, floor((R+2)/2)) = max(3,6) = 6, d* = min(a-1, .) = 12
+
+CELL[rate-half] q=65537 n=22 k=11 R=11 rho=2 r=9 a=13 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=4 floor(R/2)=5
+   [FG(witness B)] p*=4   d*=deg P=4   dim Ann(V)_{p*}=1  h_r=4   dim K_0=6   (r+1-h_r=6)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=4, h_r=2rho, dim K_0=r+1-2rho=6
+   [LB1] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=3   dim K_0=7   (r+1-h_r=7)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=3, dim K_0=r-rho=7, p*=max(rho+1, floor((R+2)/2)) = max(3,6) = 6, d* = min(a-1, .) = 12
+
+CELL[rate-half] q=101 n=24 k=12 R=12 rho=2 r=10 a=14 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=4 floor(R/2)=6
+   [FG(witness B)] p*=4   d*=deg P=4   dim Ann(V)_{p*}=1  h_r=4   dim K_0=7   (r+1-h_r=7)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=4, h_r=2rho, dim K_0=r+1-2rho=7
+   [LB1] p*=7   d*=deg P=7   dim Ann(V)_{p*}=2  h_r=3   dim K_0=8   (r+1-h_r=8)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=3, dim K_0=r-rho=8, p*=max(rho+1, floor((R+2)/2)) = max(3,7) = 7, d* = min(a-1, .) = 13
+
+CELL[rate-half] q=101 n=26 k=13 R=13 rho=3 r=10 a=16 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=6 floor(R/2)=6
+   [FG(witness B)] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=6   dim K_0=5   (r+1-h_r=5)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=6, h_r=2rho, dim K_0=r+1-2rho=5
+   [LB1] p*=7   d*=deg P=7   dim Ann(V)_{p*}=1  h_r=4   dim K_0=7   (r+1-h_r=7)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=4, dim K_0=r-rho=7, p*=max(rho+1, floor((R+2)/2)) = max(4,7) = 7, d* = min(a-1, .) = 15
+
+CELL[rate-half] q=101 n=28 k=14 R=14 rho=3 r=11 a=17 | 4rho<R:True a>R+1:True a-1>r:True | 2rho=6 floor(R/2)=7
+   [FG(witness B)] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=6   dim K_0=6   (r+1-h_r=6)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=6, h_r=2rho, dim K_0=r+1-2rho=6
+   [LB1] p*=8   d*=deg P=8   dim Ann(V)_{p*}=2  h_r=4   dim K_0=8   (r+1-h_r=8)
+        K_0 == P.F[x]_{<=r-p*} : False | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : True
+        predicted h_r=rho+1=4, dim K_0=r-rho=8, p*=max(rho+1, floor((R+2)/2)) = max(4,8) = 8, d* = min(a-1, .) = 16
+
+CELL[k=1 sep] q=17 n=17 k=1 R=16 rho=3 r=13 a=4 | 4rho<R:True a>R+1:False a-1>r:False | 2rho=6 floor(R/2)=8
+   [FG(witness B)] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=6   dim K_0=8   (r+1-h_r=8)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=6, h_r=2rho, dim K_0=r+1-2rho=8
+   [LB1] p*=4   d*=deg P=3   dim Ann(V)_{p*}=1  h_r=4   dim K_0=10  (r+1-h_r=10)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : False
+        predicted h_r=rho+1=4, dim K_0=r-rho=10, p*=max(rho+1, floor((R+2)/2)) = max(4,9) = 9, d* = min(a-1, .) = 3
+
+CELL[k=1 sep] q=19 n=19 k=1 R=18 rho=3 r=15 a=4 | 4rho<R:True a>R+1:False a-1>r:False | 2rho=6 floor(R/2)=9
+   [FG(witness B)] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=6   dim K_0=10  (r+1-h_r=10)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=6, h_r=2rho, dim K_0=r+1-2rho=10
+   [LB1] p*=4   d*=deg P=3   dim Ann(V)_{p*}=1  h_r=4   dim K_0=12  (r+1-h_r=12)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : False
+        predicted h_r=rho+1=4, dim K_0=r-rho=12, p*=max(rho+1, floor((R+2)/2)) = max(4,10) = 10, d* = min(a-1, .) = 3
+
+CELL[k=1 sep] q=23 n=23 k=1 R=22 rho=3 r=19 a=4 | 4rho<R:True a>R+1:False a-1>r:False | 2rho=6 floor(R/2)=11
+   [FG(witness B)] p*=6   d*=deg P=6   dim Ann(V)_{p*}=1  h_r=6   dim K_0=14  (r+1-h_r=14)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : True  | FG : True  | d*==p* : True
+        predicted p*=d*=2rho=6, h_r=2rho, dim K_0=r+1-2rho=14
+   [LB1] p*=4   d*=deg P=3   dim Ann(V)_{p*}=1  h_r=4   dim K_0=16  (r+1-h_r=16)
+        K_0 == P.F[x]_{<=r-p*} : True  | K_0 == P.F[x]_{<=r-degP} (ROUND-33 FG) : False | FG : False | d*==p* : False
+        predicted h_r=rho+1=4, dim K_0=r-rho=16, p*=max(rho+1, floor((R+2)/2)) = max(4,12) = 12, d* = min(a-1, .) = 3
+

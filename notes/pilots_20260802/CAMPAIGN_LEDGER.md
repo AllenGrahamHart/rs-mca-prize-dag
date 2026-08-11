@@ -5560,3 +5560,71 @@ parity falsifier; corrected-(OUT-m) stress. (D) r35_fg_razor —
 R-FG-RAZOR: the key equation at witnesses A/B, razor budget
 arithmetic pre-committed, R-FG vs R-KER structure, q_crit
 secondary. Bank each on report, same cadence.
+
+## ROUND 35 BANK 1/4 — r35_l2_gate (2026-08-11, coordinator)
+
+**BANKED — R-L2 RESOLVED: THE e=m=2 STRATUM IS NONEMPTY,
+CONSTRUCTIVELY (a THEOREM: witness-checkable). Twelve certified
+(4m+1)x4m Hankel pencils, minimal index exactly 2, generic rank 7,
+s=0, five fields; the q=97 witness COORDINATOR-INDEPENDENTLY
+VERIFIED with from-scratch code (all four blocks, degrees, s=0,
+rank profile, nullity 1, e=2 — ALL PASS). Route: the D-B 14x10
+congruence criterion (120/120) + the D-F 24x24 square-determinant
+inversion (existence = det M(B) = 0, ONE condition; q^4 cheaper
+than blind). ROUND-34 READING CORRECTED: the +4 was an
+equation-count excess, not the existence count — determinantal
+codim 5, expected dim 11m-4 > 0 at EVERY m; the incidence 19 was
+contaminated by the dim-21 degenerate component; the good
+component has dim exactly 18. THE EMPTINESS ROUTE IS DEAD (m=2
+constructively; all m expected). BOARD CORRECTION (pilot MISS-2
+flag, coordinator-verified): the PROVED
+residual_pole_interpolation_exclusion node ALREADY excludes strict
+A=3 e=m endpoint profiles on even rows m>=6 incl. the official
+m=2^37 — my round-34 "empty => closes outright" was over-priced;
+forced correction applied. THE GATE OF RECORD: (SAT3)-ON-(L2)
+(T=0 on all witnesses; locators split at exactly Poisson-random
+rate — the pencil buys NOTHING at the splitting layer; design B so
+locators split over mu_32). F1 first weak exercise in four rounds
+(a* = 13 = 7m-1 on 5/6, one at 12 — not forced, not the endpoint
+functional). DEF-ID RESOLVED: COINCIDENCE (identity exact,
+7m^2+7m+2; shapes incompatible; governs neither layer).
+COMPLIANCE: 4/4 ramguard, zero bare python3 (5th consecutive
+clean); upgraded sed/awk clause held on first outing. Node:
+RESOLVED marker + R-L2 addendum. Mint +3.
+Files: notes/pilots_20260811/r35_l2_gate/.**
+
+## ROUND 35 BANK 2/4 — r35_fg_razor (2026-08-11, coordinator)
+
+**BANKED — R-FG-RAZOR WALLED AND DOWNGRADED; THE TYPE-2 LEDGER IS
+VACUOUS ON THE OPEN BRACKET (scope fence of record); R-HRLOW IS
+THE NEW LOAD-BEARING FAR-CA RESIDUAL. (C2)'s floor (R+1)-w* is
+positive for all W iff a >= 3n/4 = the top of the bracket; at
+razor the adversary takes w* = 2r and the floor is
+-1,065,151,889,407 — vacuous BY SIGN (threshold |S_g^S_h| >=
+62r/63); no transport of (C2)/(C3)/(C4)/X_gamma/layer-A into
+[k+2^34, 3n/4) can bind. FG has NO structural bad-slope floor
+(T_1 in {2,3}, tracks q*mu_1, falls below r+1 when subcritical);
+LB1 DOES (T_1 = r+1 exactly, field-independent, attains (C3) at 0
+bits with e = d_x = r). THE FIRST MOMENT IS WRONG BY 6.70e11 BITS
+(proved LB1 floor vs mu_1 at q=2^167; LB1-C IS subcriticality up
+to the exact residue — verified to the digit). h_r dictionary:
+R-FG nests strictly in R-KER; closing R-FG would NOT move
+B_ca^far; the extremal sits at h_r = rho+1 (LB1: p* = floor(R/2)+1
+= 2^39+1, ONE above the intermediate band top; dim K_0 = r-rho).
+Residual order now R-HRLOW > R-KER > R-FG-RAZOR. TWO FORCED SCOPE
+CORRECTIONS applied to round-34 text (both pilot-flagged,
+coordinator-verified): q_crit ~ 2^64 is a RAZOR-ROW constant
+(own-shape value 1.6226; theta_1 = 2*theta_2 = 127.98 the
+key-equation threshold; every admissible official row subcritical
+for both — q_crit PASSES by 103/126 bits); "LB1 is GENERIC" scoped
+to its k=2 cell (razor-faithful law p*(LB1) = max(rho+1,
+floor((R+2)/2)); faithfulness needs a > R+1 AND a-1 > r — the
+pilot's own first k=1 design would have INVERTED the headline,
+caught by hand, reported as MISS 1). Criterion correction
+recorded: h_r = p* necessary NOT sufficient for FG (d* < p*
+counterexamples 3/3; witness B unaffected). E1-E22 all exact;
+banked LB1-C constant 670,014,898,009 reproduced to the digit;
+e3 replayed. COMPLIANCE: 6/6 ramguard, zero bare python3 (6th
+consecutive clean); find-names-only exclude-list fix adopted for
+round 36. Node: R-FG-RAZOR addendum + two inline SCOPE-CORRECTED
+markers. Mint +4. Files: notes/pilots_20260811/r35_fg_razor/.**
