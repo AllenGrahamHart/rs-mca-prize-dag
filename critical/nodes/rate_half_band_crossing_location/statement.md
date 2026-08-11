@@ -2185,3 +2185,33 @@ DOUBLE:     one double and one simple root, both heavy.
 This excludes triple roots and roots outside the heavy set for
 `0<=u<=36650387592`. Both retained patterns remain live. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router`.
+
+## Cycle 96: the gap-one double-root cubic has four exact packets (2026-08-11, Codex)
+
+In the core-free cubic branch at `u=1`, retain a double residual root and a
+simple residual root. Exact excess-degree accounting, ordinary cube
+divisibility, and the root-row correction congruences leave exactly
+
+```text
+I_0  c_s c_d  epsilon_s epsilon_d  w   t_s   t_d
+ 0    1   1       0         0      1    1    e-2
+ 0    1   1       1         0      0    2    e-2
+ 0    1   1       0         1      0    1    e-1
+ 1    2   1       0         0      0    2    e-2.
+```
+
+All vertical and contact degree is then forced. The first three packets have
+
+```text
+O_C(rho+3,-e-1)=O_C(A),       h^0=1,
+```
+
+while the ordinary packet has
+
+```text
+O_C(rho+3,-e-1)=O_C(A+B-R_0), h^0=0.
+```
+
+This is a complete normal-form and section classification; it does not yet
+exclude any packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms`.
