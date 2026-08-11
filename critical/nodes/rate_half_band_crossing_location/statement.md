@@ -2795,3 +2795,38 @@ This reduces the next gate to point separation or a classification of
 low-rank fibres of the coefficient map; neither is assumed here. The proved
 node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate`.
+
+## Cycle 116: symmetry raises every quadratic pair union to `rho+2` (2026-08-11, Codex)
+
+For the symmetric core-one residual middle Hankel pencil, a slope of rank
+loss `r_alpha` has `r_alpha+1` specialized left-kernel multiples. Applying
+the complete coefficient chain to `S_beta\S_alpha` gives
+
+```text
+|S_alpha union S_beta|>=rho+2,
+
+rank (Q_i(x))_(x in S_beta\S_alpha,0<=i<=e)
+ <=|S_alpha union S_beta|-rho-1.
+```
+
+This holds in both quadratic `u=4` root patterns. At pair union `rho+2`,
+all residual row forms on the difference are proportional. More importantly,
+the joint support of any codeword line through two assigned centers now has
+size at least `rho+2`. Therefore a line containing `h` assigned centers
+satisfies
+
+```text
+2h<=rho+2-sum r_gamma.
+```
+
+For every fixed locator pair, at least
+
+```text
+ceil((rho+6+r_alpha+r_beta)/2)
+```
+
+other slopes have triple union at least `2rho+1`. This replaces the previous
+constant lower bound `3+r_alpha+r_beta` by a linear-size bound. The Cycle-107
+abstract cyclic design was tested only against the old condition and no
+longer fences this route. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread`.
