@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets",
+    "title": "A=1 core-one no-ordinary packets are effective canonical classes",
+    "status": "PROVED",
+    "closure": "vertical cube ledger and fibre-supported elementary modification",
+    "statement": "For all three core-one degree-one packets with no ordinary heavy incidence, every residual contact zero lies on the distinguished vertical fibre and Z_c-E_u is an effective degree-two subdivisor. Its elementary-modification directions lie in the fibre nilpotent ideal and miss the constant line, so the associated line bundle has exactly its canonical section and no pencil branch.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

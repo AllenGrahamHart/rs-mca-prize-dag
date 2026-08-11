@@ -2065,3 +2065,29 @@ h^0(C,O_C(P_alpha+P_beta))=1.
 
 The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion`.
+
+## Cycle 91: all no-ordinary tangent packets are unique-section classes (2026-08-11, Codex)
+
+For each core-one packet with `I_0=0`, the nonbaseline regular-rank budget is
+at most two. The local horizontal multiplicity is therefore at most four.
+The cube congruence `m+n=0 mod 3` gives `2n>=m` at every point of the
+distinguished vertical fibre.
+
+An exact omission lower bound forces all residual contact degree `u` onto
+that fibre. Coefficientwise,
+
+```text
+H_2=Z_c-E_u
+```
+
+is therefore an effective degree-two proper subdivisor of the vertical
+fibre. Its length-two modification directions lie in the fibre nilpotent
+ideal and miss the constant line. Thus all three packets
+
+```text
+(u,v,I_0,c)=(0,2,0,2),(1,1,0,3),(2,0,0,4)
+```
+
+have the CANONICAL pushforward splitting and exactly one section. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets`.
