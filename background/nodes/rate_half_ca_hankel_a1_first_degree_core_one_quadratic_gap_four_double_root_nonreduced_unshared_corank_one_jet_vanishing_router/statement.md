@@ -10,39 +10,45 @@ parameter `z`, divided heavy row `U(t,X)`, and obstruction jets
 removing the permanent primitive kernel, and let `v(z)` be the regular class
 of the coefficient vector of `U`.
 
-Assume
+Assume only
 
 ```text
-corank N(0)=1,
-U_tau(x_*)!=0,       U_tau(X)=Q(tau,X)/(X-x_*).     (HCR1)
+corank N(0)=1.                                        (HCR1)
 ```
 
+Let `P_tau` be the specialized minimal locator of the contracted source.
 Then
 
 ```text
-kappa_2=kappa_3=0.                                 (HCR2)
+deg P_tau=d-1,
+Q(tau,X)=c(X-x_*)P_tau(X),
+U_tau(x_*)=cP_tau(x_*)!=0.                          (HCR2)
+```
+
+Consequently
+
+```text
+kappa_2=kappa_3=0.                                 (HCR3)
 ```
 
 Consequently `D_1` divides every divided-row moment locally, the cubic
 quotient extends through `tau`, and the local regular Smith type is `[4]`.
 
 Equivalently, any unshared nonreduced survivor with a nonzero obstruction
-jet must satisfy at least one of
+jet must satisfy
 
 ```text
-corank N(0)>=2,
-U_tau(x_*)=0.                                      (HCR3)
+corank N(0)>=2.                                     (HCR4)
 ```
 
-The second alternative says that the nominal padded root collides with the
-specialized minimal locator; the first is a genuine additional source-rank
-drop. Thus the two free jets cannot survive on the ordinary simple
-corank-one correction profile.
+Thus the two free jets cannot survive on the ordinary correction profile;
+they require a genuine additional source-rank drop. A collision of `x_*`
+with the quotient locator can occur only inside that higher-corank locus.
 
 ## Scope
 
 The theorem is a router, not a proof that `(HCR1)` holds at every
 nonreduced correction. A corank-two symmetric local block of determinant
-order four can carry a nonzero order-two self-pairing, so neither branch of
-`(HCR3)` may be discarded by determinant order alone. Shared nonreduced
-roots are not covered.
+order four can carry a nonzero order-two self-pairing, so `(HCR4)` cannot be
+discarded by determinant order alone. Shared nonreduced roots are not
+covered.

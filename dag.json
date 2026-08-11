@@ -31210,7 +31210,7 @@
    "title": "A=1 quadratic nonreduced unshared corank-one jet router",
    "status": "PROVED",
    "closure": "elimination of both nonreduced jets on the simple corank-one locus",
-   "statement": "At an unshared nonreduced correction, assume the specialized regular symmetric Hankel block has corank one and the padded heavy root is simple, equivalently U_tau(x_*) is nonzero. Determinant order four and the symmetric Schur complement force the divided-row self-pairing to order four, killing both obstruction jets kappa_2 and kappa_3. Hence any nonzero-jet survivor has regular corank at least two or collides with the specialized minimal locator.",
+   "statement": "At an unshared nonreduced correction, assume the specialized regular symmetric Hankel block has corank one. The full contracted-source kernel then has dimension two, so its minimal locator has degree d-1; because x_* lies outside U_0, Q_tau=(X-x_*)P_tau and the padded root is automatically simple. Determinant order four and the symmetric Schur complement then kill both obstruction jets kappa_2 and kappa_3. Hence any nonzero-jet survivor has regular corank at least two.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_corank_one_jet_vanishing_router/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_corank_one_jet_vanishing_router/proof.md",
