@@ -10,10 +10,11 @@ def main() -> None:
     text = "\n".join((ROOT / name).read_text() for name in
                      ("statement.md", "proof.md", "audit.md"))
     for token in (
-        "P_3<V_*",
+        "P_pos<V_*",
         "W intersect Fbar*1=0",
-        "O(1-d)^3",
-        "`P_3` and `R_0` are disjoint",
+        "O(1-d)^r",
+        "`P_pos` and `R_0` are disjoint",
+        "last packet has `r=4`",
         "does not exclude",
     ):
         if token not in text:

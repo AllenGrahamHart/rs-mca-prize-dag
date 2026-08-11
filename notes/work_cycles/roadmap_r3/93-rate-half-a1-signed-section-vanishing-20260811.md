@@ -10,19 +10,20 @@ compute:         none
 critical open:   28
 ```
 
-## Length-three modification
+## Bounded vertical modification
 
-The positive part `P_3` of each signed normal form is a degree-three proper
-subdivisor of the distinguished vertical fibre. Its modification subspace
-is nilpotent and has rank three in the negative pushforward block, giving
+The positive part `P_pos` of each signed normal form is a proper subdivisor
+of the distinguished vertical fibre. Its degree is `r=3` in the first two
+packets and `r=4` in the last. Its modification subspace is nilpotent and
+has rank `r` in the negative pushforward block, giving
 
 ```text
-pi_*O_C(P_3)=O direct_sum O(1-d)^3 direct_sum O(-d)^(e-4).
+pi_*O_C(P_pos)=O direct_sum O(1-d)^r direct_sum O(-d)^(e-1-r).
 ```
 
-Thus `O_C(P_3)` has only its canonical section. Since `R_0` is nonempty and
+Thus `O_C(P_pos)` has only its canonical section. Since `R_0` is nonempty and
 lies on other domain fibres, that section does not survive in
-`O_C(P_3-R_0)`. All three signed packets have `h^0=0`.
+`O_C(P_pos-R_0)`. All three signed packets have `h^0=0`.
 
 ## Burn-down
 

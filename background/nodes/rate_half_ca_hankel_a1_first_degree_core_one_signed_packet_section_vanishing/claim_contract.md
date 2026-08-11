@@ -9,7 +9,7 @@
 - **status:** `PROVED`
 - **falsifier:** a positive coefficient equal to its full vertical-fibre
   multiplicity, a modification direction meeting the constant line, a
-  second section of `O_C(P_3)`, or vanishing of its canonical section on
+  second section of `O_C(P_pos)`, or vanishing of its canonical section on
   `R_0`
 - **nonclaims:** section vanishing is not an exclusion of the packet
 - **replay:**
