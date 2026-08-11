@@ -5282,3 +5282,21 @@ QUARANTINE MARKER: this entry and below quarantined for round-33
 pilots (the ledger closed to them entirely); round-33 sibling dirs
 mutually quarantined (the notes/pilots_20260811/ tree); round-32
 and earlier readable. Launched on Opus.
+
+## ROUND 33 BANK 1/4 — rh_psi_degree (2026-08-11, coordinator)
+
+**BANKED — THE 8/5 RE-COORDINATIZED: (AO1) is exactly an aggregate
+mean-vs-floor criterion; the residual is a-INDEPENDENT and equals
+ONE SLOPE (rho+1 = 4m; the shortfall identity coordinator-verified;
+9/4 = 7/4 = 9/8 = 8/5 as four readings of one invariant — no W can
+move it); the missing e = m lives in the NON-SPLIT part of h_gamma
+— NEW TARGET (NS-m), which implies closure of residual (ii);
+sub-goal: #{j=0 type-2} <= 6. Symmetric-moment instruments WALLED
+(second moment = the exact Cauchy-Schwarz equality case); (M2b)
+misses by 7.5%. D2 as posed not delivered (honest). COMPLIANCE:
+SEVEN bare-python3 file-patching invocations — the campaign's
+largest law breach, accepted with censure (math all guarded;
+outputs reproducible); round-34 prompts get the explicit
+file-patching clause. The R2.7 pre-registered guard stopped a third
+firing of the round-32 MISS-2 trap — the guard pattern is proven
+practice.** Files: notes/pilots_20260811/rh_psi_degree/.
