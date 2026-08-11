@@ -31368,6 +31368,42 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
+   "title": "A=1 quadratic strict-boundary dual-MDS split-biform reduction",
+   "status": "PROVED",
+   "closure": "the first strict boundary yields a second exact lower-degree split biform",
+   "statement": "At pair union rho+p, divide the fixed-line Hankel source-locator product by the two endpoint parameter factors. Dual-GRS interpolation on the 3p-1 noncore support points produces a biform of exact bidegree (e-1,p-2). At least 2p+r_alpha+r_beta fixed-domain rows split into e-1 distinct off-line supported slopes, and at least (e+15)/2+r_alpha+r_beta clean parameter fibers split into p-2 inside-support points and equal their monic locators up to scalar.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction",
+   "title": "A=1 quadratic strict-boundary two-center minimum-word reduction",
+   "status": "PROVED",
+   "closure": "the first strict pair boundary yields at least p+2 exact RS minimum words",
+   "statement": "If a quadratic u=4 pair attains the first strict boundary |S_alpha union S_beta|=rho+p, its endpoint codeword line contains exactly the two endpoint centers. The two noncore missing sets are disjoint with sizes p+r_alpha and p+r_beta. Across the 3e+1 off-line slopes, the total triple-union excess above minimum distance is exactly p, so at least p+2 slopes yield exact minimum-word center differences. At least (e+15)/2+r_alpha+r_beta of those slopes also have zero padding deficit.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread",
    "title": "A=1 core-one quadratic gap-four two-simple center spread",
    "status": "PROVED",
@@ -65212,6 +65248,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65374,6 +65415,21 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
    "kind": "req"
   },
   {
@@ -65954,6 +66010,11 @@
   {
    "from": "rate_half_ca_hankel_split_pencil_equivalence",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
    "kind": "req"
   },
   {

@@ -30046,3 +30046,150 @@ exact biform profile against the existing split-pencil/SPI classifiers. A
 usable theorem must either exclude its dense two-directional split pattern
 or classify it into a form incompatible with the original quadratic
 Hankel packet.
+# Cycle 130: upstream rate-half extremal-biform export (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:      1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 amended through c7542daf5b4d0a25f2a0dc013bd03d10405bb2d5
+compute:         exact integer replay only
+critical open:   28
+```
+
+## Lane-T synchronization
+
+Draft PR `przchojecki/rs-mca#1161` now carries the Cycle-128/129 aftermath of
+the macroscopic pair floor. The upstream packet records:
+
+```text
+three-center source partition;
+at least 2e zero-excess minimum circuits;
+at least e+6+d_A clean reciprocal locator gates;
+the exact dual-GRS biform of bidegree (e-2,p-3);
+the two directional split counts at official integers.
+```
+
+The source pin moved to `1c967ff9` and the packet prints all twelve SHA-256
+statement/proof hashes. Its verifier now checks the biform degrees and split
+counts in addition to the pair-floor arithmetic.
+
+The PR is deliberately framed as a Lane-T `ROUTE_CUT`. Upstream's proved
+split-pencil ray collapse identifies the deduplicated target with `LineRay`
+but supplies no upper bound. The export therefore claims neither a BC
+payment nor a finite-row ledger change.
+
+## Burn-down
+
+```text
+result:                  EXPORTED the exact extremal residue in upstream
+                         base-field split-pencil terminology
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: sharper named LineRay/split-biform residual
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+CI:                      Vercel authorization failure only; unrelated
+```
+
+Next test whether the biform profile is impossible on its own. If a small
+model survives, bank the route fence and retain the extra marked-Hankel or
+contact-section coupling as the next necessary input.
+# Cycle 131: rate-half quadratic strict-boundary minimum words (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize:  3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          exact integer replay only
+critical open:    28
+```
+
+## First strict boundary
+
+Retain the strict pair branch at `|S_alpha union S_beta|=rho+p=3p`.
+Cycle 127 makes the endpoint codeword line contain exactly two centers.
+The noncore endpoint-missing classes are disjoint, have sizes
+`p+r_alpha,p+r_beta`, and leave `p-1-r_A` coordinates present at both
+endpoints.
+
+Across the `3e+1` off-line slopes, exact incidence gives
+
+```text
+sum a_delta=p,
+a_delta=|U union S_delta|-(2rho+1)>=0.
+```
+
+Thus at least `p+2` off-line center differences are exact nonzero RS
+minimum words. Removing every positive-deficit slope adversarially leaves
+at least `(e+15)/2+r_A` clean minimum words. At the official integers these
+lower bounds are `274877906946` and `91625968989+r_A`.
+
+## Burn-down
+
+```text
+result:                  PROVED strict-boundary minimum-word reduction
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          strict branch now has a macroscopic exact family
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+Next pass this exact family through the fixed-line Hankel source and dual
+GRS interpolation, keeping the two-center degree shift explicit.
+# Cycle 132: rate-half quadratic strict-boundary dual biform (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize:  3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          finite-field audit at q=101; exact integer replay
+critical open:    28
+```
+
+## Two-center split biform
+
+Divide each source-locator row by the two endpoint parameter factors. The
+resulting row has parameter degree at most `e-1` and satisfies the full
+Hankel moment system on the `3p-1` noncore union points. Dual-GRS
+interpolation therefore produces a unique biform
+
+```text
+G(t,X),        bidegree exactly (e-1,p-2).
+```
+
+At least `2p+r_A` fixed-domain rows split into their `e-1` distinct
+off-line supported slopes. At least `(e+15)/2+r_A` clean fixed-parameter
+fibers split into their `p-2` inside-support points and equal the monic
+inside locator up to scalar. The official unconditional profile is
+
+```text
+bidegree:           (183251937962,274877906942)
+split domain rows:  >=549755813888
+clean fibers:       >=91625968989.
+```
+
+## Burn-down
+
+```text
+result:                  PROVED strict-boundary dual-MDS split biform
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          strict branch reduced to a named split census
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The remaining question is whether the extremal `(e-2,p-3)` and strict
+`(e-1,p-2)` split profiles are impossible from degree and incidence alone,
+or require the extra marked-Hankel/contact-section coupling.

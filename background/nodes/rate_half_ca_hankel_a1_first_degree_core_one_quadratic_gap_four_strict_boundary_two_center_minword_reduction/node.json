@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction",
+    "title": "A=1 quadratic strict-boundary two-center minimum-word reduction",
+    "status": "PROVED",
+    "closure": "the first strict pair boundary yields at least p+2 exact RS minimum words",
+    "statement": "If a quadratic u=4 pair attains the first strict boundary |S_alpha union S_beta|=rho+p, its endpoint codeword line contains exactly the two endpoint centers. The two noncore missing sets are disjoint with sizes p+r_alpha and p+r_beta. Across the 3e+1 off-line slopes, the total triple-union excess above minimum distance is exactly p, so at least p+2 slopes yield exact minimum-word center differences. At least (e+15)/2+r_alpha+r_beta of those slopes also have zero padding deficit.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_two_center_minword_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
