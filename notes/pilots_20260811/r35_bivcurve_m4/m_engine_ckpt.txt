@@ -1,0 +1,73 @@
+    0.0s start m=3 control
+    3.8s m=3 q=97 control tr=24 best={'FULL': 9}
+    7.5s m=3 q=97 control tr=49 best={'FULL': 9}
+   11.1s m=3 q=97 control tr=74 best={'FULL': 9}
+   14.6s m=3 q=97 control tr=99 best={'FULL': 9}
+   18.2s m=3 q=97 control tr=124 best={'FULL': 9}
+   21.8s m=3 q=97 control tr=149 best={'FULL': 9}
+   25.5s m=3 q=97 control tr=174 best={'FULL': 9}
+   29.3s m=3 q=97 control tr=199 best={'FULL': 9}
+   32.9s m=3 q=97 control tr=224 best={'FULL': 9}
+   36.6s m=3 q=97 control tr=249 best={'FULL': 9}
+   40.3s m=3 q=97 control tr=274 best={'FULL': 9}
+   44.0s m=3 q=97 control tr=299 best={'FULL': 9}
+   47.8s m=3 q=97 control tr=324 best={'FULL': 9}
+   52.5s m=3 q=97 control tr=349 best={'FULL': 9}
+   56.9s m=3 q=97 control tr=374 best={'FULL': 9}
+   61.1s m=3 q=97 control tr=399 best={'FULL': 9}
+   66.4s m=3 q=193 control tr=24 best={'FULL': 8}
+   71.9s m=3 q=193 control tr=49 best={'FULL': 9}
+   76.4s m=3 q=193 control tr=74 best={'FULL': 9}
+   80.9s m=3 q=193 control tr=99 best={'FULL': 9}
+   85.3s m=3 q=193 control tr=124 best={'FULL': 9}
+   90.2s m=3 q=193 control tr=149 best={'FULL': 9}
+   94.9s m=3 q=193 control tr=174 best={'FULL': 9}
+   99.6s m=3 q=193 control tr=199 best={'FULL': 9}
+  104.5s m=3 q=193 control tr=224 best={'FULL': 9}
+  109.2s m=3 q=193 control tr=249 best={'FULL': 9}
+  113.9s m=3 q=193 control tr=274 best={'FULL': 9}
+  118.6s m=3 q=193 control tr=299 best={'FULL': 9}
+  123.0s m=3 q=193 control tr=324 best={'FULL': 9}
+  127.7s m=3 q=193 control tr=349 best={'FULL': 9}
+  133.4s m=3 q=193 control tr=374 best={'FULL': 9}
+  140.1s m=3 q=193 control tr=399 best={'FULL': 9}
+  140.1s start m=4 layers
+  170.5s m=4 q=193 layers tr=24 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+  202.5s m=4 q=193 layers tr=49 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+  232.3s m=4 q=193 layers tr=74 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+  240.7s start m=5
+    0.0s start m=4 layers
+   13.4s m=4 q=257 layers tr=24 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+   26.8s m=4 q=257 layers tr=49 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+   38.1s m=4 q=257 layers tr=74 best={'V1 FULL': 7, 'V2 NO-LINEAR': 7, 'V3 NO-SLOPES': 12}
+   49.6s m=4 q=257 layers tr=99 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+   61.0s m=4 q=257 layers tr=124 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+   72.3s m=4 q=257 layers tr=149 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+   82.5s m=4 q=257 layers tr=174 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+   92.0s m=4 q=257 layers tr=199 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+  102.1s m=4 q=257 layers tr=224 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+  112.9s m=4 q=257 layers tr=249 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+  122.5s m=4 q=257 layers tr=274 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+  132.5s m=4 q=257 layers tr=299 best={'V1 FULL': 8, 'V2 NO-LINEAR': 8, 'V3 NO-SLOPES': 12}
+    0.0s start m=5
+   19.3s m=5 q=241 parity tr=24 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+   40.6s m=5 q=241 parity tr=49 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+   58.4s m=5 q=241 parity tr=74 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+   76.4s m=5 q=241 parity tr=99 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+   94.7s m=5 q=241 parity tr=124 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+  112.9s m=5 q=241 parity tr=149 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+  133.2s m=5 q=241 parity tr=174 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+  154.0s m=5 q=241 parity tr=199 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+  175.3s m=5 q=241 parity tr=224 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+  199.4s m=5 q=241 parity tr=249 best={'FULL': 7, 'NO-PAIRCAP': 7, 'NO-SLOPES': 15}
+    0.0s start m=5
+   21.6s m=5 q=401 parity tr=24 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+   44.2s m=5 q=401 parity tr=49 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+   67.0s m=5 q=401 parity tr=74 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+   89.0s m=5 q=401 parity tr=99 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  112.5s m=5 q=401 parity tr=124 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  139.6s m=5 q=401 parity tr=149 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  165.6s m=5 q=401 parity tr=174 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  188.6s m=5 q=401 parity tr=199 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  208.6s m=5 q=401 parity tr=224 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}
+  233.0s m=5 q=401 parity tr=249 best={'FULL': 6, 'NO-PAIRCAP': 6, 'NO-SLOPES': 15}

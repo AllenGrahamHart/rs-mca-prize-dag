@@ -3128,6 +3128,12 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   (NS-m) is retired to a corollary of (NS-W-m) + a bound on Rout —
   and Rout is now THE deciding question (bank-1's measured
   Rout <= 3 in 648/648: theorem or sample? cheap and decisive).
+  [RESOLVED (round 35): SAMPLE — and the premise was false as
+  printed: bank 1's own banked cell d3_m2_q193.txt:70-71 records
+  maxRout = 4. Rout is FREE (null-distributed; the trivial degree
+  bound is attained) and it enters the exact closure criterion
+  (CLO-m) with a POSITIVE sign, so bounding it was backwards.
+  See the round-35 Rout/layer-A addendum.]
   Bank-1's falsifier F4: FIRED in the F_q reading at m=1 (4800
   instances), NOT fired in the W reading — the readings disagree.
 - **THE WRONSKIAN INSTRUMENT IS WALLED, with the number:** a totally
@@ -3136,7 +3142,15 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   5/12 exactly as pre-registered; A-picture slack ~3m).
   Ramification measures multiplicity; (NS-*) measures rationality;
   independent.
-- **THE ROUND'S PROVED THEOREM (FACTOR-DEGREE DICHOTOMY):** in the
+- **THE ROUND'S PROVED THEOREM (FACTOR-DEGREE DICHOTOMY)
+  [ALREADY-PROVED IN-REPO (round-35 subtraction catch): this IS
+  the PROVED node rate_half_ca_hankel_endpoint_rational_branch_
+  exclusion, (CPR3)-(CPR5) — unique r = 4e-1 component, all
+  others balanced, e_(i*) >= ceil((3m+1)/4), sum of the rest <=
+  floor((m-1)/4), no splitting into m rational branches. The
+  round-34 pilot's CATCH-24A missed it and so did my audit; the
+  round-34 content stands as an independent re-derivation +
+  exhaustive check, not a new theorem]:** in the
   layer-A variables, deg_x additivity + fibre disjointness force
   T*rho - O <= sum_j min(T*d_j, N*m_j) with sum_j d_j <= rho over
   the F_q(x)-irreducible factorisation of the kernel biform Q.
@@ -3211,6 +3225,21 @@ W-layer only.
   (background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
   — pair-uniqueness forcing linearity); transport candidate for any
   m = 4 decision attempt.
+  [CORRECTED (round 35): the NAMED OBSTRUCTION IS MEASURED INERT —
+  ablating the linearity constraint moves the ceiling by ZERO
+  triples at both fields, and the abstract selection layer is
+  DECIDED SATISFIABLE (Z_12 difference-set certificate {i,i+1,i+3}:
+  12 triples, 3-regular, linear, 12 slopes, SDR); the binding
+  constraint is the <= rho slope budget alone (arithmetic
+  value-confinement). The ceiling 7 was SOFT (8 at matched budget,
+  9 with value-prescribed pencils, two fields). The m=5 parity
+  falsifier FIRED: (SPLIT-5)+sigma all-swapped — no invariant
+  factor forced — reaches only 7/15 and 6/15, so the odd/even
+  prediction is REFUTED as a realizability predictor (the
+  invariant-factor mechanism is real but subdominant). Law of
+  record: coincidence demand 3m^2-7m+2 (8, 22, 42 at m = 3,4,5)
+  against a supply FLAT in m — m = 3 is where the curves cross.
+  See the round-35 (BIV-CURVE) m=4 addendum.]
 - **THE BOUNDARIES DIVERGE (registered prior 0.12, resolved NO):**
   TCAP-DIM (full Hankel realizability; posed boundary m <= 2,
   excess +35 at m = 3) and (BIV-CURVE) (W-layer incidence;
@@ -3569,3 +3598,256 @@ on B_ca^far(k+2^34) either way.
   bits of EPSILON_BITS) is a COINCIDENCE (n/rho vs the prize
   soundness parameter) and is recorded to prevent a future false
   link.
+
+## Round-35 (BIV-CURVE) m=4 addendum (2026-08-11, coordinator-audited): the round-34 obstruction measured INERT; the parity prediction refuted; five classes searched-negative; (OUT-m) refined to an identity
+
+Pilot r35_bivcurve_m4 (round 35, bank 3). m = 4 remains OPEN — no
+witness, no theorem — but the obstruction is relocated, re-scoped,
+and its ceiling raised. Coordinator hand-checks: the Z_12
+certificate (differences of {0,1,3} are +-1,+-2,+-3 all distinct
+=> linear; 3-regular; SDR), the route-(b) quotient-coordinate
+derivation, the (OUT-m) aggregate identity, and the (DEG-m)
+algebra all verified.
+
+- **THE ABLATION (the round's main measurement):** with the
+  linearity/(OV) constraint REMOVED from the m=4 selection search,
+  the ceiling does not move at either field (7/7 at q=193, 8/8 at
+  q=257; m=5 histograms BIT-IDENTICAL with and without the pair
+  cap); with the <= rho SLOPE BUDGET removed instead, 12/12 in
+  383/383 draws (15/15 in 500/500 at m=5). **The (OV)-forced
+  linear hypergraph is real, proved, and INERT; the whole
+  obstruction is arithmetic value-confinement (the slope
+  budget).** The u1_x4 compiler transported and DECIDED the
+  selection layer — positively, i.e. in the opposite direction to
+  the transport's motivation.
+- **FIVE CLASSES NOW SEARCHED-NEGATIVE (budgets 12000-30000 DFS
+  nodes/draw, two fields each):** (1) (SPLIT-4)+sigma(-x) random,
+  ceiling 8; (2) value-prescribed (SPLIT-4) (seven phi-values by a
+  7x8 nullspace, targets from the Z_12 certificate), ceiling 9 —
+  round 34's declared structured-pencil blind spot now measured,
+  and its ceiling was SOFT (7 -> 9); (3) (SPLIT-4)+sigma(c/x),
+  ceiling 7 — route (b) refuted at the DERIVATION level: for ANY
+  involution the invariant subfield is F_q(w) (w = x^2 or
+  x + c/x), so a deg_x <= 3 invariant factor is Möbius in w and
+  INJECTIVE ON ORBITS (167/167, 177/177) — the fixed points never
+  touch the cross-coincidence term (the round-35 brief's route-(b)
+  hypothesis was WRONG; coordinator brief error, recorded);
+  (4) un-symmetrised (3,3,3), ceiling 8 of 24 (demand 58 vs 21
+  parameters — the worst route, now measured); (5) (QUAD-4), the
+  first genuine non-split probe (G = Q(Z,u)L(Z,u), u = x^2, Q an
+  irreducible sigma-invariant Z-quadratic; 14 parameters vs 10;
+  disc-square rate 15.7/32 confirms non-splitness), ceiling 7 —
+  the extra parameters are repaid by losing half the orbit pool.
+  UNTOUCHED: general non-split G with no sigma-symmetry and no
+  Q*L factorisation. DERIVED en route: at even m EVERY
+  sigma-symmetric ansatz wastes one unit of the 3m-3 budget
+  (invariant factors have even x-degree).
+- **AUDIT QUALIFIER (coordinator):** the pilot's R2.3 parity
+  argument ("no involution makes W sigma-stable at even m") is
+  over-broad on the c in mu_32 branch — #Fix = 2 admits a
+  sigma-stable odd set containing exactly one fixed point; the
+  inference holds only when #Fix = 0. The route-(b) kill is
+  carried entirely by the injectivity derivation, which is sound.
+- **THE m=5 PARITY FALSIFIER FIRED.** (SPLIT-5)+sigma all-swapped
+  (no invariant factor, budget 3+3+3+3 = 12 = 3m-3 exact — the
+  configuration parity called easy) reaches 7/15 and 6/15: FURTHER
+  from target than m=4. The law of record is parity-free:
+  **coincidence demand D(m) = 3m(m-1)-(rho-1) = 8, 22, 42 at
+  m = 3, 4, 5 against supply FLAT in m (best achieved 8, 12, 9) —
+  m = 3 is the last m where supply meets demand, exactly** (which
+  is why the m=3 witness cost 632/24939 trials). The pair-
+  multiplicity cap generalises to floor((m-1)/2) (linearity = its
+  m=4 face, as round 34's caution said — and it is inert there
+  too). Positive control: the same engine reaches 9/9 at m=3 on
+  both fields.
+- **(OUT-m) SURVIVED ALL STRESS AND IS REFINED TO AN IDENTITY
+  (adopted):** sum_gamma eps~_gamma = sum_x def(x)*t_x with t_x
+  the number of type-2 blocks through x, charging m-1 / m-2 / m-3
+  per unit of deficiency at outside / symmetric-difference /
+  middle points respectively (coordinator-verified: trivial
+  double-count once stated). The aggregate (m-1)(1+O) is attained
+  ONLY by outside deficiency — the m=3 witness attains it exactly
+  (sum = 2 = (m-1)(1+O), and the refuted original rider fails
+  2 > 1, reproducing the round-34 catch); the m=2 exhibit (inside
+  placement) charges 0. COROLLARY (DEG-m), inheriting POSED
+  status: in sigma-designs X' = 2 deg_H, so deg_H(gamma) +
+  X''_gamma >= ceil((m-1-eps~)/2) with the exact middle budget
+  sum_gamma X''_gamma = (m-1)(m-2) — at m >= 4 a degree-1 slope
+  REQUIRES middle support, a constraint round 34's DFS never
+  imposed (its ceiling was measured on a relaxation); both
+  selection certificates survive the tightening. SYMBOL COLLISION
+  recorded: deg_H already names the bipartite non-incidence degree
+  in the PROVED a1_core_one_active_partition_incidence_
+  reconstruction node — two objects, one symbol, same rate_half
+  family.
+- **SCOPE FENCES:** every negative is a DFS ceiling under a named
+  budget over a named class; no configuration this round was
+  completed (no outside completion, no bivariate system, no
+  per-side verification — selection-layer objects only; the k=9
+  m=4 candidates are provably NOT completable as they stand: six
+  degree-1 slopes against a completeness bound of four); layer A
+  still unrun; (SAT3)-conditionality untouched; two fields is not
+  q-uniformity; (DEG-m) inherits (OUT-m)'s POSED status. Pilot
+  compliance: 9/9 ramguard clean (7th consecutive), zero
+  write-discipline breaches; one recursive grep traversed dag.json
+  as a filename (disclosed; round-36 CONSTRAINTS add
+  --exclude=dag.json to the standard flags).
+
+## Round-35 Rout/layer-A addendum (2026-08-11, coordinator-audited): Rout is FREE and the sign was backwards; layer A kills the m=3 witness COMPLETION-INDEPENDENTLY; the dichotomy was already proved
+
+Pilot r35_rout_layer_a (round 35, bank 4). Coordinator
+verifications: maxRout = 4 confirmed in bank 1's own banked file;
+the rational_branch_exclusion node read (PROVED, (CPR3)-(CPR5) as
+claimed); the pilot's one write-scope breach (an imported bank
+script's output path overwrote r34_layer_a/d3b_replay_results.txt
+at import time) left the repo CLEAN — git shows the regenerated
+content byte-identical to the committed banked file (deterministic
+seed), so the breach is procedural only; censured, and round-36
+CONSTRAINTS add "audit imported scripts' output paths BEFORE
+import".
+
+- **ROUT DECIDED: FREE, AND THE QUESTION WAS POSED BACKWARDS.**
+  Rout <= d-m is refuted IN CLASS at m=1 (4800/5280 on the
+  realized (SAT3) stratum, replayed) and out of class at m=2,3
+  inside the canonical band a >= 7m-1 (582 violations / 7275
+  slopes, two fields at m=2); the banked "Rout <= 3" was false as
+  printed (max 4 in its own file); Rout matches a uniform-random-
+  polynomial null cell-by-cell (32700 slopes) and attains the
+  trivial degree bound. THE SIGN: rearranging the banked (JDEC) +
+  (DEGSUM) gives the EXACT closure criterion
+  **(CLO-m): (d - Dh) + (n - ov) + Rout + nonsplit >= m**
+  (equivalent to X <= d-m in 32700/32700) — Rout enters
+  POSITIVELY; a bound on it could never buy closure.
+  STATUS: (NS-m) RETIRED (strictly stronger than needed, false
+  where closure holds); **(NS-W-m) is the target of record WITH
+  HYPOTHESES STATED (canonical minimising W*, a >= 7m-1, d >= m)**
+  — it holds 7275/7275 there and 5280/5280 in class, but FAILS at
+  planted W (6686 times), so the hypotheses are load-bearing;
+  (CLO-m) recorded as the exact target. The round-34 restatement
+  was a REDIRECTION, not a correction. CLASS CAVEAT (both banks):
+  every m >= 2 measurement is outside the T = rho+2 class (the
+  constructor realizes max T = 3), and the class itself may be
+  empty — see the gate below.
+- **LAYER A KILLS THE m=3 (BIV-CURVE) WITNESS —
+  COMPLETION-INDEPENDENTLY (round-34 MISS 7 discharged).** LA|_W
+  (the 60 incidences INSIDE W only) already forces Q = 0 on both
+  fields; no outside completion can rescue the witness (40 fresh
+  completions: 40/40 killed; 4791/4845 resp. 4823/4845 of all
+  16-subsets of W already bind — "any 16" is FALSE, caught by the
+  pilot's own exhaustive scan). Span rank 12 = rho+1, maximal.
+  MECHANISM **(LA-W COUNT), posed**: at a = 7m-1 with W saturated,
+  the W-incidences impose (7m-1)m conditions on (rho+1)(m+1) =
+  4m(m+1) biform coefficients — excess 3m^2-5m, NEGATIVE ONLY AT
+  m=1. All three regressions fire (m=1: 16/16 witnesses survive
+  with nullity exactly 2; m=2: bank 2's exhibit killed by its 26
+  W-incidences alone — new; m=3: killed, both fields). The pilot's
+  repaired positive control fires 6/6+6/6 (round-34's control
+  never could — demand-splitting removed). **Proving (LA-W COUNT)
+  as a rank theorem would make layer A an unconditional exclusion
+  at every saturated a = 7m-1 configuration — the named
+  instrument of record.**
+- **THE MULTIPLICATIVE PUSH: THE SURVIVOR STANDS, AND THE
+  DICHOTOMY WAS ALREADY PROVED.** Three of the round's D3 objects
+  subtracted to PROVED nodes: the factor-degree dichotomy + its
+  per-factor sharpening = rational_branch_exclusion (CPR3)-(CPR5)
+  (the ALREADY-PROVED marker above); the norm identity = (ENF2)
+  transposed; the coset obstruction = the quartic_coset_biform
+  lift node's gcd(4m-1,16m) = 1. The m=2 survivor (Q irreducible,
+  bidegree (2,7)) is exactly the (CPR3) profile — NOT emptied;
+  survivor count closed form sum_{k <= floor((m-1)/4)} p(k).
+  WHAT IS NEW — **the quantified gate**: the multiplicative domain
+  enters only through C(16m, 4m-1) (q-INDEPENDENT count of
+  degree-rho squarefree divisors of x^N-1) against ambient q^rho;
+  the layer-A-consistency first moment is calibrated TWICE at m=1
+  (+13.75 bits at q=17 where EXACTLY 16 configurations exist and
+  they ARE the 16 realized (SAT3) families — two independent
+  constructions; -0.94 at q=97 where none are realized) and is
+  NEGATIVE for every m >= 2 at every field (~ -1952 m^2 bits at
+  official scale; overestimates by 2^9.8 at its own calibration
+  point, the safe direction). HEURISTIC — but it is the lane's
+  first quantitative instrument for m >= 2, and it says the
+  T = rho+2 class is likely EMPTY there (making the (NS-*) family
+  vacuous and converging with round-34 bank 4's searched-negative
+  and the corrected TCAP ledger from a third direction).
+- **SCOPE FENCES:** the m=3 Rout census is single-field; the
+  layer-A kill has power over the witness and its completions
+  only (no m >= 2 layer-A-consistent candidate was sought);
+  nullity 0 on structured objects is not non-existence; the first
+  moment is negative, which proves nothing; all m >= 2
+  measurements out of class; everything (SAT3)-conditional.
+
+## ROUND 35 CLOSE (2026-08-11): the four banks reconciled — the board inverts
+
+**BANK 1 (r35_l2_gate):** R-L2 NONEMPTY (theorem; 12 witnesses, 5
+fields, coordinator-independent verification); the emptiness route
+dead everywhere (11m-4 > 0); the strict-endpoint stake re-priced
+(residual-pole node already excludes official-row strict A=3 e=m
+profiles); gate of record (SAT3)-on-(L2); DEF-ID a coincidence.
+**BANK 2 (r35_fg_razor):** R-FG-RAZOR walled and downgraded; the
+type-2 ledger vacuous by sign on the whole open bracket; R-HRLOW
+promoted (LB1 the h_r = rho+1 extremal; the first moment wrong by
+6.7e11 bits against LB1's proved floor). **BANK 3
+(r35_bivcurve_m4):** the round-34 m=4 obstruction measured INERT
+(ablation; selection layer decided satisfiable by the Z_12
+certificate); ceiling soft (7 -> 9); the m=5 parity falsifier
+FIRED; law of record = demand 3m^2-7m+2 vs flat supply; (OUT-m)
+refined to an identity. **BANK 4 (r35_rout_layer_a):** Rout free
+and the sign backwards ((CLO-m) exact; (NS-m) retired, (NS-W-m)
+of record with hypotheses); layer A kills the m=3 witness
+completion-independently ((LA-W COUNT) 3m^2-5m); the dichotomy
+was ALREADY PROVED in-repo; the C(16m,4m-1) first-moment gate
+calibrated twice at m=1.
+
+**THE RECONCILED PICTURE — the two fronts of round 34 have
+INVERTED:**
+
+1. **The conditioning front:** R-L2 answered NONEMPTY (the
+   emptiness escape is gone), so the strict endpoint at small m
+   rides entirely on (SAT3)-on-(L2): can the free B-parameters of
+   bank 1's inversion make locators split over mu_32 at
+   T = rho+2? THREE independent instruments now say that class is
+   empty-expected at m >= 2 (round-34's searched-negative; the
+   corrected TCAP ledger; bank 4's calibrated first-moment gate at
+   ~ -1952 m^2 bits) — but none is a theorem, and bank 1's
+   witnesses prove counting alone cannot be trusted in this lane
+   (11m-4 vs the dead +4 reading; LB1 vs its first moment,
+   bank 2). **The instrument face-off of record: design B to beat
+   the moment (bank 1's route) vs prove the (LA-W COUNT) rank
+   statement (bank 4's route — which would close every saturated
+   a = 7m-1 configuration at once, unconditionally).**
+2. **The instrument front:** layer A is CONFIRMED as the sole and
+   sufficient W-layer exclusion instrument at m = 2, 3
+   (completion-independent kills at both); the W-layer witness
+   fences cost it nothing. The far-CA front is restructured
+   around R-HRLOW (the type-2 ledger cannot reach the bracket;
+   FG cannot carry the extremal count; LB1's mechanism — a fixed
+   (r+1)-point set with r+1 locators — is the only known way to
+   beat a first moment in this lane, and the question is whether
+   any h_r > rho+1 stratum has an analogue).
+
+**AUDIT LEDGER OF THE ROUND (9th consecutive round the cadence
+caught real text):** banked text corrected — the round-34 m=4
+obstruction attribution (inert), the round-34 close's R-L2 stake
+(over-priced vs the residual-pole node), the round-33/34 "Rout <=
+3" (false as printed, max 4 in its own file), the round-34
+"PROVED THEOREM" dichotomy (already proved in-repo), q_crit and
+LB1-generic (scope-corrected), the r34_pstar FG-criterion row
+(h_r = p* not sufficient), + the round-35 brief's own route-(b)
+hypothesis (refuted at derivation level) and pilot text (R2.3
+over-broad; "any 16 points" false). COMPLIANCE: banks 1-3 clean
+(5th-7th consecutive); bank 4 clean on compute (10/10 ramguard)
+with ONE write-scope breach (imported script's output path;
+repo left byte-identical; procedural censure; round-36 rule:
+audit imported output paths BEFORE import, pre-list sibling
+names, --exclude=dag.json standard).
+
+**ROUND-36 ANCHORS (priority order):** (1) **(LA-W COUNT) -> rank
+theorem** (closes all saturated a = 7m-1 configurations
+unconditionally; squarely inside the RNC gate); (2)
+**(SAT3)-on-(L2)** (bank 1's free-B design vs the first-moment
+gate — either a witness that beats three instruments or evidence
+the class is empty); (3) **R-HRLOW** (the h_r = rho+2..O(1) band:
+does any stratum above LB1 carry an LB1-type mechanism?);
+(4) the general non-split m=4 probe + (DEG-m)-tightened searches;
+(5) the m=1 16=16 coincidence node (the lane's only calibrated
+instrument); (6) retire Rout permanently (do not re-spend).

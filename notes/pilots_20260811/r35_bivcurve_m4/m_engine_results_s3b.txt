@@ -1,0 +1,22 @@
+==============================================================================
+r35 -- (SPLIT-m)+sigma UNDER ONE ENGINE:  m = 3 (control), 4, 5
+==============================================================================
+
+registered (SUPPLY-CODIM) excess E = P - D, D = 3m^2-7m+2 (coincidences
+needed by the shared tuples), P = pencil parameters:
+    m=2 : slots 3m(m-1) =  6 ; slopes rho-1 =  6 ; D =  0 ; P =  7 ; E = +7
+    m=3 : slots 3m(m-1) = 18 ; slopes rho-1 = 10 ; D =  8 ; P =  7 ; E = -1
+    m=4 : slots 3m(m-1) = 36 ; slopes rho-1 = 14 ; D = 22 ; P = 10 ; E = -12
+    m=5 : slots 3m(m-1) = 60 ; slopes rho-1 = 18 ; D = 42 ; P = 14 ; E = -28
+
+
+------------------------------------------------------------------------------
+STEP 3 -- m = 5, THE PARITY FALSIFIER ((SPLIT-5)+sigma, ALL-SWAPPED,
+          m-1 = 4 factors, NO sigma-invariant factor forced)
+  m=5 q=401 parity : 250 draws (250 usable), tuples/draw avg 38.9 of 40 orbits
+    NEED 15 tuples ; deg cap 4 ; <= 19 slopes ; pair cap 2 ; (DEG-m) min deg 2 ; params P = 14
+    [FULL           deg<=4 slopes<=19  paircap=2 ] BEST =  6 of 15   (min-deg-2-clean BEST = 0)   hist [(5, 89), (6, 161)]
+    [NO-PAIRCAP     deg<=4 slopes<=19  paircap=99] BEST =  6 of 15   (min-deg-2-clean BEST = 0)   hist [(5, 89), (6, 161)]
+    [NO-SLOPES      deg<=4 slopes<=999 paircap=2 ] BEST = 15 of 15   (min-deg-2-clean BEST = 0)   hist [(15, 250)]
+
+==============================================================================

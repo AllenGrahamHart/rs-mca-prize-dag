@@ -1,0 +1,41 @@
+==============================================================================
+r35 D1 -- STRUCTURED vs RANDOM PENCILS AT m = 4
+==============================================================================
+prescribing 7 of phi's 8 coefficients' worth of conditions EXACTLY by
+linear algebra (R5.1).  Same DFS, same budget, same draw count as the
+RANDOM baseline in the same run -- so the comparison is apples-to-apples.
+
+------------------------------------------------------------------------------
+  q=193  RANDOM    :  220 usable draws, budget 12000 -> BEST =  8 of 12   hist [(6, 162), (7, 56), (8, 2)]
+  q=193  ALLOC-A   :  207 usable draws, budget 12000 -> BEST =  9 of 12   hist [(6, 4), (7, 137), (8, 63), (9, 3)]
+           targeted triples realised per draw: min 2 mean 2.96 max 3 (7 of 24 arrows forced -> 3 guaranteed under ALLOC-A)
+           best A=[85, 93, 67, 141] B=[121, 83, 23, 1] R=[36, 56] S=[130, 45]
+             triple (0, 108, 145)
+             triple (65, 179, 107)
+             triple (145, 107, 171)
+             triple (145, 30, 183)
+             triple (10, 147, 108)
+             triple (0, 134, 32)
+             triple (170, 30, 134)
+             triple (65, 171, 186)
+             triple (186, 107, 0)
+  q=193  ALLOC-B   :  211 usable draws, budget 12000 -> BEST =  8 of 12   hist [(6, 90), (7, 114), (8, 7)]
+           targeted triples realised per draw: min 0 mean 0.07 max 1 (7 of 24 arrows forced -> 3 guaranteed under ALLOC-A)
+------------------------------------------------------------------------------
+  q=257  RANDOM    :  220 usable draws, budget 12000 -> BEST =  7 of 12   hist [(5, 3), (6, 196), (7, 21)]
+  q=257  ALLOC-A   :  214 usable draws, budget 12000 -> BEST =  9 of 12   hist [(6, 4), (7, 163), (8, 46), (9, 1)]
+           targeted triples realised per draw: min 2 mean 2.97 max 4 (7 of 24 arrows forced -> 3 guaranteed under ALLOC-A)
+           best A=[18, 255, 132, 206] B=[98, 168, 166, 1] R=[84, 150] S=[164, 102]
+             triple (186, 86, 26)
+             triple (101, 196, 200)
+             triple (186, 226, 115)
+             triple (177, 101, 88)
+             triple (88, 26, 196)
+             triple (186, 113, 237)
+             triple (226, 113, 131)
+             triple (115, 110, 177)
+             triple (26, 145, 101)
+  q=257  ALLOC-B   :  211 usable draws, budget 12000 -> BEST =  8 of 12   hist [(6, 98), (7, 108), (8, 5)]
+           targeted triples realised per draw: min 0 mean 0.04 max 1 (7 of 24 arrows forced -> 3 guaranteed under ALLOC-A)
+
+==============================================================================

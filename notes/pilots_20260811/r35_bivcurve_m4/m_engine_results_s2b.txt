@@ -1,0 +1,24 @@
+==============================================================================
+r35 -- (SPLIT-m)+sigma UNDER ONE ENGINE:  m = 3 (control), 4, 5
+==============================================================================
+
+registered (SUPPLY-CODIM) excess E = P - D, D = 3m^2-7m+2 (coincidences
+needed by the shared tuples), P = pencil parameters:
+    m=2 : slots 3m(m-1) =  6 ; slopes rho-1 =  6 ; D =  0 ; P =  7 ; E = +7
+    m=3 : slots 3m(m-1) = 18 ; slopes rho-1 = 10 ; D =  8 ; P =  7 ; E = -1
+    m=4 : slots 3m(m-1) = 36 ; slopes rho-1 = 14 ; D = 22 ; P = 10 ; E = -12
+    m=5 : slots 3m(m-1) = 60 ; slopes rho-1 = 18 ; D = 42 ; P = 14 ; E = -28
+
+
+------------------------------------------------------------------------------
+STEP 2 -- m = 4, THE LAYER SEPARATION (which constraint binds?)
+  V1 FULL      = r34's constraint set (linear, deg<=3, <=15 slopes)
+  V2 NO-LINEAR = drop the (OV) linearity -> isolates the SELECTION layer
+  V3 NO-SLOPES = drop the <=15 slope cap -> isolates the ARITHMETIC layer
+  m=4 q=257 layers : 300 draws (300 usable), tuples/draw avg 31.2 of 32 orbits
+    NEED 12 tuples ; deg cap 3 ; <= 15 slopes ; pair cap 1 ; (DEG-m) min deg 2 ; params P = 10
+    [V1 FULL        deg<=3 slopes<=15  paircap=1 ] BEST =  8 of 12   (min-deg-2-clean BEST = 0)   hist [(5, 2), (6, 269), (7, 28), (8, 1)]
+    [V2 NO-LINEAR   deg<=3 slopes<=15  paircap=99] BEST =  8 of 12   (min-deg-2-clean BEST = 0)   hist [(5, 2), (6, 260), (7, 37), (8, 1)]
+    [V3 NO-SLOPES   deg<=3 slopes<=999 paircap=1 ] BEST = 12 of 12   (min-deg-2-clean BEST = 0)   hist [(12, 300)]
+
+==============================================================================

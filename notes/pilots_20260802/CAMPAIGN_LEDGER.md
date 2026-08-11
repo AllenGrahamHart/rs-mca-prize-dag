@@ -5628,3 +5628,101 @@ e3 replayed. COMPLIANCE: 6/6 ramguard, zero bare python3 (6th
 consecutive clean); find-names-only exclude-list fix adopted for
 round 36. Node: R-FG-RAZOR addendum + two inline SCOPE-CORRECTED
 markers. Mint +4. Files: notes/pilots_20260811/r35_fg_razor/.**
+
+## ROUND 35 BANK 3/4 — r35_bivcurve_m4 (2026-08-11, coordinator)
+
+**BANKED — m=4 OPEN but the ROUND-34 OBSTRUCTION IS MEASURED
+INERT: ablating the (OV)/linearity constraint moves the ceiling by
+ZERO triples (7/7, 8/8 two fields; m=5 histograms bit-identical);
+removing the slope budget reaches 12/12 in 383/383 — the whole
+obstruction is arithmetic value-confinement. The u1_x4 compiler
+transported and DECIDED the selection layer POSITIVELY (Z_12
+{i,i+1,i+3} certificate, coordinator hand-verified: linear,
+3-regular, 12 slopes, SDR). FIVE classes searched-negative
+(random SPLIT-4: 8; value-prescribed: 9 — the ceiling was SOFT;
+sigma(c/x): 7, refuted at DERIVATION level (any involution's
+invariant factor is Möbius in the quotient coordinate, injective
+on orbits — MY round-35 brief's route-(b) hypothesis was WRONG,
+recorded); (3,3,3): 8 of 24; (QUAD-4) non-split probe: 7).
+m=5 PARITY FALSIFIER FIRED (7/15, 6/15 — worse than m=4); law of
+record = demand 3m^2-7m+2 vs FLAT supply, m=3 the crossing.
+(OUT-m) survived all stress + REFINED TO AN IDENTITY (sum eps~ =
+sum def(x)*t_x, charges m-1/m-2/m-3 by placement; the m=3 witness
+attains the aggregate exactly; (DEG-m) corollary with middle
+budget (m-1)(m-2) — round 34's ceiling was on a RELAXATION).
+AUDIT CATCH: pilot R2.3 parity inference over-broad on the
+c-in-mu_32 branch (qualifier applied; injectivity carries the
+kill). Compliance: 9/9 ramguard (7th consecutive clean); one
+dag.json grep traversal disclosed. Node: CORRECTED marker +
+addendum. Mint +4. Files: notes/pilots_20260811/r35_bivcurve_m4/.**
+
+## ROUND 35 BANK 4/4 — r35_rout_layer_a (2026-08-11, coordinator)
+
+**BANKED — ROUT DECIDED FREE AND THE SIGN WAS BACKWARDS; LAYER A
+KILLS THE m=3 WITNESS COMPLETION-INDEPENDENTLY; THE DICHOTOMY WAS
+ALREADY PROVED. Premise false as printed: bank 1's own banked
+file has maxRout = 4 (verified); Rout <= d-m refuted in class at
+m=1 (4800/5280) and in the canonical band (582/7275); Rout is
+null-distributed and attains the degree bound. (CLO-m) exact
+closure criterion (32700/32700) has Rout POSITIVE — (NS-m)
+RETIRED; (NS-W-m) of record WITH hypotheses (canonical W*,
+a >= 7m-1, d >= m — fails 6686x at planted W); redirection
+confirmed. LAYER A: LA|_W (60 inside-W incidences) forces Q = 0
+both fields — no completion can rescue; 40/40 completions killed;
+4791+4823/4845 16-subsets bind ("any 16" self-overturned);
+(LA-W COUNT) posed: excess 3m^2-5m, negative ONLY at m=1; all
+three regressions fire (m=1 nullity exactly 2, 16/16; bank 2's
+exhibit killed by 26 W-incidences alone — NEW; m=3 killed);
+repaired positive control fires 6/6+6/6. SUBTRACTION CATCH
+AGAINST MY OWN ROUND-34 BANK: the factor-degree dichotomy IS the
+PROVED rational_branch_exclusion node (CPR3)-(CPR5) (verified by
+reading the node) — ALREADY-PROVED marker applied; round-34
+content re-graded to independent re-derivation. THE QUANTIFIED
+GATE (new): layer-A-consistency first moment with q-independent
+input C(16m,4m-1), calibrated TWICE at m=1 (the 16 realized
+(SAT3) families ARE the layer-A-consistent configurations — two
+constructions), NEGATIVE for all m >= 2 (~ -1952 m^2 bits at
+scale): third independent instrument saying the T = rho+2 class
+is empty-expected at m >= 2. COMPLIANCE: compute clean 10/10
+(8th consecutive); ONE write-scope breach (imported script's
+output path overwrote a banked results file at import — git
+CLEAN, deterministic regeneration byte-identical; procedural
+censure; round-36 rule: audit imported output paths). Node: two
+correction markers + addendum + ROUND 35 CLOSE. Mint +5.
+Files: notes/pilots_20260811/r35_rout_layer_a/.**
+
+## ROUND 35 COMPLETE (2026-08-11, coordinator)
+
+**FOUR BANKS, ZERO STATUS FLIPS, CENSUS UNCHANGED
+(231=167/37/27, 246=179/39/28) — THE DECISION ROUND INVERTED THE
+BOARD. Bank 1: R-L2 NONEMPTY (theorem; 12 witnesses; emptiness
+route dead; strict-endpoint stake re-priced vs the residual-pole
+PROVED node; gate = (SAT3)-on-(L2); DEF-ID coincidence). Bank 2:
+R-FG-RAZOR walled/downgraded; type-2 ledger vacuous by sign on
+the bracket; R-HRLOW promoted (LB1 beats its first moment by
+6.7e11 bits). Bank 3: the m=4 obstruction inert; ceiling soft
+(9); m=5 parity falsifier fired; demand-vs-flat-supply law.
+Bank 4: Rout free/backwards; (NS-m) retired; layer A kill
+completion-independent; (LA-W COUNT) posed; dichotomy
+already-proved; the C(16m,4m-1) gate calibrated twice.
+RECONCILED: the strict endpoint at small m rides on
+(SAT3)-on-(L2), with THREE independent instruments saying the
+class is empty-expected at m >= 2 and bank 1's witnesses proving
+counting alone cannot be trusted — the FACE-OFF of record:
+design B to beat the moment vs prove (LA-W COUNT) as a rank
+theorem (which closes every saturated a = 7m-1 configuration
+unconditionally). Layer A confirmed sole+sufficient W-layer
+instrument at m=2,3. Far-CA restructured around R-HRLOW. AUDIT
+LEDGER (9th consecutive catching round): round-34 m=4 obstruction
+(inert), round-34 R-L2 stake (over-priced), Rout <= 3 (false as
+printed), round-34 dichotomy (already proved in-repo — my own
+bank corrected), q_crit + LB1-generic (scope), r34_pstar FG
+criterion row, my round-35 route-(b) brief hypothesis, pilot
+R2.3 + "any 16". COMPLIANCE: 4/4 compute-law clean (5th-8th
+consecutive); one procedural write-scope breach (repo clean).
+ROUND-36 RULES: audit imported output paths before import;
+pre-list sibling dir names; --exclude=dag.json standard.
+ROUND-36 ANCHORS: (1) (LA-W COUNT) -> rank theorem; (2)
+(SAT3)-on-(L2) free-B design vs the gate; (3) R-HRLOW; (4)
+general non-split m=4 + (DEG-m)-tightened; (5) the m=1 16=16
+node; (6) Rout retired permanently.**

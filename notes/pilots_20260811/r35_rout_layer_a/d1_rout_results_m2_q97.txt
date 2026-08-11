@@ -1,0 +1,41 @@
+==============================================================================
+D1 (r35) SCALED Rout CENSUS   m=2 q=97 rho=7 N=32  budget=25s
+  a values planted: [12, 13, 14] ;  a* = 7m-1 = 13 ; 2rho = 14 ; 4m+2 = 10
+  d = a-(4m+2) ; the ledger needs X <= d-m ; (NS-m) needs Rin_m+Rout <= d-m
+==============================================================================
+
+  pencils built = 5834   (sweeps over the a-list: 565)
+
+--- CONTROLS (bank 1's identities on MY re-implementation) ---
+  type-2 slopes measured         : 5274
+  Rin = n + X - ov               : OK 5274  BAD 0
+  (JDEC) d - Rin = o + j + cancel: OK 5274  BAD 0
+  (DEGSUM) Dh = Rin_m+Rout+nonsp : OK 5274  BAD 0
+  every W-root of h simple       : OK 5274  BAD 0
+  (CLO) <=> closure X <= d-m     : OK 5274  BAD 0
+
+--- PER-CELL  (violations counted only where the stated bound bites) ---
+  where     a   d  d-m  slopes  meanRout maxRout | meanNULL maxNULL | Rout>d-m  NSA_bad  NSW_bad  maxX
+  canon     10   0   -2      42     0.000       0 |    0.000       0 |       42       42       42     0
+  canon     11   1   -1     410     0.212       1 |    0.188       1 |      410      410      410     1
+  canon     12   2    0     985     0.631       2 |    0.572       2 |      536      869      783     2
+  canon     13   3    1     751     0.790       3 |    0.839       3 |      162      164        0     1
+  canon     14   4    2     449     0.739       4 |    0.958       4 |        7        7        0     0
+  planted   12   2    0       9     0.000       0 |    0.000       0 |        0        9        9     2
+  planted   13   3    1     249     0.482       2 |    0.446       2 |       19      222      203     3
+  planted   14   4    2    2379     0.636       4 |    0.653       4 |       47     1259     1012     4
+
+--- Rout HISTOGRAM  vs  THE NULL (uniform poly of the same cofactor deg) ---
+  Rout value :      0      1      2      3      4
+  measured   :   2786   1816    578     80     14
+  null model :   2784   1758    612     97     23
+  mean measured = 0.6196 ; mean null = 0.6380 ; slopes = 5274
+  roots that land in D\W : measured 516/3268 ; null 748/3365 ; (N-a)/(q-a) ~ 0.235
+
+--- GROWTH OF max Rout WITH SAMPLE SIZE (the sample-artifact test) ---
+  new record at slope #, value, a, where, d
+          3   Rout =  1   a=14  planted  d=4
+          7   Rout =  2   a=14  planted  d=4
+         35   Rout =  4   a=14  planted  d=4
+
+=== END d1_rout m=2 q=97 ===

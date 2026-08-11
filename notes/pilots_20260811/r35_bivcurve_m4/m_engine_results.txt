@@ -1,0 +1,52 @@
+==============================================================================
+r35 -- (SPLIT-m)+sigma UNDER ONE ENGINE:  m = 3 (control), 4, 5
+==============================================================================
+
+registered (SUPPLY-CODIM) excess E = P - D, D = 3m^2-7m+2 (coincidences
+needed by the shared tuples), P = pencil parameters:
+    m=2 : slots 3m(m-1) =  6 ; slopes rho-1 =  6 ; D =  0 ; P =  7 ; E = +7
+    m=3 : slots 3m(m-1) = 18 ; slopes rho-1 = 10 ; D =  8 ; P =  7 ; E = -1
+    m=4 : slots 3m(m-1) = 36 ; slopes rho-1 = 14 ; D = 22 ; P = 10 ; E = -12
+    m=5 : slots 3m(m-1) = 60 ; slopes rho-1 = 18 ; D = 42 ; P = 14 ; E = -28
+
+------------------------------------------------------------------------------
+STEP 1 -- POSITIVE CONTROL at m = 3 (the harness must reach 9 of 9)
+  m=3 q=97 control : 400 draws (400 usable), tuples/draw avg 23.3 of 24 orbits
+    NEED 9 tuples ; deg cap 2 ; <= 11 slopes ; pair cap 1 ; (DEG-m) min deg 1 ; params P = 7
+    [FULL           deg<=2 slopes<=11  paircap=1 ] BEST =  9 of  9   (min-deg-1-clean BEST = 9)   hist [(5, 1), (7, 124), (8, 247), (9, 28)]
+  m=3 q=193 control : 400 draws (400 usable), tuples/draw avg 23.6 of 24 orbits
+    NEED 9 tuples ; deg cap 2 ; <= 11 slopes ; pair cap 1 ; (DEG-m) min deg 1 ; params P = 7
+    [FULL           deg<=2 slopes<=11  paircap=1 ] BEST =  9 of  9   (min-deg-1-clean BEST = 9)   hist [(5, 3), (6, 43), (7, 276), (8, 76), (9, 2)]
+
+------------------------------------------------------------------------------
+STEP 2 -- m = 4, THE LAYER SEPARATION (which constraint actually binds?)
+  V1 FULL      = r34's constraint set (linear, deg<=3, <=15 slopes)
+  V2 NO-LINEAR = drop the (OV) linearity  -> isolates the SELECTION layer
+  V3 NO-SLOPES = drop the <=15 slope cap  -> isolates the ARITHMETIC layer
+  V4 FULL+DEG  = FULL plus the (DEG-m) min-degree tightening
+  m=4 q=193 layers : 83 draws (83 usable), tuples/draw avg 31.0 of 32 orbits
+    NEED 12 tuples ; deg cap 3 ; <= 15 slopes ; pair cap 1 ; (DEG-m) min deg 2 ; params P = 10
+    [V1 FULL        deg<=3 slopes<=15  paircap=1 ] BEST =  7 of 12   (min-deg-2-clean BEST = 0)   hist [(6, 57), (7, 26)]
+    [V2 NO-LINEAR   deg<=3 slopes<=15  paircap=99] BEST =  7 of 12   (min-deg-2-clean BEST = 0)   hist [(6, 53), (7, 30)]
+    [V3 NO-SLOPES   deg<=3 slopes<=999 paircap=1 ] BEST = 12 of 12   (min-deg-2-clean BEST = 0)   hist [(12, 83)]
+  m=4 q=257 layers : 0 draws (0 usable), tuples/draw avg 0.0 of 32 orbits
+    NEED 12 tuples ; deg cap 3 ; <= 15 slopes ; pair cap 1 ; (DEG-m) min deg 2 ; params P = 10
+    [V1 FULL        deg<=3 slopes<=15  paircap=1 ] BEST =  0 of 12   (min-deg-2-clean BEST = 0)   hist []
+    [V2 NO-LINEAR   deg<=3 slopes<=15  paircap=99] BEST =  0 of 12   (min-deg-2-clean BEST = 0)   hist []
+    [V3 NO-SLOPES   deg<=3 slopes<=999 paircap=1 ] BEST =  0 of 12   (min-deg-2-clean BEST = 0)   hist []
+
+------------------------------------------------------------------------------
+STEP 3 -- m = 5, THE PARITY FALSIFIER ((SPLIT-5)+sigma, ALL-SWAPPED,
+          m-1 = 4 factors, NO sigma-invariant factor forced)
+  m=5 q=241 parity : 0 draws (0 usable), tuples/draw avg 0.0 of 40 orbits
+    NEED 15 tuples ; deg cap 4 ; <= 19 slopes ; pair cap 2 ; (DEG-m) min deg 2 ; params P = 14
+    [FULL           deg<=4 slopes<=19  paircap=2 ] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+    [NO-PAIRCAP     deg<=4 slopes<=19  paircap=99] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+    [NO-SLOPES      deg<=4 slopes<=999 paircap=2 ] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+  m=5 q=401 parity : 0 draws (0 usable), tuples/draw avg 0.0 of 40 orbits
+    NEED 15 tuples ; deg cap 4 ; <= 19 slopes ; pair cap 2 ; (DEG-m) min deg 2 ; params P = 14
+    [FULL           deg<=4 slopes<=19  paircap=2 ] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+    [NO-PAIRCAP     deg<=4 slopes<=19  paircap=99] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+    [NO-SLOPES      deg<=4 slopes<=999 paircap=2 ] BEST =  0 of 15   (min-deg-2-clean BEST = 0)   hist []
+
+==============================================================================
