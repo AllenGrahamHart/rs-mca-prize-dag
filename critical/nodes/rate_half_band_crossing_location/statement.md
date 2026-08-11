@@ -2846,3 +2846,22 @@ Thus the explicit support-only countermodel is retired. This is not yet an
 exclusion of every abstract design with the same degrees; global incidence
 moments still leave slack. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion`.
+
+## Cycle 118: sharp quadratic pairs are clone-barycentric (2026-08-11, Codex)
+
+If a pair attains the sharp actual-support union `rho+2`, the Cycle-116
+rank bound is one. Hence the `r_alpha+2` rows on
+`S_beta\S_alpha` are nonzero proportional coefficient forms. They are light
+rows, so they share the same squarefree set of `e` supported locator slopes.
+The complete coefficient chain then fixes the endpoint errors up to scale:
+
+```text
+(f_beta-c_beta)(x)
+ =kappa/((x-s_0)v_x lambda_x L_X'(x)).
+```
+
+The reverse orientation gives the corresponding clone class and formula on
+`S_alpha\S_beta`. This is the field-valued interface needed to compare the
+sharp boundary with the Forney numerator; it does not assert that a sharp
+pair exists. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate`.
