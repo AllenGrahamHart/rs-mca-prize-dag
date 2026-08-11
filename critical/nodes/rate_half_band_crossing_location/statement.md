@@ -2283,3 +2283,38 @@ Their vertical/contact forms are `V_i=2R_i+3P_i` and `D_i=R_i+P_i`, with
 `deg(P_1,P_2)=(1,3)`. The induced effective Picard class has degree `e+2`.
 Both patterns remain live. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms`.
+
+## Cycle 99: the first fifth of the core-one quadratic has two root patterns (2026-08-11, Codex)
+
+For every core-one scalar quadratic gap, exact heavy-incidence accounting
+gives
+
+```text
+u+v=e+2,       O=u-4.
+```
+
+If `E` is the set of heavy residual-root rows, new-root capacity gives
+
+```text
+t_E>=e+2-2u-I_0+epsilon_E.
+```
+
+At a simple residual root, vertical degree gives
+`t_x<=c_x+epsilon_x`. Hence if `r` heavy residual roots are simple,
+
+```text
+(2-r)e<=3u+2I_0<=5u.
+```
+
+Throughout `5u<e`, a squarefree residual with only one heavy root is
+impossible. Since the heavy incidence count is positive, the complete
+dichotomy is
+
+```text
+DOUBLE:     one heavy double root;
+SQUAREFREE: two heavy simple roots.
+```
+
+This holds for every official integer `4<=u<=36650387592`. It routes but
+does not exclude either branch. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router`.
