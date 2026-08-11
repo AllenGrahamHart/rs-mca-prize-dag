@@ -1,0 +1,146 @@
+==========================================================================
+D2 BUILD  r38_side_door  tag=d draws=1800  22:01:37
+
+--- q=193 mode=base : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {7: 983, 8: 817}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=1800 mean 2.000 min 2
+       edge         dim  2 : n=1800 mean 2.000 min 2
+       edge         dim  4 : n=1800 mean 2.000 min 2
+       edge         dim  6 : n=1800 mean 2.000 min 2
+       edge         dim  8 : n=1800 mean 2.000 min 2
+       edge         dim 10 : n=1800 mean 2.000 min 2
+       edge         dim 12 : n=1800 mean 2.000 min 2
+       edge         dim 14 : n= 817 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 1532
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (13, 0, 1, False) : 1
+       (14, 0, 0, False) : 9
+       (14, 0, 1, False) : 2
+       (14, 1, 0, False) : 5
+       (15, 0, 0, False) : 43
+       (15, 0, 0, True) : 7
+       (15, 1, 0, False) : 2
+       (15, 1, 0, True) : 9
+       (16, 0, 0, False) : 19
+       (16, 0, 0, True) : 116
+       (16, 1, 0, True) : 9
+       (17, 0, 0, True) : 46
+    free (unprescribed) merges: {0: 174, 1: 72, 2: 19, 3: 3}
+    final rank of the prescribed span: {14: 983, 15: 817}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 5
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    BEST LEGAL: |slopes|=15 double-root-fibres=1 slots=23 merges=8
+       t = [0, 11, 36, 127, 156, 158, 178, 180]
+       fibres: {0: [12, 147, 159], 11: [75, 92, 101], 36: [92, 92, 104], 127: [12, 36, 126], 156: [31, 46, 104], 158: [83, 147, 185], 178: [101, 126, 165], 180: [46, 135, 185]}
+       Psi = [176, 191, 154, 166, 45, 177, 134, 173, 45, 77, 178, 91, 49, 82, 86, 37]
+       degenerate unused fibres: []
+
+--- q=193 mode=doorA : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {3: 99, 4: 161, 5: 183, 6: 214, 7: 745, 8: 398}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=1800 mean 2.000 min 2
+       edge         dim  4 : n=1800 mean 2.000 min 2
+       edge         dim  6 : n=1701 mean 2.000 min 2
+       edge         dim  8 : n=1540 mean 2.000 min 2
+       edge         dim 10 : n=1357 mean 2.000 min 2
+       edge         dim 12 : n=1143 mean 2.000 min 2
+       edge         dim 14 : n= 398 mean 1.000 min 1
+       tang         dim  0 : n=1800 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 1715
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (13, 1, 0, False) : 1
+       (14, 1, 0, False) : 4
+       (14, 1, 0, True) : 1
+       (14, 1, 1, False) : 2
+       (15, 1, 0, False) : 13
+       (15, 1, 0, True) : 3
+       (15, 1, 1, False) : 2
+       (15, 2, 0, False) : 2
+       (16, 1, 0, False) : 5
+       (16, 1, 0, True) : 30
+       (16, 2, 0, False) : 1
+       (17, 1, 0, True) : 21
+    free (unprescribed) merges: {0: 57, 1: 18, 2: 9, 4: 1}
+    final rank of the prescribed span: {6: 99, 8: 161, 10: 183, 12: 214, 14: 745, 15: 398}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 3
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    BEST LEGAL: |slopes|=14 double-root-fibres=1 slots=23 merges=9
+       t = [0, 11, 36, 43, 44, 80, 156, 178]
+       fibres: {0: [24, 42, 84], 11: [29, 38, 118], 36: [11, 83, 179], 43: [11, 65, 168], 44: [32, 47, 121], 80: [42, 47, 179], 156: [121, 121, 118], 178: [32, 38, 84]}
+       Psi = [143, 27, 114, 48, 125, 71, 24, 160, 72, 119, 119, 145, 182, 125, 84, 96]
+       degenerate unused fibres: []
+
+--- q=257 mode=base : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {7: 1121, 8: 679}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=1800 mean 2.000 min 2
+       edge         dim  2 : n=1800 mean 2.000 min 2
+       edge         dim  4 : n=1800 mean 2.000 min 2
+       edge         dim  6 : n=1800 mean 2.000 min 2
+       edge         dim  8 : n=1800 mean 2.000 min 2
+       edge         dim 10 : n=1800 mean 2.000 min 2
+       edge         dim 12 : n=1800 mean 2.000 min 2
+       edge         dim 14 : n= 679 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 1550
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (14, 0, 0, False) : 3
+       (14, 0, 0, True) : 1
+       (14, 0, 1, False) : 2
+       (14, 1, 0, False) : 2
+       (15, 0, 0, False) : 34
+       (15, 0, 0, True) : 5
+       (15, 1, 0, True) : 10
+       (16, 0, 0, False) : 18
+       (16, 0, 0, True) : 114
+       (16, 1, 0, True) : 8
+       (17, 0, 0, True) : 53
+    free (unprescribed) merges: {0: 181, 1: 64, 2: 5}
+    final rank of the prescribed span: {14: 1121, 15: 679}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    BEST LEGAL: |slopes|=14 double-root-fibres=0 slots=24 merges=10
+       t = [0, 21, 42, 66, 68, 147, 180, 230]
+       fibres: {0: [105, 110, 167], 21: [2, 76, 188], 42: [102, 159, 160], 66: [22, 112, 222], 68: [102, 110, 222], 147: [112, 160, 227], 180: [2, 22, 167], 230: [26, 76, 105]}
+       Psi = [169, 51, 210, 191, 159, 249, 166, 36, 56, 40, 49, 135, 14, 169, 15, 60]
+       degenerate unused fibres: []
+
+--- q=257 mode=doorA : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {3: 80, 4: 149, 5: 192, 6: 192, 7: 844, 8: 343}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=1800 mean 2.000 min 2
+       edge         dim  4 : n=1800 mean 2.000 min 2
+       edge         dim  6 : n=1720 mean 2.000 min 2
+       edge         dim  8 : n=1571 mean 2.000 min 2
+       edge         dim 10 : n=1379 mean 2.000 min 2
+       edge         dim 12 : n=1187 mean 2.000 min 2
+       edge         dim 14 : n= 343 mean 1.000 min 1
+       tang         dim  0 : n=1800 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 1702
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (14, 1, 0, False) : 3
+       (14, 1, 1, False) : 1
+       (14, 2, 0, False) : 1
+       (15, 1, 0, False) : 13
+       (15, 1, 0, True) : 2
+       (15, 2, 0, False) : 3
+       (16, 1, 0, False) : 12
+       (16, 1, 0, True) : 36
+       (16, 2, 0, False) : 1
+       (17, 1, 0, True) : 26
+    free (unprescribed) merges: {0: 63, 1: 30, 2: 5}
+    final rank of the prescribed span: {6: 80, 8: 149, 10: 192, 12: 192, 14: 844, 15: 343}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 1
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    BEST LEGAL: |slopes|=15 double-root-fibres=1 slots=23 merges=8
+       t = [21, 42, 66, 68, 147, 180, 230, 253]
+       fibres: {21: [56, 63, 107], 42: [46, 107, 114], 66: [2, 63, 147], 68: [171, 171, 3], 147: [1, 56, 193], 180: [142, 160, 193], 230: [1, 46, 71], 253: [2, 3, 140]}
+       Psi = [13, 134, 2, 247, 4, 1, 154, 185, 190, 172, 256, 240, 24, 158, 73, 225]
+       degenerate unused fibres: []
+
+elapsed 116.2 s
+==========================================================================

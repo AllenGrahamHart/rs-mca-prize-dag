@@ -1,0 +1,64 @@
+
+##########################################################################
+D3 PIPELINE  r38_side_door  tag=a  22:06:43
+
+==========================================================================
+D3 PIPELINE on OBJECT A : q=193  DOOR A (one double-root fibre, 23 slots, 9 merges)
+  replay of the d2 object: {0: [24, 42, 84], 11: [29, 38, 118], 36: [11, 83, 179], 43: [11, 65, 168], 44: [32, 47, 121], 80: [42, 47, 179], 156: [121, 121, 118], 178: [32, 38, 84]}
+  |slopes|=14 slots=23 merges=9 maxdeg=2  deficient fibres=[156]
+  per-side 2-colouring: (2,1)-fibres [0, 11, 36, 44] | (1,2)-fibres [43, 80, 156, 178]  -> 4/4 BALANCED
+  middle fibre t=149, slope-cubic roots in F_q: [20, 24, 190]
+  mu(x)-AT-MIDDLES CHECK (never verified in this lane before):
+     roots of the middle cubic that ARE type-2 slopes of the outer layer: [24]
+     -> a middle needs EXACTLY m-2 = 2 type-2 slopes and one non-slope root;
+        here 1 of 3 roots collide with the outer slope set: COLLISION
+     reserved middle type-2 slopes (X''=3, X'=0): [20, 190] ; mu-root(s): [24]
+  type-1 slopes chosen outside Z: gamma_g=0 gamma_h=1 ; |Z| = 2+16 = 18 (need T=17)
+  |W| = 27 (need a = 7m-1 = 27) OK ; distinct 27
+  d_x histogram {4: 24, 3: 3} ; sum_x (m-d_x) over W = 3 = 1+O -> O = 2  [(SAT4) cap m=4]
+  INCIDENCE TABLE (gamma : X'_g, X''_g, per-side g|h, degree):
+        0 : X'=12 X''=3  per-side 15|3  deg=0  ok
+        1 : X'=12 X''=3  per-side 3|15  deg=0  ok
+       11 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+       20 : X'= 0 X''=3  per-side 3|3  deg=0  ok
+       24 : X'= 3 X''=0  per-side 2|1  deg=1  ok
+       29 : X'= 3 X''=0  per-side 2|1  deg=1  ok
+       32 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+       38 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+       42 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+       47 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+       65 : X'= 3 X''=0  per-side 1|2  deg=1  ok
+       83 : X'= 3 X''=0  per-side 2|1  deg=1  ok
+       84 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+      118 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+      121 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+      168 : X'= 3 X''=0  per-side 1|2  deg=1  ok
+      179 : X'= 6 X''=0  per-side 3|3  deg=2  ok
+      190 : X'= 0 X''=3  per-side 3|3  deg=0  ok
+  incidence table: ALL CAPS RESPECTED
+  S2 (deficiency-aware): 102 rows x 57 cols  [2a + Delta_W = 54 + 3]
+     bank-2 biv_core rank = 56 ; independent rank = 56  -> AGREE
+     nullity = 1
+     blockwise-nonzero kernel vector found: True
+     (0.0 s)
+
+==========================================================================
+D3 PIPELINE on OBJECT B : q=257  BASELINE (24 slots, 10 merges) -- beats r36/r37's q=257 ceiling
+  replay of the d2 object: {0: [105, 110, 167], 21: [2, 76, 188], 42: [102, 159, 160], 66: [22, 112, 222], 68: [102, 110, 222], 147: [112, 160, 227], 180: [2, 22, 167], 230: [26, 76, 105]}
+  |slopes|=14 slots=24 merges=10 maxdeg=2  deficient fibres=[]
+  per-side 2-colouring: (2,1)-fibres [0, 21, 42, 66] | (1,2)-fibres [68, 147, 180, 230]  -> 4/4 BALANCED
+  NO USABLE MIDDLE FIBRE (no unused pencil fibre whose slope cubic has
+  >= 2 roots in F_q) -- the 9th fibre cannot be assembled.  MISS recorded.
+
+==========================================================================
+D3(b) SYNTHETIC 13-SLOPE DOOR-A TABLES at q=193 (slope layer ASSUMED solved)
+  12 synthetic legal 13-slope Door-A tables, |W| = 27, deficiency 3 at the
+  three points of the degenerate fibre (extra column each):
+  (nullity, blockwise-nonzero kernel) -> count : {(0, False): 12}
+
+==========================================================================
+D3(b) SYNTHETIC 13-SLOPE DOOR-A TABLES at q=257 (slope layer ASSUMED solved)
+  12 synthetic legal 13-slope Door-A tables, |W| = 27, deficiency 3 at the
+  three points of the degenerate fibre (extra column each):
+  (nullity, blockwise-nonzero kernel) -> count : {(0, False): 12}
+##########################################################################

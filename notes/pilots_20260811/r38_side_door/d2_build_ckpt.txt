@@ -1,0 +1,12 @@
+q=193 mode=base best |slopes|=15 dbl=0 merges=9
+q=193 mode=doorA best |slopes|=14 dbl=3 merges=7
+q=257 mode=base best |slopes|=15 dbl=1 merges=8
+q=257 mode=doorA best |slopes|=14 dbl=1 merges=7
+q=193 mode=base best |slopes|=15 dbl=1 merges=8
+q=193 mode=doorA best |slopes|=14 dbl=1 merges=9
+q=257 mode=base best |slopes|=14 dbl=0 merges=10
+q=257 mode=doorA best |slopes|=15 dbl=1 merges=8
+q=193 mode=base best |slopes|=14 dbl=0 merges=10
+q=193 mode=doorA best |slopes|=15 dbl=1 merges=8
+q=257 mode=base best |slopes|=15 dbl=1 merges=8
+q=257 mode=doorA best |slopes|=15 dbl=1 merges=8

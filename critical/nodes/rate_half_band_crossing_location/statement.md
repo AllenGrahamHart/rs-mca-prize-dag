@@ -5055,3 +5055,83 @@ R-URATE + R-GENERICITY; (4) the Cauchy-lattice solve attempt
 (import the l1/xr machinery); (5) the a* ruling + F1 pricing;
 (6) sporadic non-factoring sharing (the last untouched m=4
 route); (7) the determinantal-solve compute request.
+
+## Round-38 side-door addendum (2026-08-11, coordinator-audited): the ledger CLOSES but the door is BUDGET-NEUTRAL; DOOR B posed (deficit 2); the 9th-fibre completion fence; the pipeline gated at last
+
+Pilot r38_side_door (round 38, bank 1; 7/7 ramguard clean — the
+pre-Bash checklist held on its first outing; my brief's biv_core
+warning CORRECTED by the pilot's own audit: biv_core.py has NO
+module-level write (0 hits for open/write/flush, coordinator
+re-verified) — the "w"-mode offender was share3_pencil.py; the
+two are not to be conflated again).
+
+- **THE LEDGER CLOSES — the side door is fully legal on paper.**
+  Every axiom passes at O = 2: (SAT4) 3 <= 4, (SAT2) 2 <= 3,
+  (SAT5) 61 >= 60 (margin 1 each); the (OUT-m) aggregate is
+  3(m-2) = 6 <= (m-1)(1+O) = 9 (the deficient points are
+  symmetric-difference points, charge m-2); the per-side cap, the
+  (OV) pair multiplicity and the per-slope eps cap all hold AT
+  EQUALITY. EXTENSION ADOPTED: (OUT-m)'s X = 0 corollary survives
+  INSIDE deficiency even at O = 2 > m-3 (slopes disjoint from W
+  have eps = 0), so s = 13 and n_2 = 10 are EXACT. CONDITIONAL:
+  (SAT2)'s second clause (O <= sum c_gamma — Hankel-layer rank
+  deficiency) is UNCHECKED at the W-layer; all legality is
+  conditional on >= 2 units of M(gamma) rank deficiency.
+- **THE DEMAND-MINIMALITY THEOREM (exhaustive):** within
+  (SAT2)/(SAT4) at m = 4 the merge demand is >= 10; EXACTLY two
+  placements attain 10 (DOOR A: one outer double-root fibre,
+  slots 23; DOOR B: the middle fibre reserving ONE slope, slots
+  24); 9 is unreachable (a second placement costs 6 > m).
+- **BUT DOOR A IS BUDGET-NEUTRAL — the round's central result:**
+  prescribing the tangency costs EXACTLY 2 dimensions (the
+  available-direction variety w(t*) (x) span{v,v'} is a SURFACE,
+  same dimension as Sigma_ij) — measured 2.000 in 1500/1500
+  draws per field, obeying the round-37 cost table verbatim. The
+  budget drops 8 -> 7 as the demand drops 11 -> 10: **deficit 3,
+  INVARIANT** (four independent dimension counts all give the
+  residual variety dim 4). Lesson banked: price a loophole in
+  the same currency as the demand before calling it progress.
+  Best legal: |slopes| = 14 at BOTH fields (the q=257 ceiling
+  CORRECTED 15 -> 14 — the old 15 object is dead at completion);
+  the first (SAT4)-legal Door-A object built (23 slots, 9
+  merges, ONE short); 0 hits in 6600 draws.
+- **DOOR B — POSED, UNDECIDED, AND BETTER (the new cheapest live
+  item):** if a middle can carry TWO non-type-2 cubic roots, the
+  demand is 10 with the OUTER structure unchanged at 24 slots —
+  **deficit 2** — and the existing two-round stock of 14-slope
+  objects become candidates. A bookkeeping question (the
+  multiplicity of the middle's non-incident-root mechanism), not
+  a search. Round-39 anchor #1.
+- **THE 9TH-FIBRE COMPLETION FENCE (new):** the middle fibre's
+  slope cubic must SPLIT over F_q with >= 2 roots off the outer
+  slope set — 48.1/53.8% (q=193) and 75.5/82.0% (q=257) of
+  structurally-legal objects CANNOT be completed to |W| = 27;
+  heuristic P ~ 1-(5/6)^{F-8} matches shape and magnitude;
+  stacks multiplicatively on the round-37 census (F = 9 at
+  q = 257, 449 leaves ONE candidate middle). Two prior rounds
+  never imposed it. Lesson: layers below the stuck one can be
+  cheaper and more decisive.
+- **THE PIPELINE IS GATED AT LAST:** the Door-A object ran W
+  assembly (27 points), the 4/4 per-side split, the FIRST-EVER
+  mu(x)-at-middles verification (and it BITES: exactly one
+  middle-cubic root must be non-incident; on the object the
+  mechanism FORCES mu = 24 — a falsifiable prediction for any
+  full construction), and bank 2's deficiency-aware bivariate
+  system (102 x 57 = 2a + Delta_W per the PROVED
+  deficiency_clone node): rank 56 by biv_core AND by an
+  independent solver, nullity 1, blockwise-nonzero kernel FOUND.
+  **The (SHARE3-4) class SURVIVES the bivariate layer** (NOT a
+  witness — the object has |Z| = 18 > T = 17; and the synthetic
+  nullity-0 control excludes nothing, correctly read). The
+  round-36/37 "nothing gated by bank 2" caveat is DISCHARGED.
+- **SCOPE FENCES:** the invariance is a generic-position count
+  (round-37 grading inherited); the demand theorem is
+  conditional on the slot/reservation model; the fence rate is
+  ensemble-relative; Door B undecided; layer A still unrun (5th
+  round); the registered solve routes (kernel-of-Vandermonde,
+  sequential scan) were NOT implemented — the determinantal solve
+  remains the open route; (SAT2) c_gamma unchecked. COMPLIANCE:
+  clean 7/7 (streak 1 under the checklist); the /dev/null
+  stdout-discard judgment call RULED COMPLIANT by the
+  coordinator (a discard is not a write in the rule's sense;
+  codified henceforth).

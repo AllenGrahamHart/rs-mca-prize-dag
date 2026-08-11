@@ -6163,3 +6163,40 @@ PGL_2-covariance); the first F1 dataset under the ruling.
 determinantal solve from 8-prescribed-merge states (derive
 degrees first; the same witness event as the side door if it
 lands). Bank each on report, same cadence.
+
+## ROUND 38 BANK 1/4 — r38_side_door (2026-08-11, coordinator)
+
+**BANKED — THE LEDGER CLOSES BUT THE DOOR IS BUDGET-NEUTRAL;
+DOOR B IS POSED AND BETTER; THE 9TH-FIBRE FENCE FOUND; THE
+PIPELINE GATED AT LAST. D1 closed every axiom at O=2 (margins 1
+on the SAT rows; EQUALITY at per-side/(OV)/eps; the (OUT-m)
+aggregate 3(m-2)=6 vs 9; the X=0 corollary EXTENDED to inside
+deficiency — s=13, n_2=10 EXACT; conditional on (SAT2)'s
+unchecked c_gamma clause). DEMAND-MINIMALITY THEOREM: demand >=
+10, exactly two placements, 9 unreachable. THE CENTRAL RESULT:
+the tangency costs EXACTLY 2 dims (surface, same as Sigma_ij;
+2.000 in 1500/1500 per field) — budget 8->7 as demand 11->10,
+DEFICIT 3 INVARIANT (four dimension counts agree at 4). Best
+legal 14 at BOTH fields (q=257 ceiling CORRECTED 15->14 — the 15
+object dead at completion); the first (SAT4)-legal Door-A object
+(23 slots, 9 merges, ONE short); 0/6600. **DOOR B: middle
+reserves one slope — demand 10 at 24 slots, DEFICIT 2, existing
+14-slope objects become candidates; a bookkeeping question —
+ROUND-39 ANCHOR #1.** THE 9TH-FIBRE FENCE: the middle cubic must
+split with >= 2 avoiding roots — 48-82% of legal objects
+non-completable; ~1-(5/6)^{F-8}; stacks on the census (ONE
+candidate middle at q=257/449). PIPELINE: the Door-A object
+through W/per-side/mu(x)-at-middles (FIRST EVER — and it forces
+mu=24)/bank-2's deficiency-aware S2 (rank 56 by TWO
+implementations, nullity 1, blockwise-nonzero kernel) — the
+class SURVIVES the bivariate layer (not a witness: |Z|=18>17).
+Pilot corrected MY brief (biv_core has NO import-time write —
+re-verified; share3_pencil was the offender) and beat E4
+(reproduced 10 merges both fields). Self-catches: the refuted
+(DEG-m) killer (a 2-sharing corollary, not an axiom), the
+100%-illegal instrument collapse, the verifier missing the
+(SAT4) budget itself, the synthetic zero-power near-misread.
+COMPLIANCE: CLEAN 7/7 — THE PRE-BASH CHECKLIST HELD (the breach
+recurrence ends); /dev/null discard ruled compliant and
+codified. Node: addendum. Mint +5. Files:
+notes/pilots_20260811/r38_side_door/.**

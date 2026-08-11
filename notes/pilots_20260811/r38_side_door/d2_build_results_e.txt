@@ -1,0 +1,163 @@
+==========================================================================
+D2 BUILD  r38_side_door  tag=e draws=1500  22:08:06
+
+--- q=193 mode=base : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {7: 819, 8: 681}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=1500 mean 2.000 min 2
+       edge         dim  2 : n=1500 mean 2.000 min 2
+       edge         dim  4 : n=1500 mean 2.000 min 2
+       edge         dim  6 : n=1500 mean 2.000 min 2
+       edge         dim  8 : n=1500 mean 2.000 min 2
+       edge         dim 10 : n=1500 mean 2.000 min 2
+       edge         dim 12 : n=1500 mean 2.000 min 2
+       edge         dim 14 : n= 681 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 1286
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (10, 0, 0, False) : 1
+       (13, 0, 0, False) : 1
+       (14, 0, 0, False) : 7
+       (14, 0, 0, True) : 1
+       (14, 0, 1, False) : 2
+       (14, 1, 0, False) : 1
+       (15, 0, 0, False) : 21
+       (15, 0, 0, True) : 9
+       (15, 0, 1, False) : 2
+       (15, 1, 0, False) : 2
+       (15, 1, 0, True) : 10
+       (16, 0, 0, False) : 17
+       (16, 0, 0, True) : 105
+       (16, 1, 0, True) : 1
+       (17, 0, 0, True) : 34
+    free (unprescribed) merges: {0: 151, 1: 50, 2: 10, 3: 2, 6: 1}
+    final rank of the prescribed span: {14: 819, 15: 681}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 5
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    9th (MIDDLE) FIBRE, over LEGAL objects only:
+       # unused pencil fibres whose slope cubic SPLITS  : {0: 77, 1: 63, 2: 18, 3: 2}
+       # of those with >=2 roots OFF the outer slope set: {0: 77, 1: 65, 2: 16, 3: 2}
+       -> W CANNOT be completed to 27 points in 77 of 160 legal objects (48.1%)
+    BEST LEGAL: |slopes|=14 double-root-fibres=0 slots=24 merges=10
+       t = [0, 11, 36, 43, 149, 158, 178, 180]
+       fibres: {0: [0, 60, 167], 11: [28, 55, 151], 36: [30, 55, 60], 43: [59, 73, 138], 149: [28, 73, 167], 158: [30, 112, 173], 178: [59, 112, 137], 180: [0, 13, 173]}
+       Psi = [132, 49, 11, 0, 23, 127, 59, 187, 160, 105, 81, 75, 144, 83, 148, 128]
+       degenerate unused fibres: []
+
+--- q=193 mode=doorA : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {3: 68, 4: 122, 5: 165, 6: 167, 7: 632, 8: 346}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=1500 mean 2.000 min 2
+       edge         dim  4 : n=1500 mean 2.000 min 2
+       edge         dim  6 : n=1432 mean 2.000 min 2
+       edge         dim  8 : n=1310 mean 2.000 min 2
+       edge         dim 10 : n=1145 mean 2.000 min 2
+       edge         dim 12 : n= 978 mean 2.000 min 2
+       edge         dim 14 : n= 346 mean 1.000 min 1
+       tang         dim  0 : n=1500 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 1419
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (13, 1, 0, False) : 1
+       (14, 1, 0, False) : 2
+       (14, 2, 0, False) : 1
+       (15, 1, 0, False) : 10
+       (15, 1, 0, True) : 4
+       (15, 2, 0, False) : 4
+       (16, 1, 0, False) : 7
+       (16, 1, 0, True) : 32
+       (16, 2, 0, False) : 4
+       (17, 1, 0, True) : 16
+    free (unprescribed) merges: {0: 49, 1: 27, 2: 4, 3: 1}
+    final rank of the prescribed span: {6: 68, 8: 122, 10: 165, 12: 167, 14: 632, 15: 346}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 5
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    9th (MIDDLE) FIBRE, over LEGAL objects only:
+       # unused pencil fibres whose slope cubic SPLITS  : {0: 27, 1: 15, 2: 9, 3: 1}
+       # of those with >=2 roots OFF the outer slope set: {0: 28, 1: 15, 2: 8, 3: 1}
+       -> W CANNOT be completed to 27 points in 28 of 52 legal objects (53.8%)
+    BEST LEGAL: |slopes|=15 double-root-fibres=1 slots=23 merges=8
+       t = [0, 11, 43, 80, 127, 149, 156, 180]
+       fibres: {0: [18, 27, 36], 11: [19, 46, 113], 43: [21, 43, 55], 80: [19, 43, 99], 127: [138, 138, 99], 149: [30, 46, 190], 156: [0, 21, 27], 180: [22, 55, 113]}
+       Psi = [45, 171, 7, 73, 126, 97, 112, 30, 60, 42, 54, 62, 98, 105, 90, 12]
+       degenerate unused fibres: []
+
+--- q=257 mode=base : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {7: 936, 8: 564}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=1500 mean 2.000 min 2
+       edge         dim  2 : n=1500 mean 2.000 min 2
+       edge         dim  4 : n=1500 mean 2.000 min 2
+       edge         dim  6 : n=1500 mean 2.000 min 2
+       edge         dim  8 : n=1500 mean 2.000 min 2
+       edge         dim 10 : n=1500 mean 2.000 min 2
+       edge         dim 12 : n=1500 mean 2.000 min 2
+       edge         dim 14 : n= 564 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 1318
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (14, 0, 0, False) : 1
+       (14, 0, 1, False) : 2
+       (14, 1, 0, False) : 1
+       (15, 0, 0, False) : 15
+       (15, 0, 0, True) : 3
+       (15, 0, 1, False) : 1
+       (15, 1, 0, False) : 3
+       (15, 1, 0, True) : 11
+       (16, 0, 0, False) : 16
+       (16, 0, 0, True) : 89
+       (16, 1, 0, True) : 1
+       (17, 0, 0, True) : 39
+    free (unprescribed) merges: {0: 140, 1: 40, 2: 2}
+    final rank of the prescribed span: {14: 936, 15: 564}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    9th (MIDDLE) FIBRE, over LEGAL objects only:
+       # unused pencil fibres whose slope cubic SPLITS  : {0: 108, 1: 35}
+       # of those with >=2 roots OFF the outer slope set: {0: 108, 1: 35}
+       -> W CANNOT be completed to 27 points in 108 of 143 legal objects (75.5%)
+    BEST LEGAL: |slopes|=15 double-root-fibres=1 slots=23 merges=8
+       t = [0, 21, 42, 66, 68, 147, 230, 253]
+       fibres: {0: [66, 80, 173], 21: [10, 15, 102], 42: [163, 163, 122], 66: [19, 102, 107], 68: [19, 139, 192], 147: [4, 54, 163], 230: [4, 61, 66], 253: [10, 54, 139]}
+       Psi = [176, 118, 47, 118, 44, 206, 29, 5, 85, 96, 197, 210, 157, 15, 53, 162]
+       degenerate unused fibres: []
+
+--- q=257 mode=doorA : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {3: 67, 4: 135, 5: 163, 6: 189, 7: 671, 8: 275}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=1500 mean 2.000 min 2
+       edge         dim  4 : n=1500 mean 2.000 min 2
+       edge         dim  6 : n=1433 mean 2.000 min 2
+       edge         dim  8 : n=1298 mean 2.000 min 2
+       edge         dim 10 : n=1135 mean 2.000 min 2
+       edge         dim 12 : n= 946 mean 2.000 min 2
+       edge         dim 14 : n= 275 mean 1.000 min 1
+       tang         dim  0 : n=1500 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 1412
+    (|slopes|, #double-root fibres, #triple-root fibres, legal) histogram:
+       (14, 1, 0, False) : 2
+       (15, 1, 0, False) : 13
+       (15, 1, 0, True) : 5
+       (15, 1, 1, False) : 1
+       (15, 2, 0, False) : 1
+       (16, 1, 0, False) : 9
+       (16, 1, 0, True) : 31
+       (16, 2, 0, False) : 1
+       (17, 1, 0, True) : 25
+    free (unprescribed) merges: {0: 56, 1: 29, 2: 3}
+    final rank of the prescribed span: {6: 67, 8: 135, 10: 163, 12: 189, 14: 671, 15: 275}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    WITNESS TESTS: HIT_A(13 slopes,1 double)=0  HIT_BASE(13,0)=0  HIT_B(14,0+deg mid)=0
+    9th (MIDDLE) FIBRE, over LEGAL objects only:
+       # unused pencil fibres whose slope cubic SPLITS  : {0: 50, 1: 11}
+       # of those with >=2 roots OFF the outer slope set: {0: 50, 1: 11}
+       -> W CANNOT be completed to 27 points in 50 of 61 legal objects (82.0%)
+    BEST LEGAL: |slopes|=15 double-root-fibres=1 slots=23 merges=8
+       t = [0, 21, 42, 68, 147, 180, 230, 253]
+       fibres: {0: [122, 124, 245], 21: [239, 239, 185], 42: [29, 72, 189], 68: [68, 150, 163], 147: [150, 183, 245], 180: [114, 138, 183], 230: [72, 138, 163], 253: [29, 68, 188]}
+       Psi = [26, 173, 209, 126, 198, 151, 170, 4, 16, 250, 71, 243, 85, 117, 81, 149]
+       degenerate unused fibres: []
+
+elapsed 103.9 s
+==========================================================================

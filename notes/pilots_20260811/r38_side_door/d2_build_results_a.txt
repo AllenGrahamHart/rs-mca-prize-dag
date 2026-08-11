@@ -1,0 +1,93 @@
+==========================================================================
+D2 BUILD  r38_side_door  tag=a draws=30  21:57:55
+
+--- q=193 mode=base : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {8: 1, 9: 26, 10: 1, 11: 2}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=  30 mean 2.000 min 2
+       edge         dim  2 : n=  30 mean 2.000 min 2
+       edge         dim  4 : n=  30 mean 2.000 min 2
+       edge         dim  6 : n=  30 mean 1.933 min 1
+       edge         dim  7 : n=   2 mean 2.000 min 2
+       edge         dim  8 : n=  28 mean 2.000 min 2
+       edge         dim  9 : n=   2 mean 2.000 min 2
+       edge         dim 10 : n=  28 mean 2.000 min 2
+       edge         dim 11 : n=   2 mean 2.000 min 2
+       edge         dim 12 : n=  31 mean 0.935 min 0
+       edge         dim 13 : n=  29 mean 1.000 min 1
+       edge         dim 14 : n=  32 mean 0.906 min 0
+       edge         dim 15 : n=  28 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 2
+    (|slopes|, #double-root fibres, legal) histogram:
+    free (unprescribed) merges: {}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    BEST LEGAL: none
+
+--- q=193 mode=doorA : e3=1 slice 651 cubics, 9 pencils with >=9 disjoint
+    chosen pencil: 12 disjoint complete fibres, t = [0, 11, 36, 43, 44, 80, 127, 149, 156, 158, 178, 180]
+    prescribed items per draw : {8: 2, 9: 15, 10: 9, 11: 4}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=  30 mean 2.000 min 2
+       edge         dim  4 : n=  30 mean 2.000 min 2
+       edge         dim  6 : n=  30 mean 1.967 min 1
+       edge         dim  7 : n=   1 mean 2.000 min 2
+       edge         dim  8 : n=  29 mean 2.000 min 2
+       edge         dim  9 : n=   1 mean 2.000 min 2
+       edge         dim 10 : n=  29 mean 1.966 min 1
+       edge         dim 11 : n=   2 mean 2.000 min 2
+       edge         dim 12 : n=  28 mean 1.071 min 1
+       edge         dim 13 : n=  34 mean 0.824 min 0
+       edge         dim 14 : n=  40 mean 0.675 min 0
+       edge         dim 15 : n=  27 mean 0.963 min 0
+       tang         dim  0 : n=  30 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 4
+    (|slopes|, #double-root fibres, legal) histogram:
+    free (unprescribed) merges: {}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    BEST LEGAL: none
+
+--- q=257 mode=base : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {8: 1, 9: 26, 10: 1, 11: 2}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  0 : n=  30 mean 2.000 min 2
+       edge         dim  2 : n=  30 mean 2.000 min 2
+       edge         dim  4 : n=  30 mean 2.000 min 2
+       edge         dim  6 : n=  30 mean 2.000 min 2
+       edge         dim  8 : n=  30 mean 2.000 min 2
+       edge         dim 10 : n=  30 mean 2.000 min 2
+       edge         dim 12 : n=  31 mean 1.000 min 0
+       edge         dim 13 : n=  32 mean 0.906 min 0
+       edge         dim 14 : n=  31 mean 0.935 min 0
+       edge         dim 15 : n=  28 mean 1.000 min 1
+    illegal (a fibre cubic not split / degenerate leading coeff): 1
+    (|slopes|, #double-root fibres, legal) histogram:
+       (10, 0, False) : 1
+    free (unprescribed) merges: {3: 1}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    BEST LEGAL: none
+
+--- q=257 mode=doorA : e3=1 slice 651 cubics, 4 pencils with >=9 disjoint
+    chosen pencil: 9 disjoint complete fibres, t = [0, 21, 42, 66, 68, 147, 180, 230, 253]
+    prescribed items per draw : {9: 20, 10: 5, 11: 5}
+    COST TABLE (kind, span dim) -> (draws, mean cost, min cost):
+       edge         dim  2 : n=  30 mean 2.000 min 2
+       edge         dim  4 : n=  30 mean 2.000 min 2
+       edge         dim  6 : n=  30 mean 2.000 min 2
+       edge         dim  8 : n=  30 mean 2.000 min 2
+       edge         dim 10 : n=  30 mean 1.967 min 1
+       edge         dim 11 : n=   1 mean 2.000 min 2
+       edge         dim 12 : n=  29 mean 1.000 min 1
+       edge         dim 13 : n=  32 mean 0.938 min 0
+       edge         dim 14 : n=  42 mean 0.714 min 0
+       edge         dim 15 : n=  26 mean 0.962 min 0
+       tang         dim  0 : n=  30 mean 2.000 min 2
+    illegal (a fibre cubic not split / degenerate leading coeff): 5
+    (|slopes|, #double-root fibres, legal) histogram:
+    free (unprescribed) merges: {}
+    DOOR-B probe (unused pencil fibre with a degenerate slope cubic): 0
+    BEST LEGAL: none
+
+elapsed 2.6 s
+==========================================================================
