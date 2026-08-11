@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 degree below 183251937963 are excluded. The remaining positive-slack A=1 core-free and core-one ranges share that first degree. At the first degree there are exactly six core/slack profiles, with T in {rho+2,rho+3,rho+4}. Scheme-theoretic Forney pole absorption and direct three-contact vanishing produce unique ambient biforms of parameter degree j=0,1,2. Exact capacity forces residual bidegrees at most (5,0),(12,1),(18,2) for core zero and (2,0),(9,1),(15,2) for core one. In the parameter-constant cases, heavy supported incidences are charged to the excess recurrence budget, sharpening the residual degrees to 2..5 and 1..2. In the smallest two cases, the local cube identity forces every ordinary heavy incidence to consume two defect degrees: the core-free degree-two case has two distinguished rows of deficits {1,1} or {1,2} and at most one ordinary incidence, while the core-one degree-one case has one distinguished row of deficit 2..6 and at most two ordinary incidences. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
-   "attack_surface": "Classify or exclude the eight exact smallest constant-residual packets: two core-free degree-two packets and six core-one degree-one packets. In particular exploit the distinguished almost-saturated rows and the at-most-one/two ordinary triple incidences. Then handle constant residual degrees 3..5 and 2 before the linear and quadratic residual biforms (12,1),(18,2),(9,1),(15,2), preserving the split heavy-row factor, local cube valuation, and rowwise excess-recurrence charge. Do not identify the changed pole divisor after heavy-factor cancellation with the original pole divisor. Do not continue the now-excluded cubic-residual corner at e=floor(16m/13). Then extend the mechanism to higher e. Core two, every sharp-cap profile, and all lower degrees are closed. Seek a stronger contact product only with a proved restriction-sequence or divisor gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the historical reciprocal corrected-square classifier, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 degree below 183251937963 are excluded. The remaining positive-slack A=1 core-free and core-one ranges share that first degree. At the first degree there are exactly six core/slack profiles, with T in {rho+2,rho+3,rho+4}. Scheme-theoretic Forney pole absorption and direct three-contact vanishing produce unique ambient biforms of parameter degree j=0,1,2. Exact capacity forces residual bidegrees at most (5,0),(12,1),(18,2) for core zero and (2,0),(9,1),(15,2) for core one. In the parameter-constant cases, heavy supported incidences are charged to the excess recurrence budget, sharpening the residual degrees to 2..5 and 1..2. In the smallest two cases, the local cube identity forces every ordinary heavy incidence to consume two defect degrees: the core-free degree-two case has two distinguished rows of deficits {1,1} or {1,2} and at most one ordinary incidence, while the core-one degree-one case has one distinguished row of deficit 2..6 and at most two ordinary incidences. The first core-one packet is further equivalent to the effective degree-two Picard relation O_C(rho+2,-e-1)=O_C(P_alpha+P_beta), with the row radical equal to the squarefree middle-Hankel adjugate factor. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
+   "attack_surface": "First test the effective degree-two Picard relation O_C(rho+2,-e-1)=O_C(P_alpha+P_beta) in the core-one (0,2,0,2) packet against the middle-Hankel/contact geometry. Then derive analogous bounded-point normal forms for the other five core-one packets and the two core-free packets. After those, handle constant residual degrees 3..5 and 2 before the linear and quadratic residual biforms (12,1),(18,2),(9,1),(15,2), preserving the split heavy-row factor, local cube valuation, and rowwise excess-recurrence charge. Do not identify the changed pole divisor after heavy-factor cancellation with the original pole divisor. Do not continue the now-excluded cubic-residual corner at e=floor(16m/13). Then extend the mechanism to higher e. Core two, every sharp-cap profile, and all lower degrees are closed. Seek a stronger contact product only with a proved restriction-sequence or divisor gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the historical reciprocal corrected-square classifier, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29025,6 +29025,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -30787,6 +30788,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
+   "title": "A=1 core-one zero-incidence-gap two-point normal form",
+   "status": "PROVED",
+   "closure": "exact local multiplicity, adjugate, and contact-divisor ledger",
+   "statement": "In the core-one packet (u,v,I_0,c)=(0,2,0,2), the distinguished row has exactly e-4 simple and two double supported parameter roots. Its radical is the squarefree middle-Hankel adjugate factor D, its Forney specialization is D times a nonzero cubic, and the contact divisor is the vertical fibre minus the two doubled points. Equivalently O_C(rho+2,-e-1) is the effective degree-two divisor formed by those points.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/verify_audit.py"
    ]
   },
   {
@@ -63975,6 +63994,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -63992,6 +64016,11 @@
   {
    "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
    "to": "rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
    "kind": "req"
   },
   {
@@ -64061,6 +64090,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

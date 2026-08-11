@@ -1909,3 +1909,33 @@ For `s=1,a=1`, the unique root of `R_1` is a heavy row of deficit `2..6`.
 There are exactly six gap packets and at most two ordinary heavy
 incidences. The proved node is
 `rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets`.
+
+## Cycle 85: first core-one packet becomes a two-point Picard obstruction (2026-08-11, Codex)
+
+In the core-one packet `(u,v,I_0,c)=(0,2,0,2)`, all `Delta=e-2` excess
+degrees occur at the distinguished row `x_*`. Exactly `e-4` slopes make
+`x_*` a repeated minimal root and exactly two slopes `alpha,beta` make it a
+new simple excess root. The local cube identity fixes the vertical
+multiplicities, giving
+
+```text
+D=P_ord L_alpha L_beta,
+Qbar(U,V;x_*)=P_ord L_alpha^2 L_beta^2.
+```
+
+The adjugate factor `D` is squarefree. Moreover
+
+```text
+N_F(U,V;x_*)=D C_3,       deg C_3<=3,
+partial_X Qbar(U,V;x_*)=P_ord S_4,       deg S_4<=4.
+```
+
+The contact zero divisor is the vertical fibre minus one extra copy at each
+double parameter root. Equivalently,
+
+```text
+O_C(rho+2,-e-1)=O_C(P_alpha+P_beta),
+```
+
+an effective degree-two Picard relation. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form`.
