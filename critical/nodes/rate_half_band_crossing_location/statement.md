@@ -3474,3 +3474,29 @@ rank-two loss slope its rank is `e-1` or `e`. The proved node is
 This is a genuine source/Hankel restriction absent from the abstract
 Kronecker countermodel; it still requires an adapter to the split-biform
 boundary before it can exclude a packet.
+
+## Cycle 156 addendum: a separated double-root correction is cubic
+
+In the double-root arm, assume `S_B` is squarefree and coprime to `g_*`,
+and divide the primitive locator by the fixed heavy row:
+
+```text
+U(t,X)=[Q(t,X)-Q(t,x_*)]/(X-x_*).
+```
+
+The Pade contact divisor and the higher vertical contact prove
+
+```text
+P_F(t,x_*)=D_1(t)C_0(t),
+M(t)U(t)=D_1(t)C(t),       deg_t C<=3,
+C_(i+1)=x_*C_i-kappa S_Bh_i.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_quotient_cubic_residual`.
+At each correction root, the quotient `U` is one primitive regular-kernel
+direction carrying the full determinant valuation. Thus both separated
+corrections have Smith type `[2]` rather than `[1,1]`. The separated locus
+is one cubic source recurrence, not an unconstrained degree-`e` marked
+determinant. Nonreduced corrections and roots shared with `g_*` remain
+explicitly open.
