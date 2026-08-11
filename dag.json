@@ -29045,6 +29045,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -31059,6 +31060,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence",
+   "title": "A=1 first-degree core-one source-weight surjectivity fence",
+   "status": "PROVED",
+   "closure": "contracted RS sources impose no standalone Hankel restriction",
+   "statement": "After contraction by the fixed core root s_0, residual source weights are omega_x=(x-s_0)v_xa_x, an invertible diagonal change of arbitrary RS word values on D without s_0. Since the residual domain has 4rho-1 points and a middle Hankel matrix uses only 2rho-1 moments, the Vandermonde moment map is surjective. Thus source coordinates alone cannot force noncancellation of the marked determinant; a valid exclusion must also use column-farness or simultaneous split-incidence structure.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/verify_audit.py"
    ]
   },
   {
@@ -64630,6 +64649,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -64683,6 +64707,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion",
@@ -65117,6 +65146,11 @@
   {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence",
    "kind": "req"
   },
   {

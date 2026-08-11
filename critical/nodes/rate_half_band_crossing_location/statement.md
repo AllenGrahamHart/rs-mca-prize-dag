@@ -2480,3 +2480,32 @@ This couples the sixth-order quadratic residual to the actual contracted
 RS source weights. It is not yet an exclusion: the Vandermonde squares are
 nonzero, but the field-valued terms may cancel. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame`.
+
+## Cycle 105: source coordinates alone cannot close the packet (2026-08-11, Codex)
+
+The contracted source weights do not carry an unspent smooth-domain
+noncancellation property. If `s_0` is the fixed core root and `v_x` are the
+nonzero dual RS multipliers, contraction gives
+
+```text
+omega_x=(x-s_0)v_xa_x,       x in D\{s_0}.
+```
+
+This is an invertible diagonal change of arbitrary endpoint word values.
+Moreover
+
+```text
+|D_res|=4rho-1,       2d+1=2rho-1,
+```
+
+so the residual Vandermonde map onto the complete middle-Hankel moment
+vector is surjective. Every endpoint Hankel pair therefore has a contracted
+RS source representation.
+
+Consequently the Cycle-104 subset sum cannot be excluded from source
+smoothness or dual multipliers alone. A valid next theorem must couple it to
+column-farness, the simultaneous supported split-locator incidence, the
+primitive minimal-index profile, or the Forney identities. This fence does
+not say that an arbitrary represented pair is column-far or realizes the
+packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence`.
