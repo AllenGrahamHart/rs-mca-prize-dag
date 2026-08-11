@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling/verify.py",
-      "seconds": 0.041075,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/verify.py",
+      "seconds": 0.041939,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_ORIENTED_GCD_COUPLING_PASS (109951162778, 61083979321, 91625968981)\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_BIDIRECTIONAL_HEAVY_INCIDENCE_LOCALIZATION_PASS (109951162778, 122167958642, 137438953471) (109951162778, 122167958642, 133274136700, 140963029202, 146601550370)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling/verify_audit.py",
-      "seconds": 0.014029,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/verify_audit.py",
+      "seconds": 0.013643,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_ORIENTED_GCD_COUPLING_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_BIDIRECTIONAL_HEAVY_LOCALIZATION_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

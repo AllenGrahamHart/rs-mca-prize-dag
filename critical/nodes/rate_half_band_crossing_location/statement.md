@@ -2938,3 +2938,30 @@ The zero-deficit official floor is `g>=109951162778`. The remaining task is
 to compare this large divisor with the heavy-row cube/Forney factors. The
 proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling`.
+
+## Cycle 123: actual supports couple every deficit pattern (2026-08-11, Codex)
+
+The difference rows are light and padded heavy rows are absent from actual
+errors. Replacing full-locator estimates by actual-support unions removes
+the orientation restriction: both minimum-pair row families have rank two
+for every endpoint-deficit pattern. Their gcds exchange the endpoints and
+share all other roots.
+
+Every residual row root has deficit zero. Indeed, one difference point plus
+the fixed core and one padded heavy deficit already force the third center
+onto the endpoint codeword line, where it would be a common gcd root. The
+same actual-support argument makes all forward and reverse residual root
+sets pairwise disjoint. If `R=r_alpha+r_beta`, their common gcd degree `g`
+leaves exact supported-slope slack
+
+```text
+s=(R+5)g-(R+3)e+2>=0.
+```
+
+All packet deficit `e-6` is localized to the common center line or this
+slack. The line itself satisfies `3g+d_L<=3e-2`, yielding the stronger
+arm-specific floors `(BHL8)--(BHL9)`. The remaining task is no longer a
+generic gcd/heavy comparison: it is to show that the exact slack cannot
+absorb the supported heavy divisor, or to exclude the resulting localized
+intersection profile. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization`.
