@@ -5376,3 +5376,24 @@ COMPLIANCE ACROSS THE ROUND: bare-python3 breaches in 3 of 4
 pilots (7+2+1, all file-patching/no-ops, all disclosed; bank 3
 fully clean) — the round-34 CONSTRAINTS text gets the explicit
 file-patching clause as a mandatory upgrade.**
+
+## ROUND 34 LAUNCH — the boundary round (2026-08-11)
+
+Four Opus pilots; briefs + UPGRADED CONSTRAINTS (the explicit
+never-bare-python3-for-any-purpose clause, post-round-33 censure)
+in notes/pilots_20260811/{r34_m2_decision,r34_layer_a,r34_pstar,
+r34_bivcurve_m34}/: (A) G2 — settle (SAT3) at m=2 (the TCAP-DIM
+boundary; structured search on the reduced 40-parameter system;
+if realizable, the FIRST real F1 test at a non-degenerate w*
+window; then attempt m=3); (B) layer A/(NS-m) — the m=1
+regression calibration FIRST (does (NS-m) survive the realized
+witnesses?), then the Wronskian/ramification budget attack, then
+layer-A rank at scale with bank-2 machinery; (C) R-PSTAR — is FG
+empty at razor shape? (p* <= R/2 vs column-farness; census +
+dimension count + construction; if empty, R-KER becomes the SOLE
+far-CA residual); (D) the (BIV-CURVE) m=3,4 constructive fork
+(the W-layer fence's m-boundary; obstruction = candidate (NS-m)
+mechanism). QUARANTINE MARKER: this entry and below quarantined
+for round-34 pilots; r34_* siblings mutually quarantined
+(SEARCH-level exclusion required); round-33 rh_* and earlier
+readable. Launched on Opus.
