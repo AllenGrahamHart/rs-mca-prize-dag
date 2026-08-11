@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_sat3_realizability_ledger_record",
+    "title": "The (SAT3) realizability ledger: corrections, stacking, and the first-moment gate",
+    "status": "CONJECTURE",
+    "closure": "bookkeeping record with an explicit no-mechanism warning",
+    "statement": "Record of the (SAT3) realizability ledger across rounds 33-36. The (L2) overdetermination is (m+2)(4m+1) - 16m = 4m^2-7m+2 = -1,+4,+17,+38 at m = 1..4, negative only at m = 1, and it coincides identically with the (BIV-G) deficit (7m^2-9m+2)-(3m^2-2m) and with the reduced form m(4m+1)-(8m-2); the DEF-ID identity (m+2)(4m+1) + m(3m-2) = (m-1)(7m-2) + 16m = 7m^2+7m+2 is exact but was closed as a COINCIDENCE, since the shared quantity governs neither layer's existence. Three independent corrections apply to the m = 2 cell: (ERC2) forces e = m so the curve lies on the 18 = 23-5 dimensional (L2) component (requires edge to the proved exceptional-root-charge node), flipping the round-33 cell from -1-O to +4-O; the automorphism group acts freely with orbit dimension at least 4 and at least 6 generically, giving +4..+6; stacked, the m=2 cell sits at about +8..+10, doubly re-posing 'realizable iff m <= 2' to m <= 1. Controls preserved (m = 1 stays -9..-7; the e = 1 ladder stays -8m-1). The C(16m,4m-1) first-moment gate's formula is RECOVERED (D9): log2 E = [(m+1)(rho+1)-4] log2 q + log2 C(q+1,T) + T[log2 C(16m,4m-1) - rho log2 q], reproducing both m = 1 calibrations (+13.75 at q = 17 where exactly 16 = 2^4 configurations exist and are realized -- a 2^9.75 overestimate in the safe direction -- and -0.94 at q = 97 where none are). Four counting instruments say the class is empty at m >= 2 and NONE is a mechanism; a negative first moment proves nothing -- and round 38's inhabitation of the +62.5-bit T = 3 cell is the standing demonstration. The locator-layer and TCAP bookkeeping rows use opposite sign conventions and must never be added.",
+    "refs": [
+      "background/nodes/rate_half_sat3_realizability_ledger_record/statement.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/claim_contract.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/dependency_subdag.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/audit.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/result.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/provenance.md",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/certificate.json",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/verify.py",
+      "background/nodes/rate_half_sat3_realizability_ledger_record/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

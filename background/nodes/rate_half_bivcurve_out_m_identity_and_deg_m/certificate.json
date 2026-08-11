@@ -1,0 +1,9 @@
+{
+  "schema": "rate-half-outm-degm-v1",
+  "charges": {"outside": "m-1", "symmetric_difference": "m-2", "middle": "m-3"},
+  "middle_budget": "(m-1)(m-2)",
+  "m3_witness": {"sum_eps": 2, "refuted_rider_value": 1, "O": 0},
+  "deg1_floor": {"m3_needs_middle": false, "m4_needs_middle": true},
+  "deterministic_structures": "the audit builds its own incidence structures: for m in {3,4,5,6,8}, points of the three types with deficiencies def(x) = (x mod 3), t_x from the type table, blocks assembled so eps~_gamma sums per block; both sides of (OUT-ID) computed independently",
+  "note": "POSED node -- the certificate pins arithmetic only; existence of the (SAT3)-conditional configurations is not claimed (three instruments expect the T = rho+2 class empty at m >= 2). deg_Sh is the D11-renamed symbol for the sigma-design slope degree."
+}

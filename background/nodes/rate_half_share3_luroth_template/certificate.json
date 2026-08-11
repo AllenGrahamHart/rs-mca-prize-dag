@@ -1,0 +1,8 @@
+{
+  "schema": "rate-half-share3-luroth-v1",
+  "luroth": {"deg_w": 3, "waste_by_m": {"3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0}},
+  "demand": {"quadratic_row": [8, 22, 42], "corrected_row": [8, 25, 47], "supply": [8, 12, 9], "D_max_law": "4m-8"},
+  "constant_norm_q193": {"split_cubics": 41664, "norm_classes": 64, "class_size": 651, "max_collinear": 31, "lines_ge8": 9152},
+  "audit_fresh_field": {"q": 577, "min_line_members_exhibited": 8},
+  "note": "waste = 3(m-1) mod (m-1) = 0 for every m (maximal sharing free in the budget); the audit proves the 64-class equidistribution by exhaustive enumeration of C(64,3) triples (a q-independent combinatorial fact), re-derives the demand table, and exhibits a fix-one-root constant-norm line with >= 8 split members at the fresh field q = 577."
+}

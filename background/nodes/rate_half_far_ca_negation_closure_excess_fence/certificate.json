@@ -1,0 +1,32 @@
+{
+  "schema": "rate-half-negation-closure-excess-v1",
+  "cells": [
+    {"tag": "H1", "n": 20, "k": 10, "rho": 2, "covering": 84, "bad": 84, "distinct_slopes": 84},
+    {"tag": "H3", "n": 24, "k": 12, "rho": 2, "covering": 330, "bad": 330, "distinct_slopes": 329},
+    {"tag": "H4", "n": 26, "k": 13, "rho": 3, "covering": 165, "bad": 0, "distinct_slopes": 0},
+    {"tag": "H6", "n": 30, "k": 15, "rho": 3, "covering": 715, "bad": 0, "distinct_slopes": 0},
+    {"tag": "H7", "n": 34, "k": 17, "rho": 3, "covering": 3003, "bad": 0, "distinct_slopes": 0},
+    {"tag": "H8", "n": 36, "k": 18, "rho": 4, "covering": 1365, "bad": 0, "distinct_slopes": 0}
+  ],
+  "audit_replays": [
+    {"tag": "H1", "q": 1009},
+    {"tag": "H1", "q": 2003},
+    {"tag": "H3", "q": 65537},
+    {"tag": "H4", "q": 65537}
+  ],
+  "generic_qualifier_exhibit": {
+    "tag": "H4",
+    "q": 1009,
+    "bad_covering_locator_A": [6, 9, 11, 12, 13],
+    "slope": 291,
+    "note": "found at wiring audit: at rho = 3 the two residual conditions on one unknown are accidentally consistent at q = 1009 for exactly one covering locator (expected rate ~165/q ~ 0.16). The rho >= 3 kill is GENERIC in q, not field-uniform; the banked 0-counts live at q in {65537, 999983} where the accident rate is ~0.003."
+  },
+  "razor": {
+    "rho": 17179869184,
+    "R": 1099511627776,
+    "r": 1082331758592,
+    "a": 1116691496960,
+    "surplus_at_M2": 8589934591
+  },
+  "note": "bad/covering counts are field-independent (locator counts); the distinct-slope sub-count 329 at H3 is structural at large q only, so the audit re-checks it at the original field 65537 rather than at small fields where birthday collisions would contaminate it."
+}

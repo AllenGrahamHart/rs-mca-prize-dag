@@ -64,3 +64,22 @@ a wiring pre-condition.
 
 The wiring session itself (task #41); the a* convention ruling;
 the deg_Sh rename; the statement_u re-draft.
+
+## WIRING COMPLETION ADDENDUM (2026-08-11, task #41 session)
+
+All 10 packages WIRED as background nodes (11-file exemplar set each;
+20/20 verifiers PASS from wired locations; graph 2325/6855; census
+unchanged 231 = 167/37/27; full chain green). Pre-conditions discharged:
+statement_u re-draft (-> rate_half_far_ca_crossing_offset_value_ledger),
+deg_Sh (D11), the D9 gate formula (printed AND recomputed at both
+calibrations), (RIC3) citations both sides, Codex-window subtraction
+(zero overlap — the window is the a1 quadratic-gap-four lane).
+
+Wiring-audit catches: the (DICT) d <= rho scope correction (A1 marker
+applied); the H4 generic-in-q qualifier (accidental solution exhibited at
+q = 1009); the log2 rounding-vs-floor pin. Bonus: first local m=4 fence
+replay; (DET)+(SYZ) symbolic over Z; q=577 constant-norm line.
+
+COMPLIANCE (coordinator): ONE self-caught bare-python3 breach (empty
+heredoc no-op) mid-session — recorded in the campaign ledger with the
+same censure standard applied to pilots. Otherwise clean.

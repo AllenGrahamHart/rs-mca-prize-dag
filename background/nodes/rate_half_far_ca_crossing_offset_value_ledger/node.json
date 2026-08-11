@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_far_ca_crossing_offset_value_ledger",
+    "title": "The far-CA value at the crossing offset: Statement U refuted, the ledger of what stands",
+    "status": "TARGET",
+    "closure": "value ledger: the refutation, the floor, the cap, and the named residues",
+    "statement": "At razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho), STATEMENT U (every bad slope of a column-far pencil admits a locator inside W = S_1 u S_2; equivalently T_sym = T_rand = 0 in T = T_fib + T_sym + T_rand) is REFUTED: the adversary chooses the collinearity, yielding T = (r+1) + j exactly, so B_ca^far(k + 2^34) = r + 1 + Theta(n/rho) rather than the r + 1 = 1082331758593 that U would have given. The state of record: constructive floor r + 1 + 126 = 1082331758719 (the j = 126 exact double cover, 126*rho = 2r with kernel dim exactly 2; the rank half of R-GENERICITY proved, floor modulo TWO residues: in-block chi-injectivity and column-far Case B); cap the same 126 by the exchange law T <= (r+1) - delta + floor((2(r+1)-1+delta)/rho) with delta = 0 optimal at razor, but normal-form-conditional with a 17.17x pigeonhole (not algebraic) margin -- at small rho the trade profits (T = 19 > in-form cap 18 at C3, full census, three fields). PROVED components: the (FIB) pigeonhole bracket ceil((r+1)/d) <= T_fib <= floor(r/f)+1 with equality r+1 iff f = 1 and chi injective (the LB1 configuration); the U-sym razor kill (ceil(rho/M) conditions, surplus 2^33 - 1 at M = 2, q-free) with the carrier family proved exhaustive at odd r (R-USYM closed); the C(128,63)-vs-C(127,64) correspondence answered negative (ratio exactly 128/65). In bits nothing moves: log2 = 39.977280 to six decimals at both ends. The exact value is the TARGET, open on exactly the two floor residues and the cap's normal-form conditionality.",
+    "refs": [
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/statement.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/proof.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/claim_contract.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/audit.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/result.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/provenance.md",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/certificate.json",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/verify.py",
+      "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

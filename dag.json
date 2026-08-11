@@ -30611,6 +30611,24 @@
    ]
   },
   {
+   "id": "rate_half_bivcurve_out_m_identity_and_deg_m",
+   "title": "(OUT-m) as an aggregate identity, and its (DEG-m) corollary",
+   "status": "CONJECTURE",
+   "closure": "a constraint on the configuration space, refined to an exact double count",
+   "statement": "At a minimising pair union with (SAT1)-(SAT4), T = rho+2 and a = 7m-1, writing X'_gamma = |S_gamma ^ (S_g D S_h)| and X''_gamma = |S_gamma ^ (S_g ^ S_h)|, one has X'_gamma + 2 X''_gamma >= m-1-eps_gamma with eps_gamma the total saturation deficiency on S_gamma. The original aggregate rider sum eps <= 1+O is FALSE -- a deficient point outside W charges every type-2 block through it, so the correct aggregate is (m-1)(1+O) -- and the corollary that X_gamma = 0 is impossible requires 1+O < m-1, i.e. O <= m-3, which is vacuous at m = 2. The refinement of record is the exact identity sum_gamma eps~_gamma = sum_x def(x)*t_x with t_x the number of type-2 blocks through x, charging m-1, m-2 and m-3 per unit of deficiency at outside, symmetric-difference and middle points respectively; it is a trivial double count once stated, the aggregate (m-1)(1+O) is attained only by outside deficiency, the m=3 witness attains it exactly with sum = 2 while the refuted rider gives 1, and the m=2 exhibit charges 0. The corollary (DEG-m): in sigma-designs X' = 2 deg_Sh (the quantity renamed from deg_H at wiring per the D11 ruling, resolving the collision with the PROVED a1_core incidence-reconstruction node), so deg_Sh(gamma) + X''_gamma >= ceil((m-1-eps~)/2) subject to the exact middle budget sum_gamma X''_gamma = (m-1)(m-2); hence at m >= 4 a degree-1 slope requires middle support, which round 34's DFS never imposed. (DEG-m) has zero selection power (tightened and relaxed 2-sharing ceilings are bit-identical at 7/12, two fields) but is decisive at completion, where n_1 = 9 against a completeness bound of 4 upgrades the 2-sharing m=4 negative from a ceiling to dead-objects-at-the-ceiling.",
+   "refs": [
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/statement.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/claim_contract.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/dependency_subdag.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/audit.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/result.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/provenance.md",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/certificate.json",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/verify.py",
+    "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion",
    "title": "A=1 all-core sharp-cap exclusion",
    "status": "PROVED",
@@ -32577,6 +32595,63 @@
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/audit.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/result.md",
     "background/nodes/rate_half_crossing_multiscale_haar_norm_router/verify.py"
+   ]
+  },
+  {
+   "id": "rate_half_far_ca_crossing_offset_value_ledger",
+   "title": "The far-CA value at the crossing offset: Statement U refuted, the ledger of what stands",
+   "status": "TARGET",
+   "closure": "value ledger: the refutation, the floor, the cap, and the named residues",
+   "statement": "At razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho), STATEMENT U (every bad slope of a column-far pencil admits a locator inside W = S_1 u S_2; equivalently T_sym = T_rand = 0 in T = T_fib + T_sym + T_rand) is REFUTED: the adversary chooses the collinearity, yielding T = (r+1) + j exactly, so B_ca^far(k + 2^34) = r + 1 + Theta(n/rho) rather than the r + 1 = 1082331758593 that U would have given. The state of record: constructive floor r + 1 + 126 = 1082331758719 (the j = 126 exact double cover, 126*rho = 2r with kernel dim exactly 2; the rank half of R-GENERICITY proved, floor modulo TWO residues: in-block chi-injectivity and column-far Case B); cap the same 126 by the exchange law T <= (r+1) - delta + floor((2(r+1)-1+delta)/rho) with delta = 0 optimal at razor, but normal-form-conditional with a 17.17x pigeonhole (not algebraic) margin -- at small rho the trade profits (T = 19 > in-form cap 18 at C3, full census, three fields). PROVED components: the (FIB) pigeonhole bracket ceil((r+1)/d) <= T_fib <= floor(r/f)+1 with equality r+1 iff f = 1 and chi injective (the LB1 configuration); the U-sym razor kill (ceil(rho/M) conditions, surplus 2^33 - 1 at M = 2, q-free) with the carrier family proved exhaustive at odd r (R-USYM closed); the C(128,63)-vs-C(127,64) correspondence answered negative (ratio exactly 128/65). In bits nothing moves: log2 = 39.977280 to six decimals at both ends. The exact value is the TARGET, open on exactly the two floor residues and the cap's normal-form conditionality.",
+   "refs": [
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/statement.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/proof.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/claim_contract.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/audit.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/result.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/provenance.md",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/certificate.json",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/verify.py",
+    "background/nodes/rate_half_far_ca_crossing_offset_value_ledger/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_far_ca_hr_dictionary_common_support",
+   "title": "The h_r dictionary, forced common support, and the p*(d) law",
+   "status": "PROVED",
+   "closure": "structural classification of the column-far band (with one POSED law separated out)",
+   "statement": "For a column-far pencil whose two syndromes come from errors on a common support, with e_0 = 1 and e_1 = L there and d = deg L <= rho, h_r = rho + d and dim K_0 = r + 1 - rho - d, independently of the support size (h_r = 2rho when the ratio is not polynomial or has degree d > rho -- the stacked matrix has only 2rho rows, scope-corrected at wiring with saturation exhibits on record). Common support is forced rather than assumed: any column-far pencil with two bad slopes is generated by two errors on S_1 u S_2, reconstructed explicitly as e_0 = (gamma_2 u_1 - gamma_1 u_2)/(gamma_2-gamma_1), e_1 = (u_1-u_2)/(gamma_1-gamma_2). LB1 is the unique h_r = rho+1 structural family and its type-1 count is forced: d = 1 gives |W| = r+1 exactly, an injective ratio, and hence T_1 = r+1 with zero accidentals. Separately POSED (not proved): the extended law p*(d) = max(rho+d, floor((R+1+d)/2)), which holds 205/210 in the source bank with five named failures, all the symmetric-T quadratic at the H2 shape (n=22, k=11, rho=2, r=9), measured 6 against predicted 7 at 5/5 fields; p* is therefore not a function of (R, rho, d) and must not label strata, and its converse is refuted since p* = 6 at both h_r = 3 and h_r = 4.",
+   "refs": [
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/statement.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/proof.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/claim_contract.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/dependency_subdag.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/audit.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/result.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/provenance.md",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/certificate.json",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/verify.py",
+    "background/nodes/rate_half_far_ca_hr_dictionary_common_support/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_far_ca_negation_closure_excess_fence",
+   "title": "The negation-closure excess and its razor kill",
+   "status": "PROVED",
+   "closure": "exact structural excess family with a rho-threshold fence",
+   "statement": "On a negation-closed evaluation domain D = {+-1,...,+-m} (n = 2m), which the official power-of-two multiplicative subgroup is, column-far razor-faithful pencils with e_1 = x^2 e_0 carry T = 95..98 bad slopes against r+1 = 9, field-size independently and at mu_1 down to 1.26e-7, beating the first moment by 750x with zero saturation; the same family on the non-closed domain {1,...,20} gives T = 10. The mechanism is exact: since v_{-x} = (-1)^{n-1} v_x and sum_x v_x g(x) = 0 for deg g <= n-2, an even locator sigma(x) = Q(x^2) with root set A u (-A) collapses every odd-index Hankel row onto the orbits the error support misses, so a locator covering those orbits leaves exactly ceil(rho/2) conditions on the single unknown slope. Hence rho = 2 yields one slope per covering even locator and rho >= 3 yields generically none (generic in q: an accidental covering solution at H4 over q = 1009 is on record at the predicted ~165/q rate; the banked zero-counts live at q in {65537, 999983}). The number of covering even locators is C(m-off, r/2-off) with off = m-(r+1); the banked form C(m-1, r/2-1) is its off = 1 face. At rho = 2 the bad set equals the covering set exactly (84 at H1, 330 at H3, both fields), though at H3 those 330 locators carry only 329 distinct slopes. The excess is killed at the razor exactly: ceil(rho/M) = 1 needs M >= rho = 2^34, and at M = 2 the surplus is 2^33 - 1 = 8589934591 conditions -- a rho-threshold, not a field threshold. Consequently any far-CA counting argument treating D as a generic point set is unsound at small rho.",
+   "refs": [
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/statement.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/proof.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/claim_contract.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/dependency_subdag.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/audit.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/result.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/provenance.md",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/certificate.json",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/verify.py",
+    "background/nodes/rate_half_far_ca_negation_closure_excess_fence/verify_audit.py"
    ]
   },
   {
@@ -37675,6 +37750,63 @@
    ]
   },
   {
+   "id": "rate_half_l2_stratum_nonempty_at_m_two",
+   "title": "R-L2: the e = m stratum is nonempty at m = 2 (witness theorem)",
+   "status": "PROVED",
+   "closure": "explicit certified witnesses over five fields",
+   "statement": "There exist (4m+1) x 4m syndrome Hankel pencils with minimal index exactly m = 2, generic rank 4m-1 = 7, s = 0, delta = m-1 = 1, and independent Q_0, Q_1, Q_2: twelve are certified over q in {97,193,257,641,769}. Existence is witness-checkable. Membership is decided by the (D-B) congruence criterion nullity(36x32) = 10 - rank(Phi) for the 14x10 map (f,g) -> (Q_2 f - Q_1 g mod Q_0, Q_1 f - Q_0 g mod Q_2), and objects are produced by the (D-F) inversion, which at m = 2 makes the cleared system a square 24x24 in the curve so that existence is the single condition det M(B) = 0 (hit rate ~1/q against q^-5 blind); the squareness is an m = 2 accident, and since round 36 the rate-1 (PAR) parametrization supersedes (D-F) as the construction instrument. The equation-count excess 4m^2-7m+2 = -1,+4,+17,+38 is NOT an existence codimension: the determinantal codimension is (36-31)(32-31) = 5 in the 23-dimensional curve space, giving expected dimension 11m-4 > 0 at every m >= 1 and exactly 18 = 23-5 at m = 2, while the planted-common-root family (nullity 2) is an excess component of dimension 21. The emptiness route to the strict endpoint is therefore dead at m = 2 constructively and expected-dead at every m. All witnesses have T = 0: having a syndrome pencil buys nothing at the splitting layer. The banked a* = 13 is under the PROJECTIVE convention, ruled the convention of record in round 38 and proved operationally inert on supported pairs.",
+   "refs": [
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/statement.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/proof.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/claim_contract.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/dependency_subdag.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/audit.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/result.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/provenance.md",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/certificate.json",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/verify.py",
+    "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_l2_stratum_rational_parametrization",
+   "title": "The (PAR) rational parametrization of the e = m = 2 (L2) stratum",
+   "status": "PROVED",
+   "closure": "birational parametrization with a determinantal identity and two syzygies",
+   "statement": "At m = 2 (rho = 7, N = 32, R = 16, r = 7, A = 3) let B = (f,g,h,k) have degrees at most 4 and let L be linear with root ell. Then L*Q_0 = f^2-kg, L*Q_1 = fg+hk, L*Q_2 = g^2+hf is a birational parametrization of the entire e = m = 2 (L2) stratum, subject to exactly two conditions at ell, namely (f^2-kg)(ell) = (g^2+hf)(ell) = 0; the parametrization has hit rate 1. It is the determinant det([[f,k],[g,f]] + z[[g,f],[-h,g]]) = (f^2-kg) + z(fg+hk) + z^2(g^2+hf) = L*Q_z. The syzygies f*(g^2+hf) = g*(fg+hk) + h*(f^2-kg) and f*(fg+hk) = g*(f^2-kg) + k*(g^2+hf) hold identically (proved symbolically over Z at wiring, hence in every characteristic), so the middle condition at ell follows from the outer two except exactly when f(ell) = g(ell) = 0, where it is unconstrained. The image has dimension exactly 18 = 20 + 1 - 2 - 1 with finite fibres both ways. The membership criterion det M(B) = 0 iff gcd(f^2-kg, fg+hk, g^2+hf) != 1 is proved in the forward direction (L divides all three) and measured 1200/1200 over two fields in the converse. Everything is m = 2 specific: the elimination uses deg(f^2-kg) <= deg Q_0 + 1. The round-38 T = 3 achievement over mu_32 (scale elimination) runs through this parametrization; it supersedes the round-35 (D-F) inversion as the construction instrument.",
+   "refs": [
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/statement.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/proof.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/claim_contract.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/dependency_subdag.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/audit.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/result.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/provenance.md",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/certificate.json",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/verify.py",
+    "background/nodes/rate_half_l2_stratum_rational_parametrization/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_layer_a_equivalence_and_geometry_counterexamples",
+   "title": "(LA-EQ) and the layer-A geometry counterexamples",
+   "status": "PROVED",
+   "closure": "constructive refutation of two hypothesis rungs, plus an infinite fence family",
+   "statement": "(LA-EQ): for any hypothesis set H satisfied by the restriction of a strict A=3, e=m endpoint configuration to 7m-1 of its at least 15m parameter-saturated points, (LA-W COUNT | H) implies the endpoint is empty, because the endpoint's own nonzero kernel biform lies in the layer-A kernel of the restriction; the rank theorem is therefore a strict strengthening of the exclusion rather than a route to it. Two hypothesis rungs are constructively FALSE at m = 2: the closed form Q = (Z-g)(Z-h)C(X) + a(Z-h)sigma_g(X) - b(Z-g)sigma_h(X) satisfies H1 by construction with two degree-rho supports split over mu_32, |S_g ^ S_h| = 1 and a = 13 = 7m-1 saturated points, and every admissible build has layer-A nullity exactly 1 against a count excess 3m^2-5m = +2; forcing H2 (all pair intersections at most m-1, T = rho+2 = 9 exactly) still admits exhibits with supports [7,7,2,2,2,2,2,1,1], max pair-intersection 1 and nullity 1, obtained by prescribing the five merged second-slope values, which makes the merge conditions linear in C and leaves 10 equations on 9 unknowns, i.e. one scalar condition. The fence is an infinite family: Q_0 = Z^m - X^{2m} with W inside 4 fibres of x -> x^{2m} on mu_{16m} and Gamma the 4m m-th roots plus one spare gives a saturated a = 7m-1 configuration of nullity exactly 2m, verified afresh at m = 3 (60 x 48, rank 42, nullity 6) and at m = 4 in the wiring audit (108 x 80, nullity 8); the m = 2 member and the banked m = 2,3,4,6 measurements are consumed by a requires edge on the PROVED saturation-count fence node (cited, not re-claimed). Consequently the bare count route is dead at every m >= 2, the standalone universal layer-A exclusion at a = 7m-1 is retired, and the surviving question -- rank over (SAT2)-completable configurations -- IS the realizability question. (LA-PADE)/(LA-DEG) carried at POSED with mechanism the PROVED (RIC3), cited.",
+   "refs": [
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/statement.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/proof.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/claim_contract.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/dependency_subdag.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/audit.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/result.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/provenance.md",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/certificate.json",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/verify.py",
+    "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_layer_a_saturation_count_route_fence",
    "title": "Layer-A saturation-count route fence",
    "status": "PROVED",
@@ -37791,6 +37923,43 @@
    ]
   },
   {
+   "id": "rate_half_sat3_realizability_ledger_record",
+   "title": "The (SAT3) realizability ledger: corrections, stacking, and the first-moment gate",
+   "status": "CONJECTURE",
+   "closure": "bookkeeping record with an explicit no-mechanism warning",
+   "statement": "Record of the (SAT3) realizability ledger across rounds 33-36. The (L2) overdetermination is (m+2)(4m+1) - 16m = 4m^2-7m+2 = -1,+4,+17,+38 at m = 1..4, negative only at m = 1, and it coincides identically with the (BIV-G) deficit (7m^2-9m+2)-(3m^2-2m) and with the reduced form m(4m+1)-(8m-2); the DEF-ID identity (m+2)(4m+1) + m(3m-2) = (m-1)(7m-2) + 16m = 7m^2+7m+2 is exact but was closed as a COINCIDENCE, since the shared quantity governs neither layer's existence. Three independent corrections apply to the m = 2 cell: (ERC2) forces e = m so the curve lies on the 18 = 23-5 dimensional (L2) component (requires edge to the proved exceptional-root-charge node), flipping the round-33 cell from -1-O to +4-O; the automorphism group acts freely with orbit dimension at least 4 and at least 6 generically, giving +4..+6; stacked, the m=2 cell sits at about +8..+10, doubly re-posing 'realizable iff m <= 2' to m <= 1. Controls preserved (m = 1 stays -9..-7; the e = 1 ladder stays -8m-1). The C(16m,4m-1) first-moment gate's formula is RECOVERED (D9): log2 E = [(m+1)(rho+1)-4] log2 q + log2 C(q+1,T) + T[log2 C(16m,4m-1) - rho log2 q], reproducing both m = 1 calibrations (+13.75 at q = 17 where exactly 16 = 2^4 configurations exist and are realized -- a 2^9.75 overestimate in the safe direction -- and -0.94 at q = 97 where none are). Four counting instruments say the class is empty at m >= 2 and NONE is a mechanism; a negative first moment proves nothing -- and round 38's inhabitation of the +62.5-bit T = 3 cell is the standing demonstration. The locator-layer and TCAP bookkeeping rows use opposite sign conventions and must never be added.",
+   "refs": [
+    "background/nodes/rate_half_sat3_realizability_ledger_record/statement.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/claim_contract.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/dependency_subdag.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/audit.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/result.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/provenance.md",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/certificate.json",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/verify.py",
+    "background/nodes/rate_half_sat3_realizability_ledger_record/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_share3_luroth_template",
+   "title": "(SHARE3-m): the L\u00fcroth pullback template and the constant-norm mechanism",
+   "status": "CONJECTURE",
+   "closure": "template + existence mechanism; m = 4 remains open (Door B the live route)",
+   "statement": "Order-3 tuple-sharing in the (BIV-CURVE) lane is a L\u00fcroth-lattice pullback: deg_x = k*deg_w with k = m-1 forces deg_w = 3 exactly, and the waste 3(m-1) mod k is zero -- maximal sharing is free in the budget, the opposite of the involution's wasted unit. The demand arithmetic (corrected 2-sharing row 8/25/47 at m = 3,4,5 with no printed closed form; D_max(m) = 4m-8 linear for m >= 7) meets the best-achieved supply 8/12/9 only at m = 3. The constant-norm existence mechanism is structural: the 41664 mu_64-split cubics fall into 64 equidistributed norm classes of 651, and fixing one root gives lines (a,b) = (-(r+u), ru + nu/r) whose members are the u with split companion quadratic -- max 31 collinear and 9152 lines at >= 8 in the exhaustive q = 193 scan, at cost 1/N not 1/q. The m = 4 gap at drafting (|W| = 27 exact, selection free, k = 8/8, shortfall |slopes| = 14 vs 13 required) has since sharpened: round 37 proved demand minimality (>= 10 merges, exactly two placements) and round 38 closed Door A as budget-neutral, corrected the q = 257 ceiling 15 -> 14 (now three-instrument invariant, posed intrinsic as CONJECTURE C38), closed sporadic sharing by dichotomy (the draft's < 1e-4 price withdrawn as 11 dex optimistic), and left DOOR B (deficit 2) as the live route. Everything inheriting (OUT-m)/(DEG-m) stays POSED; the flat-supply death regime is CONDITIONAL and vacuous at m = 4.",
+   "refs": [
+    "background/nodes/rate_half_share3_luroth_template/statement.md",
+    "background/nodes/rate_half_share3_luroth_template/proof.md",
+    "background/nodes/rate_half_share3_luroth_template/claim_contract.md",
+    "background/nodes/rate_half_share3_luroth_template/dependency_subdag.md",
+    "background/nodes/rate_half_share3_luroth_template/audit.md",
+    "background/nodes/rate_half_share3_luroth_template/result.md",
+    "background/nodes/rate_half_share3_luroth_template/provenance.md",
+    "background/nodes/rate_half_share3_luroth_template/certificate.json",
+    "background/nodes/rate_half_share3_luroth_template/verify.py",
+    "background/nodes/rate_half_share3_luroth_template/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_type2_fr_exact_spend_calibration",
    "title": "Exact spend calibration for the rate-half type-2 FR route",
    "status": "PROVED",
@@ -37862,6 +38031,25 @@
     "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify_audit.py",
     "notes/pilots_20260810/rh_type2_stratum/PREREG.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md"
+   ]
+  },
+  {
+   "id": "rate_half_type2_ledger_vacuous_by_sign_fence",
+   "title": "The type-2 ledger is vacuous by sign on the whole open bracket",
+   "status": "PROVED",
+   "closure": "exact sign computation on the (C2) per-slope floor",
+   "statement": "(C2)'s per-slope floor is (R+1) - w* with w* = |S_g u S_h| ranging over [r, 2r]. It is positive for every admissible W iff 2r <= R, which at rate one half is identically the condition a >= 3n/4, the top of the open bracket. At razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho = 1082331758592) the adversary takes w* = 2r and the floor is -1065151889407: the ledger is vacuous BY SIGN, not by slack, since positivity would require |S_g ^ S_h| >= 2r - R = 62r/63 = 98.412698% of r, which is adversary-free. Consequently no transport of (C2), (C3), (C4), X_gamma or layer-A instruments into the half-open bracket [k+2^34, 3n/4) can bind: the bracket is vacuous by sign before it is vacuous by counting, and the sign flips exactly at the excluded top a = 3n/4 = k + 2^39, where the floor is precisely +1.",
+   "refs": [
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/statement.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/proof.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/claim_contract.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/dependency_subdag.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/audit.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/result.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/provenance.md",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/certificate.json",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/verify.py",
+    "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/verify_audit.py"
    ]
   },
   {
@@ -65309,6 +65497,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_bivcurve_out_m_identity_and_deg_m",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -67171,6 +67364,21 @@
   {
    "from": "rate_half_crossing_multiscale_haar_norm_router",
    "to": "rate_half_list_adjacent_crossing",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_far_ca_crossing_offset_value_ledger",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_far_ca_hr_dictionary_common_support",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_far_ca_negation_closure_excess_fence",
+   "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
@@ -72174,9 +72382,29 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_l2_stratum_nonempty_at_m_two",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_l2_stratum_rational_parametrization",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_layer_a_equivalence_and_geometry_counterexamples",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_layer_a_saturation_count_route_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_layer_a_saturation_count_route_fence",
+   "to": "rate_half_layer_a_equivalence_and_geometry_counterexamples",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_coordinate_clone_subcritical_payment",
@@ -72209,6 +72437,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_sat3_realizability_ledger_record",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_share3_luroth_template",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_type2_fr_exact_spend_calibration",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -72235,6 +72473,11 @@
   },
   {
    "from": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_type2_ledger_vacuous_by_sign_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

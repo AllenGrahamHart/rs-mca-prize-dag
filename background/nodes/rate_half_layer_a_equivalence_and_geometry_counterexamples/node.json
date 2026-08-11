@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_layer_a_equivalence_and_geometry_counterexamples",
+    "title": "(LA-EQ) and the layer-A geometry counterexamples",
+    "status": "PROVED",
+    "closure": "constructive refutation of two hypothesis rungs, plus an infinite fence family",
+    "statement": "(LA-EQ): for any hypothesis set H satisfied by the restriction of a strict A=3, e=m endpoint configuration to 7m-1 of its at least 15m parameter-saturated points, (LA-W COUNT | H) implies the endpoint is empty, because the endpoint's own nonzero kernel biform lies in the layer-A kernel of the restriction; the rank theorem is therefore a strict strengthening of the exclusion rather than a route to it. Two hypothesis rungs are constructively FALSE at m = 2: the closed form Q = (Z-g)(Z-h)C(X) + a(Z-h)sigma_g(X) - b(Z-g)sigma_h(X) satisfies H1 by construction with two degree-rho supports split over mu_32, |S_g ^ S_h| = 1 and a = 13 = 7m-1 saturated points, and every admissible build has layer-A nullity exactly 1 against a count excess 3m^2-5m = +2; forcing H2 (all pair intersections at most m-1, T = rho+2 = 9 exactly) still admits exhibits with supports [7,7,2,2,2,2,2,1,1], max pair-intersection 1 and nullity 1, obtained by prescribing the five merged second-slope values, which makes the merge conditions linear in C and leaves 10 equations on 9 unknowns, i.e. one scalar condition. The fence is an infinite family: Q_0 = Z^m - X^{2m} with W inside 4 fibres of x -> x^{2m} on mu_{16m} and Gamma the 4m m-th roots plus one spare gives a saturated a = 7m-1 configuration of nullity exactly 2m, verified afresh at m = 3 (60 x 48, rank 42, nullity 6) and at m = 4 in the wiring audit (108 x 80, nullity 8); the m = 2 member and the banked m = 2,3,4,6 measurements are consumed by a requires edge on the PROVED saturation-count fence node (cited, not re-claimed). Consequently the bare count route is dead at every m >= 2, the standalone universal layer-A exclusion at a = 7m-1 is retired, and the surviving question -- rank over (SAT2)-completable configurations -- IS the realizability question. (LA-PADE)/(LA-DEG) carried at POSED with mechanism the PROVED (RIC3), cited.",
+    "refs": [
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/statement.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/proof.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/claim_contract.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/dependency_subdag.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/audit.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/result.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/provenance.md",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/certificate.json",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/verify.py",
+      "background/nodes/rate_half_layer_a_equivalence_and_geometry_counterexamples/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_layer_a_saturation_count_route_fence"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

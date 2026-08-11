@@ -1,0 +1,26 @@
+{
+  "schema": "rate-half-type2-vacuity-v1",
+  "n": 2199023255552,
+  "k": 1099511627776,
+  "R": 1099511627776,
+  "rho": 17179869184,
+  "a": 1116691496960,
+  "r": 1082331758592,
+  "adversary_wstar": 2164663517184,
+  "floor_at_adversary": -1065151889407,
+  "overlap_threshold": 1065151889408,
+  "threshold_numerator": 62,
+  "threshold_denominator": 63,
+  "flip_offset": 1649267441664,
+  "floor_at_flip": 1,
+  "small_cell": {
+    "n": 22,
+    "k": 11,
+    "R": 11,
+    "rho": 2,
+    "r": 9,
+    "a": 13,
+    "floor": -6,
+    "threshold": 7
+  }
+}

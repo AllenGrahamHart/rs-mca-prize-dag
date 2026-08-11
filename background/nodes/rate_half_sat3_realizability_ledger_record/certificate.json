@@ -1,0 +1,14 @@
+{
+  "schema": "rate-half-sat3-ledger-v1",
+  "l2_row": [-1, 4, 17, 38],
+  "binomials": {"C(16,3)": 560, "C(32,7)": 3365856, "C(48,11)": 22595200368, "C(64,15)": 159518999862720},
+  "gate_formula": "log2 E = [(m+1)(rho+1) - 4] log2 q + log2 C(q+1, T) + T [ log2 C(16m, 4m-1) - rho log2 q ]",
+  "calibrations": [
+    {"m": 1, "q": 17, "T": 5, "banked_log2E": 13.75, "realized": 16},
+    {"m": 1, "q": 97, "T": 5, "banked_log2E": -0.94, "realized": 0}
+  ],
+  "overestimate_bits": 9.75,
+  "stacking": {"uncorrected": "-1-O", "erc2_units": 5, "aut_range": [4, 6], "stacked_range": [8, 10]},
+  "carried_not_recomputed": ["-1952 m^2 bits at official scale", "-61.3 bits at q=97 dim-18-sharpened"],
+  "note": "HEURISTIC record node. The gate formula is the D9 recovery (r35_rout_layer_a/REPORT.md section D3.3); the audit computes both calibration points from it to two decimals. The T = 3 +62.5-bit cell was inhabited by round 38's scale-elimination witnesses after drafting."
+}

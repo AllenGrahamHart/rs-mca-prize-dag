@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-crossing-offset-value-ledger-v1",
+  "n": 2199023255552,
+  "k": 1099511627776,
+  "R": 1099511627776,
+  "rho": 17179869184,
+  "a": 1116691496960,
+  "r": 1082331758592,
+  "t_fib_floor": 1082331758593,
+  "constructive_floor": 1082331758719,
+  "double_cover_j": 126,
+  "double_cover_defect": 2,
+  "usym_surplus_at_M2": 8589934591,
+  "log2_micro": 39977280,
+  "binomial_ratio": {"num": 128, "den": 65},
+  "mu26_cell": {"r_plus_1": 11, "rho": 3, "j_cap": 7, "in_form_cap": 18, "outside_form_T": 19},
+  "note": "outside_form_T = 19 (C3 rank-drop exhibit, round 38, full census, three fields) is CITED, not recomputed: it is the reason the razor cap is normal-form-conditional. log2_micro is round(10^6 * log2(x)) (the true value is 39.9772799..., so flooring would give ...279) and is the SAME for x = t_fib_floor and x = constructive_floor: in bits nothing moves."
+}

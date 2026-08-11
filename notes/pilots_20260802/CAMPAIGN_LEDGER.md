@@ -6328,3 +6328,47 @@ two +126 residues; (3) the rank-<=2 inverse; (4) C38's Groebner
 falsifier (compute request); (5) THE MINT WIRING (#41 — two
 rounds overdue, ~45 items); (6) layer A on the Door-A object
 (six rounds unrun).**
+
+----------------------------------------------------------------------
+2026-08-11 -- MINT-WIRING SESSION COMPLETE (task #41, coordinator solo)
+
+The round-37 mint (10 packages) WIRED as background nodes with the full
+11-file exemplar set each, incl. independent verify_audit.py second code
+paths (20/20 verifiers PASS from wired locations). All recorded
+pre-conditions discharged: statement_u RE-DRAFTED as
+rate_half_far_ca_crossing_offset_value_ledger (U refuted, r+1+Theta(n/rho),
+round-38 floor/cap state); D11 deg_Sh rename applied; D9 gate formula
+recovered onto the node AND recomputed at both calibrations (+13.75/-0.94);
+(RIC3) cross-citations closed both sides; Codex-cycle-window subtraction
+clean (zero overlap). D1 (a* PROJECTIVE) recorded as resolved on the
+witness node.
+
+THREE WIRING-AUDIT CATCHES (audit cadence: 14th consecutive catching
+session): (1) (DICT) scope-corrected to d <= rho (saturation exhibits;
+A1 marker applied — the banked bullet lacked the qualifier); (2) the
+rho >= 3 negation-closure kill is generic in q, not field-uniform
+(accidental covering solution exhibited at H4/q=1009 at the predicted
+rate); (3) the banked log2 = 39.977280 is the rounding of 39.9772799...
+(float-free digit extraction; floor differs in the 6th decimal).
+
+Bonus audit yields: first local m=4 fence replay (nullity 8 = 2m, fresh
+code); (DET)+(SYZ) proved symbolically over Z; fresh-field q=577
+constant-norm line (30 members). Schema rulings: POSED/HEURISTIC ->
+CONJECTURE bucket (leaf rule; ingredient links textual); hr_dictionary
+kept as ONE node (status ledger per component).
+
+Graph: 2319 -> 2325 nodes, 6848 -> 6855 edges. CENSUS UNCHANGED
+231 = 167/37/27 (all ten off-orbit; the no-re-pin prediction held).
+Full verify chain PASS; manifest refreshed (3267 scripts).
+
+COMPLIANCE (coordinator, self-reported): ONE bare-python3 breach by the
+COORDINATOR mid-session — an empty-heredoc no-op (`python3 - <<EOF` with
+empty body, output discarded, || fallback) emitted as a garbage
+"placeholder guard" command. Exactly the breach class the pre-Bash
+checklist exists for; self-caught on the next line, censured here by the
+same standard applied to pilots. All other invocations ramguard-wrapped
+(tiny/local per size); no sed -i/tee/redirection writes; scratchpad used
+for scratch. One prior cd-drift (into notes/) caused a tools/ramguard
+path miss (exit 127, no compute run) — corrected by returning to repo
+root.
+----------------------------------------------------------------------
