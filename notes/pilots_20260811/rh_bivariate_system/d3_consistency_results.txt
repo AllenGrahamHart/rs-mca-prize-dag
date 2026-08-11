@@ -1,0 +1,61 @@
+==============================================================================
+D3 -- CONSISTENCY RELATIONS AND THE CONSTRUCTIVE TEST
+==============================================================================
+
+[A] the corrected admissible generator (caps 2m-2 overall, m-1 per side)
+
+   m  type-2 demand  g-side demand  g-side capacity  slack   (predicted (m-1))
+    2             12              6                7      1   OK
+    3             38             20               22      2   OK
+    4             78             42               45      3   OK
+    8            378            210              217      7   OK
+   64          28098          16002            16065     63   OK
+
+[A2] nullity of S2 on CORRECTLY admissible random data, random embeddings
+   m    q    unknowns  equations   nullity histogram (20 embeddings)   max X_gamma (cap 2m-2)
+   2    97        26         36   {0: 20}                           2 (cap 2)
+   2   193        26         36   {0: 20}                           2 (cap 2)
+   3    97        40         65   {0: 20}                           4 (cap 4)
+   3   193        40         65   {0: 20}                           4 (cap 4)
+   4   193        54        102   {0: 20}                           6 (cap 6)
+   4   257        54        102   {0: 20}                           6 (cap 6)
+
+[B] CONSTRUCTIVE TEST at m = 2, a = 7m-1 = 13: search a degree-3 rational
+    map phi = -A/B on mu_32 with >= 6 disjoint 2-element fibres, build the
+    full admissible configuration from them, and test the bivariate system.
+
+    q=97  |Z|=9 distinct slopes: True
+    |W|=13=7m-1  |S_g|=7  |S_h|=7  (rho=7)  |S_g^S_h|=1 (=m-1)  S_g u S_h = W : True
+    every |A_x| = m = 2 : True   X_gamma <= 2m-2 = 2 for all type-2 : True
+    |S_gamma ^ S_g ^ W| <= m-1 = 1 : True ; |S_gamma ^ S_h ^ W| <= 1 : True
+    >>> BIVARIATE SYSTEM: unknowns 26, equations 36, rank 25, NULLITY 1
+    >>> kernel vector with (alpha_x,beta_x) != (0,0) for EVERY x in W : True
+    the 6 slope classes are the 2-element fibres of phi = -A/B,
+    A = [81, 76, 0, 39] , B = [63, 3, 84, 13] (coefficients, ascending)
+
+    q=193  |Z|=9 distinct slopes: True
+    |W|=13=7m-1  |S_g|=7  |S_h|=7  (rho=7)  |S_g^S_h|=1 (=m-1)  S_g u S_h = W : True
+    every |A_x| = m = 2 : True   X_gamma <= 2m-2 = 2 for all type-2 : True
+    |S_gamma ^ S_g ^ W| <= m-1 = 1 : True ; |S_gamma ^ S_h ^ W| <= 1 : True
+    >>> BIVARIATE SYSTEM: unknowns 26, equations 36, rank 25, NULLITY 1
+    >>> kernel vector with (alpha_x,beta_x) != (0,0) for EVERY x in W : True
+    the 6 slope classes are the 2-element fibres of phi = -A/B,
+    A = [37, 86, 109, 187] , B = [82, 53, 173, 143] (coefficients, ascending)
+
+[C] FIRST-MOMENT count (HEURISTIC -- assumes the structured system behaves
+    like a random one; calibrated against the K_7-star, where it is EXACT)
+
+    #(embeddings x slope tuples x admissible incidences) x Pr[nonzero kernel]
+    log2 E ~ E_comb + (4m-1)log2 q + log2(N!/(N-a)!) - (4m^2-7m+3) log2 q
+
+      m      q       E_comb   slopeterm   Wterm    deficit+1    log2 E
+         2       97         33.7        46.2     65.0            5         111.9  solutions EXPECTED
+         3       97        111.0        72.6    111.7           18         176.5  solutions EXPECTED
+         4      193        232.1       113.9    162.0           39         211.8  solutions EXPECTED
+         8      129       1160.1       217.3    385.0          203         339.2  solutions EXPECTED
+        16      257       5168.7       504.4    888.0          915        -764.1  NONE expected
+        64     1025      89998.7      2550.4   4470.0        15939      -62393.4  NONE expected
+        64    12289      89998.7      3464.2   4470.0        15939     -118599.7  NONE expected
+      2^37    2^167  429089093780429112082432.0  91809220919129.0  39444979646423.0  75557863724952250744835  -12189074148155342293303296.0  NONE expected
+
+==============================================================================

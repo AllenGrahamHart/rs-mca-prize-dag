@@ -1,0 +1,77 @@
+=== D3a: m=1 (SAT3) realizability at LARGE q with a DESIGNED domain ===
+profile rho=3 N=16 R=8 k=8 r=3 A=3 e=1 s=0 delta=0, target T=rho+2=5
+
+  q=1009: REALIZED after 1 pencil draws
+    |split fibres of the pencil over F_q| = 175 (>= rho+2 = 5 needed)
+    D (designed, |D|=16) = [0, 35, 138, 242, 303, 397, 500, 535, 635, 655, 772, 824, 874, 936, 963, 969]
+    generic rank rho = 3  =>  A = 3
+    T = 5 = rho+2 ; slopes [0, 97, 359, 581, 974]
+    u_gamma = [3, 3, 3, 3, 3] ; O = 0 (SAT2 bound delta = 0)
+    max d_x = 1 <= e = 1 ; deficit sum_x(m-d_x) = 1 vs 1+O = 1 -> (SAT4) OK
+    saturated pts = 15 >= N-(1+O) = 15 -> (SAT5) OK
+    column-far (no common split locator): OK
+    w* = 6 ; 7m-1 = 6 -> (NEWCAP) F1 fires? NO
+
+  q=2003: REALIZED after 1 pencil draws
+    |split fibres of the pencil over F_q| = 322 (>= rho+2 = 5 needed)
+    D (designed, |D|=16) = [0, 867, 946, 1000, 1016, 1149, 1167, 1225, 1363, 1431, 1527, 1644, 1706, 1745, 1837, 1957]
+    generic rank rho = 3  =>  A = 3
+    T = 5 = rho+2 ; slopes [0, 146, 244, 734, 939]
+    u_gamma = [3, 3, 3, 3, 3] ; O = 0 (SAT2 bound delta = 0)
+    max d_x = 1 <= e = 1 ; deficit sum_x(m-d_x) = 1 vs 1+O = 1 -> (SAT4) OK
+    saturated pts = 15 >= N-(1+O) = 15 -> (SAT5) OK
+    column-far (no common split locator): OK
+    w* = 6 ; 7m-1 = 6 -> (NEWCAP) F1 fires? NO
+
+  q=10007: REALIZED after 1 pencil draws
+    |split fibres of the pencil over F_q| = 1700 (>= rho+2 = 5 needed)
+    D (designed, |D|=16) = [0, 559, 1342, 1701, 2907, 3109, 3426, 3854, 3896, 4344, 4749, 4907, 5087, 6624, 7109, 8143]
+    generic rank rho = 3  =>  A = 3
+    T = 5 = rho+2 ; slopes [0, 1889, 3368, 7004, 8612]
+    u_gamma = [3, 3, 3, 3, 3] ; O = 0 (SAT2 bound delta = 0)
+    max d_x = 1 <= e = 1 ; deficit sum_x(m-d_x) = 1 vs 1+O = 1 -> (SAT4) OK
+    saturated pts = 15 >= N-(1+O) = 15 -> (SAT5) OK
+    column-far (no common split locator): OK
+    w* = 6 ; 7m-1 = 6 -> (NEWCAP) F1 fires? NO
+
+large-q realizations: 3/3 cells
+
+=== D3b: DIMENSION LEDGER for the (SAT3) configuration ===
+The object is the affine curve F(Z,x)=0 of bidegree (e,rho)=(m,4m-1)
+(F = the apolar generator Q_Z read as a polynomial in the domain
+variable x).  Free data: the curve ((m+1)*4m - 1 projective coeffs),
+the slope set G (|G| = T), the domain D (|D| = N = 16m).
+Conditions: (SAT4) forces sum_x d_x = T*rho - O with d_x <= m and
+|D| = 16m, i.e. all but 1+O domain points must have ALL m roots of
+the degree-m polynomial F(.,x) inside G -- i.e. F(.,x) | H_G(Z).
+Each such point is m conditions on a P^m, minus 1 for the free x.
+
+   m        rho          N    T=rho+2           params              conds             excess        verdict
+   1          3         16          5               28                 15                -13     REALIZABLE
+   2          7         32          9               64                 63                 -1     REALIZABLE
+   3         11         48         13              108                143                 35       OVER-DET
+   4         15         64         17              160                255                 95       OVER-DET
+   5         19         80         21              220                399                179       OVER-DET
+   8         31        128         33              448               1023                575       OVER-DET
+  16         63        256         65             1408               4095               2687       OVER-DET
+1024       4095      16384       4097          4218880           16777215           12558335       OVER-DET
+2^37 549755813887 2199023255552 549755813889 75557863729212858302464 302231454903657293676543 226673591174444435374079       OVER-DET
+
+closed form: excess(m) = 16m^2 - 1 - (4m^2+4m-1) - (4m+1) - 16m
+           = 12m^2 - 24m - 1
+   excess(1) = -13
+   excess(2) = -1
+   excess(3) = 35
+roots of 12m^2-24m-1: m = 1 +- sqrt(39)/6 -> m in (-0.04, 2.04);
+so excess < 0 EXACTLY for m in {1, 2} and excess > 0 for every m >= 3.
+
+Second, independent bookkeeping (conditions counted as
+'F(.,x) divides H_G' at 16m-(1+O) points, m conditions each, minus
+one free x per point; parameters = curve + G only):
+   excess2(m) = 16m(m-1) - ((m+1)4m-1) - (4m+1) = 12m^2 - 24m - 2
+   excess2(1) = -14
+   excess2(2) = -2
+   excess2(3) = 34
+   excess2(4) = 94
+Both bookkeepings agree to an additive constant and give the SAME
+sign change between m=2 and m=3.

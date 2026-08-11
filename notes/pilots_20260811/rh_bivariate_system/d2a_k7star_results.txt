@@ -1,0 +1,42 @@
+==========================================================================
+D2(a) -- K_7-STAR INCIDENCE SYSTEM, BIVARIATE REALIZABILITY (m=2, a*=11)
+==========================================================================
+
+[A] independent re-check of the fence's own axioms (my code, not theirs)
+    T = 9 blocks (rho+2 = 9)         : True
+    all |S| = rho = 7                : True
+    max d_x = 2 (= e = m = 2)        : True
+    sum_x (e - d_x) = 1  (= 1+O, O=0) : True
+    min pair union = 11 (= a*)         : True
+    max pair overlap = 3 (= 2rho-a)   : True
+    min type-2 spend = 6 (= s = rho-a+... ), all type-2 spends: [6, 6, 6, 6, 6, 6, 6]
+    type-1 blocks inside W            : True
+    A_x (abstract, 0=g 1=h 2..8=stars): {0: [1, 2], 1: [1, 3], 2: [1, 4], 3: [1, 5], 4: [0, 6], 5: [0, 7], 6: [0, 8], 7: [0], 8: [0, 1], 9: [0, 1], 10: [0, 1]}
+    the UNSATURATED point of W is x=7 with d_7 = 1 < m = 2
+    X_gamma = |S_gamma ^ W| : [7, 7, 1, 1, 1, 1, 1, 1, 1]
+
+[B] RANDOM embeddings: W -> mu_32, slopes -> F_q uniformly
+    (each row: nullity of S2 over 60 independent embeddings)
+    q=97   unsat-slack-at-x=7 False unknowns=22  nullity histogram {0: 60}   admissible (all-coords-nonzero) kernel: 0/60
+    q=97   unsat-slack-at-x=7 True  unknowns=23  nullity histogram {0: 60}   admissible (all-coords-nonzero) kernel: 0/60
+    q=193  unsat-slack-at-x=7 False unknowns=22  nullity histogram {0: 60}   admissible (all-coords-nonzero) kernel: 0/60
+    q=193  unsat-slack-at-x=7 True  unknowns=23  nullity histogram {0: 60}   admissible (all-coords-nonzero) kernel: 0/60
+
+[C] MOBIUS embeddings: s_x = M(w_x) for a random Mobius M
+    q=97   unsat-slack-at-x=7 False nullity histogram {0: 40}   all-coords-nonzero kernel: 0/40
+    q=97   unsat-slack-at-x=7 True  nullity histogram {1: 40}   all-coords-nonzero kernel: 40/40
+    q=193  unsat-slack-at-x=7 False nullity histogram {0: 40}   all-coords-nonzero kernel: 0/40
+    q=193  unsat-slack-at-x=7 True  nullity histogram {1: 40}   all-coords-nonzero kernel: 40/40
+
+[D] one MOBIUS solution in full: the recovered fibre map mu
+    q=97  nullity=1  unknowns=23  all-nonzero kernel: True
+    g=82 h=68   s_0..s_6 = [52, 73, 24, 67, 32, 90, 93]
+    recovered mu(x) by ABSTRACT W-index: {0: 'g', 1: 'g', 2: 'g', 3: 'g', 4: 'h', 5: 'h', 6: 'h', 7: 'unsat:82,73,91', 8: 3, 9: 40, 10: 19}
+    PREDICTED                          : {0:'g',1:'g',2:'g',3:'g',4:'h',5:'h',6:'h',7:'h',8:M,9:M,10:M}
+    mu = g on F_g = W\S_g = {0,1,2,3} and mu = h on {4,5,6}: True
+
+[E] MANDATE FORM S1 (mu given as data, a unknowns) at the Mobius embedding
+    q=97   S1 unknowns=11  nullity with mu=(g,g,g,g,h,h,h,h,inf,inf,inf) = 0
+    q=193  S1 unknowns=11  nullity with mu=(g,g,g,g,h,h,h,h,inf,inf,inf) = 0
+
+==========================================================================

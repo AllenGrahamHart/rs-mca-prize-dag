@@ -1,0 +1,76 @@
+# r34_pstar E1 -- p* spectrum census   seed=20260811
+# cell : q n k r R rho  2rho  ceil(R/2)  generic p*=ceil(2R/3)  4rho<R?
+W1_round33  q=13 n=11 k=3 r= 6 R= 8 rho=2 2rho=4 ceilR2=4 gen_p*=6 sep(4rho<R)=False
+W2_round33  q=11 n=10 k=2 r= 6 R= 8 rho=2 2rho=4 ceilR2=4 gen_p*=6 sep(4rho<R)=False
+S1_sep      q=11 n=11 k=1 r= 8 R=10 rho=2 2rho=4 ceilR2=5 gen_p*=7 sep(4rho<R)=True
+S2_sep      q=13 n=13 k=1 r=10 R=12 rho=2 2rho=4 ceilR2=6 gen_p*=8 sep(4rho<R)=True
+S3_sep      q=17 n=17 k=1 r=13 R=16 rho=3 2rho=6 ceilR2=8 gen_p*=11 sep(4rho<R)=True
+L1_lb1      q=11 n= 7 k=2 r= 3 R= 5 rho=2 2rho=4 ceilR2=3 gen_p*=4 sep(4rho<R)=False
+
+[A] W1_round33  p* spectrum over 6000 uniform random pencils (p*=7 means >r)
+     p*= 5 :    510  (0.08500)
+     p*= 6 :   5490  (0.91500)
+     modal p*=6 ; predicted generic ceil(2R/3)=6 ; MATCH=True
+     min p* over sample = 5 ; #{p* <= floor(R/2)=4} = 0 ; #{p* <= 2rho=4} = 0
+[A] W2_round33  p* spectrum over 6000 uniform random pencils (p*=7 means >r)
+     p*= 5 :    599  (0.09983)
+     p*= 6 :   5401  (0.90017)
+     modal p*=6 ; predicted generic ceil(2R/3)=6 ; MATCH=True
+     min p* over sample = 5 ; #{p* <= floor(R/2)=4} = 0 ; #{p* <= 2rho=4} = 0
+[A] S1_sep  p* spectrum over 6000 uniform random pencils (p*=9 means >r)
+     p*= 6 :     54  (0.00900)
+     p*= 7 :   5946  (0.99100)
+     modal p*=7 ; predicted generic ceil(2R/3)=7 ; MATCH=True
+     min p* over sample = 6 ; #{p* <= floor(R/2)=5} = 0 ; #{p* <= 2rho=4} = 0
+[A] S2_sep  p* spectrum over 6000 uniform random pencils (p*=11 means >r)
+     p*= 8 :   6000  (1.00000)
+     modal p*=8 ; predicted generic ceil(2R/3)=8 ; MATCH=True
+     min p* over sample = 8 ; #{p* <= floor(R/2)=6} = 0 ; #{p* <= 2rho=4} = 0
+[A] S3_sep  p* spectrum over 2000 uniform random pencils (p*=14 means >r)
+     p*=10 :      7  (0.00350)
+     p*=11 :   1993  (0.99650)
+     modal p*=11 ; predicted generic ceil(2R/3)=11 ; MATCH=True
+     min p* over sample = 10 ; #{p* <= floor(R/2)=8} = 0 ; #{p* <= 2rho=6} = 0
+[A] L1_lb1  p* spectrum over 6000 uniform random pencils (p*=4 means >r)
+     p*= 2 :      1  (0.00017)
+     p*= 3 :    603  (0.10050)
+     p*= 4 :   5396  (0.89933)
+     modal p*=4 ; predicted generic ceil(2R/3)=4 ; MATCH=True
+     min p* over sample = 2 ; #{p* <= floor(R/2)=2} = 1 ; #{p* <= 2rho=4} = 6000
+
+[B] W1_round33  |D_r(D)|=462  400 samples : column-far 389 (0.9725)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 5:40 6:349
+     dim K_0 spectrum (column-far): 3:389
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 0
+     predicted r+1-2rho = 3 ; r+1-rho = 5
+[B] W2_round33  |D_r(D)|=210  400 samples : column-far 395 (0.9875)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 5:45 6:350
+     dim K_0 spectrum (column-far): 3:395
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 0
+     predicted r+1-2rho = 3 ; r+1-rho = 5
+[B] S1_sep  |D_r(D)|=165  400 samples : column-far 398 (0.9950)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 6:3 7:395
+     dim K_0 spectrum (column-far): 5:398
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 0
+     predicted r+1-2rho = 5 ; r+1-rho = 7
+[B] S2_sep  |D_r(D)|=286  400 samples : column-far 398 (0.9950)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 8:398
+     dim K_0 spectrum (column-far): 7:398
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 0
+     predicted r+1-2rho = 7 ; r+1-rho = 9
+[B] S3_sep  |D_r(D)|=2380  300 samples : column-far 300 (1.0000)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 10:2 11:298
+     dim K_0 spectrum (column-far): 8:300
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 0
+     predicted r+1-2rho = 8 ; r+1-rho = 11
+[B] L1_lb1  |D_r(D)|=35  400 samples : column-far 399 (0.9975)
+     p* spectrum RESTRICTED TO COLUMN-FAR: 3:38 4:361
+     dim K_0 spectrum (column-far): 0:361 1:38
+     #{column-far, dimK_0>0, deg gcd(K_0) == p*} = 38
+     predicted r+1-2rho = 0 ; r+1-rho = 2
+
+[D] LB1 cell (n=7,k=2,r=3,q=11) R=5 r=3 : 4000 pencils
+     dim K_0 = 0 : 3591 of 4000 ; of those column-far 3591
+     p* | dimK_0=0 : 4:3591   (p*=4 means > r)
+     p* | dimK_0>0 : 2:1 3:408
+     TAUTOLOGY CHECK dim K_0 = 0 <=> p* > r : violations = 0

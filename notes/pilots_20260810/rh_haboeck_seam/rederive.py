@@ -130,7 +130,7 @@ def main() -> None:
 
     # ---- m=9 field entry point -------------------------------------------
     lg = ilog2_frac(rows[9][0] << 128, 80)
-    print(f"log2(Q_9*2^128) ~ {float(lg):.9f}   (corrected claim 232.650530)")
+    print(f"log2(Q_9*2^128) ~ {float(lg):.9f}   (claim 232.650531)")
     lo = Fraction(232650530, 10 ** 6)
     hi = Fraction(232650532, 10 ** 6)
     print(f"  in [{lo}, {hi}] ? {lo <= lg <= hi}")

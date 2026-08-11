@@ -5002,6 +5002,7 @@ artifact, and the coordinator's own "~39 orders" brief line. THE
 AUDIT CADENCE HELD: every round-29 headline object was either
 confirmed exactly (THEOREM CAP, T <= r+1 now tight) or corrected
 within two rounds by its own campaign.**
+
 ## WAVE 57 — Codex mega-wave (2026-08-10, coordinator audit)
 
 **AUDITED SOUND AND MERGED (exact 7d7fda357): 31 work cycles
@@ -5211,3 +5212,210 @@ count or bivariate system), the located crossing itself. THREE
 banked-claim corrections this round (round-29's "1 or 3"; my
 "2^216" brief line; round-31's "combinatorial ceiling") — the
 audit cadence unbroken across five rounds.**
+
+## WAVE 58 — Codex A1 exceptional-core campaign (2026-08-11, coordinator audit)
+
+**AUDITED SOUND AND MERGED (exact 04179c43a): 78 commits, work
+cycles 49-124 — a single-lane census-neutral wave (231 = 167/37/27
+unchanged) with two arcs.** ARC 1 (cycle 49): the (FR) fence chased
+into its first algebraic obstruction — the quartic countermodel
+does NOT lift to the smooth cyclic domain under any coset-preserving
+placement (replayed: 5 scales, gcd 1); the live positive object
+confirmed as the Psi_gamma family (converging with our round-32
+bank-4 verdict from the opposite side). ARC 2 (cycles ~50-124): the
+A1 exceptional-core program — the strict A=3 branch closure chain
+(Picard-Forney endpoint closes, cycles 64-74), then the A=1
+core-free/core-one campaign (bounded divisors, root routers,
+double-root resultant/cube gates, gap-one/gap-four closures)
+through the rho+3 quadratic pair-profile closure (cycle 124,
+"2e <= 9 impossible on the official row"). All "narrowed, still
+TARGET" — no flips claimed, none taken. 69 per-cycle addenda
+appended to crossing_location (accepted; the wave-55/57 precedent;
+all dated and Codex-tagged). Sampled replays green (3/3 incl. the
+330,998-case three-contact exclusion). MERGE: conflicts resolved —
+banked pilot scripts kept as ORIGINALS (Codex's cosmetic claim-
+string syncs declined: banked artifacts stay byte-stable);
+supplier nodes taken THEIRS (our F4/FR corrections verified
+surviving); ledger OURS (whitespace). **CODEX CUSTODY CATCH,
+VALID: the rh_haboeck_seam REPORT.md was ABSENT from 31aa1e684 —
+the bank-1 recovery invocation had failed silently and the
+coordinator missed it; recovered verbatim and committed in the
+repair preceding this merge. PROCESS RULE: verify the recovery
+script's WROTE line explicitly on every persist.** Codex tracks
+upstream at fde7d56d0 (main has moved past 93fba1be).
+
+## EXPORT — PR #1162: the band-razor bracket packet (2026-08-11, user-approved)
+
+**SHIPPED: https://github.com/przchojecki/rs-mca/pull/1162 — the band
+lane's FIRST upstream entry.** Five certificate packets (sha256-pinned
+to campaign 4e77e95b3acf, upstream layout, agents-log entry): the
+Haboeck import + the razor staircase (a_94 = 1,563,215,236,073 on
+every razor row; 86.1e9-step gain; the m(q) ladder from
+log2 q >= 232.650530) + the CA/MCA scope fence + the FR incidence
+fence with its round-32 canonical complement + LB1 (the far-CA
+floor, tightness, budget 2^39 dead at 3n/4). Readiness gate: the
+round-32 adversarial certification + the source-audit chain.
+Deliberately held: the SAT3-conditional type-2 ledger, the e-axis
+widening. Export record + pins:
+notes/exports_20260811/band_razor_bracket_export/. Upstream context
+at ship time: Codex's #1161 (Lane-T rho+3) + #1156 (E-routing) open;
+Scott's #1157-#1160 converging on the K3 carrier bridge + the MCA
+near-rational repair; nothing merged upstream since early July.
+
+## ROUND 33 LAUNCH — the algebraic-instruments round (2026-08-11)
+
+Four Opus pilots; briefs + shared CONSTRAINTS.md in
+notes/pilots_20260811/{rh_psi_degree,rh_moving_kernel,
+rh_sat3_realizability,rh_bivariate_system}/: (A) the psi_gamma
+aggregate-weight attack on the type-2 8/5 (the pencil's coupling of
+the h_gamma family; subclass X <= a/4 on j=0; measured max-vs-mean);
+(B) R-MOVING — the forced-fixed-generator lemma proved + the
+moving-generator budget (any finite deep-stratum bound is the first
+ever; LB1 as the built-in falsifier); (C) ROUTE-DECIDING (SAT3)
+realizability — FIRST the LB1-vs-(SAT) definitional reconciliation
+(the two lanes' T may be the same object!), then the T-ladder by
+construction, the (SAT) profile of large-T objects, and either the
+T-cap/vacuity theorem or the F1/F2 calibration; (D) the
+overdetermined bivariate P_x(Z) system — derive, rank at small
+scales vs the K_7-star fence system, extract consistency relations.
+QUARANTINE MARKER: this entry and below quarantined for round-33
+pilots (the ledger closed to them entirely); round-33 sibling dirs
+mutually quarantined (the notes/pilots_20260811/ tree); round-32
+and earlier readable. Launched on Opus.
+
+## ROUND 33 BANK 1/4 — rh_psi_degree (2026-08-11, coordinator)
+
+**BANKED — THE 8/5 RE-COORDINATIZED: (AO1) is exactly an aggregate
+mean-vs-floor criterion; the residual is a-INDEPENDENT and equals
+ONE SLOPE (rho+1 = 4m; the shortfall identity coordinator-verified;
+9/4 = 7/4 = 9/8 = 8/5 as four readings of one invariant — no W can
+move it); the missing e = m lives in the NON-SPLIT part of h_gamma
+— NEW TARGET (NS-m), which implies closure of residual (ii);
+sub-goal: #{j=0 type-2} <= 6. Symmetric-moment instruments WALLED
+(second moment = the exact Cauchy-Schwarz equality case); (M2b)
+misses by 7.5%. D2 as posed not delivered (honest). COMPLIANCE:
+SEVEN bare-python3 file-patching invocations — the campaign's
+largest law breach, accepted with censure (math all guarded;
+outputs reproducible); round-34 prompts get the explicit
+file-patching clause. The R2.7 pre-registered guard stopped a third
+firing of the round-32 MISS-2 trap — the guard pattern is proven
+practice.** Files: notes/pilots_20260811/rh_psi_degree/.
+
+## ROUND 33 BANK 2/4 — rh_bivariate_system (2026-08-11, coordinator)
+
+**BANKED — NOT KILLED, WITH A WITNESS: the bivariate realizability
+system does not exclude the failure configuration (explicit m=2
+exhibit at T = rho+2, a = 7m-1, all incidence axioms + the system
+satisfied, two fields; replayed). Real content = (BIV-CURVE)
+(type-2 classes are fibres of a degree-(3m-3) dimension-m linear
+series; verbatim the xr lane's pencil predicate at m=2 — transport
+candidate); per-slope content = banked (C2), weaker than
+FR-canonical; honest deficit 4m^2-7m+2 (the O(m) premise
+corrected). THE K_7-STAR is consistent iff Mobius AND requires the
+unsaturated exception (the saturation-scope caveat load-bearing).
+LAYER A (full-domain Q(Z,x), deficit 12m^2-4m, ~3x) KILLS the
+pilot's own exhibit — and is the sibling (NS-m)/psi lane: BANKS 1+2
+CONVERGE on the full-domain object as THE type-2 instrument.
+Lesson banked: random-embedding censuses have q^{-Theta(m^2)}
+power — construction or nothing. COMPLIANCE: two more bare-python3
+patching breaches (second pilot this round) — censured; round-34
+law text gets the explicit clause. Files:
+notes/pilots_20260811/rh_bivariate_system/.**
+
+## ROUND 33 BANK 3/4 — rh_sat3_realizability (2026-08-11, coordinator)
+
+**BANKED — ROUTE DECIDED: (SAT3) IS REALIZABLE (m=1, exhaustive,
+six fields; all of (SAT1)-(SAT5) exact; the pencils genuinely
+column-far Hankel at generic rank rho). THE VACUITY BRANCH IS DEAD
+— the conditional stack does not close for free. THE COUNTING STACK
+IS TIGHT: (AO1)/(MI2)/(ERC2)/(ERC4) all attained WITH EQUALITY on
+one witness — the 9/4 is a ceiling, not slack. CATCH-24C settled:
+same T in both lanes (PROVED, (HS3)) but LB1 does NOT transfer
+(corank-0; petal d_x = r violates d_x <= e) — the strict-row
+r+1 = rho+1 was a numerical coincidence. REGRESSION-TEST PRINCIPLE
+BANKED: every strict-target proof must fail at m=1 (the witness is
+the test; (NEWCAP) passes it). TCAP-DIM posed (realizable iff
+m <= 2; excess sign flips at m=3) with its blind spot and the
+structured-family escape both named. THE DECISIVE NEXT EXPERIMENT:
+settle m=2 (reduced to 40 params vs 39 rank conditions — G2).
+F1's premise live for the first time; m=1 degenerate for it. The
+only fully law-clean pilot of the round (5/5 ramguard, no bare
+python3); replays IDENTICAL. Files:
+notes/pilots_20260811/rh_sat3_realizability/.**
+
+## ROUND 33 BANK 4/4 — rh_moving_kernel (2026-08-11, coordinator) — ROUND COMPLETE
+
+**BANKED — R-MOVING WITHDRAWN: the round-32 forced-fixed mechanism
+is FALSE (Forney: the shift set is not a minimal basis; refuted by
+exhibition + 221/221 census + round 32's own 0/1700 (HK1) data —
+its report exposed as internally inconsistent). Generically NEITHER
+apolar generator is fixed (p* = floor((2R-1)/3)+1 > p_gen; the
+honest sufficient condition p* + p_gen <= R misses by 7/6 at the
+razor). SURVIVES: the stacked rank h_r; the FG stratum (fixed
+squarefree P, rho < p <= 2rho) with the SCALED-VANDERMONDE normal
+form + the key equation C_gamma*sigma = h mod P; (MI1) RESTORED
+after reduction (78/78) and (MI2) STRUCTURALLY DEAD there (the
+reduced ring is a field); T <= rho/p/r+1 all refuted on FG. NEW:
+R-FG + R-PSTAR (any razor pencil with p* <= R/2? no => R-KER sole
+far-CA residual). FALSE marker applied to my round-32 banked
+R-MOVING text; the round-33 close addendum banked.**
+
+**ROUND 33 COMPLETE: 4/4 banked, 0 status flips, census 231 =
+167/37/27 unchanged. THE ROUND'S SHAPE — one route decided, one
+invariant, one withdrawal: (SAT3) realizable (vacuity dead; the
+counting stack TIGHT at m=1; the regression-test principle); the
+8/5 = ONE SLOPE (a-independent; (NS-m) the statement form; layer A
+the instrument — banks 1+2 converged); the W-layer bivariate
+system fenced BY WITNESS ((BIV-CURVE); xr transport candidate);
+R-MOVING withdrawn (the sixth consecutive round in which the audit
+cadence caught banked text — this time round 32's own report
+contradicted by its own data). ROUND-34 ANCHORS: G2 (settle m=2 —
+decisive for TCAP-DIM), layer A/(NS-m) with the m=1 regression
+test, R-PSTAR, the m=3,4 constructive (BIV-CURVE) search.
+COMPLIANCE ACROSS THE ROUND: bare-python3 breaches in 3 of 4
+pilots (7+2+1, all file-patching/no-ops, all disclosed; bank 3
+fully clean) — the round-34 CONSTRAINTS text gets the explicit
+file-patching clause as a mandatory upgrade.**
+
+## ROUND 34 LAUNCH — the boundary round (2026-08-11)
+
+Four Opus pilots; briefs + UPGRADED CONSTRAINTS (the explicit
+never-bare-python3-for-any-purpose clause, post-round-33 censure)
+in notes/pilots_20260811/{r34_m2_decision,r34_layer_a,r34_pstar,
+r34_bivcurve_m34}/: (A) G2 — settle (SAT3) at m=2 (the TCAP-DIM
+boundary; structured search on the reduced 40-parameter system;
+if realizable, the FIRST real F1 test at a non-degenerate w*
+window; then attempt m=3); (B) layer A/(NS-m) — the m=1
+regression calibration FIRST (does (NS-m) survive the realized
+witnesses?), then the Wronskian/ramification budget attack, then
+layer-A rank at scale with bank-2 machinery; (C) R-PSTAR — is FG
+empty at razor shape? (p* <= R/2 vs column-farness; census +
+dimension count + construction; if empty, R-KER becomes the SOLE
+far-CA residual); (D) the (BIV-CURVE) m=3,4 constructive fork
+(the W-layer fence's m-boundary; obstruction = candidate (NS-m)
+mechanism). QUARANTINE MARKER: this entry and below quarantined
+for round-34 pilots; r34_* siblings mutually quarantined
+(SEARCH-level exclusion required); round-33 rh_* and earlier
+readable. Launched on Opus.
+
+## ROUND 34 BANK 1/4 — r34_pstar (2026-08-11, coordinator)
+
+**BANKED — R-PSTAR RESOLVED YES: FG NONEMPTY AT RAZOR SHAPE (the
+negative-closure branch does NOT fire; R-KER not sole residual).
+Witnesses A (impulse pair, K_0 = x^{2rho}F[x], column-far
+unconditionally — coordinator hand-verified the stacked-rank
+structure) and B (P* = P_1P_2, P_1 irreducible deg 2^34,
+SQUAREFREE — FG3/FG4 verbatim at the razor). Column-farness FREE
+on the low-p* locus. MY BANKED EQUIVALENCE CORRECTED (FG needs
+p* <= 2rho = R/32, factor 16; the intermediate stratum
+2rho < p* <= R/2 exhibited — invisible at every round-33 cell).
+The codim law 2R-3p calibrated (10 pts, dev <= 0.090); FG3
+widened to generic column-far pencils (1586/1586 — the scaled
+Vandermonde is the GENERIC far-CA picture); LB1 generic
+(p* = r+1, 3591/3591, 0 tautology violations); "T = q on FG"
+narrowed (tracks mu_1; universal bounds stay dead); q_crit ~ 2^64
+flagged. FIRST PILOT UNDER THE UPGRADED LAW: 6/6 ramguard, zero
+breaches — the clause works. The dimension-count trap self-caught
+by the pre-registered guard (7th consecutive round of the guard
+pattern earning its keep). Files:
+notes/pilots_20260811/r34_pstar/.**

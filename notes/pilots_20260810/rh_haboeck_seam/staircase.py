@@ -62,8 +62,8 @@ def main() -> None:
     print()
     print(f"3n/4 = {THREE_N_4}")
     print("razor slice starts at log2 q = 255.900000")
-    print("=> the window log2 q in [232.650530, 255.900000] carries "
-          "m = 9..94 and is now recorded on the consumer node.")
+    print("=> the window log2 q in [232.650531, 255.900000] carries "
+          "m = 9..94 and is NOT recorded on the consumer node.")
 
 
 if __name__ == "__main__":

@@ -27,31 +27,6 @@ def ilog2(x: int, prec: int, P: int) -> Fraction:
     return acc
 
 
-def log_interval(num: int, den: int, terms: int = 64) -> tuple[Fraction, Fraction]:
-    """Exact interval for log(num/den) from 2*atanh((x-1)/(x+1))."""
-    z = Fraction(num - den, num + den)
-    assert 0 < z < 1
-    z2 = z * z
-    power = z
-    partial = Fraction(0)
-    for j in range(terms):
-        partial += power / (2 * j + 1)
-        power *= z2
-    lower = 2 * partial
-    tail = 2 * power / ((2 * terms + 1) * (1 - z2))
-    return lower, lower + tail
-
-
-def log2_interval(x: int, terms: int = 64) -> tuple[Fraction, Fraction]:
-    exponent = x.bit_length() - 1
-    log_y_lo, log_y_hi = log_interval(x, 1 << exponent, terms)
-    log_2_lo, log_2_hi = log_interval(2, 1, terms)
-    return (
-        Fraction(exponent) + log_y_lo / log_2_hi,
-        Fraction(exponent) + log_y_hi / log_2_lo,
-    )
-
-
 def main() -> None:
     # (a) self-validation on known constants
     for val, name, ref in [(3, "log2(3)", "1.584962500721156"),
@@ -76,15 +51,24 @@ def main() -> None:
         print(f"\n  p={p}: {lo} <= log2(X) < {hi}")
         print(f"         = [{float(lo):.9f}, {float(hi):.9f})")
 
-    # Exact rational interval with a proved atanh-series tail bound.
-    lo, hi = log2_interval(X)
-    lower_printed = Fraction(232650530, 10**6)
-    upper_old = Fraction(232650531, 10**6)
-    print("\n  exact atanh-series interval (64 terms):")
-    print(f"         [{float(lo):.12f}, {float(hi):.12f}]")
-    print(f"  width < 1e-18 ? {hi - lo < Fraction(1, 10**18)}")
-    print(f"  log2(X) > 232.650530 ? {lo > lower_printed}")
-    print(f"  log2(X) < 232.650531 ? {hi < upper_old}")
+    # decisive: is log2(X) below or above 232.650531 and 232.650530?
+    p = 10 ** 6
+    for target in ("232650530", "232650531"):
+        t = int(target)          # target/10^6
+        # compare X^(10^6) with 2^t  -> needs 2.3e8 bits; use bit_length route
+        pass
+    print("\n  (10^6-power route not attempted: ~291MB integer, over budget)")
+
+    # instead: bracket with p = 10**5 refined by an extra digit via p=2*10**5
+    p = 2 * 10 ** 5
+    xp = X ** p
+    e = xp.bit_length() - 1
+    print(f"  p={p}: {Fraction(e, p)} <= log2(X) < {Fraction(e + 1, p)}")
+    print(f"         = [{float(Fraction(e, p)):.10f}, "
+          f"{float(Fraction(e + 1, p)):.10f})")
+    print(f"  is log2(X) < 232.650531 ? {Fraction(e + 1, p) <= Fraction(232650531, 10**6)}")
+    print(f"  is log2(X) < 232.6505305 ? {Fraction(e + 1, p) <= Fraction(2326505305, 10**7)}")
+    print(f"  is log2(X) > 232.650530 ? {Fraction(e, p) >= Fraction(232650530, 10**6)}")
 
 
 if __name__ == "__main__":

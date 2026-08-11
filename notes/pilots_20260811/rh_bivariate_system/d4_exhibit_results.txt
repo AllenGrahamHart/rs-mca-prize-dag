@@ -1,0 +1,80 @@
+==============================================================================
+D4 -- EXHIBIT: an m=2, T=rho+2, a=7m-1 configuration that the bivariate
+      realizability system does NOT kill
+==============================================================================
+
+------------------------------------------------------------------------------
+  q = 97   FULL INCIDENCE VERIFICATION (my code, all 9 blocks, 32 points)
+    T = 9 = rho+2 = 9                                : True
+    block sizes [7, 7, 7, 7, 7, 7, 7, 7, 7]   all = rho = 7 ; O = 0 <= delta = m-1 = 1 : True
+    max d_x = 2 <= e = m = 2                          : True
+    sum_x (m - d_x) = 1 = 1+O = 1   [(SAT4)]           : True
+    |W| = 13 = a = 7m-1 = 13 ; W = S_g u S_h            : True
+    min pair union = 13 = a  [(OV), w* = a* = a]        : True
+    max pair intersection = 1 = 2rho-a = 1             : True
+    S_g, S_h inside W (type-1) ; n_g = 6, n_h = 6 = a-rho = 6 : True
+    type-2 X_gamma = [1, 1, 2, 2, 2, 2, 2] ; cap 2m-2 = 2 (FR-canonical)  : True
+    type-2 spend |S\W| = [5, 5, 5, 5, 5, 6, 6] ; floor (R+1)-a+n = 4      : True
+    |A_x| = m = 2 for every x in W                     : True
+    A_x agrees with block membership                   : True
+
+    >>> BIVARIATE SYSTEM  (m+2)(4m+1) = 36 equations, 2a = 26 unknowns
+    >>> rank 25, NULLITY 1
+    >>> admissible kernel (every (alpha_x,beta_x) nonzero)   : True
+    >>> recovered mu: mu = h on S_g\S_h and mu = g on S_h\S_g  : True
+    >>> mu(w13) = 47 ; it is NOT a slope (so d_{w13} = m = 2)   : True
+    >>> sum_gamma n_gamma = 13 = a = 13                          : True
+
+    phi = -A/B with A = [67, 43, 43, 44], B = [2, 14, 25, 20] (ascending coefficients) over F_97
+    W  = [1, 8, 12, 22, 27, 28, 34, 45, 46, 55, 63, 64, 67]
+    S_g= [1, 8, 22, 27, 46, 64, 67]
+    S_h= [8, 12, 28, 34, 45, 55, 63]
+    g = 84, h = 28, type-2 slopes = [15, 19, 22, 44, 80, 87, 89]
+      S_g     = [1, 8, 22, 27, 46, 64, 67]
+      S_h     = [8, 12, 28, 34, 45, 55, 63]
+      S_t15   = [12, 20, 46, 51, 70, 75, 77]
+      S_t19   = [30, 33, 63, 64, 69, 89, 96]
+      S_t22   = [18, 20, 47, 50, 55, 67, 89]
+      S_t44   = [18, 19, 27, 45, 51, 79, 96]
+      S_t80   = [19, 28, 33, 42, 52, 75, 85]
+      S_t87   = [22, 34, 47, 69, 70, 78, 85]
+      S_t89   = [1, 30, 42, 50, 77, 78, 79]
+
+------------------------------------------------------------------------------
+  q = 193   FULL INCIDENCE VERIFICATION (my code, all 9 blocks, 32 points)
+    T = 9 = rho+2 = 9                                : True
+    block sizes [7, 7, 7, 7, 7, 7, 7, 7, 7]   all = rho = 7 ; O = 0 <= delta = m-1 = 1 : True
+    max d_x = 2 <= e = m = 2                          : True
+    sum_x (m - d_x) = 1 = 1+O = 1   [(SAT4)]           : True
+    |W| = 13 = a = 7m-1 = 13 ; W = S_g u S_h            : True
+    min pair union = 13 = a  [(OV), w* = a* = a]        : True
+    max pair intersection = 1 = 2rho-a = 1             : True
+    S_g, S_h inside W (type-1) ; n_g = 6, n_h = 6 = a-rho = 6 : True
+    type-2 X_gamma = [1, 1, 2, 2, 2, 2, 2] ; cap 2m-2 = 2 (FR-canonical)  : True
+    type-2 spend |S\W| = [5, 5, 5, 5, 5, 6, 6] ; floor (R+1)-a+n = 4      : True
+    |A_x| = m = 2 for every x in W                     : True
+    A_x agrees with block membership                   : True
+
+    >>> BIVARIATE SYSTEM  (m+2)(4m+1) = 36 equations, 2a = 26 unknowns
+    >>> rank 25, NULLITY 1
+    >>> admissible kernel (every (alpha_x,beta_x) nonzero)   : True
+    >>> recovered mu: mu = h on S_g\S_h and mu = g on S_h\S_g  : True
+    >>> mu(w13) = 22 ; it is NOT a slope (so d_{w13} = m = 2)   : True
+    >>> sum_gamma n_gamma = 13 = a = 13                          : True
+
+    phi = -A/B with A = [38, 49, 29, 160], B = [106, 55, 27, 33] (ascending coefficients) over F_193
+    W  = [1, 24, 43, 64, 67, 126, 129, 150, 166, 169, 179, 185, 190]
+    S_g= [1, 43, 67, 129, 169, 179, 185]
+    S_h= [24, 43, 64, 126, 150, 166, 190]
+    g = 115, h = 153, type-2 slopes = [36, 56, 76, 104, 121, 128, 166]
+      S_g     = [1, 43, 67, 129, 169, 179, 185]
+      S_h     = [24, 43, 64, 126, 150, 166, 190]
+      S_t104  = [9, 14, 64, 121, 124, 170, 192]
+      S_t121  = [3, 23, 27, 81, 129, 143, 166]
+      S_t128  = [1, 27, 42, 50, 69, 112, 170]
+      S_t166  = [3, 42, 72, 150, 184, 185, 192]
+      S_t36   = [8, 81, 112, 124, 126, 179, 184]
+      S_t56   = [9, 23, 24, 69, 72, 151, 169]
+      S_t76   = [8, 14, 50, 67, 143, 151, 190]
+
+==============================================================================

@@ -1,0 +1,53 @@
+==============================================================================
+(M2a) the second moment at the globally regular pair degree
+==============================================================================
+  dbar = (rho+2)rho(rho-1)/(N(N-1));  T_1 = 2, T_2 = rho, O = 0, def = 0
+  S2reg = a*m + a(a-1)*dbar - 2rho^2        (type-2 second moment)
+  CS    = (a*m - 2rho)^2 / rho              (Cauchy-Schwarz equality)
+
+        m            a     S2reg/CS float   reading
+        4           26     0.6287094   regular < CS by 0.3713: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+        4           27     0.6892567   regular < CS by 0.3107: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+        8           52     0.8659991   regular < CS by 0.1340: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+        8           55     0.8949822   regular < CS by 0.1050: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+       64          426     0.9883083   regular < CS by 0.0117: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+       64          447     0.9904415   regular < CS by 0.0096: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+     1024         6826     0.9992975   regular < CS by 0.0007: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+     1024         7167     0.9994267   regular < CS by 0.0006: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+  1048576      6990506     0.9999993   regular < CS by 0.0000: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+  1048576      7340031     0.9999994   regular < CS by 0.0000: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+137438953472 916259689812     1.0000000   regular < CS by 0.0000: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+137438953472 962072674303     1.0000000   regular < CS by 0.0000: the TRUE W-pair degree is forced ABOVE the global mean (a lower bound on the 2nd moment, i.e. a lower bound on max -- the WRONG direction)
+
+  LIMIT: dbar -> m/4, S2reg -> a^2 m/4, CS -> a^2 m/4, ratio -> 1.
+  So at the regular pair degree the second moment sits EXACTLY on the
+  Cauchy-Schwarz equality case: variance 0, all X_gamma equal, max = mean.
+  At finite m the regular value sits BELOW CS, so the only thing the second
+  moment forces is that W-internal pair degrees EXCEED the global mean --
+  a LOWER bound on max, useless for an upper bound.
+  A second-moment instrument therefore has to beat the regular pair degree
+  by a positive amount before it says anything at all about the maximum.
+
+  And no moment bound can ever reach the target: max >= mean always, while
+  the target need_X = mean_X - (4m - def_in + o_g + o_h)/rho < mean_X.
+  Chebyshev/Cauchy-Schwarz give max <= mean + sqrt(V(T_2-1)) >= mean.
+
+==============================================================================
+(M2b) the DUAL pair count: saturation vs the banked (OV) overlap bound
+==============================================================================
+  closes when (a-1-O) m(m-1) > (rho+2)(rho+1)(2rho-a)
+  asymptotic threshold: a m^2 > 16m^2(8m-a)  <=>  a > 128m/17 = 7.5294 m
+
+        m   a_min(M2b closes)   a_min/m   band top 7m-1   reaches band?   2rho
+        2                  14   7.00000              13              NO     14
+        3                  22   7.33333              20              NO     22
+        4                  29   7.25000              27              NO     30
+        8                  59   7.37500              55              NO     62
+       64                 481   7.51562             447              NO    510
+     1024                7709   7.52832            7167              NO   8190
+  1048576             7895160   7.52941         7340031              NO 8388606
+137438953472       1034834473200   7.52941    962072674303              NO 1099511627774
+
+  VERDICT (M2b): a real, independent instrument -- and it is SUBSUMED.
+  It caps a at 128m/17 = 7.5294m, weaker than the banked (NEWCAP)
+  a* <= 7m-1, so it never reaches the open band (16m/3, 7m-1].

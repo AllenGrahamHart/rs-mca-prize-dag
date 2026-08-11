@@ -1,0 +1,80 @@
+# r34_pstar E2 -- explicit low-p* column-far constructions
+
+== W1_round33 : q=13 n=11 k=3 r=6 R=8 rho=2 2rho=4 floor(R/2)=4 |D_r(D)|=462  FG bracket p in (2,4]  lemma bracket p<=4
+   separating (2rho < floor(R/2))? False
+  A  y0=e_{2rho-1},y1=e_{rho-1} p*=4   h_r=4   dimK0=3   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=4 max=4 ; distinct low generators over 13 slopes = 1 (1 = FIXED) ; bad slopes T=12
+      [A CHECK] p*==2rho and h_r==2rho and dimK0==r+1-2rho and column-far : True
+  B  P1 irred(deg rho) + P2 D-split p*=4   h_r=4   dimK0=3   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 13 slopes = 2 (1 = FIXED) ; bad slopes T=11
+      [B CHECK] P*=P1*P2 squarefree deg 4, p*==2rho, K_0 principal, column-far : True
+  B' control: BOTH halves D-split p*=4   h_r=4   dimK0=3   deg gcd(K0)=4   K0 principal=True  col-far=False
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 13 slopes = 2 (1 = FIXED) ; bad slopes T=13
+      [B' CHECK] FG2 predicts column-far == False here : observed far=False -> True
+  C  generic V in IS(P*) [trial 0] p*=4   h_r=4   dimK0=3   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=3 max=4 ; distinct low generators over 13 slopes = 3 (1 = FIXED) ; bad slopes T=12
+      [C CHECK] p*==2rho=4 and column-far and K_0 principal : True
+      [C] bad-slope counts over 28 column-far FG draws: 9:1 10:5 11:9 12:8 13:5 ; MAX T=13 (q=13, rho=2, p=4, r+1=7)
+
+== S1_sep : q=11 n=11 k=1 r=8 R=10 rho=2 2rho=4 floor(R/2)=5 |D_r(D)|=165  FG bracket p in (2,4]  lemma bracket p<=5
+   separating (2rho < floor(R/2))? True
+  A  y0=e_{2rho-1},y1=e_{rho-1} p*=4   h_r=4   dimK0=5   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=4 max=4 ; distinct low generators over 11 slopes = 1 (1 = FIXED) ; bad slopes T=10
+      [A CHECK] p*==2rho and h_r==2rho and dimK0==r+1-2rho and column-far : True
+  B  P1 irred(deg rho) + P2 D-split p*=4   h_r=4   dimK0=5   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 11 slopes = 2 (1 = FIXED) ; bad slopes T=7
+      [B CHECK] P*=P1*P2 squarefree deg 4, p*==2rho, K_0 principal, column-far : True
+  B' control: BOTH halves D-split p*=4   h_r=4   dimK0=5   deg gcd(K0)=4   K0 principal=True  col-far=False
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 11 slopes = 2 (1 = FIXED) ; bad slopes T=11
+      [B' CHECK] FG2 predicts column-far == False here : observed far=False -> True
+  C  generic V in IS(P*) [trial 0] p*=4   h_r=4   dimK0=5   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=3 max=4 ; distinct low generators over 11 slopes = 3 (1 = FIXED) ; bad slopes T=8
+      [C CHECK] p*==2rho=4 and column-far and K_0 principal : True
+      [C] bad-slope counts over 23 column-far FG draws: 4:2 5:9 6:6 7:3 8:2 10:1 ; MAX T=10 (q=11, rho=2, p=4, r+1=9)
+  E  V in IS(P*), deg P*=5 (2rho<p<=R/2) p*=5   h_r=3   dimK0=6   deg gcd(K0)=0   K0 principal=False col-far=True 
+      p_gen over slopes: min=4 max=5 ; distinct low generators over 11 slopes = 3 (1 = FIXED) ; bad slopes T=4
+      [E CHECK] p*=5 <= floor(R/2)=5 but h_r=3 (=2rho=4, NOT p) and dimK0=6 > r+1-p=4  => K_0 NOT principal => NOT in FG : True
+
+== S2_sep : q=13 n=13 k=1 r=10 R=12 rho=2 2rho=4 floor(R/2)=6 |D_r(D)|=286  FG bracket p in (2,4]  lemma bracket p<=6
+   separating (2rho < floor(R/2))? True
+  A  y0=e_{2rho-1},y1=e_{rho-1} p*=4   h_r=4   dimK0=7   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=4 max=4 ; distinct low generators over 13 slopes = 1 (1 = FIXED) ; bad slopes T=13
+      [A CHECK] p*==2rho and h_r==2rho and dimK0==r+1-2rho and column-far : True
+  B  P1 irred(deg rho) + P2 D-split p*=4   h_r=4   dimK0=7   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 13 slopes = 2 (1 = FIXED) ; bad slopes T=6
+      [B CHECK] P*=P1*P2 squarefree deg 4, p*==2rho, K_0 principal, column-far : True
+  B' control: BOTH halves D-split p*=4   h_r=4   dimK0=7   deg gcd(K0)=4   K0 principal=True  col-far=False
+      p_gen over slopes: min=2 max=4 ; distinct low generators over 13 slopes = 2 (1 = FIXED) ; bad slopes T=13
+      [B' CHECK] FG2 predicts column-far == False here : observed far=False -> True
+  C  generic V in IS(P*) [trial 0] p*=4   h_r=4   dimK0=7   deg gcd(K0)=4   K0 principal=True  col-far=True 
+      p_gen over slopes: min=3 max=4 ; distinct low generators over 13 slopes = 3 (1 = FIXED) ; bad slopes T=5
+      [C CHECK] p*==2rho=4 and column-far and K_0 principal : True
+      [C] bad-slope counts over 28 column-far FG draws: 5:4 6:12 7:6 8:3 9:1 10:1 11:1 ; MAX T=11 (q=13, rho=2, p=4, r+1=11)
+  E  V in IS(P*), deg P*=5 (2rho<p<=R/2) p*=5   h_r=4   dimK0=7   deg gcd(K0)=1   K0 principal=False col-far=True 
+      p_gen over slopes: min=4 max=5 ; distinct low generators over 13 slopes = 3 (1 = FIXED) ; bad slopes T=10
+      [E CHECK] p*=5 <= floor(R/2)=6 but h_r=4 (=2rho=4, NOT p) and dimK0=7 > r+1-p=6  => K_0 NOT principal => NOT in FG : True
+  E  V in IS(P*), deg P*=6 (2rho<p<=R/2) p*=6   h_r=4   dimK0=7   deg gcd(K0)=0   K0 principal=False col-far=True 
+      p_gen over slopes: min=5 max=6 ; distinct low generators over 13 slopes = 4 (1 = FIXED) ; bad slopes T=13
+      [E CHECK] p*=6 <= floor(R/2)=6 but h_r=4 (=2rho=4, NOT p) and dimK0=7 > r+1-p=5  => K_0 NOT principal => NOT in FG : True
+
+== S3_sep : q=17 n=17 k=1 r=13 R=16 rho=3 2rho=6 floor(R/2)=8 |D_r(D)|=2380  FG bracket p in (3,6]  lemma bracket p<=8
+   separating (2rho < floor(R/2))? True
+  A  y0=e_{2rho-1},y1=e_{rho-1} p*=6   h_r=6   dimK0=8   deg gcd(K0)=6   K0 principal=True  col-far=True 
+      p_gen over slopes: min=6 max=6 ; distinct low generators over 17 slopes = 1 (1 = FIXED) ; bad slopes T=0
+      [A CHECK] p*==2rho and h_r==2rho and dimK0==r+1-2rho and column-far : True
+  B  P1 irred(deg rho) + P2 D-split p*=6   h_r=6   dimK0=8   deg gcd(K0)=6   K0 principal=True  col-far=True 
+      p_gen over slopes: min=3 max=6 ; distinct low generators over 17 slopes = 2 (1 = FIXED) ; bad slopes T=3
+      [B CHECK] P*=P1*P2 squarefree deg 6, p*==2rho, K_0 principal, column-far : True
+  B' control: BOTH halves D-split p*=6   h_r=6   dimK0=8   deg gcd(K0)=6   K0 principal=True  col-far=False
+      p_gen over slopes: min=3 max=6 ; distinct low generators over 17 slopes = 2 (1 = FIXED) ; bad slopes T=17
+      [B' CHECK] FG2 predicts column-far == False here : observed far=False -> True
+  C  generic V in IS(P*) [trial 0] p*=6   h_r=6   dimK0=8   deg gcd(K0)=6   K0 principal=True  col-far=True 
+      p_gen over slopes: min=4 max=6 ; distinct low generators over 17 slopes = 3 (1 = FIXED) ; bad slopes T=3
+      [C CHECK] p*==2rho=6 and column-far and K_0 principal : True
+      [C] bad-slope counts over 28 column-far FG draws: 1:3 2:7 3:8 4:5 5:2 6:2 13:1 ; MAX T=13 (q=17, rho=3, p=6, r+1=14)
+  E  V in IS(P*), deg P*=7 (2rho<p<=R/2) p*=7   h_r=6   dimK0=8   deg gcd(K0)=0   K0 principal=False col-far=True 
+      p_gen over slopes: min=5 max=7 ; distinct low generators over 17 slopes = 5 (1 = FIXED) ; bad slopes T=1
+      [E CHECK] p*=7 <= floor(R/2)=8 but h_r=6 (=2rho=6, NOT p) and dimK0=8 > r+1-p=7  => K_0 NOT principal => NOT in FG : True
+  E  V in IS(P*), deg P*=8 (2rho<p<=R/2) p*=8   h_r=6   dimK0=8   deg gcd(K0)=0   K0 principal=False col-far=True 
+      p_gen over slopes: min=6 max=8 ; distinct low generators over 17 slopes = 7 (1 = FIXED) ; bad slopes T=3
+      [E CHECK] p*=8 <= floor(R/2)=8 but h_r=6 (=2rho=6, NOT p) and dimK0=8 > r+1-p=6  => K_0 NOT principal => NOT in FG : True

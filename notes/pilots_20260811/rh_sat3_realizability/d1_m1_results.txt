@@ -1,0 +1,24 @@
+=== D1/D3: m=1 EXHAUSTIVE (SAT3) realizability scan ===
+profile: rho=3 N=16 R=8 k=8 r=3 A=3 e=1 s=0 delta=0 ; target T=rho+2=5
+cap from sum_x d_x <= N*e = 16 with d_x<=1 and u_gamma=rho=3: T <= floor(16/3) = 5  (so T=5 needs 15 of 16 points covered)
+
+[mu16/F_17] q=17 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 5   (rho+1=4, rho+2=5)
+    witness S1=[1, 2, 5] S2=[3, 7, 11] split-slopes=[0, 10, 15, 5, 'INF']
+    witness S1=[1, 2, 5] S2=[4, 6, 16] split-slopes=[0, 1, 11, 6, 'INF']
+    witness S1=[1, 2, 5] S2=[8, 10, 15] split-slopes=[0, 11, 5, 8, 'INF']
+[mu16/F_97] q=97 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 3   (rho+1=4, rho+2=5)
+[mu16/F_113] q=113 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 3   (rho+1=4, rho+2=5)
+[mu16/F_193] q=193 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 3   (rho+1=4, rho+2=5)
+[mu16/F_241] q=241 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 3   (rho+1=4, rho+2=5)
+[mu16/F_257] q=257 |D|=16 rho=3 disjoint-pairs=80080 MAX T = 3   (rho+1=4, rho+2=5)
+
+=== SUMMARY (m=1) ===
+  mu16/F_17: max T = 5
+  mu16/F_97: max T = 3
+  mu16/F_113: max T = 3
+  mu16/F_193: max T = 3
+  mu16/F_241: max T = 3
+  mu16/F_257: max T = 3
+  GLOBAL max T over all cells = 5
+  (SAT3) needs T = 5.  REALIZED at m=1? YES
+  T = rho+1 = 4 realized in the A=3 branch? YES

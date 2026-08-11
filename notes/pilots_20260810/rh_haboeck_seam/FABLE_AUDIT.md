@@ -3,10 +3,12 @@
 Coordinator: Fable. Date: 2026-08-10. Pilot: Opus (~21 min, 68 tool
 uses, 8 interpreter invocations, all ramguard, documented timeouts;
 two early greps streamed dag.json lines before exclusion —
-disclosed; self-tightened quarantine beyond the brief). The canonical bank
-states that `REPORT.md` was persisted verbatim, but that file is absent from
-commit `31aa1e684`; this audit and the four retained replay scripts are the
-available evidence surface.
+disclosed; self-tightened quarantine beyond the brief). REPORT.md
+persisted verbatim by the coordinator — ON THE SECOND ATTEMPT: the
+bank-1 recovery invocation failed silently and the file was absent
+from 31aa1e684; Codex's wave-58 custody note caught it (a valid
+catch), and the report was recovered verbatim from the pilot
+transcript in the repair commit preceding the wave-58 merge.
 
 ## Verdict
 

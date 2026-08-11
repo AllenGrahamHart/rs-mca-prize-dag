@@ -1,0 +1,55 @@
+# r34_pstar E3 -- exact razor arithmetic
+R  = 1099511627776 = 2^40
+rho= 17179869184 = 2^34
+r  = R-rho = 1082331758592 ; r/R = 63/64 = 0.984375000
+n  = 2R = 2199023255552 ; k = 1099511627776 ; r/n = 63/128
+
+-- the three thresholds --
+FG bracket   : rho < p <= 2rho          2rho      = 34359738368 = 2^35
+lemma bracket: p* + p_gen <= R  <=>  p* <= R/2 :  R//2      = 549755813888 = 2^39
+generic p*   : ceil(2R/3) = floor((2R-1)/3)+1  = 733007751851
+generic p_gen: floor((R+1)/2)                  = 549755813888
+ratio (R/2)/(2rho) = 16   <-- the two brackets differ by this factor
+brief's generic miss factor (2R/3 + R/2)/R = 7/6 = 1.166667
+
+-- dimension count in Gr(2,R) (NAIVE COUNT, see caveat) --
+dim Gr(2,R) = 2R-4 = 2199023255548
+  p = 2rho (top of FG)       dim{p*<=p} = 3p-4 = 103079215100     codim = 2R-3p = 2095944040448
+  p = R/2 (lemma)            dim{p*<=p} = 3p-4 = 1649267441660    codim = 2R-3p = 549755813888
+  p = ceil(2R/3) (generic)   dim{p*<=p} = 3p-4 = 2199023255549    codim = 2R-3p = -1
+  codim{p*<=2rho} = 61*2^35 = 2095944040448 ; check True
+  #admissible FG degrees p in (rho,2rho] = 17179869184 = 2^34
+  F_q-point count of the FG locus ~ q^(3p-4) with p=2rho : exponent 103079215100
+
+-- FG profile at p = 2rho --
+h_r      = p          = 34359738368
+dim K_0  = r+1-2rho   = 1047972020225
+m_P      = r+1-p      = 1047972020225
+m_Q      = p-rho      = 17179869184  (= rho, saturating m_Q <= rho)
+m_P+m_Q  = r+1-rho    = 1065151889409
+deg Q'   = R+1-p      = 1065151889409
+
+-- EXPLICIT WITNESS A (non-squarefree P* = x^{2rho}) --
+y0_m = 1 iff m = 2rho-1 = 34359738367 ; y1_m = 1 iff m = rho-1 = 17179869183 ; else 0
+K_0 = x^{2rho} F[x]_{<= r-2rho} , dim = 1047972020225 ; every element has a repeated root => column-far unconditionally
+
+-- EXPLICIT WITNESS B (squarefree P* = P1 P2) --
+P1 irreducible of degree rho = 17179869184 over F_q  (exists: #irred of degree d over F_q >= (q^d - 2q^(d/2))/d > 0)
+P2 any squarefree degree-rho poly coprime to P1
+y0 = impulse response of P1, y1 = impulse response of P2 (length R)
+K_0 = P1P2 F[x]_{<= r-2rho}, dim = 1047972020225 ; P1 irreducible of degree >= 2 has no root in D => column-far unconditionally
+
+-- first-moment parameters at the razor (float logs, flagged) --
+log2 C(n,r) ~ n*H2(r/n) = 2199023255552 * 0.999823883 = 2.198636e+12  [float; r/n = 63/128 exactly]
+  q = 2^41 : log2 q^rho = 7.043746e+11 ; log2 q^(2rho) = 1.408749e+12 ; log2 mu1 = 1.494261e+12 ; log2 mu2 = 7.898867e+11
+  q = 2^48 : log2 q^rho = 8.246337e+11 ; log2 q^(2rho) = 1.649267e+12 ; log2 mu1 = 1.374002e+12 ; log2 mu2 = 5.493685e+11
+  q = 2^56 : log2 q^rho = 9.620727e+11 ; log2 q^(2rho) = 1.924145e+12 ; log2 mu1 = 1.236563e+12 ; log2 mu2 = 2.744906e+11
+  q = 2^64 : log2 q^rho = 1.099512e+12 ; log2 q^(2rho) = 2.199023e+12 ; log2 mu1 = 1.099124e+12 ; log2 mu2 = -3.872863e+08
+  q = 2^72 : log2 q^rho = 1.236951e+12 ; log2 q^(2rho) = 2.473901e+12 ; log2 mu1 = 9.616854e+11 ; log2 mu2 = -2.752652e+11
+  column-farness first-moment threshold: log2 q = n*H2(r/n)/(2rho) = 63.988728  (q_crit ~ 2^63.9887)
+  mu1 = C(n,r)/q^rho   > 1  =>  first moment predicts EVERY slope bad (T = q) at q = 2^41.
+  mu2 = C(n,r)/q^(2rho)> 1  =>  first moment predicts NO column-far pencils at q = 2^41 -- REFUTED by witnesses A and B, which are column-far unconditionally.
+
+-- fraction of monic degree-2rho P* that are D-split squarefree --
+log2 C(n,2rho) ~ n*H2(2rho/n) = 2.553398e+11 ; log2 q^(2rho) at q=2^41 = 1.408749e+12 ; log2 fraction = -1.153410e+12
+  => almost every P* of degree 2rho is NOT D-split-squarefree, so on the low-p* locus column-farness is FREE, not an extra condition.

@@ -1,0 +1,82 @@
+==========================================================================
+D3 (round 33, rh_psi_degree) PSI-DEGREE CENSUS   m=3 q=97  rho=11 N=48
+  (C2) degree cap d = a-(4m+2);  target a/4;  mean over type-2 = ?
+  PRE-REGISTERED (R3): P3.1 (JDEC) 0 violations; P3.2 def_in=0 mostly;
+  P3.3 T_2 = 1 at the canonical W* so max/mean == 1 (ZERO POWER);
+  P3.4 Dh = d in >=85%; P3.5 all W-roots simple; P3.6 mean Rout < 2.
+==========================================================================
+
+  planted a=22    : pencils=54
+  planted a=18    : pencils=30
+
+--- IDENTITY CHECKS (falsifiers; a single BAD kills the claim) ---
+  type-2 slopes measured        : 108
+  (C2) degree cap  Dh <= a-(4m+2): OK 108  BAD 0
+  Rin = n + X - ov               : OK 108  BAD 0
+  (JDEC) d - Rin = o + j + cancel: OK 108  BAD 0
+  (DEGSUM) Dh = Rin_m+Rout+nonsp : OK 108  BAD 0
+  every W-root of h simple       : OK 108  BAD 0
+  (AGG) sum X = sum_{x in W} d_x : OK 138  BAD 0
+  Dh == d exactly (full degree)  : 105 / 108
+  def_in = a*m - sum d_x  : min 24 max 44  zero in 0/138 ; max d_x = 2 (e=3)
+
+--- T_2 (the max/mean question) ---
+  canon    T_2 = 1 : 54 pencils
+  planted  T_2 = 0 : 30 pencils
+  planted  T_2 = 1 : 54 pencils
+  canonical W*: max T_2 = 1  ->  max/mean = 1.000 IDENTICALLY (ZERO POWER)
+
+--- THE ROOT COUNT OF h_gamma IN W (the mandate's quantity) ---
+  where     a  slopes  maxRin  meanRin  d=a-(4m+2)  ceil(a/4)  maxX  a/4  maxDh
+  canon      16      1       2    2.000           2          4     2  4.00      2
+  canon      17      9       3    2.333           3          5     3  4.25      3
+  canon      18     10       4    1.900           4          5     4  4.50      4
+  canon      19     12       3    1.417           5          5     3  4.75      5
+  canon      20      5       1    0.800           6          5     1  5.00      6
+  canon      21     11       1    0.455           7          6     1  5.25      7
+  canon      22      6       0    0.000           8          6     0  5.50      8
+  planted    22     54       8    3.981           8          6     8  5.50      8
+
+--- THE STRATUM SPLIT BY j (is j=0 the X-MAXIMAL stratum?) ---
+  where     a   j  slopes  maxX  meanX  maxRin  max(o+j+cancel)  maxRout  maxn
+  canon      16   0       1     2  2.000       2                0        0     0
+  canon      17   0       4     3  3.000       3                0        0     0
+  canon      17   1       4     2  2.000       2                1        1     0
+  canon      17   2       1     1  1.000       1                2        0     0
+  canon      18   0       1     4  4.000       4                0        0     0
+  canon      18   1       2     3  3.000       3                1        1     0
+  canon      18   2       3     2  2.000       2                2        0     0
+  canon      18 >=3       4     1  0.750       1                4        1     0
+  canon      19   2       2     3  3.000       3                2        2     0
+  canon      19 >=3      10     2  1.100       2                5        2     0
+  canon      20 >=3       5     1  0.800       1                6        1     0
+  canon      21 >=3      11     1  0.455       1                7        3     0
+  canon      22 >=3       6     0  0.000       0                8        1     0
+  planted    22   0       6     8  8.000       8                0        0     0
+  planted    22   1       6     7  7.000       7                1        1     0
+  planted    22   2       6     6  5.833       6                3        2     0
+  planted    22 >=3      36     5  2.500       5                8        3     0
+
+--- IS THE TARGET  X <= a/4  SATISFIED?  (4X <= a) ---
+  where     j      slopes   X>a/4   worst 4X/a   worst (X, a)
+  canon    j=0          6       0       0.8889   X=4 a=18
+  canon    j>=1        48       0       0.6667   X=3 a=18
+  planted  j=0          6       6       1.4545   X=8 a=22
+  planted  j>=1        48      11       1.2727   X=7 a=22
+
+--- WHERE THE MISSING DEGREE GOES (R2.3) ---
+  Rout = roots of h outside W (with mult); RoutD = those inside D\W;
+  nonsplit = degree with no F_q root.  Predicted: (d-Dh)+Rout+(Rin_m-Rin)
+  = o+j+cancel.
+  where     a   meanRout  maxRout  meanRoutD  mean nonsplit  mean(d-Dh)
+  canon      16      0.000        0      0.000          0.000       0.000
+  canon      17      0.444        1      0.000          0.222       0.000
+  canon      18      0.300        1      0.100          1.700       0.100
+  canon      19      0.917        2      0.667          2.667       0.000
+  canon      20      0.400        1      0.200          4.800       0.000
+  canon      21      0.727        3      0.091          5.818       0.000
+  canon      22      0.333        1      0.000          7.667       0.000
+  planted    22      0.556        3      0.204          3.426       0.037
+
+  max T over pencils = 3  (rho+2 = 13) -> (SAT3) UNTESTED: True
+=== END d3_psi m=3 q=97 ===

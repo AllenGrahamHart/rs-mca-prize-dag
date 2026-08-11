@@ -1,0 +1,37 @@
+==============================================================================
+D5 -- LAYER A (full-domain bivariate Q(Z,x)) APPLIED TO THE D4 EXHIBIT
+==============================================================================
+
+  q = 97   LAYER A on the D4 exhibit
+    unknowns c_gamma : 9 (= T = rho+2)
+    conditions       : 48  ((rho+1) x (T-m-1) = 8 x 6)
+    rank             : 9   ->  NULLITY 0
+    kernel with EVERY c_gamma != 0 : False
+    >>> LAYER A verdict for the exhibit: KILLED (no bivariate Q(Z,x) of bidegree (rho,m))
+  q = 193   LAYER A on the D4 exhibit
+    unknowns c_gamma : 9 (= T = rho+2)
+    conditions       : 48  ((rho+1) x (T-m-1) = 8 x 6)
+    rank             : 9   ->  NULLITY 0
+    kernel with EVERY c_gamma != 0 : False
+    >>> LAYER A verdict for the exhibit: KILLED (no bivariate Q(Z,x) of bidegree (rho,m))
+
+  CONTROLS on the layer-A linear algebra (the root-set -> coefficient step is
+  already controlled in d1_control.py [C1]).
+
+  CTRL-1 (POSITIVE): take L_gamma := d_gamma * Q(gamma,.) for a RANDOM
+    bidegree-(rho,m) Q and random nonzero d_gamma.  Then c_gamma = 1/d_gamma
+    is a solution, so the nullity MUST be >= 1 with an all-nonzero kernel.
+    q=97   nullity 1 (predicted >= 1), all-nonzero kernel True   PASS
+    q=193  nullity 1 (predicted >= 1), all-nonzero kernel True   PASS
+
+  CTRL-2 (ANALYTIC): all T blocks EQUAL (L_gamma = L for every gamma).  Then
+    the condition is (c_gamma)_gamma in RS(Z,m+1), so nullity == m+1 = 3.
+    q=97   nullity 3 (predicted 3)   PASS
+    q=193  nullity 3 (predicted 3)   PASS
+
+  CTRL-3 (NEGATIVE): perturb CTRL-1's L at ONE coefficient of ONE slope;
+    the solution should be destroyed (nullity drops to 0).
+    q=97   nullity 0 (predicted 0)   PASS
+    q=193  nullity 0 (predicted 0)   PASS
+
+==============================================================================
