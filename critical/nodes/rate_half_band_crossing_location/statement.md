@@ -2138,3 +2138,22 @@ Together with cycle 91, the six tangent packets have complete section table
 `1,1,1,0,0,0`, grouped by `I_0=0` and `I_0>0`. This classifies but does not
 exclude them. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing`.
+
+## Cycle 94: scalar residual-root rows have an exact correction law (2026-08-11, Codex)
+
+For any heavy row `x` at a root of the scalar residual, let `c_x` be its row
+deficit, `t_x` the number of distinguished excess roots outside the minimal
+locator, and `epsilon_x` the excess multiplicity beyond one copy per
+distinguished incidence. Summing the cancelled cube identity over the
+complete vertical fibre and using `3|e` gives
+
+```text
+c_x+epsilon_x-t_x=0 mod 3.
+```
+
+Thus a full-overlap row of deficit `0,1,2 mod 3` costs respectively
+`0,2,1` correction copies, and the global rank budget gains the sum of these
+row costs. This packages the mechanism that killed core-free degree two and
+now applies uniformly to the remaining scalar degrees `3,4,5`. It is a
+necessary constraint, not an exclusion. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction`.
