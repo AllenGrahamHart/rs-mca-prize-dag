@@ -2735,3 +2735,35 @@ universal and every locator-support pair satisfies
 `|S_alpha union S_beta|>=rho`. The strict branch retains the exact weighted
 moment system; no positivity is assumed. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate`.
+
+## Cycle 114: column-farness kills the weak equality and pins the true boundary (2026-08-11, Codex)
+
+The codeword line through two unique centers differs from the received
+pencil on exactly `S_alpha union S_beta`. Column-farness therefore gives
+
+```text
+|S_alpha union S_beta|>=rho+1,
+|S_beta\S_alpha|>=c_alpha+1.
+```
+
+Thus Cycle 113's `c_alpha`-source equality branch never occurs in a retained
+packet. If the union has its true minimum `rho+1`, the source difference has
+exactly `c_alpha+1` points. Its Vandermonde nullspace is one-dimensional,
+and the first-jet radical forces
+
+```text
+mu_xR_alpha(x)=kappa/P_(alpha,beta)'(x),       kappa!=0.
+```
+
+Equivalently, the actual error values satisfy
+
+```text
+lambda_x e_beta(x)Q_min,alpha(x)Q_alpha(x)
+P_(alpha,beta)'(x)=kappa(beta-alpha).
+```
+
+No difference point is then a root of `R_alpha`. Larger unions retain a
+higher-dimensional cancellation space, so support cardinality alone is now
+exhausted; the next useful inputs are these weights and higher coefficient
+jets. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate`.

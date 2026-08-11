@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate",
+    "title": "A=1 core-free cubic gap-one column-far barycentric gate",
+    "status": "PROVED",
+    "closure": "strict support difference and exact minimal-union weights",
+    "statement": "Column-farness strengthens every two-slope support difference to |S_beta minus S_alpha| at least c_alpha+1, so the c_alpha-point equality branch is impossible. If a pair has the true minimum union rho+1, its first-jet source difference has c_alpha+1 points and the radical equation forces the exact nonzero barycentric formula mu_x R_alpha(x)=kappa/P'(x), equivalently the displayed identity for the actual error values.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
