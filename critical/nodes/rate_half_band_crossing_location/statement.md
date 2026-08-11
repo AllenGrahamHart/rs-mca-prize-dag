@@ -1991,3 +1991,31 @@ deg(Z_c-R_0-E_u)=2.
 Thus all six tangent packets are bounded signed-divisor problems. The
 proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form`.
+
+## Cycle 88: both core-free packets have a degree-one Picard normal form (2026-08-11, Codex)
+
+Let `P_1,P_2` be the supported-slope radicals of the two distinguished
+heavy rows. Their row tails have degrees `{1,1}` or `{1,2}`, and
+
+```text
+Qbar(U,V;x_i)=P_i K_i,
+N_F(U,V;x_i)=P_i C_i,       deg C_i<=3,
+```
+
+with the two Forney quotients not both zero. If `D_reg` is the regular
+Kronecker determinant and `I_0` is zero or one, then
+
+```text
+D_reg=P_1P_2 L_0^(2I_0)E_(1-I_0).
+```
+
+Thus the packet with one ordinary triple incidence completely factors the
+regular determinant; the other leaves one root. The contact divisor yields
+
+```text
+O_C(rho+3,-e-1)=O_C(Z_1+Z_2-R_0-E_1),
+deg(Z_1+Z_2-R_0-E_1)=1.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form`.

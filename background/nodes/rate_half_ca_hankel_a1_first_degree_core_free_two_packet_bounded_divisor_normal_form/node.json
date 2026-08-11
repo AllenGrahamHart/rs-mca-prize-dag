@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form",
+    "title": "A=1 core-free two-packet bounded-divisor normal form",
+    "status": "PROVED",
+    "closure": "two distinguished row radicals, regular determinant, and contact divisor",
+    "statement": "Both core-free residual-degree-two packets have two distinguished row radicals with row tails of degree at most two and Forney tails of degree at most three. The regular determinant is their product times a tail of degree at most one, with the unique ordinary triple incidence consuming the full tail in the second packet. The contact divisor gives a signed Picard relation of degree exactly one.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
