@@ -1,0 +1,55 @@
+
+=== RUN d4_ledger 2026-08-11T21:05:01 ===
+C(32,7) = 3365856 = 2^21.68
+
+A. LEDGER (round-36 form) log2 E(T) = 18 log2 q + log2 C(q+1,T) + T[log2 C(32,7) - 7 log2 q]
+  q=97   T=1..5: +100.9 +82.0 +62.5 +42.5 +22.2
+  q=193  T=1..5: +112.8 +87.9 +62.5 +36.6 +10.4
+  q=257  T=1..5: +117.8 +90.4 +62.5 +34.1 +5.4
+  q=641  T=1..5: +133.6 +98.3 +62.5 +26.2 -10.4
+  q=769  T=1..5: +136.7 +99.9 +62.5 +24.6 -13.5
+
+B. MY SUB-LOCUS COUNT vs THE LEDGER (refutes my registered (X8))
+  fix the supported pair at (0,inf): objects with Q_0,Q_2 both split over mu_32
+  = q^18 * [C(32,7)/q^7]^2 = q^4 * C(32,7)^2  (a 4-DIMENSIONAL family per (S_0,S_inf))
+  M := #{(object, z_3) : 0,inf,z_3 all supported} = C(32,7)^3 (q-1)/q^3
+  ledger E(3) must equal M*(q+1)*q/6   [6 = orderings of an unordered triple]
+  q=97    log2(mine)=+62.4625  log2(ledger)=+62.4625  ratio=1.000000000000
+  q=193   log2(mine)=+62.4626  log2(ledger)=+62.4626  ratio=1.000000000000
+  q=257   log2(mine)=+62.4626  log2(ledger)=+62.4626  ratio=1.000000000000
+  q=641   log2(mine)=+62.4627  log2(ledger)=+62.4627  ratio=1.000000000000
+  q=769   log2(mine)=+62.4627  log2(ledger)=+62.4627  ratio=1.000000000000
+  => EXACT agreement at every field: the doubly-prescribed sub-locus is NOT thinner
+     than the stratum average. (X8) IS REFUTED BY MY OWN ARITHMETIC.
+
+C. THE DISTANCE TO T=3 OVER mu_32 (the honest cost of the missing solve)
+  q=97   4-dim family per (S_0,S_inf) = q^4 = 88529281 points; expected T>=3 in it = 354.0
+        => P(T>=3 | one exact T=2 object) = 3.999e-06 ; exact T=2 objects needed per T=3 = 2.5e+05
+  q=193  4-dim family per (S_0,S_inf) = q^4 = 1387488001 points; expected T>=3 in it = 89.9
+        => P(T>=3 | one exact T=2 object) = 6.479e-08 ; exact T=2 objects needed per T=3 = 1.54e+07
+  measured this round: 28 certified s=0 T=2 objects at q=97, 4 at q=193
+  => shortfall factor 8.93e+03 (q=97) and 3.86e+06 (q=193)
+
+D. THE (SCRIT) GAIN: restricting S_2 to mu_32 \ S_0
+  C(25,7)/C(32,7) = 480700/3365856 = 0.1428 ; s=0 yield goes 0.1428 -> 1.0000, search space /7.00
+
+E. (OV4) AGAINST THE BANKED (SAT3) m=2 DESIGN
+  (OV4): for distinct supported slopes i,j,k :  e(k,i)+e(k,j) <= 4
+  (SAT3) at m=2: 9 slopes, 63 slots on 32 points, d_x<=2 => 31 doubled points,
+  i.e. a 9-vertex multigraph with 31 edges and degree sum 62 (degrees 7^8,6).
+  Consequences of (OV4) on that multigraph:
+   - e(k,i) <= 4 for all pairs; e(k,i)=4 forces deg k = 4 < 6 => e(k,i) <= 3.
+   - e(k,i)=3 forces e(k,j) <= 1 for every other j.
+   - two multiplicity-2 edges at a vertex are allowed (2+2=4), three are too.
+  banked design (K_9 minus a 2-path and 3 disjoint edges): |E|=31, degrees=[7, 7, 7, 7, 7, 7, 7, 7, 6]
+  worst e(k,i)+e(k,j) = 2  =>  (OV4) PASSES (slack 2)
+  HONEST: (OV4) is a NECESSARY condition that the banked design SATISFIES.
+  It excludes only concentrated designs; it does not close (SAT3) at m=2.
+
+F. THE THIRD PRESCRIPTION AS RATIONAL INTERPOLATION (dof bookkeeping)
+  type-(4,4) rational function f/g : 4+4+1 = 9 degrees of freedom
+  prescribed values at |S_0|+|S_inf| = 14 points  =>  overdetermined by 14-9 = 5
+  free scale ratios (alpha:beta:gamma) in P^2 : 2  =>  net deficit 5-2 = 3
+  expected solutions per subset-triple = q^2 * q^-5 = q^-3 :
+     q=97    q^-3 = 1.096e-06   triples needed ~ 912673   (C(32,7)^3 = 2^65.0 available)
+     q=193   q^-3 = 1.391e-07   triples needed ~ 7189057   (C(32,7)^3 = 2^65.0 available)

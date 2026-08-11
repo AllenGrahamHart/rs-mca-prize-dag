@@ -4410,12 +4410,27 @@ exception); the dimension 20+1-2-1 = 18; the +4-O arithmetic.
   round and T = 4; blind (L2) search is banned at rate-1
   parametrization. F1/(NEWCAP): still zero power (one supported
   pair; a* = 14 a single sample).
+  [RE-POSED (round 37): NO third exact solve exists in (PAR)
+  coordinates — the parametrization is a length-4 Hankel sequence
+  (k,f,g,-h) whose TWO solvable slots (u_0, u_3) are consumed by
+  the first two prescriptions; the third is an overdetermined
+  type-(4,4) Cauchy interpolation (14 values, 9 dof, 2 scales —
+  deficit 3, q^-3 per triple) with an exact O(1) test and no
+  inverse; re-basing cannot create a slot (S_3 symmetry of the
+  three minors). The open item of record is "an exact solve for a
+  rank-deficient 14x10 Cauchy system" — Pade-lattice machinery
+  (banked in the l1/xr lanes) is the pointer. See the round-37
+  third-solve addendum.]
 - **SCOPE FENCES:** two fields for all structure (five for
   ledger arithmetic); no T >= 4 built; (SAT2)/(SAT4)/(SAT5)
   inapplicable at T = 2 (reported: sum d_x = 14, no doubled
   point yet, vs the 31 doubles (SAT3) needs); m >= 3 untouched;
   the s != 0 degeneracy yield (42/46 rejected) has no predictive
-  criterion yet.
+  criterion yet. [RESOLVED (round 37): (SCRIT) — s = |S_0 ^ S_2|
+  EXACTLY (four lines from (PAR); 251/251 two fields; hypothesis
+  f(x)g(x) != 0 automatic on prescribed-split objects);
+  restricting S_2 to mu_32 \ S_0 gives 100% s=0 yield at 1/7.00
+  the cost. See the round-37 third-solve addendum.]
 
 ## Round-36 R-HRLOW addendum (2026-08-11, coordinator-audited): the band classified; h_r dissolved as the coordinate; STATEMENT U is the whole far-CA residual
 
@@ -4914,3 +4929,129 @@ figures withdrawn on the strength of the exhaustive census.
   script's module-level "w"-mode write was caught by the
   pre-import audit and the import REFUSED); results files
   versioned per run (the new rules held).
+
+## Round-37 third-solve addendum (2026-08-11, coordinator-audited): the ladder has exactly two rungs; (SCRIT), (CONIC)/(SLOT), (OV4); T = 4 bespoke
+
+Pilot r37_third_solve (round 37, bank 4; resumed after an
+output-overflow crash — clean run, 6/6 ramguard). COORDINATOR
+HAND-CHECKS (all pass): the cross-product form (row_0 x row_1 of
+[[k,f,g],[f,g,-h]] = -L*(Q_2,-Q_1,Q_0) — expanded by hand); the
+(CONIC) identity (both sides = f^2g^2 - kg^3 - hkfg + hf^3 over
+L); the (SCRIT) four-liner (k = f^2/g and h = -g^2/f at a shared
+root force LQ_1 = fg - fg = 0); the slot-consumption argument;
+the Cauchy deficit arithmetic (14 - 9 - 2 = 3).
+
+- **THE LADDER IS EXHAUSTED — STRUCTURALLY.** (PAR) is the
+  2x2-minor (cross-product) vector of the 2x3 Hankel matrix on
+  (k, f, g, -h) (verified 58/58 + 59/59). Prescribing Q_0
+  consumes slot u_0 = k; prescribing Q_2 consumes u_3 = -h
+  UNIQUELY (200/200 injective, two fields); Q_1 is then the third
+  minor of a determined sequence. The third prescription is an
+  overdetermined type-(4,4) Cauchy interpolation — not a
+  proportionality, not a norm condition; exact O(1) TEST (one
+  extended Euclid / one 14x10 rank), NO solve; q^-3 per
+  subset-triple; re-basing to {0,1,inf} exposes the S_3 symmetry
+  and cannot create a slot. A general lesson banked: a
+  length-(n+2) sequence admits exactly n free prescriptions.
+- **(SCRIT) — the s != 0 criterion, exact:** s = |S_0 ^ S_2|
+  (251/251, two fields, joint histogram perfectly diagonal;
+  unrestricted draws have the f=g=0 exception, 1/58 + 1/59 — the
+  same species as (RES)'s refinement). Operational: S_2 in
+  mu_32 \ S_0 gives 100% s=0 at 1/7.00 the search cost —
+  replacing round 36's empirical 4/46 mortality with a zero-cost
+  combinatorial filter.
+- **(CONIC)/(SLOT), new identities:** Q_0g^2 - Q_1fg + Q_2f^2 =
+  L*Q_0*Q_2; pointwise, the SECOND root of the member-quadratic
+  q_x at any x in S_0 u S_inf is -f(x)/g(x) — one formula for
+  both prescribed supports.
+- **(OV4) — the lane's first exact structural law at m=2:** for
+  any three supported slopes, e(k,i) + e(k,j) <= 4 (= deg(f+zg);
+  the m=1 unique-vote argument of the banked f_dim1 transported
+  to the sequence's MIDDLE PAIR). Zero violations in 374 T>=3
+  objects, two fields. Sharpenings: e(k,i) <= 3 always; e = 3
+  forces e <= 1 elsewhere. HONESTLY GRADED: a NECESSARY condition
+  — the banked 9-vertex (SAT3) design is simple and PASSES with
+  slack 2; (OV4) excludes concentrated designs only, a filter
+  never an exclusion.
+- **T-RECORDS:** T = 4 over a bespoke 32-set on certified
+  e = m = 2 objects (first in class; both records fully
+  certified, two fields; |union| = 23/24), via the BESPOKE DOUBLE
+  SOLVE (both members prescribed split with free roots — an exact
+  instrument giving 101x/62x the T>=3 rate of round 36's single
+  prescription; the recommended default for all bespoke pushes).
+  T over mu_32 = 2 — a TIE with round 36, honestly reported; the
+  quantified gap to T=3 over mu_32 is 8.9e3x/3.9e6x the built
+  object counts (absence where none was sought at the required
+  rate). The counting instruments keep failing toward EXISTENCE
+  through T = 4 (the pilot's own registered attempt to discount
+  the +62.5-bit cell was refuted by its own arithmetic, ratio
+  1.000000000000 at five fields).
+- **SCOPE FENCES:** T = 4 bespoke has ZERO (SAT3) power (both
+  records have T = 0 over mu_32; columns never merged); (SCRIT)
+  is verified on the regenerable class (the f=g=0 exception
+  hypothesis named); (OV4) fires on nothing currently believed;
+  F1/(NEWCAP) still zero power; m >= 3 untouched ((PAR) is
+  m=2-specific); no razor-scale claims. Round 36's published T=2
+  vectors were NOT replayed (regenerated instead — declared).
+
+## ROUND 37 CLOSE (2026-08-11): the four banks reconciled — the frontier hardens into named finite problems
+
+**BANK 1 (r37_urand):** STATEMENT U REFUTED same-day; far-CA =
+r+1 + Theta(n/rho) (constructive floor r+1+126 modulo
+R-GENERICITY; bits unchanged); the coset-leader frame; FENCE-1;
+U-sym closed (ceil(rho/2)); C(128,63) check done (dedup yes, cap
+no). **BANK 2 (r37_mint_drafts):** the mint wave drafted 10/10
+with passing verifiers; twelve discrepancies dispositioned (the
+a* convention flagged for ruling; the covering-law generalization
+adopted; D9 resolved — the gate formula was banked all along);
+wiring queued (task #41). **BANK 3 (r37_share3_gap):** the m=4
+one-coincidence gap DERIVED (prescribable budget 8 vs demand 11,
+the Segre-surface count; two-round ceiling explained); the
+constant-norm census EXHAUSTIVE (empty at 577 AND 641; the ~q^-7
+/ ~690 figures withdrawn; five-field window); **THE SIDE DOOR IS
+LEGAL (coordinator check: O = 2 fits (SAT2)/(SAT4) exactly — 10
+merges suffice, which round 36 ACHIEVED)**. **BANK 4
+(r37_third_solve):** the third exact solve does NOT exist
+(structural: two slots on a length-4 sequence); (SCRIT), (CONIC)/
+(SLOT), (OV4); T = 4 bespoke first-in-class; T = 2 over mu_32
+(tie).
+
+**THE RECONCILED FRONTIER — everything is now a NAMED FINITE
+PROBLEM:** (1) **the m=4 SIDE DOOR** (build the degenerate-fibre
+configuration from a 10-merge draw; per-side bookkeeping at the
+three deficient points; if it survives — the full pipeline and an
+m=4 witness candidate); (2) **R-URATE + R-GENERICITY** (two
+self-contained rank/genericity lemmas that pin B_ca^far(k+2^34)
+= r+1+126 unconditionally); (3) **the rank-deficient Cauchy
+solve** (the re-posed third prescription; Pade-lattice machinery
+banked in l1/xr); (4) **the determinantal 11-merge solve**
+(Groebner-scale; a compute-request candidate); (5) **THE MINT
+WIRING** (task #41, coordinator session, 10 packages + the
+statement_u re-draft); (6) **the a* convention ruling** (gates
+all F1/(NEWCAP) pricing). The counting instruments are dead as
+verdict-carriers in BOTH lanes (five refutations across two
+rounds); every live route is a construction or a finite algebra
+question.
+
+**AUDIT LEDGER (12th consecutive catching round):** Statement U
+(mine, round 36) refuted; the round-36 narrowing, decay/threshold
+figures, floor(rho/2) count, and "no predictive criterion" line
+all corrected; my round-37 brief carried two wrong premises
+(route-(b)... the share3 window/peak — both recorded); the
+drafting pilot surfaced twelve discrepancies including the a*
+convention. COMPLIANCE ROUND TALLY: banks 1, 2, 4 clean (the
+resumed bank-4 pilot included); bank 3 ONE bare-python3 breach
+(the same empty-heredoc tic as round 36 — a PROCESS failure);
+ROUND-38 RULES: the pre-Bash checklist ("any command containing
+python3 MUST match 'tools/ramguard (tiny|local) -- python3'";
+no no-op interpreters, ever) goes in CONSTRAINTS and prompt;
+results files append-or-version (held, and paid twice this
+round); the imported-script audit (fired correctly, once).
+
+**ROUND-38 ANCHORS (priority order):** (1) THE SIDE DOOR —
+degenerate-fibre m=4 (the cheapest potentially-decisive item on
+the board); (2) THE MINT WIRING (task #41, coordinator); (3)
+R-URATE + R-GENERICITY; (4) the Cauchy-lattice solve attempt
+(import the l1/xr machinery); (5) the a* ruling + F1 pricing;
+(6) sporadic non-factoring sharing (the last untouched m=4
+route); (7) the determinantal-solve compute request.

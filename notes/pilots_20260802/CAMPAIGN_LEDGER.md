@@ -6074,3 +6074,61 @@ import refused). New results-file rules held (versioned runs).
 Node: addendum incl. the side-door check + the threshold
 withdrawal. Mint +4. Files:
 notes/pilots_20260811/r37_share3_gap/.**
+
+## ROUND 37 BANK 4/4 — r37_third_solve (2026-08-11, coordinator)
+
+**BANKED — THE THIRD EXACT SOLVE DOES NOT EXIST, STRUCTURALLY:
+(PAR) is the 2x2-minor vector of a 2x3 Hankel matrix on the
+length-4 sequence (k,f,g,-h) (coordinator hand-verified, exact);
+the two solvable slots are consumed by the first two
+prescriptions; the third is an overdetermined type-(4,4) Cauchy
+interpolation (deficit 3, q^-3/triple) with an exact O(1) test
+and NO inverse; re-basing cannot help (S_3 symmetry). The
+round-36 handoff RE-POSED (the open item = a rank-deficient 14x10
+Cauchy solve; Pade-lattice machinery banked in l1/xr). LANDED:
+(SCRIT) s = |S_0 ^ S_2| EXACTLY (four lines, hand-verified;
+251/251; the f=g=0 exception hypothesised; S_2 in mu_32\S_0 =>
+100% s=0 at 1/7 cost — the round-36 "no predictive criterion"
+line RESOLVED); (CONIC)/(SLOT) new identities (hand-verified);
+(OV4) e(k,i)+e(k,j) <= 4 — the lane's first exact structural law
+at m=2 (the banked f_dim1 vote argument transported to the middle
+pair; 374 objects zero violations; the banked (SAT3) design
+PASSES with slack — a filter, never an exclusion); T = 4 BESPOKE
+first-in-class on certified e=m=2 objects (the bespoke double
+solve: 101x/62x rate gain — the new standard instrument); T over
+mu_32 = 2, a TIE, honestly reported with the quantified 8.9e3x
+shortfall. (X8) refuted by its own arithmetic (sub-locus/ledger
+ratio 1.000000000000, five fields) — counting keeps failing
+toward EXISTENCE through T=4. COMPLIANCE: 6/6 clean (the resumed
+size-capped pilot behaved). Node: 2 markers + addendum. Mint +5.
+Files: notes/pilots_20260811/r37_third_solve/.**
+
+## ROUND 37 COMPLETE (2026-08-11, coordinator)
+
+**FOUR BANKS, ZERO STATUS FLIPS, CENSUS UNCHANGED
+(231=167/37/27, 246=179/39/28) — THE FRONTIER HARDENED INTO
+NAMED FINITE PROBLEMS. Bank 1: STATEMENT U REFUTED same-day
+(fastest pin turnover on record); far-CA = r+1 + Theta(n/rho)
+(floor r+1+126 modulo R-GENERICITY; bits unchanged); U-sym
+closed; C(128,63) done. Bank 2: the mint wave drafted 10/10;
+twelve discrepancies dispositioned (the a* convention the catch
+of the wave; D9 resolved on the spot); wiring = task #41. Bank
+3: the m=4 gap DERIVED (budget 8 vs 11, Segre count); the census
+EXHAUSTIVE (empty at 577+641; figures withdrawn); THE SIDE DOOR
+LEGAL (O=2 fits (SAT2)/(SAT4) — 10 merges suffice = round 36's
+achieved). Bank 4: no third exact solve (two-slot ladder);
+(SCRIT)/(CONIC)/(SLOT)/(OV4); T=4 bespoke. THE BOARD: every live
+route is a construction or a finite algebra question — the side
+door; R-URATE + R-GENERICITY; the Cauchy-lattice solve; the
+determinantal 11-merge solve; the mint wiring; the a* ruling.
+Counting is dead as a verdict-carrier in both lanes (five
+refutations, two rounds). AUDIT: 12th consecutive catching round
+(U mine; the round-36 figures; two of my own brief premises; the
+drafting pilot's twelve). COMPLIANCE: 3 clean pilots + 1 breach
+(the recurring empty-heredoc tic — process response codified:
+the pre-Bash checklist rule for round 38); the new results-file
+rules PAID twice; the imported-script audit fired correctly
+once. ROUND-38 ANCHORS: (1) THE SIDE DOOR; (2) the mint wiring
+(#41); (3) R-URATE + R-GENERICITY; (4) the Cauchy-lattice
+attempt; (5) the a* ruling; (6) sporadic sharing; (7) the
+determinantal compute request.**
