@@ -29060,6 +29060,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -31147,6 +31148,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
+   "title": "A=1 quadratic gap-four minimum-pair rank-two normal form",
+   "status": "PROVED",
+   "closure": "two-dimensional barycentric split-pencil coordinate",
+   "statement": "At pair union rho+3 in either core-one quadratic u=4 arm, orient from a positive-deficit endpoint when needed and put X=S_tau\\S_sigma. The complete coefficient chain has exact rank two and eta_x L_X'(x)Qbar(-;x)=A+xB for independent degree-at-most-e parameter forms A,B. All row forms are distinct squarefree supported forms. If G=gcd(A,B), g+m(e-g)<=3e+3 and g>=max(1,ceil((r_sigma e-3)/(r_sigma+2))); every root of G has its center on the endpoint codeword pencil.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify_audit.py"
    ]
   },
   {
@@ -65063,6 +65082,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65108,6 +65132,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65145,6 +65174,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
    "kind": "req"
   },
   {
@@ -65670,6 +65704,11 @@
   {
    "from": "rate_half_ca_hankel_split_pencil_equivalence",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form",
    "kind": "req"
   },
   {

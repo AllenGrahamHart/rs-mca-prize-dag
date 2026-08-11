@@ -2890,3 +2890,30 @@ ceil((2rho+9+r_alpha+r_beta)/3)>=2e+3
 expanding thirds. The next minimum pair boundary has coefficient-row rank
 at most two. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion`.
+
+## Cycle 121: the new minimum boundary is one exact rank-two split pencil (2026-08-11, Codex)
+
+At pair union `rho+3`, put `X=S_tau\S_sigma` in the orientation selected by
+the padded-heavy ledger. The complete coefficient-chain nullspace is exactly
+two-dimensional. Its barycentric basis gives independent degree-at-most-`e`
+parameter forms `A,B` with
+
+```text
+eta_x L_X'(x)Qbar(-;x)=A+xB.
+```
+
+Rank one is impossible by the Cycle-120 center-line count, so the row
+coordinate is injective. Every row form is squarefree and supported. If
+`G=gcd(A,B)`, `g=deg G`, and `m=|X|=r_sigma+3`, their residual root sets are
+pairwise disjoint and
+
+```text
+g+m(e-g)<=3e+3,
+g>=max(1,ceil((r_sigma e-3)/(r_sigma+2))).
+```
+
+Every root of `G` is center-owned by the endpoint codeword pencil. The
+positive-deficit cases therefore carry a forced linear-size common
+parameter divisor; the zero-deficit three-row case remains the least
+constrained. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form`.
