@@ -6132,3 +6132,34 @@ once. ROUND-38 ANCHORS: (1) THE SIDE DOOR; (2) the mint wiring
 (#41); (3) R-URATE + R-GENERICITY; (4) the Cauchy-lattice
 attempt; (5) the a* ruling; (6) sporadic sharing; (7) the
 determinantal compute request.**
+
+## ROUND 38 LAUNCH (2026-08-11, coordinator)
+
+**THE WITNESS-HUNT ROUND — 4 Opus pilots on the round-37 close's
+anchors (briefs notes/pilots_20260811/r38_*/PREREG.md;
+CONSTRAINTS add THE PRE-BASH CHECKLIST after two identical
+breaches: any command containing python3 MUST match
+'tools/ramguard (tiny|local) -- python3'; no no-op interpreters
+ever; REPORT capped ~40k chars after the round-37 crash):**
+(A) r38_side_door — THE SIDE DOOR: full degenerate-fibre m=4
+ledger (D1: every axiom checked on paper — per-side caps at the
+three deficient points, the round-34 inside-deficiency charges,
+(OUT-m)/(DEG-m) at O=2), then the build (disc=0 fibre + 10
+merges), then the COMPLETE pipeline (W, per-side, mu(x), G,
+completion, biv_core with output-path audit, layer A) — an m=4
+witness candidate. (B) r38_urate_genericity — prove R-URATE
+(joint-spend additivity => the cap) + R-GENERICITY (the
+Vandermonde-block rank half + the four side-conditions) =>
+B_ca^far(k+2^34) = r+1+126 UNCONDITIONAL; secondary: carrier
+exhaustiveness (close R-USYM). (C) r38_cauchy_lattice — the
+rank-deficient Cauchy inverse via the banked l1/xr lattice
+machinery (Euclid-trajectory structure; incremental updates; OR
+the realization that exhaustive-per-pair C(25,7) is ALREADY
+feasible — derive real costs first); a* RULED PROJECTIVE
+(coordinator, this launch — reproduces the banked 13, preserves
+PGL_2-covariance); the first F1 dataset under the ruling.
+(D) r38_sporadic_det — the sporadic-sharing taxonomy
+(correspondence-sharing vs Lueroth's scope) + the 3-in-3
+determinantal solve from 8-prescribed-merge states (derive
+degrees first; the same witness event as the side door if it
+lands). Bank each on report, same cadence.
