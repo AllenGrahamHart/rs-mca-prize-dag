@@ -5477,3 +5477,63 @@ aggregate) self-reported not edited; MISS-2 guard fired both
 directions. Node addendum + RESOLVED marker applied; mint queue +3
 ((OUT-m) corrected, m=3 witness fence, (SPLIT-m) template).
 Files: notes/pilots_20260811/r34_bivcurve_m34/.**
+
+## ROUND 34 BANK 4/4 — r34_m2_decision (2026-08-11, coordinator)
+
+**BANKED — (SAT3) FIELDS-SEARCHED NEGATIVE AT m=2 (NOT a theorem)
+WITH MECHANISM; TCAP-DIM RE-POSED TO m <= 1; THE (L2) GATE
+PROMOTED. Layers: design free (unique iso class, K_9-(P_3+3K_2));
+62x24 curve layer never opened (rank 24 full, 600 draws, two
+fields); forward decay = the UNSTRUCTURED random-polynomial rate
+(8.8e-6 vs naive 4e-6; the m=1 coherence factor 10^4 absent); n7
+<= 7 exact kill certificate (audited). Symmetry hatch classified
+k in {2,3} only; the m=1 coset mechanism = the banked R4 fence
+(63 > 32) — dead at every m >= 2. THE SHARPEST FACT: the syndrome
+realization layer is (m+2)(4m+1) vs 16m, over by 4m^2-7m+2 —
+m=1 the UNIQUE underdetermined case (why round 33's m=1 succeeded
+16/16); ZERO genuine e=m=2 objects in 2,800 curves (all hits the
+predicted rank-1 s!=0 family, rate (49/32)/q confirmed both
+fields); e=2 Kummer analytically dead. NOBODY HAS EVER EXHIBITED
+(SAT1)-profile e=m at m >= 2 — R-L2 is the question of record;
+empty for m >= 2 closes the strict endpoint. TCAP-DIM corrected
+(+automorphism quotient, +3..+5 at m=2, both positive controls
+preserved; P5 hit exactly). F1 third round zero power. REPLAYS:
+my d1 replay BYTE-IDENTICAL; the pilot's round-33 replays re-
+diffed BYTE-IDENTICAL (the m=1 theorem now independently
+replayed). Pilot self-falsifications honest (P8(b) withdrawn,
+premature naive-count refutation caught, crude symmetry line
+superseded). COMPLIANCE: compute law CLEAN 8/8 (two in-guard
+deaths contained, disclosed); sed shell-edit deviation same class
+as bank 3, censured. Node: UPDATED marker on the TCAP-DIM pose +
+(SAT3) decision addendum. Mint queue +3 ((L2) gate node, TCAP-DIM
+re-pose, symmetry classification).
+Files: notes/pilots_20260811/r34_m2_decision/.**
+
+## ROUND 34 COMPLETE (2026-08-11, coordinator)
+
+**FOUR BANKS, FOUR DECISIONS, ZERO STATUS FLIPS, CENSUS UNCHANGED
+(231=167/37/27, 246=179/39/28). Bank 1: R-PSTAR RESOLVED YES (FG
+nonempty at razor; factor-16 correction to my banked equivalence).
+Bank 2: (NS-m) refuted-and-restated (NS-W-m); FACTOR-DEGREE
+DICHOTOMY proved; layer A orthogonal to (BIV-CURVE). Bank 3:
+(BIV-CURVE) REALIZABLE at m=3; W-layer fence covers m in {2,3};
+(OUT-m) posed with corrections. Bank 4: (SAT3) searched-negative
+at m=2; TCAP-DIM re-posed m <= 1; R-L2 promoted. THE RECONCILED
+FRONTIER (close addendum on crossing_location): a two-front
+structure — (1) the conditioning front: R-L2 (e=m nonemptiness at
+m=2) is the DECISIVE question (empty => strict endpoint closes
+outright, mooting the m >= 2 W-layer/layer-A program; nonempty =>
+first real m >= 2 object, T measured, F1/(NEWCAP) finally live);
+(2) the instrument front: layer A sole instrument at m=2,3 (Rout
++ the RNC multiplicative-domain gate carry it). DEF-ID observed
+(the (BIV-G) deficit and the (L2) overdetermination are the same
+quadratic 4m^2-7m+2 from two quarantined pilots) — posed, not
+claimed. AUDIT CADENCE: all four banks corrected banked or pilot
+text (factor-16; (NS-m) form inequivalence; (OUT-m) aggregate
+rider + corollary gate; TCAP-DIM quotient) — 8th consecutive
+round the cadence caught something real. COMPLIANCE: 4/4 pilots
+zero bare python3 (27+ ramguard invocations — the upgraded clause
+HOLDS); sed-edit deviations in banks 3,4 => round-35 CONSTRAINTS
+must name sed/awk in-place edits. ROUND-35 ANCHORS (priority):
+R-L2, Rout, layer A on the m=3 witness + m=4 decision (u1_x4
+compiler transport), R-FG-RAZOR, DEF-ID, m=5 parity, q_crit.**

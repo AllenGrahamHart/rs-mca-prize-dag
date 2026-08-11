@@ -1,0 +1,59 @@
+=== r34 D3: symmetry families at m=2 (round 33's G4) ===
+
+--- ORBIT ARITHMETIC: which symmetry order k can host the design ---
+Setup: a cyclic symmetry of order k acting on the x-line with the
+net invariant.  Its induced action tau on the slope line is a
+Mobius map of the same order, so the 9 supported slopes split into
+tau-orbits of size k plus at most 2 tau-FIXED slopes.  A fixed
+slope's member f satisfies f(zeta x) = nu f(x), hence
+f = x^j h(x^k): its NONZERO roots come in mu_k-orbits, so
+u_gamma == 0 (mod k) for every fixed slope.
+
+ rho = 7, T = 9, admissible u-profiles: 7^9 (O=0) and 7^8,6 (O=1)
+ k | 9 = A*k + F, F <= 2 | fixed-slope u must be divisible by k | verdict
+  k= 2: A=4, 1 fixed slope(s) with u in [6]
+  k= 3: A=3, no fixed slope
+  k= 4: IMPOSSIBLE (no admissible split)
+  k= 5: IMPOSSIBLE (no admissible split)
+  k= 6: IMPOSSIBLE (no admissible split)
+  k= 7: A=1, 2 fixed slope(s) with u in [7]
+  k= 8: IMPOSSIBLE (no admissible split)
+  k= 9: A=1, no fixed slope
+  k=16: IMPOSSIBLE (no admissible split)
+  k=32: IMPOSSIBLE (no admissible split)
+
+  => the ONLY symmetry order that can host the full 9-slope design
+     is k=2 (four orbits of 2 plus one fixed slope with u=6).
+     k=8 gives 8 split members from ONE splitting event, i.e.
+     exactly T = rho+1 = 8 -- the strict target, ONE SLOPE SHORT of
+     the failure size rho+2 = 9, and it cannot be extended: a 9th
+     slope would drag its whole 8-orbit along (8*6 = 48 extra
+     incidences against a budget of 64-56 = 8).
+
+--- k=8 EQUIVARIANT NETS (monomial: the only invariant nets when the 8 eigenvalues are distinct) ---
+  admissible monomial exponent triples (a,b,c) with a+c=2b mod 8, min=0, max=7: [(0, 7, 6), (1, 0, 7), (6, 7, 0), (7, 0, 1)]
+  q=97: 576 k=8-equivariant nets scanned, MAX n7 = 0
+  q=193: 576 k=8-equivariant nets scanned, MAX n7 = 0
+  q=257: 676 k=8-equivariant nets scanned, MAX n7 = 0
+
+--- k=4 EQUIVARIANT NETS (eigenspaces are 2-dimensional, so the nets are NOT forced monomial) ---
+  shape: c_2 in <1,x^4>, c_1 in <x^3,x^7>, c_0 in <x^2,x^6>
+  q=97: 3000 k=4-equivariant nets, MAX n7 = 4, (L2) nullity of the best = 0
+  q=193: 3000 k=4-equivariant nets, MAX n7 = 8, (L2) nullity of the best = 0
+  q=257: 3000 k=4-equivariant nets, MAX n7 = 4, (L2) nullity of the best = 0
+
+--- (L2) the sparsity tension: realization nullity vs support size ---
+supp = number of nonzero coefficients in each of c_0,c_1,c_2
+  q=97 supp=1: realizable nets out of 80: 73
+  q=97 supp=2: realizable nets out of 80: 57
+  q=97 supp=3: realizable nets out of 80: 32
+  q=97 supp=4: realizable nets out of 80: 25
+  q=97 supp=6: realizable nets out of 80: 1
+  q=97 supp=8: realizable nets out of 80: 0
+  q=193 supp=1: realizable nets out of 80: 74
+  q=193 supp=2: realizable nets out of 80: 60
+  q=193 supp=3: realizable nets out of 80: 39
+  q=193 supp=4: realizable nets out of 80: 25
+  q=193 supp=6: realizable nets out of 80: 3
+  q=193 supp=8: realizable nets out of 80: 0
+

@@ -3016,6 +3016,11 @@ iff m <= 2; moduli excess -13, -1, +35, +95...), blind spot named;
 THE DECISIVE EXPERIMENT: settle m = 2 (reduced to 40 parameters vs
 39 rank conditions — the G2 system). e = m is the entire difficulty
 (e < m is (ERC2)-closed; the e = 1 Kummer ladder stalls at 4).
+[UPDATED (round 34): the G2 experiment RAN — fields-searched
+NEGATIVE at m = 2 (not a theorem); the posed count omits the
+automorphism quotient (dim >= 4, >= 6 generically) and the
+corrected excess at m = 2 is +3..+5; TCAP-DIM re-posed with
+boundary m <= 1. See the round-34 (SAT3) m=2 decision addendum.]
 
 **BANK 1 (rh_psi_degree) — THE 8/5 IS ONE SLOPE.** (AO1) is exactly
 the aggregate criterion "proved per-slope floor > forced mean
@@ -3236,3 +3241,158 @@ W-layer only.
   (O = 0, deficient point outside W); no random-embedding census
   was run; two fields is not q-uniformity; nothing here bears on
   (SAT3) itself.
+
+## Round-34 (SAT3) m=2 decision addendum (2026-08-11, coordinator-audited): fields-searched negative; TCAP-DIM re-posed to m <= 1; the (L2) realization gate promoted
+
+Pilot r34_m2_decision (round 34, bank 4; d1 replay byte-identical;
+the pilot also replayed round 33's m=1 exhaustive + realization
+scripts BYTE-IDENTICALLY, so the m=1 realization theorem now
+carries independent replay evidence). **A fields-searched negative
+is NOT a theorem** (q in {97,193,257}; the target stratum's
+expected codimension ~13 makes sampling powerless either way).
+
+- **THE VERDICT BY LAYER.** (L0) combinatorial: FREE — the simple
+  design is unique up to isomorphism (420 labelled, 1 class,
+  exactly K_9 - (P_3 + 3K_2)); multigraph designs abundant (capped
+  enumeration). (L1) curve-from-design: NEVER OPENED — the 62x24
+  system had rank 24 (full; need <= 23) in 400 random + 200
+  structured draws, two fields. Forward search: 480,000 nets
+  carrying three prescribed-split members reached max n7 = 4
+  against the 8 the design forces — and the cost of the 4th split
+  member (8.8e-6) matches the UNSTRUCTURED random-polynomial rate
+  (q*C(32,7)/q^7 ~ 4e-6) to a factor 2: **the net structure buys
+  nothing at m = 2**, against the 14% (10^4-fold) coherence the
+  m=1 fibre structure buys. Exact witness detector (audited): the
+  design forces >= 8 totally split members (62 endpoints on 9
+  vertices of degree <= 7), so **n7 <= 7 certifies a net hosts no
+  design** — no heuristic scoring enters.
+- **THE SYMMETRY ESCAPE HATCH, CLASSIFIED AND CLOSED:** only
+  cyclic orders k in {2,3} can host the design (slope-orbit +
+  fixed-slope root-congruence u = 0,1 mod k + domain-cardinality
+  arithmetic; coordinator-checked at k = 3,4,7) — maximum
+  concentration factor 3, so a symmetric witness still needs >= 3
+  independent ~1e-5 splitting events. **The m=1 coset mechanism is
+  structurally dead at every m >= 2:** tau = id forces pairwise
+  disjoint locator sets, i.e. d_x <= 1, i.e. T*rho <= N — which is
+  EXACTLY the banked R4 fence (63 > 32 at m = 2). Agrees with (does
+  not extend) the PROVED separated-pullback exclusion at the
+  official endpoint. The k=4 family reached n7 = 8 = rho+1 at
+  q=193 — the strict target attained at the LOCATOR layer — with
+  (L2) nullity 0: symmetry concentrates split members and
+  simultaneously sparsifies the parameter coefficients, and (L2)
+  charges for sparsity.
+- **THE (L2) GATE — the round's sharpest fact.** The syndrome
+  realization layer M(Z)Q_Z = 0 is (m+2)(4m+1) equations on
+  2R = 16m unknowns: **overdetermined by 4m^2-7m+2 = -1, +4, +17,
+  +38, ... — m = 1 is the ONLY underdetermined case** (which is
+  exactly why round 33's exhaustive m=1 scan realized all sixteen
+  families). Measured: nullity 0 on 60/60 random curves per field
+  at m=2; ZERO genuine e=m=2 objects in 2,800 structured + random
+  curves over two fields — every apparent hit is one predicted
+  degenerate family (shared domain root, weight-one error, generic
+  rank 1, s != 0 — forbidden by (SAT1); rate (49/32)/q CONFIRMED:
+  1.58%/1.43% at q=97, 0.79%/0.71% at q=193). The e=2 Kummer
+  analogue is analytically dead (leading Z-coefficient constant
+  forces y = 0; hand-checkable chain, 880 curves concur).
+  **CONSEQUENCE OF RECORD: nobody — round 33, round 34, anywhere
+  in this campaign — has ever exhibited a (SAT1)-profile pencil
+  with e = m at any m >= 2.** Its nonemptiness is now an exactly
+  stated linear-algebra question (a (4m+1) x 4m Hankel pencil,
+  minimal index exactly m, generic rank 4m-1, s = 0). By the
+  banked reduction ("e = m is the entire difficulty"), **proving
+  that stratum empty for m >= 2 closes the strict endpoint
+  outright**; exhibiting a member gives the campaign its first
+  real m >= 2 object and finally exercises F1/(NEWCAP) (third
+  round with zero power over them). This is the named
+  "Hankel/apolar coefficient chain" gate of three endpoint
+  claim-contracts, now with its exact count and sign change.
+- **TCAP-DIM RE-POSED (boundary m <= 1).** The posed count omits
+  the automorphism group acting freely (finite stabilisers — a
+  positive-dimensional stabiliser would fix 9 slopes + 32 points)
+  on every solution: orbit dim >= 4 (AGL_1 x AGL_1), >= 6
+  generically (PGL_2 x PGL_2). Corrected excess at m=2: +3..+5
+  (UNREALIZABLE-expected); both round-33 positive controls
+  preserved (m=1 stays -9..-7; the e=1 ladder stays -8m-1 < 0 for
+  every m); an independent locator-layer bookkeeping agrees in
+  verdict (-5 at m=2, +7 at m=1). STATUS: heuristic with the
+  pb_design_ceiling blind spot — the pilot's own MISS 2 (a
+  degenerate 1.4%-rate family briefly misread as refuting the
+  naive count) is a live instance inside the same report.
+- **REGRESSION-TEST PRINCIPLE, SHARPENED:** a proof of the strict
+  target T <= rho+1 must fail at m = 1 AND must fail there
+  *because* e = 1 locator sets are pairwise disjoint (the coset
+  mechanism) — any argument not turning on d_x <= e overlap is
+  fighting the wrong object.
+- **SCOPE FENCES:** the pilot WITHDREW its own P8(b) rationality
+  argument (the design constrains the union of fibres, not each
+  fibre — the hyperelliptic-invariance premise was false; C's
+  rationality is UNDECIDED); the multigraph enumeration is capped,
+  not complete; the k=8 monomial family's n7 = 0 (below random
+  rate) is unexplained; no statement about q at scale.
+
+## ROUND 34 CLOSE (2026-08-11): the four banks reconciled
+
+**BANK 1 (r34_pstar):** R-PSTAR RESOLVED YES — FG nonempty at razor
+shape (witnesses A and B), the coordinator's banked equivalence
+corrected (FG needs p* <= 2rho = R/32, factor 16); R-FG-RAZOR and
+R-KER are the far-CA residuals. **BANK 2 (r34_layer_a):** (NS-m)
+refuted-and-restated (NS-W-m) (5280/5280); Wronskian walled at the
+pre-registered 5/12; the FACTOR-DEGREE DICHOTOMY proved (Q never
+splits over F_q(x) for m >= 2; forced factor Z-degree >=
+ceil((3m+1)/4) tight); layer A orthogonal to (BIV-CURVE) 80/80.
+**BANK 3 (r34_bivcurve_m34):** (BIV-CURVE) REALIZABLE at m = 3
+(two-field witness, (SPLIT-m)+involution); W-layer fence covers
+m in {2,3}; m = 4 open (named (OV)/linear-hypergraph obstruction);
+(OUT-m) posed with coordinator corrections; boundaries diverge
+from TCAP-DIM. **BANK 4 (r34_m2_decision):** (SAT3) fields-searched
+negative at m = 2 with mechanism; TCAP-DIM re-posed to m <= 1; the
+(L2) e=m realization gate promoted to the question of record.
+
+**THE RECONCILED PICTURE.** The round pulled the frontier apart
+into a clean two-front structure:
+
+1. **The conditioning front (new, decisive if it lands):** every
+   W-layer and layer-A object this campaign built at m >= 2 is
+   (SAT3)-conditional — and bank 4 now expects the conditioning
+   stratum EMPTY at m >= 2 (corrected ledger +3..+5; zero e=m >= 2
+   objects ever exhibited; the (L2) count turns positive exactly at
+   m = 2). **(R-L2): decide e=m stratum nonemptiness at m = 2.**
+   Empty for m >= 2 => the strict endpoint closes outright and the
+   entire W-layer/layer-A program at m >= 2 becomes moot. Nonempty
+   => feed the witness to bank 4's machinery: the first real
+   m >= 2 T-measurement, and F1/(NEWCAP) finally exercised.
+2. **The instrument front (if the stratum is nonempty):** the
+   W-layer CANNOT exclude at m = 2, 3 (witness fences, banks 3 +
+   round 33); layer A is the sole instrument there (orthogonality
+   + the dichotomy, bank 2); its standing rides on Rout and on the
+   RNC multiplicative-domain gate (survivors: ONE profile at
+   m = 2, 3, 4).
+
+**OBSERVED IDENTITY (DEF-ID), mechanism unexplained:** the W-layer
+(BIV-G) deficit (conditions minus unknowns, bank 3 / round 33:
+7m^2-9m+2 - (3m^2-2m)) and the (L2) realization overdetermination
+(bank 4: (m+2)(4m+1) - 16m) are the SAME quadratic **4m^2-7m+2**,
+produced by mutually quarantined pilots counting ostensibly
+different objects (the W-restricted locator curve vs the syndrome
+coefficient chain). Both are negative only at m = 1. Candidate
+structural link between the two layers; posed as a round-35
+question, NOT claimed as a theorem.
+
+**COMPLIANCE ROUND SUMMARY:** 4/4 pilots clean under the upgraded
+compute-law clause (27 ramguard invocations, zero bare python3 —
+the clause works); one sed -i write-path deviation (bank 3)
+censured; round-35 CONSTRAINTS to name sed -i explicitly. The
+audit cadence caught and corrected banked or pilot text in all
+four banks (factor-16, (NS-m)'s two inequivalent forms, (OUT-m)'s
+aggregate rider + corollary qualifier, TCAP-DIM's missing
+quotient).
+
+**ROUND-35 ANCHORS (priority order):** (1) R-L2 — construct or
+refute an e=m=2 (SAT1)-profile pencil (the decisive question on
+the board); (2) Rout — theorem-or-sample for bank 1's <= 3
+measurement (decides (NS-W-m)'s reach); (3) layer A on the m=3
+(BIV-CURVE) witness + the m=4 decision (non-split G, sigma = c/x,
+(3,3,3); import the u1_x4 linear-hypergraph compiler); (4)
+R-FG-RAZOR — the key-equation budget at witness B's coordinates;
+(5) DEF-ID; (6) the m=5 parity falsifier; (7) q_crit on the
+official candidate.
