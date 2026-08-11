@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_ca_hankel_endpoint_forney_infinity_contact_section",
-    "title": "Strict-endpoint Forney infinity-contact section",
+    "title": "Strict A=3 Forney infinity-contact section",
     "status": "PROVED",
     "closure": "full-recurrence boundary divisibility",
-    "statement": "For every strict A=3, e=m endpoint profile, regardless of omission defect, the canonical Forney numerator is nonzero and its restriction to the reduced bidegree-(rho,m) curve vanishes to order at least 2rho+2 along the domain-infinity divisor. Removing this contact gives a nonzero section of O_C(-rho-3,m+1), of total degree m-1.",
+    "statement": "For every failing strict A=3 slope-slack profile m<=e<=floor(rho/3), the canonical Forney numerator is nonzero and its restriction to the reduced bidegree-(rho,e) curve vanishes to order at least 2rho+2 along the domain-infinity divisor. Removing this contact gives a nonzero section of O_C(-rho-3,e+1), whose total degree is exactly delta=rho-3e.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/statement.md",
       "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/proof.md",
@@ -20,10 +20,7 @@
   },
   "requires": [
     {
-      "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve"
-    },
-    {
-      "from": "rate_half_ca_hankel_endpoint_component_defect_localization"
+      "from": "rate_half_ca_hankel_strict_a3_slope_slack_ledger"
     }
   ],
   "alternatives": [],

@@ -1,6 +1,6 @@
 # Result
 
-Maximal domain-infinity contact is a universal strict-endpoint consequence
-of the full Hankel recurrence, not a peculiarity of the clean irreducible
-branch. Every defect profile carries a nonzero residual section of degree
-`m-1` in `O_C(-rho-3,m+1)`.
+Maximal domain-infinity contact is universal over the full strict `A=3`
+slope-slack range. At moving degree `e`, every failing profile carries a
+nonzero residual section of degree exactly `delta=rho-3e` in
+`O_C(-rho-3,e+1)`.

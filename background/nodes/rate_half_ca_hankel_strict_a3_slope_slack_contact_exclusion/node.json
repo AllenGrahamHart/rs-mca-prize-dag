@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion",
+    "title": "Strict A=3 slope-slack contact exclusion",
+    "status": "PROVED",
+    "closure": "general pole interpolation and three-contact vanishing",
+    "statement": "A failing strict A=3 profile with delta=rho-3e and T=4e+1-h is impossible whenever floor(delta/2)+h+2<e. A biform of degree (1,floor(delta/2)) clears the pole scheme of G/H, and three universal Forney contact sections produce a forbidden section of O_C(rho-4,-e+floor(delta/2)+h+2). On the official m=2^37 row this excludes every strict profile except e=floor(rho/3), delta=1, h=e-2, T=rho+2.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_forney_infinity_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_strict_a3_slope_slack_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

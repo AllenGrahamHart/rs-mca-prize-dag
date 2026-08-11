@@ -1488,3 +1488,44 @@ nodes are `rate_half_ca_hankel_endpoint_forney_infinity_contact_section` and
 The first strict `A=3`, `e=m` endpoint is closed. The live strict frontier
 now starts at `e>m`, alongside the residual `A=1` profiles and the independent
 adjacent-unsafe obligation. The critical node itself remains open.
+
+## Cycle 72: strict `A=3` single-corner reduction (2026-08-11, Codex)
+
+The Forney contact section extends to every strict moving degree:
+
+```text
+s_F in H^0(C,O_C(-rho-3,e+1)),
+deg L_F=delta=rho-3e.
+```
+
+For `T=4e+1-h`, a biform of degree
+`(1,floor(delta/2))` clears the full pole scheme of `G/H`, whose length is at
+most `O<=delta`. Three contact copies then give a nonzero section of
+
+```text
+O_C(rho-4,-e+floor(delta/2)+h+2).
+```
+
+Surface cohomology makes this impossible whenever
+
+```text
+floor(delta/2)+h+2<e.
+```
+
+The official integer range has exactly one exception:
+
+```text
+e=floor(rho/3)=(4m-2)/3,
+delta=1,
+h=e-2,
+T=rho+2=4m+1.
+```
+
+Thus all strict `A=3` profiles except this minimal-violation corner are now
+excluded; the survivor has `O<=1` and total rank loss at most one. The proved
+node is `rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion`, using
+the generalized
+`rate_half_ca_hankel_endpoint_forney_infinity_contact_section`.
+
+The critical node remains open only through this strict corner, the residual
+`A=1` profiles, and the independent crossing/unsafe obligations.

@@ -2,97 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 11,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/verify.py",
-      "seconds": 0.076242,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_COMPONENT_DEFECT_PASS profiles=209439 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/verify.py",
-      "seconds": 0.041902,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_DOMINANT_RANK_AMPLIFICATION_PASS official_m=137438953472 worst_residual=34359738367\n"
-    },
-    {
-      "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify.py",
-      "seconds": 0.011965,
+      "seconds": 0.013459,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_PASS profiles=95 official_m=137438953472 official_rho=549755813887\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_PASS profiles=1552 official_m=137438953472 official_e=183251937962 official_rho=549755813887 official_delta=1\n"
     },
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify_audit.py",
-      "seconds": 0.015019,
+      "seconds": 0.013236,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_AUDIT_PASS fixture=F17_m1 parameters=17 contact_order=8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/verify.py",
-      "seconds": 0.037903,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_NORM_FACTORIZATION_PASS profiles=1274 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/verify.py",
-      "seconds": 0.04062,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_COMPONENT_PROFILE_PASS profiles=5119 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/verify.py",
-      "seconds": 0.076124,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RATIONAL_NORMAL_KERNEL_CURVE_PASS small_indices=128 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify.py",
-      "seconds": 0.012336,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RESIDUAL_POLE_INTERPOLATION_EXCLUSION_PASS profiles=62 official_m=137438953472 official_rho=549755813887 official_ell=68719476735\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify_audit.py",
-      "seconds": 0.966056,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RESIDUAL_POLE_INTERPOLATION_EXCLUSION_AUDIT_PASS local_profiles=531432 mutation=detected\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/verify.py",
-      "seconds": 0.036131,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_SATURATION_RIGIDITY_PASS profiles=765 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/verify.py",
-      "seconds": 0.054521,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_SEPARATED_PULLBACK_PASS degrees=34952 official_m=137438953472\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
