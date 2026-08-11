@@ -1,0 +1,19 @@
+==============================================================================
+D3b -- the c_x SHADOW OF LAYER A (third builder)
+==============================================================================
+
+[m=1] the 16 realized (SAT3) witnesses, q=17, N=16, rho=3
+      unknowns 17, conditions 24  ->  NULLITY 1   (16/16 witnesses)
+      predicted: nullity >= 1 (a genuine pencil exists)  -> PASS
+
+[m=2] bank 2's W-layer exhibit (the object layer A kills)
+      q= 97  d_x profile {1: 1, 2: 31} ; unknowns 34, conditions 72  ->  NULLITY 0
+      q=193  d_x profile {1: 1, 2: 31} ; unknowns 34, conditions 72  ->  NULLITY 0
+      bank 2's c_gamma form gives NULLITY 0 on the same object; the
+      two shadows AGREE.
+
+[CTRL] positive control: build A_x FROM a random bidegree-(rho,m) Q
+       (so a solution exists by construction); nullity must be >= 1.
+       q= 97  controls with a totally split fibre at every x: 0 ; nullity >= 1 in 0/0   INCONCLUSIVE
+       q=193  controls with a totally split fibre at every x: 0 ; nullity >= 1 in 0/0   INCONCLUSIVE
+

@@ -5419,3 +5419,27 @@ breaches — the clause works. The dimension-count trap self-caught
 by the pre-registered guard (7th consecutive round of the guard
 pattern earning its keep). Files:
 notes/pilots_20260811/r34_pstar/.**
+
+## ROUND 34 BANK 2/4 — r34_layer_a (2026-08-11, coordinator)
+
+**BANKED — (NS-m) REFUTED-AND-RESTATED + A PROVED THEOREM. The
+round-33 regression test fired as designed: (NS-m) as stated FALSE
+at m=1 (exhaustive on the 16 realized pencils; the two stated
+forms shown INEQUIVALENT; reach limited — the counterexample
+stratum is banked-empty for m >= 2). RESTATEMENT OF RECORD
+(NS-W-m) (roots IN W, hypothesis d >= m): survives 5280/5280,
+still implies closure, free at the argmax. Rout is now THE
+deciding question (bank-1's 648/648 sample: theorem or not).
+WRONSKIAN WALLED (totally split = reduced = unramified; the
+5/12 pre-registered and hit exactly). THE FACTOR-DEGREE DICHOTOMY
+PROVED (coordinator hand-verified + 0 violations m=1..40): the
+kernel biform NEVER splits over F_q(x) for m >= 2; forced
+irreducible Z-degree >= ceil((3m+1)/4) tight; Q irreducible at
+m=2,3,4; m=1 exactly on the boundary. Layer A and (BIV-CURVE)
+ORTHOGONAL (80/80 kills at full span rank). Layer-A controls
+strong-form pass (nullity exactly 1, predicted kernel recovered,
+16/16; three builders 320/320). The pilot's RNC near-claim
+self-caught (the span reading is the PROVED
+rational_normal_kernel_curve node). 7/7 ramguard, zero breaches —
+second clean pilot under the upgraded law. Addendum applied.
+Files: notes/pilots_20260811/r34_layer_a/.**

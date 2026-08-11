@@ -3085,3 +3085,63 @@ A/(NS-m) (with the m = 1 regression test mandatory) + the G2 m = 2
 decision; the far-CA frontier = R-KER + R-PSTAR (+ the FG key
 equation as its coordinates); the located crossing itself. No
 status flips; census unchanged 231 = 167/37/27.
+
+## Round-34 layer-A addendum (2026-08-11, coordinator-audited): (NS-m) refuted-and-restated; the factor-degree dichotomy PROVED
+
+The r34_layer_a pilot (REPORT + FABLE_AUDIT in
+notes/pilots_20260811/r34_layer_a/; coordinator replays: the m=1
+exhaustive tables identical, the theorem's combinatorial core 0
+violations over m = 1..40, the dichotomy algebra hand-verified):
+
+- **(NS-m) AS STATED IS FALSE** — refuted exhaustively at m=1 on
+  the 16 realized (SAT3) pencils (the round-33 regression test
+  doing its job): at the realized a* = 6 the degree budget d = 0
+  makes every h_gamma a nonzero constant (0/480 both stated forms);
+  at the planted a = 7 the F_q-root-count form fails 4800/5280.
+  The two stated forms (root count vs irreducible-factor gloss) are
+  INEQUIVALENT (they agree only when deg h = d). Reach of the
+  refutation LIMITED and declared: the m=1 counterexamples live in
+  the a = 2rho stratum banked empty for m >= 2, and the m=1 killing
+  mechanism (deg_Z G = m-1 = 0) has no m >= 2 analogue.
+- **THE RESTATEMENT OF RECORD — (NS-W-m):** for every type-2 slope,
+  under d = a-(4m+2) >= m: h_gamma has at most d-m roots IN W
+  (with multiplicity). Still implies closure (X <= roots-in-W);
+  strictly weaker than (NS-m); SURVIVES the regression 5280/5280;
+  the d >= m hypothesis is free at the argmax for every m >= 2.
+  (NS-m) is retired to a corollary of (NS-W-m) + a bound on Rout —
+  and Rout is now THE deciding question (bank-1's measured
+  Rout <= 3 in 648/648: theorem or sample? cheap and decisive).
+  Bank-1's falsifier F4: FIRED in the F_q reading at m=1 (4800
+  instances), NOT fired in the W reading — the readings disagree.
+- **THE WRONSKIAN INSTRUMENT IS WALLED, with the number:** a totally
+  split fibre is reduced hence unramified — the rigidity spends
+  NOTHING of either Pluecker budget (W-picture budget/demand ->
+  5/12 exactly as pre-registered; A-picture slack ~3m).
+  Ramification measures multiplicity; (NS-*) measures rationality;
+  independent.
+- **THE ROUND'S PROVED THEOREM (FACTOR-DEGREE DICHOTOMY):** in the
+  layer-A variables, deg_x additivity + fibre disjointness force
+  T*rho - O <= sum_j min(T*d_j, N*m_j) with sum_j d_j <= rho over
+  the F_q(x)-irreducible factorisation of the kernel biform Q.
+  Consequences (0 violations, every partition profile, m = 1..40):
+  exactly ONE "small" factor; **Q cannot split into linear factors
+  over F_q(x) for any m >= 2** (the m slope branches are never all
+  rational functions of x); the surviving profiles carry an
+  irreducible factor of Z-degree >= ceil((3m+1)/4) (EXACTLY
+  attained); at m = 2,3,4 Q is IRREDUCIBLE over F_q(x); m=1 sits
+  on the boundary realized (one branch, T*delta = 15 = N-1).
+  Hypotheses all banked (the PROVED RNC node + the saturation
+  rigidity's nonvanishing line). The (3m+1)/4 is the truth of the
+  counting system; realizability of survivors untested.
+- **STRUCTURE:** layer A and (BIV-CURVE) are ORTHOGONAL — 80/80
+  fibre-constructor candidates killed at full span rank 8 (the
+  W-layer's structured solutions land maximally far from layer A);
+  the layer-A controls pass in the strong form (nullity exactly 1
+  with the predicted kernel vector, 16/16; three builders agree
+  320/320). The pilot's near-claim of the PROVED RNC node was
+  caught by its own CATCH-24A (the "span <= m+1" reading IS
+  rate_half_ca_hankel_endpoint_rational_normal_kernel_curve).
+- **NEXT INSTRUMENTS OF RECORD:** (1) push the dichotomy into the
+  RNC node's own named gate (the multiplicative-domain structure of
+  D = mu_N — untouched by the cardinality-only count; survivors are
+  few: 1 profile at m = 2,3,4); (2) decide Rout. No status flips.
