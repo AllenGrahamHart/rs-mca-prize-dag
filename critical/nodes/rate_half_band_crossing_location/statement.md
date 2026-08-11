@@ -1529,3 +1529,41 @@ the generalized
 
 The critical node remains open only through this strict corner, the residual
 `A=1` profiles, and the independent crossing/unsafe obligations.
+
+## Cycle 73: final strict-corner Picard pin (2026-08-11, Codex)
+
+The sole corner is now integral. If `d<=1` is the actual pole length of the
+grid ratio `G/H`, a form of bidegree `(d,0)` clears it. Three contact sections
+then descend through
+
+```text
+H^0(C,O_C(rho-5+d,0))=H^0(P^1_X,O(rho-5+d))
+```
+
+to the exact identity
+
+```text
+s_F^3(FG/H)=A_d(X).
+```
+
+Because an `X`-only polynomial cannot vanish on a mixed component, `s_F` is
+nonzero on every component. Writing a component bidegree as `(r_i,e_i)` and
+`a_i=4e_i-r_i`, its contact degree is
+
+```text
+l_i=e e_i-(e+1)a_i>=0,       sum_i l_i=1.
+```
+
+Coprimality makes `l_i=0` impossible, so there is exactly one component.
+Thus `C` is absolutely irreducible and
+
+```text
+O_C(-rho-3,e+1)=O_C(P_*)
+```
+
+for one effective degree-one Cartier point. The proved node is
+`rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin`.
+
+The live strict theorem is now only incompatibility of this point and the
+univariate identity with the supported-grid divisor, separately for
+`d=0,1`. The critical node remains open.

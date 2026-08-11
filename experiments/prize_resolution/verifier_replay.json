@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify.py",
-      "seconds": 0.013459,
+      "script": "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin/verify.py",
+      "seconds": 0.025764,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_PASS profiles=1552 official_m=137438953472 official_e=183251937962 official_rho=549755813887 official_delta=1\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_STRICT_A3_FINAL_CORNER_INTEGRAL_PICARD_PIN_PASS profiles=317 official_e=183251937962 official_rho=549755813887\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify_audit.py",
-      "seconds": 0.013236,
+      "script": "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin/verify_audit.py",
+      "seconds": 0.04743,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_AUDIT_PASS fixture=F17_m1 parameters=17 contact_order=8\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_STRICT_A3_FINAL_CORNER_INTEGRAL_PICARD_PIN_AUDIT_PASS component_profiles=166649 mutation=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
