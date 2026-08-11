@@ -1447,3 +1447,44 @@ The live strict endpoint is now confined to positive omission defect
 `1<=O<=m-1`; the `O=0` branch needs no further casework. The critical node
 remains open because those defect strata and the adjacent unsafe witness are
 not yet closed.
+
+## Cycle 71: full first strict endpoint close (2026-08-11, Codex)
+
+The contact argument now closes every `e=m` omission-defect stratum. The
+full Hankel recurrence gives, without a clean or irreducibility assumption,
+a nonzero residual section
+
+```text
+s_F in H^0(C,O_C(-rho-3,m+1)).
+```
+
+For the grid ratio `G(X)/H(z)`, the pole-cancellation ideal `J=(H:G)` has
+
+```text
+length(O_C/J)<=sum_(gamma in Z)(rho-u_gamma)=O<=m-1.
+```
+
+On the official even row, `ell=m/2-1` and
+`h^0(O(1,ell))=m`. A nonzero biform `F` of degree `(1,ell)` therefore clears
+the entire pole scheme and gives a regular section
+
+```text
+s_G=FG/H in H^0(C,O_C(N+1,ell-T)).
+```
+
+Every component has domain degree at least four, so `s_G` is nonzero on
+every component. Since `C` is reduced, `s_F^4s_G` is a nonzero section of
+
+```text
+O_C(-7,ell+3).
+```
+
+The Cartier restriction sequence and Kunneth give zero sections because
+`ell+3-m=2-m/2<0`. This contradiction excludes all
+`0<=O<=m-1`, including every reducible positive-defect pattern. The proved
+nodes are `rate_half_ca_hankel_endpoint_forney_infinity_contact_section` and
+`rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion`.
+
+The first strict `A=3`, `e=m` endpoint is closed. The live strict frontier
+now starts at `e>m`, alongside the residual `A=1` profiles and the independent
+adjacent-unsafe obligation. The critical node itself remains open.

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_forney_infinity_contact_section",
+    "title": "Strict-endpoint Forney infinity-contact section",
+    "status": "PROVED",
+    "closure": "full-recurrence boundary divisibility",
+    "statement": "For every strict A=3, e=m endpoint profile, regardless of omission defect, the canonical Forney numerator is nonzero and its restriction to the reduced bidegree-(rho,m) curve vanishes to order at least 2rho+2 along the domain-infinity divisor. Removing this contact gives a nonzero section of O_C(-rho-3,m+1), of total degree m-1.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/audit.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/result.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/provenance.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve"
+    },
+    {
+      "from": "rate_half_ca_hankel_endpoint_component_defect_localization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

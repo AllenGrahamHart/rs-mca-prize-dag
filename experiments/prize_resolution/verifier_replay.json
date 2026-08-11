@@ -2,249 +2,97 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 30,
+    "PASS": 11,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/verify.py",
-      "seconds": 0.014358,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_component_defect_localization/verify.py",
+      "seconds": 0.076242,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FORNEY_RESULTANT_REGULAR_FACTOR_PASS profiles=74 official_m=137438953472\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_COMPONENT_DEFECT_PASS profiles=209439 official_m=137438953472\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/verify_audit.py",
-      "seconds": 0.013134,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_dominant_rank_amplification/verify.py",
+      "seconds": 0.041902,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FORNEY_RESULTANT_REGULAR_FACTOR_AUDIT_PASS fixture=F17_m1 parameters=17 resultant=12\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_DOMINANT_RANK_AMPLIFICATION_PASS official_m=137438953472 worst_residual=34359738367\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify.py",
-      "seconds": 0.114469,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify.py",
+      "seconds": 0.011965,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FOUR_HANKEL_BIISOTROPIC_FRAME_PASS pairings=2004 scales=9\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_PASS profiles=95 official_m=137438953472 official_rho=549755813887\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame/verify_audit.py",
-      "seconds": 0.012752,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify_audit.py",
+      "seconds": 0.015019,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_FOUR_HANKEL_BIISOTROPIC_FRAME_AUDIT_PASS witness=F17_m1 pairings=16\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_FORNEY_INFINITY_CONTACT_SECTION_AUDIT_PASS fixture=F17_m1 parameters=17 contact_order=8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify.py",
-      "seconds": 0.012438,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_norm_factorization/verify.py",
+      "seconds": 0.037903,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_IRREDUCIBLE_NORM_COROLLARY_PASS scales=5 official_m=137438953472\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_NORM_FACTORIZATION_PASS profiles=1274 official_m=137438953472\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary/verify_audit.py",
-      "seconds": 0.01948,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_rational_branch_exclusion/verify.py",
+      "seconds": 0.04062,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_IRREDUCIBLE_NORM_COROLLARY_AUDIT_PASS m_range=2..12 profiles=24575\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_COMPONENT_PROFILE_PASS profiles=5119 official_m=137438953472\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify.py",
-      "seconds": 0.019235,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_rational_normal_kernel_curve/verify.py",
+      "seconds": 0.076124,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_LINEAR_UNIT_RESULTANT_GATE_PASS sylvester_instances=63 mutations=63/63\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RATIONAL_NORMAL_KERNEL_CURVE_PASS small_indices=128 official_m=137438953472\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate/verify_audit.py",
-      "seconds": 0.013218,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify.py",
+      "seconds": 0.012336,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_LINEAR_UNIT_RESULTANT_GATE_AUDIT_PASS closed_form_instances=108 mutations=108/108\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RESIDUAL_POLE_INTERPOLATION_EXCLUSION_PASS profiles=62 official_m=137438953472 official_rho=549755813887 official_ell=68719476735\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/verify.py",
-      "seconds": 0.011698,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify_audit.py",
+      "seconds": 0.966056,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_MARKED_ADJUGATE_SUBSET_LEDGER_PASS profiles=74 cofactor_profiles=366505219568 official_m=137438953472\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_RESIDUAL_POLE_INTERPOLATION_EXCLUSION_AUDIT_PASS local_profiles=531432 mutation=detected\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger/verify_audit.py",
-      "seconds": 0.015855,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_saturation_rigidity/verify.py",
+      "seconds": 0.036131,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_MARKED_ADJUGATE_SUBSET_LEDGER_AUDIT_PASS cofactors=16 subsets=20 fixture=F17_m1_infinity\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_SATURATION_RIGIDITY_PASS profiles=765 official_m=137438953472\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/verify.py",
-      "seconds": 0.054868,
+      "script": "background/nodes/rate_half_ca_hankel_endpoint_separated_pullback_exclusion/verify.py",
+      "seconds": 0.054521,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_MARKED_ROW_SPLIT_VERONESE_DEPENDENCY_PASS profiles=30 moment_checks=4140\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency/verify_audit.py",
-      "seconds": 0.013529,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_MARKED_ROW_SPLIT_VERONESE_DEPENDENCY_AUDIT_PASS mutations=189/189\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/verify.py",
-      "seconds": 0.012237,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_FORNEY_CONTACT_EXCLUSION_PASS profiles=77 official_m=137438953472 official_rho=549755813887\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion/verify_audit.py",
-      "seconds": 0.011288,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_FORNEY_CONTACT_EXCLUSION_AUDIT_PASS fixture=F17_m1 parameters=17 contact_order=8\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify.py",
-      "seconds": 0.012034,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_KERNEL_ELEMENTARY_MODIFICATION_DICHOTOMY_PASS scales=6 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy/verify_audit.py",
-      "seconds": 0.013275,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_KERNEL_ELEMENTARY_MODIFICATION_DICHOTOMY_AUDIT_PASS profiles=126 mutations=63/63\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify.py",
-      "seconds": 0.012832,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_MULTIPLICATION_INJECTIVITY_REDUCTION_PASS scales=6 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify_audit.py",
-      "seconds": 0.0126,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_MULTIPLICATION_INJECTIVITY_REDUCTION_AUDIT_PASS splittings=63\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/verify.py",
-      "seconds": 0.017549,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_RESIDUAL_EVALUATION_DIRECTION_PASS profiles=62 pairings=992 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/verify_audit.py",
-      "seconds": 0.023494,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_RESIDUAL_EVALUATION_DIRECTION_AUDIT_PASS ramified_cases=230 socle_checks=4850\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/verify.py",
-      "seconds": 0.021525,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_TWO_PROJECTION_SOCLE_FRAME_PASS profiles=72 evaluations=337219 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/verify_audit.py",
-      "seconds": 0.013003,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_PICARD_TWO_PROJECTION_SOCLE_FRAME_AUDIT_PASS mutations=217/217\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify.py",
-      "seconds": 0.012403,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RATIONAL_ELEMENTARY_BRANCH_EXCLUSION_PASS scales=6 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify_audit.py",
-      "seconds": 0.013438,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RATIONAL_ELEMENTARY_BRANCH_EXCLUSION_AUDIT_PASS m_gt_1=127 m1_boundary=0\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify.py",
-      "seconds": 0.012006,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RESULTANT_BOUNDARY_SATURATION_PASS profiles=18 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify_audit.py",
-      "seconds": 0.012741,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_RESULTANT_BOUNDARY_SATURATION_AUDIT_PASS bezout_instances=36 mutations=31/31\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify.py",
-      "seconds": 0.012069,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_AXIS_RESULTANT_PICARD_PIN_PASS profiles=18 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify_audit.py",
-      "seconds": 0.011535,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_AXIS_RESULTANT_PICARD_PIN_AUDIT_PASS divisor_profiles=2016\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify.py",
-      "seconds": 0.013126,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_SIDED_COMPLEMENT_WELD_PASS scales=6 official_m=137438953472\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld/verify_audit.py",
-      "seconds": 0.013265,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_CLEAN_ENDPOINT_TWO_SIDED_COMPLEMENT_WELD_AUDIT_PASS scalar_instances=192\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_ENDPOINT_SEPARATED_PULLBACK_PASS degrees=34952 official_m=137438953472\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
