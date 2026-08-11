@@ -2318,3 +2318,36 @@ SQUAREFREE: two heavy simple roots.
 This holds for every official integer `4<=u<=36650387592`. It routes but
 does not exclude either branch. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router`.
+
+## Cycle 100: retained double-root branches are exact global cube problems (2026-08-11, Codex)
+
+For any parameter-constant scalar residual with multiplicities at most
+three, let `J=rad(R_a)`. The cancelled ambient identity gives, in the total
+quotient ring of `C`,
+
+```text
+(J/s_F)^3=(J^3/R_a)(G_L/H).
+```
+
+The two retained double-root branches therefore satisfy
+
+```text
+core-free cubic:
+ ((X-x_s)(X-x_d)/s_F)^3
+  =(X-x_s)^2(X-x_d)G_L/H;
+
+core-one quadratic:
+ ((X-x_d)/s_F)^3=(X-x_d)G_L/H.
+```
+
+Their bounded Picard sections are exactly these cube roots: `O_C(A)` in the
+no-ordinary cubic packets and `O_C(B)` in the quadratic double packet. The
+ordinary cubic root instead has divisor `A+B-R_0` and its predicted pole.
+
+Thus section uniqueness is compatible with the scalar ambient equation.
+Closing either double-root branch now requires a Hankel/apolar theorem that
+the printed separated locator ratio is not a cube. The strict `A=3`
+separated-pullback theorem does not apply to this mixed rational cube root,
+and characteristic three must be treated separately in any Kummer-cover
+argument. The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge`.

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+    "title": "A=1 first-degree double-root radical cube bridge",
+    "status": "PROVED",
+    "closure": "exact function-field cube identity for retained scalar branches",
+    "statement": "Dividing the cancelled scalar ambient identity by the radical of its residual gives W^3=(rad(R_a)^3/R_a)G_L/H in the total quotient ring. Thus the retained core-free cubic double-root and core-one quadratic double-root branches are exact cube problems, and their bounded Picard sections are precisely the canonical cube roots. A closing theorem must use the Hankel/apolar realization to prove the relevant locator ratio is not a cube.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

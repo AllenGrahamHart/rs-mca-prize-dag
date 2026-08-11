@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 degree below 183251937963 are excluded. The remaining positive-slack A=1 core-free and core-one ranges share that first degree. At the first degree there are exactly six core/slack profiles, with T in {rho+2,rho+3,rho+4}. Scheme-theoretic Forney pole absorption and direct three-contact vanishing produce unique ambient biforms of parameter degree j=0,1,2. Exact capacity forces residual bidegrees at most (5,0),(12,1),(18,2) for core zero and (2,0),(9,1),(15,2) for core one. In the parameter-constant cases, heavy supported incidences are charged to the excess recurrence budget. The core-free residual degree two is excluded by full-omission overlap and the local cube congruence, leaving degrees 3..5. In the low-gap cubic range, the residual is squarefree with three heavy roots or double-plus-simple with both roots heavy. At gap u=1 the double-plus-simple branch has exactly four packets: three have O_C(rho+3,-e-1)=O_C(A) with one section, and the ordinary packet has O_C(A+B-R_0) with no section. The squarefree branch has exactly one corrected root row in each of three global charge regimes; its complete vertical/contact normal forms instead yield a degree-(e+1) Picard class, so bounded-degree section vanishing does not apply. The core-one residual degree is 1 or 2; its degree-one case is classified into six bounded packets with row, adjugate, and Forney tails of degrees at most 6, 4, and 7. The three packets without ordinary incidences are effective vertical degree-two classes with only their canonical sections. The three signed packets have exact classes A+2B-R_0, A+2B-R_0, and 2B-R_0, with positive and negative divisor degrees at most three and two and with no unallocated rank-loss or contact degree. The core-one quadratic starts at u=4. At that gap its heavy-double arm has deficit six and a canonical effective degree-two class, while its two-heavy-simple arm has forced deficits (e+3)/2,(e+9)/2 and a degree-(e+2) class. Uniformly for 5u<e, the quadratic has either one heavy double root or two heavy simple roots. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
-   "attack_surface": "Use the degree-at-most-(6,4,7) tails to attack the three no-ordinary core-one packets now confined to unique-canonical-section vertical classes, and exploit the exact A+2B-R_0 and 2B-R_0 normal forms in the three signed packets. In the core-free cubic branch, attack the four classified u=1 double-root packets through a constraint beyond section uniqueness: their canonical sections are the reduced-root quotients and are compatible with the ambient identity. For the squarefree u=1 branch, use the unique corrected row and exact local divisors, but do not expect bounded-degree Picard vanishing because its natural class has degree e+1. Extend these correction ledgers to u>=2. For the core-one scalar quadratic, attack the classified u=4 double-root class through a constraint beyond its canonical section, retain the forced split-root arm, and extend to u>=5. Then continue with scalar residual degrees 4,5 before the linear and quadratic residual biforms (12,1),(18,2),(9,1),(15,2). Preserve the split heavy-row factor, local cube valuation, and rowwise excess-recurrence charge. Bare multiplication-map injectivity is not available. Do not identify the changed pole divisor after heavy-factor cancellation with the original pole divisor. Do not continue any excluded PENCIL branch, core-free degree-two packets, or cubic-residual corner at e=floor(16m/13). Then extend the mechanism to higher e. Core two, every sharp-cap profile, and all lower degrees are closed. Seek a stronger contact product only with a proved restriction-sequence or divisor gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the historical reciprocal corrected-square classifier, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile, every A=1 fixed-core-two profile, and every A=1 degree below 183251937963 are excluded. The remaining positive-slack A=1 core-free and core-one ranges share that first degree. At the first degree there are exactly six core/slack profiles, with T in {rho+2,rho+3,rho+4}. Scheme-theoretic Forney pole absorption and direct three-contact vanishing produce unique ambient biforms of parameter degree j=0,1,2. Exact capacity forces residual bidegrees at most (5,0),(12,1),(18,2) for core zero and (2,0),(9,1),(15,2) for core one. In the parameter-constant cases, heavy supported incidences are charged to the excess recurrence budget. The core-free residual degree two is excluded by full-omission overlap and the local cube congruence, leaving degrees 3..5. In the low-gap cubic range, the residual is squarefree with three heavy roots or double-plus-simple with both roots heavy. At gap u=1 the double-plus-simple branch has exactly four packets: three have O_C(rho+3,-e-1)=O_C(A) with one section, and the ordinary packet has O_C(A+B-R_0) with no section. The squarefree branch has exactly one corrected root row in each of three global charge regimes; its complete vertical/contact normal forms instead yield a degree-(e+1) Picard class, so bounded-degree section vanishing does not apply. The core-one residual degree is 1 or 2; its degree-one case is classified into six bounded packets with row, adjugate, and Forney tails of degrees at most 6, 4, and 7. The three packets without ordinary incidences are effective vertical degree-two classes with only their canonical sections. The three signed packets have exact classes A+2B-R_0, A+2B-R_0, and 2B-R_0, with positive and negative divisor degrees at most three and two and with no unallocated rank-loss or contact degree. The core-one quadratic starts at u=4. At that gap its heavy-double arm has deficit six and a canonical effective degree-two class, while its two-heavy-simple arm has forced deficits (e+3)/2,(e+9)/2 and a degree-(e+2) class. Uniformly for 5u<e, the quadratic has either one heavy double root or two heavy simple roots. Radical division turns both retained scalar double-root arms into exact function-field cube identities; their canonical Picard sections are the cube roots, so closure requires a Hankel/apolar non-cube theorem. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
+   "attack_surface": "Use the degree-at-most-(6,4,7) tails to attack the three no-ordinary core-one packets now confined to unique-canonical-section vertical classes, and exploit the exact A+2B-R_0 and 2B-R_0 normal forms in the three signed packets. In the scalar double-root branches, use the radical cube bridge to seek a Hankel/apolar non-cube theorem; section uniqueness is already accounted for by the canonical cube roots. Do not import the strict-endpoint separated-pullback theorem, and split characteristic three before any etale Kummer argument. For the squarefree cubic u=1 branch, use the unique corrected row and exact local divisors, but do not expect bounded-degree Picard vanishing because its natural class has degree e+1. Extend these correction ledgers to u>=2. For the core-one scalar quadratic, retain both low-gap root patterns supplied by the uniform first-fifth router and extend their exact ledgers beyond u=4. Then continue with scalar residual degrees 4,5 before the linear and quadratic residual biforms (12,1),(18,2),(9,1),(15,2). Preserve the split heavy-row factor, local cube valuation, and rowwise excess-recurrence charge. Bare multiplication-map injectivity is not available. Do not identify the changed pole divisor after heavy-factor cancellation with the original pole divisor. Do not continue any excluded PENCIL branch, core-free degree-two packets, or cubic-residual corner at e=floor(16m/13). Then extend the mechanism to higher e. Core two, every sharp-cap profile, and all lower degrees are closed. Seek a stronger contact product only with a proved restriction-sequence or divisor gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the historical reciprocal corrected-square classifier, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29040,6 +29040,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -31072,6 +31073,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+   "title": "A=1 first-degree double-root radical cube bridge",
+   "status": "PROVED",
+   "closure": "exact function-field cube identity for retained scalar branches",
+   "statement": "Dividing the cancelled scalar ambient identity by the radical of its residual gives W^3=(rad(R_a)^3/R_a)G_L/H in the total quotient ring. Thus the retained core-free cubic double-root and core-one quadratic double-root branches are exact cube problems, and their bounded Picard sections are precisely the canonical cube roots. A closing theorem must use the Hankel/apolar realization to prove the relevant locator ratio is not a cube.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/verify_audit.py"
    ]
   },
   {
@@ -64365,6 +64384,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_bounded_residual_table",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -64455,6 +64479,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -64515,6 +64544,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -64568,6 +64602,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
