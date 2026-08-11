@@ -19,7 +19,10 @@ Restrict the Pade syzygy to `Q=0`:
 -Lambda G=L_U0 P_F.                                (2)
 ```
 
-The heavy row is external to `U_0`, so `L_U0(x_*)` is a unit at `b`.
+The heavy row is external to `U_0`, so `L_U0(x_*)` is a unit at `b`. More
+explicitly, the nonempty form `g_*` cuts out slopes where `x_*` is a
+padded-heavy root, and the paired fiber theorem puts every padding root
+outside `U_0`.
 Moreover, a correction root is disjoint from `g_*`, and the three center
 factors in `Lambda` are simple. Therefore `(1),(2)` give
 
