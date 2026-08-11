@@ -1846,3 +1846,34 @@ The proved nodes are
 `rate_half_ca_hankel_a1_first_degree_bounded_residual_table`. The next proof
 should classify these six small residual biforms, starting with the two
 parameter-constant cases.
+
+## Cycle 83: constant residual heavy-incidence pin (2026-08-11, Codex)
+
+For `j=0`, cancel the split heavy-row factor from both the ambient identity
+and residual domain locator. At every supported incidence on a removed row,
+regularity forces the Forney numerator to vanish. In the fibre factorization
+
+```text
+Qbar_gamma=Q_min R_gamma,       N_F=R_gamma N_min,
+```
+
+such an incidence belongs to the excess factor `R_gamma`. Therefore the
+total heavy incidence count `I_H` satisfies `I_H<=sum c_gamma<=Delta`.
+
+The remaining `3rho+3+a` rows are saturated. Exact incidence balance gives
+
+```text
+s=0: I_H+O=(6-a)e-3,       Delta=2e-1;
+s=1: I_H+O=(3-a)e-6,       Delta=e-2.
+```
+
+Together with the bounded residual table, this leaves
+
+```text
+s=0,j=0: a in {2,3,4,5};
+s=1,j=0: a in {1,2}.
+```
+
+At `s=0,a=2`, the two gaps from `I_H,O<=Delta` total one; at `s=1,a=1`
+they total two. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin`.

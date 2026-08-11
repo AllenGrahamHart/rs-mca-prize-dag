@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify.py",
-      "seconds": 0.015264,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify.py",
+      "seconds": 0.01664,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_AMBIENT_DEFECT_PASS profiles=6 e=183251937963\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_CONSTANT_HEAVY_PIN_PASS e=183251937963 allowed={0: (2, 3, 4, 5), 1: (1, 2)}\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify_audit.py",
-      "seconds": 0.013387,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify_audit.py",
+      "seconds": 0.013628,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_AMBIENT_DEFECT_AUDIT_PASS cases=4 e=183251937963\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify.py",
-      "seconds": 0.013944,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_BOUNDED_RESIDUAL_PASS e=183251937963 table={0: (5, 12, 18), 1: (2, 9, 15)}\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify_audit.py",
-      "seconds": 0.013335,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_BOUNDED_RESIDUAL_AUDIT_PASS core0=(5, 12, 18) core1=(2, 9, 15)\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_CONSTANT_HEAVY_PIN_AUDIT_PASS rows=[(0, 2, 733007751849, 1), (1, 1, 366503875920, 2)]\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
