@@ -5243,3 +5243,21 @@ coordinator missed it; recovered verbatim and committed in the
 repair preceding this merge. PROCESS RULE: verify the recovery
 script's WROTE line explicitly on every persist.** Codex tracks
 upstream at fde7d56d0 (main has moved past 93fba1be).
+
+## EXPORT — PR #1162: the band-razor bracket packet (2026-08-11, user-approved)
+
+**SHIPPED: https://github.com/przchojecki/rs-mca/pull/1162 — the band
+lane's FIRST upstream entry.** Five certificate packets (sha256-pinned
+to campaign 4e77e95b3acf, upstream layout, agents-log entry): the
+Haboeck import + the razor staircase (a_94 = 1,563,215,236,073 on
+every razor row; 86.1e9-step gain; the m(q) ladder from
+log2 q >= 232.650530) + the CA/MCA scope fence + the FR incidence
+fence with its round-32 canonical complement + LB1 (the far-CA
+floor, tightness, budget 2^39 dead at 3n/4). Readiness gate: the
+round-32 adversarial certification + the source-audit chain.
+Deliberately held: the SAT3-conditional type-2 ledger, the e-axis
+widening. Export record + pins:
+notes/exports_20260811/band_razor_bracket_export/. Upstream context
+at ship time: Codex's #1161 (Lane-T rho+3) + #1156 (E-routing) open;
+Scott's #1157-#1160 converging on the K3 carrier bridge + the MCA
+near-rational repair; nothing merged upstream since early July.
