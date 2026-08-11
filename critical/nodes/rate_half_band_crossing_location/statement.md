@@ -2965,3 +2965,38 @@ generic gcd/heavy comparison: it is to show that the exact slack cannot
 absorb the supported heavy divisor, or to exclude the resulting localized
 intersection profile. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization`.
+
+## Cycle 124: the `rho+3` quadratic boundary is empty (2026-08-11, Codex)
+
+For a hypothetical minimum pair, the common light intersection outside the
+core has `3e-R-5` rows. No residual split-pencil slope can support one of
+these rows, and a slack slope supports at most one, only at deficit zero.
+Their global degree-`e` demand first forces the bidirectional gcd degree to
+its maximum `g=e-1`.
+
+At that maximum, the common center line has exactly `e` slopes. Its missing
+incidences require
+
+```text
+3e-R-6+d_L
+```
+
+outside incidences on common rows, while the exact packet deficit leaves
+only
+
+```text
+e-R+3+d_L
+```
+
+eligible zero-deficit slack slopes. The resulting `2e<=9` is impossible on
+the official row. Hence
+
+```text
+|S_alpha union S_beta|>=rho+4,
+4h+sum_(gamma in A)r_gamma<=rho+4
+```
+
+for every pair and every assigned-center line. This is a complete profile
+removal; the next boundary is rank three at union `rho+4`. The proved node
+is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion`.
