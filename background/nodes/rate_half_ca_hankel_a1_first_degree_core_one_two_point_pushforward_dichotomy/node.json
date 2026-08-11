@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy",
+    "title": "A=1 core-one two-point pushforward dichotomy",
+    "status": "PROVED",
+    "closure": "rank-two elementary modification over the domain projection",
+    "statement": "For the first core-one two-point packet, pi_*O_C=O plus O(-d)^(e-1), and pi_*O_C(P_alpha+P_beta) is a rank-two elementary modification at their common domain coordinate. It has exactly two splittings: O(1) plus O(1-d) plus O(-d)^(e-2), with two sections and a degree-at-most-two pencil; or O plus O(1-d)^2 plus O(-d)^(e-3), with only the canonical section.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

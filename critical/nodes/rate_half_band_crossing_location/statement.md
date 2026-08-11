@@ -1939,3 +1939,25 @@ O_C(rho+2,-e-1)=O_C(P_alpha+P_beta),
 
 an effective degree-two Picard relation. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form`.
+
+## Cycle 86: two-point pushforward dichotomy (2026-08-11, Codex)
+
+Push the degree-two Picard line bundle along the finite domain projection.
+The two points lie above the same row but are distinct on `C`, so they give
+a rank-two exponent-`(1,1)` elementary modification of
+
+```text
+pi_*O_C=O direct_sum O(-d)^(e-1).
+```
+
+There are exactly two splittings:
+
+```text
+O(1) direct_sum O(1-d) direct_sum O(-d)^(e-2),
+O direct_sum O(1-d)^2 direct_sum O(-d)^(e-3).
+```
+
+The first has two sections and yields a degree-at-most-two pencil after
+removing its base divisor. The second has only the canonical section
+cutting out the two points. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy`.
