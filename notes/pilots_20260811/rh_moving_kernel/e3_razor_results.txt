@@ -1,0 +1,17 @@
+N=2199023255552 k=1099511627776 R=1099511627776 a=1116691496960 r=1082331758592 rho=R-r=17179869184  (2^34.0000)
+wide regime r > R/2 : True   (r/R = 0.984375000)
+r+1-rho  = dim ker M(gamma) = 1065151889409  (2^39.954196)
+r+1-2rho = generic dim K_0    = 1047972020225  (2^39.930737)
+moving increment m = h_r - rho <= rho = 17179869184 = 2^34.0
+(r+1-rho)/rho = 62.000000   [PR-2 window was [62.9,64.1]]
+generic low apolar degree p_gen = floor((R+1)/2) = 549755813888 = 2^39.000000
+generic minimal COMMON apolar degree p* = floor((2R-1)/3)+1 = 733007751851 = 2^39.415037
+p* > p_gen at the razor (=> low generator MOVES generically): True
+m_P = r+1-p_gen = 532575944705 = 2^38.954196  ;  m_Q = r+p_gen-R = 532575944704 = 2^38.954196
+round-32 naive test m_P > rho : True  (ratio 31.000000 = 2^4.9542)
+Forney gap at the razor: shift-basis Z-degree sum >= m_P+m_Q = 1065151889409 = 2^39.954196, but sum of minimal indices <= rho = 2^34.0 ; gap factor 2^5.9542
+fixed-generator stratum bracket: rho < p = h_r <= 2rho, i.e. 17179869184 < p <= 34359738368 (2^34.0 .. 2^35.0)
+razor target B* = 2^128 = 340282366920938463463374607431768211456
+rho = 2^34.0 is 94.0 bits under 2^128
+2rho = 2^35.0 is 93.0 bits under 2^128
+banked unconditional far bound C(n,r): log2 = 2198635969270.4

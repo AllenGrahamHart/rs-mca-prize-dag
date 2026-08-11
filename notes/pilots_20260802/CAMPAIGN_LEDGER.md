@@ -5342,3 +5342,37 @@ F1's premise live for the first time; m=1 degenerate for it. The
 only fully law-clean pilot of the round (5/5 ramguard, no bare
 python3); replays IDENTICAL. Files:
 notes/pilots_20260811/rh_sat3_realizability/.**
+
+## ROUND 33 BANK 4/4 — rh_moving_kernel (2026-08-11, coordinator) — ROUND COMPLETE
+
+**BANKED — R-MOVING WITHDRAWN: the round-32 forced-fixed mechanism
+is FALSE (Forney: the shift set is not a minimal basis; refuted by
+exhibition + 221/221 census + round 32's own 0/1700 (HK1) data —
+its report exposed as internally inconsistent). Generically NEITHER
+apolar generator is fixed (p* = floor((2R-1)/3)+1 > p_gen; the
+honest sufficient condition p* + p_gen <= R misses by 7/6 at the
+razor). SURVIVES: the stacked rank h_r; the FG stratum (fixed
+squarefree P, rho < p <= 2rho) with the SCALED-VANDERMONDE normal
+form + the key equation C_gamma*sigma = h mod P; (MI1) RESTORED
+after reduction (78/78) and (MI2) STRUCTURALLY DEAD there (the
+reduced ring is a field); T <= rho/p/r+1 all refuted on FG. NEW:
+R-FG + R-PSTAR (any razor pencil with p* <= R/2? no => R-KER sole
+far-CA residual). FALSE marker applied to my round-32 banked
+R-MOVING text; the round-33 close addendum banked.**
+
+**ROUND 33 COMPLETE: 4/4 banked, 0 status flips, census 231 =
+167/37/27 unchanged. THE ROUND'S SHAPE — one route decided, one
+invariant, one withdrawal: (SAT3) realizable (vacuity dead; the
+counting stack TIGHT at m=1; the regression-test principle); the
+8/5 = ONE SLOPE (a-independent; (NS-m) the statement form; layer A
+the instrument — banks 1+2 converged); the W-layer bivariate
+system fenced BY WITNESS ((BIV-CURVE); xr transport candidate);
+R-MOVING withdrawn (the sixth consecutive round in which the audit
+cadence caught banked text — this time round 32's own report
+contradicted by its own data). ROUND-34 ANCHORS: G2 (settle m=2 —
+decisive for TCAP-DIM), layer A/(NS-m) with the m=1 regression
+test, R-PSTAR, the m=3,4 constructive (BIV-CURVE) search.
+COMPLIANCE ACROSS THE ROUND: bare-python3 breaches in 3 of 4
+pilots (7+2+1, all file-patching/no-ops, all disclosed; bank 3
+fully clean) — the round-34 CONSTRAINTS text gets the explicit
+file-patching clause as a mandatory upgrade.**

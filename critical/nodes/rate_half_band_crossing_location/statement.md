@@ -1001,10 +1001,7 @@ exhaustive at (7,2,4,q=7); and the banked 2^216 >= at k+2^34-1) —
 the -lo shortcut via floor-tightness is dead. NEW LAW CANDIDATE:
 the extremal count is q-INDEPENDENT (two cells, five fields;
 zero-power beyond). RESIDUALS OF RECORD: R-DEEP (bound the deep
-stratum), R-MOVING (the 2-generated-truncation budget — one
-generator is FORCED FIXED by multiplicity arithmetic, column-
-farness forbids it D-split; bounding the other's slopes is the
-open problem), R-KER (the >= r+1-2rho ~ 2^40-dim common kernel
+stratum), R-MOVING [THIS MECHANISM IS FALSE — round-33 rh_moving_kernel, coordinator-replayed: the forced-fixed step misapplies the Kronecker identity (the shift set is not a MINIMAL basis; Forney's inequality runs the other way), refuted by exhibition + a 221/221 census (zero fixed generators under round 32's own hypothesis) + round 32's own 0/1700 (HK1) data; generically NEITHER generator is fixed (p* = floor((2R-1)/3)+1 > p_gen = floor((R+1)/2), missing the sufficient condition p* + p_gen <= R by a factor 7/6 at the razor). R-MOVING is WITHDRAWN; see the round-33 close addendum below for what replaces it (the FG stratum, R-PSTAR, R-KER)], R-KER (the >= r+1-2rho ~ 2^40-dim common kernel
 with no D-split member; count slopes where a <= 2^34-dim increment
 acquires one). CORRECTIONS: the round-32 brief's "2^216 upper
 bound" misread the banked LOWER bound (coordinator's error); the
@@ -3000,3 +2997,74 @@ for every pair and every assigned-center line. This is a complete profile
 removal; the next boundary is rank three at union `rho+4`. The proved node
 is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion`.
+
+## Round-33 close addendum (2026-08-11, coordinator-audited): the four banks reconciled
+
+**BANK 3 (rh_sat3_realizability) — ROUTE DECIDED: (SAT3) IS
+REALIZABLE; the vacuity branch is DEAD.** Exhaustive at m = 1,
+q = 17 (16 families, all carrying non-degenerate column-far Hankel
+realizations, (SAT1)-(SAT5) exact), reproduced at five more fields.
+THE COUNTING STACK IS SIMULTANEOUSLY TIGHT on the witness ((AO1) =
+(MI2) = (ERC2) = (ERC4) = 5 = T, all equalities) — the 9/4 is a
+route CEILING, not slack. CATCH-24C settled: both lanes count the
+SAME T (PROVED, (HS3)) but LB1 does NOT transfer (corank-0: its
+petal structure forces d_x = r > e). REGRESSION-TEST PRINCIPLE OF
+RECORD: every proof of the strict target T <= rho+1 must be
+m-dependent and must FAIL at m = 1; the witness is the test
+((NEWCAP) passes — Lmin(0) = 0 there). TCAP-DIM posed (realizable
+iff m <= 2; moduli excess -13, -1, +35, +95...), blind spot named;
+THE DECISIVE EXPERIMENT: settle m = 2 (reduced to 40 parameters vs
+39 rank conditions — the G2 system). e = m is the entire difficulty
+(e < m is (ERC2)-closed; the e = 1 Kummer ladder stalls at 4).
+
+**BANK 1 (rh_psi_degree) — THE 8/5 IS ONE SLOPE.** (AO1) is exactly
+the aggregate criterion "proved per-slope floor > forced mean
+spend"; the shortfall rho*(mean_X - need_X_real) = 4m - def_in +
+o_g + o_h for EVERY a (coordinator-verified): the 9/4/7/4/9/8/8/5
+are four readings of ONE a-independent constant = rho+1 = one
+slope's locator mass. The missing e = m lives in the NON-SPLIT part
+of h_gamma: **(NS-m)** (every type-2 h_gamma carries >= m of its
+degree in irreducible factors of degree >= 2) IMPLIES closure of
+residual (ii); sub-goal #{j=0 type-2} <= 6. Symmetric moments
+walled (the second moment is the exact Cauchy-Schwarz equality
+case); (M2b) real but short by 7.5%.
+
+**BANK 2 (rh_bivariate_system) — THE W-LAYER IS FENCED BY WITNESS.**
+An explicit m = 2 configuration (T = rho+2, a = w* = a* = 7m-1,
+every incidence axiom + the bivariate system, two fields) shows the
+W-restricted system cannot exclude the failure configuration. Its
+content is (BIV-CURVE) (type-2 classes = fibres of a
+degree-(3m-3) dimension-m linear series; at m = 2 verbatim the xr
+lane's pencil predicate — transport candidate); per-slope it is
+banked (C2). LAYER A (the full-domain bidegree-(rho,m) Q(Z,x);
+deficit 12m^2-4m) KILLS the exhibit — LAYER A IS THE INSTRUMENT,
+and it is the same object as (NS-m): banks 1+2 converge. Lesson:
+random-embedding censuses have q^{-Theta(m^2)} power —
+construction or nothing. The m >= 3 (BIV-CURVE) feasibility is the
+open fork (heuristic says infeasible for m >= ~16; the m = 2
+witness says the heuristic fails at small m).
+
+**BANK 4 (rh_moving_kernel) — R-MOVING WITHDRAWN (see the FALSE
+marker above).** What replaces it: the STACKED RANK h_r
+(rho <= h_r <= 2rho; dim K_0 = r+1-h_r; moving increment
+h_r - rho <= rho); the correct sufficient condition for a fixed
+generator (p* + p_gen <= R — fails generically by 7/6); **the FG
+stratum** (fixed squarefree generator P, rho < p <= 2rho) with a
+genuinely new normal form — the pencil collapses to a rho x p
+SCALED VANDERMONDE, the key equation C_gamma*sigma = h mod P, and
+(MI1) RESTORED after reduction (78/78) while (MI2) PROVABLY cannot
+follow (the reduced ring is a FIELD — no divisors to count); on FG
+the measured T = q kills T <= rho, T <= p, T <= r+1 as candidate
+bounds. NEW RESIDUALS: R-FG (the line-in-Lambda intersection
+count); **R-PSTAR (the cheapest question left: does ANY column-far
+razor pencil have p* <= R/2? If no, FG is empty at the razor and
+R-KER is the SOLE far-CA residual)**. R-DEEP/R-KER/R-LINEDEGREE
+unchanged. Round 32's report is noted internally inconsistent (its
+0/1700 (HK1) data contradicts its own forced-fixed claim) — the
+audit cadence's sixth consecutive round of catching banked text.
+
+**ROUND-33 STATE OF THE OPEN CONTENT:** the type-2 frontier = layer
+A/(NS-m) (with the m = 1 regression test mandatory) + the G2 m = 2
+decision; the far-CA frontier = R-KER + R-PSTAR (+ the FG key
+equation as its coordinates); the located crossing itself. No
+status flips; census unchanged 231 = 167/37/27.
