@@ -1,0 +1,44 @@
+
+########################################################################
+# r38_sporadic_det  D2  tag=smoke  q=193  ndraw=300  2026-08-11 22:08:20
+########################################################################
+merge graph: 11 edges [(0, 5), (0, 6), (0, 7), (1, 4), (1, 6), (1, 7), (2, 4), (2, 5), (2, 7), (3, 4), (3, 5)]
+  degree sequence [3, 3, 3, 2, 3, 3, 2, 3]  (A-side [3, 3, 3, 2] | B-side [3, 3, 2, 3])
+valid 7-edge prescription subsets (per-vertex degree <= 2) : 45 of 330
+
+CONSTANT-NORM PENCIL CENSUS (e3 = 1 slice), q = 193
+  split cubics in the slice          : 651   (predicted 41664/64 = 651)
+  max pairwise-disjoint complete fibres on any line : 12
+  lines with >= 8 pairwise-disjoint complete fibres  : 79
+  census elapsed 1.1 s
+  arm-A t-pools available            : 79
+
+------------------------------------------------------------------------
+ARM A_real_t   q=193   draws=300
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 300}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+common-alpha count per draw (capped at 5)     : {1: 295, 2: 5}
+draws with >= 1 common alpha : 300 of 300  = 1.000e+00
+  registered naive rate 6^4/q^3 = 1.803e-04
+guard outcomes on candidate alphas : {'G3 slope degree 8 > 2': 4, 'G2 not 3 distinct F_q roots (1)': 1}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {(16, False): 1, (16, True): 1}
+BEST LEGAL |slopes| this arm : 16
+elapsed 0.4 s
+
+------------------------------------------------------------------------
+ARM B_generic_t   q=193   draws=300
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 300}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+common-alpha count per draw (capped at 5)     : {1: 299, 2: 1}
+draws with >= 1 common alpha : 300 of 300  = 1.000e+00
+  registered naive rate 6^4/q^3 = 1.803e-04
+guard outcomes on candidate alphas : {'G3 slope degree 8 > 2': 1}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {}
+BEST LEGAL |slopes| this arm : none
+elapsed 0.4 s
+
+TOTAL ELAPSED 1.8 s

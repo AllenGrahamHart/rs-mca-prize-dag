@@ -6265,3 +6265,66 @@ run); the anchor's j=7 resolved search-limited against its own
 prediction. f_concurrency_equiv cross-reference queued.
 COMPLIANCE: 5/5 clean. Node: UPDATE marker + addendum. Mint +5.
 Files: notes/pilots_20260811/r38_urate_genericity/.**
+
+## ROUND 38 BANK 4/4 — r38_sporadic_det (2026-08-11, coordinator)
+
+**BANKED — BOTH REMAINING m=4 ROUTES CLOSED AT REACHABLE LEVEL;
+C38 POSED; THREE BANKED FIGURES CORRECTED. Sporadic sharing:
+CLOSED BY DICHOTOMY (Z finite XOR curve => Lüroth; no
+correspondence case — transitive closures >> deg Psi force
+constancy; the Bezoutian family is a hypersurface); the deficit
+is FLAT at 20 - delta (pattern-dependence cancels EXACTLY,
+coordinator-verified) => first moment 10^-15.3 — **the round-36
+"< 1e-4" price WITHDRAWN (11 dex optimistic)**. The determinantal
+solve WORKS and resolves round 37's dim-4 tension: the variety
+HAS F_q-points (80 in 700k draws, two fields, two arms
+indistinguishable — the fence is GEOMETRIC) and ALL are
+degenerate (two named components incl. round 36's own
+degree-8-slope artefact; rate scaling q^-2.1 = the degenerate
+codim); **round 37's "3 free merges never observed" CORRECTED
+(rate 1.19e-4, 80/674,393) — its conclusion stands (all
+illegal)**. Best legal 14 both fields both arms — THIRD round,
+THIRD instrument, SAME ceiling => **CONJECTURE C38: the 11-merge
+variety has no non-degenerate F_q-point (four falsifiers; the
+Groebner one is a compute-request candidate)**. Round-36 R1.7
+REPAIRED (|Stab_PGL2(mu_64)| = 128 dihedral; exhaustive: no
+order-3 Möbius map carries > 6 of 8 stable triples — 83,328
+candidates, two fields); the coincidence-curve/order-3-deck
+device correctly subtracted to the banked trigonal node. s >= 12
+pattern-independent floor; monomial lattices give 2-powers only.
+CROSS-BANK: the thrice-asked (SAT4) question is answered by THIS
+round's bank 1 (legal-but-neutral; DOOR B the surviving
+falsifier). Self-catches: the forced-root degree error, the
+degeneracy-maximising design (a burned 260k run), the wrong
+affine-chart guard (corrected to the banked projective
+formulation). COMPLIANCE: 9/9 CLEAN — **round 38 is fully clean,
+4/4; the breach era ends; the checklist worked.** Node: addendum
++ ROUND 38 CLOSE. Mint +5. Files:
+notes/pilots_20260811/r38_sporadic_det/.**
+
+## ROUND 38 COMPLETE (2026-08-11, coordinator)
+
+**FOUR BANKS, ZERO STATUS FLIPS, CENSUS UNCHANGED
+(231=167/37/27, 246=179/39/28) — THE WITNESS-HUNT ROUND ended
+with no witness and the strongest structural map yet. Bank 1:
+the side door legal but BUDGET-NEUTRAL (deficit invariant 3);
+DOOR B posed (deficit 2); the 9th-fibre fence; the pipeline
+gated (the class SURVIVES the bivariate layer). Bank 2: **T = 3
+OVER mu_32 ACHIEVED** (the round-37 named instrument delivered;
+scale-elimination; coordinator-certified). Bank 3: R-GENERICITY
+rank half PROVED (+126 modulo TWO residues); R-URATE REFUTED
+(exchange law); R-USYM CLOSED. Bank 4: sporadic closed by
+dichotomy (11-dex reprice); the determinantal solve finds only
+degenerate points; C38 posed; R1.7 repaired. RECONCILED: the
+m=4 ceiling 14 is three-instrument-invariant and conjectured
+INTRINSIC; the live routes are DOOR B + C38's falsifiers; T = 4
+over mu_32 = the rank-<=2 inverse; far-CA = r+1+126 modulo two
+residues, razor-stable. AUDIT (13th consecutive catching round):
+nine banked/sibling figures corrected with sources. COMPLIANCE:
+**4/4 CLEAN — the first fully-clean round since the compute
+clause was written; the pre-Bash checklist is the fix.**
+ROUND-39 ANCHORS: (1) DOOR B (the bookkeeping decision); (2) the
+two +126 residues; (3) the rank-<=2 inverse; (4) C38's Groebner
+falsifier (compute request); (5) THE MINT WIRING (#41 — two
+rounds overdue, ~45 items); (6) layer A on the Door-A object
+(six rounds unrun).**

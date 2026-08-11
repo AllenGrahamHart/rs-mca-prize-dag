@@ -5309,3 +5309,139 @@ degree-parity carrier completeness. All pass.
   m_pig margin is information-theoretic. Pilot self-catches: its
   own sharper cap (B-6/7/8) refuted by its first run; six of its
   own predictions broken and reported.
+
+## Round-38 sporadic/determinantal addendum (2026-08-11, coordinator-audited): both remaining m=4 routes closed at reachable level; C38 posed; three banked figures corrected
+
+Pilot r38_sporadic_det (round 38, bank 4; 9/9 ramguard clean —
+ALL FOUR round-38 pilots clean under the checklist; the breach
+era ends). Coordinator hand-checks: the deficit cancellation
+(39 + 3t_D - 72 - (3t_D - delta - 13) = -20 + delta — the
+t_D-dependence cancels exactly); the transitive-closure forcing
+(component > deg Psi = 9 => Psi constant); the s >= 12 floor
+(72 <= 6s); the forced-root degree correction (prescribed slopes
+are automatic roots of downstream resultants). All pass.
+
+- **SPORADIC (NON-FACTORING) SHARING: CLOSED BY DICHOTOMY, AND
+  RE-PRICED 11 DEX WORSE.** Z (the coincidence scheme) is finite
+  XOR contains a curve, and a curve forces Lüroth — NO
+  correspondence case (a non-factoring symmetric (2,2) has
+  transitive-closure components of mean size ~100 >> deg Psi =
+  9, forcing constancy; the Bezoutian family has components of
+  size EXACTLY 3, 60/60 both fields, and is a HYPERSURFACE in
+  P^5 — Jacobian rank 5/6, 200/200). The sporadic cost ledger is
+  FLAT: deficit = 20 - delta INDEPENDENT of the sharing pattern
+  (0 mismatches over the whole band) — first moment 10^-15.3.
+  **WITHDRAWN: the round-36 "< 1e-4" sporadic price** (optimistic
+  by eleven orders; the "cheapest pattern" is a low-sharing
+  re-labelling of already-searched classes). Priced-not-searched
+  honestly declared (the joint system is a codim-33 determinantal
+  question; sampling cannot see 10^-15).
+- **THE DETERMINANTAL SOLVE WORKS — AND ANSWERS ROUND 37's
+  UNRESOLVED TENSION: the dim-4 variety HAS F_q-points, and
+  every reachable one is DEGENERATE.** 7-edge prescription
+  (kernel dim 2 in 500,000/500,000) + iterated gcd on the four
+  residual degree-<=6 resultants: 80 raw solutions in 700k
+  draws, two fields, two arms (constant-norm vs random —
+  statistically indistinguishable: the fence is GEOMETRIC), and
+  **0 legal** — the kills are two NAMED degenerate components
+  (identically-zero fibre cubic, 39; hypergraph-degree-8 slope —
+  round 36's own artefact — 26). The hit rate scales q^-2.1
+  (the codim-2 degenerate locus, not the codim-3 honest one).
+  **ROUND-37 FREE-MERGE COUNT CORRECTED: 3 free merges occur at
+  rate 1.19e-4 (80/674,393 states)** — its "never observed" was
+  a 115-state sample artefact; its CONCLUSION stands (all 80
+  illegal). Best legal |slopes| = 14 both fields both arms —
+  **third round, third instrument, identical ceiling**.
+  **CONJECTURE C38 (posed, with falsifiers):** the 11-merge
+  variety has NO non-degenerate F_q-point at q = 193, 257 —
+  equivalently the m=4 ceiling 14 is a property of V, not of
+  instruments. Falsifiers: a verified 13-slope Psi; a full
+  Groebner solve (compute-request candidate); a primary
+  decomposition exhibiting a non-degenerate component; a
+  degenerate-fibre (Door) route solution.
+- **ROUND-36's R1.7 REPAIRED:** gcd(3,64) = 1 excludes
+  multiplicative order-3 only; the complete statement is
+  |Stab_PGL2(mu_64)| = 128 (dihedral 2-group, order histogram
+  verified, zero order-3 elements) PLUS the exhaustive fact that
+  no order-3 Möbius map carries more than 6 of the needed 8
+  stable triples (all 83,328 candidates, two fields). The
+  coincidence-curve + order-3-deck-map DEVICE is banked (the
+  trigonal_subgroup_exclusion node + roadmap — the pilot's own
+  load-bearing subtraction, verified); new = the transfer, the
+  exhaustive finite version, and the stabiliser computation.
+  ALSO: monomial-lattice mechanisms give 2-power multiplicities
+  only (3 unreachable); the pattern-independent slope floor
+  s >= 12 (the whole m=4 D-part lives in s in {12, 13}).
+- **CROSS-BANK RECONCILIATION (coordinator):** C38's falsifier
+  F4 and the pilot's thrice-asked (SAT4) question are ANSWERED
+  BY THIS ROUND'S OWN BANK 1 (quarantine held — the pilots could
+  not know): the door is LEGAL (O = 2 closes every axiom) but
+  BUDGET-NEUTRAL, and DOOR B (deficit 2) is the surviving form
+  of exactly this falsifier. The three-round ask is closed.
+- **SCOPE FENCES:** C38 is a conjecture on a named-design 440k
+  sample, NOT an exclusion; the deficit-20 count is a naive
+  first moment of the class the campaign has repeatedly seen
+  fail (F-R3 live: exhibit any sporadic family with deficit
+  < 20); the order-3 exhaustion is at two fields; arm A is the
+  complete constant-norm supply, not all pencils; nothing gated
+  by bank 2's verifier this bank (bank 1 carries that flag this
+  round); layer A still unrun. Pilot self-catches: the
+  forced-root degree error (its registered rate 3-16x
+  optimistic), the degeneracy-maximising design (11 of 12
+  "solutions" manufactured, a full run burned), the wrong
+  affine-chart guard corrected to the banked projective
+  formulation.
+
+## ROUND 38 CLOSE (2026-08-11): the four banks reconciled — the ceiling is intrinsic, the doors are B and the residues
+
+**BANK 1 (r38_side_door):** the ledger CLOSES but the door is
+BUDGET-NEUTRAL (tangency costs 2 = one merge; deficit invariant
+at 3; demand-minimality: >= 10, two placements); **DOOR B posed
+(deficit 2, existing objects as candidates)**; the 9th-fibre
+completion fence (48-82% of legal objects non-completable); the
+pipeline GATED at last (the Door-A object survives bank 2's
+bivariate layer; first mu(x) verification — mu FORCED). **BANK 2
+(r38_cauchy_lattice):** **T = 3 OVER mu_32 ACHIEVED** (ten
+witnesses; the scale-elimination/(TEST) algorithm; 192-s
+exhaustive pair-sweeps; the two published witnesses
+COORDINATOR-CERTIFIED e = m = 2; the round-37 shortfall an
+instrument artefact). **BANK 3 (r38_urate_genericity):**
+R-GENERICITY's rank half PROVED (+126 now modulo TWO residues);
+R-URATE REFUTED (the exchange law; T = 19 > cap at C3, three
+fields; razor 126 stands normal-form-conditionally); R-USYM
+CLOSED. **BANK 4 (r38_sporadic_det):** sporadic sharing closed
+by dichotomy (re-priced 11 dex); the determinantal solve reaches
+only degenerate points; C38 posed; R1.7 repaired.
+
+**THE RECONCILED BOARD:**
+1. **(BIV-CURVE) m = 4:** seven classes searched-negative; the
+   14-ceiling is three-instrument-invariant and CONJECTURED
+   INTRINSIC (C38). The live routes, in order: **DOOR B** (the
+   bookkeeping decision — deficit 2 with the existing object
+   stock); C38's Groebner falsifier (a compute-request
+   candidate); the two- residue completion of the fences.
+2. **The converged small-m question:** T = 3 over mu_32 achieved
+   and certified; **T = 4 = the rank-<=2 inverse** (the named
+   gate); the (SAT3) target T = 9 = the packing ceiling remains
+   the far horizon with four instruments saying empty and
+   constructions advancing one T per round.
+3. **Far-CA:** the +126 floor modulo TWO residues (in-block
+   chi-injectivity; column-far Case B); the cap
+   normal-form-conditional with a pigeonhole margin; the razor
+   count stable at r+1+126 = 2^39.977280 in bits.
+4. **COMPLIANCE: 4/4 CLEAN — the pre-Bash checklist worked; the
+   breach era (rounds 36-37) ends.** The results-file rules paid
+   three more times; the imported-script audit corrected a
+   coordinator brief error.
+
+**AUDIT LEDGER (13th consecutive catching round):** the round-36
+sporadic price (11 dex), the round-37 free-merge count, the
+round-37 shortfall figures, the banked C3 census number
+(T = 17 -> 18/19), R-URATE (a banked residual target refuted),
+the q=257 ceiling (15 -> 14), round-36's R1.7, my own brief's
+biv_core warning, and my round-37 a*-inertness expectation —
+all corrected with sources. ROUND-39 ANCHORS: (1) DOOR B;
+(2) the two +126 residues; (3) the rank-<=2 inverse; (4) C38's
+Groebner falsifier (compute request); (5) THE MINT WIRING
+(task #41 — now two rounds overdue, queue ~45 items);
+(6) layer A on the Door-A object (six rounds unrun).
