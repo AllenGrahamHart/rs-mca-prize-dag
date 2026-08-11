@@ -2351,3 +2351,29 @@ separated-pullback theorem does not apply to this mixed rational cube root,
 and characteristic three must be treated separately in any Kummer-cover
 argument. The proved node is
 `rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge`.
+
+## Cycle 101: the global cube obstruction has an exact resultant test (2026-08-11, Codex)
+
+Let `q_d(z)` be the leading `X` coefficient of `Q`, and let `P(X)` be the
+explicit numerator in either double-root cube identity. Taking the norm from
+the finite reduced total-quotient algebra of `C` over `F(z)` gives
+
+```text
+Xi_P(z)=Res_X(Q,P)/(q_d(z)^deg(P) H(z)^d)
+       =Norm(W)^3.
+```
+
+Thus `Xi_P` must be a cube in `F(z)`. In characteristic different from
+three, every irreducible valuation must be divisible by three and the
+remaining constant must be a base-field cube. In characteristic three,
+perfectness of the finite field gives the exact test
+
+```text
+d Xi_P/dz=0.
+```
+
+Failure excludes the corresponding scalar double-root branch. Passing is
+only necessary and does not reconstruct `W` or the recurrence. The actual
+leading coefficient factor is essential, and no irreducibility of `C` is
+assumed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate`.

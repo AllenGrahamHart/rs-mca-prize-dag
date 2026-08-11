@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate",
+    "title": "A=1 first-degree double-root resultant cube gate",
+    "status": "PROVED",
+    "closure": "exact base-field norm test for the radical cube bridge",
+    "statement": "For either retained scalar double-root branch, let P be the explicit locator numerator in the radical cube identity and q_d the leading X coefficient of Q. Then Res_X(Q,P)/(q_d^deg(P) H^d) is exactly the finite-total-quotient-algebra norm Norm(W)^3 and must be a cube in F(z). This gives a factor-valuation and constant-class test in characteristic not three, and the exact derivative-zero test in characteristic three, without assuming C irreducible.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
