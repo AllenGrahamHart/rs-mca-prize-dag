@@ -31352,6 +31352,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate",
+   "title": "A=1 quadratic paired scalar-weld cross-ratio cycle certificate",
+   "status": "PROVED",
+   "closure": "local cross-ratio and transition-triangle certificate for the unique scalar-weld survivor",
+   "statement": "For both pair-boundary profiles, scalar-weld nullity one is equivalent to the multiplicative cycle identities of the nonincidence edge labels P_x(delta)/F_delta(x). In the extremal profile every three fiber neighborhoods intersect, so all cycles reduce to four-cycle cross-ratios. In the strict profile the four-cycle identities plus fiber-transition triangles are complete. Failure gives full weld rank; success reconstructs the unique projective weld vector.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
    "title": "A=1 quadratic paired split-biform coefficient-MDS gate",
    "status": "PROVED",
@@ -65468,6 +65486,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

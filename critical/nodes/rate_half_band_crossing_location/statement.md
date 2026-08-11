@@ -3133,3 +3133,25 @@ A/(NS-m) (with the m = 1 regression test mandatory) + the G2 m = 2
 decision; the far-CA frontier = R-KER + R-PSTAR (+ the FG key
 equation as its coordinates); the located crossing itself. No
 status flips; census unchanged 231 = 167/37/27.
+
+## Cycle 143: the paired weld is a local cross-ratio certificate (2026-08-11, Codex)
+
+For the two `A=1` quadratic pair boundaries, label every nonincidence edge
+by
+
+```text
+c_(delta,x)=P_x(delta)/F_delta(x).
+```
+
+The sparse weld has nullity one exactly when these labels are a
+multiplicative coboundary. Thus every nonincidence rectangle must satisfy one
+explicit cross-ratio identity. In the extremal profile, any three selected
+fiber neighborhoods share at least `6+d_A` rows, so the rectangle identities
+alone certify every cycle. In the strict profile, rectangles plus explicit
+fiber-transition triangles are complete.
+
+A failed local identity gives full weld rank and excludes the boundary. If
+all identities pass, they reconstruct the unique projective scalar vector
+that must then pass the fixed-domain coefficient-MDS and retained
+source/Hankel gates. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate`.

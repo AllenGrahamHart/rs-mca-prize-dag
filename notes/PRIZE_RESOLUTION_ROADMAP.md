@@ -30621,3 +30621,74 @@ compute requests:        none
 The route-deciding residue is now whether any allowed profile can make the
 weld cycles consistent. A survivor has one forced scalar vector and must
 then pass `Krow` and the retained Hankel/source identities.
+# Cycle 142: Round 34 reconciliation and scalar-weld export (2026-08-11)
+
+## Cycle pins
+
+```text
+local merge:       fbe7e7287
+canonical prize:   3867548f20537abdc14fd55bdecb0ebefd2448fc
+upstream main:     93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR #1161: 94769d50177db7bf324fd29abddcd997843e0330
+critical open:     28
+```
+
+Canonical Round 32-34 was merged on top of the paired-biform line. This
+imports the audited withdrawal of the false forced-moving-generator route
+and the corrected `R-PSTAR` verdict: the fixed-generator stratum is
+nonempty at razor scale, `p*<=R/2` is not equivalent to FG, and low-`p*`
+column-farness cannot be dismissed by dimension or random-density arguments.
+The exact razor arithmetic replay matches its banked output byte for byte.
+
+PR #1161 now exports the exact scalar weld and connected-rank dichotomy. The
+packet pins the source through `77a26cfa8`, prints both official weld-row
+lower bounds, and verifies the connectivity margins and a rank/tamper
+control. It remains one consolidated two-file draft.
+
+## Burn-down
+
+```text
+result:                  HARVESTED R-PSTAR correction; EXPORTED weld cut
+DAG status delta:        none
+upstream terminal delta: common-biform gate reduced to rank R or R-1
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 143: paired scalar-weld cross-ratio cycle certificate (2026-08-11)
+
+## Local cycle criterion
+
+On a nonincidence edge put `c_(delta,x)=P_x(delta)/F_delta(x)`. A nonzero
+weld kernel exists exactly when these labels are a multiplicative
+coboundary. Hence every even-cycle product must be one.
+
+For the extremal profile, every three selected fiber neighborhoods share at
+least `6+d_A` classified rows. All cycle consistency therefore reduces to
+the four-cycle identities
+
+```text
+c_(delta,x)c_(epsilon,y)
+ =c_(delta,y)c_(epsilon,x).
+```
+
+For the strict profile, pairwise overlap gives the same rectangle tests; the
+additional complete conditions are the transition triangles
+`q_(delta,epsilon)q_(epsilon,theta)q_(theta,delta)=1`.
+
+One failed local identity forces full weld rank and excludes the boundary.
+If all tests pass, they reconstruct the unique projective `lambda`, leaving
+only `Krow lambda=0` and the retained source/Hankel identities.
+
+## Burn-down
+
+```text
+result:                  PROVED local cross-ratio cycle certificate
+DAG delta:               +1 PROVED
+critical status delta:   none
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+next route-deciding:     derive or falsify a rectangle identity from the
+                         oriented gcd/heavy-incidence source structure
+```
