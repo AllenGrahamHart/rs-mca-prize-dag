@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify.py",
-      "seconds": 0.039457,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling/verify.py",
+      "seconds": 0.041075,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_RANK_TWO_NORMAL_FORM_PASS\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_ORIENTED_GCD_COUPLING_PASS (109951162778, 61083979321, 91625968981)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form/verify_audit.py",
-      "seconds": 0.013262,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling/verify_audit.py",
+      "seconds": 0.014029,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_RANK_TWO_NORMAL_FORM_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_MINIMUM_PAIR_ORIENTED_GCD_COUPLING_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

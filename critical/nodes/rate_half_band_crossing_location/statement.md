@@ -2917,3 +2917,24 @@ positive-deficit cases therefore carry a forced linear-size common
 parameter divisor; the zero-deficit three-row case remains the least
 constrained. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form`.
+
+## Cycle 122: both orientations force a linear-size common gcd (2026-08-11, Codex)
+
+The source slope lies outside the complete row-root union, sharpening the
+positive-deficit root budget. At zero endpoint deficit the forward and
+reverse gcd root sets exchange the endpoints and share all nonendpoint
+roots. Their six residual row-root sets are pairwise disjoint: a shared
+forward/reverse residual root would force its center onto the endpoint
+pencil, where it must contain every point of both differences. Hence every
+minimum pair has an oriented center-owned gcd satisfying
+
+```text
+max(r_alpha,r_beta)=0:  g>=ceil((3e-2)/5),
+max(r_alpha,r_beta)=1:  g>=ceil((e-2)/3),
+max(r_alpha,r_beta)=2:  g>=ceil((e-1)/2).
+```
+
+The zero-deficit official floor is `g>=109951162778`. The remaining task is
+to compare this large divisor with the heavy-row cube/Forney factors. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling`.
