@@ -2377,3 +2377,35 @@ only necessary and does not reconstruct `W` or the recurrence. The actual
 leading coefficient factor is essential, and no irreducibility of `C` is
 assumed. The proved node is
 `rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate`.
+
+## Cycle 102: the double-root resultants have residual degree at most two (2026-08-11, Codex)
+
+Taking the norm of the actual bounded Picard section removes the unknown
+rational cube from cycle 101. In every retained double-root packet, the
+locator numerator degree is exactly three times the first coordinate of the
+cube-root line bundle, so the complete leading-coefficient factor cancels.
+
+For each no-ordinary cubic packet,
+
+```text
+Res_X(Q,P_3)=c^3 H^rho S_A^3,       deg S_A=1.
+```
+
+For the ordinary cubic packet, if `H=L_0H_0`,
+
+```text
+Res_X(Q,P_3)=c^3 L_0^(rho-3) H_0^rho S_AB^3,
+deg S_AB=2.
+```
+
+For the core-one quadratic double packet,
+
+```text
+Res_X(Q,P_2)=c^3 H^(rho-1) S_B^3,   deg S_B=2.
+```
+
+The three residual forms are the parameter pushforwards of `A`, `A+B`, and
+`B`; they are outputs, not free variables. All total degrees agree exactly.
+Any different supported multiplicity or residual degree kills the packet.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization`.
