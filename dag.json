@@ -31332,6 +31332,26 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy",
+   "title": "A=1 quadratic paired scalar-weld connected-rank dichotomy",
+   "status": "PROVED",
+   "closure": "the scalar-weld matrix has nullity zero or one and every nonzero kernel is full-support",
+   "statement": "For both pair-boundary profiles, the complement graph between classified rows and selected zero-excess fibers is connected: every two fibers have a common nonincident row and every row has a nonincident selected fiber. Therefore the sparse scalar-weld matrix has rank R or R-1. In the latter case its kernel is one-dimensional and automatically full-support, so common-biform realizability reduces to checking the unique projective weld vector against the fixed-domain coefficient-MDS matrix.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/verify_audit.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/verify_probe.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy/probe_results.md"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
    "title": "A=1 quadratic paired split-biform coefficient-MDS gate",
    "status": "PROVED",
@@ -65447,6 +65467,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65460,6 +65485,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_scalar_weld_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
