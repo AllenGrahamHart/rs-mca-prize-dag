@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor",
+    "title": "Clean-endpoint Forney resultant equals the regular factor",
+    "status": "PROVED",
+    "closure": "exact Pade numerator and normalized resultant",
+    "statement": "The reciprocal locator and first rho syndrome moments define a canonical polynomial P(t;X) of bidegree at most (rho-1,m+1). If a(t) is the leading X-coefficient of q and Delta(t) is the degree-(m-1) regular Kronecker determinant, then the fixed-degree resultant satisfies Res_X(q,P)=constant*a^(2rho+2)Delta. At each of at least 2m+3 good supported slopes, the same identity is Delta*a^3=constant*Vandermonde(S)^2 times the product of the nonzero Forney weights.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+    "title": "A=1 quadratic gap-four cyclic-design spread exclusion",
+    "status": "PROVED",
+    "closure": "explicit cyclic incidence witness violates the necessary linear spread",
+    "statement": "For every e>=14, the explicit Cycle-107 cyclic incidence design has an adjacent deficient pair with exactly e+3 full-locator triple-union expanders. Cycle 116 requires at least ceil((3e+6)/2)>e+3, so this design cannot realize either retained quadratic u=4 packet on the official row.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

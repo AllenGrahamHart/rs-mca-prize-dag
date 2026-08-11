@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization",
+    "title": "A=1 first-degree ambient defect factorization",
+    "status": "PROVED",
+    "closure": "boundary restriction isomorphism and rowwise quotient divisor",
+    "statement": "For each of the six A=1 profiles at e=ceil((rho-1)/3), the pole-absorbing three-contact product extends uniquely to a nonzero ambient biform A_j of bidegree (d-3,j), j in {0,1,2}. At every residual domain row x, the missing-root factor Qbar(x)/gcd(Qbar(x),H), of degree c_x=e-d_x, divides A_j(x). Hence every row with c_x>j is a common split X-factor of all coefficients of A_j; after removing their product, all remaining row deficits are at most j and divide the residual specialization.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_direct_three_contact_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame",
+    "title": "Clean-endpoint Picard two-projection socle frame",
+    "status": "PROVED",
+    "closure": "reciprocal finite-pushforward direction",
+    "statement": "For P_*=(x_0,S), the fibre quotients A_0=Q(z;x_0)/S and C_0=Q(S;X)/(X-x_0) are the positive-modification socle directions under the two finite projections. Serre duality maps them to evaluation at S and x_0. Consequently both pushforwards have the unique-section splittings O+O(1-rho)+O(-rho)^(m-2) and O+O(1-m)+O(-m)^(rho-2), and the marked point supplies an explicit domain-Veronese direction for the Hankel interface.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

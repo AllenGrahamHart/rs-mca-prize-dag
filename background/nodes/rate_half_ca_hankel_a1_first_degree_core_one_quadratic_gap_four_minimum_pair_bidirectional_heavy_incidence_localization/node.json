@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization",
+    "title": "A=1 quadratic minimum-pair bidirectional heavy-incidence localization",
+    "status": "PROVED",
+    "closure": "both split pencils couple and all residual roots have zero heavy deficit",
+    "statement": "At pair union rho+3, the rank-two normal form is valid in both orientations for every endpoint-deficit pattern. The two gcds exchange endpoints and share all other roots; every forward or reverse residual root is deficit zero, and all residual root sets are pairwise disjoint. If R=r_alpha+r_beta, their common degree g and exact unused slack s satisfy s=(R+5)g-(R+3)e+2>=0. All packet deficit e-6 lies on the common center line or this slack, giving the arm-specific inequalities in (BHL8) and the official floors in (BHL9).",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

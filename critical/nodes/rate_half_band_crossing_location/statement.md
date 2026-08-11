@@ -586,9 +586,15 @@ the algebra and independently re-derived every ledger number):
   p in [3,3] and wt(kappa) = 9 - n_0 >= 9 forces j = 0) — the q=17
   fence contains none of this stratum; residual (iii) and residual
   (ii) do not overlap.
-- **THE HONEST FRONTIER — (FR), the one missing inequality:**
-  |S_gamma ^ W| <= ~2m against ALL of W at once (the max-vs-mean
-  upgrade; (OV) gives it pairwise only). CAUTION: the l1_fpc5
+- **THE HONEST FRONTIER — (FR), CALIBRATED:** the original pilot's
+  `|S_gamma ^ W| <= ~2m` phrase is arithmetically insufficient after
+  `NEWCAP` moves the worst case to `a=7m-1`. The exact spend needed by
+  the printed outside-capacity ledger is
+  `p_req=floor((9m+1)m/(4m-1))+1`; on the official row this is
+  `9m/4+1`, equivalently `|S_gamma intersect W|<=7m/4-2` for a clean
+  locator. The old `2m+2` spend leaves an asymptotic `9/8` residual.
+  This is still a max-vs-mean upgrade against ALL of W; `(OV)` gives
+  only pairwise control. CAUTION: the l1_fpc5
   distance-only no-go ("support weights + pairwise overlaps cannot
   close this consumer") is an in-repo precedent from a sibling lane
   — if it transports, 9/4 is the CEILING of the combinatorial route
@@ -788,17 +794,130 @@ max |S_gamma intersect W|=3m-3=189>128=2m.
 ```
 
 Thus saturation, `(OV)`, and the individual `(C2)` distance spend cannot by
-themselves prove the max-vs-mean upgrade. This is not a realizable
+themselves prove even the old max-vs-mean upgrade, and hence cannot prove the
+stronger calibrated cap `7m/4-2=110` at `m=64`. This is not a realizable
 Hankel-pencil counterexample and does not refute algebraic `(FR)`. It removes
 the incidence-only continuation: the positive residual-(ii) attack must now
 use the generalized locator polynomials `f_gamma`, the common syndrome
 pencil, or the apolar Hankel equations. The `9/4` official residual and both
 crossing budgets remain open.
 
+## Quartic-countermodel biform-lift obstruction (2026-08-10)
+
+The proved node
+`rate_half_type2_fr_quartic_coset_biform_lift_obstruction` tests the most
+natural algebraic continuation of the preceding incidence witness. Identify
+its four copies of `F_257^*` with the four multiplicative cosets of
+`mu_256` in `mu_1024`. On each of the three copies untouched by the deleted
+incidence, the parameter-root polynomial is
+
+```text
+(Gamma-x)^64-c_i.
+```
+
+If these rows came from a biform of locator degree at most `rho=255`, its
+leading two parameter coefficients would give degree-at-most-255 polynomials
+`A,B` satisfying
+
+```text
+B(tau_i x)=x A(tau_i x)
+```
+
+on three full `mu_256` cosets. Root counting forces `A=B=0`, contradicting
+the nonzero row scales. Thus this countermodel has no coset-preserving
+degree-255 apolar-biform lift, even before the Hankel equations are imposed.
+
+This is evidence that the algebraic constraint excluded by the incidence
+fence is material, but it is not `(FR)`: arbitrary point permutations and
+other incidence geometries remain open. The next positive route is now a
+classification or aggregate near-minimum-fiber bound for arbitrary
+realizable shortened-apolar families, not another audit of this quartic
+construction.
+
+## Small-endpoint product-lift falsifier sweep (2026-08-10)
+
+The preregistered `m=2` sweep tested the exact forced `O=0`, `T=rho+2`
+incidence shape over `F_97`: 31 double-root rows form `K_9` minus five
+edges, and one row has one supported plus one residual root. Across eight
+bounded Modal workers, all `599,897` random placements had product-code
+parity rank `32`; no nonzero row scaling existed, so none reached Hankel
+compatibility.
+
+This is recorded as a **zero-power null**, not evidence of universal
+nonrealizability. Generic placements overwhelmingly have full rank; any
+lift must be highly structured. The route decision is to stop random
+placement sampling and seek an exact classification of the near-saturated
+biform or a coverage-defined structured search.
+
+## Type-2 FR spend-calibration correction (2026-08-10)
+
+The proved node `rate_half_type2_fr_exact_spend_calibration` corrects a
+load-bearing arithmetic target in the Round-31 report. At `a=7m-1`, the
+type-1 term is at most two and a uniform outside spend `p` gives only
+
+```text
+T<=2+floor(((9m+1)m)/p).
+```
+
+The exact least spend closing this inequality at `T<=4m` is
+
+```text
+p_req=floor(((9m+1)m)/(4m-1))+1.
+```
+
+For the official `m=2^37`,
+
+```text
+p_req=9m/4+1=309237645313,
+clean max intersection=7m/4-2=240518168574.
+```
+
+By contrast the old proposal `p=2m+2` gives total cap
+`618475290622>549755813888`, leaving `68719476734` slopes of residual
+room and an asymptotic factor `9/8`. Future algebraic attacks must target the
+calibrated spend; proving only the old `~2m` max-intersection statement would
+not close the printed counting route.
+
+## Two-type-1 fibre calibration (2026-08-10)
+
+The proved node
+`rate_half_type2_fr_two_type1_fibre_spend_calibration` composes the
+projective-fibre structure of the minimum-support representation pencil with
+the corrected capacity threshold. If the endpoint stratum has two type-1
+slopes, their two fibres each have size at least `3m`. For every type-2
+slope this proves
+
+```text
+outside spend >= 2m+1.
+```
+
+Inserted into the printed outside-capacity ledger, this gives the exact cap
+
+```text
+T<=2+floor(((9m+1)m)/(2m+1))=9m/2,
+```
+
+still an exact factor `9/8` above the target `4m`. Thus the two-type-1
+argument is valid but does not close `(FR)` after the spend correction.
+
+For that same fibre lower bound to reach the required spend `9m/4+1`, the
+two named fibres must total at least
+
+```text
+25m/4,
+```
+
+which is `m/4` above their automatic `6m` baseline. Equivalently, the two
+type-1 root sets must have total size deficit at least `m/4` below `2rho`,
+or all other fibres must carry at most `3m/4-1` points. This is now the exact
+concentration target. It is not yet proved to hold, and no critical status
+changes.
+
 ## Round-32 Haboeck staircase addendum (2026-08-10, coordinator-audited): the import chain CERTIFIED; the full staircase recorded (F1)
 
-The round-32 adversarial rh_haboeck_seam pilot (REPORT + FABLE_AUDIT
-in notes/pilots_20260810/rh_haboeck_seam/) ran 28 attacks on the
+The round-32 adversarial `rh_haboeck_seam` packet (`FABLE_AUDIT.md`
+plus four replay scripts in `notes/pilots_20260810/rh_haboeck_seam/`) ran
+28 attacks on the
 wave-57 import chain. **NO KILL on the mathematics** — certified on
 object identity (Haboeck's E_m exclusion is word-for-word the repo's
 own (SL1) support-wise MCA-bad predicate, same support, same
@@ -850,6 +969,11 @@ superseded), F4 (the 232.650531 -> 232.650530 printed-constant fix
 on the supplier, safe direction). F5 (16 conflicting-kind doubled
 edges, a standing repo pattern) and the supplier-side (RHJ7)
 generalization go to the wave-58 Codex brief. No status flips.
+
+Custody note: canonical commit `31aa1e684` says a separate `REPORT.md` was
+persisted, but that file is absent from the commit. No claim here depends on
+it; the retained audit and deterministic replay scripts are the evidence
+surface imported into this tree.
 
 ## Round-32 close addendum (2026-08-10, coordinator-audited): banks 2-4 — the bracket's anatomy, the residual ledger, and (FR) proved-but-insufficient
 
@@ -944,10 +1068,1935 @@ min(a-(4m+2), 4rho-2a); at the argmax 5m/3 needed vs 8m/3 proved —
 ceiling" caution is REFUTED IN PART (a pure cardinality move
 reached 7/4); the next instrument is D2.4's DEGREE COUNT (psi_gamma
 mean weight 5.25m vs the 5m-1 need — NOT self-defeating, ~5%
-headroom) or the overdetermined bivariate system
-P_x(Z) = lambda_x prod_{A_x}(Z-gamma)(Z-mu(x)). The census's
+headroom) or the deficiency-aware bivariate kernel system. At a saturated
+coordinate its column is
+P_x(Z) = lambda_x L_x(Z) prod_{A_x}(Z-gamma); at a deficient coordinate
+the product carries an additional quotient polynomial of degree at most
+m-d_x. Thus the exact unknown count is |W|+Delta_W, not always |W|, with
+Delta_W<=1+O<=m and only one possible extra column when O=0. This correction
+is the proved node `rate_half_bivariate_deficiency_clone_kernel_reduction`;
+raw overdetermination is not itself a rank proof. The census's
 (SAT3) zero-power carries: T = 3 everywhere; F2 (a T = rho+2
 configuration with a* > 7m-1) remains the live falsifier. Pilot
 process note: it caught its own false vacuity fence mid-session
 (min <= mean does not kill proven floors) — the check that saved
 a live route.
+
+## Cycle-57 bivariate rank-count fence (2026-08-10, Codex)
+
+The deficiency-aware matrix has now been evaluated on the proved `m=1`,
+`q=17` five-slope Hankel failure. For all ten canonical pair unions, the
+unique deficient point lies outside `W`, so the scalar-column model is exact;
+nevertheless every matrix has shape `15 x 6`, rank `5`, and nullity `1`.
+Each rank has both an explicit all-nonzero kernel vector and a nonzero `5 x 5`
+minor certificate. Thus even a `5/2` row surplus plus saturation of every
+coordinate in `W` does not imply full column rank. The general route remains
+live, but its rank theorem must use an official `m>1` structural exclusion or
+be restricted to incidence patterns violating the required `5m/3` cap. The
+proved fence is `rate_half_bivariate_row_surplus_route_fence`; no critical
+status changes.
+
+## Cycle-58 bounded `m=2` bad-pattern search (2026-08-10, Codex)
+
+A 32-worker, 45-second-per-worker Modal campaign tested the next precise
+falsifier at `m=2` over `F_97`. It generated `1,276,996` random incidence
+trials, of which `841,449` met the exact row-degree/column-deficit ledger.
+Across their minimum pair unions it tested `1,795,113` open-band cases that
+all violated the closing intersection cap. Every deficiency-aware matrix had
+full column rank: `rank_deficient=0`, hence no blockwise kernel, degree-`rho`
+extension, or Hankel witness survived.
+
+This is substantial heuristic support for a bad-pattern rank theorem at the
+first nontrivial scale, not a proof. It is one field and a random sample; the
+zero downstream counts mean the extension gates had no opportunity to add
+evidence. The complete per-worker packet and deterministic aggregate verifier
+are `rh_bivariate_m2_badpattern_result.json` and
+`verify_rh_bivariate_m2_badpattern.py`. No critical status changes.
+
+## Cycle-59 top-coefficient Schur reduction (2026-08-10, Codex)
+
+After a projective parameter-basis change avoiding the at most `|W|<q`
+coordinate fibre roots, every `L_x` has nonzero leading coefficient. The
+`j=m+1` rows of the deficiency-aware matrix then contain one scaled
+Vandermonde column per point of `W`, so they pay exactly `4m+1` columns.
+Block elimination gives
+
+```text
+rank(M_W)=4m+1+rank(S_W),
+columns(S_W)=|W|+Delta_W-(4m+1).
+```
+
+The residual width is at most `4m-2` over the whole `a<=7m-1` band and at
+most `3m-1` when `O=0`. For the `m=1` failure it is one and its residual rank
+is zero; for the sampled `m=2` open band it is only `2..5`. The proved node is
+`rate_half_bivariate_top_vandermonde_schur_reduction`. The remaining theorem
+is now the structured full-column-rank problem for `S_W`, not the original
+large matrix. No critical status changes.
+
+## Cycles 60-61: exact interpolation defect and rational trace criterion (2026-08-10, Codex)
+
+The Schur matrix now has an exact entry formula. If
+`H_x(Y)=sum_j h_j(x)Y^j` is the normalized highest-clone root product and
+`P` is a `4m+1`-point pivot set, a nonpivot highest clone contributes
+
+```text
+c_(1,x)(x^i h_j(x)-sum_(p in P) ell_p(x)p^i h_j(p)).
+```
+
+Lower deficiency clones remain direct monomial columns. The proved node is
+`rate_half_bivariate_schur_interpolation_defect_formula`.
+
+The coefficient block one below the top admits a pivot-free characterization.
+Writing `r=|W|-(4m+1)`, it has full rank exactly when there are no
+`0!=P,Q` of degrees below `r` satisfying
+
+```text
+Q(x)=h_m(x)P(x),
+h_m(x)=-(mu_x+sum_(gamma in A_x)gamma),
+```
+
+on `W`; when the unique deficient point lies in `W`, that one equation is
+punctured. This is the proved node
+`rate_half_bivariate_single_coefficient_rational_interpolation_criterion`.
+The unresolved rank step is therefore the explicit official-scale exclusion
+of this low-degree rational trace interpolant.
+
+A bounded `m=2`, `F_97` Modal profile tested `125,335` bad pair unions
+(`105,574` saturated, `19,761` deficient). Every full matrix had full rank,
+and both tested trace-related blocks independently had full residual rank in every
+case; there were no exceptions. This is strong one-scale falsification
+evidence, not a proof, so the critical status remains unchanged.
+
+## Cycles 62-63: locator extension added; incidence-only rank refuted (2026-08-10, Codex)
+
+The old matrix omitted an official linear condition. Writing
+`Q_Y(x)=A_x(Y)R_x(Y)`, every coefficient must extend on `W` to an
+`X`-polynomial of degree at most `rho`. Dual Reed-Solomon interpolation gives
+the exact additional rows
+
+```text
+E_W[(i,j),(x,t)]
+ =x^i [Y^j](A_x(Y)Y^t)/sigma'_W(x),
+0<=i<|W|-rho-1,  0<=j<=m.
+```
+
+Every actual failure therefore has a blockwise-nonzero kernel for the
+strengthened matrix `C_W=[M_W;E_W]`. This is the proved node
+`rate_half_bivariate_locator_extension_kernel_reduction`. The new rows retain
+the genuine `m=1` failure on all ten pair unions (`rank 5/6`).
+
+They also diagnose a new adversarial fence. At `m=2` over `F_97`, an explicit
+`T=rho+2` one-deficit incidence pattern uses six inverse pairs and
+`nu_x=x+x^(-1)=(x^2+1)/x`. Its chosen `|W|=12` pair is minimum, all pair
+intersections are at most two, and bad overlap is `2>1`, yet
+`rank(M_W)=11/12` with an all-nonzero kernel. Thus the earlier random
+zero-exception profile cannot support an incidence-only rank theorem. The
+witness fails locator extension and `rank(C_W)=12/12`; it is not a Hankel or
+Prize counterexample. The proved fence is
+`rate_half_bivariate_incidence_only_rational_trace_route_fence`.
+
+The live theorem is now structured full rank, or exclusion of blockwise
+nonzero kernels, for `C_W` under the remaining outside-root and Hankel
+constraints. Critical status remains unchanged.
+
+## Cycle 64: clean branch is one irreducible cyclic-norm curve (2026-08-10, Codex)
+
+The omission-sensitive component ledger sharpens completely at `O=0`. Its
+overlap correction and residual parameter degree both vanish, so the generic
+apolar generator is absolutely irreducible of bidegree `(4m-1,m)`. The exact
+deficit identity leaves one point `x_0` with `d_(x_0)=m-1` and saturates every
+other domain point. The norm and complementary identities become
+
+```text
+R=H^(4m-1)S,       deg S=1,
+Q Vbar+((X^(16m)-1)/(X-x_0))W=H.
+```
+
+At least `3m+1` supported slopes are also generic-rank, fully split, and
+parameter-transverse. The proved node is
+`rate_half_ca_hankel_clean_endpoint_irreducible_norm_corollary`. Hence no
+reducible or product-of-rational-moving-branches continuation remains on the
+clean branch; the live geometric object is the irreducible near-perfect
+cyclic norm. Positive-`O` branches are outside this corollary, and critical
+status remains unchanged.
+
+## Cycle 65: clean two-sided weld and linear unit-resultant gate (2026-08-10, Codex)
+
+The clean irreducible norm now has an exact dual complement. Interpolating
+`(X^N-1)/Q_gamma` over all `4m+1` supported slopes and eliminating against
+the domain-side complement gives
+
+```text
+Q A+H B=X^N-1,       deg_z B<=m-1,
+W B-(X-x_0)=Q K.
+```
+
+Hence `WB=X-x_0` on the irreducible curve. Taking the parameter resultant,
+with `q_inf=[z^m]Q` and actual degrees `b=deg_z B`, `w=deg_z W`, gives
+
+```text
+Res_z(Q,W)Res_z(Q,B)=q_inf^(w+b)(X-x_0)^m.
+```
+
+The exceptional fibre factors as `Q(z;x_0)=c A_0(z)S(z)` with
+`deg A_0=m-1`. The two complements force the exact resultant allocation
+
+```text
+ord_(X-x_0)Res_z(Q,B)=1,
+ord_(X-x_0)Res_z(Q,W)=m-1,
+```
+
+and every remaining factor is supported on the single parameter-infinity
+specialization `q_inf`. An `m`th-power valuation argument further proves
+`1<=deg_z B<=m-1`, `deg_z W>=1`, and
+`deg_z K=deg_z W+deg_z B-m>=0`. The proved leaves are
+`rate_half_ca_hankel_clean_endpoint_two_sided_complement_weld` and
+`rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate`. The live
+clean theorem is now the incompatibility of this degree-`<m` linear
+unit-resultant with the maximal-separation-rank Hankel/apolar kernel curve;
+general curve theory alone does not supply that incompatibility. No critical
+status changes.
+
+## Cycle 66: clean boundary saturation and Picard dichotomy (2026-08-10, Codex)
+
+The clean weld now has exact two-axis resultants. Its top coefficient gives
+
+```text
+deg_z W=T,
+q_inf nu+P_sat omega=1,
+Res_z(Q,W)=c_W(X-x_0)^(m-1),
+Res_z(Q,B)=c_B q_inf^(T+b)(X-x_0),
+deg_X B=N.
+```
+
+Thus the entire parameter-infinity fibre belongs to `B`; the former
+boundary-free shortcut is impossible. Reciprocally,
+
+```text
+Res_X(Q,B)=constant*S,
+Res_X(Q,W)=constant*a^(deg_X W+N-1)A_0.
+```
+
+The complete intersection divisor yields the degree-one Picard identity
+
+```text
+O_C(N,-T)=O_C(P_*).
+```
+
+The associated multiplication kernel is exactly `pi_*O_C(P_*)`. Since
+
+```text
+pi_*O_C=O+O(-rho)^(m-1),
+```
+
+it is a one-point positive elementary modification with only two splitting
+types. The `O(1)+O(-rho)^(m-1)` type would make `C` isomorphic to `P^1` and
+is excluded by the positive smooth adjunction genus `(4m-2)(m-1)`. Hence the
+sole clean Picard branch is
+
+```text
+K_Q=O+O(1-rho)+O(-rho)^(m-2),       h^0(K_Q)=1.
+```
+
+Independently, the `m+1` coefficient vectors of `Q` form a common totally
+isotropic plane for four adjacent endpoint Hankel forms, with `q_inf` as the
+two infinity radicals. The live clean theorem is now incompatibility of this
+four-Hankel frame and supported-locator incidence with the unique-section
+elementary modification. Six proved leaves record the reductions and route
+fences; no critical status changes.
+
+## Cycle 67: clean socle frame and marked Veronese reduction (2026-08-11, Codex)
+
+The unique-section modification now has explicit directions on both axes.
+Writing
+
+```text
+Q(z;x_0)=A_0(z)S(z),
+Q(S;X)=(X-x_0)C_0(X),
+```
+
+the fibre-socle classes `[A_0]` and `[C_0]` map under the two Serre-dual
+connecting maps to the rational-normal evaluation directions `ev_S` and
+`ev_x0`. This remains exact in the repeated-root branch and independently
+forces the unique-section splitting under both finite projections.
+
+The domain direction permits an exact deletion of the deficient row from
+the Hankel frame. If `U` is the remaining generic joint source support, a
+Vandermonde-radical argument excludes `|U|=rho` and `|U|=rho+1`; hence
+
+```text
+|U|>=rho+2=4m+1.
+```
+
+A generic source combination therefore gives a full-support relation
+
+```text
+sum_(x in U) lambda_x v_xv_x^T=0,       lambda_x!=0,
+v_x=(Q_0(x),...,Q_m(x)),
+```
+
+on at least `4m+1` fully saturated squarefree locators split on the common
+supported set. The proved nodes are
+`rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction`,
+`rate_half_ca_hankel_clean_endpoint_picard_two_projection_socle_frame`, and
+`rate_half_ca_hankel_clean_endpoint_marked_row_split_veronese_dependency`.
+The live clean theorem is incompatibility of this tensor dependence with
+the simultaneous degree-`rho` domain interpolation and supported-root
+incidence. No critical status changes.
+
+## Cycle 68: clean marked adjugate subset ledger (2026-08-11, Codex)
+
+Contracting the full rectangular Hankel pencil at the marked domain point
+gives the square pencil
+
+```text
+L(t)=H_1(t)-x_0H_0(t),       rank_F(t)L(t)=rho.
+```
+
+Its adjugate and scalar factor are exact:
+
+```text
+adj L(t)=D(t)q(t)q(t)^T,
+D(t)=c Delta(t)Q(t;x_0)=c Delta(t)A_0(t)S(t),
+deg Delta=m-1,       deg D=2m-1.
+```
+
+Factoring `L` through the marked Vandermonde support gives a printed
+Cauchy-Binet expansion of every cofactor over all `rho`-subsets. The corner
+minors are ordinary nonzero Vandermondes; interior generalized minors may
+vanish and no termwise positivity is used. Since the marked fibre factor has
+exactly `m-1` distinct supported roots and `Delta` has degree `m-1`, at least
+`2m+3` supported slopes specialize the subset ledger to the nonzero outer
+square of a fully split locator.
+
+The proved node is
+`rate_half_ca_hankel_clean_endpoint_marked_adjugate_subset_ledger`. The next
+clean gate is to combine the corner subset identity, or its sparse
+Forney-weight form, across those `2m+3` slopes with the degree-`m` motion of
+`q`. No critical status changes.
+
+## Cycle 69: clean Forney resultant normalization (2026-08-11, Codex)
+
+The sparse moment representation now has a canonical polynomial numerator.
+For the reciprocal locator `q^vee`, set
+
+```text
+N(t;Z)=[q^vee(t;Z)sum_(i=0)^(rho-1)y_i(t)Z^i]_(<rho),
+P(t;X)=X^(rho-1)N(t;X^(-1)).
+```
+
+Then `P` has bidegree at most `(rho-1,m+1)`, and at every good supported
+slope its values are the exact Forney evaluations
+
+```text
+P(gamma;x)=theta_(gamma,x)partial_X q(gamma;x).
+```
+
+The top Hankel cofactor identifies their product, and formal resultant
+homogeneity gives the global polynomial identity
+
+```text
+Res_X^(rho,rho-1)(q(t;X),P(t;X))
+ =c a(t)^(2rho+2)Delta(t),       deg Delta=m-1.
+```
+
+Thus the apparent quadratic-degree resultant has only the already isolated
+degree-`m-1` regular factor after its explicit leading-coefficient power is
+removed. The proved node is
+`rate_half_ca_hankel_clean_endpoint_forney_resultant_regular_factor`. The
+remaining clean theorem is a low-degree interpolation obstruction for these
+Forney products across the at least `2m+3` good split slopes, using their
+shared supported-root incidence and the degree-`m` motion of `q`. No critical
+status changes.
+
+## Cycle 70: clean Picard--Forney endpoint close (2026-08-11, Codex)
+
+The clean strict endpoint is now excluded. On the domain-infinity chart
+`u=X^(-1)`, the full `rho+2` Hankel recurrence rows give
+
+```text
+q^vee(z;u)sum_(i=0)^(2rho+1)y_i(z)u^i
+ =N(z;u)+u^(2rho+2)R(z;u).
+```
+
+Since `N=u^(rho-1)P(z;u^(-1))`, restriction to `C:Q=0` makes the nonzero
+Forney section vanish to order `2rho+2` along the full `X=infinity` divisor.
+Its residual line bundle is
+
+```text
+L_F=O_C(-rho-3,m+1),       deg L_F=m-1.
+```
+
+The proved clean Picard point satisfies `O_C(P_*)=O_C(N,-T)`. Consequently
+
+```text
+L_F^4 tensor O_C(P_*)=O_C(-8,3).
+```
+
+The residual and point sections would make the right side effective. But
+the restriction sequence
+
+```text
+0 -> O(-rho-8,3-m) -> O(-8,3) -> O_C(-8,3) -> 0
+```
+
+and Kunneth give `H^0(C,O_C(-8,3))=0` for `m>3`. This contradiction uses
+only integrality and applies to the official `m=2^37` row. The proved node
+is `rate_half_ca_hankel_clean_endpoint_picard_forney_contact_exclusion`.
+The live strict endpoint is now confined to positive omission defect
+`1<=O<=m-1`; the `O=0` branch needs no further casework. The critical node
+remains open because those defect strata and the adjacent unsafe witness are
+not yet closed.
+
+## Cycle 71: full first strict endpoint close (2026-08-11, Codex)
+
+The contact argument now closes every `e=m` omission-defect stratum. The
+full Hankel recurrence gives, without a clean or irreducibility assumption,
+a nonzero residual section
+
+```text
+s_F in H^0(C,O_C(-rho-3,m+1)).
+```
+
+For the grid ratio `G(X)/H(z)`, the pole-cancellation ideal `J=(H:G)` has
+
+```text
+length(O_C/J)<=sum_(gamma in Z)(rho-u_gamma)=O<=m-1.
+```
+
+On the official even row, `ell=m/2-1` and
+`h^0(O(1,ell))=m`. A nonzero biform `F` of degree `(1,ell)` therefore clears
+the entire pole scheme and gives a regular section
+
+```text
+s_G=FG/H in H^0(C,O_C(N+1,ell-T)).
+```
+
+Every component has domain degree at least four, so `s_G` is nonzero on
+every component. Since `C` is reduced, `s_F^4s_G` is a nonzero section of
+
+```text
+O_C(-7,ell+3).
+```
+
+The Cartier restriction sequence and Kunneth give zero sections because
+`ell+3-m=2-m/2<0`. This contradiction excludes all
+`0<=O<=m-1`, including every reducible positive-defect pattern. The proved
+nodes are `rate_half_ca_hankel_endpoint_forney_infinity_contact_section` and
+`rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion`.
+
+The first strict `A=3`, `e=m` endpoint is closed. The live strict frontier
+now starts at `e>m`, alongside the residual `A=1` profiles and the independent
+adjacent-unsafe obligation. The critical node itself remains open.
+
+## Cycle 72: strict `A=3` single-corner reduction (2026-08-11, Codex)
+
+The Forney contact section extends to every strict moving degree:
+
+```text
+s_F in H^0(C,O_C(-rho-3,e+1)),
+deg L_F=delta=rho-3e.
+```
+
+For `T=4e+1-h`, a biform of degree
+`(1,floor(delta/2))` clears the full pole scheme of `G/H`, whose length is at
+most `O<=delta`. Three contact copies then give a nonzero section of
+
+```text
+O_C(rho-4,-e+floor(delta/2)+h+2).
+```
+
+Surface cohomology makes this impossible whenever
+
+```text
+floor(delta/2)+h+2<e.
+```
+
+The official integer range has exactly one exception:
+
+```text
+e=floor(rho/3)=(4m-2)/3,
+delta=1,
+h=e-2,
+T=rho+2=4m+1.
+```
+
+Thus all strict `A=3` profiles except this minimal-violation corner are now
+excluded; the survivor has `O<=1` and total rank loss at most one. The proved
+node is `rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion`, using
+the generalized
+`rate_half_ca_hankel_endpoint_forney_infinity_contact_section`.
+
+The critical node remains open only through this strict corner, the residual
+`A=1` profiles, and the independent crossing/unsafe obligations.
+
+## Cycle 73: final strict-corner Picard pin (2026-08-11, Codex)
+
+The sole corner is now integral. If `d<=1` is the actual pole length of the
+grid ratio `G/H`, a form of bidegree `(d,0)` clears it. Three contact sections
+then descend through
+
+```text
+H^0(C,O_C(rho-5+d,0))=H^0(P^1_X,O(rho-5+d))
+```
+
+to the exact identity
+
+```text
+s_F^3(FG/H)=A_d(X).
+```
+
+Because an `X`-only polynomial cannot vanish on a mixed component, `s_F` is
+nonzero on every component. Writing a component bidegree as `(r_i,e_i)` and
+`a_i=4e_i-r_i`, its contact degree is
+
+```text
+l_i=e e_i-(e+1)a_i>=0,       sum_i l_i=1.
+```
+
+Coprimality makes `l_i=0` impossible, so there is exactly one component.
+Thus `C` is absolutely irreducible and
+
+```text
+O_C(-rho-3,e+1)=O_C(P_*)
+```
+
+for one effective degree-one Cartier point. The proved node is
+`rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin`.
+
+The live strict theorem is now only incompatibility of this point and the
+univariate identity with the supported-grid divisor, separately for
+`d=0,1`. The critical node remains open.
+
+## Cycle 74: strict `A=3` branch closure (2026-08-11, Codex)
+
+On the normalized final-corner curve, decompose the grid divisors as
+
+```text
+D_G=K+Z_+,       D_H=K+P_-,       p=deg P_-<=O<=1.
+```
+
+The support of `K` is exactly the distinct grid incidence set, so its total
+multiplicity in excess of one per incidence is `O-p<=1-p`. The Picard-pin
+identity has divisor
+
+```text
+3P_*+Z_+ + dE_F-P_-=pi_X^* div(A_d),       d<=1.
+```
+
+Every fibre on the right is complete. If the clearing fibre is absent from
+`P_*`, completeness forces `K=3P_*` and costs two excess units. If the two
+fibres coincide, completeness forces `K+P_-=3P_*` and costs `2-p` excess
+units. The ledger permits only `1-p`, a contradiction in both cases.
+
+The proved node is
+`rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion`. Together
+with the slope-slack theorem, it excludes every strict `A=3` moving-kernel
+profile. Only the residual `A=1` profiles and the independent crossing and
+adjacent-unsafe obligations remain live in this critical target.
+
+## Cycle 75: `A=1` core-free contact reduction (2026-08-11, Codex)
+
+The core-free half-distance branch has a canonical Forney section. The
+`rho` available Hankel recurrence rows give contact order `2rho`, hence
+
+```text
+s_F in H^0(C,O_C(-rho-1,e+1)),       deg L_F=rho-e.
+```
+
+Let `p` be the actual pole-ideal colength and put `ell=4e-T`. Adaptive pole
+interpolation, with domain degree `alpha` equal to `2`, `1`, or `0` in the
+three ranges cut by `e=rho/2` and `e=rho`, combines with three contact
+sections to exclude every profile satisfying
+
+```text
+floor(p/(alpha+1))+ell+3<e.
+```
+
+Every survivor therefore has `p>=(alpha+1)(e-ell-3)`. At the first live
+degree `e=m+1`, only `ell=0,1,2` occur and the remaining pole deficiencies
+`Delta-p` are at most `5`, `8`, and `11`. The proved nodes are
+`rate_half_ca_hankel_a1_core_free_forney_contact_section` and
+`rate_half_ca_hankel_a1_core_free_pole_slack_exclusion`.
+
+This narrows but does not close `A=1`: the three finite-deficiency chambers,
+higher core-free degrees failing the inequality, and fixed-core `s=1,2`
+profiles remain live.
+
+## Cycle 76: `A=1` fixed-core-two closure (2026-08-11, Codex)
+
+Fixed-core contraction preserves the contact construction. If `s` is the
+core size and `d=rho-s`, the residual pencil still has `rho` rows, so its
+contact order is `d+rho` and
+
+```text
+s_F in H^0(C,O_C(-rho-1,e+1)),
+deg L_F=d-(s+1)e=Delta.
+```
+
+For `s=1,2`, a pole-clearing form of bidegree `(2,floor(p/3))` and three
+contact sections exclude every profile satisfying
+
+```text
+floor(p/3)+ell+3-beta<e,       beta=T_max-4e.
+```
+
+The inequality holds for every `s=2` integer profile, including the
+`Delta=0,beta=2` boundary. It also excludes the first `s=1` degree
+`e=m+1`; any higher `s=1` survivor must satisfy `p>=3(e-ell-2)`. The proved
+nodes are `rate_half_ca_hankel_a1_core_stripped_forney_contact_section` and
+`rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion`.
+
+The complete `A=1` core-two branch is closed. The remaining `A=1` frontier
+is core-free `s=0` plus higher fixed-core-one `s=1` profiles.
+
+## Cycle 77: `A=1` low-degree prefix exclusions (2026-08-11, Codex)
+
+Using four rather than three contact copies makes the target domain degree
+negative and permits a degree-three pole interpolant. When
+`3(e+1)<rho+1`, a profile is impossible if
+
+```text
+floor(p/4)+ell+4-beta<e.
+```
+
+At the official `m=2^37`, this excludes
+
+```text
+s=0: m+1<=e<=floor(12m/11)-1,
+s=1: m+1<=e<=floor(6m/5)-1.
+```
+
+The first unexcluded degrees are `149933403787` and `164926744166`.
+In particular, the three finite pole-deficiency chambers formerly retained
+at core-free degree `e=m+1` are all empty. The proved node is
+`rate_half_ca_hankel_a1_four_contact_low_degree_exclusion`.
+
+The live `A=1` frontier consists of the upper core-free and core-one degree
+ranges starting at these two exact thresholds; core two remains closed.
+
+## Cycle 78: `A=1` sharp-cap closure (2026-08-11, Codex)
+
+No `A=1` failure can attain its Euclidean slope cap `ell=0`. For core one,
+the three-contact theorem gives
+
+```text
+ell>=e-2-floor(Delta/3)>=1.
+```
+
+For core-free profiles, four contacts exclude `e=m+1,m+2` and three
+contacts exclude every sharp profile from `e=m+3` through `e=rho`. Core two
+is already empty. The proved node is
+`rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion`.
+
+This retires the historical maximal-degree core-one corrected-square route
+as a live frontier: its necessary reductions remain valid, but their
+sharp-cap parent is now impossible. All remaining `A=1` profiles have
+positive slope slack and lie in the upper `s=0,1` degree ranges.
+
+## Cycle 79: core-one quartic-carrier exclusion (2026-08-11, Codex)
+
+The four-contact argument admits one more domain degree on the core-one
+branch. A biform of bidegree `(4,floor(p/5))` clears the pole scheme, and
+four contact copies would produce a section of
+
+```text
+O_C(-1,floor(p/5)+ell+3).
+```
+
+Containment creates no exceptional branch. If the clearing form contains
+every contact-active component, their product has domain degree at most
+four. All other components are contact-inactive and divide the Forney
+numerator, so cancelling their product from the full recurrence leaves a
+degree-at-most-four kernel vector for the generic rank-`d` contracted Hankel
+pencil. Its unique primitive kernel has degree `d=rho-1>4`.
+
+The proved node
+`rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion` excludes every
+official core-one degree
+
+```text
+m+1<=e<=floor(16m/13)-1.
+```
+
+Thus the first live core-one degree moves from `164926744166` to
+`169155635042`. At every later degree a survivor must satisfy
+
+```text
+ell>=e-3-floor(Delta/5)
+```
+
+in addition to the prior three-contact bound. The core-free threshold
+remains `149933403787`.
+
+## Cycle 80: general core-one adjugate and first cubic corner (2026-08-11, Codex)
+
+For every core-one degree, contraction gives a square symmetric middle
+Hankel pencil of size `d+1` and generic corank one. Its primitive degree-`e`
+kernel vector satisfies
+
+```text
+adj M=D q q^T,       deg D=Delta=d-2e.
+```
+
+The common cofactor factor `D` is the regular Kronecker determinant. Local
+pole length is bounded by local rank loss and then by `ord(D)`, so the
+pushed-forward pole divisor is an effective subdivisor of `div(D)`.
+
+At the first remaining official core-one degree
+
+```text
+e=floor(16m/13)=169155635042,
+```
+
+the carrier inequality meets the maximal slack exactly. Every failure is
+therefore forced to
+
+```text
+ell=126866726279,       T=rho+2,
+Delta-3<=p<=O<=sum c_gamma<=Delta.
+```
+
+Thus `D=P_pE_3` with `deg E_3<=3`, and at least `T-Delta=2e+3` supported
+fibres are clean and completely split. The proved nodes are
+`rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization` and
+`rate_half_ca_hankel_a1_core_one_first_surviving_cubic_residual_corner`.
+The next finite-defect target is the cubic residual factor coupled to those
+clean fibres; the corner itself is not yet excluded.
+
+## Cycle 81: Forney pole absorption and direct three-contact close (2026-08-11, Codex)
+
+The Forney numerator clears the pole scheme without interpolation. On each
+supported residual fibre, write
+
+```text
+Qbar=Q_min R,       G=Q_min G_1.
+```
+
+The recurrence numerator factors as `N_F=R N_min`, so
+`Qbar` divides `N_FG`. In the full fibre algebra this is exactly
+
+```text
+N_F in (H:G).
+```
+
+Thus one contact copy makes `s_FG/H` regular. Three copies give a nonzero
+section of
+
+```text
+O_C(d-3,ell-e+3-beta).
+```
+
+Restriction-sequence vanishing forces `ell>=e-3+beta`. Combining this with
+the maximal-slack ledger excludes both `s=0` and `s=1` whenever
+`3e<rho-1`.
+
+The two live core ranges now share the first degree
+
+```text
+e_0=ceil((rho-1)/3)=183251937963.
+```
+
+At `e_0` there are exactly six profiles:
+
+```text
+s=0: ell=e_0-3,e_0-2,e_0-1;
+s=1: ell=e_0-2,e_0-1,e_0;
+T=rho+4,rho+3,rho+2.
+```
+
+The proved nodes are `rate_half_ca_hankel_a1_forney_pole_ideal_absorption`
+and `rate_half_ca_hankel_a1_direct_three_contact_exclusion`. They retire the
+earlier cubic-residual corner at `e=floor(16m/13)` as a live target.
+
+## Cycle 82: six bounded first-degree residuals (2026-08-11, Codex)
+
+At the six boundary profiles, put
+
+```text
+j=ell-e+3-beta in {0,1,2}.
+```
+
+The direct three-contact section lies in `O_C(d-3,j)`. Since
+
+```text
+H^0(O(-3,j-e))=H^1(O(-3,j-e))=0,
+```
+
+it extends uniquely to a nonzero ambient biform `A_j` of bidegree
+`(d-3,j)`. At every residual domain row `x`, the full missing-root factor
+
+```text
+R_x=Qbar(x)/gcd(Qbar(x),H),       deg R_x=e-d_x,
+```
+
+divides `A_j(x)`. Thus every row with deficit greater than `j` is a common
+split `X`-factor of all coefficients of `A_j`.
+
+Removing the product of these heavy rows and applying the exact capacity
+ledger leaves only
+
+```text
+s=0: (5,0), (12,1), (18,2);
+s=1: (2,0), (9,1), (15,2).
+```
+
+The proved nodes are
+`rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization` and
+`rate_half_ca_hankel_a1_first_degree_bounded_residual_table`. The next proof
+should classify these six small residual biforms, starting with the two
+parameter-constant cases.
+
+## Cycle 83: constant residual heavy-incidence pin (2026-08-11, Codex)
+
+For `j=0`, cancel the split heavy-row factor from both the ambient identity
+and residual domain locator. At every supported incidence on a removed row,
+regularity forces the Forney numerator to vanish. In the fibre factorization
+
+```text
+Qbar_gamma=Q_min R_gamma,       N_F=R_gamma N_min,
+```
+
+such an incidence belongs to the excess factor `R_gamma`. Therefore the
+total heavy incidence count `I_H` satisfies `I_H<=sum c_gamma<=Delta`.
+
+The remaining `3rho+3+a` rows are saturated. Exact incidence balance gives
+
+```text
+s=0: I_H+O=(6-a)e-3,       Delta=2e-1;
+s=1: I_H+O=(3-a)e-6,       Delta=e-2.
+```
+
+Together with the bounded residual table, this leaves
+
+```text
+s=0,j=0: a in {2,3,4,5};
+s=1,j=0: a in {1,2}.
+```
+
+At `s=0,a=2`, the two gaps from `I_H,O<=Delta` total one; at `s=1,a=1`
+they total two. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin`.
+
+## Cycle 84: constant-residual triple-tangency packets (2026-08-11, Codex)
+
+After cancelling the heavy factor, write the scalar residual as `R_a(X)`.
+At a heavy supported incidence on a row where `R_a` is nonzero, the exact
+cube identity has local form
+
+```text
+L_gamma=unit*s_F^3.
+```
+
+The horizontal intersection length is therefore divisible by three. The
+minimal split recurrence factor contributes one simple root, so the excess
+factor consumes at least two degrees at every such ordinary incidence.
+Incidences on heavy roots of `R_a` consume at least one degree. Hence
+
+```text
+2I_0+I_E<=sum_gamma c_gamma<=Delta.
+```
+
+This classifies the two smallest scalar residuals. For `s=0,a=2`, `R_2`
+has two distinct heavy domain roots, `O=Delta`, and the row-deficit packets
+are
+
+```text
+({1,1}, I_0=0),       ({1,2}, I_0=1).
+```
+
+For `s=1,a=1`, the unique root of `R_1` is a heavy row of deficit `2..6`.
+There are exactly six gap packets and at most two ordinary heavy
+incidences. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets`.
+
+## Cycle 85: first core-one packet becomes a two-point Picard obstruction (2026-08-11, Codex)
+
+In the core-one packet `(u,v,I_0,c)=(0,2,0,2)`, all `Delta=e-2` excess
+degrees occur at the distinguished row `x_*`. Exactly `e-4` slopes make
+`x_*` a repeated minimal root and exactly two slopes `alpha,beta` make it a
+new simple excess root. The local cube identity fixes the vertical
+multiplicities, giving
+
+```text
+D=P_ord L_alpha L_beta,
+Qbar(U,V;x_*)=P_ord L_alpha^2 L_beta^2.
+```
+
+The adjugate factor `D` is squarefree. Moreover
+
+```text
+N_F(U,V;x_*)=D C_3,       deg C_3<=3,
+partial_X Qbar(U,V;x_*)=P_ord S_4,       deg S_4<=4.
+```
+
+The contact zero divisor is the vertical fibre minus one extra copy at each
+double parameter root. Equivalently,
+
+```text
+O_C(rho+2,-e-1)=O_C(P_alpha+P_beta),
+```
+
+an effective degree-two Picard relation. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form`.
+
+## Cycle 86: two-point pushforward dichotomy (2026-08-11, Codex)
+
+Push the degree-two Picard line bundle along the finite domain projection.
+The two points lie above the same row but are distinct on `C`, so they give
+a rank-two exponent-`(1,1)` elementary modification of
+
+```text
+pi_*O_C=O direct_sum O(-d)^(e-1).
+```
+
+There are exactly two splittings:
+
+```text
+O(1) direct_sum O(1-d) direct_sum O(-d)^(e-2),
+O direct_sum O(1-d)^2 direct_sum O(-d)^(e-3).
+```
+
+The first has two sections and yields a degree-at-most-two pencil after
+removing its base divisor. The second has only the canonical section
+cutting out the two points. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy`.
+
+## Cycle 87: all six core-one packets have bounded divisor tails (2026-08-11, Codex)
+
+For any core-one scalar packet, let `x_*` be the unique distinguished heavy
+row, `P_*` its squarefree supported-slope locator, and
+
+```text
+c=2+u+I_0<=6.
+```
+
+The complete official-size factors reduce to
+
+```text
+Qbar(U,V;x_*)=P_* K_c,
+D=P_* E_(c-2),
+N_F(U,V;x_*)=P_* C_(c+1),
+```
+
+with tail degrees at most `6`, `4`, and `7`. If `R_0` is the divisor of the
+at-most-two ordinary heavy incidences, then the contact divisor gives
+
+```text
+O_C(rho+2,-e-1)=O_C(Z_c-R_0-E_u),
+deg Z_c=c<=6,       deg E_u=u<=2,
+deg(Z_c-R_0-E_u)=2.
+```
+
+Thus all six tangent packets are bounded signed-divisor problems. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form`.
+
+## Cycle 88: both core-free packets have a degree-one Picard normal form (2026-08-11, Codex)
+
+Let `P_1,P_2` be the supported-slope radicals of the two distinguished
+heavy rows. Their row tails have degrees `{1,1}` or `{1,2}`, and
+
+```text
+Qbar(U,V;x_i)=P_i K_i,
+N_F(U,V;x_i)=P_i C_i,       deg C_i<=3,
+```
+
+with the two Forney quotients not both zero. If `D_reg` is the regular
+Kronecker determinant and `I_0` is zero or one, then
+
+```text
+D_reg=P_1P_2 L_0^(2I_0)E_(1-I_0).
+```
+
+Thus the packet with one ordinary triple incidence completely factors the
+regular determinant; the other leaves one root. The contact divisor yields
+
+```text
+O_C(rho+3,-e-1)=O_C(Z_1+Z_2-R_0-E_1),
+deg(Z_1+Z_2-R_0-E_1)=1.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form`.
+
+## Cycle 89: core-free residual degree two is excluded (2026-08-11, Codex)
+
+Both core-free packets have `O=Delta`, so equality holds throughout the
+omission and regular-determinant budget. Every excess root must therefore
+overlap the squarefree minimal split locator; no new simple domain root is
+available.
+
+Each packet has a distinguished row of deficit one. With one minimal and
+one excess copy, every supported horizontal root has multiplicity two. The
+local cube identity forces the corresponding vertical multiplicities to be
+`1 mod 3`, while unsupported vertical roots have multiplicity `0 mod 3`.
+The resulting vertical degree is `e-1 mod 3`, not the official
+`e=0 mod 3`.
+
+In the packet with no ordinary incidence, the sole remaining determinant
+order cannot repair this: spending it at one row root raises the minimum
+vertical multiplicity from one to three, producing total degree `e+1`.
+The other packet has no unspent determinant order. Thus both are empty and
+
+```text
+s=0,j=0: a in {3,4,5}.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion`.
+
+## Cycle 90: first tangent packet has only the canonical Picard section (2026-08-11, Codex)
+
+In the vertical fibre at `x_*`, the two doubled parameter roots give local
+algebras `Fbar[s_alpha]/(s_alpha^2)` and
+`Fbar[s_beta]/(s_beta^2)`. The two positive elementary-modification
+directions are the nilpotent classes `s_alpha,s_beta`. They vanish on all
+other `e-4` fibre factors, while the constant direction does not.
+
+Thus their span misses the constant line and projects with rank two to the
+negative block of `pi_*O_C`. The PENCIL splitting is impossible; necessarily
+
+```text
+pi_*O_C(P_alpha+P_beta)
+ =O direct_sum O(1-d)^2 direct_sum O(-d)^(e-3),
+h^0(C,O_C(P_alpha+P_beta))=1.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion`.
+
+## Cycle 91: all no-ordinary tangent packets are unique-section classes (2026-08-11, Codex)
+
+For each core-one packet with `I_0=0`, the nonbaseline regular-rank budget is
+at most two. The local horizontal multiplicity is therefore at most four.
+The cube congruence `m+n=0 mod 3` gives `2n>=m` at every point of the
+distinguished vertical fibre.
+
+An exact omission lower bound forces all residual contact degree `u` onto
+that fibre. Coefficientwise,
+
+```text
+H_2=Z_c-E_u
+```
+
+is therefore an effective degree-two proper subdivisor of the vertical
+fibre. Its length-two modification directions lie in the fibre nilpotent
+ideal and miss the constant line. Thus all three packets
+
+```text
+(u,v,I_0,c)=(0,2,0,2),(1,1,0,3),(2,0,0,4)
+```
+
+have the CANONICAL pushforward splitting and exactly one section. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets`.
+
+## Cycle 92: exact normal forms for all signed tangent packets (2026-08-11, Codex)
+
+The excess-degree and omission identities are exact in all three packets
+with `I_0>0`. They force every ordinary incidence to have one minimal and
+two excess copies, horizontal multiplicity three, and contact multiplicity
+one. The sole spare rank-loss copy in `(2,0,1,5)` is forced onto one
+distinguished incidence.
+
+The vertical cube ledger then gives effective divisors `A,B` of bounded
+degree and the exact signed classes
+
+```text
+(1,1,1,4): O_C(rho+2,-e-1)=O_C(A+2B-R_0), deg A=deg B=1;
+(2,0,1,5): O_C(rho+2,-e-1)=O_C(A+2B-R_0), deg A=deg B=1;
+(2,0,2,6): O_C(rho+2,-e-1)=O_C(2B-R_0),   deg B=2.
+```
+
+No rank-loss or contact degree remains unallocated. The classes are still
+signed and are not asserted effective. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms`.
+
+## Cycle 93: signed tangent packets have no degree-two section (2026-08-11, Codex)
+
+In each signed normal form, the positive divisor `P_pos` is coefficientwise
+a proper subdivisor of the distinguished vertical fibre. Its degree is
+`r=3` in the first two packets and `r=4` in the last. The `r`
+elementary-modification directions lie in the fibre nilpotent ideal and miss
+the constant line. Therefore
+
+```text
+pi_*O_C(P_pos)=O direct_sum O(1-d)^r direct_sum O(-d)^(e-1-r),
+h^0(C,O_C(P_pos))=1.
+```
+
+The unique section cuts out `P_pos`. The nonempty ordinary divisor `R_0` lies
+on other domain fibres, so subtracting it kills that section. Hence all
+three signed packets satisfy
+
+```text
+h^0(C,O_C(rho+2,-e-1))=0.
+```
+
+Together with cycle 91, the six tangent packets have complete section table
+`1,1,1,0,0,0`, grouped by `I_0=0` and `I_0>0`. This classifies but does not
+exclude them. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing`.
+
+## Cycle 94: scalar residual-root rows have an exact correction law (2026-08-11, Codex)
+
+For any heavy row `x` at a root of the scalar residual, let `c_x` be its row
+deficit, `t_x` the number of distinguished excess roots outside the minimal
+locator, and `epsilon_x` the excess multiplicity beyond one copy per
+distinguished incidence. Summing the cancelled cube identity over the
+complete vertical fibre and using `3|e` gives
+
+```text
+c_x+epsilon_x-t_x=0 mod 3.
+```
+
+Thus a full-overlap row of deficit `0,1,2 mod 3` costs respectively
+`0,2,1` correction copies, and the global rank budget gains the sum of these
+row costs. This packages the mechanism that killed core-free degree two and
+now applies uniformly to the remaining scalar degrees `3,4,5`. It is a
+necessary constraint, not an exclusion. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction`.
+
+## Cycle 95: the first fifth of the cubic gap has two root patterns (2026-08-11, Codex)
+
+For the core-free scalar residual `a=3`, exact omission accounting and the
+simple-root vertical bound give
+
+```text
+u+v=e+1,
+(3-r)e<=3u+2I_0<=5u
+```
+
+whenever all `r` heavy residual roots are simple. A triple-root residual
+requires `2u>=e`. Therefore throughout
+
+```text
+5u<e
+```
+
+the cubic is forced into exactly one of two patterns:
+
+```text
+SQUAREFREE: three distinct heavy roots;
+DOUBLE:     one double and one simple root, both heavy.
+```
+
+This excludes triple roots and roots outside the heavy set for
+`0<=u<=36650387592`. Both retained patterns remain live. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router`.
+
+## Cycle 96: the gap-one double-root cubic has four exact packets (2026-08-11, Codex)
+
+In the core-free cubic branch at `u=1`, retain a double residual root and a
+simple residual root. Exact excess-degree accounting, ordinary cube
+divisibility, and the root-row correction congruences leave exactly
+
+```text
+I_0  c_s c_d  epsilon_s epsilon_d  w   t_s   t_d
+ 0    1   1       0         0      1    1    e-2
+ 0    1   1       1         0      0    2    e-2
+ 0    1   1       0         1      0    1    e-1
+ 1    2   1       0         0      0    2    e-2.
+```
+
+All vertical and contact degree is then forced. The first three packets have
+
+```text
+O_C(rho+3,-e-1)=O_C(A),       h^0=1,
+```
+
+while the ordinary packet has
+
+```text
+O_C(rho+3,-e-1)=O_C(A+B-R_0), h^0=0.
+```
+
+This is a complete normal-form and section classification; it does not yet
+exclude any packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms`.
+
+## Cycle 97: the squarefree gap-one cubic has one corrected row (2026-08-11, Codex)
+
+For the squarefree cubic branch at `u=1`, put
+
+```text
+q_i=c_i+epsilon_i-t_i
+```
+
+on its three simple heavy root rows. The exact outside-degree audit leaves
+only the global charge regimes
+
+```text
+(I_0,w,sum epsilon_i)=(0,1,0),(0,0,1),(1,0,0).
+```
+
+Every `q_i` is a nonnegative multiple of three, while exact omission gives
+
+```text
+q_1+q_2+q_3=3.
+```
+
+Thus exactly one row has `q_i=3`. Its unaugmented, augmented-new, and
+augmented-overlap vertical/contact divisors are respectively forced to the
+forms
+
+```text
+(R+N+3P, R+P),
+(R+N-J+3P, R+P),
+(R+N+2J, R+J).
+```
+
+The complete contact divisor is `R_1+R_2+R_3+P_h+I_0R_0`. Unlike the
+double-root branch, the induced Picard class has degree `e+1`; bounded-degree
+section vanishing is therefore not a closing route. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms`.
+
+## Cycle 98: the core-one quadratic starts with two exact root patterns (2026-08-11, Codex)
+
+For the remaining core-one scalar quadratic, the exact gap identity is
+
+```text
+u+v=e+2,
+```
+
+so `u>=4`. At `u=4`, omission vanishes. Every excess root is simple and new,
+ordinary incidences disappear, and the complete excess degree is `e-6`.
+
+If the quadratic has a double root, that heavy row has deficit six and
+
+```text
+V_*=R_*+3B,
+div(s_F)=R_*+2B,
+O_C(rho+2,-e-1)=O_C(B),       deg B=2,       h^0=1.
+```
+
+If the quadratic is squarefree, both roots are heavy. Parity and the local
+cube correction force, up to exchange,
+
+```text
+(c_1,c_2)=((e+3)/2,(e+9)/2),
+(q_1,q_2)=(3,9).
+```
+
+Their vertical/contact forms are `V_i=2R_i+3P_i` and `D_i=R_i+P_i`, with
+`deg(P_1,P_2)=(1,3)`. The induced effective Picard class has degree `e+2`.
+Both patterns remain live. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms`.
+
+## Cycle 99: the first fifth of the core-one quadratic has two root patterns (2026-08-11, Codex)
+
+For every core-one scalar quadratic gap, exact heavy-incidence accounting
+gives
+
+```text
+u+v=e+2,       O=u-4.
+```
+
+If `E` is the set of heavy residual-root rows, new-root capacity gives
+
+```text
+t_E>=e+2-2u-I_0+epsilon_E.
+```
+
+At a simple residual root, vertical degree gives
+`t_x<=c_x+epsilon_x`. Hence if `r` heavy residual roots are simple,
+
+```text
+(2-r)e<=3u+2I_0<=5u.
+```
+
+Throughout `5u<e`, a squarefree residual with only one heavy root is
+impossible. Since the heavy incidence count is positive, the complete
+dichotomy is
+
+```text
+DOUBLE:     one heavy double root;
+SQUAREFREE: two heavy simple roots.
+```
+
+This holds for every official integer `4<=u<=36650387592`. It routes but
+does not exclude either branch. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router`.
+
+## Cycle 100: retained double-root branches are exact global cube problems (2026-08-11, Codex)
+
+For any parameter-constant scalar residual with multiplicities at most
+three, let `J=rad(R_a)`. The cancelled ambient identity gives, in the total
+quotient ring of `C`,
+
+```text
+(J/s_F)^3=(J^3/R_a)(G_L/H).
+```
+
+The two retained double-root branches therefore satisfy
+
+```text
+core-free cubic:
+ ((X-x_s)(X-x_d)/s_F)^3
+  =(X-x_s)^2(X-x_d)G_L/H;
+
+core-one quadratic:
+ ((X-x_d)/s_F)^3=(X-x_d)G_L/H.
+```
+
+Their bounded Picard sections are exactly these cube roots: `O_C(A)` in the
+no-ordinary cubic packets and `O_C(B)` in the quadratic double packet. The
+ordinary cubic root instead has divisor `A+B-R_0` and its predicted pole.
+
+Thus section uniqueness is compatible with the scalar ambient equation.
+Closing either double-root branch now requires a Hankel/apolar theorem that
+the printed separated locator ratio is not a cube. The strict `A=3`
+separated-pullback theorem does not apply to this mixed rational cube root,
+and characteristic three must be treated separately in any Kummer-cover
+argument. The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge`.
+
+## Cycle 101: the global cube obstruction has an exact resultant test (2026-08-11, Codex)
+
+Let `q_d(z)` be the leading `X` coefficient of `Q`, and let `P(X)` be the
+explicit numerator in either double-root cube identity. Taking the norm from
+the finite reduced total-quotient algebra of `C` over `F(z)` gives
+
+```text
+Xi_P(z)=Res_X(Q,P)/(q_d(z)^deg(P) H(z)^d)
+       =Norm(W)^3.
+```
+
+Thus `Xi_P` must be a cube in `F(z)`. In characteristic different from
+three, every irreducible valuation must be divisible by three and the
+remaining constant must be a base-field cube. In characteristic three,
+perfectness of the finite field gives the exact test
+
+```text
+d Xi_P/dz=0.
+```
+
+Failure excludes the corresponding scalar double-root branch. Passing is
+only necessary and does not reconstruct `W` or the recurrence. The actual
+leading coefficient factor is essential, and no irreducibility of `C` is
+assumed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate`.
+
+## Cycle 102: the double-root resultants have residual degree at most two (2026-08-11, Codex)
+
+Taking the norm of the actual bounded Picard section removes the unknown
+rational cube from cycle 101. In every retained double-root packet, the
+locator numerator degree is exactly three times the first coordinate of the
+cube-root line bundle, so the complete leading-coefficient factor cancels.
+
+For each no-ordinary cubic packet,
+
+```text
+Res_X(Q,P_3)=c^3 H^rho S_A^3,       deg S_A=1.
+```
+
+For the ordinary cubic packet, if `H=L_0H_0`,
+
+```text
+Res_X(Q,P_3)=c^3 L_0^(rho-3) H_0^rho S_AB^3,
+deg S_AB=2.
+```
+
+For the core-one quadratic double packet,
+
+```text
+Res_X(Q,P_2)=c^3 H^(rho-1) S_B^3,   deg S_B=2.
+```
+
+The three residual forms are the parameter pushforwards of `A`, `A+B`, and
+`B`; they are outputs, not free variables. All total degrees agree exactly.
+Any different supported multiplicity or residual degree kills the packet.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization`.
+
+## Cycle 103: the double-root gates are explicit marked Hankel determinants (2026-08-11, Codex)
+
+The low-degree resultant factors now have an exact interface with the
+actual syndrome Hankel pencils. In the core-free branch, let `M_0` be the
+`rho x (rho+1)` residual Hankel pencil and let `nu(x)` be the coefficient
+evaluation row. There is a nonzero regular-block factor `D_0` of degree
+`2e-1` such that
+
+```text
+det stack(M_0,nu(x))=D_0 Q(U,V;x).
+```
+
+Thus the complete cubic resultant is the product of these marked
+determinants over the light rows, with multiplicities two and one at the
+simple and double residual-root rows, divided by the corresponding power
+of `D_0`.
+
+In the core-one quadratic branch, the symmetric middle Hankel pencil
+satisfies `adj M_1=D_1qq^T`, with `deg D_1=e-2`. Hence
+
+```text
+det(M_1+tau nu(x)nu(x)^T)=tau D_1Q(U,V;x)^2.
+```
+
+At the `u=4` double heavy root `x_*`, the classified vertical divisor gives
+
+```text
+Q(U,V;x_*)=c g_*S_B^3,
+det(M_1+tau nu(x_*)nu(x_*)^T)
+ =tau c^2D_1g_*^2S_B^6,
+```
+
+where `g_*` is the squarefree degree-`e-6` supported factor and `S_B` is
+quadratic. In characteristic three, `Q(z;x_*)/g_*(z)` has zero derivative.
+This is a concrete determinant gate, not yet an exclusion: any use of its
+Vandermonde/source expansion must retain signs and possible cancellation.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate`.
+
+## Cycle 104: the core-one determinant has an exact source subset sum (2026-08-11, Codex)
+
+Write `q(z)=sum_i z^iq_i` for the primitive kernel of the first-degree
+core-one symmetric middle Hankel pencil. The `e+1` coefficient vectors are
+independent and form a common totally isotropic plane for both endpoint
+Hankel forms:
+
+```text
+q_i^TM_sq_j=0,       s in {0,1}.
+```
+
+In contracted source coordinates, with
+`v_x=(Q_0(x),...,Q_e(x))^T`, these are the two exact frame cancellations
+
+```text
+sum_x omega_x^(s)v_xv_x^T=0.
+```
+
+For the quadratic double heavy row `x_*`, Cauchy--Binet gives the marked
+determinant as the explicit subset sum
+
+```text
+sum_(J subset D_res\{x_*}, |J|=d)
+ Vand(x_*,J)^2 product_(x in J)mu_x(U,V)
+ =c^2D_1g_*^2S_B^6.
+```
+
+This couples the sixth-order quadratic residual to the actual contracted
+RS source weights. It is not yet an exclusion: the Vandermonde squares are
+nonzero, but the field-valued terms may cancel. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame`.
+
+## Cycle 105: source coordinates alone cannot close the packet (2026-08-11, Codex)
+
+The contracted source weights do not carry an unspent smooth-domain
+noncancellation property. If `s_0` is the fixed core root and `v_x` are the
+nonzero dual RS multipliers, contraction gives
+
+```text
+omega_x=(x-s_0)v_xa_x,       x in D\{s_0}.
+```
+
+This is an invertible diagonal change of arbitrary endpoint word values.
+Moreover
+
+```text
+|D_res|=4rho-1,       2d+1=2rho-1,
+```
+
+so the residual Vandermonde map onto the complete middle-Hankel moment
+vector is surjective. Every endpoint Hankel pair therefore has a contracted
+RS source representation.
+
+Consequently the Cycle-104 subset sum cannot be excluded from source
+smoothness or dual multipliers alone. A valid next theorem must couple it to
+column-farness, the simultaneous supported split-locator incidence, the
+primitive minimal-index profile, or the Forney identities. This fence does
+not say that an arbitrary represented pair is column-far or realizes the
+packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence`.
+
+## Cycle 106: the quadratic packet has exact locator and center spread (2026-08-11, Codex)
+
+At `u=4`, zero omission makes every one of the `T=rho+4` supported
+specializations a squarefree split degree-`rho` locator. Their root blocks
+have the exact degree sequence
+
+```text
+one fixed core point:       degree rho+4;
+3rho+5 light points:        degree e;
+one double heavy point:     degree e-6;
+rho-7 other heavy points:   degree zero.
+```
+
+The rate-half code has minimum distance `2rho+1`, so every supported
+received word has a unique codeword center within radius `rho`. If `h`
+assigned centers lie on one affine codeword line, subtracting that line from
+the received pencil gives an affine error pair with joint support at least
+`rho+1`. Each active coordinate is nonzero at at least `h-1` slopes. The
+`e-6` slopes through the heavy point have exact error weight `rho-1`; all
+others have weight `rho`. Hence a center line containing `r` deficient
+slopes has at most `rho+1-r` assigned centers.
+
+It follows that a pair of supported locator blocks has at least three, four,
+or five other blocks with triple union of size at least `2rho+1`, according
+as the pair contains zero, one, or two deficient slopes. Otherwise their
+centers would lie on the line through the first two. This is a joint
+incidence/coding constraint, not yet an exclusion of the exact design. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread`.
+
+## Cycle 107: the exact block degrees have an abstract cyclic realization (2026-08-11, Codex)
+
+The Cycle-106 degree sequence is not itself contradictory. For every
+`e>=7`, take `3e+3` cyclic starts and mark seven of them with the balanced
+mechanical word
+
+```text
+sigma_j=floor(7(j+1)/(3e+3))-floor(7j/(3e+3)).
+```
+
+Start three light rows at every unmarked position and two at every marked
+position; each row occupies `e` consecutive blocks. Every `e`-window has
+two or three marks, so a block has `3e-2` or `3e-3` light rows. Exactly
+`e-6` blocks have the smaller size. Adding `x_*` to those blocks, adding
+the fixed core to every block, and adjoining `rho-7` inactive points
+realizes all Cycle-106 block sizes and point degrees exactly.
+
+Thus handshake, divisibility, and degree-only support arguments cannot close
+the packet. A bounded toy probe for `7<=e<=30` also found at least `e+3`
+triple-union expanders for every pair, but that is numerical evidence only.
+No RS word pair, center assignment, Hankel pencil, or cube identity is
+constructed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design`.
+
+## Cycle 108: the two-simple quadratic arm has weighted center spread (2026-08-11, Codex)
+
+In the other `u=4` root pattern, the two heavy rows occur in exactly
+
+```text
+(e-3)/2       and       (e-9)/2
+```
+
+supported locator blocks. Their incidence sets may overlap. If
+`r_gamma in {0,1,2}` counts the heavy padded roots at a slope, zero omission
+and the exact excess ledger give actual unique-error weight
+
+```text
+rho-r_gamma.
+```
+
+For an affine codeword line containing a slope set `A` of assigned centers,
+the column-far support argument sharpens to
+
+```text
+|A|<=rho+1-sum_(gamma in A)r_gamma.
+```
+
+Consequently a fixed locator pair has at least
+`3+r_alpha+r_beta` third blocks whose triple union has size at least
+`2rho+1`, between three and seven expanders. This supplies the exact joint
+incidence/coding constraint for both `u=4` quadratic root patterns. It does
+not constrain the overlap of the two heavy incidence sets or exclude the
+packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread`.
+
+## Cycle 109: the two-simple heavy rows are square-times-cube forms (2026-08-11, Codex)
+
+The exact vertical divisors of the two heavy rows push to base-field
+parameter factorizations
+
+```text
+Q(U,V;x_1)=c_1G_1^2S_1^3,
+deg G_1=(e-3)/2,       deg S_1=1;
+
+Q(U,V;x_2)=c_2G_2^2S_2^3,
+deg G_2=(e-9)/2,       deg S_2=3.
+```
+
+Here `G_i` is the squarefree supported incidence factor and `S_i` is the
+pushforward of the correction divisor. The core-one marked-Hankel identity
+therefore becomes
+
+```text
+det(M_1+tau nu(x_i)nu(x_i)^T)
+ =tau c_i^2D_1G_i^4S_i^6.
+```
+
+In characteristic three, `Q(z;x_i)/G_i(z)^2` has zero derivative. Shared
+roots among `G_1,G_2,S_1,S_2` remain allowed, so these are exact necessary
+gates rather than exclusions. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization`.
+
+## Cycle 110: all unallocated quadratic regular degree is quartic (2026-08-11, Codex)
+
+The residual regular Kronecker determinant `D_1` has degree `e-2`. At
+`u=4`, the named heavy incidences account for exact rank-loss degree `e-6`.
+Local Smith divisibility therefore leaves one binary quartic `E_4`:
+
+```text
+double root: D_1=a g_*E_4;
+two simple:  D_1=a G_1G_2E_4,
+```
+
+where a common root of `G_1,G_2` is counted twice. Combining this with the
+row factorizations gives
+
+```text
+double:   det marked=tau ac^2E_4g_*^3S_B^6;
+simple 1: det marked=tau ac_1^2E_4G_1^5G_2S_1^6;
+simple 2: det marked=tau ac_2^2E_4G_1G_2^5S_2^6.
+```
+
+Thus every unallocated regular rank-drop slope lies in a degree-four
+divisor. The quartic may be nonreduced or share roots with all named factors;
+it is not identified with `S_B^2` or `S_1S_2`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin`.
+
+## Cycle 111: three cubic packets have completely supported regular determinants (2026-08-11, Codex)
+
+For a core-free cubic double-plus-simple `u=1` packet, let
+
+```text
+P_C=product_gamma L_gamma^c_gamma
+```
+
+record the complete supported excess-recurrence divisor with multiplicity.
+The regular Kronecker determinant `D_0` has degree `Delta=2e-1`. Local Smith
+divisibility and the exact packet gap `w=Delta-sum c_gamma` give
+
+```text
+D_0=a P_C E_w,       deg E_w=w.
+```
+
+In the four packet rows, `w=1,0,0,0`. Therefore the last three regular
+determinants are exactly `a P_C`; the first has only one additional linear
+factor. Every bordered determinant sharpens to
+
+```text
+det M_0[x]=a P_C E_w Q(U,V;x).
+```
+
+The linear factor may repeat an already supported slope and is not
+identified with the degree-one Picard correction. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin`.
+
+## Cycle 112: the completely supported cubic packets are first-jet transverse (2026-08-11, Codex)
+
+Fix a supported slope with recurrence loss `c`, specialized factorization
+`Q_gamma=Q_min R_gamma`, and no zero of the residual `E_w` factor. Exact
+regular-determinant order forces all `c` positive local Smith exponents to
+equal one. The derivative moment form therefore gives the perfect pairing
+
+```text
+B_gamma(A,B)=dot Phi(Q_min^2AB),
+deg A<=c-1,       deg B<=c,
+
+rank B_gamma=c,
+rad_right(B_gamma)=span{R_gamma}.
+```
+
+At rank loss one this is the explicit first-jet test
+
+```text
+dot Phi(Q_min^2(X-r_gamma))=0,
+dot Phi(Q_min^2)!=0.
+```
+
+The pairing holds at every supported slope in the three `w=0` packets. The
+first `w=1` packet has at most the single slope cut out by `E_1` as an
+exception. This turns the exact determinant factors into field-valued local
+constraints; it is not yet a packet exclusion. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing`.
+
+## Cycle 113: the cubic first jet lives on a two-error support difference (2026-08-11, Codex)
+
+Let `S_gamma` be the exact support of the unique error at a supported slope,
+so `|S_gamma|=rho-c_gamma`. Subtract the affine codeword line through the
+unique centers at distinct slopes `alpha,beta`. The derivative moment form
+at a transverse positive-loss slope `alpha` becomes
+
+```text
+B_alpha(A,B)
+ =sum_(x in S_beta\S_alpha) mu_x A(x)B(x),
+mu_x!=0.
+```
+
+Since this pairing has rank `c_alpha`,
+
+```text
+|S_beta\S_alpha|>=c_alpha.
+```
+
+If equality holds, the square Vandermonde system and the known right radical
+force
+
+```text
+roots(R_alpha)=S_beta\S_alpha.
+```
+
+Thus equality identifies every newly introduced error location with an
+excess-recurrence root. In each of the three `w=0` packets, transversality is
+universal and every locator-support pair satisfies
+`|S_alpha union S_beta|>=rho`. The strict branch retains the exact weighted
+moment system; no positivity is assumed. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate`.
+
+## Cycle 114: column-farness kills the weak equality and pins the true boundary (2026-08-11, Codex)
+
+The codeword line through two unique centers differs from the received
+pencil on exactly `S_alpha union S_beta`. Column-farness therefore gives
+
+```text
+|S_alpha union S_beta|>=rho+1,
+|S_beta\S_alpha|>=c_alpha+1.
+```
+
+Thus Cycle 113's `c_alpha`-source equality branch never occurs in a retained
+packet. If the union has its true minimum `rho+1`, the source difference has
+exactly `c_alpha+1` points. Its Vandermonde nullspace is one-dimensional,
+and the first-jet radical forces
+
+```text
+mu_xR_alpha(x)=kappa/P_(alpha,beta)'(x),       kappa!=0.
+```
+
+Equivalently, the actual error values satisfy
+
+```text
+lambda_x e_beta(x)Q_min,alpha(x)Q_alpha(x)
+P_(alpha,beta)'(x)=kappa(beta-alpha).
+```
+
+No difference point is then a root of `R_alpha`. Larger unions retain a
+higher-dimensional cancellation space, so support cardinality alone is now
+exhausted; the next useful inputs are these weights and higher coefficient
+jets. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate`.
+
+## Cycle 115: two-support union excess controls the complete coefficient rank (2026-08-11, Codex)
+
+Expand the primitive kernel as `Q=sum_i z^iQ_i` after moving a supported
+slope `alpha` to zero. Pairing the complete coefficient recurrence, including
+the terminal equation `M_1q_e=0`, with the specialized left apolar kernel
+gives a weighted Vandermonde annihilation on
+`X=S_beta\S_alpha`. Therefore
+
+```text
+rank (Q_i(x))_(x in X,0<=i<=e)
+ <=|S_alpha union S_beta|-rho.
+```
+
+This holds in all four cubic gap-one packets and does not require local Smith
+transversality. On the minimum-union boundary `rho+1`, the rank is exactly
+one, so all `c_alpha+1` nonzero row forms
+
+```text
+Q(-;x),       x in S_beta\S_alpha,
+```
+
+are proportional and have the same parameter zero divisor with
+multiplicity. At union `rho+s`, their coefficient rank is at most `s`.
+This reduces the next gate to point separation or a classification of
+low-rank fibres of the coefficient map; neither is assumed here. The proved
+node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate`.
+
+## Cycle 116: symmetry raises every quadratic pair union to `rho+2` (2026-08-11, Codex)
+
+For the symmetric core-one residual middle Hankel pencil, a slope of rank
+loss `r_alpha` has `r_alpha+1` specialized left-kernel multiples. Applying
+the complete coefficient chain to `S_beta\S_alpha` gives
+
+```text
+|S_alpha union S_beta|>=rho+2,
+
+rank (Q_i(x))_(x in S_beta\S_alpha,0<=i<=e)
+ <=|S_alpha union S_beta|-rho-1.
+```
+
+This holds in both quadratic `u=4` root patterns. At pair union `rho+2`,
+all residual row forms on the difference are proportional. More importantly,
+the joint support of any codeword line through two assigned centers now has
+size at least `rho+2`. Therefore a line containing `h` assigned centers
+satisfies
+
+```text
+2h<=rho+2-sum r_gamma.
+```
+
+For every fixed locator pair, at least
+
+```text
+ceil((rho+6+r_alpha+r_beta)/2)
+```
+
+other slopes have triple union at least `2rho+1`. This replaces the previous
+constant lower bound `3+r_alpha+r_beta` by a linear-size bound. The Cycle-107
+abstract cyclic design was tested only against the old condition and no
+longer fences this route. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread`.
+
+## Cycle 117: the explicit cyclic quadratic design violates the spread (2026-08-11, Codex)
+
+The Cycle-107 construction remains a valid realization of the raw locator
+degree sequence, but it is not compatible with the coefficient-chain
+constraints. For every `e>=14`, one adjacent deficient pair has exactly
+`e+3` expanding third blocks. Cycle 116 requires at least
+
+```text
+ceil((3e+6)/2)>e+3.
+```
+
+Thus the explicit support-only countermodel is retired. This is not yet an
+exclusion of every abstract design with the same degrees; global incidence
+moments still leave slack. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion`.
+
+## Cycle 118: sharp quadratic pairs are clone-barycentric (2026-08-11, Codex)
+
+If a pair attains the sharp actual-support union `rho+2`, the Cycle-116
+rank bound is one. Hence the `r_alpha+2` rows on
+`S_beta\S_alpha` are nonzero proportional coefficient forms. They are light
+rows, so they share the same squarefree set of `e` supported locator slopes.
+The complete coefficient chain then fixes the endpoint errors up to scale:
+
+```text
+(f_beta-c_beta)(x)
+ =kappa/((x-s_0)v_x lambda_x L_X'(x)).
+```
+
+The reverse orientation gives the corresponding clone class and formula on
+`S_alpha\S_beta`. This is the field-valued interface needed to compare the
+sharp boundary with the Forney numerator; it does not assert that a sharp
+pair exists. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate`.
+
+## Cycle 120: the sharp quadratic pair boundary is empty (2026-08-11, Codex)
+
+The Cycle-118 clone class cannot occur. Its `e` common supported locator
+slopes, together with one endpoint, are forced onto one codeword pencil by
+the full-locator triple-union bound and minimum distance. After removing the
+fixed core point, every point in that pencil's joint support is light and
+must miss exactly one of the `e+1` selected slopes. The resulting missing
+incidence count forces deficit `e-2` on the pencil, contradicting the exact
+packet-wide deficit `e-6` in both quadratic root patterns. Therefore
+
+```text
+|S_alpha union S_beta|>=rho+3,
+3h<=rho+3-sum_(gamma in A)r_gamma.
+```
+
+Every pair has at least
+
+```text
+ceil((2rho+9+r_alpha+r_beta)/3)>=2e+3
+```
+
+expanding thirds. The next minimum pair boundary has coefficient-row rank
+at most two. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion`.
+
+## Cycle 121: the new minimum boundary is one exact rank-two split pencil (2026-08-11, Codex)
+
+At pair union `rho+3`, put `X=S_tau\S_sigma` in the orientation selected by
+the padded-heavy ledger. The complete coefficient-chain nullspace is exactly
+two-dimensional. Its barycentric basis gives independent degree-at-most-`e`
+parameter forms `A,B` with
+
+```text
+eta_x L_X'(x)Qbar(-;x)=A+xB.
+```
+
+Rank one is impossible by the Cycle-120 center-line count, so the row
+coordinate is injective. Every row form is squarefree and supported. If
+`G=gcd(A,B)`, `g=deg G`, and `m=|X|=r_sigma+3`, their residual root sets are
+pairwise disjoint and
+
+```text
+g+m(e-g)<=3e+3,
+g>=max(1,ceil((r_sigma e-3)/(r_sigma+2))).
+```
+
+Every root of `G` is center-owned by the endpoint codeword pencil. The
+positive-deficit cases therefore carry a forced linear-size common
+parameter divisor; the zero-deficit three-row case remains the least
+constrained. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_rank_two_barycentric_normal_form`.
+
+## Cycle 122: both orientations force a linear-size common gcd (2026-08-11, Codex)
+
+The source slope lies outside the complete row-root union, sharpening the
+positive-deficit root budget. At zero endpoint deficit the forward and
+reverse gcd root sets exchange the endpoints and share all nonendpoint
+roots. Their six residual row-root sets are pairwise disjoint: a shared
+forward/reverse residual root would force its center onto the endpoint
+pencil, where it must contain every point of both differences. Hence every
+minimum pair has an oriented center-owned gcd satisfying
+
+```text
+max(r_alpha,r_beta)=0:  g>=ceil((3e-2)/5),
+max(r_alpha,r_beta)=1:  g>=ceil((e-2)/3),
+max(r_alpha,r_beta)=2:  g>=ceil((e-1)/2).
+```
+
+The zero-deficit official floor is `g>=109951162778`. The remaining task is
+to compare this large divisor with the heavy-row cube/Forney factors. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling`.
+
+## Cycle 123: actual supports couple every deficit pattern (2026-08-11, Codex)
+
+The difference rows are light and padded heavy rows are absent from actual
+errors. Replacing full-locator estimates by actual-support unions removes
+the orientation restriction: both minimum-pair row families have rank two
+for every endpoint-deficit pattern. Their gcds exchange the endpoints and
+share all other roots.
+
+Every residual row root has deficit zero. Indeed, one difference point plus
+the fixed core and one padded heavy deficit already force the third center
+onto the endpoint codeword line, where it would be a common gcd root. The
+same actual-support argument makes all forward and reverse residual root
+sets pairwise disjoint. If `R=r_alpha+r_beta`, their common gcd degree `g`
+leaves exact supported-slope slack
+
+```text
+s=(R+5)g-(R+3)e+2>=0.
+```
+
+All packet deficit `e-6` is localized to the common center line or this
+slack. The line itself satisfies `3g+d_L<=3e-2`, yielding the stronger
+arm-specific floors `(BHL8)--(BHL9)`. The remaining task is no longer a
+generic gcd/heavy comparison: it is to show that the exact slack cannot
+absorb the supported heavy divisor, or to exclude the resulting localized
+intersection profile. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization`.
+
+## Cycle 124: the `rho+3` quadratic boundary is empty (2026-08-11, Codex)
+
+For a hypothetical minimum pair, the common light intersection outside the
+core has `3e-R-5` rows. No residual split-pencil slope can support one of
+these rows, and a slack slope supports at most one, only at deficit zero.
+Their global degree-`e` demand first forces the bidirectional gcd degree to
+its maximum `g=e-1`.
+
+At that maximum, the common center line has exactly `e` slopes. Its missing
+incidences require
+
+```text
+3e-R-6+d_L
+```
+
+outside incidences on common rows, while the exact packet deficit leaves
+only
+
+```text
+e-R+3+d_L
+```
+
+eligible zero-deficit slack slopes. The resulting `2e<=9` is impossible on
+the official row. Hence
+
+```text
+|S_alpha union S_beta|>=rho+4,
+4h+sum_(gamma in A)r_gamma<=rho+4
+```
+
+for every pair and every assigned-center line. This is a complete profile
+removal; the next boundary is rank three at union `rho+4`. The proved node
+is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion`.

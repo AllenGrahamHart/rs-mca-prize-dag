@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_fr_two_type1_fibre_spend_calibration",
+    "title": "Two-type-1 fibre spend calibration",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the worst strict endpoint a=7m-1 with 4 dividing m, the projective fibres of the minimum-support representation pencil imply that two type-1 slopes force outside spend at least 2m+1 for every type-2 slope. The printed capacity ledger then gives only T<=9m/2, not T<=4m. The same fibre lower bound reaches the calibrated closing spend 9m/4+1 exactly when the two named fibres total at least 25m/4, an additional m/4 beyond the automatic 6m baseline. This is a proved route calibration, not the missing concentration theorem.",
+    "refs": [
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/statement.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/proof.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/claim_contract.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/dependency_subdag.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/audit.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/result.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/provenance.md",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify.py",
+      "background/nodes/rate_half_type2_fr_two_type1_fibre_spend_calibration/verify_audit.py",
+      "notes/pilots_20260810/rh_type2_stratum/PREREG.md",
+      "notes/pilots_20260810/rh_type2_stratum/REPORT.md"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_saturation_rigidity"
+    },
+    {
+      "from": "rate_half_type2_fr_exact_spend_calibration"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

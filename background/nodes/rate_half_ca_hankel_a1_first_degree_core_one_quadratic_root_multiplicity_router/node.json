@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router",
+    "title": "A=1 core-one quadratic residual-root multiplicity router",
+    "status": "PROVED",
+    "closure": "uniform first-fifth heavy-root dichotomy",
+    "statement": "For the core-one first-degree scalar residual quadratic, u+v=e+2 and O=u-4. New-root capacity and the simple-root vertical bound imply (2-r)e<=3u+2I_0<=5u. Therefore throughout 5u<e the quadratic has either one heavy double root or two heavy simple roots; a squarefree residual root cannot lie outside the heavy set.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

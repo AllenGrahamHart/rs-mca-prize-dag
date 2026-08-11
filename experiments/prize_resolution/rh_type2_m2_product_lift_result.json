@@ -1,0 +1,20 @@
+{
+  "schema": "rh-type2-m2-product-lift-v1",
+  "run_url": "https://modal.com/apps/allengrahamhart/main/ap-dPpY3BMeJ2K3jWxK879KVv",
+  "field_order": 97,
+  "domain_order": 32,
+  "m": 2,
+  "rho": 7,
+  "supported_slopes": 9,
+  "workers": 8,
+  "worker_trials": [94242, 75746, 93803, 32549, 76450, 75965, 75351, 75791],
+  "total_trials": 599897,
+  "rank_histogram": {
+    "32": 599897
+  },
+  "positive_nullity": 0,
+  "coordinate_live": 0,
+  "full_support_product_lifts": 0,
+  "hankel_compatible_lifts": 0,
+  "interpretation": "No random placement survived the product-code parity system. This is a zero-power null for universal non-liftability because rank-defective placements, if they exist, are necessarily highly structured."
+}

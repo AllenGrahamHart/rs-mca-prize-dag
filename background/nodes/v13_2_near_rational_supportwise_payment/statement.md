@@ -14,11 +14,16 @@ The implication is false, already for a rate-half Reed-Solomon code on
 not force an unrelated support explaining a line word to extend to the same
 or another codeword pair.
 
-This refutation does not by itself refute the displayed upper bound
+The original `mu_8` witness below isolates the false support inference. A
+second smooth rate-half witness on `mu_16=F_17^*`, recorded in
+`refutation.md` and replayed by `verify.py`, refutes the displayed upper
+bound itself:
 
 ```text
 N_MCA-bad <= 1 + #{z: d1(u+zv)>=w+1 and cen(u+zv;m)>0}.
 ```
 
-It refutes the proof step offered for paying the near-rational slopes. A
-valid replacement needs a support-wise first-match or mismatch census.
+In that witness every slope is within distance `w=2` of the zero codeword,
+so the right-hand set is empty, while two distinct slopes are support-wise
+MCA-bad. The proved replacement is the uniform `2w` theorem in
+`v13_2_near_rational_supportwise_two_anchor_payment`.

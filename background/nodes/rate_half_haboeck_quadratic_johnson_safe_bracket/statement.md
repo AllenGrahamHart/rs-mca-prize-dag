@@ -26,6 +26,37 @@ If `Q_m<=B*`, then the full support-wise MCA numerator is safe at `a_m`:
 B_mca(a_m)<=Q_m<=B*.                                   (RHJ3)
 ```
 
+The printed theorem family has two exact, dual optimizer descriptions. For
+an integer budget `B` for which the displayed set is nonempty, let
+
+```text
+m_B=max{m>=3: Q_m<=B}.
+```
+
+Then
+
+```text
+B_mca(a_(m_B))<=Q_(m_B)<=B,
+a_(m_B)=min{a_m: m>=3 and Q_m<=B}.                     (RHJ7)
+```
+
+Conversely, for an integer support `s` for which the displayed set is
+nonempty, let
+
+```text
+m_s=min{m>=3: a_m<=s}.
+```
+
+Then
+
+```text
+B_mca(s)<=Q_(m_s)=min{Q_m: m>=3 and a_m<=s}.           (RHJ8)
+```
+
+Thus `(RHJ7)` is the strongest safe agreement at a fixed budget, and
+`(RHJ8)` is the smallest certified numerator at a fixed support, among all
+members of the imported quadratic family.
+
 The first member that strictly improves the existing `3n/4` safe endpoint
 is `m=9`:
 
@@ -59,7 +90,7 @@ crossing bracket becomes
 
 ```text
 k+2^34 <= a_RH(q) <= a_94        below that threshold,
-k+2^34 <= a_RH(q) <= a_95        at or above it,        (RHJ7)
+k+2^34 <= a_RH(q) <= a_95        at or above it,        (RHJ9)
 ```
 
 throughout the razor slice.
@@ -68,4 +99,7 @@ throughout the razor slice.
 
 This is a safe-side bracket only. It neither identifies the exact crossing
 nor proves that `a_m-1` is unsafe. It uses the proved quadratic Haboeck bound,
-not the unproved BCHKS25 linear refinement.
+not the unproved BCHKS25 linear refinement. The two optimizer formulas exhaust
+the printed quadratic family; a value below `(RHJ8)` at an intermediate
+support would require a genuinely support-sensitive strengthening of the
+source theorem.

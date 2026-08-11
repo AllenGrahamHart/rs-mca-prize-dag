@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation",
+    "title": "Clean-endpoint resultant boundary saturation",
+    "status": "PROVED",
+    "closure": "leading-coefficient Bezout and exact resultant degree",
+    "statement": "At the clean endpoint, the domain complement has exact parameter degrees deg_z W=T and deg_z V=3m+1, with q_inf*nu+P_sat*omega=1. The top weld coefficient forces q_inf to divide the leading coefficient of B. In fact Res_z(Q,W)=c_W(X-x_0)^(m-1), Res_z(Q,B)=c_B q_inf^(T+deg_z B)(X-x_0), and resultant degree saturation forces deg_X B=N. Thus B absorbs the entire parameter-infinity fibre and the boundary-free shortcut is impossible.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_linear_unit_resultant_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

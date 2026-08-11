@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_bivariate_locator_extension_kernel_reduction",
+    "title": "Locator-extension kernel reduction",
+    "status": "PROVED",
+    "closure": "dual Reed-Solomon interpolation criterion",
+    "statement": "For each parameter coefficient of Q_Y(x)=A_x(Y)R_x(Y), X-degree at most rho is equivalent to the barycentric checks sum_(x in W) x^i q_j(x)/sigma'_W(x)=0 for 0<=i<|W|-rho-1. These checks define a linear matrix E_W on the deficiency-clone variables. Every actual endpoint failure has a blockwise-nonzero kernel for C_W=[M_W;E_W]. Full column rank of C_W excludes the pattern. The criterion controls extension on W only and does not impose the outside root sets or Hankel origin.",
+    "refs": [
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/statement.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/proof.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/claim_contract.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/audit.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/result.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/provenance.md",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/verify.py",
+      "background/nodes/rate_half_bivariate_locator_extension_kernel_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_bivariate_deficiency_clone_kernel_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

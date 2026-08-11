@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_fr_exact_spend_calibration",
+    "title": "Exact spend calibration for the rate-half type-2 FR route",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "At the worst NEWCAP support size a=7m-1, the outside-incidence ledger gives T<=2+floor((9m+1)m/p) when every type-2 slope spends at least p roots outside W. The exact least spend closing T<=4m is floor((9m+1)m/(4m-1))+1, equal to 9m/4+1 when 4 divides m. For a clean locator this is |S intersect W|<=7m/4-2. The prior p=2m+2 proposal is insufficient for m>=8 and leaves an asymptotic 9/8 residual. This calibrates the route and does not prove the required spend.",
+    "refs": [
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/statement.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/proof.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/claim_contract.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/dependency_subdag.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/audit.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/result.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/provenance.md",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify.py",
+      "background/nodes/rate_half_type2_fr_exact_spend_calibration/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_saturation_rigidity"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion",
+    "title": "Strict-endpoint residual-pole interpolation exclusion",
+    "status": "PROVED",
+    "closure": "pole-ideal interpolation and surface cohomology",
+    "statement": "On every even m>=6 strict A=3, e=m endpoint profile, the pole-cancellation quotient for G(X)/H(z) has length at most O<=m-1. A nonzero biform of bidegree (1,m/2-1) therefore clears all poles without containing any component. Multiplying the resulting componentwise-nonzero grid section by four universal Forney contact sections gives a forbidden nonzero section of O_C(-7,m/2+2). Hence every e=m defect stratum is impossible, including the official m=2^37 row.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_forney_infinity_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_endpoint_component_defect_localization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

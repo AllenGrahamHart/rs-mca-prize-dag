@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing",
+    "title": "A=1 core-free cubic gap-one first-jet perfect pairing",
+    "status": "PROVED",
+    "closure": "exact local Smith transversality in three packets",
+    "statement": "At every supported rank-loss slope not lying on the residual E_w factor, the core-free cubic gap-one regular determinant has order exactly c_gamma. Hence all positive Smith exponents are one, and the derivative moment form dotPhi(Q_min^2 A B) has rank c_gamma with right radical exactly the specialized excess factor R_gamma. This holds at every supported slope in the three w=0 packets and has at most one exceptional slope in the w=1 packet.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_minimal_index_budget"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

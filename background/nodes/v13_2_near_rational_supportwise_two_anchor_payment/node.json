@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "v13_2_near_rational_supportwise_two_anchor_payment",
+    "title": "Near-rational support-wise two-anchor payment",
+    "status": "PROVED",
+    "closure": "same-witness coordinate-ratio injection",
+    "statement": "Let C=RS[F,D,K], |D|=n, m=K+w, w>=1, and 3w<=n-K. On any fixed received line, the number of finite slopes that both lie within Hamming distance w of C and have an actual size-m support-wise MCA-bad witness is at most 2w. Two anchors place all near errors on one joint support of size at most 2w; minimum distance identifies every near codeword with the anchor codeword line, and each bad witness injects its slope into one nonzero coordinate ratio on that joint support.",
+    "refs": [
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/statement.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/proof.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/claim_contract.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/dependency_subdag.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/audit.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/result.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/provenance.md",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "v13_2_near_rational_pair_proximity"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe"
+    },
+    {
+      "to": "rate_half_band_crossing_location"
+    },
+    {
+      "to": "v13_bc_split_pencil_normal_form"
+    }
+  ],
+  "refutes": []
+}

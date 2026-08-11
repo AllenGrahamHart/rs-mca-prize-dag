@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion",
+    "title": "Final strict A=3 corner divisor exclusion",
+    "status": "PROVED",
+    "closure": "complete-fibre divisor and excess-multiplicity contradiction",
+    "statement": "The sole strict corner rho=3e+1, T=rho+2, delta=1, O<=1 is impossible. On the normalization, the univariate Picard identity forces its zero divisor to be a union of complete domain fibres. Fibre degree then concentrates common-grid multiplicity 3-p at the contact point, where p<=1 is the pole degree. This requires excess multiplicity 2-p, while the exact incidence ledger permits only O-p<=1-p. Hence every strict A=3 moving-kernel failure on the official row is excluded.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

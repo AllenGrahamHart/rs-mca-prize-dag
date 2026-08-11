@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction",
+    "title": "Clean-endpoint Picard residual-evaluation direction",
+    "status": "PROVED",
+    "closure": "exact fibre-socle and Serre-dual identification",
+    "statement": "For the clean Picard point P_*=(x_0,S) with Q(z;x_0)=A_0(z)S(z), the positive elementary-modification direction is the fibre-socle class of A_0. Under the canonical negative-block identification H^1(O(-m))=H^0(O(m-2))^*, its image is a nonzero scalar multiple of evaluation at S, including when S is a repeated fibre root. Hence the actual clean modification has the unique-section splitting O+O(1-rho)+O(-rho)^(m-2).",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_residual_evaluation_direction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

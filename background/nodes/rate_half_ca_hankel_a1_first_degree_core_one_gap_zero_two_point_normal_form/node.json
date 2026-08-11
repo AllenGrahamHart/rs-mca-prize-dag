@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form",
+    "title": "A=1 core-one zero-incidence-gap two-point normal form",
+    "status": "PROVED",
+    "closure": "exact local multiplicity, adjugate, and contact-divisor ledger",
+    "statement": "In the core-one packet (u,v,I_0,c)=(0,2,0,2), the distinguished row has exactly e-4 simple and two double supported parameter roots. Its radical is the squarefree middle-Hankel adjugate factor D, its Forney specialization is D times a nonzero cubic, and the contact divisor is the vertical fibre minus the two doubled points. Equivalently O_C(rho+2,-e-1) is the effective degree-two divisor formed by those points.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_gap_zero_two_point_normal_form/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

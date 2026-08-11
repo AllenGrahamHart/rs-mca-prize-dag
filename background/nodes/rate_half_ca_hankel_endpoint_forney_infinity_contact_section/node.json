@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_forney_infinity_contact_section",
+    "title": "Strict A=3 Forney infinity-contact section",
+    "status": "PROVED",
+    "closure": "full-recurrence boundary divisibility",
+    "statement": "For every failing strict A=3 slope-slack profile m<=e<=floor(rho/3), the canonical Forney numerator is nonzero and its restriction to the reduced bidegree-(rho,e) curve vanishes to order at least 2rho+2 along the domain-infinity divisor. Removing this contact gives a nonzero section of O_C(-rho-3,e+1), whose total degree is exactly delta=rho-3e.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/audit.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/result.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/provenance.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_forney_infinity_contact_section/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_strict_a3_slope_slack_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

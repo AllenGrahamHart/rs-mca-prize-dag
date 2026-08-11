@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
+    "title": "A=1 fixed-core pole-slack exclusion",
+    "status": "PROVED",
+    "closure": "contracted pole interpolation and three-contact vanishing",
+    "statement": "For fixed-core A=1 profiles, three contracted contact sections and a pole-clearing form of bidegree (2,floor(p/3)) exclude every profile with floor(p/3)+ell+3-beta<e, where beta=T_max-4e. This excludes the first s=1 degree e=m+1 and every s=2 profile. Every surviving s=1 profile has p>=3(e-ell-2).",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

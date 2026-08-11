@@ -1,0 +1,506 @@
+{
+  "complete": true,
+  "completed_tasks": 32,
+  "error": null,
+  "parameters": {
+    "field": 97,
+    "m": 2,
+    "seconds_per_task": 45.0,
+    "tasks": 32,
+    "trial_cap_per_task": 200000
+  },
+  "rows": [
+    {
+      "counters": {
+        "attempted": 49280,
+        "bad_overlap": 69395,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 69395,
+        "rank_deficient": 0,
+        "regular_incidence": 32534
+      },
+      "elapsed": 45.000780659,
+      "seed": 0,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40343,
+        "bad_overlap": 56734,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56734,
+        "rank_deficient": 0,
+        "regular_incidence": 26623
+      },
+      "elapsed": 45.001943020999995,
+      "seed": 1,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34237,
+        "bad_overlap": 48089,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48089,
+        "rank_deficient": 0,
+        "regular_incidence": 22580
+      },
+      "elapsed": 45.001682471,
+      "seed": 2,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40027,
+        "bad_overlap": 56785,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56785,
+        "rank_deficient": 0,
+        "regular_incidence": 26486
+      },
+      "elapsed": 45.000601431,
+      "seed": 3,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 38885,
+        "bad_overlap": 54367,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 54367,
+        "rank_deficient": 0,
+        "regular_incidence": 25463
+      },
+      "elapsed": 45.000049814,
+      "seed": 4,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 49095,
+        "bad_overlap": 68815,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 68815,
+        "rank_deficient": 0,
+        "regular_incidence": 32158
+      },
+      "elapsed": 45.000841702,
+      "seed": 5,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34647,
+        "bad_overlap": 48380,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48380,
+        "rank_deficient": 0,
+        "regular_incidence": 22815
+      },
+      "elapsed": 45.002780615,
+      "seed": 6,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40127,
+        "bad_overlap": 56790,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56790,
+        "rank_deficient": 0,
+        "regular_incidence": 26470
+      },
+      "elapsed": 45.000471083,
+      "seed": 7,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 48404,
+        "bad_overlap": 68343,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 68343,
+        "rank_deficient": 0,
+        "regular_incidence": 31937
+      },
+      "elapsed": 45.001954927,
+      "seed": 8,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 33846,
+        "bad_overlap": 47736,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 47736,
+        "rank_deficient": 0,
+        "regular_incidence": 22474
+      },
+      "elapsed": 45.001466521999994,
+      "seed": 9,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 50303,
+        "bad_overlap": 70006,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 70006,
+        "rank_deficient": 0,
+        "regular_incidence": 32995
+      },
+      "elapsed": 45.000279745,
+      "seed": 10,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 49899,
+        "bad_overlap": 70354,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 70354,
+        "rank_deficient": 0,
+        "regular_incidence": 32880
+      },
+      "elapsed": 45.000949659,
+      "seed": 11,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 49002,
+        "bad_overlap": 69019,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 69019,
+        "rank_deficient": 0,
+        "regular_incidence": 32439
+      },
+      "elapsed": 45.000014304000004,
+      "seed": 12,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34477,
+        "bad_overlap": 48855,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48855,
+        "rank_deficient": 0,
+        "regular_incidence": 22777
+      },
+      "elapsed": 45.000434024,
+      "seed": 13,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 38086,
+        "bad_overlap": 53712,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 53712,
+        "rank_deficient": 0,
+        "regular_incidence": 25180
+      },
+      "elapsed": 45.00162133,
+      "seed": 14,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 49677,
+        "bad_overlap": 69728,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 69728,
+        "rank_deficient": 0,
+        "regular_incidence": 32711
+      },
+      "elapsed": 45.001596445,
+      "seed": 15,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40312,
+        "bad_overlap": 56580,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56580,
+        "rank_deficient": 0,
+        "regular_incidence": 26458
+      },
+      "elapsed": 45.00018282,
+      "seed": 16,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40184,
+        "bad_overlap": 56149,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56149,
+        "rank_deficient": 0,
+        "regular_incidence": 26474
+      },
+      "elapsed": 45.000139976,
+      "seed": 17,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 39549,
+        "bad_overlap": 55655,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 55655,
+        "rank_deficient": 0,
+        "regular_incidence": 26044
+      },
+      "elapsed": 45.001798689999994,
+      "seed": 18,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34668,
+        "bad_overlap": 48799,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48799,
+        "rank_deficient": 0,
+        "regular_incidence": 22837
+      },
+      "elapsed": 45.001432973,
+      "seed": 19,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40325,
+        "bad_overlap": 56687,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56687,
+        "rank_deficient": 0,
+        "regular_incidence": 26600
+      },
+      "elapsed": 45.001960994,
+      "seed": 20,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 29537,
+        "bad_overlap": 41272,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 41272,
+        "rank_deficient": 0,
+        "regular_incidence": 19357
+      },
+      "elapsed": 45.000151608,
+      "seed": 21,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34550,
+        "bad_overlap": 49212,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 49212,
+        "rank_deficient": 0,
+        "regular_incidence": 22939
+      },
+      "elapsed": 45.001337132,
+      "seed": 22,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34945,
+        "bad_overlap": 49160,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 49160,
+        "rank_deficient": 0,
+        "regular_incidence": 23082
+      },
+      "elapsed": 45.000356690000004,
+      "seed": 23,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 39907,
+        "bad_overlap": 55554,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 55554,
+        "rank_deficient": 0,
+        "regular_incidence": 26174
+      },
+      "elapsed": 45.001815859,
+      "seed": 24,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 40156,
+        "bad_overlap": 56172,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 56172,
+        "rank_deficient": 0,
+        "regular_incidence": 26400
+      },
+      "elapsed": 45.00007549,
+      "seed": 25,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 38338,
+        "bad_overlap": 54026,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 54026,
+        "rank_deficient": 0,
+        "regular_incidence": 25188
+      },
+      "elapsed": 45.000391868,
+      "seed": 26,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 41090,
+        "bad_overlap": 57308,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 57308,
+        "rank_deficient": 0,
+        "regular_incidence": 26930
+      },
+      "elapsed": 45.002062433,
+      "seed": 27,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34416,
+        "bad_overlap": 48435,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48435,
+        "rank_deficient": 0,
+        "regular_incidence": 22727
+      },
+      "elapsed": 45.002161127,
+      "seed": 28,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 39836,
+        "bad_overlap": 55789,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 55789,
+        "rank_deficient": 0,
+        "regular_incidence": 26131
+      },
+      "elapsed": 45.002699166,
+      "seed": 29,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34663,
+        "bad_overlap": 48796,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48796,
+        "rank_deficient": 0,
+        "regular_incidence": 22870
+      },
+      "elapsed": 45.001364824999996,
+      "seed": 30,
+      "witnesses": []
+    },
+    {
+      "counters": {
+        "attempted": 34185,
+        "bad_overlap": 48411,
+        "blockwise_kernel": 0,
+        "degree_extension": 0,
+        "full_witness": 0,
+        "open_pair": 48411,
+        "rank_deficient": 0,
+        "regular_incidence": 22716
+      },
+      "elapsed": 45.000650185999994,
+      "seed": 31,
+      "witnesses": []
+    }
+  ],
+  "schema": "rate-half-bivariate-m2-badpattern-v1",
+  "totals": {
+    "attempted": 1276996,
+    "bad_overlap": 1795113,
+    "blockwise_kernel": 0,
+    "degree_extension": 0,
+    "full_witness": 0,
+    "open_pair": 1795113,
+    "rank_deficient": 0,
+    "regular_incidence": 841449
+  },
+  "witnesses": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_direct_three_contact_exclusion",
+    "title": "A=1 direct three-contact exclusion",
+    "status": "PROVED",
+    "closure": "pole-absorbing contact product and restriction vanishing",
+    "statement": "Because one Forney contact copy absorbs the complete pole scheme of G/H, three copies produce a nonzero regular section of O_C(d-3,ell-e+3-beta). Restriction-sequence vanishing forces ell>=e-3+beta. On the official row this excludes every core-free and core-one degree below ceil((rho-1)/3)=183251937963. At that first degree each core has exactly three remaining slacks, all mapping to T in {rho+2,rho+3,rho+4}.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

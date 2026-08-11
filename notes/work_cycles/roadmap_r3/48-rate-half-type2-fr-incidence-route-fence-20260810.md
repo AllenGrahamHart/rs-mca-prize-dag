@@ -34,3 +34,10 @@ spend was negligible. Open upstream PR #1125's determinant atlas was already
 harvested locally; #1157 is a KoalaBear route cut with zero prize-ledger
 movement. The next route-deciding action is algebraic type-2 support control
 or a pivot to another critical leaf if no exact polynomial inequality appears.
+
+Supersession (cycle 51): the `~2m` target above was the Round-31 pilot's
+provisional calibration. Exact floor-aware arithmetic at `a=7m-1` shows
+that the printed capacity route requires outside spend `9m/4+1`,
+equivalently clean intersection at most `7m/4-2`, on the official row. See
+`rate_half_type2_fr_exact_spend_calibration`. The incidence witness violates
+this stronger target as well.

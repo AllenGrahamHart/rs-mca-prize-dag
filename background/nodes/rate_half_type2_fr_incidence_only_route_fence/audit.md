@@ -9,8 +9,8 @@
 4. The Modal search selected only `W`. Its output is reduced to a fixed
    1024-bit certificate and replayed independently; search success is not
    itself the proof.
-5. The theorem rules out only derivations from the printed set-system
-   axioms. Algebraic realizability may impose additional constraints and is
-   the required next attack.
+5. The theorem rules out only derivations for an arbitrary distinguished
+   `W`. The witness `W` is not a pair union. When `W` is a minimum pair union,
+   the omitted combinatorial structure proves the corrected canonical bound.
 6. The two verifiers construct cosets and block membership differently and
    fail closed on mask and deletion mutations.

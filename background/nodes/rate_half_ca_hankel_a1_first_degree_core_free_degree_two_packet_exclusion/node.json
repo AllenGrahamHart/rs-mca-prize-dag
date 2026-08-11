@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion",
+    "title": "A=1 core-free residual-degree-two packet exclusion",
+    "status": "PROVED",
+    "closure": "full-omission overlap and local cube congruence",
+    "statement": "Both core-free residual-degree-two scalar packets are impossible. Since O=Delta, every excess degree must produce omission and every distinguished incidence overlaps Q_min. A distinguished row of deficit one then has vertical multiplicities congruent to one modulo three; leaving the sole determinant order elsewhere misses degree e by one, while spending it on the row raises one minimum from one to three and overshoots. Thus the core-free scalar residual degree is 3, 4, or 5.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

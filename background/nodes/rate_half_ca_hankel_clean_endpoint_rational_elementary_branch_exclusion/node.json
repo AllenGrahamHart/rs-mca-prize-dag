@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion",
+    "title": "Clean-endpoint rational elementary branch exclusion",
+    "status": "PROVED",
+    "closure": "adjunction genus contradiction",
+    "statement": "The two-section elementary modification would make the integral clean curve isomorphic to P^1 and hence smooth of genus zero. Adjunction gives genus (rho-1)(m-1)=(4m-2)(m-1)>0 for a smooth bidegree-(rho,m) divisor when m>1. Therefore that branch is impossible, and every clean failure has the unique-section splitting O+O(1-rho)+O(-rho)^(m-2).",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_rational_elementary_branch_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_picard_kernel_elementary_modification_dichotomy"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_free_pole_slack_exclusion",
+    "title": "A=1 core-free pole-slack exclusion",
+    "status": "PROVED",
+    "closure": "adaptive pole interpolation and three-contact vanishing",
+    "statement": "For a failing core-free A=1 profile, let ell=4e-T and let p be the actual pole-ideal colength. Set alpha=2 for e<=rho/2-1, alpha=1 for rho/2<=e<=rho-1, and alpha=0 for e=rho. The profile is impossible whenever floor(p/(alpha+1))+ell+3<e. Every survivor therefore has p>=(alpha+1)(e-ell-3). At the first live degree e=m+1 only ell=0,1,2 remain, with pole deficiency Delta-p at most 5,8,11 respectively.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_core_free_forney_contact_section"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

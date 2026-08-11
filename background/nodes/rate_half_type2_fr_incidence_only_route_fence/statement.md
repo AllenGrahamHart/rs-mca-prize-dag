@@ -37,10 +37,10 @@ the exact saturation deficit, pairwise union `(OV)`, and the individual MDS
 distance spend `(C2)` can establish `|S_gamma intersect W|<=2m`.
 
 This theorem does **not** construct a strict-`A=3` Hankel pencil and does
-not refute `(FR)` for realizable pencils. Any positive `(FR)` theorem must
-use information absent from the set-system axioms, such as the generalized
-locator polynomials `f_gamma`, the common syndrome pencil, or the apolar
-Hankel equations.
+not refute `(FR)` for realizable pencils. More precisely, it refutes only the
+arbitrary-`W` form: its distinguished `W` is not a union of two blocks. The
+canonical minimum-pair-union form is the separate proved node
+`rate_half_fr_canonical_min_pair_union_bound`.
 
 ## Round-32 addendum (2026-08-10, coordinator): the missing axiom was combinatorial after all
 

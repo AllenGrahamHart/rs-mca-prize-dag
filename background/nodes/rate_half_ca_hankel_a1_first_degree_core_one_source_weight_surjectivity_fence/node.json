@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence",
+    "title": "A=1 first-degree core-one source-weight surjectivity fence",
+    "status": "PROVED",
+    "closure": "contracted RS sources impose no standalone Hankel restriction",
+    "statement": "After contraction by the fixed core root s_0, residual source weights are omega_x=(x-s_0)v_xa_x, an invertible diagonal change of arbitrary RS word values on D without s_0. Since the residual domain has 4rho-1 points and a middle Hankel matrix uses only 2rho-1 moments, the Vandermonde moment map is surjective. Thus source coordinates alone cannot force noncancellation of the marked determinant; a valid exclusion must also use column-farness or simultaneous split-incidence structure.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

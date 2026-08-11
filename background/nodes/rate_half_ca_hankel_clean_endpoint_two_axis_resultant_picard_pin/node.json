@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin",
+    "title": "Clean-endpoint two-axis resultant and Picard pin",
+    "status": "PROVED",
+    "closure": "exact reciprocal resultant and intersection divisor",
+    "statement": "After a generic domain-coordinate normalization, the clean complements satisfy Res_X(Q,B)=constant*S and Res_X(Q,W)=constant*a^(deg_X W+N-1)A_0. Together with Res_z(Q,B)=constant*q_inf^(T+b)(X-x_0), this accounts for the complete intersection divisor div_C(B)=P_*+(T+b)Y_inf. Hence O_C(N,-T) is isomorphic to the degree-one point line bundle O_C(P_*).",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_resultant_boundary_saturation"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

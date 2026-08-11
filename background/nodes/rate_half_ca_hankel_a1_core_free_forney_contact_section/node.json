@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_free_forney_contact_section",
+    "title": "A=1 core-free Forney infinity-contact section",
+    "status": "PROVED",
+    "closure": "full A=1 recurrence boundary divisibility",
+    "statement": "Every failing core-free half-distance A=1 profile has a reduced mixed kernel curve C of bidegree (rho,e) and a nonzero canonical Forney section in O_C(-rho-1,e+1), of exact degree rho-e. The rho Hankel recurrence rows force boundary contact order 2rho, exactly two less than on the strict A=3 face.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

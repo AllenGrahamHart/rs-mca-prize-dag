@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction",
+    "title": "Clean-endpoint Picard multiplication injectivity reduction",
+    "status": "PROVED",
+    "closure": "exact cohomology and relative bundle reduction",
+    "statement": "The degree-one Picard section of a clean endpoint failure is exactly a nonzero kernel vector for multiplication by Q from H^1(O(N-rho,-T-m)) to H^1(O(N,-T)), of dimensions 60m^2+10m and 64m^2+4m. Relatively this is a fibrewise-surjective map O(N-rho)^(5m)->O(N)^(4m) with kernel bundle K_Q of rank m, degree m(5-4m), and a nonzero global section. All-negative splitting would logically close the branch, but the child elementary-modification theorem proves that strategy impossible and replaces it by an exact dichotomy.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/statement.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/proof.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/audit.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/result.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/provenance.md",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify.py",
+      "background/nodes/rate_half_ca_hankel_clean_endpoint_picard_multiplication_injectivity_reduction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_two_axis_resultant_picard_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_clean_endpoint_four_hankel_biisotropic_frame"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization",
+    "title": "A=1 first-degree double-root low-degree resultant factorization",
+    "status": "PROVED",
+    "closure": "exact linear/quadratic residual factor after supported norm",
+    "statement": "In every retained scalar double-root packet, the leading-coefficient factor in the norm cube gate cancels exactly because the locator numerator degree is three times the first coordinate of the cube-root line bundle. The full X-resultant is H^d times the cube of a binary form of degree one or two. In the ordinary cubic packet, its negative point reduces one supported-slope exponent by exactly three.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

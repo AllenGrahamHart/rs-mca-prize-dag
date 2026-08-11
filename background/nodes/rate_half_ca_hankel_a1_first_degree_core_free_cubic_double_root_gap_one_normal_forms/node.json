@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
+    "title": "A=1 core-free cubic double-root gap-one normal forms",
+    "status": "PROVED",
+    "closure": "exact four-packet and degree-one Picard ledger",
+    "statement": "In the core-free cubic double-plus-simple branch at u=1, exactly four packets survive the rank, omission, cube, and vertical ledgers. Three no-ordinary packets have O_C(rho+3,-e-1)=O_C(A) and one section. The unique ordinary packet has O_C(rho+3,-e-1)=O_C(A+B-Q) and no section. Every row deficit, extra excess copy, determinant gap, and new-root count is fixed explicitly.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_free_forney_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

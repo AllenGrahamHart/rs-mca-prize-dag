@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread",
+    "title": "A=1 core-one quadratic gap-four two-simple center spread",
+    "status": "PROVED",
+    "closure": "exact two-heavy design and deficit-weighted center-line cap",
+    "statement": "In the two-simple-root u=4 quadratic arm, the heavy rows occur in (e-3)/2 and (e-9)/2 supported locators; their incidence sets may overlap. A slope containing r_gamma heavy padded roots has exact unique-error weight rho-r_gamma. An affine center line obeys h<=rho+1-sum r_gamma, so a locator pair has at least 3+r_alpha+r_beta expanding third blocks, between three and seven.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin",
+    "title": "A=1 first-degree constant heavy-incidence pin",
+    "status": "PROVED",
+    "closure": "cancelled-row recurrence charge and exact incidence balance",
+    "statement": "In either parameter-constant first-degree profile, every supported incidence on a heavy row lies in the specialized excess recurrence factor, so their total I_H is at most Delta. The saturated light rows give exact balances I_H+O=(6-a)e-3 for core zero and (3-a)e-6 for core one. Hence the core-free residual degree is 2..5 and the core-one residual degree is 1..2. At the smallest degrees, the two independent deficits from I_H,O<=Delta total one and two respectively.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_forney_pole_ideal_absorption"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_bounded_residual_table"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
