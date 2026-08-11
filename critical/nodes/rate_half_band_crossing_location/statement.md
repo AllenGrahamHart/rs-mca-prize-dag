@@ -1961,3 +1961,33 @@ The first has two sections and yields a degree-at-most-two pencil after
 removing its base divisor. The second has only the canonical section
 cutting out the two points. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_two_point_pushforward_dichotomy`.
+
+## Cycle 87: all six core-one packets have bounded divisor tails (2026-08-11, Codex)
+
+For any core-one scalar packet, let `x_*` be the unique distinguished heavy
+row, `P_*` its squarefree supported-slope locator, and
+
+```text
+c=2+u+I_0<=6.
+```
+
+The complete official-size factors reduce to
+
+```text
+Qbar(U,V;x_*)=P_* K_c,
+D=P_* E_(c-2),
+N_F(U,V;x_*)=P_* C_(c+1),
+```
+
+with tail degrees at most `6`, `4`, and `7`. If `R_0` is the divisor of the
+at-most-two ordinary heavy incidences, then the contact divisor gives
+
+```text
+O_C(rho+2,-e-1)=O_C(Z_c-R_0-E_u),
+deg Z_c=c<=6,       deg E_u=u<=2,
+deg(Z_c-R_0-E_u)=2.
+```
+
+Thus all six tangent packets are bounded signed-divisor problems. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form`.
