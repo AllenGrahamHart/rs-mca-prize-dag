@@ -21,13 +21,12 @@ O_C(-1,floor(p/5)+ell+3),
 
 which has no sections when `floor(p/5)+ell+3<e`.
 
-Unlike the degree-three proof, a degree-four clearing form can contain a
-contact-active component. Contact degree forces such a component to have
-bidegree exactly `(4,1)`. There can be only one. Every other component is
-contact-inactive and therefore divides the Forney numerator. Cancelling
-their product from the full recurrence produces a degree-four rational
-kernel vector, contradicting the unique primitive kernel degree
-`d=rho-1`.
+Unlike the degree-three proof, a degree-four clearing form can contain the
+contact-active components. Their squarefree product then has domain degree
+at most four. Every other component is contact-inactive and therefore
+divides the Forney numerator. Cancelling their product from the full
+recurrence produces a rational kernel vector of domain degree at most four,
+contradicting the unique primitive kernel degree `d=rho-1`.
 
 ## Official prefix
 
@@ -40,6 +39,11 @@ m+1<=e<=floor(16m/13)-1.
 For `m=2^37`, the first unexcluded core-one degree is now
 `169155635042`. The proved leaf is
 `rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion`.
+Every later survivor obeys the additional all-degree bound
+
+```text
+ell>=e-3-floor(Delta/5).
+```
 
 ## Burn-down
 

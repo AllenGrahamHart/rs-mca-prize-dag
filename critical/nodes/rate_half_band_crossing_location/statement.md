@@ -1704,12 +1704,12 @@ four contact copies would produce a section of
 O_C(-1,floor(p/5)+ell+3).
 ```
 
-The only obstruction to the usual noncontainment proof is a contact-active
-component of bidegree `(4,1)`. That obstruction is itself impossible: all
-other components are contact-inactive and divide the Forney numerator, so
-cancelling their product from the full recurrence leaves a degree-four
-kernel vector for the generic rank-`d` contracted Hankel pencil. Its unique
-primitive kernel has degree `d=rho-1>4`.
+Containment creates no exceptional branch. If the clearing form contains
+every contact-active component, their product has domain degree at most
+four. All other components are contact-inactive and divide the Forney
+numerator, so cancelling their product from the full recurrence leaves a
+degree-at-most-four kernel vector for the generic rank-`d` contracted Hankel
+pencil. Its unique primitive kernel has degree `d=rho-1>4`.
 
 The proved node
 `rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion` excludes every
@@ -1720,4 +1720,11 @@ m+1<=e<=floor(16m/13)-1.
 ```
 
 Thus the first live core-one degree moves from `164926744166` to
-`169155635042`. The core-free threshold remains `149933403787`.
+`169155635042`. At every later degree a survivor must satisfy
+
+```text
+ell>=e-3-floor(Delta/5)
+```
+
+in addition to the prior three-contact bound. The core-free threshold
+remains `149933403787`.

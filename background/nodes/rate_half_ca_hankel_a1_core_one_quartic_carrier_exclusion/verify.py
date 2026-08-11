@@ -11,10 +11,7 @@ def profile(m, e):
 
 def automatic(m, e):
     rho, delta, slack_max = profile(m, e)
-    return (
-        delta // 5 + slack_max + 3 < e
-        and 3 * (e + 1) < rho + 1
-    )
+    return delta // 5 + slack_max + 3 < e
 
 
 def h1_p1xp1(a, b):
@@ -41,15 +38,11 @@ def main():
             assert h1_p1xp1(-d - 1, c - e) == 0
             checked += 1
 
-        # Enumerate the possible bidegrees of a contact-active component
-        # contained in a domain-degree-four clearing form.
-        e = min(endpoint - 1, (rho - 1) // 2)
-        active = []
-        for ri in range(1, 5):
-            for ei in range(1, 5):
-                if (e + 1) * ri - (rho + 1) * ei >= 0:
-                    active.append((ri, ei))
-        assert active == [(4, 1)]
+        # Any product of active components contained in the clearing form
+        # has domain degree at most four, independently of its factorization.
+        d = rho - 1
+        for carrier_degree in range(1, 5):
+            assert carrier_degree < d
 
     m = 1 << 37
     endpoint = (16 * m) // 13
@@ -59,6 +52,10 @@ def main():
     rho, delta, slack = profile(m, endpoint)
     assert delta // 5 + slack + 3 == endpoint
     assert 16 * m - 13 * endpoint == 6
+
+    delta = rho - 1 - 2 * endpoint
+    lower5 = endpoint - 3 - delta // 5
+    assert lower5 == 126866726279
 
     print(
         "RATE_HALF_CA_HANKEL_A1_CORE_ONE_QUARTIC_CARRIER_EXCLUSION_PASS "

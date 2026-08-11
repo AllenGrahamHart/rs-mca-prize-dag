@@ -5,7 +5,7 @@
     "title": "A=1 core-one quartic-carrier exclusion",
     "status": "PROVED",
     "closure": "degree-four pole interpolation with carrier descent",
-    "statement": "For a half-distance A=1 core-one profile with 3(e+1)<rho+1, a bidegree-(4,floor(p/5)) pole-clearing form excludes the profile whenever floor(p/5)+ell+3<e. If that form contains the contact-active component, the component is forced to have bidegree (4,1), and factoring the Forney numerator through every inactive component creates a forbidden degree-four kernel vector. On the official row this closes every core-one degree below floor(16m/13), moving the first surviving degree to 169155635042.",
+    "statement": "For every half-distance A=1 core-one profile, a bidegree-(4,floor(p/5)) pole-clearing form excludes the profile whenever floor(p/5)+ell+3<e. If that form contains the contact-active components, their product has domain degree at most four, and factoring the Forney numerator through every inactive component creates a forbidden degree-at-most-four kernel vector. Every survivor satisfies ell>=e-3-floor(Delta/5). On the official row this closes every core-one degree below floor(16m/13), moving the first surviving degree to 169155635042.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion/statement.md",
       "background/nodes/rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion/proof.md",

@@ -11,25 +11,26 @@ d=rho-1,       Delta=d-2e,       T=4e+1-ell,
 p<=O<=Delta,   b=floor(p/5).                            (QCE1)
 ```
 
-Assume
+The profile is impossible whenever
 
 ```text
-3(e+1)<rho+1.                                          (QCE2)
-```
-
-Then the profile is impossible whenever
-
-```text
-b+ell+3<e.                                             (QCE3)
+b+ell+3<e.                                             (QCE2)
 ```
 
 The point not covered by the ordinary noncontainment argument is also
-excluded. If a pole-clearing form of bidegree `(4,b)` contains a component
-on which the Forney contact section is nonzero, that component must have
-bidegree `(4,1)`. All other components are contact-inactive, so the Forney
-numerator factors through them. Dividing the full recurrence by their
-product would leave a degree-four rational kernel vector for a pencil whose
-primitive kernel has degree `d>4`, a contradiction.
+excluded. If a pole-clearing form of bidegree `(4,b)` contains every
+component on which the Forney contact section is nonzero, their squarefree
+product has domain degree at most four. All other components are
+contact-inactive, so the Forney numerator factors through them. Dividing the
+full recurrence by their product would leave a rational kernel vector of
+domain degree at most four for a pencil whose primitive kernel has degree
+`d>4`, a contradiction.
+
+Consequently every core-one survivor satisfies the all-degree bound
+
+```text
+ell>=e-3-floor(Delta/5).                               (QCE3)
+```
 
 On the official row `rho=4m`, `m=2^37`, the bounds `p<=Delta` and
 `ell<=4e-rho-1` therefore exclude the complete core-one prefix
@@ -46,5 +47,5 @@ floor(16m/13)=169155635042.                            (QCE5)
 
 ## Scope
 
-The theorem does not exclude core-free profiles or core-one degrees at or
-above `(QCE5)`.
+The theorem does not exclude core-free profiles. Core-one degrees at or
+above `(QCE5)` remain subject to `(QCE3)`.

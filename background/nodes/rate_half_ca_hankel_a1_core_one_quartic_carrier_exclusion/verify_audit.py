@@ -11,7 +11,7 @@ def main():
     def closes(e):
         p = rho - 1 - 2 * e
         ell = 4 * e - rho - 1
-        return p // 5 + ell + 3 < e and 3 * (e + 1) < rho + 1
+        return p // 5 + ell + 3 < e
 
     left, right = lo, hi + 1
     while left < right:
