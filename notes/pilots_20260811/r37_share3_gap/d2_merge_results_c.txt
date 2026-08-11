@@ -1,0 +1,33 @@
+=== D2  STRUCTURED SLOPE-MERGE, round 37  (tag c) ===
+instrument: block coordinate descent on the registered relation R2.3
+|slopes| = 24 - #merges ; TARGET 13 slopes = 11 merges
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    best pencil (1, 0, 62) with 12 complete disjoint fibres
+    V  REGISTERED RELATION R2.3  f_j = sum_i lambda_ji f_i : True
+    descent restarts completed = 1200 ; wall 11.7 s
+    MERGE-COUNT HISTOGRAM over restarts (|slopes| = 24 - merges):
+      merges {1: 1, 3: 112, 4: 834, 5: 193, 6: 6}
+      |slopes| {18: 6, 19: 193, 20: 834, 21: 112, 23: 1}
+    BEST merges = 6  => |slopes| = 18   (need 11 => 13)
+      U~ = [184, 35, 42, 57] ; t = [168, 0, 46, 167, 78, 154, 84, 75]
+      A-triples = [[13, 20, 142], [18, 23, 173], [34, 65, 192], [52, 88, 164]]
+      satisfied edges (i,j,slope) = [(2, 0, 34), (2, 1, 65), (3, 1, 52), (3, 2, 164), (1, 3, 18), (2, 3, 192)]
+      all 8 slope triples = [[13, 20, 142], [18, 23, 173], [34, 65, 192], [52, 88, 164], [7, 34, 126], [52, 65, 174], [104, 164, 186], [18, 155, 192]]
+      |slopes| (full check) = 18 ; STRUCTURAL VERIFICATION: PASS
+
+--- q = 257 : constant-norm pencils with >= 8 disjoint fibres = 15
+    best pencil (1, 145, 74) with 9 complete disjoint fibres
+    V  REGISTERED RELATION R2.3  f_j = sum_i lambda_ji f_i : True
+    descent restarts completed = 1200 ; wall 14.6 s
+    MERGE-COUNT HISTOGRAM over restarts (|slopes| = 24 - merges):
+      merges {1: 1, 2: 1, 3: 167, 4: 869, 5: 120, 6: 1}
+      |slopes| {18: 1, 19: 120, 20: 869, 21: 167, 22: 1, 23: 1}
+    BEST merges = 6  => |slopes| = 18   (need 11 => 13)
+      U~ = [145, 7, 0, 193] ; t = [15, 141, 0, 145, 151, 123, 58, 165]
+      A-triples = [[84, 113, 141], [45, 75, 158], [34, 252, 256], [48, 65, 160]]
+      satisfied edges (i,j,slope) = [(2, 0, 256), (0, 1, 141), (2, 1, 34), (3, 2, 48), (1, 3, 75), (2, 3, 252)]
+      all 8 slope triples = [[84, 113, 141], [45, 75, 158], [34, 252, 256], [48, 65, 160], [163, 183, 256], [34, 102, 141], [48, 169, 236], [8, 75, 252]]
+      |slopes| (full check) = 18 ; STRUCTURAL VERIFICATION: PASS
+
+total wall 26.3 s

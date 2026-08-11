@@ -1,0 +1,14 @@
+tag=a q=193 mode=ALLOC draws=120 best=None hist={} wall=0.2
+tag=a q=193 mode=RANK-GREEDY draws=120 best=15 hist={'16': 16, '15': 1, 'ILLEGAL': 1} wall=2.8
+tag=b q=193 mode=ALLOC draws=400 best=None hist={} wall=0.5
+tag=b q=193 mode=RANK-GREEDY draws=400 best=14 hist={'16': 64, '15': 5, 'ILLEGAL': 21, '14': 1, '17': 1} wall=12.8
+tag=b q=257 mode=ALLOC draws=400 best=None hist={} wall=0.2
+tag=b q=257 mode=RANK-GREEDY draws=400 best=15 hist={'16': 66, 'ILLEGAL': 18, '15': 11} wall=13.8
+tag=c q=193 mode=ALLOC draws=300 best=None hist={} wall=0.4
+tag=c q=193 mode=RANK-GREEDY draws=300 best=None hist={} wall=13.4
+tag=c q=257 mode=ALLOC draws=300 best=None hist={} wall=0.3
+tag=c q=257 mode=RANK-GREEDY draws=300 best=None hist={} wall=18.3
+tag=d q=193 mode=ALLOC draws=700 best=None hist={} wall=1.5
+tag=d q=193 mode=RANK-GREEDY draws=700 best=15 hist={'16': 105, 'ILLEGAL': 37, '15': 10} wall=78.3
+tag=d q=257 mode=ALLOC draws=700 best=None hist={} wall=1.4
+tag=d q=257 mode=RANK-GREEDY draws=700 best=15 hist={'16': 128, 'ILLEGAL': 36, '15': 11} wall=83.6

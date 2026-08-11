@@ -1,0 +1,55 @@
+=== D3  INCIDENCE-RANK INSTRUMENT (ALLOC replication + RANK-GREEDY) ===
+each incidence = ONE linear condition w(t) (x) v(gamma) on Psi in P^15
+|slopes| = 24 - merges ; TARGET 11 merges = 13 slopes
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    [ALLOC] draws = 700 ; wall 1.5 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 700 ; wall 78.3 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {15: 10, 16: 105, 'ILLEGAL': 37}
+      FINAL RANK under the 15-budget: {14: 10, 15: 690}
+      PRESCRIBED design edges per draw (of 11 needed): {7: 10, 8: 690}
+      FREE merges on top of the prescribed ones: {0: 104, 1: 11}
+      per-edge cost by CURRENT DIM (cost 1 = the degeneracy):
+        dim  0 -> {2: 700}
+        dim  2 -> {2: 700}
+        dim  4 -> {2: 700}
+        dim  6 -> {2: 700}
+        dim  8 -> {2: 700}
+        dim 10 -> {2: 700}
+        dim 12 -> {2: 700}
+        dim 14 -> {1: 690}
+      BEST LEGAL |slopes| = 15  (merges 9 ; need 13 / 11)
+        t = [0, 181, 51, 15, 178, 101, 64, 50]
+        triples = [[41, 45, 132], [11, 28, 30], [14, 113, 132], [9, 37, 115], [14, 28, 126], [4, 113, 181], [30, 37, 41], [11, 45, 155]]
+
+--- q = 257 : constant-norm pencils with >= 8 disjoint fibres = 15
+    [ALLOC] draws = 700 ; wall 1.4 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 700 ; wall 83.6 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {15: 11, 16: 128, 'ILLEGAL': 36}
+      FINAL RANK under the 15-budget: {14: 10, 15: 690}
+      PRESCRIBED design edges per draw (of 11 needed): {7: 10, 8: 690}
+      FREE merges on top of the prescribed ones: {0: 128, 1: 11}
+      per-edge cost by CURRENT DIM (cost 1 = the degeneracy):
+        dim  0 -> {2: 700}
+        dim  2 -> {2: 700}
+        dim  4 -> {2: 700}
+        dim  6 -> {2: 700}
+        dim  8 -> {2: 700}
+        dim 10 -> {2: 700}
+        dim 12 -> {2: 700}
+        dim 14 -> {1: 690}
+      BEST LEGAL |slopes| = 15  (merges 9 ; need 13 / 11)
+        t = [0, 191, 86, 249, 197, 200, 196, 60]
+        triples = [[6, 20, 180], [3, 30, 110], [33, 38, 79], [8, 46, 168], [33, 35, 144], [8, 20, 111], [3, 6, 111], [30, 38, 180]]
+
+total wall 162.2 s

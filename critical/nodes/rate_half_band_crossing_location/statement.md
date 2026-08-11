@@ -4829,3 +4829,88 @@ ramguard clean; anti-import pattern; one parent-dir ls disclosed
 (names already known from CONSTRAINTS). Anchor 1's Codex-cycle
 window (L3967-4269) was NOT read by the pilot — the wiring
 session must subtract packages against it.
+
+## Round-37 (SHARE3-4) gap addendum (2026-08-11, coordinator-audited): the one-coincidence gap DERIVED (budget 8 vs demand 11); the constant-norm census exhaustive and the threshold corrected; THE SIDE DOOR IS LEGAL
+
+Pilot r37_share3_gap (round 37, bank 3). Coordinator additions:
+the (SAT4) side-door legality CHECKED (the pilot priced it and
+left it unopened — see below); the round-36 decay/threshold
+figures withdrawn on the strength of the exhaustive census.
+
+- **THE GAP NOW HAS A DERIVATION.** An incidence is the rank-one
+  tensor w(t) (x) v(gamma) (v on a rational normal cubic — the
+  lane's own banked device, correctly subtracted); a merge edge's
+  available directions form a SURFACE Sigma_ij = P(W_ij) x nu of
+  dim 2 in P^15, so a span of dim d meets it only at d >= 14:
+  **7 edges cost 2 each, the 8th costs 1, a 9th is impossible —
+  the prescribable-merge budget is 8 against a demand of 11.**
+  Measured BIT-IDENTICALLY at two fields (cost-2 in 700/700 draws
+  at every dim 0..12, first cost-1 at dim exactly 14; 8 edges in
+  690/700). The residual 3 merges must be free: measured mean
+  0.096/0.079, maximum ever observed 2 (this round + round 36's
+  80000 draws). Best legal |slopes| = 14/15 — the two-round
+  ceiling is now EXPLAINED, not just reproduced. GRADING: a
+  generic-position count (700/700, zero exceptions), NOT a
+  theorem and NOT an exclusion — the 11-merge variety has
+  expected dim 4 over F_qbar (two agreeing counts), and the
+  UNRESOLVED TENSION is that it is cut out by 11 DETERMINANTAL
+  conditions a myopic edge-scan cannot reach: the named open
+  route is a simultaneous determinantal solve (Groebner-scale,
+  beyond stdlib+ramguard).
+- **THE EXHAUSTIVE CONSTANT-NORM CENSUS (the mu_64-orbit
+  reduction):** gcd(3,64) = 1 makes u -> u^3 a bijection, the
+  action is transitive on e_3, so the e_3 = 1 slice (651 = 41664/
+  64 split cubics, predicted = measured at five fields) DECIDES
+  the whole family. Result: pencils with >= 8 disjoint complete
+  fibres = 5056/960/128/**0**/**0** at q = 193/257/449/577/641 —
+  **exhaustively EMPTY at 577 and 641** (round 36's sampled null
+  upgraded to non-existence; q = 641 never previously run).
+  **WITHDRAWN: round 36's ~q^-7 decay and ~690 threshold** (the
+  banked REPORT figures stay byte-original; the record of use is
+  corrected here): the measured decay is ~q^-4.4 overall, NOT a
+  power law (hard zero in (449, 577]), and the supply is MONOTONE
+  DECREASING from q = 193 — the round-37 brief's "peaks at
+  moderate q" premise was WRONG (coordinator brief error,
+  recorded). FIELD-WINDOW CORRECTION of record: mu_64 <= F_q^*
+  forces q = 1 mod 64 — exactly {193, 257, 449, 577, 641} in
+  [97, 690]; "map densely" was impossible as briefed.
+- **THE SIDE DOOR IS ARITHMETICALLY LEGAL (coordinator check —
+  the round-38 headline anchor):** one fibre with a repeated
+  slope drops the slot count 24 -> 23, so **10 merges suffice —
+  which round 36 ALREADY ACHIEVED**. Cost: its three points have
+  |A_x| = m-1, so sum_x(m-d_x) = 3 = 1+O with O = 2 — and
+  (SAT2) allows O <= m-1 = 3, (SAT4) allows the sum <= m = 4:
+  LEGAL, exactly at the identity. What remains to check (a
+  pilot's job, cheap): the per-side caps and incidence
+  bookkeeping at the three deficient points, and building the
+  actual configuration from a 10-merge draw. If it survives, the
+  full round-34 pipeline (G, completion, bivariate system) runs
+  on an m = 4 witness candidate.
+- **DERIVED FENCES (both parameter counts, consistent with all
+  measurements):** the split sub-case is deficient by 5 (three
+  Möbius maps mod PGL_2 = 6 continuous merges vs 11); group
+  symmetry buys <= 4 of 11 (d_gamma = |orbit| vs the cap 2 —
+  answering the brief's mu_2 question in the negative by
+  derivation). The interpolation law f_j = sum_i lambda_ji f_i
+  (row sums 1) verified at two fields — the A-side triples are
+  free, the B-side determined, the residual system dim 1.
+  Structure lemmas: a constant-norm line has AT MOST ONE repeated
+  root (r_0 = -d_2/d_1); the 64 degenerate lines ({30:31, 31:33}
+  at all five fields) are the one-per-r_0 family — an independent
+  census correctness check.
+- **SCOPE FENCES:** m = 4 stays OPEN (six classes searched-
+  negative; nothing excluded); the census is exhaustive over the
+  constant-norm family ONLY; sporadic non-factoring sharing
+  remains unsearched (priced < 1e-4); no G, no completion, no
+  bivariate system, nothing gated by bank 2's verifier; the
+  pilot's ALLOC replication was dead (all round-36 comparisons
+  are against reported numbers); the near-miss slope-value bias
+  is an instrument artefact. COMPLIANCE: ONE bare-python3 breach
+  (empty heredoc — the SAME tic as round 36, second consecutive
+  round: a PROCESS failure; the round-38 CONSTRAINTS add the
+  pre-Bash checklist rule "any command containing python3 MUST
+  match 'tools/ramguard (tiny|local) -- python3'"); imported-
+  script rule fired correctly for the first time (the round-36
+  script's module-level "w"-mode write was caught by the
+  pre-import audit and the import REFUSED); results files
+  versioned per run (the new rules held).

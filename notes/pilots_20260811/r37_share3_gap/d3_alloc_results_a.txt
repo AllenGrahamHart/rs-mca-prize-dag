@@ -1,0 +1,19 @@
+=== D3  INCIDENCE-RANK INSTRUMENT (ALLOC replication + RANK-GREEDY) ===
+each incidence = ONE linear condition w(t) (x) v(gamma) on Psi in P^15
+|slopes| = 24 - merges ; TARGET 11 merges = 13 slopes
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    [ALLOC] draws = 120 ; wall 0.2 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 120 ; wall 2.8 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {15: 1, 16: 16, 'ILLEGAL': 1}
+      per-edge RANK COST histogram (1 = degenerate = good): {1: 73, 2: 887}
+      BEST LEGAL |slopes| = 15  (merges 9 ; need 13 / 11)
+        t = [83, 136, 0, 185, 160, 36, 114, 192]
+        triples = [[95, 134, 169], [12, 32, 117], [0, 148, 173], [68, 151, 177], [32, 131, 177], [169, 173, 185], [117, 134, 151], [95, 140, 148]]
+
+total wall 2.8 s

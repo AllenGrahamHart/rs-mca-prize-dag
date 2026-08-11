@@ -1,0 +1,53 @@
+=== D3  INCIDENCE-RANK INSTRUMENT (ALLOC replication + RANK-GREEDY) ===
+each incidence = ONE linear condition w(t) (x) v(gamma) on Psi in P^15
+|slopes| = 24 - merges ; TARGET 11 merges = 13 slopes
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    [ALLOC] draws = 300 ; wall 0.4 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 300 ; wall 13.4 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      FINAL RANK of the full 11-edge system (need <= 15):
+        {16: 300}
+      per-edge cost by CURRENT DIM (cost 1 = the degeneracy):
+        dim  0 -> {2: 300}
+        dim  2 -> {2: 300}
+        dim  4 -> {2: 300}
+        dim  6 -> {2: 300}
+        dim  8 -> {2: 300}
+        dim 10 -> {2: 300}
+        dim 12 -> {2: 300}
+        dim 14 -> {1: 192, 2: 108}
+        dim 15 -> {1: 192}
+        dim 16 -> {0: 708}
+      NO legal configuration in this cell
+
+--- q = 257 : constant-norm pencils with >= 8 disjoint fibres = 15
+    [ALLOC] draws = 300 ; wall 0.3 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 300 ; wall 18.3 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      FINAL RANK of the full 11-edge system (need <= 15):
+        {16: 300}
+      per-edge cost by CURRENT DIM (cost 1 = the degeneracy):
+        dim  0 -> {2: 300}
+        dim  2 -> {2: 300}
+        dim  4 -> {2: 300}
+        dim  6 -> {2: 300}
+        dim  8 -> {2: 300}
+        dim 10 -> {2: 300}
+        dim 12 -> {2: 300}
+        dim 14 -> {1: 192, 2: 108}
+        dim 15 -> {1: 192}
+        dim 16 -> {0: 708}
+      NO legal configuration in this cell
+
+total wall 31.7 s

@@ -1,0 +1,33 @@
+=== D3  INCIDENCE-RANK INSTRUMENT (ALLOC replication + RANK-GREEDY) ===
+each incidence = ONE linear condition w(t) (x) v(gamma) on Psi in P^15
+|slopes| = 24 - merges ; TARGET 11 merges = 13 slopes
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    [ALLOC] draws = 400 ; wall 0.5 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 400 ; wall 12.8 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {14: 1, 15: 5, 16: 64, 17: 1, 'ILLEGAL': 21}
+      per-edge RANK COST histogram (1 = degenerate = good): {1: 390, 2: 2800}
+      BEST LEGAL |slopes| = 14  (merges 10 ; need 13 / 11)
+        t = [16, 9, 89, 119, 96, 87, 0, 139]
+        triples = [[5, 6, 63], [1, 7, 52], [0, 2, 3], [4, 32, 167], [3, 167, 187], [4, 5, 160], [0, 1, 63], [2, 6, 7]]
+
+--- q = 257 : constant-norm pencils with >= 8 disjoint fibres = 15
+    [ALLOC] draws = 400 ; wall 0.2 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {}
+      NO legal configuration in this cell
+
+    [RANK-GREEDY] draws = 400 ; wall 13.8 s
+      LEGAL |slopes| HISTOGRAM (ILLEGAL = guard R6.2 killed it):
+        {15: 11, 16: 66, 'ILLEGAL': 18}
+      per-edge RANK COST histogram (1 = degenerate = good): {1: 392, 2: 2800}
+      BEST LEGAL |slopes| = 15  (merges 9 ; need 13 / 11)
+        t = [2, 71, 245, 0, 203, 31, 60, 212]
+        triples = [[5, 6, 193], [2, 3, 220], [0, 4, 255], [1, 7, 138], [4, 21, 138], [6, 7, 255], [1, 2, 170], [3, 5, 211]]
+
+total wall 26.6 s

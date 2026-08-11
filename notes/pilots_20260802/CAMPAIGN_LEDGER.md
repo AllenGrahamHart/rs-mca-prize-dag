@@ -6037,3 +6037,40 @@ code paths + the statement_u RE-DRAFT against bank 1's refutation
 status assigned; census unchanged. Files:
 notes/pilots_20260811/r37_mint_drafts/ (10 package dirs +
 MANIFEST.md).**
+
+## ROUND 37 BANK 3/4 — r37_share3_gap (2026-08-11, coordinator)
+
+**BANKED — THE ONE-COINCIDENCE GAP IS DERIVED, THE CENSUS IS
+EXHAUSTIVE, AND THE SIDE DOOR IS LEGAL. (1) The gap explained:
+incidences are rank-one tensors; the per-edge direction variety
+is a SURFACE in P^15; a span of dim d meets it only at d >= 14 —
+prescribable budget 8 vs demand 11 (bit-identical two-field cost
+table, 700/700, threshold at dim 14 exactly); the residual 3
+merges must be free (mean 0.09, max ever 2) — the two-round
+|slopes| = 14 ceiling is now a CONSEQUENCE. Graded generic-
+position, NOT an exclusion: the 11-merge variety has dim 4 over
+F_qbar and the determinantal solve (Groebner-scale) is the named
+open route. (2) The mu_64-orbit reduction (gcd(3,64)=1) makes the
+constant-norm census EXHAUSTIVE via the 651-cubic e_3=1 slice:
+5056/960/128/0/0 pencils at q=193/257/449/577/641 — EMPTY at 577
+AND 641 exhaustively; supply MONOTONE DECREASING (my brief's
+"peaks at moderate q" premise WRONG, recorded); round-36's ~q^-7
+/ ~690 threshold WITHDRAWN (true decay ~q^-4.4, hard zero in
+(449,577]); the window is exactly five fields (q = 1 mod 64 —
+"map densely" was impossible as briefed). (3) COORDINATOR CHECK —
+THE SIDE DOOR IS ARITHMETICALLY LEGAL: a repeated-slope fibre
+costs sum(m-d_x) = 3 = 1+O with O = 2 <= delta = 3 ((SAT2)/(SAT4)
+read at the node) — the demand drops to 10 merges, WHICH ROUND 36
+ALREADY ACHIEVED; round-38 anchor #1. Derived fences: split
+sub-case deficit 5; symmetry <= 4 of 11 (the mu_2 answer, by
+derivation); interpolation law verified two fields; constant-norm
+structure lemmas (one repeated root; the 64 degenerate lines).
+COMPLIANCE: ONE bare-python3 breach — the SAME empty-heredoc tic
+as round 36, two consecutive rounds = a PROCESS failure;
+censured; ROUND-38 RESPONSE: the pre-Bash checklist rule in
+CONSTRAINTS + prompt. The imported-script rule FIRED correctly
+for the first time (round-36's module-level "w" write caught,
+import refused). New results-file rules held (versioned runs).
+Node: addendum incl. the side-door check + the threshold
+withdrawal. Mint +4. Files:
+notes/pilots_20260811/r37_share3_gap/.**
