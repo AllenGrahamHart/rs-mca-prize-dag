@@ -45,3 +45,40 @@ The pair does have the common zero-codeword explanation on the first six
 coordinates. That fact coexists with the two bad supports and exposes the
 invalid existential-support inference. The counterexample therefore lies on
 a smooth dyadic domain, at rate `1/2`, and at equality in `n-3w>=m`.
+
+## The printed `+1` inequality is also false
+
+Use the smooth rate-half code
+
+```text
+D=F_17^*=mu_16,       C=RS[F_17,D,8],
+m=10,                 w=m-K=2.
+```
+
+Choose two coordinates `e_1,e_2` and distinct slopes
+`gamma_1=3,gamma_2=5`. Put
+
+```text
+v(e_i)=1,       u(e_i)=-gamma_i,
+u(x)=v(x)=0     off {e_1,e_2}.
+```
+
+Every word `u+zv` is supported on at most two coordinates. Its split error
+locator, paired with the zero numerator, is an interpolation-lattice vector
+of shifted degree at most two. Thus `d1(u+zv)<=w` for every slope, and every
+slope has a size-`m` zero-codeword agreement support. The far-from-code set
+on the right of the printed inequality is empty.
+
+For `z=gamma_i`, choose `R subset D\{e_1,e_2}` with `|R|=m-1=9` and put
+`S_i=R union {e_i}`. The line word vanishes on `S_i`, so the zero codeword
+explains it there. If a degree-below-eight polynomial explained `v` on the
+same support, it would vanish on the nine points of `R` and equal one at
+`e_i`, which is impossible. Hence both `gamma_1` and `gamma_2` are
+support-wise MCA-bad. Since
+
+```text
+3w=6<=n-K=8,
+```
+
+this is a legal guarded witness with `N_MCA-bad>=2` and an empty far set. It
+falsifies the printed `+1` inequality, not merely its proof.

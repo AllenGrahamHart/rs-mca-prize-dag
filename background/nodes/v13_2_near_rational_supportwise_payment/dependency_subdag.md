@@ -2,13 +2,12 @@
 
 ```text
 v13_2_near_rational_pair_proximity [PROVED]
-    |
-    v
+    |                         \
+    v                          v
 v13_2_near_rational_supportwise_payment [REFUTED]
-    | ev
-    v
-v13_bc_split_pencil_normal_form [CONJECTURE]
+                               v13_2_near_rational_supportwise_two_anchor_payment [PROVED]
 ```
 
-The evidence edge records a route cut. No critical consumer may treat pair
-proximity as a support-wise payment without an additional theorem.
+The old zero/one-slope payment remains refuted. The sibling node supplies a
+different theorem with the corrected `2w` charge and an explicit
+same-witness argument; it does not rehabilitate the false claim.

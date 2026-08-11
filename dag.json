@@ -16211,7 +16211,7 @@
    "id": "v13_2_near_rational_supportwise_payment",
    "title": "Paper D v13.2 near-rational support-wise payment",
    "status": "REFUTED",
-   "statement": "REFUTED: common codeword-pair proximity produced by two low-d1 slopes does not imply that no slope is support-wise MCA-bad. In the smooth rate-half code RS[F_17,mu_8,4] at m=5, u=(0,0,0,0,0,0,1,1) and v=(0,0,0,0,0,0,1,2) satisfy n-3w=m and have low-d1 nonzero-census slopes 8 and 16, yet both slopes possess agreement supports that do not extend to a codeword pair. The final displayed balanced-count inequality of cor:capfp-line is not itself refuted by this witness; its near-rational payment needs a new support-wise argument.",
+   "statement": "REFUTED: common codeword-pair proximity produced by two low-d1 slopes does not imply that no slope is support-wise MCA-bad. The smooth rate-half RS[F_17,mu_8,4] witness invalidates the support inference. A second smooth rate-half RS[F_17,mu_16,8] witness has two support-wise bad slopes while every line word is within distance w=2 of the zero codeword, so it falsifies the former displayed +1 inequality itself. The corrected proved replacement is the 2w charge in v13_2_near_rational_supportwise_two_anchor_payment.",
    "refs": [
     "background/nodes/v13_2_near_rational_supportwise_payment/statement.md",
     "background/nodes/v13_2_near_rational_supportwise_payment/refutation.md",
@@ -37248,6 +37248,23 @@
     "label": "lem:sp-next-periodicity-equivalence; thm:sp-next-maximal-extraction",
     "relation": "IDENTICAL"
    }
+  },
+  {
+   "id": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "title": "Near-rational support-wise two-anchor payment",
+   "status": "PROVED",
+   "closure": "same-witness coordinate-ratio injection",
+   "statement": "Let C=RS[F,D,K], |D|=n, m=K+w, w>=1, and 3w<=n-K. On any fixed received line, the number of finite slopes that both lie within Hamming distance w of C and have an actual size-m support-wise MCA-bad witness is at most 2w. Two anchors place all near errors on one joint support of size at most 2w; minimum distance identifies every near codeword with the anchor codeword line, and each bad witness injects its slope into one nonzero coordinate ratio on that joint support.",
+   "refs": [
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/statement.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/proof.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/claim_contract.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/dependency_subdag.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/audit.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/result.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/provenance.md",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py"
+   ]
   },
   {
    "id": "x4_exact_slice_f2_guard_route_cut",
@@ -70824,6 +70841,26 @@
   {
    "from": "upstream_sp_coefficient_scale_quotient_sieve",
    "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_pair_proximity",
+   "to": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "kind": "req"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "v13_bc_split_pencil_normal_form",
    "kind": "ev"
   },
   {

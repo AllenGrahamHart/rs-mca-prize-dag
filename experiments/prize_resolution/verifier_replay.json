@@ -2,25 +2,33 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 3,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify.py",
-      "seconds": 0.01664,
+      "script": "background/nodes/v13_2_near_rational_pair_proximity/verify.py",
+      "seconds": 0.092645,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_CONSTANT_HEAVY_PIN_PASS e=183251937963 allowed={0: (2, 3, 4, 5), 1: (1, 2)}\n"
+      "stdout_tail": "V13_2_NEAR_RATIONAL_PAIR_PROXIMITY_PASS 4374\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin/verify_audit.py",
-      "seconds": 0.013628,
+      "script": "background/nodes/v13_2_near_rational_supportwise_payment/verify.py",
+      "seconds": 0.068517,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_CONSTANT_HEAVY_PIN_AUDIT_PASS rows=[(0, 2, 733007751849, 1), (1, 1, 366503875920, 2)]\n"
+      "stdout_tail": "V13_2_NEAR_RATIONAL_SUPPORTWISE_PAYMENT_REFUTED [0, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16] PLUS_ONE_WITNESS (3, 5)\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py",
+      "seconds": 0.039619,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "V13_2_NEAR_RATIONAL_TWO_ANCHOR_PAYMENT_OK [3, 5]\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

@@ -9,5 +9,9 @@
   `refutation.md`; in fact both low-`d1` slopes are MCA-bad.
 - **Retained theorem:** `v13_2_near_rational_pair_proximity` proves common
   pair proximity on `n-2w` coordinates.
-- **Nonclaim:** the paper's final displayed balanced-count inequality is not
-  declared false by this witness.
+- **Stronger falsifier:** the smooth `mu_16 subset F_17` witness has two bad
+  slopes while every line word is within distance `w=2` of the zero
+  codeword, so it refutes the printed `+1` inequality itself.
+- **Replacement:**
+  `v13_2_near_rational_supportwise_two_anchor_payment` proves the corrected
+  uniform charge `2w` under `w>=1` and `3w<=n-K`.
