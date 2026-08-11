@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy",
+    "title": "Endpoint kernel-biform factor-degree dichotomy",
+    "status": "PROVED",
+    "closure": "the strict endpoint kernel biform has one irreducible parameter factor of degree at least ceil((3m+1)/4)",
+    "statement": "At the strict A=3,e=m saturation-failure endpoint, factor the primitive kernel biform over F_q(X). Exactly one factor is small relative to the T-by-N incidence capacities, and its parameter degree is at least ceil((3m+1)/4). Hence the biform does not split into parameter-linear factors for m>=2, is irreducible for m=2,3,4, and has an irreducible parameter factor of degree at least 103079215105 on the official row.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/statement.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/proof.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/audit.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/result.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/provenance.md",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/verify.py",
+      "background/nodes/rate_half_ca_hankel_endpoint_kernel_biform_factor_degree_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_endpoint_saturation_rigidity"
+    },
+    {
+      "from": "rate_half_ca_hankel_endpoint_rational_normal_kernel_curve"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_closure"
+    },
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

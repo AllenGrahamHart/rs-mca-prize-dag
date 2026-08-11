@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate",
+    "title": "A=1 quadratic paired parameter-fiber coefficient-MDS gate",
+    "status": "PROVED",
+    "closure": "the zero-excess parameter fibers obey explicit transposed full-support coefficient-MDS kernel systems",
+    "statement": "For every selected zero-excess parameter fiber, write the specialized pair-boundary biform as a nonzero scalar times its monic full-degree split root polynomial, including padded-heavy roots. Every scaled root-coefficient vector lies in the same punctured RS code on the selected slope set. Equivalently, an explicit parameter-barycentric matrix has a kernel vector with every coordinate nonzero. The guaranteed matrices have (p-2)(e+1) rows by 2e columns in the extremal profile and (p-1)(p+2-e) rows by p+2 columns at the first strict boundary.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

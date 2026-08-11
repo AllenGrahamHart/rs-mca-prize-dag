@@ -29783,3 +29783,1735 @@ compute requests:        none
 
 The next boundary has pair union `rho+4`, coefficient-row rank at most
 three, and the stronger center-line cap `4h+sum r<=rho+4`.
+# Cycle 125: upstream rate-half quadratic pair-floor export (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:      04179c43ac45b7c53a03d2441487971da72f3069
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161, draft
+critical open:   28
+```
+
+## Lane-T route-cut packet
+
+The complete `rho+3` pair-profile exclusion from Cycles 123--124 is exported
+to `przchojecki/rs-mca` as draft PR `#1161`:
+
+```text
+https://github.com/przchojecki/rs-mca/pull/1161
+```
+
+The two-file packet uses upstream terminology and gives a self-contained
+profile contract, the symmetric-Hankel origin of the rank-two barycentric
+coordinate, the bidirectional heavy-incidence localization, the terminal
+pair-floor proof, the exact official specialization, and a deterministic
+arithmetic/tamper replay.
+
+The PR is deliberately a Lane-T `ROUTE_CUT`. It changes no v4 atom and does
+not claim BC/SP, row closure, or a leaderboard movement. Its next adapter is
+to identify a first-match owner satisfying the printed profile interface;
+only then may an upstream compiler delete the `rho+3` cell.
+
+Validation passed in normal and optimized Python, with 5/5 formula-contract
+mutations rejected. The only GitHub check failure is Vercel's external
+deployment-authorization requirement; it is unrelated to the theorem or
+repository files.
+
+## Burn-down
+
+```text
+result:                  EXPORTED complete rho+3 profile removal
+DAG delta:               none
+critical status delta:   none; source theorem already PROVED
+upstream terminal delta: draft Lane-T route cut #1161
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+Resume the local rate-half attack at pair union `rho+4`, where the complete
+coefficient-row rank is at most three.
+# Cycle 126: quadratic macroscopic pair floor (2026-08-11)
+
+## Cycle pins
+
+```text
+our start:       f783ad46f
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 open draft
+compute:         two local tiny integer verifiers
+critical open:   28
+```
+
+## The pair floor jumps macroscopically
+
+For a pair union `rho+j`, exact global degree-`e` incidence on the union can
+be split between centers on the endpoint codeword line and centers off it.
+Linearity gives `jh+d_A<=rho+j-1`; minimum distance bounds every off-line
+intersection. Eliminating `h` produces one concave quadratic `F_e(j)`.
+
+It is positive at both endpoints of
+
+```text
+4<=j<=rho/2-2,
+```
+
+and therefore positive throughout. The complete interval is impossible:
+
+```text
+|S_alpha union S_beta|>=3rho/2-1.
+```
+
+The official floor is `824633720831`. Every assigned-center line contains
+at most three supported slopes; a three-center line has total deficit at
+most one. Every pair therefore has at least `rho+1` expanding thirds.
+
+## Burn-down
+
+```text
+result:                  REMOVED a macroscopic pair-union band
+DAG delta:               +1 PROVED leaf, +1 req edge, +1 ev edge
+critical status delta:   narrowed, still TARGET
+upstream terminal delta: stronger theorem available for PR #1161 update
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next route decision is whether the at-most-three-center geometry and
+exact support moments exclude the quadratic packet outright.
+# Cycle 127: quadratic extremal minimum-word reduction (2026-08-11)
+
+## Cycle pins
+
+```text
+our start:       d9a0e8849
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 amended through 09152eb
+compute:         two local tiny integer verifiers
+critical open:   28
+```
+
+## The sole floor case is an exact minimum-word family
+
+Every pair either has union at least `3rho/2`, with no third center on its
+endpoint codeword line, or attains `3rho/2-1`. Equality forces exactly one
+third line center and total line deficit at most one.
+
+For the `3e` off-line slopes in the equality case, define the triple-union
+excess above `d_min=2rho+1`. Exact global incidence gives
+
+```text
+sum excess=e.
+```
+
+Hence at least `2e` slopes have zero excess. For each, the affine second
+difference of its center with the two endpoint centers is a nonzero RS
+codeword supported inside a `d_min`-set. It therefore has exact minimum
+weight and support equal to the triple union.
+
+## Burn-down
+
+```text
+result:                  REDUCED the sole floor profile to >=2e minimum words
+DAG delta:               +1 PROVED leaf, +1 req edge, +1 ev edge
+critical status delta:   narrowed, still TARGET
+upstream terminal delta: PR #1161 contains the macroscopic precursor
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+Next determine whether these minimum words are forced into a split pencil or
+whether their zero locators violate the exact light-incidence ledger.
+# Cycle 128: quadratic extremal Forney gate (2026-08-11)
+
+## Cycle pins
+
+```text
+our start:       2a7b3c2a2
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 open as draft at 09152eb
+compute:         tiny integer checks and one F_101 circuit audit
+critical open:   28
+```
+
+## Three-center source partition
+
+Subtract the codeword line through the exact three assigned centers in the
+sole floor branch. Every noncore coordinate of its fixed support is a
+nonzero parameter-linear source. The coordinates missing at the three line
+slopes form disjoint classes of sizes
+
+```text
+p-1+r_alpha, p-1+r_beta, p-1+r_theta.
+```
+
+They cover the support when the total line deficit is one and leave exactly
+one coordinate when it is zero. Thus the fixed source has only three named
+parameter-root classes, plus at most one exceptional coordinate.
+
+## Minimum circuits become reciprocal interpolation
+
+At every zero triple-union excess slope, split its actual support into the
+inside part and a monic outside locator `B_delta`. The outside support has
+exactly `p+2` points. Comparing the minimum RS word values with the
+contracted Hankel source gives
+
+```text
+omega_x(delta) B_delta(x)L_U0'(x)=kappa_delta
+```
+
+on `rho+1+r_delta` coordinates. The full form retains the padded factor and
+is independently checked against the `d+1`-row Vandermonde nullspace. At
+least `2e` slopes obey this gate, and at least `e+6+d_A` of them are clean
+one-dimensional barycentric circuits. Officially the lower bounds are
+`366503875926` and `183251937969`.
+
+## Burn-down
+
+```text
+result:                  REDUCED the extremal branch to a three-class
+                         reciprocal locator interpolation problem
+DAG delta:               +2 PROVED leaves, +3 req edges, +2 ev edges
+critical status delta:   narrowed, still TARGET
+upstream terminal delta: no PR amendment; #1161 remains the pair-floor cut
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next exact task is to compare two clean outside locators through the
+same three source classes. A useful closure must control their coordinate
+scalars or force a low-rank locator pencil; counting minimum words alone is
+now known to be insufficient.
+# Cycle 129: quadratic extremal dual split biform (2026-08-11)
+
+## Cycle pins
+
+```text
+our start:       uncommitted Cycle-128 tree over 2a7b3c2a2
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 open as draft at 09152eb
+compute:         tiny arithmetic and F_101 dual-GRS audit
+critical open:   28
+```
+
+## The minimum-word family has a lower-degree algebraic carrier
+
+For each coordinate of the extremal fixed support, multiply its locator row
+by its contracted source form and divide the three center-line roots. The
+global Hankel kernel equation puts the resulting vector in a dual GRS code
+on `U_0`. Dual interpolation therefore produces one biform
+
+```text
+G(t,X),       bidegree (e-2,p-3).
+```
+
+This biform splits densely in both directions:
+
+```text
+at least 3p-3+d_A domain rows:
+    e-2 distinct roots among the 3e off-line supported slopes;
+
+at least e+6+d_A parameter fibers:
+    p-3 distinct roots in U_0.
+```
+
+At every clean parameter fiber, `G(delta,X)` is not merely split: it is an
+explicit nonzero scalar multiple of the inside actual-support locator.
+
+## Burn-down
+
+```text
+result:                  REDUCED the extremal branch to an exact
+                         bidirectionally split biform census
+DAG delta:               +1 PROVED leaf, +1 req edge, +1 ev edge
+critical status delta:   narrowed, still TARGET
+upstream terminal delta: candidate Lane-T export after route assessment
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next decision is structural rather than computational: compare this
+exact biform profile against the existing split-pencil/SPI classifiers. A
+usable theorem must either exclude its dense two-directional split pattern
+or classify it into a form incompatible with the original quadratic
+Hankel packet.
+# Cycle 130: upstream rate-half extremal-biform export (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:      1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize: 3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 amended through c7542daf5b4d0a25f2a0dc013bd03d10405bb2d5
+compute:         exact integer replay only
+critical open:   28
+```
+
+## Lane-T synchronization
+
+Draft PR `przchojecki/rs-mca#1161` now carries the Cycle-128/129 aftermath of
+the macroscopic pair floor. The upstream packet records:
+
+```text
+three-center source partition;
+at least 2e zero-excess minimum circuits;
+at least e+6+d_A clean reciprocal locator gates;
+the exact dual-GRS biform of bidegree (e-2,p-3);
+the two directional split counts at official integers.
+```
+
+The source pin moved to `1c967ff9` and the packet prints all twelve SHA-256
+statement/proof hashes. Its verifier now checks the biform degrees and split
+counts in addition to the pair-floor arithmetic.
+
+The PR is deliberately framed as a Lane-T `ROUTE_CUT`. Upstream's proved
+split-pencil ray collapse identifies the deduplicated target with `LineRay`
+but supplies no upper bound. The export therefore claims neither a BC
+payment nor a finite-row ledger change.
+
+## Burn-down
+
+```text
+result:                  EXPORTED the exact extremal residue in upstream
+                         base-field split-pencil terminology
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: sharper named LineRay/split-biform residual
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+CI:                      Vercel authorization failure only; unrelated
+```
+
+Next test whether the biform profile is impossible on its own. If a small
+model survives, bank the route fence and retain the extra marked-Hankel or
+contact-section coupling as the next necessary input.
+# Cycle 131: rate-half quadratic strict-boundary minimum words (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize:  3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          exact integer replay only
+critical open:    28
+```
+
+## First strict boundary
+
+Retain the strict pair branch at `|S_alpha union S_beta|=rho+p=3p`.
+Cycle 127 makes the endpoint codeword line contain exactly two centers.
+The noncore endpoint-missing classes are disjoint, have sizes
+`p+r_alpha,p+r_beta`, and leave `p-1-r_A` coordinates present at both
+endpoints.
+
+Across the `3e+1` off-line slopes, exact incidence gives
+
+```text
+sum a_delta=p,
+a_delta=|U union S_delta|-(2rho+1)>=0.
+```
+
+Thus at least `p+2` off-line center differences are exact nonzero RS
+minimum words. Removing every positive-deficit slope adversarially leaves
+at least `(e+15)/2+r_A` clean minimum words. At the official integers these
+lower bounds are `274877906946` and `91625968989+r_A`.
+
+## Burn-down
+
+```text
+result:                  PROVED strict-boundary minimum-word reduction
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          strict branch now has a macroscopic exact family
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+Next pass this exact family through the fixed-line Hankel source and dual
+GRS interpolation, keeping the two-center degree shift explicit.
+# Cycle 132: rate-half quadratic strict-boundary dual biform (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  1c967ff948037490f8e7903aa45d168e63ad843f
+canonical prize:  3edb8b31b6735a0a2302a578a21dc6e50bd64046
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          finite-field audit at q=101; exact integer replay
+critical open:    28
+```
+
+## Two-center split biform
+
+Divide each source-locator row by the two endpoint parameter factors. The
+resulting row has parameter degree at most `e-1` and satisfies the full
+Hankel moment system on the `3p-1` noncore union points. Dual-GRS
+interpolation therefore produces a unique biform
+
+```text
+G(t,X),        bidegree exactly (e-1,p-2).
+```
+
+At least `2p+r_A` fixed-domain rows split into their `e-1` distinct
+off-line supported slopes. At least `(e+15)/2+r_A` clean fixed-parameter
+fibers split into their `p-2` inside-support points and equal the monic
+inside locator up to scalar. The official unconditional profile is
+
+```text
+bidegree:           (183251937962,274877906942)
+split domain rows:  >=549755813888
+clean fibers:       >=91625968989.
+```
+
+## Burn-down
+
+```text
+result:                  PROVED strict-boundary dual-MDS split biform
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          strict branch reduced to a named split census
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The remaining question is whether the extremal `(e-2,p-3)` and strict
+`(e-1,p-2)` split profiles are impossible from degree and incidence alone,
+or require the extra marked-Hankel/contact-section coupling.
+# Cycle 133: round-33 and upstream rate-half synchronization (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:       1833bfc0c
+canonical HEAD:   5774b9ba3c2c9b72c526b97b7b71da1a19bca9a2 plus dirty pilots
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PRs:     #1161 unchanged; #1162 new and mergeable
+compute:          inspection only
+critical open:    28
+```
+
+## Stable upstream movement
+
+PR `#1162` exports five pinned rate-half packets from the canonical
+campaign. It moves the safe side below `3n/4` through the proved Haboeck
+quadratic-Johnson staircase and establishes the first far-CA floor by an
+explicit maximal-core pencil. On razor rows its reported crossing window is
+`[k+2^34,a_94]`. This is real bracket movement, but neither endpoint is an
+adjacent safe/unsafe certificate and the band target remains open.
+
+Draft PR `#1161` remains mergeable with no review comments. Upstream main
+has not moved, and its sole failed check remains the unrelated Vercel
+authorization context.
+
+## Provisional canonical signal
+
+The Fable tree is actively running two uncommitted round-33 pilots. Their
+current files are not imported, but they expose a route-relevant pattern:
+
+```text
+abstract incidence systems:       usually full-rank / unrealizable;
+one reduced m=2 survivor:         one-dimensional admissible kernel;
+full-domain bivariate layer:      kills that survivor in two fields;
+SAT3 at m=1:                      explicitly realizable;
+large-m dimension ledger:         strongly overdetermined, not a proof.
+```
+
+The useful transferable mechanism is the full-domain bivariate coefficient
+compatibility, not any provisional numerical verdict. That mechanism is
+re-derived independently for our two `A=1` pair-boundary biforms in the
+next cycle.
+
+## Burn-down
+
+```text
+result:                  synchronized; selected coefficient compatibility
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: PR #1162 narrows the rate-half bracket
+delta-star movement:     safe bracket only; no exact delta-star
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 134: rate-half paired-biform coefficient-MDS gate (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  1833bfc0c
+canonical prize:  5774b9ba3c2c9b72c526b97b7b71da1a19bca9a2 plus dirty pilots
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          F_101 parity audit; F_337/F_421 exact rank probes
+critical open:    28
+```
+
+## Exact realizability matrix
+
+For every classified split row `x`, write
+
+```text
+G(t,x)=lambda_x product_(delta in A_x)(t-delta).
+```
+
+Because every coefficient of `G` has the same low `X`-degree, each vector
+of scaled elementary-symmetric functions belongs to one punctured RS code.
+Equivalently, the printed coefficient-barycentric matrix has a kernel vector
+`lambda` with every coordinate nonzero. The leading coefficient is the
+shared denominator, so all root-set profiles are values of rational
+functions with one common denominator.
+
+For the official zero-deficit profiles the matrix dimensions are
+
+```text
+extremal:  100743818300669342078294 rows x 824633720829 columns;
+strict:     50371909150884426853035 rows x 549755813888 columns.
+```
+
+The row count is not a rank argument. The closure task is now precise:
+prove that every incidence pattern allowed by the relevant pair boundary
+makes this matrix lack a full-support kernel, or exhibit a survivor and
+identify the additional source/Hankel equation it still must satisfy.
+
+At `e=7,d_A=1`, the exact smooth cyclic degree ledger has full rank in both
+`F_337` and `F_421`; 250 degree-preserving switch trials per field were also
+full rank. This validates the obstruction but remains explicitly
+non-exhaustive evidence.
+
+## Burn-down
+
+```text
+result:                  PROVED paired coefficient-MDS kernel gate
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          pair profiles gain exact finite rank falsifiers
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 135: upstream paired-biform gate export (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:      a01726108cfd588c7901557a8f3760afb03f5447
+canonical prize: 5774b9ba3c2c9b72c526b97b7b71da1a19bca9a2 plus dirty pilots
+upstream main:   93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:     #1161 amended through a02badeab72a1c6d4d24e2eb5c6fea3313ca5211
+compute:         exact verifier replay only
+critical open:   28
+```
+
+## Lane-T export
+
+Draft PR `#1161` now exports the complete pair-boundary packet rather than
+only the extremal biform:
+
+```text
+macroscopic pair floor and three-center cap;
+extremal (e-2,p-3) split biform;
+first strict (e-1,p-2) split biform;
+full-support coefficient-MDS kernel gate for both profiles;
+official matrix dimensions and calibrated e=7 rank probes.
+```
+
+The note uses upstream `LineRay`, base-field split-pencil, and Lane-T
+terminology. It prints nineteen source hashes and pins the public campaign
+commit exactly. Its nonclaims remain explicit: no BC payment, no
+deduplicated LineRay bound, no first-match adapter, and no leaderboard
+movement. The sole failing check is the unrelated Vercel authorization
+context.
+
+## Burn-down
+
+```text
+result:                  EXPORTED paired biform realizability gates
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: exact rank obstruction available to LineRay lane
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next bankable theorem would be an all-profile full-support-kernel
+exclusion for either matrix, or a rigorously classified survivor showing
+which additional source/Hankel identity the LineRay compiler must retain.
+# Cycle 136: Round-34 and upstream rate-half synchronization (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:       66360d01f
+canonical prize:  6b337c6d17c63b557b2dd4c489aa938434033c3d
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PRs:     #1161 draft/mergeable; #1162 open/mergeable
+critical open:    28
+compute:          inspection only
+```
+
+## Canonical correction and new round
+
+Canonical Round 33 has completed. Its main correction is that the proposed
+far-CA forced-fixed-generator step is false: the shifted generators need not
+form a minimal basis, so Forney's inequality gives no upper bound in the
+claimed direction. Canonical withdrew `R-MOVING`, retained the stacked-rank
+invariant, and launched a separate `p*` boundary pilot.
+
+The other Round-34 pilots attack the full-domain Layer-A system, the `m=2`
+saturation boundary, and the `m=3,4` bivariate-curve boundary. These are
+parallel rate-half instruments. They do not alter the proved `A=1` quadratic
+pair-boundary reductions, but they independently confirm that full-domain
+bivariate compatibility is the route-deciding object.
+
+Upstream main has not moved. PR #1162 retains the two-sided razor bracket,
+and draft PR #1161 retains our fixed-domain paired-biform coefficient gate.
+
+## Burn-down
+
+```text
+result:                  synchronized; false far-CA premise fenced
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: none after PR #1162
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next direct action is to exploit every zero-excess parameter fiber of
+the two `A=1` pair-boundary biforms, including positive-padding fibers.
+# Cycle 137: rate-half `A=1` paired padded-fiber factorization (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  66360d01f
+canonical prize:  6b337c6d17c63b557b2dd4c489aa938434033c3d
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          exact integer replay only
+critical open:    28
+```
+
+## Full zero-excess fibers
+
+For every zero-excess slope, restore the padded-heavy factor instead of
+discarding the slope when its deficit is positive. The minimum-word circuit
+and the specialized homogeneous locator give the exact identity
+
+```text
+G(delta,X)=zeta_delta A_delta(X)R_delta(X).
+```
+
+Here `A_delta` is the actual inside-support locator and `R_delta` is the
+padded-heavy factor. Their roots are disjoint, and their degrees add to the
+full domain degree of the biform. Consequently:
+
+```text
+extremal (e-2,p-3): at least 2e full-degree split fibers;
+strict   (e-1,p-2): at least p+2 full-degree split fibers.
+```
+
+At the official row the counts are `366503875926` and `274877906946`.
+The strict padded Forney identity is proved directly from its own minimum RS
+word rather than imported by analogy.
+
+## Burn-down
+
+```text
+result:                  PROVED paired padded-fiber factorization
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          all zero-excess fibers are now usable
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 138: rate-half `A=1` parameter-fiber coefficient-MDS gate (2026-08-11)
+
+## Transposed realizability matrix
+
+Write every selected full-degree parameter fiber as
+
+```text
+G(delta,X)=zeta_delta F_delta(X),
+```
+
+with `F_delta` monic and split. Every scaled root-coefficient vector is an
+evaluation of a parameter polynomial of degree at most `m`. Equivalently,
+one explicit parameter-barycentric matrix has the full-support kernel vector
+`zeta`. The official guaranteed matrices are
+
+```text
+extremal: 50371909150609548946088 rows x 366503875926 columns;
+strict:   25185954575671278348969 rows x 274877906946 columns.
+```
+
+This is the parameter-direction counterpart of Cycle 134's fixed-domain
+gate. Both constrain one common biform; neither row count is itself a rank
+proof.
+
+## Verification and burn-down
+
+```text
+result:                  PROVED parameter-fiber coefficient-MDS gate
+DAG delta:               +1 PROVED, +2 nodes total this cycle group
+DAG after compile:       2291 nodes, 6733 edges, 2050 PROVED
+critical status delta:   none; 28 every-route TARGETs remain
+node replay:             normal/-O/audit/tamper all pass
+DAG/manifests/crosswalk: pass
+full composed replay:    preflight blocked by a pre-existing failed WCL
+                         row in the historical baseline; new scripts pass
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next closure test must combine the fixed-domain and fixed-parameter
+coefficient systems with the retained Hankel/source identities. A survivor
+of one matrix alone is not a valid pair-boundary realization.
+# Cycle 139: upstream parameter-fiber gate export (2026-08-11)
+
+## Cycle pins
+
+```text
+local source:     cd318d6155d9f96ff986926dfec5a0b58f54a408
+canonical prize:  6b337c6d17c63b557b2dd4c489aa938434033c3d
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR:      #1161 through 5735c16d8c9f6d9b4edd10095a03f2b047762ba8
+```
+
+Draft PR #1161 now includes the full zero-excess padded-fiber factorization
+and the parameter-direction coefficient-MDS matrix for both pair boundaries.
+The packet pins twenty-three source assets at `cd318d615`, prints all four
+official matrix dimensions, and keeps the fixed-domain probe explicitly
+separate from the untested parameter matrices.
+
+The branch verifier passes in normal and optimized Python, and its tamper
+replay rejects 5/5 mutations. The sole failed PR check remains the unrelated
+Vercel authorization context.
+
+## Burn-down
+
+```text
+result:                  EXPORTED transposed paired-biform gate
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: two-direction LineRay compatibility available
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+Per the convergence self-kill, the next cycle returns to direct critical
+mathematics: combine both coefficient systems with the retained Hankel/source
+identity or construct a fully compatible survivor that names the next missing
+equation.
+# Cycle 140: rate-half `A=1` paired scalar-weld gate (2026-08-11)
+
+## One common-biform system
+
+The fixed-domain and zero-excess parameter factorizations cannot be tested as
+independent biforms. On every nonincidence cell they obey
+
+```text
+lambda_x P_x(delta)=zeta_delta F_delta(x).
+```
+
+Choose one nonincident anchor per fiber and eliminate `zeta_delta`. This adds
+a sparse matrix `W`, with exactly two nonzero entries per row, to the existing
+fixed-domain coefficient matrix. The row and fiber data are realized by one
+biform if and only if
+
+```text
+[Krow; W] lambda=0
+```
+
+has a kernel vector with every coordinate nonzero. The converse is exact:
+`Krow` reconstructs the biform coefficientwise, while `W` makes each selected
+fiber agree with its full padded root polynomial on more points than its
+degree. The parameter-direction coefficient gate then follows automatically
+and is not counted as independent evidence.
+
+The guaranteed weld-row lower bounds at zero line deficit on the official row
+are
+
+```text
+extremal: 201487636602438195784362,
+strict:    75557863726738957139970.
+```
+
+These row counts are not rank arguments.
+
+## Burn-down
+
+```text
+result:                  PROVED scalar-weld augmented-kernel equivalence
+DAG delta:               +1 PROVED
+DAG after compile:       2292 nodes, 6736 edges
+critical status delta:   none; 28 every-route TARGETs remain
+node replay:             normal/-O/audit/tamper all pass
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next falsifier is now small in description: an allowed incidence/root
+profile whose augmented matrix has a full-support kernel. Such a survivor
+must then be checked against the retained Hankel/source identities; absence
+of a survivor in random profiles is not a proof.
+# Cycle 141: rate-half `A=1` connected weld-rank dichotomy (2026-08-11)
+
+## Connected complement graph
+
+For both pair boundaries, any two selected zero-excess fibers share a
+nonincident classified row:
+
+```text
+extremal margin: p+3+d_A,
+strict margin:   4+r_A.
+```
+
+Every classified row also misses a selected fiber, with margins `e+2` and
+`(e+5)/2`. The complement incidence graph is therefore connected. Its sparse
+weld matrix has only two possible ranks:
+
+```text
+rank W=R:   boundary excluded immediately;
+rank W=R-1: one unique projective full-support scalar vector remains.
+```
+
+In the second case, common-biform realizability is exactly the test
+`Krow lambda=0`; no full-support search remains.
+
+## Calibration
+
+At `e=7,d_A=1`, the smooth cyclic `28 x 21` ledger has weld rank `28` over
+both `F_337` and `F_421`. One hundred deterministic degree-preserving switch
+trials per field also all had rank `28`. This calibrates the exclusion but is
+not an exhaustive or official-row proof.
+
+## Burn-down
+
+```text
+result:                  PROVED connected weld-rank dichotomy
+DAG delta:               +1 PROVED
+DAG after compile:       2293 nodes, 6738 edges
+critical status delta:   none; 28 every-route TARGETs remain
+probe:                   202/202 profiles full weld rank; evidence only
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The route-deciding residue is now whether any allowed profile can make the
+weld cycles consistent. A survivor has one forced scalar vector and must
+then pass `Krow` and the retained Hankel/source identities.
+# Cycle 142: Round 34 reconciliation and scalar-weld export (2026-08-11)
+
+## Cycle pins
+
+```text
+local merge:       fbe7e7287
+canonical prize:   3867548f20537abdc14fd55bdecb0ebefd2448fc
+upstream main:     93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PR #1161: 94769d50177db7bf324fd29abddcd997843e0330
+critical open:     28
+```
+
+Canonical Round 32-34 was merged on top of the paired-biform line. This
+imports the audited withdrawal of the false forced-moving-generator route
+and the corrected `R-PSTAR` verdict: the fixed-generator stratum is
+nonempty at razor scale, `p*<=R/2` is not equivalent to FG, and low-`p*`
+column-farness cannot be dismissed by dimension or random-density arguments.
+The exact razor arithmetic replay matches its banked output byte for byte.
+
+PR #1161 now exports the exact scalar weld and connected-rank dichotomy. The
+packet pins the source through `77a26cfa8`, prints both official weld-row
+lower bounds, and verifies the connectivity margins and a rank/tamper
+control. It remains one consolidated two-file draft.
+
+## Burn-down
+
+```text
+result:                  HARVESTED R-PSTAR correction; EXPORTED weld cut
+DAG status delta:        none
+upstream terminal delta: common-biform gate reduced to rank R or R-1
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 143: paired scalar-weld cross-ratio cycle certificate (2026-08-11)
+
+## Local cycle criterion
+
+On a nonincidence edge put `c_(delta,x)=P_x(delta)/F_delta(x)`. A nonzero
+weld kernel exists exactly when these labels are a multiplicative
+coboundary. Hence every even-cycle product must be one.
+
+For the extremal profile, every three selected fiber neighborhoods share at
+least `6+d_A` classified rows. All cycle consistency therefore reduces to
+the four-cycle identities
+
+```text
+c_(delta,x)c_(epsilon,y)
+ =c_(delta,y)c_(epsilon,x).
+```
+
+For the strict profile, pairwise overlap gives the same rectangle tests; the
+additional complete conditions are the transition triangles
+`q_(delta,epsilon)q_(epsilon,theta)q_(theta,delta)=1`.
+
+One failed local identity forces full weld rank and excludes the boundary.
+If all tests pass, they reconstruct the unique projective `lambda`, leaving
+only `Krow lambda=0` and the retained source/Hankel identities.
+
+## Burn-down
+
+```text
+result:                  PROVED local cross-ratio cycle certificate
+DAG delta:               +1 PROVED
+critical status delta:   none
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+next route-deciding:     derive or falsify a rectangle identity from the
+                         oriented gcd/heavy-incidence source structure
+```
+# Cycle 144: Round 34 Layer-A correction harvest (2026-08-11)
+
+Canonical commit `5048e09811bbe01e9421f08794d40c0f6863cb04` was merged after the
+Cycle 143 checkpoint. Its audited bank changes the type-2 frontier:
+
+- literal `(NS-m)` is false on the realized `m=1` regression family;
+- the closure-relevant replacement is `(NS-W-m)`, which counts roots in
+  `W` and survives all 5280 separating measurements;
+- the Wronskian route is walled because reduced split fibers spend no
+  ramification;
+- the full-domain kernel biform has one dominant irreducible parameter
+  factor of degree at least `ceil((3m+1)/4)`.
+
+No type-2 status closes. The next cheap decider is the outside-`W` root
+count `Rout`; the structural route is the dominant factor's interaction
+with the multiplicative domain.
+
+```text
+result:                  HARVESTED false-premise repair and proved theorem
+DAG status delta:        none at merge
+critical status delta:   none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 145: endpoint kernel-biform factor-degree dichotomy (2026-08-11)
+
+The Round 34 factor argument was reconstructed as a first-class proved node.
+For irreducible factors of parameter/domain degrees `(m_j,d_j)`, exact
+incidence counting gives
+
+```text
+T*rho-O <= sum_j min(T*d_j,N*m_j),
+sum_j d_j<=rho.
+```
+
+There is exactly one small factor, and it has parameter degree at least
+`ceil((3m+1)/4)`. At the official `m=2^37`, that degree is at least
+`103079215105`. Both specialization guards were checked explicitly:
+neither a fixed parameter nor a fixed domain point can annihilate a factor
+identically.
+
+```text
+result:                  PROVED factor-degree dichotomy
+DAG delta:               +1 PROVED
+critical status delta:   none
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+next route-deciding:     attack Rout or the dominant component through
+                         multiplicative-domain evaluation hyperplanes
+```
+# Cycle 146: rate-half `A=1` paired off-line norm factorization (2026-08-11)
+
+## Frontier correction
+
+The newly merged Round-34 `Rout` question belongs to the strict `A=3`,
+`e=m` endpoint. This worktree closed that entire endpoint in Cycles 71--74,
+so another `Rout` audit would not move the live critical frontier. Likewise,
+the oriented-gcd/heavy-incidence packet applies to the `rho+3` pair stratum
+removed in Cycle 124; it is not an input to the surviving macroscopic pair
+boundaries.
+
+The live carrier remains the extremal `(e-2,p-3)` and first-strict
+`(e-1,p-2)` split biforms.
+
+## Off-line norm
+
+For either carrier, multiply `G(delta,X)` over every off-line supported
+slope. Each classified row is a root of exactly the full parameter-row
+degree number of factors. Therefore
+
+```text
+product_delta G(delta,X)=L_M(X)^m S_G(X).
+```
+
+The extremal residual has degree at most
+
+```text
+d_A=0: 3e-9 =549755813880,
+d_A=1: 2e-7 =366503875919.
+```
+
+Every selected padded-heavy factor lies in `S_G`; when `d_A=1` these are
+exactly the selected roots outside the classified rows. The strict carrier
+has the analogous exact quotient with degree
+
+```text
+[3e^2-4e-7-2r_A(e-1)]/2.
+```
+
+The extremal cap is below the classified-row count. Dividing the norm by
+the row power and evaluating at each classified row gives
+
+```text
+S_G(x)=
+ [product_(delta in A_x) partial_X G(delta,x)]
+ [product_(delta outside A_x) G(delta,x)]
+ /L_M'(x)^(e-2).
+```
+
+These values uniquely reconstruct `S_G` by Lagrange interpolation. The
+residual is therefore an exact local-tangent object, not an unstructured
+unknown polynomial.
+
+An exact audit prevents an incidence-only overfill claim. If
+`q_delta=(p-3)-deg_X G(delta,X)`, then
+
+```text
+deg S_G=cap-sum_delta q_delta.
+```
+
+The cap itself equals the sum of all triple-union excess, all padded-heavy
+degree, and, for `d_A=0`, the incidences on the sole exceptional row. These
+are the complete capacity, not independent charges beyond it.
+
+## Burn-down
+
+```text
+result:                  PROVED paired off-line norm factorization
+DAG delta:               +1 PROVED leaf
+critical status delta:   none; rate-half crossing remains TARGET
+compute:                 exact integer and finite-field tamper replay only
+delta-star movement:     none
+new assumptions:         none
+```
+
+The next route-deciding step is to evaluate these tangent products from the
+retained source/Hankel equations or force an additional factor not already
+present in the exact slack identity. Generic weld-rank probes and further
+strict-`A=3` work have no priority here.
+# Cycle 147: rate-half `A=1` paired first-jet transversality (2026-08-11)
+
+## Audit correction
+
+The first attempted tangent continuation was invalid: the Forney constant
+is proved on nonincidences, and substituting it at an actual-support root
+silently deletes the nonzero actual error. Keeping
+
+```text
+b(delta)=e_delta+g_delta
+```
+
+gives the exact opposite conclusion.
+
+## First jet
+
+At every actual-support root of a selected zero-excess fiber,
+
+```text
+G_t/Q_t-G_X/Q_X
+ =(x-s_0)v_x L_U0'(x)e_delta(x)/Lambda(delta) !=0.
+```
+
+Thus the full locator and split-biform curves are smooth and transverse at
+all such points. This is an exact field-valued identity, not a genericity
+claim.
+
+## Common-factor reduction
+
+A common component cannot pass through these transverse points. On a
+selected fiber it can therefore use only padded-heavy roots. If its
+bidegree is `(a,b)`, then
+
+```text
+(|Z_0|-b)a<=sum_(delta in Z_0)r_delta.
+```
+
+For the extremal carrier, `|Z_0|=2e`, `b<=e-2`, and the padding total is at
+most `e-6-d_A`; hence `a=0`, and the classified row-root dictionary also
+rules out a parameter-only factor. The two curves are coprime.
+
+For the first strict carrier, `|Z_0|=p+2`, `b<=e-1`, and the padding total
+is at most `e-6-r_A`. A nonconstant gcd is forced to have
+
+```text
+a=1,       b>=(e+15)/2+r_A,       r_A<=(e-17)/2.
+```
+
+Its selected-fiber root is always padding, never actual support.
+
+The linear factor cannot survive the classified incidence count. Its
+parameter-leading coefficient can drop on at most one classified row, so
+it supplies at least `b(2p+r_A-1)` row-slope pairs. Each of the `3e+1`
+off-line slopes can lie above at most one classified row of an `X`-linear
+factor. Hence
+
+```text
+b(2p+r_A-1)<=3e+1,
+```
+
+contradicting the displayed lower bound on `b`. The strict curves are
+coprime too.
+
+## Burn-down
+
+```text
+result:                  PROVED paired first-jet transversality
+extremal consequence:   Q and G coprime
+strict consequence:     Q and G coprime
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer arithmetic + finite-field sign tamper
+new assumptions:         none
+```
+
+The next route-deciding task is therefore the coprime resultant/intersection
+ledger in both profiles, with the selected first jets kept explicit.
+# Cycle 148: rate-half `A=1` extremal resultant four-slack (2026-08-11)
+
+## Nonzero resultant
+
+Cycle 147 proves the full contracted locator `Q` and split biform `G` are
+coprime. Their parameter resultant is therefore nonzero. Every classified
+row supplies the full `e-2` common row roots, leaving degree
+
+```text
+d_A=0: 2e-5,
+d_A=1: e-3
+```
+
+after the classified-row locator power is removed.
+
+## Mandatory factors
+
+Every zero-excess padded-heavy factor is common to the corresponding
+vertical fibers. In the `d_A=0` profile, the exceptional row also supplies
+exactly `e-3` off-line common points. Removing these factors from the
+resultant leaves
+
+```text
+deg W_QG<=4+r_bad,
+```
+
+where `r_bad` is the total padding on positive-excess slopes. This formula
+is identical in both `d_A` profiles.
+
+Selected actual-support roots are transverse, so they consume exactly their
+baseline intersection copy and no part of the four-slack quotient. Every
+other tangency, repeated padding intersection, or unclassified common point
+must fit inside `W_QG`.
+
+## Burn-down
+
+```text
+result:                  PROVED extremal resultant four-slack
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 exact integer arithmetic only
+new assumptions:         none
+```
+
+The extremal closing target is now concrete: eliminate positive-excess
+padding or force at least `5+r_bad` additional intersection units. The
+strict resultant remains larger and should be treated separately.
+# Cycle 149: rate-half `A=1` paired all-excess fiber factorization (2026-08-11)
+
+## Residual minimum-word polynomial
+
+For an arbitrary off-line slope, the center difference is a nonzero RS
+codeword supported inside a set of size `d_min+a_delta`. Factoring its
+forced `k-1-a_delta` zeros leaves a nonzero polynomial `H_delta` with
+degree at most `a_delta`.
+
+Keeping this polynomial in the source calculation extends the prior
+zero-excess theorem to every off-line slope:
+
+```text
+Qbar(delta,X)=chi A_delta B_delta R_delta,
+G(delta,X)=zeta A_delta H_delta R_delta.
+```
+
+Consequently
+
+```text
+n-deg_X G(delta,X)=a_delta-deg H_delta,
+gcd_X(Qbar_delta,G_delta)=A_delta R_delta.
+```
+
+Every padded-heavy factor is therefore present even on positive-excess
+fibers. The absence of an extra outside-support gcd is exact: at
+`x in S_delta\U`, both endpoint codewords and their line equal `f(x)`, so
+`g_delta(x)=-e_delta(x)!=0`, forcing `H_delta(x)!=0`.
+
+## Universal first jet
+
+At an actual-support root, the same retained actual-error term gives
+
+```text
+G_t/Q_t-G_X/Q_X
+ =(x-s_0)v_x L_U0'(x)e_delta(x)/Lambda(delta) !=0.
+```
+
+Thus all actual-support intersections are transverse, with no zero-excess
+restriction.
+
+## Burn-down
+
+```text
+result:                  PROVED all-excess residual-fiber factorization
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer degree/tamper checks only
+new assumptions:         none
+```
+
+The immediate consequence for the extremal resultant is that `r_bad` is no
+longer residual: all of it is a mandatory common-fiber factor. The next
+node should sharpen the Cycle-148 bound from `4+r_bad` to exactly four.
+# Cycle 150: rate-half `A=1` extremal resultant exact four-core (2026-08-11)
+
+Cycle 149 proves that positive-excess fibers contain all of their padded-
+heavy factors. Inserting those factors into the Cycle-148 resultant removes
+the entire `r_bad` allowance:
+
+```text
+R_QG=L_M^(e-2) E_circ
+     [product_(all off-line delta)R_delta] W_4,
+deg W_4<=4.
+```
+
+Here `E_circ=(X-x_circ)^(e-3)` for `d_A=0` and is one for `d_A=1`.
+
+There are no remaining vertical common factors on a supported off-line
+fiber: `gcd(B_delta,H_delta)=1`, so its complete common-root polynomial is
+`A_delta R_delta`. Every extra local intersection multiplicity and every
+common point over a center-line, unsupported, or projective-infinity fiber
+is charged to the same four degrees. Actual-support roots are universally
+transverse and contribute no excess.
+
+Projectively the count is exact. Bezout gives
+`I=(9e^2-23e+8)/2`, while the sum of the `n-a_delta` mandatory common-root
+degrees over all `3e` off-line slopes is `I-4`. The residual effective
+intersection cycle therefore has degree exactly four; the affine
+resultant quotient can be smaller only when some of that cycle projects to
+domain infinity.
+
+## Burn-down
+
+```text
+result:                  PROVED extremal exact four-core
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer subtraction/tamper only
+new assumptions:         none
+```
+
+The extremal branch is now reduced to a constant-size obstruction outside
+ordinary supported-fiber root supply: classify the four-core or force five
+excess/nonordinary intersection units.
+# Cycle 151: rate-half `A=1` quadratic Pade regular factor (2026-08-11)
+
+The contracted source moments define a canonical second-kind numerator
+`P_F`. Lagrange interpolation of the split biform gives
+
+```text
+QB-Lambda G=L_U0 P_F.
+```
+
+The moment Vandermonde factorization and
+`adj M_1=D_1qq^T` then give the exact formal resultant
+
+```text
+Res_X(Q,P_F)=c a^(2d+1)D_1.
+```
+
+After removing the fixed domain-infinity frame, `D_1` is the parameter norm
+of the Forney-contact section. The already proved contact divisors therefore
+identify the regular quartic:
+
+```text
+double root: E_4 proportional to S_B^2,
+two simple:  E_4 proportional to S_1S_2.
+```
+
+This is an identity, not yet an exclusion.
+
+```text
+result:                  PROVED Pade regular-factor identity
+DAG delta:               +1 PROVED leaf
+compute:                 integer degree/tamper checks only
+new assumptions:         none
+```
+# Cycle 152: rate-half `A=1` extremal regular-quartic eliminant (2026-08-11)
+
+Taking the `X`-resultant of the Cycle-151 Pade syzygy cancels the complete
+leading-coefficient power and gives
+
+```text
+Lambda^d Res_X(Q,G)=c D_1 Res_X(Q,L_U0).
+```
+
+The exact source-row and rank-loss factorizations cancel every center-line
+factor and combine every off-line padding factor with its row incidences:
+
+```text
+Res_X(Q,G)
+ =c E_4 product_(delta off line)ell_delta^(n-a_delta).
+```
+
+Thus the parameter pushforward of the residual four-cycle is exactly
+`div(E_4)`: twice the quadratic correction in the double-root arm, or the
+degree-one plus degree-three corrections in the two-simple arm. The next
+attack is local: test whether the resulting order-eight/order-seven marked
+Hankel jets can occur in a symmetric affine Hankel pencil with the retained
+source recurrence.
+
+```text
+result:                  PROVED exact regular-quartic eliminant
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer degree/tamper checks only
+new assumptions:         none
+```
+# Cycle 153: rate-half `A=1` quadratic correction marked-jet fence (2026-08-11)
+
+The identified correction quartic sharpens the marked determinants to
+
+```text
+double:     g_*^3 S_B^8,
+simple x1:  G_1^5 G_2 S_1^7 S_2,
+simple x2:  G_1 G_2^5 S_1 S_2^7.
+```
+
+Orders eight and seven look strong but are not abstract contradictions. A
+standard symmetric singular Kronecker block with kernel coordinate `z^3`,
+direct-summed with `[[0,z],[z,1]]` or `[z]`, realizes exactly those marked
+orders. This fences any argument using only symmetry, affine dependence,
+minimal index, adjugates, and determinant multiplicity.
+
+The live next input is prize-specific: the Hankel anti-diagonal equations,
+the three-class center-line source weights, simultaneous split fibers, or
+the received-word Forney identities.
+
+```text
+result:                  PROVED exact jets plus route fence
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 none
+new assumptions:         none
+```
+# Cycle 154: rate-half `A=1` quadratic supported first jet (2026-08-11)
+
+The exact correction factorization separates ordinary supported rank loss
+from the correction divisor. At a supported slope `gamma` away from that
+divisor,
+
+```text
+ord_gamma(D_1)=c_gamma.
+```
+
+The contracted source has `d-c_gamma` distinct nonzero sources, so the
+specialized symmetric Hankel kernel is
+
+```text
+Q_min F[X]_(<=c_gamma).
+```
+
+Local Smith form now forces all `c_gamma` positive exponents to equal one.
+The derivative moment form is a perfect symmetric pairing modulo the actual
+excess locator:
+
+```text
+B_gamma(A,B)=dot Phi(Q_min^2AB),
+rank B_gamma=c_gamma,
+rad B_gamma=span{R_gamma}.
+```
+
+Only the correction divisor is left out: at most two projective slopes in
+the double-root arm and at most four in the two-simple arm. This does not
+exclude either packet, but it proves that all extensive supported rank-loss
+mass is first-order transverse. Any higher-order obstruction is confined to
+the same constant-size correction locus already identified by the exact
+four-core.
+
+```text
+result:                  PROVED supported first-jet perfect pairing
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer dimension/tamper checks only
+new assumptions:         none
+```
+# Cycle 155: rate-half `A=1` supported coefficient intersection (2026-08-11)
+
+The primitive coefficient plane `W_q` is totally isotropic for both endpoint
+Hankel forms and hence for every local derivative. Cycle 154 makes that
+derivative nondegenerate on `ker M_gamma/<Q_gamma>` away from the correction
+divisor. Therefore
+
+```text
+dim((W_q intersect ker M_gamma)/<Q_gamma>)
+ <=floor(c_gamma/2).
+```
+
+On the exact contracted source set this becomes a coefficient-evaluation
+rank theorem:
+
+```text
+e-floor(c_gamma/2)<=rank E_gamma<=e.
+```
+
+Every ordinary rank-one loss slope has exact rank `e`; its primitive
+locator is the only coefficient-plane vector vanishing on the whole actual
+support. A rank-two loss slope has rank `e-1` or `e`.
+
+This is the first prize-specific structural consequence after the abstract
+marked-jet fence. It does not yet exclude either root arm, but it turns the
+local first jet into a macroscopic coefficient-rank condition at all but the
+constant-size correction locus.
+
+```text
+result:                  PROVED coefficient-plane kernel intersection cap
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer rank-bound/tamper checks only
+new assumptions:         none
+```
+# Cycle 156: rate-half `A=1` separated double-heavy quotient cubic (2026-08-11)
+
+In the double-root arm, assume `S_B` is squarefree and coprime to `g_*`,
+and divide the primitive locator at its fixed heavy row:
+
+```text
+U(t,X)=[Q(t,X)-Q(t,x_*)]/(X-x_*).
+```
+
+The first moment is exactly `P_F(t,x_*)`. It vanishes on the supported
+factor `g_*`; the contact divisor `R_*+2B`, compared with vertical contact
+`R_*+3B`, forces two further correction copies. Hence
+
+```text
+P_F(t,x_*)=D_1(t)C_0(t),       deg C_0<=3.
+```
+
+The Hankel shift recurrence propagates the same factor through every moment:
+
+```text
+M(t)U(t)=D_1(t)C(t),
+C_(i+1)=x_*C_i-kappa S_Bh_i,
+deg C<=3.
+```
+
+Locally, `U` is a primitive new kernel direction at either correction root.
+Its image is divisible by the full determinant valuation, so all that
+valuation sits in one Smith invariant. Each separated correction has type
+`[2]`, not `[1,1]`.
+
+```text
+result:                  PROVED separated cubic residual and type-[2] form
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer degree/tamper checks only
+new assumptions:         none
+```
+
+The separated double-root locus is now reduced from an `e`-degree correction
+problem to one cubic parameter-vector recurrence. Nonreduced `S_B` and
+roots shared with `g_*` remain separate live cases. The next attack should
+combine the cubic with the three-class source partition or prove an explicit
+Hankel countermodel satisfying it.
+# Cycle 157: rate-half `A=1` double-heavy center overlap (2026-08-11)
+
+Cycle 156's cubic Pade identity meets the extremal split biform at the fixed
+heavy row. Let
+
+```text
+J=gcd(Lambda,g_*S_B^2),       j=deg J<=3.
+```
+
+Exact cancellation gives
+
+```text
+G(t,x_*)=[g_*(t)S_B(t)^2/J(t)]T_j(t),
+deg T_j<=j.
+```
+
+Thus all but at most three roots of this degree-`e-2` row are prescribed.
+In the center-disjoint case it is a possibly zero scalar multiple of
+`g_*S_B^2`. Since the coefficient polynomials of `G` have `X`-degree at
+most `n`, this heavy-row value augments the existing coefficient-MDS gate
+with only `j+1<=4` scalar unknowns.
+
+```text
+result:                  PROVED heavy-row center-overlap factorization
+DAG delta:               +1 PROVED leaf
+critical status delta:   none
+compute:                 integer degree/tamper checks only
+new assumptions:         separated correction locus from Cycle 156
+```
+
+This is the missing adapter from the cubic Hankel residual to the split-
+biform boundary. It does not prove the augmented matrix full rank; that
+rank/nullity decision is now the separated double-root terminal.
+# Cycle 158: rate-half Layer-A saturation-count fence (2026-08-11)
+
+Canonical Round 35 proposed using the positive row surplus
+`3m^2-5m` at saturated `W` as the mechanism behind sampled Layer-A full
+rank. The bare promotion is false already at `m=2`.
+
+Over any odd field containing `mu_32`, take thirteen points from `mu_16`,
+nine slopes `mu_8 union {eta}`, and
+
+```text
+Q(Z,X)=Z^2-X^4.
+```
+
+Every point has exactly the two slopes `+/-x^2`. The resulting Layer-A
+matrix has 26 rows and 24 columns, but
+
+```text
+ker E={A(X)Q(Z,X): deg A<=3},
+rank E=20,       nullity E=4.
+```
+
+```text
+result:                  FALSIFIED bare count-plus-saturation rank premise
+DAG delta:               +1 PROVED route-fence leaf
+critical status delta:   none
+compute:                 exact F_97 replay only; no Modal spend
+new assumptions:         none
+```
+
+This does not falsify the canonical endpoint statement because the example
+does not realize `W=S_g union S_h` with both blocks of size seven or the full
+split-biform/Hankel constraints. The corrected route must use those
+hypotheses essentially; the incidence count by itself is retired.
+# Cycle 159: rate-half `A=1` heavy-row barycentric remainder (2026-08-11)
+
+The heavy-row adapter from Cycle 157 is now combined with the connected
+scalar weld. If `lambda` is the unique surviving weld vector, define
+
+```text
+R_lambda(t)=sum_(x in X)
+ L_X(x_*)lambda_xP_x(t)/((x_*-x)L_X'(x)).
+```
+
+Coefficient-RS interpolation proves that this is exactly `G(t,x_*)`. Hence
+the complete augmented heavy-row gate is
+
+```text
+H divides R_lambda,
+H=g_*S_B^2/gcd(Lambda,g_*S_B^2).
+```
+
+Equivalently one explicit polynomial-remainder matrix `B_H` must kill the
+already unique vector `lambda`. It has `e-2-j` rows, with `j<=3`; in the
+center-disjoint case the test is simply `R_lambda=c g_*S_B^2`, allowing
+`c=0`.
+
+```text
+result:                  PROVED exact one-polynomial augmented-row gate
+DAG delta:               +1 PROVED reduction node, 4 req edges
+critical status delta:   none
+compute:                 exact F_101 replay only; no Modal spend
+new assumptions:         none beyond the separated correction locus
+```
+
+The next route-deciding theorem is universal nonvanishing of this remainder
+on admissible Hankel/source packets, or an exact classification of its zero
+locus. Generic row counts are no longer the target.
+# Cycle 160: rate-half `A=1` center-disjoint heavy row is nonzero (2026-08-11)
+
+On the separated double-root locus with
+
+```text
+gcd(Lambda,g_*S_B^2)=1,
+```
+
+the Cycle-157 scalar cannot vanish. If `G(t,x_*)=0`, then `X-x_*` divides
+`G`. At a root of `S_B`, the row `Q(t,x_*)` has order three.
+
+- If the correction slope is unsupported, this contradicts the exact
+  resultant order two from `E_4=S_B^2`.
+- If `x_*` is an actual-support root, local intersection order at least
+  three contradicts first-jet transversality.
+- If `x_*` is padding, the slope belongs to `g_*`, contradicting
+  `gcd(g_*,S_B)=1`.
+
+Therefore
+
+```text
+G(t,x_*)=c g_*S_B^2,       c!=0.
+```
+
+```text
+result:                  PROVED nonzero center-disjoint heavy row
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 local valuation replay only; no Modal spend
+new assumptions:         none beyond center-disjoint separated locus
+```
+
+The center-disjoint augmented gate now targets one exact projective row;
+the zero row is removed. Center/correction overlap cases remain indexed by
+`1<=j<=3`.
+# Cycle 161: rate-half `A=1` zero heavy row forces full center overlap (2026-08-11)
+
+The Cycle-160 valuation trichotomy applies at any squarefree correction root
+outside the center divisor, not only when all center overlap is absent. Thus
+
+```text
+G(t,x_*)=0       => S_B|Lambda       => S_B|J and j>=2.
+```
+
+At a noncenter correction root, the zero row again forces an `X-x_*`
+component. Unsupported slopes contradict exact resultant orders three versus
+two; actual-support slopes contradict first-jet transversality; and padding
+slopes contradict `gcd(g_*,S_B)=1`.
+
+```text
+result:                  PROVED full-overlap localization of zero rows
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 local combinatorial replay only; no Modal spend
+new assumptions:         none beyond the separated squarefree locus
+```
+
+All `j=0` and `j=1` configurations now have a nonzero heavy row. Only the
+fully correction-centered cases `j=2,3` retain the zero-row possibility.
+# Cycle 162: rate-half `A=1` separated heavy row is always nonzero (2026-08-11)
+
+A re-audit of the complete exact resultant removes the center-overlap
+restriction from Cycles 160--161. The factorization
+
+```text
+Res_X(Q,G)=c E_4 product_(delta off line)
+                    ell_delta^(n-a_delta)
+```
+
+shows that a center correction root, like any root not off-line supported,
+has exact order two. A zero heavy row would force the component `X-x_*` and
+therefore order at least three from `Q(t,x_*)=a_Qg_*S_B^3`, a contradiction.
+Off-line supported correction roots are still excluded by the exact
+actual/padding fiber dichotomy.
+
+```text
+result:                  PROVED nonzero heavy row for all j=0,1,2,3
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 local valuation replay only; no Modal spend
+new assumptions:         none beyond the separated squarefree locus
+```
+
+The zero-row obstruction is fully removed on the separated double-root arm.
+The remaining wall is divisibility of a nonzero barycentric remainder by
+`H`, not possible collapse to zero.
+# Cycle 163: rate-half `A=1` heavy-row correction exact order (2026-08-11)
+
+The local divisor ledger retains more than nonvanishing. At a correction
+point, `X-x_*` has order three and the Forney section has order two. The
+Pade syzygy subtracts one exactly when the correction root is a center, and
+fixed-row substitution changes the value only from order three onward.
+Therefore
+
+```text
+ord_tau G(t,x_*)=2-ord_tau Lambda=ord_tau H,
+gcd(T_j,S_B)=1.
+```
+
+```text
+result:                  PROVED exact correction orders and coprimality
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 local valuation replay only; no Modal spend
+new assumptions:         none beyond the separated squarefree locus
+```
+
+The free overlap polynomial has no correction root. Its remaining possible
+roots, and the global nonzero remainder divisibility, are the live separated
+double-root wall.
+# Cycle 164: rate-half `A=1` separated center-overlap cap two (2026-08-11)
+
+The external heavy row lies outside `U=S_alpha union S_beta`. If `alpha` or
+`beta` were a correction root, `Q(gamma,x_*)=0` would make `x_*` a padded
+root there, forcing the same center into `g_*` and `S_B`, contrary to the
+separated hypothesis. Thus only `theta` can be a correction center.
+
+The exact center-line rank-loss sum allows at most one padded-heavy center.
+Since supported and correction factors are disjoint,
+
+```text
+deg gcd(S_B,Lambda)<=1,
+deg gcd(g_*,Lambda)<=1,
+j=deg gcd(Lambda,g_*S_B^2)<=2.
+```
+
+```text
+result:                  PROVED center-overlap cap j<=2
+DAG delta:               +1 PROVED leaf, 7 req edges
+critical status delta:   none
+compute:                 seven-case exact replay only; no Modal spend
+new assumptions:         none beyond the separated extremal profile
+```
+
+The four-scalar `j=3` case is gone. Every separated survivor now has a
+nonzero correction-coprime `T_j` with at most three coefficients.
+# Cycle 165: rate-half `A=1` separated correction is center-disjoint (2026-08-11)
+
+The full three-center source identity sharpens Cycle 164. Every assigned
+center error support is contained in
+
+```text
+supp(b_0,b_1)=U=S_alpha union S_beta,
+```
+
+while the fixed heavy point `x_*` is external to `U`. If any center were a
+root of `S_B`, its specialized locator root `x_*` would therefore be padded,
+putting the center in both `S_B` and `g_*`, contrary to separatedness. Hence
+
+```text
+gcd(S_B,Lambda)=1,
+j=deg gcd(Lambda,g_*S_B^2)<=1.
+```
+
+```text
+result:                  PROVED correction-center disjointness and j<=1
+DAG delta:               +1 PROVED leaf, 7 req edges
+critical status delta:   none
+compute:                 tiny logical replay only; no Modal spend
+new assumptions:         none beyond the separated extremal profile
+```
+
+Every correction root now has exact heavy-row order two. The remaining
+overlap form is nonzero, correction-coprime, and constant or linear.

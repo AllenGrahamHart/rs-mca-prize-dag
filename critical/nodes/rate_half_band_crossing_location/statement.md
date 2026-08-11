@@ -2998,6 +2998,54 @@ removal; the next boundary is rank three at union `rho+4`. The proved node
 is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion`.
 
+## Cycle 126: the quadratic pair floor jumps to `3rho/2-1` (2026-08-11, Codex)
+
+For a pair with actual-support union `rho+j`, split the exact global
+degree-`e` incidence on its light union between centers on and off the
+endpoint codeword line. The line misses `j+r_gamma` points at slope
+`gamma`; an off-line slope meets at most `j-r_gamma-2` noncore union
+points. Eliminating the number of line centers gives the necessary concave
+quadratic inequality `F_e(j)<=0`.
+
+At both endpoints of
+
+```text
+4<=j<=rho/2-2
+```
+
+the polynomial is strictly positive, hence the complete interval is empty.
+Therefore
+
+```text
+|S_alpha union S_beta|>=3rho/2-1=824633720831
+```
+
+on the official row. Every assigned-center line has at most three supported
+slopes, and a three-center line has total deficit at most one. Thus every
+pair has at least `rho+1` expanding thirds. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor`.
+
+## Cycle 127: the sole floor case yields at least `2e` minimum words (2026-08-11, Codex)
+
+A pair above the floor, with union at least `3rho/2`, has only its two
+endpoint centers on the corresponding codeword line. A pair attaining
+`3rho/2-1` instead forces exactly one third line center and total line
+deficit at most one.
+
+For the `3e` off-line slopes in this equality case, let `a_delta` be the
+actual triple-union excess over `d_min=2rho+1`. Exact global incidence and
+the packet deficit give
+
+```text
+sum_(delta off line)a_delta=e.
+```
+
+At least `2e` slopes therefore have zero excess. For each, the affine second
+difference of its assigned center with the endpoint centers is a nonzero RS
+codeword supported on exactly `2rho+1` positions. Minimum distance makes it
+an exact minimum word, whose `k-1` zero positions determine it up to scalar.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction`.
 ## Round-33 close addendum (2026-08-11, coordinator-audited): the four banks reconciled
 
 **BANK 3 (rh_sat3_realizability) — ROUTE DECIDED: (SAT3) IS
@@ -3103,6 +3151,27 @@ decision; the far-CA frontier = R-KER + R-PSTAR (+ the FG key
 equation as its coordinates); the located crossing itself. No
 status flips; census unchanged 231 = 167/37/27.
 
+## Cycle 143: the paired weld is a local cross-ratio certificate (2026-08-11, Codex)
+
+For the two `A=1` quadratic pair boundaries, label every nonincidence edge
+by
+
+```text
+c_(delta,x)=P_x(delta)/F_delta(x).
+```
+
+The sparse weld has nullity one exactly when these labels are a
+multiplicative coboundary. Thus every nonincidence rectangle must satisfy one
+explicit cross-ratio identity. In the extremal profile, any three selected
+fiber neighborhoods share at least `6+d_A` rows, so the rectangle identities
+alone certify every cycle. In the strict profile, rectangles plus explicit
+fiber-transition triangles are complete.
+
+A failed local identity gives full weld rank and excludes the boundary. If
+all identities pass, they reconstruct the unique projective scalar vector
+that must then pass the fixed-domain coefficient-MDS and retained
+source/Hankel gates. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_cross_ratio_cycle_certificate`.
 ## Round-34 layer-A addendum (2026-08-11, coordinator-audited): (NS-m) refuted-and-restated; the factor-degree dichotomy PROVED
 
 The r34_layer_a pilot (REPORT + FABLE_AUDIT in
@@ -3843,7 +3912,16 @@ names, --exclude=dag.json standard).
 
 **ROUND-36 ANCHORS (priority order):** (1) **(LA-W COUNT) -> rank
 theorem** (closes all saturated a = 7m-1 configurations
-unconditionally; squarely inside the RNC gate); (2)
+unconditionally; squarely inside the RNC gate)
+[RE-POSED (wave-59 integration, same day): the BARE form is
+FALSE — Codex's PROVED rate_half_layer_a_saturation_count_route_
+fence exhibits Q = Z^2-X^4 on W in mu_16 (13 points, all
+saturated, excess +2) with nullity 4 (kernel = A(X)*Q, deg A <= 3;
+coordinator hand-verified AND verifier-replayed). The rank theorem
+MUST use the endpoint geometry (W = union of two degree-rho slope
+supports, split-biform/support-intersection/Hankel-source
+constraints) — exactly the fence's own scope note. The anchor
+stands in re-posed form]; (2)
 **(SAT3)-on-(L2)** (bank 1's free-B design vs the first-moment
 gate — either a witness that beats three instruments or evidence
 the class is empty); (3) **R-HRLOW** (the h_r = rho+2..O(1) band:
@@ -3851,3 +3929,310 @@ does any stratum above LB1 carry an LB1-type mechanism?);
 (4) the general non-split m=4 probe + (DEG-m)-tightened searches;
 (5) the m=1 16=16 coincidence node (the lane's only calibrated
 instrument); (6) retire Rout permanently (do not re-spend).
+## Cycle 146 addendum: the live paired biform has an off-line norm factorization
+
+The Round-34 `Rout` prompt above belongs to the strict `A=3`, `e=m`
+endpoint, which Cycles 71--74 already close in this worktree. The surviving
+`A=1` macroscopic pair boundaries instead carry the following exact norm.
+
+For the extremal `(e-2,p-3)` split biform, multiply `G(delta,X)` over all
+`3e` off-line supported slopes. Every classified row is a zero of exactly
+`e-2` factors, so
+
+```text
+product_delta G(delta,X)=L_M(X)^(e-2) S_G(X),
+deg S_G<=3e-9     (d_A=0),
+deg S_G<=2e-7     (d_A=1).
+```
+
+Every selected padded-heavy root lies in `S_G`; at `d_A=1` these are
+exactly the selected roots outside the classified row set. The strict
+`(e-1,p-2)` carrier has the same row-power factorization with residual cap
+
+```text
+[3e^2-4e-7-2r_A(e-1)]/2.
+```
+
+In the extremal profile the residual degree is below the classified-row
+count. Its value at a classified row is the product of every incident
+`X`-derivative and every nonincident fiber value, divided by
+`L_M'(x)^(e-2)`. These values uniquely reconstruct `S_G` by Lagrange
+interpolation.
+
+The residual degree is exact after fiber degree drops are charged:
+
+```text
+deg S_G=cap-sum_delta((p-3)-deg_X G(delta,X)).
+```
+
+The cap equals the complete sum of triple-union excess, padded-heavy degree,
+and the possible exceptional-row incidences. Those incidence quantities
+therefore cannot overfill the norm on their own.
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_offline_norm_factorization`.
+The next useful obstruction must evaluate those tangent products from the
+retained Hankel/source equations or force a factor outside the exact slack
+identity.
+
+## Cycle 147 addendum: selected support roots are transverse, not tangent
+
+The nonincidence Forney constant cannot be substituted at an actual-support
+root. Writing the line-source value correctly as the minimum-word summand
+plus the nonzero actual error gives, at every selected zero-excess support
+root,
+
+```text
+G_t/Q_t-G_X/Q_X
+ =(x-s_0)v_x L_U0'(x)e_delta(x)/Lambda(delta) !=0.
+```
+
+Thus the contracted locator and split-biform curves meet transversely at
+all selected actual-support roots. A common component can meet a selected
+fiber only through its padded-heavy roots. If its bidegree is `(a,b)`,
+
+```text
+(|Z_0|-b)a<=sum_(delta in Z_0)r_delta.
+```
+
+For the extremal carrier this forces `a=0`, and the classified row-root
+dictionary excludes a nonconstant parameter-only factor. Hence `Q` and
+`G` are coprime. For the first strict carrier, every nonconstant common
+factor is forced into the single residual profile
+
+```text
+a=1,       b>=(e+15)/2+r_A,       r_A<=(e-17)/2,
+```
+
+with its selected-fiber roots all padded rather than actual support. The
+putative linear factor would contribute at least
+`b(2p+r_A-1)` classified row-slope pairs, while each of the `3e+1`
+off-line slopes contributes at most one. This contradicts the displayed
+lower bound on `b`, so the strict curves are coprime as well. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_first_jet_transversality`.
+The next route is the coprime resultant/intersection ledger; the tangent-
+product route must retain transversality rather than seek ramification at
+the selected incidences.
+
+## Cycle 148 addendum: the extremal coprime resultant has only four plus bad padding degrees
+
+Since the extremal locator `Q` and split biform `G` are coprime, their
+parameter resultant is nonzero. Removing the classified-row factor
+`L_M^(e-2)` leaves degree at most `2e-5` for `d_A=0` and `e-3` for
+`d_A=1`.
+
+Every zero-excess padded-heavy factor divides this residual resultant. In
+the `d_A=0` profile, the exceptional row contributes exactly `e-3`
+additional off-line common points. If `r_bad` denotes total padding on
+positive-excess slopes, removing all mandatory factors leaves one nonzero
+polynomial `W_QG` with
+
+```text
+deg W_QG<=4+r_bad.
+```
+
+Every unclassified common point or excess local intersection multiplicity
+must fit in this allowance; selected actual-support points are transverse
+and add no excess. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_four_slack`.
+The extremal route now needs either `r_bad` control or `5+r_bad` forced
+additional intersection units.
+
+## Cycle 149 addendum: every positive-excess fiber also contains all padding
+
+For an arbitrary off-line slope, factor the center-difference codeword by
+its `k-1-a_delta` forced zeros. The residual is a nonzero polynomial
+`H_delta` of degree at most `a_delta`, and the split-biform fiber satisfies
+
+```text
+Qbar(delta,X)=chi A_delta B_delta R_delta,
+G(delta,X)=zeta A_delta H_delta R_delta.
+```
+
+Thus every padded-heavy factor is present on the split-biform fiber,
+including positive-excess slopes, and
+
+```text
+n-deg_X G(delta,X)=a_delta-deg H_delta.
+```
+
+The actual-error first-jet calculation also extends to every off-line
+slope, so every actual-support common root is transverse. The proved node
+is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization`.
+In particular `r_bad` is now mandatory in the extremal resultant rather
+than part of its unexplained allowance.
+
+## Cycle 150 addendum: the extremal resultant residual is degree at most four
+
+Insert every positive-excess padded factor from Cycle 149 into the nonzero
+resultant of Cycle 148. In both `d_A` profiles,
+
+```text
+R_QG=L_M^(e-2) E_circ
+     [product_(all off-line delta)R_delta] W_4,
+deg W_4<=4,
+```
+
+where `E_circ=(X-x_circ)^(e-3)` for `d_A=0` and is one for `d_A=1`.
+There are no additional vertical common factors:
+`gcd(B_delta,H_delta)=1`, so every common root on an ordinary supported
+off-line fiber is actual support or padding and is already accounted for.
+Every excess mandatory-root multiplicity or common point over a center-
+line, unsupported, or projective-infinity fiber uses the same four-degree
+allowance; actual-support roots are transverse.
+
+The projective statement is exact: Bezout gives total intersection
+`(9e^2-23e+8)/2`, while the `n-a_delta` mandatory roots on the `3e`
+off-line slopes sum to four fewer. After removing one copy of every actual-
+support and padding point, the residual effective intersection cycle has
+degree exactly four.
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core`.
+The extremal branch is now a constant-size problem outside ordinary
+supported-fiber root supply: classify the four-core or force five excess
+or nonordinary intersection units.
+
+## Cycles 151--152 addendum: the four-core is the regular correction quartic
+
+The contracted source moments have a canonical second-kind numerator
+`P_F`. Its interpolation syzygy and normalized Hankel resultant are
+
+```text
+QB-Lambda G=L_U0 P_F,
+Res_X(Q,P_F)=c a^(2d+1)D_1.
+```
+
+Thus `D_1` is the parameter pushforward of the Forney-contact divisor. The
+regular quartic from Cycle 110 is now identified exactly:
+
+```text
+double root: E_4 proportional to S_B^2,
+two simple:  E_4 proportional to S_1S_2.
+```
+
+Taking the `X`-resultant of the syzygy and inserting the exact row and
+rank-loss factors gives
+
+```text
+Res_X(Q,G)
+ =c E_4 product_(delta off line)ell_delta^(n-a_delta).
+```
+
+Every center factor cancels, including center-line rank loss. Hence the
+parameter pushforward of the exact residual four-cycle is `div(E_4)`, with
+no unlisted unsupported or infinity fiber. The proved nodes are
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity`
+and
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification`.
+The next live obstruction is local Hankel jet realizability of the forced
+square or linear-times-cubic correction quartic.
+
+## Cycle 153 addendum: marked multiplicity alone is fenced
+
+The correction identities make the marked determinants exactly
+
+```text
+double root: g_*^3S_B^8,
+two simple:  G_1^5G_2S_1^7S_2 and G_1G_2^5S_1S_2^7.
+```
+
+However, explicit symmetric affine Kronecker pencils with one primitive
+minimal-index block realize isolated marked orders eight and seven. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence`.
+Thus determinant multiplicity, symmetry, and generic corank one cannot
+close the branch without a genuinely Hankel/source/split-fiber input.
+
+## Cycle 154 addendum: ordinary supported rank loss is first-order transverse
+
+The exact correction factorization now separates every ordinary supported
+rank-loss slope from the constant-size correction locus. Away from
+`S_B` in the double-root arm or `S_1S_2` in the two-simple arm,
+
+```text
+ord_gamma(D_1)=c_gamma.
+```
+
+The specialized symmetric Hankel kernel is
+`Q_min F[X]_(<=c_gamma)`. Local Smith form therefore makes every positive
+exponent one, and the derivative moment form
+
+```text
+B_gamma(A,B)=dot Phi(Q_min^2AB)
+```
+
+has rank `c_gamma` and radical exactly `span{R_gamma}`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_supported_first_jet_perfect_pairing`.
+Thus all extensive supported rank-loss mass is ordinary at first order;
+only at most two double-root slopes or four two-simple slopes can carry the
+higher local Smith behavior needed by the correction quartic.
+
+## Cycle 155 addendum: the coefficient plane meets ordinary kernels sharply
+
+The common coefficient plane `W_q` is totally isotropic for every local
+Hankel derivative. Combining this with Cycle 154 gives
+
+```text
+dim((W_q intersect ker M_gamma)/span{Q_gamma})
+ <=floor(c_gamma/2).
+```
+
+Hence at every correction-free rank-one loss slope the primitive locator
+is the only coefficient-plane vector vanishing on the full actual support,
+and the support evaluation matrix `(Q_i(x))` has exact rank `e`. At a
+rank-two loss slope its rank is `e-1` or `e`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_supported_coefficient_plane_kernel_intersection`.
+This is a genuine source/Hankel restriction absent from the abstract
+Kronecker countermodel; it still requires an adapter to the split-biform
+boundary before it can exclude a packet.
+
+## Cycle 156 addendum: a separated double-root correction is cubic
+
+In the double-root arm, assume `S_B` is squarefree and coprime to `g_*`,
+and divide the primitive locator by the fixed heavy row:
+
+```text
+U(t,X)=[Q(t,X)-Q(t,x_*)]/(X-x_*).
+```
+
+The Pade contact divisor and the higher vertical contact prove
+
+```text
+P_F(t,x_*)=D_1(t)C_0(t),
+M(t)U(t)=D_1(t)C(t),       deg_t C<=3,
+C_(i+1)=x_*C_i-kappa S_Bh_i.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_quotient_cubic_residual`.
+At each correction root, the quotient `U` is one primitive regular-kernel
+direction carrying the full determinant valuation. Thus both separated
+corrections have Smith type `[2]` rather than `[1,1]`. The separated locus
+is one cubic source recurrence, not an unconstrained degree-`e` marked
+determinant. Nonreduced corrections and roots shared with `g_*` remain
+explicitly open.
+
+## Cycle 157 addendum: the cubic residual is welded to the split biform
+
+On the separated double-root extremal locus, put
+
+```text
+J=gcd(Lambda,g_*S_B^2),       j=deg J<=3.
+```
+
+The cubic Pade bracket and exact center cancellation give
+
+```text
+G(t,x_*)=[g_*(t)S_B(t)^2/J(t)]T_j(t),
+deg T_j<=j.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_center_overlap_factorization`.
+All but at most three roots of the fixed heavy row are now prescribed. Its
+coefficient vector augments the extremal coefficient-MDS system with at
+most four scalar unknowns. The remaining separated double-root terminal is
+the rank/nullity of this augmented system, not an untyped correction jet.

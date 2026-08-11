@@ -5726,3 +5726,39 @@ ROUND-36 ANCHORS: (1) (LA-W COUNT) -> rank theorem; (2)
 (SAT3)-on-(L2) free-B design vs the gate; (3) R-HRLOW; (4)
 general non-split m=4 + (DEG-m)-tightened; (5) the m=1 16=16
 node; (6) Rout retired permanently.**
+
+## WAVE 59 INTEGRATED (2026-08-11, coordinator)
+
+**MERGED exact pin 191e6224b (30 Codex commits, cycles ~140-157,
+~24 new PROVED background satellites in the A1 quadratic-gap-four
+lane + 2, census-neutral 231=167/37/27). HEADLINE: Codex FENCED
+round-35's own anchor #1 within hours —
+rate_half_layer_a_saturation_count_route_fence is a PROVED exact
+counterexample to the BARE (LA-W COUNT) promotion (Q = Z^2-X^4 on
+W in mu_16: 13 saturated points, excess +2, nullity 4 = A(X)*Q;
+coordinator HAND-VERIFIED the kernel computation completely +
+verifier replayed rank=20/nullity=4; its scope note is honest —
+the endpoint geometry is untouched). ROUND-36 ANCHOR #1 RE-POSED
+on the node: the rank theorem must use W = S_g u S_h + split-
+biform/Hankel-source geometry, not the count alone. SECOND ITEM:
+Codex independently minted the round-34 dichotomy as
+endpoint_kernel_biform_factor_degree_dichotomy (counting route,
+both specialization guards, verifier PASS incl. official-row
+degree 103,079,215,105) — ADOPTED with a coordinator equivalence
+addendum (content = the earlier PROVED rational_branch_exclusion
+(CPR3)-(CPR5), the round-35 catch; priority to the earlier node,
+this one the independent counting-route re-derivation; cycle
+145's stale "attack Rout" pointer marked — Rout retired). A1
+CAMPAIGN BODY: the paired-biform coefficient gate chain
+(transposed gate, scalar weld -> rank dichotomy -> cross-ratio
+cycles), the split-biform norm factorization + first-jet
+transversality + four-core quartic, and the quadratic heavy-row
+chain (separated/center-disjoint corrections, heavy-row nonzero,
+overlap caps, Smith type [2]) — 4 verifiers spot-replayed at the
+pin, all PASS; per-cycle addenda 146-157 merged onto the crossing
+node (append-append union, ours-then-theirs; both sides verified
+surviving). Cycle 146 records Codex's own framing: the strict
+A=3 e=m endpoint closed by its cycles 71-74 (= the residual_pole
+chain round 35 surfaced) — consistent. EXPORTS: both wave-59
+export records are additional commits on draft PR #1161 (no new
+PR numbers). Verify chain 4/4 PASS post-merge.**
