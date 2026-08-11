@@ -30351,3 +30351,136 @@ compute requests:        none
 The next bankable theorem would be an all-profile full-support-kernel
 exclusion for either matrix, or a rigorously classified survivor showing
 which additional source/Hankel identity the LineRay compiler must retain.
+# Cycle 136: Round-34 and upstream rate-half synchronization (2026-08-11)
+
+## Cycle pins
+
+```text
+our source:       66360d01f
+canonical prize:  6b337c6d17c63b557b2dd4c489aa938434033c3d
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+upstream PRs:     #1161 draft/mergeable; #1162 open/mergeable
+critical open:    28
+compute:          inspection only
+```
+
+## Canonical correction and new round
+
+Canonical Round 33 has completed. Its main correction is that the proposed
+far-CA forced-fixed-generator step is false: the shifted generators need not
+form a minimal basis, so Forney's inequality gives no upper bound in the
+claimed direction. Canonical withdrew `R-MOVING`, retained the stacked-rank
+invariant, and launched a separate `p*` boundary pilot.
+
+The other Round-34 pilots attack the full-domain Layer-A system, the `m=2`
+saturation boundary, and the `m=3,4` bivariate-curve boundary. These are
+parallel rate-half instruments. They do not alter the proved `A=1` quadratic
+pair-boundary reductions, but they independently confirm that full-domain
+bivariate compatibility is the route-deciding object.
+
+Upstream main has not moved. PR #1162 retains the two-sided razor bracket,
+and draft PR #1161 retains our fixed-domain paired-biform coefficient gate.
+
+## Burn-down
+
+```text
+result:                  synchronized; false far-CA premise fenced
+DAG delta:               none
+critical status delta:   none
+upstream terminal delta: none after PR #1162
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next direct action is to exploit every zero-excess parameter fiber of
+the two `A=1` pair-boundary biforms, including positive-padding fibers.
+# Cycle 137: rate-half `A=1` paired padded-fiber factorization (2026-08-11)
+
+## Cycle pins
+
+```text
+starting source:  66360d01f
+canonical prize:  6b337c6d17c63b557b2dd4c489aa938434033c3d
+upstream main:    93fba1be3f3299b0ba4708d88715377bbb656e45
+compute:          exact integer replay only
+critical open:    28
+```
+
+## Full zero-excess fibers
+
+For every zero-excess slope, restore the padded-heavy factor instead of
+discarding the slope when its deficit is positive. The minimum-word circuit
+and the specialized homogeneous locator give the exact identity
+
+```text
+G(delta,X)=zeta_delta A_delta(X)R_delta(X).
+```
+
+Here `A_delta` is the actual inside-support locator and `R_delta` is the
+padded-heavy factor. Their roots are disjoint, and their degrees add to the
+full domain degree of the biform. Consequently:
+
+```text
+extremal (e-2,p-3): at least 2e full-degree split fibers;
+strict   (e-1,p-2): at least p+2 full-degree split fibers.
+```
+
+At the official row the counts are `366503875926` and `274877906946`.
+The strict padded Forney identity is proved directly from its own minimum RS
+word rather than imported by analogy.
+
+## Burn-down
+
+```text
+result:                  PROVED paired padded-fiber factorization
+DAG delta:               +1 PROVED
+critical status delta:   none
+terminal delta:          all zero-excess fibers are now usable
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+# Cycle 138: rate-half `A=1` parameter-fiber coefficient-MDS gate (2026-08-11)
+
+## Transposed realizability matrix
+
+Write every selected full-degree parameter fiber as
+
+```text
+G(delta,X)=zeta_delta F_delta(X),
+```
+
+with `F_delta` monic and split. Every scaled root-coefficient vector is an
+evaluation of a parameter polynomial of degree at most `m`. Equivalently,
+one explicit parameter-barycentric matrix has the full-support kernel vector
+`zeta`. The official guaranteed matrices are
+
+```text
+extremal: 50371909150609548946088 rows x 366503875926 columns;
+strict:   25185954575671278348969 rows x 274877906946 columns.
+```
+
+This is the parameter-direction counterpart of Cycle 134's fixed-domain
+gate. Both constrain one common biform; neither row count is itself a rank
+proof.
+
+## Verification and burn-down
+
+```text
+result:                  PROVED parameter-fiber coefficient-MDS gate
+DAG delta:               +1 PROVED, +2 nodes total this cycle group
+DAG after compile:       2291 nodes, 6733 edges, 2050 PROVED
+critical status delta:   none; 28 every-route TARGETs remain
+node replay:             normal/-O/audit/tamper all pass
+DAG/manifests/crosswalk: pass
+full composed replay:    preflight blocked by a pre-existing failed WCL
+                         row in the historical baseline; new scripts pass
+delta-star movement:     none
+new assumptions:         none
+compute requests:        none
+```
+
+The next closure test must combine the fixed-domain and fixed-parameter
+coefficient systems with the retained Hankel/source identities. A survivor
+of one matrix alone is not a valid pair-boundary realization.

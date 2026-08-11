@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+    "title": "A=1 quadratic paired zero-excess padded-fiber factorization",
+    "status": "PROVED",
+    "closure": "every zero-excess fiber of both pair-boundary biforms splits at full degree after restoring padding",
+    "statement": "For every zero-excess off-line slope in either surviving quadratic u=4 pair-boundary profile, the specialized dual-MDS biform is a nonzero scalar times the product of its actual inside-support locator and its padded-heavy factor. Hence at least 2e extremal fibers split at exact degree p-3 and at least p+2 first-strict fibers split at exact degree p-2, including all positive-deficit cases.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

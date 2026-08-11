@@ -31314,6 +31314,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate",
+   "title": "A=1 quadratic paired parameter-fiber coefficient-MDS gate",
+   "status": "PROVED",
+   "closure": "the zero-excess parameter fibers obey explicit transposed full-support coefficient-MDS kernel systems",
+   "statement": "For every selected zero-excess parameter fiber, write the specialized pair-boundary biform as a nonzero scalar times its monic full-degree split root polynomial, including padded-heavy roots. Every scaled root-coefficient vector lies in the same punctured RS code on the selected slope set. Equivalently, an explicit parameter-barycentric matrix has a kernel vector with every coordinate nonzero. The guaranteed matrices have (p-2)(e+1) rows by 2e columns in the extremal profile and (p-1)(p+2-e) rows by p+2 columns at the first strict boundary.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
    "title": "A=1 quadratic paired split-biform coefficient-MDS gate",
    "status": "PROVED",
@@ -31331,6 +31349,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_audit.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_probe.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/probe_results.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+   "title": "A=1 quadratic paired zero-excess padded-fiber factorization",
+   "status": "PROVED",
+   "closure": "every zero-excess fiber of both pair-boundary biforms splits at full degree after restoring padding",
+   "statement": "For every zero-excess off-line slope in either surviving quadratic u=4 pair-boundary profile, the specialized dual-MDS biform is a nonzero scalar times the product of its actual inside-support locator and its padded-heavy factor. Hence at least 2e extremal fibers split at exact degree p-3 and at least p+2 first-strict fibers split at exact degree p-2, including all positive-deficit cases.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization/verify_audit.py"
    ]
   },
   {
@@ -65263,6 +65299,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65383,9 +65424,24 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_parameter_fiber_coefficient_mds_gate",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin",
@@ -65455,6 +65511,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_strict_boundary_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_padded_fiber_factorization",
    "kind": "req"
   },
   {
