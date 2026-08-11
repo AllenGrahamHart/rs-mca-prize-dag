@@ -2563,3 +2563,34 @@ triple-union expanders for every pair, but that is numerical evidence only.
 No RS word pair, center assignment, Hankel pencil, or cube identity is
 constructed. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design`.
+
+## Cycle 108: the two-simple quadratic arm has weighted center spread (2026-08-11, Codex)
+
+In the other `u=4` root pattern, the two heavy rows occur in exactly
+
+```text
+(e-3)/2       and       (e-9)/2
+```
+
+supported locator blocks. Their incidence sets may overlap. If
+`r_gamma in {0,1,2}` counts the heavy padded roots at a slope, zero omission
+and the exact excess ledger give actual unique-error weight
+
+```text
+rho-r_gamma.
+```
+
+For an affine codeword line containing a slope set `A` of assigned centers,
+the column-far support argument sharpens to
+
+```text
+|A|<=rho+1-sum_(gamma in A)r_gamma.
+```
+
+Consequently a fixed locator pair has at least
+`3+r_alpha+r_beta` third blocks whose triple union has size at least
+`2rho+1`, between three and seven expanders. This supplies the exact joint
+incidence/coding constraint for both `u=4` quadratic root patterns. It does
+not constrain the overlap of the two heavy incidence sets or exclude the
+packet. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread`.
