@@ -3000,3 +3000,30 @@ for every pair and every assigned-center line. This is a complete profile
 removal; the next boundary is rank three at union `rho+4`. The proved node
 is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion`.
+
+## Cycle 126: the quadratic pair floor jumps to `3rho/2-1` (2026-08-11, Codex)
+
+For a pair with actual-support union `rho+j`, split the exact global
+degree-`e` incidence on its light union between centers on and off the
+endpoint codeword line. The line misses `j+r_gamma` points at slope
+`gamma`; an off-line slope meets at most `j-r_gamma-2` noncore union
+points. Eliminating the number of line centers gives the necessary concave
+quadratic inequality `F_e(j)<=0`.
+
+At both endpoints of
+
+```text
+4<=j<=rho/2-2
+```
+
+the polynomial is strictly positive, hence the complete interval is empty.
+Therefore
+
+```text
+|S_alpha union S_beta|>=3rho/2-1=824633720831
+```
+
+on the official row. Every assigned-center line has at most three supported
+slopes, and a three-center line has total deficit at most one. Thus every
+pair has at least `rho+1` expanding thirds. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor`.

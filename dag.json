@@ -31134,6 +31134,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor",
+   "title": "A=1 quadratic gap-four macroscopic pair-union floor",
+   "status": "PROVED",
+   "closure": "every pair union is at least 3rho/2-1 and every center line has size at most three",
+   "statement": "In either core-one quadratic u=4 arm, every two distinct supported slopes satisfy |S_alpha union S_beta|>=3rho/2-1. The proof compares the exact global degree-e incidence on the pair union with line and off-line minimum-distance capacities; the necessary concave quadratic is positive for every 4<=j<=rho/2-2. On the official row the floor is 824633720831. Any assigned-center line has at most three supported slopes, and a three-center line has total deficit at most one.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization",
    "title": "A=1 quadratic minimum-pair bidirectional heavy-incidence localization",
    "status": "PROVED",
@@ -65127,6 +65145,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_bidirectional_heavy_incidence_localization",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65150,6 +65173,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_exclusion",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_oriented_gcd_coupling",
