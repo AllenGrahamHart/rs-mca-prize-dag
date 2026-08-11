@@ -5397,3 +5397,25 @@ mechanism). QUARANTINE MARKER: this entry and below quarantined
 for round-34 pilots; r34_* siblings mutually quarantined
 (SEARCH-level exclusion required); round-33 rh_* and earlier
 readable. Launched on Opus.
+
+## ROUND 34 BANK 1/4 — r34_pstar (2026-08-11, coordinator)
+
+**BANKED — R-PSTAR RESOLVED YES: FG NONEMPTY AT RAZOR SHAPE (the
+negative-closure branch does NOT fire; R-KER not sole residual).
+Witnesses A (impulse pair, K_0 = x^{2rho}F[x], column-far
+unconditionally — coordinator hand-verified the stacked-rank
+structure) and B (P* = P_1P_2, P_1 irreducible deg 2^34,
+SQUAREFREE — FG3/FG4 verbatim at the razor). Column-farness FREE
+on the low-p* locus. MY BANKED EQUIVALENCE CORRECTED (FG needs
+p* <= 2rho = R/32, factor 16; the intermediate stratum
+2rho < p* <= R/2 exhibited — invisible at every round-33 cell).
+The codim law 2R-3p calibrated (10 pts, dev <= 0.090); FG3
+widened to generic column-far pencils (1586/1586 — the scaled
+Vandermonde is the GENERIC far-CA picture); LB1 generic
+(p* = r+1, 3591/3591, 0 tautology violations); "T = q on FG"
+narrowed (tracks mu_1; universal bounds stay dead); q_crit ~ 2^64
+flagged. FIRST PILOT UNDER THE UPGRADED LAW: 6/6 ramguard, zero
+breaches — the clause works. The dimension-count trap self-caught
+by the pre-registered guard (7th consecutive round of the guard
+pattern earning its keep). Files:
+notes/pilots_20260811/r34_pstar/.**

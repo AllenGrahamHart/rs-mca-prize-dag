@@ -3056,9 +3056,26 @@ SCALED VANDERMONDE, the key equation C_gamma*sigma = h mod P, and
 follow (the reduced ring is a FIELD — no divisors to count); on FG
 the measured T = q kills T <= rho, T <= p, T <= r+1 as candidate
 bounds. NEW RESIDUALS: R-FG (the line-in-Lambda intersection
-count); **R-PSTAR (the cheapest question left: does ANY column-far
-razor pencil have p* <= R/2? If no, FG is empty at the razor and
-R-KER is the SOLE far-CA residual)**. R-DEEP/R-KER/R-LINEDEGREE
+count); **R-PSTAR [RESOLVED YES, round 34 r34_pstar, coordinator-replayed
+— and the parenthetical equivalence here was FALSE: FG requires
+p* <= 2rho = R/32, a factor 16 stronger than p* <= R/2
+(h_r <= min(p*, 2rho) unconditionally); an intermediate stratum
+2rho < p* <= R/2 exists with a generically-fixed generator but
+non-principal K_0 (five exhibited instances). FG IS NONEMPTY AT
+RAZOR SHAPE: witness A (y_0 = e_{2rho-1}, y_1 = e_{rho-1};
+K_0 = x^{2rho}F[x]; column-far unconditionally, any field, any D)
+and witness B (P* = P_1 P_2, P_1 irreducible of degree 2^34;
+SQUAREFREE, so FG3/FG4 apply verbatim). Column-farness is FREE on
+the low-p* locus (excludes a 2^-1.15e12 fraction of P* choices).
+R-KER is NOT the sole residual; R-FG is live with razor
+coordinates. The codimension law codim{p* <= p} = 2R-3p calibrated
+at 10 points (max dev 0.090); the FG3 descent widened to all
+p* <= r with P* squarefree (1586/1586); LB1 is GENERIC
+(p* = r+1 = ceil(2R/3), 3591/3591); the round-33 "on FG measured
+T = q" narrowed — the saturation tracks mu_1 = C(n,r)/q^rho, not FG
+membership (T <= r+1 survives at 2 of 4 cells; the three universal
+bounds stay dead); q_crit ~ 2^64: below it the column-far locus is
+measure-zero and every random model in this lane is void]**. R-DEEP/R-KER/R-LINEDEGREE
 unchanged. Round 32's report is noted internally inconsistent (its
 0/1700 (HK1) data contradicts its own forced-fixed claim) — the
 audit cadence's sixth consecutive round of catching banked text.
