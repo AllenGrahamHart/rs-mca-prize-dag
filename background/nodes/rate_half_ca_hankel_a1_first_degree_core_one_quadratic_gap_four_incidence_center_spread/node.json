@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread",
+    "title": "A=1 core-one quadratic gap-four incidence-center spread",
+    "status": "PROVED",
+    "closure": "exact locator block design and column-far center-line cap",
+    "statement": "In the core-one u=4 quadratic double-root packet, the rho+4 supported locators are rho-subsets with one common core point, 3rho+5 light points of degree e, one heavy double-root row of degree e-6, and rho-7 inactive heavy rows. The e-6 deficient slopes have exact error weight rho-1 and all others weight rho. A center line containing r deficient slopes has at most rho+1-r assigned centers, so a locator pair has at least three, four, or five triple-union expanders according as it contains zero, one, or two deficient slopes.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms"
+    },
+    {
+      "from": "rate_half_ca_hankel_split_pencil_equivalence"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

@@ -2509,3 +2509,33 @@ primitive minimal-index profile, or the Forney identities. This fence does
 not say that an arbitrary represented pair is column-far or realizes the
 packet. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_source_weight_surjectivity_fence`.
+
+## Cycle 106: the quadratic packet has exact locator and center spread (2026-08-11, Codex)
+
+At `u=4`, zero omission makes every one of the `T=rho+4` supported
+specializations a squarefree split degree-`rho` locator. Their root blocks
+have the exact degree sequence
+
+```text
+one fixed core point:       degree rho+4;
+3rho+5 light points:        degree e;
+one double heavy point:     degree e-6;
+rho-7 other heavy points:   degree zero.
+```
+
+The rate-half code has minimum distance `2rho+1`, so every supported
+received word has a unique codeword center within radius `rho`. If `h`
+assigned centers lie on one affine codeword line, subtracting that line from
+the received pencil gives an affine error pair with joint support at least
+`rho+1`. Each active coordinate is nonzero at at least `h-1` slopes. The
+`e-6` slopes through the heavy point have exact error weight `rho-1`; all
+others have weight `rho`. Hence a center line containing `r` deficient
+slopes has at most `rho+1-r` assigned centers.
+
+It follows that a pair of supported locator blocks has at least three, four,
+or five other blocks with triple union of size at least `2rho+1`, according
+as the pair contains zero, one, or two deficient slopes. Otherwise their
+centers would lie on the line through the first two. This is a joint
+incidence/coding constraint, not yet an exclusion of the exact design. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread`.
