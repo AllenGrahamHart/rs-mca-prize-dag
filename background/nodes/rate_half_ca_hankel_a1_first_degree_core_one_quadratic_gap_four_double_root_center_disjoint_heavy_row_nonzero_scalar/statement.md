@@ -36,8 +36,8 @@ It is not enough for the extrapolated row merely to vanish.
 
 ## Scope
 
-The proof uses center-disjointness. If a correction root is also a center
-root, the exact center-factor cancellation changes the local resultant
-ledger and this theorem makes no assertion. Nonreduced or
-supported/correction-collision loci remain outside the inherited separated
-hypotheses.
+This node states only the center-disjoint subcase. The later
+`double_root_separated_heavy_row_nonzero` node audits the complete exact
+resultant factorization and removes the center-disjoint restriction.
+Nonreduced or supported/correction-collision loci remain outside the
+inherited separated hypotheses.

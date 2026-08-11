@@ -31206,6 +31206,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
+   "title": "A=1 quadratic separated heavy row is nonzero",
+   "status": "PROVED",
+   "closure": "exclusion of the zero heavy row on the complete separated double-root locus",
+   "statement": "On the squarefree supported-disjoint separated double-root locus, G(t,x_*) is nonzero for every center-overlap degree j. If it vanished, X-x_* would divide G. At a correction root which is not off-line supported, including a center root, this forces resultant order at least three against the exact order two from E_4=S_B^2. At an off-line supported root, actual support violates first-jet transversality and padding violates gcd(g_*,S_B)=1. Hence every overlap form T_j and every passing barycentric remainder is nonzero.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_zero_heavy_row_forces_full_correction_center_overlap",
    "title": "A=1 quadratic zero heavy row forces full correction-center overlap",
    "status": "PROVED",
@@ -65682,6 +65700,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_quotient_cubic_residual",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_barycentric_remainder_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65689,6 +65712,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_barycentric_remainder_gate",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_center_disjoint_heavy_row_nonzero_scalar",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_barycentric_remainder_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
    "kind": "req"
   },
   {
@@ -65715,6 +65743,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_center_overlap_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_zero_heavy_row_forces_full_correction_center_overlap",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_zero_heavy_row_forces_full_correction_center_overlap",
@@ -65789,6 +65822,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_center_disjoint_heavy_row_nonzero_scalar",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
    "kind": "req"
   },
   {
@@ -65984,6 +66022,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_center_disjoint_heavy_row_nonzero_scalar",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_separated_heavy_row_nonzero",
    "kind": "req"
   },
   {

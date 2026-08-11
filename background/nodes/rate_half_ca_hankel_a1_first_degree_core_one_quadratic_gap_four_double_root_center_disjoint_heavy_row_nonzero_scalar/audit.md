@@ -2,8 +2,9 @@
 
 1. The proof selects a root of `S_B` over the algebraic closure; no
    base-field splitting of the correction quadratic is assumed.
-2. Center-disjointness is load-bearing. It prevents the center cancellation
-   in the exact resultant from masking the local valuation.
+2. Center-disjointness is part of this node's stated locus but is not needed
+   after the complete exact resultant factorization is used; the later
+   separated-heavy-row node records that sharpening.
 3. The unsupported case compares exact orders three and two, not only total
    degrees.
 4. In the supported case, the complete gcd `A_sigma R_sigma` excludes an
