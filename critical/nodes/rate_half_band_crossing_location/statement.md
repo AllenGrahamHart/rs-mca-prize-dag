@@ -2019,3 +2019,29 @@ deg(Z_1+Z_2-R_0-E_1)=1.
 
 The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form`.
+
+## Cycle 89: core-free residual degree two is excluded (2026-08-11, Codex)
+
+Both core-free packets have `O=Delta`, so equality holds throughout the
+omission and regular-determinant budget. Every excess root must therefore
+overlap the squarefree minimal split locator; no new simple domain root is
+available.
+
+Each packet has a distinguished row of deficit one. With one minimal and
+one excess copy, every supported horizontal root has multiplicity two. The
+local cube identity forces the corresponding vertical multiplicities to be
+`1 mod 3`, while unsupported vertical roots have multiplicity `0 mod 3`.
+The resulting vertical degree is `e-1 mod 3`, not the official
+`e=0 mod 3`.
+
+In the packet with no ordinary incidence, the sole remaining determinant
+order cannot repair this: spending it at one row root raises the minimum
+vertical multiplicity from one to three, producing total degree `e+1`.
+The other packet has no unspent determinant order. Thus both are empty and
+
+```text
+s=0,j=0: a in {3,4,5}.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_degree_two_packet_exclusion`.
