@@ -3500,3 +3500,25 @@ corrections have Smith type `[2]` rather than `[1,1]`. The separated locus
 is one cubic source recurrence, not an unconstrained degree-`e` marked
 determinant. Nonreduced corrections and roots shared with `g_*` remain
 explicitly open.
+
+## Cycle 157 addendum: the cubic residual is welded to the split biform
+
+On the separated double-root extremal locus, put
+
+```text
+J=gcd(Lambda,g_*S_B^2),       j=deg J<=3.
+```
+
+The cubic Pade bracket and exact center cancellation give
+
+```text
+G(t,x_*)=[g_*(t)S_B(t)^2/J(t)]T_j(t),
+deg T_j<=j.
+```
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_heavy_row_center_overlap_factorization`.
+All but at most three roots of the fixed heavy row are now prescribed. Its
+coefficient vector augments the extremal coefficient-MDS system with at
+most four scalar unknowns. The remaining separated double-root terminal is
+the rank/nullity of this augmented system, not an untyped correction jet.
