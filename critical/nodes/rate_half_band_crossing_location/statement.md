@@ -3415,3 +3415,19 @@ and
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification`.
 The next live obstruction is local Hankel jet realizability of the forced
 square or linear-times-cubic correction quartic.
+
+## Cycle 153 addendum: marked multiplicity alone is fenced
+
+The correction identities make the marked determinants exactly
+
+```text
+double root: g_*^3S_B^8,
+two simple:  G_1^5G_2S_1^7S_2 and G_1G_2^5S_1S_2^7.
+```
+
+However, explicit symmetric affine Kronecker pencils with one primitive
+minimal-index block realize isolated marked orders eight and seven. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence`.
+Thus determinant multiplicity, symmetry, and generic corank one cannot
+close the branch without a genuinely Hankel/source/split-fiber input.

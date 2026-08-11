@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence",
+    "title": "A=1 quadratic gap-four correction marked-jet route fence",
+    "status": "PROVED",
+    "closure": "exact marked orders and abstract symmetric-pencil countermodel",
+    "statement": "The correction-quartic identity sharpens the double-root marked determinant to g_*^3 S_B^8 and the two-simple marked determinants to the displayed exponent-5/exponent-7 products. Explicit symmetric affine Kronecker pencils with one primitive minimal-index block realize isolated marked orders eight and seven. Therefore symmetry, affine dependence, generic corank one, adjugate factorization, and marked multiplicity alone cannot exclude the prize packets; a closure must use Hankel/source/splitting structure.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate"},
+    {"from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization"}
+  ],
+  "alternatives": [],
+  "evidence_for": [{"to": "rate_half_band_crossing_location"}],
+  "refutes": []
+}
