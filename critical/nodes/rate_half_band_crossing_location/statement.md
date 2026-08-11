@@ -1674,3 +1674,22 @@ at core-free degree `e=m+1` are all empty. The proved node is
 
 The live `A=1` frontier consists of the upper core-free and core-one degree
 ranges starting at these two exact thresholds; core two remains closed.
+
+## Cycle 78: `A=1` sharp-cap closure (2026-08-11, Codex)
+
+No `A=1` failure can attain its Euclidean slope cap `ell=0`. For core one,
+the three-contact theorem gives
+
+```text
+ell>=e-2-floor(Delta/3)>=1.
+```
+
+For core-free profiles, four contacts exclude `e=m+1,m+2` and three
+contacts exclude every sharp profile from `e=m+3` through `e=rho`. Core two
+is already empty. The proved node is
+`rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion`.
+
+This retires the historical maximal-degree core-one corrected-square route
+as a live frontier: its necessary reductions remain valid, but their
+sharp-cap parent is now impossible. All remaining `A=1` profiles have
+positive slope slack and lie in the upper `s=0,1` degree ranges.

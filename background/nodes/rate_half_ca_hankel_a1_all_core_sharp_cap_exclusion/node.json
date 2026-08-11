@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion",
+    "title": "A=1 all-core sharp-cap exclusion",
+    "status": "PROVED",
+    "closure": "contact-exclusion corollary across all core sizes",
+    "statement": "No official half-distance A=1 failure can attain its Euclidean slope cap ell=0, for any fixed-core size s in {0,1,2}. Every core-one survivor satisfies ell>=e-2-floor(Delta/3)>=1. Hence the historical maximal-degree core-one sharp-cap corrected-square route is retired; only positive-slack core-free and core-one profiles remain.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_free_pole_slack_exclusion"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

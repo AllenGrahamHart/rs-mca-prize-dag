@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify.py",
-      "seconds": 0.043671,
+      "script": "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/verify.py",
+      "seconds": 0.022539,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FOUR_CONTACT_LOW_DEGREE_EXCLUSION_PASS profiles=142471 official_s0_first=149933403787 official_s1_first=164926744166\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_ALL_CORE_SHARP_CAP_EXCLUSION_PASS checks=48768 official_m=137438953472 sharp_survivors=0\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify_audit.py",
-      "seconds": 0.013556,
+      "script": "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/verify_audit.py",
+      "seconds": 0.013496,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FOUR_CONTACT_LOW_DEGREE_EXCLUSION_AUDIT_PASS mutations=3/3\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_ALL_CORE_SHARP_CAP_EXCLUSION_AUDIT_PASS endpoint_dependency=detected transition=checked\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
