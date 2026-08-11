@@ -1622,3 +1622,30 @@ degree `e=m+1`, only `ell=0,1,2` occur and the remaining pole deficiencies
 This narrows but does not close `A=1`: the three finite-deficiency chambers,
 higher core-free degrees failing the inequality, and fixed-core `s=1,2`
 profiles remain live.
+
+## Cycle 76: `A=1` fixed-core-two closure (2026-08-11, Codex)
+
+Fixed-core contraction preserves the contact construction. If `s` is the
+core size and `d=rho-s`, the residual pencil still has `rho` rows, so its
+contact order is `d+rho` and
+
+```text
+s_F in H^0(C,O_C(-rho-1,e+1)),
+deg L_F=d-(s+1)e=Delta.
+```
+
+For `s=1,2`, a pole-clearing form of bidegree `(2,floor(p/3))` and three
+contact sections exclude every profile satisfying
+
+```text
+floor(p/3)+ell+3-beta<e,       beta=T_max-4e.
+```
+
+The inequality holds for every `s=2` integer profile, including the
+`Delta=0,beta=2` boundary. It also excludes the first `s=1` degree
+`e=m+1`; any higher `s=1` survivor must satisfy `p>=3(e-ell-2)`. The proved
+nodes are `rate_half_ca_hankel_a1_core_stripped_forney_contact_section` and
+`rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion`.
+
+The complete `A=1` core-two branch is closed. The remaining `A=1` frontier
+is core-free `s=0` plus higher fixed-core-one `s=1` profiles.

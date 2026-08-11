@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+    "title": "A=1 core-stripped Forney contact section",
+    "status": "PROVED",
+    "closure": "contracted full-recurrence boundary divisibility",
+    "statement": "For every live half-distance A=1 profile with fixed core s in {0,1,2}, the contracted residual curve of bidegree (d,e), d=rho-s, is reduced and carries a nonzero section of O_C(-rho-1,e+1). Its contact order is d+rho and its degree is exactly Delta=d-(s+1)e, the residual regular Kronecker size.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_exceptional_root_charge"
+    },
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
