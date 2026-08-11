@@ -29057,6 +29057,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -31090,6 +31091,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+   "title": "A=1 quadratic gap-four cyclic-design spread exclusion",
+   "status": "PROVED",
+   "closure": "explicit cyclic incidence witness violates the necessary linear spread",
+   "statement": "For every e>=14, the explicit Cycle-107 cyclic incidence design has an adjacent deficient pair with exactly e+3 full-locator triple-union expanders. Cycle 116 requires at least ceil((3e+6)/2)>e+3, so this design cannot realize either retained quadratic u=4 packet on the official row.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion/verify_audit.py"
    ]
   },
   {
@@ -64949,6 +64968,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_abstract_incidence_design",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65027,6 +65056,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_root_multiplicity_router",

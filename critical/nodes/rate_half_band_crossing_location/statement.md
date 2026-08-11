@@ -2830,3 +2830,19 @@ constant lower bound `3+r_alpha+r_beta` by a linear-size bound. The Cycle-107
 abstract cyclic design was tested only against the old condition and no
 longer fences this route. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread`.
+
+## Cycle 117: the explicit cyclic quadratic design violates the spread (2026-08-11, Codex)
+
+The Cycle-107 construction remains a valid realization of the raw locator
+degree sequence, but it is not compatible with the coefficient-chain
+constraints. For every `e>=14`, one adjacent deficient pair has exactly
+`e+3` expanding third blocks. Cycle 116 requires at least
+
+```text
+ceil((3e+6)/2)>e+3.
+```
+
+Thus the explicit support-only countermodel is retired. This is not yet an
+exclusion of every abstract design with the same degrees; global incidence
+moments still leave slack. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion`.
