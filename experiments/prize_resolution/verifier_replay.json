@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/verify.py",
-      "seconds": 0.063745,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction/verify.py",
+      "seconds": 0.044054,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MACROSCOPIC_PAIR_UNION_FLOOR_PASS (549755813888, 274877906943, 824633720831)\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_EXTREMAL_THREE_CENTER_MINWORD_PASS (549755813888, 274877906944, 366503875926, 1099511627777)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor/verify_audit.py",
-      "seconds": 0.02543,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction/verify_audit.py",
+      "seconds": 0.012871,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_MACROSCOPIC_PAIR_UNION_FLOOR_AUDIT_PASS\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_EXTREMAL_THREE_CENTER_MINWORD_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

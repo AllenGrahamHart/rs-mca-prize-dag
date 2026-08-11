@@ -3027,3 +3027,25 @@ on the official row. Every assigned-center line has at most three supported
 slopes, and a three-center line has total deficit at most one. Thus every
 pair has at least `rho+1` expanding thirds. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_macroscopic_pair_union_floor`.
+
+## Cycle 127: the sole floor case yields at least `2e` minimum words (2026-08-11, Codex)
+
+A pair above the floor, with union at least `3rho/2`, has only its two
+endpoint centers on the corresponding codeword line. A pair attaining
+`3rho/2-1` instead forces exactly one third line center and total line
+deficit at most one.
+
+For the `3e` off-line slopes in this equality case, let `a_delta` be the
+actual triple-union excess over `d_min=2rho+1`. Exact global incidence and
+the packet deficit give
+
+```text
+sum_(delta off line)a_delta=e.
+```
+
+At least `2e` slopes therefore have zero excess. For each, the affine second
+difference of its assigned center with the endpoint centers is a nonzero RS
+codeword supported on exactly `2rho+1` positions. Minimum distance makes it
+an exact minimum word, whose `k-1` zero positions determine it up to scalar.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction`.
