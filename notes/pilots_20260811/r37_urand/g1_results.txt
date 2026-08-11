@@ -1,0 +1,571 @@
+
+################ RUN g1_census.py  arg=all ################
+
+==============================================================================
+CELL C1/F1 (LB1, d=1)  n=20 k=10 R=10 rho=2 r=8 a=12 m=10  D=negclosed{+-1..+-10}  e1=x^1
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=125970   log2 C(n,r)=16.9427
+--------------------------------------------------------------------------
+q=101  mu_1=12.3488  q*mu_1=1247.23  leaves=125970  incidences=1276  common_locators=1  COLUMN-CLOSE
+  T=101   T_fib=9   T_sym=1   T_rand=91   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1247.23
+  ROW EXCLUDED FROM CONCLUSIONS (column-close)
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:27 t=3:59 t=4:6
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=0 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=3 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=6 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=8 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=10 RAND t=3 wt(u)=8 wt(c)=11 |supp(c)^W|=8/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):False
+    slope=11 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=12 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=13 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=14 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=15 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=16 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=18 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=19 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=21 RAND t=2 wt(u)=7 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=22 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=23 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=24 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=26 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=27 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=28 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=29 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=30 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=31 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=11
+--------------------------------------------------------------------------
+q=349  mu_1=1.03423  q*mu_1=360.946  leaves=125970  incidences=369  common_locators=0  COLUMN-FAR
+  T=225   T_fib=9   T_sym=0   T_rand=216   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 360.946
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:16 t=3:53 t=4:83 t=5:42 t=6:18 t=7:4
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=0 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=11 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=12 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=13 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=15 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=18 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=19 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=20 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=22 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=25 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=28 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=30 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=31 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=32 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=33 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=34 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=35 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=36 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=39 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=40 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=41 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=42 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=43 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=44 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=3
+--------------------------------------------------------------------------
+q=1009  mu_1=0.123733  q*mu_1=124.846  leaves=125970  incidences=134  common_locators=0  COLUMN-FAR
+  T=120   T_fib=9   T_sym=0   T_rand=111   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 124.846
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:4 t=3:22 t=4:34 t=5:37 t=6:13 t=7:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=2 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=21 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=23 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=49 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=60 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=82 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=115 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=138 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=140 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=146 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=153 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=160 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=172 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=173 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=177 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=184 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=210 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=212 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=223 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=232 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=235 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=259 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=273 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=277 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=278 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=279 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=282 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=291 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=294 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=298 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=10007  mu_1=0.00125794  q*mu_1=12.5882  leaves=125970  incidences=23  common_locators=0  COLUMN-FAR
+  T=22   T_fib=9   T_sym=0   T_rand=13   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 12.5882
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=3:4 t=4:5 t=5:2 t=7:2
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 3
+    slope=565 RAND t=7 wt(u)=8 wt(c)=16 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1607 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3311 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3678 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3765 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4137 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4203 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4496 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5649 RAND t=7 wt(u)=8 wt(c)=16 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7250 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8500 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9387 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9602 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=13  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=65537  mu_1=2.93288e-05  q*mu_1=1.92212  leaves=125970  incidences=10  common_locators=0  COLUMN-FAR
+  T=9   T_fib=9   T_sym=0   T_rand=0   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1.92212
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = n/a
+  codeword rows analysed=0  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=999983  mu_1=1.25974e-07  q*mu_1=0.125972  leaves=125970  incidences=10  common_locators=0  COLUMN-FAR
+  T=9   T_fib=9   T_sym=0   T_rand=0   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 0.125972
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = n/a
+  codeword rows analysed=0  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+
+==============================================================================
+CELL C1/F2 (d2-inj)  n=20 k=10 R=10 rho=2 r=8 a=12 m=10  D=negclosed{+-1..+-10}  e1=x^2
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=125970   log2 C(n,r)=16.9427
+--------------------------------------------------------------------------
+q=101  mu_1=12.3488  q*mu_1=1247.23  leaves=125970  incidences=1338  common_locators=0  COLUMN-FAR
+  T=101   T_fib=9   T_sym=57   T_rand=35   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1247.23
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:30 t=3:58 t=4:4
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=0 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=3 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=6 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=9 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=10 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=11 SYM t=3 wt(u)=7 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=12 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=13 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=15 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=16 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=17 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=18 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=19 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=20 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=21 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=22 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=23 RAND t=3 wt(u)=8 wt(c)=11 |supp(c)^W|=8/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):False
+    slope=24 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=26 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=27 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=28 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=29 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=30 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=31 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=32 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=10
+--------------------------------------------------------------------------
+q=349  mu_1=1.03423  q*mu_1=360.946  leaves=125970  incidences=471  common_locators=0  COLUMN-FAR
+  T=253   T_fib=9   T_sym=74   T_rand=170   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 360.946
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:18 t=3:45 t=4:78 t=5:95 t=6:7 t=7:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=0 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=6 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=10 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=11 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=12 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=13 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=14 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=18 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=19 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=21 SYM t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=22 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=23 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=24 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=26 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=29 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=30 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=31 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=32 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=33 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=34 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=35 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=37 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=2
+--------------------------------------------------------------------------
+q=1009  mu_1=0.123733  q*mu_1=124.846  leaves=125970  incidences=210  common_locators=0  COLUMN-FAR
+  T=186   T_fib=9   T_sym=80   T_rand=97   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 124.846
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:7 t=3:28 t=4:38 t=5:100 t=6:2 t=7:1 t=8:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=1 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=23 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=32 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=37 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=39 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=48 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=62 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=65 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=84 RAND t=2 wt(u)=8 wt(c)=11 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=93 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=94 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=98 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=100 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=104 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=119 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=124 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=125 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=128 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=137 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=140 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=148 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=153 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=166 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=168 SYM t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=172 RAND t=3 wt(u)=8 wt(c)=12 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=176 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=184 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=1
+--------------------------------------------------------------------------
+q=10007  mu_1=0.00125794  q*mu_1=12.5882  leaves=125970  incidences=109  common_locators=0  COLUMN-FAR
+  T=104   T_fib=9   T_sym=84   T_rand=11   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 12.5882
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=3:2 t=4:3 t=5:88 t=6:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=1 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=150 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=170 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=336 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=478 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=512 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=561 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=932 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1096 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1302 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1336 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1400 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1522 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1546 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1623 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1691 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1820 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2019 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2126 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2145 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2162 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2338 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2434 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2502 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2743 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2889 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2938 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2970 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2972 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3011 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=65537  mu_1=2.93288e-05  q*mu_1=1.92212  leaves=125970  incidences=101  common_locators=0  COLUMN-FAR
+  T=98   T_fib=9   T_sym=84   T_rand=5   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1.92212
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=4:2 t=5:85 t=6:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=1 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=111 RAND t=6 wt(u)=8 wt(c)=15 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=137 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=216 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=373 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=594 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1346 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1933 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2870 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3550 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4207 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5083 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5351 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5979 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=6828 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7000 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=7034 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=8095 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9016 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9683 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=9789 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=12191 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=13082 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=14004 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=14146 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=15425 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16265 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16385 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17085 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=17567 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=999983  mu_1=1.25974e-07  q*mu_1=0.125972  leaves=125970  incidences=98  common_locators=0  COLUMN-FAR
+  T=95   T_fib=9   T_sym=84   T_rand=2   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 0.125972
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=4:1 t=5:84
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=1 SYM t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=25953 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=58823 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=61577 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=61855 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=71428 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=76419 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=80807 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=85469 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=105398 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=106332 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=114589 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=122836 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=135430 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=141260 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=176134 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=198609 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=207016 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=214860 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=249996 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=251173 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=264109 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=265172 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=272055 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=301716 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=327015 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=327376 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=342697 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=348285 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=357253 SYM t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+
+==============================================================================
+CELL K1/F2 control (D={1..20})  n=20 k=10 R=10 rho=2 r=8 a=12 m=10  D={1..20}  e1=x^2
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=125970   log2 C(n,r)=16.9427
+--------------------------------------------------------------------------
+q=65537  mu_1=2.93288e-05  q*mu_1=1.92212  leaves=125970  incidences=10  common_locators=0  COLUMN-FAR
+  T=10   T_fib=9   T_sym=0   T_rand=1   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1.92212
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=5:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 5
+    slope=23588 RAND t=5 wt(u)=8 wt(c)=14 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=1  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=999983  mu_1=1.25974e-07  q*mu_1=0.125972  leaves=125970  incidences=9  common_locators=0  COLUMN-FAR
+  T=9   T_fib=9   T_sym=0   T_rand=0   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 0.125972
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = n/a
+  codeword rows analysed=0  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+
+==============================================================================
+CELL K1/F1 control (D={1..20})  n=20 k=10 R=10 rho=2 r=8 a=12 m=10  D={1..20}  e1=x^1
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=125970   log2 C(n,r)=16.9427
+--------------------------------------------------------------------------
+q=65537  mu_1=2.93288e-05  q*mu_1=1.92212  leaves=125970  incidences=10  common_locators=0  COLUMN-FAR
+  T=10   T_fib=9   T_sym=0   T_rand=1   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 1.92212
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=4:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 4
+    slope=57643 RAND t=4 wt(u)=8 wt(c)=13 |supp(c)^W|=9/9 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=1  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=999983  mu_1=1.25974e-07  q*mu_1=0.125972  leaves=125970  incidences=9  common_locators=0  COLUMN-FAR
+  T=9   T_fib=9   T_sym=0   T_rand=0   (r+1=9)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 0.125972
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = n/a
+  codeword rows analysed=0  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+
+==============================================================================
+CELL C2/F1 (LB1, d=1)  n=24 k=12 R=12 rho=2 r=10 a=14 m=12  D=negclosed{+-1..+-12}  e1=x^1
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=1961256   log2 C(n,r)=20.9033
+--------------------------------------------------------------------------
+q=10007  mu_1=0.0195851  q*mu_1=195.988  leaves=1961256  incidences=208  common_locators=0  COLUMN-FAR
+  T=206   T_fib=11   T_sym=0   T_rand=195   (r+1=11)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 195.988
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=3:10 t=4:23 t=5:66 t=6:56 t=7:36 t=8:3
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=39 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=56 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=193 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=247 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=286 RAND t=8 wt(u)=10 wt(c)=19 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=291 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=358 RAND t=3 wt(u)=10 wt(c)=14 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=364 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=395 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=429 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=439 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=492 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=505 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=679 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=694 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=738 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=849 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=911 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=953 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=968 RAND t=3 wt(u)=10 wt(c)=14 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1055 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1057 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1093 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1128 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1134 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1141 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1225 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1268 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1301 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1380 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=65537  mu_1=0.000456627  q*mu_1=29.9259  leaves=1961256  incidences=37  common_locators=0  COLUMN-FAR
+  T=37   T_fib=11   T_sym=0   T_rand=26   (r+1=11)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 29.9259
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=3:3 t=4:2 t=5:6 t=6:9 t=7:5
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=1813 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=5926 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=12288 RAND t=2 wt(u)=10 wt(c)=13 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:True  W<=supp(c):True
+    slope=13996 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16387 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=16959 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=19177 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=20430 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=21380 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=24575 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=25208 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=25241 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=25794 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=29255 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=33448 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=35352 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=41721 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=43695 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=45107 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=48578 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=48963 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=53419 RAND t=3 wt(u)=10 wt(c)=14 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=53726 RAND t=3 wt(u)=10 wt(c)=14 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=55484 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=55927 RAND t=3 wt(u)=10 wt(c)=14 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=58909 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=26  MDS violations (wt(c)<R+1)=0  minimum-weight c=1
+
+==============================================================================
+CELL C2/F2 (d2-inj)  n=24 k=12 R=12 rho=2 r=10 a=14 m=12  D=negclosed{+-1..+-12}  e1=x^2
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True  -> FAITHFUL
+C(n,r)=1961256   log2 C(n,r)=20.9033
+--------------------------------------------------------------------------
+q=10007  mu_1=0.0195851  q*mu_1=195.988  leaves=1961256  incidences=532  common_locators=0  COLUMN-FAR
+  T=506   T_fib=11   T_sym=326   T_rand=169   (r+1=11)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 195.988
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=2:1 t=3:10 t=4:37 t=5:54 t=6:372 t=7:20 t=8:1
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 2
+    slope=18 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=24 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=32 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=33 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=57 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=104 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=110 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=147 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=159 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=167 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=187 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=201 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=207 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=240 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=260 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=262 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=278 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=289 RAND t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=290 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=406 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=421 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=424 RAND t=4 wt(u)=10 wt(c)=15 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=431 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=440 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=465 RAND t=5 wt(u)=10 wt(c)=16 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=483 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=498 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=609 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=615 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=644 RAND t=7 wt(u)=10 wt(c)=18 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+--------------------------------------------------------------------------
+q=65537  mu_1=0.000456627  q*mu_1=29.9259  leaves=1961256  incidences=373  common_locators=0  COLUMN-FAR
+  T=369   T_fib=11   T_sym=329   T_rand=29   (r+1=11)
+  null: E[incidences] = C(n,r)*q^(1-rho) = 29.9259
+  spend t=|S\W| histogram over non-fib slopes (min t per slope): t=4:8 t=5:9 t=6:334 t=7:5 t=8:2
+  FENCE-1 check: rho+1-f = 2  (f=|W|-r=1) ; min t over non-fib slopes = 4
+    slope=52 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=460 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=467 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=683 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1104 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1148 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1382 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1488 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1503 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1591 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1602 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1716 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1953 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=1967 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2061 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2083 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2170 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2271 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2309 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=2698 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3012 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3107 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3220 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3734 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3749 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=3854 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4257 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4417 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4442 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+    slope=4524 SYM t=6 wt(u)=10 wt(c)=17 |supp(c)^W|=11/11 syn(c)=0:True  wt(c)>=R+1:True  minwt:False  W<=supp(c):True
+  codeword rows analysed=30  MDS violations (wt(c)<R+1)=0  minimum-weight c=0
+################ END RUN g1_census.py ################

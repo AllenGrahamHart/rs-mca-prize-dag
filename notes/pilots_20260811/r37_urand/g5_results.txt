@@ -1,0 +1,46 @@
+
+################ RUN g5_close.py ################
+(A) SYMMETRIC-T at rho>=3 : are the surviving carrier slopes the FIBRE slopes?
+  n=28 k=14 R=14 rho=3 r=11 a=17 q=65537 FAITHFUL(True,True,True)
+    fibre slopes {-1/t^2 : t in T} : 6   carrier slopes : 6   carrier SUBSET of fibre : True   fibre SUBSET of carrier : True   EXCESS (carrier \ fibre) = 0
+  n=28 k=14 R=14 rho=3 r=11 a=17 q=999983 FAITHFUL(True,True,True)
+    fibre slopes {-1/t^2 : t in T} : 6   carrier slopes : 6   carrier SUBSET of fibre : True   fibre SUBSET of carrier : True   EXCESS (carrier \ fibre) = 0
+  n=34 k=17 R=17 rho=4 r=13 a=21 q=65537 FAITHFUL(True,True,True)
+    fibre slopes {-1/t^2 : t in T} : 7   carrier slopes : 7   carrier SUBSET of fibre : True   fibre SUBSET of carrier : True   EXCESS (carrier \ fibre) = 0
+  n=34 k=17 R=17 rho=4 r=13 a=21 q=999983 FAITHFUL(True,True,True)
+    fibre slopes {-1/t^2 : t in T} : 7   carrier slopes : 7   carrier SUBSET of fibre : True   fibre SUBSET of carrier : True   EXCESS (carrier \ fibre) = 0
+  n=22 k=11 R=11 rho=2 r=9 a=13 q=999983 FAITHFUL(True,True,True)
+    fibre slopes {-1/t^2 : t in T} : 5   carrier slopes : 323   carrier SUBSET of fibre : False   fibre SUBSET of carrier : True   EXCESS (carrier \ fibre) = 318
+
+(B) rho=3 ENGINEERED PENCIL, FULL CENSUS (column-farness + exact T)
+  mu_26 k=13 R=13 rho=3 r=10 a=16 q=200201 j=6 FAITHFUL(True,True,True)
+    FULL CENSUS C(26,10)=5311735 : T=17  T_fib=11  T_rand=6  r+1=11  excess=+6  engineered slopes present=6/6  column-FAR  null q*mu_1=0.0001325
+
+RAZOR CLOSED FORMS  n=2^41=2199023255552  k=R=2^40=1099511627776  rho=2^34=17179869184  r=1082331758592  a=1116691496960
+  FAITHFUL 4rho<R=True  a>R+1=True  a-1>r=True
+  r+1 = 1082331758593 = 2^39.977280
+  n/rho = 128   r/rho = 63   k/rho = 64
+  U-RAND PARAMETER CAP  j <= (2(r+1)-1)/rho = 126.0000000001  -> floor = 126
+  (registered variant 2(r+1)/(rho-1) = 126.0000000075 -> floor = 126 ; 2r/rho = 126)
+  => heuristic B_ca^far(k+2^34) <= r+1+126 = 1082331758719 = 2^39.977280
+  => PROVED-BY-CONSTRUCTION floor (if the construction transports): B_ca^far >= r+1+j for j up to 126
+  over-determination per U-rand slope = rho-1 = 17179869183
+  over-determination per U-sym slope  = ceil(rho/2)-1 = 8589934591
+  f-optimisation: T(f) <= r/f+1 + (2(r+f)-1)/rho
+      f=1             T <= 1082331758719 = 2^39.977280
+      f=2             T <= 541165879423 = 2^38.977280
+      f=4             T <= 270582939775 = 2^37.977280
+      f=131072        T <= 8257663 = 2^22.977302
+      f=17179869184   T <= 191 = 2^7.577429
+  B*(q) = floor(q/2^128) at q=2^167 : 549755813888 = 2^39 ; (r+1)/2^39 = 1.968750 = 2^0.977280
+  (r+1+126)/2^39 = 1.968750000 = 2^0.977279924
+
+  C(128,63) = 23582666872052266206656578733667004800 = 2^124.149066
+  C(127,64) = 11975573020964041433067793888190275875 = 2^123.171434
+  C(127,63) = C(127,64) : True
+  C(128,63)/C(127,64) = 128/65 exactly : True   value 1.9692307692 = 2^0.977632
+  C(128,63) - C(127,64) = C(127,62) : True
+  NEAR-COINCIDENCE CHECK (registered A-1): log2(128/65) = 0.977632  vs  log2((r+1)/2^39) = 0.977280  -> EQUAL? False
+  T_sym carrier at M=rho : C(n/rho, r/rho) = C(128,63) ; banked qcore plateau at sigma=M-1 : C(n/M-1, k/M) = C(127,64)
+  log2 C(n,r) = 2198635969270.39 ; log2 mu_1 at q=2^128/2^167/2^256 = -3.872863e+08 / -6.704022e+11 / -2.199411e+12
+################ END RUN g5_close.py ################

@@ -4485,14 +4485,37 @@ check). All pass.
   r+1 = 2^39.977280 EXACTLY** (floor: banked LB1; cap: the fibre
   pigeonhole). U = "T_sym = T_rand = 0"; U-sym is killed at razor
   rho by condition counting (modulo the rho=3 symmetric-T gap);
-  U-rand is completely unpriced (the honest residual). Residual
+  U-rand is completely unpriced (the honest residual).
+  [REFUTED AS A THEOREM (round 37): U-rand slopes are
+  CONSTRUCTIBLE at fixed exchange rate rho conditions each —
+  engineered column-far razor-faithful pencils on mu_n have
+  T = (r+1)+j exactly for j up to the parameter cap
+  (2(r+1)-1)/rho (exhaustive censuses at mu_20 and the full
+  C(26,10) at mu_26). U survives only as the DEFINITION of the
+  fibre stratum. THE PIN IS WITHDRAWN and replaced:
+  B_ca^far(k+2^34) = r+1 + Theta(n/rho); constructive floor
+  r+1+126 = 1,082,331,758,719 modulo one genericity lemma (kernel
+  dim exactly 2 at j = 126); heuristic cap the same 126; in bits
+  2^39.977280 unchanged to six decimals. Also corrected: the
+  floor(rho/2) parity count is CEIL(rho/2) (symmetric-T dies at
+  rho = 3, not 4 — the parity prediction refuted; the fused
+  carrier's threshold is M >= 2rho-1, not M >= rho); "T_rand is
+  moment-priced (zero power)" is false in the direction that
+  matters (the mechanism needs NO automorphism). See the round-37
+  U-rand addendum.]
+  Residual
   map: R-HRLOW dissolved into R-U; carriers for U named (the
   split-pencil equivalence frame; the e22 locator algebra + the
   M >= rho threshold; the bivariate locator-extension node, which
   is scoped as exactly-the-missing-hypothesis). CHECK QUEUED: is
   the T_sym carrier at M = rho (C(128,63), ~2^124.15) the banked
   qcore plateau C(127,64) = 2^123.1714 (one binomial step)? If
-  yes, T_sym inherits a proved cap.
+  yes, T_sym inherits a proved cap. [CHECK DONE (round 37):
+  DIFFERENT objects (orbit-invariant LOCATORS vs qcore CODEWORDS;
+  ratio exactly 128/65, log2 = 0.977632 != 0.977280 — two
+  different 0.977s); the Lam-Leung+nesting CAP does NOT transport;
+  the DEDUP does (multi-scale T_sym families collapse to one
+  scale).]
 - **SHAPE FENCE (fourth flag, applied on the supplier node):**
   "B_ca^far(n-r) <= r+1" is PROVED only at the official row's own
   shape (r <= R/2); it is FALSE as a universal at r > R/2 on
@@ -4643,3 +4666,81 @@ the split sub-case fence); (4) the rho = 3 symmetric-T gap +
 the C(128,63) correspondence; (5) THE MINT WAVE (the queue now
 holds ~30 items across rounds 34-36 — a consolidation round is
 due); (6) m = 1 16=16 node + the eigenvalue-confinement shape.
+
+## Round-37 U-rand addendum (2026-08-11, coordinator-audited): STATEMENT U REFUTED — the far-CA count is r+1 + Theta(n/rho); the coset-leader frame; U-sym closed
+
+Pilot r37_urand (round 37, bank 1). Coordinator hand-checks (all
+pass): the MDS identification (ker syn = degree-<= k-1
+restrictions; d_min = R+1); FENCE-1's two-line contrapositive; the
+rho-1 over-determination ((f+t)-(|W|+t-R)-1 = R-r-1, independent
+of t and f); the razor kernel arithmetic (2(r+1) - 126*rho = 2
+EXACTLY, so the cap is 126 with kernel dim 2 on the nose);
+r+1+126 = 1,082,331,758,719; the ceil-vs-floor parity collapse
+(rows 2s and 2s+1 fuse on the carrier).
+
+- **THE COSET-LEADER FRAME (the round's instrument):** every bad
+  slope decomposes as u = h_gamma + c with c in the [n,k] MDS
+  code ker syn — the far-CA count is a coset-leader problem, and
+  the adversary's currency is 2(r+1) field values of (e_0,e_1) on
+  W at RHO CONDITIONS PER CODEWORD-MEDIATED SLOPE (three
+  independent derivations; spend- and f-independent).
+  **FENCE-1 (unconditional, the surviving fence):** |S_gamma u W|
+  <= R forces c = 0 — no near-W slope is codeword-mediated
+  (297/297 incidences, 14 rows, 2 shapes, 2 domain types; the
+  inequality itself is the banked minimum-distance spend, here
+  instantiated at the forced |W| = r+1 — cross-reference added so
+  it is not re-derived again). MINIMAL-SPEND RIGIDITY: at t = rho
+  the mediating codeword is minimum-weight with W inside its
+  support (18/18; W in supp(c) at 297/297 — stronger than
+  derived). The c-side analogue of chi is chi_Y : W -> P^2;
+  U-rand at minimal spend = rho+1 collinear points of chi_Y(W).
+- **STATEMENT U IS FALSE.** The adversary CHOOSES the
+  collinearity: fixing j configurations and solving the LINEAR
+  system (unknowns 2(r+1)+j, equations j(rho+1)) yields
+  column-far razor-faithful pencils with **T = (r+1) + j EXACTLY**
+  — verified by exhaustive census at mu_20 (j = 1,2,4,6,8 = the
+  cap, three fields) and by the FULL C(26,10) = 5,311,735 census
+  at mu_26 (T = 17 = r+1+6, T_fib = 11 = r+1, column-far, a
+  factor 45,000 over the first moment). On the razor's own domain
+  type; needs NO automorphism; works at rho = 3.
+  **THE NEW PRICE: B_ca^far(k+2^34) = r+1 + Theta(n/rho).**
+  Constructive floor r+1+126 (modulo R-GENERICITY: full rank +
+  four open side-conditions, each held 60/60 at every reachable
+  cell); heuristic cap the same 126; the prize question untouched
+  (2^39.977280 to six decimals either way; log2(r+1+126)/2^39 =
+  2^0.977279924).
+- **U-SYM CLOSED, AND THE PARITY DERIVATION CORRECTED:** the
+  symmetric-T carrier (X-x_0)P(X^2) fuses the two parity blocks —
+  the count is CEIL(rho/2), not floor — so it DIES at rho = 3
+  (measured: carrier = fibre exactly, excess 0, at rho = 3 and 4,
+  2 fields x 2 shapes x 2 domain types; excess 318 at rho = 2).
+  The round-36 T = 336 anomaly is decomposed exactly (5 fibre +
+  323 carrier + 8 residual vs null 7.59; on mu_22 carrier explains
+  330/330). Residual carrier-exhaustiveness question: is
+  (X-x_0)P(X^2) the only parity-collapsing carrier at odd r?
+- **T_rand ON GENERIC PENCILS IS NULL-COMPATIBLE (10/10 rows in
+  the envelope, -> 0 at large fields)** — but the null is a MEAN
+  and B_ca^far is a MAX: the engineered pencils beat it by 4.5e4.
+  A clean generic null is not a fence — the lesson, again.
+- **THE FAR-CA RESIDUAL MAP:** R-U retired (refuted). **R-URATE
+  (new, load-bearing): is the exchange rate rho tight — prove
+  T_rand <= 2(r+1)/rho** (a finite rank question on the
+  j(rho+1) x (2(r+1)+j) incidence matrix). **R-GENERICITY (new):
+  the full-rank + side-conditions lemma converting the +126 floor
+  to unconditional.** R-USYM: close (carrier-exhaustiveness the
+  only residue). Everything else unchanged. WARNING transported
+  to the counting lanes: any far-CA upper bound pricing only the
+  fibre stratum is off by an additive Theta(n/rho); T <= r+1 is
+  unprovable at razor shape — do not spend on it.
+- **SCOPE FENCES:** the +126 floor is constructive-MODULO-
+  GENERICITY (never claimed proved); the integer-collinear
+  minimal-spend family is a stand-in-domain artefact with ZERO
+  razor power (three rational hits, declared, used for nothing);
+  exhaustive censuses exist at C(20,8)/C(22,9)/C(24,10)/C(26,10)
+  only (the rho = 4 construction is slope-verified but its total
+  T unmeasured); q <= 999983, odd prime fields only; the type-2
+  ledger was not imported (vacuous on the bracket). Pilot
+  compliance: 5/5 ramguard clean (append-mode results files, no
+  head pipes — both new rules held on first outing); the pilot's
+  own blind constant log2(128/65) wrong in the 4th decimal,
+  self-reported (miss 1).

@@ -5976,3 +5976,37 @@ complete node packages (statement + node.json + PASSING
 verify.py) in the pilot's own dir, for coordinator line-audit
 and wiring; MANIFEST + DISCREPANCY section. Bank each on report,
 same cadence.
+
+## ROUND 37 BANK 1/4 — r37_urand (2026-08-11, coordinator)
+
+**BANKED — STATEMENT U REFUTED; THE ROUND-36 PIN WITHDRAWN SAME
+DAY (fastest turnover on record); THE FAR-CA COUNT RE-PRICED TO
+r+1 + Theta(n/rho). The coset-leader frame: u = h_gamma + c in
+the [n,k] MDS code; codeword-mediated slopes cost EXACTLY rho
+conditions each (three independent derivations, spend- and
+f-independent, coordinator-verified); the adversary stacks them
+to the parameter cap (2(r+1)-1)/rho = 126 at razor (kernel dim
+EXACTLY 2 at j=126 — checked to the digit). CONSTRUCTION:
+engineered column-far razor-faithful pencils with T = (r+1)+j
+EXACTLY (mu_20 censuses j = 1,2,4,6,8 = cap, three fields; FULL
+C(26,10) census at mu_26: T = 17 = r+1+6, factor 45,000 over the
+moment) — on the razor's domain type, no automorphism needed,
+alive at rho = 3. NEW PRICE: constructive floor r+1+126 =
+1,082,331,758,719 MODULO R-GENERICITY (the honest gap, named);
+heuristic cap the same; IN BITS NOTHING MOVES (2^39.977280).
+FENCE-1 the surviving fence (unconditional, 297/297; = the banked
+minimum-distance spend instantiated at forced |W| = r+1 —
+cross-referenced, not re-derived). U-SYM CLOSED: the parity count
+is CEIL(rho/2) not floor (round-36 derivation corrected) — dies
+at rho = 3 (excess 0, 2x2x2); the T = 336 anomaly decomposed
+exactly (5+323+8). C(128,63) CHECK DONE: different objects (ratio
+exactly 128/65; two different 0.977s); cap does NOT transport,
+DEDUP does. Residual map: R-U retired; R-URATE (the rank
+question) + R-GENERICITY the new targets; warning to all counting
+lanes: T <= r+1 is unprovable at razor shape. Pilot
+self-catches: the blind log2(128/65) (4th decimal), the j-ladder
+gap (2x understatement of its own headline), A-5/R2j refuted.
+COMPLIANCE: 5/5 clean (streak rebuilds: 1); BOTH new rules held
+(append-mode files; no head pipes). Node: REFUTED + CHECK-DONE
+markers + addendum. Mint +5. Files:
+notes/pilots_20260811/r37_urand/.**
