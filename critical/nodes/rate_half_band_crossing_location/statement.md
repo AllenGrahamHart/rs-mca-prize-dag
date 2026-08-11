@@ -2674,3 +2674,31 @@ det M_0[x]=a P_C E_w Q(U,V;x).
 The linear factor may repeat an already supported slope and is not
 identified with the degree-one Picard correction. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin`.
+
+## Cycle 112: the completely supported cubic packets are first-jet transverse (2026-08-11, Codex)
+
+Fix a supported slope with recurrence loss `c`, specialized factorization
+`Q_gamma=Q_min R_gamma`, and no zero of the residual `E_w` factor. Exact
+regular-determinant order forces all `c` positive local Smith exponents to
+equal one. The derivative moment form therefore gives the perfect pairing
+
+```text
+B_gamma(A,B)=dot Phi(Q_min^2AB),
+deg A<=c-1,       deg B<=c,
+
+rank B_gamma=c,
+rad_right(B_gamma)=span{R_gamma}.
+```
+
+At rank loss one this is the explicit first-jet test
+
+```text
+dot Phi(Q_min^2(X-r_gamma))=0,
+dot Phi(Q_min^2)!=0.
+```
+
+The pairing holds at every supported slope in the three `w=0` packets. The
+first `w=1` packet has at most the single slope cut out by `E_1` as an
+exception. This turns the exact determinant factors into field-valued local
+constraints; it is not yet a packet exclusion. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing`.
