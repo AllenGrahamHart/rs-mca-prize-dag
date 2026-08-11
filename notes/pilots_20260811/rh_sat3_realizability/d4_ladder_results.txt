@@ -1,0 +1,67 @@
+=== D1: THE T-LADDER BY CONSTRUCTION (Kummer pencil, e=1) ===
+Q_Z(X) = X^rho + Z ; supported slopes = -(rho-th powers) ;
+locator sets = cosets of mu_rho, pairwise disjoint (d_x <= e = 1).
+
+  m=1 q=67: rho=3 N=16 R=8 k=8 r=3 A=3 e=1 s=0
+      T = 5  (e=1 ceiling floor(N/rho) = 5; rho+1 = 4; rho+2 = 5)
+      generic rank = 3 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 15 = T*rho - O = 15 ; N*e = 16
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 1 -> ON (SAT1) PROFILE
+      column-far: OK ; w* = 6 ; 2rho = 6 ; 7m-1 = 6
+  m=1 q=73: rho=3 N=16 R=8 k=8 r=3 A=3 e=1 s=0
+      T = 5  (e=1 ceiling floor(N/rho) = 5; rho+1 = 4; rho+2 = 5)
+      generic rank = 3 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 15 = T*rho - O = 15 ; N*e = 16
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 1 -> ON (SAT1) PROFILE
+      column-far: OK ; w* = 6 ; 2rho = 6 ; 7m-1 = 6
+
+  m=2 q=197: rho=7 N=32 R=16 k=16 r=7 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 8; rho+2 = 9)
+      generic rank = 7 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 28 = T*rho - O = 28 ; N*e = 32
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 36 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 14 ; 2rho = 14 ; 7m-1 = 13
+  m=2 q=211: rho=7 N=32 R=16 k=16 r=7 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 8; rho+2 = 9)
+      generic rank = 7 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 28 = T*rho - O = 28 ; N*e = 32
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 36 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 14 ; 2rho = 14 ; 7m-1 = 13
+
+  m=3 q=199: rho=11 N=48 R=24 k=24 r=11 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 12; rho+2 = 13)
+      generic rank = 11 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 44 = T*rho - O = 44 ; N*e = 48
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 100 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 22 ; 2rho = 22 ; 7m-1 = 20
+  m=3 q=331: rho=11 N=48 R=24 k=24 r=11 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 12; rho+2 = 13)
+      generic rank = 11 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 44 = T*rho - O = 44 ; N*e = 48
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 100 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 22 ; 2rho = 22 ; 7m-1 = 20
+
+  m=4 q=271: rho=15 N=64 R=32 k=32 r=15 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 16; rho+2 = 17)
+      generic rank = 15 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 60 = T*rho - O = 60 ; N*e = 64
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 196 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 30 ; 2rho = 30 ; 7m-1 = 27
+  m=4 q=331: rho=15 N=64 R=32 k=32 r=15 A=3 e=1 s=0
+      T = 4  (e=1 ceiling floor(N/rho) = 4; rho+1 = 16; rho+2 = 17)
+      generic rank = 15 (= rho) ; O = 0 ; max d_x = 1 (<= e = 1)
+      sum_x d_x = 60 = T*rho - O = 60 ; N*e = 64
+      (SAT4) at e=m would need sum_x (m-d_x) = 1+O = 1; here sum_x (m-d_x) = 196 -> OFF (SAT1) PROFILE (e=1 != m)
+      column-far: OK ; w* = 30 ; 2rho = 30 ; 7m-1 = 27
+
+=== LADDER SUMMARY ===
+  m   rho     N  rho+2  e=1 ceiling    T measured (two fields)
+  1     3    16      5            5                     [5, 5]
+  2     7    32      9            4                     [4, 4]
+  3    11    48     13            4                     [4, 4]
+  4    15    64     17            4                     [4, 4]
+
+READING: the e=1 family attains its own ceiling floor(N/rho) at
+every m, and that ceiling equals rho+2 ONLY at m=1.  For m>=2 the
+ladder stalls at T=4 while rho+2 = 9,13,17 -- so NO e=1 object can
+reach (SAT3) for m>=2, and (SAT1)'s e=m is not decoration.

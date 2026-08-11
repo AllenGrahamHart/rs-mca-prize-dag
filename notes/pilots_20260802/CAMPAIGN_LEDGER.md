@@ -5321,3 +5321,24 @@ power — construction or nothing. COMPLIANCE: two more bare-python3
 patching breaches (second pilot this round) — censured; round-34
 law text gets the explicit clause. Files:
 notes/pilots_20260811/rh_bivariate_system/.**
+
+## ROUND 33 BANK 3/4 — rh_sat3_realizability (2026-08-11, coordinator)
+
+**BANKED — ROUTE DECIDED: (SAT3) IS REALIZABLE (m=1, exhaustive,
+six fields; all of (SAT1)-(SAT5) exact; the pencils genuinely
+column-far Hankel at generic rank rho). THE VACUITY BRANCH IS DEAD
+— the conditional stack does not close for free. THE COUNTING STACK
+IS TIGHT: (AO1)/(MI2)/(ERC2)/(ERC4) all attained WITH EQUALITY on
+one witness — the 9/4 is a ceiling, not slack. CATCH-24C settled:
+same T in both lanes (PROVED, (HS3)) but LB1 does NOT transfer
+(corank-0; petal d_x = r violates d_x <= e) — the strict-row
+r+1 = rho+1 was a numerical coincidence. REGRESSION-TEST PRINCIPLE
+BANKED: every strict-target proof must fail at m=1 (the witness is
+the test; (NEWCAP) passes it). TCAP-DIM posed (realizable iff
+m <= 2; excess sign flips at m=3) with its blind spot and the
+structured-family escape both named. THE DECISIVE NEXT EXPERIMENT:
+settle m=2 (reduced to 40 params vs 39 rank conditions — G2).
+F1's premise live for the first time; m=1 degenerate for it. The
+only fully law-clean pilot of the round (5/5 ramguard, no bare
+python3); replays IDENTICAL. Files:
+notes/pilots_20260811/rh_sat3_realizability/.**
