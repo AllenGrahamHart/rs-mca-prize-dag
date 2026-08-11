@@ -2215,3 +2215,39 @@ O_C(rho+3,-e-1)=O_C(A+B-R_0), h^0=0.
 This is a complete normal-form and section classification; it does not yet
 exclude any packet. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms`.
+
+## Cycle 97: the squarefree gap-one cubic has one corrected row (2026-08-11, Codex)
+
+For the squarefree cubic branch at `u=1`, put
+
+```text
+q_i=c_i+epsilon_i-t_i
+```
+
+on its three simple heavy root rows. The exact outside-degree audit leaves
+only the global charge regimes
+
+```text
+(I_0,w,sum epsilon_i)=(0,1,0),(0,0,1),(1,0,0).
+```
+
+Every `q_i` is a nonnegative multiple of three, while exact omission gives
+
+```text
+q_1+q_2+q_3=3.
+```
+
+Thus exactly one row has `q_i=3`. Its unaugmented, augmented-new, and
+augmented-overlap vertical/contact divisors are respectively forced to the
+forms
+
+```text
+(R+N+3P, R+P),
+(R+N-J+3P, R+P),
+(R+N+2J, R+J).
+```
+
+The complete contact divisor is `R_1+R_2+R_3+P_h+I_0R_0`. Unlike the
+double-root branch, the induced Picard class has degree `e+1`; bounded-degree
+section vanishing is therefore not a closing route. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms`.

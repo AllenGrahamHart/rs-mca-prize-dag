@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms",
+    "title": "A=1 core-free cubic squarefree gap-one correction normal forms",
+    "status": "PROVED",
+    "closure": "unique corrected row and exact vertical/contact normal forms",
+    "statement": "In the core-free squarefree cubic branch at u=1, the global excess ledger has exactly three regimes and the three row corrections are nonnegative multiples of three summing to three. Hence exactly one residual-root row is corrected. Its augmented-new, augmented-overlap, and unaugmented vertical/contact divisors are explicit. The complete contact divisor and the degree-(e+1) Picard class are thereby fixed.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_free_forney_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
