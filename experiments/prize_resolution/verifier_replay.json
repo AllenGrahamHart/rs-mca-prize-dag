@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify.py",
-      "seconds": 0.050419,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify.py",
+      "seconds": 0.015264,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_DIRECT_THREE_CONTACT_EXCLUSION_PASS checked=330998 official_first=183251937963\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_AMBIENT_DEFECT_PASS profiles=6 e=183251937963\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_direct_three_contact_exclusion/verify_audit.py",
-      "seconds": 0.013068,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization/verify_audit.py",
+      "seconds": 0.013387,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_DIRECT_THREE_CONTACT_EXCLUSION_AUDIT_PASS first=183251937963 profiles=6\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_AMBIENT_DEFECT_AUDIT_PASS cases=4 e=183251937963\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify.py",
+      "seconds": 0.013944,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_BOUNDED_RESIDUAL_PASS e=183251937963 table={0: (5, 12, 18), 1: (2, 9, 15)}\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify_audit.py",
+      "seconds": 0.013335,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIRST_DEGREE_BOUNDED_RESIDUAL_AUDIT_PASS core0=(5, 12, 18) core1=(2, 9, 15)\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

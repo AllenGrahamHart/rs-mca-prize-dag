@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_bounded_residual_table",
+    "title": "A=1 first-degree bounded residual table",
+    "status": "PROVED",
+    "closure": "exact capacity-to-heavy-factor arithmetic",
+    "statement": "At e=ceil((rho-1)/3), exact capacity forces the common split heavy-row factor of each ambient lift A_j to consume all but bounded domain degree. After removing it, the residual bidegrees for (s,j)=(0,0),(0,1),(0,2),(1,0),(1,1),(1,2) are at most (5,0),(12,1),(18,2),(2,0),(9,1),(15,2). Every remaining row-defect factor has degree at most j and divides the corresponding residual specialization.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_bounded_residual_table/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

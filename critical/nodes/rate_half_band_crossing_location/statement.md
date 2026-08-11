@@ -1808,3 +1808,41 @@ T=rho+4,rho+3,rho+2.
 The proved nodes are `rate_half_ca_hankel_a1_forney_pole_ideal_absorption`
 and `rate_half_ca_hankel_a1_direct_three_contact_exclusion`. They retire the
 earlier cubic-residual corner at `e=floor(16m/13)` as a live target.
+
+## Cycle 82: six bounded first-degree residuals (2026-08-11, Codex)
+
+At the six boundary profiles, put
+
+```text
+j=ell-e+3-beta in {0,1,2}.
+```
+
+The direct three-contact section lies in `O_C(d-3,j)`. Since
+
+```text
+H^0(O(-3,j-e))=H^1(O(-3,j-e))=0,
+```
+
+it extends uniquely to a nonzero ambient biform `A_j` of bidegree
+`(d-3,j)`. At every residual domain row `x`, the full missing-root factor
+
+```text
+R_x=Qbar(x)/gcd(Qbar(x),H),       deg R_x=e-d_x,
+```
+
+divides `A_j(x)`. Thus every row with deficit greater than `j` is a common
+split `X`-factor of all coefficients of `A_j`.
+
+Removing the product of these heavy rows and applying the exact capacity
+ledger leaves only
+
+```text
+s=0: (5,0), (12,1), (18,2);
+s=1: (2,0), (9,1), (15,2).
+```
+
+The proved nodes are
+`rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization` and
+`rate_half_ca_hankel_a1_first_degree_bounded_residual_table`. The next proof
+should classify these six small residual biforms, starting with the two
+parameter-constant cases.
