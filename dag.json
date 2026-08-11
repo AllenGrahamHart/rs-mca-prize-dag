@@ -29043,6 +29043,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_resultant_cube_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -31093,6 +31094,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
+   "title": "A=1 first-degree double-root marked Hankel determinant gate",
+   "status": "PROVED",
+   "closure": "primitive-kernel cofactors expose explicit marked Hankel determinant factors",
+   "statement": "For the retained core-free cubic packets, bordering the rectangular residual Hankel pencil by a monomial evaluation row gives D_0 Q(x), so the complete low-degree resultant is an exact product of marked Hankel determinants. For the core-one u=4 quadratic double root, a rank-one update of the symmetric middle Hankel pencil has determinant tau D_1 Q(x_*)^2=tau c^2 D_1 g_*^2 S_B^6. In characteristic three the quotient Q(x_*)/g_* has zero derivative.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate/verify_audit.py"
    ]
   },
   {
@@ -64337,6 +64356,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_core_one_quartic_carrier_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -64653,6 +64677,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
@@ -65034,6 +65068,11 @@
   {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_first_degree_core_free_two_packet_bounded_divisor_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+   "to": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
    "kind": "req"
   },
   {

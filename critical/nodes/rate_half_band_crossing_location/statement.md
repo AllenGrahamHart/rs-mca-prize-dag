@@ -2409,3 +2409,42 @@ The three residual forms are the parameter pushforwards of `A`, `A+B`, and
 Any different supported multiplicity or residual degree kills the packet.
 The proved node is
 `rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization`.
+
+## Cycle 103: the double-root gates are explicit marked Hankel determinants (2026-08-11, Codex)
+
+The low-degree resultant factors now have an exact interface with the
+actual syndrome Hankel pencils. In the core-free branch, let `M_0` be the
+`rho x (rho+1)` residual Hankel pencil and let `nu(x)` be the coefficient
+evaluation row. There is a nonzero regular-block factor `D_0` of degree
+`2e-1` such that
+
+```text
+det stack(M_0,nu(x))=D_0 Q(U,V;x).
+```
+
+Thus the complete cubic resultant is the product of these marked
+determinants over the light rows, with multiplicities two and one at the
+simple and double residual-root rows, divided by the corresponding power
+of `D_0`.
+
+In the core-one quadratic branch, the symmetric middle Hankel pencil
+satisfies `adj M_1=D_1qq^T`, with `deg D_1=e-2`. Hence
+
+```text
+det(M_1+tau nu(x)nu(x)^T)=tau D_1Q(U,V;x)^2.
+```
+
+At the `u=4` double heavy root `x_*`, the classified vertical divisor gives
+
+```text
+Q(U,V;x_*)=c g_*S_B^3,
+det(M_1+tau nu(x_*)nu(x_*)^T)
+ =tau c^2D_1g_*^2S_B^6,
+```
+
+where `g_*` is the squarefree degree-`e-6` supported factor and `S_B` is
+quadratic. In characteristic three, `Q(z;x_*)/g_*(z)` has zero derivative.
+This is a concrete determinant gate, not yet an exclusion: any use of its
+Vandermonde/source expansion must retain signs and possible cancellation.
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate`.
