@@ -3214,3 +3214,49 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   RNC node's own named gate (the multiplicative-domain structure of
   D = mu_N — untouched by the cardinality-only count; survivors are
   few: 1 profile at m = 2,3,4); (2) decide Rout. No status flips.
+
+## Cycle 146 addendum: the live paired biform has an off-line norm factorization
+
+The Round-34 `Rout` prompt above belongs to the strict `A=3`, `e=m`
+endpoint, which Cycles 71--74 already close in this worktree. The surviving
+`A=1` macroscopic pair boundaries instead carry the following exact norm.
+
+For the extremal `(e-2,p-3)` split biform, multiply `G(delta,X)` over all
+`3e` off-line supported slopes. Every classified row is a zero of exactly
+`e-2` factors, so
+
+```text
+product_delta G(delta,X)=L_M(X)^(e-2) S_G(X),
+deg S_G<=3e-9     (d_A=0),
+deg S_G<=2e-7     (d_A=1).
+```
+
+Every selected padded-heavy root lies in `S_G`; at `d_A=1` these are
+exactly the selected roots outside the classified row set. The strict
+`(e-1,p-2)` carrier has the same row-power factorization with residual cap
+
+```text
+[3e^2-4e-7-2r_A(e-1)]/2.
+```
+
+In the extremal profile the residual degree is below the classified-row
+count. Its value at a classified row is the product of every incident
+`X`-derivative and every nonincident fiber value, divided by
+`L_M'(x)^(e-2)`. These values uniquely reconstruct `S_G` by Lagrange
+interpolation.
+
+The residual degree is exact after fiber degree drops are charged:
+
+```text
+deg S_G=cap-sum_delta((p-3)-deg_X G(delta,X)).
+```
+
+The cap equals the complete sum of triple-union excess, padded-heavy degree,
+and the possible exceptional-row incidences. Those incidence quantities
+therefore cannot overfill the norm on their own.
+
+The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_offline_norm_factorization`.
+The next useful obstruction must evaluate those tangent products from the
+retained Hankel/source equations or force a factor outside the exact slack
+identity.
