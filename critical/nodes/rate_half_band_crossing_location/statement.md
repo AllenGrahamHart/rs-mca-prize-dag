@@ -3260,3 +3260,43 @@ The proved node is
 The next useful obstruction must evaluate those tangent products from the
 retained Hankel/source equations or force a factor outside the exact slack
 identity.
+
+## Cycle 147 addendum: selected support roots are transverse, not tangent
+
+The nonincidence Forney constant cannot be substituted at an actual-support
+root. Writing the line-source value correctly as the minimum-word summand
+plus the nonzero actual error gives, at every selected zero-excess support
+root,
+
+```text
+G_t/Q_t-G_X/Q_X
+ =(x-s_0)v_x L_U0'(x)e_delta(x)/Lambda(delta) !=0.
+```
+
+Thus the contracted locator and split-biform curves meet transversely at
+all selected actual-support roots. A common component can meet a selected
+fiber only through its padded-heavy roots. If its bidegree is `(a,b)`,
+
+```text
+(|Z_0|-b)a<=sum_(delta in Z_0)r_delta.
+```
+
+For the extremal carrier this forces `a=0`, and the classified row-root
+dictionary excludes a nonconstant parameter-only factor. Hence `Q` and
+`G` are coprime. For the first strict carrier, every nonconstant common
+factor is forced into the single residual profile
+
+```text
+a=1,       b>=(e+15)/2+r_A,       r_A<=(e-17)/2,
+```
+
+with its selected-fiber roots all padded rather than actual support. The
+putative linear factor would contribute at least
+`b(2p+r_A-1)` classified row-slope pairs, while each of the `3e+1`
+off-line slopes contributes at most one. This contradicts the displayed
+lower bound on `b`, so the strict curves are coprime as well. The
+proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_zero_excess_first_jet_transversality`.
+The next route is the coprime resultant/intersection ledger; the tangent-
+product route must retain transversality rather than seek ramification at
+the selected incidences.
