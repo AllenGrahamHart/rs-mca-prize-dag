@@ -1,0 +1,36 @@
+==============================================================================
+D2(b) -- WAVE-57 INCIDENCE FENCE: BIVARIATE REALIZABILITY SYSTEM
+==============================================================================
+
+[A] m = 64 : rebuild the node's own system and W (my code; banked-number replay)
+    q_0 = 257, m = 64, generator = 3, |D| = 1024 = 16m : True
+    W sha256 matches node                : True
+    T = 257 = rho+2 = 257 ; all |S| = rho = 255 : True
+    sum_x (m - d_x) = 1  (=1+O)          : True
+    |W| = 447 = 7m-1 = 447                 : True
+    max_g |S_g ^ W| = 189 = 3m-3 = 189      : True
+    min_g |S_g \ W| = 66 = m+2 = 66       : True
+    unsaturated domain point (0,1) has d = 63 ; is it inside W? True
+    T_1 (slopes with S_g inside W)       : 0   [max X = 189 < rho = 255]
+    incidences inside W: sum_x d_x|_W = 28607 ;  sum_g X_g = 28607
+
+[B] m = 64 : rank of the bivariate system at RANDOM embeddings
+    unknowns 2a = 894 (+1 per unsaturated W-point) ; equations (m+2)(4m+1) = 16962
+    q=12289  trial 0 : unknowns 895, rank 895, NULLITY 0   (rows consumed 895 of 16962)
+    q=12289  trial 1 : unknowns 895, rank 895, NULLITY 0   (rows consumed 895 of 16962)
+    q=13313  trial 0 : unknowns 895, rank 895, NULLITY 0   (rows consumed 895 of 16962)
+    q=13313  trial 1 : unknowns 895, rank 895, NULLITY 0   (rows consumed 895 of 16962)
+
+[C] the SAME construction scaled: q_0 = 4m+1 prime, m = 3 (q_0=13), m = 4 (q_0=17)
+
+    q_0=13 m=3 N=48 rho=11 T=13 a=20 : blocks size ok True, deficit 1, min pair union 20 (a=20)
+    searched W: |W|=20, min spend 5 (>= m+2 = 5), max X = 6 (cap 3m-3 = 6)
+    q=97    unknowns 41, equations 65 : nullity histogram over 20 embeddings {0: 20}
+    q=193   unknowns 41, equations 65 : nullity histogram over 20 embeddings {0: 20}
+
+    q_0=17 m=4 N=64 rho=15 T=17 a=27 : blocks size ok True, deficit 1, min pair union 27 (a=27)
+    searched W: |W|=27, min spend 6 (>= m+2 = 6), max X = 9 (cap 3m-3 = 9)
+    q=193   unknowns 54, equations 102 : nullity histogram over 20 embeddings {0: 20}
+    q=257   unknowns 54, equations 102 : nullity histogram over 20 embeddings {0: 20}
+
+==============================================================================

@@ -5300,3 +5300,24 @@ outputs reproducible); round-34 prompts get the explicit
 file-patching clause. The R2.7 pre-registered guard stopped a third
 firing of the round-32 MISS-2 trap — the guard pattern is proven
 practice.** Files: notes/pilots_20260811/rh_psi_degree/.
+
+## ROUND 33 BANK 2/4 — rh_bivariate_system (2026-08-11, coordinator)
+
+**BANKED — NOT KILLED, WITH A WITNESS: the bivariate realizability
+system does not exclude the failure configuration (explicit m=2
+exhibit at T = rho+2, a = 7m-1, all incidence axioms + the system
+satisfied, two fields; replayed). Real content = (BIV-CURVE)
+(type-2 classes are fibres of a degree-(3m-3) dimension-m linear
+series; verbatim the xr lane's pencil predicate at m=2 — transport
+candidate); per-slope content = banked (C2), weaker than
+FR-canonical; honest deficit 4m^2-7m+2 (the O(m) premise
+corrected). THE K_7-STAR is consistent iff Mobius AND requires the
+unsaturated exception (the saturation-scope caveat load-bearing).
+LAYER A (full-domain Q(Z,x), deficit 12m^2-4m, ~3x) KILLS the
+pilot's own exhibit — and is the sibling (NS-m)/psi lane: BANKS 1+2
+CONVERGE on the full-domain object as THE type-2 instrument.
+Lesson banked: random-embedding censuses have q^{-Theta(m^2)}
+power — construction or nothing. COMPLIANCE: two more bare-python3
+patching breaches (second pilot this round) — censured; round-34
+law text gets the explicit clause. Files:
+notes/pilots_20260811/rh_bivariate_system/.**
