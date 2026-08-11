@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify.py",
-      "seconds": 0.301603,
+      "script": "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify.py",
+      "seconds": 0.043671,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIXED_CORE_POLE_SLACK_EXCLUSION_PASS profiles=4240982 s2_profiles=417766 official_m=137438953472 s2_survivors=0\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FOUR_CONTACT_LOW_DEGREE_EXCLUSION_PASS profiles=142471 official_s0_first=149933403787 official_s1_first=164926744166\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify_audit.py",
-      "seconds": 0.014334,
+      "script": "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify_audit.py",
+      "seconds": 0.013556,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FIXED_CORE_POLE_SLACK_EXCLUSION_AUDIT_PASS checks=99 beta_mutation=detected\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_FOUR_CONTACT_LOW_DEGREE_EXCLUSION_AUDIT_PASS mutations=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

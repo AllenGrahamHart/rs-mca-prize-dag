@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile and every A=1 fixed-core-two profile are excluded. On A=1 core-free profiles, contact-and-pole interpolation excludes floor(p/(alpha+1))+ell+3<e; at e=m+1 survivors have ell in {0,1,2} and pole deficiency at most 5,8,11. On fixed-core one, e=m+1 is excluded and every higher survivor has p>=3(e-ell-2). These s=0 and higher s=1 profiles remain open. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
-   "attack_surface": "Prioritize higher A=1 fixed-core-one profiles under p>=3(e-ell-2), and the core-free first-degree chambers with ell=0,1,2 and pole deficiency at most 5,8,11; then higher core-free profiles failing the pole inequality. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, A=1 fixed-core two, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile and every A=1 fixed-core-two profile are excluded. Four-contact pole interpolation also excludes the A=1 core-free prefix m+1<=e<floor(12m/11) and core-one prefix m+1<=e<floor(6m/5). The remaining A=1 ranges begin at the exact official degrees 149933403787 and 164926744166; their survivors obey the three-contact pole lower bounds. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
+   "attack_surface": "Prioritize A=1 core-free degrees e>=floor(12m/11) and core-one degrees e>=floor(6m/5), retaining the exact three- and four-contact pole inequalities; core two is closed. Seek a higher-contact replacement only with a proved cohomology gain, not by formal iteration. In parallel, seek a theorem forcing two-fibre mass at least 25m/4 or a collective inequality for realizable shortened-apolar families. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 geometry, the excluded A=1 prefixes, the refuted wide-radius single-generator extension, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -29015,6 +29015,7 @@
     "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_core_stripped_forney_contact_section/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
     "notes/pilots_20260810/rh_overlap_cap/REPORT.md",
@@ -30632,6 +30633,24 @@
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
+   "title": "A=1 four-contact low-degree exclusion",
+   "status": "PROVED",
+   "closure": "degree-three pole interpolation and four-contact vanishing",
+   "statement": "If 3(e+1)<rho+1, four core-stripped contact sections and a pole-clearing form of bidegree (3,floor(p/4)) exclude every A=1 profile with floor(p/4)+ell+4-beta<e. On the official row this excludes core-free degrees through floor(12m/11)-1 and core-one degrees through floor(6m/5)-1, including all formerly surviving core-free e=m+1 chambers.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_four_contact_low_degree_exclusion/verify_audit.py"
    ]
   },
   {
@@ -63751,7 +63770,17 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section",
+   "to": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
@@ -64028,6 +64057,11 @@
   {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_fixed_core_pole_slack_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+   "to": "rate_half_ca_hankel_a1_four_contact_low_degree_exclusion",
    "kind": "req"
   },
   {

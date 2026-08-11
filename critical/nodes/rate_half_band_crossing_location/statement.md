@@ -1649,3 +1649,28 @@ nodes are `rate_half_ca_hankel_a1_core_stripped_forney_contact_section` and
 
 The complete `A=1` core-two branch is closed. The remaining `A=1` frontier
 is core-free `s=0` plus higher fixed-core-one `s=1` profiles.
+
+## Cycle 77: `A=1` low-degree prefix exclusions (2026-08-11, Codex)
+
+Using four rather than three contact copies makes the target domain degree
+negative and permits a degree-three pole interpolant. When
+`3(e+1)<rho+1`, a profile is impossible if
+
+```text
+floor(p/4)+ell+4-beta<e.
+```
+
+At the official `m=2^37`, this excludes
+
+```text
+s=0: m+1<=e<=floor(12m/11)-1,
+s=1: m+1<=e<=floor(6m/5)-1.
+```
+
+The first unexcluded degrees are `149933403787` and `164926744166`.
+In particular, the three finite pole-deficiency chambers formerly retained
+at core-free degree `e=m+1` are all empty. The proved node is
+`rate_half_ca_hankel_a1_four_contact_low_degree_exclusion`.
+
+The live `A=1` frontier consists of the upper core-free and core-one degree
+ranges starting at these two exact thresholds; core two remains closed.
