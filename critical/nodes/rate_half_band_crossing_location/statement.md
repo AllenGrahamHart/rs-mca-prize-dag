@@ -2091,3 +2091,24 @@ ideal and miss the constant line. Thus all three packets
 have the CANONICAL pushforward splitting and exactly one section. The
 proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets`.
+
+## Cycle 92: exact normal forms for all signed tangent packets (2026-08-11, Codex)
+
+The excess-degree and omission identities are exact in all three packets
+with `I_0>0`. They force every ordinary incidence to have one minimal and
+two excess copies, horizontal multiplicity three, and contact multiplicity
+one. The sole spare rank-loss copy in `(2,0,1,5)` is forced onto one
+distinguished incidence.
+
+The vertical cube ledger then gives effective divisors `A,B` of bounded
+degree and the exact signed classes
+
+```text
+(1,1,1,4): O_C(rho+2,-e-1)=O_C(A+2B-R_0), deg A=deg B=1;
+(2,0,1,5): O_C(rho+2,-e-1)=O_C(A+2B-R_0), deg A=deg B=1;
+(2,0,2,6): O_C(rho+2,-e-1)=O_C(2B-R_0),   deg B=2.
+```
+
+No rank-loss or contact degree remains unallocated. The classes are still
+signed and are not asserted effective. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms`.

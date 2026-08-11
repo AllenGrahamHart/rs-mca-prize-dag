@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms",
+    "title": "A=1 core-one signed-packet exact local normal forms",
+    "status": "PROVED",
+    "closure": "exact excess-root, vertical-fibre, and contact-divisor ledger",
+    "statement": "The three core-one degree-one packets with ordinary heavy incidences have exact bounded local forms. For (u,v,I_0,c)=(1,1,1,4) and (2,0,1,5), the signed degree-two class is A+2B-R_0 with A and B effective of degree one; for (2,0,2,6), it is 2B-R_0 with B effective of degree two. The complete vertical and contact divisors are printed, every ordinary incidence has exact contact multiplicity one, and no rank-loss or contact degree remains unallocated.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_six_packet_bounded_divisor_normal_form"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
