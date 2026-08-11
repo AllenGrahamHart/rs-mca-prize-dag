@@ -1,0 +1,45 @@
+# d4_results — corrected ledgers
+
+## A. B-side first moment for (SAT3)-on-(L2) at m=2, domain mu_32
+   log2 E(T) = 18*log2 q + log2 C(q+1,T) + T*[log2 C(32,7) - 7*log2 q]
+   18 = the (L2) good component dimension (anchor 1, re-derived here);
+   anchor 2 used (m+1)(rho+1)-4 = 20, so the gap is exactly 2*log2 q.
+   log2 C(32,7) = log2 3365856 = 21.6825
+q=97   log2 q=6.5999  per-member term=-24.517
+      T=1:+100.9  T=2:+82.0  T=3:+62.5  T=4:+42.5  T=5:+22.2  T=6:+1.7  T=7:-19.1  T=8:-40.1  T=9:-61.3
+      first T with log2 E < 0: 7 ; log2 E(T=9) = -61.34 ; anchor-2 value = -48.14
+q=193  log2 q=7.5925  per-member term=-31.465
+      T=1:+112.8  T=2:+87.9  T=3:+62.5  T=4:+36.6  T=5:+10.4  T=6:-16.1  T=7:-42.8  T=8:-69.8  T=9:-96.9
+      first T with log2 E < 0: 6 ; log2 E(T=9) = -96.86 ; anchor-2 value = -81.67
+q=257  log2 q=8.0056  per-member term=-34.357
+      T=1:+117.8  T=2:+90.4  T=3:+62.5  T=4:+34.1  T=5:+5.4  T=6:-23.5  T=7:-52.7  T=8:-82.1  T=9:-111.7
+      first T with log2 E < 0: 6 ; log2 E(T=9) = -111.68 ; anchor-2 value = -95.67
+q=641  log2 q=9.3242  per-member term=-43.587
+      T=1:+133.6  T=2:+98.3  T=3:+62.5  T=4:+26.2  T=5:-10.4  T=6:-47.3  T=7:-84.3  T=8:-121.6  T=9:-159.1
+      first T with log2 E < 0: 5 ; log2 E(T=9) = -159.06 ; anchor-2 value = -140.41
+q=769  log2 q=9.5868  per-member term=-45.425
+      T=1:+136.7  T=2:+99.9  T=3:+62.5  T=4:+24.6  T=5:-13.5  T=6:-52.0  T=7:-90.6  T=8:-129.5  T=9:-168.5
+      first T with log2 E < 0: 5 ; log2 E(T=9) = -168.50 ; anchor-2 value = -149.33
+
+## B. (SAT3) realizability excess, corrected for the mandatory e=m
+   banked (rh_sat3_realizability/REPORT.md:193-198):
+     params(m) = [4m(m+1)-1] + (4m+1) + 16m = 4m^2+24m
+     conds(m)  = T*rho - O = 16m^2-1-O ;  excess = conds-params = 12m^2-24m-1-O
+   (ERC2) (PROVED, exceptional_root_charge/statement.md:73) closes 1<=e<=m-1,
+   so (SAT3) forces e=m, i.e. the curve must lie on the (L2) good component,
+   whose dimension is 18 at m=2 (NOT the ambient 4m(m+1)-1 = 23).
+  m=1: ambient curve dim=7  params=28  conds(O=0)=15  banked excess=-13
+  m=2: ambient curve dim=23  params=64  conds(O=0)=63  banked excess=-1
+  m=3: ambient curve dim=47  params=108  conds(O=0)=143  banked excess=+35
+  m=4: ambient curve dim=79  params=160  conds(O=0)=255  banked excess=+95
+  m=2 CORRECTED: ambient 23 -> (L2) good component 18 (codim 5, anchor 1 +
+     this round, two fields), so params 64 -> 59 and
+     excess = 63 - O - 59 = +4 - O, i.e. +4 at O=0 and +3 at O=1 (SAT2: O<=m-1=1).
+     The banked ledger's ONLY negative cell at m>=2 flips sign.
+
+## C. the packing ceiling arithmetic (banked (SAT4); re-derived)
+  m=1: T*rho = 15 ; m*N = 16 ; slack = 1  (SAT4: sum_x(m-d_x)=1+O)
+  m=2: T*rho = 63 ; m*N = 64 ; slack = 1  (SAT4: sum_x(m-d_x)=1+O)
+  m=3: T*rho = 143 ; m*N = 144 ; slack = 1  (SAT4: sum_x(m-d_x)=1+O)
+  so at every m the packing is tight to exactly ONE free slot: 16m^2-(16m^2-1)=1.
+

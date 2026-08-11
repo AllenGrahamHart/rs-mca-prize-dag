@@ -3102,7 +3102,12 @@ round-34 (BIV-CURVE) addendum below; m = 4 remains open.]
 **BANK 4 (rh_moving_kernel) — R-MOVING WITHDRAWN (see the FALSE
 marker above).** What replaces it: the STACKED RANK h_r
 (rho <= h_r <= 2rho; dim K_0 = r+1-h_r; moving increment
-h_r - rho <= rho); the correct sufficient condition for a fixed
+h_r - rho <= rho) [ANNOTATED (round 36): h_r = rho + deg(e_1/e_0)
+on the forced common support when that ratio is a polynomial of
+degree <= rho, and 2rho otherwise (210/210, 5 shapes, 5 fields);
+h_r is INDEPENDENT of the support size and prices only the fibre
+floor's decay rate ceil((r+1)/d), not the floor's existence —
+see the round-36 R-HRLOW addendum]; the correct sufficient condition for a fixed
 generator (p* + p_gen <= R — fails generically by 7/6); **the FG
 stratum** (fixed squarefree generator P, rho < p <= 2rho) with a
 genuinely new normal form — the pencil collapses to a rho x p
@@ -3132,6 +3137,12 @@ transfer — at razor-faithful shape (a > R+1, a-1 > r)
 p*(LB1) = max(rho+1, floor((R+2)/2)) = floor(R/2)+1, 5/5 shapes;
 see the round-35 R-FG-RAZOR addendum]; the round-33 "on FG measured
 T = q" narrowed — the saturation tracks mu_1 = C(n,r)/q^rho, not FG
+[NARROWING CORRECTED AGAIN (round 36): TOO GENEROUS — there is a
+mu_1-FREE, field-size-independent excess on negation-closed D
+(T = 95 vs r+1 = 9 at mu_1 = 1.26e-7, column-far razor-faithful;
+mechanism = orbit-invariant even locators, count C(m-1,r/2-1)
+exact; requires ceil(rho/M) = 1, dead at rho = 2^34 by 2^33-1
+conditions — see the round-36 R-HRLOW addendum)]
 membership (T <= r+1 survives at 2 of 4 cells; the three universal
 bounds stay dead); q_crit ~ 2^64: below it the column-far locus is
 measure-zero and every random model in this lane is void
@@ -4323,3 +4334,163 @@ exactly as subtracted).
   2m is constructed-lower-bound + measured-equality (ten cells);
   no (SAT2)-satisfying configuration at m >= 2 was built or
   sought; everything hypothesis-class conditional.
+
+## Round-36 (SAT3)-on-(L2) addendum (2026-08-11, coordinator-audited): T >= 1 achieved — the layer is non-vacuous; the (L2) stratum is rationally parametrized; the realizability ledger's m=2 cell flips
+
+Pilot r36_sat3_on_l2 (round 36, bank 2). COORDINATOR HAND-CHECKS
+(all pass): the elimination Q_2(f^2-kg) = Q_0(g^2+hf) from
+E1*f + E2*g; both converse substitutions vanish IDENTICALLY; the
+determinantal identity det([[f,k],[g,f]] + z[[g,f],[-h,g]]) =
+(f^2-kg) + z(fg+hk) + z^2(g^2+hf) = L*Q_z expanded by hand; the
+third ell-condition's implication (and its f(ell)=g(ell)=0
+exception); the dimension 20+1-2-1 = 18; the +4-O arithmetic.
+
+- **(PAR), THE PARAMETRIZATION OF RECORD:** L*Q_0 = f^2-kg,
+  L*Q_1 = fg+hk, L*Q_2 = g^2+hf (deg f,g,h,k <= 4, L linear with
+  root ell), subject to exactly TWO conditions at ell — a
+  birational parametrization of the whole e=m=2 (L2) stratum, hit
+  rate 1 (vs 1/q for the round-35 inversion, q^5 over blind);
+  266,239 + 167,421 objects built in 95 s/field. Membership is a
+  GCD: **(RES): det M(B) = 0 iff gcd(f^2-kg, fg+hk, g^2+hf) != 1**
+  (1200/1200, two fields). Dimension 18 re-derived independently
+  (= the round-35 measurement). m=2-SPECIFIC (the elimination
+  uses deg(f^2-kg) <= deg Q_0 + 1).
+- **(SAT3)-ON-(L2) IS NON-VACUOUS: T = 2 OVER mu_32** on
+  certified e=m=2 objects (full certification table both fields;
+  Möbius-normalised so both supported slopes are FINITE {0,1} and
+  re-certified), by EXACT solve: prescribing Q_0 split is a
+  square root mod g; prescribing Q_2 too is one proportionality
+  in F_q[x]/(f), solved exhaustively over all C(32,7) subsets by
+  meet-in-the-middle. T = 3 over a bespoke 32-set (126 instances,
+  two fields; ZERO power for (SAT3) — the domain relaxation is
+  never merged with the mu_32 column). CLASS SCOPING (the pilot's
+  own first miss): banked T = 4 records are e = 1 — a class
+  (ERC2) closes — so this is the first T >= 1 ever on e = m
+  objects, the only class (SAT3) can inhabit. Round 34's
+  designed-domain instrument now has input.
+- **THE REALIZABILITY LEDGER'S m=2 CELL FLIPS (forced
+  correction, second independent):** (ERC2) (PROVED) forces
+  e = m for (SAT3), so the curve must lie on the 18-dim (L2)
+  component, not the ambient 23-dim space the round-33 ledger
+  used: excess -1-O -> **+4-O**. COORDINATOR STACKING NOTE: this
+  correction (curve-side, 5 units) and round 34's automorphism
+  quotient (solution-orbit side, +4..+6) are INDEPENDENT terms;
+  stacked, the m=2 cell sits at ~ +8..+10 — the round-33
+  conjecture "realizable iff m <= 2" is now doubly re-posed to
+  m <= 1, consistent with the round-34 TCAP re-pose. The
+  emptiness instruments now number FOUR (searched-negative;
+  TCAP+quotient; the C(16m,4m-1) gate — sharpened here by
+  2 log2 q to -61.3 bits at q=97 via the same dim-18 input; the
+  flipped ledger) — still no mechanism, and the pilot's own
+  positive half shows why counting stays untrustworthy (T=3 over
+  mu_32 sits at +62.5 bits, q-INDEPENDENTLY — the 18-6T exponent
+  vanishes at T=3 — yet no exact solve reaches it).
+- **NO WALL WAS HIT — the finding.** The failure to reach T = 3
+  over mu_32 is algorithmic (no third exact solve), not
+  arithmetic. The predicted eventual obstruction is EIGENVALUE
+  CONFINEMENT: the members' roots at x are the generalized
+  eigenvalues of the 2x2 pencil P(x)+zR(x); (SAT3) needs all 32
+  pencils rational-eigenvalued with all 63 slots in a 9-element
+  alphabet; random (L2) objects deliver half the occupancy on 3x
+  too many slopes. The m=1 coset fence does not FAIL at m=2 — it
+  becomes INAPPLICABLE (d_x <= 1 cannot pose the doubling that
+  T = 9 forces on 31 of 32 points).
+- **HANDOFF OF RECORD: the third exact solve** (a third split
+  member given Q_0, Q_2 — the analogue of the mod-f
+  proportionality) is the single missing instrument between this
+  round and T = 4; blind (L2) search is banned at rate-1
+  parametrization. F1/(NEWCAP): still zero power (one supported
+  pair; a* = 14 a single sample).
+- **SCOPE FENCES:** two fields for all structure (five for
+  ledger arithmetic); no T >= 4 built; (SAT2)/(SAT4)/(SAT5)
+  inapplicable at T = 2 (reported: sum d_x = 14, no doubled
+  point yet, vs the 31 doubles (SAT3) needs); m >= 3 untouched;
+  the s != 0 degeneracy yield (42/46 rejected) has no predictive
+  criterion yet.
+
+## Round-36 R-HRLOW addendum (2026-08-11, coordinator-audited): the band classified; h_r dissolved as the coordinate; STATEMENT U is the whole far-CA residual
+
+Pilot r36_hrlow (round 36, bank 3). Coordinator hand-checks: the
+common-support algebra (solving the 2x2 system for (y_0,y_1) in
+terms of syn(u_1), syn(u_2)); the classification chain
+(column-far => |W| >= r+1; one bad slope => f <= d; d=1 => f=1 =>
+T_1 = r+1 FORCED); the razor over-determination ceil(rho/2)-1 =
+2^33-1; the C(128,63)-vs-C(127,64) relation (ratio 128/65, ~0.98
+bits — ONE binomial step, not equal; correspondence still to
+check). All pass.
+
+- **THE DICTIONARY: h_r = rho + deg(e_1/e_0)** on the common
+  support (210/210 across 5 razor-faithful shapes x 5 fields;
+  dim K_0 = r+1-rho-d likewise; 2rho when the ratio is not
+  polynomial), INDEPENDENT of the support size s (12 degree pairs
+  x 5 support sizes, 2 fields). And **COMMON SUPPORT IS A
+  THEOREM, not a family choice**: any column-far pencil with two
+  bad slopes is generated by two errors on S_1 u S_2 (explicit
+  reconstruction 12/12, two fields).
+- **D1 ANSWERED YES: LB1 is the unique h_r = rho+1 structural
+  family, and its T_1 = r+1 is FORCED** (d=1 => |W| = r+1 exactly
+  => injective L => every value a slope). Exhaustive census: T =
+  T_1 = r+1 with ZERO accidentals at q = 65537 AND q = 999983
+  (mu_1 down to 1.26e-7). The p* CONVERSE is REFUTED (p* = 6 at
+  both h_r = 3 and h_r = 4; p* is a coarser invariant and must
+  not label strata — R-PSTAR-INTERMEDIATE retired as a stratum);
+  the extended law p*(d) = max(rho+d, floor((R+1+d)/2)) holds
+  205/210 with 5 NAMED failures (H2 symmetric-T quadratic, 5/5
+  fields — p* is not a function of (R, rho, d)).
+- **D2: THE h_r = rho+2 BAND IS NOT MOMENT-BOUND — the brief's
+  antecedent is false.** The band carries a structural floor
+  ceil((r+1)/d) that REACHES r+1 (injective quadratic ratio, 5
+  shapes x 5 fields); even h_r = 2rho carries T_1 = r+1 (the
+  cubic family at rho=3) — FG's floorlessness is a property of
+  witness B's particular K_0, NOT of h_r (R-FG-RAZOR further
+  downgraded). "LB1-limited" survives only as a VALUE (r+1),
+  conditional on U below.
+- **THE ROUND'S FIND: THE NEGATION-CLOSURE EXCESS.** On a
+  negation-closed evaluation domain (which the official
+  power-of-two multiplicative subgroup IS), column-far
+  razor-faithful pencils exist with **T = 95-98 against r+1 = 9,
+  field-size independent, at mu_1 down to 1.26e-7** — beating the
+  first moment by 750x with zero saturation. Mechanism EXACT:
+  even locators sigma(x) = Q(x^2) collapse the odd Hankel rows;
+  count = C(m-1, r/2-1) (84/84 and 330/330, two fields); control
+  decisive (same everything on non-closed {1..20}: T = 10). The
+  carrier is the banked e22 orbit-invariant locator algebra
+  L_B(X)G(X^M) — now deployed as a far-CA bad-slope mechanism.
+  **KILLED AT THE RAZOR EXACTLY: ceil(rho/M) = 1 needs M >= rho =
+  2^34; at M = 2 the surplus is 2^33-1 conditions.** A
+  rho-threshold, not a field threshold. WARNING OF RECORD: any
+  far-CA counting argument treating D as a generic point set is
+  unsound at small rho. GAP: the symmetric-T variant is
+  unmeasured at rho >= 3 (parity predicts survival at rho = 3,
+  death at rho >= 4; 2^33 conditions of razor slack either way).
+- **THE DICHOTOMY OF RECORD (R36-D):** T = T_fib + T_sym +
+  T_rand; T_fib in [ceil((r+1)/d), r/f+1] with = r+1 iff f = 1
+  and chi injective ((C3)-attainment is the SHADOW of f = 1, not
+  the mechanism — and the fibre cap is a from-scratch pigeonhole,
+  nothing imported through the vacuous type-2 ledger); T_sym
+  needs an automorphism of order >= rho; T_rand is moment-priced
+  (zero power). Falsifiers F-1/F-2/F-3 pre-registered in form.
+- **STATEMENT U — the far-CA residual reduced to one sentence:**
+  at razor shape, every bad slope of a column-far pencil admits a
+  locator INSIDE W = S_1 u S_2. **U implies B_ca^far(k+2^34) =
+  r+1 = 2^39.977280 EXACTLY** (floor: banked LB1; cap: the fibre
+  pigeonhole). U = "T_sym = T_rand = 0"; U-sym is killed at razor
+  rho by condition counting (modulo the rho=3 symmetric-T gap);
+  U-rand is completely unpriced (the honest residual). Residual
+  map: R-HRLOW dissolved into R-U; carriers for U named (the
+  split-pencil equivalence frame; the e22 locator algebra + the
+  M >= rho threshold; the bivariate locator-extension node, which
+  is scoped as exactly-the-missing-hypothesis). CHECK QUEUED: is
+  the T_sym carrier at M = rho (C(128,63), ~2^124.15) the banked
+  qcore plateau C(127,64) = 2^123.1714 (one binomial step)? If
+  yes, T_sym inherits a proved cap.
+- **SHAPE FENCE (fourth flag, applied on the supplier node):**
+  "B_ca^far(n-r) <= r+1" is PROVED only at the official row's own
+  shape (r <= R/2); it is FALSE as a universal at r > R/2 on
+  negation-closed D (T = 95 exhibit). One sentence added to
+  split_pencil_equivalence.
+- **SCOPE FENCES:** all machine numbers at q <= 999983, rho <= 4
+  (widening from the registered 65537 disclosed); no exhaustive
+  total-T census at rho >= 3 (the even-locator carrier IS swept
+  completely there); char 2 unmeasured; T_rand unpriced;
+  everything else per the pilot's 13 zero-power declarations.

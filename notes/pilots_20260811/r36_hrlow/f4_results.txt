@@ -1,0 +1,47 @@
+# f4_close.py — r36_hrlow
+
+== A. EVEN-locator scan (D negation-closed, L = x^2, s = r+1)
+#  m = n/2 orbits {+-1..+-m}; T = {1..r+1} meets orbits 1..r+1 one-sidedly; even locator S = A u (-A), |A| = r/2.
+#  PREDICTION: #bad even locators ~ C(m-1, r/2-1) when rho=2 (1 residual condition) and ~0 when rho>=3 (>=2 residual conditions).
+  -- H1 n=20 k=10 R=10 rho=2 r=8 a=12 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=210  C(m-1,r/2-1)=84
+     q=65537   |orbits off T|=1  #A covering them=84 | bad EVEN locators=  84 (distinct slopes=  84, covering=  84) | common=0 | r+1=9
+     q=999983  |orbits off T|=1  #A covering them=84 | bad EVEN locators=  84 (distinct slopes=  84, covering=  84) | common=0 | r+1=9
+  -- H3 n=24 k=12 R=12 rho=2 r=10 a=14 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=792  C(m-1,r/2-1)=330
+     q=65537   |orbits off T|=1  #A covering them=330 | bad EVEN locators= 330 (distinct slopes= 329, covering= 330) | common=0 | r+1=11
+     q=999983  |orbits off T|=1  #A covering them=330 | bad EVEN locators= 330 (distinct slopes= 329, covering= 330) | common=0 | r+1=11
+  -- H4 n=26 k=13 R=13 rho=3 r=10 a=16 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=1287  C(m-1,r/2-1)=495
+     q=65537   |orbits off T|=2  #A covering them=165 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=11
+     q=999983  |orbits off T|=2  #A covering them=165 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=11
+  -- H6 n=30 k=15 R=15 rho=3 r=12 a=18 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=5005  C(m-1,r/2-1)=2002
+     q=65537   |orbits off T|=2  #A covering them=715 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=13
+     q=999983  |orbits off T|=2  #A covering them=715 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=13
+  -- H7 n=34 k=17 R=17 rho=3 r=14 a=20 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=19448  C(m-1,r/2-1)=8008
+     q=65537   |orbits off T|=2  #A covering them=3003 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=15
+     q=999983  |orbits off T|=2  #A covering them=3003 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=15
+  -- H8 n=36 k=18 R=18 rho=4 r=14 a=22 | FAITHFUL 4rho<R True a>R+1 True a-1>r True | C(m,r/2)=31824  C(m-1,r/2-1)=12376
+     q=65537   |orbits off T|=3  #A covering them=1365 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=15
+     q=999983  |orbits off T|=3  #A covering them=1365 | bad EVEN locators=   0 (distinct slopes=   0, covering=   0) | common=0 | r+1=15
+
+== B. CONTROL — same d=2 family, D NOT negation-closed (D = {1,...,n}), exact census over all C(n,r) locators
+   q=65537 D={1..20} d1-x     | column-far | T=10 T_struct=9 T_acc=1 | r+1=9   (negation-closed D gave T=98, T_acc=89)
+   q=65537 D={1..20} d2-inj   | column-far | T=10 T_struct=9 T_acc=1 | r+1=9   (negation-closed D gave T=98, T_acc=89)
+
+== C. razor closed forms  (R=k=2^40, rho=2^34, r=R-rho, n=2^41)
+   R=1099511627776 rho=17179869184 r=1082331758592 n=2199023255552 a=k+rho=1116691496960
+   FAITHFUL at the razor: 4rho<R True ; a>R+1 True ; a-1>r True
+   r+1 = 1082331758593 = 2^39.977280   (banked LB1 floor)
+   d=1            h_r=rho+d=17179869185  p*=549755813889   p*-floor(R/2)=1   fibre floor ceil((r+1)/d)=1082331758593
+   d=2            h_r=rho+d=17179869186  p*=549755813889   p*-floor(R/2)=1   fibre floor ceil((r+1)/d)=541165879297
+   d=3            h_r=rho+d=17179869187  p*=549755813890   p*-floor(R/2)=2   fibre floor ceil((r+1)/d)=360777252865
+   d=8589934592   h_r=rho+d=25769803776  p*=554050781184   p*-floor(R/2)=4294967296 fibre floor ceil((r+1)/d)=127
+   d=17179869184  h_r=rho+d=34359738368  p*=558345748480   p*-floor(R/2)=8589934592 fibre floor ceil((r+1)/d)=64
+   => over the WHOLE band d=1..rho: p* in [2^39+1, 2^39+2^33], every value STRICTLY above floor(R/2)=549755813888
+   => the fibre floor decays from r+1=2^39.9773 (d=1) to 64 (d=rho)
+   log2 C(n,r) = 2198635969270.3896  (mu_1 = C(n,r)/q^rho)
+      log2 mu_1 at q=2^128  = -3.872863e+08
+      log2 mu_1 at q=2^167  = -6.704022e+11
+      log2 mu_1 at q=2^256  = -2.199411e+12
+   even-locator carrier at razor (D a multiplicative subgroup of even order is negation-closed):
+      #even locators = C(n/2, r/2) = 2^1099317984625.2820 ; residual conditions on the single unknown gamma = ceil(rho/2) = 8589934592
+      over-determination = ceil(rho/2) - 1 = 8589934591  => the rho=2 excess mechanism is DEAD at the razor by 8589934591 conditions
+   B*(q)=floor(q/2^128) on the residual interval = 2^39 or 2^39+1; (r+1)/2^39 = 1.968750

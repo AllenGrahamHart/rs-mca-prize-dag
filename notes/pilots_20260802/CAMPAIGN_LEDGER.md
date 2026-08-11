@@ -5816,3 +5816,73 @@ imported-script rule vacuously satisfied the right way;
 registered-formula-vs-code off-by-one self-caught. Node: RETIRED
 marker + (LA-EQ) addendum + fence-node cross-pointer addendum.
 Mint +4. Files: notes/pilots_20260811/r36_lawcount_geom/.**
+
+## ROUND 36 BANK 2/4 — r36_sat3_on_l2 (2026-08-11, coordinator)
+
+**BANKED — (SAT3)-ON-(L2) IS NON-VACUOUS: T = 2 OVER mu_32 on
+certified e=m=2 objects (both fields, exact solve, Möbius-
+normalised to finite slopes) + T = 3 bespoke (126 instances;
+zero (SAT3) power, columns never merged). THE INSTRUMENT: (PAR),
+a closed-form rational parametrization of the WHOLE (L2) stratum
+at m=2 (L*Q_0 = f^2-kg / L*Q_1 = fg+hk / L*Q_2 = g^2+hf, two
+conditions at ell; det form L*Q_z = det(P+zR); membership = a
+GCD, (RES) 1200/1200) — hit rate 1 vs 1/q vs blind q^-5;
+COORDINATOR HAND-VERIFIED COMPLETELY (elimination, both converse
+identities, the determinant expansion, the third-condition
+exception, dim 18). CLASS SCOPING: banked T=4 records are e=1
+(ERC2-closed); this is the first T >= 1 ever in the only class
+(SAT3) inhabits. FORCED CORRECTION (2nd independent): (ERC2)
+forces e=m => the round-33 realizability ledger priced the curve
+at ambient 23 instead of the (L2) component's 18 — m=2 cell flips
+-1-O -> +4-O; STACKED with round-34's quotient: ~ +8..+10; the
+"realizable iff m <= 2" conjecture doubly re-posed to m <= 1.
+Emptiness instruments now FOUR (the gate sharpened by 2 log2 q
+via the same dim-18 input); still no mechanism — and T=3 over
+mu_32 sits at +62.5 bits q-INDEPENDENTLY (18-6T = 0) with no
+exact solve reaching it: NO WALL WAS HIT (the finding);
+eigenvalue-confinement named as the obstruction shape; the m=1
+coset fence is INAPPLICABLE (not failed) at m=2. Self-catches:
+the PGL_2 double-count (13.20-bit gap, five-field reproduction),
+(X6) subtracted to (SAT4) verbatim, the f(ell)=g(ell)=0
+refinement. COMPLIANCE: 4/4 clean (10th consecutive);
+helpers-duplicated-per-file anti-import pattern noted for
+codification. HANDOFF: the THIRD EXACT SOLVE = the single
+missing instrument before T=4. Node: addendum. Mint +4.
+Files: notes/pilots_20260811/r36_sat3_on_l2/.**
+
+## ROUND 36 BANK 3/4 — r36_hrlow (2026-08-11, coordinator)
+
+**BANKED — THE h_r BAND CLASSIFIED AND h_r DISSOLVED; STATEMENT U
+IS THE FAR-CA RESIDUAL OF RECORD. Dictionary h_r = rho +
+deg(e_1/e_0) (210/210, 5 shapes x 5 fields; s-INDEPENDENT);
+COMMON SUPPORT IS A THEOREM (2 bad slopes => errors on S_1 u S_2;
+12/12 reconstructions). D1 YES: LB1 unique at h_r = rho+1 and
+FORCED (d=1 => |W| = r+1 => T = T_1 = r+1, zero accidentals at
+mu_1 = 1.26e-7, two fields). p* CONVERSE REFUTED (same p*, two
+strata — R-PSTAR-INTERMEDIATE retired); p*(d) law 205/210 with 5
+named failures. D2: the rho+2 band is NOT moment-bound (floor
+ceil((r+1)/d), attains r+1; even h_r = 2rho carries a floor —
+R-FG-RAZOR further downgraded: floorlessness was witness-B's K_0,
+not h_r). THE FIND: NEGATION-CLOSURE EXCESS — T = 95-98 vs r+1 =
+9, field-independent, mu_1-free (750x over the moment); mechanism
+exact (even locators collapse odd Hankel rows; count
+C(m-1,r/2-1), 84/84 + 330/330; control {1..20}: T = 10); carrier
+= the banked e22 orbit-invariant locator algebra; KILLED at razor
+by ceil(rho/2)-1 = 2^33-1 conditions (rho-threshold, not field).
+WARNING: far-CA counting treating D as generic is unsound at
+small rho. DICHOTOMY R36-D posed (T_fib/T_sym/T_rand;
+(C3)-attainment = the shadow of f=1, pigeonhole from scratch,
+ledger not imported). **STATEMENT U: every bad slope has a
+locator inside W => B_ca^far(k+2^34) = r+1 = 2^39.977280
+EXACTLY** (floor banked, cap pigeonhole); U-sym condition-killed
+at razor (mod the rho=3 symmetric-T gap, 2^33 slack); U-rand
+UNPRICED (the honest residual). FOUR FORCED CORRECTIONS applied
+(the round-34 narrowing TOO GENEROUS — mu_1-free counterexample;
+h_r annotated; p*-converse; the shape fence on
+split_pencil_equivalence: B_ca^far(n-r) <= r+1 is r <= R/2 ONLY).
+C(128,63) vs the banked C(127,64) plateau: ONE binomial step
+(128/65, coordinator-computed) — correspondence check queued.
+COMPLIANCE: 6/6 clean (11th consecutive; one SIGPIPE-lost run
+disclosed — round-37 rule: results files never through a pipe).
+Node: 2 inline markers + addendum + supplier fence. Mint +5.
+Files: notes/pilots_20260811/r36_hrlow/.**
