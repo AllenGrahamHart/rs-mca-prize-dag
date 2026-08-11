@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify.py",
-      "seconds": 0.012072,
+      "script": "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/verify.py",
+      "seconds": 0.016912,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_STRICT_A3_FINAL_CORNER_DIVISOR_EXCLUSION_PASS profiles=504 official_e=183251937962 margin=1\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_FREE_FORNEY_CONTACT_SECTION_PASS profiles=13662 contact_offset=0\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify_audit.py",
-      "seconds": 0.011929,
+      "script": "background/nodes/rate_half_ca_hankel_a1_core_free_forney_contact_section/verify_audit.py",
+      "seconds": 0.01289,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_CA_HANKEL_STRICT_A3_FINAL_CORNER_DIVISOR_EXCLUSION_AUDIT_PASS cases=152 mutation=detected\n"
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_FREE_FORNEY_CONTACT_SECTION_AUDIT_PASS mutation=strict_contact_detected\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/verify.py",
+      "seconds": 1.237818,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_FREE_POLE_SLACK_EXCLUSION_PASS profiles=7346208 excluded=2743072 official_m=137438953472 first_degree_chambers=3\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_core_free_pole_slack_exclusion/verify_audit.py",
+      "seconds": 0.012124,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_CA_HANKEL_A1_CORE_FREE_POLE_SLACK_EXCLUSION_AUDIT_PASS cases=240 equality_boundary=retained mutation=detected\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

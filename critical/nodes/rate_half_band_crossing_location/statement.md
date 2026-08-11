@@ -1594,3 +1594,31 @@ The proved node is
 with the slope-slack theorem, it excludes every strict `A=3` moving-kernel
 profile. Only the residual `A=1` profiles and the independent crossing and
 adjacent-unsafe obligations remain live in this critical target.
+
+## Cycle 75: `A=1` core-free contact reduction (2026-08-11, Codex)
+
+The core-free half-distance branch has a canonical Forney section. The
+`rho` available Hankel recurrence rows give contact order `2rho`, hence
+
+```text
+s_F in H^0(C,O_C(-rho-1,e+1)),       deg L_F=rho-e.
+```
+
+Let `p` be the actual pole-ideal colength and put `ell=4e-T`. Adaptive pole
+interpolation, with domain degree `alpha` equal to `2`, `1`, or `0` in the
+three ranges cut by `e=rho/2` and `e=rho`, combines with three contact
+sections to exclude every profile satisfying
+
+```text
+floor(p/(alpha+1))+ell+3<e.
+```
+
+Every survivor therefore has `p>=(alpha+1)(e-ell-3)`. At the first live
+degree `e=m+1`, only `ell=0,1,2` occur and the remaining pole deficiencies
+`Delta-p` are at most `5`, `8`, and `11`. The proved nodes are
+`rate_half_ca_hankel_a1_core_free_forney_contact_section` and
+`rate_half_ca_hankel_a1_core_free_pole_slack_exclusion`.
+
+This narrows but does not close `A=1`: the three finite-deficiency chambers,
+higher core-free degrees failing the inequality, and fixed-core `s=1,2`
+profiles remain live.
