@@ -5537,3 +5537,26 @@ HOLDS); sed-edit deviations in banks 3,4 => round-35 CONSTRAINTS
 must name sed/awk in-place edits. ROUND-35 ANCHORS (priority):
 R-L2, Rout, layer A on the m=3 witness + m=4 decision (u1_x4
 compiler transport), R-FG-RAZOR, DEF-ID, m=5 parity, q_crit.**
+
+## ROUND 35 LAUNCH (2026-08-11, coordinator)
+
+**THE DECISION ROUND — 4 Opus pilots on the round-34 close's
+priority anchors (briefs notes/pilots_20260811/r35_*/PREREG.md;
+CONSTRAINTS UPGRADED AGAIN: the write-discipline clause now names
+sed -i / awk -i / perl -i / tee / redirection-onto-existing-file
+as breaches — the banks-3/4 censures codified; r35_* siblings
+quarantined, r34_* + rh_* readable):** (A) r35_l2_gate — R-L2,
+the decisive question: construct or refute the e=m=2
+(SAT1)-profile stratum (empty => strict endpoint closes; nonempty
+=> first real m>=2 object, T measured, F1 live); DEF-ID
+transport-or-coincidence a named deliverable. (B) r35_rout_layer_a
+— Rout theorem-or-sample (decides (NS-W-m)'s standing); layer A
+run on the m=3 (BIV-CURVE) witness (the round-34 MISS 7); the
+multiplicative-domain push on the dichotomy's single surviving
+profile. (C) r35_bivcurve_m4 — the m=4 decision beyond
+(SPLIT-4)+sigma (non-split G / sigma = c/x / un-symmetrised
+(3,3,3)); the u1_x4 linear-hypergraph compiler imported; the m=5
+parity falsifier; corrected-(OUT-m) stress. (D) r35_fg_razor —
+R-FG-RAZOR: the key equation at witnesses A/B, razor budget
+arithmetic pre-committed, R-FG vs R-KER structure, q_crit
+secondary. Bank each on report, same cadence.
