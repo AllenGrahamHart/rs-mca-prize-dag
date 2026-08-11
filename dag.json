@@ -31116,6 +31116,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "title": "A=1 quadratic extremal dual-MDS split-biform reduction",
+   "status": "PROVED",
+   "closure": "the extremal branch yields an exact lower-degree biform split densely in both directions",
+   "statement": "The extremal branch canonically produces a nonzero biform G(t,X) of exact bidegree (e-2,p-3). For every classified noncore coordinate x, G(t,x) has e-2 distinct roots among the 3e off-line supported slopes, while at least e+6+d_A off-line fibers G(delta,X) have p-3 distinct roots in U_0 and are scalar multiples of their inside-support locators. The construction is the dual-GRS representation of the three-line-divided Hankel kernel equation.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
    "title": "A=1 quadratic extremal three-center minimum-word reduction",
    "status": "PROVED",
@@ -31131,6 +31149,42 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "title": "A=1 quadratic extremal three-center source partition",
+   "status": "PROVED",
+   "closure": "the extremal center line partitions its noncore support into three exact source-root classes",
+   "statement": "In the sole extremal pair branch, subtracting the codeword line through the three assigned centers gives a fixed-support affine word pencil on U. Its noncore coordinate forms have disjoint zero sets M_alpha, M_beta, M_theta of sizes p-1+r_alpha, p-1+r_beta, p-1+r_theta. These classes cover U_0 when the line deficit is one and leave exactly one coordinate when it is zero; the contracted source forms on each class are scalar multiples of the corresponding parameter linear form.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate",
+   "title": "A=1 quadratic extremal zero-excess Forney-barycentric gate",
+   "status": "PROVED",
+   "closure": "every extremal zero-excess slope obeys an exact reciprocal outside-locator interpolation law",
+   "statement": "In the extremal branch, at least 2e off-line slopes have zero triple-union excess. For each such slope delta, the outside actual support has p+2 points and the complement X_delta inside U_0 has rho+1+r_delta points. If B_delta is the outside-support locator and omega_x is the contracted fixed-line source, then omega_x(delta) B_delta(x)L_U0'(x) is one nonzero constant for every x in X_delta. Equivalently the full padded locator obeys the exact minimum-circuit identity with its heavy excess factor. At least e+6+d_A of these slopes have r_delta=0.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate/verify_audit.py"
    ]
   },
   {
@@ -65143,9 +65197,39 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_minword_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_incidence_center_spread",
@@ -65850,6 +65934,11 @@
   {
    "from": "rate_half_ca_hankel_split_pencil_equivalence",
    "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_zero_excess_forney_barycentric_gate",
    "kind": "req"
   },
   {
