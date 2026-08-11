@@ -3431,3 +3431,46 @@ proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_correction_marked_jet_route_fence`.
 Thus determinant multiplicity, symmetry, and generic corank one cannot
 close the branch without a genuinely Hankel/source/split-fiber input.
+
+## Cycle 154 addendum: ordinary supported rank loss is first-order transverse
+
+The exact correction factorization now separates every ordinary supported
+rank-loss slope from the constant-size correction locus. Away from
+`S_B` in the double-root arm or `S_1S_2` in the two-simple arm,
+
+```text
+ord_gamma(D_1)=c_gamma.
+```
+
+The specialized symmetric Hankel kernel is
+`Q_min F[X]_(<=c_gamma)`. Local Smith form therefore makes every positive
+exponent one, and the derivative moment form
+
+```text
+B_gamma(A,B)=dot Phi(Q_min^2AB)
+```
+
+has rank `c_gamma` and radical exactly `span{R_gamma}`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_supported_first_jet_perfect_pairing`.
+Thus all extensive supported rank-loss mass is ordinary at first order;
+only at most two double-root slopes or four two-simple slopes can carry the
+higher local Smith behavior needed by the correction quartic.
+
+## Cycle 155 addendum: the coefficient plane meets ordinary kernels sharply
+
+The common coefficient plane `W_q` is totally isotropic for every local
+Hankel derivative. Combining this with Cycle 154 gives
+
+```text
+dim((W_q intersect ker M_gamma)/span{Q_gamma})
+ <=floor(c_gamma/2).
+```
+
+Hence at every correction-free rank-one loss slope the primitive locator
+is the only coefficient-plane vector vanishing on the full actual support,
+and the support evaluation matrix `(Q_i(x))` has exact rank `e`. At a
+rank-two loss slope its rank is `e-1` or `e`. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_supported_coefficient_plane_kernel_intersection`.
+This is a genuine source/Hankel restriction absent from the abstract
+Kronecker countermodel; it still requires an adapter to the split-biform
+boundary before it can exclude a packet.
