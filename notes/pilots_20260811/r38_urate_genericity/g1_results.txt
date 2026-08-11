@@ -1,0 +1,256 @@
+################ g1 rank/ladder run ################
+
+== CELL C1 [intZ] n=20 k=10 R=10 r=8 rho=2 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=8  cap_mine(A-5)=8  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=6 n1=3
+   j= 2 REACHED des=m1 chi-coll=0 dimker=14 L=0 rkPhi=0 n0=4 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=12 L=1 rkPhi=1 n0=2 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=10 L=2 rkPhi=2 n0=0 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=8 L=3 rkPhi=3 n0=0 n1=6
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=4 L=5 rkPhi=5 n0=0 n1=2
+   j= 8 REACHED des=flat chi-coll=0 dimker=2 L=6 rkPhi=6 n0=0 n1=0
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 8  (cap_anchor=8 cap_mine=8)
+   R2b-1: 22 confirmed / 0 violated ;  R2b-2: 22 / 0
+
+== CELL C1 [mu] n=20 k=10 R=10 r=8 rho=2 q=200041 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=8  cap_mine(A-5)=8  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=6 n1=3
+   j= 2 REACHED des=m1 chi-coll=0 dimker=14 L=0 rkPhi=0 n0=4 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=12 L=1 rkPhi=1 n0=2 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=10 L=2 rkPhi=2 n0=0 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=8 L=3 rkPhi=3 n0=0 n1=6
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=4 L=5 rkPhi=5 n0=0 n1=2
+   j= 8 REACHED des=m1 chi-coll=0 dimker=2 L=6 rkPhi=6 n0=0 n1=0
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 8  (cap_anchor=8 cap_mine=8)
+   R2b-1: 22 confirmed / 0 violated ;  R2b-2: 22 / 0
+
+== CELL C7 [intZ] n=22 k=11 R=11 r=9 rho=2 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=9  cap_mine(A-5)=9  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=18 L=0 rkPhi=0 n0=7 n1=3
+   j= 2 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=5 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=14 L=1 rkPhi=1 n0=3 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=1 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=10 L=3 rkPhi=3 n0=0 n1=8
+   j= 6 REACHED des=m1 chi-coll=0 dimker=8 L=4 rkPhi=4 n0=0 n1=6
+   j= 7 REACHED des=m1 chi-coll=0 dimker=6 L=5 rkPhi=5 n0=0 n1=4
+   j= 8 REACHED des=m1 chi-coll=0 dimker=4 L=6 rkPhi=6 n0=0 n1=2
+   j= 9 REACHED des=m1 chi-coll=0 dimker=2 L=7 rkPhi=7 n0=0 n1=0
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 9  (cap_anchor=9 cap_mine=9)
+   R2b-1: 24 confirmed / 0 violated ;  R2b-2: 24 / 0
+
+== CELL C7 [mu] n=22 k=11 R=11 r=9 rho=2 q=200003 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=9  cap_mine(A-5)=9  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=18 L=0 rkPhi=0 n0=7 n1=3
+   j= 2 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=5 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=14 L=1 rkPhi=1 n0=3 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=1 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=10 L=3 rkPhi=3 n0=0 n1=8
+   j= 6 REACHED des=rand chi-coll=0 dimker=8 L=2 rkPhi=2 n0=1 n1=2
+   j= 7 REACHED des=m1 chi-coll=0 dimker=6 L=5 rkPhi=5 n0=0 n1=4
+   j= 8 REACHED des=m1 chi-coll=0 dimker=4 L=6 rkPhi=6 n0=0 n1=2
+   j= 9 REACHED des=rand chi-coll=0 dimker=2 L=7 rkPhi=7 n0=0 n1=0
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 9  (cap_anchor=9 cap_mine=9)
+   R2b-1: 20 confirmed / 0 violated ;  R2b-2: 20 / 0
+
+== CELL C2 [intZ] n=24 k=12 R=12 r=10 rho=2 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=10  cap_mine(A-5)=10  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=20 L=0 rkPhi=0 n0=8 n1=3
+   j= 2 REACHED des=m1 chi-coll=0 dimker=18 L=0 rkPhi=0 n0=6 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=16 L=1 rkPhi=1 n0=4 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=14 L=2 rkPhi=2 n0=2 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=12 L=3 rkPhi=3 n0=0 n1=10
+   j= 6 REACHED des=rand chi-coll=0 dimker=10 L=2 rkPhi=2 n0=1 n1=4
+   j= 7 REACHED des=rand chi-coll=0 dimker=8 L=4 rkPhi=4 n0=1 n1=3
+   j= 8 REACHED des=flat chi-coll=0 dimker=6 L=2 rkPhi=2 n0=0 n1=0
+   j= 9 REACHED des=m1 chi-coll=0 dimker=4 L=7 rkPhi=7 n0=0 n1=2
+   j=10 REACHED des=m1 chi-coll=0 dimker=2 L=8 rkPhi=8 n0=0 n1=0
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=13 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 10  (cap_anchor=10 cap_mine=10)
+   R2b-1: 22 confirmed / 0 violated ;  R2b-2: 22 / 0
+
+== CELL C2 [mu] n=24 k=12 R=12 r=10 rho=2 q=200017 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=10  cap_mine(A-5)=10  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=20 L=0 rkPhi=0 n0=8 n1=3
+   j= 2 REACHED des=rand chi-coll=0 dimker=18 L=0 rkPhi=0 n0=6 n1=4
+   j= 3 REACHED des=m1 chi-coll=0 dimker=16 L=1 rkPhi=1 n0=4 n1=6
+   j= 4 REACHED des=m1 chi-coll=0 dimker=14 L=2 rkPhi=2 n0=2 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=12 L=3 rkPhi=3 n0=0 n1=10
+   j= 6 REACHED des=m1 chi-coll=0 dimker=10 L=4 rkPhi=4 n0=0 n1=8
+   j= 7 REACHED des=flat chi-coll=0 dimker=8 L=0 rkPhi=0 n0=0 n1=1
+   j= 8 REACHED des=m1 chi-coll=0 dimker=6 L=6 rkPhi=6 n0=0 n1=4
+   j= 9 REACHED des=rand chi-coll=0 dimker=4 L=6 rkPhi=6 n0=0 n1=1
+   j=10 REACHED des=flat chi-coll=0 dimker=2 L=8 rkPhi=8 n0=0 n1=0
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=13 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 10  (cap_anchor=10 cap_mine=10)
+   R2b-1: 24 confirmed / 0 violated ;  R2b-2: 24 / 0
+
+== CELL C3 [intZ] n=26 k=13 R=13 r=10 rho=3 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=6  DISCRIMINATING=True
+   j= 1 REACHED des=m1 chi-coll=0 dimker=19 L=0 rkPhi=0 n0=7 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=4 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=13 L=1 rkPhi=1 n0=1 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=10 L=2 rkPhi=2 n0=0 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=7 L=3 rkPhi=3 n0=0 n1=5
+   j= 6 REACHED des=m1 chi-coll=0 dimker=4 L=4 rkPhi=4 n0=0 n1=2
+   j= 7 REACHED des=m1 chi-coll=0 dimker=1 L=6 rkPhi=6 n0=0 n1=0
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=6)
+   R2b-1: 32 confirmed / 0 violated ;  R2b-2: 32 / 0
+
+== CELL C3 [mu] n=26 k=13 R=13 r=10 rho=3 q=200201 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=6  DISCRIMINATING=True
+   j= 1 REACHED des=m1 chi-coll=0 dimker=19 L=0 rkPhi=0 n0=7 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=16 L=0 rkPhi=0 n0=4 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=13 L=1 rkPhi=1 n0=1 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=10 L=2 rkPhi=2 n0=0 n1=8
+   j= 5 REACHED des=m1 chi-coll=0 dimker=7 L=3 rkPhi=3 n0=0 n1=5
+   j= 6 REACHED des=m1 chi-coll=0 dimker=4 L=4 rkPhi=4 n0=0 n1=2
+   j= 7 REACHED des=m1 chi-coll=0 dimker=1 L=6 rkPhi=6 n0=0 n1=0
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=6)
+   R2b-1: 36 confirmed / 0 violated ;  R2b-2: 36 / 0
+
+== CELL C6 [intZ] n=28 k=14 R=14 r=11 rho=3 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=7  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=21 L=0 rkPhi=0 n0=8 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=18 L=0 rkPhi=0 n0=5 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=15 L=1 rkPhi=1 n0=2 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=0 n1=10
+   j= 5 REACHED des=m1 chi-coll=0 dimker=9 L=3 rkPhi=3 n0=0 n1=7
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=3 L=5 rkPhi=5 n0=0 n1=1
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=7)
+   R2b-1: 33 confirmed / 0 violated ;  R2b-2: 33 / 0
+
+== CELL C6 [mu] n=28 k=14 R=14 r=11 rho=3 q=200033 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=7  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=21 L=0 rkPhi=0 n0=8 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=18 L=0 rkPhi=0 n0=5 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=15 L=1 rkPhi=1 n0=2 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=0 n1=10
+   j= 5 REACHED des=m1 chi-coll=0 dimker=9 L=3 rkPhi=3 n0=0 n1=7
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=3 L=5 rkPhi=5 n0=0 n1=1
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=7)
+   R2b-1: 33 confirmed / 0 violated ;  R2b-2: 33 / 0
+
+== CELL C11 [intZ] n=32 k=16 R=16 r=13 rho=3 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=9  cap_mine(A-5)=8  DISCRIMINATING=True
+   j= 1 REACHED des=m1 chi-coll=0 dimker=25 L=0 rkPhi=0 n0=10 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=22 L=0 rkPhi=0 n0=7 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=19 L=1 rkPhi=1 n0=4 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=16 L=2 rkPhi=2 n0=1 n1=12
+   j= 5 REACHED des=m1 chi-coll=0 dimker=13 L=3 rkPhi=3 n0=0 n1=11
+   j= 6 REACHED des=m1 chi-coll=0 dimker=10 L=4 rkPhi=4 n0=0 n1=8
+   j= 7 REACHED des=m1 chi-coll=0 dimker=7 L=5 rkPhi=5 n0=0 n1=5
+   j= 8 REACHED des=m1 chi-coll=0 dimker=4 L=6 rkPhi=6 n0=0 n1=2
+   j= 9 REACHED des=m1 chi-coll=0 dimker=1 L=8 rkPhi=8 n0=0 n1=0
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 9  (cap_anchor=9 cap_mine=8)
+   R2b-1: 37 confirmed / 0 violated ;  R2b-2: 37 / 0
+
+== CELL C11 [mu] n=32 k=16 R=16 r=13 rho=3 q=200033 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=9  cap_mine(A-5)=8  DISCRIMINATING=True
+   j= 1 REACHED des=m1 chi-coll=0 dimker=25 L=0 rkPhi=0 n0=10 n1=4
+   j= 2 REACHED des=m1 chi-coll=0 dimker=22 L=0 rkPhi=0 n0=7 n1=6
+   j= 3 REACHED des=m1 chi-coll=0 dimker=19 L=1 rkPhi=1 n0=4 n1=9
+   j= 4 REACHED des=m1 chi-coll=0 dimker=16 L=2 rkPhi=2 n0=1 n1=12
+   j= 5 REACHED des=m1 chi-coll=0 dimker=13 L=3 rkPhi=3 n0=0 n1=11
+   j= 6 REACHED des=m1 chi-coll=0 dimker=10 L=4 rkPhi=4 n0=0 n1=8
+   j= 7 REACHED des=m1 chi-coll=0 dimker=7 L=5 rkPhi=5 n0=0 n1=5
+   j= 8 REACHED des=m1 chi-coll=0 dimker=4 L=6 rkPhi=6 n0=0 n1=2
+   j= 9 REACHED des=m1 chi-coll=0 dimker=1 L=8 rkPhi=8 n0=0 n1=0
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=11 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=12 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 9  (cap_anchor=9 cap_mine=8)
+   R2b-1: 41 confirmed / 0 violated ;  R2b-2: 41 / 0
+
+== CELL C4 [intZ] n=34 k=17 R=17 r=13 rho=4 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=6  cap_mine(A-5)=6  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=24 L=0 rkPhi=0 n0=9 n1=5
+   j= 2 REACHED des=m1 chi-coll=0 dimker=20 L=0 rkPhi=0 n0=5 n1=8
+   j= 3 REACHED des=m1 chi-coll=0 dimker=16 L=1 rkPhi=1 n0=1 n1=12
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=0 n1=10
+   j= 5 REACHED des=m1 chi-coll=0 dimker=8 L=3 rkPhi=3 n0=0 n1=6
+   j= 6 REACHED des=m1 chi-coll=0 dimker=4 L=4 rkPhi=4 n0=0 n1=2
+   j= 7 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 6  (cap_anchor=6 cap_mine=6)
+   R2b-1: 36 confirmed / 0 violated ;  R2b-2: 36 / 0
+
+== CELL C4 [mu] n=34 k=17 R=17 r=13 rho=4 q=200023 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=6  cap_mine(A-5)=6  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=24 L=0 rkPhi=0 n0=9 n1=5
+   j= 2 REACHED des=m1 chi-coll=0 dimker=20 L=0 rkPhi=0 n0=5 n1=8
+   j= 3 REACHED des=m1 chi-coll=0 dimker=16 L=1 rkPhi=1 n0=1 n1=12
+   j= 4 REACHED des=m1 chi-coll=0 dimker=12 L=2 rkPhi=2 n0=0 n1=10
+   j= 5 REACHED des=m1 chi-coll=0 dimker=8 L=3 rkPhi=3 n0=0 n1=6
+   j= 6 REACHED des=m1 chi-coll=0 dimker=4 L=4 rkPhi=4 n0=0 n1=2
+   j= 7 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 6  (cap_anchor=6 cap_mine=6)
+   R2b-1: 36 confirmed / 0 violated ;  R2b-2: 36 / 0
+
+== CELL C9 [intZ] n=36 k=18 R=18 r=14 rho=4 q=65537 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=7  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=26 L=0 rkPhi=0 n0=10 n1=5
+   j= 2 REACHED des=m1 chi-coll=0 dimker=22 L=0 rkPhi=0 n0=6 n1=8
+   j= 3 REACHED des=m1 chi-coll=0 dimker=18 L=1 rkPhi=1 n0=2 n1=12
+   j= 4 REACHED des=m1 chi-coll=0 dimker=14 L=2 rkPhi=2 n0=0 n1=12
+   j= 5 REACHED des=m1 chi-coll=0 dimker=10 L=3 rkPhi=3 n0=0 n1=8
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=2 L=5 rkPhi=5 n0=0 n1=0
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=7)
+   R2b-1: 37 confirmed / 0 violated ;  R2b-2: 37 / 0
+
+== CELL C9 [mu] n=36 k=18 R=18 r=14 rho=4 q=200017 | FAITHFUL a>R+1=True a-1>r=True 4rho<R=True
+   cap_anchor=7  cap_mine(A-5)=7  DISCRIMINATING=False
+   j= 1 REACHED des=m1 chi-coll=0 dimker=26 L=0 rkPhi=0 n0=10 n1=5
+   j= 2 REACHED des=m1 chi-coll=0 dimker=22 L=0 rkPhi=0 n0=6 n1=8
+   j= 3 REACHED des=m1 chi-coll=0 dimker=18 L=1 rkPhi=1 n0=2 n1=12
+   j= 4 REACHED des=m1 chi-coll=1 dimker=14 L=2 rkPhi=2 n0=0 n1=12
+   j= 5 REACHED des=m1 chi-coll=0 dimker=10 L=3 rkPhi=3 n0=0 n1=8
+   j= 6 REACHED des=m1 chi-coll=0 dimker=6 L=4 rkPhi=4 n0=0 n1=4
+   j= 7 REACHED des=m1 chi-coll=0 dimker=2 L=5 rkPhi=5 n0=0 n1=0
+   j= 8 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j= 9 not found in 10x25 (SEARCH RESULT, not a maximum)
+   j=10 not found in 10x25 (SEARCH RESULT, not a maximum)
+   LARGEST j REACHED = 7  (cap_anchor=7 cap_mine=7)
+   R2b-1: 37 confirmed / 0 violated ;  R2b-2: 37 / 0
+################ g1 done ################

@@ -1,0 +1,33 @@
+
+=== RUN d2_sweep q=97 seed=3 budget=265s skip=0 2026-08-11 22:16:14 ===
+mu_32[0:5]=[1, 8, 12, 18, 19] ... ; S_0=[19, 34, 47, 51, 52, 55, 96] ; S_inf=[1, 12, 30, 64, 70, 75, 77]
+  HIT at combination #262698  S_1=[1, 18, 19, 20, 34, 70, 85]
+  HIT at combination #375379  S_1=[1, 19, 22, 27, 42, 45, 51]
+swept 2621440 of 3365856 combinations in 267.5s (102.0 us/triple)  [BUDGET STOP at n=2621440]
+degenerate branch tags: [('BIGOVL1', 4623), ('DIM2', 121)]
+hits: 2
+  --- CERTIFIED WITNESS ---
+  S_0=[19, 34, 47, 51, 52, 55, 96]
+  S_inf=[1, 12, 30, 64, 70, 75, 77]
+  S_1=[1, 18, 19, 20, 34, 70, 85]
+  f=[75, 18, 33, 17, 62] g=[40, 70, 81, 53, 36] h=[32, 77, 70, 77, 24] k=[19, 91, 80, 60, 26] L=[24, 12] alpha=16 gamma=38
+  Q0=[37, 89, 64, 88, 28, 92, 59, 16]
+  Q1=[21, 77, 81, 52, 95, 56, 71, 44]
+  Q2=[5, 63, 68, 83, 33, 87, 11, 38]
+  PAR identity checks (LQ0,LQ1,LQ2,member1=P_1): [True, True, True, True]
+  cert: {'degQ': (7, 7, 7), 'degL': 1, 'degfghk': (4, 4, 4, 4), 's': 0, 'T_mu32': 3, 'supported': [0, 1, 'inf'], 'union': 17, 'sum_dx': 21, 'OV4worst': 4, 'astar_pairs': [12, 12, 14], 'astar': 12, 'deg_drop_slopes': [27, 28]}
+  rootsets: {0: [19, 34, 47, 51, 52, 55, 96], 1: [1, 18, 19, 20, 34, 70, 85], 'inf': [1, 12, 30, 64, 70, 75, 77]}
+  pairwise overlaps: {(0, 1): 2, (0, 'inf'): 0, (1, 'inf'): 2}
+  --- CERTIFIED WITNESS ---
+  S_0=[19, 34, 47, 51, 52, 55, 96]
+  S_inf=[1, 12, 30, 64, 70, 75, 77]
+  S_1=[1, 19, 22, 27, 42, 45, 51]
+  f=[24, 46, 13, 18, 95] g=[57, 15, 28, 89, 3] h=[34, 9, 5, 72, 72] k=[96, 9, 18, 35, 29] L=[96, 21] alpha=33 gamma=49
+  Q0=[46, 32, 35, 36, 82, 20, 55, 33]
+  Q1=[24, 38, 44, 95, 95, 77, 48, 16]
+  Q2=[9, 94, 6, 33, 40, 79, 78, 49]
+  PAR identity checks (LQ0,LQ1,LQ2,member1=P_1): [True, True, True, True]
+  cert: {'degQ': (7, 7, 7), 'degL': 1, 'degfghk': (4, 4, 4, 4), 's': 0, 'T_mu32': 3, 'supported': [0, 1, 'inf'], 'union': 18, 'sum_dx': 21, 'OV4worst': 3, 'astar_pairs': [12, 13, 14], 'astar': 12, 'deg_drop_slopes': [28, 37]}
+  rootsets: {0: [19, 34, 47, 51, 52, 55, 96], 1: [1, 19, 22, 27, 42, 45, 51], 'inf': [1, 12, 30, 64, 70, 75, 77]}
+  pairwise overlaps: {(0, 1): 2, (0, 'inf'): 0, (1, 'inf'): 1}
+=== END d2_sweep wall=267.8s ===

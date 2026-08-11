@@ -4743,7 +4743,25 @@ r+1+126 = 1,082,331,758,719; the ceil-vs-floor parity collapse
   j(rho+1) x (2(r+1)+j) incidence matrix). **R-GENERICITY (new):
   the full-rank + side-conditions lemma converting the +126 floor
   to unconditional.** R-USYM: close (carrier-exhaustiveness the
-  only residue). Everything else unchanged. WARNING transported
+  only residue).
+  [ROUND-38 UPDATE: R-URATE REFUTED as posed — the EXCHANGE LAW
+  replaces it (T <= (r+1) - delta + floor((2(r+1)-1+delta)/rho);
+  rank deficiency in Phi buys 1/rho slopes at the cost of one
+  fibre slope; profitable at small rho: T = 19 > cap 18 at C3,
+  FULL C(26,10) census, THREE fields; the banked T = 17 was
+  search-limited — j = 7 gives 18. At the razor delta = 0 is
+  optimal so 126 STANDS, but normal-form-conditionally with a
+  17.17x PIGEONHOLE margin — not algebraic. R-GENERICITY's RANK
+  HALF PROVED (the line-pencil decoupling rank M = j(rho+1) - L
+  + rank Phi; multiplicity <= 2 => full rank; the razor j = 126
+  exact-double-cover kernel in closed form, dim 2 exactly) + 2
+  of 4 side-conditions PROVED (lambda_i != 0 fails on EXACTLY j
+  of q+1 kernel points; gamma_i off-fibre by union bound);
+  residue = chi-injectivity inside forced multi-edges (relaxable
+  to <= 125 collisions) + column-farness Case B. R-USYM CLOSED
+  (carrier completeness by degree parity at odd r; excess 0 both
+  ways over ~560k locators, 2 shapes 2 fields). See the round-38
+  URATE/genericity addendum.] Everything else unchanged. WARNING transported
   to the counting lanes: any far-CA upper bound pricing only the
   fibre stratum is off by an additive Theta(n/rho); T <= r+1 is
   unprovable at razor shape — do not spend on it.
@@ -4982,7 +5000,13 @@ the Cauchy deficit arithmetic (14 - 9 - 2 = 3).
   T over mu_32 = 2 — a TIE with round 36, honestly reported; the
   quantified gap to T=3 over mu_32 is 8.9e3x/3.9e6x the built
   object counts (absence where none was sought at the required
-  rate). The counting instruments keep failing toward EXISTENCE
+  rate). [SUPERSEDED (round 38): T = 3 OVER mu_32 IS ACHIEVED —
+  ten witnesses, two fields, via the scale-elimination algorithm;
+  the shortfall figures were an INSTRUMENT artefact (round 37's
+  own d4_results.txt:54 already contained the feasible per-pair
+  count 912,673, three lines below the shortfall it published);
+  round 37's per-object rate was (q-1)x too large. See the
+  round-38 Cauchy-lattice addendum.] The counting instruments keep failing toward EXISTENCE
   through T = 4 (the pilot's own registered attempt to discount
   the +62.5-bit cell was refuted by its own arithmetic, ratio
   1.000000000000 at five fields).
@@ -5135,3 +5159,153 @@ two are not to be conflated again).
   stdout-discard judgment call RULED COMPLIANT by the
   coordinator (a discard is not a write in the rule's sense;
   codified henceforth).
+
+## Round-38 Cauchy-lattice addendum (2026-08-11, coordinator-audited): T = 3 OVER mu_32 ACHIEVED — the scale-elimination algorithm; the two headline witnesses COORDINATOR-CERTIFIED e = m = 2
+
+Pilot r38_cauchy_lattice (round 38, bank 2; 21/21 ramguard, the
+pre-Bash checklist held — zero breaches). COORDINATOR
+CERTIFICATION: the pilot honestly declined to claim e = m = 2
+(its own registered rule, unmet — MISS 2); I certified BOTH
+published witnesses from scratch with my round-35 apparatus
+(solve the 36x32 for (y_0,y_1): nullity 1; generic rank 7;
+single reduced rank-drop z=85/z=22 at rank 6; full rank at
+infinity; degree-<=1 kernel 0 => e = 2 EXACTLY, both fields).
+The T = 3 record is now CERTIFIED, not inherited.
+
+- **THE ALGORITHM (the round's instrument):** the two scale
+  ratios of the three-member prescription ELIMINATE EXACTLY —
+  with G = (beta/gamma)g, H = (beta/alpha)f, the pointwise
+  systems become linear and u = f+g is DETERMINED by
+  (S_0, S_inf, S_1) alone as the 1-dim intersection of the
+  kernels of two 2x5 HANKEL MOMENT MATRICES (m_j = sum
+  P_inf(x)x^j/(P_1(x)P_0'(x)) etc.); the drop is then the single
+  rank <= 2 condition **(TEST): u = c_1 G + c_2 H with
+  c_1 c_2 != 0 and both parts of degree 4** — codimension
+  (5-2)(3-2) = 3, reproducing the banked deficit from a route
+  that never mentions a lattice; ~330 field ops per triple
+  (57 us). THE DEGENERATE BRANCH MATTERS: G parallel H makes the
+  raw rank test fire falsely, pair-dependently (3824 false vs 6
+  true on one q=23 pair) — the corrected clause is mandatory
+  (113/113 brute-force agreement; any reimplementation omitting
+  c_1 c_2 != 0 reports ~400x too many hits). Sufficiency of the
+  14 pointwise conditions PROVED constructive: (CONIC) makes L
+  automatically polynomial, h and k follow — the inverse is a
+  reconstruction, not a search, once the triple passes.
+- **THE SWEEP AND THE RECORD:** one (S_0, S_inf) pair sweeps ALL
+  C(32,7) = 3,365,856 subsets S_1 exhaustively in 192 s. Ten
+  T = 3 witnesses: 9 at q=97 (11.97e6 triples; predicted 9.09 —
+  ratio 0.99) and 1 at q=193 (37.54e6; predicted 3.62 — Poisson
+  p ~ 0.12, honestly flagged; 6 of 16 pair-sweeps were partial
+  at 78-80%, denominators printed). Every witness: (PAR)/(CONIC)
+  identities exact, s = 0, the three member root sets exactly the
+  prescribed subsets, (OV4) held 10/10, lattice first minimum 4
+  with the remainder-degree window-skip {5..9} (the round-37
+  characterization, confirmed 200/200 x2 + 120/120 constructed).
+  ROUND-37 RATE CORRECTED: its P(T>=3 | T=2 object) was (q-1)x
+  too large (their rate predicts 872/694 hits on the swept mass;
+  observed 9/1); the 8.9e3x shortfall was the instrument's, and
+  their own d4_results.txt:54 held the feasible count.
+- **THE a* FORCING (adopted; the ruling's first dataset):** on
+  EVERY s = 0 object with two supported slopes, (SCRIT) forces
+  S_0 ^ S_inf = empty, so a* over supported pairs = 2rho = 14
+  IDENTICALLY — round 36's single sample and round 37's 28+4
+  objects all carry the forced value (regeneration adds
+  nothing). On the ten T = 3 witnesses: per-pair {12:10, 13:10,
+  14:10} exactly uniform and FORCED by the overlap combinatorics
+  (a*(0,1) = 14 - |S_1 ^ S_0| etc.); per-object a* = 12 on 9/10,
+  13 on one. THE PROJECTIVE RULING IS INERT ON SUPPORTED PAIRS
+  (supported => 7 finite roots => no root at infinity; the two
+  readings differ only at degree-drop slopes, never supported) —
+  measured: exactly ONE all-slope pair moves per degree-drop
+  pair. F1/(NEWCAP): still zero power (T = 3 vs the premise 9);
+  the a* dataset is forced combinatorics, not family minima.
+- **STATUS OF THE THIRD PRESCRIPTION: STILL SEARCH, NOW FINITE
+  AND CHEAP** (912,673 triples = q^3 per hit at q=97; ~64 s).
+  No solve exists (given a pair you cannot write down an
+  admissible S_1); T = 4 over mu_32 needs ~q^3 pair-sweeps —
+  out of enumeration reach; the rank-<=2 inverse is the named
+  next question. An UNCLAIMED n=9 signal (hits concentrate at
+  overlap sum >= 3, p ~ 0.034) is recorded as a candidate
+  necessary condition to test at n ~ 15, nothing more.
+- **SCOPE FENCES:** 4 + 12 pairs of ~1.6e12 — zero power for
+  (SAT3)/emptiness/mu_32-in-general; the eight uncertified
+  witnesses inherit class membership (the two published ones are
+  coordinator-certified; the deg k = 3 witness q97-p0-w1 flagged
+  for the wiring session); (TEST) verified both directions at
+  q=23 only (forward-only at 97/193); no bespoke run this round
+  (round 37's T_bespoke = 4 stands; columns never merged);
+  (SAT2..5) inapplicable at T = 3. Compliance: one wall kill
+  (sizing, results preserved by append mode — the rule paid a
+  third time) and one self-caught IndexError; zero breaches.
+
+## Round-38 URATE/genericity addendum (2026-08-11, coordinator-audited): the rank half PROVED; R-URATE refuted by the exchange law; R-USYM closed
+
+Pilot r38_urate_genericity (round 38, bank 3; 5/5 ramguard, the
+checklist held). Coordinator hand-checks: the line-pencil
+decoupling (row (i,x) = the point (e_0(x),e_1(x)) on the line
+X + gamma_i Y + lambda_i Z_{Y_i}(x) = 0; blocks interact only
+through p_x); the per-point Vandermonde left-null argument
+(d(x) <= 2 forces vanishing); the razor identity 126*rho = 2r
+EXACTLY; the exchange law's derivative (1/rho - 1 < 0); the
+degree-parity carrier completeness. All pass.
+
+- **R-GENERICITY, RANK HALF PROVED:** rank M = j(rho+1) - L +
+  rank Phi (L = sum max(d(x)-2, 0); Phi the explicit concurrency
+  matrix with all-nonzero rows) — 0 violations in ~500 designs,
+  16 rows, 2 domain types. COROLLARY (the clean sufficient
+  condition): distinct gamma_i + every point of W in AT MOST TWO
+  A_i => FULL RANK, lambda completely free. THE RAZOR DESIGN:
+  j = 126 is EXACTLY the one-common-point exact double cover
+  (126 rho = 2r on the nose); kernel dim 2 in closed form
+  (lambda_i = -(u+gamma_i v)/Z_{Y_i}(x^*)) — reproducing round
+  37's measured "kernel dim exactly 2". SIDE-CONDITIONS: 1 and 3
+  PROVED (lambda_i != 0 fails on EXACTLY j of q+1 projective
+  kernel points — 4/4 EXACT HITs; gamma_i off-fibre by the
+  det = c_a c_b (gamma_a-gamma_b)^2 union bound); 2 relaxed
+  (<= 125 collisions tolerable; the inside-block-pair residue
+  named); 4 half-proved (Case |S u W| <= R by MDS; Case B open,
+  zero-power). All four hold simultaneously on 99.87-99.95% of
+  the projective kernel (EXACT counts, replacing 60/60 samples).
+  **The +126 floor is now modulo TWO named residues, not four.**
+- **R-URATE REFUTED — THE EXCHANGE LAW REPLACES IT:** a rank
+  drop in Phi (the Z_{P_i}|_{A^*}-proportional mechanism) buys
+  1/rho slopes per unit and costs ONE fibre slope
+  (chi collapses on A^*): T <= (r+1) - delta +
+  floor((2(r+1)-1+delta)/rho). At small rho the trade PROFITS:
+  C3 (rho = 3) m=2 rank drop => j = 9 > cap 7 => **T = 19 >
+  banked cap 18, FULL C(26,10) census, THREE fields, column-far,
+  T_other = 0** (100% mechanism vs first moment 1.3e-4). BANKED
+  CENSUS CORRECTED: the round-37 T = 17 at this cell was
+  search-limited (j = 7 is reachable => T = 18; the anchor's own
+  honest can't-tell is resolved: search-limited). At the razor
+  delta = 0 is optimal (T_max - (r+1) = 125, 126, 125, 124 at
+  m = 0..3) and 126 STANDS — but the cap is a theorem only
+  within the shared-A^* normal form, and its safety margin is
+  PIGEONHOLE (m_pig = 1.00e9 vs break-even m* = 1.72e10, margin
+  17.17x) — not algebraic. Named breakers: an algebraic family
+  with m > 1.7e10 (cosets EXCLUDED: the X^d - c^d identity
+  forces m <= 2 — proved+measured), or a deficiency mechanism
+  cheaper than one fibre slope per unit (unenumerated).
+  TRANSPORT WARNING: any "c conditions per slope => <= 2(r+1)/c
+  slopes" cap is FALSE in general — the joint rank of Phi is the
+  correct object.
+- **R-USYM CLOSED:** parity fusion <=> sigma^e, sigma^o linearly
+  dependent <=> sigma = (X-x_0)P(X^2) (odd deg) or q(X^2) (even
+  deg); at odd r only the first survives degree parity — THE
+  CARRIER FAMILY IS EXHAUSTIVE. Excess 0 both ways over 31,824 +
+  31,824 + 497,420 locators (2 shapes, 2 fields); counts match
+  C(n/2,(r-1)/2)*(n-r+1) exactly. The round-36 carrier question
+  is answered YES.
+- **CROSS-REFERENCE OWED (recorded):** the engineering matrix is
+  a CONCURRENCY problem — the banked f_concurrency_equiv node
+  (F-lane, PROVED) is the same incidence type; one sentence at
+  wiring stops the next re-derivation.
+- **SCOPE FENCES:** the cap break is 3 fields ONE cell (C9's
+  predicted break verified slope-by-slope but uncensused at
+  C(36,14) = 5.6e9); the m >= 3 no-collision negative has NO
+  power (counting predicts it); the rank-drop search covers the
+  proportional normal form only; column-farness Case B and
+  in-block chi-injectivity remain the +126's two residues; the
+  m_pig margin is information-theoretic. Pilot self-catches: its
+  own sharper cap (B-6/7/8) refuted by its first run; six of its
+  own predictions broken and reported.

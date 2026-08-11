@@ -6200,3 +6200,68 @@ COMPLIANCE: CLEAN 7/7 — THE PRE-BASH CHECKLIST HELD (the breach
 recurrence ends); /dev/null discard ruled compliant and
 codified. Node: addendum. Mint +5. Files:
 notes/pilots_20260811/r38_side_door/.**
+
+## ROUND 38 BANK 2/4 — r38_cauchy_lattice (2026-08-11, coordinator)
+
+**BANKED — T = 3 OVER mu_32 ACHIEVED: ten witnesses, two fields,
+the round-37 named instrument DELIVERED — and the two published
+witnesses COORDINATOR-CERTIFIED e = m = 2 from scratch (nullity
+1, generic rank 7, single reduced drop, no deg<=1 kernel; the
+pilot's honestly-broken certification rule discharged by me).
+THE ALGORITHM: the two scale ratios ELIMINATE EXACTLY — u = f+g
+is determined by the three subsets alone via two 2x5 HANKEL
+MOMENT KERNELS (dim 3 each, meeting in a line); the drop is
+(TEST): u = c_1G + c_2H, c_1c_2 != 0, degree-4 parts (codim 3 =
+the banked deficit; ~330 ops; THE DEGENERATE BRANCH G || H is
+mandatory — 3824 false vs 6 true on one pair; 113/113 brute
+agreement). One pair sweeps ALL C(32,7) = 3,365,856 in 192 s:
+9 hits at q=97 (predicted 9.09 — ratio 0.99!) + 1 at q=193.
+ROUND-37 SUPERSEDED: the 8.9e3x/3.9e6x shortfall was the
+INSTRUMENT's (their own d4_results.txt:54 held the feasible
+912,673); their per-object rate was (q-1)x too large. THE a*
+FORCING: (SCRIT) => a* = 2rho = 14 identically on every s=0
+two-slope object (prior samples all forced; regeneration
+pointless); on the T=3 witnesses per-pair {12,13,14} uniform and
+FORCED; the projective ruling INERT on supported pairs (exactly
+one all-slope pair moves per degree-drop pair) — the convention
+settled operationally. Still SEARCH (no closed-form S_1); T = 4
+needs the rank-<=2 inverse (~q^3 pair-sweeps out of reach).
+COMPLIANCE: 21/21 clean under the checklist; one wall kill
+(sizing; append mode preserved everything — the rule paid a
+third time); one self-caught IndexError. Node: SUPERSEDED marker
++ addendum. Mint +4. Files:
+notes/pilots_20260811/r38_cauchy_lattice/.**
+
+## ROUND 38 BANK 3/4 — r38_urate_genericity (2026-08-11, coordinator)
+
+**BANKED — R-GENERICITY's RANK HALF PROVED; R-URATE REFUTED;
+R-USYM CLOSED. (1) THE RANK THEOREM: the engineering matrix
+decouples into per-point LINE PENCILS — rank M = j(rho+1) - L +
+rank Phi (0 violations, ~500 designs, 16 rows); multiplicity
+<= 2 => FULL RANK, lambda free (the requested Vandermonde/
+exchange condition, unconditional); the razor j = 126 is EXACTLY
+the one-common-point double cover (126*rho = 2r on the nose —
+coordinator-verified), kernel dim 2 in CLOSED FORM. Side-
+conditions: lambda != 0 PROVED (fails on EXACTLY j of q+1
+points, 4/4 EXACT); gamma-off-fibre PROVED; chi-injectivity
+relaxed (<= 125 collisions tolerable; in-block residue named);
+column-far Case A proved, Case B zero-power. **The +126 floor is
+now modulo TWO residues, not four.** (2) R-URATE REFUTED: THE
+EXCHANGE LAW (deficiency buys 1/rho slopes, costs 1 fibre slope)
+— profitable at small rho: **T = 19 > banked cap 18 at C3, FULL
+C(26,10) census, THREE fields, column-far, T_other = 0**; the
+banked T = 17 census number CORRECTED (search-limited; j = 7
+gives 18 — the anchor's honest can't-tell resolved). At the
+razor delta = 0 optimal, 126 STANDS — normal-form-conditional,
+17.17x PIGEONHOLE margin (not algebraic; cosets excluded m <= 2
+by the X^d - c^d identity; cheaper-deficiency mechanisms
+unenumerated). Transport warning: per-slope-cost caps are FALSE
+in general — the joint rank of Phi is the object. (3) R-USYM
+CLOSED: carrier completeness by degree parity at odd r (excess 0
+both ways, ~560k locators, 2 shapes 2 fields; counts =
+C(n/2,(r-1)/2)(n-r+1) exact). Self-refutations: SIX of its own
+predictions incl. its headline sharper cap (killed by its first
+run); the anchor's j=7 resolved search-limited against its own
+prediction. f_concurrency_equiv cross-reference queued.
+COMPLIANCE: 5/5 clean. Node: UPDATE marker + addendum. Mint +5.
+Files: notes/pilots_20260811/r38_urate_genericity/.**

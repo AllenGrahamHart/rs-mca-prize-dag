@@ -1,0 +1,77 @@
+################ g3 side-conditions / rank-drop / carrier ################
+
+== (a) PROJECTIVE SWEEP C1 [mu] n=20 R=10 r=8 rho=2 q=200041 j=8 | FAITHFUL True True True
+   q+1=200042 projective kernel points:  lambda_i=0 for 8  (R2e PREDICTS EXACTLY j=8)
+   chi non-injective 26 (R2g bound 2*C(r+1,2)=72) ; gamma_i on fibre 48 (R2f bound j(r+1)=72) ; (e0,e1)=0 somewhere 0 ; ALL FOUR OK 199960
+   R2e VERDICT: EXACT HIT
+
+== (a) PROJECTIVE SWEEP C1 [intZ] n=20 R=10 r=8 rho=2 q=65537 j=8 | FAITHFUL True True True
+   q+1=65538 projective kernel points:  lambda_i=0 for 8  (R2e PREDICTS EXACTLY j=8)
+   chi non-injective 30 (R2g bound 2*C(r+1,2)=72) ; gamma_i on fibre 48 (R2f bound j(r+1)=72) ; (e0,e1)=0 somewhere 0 ; ALL FOUR OK 65452
+   R2e VERDICT: EXACT HIT
+
+== (a) PROJECTIVE SWEEP C7 [mu] n=22 R=11 r=9 rho=2 q=200003 j=9 | FAITHFUL True True True
+   q+1=200004 projective kernel points:  lambda_i=0 for 9  (R2e PREDICTS EXACTLY j=9)
+   chi non-injective 35 (R2g bound 2*C(r+1,2)=90) ; gamma_i on fibre 63 (R2f bound j(r+1)=90) ; (e0,e1)=0 somewhere 0 ; ALL FOUR OK 199897
+   R2e VERDICT: EXACT HIT
+
+== (a) PROJECTIVE SWEEP C2 [mu] n=24 R=12 r=10 rho=2 q=200017 j=10 | FAITHFUL True True True
+   q+1=200018 projective kernel points:  lambda_i=0 for 10  (R2e PREDICTS EXACTLY j=10)
+   chi non-injective 44 (R2g bound 2*C(r+1,2)=110) ; gamma_i on fibre 80 (R2f bound j(r+1)=110) ; (e0,e1)=0 somewhere 0 ; ALL FOUR OK 199884
+   R2e VERDICT: EXACT HIT
+
+== (b) RANK-DROP SEARCH C3 [mu] n=26 r=10 rho=3 q=200201
+   |D\W|=15  #rho-subsets P enumerated EXHAUSTIVELY = 455
+   m=2 |A*|=2 : 286 distinct projective classes, LARGEST class = 8, singletons = 190
+   m=3 |A*|=3 : 455 distinct projective classes, LARGEST class = 1, singletons = 455
+   m=4 |A*|=4 : 455 distinct projective classes, LARGEST class = 1, singletons = 455
+   (B-11 predicts largest class small; a rank drop needs a class of size >= j)
+
+== (b) RANK-DROP SEARCH C1 [mu] n=20 r=8 rho=2 q=200041
+   |D\W|=11  #rho-subsets P enumerated EXHAUSTIVELY = 55
+   m=2 |A*|=2 : 52 distinct projective classes, LARGEST class = 3, singletons = 50
+   m=3 |A*|=3 : 55 distinct projective classes, LARGEST class = 1, singletons = 55
+   m=4 |A*|=4 : 55 distinct projective classes, LARGEST class = 1, singletons = 55
+   (B-11 predicts largest class small; a rank drop needs a class of size >= j)
+
+== (b) RANK-DROP SEARCH C9 [intZ] n=36 r=14 rho=4 q=65537
+   |D\W|=21  #rho-subsets P enumerated EXHAUSTIVELY = 5985
+   m=2 |A*|=2 : 4168 distinct projective classes, LARGEST class = 15, singletons = 3118
+   m=3 |A*|=3 : 5985 distinct projective classes, LARGEST class = 1, singletons = 5985
+   m=4 |A*|=4 : 5985 distinct projective classes, LARGEST class = 1, singletons = 5985
+   (B-11 predicts largest class small; a rank drop needs a class of size >= j)
+
+== (c) R2k COSET IDENTITY on mu_20 < F_200041
+   d=2 (|H|=2): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=4 (|H|=4): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=5 (|H|=5): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=10 (|H|=10): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   R2k CONSEQUENCE (m<=2 on coset families): identity holds = True
+
+== (c) R2k COSET IDENTITY on mu_24 < F_500041
+   d=2 (|H|=2): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=3 (|H|=3): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=4 (|H|=4): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=6 (|H|=6): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=8 (|H|=8): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   d=12 (|H|=12): Z_{cH}(X) = X^d - c^d  verified for 3 cosets x all x in mu_n : True
+   R2k CONSEQUENCE (m<=2 on coset families): identity holds = True
+
+== (d) CARRIER EXHAUSTIVENESS n=18 k=9 R=9 r=7(ODD=True) rho=2 q=65537 | FAITHFUL True True True
+   swept 31824 split locators of degree exactly r
+   #{sigma^e prop sigma^o} = 1008 ; #{(X-x_0)P(X^2) form} = 1008 ; both = 1008
+   prop-but-NOT-carrier = 0 ; carrier-but-NOT-prop = 0
+   R2l VERDICT: EXHAUSTIVE (excess 0 both ways)
+
+== (d) CARRIER EXHAUSTIVENESS n=18 k=9 R=9 r=7(ODD=True) rho=2 q=999983 | FAITHFUL True True True
+   swept 31824 split locators of degree exactly r
+   #{sigma^e prop sigma^o} = 1008 ; #{(X-x_0)P(X^2) form} = 1008 ; both = 1008
+   prop-but-NOT-carrier = 0 ; carrier-but-NOT-prop = 0
+   R2l VERDICT: EXHAUSTIVE (excess 0 both ways)
+
+== (d) CARRIER EXHAUSTIVENESS n=22 k=11 R=11 r=9(ODD=True) rho=2 q=65537 | FAITHFUL True True True
+   swept 497420 split locators of degree exactly r
+   #{sigma^e prop sigma^o} = 4620 ; #{(X-x_0)P(X^2) form} = 4620 ; both = 4620
+   prop-but-NOT-carrier = 0 ; carrier-but-NOT-prop = 0
+   R2l VERDICT: EXHAUSTIVE (excess 0 both ways)
+################ g3 done ################

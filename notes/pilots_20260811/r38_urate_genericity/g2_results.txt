@@ -1,0 +1,44 @@
+################ g2 census run ################
+
+== CENSUS C1 [mu] n=20 k=10 R=10 r=8 rho=2 q=200041 j=8(cap) | FAITHFUL True True True
+   C(n,r)=125970  |chi(W)|=9  chi-collisions=0  dimker=2
+   T=25  T_fib(present)=9  T_eng=8/8  T_other=8  | PREDICTED T=(r+1)+j=17
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=25)
+   mu_1=C(n,r)/q^rho=3.14796e-06  q*mu_1=0.629721  (ZP-3: descriptor only, zero power)
+
+== CENSUS C1 [mu] n=20 k=10 R=10 r=8 rho=2 q=500041 j=8(cap) | FAITHFUL True True True
+   C(n,r)=125970  |chi(W)|=9  chi-collisions=0  dimker=2
+   T=17  T_fib(present)=9  T_eng=8/8  T_other=0  | PREDICTED T=(r+1)+j=17
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=17)
+   mu_1=C(n,r)/q^rho=5.03797e-07  q*mu_1=0.251919  (ZP-3: descriptor only, zero power)
+
+== CENSUS C1 [intZ] n=20 k=10 R=10 r=8 rho=2 q=65537 j=8(cap) | FAITHFUL True True True
+   C(n,r)=125970  |chi(W)|=9  chi-collisions=0  dimker=2
+   T=19  T_fib(present)=9  T_eng=8/8  T_other=2  | PREDICTED T=(r+1)+j=17
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=19)
+   mu_1=C(n,r)/q^rho=2.93288e-05  q*mu_1=1.92212  (ZP-3: descriptor only, zero power)
+
+== CENSUS C7 [mu] n=22 k=11 R=11 r=9 rho=2 q=200003 j=9(cap) | FAITHFUL True True True
+   C(n,r)=497420  |chi(W)|=10  chi-collisions=0  dimker=2
+   T=22  T_fib(present)=10  T_eng=9/9  T_other=3  | PREDICTED T=(r+1)+j=19
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=22)
+   mu_1=C(n,r)/q^rho=1.24351e-05  q*mu_1=2.48706  (ZP-3: descriptor only, zero power)
+
+== CENSUS C7 [intZ] n=22 k=11 R=11 r=9 rho=2 q=65537 j=9(cap) | FAITHFUL True True True
+   C(n,r)=497420  |chi(W)|=10  chi-collisions=0  dimker=2
+   T=24  T_fib(present)=10  T_eng=9/9  T_other=5  | PREDICTED T=(r+1)+j=19
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=24)
+   mu_1=C(n,r)/q^rho=0.000115811  q*mu_1=7.58991  (ZP-3: descriptor only, zero power)
+
+== CENSUS C2 [mu] n=24 k=12 R=12 r=10 rho=2 q=200017 j=10(cap) | FAITHFUL True True True
+   C(n,r)=1961256  |chi(W)|=11  chi-collisions=0  dimker=2
+   T=30  T_fib(present)=11  T_eng=10/10  T_other=9  | PREDICTED T=(r+1)+j=21
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=30)
+   mu_1=C(n,r)/q^rho=4.90231e-05  q*mu_1=9.80545  (ZP-3: descriptor only, zero power)
+
+== CENSUS C3 [mu] n=26 k=13 R=13 r=10 rho=3 q=200201 j=7(cap) | FAITHFUL True True True
+   C(n,r)=5311735  |chi(W)|=11  chi-collisions=0  dimker=1
+   T=18  T_fib(present)=11  T_eng=7/7  T_other=0  | PREDICTED T=(r+1)+j=18
+   common locators=0  => COLUMN-FAR   (proportional-leaf hits=53)
+   mu_1=C(n,r)/q^rho=6.61969e-10  q*mu_1=0.000132527  (ZP-3: descriptor only, zero power)
+################ g2 done ################
