@@ -1877,3 +1877,35 @@ s=1,j=0: a in {1,2}.
 At `s=0,a=2`, the two gaps from `I_H,O<=Delta` total one; at `s=1,a=1`
 they total two. The proved node is
 `rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin`.
+
+## Cycle 84: constant-residual triple-tangency packets (2026-08-11, Codex)
+
+After cancelling the heavy factor, write the scalar residual as `R_a(X)`.
+At a heavy supported incidence on a row where `R_a` is nonzero, the exact
+cube identity has local form
+
+```text
+L_gamma=unit*s_F^3.
+```
+
+The horizontal intersection length is therefore divisible by three. The
+minimal split recurrence factor contributes one simple root, so the excess
+factor consumes at least two degrees at every such ordinary incidence.
+Incidences on heavy roots of `R_a` consume at least one degree. Hence
+
+```text
+2I_0+I_E<=sum_gamma c_gamma<=Delta.
+```
+
+This classifies the two smallest scalar residuals. For `s=0,a=2`, `R_2`
+has two distinct heavy domain roots, `O=Delta`, and the row-deficit packets
+are
+
+```text
+({1,1}, I_0=0),       ({1,2}, I_0=1).
+```
+
+For `s=1,a=1`, the unique root of `R_1` is a heavy row of deficit `2..6`.
+There are exactly six gap packets and at most two ordinary heavy
+incidences. The proved node is
+`rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets`.

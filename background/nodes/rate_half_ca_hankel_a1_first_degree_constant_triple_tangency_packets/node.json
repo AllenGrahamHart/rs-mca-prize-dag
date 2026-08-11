@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets",
+    "title": "A=1 constant-residual triple-tangency packets",
+    "status": "PROVED",
+    "closure": "local cube valuation and exact defect allocation",
+    "statement": "Away from the roots of the small residual X-form, the ambient cube identity makes every heavy supported horizontal intersection a positive multiple of three, so it consumes at least two specialized excess-recurrence degrees. The core-free residual-degree-two case consequently has exactly two distinguished heavy rows with deficits {1,1} or {1,2} and at most one ordinary heavy incidence. The core-one residual-degree-one case has one distinguished heavy row of deficit 2..6 and at most two ordinary heavy incidences, in six exact gap packets.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_constant_triple_tangency_packets/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_ambient_defect_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_heavy_incidence_pin"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
