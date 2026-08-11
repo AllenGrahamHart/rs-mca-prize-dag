@@ -2865,3 +2865,28 @@ The reverse orientation gives the corresponding clone class and formula on
 sharp boundary with the Forney numerator; it does not assert that a sharp
 pair exists. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_minimum_pair_clone_barycentric_gate`.
+
+## Cycle 120: the sharp quadratic pair boundary is empty (2026-08-11, Codex)
+
+The Cycle-118 clone class cannot occur. Its `e` common supported locator
+slopes, together with one endpoint, are forced onto one codeword pencil by
+the full-locator triple-union bound and minimum distance. After removing the
+fixed core point, every point in that pencil's joint support is light and
+must miss exactly one of the `e+1` selected slopes. The resulting missing
+incidence count forces deficit `e-2` on the pencil, contradicting the exact
+packet-wide deficit `e-6` in both quadratic root patterns. Therefore
+
+```text
+|S_alpha union S_beta|>=rho+3,
+3h<=rho+3-sum_(gamma in A)r_gamma.
+```
+
+Every pair has at least
+
+```text
+ceil((2rho+9+r_alpha+r_beta)/3)>=2e+3
+```
+
+expanding thirds. The next minimum pair boundary has coefficient-row rank
+at most two. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion`.

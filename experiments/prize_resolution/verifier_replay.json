@@ -2,33 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/v13_2_near_rational_pair_proximity/verify.py",
-      "seconds": 0.092645,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion/verify.py",
+      "seconds": 0.042978,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "V13_2_NEAR_RATIONAL_PAIR_PROXIMITY_PASS 4374\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_GAP_FOUR_SHARP_PAIR_EXCLUSION_PASS\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/v13_2_near_rational_supportwise_payment/verify.py",
-      "seconds": 0.068517,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_sharp_pair_exclusion/verify_audit.py",
+      "seconds": 0.017901,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "V13_2_NEAR_RATIONAL_SUPPORTWISE_PAYMENT_REFUTED [0, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16] PLUS_ONE_WITNESS (3, 5)\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py",
-      "seconds": 0.039619,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "V13_2_NEAR_RATIONAL_TWO_ANCHOR_PAYMENT_OK [3, 5]\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_GAP_FOUR_SHARP_PAIR_EXCLUSION_AUDIT_PASS\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
