@@ -1567,3 +1567,30 @@ for one effective degree-one Cartier point. The proved node is
 The live strict theorem is now only incompatibility of this point and the
 univariate identity with the supported-grid divisor, separately for
 `d=0,1`. The critical node remains open.
+
+## Cycle 74: strict `A=3` branch closure (2026-08-11, Codex)
+
+On the normalized final-corner curve, decompose the grid divisors as
+
+```text
+D_G=K+Z_+,       D_H=K+P_-,       p=deg P_-<=O<=1.
+```
+
+The support of `K` is exactly the distinct grid incidence set, so its total
+multiplicity in excess of one per incidence is `O-p<=1-p`. The Picard-pin
+identity has divisor
+
+```text
+3P_*+Z_+ + dE_F-P_-=pi_X^* div(A_d),       d<=1.
+```
+
+Every fibre on the right is complete. If the clearing fibre is absent from
+`P_*`, completeness forces `K=3P_*` and costs two excess units. If the two
+fibres coincide, completeness forces `K+P_-=3P_*` and costs `2-p` excess
+units. The ledger permits only `1-p`, a contradiction in both cases.
+
+The proved node is
+`rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion`. Together
+with the slope-slack theorem, it excludes every strict `A=3` moving-kernel
+profile. Only the residual `A=1` profiles and the independent crossing and
+adjacent-unsafe obligations remain live in this critical target.

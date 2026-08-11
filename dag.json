@@ -28999,8 +28999,8 @@
    "title": "BAND CHILD 2 (RH-AC): locate the rate-half adjacent crossing a_RH(q) on every unresolved row",
    "status": "TARGET",
    "key": true,
-   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the strict-A=3 endpoint analysis, NEWCAP leaves a 9/4 residual. The capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. Forney-contact pole interpolation excludes every strict A=3 profile except the corner e=floor(rho/3), delta=1, T=rho+2, O<=1; that corner is now pinned to one absolutely irreducible curve, one effective contact point, and the univariate identity s_F^3(FG/H)=A_d(X), d<=1. Residual A=1 profiles and the adjacent unsafe witness also remain open.",
-   "attack_surface": "Prioritize the final strict-corner divisor identity s_F^3(FG/H)=A_d(X) for d in {0,1}; the residual A=1 profiles; a theorem forcing two-fibre mass at least 25m/4; or a collective inequality for arbitrary realizable shortened-apolar families that bypasses uniform pointwise spend. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue broad e>m sweeps, component classifications, any e=m endpoint branch, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
+   "statement": "For every admissible rate-half row n=2^41, k=2^40, q=p^e with e in {1,...,6} and 2^167<q<2^256, determine the adjacent MCA crossing a_RH(q) satisfying B_mca(a_RH)<=floor(q/2^128)<B_mca(a_RH-1). The proved lower endpoint is k+2^34. On razor rows the proved direct-MCA Haboeck bounds give upper endpoints a_94=1563215236073 and, above the printed threshold, a_95=1563128173124. The far-CA/sparse crossing and adjacent unsafe witness remain open. In the endpoint analysis, every strict A=3 moving-kernel profile is now excluded: slope slack handles all but the sole delta=1 corner, and the corner's univariate Picard identity contradicts the exact excess-incidence ledger. The residual A=1 profiles remain open. Independently, the capacity route requires spend 9m/4+1 officially. The proved two-type-1 projective-fibre argument supplies only 2m+1 and the exact cap 9m/2; reaching the closing spend through that bound requires the two fibres to total at least 25m/4, an additional m/4 beyond their automatic baseline. An incidence countermodel fences support-only FR, while a root-counting obstruction shows that countermodel has no coset-preserving apolar-biform lift. The adjacent unsafe witness also remains open.",
+   "attack_surface": "Prioritize the residual A=1 moving-kernel profiles; a theorem forcing two-fibre mass at least 25m/4; or a collective inequality for arbitrary realizable shortened-apolar families that bypasses uniform pointwise spend. Keep the endpoint calibrated to outside spend 9m/4+1 (clean intersection at most 7m/4-2). Do not continue strict A=3 sweeps or corner geometry, component classifications, any e=m endpoint branch, the incidence-only FR route, stop at the insufficient two-type-1 spend 2m+1, or re-audit the fenced quartic countermodel. Independently seek a beyond-Johnson direct MCA upper bound or an exact adjacent unsafe family. Preserve the q=p^e scope and do not substitute ordinary LIST supply for MCA without a proved beyond-half-distance conversion.",
    "falsifier": "An admissible row outside the printed bracket; a received word violating a proposed safe numerator; a claimed adjacent-unsafe family that fails exact slope count, endpoint, field, or ownership checks; or a purported FR proof using only the fenced incidence axioms.",
    "gate": "all",
    "refs": [
@@ -30862,6 +30862,24 @@
     "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/provenance.md",
     "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify.py",
     "background/nodes/rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion",
+   "title": "Final strict A=3 corner divisor exclusion",
+   "status": "PROVED",
+   "closure": "complete-fibre divisor and excess-multiplicity contradiction",
+   "statement": "The sole strict corner rho=3e+1, T=rho+2, delta=1, O<=1 is impossible. On the normalization, the univariate Picard identity forces its zero divisor to be a union of complete domain fibres. Fibre degree then concentrates common-grid multiplicity 3-p at the contact point, where p<=1 is the pole degree. This requires excess multiplicity 2-p, while the exact incidence ledger permits only O-p<=1-p. Hence every strict A=3 moving-kernel failure on the official row is excluded.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion/verify_audit.py"
    ]
   },
   {
@@ -63882,14 +63900,29 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_strict_a3_final_corner_integral_picard_pin",
+   "to": "rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion",
+   "to": "rate_half_ca_hankel_strict_a3_final_corner_divisor_exclusion",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_strict_a3_slope_slack_contact_exclusion",
