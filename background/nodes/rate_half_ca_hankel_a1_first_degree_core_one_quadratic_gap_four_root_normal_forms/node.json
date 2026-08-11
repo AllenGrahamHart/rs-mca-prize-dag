@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms",
+    "title": "A=1 core-one quadratic gap-four root normal forms",
+    "status": "PROVED",
+    "closure": "complete minimum-gap root, contact, and Picard classification",
+    "statement": "The core-one parameter-constant residual quadratic has u>=4. At u=4 omission vanishes, ordinary incidences are absent, and exactly two patterns remain. A heavy double root has deficit six and a canonical effective degree-two Picard class. Two heavy simple roots have forced deficits (e+3)/2 and (e+9)/2 and an explicit degree-(e+2) contact-complement class.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_core_stripped_forney_contact_section"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_constant_root_row_mod_three_correction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

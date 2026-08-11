@@ -2251,3 +2251,35 @@ The complete contact divisor is `R_1+R_2+R_3+P_h+I_0R_0`. Unlike the
 double-root branch, the induced Picard class has degree `e+1`; bounded-degree
 section vanishing is therefore not a closing route. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_squarefree_gap_one_correction_normal_forms`.
+
+## Cycle 98: the core-one quadratic starts with two exact root patterns (2026-08-11, Codex)
+
+For the remaining core-one scalar quadratic, the exact gap identity is
+
+```text
+u+v=e+2,
+```
+
+so `u>=4`. At `u=4`, omission vanishes. Every excess root is simple and new,
+ordinary incidences disappear, and the complete excess degree is `e-6`.
+
+If the quadratic has a double root, that heavy row has deficit six and
+
+```text
+V_*=R_*+3B,
+div(s_F)=R_*+2B,
+O_C(rho+2,-e-1)=O_C(B),       deg B=2,       h^0=1.
+```
+
+If the quadratic is squarefree, both roots are heavy. Parity and the local
+cube correction force, up to exchange,
+
+```text
+(c_1,c_2)=((e+3)/2,(e+9)/2),
+(q_1,q_2)=(3,9).
+```
+
+Their vertical/contact forms are `V_i=2R_i+3P_i` and `D_i=R_i+P_i`, with
+`deg(P_1,P_2)=(1,3)`. The induced effective Picard class has degree `e+2`.
+Both patterns remain live. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_root_normal_forms`.
