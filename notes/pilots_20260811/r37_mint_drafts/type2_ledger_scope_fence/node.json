@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_ledger_vacuous_by_sign_fence",
+    "title": "The type-2 ledger is vacuous by sign on the whole open bracket",
+    "status": "PROVED",
+    "closure": "exact sign computation on the (C2) per-slope floor",
+    "statement": "(C2)'s per-slope floor is (R+1) - w* with w* = |S_g u S_h| ranging over [r, 2r]. It is positive for every admissible W iff 2r <= R, which at rate one half is identically the condition a >= 3n/4, the top of the open bracket. At razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho = 1082331758592) the adversary takes w* = 2r and the floor is -1065151889407: the ledger is vacuous BY SIGN, not by slack, since positivity would require |S_g ^ S_h| >= 2r - R = 62r/63 = 98.412698% of r, which is adversary-free. Consequently no transport of (C2), (C3), (C4), X_gamma or layer-A instruments into the half-open bracket [k+2^34, 3n/4) can bind: the bracket is vacuous by sign before it is vacuous by counting, and the sign flips exactly at the excluded top a = 3n/4 = k + 2^39, where the floor is precisely +1.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/type2_ledger_scope_fence/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/type2_ledger_scope_fence/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/type2_ledger_scope_fence/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status, id and edges are SUGGESTIONS for coordinator line-audit; nothing here is wired.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (route restriction: it forecloses a whole class of transports into the open bracket)"
+    ],
+    "suggested_cross_pointers": [
+      "notes/pilots_20260811/r37_mint_drafts/statement_u (the (FIB) cap is a from-scratch pigeonhole PRECISELY because this ledger cannot be imported)",
+      "notes/pilots_20260811/r37_mint_drafts/negation_closure_excess_fence (2r > R is the same inequality that puts the razor row at r > R/2)"
+    ],
+    "edge_character": "This is a route restriction, like the layer-A saturation-count fence: the outgoing edge restricts a possible proof route and does NOT discharge a requirement.",
+    "not_verified_here": [
+      "anything about the true size of B_ca^far on the bracket -- that is Statement U's question",
+      "the source's w* measurements (reported under a 24-locator cap whose direction favours the vacuity conclusion)"
+    ]
+  }
+}

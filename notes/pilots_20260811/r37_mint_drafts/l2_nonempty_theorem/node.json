@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_l2_stratum_nonempty_at_m_two",
+    "title": "R-L2: the e = m stratum is nonempty at m = 2 (witness theorem)",
+    "status": "PROVED",
+    "closure": "explicit certified witnesses over five fields",
+    "statement": "There exist (4m+1) x 4m syndrome Hankel pencils with minimal index exactly m = 2, generic rank 4m-1 = 7, s = 0, delta = m-1 = 1, and independent Q_0, Q_1, Q_2: twelve are certified over q in {97,193,257,641,769}. Existence is witness-checkable. Membership is decided by the (D-B) congruence criterion nullity(36x32) = 10 - rank(Phi) for the 14x10 map (f,g) -> (Q_2 f - Q_1 g mod Q_0, Q_1 f - Q_0 g mod Q_2), and objects are produced by the (D-F) inversion, which at m = 2 makes the cleared system a square 24x24 in the curve so that existence is the single condition det M(B) = 0 (hit rate ~1/q against q^-5 blind); the squareness is an m = 2 accident. The equation-count excess 4m^2-7m+2 = -1,+4,+17,+38 is NOT an existence codimension: the determinantal codimension is (36-31)(32-31) = 5 in the 23-dimensional curve space, giving expected dimension 11m-4 > 0 at every m >= 1 and exactly 18 = 23-5 at m = 2, while the planted-common-root family (nullity 2) is an excess component of dimension 21. The emptiness route to the strict endpoint is therefore dead at m = 2 constructively and expected-dead at every m. All witnesses have T = 0: having a syndrome pencil buys nothing at the splitting layer.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/l2_nonempty_theorem/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/l2_nonempty_theorem/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/l2_nonempty_theorem/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status, id and edges are SUGGESTIONS for coordinator line-audit; nothing here is wired.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (kills the emptiness route at m = 2)"
+    ],
+    "suggested_cross_pointers": [
+      "rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion (PROVED; it, not R-L2, is what excludes official-row strict A=3 e=m endpoint profiles -- the witness is outside its hypotheses on both counts, so there is no contradiction)",
+      "notes/pilots_20260811/r37_mint_drafts/l2_par_parametrization (the round-36 successor instrument; supersedes the (D-F) inversion at rate 1)"
+    ],
+    "convention_flag_for_coordinator": "a* = 13 reproduces ONLY under the projective reading of a locator (pencil member as a degree-rho form on P^1, roots at infinity counted). The affine reading gives 12 on the same witness. The source addendum does not state the convention and the round-35 F1 sentence is convention-sensitive. Requesting a convention ruling before any F1/(NEWCAP) claim is priced.",
+    "not_verified_here": [
+      "the eleven other witnesses (only the published q = 97 object is replayed)",
+      "the (D-F) inversion's 24x24 squareness (the round-35 B-parametrization is not reconstructed here)",
+      "any m >= 3 statement",
+      "(SAT2)-(SAT5) -- vacuous at T = 0"
+    ]
+  }
+}

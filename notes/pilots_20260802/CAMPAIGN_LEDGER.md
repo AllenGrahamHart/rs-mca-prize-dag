@@ -6010,3 +6010,30 @@ COMPLIANCE: 5/5 clean (streak rebuilds: 1); BOTH new rules held
 (append-mode files; no head pipes). Node: REFUTED + CHECK-DONE
 markers + addendum. Mint +5. Files:
 notes/pilots_20260811/r37_urand/.**
+
+## ROUND 37 BANK 2/4 — r37_mint_drafts (2026-08-11, coordinator)
+
+**BANKED AS DRAFTS — THE MINT WAVE IS DRAFTED: 10/10 packages
+complete (statement + node.json + PASSING verify.py; proof.md
+where honest), 25/25 ramguard clean, statuses conservative (three
+shipped deliberately without proof.md). Coordinator spot-replays
+1/2/5 ALL PASS — incl. the T=2 witness rebuilt from (f,g,h,k,L)
+alone + the third-condition implication settled EXHAUSTIVELY over
+F_13^4 (144 = (q-1)^2 exceptions, all f=g=0), and the fence
+verifier confirming the pilot's OWN generalization: the covering
+count C(m-1,r/2-1) is the off=1 face of C(m-off, r/2-off), which
+reproduces ALL SIX banked cells (adopted — D3). TWELVE
+DISCREPANCIES dispositioned on the node: D1 (a* is
+projective-vs-affine convention-sensitive — the round-35 F1
+sentence needs a RULING before any F1/(NEWCAP) pricing; the
+wave's most consequential catch); D9 RESOLVED (the gate formula
+was banked all along at r35_rout_layer_a/REPORT.md:242 — the
+addenda never reprinted it; calibration re-verified by hand);
+D11 RULED (deg_Sh rename); D7 ruled not-a-defect; D2/D4/D5/D6/
+D8/D10/D12 confirmed and recorded. WIRING DEFERRED to task #41
+(post-close): 7 exemplar files per node + verify_audit.py second
+code paths + the statement_u RE-DRAFT against bank 1's refutation
++ the unread Codex-cycle window subtraction. No node wired; no
+status assigned; census unchanged. Files:
+notes/pilots_20260811/r37_mint_drafts/ (10 package dirs +
+MANIFEST.md).**

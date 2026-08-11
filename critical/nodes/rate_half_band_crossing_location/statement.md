@@ -4744,3 +4744,88 @@ r+1+126 = 1,082,331,758,719; the ceil-vs-floor parity collapse
   head pipes — both new rules held on first outing); the pilot's
   own blind constant log2(128/65) wrong in the 4th decimal,
   self-reported (miss 1).
+
+## Round-37 mint-drafts addendum (2026-08-11, coordinator-audited): 10/10 packages drafted and verifier-passing; twelve discrepancies dispositioned; wiring deferred to the post-close mint session
+
+Pilot r37_mint_drafts (round 37, bank 2 — a DRAFTING bank, not a
+research bank). 10 of 10 mint packages complete (statement.md +
+node.json + PASSING verify.py each; proof.md where status
+warrants), drafted from the round-34..36 addenda with exact
+sourcing and conservative statuses. Coordinator spot-replays:
+packages 1, 2, 5 re-run PASS (the (PAR) verifier rebuilds the
+banked T=2 witness from (f,g,h,k,L) alone and settles the
+third-condition implication EXHAUSTIVELY over F_13^4 — exactly
+(q-1)^2 exceptions, all f(ell)=g(ell)=0; the fence verifier
+confirms the row-collapse on all 1158 covering locators and the
+bad-set = covering-set identity). WIRING DEFERRED to a dedicated
+session after the round closes (task #41): the exemplar format
+needs 7 more files per node incl. the independent verify_audit.py
+second code path; package 1 (statement_u) must be re-drafted
+against the round-37 bank-1 REFUTATION; packages 8/10 blocked on
+D11/D9 until now.
+
+**DISCREPANCY DISPOSITIONS (the pilot's D1-D12, coordinator
+rulings):**
+- **D1 (a* convention) — ACCEPTED AS A GENUINE AMBIGUITY, ruling
+  queued:** the round-35 a* = 13 reproduces only under the
+  PROJECTIVE reading (roots at infinity counted); the affine
+  reading gives 12 on the same witness. NO F1/(NEWCAP) pricing
+  until the convention is ruled; flagged to the F1 ledger.
+- **D2 ((RES) iff) — CORRECT SPLIT:** forward PROVED (one line),
+  converse MEASURED (1200/1200). Package 2 carries it so; my
+  round-36 addendum's bare "iff" is qualified by this record.
+- **D3 (the covering count) — A GENUINE GENERALIZATION, ADOPTED:**
+  C(m-1, r/2-1) is the off = 1 face of C(m-off, r/2-off),
+  off = m-(r+1); the general law reproduces ALL SIX banked cells
+  (165/715/3003/1365 at H4-H8 included) — verifier-confirmed.
+  The round-36/37 fence texts are hereby read with the general
+  law; the drafting pilot's own contribution.
+- **D4 (locators vs slopes) — CONFIRMED:** 330 locators, 329
+  slopes at H3; only slope counts enter T. Recorded.
+- **D5 ("the official row's own shape") — CLARIFIED:** the phrase
+  denotes the a = 3n/4+1 evaluation point (r = B*-1 <= R/2),
+  OUTSIDE the open bracket; at the crossing offset a = k+2^34 the
+  row has r = 63*2^34 > R/2. This is exactly why Statement U(')
+  needs its own cap. Wording tightened here, not silently.
+- **D6 (the 8/25/47 rule) — RESOLVED:** the ceiling table
+  D = [(m-1) * ceil(6m/k)] + [(m-2) * ceil((m-1)/k')] - (4m-1)
+  at k = k' = 2 generates 8, 25, 47 (the closed-form display was
+  the divisible-case idealization — already noted at the bank-4
+  audit; now stated once, here).
+- **D7 (the "(11 at m=4)" parenthesis) — NOT A DEFECT:** 4m-8
+  holds for m >= 7 (tD = 7 requires m >= 7); at m = 4 the true
+  ceilinged value IS 11 = D(3,3). The text was correct; the
+  reader-trap is now disarmed by this note.
+- **D8 (the m <= 6 vacuity boundary) — CONFIRMED SOFT:** the
+  crossover at m = 7 is the load-bearing claim; the ~(m-5)
+  constant is soft. Round-36 bank-4's own MISS 4 already recorded
+  the off-by-one; consistent.
+- **D9 (the gate formula) — RESOLVED BY THE COORDINATOR:** the
+  expression IS banked, at r35_rout_layer_a/REPORT.md:242
+  (log2 E = [(m+1)(rho+1)-4] log2 q + log2 C(q+1,T) +
+  T[log2 C(16m,4m-1) - rho log2 q]; the dim-18 sharpened variant
+  in r36_sat3_on_l2's registrations) — the ADDENDA never
+  reprinted it. Calibration re-verified by hand (+13.75 at m=1,
+  q=17). Package 10 unblocked; pointer recorded here so the
+  formula is never "lost" again.
+- **D10 (sign conventions) — CONFIRMED:** the locator-layer and
+  TCAP ledger rows use opposite conventions and agree in VERDICT
+  only; never to be added. (Already flagged at the round-34
+  bank-4 audit; now on the node.)
+- **D11 (deg_H collision) — RULING: the (DEG-m) quantity is
+  RENAMED deg_Sh** (sharing-hypergraph degree) **at wiring time**;
+  the PROVED a1 node keeps deg_H. Package 8 unblocked.
+- **D12 (fence duplication) — CONFIRMED:** package 6 cites the
+  wave-59-node coordinator addendum rather than re-claiming the
+  generalized fence; its contributions are the fresh m=3 replay
+  (60x48, nullity 6 = 2m) and the explicit H1+H2 linear solve.
+  The missing (RIC3) cross-citations go in at wiring.
+
+**SCOPE:** drafts are PROPOSALS — no node is wired, no status is
+assigned in the DAG by this bank; the verifiers replay statements
+and banked constants, NOT the original experiments (the pilot's
+own zero-power declaration, held). Pilot compliance: 25/25
+ramguard clean; anti-import pattern; one parent-dir ls disclosed
+(names already known from CONSTRAINTS). Anchor 1's Codex-cycle
+window (L3967-4269) was NOT read by the pilot — the wiring
+session must subtract packages against it.

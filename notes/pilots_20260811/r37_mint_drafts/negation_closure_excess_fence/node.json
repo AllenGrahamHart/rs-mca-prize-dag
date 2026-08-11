@@ -1,0 +1,45 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_far_ca_negation_closure_excess_fence",
+    "title": "The negation-closure excess and its razor kill",
+    "status": "PROVED",
+    "closure": "exact structural excess family with a rho-threshold fence",
+    "statement": "On a negation-closed evaluation domain D = {+-1,...,+-m} (n = 2m), which the official power-of-two multiplicative subgroup is, column-far razor-faithful pencils with e_1 = x^2 e_0 carry T = 95..98 bad slopes against r+1 = 9, field-size independently and at mu_1 down to 1.26e-7, beating the first moment by 750x with zero saturation; the same family on the non-closed domain {1,...,20} gives T = 10. The mechanism is exact: since v_{-x} = (-1)^{n-1} v_x and sum_x v_x g(x) = 0 for deg g <= n-2, an even locator sigma(x) = Q(x^2) with root set A u (-A) collapses every odd-index Hankel row onto the orbits the error support misses, so a locator covering those orbits leaves exactly ceil(rho/2) conditions on the single unknown slope. Hence rho = 2 yields one slope per covering even locator and rho >= 3 yields generically none. The number of covering even locators is C(m-off, r/2-off) with off = m-(r+1); the banked form C(m-1, r/2-1) is its off = 1 face. At rho = 2 the bad set equals the covering set exactly (84 at H1, 330 at H3, both fields), though at H3 those 330 locators carry only 329 distinct slopes. The excess is killed at the razor exactly: ceil(rho/M) = 1 needs M >= rho = 2^34, and at M = 2 the surplus is 2^33 - 1 = 8589934591 conditions -- a rho-threshold, not a field threshold. Consequently any far-CA counting argument treating D as a generic point set is unsound at small rho.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/negation_closure_excess_fence/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/negation_closure_excess_fence/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/negation_closure_excess_fence/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status, id and edges are SUGGESTIONS for coordinator line-audit; nothing here is wired.",
+    "corrections_this_package_makes_to_the_source": [
+      "the count law is C(m-off, r/2-off) with off = m-(r+1); the banked C(m-1, r/2-1) is only its off = 1 face and is stated in the addendum without that hypothesis (it fails at H4/H6/H7/H8, where off = 2,2,2,3)",
+      "at H3 the 330 bad even LOCATORS carry only 329 DISTINCT SLOPES -- the two counts are not interchangeable and only the slope count enters T",
+      "the razor row at the crossing offset itself has r > R/2, so the proved bound B_ca^far(n-r) <= r+1 does not cover it; the same inequality 2r > R is what makes the type-2 ledger vacuous by sign"
+    ],
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (far-CA: the T_sym carrier and the reason the first moment is unsound at small rho)"
+    ],
+    "suggested_cross_pointers": [
+      "notes/pilots_20260811/r37_mint_drafts/statement_u (this IS the U-sym mode; (KILL) is the argument that condition-kills U-sym)",
+      "notes/pilots_20260811/r37_mint_drafts/type2_ledger_scope_fence (2r > R is one inequality carrying both fences)",
+      "the banked e22 orbit-invariant locator algebra L_B(X)G(X^M) (the carrier)",
+      "split_pencil_equivalence (the supplier node carrying the shape fence)"
+    ],
+    "not_verified_here": [
+      "the total T = 95..98 census itself (this verifier reproduces the even-locator carrier exactly, not the full C(n,r) sweep)",
+      "the symmetric-T variant at rho >= 3 -- UNMEASURED, named gap",
+      "characteristic 2; anything at razor scale by measurement"
+    ]
+  }
+}

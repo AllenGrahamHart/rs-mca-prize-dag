@@ -1,0 +1,43 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_layer_a_equivalence_and_geometry_counterexamples",
+    "title": "(LA-EQ) and the layer-A geometry counterexamples",
+    "status": "PROVED",
+    "closure": "constructive refutation of two hypothesis rungs, plus an infinite fence family",
+    "statement": "(LA-EQ): for any hypothesis set H satisfied by the restriction of a strict A=3, e=m endpoint configuration to 7m-1 of its at least 15m parameter-saturated points, (LA-W COUNT | H) implies the endpoint is empty, because the endpoint's own nonzero kernel biform lies in the layer-A kernel of the restriction; the rank theorem is therefore a strict strengthening of the exclusion rather than a route to it. Two hypothesis rungs are constructively FALSE at m = 2: the closed form Q = (Z-g)(Z-h)C(X) + a(Z-h)sigma_g(X) - b(Z-g)sigma_h(X) satisfies H1 by construction with two degree-rho supports split over mu_32, |S_g ^ S_h| = 1 and a = 13 = 7m-1 saturated points, and every admissible build has layer-A nullity exactly 1 against a count excess 3m^2-5m = +2; forcing H2 (all pair intersections at most m-1, T = rho+2 = 9 exactly) still admits exhibits with supports [7,7,2,2,2,2,2,1,1], max pair-intersection 1 and nullity 1, obtained by prescribing the five merged second-slope values, which makes the merge conditions linear in C and leaves 10 equations on 9 unknowns, i.e. one scalar condition. The fence is an infinite family: Q_0 = Z^m - X^{2m} with W inside 4 fibres of x -> x^{2m} on mu_{16m} and Gamma the 4m m-th roots plus one spare gives a saturated a = 7m-1 configuration of nullity exactly 2m, verified afresh at m = 3 (60 x 48, rank 42, nullity 6). Consequently the bare count route is dead at every m >= 2, the standalone universal layer-A exclusion at a = 7m-1 is retired, and the surviving question -- rank over (SAT2)-completable configurations -- IS the realizability question.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/la_eq_and_geometry_counterexamples/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/la_eq_and_geometry_counterexamples/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/la_eq_and_geometry_counterexamples/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status, id and edges are SUGGESTIONS for coordinator line-audit; nothing here is wired.",
+    "DUPLICATION WARNING": "The Z^m - X^{2m} generalization is ALREADY BANKED in the coordinator addendum of the PROVED node background/nodes/rate_half_layer_a_saturation_count_route_fence (statement.md:73-89), which records nullity exactly 2m measured at m = 2,3,4,6 over five fields. This package must CITE that node, not re-claim the family. Its independent contribution is the m = 3 replay and the explicit H1+H2 solve mechanism.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (retires the unconditional layer-A rank target and identifies the layer-A and realizability lanes)"
+    ],
+    "suggested_requires": [
+      "rate_half_layer_a_saturation_count_route_fence (PROVED; the m = 2 member)",
+      "rate_half_bivariate_single_coefficient_rational_interpolation_criterion / (RIC3) (PROVED; the mechanism)",
+      "rate_half_bivariate_row_surplus_route_fence (PROVED; the m = 1 instance)"
+    ],
+    "wiring_gap_recorded": "NEITHER fence node currently cites (RIC3), although the addendum records all three as faces of one mechanism. Recommend adding those edges when wiring.",
+    "status_split_flagged_for_coordinator": "(LA-PADE)/(LA-DEG) -- the reduced-basis degree formula dim K_j = max(0,4m-d_j) + max(0,4m-d'_j) -- is carried at POSED and is NOT re-verified by this package's verify.py.",
+    "not_verified_here": [
+      "(LA-PADE)/(LA-DEG)",
+      "H3/H4 rungs -- untested in the source too",
+      "any (SAT2)-satisfying configuration at m >= 2 (none was built or sought)",
+      "the O minima, which are sample minima over six exhibits and NOT bounds"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_sat3_realizability_ledger_record",
+    "title": "The (SAT3) realizability ledger: corrections, stacking, and the first-moment gate",
+    "status": "HEURISTIC",
+    "closure": "bookkeeping record with an explicit no-mechanism warning",
+    "statement": "Record of the (SAT3) realizability ledger across rounds 34-36. The (L2) overdetermination is (m+2)(4m+1) - 16m = 4m^2-7m+2 = -1,+4,+17,+38 at m = 1..4, negative only at m = 1, and it coincides identically with the (BIV-G) deficit (7m^2-9m+2)-(3m^2-2m) and with the reduced form m(4m+1)-(8m-2); the DEF-ID identity (m+2)(4m+1) + m(3m-2) = (m-1)(7m-2) + 16m = 7m^2+7m+2 is exact but was closed as a COINCIDENCE, since the shared quantity governs neither layer's existence ((L2) is nonempty at m=2 despite +4, (BIV-G) realizable at m=3 despite +17). Three independent corrections apply to the m = 2 cell: (ERC2) forces e = m so the curve lies on the 18 = 23-5 dimensional (L2) component rather than the ambient 23-dimensional space, flipping the round-33 cell from -1-O to +4-O; the automorphism group acts freely with orbit dimension at least 4 (AGL_1 x AGL_1) and at least 6 generically (PGL_2 x PGL_2), giving round 34's corrected +3..+5; stacked, the two independent terms put the m=2 cell at about +8..+10, doubly re-posing the round-33 conjecture 'realizable iff m <= 2' to m <= 1. Controls are preserved: m = 1 stays -9..-7 and the e = 1 ladder stays -8m-1 < 0 at every m. The C(16m,4m-1) first-moment gate is calibrated twice at m = 1: +13.75 bits at q = 17, where exactly 16 configurations exist and are the 16 realized (SAT3) families, so the gate overestimates by 2^9.75 in the safe direction, and -0.94 bits at q = 97 where none are realized. Four counting instruments now say the class is empty at m >= 2 and NONE is a mechanism; a negative first moment proves nothing.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/sat3_ledger_corrections/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/sat3_ledger_corrections/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. HEURISTIC is deliberate; nothing here is wired.",
+    "no_proof_md": "No proof.md: there is nothing to prove. The arithmetic is stated and checked inline, and the ledger's conclusion is explicitly NOT licensed.",
+    "BLOCKING MISSING CONSTANT": "The C(16m,4m-1) first-moment gate's EXPRESSION is never printed in the source -- only calibrated values (+13.75 at q=17, -0.94 at q=97, ~-1952 m^2 bits at official scale, -61.3 at q=97 after the dim-18 sharpening). These are not mutually reconstructible: a pure power law through the two m=1 points needs exponent 5.85, and -0.94 - 2*log2(97) = -14.1, not -61.3. The verify.py deliberately refuses to recompute the bits. RECOVER THE FORMULA from the r35_rout_layer_a / r36_sat3_on_l2 pilots before this gate is re-priced or cited.",
+    "SIGN CONVENTION FLAG": "The independent locator-layer bookkeeping (-5 at m=2, +7 at m=1) uses the OPPOSITE sign convention to the TCAP ledger (+3..+5 at m=2, -9..-7 at m=1). 'Agree in verdict' holds only after the flip; the two rows must never be added.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (record only; carries no exclusion)"
+    ],
+    "suggested_requires": [
+      "(ERC2) (PROVED; it is what forces e = m and hence the dim-18 ambient)"
+    ],
+    "not_verified_here": [
+      "the -1952 m^2 and -61.3 bit figures (carried, not recomputed -- see the missing-constant flag)",
+      "the fields-searched negative and the pb_design_ceiling blind spot",
+      "anything about existence: ZERO POWER"
+    ]
+  }
+}
