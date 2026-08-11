@@ -29051,6 +29051,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_center_spread/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_simple_marked_factorization/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -30849,6 +30850,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
+   "title": "A=1 core-free cubic gap-one regular-factor pin",
+   "status": "PROVED",
+   "closure": "three exact regular determinants and one linear residual",
+   "statement": "For each core-free cubic double-plus-simple packet at u=1, the complete supported excess-recurrence divisor P_C divides the degree-(2e-1) regular determinant D_0. The quotient has degree w. Thus the first packet has D_0=a P_C E_1, while each of the other three has D_0=a P_C exactly; every bordered determinant is a P_C E_w Q(x).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/verify_audit.py"
    ]
   },
   {
@@ -64686,6 +64705,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
    "to": "rate_half_ca_hankel_a1_first_degree_double_root_low_degree_resultant_factorization",
    "kind": "req"
   },
@@ -64693,6 +64717,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
    "to": "rate_half_ca_hankel_a1_first_degree_double_root_radical_cube_bridge",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_root_multiplicity_router",
@@ -64903,6 +64932,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_double_root_marked_hankel_determinant_gate",
@@ -65287,6 +65321,11 @@
   {
    "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
    "to": "rate_half_ca_hankel_a1_first_degree_bounded_residual_table",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_half_distance_a1_core_slope_slack_ledger",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
    "kind": "req"
   },
   {

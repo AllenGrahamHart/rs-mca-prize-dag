@@ -2646,3 +2646,31 @@ Thus every unallocated regular rank-drop slope lies in a degree-four
 divisor. The quartic may be nonreduced or share roots with all named factors;
 it is not identified with `S_B^2` or `S_1S_2`. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin`.
+
+## Cycle 111: three cubic packets have completely supported regular determinants (2026-08-11, Codex)
+
+For a core-free cubic double-plus-simple `u=1` packet, let
+
+```text
+P_C=product_gamma L_gamma^c_gamma
+```
+
+record the complete supported excess-recurrence divisor with multiplicity.
+The regular Kronecker determinant `D_0` has degree `Delta=2e-1`. Local Smith
+divisibility and the exact packet gap `w=Delta-sum c_gamma` give
+
+```text
+D_0=a P_C E_w,       deg E_w=w.
+```
+
+In the four packet rows, `w=1,0,0,0`. Therefore the last three regular
+determinants are exactly `a P_C`; the first has only one additional linear
+factor. Every bordered determinant sharpens to
+
+```text
+det M_0[x]=a P_C E_w Q(U,V;x).
+```
+
+The linear factor may repeat an already supported slope and is not
+identified with the degree-one Picard correction. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin`.
