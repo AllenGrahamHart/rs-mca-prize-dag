@@ -29055,6 +29055,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -30907,6 +30908,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
+   "title": "A=1 core-free cubic gap-one two-slope coefficient clone-rank gate",
+   "status": "PROVED",
+   "closure": "coefficient-row rank bounded by two-support union excess",
+   "statement": "For every supported pair alpha,beta in a core-free cubic gap-one packet, the evaluation rank on S_beta minus S_alpha of all e+1 parameter coefficient forms of Q is at most |S_alpha union S_beta|-rho. This follows from the complete kernel coefficient recurrence and a weighted Vandermonde kernel. At minimum union rho+1, all c_alpha+1 nonzero row forms on the difference are pairwise proportional.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate/verify_audit.py"
    ]
   },
   {
@@ -64772,6 +64791,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_double_root_gap_one_normal_forms",
    "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate",
    "kind": "req"
   },
@@ -64789,6 +64813,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing",
@@ -64809,6 +64838,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_regular_factor_pin",
    "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_first_jet_perfect_pairing",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_source_vandermonde_gate",
@@ -65451,8 +65485,18 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_minimal_index_budget",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_split_pencil_equivalence",
    "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_split_pencil_equivalence",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate",
    "kind": "req"
   },
   {

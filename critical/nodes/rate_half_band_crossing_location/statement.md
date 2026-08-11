@@ -2767,3 +2767,31 @@ higher-dimensional cancellation space, so support cardinality alone is now
 exhausted; the next useful inputs are these weights and higher coefficient
 jets. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_column_far_barycentric_gate`.
+
+## Cycle 115: two-support union excess controls the complete coefficient rank (2026-08-11, Codex)
+
+Expand the primitive kernel as `Q=sum_i z^iQ_i` after moving a supported
+slope `alpha` to zero. Pairing the complete coefficient recurrence, including
+the terminal equation `M_1q_e=0`, with the specialized left apolar kernel
+gives a weighted Vandermonde annihilation on
+`X=S_beta\S_alpha`. Therefore
+
+```text
+rank (Q_i(x))_(x in X,0<=i<=e)
+ <=|S_alpha union S_beta|-rho.
+```
+
+This holds in all four cubic gap-one packets and does not require local Smith
+transversality. On the minimum-union boundary `rho+1`, the rank is exactly
+one, so all `c_alpha+1` nonzero row forms
+
+```text
+Q(-;x),       x in S_beta\S_alpha,
+```
+
+are proportional and have the same parameter zero divisor with
+multiplicity. At union `rho+s`, their coefficient rank is at most `s`.
+This reduces the next gate to point separation or a classification of
+low-rank fibres of the coefficient map; neither is assumed here. The proved
+node is
+`rate_half_ca_hankel_a1_first_degree_core_free_cubic_gap_one_two_slope_coefficient_clone_rank_gate`.
