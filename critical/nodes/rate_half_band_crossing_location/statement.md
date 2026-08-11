@@ -2112,3 +2112,28 @@ degree and the exact signed classes
 No rank-loss or contact degree remains unallocated. The classes are still
 signed and are not asserted effective. The proved node is
 `rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms`.
+
+## Cycle 93: signed tangent packets have no degree-two section (2026-08-11, Codex)
+
+In each signed normal form, the positive divisor `P_3` has degree three and
+is coefficientwise a proper subdivisor of the distinguished vertical fibre.
+Its three elementary-modification directions lie in the fibre nilpotent
+ideal and miss the constant line. Therefore
+
+```text
+pi_*O_C(P_3)=O direct_sum O(1-d)^3 direct_sum O(-d)^(e-4),
+h^0(C,O_C(P_3))=1.
+```
+
+The unique section cuts out `P_3`. The nonempty ordinary divisor `R_0` lies
+on other domain fibres, so subtracting it kills that section. Hence all
+three signed packets satisfy
+
+```text
+h^0(C,O_C(rho+2,-e-1))=0.
+```
+
+Together with cycle 91, the six tangent packets have complete section table
+`1,1,1,0,0,0`, grouped by `I_0=0` and `I_0>0`. This classifies but does not
+exclude them. The proved node is
+`rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing`.

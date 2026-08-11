@@ -29033,6 +29033,7 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_two_point_pencil_branch_exclusion/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_no_ordinary_effective_canonical_packets/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_all_core_sharp_cap_exclusion/statement.md",
     "background/nodes/rate_half_unique_decoding_ca_mca_scope_fence/statement.md",
     "notes/pilots_20260810/rh_type2_stratum/REPORT.md",
@@ -30885,6 +30886,24 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing",
+   "title": "A=1 core-one signed packets have no degree-two section",
+   "status": "PROVED",
+   "closure": "length-three nilpotent modification and ordinary-point removal",
+   "statement": "In every core-one degree-one packet with ordinary heavy incidences, the positive part of the exact signed divisor is a length-three proper subdivisor of the distinguished vertical fibre. Its pushforward has splitting O plus O(1-d)^3 plus O(-d)^(e-4) and only its canonical section. The disjoint nonempty ordinary divisor removes that section, so h^0(C,O_C(rho+2,-e-1))=0 in all three signed packets.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing/verify_audit.py"
    ]
   },
   {
@@ -64303,6 +64322,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_local_normal_forms",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_signed_packet_section_vanishing",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
