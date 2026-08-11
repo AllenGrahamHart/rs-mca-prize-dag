@@ -1,0 +1,57 @@
+==============================================================================
+D2 -- TRANSVERSE SPLITTING: the FACTOR-DEGREE DICHOTOMY
+==============================================================================
+
+[A] the m=1 REALIZED witnesses against the theorem
+    Q(Z,x) = A(x) + Z B(x): (deg A, deg B, delta_1) histogram over the 16 witnesses: {(3, 3, 3): 16}
+    theorem's inputs at m=1: rho = 3, T = 5, N = 16
+    sum_j delta_j = 3 = rho   (the deg_x bound is TIGHT)
+    T * delta_1 = 15 <= N = 16   (slack 1 = 1+O with O = 0)
+    'small' means T*d < N*m_j, i.e. 5d < 16: d <= 3.  The single branch IS small (d=3), so t = 1 and m_1 = 1 >= ceil((3m+1)/4) = 1.
+    => m = 1 sits EXACTLY on the theorem's boundary, as realized.
+
+[B] EXHAUSTIVE check of the counting inequality over EVERY factorisation profile
+    surviving profile = a partition (m_j) of m for which some degree
+    vector (d_j >= 1, sum d_j <= rho) satisfies T*rho - O <= sum_j min(T d_j, N m_j),
+    taking the most generous O = delta = m-1.
+
+       m  #partitions  #surviving  all-ones survives?   min over survivors of max m_j  ceil((3m+1)/4)
+       1            1           1                True                               1               1
+       2            2           1               False                               2               2
+       3            3           1               False                               3               3
+       4            5           1               False                               4               4
+       5            7           2               False                               4               4
+       6           11           2               False                               5               5
+       7           15           2               False                               6               6
+       8           22           2               False                               7               7
+       9           30           4               False                               7               7
+      10           42           4               False                               8               8
+      11           56           4               False                               9               9
+      12           77           4               False                              10              10
+      16          231           7               False                              13              13
+      20          627          12               False                              16              16
+      24         1575          19               False                              19              19
+      32         8349          45               False                              25              25
+      40        37338          97               False                              31              31
+
+    VIOLATIONS of the theorem over m = 1..40: 0   PASS
+
+    Readings:
+      * the all-ones profile (Q splits into LINEAR factors over
+        F_q(x), i.e. all m slope branches are rational functions of
+        x) survives ONLY at m = 1;
+      * every surviving profile has an irreducible factor of
+        Z-degree >= ceil((3m+1)/4);
+      * at m = 2,3,4 the only survivor is the single factor (m),
+        i.e. Q is IRREDUCIBLE over F_q(x).
+
+[C] the surviving profiles explicitly, m = 1..8
+    m= 1  need     15  survivors: [(1,)]
+    m= 2  need     62  survivors: [(2,)]
+    m= 3  need    141  survivors: [(3,)]
+    m= 4  need    252  survivors: [(4,)]
+    m= 5  need    395  survivors: [(5,), (4, 1)]
+    m= 6  need    570  survivors: [(6,), (5, 1)]
+    m= 7  need    777  survivors: [(7,), (6, 1)]
+    m= 8  need   1016  survivors: [(8,), (7, 1)]
+

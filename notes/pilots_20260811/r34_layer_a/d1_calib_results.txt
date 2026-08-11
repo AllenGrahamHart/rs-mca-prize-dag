@@ -1,0 +1,50 @@
+==============================================================================
+D1 -- m=1 REGRESSION CALIBRATION OF (NS-m)  [r34_layer_a, round 34]
+==============================================================================
+q=17  D=mu_16=F_17^*  m=1  rho=3  N=16  R=8  e=1  delta=0  T=rho+2=5
+band a in [4m+2, 8m] = [6, 8] ;  w* = 2rho = 6 = 7m-1 = 6 ;  d = a-6
+
+[A] exhaustive T=rho+2 locator families re-derived: 16   (bank 3 banked: 16)   MATCH
+    bank-3 REALIZED WITNESS #1 present in my enumeration: YES
+    bank-3 REALIZED WITNESS #2 present in my enumeration: YES
+
+[B] charts with all 5 slopes FINITE: 16/16
+    T=5, supports pairwise DISJOINT, |covered| = rho*T = 15, support set == banked family: 16/16
+    => at m=1, d_x <= e = 1 forces the supports disjoint, hence X_gamma = |S_gamma ^ (S_g u S_h)| = 0 identically at the canonical W.
+
+[C] LAYER-A CONTROL (the mandate's built-in control): Q(Z,x) of bidegree (deg_x<=rho, deg_Z<=m)
+    conditions (rho+1)*(T-m-1) = 12 on T = 5 unknowns c_gamma
+    nullity histogram over the 16 realized witnesses: {1: 16}
+    kernel with EVERY c_gamma != 0 : 16/16
+    predicted kernel vector c_gamma = lead(A + gamma B) lies in the kernel: 16/16
+    >>> LAYER-A CONTROL: PASS  (nullity >= 1 required on a realized pencil)
+
+[D] W-LAYER (BIV-H) AND THE (NS-1) MEASUREMENT
+    variants of W (all contain S_g u S_h for a type-1 pair (g,h)):
+      a=6  CANON   W = S_g u S_h            (d=0)  [the REALIZED a*]
+      a=7  +x0     W = S_g u S_h u {x0}     (d=1)  x0 = the unsaturated point
+      a=7  +1t2    W = S_g u S_h u {1 pt of a type-2 support}  (d=1)
+      a=8  +2t2    W = ... u {2 pts of ONE type-2 support}     (d=2)
+      a=8  +1+1    W = ... u {1 pt each of TWO type-2 supports}(d=2)
+      a=8  +x0+1   W = ... u {x0, 1 pt of a type-2 support}    (d=2)
+
+    key:  n = (family,pair,variant) cases;  adm = cases with an ADMISSIBLE H (H(.,x) != 0 for every x in W);
+          tot2 = type-2 slopes measured;  (NS-A) = #F_q-roots(h) <= d-m;  (NS-B) = nonsplit degree >= m;
+          (NS-W) = #roots in W <= d-m;  CLOS = X_gamma <= d-m; SPLIT = h splits completely over F_q.
+
+    variant     a  d    n  adm            nullity  tot2  NS-A  NS-B  NS-W  CLOS SPLIT maxX
+    a6_CANON    6  0  160  160           {1: 160}   480     0     0     0     0     0    0
+    a7_+1t2     7  1  160    0           {1: 160}     0     0     0     0     0     0    0
+    a7_+x0      7  1  160  160           {2: 160}   480   480     0   480   480     0    0
+    a8_+1+1     8  2  160    0           {1: 160}     0     0     0     0     0     0    0
+    a8_+2t2     8  2  160    0           {1: 160}     0     0     0     0     0     0    0
+    a8_+x0+1    8  2  160    0           {2: 160}     0     0     0     0     0     0    0
+
+    EXEMPLARS (h_gamma printed as coefficient list, low degree first):
+      a6_CANON a=6 d=0 type-2 slope  5: h = [15]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+      a6_CANON a=6 d=0 type-2 slope 15: h = [8]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+      a6_CANON a=6 d=0 type-2 slope 16: h = [3]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+      a7_+x0 a=7 d=1 type-2 slope  5: h = [15, 0]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+      a7_+x0 a=7 d=1 type-2 slope 15: h = [8, 0]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+      a7_+x0 a=7 d=1 type-2 slope 16: h = [3, 0]  deg=0  F_q-roots(mult)=[]  X=0  Rin=[] Rin_mult=0  nonsplit=0  n_gamma=0 ov=0
+
