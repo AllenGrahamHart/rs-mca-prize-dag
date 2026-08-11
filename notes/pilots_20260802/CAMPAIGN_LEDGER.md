@@ -5261,3 +5261,24 @@ notes/exports_20260811/band_razor_bracket_export/. Upstream context
 at ship time: Codex's #1161 (Lane-T rho+3) + #1156 (E-routing) open;
 Scott's #1157-#1160 converging on the K3 carrier bridge + the MCA
 near-rational repair; nothing merged upstream since early July.
+
+## ROUND 33 LAUNCH — the algebraic-instruments round (2026-08-11)
+
+Four Opus pilots; briefs + shared CONSTRAINTS.md in
+notes/pilots_20260811/{rh_psi_degree,rh_moving_kernel,
+rh_sat3_realizability,rh_bivariate_system}/: (A) the psi_gamma
+aggregate-weight attack on the type-2 8/5 (the pencil's coupling of
+the h_gamma family; subclass X <= a/4 on j=0; measured max-vs-mean);
+(B) R-MOVING — the forced-fixed-generator lemma proved + the
+moving-generator budget (any finite deep-stratum bound is the first
+ever; LB1 as the built-in falsifier); (C) ROUTE-DECIDING (SAT3)
+realizability — FIRST the LB1-vs-(SAT) definitional reconciliation
+(the two lanes' T may be the same object!), then the T-ladder by
+construction, the (SAT) profile of large-T objects, and either the
+T-cap/vacuity theorem or the F1/F2 calibration; (D) the
+overdetermined bivariate P_x(Z) system — derive, rank at small
+scales vs the K_7-star fence system, extract consistency relations.
+QUARANTINE MARKER: this entry and below quarantined for round-33
+pilots (the ledger closed to them entirely); round-33 sibling dirs
+mutually quarantined (the notes/pilots_20260811/ tree); round-32
+and earlier readable. Launched on Opus.
