@@ -21,7 +21,7 @@ G(t,x_*)=g_*(t)S_B(t)T_2(t),                      (HQR2)
 up to one nonzero scalar, where
 
 ```text
-T_2!=0,       deg T_2<=2,
+T_2!=0,       deg T_2=2,
 T_2(tau)!=0,       gcd(T_2,S_B)=1.                (HQR3)
 ```
 
@@ -37,7 +37,7 @@ Every survivor satisfies the exact quadratic-remainder gate
 
 ```text
 H_NR divides R_lambda,
-R_lambda/H_NR=T_2,       deg T_2<=2,
+R_lambda/H_NR=T_2,       deg T_2=2,
 (R_lambda/H_NR)(tau)!=0.                           (HQR5)
 ```
 

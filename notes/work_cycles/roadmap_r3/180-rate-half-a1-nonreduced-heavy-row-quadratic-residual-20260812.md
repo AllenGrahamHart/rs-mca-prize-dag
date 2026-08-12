@@ -7,7 +7,7 @@ two more degrees:
 
 ```text
 G(t,x_*)=g_*(t)S_B(t)T_2(t),
-deg T_2<=2,       T_2(tau)!=0.
+deg T_2=2,        T_2(tau)!=0.
 ```
 
 The unique scalar weld must therefore pass one polynomial-remainder matrix

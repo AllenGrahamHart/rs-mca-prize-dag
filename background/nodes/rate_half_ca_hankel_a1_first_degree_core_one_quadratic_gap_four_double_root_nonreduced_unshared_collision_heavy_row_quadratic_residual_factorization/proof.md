@@ -1,12 +1,14 @@
 # Proof
 
-The split biform has parameter degree at most `e-2`, so
+The split biform is bihomogeneous of parameter degree `e-2`. Its
+specialization at the projective point `x_*` is nonzero and therefore is a
+binary form of exact degree `e-2`. Thus
 
 ```text
 R(t):=G(t,x_*)
 ```
 
-has degree at most `e-2`. It is nonzero and has exact order two at `tau`
+has exact projective degree `e-2` and exact order two at `tau`
 by the barycentric split-jet gate.
 
 Let `delta` be a root of `g_*`. By definition, `delta` is a supported
@@ -22,7 +24,7 @@ Hence `G(delta,x_*)=0`. The form `g_*` is squarefree, so all of its
 `e-6` roots divide `R` and
 
 ```text
-R=g_*K_4,       deg K_4<=4.                       (2)
+R=g_*K_4,       deg K_4=4.                        (2)
 ```
 
 Unsharedness gives `g_*(tau)!=0`. Therefore the exact order two of `R` at
@@ -30,7 +32,7 @@ Unsharedness gives `g_*(tau)!=0`. Therefore the exact order two of `R` at
 divisor `2[tau]`, so
 
 ```text
-K_4=S_BT_2,       deg T_2<=2,       T_2(tau)!=0.  (3)
+K_4=S_BT_2,       deg T_2=2,        T_2(tau)!=0.  (3)
 ```
 
 This proves `(HQR2)--(HQR3)`; the gcd assertion follows because `S_B` has
