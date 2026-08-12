@@ -1,0 +1,461 @@
+# f1_family.py results — r36_hrlow
+# common-support family: e_0 == 1 on T, e_1 = L on T, d = deg L
+# prediction R2a: h_r = rho+d, dim K_0 = r+1-rho-d
+# prediction R2c: p* = max(rho+d, floor((R+1+d)/2))
+# prediction R2d/e/f: struct slopes = #distinct L-values with fibre
+#   size >= s-r ; <= r+1 always ; = r+1 iff s=r+1 and L injective
+
+== H1  n=20 k=10 R=10 rho=2 r=8 a=12 | FAITHFUL: 4rho<R True, a>R+1 True, a-1>r True
+ -- q=101  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d1-x+1     s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d2-inj     s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-2to1    s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1inj  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1sym  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d1-s+1     s=10 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=ctrl-s=r   s=8 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 8 ; structural slopes = 8 ; VERIFIED exactly = 8 ; ceil((r+1)/d) = 9 ; r+1 = 9
+ -- q=349  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d1-x+1     s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d2-inj     s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-2to1    s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1inj  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1sym  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d1-s+1     s=10 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=ctrl-s=r   s=8 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 8 ; structural slopes = 8 ; VERIFIED exactly = 8 ; ceil((r+1)/d) = 9 ; r+1 = 9
+ -- q=1009  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d1-x+1     s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d2-inj     s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-2to1    s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1inj  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1sym  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d1-s+1     s=10 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=ctrl-s=r   s=8 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 8 ; structural slopes = 8 ; VERIFIED exactly = 8 ; ceil((r+1)/d) = 9 ; r+1 = 9
+ -- q=10007  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d1-x+1     s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d2-inj     s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-2to1    s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1inj  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1sym  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d1-s+1     s=10 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=ctrl-s=r   s=8 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 8 ; structural slopes = 8 ; VERIFIED exactly = 8 ; ceil((r+1)/d) = 9 ; r+1 = 9
+ -- q=65537  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d1-x+1     s=9 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=d2-inj     s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-2to1    s=9 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1inj  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d2-s+1sym  s=10 d=2 | h_r=4 (pred 4) dimK0=5 (pred 5) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 9
+  fam=d1-s+1     s=10 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 9 ; r+1 = 9
+  fam=ctrl-s=r   s=8 d=1 | h_r=3 (pred 3) dimK0=6 (pred 6) | p*=6 (pred 6) d*=5 dimAnn=2 degP=5 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 8 ; structural slopes = 8 ; VERIFIED exactly = 8 ; ceil((r+1)/d) = 9 ; r+1 = 9
+
+== H2  n=22 k=11 R=11 rho=2 r=9 a=13 | FAITHFUL: 4rho<R True, a>R+1 True, a-1>r True
+ -- q=101  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d1-x+1     s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d2-inj     s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-2to1    s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=6 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1inj  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1sym  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d1-s+1     s=11 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=ctrl-s=r   s=9 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 10 ; r+1 = 10
+ -- q=349  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d1-x+1     s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d2-inj     s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-2to1    s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=6 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1inj  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1sym  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d1-s+1     s=11 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=ctrl-s=r   s=9 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 10 ; r+1 = 10
+ -- q=1009  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d1-x+1     s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d2-inj     s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-2to1    s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=6 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1inj  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1sym  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d1-s+1     s=11 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=ctrl-s=r   s=9 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 10 ; r+1 = 10
+ -- q=10007  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d1-x+1     s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d2-inj     s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-2to1    s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=6 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1inj  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1sym  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d1-s+1     s=11 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=ctrl-s=r   s=9 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 10 ; r+1 = 10
+ -- q=65537  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d1-x+1     s=10 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=d2-inj     s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-2to1    s=10 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=6 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 5 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1inj  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d2-s+1sym  s=11 d=2 | h_r=4 (pred 4) dimK0=6 (pred 6) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 5 ; VERIFIED exactly = 5 ; ceil((r+1)/d) = 5 ; r+1 = 10
+  fam=d1-s+1     s=11 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 10 ; r+1 = 10
+  fam=ctrl-s=r   s=9 d=1 | h_r=3 (pred 3) dimK0=7 (pred 7) | p*=6 (pred 6) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 9 ; structural slopes = 9 ; VERIFIED exactly = 9 ; ceil((r+1)/d) = 10 ; r+1 = 10
+
+== H3  n=24 k=12 R=12 rho=2 r=10 a=14 | FAITHFUL: 4rho<R True, a>R+1 True, a-1>r True
+ -- q=101  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=349  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=1009  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=10007  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=65537  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=6 dimAnn=1 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=3 (pred 3) dimK0=8 (pred 8) | p*=7 (pred 7) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+
+== H4  n=26 k=13 R=13 rho=3 r=10 a=16 | FAITHFUL: 4rho<R True, a>R+1 True, a-1>r True
+ -- q=101  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d3-cube    s=11 d=3 | h_r=6 (pred 6) dimK0=5 (pred 5) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 4 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=349  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d3-cube    s=11 d=3 | h_r=6 (pred 6) dimK0=5 (pred 5) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 4 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=1009  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d3-cube    s=11 d=3 | h_r=6 (pred 6) dimK0=5 (pred 5) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 4 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=10007  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d3-cube    s=11 d=3 | h_r=6 (pred 6) dimK0=5 (pred 5) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 4 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+ -- q=65537  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d1-x+1     s=11 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=d2-inj     s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-2to1    s=11 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d3-cube    s=11 d=3 | h_r=6 (pred 6) dimK0=5 (pred 5) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 4 ; r+1 = 11
+  fam=d2-s+1inj  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d2-s+1sym  s=12 d=2 | h_r=5 (pred 5) dimK0=6 (pred 6) | p*=8 (pred 8) d*=6 dimAnn=2 degP=6 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 11
+  fam=d1-s+1     s=12 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 11 ; r+1 = 11
+  fam=ctrl-s=r   s=10 d=1 | h_r=4 (pred 4) dimK0=7 (pred 7) | p*=7 (pred 7) d*=7 dimAnn=1 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 10 ; structural slopes = 10 ; VERIFIED exactly = 10 ; ceil((r+1)/d) = 11 ; r+1 = 11
+
+== H5  n=28 k=14 R=14 rho=3 r=11 a=17 | FAITHFUL: 4rho<R True, a>R+1 True, a-1>r True
+ -- q=101  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d1-x+1     s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d2-inj     s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-2to1    s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d3-cube    s=12 d=3 | h_r=6 (pred 6) dimK0=6 (pred 6) | p*=9 (pred 9) d*=8 dimAnn=2 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 4 ; r+1 = 12
+  fam=d2-s+1inj  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-s+1sym  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 7 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d1-s+1     s=13 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=ctrl-s=r   s=11 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 12 ; r+1 = 12
+ -- q=349  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d1-x+1     s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d2-inj     s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-2to1    s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d3-cube    s=12 d=3 | h_r=6 (pred 6) dimK0=6 (pred 6) | p*=9 (pred 9) d*=8 dimAnn=2 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 4 ; r+1 = 12
+  fam=d2-s+1inj  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-s+1sym  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 7 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d1-s+1     s=13 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=ctrl-s=r   s=11 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 12 ; r+1 = 12
+ -- q=1009  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d1-x+1     s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d2-inj     s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-2to1    s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d3-cube    s=12 d=3 | h_r=6 (pred 6) dimK0=6 (pred 6) | p*=9 (pred 9) d*=8 dimAnn=2 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 4 ; r+1 = 12
+  fam=d2-s+1inj  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-s+1sym  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 7 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d1-s+1     s=13 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=ctrl-s=r   s=11 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 12 ; r+1 = 12
+ -- q=10007  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d1-x+1     s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d2-inj     s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-2to1    s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d3-cube    s=12 d=3 | h_r=6 (pred 6) dimK0=6 (pred 6) | p*=9 (pred 9) d*=8 dimAnn=2 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 4 ; r+1 = 12
+  fam=d2-s+1inj  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-s+1sym  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 7 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d1-s+1     s=13 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=ctrl-s=r   s=11 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 12 ; r+1 = 12
+ -- q=65537  (mu_1 = C(n,r)/q^rho)
+  fam=d1-x       s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d1-x+1     s=12 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=d2-inj     s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-2to1    s=12 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 6 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d3-cube    s=12 d=3 | h_r=6 (pred 6) dimK0=6 (pred 6) | p*=9 (pred 9) d*=8 dimAnn=2 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 12 ; structural slopes = 12 ; VERIFIED exactly = 12 ; ceil((r+1)/d) = 4 ; r+1 = 12
+  fam=d2-s+1inj  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d2-s+1sym  s=13 d=2 | h_r=5 (pred 5) dimK0=7 (pred 7) | p*=8 (pred 8) d*=8 dimAnn=1 degP=8 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 7 ; structural slopes = 6 ; VERIFIED exactly = 6 ; ceil((r+1)/d) = 6 ; r+1 = 12
+  fam=d1-s+1     s=13 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 13 ; structural slopes = 0 ; VERIFIED exactly = 0 ; ceil((r+1)/d) = 12 ; r+1 = 12
+  fam=ctrl-s=r   s=11 d=1 | h_r=4 (pred 4) dimK0=8 (pred 8) | p*=8 (pred 8) d*=7 dimAnn=2 degP=7 | princ(p*)=False princ(degP)=False
+             #distinct L-values on T = 11 ; structural slopes = 11 ; VERIFIED exactly = 11 ; ceil((r+1)/d) = 12 ; r+1 = 12

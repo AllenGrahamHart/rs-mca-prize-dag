@@ -1,0 +1,28 @@
+
+=== RUN d2_scrit 2026-08-11T20:54:41 ===
+q=97 configs=60 exact_S2_solutions=0  per-config=0.00 (predicted C(32,7)/q^3=3.69)
+q=97 (|S0 cap S2|, s) joint histogram = []
+q=97 SCRIT s==|S0 cap S2| : 0 agree / 0 disagree
+q=97 s-distribution = [] ; s=0 fraction = 0.0000 (predicted C(25,7)/C(32,7)=0.1428)
+q=97 T over mu_32 on the s=0 certified objects: []
+q=97 OV4 (max_z |roots(f+zg) cap (S0 u S2)|, deg gcd(f,g)) = []
+q=193 configs=120 exact_S2_solutions=0  per-config=0.00 (predicted C(32,7)/q^3=0.47)
+q=193 (|S0 cap S2|, s) joint histogram = []
+q=193 SCRIT s==|S0 cap S2| : 0 agree / 0 disagree
+q=193 s-distribution = [] ; s=0 fraction = 0.0000 (predicted C(25,7)/C(32,7)=0.1428)
+q=193 T over mu_32 on the s=0 certified objects: []
+q=193 OV4 (max_z |roots(f+zg) cap (S0 u S2)|, deg gcd(f,g)) = []
+
+=== RUN d2_scrit 2026-08-11T20:56:57 ===
+q=97 configs=60 exact_S2_solutions=198  per-config=3.30 (predicted C(32,7)/q^3=3.69)
+q=97 (|S0 cap S2|, s) joint histogram = [((0, 0), 28), ((1, 1), 75), ((2, 2), 71), ((3, 3), 18), ((4, 4), 6)]
+q=97 SCRIT s==|S0 cap S2| : 198 agree / 0 disagree
+q=97 s-distribution = [(0, 28), (1, 75), (2, 71), (3, 18), (4, 6)] ; s=0 fraction = 0.1414 (predicted C(25,7)/C(32,7)=0.1428)
+q=97 T over mu_32 on the s=0 certified objects: [(2, 28)]
+q=97 OV4 (max_z |roots(f+zg) cap (S0 u S2)|, deg gcd(f,g)) = [(1, 0), (2, 0)]
+q=193 configs=120 exact_S2_solutions=53  per-config=0.44 (predicted C(32,7)/q^3=0.47)
+q=193 (|S0 cap S2|, s) joint histogram = [((0, 0), 4), ((1, 1), 20), ((2, 2), 19), ((3, 3), 8), ((4, 4), 2)]
+q=193 SCRIT s==|S0 cap S2| : 53 agree / 0 disagree
+q=193 s-distribution = [(0, 4), (1, 20), (2, 19), (3, 8), (4, 2)] ; s=0 fraction = 0.0755 (predicted C(25,7)/C(32,7)=0.1428)
+q=193 T over mu_32 on the s=0 certified objects: [(2, 4)]
+q=193 OV4 (max_z |roots(f+zg) cap (S0 u S2)|, deg gcd(f,g)) = [(1, 0), (2, 0)]

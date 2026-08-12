@@ -1,0 +1,19 @@
+=== D2  STRUCTURED SLOPE-MERGE, round 37  (tag b) ===
+instrument: block coordinate descent on the registered relation R2.3
+|slopes| = 24 - #merges ; TARGET 13 slopes = 11 merges
+
+--- q = 193 : constant-norm pencils with >= 8 disjoint fibres = 79
+    best pencil (1, 0, 62) with 12 complete disjoint fibres
+    V  REGISTERED RELATION R2.3  f_j = sum_i lambda_ji f_i : True
+    descent restarts completed = 120 ; wall 1.6 s
+    MERGE-COUNT HISTOGRAM over restarts (|slopes| = 24 - merges):
+      merges {1: 2, 3: 32, 4: 48, 5: 11, 6: 2}
+      |slopes| {18: 2, 19: 11, 20: 48, 21: 32, 23: 2}
+    BEST merges = 6  => |slopes| = 18   (need 11 => 13)
+      U~ = [181, 89, 83, 54] ; t = [165, 42, 157, 47, 19, 18, 137, 0]
+      A-triples = [[72, 128, 140], [72, 159, 180], [6, 7, 188], [2, 50, 184]]
+      satisfied edges (i,j,slope) = [(1, 0, 159), (0, 1, 128), (0, 2, 72), (1, 2, 72), (0, 3, 140), (1, 3, 180)]
+      all 8 slope triples = [[72, 128, 140], [72, 159, 180], [6, 7, 188], [2, 50, 184], [24, 159, 185], [34, 102, 128], [70, 72, 181], [34, 140, 180]]
+      |slopes| (full check) = 17 ; STRUCTURAL VERIFICATION: FAIL(a-degree): max d_gamma = 3 > 2; FAIL(c-bipartite): a merge inside one side; FAIL(edge-count): 8 edges vs 7 merges
+
+total wall 1.6 s

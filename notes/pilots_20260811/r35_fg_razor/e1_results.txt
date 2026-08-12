@@ -1,0 +1,89 @@
+=== r35_fg_razor  e1_replica  (D1 structure) ===
+
+CELL q=11 n=11 k=1 a=3 r=8 R=10 rho=2  (4rho=8 < R=10 : True)
+  [FG(witness B)] q=11 n=11 k=1 r=8 R=10 rho=2  4rho<R:True
+      p*=4  h_r=4  dimK0=5 (generic r+1-2rho=5)  deg gcd(K0)=4  principal=True  FG=True  column-far=True
+      P_1 = [1, 0, 1] (irred deg 2, irreducible=True); P_2 = [0, 10, 1]; P* squarefree=True; deg P* = 4 = 2rho
+      key-eq: rank M(gamma) in [2] (rho=2); dim ker in [7]  [predicted (r+1)+m_Q-p = r+1-rho = 7]
+      codim U_gamma in Lambda: [2]   [D-2 predicts rho=2];  m_Q = p-rho = 2 ; FG5 shift family 11/11
+  [B' control (D-split)] q=11 n=11 k=1 r=8 R=10 rho=2  4rho<R:True
+      p*=4  h_r=4  dimK0=5 (generic r+1-2rho=5)  deg gcd(K0)=4  principal=True  FG=True  column-far=False
+      P_1' = [6, 6, 1] (D-split squarefree)
+  [LB1] q=11 n=11 k=1 r=8 R=10 rho=2  4rho<R:True
+      p*=3  h_r=3  dimK0=6 (generic r+1-2rho=5)  deg gcd(K0)=2  principal=False  FG=False  column-far=True
+      T = [0, 1, 2, 3, 4, 5, 6, 7, 8] (|T| = r+1 = 9), lam(t) = t
+      LB1 predictions: h_r = rho+1 = 3 ; dim K_0 = r-rho = 6 ; p* = ceil((R+2)/2) = 6 ; p_gen = floor((R+1)/2) = 5 ; 2rho = 4 ; floor(R/2) = 5
+
+CELL q=13 n=13 k=1 a=3 r=10 R=12 rho=2  (4rho=8 < R=12 : True)
+  [FG(witness B)] q=13 n=13 k=1 r=10 R=12 rho=2  4rho<R:True
+      p*=4  h_r=4  dimK0=7 (generic r+1-2rho=7)  deg gcd(K0)=4  principal=True  FG=True  column-far=True
+      P_1 = [2, 0, 1] (irred deg 2, irreducible=True); P_2 = [0, 12, 1]; P* squarefree=True; deg P* = 4 = 2rho
+      key-eq: rank M(gamma) in [2] (rho=2); dim ker in [9]  [predicted (r+1)+m_Q-p = r+1-rho = 9]
+      codim U_gamma in Lambda: [2]   [D-2 predicts rho=2];  m_Q = p-rho = 2 ; FG5 shift family 13/13
+  [B' control (D-split)] q=13 n=13 k=1 r=10 R=12 rho=2  4rho<R:True
+      p*=4  h_r=4  dimK0=7 (generic r+1-2rho=7)  deg gcd(K0)=4  principal=True  FG=True  column-far=False
+      P_1' = [6, 8, 1] (D-split squarefree)
+  [LB1] q=13 n=13 k=1 r=10 R=12 rho=2  4rho<R:True
+      p*=3  h_r=3  dimK0=8 (generic r+1-2rho=7)  deg gcd(K0)=2  principal=False  FG=False  column-far=True
+      T = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] (|T| = r+1 = 11), lam(t) = t
+      LB1 predictions: h_r = rho+1 = 3 ; dim K_0 = r-rho = 8 ; p* = ceil((R+2)/2) = 7 ; p_gen = floor((R+1)/2) = 6 ; 2rho = 4 ; floor(R/2) = 6
+
+CELL q=17 n=17 k=1 a=4 r=13 R=16 rho=3  (4rho=12 < R=16 : True)
+  [FG(witness B)] q=17 n=17 k=1 r=13 R=16 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=8 (generic r+1-2rho=8)  deg gcd(K0)=6  principal=True  FG=True  column-far=True
+      P_1 = [3, 1, 0, 1] (irred deg 3, irreducible=True); P_2 = [0, 2, 14, 1]; P* squarefree=True; deg P* = 6 = 2rho
+      key-eq: rank M(gamma) in [3] (rho=3); dim ker in [11]  [predicted (r+1)+m_Q-p = r+1-rho = 11]
+      codim U_gamma in Lambda: [3]   [D-2 predicts rho=3];  m_Q = p-rho = 3 ; FG5 shift family 17/17
+  [B' control (D-split)] q=17 n=17 k=1 r=13 R=16 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=8 (generic r+1-2rho=8)  deg gcd(K0)=6  principal=True  FG=True  column-far=False
+      P_1' = [8, 13, 5, 1] (D-split squarefree)
+  [LB1] q=17 n=17 k=1 r=13 R=16 rho=3  4rho<R:True
+      p*=4  h_r=4  dimK0=10 (generic r+1-2rho=8)  deg gcd(K0)=3  principal=False  FG=False  column-far=True
+      T = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] (|T| = r+1 = 14), lam(t) = t
+      LB1 predictions: h_r = rho+1 = 4 ; dim K_0 = r-rho = 10 ; p* = ceil((R+2)/2) = 9 ; p_gen = floor((R+1)/2) = 8 ; 2rho = 6 ; floor(R/2) = 8
+
+CELL q=19 n=19 k=1 a=4 r=15 R=18 rho=3  (4rho=12 < R=18 : True)
+  [FG(witness B)] q=19 n=19 k=1 r=15 R=18 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=10 (generic r+1-2rho=10)  deg gcd(K0)=6  principal=True  FG=True  column-far=True
+      P_1 = [2, 0, 0, 1] (irred deg 3, irreducible=True); P_2 = [0, 2, 16, 1]; P* squarefree=True; deg P* = 6 = 2rho
+      key-eq: rank M(gamma) in [3] (rho=3); dim ker in [13]  [predicted (r+1)+m_Q-p = r+1-rho = 13]
+      codim U_gamma in Lambda: [3]   [D-2 predicts rho=3];  m_Q = p-rho = 3 ; FG5 shift family 19/19
+  [B' control (D-split)] q=19 n=19 k=1 r=15 R=18 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=10 (generic r+1-2rho=10)  deg gcd(K0)=6  principal=True  FG=True  column-far=False
+      P_1' = [16, 9, 7, 1] (D-split squarefree)
+  [LB1] q=19 n=19 k=1 r=15 R=18 rho=3  4rho<R:True
+      p*=4  h_r=4  dimK0=12 (generic r+1-2rho=10)  deg gcd(K0)=3  principal=False  FG=False  column-far=True
+      T = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] (|T| = r+1 = 16), lam(t) = t
+      LB1 predictions: h_r = rho+1 = 4 ; dim K_0 = r-rho = 12 ; p* = ceil((R+2)/2) = 10 ; p_gen = floor((R+1)/2) = 9 ; 2rho = 6 ; floor(R/2) = 9
+
+CELL q=23 n=23 k=1 a=4 r=19 R=22 rho=3  (4rho=12 < R=22 : True)
+  [FG(witness B)] q=23 n=23 k=1 r=19 R=22 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=14 (generic r+1-2rho=14)  deg gcd(K0)=6  principal=True  FG=True  column-far=True
+      P_1 = [3, 1, 0, 1] (irred deg 3, irreducible=True); P_2 = [0, 2, 20, 1]; P* squarefree=True; deg P* = 6 = 2rho
+      key-eq: rank M(gamma) in [3] (rho=3); dim ker in [17]  [predicted (r+1)+m_Q-p = r+1-rho = 17]
+      codim U_gamma in Lambda: [3]   [D-2 predicts rho=3];  m_Q = p-rho = 3 ; FG5 shift family 23/23
+  [B' control (D-split)] q=23 n=23 k=1 r=19 R=22 rho=3  4rho<R:True
+      p*=6  h_r=6  dimK0=14 (generic r+1-2rho=14)  deg gcd(K0)=6  principal=True  FG=True  column-far=False
+      P_1' = [9, 1, 11, 1] (D-split squarefree)
+  [LB1] q=23 n=23 k=1 r=19 R=22 rho=3  4rho<R:True
+      p*=4  h_r=4  dimK0=16 (generic r+1-2rho=14)  deg gcd(K0)=3  principal=False  FG=False  column-far=True
+      T = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] (|T| = r+1 = 20), lam(t) = t
+      LB1 predictions: h_r = rho+1 = 4 ; dim K_0 = r-rho = 16 ; p* = ceil((R+2)/2) = 12 ; p_gen = floor((R+1)/2) = 11 ; 2rho = 6 ; floor(R/2) = 11
+
+=== SUMMARY TABLE ===
+cell(q,n,k,r) | family | p* | h_r | dimK0 | deggcd | princ | FG | colfar
+(11, 11, 1, 8) | FG(witness B)        | 4 | 4 | 5 | 4 | True | True | True
+(11, 11, 1, 8) | B' control (D-split) | 4 | 4 | 5 | 4 | True | True | False
+(11, 11, 1, 8) | LB1                  | 3 | 3 | 6 | 2 | False | False | True
+(13, 13, 1, 10) | FG(witness B)        | 4 | 4 | 7 | 4 | True | True | True
+(13, 13, 1, 10) | B' control (D-split) | 4 | 4 | 7 | 4 | True | True | False
+(13, 13, 1, 10) | LB1                  | 3 | 3 | 8 | 2 | False | False | True
+(17, 17, 1, 13) | FG(witness B)        | 6 | 6 | 8 | 6 | True | True | True
+(17, 17, 1, 13) | B' control (D-split) | 6 | 6 | 8 | 6 | True | True | False
+(17, 17, 1, 13) | LB1                  | 4 | 4 | 10 | 3 | False | False | True
+(19, 19, 1, 15) | FG(witness B)        | 6 | 6 | 10 | 6 | True | True | True
+(19, 19, 1, 15) | B' control (D-split) | 6 | 6 | 10 | 6 | True | True | False
+(19, 19, 1, 15) | LB1                  | 4 | 4 | 12 | 3 | False | False | True
+(23, 23, 1, 19) | FG(witness B)        | 6 | 6 | 14 | 6 | True | True | True
+(23, 23, 1, 19) | B' control (D-split) | 6 | 6 | 14 | 6 | True | True | False
+(23, 23, 1, 19) | LB1                  | 4 | 4 | 16 | 3 | False | False | True

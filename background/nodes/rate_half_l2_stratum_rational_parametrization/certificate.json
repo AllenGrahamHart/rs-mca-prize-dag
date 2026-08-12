@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-l2-par-witness-v1",
+  "q": 97,
+  "f": [42, 3, 81, 6, 89],
+  "g": [71, 19, 15, 60, 1],
+  "h": [5, 40, 44, 0, 6],
+  "k": [24, 46, 52, 68, 63],
+  "L": [53, 1],
+  "S0": [30, 33, 51, 63, 69, 77, 85],
+  "S2": [8, 12, 18, 27, 45, 52, 78],
+  "generic_rank": 7,
+  "drop_z": 89,
+  "drop_rank": 6,
+  "nullity_36x32": 1,
+  "T_over_mu32": 2,
+  "note": "the audit derives Q_0, Q_1, Q_2 from (f,g,h,k,L) by exact division per (PAR), then certifies the pencil with the coordinator's independent elimination (the round-38 certification code path), and separately proves (DET)+(SYZ) as identities over the INTEGERS, which implies them over every field."
+}

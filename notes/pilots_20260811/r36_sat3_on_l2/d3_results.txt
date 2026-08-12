@@ -1,0 +1,66 @@
+# d3_results — r36_sat3_on_l2 — Moebius normalisation, the bespoke push,
+#   and the packing measurements
+
+## PART A — Moebius normalisation of the T=2 mu_32 witnesses
+   Z = W/(1-W) sends W=0 -> Z=0 and W=1 -> Z=infinity, and maps the Hankel
+   pencil to (y_0, y_1-y_0), Q'_0=Q_0, Q'_1=Q_1-2Q_0, Q'_2=Q_0-Q_1+Q_2.
+q=97  Q'_0=[78, 63, 82, 85, 33, 58, 77, 1]
+      Q'_1=[16, 77, 26, 36, 39, 69, 55, 77]
+      Q'_2=[49, 50, 90, 89, 4, 19, 90, 69]
+      degs=(7, 7, 7) s=0 seprank=3 nullity(36x32)=1 M(Z)Q_Z==0:True gen.rank=7
+      drops z=[15] ranks=[6] rank_inf=7 deg<=1 kernel=0
+      SUPPORTED FINITE SLOPES over mu_32: [0, 1]  (roots of Q'_2 in mu_32: 1)
+      => T_fin = 2  with BOTH slopes finite
+q=193  Q'_0=[67, 21, 188, 90, 184, 8, 67, 1]
+      Q'_1=[98, 175, 191, 69, 127, 33, 43, 23]
+      Q'_2=[3, 3, 186, 139, 183, 177, 74, 1]
+      degs=(7, 7, 7) s=0 seprank=3 nullity(36x32)=1 M(Z)Q_Z==0:True gen.rank=7
+      drops z=[154] ranks=[6] rank_inf=7 deg<=1 kernel=0
+      SUPPORTED FINITE SLOPES over mu_32: [0, 1]  (roots of Q'_2 in mu_32: 0)
+      => T_fin = 2  with BOTH slopes finite
+
+## PART B — bespoke 32-set push: how many members split completely over F_q?
+   objects: rate-1 construction with Q_0 prescribed split on a 7-set.
+   T_bespoke = #{z in P^1 : Q_z has 7 distinct F_q-roots}, admissible iff
+   |union of the root sets| <= 32.
+q=97  objects built=266239 in 95s ; T_bespoke histogram=[(1, 244063), (2, 3690), (3, 37)]
+      predicted extra F_q-split members per object (X8) = (q)/7! = 0.0192 ; measured = 0.0141
+      RECORD T_bespoke = 3  supported finite slopes=[0, 19, 20]  z=inf supported=False
+        |union of root sets| = 20  (must be <= 32)  D = [1, 11, 14, 27, 29, 31, 33, 34, 35, 40, 41, 43, 54, 58, 69, 72, 75, 78, 79, 85]
+        Q_0=[75, 34, 82, 68, 57, 68, 3, 1]
+        Q_1=[63, 88, 56, 95, 45, 55, 46, 79]
+        Q_2=[37, 88, 23, 86, 0, 35, 1, 93]
+        f=[44, 66, 21, 29, 26] g=[0, 40, 16, 54, 1] h=[23, 13, 6, 27, 11] k=[12, 34, 52, 63, 93] L=[9, 1]
+        degs=(7, 7, 7) s=0 seprank=3 nullity=1 M(Z)Q_Z==0:True gen.rank=7 drops=[87] ranks=[6]
+        deg<=1 kernel dim=0 ; y_0=[10, 13, 46, 5, 14, 77, 81, 59, 90, 12, 21, 39, 12, 14, 20, 61] ; y_1=[92, 12, 31, 22, 7, 72, 71, 86, 88, 78, 32, 86, 66, 93, 31, 1]
+        T over mu_32 for this object = 1
+q=193  objects built=167421 in 95s ; T_bespoke histogram=[(1, 156141), (2, 5386), (3, 89)]
+      predicted extra F_q-split members per object (X8) = (q)/7! = 0.0383 ; measured = 0.0332
+      RECORD T_bespoke = 3  supported finite slopes=[0, 82, 147]  z=inf supported=False
+        |union of root sets| = 19  (must be <= 32)  D = [8, 9, 14, 27, 35, 44, 59, 69, 98, 112, 129, 132, 137, 143, 151, 164, 167, 168, 179]
+        Q_0=[150, 147, 63, 63, 158, 158, 24, 1]
+        Q_1=[112, 60, 115, 24, 40, 26, 31, 44]
+        Q_2=[81, 74, 140, 142, 83, 97, 32, 65]
+        f=[43, 41, 39, 122, 75] g=[106, 79, 91, 134, 1] h=[38, 81, 24, 13, 6] k=[161, 15, 181, 67, 27] L=[116, 1]
+        degs=(7, 7, 7) s=0 seprank=3 nullity=1 M(Z)Q_Z==0:True gen.rank=7 drops=[174] ranks=[6]
+        deg<=1 kernel dim=0 ; y_0=[155, 167, 61, 65, 177, 64, 44, 85, 148, 78, 187, 60, 55, 47, 139, 29] ; y_1=[100, 177, 60, 22, 179, 136, 140, 71, 28, 80, 79, 171, 100, 102, 174, 1]
+        T over mu_32 for this object = 1
+
+## PART C — the packing/occupancy measurement over mu_32 (the D3 mechanism)
+   Each x in D gives the quadratic q_x(z)=Q_0(x)+zQ_1(x)+z^2Q_2(x) in P^1;
+   d_x = #roots <= m = 2, so sum_x d_x <= 2|D| = 64 and (SAT3) needs 7*9=63
+   of those 64 slots to sit on ONE 9-element slope set.
+q=97  120 random objects:
+      slot occupancy sum_x d_x out of 64: mean 32.4, max 49, min 21
+      #distinct slopes carrying a root: mean 27.7, min 17 (SAT3 needs <= 9 for 63 slots)
+      max_z (#roots of Q_z in mu_32) histogram: [(1, 3), (2, 82), (3, 31), (4, 4)]   [7 = a supported slope]
+q=193  120 random objects:
+      slot occupancy sum_x d_x out of 64: mean 32.6, max 48, min 18
+      #distinct slopes carrying a root: mean 30.1, min 18 (SAT3 needs <= 9 for 63 slots)
+      max_z (#roots of Q_z in mu_32) histogram: [(1, 13), (2, 92), (3, 15)]   [7 = a supported slope]
+
+## PART D — refined criterion: det M(B)=0 <=> the two ell-conditions,
+   EXCEPT where f(ell)=g(ell)=0 (then fg+hk need not vanish at ell).
+q=97  (det M(B)=0, refined criterion) joint histogram over 600 random B: [((False, False), 594), ((True, True), 6)]
+q=193  (det M(B)=0, refined criterion) joint histogram over 600 random B: [((False, False), 596), ((True, True), 4)]
+

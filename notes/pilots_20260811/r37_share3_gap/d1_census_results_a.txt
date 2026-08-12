@@ -1,0 +1,33 @@
+=== D1  FULL CONSTANT-NORM CENSUS, EXHAUSTIVE, round 37 ===
+R4.1 : q = 1 mod 64 admits EXACTLY {193,257,449,577,641} in [97,690].
+R4.3 : the full family is ONE mu_64-orbit; the e3=1 slice (651 cubics)
+       is exhaustive for the WHOLE family, counts x64 by transitivity.
+reduction (3): a constant-norm line has AT MOST ONE repeated root r0.
+
+--- q = 193   (e3=1 slice: 651 split cubics; predicted 651)
+    wall 0.2 s
+    LINE-SIZE HISTOGRAM (exhaustive over ALL lines in the slice):
+      {1: 0, 2: 7584, 3: 10190, 4: 8729, 5: 5021, 6: 1927, 7: 511, 8: 70, 9: 4, 10: 3, 12: 2, 30: 31, 31: 33}
+    MAX collinear split cubics (raw)          = 31   (need 8)
+    MAX-DISJOINT histogram on lines of size>=6: {1: 64, 6: 1927, 7: 511, 8: 70, 9: 4, 10: 3, 12: 2}
+    MAX DISJOINT COMPLETE FIBRES              = 12   (need 8)
+    number of >=8-fibre constant-norm pencils in the slice = 79
+    ... over the whole family (x64 orbit)                  = 5056
+    BEST PENCIL  line key (A,B,C) with A*e1+B*e2+C=0 : (1, 0, 62)
+      members (indices into mu_64, e3=1):
+        (1, 4, 37)
+        (5, 15, 26)
+        (6, 17, 20)
+        (7, 16, 21)
+        (8, 38, 59)
+        (11, 42, 55)
+        (12, 35, 61)
+        (13, 44, 51)
+        (19, 28, 56)
+        (22, 40, 45)
+        (32, 33, 39)
+        (46, 60, 62)
+      repeated root value r0 : []
+      fibre parameters t_i (line coordinate) : [0, 160, 36, 192, 83, 149, 136, 134, 105, 112, 185, 114]
+
+total wall 0.2 s

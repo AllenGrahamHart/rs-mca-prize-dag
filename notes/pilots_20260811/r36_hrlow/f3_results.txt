@@ -1,0 +1,190 @@
+# f3_probe.py — r36_hrlow
+# cell H1 n=20 k=10 R=10 rho=2 r=8 a=12 | FAITHFUL 4rho<R True a>R+1 True a-1>r True
+
+== A. the h_r=rho+2 excess, exact census + |S cap T| histogram
+ -- q=65537  mu_1=2.93288e-05  moment E[T_acc] ~ C(n,r)/q = 1.922
+   d1-x      d=1 h_r=3(=rho+d True) | column-far | T=  9 T_struct= 9 T_acc=  0 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 0, 0, 0, 0, 1, 0, 9, 0]
+   d2-inj    d=2 h_r=4(=rho+d True) | column-far | T= 98 T_struct= 9 T_acc= 89 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 2, 87, 2, 0, 1, 0, 9, 0]
+        acc slope 1 : |S cap T|=2  S=[1, 9, 10, 65527, 65528, 65529, 65530, 65531]
+        acc slope 111 : |S cap T|=2  S=[4, 9, 65527, 65528, 65529, 65530, 65533, 65536]
+        acc slope 137 : |S cap T|=3  S=[5, 6, 7, 10, 65527, 65530, 65531, 65532]
+        acc slope 216 : |S cap T|=3  S=[1, 3, 5, 10, 65527, 65532, 65534, 65536]
+        acc slope 373 : |S cap T|=3  S=[1, 7, 9, 10, 65527, 65528, 65530, 65536]
+        acc slope 594 : |S cap T|=3  S=[2, 7, 8, 10, 65527, 65529, 65530, 65535]
+   d2-2to1   d=2 h_r=4(=rho+d True) | column-far | T= 93 T_struct= 5 T_acc= 88 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 12, 1, 50, 6, 34, 1, 44, 9, 0]
+        acc slope 442 : |S cap T|=3  S=[2, 5, 7, 8, 65529, 65530, 65532, 65535]
+        acc slope 1285 : |S cap T|=4  S=[2, 5, 10, 65527, 65528, 65530, 65533, 65535]
+        acc slope 1410 : |S cap T|=5  S=[2, 4, 5, 9, 65528, 65532, 65533, 65535]
+        acc slope 1422 : |S cap T|=1  S=[5, 7, 9, 10, 65527, 65528, 65530, 65532]
+        acc slope 2048 : |S cap T|=3  S=[1, 3, 8, 10, 65527, 65531, 65532, 65536]
+        acc slope 2749 : |S cap T|=3  S=[3, 5, 8, 9, 65528, 65529, 65532, 65534]
+   d3-cube   d=3 h_r=4(=rho+d False) | column-far | T= 12 T_struct= 9 T_acc=  3 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 0, 1, 1, 0, 1, 0, 9, 0]
+        acc slope 21939 : |S cap T|=4  S=[1, 2, 6, 8, 65529, 65530, 65532, 65534]
+        acc slope 60076 : |S cap T|=6  S=[1, 2, 4, 7, 8, 9, 65527, 65536]
+        acc slope 64900 : |S cap T|=3  S=[3, 5, 7, 65527, 65531, 65532, 65533, 65535]
+ -- q=999983  mu_1=1.25974e-07  moment E[T_acc] ~ C(n,r)/q = 0.126
+   d1-x      d=1 h_r=3(=rho+d True) | column-far | T=  9 T_struct= 9 T_acc=  0 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 0, 0, 0, 0, 1, 0, 9, 0]
+   d2-inj    d=2 h_r=4(=rho+d True) | column-far | T= 95 T_struct= 9 T_acc= 86 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 1, 86, 1, 0, 1, 0, 9, 0]
+        acc slope 1 : |S cap T|=2  S=[1, 9, 10, 999973, 999974, 999975, 999976, 999977]
+        acc slope 25953 : |S cap T|=3  S=[1, 4, 5, 10, 999973, 999978, 999979, 999982]
+        acc slope 58823 : |S cap T|=3  S=[1, 3, 8, 10, 999973, 999975, 999980, 999982]
+        acc slope 61577 : |S cap T|=3  S=[2, 3, 4, 10, 999973, 999979, 999980, 999981]
+        acc slope 61855 : |S cap T|=3  S=[1, 3, 4, 10, 999973, 999979, 999980, 999982]
+        acc slope 71428 : |S cap T|=3  S=[1, 8, 9, 10, 999973, 999974, 999975, 999982]
+   d2-2to1   d=2 h_r=4(=rho+d True) | column-far | T= 91 T_struct= 5 T_acc= 86 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 12, 1, 48, 6, 34, 1, 44, 9, 0]
+        acc slope 1008 : |S cap T|=5  S=[2, 3, 5, 9, 999974, 999978, 999980, 999981]
+        acc slope 1560 : |S cap T|=3  S=[3, 5, 8, 10, 999973, 999975, 999978, 999980]
+        acc slope 22401 : |S cap T|=5  S=[1, 4, 5, 8, 999975, 999978, 999979, 999982]
+        acc slope 28540 : |S cap T|=3  S=[2, 5, 6, 8, 999975, 999977, 999978, 999981]
+        acc slope 29751 : |S cap T|=1  S=[5, 7, 8, 9, 999974, 999975, 999976, 999978]
+        acc slope 36363 : |S cap T|=1  S=[5, 6, 7, 10, 999973, 999976, 999977, 999978]
+   d3-cube   d=3 h_r=4(=rho+d False) | column-far | T= 10 T_struct= 9 T_acc=  1 | r+1=9
+        |S cap T| histogram over (locator,slope) incidences: [0, 0, 0, 0, 0, 0, 1, 0, 9, 0]
+        acc slope 416660 : |S cap T|=6  S=[1, 2, 4, 7, 8, 9, 999973, 999982]
+
+== B. random pencils: common-support reconstruction + the T_struct <= floor((r+f)/f) cap
+ -- q=349
+   rnd0   h_r=4 col-far T=217 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=14 f=6 | T_struct=2 cap=2 cap_ok=True | T_acc=215
+   rnd1   h_r=4 col-far T=222 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=12 f=4 | T_struct=2 cap=3 cap_ok=True | T_acc=220
+   rnd2   h_r=4 col-far T=215 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=12 f=4 | T_struct=2 cap=3 cap_ok=True | T_acc=213
+   rnd3   h_r=4 col-far T=226 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=13 f=5 | T_struct=2 cap=2 cap_ok=True | T_acc=224
+   rnd4   h_r=4 col-far T=229 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=12 f=4 | T_struct=2 cap=3 cap_ok=True | T_acc=227
+   rnd5   h_r=4 col-far T=233 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=10 f=2 | T_struct=2 cap=5 cap_ok=True | T_acc=231
+ -- q=1009
+   rnd0   h_r=4 col-far T=112 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=13 f=5 | T_struct=2 cap=2 cap_ok=True | T_acc=110
+   rnd1   h_r=4 col-far T=134 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=13 f=5 | T_struct=2 cap=2 cap_ok=True | T_acc=132
+   rnd2   h_r=4 col-far T=109 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=12 f=4 | T_struct=2 cap=3 cap_ok=True | T_acc=107
+   rnd3   h_r=4 col-far T=121 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=11 f=3 | T_struct=2 cap=3 cap_ok=True | T_acc=119
+   rnd4   h_r=4 col-far T=107 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=14 f=6 | T_struct=2 cap=2 cap_ok=True | T_acc=105
+   rnd5   h_r=4 col-far T=112 | recon syn(e_0)=y_0 True syn(e_1)=y_1 True | |W|=14 f=6 | T_struct=2 cap=2 cap_ok=True | T_acc=110
+
+== C. h_r off the (s=r+1, e_0==1) diagonal   [pred h_r=rho+d only claimed for s=r+1, e_0 nonvanishing]
+ -- q=1009
+   s= 9 |supp|= 9 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+ -- q=10007
+   s= 9 |supp|= 9 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s= 9 |supp|= 9 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=10 |supp|=10 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=11 |supp|=11 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=12 |supp|=12 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=1 -> h_r=3 dimK0=6  (rho+max(dA,dB)=3, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=0 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=1 -> h_r=2 dimK0=7  (rho+max(dA,dB)=3, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=2 -> h_r=3 dimK0=6  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=1 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=1 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=2 -> h_r=4 dimK0=5  (rho+max(dA,dB)=4, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=3 -> h_r=4 dimK0=5  (rho+max(dA,dB)=5, 2rho=4)
+   s=16 |supp|=16 degA=2 degB=4 -> h_r=4 dimK0=5  (rho+max(dA,dB)=6, 2rho=4)

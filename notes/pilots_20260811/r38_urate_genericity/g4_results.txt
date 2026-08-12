@@ -1,0 +1,53 @@
+################ g4 razor + F-2 falsifier ################
+
+== RAZOR CLOSED FORMS (A-1..A-4) ==
+   rho=17179869184  R=1099511627776  k=1099511627776  n=2199023255552  r=1082331758592  r+1=1082331758593
+   A-1 2r/rho = 126 (exact int? True)
+   A-1 floor(2(r+1)/(rho+1)) = 125 ; 126*(rho+1) = 2164663517310 ; 2(r+1) = 2164663517186
+   A-1 floor(2(r-1)/(rho-1)) = 126 ; 126*(rho-1) = 2164663517058 ; 2(r-1) = 2164663517182
+   A-1 CAP floor((2(r+1)-1)/rho) = 126   [the anchor's cap]
+   A-2 N=|D\W| = 1116691496959 ; 65*rho-1 = 1116691496959 ; k-1 = 1099511627775 ; N-rho = 1099511627775
+   A-3 2(r-rho) = 2130303778816 ; isqrt = 1459556 ; m* = rho+1-sqrt = 17178409629
+   A-4 log2 C(N,rho) = 1.280572e+11 ; m_pig = 1+floor(log2C/128) = 1000446576
+   A-4 margin m*/m_pig = 17.17
+   TRADE-OFF TABLE  T_max(m) - (r+1)  [ = -(m-1) + floor((2(r+1-m)+1)/(rho+1-m)) ]:
+      m=0             T_max(m)-(r+1) = 125
+      m=1             T_max(m)-(r+1) = 126
+      m=2             T_max(m)-(r+1) = 125
+      m=3             T_max(m)-(r+1) = 124
+      m=4             T_max(m)-(r+1) = 123
+      m=10            T_max(m)-(r+1) = 117
+      m=1000          T_max(m)-(r+1) = -873
+      m=1000000       T_max(m)-(r+1) = -999873
+      m=1000000000    T_max(m)-(r+1) = -999999866
+      m=1000446576    T_max(m)-(r+1) = -1000446442
+   DEFICIENCY LAW  T <= (r+1) - delta + floor((2(r+1)-1+delta)/rho):
+      delta=0               T-(r+1) = 126
+      delta=1               T-(r+1) = 125
+      delta=2               T-(r+1) = 124
+      delta=8589934592      T-(r+1) = -8589934466
+      delta=17179869184     T-(r+1) = -17179869057
+      delta=34359738368     T-(r+1) = -34359738240
+   B_ca^far(k+2^34) >= r+1+126 = 1082331758719 ; log2 = 39.977280 ; log2(r+1) = 39.977280
+   (r+1+126)/2^39 = 1.968750000 = 2^0.977280
+   B_ca^far < 2^128 ?  NO (no upper bound added)
+
+== F-2 RANK-DROP TEST C9/mu_36 n=36 R=18 r=14 rho=4 q=200017 cap=7 | FAITHFUL True True True
+   m=2 branch: j <= (2(r-1)+1)/(rho-1) = 9 ; T_max(2) = (r) + j = 23 ; T_max(1) = (r+1)+cap = 22
+   best m=2 class over 60 random W: size 40  (need j for a rank drop)
+   j=8 CONSTRUCTED in the m=2 normal form: rank=34 dimker=4 |chi(W)|=14 chi-collisions=1
+   PREDICTED (deficiency/collapse trade): |chi(W)| = r+1-1 = 14, so T = 22 = T at j=cap
+
+== F-2 RANK-DROP TEST C3/mu_26 n=26 R=13 r=10 rho=3 q=200201 cap=7 | FAITHFUL True True True
+   m=2 branch: j <= (2(r-1)+1)/(rho-1) = 9 ; T_max(2) = (r) + j = 19 ; T_max(1) = (r+1)+cap = 18
+   best m=2 class over 60 random W: size 7  (need j for a rank drop)
+   j=8 NOT constructible in the m=2 normal form (class too small) -- SEARCH RESULT
+
+== F-2 RANK-DROP TEST C3/mu_26 n=26 R=13 r=10 rho=3 q=200201 cap=7 | FAITHFUL True True True
+   m=2 branch: j <= (2(r-1)+1)/(rho-1) = 9 ; T_max(2) = (r) + j = 19 ; T_max(1) = (r+1)+cap = 18
+   best m=2 class over 60 random W: size 11  (need j for a rank drop)
+   j=9 CONSTRUCTED in the m=2 normal form: rank=29 dimker=2 |chi(W)|=10 chi-collisions=1
+   PREDICTED (deficiency/collapse trade): |chi(W)| = r+1-1 = 10, so T = 19 = T at j=cap
+   FULL CENSUS: T=19  T_fib=10  T_eng=9/9  T_other=0  common-locators=0 COLUMN-FAR
+   F-2 VERDICT: cap BROKEN  (T=19 vs T at j=cap = 18)
+################ g4 done ################

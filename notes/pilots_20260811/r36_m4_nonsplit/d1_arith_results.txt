@@ -1,0 +1,145 @@
+=== R1.1 / R1.2  COINCIDENCE DEMAND  D(k,k') = slots - rho ===
+m  k  k'   tD  tM  slots  rho   D(mine)   D(anchor conv.)
+3  2  2     9   1    19    11      8         8
+4  1  1    24   3    78    15     63        58
+4  2  2    12   2    40    15     25        22
+4  3  3     8   1    26    15     11        10
+5  2  2    15   2    66    19     47        42
+5  4  4     8   1    35    19     16        14
+
+CALIBRATION CHECK (R1.1): m=3,k=k'=2 must reproduce anchor 1's 8.
+  D(3,2,2) = 8   -> PASS
+R1.2 CORRECTION CHECK: anchor's m=4 2-sharing demand is 22; mine:
+  D(4,2,2) = 25   (anchor 22, difference 3)
+  D(5,2,2) = 47   (anchor 42, difference 5)
+R1.3: 3-sharing demand at m=4
+  D(4,3,3) = 11 ; m=3 crossing level 8 ; measured m=4 supply 12
+  <= 8 ? False      <= 12 ? True
+
+=== R1.4  (SUPPLY-CODIM) EXCESS AT m=4 ===
+  (SPLIT-4)   supply 10  demand 25  E = -15
+  (QUAD-4)    supply 14  demand 25  E = -11
+  (SHARE3-4)  supply 15  demand 11  E = +4
+
+=== R1.5  x-DEGREE COST OF k-SHARING:  deg_x = k*deg_w <= 3(m-1) ===
+m   3m-3   k    deg_w max   deg_x used   waste   k | 3(m-1)?
+3     6    2      3            6          0      True
+4     9    2      4            8          1      False
+4     9    3      3            9          0      True
+5    12    2      6           12          0      True
+5    12    3      4           12          0      True
+5    12    4      3           12          0      True
+6    15    2      7           14          1      False
+6    15    3      5           15          0      True
+6    15    4      3           12          3      False
+6    15    5      3           15          0      True
+7    18    2      9           18          0      True
+7    18    3      6           18          0      True
+7    18    4      4           16          2      False
+7    18    5      3           15          3      False
+7    18    6      3           18          0      True
+
+=== R1.8  MIXED SHARING IS IMPOSSIBLE AT m=4 (supply cap 12) ===
+  patterns with demand <= measured supply 12 : 1
+    n3=8 n2=0 n1=0  t=8  demand=11
+
+=== R1.10 / R1.11  PER-SIDE CAP AND THE SELECTION LAYER AT k=3 ===
+  X'_gamma = 3*d ; per-side caps 3 and 3 ; so 3d <= 6 - 2X''
+  => d <= 2 (k=3)   vs   d <= 3 (k=2, X'=2d)
+  sum_gamma d_gamma = 8 triples * 3 = 24 ; d<=2 => s >= 12
+  T_2 = rho = 15 exactly, middles take 2 slopes => s = 13
+  degree sequence on 13 slopes with sum 24, max 2: 11 x deg2 + 2 x deg1
+  check: 11*2 + 2*1 = 24  -> PASS
+  per-side balance: sum_T a_T = 12 over 8 triples;
+  all splits in {(2,1),(1,2)} => 2p + (8-p) = 12 => p = 4
+  CERTIFICATE C1 (s=12): K_{4,4} minus a perfect matching
+    edges = 12 ; simple = True ; bipartite = True
+    degree sequence (slot-degree per triple) = [3, 3, 3, 3, 3, 3, 3, 3] ; 3-regular = True
+    max pair multiplicity (two triples sharing a slope) = 1 (cap 1)
+  CERTIFICATE C2 (s=13, the FORCED form): drop one edge, add 2 pendants
+    11 edges + 2 pendant slopes = 13 slopes ; slot sum = 24
+    slopes = 13 (need 13) -> PASS
+    slot sum = 24 (need 24) -> PASS
+
+=== R1.12  (OUT-m)/(DEG-m) UNDER k-SHARING ===
+  (OUT-m): X' + 2X'' >= m-1-eps ;  X' = k*d
+  m=3 k=2 : k*d >= 2 needs d >= 1  (X''=0 suffices: True)
+  m=3 k=2 : k*d >= 2 needs d >= 1  (X''=0 suffices: True)
+  m=4 k=2 : k*d >= 3 needs d >= 2  (X''=0 suffices: True)
+  m=4 k=3 : k*d >= 3 needs d >= 1  (X''=0 suffices: True)
+  m=4 k=3 : k*d >= 3 needs d >= 1  (X''=0 suffices: True)
+  m=5 k=2 : k*d >= 4 needs d >= 2  (X''=0 suffices: True)
+  m=5 k=3 : k*d >= 4 needs d >= 2  (X''=0 suffices: True)
+  m=5 k=4 : k*d >= 4 needs d >= 1  (X''=0 suffices: True)
+  m=6 k=2 : k*d >= 5 needs d >= 3  (X''=0 suffices: True)
+  m=6 k=3 : k*d >= 5 needs d >= 2  (X''=0 suffices: True)
+  m=6 k=5 : k*d >= 5 needs d >= 1  (X''=0 suffices: True)
+
+=== R2.1  FIRST MOMENT FOR THE 3-SHARING PENCIL ===
+  #(8-families of pairwise disjoint triples in a 64-set) = 2296367028942058386265311360000
+  registered 2.30e30 ; computed 2.296e+30 ; ratio 0.9984
+
+  q     q^12          E = N8 * q^-12     prediction
+  193   10^27.427      859.7             EXISTS
+  257   10^28.919      27.66             EXISTS
+  337   10^30.332      1.07              BORDERLINE
+  401   10^31.238      0.1328            ABSENT
+  449   10^31.827      0.0342            ABSENT
+  577   10^33.134      0.001686          ABSENT
+  641   10^33.682      0.0004772         ABSENT
+  (q must satisfy 64 | q-1: {193: True, 257: True, 337: False, 401: False, 449: True, 577: True, 641: True})
+  threshold q* where E = 1 : q* = N8^(1/12) = 338.9
+
+=== R1.14  PARAMETER COUNT OF (SHARE3-4) ===
+  w = P/Q, deg<=3   : 8 coeffs - 1 projective          =  7
+  Psi~ deg_w <= 3   : 4 polys x 4 coeffs - 1           = 15
+  minus PGL_2 on the w-line                            = -3
+  TOTAL                                                = 19
+  continuous supply usable vs coincidences (w is 0-dim) = 15
+  incidences needed = 8*3 + 1*2 = 26 ; prescribable    = 15
+
+=== R5.1  CAUCHY-SCHWARZ DEMAND-SIDE BOUND (pencil classes) ===
+  sum_j |A_j| >= |S|(m-1)^2 / sum d_j >= 6m(m-1)^2/(3(m-1)) = 2m(m-1)
+  |U A_j| >= (sum|A_j|)^2 / sum_{j,j'} |A_j ^ A_j'| ; need <= rho=4m-1
+  => sum_{j!=j'} |A_j^A_j'| >= 4m^2(m-1)^2/(4m-1) - 6m(m-1)
+
+   m   4m^2(m-1)^2/(4m-1)  diag<=6m(m-1)   cross>=   pairs   avg>=   m(m-7)/(m-2)
+    3            13.1          36        -22.9       2   -11.45    -12.00
+    4            38.4          72        -33.6       6    -5.60     -6.00
+    5            84.2         120        -35.8      12    -2.98     -3.33
+    6           156.5         180        -23.5      20    -1.17     -1.50
+    7           261.3         252          9.3      30     0.31      0.00
+    8           404.6         336         68.6      42     1.63      1.33
+   10           830.8         540        290.8      72     4.04      3.75
+   12          1482.9         792        690.9     110     6.28      6.00
+   16          3657.1        1440       2217.1     210    10.56     10.29
+   20          7311.4        2280       5031.4     342    14.71     14.44
+   32         30994.1        5952      25042.1     930    26.93     26.67
+   64        255012.1       24192     230820.1    3906    59.09     58.84
+
+  R5.1(i) VACUOUS for m <= 7 ?  (cross bound <= 0)
+    m=3 : cross bound = -22.9 -> VACUOUS
+    m=4 : cross bound = -33.6 -> VACUOUS
+    m=5 : cross bound = -35.8 -> VACUOUS
+    m=6 : cross bound = -23.5 -> VACUOUS
+    m=7 : cross bound = +9.3 -> BINDING
+    m=8 : cross bound = +68.6 -> BINDING
+
+  R5.1(iii) q-threshold from heuristic cross supply N^2/q = 256 m^2/q :
+   m    avg cross needed   N=16m   256m^2   q <= 256m^2/avg
+     8            1.63     128     16384         10024
+    10            4.04     160     25600          6339
+    12            6.28     192     36864          5869
+    16           10.56     256     65536          6207
+    20           14.71     320    102400          6960
+    32           26.93     512    262144          9735
+    64           59.09    1024   1048576         17744
+   128          123.17    2048   4194304         34052
+
+=== R5.3  NO DEGREE-1 FACTOR ===
+  a Mobius phi_j is injective on S: |A_j| = |S| = 6m > 4m-1 = rho
+    m=2 : 6m = 12 vs rho = 7 -> EXCLUDED
+    m=3 : 6m = 18 vs rho = 11 -> EXCLUDED
+    m=4 : 6m = 24 vs rho = 15 -> EXCLUDED
+    m=5 : 6m = 30 vs rho = 19 -> EXCLUDED
+    m=10 : 6m = 60 vs rho = 39 -> EXCLUDED

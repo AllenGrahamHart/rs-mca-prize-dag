@@ -1,0 +1,60 @@
+# d1_results — r36_sat3_on_l2 — the (L2) parametrization at m=2
+
+## PART A — (X1) L*Q_0 = f^2-kg, L*Q_1 = fg+hk, L*Q_2 = g^2+hf
+   test: for random B with gcd(f^2-kg, g^2+hf) linear, the built curve
+   satisfies E1,E2 identically AND nullity(36x32) >= 1.
+q=97  random B draws=400  linear-L draws=5  E1&E2 identically 0: 5/5
+      nullity(36x32)>=1 on those: 5/5
+      [det M(B)=0 & (shared root or both deg<=7)] = 6 ; det=0 only = 0 ;
+      shared only = 5 ; neither = 389   (rate det=0: 0.0150, 1/q=0.0103)
+q=193  random B draws=400  linear-L draws=1  E1&E2 identically 0: 1/1
+      nullity(36x32)>=1 on those: 1/1
+      [det M(B)=0 & (shared root or both deg<=7)] = 1 ; det=0 only = 0 ;
+      shared only = 0 ; neither = 399   (rate det=0: 0.0025, 1/q=0.0052)
+
+## PART B — (X2) dimension: fibre of B -> Q and of Q -> B
+q=97  nullity of M(B) (curve given B): [(1, 40)]   nullity of Phi (B given curve): [(1, 40)]
+q=193  nullity of M(B) (curve given B): [(1, 40)]   nullity of Phi (B given curve): [(1, 40)]
+   parameter count: (f,g,h,k)=20 coords + ell=1, minus the 2 conditions at ell
+   = 19 affine = 18 projective, and the fibre is finite => image dim 18.
+
+## PART C — (X3) Q_0 PRESCRIBED SPLIT OVER mu_32, full certification
+q=97  domain mu_32=[1, 8, 12, 18, 19, 20, '...']
+      constructions attempted (deg-3 filter passed): 6 ; fully certified: 6
+      HEADLINE WITNESS q=97
+        S0 (subset of mu_32) = [12, 45, 78, 18, 8, 28, 46]
+        f=[66, 66, 25, 44, 69] g=[64, 75, 53, 87, 1] h=[42, 1, 73, 88, 85] k=[21, 10, 9, 34, 7] L=[38, 1]
+        Q0=[18, 25, 9, 59, 73, 17, 56, 1]
+        Q1=[68, 70, 40, 73, 5, 69, 35, 82]
+        Q2=[48, 81, 16, 42, 44, 60, 90, 46]
+        degs=(7, 7, 7)  s=0  seprank=3  nullity(36x32)=1  M(Z)Q_Z==0: True
+        generic rank=7  drops at z=[41] with ranks [6]  rank at inf=7
+        deg<=1 kernel dim=0 (0 <=> e=2 exactly)
+        y0=[37, 66, 45, 81, 33, 61, 72, 57, 13, 90, 85, 17, 47, 89, 59, 13]
+        y1=[91, 4, 49, 92, 61, 48, 92, 78, 79, 27, 20, 12, 35, 33, 54, 1]
+        SUPPORTED FINITE SLOPES over mu_32: [0]   (z=inf supported: False)
+        T_fin=1  T_P1=1
+      T over mu_32 across the certified objects: [1, 1, 1, 1, 1, 1]
+q=193  domain mu_32=[1, 3, 8, 9, 14, 23, '...']
+      constructions attempted (deg-3 filter passed): 7 ; fully certified: 6
+      HEADLINE WITNESS q=193
+        S0 (subset of mu_32) = [1, 192, 150, 81, 112, 23, 151]
+        f=[153, 96, 150, 119, 84] g=[121, 38, 158, 116, 1] h=[112, 81, 120, 37, 77] k=[44, 125, 192, 118, 107] L=[66, 1]
+        Q0=[43, 149, 131, 192, 150, 44, 62, 1]
+        Q1=[130, 113, 137, 138, 21, 130, 94, 24]
+        Q2=[75, 21, 149, 146, 184, 116, 113, 100]
+        degs=(7, 7, 7)  s=0  seprank=3  nullity(36x32)=1  M(Z)Q_Z==0: True
+        generic rank=7  drops at z=[182] with ranks [6]  rank at inf=7
+        deg<=1 kernel dim=0 (0 <=> e=2 exactly)
+        y0=[110, 111, 136, 124, 121, 56, 116, 11, 45, 2, 19, 115, 175, 179, 149, 86]
+        y1=[184, 52, 54, 6, 100, 4, 119, 66, 119, 74, 50, 94, 104, 92, 53, 1]
+        SUPPORTED FINITE SLOPES over mu_32: [0]   (z=inf supported: False)
+        T_fin=1  T_P1=1
+      T over mu_32 across the certified objects: [1, 1, 1, 1, 1, 1]
+
+## PART D — control: random (unprescribed) objects, T over mu_32
+q=97  60 random parametrized objects: total supported slopes over mu_32 = 0
+      members scanned=5820  fully F_q-split members=0  rate=0.00000  (1/7!=0.00020)
+q=193  60 random parametrized objects: total supported slopes over mu_32 = 0
+      members scanned=11580  fully F_q-split members=4  rate=0.00035  (1/7!=0.00020)
+

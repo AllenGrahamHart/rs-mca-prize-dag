@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_l2_stratum_nonempty_at_m_two",
+    "title": "R-L2: the e = m stratum is nonempty at m = 2 (witness theorem)",
+    "status": "PROVED",
+    "closure": "explicit certified witnesses over five fields",
+    "statement": "There exist (4m+1) x 4m syndrome Hankel pencils with minimal index exactly m = 2, generic rank 4m-1 = 7, s = 0, delta = m-1 = 1, and independent Q_0, Q_1, Q_2: twelve are certified over q in {97,193,257,641,769}. Existence is witness-checkable. Membership is decided by the (D-B) congruence criterion nullity(36x32) = 10 - rank(Phi) for the 14x10 map (f,g) -> (Q_2 f - Q_1 g mod Q_0, Q_1 f - Q_0 g mod Q_2), and objects are produced by the (D-F) inversion, which at m = 2 makes the cleared system a square 24x24 in the curve so that existence is the single condition det M(B) = 0 (hit rate ~1/q against q^-5 blind); the squareness is an m = 2 accident, and since round 36 the rate-1 (PAR) parametrization supersedes (D-F) as the construction instrument. The equation-count excess 4m^2-7m+2 = -1,+4,+17,+38 is NOT an existence codimension: the determinantal codimension is (36-31)(32-31) = 5 in the 23-dimensional curve space, giving expected dimension 11m-4 > 0 at every m >= 1 and exactly 18 = 23-5 at m = 2, while the planted-common-root family (nullity 2) is an excess component of dimension 21. The emptiness route to the strict endpoint is therefore dead at m = 2 constructively and expected-dead at every m. All witnesses have T = 0: having a syndrome pencil buys nothing at the splitting layer. The banked a* = 13 is under the PROJECTIVE convention, ruled the convention of record in round 38 and proved operationally inert on supported pairs.",
+    "refs": [
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/statement.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/proof.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/claim_contract.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/dependency_subdag.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/audit.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/result.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/provenance.md",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/certificate.json",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/verify.py",
+      "background/nodes/rate_half_l2_stratum_nonempty_at_m_two/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

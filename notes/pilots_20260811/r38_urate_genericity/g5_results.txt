@@ -1,0 +1,12 @@
+################ g5 two-field replication ################
+
+== F-2 REPLICATION n=26 R=13 r=10 rho=3 q=500111 cap=7 target j=9 | FAITHFUL True True True
+   m=2 class size 9 ; j=9 CONSTRUCTED rank=29 dimker=2 |chi(W)|=10 collisions=1
+   FULL CENSUS C(26,10): T=19 T_fib=10 T_eng=9/9 T_other=0 common=0 COLUMN-FAR
+   VERDICT: cap BROKEN  (T=19 vs (r+1)+cap=18)
+
+== F-2 REPLICATION n=26 R=13 r=10 rho=3 q=300301 cap=7 target j=9 | FAITHFUL True True True
+   m=2 class size 11 ; j=9 CONSTRUCTED rank=29 dimker=2 |chi(W)|=10 collisions=1
+   FULL CENSUS C(26,10): T=19 T_fib=10 T_eng=9/9 T_other=0 common=0 COLUMN-FAR
+   VERDICT: cap BROKEN  (T=19 vs (r+1)+cap=18)
+################ g5 done ################

@@ -1,0 +1,49 @@
+==============================================================================
+r34 D3b -- VALUE-COINCIDENCE BUDGET (supply vs demand), two fields per scale
+==============================================================================
+
+------------------------------------------------------------------------------
+m = 3, D = mu_48 < F_97, 24 sigma-orbits, a = 20, T_2 = rho = 11
+  SUPPLY  phi self-coincidences in ALL of D   min/mean/max = 0 / 11.44 / 23
+          (analytic prediction |D|^2 (d-1) / (2q) = 23.8)
+  SUPPLY  distinct ORBIT pairs sharing a value min/mean/max = 0 / 11.27 / 23
+  SUPPLY  cross-coincidences phi(x) in chi(orbits) = 0 / 11.70 / 21
+          (analytic prediction |D| * #orbits / q = 11.9)
+  DEMAND  self-coincidences needed INSIDE the selection : 8
+  DEMAND  cross-coincidences needed                     : 0
+  VERDICT (this ansatz, this scale): self SUPPLY >= DEMAND in all of D ; cross n/a (m=3 has no third factor)
+
+------------------------------------------------------------------------------
+m = 3, D = mu_48 < F_193, 24 sigma-orbits, a = 20, T_2 = rho = 11
+  SUPPLY  phi self-coincidences in ALL of D   min/mean/max = 0 / 5.75 / 15
+          (analytic prediction |D|^2 (d-1) / (2q) = 11.9)
+  SUPPLY  distinct ORBIT pairs sharing a value min/mean/max = 0 / 5.71 / 15
+  SUPPLY  cross-coincidences phi(x) in chi(orbits) = 0 / 5.97 / 15
+          (analytic prediction |D| * #orbits / q = 6.0)
+  DEMAND  self-coincidences needed INSIDE the selection : 8
+  DEMAND  cross-coincidences needed                     : 0
+  VERDICT (this ansatz, this scale): self SHORT ; cross n/a (m=3 has no third factor)
+
+------------------------------------------------------------------------------
+m = 4, D = mu_64 < F_193, 32 sigma-orbits, a = 27, T_2 = rho = 15
+  SUPPLY  phi self-coincidences in ALL of D   min/mean/max = 2 / 10.31 / 22
+          (analytic prediction |D|^2 (d-1) / (2q) = 21.2)
+  SUPPLY  distinct ORBIT pairs sharing a value min/mean/max = 2 / 10.23 / 22
+  SUPPLY  cross-coincidences phi(x) in chi(orbits) = 0 / 10.59 / 24
+          (analytic prediction |D| * #orbits / q = 10.6)
+  DEMAND  self-coincidences needed INSIDE the selection : 9
+  DEMAND  cross-coincidences needed                     : 15
+  VERDICT (this ansatz, this scale): self SUPPLY >= DEMAND in all of D ; cross SHORT BY ~1.4x
+
+------------------------------------------------------------------------------
+m = 4, D = mu_64 < F_257, 32 sigma-orbits, a = 27, T_2 = rho = 15
+  SUPPLY  phi self-coincidences in ALL of D   min/mean/max = 0 / 7.68 / 18
+          (analytic prediction |D|^2 (d-1) / (2q) = 15.9)
+  SUPPLY  distinct ORBIT pairs sharing a value min/mean/max = 0 / 7.64 / 18
+  SUPPLY  cross-coincidences phi(x) in chi(orbits) = 0 / 8.01 / 17
+          (analytic prediction |D| * #orbits / q = 8.0)
+  DEMAND  self-coincidences needed INSIDE the selection : 9
+  DEMAND  cross-coincidences needed                     : 15
+  VERDICT (this ansatz, this scale): self SHORT ; cross SHORT BY ~1.9x
+
+==============================================================================

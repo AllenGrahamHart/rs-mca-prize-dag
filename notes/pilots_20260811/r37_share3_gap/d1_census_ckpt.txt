@@ -1,0 +1,6 @@
+tag=a q=193 n=651 maxline=31 maxdisj=12 big=79 wall=0.2
+tag=b q=193 n=651 maxline=31 maxdisj=12 big=79 wall=0.3
+tag=b q=257 n=651 maxline=31 maxdisj=9 big=15 wall=0.2
+tag=b q=449 n=651 maxline=31 maxdisj=9 big=2 wall=0.6
+tag=b q=577 n=651 maxline=31 maxdisj=7 big=0 wall=0.4
+tag=b q=641 n=651 maxline=31 maxdisj=7 big=0 wall=0.3

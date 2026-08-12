@@ -1,0 +1,76 @@
+==============================================================================
+D3 STRUCTURE: the layer-A failure locus
+==============================================================================
+
+[A] (LA-PADE) + the reduced-basis degree formula, on every
+    configuration in this round
+  [Codex fence] m=2 q=97 a=13 rho=7
+       direct nullity(E_I) = 4 ; (LA-PADE) joint kernel = 4 ; AGREE True
+       per-j: d_j = [0, 4] ; dim K_j measured = [8, 4] ; formula = [8, 4] ; AGREE True
+  [Codex fence] m=2 q=193 a=13 rho=7
+       direct nullity(E_I) = 4 ; (LA-PADE) joint kernel = 4 ; AGREE True
+       per-j: d_j = [0, 4] ; dim K_j measured = [8, 4] ; formula = [8, 4] ; AGREE True
+  [genfence Z^2-X^4] m=2 q=97 a=13 rho=7
+       direct nullity(E_I) = 4 ; (LA-PADE) joint kernel = 4 ; AGREE True
+       per-j: d_j = [0, 4] ; dim K_j measured = [8, 4] ; formula = [8, 4] ; AGREE True
+  [genfence Z^2-X^4] m=2 q=193 a=13 rho=7
+       direct nullity(E_I) = 4 ; (LA-PADE) joint kernel = 4 ; AGREE True
+       per-j: d_j = [0, 4] ; dim K_j measured = [8, 4] ; formula = [8, 4] ; AGREE True
+  [genfence Z^3-X^6] m=3 q=97 a=20 rho=11
+       direct nullity(E_I) = 6 ; (LA-PADE) joint kernel = 6 ; AGREE True
+       per-j: d_j = [0, 0, 6] ; dim K_j measured = [12, 12, 6] ; formula = [12, 12, 6] ; AGREE True
+  [genfence Z^3-X^6] m=3 q=193 a=20 rho=11
+       direct nullity(E_I) = 6 ; (LA-PADE) joint kernel = 6 ; AGREE True
+       per-j: d_j = [0, 0, 6] ; dim K_j measured = [12, 12, 6] ; formula = [12, 12, 6] ; AGREE True
+  [m=1 banked (BRS1)] m=1 q=17 a=6 rho=3
+       direct nullity(E_I) = 2 ; (LA-PADE) joint kernel = 2 ; AGREE True
+       per-j: d_j = [3] ; dim K_j measured = [2] ; formula = [2] ; AGREE True
+  [H1^H2 exhibit] m=2 q=97 a=13 rho=7
+       direct nullity(E_I) = 1 ; (LA-PADE) joint kernel = 1 ; AGREE True
+       per-j: d_j = [6, 6] ; dim K_j measured = [3, 3] ; formula = [3, 3] ; AGREE True
+  [H1^H2 exhibit] m=2 q=193 a=13 rho=7
+       direct nullity(E_I) = 1 ; (LA-PADE) joint kernel = 1 ; AGREE True
+       per-j: d_j = [6, 6] ; dim K_j measured = [3, 3] ; formula = [3, 3] ; AGREE True
+  formula agreement on all 9 configurations: True
+  direct == (LA-PADE) on all 9: True
+
+[B] IS EVERY COUNTEREXAMPLE OF THE INVARIANT / SUBGROUP TYPE?
+  q=97  nullity=1  kernel biform coefficient blocks (P_0|P_1|P_2):
+     P_0 = [28, 39, 28, 68, 75, 76, 61, 74]   (deg 7)
+     P_1 = [81, 25, 73, 55, 11, 42, 80, 39]   (deg 7)
+     P_2 = [27, 57, 37, 40, 30, 70, 9, 1]   (deg 7)
+     P_1 == 0 (required for the binomial form A(X)(Z^m - cX^k))? False
+     -> the exhibit is NOT of invariant/subgroup type
+     slopes inside the domain mu_32: 1 of 9
+  q=193  nullity=1  kernel biform coefficient blocks (P_0|P_1|P_2):
+     P_0 = [140, 87, 54, 108, 179, 46, 21, 27]   (deg 7)
+     P_1 = [33, 39, 50, 30, 88, 20, 143, 18]   (deg 7)
+     P_2 = [153, 144, 189, 38, 74, 54, 178, 1]   (deg 7)
+     P_1 == 0 (required for the binomial form A(X)(Z^m - cX^k))? False
+     -> the exhibit is NOT of invariant/subgroup type
+     slopes inside the domain mu_32: 3 of 9
+
+[C] THE BINOMIAL SUBFAMILY, CLASSIFIED
+  m   rho   admissible k (f=gcd(k,16m), F=#fibres, nullity=4m-k)
+  2   7    [(4, 4, 4, 4)]
+  3   11   [(6, 6, 4, 6), (8, 8, 3, 4)]
+  4   15   [(8, 8, 4, 8)]
+  5   19   [(10, 10, 4, 10), (16, 16, 3, 4)]
+  6   23   [(12, 12, 4, 12), (16, 16, 3, 8)]
+  7   27   [(14, 14, 4, 14), (16, 16, 3, 12)]
+  8   31   [(16, 16, 4, 16)]
+  9   35   [(16, 16, 4, 20), (18, 18, 4, 18), (24, 24, 3, 12), (32, 16, 4, 4)]
+  10  39   [(20, 20, 4, 20), (32, 32, 3, 8)]
+  11  43   [(22, 22, 4, 22)]
+  12  47   [(24, 24, 4, 24), (32, 32, 3, 16)]
+
+[D] THE NEXT RUNG: global block completion (SAT2), O <= m-1 = 1
+    O-budget DISTRIBUTION over the H1^H2 counterexamples found
+  q=97  n=6 exhibits  O values = [34, 35, 36, 36, 36, 36]   min=34  [cap 1]
+       per-slope domain-root counts u_gamma of exhibit #1 = [1, 7, 7, 3, 2, 2, 2, 1, 2] (rho = 7, need 7 for each)
+  q=193  n=6 exhibits  O values = [35, 36, 37, 37, 37, 37]   min=35  [cap 1]
+       per-slope domain-root counts u_gamma of exhibit #1 = [2, 2, 7, 7, 2, 1, 3, 2, 2] (rho = 7, need 7 for each)
+
+[E] CONTROL: the failure locus is thin - random saturated configs
+  q=97  60 random saturated: nullity histogram {0: 60}
+  q=193  60 random saturated: nullity histogram {0: 60}

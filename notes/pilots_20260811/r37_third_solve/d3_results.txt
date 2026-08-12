@@ -1,0 +1,18 @@
+
+=== RUN d3_push 2026-08-11T21:00:58 ===
+q=97 bespoke objects (Q_0 AND Q_2 both prescribed split, EXACT) = 9261 in 125 s
+q=97 T distribution over P^1 (F_q-split members) = [(2, 9130), (3, 130), (4, 1)]
+q=97 T>=3 objects: |union of supported root sets| samples = [(3, 17), (3, 18), (3, 19), (3, 20), (3, 21), (4, 23)]
+q=97 (OV4) worst-case e(k,i)+e(k,j) over T>=3 objects: histogram [(0, 52), (1, 48), (2, 22), (3, 7), (4, 2)] ; violations of <=4 : 0
+q=97 RECORD T=4 |union|=23 OV4worst=3 pairwise-overlaps=[0, 0, 1, 1, 1, 2]
+q=97 RECORD f=[74, 17, 86, 23, 58] g=[9, 77, 35, 14, 1] h=[96, 79, 72, 12, 72] k=[56, 36, 57, 93, 65] L=[63, 1]
+q=97 RECORD Q0=[82, 2, 91, 96, 61, 35, 50, 1] Q1=[22, 39, 54, 52, 92, 55, 41, 82] Q2=[54, 49, 0, 15, 26, 20, 62, 6]
+q=97 RECORD S0=[4, 23, 25, 51, 66, 83, 86] S_inf=[16, 21, 28, 55, 62, 64, 67] finite supported slopes=[0, 23, 72]
+q=193 bespoke objects (Q_0 AND Q_2 both prescribed split, EXACT) = 7338 in 125 s
+q=193 T distribution over P^1 (F_q-split members) = [(2, 7095), (3, 239), (4, 4)]
+q=193 T>=3 objects: |union of supported root sets| samples = [(3, 18), (3, 19), (3, 20), (3, 21), (4, 24), (4, 26), (4, 27)]
+q=193 (OV4) worst-case e(k,i)+e(k,j) over T>=3 objects: histogram [(0, 136), (1, 89), (2, 17), (3, 1)] ; violations of <=4 : 0
+q=193 RECORD T=4 |union|=24 OV4worst=2 pairwise-overlaps=[0, 0, 1, 1, 1, 1]
+q=193 RECORD f=[5, 163, 176, 133, 30] g=[155, 2, 76, 47, 1] h=[106, 163, 20, 73, 33] k=[189, 80, 104, 128, 127] L=[54, 1]
+q=193 RECORD Q0=[87, 60, 124, 147, 158, 175, 92, 1] Q1=[103, 75, 164, 79, 119, 44, 176, 168] Q2=[58, 106, 55, 126, 173, 99, 58, 26]
+q=193 RECORD S0=[29, 71, 82, 115, 118, 129, 136] S_inf=[14, 30, 45, 89, 138, 154, 181] finite supported slopes=[0, 108, 114]

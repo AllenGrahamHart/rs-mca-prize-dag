@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_far_ca_statement_u_exact_value",
+    "title": "Statement U and the far-CA exact value at the crossing offset",
+    "status": "TARGET",
+    "closure": "one-sentence reduction of the far-CA residual, with an exact-value consequence",
+    "statement": "STATEMENT U: at razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho), every bad slope of a column-far pencil admits a locator inside W = S_1 u S_2. U implies B_ca^far(k + 2^34) = r + 1 = 1082331758593 = 2^39.977280 exactly, the floor being the banked LB1 construction and the cap the fibre pigeonhole T_fib <= floor(r/f) + 1 with f = |W| - r. In the decomposition T = T_fib + T_sym + T_rand, T_fib satisfies the PROVED bracket ceil((r+1)/d) <= T_fib <= floor(r/f)+1 with equality r+1 iff f = 1 and chi injective; U is exactly T_sym = T_rand = 0. U-sym is condition-killed at razor rho: an orbit-invariant locator carrier on a mu_M-invariant domain leaves ceil(rho/M) conditions on one unknown slope, so it needs M >= rho = 2^34, and at M = 2 the surplus is 2^33 - 1 = 8589934591 conditions (a rho-threshold, q-independent) -- modulo an unmeasured symmetric-T variant at rho = 3. U-rand is completely unpriced and is the open residual, so the statement as a whole is a TARGET and the exact value is conditional on U.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/statement_u/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/statement_u/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/statement_u/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status, id, and every edge below are SUGGESTIONS for coordinator line-audit; nothing here is wired.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (far-CA residual reduced to one sentence)"
+    ],
+    "suggested_cross_pointers": [
+      "notes/pilots_20260811/r37_mint_drafts/negation_closure_excess_fence (the T_sym carrier and its razor kill)",
+      "notes/pilots_20260811/r37_mint_drafts/type2_ledger_scope_fence (why the cap is a from-scratch pigeonhole and not a ledger import)",
+      "notes/pilots_20260811/r37_mint_drafts/hr_dictionary_common_support (LB1 unique-and-forced at h_r = rho+1, the f = 1 floor case)"
+    ],
+    "not_verified_here": [
+      "that U holds (T_rand is unpriced -- ZERO POWER)",
+      "the rho = 3 symmetric-T variant (unmeasured in the source bank)",
+      "anything at razor scale by measurement; the verify.py is exact integer arithmetic only"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_bivcurve_share3_luroth_template",
+    "title": "(SHARE3-m): the Luroth pullback template and the constant-norm mechanism",
+    "status": "POSED",
+    "closure": "template plus an existence mechanism; the m = 4 gap is one coincidence",
+    "statement": "Order-3 tuple sharing in the (BIV-CURVE) lane is a Luroth pullback and is a member of the banked Luroth lattice (f_weight2_inverse's global pullback theorem plus payment_completeness's lattice unification). Its x-degree arithmetic is deg_x = k*deg_w, so maximal sharing k = m-1 forces deg_w = 3 exactly and is FREE in the 3(m-1) budget, with waste 3(m-1) mod k reproducing the even-m lost unit at k = 2. Demand: the round-35 quadratic row 3m(m-1)-(rho-1) = 8,22,42 at m = 3,4,5 is superseded by the ceiling row 8,25,47 (printed derivation only at m = 4: 25 = 36+4-15), with calibrations D(2,2) = 8 at m = 3 and D(3,3) = 11 at m = 4 and D_max(m) = (8m-9)-(4m-1) = 4m-8 linear for m >= 7; best-achieved supply 8,12,9 meets demand only at m = 3. Existence mechanism: a 3-sharing pattern is a line through at least 8 of the C(64,3) = 41664 mu_64-split cubics, and since any line joining two cubics of equal root-product preserves that product, the mu_N group structure supplies the sharing at cost 1/N rather than 1/q, refuting the registered q^-12 moment by 3400x. Exhaustively at q = 193 the split cubics fall into 64 equidistributed norm classes of 651, the maximum number of collinear split cubics is 31, and 9152 lines carry at least 8; the lines are structurally forced (fix one root r and vary the other two at fixed product). At m = 4, |W| = 27 = 7m-1 lands exactly, the selection layer is free and k = 8 of 8 is reached, but the slope count is 14 or 15 against the 13 required: m = 4 remains OPEN, one coincidence short, with six classes searched-negative.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/share3_luroth_template/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/share3_luroth_template/proof.md",
+      "notes/pilots_20260811/r37_mint_drafts/share3_luroth_template/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. Status POSED chosen deliberately: the package's proved parts are arithmetic and an existence mechanism, but the headline object (an m = 4 witness) does not exist and (OUT-m)/(DEG-m)-derived statements inherit POSED. The coordinator may prefer to SPLIT into a PROVED constant-norm-mechanism node and a POSED m=4-status node.",
+    "text_defects_found_in_the_source": [
+      "the corrected 2-sharing demand row 8/25/47 has NO printed closed form (residuals over 3m(m-1)-rho are 1,4,6 at m=3,4,5)",
+      "'D_max(m) = 4m-8, LINEAR, for m >= 7 (11 at m=4)' conflates D_max(4) = 8 with the separate calibration D(3,3) = 11",
+      "the flat-supply bound '>= ~m-5, VACUOUS for m <= 6, BINDING from m = 7' is off by one as printed: m-5 = 1 > 0 already at m = 6"
+    ],
+    "quantitative_note_for_coordinator": "The exhaustive per-class scan finds max 31 collinear split cubics and 9152 lines at >= 8, against the source's 12/9/9 'complete fibres' from SAMPLED bases. These are DIFFERENT quantities -- the source's are gated by structural verification -- so this does not supersede the census; it shows line existence is not the binding constraint.",
+    "suggested_requires": [
+      "f_weight2_inverse (GLOBAL PULLBACK Theorem 1)",
+      "payment_completeness (the Luroth-lattice unification)"
+    ],
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (the live m = 4 route)"
+    ],
+    "provenance_flag": "Round-36 bank 4 carried ONE bare-python3 compliance breach (empty-heredoc no-op), self-reported first and censured; recorded per the brief, not adjudicated here.",
+    "not_verified_here": [
+      "any G, completion, or bivariate system (none was built in the source either)",
+      "the 12/9/9 structurally-verified complete-fibre census",
+      "the flat-supply law's conditional death regime for q >~ 10^4",
+      "sporadic non-factoring sharing"
+    ]
+  }
+}

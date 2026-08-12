@@ -56,3 +56,18 @@ at least 103079215105=3*2^35+1.                     (KFD6)
 This is a factor-profile restriction, not an endpoint exclusion. It does not
 prove that the surviving dominant factor is incompatible with the
 multiplicative evaluation domain, Hankel origin, or norm/Bezout identities.
+
+## Coordinator equivalence addendum (2026-08-11, wave-59 integration)
+
+This node's content coincides with the earlier PROVED node
+`rate_half_ca_hankel_endpoint_rational_branch_exclusion`
+((CPR3)-(CPR5): unique r = 4e-1 component, all others balanced,
+dominant degree >= ceil((3m+1)/4), no splitting into m rational
+branches) — the round-35 subtraction catch that also corrected the
+round-34 bank. The two derivations are INDEPENDENT (this node: the
+round-34 incidence-counting route with both specialization guards;
+that node: pole/branch analysis), so both stand, with priority to
+rational_branch_exclusion and this node as the counting-route
+re-derivation. Cycle 145's "next route-deciding: attack Rout"
+pointer is STALE: Rout was decided FREE in round 35 (the sign is
+positive in the exact closure criterion (CLO-m)) and is retired.

@@ -1,0 +1,16 @@
+# f2_census.py — exact bad-slope census, cell H2
+== H2 n=22 k=11 R=11 rho=2 r=9 a=13 | FAITHFUL 4rho<R True a>R+1 True a-1>r True
+ -- q=101  mu_1=C(n,r)/q^rho=48.7619   q*mu_1=4925   1-exp(-mu_1)=1.000000
+   d1-x       s=10 d=1 | column-far (common locators=0) | T=101  T_struct= 10  T_acc= 91  predicted_struct= 10 missing=0 | r+1=10  T/q=1.000000
+   d2-inj     s=10 d=2 | column-far (common locators=0) | T=101  T_struct= 10  T_acc= 91  predicted_struct= 10 missing=0 | r+1=10  T/q=1.000000
+   d2-2to1    s=10 d=2 | column-far (common locators=0) | T=101  T_struct=  5  T_acc= 96  predicted_struct=  5 missing=0 | r+1=10  T/q=1.000000
+   d2-s+1inj  s=11 d=2 | column-far (common locators=0) | T=101  T_struct=  0  T_acc=101  predicted_struct=  0 missing=0 | r+1=10  T/q=1.000000
+   d2-s+1sym  s=11 d=2 | column-far (common locators=0) | T=101  T_struct=  5  T_acc= 96  predicted_struct=  5 missing=0 | r+1=10  T/q=1.000000
+   ctrl-s=r   s= 9 d=1 | column-CLOSE (common locators=2) | T=101  T_struct=  9  T_acc= 92  predicted_struct=  9 missing=0 | r+1=10  T/q=1.000000
+ -- q=65537  mu_1=C(n,r)/q^rho=0.000115811   q*mu_1=7.59   1-exp(-mu_1)=0.000116
+   d1-x       s=10 d=1 | column-far (common locators=0) | T= 23  T_struct= 10  T_acc= 13  predicted_struct= 10 missing=0 | r+1=10  T/q=0.000351
+   d2-inj     s=10 d=2 | column-far (common locators=0) | T= 18  T_struct= 10  T_acc=  8  predicted_struct= 10 missing=0 | r+1=10  T/q=0.000275
+   d2-2to1    s=10 d=2 | column-far (common locators=0) | T=336  T_struct=  5  T_acc=331  predicted_struct=  5 missing=0 | r+1=10  T/q=0.005127
+   d2-s+1inj  s=11 d=2 | column-far (common locators=0) | T=  6  T_struct=  0  T_acc=  6  predicted_struct=  0 missing=0 | r+1=10  T/q=0.000092
+   d2-s+1sym  s=11 d=2 | column-far (common locators=0) | T=547  T_struct=  5  T_acc=542  predicted_struct=  5 missing=0 | r+1=10  T/q=0.008346
+   ctrl-s=r   s= 9 d=1 | column-CLOSE (common locators=1) | T= 28  T_struct=  9  T_acc= 19  predicted_struct=  9 missing=0 | r+1=10  T/q=0.000427

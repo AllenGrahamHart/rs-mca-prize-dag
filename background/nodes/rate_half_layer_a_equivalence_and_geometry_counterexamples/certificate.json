@@ -1,0 +1,12 @@
+{
+  "schema": "rate-half-la-eq-geometry-v1",
+  "h1_exhibit_profile": [7, 7, 2, 2, 2, 2, 2, 1, 1],
+  "h1h2": {"q": 97, "T": 9, "max_pair_intersection": 1, "rows": 26, "cols": 24, "nullity": 1, "excess": 2},
+  "fence_cells": [
+    {"m": 2, "where": "rate_half_layer_a_saturation_count_route_fence (PROVED node; prior art)"},
+    {"m": 3, "q": 97, "N": 48, "rows": 60, "cols": 48, "rank": 42, "nullity": 6, "verifier": "verify.py"},
+    {"m": 4, "q": 193, "N": 64, "rows": 108, "cols": 80, "nullity": 8, "verifier": "verify_audit.py (fresh at wiring)"}
+  ],
+  "audit_h1": {"q": 577, "rows": 26, "cols": 24, "nullity": 1, "deterministic": true},
+  "note": "the m = 4 fence cell was banked upstream (five fields) but never locally re-implemented until the wiring audit; nullity 2m holds on the first admissible window with independently written construction and elimination code."
+}

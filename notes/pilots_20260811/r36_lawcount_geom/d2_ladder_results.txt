@@ -1,0 +1,74 @@
+==============================================================================
+D1/D2 LADDER: does the endpoint geometry force nullity 0 at m=2?
+m=2: rho=7, T=9, a=13, 26 rows on 24 unknowns, count excess +2
+==============================================================================
+
+### FIELD F_97
+
+[RUNG H1 ALONE]  W = S_g u S_h, both supports degree-rho and
+                 split over D, |S_g ^ S_h| = m-1 = 1
+  COUNTEREXAMPLES FOUND: %d  (kernel dim of the coincidence
+  system on C = 3, so the family is >= 3-dimensional in C alone)
+  nullity values: [1]
+  exhibit: S_g=[19, 27, 33, 45, 55, 64, 78]
+           S_h=[1, 12, 22, 45, 46, 47, 52]
+           g=15 h=65 a=78 b=26 C=[6, 42, 37, 80, 64, 27, 52, 55]
+           slopes=9  max pair-int=2 (cap 1)  H1=True H2=False
+           support sizes = [7, 7, 2, 2, 2, 2, 2, 1, 1]
+           LAYER-A NULLITY = 1  (count excess +2)
+
+[RUNG H1 AND H2]  additionally every pairwise support
+                  intersection <= m-1 = 1 (the (OV) caps)
+  scalar condition scanned at 394 parameter points
+  COUNTEREXAMPLES FOUND: 4
+  nullity values: [1]
+  EXHIBIT (H1 ^ H2, saturated, positive excess, nullity > 0):
+           S_g=[1, 18, 20, 28, 30, 64, 69]
+           S_h=[12, 20, 42, 50, 75, 78, 89]
+           S_g ^ S_h = [20]   |W| = 13
+           g=12 h=51 a=81 b=26
+           C = [11, 52, 44, 94, 64, 77, 63, 55]
+           A_x: {1: [12, 32], 12: [41, 51], 18: [12, 55], 20: [12, 51], 28: [12, 80], 30: [12, 86], 42: [51, 55], 50: [32, 51], 64: [12, 35], 69: [12, 16], 75: [35, 51], 78: [51, 80], 89: [16, 51]}
+           #slopes=9 (T=9)  max pair-int=1 (cap 1)  H1=True H2=True
+           support sizes = [7, 7, 2, 2, 2, 2, 2, 1, 1]
+           LAYER-A NULLITY = 1
+           NEXT RUNG: O = sum(rho-u_gamma) = 35  [(SAT2) cap m-1 = 1] -> VIOLATED
+           per-slope domain-root counts u_gamma = [7, 2, 2, 2, 2, 7, 2, 3, 1] (rho=7)
+
+[CONTROL] same H1^H2 SHAPE, condition NOT solved (R3(c) distribution)
+  60 configs: nullity histogram {0: 60}
+
+### FIELD F_193
+
+[RUNG H1 ALONE]  W = S_g u S_h, both supports degree-rho and
+                 split over D, |S_g ^ S_h| = m-1 = 1
+  COUNTEREXAMPLES FOUND: %d  (kernel dim of the coincidence
+  system on C = 3, so the family is >= 3-dimensional in C alone)
+  nullity values: [1]
+  exhibit: S_g=[69, 81, 112, 170, 184, 185, 192]
+           S_h=[14, 43, 50, 143, 151, 169, 170]
+           g=38 h=101 a=55 b=25 C=[93, 128, 181, 69, 108, 152, 92, 53]
+           slopes=9  max pair-int=2 (cap 1)  H1=True H2=False
+           support sizes = [7, 7, 2, 2, 2, 2, 2, 1, 1]
+           LAYER-A NULLITY = 1  (count excess +2)
+
+[RUNG H1 AND H2]  additionally every pairwise support
+                  intersection <= m-1 = 1 (the (OV) caps)
+  scalar condition scanned at 380 parameter points
+  COUNTEREXAMPLES FOUND: 4
+  nullity values: [1]
+  EXHIBIT (H1 ^ H2, saturated, positive excess, nullity > 0):
+           S_g=[1, 9, 27, 121, 126, 150, 151]
+           S_h=[8, 42, 43, 69, 129, 150, 166]
+           S_g ^ S_h = [150]   |W| = 13
+           g=183 h=8 a=150 b=54
+           C = [99, 128, 164, 129, 37, 186, 160, 19]
+           A_x: {1: [157, 183], 8: [8, 28], 9: [54, 183], 27: [28, 183], 42: [8, 113], 43: [8, 157], 69: [8, 54], 121: [55, 183], 126: [105, 183], 129: [8, 105], 150: [8, 183], 151: [113, 183], 166: [8, 142]}
+           #slopes=9 (T=9)  max pair-int=1 (cap 1)  H1=True H2=True
+           support sizes = [7, 7, 2, 2, 2, 2, 2, 1, 1]
+           LAYER-A NULLITY = 1
+           NEXT RUNG: O = sum(rho-u_gamma) = 37  [(SAT2) cap m-1 = 1] -> VIOLATED
+           per-slope domain-root counts u_gamma = [7, 2, 2, 1, 2, 2, 1, 2, 7] (rho=7)
+
+[CONTROL] same H1^H2 SHAPE, condition NOT solved (R3(c) distribution)
+  60 configs: nullity histogram {0: 60}

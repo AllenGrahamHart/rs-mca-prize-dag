@@ -1,0 +1,48 @@
+
+=== RUN d1_struct 2026-08-11 21:56:33 ===
+[A] (X1)/(CONIC) on random (PAR) objects
+  q=97  (CONIC) 300/300 ; f*Q2==g*Q1 on roots(Q0): 297/297 ; f*Q1==g*Q0 on roots(Q2): 288/288
+  q=193  (CONIC) 300/300 ; f*Q2==g*Q1 on roots(Q0): 333/333 ; f*Q1==g*Q0 on roots(Q2): 312/312
+[B] (X5) Euclid / continued-fraction characterisation of d1<=4
+  q=97  n=200 : d1<=4 <=> degree-window-skip 200/200 ; d1<=4 <=> short lattice vector exists 200/200 ; deg v_i = 14 - deg r_{i-1} 200/200
+  q=193  n=200 : d1<=4 <=> degree-window-skip 200/200 ; d1<=4 <=> short lattice vector exists 200/200 ; deg v_i = 14 - deg r_{i-1} 200/200
+  q=97  constructed f/g drops detected by d1<=4: 120/120 ; window-skip: 120/120
+  q=193  constructed f/g drops detected by d1<=4: 120/120 ; window-skip: 120/120
+[B2] blind rate of d1<=4 over random R (predicted ~ q^-5)
+  q=3  trials=40000  hits=151  rate=3.775e-03  q^-5=4.115e-03  ratio=0.92
+  q=5  trials=20000  hits=4  rate=2.000e-04  q^-5=3.200e-04  ratio=0.62
+  q=7  trials=8000  hits=0  rate=0.000e+00  q^-5=5.950e-05  ratio=0.00
+[B3] (P4) Euclid trajectory under a one-point move of S_1
+  q=97  n=60 : identical remainder-degree profile after moving ONE point of S_1: 28 ; identical first quotient degree: 50
+  q=193  n=60 : identical remainder-degree profile after moving ONE point of S_1: 47 ; identical first quotient degree: 58
+=== END d1_struct  wall=4.7s ===
+
+=== RUN d1_validate 2026-08-11 21:59:12 ===
+q=23  domain = all of F_q ; C(23,7)=245157 triples/pair ; predicted hits/pair: all-triples 20.15, |S1^S0|<=2 & |S1^Sinf|<=2 subpopulation 86766 -> 7.13
+pair 0  S_0=[2, 4, 6, 9, 10, 13, 15]  S_inf=[3, 5, 7, 14, 17, 21, 22]  triples=245157  hits=3830  13.4s  (54.7 us/triple)
+  HIT pair0 S_1=[0, 1, 10, 11, 12, 16, 22] ov=(1, 1) f=[18, 22, 10, 9, 1] g=[1, 15, 9, 15, 22] L=[2, 3] alpha=3 gamma=18 PARchecks=[True, True, True, True, True]
+  HIT pair0 S_1=[0, 5, 6, 9, 12, 16, 20] ov=(2, 1) f=[9, 15, 4, 8, 10] g=[20, 5, 13, 19, 14] L=[9, 9] alpha=12 gamma=20 PARchecks=[True, True, True, True, True]
+  HIT pair0 S_1=[1, 2, 4, 14, 17, 18, 19] ov=(2, 2) f=[19, 18, 21, 6, 17] g=[22, 8, 20, 3, 7] L=[4, 3] alpha=13 gamma=5 PARchecks=[True, True, True, True, True]
+pair 1  S_0=[6, 7, 9, 13, 14, 16, 19]  S_inf=[0, 3, 4, 11, 20, 21, 22]  triples=245157  hits=14  9.5s  (38.8 us/triple)
+branch tags (both pairs): [('dim0', 311672), ('dim2', 212), ('hit', 3844), ('overlap>2', 5110), ('rank3', 169476)]
+reconstruction: 11/3844 hits -> full certified (PAR) object; failures [('c1c2zero', 12), ('deg f=4 g=3', 1), ('degL=0', 1), ('no(c1,c2)', 3818), ('ok', 1)]
+hit overlap histogram (|S1^S0|,|S1^Sinf|): [((1, 1), 2), ((2, 1), 1), ((2, 2), 8)]
+OV4: max(|S1^S0|+|S1^Sinf|) over hits = 4 (bound 4)
+[cross-check] brute-force (lambda,mu) 14x10 rank scan vs (TEST)
+
+=== RUN d1_validate2 2026-08-11 22:05:28 ===
+pair 0 S_0=[2, 4, 6, 9, 10, 13, 15] S_inf=[3, 5, 7, 14, 17, 21, 22] : genuine=6 degenerate=3824
+pair 1 S_0=[6, 7, 9, 13, 14, 16, 19] S_inf=[0, 3, 4, 11, 20, 21, 22] : genuine=7 degenerate=7
+degenerate diagnosis  (rank[G;H], degG, degH) -> count : [((1, 4, 4), 3818), ((2, 4, 4), 13)]
+total genuine=13  (predicted 2 x 86766/23^3 = 14.26)
+
+=== RUN d1_validate2 2026-08-11 22:07:07 ===
+pair 0 S_0=[2, 4, 6, 9, 10, 13, 15] S_inf=[3, 5, 7, 14, 17, 21, 22] : genuine=6 degenerate=3824
+pair 1 S_0=[6, 7, 9, 13, 14, 16, 19] S_inf=[0, 3, 4, 11, 20, 21, 22] : genuine=7 degenerate=7
+degenerate diagnosis  (rank[G;H], degG, degH) -> count : [((1, 4, 4), 3818), ((2, 4, 4), 13)]
+total genuine=13  (predicted 2 x 86766/23^3 = 14.26)
+brute-force cross-check on 113 triples (13 genuine, 40 degenerate, 60 other):
+  agreement with CORRECTED (TEST): 113/113
+  agreement with raw rank<=2 only: 73/113
+  (class, brute, rank<=2, corrected) -> count : [("('DEG', False, True, False)", 40), ("('GEN', True, True, True)", 13), ("('OTH', False, False, False)", 60)]
+=== END d1_validate2 wall=17.6s ===

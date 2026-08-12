@@ -1,0 +1,86 @@
+
+################ RUN g3_construct.py ################
+
+==============================================================================
+CONSTRUCT intZ n=20 rho=2  n=20 k=10 R=10 rho=2 r=8 a=12 q=999983 domain=negclosed integers {+-1..+-10}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 8.500  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1  | CENSUS T=10 T_fib=9 T_sym=0 T_rand=1  r+1=9  excess=+1  column-FAR  null q*mu1=0.126
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2  | CENSUS T=11 T_fib=9 T_sym=0 T_rand=2  r+1=9  excess=+2  column-FAR  null q*mu1=0.126
+  j= 4 : engineered slopes VERIFIED by pencil test = 4/4  | CENSUS T=13 T_fib=9 T_sym=0 T_rand=4  r+1=9  excess=+4  column-FAR  null q*mu1=0.126
+  j= 6 : engineered slopes VERIFIED by pencil test = 6/6  | CENSUS T=15 T_fib=9 T_sym=0 T_rand=6  r+1=9  excess=+6  column-FAR  null q*mu1=0.126
+  j= 8 : engineered slopes VERIFIED by pencil test = 8/8  | CENSUS T=17 T_fib=9 T_sym=0 T_rand=8  r+1=9  excess=+8  column-FAR  null q*mu1=0.126
+  j= 9 : NO valid pencil found in 6 tries
+  j=10 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 8  (parameter cap 8.50)
+
+==============================================================================
+CONSTRUCT intZ n=24 rho=2  n=24 k=12 R=12 rho=2 r=10 a=14 q=999983 domain=negclosed integers {+-1..+-12}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 10.500  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1
+  j= 4 : engineered slopes VERIFIED by pencil test = 4/4
+  j= 8 : engineered slopes VERIFIED by pencil test = 8/8
+  j=10 : engineered slopes VERIFIED by pencil test = 10/10
+  j=11 : NO valid pencil found in 6 tries
+  j=12 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 10  (parameter cap 10.50)
+
+==============================================================================
+CONSTRUCT intZ n=26 rho=3  n=26 k=13 R=13 rho=3 r=10 a=16 q=999983 domain=negclosed integers {+-1..+-13}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 7.000  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2
+  j= 4 : engineered slopes VERIFIED by pencil test = 4/4
+  j= 6 : engineered slopes VERIFIED by pencil test = 6/6
+  j= 7 : NO valid pencil found in 6 tries
+  j= 8 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 6  (parameter cap 7.00)
+
+==============================================================================
+CONSTRUCT intZ n=34 rho=4  n=34 k=17 R=17 rho=4 r=13 a=21 q=999983 domain=negclosed integers {+-1..+-17}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 6.750  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2
+  j= 3 : engineered slopes VERIFIED by pencil test = 3/3
+  j= 6 : NO valid pencil found in 6 tries
+  j= 7 : NO valid pencil found in 6 tries
+  j= 8 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 3  (parameter cap 6.75)
+
+==============================================================================
+CONSTRUCT mu_20  n=20 k=10 R=10 rho=2 r=8 a=12 q=500041 domain=MULTIPLICATIVE SUBGROUP mu_20 < F_500041^*
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 8.500  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1  | CENSUS T=10 T_fib=9 T_sym=0 T_rand=1  r+1=9  excess=+1  column-FAR  null q*mu1=0.2519
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2  | CENSUS T=12 T_fib=9 T_sym=0 T_rand=3  r+1=9  excess=+3  column-FAR  null q*mu1=0.2519
+  j= 4 : engineered slopes VERIFIED by pencil test = 4/4  | CENSUS T=13 T_fib=9 T_sym=0 T_rand=4  r+1=9  excess=+4  column-FAR  null q*mu1=0.2519
+  j= 6 : engineered slopes VERIFIED by pencil test = 6/6  | CENSUS T=15 T_fib=9 T_sym=0 T_rand=6  r+1=9  excess=+6  column-FAR  null q*mu1=0.2519
+  j= 8 : engineered slopes VERIFIED by pencil test = 8/8  | CENSUS T=17 T_fib=9 T_sym=0 T_rand=8  r+1=9  excess=+8  column-FAR  null q*mu1=0.2519
+  j= 9 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 8  (parameter cap 8.50)
+
+==============================================================================
+CONSTRUCT mu_26  n=26 k=13 R=13 rho=3 r=10 a=16 q=500111 domain=MULTIPLICATIVE SUBGROUP mu_26 < F_500111^*
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 7.000  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2
+  j= 4 : engineered slopes VERIFIED by pencil test = 4/4
+  j= 6 : engineered slopes VERIFIED by pencil test = 6/6
+  j= 7 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 6  (parameter cap 7.00)
+
+==============================================================================
+CONSTRUCT mu_34  n=34 k=17 R=17 rho=4 r=13 a=21 q=500107 domain=MULTIPLICATIVE SUBGROUP mu_34 < F_500107^*
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+parameter-counting cap  j <= (2(r+1)-1)/rho = 6.750  (razor form 2r/rho)
+  j= 1 : engineered slopes VERIFIED by pencil test = 1/1
+  j= 2 : engineered slopes VERIFIED by pencil test = 2/2
+  j= 3 : engineered slopes VERIFIED by pencil test = 3/3
+  j= 6 : NO valid pencil found in 6 tries
+  j= 7 : NO valid pencil found in 6 tries
+  --> LARGEST j with all engineered slopes verified: 3  (parameter cap 6.75)
+################ END RUN g3_construct.py ################

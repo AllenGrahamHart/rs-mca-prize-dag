@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_bivcurve_out_m_identity_and_deg_m",
+    "title": "(OUT-m) as an aggregate identity, and its (DEG-m) corollary",
+    "status": "CONJECTURE",
+    "closure": "a constraint on the configuration space, refined to an exact double count",
+    "statement": "At a minimising pair union with (SAT1)-(SAT4), T = rho+2 and a = 7m-1, writing X'_gamma = |S_gamma ^ (S_g D S_h)| and X''_gamma = |S_gamma ^ (S_g ^ S_h)|, one has X'_gamma + 2 X''_gamma >= m-1-eps_gamma with eps_gamma the total saturation deficiency on S_gamma. The original aggregate rider sum eps <= 1+O is FALSE -- a deficient point outside W charges every type-2 block through it, so the correct aggregate is (m-1)(1+O) -- and the corollary that X_gamma = 0 is impossible requires 1+O < m-1, i.e. O <= m-3, which is vacuous at m = 2. The refinement of record is the exact identity sum_gamma eps~_gamma = sum_x def(x)*t_x with t_x the number of type-2 blocks through x, charging m-1, m-2 and m-3 per unit of deficiency at outside, symmetric-difference and middle points respectively; it is a trivial double count once stated, the aggregate (m-1)(1+O) is attained only by outside deficiency, the m=3 witness attains it exactly with sum = 2 while the refuted rider gives 1, and the m=2 exhibit charges 0. The corollary (DEG-m): in sigma-designs X' = 2 deg_Sh (the quantity renamed from deg_H at wiring per the D11 ruling, resolving the collision with the PROVED a1_core incidence-reconstruction node), so deg_Sh(gamma) + X''_gamma >= ceil((m-1-eps~)/2) subject to the exact middle budget sum_gamma X''_gamma = (m-1)(m-2); hence at m >= 4 a degree-1 slope requires middle support, which round 34's DFS never imposed. (DEG-m) has zero selection power (tightened and relaxed 2-sharing ceilings are bit-identical at 7/12, two fields) but is decisive at completion, where n_1 = 9 against a completeness bound of 4 upgrades the 2-sharing m=4 negative from a ceiling to dead-objects-at-the-ceiling.",
+    "refs": [
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/statement.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/claim_contract.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/dependency_subdag.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/audit.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/result.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/provenance.md",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/certificate.json",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/verify.py",
+      "background/nodes/rate_half_bivcurve_out_m_identity_and_deg_m/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

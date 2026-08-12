@@ -1,0 +1,28 @@
+
+=== RUN d5_certify 2026-08-11T21:06:19 ===
+--- CERTIFICATION q=97 ---
+q=97 deg(Q0,Q1,Q2) = (7,7,7)  [required (7,7,7)]
+q=97 separation rank (RNC2) = 3  [required m+1 = 3]
+q=97 s = deg gcd(Q0,Q1,Q2) = 0  [required 0, (SAT1)]
+q=97 nullity(36x32) = 1  [required >= 1]  rank = 31
+q=97 M(Z)Q_Z = 0 entrywise from scratch: True
+q=97 generic rank max_z rank M_r(y0+z y1) = 7  [required rho = 7]; rank histogram [(6, 1), (7, 96)]
+q=97 finite rank-drop set = [1] (rank there = [6]); rank at infinity = 7  [delta = rho-3e = 1]
+q=97 kernel vectors of parameter degree <= 1 : 0  [required 0, else e < m]  => e = 2
+q=97 supported slopes {inf} u [0, 23, 72] ; T = 4 ; |union of root sets| = 23  [must be <= 32]
+q=97 pairwise overlaps e(i,j) = [((0, 'inf'), 0), ((0, 23), 1), ((0, 72), 1), ((23, 'inf'), 0), ((23, 72), 1), ((72, 'inf'), 2)] ; (OV4) worst e(k,i)+e(k,j) = 3  [<= 4]
+q=97 sum_x d_x over the supported slopes = 28 out of 2|union| = 46
+q=97 T over mu_32 for this object = 0  (the bespoke record has ZERO power for (SAT3))
+--- CERTIFICATION q=193 ---
+q=193 deg(Q0,Q1,Q2) = (7,7,7)  [required (7,7,7)]
+q=193 separation rank (RNC2) = 3  [required m+1 = 3]
+q=193 s = deg gcd(Q0,Q1,Q2) = 0  [required 0, (SAT1)]
+q=193 nullity(36x32) = 1  [required >= 1]  rank = 31
+q=193 M(Z)Q_Z = 0 entrywise from scratch: True
+q=193 generic rank max_z rank M_r(y0+z y1) = 7  [required rho = 7]; rank histogram [(6, 1), (7, 192)]
+q=193 finite rank-drop set = [41] (rank there = [6]); rank at infinity = 7  [delta = rho-3e = 1]
+q=193 kernel vectors of parameter degree <= 1 : 0  [required 0, else e < m]  => e = 2
+q=193 supported slopes {inf} u [0, 108, 114] ; T = 4 ; |union of root sets| = 24  [must be <= 32]
+q=193 pairwise overlaps e(i,j) = [((0, 'inf'), 0), ((0, 108), 0), ((0, 114), 1), ((108, 'inf'), 1), ((108, 114), 1), ((114, 'inf'), 1)] ; (OV4) worst e(k,i)+e(k,j) = 2  [<= 4]
+q=193 sum_x d_x over the supported slopes = 28 out of 2|union| = 48
+q=193 T over mu_32 for this object = 0  (the bespoke record has ZERO power for (SAT3))

@@ -1,0 +1,118 @@
+
+################ RUN g4_sym.py ################
+
+==============================================================================
+SYM-T intZ n=22 rho=2  n=22 k=11 R=11 rho=2 r=9 a=13 q=65537  D=negclosed{+-1..+-11}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=10 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 1  -> over-determination on gamma = 0  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(11,4) = 330 ; locators swept = 4620 ; DISTINCT SLOPES = 323   [prediction at rho=2 : C(m,(r-1)/2) = 330]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 330 ; yielding >1 slope: 0
+  VERDICT rho=2 : symmetric-T carrier SURVIVES (323 slopes)
+  FULL CENSUS C(22,9)=497420 : T=336  T_fib=5  column-FAR  slopes explained by the carrier = 323  residual = 8  null q*mu_1 = 7.59
+
+==============================================================================
+SYM-T intZ n=22 rho=2  n=22 k=11 R=11 rho=2 r=9 a=13 q=999983  D=negclosed{+-1..+-11}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=10 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 1  -> over-determination on gamma = 0  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(11,4) = 330 ; locators swept = 4620 ; DISTINCT SLOPES = 323   [prediction at rho=2 : C(m,(r-1)/2) = 330]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 330 ; yielding >1 slope: 0
+  VERDICT rho=2 : symmetric-T carrier SURVIVES (323 slopes)
+
+==============================================================================
+SYM-T intZ n=26 rho=2  n=26 k=13 R=13 rho=2 r=11 a=15 q=65537  D=negclosed{+-1..+-13}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=12 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 1  -> over-determination on gamma = 0  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(13,5) = 1287 ; locators swept = 20592 ; DISTINCT SLOPES = 1264   [prediction at rho=2 : C(m,(r-1)/2) = 1287]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 1287 ; yielding >1 slope: 0
+  VERDICT rho=2 : symmetric-T carrier SURVIVES (1264 slopes)
+
+==============================================================================
+SYM-T intZ n=26 rho=2  n=26 k=13 R=13 rho=2 r=11 a=15 q=999983  D=negclosed{+-1..+-13}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=12 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 1  -> over-determination on gamma = 0  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(13,5) = 1287 ; locators swept = 20592 ; DISTINCT SLOPES = 1276   [prediction at rho=2 : C(m,(r-1)/2) = 1287]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 1287 ; yielding >1 slope: 0
+  VERDICT rho=2 : symmetric-T carrier SURVIVES (1276 slopes)
+
+==============================================================================
+SYM-T intZ n=28 rho=3  n=28 k=14 R=14 rho=3 r=11 a=17 q=65537  D=negclosed{+-1..+-14}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=12 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 2  -> over-determination on gamma = 1  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(14,5) = 2002 ; locators swept = 36036 ; DISTINCT SLOPES = 6   [prediction at rho=2 : C(m,(r-1)/2) = 2002]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 6 ; yielding >1 slope: 0
+  VERDICT rho=3 : symmetric-T carrier SURVIVES (6 slopes)
+
+==============================================================================
+SYM-T intZ n=28 rho=3  n=28 k=14 R=14 rho=3 r=11 a=17 q=999983  D=negclosed{+-1..+-14}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=12 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 2  -> over-determination on gamma = 1  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(14,5) = 2002 ; locators swept = 36036 ; DISTINCT SLOPES = 6   [prediction at rho=2 : C(m,(r-1)/2) = 2002]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 6 ; yielding >1 slope: 0
+  VERDICT rho=3 : symmetric-T carrier SURVIVES (6 slopes)
+
+==============================================================================
+SYM-T intZ n=34 rho=4  n=34 k=17 R=17 rho=4 r=13 a=21 q=65537  D=negclosed{+-1..+-17}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=14 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 2  -> over-determination on gamma = 1  (anchor-1 parity derivation said floor(rho/2) = 2)
+  CARRIER (X-x_0)P(X^2): #A = C(17,6) = 12376 ; locators swept = 272272 ; DISTINCT SLOPES = 7   [prediction at rho=2 : C(m,(r-1)/2) = 12376]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 7 ; yielding >1 slope: 0
+  VERDICT rho=4 : symmetric-T carrier SURVIVES (7 slopes)
+
+==============================================================================
+SYM-T intZ n=34 rho=4  n=34 k=17 R=17 rho=4 r=13 a=21 q=999983  D=negclosed{+-1..+-17}
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=14 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 2  -> over-determination on gamma = 1  (anchor-1 parity derivation said floor(rho/2) = 2)
+  CARRIER (X-x_0)P(X^2): #A = C(17,6) = 12376 ; locators swept = 272272 ; DISTINCT SLOPES = 7   [prediction at rho=2 : C(m,(r-1)/2) = 12376]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 7 ; yielding >1 slope: 0
+  VERDICT rho=4 : symmetric-T carrier SURVIVES (7 slopes)
+
+==============================================================================
+SYM-T mu_22 rho=2  n=22 k=11 R=11 rho=2 r=9 a=13 q=300191  D=MULTIPLICATIVE SUBGROUP mu_22 < F_300191^*
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=10 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 1  -> over-determination on gamma = 0  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(11,4) = 330 ; locators swept = 4620 ; DISTINCT SLOPES = 330   [prediction at rho=2 : C(m,(r-1)/2) = 330]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 330 ; yielding >1 slope: 0
+  VERDICT rho=2 : symmetric-T carrier SURVIVES (330 slopes)
+  FULL CENSUS C(22,9)=497420 : T=330  T_fib=5  column-FAR  slopes explained by the carrier = 330  residual = -5  null q*mu_1 = 1.657
+
+==============================================================================
+SYM-T mu_28 rho=3  n=28 k=14 R=14 rho=3 r=11 a=17 q=300301  D=MULTIPLICATIVE SUBGROUP mu_28 < F_300301^*
+FAITHFUL 4rho<R=True a>R+1=True a-1>r=True -> FAITHFUL
+  |T|=12 symmetric=True ; PARITY STRUCTURE y_m = 0 for all EVEN m : True
+  predicted independent conditions on p = ceil(rho/2) = 2  -> over-determination on gamma = 1  (anchor-1 parity derivation said floor(rho/2) = 1)
+  CARRIER (X-x_0)P(X^2): #A = C(14,5) = 2002 ; locators swept = 36036 ; DISTINCT SLOPES = 6   [prediction at rho=2 : C(m,(r-1)/2) = 2002]
+  A-blocks yielding exactly one x_0-INDEPENDENT slope: 6 ; yielding >1 slope: 0
+  VERDICT rho=3 : symmetric-T carrier SURVIVES (6 slopes)
+
+################ PART B : the j = 4,5 gap at rho = 4 ################
+
+--------------------------------------------------------------------------
+CONSTRUCT-FILL intZ n=34 rho=4 n=34 k=17 R=17 rho=4 r=13 a=21 q=999983  FAITHFUL TrueTrueTrue
+  parameter cap j <= (2(r+1)-1)/rho = 6.750
+  j= 4 : engineered slopes verified = 4/4 OK
+  j= 5 : engineered slopes verified = 5/5 OK
+  j= 6 : engineered slopes verified = 0/6 (FAILED)
+
+--------------------------------------------------------------------------
+CONSTRUCT-FILL mu_34 rho=4 n=34 k=17 R=17 rho=4 r=13 a=21 q=500107  FAITHFUL TrueTrueTrue
+  parameter cap j <= (2(r+1)-1)/rho = 6.750
+  j= 4 : engineered slopes verified = 4/4 OK
+  j= 5 : engineered slopes verified = 5/5 OK
+  j= 6 : engineered slopes verified = 6/6 OK
+
+--------------------------------------------------------------------------
+CONSTRUCT-FILL mu_20 rho=2 THIRD FIELD n=20 k=10 R=10 rho=2 r=8 a=12 q=900001  FAITHFUL TrueTrueTrue
+  parameter cap j <= (2(r+1)-1)/rho = 8.500
+  j= 4 : engineered slopes verified = 4/4 OK
+  j= 8 : engineered slopes verified = 8/8 OK
+  j= 9 : engineered slopes verified = 0/9 (FAILED)
+################ END RUN g4_sym.py ################

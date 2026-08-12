@@ -1,0 +1,30 @@
+=== r34 D2: forward search for (SAT3) at m=2 ===
+EXACT certificate used: a 31-edge 9-set forces >= 8 slopes of
+degree exactly rho=7, so n7 <= 7 certifies that a net cannot host
+the design.  n7 counts TOTALLY SPLIT members of the net.
+
+--- POSITIVE CONTROL (m=1, e=1, rho=3, N=16): same machinery ---
+  q=17, D=mu_16, 32256 pencils with 2 prescribed split members
+  n_split histogram (incl. the member at infinity): {2: 15632, 3: 14560, 4: 2032, 5: 32}
+  MAX n_split = 5   (round 33: T = rho+2 = 5 is attained)
+  control verdict: REPRODUCED
+
+--- MAIN SEARCH (m=2, e=2, rho=7, N=32): nets with 3 prescribed split members ---
+target: n7 >= 8 (of which 9 slopes must carry the 31-edge design)
+  q=97: 240000 nets scanned (each already carries 3 split members by construction)
+    n7 histogram: {2: 12196, 3: 227802, 4: 2}
+    MAX n7 = 4   (need >= 8)   no net can host the design
+    best config: lam=37 mu=93 top degrees [7, 7, 7, 7, 3, 2, 2, 2, 2, 1, 1, 1]
+      n7=2: 12196  (5.0817%)
+      n7=3: 227802  (94.9175%)
+      n7=4: 2  (0.0008%)
+  q=193: 240000 nets scanned (each already carries 3 split members by construction)
+    n7 histogram: {2: 6220, 3: 233780}
+    MAX n7 = 3   (need >= 8)   no net can host the design
+    best config: lam=143 mu=53 top degrees [7, 7, 7, 2, 1, 1, 1, 1, 1, 1, 1, 1]
+      n7=2: 6220  (2.5917%)
+      n7=3: 233780  (97.4083%)
+
+--- the decay: empirical cost of each extra split member ---
+(read off the histograms above; see REPORT for the fit)
+

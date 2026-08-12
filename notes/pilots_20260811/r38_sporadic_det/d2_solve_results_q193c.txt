@@ -1,0 +1,71 @@
+
+########################################################################
+# r38_sporadic_det  D2  tag=q193c  q=193  ndraw=120000  2026-08-11 22:22:17
+########################################################################
+merge graph: 11 edges [(0, 5), (0, 6), (0, 7), (1, 4), (1, 6), (1, 7), (2, 4), (2, 5), (2, 7), (3, 4), (3, 5)]
+  degree sequence [3, 3, 3, 2, 3, 3, 2, 3]  (A-side [3, 3, 3, 2] | B-side [3, 3, 2, 3])
+
+PRESCRIPTION-SET SCORING (in-round discovery, see build_prescribe_sets):
+  every prescribed slope at a residual endpoint is a FORCED, guard-
+  ILLEGAL root of D_ij, so the genuine residual degree is 6 - p_i - p_j.
+  score = prod over the 4 residual edges;  naive rate = score / q^3.
+  score histogram over all C(11,7) = 330 subsets : {400: 6, 384: 4, 320: 8, 300: 12, 256: 3, 240: 20, 225: 6, 192: 28, 180: 12, 160: 8, 144: 46, 128: 8, 120: 16, 108: 48, 96: 28, 81: 15, 72: 32, 54: 12, 48: 12, 36: 6}
+  UNRESTRICTED best score 400 (degrees (4, 4, 5, 5)) SATURATES max p_v = 3 --
+    REJECTED: p_v = 3 pins u(t_v) to a line, so the pencil carries one
+    alpha with u(t_v) = 0 (a fibre with an identically-zero cubic).
+    Run tag q193 produced 12 raw solutions on that design; 11 were on
+    exactly that degenerate component.  This is the round's MISS-2 catch.
+  CLEAN designs (max p_v <= 2) : 45 ; best score 81 (degrees (3, 3, 3, 3)),
+    attained by 3 subsets -- USED
+  naive common-alpha rate at this design : 1.127e-05   (registered R4.4
+  used the RAW degree 6, giving 1.803e-04 -- registration too optimistic
+
+CONSTANT-NORM PENCIL CENSUS (e3 = 1 slice), q = 193
+  split cubics in the slice          : 651   (predicted 41664/64 = 651)
+  max pairwise-disjoint complete fibres on any line : 12
+  lines with >= 8 pairwise-disjoint complete fibres  : 79
+  census elapsed 1.0 s
+  complete-fibre-count histogram of those lines : {8: 70, 9: 4, 10: 3, 12: 2}
+  arm-A t-pools available            : 79
+
+------------------------------------------------------------------------
+ARM A_real_t   q=193   draws=120000
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 120000}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+NON-FORCED root count per residual edge : {0: 42310, 1: 57092, 2: 2865, 3: 17733}
+  mean 0.967 legal roots per residual edge (design degrees (3, 3, 3, 3))
+common-alpha count per draw (capped at 5)     : {0: 119972, 1: 28}
+draws with >= 1 common alpha : 28 of 120000  = 2.333e-04
+  design-predicted rate 1.127e-05 ; registered (raw-degree) rate 1.803e-04
+AT THE 8-MERGE STATE (7 prescribed + e0 solved), 115154 states reached:
+  FREE-MERGE distribution beyond 8 : {0: 107575, 1: 7409, 2: 142, 3: 28}   mean 0.0675
+  r37 measured {0:104, 1:11} / {0:128, 1:11}, means .096/.079, max 2
+  3 free merges are needed for |slopes| = 13.
+guard outcomes on candidate alphas : {'G1 zero cubic': 14, 'G3 slope degree 8 > 2': 13, 'G2 not 3 distinct P^1 slopes': 1}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {(12, False): 4, (13, False): 123, (14, False): 1054, (14, True): 54, (15, False): 2854, (15, True): 1051, (16, True): 62}
+BEST LEGAL |slopes| this arm : 14
+elapsed 103.7 s
+
+------------------------------------------------------------------------
+ARM B_generic_t   q=193   draws=120000
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 120000}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+NON-FORCED root count per residual edge : {0: 42077, 1: 57359, 2: 2956, 3: 17608}
+  mean 0.967 legal roots per residual edge (design degrees (3, 3, 3, 3))
+common-alpha count per draw (capped at 5)     : {0: 119984, 1: 16}
+draws with >= 1 common alpha : 16 of 120000  = 1.333e-04
+  design-predicted rate 1.127e-05 ; registered (raw-degree) rate 1.803e-04
+AT THE 8-MERGE STATE (7 prescribed + e0 solved), 115210 states reached:
+  FREE-MERGE distribution beyond 8 : {0: 107898, 1: 7155, 2: 141, 3: 16}   mean 0.0650
+  r37 measured {0:104, 1:11} / {0:128, 1:11}, means .096/.079, max 2
+  3 free merges are needed for |slopes| = 13.
+guard outcomes on candidate alphas : {'G1 zero cubic': 10, 'G3 slope degree 8 > 2': 6}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {(12, False): 4, (13, False): 107, (14, False): 985, (14, True): 48, (15, False): 2775, (15, True): 997, (16, True): 76}
+BEST LEGAL |slopes| this arm : 14
+elapsed 102.2 s
+
+TOTAL ELAPSED 206.9 s

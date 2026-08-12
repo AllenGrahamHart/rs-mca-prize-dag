@@ -1,0 +1,40 @@
+==============================================================================
+D2 [r35] -- LAYER A ON ANCHOR 2's m=3 (BIV-CURVE) WITNESS
+==============================================================================
+  m=3 N=48 rho=11 T=rho+2=13 a=7m-1=20 ; layer-A unknowns (m+1)(rho+1)=48
+  W-incidence count a*m = 60 ; EXCESS 3m^2-5m = 12  (m=1 gives -2)
+
+[C1] POSITIVE CONTROL (anchor 1's MISS 3 control, made to fire)
+    q= 97 : 6/6 random-Q incidence systems have nullity >= 1  (must be 6/6)  [last: 48 incidences, 48 unknowns]
+    q=193 : 6/6 random-Q incidence systems have nullity >= 1  (must be 6/6)  [last: 51 incidences, 48 unknowns]
+
+[a] THE m=3 WITNESS  (anchor 2's build(q, 340000+q), same seeds)
+    q= 97  T=13 blocks, sizes 11..11, sum_x d_x = 143
+           LA|_D  : 143 incidences on 48 unknowns -> NULLITY 0
+           LA|_W  : 60 incidences on 48 unknowns -> NULLITY 0   [completion-INDEPENDENT]
+           c_gamma formulation (bank 2's layerA_core, 108 rows on T=13) -> NULLITY 0   [C3 cross-builder: AGREES]
+           locator SPAN rank 12 of 12 (banked bound m+1 = 4) ; the FIRST 5 locators already exceed it
+           MINIMAL binding sub-system: the first 16 points of W (48 incidences) already force Q = 0  [lower bound ceil(48/3) = 16]
+    q=193  T=13 blocks, sizes 11..11, sum_x d_x = 143
+           LA|_D  : 143 incidences on 48 unknowns -> NULLITY 0
+           LA|_W  : 60 incidences on 48 unknowns -> NULLITY 0   [completion-INDEPENDENT]
+           c_gamma formulation (bank 2's layerA_core, 108 rows on T=13) -> NULLITY 0   [C3 cross-builder: AGREES]
+           locator SPAN rank 12 of 12 (banked bound m+1 = 4) ; the FIRST 5 locators already exceed it
+           MINIMAL binding sub-system: the first 16 points of W (48 incidences) already force Q = 0  [lower bound ceil(48/3) = 16]
+
+[b] IS THE KILL AN ARTEFACT OF THE RANDOMISED OUTSIDE COMPLETION?
+    (R3(c): report the DISTRIBUTION, not the best case.  Same inside-W
+    witness, 40 FRESH outside completions from anchor 2's own solver.)
+    q= 97  40 fresh completions : locator span ranks {12: 40} ; LA|_D nullities {0: 40}
+    q=193  40 fresh completions : locator span ranks {12: 40} ; LA|_D nullities {0: 40}
+
+[C4] m=2 REGRESSION -- bank 2's exhibit (its layer-A kill is banked)
+    q= 97  LA|_W 26 incidences on 24 unknowns -> NULLITY 0 ; LA|_D 63 incidences -> NULLITY 0   [excess 3m^2-5m = 2]
+    q=193  LA|_W 26 incidences on 24 unknowns -> NULLITY 0 ; LA|_D 63 incidences -> NULLITY 0   [excess 3m^2-5m = 2]
+
+[C2] m=1 REGRESSION -- the realized (SAT3) witnesses must SURVIVE
+    (|W|, LA|_W nullity, unknowns) over the 16 realized witnesses : {(6, 2, 8): 16}
+    predicted by the count: unknowns - a*m = 8 - 6 = 2  (m=1 is the ONLY m
+    with a NEGATIVE excess; 3m^2-5m > 0 for every m >= 2)
+
+=== END d2_layerA_m3 ===

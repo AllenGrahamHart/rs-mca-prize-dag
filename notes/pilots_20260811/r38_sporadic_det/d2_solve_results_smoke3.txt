@@ -1,0 +1,57 @@
+
+########################################################################
+# r38_sporadic_det  D2  tag=smoke3  q=193  ndraw=20000  2026-08-11 22:13:14
+########################################################################
+merge graph: 11 edges [(0, 5), (0, 6), (0, 7), (1, 4), (1, 6), (1, 7), (2, 4), (2, 5), (2, 7), (3, 4), (3, 5)]
+  degree sequence [3, 3, 3, 2, 3, 3, 2, 3]  (A-side [3, 3, 3, 2] | B-side [3, 3, 2, 3])
+
+PRESCRIPTION-SET SCORING (in-round discovery, see build_prescribe_sets):
+  every prescribed slope at a residual endpoint is a FORCED, guard-
+  ILLEGAL root of D_ij, so the genuine residual degree is 6 - p_i - p_j.
+  score = prod over the 4 residual edges;  naive rate = score / q^3.
+  score histogram over all C(11,7) = 330 subsets : {400: 6, 384: 4, 320: 8, 300: 12, 256: 3, 240: 20, 225: 6, 192: 28, 180: 12, 160: 8, 144: 46, 128: 8, 120: 16, 108: 48, 96: 28, 81: 15, 72: 32, 54: 12, 48: 12, 36: 6}
+  BEST score 400 (residual degrees (4, 4, 5, 5)), attained by 6 subsets -- used
+  naive common-alpha rate at this design : 5.564e-05   (registered R4.4
+  used the RAW degree 6, giving 1.803e-04 -- registration too optimistic
+
+CONSTANT-NORM PENCIL CENSUS (e3 = 1 slice), q = 193
+  split cubics in the slice          : 651   (predicted 41664/64 = 651)
+  max pairwise-disjoint complete fibres on any line : 12
+  lines with >= 8 pairwise-disjoint complete fibres  : 79
+  census elapsed 1.0 s
+  complete-fibre-count histogram of those lines : {8: 70, 9: 4, 10: 3, 12: 2}
+  arm-A t-pools available            : 79
+
+------------------------------------------------------------------------
+ARM A_real_t   q=193   draws=20000
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 20000}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+NON-FORCED root count per residual edge : {0: 7566, 1: 7336, 2: 3565, 3: 1282, 4: 149, 5: 102}
+  mean 0.971 legal roots per residual edge (design degrees (4, 4, 5, 5))
+common-alpha count per draw (capped at 5)     : {0: 19998, 1: 2}
+draws with >= 1 common alpha : 2 of 20000  = 1.000e-04
+  design-predicted rate 5.564e-05 ; registered (raw-degree) rate 1.803e-04
+guard outcomes on candidate alphas : {'G1 leading coefficient zero': 2}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {(15, False): 1, (16, False): 2, (17, True): 5}
+BEST LEGAL |slopes| this arm : 17
+elapsed 15.3 s
+
+------------------------------------------------------------------------
+ARM B_generic_t   q=193   draws=20000
+------------------------------------------------------------------------
+kernel-dim histogram after 7 prescribed edges : {2: 20000}
+  (registered R4.2: rank 2r = 14, kernel dim 2)
+NON-FORCED root count per residual edge : {0: 7661, 1: 7446, 2: 3419, 3: 1220, 4: 155, 5: 99}
+  mean 0.953 legal roots per residual edge (design degrees (4, 4, 5, 5))
+common-alpha count per draw (capped at 5)     : {0: 19999, 1: 1}
+draws with >= 1 common alpha : 1 of 20000  = 5.000e-05
+  design-predicted rate 5.564e-05 ; registered (raw-degree) rate 1.803e-04
+guard outcomes on candidate alphas : {'G1 leading coefficient zero': 1}
+VERIFIED 13-SLOPE SOLUTIONS : 0
+|slopes| histogram on the free-merge subsample (ns, legal) : {(15, False): 1, (16, False): 1, (16, True): 3, (17, True): 4}
+BEST LEGAL |slopes| this arm : 16
+elapsed 15.7 s
+
+TOTAL ELAPSED 32.0 s

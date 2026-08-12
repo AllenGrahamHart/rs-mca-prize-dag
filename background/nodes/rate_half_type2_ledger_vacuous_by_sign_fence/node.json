@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_type2_ledger_vacuous_by_sign_fence",
+    "title": "The type-2 ledger is vacuous by sign on the whole open bracket",
+    "status": "PROVED",
+    "closure": "exact sign computation on the (C2) per-slope floor",
+    "statement": "(C2)'s per-slope floor is (R+1) - w* with w* = |S_g u S_h| ranging over [r, 2r]. It is positive for every admissible W iff 2r <= R, which at rate one half is identically the condition a >= 3n/4, the top of the open bracket. At razor shape (n = 2^41, k = R = 2^40, rho = 2^34, a = k + 2^34, r = n - a = 63*rho = 1082331758592) the adversary takes w* = 2r and the floor is -1065151889407: the ledger is vacuous BY SIGN, not by slack, since positivity would require |S_g ^ S_h| >= 2r - R = 62r/63 = 98.412698% of r, which is adversary-free. Consequently no transport of (C2), (C3), (C4), X_gamma or layer-A instruments into the half-open bracket [k+2^34, 3n/4) can bind: the bracket is vacuous by sign before it is vacuous by counting, and the sign flips exactly at the excluded top a = 3n/4 = k + 2^39, where the floor is precisely +1.",
+    "refs": [
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/statement.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/proof.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/claim_contract.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/dependency_subdag.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/audit.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/result.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/provenance.md",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/certificate.json",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/verify.py",
+      "background/nodes/rate_half_type2_ledger_vacuous_by_sign_fence/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

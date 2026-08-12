@@ -50,3 +50,13 @@ This is the same incidence type used by the repository's SPI component
 machinery. That machinery controls components and exceptional strata, but its
 generic horizontal split-divisor point count remains open; no SPI point bound
 is imported here.
+
+## Coordinator shape fence (2026-08-11, round-36 bank 3)
+
+The deployed corollary "B_ca^far(n-r) <= r+1" is PROVED for
+r <= R/2-2 (the official candidate row's own shape) and MUST NOT
+be transported to r > R/2: at razor-faithful shape (r = 0.8R) on a
+negation-closed domain there are column-far pencils with T = 95
+against r+1 = 9, field-size independent (r36_hrlow, round 36; the
+mechanism is the orbit-invariant even-locator collapse, count
+C(m-1, r/2-1), requiring ceil(rho/M) = 1 — dead at rho = 2^34).

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_share3_luroth_template",
+    "title": "(SHARE3-m): the Lüroth pullback template and the constant-norm mechanism",
+    "status": "CONJECTURE",
+    "closure": "template + existence mechanism; m = 4 remains open (Door B the live route)",
+    "statement": "Order-3 tuple-sharing in the (BIV-CURVE) lane is a Lüroth-lattice pullback: deg_x = k*deg_w with k = m-1 forces deg_w = 3 exactly, and the waste 3(m-1) mod k is zero -- maximal sharing is free in the budget, the opposite of the involution's wasted unit. The demand arithmetic (corrected 2-sharing row 8/25/47 at m = 3,4,5 with no printed closed form; D_max(m) = 4m-8 linear for m >= 7) meets the best-achieved supply 8/12/9 only at m = 3. The constant-norm existence mechanism is structural: the 41664 mu_64-split cubics fall into 64 equidistributed norm classes of 651, and fixing one root gives lines (a,b) = (-(r+u), ru + nu/r) whose members are the u with split companion quadratic -- max 31 collinear and 9152 lines at >= 8 in the exhaustive q = 193 scan, at cost 1/N not 1/q. The m = 4 gap at drafting (|W| = 27 exact, selection free, k = 8/8, shortfall |slopes| = 14 vs 13 required) has since sharpened: round 37 proved demand minimality (>= 10 merges, exactly two placements) and round 38 closed Door A as budget-neutral, corrected the q = 257 ceiling 15 -> 14 (now three-instrument invariant, posed intrinsic as CONJECTURE C38), closed sporadic sharing by dichotomy (the draft's < 1e-4 price withdrawn as 11 dex optimistic), and left DOOR B (deficit 2) as the live route. Everything inheriting (OUT-m)/(DEG-m) stays POSED; the flat-supply death regime is CONDITIONAL and vacuous at m = 4.",
+    "refs": [
+      "background/nodes/rate_half_share3_luroth_template/statement.md",
+      "background/nodes/rate_half_share3_luroth_template/proof.md",
+      "background/nodes/rate_half_share3_luroth_template/claim_contract.md",
+      "background/nodes/rate_half_share3_luroth_template/dependency_subdag.md",
+      "background/nodes/rate_half_share3_luroth_template/audit.md",
+      "background/nodes/rate_half_share3_luroth_template/result.md",
+      "background/nodes/rate_half_share3_luroth_template/provenance.md",
+      "background/nodes/rate_half_share3_luroth_template/certificate.json",
+      "background/nodes/rate_half_share3_luroth_template/verify.py",
+      "background/nodes/rate_half_share3_luroth_template/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

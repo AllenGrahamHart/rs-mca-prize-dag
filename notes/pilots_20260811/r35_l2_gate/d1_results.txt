@@ -1,0 +1,44 @@
+====================================================================
+FIELD q = 97
+====================================================================
+[D-A] block-0 rank histogram over 40 random deg-7 Q_0: {9: 40}
+      => each of blocks 0,3 leaves nullity 16-9 = 7;
+      cross blocks are then 18 equations on 14 unknowns (+4).
+      D-A falsifier fired: False
+[D-B] 120/120 pairwise-coprime squarefree random curves: nullity(36x32) == 10-rank(Phi)
+      (nullity36, nullityPhi) histogram: {(0, 0): 120}
+      D-B falsifier fired: False
+[D-C] nullity histogram on random curves: {0: 120}  (0 hits => consistent with codim 5, q^-5 ~ 1.2e-10)
+[D-E] planted common root x*: nullity(36x32) histogram over 40: {2: 40}
+      D-E falsifier (a common-root curve with nullity 0) fired: False
+      dim of that family in P^23 = 3*7-1 (curves) + 1 (x*) = 21;
+      expected dim of the solvability locus = 23-5 = 18  => EXCESS.
+====================================================================
+FIELD q = 193
+====================================================================
+[D-A] block-0 rank histogram over 40 random deg-7 Q_0: {9: 40}
+      => each of blocks 0,3 leaves nullity 16-9 = 7;
+      cross blocks are then 18 equations on 14 unknowns (+4).
+      D-A falsifier fired: False
+[D-B] 120/120 pairwise-coprime squarefree random curves: nullity(36x32) == 10-rank(Phi)
+      (nullity36, nullityPhi) histogram: {(0, 0): 120}
+      D-B falsifier fired: False
+[D-C] nullity histogram on random curves: {0: 120}  (0 hits => consistent with codim 5, q^-5 ~ 3.7e-12)
+[D-E] planted common root x*: nullity(36x32) histogram over 40: {2: 40}
+      D-E falsifier (a common-root curve with nullity 0) fired: False
+      dim of that family in P^23 = 3*7-1 (curves) + 1 (x*) = 21;
+      expected dim of the solvability locus = 23-5 = 18  => EXCESS.
+====================================================================
+REDUCED SHAPE OF (L2) AT GENERAL m  (D-A applied at every m)
+====================================================================
+ m | raw eqs (m+2)(4m+1) | raw unk 16m | reduced eqs m(4m+1) | reduced unk 8m-2 | deficit
+ 1 |                 15 |          16 |                   5 |                6 | -1
+ 2 |                 36 |          32 |                  18 |               14 | +4
+ 3 |                 65 |          48 |                  39 |               22 | +17
+ 4 |                102 |          64 |                  68 |               30 | +38
+ 5 |                147 |          80 |                 105 |               38 | +67
+ 6 |                200 |          96 |                 150 |               46 | +104
+ 7 |                261 |         112 |                 203 |               54 | +149
+Both reductions preserve the deficit 4m^2-7m+2 exactly; the
+determinantal codimension of the solvability locus is deficit+1 = 5
+at m=2 (rank <= 31 of a 36x32, equivalently rank <= 9 of the 14x10).

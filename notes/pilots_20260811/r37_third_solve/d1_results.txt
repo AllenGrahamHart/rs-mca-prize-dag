@@ -1,0 +1,10 @@
+
+=== RUN d1_struct 2026-08-11T20:51:31 ===
+q=97 draws=58 CONIC=58 CROSS=58 E12=58 SLOT=58 SCRIT(s==deg gcd(Q0,Q2))=57
+q=97 (s02,s) joint histogram = [((0, 0), 57), ((1, 0), 1)]
+q=97 OV-form(roots(Qz) cap U == roots(f+zg) cap U)=26  OV<=4 =26  max overlap=1  overlap-max hist=[(1, 26)]
+q=193 draws=59 CONIC=59 CROSS=59 E12=59 SLOT=59 SCRIT(s==deg gcd(Q0,Q2))=58
+q=193 (s02,s) joint histogram = [((0, 0), 58), ((1, 0), 1)]
+q=193 OV-form(roots(Qz) cap U == roots(f+zg) cap U)=17  OV<=4 =17  max overlap=1  overlap-max hist=[(1, 17)]
+q=97 LADDER: 200 h-draws (ell-condition imposed) -> 200 distinct Q_2, 0 collisions => h |-> Q_2 injective on the 4-dim h-family (Q_2 prescribed => h unique)
+q=193 LADDER: 200 h-draws (ell-condition imposed) -> 200 distinct Q_2, 0 collisions => h |-> Q_2 injective on the 4-dim h-family (Q_2 prescribed => h unique)

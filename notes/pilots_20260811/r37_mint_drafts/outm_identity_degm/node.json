@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_bivcurve_out_m_identity_and_deg_m",
+    "title": "(OUT-m) as an aggregate identity, and its (DEG-m) corollary",
+    "status": "POSED",
+    "closure": "a constraint on the configuration space, refined to an exact double count",
+    "statement": "At a minimising pair union with (SAT1)-(SAT4), T = rho+2 and a = 7m-1, writing X'_gamma = |S_gamma ^ (S_g D S_h)| and X''_gamma = |S_gamma ^ (S_g ^ S_h)|, one has X'_gamma + 2 X''_gamma >= m-1-eps_gamma with eps_gamma the total saturation deficiency on S_gamma. The original aggregate rider sum eps <= 1+O is FALSE -- a deficient point outside W charges every type-2 block through it, so the correct aggregate is (m-1)(1+O) -- and the corollary that X_gamma = 0 is impossible requires 1+O < m-1, i.e. O <= m-3, which is vacuous at m = 2. The refinement of record is the exact identity sum_gamma eps~_gamma = sum_x def(x)*t_x with t_x the number of type-2 blocks through x, charging m-1, m-2 and m-3 per unit of deficiency at outside, symmetric-difference and middle points respectively; it is a trivial double count once stated, the aggregate (m-1)(1+O) is attained only by outside deficiency, the m=3 witness attains it exactly with sum = 2 while the refuted rider gives 1, and the m=2 exhibit charges 0. The corollary (DEG-m): in sigma-designs X' = 2 deg_H, so deg_H(gamma) + X''_gamma >= ceil((m-1-eps~)/2) subject to the exact middle budget sum_gamma X''_gamma = (m-1)(m-2); hence at m >= 4 a degree-1 slope requires middle support, which round 34's DFS never imposed. (DEG-m) has zero selection power (tightened and relaxed 2-sharing ceilings are bit-identical at 7/12, two fields) but is decisive at completion, where n_1 = 9 against a completeness bound of 4 upgrades the 2-sharing m=4 negative from a ceiling to dead-objects-at-the-ceiling.",
+    "refs": [
+      "notes/pilots_20260811/r37_mint_drafts/outm_identity_degm/statement.md",
+      "notes/pilots_20260811/r37_mint_drafts/outm_identity_degm/verify.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": [],
+  "draft_notes": {
+    "authority": "DRAFT ONLY -- proposed by pilot r37_mint_drafts. POSED is the source's own status and is inherited deliberately; nothing here is wired.",
+    "no_proof_md": "No proof.md is included: (OUT-m) is POSED, and the only proved content (the double count) is stated and checked inline. Writing a proof.md would overstate the item's standing.",
+    "suggested_evidence_edges": [
+      "rate_half_band_crossing_location (configuration-space constraint in the (BIV-CURVE) lane)"
+    ],
+    "BLOCKING SYMBOL COLLISION": "deg_H already names the bipartite non-incidence degree in the PROVED node a1_core_one_active_partition_incidence_reconstruction, inside the same rate_half family. A rename must be settled BEFORE this node is wired, or the two symbols will collide in any shared document.",
+    "not_verified_here": [
+      "the geometry: the placement argument that derives (OUT-m) is not re-derived, only its arithmetic consequences",
+      "any DFS ceiling or selection certificate",
+      "(SAT3)-conditionality -- inherited verbatim, and three instruments expect the T = rho+2 class EMPTY at m >= 2"
+    ]
+  }
+}

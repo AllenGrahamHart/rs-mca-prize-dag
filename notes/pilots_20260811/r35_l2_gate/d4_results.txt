@@ -1,0 +1,26 @@
+======================================================================
+WITNESS q=97 #1   (e = m = 2, generic rank 7, s = 0, certified)
+======================================================================
+  locator root-count histogram over all 97 finite parameters, roots in F_q: {0: 31, 1: 39, 2: 17, 3: 6, 4: 1, 5: 1}
+  non-squarefree / degree-deficient parameters: 0
+  parameters whose locator splits COMPLETELY over F_q: 0
+  T over D = mu_32 (endpoint domain)                : 0
+  max roots of any locator inside mu_32             : 4
+  DESIGNED domain (greedy, |D| <= 32): T = 0 supported parameters, |D| = 0
+  (a greedy value is a LOWER bound on the best designable T, never an upper bound -- MISS-2 guard (i))
+  the endpoint needs T = rho+2 = 9.
+  max shared roots over ALL slope pairs: 1  (at (1, 86))
+  a* over ALL slope pairs = 14 - 1 = 13   vs F1's 7m-1 = 13
+======================================================================
+WITNESS q=193 #1   (e = m = 2, generic rank 7, s = 0, certified)
+======================================================================
+  locator root-count histogram over all 193 finite parameters, roots in F_q: {0: 74, 1: 71, 2: 34, 3: 11}
+  non-squarefree / degree-deficient parameters: 1
+  parameters whose locator splits COMPLETELY over F_q: 0
+  T over D = mu_32 (endpoint domain)                : 0
+  max roots of any locator inside mu_32             : 1
+  DESIGNED domain (greedy, |D| <= 32): T = 0 supported parameters, |D| = 0
+  (a greedy value is a LOWER bound on the best designable T, never an upper bound -- MISS-2 guard (i))
+  the endpoint needs T = rho+2 = 9.
+  max shared roots over ALL slope pairs: 1  (at (0, 50))
+  a* over ALL slope pairs = 14 - 1 = 13   vs F1's 7m-1 = 13

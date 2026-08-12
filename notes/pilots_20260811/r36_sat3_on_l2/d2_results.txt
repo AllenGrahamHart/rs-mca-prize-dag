@@ -1,0 +1,59 @@
+# d2_results — r36_sat3_on_l2 — T >= 2 over mu_32 by double prescription
+
+## method: Q_0 = prod_{S_0}(x-a) prescribed split over mu_32 (slope z=0);
+##   f^2 == L Q_0 (mod g) solved by square roots;  k = (f^2-LQ_0)/g;
+##   then L*Q_2 == g^2 (mod f) solved EXACTLY over all C(32,7)=3365856
+##   subsets S_2 of mu_32 by meet-in-the-middle in F_q[x]/(f);
+##   h = (L Q_2 - g^2)/f ;  Q_1 = (fg+hk)/L.  Slope z=infinity is Q_2.
+
+### q=97   mu_32 = [1, 8, 12, 18, 19, 20, 22, 27, 28, 30, 33, 34, 42, 45, 46, 47, 50, 51, 52, 55, 63, 64, 67, 69, 70, 75, 77, 78, 79, 85, 89, 96]
+configs run: 10 ; exact solutions S_2 found: 46 ; expected C(32,7)/q^3 = 3.69 per config
+fully certified doubly-prescribed objects: 4
+T histogram (over mu_32, counting z=infinity): [(2, 4)]
+   rejected REJ:(2, 4, 3, 2, 12) x18
+   rejected REJ:(1, 2, 3, 1, 14) x17
+   rejected REJ:(3, 6, 3, 3, 10) x5
+   rejected REJ:(4, 8, 3, 4, 8) x1
+
+HEADLINE T=2 WITNESS  q=97
+  S_0 (subset of mu_32, roots of Q_0, slope z=0)      = [30, 33, 51, 63, 69, 77, 85]
+  S_2 (subset of mu_32, roots of Q_2, slope z=infty)  = [8, 12, 18, 27, 45, 52, 78]
+  |S_0 cap S_2| = 0
+  f=[42, 3, 81, 6, 89]  g=[71, 19, 15, 60, 1]  h=[5, 40, 44, 0, 6]  k=[24, 46, 52, 68, 63]  L=[53, 1]
+  Q_0=[78, 63, 82, 85, 33, 58, 77, 1]
+  Q_1=[75, 9, 93, 12, 8, 88, 15, 79]
+  Q_2=[46, 93, 4, 16, 76, 49, 28, 50]
+  degs=(7, 7, 7) s=0 seprank=3 nullity(36x32)=1 M(Z)Q_Z==0:True
+  generic rank=7  finite rank-drop z=[89] ranks=[6]  rank at infinity=7
+  deg<=1 kernel dim=0  (0 <=> e = m = 2 exactly)
+  y_0=[27, 56, 11, 6, 39, 43, 74, 62, 47, 5, 47, 52, 66, 62, 81, 81]
+  y_1=[9, 76, 44, 51, 3, 76, 93, 68, 66, 20, 37, 43, 86, 74, 68, 1]
+  supported FINITE slopes over mu_32: [0] ; z=infinity supported: True ; T=2
+  d_x histogram over mu_32 at the 2 supported slopes: [(0, 18), (1, 14)] ; sum d_x = 14
+  root-count histogram of the members over mu_32 (all q+1 slopes): [(1, 25), (2, 1), (3, 1), (7, 1)]
+
+### q=193   mu_32 = [1, 3, 8, 9, 14, 23, 24, 27, 42, 43, 50, 64, 67, 69, 72, 81, 112, 121, 124, 126, 129, 143, 150, 151, 166, 169, 170, 179, 184, 185, 190, 192]
+configs run: 22 ; exact solutions S_2 found: 13 ; expected C(32,7)/q^3 = 0.47 per config
+fully certified doubly-prescribed objects: 1
+T histogram (over mu_32, counting z=infinity): [(2, 1)]
+   rejected REJ:(1, 2, 3, 1, 14) x6
+   rejected REJ:(2, 4, 3, 2, 12) x3
+   rejected REJ:(3, 6, 3, 3, 10) x3
+
+HEADLINE T=2 WITNESS  q=193
+  S_0 (subset of mu_32, roots of Q_0, slope z=0)      = [8, 112, 121, 126, 169, 170, 192]
+  S_2 (subset of mu_32, roots of Q_2, slope z=infty)  = [14, 24, 69, 81, 143, 151, 190]
+  |S_0 cap S_2| = 0
+  f=[1, 19, 122, 97, 156]  g=[90, 2, 155, 72, 1]  h=[146, 127, 51, 162, 15]  k=[147, 186, 107, 183, 17]  L=[33, 1]
+  Q_0=[67, 21, 188, 90, 184, 8, 67, 1]
+  Q_1=[39, 24, 181, 56, 109, 49, 177, 25]
+  Q_2=[168, 6, 179, 105, 108, 25, 184, 25]
+  degs=(7, 7, 7) s=0 seprank=3 nullity(36x32)=1 M(Z)Q_Z==0:True
+  generic rank=7  finite rank-drop z=[110] ranks=[6]  rank at infinity=7
+  deg<=1 kernel dim=0  (0 <=> e = m = 2 exactly)
+  y_0=[190, 94, 85, 105, 145, 36, 112, 85, 145, 77, 135, 138, 191, 191, 187, 97]
+  y_1=[46, 89, 93, 187, 112, 73, 43, 155, 155, 106, 60, 80, 67, 58, 97, 1]
+  supported FINITE slopes over mu_32: [0] ; z=infinity supported: True ; T=2
+  d_x histogram over mu_32 at the 2 supported slopes: [(0, 18), (1, 14)] ; sum d_x = 14
+  root-count histogram of the members over mu_32 (all q+1 slopes): [(1, 32), (2, 3), (7, 1)]
+

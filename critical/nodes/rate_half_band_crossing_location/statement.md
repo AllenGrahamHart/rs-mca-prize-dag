@@ -3064,6 +3064,11 @@ iff m <= 2; moduli excess -13, -1, +35, +95...), blind spot named;
 THE DECISIVE EXPERIMENT: settle m = 2 (reduced to 40 parameters vs
 39 rank conditions — the G2 system). e = m is the entire difficulty
 (e < m is (ERC2)-closed; the e = 1 Kummer ladder stalls at 4).
+[UPDATED (round 34): the G2 experiment RAN — fields-searched
+NEGATIVE at m = 2 (not a theorem); the posed count omits the
+automorphism quotient (dim >= 4, >= 6 generically) and the
+corrected excess at m = 2 is +3..+5; TCAP-DIM re-posed with
+boundary m <= 1. See the round-34 (SAT3) m=2 decision addendum.]
 
 **BANK 1 (rh_psi_degree) — THE 8/5 IS ONE SLOPE.** (AO1) is exactly
 the aggregate criterion "proved per-slope floor > forced mean
@@ -3090,12 +3095,19 @@ and it is the same object as (NS-m): banks 1+2 converge. Lesson:
 random-embedding censuses have q^{-Theta(m^2)} power —
 construction or nothing. The m >= 3 (BIV-CURVE) feasibility is the
 open fork (heuristic says infeasible for m >= ~16; the m = 2
-witness says the heuristic fails at small m).
+witness says the heuristic fails at small m). [RESOLVED at m = 3
+(round 34): REALIZABLE, explicit two-field witness — see the
+round-34 (BIV-CURVE) addendum below; m = 4 remains open.]
 
 **BANK 4 (rh_moving_kernel) — R-MOVING WITHDRAWN (see the FALSE
 marker above).** What replaces it: the STACKED RANK h_r
 (rho <= h_r <= 2rho; dim K_0 = r+1-h_r; moving increment
-h_r - rho <= rho); the correct sufficient condition for a fixed
+h_r - rho <= rho) [ANNOTATED (round 36): h_r = rho + deg(e_1/e_0)
+on the forced common support when that ratio is a polynomial of
+degree <= rho, and 2rho otherwise (210/210, 5 shapes, 5 fields);
+h_r is INDEPENDENT of the support size and prices only the fibre
+floor's decay rate ceil((r+1)/d), not the floor's existence —
+see the round-36 R-HRLOW addendum]; the correct sufficient condition for a fixed
 generator (p* + p_gen <= R — fails generically by 7/6); **the FG
 stratum** (fixed squarefree generator P, rho < p <= 2rho) with a
 genuinely new normal form — the pencil collapses to a rho x p
@@ -3119,11 +3131,27 @@ R-KER is NOT the sole residual; R-FG is live with razor
 coordinates. The codimension law codim{p* <= p} = 2R-3p calibrated
 at 10 points (max dev 0.090); the FG3 descent widened to all
 p* <= r with P* squarefree (1586/1586); LB1 is GENERIC
-(p* = r+1 = ceil(2R/3), 3591/3591); the round-33 "on FG measured
+(p* = r+1 = ceil(2R/3), 3591/3591) [SCOPE-CORRECTED (round 35):
+that measurement is at LB1's own k=2 small cell and does NOT
+transfer — at razor-faithful shape (a > R+1, a-1 > r)
+p*(LB1) = max(rho+1, floor((R+2)/2)) = floor(R/2)+1, 5/5 shapes;
+see the round-35 R-FG-RAZOR addendum]; the round-33 "on FG measured
 T = q" narrowed — the saturation tracks mu_1 = C(n,r)/q^rho, not FG
+[NARROWING CORRECTED AGAIN (round 36): TOO GENEROUS — there is a
+mu_1-FREE, field-size-independent excess on negation-closed D
+(T = 95 vs r+1 = 9 at mu_1 = 1.26e-7, column-far razor-faithful;
+mechanism = orbit-invariant even locators, count C(m-1,r/2-1)
+exact; requires ceil(rho/M) = 1, dead at rho = 2^34 by 2^33-1
+conditions — see the round-36 R-HRLOW addendum)]
 membership (T <= r+1 survives at 2 of 4 cells; the three universal
 bounds stay dead); q_crit ~ 2^64: below it the column-far locus is
-measure-zero and every random model in this lane is void]**. R-DEEP/R-KER/R-LINEDEGREE
+measure-zero and every random model in this lane is void
+[SCOPE-CORRECTED (round 35): a RAZOR-ROW constant —
+theta_2 = n*H2(r/n)/(2rho) = 64*H2(63/128) = 63.988728 at
+a = k+2^34 only; at the official candidate row's OWN shape the
+same formula gives 1.6226; the key-equation threshold is
+theta_1 = 2*theta_2 = 127.977457, and every admissible official
+row (q > 2^128) is subcritical for BOTH]]**. R-DEEP/R-KER/R-LINEDEGREE
 unchanged. Round 32's report is noted internally inconsistent (its
 0/1700 (HK1) data contradicts its own forced-fixed claim) — the
 audit cadence's sixth consecutive round of catching banked text.
@@ -3180,6 +3208,12 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   (NS-m) is retired to a corollary of (NS-W-m) + a bound on Rout —
   and Rout is now THE deciding question (bank-1's measured
   Rout <= 3 in 648/648: theorem or sample? cheap and decisive).
+  [RESOLVED (round 35): SAMPLE — and the premise was false as
+  printed: bank 1's own banked cell d3_m2_q193.txt:70-71 records
+  maxRout = 4. Rout is FREE (null-distributed; the trivial degree
+  bound is attained) and it enters the exact closure criterion
+  (CLO-m) with a POSITIVE sign, so bounding it was backwards.
+  See the round-35 Rout/layer-A addendum.]
   Bank-1's falsifier F4: FIRED in the F_q reading at m=1 (4800
   instances), NOT fired in the W reading — the readings disagree.
 - **THE WRONSKIAN INSTRUMENT IS WALLED, with the number:** a totally
@@ -3188,7 +3222,15 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   5/12 exactly as pre-registered; A-picture slack ~3m).
   Ramification measures multiplicity; (NS-*) measures rationality;
   independent.
-- **THE ROUND'S PROVED THEOREM (FACTOR-DEGREE DICHOTOMY):** in the
+- **THE ROUND'S PROVED THEOREM (FACTOR-DEGREE DICHOTOMY)
+  [ALREADY-PROVED IN-REPO (round-35 subtraction catch): this IS
+  the PROVED node rate_half_ca_hankel_endpoint_rational_branch_
+  exclusion, (CPR3)-(CPR5) — unique r = 4e-1 component, all
+  others balanced, e_(i*) >= ceil((3m+1)/4), sum of the rest <=
+  floor((m-1)/4), no splitting into m rational branches. The
+  round-34 pilot's CATCH-24A missed it and so did my audit; the
+  round-34 content stands as an independent re-derivation +
+  exhaustive check, not a new theorem]:** in the
   layer-A variables, deg_x additivity + fibre disjointness force
   T*rho - O <= sum_j min(T*d_j, N*m_j) with sum_j d_j <= rho over
   the F_q(x)-irreducible factorisation of the kernel biform Q.
@@ -3215,6 +3257,708 @@ violations over m = 1..40, the dichotomy algebra hand-verified):
   D = mu_N — untouched by the cardinality-only count; survivors are
   few: 1 profile at m = 2,3,4); (2) decide Rout. No status flips.
 
+## Round-34 (BIV-CURVE) addendum (2026-08-11, coordinator-audited): REALIZABLE at m = 3; the W-layer fence extends; the boundaries diverge
+
+Pilot r34_bivcurve_m34 (round 34, bank 3; replay byte-identical,
+two fields). Everything below is (SAT3)-conditional (T = rho+2) and
+W-layer only.
+
+- **(BIV-CURVE) IS REALIZABLE AT m = 3** — the round-33 open fork
+  resolves POSITIVELY by explicit witness (F_97 and F_193;
+  T = rho+2 = 13, a = w* = a* = 7m-1 = 20, every banked incidence
+  axiom measured exactly, (BIV-CURVE) checked directly on the
+  explicit G, bivariate system rank 39 / nullity 1 with an
+  admissible kernel and the predicted mu). **The W-layer fence now
+  covers m in {2,3}: no proof from the banked incidence axioms plus
+  the W-restricted bivariate system can exclude w* = a* = 7m-1 at
+  m = 3. The type-2 exclusion at m = 3 must come from layer A
+  alone** — consistent with this round's orthogonality result
+  (layer A ⊥ (BIV-CURVE), 80/80 above) and with round 33's "LAYER A
+  IS THE INSTRUMENT".
+- **THE MECHANISM ((SPLIT-m) + involution), new in this lane:**
+  G(Z,x) = prod_{j=1}^{m-1}(u_j(x)Z - v_j(x)), deg u_j,v_j <= 3 —
+  deg_Z = m-1 exact and deg_x <= 3(m-1) = 3m-3 meets the (BIV-G)
+  budget with equality at EVERY m; the m = 2 exhibit is its
+  one-factor case. The witness is its sigma-symmetric
+  specialisation (sigma(x) = -x on mu_48, psi = phi o sigma): each
+  sigma-orbit carries one shared slope pair, so 20 points cost 11
+  slopes. Ramification is FREE in this class (every fibre splits by
+  construction) — the heuristic's cost model does not see it. The
+  first-moment heuristic (log2 E = +176.5 at m = 3, round 33) is
+  CONFIRMED at m = 3; its failure mode is the inference step, not
+  the small-m count.
+- **m = 4 IS OPEN — searched-negative over ONE named ansatz class**
+  ((SPLIT-4) with sigma(x) = -x and the forced 3+3+2 degree split;
+  1600 draws, two fields, truncated DFS): NOT a theorem. The named
+  obstruction is NOT the ramification budget — it is the (OV) pair
+  cap 2rho-a = m-1 = 3 forcing the 12 shared slope-TRIPLES to form
+  a linear (partial-Steiner) 3-uniform hypergraph (measured ceiling
+  7 of 12), plus even m forcing a sigma-invariant factor that is
+  Möbius in u = x^2, hence injective on orbits (one fresh slope per
+  orbit; the cross-coincidence supply falls short by ~an order).
+  CAUTION for m-uniform readings: at m >= 5 the cap m-1 >= 4
+  re-admits tuple multiplicity 4, so the linearity constraint is
+  SPECIFIC to m = 4; the odd/even parity prediction rests on two
+  data points (falsifier: m = 5). PRIOR ART (coordinator catch):
+  the repo already holds a PROVED linear-3-uniform-hypergraph
+  compiler in the u1_x4 lane
+  (background/nodes/u1_x4_direct_column_budget/notes/F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md
+  — pair-uniqueness forcing linearity); transport candidate for any
+  m = 4 decision attempt.
+  [CORRECTED (round 35): the NAMED OBSTRUCTION IS MEASURED INERT —
+  ablating the linearity constraint moves the ceiling by ZERO
+  triples at both fields, and the abstract selection layer is
+  DECIDED SATISFIABLE (Z_12 difference-set certificate {i,i+1,i+3}:
+  12 triples, 3-regular, linear, 12 slopes, SDR); the binding
+  constraint is the <= rho slope budget alone (arithmetic
+  value-confinement). The ceiling 7 was SOFT (8 at matched budget,
+  9 with value-prescribed pencils, two fields). The m=5 parity
+  falsifier FIRED: (SPLIT-5)+sigma all-swapped — no invariant
+  factor forced — reaches only 7/15 and 6/15, so the odd/even
+  prediction is REFUTED as a realizability predictor (the
+  invariant-factor mechanism is real but subdominant). Law of
+  record: coincidence demand 3m^2-7m+2 (8, 22, 42 at m = 3,4,5)
+  against a supply FLAT in m — m = 3 is where the curves cross.
+  See the round-35 (BIV-CURVE) m=4 addendum.]
+- **THE BOUNDARIES DIVERGE (registered prior 0.12, resolved NO):**
+  TCAP-DIM (full Hankel realizability; posed boundary m <= 2,
+  excess +35 at m = 3) and (BIV-CURVE) (W-layer incidence;
+  realizable at m = 3) part company at m = 3. Every joule spent on
+  the W-layer at m >= 3 is spent on the weaker layer; the
+  exclusion instruments of record are layer A and realizability.
+- **(OUT-m), POSED — the first LOWER bound on type-2 W-incidence
+  in this lane, WITH COORDINATOR CORRECTIONS:** at a minimising
+  pair union with (SAT1)-(SAT4), T = rho+2, a = 7m-1, writing
+  X'_g = |S_gamma ^ (S_g D S_h)|, X''_g = |S_gamma ^ (S_g ^ S_h)|:
+  **X'_gamma + 2 X''_gamma >= m-1 - eps_gamma**, where eps_gamma =
+  total saturation deficiency on S_gamma, eps_gamma <= 1+O per
+  slope. (Proof: place the (rho-X_gamma)(m-1) - eps outside
+  block-pair incidences of S_gamma into the rho-1 other type-2
+  blocks at pair capacity (m-1) - I_in each; audited.) CORRECTIONS
+  to the pilot's statement: (i) the aggregate rider
+  "sum_gamma eps_gamma <= 1+O" is FALSE — a deficient point outside
+  W charges every type-2 block through it, so the correct aggregate
+  is (m-1)(1+O); the pilot's own witness (deficient point = the
+  outside pair) has sum eps = 2 > 1+O = 1. (ii) The corollary
+  "X_gamma = 0 impossible" requires 1+O < m-1, i.e. O <= m-3 (at
+  m = 3: O = 0 — satisfied by the witness and by the profile-target
+  derivation, but NOT free in general). Checks: tight on the two
+  degree-1 H-slopes of the m = 3 witness (X' = 2 = m-1); consistent
+  with the m = 2 exhibit's min X = 1 (its deficient point is INSIDE
+  W, so eps = 0 off that slope). It killed X = 0 slope-padding and
+  two of the pilot's own designs; it is a constraint on the
+  configuration space, not progress on residual (ii)'s direction.
+- **DEAD SUB-ANSATZE (recorded so they are not retried):** the
+  rank-2 pencil-of-quadratics G = N(Z)f(x) + M(Z)g(x) is DEAD at
+  m >= 3 (fibres of size <= m-1 force >= 2(m+... distinct pairs
+  > rho slopes at m = 3: 18 > 11); the explicit phi = x^4, psi =
+  x^2 design dies on the per-side cap (a full mu_4-coset with a
+  middle point forces |S_gamma ^ S_g| >= 3 > m-1).
+- **SCOPE FENCES:** layer A was NOT run on the m = 3 witness (the
+  banked expectation from the orthogonality result is that it dies
+  there; unmeasured); the unsaturated exception was never exercised
+  (O = 0, deficient point outside W); no random-embedding census
+  was run; two fields is not q-uniformity; nothing here bears on
+  (SAT3) itself.
+
+## Round-34 (SAT3) m=2 decision addendum (2026-08-11, coordinator-audited): fields-searched negative; TCAP-DIM re-posed to m <= 1; the (L2) realization gate promoted
+
+Pilot r34_m2_decision (round 34, bank 4; d1 replay byte-identical;
+the pilot also replayed round 33's m=1 exhaustive + realization
+scripts BYTE-IDENTICALLY, so the m=1 realization theorem now
+carries independent replay evidence). **A fields-searched negative
+is NOT a theorem** (q in {97,193,257}; the target stratum's
+expected codimension ~13 makes sampling powerless either way).
+
+- **THE VERDICT BY LAYER.** (L0) combinatorial: FREE — the simple
+  design is unique up to isomorphism (420 labelled, 1 class,
+  exactly K_9 - (P_3 + 3K_2)); multigraph designs abundant (capped
+  enumeration). (L1) curve-from-design: NEVER OPENED — the 62x24
+  system had rank 24 (full; need <= 23) in 400 random + 200
+  structured draws, two fields. Forward search: 480,000 nets
+  carrying three prescribed-split members reached max n7 = 4
+  against the 8 the design forces — and the cost of the 4th split
+  member (8.8e-6) matches the UNSTRUCTURED random-polynomial rate
+  (q*C(32,7)/q^7 ~ 4e-6) to a factor 2: **the net structure buys
+  nothing at m = 2**, against the 14% (10^4-fold) coherence the
+  m=1 fibre structure buys. Exact witness detector (audited): the
+  design forces >= 8 totally split members (62 endpoints on 9
+  vertices of degree <= 7), so **n7 <= 7 certifies a net hosts no
+  design** — no heuristic scoring enters.
+- **THE SYMMETRY ESCAPE HATCH, CLASSIFIED AND CLOSED:** only
+  cyclic orders k in {2,3} can host the design (slope-orbit +
+  fixed-slope root-congruence u = 0,1 mod k + domain-cardinality
+  arithmetic; coordinator-checked at k = 3,4,7) — maximum
+  concentration factor 3, so a symmetric witness still needs >= 3
+  independent ~1e-5 splitting events. **The m=1 coset mechanism is
+  structurally dead at every m >= 2:** tau = id forces pairwise
+  disjoint locator sets, i.e. d_x <= 1, i.e. T*rho <= N — which is
+  EXACTLY the banked R4 fence (63 > 32 at m = 2). Agrees with (does
+  not extend) the PROVED separated-pullback exclusion at the
+  official endpoint. The k=4 family reached n7 = 8 = rho+1 at
+  q=193 — the strict target attained at the LOCATOR layer — with
+  (L2) nullity 0: symmetry concentrates split members and
+  simultaneously sparsifies the parameter coefficients, and (L2)
+  charges for sparsity.
+- **THE (L2) GATE — the round's sharpest fact.** The syndrome
+  realization layer M(Z)Q_Z = 0 is (m+2)(4m+1) equations on
+  2R = 16m unknowns: **overdetermined by 4m^2-7m+2 = -1, +4, +17,
+  +38, ... — m = 1 is the ONLY underdetermined case** (which is
+  exactly why round 33's exhaustive m=1 scan realized all sixteen
+  families). Measured: nullity 0 on 60/60 random curves per field
+  at m=2; ZERO genuine e=m=2 objects in 2,800 structured + random
+  curves over two fields — every apparent hit is one predicted
+  degenerate family (shared domain root, weight-one error, generic
+  rank 1, s != 0 — forbidden by (SAT1); rate (49/32)/q CONFIRMED:
+  1.58%/1.43% at q=97, 0.79%/0.71% at q=193). The e=2 Kummer
+  analogue is analytically dead (leading Z-coefficient constant
+  forces y = 0; hand-checkable chain, 880 curves concur).
+  **CONSEQUENCE OF RECORD: nobody — round 33, round 34, anywhere
+  in this campaign — has ever exhibited a (SAT1)-profile pencil
+  with e = m at any m >= 2.** Its nonemptiness is now an exactly
+  stated linear-algebra question (a (4m+1) x 4m Hankel pencil,
+  minimal index exactly m, generic rank 4m-1, s = 0). By the
+  banked reduction ("e = m is the entire difficulty"), **proving
+  that stratum empty for m >= 2 closes the strict endpoint
+  outright**; exhibiting a member gives the campaign its first
+  real m >= 2 object and finally exercises F1/(NEWCAP) (third
+  round with zero power over them). This is the named
+  "Hankel/apolar coefficient chain" gate of three endpoint
+  claim-contracts, now with its exact count and sign change.
+- **TCAP-DIM RE-POSED (boundary m <= 1).** The posed count omits
+  the automorphism group acting freely (finite stabilisers — a
+  positive-dimensional stabiliser would fix 9 slopes + 32 points)
+  on every solution: orbit dim >= 4 (AGL_1 x AGL_1), >= 6
+  generically (PGL_2 x PGL_2). Corrected excess at m=2: +3..+5
+  (UNREALIZABLE-expected); both round-33 positive controls
+  preserved (m=1 stays -9..-7; the e=1 ladder stays -8m-1 < 0 for
+  every m); an independent locator-layer bookkeeping agrees in
+  verdict (-5 at m=2, +7 at m=1). STATUS: heuristic with the
+  pb_design_ceiling blind spot — the pilot's own MISS 2 (a
+  degenerate 1.4%-rate family briefly misread as refuting the
+  naive count) is a live instance inside the same report.
+- **REGRESSION-TEST PRINCIPLE, SHARPENED:** a proof of the strict
+  target T <= rho+1 must fail at m = 1 AND must fail there
+  *because* e = 1 locator sets are pairwise disjoint (the coset
+  mechanism) — any argument not turning on d_x <= e overlap is
+  fighting the wrong object.
+- **SCOPE FENCES:** the pilot WITHDREW its own P8(b) rationality
+  argument (the design constrains the union of fibres, not each
+  fibre — the hyperelliptic-invariance premise was false; C's
+  rationality is UNDECIDED); the multigraph enumeration is capped,
+  not complete; the k=8 monomial family's n7 = 0 (below random
+  rate) is unexplained; no statement about q at scale.
+
+## ROUND 34 CLOSE (2026-08-11): the four banks reconciled
+
+**BANK 1 (r34_pstar):** R-PSTAR RESOLVED YES — FG nonempty at razor
+shape (witnesses A and B), the coordinator's banked equivalence
+corrected (FG needs p* <= 2rho = R/32, factor 16); R-FG-RAZOR and
+R-KER are the far-CA residuals. **BANK 2 (r34_layer_a):** (NS-m)
+refuted-and-restated (NS-W-m) (5280/5280); Wronskian walled at the
+pre-registered 5/12; the FACTOR-DEGREE DICHOTOMY proved (Q never
+splits over F_q(x) for m >= 2; forced factor Z-degree >=
+ceil((3m+1)/4) tight); layer A orthogonal to (BIV-CURVE) 80/80.
+**BANK 3 (r34_bivcurve_m34):** (BIV-CURVE) REALIZABLE at m = 3
+(two-field witness, (SPLIT-m)+involution); W-layer fence covers
+m in {2,3}; m = 4 open (named (OV)/linear-hypergraph obstruction);
+(OUT-m) posed with coordinator corrections; boundaries diverge
+from TCAP-DIM. **BANK 4 (r34_m2_decision):** (SAT3) fields-searched
+negative at m = 2 with mechanism; TCAP-DIM re-posed to m <= 1; the
+(L2) e=m realization gate promoted to the question of record.
+
+**THE RECONCILED PICTURE.** The round pulled the frontier apart
+into a clean two-front structure:
+
+1. **The conditioning front (new, decisive if it lands):** every
+   W-layer and layer-A object this campaign built at m >= 2 is
+   (SAT3)-conditional — and bank 4 now expects the conditioning
+   stratum EMPTY at m >= 2 (corrected ledger +3..+5; zero e=m >= 2
+   objects ever exhibited; the (L2) count turns positive exactly at
+   m = 2). **(R-L2): decide e=m stratum nonemptiness at m = 2.**
+   Empty for m >= 2 => the strict endpoint closes outright and the
+   entire W-layer/layer-A program at m >= 2 becomes moot. Nonempty
+   => feed the witness to bank 4's machinery: the first real
+   m >= 2 T-measurement, and F1/(NEWCAP) finally exercised.
+   [RESOLVED (round 35): NONEMPTY, constructively — 12 certified
+   objects over five fields, coordinator-independently verified;
+   AND the "empty => closes outright" stake was over-priced: the
+   PROVED residual_pole_interpolation_exclusion node already
+   excludes strict A=3 e=m ENDPOINT PROFILES on even rows m >= 6
+   including the official m = 2^37 row. See the round-35 R-L2
+   addendum.]
+2. **The instrument front (if the stratum is nonempty):** the
+   W-layer CANNOT exclude at m = 2, 3 (witness fences, banks 3 +
+   round 33); layer A is the sole instrument there (orthogonality
+   + the dichotomy, bank 2); its standing rides on Rout and on the
+   RNC multiplicative-domain gate (survivors: ONE profile at
+   m = 2, 3, 4).
+
+**OBSERVED IDENTITY (DEF-ID), mechanism unexplained:** the W-layer
+(BIV-G) deficit (conditions minus unknowns, bank 3 / round 33:
+7m^2-9m+2 - (3m^2-2m)) and the (L2) realization overdetermination
+(bank 4: (m+2)(4m+1) - 16m) are the SAME quadratic **4m^2-7m+2**,
+produced by mutually quarantined pilots counting ostensibly
+different objects (the W-restricted locator curve vs the syndrome
+coefficient chain). Both are negative only at m = 1. Candidate
+structural link between the two layers; posed as a round-35
+question, NOT claimed as a theorem.
+
+**COMPLIANCE ROUND SUMMARY:** 4/4 pilots clean under the upgraded
+compute-law clause (27 ramguard invocations, zero bare python3 —
+the clause works); one sed -i write-path deviation (bank 3)
+censured; round-35 CONSTRAINTS to name sed -i explicitly. The
+audit cadence caught and corrected banked or pilot text in all
+four banks (factor-16, (NS-m)'s two inequivalent forms, (OUT-m)'s
+aggregate rider + corollary qualifier, TCAP-DIM's missing
+quotient).
+
+**ROUND-35 ANCHORS (priority order):** (1) R-L2 — construct or
+refute an e=m=2 (SAT1)-profile pencil (the decisive question on
+the board); (2) Rout — theorem-or-sample for bank 1's <= 3
+measurement (decides (NS-W-m)'s reach); (3) layer A on the m=3
+(BIV-CURVE) witness + the m=4 decision (non-split G, sigma = c/x,
+(3,3,3); import the u1_x4 linear-hypergraph compiler); (4)
+R-FG-RAZOR — the key-equation budget at witness B's coordinates;
+(5) DEF-ID; (6) the m=5 parity falsifier; (7) q_crit on the
+official candidate.
+
+## Round-35 R-L2 addendum (2026-08-11, coordinator-audited): the e=m stratum is NONEMPTY at m=2 — constructively; the emptiness route is dead; the gate moves to (SAT3)-on-(L2)
+
+Pilot r35_l2_gate (round 35, bank 1). The witness is
+coordinator-independently verified: I re-checked the published
+q=97 object with code written from scratch (E1/E2 identities, all
+four blocks of M(Z)Q_Z = 0, degrees (7,7,7), s = 0, generic rank
+7, single rank-drop z=10 to rank 6, full rank at infinity,
+nullity(36x32) = 1, no degree-<=1 kernel so e = 2 exactly) — ALL
+PASS. Existence is witness-checkable: this part is a THEOREM.
+
+- **R-L2 RESOLVED: NONEMPTY.** Twelve certified (4m+1) x 4m
+  syndrome Hankel pencils with minimal index exactly m = 2,
+  generic rank 4m-1 = 7, s = 0, delta = m-1 = 1, independent
+  Q_0,Q_1,Q_2, over five fields (q = 97, 193, 257, 641, 769).
+  Route: the (D-B) congruence criterion (nullity(36x32) =
+  10 - rank Phi for the 14x10 matrix (f,g) -> (Q_2f-Q_1g mod Q_0,
+  Q_1f-Q_0g mod Q_2); verified 120/120 per field) + the (D-F)
+  inversion (for fixed B = (f,g,h,k) the cleared system is a
+  SQUARE 24x24 in the curve; existence = det M(B) = 0, ONE
+  condition, hit rate ~1/q vs blind q^-5).
+- **THE +4 WAS NEVER THE EXISTENCE COUNT (round-34 reading
+  corrected).** The equation-count excess 4m^2-7m+2 is not an
+  existence codimension. The honest count: determinantal codim
+  (36-31)(32-31) = 5 in the 23-dim projective curve space —
+  **expected dimension 11m-4 > 0 at EVERY m >= 1**. The round-34
+  incidence count (19) is contaminated by an excess component of
+  dimension 21 (the degenerate common-root family — round 34's
+  rank-1/s!=0 family, now with a dimension; nullity 2 on 40/40
+  planted curves per field); the good component has dimension
+  EXACTLY 18 = 23-5 (the +4/codim-5 condition is transverse there;
+  the B-fibre is a point). The TCAP ledger (+3..+5) prices the
+  full (SAT3) object and is untouched. **The emptiness route to
+  the strict endpoint is dead at m = 2 constructively and
+  expected-dead at every m by the 11m-4 count.**
+- **THE STRICT-ENDPOINT STAKE, RE-PRICED (coordinator forced
+  correction of the round-34 close):** the PROVED background node
+  rate_half_ca_hankel_endpoint_residual_pole_interpolation_exclusion
+  (wave-57/58 strict-A=3 Picard-Forney chain) already excludes
+  every strict A=3, e=m ENDPOINT PROFILE on even rows m >= 6 —
+  including the official m = 2^37 row (pole-ideal interpolation +
+  surface cohomology; scope fence: e>m strict profiles, A=1
+  residuals, the complete crossing, the adjacent unsafe witness
+  remain open). R-L2's emptiness branch was therefore never the
+  decisive route to the OFFICIAL endpoint; its value was always
+  the structural/small-m content, which the witness now delivers.
+  (The witness — m=2, T=0 — is outside that node's hypotheses on
+  both counts; no contradiction.)
+- **THE DIFFICULTY MOVES, UNDIMINISHED, TO THE SPLITTING LAYER.**
+  All witnesses have T = 0; not one locator splits completely over
+  F_q; the root-count histogram is the Poisson(1) law of RANDOM
+  degree-7 polynomials to within noise. Having a syndrome pencil
+  buys NOTHING at the splitting layer — the same "no structural
+  enhancement" round 34 measured on nets without pencils, now
+  measured on nets with them. **The gate of record is now
+  (SAT3)-ON-(L2): design B = (f,g,h,k) so the resulting locators
+  split over mu_32 at T = rho+2 supported slopes.** The inversion
+  leaves B entirely free — this is the named next instrument.
+- **F1: first (weak) exercise in four rounds.** a* over ALL slope
+  pairs = 13 = 7m-1 on 5 of 6 headline witnesses, and 12 on one —
+  so a* is NOT forced to 7m-1 by the pencil alone. Not the
+  endpoint functional (min over supported pairs needs supported
+  slopes; none exist at T = 0). (NEWCAP) still at zero power.
+- **DEF-ID RESOLVED: COINCIDENCE.** The identity
+  (m+2)(4m+1) + m(3m-2) = (m-1)(7m-2) + 16m = 7m^2+7m+2 is exact,
+  but the two systems' shapes are incompatible (quadratic/quadratic
+  ratio -> 7/3 vs quadratic/linear -> infinity), the deficits have
+  different provenance, and — decisively — the shared quantity
+  governs NEITHER layer's existence ((L2) is nonempty at m=2
+  despite +4; (BIV-G) realizable at m=3 despite +17). Closed as
+  posed.
+- **SCOPE FENCES:** the m >= 3 branch of R-L2 is untouched (the
+  24x24 squareness is an m=2 accident: 80 equations on 48 for
+  fixed B at m=3 — a new inversion is needed); five prime fields
+  is not a lift to Z nor a q ~ 2^128 statement; the witnesses
+  satisfy the pencil-intrinsic half of (SAT1) and NONE of
+  (SAT2)-(SAT5) (vacuous at T=0, not verified); the designed-
+  domain question is untested (the greedy instrument had zero
+  input). Blind (L2) search is banned at every m (q^-5; use the
+  inversion).
+
+## Round-35 R-FG-RAZOR addendum (2026-08-11, coordinator-audited): walled AND downgraded; the type-2 ledger is vacuous on the open bracket; R-HRLOW is the new load-bearing residual
+
+Pilot r35_fg_razor (round 35, bank 2; e3 exact-integer arithmetic
+replayed — every committed razor integer E1-E22 exact, the banked
+LB1-C constant 670,014,898,009 reproduced to the digit). No bound
+on B_ca^far(k+2^34) either way.
+
+- **THE TYPE-2 SPEND/LIST LEDGER IS VACUOUS ON THE WHOLE OPEN
+  BRACKET — a SCOPE FENCE of record.** (C2)'s per-slope floor is
+  (R+1) - w* with w* = |W| in [r, 2r]; it is positive for every
+  admissible W iff 2r <= R iff a >= 3n/4 — exactly the top of the
+  open bracket (the unique-decoding radius). At razor shape the
+  adversary takes w* = 2r and the floor is -1,065,151,889,407:
+  vacuous BY SIGN, not by slack (positive iff
+  |S_g ^ S_h| >= 2r-R = 62r/63 = 98.41% of r — adversary-free).
+  CONSEQUENCE: no transport of (C2)/(C3)/(C4)/X_gamma/layer-A
+  instruments into [k+2^34, 3n/4) can bind — vacuous by sign
+  before it is vacuous by counting. (No banked text connected the
+  type-2 ledger to far-CA — zero grep hits — and now there is a
+  proved reason not to.)
+- **FG CARRIES NO STRUCTURAL BAD-SLOPE FLOOR; LB1 DOES.** At six
+  razor-faithful rate-half cells across ten fields spanning
+  mu_1 in [2.9e-5, 238]: LB1's type-1 count is EXACTLY r+1
+  (field-size independent, 9/9 ledger rows; (C3) T_1 <= e+1
+  ATTAINED at 0 bits with e = d_x = r); witness B's FG replica has
+  T_1 in {2,3} and total T that tracks q*mu_1 and falls BELOW r+1
+  in the subcritical regime (T = 1 at n=22, q=65537 vs r+1 = 10).
+  Since every admissible official row is deeply subcritical, **the
+  FG stratum is not where the extremal B_ca^far count can live**
+  unless it beats its own first moment — and LB1 is the exhibit
+  that beating it is possible: at q = 2^167 the first moment
+  predicts E[T] = 2^{-6.704e11} against the PROVED floor r+1 =
+  2^39.98. **The first moment is wrong by 6.70e11 bits in this
+  lane** (LB1-C IS the subcriticality condition up to the exact
+  residue log2 q + n(1-H2(r/n)) — verified to the digit at two q).
+- **THE h_r DICTIONARY ORDERS THE RESIDUALS; PRIORITY INVERTED.**
+  R-FG nests strictly inside R-KER (V_r = F[x]_{<=r}/K_0 of dim
+  h_r; R-KER counts slopes where the (h_r-rho)-dim increment
+  acquires a D_r(D) member; R-FG is the sub-stratum where V_r is
+  a RING and U_gamma cyclic). Closing R-FG would NOT move
+  B_ca^far. The extremal object sits at the SMALL end:
+  **R-HRLOW (new residual of record): bound T for column-far
+  razor pencils with h_r near rho** — LB1 is the h_r = rho+1
+  extremal with p*(LB1) = floor(R/2)+1 = 2^39+1 (exactly ONE
+  integer above the intermediate band's top), dim K_0 = r-rho,
+  T_1 = r+1. Any upper bound in this lane must clear T = r+1 at
+  h_r = rho+1 or exclude that configuration. Far-CA residual set
+  after this round: {R-HRLOW > R-KER > R-FG-RAZOR (downgraded)};
+  R-PSTAR-INTERMEDIATE carried no load as a stratum but its top
+  edge floor(R/2) is LB1's sharp coordinate.
+- **CRITERION CORRECTION (banked artifact, recorded here — the
+  r34_pstar REPORT stays byte-original):** h_r = p* is NECESSARY
+  but NOT SUFFICIENT for round-33 FG. FG needs K_0 = P*F[x]_{<=r-p}
+  with p = deg P; h_r = p* only yields it with the WINDOW index
+  p*, and deg P = d* can be strictly smaller (three exhibited
+  counterexamples: LB1 at k=1 cells has p* = 4 = h_r, d* = 3,
+  FG FALSE). The r34_pstar D1.2 table's "FG" label on the
+  h_r = p* row is wrong as a criterion; witness B itself is
+  unaffected (deg P = p verified 10/10).
+- **q_crit PASSES on the official candidate** (secondary): by
+  103.01 bits on the razor-shape threshold and 126.38 bits on the
+  row's own threshold, at every admissible official row — the
+  random model is not void there, and the key equation is
+  subcritical too (theta_1 = 2*theta_2 exactly). The two inline
+  SCOPE-CORRECTED markers above (LB1-generic; q_crit) are this
+  bank's forced corrections.
+- **SCOPE FENCES:** all machine numbers at q <= 65537, R <= 14 —
+  zero razor-regime measurement; k=1 cells are non-faithful for
+  p*(LB1) (they miss a > R+1 and a-1 > r — the pilot's own first
+  design would have inverted the headline and was caught by hand);
+  w* is reported under a 24-locator cap (direction favors the
+  vacuity conclusion); the 2^128 numerology (theta_1 within 0.02
+  bits of EPSILON_BITS) is a COINCIDENCE (n/rho vs the prize
+  soundness parameter) and is recorded to prevent a future false
+  link.
+
+## Round-35 (BIV-CURVE) m=4 addendum (2026-08-11, coordinator-audited): the round-34 obstruction measured INERT; the parity prediction refuted; five classes searched-negative; (OUT-m) refined to an identity
+
+Pilot r35_bivcurve_m4 (round 35, bank 3). m = 4 remains OPEN — no
+witness, no theorem — but the obstruction is relocated, re-scoped,
+and its ceiling raised. Coordinator hand-checks: the Z_12
+certificate (differences of {0,1,3} are +-1,+-2,+-3 all distinct
+=> linear; 3-regular; SDR), the route-(b) quotient-coordinate
+derivation, the (OUT-m) aggregate identity, and the (DEG-m)
+algebra all verified.
+
+- **THE ABLATION (the round's main measurement):** with the
+  linearity/(OV) constraint REMOVED from the m=4 selection search,
+  the ceiling does not move at either field (7/7 at q=193, 8/8 at
+  q=257; m=5 histograms BIT-IDENTICAL with and without the pair
+  cap); with the <= rho SLOPE BUDGET removed instead, 12/12 in
+  383/383 draws (15/15 in 500/500 at m=5). **The (OV)-forced
+  linear hypergraph is real, proved, and INERT; the whole
+  obstruction is arithmetic value-confinement (the slope
+  budget).** The u1_x4 compiler transported and DECIDED the
+  selection layer — positively, i.e. in the opposite direction to
+  the transport's motivation.
+- **FIVE CLASSES NOW SEARCHED-NEGATIVE (budgets 12000-30000 DFS
+  nodes/draw, two fields each):** (1) (SPLIT-4)+sigma(-x) random,
+  ceiling 8; (2) value-prescribed (SPLIT-4) (seven phi-values by a
+  7x8 nullspace, targets from the Z_12 certificate), ceiling 9 —
+  round 34's declared structured-pencil blind spot now measured,
+  and its ceiling was SOFT (7 -> 9); (3) (SPLIT-4)+sigma(c/x),
+  ceiling 7 — route (b) refuted at the DERIVATION level: for ANY
+  involution the invariant subfield is F_q(w) (w = x^2 or
+  x + c/x), so a deg_x <= 3 invariant factor is Möbius in w and
+  INJECTIVE ON ORBITS (167/167, 177/177) — the fixed points never
+  touch the cross-coincidence term (the round-35 brief's route-(b)
+  hypothesis was WRONG; coordinator brief error, recorded);
+  (4) un-symmetrised (3,3,3), ceiling 8 of 24 (demand 58 vs 21
+  parameters — the worst route, now measured); (5) (QUAD-4), the
+  first genuine non-split probe (G = Q(Z,u)L(Z,u), u = x^2, Q an
+  irreducible sigma-invariant Z-quadratic; 14 parameters vs 10;
+  disc-square rate 15.7/32 confirms non-splitness), ceiling 7 —
+  the extra parameters are repaid by losing half the orbit pool.
+  UNTOUCHED: general non-split G with no sigma-symmetry and no
+  Q*L factorisation. DERIVED en route: at even m EVERY
+  sigma-symmetric ansatz wastes one unit of the 3m-3 budget
+  (invariant factors have even x-degree).
+- **AUDIT QUALIFIER (coordinator):** the pilot's R2.3 parity
+  argument ("no involution makes W sigma-stable at even m") is
+  over-broad on the c in mu_32 branch — #Fix = 2 admits a
+  sigma-stable odd set containing exactly one fixed point; the
+  inference holds only when #Fix = 0. The route-(b) kill is
+  carried entirely by the injectivity derivation, which is sound.
+- **THE m=5 PARITY FALSIFIER FIRED.** (SPLIT-5)+sigma all-swapped
+  (no invariant factor, budget 3+3+3+3 = 12 = 3m-3 exact — the
+  configuration parity called easy) reaches 7/15 and 6/15: FURTHER
+  from target than m=4. The law of record is parity-free:
+  **coincidence demand D(m) = 3m(m-1)-(rho-1) = 8, 22, 42 at
+  m = 3, 4, 5 against supply FLAT in m (best achieved 8, 12, 9) —
+  m = 3 is the last m where supply meets demand, exactly** (which
+  is why the m=3 witness cost 632/24939 trials).
+  [CORRECTED (round 36): the demand row undercharges the middle
+  tuples — with ceilings the 2-sharing values are 8, 25, 47 (exact
+  only at m=3, where the two errors cancel); and the QUADRATIC is
+  a 2-SHARING ARTEFACT: under maximal sharing k = m-1 (a Lüroth
+  pullback through a degree-3 map — legal, budget met with
+  EQUALITY, waste = 3(m-1) mod k) the demand is D_max(m) = 4m-8,
+  LINEAR, for m >= 7 (11 at m=4). The crossing stays at m=3, but
+  the m >= 5 fence is linear, not quadratic. See the round-36
+  (SHARE3-4) addendum.] The pair-
+  multiplicity cap generalises to floor((m-1)/2) (linearity = its
+  m=4 face, as round 34's caution said — and it is inert there
+  too). Positive control: the same engine reaches 9/9 at m=3 on
+  both fields.
+- **(OUT-m) SURVIVED ALL STRESS AND IS REFINED TO AN IDENTITY
+  (adopted):** sum_gamma eps~_gamma = sum_x def(x)*t_x with t_x
+  the number of type-2 blocks through x, charging m-1 / m-2 / m-3
+  per unit of deficiency at outside / symmetric-difference /
+  middle points respectively (coordinator-verified: trivial
+  double-count once stated). The aggregate (m-1)(1+O) is attained
+  ONLY by outside deficiency — the m=3 witness attains it exactly
+  (sum = 2 = (m-1)(1+O), and the refuted original rider fails
+  2 > 1, reproducing the round-34 catch); the m=2 exhibit (inside
+  placement) charges 0. COROLLARY (DEG-m), inheriting POSED
+  status: in sigma-designs X' = 2 deg_H, so deg_H(gamma) +
+  X''_gamma >= ceil((m-1-eps~)/2) with the exact middle budget
+  sum_gamma X''_gamma = (m-1)(m-2) — at m >= 4 a degree-1 slope
+  REQUIRES middle support, a constraint round 34's DFS never
+  imposed (its ceiling was measured on a relaxation); both
+  selection certificates survive the tightening. SYMBOL COLLISION
+  recorded: deg_H already names the bipartite non-incidence degree
+  in the PROVED a1_core_one_active_partition_incidence_
+  reconstruction node — two objects, one symbol, same rate_half
+  family.
+- **SCOPE FENCES:** every negative is a DFS ceiling under a named
+  budget over a named class; no configuration this round was
+  completed (no outside completion, no bivariate system, no
+  per-side verification — selection-layer objects only; the k=9
+  m=4 candidates are provably NOT completable as they stand: six
+  degree-1 slopes against a completeness bound of four); layer A
+  still unrun; (SAT3)-conditionality untouched; two fields is not
+  q-uniformity; (DEG-m) inherits (OUT-m)'s POSED status. Pilot
+  compliance: 9/9 ramguard clean (7th consecutive), zero
+  write-discipline breaches; one recursive grep traversed dag.json
+  as a filename (disclosed; round-36 CONSTRAINTS add
+  --exclude=dag.json to the standard flags).
+
+## Round-35 Rout/layer-A addendum (2026-08-11, coordinator-audited): Rout is FREE and the sign was backwards; layer A kills the m=3 witness COMPLETION-INDEPENDENTLY; the dichotomy was already proved
+
+Pilot r35_rout_layer_a (round 35, bank 4). Coordinator
+verifications: maxRout = 4 confirmed in bank 1's own banked file;
+the rational_branch_exclusion node read (PROVED, (CPR3)-(CPR5) as
+claimed); the pilot's one write-scope breach (an imported bank
+script's output path overwrote r34_layer_a/d3b_replay_results.txt
+at import time) left the repo CLEAN — git shows the regenerated
+content byte-identical to the committed banked file (deterministic
+seed), so the breach is procedural only; censured, and round-36
+CONSTRAINTS add "audit imported scripts' output paths BEFORE
+import".
+
+- **ROUT DECIDED: FREE, AND THE QUESTION WAS POSED BACKWARDS.**
+  Rout <= d-m is refuted IN CLASS at m=1 (4800/5280 on the
+  realized (SAT3) stratum, replayed) and out of class at m=2,3
+  inside the canonical band a >= 7m-1 (582 violations / 7275
+  slopes, two fields at m=2); the banked "Rout <= 3" was false as
+  printed (max 4 in its own file); Rout matches a uniform-random-
+  polynomial null cell-by-cell (32700 slopes) and attains the
+  trivial degree bound. THE SIGN: rearranging the banked (JDEC) +
+  (DEGSUM) gives the EXACT closure criterion
+  **(CLO-m): (d - Dh) + (n - ov) + Rout + nonsplit >= m**
+  (equivalent to X <= d-m in 32700/32700) — Rout enters
+  POSITIVELY; a bound on it could never buy closure.
+  STATUS: (NS-m) RETIRED (strictly stronger than needed, false
+  where closure holds); **(NS-W-m) is the target of record WITH
+  HYPOTHESES STATED (canonical minimising W*, a >= 7m-1, d >= m)**
+  — it holds 7275/7275 there and 5280/5280 in class, but FAILS at
+  planted W (6686 times), so the hypotheses are load-bearing;
+  (CLO-m) recorded as the exact target. The round-34 restatement
+  was a REDIRECTION, not a correction. CLASS CAVEAT (both banks):
+  every m >= 2 measurement is outside the T = rho+2 class (the
+  constructor realizes max T = 3), and the class itself may be
+  empty — see the gate below.
+- **LAYER A KILLS THE m=3 (BIV-CURVE) WITNESS —
+  COMPLETION-INDEPENDENTLY (round-34 MISS 7 discharged).** LA|_W
+  (the 60 incidences INSIDE W only) already forces Q = 0 on both
+  fields; no outside completion can rescue the witness (40 fresh
+  completions: 40/40 killed; 4791/4845 resp. 4823/4845 of all
+  16-subsets of W already bind — "any 16" is FALSE, caught by the
+  pilot's own exhaustive scan). Span rank 12 = rho+1, maximal.
+  MECHANISM **(LA-W COUNT), posed**: at a = 7m-1 with W saturated,
+  the W-incidences impose (7m-1)m conditions on (rho+1)(m+1) =
+  4m(m+1) biform coefficients — excess 3m^2-5m, NEGATIVE ONLY AT
+  m=1. All three regressions fire (m=1: 16/16 witnesses survive
+  with nullity exactly 2; m=2: bank 2's exhibit killed by its 26
+  W-incidences alone — new; m=3: killed, both fields). The pilot's
+  repaired positive control fires 6/6+6/6 (round-34's control
+  never could — demand-splitting removed). **Proving (LA-W COUNT)
+  as a rank theorem would make layer A an unconditional exclusion
+  at every saturated a = 7m-1 configuration — the named
+  instrument of record.**
+- **THE MULTIPLICATIVE PUSH: THE SURVIVOR STANDS, AND THE
+  DICHOTOMY WAS ALREADY PROVED.** Three of the round's D3 objects
+  subtracted to PROVED nodes: the factor-degree dichotomy + its
+  per-factor sharpening = rational_branch_exclusion (CPR3)-(CPR5)
+  (the ALREADY-PROVED marker above); the norm identity = (ENF2)
+  transposed; the coset obstruction = the quartic_coset_biform
+  lift node's gcd(4m-1,16m) = 1. The m=2 survivor (Q irreducible,
+  bidegree (2,7)) is exactly the (CPR3) profile — NOT emptied;
+  survivor count closed form sum_{k <= floor((m-1)/4)} p(k).
+  WHAT IS NEW — **the quantified gate**: the multiplicative domain
+  enters only through C(16m, 4m-1) (q-INDEPENDENT count of
+  degree-rho squarefree divisors of x^N-1) against ambient q^rho;
+  the layer-A-consistency first moment is calibrated TWICE at m=1
+  (+13.75 bits at q=17 where EXACTLY 16 configurations exist and
+  they ARE the 16 realized (SAT3) families — two independent
+  constructions; -0.94 at q=97 where none are realized) and is
+  NEGATIVE for every m >= 2 at every field (~ -1952 m^2 bits at
+  official scale; overestimates by 2^9.8 at its own calibration
+  point, the safe direction). HEURISTIC — but it is the lane's
+  first quantitative instrument for m >= 2, and it says the
+  T = rho+2 class is likely EMPTY there (making the (NS-*) family
+  vacuous and converging with round-34 bank 4's searched-negative
+  and the corrected TCAP ledger from a third direction).
+- **SCOPE FENCES:** the m=3 Rout census is single-field; the
+  layer-A kill has power over the witness and its completions
+  only (no m >= 2 layer-A-consistent candidate was sought);
+  nullity 0 on structured objects is not non-existence; the first
+  moment is negative, which proves nothing; all m >= 2
+  measurements out of class; everything (SAT3)-conditional.
+
+## ROUND 35 CLOSE (2026-08-11): the four banks reconciled — the board inverts
+
+**BANK 1 (r35_l2_gate):** R-L2 NONEMPTY (theorem; 12 witnesses, 5
+fields, coordinator-independent verification); the emptiness route
+dead everywhere (11m-4 > 0); the strict-endpoint stake re-priced
+(residual-pole node already excludes official-row strict A=3 e=m
+profiles); gate of record (SAT3)-on-(L2); DEF-ID a coincidence.
+**BANK 2 (r35_fg_razor):** R-FG-RAZOR walled and downgraded; the
+type-2 ledger vacuous by sign on the whole open bracket; R-HRLOW
+promoted (LB1 the h_r = rho+1 extremal; the first moment wrong by
+6.7e11 bits against LB1's proved floor). **BANK 3
+(r35_bivcurve_m4):** the round-34 m=4 obstruction measured INERT
+(ablation; selection layer decided satisfiable by the Z_12
+certificate); ceiling soft (7 -> 9); the m=5 parity falsifier
+FIRED; law of record = demand 3m^2-7m+2 vs flat supply; (OUT-m)
+refined to an identity. **BANK 4 (r35_rout_layer_a):** Rout free
+and the sign backwards ((CLO-m) exact; (NS-m) retired, (NS-W-m)
+of record with hypotheses); layer A kills the m=3 witness
+completion-independently ((LA-W COUNT) 3m^2-5m); the dichotomy
+was ALREADY PROVED in-repo; the C(16m,4m-1) first-moment gate
+calibrated twice at m=1.
+
+**THE RECONCILED PICTURE — the two fronts of round 34 have
+INVERTED:**
+
+1. **The conditioning front:** R-L2 answered NONEMPTY (the
+   emptiness escape is gone), so the strict endpoint at small m
+   rides entirely on (SAT3)-on-(L2): can the free B-parameters of
+   bank 1's inversion make locators split over mu_32 at
+   T = rho+2? THREE independent instruments now say that class is
+   empty-expected at m >= 2 (round-34's searched-negative; the
+   corrected TCAP ledger; bank 4's calibrated first-moment gate at
+   ~ -1952 m^2 bits) — but none is a theorem, and bank 1's
+   witnesses prove counting alone cannot be trusted in this lane
+   (11m-4 vs the dead +4 reading; LB1 vs its first moment,
+   bank 2). **The instrument face-off of record: design B to beat
+   the moment (bank 1's route) vs prove the (LA-W COUNT) rank
+   statement (bank 4's route — which would close every saturated
+   a = 7m-1 configuration at once, unconditionally).**
+2. **The instrument front:** layer A is CONFIRMED as the sole and
+   sufficient W-layer exclusion instrument at m = 2, 3
+   (completion-independent kills at both); the W-layer witness
+   fences cost it nothing. The far-CA front is restructured
+   around R-HRLOW (the type-2 ledger cannot reach the bracket;
+   FG cannot carry the extremal count; LB1's mechanism — a fixed
+   (r+1)-point set with r+1 locators — is the only known way to
+   beat a first moment in this lane, and the question is whether
+   any h_r > rho+1 stratum has an analogue).
+
+**AUDIT LEDGER OF THE ROUND (9th consecutive round the cadence
+caught real text):** banked text corrected — the round-34 m=4
+obstruction attribution (inert), the round-34 close's R-L2 stake
+(over-priced vs the residual-pole node), the round-33/34 "Rout <=
+3" (false as printed, max 4 in its own file), the round-34
+"PROVED THEOREM" dichotomy (already proved in-repo), q_crit and
+LB1-generic (scope-corrected), the r34_pstar FG-criterion row
+(h_r = p* not sufficient), + the round-35 brief's own route-(b)
+hypothesis (refuted at derivation level) and pilot text (R2.3
+over-broad; "any 16 points" false). COMPLIANCE: banks 1-3 clean
+(5th-7th consecutive); bank 4 clean on compute (10/10 ramguard)
+with ONE write-scope breach (imported script's output path;
+repo left byte-identical; procedural censure; round-36 rule:
+audit imported output paths BEFORE import, pre-list sibling
+names, --exclude=dag.json standard).
+
+**ROUND-36 ANCHORS (priority order):** (1) **(LA-W COUNT) -> rank
+theorem** (closes all saturated a = 7m-1 configurations
+unconditionally; squarely inside the RNC gate)
+[RE-POSED (wave-59 integration, same day): the BARE form is
+FALSE — Codex's PROVED rate_half_layer_a_saturation_count_route_
+fence exhibits Q = Z^2-X^4 on W in mu_16 (13 points, all
+saturated, excess +2) with nullity 4 (kernel = A(X)*Q, deg A <= 3;
+coordinator hand-verified AND verifier-replayed). The rank theorem
+MUST use the endpoint geometry (W = union of two degree-rho slope
+supports, split-biform/support-intersection/Hankel-source
+constraints) — exactly the fence's own scope note. The anchor
+stands in re-posed form]
+[RETIRED (round 36, bank 1): the unconditional rank target is
+DEAD at every cheaply testable rung — (LA-EQ) shows the theorem
+STRICTLY IMPLIES the strict-endpoint exclusion (any realized
+endpoint's kernel biform restricted to 7m-1 of its >= 15m
+saturated points gives nullity >= 1), H1 and H1+H2 are refuted
+CONSTRUCTIVELY (closed-form nullity-1 families, both fields), and
+the fence generalizes to Q_0 = Z^m - X^{2m} with nullity exactly
+2m at every m >= 2. The surviving question — rank over
+(SAT2)-completable configurations — IS the realizability
+question. See the round-36 (LA-EQ) addendum]; (2)
+**(SAT3)-on-(L2)** (bank 1's free-B design vs the first-moment
+gate — either a witness that beats three instruments or evidence
+the class is empty); (3) **R-HRLOW** (the h_r = rho+2..O(1) band:
+does any stratum above LB1 carry an LB1-type mechanism?);
+(4) the general non-split m=4 probe + (DEG-m)-tightened searches;
+(5) the m=1 16=16 coincidence node (the lane's only calibrated
+instrument); (6) retire Rout permanently (do not re-spend).
 ## Cycle 146 addendum: the live paired biform has an off-line norm factorization
 
 The Round-34 `Rout` prompt above belongs to the strict `A=3`, `e=m`
@@ -3522,3 +4266,1248 @@ All but at most three roots of the fixed heavy row are now prescribed. Its
 coefficient vector augments the extremal coefficient-MDS system with at
 most four scalar unknowns. The remaining separated double-root terminal is
 the rank/nullity of this augmented system, not an untyped correction jet.
+
+## Round-36 (LA-EQ) addendum (2026-08-11, coordinator-audited): the rank target retired; the layer-A and realizability lanes are ONE question
+
+Pilot r36_lawcount_geom (round 36, bank 1). Coordinator
+verifications: (LA-EQ)'s five-line derivation hand-checked against
+the cited PROVED lines of saturation_rigidity and the RNC node;
+the H1 closed form's algebra hand-checked (Q(g,.) = a(g-h)sigma_g,
+Q(h,.) = b(g-h)sigma_h); the m=3 generalized-fence arithmetic
+hand-checked; the (RIC3) and row-surplus nodes read (both PROVED,
+exactly as subtracted).
+
+- **(LA-EQ), the repricing reading:** for any hypothesis set H
+  satisfied by the restriction of a strict A=3, e=m endpoint
+  configuration to 7m-1 of its >= 15m parameter-saturated points,
+  (LA-W COUNT | H) IMPLIES the endpoint is empty — the endpoint's
+  own nonzero kernel biform lies in the layer-A kernel of the
+  restriction. The rank theorem was never a route to the
+  exclusion; it is a STRICT strengthening (strict because of the
+  next bullet). Five lines from (SAT4)-(SAT5) + (RNC1)-(RNC2),
+  both PROVED; a reading, not new mathematics — priced as such.
+- **RUNGS H1 AND H1+H2 ARE CONSTRUCTIVELY FALSE.** The closed
+  form Q = (Z-g)(Z-h)C(X) + a(Z-h)sigma_g(X) - b(Z-g)sigma_h(X)
+  satisfies H1 by construction (two degree-rho supports split over
+  mu_32, |S_g ^ S_h| = m-1); merging the induced second slopes is
+  LINEAR in C: 4047/4047 (q=97) and 4426/4426 (q=193) admissible
+  builds all have nullity 1. Forcing H2 (ALL pair intersections
+  <= m-1, T = 9 exactly) leaves one scalar condition, solved:
+  exhibits on both fields (supports [7,7,2,2,2,2,2,1,1], max
+  pair-intersection 1, nullity 1), verified by two independent
+  code paths; controls (unsolved shape, random saturated) give
+  nullity 0 at 40-60/cell. NOT of invariant/subgroup type
+  (P_1 != 0; slopes not a coset).
+- **THE FENCE IS AN INFINITE FAMILY.** Q_0 = Z^m - X^{2m}, W
+  inside 4 fibres of x -> x^{2m} on mu_{16m}, Gamma = the 4m
+  m-th roots + one spare: saturated a = 7m-1, nullity EXACTLY 2m
+  (measured m = 2,3,4,6 over five fields; = Codex's fence at
+  m=2). The bare count is dead at EVERY m >= 2. Binomial
+  subfamily classified (k = 2m admissible for all m <= 12; at
+  m = 2 it is the UNIQUE admissible k — why the fence looked like
+  an accident and is not).
+- **THE EXACT FAILURE LOCUS ((LA-PADE)/(LA-DEG); mechanism =
+  the PROVED (RIC3), found by subtraction after derivation):**
+  nullity(E_I) = dim of the simultaneous Pade/Hankel kernel over
+  the elementary-symmetric slope data E_j, with the reduced-basis
+  degree formula dim K_j = max(0,4m-d_j) + max(0,4m-d'_j),
+  d_j + d'_j = 7m-1 — agrees 9/9 with direct nullity including
+  the fence (8-4 = 4) and the m=1 sign ((4-3)+(4-3) = 2, which
+  (LA-EQ) also forces since the m=1 endpoint is realized).
+  (RIC3)'s scope note ("one coefficient block") is exactly what
+  the all-block form extends. CROSS-POINTERS of record: the
+  saturation-count fence node, (RIC3), and the row-surplus fence
+  (its m=1 instance) are three faces of one mechanism; neither
+  fence node cites (RIC3) — recorded here.
+- **THE LADDER TERMINATES AT THE OPEN PROBLEM.** The rung that
+  kills every constructed counterexample is (SAT2)/global block
+  completion (the exhibits sit at O in [34,37] against the cap
+  m-1 = 1) — and a configuration PASSING that rung is a realized
+  (SAT3) witness at m=2. **The layer-A lane and the realizability
+  lane are the same question from two sides: a positive on either
+  settles the other's negative.** Transportable to the
+  realizability search: the closed form above is a starting
+  variety that satisfies the pair-union + pair-cap geometry
+  exactly, leaving all freedom for block completion.
+- **STATUS AFTER THIS BANK:** layer A remains a per-witness
+  instrument (round 35's completion-independent kills are
+  untouched); the ambition of a standalone universal exclusion at
+  a = 7m-1 is retired; the board's face-off collapses into ONE
+  question — (SAT2)-completable saturated configurations, i.e.
+  (SAT3) realizability at m >= 2 — attacked from the B-design
+  side and now equipped with this bank's starting variety.
+- **SCOPE FENCES:** H3/H4 untested (structural coverage via
+  (LA-EQ) only); the H1+H2 refutation is m=2/two-field (enough to
+  kill the m >= 2-quantified statement, no more); the O minima
+  are sample minima over six exhibits; the generalized fence's
+  2m is constructed-lower-bound + measured-equality (ten cells);
+  no (SAT2)-satisfying configuration at m >= 2 was built or
+  sought; everything hypothesis-class conditional.
+
+## Round-36 (SAT3)-on-(L2) addendum (2026-08-11, coordinator-audited): T >= 1 achieved — the layer is non-vacuous; the (L2) stratum is rationally parametrized; the realizability ledger's m=2 cell flips
+
+Pilot r36_sat3_on_l2 (round 36, bank 2). COORDINATOR HAND-CHECKS
+(all pass): the elimination Q_2(f^2-kg) = Q_0(g^2+hf) from
+E1*f + E2*g; both converse substitutions vanish IDENTICALLY; the
+determinantal identity det([[f,k],[g,f]] + z[[g,f],[-h,g]]) =
+(f^2-kg) + z(fg+hk) + z^2(g^2+hf) = L*Q_z expanded by hand; the
+third ell-condition's implication (and its f(ell)=g(ell)=0
+exception); the dimension 20+1-2-1 = 18; the +4-O arithmetic.
+
+- **(PAR), THE PARAMETRIZATION OF RECORD:** L*Q_0 = f^2-kg,
+  L*Q_1 = fg+hk, L*Q_2 = g^2+hf (deg f,g,h,k <= 4, L linear with
+  root ell), subject to exactly TWO conditions at ell — a
+  birational parametrization of the whole e=m=2 (L2) stratum, hit
+  rate 1 (vs 1/q for the round-35 inversion, q^5 over blind);
+  266,239 + 167,421 objects built in 95 s/field. Membership is a
+  GCD: **(RES): det M(B) = 0 iff gcd(f^2-kg, fg+hk, g^2+hf) != 1**
+  (1200/1200, two fields). Dimension 18 re-derived independently
+  (= the round-35 measurement). m=2-SPECIFIC (the elimination
+  uses deg(f^2-kg) <= deg Q_0 + 1).
+- **(SAT3)-ON-(L2) IS NON-VACUOUS: T = 2 OVER mu_32** on
+  certified e=m=2 objects (full certification table both fields;
+  Möbius-normalised so both supported slopes are FINITE {0,1} and
+  re-certified), by EXACT solve: prescribing Q_0 split is a
+  square root mod g; prescribing Q_2 too is one proportionality
+  in F_q[x]/(f), solved exhaustively over all C(32,7) subsets by
+  meet-in-the-middle. T = 3 over a bespoke 32-set (126 instances,
+  two fields; ZERO power for (SAT3) — the domain relaxation is
+  never merged with the mu_32 column). CLASS SCOPING (the pilot's
+  own first miss): banked T = 4 records are e = 1 — a class
+  (ERC2) closes — so this is the first T >= 1 ever on e = m
+  objects, the only class (SAT3) can inhabit. Round 34's
+  designed-domain instrument now has input.
+- **THE REALIZABILITY LEDGER'S m=2 CELL FLIPS (forced
+  correction, second independent):** (ERC2) (PROVED) forces
+  e = m for (SAT3), so the curve must lie on the 18-dim (L2)
+  component, not the ambient 23-dim space the round-33 ledger
+  used: excess -1-O -> **+4-O**. COORDINATOR STACKING NOTE: this
+  correction (curve-side, 5 units) and round 34's automorphism
+  quotient (solution-orbit side, +4..+6) are INDEPENDENT terms;
+  stacked, the m=2 cell sits at ~ +8..+10 — the round-33
+  conjecture "realizable iff m <= 2" is now doubly re-posed to
+  m <= 1, consistent with the round-34 TCAP re-pose. The
+  emptiness instruments now number FOUR (searched-negative;
+  TCAP+quotient; the C(16m,4m-1) gate — sharpened here by
+  2 log2 q to -61.3 bits at q=97 via the same dim-18 input; the
+  flipped ledger) — still no mechanism, and the pilot's own
+  positive half shows why counting stays untrustworthy (T=3 over
+  mu_32 sits at +62.5 bits, q-INDEPENDENTLY — the 18-6T exponent
+  vanishes at T=3 — yet no exact solve reaches it).
+- **NO WALL WAS HIT — the finding.** The failure to reach T = 3
+  over mu_32 is algorithmic (no third exact solve), not
+  arithmetic. The predicted eventual obstruction is EIGENVALUE
+  CONFINEMENT: the members' roots at x are the generalized
+  eigenvalues of the 2x2 pencil P(x)+zR(x); (SAT3) needs all 32
+  pencils rational-eigenvalued with all 63 slots in a 9-element
+  alphabet; random (L2) objects deliver half the occupancy on 3x
+  too many slopes. The m=1 coset fence does not FAIL at m=2 — it
+  becomes INAPPLICABLE (d_x <= 1 cannot pose the doubling that
+  T = 9 forces on 31 of 32 points).
+- **HANDOFF OF RECORD: the third exact solve** (a third split
+  member given Q_0, Q_2 — the analogue of the mod-f
+  proportionality) is the single missing instrument between this
+  round and T = 4; blind (L2) search is banned at rate-1
+  parametrization. F1/(NEWCAP): still zero power (one supported
+  pair; a* = 14 a single sample).
+  [RE-POSED (round 37): NO third exact solve exists in (PAR)
+  coordinates — the parametrization is a length-4 Hankel sequence
+  (k,f,g,-h) whose TWO solvable slots (u_0, u_3) are consumed by
+  the first two prescriptions; the third is an overdetermined
+  type-(4,4) Cauchy interpolation (14 values, 9 dof, 2 scales —
+  deficit 3, q^-3 per triple) with an exact O(1) test and no
+  inverse; re-basing cannot create a slot (S_3 symmetry of the
+  three minors). The open item of record is "an exact solve for a
+  rank-deficient 14x10 Cauchy system" — Pade-lattice machinery
+  (banked in the l1/xr lanes) is the pointer. See the round-37
+  third-solve addendum.]
+- **SCOPE FENCES:** two fields for all structure (five for
+  ledger arithmetic); no T >= 4 built; (SAT2)/(SAT4)/(SAT5)
+  inapplicable at T = 2 (reported: sum d_x = 14, no doubled
+  point yet, vs the 31 doubles (SAT3) needs); m >= 3 untouched;
+  the s != 0 degeneracy yield (42/46 rejected) has no predictive
+  criterion yet. [RESOLVED (round 37): (SCRIT) — s = |S_0 ^ S_2|
+  EXACTLY (four lines from (PAR); 251/251 two fields; hypothesis
+  f(x)g(x) != 0 automatic on prescribed-split objects);
+  restricting S_2 to mu_32 \ S_0 gives 100% s=0 yield at 1/7.00
+  the cost. See the round-37 third-solve addendum.]
+
+## Round-36 R-HRLOW addendum (2026-08-11, coordinator-audited): the band classified; h_r dissolved as the coordinate; STATEMENT U is the whole far-CA residual
+
+Pilot r36_hrlow (round 36, bank 3). Coordinator hand-checks: the
+common-support algebra (solving the 2x2 system for (y_0,y_1) in
+terms of syn(u_1), syn(u_2)); the classification chain
+(column-far => |W| >= r+1; one bad slope => f <= d; d=1 => f=1 =>
+T_1 = r+1 FORCED); the razor over-determination ceil(rho/2)-1 =
+2^33-1; the C(128,63)-vs-C(127,64) relation (ratio 128/65, ~0.98
+bits — ONE binomial step, not equal; correspondence still to
+check). All pass.
+
+- **THE DICTIONARY: h_r = rho + deg(e_1/e_0)** on the common
+  support (210/210 across 5 razor-faithful shapes x 5 fields;
+  dim K_0 = r+1-rho-d likewise; 2rho when the ratio is not
+  polynomial), INDEPENDENT of the support size s (12 degree pairs
+  x 5 support sizes, 2 fields). [SCOPE-CORRECTED 2026-08-11 (mint
+  wiring audit): the formula holds for d <= rho ONLY — the
+  stacked matrix has 2rho rows, so polynomial ratios of degree
+  d > rho saturate at h_r = 2rho exactly like non-polynomial
+  ones (exhibited: rho=2, d=3, q=601 gives h_r = 4, not 5). All
+  210 banked rows lie in scope; the wired node
+  rate_half_far_ca_hr_dictionary_common_support carries the
+  corrected form.] And **COMMON SUPPORT IS A
+  THEOREM, not a family choice**: any column-far pencil with two
+  bad slopes is generated by two errors on S_1 u S_2 (explicit
+  reconstruction 12/12, two fields).
+- **D1 ANSWERED YES: LB1 is the unique h_r = rho+1 structural
+  family, and its T_1 = r+1 is FORCED** (d=1 => |W| = r+1 exactly
+  => injective L => every value a slope). Exhaustive census: T =
+  T_1 = r+1 with ZERO accidentals at q = 65537 AND q = 999983
+  (mu_1 down to 1.26e-7). The p* CONVERSE is REFUTED (p* = 6 at
+  both h_r = 3 and h_r = 4; p* is a coarser invariant and must
+  not label strata — R-PSTAR-INTERMEDIATE retired as a stratum);
+  the extended law p*(d) = max(rho+d, floor((R+1+d)/2)) holds
+  205/210 with 5 NAMED failures (H2 symmetric-T quadratic, 5/5
+  fields — p* is not a function of (R, rho, d)).
+- **D2: THE h_r = rho+2 BAND IS NOT MOMENT-BOUND — the brief's
+  antecedent is false.** The band carries a structural floor
+  ceil((r+1)/d) that REACHES r+1 (injective quadratic ratio, 5
+  shapes x 5 fields); even h_r = 2rho carries T_1 = r+1 (the
+  cubic family at rho=3) — FG's floorlessness is a property of
+  witness B's particular K_0, NOT of h_r (R-FG-RAZOR further
+  downgraded). "LB1-limited" survives only as a VALUE (r+1),
+  conditional on U below.
+- **THE ROUND'S FIND: THE NEGATION-CLOSURE EXCESS.** On a
+  negation-closed evaluation domain (which the official
+  power-of-two multiplicative subgroup IS), column-far
+  razor-faithful pencils exist with **T = 95-98 against r+1 = 9,
+  field-size independent, at mu_1 down to 1.26e-7** — beating the
+  first moment by 750x with zero saturation. Mechanism EXACT:
+  even locators sigma(x) = Q(x^2) collapse the odd Hankel rows;
+  count = C(m-1, r/2-1) (84/84 and 330/330, two fields); control
+  decisive (same everything on non-closed {1..20}: T = 10). The
+  carrier is the banked e22 orbit-invariant locator algebra
+  L_B(X)G(X^M) — now deployed as a far-CA bad-slope mechanism.
+  **KILLED AT THE RAZOR EXACTLY: ceil(rho/M) = 1 needs M >= rho =
+  2^34; at M = 2 the surplus is 2^33-1 conditions.** A
+  rho-threshold, not a field threshold. WARNING OF RECORD: any
+  far-CA counting argument treating D as a generic point set is
+  unsound at small rho. GAP: the symmetric-T variant is
+  unmeasured at rho >= 3 (parity predicts survival at rho = 3,
+  death at rho >= 4; 2^33 conditions of razor slack either way).
+- **THE DICHOTOMY OF RECORD (R36-D):** T = T_fib + T_sym +
+  T_rand; T_fib in [ceil((r+1)/d), r/f+1] with = r+1 iff f = 1
+  and chi injective ((C3)-attainment is the SHADOW of f = 1, not
+  the mechanism — and the fibre cap is a from-scratch pigeonhole,
+  nothing imported through the vacuous type-2 ledger); T_sym
+  needs an automorphism of order >= rho; T_rand is moment-priced
+  (zero power). Falsifiers F-1/F-2/F-3 pre-registered in form.
+- **STATEMENT U — the far-CA residual reduced to one sentence:**
+  at razor shape, every bad slope of a column-far pencil admits a
+  locator INSIDE W = S_1 u S_2. **U implies B_ca^far(k+2^34) =
+  r+1 = 2^39.977280 EXACTLY** (floor: banked LB1; cap: the fibre
+  pigeonhole). U = "T_sym = T_rand = 0"; U-sym is killed at razor
+  rho by condition counting (modulo the rho=3 symmetric-T gap);
+  U-rand is completely unpriced (the honest residual).
+  [REFUTED AS A THEOREM (round 37): U-rand slopes are
+  CONSTRUCTIBLE at fixed exchange rate rho conditions each —
+  engineered column-far razor-faithful pencils on mu_n have
+  T = (r+1)+j exactly for j up to the parameter cap
+  (2(r+1)-1)/rho (exhaustive censuses at mu_20 and the full
+  C(26,10) at mu_26). U survives only as the DEFINITION of the
+  fibre stratum. THE PIN IS WITHDRAWN and replaced:
+  B_ca^far(k+2^34) = r+1 + Theta(n/rho); constructive floor
+  r+1+126 = 1,082,331,758,719 modulo one genericity lemma (kernel
+  dim exactly 2 at j = 126); heuristic cap the same 126; in bits
+  2^39.977280 unchanged to six decimals. Also corrected: the
+  floor(rho/2) parity count is CEIL(rho/2) (symmetric-T dies at
+  rho = 3, not 4 — the parity prediction refuted; the fused
+  carrier's threshold is M >= 2rho-1, not M >= rho); "T_rand is
+  moment-priced (zero power)" is false in the direction that
+  matters (the mechanism needs NO automorphism). See the round-37
+  U-rand addendum.]
+  Residual
+  map: R-HRLOW dissolved into R-U; carriers for U named (the
+  split-pencil equivalence frame; the e22 locator algebra + the
+  M >= rho threshold; the bivariate locator-extension node, which
+  is scoped as exactly-the-missing-hypothesis). CHECK QUEUED: is
+  the T_sym carrier at M = rho (C(128,63), ~2^124.15) the banked
+  qcore plateau C(127,64) = 2^123.1714 (one binomial step)? If
+  yes, T_sym inherits a proved cap. [CHECK DONE (round 37):
+  DIFFERENT objects (orbit-invariant LOCATORS vs qcore CODEWORDS;
+  ratio exactly 128/65, log2 = 0.977632 != 0.977280 — two
+  different 0.977s); the Lam-Leung+nesting CAP does NOT transport;
+  the DEDUP does (multi-scale T_sym families collapse to one
+  scale).]
+- **SHAPE FENCE (fourth flag, applied on the supplier node):**
+  "B_ca^far(n-r) <= r+1" is PROVED only at the official row's own
+  shape (r <= R/2); it is FALSE as a universal at r > R/2 on
+  negation-closed D (T = 95 exhibit). One sentence added to
+  split_pencil_equivalence.
+- **SCOPE FENCES:** all machine numbers at q <= 999983, rho <= 4
+  (widening from the registered 65537 disclosed); no exhaustive
+  total-T census at rho >= 3 (the even-locator carrier IS swept
+  completely there); char 2 unmeasured; T_rand unpriced;
+  everything else per the pilot's 13 zero-power declarations.
+
+## Round-36 (SHARE3-4) addendum (2026-08-11, coordinator-audited): the m=4 gap is ONE coincidence; the demand law corrected to linear; Lüroth identified
+
+Pilot r36_m4_nonsplit (round 36, bank 4). Coordinator hand-checks:
+the Lüroth degree arithmetic (deg_x = k*deg_w; k = m-1 gives
+deg_w = 3 exactly; waste = 3(m-1) mod k, reproducing the even-m
+lost unit at k=2); the demand calibration (D(2,2) = 8 at m=3;
+D(3,3) = 11 at m=4; D_max = (8m-9)-(4m-1) = 4m-8); the m=4
+3-sharing structure chain ((OV) equality => pair multiplicity 1;
+per-side => d <= 2 => s = 13 forced); Lemma 1 (Möbius injectivity
+6m > rho); the Cauchy-Schwarz bound. AUDIT NOTE: the closed-form
+demand display is the divisible-case idealization — the ceiling
+version (e.g. 25 = 36+4-15 at m=4, k=2) is operative.
+
+- **ORDER-3 SHARING IS A LÜROTH PULLBACK, and the machinery is
+  BANKED** (the pilot's own load-bearing subtraction, verified:
+  f_weight2_inverse's GLOBAL PULLBACK Theorem 1 + payment_
+  completeness's Lüroth-lattice unification — the repo already
+  states the lattice subsumes multiplicative and affine-involution
+  as one class; anchor 1's sigma and this w are members). New
+  here: the identification of (BIV-CURVE) tuple-sharing as a
+  lattice member + the x-degree arithmetic (maximal sharing is
+  FREE in the budget — the exact opposite of the involution's
+  wasted unit).
+- **(SHARE3-4), the sixth m=4 class — full target REACHED, gap =
+  ONE coincidence.** The line-in-P^3 reformulation (a 3-sharing
+  pattern = a line through >= 8 of the 41664 mu_64-split cubics)
+  gives the lane's first exhaustive-per-base non-DFS instrument.
+  The pencils EXIST (12/9/9 complete fibres at q = 193/257/449)
+  and are CONSTANT-NORM — the mu_N group structure supplies the
+  sharing (fixed root-product costs 1/N, not 1/q), refuting the
+  pilot's own registered q^-12 moment by 3400x (falsifier fired,
+  threshold withdrawn — the third instrument-class this round
+  where counting died on structured sets). |W| = 27 = 7m-1 lands
+  exactly; the selection layer is FREE (13208 + 14594 of 40000
+  structurally-verified legal draws); k = 8 of 8 reached — the
+  first m=4 class ever to reach its full target; the shortfall is
+  |slopes| = 14/15 vs 13 required (ONE/TWO coincidences, 40000
+  ALLOC draws per field). m = 4 stays OPEN, six classes
+  searched-negative, and this class is the live route.
+- **THE GUARD AS THE FINDING:** the raw search reported a witness
+  on the coincidence currency (C = 12 vs demand 11) that the
+  structural verifier killed — one slope with hypergraph degree 8
+  (a common root of Psi~) blowing the per-side cap by 8x. The
+  registered quantity was satisfied while the configuration was
+  infeasible; caught BEFORE being reported as a result.
+- **(DEG-m): zero selection power, decisive at completion.** The
+  tightened and relaxed 2-sharing ceilings are BIT-IDENTICAL
+  (7/12, two fields) — it is a completion-level condition; but
+  every ceiling configuration has n_1 = 9 against the
+  completeness bound 4: **the 2-sharing m=4 negative upgrades
+  from a ceiling to dead-objects-at-the-ceiling** (two fields).
+- **THE FLAT-SUPPLY LAW, PART-PROVED:** unconditional for
+  pencil-image classes — no degree-1 factor (Lemma 1) + AM-HM +
+  Cauchy-Schwarz give required cross-coincidence >= ~m-5,
+  VACUOUS for m <= 6, BINDING from m = 7; with the measured
+  Weil-type supply the pencil classes die for q >~ 10^4 at every
+  8 <= m <= 128 (CONDITIONAL). The o(m^2) supply bound is NOT
+  delivered; m = 4 is untouched by the theorem (vacuous there,
+  pre-declared).
+- **SCOPE FENCES:** no G built, no completion, no bivariate
+  system, nothing gated by bank 2's verifier; mu(x)-at-middles
+  unchecked; sporadic (non-factoring) sharing unsearched (priced
+  < 1e-4); base triples sampled (60-800 of 41664, exhaustive per
+  base); the constant-norm censuses exhaustive over their named
+  sub-families only; (OUT-m)/(DEG-m)-derived statements inherit
+  POSED status. COMPLIANCE: ONE bare-python3 breach (empty
+  heredoc no-op) — the first since the round-33 censures; the
+  11-pilot clean streak ends; self-reported FIRST, censured.
+
+## ROUND 36 CLOSE (2026-08-11): the four banks reconciled — construction is the only currency
+
+**BANK 1 (r36_lawcount_geom):** the rank target RETIRED ((LA-EQ):
+it strictly implies the endpoint exclusion; H1 and H1+H2 refuted
+constructively; the fence an infinite family, nullity 2m; the
+failure locus = the PROVED (RIC3) mechanism) — **the layer-A and
+realizability lanes are ONE question**, with a closed-form
+starting variety handed to the realizability side. **BANK 2
+(r36_sat3_on_l2):** (SAT3)-on-(L2) NON-VACUOUS — T = 2 over mu_32
+on certified e=m=2 objects via (PAR), a rational parametrization
+of the whole stratum (rate 1; membership = a gcd); the
+realizability ledger's m=2 cell flips (+4-O; doubly re-posed
+m <= 1); the missing instrument is a THIRD EXACT SOLVE. **BANK 3
+(r36_hrlow):** h_r dissolved (= rho + deg ratio; common support a
+theorem; LB1 unique-and-forced; the rho+2 band floor-carrying);
+the negation-closure excess found (T = 95 vs 9, mu_1-free) and
+killed at razor rho; **STATEMENT U: every bad slope has a locator
+inside W => B_ca^far(k+2^34) = r+1 EXACTLY** — U-sym
+condition-killed, U-rand the unpriced residual. **BANK 4
+(r36_m4_nonsplit):** the m=4 gap cut to ONE coincidence by the
+Lüroth/constant-norm (SHARE3-4) class; the demand law corrected
+(linear under maximal sharing); the flat-supply law part-proved.
+
+**THE RECONCILED PICTURE.** The round's meta-result: **counting
+died as a verdict-carrier, three more times** (the 11m-4-vs-+4
+lesson repeated by the pilot's own q^-12 refutation on
+constant-norm sets; the H1+H2 nullity-1 families against the
+excess; the ledger flip that still cannot exclude). Every load-
+bearing move this round was a CONSTRUCTION: the H1+H2 families,
+the (PAR) parametrization + T = 2 objects, the T = 95 pencils,
+the constant-norm 3-sharing pencils. The frontier after round 36:
+
+1. **The converged small-m question** ((SAT3) realizability =
+   layer-A rank over completable configurations): attacked from
+   the B-side with rate-1 parametrization and T = 2 achieved;
+   FOUR counting instruments say empty, ZERO mechanisms; **the
+   third exact solve is the named instrument** — it decides
+   whether T climbs to the q-invariant +62.5-bit T = 3 cell and
+   beyond, or walls into the first genuine mechanism.
+2. **Far-CA = STATEMENT U** (U-rand the only unpriced mode);
+   proof carriers named; the C(128,63)-vs-C(127,64)
+   correspondence queued.
+3. **(BIV-CURVE) m = 4**: one coincidence short, on a class whose
+   existence mechanism (constant-norm on mu_N) is exactly
+   understood — more fields / finer constant-norm sub-families /
+   exhaustive line censuses are cheap next probes.
+
+**AUDIT LEDGER (11th consecutive catching round):** my round-35
+"law of record" demand row corrected (middles undercharged; the
+quadratic an artefact); my wave-59/round-35 anchor-1 pricing
+retired by (LA-EQ); the round-34 narrowing corrected AGAIN
+(mu_1-free excess); the round-33 realizability ledger's ambient
+dimension corrected ((ERC2)-forced 18); h_r retired as a
+coordinate; the round-34/35 h_r-floorlessness reading corrected
+(witness-B's K_0, not h_r); p*-converse refuted. COMPLIANCE:
+banks 1-3 clean (9th-11th consecutive); bank 4 ONE bare-python3
+breach (self-reported first — the honesty machinery held; the
+streak resets). ROUND-37 RULES: results files never through a
+pipe; the helpers-duplicated-per-file anti-import pattern
+recommended.
+
+**ROUND-37 ANCHORS (priority order):** (1) THE THIRD EXACT SOLVE
+(T >= 3 over mu_32 — the single named instrument of the converged
+question); (2) U-rand (price or fence the codeword-mediated mode
+— the last far-CA unknown); (3) the (SHARE3-4) one-coincidence
+gap (constant-norm at more fields; exhaustive line censuses;
+the split sub-case fence); (4) the rho = 3 symmetric-T gap +
+the C(128,63) correspondence; (5) THE MINT WAVE (the queue now
+holds ~30 items across rounds 34-36 — a consolidation round is
+due); (6) m = 1 16=16 node + the eigenvalue-confinement shape.
+
+## Round-37 U-rand addendum (2026-08-11, coordinator-audited): STATEMENT U REFUTED — the far-CA count is r+1 + Theta(n/rho); the coset-leader frame; U-sym closed
+
+Pilot r37_urand (round 37, bank 1). Coordinator hand-checks (all
+pass): the MDS identification (ker syn = degree-<= k-1
+restrictions; d_min = R+1); FENCE-1's two-line contrapositive; the
+rho-1 over-determination ((f+t)-(|W|+t-R)-1 = R-r-1, independent
+of t and f); the razor kernel arithmetic (2(r+1) - 126*rho = 2
+EXACTLY, so the cap is 126 with kernel dim 2 on the nose);
+r+1+126 = 1,082,331,758,719; the ceil-vs-floor parity collapse
+(rows 2s and 2s+1 fuse on the carrier).
+
+- **THE COSET-LEADER FRAME (the round's instrument):** every bad
+  slope decomposes as u = h_gamma + c with c in the [n,k] MDS
+  code ker syn — the far-CA count is a coset-leader problem, and
+  the adversary's currency is 2(r+1) field values of (e_0,e_1) on
+  W at RHO CONDITIONS PER CODEWORD-MEDIATED SLOPE (three
+  independent derivations; spend- and f-independent).
+  **FENCE-1 (unconditional, the surviving fence):** |S_gamma u W|
+  <= R forces c = 0 — no near-W slope is codeword-mediated
+  (297/297 incidences, 14 rows, 2 shapes, 2 domain types; the
+  inequality itself is the banked minimum-distance spend, here
+  instantiated at the forced |W| = r+1 — cross-reference added so
+  it is not re-derived again). MINIMAL-SPEND RIGIDITY: at t = rho
+  the mediating codeword is minimum-weight with W inside its
+  support (18/18; W in supp(c) at 297/297 — stronger than
+  derived). The c-side analogue of chi is chi_Y : W -> P^2;
+  U-rand at minimal spend = rho+1 collinear points of chi_Y(W).
+- **STATEMENT U IS FALSE.** The adversary CHOOSES the
+  collinearity: fixing j configurations and solving the LINEAR
+  system (unknowns 2(r+1)+j, equations j(rho+1)) yields
+  column-far razor-faithful pencils with **T = (r+1) + j EXACTLY**
+  — verified by exhaustive census at mu_20 (j = 1,2,4,6,8 = the
+  cap, three fields) and by the FULL C(26,10) = 5,311,735 census
+  at mu_26 (T = 17 = r+1+6, T_fib = 11 = r+1, column-far, a
+  factor 45,000 over the first moment). On the razor's own domain
+  type; needs NO automorphism; works at rho = 3.
+  **THE NEW PRICE: B_ca^far(k+2^34) = r+1 + Theta(n/rho).**
+  Constructive floor r+1+126 (modulo R-GENERICITY: full rank +
+  four open side-conditions, each held 60/60 at every reachable
+  cell); heuristic cap the same 126; the prize question untouched
+  (2^39.977280 to six decimals either way; log2(r+1+126)/2^39 =
+  2^0.977279924).
+- **U-SYM CLOSED, AND THE PARITY DERIVATION CORRECTED:** the
+  symmetric-T carrier (X-x_0)P(X^2) fuses the two parity blocks —
+  the count is CEIL(rho/2), not floor — so it DIES at rho = 3
+  (measured: carrier = fibre exactly, excess 0, at rho = 3 and 4,
+  2 fields x 2 shapes x 2 domain types; excess 318 at rho = 2).
+  The round-36 T = 336 anomaly is decomposed exactly (5 fibre +
+  323 carrier + 8 residual vs null 7.59; on mu_22 carrier explains
+  330/330). Residual carrier-exhaustiveness question: is
+  (X-x_0)P(X^2) the only parity-collapsing carrier at odd r?
+- **T_rand ON GENERIC PENCILS IS NULL-COMPATIBLE (10/10 rows in
+  the envelope, -> 0 at large fields)** — but the null is a MEAN
+  and B_ca^far is a MAX: the engineered pencils beat it by 4.5e4.
+  A clean generic null is not a fence — the lesson, again.
+- **THE FAR-CA RESIDUAL MAP:** R-U retired (refuted). **R-URATE
+  (new, load-bearing): is the exchange rate rho tight — prove
+  T_rand <= 2(r+1)/rho** (a finite rank question on the
+  j(rho+1) x (2(r+1)+j) incidence matrix). **R-GENERICITY (new):
+  the full-rank + side-conditions lemma converting the +126 floor
+  to unconditional.** R-USYM: close (carrier-exhaustiveness the
+  only residue).
+  [ROUND-38 UPDATE: R-URATE REFUTED as posed — the EXCHANGE LAW
+  replaces it (T <= (r+1) - delta + floor((2(r+1)-1+delta)/rho);
+  rank deficiency in Phi buys 1/rho slopes at the cost of one
+  fibre slope; profitable at small rho: T = 19 > cap 18 at C3,
+  FULL C(26,10) census, THREE fields; the banked T = 17 was
+  search-limited — j = 7 gives 18. At the razor delta = 0 is
+  optimal so 126 STANDS, but normal-form-conditionally with a
+  17.17x PIGEONHOLE margin — not algebraic. R-GENERICITY's RANK
+  HALF PROVED (the line-pencil decoupling rank M = j(rho+1) - L
+  + rank Phi; multiplicity <= 2 => full rank; the razor j = 126
+  exact-double-cover kernel in closed form, dim 2 exactly) + 2
+  of 4 side-conditions PROVED (lambda_i != 0 fails on EXACTLY j
+  of q+1 kernel points; gamma_i off-fibre by union bound);
+  residue = chi-injectivity inside forced multi-edges (relaxable
+  to <= 125 collisions) + column-farness Case B. R-USYM CLOSED
+  (carrier completeness by degree parity at odd r; excess 0 both
+  ways over ~560k locators, 2 shapes 2 fields). See the round-38
+  URATE/genericity addendum.] Everything else unchanged. WARNING transported
+  to the counting lanes: any far-CA upper bound pricing only the
+  fibre stratum is off by an additive Theta(n/rho); T <= r+1 is
+  unprovable at razor shape — do not spend on it.
+- **SCOPE FENCES:** the +126 floor is constructive-MODULO-
+  GENERICITY (never claimed proved); the integer-collinear
+  minimal-spend family is a stand-in-domain artefact with ZERO
+  razor power (three rational hits, declared, used for nothing);
+  exhaustive censuses exist at C(20,8)/C(22,9)/C(24,10)/C(26,10)
+  only (the rho = 4 construction is slope-verified but its total
+  T unmeasured); q <= 999983, odd prime fields only; the type-2
+  ledger was not imported (vacuous on the bracket). Pilot
+  compliance: 5/5 ramguard clean (append-mode results files, no
+  head pipes — both new rules held on first outing); the pilot's
+  own blind constant log2(128/65) wrong in the 4th decimal,
+  self-reported (miss 1).
+
+## Round-37 mint-drafts addendum (2026-08-11, coordinator-audited): 10/10 packages drafted and verifier-passing; twelve discrepancies dispositioned; wiring deferred to the post-close mint session
+
+Pilot r37_mint_drafts (round 37, bank 2 — a DRAFTING bank, not a
+research bank). 10 of 10 mint packages complete (statement.md +
+node.json + PASSING verify.py each; proof.md where status
+warrants), drafted from the round-34..36 addenda with exact
+sourcing and conservative statuses. Coordinator spot-replays:
+packages 1, 2, 5 re-run PASS (the (PAR) verifier rebuilds the
+banked T=2 witness from (f,g,h,k,L) alone and settles the
+third-condition implication EXHAUSTIVELY over F_13^4 — exactly
+(q-1)^2 exceptions, all f(ell)=g(ell)=0; the fence verifier
+confirms the row-collapse on all 1158 covering locators and the
+bad-set = covering-set identity). WIRING DEFERRED to a dedicated
+session after the round closes (task #41): the exemplar format
+needs 7 more files per node incl. the independent verify_audit.py
+second code path; package 1 (statement_u) must be re-drafted
+against the round-37 bank-1 REFUTATION; packages 8/10 blocked on
+D11/D9 until now.
+
+**DISCREPANCY DISPOSITIONS (the pilot's D1-D12, coordinator
+rulings):**
+- **D1 (a* convention) — ACCEPTED AS A GENUINE AMBIGUITY, ruling
+  queued:** the round-35 a* = 13 reproduces only under the
+  PROJECTIVE reading (roots at infinity counted); the affine
+  reading gives 12 on the same witness. NO F1/(NEWCAP) pricing
+  until the convention is ruled; flagged to the F1 ledger.
+- **D2 ((RES) iff) — CORRECT SPLIT:** forward PROVED (one line),
+  converse MEASURED (1200/1200). Package 2 carries it so; my
+  round-36 addendum's bare "iff" is qualified by this record.
+- **D3 (the covering count) — A GENUINE GENERALIZATION, ADOPTED:**
+  C(m-1, r/2-1) is the off = 1 face of C(m-off, r/2-off),
+  off = m-(r+1); the general law reproduces ALL SIX banked cells
+  (165/715/3003/1365 at H4-H8 included) — verifier-confirmed.
+  The round-36/37 fence texts are hereby read with the general
+  law; the drafting pilot's own contribution.
+- **D4 (locators vs slopes) — CONFIRMED:** 330 locators, 329
+  slopes at H3; only slope counts enter T. Recorded.
+- **D5 ("the official row's own shape") — CLARIFIED:** the phrase
+  denotes the a = 3n/4+1 evaluation point (r = B*-1 <= R/2),
+  OUTSIDE the open bracket; at the crossing offset a = k+2^34 the
+  row has r = 63*2^34 > R/2. This is exactly why Statement U(')
+  needs its own cap. Wording tightened here, not silently.
+- **D6 (the 8/25/47 rule) — RESOLVED:** the ceiling table
+  D = [(m-1) * ceil(6m/k)] + [(m-2) * ceil((m-1)/k')] - (4m-1)
+  at k = k' = 2 generates 8, 25, 47 (the closed-form display was
+  the divisible-case idealization — already noted at the bank-4
+  audit; now stated once, here).
+- **D7 (the "(11 at m=4)" parenthesis) — NOT A DEFECT:** 4m-8
+  holds for m >= 7 (tD = 7 requires m >= 7); at m = 4 the true
+  ceilinged value IS 11 = D(3,3). The text was correct; the
+  reader-trap is now disarmed by this note.
+- **D8 (the m <= 6 vacuity boundary) — CONFIRMED SOFT:** the
+  crossover at m = 7 is the load-bearing claim; the ~(m-5)
+  constant is soft. Round-36 bank-4's own MISS 4 already recorded
+  the off-by-one; consistent.
+- **D9 (the gate formula) — RESOLVED BY THE COORDINATOR:** the
+  expression IS banked, at r35_rout_layer_a/REPORT.md:242
+  (log2 E = [(m+1)(rho+1)-4] log2 q + log2 C(q+1,T) +
+  T[log2 C(16m,4m-1) - rho log2 q]; the dim-18 sharpened variant
+  in r36_sat3_on_l2's registrations) — the ADDENDA never
+  reprinted it. Calibration re-verified by hand (+13.75 at m=1,
+  q=17). Package 10 unblocked; pointer recorded here so the
+  formula is never "lost" again.
+- **D10 (sign conventions) — CONFIRMED:** the locator-layer and
+  TCAP ledger rows use opposite conventions and agree in VERDICT
+  only; never to be added. (Already flagged at the round-34
+  bank-4 audit; now on the node.)
+- **D11 (deg_H collision) — RULING: the (DEG-m) quantity is
+  RENAMED deg_Sh** (sharing-hypergraph degree) **at wiring time**;
+  the PROVED a1 node keeps deg_H. Package 8 unblocked.
+- **D12 (fence duplication) — CONFIRMED:** package 6 cites the
+  wave-59-node coordinator addendum rather than re-claiming the
+  generalized fence; its contributions are the fresh m=3 replay
+  (60x48, nullity 6 = 2m) and the explicit H1+H2 linear solve.
+  The missing (RIC3) cross-citations go in at wiring.
+
+**SCOPE:** drafts are PROPOSALS — no node is wired, no status is
+assigned in the DAG by this bank; the verifiers replay statements
+and banked constants, NOT the original experiments (the pilot's
+own zero-power declaration, held). Pilot compliance: 25/25
+ramguard clean; anti-import pattern; one parent-dir ls disclosed
+(names already known from CONSTRAINTS). Anchor 1's Codex-cycle
+window (L3967-4269) was NOT read by the pilot — the wiring
+session must subtract packages against it.
+
+## Round-37 (SHARE3-4) gap addendum (2026-08-11, coordinator-audited): the one-coincidence gap DERIVED (budget 8 vs demand 11); the constant-norm census exhaustive and the threshold corrected; THE SIDE DOOR IS LEGAL
+
+Pilot r37_share3_gap (round 37, bank 3). Coordinator additions:
+the (SAT4) side-door legality CHECKED (the pilot priced it and
+left it unopened — see below); the round-36 decay/threshold
+figures withdrawn on the strength of the exhaustive census.
+
+- **THE GAP NOW HAS A DERIVATION.** An incidence is the rank-one
+  tensor w(t) (x) v(gamma) (v on a rational normal cubic — the
+  lane's own banked device, correctly subtracted); a merge edge's
+  available directions form a SURFACE Sigma_ij = P(W_ij) x nu of
+  dim 2 in P^15, so a span of dim d meets it only at d >= 14:
+  **7 edges cost 2 each, the 8th costs 1, a 9th is impossible —
+  the prescribable-merge budget is 8 against a demand of 11.**
+  Measured BIT-IDENTICALLY at two fields (cost-2 in 700/700 draws
+  at every dim 0..12, first cost-1 at dim exactly 14; 8 edges in
+  690/700). The residual 3 merges must be free: measured mean
+  0.096/0.079, maximum ever observed 2 (this round + round 36's
+  80000 draws). Best legal |slopes| = 14/15 — the two-round
+  ceiling is now EXPLAINED, not just reproduced. GRADING: a
+  generic-position count (700/700, zero exceptions), NOT a
+  theorem and NOT an exclusion — the 11-merge variety has
+  expected dim 4 over F_qbar (two agreeing counts), and the
+  UNRESOLVED TENSION is that it is cut out by 11 DETERMINANTAL
+  conditions a myopic edge-scan cannot reach: the named open
+  route is a simultaneous determinantal solve (Groebner-scale,
+  beyond stdlib+ramguard).
+- **THE EXHAUSTIVE CONSTANT-NORM CENSUS (the mu_64-orbit
+  reduction):** gcd(3,64) = 1 makes u -> u^3 a bijection, the
+  action is transitive on e_3, so the e_3 = 1 slice (651 = 41664/
+  64 split cubics, predicted = measured at five fields) DECIDES
+  the whole family. Result: pencils with >= 8 disjoint complete
+  fibres = 5056/960/128/**0**/**0** at q = 193/257/449/577/641 —
+  **exhaustively EMPTY at 577 and 641** (round 36's sampled null
+  upgraded to non-existence; q = 641 never previously run).
+  **WITHDRAWN: round 36's ~q^-7 decay and ~690 threshold** (the
+  banked REPORT figures stay byte-original; the record of use is
+  corrected here): the measured decay is ~q^-4.4 overall, NOT a
+  power law (hard zero in (449, 577]), and the supply is MONOTONE
+  DECREASING from q = 193 — the round-37 brief's "peaks at
+  moderate q" premise was WRONG (coordinator brief error,
+  recorded). FIELD-WINDOW CORRECTION of record: mu_64 <= F_q^*
+  forces q = 1 mod 64 — exactly {193, 257, 449, 577, 641} in
+  [97, 690]; "map densely" was impossible as briefed.
+- **THE SIDE DOOR IS ARITHMETICALLY LEGAL (coordinator check —
+  the round-38 headline anchor):** one fibre with a repeated
+  slope drops the slot count 24 -> 23, so **10 merges suffice —
+  which round 36 ALREADY ACHIEVED**. Cost: its three points have
+  |A_x| = m-1, so sum_x(m-d_x) = 3 = 1+O with O = 2 — and
+  (SAT2) allows O <= m-1 = 3, (SAT4) allows the sum <= m = 4:
+  LEGAL, exactly at the identity. What remains to check (a
+  pilot's job, cheap): the per-side caps and incidence
+  bookkeeping at the three deficient points, and building the
+  actual configuration from a 10-merge draw. If it survives, the
+  full round-34 pipeline (G, completion, bivariate system) runs
+  on an m = 4 witness candidate.
+- **DERIVED FENCES (both parameter counts, consistent with all
+  measurements):** the split sub-case is deficient by 5 (three
+  Möbius maps mod PGL_2 = 6 continuous merges vs 11); group
+  symmetry buys <= 4 of 11 (d_gamma = |orbit| vs the cap 2 —
+  answering the brief's mu_2 question in the negative by
+  derivation). The interpolation law f_j = sum_i lambda_ji f_i
+  (row sums 1) verified at two fields — the A-side triples are
+  free, the B-side determined, the residual system dim 1.
+  Structure lemmas: a constant-norm line has AT MOST ONE repeated
+  root (r_0 = -d_2/d_1); the 64 degenerate lines ({30:31, 31:33}
+  at all five fields) are the one-per-r_0 family — an independent
+  census correctness check.
+- **SCOPE FENCES:** m = 4 stays OPEN (six classes searched-
+  negative; nothing excluded); the census is exhaustive over the
+  constant-norm family ONLY; sporadic non-factoring sharing
+  remains unsearched (priced < 1e-4); no G, no completion, no
+  bivariate system, nothing gated by bank 2's verifier; the
+  pilot's ALLOC replication was dead (all round-36 comparisons
+  are against reported numbers); the near-miss slope-value bias
+  is an instrument artefact. COMPLIANCE: ONE bare-python3 breach
+  (empty heredoc — the SAME tic as round 36, second consecutive
+  round: a PROCESS failure; the round-38 CONSTRAINTS add the
+  pre-Bash checklist rule "any command containing python3 MUST
+  match 'tools/ramguard (tiny|local) -- python3'"); imported-
+  script rule fired correctly for the first time (the round-36
+  script's module-level "w"-mode write was caught by the
+  pre-import audit and the import REFUSED); results files
+  versioned per run (the new rules held).
+
+## Round-37 third-solve addendum (2026-08-11, coordinator-audited): the ladder has exactly two rungs; (SCRIT), (CONIC)/(SLOT), (OV4); T = 4 bespoke
+
+Pilot r37_third_solve (round 37, bank 4; resumed after an
+output-overflow crash — clean run, 6/6 ramguard). COORDINATOR
+HAND-CHECKS (all pass): the cross-product form (row_0 x row_1 of
+[[k,f,g],[f,g,-h]] = -L*(Q_2,-Q_1,Q_0) — expanded by hand); the
+(CONIC) identity (both sides = f^2g^2 - kg^3 - hkfg + hf^3 over
+L); the (SCRIT) four-liner (k = f^2/g and h = -g^2/f at a shared
+root force LQ_1 = fg - fg = 0); the slot-consumption argument;
+the Cauchy deficit arithmetic (14 - 9 - 2 = 3).
+
+- **THE LADDER IS EXHAUSTED — STRUCTURALLY.** (PAR) is the
+  2x2-minor (cross-product) vector of the 2x3 Hankel matrix on
+  (k, f, g, -h) (verified 58/58 + 59/59). Prescribing Q_0
+  consumes slot u_0 = k; prescribing Q_2 consumes u_3 = -h
+  UNIQUELY (200/200 injective, two fields); Q_1 is then the third
+  minor of a determined sequence. The third prescription is an
+  overdetermined type-(4,4) Cauchy interpolation — not a
+  proportionality, not a norm condition; exact O(1) TEST (one
+  extended Euclid / one 14x10 rank), NO solve; q^-3 per
+  subset-triple; re-basing to {0,1,inf} exposes the S_3 symmetry
+  and cannot create a slot. A general lesson banked: a
+  length-(n+2) sequence admits exactly n free prescriptions.
+- **(SCRIT) — the s != 0 criterion, exact:** s = |S_0 ^ S_2|
+  (251/251, two fields, joint histogram perfectly diagonal;
+  unrestricted draws have the f=g=0 exception, 1/58 + 1/59 — the
+  same species as (RES)'s refinement). Operational: S_2 in
+  mu_32 \ S_0 gives 100% s=0 at 1/7.00 the search cost —
+  replacing round 36's empirical 4/46 mortality with a zero-cost
+  combinatorial filter.
+- **(CONIC)/(SLOT), new identities:** Q_0g^2 - Q_1fg + Q_2f^2 =
+  L*Q_0*Q_2; pointwise, the SECOND root of the member-quadratic
+  q_x at any x in S_0 u S_inf is -f(x)/g(x) — one formula for
+  both prescribed supports.
+- **(OV4) — the lane's first exact structural law at m=2:** for
+  any three supported slopes, e(k,i) + e(k,j) <= 4 (= deg(f+zg);
+  the m=1 unique-vote argument of the banked f_dim1 transported
+  to the sequence's MIDDLE PAIR). Zero violations in 374 T>=3
+  objects, two fields. Sharpenings: e(k,i) <= 3 always; e = 3
+  forces e <= 1 elsewhere. HONESTLY GRADED: a NECESSARY condition
+  — the banked 9-vertex (SAT3) design is simple and PASSES with
+  slack 2; (OV4) excludes concentrated designs only, a filter
+  never an exclusion.
+- **T-RECORDS:** T = 4 over a bespoke 32-set on certified
+  e = m = 2 objects (first in class; both records fully
+  certified, two fields; |union| = 23/24), via the BESPOKE DOUBLE
+  SOLVE (both members prescribed split with free roots — an exact
+  instrument giving 101x/62x the T>=3 rate of round 36's single
+  prescription; the recommended default for all bespoke pushes).
+  T over mu_32 = 2 — a TIE with round 36, honestly reported; the
+  quantified gap to T=3 over mu_32 is 8.9e3x/3.9e6x the built
+  object counts (absence where none was sought at the required
+  rate). [SUPERSEDED (round 38): T = 3 OVER mu_32 IS ACHIEVED —
+  ten witnesses, two fields, via the scale-elimination algorithm;
+  the shortfall figures were an INSTRUMENT artefact (round 37's
+  own d4_results.txt:54 already contained the feasible per-pair
+  count 912,673, three lines below the shortfall it published);
+  round 37's per-object rate was (q-1)x too large. See the
+  round-38 Cauchy-lattice addendum.] The counting instruments keep failing toward EXISTENCE
+  through T = 4 (the pilot's own registered attempt to discount
+  the +62.5-bit cell was refuted by its own arithmetic, ratio
+  1.000000000000 at five fields).
+- **SCOPE FENCES:** T = 4 bespoke has ZERO (SAT3) power (both
+  records have T = 0 over mu_32; columns never merged); (SCRIT)
+  is verified on the regenerable class (the f=g=0 exception
+  hypothesis named); (OV4) fires on nothing currently believed;
+  F1/(NEWCAP) still zero power; m >= 3 untouched ((PAR) is
+  m=2-specific); no razor-scale claims. Round 36's published T=2
+  vectors were NOT replayed (regenerated instead — declared).
+
+## ROUND 37 CLOSE (2026-08-11): the four banks reconciled — the frontier hardens into named finite problems
+
+**BANK 1 (r37_urand):** STATEMENT U REFUTED same-day; far-CA =
+r+1 + Theta(n/rho) (constructive floor r+1+126 modulo
+R-GENERICITY; bits unchanged); the coset-leader frame; FENCE-1;
+U-sym closed (ceil(rho/2)); C(128,63) check done (dedup yes, cap
+no). **BANK 2 (r37_mint_drafts):** the mint wave drafted 10/10
+with passing verifiers; twelve discrepancies dispositioned (the
+a* convention flagged for ruling; the covering-law generalization
+adopted; D9 resolved — the gate formula was banked all along);
+wiring queued (task #41). **BANK 3 (r37_share3_gap):** the m=4
+one-coincidence gap DERIVED (prescribable budget 8 vs demand 11,
+the Segre-surface count; two-round ceiling explained); the
+constant-norm census EXHAUSTIVE (empty at 577 AND 641; the ~q^-7
+/ ~690 figures withdrawn; five-field window); **THE SIDE DOOR IS
+LEGAL (coordinator check: O = 2 fits (SAT2)/(SAT4) exactly — 10
+merges suffice, which round 36 ACHIEVED)**. **BANK 4
+(r37_third_solve):** the third exact solve does NOT exist
+(structural: two slots on a length-4 sequence); (SCRIT), (CONIC)/
+(SLOT), (OV4); T = 4 bespoke first-in-class; T = 2 over mu_32
+(tie).
+
+**THE RECONCILED FRONTIER — everything is now a NAMED FINITE
+PROBLEM:** (1) **the m=4 SIDE DOOR** (build the degenerate-fibre
+configuration from a 10-merge draw; per-side bookkeeping at the
+three deficient points; if it survives — the full pipeline and an
+m=4 witness candidate); (2) **R-URATE + R-GENERICITY** (two
+self-contained rank/genericity lemmas that pin B_ca^far(k+2^34)
+= r+1+126 unconditionally); (3) **the rank-deficient Cauchy
+solve** (the re-posed third prescription; Pade-lattice machinery
+banked in l1/xr); (4) **the determinantal 11-merge solve**
+(Groebner-scale; a compute-request candidate); (5) **THE MINT
+WIRING** (task #41, coordinator session, 10 packages + the
+statement_u re-draft); (6) **the a* convention ruling** (gates
+all F1/(NEWCAP) pricing). The counting instruments are dead as
+verdict-carriers in BOTH lanes (five refutations across two
+rounds); every live route is a construction or a finite algebra
+question.
+
+**AUDIT LEDGER (12th consecutive catching round):** Statement U
+(mine, round 36) refuted; the round-36 narrowing, decay/threshold
+figures, floor(rho/2) count, and "no predictive criterion" line
+all corrected; my round-37 brief carried two wrong premises
+(route-(b)... the share3 window/peak — both recorded); the
+drafting pilot surfaced twelve discrepancies including the a*
+convention. COMPLIANCE ROUND TALLY: banks 1, 2, 4 clean (the
+resumed bank-4 pilot included); bank 3 ONE bare-python3 breach
+(the same empty-heredoc tic as round 36 — a PROCESS failure);
+ROUND-38 RULES: the pre-Bash checklist ("any command containing
+python3 MUST match 'tools/ramguard (tiny|local) -- python3'";
+no no-op interpreters, ever) goes in CONSTRAINTS and prompt;
+results files append-or-version (held, and paid twice this
+round); the imported-script audit (fired correctly, once).
+
+**ROUND-38 ANCHORS (priority order):** (1) THE SIDE DOOR —
+degenerate-fibre m=4 (the cheapest potentially-decisive item on
+the board); (2) THE MINT WIRING (task #41, coordinator); (3)
+R-URATE + R-GENERICITY; (4) the Cauchy-lattice solve attempt
+(import the l1/xr machinery); (5) the a* ruling + F1 pricing;
+(6) sporadic non-factoring sharing (the last untouched m=4
+route); (7) the determinantal-solve compute request.
+
+## Round-38 side-door addendum (2026-08-11, coordinator-audited): the ledger CLOSES but the door is BUDGET-NEUTRAL; DOOR B posed (deficit 2); the 9th-fibre completion fence; the pipeline gated at last
+
+Pilot r38_side_door (round 38, bank 1; 7/7 ramguard clean — the
+pre-Bash checklist held on its first outing; my brief's biv_core
+warning CORRECTED by the pilot's own audit: biv_core.py has NO
+module-level write (0 hits for open/write/flush, coordinator
+re-verified) — the "w"-mode offender was share3_pencil.py; the
+two are not to be conflated again).
+
+- **THE LEDGER CLOSES — the side door is fully legal on paper.**
+  Every axiom passes at O = 2: (SAT4) 3 <= 4, (SAT2) 2 <= 3,
+  (SAT5) 61 >= 60 (margin 1 each); the (OUT-m) aggregate is
+  3(m-2) = 6 <= (m-1)(1+O) = 9 (the deficient points are
+  symmetric-difference points, charge m-2); the per-side cap, the
+  (OV) pair multiplicity and the per-slope eps cap all hold AT
+  EQUALITY. EXTENSION ADOPTED: (OUT-m)'s X = 0 corollary survives
+  INSIDE deficiency even at O = 2 > m-3 (slopes disjoint from W
+  have eps = 0), so s = 13 and n_2 = 10 are EXACT. CONDITIONAL:
+  (SAT2)'s second clause (O <= sum c_gamma — Hankel-layer rank
+  deficiency) is UNCHECKED at the W-layer; all legality is
+  conditional on >= 2 units of M(gamma) rank deficiency.
+- **THE DEMAND-MINIMALITY THEOREM (exhaustive):** within
+  (SAT2)/(SAT4) at m = 4 the merge demand is >= 10; EXACTLY two
+  placements attain 10 (DOOR A: one outer double-root fibre,
+  slots 23; DOOR B: the middle fibre reserving ONE slope, slots
+  24); 9 is unreachable (a second placement costs 6 > m).
+- **BUT DOOR A IS BUDGET-NEUTRAL — the round's central result:**
+  prescribing the tangency costs EXACTLY 2 dimensions (the
+  available-direction variety w(t*) (x) span{v,v'} is a SURFACE,
+  same dimension as Sigma_ij) — measured 2.000 in 1500/1500
+  draws per field, obeying the round-37 cost table verbatim. The
+  budget drops 8 -> 7 as the demand drops 11 -> 10: **deficit 3,
+  INVARIANT** (four independent dimension counts all give the
+  residual variety dim 4). Lesson banked: price a loophole in
+  the same currency as the demand before calling it progress.
+  Best legal: |slopes| = 14 at BOTH fields (the q=257 ceiling
+  CORRECTED 15 -> 14 — the old 15 object is dead at completion);
+  the first (SAT4)-legal Door-A object built (23 slots, 9
+  merges, ONE short); 0 hits in 6600 draws.
+- **DOOR B — POSED, UNDECIDED, AND BETTER (the new cheapest live
+  item):** if a middle can carry TWO non-type-2 cubic roots, the
+  demand is 10 with the OUTER structure unchanged at 24 slots —
+  **deficit 2** — and the existing two-round stock of 14-slope
+  objects become candidates. A bookkeeping question (the
+  multiplicity of the middle's non-incident-root mechanism), not
+  a search. Round-39 anchor #1.
+- **THE 9TH-FIBRE COMPLETION FENCE (new):** the middle fibre's
+  slope cubic must SPLIT over F_q with >= 2 roots off the outer
+  slope set — 48.1/53.8% (q=193) and 75.5/82.0% (q=257) of
+  structurally-legal objects CANNOT be completed to |W| = 27;
+  heuristic P ~ 1-(5/6)^{F-8} matches shape and magnitude;
+  stacks multiplicatively on the round-37 census (F = 9 at
+  q = 257, 449 leaves ONE candidate middle). Two prior rounds
+  never imposed it. Lesson: layers below the stuck one can be
+  cheaper and more decisive.
+- **THE PIPELINE IS GATED AT LAST:** the Door-A object ran W
+  assembly (27 points), the 4/4 per-side split, the FIRST-EVER
+  mu(x)-at-middles verification (and it BITES: exactly one
+  middle-cubic root must be non-incident; on the object the
+  mechanism FORCES mu = 24 — a falsifiable prediction for any
+  full construction), and bank 2's deficiency-aware bivariate
+  system (102 x 57 = 2a + Delta_W per the PROVED
+  deficiency_clone node): rank 56 by biv_core AND by an
+  independent solver, nullity 1, blockwise-nonzero kernel FOUND.
+  **The (SHARE3-4) class SURVIVES the bivariate layer** (NOT a
+  witness — the object has |Z| = 18 > T = 17; and the synthetic
+  nullity-0 control excludes nothing, correctly read). The
+  round-36/37 "nothing gated by bank 2" caveat is DISCHARGED.
+- **SCOPE FENCES:** the invariance is a generic-position count
+  (round-37 grading inherited); the demand theorem is
+  conditional on the slot/reservation model; the fence rate is
+  ensemble-relative; Door B undecided; layer A still unrun (5th
+  round); the registered solve routes (kernel-of-Vandermonde,
+  sequential scan) were NOT implemented — the determinantal solve
+  remains the open route; (SAT2) c_gamma unchecked. COMPLIANCE:
+  clean 7/7 (streak 1 under the checklist); the /dev/null
+  stdout-discard judgment call RULED COMPLIANT by the
+  coordinator (a discard is not a write in the rule's sense;
+  codified henceforth).
+
+## Round-38 Cauchy-lattice addendum (2026-08-11, coordinator-audited): T = 3 OVER mu_32 ACHIEVED — the scale-elimination algorithm; the two headline witnesses COORDINATOR-CERTIFIED e = m = 2
+
+Pilot r38_cauchy_lattice (round 38, bank 2; 21/21 ramguard, the
+pre-Bash checklist held — zero breaches). COORDINATOR
+CERTIFICATION: the pilot honestly declined to claim e = m = 2
+(its own registered rule, unmet — MISS 2); I certified BOTH
+published witnesses from scratch with my round-35 apparatus
+(solve the 36x32 for (y_0,y_1): nullity 1; generic rank 7;
+single reduced rank-drop z=85/z=22 at rank 6; full rank at
+infinity; degree-<=1 kernel 0 => e = 2 EXACTLY, both fields).
+The T = 3 record is now CERTIFIED, not inherited.
+
+- **THE ALGORITHM (the round's instrument):** the two scale
+  ratios of the three-member prescription ELIMINATE EXACTLY —
+  with G = (beta/gamma)g, H = (beta/alpha)f, the pointwise
+  systems become linear and u = f+g is DETERMINED by
+  (S_0, S_inf, S_1) alone as the 1-dim intersection of the
+  kernels of two 2x5 HANKEL MOMENT MATRICES (m_j = sum
+  P_inf(x)x^j/(P_1(x)P_0'(x)) etc.); the drop is then the single
+  rank <= 2 condition **(TEST): u = c_1 G + c_2 H with
+  c_1 c_2 != 0 and both parts of degree 4** — codimension
+  (5-2)(3-2) = 3, reproducing the banked deficit from a route
+  that never mentions a lattice; ~330 field ops per triple
+  (57 us). THE DEGENERATE BRANCH MATTERS: G parallel H makes the
+  raw rank test fire falsely, pair-dependently (3824 false vs 6
+  true on one q=23 pair) — the corrected clause is mandatory
+  (113/113 brute-force agreement; any reimplementation omitting
+  c_1 c_2 != 0 reports ~400x too many hits). Sufficiency of the
+  14 pointwise conditions PROVED constructive: (CONIC) makes L
+  automatically polynomial, h and k follow — the inverse is a
+  reconstruction, not a search, once the triple passes.
+- **THE SWEEP AND THE RECORD:** one (S_0, S_inf) pair sweeps ALL
+  C(32,7) = 3,365,856 subsets S_1 exhaustively in 192 s. Ten
+  T = 3 witnesses: 9 at q=97 (11.97e6 triples; predicted 9.09 —
+  ratio 0.99) and 1 at q=193 (37.54e6; predicted 3.62 — Poisson
+  p ~ 0.12, honestly flagged; 6 of 16 pair-sweeps were partial
+  at 78-80%, denominators printed). Every witness: (PAR)/(CONIC)
+  identities exact, s = 0, the three member root sets exactly the
+  prescribed subsets, (OV4) held 10/10, lattice first minimum 4
+  with the remainder-degree window-skip {5..9} (the round-37
+  characterization, confirmed 200/200 x2 + 120/120 constructed).
+  ROUND-37 RATE CORRECTED: its P(T>=3 | T=2 object) was (q-1)x
+  too large (their rate predicts 872/694 hits on the swept mass;
+  observed 9/1); the 8.9e3x shortfall was the instrument's, and
+  their own d4_results.txt:54 held the feasible count.
+- **THE a* FORCING (adopted; the ruling's first dataset):** on
+  EVERY s = 0 object with two supported slopes, (SCRIT) forces
+  S_0 ^ S_inf = empty, so a* over supported pairs = 2rho = 14
+  IDENTICALLY — round 36's single sample and round 37's 28+4
+  objects all carry the forced value (regeneration adds
+  nothing). On the ten T = 3 witnesses: per-pair {12:10, 13:10,
+  14:10} exactly uniform and FORCED by the overlap combinatorics
+  (a*(0,1) = 14 - |S_1 ^ S_0| etc.); per-object a* = 12 on 9/10,
+  13 on one. THE PROJECTIVE RULING IS INERT ON SUPPORTED PAIRS
+  (supported => 7 finite roots => no root at infinity; the two
+  readings differ only at degree-drop slopes, never supported) —
+  measured: exactly ONE all-slope pair moves per degree-drop
+  pair. F1/(NEWCAP): still zero power (T = 3 vs the premise 9);
+  the a* dataset is forced combinatorics, not family minima.
+- **STATUS OF THE THIRD PRESCRIPTION: STILL SEARCH, NOW FINITE
+  AND CHEAP** (912,673 triples = q^3 per hit at q=97; ~64 s).
+  No solve exists (given a pair you cannot write down an
+  admissible S_1); T = 4 over mu_32 needs ~q^3 pair-sweeps —
+  out of enumeration reach; the rank-<=2 inverse is the named
+  next question. An UNCLAIMED n=9 signal (hits concentrate at
+  overlap sum >= 3, p ~ 0.034) is recorded as a candidate
+  necessary condition to test at n ~ 15, nothing more.
+- **SCOPE FENCES:** 4 + 12 pairs of ~1.6e12 — zero power for
+  (SAT3)/emptiness/mu_32-in-general; the eight uncertified
+  witnesses inherit class membership (the two published ones are
+  coordinator-certified; the deg k = 3 witness q97-p0-w1 flagged
+  for the wiring session); (TEST) verified both directions at
+  q=23 only (forward-only at 97/193); no bespoke run this round
+  (round 37's T_bespoke = 4 stands; columns never merged);
+  (SAT2..5) inapplicable at T = 3. Compliance: one wall kill
+  (sizing, results preserved by append mode — the rule paid a
+  third time) and one self-caught IndexError; zero breaches.
+
+## Round-38 URATE/genericity addendum (2026-08-11, coordinator-audited): the rank half PROVED; R-URATE refuted by the exchange law; R-USYM closed
+
+Pilot r38_urate_genericity (round 38, bank 3; 5/5 ramguard, the
+checklist held). Coordinator hand-checks: the line-pencil
+decoupling (row (i,x) = the point (e_0(x),e_1(x)) on the line
+X + gamma_i Y + lambda_i Z_{Y_i}(x) = 0; blocks interact only
+through p_x); the per-point Vandermonde left-null argument
+(d(x) <= 2 forces vanishing); the razor identity 126*rho = 2r
+EXACTLY; the exchange law's derivative (1/rho - 1 < 0); the
+degree-parity carrier completeness. All pass.
+
+- **R-GENERICITY, RANK HALF PROVED:** rank M = j(rho+1) - L +
+  rank Phi (L = sum max(d(x)-2, 0); Phi the explicit concurrency
+  matrix with all-nonzero rows) — 0 violations in ~500 designs,
+  16 rows, 2 domain types. COROLLARY (the clean sufficient
+  condition): distinct gamma_i + every point of W in AT MOST TWO
+  A_i => FULL RANK, lambda completely free. THE RAZOR DESIGN:
+  j = 126 is EXACTLY the one-common-point exact double cover
+  (126 rho = 2r on the nose); kernel dim 2 in closed form
+  (lambda_i = -(u+gamma_i v)/Z_{Y_i}(x^*)) — reproducing round
+  37's measured "kernel dim exactly 2". SIDE-CONDITIONS: 1 and 3
+  PROVED (lambda_i != 0 fails on EXACTLY j of q+1 projective
+  kernel points — 4/4 EXACT HITs; gamma_i off-fibre by the
+  det = c_a c_b (gamma_a-gamma_b)^2 union bound); 2 relaxed
+  (<= 125 collisions tolerable; the inside-block-pair residue
+  named); 4 half-proved (Case |S u W| <= R by MDS; Case B open,
+  zero-power). All four hold simultaneously on 99.87-99.95% of
+  the projective kernel (EXACT counts, replacing 60/60 samples).
+  **The +126 floor is now modulo TWO named residues, not four.**
+- **R-URATE REFUTED — THE EXCHANGE LAW REPLACES IT:** a rank
+  drop in Phi (the Z_{P_i}|_{A^*}-proportional mechanism) buys
+  1/rho slopes per unit and costs ONE fibre slope
+  (chi collapses on A^*): T <= (r+1) - delta +
+  floor((2(r+1)-1+delta)/rho). At small rho the trade PROFITS:
+  C3 (rho = 3) m=2 rank drop => j = 9 > cap 7 => **T = 19 >
+  banked cap 18, FULL C(26,10) census, THREE fields, column-far,
+  T_other = 0** (100% mechanism vs first moment 1.3e-4). BANKED
+  CENSUS CORRECTED: the round-37 T = 17 at this cell was
+  search-limited (j = 7 is reachable => T = 18; the anchor's own
+  honest can't-tell is resolved: search-limited). At the razor
+  delta = 0 is optimal (T_max - (r+1) = 125, 126, 125, 124 at
+  m = 0..3) and 126 STANDS — but the cap is a theorem only
+  within the shared-A^* normal form, and its safety margin is
+  PIGEONHOLE (m_pig = 1.00e9 vs break-even m* = 1.72e10, margin
+  17.17x) — not algebraic. Named breakers: an algebraic family
+  with m > 1.7e10 (cosets EXCLUDED: the X^d - c^d identity
+  forces m <= 2 — proved+measured), or a deficiency mechanism
+  cheaper than one fibre slope per unit (unenumerated).
+  TRANSPORT WARNING: any "c conditions per slope => <= 2(r+1)/c
+  slopes" cap is FALSE in general — the joint rank of Phi is the
+  correct object.
+- **R-USYM CLOSED:** parity fusion <=> sigma^e, sigma^o linearly
+  dependent <=> sigma = (X-x_0)P(X^2) (odd deg) or q(X^2) (even
+  deg); at odd r only the first survives degree parity — THE
+  CARRIER FAMILY IS EXHAUSTIVE. Excess 0 both ways over 31,824 +
+  31,824 + 497,420 locators (2 shapes, 2 fields); counts match
+  C(n/2,(r-1)/2)*(n-r+1) exactly. The round-36 carrier question
+  is answered YES.
+- **CROSS-REFERENCE OWED (recorded):** the engineering matrix is
+  a CONCURRENCY problem — the banked f_concurrency_equiv node
+  (F-lane, PROVED) is the same incidence type; one sentence at
+  wiring stops the next re-derivation.
+- **SCOPE FENCES:** the cap break is 3 fields ONE cell (C9's
+  predicted break verified slope-by-slope but uncensused at
+  C(36,14) = 5.6e9); the m >= 3 no-collision negative has NO
+  power (counting predicts it); the rank-drop search covers the
+  proportional normal form only; column-farness Case B and
+  in-block chi-injectivity remain the +126's two residues; the
+  m_pig margin is information-theoretic. Pilot self-catches: its
+  own sharper cap (B-6/7/8) refuted by its first run; six of its
+  own predictions broken and reported.
+
+## Round-38 sporadic/determinantal addendum (2026-08-11, coordinator-audited): both remaining m=4 routes closed at reachable level; C38 posed; three banked figures corrected
+
+Pilot r38_sporadic_det (round 38, bank 4; 9/9 ramguard clean —
+ALL FOUR round-38 pilots clean under the checklist; the breach
+era ends). Coordinator hand-checks: the deficit cancellation
+(39 + 3t_D - 72 - (3t_D - delta - 13) = -20 + delta — the
+t_D-dependence cancels exactly); the transitive-closure forcing
+(component > deg Psi = 9 => Psi constant); the s >= 12 floor
+(72 <= 6s); the forced-root degree correction (prescribed slopes
+are automatic roots of downstream resultants). All pass.
+
+- **SPORADIC (NON-FACTORING) SHARING: CLOSED BY DICHOTOMY, AND
+  RE-PRICED 11 DEX WORSE.** Z (the coincidence scheme) is finite
+  XOR contains a curve, and a curve forces Lüroth — NO
+  correspondence case (a non-factoring symmetric (2,2) has
+  transitive-closure components of mean size ~100 >> deg Psi =
+  9, forcing constancy; the Bezoutian family has components of
+  size EXACTLY 3, 60/60 both fields, and is a HYPERSURFACE in
+  P^5 — Jacobian rank 5/6, 200/200). The sporadic cost ledger is
+  FLAT: deficit = 20 - delta INDEPENDENT of the sharing pattern
+  (0 mismatches over the whole band) — first moment 10^-15.3.
+  **WITHDRAWN: the round-36 "< 1e-4" sporadic price** (optimistic
+  by eleven orders; the "cheapest pattern" is a low-sharing
+  re-labelling of already-searched classes). Priced-not-searched
+  honestly declared (the joint system is a codim-33 determinantal
+  question; sampling cannot see 10^-15).
+- **THE DETERMINANTAL SOLVE WORKS — AND ANSWERS ROUND 37's
+  UNRESOLVED TENSION: the dim-4 variety HAS F_q-points, and
+  every reachable one is DEGENERATE.** 7-edge prescription
+  (kernel dim 2 in 500,000/500,000) + iterated gcd on the four
+  residual degree-<=6 resultants: 80 raw solutions in 700k
+  draws, two fields, two arms (constant-norm vs random —
+  statistically indistinguishable: the fence is GEOMETRIC), and
+  **0 legal** — the kills are two NAMED degenerate components
+  (identically-zero fibre cubic, 39; hypergraph-degree-8 slope —
+  round 36's own artefact — 26). The hit rate scales q^-2.1
+  (the codim-2 degenerate locus, not the codim-3 honest one).
+  **ROUND-37 FREE-MERGE COUNT CORRECTED: 3 free merges occur at
+  rate 1.19e-4 (80/674,393 states)** — its "never observed" was
+  a 115-state sample artefact; its CONCLUSION stands (all 80
+  illegal). Best legal |slopes| = 14 both fields both arms —
+  **third round, third instrument, identical ceiling**.
+  **CONJECTURE C38 (posed, with falsifiers):** the 11-merge
+  variety has NO non-degenerate F_q-point at q = 193, 257 —
+  equivalently the m=4 ceiling 14 is a property of V, not of
+  instruments. Falsifiers: a verified 13-slope Psi; a full
+  Groebner solve (compute-request candidate); a primary
+  decomposition exhibiting a non-degenerate component; a
+  degenerate-fibre (Door) route solution.
+- **ROUND-36's R1.7 REPAIRED:** gcd(3,64) = 1 excludes
+  multiplicative order-3 only; the complete statement is
+  |Stab_PGL2(mu_64)| = 128 (dihedral 2-group, order histogram
+  verified, zero order-3 elements) PLUS the exhaustive fact that
+  no order-3 Möbius map carries more than 6 of the needed 8
+  stable triples (all 83,328 candidates, two fields). The
+  coincidence-curve + order-3-deck-map DEVICE is banked (the
+  trigonal_subgroup_exclusion node + roadmap — the pilot's own
+  load-bearing subtraction, verified); new = the transfer, the
+  exhaustive finite version, and the stabiliser computation.
+  ALSO: monomial-lattice mechanisms give 2-power multiplicities
+  only (3 unreachable); the pattern-independent slope floor
+  s >= 12 (the whole m=4 D-part lives in s in {12, 13}).
+- **CROSS-BANK RECONCILIATION (coordinator):** C38's falsifier
+  F4 and the pilot's thrice-asked (SAT4) question are ANSWERED
+  BY THIS ROUND'S OWN BANK 1 (quarantine held — the pilots could
+  not know): the door is LEGAL (O = 2 closes every axiom) but
+  BUDGET-NEUTRAL, and DOOR B (deficit 2) is the surviving form
+  of exactly this falsifier. The three-round ask is closed.
+- **SCOPE FENCES:** C38 is a conjecture on a named-design 440k
+  sample, NOT an exclusion; the deficit-20 count is a naive
+  first moment of the class the campaign has repeatedly seen
+  fail (F-R3 live: exhibit any sporadic family with deficit
+  < 20); the order-3 exhaustion is at two fields; arm A is the
+  complete constant-norm supply, not all pencils; nothing gated
+  by bank 2's verifier this bank (bank 1 carries that flag this
+  round); layer A still unrun. Pilot self-catches: the
+  forced-root degree error (its registered rate 3-16x
+  optimistic), the degeneracy-maximising design (11 of 12
+  "solutions" manufactured, a full run burned), the wrong
+  affine-chart guard corrected to the banked projective
+  formulation.
+
+## ROUND 38 CLOSE (2026-08-11): the four banks reconciled — the ceiling is intrinsic, the doors are B and the residues
+
+**BANK 1 (r38_side_door):** the ledger CLOSES but the door is
+BUDGET-NEUTRAL (tangency costs 2 = one merge; deficit invariant
+at 3; demand-minimality: >= 10, two placements); **DOOR B posed
+(deficit 2, existing objects as candidates)**; the 9th-fibre
+completion fence (48-82% of legal objects non-completable); the
+pipeline GATED at last (the Door-A object survives bank 2's
+bivariate layer; first mu(x) verification — mu FORCED). **BANK 2
+(r38_cauchy_lattice):** **T = 3 OVER mu_32 ACHIEVED** (ten
+witnesses; the scale-elimination/(TEST) algorithm; 192-s
+exhaustive pair-sweeps; the two published witnesses
+COORDINATOR-CERTIFIED e = m = 2; the round-37 shortfall an
+instrument artefact). **BANK 3 (r38_urate_genericity):**
+R-GENERICITY's rank half PROVED (+126 now modulo TWO residues);
+R-URATE REFUTED (the exchange law; T = 19 > cap at C3, three
+fields; razor 126 stands normal-form-conditionally); R-USYM
+CLOSED. **BANK 4 (r38_sporadic_det):** sporadic sharing closed
+by dichotomy (re-priced 11 dex); the determinantal solve reaches
+only degenerate points; C38 posed; R1.7 repaired.
+
+**THE RECONCILED BOARD:**
+1. **(BIV-CURVE) m = 4:** seven classes searched-negative; the
+   14-ceiling is three-instrument-invariant and CONJECTURED
+   INTRINSIC (C38). The live routes, in order: **DOOR B** (the
+   bookkeeping decision — deficit 2 with the existing object
+   stock); C38's Groebner falsifier (a compute-request
+   candidate); the two- residue completion of the fences.
+2. **The converged small-m question:** T = 3 over mu_32 achieved
+   and certified; **T = 4 = the rank-<=2 inverse** (the named
+   gate); the (SAT3) target T = 9 = the packing ceiling remains
+   the far horizon with four instruments saying empty and
+   constructions advancing one T per round.
+3. **Far-CA:** the +126 floor modulo TWO residues (in-block
+   chi-injectivity; column-far Case B); the cap
+   normal-form-conditional with a pigeonhole margin; the razor
+   count stable at r+1+126 = 2^39.977280 in bits.
+4. **COMPLIANCE: 4/4 CLEAN — the pre-Bash checklist worked; the
+   breach era (rounds 36-37) ends.** The results-file rules paid
+   three more times; the imported-script audit corrected a
+   coordinator brief error.
+
+**AUDIT LEDGER (13th consecutive catching round):** the round-36
+sporadic price (11 dex), the round-37 free-merge count, the
+round-37 shortfall figures, the banked C3 census number
+(T = 17 -> 18/19), R-URATE (a banked residual target refuted),
+the q=257 ceiling (15 -> 14), round-36's R1.7, my own brief's
+biv_core warning, and my round-37 a*-inertness expectation —
+all corrected with sources. ROUND-39 ANCHORS: (1) DOOR B;
+(2) the two +126 residues; (3) the rank-<=2 inverse; (4) C38's
+Groebner falsifier (compute request); (5) THE MINT WIRING
+(task #41 — now two rounds overdue, queue ~45 items);
+(6) layer A on the Door-A object (six rounds unrun).
+
+## Mint-wiring addendum (2026-08-11, coordinator session, task #41): the round-37 mint WIRED — ten background nodes, all pre-conditions discharged, three wiring-audit catches
+
+The ten round-37 draft packages are wired as background nodes, each with
+the full 11-file exemplar set including an independent verify_audit.py
+second code path (every verifier and audit PASS from the wired location;
+manifest refreshed; census UNCHANGED at 231 = 167/37/27 — all ten landed
+off-orbit as predicted, no re-pin). The nodes:
+
+- rate_half_type2_ledger_vacuous_by_sign_fence (PROVED)
+- rate_half_far_ca_negation_closure_excess_fence (PROVED)
+- rate_half_far_ca_hr_dictionary_common_support (PROVED; (PSTAR) POSED inside)
+- rate_half_far_ca_crossing_offset_value_ledger (TARGET — the statement_u
+  RE-DRAFT: U as refuted definition, r+1 + Theta(n/rho) pricing, the
+  round-38 floor/cap state, the two residues; the recorded pre-condition)
+- rate_half_l2_stratum_rational_parametrization (PROVED; (RES) split kept)
+- rate_half_l2_stratum_nonempty_at_m_two (PROVED; D1 a*-PROJECTIVE ruling
+  recorded as resolved)
+- rate_half_layer_a_equivalence_and_geometry_counterexamples (PROVED;
+  requires edge to the saturation fence; the (RIC3) wiring gap closed)
+- rate_half_share3_luroth_template (CONJECTURE; round-37/38 updates carried
+  — Door B, the 14-ceiling correction, the sporadic-price withdrawal)
+- rate_half_bivcurve_out_m_identity_and_deg_m (CONJECTURE; **D11 APPLIED:
+  (DEG-m)'s quantity is deg_Sh in all wired documents** — deg_H stays with
+  the a1_core incidence-reconstruction node)
+- rate_half_sat3_realizability_ledger_record (CONJECTURE; **D9 RESOLVED IN
+  FULL: the gate formula from r35_rout_layer_a/REPORT.md D3.3 is printed on
+  the node and its audit REPRODUCES both m=1 calibrations (+13.75 at q=17,
+  -0.94 at q=97) to two decimals**)
+
+PRE-CONDITIONS DISCHARGED: the statement_u re-draft; deg_Sh; the gate
+formula; the (RIC3) cross-citations (both sides); and the SUBTRACTION
+against the unread Codex-cycle window (L3967-4269 at draft pins) — that
+window is entirely the a1 quadratic-gap-four split-biform lane (cycles
+146-157), ZERO overlap with any package.
+
+THREE WIRING-AUDIT CATCHES (the audits earned their keep before wiring
+completed):
+1. **(DICT) SCOPE-CORRECTED (marker applied above):** h_r = rho + d holds
+   for d <= rho ONLY — the stacked matrix has 2rho rows, so polynomial
+   ratios of degree d > rho saturate at 2rho (exhibits: rho=2 d=3 q=601
+   gives h_r = 4; rho=3 d=4 q=1013 gives 6). All 210 banked rows in scope.
+2. **The rho >= 3 negation-closure kill is GENERIC in q, not
+   field-uniform:** the audit found the accidental covering solution at H4
+   over q = 1009 (A = {6,9,11,12,13}, slope 291) at the predicted ~165/q
+   rate; banked zero-counts live at q in {65537, 999983}. Recorded on the
+   fence node's certificate; the razor kill (surplus 2^33 - 1) untouched.
+3. **The banked six-decimal log2 figure is the ROUNDING, not the floor:**
+   the float-free digit extractor pins log2(r+1) = 39.9772799..., so
+   floor(10^6 log2) = 39977279; the banked 39.977280 is round-half-up.
+   Both r+1 and r+1+126 agree to six decimals (in bits nothing moves).
+
+Also banked by the audits: the first local replay of the m = 4 fence cell
+(108 x 80, nullity 8 = 2m, fresh code, q = 193), a symbolic proof of
+(DET)+(SYZ) over Z (characteristic-free), and a fresh-field (q = 577)
+constant-norm line with 30 split members. Schema note: node-level POSED /
+HEURISTIC map to the DAG bucket CONJECTURE (leaf rule enforced — ingredient
+links carried textually). Graph: 2325 nodes / 6855 edges; full verify
+chain PASS.

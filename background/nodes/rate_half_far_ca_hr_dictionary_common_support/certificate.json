@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-hr-dictionary-v1",
+  "dict_replays": [
+    {"n": 20, "k": 10, "rho": 2, "q": 601, "degrees": [1, 2]},
+    {"n": 20, "k": 10, "rho": 2, "q": 1013, "degrees": [1, 2]},
+    {"n": 26, "k": 13, "rho": 3, "q": 1013, "degrees": [1, 2, 3]}
+  ],
+  "saturation_exhibits": [
+    {"n": 20, "k": 10, "rho": 2, "q": 601, "d": 3, "h_r": 4},
+    {"n": 26, "k": 13, "rho": 3, "q": 1013, "d": 4, "h_r": 6}
+  ],
+  "expected": {
+    "h_r": "rho + d",
+    "dim_K0": "r + 1 - rho - d",
+    "lb1_T1": "r + 1"
+  },
+  "cs_instance": {"n": 20, "k": 10, "rho": 2, "q": 601},
+  "note": "the audit checks (DICT) at fresh fields and a rho = 3 shape the draft verifier never ran; (CS) both as a symbolic two-line syndrome identity and on a concrete reconstruction; and (LB1)'s forced T_1 by exhibiting the annihilating error e_1 - L(x0) e_0 of weight r for every x0 in T. WIRING-AUDIT SCOPE CORRECTION: the dictionary h_r = rho + d holds for d <= rho ONLY -- the stacked matrix has 2rho rows, so the rank saturates at 2rho for every polynomial ratio of degree d > rho (exhibits above), exactly as for non-polynomial ratios. Both the draft and the banked A1 bullet stated the formula without the qualifier. The h_r = 2rho non-polynomial leg and the PSTAR component are deliberately NOT audited here (carried / POSED)."
+}

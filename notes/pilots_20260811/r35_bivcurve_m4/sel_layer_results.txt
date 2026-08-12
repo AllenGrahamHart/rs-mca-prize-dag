@@ -1,0 +1,132 @@
+==============================================================================
+r35 D1 -- THE ABSTRACT SELECTION LAYER, DECIDED (anchor-2 compiler import)
+==============================================================================
+
+anchor 2 (F3_H3_REPEAT_LINEAR_HYPERGRAPH_COMPILER.md:31,35-39): pair
+uniqueness ==> the active hypergraph is LINEAR 3-uniform.  Transported to
+(BIV-CURVE) m=4: the (OV) cap 2rho-a = m-1 = 3 against 2 points per shared
+pair gives the SAME conclusion for the 12 shared slope-triples.
+
+------------------------------------------------------------------------------
+A1  EXPLICIT CERTIFICATE (hand-checkable): the Z_12 difference set {0,1,3}
+    T_i = {i, i+1, i+3} mod 12,  i in Z_12
+    edges=12  verts=12 (<=15)  degmax=3 (<=3)  degmin=3 (>=2, (DEG-m))
+    max pair multiplicity = 1  (linear iff = 1)
+    degree sequence = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]   sum = 36 = 3*12
+    LINEAR: True   DEGREE CAP: True   MIN-DEG (OUT-m): True   VERTEX BUDGET: True
+    reason it is linear: the differences of {0,1,3} are +-1,+-2,+-3, all
+    distinct, so two translates meet in at most one residue.
+    SDR (each triple owns a distinct vertex, = the chi-slope slot): True
+    ==> the m=4 SELECTION LAYER IS SATISFIABLE, and it is satisfiable in
+        the *pencil-shaped* form (each triple carries its own chi-slope).
+
+A2  INDEPENDENT CONFIRMATION -- from-scratch DFS (no Z_12 structure used)
+    DFS(12 triples, deg<=3, <=15 vertices, linear): found=True  nodes=441
+    solution: [(0, 1, 2), (0, 3, 4), (0, 5, 6), (1, 3, 5), (1, 4, 6), (2, 3, 6), (2, 4, 5), (7, 8, 9), (7, 10, 11), (7, 12, 13), (8, 10, 12), (9, 11, 13)]
+    verts=14 degmax=3 degmin=2 pairmax=1
+    min-deg >= 2 ((DEG-m) tightening) holds on this one: True
+
+    TWO INDEPENDENT CONSTRUCTIONS AGREE: the abstract selection problem
+    r34 measured a ceiling 7 against is SATISFIABLE.  Its ceiling is
+    therefore NOT combinatorial.
+
+------------------------------------------------------------------------------
+A3  the m = 5 selection layer (D2): 15 shared QUADRUPLES, deg <= m-1 = 4,
+    <= rho = 19 slopes, pair multiplicity <= 2 (the cap m-1 = 4 re-admits
+    tuple multiplicity 4 = two quadruples per slope pair), min-deg >= 2.
+    DFS: found=True  nodes=4182
+    verts=17 (<=19) degmax=4 (<=4) degmin=2 pairmax=2 (<=2)
+    degree sequence [2, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]  sum=60 = 4*15
+    (also: is LINEARITY still forced at m=5?  a shared quadruple puts 2
+     points in each of its 6 pairs; cap m-1 = 4 admits 2 quadruples per
+     pair, so NO -- the linearity constraint is m=4-specific, exactly as
+     r34's cross-pilot flag warned.)
+
+==============================================================================
+r35 D3 -- (OUT-m) CORRECTED FORM, STRESS TEST
+==============================================================================
+corrected form (critical/nodes/rate_half_band_crossing_location/
+statement.md:3210+):  X'_g + 2 X''_g >= m-1 - eps~_g,  eps~_g = TOTAL
+saturation deficiency on S_gamma, eps~_g <= 1+O per slope; AGGREGATE
+sum_g eps~_g <= (m-1)(1+O); the X=0 corollary gated on O <= m-3.
+
+------------------------------------------------------------------------------
+  m=3 WITNESS, q = 97   (m=3, N=48, rho=11, a=20)
+    sum_x (m-d_x) = 1 = 1+O with O = 0   [(SAT4)]
+    deficient point(s): [66] ; inside W: [False] ; in S_g^S_h: [False]
+    t_x (type-2 blocks) at the deficient point(s): [2]
+    slope  X'  X''  X   eps~   X'+2X''  m-1-eps~  slack
+        9   4    0   4     0         4         2      2
+       34   4    0   4     0         4         2      2
+       50   4    0   4     0         4         2      2
+       55   2    0   2     0         2         2      0
+       57   2    0   2     1         2         1      1
+       62   4    0   4     0         4         2      2
+       64   4    0   4     0         4         2      2
+       78   4    0   4     1         4         1      3
+       85   4    0   4     0         4         2      2
+       87   4    0   4     0         4         2      2
+       92   0    2   2     0         4         2      2
+    PER-SLOPE (OUT-m) CORRECTED: min slack = 0  -> HOLDS
+    per-slope eps~ cap 1+O = 1 : max eps~ = 1 -> OK
+    AGGREGATE sum_g eps~_g = 2 ; corrected bound (m-1)(1+O) = 2 -> TIGHT
+    the REFUTED original rider sum_g eps~_g <= 1+O = 1 would give FAIL (2 > 1) -- reproduces the coordinator's catch
+    IDENTITY sum_g eps~_g == sum_x def(x)*t_x : 2 == 2 : True
+    X=0 corollary gate O <= m-3 = 0 : O = 0 -> corollary APPLIES
+    min X over type-2 slopes = 2
+------------------------------------------------------------------------------
+  m=3 WITNESS, q = 193   (m=3, N=48, rho=11, a=20)
+    sum_x (m-d_x) = 1 = 1+O with O = 0   [(SAT4)]
+    deficient point(s): [21] ; inside W: [False] ; in S_g^S_h: [False]
+    t_x (type-2 blocks) at the deficient point(s): [2]
+    slope  X'  X''  X   eps~   X'+2X''  m-1-eps~  slack
+       18   4    0   4     0         4         2      2
+       30   4    0   4     0         4         2      2
+       43   2    0   2     0         2         2      0
+       76   4    0   4     1         4         1      3
+       89   4    0   4     0         4         2      2
+       91   4    0   4     0         4         2      2
+      121   4    0   4     0         4         2      2
+      137   0    2   2     0         4         2      2
+      159   4    0   4     0         4         2      2
+      188   2    0   2     1         2         1      1
+      191   4    0   4     0         4         2      2
+    PER-SLOPE (OUT-m) CORRECTED: min slack = 0  -> HOLDS
+    per-slope eps~ cap 1+O = 1 : max eps~ = 1 -> OK
+    AGGREGATE sum_g eps~_g = 2 ; corrected bound (m-1)(1+O) = 2 -> TIGHT
+    the REFUTED original rider sum_g eps~_g <= 1+O = 1 would give FAIL (2 > 1) -- reproduces the coordinator's catch
+    IDENTITY sum_g eps~_g == sum_x def(x)*t_x : 2 == 2 : True
+    X=0 corollary gate O <= m-3 = 0 : O = 0 -> corollary APPLIES
+    min X over type-2 slopes = 2
+
+------------------------------------------------------------------------------
+B2  (DEG-m): the corrected (OUT-m) as a MINIMUM DEGREE law on the shared-
+    tuple hypergraph.  In a (SPLIT-m)+sigma design a Delta-slope has
+    X'_g = 2 deg_H(g), X''_g = 0; with eps~_g = 0 the corrected form gives
+        deg_H(gamma) >= ceil((m-1)/2).
+      m = 2 : min deg = 1   (deg cap m-1 = 1)
+      m = 3 : min deg = 1   (deg cap m-1 = 2)
+      m = 4 : min deg = 2   (deg cap m-1 = 3)
+      m = 5 : min deg = 2   (deg cap m-1 = 4)
+      m = 6 : min deg = 3   (deg cap m-1 = 5)
+      m = 8 : min deg = 4   (deg cap m-1 = 7)
+    m = 3 : min deg 1 -- the two degree-1 H-slopes of the witness are
+            EXACTLY TIGHT (X' = 2 = m-1), reproduced above.
+    m = 4 : min deg 2 -- DEGREE-1 SLOPES ARE FORBIDDEN.  r34's m=4 DFS
+            capped degree from above only, so its ceiling 7 was measured
+            on a RELAXATION of the true selection problem.
+    the A1/A2 certificates have min degree 3 and 2, so the m=4 selection
+    layer is satisfiable even under the tightening.
+
+B3  DEFICIENT-POINT PLACEMENT (the case that refuted the original rider).
+    t_x = #type-2 blocks through x, so a unit of deficiency at x charges
+    eps~ to exactly t_x slopes:
+      x outside W        : t_x = d_x = m - def(x)        -> charge m-1
+      x in S_g D S_h     : t_x = d_x - 1 = m-1-def(x)    -> charge m-2
+      x in S_g ^ S_h     : t_x = d_x - 2 = m-2-def(x)    -> charge m-3
+    so the corrected aggregate (m-1)(1+O) is attained ONLY by outside
+    deficiency; the m=3 witness attains it (deficient point outside W,
+    charge 2 = m-1) and the m=2 exhibit does not (deficient point inside
+    W, charge m-2 = 0).  BOTH banked configurations are reproduced.
+
+==============================================================================

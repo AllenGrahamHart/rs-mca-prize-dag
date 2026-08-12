@@ -1,0 +1,37 @@
+# f2_census.py — exact bad-slope census, cell H1
+== H1 n=20 k=10 R=10 rho=2 r=8 a=12 | FAITHFUL 4rho<R True a>R+1 True a-1>r True
+ -- q=101  mu_1=C(n,r)/q^rho=12.3488   q*mu_1=1247   1-exp(-mu_1)=0.999996
+   d1-x       s= 9 d=1 | column-CLOSE (common locators=1) | T=101  T_struct=  9  T_acc= 92  predicted_struct=  9 missing=0 | r+1=9  T/q=1.000000
+   d2-inj     s= 9 d=2 | column-far (common locators=0) | T=101  T_struct=  9  T_acc= 92  predicted_struct=  9 missing=0 | r+1=9  T/q=1.000000
+   d2-2to1    s= 9 d=2 | column-far (common locators=0) | T=101  T_struct=  5  T_acc= 96  predicted_struct=  5 missing=0 | r+1=9  T/q=1.000000
+   d2-s+1inj  s=10 d=2 | column-far (common locators=0) | T=101  T_struct=  0  T_acc=101  predicted_struct=  0 missing=0 | r+1=9  T/q=1.000000
+   d2-s+1sym  s=10 d=2 | column-far (common locators=0) | T=101  T_struct=  5  T_acc= 96  predicted_struct=  5 missing=0 | r+1=9  T/q=1.000000
+   ctrl-s=r   s= 8 d=1 | column-CLOSE (common locators=3) | T=101  T_struct=  8  T_acc= 93  predicted_struct=  8 missing=0 | r+1=9  T/q=1.000000
+ -- q=349  mu_1=C(n,r)/q^rho=1.03423   q*mu_1=360.9   1-exp(-mu_1)=0.644499
+   d1-x       s= 9 d=1 | column-far (common locators=0) | T=225  T_struct=  9  T_acc=216  predicted_struct=  9 missing=0 | r+1=9  T/q=0.644699
+   d2-inj     s= 9 d=2 | column-far (common locators=0) | T=253  T_struct=  9  T_acc=244  predicted_struct=  9 missing=0 | r+1=9  T/q=0.724928
+   d2-2to1    s= 9 d=2 | column-far (common locators=0) | T=239  T_struct=  5  T_acc=234  predicted_struct=  5 missing=0 | r+1=9  T/q=0.684814
+   d2-s+1inj  s=10 d=2 | column-far (common locators=0) | T=245  T_struct=  0  T_acc=245  predicted_struct=  0 missing=0 | r+1=9  T/q=0.702006
+   d2-s+1sym  s=10 d=2 | column-far (common locators=0) | T=230  T_struct=  5  T_acc=225  predicted_struct=  5 missing=0 | r+1=9  T/q=0.659026
+   ctrl-s=r   s= 8 d=1 | column-CLOSE (common locators=1) | T=227  T_struct=  8  T_acc=219  predicted_struct=  8 missing=0 | r+1=9  T/q=0.650430
+ -- q=1009  mu_1=C(n,r)/q^rho=0.123733   q*mu_1=124.8   1-exp(-mu_1)=0.116384
+   d1-x       s= 9 d=1 | column-far (common locators=0) | T=120  T_struct=  9  T_acc=111  predicted_struct=  9 missing=0 | r+1=9  T/q=0.118930
+   d2-inj     s= 9 d=2 | column-far (common locators=0) | T=186  T_struct=  9  T_acc=177  predicted_struct=  9 missing=0 | r+1=9  T/q=0.184341
+   d2-2to1    s= 9 d=2 | column-far (common locators=0) | T=172  T_struct=  5  T_acc=167  predicted_struct=  5 missing=0 | r+1=9  T/q=0.170466
+   d2-s+1inj  s=10 d=2 | column-far (common locators=0) | T=230  T_struct=  0  T_acc=230  predicted_struct=  0 missing=0 | r+1=9  T/q=0.227948
+   d2-s+1sym  s=10 d=2 | column-far (common locators=0) | T=239  T_struct=  5  T_acc=234  predicted_struct=  5 missing=0 | r+1=9  T/q=0.236868
+   ctrl-s=r   s= 8 d=1 | column-CLOSE (common locators=1) | T=139  T_struct=  8  T_acc=131  predicted_struct=  8 missing=0 | r+1=9  T/q=0.137760
+ -- q=10007  mu_1=C(n,r)/q^rho=0.00125794   q*mu_1=12.59   1-exp(-mu_1)=0.001257
+   d1-x       s= 9 d=1 | column-far (common locators=0) | T= 22  T_struct=  9  T_acc= 13  predicted_struct=  9 missing=0 | r+1=9  T/q=0.002198
+   d2-inj     s= 9 d=2 | column-far (common locators=0) | T=104  T_struct=  9  T_acc= 95  predicted_struct=  9 missing=0 | r+1=9  T/q=0.010393
+   d2-2to1    s= 9 d=2 | column-far (common locators=0) | T= 97  T_struct=  5  T_acc= 92  predicted_struct=  5 missing=0 | r+1=9  T/q=0.009693
+   d2-s+1inj  s=10 d=2 | column-far (common locators=0) | T=214  T_struct=  0  T_acc=214  predicted_struct=  0 missing=0 | r+1=9  T/q=0.021385
+   d2-s+1sym  s=10 d=2 | column-far (common locators=0) | T=211  T_struct=  5  T_acc=206  predicted_struct=  5 missing=0 | r+1=9  T/q=0.021085
+   ctrl-s=r   s= 8 d=1 | column-CLOSE (common locators=1) | T= 30  T_struct=  8  T_acc= 22  predicted_struct=  8 missing=0 | r+1=9  T/q=0.002998
+ -- q=65537  mu_1=C(n,r)/q^rho=2.93288e-05   q*mu_1=1.922   1-exp(-mu_1)=0.000029
+   d1-x       s= 9 d=1 | column-far (common locators=0) | T=  9  T_struct=  9  T_acc=  0  predicted_struct=  9 missing=0 | r+1=9  T/q=0.000137
+   d2-inj     s= 9 d=2 | column-far (common locators=0) | T= 98  T_struct=  9  T_acc= 89  predicted_struct=  9 missing=0 | r+1=9  T/q=0.001495
+   d2-2to1    s= 9 d=2 | column-far (common locators=0) | T= 93  T_struct=  5  T_acc= 88  predicted_struct=  5 missing=0 | r+1=9  T/q=0.001419
+   d2-s+1inj  s=10 d=2 | column-far (common locators=0) | T=213  T_struct=  0  T_acc=213  predicted_struct=  0 missing=0 | r+1=9  T/q=0.003250
+   d2-s+1sym  s=10 d=2 | column-far (common locators=0) | T=209  T_struct=  5  T_acc=204  predicted_struct=  5 missing=0 | r+1=9  T/q=0.003189
+   ctrl-s=r   s= 8 d=1 | column-CLOSE (common locators=1) | T= 15  T_struct=  8  T_acc=  7  predicted_struct=  8 missing=0 | r+1=9  T/q=0.000229

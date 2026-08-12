@@ -1,0 +1,36 @@
+==============================================================================
+D1b -- EXHAUSTIVE m=1 CLASSIFICATION OF ADMISSIBLE W  [r34_layer_a]
+==============================================================================
+16 realized (SAT3) pencils x 10 type-1 pairs x every W with S_g u S_h <= W <= D, |W| in {6,7,8}
+
+[A] ADMISSIBILITY OF W  (exhaustive over all 8960 W)
+     a #t2pts  x0inW  cases admissible        nullities  killed-by-t2pt
+     6      0  False    160        160         {1: 160}               0
+     7      0   True    160        160         {2: 160}               0
+     7      1  False   1440          0        {1: 1440}            1440
+     8      1   True   1440          0        {2: 1440}            1440
+     8      2  False   5760          0        {1: 5760}            5760
+
+    TOTAL 8960 W tested, 320 admissible.
+    Admissible W are EXACTLY those with NO point of a type-2 support:
+      W containing a type-2 point and admissible : 0  (must be 0)
+      W containing no type-2 point and NOT admissible : 0  (must be 0)
+    => at m=1, X_gamma = 0 for EVERY type-2 slope, in every admissible W.  a in {6,7} only; a = 8m = 8 is UNREACHABLE.
+
+[B] (NS-1) OVER EVERY ADMISSIBLE H (all projective kernel elements)
+     a  x0inW   admH   tot2   NS-A   NS-B   NS-W   CLOS  SPLIT        deg h     #F_q-roots maxX
+     6  False    160    480      0      0      0      0      0     {0: 480}       {0: 480}    0
+     7   True   1760   5280    480      0   5280   5280   4800 {0: 480, 1: 4800} {0: 480, 1: 4800}    0
+
+[C] IDENTITY CHECKS (AGG, FIB, Rin = X + n - ov): 9600/9600 pass
+
+[D] EXEMPLARS of a DEGREE-1 h_gamma at a=7 (W = S_g u S_h u {x0}):
+      a=7 d=1 slope  5: h=[15, 15] F_q-roots=[(16, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope 15: h=[8, 8] F_q-roots=[(16, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope 16: h=[3, 3] F_q-roots=[(16, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope  5: h=[15, 11] F_q-roots=[(11, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope 15: h=[8, 7] F_q-roots=[(11, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope 16: h=[3, 9] F_q-roots=[(11, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope  5: h=[15, 9] F_q-roots=[(4, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+      a=7 d=1 slope 15: h=[8, 15] F_q-roots=[(4, 1)] X=0 Rin_mult=0 nonsplit=0 n_gamma=0
+

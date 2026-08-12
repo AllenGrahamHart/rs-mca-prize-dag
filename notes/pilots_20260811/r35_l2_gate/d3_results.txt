@@ -1,0 +1,88 @@
+======================================================================
+(a) THE GENERAL-m LEDGER FOR THE (L2) REALIZATION LAYER
+======================================================================
+  curve space: (m+1) forms of degree <= rho=4m-1 -> proj dim 4m(m+1)-1
+  solvability locus = determinantal locus of the realization map;
+  its codimension is deficit+1 = 4m^2-7m+3.
+
+  m | proj dim curves | deficit 4m^2-7m+2 | det codim | EXPECTED DIM = 11m-4
+   1 |               7 |                -1 |         0 | 7
+   2 |              23 |                 4 |         5 | 18
+   3 |              47 |                17 |        18 | 29
+   4 |              79 |                38 |        39 | 40
+   5 |             119 |                67 |        68 | 51
+   6 |             167 |               104 |       105 | 62
+   7 |             223 |               149 |       150 | 73
+   8 |             287 |               202 |       203 | 84
+   9 |             359 |               263 |       264 | 95
+  10 |             439 |               332 |       333 | 106
+
+  >>> 4m(m+1)-1 - (4m^2-7m+3) = 11m-4 > 0 for EVERY m >= 1.
+  >>> The (L2) layer is NONEMPTY-EXPECTED AT EVERY m.  The sign
+      change of the deficit at m=2 is a change in the equation-count
+      excess, NOT in the existence verdict.
+----------------------------------------------------------------------
+WITNESS ANALYSIS, q = 97
+----------------------------------------------------------------------
+  dim ker Phi (= nullity of the 36x32 system, D-B)   : 1
+  recovered (f,g) proportional to the B used?        : True / True
+  => B |-> Q has a ZERO-DIMENSIONAL fibre over the witness, so
+     dim(good component) = dim{det M(B)=0} = 19-1 = 18 = 23-5,
+     i.e. the good component has EXACTLY the expected dimension
+     (the +4/codim-5 IS transverse there).  P5.
+  left kernel contains Q_Z and X*Q_Z (both param degree 2): True
+  left nullity of M_r(y_0) alone                     : 2
+  => left minimal indices (2,2), right minimal index e=2,
+     so 3e + delta = rho = 7 forces delta = 1: EXACTLY ONE rank-drop
+     parameter, with multiplicity one.  This is the mechanism of the
+     BANKED bound (A+s)e <= rho-s (MI1), which at m=2 reads 3e <= 7.
+  measured finite rank-drop points (z, rank)         : [(10, 6)]
+  rank at infinity (pencil M_r(y_1))                 : 7
+----------------------------------------------------------------------
+WITNESS ANALYSIS, q = 193
+----------------------------------------------------------------------
+  dim ker Phi (= nullity of the 36x32 system, D-B)   : 1
+  recovered (f,g) proportional to the B used?        : True / True
+  => B |-> Q has a ZERO-DIMENSIONAL fibre over the witness, so
+     dim(good component) = dim{det M(B)=0} = 19-1 = 18 = 23-5,
+     i.e. the good component has EXACTLY the expected dimension
+     (the +4/codim-5 IS transverse there).  P5.
+  left kernel contains Q_Z and X*Q_Z (both param degree 2): True
+  left nullity of M_r(y_0) alone                     : 2
+  => left minimal indices (2,2), right minimal index e=2,
+     so 3e + delta = rho = 7 forces delta = 1: EXACTLY ONE rank-drop
+     parameter, with multiplicity one.  This is the mechanism of the
+     BANKED bound (A+s)e <= rho-s (MI1), which at m=2 reads 3e <= 7.
+  measured finite rank-drop points (z, rank)         : [(62, 6)]
+  rank at infinity (pencil M_r(y_1))                 : 7
+
+======================================================================
+(d) FIELD-GENERICITY: the same inversion on three more fields
+======================================================================
+  q=257  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [86, 200, 38, 119, 100, 84, 139, 134]
+         Q_1 = [253, 227, 0, 55, 31, 200, 245, 195]
+         Q_2 = [195, 176, 219, 222, 180, 54, 158, 1]
+  q=257  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [67, 180, 176, 250, 195, 201, 66, 147]
+         Q_1 = [99, 71, 12, 37, 248, 31, 44, 173]
+         Q_2 = [143, 187, 67, 163, 130, 97, 135, 1]
+  q=257: 872 draws, 2 certified e=m=2 objects
+  q=641  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [56, 55, 491, 303, 372, 178, 353, 15]
+         Q_1 = [324, 237, 118, 498, 461, 114, 132, 167]
+         Q_2 = [39, 320, 501, 207, 239, 283, 595, 1]
+  q=641  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [344, 263, 60, 607, 229, 454, 194, 525]
+         Q_1 = [640, 572, 632, 73, 131, 319, 50, 95]
+         Q_2 = [60, 62, 189, 46, 194, 65, 68, 1]
+  q=641: 630 draws, 2 certified e=m=2 objects
+  q=769  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [67, 83, 316, 542, 444, 497, 158, 65]
+         Q_1 = [712, 321, 52, 170, 636, 417, 730, 610]
+         Q_2 = [257, 312, 538, 757, 396, 598, 568, 1]
+  q=769  CERTIFIED: e=2, generic rank 7, s=0, seprank 3, nullity 1, direct check True
+         Q_0 = [2, 41, 438, 114, 342, 637, 563, 311]
+         Q_1 = [102, 187, 514, 132, 558, 41, 168, 106]
+         Q_2 = [657, 66, 126, 704, 135, 722, 282, 1]
+  q=769: 880 draws, 2 certified e=m=2 objects

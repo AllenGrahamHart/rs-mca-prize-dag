@@ -1,0 +1,103 @@
+==============================================================================
+r34 D2 -- THE m = 3 EXHIBIT (outside completion + full verification)
+==============================================================================
+
+------------------------------------------------------------------------------
+  q = 97   FULL INCIDENCE VERIFICATION (all 13 blocks, 48 points)
+    T = 13 = rho+2 = 13                                   : True
+    block sizes all = rho = 11 ; O = 0 <= delta = m-1 = 2  : True
+    max d_x = 3 <= e = m = 3                              : True
+    sum_x (m-d_x) = 1 = 1+O = 1   [(SAT4)]                : True
+    |W| = 20 = a = 7m-1 = 20 ; W = S_g u S_h               : True
+    |S_g ^ S_h| = 2 = 2rho-a = m-1 = 2                    : True
+    min pair union = 20 = a  [(OV); W minimising]          : True
+    max pair intersection = 2 = 2rho-a = 2                : True
+    S_g,S_h inside W ; n_g = 9, n_h = 9 = a-rho = 9       : True
+    type-2 X_gamma = [2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 4]
+      cap 2m-2 = 4 (FR-canonical, PROVED)                  : True
+      per-side max |S_gamma ^ S_g| = 2, ^ S_h = 2 ; cap 2rho-a = 2 : True
+    type-2 spend |S\W| = [7, 7, 7, 7, 7, 7, 7, 7, 9, 9, 9] ; floor (R+1)-a = 5           : True
+    |A_x| = m = 3 for every x in W                         : True
+    A_x agrees with block membership                       : True
+
+    >>> (BIV-CURVE) DIRECT: G(.,x) = (B(x)Z-A(x))(B(-x)Z-A(-x)) has
+        EXACTLY the prescribed type-2 fibre at every x in W  : True
+        leading coeff c_x = B(x)B(-x) != 0 for every x in W  : True
+        deg_x G <= 6 = 3m-3, deg_Z G = 2 = m-1              : True
+
+    >>> BIVARIATE SYSTEM (m+2)(4m+1) = 65 equations, 2a = 40 unknowns
+    >>> rank 39, NULLITY 1
+    >>> admissible kernel (every (alpha_x,beta_x) nonzero)   : True
+    >>> recovered mu = h on S_g\S_h, mu = g on S_h\S_g      : True
+    >>> mu(m1) = 65, mu(m2) = 65 ; be0 = 65 ; not type-2 slopes : True
+    >>> sum_gamma n_gamma = 20 = a = 20                        : True
+
+    phi = A/B, A = [84, 11, 31, 76], B = [91, 67, 86, 26] over F_97
+    g = 66, h = 26 ; type-2 slopes = [9, 34, 50, 55, 57, 62, 64, 78, 85, 87, 92]
+    W   = [1, 2, 8, 9, 11, 16, 18, 25, 36, 47, 50, 61, 72, 79, 81, 86, 88, 89, 95, 96]
+    S_g = [1, 2, 8, 9, 16, 25, 36, 50, 79, 86, 96]
+    S_h = [1, 11, 18, 47, 61, 72, 81, 88, 89, 95, 96]
+      S_g     (|.|=11, X=11) = [1, 2, 8, 9, 16, 25, 36, 50, 79, 86, 96]
+      S_h     (|.|=11, X=11) = [1, 11, 18, 47, 61, 72, 81, 88, 89, 95, 96]
+      S_t34   (|.|=11, X= 4) = [9, 11, 24, 27, 32, 35, 49, 65, 86, 88, 91]
+      S_t50   (|.|=11, X= 4) = [4, 25, 31, 35, 36, 49, 61, 64, 72, 85, 93]
+      S_t55   (|.|=11, X= 2) = [6, 8, 22, 27, 35, 43, 44, 70, 75, 85, 89]
+      S_t57   (|.|=11, X= 2) = [2, 4, 6, 12, 43, 49, 53, 66, 91, 94, 95]
+      S_t62   (|.|=11, X= 4) = [2, 3, 24, 44, 47, 50, 64, 70, 73, 93, 95]
+      S_t64   (|.|=11, X= 4) = [12, 18, 27, 32, 36, 44, 48, 61, 62, 73, 79]
+      S_t78   (|.|=11, X= 4) = [9, 12, 22, 33, 47, 48, 50, 54, 66, 75, 88]
+      S_t85   (|.|=11, X= 4) = [16, 18, 22, 24, 31, 33, 53, 79, 81, 85, 94]
+      S_t87   (|.|=11, X= 4) = [11, 25, 53, 54, 62, 70, 72, 73, 75, 86, 94]
+      S_t9    (|.|=11, X= 4) = [3, 4, 8, 16, 48, 62, 65, 81, 89, 91, 93]
+      S_t92   (|.|=11, X= 2) = [1, 3, 6, 31, 32, 33, 43, 54, 64, 65, 96]
+
+------------------------------------------------------------------------------
+  q = 193   FULL INCIDENCE VERIFICATION (all 13 blocks, 48 points)
+    T = 13 = rho+2 = 13                                   : True
+    block sizes all = rho = 11 ; O = 0 <= delta = m-1 = 2  : True
+    max d_x = 3 <= e = m = 3                              : True
+    sum_x (m-d_x) = 1 = 1+O = 1   [(SAT4)]                : True
+    |W| = 20 = a = 7m-1 = 20 ; W = S_g u S_h               : True
+    |S_g ^ S_h| = 2 = 2rho-a = m-1 = 2                    : True
+    min pair union = 20 = a  [(OV); W minimising]          : True
+    max pair intersection = 2 = 2rho-a = 2                : True
+    S_g,S_h inside W ; n_g = 9, n_h = 9 = a-rho = 9       : True
+    type-2 X_gamma = [2, 2, 2, 4, 4, 4, 4, 4, 4, 4, 4]
+      cap 2m-2 = 4 (FR-canonical, PROVED)                  : True
+      per-side max |S_gamma ^ S_g| = 2, ^ S_h = 2 ; cap 2rho-a = 2 : True
+    type-2 spend |S\W| = [7, 7, 7, 7, 7, 7, 7, 7, 9, 9, 9] ; floor (R+1)-a = 5           : True
+    |A_x| = m = 3 for every x in W                         : True
+    A_x agrees with block membership                       : True
+
+    >>> (BIV-CURVE) DIRECT: G(.,x) = (B(x)Z-A(x))(B(-x)Z-A(-x)) has
+        EXACTLY the prescribed type-2 fibre at every x in W  : True
+        leading coeff c_x = B(x)B(-x) != 0 for every x in W  : True
+        deg_x G <= 6 = 3m-3, deg_Z G = 2 = m-1              : True
+
+    >>> BIVARIATE SYSTEM (m+2)(4m+1) = 65 equations, 2a = 40 unknowns
+    >>> rank 39, NULLITY 1
+    >>> admissible kernel (every (alpha_x,beta_x) nonzero)   : True
+    >>> recovered mu = h on S_g\S_h, mu = g on S_h\S_g      : True
+    >>> mu(m1) = 98, mu(m2) = 98 ; be0 = 98 ; not type-2 slopes : True
+    >>> sum_gamma n_gamma = 20 = a = 20                        : True
+
+    phi = A/B, A = [119, 188, 39, 178], B = [78, 5, 126, 16] over F_193
+    g = 10, h = 104 ; type-2 slopes = [18, 30, 43, 76, 89, 91, 121, 137, 159, 188, 191]
+    W   = [1, 4, 9, 12, 27, 28, 43, 62, 63, 84, 109, 130, 131, 150, 165, 166, 181, 184, 189, 192]
+    S_g = [1, 4, 27, 43, 63, 84, 131, 165, 181, 184, 192]
+    S_h = [1, 9, 12, 28, 62, 109, 130, 150, 166, 189, 192]
+      S_g     (|.|=11, X=11) = [1, 4, 27, 43, 63, 84, 131, 165, 181, 184, 192]
+      S_h     (|.|=11, X=11) = [1, 9, 12, 28, 62, 109, 130, 150, 166, 189, 192]
+      S_t121  (|.|=11, X= 4) = [3, 16, 36, 43, 49, 63, 129, 130, 150, 172, 190]
+      S_t137  (|.|=11, X= 2) = [1, 3, 46, 48, 55, 81, 144, 172, 177, 186, 192]
+      S_t159  (|.|=11, X= 4) = [7, 55, 63, 84, 85, 109, 112, 130, 143, 145, 177]
+      S_t18   (|.|=11, X= 4) = [4, 16, 49, 59, 62, 112, 131, 144, 147, 177, 189]
+      S_t188  (|.|=11, X= 2) = [12, 16, 21, 36, 46, 64, 138, 143, 147, 181, 186]
+      S_t191  (|.|=11, X= 4) = [3, 9, 36, 48, 59, 84, 108, 109, 147, 157, 184]
+      S_t30   (|.|=11, X= 4) = [4, 43, 50, 55, 64, 108, 134, 138, 150, 157, 189]
+      S_t43   (|.|=11, X= 2) = [28, 46, 59, 85, 108, 112, 129, 134, 165, 186, 190]
+      S_t76   (|.|=11, X= 4) = [21, 27, 48, 50, 62, 129, 131, 134, 143, 145, 166]
+      S_t89   (|.|=11, X= 4) = [7, 9, 27, 64, 81, 85, 138, 144, 166, 184, 190]
+      S_t91   (|.|=11, X= 4) = [7, 12, 28, 49, 50, 81, 145, 157, 165, 172, 181]
+
+==============================================================================
