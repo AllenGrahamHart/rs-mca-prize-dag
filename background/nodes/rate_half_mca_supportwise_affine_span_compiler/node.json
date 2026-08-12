@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1857,
+  "node": {
+    "id": "rate_half_mca_supportwise_affine_span_compiler",
+    "title": "Rate-half MCA support-wise affine-span compiler",
+    "status": "PROVED",
+    "closure": "direction-separation removed by exact pair noncontainment",
+    "statement": "In the affine-span MCA incidence theorem, global direction separation is unnecessary when every counted slope carries an exact same-support pair-noncontained witness. Any incident-normal rank failure either gives a nonzero codeword with at least K roots or makes the direction a codeword on that witness support; in the latter case subtracting it from the slope explanation also makes the base word a codeword there, contradicting noncontainment. The original affine-span bound therefore holds unchanged. Applied after whole-line global-core cancellation, it pays every shortened family through s=13 on KoalaBear and s=5 on Mersenne-31, removing the direction-list residual at those depths.",
+    "refs": [
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/statement.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/proof.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/audit.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/result.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/source_contract.json",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify.py",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_whole_line_global_core_router",
+      "order": 5152
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location",
+      "order": 5153
+    }
+  ],
+  "refutes": []
+}

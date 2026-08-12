@@ -29227,6 +29227,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_supportwise_affine_span_compiler",
+   "title": "Rate-half MCA support-wise affine-span compiler",
+   "status": "PROVED",
+   "closure": "direction-separation removed by exact pair noncontainment",
+   "statement": "In the affine-span MCA incidence theorem, global direction separation is unnecessary when every counted slope carries an exact same-support pair-noncontained witness. Any incident-normal rank failure either gives a nonzero codeword with at least K roots or makes the direction a codeword on that witness support; in the latter case subtracting it from the slope explanation also makes the base word a codeword there, contradicting noncontainment. The original affine-span bound therefore holds unchanged. Applied after whole-line global-core cancellation, it pays every shortened family through s=13 on KoalaBear and s=5 on Mersenne-31, removing the direction-list residual at those depths.",
+   "refs": [
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/statement.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/proof.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/audit.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/result.md",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify.py",
+    "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65175,6 +65193,16 @@
   },
   {
    "from": "rate_half_mca_whole_line_global_core_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_whole_line_global_core_router",
+   "to": "rate_half_mca_supportwise_affine_span_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_supportwise_affine_span_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
