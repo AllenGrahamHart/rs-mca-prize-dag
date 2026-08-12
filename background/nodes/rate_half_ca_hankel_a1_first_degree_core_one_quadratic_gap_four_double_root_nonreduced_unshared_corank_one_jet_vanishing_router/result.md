@@ -1,6 +1,7 @@
 # Result
 
-On the regular corank-one locus, the contracted-source kernel automatically
-makes the padded heavy root simple, and symmetry forces both nonreduced
-obstruction jets to vanish. Any unshared nonreduced survivor must therefore
-have regular corank at least two.
+On the separated regular-corank-one locus, symmetry forces both nonreduced
+obstruction jets to vanish. A corank-one nonzero-jet survivor must instead
+put the heavy point on the compressed minimal recurrence; that collision is
+not excluded merely because the heavy point lies outside the original
+fixed source.

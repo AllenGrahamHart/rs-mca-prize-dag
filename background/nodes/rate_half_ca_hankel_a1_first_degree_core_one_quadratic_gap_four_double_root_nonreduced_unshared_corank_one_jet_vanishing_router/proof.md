@@ -8,19 +8,17 @@ N(z)v(z)
 ord det N=4.                                        (2)
 ```
 
-We first show that corank one supplies the simple-root evaluation. The full
-specialized Hankel kernel has dimension two: one permanent primitive line
-and one regular line. If `P_tau` is the minimal locator of the nonzero
-contracted source weights, the distinct-source Vandermonde representation
-gives
+The full specialized Hankel kernel has dimension two: one permanent
+primitive line and one regular line. The regular Hankel recurrence theorem
+for its minimal polynomial `P_tau` gives
 
 ```text
 ker M_tau=P_tau F[X]_(<=d-deg P_tau).              (3)
 ```
 
-Hence `deg P_tau=d-1`. Every source point lies in `U_0`, while the fixed
-heavy point lies outside `U_0`; therefore `P_tau(x_*)!=0`. The primitive
-degree-`d` kernel polynomial vanishes at `x_*`, so `(3)` forces
+Hence `deg P_tau=d-1`. The separation hypothesis in `(HCR1)` says
+`P_tau(x_*)!=0`. The primitive degree-`d` kernel polynomial vanishes at
+`x_*`, so `(3)` forces
 
 ```text
 Q(tau,X)=c(X-x_*)P_tau(X),       c!=0.              (4)
@@ -80,4 +78,5 @@ The lemma again makes it zero, so `kappa_3=0`. This proves `(HCR3)`.
 
 The equivalence in the two-jet theorem now gives local divisibility by
 `D_1`, extension of the degree-at-most-three quotient, and Smith type
-`[4]`. Taking the contrapositive of `(HCR3)` gives `(HCR4)`. QED.
+`[4]`. Taking the contrapositive of `(HCR3)` at regular corank one gives
+`(HCR4)`. QED.

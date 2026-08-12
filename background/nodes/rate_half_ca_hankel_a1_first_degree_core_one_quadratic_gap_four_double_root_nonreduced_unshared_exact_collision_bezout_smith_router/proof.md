@@ -40,26 +40,21 @@ T_p=[ b       -a c_0 ]
     [ a        b-a c_1].                           (4)
 ```
 
-If `a(0)` were nonzero, `(4)` would have specialized corank one. The
-higher-corank locator theorem gives regular corank at least two on every
-nonzero-jet collision. Therefore
-
-```text
-z|a.                                               (5)
-```
-
 Now
 
 ```text
-det T_p=b^2-a b c_1+a^2c_0.                       (6)
+det T_p=b^2-a b c_1+a^2c_0.                       (5)
 ```
 
-The three terms in `(6)` have respective orders `4`, at least `6`, and
-at least `8`. Hence `ord_z det T_p=4`, with no possible cancellation.
+The three terms in `(5)` have respective orders `4`, at least `5`, and
+at least `6`. Hence `ord_z det T_p=4`, with no possible cancellation.
 
-If `ord_z a=1`, the gcd of the entries of `(4)` has order one. The two
+If `a(0)` is nonzero, `(4)` has one unit invariant and one positive
+invariant of exponent four. Its regular specialization has corank one and
+positive Smith profile `[4]`. If `ord_z a=1`, the gcd of the entries of
+`(4)` has order one. The two
 Smith exponents therefore have sum four and minimum one, giving `[1,3]`.
 If `ord_z a>=2`, every entry is divisible by `z^2`, while the entry `b`
 has exact order two. The exponents are `[2,2]`. In either case `(4)` is
-zero modulo `z`, so the regular corank is exactly two. This proves
-`(CBS3)--(CBS5)`. QED.
+zero modulo `z`, so the regular corank is exactly two. This proves the
+complete trichotomy `(CBS3)--(CBS5)`. QED.

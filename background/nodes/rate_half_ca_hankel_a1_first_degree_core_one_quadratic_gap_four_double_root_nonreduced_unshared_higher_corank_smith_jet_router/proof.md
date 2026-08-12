@@ -1,6 +1,6 @@
 # Proof
 
-The two-jet theorem and its corank-one refinement give
+The two-jet theorem gives
 
 ```text
 N(z)v(z)=z^2 kappa_2 nu(x_*)
@@ -8,14 +8,14 @@ N(z)v(z)=z^2 kappa_2 nu(x_*)
 ord_z det N=4,                                     (1)
 ```
 
-and `(HSR1)` implies `r>=2`.
+and the higher-corank hypothesis gives `r>=2`.
 Every positive Smith exponent is at least one and their sum is the
 determinant order four, so `r<=4`.
 
 The full specialized Hankel kernel consists of one permanent primitive
 line plus the `r` regular kernel directions, so it has dimension `r+1`.
-For the distinct contracted source points, the Vandermonde kernel theorem
-gives
+The regular Hankel recurrence theorem for the specialized minimal
+polynomial gives
 
 ```text
 ker M_tau=P_tau F[X]_(<=d-deg P_tau).              (2)
@@ -24,9 +24,9 @@ ker M_tau=P_tau F[X]_(<=d-deg P_tau).              (2)
 Comparing dimensions in `(2)` gives `deg P_tau=d-r`. Both `U_tau` and
 `Q_tau=(X-x_*)U_tau` lie in this kernel. Since `deg U_tau=d-1`, division
 by `P_tau` gives a polynomial `L_tau` of degree `r-1` and the two
-factorizations in `(HSR2)`. Every root of `P_tau` is a contracted source
-point in `U_0`, whereas `x_*` lies outside `U_0`. Hence `P_tau(x_*)!=0`,
-which proves `(HSR3)`.
+factorizations in `(HSR2)`. Evaluating the first factorization at `x_*`
+gives `(HSR3)` without identifying the roots of `P_tau` with the original
+fixed source.
 
 It remains to classify the symmetric local block. We use the following
 valuation lemma. Let a symmetric matrix over the local DVR have positive

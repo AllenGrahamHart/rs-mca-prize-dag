@@ -5,8 +5,6 @@ minimum-gap root/contact normal forms              [PROVED]
                          |
 nonreduced two-jet gate                            [PROVED]
                          |
-higher-corank Smith/locator router                 [PROVED]
-                         |
                          v
 normalization/collision dichotomy                  [PROVED]
                          |

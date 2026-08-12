@@ -4,8 +4,8 @@
     "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router",
     "title": "A=1 quadratic nonreduced exact-collision Bezout/Smith router",
     "status": "PROVED",
-    "closure": "exact corank two and one-scalar Smith dichotomy",
-    "statement": "In odd residue characteristic, every unshared nonreduced nonzero-jet collision has regular corank exactly two. For the local quadratic factor q=y^2+c_1y+c_0 and P_F=b+ay modulo q, ord b=2, ord c_0=6, ord c_1>=3, and ord a>=1. The Smith profile is [1,3] when ord a=1 and [2,2] when ord a>=2; the single scalar [z]a routes the complete collision.",
+    "closure": "exact corank-one/two and two-scalar Smith trichotomy",
+    "statement": "In odd residue characteristic, every unshared nonreduced nonzero-jet collision has regular corank at most two. For the local quadratic factor q=y^2+c_1y+c_0 and P_F=b+ay modulo q, ord b=2, ord c_0=6, and ord c_1>=3. A unit a gives corank one and positive Smith profile [4], ord a=1 gives [1,3], and ord a>=2 gives [2,2]. The coefficients a(0) and [z]a route the complete collision.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router/statement.md",
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router/proof.md",
@@ -21,9 +21,6 @@
   "requires": [
     {
       "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_normalization_collision_dichotomy"
-    },
-    {
-      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_higher_corank_smith_jet_router"
     },
     {
       "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_bezout_contact_module_presentation"

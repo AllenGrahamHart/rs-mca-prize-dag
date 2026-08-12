@@ -2,7 +2,6 @@
 
 ```text
 normalization/collision dichotomy             [PROVED]
-higher-corank locator router                  [PROVED]
 Pade-Bezout contact-module presentation       [PROVED]
                     |
                     v

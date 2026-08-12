@@ -10,5 +10,6 @@ collision or one of only three noncollision profiles:
 ```
 
 The corank-four profile `[1,1,1,1]` forces both jets to vanish. Thus the
-formerly unrestricted higher-corank escape has only three exact Smith/jet
-types plus one explicit locator collision.
+higher-corank escape has only three exact Smith/jet types plus one explicit
+collision, with the latter split into compressed-recurrence and residual
+factors.

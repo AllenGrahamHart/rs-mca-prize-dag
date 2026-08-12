@@ -23,7 +23,7 @@ normalization patterns survive. The smooth doubled-point pattern has
 
 ```text
 result:                  PROVED normalization/collision dichotomy
-DAG delta:               +1 PROVED leaf, 3 req edges, 1 evidence edge
+DAG delta after repair:  +1 PROVED leaf, 2 req edges, 1 evidence edge
 critical status delta:   none
 compute:                 three integer valuation patterns; no Modal spend
 new assumptions:         unshared nonreduced minimum-gap packet

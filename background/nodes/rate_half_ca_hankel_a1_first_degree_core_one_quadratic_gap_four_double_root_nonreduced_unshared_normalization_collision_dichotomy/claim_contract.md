@@ -3,8 +3,7 @@
 - **Claim:** exact normalization valuations force every unshared
   nonreduced correction either to close at `ord_tau F_0=4` or to have
   `ord_tau F_0=2`, `kappa_2!=0`, and an exact double quotient-root collision.
-- **Dependencies:** the minimum-gap root/contact divisors, two-jet gate, and
-  higher-corank locator router.
+- **Dependencies:** the minimum-gap root/contact divisors and two-jet gate.
 - **Output:** `(NCD3)--(NCD5)`, including elimination of every first-nonzero
   third-jet and every noncollision nonzero-jet profile.
 - **Consumer:** the nonreduced double-root branch in

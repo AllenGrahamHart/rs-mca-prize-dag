@@ -56,7 +56,7 @@ for name, (c1, c0) in fixtures.items():
         first = min(valuation(entry) for row in matrix for entry in row)
         profile = (first, 4 - first)
         if order_a == 0:
-            require(profile == (0, 4), "corank-one rejected branch")
+            require(profile == (0, 4), "corank-one profile")
         elif order_a == 1:
             require(profile == (1, 3), "first-order profile")
         else:

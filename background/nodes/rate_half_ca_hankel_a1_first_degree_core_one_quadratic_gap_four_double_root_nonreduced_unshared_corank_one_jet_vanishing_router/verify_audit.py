@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the corank-one conclusion and the corank-two escape."""
+"""Audit the separated corank-one conclusion and abstract corank-two escape."""
 
 
 def main() -> None:
@@ -17,7 +17,10 @@ def main() -> None:
     assert first_chain_order == 2
     assert first_chain_order < determinant_order
 
-    print("RATE_HALF_NONREDUCED_CORANK_ONE_JET_ROUTER_AUDIT_PASS escape=[2,2]")
+    print(
+        "RATE_HALF_NONREDUCED_CORANK_ONE_JET_ROUTER_AUDIT_PASS "
+        "separation=explicit abstract_escape=[2,2]"
+    )
 
 
 if __name__ == "__main__":

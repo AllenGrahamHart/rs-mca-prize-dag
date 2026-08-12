@@ -7,10 +7,9 @@
 3. The proof first kills `kappa_2`; only then is the order-three coefficient
    exactly `kappa_3 U_tau(x_*)` without a derivative cross-term.
 4. Corank one makes the full specialized Hankel kernel two-dimensional,
-   hence the minimal locator has degree `d-1`. Since its roots lie in `U_0`
-   and `x_*` does not, the simple padded-root evaluation follows rather than
-   being assumed.
-5. A quotient-root collision therefore belongs to the higher-corank route;
-   it is not a second corank-one escape.
+   hence the minimal recurrence has degree `d-1`. Its nonvanishing at
+   `x_*` is now explicit; it does not follow from original-source support.
+5. A compressed-recurrence collision is a genuine corank-one escape and is
+   routed rather than silently discarded.
 6. The conclusion uses the existing two-jet equivalence for divisibility
    and Smith type; those claims are not reproved with widened scope.

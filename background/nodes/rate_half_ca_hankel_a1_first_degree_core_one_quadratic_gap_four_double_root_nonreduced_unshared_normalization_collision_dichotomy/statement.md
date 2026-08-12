@@ -59,8 +59,7 @@ the higher-corank Smith router are empty in the geometric packet.
 
 ## Scope
 
-The theorem does not exclude the exact collision in `(NCD4)` and does not
-classify its regular Smith partition. All four higher-corank partitions of
-determinant order four remain abstractly possible there because
-`U_tau(x_*)=0` removes the self-pairing evaluation used by the noncollision
-router. Shared nonreduced roots are not covered.
+The theorem does not exclude the exact collision in `(NCD4)` and, by
+itself, does not classify its regular Smith partition. The downstream
+Pade-Bezout contact-module router supplies that classification. Shared
+nonreduced roots are not covered.
