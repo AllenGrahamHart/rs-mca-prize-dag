@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1854,
+  "node": {
+    "id": "rate_half_mca_pole_line_typed_witness_certificate",
+    "title": "Rate-half MCA deployed pole-line typed witness certificate",
+    "status": "PROVED",
+    "closure": "pinned upstream certificate plus independent reconstruction",
+    "statement": "The upstream #1159 record KB_SPARSE_BOUNDARY_ACTUAL_RECORD_V1 is a typed, machine-checked actual deployed KoalaBear MCA witness. On the exact size-m support, the pole line at slope alpha reduces to indicator_E and is explained by zero, while the direction word cannot agree with any degree-<k polynomial there. Its support-complement locator and zero numerator pass the degree-guarded shifted-lattice adapter. The received-word lattice minimum is exactly 67473 under both shifts, giving a boundary numerical profile for K=k and first-interior numerical profile for K=k+1. No frozen Q, BC, or U_new owner is assigned.",
+    "refs": [
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/statement.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/proof.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/claim_contract.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/dependency_subdag.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/audit.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/result.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/lineage.md",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/source_contract.json",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/verify.py",
+      "background/nodes/rate_half_mca_pole_line_typed_witness_certificate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_degree_guarded_shifted_lattice_witness_adapter",
+      "order": 5146
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 5147
+    }
+  ],
+  "refutes": []
+}

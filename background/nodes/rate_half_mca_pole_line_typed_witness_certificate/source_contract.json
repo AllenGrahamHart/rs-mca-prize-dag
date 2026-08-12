@@ -1,0 +1,46 @@
+{
+  "schema": "rate-half-mca-pole-line-typed-witness-certificate-v1",
+  "canonical_dossier_commit": "c8d48cd4b94fb256ad9fedfc1d53b4b14c77bfad",
+  "upstream": {
+    "pr1159_head": "e603e0cedc5220ec2f29bd53836e732e3ec14934",
+    "manifest_blob": "ad2adb39a3f20dc6453c0ed3f509db353751ad68",
+    "schema_blob": "6789b48476e3f16557ef6be59d086c6dd6c77008",
+    "python_verifier_blob": "57bfec727a3bf032236c7c0d3f5852c55fd526d9",
+    "sage_verifier_blob": "dbfabead1542e2297f3c8ea4e0ac58b503ecf8eb",
+    "flint_verifier_blob": "3f8b6b57cab4e2ff598556c94f42784001fe56f4",
+    "wolfram_verifier_blob": "59a755387b7add10ce273a13422eeb373abc9513",
+    "semantic_mutations_rejected": 62,
+    "parser_mutations_rejected": 3
+  },
+  "field": {
+    "p": 2130706433,
+    "p_minus_1_two_exponent": 24,
+    "p_minus_1_odd_prime": 127,
+    "pocklington_witness_for_2": 3,
+    "pocklington_witness_for_127": 2,
+    "extension_modulus_low_to_high": [6, 1, 0, 0, 0, 0, 1]
+  },
+  "row": {
+    "n": 2097152,
+    "k": 1048576,
+    "effective_k": 1048577,
+    "m": 1116048,
+    "omega": 981104,
+    "zeta": 1213133211
+  },
+  "record": {
+    "id": "KB_SPARSE_BOUNDARY_ACTUAL_RECORD_V1",
+    "error_prefix_size": 67473,
+    "support_start": 67473,
+    "support_end_exclusive": 1183521,
+    "slope": "alpha",
+    "r0": "indicator_E + alpha/(x-alpha)",
+    "r1": "-1/(x-alpha)",
+    "slope_word": "indicator_E",
+    "explanation": "0",
+    "guarded_quotient_degree": -1,
+    "d1_code_shift": 67473,
+    "d1_effective_shift": 67473,
+    "frozen_owner": "UNASSIGNED"
+  }
+}
