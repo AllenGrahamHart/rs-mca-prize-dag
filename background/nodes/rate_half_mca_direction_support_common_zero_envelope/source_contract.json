@@ -1,0 +1,41 @@
+{
+  "schema": "rate-half-mca-direction-support-common-zero-envelope-v1",
+  "sources": {
+    "support_basis_payment": "rate_half_mca_direction_support_affine_basis_payment",
+    "supportwise_incidence": "rate_half_mca_supportwise_affine_span_compiler"
+  },
+  "theorem": {
+    "zero_normal_split": "z=g+c with 0<=z<=K-r",
+    "fixed_z_maximizer": "c=0,g=z",
+    "x_change": "x=R+K-z in [R+r,R+K]",
+    "bound": "floor(max_(x=R+r..R+K) ((x)_fall_(r+1)-(x-e)_fall_(r+1))/((x-R+d)d_rise_r))",
+    "uniform_range": "replace R+K by 2R for every r<=K<=R"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "budget": 274980728111395087,
+      "rank_support_walls": [
+        {"rank": 12, "last_paid_e": 31806, "bound_last": 274974775880138282, "argmax_last_x": 2097152, "first_unpaid_e": 31807, "bound_first_unpaid": 274982650871609405, "argmax_first_x": 2097152},
+        {"rank": 13, "last_paid_e": 870, "bound_last": 274698567974075567, "argmax_last_x": 2097152, "first_unpaid_e": 871, "bound_first_unpaid": 275013461593529982, "argmax_first_x": 2097152},
+        {"rank": 14, "last_paid_e": 26, "bound_last": 274047980317063719, "argmax_last_x": 2097152, "first_unpaid_e": 27, "bound_first_unpaid": 284587337354865036, "argmax_first_x": 2097152},
+        {"rank": 15, "last_paid_e": 0, "bound_last": 0, "argmax_last_x": null, "first_unpaid_e": 1, "bound_first_unpaid": 349406786895662257, "argmax_first_x": 2097152}
+      ]
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "budget": 16777215,
+      "rank_support_walls": [
+        {"rank": 5, "last_paid_e": 124471, "bound_last": 16777173, "argmax_last_x": 2097152, "first_unpaid_e": 124472, "bound_first_unpaid": 16777288, "argmax_first_x": 2097152},
+        {"rank": 6, "last_paid_e": 2973, "bound_last": 16774034, "argmax_last_x": 2097152, "first_unpaid_e": 2974, "bound_first_unpaid": 16779652, "argmax_first_x": 2097152},
+        {"rank": 7, "last_paid_e": 83, "bound_last": 16707825, "argmax_last_x": 2097152, "first_unpaid_e": 84, "bound_first_unpaid": 16909096, "argmax_first_x": 2097152},
+        {"rank": 8, "last_paid_e": 2, "bound_last": 14083061, "argmax_last_x": 2097152, "first_unpaid_e": 3, "bound_first_unpaid": 21124551, "argmax_first_x": 2097152},
+        {"rank": 9, "last_paid_e": 0, "bound_last": 0, "argmax_last_x": null, "first_unpaid_e": 1, "bound_first_unpaid": 243238797, "argmax_first_x": 2097152}
+      ]
+    }
+  ]
+}

@@ -29371,6 +29371,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_direction_support_common_zero_envelope",
+   "title": "Rate-half MCA direction-support common-zero envelope",
+   "status": "PROVED",
+   "closure": "exact one-dimensional affine-basis envelope",
+   "statement": "Retaining the zero-normal count in the direction-support affine-basis proof gives |Z|<=floor(max_(x=R+r..R+K) ((x)_fall_(r+1)-(x-e)_fall_(r+1))/((x-R+d)d_rise_r)). Exhaustive exact evaluation over the uniform interval through 2R pays e<=31806,870,26 at KoalaBear ranks 12,13,14 and e<=124471,2973,83,2 at Mersenne ranks 5,6,7,8. The Mersenne rank-five wall lies beyond e=d, cutting the middle-support residual.",
+   "refs": [
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/statement.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/proof.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/claim_contract.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/dependency_subdag.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/audit.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/result.md",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/source_contract.json",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/verify.py",
+    "background/nodes/rate_half_mca_direction_support_common_zero_envelope/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65439,6 +65457,21 @@
   },
   {
    "from": "rate_half_mca_direction_support_affine_basis_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_direction_support_affine_basis_payment",
+   "to": "rate_half_mca_direction_support_common_zero_envelope",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_supportwise_affine_span_compiler",
+   "to": "rate_half_mca_direction_support_common_zero_envelope",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_direction_support_common_zero_envelope",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
