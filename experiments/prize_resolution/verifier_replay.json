@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quadratic_companion_subgroup_coincidence_router/verify.py",
-      "seconds": 0.032885,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quadratic_companion_torus_gcd_exclusion/verify.py",
+      "seconds": 0.013765,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_SUBGROUP_COINCIDENCE_PASS checks=1498\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_TORUS_GCD_EXCLUSION_PASS s3_points=1649267441646 c3_points=824633720823 shapes_excluded=B,D shapes_remaining=A,C\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quadratic_companion_subgroup_coincidence_router/verify_audit.py",
-      "seconds": 0.018952,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quadratic_companion_torus_gcd_exclusion/verify_audit.py",
+      "seconds": 0.019116,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_SUBGROUP_COINCIDENCE_AUDIT_PASS tamper=1/1\n"
+      "stdout_tail": "RATE_HALF_QUADRATIC_TORUS_GCD_EXCLUSION_AUDIT_PASS tamper=1/1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
