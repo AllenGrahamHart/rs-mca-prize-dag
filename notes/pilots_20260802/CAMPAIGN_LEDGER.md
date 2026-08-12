@@ -6372,3 +6372,32 @@ for scratch. One prior cd-drift (into notes/) caused a tools/ramguard
 path miss (exit 127, no compute run) — corrected by returning to repo
 root.
 ----------------------------------------------------------------------
+
+## 2026-08-12 — UPSTREAM PR-SWEEP SESSION COMPLETE (task #42)
+
+Swept `#1153`-`#1163` (8 unswept Scott PRs; upstream main unchanged since
+2026-07-29; no maintainer comments on our six open PRs). Deltas:
+
+1. `#1160` 2w repair: worker cycle 119 had already harvested it
+   (`45b01e4e0`); coordinator audit ADDED this session — proof
+   line-verified, independent `verify_audit.py` (exhaustive 8008-support
+   `mu_16` census, `F_29` fresh-field falsifier replay, deployed charges
+   134944/134896), provenance timeline note (upstream read our
+   pre-repair head `3edb8b31`).
+2. `#1163` NEW import node
+   `rate_half_kb_common_core_shortening_adapter_staircase_import`
+   (PROVED): cancellation adapter + four exact walls (c=4131 interface
+   drop, s=3 cell failure, J_13<B_*<J_14, 3765-bit Jo multiplier), all
+   constants recomputed twice; from-scratch F_17 adapter replay (own
+   record, not the upstream atom); route-cut RECORD, zero ledger.
+3. External replay confirmations banked: `#1153` (cell-5 xi3, zero
+   witnesses) and `#1157` (raw 433-1b->O0a, 25200 systems, zero
+   survivors) on the two aggregate nodes' source evidence + PARTIAL
+   record on the k3_independent_review TARGET (stays TARGET).
+4. `#1158`/`#1159` (carrier-fold cut; d1=67473 + SEM-QBC) recorded on
+   the K3 review addendum. `#1154`/`#1155` already reconciled 08-10.
+
+Chain: DAG 2326/6856; verify_prize_dag PASS; census UNCHANGED
+231(167/37/27) / 246(179/39/28) / spine 15; sectioned docs PASS;
+manifest 3270 scripts. COMPLIANCE: zero bare-python3 breaches this
+session (all invocations ramguarded).

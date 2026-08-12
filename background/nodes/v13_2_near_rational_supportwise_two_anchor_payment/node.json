@@ -14,7 +14,8 @@
       "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/audit.md",
       "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/result.md",
       "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/provenance.md",
-      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py"
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py",
+      "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify_audit.py"
     ]
   },
   "requires": [

@@ -1,0 +1,41 @@
+{
+  "schema": "prize-import-certificate-v1",
+  "upstream": {
+    "repo": "przchojecki/rs-mca",
+    "pr": 1163,
+    "head": "e26c15b2d",
+    "stacked_on": {"pr": 1160, "head": "c5f4ea7a"},
+    "payload_sha256": "f5aac02184e6e3c0c3acda8fc64929d37e3166ce74556e7b3d217cdc8a520b7c"
+  },
+  "row": {
+    "n": 2097152,
+    "k": 1048576,
+    "m": 1116048,
+    "d": 67472,
+    "R": 1048576,
+    "t": 981104,
+    "B_star": 274980728111395087
+  },
+  "walls": {
+    "interface_last_surviving_core": 4130,
+    "interface_drop_core": 4131,
+    "interface_identity": "32m-17n=61952, survives iff 61952>15c",
+    "b_cell": {
+      "1": 549756338176,
+      "2": 192154133857304576,
+      "3": 50372197381489643749376
+    },
+    "j_boundary": {
+      "J13": 47876303026096432,
+      "J14": 743896698428332665
+    },
+    "jo_multiplier_at_4131": {"bits": 3765, "decimal_digits": 1134}
+  },
+  "audit_replay": {
+    "toy_row": [17, 4, 6],
+    "core": [1, 2],
+    "slopes": [3, 5],
+    "shortened_row": [15, 2, 4],
+    "witness_subsets_checked": 10
+  }
+}

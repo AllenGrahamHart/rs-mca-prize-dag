@@ -13,3 +13,13 @@
    `w=0`.
 6. `verify.py` checks the two-anchor identities and the smooth
    `RS[F_17,F_17^*,8]` regression that refutes the former `+1` charge.
+7. Coordinator audit (2026-08-12, PR-sweep session): `verify_audit.py` is
+   an independent second code path. It decides badness of every finite
+   slope on the `mu_16` fixture by an EXHAUSTIVE scan of all
+   `C(16,10)=8008` supports with a full augmented-rank solver (verify.py
+   checks only the two designated supports); the bad set is exactly
+   `{3,5}`. It replays the PR #1160 section-1 falsifier construction at
+   the fresh field `F_29` (`K=14`, `w=3`, three bad slopes, two-anchor
+   ratio recovery exact), and pins the deployed KoalaBear and Mersenne-31
+   charges (`2w=134944` / `134896`, `B_*` difference consistency, the
+   `2^24-1` Mersenne-31 reserve form). All PASS.

@@ -11,3 +11,12 @@
 
 The proof in this node was checked independently from the displayed
 hypotheses. Its validity does not depend on PR `#1160` being merged.
+
+Coordinator audit 2026-08-12: proof line-verified against the upstream
+threshold note at `c5f4ea7a`; independent second code path added
+(`verify_audit.py`, exhaustive `mu_16` census + fresh-field `F_29`
+falsifier replay + deployed-row arithmetic). The upstream packet's
+reconciliation section read our DAG at head `3edb8b31` (2026-08-10),
+which predates this node; its claim that our `GF(17)` fixture "does not
+refute the final displayed one-slope inequality" was true of that head
+but is superseded by the `mu_16` witness banked here at `45b01e4e0`.
