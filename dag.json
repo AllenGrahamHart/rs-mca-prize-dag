@@ -31296,6 +31296,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "title": "A=1 nonreduced collision factorwise Bezout shape classification",
+   "status": "PROVED",
+   "closure": "the surviving d_A=1 factorization has only four exact shapes",
+   "statement": "In the d_A=1 unshared nonreduced collision, factorwise projective Bezout capacity is exhausted by the e-7 padded-heavy first copies and the four-unit local collision. Each factor's local collision length is twice its heavy-row correction order. Hence the unique large odd factor has parameter degree e-2, e-4, or e-6, and the only possible ordinary companions are none, one bidegree-(2,3) factor, one bidegree-(4,6) factor, or two bidegree-(2,3) factors, with the four records printed in (FBS7).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
    "title": "A=1 nonreduced collision center-adjusted heavy-row residual",
    "status": "PROVED",
@@ -66409,6 +66427,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -66426,6 +66454,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
    "kind": "req"
   },
   {
@@ -66467,6 +66500,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_exact_collision_bezout_smith_router",
@@ -66577,6 +66615,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_coprime_resultant_exact_four_core",
@@ -66945,6 +66988,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
    "kind": "req"
   },
@@ -67036,6 +67084,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_factor_degree_profile_trichotomy",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_factor_degree_profile_trichotomy",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factorwise_bezout_shape_classification",
    "kind": "req"
   },
   {
