@@ -29335,6 +29335,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+   "title": "Rate-half MCA sparse-direction heavy-fiber profile",
+   "status": "PROVED",
+   "closure": "cumulative deficit and ratio-fiber compiler",
+   "statement": "After a codeword direction gauge with support e<d and transformed explanation affine rank at most r, an explanation with outside-agreement deficit h owns at most floor(e/h) slopes. The number with deficit at most h is at most B_h=floor(C(R-e+r,r)/C(d-h+r,r)). Hence |Z| is at most sum_(h=1)^e (B_h-B_(h-1))floor(e/h). Exact evaluation expands the certified paid prefixes to e<=1407,89,5 at KoalaBear ranks 12,13,14 and e<=287,18,1 at Mersenne ranks 4,5,6.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/statement.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/proof.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/audit.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/result.md",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/verify.py",
+    "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65373,6 +65391,21 @@
   },
   {
    "from": "rate_half_mca_sparse_direction_affine_rank_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_affine_rank_payment",
+   "to": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_heavy_fiber_profile",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
