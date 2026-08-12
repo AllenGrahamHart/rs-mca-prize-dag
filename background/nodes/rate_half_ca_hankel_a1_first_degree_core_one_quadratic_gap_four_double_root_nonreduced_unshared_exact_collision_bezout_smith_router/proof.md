@@ -1,5 +1,8 @@
 # Proof
 
+The residue characteristic is odd, so every ramification index two below
+is tame.
+
 The exact specialized multiplicity two and the unit leading coefficient
 give a Hensel factorization of `Q` into the quadratic factor `(CBS1)` and
 a factor which is a unit at `(tau,x_*)`. All Pade intersections over
@@ -16,7 +19,7 @@ ord_z b=2.                                         (1)
 Likewise `c_0`, up to a unit, is `Q(t,x_*)`, whose exact order is six.
 The normalized branches have `ord_b(y)=3m_b`. In the two-unramified-branch
 case each branch root has base order at least three. In the ramified
-degree-two case, the trace of an element of normalization order six has
+degree-two case, tame trace of an element of normalization order six has
 base order at least three. Since `-c_1` is that trace, this proves
 
 ```text

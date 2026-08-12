@@ -5,8 +5,9 @@
 - **consumer:** `rate_half_band_crossing_location`
 
 Retain the nonzero-jet alternative of the normalization/collision
-dichotomy. Complete at `tau`, put `z=t-tau`, and write `y=X-x_*`. The
-exact double root has one monic Weierstrass factor
+dichotomy over odd residue characteristic. Complete at `tau`, put
+`z=t-tau`, and write `y=X-x_*`. The exact double root has one monic
+Weierstrass factor
 
 ```text
 q(z,y)=y^2+c_1(z)y+c_0(z).                         (CBS1)
@@ -46,4 +47,4 @@ lambda_1=[z]a(z).                                  (CBS5)
 Both values of `lambda_1` occur in abstract local plane-curve fixtures
 with the same contact valuations. The theorem classifies but does not
 exclude `[1,3]` or `[2,2]`; that requires the retained global
-source/split-biform geometry.
+source/split-biform geometry. Characteristic two is not covered.
