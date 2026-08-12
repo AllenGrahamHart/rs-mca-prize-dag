@@ -6401,3 +6401,22 @@ Chain: DAG 2326/6856; verify_prize_dag PASS; census UNCHANGED
 231(167/37/27) / 246(179/39/28) / spine 15; sectioned docs PASS;
 manifest 3270 scripts. COMPLIANCE: zero bare-python3 breaches this
 session (all invocations ramguarded).
+
+## 2026-08-12 — K3 vs S/A/E ROUTE-COMPARISON FLEET (wf_ab6718ee-c54)
+
+12-agent fleet (6 extract / 4 adversarial assess / judge + critic), 12/12
+clean, ~615k subagent tokens. VERDICT: HYBRID, medium confidence — the two
+missing selectors share a hard kernel; routes diverge only at K3 endpoint
+realization (dies late, no cheap probe) vs S/A/E varying-core disjointness
+(pre-registered collision falsifier). Critic raised 2 BLOCKING gaps, both
+closed by the coordinator before banking: (1) skeptic reports banked in
+notes/route_comparison_20260812/; (2) the same-theorem audit RUN
+(dossier §2): rows A-F genuinely shared; slope-global Q exclusion moved
+OUT of the spine to the K3 half (judge falsifier 1 fires partially,
+HYBRID stands). Jo's transfer read at primary source (Paving 2255-2309,
+2365-2397): #1163's reproduction faithful; adapter-vs-Jo structural
+distinction banked. Decision instrument: probes P1 (reserve arithmetic
+with 2w) / P2 (d1=67473 K-adapter, shared) / P3 (#1160-line P_BC
+regression, shared), ~3 packets, jointly decisive. Route commitment +
+the outward-facing hedge (P1 note into #1160/#1163 lineage + Scott
+ping per m2-collision protocol) SURFACED for ratification, not taken.
