@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay the supported/correction divisor and quadratic residual ledger."""
+"""Replay the center-adjusted heavy-row residual ledger."""
 
 PRIME = 101
 
@@ -25,51 +25,66 @@ def divide(dividend, divisor):
         coefficient = work[-1] * inverse % PRIME
         shift = len(work) - len(divisor)
         quotient[shift] = coefficient
-        for i, value in enumerate(divisor):
-            work[shift + i] = (work[shift + i] - coefficient * value) % PRIME
+        for i, value_i in enumerate(divisor):
+            work[shift + i] = (work[shift + i] - coefficient * value_i) % PRIME
         while work and work[-1] == 0:
             work.pop()
     return quotient, work
 
 
 def value(poly, point):
-    return sum(coefficient * pow(point, power, PRIME) for power, coefficient in enumerate(poly)) % PRIME
+    return sum(
+        coefficient * pow(point, power, PRIME)
+        for power, coefficient in enumerate(poly)
+    ) % PRIME
 
 
 e = 11
 tau = 17
+roots = (2, 3, 5, 7, 11)
 g_star = [1]
-for root in (2, 3, 5, 7, 11):
+for root in roots:
     g_star = multiply(g_star, [(-root) % PRIME, 1])
 s_b = multiply([(-tau) % PRIME, 1], [(-tau) % PRIME, 1])
-t_2 = multiply([(-23) % PRIME, 1], [(-31) % PRIME, 1])
-h_nr = multiply(g_star, s_b)
-heavy_row = multiply(h_nr, t_2)
 
 checks = 0
-require(len(g_star) - 1 == e - 6, "supported degree")
-require(len(h_nr) - 1 == e - 4, "modulus degree")
-require(len(heavy_row) - 1 <= e - 2, "heavy-row degree")
-checks += 3
+for d_a in (0, 1):
+    center_roots = roots[:d_a]
+    off_roots = roots[d_a:]
+    j_star = [1]
+    for root in center_roots:
+        j_star = multiply(j_star, [(-root) % PRIME, 1])
+    g_off, remainder = divide(g_star, j_star)
+    require(not remainder, "center factor division")
 
-quotient, remainder = divide(heavy_row, h_nr)
-require(not remainder and quotient == t_2, "quadratic quotient")
-require(len(quotient) - 1 <= 2, "quadratic residual cap")
-require(value(quotient, tau) != 0, "correction coprimality")
-checks += 3
+    residual = [1]
+    for root in (23, 31) + ((37,) if d_a else ()):
+        residual = multiply(residual, [(-root) % PRIME, 1])
+    h_row = multiply(g_off, s_b)
+    heavy_row = multiply(h_row, residual)
 
-for root in (2, 3, 5, 7, 11):
-    require(value(heavy_row, root) == 0, "supported padded root")
-    checks += 1
-require(value(g_star, tau) != 0, "unshared root")
-require(value(heavy_row, tau) == 0, "correction root")
-require(value(t_2, tau) != 0, "residual correction unit")
-checks += 3
+    require(len(j_star) - 1 == d_a, "center degree")
+    require(len(g_off) - 1 == e - 6 - d_a, "off-line degree")
+    require(len(h_row) - 1 == e - 4 - d_a, "row modulus degree")
+    require(len(heavy_row) - 1 == e - 2, "exact heavy-row degree")
+    checks += 4
 
-false_row = heavy_row[:]
-false_row[0] = (false_row[0] + 1) % PRIME
-_, false_remainder = divide(false_row, h_nr)
-require(bool(false_remainder), "remainder falsifier")
-checks += 1
+    quotient, remainder = divide(heavy_row, h_row)
+    require(not remainder and quotient == residual, "exact quotient")
+    require(len(quotient) - 1 == 2 + d_a, "residual degree")
+    require(value(quotient, tau) != 0, "correction coprimality")
+    checks += 3
 
-print(f"RATE_HALF_NONREDUCED_HEAVY_ROW_QUADRATIC_RESIDUAL_PASS checks={checks}")
+    for root in off_roots:
+        require(value(heavy_row, root) == 0, "off-line padded root")
+        checks += 1
+    for root in center_roots:
+        require(value(heavy_row, root) != 0, "center was falsely retained")
+        checks += 1
+
+    require(value(g_star, tau) != 0, "unshared root")
+    require(value(heavy_row, tau) == 0, "correction root")
+    require(value(residual, tau) != 0, "residual correction unit")
+    checks += 3
+
+print(f"RATE_HALF_NONREDUCED_HEAVY_ROW_CENTER_ADJUSTED_PASS checks={checks}")

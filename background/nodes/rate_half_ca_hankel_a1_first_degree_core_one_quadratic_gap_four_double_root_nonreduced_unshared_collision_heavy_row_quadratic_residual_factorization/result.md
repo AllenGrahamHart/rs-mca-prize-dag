@@ -1,8 +1,7 @@
 # Result
 
-The nonreduced outside row now has an exact quadratic residual:
-`G(t,x_*)=g_*S_BT_2`, with `T_2(tau)` nonzero. Equivalently, the unique
-scalar weld must lie in the kernel of one explicit polynomial-remainder
-matrix with modulus of degree `e-4`. This is the nonreduced counterpart of
-the earlier squarefree heavy-row gate, with the correction multiplicity
-reduced from four to its proved exact value two.
+The nonreduced outside row has the exact center-adjusted factorization
+`G(t,x_*)=(g_*/J_*)S_BT_(2+d_A)`. For `d_A=0` the remainder is quadratic;
+for `d_A=1` the padded-heavy center cancels, the remainder is cubic, and
+the scalar-weld modulus has degree `e-5`. This repairs the false use of the
+off-line fiber theorem at the unique assigned-center root.

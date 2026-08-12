@@ -1,7 +1,7 @@
 # `A=1` nonreduced collision factor-profile unsupported-root budget
 
 - **status:** PROVED
-- **closure:** four exceptional heavy-row roots sharpen the exact factor trichotomy
+- **closure:** `4+d_A` exceptional heavy-row roots sharpen the factor trichotomy
 - **consumer:** `rate_half_band_crossing_location`
 
 Retain the extremal split-biform factorization
@@ -31,15 +31,15 @@ Then
 ```text
 s_j<=sigma_j,
 u_j>=m_j-sigma_j,
-sum_j u_j<=4.                                     (URB4)
+sum_j u_j<=4+d_A.                                 (URB4)
 ```
 
 For a large-odd factor and a huge-even factor respectively, `(URB4)`
 sharpens the degree thresholds to
 
 ```text
-large odd:       (q-2)m_j>=3e-8,
-huge even:       (q-2)m_j>=6e-8.                  (URB5)
+large odd:       (q-2)m_j>=3e-8-2d_A,
+huge even:       (q-2)m_j>=6e-8-2d_A.             (URB5)
 ```
 
 Thus for `d_A=0`,
@@ -59,10 +59,11 @@ one large odd factor, no small odd, no huge even,  (URB7)
 plus any number of ordinary-even factors, and its large factor obeys
 
 ```text
-m_j>=least odd >=(3e-8)/5.                        (URB8)
+m_j>=least odd >=(3e-10)/5.                       (URB8)
 ```
 
-On the official row `e=183251937963`, the sharpened thresholds are
+On the official row `e=183251937963`, the center-adjusted thresholds are
+unchanged after parity rounding:
 
 ```text
 d_A=0: large odd >=78536544841,

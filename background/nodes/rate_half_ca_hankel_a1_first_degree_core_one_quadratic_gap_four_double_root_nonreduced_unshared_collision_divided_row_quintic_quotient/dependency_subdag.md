@@ -1,12 +1,12 @@
 # Dependency sub-DAG
 
 ```text
-nonreduced heavy-row quadratic residual          [PROVED]
+center-adjusted heavy-row residual                [PROVED]
 Pade regular-factor identity                     [PROVED]
                     |
                     v
 divided-row quintic quotient                     [PROVED]
                     |
                     v
-bounded source/quintic incompatibility            [OPEN]
+quintic independent-gate audit                    [OPEN]
 ```

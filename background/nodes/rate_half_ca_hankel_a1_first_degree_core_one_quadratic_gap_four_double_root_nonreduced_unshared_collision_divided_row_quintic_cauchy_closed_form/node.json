@@ -5,7 +5,7 @@
     "title": "A=1 nonreduced collision divided-row quintic Cauchy closed form",
     "status": "PROVED",
     "closure": "the bounded quintic vector is an automatic Cauchy transform rather than an independent obstruction",
-    "statement": "Every divided-row quintic quotient has the exact formula C_i=-Lambda x_*^i T_2/L(x_*)+a_Q S_B^2 D_i, where D_i=sum_y omega_y y^i/(x_*-y) is parameter-linear and D_(i+1)=x_*D_i-h_i. Hence its degree-five cap, recurrence, and nonzero geometric correction value follow automatically from the source interpolation identity and heavy-row factorization; they impose no additional gate on the collision.",
+    "statement": "Put J_*=gcd(Lambda,g_*) and Lambda_0=Lambda/J_*. Every divided-row quintic quotient has the exact formula C_i=-Lambda_0 x_*^i T_(2+d_A)/L(x_*)+a_Q S_B^2 D_i, where D_i=sum_y omega_y y^i/(x_*-y) is parameter-linear. Hence the degree-five cap, recurrence, and nonzero geometric correction value are automatic in both deficit profiles.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_cauchy_closed_form/statement.md",
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_cauchy_closed_form/proof.md",

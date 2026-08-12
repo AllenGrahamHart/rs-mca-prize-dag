@@ -46,7 +46,7 @@ def product(values):
     return answer
 
 
-def run_fixture(prime):
+def run_fixture(prime, d_a):
     global PRIME
     PRIME = prime
     e = 7
@@ -61,12 +61,17 @@ def run_fixture(prime):
     a_q = 7
 
     s_b = [0, 0, 1]
-    g_star = [(-gamma) % PRIME, 1]
+    j_star = [1] if d_a == 0 else [(-gamma) % PRIME, 1]
+    g_off = [(-gamma) % PRIME, 1] if d_a == 0 else [1]
+    g_star = multiply(j_star, g_off)
     h_nr = multiply(g_star, s_b)
-    t_2 = [3, 4, 1]
-    g_heavy = multiply(h_nr, t_2)
+    residual = [3, 4, 1] if d_a == 0 else [3, 4, 1, 1]
+    g_heavy = multiply(multiply(g_off, s_b), residual)
     q_heavy = scale(multiply(g_star, multiply(s_b, multiply(s_b, s_b))), a_q)
-    lambda_form = multiply(multiply([1, 1], [2, 1]), [3, 1])
+    lambda_0 = multiply([2, 1], [3, 1])
+    if d_a == 0:
+        lambda_0 = multiply([1, 1], lambda_0)
+    lambda_form = multiply(j_star, lambda_0)
 
     def k_value(y):
         answer = [0]
@@ -113,7 +118,7 @@ def run_fixture(prime):
 
         c_i = add(
             scale(
-                multiply(lambda_form, t_2),
+                multiply(lambda_0, residual),
                 -pow(x_star, i, PRIME) * inverse(l_at_star),
             ),
             scale(multiply(multiply(s_b, s_b), d_i), a_q),
@@ -136,7 +141,7 @@ def run_fixture(prime):
         correction_value = c_i[0] % PRIME
         expected = (
             pow(x_star, i, PRIME)
-            * scale(multiply(lambda_form, t_2), -inverse(l_at_star))[0]
+            * scale(multiply(lambda_0, residual), -inverse(l_at_star))[0]
         ) % PRIME
         require(correction_value == expected, "geometric correction value")
         checks += 1
@@ -145,5 +150,5 @@ def run_fixture(prime):
     return checks + 1
 
 
-total = sum(run_fixture(prime) for prime in (101, 127))
+total = sum(run_fixture(prime, d_a) for prime in (101, 127) for d_a in (0, 1))
 print(f"RATE_HALF_COLLISION_QUINTIC_CAUCHY_CLOSED_FORM_PASS checks={total}")

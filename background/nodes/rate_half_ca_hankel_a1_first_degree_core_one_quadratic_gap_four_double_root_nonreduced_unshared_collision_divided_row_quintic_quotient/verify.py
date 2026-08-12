@@ -58,4 +58,9 @@ for e in (7, 13, 183251937963):
     require((e + 1) - (e - 4) == 5, "quintic degree subtraction")
     checks += 1
 
+for d_a in (0, 1):
+    require((3 - d_a) + (2 + d_a) == 5, "center-adjusted Pade degree")
+    require((e - 6) + 2 == e - 4, "full moment divisor degree")
+    checks += 2
+
 print(f"RATE_HALF_NONREDUCED_DIVIDED_ROW_QUINTIC_PASS checks={checks}")

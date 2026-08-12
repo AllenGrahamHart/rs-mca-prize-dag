@@ -10,7 +10,9 @@ Retain the unshared nonreduced collision and write
 L(X)=L_U0(X),       n_0=|U_0|=3p-2,
 d=2p-1,             deg_X G<=p-3,
 H_NR=g_*S_B,
-G(t,x_*)=H_NR(t)T_2(t),
+J_*=gcd(Lambda,g_*),       Lambda_0=Lambda/J_*,
+g_off=g_*/J_*,
+G(t,x_*)=g_off(t)S_B(t)T_(2+d_A)(t),
 Q(t,x_*)=a_Qg_*(t)S_B(t)^3.                       (DCF1)
 ```
 
@@ -31,7 +33,7 @@ D_(i+1)=x_*D_i-h_i.                               (DCF3)
 The divided-row quintic quotients have the exact closed form
 
 ```text
-C_i(t)=-Lambda(t)x_*^iT_2(t)/L(x_*)
+C_i(t)=-Lambda_0(t)x_*^iT_(2+d_A)(t)/L(x_*)
        +a_QS_B(t)^2D_i(t).                        (DCF4)
 ```
 

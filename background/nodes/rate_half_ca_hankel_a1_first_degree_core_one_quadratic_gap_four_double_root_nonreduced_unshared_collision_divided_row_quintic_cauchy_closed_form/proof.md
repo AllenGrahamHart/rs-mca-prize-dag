@@ -53,10 +53,12 @@ F_i=-Lambda x_*^iG(t,x_*)/L(x_*)+Q(t,x_*)D_i.
                                                                (8)
 ```
 
-The two factorizations in `(DCF1)` now give
+Use `Lambda=J_*Lambda_0`, `g_*=J_*g_off`, and the two factorizations in
+`(DCF1)`. They give
 
 ```text
-F_i=H_NR[-Lambda x_*^iT_2/L(x_*)+a_QS_B^2D_i].    (9)
+F_i=H_NR[-Lambda_0 x_*^iT_(2+d_A)/L(x_*)
+          +a_QS_B^2D_i].                           (9)
 ```
 
 Equation `(9)` proves the common divisibility directly. Define `C_i` by
@@ -75,8 +77,9 @@ The identity for `D_0` is immediate from
 B(t,X)=sum_y omega_y(t)L(X)/(X-y).                 (11)
 ```
 
-Finally, `deg Lambda=3`, `deg T_2=2`, `deg S_B^2=4`, and
-`deg D_i<=1`, so `(DCF4)` proves the quintic cap. Substituting `(DCF3)`
-proves the recurrence in `(DCF5)`. At `tau`, the `S_B^2D_i` term vanishes,
-while `Lambda(tau)T_2(tau)L(x_*)` is nonzero. This proves the last line of
-`(DCF5)`. QED.
+Finally, `deg Lambda_0=3-d_A`, `deg T_(2+d_A)=2+d_A`,
+`deg S_B^2=4`, and `deg D_i<=1`, so `(DCF4)` proves the quintic cap.
+Substituting `(DCF3)` proves the recurrence in `(DCF5)`. At `tau`, the
+`S_B^2D_i` term vanishes, while
+`Lambda_0(tau)T_(2+d_A)(tau)L(x_*)` is nonzero. This proves the last line
+of `(DCF5)`. QED.

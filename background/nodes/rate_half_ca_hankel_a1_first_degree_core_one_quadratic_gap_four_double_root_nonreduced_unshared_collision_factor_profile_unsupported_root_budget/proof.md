@@ -16,28 +16,29 @@ Each `Q_j(t,x_*)` is nonzero: otherwise its factor would make
 `G(t,x_*)` identically zero. Bihomogeneity therefore makes it a binary
 form of exact degree `m_j`, so `u_j=m_j-s_j` is nonnegative.
 
-The heavy-row factorization is
+Put `J_*=gcd(Lambda,g_*)` and `g_off=g_*/J_*`. The center-adjusted
+heavy-row factorization is
 
 ```text
-G(t,x_*)=g_*(t)S_B(t)T_2(t),
-deg g_*=e-6,       deg S_B=deg T_2=2.              (2)
+G(t,x_*)=g_off(t)S_B(t)T_(2+d_A)(t),
+deg g_off=e-6-d_A.                                (2)
 ```
 
-Every root of the squarefree `g_*` lies in `Gamma`. Each is a root of at
+Every root of the squarefree `g_off` lies in `Gamma`. Each is a root of at
 least one specialized factor, so
 
 ```text
-sum_j s_j>=e-6.
+sum_j s_j>=e-6-d_A.
 ```
 
 Since `sum_jm_j=M=e-2`, this gives
 
 ```text
-sum_j u_j=M-sum_j s_j<=4,                         (3)
+sum_j u_j=M-sum_j s_j<=4+d_A,                     (3)
 ```
 
-and completes `(URB4)`. No assertion about whether the four roots of
-`S_BT_2` are supported is needed.
+and completes `(URB4)`. No assertion about the other `4+d_A` projective
+degrees of the heavy row is needed.
 
 The exact factor trichotomy has
 
@@ -54,19 +55,19 @@ Using `2R=9e-q`, equation `(URB2)` becomes
 2sigma_j=3e chi_j+qm_j.                           (5)
 ```
 
-Also `(URB4)` gives `sigma_j>=m_j-u_j>=m_j-4`.
+Also `(URB4)` gives `sigma_j>=m_j-u_j>=m_j-(4+d_A)`.
 For `chi_j=-1`, substitute in `(5)` to get
 
 ```text
-qm_j-3e>=2m_j-8,
-(q-2)m_j>=3e-8.                                   (6)
+qm_j-3e>=2m_j-8-2d_A,
+(q-2)m_j>=3e-8-2d_A.                              (6)
 ```
 
 For `chi_j=-2`, the same calculation gives
 
 ```text
-qm_j-6e>=2m_j-8,
-(q-2)m_j>=6e-8.                                   (7)
+qm_j-6e>=2m_j-8-2d_A,
+(q-2)m_j>=6e-8-2d_A.                              (7)
 ```
 
 These are `(URB5)` and specialize to `(URB6),(URB8)` with the required
@@ -77,14 +78,14 @@ two large-odd factors and one small-odd factor, hence total parameter
 degree at least
 
 ```text
-2(3e-8)/5+1>e-2                                  (8)
+2(3e-10)/5+1>e-2                                 (8)
 ```
 
-for every relevant `e>1`, contradicting `sum m_j=e-2`. Profile III has
+for every relevant `e>5`, contradicting `sum m_j=e-2`. Profile III has
 one huge-even and one small-odd factor, hence degree at least
 
 ```text
-(6e-8)/5+1>e-2.                                   (9)
+(6e-10)/5+1>e-2.                                  (9)
 ```
 
 It is likewise impossible. The trichotomy leaves only profile I, proving

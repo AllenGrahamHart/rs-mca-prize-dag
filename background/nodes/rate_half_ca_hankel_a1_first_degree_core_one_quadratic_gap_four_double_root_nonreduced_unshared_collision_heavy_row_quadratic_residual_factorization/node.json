@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
-    "title": "A=1 nonreduced collision heavy-row quadratic residual",
+    "title": "A=1 nonreduced collision center-adjusted heavy-row residual",
     "status": "PROVED",
-    "closure": "supported padded factor and double correction leave only a quadratic heavy-row residual",
-    "statement": "Every unshared nonreduced collision satisfies G(t,x_*)=g_* S_B T_2 up to scalar, where T_2 is a nonzero binary quadratic and T_2(tau) is nonzero. Thus the unique scalar-weld value row is divisible by the degree-(e-4) form g_*S_B, equivalently one explicit polynomial-remainder matrix kills the weld vector, and only three quotient coefficients remain.",
+    "closure": "off-line padded factor and double correction leave an exact degree-(2+d_A) residual",
+    "statement": "Put J_*=gcd(Lambda,g_*), so deg J_*=d_A, and g_off=g_*/J_*. Every unshared nonreduced collision satisfies G(t,x_*)=g_off S_B T_(2+d_A) up to scalar, where the residual has exact projective degree 2+d_A and is nonzero at tau. Thus the scalar-weld value row is divisible by the degree-(e-4-d_A) form g_off S_B; the residual is quadratic for d_A=0 and cubic for d_A=1.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization/statement.md",
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization/proof.md",
@@ -27,6 +27,9 @@
     },
     {
       "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition"
     }
   ],
   "alternatives": [],

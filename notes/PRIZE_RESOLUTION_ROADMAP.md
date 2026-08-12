@@ -31663,27 +31663,28 @@ J_0=0, J_1!=0:             [1,3],
 J_0=J_1=0:                 [2,2].
 ```
 
-All `e-6` supported padded-heavy roots occur on the outside row, whose
+Put `J_*=gcd(Lambda,g_*)`, whose degree is the center-deficit bit `d_A`.
+The `e-6-d_A` off-line padded-heavy roots occur on the outside row, whose
 projective degree is exactly `e-2`. Consequently
 
 ```text
-G(t,x_*)=g_*(t)S_B(t)T_2(t),
-deg T_2=2,       T_2(tau)!=0.
+G(t,x_*)=[g_*(t)/J_*(t)]S_B(t)T_(2+d_A)(t),
+deg T_(2+d_A)=2+d_A,       T_(2+d_A)(tau)!=0.
 ```
 
-This gives both a degree-`e-4` remainder matrix on the unique weld and a
-four-root complement for the global factorization. If `s_j` is the number
-of supported heavy-row roots of a factor of bidegree `(m_j,n_j)`, then
+This gives a degree-`e-4-d_A` remainder matrix on the unique weld and a
+`4+d_A` complement for the global factorization. If `s_j` is the number of
+off-line supported heavy-row roots of a factor of bidegree `(m_j,n_j)`, then
 
 ```text
-u_j=m_j-s_j,       sum_j u_j<=4.
+u_j=m_j-s_j,       sum_j u_j<=4+d_A.
 ```
 
 The exact factor grid therefore sharpens the large-odd and huge-even
 thresholds to
 
 ```text
-(q-2)m_j>=3e-8,       (q-2)m_j>=6e-8.
+(q-2)m_j>=3e-8-2d_A,       (q-2)m_j>=6e-8-2d_A.
 ```
 
 At `d_A=1`, profiles II and III are impossible. The only survivor is one
@@ -31701,7 +31702,8 @@ D_i=sum_y omega_y y^i/(x_*-y),
 one has the exact closed form
 
 ```text
-C_i=-Lambda x_*^iT_2/L(x_*)+a_QS_B^2D_i.
+C_i=-Lambda_0 x_*^iT_(2+d_A)/L(x_*)+a_QS_B^2D_i,
+Lambda_0=Lambda/J_*.
 ```
 
 It automatically supplies the quintic cap, recurrence, and nonzero
@@ -31716,4 +31718,6 @@ critical status delta:   none; rate_half_band_crossing_location remains open
 compute:                 exact local replays only; no Modal spend
 upstream:                PR #1161 updated through the four-root factor budget
 live closure target:     scalar-weld/macroscopic-factor incompatibility
+repair:                  d_A=1 center removed from off-line budget;
+                         official rounded thresholds unchanged
 ```

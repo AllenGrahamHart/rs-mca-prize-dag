@@ -31246,7 +31246,7 @@
    "title": "A=1 nonreduced collision divided-row quintic Cauchy closed form",
    "status": "PROVED",
    "closure": "the bounded quintic vector is an automatic Cauchy transform rather than an independent obstruction",
-   "statement": "Every divided-row quintic quotient has the exact formula C_i=-Lambda x_*^i T_2/L(x_*)+a_Q S_B^2 D_i, where D_i=sum_y omega_y y^i/(x_*-y) is parameter-linear and D_(i+1)=x_*D_i-h_i. Hence its degree-five cap, recurrence, and nonzero geometric correction value follow automatically from the source interpolation identity and heavy-row factorization; they impose no additional gate on the collision.",
+   "statement": "Put J_*=gcd(Lambda,g_*) and Lambda_0=Lambda/J_*. Every divided-row quintic quotient has the exact formula C_i=-Lambda_0 x_*^i T_(2+d_A)/L(x_*)+a_Q S_B^2 D_i, where D_i=sum_y omega_y y^i/(x_*-y) is parameter-linear. Hence the degree-five cap, recurrence, and nonzero geometric correction value are automatic in both deficit profiles.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_cauchy_closed_form/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_cauchy_closed_form/proof.md",
@@ -31264,7 +31264,7 @@
    "title": "A=1 nonreduced collision divided-row quintic quotient",
    "status": "PROVED",
    "closure": "common degree-(e-4) divisor and bounded quintic vector for every divided-row moment",
-   "statement": "For every unshared nonreduced collision, all canonical divided-row moments satisfy F_i=g_*S_B C_i with deg C_i<=5. The quotients obey C_(i+1)=x_*C_i-a_QS_B^2h_i, so M(t)u(t)=g_*S_BC(t). The Pade syzygy identifies a_QS_B^2B-Lambda T_2=L_U0(x_*)C_0; hence C_0(tau) is nonzero and C_i(tau)=x_*^iC_0(tau).",
+   "statement": "For every unshared nonreduced collision, all canonical divided-row moments satisfy F_i=g_*S_B C_i with deg C_i<=5. Put J_*=gcd(Lambda,g_*) and Lambda_0=Lambda/J_*. The quotients obey C_(i+1)=x_*C_i-a_QS_B^2h_i, while the Pade syzygy identifies a_QS_B^2B-Lambda_0 T_(2+d_A)=L_U0(x_*)C_0. Hence C_0(tau) is nonzero and the correction values are geometric.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_quotient/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_quotient/proof.md",
@@ -31281,8 +31281,8 @@
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget",
    "title": "A=1 nonreduced collision factor-profile unsupported-root budget",
    "status": "PROVED",
-   "closure": "four heavy-row exceptional roots sharpen factor degrees and exclude two d_A=1 profiles",
-   "statement": "For each irreducible split-biform factor, its classified grid uses Rm_j supported-fiber points and the heavy row can use only the remaining slack sigma_j=3en_j-Rm_j. Since g_* supplies e-6 supported heavy-row roots, the total factorwise root deficit is at most four. Hence large odd factors satisfy (q-2)m_j>=3e-8 and huge even factors satisfy (q-2)m_j>=6e-8. At d_A=1 this excludes the two-large-odd and huge-even trichotomy profiles, leaving one large odd factor and ordinary-even companions.",
+   "closure": "center-adjusted heavy-row exceptions sharpen factor degrees and exclude two d_A=1 profiles",
+   "statement": "For each split-biform factor, its classified grid uses Rm_j supported-fiber points and the heavy row can use only the remaining slack sigma_j=3en_j-Rm_j. The off-line factor g_off=g_*/gcd(Lambda,g_*) supplies e-6-d_A supported roots, so the total factorwise root deficit is at most 4+d_A. Hence large odd factors satisfy (q-2)m_j>=3e-8-2d_A and huge even factors satisfy (q-2)m_j>=6e-8-2d_A. At d_A=1 profiles II and III remain impossible.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_factor_profile_unsupported_root_budget/proof.md",
@@ -31297,10 +31297,10 @@
   },
   {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
-   "title": "A=1 nonreduced collision heavy-row quadratic residual",
+   "title": "A=1 nonreduced collision center-adjusted heavy-row residual",
    "status": "PROVED",
-   "closure": "supported padded factor and double correction leave only a quadratic heavy-row residual",
-   "statement": "Every unshared nonreduced collision satisfies G(t,x_*)=g_* S_B T_2 up to scalar, where T_2 is a nonzero binary quadratic and T_2(tau) is nonzero. Thus the unique scalar-weld value row is divisible by the degree-(e-4) form g_*S_B, equivalently one explicit polynomial-remainder matrix kills the weld vector, and only three quotient coefficients remain.",
+   "closure": "off-line padded factor and double correction leave an exact degree-(2+d_A) residual",
+   "statement": "Put J_*=gcd(Lambda,g_*), so deg J_*=d_A, and g_off=g_*/J_*. Every unshared nonreduced collision satisfies G(t,x_*)=g_off S_B T_(2+d_A) up to scalar, where the residual has exact projective degree 2+d_A and is nonzero at tau. Thus the scalar-weld value row is divisible by the degree-(e-4-d_A) form g_off S_B; the residual is quadratic for d_A=0 and cubic for d_A=1.",
    "refs": [
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization/statement.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization/proof.md",
@@ -66717,6 +66717,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",

@@ -5,7 +5,7 @@
     "title": "A=1 nonreduced collision divided-row quintic quotient",
     "status": "PROVED",
     "closure": "common degree-(e-4) divisor and bounded quintic vector for every divided-row moment",
-    "statement": "For every unshared nonreduced collision, all canonical divided-row moments satisfy F_i=g_*S_B C_i with deg C_i<=5. The quotients obey C_(i+1)=x_*C_i-a_QS_B^2h_i, so M(t)u(t)=g_*S_BC(t). The Pade syzygy identifies a_QS_B^2B-Lambda T_2=L_U0(x_*)C_0; hence C_0(tau) is nonzero and C_i(tau)=x_*^iC_0(tau).",
+    "statement": "For every unshared nonreduced collision, all canonical divided-row moments satisfy F_i=g_*S_B C_i with deg C_i<=5. Put J_*=gcd(Lambda,g_*) and Lambda_0=Lambda/J_*. The quotients obey C_(i+1)=x_*C_i-a_QS_B^2h_i, while the Pade syzygy identifies a_QS_B^2B-Lambda_0 T_(2+d_A)=L_U0(x_*)C_0. Hence C_0(tau) is nonzero and the correction values are geometric.",
     "refs": [
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_quotient/statement.md",
       "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_divided_row_quintic_quotient/proof.md",

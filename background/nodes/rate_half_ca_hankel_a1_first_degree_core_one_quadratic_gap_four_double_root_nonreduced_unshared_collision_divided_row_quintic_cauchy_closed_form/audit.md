@@ -13,3 +13,5 @@
    quintic vectors arise from source data.
 6. No factor-profile assertion is used, so this route fence applies to all
    retained unshared nonreduced collision profiles.
+7. For `d_A=1`, the center factor in `Lambda` and `g_*` cancels before the
+   closed form is written; using `Lambda` instead of `Lambda_0` is false.

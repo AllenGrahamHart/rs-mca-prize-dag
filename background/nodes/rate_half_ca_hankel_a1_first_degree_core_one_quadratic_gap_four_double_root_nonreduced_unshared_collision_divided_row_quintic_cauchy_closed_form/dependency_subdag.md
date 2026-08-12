@@ -2,7 +2,7 @@
 
 ```text
 Pade/split-biform interpolation identity           [PROVED]
-nonreduced heavy-row quadratic factorization       [PROVED]
+center-adjusted heavy-row factorization             [PROVED]
                          |
                          v
 quintic Cauchy closed form                         [PROVED]
