@@ -29153,6 +29153,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_degree_guarded_shifted_lattice_witness_adapter",
+   "title": "Rate-half MCA degree-guarded shifted-lattice witness adapter",
+   "status": "PROVED",
+   "closure": "exact algebraic equivalence",
+   "statement": "For every finite-field Reed-Solomon domain and k<m<=n, the weighted degree of any received-word lattice vector under the code shift k and effective shift k+1 differs by at most one, and the two minima obey the same bound. For a monic split complement locator W of degree omega=n-m with W|N, the effective envelope allows quotient c=N/W of degree at most k. It encodes an actual degree-<k explanation on the identical size-m support exactly when deg c<k, equivalently deg N<=omega+k-1 or the code-shift cap holds. Every actual explanation gives one unique guarded pair. Pair noncontainment is exactly the failure of both degree-<k tests on the unique support interpolants of u and v. Thus guarded data reconstruct an actual MCA-bad witness, but no Q/BC owner equivalence or coverage is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/statement.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/proof.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/claim_contract.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/dependency_subdag.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/audit.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/result.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/lineage.md",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/source_contract.json",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/verify.py",
+    "background/nodes/rate_half_mca_degree_guarded_shifted_lattice_witness_adapter/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65046,6 +65065,11 @@
   },
   {
    "from": "rate_half_mca_near_rational_line_bc_guard_rejection",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_degree_guarded_shifted_lattice_witness_adapter",
    "to": "mca_safe",
    "kind": "ev"
   },

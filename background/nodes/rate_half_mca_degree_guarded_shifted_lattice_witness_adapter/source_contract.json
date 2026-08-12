@@ -1,0 +1,38 @@
+{
+  "schema": "rate-half-mca-degree-guarded-shifted-lattice-witness-adapter-v1",
+  "canonical_dossier_commit": "c8d48cd4b94fb256ad9fedfc1d53b4b14c77bfad",
+  "upstream": {
+    "pr1160_head": "c5f4ea7a0c78828c901ae5f3428894a8b2e2806b",
+    "lattice_source_blob": "001c3898b6317911e487ee0199adcce701aaae57",
+    "pr1163_head": "e26c15b2d2c2f98ae12dda17b97c40981f76e1ff",
+    "dimension_audit_blob": "9a3ea00b216ff16c32cfab0b2b7f8a179cb16ee7"
+  },
+  "theorem": {
+    "code_shift": "max(deg W, deg N-(k-1))",
+    "effective_shift": "max(deg W, deg N-k)",
+    "maximum_shift_gap": 1,
+    "effective_quotient_degree_cap": "deg(N/W)<=k",
+    "actual_quotient_degree_guard": "deg(N/W)<k",
+    "same_support_pair_test": "at least one degree-below-m support interpolant has degree at least k"
+  },
+  "official_row_check": {
+    "n": 2097152,
+    "k": 1048576,
+    "effective_k": 1048577,
+    "m": 1116048,
+    "omega": 981104,
+    "effective_numerator_degree_cap": 2029680,
+    "actual_numerator_degree_cap": 2029679
+  },
+  "toy_exhaustion": {
+    "field": 7,
+    "domain_size": 6,
+    "k": 3,
+    "effective_k": 4,
+    "m": 4,
+    "supports": 15,
+    "assignments_per_support": 2401,
+    "total_records": 36015,
+    "expected_actual_records_per_support": 343
+  }
+}
