@@ -2,33 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 3,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify.py",
-      "seconds": 0.091518,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_two_branch_tangent_profile_router/verify.py",
+      "seconds": 0.025982,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_GATE_PASS (549755813888, 274877906944, 824633720829, 100743818300669342078294, 549755813888, 50371909150884426853035)\n"
+      "stdout_tail": "RATE_HALF_COLLISION_TWO_BRANCH_TANGENT_PASS checks=7201\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_audit.py",
-      "seconds": 0.041344,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_two_branch_tangent_profile_router/verify_audit.py",
+      "seconds": 0.018691,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_GATE_AUDIT_PASS\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate/verify_probe.py",
-      "seconds": 1.723895,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_COEFFICIENT_MDS_PROBE 337 {28: 250}\nRATE_HALF_COEFFICIENT_MDS_PROBE 421 {28: 250}\nRATE_HALF_QUADRATIC_PAIRED_COEFFICIENT_MDS_PROBE_PASS\n"
+      "stdout_tail": "RATE_HALF_COLLISION_TWO_BRANCH_TANGENT_AUDIT_PASS tamper=1/1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

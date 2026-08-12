@@ -1,7 +1,7 @@
 # Claim contract
 
 - **Claim:** every ordinary companion from collision shapes B--D has the
-  norm factorization `(OCN2)`, coprimality `(OCN3)`, exact heavy-row order
+  norm factorization `(OCN2)`, coprimality `(OCN3)`, forced heavy-row divisor
   `(OCN4)`, and bounded residual gates `(OCN5)--(OCN7)`.
 - **Dependencies:** factorwise four-shape classification and all-excess
   transverse actual-support fiber factorization.
