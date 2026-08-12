@@ -5511,3 +5511,46 @@ constant-norm line with 30 split members. Schema note: node-level POSED /
 HEURISTIC map to the DAG bucket CONJECTURE (leaf rule enforced — ingredient
 links carried textually). Graph: 2325 nodes / 6855 edges; full verify
 chain PASS.
+
+## Upstream-sweep addendum (2026-08-12, coordinator session, task #42)
+
+Sweep of upstream PRs `#1153`-`#1163` (all scottdhughes; upstream `main`
+unchanged since 2026-07-29; no maintainer comments on our six open PRs).
+
+- **`#1160` (2w near-rational repair)**: already harvested by worker
+  cycle 119 at `45b01e4e0`
+  (`v13_2_near_rational_supportwise_two_anchor_payment` PROVED + the
+  strengthened REFUTED sibling). Coordinator audit added this session:
+  proof line-verified; independent second code path
+  (`verify_audit.py`) with an EXHAUSTIVE `mu_16` badness census over
+  all `C(16,10)=8008` supports (bad set exactly `{3,5}`), a
+  fresh-field `F_29` falsifier replay, and the deployed charges
+  (`2w = 134944` KoalaBear / `134896` Mersenne-31). The upstream
+  packet read our DAG at `3edb8b31` (pre-repair) — its "strictly
+  stronger" claim at the `GF(17)` seam is true of that head only.
+- **`#1163` (common-core shortening staircase)**: NEW import node
+  `rate_half_kb_common_core_shortening_adapter_staircase_import`
+  (PROVED): the typed reversible cancellation adapter
+  `(n,k,m) -> (n-c,k-c,m-c)` with two-directional noncontainment
+  transport, plus four exact walls at the official row — the degree-18
+  interface dies exactly at `c = 4131` (`32m - 17n = 61952 > 15c`),
+  fixed-core cells fit only `s <= 2`, the direction-separated boundary
+  is `J_13 < B_* < J_14`, and Jo's shortening transfer is blocked by an
+  exact 3765-bit multiplier that telescopes. Both wired verifiers PASS;
+  the audit path replays the adapter on a from-scratch `F_17` record
+  (all 10 witness subsets, both rows). Route-cut RECORD: no
+  chronology-correct whole-line selector; zero ledger movement.
+- **External replay confirmations banked**: `#1153` (cell-5 `xi=3`
+  six representatives, zero witnesses) and `#1157` (raw
+  `433-1b -> O0a`, 25,200 signed systems, zero survivors) match our
+  banked exclusions exactly; recorded on the two aggregate nodes'
+  source evidence and as PARTIAL fulfilment on the
+  `rate_half_kb_m2_r4_k3_independent_review` TARGET (which stays
+  TARGET).
+- **`#1154`/`#1155`** were reconciled by the worker on 2026-08-10 (our
+  105-label cell-11 closure is strictly stronger; the guard
+  non-transplant warning kept as provenance). **`#1158`/`#1159`**
+  (carrier-fold cut; `d1 = 67473` dimension shift + `SEM-QBC`) are
+  recorded on the K3 review node addendum; zero ledger movement each.
+
+All changes off-orbit; census re-pin only if the compile says otherwise.

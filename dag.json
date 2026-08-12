@@ -33429,6 +33429,25 @@
    ]
   },
   {
+   "id": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "title": "Common-core shortening adapter and the exact KoalaBear staircase walls",
+   "status": "PROVED",
+   "closure": "typed reversible adapter + four exact walls; route-cut record, zero ledger movement",
+   "statement": "Import of upstream PR #1163 (head e26c15b2d, stacked on #1160), coordinator line-audited with an independent from-scratch replay. THEOREM (same-record common-core cancellation): for a selected non-affine family of support-wise MCA-bad explanation states with common maximal-agreement-support intersection C, c=|C|<k, subtracting the degree-<c interpolants of the received pair on C and dividing by the squarefree core locator G_C is a typed reversible adapter (n,k,m)->(n-c,k-c,m-c) preserving finite affine slopes, field of definition, the invariants m-k, n-k, n-m, maximal supports, and same-support noncontainment in both directions via (p_0,p_1)=(a_0+G_C p'_0, a_1+G_C p'_1); a noncontained witness through C exists by the exchange-graph argument (adjacent size-m subsets overlap in m-1>=k points); two-cover complexity satisfies 3m-k+3=(3m'-k'+3)+2c; the converse lift embeds every compatible shortened record, so zero-cost core deletion is false. EXACT WALLS at the official KoalaBear row (n,k,m,d,R,t)=(2097152,1048576,1116048,67472,1048576,981104), B_*=274980728111395087: the deployed order-32 degree-18 interface survives exactly through c=4130 (32m-17n=61952>15c) and drops to 17 at c=4131; the fixed-core compiler B_cell(s)=min{C(R+s,d+s),C(R+s,s+1)} fits under B_* through s=2 and first fails at s=3; the direction-separated boundary is J_13=47876303026096432<B_*<J_14=743896698428332665; Jo's slope-preserving shortening transfer is blocked at c=4131 by the exact multiplier ceil(C(n,4131)/C(m,4131)) of 3765 bits (1134 digits), and staged shortening telescopes to the same factor. ROUTE-CUT RECORD (not a theorem): the active v4 source lacks a chronology-correct whole-line selector partitioning varying local 32-tuple cores; until it exists the staircase route moves no S/A/E or global ledger value. The #1160 67,472-slope construction is globally affine and is a control, not a casualty.",
+   "refs": [
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/statement.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/proof.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/audit.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/claim_contract.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/dependency_subdag.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/result.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/provenance.md",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/certificate.json",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/verify.py",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_kb_m2_r4_coordinate_positive_433_1b_cell11_active_labels_complete_exclusion",
    "title": "KoalaBear m2 r4 positive 433-1b cell-11 active-label exclusion",
    "status": "PROVED",
@@ -38807,7 +38826,8 @@
     "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/audit.md",
     "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/result.md",
     "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/provenance.md",
-    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py"
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify.py",
+    "background/nodes/v13_2_near_rational_supportwise_two_anchor_payment/verify_audit.py"
    ]
   },
   {
@@ -68666,6 +68686,11 @@
    "from": "rate_half_kb_active_bc_q6_endpoint_realization",
    "to": "rate_half_kb_active_balanced_core_component_bridge",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_kb_decomposition_source_pencil_compiler",
