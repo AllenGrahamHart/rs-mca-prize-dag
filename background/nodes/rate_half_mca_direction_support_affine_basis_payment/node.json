@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1864,
+  "node": {
+    "id": "rate_half_mca_direction_support_affine_basis_payment",
+    "title": "Rate-half MCA direction-support affine-basis payment",
+    "status": "PROVED",
+    "closure": "support-sensitive affine-incidence compiler",
+    "statement": "After a minimum-lift codeword gauge with direction support e<=R and transformed explanation affine rank at most r, every active incident-normal basis must meet that support. Removing outside-only bases from the affine-span incidence numerator gives |Z|<=floor(P(R,r,e)M(K,r)), where P=1-(R+r-e)_fall_(r+1)/(R+r)_fall_(r+1) and M is the existing two-endpoint affine-span envelope. This pays uniformly over all shortened dimensions through e=15903,435,13 at KoalaBear ranks 12,13,14 and e=62235,1486,41,1 at Mersenne ranks 5,6,7,8.",
+    "refs": [
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/statement.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/proof.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/audit.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/result.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/source_contract.json",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify.py",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_codeword_direction_gauge_rank_router", "order": 5173},
+    {"from": "rate_half_mca_supportwise_affine_span_compiler", "order": 5174}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5175}
+  ],
+  "refutes": []
+}

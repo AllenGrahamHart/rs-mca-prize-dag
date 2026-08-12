@@ -29353,6 +29353,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_direction_support_affine_basis_payment",
+   "title": "Rate-half MCA direction-support affine-basis payment",
+   "status": "PROVED",
+   "closure": "support-sensitive affine-incidence compiler",
+   "statement": "After a minimum-lift codeword gauge with direction support e<=R and transformed explanation affine rank at most r, every active incident-normal basis must meet that support. Removing outside-only bases from the affine-span incidence numerator gives |Z|<=floor(P(R,r,e)M(K,r)), where P=1-(R+r-e)_fall_(r+1)/(R+r)_fall_(r+1) and M is the existing two-endpoint affine-span envelope. This pays uniformly over all shortened dimensions through e=15903,435,13 at KoalaBear ranks 12,13,14 and e=62235,1486,41,1 at Mersenne ranks 5,6,7,8.",
+   "refs": [
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/statement.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/proof.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/audit.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/result.md",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/source_contract.json",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify.py",
+    "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65406,6 +65424,21 @@
   },
   {
    "from": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_direction_support_affine_basis_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_supportwise_affine_span_compiler",
+   "to": "rate_half_mca_direction_support_affine_basis_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_direction_support_affine_basis_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
