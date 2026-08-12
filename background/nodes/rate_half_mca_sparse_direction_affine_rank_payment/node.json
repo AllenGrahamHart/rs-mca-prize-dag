@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1862,
+  "node": {
+    "id": "rate_half_mca_sparse_direction_affine_rank_payment",
+    "title": "Rate-half MCA sparse-direction affine-rank payment",
+    "status": "PROVED",
+    "closure": "rank-refined punctured-list compiler",
+    "statement": "After gauging the line direction by a codeword b, let e<d be the support size of r_1-b and let the transformed selected explanations have affine rank at most r. Puncturing the e-set and applying the affine-span list compiler, with exact slope fiber at most e from pair noncontainment, gives |Z|<=e floor(C(R-e+r,r)/C(d-e+r,r)), independent of ambient shortened dimension. The exact deployed rank/support walls are pinned in the certificate.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/statement.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/proof.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/audit.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/result.md",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/verify.py",
+      "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_codeword_direction_gauge_rank_router", "order": 5167},
+    {"from": "rate_half_mca_sparse_direction_punctured_list_payment", "order": 5168}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5169}
+  ],
+  "refutes": []
+}

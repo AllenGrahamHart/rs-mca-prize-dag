@@ -29317,6 +29317,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_direction_affine_rank_payment",
+   "title": "Rate-half MCA sparse-direction affine-rank payment",
+   "status": "PROVED",
+   "closure": "rank-refined punctured-list compiler",
+   "statement": "After gauging the line direction by a codeword b, let e<d be the support size of r_1-b and let the transformed selected explanations have affine rank at most r. Puncturing the e-set and applying the affine-span list compiler, with exact slope fiber at most e from pair noncontainment, gives |Z|<=e floor(C(R-e+r,r)/C(d-e+r,r)), independent of ambient shortened dimension. The exact deployed rank/support walls are pinned in the certificate.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/statement.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/proof.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/audit.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/result.md",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/verify.py",
+    "background/nodes/rate_half_mca_sparse_direction_affine_rank_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65340,6 +65358,21 @@
   },
   {
    "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_sparse_direction_affine_rank_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "to": "rate_half_mca_sparse_direction_affine_rank_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_affine_rank_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
