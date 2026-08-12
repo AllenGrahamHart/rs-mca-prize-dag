@@ -1,0 +1,37 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1852,
+  "node": {
+    "id": "rate_half_mca_near_rational_line_bc_guard_rejection",
+    "title": "Rate-half MCA near-rational line BC-guard rejection",
+    "status": "PROVED",
+    "closure": "explicit shifted-lattice vector",
+    "statement": "For each of the 67472 displayed support-wise bad slopes in the deployed KoalaBear near-rational counterexample of upstream #1160, the slope word is supported on exactly 67471 coordinates. Its support locator and zero numerator form a received-word lattice vector of effective shifted degree 67471. Therefore the minimum shifted degree is below the necessary 67472 lower guard in the cycle-19 candidate P_BC certificate contract, and every displayed slope is rejected. This passes the mandatory hostile regression at guard level but proves no equivalence with the frozen BC owner.",
+    "refs": [
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/statement.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/proof.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/claim_contract.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/dependency_subdag.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/audit.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/result.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/lineage.md",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/source_contract.json",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/verify.py",
+      "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_active_balanced_core_witness_compiler",
+      "order": 5143
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 5144
+    }
+  ],
+  "refutes": []
+}

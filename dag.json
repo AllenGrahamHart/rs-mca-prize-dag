@@ -29134,6 +29134,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_near_rational_line_bc_guard_rejection",
+   "title": "Rate-half MCA near-rational line BC-guard rejection",
+   "status": "PROVED",
+   "closure": "explicit shifted-lattice vector",
+   "statement": "For each of the 67472 displayed support-wise bad slopes in the deployed KoalaBear near-rational counterexample of upstream #1160, the slope word is supported on exactly 67471 coordinates. Its support locator and zero numerator form a received-word lattice vector of effective shifted degree 67471. Therefore the minimum shifted degree is below the necessary 67472 lower guard in the cycle-19 candidate P_BC certificate contract, and every displayed slope is rejected. This passes the mandatory hostile regression at guard level but proves no equivalence with the frozen BC owner.",
+   "refs": [
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/statement.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/proof.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/claim_contract.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/dependency_subdag.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/audit.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/result.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/lineage.md",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/source_contract.json",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/verify.py",
+    "background/nodes/rate_half_mca_near_rational_line_bc_guard_rejection/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65017,6 +65036,16 @@
   },
   {
    "from": "rate_half_mca_kplus1_badness_transport_counterexample",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_active_balanced_core_witness_compiler",
+   "to": "rate_half_mca_near_rational_line_bc_guard_rejection",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_near_rational_line_bc_guard_rejection",
    "to": "mca_safe",
    "kind": "ev"
   },
