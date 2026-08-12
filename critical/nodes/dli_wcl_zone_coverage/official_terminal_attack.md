@@ -399,6 +399,28 @@ control of individual minimal-conductor norms. WCL arithmetic effort should
 prefer a slot with independent moment equations, currently `(2,7)`, unless a
 new individual-norm theorem appears.
 
+## Slot `(1,6)` official extension-row falsification panel (2026-08-12)
+
+The first targeted extension-field panel also survives exact falsification.
+The 128 explicitly banked rows comprise
+
+```text
+64 primes p=k*2^39+1, k odd, ord_(2^41)(p)=4, q=p^4;
+64 primes p=k*2^40+1, k odd, ord_(2^41)(p)=2, q=p^2.
+```
+
+Every characteristic has a full-factorization Pocklington certificate, every
+field is generated and below `2^256`, and `mu_512` lies in the prime field.
+Exact normalized MITM exhausts `129,540` pairs and `21,849,080` triples per
+row, finding zero relations; a sorted-pair implementation independently
+replays both class endpoints. The smallest characteristic is
+`2,748,779,069,441`, below the first banked degree-one characteristic.
+
+This is finite evidence only. It closes no slot and does not cover later
+characteristics or extension classes where `mu_512` is not prime-field split.
+The universal route still needs individual minimal-conductor norm control or
+a different gate-aware obstruction.
+
 ## Slot `(2,7)` corrected quadruple-cubic router (2026-08-06)
 
 The two-equation route is now exact at prime-filter granularity. Selecting a

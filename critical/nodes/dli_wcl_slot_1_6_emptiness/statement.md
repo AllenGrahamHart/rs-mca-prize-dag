@@ -10,10 +10,15 @@ weight-6 witness) — the official-admissibility gate (v_2(q-1) >= 41) is
 load-bearing. FALSIFIER: one official-admissible prime with such a
 vanisher.
 
-Finite exact evidence: the first 64 certified split-prime characteristics,
-`q=k*2^41+1` for prime rows with `3<=k<=996`, exhaust all normalized legal
-pair/triple splits and contain no vanisher. This does not alter `TARGET`:
-later characteristics and extension-field rows remain unclassified.
+Finite exact evidence has two panels. The first 64 certified split-prime
+characteristics, `q=k*2^41+1` for prime rows with `3<=k<=996`, exhaust all
+normalized legal pair/triple splits and contain no vanisher. A second exact
+panel exhausts 128 generated extension rows: 64 with exact `v_2(p-1)=39`
+and `q=p^4`, and 64 with exact `v_2(p-1)=40` and `q=p^2`. Every extension
+characteristic has a full-factorization Pocklington certificate, and four
+class endpoints have independent sorted-pair replays. This does not alter
+`TARGET`: later characteristics and nonsplit-on-`mu_512` extension classes
+remain unclassified.
 
 Structural router: aggregating the 32 sign lifts of each six-subset of
 `mu_256` gives one symmetric degree-16 sign product with exactly the union of

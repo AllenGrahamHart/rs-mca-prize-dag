@@ -1,0 +1,38 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1849,
+  "node": {
+    "id": "dli_wcl_ell1_weight6_first128_extension_mitm_exclusion",
+    "title": "DLI WCL ell=1 weight-6 exclusion on 128 official extension rows",
+    "status": "PROVED",
+    "closure": "computation",
+    "statement": "Exact normalized pair/triple meet-in-the-middle search excludes every reduced signed weight-6 relation at an order-512 root on 128 explicitly banked official generated extension-field rows: 64 prime characteristics with exact v2(p-1)=39 and degree 4, and 64 with exact v2(p-1)=40 and degree 2. Full-factorization Pocklington checks certify every characteristic; all 129,540 legal pairs and 21,849,080 legal triples are exhausted per row. This finite theorem is evidence only; the universal (1,6) slot remains TARGET.",
+    "refs": [
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/statement.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/proof.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/claim_contract.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/dependency_subdag.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/audit.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/result.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/lineage.md",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/verify.py",
+      "background/nodes/dli_wcl_ell1_weight6_first128_extension_mitm_exclusion/verify_audit.py",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_prereg.md",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm.cpp",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_result.json",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_audit.cpp",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_audit_modal.py",
+      "experiments/prize_resolution/dli_wcl_ell1_weight6_extension_row_mitm_audit_result.json"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "dli_wcl_slot_1_6_emptiness",
+      "order": 5138
+    }
+  ],
+  "refutes": []
+}

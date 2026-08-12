@@ -1,0 +1,49 @@
+{
+  "indices": [
+    0,
+    63,
+    64,
+    127
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "omega": 2431888063272,
+      "p": 2748779069441,
+      "pair_count": 129540,
+      "seed": 3,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "index": 63,
+      "omega": 681581186344585,
+      "p": 1096762848706561,
+      "pair_count": 129540,
+      "seed": 31,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "index": 64,
+      "omega": 17395969037911,
+      "p": 29686813949953,
+      "pair_count": 129540,
+      "seed": 5,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    },
+    {
+      "index": 127,
+      "omega": 25594818718506,
+      "p": 2424423139246081,
+      "pair_count": 129540,
+      "seed": 11,
+      "status": "EXHAUSTED",
+      "triples_scanned": 21849080
+    }
+  ],
+  "schema": "dli-wcl-ell1-weight6-extension-row-mitm-audit-v1",
+  "status": "COMPLETE",
+  "worker_errors": []
+}
