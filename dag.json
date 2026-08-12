@@ -29209,6 +29209,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_whole_line_global_core_router",
+   "title": "Rate-half MCA whole-line global-core cancellation router",
+   "status": "PROVED",
+   "closure": "exact line-global cancellation and identity-fiber router",
+   "statement": "For any finite declared selected set of support-wise MCA-bad slopes on one Reed-Solomon received line, either all selected explanations are globally affine or the intersection C_* of all selected maximal agreement supports has size below k and can be cancelled once from the entire line. The resulting unique shortened row preserves every slope, actual same-support noncontainment, and the invariants m-k, n-k, n-m; the slope map is the identity with fiber one, so no sum over record-local cores occurs. At the imported KoalaBear walls the one global family is paid only for s<=2 or direction-separated 3<=s<=13; otherwise it emits one explicit shortened residual. No residual bound or row closure is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_whole_line_global_core_router/statement.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/proof.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/claim_contract.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/audit.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/result.md",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/source_contract.json",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/verify.py",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65142,6 +65160,21 @@
   },
   {
    "from": "rate_half_mca_record_local_core_owner_noninvariance",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_whole_line_global_core_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_record_local_core_owner_noninvariance",
+   "to": "rate_half_mca_whole_line_global_core_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_whole_line_global_core_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

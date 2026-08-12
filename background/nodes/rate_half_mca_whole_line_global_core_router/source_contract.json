@@ -1,0 +1,44 @@
+{
+  "schema": "rate-half-mca-whole-line-global-core-router-v1",
+  "inputs": {
+    "common_core_import_node": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+    "common_core_import_upstream_head": "e26c15b2d2c2f98ae12dda17b97c40981f76e1ff",
+    "local_owner_cut_node": "rate_half_mca_record_local_core_owner_noninvariance",
+    "local_owner_cut_contract_sha256": "7a27aef1521b42bc9704c97345be34263e8b22980b5e7fd65f84560b92ff6c94"
+  },
+  "theorem": {
+    "owner": "one global intersection of all declared selected maximal supports on one received line",
+    "slope_map": "identity",
+    "slope_fiber": 1,
+    "preserved_invariants": ["m-k", "n-k", "n-m"],
+    "paid_or_residual_outcomes": [
+      "GLOBAL_AFFINE",
+      "GLOBAL_CORE_S_LE_2",
+      "GLOBAL_CORE_DIRECTION_SEPARATED_3_LE_S_LE_13",
+      "DIRECTION_LIST_SHORTENED_S",
+      "GLOBAL_CORE_SHORTENED_S_GE_14"
+    ]
+  },
+  "gf11_control": {
+    "global_core": [10],
+    "shortened_n": 9,
+    "shortened_k": 4,
+    "shortened_m": 6,
+    "shortened_d": 2,
+    "shortened_R": 5,
+    "shortened_t": 3,
+    "selected_slopes": [0, 2, 3, 5, 6, 8, 9],
+    "direction_max_agreement": 6,
+    "outcome": "DIRECTION_LIST_SHORTENED_S"
+  },
+  "official_koalabear_boundaries": {
+    "n": 2097152,
+    "k": 1048576,
+    "m": 1116048,
+    "B_star": 274980728111395087,
+    "B_cell_s2": 192154133857304576,
+    "B_cell_s3": 50372197381489643749376,
+    "J_13": 47876303026096432,
+    "J_14": 743896698428332665
+  }
+}
