@@ -29263,6 +29263,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "title": "Rate-half MCA direction-mismatch recursive shortening",
+   "status": "PROVED",
+   "closure": "field-general recurrence and deployed envelopes",
+   "statement": "In a shortened row (R+s,s,d+s), let a minimum lift of the nonzero line-direction syndrome have weight R-j with 0<=j<d. Every size-(d+s) pair-noncontained witness meets its support in at least d-j coordinates. Conditioning on one such agreement and cancelling it produces a dimension-(s-1) support-wise MCA child whose direction defect is at most j. Consequently M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Composed with the direct direction-distance bound, this gives the exact deployed recursive envelopes pinned in the certificate.",
+   "refs": [
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/statement.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/proof.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/claim_contract.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/dependency_subdag.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/audit.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/result.md",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/source_contract.json",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/verify.py",
+    "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65241,6 +65259,21 @@
   },
   {
    "from": "rate_half_mca_global_core_direction_distance_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_global_core_direction_distance_router",
+   "to": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_direction_mismatch_recursive_shortening",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
