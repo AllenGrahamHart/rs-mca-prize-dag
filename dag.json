@@ -29115,6 +29115,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_kplus1_badness_transport_counterexample",
+   "title": "Rate-half MCA K-to-K+1 badness transport counterexample",
+   "status": "PROVED",
+   "closure": "construction",
+   "statement": "On one explicit deployed KoalaBear record, the received pair (u,v)=(1_E,X^k), slope 0, and an exact size-m support S give a support-wise MCA-bad witness for RS[F,D,k], while the identical slope and support are pair-contained for RS[F,D,k+1] because X^k enters the enlarged code. Thus silent K=k+1 prefix-envelope transport does not preserve actual degree-<k witness badness or first-owner semantics. Any repaired SEM-QBC or whole-line-selector adapter must retain and recheck the original degree and pair-noncontainment guards. A guarded adapter remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/statement.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/proof.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/claim_contract.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/dependency_subdag.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/audit.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/result.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/lineage.md",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/source_contract.json",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/verify.py",
+    "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -64993,6 +65012,11 @@
   },
   {
    "from": "rate_half_mca_two_anchor_reserve_repricing",
+   "to": "mca_safe",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_kplus1_badness_transport_counterexample",
    "to": "mca_safe",
    "kind": "ev"
   },
