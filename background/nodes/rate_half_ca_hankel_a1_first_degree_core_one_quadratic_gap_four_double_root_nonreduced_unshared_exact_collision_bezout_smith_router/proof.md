@@ -9,8 +9,14 @@ a factor which is a unit at `(tau,x_*)`. All Pade intersections over
 `tau` lie on the correction divisor `B`, hence on this quadratic factor;
 the complementary contact-algebra block is invertible.
 
-The identity `b=P_F(t,x_*)=F_0` and the normalization/collision theorem
-give
+Writing `P_F=b+ay+qR` and evaluating at `y=0` gives
+
+```text
+F_0=P_F(t,x_*)=b+c_0R(z,0).
+```
+
+The normalization/collision theorem gives `ord_z F_0=2`, while the local
+quadratic argument below gives `ord_z c_0=6`. Consequently
 
 ```text
 ord_z b=2.                                         (1)
