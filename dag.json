@@ -29281,6 +29281,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "title": "Rate-half MCA sparse-direction punctured-list payment",
+   "status": "PROVED",
+   "closure": "field-general reduction and deployed boundary",
+   "statement": "In a shortened row (R+s,s,d+s), suppose the line direction differs from a codeword on an e-set with 1<=e<d. Every pair-noncontained witness meets that e-set. After subtracting the codeword direction, each slope gives a codeword in the punctured ordinary list with agreement at least d+s-e, and each punctured codeword owns at most e slopes. Hence |Z|<=e floor(C(R-e+s,s)/C(d-e+s,s)). At the first all-direction-unpaid dimensions this pays e<=5 on KoalaBear and e=1 on Mersenne-31.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/statement.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/proof.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/audit.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/result.md",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/verify.py",
+    "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65274,6 +65292,21 @@
   },
   {
    "from": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_global_core_direction_distance_router",
+   "to": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_punctured_list_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
