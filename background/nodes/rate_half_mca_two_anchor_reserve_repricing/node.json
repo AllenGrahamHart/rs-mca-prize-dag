@@ -1,0 +1,41 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1850,
+  "node": {
+    "id": "rate_half_mca_two_anchor_reserve_repricing",
+    "title": "Rate-half MCA two-anchor reserve repricing",
+    "status": "PROVED",
+    "closure": "proof",
+    "statement": "On the deployed KoalaBear and Mersenne-31 MCA adjacent rows, placing the proved near-rational first-match owner of size at most 2w before the residual 31-slope exception set changes the active large-owner target exactly from B*-31-(n-g) to B*-(2w+31)-(n-g). The revised conditional assembly sums exactly to B* in the large-owner case and retains positive margins in every smaller-owner and affine case. The revised full-owner targets are 274980728111260112 and 16642288, still at least 4807520 and 9 times the proved exact average ceilings. This proves arithmetic viability and exact repricing only; the stricter large-owner theorem and all S/A/E premises remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/statement.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/proof.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/claim_contract.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/dependency_subdag.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/audit.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/result.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/lineage.md",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/source_contract.json",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/verify.py",
+      "background/nodes/rate_half_mca_two_anchor_reserve_repricing/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+      "order": 5139
+    },
+    {
+      "from": "deployed_identity_prefix_owner_scope_audit",
+      "order": 5140
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 5141
+    }
+  ],
+  "refutes": []
+}

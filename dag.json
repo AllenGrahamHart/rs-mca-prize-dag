@@ -29096,6 +29096,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_two_anchor_reserve_repricing",
+   "title": "Rate-half MCA two-anchor reserve repricing",
+   "status": "PROVED",
+   "closure": "proof",
+   "statement": "On the deployed KoalaBear and Mersenne-31 MCA adjacent rows, placing the proved near-rational first-match owner of size at most 2w before the residual 31-slope exception set changes the active large-owner target exactly from B*-31-(n-g) to B*-(2w+31)-(n-g). The revised conditional assembly sums exactly to B* in the large-owner case and retains positive margins in every smaller-owner and affine case. The revised full-owner targets are 274980728111260112 and 16642288, still at least 4807520 and 9 times the proved exact average ceilings. This proves arithmetic viability and exact repricing only; the stricter large-owner theorem and all S/A/E premises remain open.",
+   "refs": [
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/statement.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/proof.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/claim_contract.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/dependency_subdag.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/audit.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/result.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/lineage.md",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/source_contract.json",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/verify.py",
+    "background/nodes/rate_half_mca_two_anchor_reserve_repricing/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -64960,6 +64979,21 @@
   {
    "from": "dli_wcl_ell1_weight6_first128_extension_mitm_exclusion",
    "to": "dli_wcl_slot_1_6_emptiness",
+   "kind": "ev"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "rate_half_mca_two_anchor_reserve_repricing",
+   "kind": "req"
+  },
+  {
+   "from": "deployed_identity_prefix_owner_scope_audit",
+   "to": "rate_half_mca_two_anchor_reserve_repricing",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_two_anchor_reserve_repricing",
+   "to": "mca_safe",
    "kind": "ev"
   },
   {
