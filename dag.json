@@ -29299,6 +29299,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "title": "Rate-half MCA codeword-direction gauge rank router",
+   "status": "PROVED",
+   "closure": "field-general equivalence and exact deployed rank walls",
+   "statement": "Subtracting any codeword b from the received-line direction and gamma b from each slope explanation preserves slopes, exact agreement supports, and same-support pair noncontainment. The original and transformed explanation affine ranks differ by at most one. Applying the support-wise affine-span compiler in row (R+K,K,d+K) gives an exact two-term bound whose deployed ambient-dimension walls are: KoalaBear ranks <=11 at all K, rank 12 through K=745260, rank 13 through K=289603; Mersenne ranks <=4 at all K and rank 5 through K=482472.",
+   "refs": [
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/claim_contract.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/audit.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/result.md",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/source_contract.json",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify.py",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65307,6 +65325,21 @@
   },
   {
    "from": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_supportwise_affine_span_compiler",
+   "to": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_global_core_direction_distance_router",
+   "to": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

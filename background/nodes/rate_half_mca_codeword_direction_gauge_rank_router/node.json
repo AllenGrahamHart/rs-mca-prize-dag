@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1861,
+  "node": {
+    "id": "rate_half_mca_codeword_direction_gauge_rank_router",
+    "title": "Rate-half MCA codeword-direction gauge rank router",
+    "status": "PROVED",
+    "closure": "field-general equivalence and exact deployed rank walls",
+    "statement": "Subtracting any codeword b from the received-line direction and gamma b from each slope explanation preserves slopes, exact agreement supports, and same-support pair noncontainment. The original and transformed explanation affine ranks differ by at most one. Applying the support-wise affine-span compiler in row (R+K,K,d+K) gives an exact two-term bound whose deployed ambient-dimension walls are: KoalaBear ranks <=11 at all K, rank 12 through K=745260, rank 13 through K=289603; Mersenne ranks <=4 at all K and rank 5 through K=482472.",
+    "refs": [
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/claim_contract.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/audit.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/result.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/source_contract.json",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify.py",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_supportwise_affine_span_compiler", "order": 5164},
+    {"from": "rate_half_mca_global_core_direction_distance_router", "order": 5165}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5166}
+  ],
+  "refutes": []
+}
