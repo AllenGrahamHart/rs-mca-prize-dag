@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1887,
+  "node": {
+    "id": "rate_half_mca_m31_boundary_anchor_case_split",
+    "title": "Rate-half MCA Mersenne boundary-anchor case split",
+    "status": "PROVED",
+    "closure": "two-anchor absorption of the first Mersenne boundary layer",
+    "statement": "When q=e-K-3 floor((e-K)/3) is positive, a case split on whether the synchronized top-third union has at most one or at least two explanations gives |Z|<=max(P_H+1,P_(H-1)+(N-m+1)). At Mersenne-31 e=98230 this is 16487313, below budget by 289902; e=98231 remains unpaid and is not certified unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/statement.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/proof.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/audit.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/result.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/provenance.md",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/source_contract.json",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify.py",
+      "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_full_lift_mean_centered_global_line_profile", "order": 5260},
+    {"from": "rate_half_mca_full_lift_top_third_global_line_payment", "order": 5261}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5262},
+    {"to": "rate_half_band_crossing_location", "order": 5263}
+  ],
+  "refutes": []
+}

@@ -29777,6 +29777,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_boundary_anchor_case_split",
+   "title": "Rate-half MCA Mersenne boundary-anchor case split",
+   "status": "PROVED",
+   "closure": "two-anchor absorption of the first Mersenne boundary layer",
+   "statement": "When q=e-K-3 floor((e-K)/3) is positive, a case split on whether the synchronized top-third union has at most one or at least two explanations gives |Z|<=max(P_H+1,P_(H-1)+(N-m+1)). At Mersenne-31 e=98230 this is 16487313, below budget by 289902; e=98231 remains unpaid and is not certified unsafe.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/statement.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/proof.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/audit.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/result.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/provenance.md",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/source_contract.json",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify.py",
+    "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66155,6 +66174,26 @@
   },
   {
    "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_mca_m31_boundary_anchor_case_split",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "to": "rate_half_mca_m31_boundary_anchor_case_split",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_boundary_anchor_case_split",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_boundary_anchor_case_split",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
