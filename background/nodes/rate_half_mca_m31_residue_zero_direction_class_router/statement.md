@@ -26,7 +26,8 @@ Each class and the anchor lie on one affine explanation line.  With
 Q=floor((N-e-c)/(m-H-c)),
 ```
 
-outside-core packing therefore gives
+and under the endpoint guard `N-e>m-H>c`, outside-core packing therefore
+gives
 
 ```text
 |D|<=1+J(Q-1).                                        (RZ2)

@@ -101,7 +101,9 @@ def validate(payload):
     for key, value in got.items():
         if r[key] != value:
             raise Reject(key)
-    if den <= 0 or threshold > r["line_cap"] or core != m - 2:
+    if (q != 0 or A <= 0 or den <= 0 or
+            not (N - e > m - H > c) or
+            threshold > r["line_cap"] or core != m - 2):
         raise Reject("guards")
     return 19
 

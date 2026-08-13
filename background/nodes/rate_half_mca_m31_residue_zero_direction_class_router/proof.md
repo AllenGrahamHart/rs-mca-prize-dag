@@ -31,9 +31,10 @@ For fixed `p`, all corresponding explanations have the form
 codeword line.  The preceding nonzero-direction guard makes its outside
 common core a subset of the zero set of `p`, hence of size at most `c`.
 Since the layer has exactly `m-H` outside agreements and this number exceeds
-`c`, outside-core line packing bounds each such line by `Q`.  The anchor is
-common to every line closure, so at most `Q-1` nonanchors occur in each of
-the at most `J` classes.  This proves `(RZ2)`.
+`c`, while `N-e>m-H`, the outside packing ratio is increasing in the common
+core size.  Substituting its upper bound `c` therefore bounds each such line
+by `Q`.  The anchor is common to every line closure, so at most `Q-1`
+nonanchors occur in each of the at most `J` classes.  This proves `(RZ2)`.
 
 The independently truncated prefix charges all deficits at most `H-1`.
 The top-third theorem puts all deficits greater than `H` on one affine
