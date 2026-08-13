@@ -56,6 +56,25 @@ Mersenne at s=6:    e<=1 by punctured-list payment,
                     e>=1044242 by repaired direction recursion.
 ```
 
+The full-lift branch now has an exact code-theoretic form.  With
+
+```text
+W=C+span{r_1},
+```
+
+the selected errors are a full-affine-rank sparse list in one affine coset
+of the `[N,K+1]` code `W`, with unit slope fibers.  Its generalized weights
+are
+
+```text
+d_1(W)=e,       d_j(W)=N-K+j-1 for 2<=j<=K+1.
+```
+
+Thus every higher generalized weight is already MDS-sharp.  Even at the
+best endpoint `e=N-K`, the resulting generic affine-list ceiling is
+`743896698428332665` on KoalaBear and `219426634` on Mersenne, both above
+budget.
+
 At later dimensions the repaired high-support suffix is exactly the one
 defined by `rate_half_mca_direction_mismatch_recursive_shortening`; the
 sparse-direction theorem must be evaluated at its own exact row.
@@ -63,7 +82,9 @@ sparse-direction theorem must be evaluated at its own exact row.
 ## Target
 
 Pay the displayed residual support intervals, especially the full-lift
-top-rank cells, without reusing the refuted ordered-basis denominator.  Any
+top-rank cells, without reusing the refuted ordered-basis denominator.  For
+the full-lift branch this now means exploiting structure of the
+codimension-one RS extension beyond its generalized-weight hierarchy.  Any
 further replacement must continue to distinguish:
 
 1. local incident full rank;

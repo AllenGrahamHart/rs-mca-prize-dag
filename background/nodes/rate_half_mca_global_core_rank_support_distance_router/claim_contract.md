@@ -9,7 +9,10 @@
   `rate_half_mca_proper_subspace_occupancy_compiler`
 - **proved top-rank split:**
   `rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy`
+- **proved full-lift reduction:**
+  `rate_half_mca_full_lift_near_mds_extension_reduction`
 - **remaining theorem:** payment of the exact middle-support intervals in
-  `statement.md`, with the full-lift top affine-rank cell the widest residual
+  `statement.md`, with the full-lift top affine-rank cell reduced to a
+  row-sharp sparse-list theorem for a codimension-one near-MDS RS extension
 - **counterexample owner:**
   `rate_half_mca_affine_span_incidence_counterexample`

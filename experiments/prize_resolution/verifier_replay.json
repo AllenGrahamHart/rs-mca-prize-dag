@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify.py",
-      "seconds": 0.023623,
+      "script": "background/nodes/rate_half_mca_full_lift_near_mds_extension_reduction/verify.py",
+      "seconds": 1.41681,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_GLOBAL_CORE_RANK_SUPPORT_REPLACEMENT_TARGET_PASS gates=6 mutations=1/1\n"
+      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_NEAR_MDS_EXTENSION_REDUCTION_PASS controls=2 official=2 mutations=3/3\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify_audit.py",
-      "seconds": 0.017887,
+      "script": "background/nodes/rate_half_mca_full_lift_near_mds_extension_reduction/verify_audit.py",
+      "seconds": 0.907615,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_GLOBAL_CORE_RANK_SUPPORT_REPLACEMENT_TARGET_AUDIT_PASS gates=2 replacement_walls=8 top_splits=2\n"
+      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_NEAR_MDS_EXTENSION_REDUCTION_AUDIT_PASS extensions=31 profile=[(1, 5), (2, 25), (3, 1)]\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

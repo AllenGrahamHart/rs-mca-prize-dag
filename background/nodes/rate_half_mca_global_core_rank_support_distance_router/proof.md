@@ -41,3 +41,19 @@ rank to `K-1`; direction coset support is gauge invariant, so the
 penultimate-rank occupancy wall applies.  If lifted rank is `K+1`, no
 codeword gauge drops rank and the original recursive suffix remains.  This
 gives the two top-rank rows printed in the target.
+
+In the full-lift branch, `W=C+span{r_1}` has dimension `K+1`.  Its first
+generalized weight is the direction coset distance `e`.  Every
+`j`-dimensional subspace with `j>=2` meets `C` in dimension at least `j-1`,
+so the RS MDS hierarchy and generalized Singleton bound force
+
+```text
+d_j(W)=N-K+j-1.
+```
+
+The error differences span all of `W`; pair noncontainment makes restriction
+to every selected maximal zero set injective.  This proves the near-MDS
+extension reduction.  Substituting the complete hierarchy into the generic
+compiler recovers the corrected top-rank bound and remains over budget even
+at `e=N-K`, so the reduction narrows the missing theorem without paying a
+new interval.

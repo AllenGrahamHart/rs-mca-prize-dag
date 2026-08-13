@@ -1,5 +1,5 @@
 {
-  "schema": "rate-half-mca-global-core-rank-support-replacement-target-v4",
+  "schema": "rate-half-mca-global-core-rank-support-replacement-target-v5",
   "status": "TARGET",
   "refuter": "rate_half_mca_affine_span_incidence_counterexample",
   "retracted": ["affine-rank gate", "direction-support affine-basis gate", "common-zero gate"],
@@ -8,7 +8,8 @@
     "sparse": "rate_half_mca_sparse_direction_punctured_list_payment",
     "direction": "rate_half_mca_direction_mismatch_recursive_shortening",
     "occupancy": "rate_half_mca_proper_subspace_occupancy_compiler",
-    "lifted_rank": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy"
+    "lifted_rank": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
+    "near_mds": "rate_half_mca_full_lift_near_mds_extension_reduction"
   },
   "first_gates": [
     {"row": "KoalaBear MCA", "s": 14, "R": 1048576, "low_e": 5, "frontier_j": 4337, "high_e": 1044239},
@@ -21,5 +22,9 @@
   "top_rank_split": [
     {"row": "KoalaBear MCA", "q": 14, "low_e": 5, "drop_lifted_rank": 14, "drop_high_e": 992852, "full_lifted_rank": 15, "full_high_e": 1044239},
     {"row": "Mersenne-31 MCA", "q": 6, "low_e": 1, "drop_lifted_rank": 6, "drop_high_e": 1037876, "full_lifted_rank": 7, "full_high_e": 1044242}
+  ],
+  "full_lift_ceiling": [
+    {"row": "KoalaBear MCA", "extension_dimension": 15, "first_weight": "e", "higher_weights": "N-K+j-1", "mds_endpoint_bound": 743896698428332665, "budget": 274980728111395087},
+    {"row": "Mersenne-31 MCA", "extension_dimension": 7, "first_weight": "e", "higher_weights": "N-K+j-1", "mds_endpoint_bound": 219426634, "budget": 16777215}
   ]
 }

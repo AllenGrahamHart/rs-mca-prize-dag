@@ -8,7 +8,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "247ab253f17d84a8e2085dcab4ddedac442f8555c0280f48c1174039f1e2f178"
+CONTRACT_SHA256 = "c22d48362899884588530448b4b7d518e8b30b46b40ae0a12ded9a72a0cd8cf9"
 
 
 class Reject(ValueError):
@@ -16,12 +16,16 @@ class Reject(ValueError):
 
 
 def validate(contract: object) -> int:
-    if not isinstance(contract, dict) or contract.get("schema") != "rate-half-mca-global-core-rank-support-replacement-target-v4":
+    if not isinstance(contract, dict) or contract.get("schema") != "rate-half-mca-global-core-rank-support-replacement-target-v5":
         raise Reject("schema")
     if contract.get("status") != "TARGET" or contract.get("refuter") != "rate_half_mca_affine_span_incidence_counterexample":
         raise Reject("status")
     if contract.get("retracted") != ["affine-rank gate", "direction-support affine-basis gate", "common-zero gate"]:
         raise Reject("retracted")
+    if contract["surviving_sources"].get("near_mds") != (
+        "rate_half_mca_full_lift_near_mds_extension_reduction"
+    ):
+        raise Reject("near-MDS supplier")
     expected = {
         "KoalaBear MCA": (14, 1048576, 5, 4337, 1044239),
         "Mersenne-31 MCA": (6, 1048576, 1, 4334, 1044242),
@@ -61,6 +65,21 @@ def validate(contract: object) -> int:
             raise Reject("top-rank split")
         if not row["low_e"] < row["drop_high_e"] < row["full_high_e"]:
             raise Reject("top-rank wall order")
+        checks += 1
+    ceilings = {
+        "KoalaBear MCA": (15, "e", "N-K+j-1", 743896698428332665,
+                            274980728111395087),
+        "Mersenne-31 MCA": (7, "e", "N-K+j-1", 219426634, 16777215),
+    }
+    for row in contract["full_lift_ceiling"]:
+        values = tuple(row[key] for key in (
+            "extension_dimension", "first_weight", "higher_weights",
+            "mds_endpoint_bound", "budget",
+        ))
+        if values != ceilings.get(row["row"]):
+            raise Reject("full-lift ceiling")
+        if not row["mds_endpoint_bound"] > row["budget"]:
+            raise Reject("ceiling direction")
         checks += 1
     return checks
 

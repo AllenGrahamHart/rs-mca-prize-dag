@@ -5,8 +5,8 @@
     "id": "rate_half_mca_global_core_rank_support_distance_router",
     "title": "Rate-half MCA global-core rank/support replacement target",
     "status": "TARGET",
-    "closure": "rank/common-zero regression; replacement theorem required",
-    "statement": "The former affine-rank and common-zero payments remain retracted. A corrected proper-subspace occupancy theorem pays all supports through affine rank 9 on KoalaBear and rank 1 on Mersenne and supplies exact higher-rank walls. A full-explanation lifted-rank dichotomy splits each top cell into a gauge-drop branch inheriting the penultimate-rank wall and a full-lift branch retaining the recursive wall. The printed middle-support intervals still require payment.",
+    "closure": "rank/common-zero regression; row-sharp near-MDS extension theorem required",
+    "statement": "The former affine-rank and common-zero payments remain retracted. A corrected proper-subspace occupancy theorem pays all supports through affine rank 9 on KoalaBear and rank 1 on Mersenne and supplies exact higher-rank walls. A lifted-rank dichotomy splits each top cell into a gauge-drop branch and a full-lift branch. The latter is exactly a sparse full-affine-rank list in a codimension-one RS extension with d_1=e and every higher generalized weight MDS-sharp; the generic ceiling remains above budget. The printed middle-support intervals still require payment.",
     "refs": [
       "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
       "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
