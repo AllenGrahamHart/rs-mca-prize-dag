@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router/verify.py",
-      "seconds": 0.027996,
+      "seconds": 0.016853,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_FRAME_PASS reserve=7 repeated=183251937955 pair_floor=30541989660 mutations=3/3\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router/verify_audit.py",
-      "seconds": 0.026963,
+      "seconds": 0.015905,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_FRAME_AUDIT_PASS general_position_reserve=7 pair_floor=30541989660\n"
