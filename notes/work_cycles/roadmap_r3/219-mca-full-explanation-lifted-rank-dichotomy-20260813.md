@@ -46,13 +46,15 @@ start:                   d9b81e631
 canonical prize:         c8d48cd4b
 upstream main:           93fba1be
 relevant upstream PRs:   #1163, #1164, #1165
-result:                  NARROWED; one PROVED structural dichotomy
+upstream export head:    #1165 @ 0a4960f6
+result:                  NARROWED + EXPORTED; one PROVED structural dichotomy
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
-upstream terminal delta: bankable fixed-core/all-LineRay correspondence
-                         addendum for PR #1165
+upstream terminal delta: proved fixed-core/all-LineRay correspondence,
+                         exact top-rank split, and fourth verifier added to
+                         PR #1165; dependency comments added to #1163/#1164
 delta-star movement:     none
 compute:                 exact bounded local arithmetic under RAMguard
-next route action:       export the dichotomy, then attack the full-lift
-                         top-rank middle-support interval
+next route action:       attack the full-lift top-rank middle-support
+                         interval without assuming a gauge rank drop
 ```
