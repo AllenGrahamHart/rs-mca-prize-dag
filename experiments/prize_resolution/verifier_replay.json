@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/verify.py",
-      "seconds": 0.06119,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/verify.py",
+      "seconds": 0.074328,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_FIBER_LARGE_CLASS_DICHOTOMY_PASS rank=91625968982 projection=91625968981 classes=274877906943,274877906943,274877906944 toy_ranks=3,2 mutations=12/12\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_LARGE_CLASS_CENTER_RESIDUAL_EXCLUSION_PASS rank=91625968982 large_rank=91625968981 large_class=274877906944 residual_degree=4 mutations=9/9\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/verify_audit.py",
-      "seconds": 0.031125,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/verify_audit.py",
+      "seconds": 0.037133,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_FIBER_LARGE_CLASS_DICHOTOMY_AUDIT_PASS boundary=(91625968982, 91625968982, 1) rest=(549755813887, 549755813886)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_LARGE_CLASS_CENTER_RESIDUAL_EXCLUSION_AUDIT_PASS rank=91625968981 support={'tau': 4}\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
