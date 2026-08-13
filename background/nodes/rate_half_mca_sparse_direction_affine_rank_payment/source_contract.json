@@ -1,0 +1,39 @@
+{
+  "schema": "rate-half-mca-sparse-direction-affine-rank-payment-v1",
+  "sources": {
+    "gauge_rank_router": "rate_half_mca_codeword_direction_gauge_rank_router",
+    "full_code_special_case": "rate_half_mca_sparse_direction_punctured_list_payment"
+  },
+  "theorem": {
+    "transformed_rank": "r=rank_aff(c_gamma-gamma b)",
+    "direction_support": "e=|supp(r_1-b)| with 1<=e<d",
+    "bound": "e*floor(binomial(R-e+r,r)/binomial(d-e+r,r))",
+    "ambient_dimension_independent": true
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "budget": 274980728111395087,
+      "rank_support_walls": [
+        {"rank": 12, "last_paid_e": 1144, "bound_last": 274849472034465328, "first_unpaid_e": 1145, "bound_first_unpaid": 275136341921843765},
+        {"rank": 13, "last_paid_e": 87, "bound_last": 272256895343216442, "first_unpaid_e": 88, "bound_first_unpaid": 275435997743171320},
+        {"rank": 14, "last_paid_e": 5, "bound_last": 239567470186217925, "first_unpaid_e": 6, "bound_first_unpaid": 287536780021025682},
+        {"rank": 15, "last_paid_e": 0, "bound_last": 0, "first_unpaid_e": 1, "bound_first_unpaid": 743896698428332665}
+      ]
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "budget": 16777215,
+      "rank_support_walls": [
+        {"rank": 4, "last_paid_e": 282, "bound_last": 16730778, "first_unpaid_e": 283, "bound_first_unpaid": 16791239},
+        {"rank": 5, "last_paid_e": 18, "bound_last": 16363584, "first_unpaid_e": 19, "bound_first_unpaid": 17273869},
+        {"rank": 6, "last_paid_e": 1, "bound_last": 14115447, "first_unpaid_e": 2, "bound_first_unpaid": 28233244},
+        {"rank": 7, "last_paid_e": 0, "bound_last": 0, "first_unpaid_e": 1, "bound_first_unpaid": 219426634}
+      ]
+    }
+  ]
+}

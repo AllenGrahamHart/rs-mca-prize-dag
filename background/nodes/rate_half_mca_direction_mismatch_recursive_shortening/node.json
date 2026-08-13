@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1859,
+  "node": {
+    "id": "rate_half_mca_direction_mismatch_recursive_shortening",
+    "title": "Rate-half MCA direction-mismatch recursive shortening",
+    "status": "PROVED",
+    "closure": "field-general recurrence and direct-gate initialized official envelopes",
+    "statement": "In a shortened row (R+s,s,d+s), conditioning on an agreement in the support of a minimum direction lift gives M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Initializing separately at s=1 from the proved direct direction-distance gate yields exact repaired frontiers: KoalaBear j<=4337 at s=14 and j=0 through s=4992; Mersenne j<=4334 at s=6 and j=0 through s=4979. No all-defect affine-span base case is used.",
+    "refs": [
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/statement.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/proof.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/claim_contract.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/dependency_subdag.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/audit.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/result.md",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/source_contract.json",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/verify.py",
+      "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_global_core_direction_distance_router",
+      "order": 5158
+    },
+    {
+      "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+      "order": 5159
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location",
+      "order": 5160
+    },
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router",
+      "order": 5213
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-full-explanation-lifted-rank-gauge-dichotomy-v1",
+  "theorem": {
+    "explanation_rank": "K",
+    "lifted_rank_options": ["K", "K+1"],
+    "rank_K_branch": "rank-drop gauges form {b:ell(b)=1} and transformed rank is K-1",
+    "rank_K_plus_1_branch": "every codeword gauge has transformed rank K",
+    "error_rank": "lifted rank when pair noncontainment implies r_1 notin C"
+  },
+  "finite_control": {
+    "field": 7,
+    "K": 3,
+    "rank_K": {"lifted_rank": 3, "rank_drop_gauges": 49, "other_gauges": 294, "error_rank": 3},
+    "rank_K_plus_1": {"lifted_rank": 4, "rank_drop_gauges": 0, "other_gauges": 343, "error_rank": 4}
+  },
+  "deployed": [
+    {"row": "KoalaBear MCA", "K": 14, "low_e": 5, "drop_branch_high_e": 992852, "full_lift_high_e": 1044239},
+    {"row": "Mersenne-31 MCA", "K": 6, "low_e": 1, "drop_branch_high_e": 1037876, "full_lift_high_e": 1044242}
+  ]
+}

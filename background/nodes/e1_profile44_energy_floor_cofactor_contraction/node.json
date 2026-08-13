@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1870,
+  "node": {
+    "id": "e1_profile44_energy_floor_cofactor_contraction",
+    "title": "E1 profile-(4,4) energy-floor cofactor contraction",
+    "status": "PROVED",
+    "closure": "analytic product majorant plus exact integer threshold",
+    "statement": "Every official profile-(4,4,S=20) collision has cofactor m<=932364. The exact local-norm frontier contracts from 1133 to 657 values, and the pure cofactor 2^20 is excluded. Thirteen pure powers and 644 non-pure cofactors remain; no orbit count or profile payment is claimed.",
+    "refs": [
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/statement.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/proof.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/claim_contract.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/dependency_subdag.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/audit.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/result.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/frontier.md",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/verify.py",
+      "background/nodes/e1_profile44_energy_floor_cofactor_contraction/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "e1_profile44_local_norm_route_fence", "order": 5194},
+    {"from": "e1_profile44_official_energy_le4_exclusion", "order": 5195}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "e1_official_low_square_mass_pair_budget", "order": 5196},
+    {"to": "unsafe_crossing_family_instantiation", "order": 5197}
+  ],
+  "refutes": []
+}

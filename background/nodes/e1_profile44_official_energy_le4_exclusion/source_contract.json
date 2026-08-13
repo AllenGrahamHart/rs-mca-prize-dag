@@ -1,0 +1,30 @@
+{
+  "schema": "e1-profile44-official-energy-le4-source-contract-v1",
+  "date": "2026-08-13",
+  "sources": [
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_abstract_energy12_norm_census_modal.py",
+      "sha256": "5897e1ddb72477fc97948a146b9167f253a2b4ba9e23fe1777fb023c31227be0"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_abstract_energy3_norm_census_modal.py",
+      "sha256": "7c185b341fe629e1271ef3dd8f4c820ada24cbba1238f4ed4d4427984d6b656f"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_abstract_energy4_norm_census_modal.py",
+      "sha256": "3335e32c4c68de344a3806bc28f8d59b1f81a1a3f62a053665e1c419fddb6fc0"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_low_energy_probe_modal.py",
+      "sha256": "1e84cfe1e85236be7d719df6b1f4ae56606d8a7c19cc1d43ef6a68754c87f7d8"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_singleton_parity_census_modal.py",
+      "sha256": "4261d80525afa1c64da5ea4902d8fc3729f24e260855f42458fb5876195063ca"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy_le4_exclusion/notes/profile44_low_energy_exact_modal.py",
+      "sha256": "24c7e63169fd8cc023d6bfe8de64defc67c6610981f0ac553358998847f648eb"
+    }
+  ]
+}

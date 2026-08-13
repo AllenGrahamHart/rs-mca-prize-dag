@@ -17,6 +17,31 @@ certificates required by the challenge.
 - Mixed-petal amplification.
 - Split-pencil high-core, low-core, and graded tangent charges.
 - The deployed rate-half band closure.
+- The direct KoalaBear post-near route now pays error rank at most ten.  At
+  error rank ten, a support-local margin split at `T=667` combines the
+  transversality cap with sub-square-root interleaved affine-list control;
+  the certified total is `61871313426765543<B_*`.  Error rank at least
+  eleven remains outside this direct payment.
+- The Mersenne full-lift mean-Gram route now pays through direction support
+  `e=98231`.  At residue two, a two-boundary-layer anchor split and a
+  boundary missed-set dichotomy give `16486411<16777215`; the residual
+  starts at the residue-zero support `e=98232`.  At that first residual, a
+  normalized-direction Johnson count caps the boundary layer at `1450`.
+  Any unsafe family must therefore put at least `343071` slopes on the
+  synchronized top line, whose common core is then at least `m-2`.  That
+  core absorbs every layer with `h>=30791` onto the same line; the lower
+  explanations form a punctured ordinary list of size at most `26`.
+  The resulting contradiction bound `3535161<16777215` pays `e=98232`,
+  A fixed-cutoff generalization with `h0=65200` then prices every exact
+  intermediate layer by normalized direction classes.  It pays all 2,924
+  supports through `e=101155`: directly through `101149`, then by core
+  absorption for six rows.  The endpoint bound is `3813469`; the Mersenne
+  full-lift residual reaches the fixed-cutoff wall `e=101156`.  There the
+  residue `q=2` synchronizes both boundary layers in the two-top case;
+  zero/one-top cases use the outside-core line cap or pairwise-disjoint
+  missed sets.  The largest of five exhaustive bounds is
+  `16705799<16777215`, so `e=101156` is also paid and the residual now
+  starts at the residue-zero support `e=101157`.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

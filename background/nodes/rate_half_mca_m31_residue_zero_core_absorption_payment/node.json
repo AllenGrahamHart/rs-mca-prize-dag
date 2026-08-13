@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1891,
+  "node": {
+    "id": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+    "title": "Mersenne residue-zero common-core absorption payment",
+    "status": "PROVED",
+    "closure": "near-maximal top core absorbs the upper prefix; one punctured list cap pays the remainder",
+    "statement": "At Mersenne full-lift support e=98232, the proved unsafe router forces a top affine line with common core at least m-2. Its inside core synchronizes every assigned explanation with h>=30791 onto that line. The remaining explanations form a punctured ordinary list of size at most 26, giving the contradiction bound 98232*26+981129=3535161<16777215. Thus the support is safe and the residual starts at e=98233.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/result.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_residue_zero_direction_class_router", "order": 5279},
+    {"from": "rate_half_mca_full_lift_mean_centered_global_line_profile", "order": 5280},
+    {"from": "rate_half_mca_full_lift_top_third_common_core_payment", "order": 5281}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5282},
+    {"to": "rate_half_band_crossing_location", "order": 5283}
+  ],
+  "refutes": []
+}

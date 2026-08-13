@@ -31515,3 +31515,3062 @@ new assumptions:         none beyond the separated extremal profile
 
 Every correction root now has exact heavy-row order two. The remaining
 overlap form is nonzero, correction-coprime, and constant or linear.
+# Cycle 166: rate-half `A=1` squarefree shared third-jet gate (2026-08-11)
+
+At a simple root shared by `g_*` and `S_B`, the supported and correction
+contacts may be distinct normalized branches. Their orders therefore cannot
+be added automatically in the fixed base polynomial. The correction branch
+always gives `z^2|F_0`; define
+
+```text
+kappa_tau=(F_0/z^2) mod z.
+```
+
+The exact recurrence gives
+
+```text
+(F_i/z^2) mod z=x_*^i kappa_tau,
+D_1|F_i for all i       iff kappa_tau=0.
+```
+
+On the vanishing branch the cubic quotient extends and the local Smith type
+is `[3]`. On the nonvanishing branch the canonical image has exact order two.
+
+```text
+result:                  PROVED one-scalar shared-root gate
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 tiny truncated-series replay; no Modal spend
+new assumptions:         S_B squarefree; shared roots allowed
+```
+
+The squarefree shared branch is now an explicit third-jet decision rather
+than an unstructured failure of the separated proof.
+# Cycle 167: rate-half `A=1` squarefree shared third jet vanishes (2026-08-11)
+
+At a shared root the regular symmetric Hankel block has corank one and
+determinant order three. The Cycle-166 image starts as
+
+```text
+M u=z^2 kappa_tau nu(x_*)+O(z^3).
+```
+
+A corank-one symmetric Schur-complement lemma forces `u^TMu` to order at
+least three. Its order-two coefficient is
+`kappa_tau U_tau(x_*)`; the padded root is simple, so `U_tau(x_*)!=0`.
+Therefore
+
+```text
+kappa_tau=0,
+D_1|F_i for every i,
+Smith_tau(D_1)=[3].
+```
+
+```text
+result:                  PROVED squarefree shared-jet vanishing
+DAG delta:               +1 PROVED leaf, 4 req edges
+critical status delta:   none
+compute:                 tiny Schur replay only; no Modal spend
+new assumptions:         S_B squarefree; sharing allowed
+```
+
+The cubic quotient now extends through all squarefree shared corrections.
+The double-root local exception is reduced to nonreduced `S_B`.
+# Cycle 168: rate-half `A=1` squarefree unified heavy-row gate (2026-08-11)
+
+Cycle 167 extends the cubic quotient through every squarefree shared root.
+The three-center source partition also shows that a correction center must
+already be the unique possible padded-heavy center. Therefore, without any
+supported/correction disjointness assumption,
+
+```text
+j=deg gcd(Lambda,g_*S_B^2)<=1,
+G(t,x_*)=(g_*S_B^2/J)T_j,
+T_j!=0,       deg T_j<=1,       gcd(T_j,S_B)=1.
+```
+
+At a correction root the exact row order is
+`ord g_*+2-ord Lambda`. The complete augmented gate is still the one
+barycentric test `H|R_lambda`, and passage gives the displayed nonzero row.
+
+```text
+result:                  PROVED unified squarefree constant/linear gate
+DAG delta:               +1 PROVED leaf, 6 req edges
+critical status delta:   none
+compute:                 three-case valuation replay; no Modal spend
+new assumptions:         S_B squarefree only
+```
+
+The squarefree double-root arm now has one global nonzero remainder wall.
+Only nonreduced `S_B` lies outside the local heavy-row machinery.
+# Cycle 169: rate-half `A=1` nonreduced unshared two-jet gate (2026-08-11)
+
+For `S_B=ell_tau^2` with `g_*(tau)!=0`, the fixed heavy row and regular
+determinant have orders six and four. Correction contact uniformly forces
+only `z^2|F_0`; without assuming how the two contact units lie above the
+base, retain
+
+```text
+kappa_2=[z^2]F_0,       kappa_3=[z^3]F_0.
+```
+
+The exact recurrence gives
+
+```text
+[z^s]F_i=x_*^i kappa_s       (s=2,3),
+D_1|F_i for all i            iff kappa_2=kappa_3=0.
+```
+
+Vanishing extends the cubic quotient and gives local Smith type `[4]`.
+
+```text
+result:                  PROVED two-scalar nonreduced local gate
+DAG delta:               +1 PROVED leaf, 3 req edges
+critical status delta:   none
+compute:                 tiny truncated-series replay; no Modal spend
+new assumptions:         one nonreduced correction root, unshared with g_*
+```
+
+The unshared nonreduced failure is now an exact two-jet decision rather than
+an unstructured exception.
+# Cycles 170--183: rate-half `A=1` nonreduced collision compression (2026-08-12)
+
+The remaining unshared nonreduced correction has been converted from a
+determinant-order anomaly into explicit local and global data. The local
+Pade contact algebra first restricts every live failure to an exact locator
+collision. The regular Smith possibilities are
+
+```text
+[4],       [1,3],       [2,2].
+```
+
+The collision parameter is neither a center nor a supported slope. On the
+classified rows, write the unique connected scalar weld as
+
+```text
+G(t,x)=lambda_x P_x(t).
+```
+
+Barycentric interpolation identifies the outside value and derivative rows
+as explicit linear functionals of this one vector. The complete collision
+gate is
+
+```text
+R_0=R_1=0,       R_2!=0,
+
+J_0!=0:                    [4],
+J_0=0, J_1!=0:             [1,3],
+J_0=J_1=0:                 [2,2].
+```
+
+Put `J_*=gcd(Lambda,g_*)`, whose degree is the center-deficit bit `d_A`.
+The `e-6-d_A` off-line padded-heavy roots occur on the outside row, whose
+projective degree is exactly `e-2`. Consequently
+
+```text
+G(t,x_*)=[g_*(t)/J_*(t)]S_B(t)T_(2+d_A)(t),
+deg T_(2+d_A)=2+d_A,       T_(2+d_A)(tau)!=0.
+```
+
+This gives a degree-`e-4-d_A` remainder matrix on the unique weld and a
+`4+d_A` complement for the global factorization. If `s_j` is the number of
+off-line supported heavy-row roots of a factor of bidegree `(m_j,n_j)`, then
+
+```text
+u_j=m_j-s_j,       sum_j u_j<=4+d_A.
+```
+
+The exact factor grid therefore sharpens the large-odd and huge-even
+thresholds to
+
+```text
+(q-2)m_j>=3e-8-2d_A,       (q-2)m_j>=6e-8-2d_A.
+```
+
+At `d_A=1`, profiles II and III are impossible. The only survivor is one
+large-odd factor, of official degree at least `109951162777`, together with
+ordinary-even companions. All three profiles remain possible at `d_A=0`.
+
+The divided-row image also has the common divisor `g_*S_B` and degree-five
+quotients, but Cycle 183 shows that this is not an independent obstruction.
+For the source Cauchy moments
+
+```text
+D_i=sum_y omega_y y^i/(x_*-y),
+```
+
+one has the exact closed form
+
+```text
+C_i=-Lambda_0 x_*^iT_(2+d_A)/L(x_*)+a_QS_B^2D_i,
+Lambda_0=Lambda/J_*.
+```
+
+It automatically supplies the quintic cap, recurrence, and nonzero
+geometric correction value. The quintic-only attack is therefore closed as
+a route; the live theorem must couple the unique scalar weld or its
+macroscopic near-saturated factor to additional source/incidence geometry.
+
+```text
+result:                  11 PROVED collision reductions and one route fence
+DAG delta:               +11 PROVED leaves since Cycle 169
+critical status delta:   none; rate_half_band_crossing_location remains open
+compute:                 exact local replays only; no Modal spend
+upstream:                PR #1161 updated through the four-root factor budget
+live closure target:     scalar-weld/macroscopic-factor incompatibility
+repair:                  d_A=1 center removed from off-line budget;
+                         official rounded thresholds unchanged
+```
+# Cycle 184: rate-half `A=1` collision factorwise Bezout shapes (2026-08-12)
+
+```text
+our start:              51dcd6dde
+canonical prize:        9569b0d5d
+upstream main:          93fba1be3
+relevant upstream PRs:  #1160, #1161, #1162, #1163
+critical orbit:         167 PROVED / 37 CONDITIONAL / 27 UNPROVED
+crosswalk:              PASS, 103 rows (pins remain due for next wave)
+```
+
+The corrected `d_A=1` collision has one large odd factor and ordinary-even
+companions. Factoring the projective Bezout count componentwise turns the
+global four-core into an exact per-factor ledger. The classified grid uses
+`(3p-2)m_j` transverse intersections on a factor `(m_j,n_j)`, leaving
+
+```text
+c_j=e n_j+(3e-2-(3p-2))m_j.
+```
+
+The `e-7` padded-heavy first copies and the collision contact lengths exhaust
+these capacities. The Pade contact module gives total length four, and a
+two-by-two norm calculation in the local quadratic algebra gives
+
+```text
+ell_j=2 ord_tau Q_j(t,x_*).
+```
+
+Writing `r_j,b_j,t_j` for padding, correction, and remaining heavy-row
+degrees yields
+
+```text
+sum(r_j,b_j,t_j)=(e-7,2,3).
+```
+
+An ordinary factor must then be exactly `(m,n)=(2,3)` or `(4,6)`. Therefore
+the whole biform has only four shapes: irreducible; one quadratic companion;
+one quartic companion; or two quadratic companions. The large factor has
+degree `e-2`, `e-4`, or `e-6`.
+
+```text
+result:                  NARROWED, new PROVED supporting node
+DAG delta:               +1 PROVED node, +6 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: bankable extension for Lane-T PR #1161
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       attack the (2,3)/(4,6) companions, then shape A
+```
+# Cycle 185: rate-half `A=1` collision companion norm gate (2026-08-12)
+
+The factorwise four-shape theorem leaves only `(2,3)` and `(4,6)` ordinary
+companions. For either factor `Q`, take its product norm over all `3e`
+off-line supported slopes. Exact simple roots on every classified row give
+
+```text
+product_delta Q(delta,X)=L_U0(X)^m S_Q(X),
+deg S_Q<=7m/2,       gcd(S_Q,L_U0)=1.
+```
+
+The factorwise padding ledger forces the heavy-row divisor:
+
+```text
+(X-x_*)^(m/2) divides S_Q.
+```
+
+After removing that factor, the companion is governed by one polynomial of
+degree at most six or twelve. Its values on `U_0` are explicit products of
+incident tangents and nonincident evaluations, so the gate is globally and
+uniquely reconstructible. Its value at `x_*` remains open: local curve
+transversality does not imply vertical simplicity.
+
+```text
+start:                   01298a193
+result:                  NARROWED, new PROVED supporting node
+DAG delta:               +1 PROVED node, +3 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate extension to Lane-T PR #1161
+delta-star movement:     none
+compute:                 exact arithmetic replay only; no Modal spend
+next route action:       couple E_Q to correction/source values
+```
+# Cycle 186: rate-half `A=1` collision two-branch tangent router (2026-08-12)
+
+Shapes B and D each have exactly two factors of correction order one at the
+collision. Writing their first-order germs as
+
+```text
+f_i(z,y)=a_i z+v_i y+O(2),       a_i!=0,
+```
+
+the remaining factors form a unit and the product rule gives
+
+```text
+G_X(tau,x_*)=0,
+[z]G_X(t,x_*)=unit times (a_1v_2+a_2v_1).
+```
+
+The exact split-jet dictionary therefore removes profile `[4]` from both
+shapes. Their remaining profile is `[1,3]` unless the normalized branch
+tangents cancel, in which case it is `[2,2]`. Shapes A and C each have one
+order-two collision factor and are not restricted by this calculation.
+
+The companion norm claim contract was also corrected to say "forced
+heavy-row divisor" rather than the stale phrase "exact heavy-row order";
+the statement and proof already used the weaker, correct claim.
+
+```text
+start:                   a22ff2c2e
+result:                  NARROWED, new PROVED supporting node
+DAG delta:               +1 PROVED node, +2 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate extension to Lane-T PR #1161
+delta-star movement:     none
+compute:                 truncated local algebra replay only; no Modal spend
+next route action:       attack tangent cancellation and the one-branch shapes
+```
+# Cycle 187: rate-half ordinary-quadratic subgroup coincidence (2026-08-12)
+
+An ordinary `(2,3)` companion in shape B or D has two roots on every one of
+the `(9e-7)/2` classified subgroup rows. Since a slope has at most three
+rows, the resulting `9e-7` incidences have total vertical defect exactly
+seven. At least `2^39-6` slopes therefore carry full triples, forcing at
+least `3(2^39-6)` distinct ordered row-pair coincidences.
+
+The divided quadratic resultant has bidegree at most `(4,4)`. Degree-three
+monodromy reduces its dense geometry to one `S_3` component or cyclic
+bidegree-`(2,2)` orientation images. The existing published subgroup-curve
+bound excludes every component satisfying one of the allowed
+swap/inversion coordinate-corner normalizations. Any survivor is therefore
+coordinate-corner exceptional.
+
+```text
+start:                   00416046e
+result:                  NARROWED, new PROVED supporting node
+DAG delta:               +1 PROVED node, +4 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       classify the finite corner-exceptional locus
+```
+# Cycle 188: rate-half ordinary-quadratic torus-gcd exclusion (2026-08-12)
+
+The coordinate-corner gap from Cycle 187 is removed by the already audited
+Corvaja--Zannier positive-characteristic gcd theorem. On a coincidence
+component of bidegree `(d_1,d_2)`, normalization gives
+`chi<=2d_1d_2`. The theorem bounds every non-toral `(4,4)` `S_3` component
+strictly below its forced `3(2^39-6)` subgroup points, and every non-toral
+`(2,2)` cyclic orientation below its forced half-count.
+
+A translated-subtorus survivor is also impossible. The unique `S_3`
+component is swap-invariant, reducing its primitive character to `XY=k` or
+`X/Y=k`, both incompatible with three distinct rows in one fiber. In the
+cyclic case, coordinate degree two reduces the relation to scaling or
+inversion; order three and the dyadic subgroup force coordinate invariance,
+contradicting the degree-three quotient.
+
+Thus no `(2,3)` companion exists and shapes B/D are empty. Only shapes A/C
+remain in this collision arm.
+
+```text
+start:                   0d9c83d6b
+result:                  NARROWED, new PROVED companion exclusion
+DAG delta:               +1 PROVED node, +2 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: strong Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       attack shape C's (4,6) companion, then shape A
+```
+# Cycle 189: rate-half quartic toral deck involution (2026-08-12)
+
+Shape C's `(4,6)` companion has `18e-14` row-slope incidences against
+capacity `18e`, hence defect fourteen. At least `2^39-13` slopes have six
+distinct rows and force `4123168604063` distinct ordered pair coincidences.
+The divided quartic resultant has bidegree at most `(20,20)`.
+
+A degree-six cover has at most five off-diagonal orbit components. The
+Corvaja--Zannier bound makes five non-toral components far too small, so one
+component is a translated subtorus. Retaining the component subdegree and
+image-map degree shows that its primitive character has exponents
+`(+/-1,+/-1)` and subdegree one. It is the graph of a deck involution,
+necessarily `X -> -X` or `X -> k/X` with `k in mu_(2^41)`.
+
+Thus the companion descends to a `(4,3)` quotient in `X^2` or `X+k/X`.
+Shape C remains open; the next attack must rule out those two quotient arms.
+
+```text
+start:                   19f3c442d
+result:                  NARROWED, new PROVED supporting node
+DAG delta:               +1 PROVED node, +2 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       attack antipodal/reciprocal cubic quotient arms
+```
+# Cycle 190: rate-half ordinary-companion complete exclusion (2026-08-12)
+
+The quartic deck involution from Cycle 189 is itself too costly. Every full
+six-row slope contributes thirty ordered pairs; deleting the six pairs on
+the known involution graph leaves twenty-four. Across `2^39-13` full
+slopes, quartic pair multiplicity gives at least `3298534883250` distinct
+subgroup points on the at most four residual fiber-product components.
+
+The audited Corvaja--Zannier bounds force one residual component to be a
+second toral graph. It induces another subgroup-compatible deck
+transformation `X -> cX` or `X -> c/X`. Together with either first
+involution `X -> -X` or `X -> k/X`, this second transformation is equal to
+the first or generates a Klein four subgroup. The first option is excluded
+because its graph was removed; the second is impossible because the deck
+group order divides the cover degree six.
+
+Shape C is therefore empty. Together with the quadratic exclusion of
+shapes B and D, the four-shape classification now leaves only shape A: one
+large irreducible odd factor with record
+`(e-2,(3e-7)/2;e-7,2,3;4)` and no ordinary companion.
+
+```text
+start:                   4313462fd
+result:                  NARROWED, all ordinary companions excluded
+DAG delta:               +1 PROVED node, +4 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: strong Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       attack the unique large irreducible shape A
+```
+# Cycle 191: rate-half shape-A norm concentration (2026-08-12)
+
+With all ordinary companions removed, the split biform is the single
+shape-A large factor. The global off-line padding degree is `e-7`, while
+the squarefree heavy-row form already gives `e-7` distinct slopes whose
+padding factor contains `x_*`. Degree equality therefore forces every
+off-line padding root to equal `x_*`:
+
+```text
+product_delta R_delta=(X-x_*)^(e-7).
+```
+
+Multiplying the proved all-excess fiber factorizations now gives the exact
+global norm
+
+```text
+product_delta G(delta,X)
+ =c L_U0(X)^(e-2)(X-x_*)^(e-7)T(X),
+T=product_delta H_delta,
+deg T=e-sum_delta q_delta<=e.
+```
+
+The polynomial `T` is coprime to `L_U0` and its values on every classified
+row are the known tangent products after removing the two displayed power
+factors. The remaining shape-A norm problem is therefore one
+degree-at-most-`e` source residual, not a family of padding choices.
+
+```text
+start:                   466cd4d95
+result:                  NARROWED, shape A has one concentrated excess norm
+DAG delta:               +1 PROVED node, +5 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       couple T to the scalar weld and source/Pade syzygy
+```
+# Cycle 192: rate-half shape-A pure-split component floor (2026-08-12)
+
+The exact sums `sum a_delta=e` and `sum r_delta=e-7` force at least `e+7`
+off-line slopes with zero excess and zero padding. On each such slope, the
+entire degree-`n=(3e-7)/2` shape-A fiber splits into distinct classified
+rows.
+
+The unique large factor is absolutely irreducible: any Frobenius-conjugate
+geometric factors would have to share all `|U_0|(e-2)` rational grid points,
+far above their pairwise Bezout intersection. Its divided off-diagonal
+resultant therefore contains at least
+
+```text
+75557863727701029814224
+```
+
+distinct official subgroup pairs. Since the degree-`n` cover has at most
+`n-1` off-diagonal fiber-product components, one component contains at
+least
+
+```text
+n+14=274877906955
+```
+
+such points. This does not trigger the companion torus argument: the large
+factor's component bidegree remains macroscopic. The next geometric target
+is a component-subdegree bound; the alternative remains a direct coupling
+to the source or concentrated excess norm.
+
+```text
+start:                   d54687e6b
+result:                  NARROWED, exact shape-A component point floor
+DAG delta:               +1 PROVED node, +3 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       bound component subdegree or couple pairs to source
+```
+# Cycle 193: rate-half shape-A componentwise degree floor (2026-08-12)
+
+Every geometric off-diagonal component meets every pure split fiber in its
+full degree. Those points are rational and etale, so Frobenius cannot move
+the component: every component and its row-pair image are base-field
+defined.
+
+Retaining the component subdegree `h` and image-map degree `q` gives image
+bidegree `D=(e-2)h/q` and at least
+
+```text
+ceil((e+7)nD/(e-2))
+```
+
+subgroup points on that image. A toral image would be a scaling or
+reciprocal deck graph, impossible because the cover degree
+`n=2^38-3` is odd while the row subgroup is dyadic. The exact
+Corvaja--Zannier comparison then forces
+
+```text
+D>=39768216,
+#Z(H^2)>=10931403977394458172,
+q<4608h.
+```
+
+Thus the low-degree component strategy is completely excluded in this
+prime-field branch. The surviving obstruction is genuinely macroscopic and
+must be coupled to the scalar weld, source coefficients, or concentrated
+excess norm.
+
+```text
+start:                   28639101d
+result:                  NARROWED, componentwise base-field and degree floor
+DAG delta:               +1 PROVED node, +2 req edges, +1 ev edge
+critical status delta:   none
+upstream terminal delta: candidate Lane-T PR #1161 extension
+delta-star movement:     none
+compute:                 exact local replay only; no Modal spend
+next route action:       attack high-degree components through source/norm data
+```
+# Cycle 194: WCL `(1,6)` extension-row falsification panel (2026-08-12)
+
+The prior first-64 panel tested only degree-one characteristics. The
+highest-risk omitted rows are generated extension fields whose order-512
+roots already lie in the prime field but whose characteristic needs fewer
+than 41 two-adic factors. Exact LTE/order arithmetic gives two such classes:
+
+```text
+v_2(p-1)=39 -> ord_(2^41)(p)=4 -> q=p^4;
+v_2(p-1)=40 -> ord_(2^41)(p)=2 -> q=p^2.
+```
+
+A preregistered Modal MITM run tested the first generated panel of 64 prime
+characteristics in each class. Every row received a full-factorization
+Pocklington check, exact field-order check, and exhaustive normalized search:
+
+```text
+official generated rows:       128 / 128
+legal pairs per row:           129,540
+legal triples per row:         21,849,080
+total triple iterations:       2,796,682,240
+relations:                     0
+independent sorted replays:    4 / 4
+aggregate Modal worker time:   102.84 CPU-seconds
+```
+
+The smallest characteristic `2,748,779,069,441` is below the first banked
+degree-one characteristic. Thus the panel probes the most collision-prone
+known official rows and survives. This is a new PROVED finite theorem and an
+evidence edge only: `(1,6)` remains `TARGET`, with later characteristics and
+nonsplit-on-`mu_512` extension classes open.
+
+```text
+start:                   024869d1f
+result:                  SURVIVED, new PROVED finite exclusion
+DAG delta:               +1 PROVED node, +1 ev edge
+critical status delta:   none
+upstream terminal delta: none; finite WCL stress packet is OURS_ONLY
+delta-star movement:     none
+compute:                 132 bounded Modal workers, comfortably under $1
+next route action:       derive individual minimal-conductor prime control,
+                         or return to a theorem-bearing critical route
+```
+# Cycle 195: MCA two-anchor reserve repricing (2026-08-12)
+
+Canonical `prize@c8d48cd4b` selected the cheapest route-comparison probe:
+replay the active deployed MCA conditional endgame after replacing the false
+one-slope near-rational payment by the proved `2w` charge.
+
+The probe returns `SURVIVES_WITH_EXPLICIT_PRICE`.  The near-rational set
+cannot be put inside the old 31-slope exception set because
+
+```text
+2w = 134944 on KoalaBear,
+2w = 134896 on Mersenne-31.
+```
+
+Putting it in a separate earlier first-match owner changes the large-owner
+target exactly to
+
+```text
+B_owner^(2w)(g) <= B*-(2w+31)-(n-g).
+```
+
+The exact revised endpoint table is
+
+```text
+row          target at g_min            target at g=n   floor(target/avg-ceil)
+KoalaBear    274980728110346481          274980728111260112      4807520
+Mersenne-31          15728609                   16642288                9
+```
+
+Every affine and smaller-owner branch retains a positive exact margin.  In
+the large-owner branch the four charges sum identically to `B*` for every
+integer owner size.  The direct S/A/E route is therefore not killed by
+arithmetic, but the price is real: its `(A)` input and source interface must
+be reissued at a target smaller by exactly `2w`.  No revised large-owner
+maximum-fiber theorem is proved.
+
+```text
+start:                   046505a55
+result:                  PROVED repricing; probe survives with explicit price
+DAG delta:               +1 PROVED background node, +2 req edges
+critical status delta:   none
+upstream terminal delta: candidate threshold note for #1160/#1163 lineage
+delta-star movement:     none
+compute:                 exact integer replay only; no Modal spend
+next route action:       run the shared d1=67473 K-adapter adjudication,
+                         then the #1160-line P_BC rejection regression
+```
+# Cycle 196: MCA K-to-K+1 badness-transport counterexample (2026-08-12)
+
+The shared route-comparison dossier asked whether the upstream pole-line
+record at `d1=67473`, computed with source dimension `K=k+1`, can be used
+silently in the actual degree-`<k` MCA witness problem.  Upstream `#1159`
+already retained `(u,v)=(1_E,X^k)` as a mutation control.  Elevating that
+control to an exact semantic theorem gives a counterexample to unguarded
+transport.
+
+On the deployed KoalaBear row, take the order-`2^21` subgroup, the prefix
+`E` of length `67473`, the following support `S` of size `m=1116048`, and
+
+```text
+u=1_E,  v=X^k,  slope=0.
+```
+
+For `RS[F,D,k]`, `u` has the degree-`<k` explanation zero on `S`, while no
+degree-`<k` polynomial can agree with `X^k` on `m>k` points.  The slope is
+therefore support-wise MCA-bad.  For `RS[F,D,k+1]`, `(0,X^k)` simultaneously
+explains the same received pair on the same support.  Badness and first-owner
+semantics are consequently not invariant under the dimension substitution.
+
+This is a route cut, not a terminal obstruction.  A repaired `SEM-QBC` or
+whole-line-selector adapter may retain `K=k` or explicitly carry and recheck
+the original degree-`<k` explanation and pair-noncontainment guards.  That
+guarded adapter remains open, as does assignment of the pole-line record to
+Q or BC.
+
+```text
+start:                   2607c6fa7
+result:                  PROVED counterexample to unguarded K-to-k+1 transport
+DAG delta:               +1 PROVED background node, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: exact hostile regression for #1159/#1163 lineage
+delta-star movement:     none
+compute:                 exact integer and polynomial-root arithmetic only
+next route action:       run the #1160-line P_BC rejection regression, then
+                         formulate the guarded K-adapter contract if it survives
+```
+# Cycle 197: MCA near-rational line BC-guard rejection (2026-08-12)
+
+The third shared route-comparison probe feeds the deployed `#1160`
+near-rational counterexample through the necessary balanced-profile guard of
+the cycle-19 candidate `P_BC` certificate contract.  It returns an exact
+guard-level rejection.
+
+For each displayed bad slope `gamma_i`, the word `u+gamma_i v` is nonzero
+exactly on `E\{e_i}`.  Its support locator and zero numerator therefore give
+a received-word lattice vector with
+
+```text
+shifted-degree ceiling = |E|-1 = 67471.
+```
+
+The candidate BC contract requires minimum shifted degree at least `67472`.
+Thus all `67472` displayed bad slopes fail the guard.  This is a one-line
+algebraic exclusion once the hostile record is written correctly; no field
+enumeration, reduced-basis computation, or Modal run is needed.
+
+The scope is deliberately narrow.  The cycle-19 relation remains a candidate
+contract rather than an executable theorem equivalent to the independently
+frozen BC owner.  Passing this control does not prove SEM-QBC soundness or
+coverage, but it removes its pre-registered deployed-scale leakage falsifier.
+
+With the three shared route-comparison probes now adjudicated, the state is:
+
+```text
+reserve repricing:        SURVIVES WITH EXPLICIT 2w PRICE
+K-to-k+1 silent transport: REFUTED; original degree guard required
+#1160 BC rejection:       PASSES AT NECESSARY-GUARD LEVEL
+```
+
+The next useful shared-spine action is no longer another arithmetic probe.
+It is to pose the guarded `K` adapter and typed `P_BC` soundness contract so
+that actual certificates, rather than schema strings, can be checked.
+
+```text
+start:                   80d430a68
+result:                  PROVED candidate-BC hostile-control rejection
+DAG delta:               +1 PROVED background node, +2 edges
+critical status delta:   none
+upstream terminal delta: one mandatory SEM-QBC regression discharged
+delta-star movement:     none
+compute:                 exact symbolic support-locator arithmetic only
+next route action:       pose and attack typed P_BC soundness plus the
+                         original-degree guarded K adapter
+```
+# Cycle 198: MCA degree-guarded shifted-lattice witness adapter (2026-08-12)
+
+The failed silent dimension transport from Cycle 196 admits an exact repair
+at the lattice-to-witness layer.  For one received-word lattice, the code
+shift and effective shift are
+
+```text
+s_k(W,N)   = max(deg W, deg N-(k-1)),
+s_k+1(W,N) = max(deg W, deg N-k).
+```
+
+Every vector, and consequently the two minima, differ by at most one.  For a
+monic split complement locator of degree `omega=n-m`, the effective envelope
+allows one extra coefficient:
+
+```text
+K=k+1 envelope:  deg(N/W)<=k,
+actual code:      deg(N/W)<k.
+```
+
+Adding the second inequality, equivalently `deg N<=omega+k-1` or the
+code-shift cap, gives an exact bijection with degree-`<k` explanations on the
+identical size-`m` support.  There is no profile inference in this step.
+
+Same-support pair noncontainment is also executable.  Interpolate `u` and
+`v` on the selected support to their unique degree-`<m` polynomials.  The
+pair is simultaneously code-explained exactly when both degrees are below
+`k`.  A guarded explanation of `u+gamma v` plus failure of this pair test is
+therefore an actual support-wise MCA-bad witness.
+
+The theorem closes SEM-QBC soundness at the lattice-to-witness layer and the
+algebraic degree guard required by its condition 4.  It does not prove that a
+balanced numerical profile is BC-owned, preserve owner chronology across
+the shift, exclude Q globally, or cover the frozen BC cell.  Those remain the
+semantic frontier.
+
+The primary checker exhausts all `15*7^4=36015` exact-support records in a
+`GF(7)` row and confirms exactly `7^3` actual-code records per support.  It
+also checks `108` shift-degree pairs and eight mutations.  An independent
+checker verifies the official one-coefficient gap and both contained and
+noncontained support controls.
+
+```text
+start:                   d797d8ffd
+result:                  PROVED exact guarded cross-shift witness adapter
+DAG delta:               +1 PROVED background node, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: SEM-QBC conditions 1 and 4 narrowed to owner-level
+                         soundness/coverage rather than degree reconstruction
+delta-star movement:     none
+compute:                 36015 tiny exact toy records; no Modal spend
+next route action:       instantiate one typed deployed pole-line certificate,
+                         then attack frozen-owner soundness and Q exclusion
+```
+# Cycle 199: MCA pole-line typed witness certificate (2026-08-12)
+
+The upstream `#1159` actual-record packet already contained a strict
+certificate manifest and four replay paths.  A fresh primary replay at exact
+head `e603e0cedc5220ec2f29bd53836e732e3ec14934`, with this DAG supplied for
+its external pins, passes:
+
+```text
+d1=67473; actual record=1; actual owner=not-established
+62 semantic mutations rejected; 3 parser mutations rejected
+```
+
+A replay on the later `#1163` stack correctly fails its source-drift gate
+because intervening `#1160/#1163` changes modify a pinned manuscript.  The
+exact-head replay is the valid provenance check.
+
+The imported certificate is an actual witness, not a schema label.  Over the
+deployed subgroup and degree-six challenge extension, the pole line
+
+```text
+v=-1/(X-alpha),
+u=1_E+alpha/(X-alpha),
+gamma=alpha
+```
+
+has slope word `1_E`.  The zero polynomial explains it on the exact following
+support of size `m`.  The direction word has no degree-`<k` explanation there:
+otherwise `(X-alpha)g+1` would have `m>k` roots and degree at most `k`.
+The support-complement locator with numerator zero passes the Cycle-198 guard
+and reconstructs the identical support and explanation.
+
+The minimum is exactly `67473` under both shifts by the upstream and local
+root-count proof.  The record therefore verifies the full typed witness
+substrate while retaining
+
+```text
+Q owner:      UNASSIGNED
+BC owner:     UNASSIGNED
+U_new owner:  UNASSIGNED.
+```
+
+This closes the concrete certificate-parsing criticism in `#1159` for one
+deployed record and demonstrates the repaired adapter on its boundary case.
+The remaining obstacle is genuinely owner-level: define executable frozen Q
+and BC predicates, prove slope-global Q exclusion, and prove both projection
+directions.  Another witness parser will not solve that theorem.
+
+```text
+start:                   3f626c84d
+result:                  PROVED typed deployed actual witness import
+DAG delta:               +1 PROVED background node, +2 edges
+critical status delta:   none
+upstream terminal delta: one actual certificate parses and passes the guard;
+                         frozen-owner equivalence remains open
+delta-star movement:     none
+compute:                 exact Python replays only; no Modal spend
+next route action:       use this fixed record to adjudicate candidate Q and
+                         BC predicates, then attack slope-global Q exclusion
+```
+# Cycle 200: common-core local-owner route cut (2026-08-12)
+
+The two canonical post-divergence commits were integrated first. This banks
+the audited upstream `#1163` common-core cancellation/staircase import and
+the K3-versus-direct-S/A/E route-comparison dossier without duplicating
+Fable's work.
+
+Cycles 195--199 now execute all three pre-registered shared probes from that
+dossier:
+
+```text
+2w reserve repricing:       survives with an exact smaller owner target
+silent K=k+1 to k transport: refuted; exact degree guard then proved
+#1160 BC hostile control:   rejected by the necessary degree guard
+typed deployed record:     proved actual; frozen owner remains undefined
+```
+
+The upstream source supplies no executable `P_Q` membership predicate, so a
+profile-only Q adjudication is not a mathematical next step. The direct
+S/A/E side instead names the smallest record-local core collision as its
+preferred selector falsifier.
+
+An exact `GF(11)` search found that falsifier at the first deterministic
+trial. For `RS[GF(11),GF(11)^*,5]`, agreement `m=7`, and critical order six,
+one received line has seven displayed slopes, each with a unique
+degree-`<5` explanation on an exact seven-point maximal support and an actual
+same-support noncontainment witness. The two non-affine records
+
+```text
+R1={0,2,3,5,6,8},   C(R1)={8,10},
+R2={0,2,3,5,6,9},   C(R2)={10}
+```
+
+share slope zero. Thus a record's local common-core intersection is not a
+slope invariant. Sending records directly to their own fixed-core families
+cannot itself give disjoint slope ownership.
+
+The theorem is independently replayed by exhaustive enumeration of
+`7*11^5=1,127,357` codewords, plus separate pair-interpolant and mutation
+checks. It is a route cut below the deployed row, not a refutation of every
+whole-line selector. The cancellation adapter remains correct.
+
+```text
+start:                   5b1142cf5
+result:                  PROVED local-core owner noninvariance
+DAG delta:               +1 PROVED background node, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: naive record-local fixed-core forest retired
+delta-star movement:     none
+compute:                 tiny exact GF(11) search and replay; no Modal spend
+next route action:       pose a genuinely line-global selector with explicit
+                         priority fibers, or attack the source-sanctioned
+                         same-owner maximum-type S/A/E bypass
+```
+# Cycle 201: whole-line global-core router (2026-08-12)
+
+Cycle 200 proves that a critical record's local core is not a slope invariant.
+There is nevertheless one exact repair: intersect the declared selected
+maximal supports over the entire residual slope set on one received line and
+cancel that core once.
+
+For any finite selected slope set with at least two slopes, either all
+selected explanations lie on one global codeword line, or its global core
+`C_*` has size below `k`. In the latter case the imported common-core theorem
+applies simultaneously to every selected slope:
+
+```text
+(n,k,m) -> (n-c_*,k-c_*,m-c_*).
+```
+
+The slope map is literally the identity, has exact fiber one, and preserves
+`m-k`, `n-k`, `n-m`, maximal supports, and actual same-support
+noncontainment. There is one global family, so no local-core count or
+add-back occurs.
+
+At the imported KoalaBear walls this gives a total paid/residual router:
+
+```text
+global affine                                  paid by the global block
+s<=2                                           paid fixed-core family
+3<=s<=13 plus direction separation             paid affine-span family
+3<=s<=13 without direction separation          explicit direction residual
+s>=14                                          explicit global-core residual
+```
+
+The `GF(11)` collision control has `C_*={10}` and shortens `(10,5,7)` to
+`(9,4,6)`, preserving all seven slopes. The shortened direction has maximum
+degree-`<4` agreement six, exactly `m'`; the router therefore emits the
+direction-list residual at `s=4` and does not manufacture a payment.
+
+The primary checker verifies cancellation, exact supports, noncontainment,
+the direction gate, all official staircase walls, and 4/4 mutations. The
+independent audit exhausts `7*11^4=102,487` shortened codewords and 3/3
+controls.
+
+```text
+start:                   83eefd94f
+result:                  PROVED whole-line identity-fiber core router
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none
+upstream terminal delta: local-core ownership repaired without a forest;
+                         direction and large-global-dimension bins remain
+delta-star movement:     none
+compute:                 tiny exact GF(11) replay; no Modal spend
+next route action:       attack the direction-list residual first, since the
+                         exact control shows it occurs before s=14
+```
+# Cycle 202: support-wise affine-span compiler (2026-08-12)
+
+Cycle 201 left a direction-list residual because the imported affine-span
+theorem assumes that the shortened direction has agreement below `m` with
+every codeword. That global assumption is stronger than the support-wise MCA
+application needs.
+
+Fix one selected slope `gamma`, its exact size-`m` agreement support
+`S_gamma`, and an affine explanation space of dimension `s`. A failure of
+full rank among the incident normals gives a nonzero relation
+
+```text
+delta r_1 - sum_i mu_i c_i = 0 on S_gamma.
+```
+
+If `delta=0`, basis independence produces a nonzero degree-`<K` codeword
+with `m=K+w>K` roots. If `delta!=0`, the direction agrees with a codeword
+`b` on `S_gamma`; subtracting `gamma b` from the slope explanation makes the
+base word a codeword on that same support. Both cases contradict either the
+Reed-Solomon root bound or exact same-support pair noncontainment. Hence the
+incident normals have full rank without direction separation, and the
+upstream affine-span incidence count applies unchanged.
+
+For the complete shortened code (`K=s`, `n=R+s`, `m=d+s`) the resulting
+bound is
+
+```text
+J_s=floor(product_(i=0..s) (R+i)/(d+i)).
+```
+
+The exact deployed transitions are
+
+```text
+KoalaBear:   J_13=47876303026096432 <= B*=274980728111395087
+             < J_14=743896698428332665
+Mersenne-31: J_5=14115447 <= B*=16777215 < J_6=219426634.
+```
+
+Thus the direction-list residual disappears at every numerically paid depth.
+After whole-line global-core cancellation, the first remaining dimension
+residual is `s>=14` for KoalaBear and `s>=6` for Mersenne-31.
+
+The hostile `GF(11)` control shortens `(10,5,7)` to `(9,4,6)`. Its direction
+has agreement six with a degree-`<4` codeword, so the old hypothesis fails,
+but all seven selected incident-normal matrices have rank five and
+`7<=J_4=21`. The primary checker verifies this control and both official
+integer transitions. The independent audit exhausts all
+`7*11^5=1,127,357` normal-relation candidates and all `11^4` shortened
+direction codewords.
+
+```text
+start:                   be4efd23a
+result:                  PROVED support-wise affine-span compiler
+DAG delta:               +1 PROVED background node, +2 edges
+critical status delta:   none
+upstream terminal delta: direction-separation branch removed; only the
+                         large shortened dimensions s>=14 / s>=6 remain
+delta-star movement:     none
+compute:                 tiny exact GF(11) replay; no Modal spend
+next route action:       attack the large-shortened-dimension residual
+```
+# Cycle 203: global-core direction-distance router (2026-08-12)
+
+Cycle 202 left only the large shortened dimensions in the whole-line
+global-core route.  This cycle composes that one shortened family with the
+proved direction-distance ray theorem.
+
+For shortened parameters
+
+```text
+(N,K,m)=(R+s,s,d+s),       t=R-d,
+```
+
+let `d_U(y_1)` be the minimum weight of a lift of the line-direction
+syndrome and put `j=R-d_U(y_1)`.  Pair noncontainment forces `y_1!=0`.
+Every selected slope has a `t`-sparse lift on the same full shortened
+domain, so the entire family obeys
+
+```text
+|Z| <= floor((R+s)(d-j) /
+             (d^2-(R-2d)s-(R+s)j))
+```
+
+whenever the denominator is positive.  Solving both denominator positivity
+and the exact floor comparison with the row budget gives a pointwise defect
+threshold `J_B(s)`.
+
+Combined with the support-wise affine-span compiler, the paid region is:
+
+```text
+KoalaBear:   every j for s<=13;
+             0<=j<=J_B(s) for 14<=s<=4982.
+Mersenne-31: every j for s<=5;
+             0<=j<=J_B(s) for 6<=s<=4979.
+```
+
+For KoalaBear the budget never cuts before denominator positivity.  The
+largest paid value over all 4,969 dimensions is only `168818566`, attained
+at `(s,j)=(1356,3156)`, against budget `274980728111395087`.
+
+For Mersenne-31 the largest paid value is `16131678`, attained at
+`(s,j)=(1970,2617)`, below budget `16777215`.  At thirteen isolated
+dimensions the final positive-denominator defect is over budget, and the
+threshold drops by one; the exact triples `(s,j_positive,J_B)` are pinned in
+the source contract.
+
+The residual is now the explicit low-direction cell:
+
+```text
+s>=4983 or j>J_B(s) on KoalaBear;
+s>=4980 or j>J_B(s) on Mersenne-31.
+```
+
+The primary checker scans all 9,943 official dimensions and four mutations.
+The independent audit directly enumerates 21,505,828 positive defect
+candidates, reproducing the maxima and all thirteen spike cells without
+using the threshold formula.
+
+```text
+start:                   3a13f2dcd
+result:                  PROVED global-core direction-distance router
+DAG delta:               +1 PROVED background node, +4 edges
+critical status delta:   none
+upstream terminal delta: large-dimension branch replaced by an exact
+                         low-direction-distance cell
+delta-star movement:     none
+compute:                 bounded local integer loops under RAMguard;
+                         no Modal spend
+next route action:       attack LOW_DIRECTION_DISTANCE_GLOBAL_CORE
+```
+# Cycle 204: direction-mismatch recursive shortening (2026-08-12)
+
+The low-direction residual from Cycle 203 has an exact recursive structure.
+In a shortened row `(R+s,s,d+s)`, choose a minimum lift of the nonzero
+direction syndrome:
+
+```text
+q=r_1-b,       wt(q)=R-j,       E=supp(q).
+```
+
+Every size-`(d+s)` pair-noncontained witness meets `E` at least `d-j`
+times.  For each `x in E`, conditioning on witness agreement at `x` and
+cancelling that coordinate gives an injective slope-preserving child in the
+dimension-`s-1` row.  Any child direction residual lifts back to an original
+direction residual of the same weight, so its defect satisfies `j_x<=j`.
+Double-counting witness-coordinate incidences proves
+
+```text
+M_s(j) <= floor((R-j)M_(s-1)(j)/(d-j)),       0<=j<d.
+```
+
+The direct direction-distance bound and the recurrence are both monotone in
+`j`, so this is a uniform bound for every child defect at most `j`.  Taking
+the smaller direct/recursive bound at each dimension and starting at the
+last all-defect affine-span payment yields:
+
+```text
+KoalaBear:   j<=4330 paid at s=14 and through s=22;
+             j<=9 at s=4982, j<=8 at s=4983;
+             rank-regular j=0 paid through s=4992.
+Mersenne-31: j<=4334 paid at s=6, j<=4333 at s=7;
+             j<=1 at s=4978, j=0 at s=4979.
+```
+
+Compared with the direct router, the recurrence extends 4,331 KoalaBear
+defects by up to ten dimensions and 4,335 Mersenne defects by one dimension.
+It does not pay `j>=d` or the complement of the exact recursive envelope.
+
+The primary verifier performs 21,686,730 defect-major transitions and four
+mutations.  The independent dimension-major audit performs 21,560,478
+transitions and three controls.  Both use bounded integer state under
+RAMguard; no Modal compute is used.
+
+```text
+start:                   d21366a88
+result:                  PROVED direction-mismatch shortening recurrence
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none
+upstream terminal delta: exact low-direction paid envelope expanded;
+                         residual complement remains
+delta-star movement:     none
+compute:                 bounded local integer loops under RAMguard;
+                         no Modal spend
+next route action:       seek structure in the high-defect residual
+```
+# Cycle 205: sparse-direction punctured-list payment (2026-08-12)
+
+Cycle 204 expands the low-defect side of the shortened global-core family.
+The opposite, extremely high-defect side has a separate ordinary-list
+reduction.
+
+Suppose the shortened direction is
+
+```text
+r_1=b+q,       b in C,       E=supp(q),       |E|=e<d.
+```
+
+For every selected slope, subtract `gamma b` from its codeword explanation.
+Outside `E` this produces a codeword agreeing with the base received word on
+at least `d+s-e` coordinates.  Puncturing `E` and applying the complete-code
+affine-span list theorem gives at most
+
+```text
+floor(C(R-e+s,s)/C(d-e+s,s))
+```
+
+distinct base explanations.  Pair noncontainment forces every witness to
+meet `E`; for a fixed explanation and coordinate `x in E`, the equality
+`a(x)-r_0(x)=gamma q(x)` determines at most one slope.  Hence
+
+```text
+|Z| <= e*floor(C(R-e+s,s)/C(d-e+s,s)).
+```
+
+At the first dimensions not paid uniformly in the direction, exact integer
+evaluation gives
+
+```text
+KoalaBear, s=14: e=5 gives 239567470186217925 <= B*;
+                  e=6 gives 287536780021025682 > B*.
+Mersenne, s=6:   e=1 gives 14115447 <= B*;
+                  e=2 gives 28233244 > B*.
+```
+
+Thus the first residual dimension also pays the high-defect tails
+`j=R-e>=1048571` and `j>=1048575`, respectively.  The middle defect interval
+and all out-of-gate dimensions remain open.
+
+The primary checker scans all 134,918 legal support sizes using exact
+binomials.  The independent checker reconstructs the ratios as cancelled
+integer products and preserves the theorem's `e*floor(...)` order.  Four
+mutations and three controls are rejected.
+
+```text
+start:                   3dec7412c
+result:                  PROVED sparse-direction punctured-list payment
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none
+upstream terminal delta: extreme high-defect tails paid at the first
+                         residual dimension
+delta-star movement:     none
+compute:                 tiny integer arithmetic under RAMguard;
+                         no Modal spend
+next route action:       attack the middle direction-defect interval
+```
+# Cycle 206: codeword-direction gauge rank router (2026-08-13)
+
+The direction-distance route chooses a codeword `b` nearest to the shortened
+received direction.  Subtracting that codeword is also an exact MCA gauge:
+
+```text
+(r_0,r_1,c_gamma) -> (r_0,r_1-b,c_gamma-gamma b).
+```
+
+The transformation preserves every slope, agreement support, and
+same-support pair-noncontainment.  The original and transformed selected
+explanation affine ranks differ by at most one, since their difference
+spaces differ by a rank-one update in the direction `b`.
+
+Applying the support-wise affine-span compiler to transformed rank `r` in
+ambient shortened dimension `K` gives
+
+```text
+A_(K,r)=floor(max(
+  (R+K)^(falling r+1)/((d+K)d^(rising r)),
+  (R+r)^(falling r+1)/d^(rising r+1))).
+```
+
+Exact deployed walls are:
+
+```text
+KoalaBear:   r<=11 through the full K<=1048576 cap;
+             r=12 through K=745260;
+             r=13 through K=289603;
+             r>=14 not uniformly paid by this compiler.
+Mersenne-31: r<=4 through the full cap;
+             r=5 through K=482472;
+             r>=6 not uniformly paid.
+```
+
+The adjacent finite boundaries are particularly tight:
+
+```text
+KB r=12: 274980259855184513 <= B* < 274981914318597687
+KB r=13: 274980152556476265 <= B* < 274982259324238595
+M31 r=5: 16777192 <= B* < 16777228.
+```
+
+For fixed `r`, the ratio `T_(K+1)/T_K` changes direction exactly when the
+linear expression `rK+(r+1)d-R+r` changes sign, proving that the
+ambient-dimension sequence has only one turn.  The primary checker scans
+7,339,974 exact values and four mutations; an independent ratio/binary-search
+audit uses 81 evaluations and three controls.
+
+```text
+start:                   c25e21360
+result:                  PROVED codeword-direction gauge rank router
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none
+upstream terminal delta: every surviving direction cell now also carries
+                         a transformed affine-rank floor
+delta-star movement:     none
+compute:                 bounded integer scans under RAMguard;
+                         no Modal spend
+next route action:       combine transformed rank with sparse-direction
+                         punctured-list payment
+```
+# Cycle 207: sparse-direction affine-rank payment (2026-08-13)
+
+The punctured-list payment from Cycle 205 used the entire shortened code as
+its affine explanation space.  After the gauge router, it can instead use
+the actual transformed explanation rank `r`.
+
+For a codeword gauge `b`, put
+
+```text
+q=r_1-b,       e=|supp(q)|<d,
+a_gamma=c_gamma-gamma b,
+r=rank_aff{a_gamma}.
+```
+
+Puncturing the support of `q` produces an ordinary list in parameters
+
+```text
+(n',K',m')=(R+K-e,K,d+K-e),       w'=d-e.
+```
+
+The transformed explanations retain affine rank at most `r`, so the
+affine-span list theorem gives at most
+
+```text
+floor(C(R-e+r,r)/C(d-e+r,r))
+```
+
+distinct explanations.  Pair noncontainment again gives slope fiber at most
+`e`.  Therefore
+
+```text
+|Z| <= e*floor(C(R-e+r,r)/C(d-e+r,r)),
+```
+
+independently of the ambient shortened dimension `K`.
+
+The exact paid support prefixes are:
+
+```text
+KoalaBear:   r=12 -> e<=1144; r=13 -> e<=87;
+             r=14 -> e<=5;    r=15 -> no e>=1.
+Mersenne-31: r=4  -> e<=282;  r=5  -> e<=18;
+             r=6  -> e<=1;    r=7  -> no e>=1.
+```
+
+Every boundary is adjacent and exact.  For example:
+
+```text
+KB r=13: 272256895343216442 <= B* < 275435997743171320
+M31 r=5: 16363584 <= B* < 17273869.
+```
+
+The primary exact-binomial checker and independent gcd-product checker each
+scan 539,672 rank/support cells and reject four mutations / three controls.
+
+```text
+start:                   60db12dc5
+result:                  PROVED sparse-direction affine-rank payment
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none
+upstream terminal delta: residual is now joint middle-rank/middle-support,
+                         not merely low direction distance
+delta-star movement:     none
+compute:                 bounded integer scans under RAMguard;
+                         no Modal spend
+next route action:       attack the joint residual with rank/support
+                         interaction rather than another scalar bound
+```
+# Cycle 208: sparse-direction heavy-fiber profile (2026-08-13)
+
+Cycle 207 charged every transformed explanation for all `e` possible
+slopes.  The actual charge depends on its outside-agreement deficit.
+
+For a gauged direction `q` supported on `E`, `|E|=e<d`, put
+
+```text
+O(a)=|{x outside E:a(x)=r_0(x)}|,       h_a=m-O(a).
+```
+
+Same-support pair noncontainment gives `h_a>=1`; existence of a bad slope
+assigned to `a` gives `h_a<=e`.  Every such slope is a fiber of
+`(a-r_0)/q` on `E` of size at least `h_a`, so one explanation owns at most
+`floor(e/h_a)` slopes.
+
+For explanations of deficit at most `h`, the punctured affine-list theorem
+at agreement threshold `m-h` gives the cumulative cap
+
+```text
+B_h=floor(C(R-e+r,r)/C(d-h+r,r)).
+```
+
+Optimizing the decreasing fiber weights under these nested caps yields
+
+```text
+|Z| <= sum_(h=1)^e (B_h-B_(h-1))*floor(e/h),       B_0=0.
+```
+
+Exact adjacent boundaries improve the paid prefixes to
+
+```text
+KoalaBear:   r=12 -> e<=1407; r=13 -> e<=89;
+             r=14 -> e<=5;    r=15 -> none.
+Mersenne-31: r=4  -> e<=287;  r=5  -> e<=18;
+             r=6  -> e<=1;    r=7  -> none.
+```
+
+The primary exact-binomial checker scans 1,815 prefix cells.  An independent
+gcd-product implementation checks all 14 nonempty/first-unpaid boundary
+values and brute-forces 125 small cumulative-cap allocation problems.
+
+```text
+start:                   a62dfeb19
+result:                  PROVED sparse-direction heavy-fiber profile
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none expected; this sharpens one live MCA route
+upstream terminal delta: the scalar direction-fiber charge is replaced by
+                         a cumulative outside-deficit profile
+delta-star movement:     none
+compute:                 bounded exact arithmetic under RAMguard;
+                         no Modal spend
+next route action:       seek an interaction theorem constraining affine
+                         rank inside the weighted ratio-fiber shells
+```
+# Cycle 209: direction-support affine-basis payment (2026-08-13)
+
+The gauged affine-incidence proof contains a support/rank interaction not
+used by its original all-coordinate numerator.  If
+
+```text
+q=r_1-b,       E=supp(q),       |E|=e<=R,
+```
+
+then every incident normal outside `E` has zero slope component.  Let `z`
+be the number of zero normals.  All zero normals also lie outside `E`, so
+the candidate ordered full-basis count sharpens exactly from
+
+```text
+(n-z)_(fall r+1)
+```
+
+to
+
+```text
+(n-z)_(fall r+1)-(n-e-z)_(fall r+1).
+```
+
+Factoring this subtraction out of the existing affine-span endpoint
+envelope gives
+
+```text
+|Z| <= floor(P(R,r,e) M(K,r)),
+
+P(R,r,e)=1-(R+r-e)_(fall r+1)/(R+r)_(fall r+1),
+```
+
+where `M(K,r)` is the proved two-endpoint rank envelope.  The support factor
+is increasing.  The existing one-turn dimension calculation shows that the
+ambient endpoint `K=R` owns all displayed ranks, producing uniform walls
+over every shortened dimension:
+
+```text
+KoalaBear:   r=11 all e; r=12 e<=15903; r=13 e<=435;
+             r=14 e<=13; r=15 none.
+Mersenne-31: r=4 all e; r=5 e<=62235; r=6 e<=1486;
+             r=7 e<=41; r=8 e<=1; r=9 none.
+```
+
+Unlike punctured-list payment, this theorem is valid for `e>=d`.  The
+primary checker validates every rational endpoint and adjacent wall.  The
+independent checker recomputes products by recurrence/gcd and exhaustively
+checks 239 small tuple-subtraction models and 189 support monotonicity cases.
+
+```text
+start:                   4d2c9d3a5
+result:                  PROVED direction-support affine-basis payment
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none; one live MCA residual is substantially cut
+upstream terminal delta: middle-support cells now carry explicit rank-wise
+                         support floors, not only sparse-list constraints
+delta-star movement:     none
+compute:                 bounded exact arithmetic under RAMguard;
+                         no Modal spend
+next route action:       use the actual common-zero count instead of its
+                         uniform worst case, or force a high-rank/high-
+                         support residual into another owner
+```
+# Cycle 210: direction-support common-zero envelope (2026-08-13)
+
+Cycle 209 separated the direction-support proportion from the affine-span
+envelope.  Retaining the zero-normal count gives a sharper exact scalar
+optimization.
+
+For `z=g+c`, the subtracted basis count yields
+
+```text
+|Z| <= ((n-z)_(fall r+1)-(n-e-z)_(fall r+1))
+       /((m-g)(d+c)_(rise r)).
+```
+
+At fixed `z`, the numerator is fixed and the denominator
+
+```text
+(m-z+c)(d+c)_(rise r)
+```
+
+strictly increases with `c`.  Hence `c=0`, `g=z` is worst.  Setting
+`x=R+K-z` proves the exact envelope
+
+```text
+|Z| <= floor(max_(x=R+r..R+K)
+  ((x)_(fall r+1)-(x-e)_(fall r+1))
+  /((x-R+d)d_(rise r))).
+```
+
+The interval through `2R` is uniform over all shortened dimensions.  Exact
+exhaustion gives
+
+```text
+KoalaBear:   r=12 e<=31806; r=13 e<=870; r=14 e<=26;
+             r=15 none.
+Mersenne-31: r=5 e<=124471; r=6 e<=2973; r=7 e<=83;
+             r=8 e<=2; r=9 none.
+```
+
+The Mersenne rank-five wall now crosses `e=d=67448`, genuinely entering the
+middle-support region where punctured-list payment is unavailable.
+
+Two independent implementations each exhaust 16,777,078 exact official
+cells and recover all nine adjacent maxima at `x=2R`.  The recurrence audit
+also checks 140 fixed-`z` denominator cells.  Both are constant-memory and
+finish in about ten seconds under RAMguard.
+
+```text
+start:                   99d52e857
+result:                  PROVED direction-support common-zero envelope
+DAG delta:               +1 PROVED background node, +3 edges
+critical status delta:   none; Mersenne rank-five middle support is cut
+upstream terminal delta: shortened residual has an exact one-dimensional
+                         support/rank envelope
+delta-star movement:     none
+compute:                 two bounded constant-memory local scans;
+                         no Modal spend
+next route action:       combine the surviving high-rank/high-support cell
+                         with the direction-distance or rational-owner
+                         partition rather than further scalar repricing
+```
+# Cycle 211: global-core rank/support/distance router (2026-08-13)
+
+The preceding MCA compilers bounded rank, low direction support, and high
+direction support separately.  They apply to the same selected family after
+one whole-line global-core cancellation and one minimum-lift gauge, so their
+paid regions can be unioned without adding budgets.
+
+Write the shortened row as `(R+s,s,d+s)`, let `r` be the transformed
+explanation rank, and put
+
+```text
+e=d_U(y_1)=R-j.
+```
+
+The exact common-zero envelope is maximized only over
+`x in [R+r,R+s]`, not the all-dimension interval through `2R`.  Exhausting
+that actual range gives, uniformly through the recursive frontier:
+
+```text
+KoalaBear, 14<=s<=4992:
+  r<=13 paid for every e;
+  r=14,15,16,17 paid for e<=31768,1576,94,5.
+
+Mersenne-31, 6<=s<=4979:
+  r<=5 paid for every e;
+  r=6,7,8,9 paid for e<=11847,646,36,2.
+```
+
+The recursive direction theorem pays the opposite suffix
+`e>=R-J_rec(s)`.  At each first legal dimension `s=r` this leaves, in
+particular,
+
+```text
+KoalaBear s=14, r=14: e=31769..1044245;
+Mersenne s=6, r=6:    e=11848..1044241.
+```
+
+Higher transformed ranks have the separately printed middle intervals at
+their own first legal dimensions; `r<=s` is enforced.
+Thus the old `s>=14`/low-direction bucket is now a joint high-rank,
+middle-support cell.  No target status changes: the middle intervals and K3
+first-match allocation remain open.
+
+Two independent constant-memory checkers replay 99,490 exact support cells,
+9,953 rank cells, 22 recursive frontiers, ten residual intervals, and 96
+small support-monotonicity models.
+
+```text
+start:                   5d724af27
+result:                  PROVED global-core rank/support/distance router
+DAG delta:               +1 PROVED background node, +5 edges
+critical status delta:   none; the deployed K3 route is sharply localized
+upstream terminal delta: first residuals are explicit rank/support intervals
+delta-star movement:     none
+compute:                 bounded exact arithmetic under RAMguard;
+                         no Modal spend
+next route action:       attack the surviving middle support through
+                         rational/order-32 ownership or a rank-support
+                         interaction not visible to scalar incidence
+```
+# Cycle 212: large-clone Mobius and Pade routing (2026-08-13)
+
+## Selection
+
+The live upstream `(E)` exception terminal and PR `#1156` leave one unique
+coordinate-clone class of size at least `m`. Subcritical classes already have
+a simultaneous `2n` payment. This cycle attacked that exact residual rather
+than adding another support-only packing bound.
+
+## Result
+
+Two proved routers were added.
+
+First, an irreducible common `(1,1)` owner-pencil component has the exact
+Mobius pullback
+
+```text
+Qhat=(c+d gamma)Q_0-(a+b gamma)Q_1,
+Nhat=(c+d gamma)(A_0+gamma B_0)
+     -(a+b gamma)(A_1+gamma B_1),
+```
+
+with slope degrees one and two and `Nhat=Qhat(r_0+gamma r_1)` on every
+clone coordinate. If the denominator coefficients span one polynomial
+direction, every clone of size at least `m+1` cancels to one fixed coherent
+rational owner. At size exactly `m`, the sole obstruction is
+`mu Lambda_C` at the denominator-zero parameter.
+
+Second, in denominator rank two, writing
+
+```text
+Qhat=q_0+gamma q_1,
+Nhat=p_0+gamma p_1+gamma^2 p_2
+```
+
+produces the exact Padé remainder
+
+```text
+Omega=q_1^2p_0-q_0q_1p_1+q_0^2p_2.
+```
+
+It vanishes on the clone and has degree at most `m+2d`. Above that root
+wall it vanishes identically and the moving pencil becomes one fixed owner
+of reduced denominator degree at most `2d`. At equality it is zero or a
+scalar clone locator. The moving support bands therefore end at
+`1250992` (KoalaBear) and `1250920` (Mersenne-31).
+
+## Audit
+
+The clone coordinates remain owner incidences, not selected-support roots.
+The degree-`2d` owner is not fed to the current degree-`d` large-owner
+theorem. The equality locator residues and the finite moving support bands
+remain open. Two independent checkers replay the Mobius identities, factor
+boundary, Padé remainder, division identity, official walls, and hostile
+metadata controls with constant memory.
+
+```text
+start:                   fc74e16cd
+result:                  NARROWED; +2 PROVED large-clone routers
+DAG delta:               +2 PROVED background nodes, +6 edges
+critical status delta:   none; the MCA exception route is sharpened
+upstream terminal delta: PR #1156 unique large clone split into exact leaves
+delta-star movement:     none
+compute:                 bounded local exact arithmetic; no Modal spend
+next route action:       attack the c=m locator remainder first, then the
+                         finite moving band or degree-2d owner reduction
+```
+# Cycle 213: profile-(4,4) low-energy resultant contraction
+
+## Route choice
+
+After two export/harvest cycles without critical bracket movement, this
+cycle returned to the direct critical E1 branch of
+`unsafe_crossing_family_instantiation`. The binding low-square-mass pair
+budget had paid profiles `(3,6)`, `(2,10)`, `(1,14)`, and `(0,18)`. Its next
+profile `(4,4,S=20)` permits at most seven complete shift/sign orbits, while
+the existing local-norm fence left `1133` possible cofactors.
+
+## Falsification first
+
+A `55`-second, constant-memory Modal annealing probe found realizable
+autocorrelation energy `E=2`, falsifying any proposed universal
+coefficient-level floor above two. A complete normalized four-singleton
+parity census also found `264` one-lag masks. Thus low energy cannot be
+discarded by parity or abstract coefficient combinatorics alone.
+
+The discovered energy-two witness has nonzero autocorrelations
+
+```text
+A_60=A_62=1
+```
+
+and a `277`-bit exact norm, so a coarse norm-size argument also does not
+remove it.
+
+## Exact official exclusion
+
+For an abstract integer spectrum `(A_d)`, define
+
+```text
+H_A(X)=20X^D+sum_d A_d(X^(D+d)+X^(D-d)).
+```
+
+Then
+
+```text
+|Res(X^128+1,H_A)|=|Norm(F(zeta_256))|^2.
+```
+
+Three exact FLINT censuses exhausted all spectra through energy four:
+
+```text
+E=1:       126
+E=2:      7812
+E=3:    317688
+E=4:   9530766
+```
+
+No energy-one, -two, or -three norm factors as `p m` with `p` in the exact
+official interval and `m` in the `1133`-value legal cofactor set. At energy
+four, no norm even has an integer multiple in that interval. The complete
+certificate used `8`, `16`, and `128` shards; every worker had `512 MiB`,
+and the largest layer allowed at most `96` concurrent workers. No local
+enumeration was run.
+
+Therefore every official collision has
+
+```text
+E>=5,                 V=2E>=10.
+```
+
+## Analytic contraction
+
+Integer autocorrelation gives the cap `y_u<=20+V`. The quadratic logarithmic
+majorant on that interval yields
+
+```text
+Norm(alpha)<=20^64 exp(-16/5)(3/2)^(32/5).
+```
+
+Exact degree-37 Taylor bounds for `e^16` place this quantity strictly
+between `932364 P` and `932365 P`, where `P=B_P 2^128` is the lower official
+prime endpoint. Hence every collision has `m<=932364`.
+
+Intersecting with the exact local list leaves `657` cofactors, down from
+`1133`; the pure `2^20` branch is excluded. Thirteen pure branches and `644`
+non-pure branches remain. This is a strict route contraction, not a collision
+or orbit count.
+
+## Banked nodes
+
+- `e1_profile44_official_energy_le4_exclusion` — PROVED;
+- `e1_profile44_energy_floor_cofactor_contraction` — PROVED.
+
+Both have primary and independent local verifiers, source-hash contracts,
+hostile controls, explicit nonclaims, and direct edges into the critical E1
+pair-budget and unsafe-crossing nodes.
+
+## Next route
+
+Do not continue abstract energy enumeration mechanically: energy five grows
+by an order of magnitude and still does not control orbit multiplicity. The
+next proof attempt should exploit the retained families collectively, either
+through a common-prime associate-height collapse adapted to profile
+`(4,4)`, or through a direct weighted payment that avoids requiring one
+orbit per cofactor.
+# Cycle 214: profile-(4,4) valuation-parity contraction
+
+## Route screen
+
+The cycle first screened a direct extension of the profile-`(3,6)`
+unit-associate height collapse. For profile `(4,4)`, the same entropy
+argument can collapse a fixed sufficiently high-cofactor ideal family to one
+orbit, but the retained frontier has hundreds of distinct split-prime ideal
+families. That theorem would not approach the required seven total orbits,
+so it was not banked as another non-paying router.
+
+## Joint local invariant
+
+Instead, the four singleton positions were classified jointly by:
+
+```text
+mu = ord_(X=1) sum_(e in T) X^e over F_2,
+q  = positive-half parity weight of P(X)P(X^-1).
+```
+
+Both are translation-invariant. A complete normalized census covered all
+`C(127,3)=333375` supports. Independent implementations used a Hasse
+bit-test/folded mask and binomial-parity/direct coefficient array.
+
+The exact table proves
+
+```text
+mu in {3,5,6,9,10,12,17,18,20} => q in {2,4,6}.
+```
+
+Since `E=sum A_d^2` satisfies `E=q mod 4` and cycle 213 excluded `E<=4`,
+every collision on those branches has `E>=6`, hence variance `V>=12`.
+
+## Cofactor consequence
+
+The energy-adaptive product majorant at `V=12` is
+
+```text
+U_12=20^64 exp(-16/5)(8/5)^(16/3).
+```
+
+Exact degree-27 Taylor bounds for `e^(48/5)` certify
+
+```text
+853574 P < U_12 < 853575 P,
+P=B_P 2^128.
+```
+
+Applying this threshold only to the nine forced-energy branches removes
+exactly twelve of the `657` former survivors and leaves `645`. No pure branch
+is newly removed, and no orbit payment is claimed.
+
+## Banked node
+
+`e1_profile44_valuation_parity_cofactor_contraction` is PROVED with a pinned
+Modal census source/run, compact exact table, primary verifier, independent
+audit, and direct evidentiary edges into the E1 pair-budget and
+unsafe-crossing nodes.
+
+## Route decision
+
+The numerical gain is real but too small to justify iterative energy-layer
+enumeration. The next selected route must address multiplicity collectively:
+a direct collision-graph coloring theorem, a common-prime/ideal occupancy
+bound across split families, or a weighted payment not indexed one-for-one
+by cofactors.
+# Cycle 215: profile-(4,4) energy-five exclusion
+
+## Compression before compute
+
+The naive abstract energy-five census has roughly `224M` spectra. Parity
+reduces it sharply. The only integer energy partitions are
+
+```text
+5=1+1+1+1+1=4+1.
+```
+
+Therefore the odd autocorrelation mask has weight five or one. A complete
+four-singleton support census gives only
+
+```text
+1785 weight-five masks,       31 weight-one masks,
+100 and 5 odd-unit mask orbits, respectively.
+```
+
+Enumerating all signs directly, without relying on the orbit quotient,
+requires exactly
+
+```text
+1785*32 + 31*62*4=64808
+```
+
+spectra.
+
+## Exact result
+
+The primary eight-shard FLINT census computes the exact cyclotomic norm of
+all `64808` spectra and finds no official hit. A separately written
+eight-shard replay changes the support loops, mask representation, spectrum
+order, and interval test. It finds the stronger result that no spectrum has
+even one integer cofactor in the exact official prime interval.
+
+Both runs used `512 MiB` workers and approximately `33` aggregate worker
+seconds. The mask census and both norm runs are pinned by source hash and
+Modal run identifier.
+
+Thus energy five is empty. With cycle 213,
+
+```text
+E>=6,       V>=12,       m<=853574
+```
+
+for every official profile-`(4,4)` collision. The exact cofactor frontier
+contracts from `645` to `608` values.
+
+## Banked node
+
+`e1_profile44_official_energy5_exclusion` is PROVED with a complete proof
+packet, primary verifier, independent audit, and evidentiary edges into the
+E1 pair-budget and unsafe-crossing nodes.
+
+## Stop rule
+
+No energy-six census is selected. Even hypothetical exclusions through
+energy twenty leave more than three hundred locally admissible cofactors,
+while the target is seven total collision orbits. The next route must control
+multiplicity collectively through collision coloring, ideal occupancy and
+associate coupling, or direct weighted payment.
+# Cycle 216: MCA affine-incidence refutation and scope repair (2026-08-13)
+
+## Trigger
+
+An attempted rank-preserving recursive-shortening compiler forced a check of
+the rank-one base case.  The printed common-zero bound became zero for a
+nonempty singleton family, exposing a missing affine-rank-zero branch.  A
+direct construction then showed that the defect is more fundamental: the
+underlying MCA affine-incidence denominator is false.
+
+## Exact counterexample
+
+Over `GF(1009)` in
+
+```text
+RS[F,{0,...,99},1],       (n,K,m,w,s)=(100,1,21,20,1),
+```
+
+one received line has 31 selected slopes with exact maximal agreement
+supports of size 21, same-support pair noncontainment, and explanations in
+one affine codeword line.  The direction is separated:
+
+```text
+max_(c in C) agr(r_1,c)=20<21=m.
+```
+
+Nevertheless,
+
+```text
+affine-span compiler:          claimed 23 < 31,
+direction-support refinements: claimed 22 < 31.
+```
+
+The primary and independent verifiers reconstruct all 100 coordinates and
+all 31 maximal supports.  No search or probabilistic computation is used.
+
+## Proof gap
+
+Same-support pair noncontainment correctly forces the normals incident with
+each selected support to span the full parameter space.  It does not bound
+the multiplicity of normals in a proper subspace.  Each zero-explanation
+witness in the counterexample contains 20 normals on one line and one
+transverse normal: 40 ordered bases, against the proof's charge of
+`m*w=420`.
+
+This also refutes upstream `thm:affine-span-mca` at its printed
+direction-separated scope.  It is an upstream-grade correctness report for
+PR `#1163`, not merely a local no-separation issue.
+
+## DAG repair
+
+The following nodes are now `REFUTED`:
+
+- `rate_half_mca_supportwise_affine_span_compiler`;
+- `rate_half_mca_direction_support_affine_basis_payment`;
+- `rate_half_mca_direction_support_common_zero_envelope`.
+
+The combined `rate_half_mca_global_core_rank_support_distance_router` returns
+to `TARGET`.  Its former rank and middle-support payments are withdrawn.
+At the first residual dimensions, only the independent extremal gates remain:
+
+```text
+KoalaBear s=14:  e<=5 or e>=1044239,
+Mersenne s=6:    e<=1 or e>=1044242.
+```
+
+## Surviving theorems
+
+The codeword-direction gauge identity and rank shift at most one were split
+from the invalid incidence add-on and reverified.  Ordinary punctured-list
+decoding, sparse-direction affine-rank/heavy-fiber bounds, the directional
+Johnson theorem, and recursive shortening remain proved.
+
+The direction-distance gate now starts honestly at `s=1`.  Recursive
+shortening is initialized separately from that direct gate, with no false
+all-defect base.  Exact repaired checkpoints include
+
+```text
+KoalaBear:   j<=4337 at s=14, j<=4330 at s=22, j=0 through s=4992;
+Mersenne:    j<=4334 at s=6,  j<=4330 at s=10, j=0 through s=4979.
+```
+
+## Replacement target
+
+The valid next MCA theorem must control proper-subspace occupancy of incident
+normals, not merely local full rank.  Any replacement also needs whole-line
+first-match ownership.  Historical rank/support products remain arithmetic
+records only.
+
+```text
+start:                   e4073ebba
+result:                  one PROVED exact counterexample;
+                         three incidence nodes REFUTED;
+                         one combined router PROVED -> TARGET;
+                         gauge/direction/shortening packages scope-repaired
+DAG delta:               +1 node, +3 edges net after rewiring
+critical status delta:   none; corrected evidence under rate-half MCA target
+upstream terminal delta: printed affine-span MCA compiler and PR #1163
+                         small-dimension use require correction
+delta-star movement:     none
+compute:                 exact bounded local arithmetic under RAMguard;
+                         no Modal spend
+next route action:       export the counterexample/correction upstream, then
+                         seek a proper-subspace occupancy replacement
+```
+# Cycle 217: upstream MCA affine-incidence correction (2026-08-13)
+
+Cycle 216's exact counterexample was reconstructed on current upstream
+`main@93fba1be` and exported as draft PR `#1165` at commit `809c8e31`.
+The upstream manuscript now states the counterexample in place of the false
+theorem and retracts the dependent KoalaBear and Mersenne-31 payments.
+
+Two independently structured standard-library verifiers reconstruct all 31
+selected supports.  The second implementation independently chooses legal
+coordinates and exhaustively scans all 1009 constant direction codewords.
+The manuscript compiles successfully in an isolated output directory.
+
+Open-PR reconciliation found a new stacked PR `#1164`.  Both `#1163` and
+`#1164` were given dependency alerts.  Their fixed-core
+codeword-affine-span staircase inherits the refuted denominator.  The
+selector-free all-LineRay error-affine-core payment in `#1164` is distinct:
+its zero-mask/Bollobas set-pair proof does not use the failed incidence step
+and remains bankable at its printed scope.
+
+```text
+start:                   27be48115
+canonical prize:         c8d48cd4b
+upstream main:           93fba1be
+relevant upstream PRs:   #1163, #1164, #1165
+result:                  EXPORTED exact counterexample and correction
+DAG delta:               none; Cycle 216 already repaired dependencies
+upstream terminal delta: false affine-span MCA compiler publicly retracted;
+                         dependent fixed-core payments flagged
+delta-star movement:     none
+compute:                 exact local arithmetic under RAMguard; no Modal
+next route action:       seek a true proper-subspace occupancy or alternate
+                         whole-line compiler for the repaired MCA target
+```
+# Cycle 218: MCA proper-subspace occupancy repair (2026-08-13)
+
+The Cycle 216 counterexample identifies one precise loss: local full incident
+rank gives one final basis extension, not the old unconditional factor `w`.
+The new field-general theorem
+`rate_half_mca_proper_subspace_occupancy_compiler` proves the correct
+interpolation.
+
+For selected explanation affine rank `q`, let
+
+```text
+e=min_(b in C) wt(r_1-b),       t=N-m,
+L=max(1,e-t).
+```
+
+MDS generalized weights control every incident normal subspace of dimension
+below `q`.  Same-support pair noncontainment supplies one final transverse
+normal, while direction-coset distance raises that final factor to `L`.
+The resulting exact bound is
+
+```text
+floor(max(A_q,B_q)/L),
+```
+
+with the two zero-normal endpoint expressions printed in the node.  The old
+formula is recovered only at maximum direction support, where `L=w`.
+
+At the first KoalaBear residual dimension, ranks 1 through 9 are now paid for
+every direction support.  Ranks 10 through 13 are paid respectively from
+
+```text
+e=981108, 981153, 981861, 992852.
+```
+
+Rank 14 remains on the independent gates `e<=5` or `e>=1044239`.  At the
+first Mersenne residual dimension, rank 1 is fully paid and ranks 2 through 5
+are paid from
+
+```text
+e=981144, 981363, 984779, 1037876.
+```
+
+Rank 6 remains on `e<=1` or `e>=1044242`.
+
+The primary checker recomputes all exact walls and eight adjacent failures.
+The independent rational checker scans 616 allowed zero-normal cases and
+replays the `GF(1009)` regression at corrected bound 471.  It also exhausts
+all 729 `GF(3)` rank-one received lines and 540 nontrivial selected families.
+
+The theorem, proof, finite calibration, and combined checker were added to
+draft upstream PR `#1165` at head `75c61ae4`.  PRs `#1163` and `#1164` were
+given follow-up dependency comments with the repaired fixed-core walls.
+
+```text
+start:                   27be48115 plus Cycle 217 provenance edits
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         replacement
+DAG delta:               +1 PROVED node, +1 evidence edge
+critical status delta:   none; the replacement target remains TARGET
+upstream terminal delta: corrected theorem and walls added to PR #1165;
+                         dependent PRs #1163/#1164 notified
+delta-star movement:     none
+compute:                 exact bounded local arithmetic under RAMguard
+next route action:       attack the explicit top-rank middle-support cells,
+                         or export the corrected theorem after review
+```
+# Cycle 219: MCA full-explanation lifted-rank dichotomy (2026-08-13)
+
+Cycle 218 left the widest cells at explanation affine rank equal to the
+shortened code dimension `K`.  The new theorem separates them using the
+affine rank `h` of the lifted pairs `(gamma,c_gamma)`.
+
+After anchoring one slope, explanation differences span all of `C`, while
+lifted differences lie in `F direct_sum C`.  Hence
+
+```text
+h in {K,K+1}.
+```
+
+If `h=K`, the lifted space is the graph of a nonzero functional
+`ell:C->F`.  Every gauge `b` on the affine hyperplane `ell(b)=1` drops the
+transformed explanation rank exactly to `K-1`.  If `h=K+1`, the lifted space
+is all of `F direct_sum C` and no codeword gauge drops rank.
+
+Pair noncontainment forces `r_1` outside the code, so the map
+
+```text
+(a,u) -> a r_1-u
+```
+
+is injective on the lifted space.  Thus the selected error-vector affine
+rank is exactly `h`.  This identifies the split simultaneously in the
+fixed-core and all-LineRay languages.
+
+The gauge-drop branch inherits the penultimate-rank occupancy wall because
+direction coset support is gauge invariant:
+
+```text
+KoalaBear q=14, h=14:   e<=5 or e>=992852;
+KoalaBear q=14, h=15:   e<=5 or e>=1044239;
+Mersenne  q=6,  h=6:    e<=1 or e>=1037876;
+Mersenne  q=6,  h=7:    e<=1 or e>=1044242.
+```
+
+The primary `GF(7),K=3` control exhausts 686 gauges: the drop branch has
+49 rank-dropping and 294 other gauges, while all 343 gauges in the full-lift
+branch retain full rank.  An independent `GF(5),K=2` implementation checks
+50 gauges and a hostile rank-raising perturbation.
+
+```text
+start:                   d9b81e631
+canonical prize:         c8d48cd4b
+upstream main:           93fba1be
+relevant upstream PRs:   #1163, #1164, #1165
+upstream export head:    #1165 @ 0a4960f6
+result:                  NARROWED + EXPORTED; one PROVED structural dichotomy
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: proved fixed-core/all-LineRay correspondence,
+                         exact top-rank split, and fourth verifier added to
+                         PR #1165; dependency comments added to #1163/#1164
+delta-star movement:     none
+compute:                 exact bounded local arithmetic under RAMguard
+next route action:       attack the full-lift top-rank middle-support
+                         interval without assuming a gauge rank drop
+```
+# Cycle 220: MCA full-lift near-MDS extension reduction (2026-08-13)
+
+Cycle 219 isolated the top explanation-rank branch with lifted/error rank
+`K+1`.  This cycle identifies its exact code-theoretic object.
+
+Put
+
+```text
+W=C+span{r_1},       e=min_(b in C) wt(r_1-b).
+```
+
+Pair noncontainment gives `r_1 notin C`, so `W` has dimension `K+1`.
+Interpolation proves `e<=N-K`.  The complete generalized-weight hierarchy is
+
+```text
+d_1(W)=e,
+d_j(W)=N-K+j-1       for 2<=j<=K+1.
+```
+
+For `j>=2`, every `j`-space not contained in `C` meets `C` in dimension
+`j-1`; the RS MDS hierarchy gives the generalized Singleton lower bound,
+which is therefore exact.  Thus the extension is near-MDS with exactly one
+defective generalized weight.
+
+The full-lift selected errors form a full-affine-rank weight-`<=N-m` list in
+one affine coset of `W`.  Error-to-slope projection has fiber one, and
+same-support pair noncontainment is equivalent to injectivity of restriction
+`W->F^S` on every selected maximal zero set.
+
+Substituting the hierarchy into the corrected compiler recovers its top-rank
+bound.  Even at the best endpoint `e=N-K`, where `W` is MDS, the exact values
+remain over budget:
+
+```text
+KoalaBear:   743896698428332665 > 274980728111395087;
+Mersenne-31:          219426634 >          16777215.
+```
+
+The primary verifier checks rank-one-defect and MDS extensions over `GF(7)`,
+both official ceilings, and three mutations.  An independent `GF(5)` audit
+exhausts all 31 codimension-one extensions of `RS[GF(5),5,2]`; every one has
+weights `(e,4,5)`, with distance profile `[(1,5),(2,25),(3,1)]`.
+
+```text
+start:                   878571558
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream main:           93fba1be
+open frontier PRs:       #1163, #1164, #1165; no newer MCA frontier PR
+upstream export head:    #1165 @ f966e38c
+result:                  NARROWED + EXPORTED; one PROVED near-MDS reduction
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: near-MDS theorem, exhaustive 31-extension audit,
+                         and compiler-ceiling route fence added to #1165;
+                         all-LineRay consequence posted to #1164
+delta-star movement:     none
+compute:                 exact bounded local arithmetic under RAMguard
+next route action:       seek a row-sharp sparse-list theorem using the
+                         codimension-one RS extension beyond its weight
+                         hierarchy, or a chronology-correct S/A/E route
+```
+# Cycle 221: MCA punctured Johnson profile (2026-08-13)
+
+The sparse-direction route had used the affine-span list bound after
+puncturing the direction residual.  At the official top dimensions this paid
+only `e<=5` for KoalaBear and `e<=1` for Mersenne-31.  The omitted
+ordinary-list structure is much stronger throughout the classical Johnson
+regime.
+
+For transformed explanation deficit `h`, puncture the residual support
+`E`.  Distinct degree-`<K` explanations have agreement-set intersections
+of size at most `K-1`.  The standard incidence calculation gives
+
+```text
+J_h=floor((N-e)(m-h-K+1)
+          /((m-h)^2-(N-e)(K-1))).
+```
+
+Combining these cumulative caps with the already-proved owner multiplicity
+`floor(e/h)` gives the exact deficit profile and the coarse bound
+
+```text
+|Z| <= sum_h (J_h-J_(h-1))*floor(e/h)
+    <= (e-1)J_floor(e/2)+J_e.
+```
+
+The weakest Johnson denominator is positive through exactly
+
+```text
+KoalaBear:   e=63908, D_e=1218;  e=63909 gives -5924;
+Mersenne-31: e=65236, D_e=2794;  e=65237 gives -1636.
+```
+
+An exact scan of every support in each prefix places the maximum coarse
+bounds at the endpoints:
+
+```text
+KoalaBear:   4607583 <= 274980728111395087;
+Mersenne-31: 2605443 <=          16777215.
+```
+
+The primary verifier checks 129,144 official supports and four mutations.
+An independent rational-arithmetic implementation reconstructs both walls,
+checks the profile-to-coarse inequality on two synthetic rows, and rejects
+two contract mutations.
+
+```text
+start:                   6efd673cf
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163, #1164, #1165; no superseding MCA result
+upstream export head:    #1165 @ 442a223a; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved from e<=5/1 to
+                         e<=63908/65236; official rows remain open
+full-lift residuals:     KoalaBear 63909<=e<=1044238;
+                         Mersenne 65237<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer arithmetic under RAMguard;
+                         no Modal
+next route action:       exploit the near-Johnson failure strip and the
+                         codimension-one near-MDS extension structure in the
+                         remaining middle-support intervals
+```
+# Cycle 222: MCA near-Johnson Gram-rank payment (2026-08-13)
+
+Cycle 221 stopped exactly when the ordinary Johnson denominator became
+nonpositive.  The adjacent strip still has a strong rank-stability estimate.
+
+For an ordinary list represented by equal-size agreement blocks with
+`|S_i|=A` and pairwise intersections at most `c`, let `B` be the
+incidence matrix and put
+
+```text
+H=BB^T-cJ.
+```
+
+Equal row sums imply that the all-ones vector already lies in `col(B)`.
+Hence `rank(H)<=rank(B)<=n`, not merely `n+1`.  If
+
+```text
+g=nc-A^2>=0,
+G=(A-c)^2-cg>0,
+```
+
+the trace-rank inequality, Cauchy incidence lower bound, and
+`delta^2<=c delta` give the field-general cap
+
+```text
+L <= floor(n*A*(A-c)/G).
+```
+
+For the sparse-direction MCA family, split explanations at deficit
+`u=floor(e/2)`.  The low-deficit class uses the ordinary Johnson cap
+`J_u`; every other explanation owns one slope.  Therefore
+
+```text
+|Z| <= (e-1)J_u+Q_e.
+```
+
+Exact arithmetic expands the paid prefixes to
+
+```text
+KoalaBear:   e<=64037, endpoint bound 198047217;
+Mersenne-31: e<=65418, endpoint bound  16759641.
+```
+
+At `e=64038`, the KoalaBear Gram denominator is `-36911`, so the theorem
+stops.  At `e=65419`, the Mersenne denominator is still positive, but the
+valid bound `18212004` exceeds budget `16777215`.
+
+The primary checker scans all 311 newly paid supports and four mutations.
+An independent rational implementation reconstructs the records and checks
+the rank placement on an explicit finite block family.
+
+```text
+start:                   b3e4f267d
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream export head:    #1165 @ 07546f90; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved again to
+                         e<=64037/65418; official rows remain open
+full-lift residuals:     KoalaBear 64038<=e<=1044238;
+                         Mersenne 65419<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer arithmetic under RAMguard;
+                         no Modal
+next route action:       strengthen the post-Johnson list cap beyond the
+                         first centered-Gram denominator or exploit
+                         full-lift near-MDS extension structure
+```
+# Cycle 223: MCA mean-centered Gram profile (2026-08-13)
+
+The first post-Johnson Gram rung centered at the intersection ceiling.  A
+stronger positive-semidefinite version instead centers the incidence columns
+at their mean.
+
+For equal-size `A)-blocks in an `n)-set with intersections at most `c`,
+put
+
+```text
+p=A^2/n,
+g=nc-A^2,
+T=(n-A)^2-(n-1)g.
+```
+
+The matrix
+
+```text
+H=B(I-J/n)B^T
+```
+
+is PSD of rank at most `n-1`.  Its off-diagonal entries lie in
+`[-p,c-p]`; when `2A^2>=nc`, the endpoint chord for the square has
+nonpositive slope.  Positivity of `1^T H 1` and trace-rank give
+
+```text
+L <= floor((n-1)n^2(A-c)/(A*T))
+```
+
+whenever `g>=0` and `T>0`.
+
+For the MCA profile, each deficit threshold uses either its positive-Johnson
+cap or this mean-centered cap.  Raw caps need not be monotone across the
+transition, so the theorem uses the proved suffix closure
+
+```text
+B_h=min_(h<=v<=e) C_v
+```
+
+before applying the exact `floor(e/h)` owner weights.
+
+Exact evaluation pays 46 additional official supports:
+
+```text
+KoalaBear:   e<=64047, endpoint profile 181731868;
+Mersenne-31: e<=65454, endpoint profile  16101127.
+```
+
+At KoalaBear `e=64048`, `T=-1499457466`.  At Mersenne `e=65455`,
+all caps remain legal but the exact profile is
+`17120123>16777215`.
+
+```text
+start:                   c2bbbaa86
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream export head:    #1165 @ d4d65372; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved again to
+                         e<=64047/65454; official rows remain open
+full-lift residuals:     KoalaBear 64048<=e<=1044238;
+                         Mersenne 65455<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer arithmetic under RAMguard;
+                         no Modal
+next route action:       strengthen the post-Johnson profile beyond its
+                         PSD chord wall or exploit full-lift near-MDS
+                         extension structure
+```
+# Cycle 224: Mersenne next-cell Delsarte route screen (2026-08-13)
+
+The first unpaid mean-centered Mersenne support `e=65455` misses the MCA
+budget by only `342908`.  Its punctured explanation blocks have
+
+```text
+n=983127,       A=1999,       pair intersection <=5.
+```
+
+A preregistered Johnson-scheme Delsarte LP used the six possible distances
+`A-5,...,A`.  Exact dual-Hahn entries were built by integer term
+recurrence; only the final ratios were converted to floating point.  Each
+distance variable was bounded by the proved total list cap `16203700`.
+
+The initial 60-second run completed 541 of 1999 eigenspaces and returned the
+partial-relaxation optimum `16203700.200638048`, with no improvement.  One
+staged completion rerun was authorized.  It completed all 1999 rows and
+returned the same optimum:
+
+```text
+proved raw cap:       16203700
+full LP optimum:      16203700.200638048
+payment threshold:    15860792
+verdict:              NO SIGNAL
+```
+
+Thus the ordinary support-only Delsarte LP is weaker than the proved
+mean-centered cap and cannot pay the slope profile.  No exact dual is needed
+for this negative route screen; no theorem or DAG status changes.
+
+Modal runs:
+
+- partial: `ap-7CJw55he3qUkakWZSfvCnn`;
+- full: `ap-s1CgqT4b9VaKbStMrw8MHG`.
+
+```text
+start:                   67f22b780
+result:                  ROUTE CUT; support-only Delsarte gives no saving
+DAG delta:               none
+critical status delta:   none
+full-lift residuals:     unchanged
+delta-star movement:     none
+compute:                 two bounded Modal runs, 2 CPU / 1 GiB; no local
+                         heavy computation
+next route action:       retain information erased by binary support
+                         projection: slope ownership, explanation amplitudes,
+                         or the full-lift near-MDS extension
+```
+# Cycle 225: MCA terminal-deficit line payment (2026-08-13)
+
+The support-only Delsarte screen erased the slope data and gave no saving.
+Returning to slope ownership exposes a rigid exact endpoint layer.  At
+outside deficit `h=e`, an explanation has exactly `m-e` outside agreements,
+so a selected slope forces agreement on every coordinate of `E=supp(q)`.
+
+When `e>=K`, evaluation on `E` is injective for degree-`<K` codewords.
+Consequently, all exact-terminal explanations lie on one affine codeword
+line.  Outside `E`, their agreement sets are disjoint after deleting a
+common zero core of size at most `c=K-1`.  With
+
+```text
+n=N-e,       A=m-e,
+```
+
+the exact terminal layer therefore has size at most
+
+```text
+floor((n-c)/(A-c)).
+```
+
+For deficits below `e`, retain the preceding Johnson/mean-centered
+cumulative caps and take suffix minima only over the prefix `h<e`.  Adding
+the terminal line cap pays one new support in each official row:
+
+```text
+KoalaBear e=64048:   prefix 181326056 + line 287 = 181326343;
+Mersenne e=65455:    prefix  16100154 + line 493 =  16100647.
+```
+
+The next KoalaBear support has no cumulative cap at `h=e-1`.  The next
+Mersenne profile is valid but equals `17119507`, exceeding budget by
+`342292`.  Thus this is a clean one-cell structural gain, not a closure of
+the remaining middle-support interval.
+
+```text
+start:                   bb43a4db0
+canonical prize:         c8d48cd4b (no newer Fable commit at discovery)
+upstream export head:    #1165 @ bb9df40b; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         endpoint lemma
+DAG delta:               +1 PROVED node, +2 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 64049<=e<=1044238;
+                         Mersenne 65456<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer arithmetic under RAMguard;
+                         no Modal
+next route action:       control the last several high-deficit layers
+                         jointly, or retain full-lift near-MDS extension
+                         structure throughout the profile
+```
+# Cycle 226: MCA top-third affine-line branch close (2026-08-13)
+
+The terminal-deficit line argument extends separately to every exact layer
+`h=e-r` satisfying `e-3r>=K`.  An assigned explanation misses at most `r`
+exceptional agreement coordinates.  Any three explanations therefore share
+at least `e-3r` exceptional coordinates; restriction injectivity forces all
+pair directions to coincide, putting the exact layer on one affine codeword
+line.
+
+For
+
+```text
+s=floor((e-K)/3),       H=e-s-1,
+```
+
+the top `s+1` exact layers have unit slope-owner weight and caps
+
+```text
+L_r <= floor((N-e-(K-1))/(m-e+r-(K-1))).
+```
+
+The lower layers retain the punctured Johnson cumulative profile.  A
+conservative two-threshold bound gives
+
+```text
+prefix <= (e-1)J_floor(e/2)+J_H.
+```
+
+Across every official support `e<d`, monotonicity of the rational Johnson
+cap gives the uniform constants `31` and `47`.  Every affine-line summand
+is nondecreasing in `e`, so its total is maximal at `e=d-1`.  Exact endpoint
+sums yield
+
+```text
+KoalaBear:   31*(67472-2)+47+9405342 = 11496959;
+Mersenne-31: 31*(67448-2)+47+9405365 = 11496238.
+```
+
+Both fit their budgets.  This closes every remaining sparse-direction cell,
+not merely another adjacent support:
+
+```text
+KoalaBear residual:   67472<=e<=1044238;
+Mersenne residual:    67448<=e<=1044241.
+```
+
+The proof packet prints the necessary `N-m>s` outside-slack hypothesis.
+The primary verifier loops over endpoint summands; the independent audit
+uses quotient grouping and a sharp finite triple-overlap model.
+
+```text
+start:                   8466d6ad7
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream export head:    #1165 @ 0b7bedf7; import note posted to #1164
+result:                  BRANCH CLOSED + EXPORTED; one PROVED field-general
+                         compiler
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 67472<=e<=1044238;
+                         Mersenne 67448<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer arithmetic under RAMguard;
+                         no Modal
+next route action:       attack e>=d using the full-lift near-MDS extension
+                         structure rather than support-only list bounds
+```
+# Cycle 227: MCA full-lift common-core continuation (2026-08-13)
+
+The exact-layer affine-line mechanism survives beyond `e=d`.  What changes
+is that the highest possible deficit is `m` and the first few line layers
+can have at most `K-1` outside agreements, where the outside-core quotient
+is unavailable.
+
+On an affine explanation line `a_gamma=A+gamma p`, the coordinates agreeing
+for every parameter are exactly those where the base and direction pair
+`(A,b+p)` explains the received pair.  Pair noncontainment limits this total
+common core to `m-1`.  Off the core, agreement sets are disjoint, giving
+
+```text
+L <= N-m+1.
+```
+
+Use this cap when the exact outside agreement `A_r` is at most `K-1`, and
+the sharper outside-zero-core cap otherwise.  Combining the top-third
+layers with the Johnson prefix gives exact new walls
+
+```text
+KoalaBear:   e<=95943, endpoint bound 27414298;
+Mersenne-31: e<=67452, endpoint bound 16266965.
+```
+
+KoalaBear stops at `e=95944` because the prefix denominator at `H` is
+`-1037`.  Mersenne stops at `e=67453` with valid bound `17248067`, missing
+budget by `470852`.
+
+```text
+start:                   d195e43ea
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream export head:    #1165 @ 1913917f; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED
+                         full-lift/common-core compiler
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 95944<=e<=1044238;
+                         Mersenne 67453<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer scans under RAMguard;
+                         no Modal
+next route action:       replace the low-agreement prefix Johnson cap and
+                         seek a 470852 saving at the first unpaid Mersenne
+                         support
+```
+# Cycle 228: MCA full-lift global-line synchronization (2026-08-13)
+
+The preceding node priced each top-third exact-deficit layer separately.
+That is valid but unnecessarily weak.  If three explanations come from
+layers with missed-coordinate allowances `r_1,r_2,r_3<=s`, then
+
+```text
+|S_1 intersect S_2 intersect S_3|
+  >= e-(r_1+r_2+r_3)
+  >= e-3s
+  >= K.
+```
+
+Thus restriction injectivity synchronizes normalized pair directions across
+different layers.  The entire high-deficit union lies on one affine
+codeword line.  Its pair-noncontained total-core cap `N-m+1` is charged
+once.
+
+The resulting profile is
+
+```text
+|Z| <= (e-1)J_floor(e/2)+J_H+(N-m+1).
+```
+
+Exact scans pay
+
+```text
+KoalaBear:   e<=95943, endpoint 6336049;
+Mersenne-31: e<=97908, endpoint 6682339.
+```
+
+The next prefix denominators are `-1037` and `-965`.  Both rows now stop at
+the same clean proof-method wall rather than an over-budget exact profile.
+
+```text
+start:                   84b1ff8e2
+canonical prize:         c8d48cd4b (no newer Fable commit)
+result:                  NARROWED; one PROVED cross-layer compiler
+DAG delta:               +1 PROVED node, +2 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 95944<=e<=1044238;
+                         Mersenne 97909<=e<=1044241
+delta-star movement:     none
+compute:                 exact local integer scans under RAMguard;
+                         no Modal
+next route action:       replace the common low-agreement Johnson prefix
+                         at H while preserving the global-line high union
+export:                  przchojecki/rs-mca PR #1165 head 9c708e2f7;
+                         manuscript theorem, exact note, and verifier;
+                         PR #1164 import comment 5276361990
+```
+# Cycle 229: support-local transversality harvest (2026-08-13)
+
+The upstream sweep found PR #1166, a non-draft successor to our affine-span
+counterexample. It proves that the missing last normal factor is not the
+global direction-separation value `w`, but the exact actual-support margin
+
+```text
+theta=min(w+1,min_(gamma,b in C')
+                  |{x in S_gamma:r_1(x)!=b(x)}|).
+```
+
+Pair noncontainment guarantees only `theta>=1`. The corrected two-endpoint
+compiler pays complete shortened KoalaBear rows through explanation rank
+nine. At ranks ten through thirteen it gives least paying margins
+`4,49,757,11748` and hence actual direction-exception terminals
+`3,48,756,11747`.
+
+The same packet supplies a reversible arbitrary-error-rank gauge. Combined
+with the disjoint `2w=134944` near-rational charge, it pays the direct
+post-near KoalaBear family through error rank nine. Over-budget error ranks
+ten, eleven, and twelve emit exception ceilings `12,387,12049`; rank at
+least thirteen remains.
+
+This harvest also repairs two older node contracts. The common-core
+shortening theorem remains PROVED as an adapter, and the whole-line global
+core theorem remains PROVED as an identity-fiber structural router. Their
+former direction-separated `J_13/J_14` payment is retracted and retained
+only as arithmetic for the false candidate formula. Downstream nodes already
+repaired after the affine-span counterexample remain on their corrected
+contracts.
+
+```text
+start:                   62ef043e0
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream source:         przchojecki/rs-mca PR #1166
+                         af0e7c63b3d60873bf3fe2fc898edad85848deb5
+result:                  +2 PROVED replacement nodes; stale payment removed
+DAG delta:               +2 nodes, +6 edges
+critical status delta:   none; replacement target remains TARGET
+direct Koala frontier:   ranks <=9 paid; ranks 10..12 exact exception
+                         forests; rank >=13 explicit
+ledger movement:         zero
+compute:                 exact local integer/rational replay under RAMguard;
+                         no Modal
+upstream coordination:   #1165 dependency-update comment on #1166,
+                         issuecomment-5276362661
+next route action:       attack the rank-10 direction-exception-12 terminal
+                         and the common Johnson-prefix wall as competing
+                         route-deciding branches
+```
+# Cycle 230: full-lift mean-Gram/global-line profile (2026-08-13)
+
+The cross-layer global-line node stopped when the coarse Johnson cap at
+`H=e-floor((e-K)/3)-1` changed sign. The already-proved mean-centered Gram
+cap is legal at that exact boundary. Composing the full suffix-minimum
+prefix profile with the one-time high-union line charge gives
+
+```text
+|Z| <= sum_(h=1)^H (B_h-B_(h-1))*floor(e/h) + (N-m+1).
+```
+
+The exact profile, rather than the weaker two-threshold substitution, pays
+
+```text
+KoalaBear:   e<=96150, endpoint 479693401;
+Mersenne-31: e<=98229, endpoint 16488216.
+```
+
+At KoalaBear `e=96151`, the `H=64105` cap loses theorem legality with
+`T=-4625043784`. At Mersenne `e=98230`, every cap remains legal but the
+profile is `17415873`, over budget by `638658`. Neither is unsafe.
+
+```text
+start:                   ed3154d06
+canonical prize:         c8d48cd4b (no newer Fable commit)
+result:                  NARROWED; one PROVED composition node
+DAG delta:               +1 PROVED node, +4 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 96151<=e<=1044238;
+                         Mersenne 98230<=e<=1044241
+delta-star movement:     none
+compute:                 528 official supports and about 34 million
+                         constant-memory cap cells under RAMguard;
+                         no Modal
+next route action:       improve the Mersenne prefix profile by 638658 or
+                         replace the KoalaBear endpoint chord theorem;
+                         in parallel, attack rank-10 exception-12
+export:                  przchojecki/rs-mca PR #1165 head c09423b8b;
+                         manuscript corollary, exact note, and verifier;
+                         #1164 comment 5276545030;
+                         #1166 dependency comment 5276545038
+```
+# Cycle 231: M31 boundary-anchor case split (2026-08-13)
+
+The first unpaid Mersenne support was only `638658` above budget under the
+mean-Gram/global-line profile. Exact decomposition showed that its final
+boundary-layer increment alone costs `928560`.
+
+Put `q=e-K-3 floor((e-K)/3)`. When `q>=1`, split on the size of the
+already-synchronized top-third union `A`. If `|A|<=1`, charge the complete
+prefix through `H` and one tail explanation. If `|A|>=2`, use two members of
+`A` as anchors: every exact-`H` explanation has a mixed triple intersection
+of size at least `K+q-1>=K`, so the whole boundary layer joins the same
+affine line. This proves
+
+```text
+|Z| <= max(P_H+1,P_(H-1)+(N-m+1)).
+```
+
+At Mersenne `e=98230`, the two cases are `16434745` and `16487313`.
+The latter is below budget by `289902`. At `e=98231`, the same legal theorem
+gives `17492173`, over budget by `714958`; this is not unsafe.
+
+```text
+start:                   83fc2dd3a
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1166 @ af0e7c63b
+result:                  NARROWED; one PROVED boundary compiler
+DAG delta:               +1 PROVED node, +4 edges
+critical status delta:   none; replacement target remains TARGET
+full-lift residuals:     KoalaBear 96151<=e<=1044238;
+                         Mersenne 98231<=e<=1044241
+delta-star movement:     none
+compute:                 two exact 65k-cap endpoint replays under RAMguard;
+                         no Modal
+next route action:       attack the support-local rank-10 exception-12
+                         terminal, while screening whether a second M31
+                         boundary layer admits a stronger small-tail split
+export target:           extend existing przchojecki/rs-mca PR #1165
+```
+# Cycle 232: MCA rank-10 margin/interleaving split (2026-08-13)
+
+The support-local router left KoalaBear error rank ten with a direction-
+exception-12 terminal.  Treating that terminal globally was too weak: it
+asserted only that one low-margin support exists.  Instead split the whole
+rank-ten family at a freely chosen margin threshold `T`.
+
+The high-margin subfamily is paid by the proved support-local
+transversality theorem.  For a low-margin slope, choose a direction codeword
+with at most `T-1` exceptions.  The explanation and that direction form a
+two-fold common-support pair at agreement `A=m-T+1`.  The ordinary
+affine-span cap is sub-square-root in the official field, so the proved
+interleaving collapse bounds the number of such pairs.  For each fixed
+pair, pair noncontainment supplies an exception coordinate and the support
+equation recovers the slope, giving multiplicity at most `n-A`.
+
+Thus, for explanation rank `s`,
+
+```text
+|Z| <= 2w + max_(0<=r<=s) ST_r(T)
+          + (n-m+T-1) floor(C(n-K+s,s)/C(w-T+1+s,s)).
+```
+
+At KoalaBear error rank ten, `s=9`.  The exact optimum of this formula is
+`T=667`:
+
+```text
+high cap:  5143522968716559
+low cap:  56727790457914040
+near:                 134944
+total:      61871313426765543
+budget:    274980728111395087
+slack:     213109414684629544
+```
+
+The first paying threshold is already `T=16`, giving a robustness check.
+The same formula has minimum `1040506078215897711` at explanation rank ten,
+so it does not pay error rank eleven.
+
+```text
+start:                   18a009bbf
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1166 @ af0e7c63b
+result:                  NARROWED; one PROVED rank-10 payment
+DAG delta:               +1 PROVED node, +6 edges
+critical status delta:   none; replacement target remains TARGET
+direct Koala frontier:   error ranks <=10 paid; rank >=11 remains
+delta-star movement:     none
+compute:                 exact constant-memory scans under RAMguard;
+                         no Modal
+next route action:       seek new structure for error rank >=11 and continue
+                         the M31 full-lift boundary-layer route
+export target:           coordinate as a proved successor packet on #1166
+```
+# Cycle 233: M31 two-boundary-layer case split (2026-08-13)
+
+At the first residual Mersenne support `e=98231`, the division
+
+```text
+e-K=3s+q
+```
+
+has residue `q=2`.  This extra unit beyond the preceding residue-one close
+supports a complete second boundary-layer decomposition.
+
+- At least two top-third anchors synchronize both boundary layers, giving
+  `P_(H-2)+(N-m+1)`.
+- With one top anchor, two first-boundary members synchronize that layer.
+  Charge the top anchor separately and use the sharper outside-core line cap
+  `484`; if the layer has at most one member, charge it directly.
+- With no top anchor, either two boundary missed sets intersect, in which
+  case they synchronize the entire layer onto an outside-core line, or all
+  missed sets are pairwise disjoint and the layer has at most
+  `floor(e/(s+1))=3` members.
+
+The five exact cases are
+
+```text
+16486411, 16434204, 16433721, 16434203, 16433722.
+```
+
+Their maximum is below the Mersenne budget by `290804`.  At `e=98232`, the
+residue resets to zero, so the theorem stops cleanly without making an
+unsafe claim.
+
+```text
+start:                   c2c37ceb8
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1165 @ b04c8f1d
+result:                  NARROWED; one PROVED two-boundary payment
+DAG delta:               +1 PROVED node, +4 edges
+critical status delta:   none; replacement target remains TARGET
+Mersenne residual:       98232<=e<=1044241
+delta-star movement:     none
+compute:                 two exact 65k-cap replays under RAMguard;
+                         no Modal
+next route action:       attack the residue-zero boundary defect and the
+                         Koala full-lift chord wall
+export target:           extend przchojecki/rs-mca PR #1165
+```
+# Cycle 234: M31 residue-zero direction-class router (2026-08-13)
+
+At the first residual support `e=98232`, the residue resets to zero and the
+anchor synchronization used by the preceding two boundary closes no longer
+applies.  The exact boundary layer nevertheless has a sharp internal
+classification.
+
+Fix one boundary explanation.  Every other explanation determines a
+nonzero normalized codeword direction `p` that agrees with the gauged
+direction on at least
+
+```text
+A=2H-e=32746
+```
+
+coordinates.  Distinct directions have intrinsic agreement sets meeting in
+at most `K-1=5` coordinates.  The constant-block Johnson count therefore
+allows only three direction classes.  Each class and the anchor form a
+nonzero affine codeword line; outside-core packing caps that line at `484`.
+Subtracting the repeated anchor gives the exact boundary cap
+
+```text
+|D| <= 1+3(484-1)=1450.
+```
+
+The independently truncated prefix through `H-1` is `16432695`.  Hence an
+unsafe family would need at least `343071` slopes in the synchronized top
+line.  Line packing then forces that line's common core to have size at
+least `67452=m-2`.  This is a structural terminal, not a safety proof: the
+remaining task is to classify or pay affine lines with only two off-core
+agreements per member.
+
+```text
+start:                   8480282da
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1165 @ f771b92d
+result:                  NARROWED; one PROVED residue-zero router
+DAG delta:               +1 PROVED node, +5 edges
+critical status delta:   none; replacement target remains TARGET
+Mersenne residual:       98232<=e<=1044241
+residue-zero terminal:   unsafe => top line >=343071 and core >=m-2
+delta-star movement:     none
+compute:                 one exact 65k-cap replay under RAMguard; no Modal
+next route action:       classify the m-2 common-core line, including the
+                         one- and two-private-coordinate strata
+export target:           extend przchojecki/rs-mca PR #1165
+```
+# Cycle 235: M31 residue-zero core absorption payment (2026-08-13)
+
+The preceding router says that an unsafe family at `e=98232` must have at
+least `343071` slopes on the synchronized top affine line and total common
+core at least `m-2=67452`.  Since the line direction is a nonzero
+degree-`<6` codeword, at most five core coordinates lie outside the gauged
+direction support.  The inside common core therefore has size at least
+`67447`.
+
+Two top anchors now synchronize every selected explanation with inside
+agreement size
+
+```text
+h>=98232-67447+6=30791
+```
+
+onto that same affine line.  All remaining explanations have outside
+agreement at least `67454-30790=36664`.  The single cumulative punctured
+ordinary-Johnson cap at that agreement is `26`.  Charging each low
+explanation by the deliberately crude owner cap `e`, and the enlarged line
+once, gives the contradiction bound
+
+```text
+98232*26+981129=3535161<16777215,
+```
+
+with margin `13242054`.  Thus `e=98232` is safe and the Mersenne full-lift
+residual begins at `e=98233`.
+
+```text
+start:                   ec0729752
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1165 @ 785fb961
+result:                  NARROWED; one PROVED support payment
+DAG delta:               +1 PROVED node, +5 edges
+critical status delta:   none; replacement target remains TARGET
+Mersenne residual:       98233<=e<=1044241
+delta-star movement:     none
+compute:                 constant-size exact arithmetic under RAMguard;
+                         no Modal
+next route action:       test the same unsafe-core absorption compiler at
+                         e=98233 and locate its exact interval wall
+export target:           extend przchojecki/rs-mca PR #1165
+```
+# Cycle 236: M31 fixed-cutoff boundary-stack payment (2026-08-13)
+
+The one-support common-core argument extends to an interval theorem.  Fix
+the deficit cutoff `h0=65200`.  Use the independently truncated
+Johnson/mean-centered prefix below it.  For every exact layer through the
+top threshold, a normalized-direction Johnson count gives at most `J_h`
+direction classes, and outside-core packing prices each class line.  The
+remaining top union is one synchronized affine line.
+
+Exact replay pays all supports
+
+```text
+98232<=e<=101155.
+```
+
+Through `e=101149`, the prefix plus boundary stack plus the absolute line
+cap is already below budget.  For the final six supports, unsafety forces a
+large top-line core; that core absorbs the upper layers and one punctured
+ordinary-list cap pays the remainder.  At the endpoint,
+
+```text
+forcing charge: 16667033
+top threshold:     110183
+forced core:        67446
+low list cap:          28
+final bound:       3813469
+slack:            12963746.
+```
+
+At adjacent `e=101156`, the fixed-cutoff forcing charge is `16951223`, over
+budget by `174008`.  This is a method wall, not an unsafe certificate.
+
+```text
+start:                   008c55884
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1165 @ b5bae1a1
+result:                  NARROWED; one PROVED interval payment
+DAG delta:               +1 PROVED node, +5 edges
+critical status delta:   none; replacement target remains TARGET
+Mersenne residual:       101156<=e<=1044241
+delta-star movement:     none
+compute:                 one 56 MB Modal container for the final exact
+                         scan; full C replay takes one second under RAMguard
+next route action:       repair the fixed-cutoff wall at e=101156 or switch
+                         to a low-outside-agreement total-core compiler
+export target:           extend przchojecki/rs-mca PR #1165
+```
+# Cycle 237: M31 fixed-cutoff residue-two anchor repair (2026-08-13)
+
+The first support beyond the fixed-cutoff interval has residue `q=2`.
+That residue pays exactly the two units needed to synchronize both boundary
+layers with two top anchors.  Splitting by the number of top anchors, and
+then by whether first-boundary missed sets intersect, gives five exhaustive
+cases.
+
+At `e=101156`, the optimized fixed-cutoff charge is `16895280`.  Removing
+the first two boundary charges leaves `16352671`.  In the two-top case,
+unsafety would force at least `424545` members on the synchronized line,
+hence common core `67452=m-2`; the existing core-absorption theorem then
+gives the contradiction bound `3813497`.
+
+The remaining four cases replace the coarse first-boundary charge by either
+the outside-core line cap `94742`, the small cardinality cap one, or the
+pairwise-disjoint missed-set cap three.  Their largest bound is
+
+```text
+16705799 < 16777215,
+```
+
+with slack `71416`.  Thus `e=101156` is safe.  At adjacent `e=101157`, the
+residue resets to zero, so this repair stops there without claiming an
+unsafe certificate.
+
+```text
+start:                   4ed5eeb60
+canonical prize:         c8d48cd4b (no newer Fable commit)
+upstream frontier:       #1163-#1166; #1165 @ f2936369
+result:                  NARROWED; one PROVED support payment
+DAG delta:               +1 PROVED node, +5 edges
+critical status delta:   none; replacement target remains TARGET
+Mersenne residual:       101157<=e<=1044241
+delta-star movement:     none
+compute:                 constant-size exact arithmetic under RAMguard;
+                         no Modal
+next route action:       repair the residue-zero wall at e=101157 using a
+                         sharper boundary-class or top-size split
+export target:           extend przchojecki/rs-mca PR #1165
+```

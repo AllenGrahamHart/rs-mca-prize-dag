@@ -34,3 +34,7 @@ Coordinator line audit + independent replay, 2026-08-12 PR-sweep session.
    construction is globally affine, so it is a control for this
    adapter, and `d = m-k = 67472` here matches `w` there; `t = n-m =
    981104` equals the tangent atom `U_paid`, as upstream records.
+8. **2026-08-13 correction:** PR #1165 refuted the final transversality
+   factor behind the direction-separated `J_s` payment. PR #1166 replaces
+   it by the actual-support margin `theta`. The adapter, interface wall,
+   fixed-core `B_cell` wall, and Jo-transfer obstruction are unaffected.

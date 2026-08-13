@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1864,
+  "node": {
+    "id": "rate_half_mca_direction_support_affine_basis_payment",
+    "title": "Rate-half MCA direction-support affine-basis payment (refuted)",
+    "status": "REFUTED",
+    "closure": "exact GF(1009) counterexample",
+    "statement": "The asserted support-sensitive bound is false: the exact affine-span incidence counterexample has (R,d,K,r,e)=(99,20,1,1,80), 31 slopes, and claimed bound 22. Its numerator observation survives, but the inherited incident-basis denominator does not.",
+    "refs": [
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/statement.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/proof.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/audit.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/result.md",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/source_contract.json",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify.py",
+      "background/nodes/rate_half_mca_direction_support_affine_basis_payment/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5216}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1865,
+  "node": {
+    "id": "rate_half_mca_direction_support_common_zero_envelope",
+    "title": "Rate-half MCA direction-support common-zero envelope (refuted)",
+    "status": "REFUTED",
+    "closure": "exact GF(1009) counterexample",
+    "statement": "The asserted common-zero envelope is false: at (R,d,K,r,e)=(99,20,1,1,80) it gives 22 on an exact legal family of 31 slopes. The one-dimensional arithmetic optimization is valid only for the invalid inherited incidence expression.",
+    "refs": [
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/statement.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/proof.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/claim_contract.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/dependency_subdag.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/audit.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/result.md",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/source_contract.json",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/verify.py",
+      "background/nodes/rate_half_mca_direction_support_common_zero_envelope/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5217}
+  ],
+  "refutes": []
+}

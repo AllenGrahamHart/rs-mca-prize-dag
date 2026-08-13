@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1892,
+  "node": {
+    "id": "rate_half_mca_m31_fixed_cutoff_boundary_stack_payment",
+    "title": "Mersenne fixed-cutoff boundary-stack payment",
+    "status": "PROVED",
+    "closure": "fixed prefix plus exact boundary direction classes and unsafe-core absorption",
+    "statement": "For the Mersenne full-lift branch, fix deficit cutoff h0=65200, price every exact layer through H by a normalized-direction Johnson class count and outside-core line cap, and retain the synchronized top line. Exact replay pays 98232<=e<=101149 directly and 101150<=e<=101155 by unsafe-core absorption. The endpoint bound is 3813469<16777215; at e=101156 the fixed-cutoff forcing charge exceeds budget, so the residual begins there.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/result.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/scan_result.json",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/verify_scan.c",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_boundary_stack_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_residue_zero_direction_class_router", "order": 5284},
+    {"from": "rate_half_mca_full_lift_mean_centered_global_line_profile", "order": 5285},
+    {"from": "rate_half_mca_full_lift_top_third_common_core_payment", "order": 5286}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5287},
+    {"to": "rate_half_band_crossing_location", "order": 5288}
+  ],
+  "refutes": []
+}

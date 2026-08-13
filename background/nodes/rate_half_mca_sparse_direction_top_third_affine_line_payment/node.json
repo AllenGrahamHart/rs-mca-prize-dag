@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1881,
+  "node": {
+    "id": "rate_half_mca_sparse_direction_top_third_affine_line_payment",
+    "title": "Rate-half MCA sparse-direction top-third affine-line payment",
+    "status": "PROVED",
+    "closure": "exact-layer affine-line caps close every sparse-direction support",
+    "statement": "For exact outside deficit h=e-r with e-3r>=K, triple overlap and restriction injectivity force the entire selected explanation layer onto one affine codeword line. Outside-core packing caps every layer in the top third of deficits. Combining those caps with a conservative punctured-Johnson prefix proves every sparse-direction support e<d safe on both official MCA rows.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/statement.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/proof.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/audit.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/result.md",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify.py",
+      "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_direction_terminal_deficit_line_payment", "order": 5236},
+    {"from": "rate_half_mca_sparse_direction_punctured_johnson_profile", "order": 5237}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5238}
+  ],
+  "refutes": []
+}

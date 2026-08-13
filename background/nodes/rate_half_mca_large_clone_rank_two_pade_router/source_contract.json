@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-large-clone-rank-two-pade-router-v1",
+  "source": "rate_half_mca_large_clone_mobius_rank_one_router",
+  "rows": [
+    {"name": "KoalaBear MCA", "n": 2097152, "k": 1048576, "m": 1116048, "d": 67472, "wall": 1250992},
+    {"name": "Mersenne-31 MCA", "n": 2097152, "k": 1048576, "m": 1116024, "d": 67448, "wall": 1250920}
+  ],
+  "obstruction": [1, -1, 1],
+  "fixed_owner_denominator_degree_multiplier": 2,
+  "residuals": [
+    "MOVING_CLONE_BAND_M_TO_M_PLUS_2D",
+    "M_PLUS_2D_LOCATOR_REMAINDER",
+    "FIXED_DOUBLE_DENOMINATOR_OWNER"
+  ]
+}

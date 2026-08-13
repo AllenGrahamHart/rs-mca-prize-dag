@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1880,
+  "node": {
+    "id": "rate_half_mca_sparse_direction_terminal_deficit_line_payment",
+    "title": "Rate-half MCA sparse-direction terminal-deficit line payment",
+    "status": "PROVED",
+    "closure": "affine-codeword-line cap for the exact terminal deficit",
+    "statement": "A transformed explanation at exact outside deficit e must agree on every exceptional coordinate. Restriction injectivity forces all such explanations onto one affine codeword line; outside a common core of at most K-1 coordinates their agreement sets are disjoint. Combining this terminal cap with the preceding cumulative prefix profile expands the low-support walls to e<=64048 on KoalaBear and e<=65455 on Mersenne-31.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/statement.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/proof.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/audit.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/result.md",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify.py",
+      "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_direction_mean_centered_gram_profile", "order": 5234}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5235}
+  ],
+  "refutes": []
+}

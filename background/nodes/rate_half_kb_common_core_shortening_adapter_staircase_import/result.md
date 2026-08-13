@@ -4,9 +4,9 @@
   `(n,k,m) -> (n-c,k-c,m-c)`, slopes/badness/invariants preserved,
   PROVED (with the `c < k` non-affine clause cited from source).
 - Exact KoalaBear walls: degree-18 interface dies at `c = 4131`;
-  fixed-core cells fit only `s <= 2`; direction-separated boundary
-  between `J_13` and `J_14`; Jo transfer blocked by a 3765-bit exact
-  multiplier that telescopes.
+  fixed-core cells fit only `s <= 2`; Jo transfer is blocked by a 3765-bit
+  exact multiplier that telescopes. The old `J_13/J_14`
+  direction-separated payment is retracted; only its arithmetic remains.
 - Route cut RECORD: no chronology-correct whole-line selector exists in
   the active v4 source; zero ledger movement.
 - Replays: `verify.py` (walls, exact integers) PASS;

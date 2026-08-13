@@ -1,0 +1,44 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1856,
+  "node": {
+    "id": "rate_half_mca_whole_line_global_core_router",
+    "title": "Rate-half MCA whole-line global-core cancellation router",
+    "status": "PROVED",
+    "closure": "exact line-global cancellation and identity-fiber structural router",
+    "statement": "For any finite declared selected set of support-wise MCA-bad slopes on one Reed-Solomon received line, either all selected explanations are globally affine or the intersection C_* of all selected maximal agreement supports has size below k and can be cancelled once from the entire line. The resulting unique shortened row preserves every slope, actual same-support noncontainment, and the invariants m-k,n-k,n-m; the slope map is the identity with fiber one, so no sum over record-local cores occurs. This node makes no shortened-family payment claim; the former direction-separated 3<=s<=13 gate is retracted and corrected compilers consume the single residual separately.",
+    "refs": [
+      "background/nodes/rate_half_mca_whole_line_global_core_router/statement.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/proof.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/claim_contract.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/audit.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/result.md",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/source_contract.json",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/verify.py",
+      "background/nodes/rate_half_mca_whole_line_global_core_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+      "order": 5149
+    },
+    {
+      "from": "rate_half_mca_record_local_core_owner_noninvariance",
+      "order": 5150
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location",
+      "order": 5151
+    },
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router",
+      "order": 5210
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1863,
+  "node": {
+    "id": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+    "title": "Rate-half MCA sparse-direction heavy-fiber profile",
+    "status": "PROVED",
+    "closure": "cumulative deficit and ratio-fiber compiler",
+    "statement": "After a codeword direction gauge with support e<d and transformed explanation affine rank at most r, an explanation with outside-agreement deficit h owns at most floor(e/h) slopes. The number with deficit at most h is at most B_h=floor(C(R-e+r,r)/C(d-h+r,r)). Hence |Z| is at most sum_(h=1)^e (B_h-B_(h-1))floor(e/h). Exact evaluation expands the certified paid prefixes to e<=1407,89,5 at KoalaBear ranks 12,13,14 and e<=287,18,1 at Mersenne ranks 4,5,6.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/statement.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/proof.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/audit.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/result.md",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/verify.py",
+      "background/nodes/rate_half_mca_sparse_direction_heavy_fiber_profile/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_direction_affine_rank_payment", "order": 5170},
+    {"from": "upstream_gfv4_affine_span_list_compiler", "order": 5171}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5172}
+  ],
+  "refutes": []
+}

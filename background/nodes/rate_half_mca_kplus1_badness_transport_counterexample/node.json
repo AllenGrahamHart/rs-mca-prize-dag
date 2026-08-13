@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1851,
+  "node": {
+    "id": "rate_half_mca_kplus1_badness_transport_counterexample",
+    "title": "Rate-half MCA K-to-K+1 badness transport counterexample",
+    "status": "PROVED",
+    "closure": "construction",
+    "statement": "On one explicit deployed KoalaBear record, the received pair (u,v)=(1_E,X^k), slope 0, and an exact size-m support S give a support-wise MCA-bad witness for RS[F,D,k], while the identical slope and support are pair-contained for RS[F,D,k+1] because X^k enters the enlarged code. Thus silent K=k+1 prefix-envelope transport does not preserve actual degree-<k witness badness or first-owner semantics. Any repaired SEM-QBC or whole-line-selector adapter must retain and recheck the original degree and pair-noncontainment guards. A guarded adapter remains open.",
+    "refs": [
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/statement.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/proof.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/claim_contract.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/dependency_subdag.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/audit.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/result.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/lineage.md",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/source_contract.json",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/verify.py",
+      "background/nodes/rate_half_mca_kplus1_badness_transport_counterexample/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "mca_safe",
+      "order": 5142
+    }
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1855,
+  "node": {
+    "id": "rate_half_mca_record_local_core_owner_noninvariance",
+    "title": "Rate-half MCA record-local common-core owner noninvariance",
+    "status": "PROVED",
+    "closure": "exact finite counterexample",
+    "statement": "Over RS[GF(11),GF(11)^*,5] at agreement 7, two non-global-affine critical order-six records share one support-wise MCA-bad slope but have different intersections of their maximal agreement supports, {8,10} and {10}. Every displayed slope has a unique degree-<5 explanation on its exact seven-point maximal support and fails same-support pair containment. Thus the record-local common core is not a slope invariant and cannot by itself define disjoint fixed-core ownership. This is a route cut below the deployed row, not a refutation of every chronology-correct whole-line selector.",
+    "refs": [
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/statement.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/proof.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/claim_contract.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/dependency_subdag.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/audit.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/result.md",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/source_contract.json",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/verify.py",
+      "background/nodes/rate_half_mca_record_local_core_owner_noninvariance/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location",
+      "order": 5148
+    }
+  ],
+  "refutes": []
+}

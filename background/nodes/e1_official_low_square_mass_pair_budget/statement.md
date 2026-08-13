@@ -91,6 +91,38 @@ and `1133` cofactor values after all current necessary sieves. This does not
 count collisions, but it rules out a direct reuse of the former
 one-orbit-per-ideal-family strategy as a closing argument.
 
+Exact low-energy resultant analysis now excludes every abstract
+autocorrelation spectrum of energy at most four on the binding row. Hence
+every actual profile-`(4,4)` collision has `E>=5`, or conjugate-square
+variance `V>=10`. Combining that floor with the energy-adaptive product
+majorant forces
+
+```text
+m<=932364.
+```
+
+The exact local-norm frontier therefore contracts from `1133` to `657`
+cofactor values and the pure `2^20` branch disappears. Thirteen pure powers
+still remain, so this is not an orbit payment and the seven-orbit target is
+unchanged.
+
+A complete joint census of the four singleton positions further couples the
+local valuation to autocorrelation parity. On valuations
+`{3,5,6,9,10,12,17,18,20}` it forces `E>=6`, hence `V>=12` and the sharper
+branchwise ceiling `m<=853574`. This excludes twelve more cofactors, leaving
+an exact current frontier of `645` values. The refinement remains a norm
+classification, not a collision-orbit count.
+
+The complete next energy layer is also empty. Energy five has only two
+integer autocorrelation shapes; restricting their odd masks to those
+realized by four singleton positions leaves exactly `64808` signed spectra.
+Two independent exact resultant censuses find no integer official cofactor
+interval. Thus every collision has `E>=6` and `V>=12` globally, not only on
+the nine parity-forced valuations, and the current exact cofactor frontier is
+`608` values. Further energy-layer enumeration is not the selected closing
+route because even substantially larger energy floors leave hundreds of
+cofactors without controlling orbit multiplicity.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds

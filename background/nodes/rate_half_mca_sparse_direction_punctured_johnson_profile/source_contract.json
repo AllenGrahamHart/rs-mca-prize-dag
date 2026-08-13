@@ -1,0 +1,47 @@
+{
+  "schema": "rate-half-mca-sparse-direction-punctured-johnson-profile-v1",
+  "sources": {
+    "punctured_list_payment": "rate_half_mca_sparse_direction_punctured_list_payment",
+    "heavy_fiber_profile": "rate_half_mca_sparse_direction_heavy_fiber_profile"
+  },
+  "theorem": {
+    "johnson_denominator": "D_e=(m-e)^2-(N-e)(K-1)>0",
+    "cumulative_cap": "J_h=floor((N-e)(m-h-K+1)/((m-h)^2-(N-e)(K-1)))",
+    "profile": "sum_(h=1)^e (J_h-J_(h-1))*floor(e/h), with J_0=0",
+    "coarse_bound": "(e-1)J_floor(e/2)+J_e"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "last_paid_e": 63908,
+      "equivalent_defect_floor": 984668,
+      "denominator_at_last": 1218,
+      "denominator_at_next": -5924,
+      "half_index": 31954,
+      "johnson_at_half": 27,
+      "johnson_at_last": 2882094,
+      "coarse_bound_at_last": 4607583,
+      "coarse_maximizer": 63908
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "last_paid_e": 65236,
+      "equivalent_defect_floor": 983340,
+      "denominator_at_last": 2794,
+      "denominator_at_next": -1636,
+      "half_index": 32618,
+      "johnson_at_half": 28,
+      "johnson_at_last": 778863,
+      "coarse_bound_at_last": 2605443,
+      "coarse_maximizer": 65236
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1861,
+  "node": {
+    "id": "rate_half_mca_codeword_direction_gauge_rank_router",
+    "title": "Rate-half MCA codeword-direction gauge equivalence",
+    "status": "PROVED",
+    "closure": "field-general gauge equivalence and rank stability; incidence add-on retracted",
+    "statement": "For any codeword b, replacing (r_0,r_1,c_gamma) by (r_0,r_1-b,c_gamma-gamma b) preserves every selected slope, exact and maximal support, and same-support pair containment, while changing explanation affine rank by at most one. The former G3 affine-incidence bound and official rank walls are retracted after the exact affine-span incidence counterexample.",
+    "refs": [
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/claim_contract.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/audit.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/result.md",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/source_contract.json",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify.py",
+      "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5166},
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5211}
+  ],
+  "refutes": []
+}

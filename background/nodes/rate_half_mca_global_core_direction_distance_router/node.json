@@ -1,0 +1,40 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1858,
+  "node": {
+    "id": "rate_half_mca_global_core_direction_distance_router",
+    "title": "Rate-half MCA global-core direction-distance gate",
+    "status": "PROVED",
+    "closure": "field-general Johnson-ray gate and exact official prefixes",
+    "statement": "After whole-line global-core cancellation, the selected family obeys the direction-distance bound floor((R+s)(d-j)/(d^2-(R-2d)s-(R+s)j)) whenever its denominator is positive. Exact official defect prefixes run from j<=4340 at KoalaBear s=1 to j=0 at s=4982, and from j<=4337 at Mersenne s=1 to j=0 at s=4979. No affine-span payment or all-defect small-dimension claim remains.",
+    "refs": [
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/statement.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/proof.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/claim_contract.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/audit.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/result.md",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/source_contract.json",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/verify.py",
+      "background/nodes/rate_half_mca_global_core_direction_distance_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_whole_line_global_core_router",
+      "order": 5154
+    },
+    {
+      "from": "xr_direction_distance_ray_bound",
+      "order": 5156
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location",
+      "order": 5157
+    }
+  ],
+  "refutes": []
+}

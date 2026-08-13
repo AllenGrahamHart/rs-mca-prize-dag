@@ -1,0 +1,33 @@
+{
+  "schema": "rate-half-mca-global-core-direction-distance-gate-v2",
+  "sources": {
+    "whole_line_router": "rate_half_mca_whole_line_global_core_router",
+    "direction_distance": "xr_direction_distance_ray_bound"
+  },
+  "formula": {
+    "shortened_row": "(N,K,m)=(R+s,s,d+s)",
+    "radius": "t=R-d",
+    "direction_defect": "j=R-d_U(y_1)",
+    "denominator": "D_s(j)=d^2-(R-2d)s-(R+s)j",
+    "bound": "floor((R+s)(d-j)/D_s(j))",
+    "exact_paid_threshold": "min(d-1,floor((D_s(0)-1)/(R+s)),floor((((B+1)D_s(0)-(R+s)d)-1)/(B(R+s))))"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA", "R": 1048576, "d": 67472,
+      "budget": 274980728111395087, "direction_start_s": 1,
+      "direction_last_s": 4982, "start_threshold_j": 4340,
+      "last_threshold_j": 0, "maximum_paid_bound": 168818566,
+      "maximum_at_s": 1356, "maximum_at_j": 3156,
+      "positivity_spikes": []
+    },
+    {
+      "name": "Mersenne-31 MCA", "R": 1048576, "d": 67448,
+      "budget": 16777215, "direction_start_s": 1,
+      "direction_last_s": 4979, "start_threshold_j": 4337,
+      "last_threshold_j": 0, "maximum_paid_bound": 16131678,
+      "maximum_at_s": 1970, "maximum_at_j": 2617,
+      "positivity_spikes": [[620,3796,3795],[930,3525,3524],[1436,3083,3082],[1727,2829,2828],[1829,2740,2739],[2056,2542,2541],[2220,2399,2398],[2609,2060,2059],[3081,1649,1648],[3289,1468,1467],[3412,1361,1360],[3925,915,914],[4813,144,143]]
+    }
+  ]
+}

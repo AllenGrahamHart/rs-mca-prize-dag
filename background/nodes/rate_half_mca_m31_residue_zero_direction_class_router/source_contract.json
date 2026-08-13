@@ -1,0 +1,21 @@
+{
+  "schema": "rate-half-mca-m31-residue-zero-direction-class-router-v1",
+  "sources": {
+    "mean_centered_statement_sha256": "b1fa6c8ce0dfe3eca422dec52348346dae7d342a77c71ad685bcb88ef23f4632",
+    "mean_centered_proof_sha256": "523c35fc8eefa4d8ea9612b2bc6ecd48373af2e9d09e5791eacc441309f2308b",
+    "global_line_statement_sha256": "8d103c4c092961387fa02ee18ff851a084c0f7774c0b4b238d1e7fba42dbe02d",
+    "global_line_proof_sha256": "5abca3dd268f99b38c483fb12b22c9c7d91e0908b5a4ef389195b648651e3cb2",
+    "common_core_statement_sha256": "767b9a387abf3606d5ccb990846789b45afa92e3489a4c10169443a55a139edf",
+    "common_core_proof_sha256": "677c8378f7bf2f87dfc10a5340e3a0861a1124a3cc68e460e61bd42dc9c32c1d"
+  },
+  "theorem": "boundary<=1+J(Q-1); unsafe=>top>=343071=>core>=m-2",
+  "row": {
+    "R": 1048576, "d": 67448, "K": 6, "budget": 16777215,
+    "e": 98232, "s": 32742, "q": 0, "H": 65489,
+    "pair_agreement": 32746, "direction_classes": 3,
+    "outside_line_cap": 484, "boundary_cap": 1450,
+    "P_H_minus_1": 16432695, "prefix_plus_boundary": 16434145,
+    "top_threshold": 343071, "line_cap": 981129,
+    "forced_common_core": 67452, "m": 67454, "N": 1048582
+  }
+}

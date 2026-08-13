@@ -1,0 +1,65 @@
+{
+  "schema": "rate-half-mca-full-lift-top-third-global-line-payment-v1",
+  "sources": {
+    "per_layer_common_core": "rate_half_mca_full_lift_top_third_common_core_payment"
+  },
+  "theorem": {
+    "cross_layer_threshold": "r_i+r_j+r_k<=3*floor((e-K)/3)<=e-K",
+    "global_line_cap": "N-m+1",
+    "profile": "(e-1)J_floor(e/2)+J_H+(N-m+1)"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "first_new_e": 67472,
+      "first_total": 2937808,
+      "last_paid_e": 95943,
+      "last_s": 31976,
+      "last_H": 63966,
+      "last_u": 47971,
+      "last_J_u": 50,
+      "last_J_H": 557844,
+      "last_H_denominator": 5989,
+      "global_line_cap": 981105,
+      "last_prefix": 5354944,
+      "last_total": 6336049,
+      "max_total": 6336049,
+      "max_total_e": 95943,
+      "adjacent_e": 95944,
+      "adjacent_H": 63967,
+      "adjacent_H_denominator": -1037,
+      "residual_floor": 95944,
+      "residual_ceiling": 1044238
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "first_new_e": 67448,
+      "first_total": 2937136,
+      "last_paid_e": 97908,
+      "last_s": 32634,
+      "last_H": 65273,
+      "last_u": 48954,
+      "last_J_u": 52,
+      "last_J_H": 610046,
+      "last_H_denominator": 3391,
+      "global_line_cap": 981129,
+      "last_prefix": 5701210,
+      "last_total": 6682339,
+      "max_total": 6683188,
+      "max_total_e": 97907,
+      "adjacent_e": 97909,
+      "adjacent_H": 65274,
+      "adjacent_H_denominator": -965,
+      "residual_floor": 97909,
+      "residual_ceiling": 1044241
+    }
+  ]
+}

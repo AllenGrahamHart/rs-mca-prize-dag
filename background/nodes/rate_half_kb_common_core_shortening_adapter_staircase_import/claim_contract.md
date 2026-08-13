@@ -8,14 +8,15 @@
    two-directional containment transport, parameter invariants,
    two-cover identity), given `c < k`.
 2. The converse embedding of compatible shortened records.
-3. The four exact walls at the official KoalaBear row: interface drop
-   at `c = 4131`; `B_cell` failure first at `s = 3`; `J_13 < B_* <
-   J_14`; the 3765-bit Jo-transfer multiplier at `c = 4131` with exact
-   telescoping.
+3. The unaffected exact walls at the official KoalaBear row: interface
+   drop at `c = 4131`; `B_cell` failure first at `s = 3`; and the 3765-bit
+   Jo-transfer multiplier at `c = 4131` with exact telescoping. The
+   `J_13/J_14` crossing is retained only as arithmetic for a retracted
+   candidate formula.
 
 **Recorded (not claimed as theorems):** the missing chronology-correct
 whole-line selector; the residual labels
-`DIRECTION_LIST_SHORTENED_s` / `COMMON_CORE_SHORTENED_s_GE_14`;
+the corrected support-local exception terminals and large-rank residual;
 zero movement of `U_S`, `U_A`, `U_E`, and the global ledger.
 
 **Not claimed:** `c < k` in the non-affine case (cited upstream);

@@ -1,0 +1,40 @@
+{
+  "schema": "rate-half-mca-sparse-direction-punctured-list-payment-v1",
+  "sources": {
+    "global_direction_router": "rate_half_mca_global_core_direction_distance_router",
+    "ordinary_list_compiler": "upstream_gfv4_affine_span_list_compiler"
+  },
+  "theorem": {
+    "direction_residual": "q=r_1-b with b in C and |supp(q)|=e",
+    "range": "1<=e<d",
+    "punctured_row": "(N-e,s,m-e)=(R+s-e,s,d+s-e)",
+    "owner_multiplicity": "at most e slopes per punctured codeword",
+    "bound": "e*floor(binomial(R-e+s,s)/binomial(d-e+s,s))"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "budget": 274980728111395087,
+      "first_unpaid_s": 14,
+      "last_paid_e": 5,
+      "bound_last": 239567470186217925,
+      "first_unpaid_e": 6,
+      "bound_first_unpaid": 287536780021025682,
+      "equivalent_defect_floor": 1048571
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "budget": 16777215,
+      "first_unpaid_s": 6,
+      "last_paid_e": 1,
+      "bound_last": 14115447,
+      "first_unpaid_e": 2,
+      "bound_first_unpaid": 28233244,
+      "equivalent_defect_floor": 1048575
+    }
+  ]
+}

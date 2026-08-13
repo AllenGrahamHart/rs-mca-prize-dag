@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-kplus1-badness-counterexample-v1",
+  "canonical_dossier_commit": "c8d48cd4b94fb256ad9fedfc1d53b4b14c77bfad",
+  "upstream": {
+    "head": "e26c15b2d2c2f98ae12dda17b97c40981f76e1ff",
+    "note_blob": "9a3ea00b216ff16c32cfab0b2b7f8a179cb16ee7",
+    "python_verifier_blob": "57bfec727a3bf032236c7c0d3f5852c55fd526d9",
+    "sage_verifier_blob": "dbfabead1542e2297f3c8ea4e0ac58b503ecf8eb"
+  },
+  "row": {
+    "p": 2130706433,
+    "p_minus_1_factorization": {
+      "two_exponent": 24,
+      "odd_prime": 127
+    },
+    "pocklington_witnesses": {
+      "2": 3,
+      "127": 2
+    },
+    "n": 2097152,
+    "k": 1048576,
+    "m": 1116048,
+    "zeta": 1213133211,
+    "e": 67473,
+    "slope": 0,
+    "expected_e_plus_m": 1183521
+  }
+}

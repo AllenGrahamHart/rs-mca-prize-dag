@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1857,
+  "node": {
+    "id": "rate_half_mca_supportwise_affine_span_compiler",
+    "title": "Rate-half MCA support-wise affine-span compiler (refuted)",
+    "status": "REFUTED",
+    "closure": "exact GF(1009) counterexample",
+    "statement": "The claim that local pair noncontainment preserves the affine-span MCA incidence bound is false. Over RS[GF(1009),{0,...,99},1] at agreement 21, 31 direction-separated slopes have exact pair-noncontained maximal supports and explanations of affine rank one, while the asserted bound is 23. Local full incident rank does not imply the proper-subspace occupancy bound needed for the ordered-basis product. All small-dimension payments sourced from this node are retracted.",
+    "refs": [
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/statement.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/proof.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/audit.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/result.md",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/source_contract.json",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify.py",
+      "background/nodes/rate_half_mca_supportwise_affine_span_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5215}
+  ],
+  "refutes": []
+}

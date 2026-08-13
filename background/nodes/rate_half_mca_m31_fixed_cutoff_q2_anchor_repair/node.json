@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1893,
+  "node": {
+    "id": "rate_half_mca_m31_fixed_cutoff_q2_anchor_repair",
+    "title": "Mersenne fixed-cutoff residue-two anchor repair",
+    "status": "PROVED",
+    "closure": "five-case top-anchor and boundary missed-set repair",
+    "statement": "At Mersenne support e=101156, residue q=2 lets two top anchors synchronize the top two boundary layers, while zero/one-top cases price the first boundary by an outside line or a disjoint missed-set cap. Combining this with unsafe-core absorption gives five case bounds with maximum 16705799<16777215. The support is safe; adjacent e=101157 resets to residue zero.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/statement.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/proof.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/audit.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/result.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/provenance.md",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/source_contract.json",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/verify.py",
+      "background/nodes/rate_half_mca_m31_fixed_cutoff_q2_anchor_repair/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_fixed_cutoff_boundary_stack_payment", "order": 5289},
+    {"from": "rate_half_mca_m31_two_boundary_layer_case_split", "order": 5290},
+    {"from": "rate_half_mca_m31_residue_zero_core_absorption_payment", "order": 5291}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5292},
+    {"to": "rate_half_band_crossing_location", "order": 5293}
+  ],
+  "refutes": []
+}

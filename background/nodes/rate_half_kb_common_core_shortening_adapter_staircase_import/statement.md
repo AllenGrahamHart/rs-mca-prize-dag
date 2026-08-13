@@ -1,8 +1,7 @@
 # Common-core shortening adapter and the exact KoalaBear staircase walls
 
-- **status:** PROVED (the cancellation adapter theorem and every exact
-  wall below); the chronology route-cut framing is a RECORD, not a
-  theorem.
+- **status:** PROVED for the cancellation adapter and unaffected arithmetic
+  walls; the former direction-separated payment is RETRACTED.
 - **source:** upstream PR `#1163`
   `[MCA] Cut common-core shortening staircase` (scottdhughes), head
   `e26c15b2d`, stacked on `#1160` at `c5f4ea7a`; threshold note
@@ -69,9 +68,11 @@ and badness — "divide the core and declare it paid" is false.
    C(R+s, s+1)}` fits under `B_*` through `s = 2`
    (`B_cell(2) = 192154133857304576`) and first fails at `s = 3`
    (`B_cell(3) = 50372197381489643749376 > B_*`).
-3. **Direction-separated boundary.** `J_s = floor(prod_{i=0..s}
-   (R+i)/(d+i))` crosses `B_*` exactly between
-   `J_13 = 47876303026096432` and `J_14 = 743896698428332665`.
+3. **Retracted candidate boundary.** The legacy formula `J_s` crosses
+   `B_*` between the displayed `J_13` and `J_14`, but PR #1165's exact
+   counterexample and PR #1166's support-local repair prove that direction
+   separation does not justify this formula. These integers are retained
+   only as a negative-regression arithmetic record.
 4. **Jo transfer wall.** At the first degree-drop core `c = 4131`,
    `C(n,4131) > B_* C(m,4131)`; the ceiling of the double-counting
    multiplier `C(n,c)/C(m,c)` has 3765 bits (1134 decimal digits), and
@@ -79,11 +80,11 @@ and badness — "divide the core and declare it paid" is false.
    slope-preserving shortening transfer cannot pay the first uncovered
    core in frozen KoalaBear units.
 
-A fixed-family common-core terminal is therefore paid iff it is
-globally affine, or `s <= 2`, or (under direction separation)
-`3 <= s <= 13`; the honest residual labels are
-`DIRECTION_LIST_SHORTENED_s` (`3 <= s <= 13`, separation failing) and
-`COMMON_CORE_SHORTENED_s_GE_14`.
+This imported packet itself pays a fixed family only when it is globally
+affine or `s<=2`. The replacement support-local theorem is banked
+separately in `rate_half_mca_support_local_transversality_compiler`; it pays
+automatic full-rank shortened cells through `s=9` and emits exact exception
+terminals above that. No direction-separated `3<=s<=13` payment survives.
 
 ## Route cut (RECORD)
 

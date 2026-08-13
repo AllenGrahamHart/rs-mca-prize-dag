@@ -1,0 +1,49 @@
+{
+  "schema": "rate-half-mca-two-anchor-reserve-source-v1",
+  "canonical_dossier_commit": "c8d48cd4b94fb256ad9fedfc1d53b4b14c77bfad",
+  "upstream": {
+    "head": "e26c15b2d2c2f98ae12dda17b97c40981f76e1ff",
+    "grande_finale_blob": "5e0cb1bad6b40c4db39f6b4cb3e5316aebeafe2f",
+    "two_anchor_note_blob": "12bc4a0f06189829a9490928e4855d1aa958f940",
+    "shortening_note_blob": "65a308ac97912de3dfe637d8a10a2f84e3a19c47"
+  },
+  "old_exception_cap": 31,
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "n": 2097152,
+      "K": 1048576,
+      "m": 1116048,
+      "B_star": 274980728111395087,
+      "average_ceiling": 57198030366,
+      "expected": {
+        "w": 67472,
+        "two_w": 134944,
+        "combined_reserve": 134975,
+        "g_min": 1183521,
+        "target_g_min": 274980728110346481,
+        "target_full": 274980728111260112,
+        "full_average_quotient": 4807520,
+        "full_average_remainder": 53166107792
+      }
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "n": 2097152,
+      "K": 1048576,
+      "m": 1116024,
+      "B_star": 16777215,
+      "average_ceiling": 1752700,
+      "expected": {
+        "w": 67448,
+        "two_w": 134896,
+        "combined_reserve": 134927,
+        "g_min": 1183473,
+        "target_g_min": 15728609,
+        "target_full": 16642288,
+        "full_average_quotient": 9,
+        "full_average_remainder": 867988
+      }
+    }
+  ]
+}

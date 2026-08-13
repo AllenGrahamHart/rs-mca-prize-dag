@@ -1,0 +1,41 @@
+{
+  "schema": "rate-half-mca-m31-boundary-anchor-case-split-v1",
+  "sources": {
+    "mean_global_statement_sha256": "b1fa6c8ce0dfe3eca422dec52348346dae7d342a77c71ad685bcb88ef23f4632",
+    "mean_global_proof_sha256": "523c35fc8eefa4d8ea9612b2bc6ecd48373af2e9d09e5791eacc441309f2308b",
+    "top_third_statement_sha256": "8d103c4c092961387fa02ee18ff851a084c0f7774c0b4b238d1e7fba42dbe02d",
+    "top_third_proof_sha256": "5abca3dd268f99b38c483fb12b22c9c7d91e0908b5a4ef389195b648651e3cb2"
+  },
+  "theorem": "max(P_H+1,P_(H-1)+(N-m+1))",
+  "row": {
+    "name": "Mersenne-31 MCA",
+    "R": 1048576,
+    "d": 67448,
+    "K": 6,
+    "budget": 16777215,
+    "e": 98230,
+    "s": 32741,
+    "q": 1,
+    "H": 65488,
+    "line_cap": 981129,
+    "P_H": 16434744,
+    "P_H_breaks": 1671,
+    "B_H": 15059444,
+    "P_previous": 15506184,
+    "P_previous_breaks": 1670,
+    "B_previous": 14130884,
+    "small_tail_case": 16434745,
+    "two_anchor_case": 16487313,
+    "bound": 16487313,
+    "slack": 289902,
+    "adjacent_e": 98231,
+    "adjacent_q": 2,
+    "adjacent_P_H": 17492172,
+    "adjacent_P_previous": 16433719,
+    "adjacent_small_tail_case": 17492173,
+    "adjacent_two_anchor_case": 17414848,
+    "adjacent_bound": 17492173,
+    "adjacent_excess": 714958,
+    "residual_ceiling": 1044241
+  }
+}

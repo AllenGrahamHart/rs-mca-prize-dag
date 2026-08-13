@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1874,
+  "node": {
+    "id": "rate_half_mca_proper_subspace_occupancy_compiler",
+    "title": "Rate-half MCA proper-subspace occupancy compiler",
+    "status": "PROVED",
+    "closure": "corrected pair-noncontained affine-rank/support payment",
+    "statement": "For a pair-noncontained Reed-Solomon MCA slope family whose selected explanations have affine rank q, proper-subspace occupancy and direction coset support give the exact upper bound floor(max(A_q,B_q)/max(1,e-(N-m))). The final factor replaces the false unconditional w factor. It fully pays KoalaBear ranks at most 9 and Mersenne rank 1 at their first residual dimensions and gives exact higher-rank support walls.",
+    "refs": [
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/statement.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/proof.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/audit.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/result.md",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/source_contract.json",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify.py",
+      "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5218}
+  ],
+  "refutes": []
+}

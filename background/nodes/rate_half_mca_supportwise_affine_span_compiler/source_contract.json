@@ -1,0 +1,9 @@
+{
+  "schema": "rate-half-mca-supportwise-affine-span-compiler-refuted-v2",
+  "refuter": "rate_half_mca_affine_span_incidence_counterexample",
+  "field": 1009,
+  "row": [100, 1, 21, 20, 1],
+  "slopes": 31,
+  "claimed_bound": 23,
+  "failed_step": "local full incident rank does not imply the ordered-basis multiplicity"
+}

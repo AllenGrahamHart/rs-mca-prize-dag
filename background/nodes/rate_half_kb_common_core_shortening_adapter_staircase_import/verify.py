@@ -45,7 +45,7 @@ assert B_STAR - b_cell(2) == 82826594254090511
 assert b_cell(3) - B_STAR == 50371922400761532354289
 assert b_cell(2) <= B_STAR < b_cell(3)
 
-# 3. direction-separated boundary: J_13 < B_* < J_14
+# 3. historical candidate arithmetic: exact, but retracted as a payment
 
 
 def j_s(s):
@@ -75,5 +75,5 @@ for c1 in (1, 64, 2048):
     assert staged == Fraction(top, bot)
 
 print("KB_COMMON_CORE_STAIRCASE_WALLS_OK",
-      "c_wall=4131", "s_cell_fail=3", "J13<B*<J14",
+      "c_wall=4131", "s_cell_fail=3", "legacy_J13<B*<J14",
       "jo_bits=", mult.bit_length())

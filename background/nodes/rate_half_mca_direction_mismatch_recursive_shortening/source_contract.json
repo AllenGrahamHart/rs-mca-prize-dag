@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-direction-mismatch-recursive-shortening-v2",
+  "sources": {
+    "global_direction_gate": "rate_half_mca_global_core_direction_distance_router",
+    "cancellation_adapter": "rate_half_kb_common_core_shortening_adapter_staircase_import"
+  },
+  "recurrence": {
+    "minimum_lift_support": "|E|=R-j",
+    "witness_incidence_floor": "|S_gamma intersect E|>=d-j",
+    "child_parameters": "(R+s-1,s-1,d+s-1)",
+    "child_defect": "j_x<=j",
+    "step": "M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)) for 0<=j<d"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA", "R": 1048576, "d": 67472,
+      "budget": 274980728111395087, "base_s": 1, "base_max_j": 4340,
+      "extended_defects": 4341, "maximum_extension": 10,
+      "rank_regular_last_s": 4992,
+      "checkpoints": [[1,4340],[6,4340],[13,4338],[14,4337],[22,4330],[23,4329],[100,4262],[400,3999],[1000,3475],[2000,2602],[4000,861],[4982,9],[4983,8],[4990,2],[4992,0],[4993,-1]]
+    },
+    {
+      "name": "Mersenne-31 MCA", "R": 1048576, "d": 67448,
+      "budget": 16777215, "base_s": 1, "base_max_j": 4337,
+      "extended_defects": 4044, "maximum_extension": 1,
+      "rank_regular_last_s": 4979,
+      "checkpoints": [[1,4337],[5,4334],[6,4334],[7,4333],[10,4330],[14,4327],[100,4251],[400,3989],[1000,3464],[2000,2591],[4000,850],[4978,1],[4979,0],[4980,-1]]
+    }
+  ]
+}

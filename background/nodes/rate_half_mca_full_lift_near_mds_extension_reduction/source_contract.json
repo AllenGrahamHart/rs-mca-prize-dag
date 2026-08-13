@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-full-lift-near-mds-extension-reduction-v1",
+  "theorem": {
+    "extension": "W=C+span{r_1}",
+    "dimension": "K+1",
+    "first_weight": "d_1(W)=e",
+    "higher_weights": "d_j(W)=N-K+j-1 for 2<=j<=K+1",
+    "error_family": "full affine rank K+1 in one affine coset of W with unit slope fibers",
+    "local_guard": "restriction to every selected maximal zero set is injective"
+  },
+  "finite_controls": [
+    {"field": 7, "N": 6, "K": 2, "direction": "delta_0", "weights": [1, 5, 6]},
+    {"field": 7, "N": 6, "K": 2, "direction": "x_squared", "weights": [4, 5, 6]}
+  ],
+  "deployed": [
+    {"row": "KoalaBear MCA", "R": 1048576, "d": 67472, "K": 14, "budget": 274980728111395087, "max_e": 1048576, "mds_endpoint_bound": 743896698428332665, "required_last_factor": 182530},
+    {"row": "Mersenne-31 MCA", "R": 1048576, "d": 67448, "K": 6, "budget": 16777215, "max_e": 1048576, "mds_endpoint_bound": 219426634, "required_last_factor": 882143}
+  ]
+}

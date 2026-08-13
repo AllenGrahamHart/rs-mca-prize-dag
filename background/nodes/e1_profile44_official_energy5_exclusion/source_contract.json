@@ -1,0 +1,18 @@
+{
+  "schema": "e1-profile44-official-energy5-source-contract-v1",
+  "date": "2026-08-13",
+  "sources": [
+    {
+      "path": "background/nodes/e1_profile44_official_energy5_exclusion/notes/profile44_energy5_mask_orbits_modal.py",
+      "sha256": "62ae18a18063acc48cf61e4c2ace12653c7f639277991c3c803da2b04e1ccc45"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy5_exclusion/notes/profile44_energy5_realized_norm_census_modal.py",
+      "sha256": "9c5fd1b3f1ad0beb77bee395deb6b0c52ab8b13526943d94f345ab9727208bc6"
+    },
+    {
+      "path": "background/nodes/e1_profile44_official_energy5_exclusion/notes/profile44_energy5_realized_norm_audit_modal.py",
+      "sha256": "0324cc0ae81313a59e115fef83bfd41af3cadc0e8837b44712ecfbda05cf2d69"
+    }
+  ]
+}

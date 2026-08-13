@@ -1,0 +1,8 @@
+{
+  "schema": "rate-half-mca-direction-support-common-zero-envelope-refuted-v2",
+  "refuter": "rate_half_mca_affine_span_incidence_counterexample",
+  "parameters": {"R": 99, "d": 20, "K": 1, "r": 1, "e": 80},
+  "slopes": 31,
+  "claimed_bound": 22,
+  "failed_step": "optimized ratio has an invalid inherited denominator"
+}
