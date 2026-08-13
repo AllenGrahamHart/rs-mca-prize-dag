@@ -56,10 +56,15 @@ certificates required by the challenge.
   packing lower bound `142893`.  Splitting each subsequent selected line at
   actual core `e+10-65450` gives either weighted-prefix core absorption or a
   capped convex charge.  This pays `e=130222..130225`, with 14 lines on the
-  first two rows and 70 on the last two.  At `e=130226`, the initial forced
-  threshold is only 14 and has zero core lower bound; the capped compiler
-  eventually reaches threshold one, so the Mersenne full-lift residual now
-  starts there.
+  first two rows and 70 on the last two.  Retaining the exact layer of each
+  selected slot gives the sharper inside-core incidence bound
+  `u>=ceil((lambda*h-e)/(lambda-1))`.  Combining it with the capped branch
+  makes three selected lines violate pairwise inside-core packing throughout
+  `e=130226..130236`.  At adjacent `e=130237`, the useful bank forces only
+  size-two slots with inside core 807; the first-order packing expression has
+  maximum 65529 and the capped charge reaches threshold one.  The Mersenne
+  full-lift residual therefore starts at `e=130237`, with primitive
+  shift-pair control as the route-defining obstruction.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

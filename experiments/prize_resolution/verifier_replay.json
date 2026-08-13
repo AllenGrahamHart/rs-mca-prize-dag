@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_core_dichotomy_capped_charge_payment/verify.py",
-      "seconds": 1.270266,
+      "script": "background/nodes/rate_half_mca_m31_exact_layer_slot_core_packing_payment/verify.py",
+      "seconds": 2.490969,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-core-dichotomy-capped-charge: PASS (142 checks; mutations=4/4; paid=130222..130225; wall=130226)\n"
+      "stdout_tail": "m31-exact-layer-slot-core-packing: PASS (237 checks; mutations=4/4; paid=130226..130236; wall=130237)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_core_dichotomy_capped_charge_payment/verify_audit.py",
-      "seconds": 0.031597,
+      "script": "background/nodes/rate_half_mca_m31_exact_layer_slot_core_packing_payment/verify_audit.py",
+      "seconds": 0.028897,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-core-dichotomy-capped-charge-audit: PASS (723 checks; exact rational replay)\n"
+      "stdout_tail": "m31-exact-layer-slot-core-packing-audit: PASS (193 checks; exact rational replay)\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

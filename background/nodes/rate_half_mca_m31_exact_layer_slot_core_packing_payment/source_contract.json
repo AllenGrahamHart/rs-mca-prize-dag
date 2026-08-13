@@ -1,0 +1,37 @@
+{
+  "schema": "rate-half-mca-m31-exact-layer-slot-core-packing-v1",
+  "sources": {
+    "dichotomy_statement_sha256": "2b3f5b24ad800aac4dba4896181b832ea43c1376791b1310eec9fbdeacf2647e",
+    "dichotomy_proof_sha256": "ebfb312ad8d7b97df1af97169560f42f4b24e990b6b3d81a2816cec2347dca5a",
+    "recursive_statement_sha256": "53db2ab106c93d6e21e2b7ac5673509a099d36262478144616946b5eb630784e",
+    "recursive_proof_sha256": "1b9f6621104164183d6b83815f9e4c9766c36e7b212c51faba36ce2ad95dce1b"
+  },
+  "theorem": "exact-layer line-slot incidence forces inside common core",
+  "absorption_cutoff": 65450,
+  "rows": [
+    {"e": 130226, "cutoff": 65516, "prefix": 12404722, "groups": 342025, "base": 12064635, "core_cap": 64785, "absorption_bound": 5161243, "threshold": 14, "inside_core": 60540, "charge": 737, "target": 16776478, "core_budget": 129570, "packing": 181605},
+    {"e": 130227, "cutoff": 65516, "prefix": 12404167, "groups": 1217008, "base": 11189097, "core_cap": 64786, "absorption_bound": 5161221, "threshold": 5, "inside_core": 49340, "charge": 737, "target": 16776478, "core_budget": 129572, "packing": 148005},
+    {"e": 130228, "cutoff": 65517, "prefix": 12958915, "groups": 342446, "base": 12618406, "core_cap": 64787, "absorption_bound": 5161211, "threshold": 13, "inside_core": 60126, "charge": 737, "target": 16776478, "core_budget": 129574, "packing": 180363},
+    {"e": 130229, "cutoff": 65517, "prefix": 12958300, "groups": 1305245, "base": 11654992, "core_cap": 64788, "absorption_bound": 5161190, "threshold": 4, "inside_core": 43948, "charge": 738, "target": 16776477, "core_budget": 129576, "packing": 131829},
+    {"e": 130230, "cutoff": 65518, "prefix": 13573258, "groups": 342865, "base": 13232329, "core_cap": 64789, "absorption_bound": 5161180, "threshold": 11, "inside_core": 59048, "charge": 738, "target": 16776477, "core_budget": 129578, "packing": 177129},
+    {"e": 130231, "cutoff": 65518, "prefix": 13572575, "groups": 1412234, "base": 12162277, "core_cap": 64790, "absorption_bound": 5161158, "threshold": 4, "inside_core": 43949, "charge": 738, "target": 16776477, "core_budget": 129580, "packing": 131832},
+    {"e": 130232, "cutoff": 65519, "prefix": 14258109, "groups": 343295, "base": 13916749, "core_cap": 64791, "absorption_bound": 5161148, "threshold": 9, "inside_core": 57431, "charge": 738, "target": 16776477, "core_budget": 129582, "packing": 172278},
+    {"e": 130233, "cutoff": 65520, "prefix": 15027192, "groups": 301252, "base": 14727874, "core_cap": 64792, "absorption_bound": 5161126, "threshold": 7, "inside_core": 54736, "charge": 739, "target": 16776476, "core_budget": 129584, "packing": 164193},
+    {"e": 130234, "cutoff": 65520, "prefix": 15026344, "groups": 343725, "base": 14684553, "core_cap": 64793, "absorption_bound": 5161117, "threshold": 7, "inside_core": 54736, "charge": 739, "target": 16776476, "core_budget": 129586, "packing": 164193},
+    {"e": 130235, "cutoff": 65521, "prefix": 15895144, "groups": 301391, "base": 15595686, "core_cap": 64794, "absorption_bound": 5161095, "threshold": 4, "inside_core": 43951, "charge": 739, "target": 16776476, "core_budget": 129588, "packing": 131838},
+    {"e": 130236, "cutoff": 65521, "prefix": 15894179, "groups": 344160, "base": 15551952, "core_cap": 64795, "absorption_bound": 5161085, "threshold": 4, "inside_core": 43951, "charge": 739, "target": 16776476, "core_budget": 129590, "packing": 131838}
+  ],
+  "adjacent": {
+    "e": 130237, "cutoff": 65521, "prefix": 15893203,
+    "groups": 1933560, "base": 13961576, "core_cap": 64796,
+    "absorption_bound": 5161064, "first_threshold": 2,
+    "inside_core": 807, "max_packing": 65529,
+    "wall_lines": 7583, "core_budget": 143903917,
+    "lower_sum": 6119481, "full_caps": 2153, "remainder": 16119,
+    "charge": 882245, "target": 15894970, "next_threshold": 1
+  },
+  "census": {
+    "first_e": 130226, "last_e": 130236, "adjacent_e": 130237,
+    "paid": 11, "lines_per_paid_row": 3, "residual_ceiling": 1044241
+  }
+}
