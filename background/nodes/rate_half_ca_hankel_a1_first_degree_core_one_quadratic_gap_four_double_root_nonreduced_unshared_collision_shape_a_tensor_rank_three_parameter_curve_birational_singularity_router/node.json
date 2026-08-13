@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router",
+    "title": "A=1 shape-A tensor-rank-three birational singularity router",
+    "status": "PROVED",
+    "closure": "rank three forces a degree-m birational parameter curve with six quantified singular vertices",
+    "statement": "Retain an official Shape-A all-excess survivor of tensor separation rank three. In a minimal representation G=sum_(j=0)^2 A_j(t)B_j(X), the basepoint-free parameter map a:P^1->C_a subset P^2 has map degree d and image degree c with m=dc. The exact excess and padding sums imply that at most one slope in Gamma has no actual U_0 incidence. Every active slope lies in a complete reduced degree-d fiber of the normalization map, so d divides either 3e or 3e-1. Since d also divides m=e-2 and the official m is coprime to both 3e and 3e-1, d=1 and c=m. Thus a is the normalization of a rational plane curve of degree m. For the four-row frame, the six pair overlaps equal the branch counts at the six distinct vertices cut out by the corresponding four coefficient lines. Their sum is at least e-8=m-6, so one vertex has at least 30541989660 branches, its local delta invariant is at least 466406566180502462970, and the six vertices contribute total delta at least 2798439396930304829525. This routes, but does not exclude, rank three.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pure_split_component_floor"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
