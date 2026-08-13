@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify.py",
-      "seconds": 0.017602,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/verify.py",
+      "seconds": 0.019164,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_RESIDUE_PAIRING_PASS form_rank=4 restricted_rank=2 combined_rank=5 toy_kappa=0 official_boundary=183251937960 mutations=5/5\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_GLOBAL_SOURCE_MULTIPLIER_PASS toy_e3=9 toy_rows=9/9 official_e3=274877906946 official_orthogonal=549755813884 intersection_floor=183251937960 mutations=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify_audit.py",
-      "seconds": 0.016682,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/verify_audit.py",
+      "seconds": 0.015192,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_RESIDUE_PAIRING_AUDIT_PASS kappa_boundary=183251937960 zero_kappa_floor=152709948302\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_GLOBAL_SOURCE_MULTIPLIER_AUDIT_PASS algebra=824633720830 multiplier=274877906946 orthogonal=549755813884\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
