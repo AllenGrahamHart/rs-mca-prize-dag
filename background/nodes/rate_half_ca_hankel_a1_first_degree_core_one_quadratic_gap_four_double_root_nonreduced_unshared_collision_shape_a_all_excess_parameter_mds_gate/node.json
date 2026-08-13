@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate",
+    "title": "A=1 shape-A all-excess parameter-MDS gate",
+    "status": "PROVED",
+    "closure": "exact 4e-column global compatibility matrix for every off-line residual fiber",
+    "statement": "For each Shape-A off-line slope delta write G(delta,X)=D_delta(X)C_delta(X), where the known monic factor D_delta=A_delta R_delta has degree n-a_delta and the nonzero residual block C_delta=zeta_delta H_delta has at most a_delta+1 coefficients. Convolving these blocks with D_delta and applying every dual RS parity on the 3e slope set gives an explicit matrix K_all. Its kernel is exactly the set of all-fiber data that interpolate to one biform of bidegree at most (e-2,(3e-7)/2). The exact excess sum makes K_all have 4e columns, 733007751852 officially; a valid Shape-A vector has every polynomial block nonzero and recovers q_delta from its block degree. The e=7 cyclic analogue and 100 degree-preserving perturbations are full rank in two fields, as evidence only.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

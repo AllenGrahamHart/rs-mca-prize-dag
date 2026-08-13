@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/verify.py",
-      "seconds": 0.029128,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify.py",
+      "seconds": 0.27452,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_SCALAR_WELD_RESIDUAL_MDS_FLAG_PASS cases=4 parities=22 rows=108\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_PARAMETER_MDS_GATE_PASS histograms={337: {28: 50}, 421: {28: 50}}\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/verify_audit.py",
-      "seconds": 0.018024,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_audit.py",
+      "seconds": 0.01749,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_SCALAR_WELD_RESIDUAL_MDS_FLAG_AUDIT_PASS degrees=[2, 1, 0] first=[1, 1, 1]\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_PARAMETER_MDS_GATE_AUDIT_PASS checks=35\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
