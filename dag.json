@@ -29393,7 +29393,7 @@
    "title": "Rate-half MCA global-core rank/support replacement target",
    "status": "TARGET",
    "closure": "rank/common-zero regression; replacement theorem required",
-   "statement": "The former affine-rank and common-zero payments remain retracted. A corrected proper-subspace occupancy theorem now pays all supports through affine rank 9 on KoalaBear and rank 1 on Mersenne and supplies exact high-support walls through the penultimate ranks. The printed middle-support intervals, especially the top-rank cells, still require payment.",
+   "statement": "The former affine-rank and common-zero payments remain retracted. A corrected proper-subspace occupancy theorem pays all supports through affine rank 9 on KoalaBear and rank 1 on Mersenne and supplies exact higher-rank walls. A full-explanation lifted-rank dichotomy splits each top cell into a gauge-drop branch inheriting the penultimate-rank wall and a full-lift branch retaining the recursive wall. The printed middle-support intervals still require payment.",
    "refs": [
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
@@ -29556,6 +29556,24 @@
     "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/source_contract.json",
     "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify.py",
     "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
+   "title": "Rate-half MCA full-explanation lifted-rank gauge dichotomy",
+   "status": "PROVED",
+   "closure": "top explanation rank split into exact rank-drop and full-lift branches",
+   "statement": "For a pair-noncontained selected MCA family of full explanation affine rank K, the lifted slope/explanation rank is K or K+1. In lifted rank K an affine hyperplane of codeword gauges drops explanation rank exactly to K-1; in lifted rank K+1 no codeword gauge drops rank. The error-vector affine rank equals the lifted rank. The drop branch inherits high-support walls e>=992852 on KoalaBear and e>=1037876 on Mersenne-31.",
+   "refs": [
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/statement.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/proof.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/audit.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/result.md",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/source_contract.json",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/verify.py",
+    "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/verify_audit.py"
    ]
   },
   {
@@ -65762,6 +65780,21 @@
   },
   {
    "from": "rate_half_mca_proper_subspace_occupancy_compiler",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_proper_subspace_occupancy_compiler",
+   "to": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
    "to": "rate_half_mca_global_core_rank_support_distance_router",
    "kind": "ev"
   },

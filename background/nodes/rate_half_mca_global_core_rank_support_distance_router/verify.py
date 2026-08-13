@@ -8,7 +8,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "23bc61f62d22df52a13a61c9f532feaa7580fafcfd176af92d216048607afd60"
+CONTRACT_SHA256 = "247ab253f17d84a8e2085dcab4ddedac442f8555c0280f48c1174039f1e2f178"
 
 
 class Reject(ValueError):
@@ -16,7 +16,7 @@ class Reject(ValueError):
 
 
 def validate(contract: object) -> int:
-    if not isinstance(contract, dict) or contract.get("schema") != "rate-half-mca-global-core-rank-support-replacement-target-v3":
+    if not isinstance(contract, dict) or contract.get("schema") != "rate-half-mca-global-core-rank-support-replacement-target-v4":
         raise Reject("schema")
     if contract.get("status") != "TARGET" or contract.get("refuter") != "rate_half_mca_affine_span_incidence_counterexample":
         raise Reject("status")
@@ -48,6 +48,20 @@ def validate(contract: object) -> int:
                for _, threshold in row["conditional"]):
             raise Reject("residual interval")
         checks += 1
+    split = {
+        "KoalaBear MCA": (14, 5, 14, 992852, 15, 1044239),
+        "Mersenne-31 MCA": (6, 1, 6, 1037876, 7, 1044242),
+    }
+    for row in contract["top_rank_split"]:
+        values = tuple(row[key] for key in (
+            "q", "low_e", "drop_lifted_rank", "drop_high_e",
+            "full_lifted_rank", "full_high_e"
+        ))
+        if values != split.get(row["row"]):
+            raise Reject("top-rank split")
+        if not row["low_e"] < row["drop_high_e"] < row["full_high_e"]:
+            raise Reject("top-rank wall order")
+        checks += 1
     return checks
 
 
@@ -56,7 +70,7 @@ if hashlib.sha256(CONTRACT.read_bytes()).hexdigest() != CONTRACT_SHA256:
 contract = json.loads(CONTRACT.read_text())
 checks = validate(contract)
 changed = copy.deepcopy(contract)
-changed["replacement_walls"][0]["conditional"][2][1] += 1
+changed["top_rank_split"][0]["drop_lifted_rank"] += 1
 try:
     validate(changed)
 except Reject:

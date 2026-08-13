@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify.py",
-      "seconds": 0.025388,
+      "script": "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify.py",
+      "seconds": 0.023623,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_PROPER_SUBSPACE_OCCUPANCY_COMPILER_PASS checks=11 mutations=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_GLOBAL_CORE_RANK_SUPPORT_REPLACEMENT_TARGET_PASS gates=6 mutations=1/1\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify_audit.py",
-      "seconds": 0.036698,
+      "script": "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify_audit.py",
+      "seconds": 0.017887,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_PROPER_SUBSPACE_OCCUPANCY_COMPILER_AUDIT_PASS zero_normal_cases=616 walls=8 regression=471 toy_selections=540\n"
+      "stdout_tail": "RATE_HALF_MCA_GLOBAL_CORE_RANK_SUPPORT_REPLACEMENT_TARGET_AUDIT_PASS gates=2 replacement_walls=8 top_splits=2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

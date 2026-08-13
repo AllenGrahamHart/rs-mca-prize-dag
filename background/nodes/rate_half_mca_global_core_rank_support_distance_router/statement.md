@@ -28,7 +28,8 @@ KoalaBear s=14:
   q=11: e<=5 or e>=981153;
   q=12: e<=5 or e>=981861;
   q=13: e<=5 or e>=992852;
-  q=14: e<=5 or e>=1044239.
+  q=14, lifted rank h=14: e<=5 or e>=992852;
+  q=14, lifted rank h=15: e<=5 or e>=1044239.
 
 Mersenne s=6:
   q=1: all e;
@@ -36,12 +37,17 @@ Mersenne s=6:
   q=3: e<=1 or e>=981363;
   q=4: e<=1 or e>=984779;
   q=5: e<=1 or e>=1037876;
-  q=6: e<=1 or e>=1044242.
+  q=6, lifted rank h=6: e<=1 or e>=1037876;
+  q=6, lifted rank h=7: e<=1 or e>=1044242.
 ```
 
-Here `q` is the affine rank of the selected explanations.  For the top-rank
-cells the following extremal gates still come from the independent sparse
-and recursive suppliers:
+Here `q` is the affine rank of the selected explanations and `h` is the
+affine rank of the lifted pairs `(gamma,c_gamma)`, equivalently the error
+affine rank.  The full-explanation lifted-rank dichotomy proves that these
+are the only top-rank branches.  In the `h=q` branch a codeword gauge drops
+the explanation rank to `q-1`, giving the improved occupancy suffix; in the
+`h=q+1` branch no gauge drops rank.  The top-rank low prefixes and full-lift
+suffixes still come from the independent sparse and recursive suppliers:
 
 ```text
 KoalaBear at s=14:  e<=5 by punctured-list payment,
@@ -56,9 +62,9 @@ sparse-direction theorem must be evaluated at its own exact row.
 
 ## Target
 
-Pay the displayed residual support intervals, especially the top-rank cells,
-without reusing the refuted ordered-basis denominator.  Any further
-replacement must continue to distinguish:
+Pay the displayed residual support intervals, especially the full-lift
+top-rank cells, without reusing the refuted ordered-basis denominator.  Any
+further replacement must continue to distinguish:
 
 1. local incident full rank;
 2. multiplicity in each proper normal subspace; and

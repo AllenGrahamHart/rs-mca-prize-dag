@@ -34,3 +34,10 @@ At top rank the required final factors exceed the maximum possible factors,
 so the independent recursive suffix remains the best proved high-support
 gate.  Combining these disjoint exact suppliers gives the residual intervals
 printed in `statement.md`.
+
+The full-explanation lifted-rank theorem then separates the top cell.  If
+the lifted slope/explanation rank is `K`, a codeword gauge drops explanation
+rank to `K-1`; direction coset support is gauge invariant, so the
+penultimate-rank occupancy wall applies.  If lifted rank is `K+1`, no
+codeword gauge drops rank and the original recursive suffix remains.  This
+gives the two top-rank rows printed in the target.

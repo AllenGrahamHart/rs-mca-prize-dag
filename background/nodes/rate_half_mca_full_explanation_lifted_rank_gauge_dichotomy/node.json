@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1875,
+  "node": {
+    "id": "rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy",
+    "title": "Rate-half MCA full-explanation lifted-rank gauge dichotomy",
+    "status": "PROVED",
+    "closure": "top explanation rank split into exact rank-drop and full-lift branches",
+    "statement": "For a pair-noncontained selected MCA family of full explanation affine rank K, the lifted slope/explanation rank is K or K+1. In lifted rank K an affine hyperplane of codeword gauges drops explanation rank exactly to K-1; in lifted rank K+1 no codeword gauge drops rank. The error-vector affine rank equals the lifted rank. The drop branch inherits high-support walls e>=992852 on KoalaBear and e>=1037876 on Mersenne-31.",
+    "refs": [
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/statement.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/proof.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/claim_contract.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/dependency_subdag.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/audit.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/result.md",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/source_contract.json",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/verify.py",
+      "background/nodes/rate_half_mca_full_explanation_lifted_rank_gauge_dichotomy/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_codeword_direction_gauge_rank_router", "order": 5219},
+    {"from": "rate_half_mca_proper_subspace_occupancy_compiler", "order": 5220}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5221}
+  ],
+  "refutes": []
+}
