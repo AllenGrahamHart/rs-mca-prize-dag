@@ -52,9 +52,13 @@ the rank placement on an explicit finite block family.
 ```text
 start:                   b3e4f267d
 canonical prize:         c8d48cd4b (no newer Fable commit)
-result:                  NARROWED; one PROVED field-general compiler
+upstream export head:    #1165 @ 07546f90; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved again to
+                         e<=64037/65418; official rows remain open
 full-lift residuals:     KoalaBear 64038<=e<=1044238;
                          Mersenne 65419<=e<=1044241
 delta-star movement:     none
