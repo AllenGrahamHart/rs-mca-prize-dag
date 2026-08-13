@@ -36,7 +36,12 @@ certificates required by the challenge.
   intermediate layer by normalized direction classes.  It pays all 2,924
   supports through `e=101155`: directly through `101149`, then by core
   absorption for six rows.  The endpoint bound is `3813469`; the Mersenne
-  full-lift residual now starts at the fixed-cutoff wall `e=101156`.
+  full-lift residual reaches the fixed-cutoff wall `e=101156`.  There the
+  residue `q=2` synchronizes both boundary layers in the two-top case;
+  zero/one-top cases use the outside-core line cap or pairwise-disjoint
+  missed sets.  The largest of five exhaustive bounds is
+  `16705799<16777215`, so `e=101156` is also paid and the residual now
+  starts at the residue-zero support `e=101157`.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
