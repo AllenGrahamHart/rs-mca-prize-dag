@@ -1,0 +1,39 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+    "title": "A=1 shape-A locator-interpolation syzygy rank amplification",
+    "status": "PROVED",
+    "closure": "every Shape-A split biform has separation rank at least (e+1)/2",
+    "statement": "For every h of X-degree at most n=R-(3e-2)-2, dual-RS interpolation of the primitive locator gives a triple (T_alpha(h),T_beta(h),T_theta(h)) in the restricted Koszul kernel of V^3->S_e. On either source class of size n+2, the projected map has matrix E_B^T D E_n with ranks r and n+1 and invertible diagonal D, so Sylvester gives projection rank at least r-1. Since the Koszul kernel has dimension 3r-(e+1), one gets 3r-(e+1)>=r-1 and hence r>=(e+1)/2=91625968982 officially. At equality the Koszul kernel has dimension r. Thus the former one-third boundary and its two syzygy profiles are excluded.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

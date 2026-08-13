@@ -49,20 +49,22 @@ c_3=r-1-K_2+c_1,
 max(0,2r-e)<=c_1<=floor(K_2/2).                    (CSB6)
 ```
 
-At the minimum official rank
+At the earlier three-source-class rank bound
 
 ```text
 r_0=61083979322,       K_2=2,                      (CSB7)
 ```
 
-there are exactly two profiles:
+there are exactly two conditional profiles:
 
 ```text
 (c_1,c_2,c_3)=(1,0,61083979320),
 (c_1,c_2,c_3)=(0,2,61083979319).                   (CSB8)
 ```
 
-If the common source-Gram matrix is nonzero, only profiles with `c_1>0`
+These two profiles are excluded by the later locator-interpolation rank
+amplification. If the common source-Gram matrix is nonzero, only profiles
+with `c_1>0`
 can survive. More quantitatively,
 
 ```text
@@ -71,7 +73,7 @@ c_1>=max(0,2r-(n+2)).                              (CSB9)
 
 ## Scope
 
-The theorem classifies the coefficient syzygy bundle but does not exclude
-either minimum-rank profile or the higher-rank profiles. A closing argument
-must use split-fiber or Hankel information to eliminate the permitted
-degree-one through degree-three splitting types.
+The theorem classifies the coefficient syzygy bundle. The displayed former
+boundary profiles are now excluded, but the higher-rank profiles remain. A
+closing argument must use split-fiber or Hankel information to eliminate
+the permitted degree-one through degree-three splitting types.

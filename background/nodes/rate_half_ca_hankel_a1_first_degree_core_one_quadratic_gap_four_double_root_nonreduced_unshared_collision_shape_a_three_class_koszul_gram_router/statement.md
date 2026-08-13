@@ -68,14 +68,15 @@ im K subset abc J,
 max(0,2r-(n+2))<=k<=dim J.                         (KGR9)
 ```
 
-Officially, the minimum allowed rank `r=61083979322` has
+At the earlier three-source-class rank bound `r=61083979322`, one has
 `dim ker Phi=2`. If
 
 ```text
 r>=137438953472,                                   (KGR10)
 ```
 
-then `K` is forced nonzero.
+then `K` is forced nonzero. The later locator-interpolation theorem raises
+the live rank floor to `91625968982`.
 
 ## Scope
 

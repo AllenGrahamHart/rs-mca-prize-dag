@@ -36258,3 +36258,56 @@ critical status effect:  none
 The next local proof target is nonvanishing or rank control for the common
 source-Gram matrix at the lower part of the live interval, followed by
 split-fiber exclusion of the permitted syzygy profiles.
+# Cycle 283: rate-half Shape-A locator-interpolation rank amplification (2026-08-13)
+
+The primitive locator has `n+1` exact `X`-interpolation parity checks. After
+the three-source-class row decomposition, every check is a restricted
+Koszul syzygy. Projection to either class of size `n+2` has rank at least
+`r-1` by Sylvester's inequality.
+
+```text
+dim Koszul kernel=3r-(e+1)>=r-1,
+r>=(e+1)/2=91625968982.
+```
+
+```text
+former floor:          61083979322 [excluded]
+new floor:             91625968982
+new boundary kernel:   91625968982
+live rank interval:    [91625968982,e-1]
+critical status effect:none
+hostile mutations:     7/7
+```
+
+The next rank improvement requires controlling the common kernel of the
+three classwise interpolation maps, or proving that their combined map is
+closer to injective than one projection alone detects.
+# Cycle 284: rate-half Shape-A live syzygy and small-class defect (2026-08-13)
+
+The locator-interpolation projection and the inverse prolongation squeeze
+the complete live syzygy profile:
+
+```text
+c_1=2r-e,
+c_2=e-r-1,
+c_3=0,
+S_1V=S_(e-1).
+```
+
+At the new lower boundary the unique profile is
+
+```text
+(1,91625968980,0).
+```
+
+For each of the two source classes of size `n+2`, the interpolation map has
+exact rank `r-1`. Its one-dimensional left kernel is a unique projective
+form `B_gamma` in the common domain coefficient space, with values
+
+```text
+B_gamma(x)=kappa_gamma eta_x
+ L_Mgamma'(x)L_rest,gamma(x)^2.
+```
+
+The next exclusion target is compatibility of the two defect forms with
+the split-row locator data and collision/Hankel equations.
