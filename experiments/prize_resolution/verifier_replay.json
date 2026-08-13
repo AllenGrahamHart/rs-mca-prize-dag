@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify.py",
-      "seconds": 0.033254,
+      "script": "background/nodes/rate_half_mca_full_lift_top_third_common_core_payment/verify.py",
+      "seconds": 29.167798,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TOP_THIRD_AFFINE_LINE_PAYMENT_PASS checks=38 mutations=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_TOP_THIRD_COMMON_CORE_PAYMENT_PASS checks=28509 mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify_audit.py",
-      "seconds": 0.027152,
+      "script": "background/nodes/rate_half_mca_full_lift_top_third_common_core_payment/verify_audit.py",
+      "seconds": 0.086799,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TOP_THIRD_AFFINE_LINE_PAYMENT_AUDIT_PASS checks=26 mutations=1/1\n"
+      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_TOP_THIRD_COMMON_CORE_PAYMENT_AUDIT_PASS checks=43 mutations=1/1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

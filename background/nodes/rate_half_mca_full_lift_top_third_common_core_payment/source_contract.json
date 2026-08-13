@@ -1,0 +1,73 @@
+{
+  "schema": "rate-half-mca-full-lift-top-third-common-core-payment-v1",
+  "sources": {
+    "near_mds_reduction": "rate_half_mca_full_lift_near_mds_extension_reduction",
+    "top_third_lines": "rate_half_mca_sparse_direction_top_third_affine_line_payment"
+  },
+  "theorem": {
+    "layer_range": "max(0,e-m)<=r<=floor((e-K)/3)",
+    "total_core_cap": "N-m+1",
+    "outside_cap": "floor((N-e-(K-1))/(m-e+r-(K-1))) when m-e+r>K-1",
+    "profile": "(e-1)J_floor(e/2)+J_H+sum_r Q_r"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "first_new_e": 67472,
+      "first_total": 12343147,
+      "last_paid_e": 95943,
+      "last_s": 31976,
+      "last_H": 63966,
+      "last_u": 47971,
+      "last_A_u": 19515,
+      "last_A_H": 3520,
+      "last_J_u": 50,
+      "last_J_H": 557844,
+      "last_H_denominator": 5989,
+      "last_line_sum": 22059354,
+      "last_prefix": 5354944,
+      "last_total": 27414298,
+      "max_line_sum": 24121368,
+      "max_line_sum_e": 67486,
+      "adjacent_e": 95944,
+      "adjacent_H": 63967,
+      "adjacent_H_denominator": -1037,
+      "adjacent_total": null,
+      "residual_floor": 95944,
+      "residual_ceiling": 1044238
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "first_new_e": 67448,
+      "first_total": 12342448,
+      "last_paid_e": 67452,
+      "last_s": 22482,
+      "last_H": 44969,
+      "last_u": 33726,
+      "last_A_u": 33728,
+      "last_A_H": 22485,
+      "last_J_u": 29,
+      "last_J_H": 44,
+      "last_H_denominator": 500669575,
+      "last_line_sum": 14310842,
+      "last_prefix": 1956123,
+      "last_total": 16266965,
+      "max_line_sum": 14310842,
+      "max_line_sum_e": 67452,
+      "adjacent_e": 67453,
+      "adjacent_H": 44970,
+      "adjacent_H_denominator": 500624611,
+      "adjacent_total": 17248067,
+      "residual_floor": 67453,
+      "residual_ceiling": 1044241
+    }
+  ]
+}
