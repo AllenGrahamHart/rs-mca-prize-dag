@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1900,
+  "node": {
+    "id": "rate_half_mca_m31_interpolation_common_factor_router",
+    "title": "Mersenne interpolation common-factor router",
+    "status": "PROVED",
+    "closure": "coprime interpolation surfaces exclude the first size-two line-bank wall",
+    "statement": "At Mersenne full-lift support e=130237, form the weight-(1,5,5), degree-264 interpolation kernel on the gauged support. It has dimension at least 938. Every selected affine explanation line has an inside core of at least 807 and therefore gives a common F(X)-rational zero of this kernel. The capped bank still forces a 2705th distinct line, while two coprime kernel members have Y,Z-degree at most 52 and hence at most 2704 common zeros by affine Bezout. Thus every unsafe family forces the entire interpolation kernel to have a common factor of positive Y,Z-degree over the algebraic closure of F(X).",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/statement.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/proof.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/audit.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/result.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/provenance.md",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/source_contract.json",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify.py",
+      "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_exact_layer_slot_core_packing_payment", "order": 5320},
+    {"from": "rate_half_mca_m31_core_dichotomy_capped_charge_payment", "order": 5321}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5322},
+    {"to": "rate_half_band_crossing_location", "order": 5323}
+  ],
+  "refutes": []
+}

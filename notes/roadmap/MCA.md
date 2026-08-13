@@ -63,8 +63,14 @@ certificates required by the challenge.
   `e=130226..130236`.  At adjacent `e=130237`, the useful bank forces only
   size-two slots with inside core 807; the first-order packing expression has
   maximum 65529 and the capped charge reaches threshold one.  The Mersenne
-  full-lift residual therefore starts at `e=130237`, with primitive
-  shift-pair control as the route-defining obstruction.
+  full-lift residual therefore starts at `e=130237`.  At that support, the
+  weight-`(1,5,5)` degree-264 interpolation kernel has dimension at least
+  938.  The bank still forces 2,705 distinct polynomial-pair cores, whereas
+  two coprime kernel surfaces have at most `52^2=2704` common pairs by
+  affine Bezout.  Thus the coprime branch is paid: every unsafe survivor
+  forces a positive-`(Y,Z)`-degree common interpolation factor.  Classifying
+  and charging that factor, without assuming it is automatically a split
+  pencil, is the route-defining obstruction.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

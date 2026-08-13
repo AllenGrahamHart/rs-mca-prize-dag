@@ -1,0 +1,38 @@
+{
+  "schema": "rate-half-mca-m31-interpolation-common-factor-router-v1",
+  "sources": {
+    "exact_layer_statement_sha256": "49726ff8bffe0799bf9ed6899bc7b93922edc30a015a119352a778f55a17d29b",
+    "exact_layer_proof_sha256": "352bfe7fa4576e32c19181ab9abce30f6133bb6c144a820a08f3216d026d1e4c",
+    "dichotomy_statement_sha256": "2b3f5b24ad800aac4dba4896181b832ea43c1376791b1310eec9fbdeacf2647e",
+    "dichotomy_proof_sha256": "ebfb312ad8d7b97df1af97169560f42f4b24e990b6b3d81a2816cec2347dca5a"
+  },
+  "row": {
+    "e": 130237,
+    "cutoff": 65521,
+    "minimum_layer": 65522,
+    "minimum_line_size": 2,
+    "inside_core_lower": 807,
+    "actual_core_cap": 64796,
+    "base": 13961576,
+    "groups": 1933560,
+    "removed_before_forcing": 2704,
+    "forced_distinct_lines": 2705,
+    "core_budget": 18416037,
+    "lower_sum": 2182128,
+    "full_caps": 253,
+    "remainder": 44692,
+    "charge": 132203,
+    "target": 16645012,
+    "next_threshold": 2
+  },
+  "interpolation": {
+    "weights": [1, 5, 5],
+    "weighted_degree": 264,
+    "monomials": 131175,
+    "kernel_dimension_lower": 938,
+    "value_total_degree": 52,
+    "bezout_cap": 2704,
+    "root_count": 807
+  },
+  "conclusion": "unsafe implies a common factor of positive YZ degree over algebraic closure of F(X)"
+}

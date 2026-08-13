@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_exact_layer_slot_core_packing_payment/verify.py",
-      "seconds": 2.490969,
+      "script": "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify.py",
+      "seconds": 0.038156,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-exact-layer-slot-core-packing: PASS (237 checks; mutations=4/4; paid=130226..130236; wall=130237)\n"
+      "stdout_tail": "m31-interpolation-common-factor-router: PASS (83 checks; mutations=5/5; kernel>=938; coprime_cap=2704; forced=2705)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_exact_layer_slot_core_packing_payment/verify_audit.py",
-      "seconds": 0.028897,
+      "script": "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify_audit.py",
+      "seconds": 0.027038,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-exact-layer-slot-core-packing-audit: PASS (193 checks; exact rational replay)\n"
+      "stdout_tail": "m31-interpolation-common-factor-router-audit: PASS (1452 checks; independent monomial and charge replay)\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
