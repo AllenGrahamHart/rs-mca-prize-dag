@@ -8,4 +8,5 @@
   and plane delta-genus branch accounting.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 50 of draft PR `przchojecki/rs-mca#1161`,
+  commit `da8a6f1`, review comment `issuecomment-5283621509`.
