@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1894,
+  "node": {
+    "id": "rate_half_mca_m31_boundary_line_bank_absorption_payment",
+    "title": "Mersenne boundary-line-bank absorption payment",
+    "status": "PROVED",
+    "closure": "direction-class line-bank pigeonhole and unsafe-core absorption",
+    "statement": "Keeping every exact-layer direction class as an affine-line slot gives |Z|<=C_e+sum_i |L_i|. Unsafe pigeonhole forces one large line, whose common core absorbs all high-deficit explanations. Exact replay pays every Mersenne full-lift support 101157<=e<=124805; endpoint bound 16706559<16777215. Adjacent e=124806 is a method wall, not unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/result.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_m31_boundary_line_bank_absorption_payment/verify_scan.c"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_fixed_cutoff_boundary_stack_payment", "order": 5294},
+    {"from": "rate_half_mca_m31_residue_zero_core_absorption_payment", "order": 5295},
+    {"from": "rate_half_mca_m31_fixed_cutoff_q2_anchor_repair", "order": 5296}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5297},
+    {"to": "rate_half_band_crossing_location", "order": 5298}
+  ],
+  "refutes": []
+}

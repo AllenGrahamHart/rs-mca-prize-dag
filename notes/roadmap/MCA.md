@@ -41,7 +41,13 @@ certificates required by the challenge.
   zero/one-top cases use the outside-core line cap or pairwise-disjoint
   missed sets.  The largest of five exhaustive bounds is
   `16705799<16777215`, so `e=101156` is also paid and the residual now
-  starts at the residue-zero support `e=101157`.
+  reaches the residue-zero support `e=101157`.  Retaining every subsequent
+  normalized direction class as an affine-line slot gives a global line
+  bank.  Unsafety forces one slot large enough for common-core absorption.
+  A constant-memory replay pays all `23,649` supports through `e=124805`;
+  the endpoint bound is `16706559` with slack `70656`.  At `e=124806` the
+  same legal compiler gives `16831491`, so the Mersenne full-lift residual
+  now starts there.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
