@@ -7,4 +7,5 @@
   tensor contraction, and one-/two-dimensional dual-RS defect spaces.
 - **Compute:** integer and dimension replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 56 of draft PR `przchojecki/rs-mca#1161`,
+  commit `97f3287`, review comment `issuecomment-5284221983`.
