@@ -30067,6 +30067,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_linear_factor_projective_star_router",
+   "title": "Mersenne linear-factor projective-star router",
+   "status": "PROVED",
+   "closure": "a linear interpolation factor is forced to be an F-rational projective star",
+   "statement": "At Mersenne full-lift support e=130237, suppose the full common interpolation factor has Y,Z degree one. Write its primitive form as A(X)Y+B(X)Z+C(X). The at least 4982 captured degree-five polynomial pairs force gcd(A,B)=1 and deg A,deg B<=5. They parameterize by a polynomial t of degree at most s=5-max(deg A,deg B). If max(deg A,deg B)>=1, ordinary Johnson at agreement 807 caps the t-list by 802, contradiction. Hence A and B are constants. The factor and its captured affine explanation lines are F-rational and share one projective slope-codeword center: finite when A is nonzero, at infinity when A=0. Thus the first-support residual splits into the existing primitive-star problem and factors of Y,Z degree at least two.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/statement.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/proof.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/audit.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/result.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/provenance.md",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/source_contract.json",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify.py",
+    "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66785,6 +66804,26 @@
   },
   {
    "from": "rate_half_mca_m31_common_factor_mass_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_common_factor_mass_router",
+   "to": "rate_half_mca_m31_linear_factor_projective_star_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_linear_factor_projective_star_router",
+   "to": "x4_primitive_star_u1_coverage",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_linear_factor_projective_star_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_linear_factor_projective_star_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

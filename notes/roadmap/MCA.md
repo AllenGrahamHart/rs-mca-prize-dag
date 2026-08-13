@@ -75,7 +75,12 @@ certificates required by the challenge.
   at least 126,188 of the 130,237 inside coordinates.  Classifying and
   charging this low-degree factor with at most 4,049 inside exceptions,
   without assuming it is automatically a split pencil, is the route-
-  defining obstruction.
+  defining obstruction.  The degree-one branch is now classified: a linear
+  factor with nonconstant value coefficients parameterizes an ordinary
+  degree-at-most-four RS list and is capped at 802, below the 4,982 captured
+  sections.  Hence every linear survivor has constant value coefficients and
+  is an `F`-rational projective star.  The first-support residual splits into
+  primitive-star coverage and common-factor degree at least two.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

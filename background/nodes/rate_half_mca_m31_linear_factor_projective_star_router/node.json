@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1902,
+  "node": {
+    "id": "rate_half_mca_m31_linear_factor_projective_star_router",
+    "title": "Mersenne linear-factor projective-star router",
+    "status": "PROVED",
+    "closure": "a linear interpolation factor is forced to be an F-rational projective star",
+    "statement": "At Mersenne full-lift support e=130237, suppose the full common interpolation factor has Y,Z degree one. Write its primitive form as A(X)Y+B(X)Z+C(X). The at least 4982 captured degree-five polynomial pairs force gcd(A,B)=1 and deg A,deg B<=5. They parameterize by a polynomial t of degree at most s=5-max(deg A,deg B). If max(deg A,deg B)>=1, ordinary Johnson at agreement 807 caps the t-list by 802, contradiction. Hence A and B are constants. The factor and its captured affine explanation lines are F-rational and share one projective slope-codeword center: finite when A is nonzero, at infinity when A=0. Thus the first-support residual splits into the existing primitive-star problem and factors of Y,Z degree at least two.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/statement.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/proof.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/audit.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/result.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/provenance.md",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/source_contract.json",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify.py",
+      "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_common_factor_mass_router", "order": 5328}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "x4_primitive_star_u1_coverage", "order": 5329},
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5330},
+    {"to": "rate_half_band_crossing_location", "order": 5331}
+  ],
+  "refutes": []
+}

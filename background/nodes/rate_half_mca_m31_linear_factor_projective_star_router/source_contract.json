@@ -1,0 +1,22 @@
+{
+  "schema": "rate-half-mca-m31-linear-factor-projective-star-router-v1",
+  "sources": {
+    "mass_router_statement_sha256": "df2bcaa8c2577970c1e39b867787c0d311b7daa7679f4e0ecce053a6eb0963d8",
+    "mass_router_proof_sha256": "8015bbe6671ef8a68d056a6ebb71c87bcc119844f1ce550b302a3cfd630432d0"
+  },
+  "row": {
+    "e": 130237,
+    "inside_agreement": 807,
+    "captured_sections": 4982,
+    "section_degree": 5
+  },
+  "johnson": [
+    {"parameter_degree": 0, "denominator": 651249, "cap": 161},
+    {"parameter_degree": 1, "denominator": 521012, "cap": 201},
+    {"parameter_degree": 2, "denominator": 390775, "cap": 268},
+    {"parameter_degree": 3, "denominator": 260538, "cap": 401},
+    {"parameter_degree": 4, "denominator": 130301, "cap": 802},
+    {"parameter_degree": 5, "denominator": 64, "cap": 1632032}
+  ],
+  "conclusion": "linear factor has constant YZ coefficients and an F-rational projective star center"
+}
