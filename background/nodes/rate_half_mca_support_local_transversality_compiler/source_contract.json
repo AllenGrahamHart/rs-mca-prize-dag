@@ -1,0 +1,32 @@
+{
+  "schema": "rate-half-mca-support-local-transversality-compiler-v1",
+  "source": {
+    "pr": 1166,
+    "head": "af0e7c63b3d60873bf3fe2fc898edad85848deb5",
+    "note_sha256": "5d2da358edee72853057c8d6a68bddaae2e134baba932941ef56b6258abd1f85",
+    "verifier_sha256": "96cbec1a0a76e7ccf8ae93b7aa2b49f5e9608c6079b932ce61b0ff8625fe8c23",
+    "manuscript_sha256": "658b53857f9532feef85e54e7cdbfb829ce6f143c36a88bd0a23ec09197badaf"
+  },
+  "theorem": {
+    "margin": "theta=min(w+1,min_(gamma,b in C') |{x in S_gamma:r1(x)!=b(x)}|)",
+    "lower_bound": 1,
+    "first_endpoint": "n_fall_(s+1)/(m*theta*(w+1)_rise_(s-1))",
+    "second_endpoint": "(n-K+s)_fall_(s+1)/(theta*(w+1)_rise_s)"
+  },
+  "koalabear_shortened": {
+    "R": 1048576,
+    "d": 67472,
+    "budget": 274980728111395087,
+    "theta_one_caps": {
+      "8": 3566101912297072,
+      "9": 55413538236037195,
+      "10": 861057176799343503
+    },
+    "least_paying_theta": {
+      "10": 4,
+      "11": 49,
+      "12": 757,
+      "13": 11748
+    }
+  }
+}

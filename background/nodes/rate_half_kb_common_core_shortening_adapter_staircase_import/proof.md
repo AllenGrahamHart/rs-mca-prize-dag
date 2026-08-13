@@ -50,8 +50,9 @@ embeds into common-core records.
    minimum at `s <= 3`; exact values `549756338176`,
    `192154133857304576` (under `B_*`), `50372197381489643749376`
    (over `B_*` by `50371922400761532354289`).
-3. `J_s = floor(prod_{i=0..s} (R+i)/(d+i))`: exact rational product;
-   `J_13 = 47876303026096432 < B_* < J_14 = 743896698428332665`.
+3. The historical `J_s` candidate has the printed exact rational crossing,
+   but the theorem that assigned it to direction-separated MCA families is
+   false. This line is an arithmetic regression only, not a payment.
 4. `C(n,4131) > B_* C(m,4131)` by exact integer comparison;
    `ceil(C(n,4131)/C(m,4131))` has bit length 3765 and 1134 decimal
    digits. Staging is futile:

@@ -13,10 +13,7 @@
     "preserved_invariants": ["m-k", "n-k", "n-m"],
     "paid_or_residual_outcomes": [
       "GLOBAL_AFFINE",
-      "GLOBAL_CORE_S_LE_2",
-      "GLOBAL_CORE_DIRECTION_SEPARATED_3_LE_S_LE_13",
-      "DIRECTION_LIST_SHORTENED_S",
-      "GLOBAL_CORE_SHORTENED_S_GE_14"
+      "GLOBAL_CORE_SHORTENED_S"
     ]
   },
   "gf11_control": {
@@ -29,7 +26,7 @@
     "shortened_t": 3,
     "selected_slopes": [0, 2, 3, 5, 6, 8, 9],
     "direction_max_agreement": 6,
-    "outcome": "DIRECTION_LIST_SHORTENED_S"
+    "outcome": "GLOBAL_CORE_SHORTENED_S"
   },
   "official_koalabear_boundaries": {
     "n": 2097152,

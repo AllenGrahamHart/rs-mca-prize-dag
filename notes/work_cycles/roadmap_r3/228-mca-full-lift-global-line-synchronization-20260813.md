@@ -45,4 +45,7 @@ compute:                 exact local integer scans under RAMguard;
                          no Modal
 next route action:       replace the common low-agreement Johnson prefix
                          at H while preserving the global-line high union
+export:                  przchojecki/rs-mca PR #1165 head 9c708e2f7;
+                         manuscript theorem, exact note, and verifier;
+                         PR #1164 import comment 5276361990
 ```

@@ -29212,8 +29212,8 @@
    "id": "rate_half_mca_whole_line_global_core_router",
    "title": "Rate-half MCA whole-line global-core cancellation router",
    "status": "PROVED",
-   "closure": "exact line-global cancellation and identity-fiber router",
-   "statement": "For any finite declared selected set of support-wise MCA-bad slopes on one Reed-Solomon received line, either all selected explanations are globally affine or the intersection C_* of all selected maximal agreement supports has size below k and can be cancelled once from the entire line. The resulting unique shortened row preserves every slope, actual same-support noncontainment, and the invariants m-k, n-k, n-m; the slope map is the identity with fiber one, so no sum over record-local cores occurs. At the imported KoalaBear walls the one global family is paid only for s<=2 or direction-separated 3<=s<=13; otherwise it emits one explicit shortened residual. No residual bound or row closure is claimed.",
+   "closure": "exact line-global cancellation and identity-fiber structural router",
+   "statement": "For any finite declared selected set of support-wise MCA-bad slopes on one Reed-Solomon received line, either all selected explanations are globally affine or the intersection C_* of all selected maximal agreement supports has size below k and can be cancelled once from the entire line. The resulting unique shortened row preserves every slope, actual same-support noncontainment, and the invariants m-k,n-k,n-m; the slope map is the identity with fiber one, so no sum over record-local cores occurs. This node makes no shortened-family payment claim; the former direction-separated 3<=s<=13 gate is retracted and corrected compilers consume the single residual separately.",
    "refs": [
     "background/nodes/rate_half_mca_whole_line_global_core_router/statement.md",
     "background/nodes/rate_half_mca_whole_line_global_core_router/proof.md",
@@ -29718,6 +29718,44 @@
     "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/source_contract.json",
     "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/verify.py",
     "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_support_local_transversality_compiler",
+   "title": "Rate-half MCA support-local transversality compiler",
+   "status": "PROVED",
+   "closure": "field-general theta compiler and exact fixed-core margins",
+   "statement": "For a same-support pair-noncontained RS MCA family of explanation affine rank s, the exact actual-support margin theta gives the two-endpoint ordered-basis cap printed in the node statement. Pair noncontainment guarantees theta>=1. On complete shortened KoalaBear rows this pays full rank through s=9; at s=10,11,12,13 the least paying margins are 4,49,757,11748, yielding exact direction-exception terminals 3,48,756,11747.",
+   "refs": [
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/statement.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/proof.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/audit.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/result.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/provenance.md",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/verify.py",
+    "background/nodes/rate_half_mca_support_local_transversality_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_support_local_error_rank_router",
+   "title": "Rate-half MCA support-local error-rank router",
+   "status": "PROVED",
+   "closure": "arbitrary-rank gauge and exact KoalaBear route cut",
+   "statement": "A reversible codeword gauge lowers selected error rank a to explanation affine rank a-1 while preserving slopes, errors, exact supports, and same-support noncontainment. Composed with the support-local theta compiler and the disjoint 2w near-rational charge, it pays KoalaBear through error rank 9; over-budget ranks 10,11,12 emit actual direction-exception ceilings 12,387,12049; rank at least 13 remains.",
+   "refs": [
+    "background/nodes/rate_half_mca_support_local_error_rank_router/statement.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/proof.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/claim_contract.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/audit.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/result.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/provenance.md",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/source_contract.json",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/verify.py",
+    "background/nodes/rate_half_mca_support_local_error_rank_router/verify_audit.py"
    ]
   },
   {
@@ -33960,10 +33998,10 @@
   },
   {
    "id": "rate_half_kb_common_core_shortening_adapter_staircase_import",
-   "title": "Common-core shortening adapter and the exact KoalaBear staircase walls",
+   "title": "Common-core shortening adapter and corrected KoalaBear walls",
    "status": "PROVED",
-   "closure": "typed reversible adapter + four exact walls; route-cut record, zero ledger movement",
-   "statement": "Import of upstream PR #1163 (head e26c15b2d, stacked on #1160), coordinator line-audited with an independent from-scratch replay. THEOREM (same-record common-core cancellation): for a selected non-affine family of support-wise MCA-bad explanation states with common maximal-agreement-support intersection C, c=|C|<k, subtracting the degree-<c interpolants of the received pair on C and dividing by the squarefree core locator G_C is a typed reversible adapter (n,k,m)->(n-c,k-c,m-c) preserving finite affine slopes, field of definition, the invariants m-k, n-k, n-m, maximal supports, and same-support noncontainment in both directions via (p_0,p_1)=(a_0+G_C p'_0, a_1+G_C p'_1); a noncontained witness through C exists by the exchange-graph argument (adjacent size-m subsets overlap in m-1>=k points); two-cover complexity satisfies 3m-k+3=(3m'-k'+3)+2c; the converse lift embeds every compatible shortened record, so zero-cost core deletion is false. EXACT WALLS at the official KoalaBear row (n,k,m,d,R,t)=(2097152,1048576,1116048,67472,1048576,981104), B_*=274980728111395087: the deployed order-32 degree-18 interface survives exactly through c=4130 (32m-17n=61952>15c) and drops to 17 at c=4131; the fixed-core compiler B_cell(s)=min{C(R+s,d+s),C(R+s,s+1)} fits under B_* through s=2 and first fails at s=3; the direction-separated boundary is J_13=47876303026096432<B_*<J_14=743896698428332665; Jo's slope-preserving shortening transfer is blocked at c=4131 by the exact multiplier ceil(C(n,4131)/C(m,4131)) of 3765 bits (1134 digits), and staged shortening telescopes to the same factor. ROUTE-CUT RECORD (not a theorem): the active v4 source lacks a chronology-correct whole-line selector partitioning varying local 32-tuple cores; until it exists the staircase route moves no S/A/E or global ledger value. The #1160 67,472-slope construction is globally affine and is a control, not a casualty.",
+   "closure": "typed reversible adapter + unaffected exact walls; false direction payment retracted",
+   "statement": "The PR #1163 same-record common-core cancellation adapter is proved and reversible: (n,k,m)->(n-c,k-c,m-c) preserves finite slopes, maximal supports, same-support noncontainment, and m-k,n-k,n-m. The exact degree-interface, B_cell, and Jo-transfer walls remain valid. The former direction-separated J_13/J_14 payment is retracted after the affine-span counterexample; those two integers survive only as arithmetic for a false candidate formula. The support-local theta replacement is a separate proved node. No S/A/E or global ledger value moves.",
    "refs": [
     "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/statement.md",
     "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/proof.md",
@@ -66049,6 +66087,36 @@
   },
   {
    "from": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_support_local_error_rank_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_support_local_error_rank_router",
+   "kind": "req"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "rate_half_mca_support_local_error_rank_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_error_rank_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_support_local_error_rank_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

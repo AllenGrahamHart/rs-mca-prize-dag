@@ -27,7 +27,8 @@
     },
     "j_boundary": {
       "J13": 47876303026096432,
-      "J14": 743896698428332665
+      "J14": 743896698428332665,
+      "status": "RETRACTED_AS_PAYMENT_ARITHMETIC_REGRESSION_ONLY"
     },
     "jo_multiplier_at_4131": {"bits": 3765, "decimal_digits": 1134}
   },

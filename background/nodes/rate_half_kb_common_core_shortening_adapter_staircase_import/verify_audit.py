@@ -19,8 +19,8 @@ clauses are then checked on the ORIGINAL row by brute force:
   (f) the parameter and two-cover-complexity identities.
 
 Walls are recomputed by a different method than verify.py: the interface
-wall by a windowed ceiling scan, the J boundary by pure-integer
-cross-multiplication (no Fraction).
+wall by a windowed ceiling scan, and the now-retracted J candidate arithmetic
+by pure-integer cross-multiplication (no Fraction).
 
 RAMGUARD_TIMEOUT: `tools/ramguard tiny -- python3 ...` (seconds).
 """

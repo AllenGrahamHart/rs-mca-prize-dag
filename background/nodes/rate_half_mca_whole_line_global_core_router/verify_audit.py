@@ -13,7 +13,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "fe6d62769c4a6cbd7897087b96892f763aaf229e6169afb0ab476d18a752aaa0"
+CONTRACT_SHA256 = "ff1e82e71742f132bd3bd39ccc5540cff8676c9b8b1b79d094cb9615b0d7ab16"
 CONTROL = HERE.parent / "rate_half_mca_record_local_core_owner_noninvariance" / "source_contract.json"
 CONTROL_SHA256 = "7a27aef1521b42bc9704c97345be34263e8b22980b5e7fd65f84560b92ff6c94"
 

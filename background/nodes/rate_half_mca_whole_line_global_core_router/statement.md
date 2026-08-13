@@ -34,17 +34,15 @@ witness in the shortened row. The slope map is the identity, its fibers have
 size one, and `m-k`, `n-k`, and `n-m` are preserved. There is one global
 core family, so no sum over record-local cores or core-choice add-back occurs.
 
-For the imported KoalaBear staircase this gives one exact router:
+For the imported KoalaBear staircase this gives one exact structural router:
 
 ```text
-global affine                                      -> GLOBAL_AFFINE
-s=k-c_* <= 2                                      -> paid fixed-core family
-3 <= s <= 13 and direction separation holds       -> paid affine-span family
-3 <= s <= 13 and direction separation fails       -> DIRECTION_LIST_SHORTENED_S
-s >= 14                                            -> GLOBAL_CORE_SHORTENED_S_GE_14
+global affine          -> GLOBAL_AFFINE
+otherwise              -> GLOBAL_CORE_SHORTENED_S, with s=k-c_*
 ```
 
-The last two outcomes are residual labels, not payments.
+Payments on the shortened family belong to separate compiler nodes. In
+particular, the former direction-separated `3<=s<=13` outcome is retracted.
 
 ## Consequence
 
@@ -55,7 +53,7 @@ dimension of individual local cores because `C_*` is their intersection.
 
 ## Nonclaims
 
-The theorem does not bound either residual label, prove first-match coverage,
+The theorem does not bound the shortened residual, prove first-match coverage,
 define Q or BC, or close a deployed or prize row. It does not permit adding
 payments from larger record-local cores after the global route is chosen.
 

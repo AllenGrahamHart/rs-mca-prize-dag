@@ -30,13 +30,12 @@ directions. The affine slope is unchanged. Because `C_*` is defined once
 from the entire declared family, each selected slope appears exactly once
 and the slope projection is literally the identity.
 
-The parameter identities are immediate. The official paid/residual outcomes
-then apply the imported fixed-core and direction-separated boundaries to
-this one family. No local-core payment is added.
+The parameter identities are immediate. The output is one typed shortened
+family with exact dimension `s=k-c_*`; this structural theorem makes no
+payment claim. Separate corrected compiler nodes may consume that family.
 
 In the `GF(11)` control from the local-owner route cut, the seven selected
 supports have global intersection `{10}`. The single cancellation maps
-`(n,k,m)=(10,5,7)` to `(9,4,6)` and preserves all seven slopes. The shortened
-direction has maximum degree-`<4` agreement six, so separation fails and the
-router honestly emits `DIRECTION_LIST_SHORTENED_S` at `s=4` rather than a
-payment.
+`(n,k,m)=(10,5,7)` to `(9,4,6)` and preserves all seven slopes. The router
+emits `GLOBAL_CORE_SHORTENED_S` at `s=4`. Its later payment or exception
+classification is deliberately outside this node.

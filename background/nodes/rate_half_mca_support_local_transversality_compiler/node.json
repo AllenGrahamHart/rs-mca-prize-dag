@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1884,
+  "node": {
+    "id": "rate_half_mca_support_local_transversality_compiler",
+    "title": "Rate-half MCA support-local transversality compiler",
+    "status": "PROVED",
+    "closure": "field-general theta compiler and exact fixed-core margins",
+    "statement": "For a same-support pair-noncontained RS MCA family of explanation affine rank s, the exact actual-support margin theta gives the two-endpoint ordered-basis cap printed in the node statement. Pair noncontainment guarantees theta>=1. On complete shortened KoalaBear rows this pays full rank through s=9; at s=10,11,12,13 the least paying margins are 4,49,757,11748, yielding exact direction-exception terminals 3,48,756,11747.",
+    "refs": [
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/statement.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/proof.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/audit.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/result.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/provenance.md",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/source_contract.json",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/verify.py",
+      "background/nodes/rate_half_mca_support_local_transversality_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5244}
+  ],
+  "refutes": []
+}

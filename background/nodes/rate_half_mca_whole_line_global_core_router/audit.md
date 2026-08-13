@@ -7,8 +7,8 @@ gate.
 
 The independent checker enumerates every degree-`<4` shortened codeword for
 all seven slope words. It confirms one explanation and an actual bad witness
-per slope, then separately checks the official `s=2/3` and `J_13/J_14`
-payment boundaries.
+per slope. The retained `s=2/3` and `J_13/J_14` arithmetic is only a legacy
+regression and is not consumed as a payment.
 
 Both checkers reject mutations of the global core, shortened parameters,
 outcome, and official boundary constants.
