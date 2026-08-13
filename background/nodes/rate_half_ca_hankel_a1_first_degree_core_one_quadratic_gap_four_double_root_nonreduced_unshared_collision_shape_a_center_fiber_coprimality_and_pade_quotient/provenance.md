@@ -7,4 +7,5 @@
   the specialized Pade syzygy.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 58 of draft PR `przchojecki/rs-mca#1161`,
+  commit `35466b5`, review comment `issuecomment-5284424979`.
