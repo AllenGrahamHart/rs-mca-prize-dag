@@ -37,7 +37,9 @@ the remaining middle-support interval.
 ```text
 start:                   bb43a4db0
 canonical prize:         c8d48cd4b (no newer Fable commit at discovery)
-result:                  NARROWED; one PROVED field-general endpoint lemma
+upstream export head:    #1165 @ bb9df40b; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         endpoint lemma
 DAG delta:               +1 PROVED node, +2 edges
 critical status delta:   none; replacement target remains TARGET
 full-lift residuals:     KoalaBear 64049<=e<=1044238;
