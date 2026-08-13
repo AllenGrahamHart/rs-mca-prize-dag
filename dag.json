@@ -29834,6 +29834,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "title": "Mersenne residue-zero boundary direction-class router",
+   "status": "PROVED",
+   "closure": "normalized-direction Johnson count and near-maximal-core terminal",
+   "statement": "At Mersenne full-lift support e=98232, the exact boundary layer occupies at most three normalized codeword-direction classes and at most 1450 slopes. Any unsafe family therefore has at least 343071 slopes on the synchronized top affine line, forcing a total common core of at least 67452=m-2. The support remains unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/statement.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/proof.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/audit.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/result.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/provenance.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/source_contract.json",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/verify.py",
+    "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66282,6 +66301,31 @@
   },
   {
    "from": "rate_half_mca_m31_two_boundary_layer_case_split",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "to": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_common_core_payment",
+   "to": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_direction_class_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

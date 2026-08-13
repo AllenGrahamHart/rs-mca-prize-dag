@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1890,
+  "node": {
+    "id": "rate_half_mca_m31_residue_zero_direction_class_router",
+    "title": "Mersenne residue-zero boundary direction-class router",
+    "status": "PROVED",
+    "closure": "normalized-direction Johnson count and near-maximal-core terminal",
+    "statement": "At Mersenne full-lift support e=98232, the exact boundary layer occupies at most three normalized codeword-direction classes and at most 1450 slopes. Any unsafe family therefore has at least 343071 slopes on the synchronized top affine line, forcing a total common core of at least 67452=m-2. The support remains unpaid.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/statement.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/proof.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/audit.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/result.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/provenance.md",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/source_contract.json",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/verify.py",
+      "background/nodes/rate_half_mca_m31_residue_zero_direction_class_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_full_lift_mean_centered_global_line_profile", "order": 5274},
+    {"from": "rate_half_mca_full_lift_top_third_global_line_payment", "order": 5275},
+    {"from": "rate_half_mca_full_lift_top_third_common_core_payment", "order": 5276}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5277},
+    {"to": "rate_half_band_crossing_location", "order": 5278}
+  ],
+  "refutes": []
+}

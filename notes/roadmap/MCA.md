@@ -25,7 +25,11 @@ certificates required by the challenge.
 - The Mersenne full-lift mean-Gram route now pays through direction support
   `e=98231`.  At residue two, a two-boundary-layer anchor split and a
   boundary missed-set dichotomy give `16486411<16777215`; the residual
-  starts at the residue-zero support `e=98232`.
+  starts at the residue-zero support `e=98232`.  At that first residual, a
+  normalized-direction Johnson count caps the boundary layer at `1450`.
+  Any unsafe family must therefore put at least `343071` slopes on the
+  synchronized top line, whose common core is then at least `m-2`.  The
+  one- and two-private-coordinate line strata are the next exact terminal.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
