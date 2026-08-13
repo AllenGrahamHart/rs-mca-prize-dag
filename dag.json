@@ -29932,6 +29932,26 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "title": "Mersenne recursive line-peeling core-packing payment",
+   "status": "PROVED",
+   "closure": "recursive boundary-line peeling and distinct-line inside-core packing",
+   "statement": "Repeatedly peeling a forced affine explanation line either lowers the residual deficit ceiling into the exact weighted prefix or produces distinct line cores whose pairwise intersections are at most K-1. Exact replay pays every Mersenne full-lift support 124806<=e<=130198; adjacent e=130199 is a method wall, not unsafe.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/statement.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/proof.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/audit.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/result.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/provenance.md",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/source_contract.json",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify.py",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify_audit.py",
+    "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify_scan.c"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66505,6 +66525,31 @@
   },
   {
    "from": "rate_half_mca_m31_boundary_line_bank_absorption_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_boundary_line_bank_absorption_payment",
+   "to": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "to": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

@@ -1,0 +1,97 @@
+{
+  "schema": "rate-half-mca-m31-recursive-line-peeling-core-packing-v1",
+  "sources": {
+    "line_bank_statement_sha256": "9a1227549c72e71a6f25a5f55d0ada3bff384ad7ecbc7f9c13d9a5d12ed7b7fa",
+    "line_bank_proof_sha256": "84614d982caf4d828f7aecd450cb5cbc50948be27ec878a3b58ff56970baed21",
+    "prefix_statement_sha256": "b1fa6c8ce0dfe3eca422dec52348346dae7d342a77c71ad685bcb88ef23f4632",
+    "prefix_proof_sha256": "523c35fc8eefa4d8ea9612b2bc6ecd48373af2e9d09e5791eacc441309f2308b",
+    "absorption_statement_sha256": "1b8ca277bfd1ac820e5cd0b9ee23a0087bed561b9d1d7ac97ad04bdd2d47974e",
+    "absorption_proof_sha256": "f3ef385b9f247ad58a7fa3f4138960413075a1b9a41ecb4c461d6e58d1412800"
+  },
+  "theorem": "recursive affine-line peeling plus distinct-line inside-core packing",
+  "row": {
+    "R": 1048576,
+    "d": 67448,
+    "K": 6,
+    "budget": 16777215,
+    "first": {
+      "e": 124806,
+      "cutoff": 65304,
+      "certificate": "profile",
+      "lines": 1,
+      "final_upper": 59633,
+      "final_piece": 1622861,
+      "bound": 2603990,
+      "slack": 14173225,
+      "inside_sum": 65178,
+      "packing_lhs": 65178,
+      "steps": [
+        {"upper": 67454, "target": 16777215, "groups": 33873, "base": 2138482, "threshold": 433, "core": 65183, "inside": 65178, "sync": 59634, "packing_lhs": 65178}
+      ]
+    },
+    "first_packing": {
+      "e": 128340,
+      "cutoff": 65304,
+      "certificate": "core_packing_contradiction",
+      "lines": 2,
+      "final_upper": 65523,
+      "inside_sum": 129396,
+      "packing_lhs": 129391,
+      "steps": [
+        {"upper": 67454, "target": 16777215, "groups": 70833, "base": 1693063, "threshold": 213, "core": 62827, "inside": 62822, "sync": 65524, "packing_lhs": 62822},
+        {"upper": 65523, "target": 15796086, "groups": 12523, "base": 1749442, "threshold": 1122, "core": 66579, "inside": 66574, "sync": 61772, "packing_lhs": 129391}
+      ]
+    },
+    "last": {
+      "e": 130198,
+      "cutoff": 65504,
+      "certificate": "core_packing_contradiction",
+      "lines": 5,
+      "final_upper": 67454,
+      "inside_sum": 133210,
+      "packing_lhs": 133160,
+      "steps": [
+        {"upper": 67454, "target": 16777215, "groups": 260297, "base": 8163020, "threshold": 34, "core": 37723, "inside": 37718, "sync": 92486, "packing_lhs": 37718},
+        {"upper": 67454, "target": 15796086, "groups": 260297, "base": 8163020, "threshold": 30, "core": 33622, "inside": 33617, "sync": 96587, "packing_lhs": 71330},
+        {"upper": 67454, "target": 14814957, "groups": 260297, "base": 8163020, "threshold": 26, "core": 28209, "inside": 28204, "sync": 102000, "packing_lhs": 99524},
+        {"upper": 67454, "target": 13833828, "groups": 260297, "base": 8163020, "threshold": 22, "core": 20734, "inside": 20729, "sync": 109475, "packing_lhs": 120238},
+        {"upper": 67454, "target": 12852699, "groups": 260297, "base": 8163020, "threshold": 19, "core": 12947, "inside": 12942, "sync": 117262, "packing_lhs": 133160}
+      ]
+    },
+    "adjacent": {
+      "e": 130199,
+      "cutoff": 65504,
+      "certificate": "method_wall_base",
+      "lines": 9,
+      "final_upper": 67454,
+      "target": 7947054,
+      "groups": 269019,
+      "base": 8154082,
+      "inside_sum": 126232,
+      "packing_lhs": 126052,
+      "steps": [
+        {"upper": 67454, "target": 16777215, "groups": 269019, "base": 8154082, "threshold": 33, "core": 36794, "inside": 36789, "sync": 93416, "packing_lhs": 36789},
+        {"upper": 67454, "target": 15796086, "groups": 269019, "base": 8154082, "threshold": 29, "core": 32414, "inside": 32409, "sync": 97796, "packing_lhs": 69193},
+        {"upper": 67454, "target": 14814957, "groups": 269019, "base": 8154082, "threshold": 25, "core": 26574, "inside": 26569, "sync": 103636, "packing_lhs": 95752},
+        {"upper": 67454, "target": 13833828, "groups": 269019, "base": 8154082, "threshold": 22, "core": 20734, "inside": 20729, "sync": 109476, "packing_lhs": 116466},
+        {"upper": 67454, "target": 12852699, "groups": 269019, "base": 8154082, "threshold": 18, "core": 9741, "inside": 9736, "sync": 120469, "packing_lhs": 126182},
+        {"upper": 67454, "target": 11871570, "groups": 269019, "base": 8154082, "threshold": 14, "core": 0, "inside": 0, "sync": 130205, "packing_lhs": 126157},
+        {"upper": 67454, "target": 10890441, "groups": 269019, "base": 8154082, "threshold": 11, "core": 0, "inside": 0, "sync": 130205, "packing_lhs": 126127},
+        {"upper": 67454, "target": 9909312, "groups": 269019, "base": 8154082, "threshold": 7, "core": 0, "inside": 0, "sync": 130205, "packing_lhs": 126092},
+        {"upper": 67454, "target": 8928183, "groups": 269019, "base": 8154082, "threshold": 3, "core": 0, "inside": 0, "sync": 130205, "packing_lhs": 126052}
+      ]
+    }
+  },
+  "census": {
+    "first_e": 124806,
+    "last_e": 130198,
+    "adjacent_e": 130199,
+    "paid": 5393,
+    "profile": 3837,
+    "direct_bank": 0,
+    "packing": 1556,
+    "max_lines": 5,
+    "line_counts": {"1": 3534, "2": 397, "3": 1397, "4": 59, "5": 6},
+    "residual_ceiling": 1044241
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1895,
+  "node": {
+    "id": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+    "title": "Mersenne recursive line-peeling core-packing payment",
+    "status": "PROVED",
+    "closure": "recursive boundary-line peeling and distinct-line inside-core packing",
+    "statement": "Repeatedly peeling a forced affine explanation line either lowers the residual deficit ceiling into the exact weighted prefix or produces distinct line cores whose pairwise intersections are at most K-1. Exact replay pays every Mersenne full-lift support 124806<=e<=130198; adjacent e=130199 is a method wall, not unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/result.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_m31_recursive_line_peeling_core_packing_payment/verify_scan.c"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_boundary_line_bank_absorption_payment", "order": 5299},
+    {"from": "rate_half_mca_full_lift_mean_centered_global_line_profile", "order": 5300},
+    {"from": "rate_half_mca_m31_residue_zero_core_absorption_payment", "order": 5301}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5302},
+    {"to": "rate_half_band_crossing_location", "order": 5303}
+  ],
+  "refutes": []
+}

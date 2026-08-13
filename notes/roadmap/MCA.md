@@ -45,9 +45,13 @@ certificates required by the challenge.
   normalized direction class as an affine-line slot gives a global line
   bank.  Unsafety forces one slot large enough for common-core absorption.
   A constant-memory replay pays all `23,649` supports through `e=124805`;
-  the endpoint bound is `16706559` with slack `70656`.  At `e=124806` the
-  same legal compiler gives `16831491`, so the Mersenne full-lift residual
-  now starts there.
+  the endpoint bound is `16706559` with slack `70656`.  Recursive peeling
+  then removes each forced affine line and either reaches the weighted
+  prefix or contradicts pairwise inside-core packing for the distinct
+  peeled lines.  This pays another `5,393` supports through `e=130198`,
+  using at most five lines.  At `e=130199` the residual base charge reaches
+  the remaining budget before another line is forced, so the Mersenne
+  full-lift residual now starts there.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
