@@ -1,0 +1,34 @@
+{
+  "schema": "rate-half-mca-m31-common-factor-mass-router-v1",
+  "sources": {
+    "factor_router_statement_sha256": "54b2cf41ab04237d816bfa0dc9e381e656dd7e618ddffdc299635b630a65137d",
+    "factor_router_proof_sha256": "4724a3ccc092b7520a3b2433748e62fb7b1a980882992674f772ceef9267de39",
+    "exact_layer_statement_sha256": "49726ff8bffe0799bf9ed6899bc7b93922edc30a015a119352a778f55a17d29b",
+    "exact_layer_proof_sha256": "352bfe7fa4576e32c19181ab9abce30f6133bb6c144a820a08f3216d026d1e4c"
+  },
+  "line_supply": {
+    "e": 130237,
+    "removed_before_forcing": 7582,
+    "forced_distinct_lines": 7583,
+    "inside_core_lower": 807,
+    "actual_core_cap": 64796,
+    "core_budget": 143866002,
+    "lower_sum": 6118674,
+    "full_caps": 2152,
+    "remainder": 43000,
+    "charge": 881897,
+    "target": 15895318,
+    "next_threshold": 2
+  },
+  "factor": {
+    "ambient_value_degree": 52,
+    "minimum_factor_degree": 1,
+    "maximum_factor_degree": 52,
+    "maximum_off_factor_pairs": 2601,
+    "minimum_on_factor_pairs": 4982,
+    "minimum_factor_points": 126188,
+    "maximum_exception_points": 4049,
+    "pairwise_core_intersection": 5
+  },
+  "conclusion": "unsafe common factor contains at least 4982 pairs and 126188 inside received points"
+}

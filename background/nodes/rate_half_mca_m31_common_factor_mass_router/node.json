@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1901,
+  "node": {
+    "id": "rate_half_mca_m31_common_factor_mass_router",
+    "title": "Mersenne common-factor mass router",
+    "status": "PROVED",
+    "closure": "an unsafe interpolation factor captures almost all inside received coordinates",
+    "statement": "At Mersenne full-lift support e=130237, let P be the primitive full common factor of the weight-264 interpolation kernel and let d be its positive Y,Z degree. The capped bank forces 7583 distinct line pairs. After dividing by P, affine Bezout permits at most (52-d)^2 pairs off P, so at least 7583-(52-d)^2 lie on P. Uniformly in 1<=d<=52 this is at least 4982 pairs. Their inside cores have size at least 807 and pairwise intersections at most 5, forcing P(x,r0(x),r1(x))=0 on at least 126188 of the 130237 inside coordinates. Thus the residual common factor has at most 4049 exceptional inside coordinates.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/statement.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/proof.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/audit.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/result.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/provenance.md",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/source_contract.json",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/verify.py",
+      "background/nodes/rate_half_mca_m31_common_factor_mass_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_interpolation_common_factor_router", "order": 5324},
+    {"from": "rate_half_mca_m31_exact_layer_slot_core_packing_payment", "order": 5325}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5326},
+    {"to": "rate_half_band_crossing_location", "order": 5327}
+  ],
+  "refutes": []
+}

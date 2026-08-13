@@ -68,9 +68,14 @@ certificates required by the challenge.
   938.  The bank still forces 2,705 distinct polynomial-pair cores, whereas
   two coprime kernel surfaces have at most `52^2=2704` common pairs by
   affine Bezout.  Thus the coprime branch is paid: every unsafe survivor
-  forces a positive-`(Y,Z)`-degree common interpolation factor.  Classifying
-  and charging that factor, without assuming it is automatically a split
-  pencil, is the route-defining obstruction.
+  forces a positive-`(Y,Z)`-degree common interpolation factor.  The full
+  7,583-line ledger and cofactor Bezout then force at least 4,982 selected
+  polynomial pairs onto that factor.  Their 807-point cores have pairwise
+  intersections at most five, so the factor contains the received pair on
+  at least 126,188 of the 130,237 inside coordinates.  Classifying and
+  charging this low-degree factor with at most 4,049 inside exceptions,
+  without assuming it is automatically a split pencil, is the route-
+  defining obstruction.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify.py",
-      "seconds": 0.038156,
+      "script": "background/nodes/rate_half_mca_m31_common_factor_mass_router/verify.py",
+      "seconds": 0.029272,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-interpolation-common-factor-router: PASS (83 checks; mutations=5/5; kernel>=938; coprime_cap=2704; forced=2705)\n"
+      "stdout_tail": "m31-common-factor-mass-router: PASS (97 checks; mutations=5/5; pairs>=4982; factor_points>=126188; exceptions<=4049)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_interpolation_common_factor_router/verify_audit.py",
-      "seconds": 0.027038,
+      "script": "background/nodes/rate_half_mca_m31_common_factor_mass_router/verify_audit.py",
+      "seconds": 0.019921,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-interpolation-common-factor-router-audit: PASS (1452 checks; independent monomial and charge replay)\n"
+      "stdout_tail": "m31-common-factor-mass-router-audit: PASS (231 checks; all factor degrees replayed)\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
