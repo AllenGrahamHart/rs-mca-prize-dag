@@ -1,0 +1,53 @@
+{
+  "schema": "rate-half-mca-m31-lower-aware-joint-core-charge-v1",
+  "sources": {
+    "joint_statement_sha256": "5016cdb04352b5bcefa7cacdfd4fad9004a16a54357d6d2596a18f3af66a0be9",
+    "joint_proof_sha256": "3b40867beaf471b8fbd4c02f82d819355c745d67f80c439a427716b2bc87b03f",
+    "recursive_statement_sha256": "53db2ab106c93d6e21e2b7ac5673509a099d36262478144616946b5eb630784e",
+    "recursive_proof_sha256": "1b9f6621104164183d6b83815f9e4c9766c36e7b212c51faba36ce2ad95dce1b"
+  },
+  "theorem": "lower-bound-aware convex core charge for recursive affine-line peeling",
+  "records": {
+    "first": {
+      "e": 130220, "cutoff": 65515, "prefix": 11904256,
+      "groups": 260559, "base": 11645636,
+      "certificate": "core_packing", "lines": 38,
+      "target": 16776606, "charge": 609,
+      "core_budget": 133735, "lower_sum": 130782,
+      "allocation_runs": [[18769, 1], [15816, 3], [2046, 33]],
+      "threshold_runs": [[20, 1], [16, 33], [20, 4]],
+      "core_runs": [[15816, 1], [2046, 33], [15816, 4]],
+      "inside_runs": [[15811, 1], [2041, 33], [15811, 4]],
+      "packing": 142893
+    },
+    "last": {
+      "e": 130221, "cutoff": 65515, "prefix": 11903751,
+      "groups": 269440, "base": 11636250,
+      "certificate": "core_packing", "lines": 38,
+      "target": 16776606, "charge": 609,
+      "core_budget": 133736, "lower_sum": 130782,
+      "allocation_runs": [[18770, 1], [15816, 3], [2046, 33]],
+      "threshold_runs": [[20, 1], [16, 33], [20, 4]],
+      "core_runs": [[15816, 1], [2046, 33], [15816, 4]],
+      "inside_runs": [[15811, 1], [2041, 33], [15811, 4]],
+      "packing": 142893
+    },
+    "adjacent": {
+      "e": 130222, "cutoff": 65516, "prefix": 12406922,
+      "groups": 260580, "base": 12148280,
+      "certificate": "base_wall", "lines": 288,
+      "target": 11867171, "charge": 4910044,
+      "core_budget": 338302, "lower_sum": 9741,
+      "allocation_runs": [[67453, 5], [1037, 1], [0, 282]],
+      "threshold_runs": [[18, 1], [14, 42], [11, 127], [7, 66], [3, 52]],
+      "core_runs": [[9741, 1], [0, 287]],
+      "inside_runs": [[9736, 1], [0, 287]],
+      "packing": 9736
+    }
+  },
+  "census": {
+    "first_e": 130220, "last_e": 130221, "adjacent_e": 130222,
+    "paid": 2, "line_counts": {"38": 2}, "max_lines": 38,
+    "residual_ceiling": 1044241
+  }
+}

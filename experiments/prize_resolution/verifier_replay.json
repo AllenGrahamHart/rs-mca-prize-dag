@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify.py",
-      "seconds": 0.435679,
+      "script": "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify.py",
+      "seconds": 0.569909,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_M31_BOUNDARY_ANCHOR_CASE_SPLIT_PASS checks=28 mutations=4/4\n"
+      "stdout_tail": "m31-lower-aware-joint-core: PASS (118 checks; mutations=4/4; paid=130220..130221; wall=130222)\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_boundary_anchor_case_split/verify_audit.py",
-      "seconds": 0.151166,
+      "script": "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify_audit.py",
+      "seconds": 0.09153,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_M31_BOUNDARY_ANCHOR_CASE_SPLIT_AUDIT_PASS checks=18 mutations=1/1\n"
+      "stdout_tail": "m31-lower-aware-joint-core-audit: PASS (1134 checks; exact rational replay)\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

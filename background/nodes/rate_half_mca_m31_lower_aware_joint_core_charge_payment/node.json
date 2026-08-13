@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1897,
+  "node": {
+    "id": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
+    "title": "Mersenne lower-aware joint-core charge payment",
+    "status": "PROVED",
+    "closure": "convex line charge with forced core lower bounds",
+    "statement": "For recursively peeled parameterized explanation lines, retain every forced total-core lower bound when maximizing the convex joint line charge. The resulting majorization envelope pays the Mersenne full-lift supports e=130220 and e=130221. At adjacent e=130222 the envelope reaches a residual-base wall after 288 peels; this is a method wall, not unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/result.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_joint_core_charge_peeling_payment", "order": 5308},
+    {"from": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment", "order": 5309}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5310},
+    {"to": "rate_half_band_crossing_location", "order": 5311}
+  ],
+  "refutes": []
+}

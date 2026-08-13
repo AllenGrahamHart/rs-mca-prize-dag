@@ -51,9 +51,11 @@ certificates required by the challenge.
   peeled lines.  This pays another `5,393` supports through `e=130198`,
   using at most five lines.  Charging all removed lines jointly from their
   shared core budget then pays 21 further supports through `e=130219`.
-  At `e=130220`, 43 positive forced cores have packing lower bound only
-  `97018`, and the next threshold has zero forced core, so the Mersenne
-  full-lift residual now starts there.
+  Retaining all forced total-core lower bounds in that convex optimization
+  pays `e=130220,130221`; both rows terminate after 38 lines with inside-core
+  packing lower bound `142893`.  At `e=130222`, the lower-aware envelope
+  reaches a residual-base wall after 288 peels, so the Mersenne full-lift
+  residual now starts there.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

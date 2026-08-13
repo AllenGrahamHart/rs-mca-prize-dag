@@ -29972,6 +29972,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
+   "title": "Mersenne lower-aware joint-core charge payment",
+   "status": "PROVED",
+   "closure": "convex line charge with forced core lower bounds",
+   "statement": "For recursively peeled parameterized explanation lines, retain every forced total-core lower bound when maximizing the convex joint line charge. The resulting majorization envelope pays the Mersenne full-lift supports e=130220 and e=130221. At adjacent e=130222 the envelope reaches a residual-base wall after 288 peels; this is a method wall, not unsafe.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/statement.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/proof.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/audit.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/result.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/provenance.md",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/source_contract.json",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify.py",
+    "background/nodes/rate_half_mca_m31_lower_aware_joint_core_charge_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66590,6 +66609,26 @@
   },
   {
    "from": "rate_half_mca_m31_joint_core_charge_peeling_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_joint_core_charge_peeling_payment",
+   "to": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment",
+   "to": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_lower_aware_joint_core_charge_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
