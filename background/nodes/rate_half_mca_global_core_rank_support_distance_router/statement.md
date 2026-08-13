@@ -1,100 +1,53 @@
-# Global-core rank/support/distance MCA router
+# Global-core rank/support replacement target
 
-- **status:** PROVED
-- **closure:** exact composition of complementary global-core payments
-- **scope:** one non-global-affine whole-line global-core family
+- **status:** TARGET
+- **regression:** the former rank and common-zero payments are retracted
+- **surviving suppliers:** gauge equivalence, sparse-direction puncturing,
+  direction-distance, and repaired recursive shortening
 
-## Statement
-
-After whole-line global-core cancellation, write the shortened row as
-
-```text
-(N,K,m)=(R+s,s,d+s).
-```
-
-Choose a minimum direction lift `q=r_1-b`, put
+After whole-line global-core cancellation, write
 
 ```text
-e=|supp(q)|=R-j,
+(N,K,m)=(R+s,s,d+s),       e=d_U(y_1)=R-j.
 ```
 
-and let `r` be the affine rank of the transformed selected explanations
-`c_gamma-gamma b`.  The family is paid if any one of the following holds:
+The exact counterexample
+`rate_half_mca_affine_span_incidence_counterexample` refutes the incidence
+denominator used by the former gauge-rank and common-zero gates.  Therefore
+none of the old transformed-rank walls or middle-support prefixes is a
+proved payment.
 
-1. the codeword-direction rank envelope is at most the official budget;
-2. the exact common-zero support envelope at `(K,r,e)=(s,r,e)` is at most
-   the official budget; or
-3. `j` lies in the recursive direction-distance paid prefix at dimension
-   `s`.
-
-These are three bounds on the same slope set after the same global
-cancellation and gauge.  No addition of their budgets is involved.
-
-## Exact deployed gates
-
-For KoalaBear, throughout `14<=s<=4992`, every family with `r<=13` is paid.
-For the first residual ranks, uniformly over that entire dimension range,
+The following extremal gates survive independently:
 
 ```text
-r=14: e<=31768,   r=15: e<=1576,
-r=16: e<=94,      r=17: e<=5.
+KoalaBear at s=14:  e<=5 by punctured-list payment,
+                    e>=1044239 by repaired direction recursion.
+Mersenne at s=6:    e<=1 by punctured-list payment,
+                    e>=1044242 by repaired direction recursion.
 ```
 
-Ranks `r>=18` receive no positive low-support prefix from this envelope.
-Every rank is separately paid when
+At later dimensions the repaired high-support suffix is exactly the one
+defined by `rate_half_mca_direction_mismatch_recursive_shortening`; the
+sparse-direction theorem must be evaluated at its own exact row.
 
-```text
-e>=R-J_rec(s),
-```
+## Target
 
-where `J_rec(s)` is the exact recursive frontier of the proved
-direction-mismatch theorem.  At each displayed rank's first legal dimension
-`s=r`, `J_rec=4330`, so the exact surviving support intervals are
+Construct a valid replacement theorem that controls proper-subspace
+occupancy of the incident normals, or otherwise pays the residual support
+interval without reusing the refuted ordered-basis denominator.  A valid
+replacement must distinguish:
 
-```text
-r=14: 31769..1044245,   r=15: 1577..1044245,
-r=16:    95..1044245,   r=17:    6..1044245,
-r>=18:    1..1044245.
-```
-
-For Mersenne-31, throughout `6<=s<=4979`, every family with `r<=5` is paid,
-and
-
-```text
-r=6: e<=11847,   r=7: e<=646,
-r=8: e<=36,      r=9: e<=2.
-```
-
-Ranks `r>=10` receive no positive low-support prefix.  The high-support gate
-is again `e>=R-J_rec(s)`.  At each rank's first legal dimension `s=r`, the
-recursive frontiers are `4334,4333,4332,4331,4330`.  The exact surviving
-intervals are
-
-```text
-r=6: 11848..1044241,   r=7: 647..1044242,
-r=8:    37..1044243,   r=9:   3..1044244,
-r=10:    1..1044245.
-```
-
-The complete recursive frontier is deterministic from the pinned recurrence;
-selected checkpoints are recorded in `source_contract.json`.
-
-## Consequence
-
-The former undifferentiated `GLOBAL_CORE_SHORTENED_S_GE_14` and
-`LOW_DIRECTION_DISTANCE_GLOBAL_CORE` descriptions can be refined, on the
-displayed deployed ranges, to an explicit middle-support/high-rank cell.
-At KoalaBear `s=14`, for example, `r<=s` leaves only transformed rank `14`,
-with support in exactly `31769..1044245`.
+1. local incident full rank;
+2. multiplicity in each proper normal subspace; and
+3. exact first-match ownership on the whole received line.
 
 ## Nonclaims
 
-This does not pay any displayed middle interval, control dimensions beyond
-the printed ranges, establish the active K3 first-match atlas, allocate a
-K3 budget, or close a deployed row or prize.
+The historical rank/support products remain arithmetic records only.  This
+node does not currently pay the middle interval, close a deployed row, or
+close either prize.
 
 ## Falsifier
 
-A selected family satisfying one printed gate but exceeding its official
-budget, an incorrect rank/support wall or recursive checkpoint, or an
-attempt to add bounds belonging to different selected families.
+Any proposed replacement is killed by a legal family exceeding it, or by a
+proper normal subspace whose occupancy exceeds the theorem's stated cap.

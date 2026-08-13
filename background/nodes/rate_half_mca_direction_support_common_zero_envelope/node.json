@@ -3,10 +3,10 @@
   "order": 1865,
   "node": {
     "id": "rate_half_mca_direction_support_common_zero_envelope",
-    "title": "Rate-half MCA direction-support common-zero envelope",
-    "status": "PROVED",
-    "closure": "exact one-dimensional affine-basis envelope",
-    "statement": "Retaining the zero-normal count in the direction-support affine-basis proof gives |Z|<=floor(max_(x=R+r..R+K) ((x)_fall_(r+1)-(x-e)_fall_(r+1))/((x-R+d)d_rise_r)). Exhaustive exact evaluation over the uniform interval through 2R pays e<=31806,870,26 at KoalaBear ranks 12,13,14 and e<=124471,2973,83,2 at Mersenne ranks 5,6,7,8. The Mersenne rank-five wall lies beyond e=d, cutting the middle-support residual.",
+    "title": "Rate-half MCA direction-support common-zero envelope (refuted)",
+    "status": "REFUTED",
+    "closure": "exact GF(1009) counterexample",
+    "statement": "The asserted common-zero envelope is false: at (R,d,K,r,e)=(99,20,1,1,80) it gives 22 on an exact legal family of 31 slopes. The one-dimensional arithmetic optimization is valid only for the invalid inherited incidence expression.",
     "refs": [
       "background/nodes/rate_half_mca_direction_support_common_zero_envelope/statement.md",
       "background/nodes/rate_half_mca_direction_support_common_zero_envelope/proof.md",
@@ -19,13 +19,10 @@
       "background/nodes/rate_half_mca_direction_support_common_zero_envelope/verify_audit.py"
     ]
   },
-  "requires": [
-    {"from": "rate_half_mca_direction_support_affine_basis_payment", "order": 5176},
-    {"from": "rate_half_mca_supportwise_affine_span_compiler", "order": 5177}
-  ],
+  "requires": [],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_crossing_location", "order": 5178}
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5217}
   ],
   "refutes": []
 }

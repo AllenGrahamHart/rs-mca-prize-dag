@@ -1,40 +1,13 @@
 {
-  "schema": "rate-half-mca-codeword-direction-gauge-rank-router-v1",
-  "sources": {
-    "supportwise_span": "rate_half_mca_supportwise_affine_span_compiler",
-    "global_direction_router": "rate_half_mca_global_core_direction_distance_router"
-  },
+  "schema": "rate-half-mca-codeword-direction-gauge-equivalence-v2",
   "theorem": {
     "gauge": "(r_0,r_1,c_gamma)->(r_0,r_1-b,c_gamma-gamma b) for b in C",
-    "preserves": "slopes, exact agreement supports, and same-support pair noncontainment",
-    "rank_shift": "|rank_aff(c_gamma)-rank_aff(c_gamma-gamma b)|<=1",
-    "bound": "floor(max((R+K)_fall_(r+1)/((d+K)d_rise_r),(R+r)_fall_(r+1)/d_rise_(r+1)))"
+    "preserves": "slopes, exact and maximal agreement supports, and same-support pair containment",
+    "rank_shift": "|rank_aff(c_gamma)-rank_aff(c_gamma-gamma b)|<=1"
   },
-  "rows": [
-    {
-      "name": "KoalaBear MCA",
-      "R": 1048576,
-      "d": 67472,
-      "budget": 274980728111395087,
-      "ambient_cap": 1048576,
-      "rank_walls": [
-        {"rank": 11, "last_paid_K": 1048576, "bound_last": 49107626893329409, "first_unpaid_K": null, "bound_first_unpaid": null},
-        {"rank": 12, "last_paid_K": 745260, "bound_last": 274980259855184513, "first_unpaid_K": 745261, "bound_first_unpaid": 274981914318597687},
-        {"rank": 13, "last_paid_K": 289603, "bound_last": 274980152556476265, "first_unpaid_K": 289604, "bound_first_unpaid": 274982259324238595},
-        {"rank": 14, "last_paid_K": null, "bound_last": null, "first_unpaid_K": 14, "bound_first_unpaid": 743896698428332665}
-      ]
-    },
-    {
-      "name": "Mersenne-31 MCA",
-      "R": 1048576,
-      "d": 67448,
-      "budget": 16777215,
-      "ambient_cap": 1048576,
-      "rank_walls": [
-        {"rank": 4, "last_paid_K": 1048576, "bound_last": 1756139, "first_unpaid_K": null, "bound_first_unpaid": null},
-        {"rank": 5, "last_paid_K": 482472, "bound_last": 16777192, "first_unpaid_K": 482473, "bound_first_unpaid": 16777228},
-        {"rank": 6, "last_paid_K": null, "bound_last": null, "first_unpaid_K": 6, "bound_first_unpaid": 219426634}
-      ]
-    }
-  ]
+  "scope_repair": {
+    "retracted": "former G3 affine-incidence bound and official rank walls",
+    "refuter": "rate_half_mca_affine_span_incidence_counterexample"
+  },
+  "finite_control": {"field": 7, "coordinates": 4, "slopes": [0, 1, 2, 3, 4, 5, 6]}
 }

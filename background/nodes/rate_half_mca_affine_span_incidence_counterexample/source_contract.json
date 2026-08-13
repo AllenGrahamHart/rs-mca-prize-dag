@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-affine-span-incidence-counterexample-v1",
+  "field": 1009,
+  "row": {"n": 100, "K": 1, "m": 21, "w": 20, "affine_dimension": 1},
+  "partition": {"core": [0, 20], "zero_slopes": [20, 50], "one_support": [50, 71], "filler": [71, 100]},
+  "selected": {"zero_explanation_slopes": [1, 30], "one_explanation_slope": 0, "count": 31},
+  "expected": {
+    "support_size": 21,
+    "direction_max_agreement": 20,
+    "affine_rank": 1,
+    "affine_span_bound": 23,
+    "support_bound": 22,
+    "minimum_direction_support": 80
+  }
+}

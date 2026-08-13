@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "5ad7705fd960091ce2141871c0aee4fa2d7d95add3c12649b5084cde89151598"
+CONTRACT_SHA256 = "1ca9c942f8e60deb9ffc7998a826cd32e9ba38bac106ffb0039828986d009bdf"
 
 
 class Reject(ValueError):

@@ -3,10 +3,10 @@
   "order": 1866,
   "node": {
     "id": "rate_half_mca_global_core_rank_support_distance_router",
-    "title": "Rate-half MCA global-core rank/support/distance router",
-    "status": "PROVED",
-    "closure": "exact composition of three complementary global-core payments",
-    "statement": "After one whole-line global-core cancellation, gauge the shortened direction by a minimum lift of support e=R-j and let r be the transformed explanation affine rank. The rank envelope, exact common-zero support envelope, and recursive direction-distance envelope apply to the same selected slope family. Through shortened dimension 4992 on KoalaBear, ranks at most 13 are paid, ranks 14,15,16,17 are additionally paid for e at most 31768,1576,94,5, and every rank is paid for e at least R-J_rec(s). Through dimension 4979 on Mersenne-31, ranks at most 5 are paid, ranks 6,7,8,9 are additionally paid for e at most 11847,646,36,2, and every rank is paid for e at least R-J_rec(s). Exact first-residual open intervals are pinned in the certificate.",
+    "title": "Rate-half MCA global-core rank/support replacement target",
+    "status": "TARGET",
+    "closure": "rank/common-zero regression; replacement theorem required",
+    "statement": "The former affine-rank and common-zero payments are retracted after an exact counterexample to their shared incidence denominator. Valid extremal gates remain: at the first residual dimensions, KoalaBear pays e<=5 or e>=1044239 and Mersenne pays e<=1 or e>=1044242. A replacement proper-subspace occupancy theorem or alternative middle-support payment is required.",
     "refs": [
       "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
       "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
@@ -19,12 +19,7 @@
       "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify_audit.py"
     ]
   },
-  "requires": [
-    {"from": "rate_half_mca_whole_line_global_core_router", "order": 5179},
-    {"from": "rate_half_mca_codeword_direction_gauge_rank_router", "order": 5180},
-    {"from": "rate_half_mca_direction_support_common_zero_envelope", "order": 5181},
-    {"from": "rate_half_mca_direction_mismatch_recursive_shortening", "order": 5182}
-  ],
+  "requires": [],
   "alternatives": [],
   "evidence_for": [
     {"to": "rate_half_band_structural_surplus", "order": 5183}

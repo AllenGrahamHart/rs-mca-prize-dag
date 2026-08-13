@@ -1,11 +1,7 @@
 # Audit
 
-The primary checker reconstructs the shortened `GF(11)` hostile control and
-computes the incident normal rank at every selected bad slope. All seven
-matrices have full rank five although global direction separation fails at
-equality. It also checks `J_4=21`, both deployed boundaries, and 4/4
-mutations.
-
-The independent checker enumerates all `11^5` possible normal relations for
-each of the seven supports and finds only zero. It separately enumerates the
-direction list, recomputes both row boundaries, and rejects 3/3 mutations.
+The former `GF(11)` control checked only local incident-normal full rank and
+did not test the ordered-basis multiplicity used by the theorem.  The new
+`GF(1009)` record satisfies that same local rank condition while violating
+the final bound.  The old official arithmetic remains correct as arithmetic
+but no longer certifies a theorem.

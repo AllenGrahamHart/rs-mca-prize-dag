@@ -15,8 +15,8 @@ ROOT = HERE.parents[2]
 CONTRACT = HERE / "source_contract.json"
 CONTRACT_SHA256 = "4067e90440ab4d8640074a9c1583a2fba162221956821e329d35dcfbc3e4315d"
 PINNED = {
-    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md": "4e8bbe3ba4bda528d2dc88c071704379d6f3647928376df35c1927fbab30185e",
-    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md": "7af81043ed3fc0b17a672cb4f323f1c1bb8fb6d4bc08562ac36d5f35d01cd5d5",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md": "e2d58d0cdc4b958c996f27b383ebca65a377387aceb1fdf908d416c2815daa40",
+    "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md": "f4a78a4eb5f397c9bade1a2b54689d31259a47be55ad20c3bd04e8c9037db564",
     "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/statement.md": "42bf5bc5ea77d245c56b45e19a94f862bf3596b490ecda17fe88fc01596775b6",
     "background/nodes/rate_half_mca_sparse_direction_punctured_list_payment/proof.md": "2ff6f0fc1accd77ac2a3bceeaf375f099605b654765d274ff2049dae241b2676",
 }

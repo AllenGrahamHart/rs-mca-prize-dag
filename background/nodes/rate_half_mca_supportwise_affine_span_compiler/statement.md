@@ -1,55 +1,28 @@
 # Support-wise affine-span MCA compiler
 
-- **status:** PROVED
-- **closure:** strengthened affine-span incidence theorem
-- **scope:** every Reed-Solomon row and every affine explanation subspace,
-  with exact same-support pair noncontainment
+- **status:** REFUTED
+- **refuter:** `rate_half_mca_affine_span_incidence_counterexample`
 
-## Statement
-
-Let `C=RS[F,D,K]` have length `n`, let
-`r_gamma=r_0+gamma r_1`, and write `m=K+w` with `w>=1`. Let
-`A=c_0+C'` be an affine subspace of the code with `dim C'=s>=1`.
-Suppose that for every distinct slope `gamma in Z` there are
-
-1. an explanation `c_gamma in A`, and
-2. an exact size-`m` support `S_gamma` on which `r_gamma=c_gamma`,
-
-such that the received pair is not simultaneously explained by two
-degree-`<K` codewords on that same support. Then
+The printed claim that exact same-support pair noncontainment can replace
+the direction-separation hypothesis while preserving the affine-span bound
+is false.  In fact the exact `GF(1009)` counterexample also satisfies the
+original direction-separation hypothesis:
 
 ```text
-|Z| <= floor(max(
-  n^(falling s+1) / (m * w^(rising s)),
-  (n-K+s)^(falling s+1) / w^(rising s+1)
-)).
+(n,K,m,w,s)=(100,1,21,20,1),
+|Z|=31,
+claimed bound=23,
+max_(c in C) agr(r_1,c)=20<m.
 ```
 
-No global direction-separation hypothesis is required.
+Every selected explanation has maximal agreement support exactly 21, every
+support is pair-noncontained, and the explanation affine span is exactly one.
 
-When `A=C` and `K=s`, the two terms coincide and the bound is
+The valid local conclusion is only that the incident normals on each
+selected witness span the parameter space.  The rejected proof additionally
+needed a uniform bound on how many incident normals can lie in each proper
+subspace.  Neither pair noncontainment nor the printed direction-separation
+hypothesis supplies that bound.
 
-```text
-J_s=floor(product_(i=0..s) (n-s+i)/(m-s+i)).
-```
-
-For the whole-line global-core router, this pays every shortened selected
-slope family through `s=13` on KoalaBear and through `s=5` on Mersenne-31,
-whether or not the shortened direction lies in the agreement ball.
-
-## Consequence
-
-The former `DIRECTION_LIST_SHORTENED_S` residual is unnecessary in the
-support-wise MCA application. The first global-core residuals are now
-`s>=14` on KoalaBear and `s>=6` on Mersenne-31.
-
-## Nonclaims
-
-This does not improve the numerical bound once `J_s>B*`, supply global-core
-first-match coverage, define Q/BC, or close either deployed or prize row.
-
-## Falsifier
-
-An exact pair-noncontained support whose incident normal matrix has rank
-below `s+1`, or a support-wise family exceeding the displayed incidence
-bound.
+The former KoalaBear and Mersenne small-dimension payments are retracted.
+Their numerical products remain arithmetic records, not proved slope bounds.

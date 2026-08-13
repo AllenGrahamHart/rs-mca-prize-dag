@@ -1,59 +1,15 @@
 {
-  "schema": "rate-half-mca-global-core-rank-support-distance-router-v1",
-  "sources": {
-    "whole_line_router": "rate_half_mca_whole_line_global_core_router",
-    "gauge_rank_router": "rate_half_mca_codeword_direction_gauge_rank_router",
-    "support_envelope": "rate_half_mca_direction_support_common_zero_envelope",
-    "direction_recursion": "rate_half_mca_direction_mismatch_recursive_shortening"
+  "schema": "rate-half-mca-global-core-rank-support-replacement-target-v2",
+  "status": "TARGET",
+  "refuter": "rate_half_mca_affine_span_incidence_counterexample",
+  "retracted": ["affine-rank gate", "direction-support affine-basis gate", "common-zero gate"],
+  "surviving_sources": {
+    "gauge": "rate_half_mca_codeword_direction_gauge_rank_router",
+    "sparse": "rate_half_mca_sparse_direction_punctured_list_payment",
+    "direction": "rate_half_mca_direction_mismatch_recursive_shortening"
   },
-  "rows": [
-    {
-      "name": "KoalaBear MCA",
-      "R": 1048576,
-      "d": 67472,
-      "budget": 274980728111395087,
-      "first_s": 14,
-      "last_s": 4992,
-      "always_paid_rank": 13,
-      "support_walls": [
-        {"rank": 14, "last_paid_e": 31768, "bound_last": 274975778868932911, "argmax_last_x": 1048590, "first_unpaid_e": 31769, "bound_first_unpaid": 274982696317408053, "argmax_first_x": 1048590},
-        {"rank": 15, "last_paid_e": 1576, "bound_last": 274841966832967442, "argmax_last_x": 1048591, "first_unpaid_e": 1577, "bound_first_unpaid": 275014397330949386, "argmax_first_x": 1048591},
-        {"rank": 16, "last_paid_e": 94, "bound_last": 274753486095117739, "argmax_last_x": 1053568, "first_unpaid_e": 95, "bound_first_unpaid": 277674287427041485, "argmax_first_x": 1053568},
-        {"rank": 17, "last_paid_e": 5, "bound_last": 241730025281938233, "argmax_last_x": 1053568, "first_unpaid_e": 6, "bound_first_unpaid": 290073690073326071, "argmax_first_x": 1053568},
-        {"rank": 18, "last_paid_e": 0, "bound_last": 0, "argmax_last_x": 1048594, "first_unpaid_e": 1, "bound_first_unpaid": 796668897865572460, "argmax_first_x": 1053568}
-      ],
-      "direction": {
-        "base_s": 13,
-        "base_bound": 47876303026096432,
-        "first_frontier_j": 4330,
-        "first_high_e": 1044246,
-        "checkpoints": [[14, 4330], [22, 4330], [23, 4329], [100, 4262], [400, 3999], [1000, 3475], [2000, 2602], [4000, 861], [4982, 9], [4983, 8], [4990, 2], [4992, 0]]
-      },
-      "first_residual_intervals": [[14, 14, 31769, 1044245, 4330], [15, 15, 1577, 1044245, 4330], [16, 16, 95, 1044245, 4330], [17, 17, 6, 1044245, 4330], [18, 18, 1, 1044245, 4330]]
-    },
-    {
-      "name": "Mersenne-31 MCA",
-      "R": 1048576,
-      "d": 67448,
-      "budget": 16777215,
-      "first_s": 6,
-      "last_s": 4979,
-      "always_paid_rank": 5,
-      "support_walls": [
-        {"rank": 6, "last_paid_e": 11847, "bound_last": 16776555, "argmax_last_x": 1048582, "first_unpaid_e": 11848, "bound_first_unpaid": 16777923, "argmax_first_x": 1048582},
-        {"rank": 7, "last_paid_e": 646, "bound_last": 16775012, "argmax_last_x": 1048583, "first_unpaid_e": 647, "bound_first_unpaid": 16800923, "argmax_first_x": 1048583},
-        {"rank": 8, "last_paid_e": 36, "bound_last": 16381152, "argmax_last_x": 1048584, "first_unpaid_e": 37, "bound_first_unpaid": 16836120, "argmax_first_x": 1048584},
-        {"rank": 9, "last_paid_e": 2, "bound_last": 15720333, "argmax_last_x": 1048585, "first_unpaid_e": 3, "bound_first_unpaid": 23580399, "argmax_first_x": 1048585},
-        {"rank": 10, "last_paid_e": 0, "bound_last": 0, "argmax_last_x": 1048586, "first_unpaid_e": 1, "bound_first_unpaid": 134399140, "argmax_first_x": 1048586}
-      ],
-      "direction": {
-        "base_s": 5,
-        "base_bound": 14115447,
-        "first_frontier_j": 4334,
-        "first_high_e": 1044242,
-        "checkpoints": [[6, 4334], [7, 4333], [10, 4330], [100, 4251], [400, 3989], [1000, 3464], [2000, 2591], [4000, 850], [4978, 1], [4979, 0]]
-      },
-      "first_residual_intervals": [[6, 6, 11848, 1044241, 4334], [7, 7, 647, 1044242, 4333], [8, 8, 37, 1044243, 4332], [9, 9, 3, 1044244, 4331], [10, 10, 1, 1044245, 4330]]
-    }
+  "first_gates": [
+    {"row": "KoalaBear MCA", "s": 14, "R": 1048576, "low_e": 5, "frontier_j": 4337, "high_e": 1044239},
+    {"row": "Mersenne-31 MCA", "s": 6, "R": 1048576, "low_e": 1, "frontier_j": 4334, "high_e": 1044242}
   ]
 }

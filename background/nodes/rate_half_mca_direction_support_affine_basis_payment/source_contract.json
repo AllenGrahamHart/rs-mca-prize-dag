@@ -1,44 +1,8 @@
 {
-  "schema": "rate-half-mca-direction-support-affine-basis-payment-v1",
-  "sources": {
-    "gauge_rank_router": "rate_half_mca_codeword_direction_gauge_rank_router",
-    "supportwise_incidence": "rate_half_mca_supportwise_affine_span_compiler"
-  },
-  "theorem": {
-    "minimum_lift_support": "1<=e=|supp(r_1-b)|<=R",
-    "active_basis_numerator": "(n-z)_fall_(r+1)-(n-e-z)_fall_(r+1)",
-    "support_factor": "P(R,r,e)=1-(R+r-e)_fall_(r+1)/(R+r)_fall_(r+1)",
-    "bound": "floor(P(R,r,e)*max((R+K)_fall_(r+1)/((d+K)d_rise_r),(R+r)_fall_(r+1)/d_rise_(r+1)))"
-  },
-  "rows": [
-    {
-      "name": "KoalaBear MCA",
-      "R": 1048576,
-      "d": 67472,
-      "budget": 274980728111395087,
-      "K_cap": 1048576,
-      "rank_support_walls": [
-        {"rank": 11, "last_paid_e": 1048576, "bound_last": 49107626893329409, "first_unpaid_e": null, "bound_first_unpaid": null},
-        {"rank": 12, "last_paid_e": 15903, "bound_last": 274972626068661685, "first_unpaid_e": 15904, "bound_first_unpaid": 274988375895649069},
-        {"rank": 13, "last_paid_e": 435, "bound_last": 274696020639658311, "first_unpaid_e": 436, "bound_first_unpaid": 275325800101492947},
-        {"rank": 14, "last_paid_e": 13, "bound_last": 274045236375554780, "first_unpaid_e": 14, "bound_first_unpaid": 295123669059482852},
-        {"rank": 15, "last_paid_e": 0, "bound_last": 0, "first_unpaid_e": 1, "bound_first_unpaid": 698803577325965886}
-      ]
-    },
-    {
-      "name": "Mersenne-31 MCA",
-      "R": 1048576,
-      "d": 67448,
-      "budget": 16777215,
-      "K_cap": 1048576,
-      "rank_support_walls": [
-        {"rank": 4, "last_paid_e": 1048576, "bound_last": 1756139, "first_unpaid_e": null, "bound_first_unpaid": null},
-        {"rank": 5, "last_paid_e": 62235, "bound_last": 16777006, "first_unpaid_e": 62236, "bound_first_unpaid": 16777236},
-        {"rank": 6, "last_paid_e": 1486, "bound_last": 16768344, "first_unpaid_e": 1487, "bound_first_unpaid": 16779580},
-        {"rank": 7, "last_paid_e": 41, "bound_last": 16506471, "first_unpaid_e": 42, "bound_first_unpaid": 16909011},
-        {"rank": 8, "last_paid_e": 1, "bound_last": 14082980, "first_unpaid_e": 2, "bound_first_unpaid": 28165853},
-        {"rank": 9, "last_paid_e": 0, "bound_last": 0, "first_unpaid_e": 1, "bound_first_unpaid": 486473420}
-      ]
-    }
-  ]
+  "schema": "rate-half-mca-direction-support-affine-basis-payment-refuted-v2",
+  "refuter": "rate_half_mca_affine_span_incidence_counterexample",
+  "parameters": {"R": 99, "d": 20, "K": 1, "r": 1, "e": 80},
+  "slopes": 31,
+  "claimed_bound": 22,
+  "failed_step": "inherited incident-basis denominator"
 }

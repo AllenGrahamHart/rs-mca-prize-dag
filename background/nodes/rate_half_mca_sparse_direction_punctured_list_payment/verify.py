@@ -17,8 +17,8 @@ CONTRACT_SHA256 = "a5eb9a794e69df94bc4aa69f040854693c0f411e09c18d2986f982aae7da5
 PINNED = {
     "background/nodes/upstream_gfv4_affine_span_list_compiler/statement.md": "b3be423dd1f85fff8811c98e7da41c03194b38975d89b1f860943e71334e3a31",
     "background/nodes/upstream_gfv4_affine_span_list_compiler/proof.md": "bc36d7a54e91ad5f82d14249b7e1e5c8270fc7c547ca8c37015f04997af01236",
-    "background/nodes/rate_half_mca_global_core_direction_distance_router/statement.md": "0bdbd9585b37372cd9ff4ccc708d28ad1e3c2d28dc45e93f151b934e99ada8df",
-    "background/nodes/rate_half_mca_global_core_direction_distance_router/proof.md": "22844c8398ab217e5bf238be97edd64c9e939d7803c4a40b0e31b95176641196",
+    "background/nodes/rate_half_mca_global_core_direction_distance_router/statement.md": "15bc1a798db19d80b025e4e16e758e6d8e932992873f1b306513525deb996bb2",
+    "background/nodes/rate_half_mca_global_core_direction_distance_router/proof.md": "0f3ddfff5acd7c6d54af7e5347a8dccf614784c358b293263ed6164c90115b2b",
 }
 
 

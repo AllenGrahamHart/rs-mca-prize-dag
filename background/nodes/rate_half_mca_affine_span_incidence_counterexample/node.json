@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1873,
+  "node": {
+    "id": "rate_half_mca_affine_span_incidence_counterexample",
+    "title": "Rate-half MCA affine-span incidence counterexample",
+    "status": "PROVED",
+    "closure": "exact GF(1009) counterexample",
+    "statement": "Over RS[GF(1009),{0,...,99},1] at agreement 21, 31 distinct slopes have explanations in one affine codeword line, exact maximal supports of size 21, and same-support pair noncontainment. The direction agrees with every constant on at most 20 coordinates, so the original direction-separation hypothesis holds. Nevertheless the affine-span compiler gives 23 and its direction-support refinements give 22. The missing proof input is a proper-subspace occupancy bound; local incident full rank is insufficient.",
+    "refs": [
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/statement.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/proof.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/claim_contract.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/dependency_subdag.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/audit.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/result.md",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/source_contract.json",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify.py",
+      "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location", "order": 5205},
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5214}
+  ],
+  "refutes": [
+    {"to": "rate_half_mca_supportwise_affine_span_compiler", "order": 5206},
+    {"to": "rate_half_mca_direction_support_affine_basis_payment", "order": 5207},
+    {"to": "rate_half_mca_direction_support_common_zero_envelope", "order": 5208}
+  ]
+}

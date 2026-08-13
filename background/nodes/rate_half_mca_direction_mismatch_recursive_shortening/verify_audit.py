@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent dimension-major audit of recursive shortening."""
+"""Independent checkpoint audit for repaired recursive shortening."""
 
 from __future__ import annotations
 
@@ -11,62 +11,50 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "d0354c1a0127c3527b405c3f57159e88624e4443439f29bce9e8ebec1a84514e"
+CONTRACT_SHA256 = "610813bd58e34e4c0e5892eb51011eab23b566c8859e5a58065744734f7e0c15"
 
 
 class Reject(ValueError):
     pass
 
 
-def audit_row(row: dict[str, object]) -> dict[str, object]:
-    R, d, budget, base, base_bound = (
-        int(row[key]) for key in ("R", "d", "budget", "base_s", "base_bound")
-    )
-    values = []
-    for j in range(d):
-        n = R + base
-        denominator = d * d - (R - 2 * d) * base - n * j
-        direct = n * (d - j) // denominator if denominator > 0 else None
-        values.append(min(base_bound, direct) if direct is not None else base_bound)
-    last = [base] * d
-    s = base
-    transitions = 0
-    while values:
-        s += 1
-        next_values = []
-        for j, value in enumerate(values):
-            recursive = (R - j) * value // (d - j)
-            n = R + s
-            denominator = d * d - (R - 2 * d) * s - n * j
-            direct = n * (d - j) // denominator if denominator > 0 else None
-            candidate = min(recursive, direct) if direct is not None else recursive
-            transitions += 1
-            if candidate > budget:
-                break
-            next_values.append(candidate)
-            last[j] = s
-        values = next_values
-    checkpoints = []
-    for dimension, _ in row.get("checkpoints", []):
-        frontier = next((j - 1 for j, endpoint in enumerate(last) if endpoint < dimension), d - 1)
-        checkpoints.append([dimension, frontier])
-    if checkpoints != row.get("checkpoints"):
-        raise Reject("checkpoints")
-    if last[0] != row.get("rank_regular_last_s"):
-        raise Reject("rank regular")
-    if sum(endpoint > base for endpoint in last) != row.get("extended_defects"):
-        raise Reject("extended defects")
-    return {"transitions": transitions, "last": last}
+def direct(R: int, d: int, s: int, j: int) -> int | None:
+    denominator = d * d - (R - 2 * d) * s - (R + s) * j
+    return None if denominator <= 0 else (R + s) * (d - j) // denominator
+
+
+def value_at(R: int, d: int, budget: int, j: int, target: int) -> int | None:
+    value = direct(R, d, 1, j)
+    if value is None or value > budget:
+        return None
+    for s in range(2, target + 1):
+        recursive = (R - j) * value // (d - j)
+        direct_value = direct(R, d, s, j)
+        value = min(recursive, direct_value) if direct_value is not None else recursive
+    return value
 
 
 def audit(contract: object) -> dict[str, int]:
-    if not isinstance(contract, dict):
+    if not isinstance(contract, dict) or contract.get("schema") != "rate-half-mca-direction-mismatch-recursive-shortening-v2":
         raise Reject("contract")
-    transitions = 0
-    for row in contract.get("rows", ()):
-        result = audit_row(row)
-        transitions += int(result["transitions"])
-    return {"transitions": transitions}
+    checks = 0
+    for row in contract["rows"]:
+        R, d, budget, base_max = (row[key] for key in ("R", "d", "budget", "base_max_j"))
+        for s, frontier in row["checkpoints"]:
+            if frontier >= 0:
+                value = value_at(R, d, budget, frontier, s)
+                if value is None or value > budget:
+                    raise Reject("paid checkpoint")
+                checks += 1
+            adjacent = frontier + 1
+            if adjacent <= base_max:
+                value = value_at(R, d, budget, adjacent, s)
+                if value is not None and value <= budget:
+                    raise Reject("adjacent checkpoint")
+                checks += 1
+            elif frontier != base_max and s == 1:
+                raise Reject("base frontier")
+    return {"checks": checks}
 
 
 def main() -> None:
@@ -74,29 +62,17 @@ def main() -> None:
         raise Reject("contract hash")
     contract = json.loads(CONTRACT.read_text())
     result = audit(contract)
-    controls = []
-    for index in (0, 1):
-        changed = copy.deepcopy(contract)
-        changed["rows"][index]["checkpoints"][-1][1] += 1
-        try:
-            audit(changed)
-        except Reject:
-            controls.append(True)
-        else:
-            controls.append(False)
     changed = copy.deepcopy(contract)
-    changed["rows"][0]["extended_defects"] -= 1
+    changed["rows"][0]["checkpoints"][3][1] += 1
     try:
         audit(changed)
     except Reject:
-        controls.append(True)
+        mutation = 1
     else:
-        controls.append(False)
-    if not all(controls):
-        raise AssertionError("audit controls")
+        raise AssertionError("mutation control")
     print(
         "RATE_HALF_MCA_DIRECTION_MISMATCH_RECURSIVE_SHORTENING_AUDIT_PASS "
-        f"transitions={result['transitions']} controls={sum(controls)}/{len(controls)}"
+        f"checks={result['checks']} mutations={mutation}/1"
     )
 
 

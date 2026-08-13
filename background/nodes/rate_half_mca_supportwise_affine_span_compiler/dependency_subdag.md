@@ -1,13 +1,9 @@
 # Dependency sub-DAG
 
 ```text
-whole-line global-core router [PROVED]
-                  |
-                  v
-support-wise affine-span compiler [PROVED]
-                  |
-                  +--ev--> rate_half_band_crossing_location [TARGET]
+affine_span_incidence_counterexample [PROVED]
+  -refutes-> supportwise_affine_span_compiler [REFUTED]
 ```
 
-The theorem is field-general. The incoming requirement records its direct
-whole-line application, where it removes the direction-list residual.
+No live route may require this node.  Gauge equivalence, directional
+Johnson, ordinary punctured-list bounds, and pure shortening are split away.

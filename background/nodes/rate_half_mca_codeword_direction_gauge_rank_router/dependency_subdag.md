@@ -1,11 +1,11 @@
 # Dependency sub-DAG
 
 ```text
-support-wise affine-span compiler [PROVED] -------+
-global-core direction-distance router [PROVED] ---+--> codeword gauge rank router [PROVED]
-                                                             |
-                                                             +--ev--> rate_half_band_crossing_location
-```
+codeword-direction gauge identity [PROVED]
+  -> gauge equivalence and |rank shift|<=1 [PROVED]
+       -> sparse-direction punctured-list payment
+       -> sparse-direction affine-rank payment
 
-The first supplier gives `(G3)`.  The second identifies the minimum-lift
-codeword gauge used in the deployed residual.
+affine_span_incidence_counterexample [PROVED]
+  -> retract former G3 rank-payment add-on
+```

@@ -34,6 +34,10 @@
     {
       "to": "rate_half_band_crossing_location",
       "order": 5151
+    },
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router",
+      "order": 5210
     }
   ],
   "refutes": []

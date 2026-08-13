@@ -1,9 +1,5 @@
 # Result
 
-`PROVED`: conditioning on a mismatch of a minimum direction lift produces a
-dimension-`s-1` child whose direction defect cannot increase.  The resulting
-incidence recurrence extends the exact global-core paid envelope.
-
-The remaining obstruction is now a high-defect or beyond-envelope
-low-direction family, rather than every dimension above the original
-affine-span wall.
+`PROVED` after base repair.  KoalaBear reaches `j<=4337` at `s=14` and
+`j=0` through `s=4992`; Mersenne reaches `j<=4334` at `s=6` and `j=0`
+through `s=4979`.

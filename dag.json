@@ -29228,10 +29228,10 @@
   },
   {
    "id": "rate_half_mca_supportwise_affine_span_compiler",
-   "title": "Rate-half MCA support-wise affine-span compiler",
-   "status": "PROVED",
-   "closure": "direction-separation removed by exact pair noncontainment",
-   "statement": "In the affine-span MCA incidence theorem, global direction separation is unnecessary when every counted slope carries an exact same-support pair-noncontained witness. Any incident-normal rank failure either gives a nonzero codeword with at least K roots or makes the direction a codeword on that witness support; in the latter case subtracting it from the slope explanation also makes the base word a codeword there, contradicting noncontainment. The original affine-span bound therefore holds unchanged. Applied after whole-line global-core cancellation, it pays every shortened family through s=13 on KoalaBear and s=5 on Mersenne-31, removing the direction-list residual at those depths.",
+   "title": "Rate-half MCA support-wise affine-span compiler (refuted)",
+   "status": "REFUTED",
+   "closure": "exact GF(1009) counterexample",
+   "statement": "The claim that local pair noncontainment preserves the affine-span MCA incidence bound is false. Over RS[GF(1009),{0,...,99},1] at agreement 21, 31 direction-separated slopes have exact pair-noncontained maximal supports and explanations of affine rank one, while the asserted bound is 23. Local full incident rank does not imply the proper-subspace occupancy bound needed for the ordered-basis product. All small-dimension payments sourced from this node are retracted.",
    "refs": [
     "background/nodes/rate_half_mca_supportwise_affine_span_compiler/statement.md",
     "background/nodes/rate_half_mca_supportwise_affine_span_compiler/proof.md",
@@ -29246,10 +29246,10 @@
   },
   {
    "id": "rate_half_mca_global_core_direction_distance_router",
-   "title": "Rate-half MCA global-core direction-distance router",
+   "title": "Rate-half MCA global-core direction-distance gate",
    "status": "PROVED",
-   "closure": "exact composition and deployed-row arithmetic",
-   "statement": "After whole-line global-core cancellation, write the shortened row as (R+s,s,d+s) and the line-direction syndrome defect as j=R-d_U(y_1). The entire selected family obeys the direction-distance bound floor((R+s)(d-j)/(d^2-(R-2d)s-(R+s)j)) whenever its denominator is positive. Combining this with the support-wise affine-span payment gives exact paid gates through s=4982 on KoalaBear and s=4979 on Mersenne-31. The remaining branch is the explicit low-direction-distance global-core cell.",
+   "closure": "field-general Johnson-ray gate and exact official prefixes",
+   "statement": "After whole-line global-core cancellation, the selected family obeys the direction-distance bound floor((R+s)(d-j)/(d^2-(R-2d)s-(R+s)j)) whenever its denominator is positive. Exact official defect prefixes run from j<=4340 at KoalaBear s=1 to j=0 at s=4982, and from j<=4337 at Mersenne s=1 to j=0 at s=4979. No affine-span payment or all-defect small-dimension claim remains.",
    "refs": [
     "background/nodes/rate_half_mca_global_core_direction_distance_router/statement.md",
     "background/nodes/rate_half_mca_global_core_direction_distance_router/proof.md",
@@ -29266,8 +29266,8 @@
    "id": "rate_half_mca_direction_mismatch_recursive_shortening",
    "title": "Rate-half MCA direction-mismatch recursive shortening",
    "status": "PROVED",
-   "closure": "field-general recurrence and deployed envelopes",
-   "statement": "In a shortened row (R+s,s,d+s), let a minimum lift of the nonzero line-direction syndrome have weight R-j with 0<=j<d. Every size-(d+s) pair-noncontained witness meets its support in at least d-j coordinates. Conditioning on one such agreement and cancelling it produces a dimension-(s-1) support-wise MCA child whose direction defect is at most j. Consequently M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Composed with the direct direction-distance bound, this gives the exact deployed recursive envelopes pinned in the certificate.",
+   "closure": "field-general recurrence and direct-gate initialized official envelopes",
+   "statement": "In a shortened row (R+s,s,d+s), conditioning on an agreement in the support of a minimum direction lift gives M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Initializing separately at s=1 from the proved direct direction-distance gate yields exact repaired frontiers: KoalaBear j<=4337 at s=14 and j=0 through s=4992; Mersenne j<=4334 at s=6 and j=0 through s=4979. No all-defect affine-span base case is used.",
    "refs": [
     "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/statement.md",
     "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/proof.md",
@@ -29300,10 +29300,10 @@
   },
   {
    "id": "rate_half_mca_codeword_direction_gauge_rank_router",
-   "title": "Rate-half MCA codeword-direction gauge rank router",
+   "title": "Rate-half MCA codeword-direction gauge equivalence",
    "status": "PROVED",
-   "closure": "field-general equivalence and exact deployed rank walls",
-   "statement": "Subtracting any codeword b from the received-line direction and gamma b from each slope explanation preserves slopes, exact agreement supports, and same-support pair noncontainment. The original and transformed explanation affine ranks differ by at most one. Applying the support-wise affine-span compiler in row (R+K,K,d+K) gives an exact two-term bound whose deployed ambient-dimension walls are: KoalaBear ranks <=11 at all K, rank 12 through K=745260, rank 13 through K=289603; Mersenne ranks <=4 at all K and rank 5 through K=482472.",
+   "closure": "field-general gauge equivalence and rank stability; incidence add-on retracted",
+   "statement": "For any codeword b, replacing (r_0,r_1,c_gamma) by (r_0,r_1-b,c_gamma-gamma b) preserves every selected slope, exact and maximal support, and same-support pair containment, while changing explanation affine rank by at most one. The former G3 affine-incidence bound and official rank walls are retracted after the exact affine-span incidence counterexample.",
    "refs": [
     "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md",
     "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md",
@@ -29354,10 +29354,10 @@
   },
   {
    "id": "rate_half_mca_direction_support_affine_basis_payment",
-   "title": "Rate-half MCA direction-support affine-basis payment",
-   "status": "PROVED",
-   "closure": "support-sensitive affine-incidence compiler",
-   "statement": "After a minimum-lift codeword gauge with direction support e<=R and transformed explanation affine rank at most r, every active incident-normal basis must meet that support. Removing outside-only bases from the affine-span incidence numerator gives |Z|<=floor(P(R,r,e)M(K,r)), where P=1-(R+r-e)_fall_(r+1)/(R+r)_fall_(r+1) and M is the existing two-endpoint affine-span envelope. This pays uniformly over all shortened dimensions through e=15903,435,13 at KoalaBear ranks 12,13,14 and e=62235,1486,41,1 at Mersenne ranks 5,6,7,8.",
+   "title": "Rate-half MCA direction-support affine-basis payment (refuted)",
+   "status": "REFUTED",
+   "closure": "exact GF(1009) counterexample",
+   "statement": "The asserted support-sensitive bound is false: the exact affine-span incidence counterexample has (R,d,K,r,e)=(99,20,1,1,80), 31 slopes, and claimed bound 22. Its numerator observation survives, but the inherited incident-basis denominator does not.",
    "refs": [
     "background/nodes/rate_half_mca_direction_support_affine_basis_payment/statement.md",
     "background/nodes/rate_half_mca_direction_support_affine_basis_payment/proof.md",
@@ -29372,10 +29372,10 @@
   },
   {
    "id": "rate_half_mca_direction_support_common_zero_envelope",
-   "title": "Rate-half MCA direction-support common-zero envelope",
-   "status": "PROVED",
-   "closure": "exact one-dimensional affine-basis envelope",
-   "statement": "Retaining the zero-normal count in the direction-support affine-basis proof gives |Z|<=floor(max_(x=R+r..R+K) ((x)_fall_(r+1)-(x-e)_fall_(r+1))/((x-R+d)d_rise_r)). Exhaustive exact evaluation over the uniform interval through 2R pays e<=31806,870,26 at KoalaBear ranks 12,13,14 and e<=124471,2973,83,2 at Mersenne ranks 5,6,7,8. The Mersenne rank-five wall lies beyond e=d, cutting the middle-support residual.",
+   "title": "Rate-half MCA direction-support common-zero envelope (refuted)",
+   "status": "REFUTED",
+   "closure": "exact GF(1009) counterexample",
+   "statement": "The asserted common-zero envelope is false: at (R,d,K,r,e)=(99,20,1,1,80) it gives 22 on an exact legal family of 31 slopes. The one-dimensional arithmetic optimization is valid only for the invalid inherited incidence expression.",
    "refs": [
     "background/nodes/rate_half_mca_direction_support_common_zero_envelope/statement.md",
     "background/nodes/rate_half_mca_direction_support_common_zero_envelope/proof.md",
@@ -29390,10 +29390,10 @@
   },
   {
    "id": "rate_half_mca_global_core_rank_support_distance_router",
-   "title": "Rate-half MCA global-core rank/support/distance router",
-   "status": "PROVED",
-   "closure": "exact composition of three complementary global-core payments",
-   "statement": "After one whole-line global-core cancellation, gauge the shortened direction by a minimum lift of support e=R-j and let r be the transformed explanation affine rank. The rank envelope, exact common-zero support envelope, and recursive direction-distance envelope apply to the same selected slope family. Through shortened dimension 4992 on KoalaBear, ranks at most 13 are paid, ranks 14,15,16,17 are additionally paid for e at most 31768,1576,94,5, and every rank is paid for e at least R-J_rec(s). Through dimension 4979 on Mersenne-31, ranks at most 5 are paid, ranks 6,7,8,9 are additionally paid for e at most 11847,646,36,2, and every rank is paid for e at least R-J_rec(s). Exact first-residual open intervals are pinned in the certificate.",
+   "title": "Rate-half MCA global-core rank/support replacement target",
+   "status": "TARGET",
+   "closure": "rank/common-zero regression; replacement theorem required",
+   "statement": "The former affine-rank and common-zero payments are retracted after an exact counterexample to their shared incidence denominator. Valid extremal gates remain: at the first residual dimensions, KoalaBear pays e<=5 or e>=1044239 and Mersenne pays e<=1 or e>=1044242. A replacement proper-subspace occupancy theorem or alternative middle-support payment is required.",
    "refs": [
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
@@ -29520,6 +29520,24 @@
     "background/nodes/e1_profile44_official_energy5_exclusion/source_contract.json",
     "background/nodes/e1_profile44_official_energy5_exclusion/verify.py",
     "background/nodes/e1_profile44_official_energy5_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_affine_span_incidence_counterexample",
+   "title": "Rate-half MCA affine-span incidence counterexample",
+   "status": "PROVED",
+   "closure": "exact GF(1009) counterexample",
+   "statement": "Over RS[GF(1009),{0,...,99},1] at agreement 21, 31 distinct slopes have explanations in one affine codeword line, exact maximal supports of size 21, and same-support pair noncontainment. The direction agrees with every constant on at most 20 coordinates, so the original direction-separation hypothesis holds. Nevertheless the affine-span compiler gives 23 and its direction-support refinements give 22. The missing proof input is a proper-subspace occupancy bound; local incident full rank is insufficient.",
+   "refs": [
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/statement.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/proof.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/claim_contract.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/dependency_subdag.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/audit.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/result.md",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/source_contract.json",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify.py",
+    "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify_audit.py"
    ]
   },
   {
@@ -65476,21 +65494,6 @@
   },
   {
    "from": "rate_half_mca_whole_line_global_core_router",
-   "to": "rate_half_mca_supportwise_affine_span_compiler",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_supportwise_affine_span_compiler",
-   "to": "rate_half_band_crossing_location",
-   "kind": "ev"
-  },
-  {
-   "from": "rate_half_mca_whole_line_global_core_router",
-   "to": "rate_half_mca_global_core_direction_distance_router",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_supportwise_affine_span_compiler",
    "to": "rate_half_mca_global_core_direction_distance_router",
    "kind": "req"
   },
@@ -65535,16 +65538,6 @@
    "kind": "ev"
   },
   {
-   "from": "rate_half_mca_supportwise_affine_span_compiler",
-   "to": "rate_half_mca_codeword_direction_gauge_rank_router",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_global_core_direction_distance_router",
-   "to": "rate_half_mca_codeword_direction_gauge_rank_router",
-   "kind": "req"
-  },
-  {
    "from": "rate_half_mca_codeword_direction_gauge_rank_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -65578,56 +65571,6 @@
    "from": "rate_half_mca_sparse_direction_heavy_fiber_profile",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
-  },
-  {
-   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
-   "to": "rate_half_mca_direction_support_affine_basis_payment",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_supportwise_affine_span_compiler",
-   "to": "rate_half_mca_direction_support_affine_basis_payment",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_direction_support_affine_basis_payment",
-   "to": "rate_half_band_crossing_location",
-   "kind": "ev"
-  },
-  {
-   "from": "rate_half_mca_direction_support_affine_basis_payment",
-   "to": "rate_half_mca_direction_support_common_zero_envelope",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_supportwise_affine_span_compiler",
-   "to": "rate_half_mca_direction_support_common_zero_envelope",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_direction_support_common_zero_envelope",
-   "to": "rate_half_band_crossing_location",
-   "kind": "ev"
-  },
-  {
-   "from": "rate_half_mca_whole_line_global_core_router",
-   "to": "rate_half_mca_global_core_rank_support_distance_router",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
-   "to": "rate_half_mca_global_core_rank_support_distance_router",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_direction_support_common_zero_envelope",
-   "to": "rate_half_mca_global_core_rank_support_distance_router",
-   "kind": "req"
-  },
-  {
-   "from": "rate_half_mca_direction_mismatch_recursive_shortening",
-   "to": "rate_half_mca_global_core_rank_support_distance_router",
-   "kind": "req"
   },
   {
    "from": "rate_half_mca_global_core_rank_support_distance_router",
@@ -65737,6 +65680,66 @@
   {
    "from": "e1_profile44_official_energy5_exclusion",
    "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_affine_span_incidence_counterexample",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_affine_span_incidence_counterexample",
+   "to": "rate_half_mca_supportwise_affine_span_compiler",
+   "kind": "ref"
+  },
+  {
+   "from": "rate_half_mca_affine_span_incidence_counterexample",
+   "to": "rate_half_mca_direction_support_affine_basis_payment",
+   "kind": "ref"
+  },
+  {
+   "from": "rate_half_mca_affine_span_incidence_counterexample",
+   "to": "rate_half_mca_direction_support_common_zero_envelope",
+   "kind": "ref"
+  },
+  {
+   "from": "rate_half_mca_whole_line_global_core_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_punctured_list_payment",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_affine_span_incidence_counterexample",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_supportwise_affine_span_compiler",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_direction_support_affine_basis_payment",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_direction_support_common_zero_envelope",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
    "kind": "ev"
   },
   {

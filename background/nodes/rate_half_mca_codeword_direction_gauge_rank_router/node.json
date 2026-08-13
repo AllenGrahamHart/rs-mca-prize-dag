@@ -3,10 +3,10 @@
   "order": 1861,
   "node": {
     "id": "rate_half_mca_codeword_direction_gauge_rank_router",
-    "title": "Rate-half MCA codeword-direction gauge rank router",
+    "title": "Rate-half MCA codeword-direction gauge equivalence",
     "status": "PROVED",
-    "closure": "field-general equivalence and exact deployed rank walls",
-    "statement": "Subtracting any codeword b from the received-line direction and gamma b from each slope explanation preserves slopes, exact agreement supports, and same-support pair noncontainment. The original and transformed explanation affine ranks differ by at most one. Applying the support-wise affine-span compiler in row (R+K,K,d+K) gives an exact two-term bound whose deployed ambient-dimension walls are: KoalaBear ranks <=11 at all K, rank 12 through K=745260, rank 13 through K=289603; Mersenne ranks <=4 at all K and rank 5 through K=482472.",
+    "closure": "field-general gauge equivalence and rank stability; incidence add-on retracted",
+    "statement": "For any codeword b, replacing (r_0,r_1,c_gamma) by (r_0,r_1-b,c_gamma-gamma b) preserves every selected slope, exact and maximal support, and same-support pair containment, while changing explanation affine rank by at most one. The former G3 affine-incidence bound and official rank walls are retracted after the exact affine-span incidence counterexample.",
     "refs": [
       "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/statement.md",
       "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/proof.md",
@@ -19,13 +19,11 @@
       "background/nodes/rate_half_mca_codeword_direction_gauge_rank_router/verify_audit.py"
     ]
   },
-  "requires": [
-    {"from": "rate_half_mca_supportwise_affine_span_compiler", "order": 5164},
-    {"from": "rate_half_mca_global_core_direction_distance_router", "order": 5165}
-  ],
+  "requires": [],
   "alternatives": [],
   "evidence_for": [
-    {"to": "rate_half_band_crossing_location", "order": 5166}
+    {"to": "rate_half_band_crossing_location", "order": 5166},
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5211}
   ],
   "refutes": []
 }

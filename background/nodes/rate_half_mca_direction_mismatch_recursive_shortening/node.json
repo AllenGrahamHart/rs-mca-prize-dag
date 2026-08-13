@@ -5,8 +5,8 @@
     "id": "rate_half_mca_direction_mismatch_recursive_shortening",
     "title": "Rate-half MCA direction-mismatch recursive shortening",
     "status": "PROVED",
-    "closure": "field-general recurrence and deployed envelopes",
-    "statement": "In a shortened row (R+s,s,d+s), let a minimum lift of the nonzero line-direction syndrome have weight R-j with 0<=j<d. Every size-(d+s) pair-noncontained witness meets its support in at least d-j coordinates. Conditioning on one such agreement and cancelling it produces a dimension-(s-1) support-wise MCA child whose direction defect is at most j. Consequently M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Composed with the direct direction-distance bound, this gives the exact deployed recursive envelopes pinned in the certificate.",
+    "closure": "field-general recurrence and direct-gate initialized official envelopes",
+    "statement": "In a shortened row (R+s,s,d+s), conditioning on an agreement in the support of a minimum direction lift gives M_s(j)<=floor((R-j)M_(s-1)(j)/(d-j)). Initializing separately at s=1 from the proved direct direction-distance gate yields exact repaired frontiers: KoalaBear j<=4337 at s=14 and j=0 through s=4992; Mersenne j<=4334 at s=6 and j=0 through s=4979. No all-defect affine-span base case is used.",
     "refs": [
       "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/statement.md",
       "background/nodes/rate_half_mca_direction_mismatch_recursive_shortening/proof.md",
@@ -34,6 +34,10 @@
     {
       "to": "rate_half_band_crossing_location",
       "order": 5160
+    },
+    {
+      "to": "rate_half_mca_global_core_rank_support_distance_router",
+      "order": 5213
     }
   ],
   "refutes": []

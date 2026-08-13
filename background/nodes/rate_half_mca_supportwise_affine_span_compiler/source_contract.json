@@ -1,52 +1,9 @@
 {
-  "schema": "rate-half-mca-supportwise-affine-span-compiler-v1",
-  "source": {
-    "upstream_pr": 1163,
-    "upstream_head": "e26c15b2d2c2f98ae12dda17b97c40981f76e1ff",
-    "source_theorem": "grande_finale.tex thm:affine-span-mca",
-    "replacement_hypothesis": "exact same-support pair noncontainment for every counted slope",
-    "whole_line_router_node": "rate_half_mca_whole_line_global_core_router"
-  },
-  "theorem": {
-    "agreement": "m=K+w with w>=1",
-    "affine_explanation_dimension": "s>=1",
-    "old_hypothesis_removed": "max_c agr(r_1,c)<m",
-    "rank_failure_conclusion": "the selected support is pair-contained",
-    "bound": "floor(max(n_fall_(s+1)/(m*w_rise_s),(n-K+s)_fall_(s+1)/w_rise_(s+1)))"
-  },
-  "gf11_control": {
-    "shortened_n": 9,
-    "shortened_K": 4,
-    "shortened_m": 6,
-    "w": 2,
-    "affine_dimension": 4,
-    "parameter_dimension": 5,
-    "slopes": 7,
-    "direction_max_agreement": 6,
-    "direction_separation_fails": true,
-    "minimum_incident_normal_rank": 5,
-    "J_4": 21
-  },
-  "deployed_boundaries": [
-    {
-      "row": "KoalaBear MCA",
-      "R": 1048576,
-      "d": 67472,
-      "B_star": 274980728111395087,
-      "last_paid_s": 13,
-      "J_last": 47876303026096432,
-      "first_unpaid_s": 14,
-      "J_first_unpaid": 743896698428332665
-    },
-    {
-      "row": "Mersenne-31 MCA",
-      "R": 1048576,
-      "d": 67448,
-      "B_star": 16777215,
-      "last_paid_s": 5,
-      "J_last": 14115447,
-      "first_unpaid_s": 6,
-      "J_first_unpaid": 219426634
-    }
-  ]
+  "schema": "rate-half-mca-supportwise-affine-span-compiler-refuted-v2",
+  "refuter": "rate_half_mca_affine_span_incidence_counterexample",
+  "field": 1009,
+  "row": [100, 1, 21, 20, 1],
+  "slopes": 31,
+  "claimed_bound": 23,
+  "failed_step": "local full incident rank does not imply the ordered-basis multiplicity"
 }
