@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_residual_four_cycle_rigidity/verify.py",
-      "seconds": 0.029779,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_natural_residual_section_route_fence/verify.py",
+      "seconds": 0.029444,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_RESIDUAL_FOUR_RIGIDITY_PASS d=549755813887 residual_degree=4 negative_ceiling=-549755813885\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_NATURAL_SECTION_FENCE_PASS n=274877906941 pure_fibers=183251937970 h0=1\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_residual_four_cycle_rigidity/verify_audit.py",
-      "seconds": 0.017312,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_natural_residual_section_route_fence/verify_audit.py",
+      "seconds": 0.017115,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_RESIDUAL_FOUR_RIGIDITY_AUDIT_PASS residual=4 negative_ceiling=-549755813885\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_NATURAL_SECTION_FENCE_AUDIT_PASS pure_points=274877906941 mandatory_order=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
