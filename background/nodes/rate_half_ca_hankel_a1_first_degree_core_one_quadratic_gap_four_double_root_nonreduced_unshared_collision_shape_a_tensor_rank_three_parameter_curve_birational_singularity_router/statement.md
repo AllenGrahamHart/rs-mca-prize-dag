@@ -24,15 +24,17 @@ If `d` is its degree onto the image and `c=deg C_a`, then
 m=dc.                                                (TBR3)
 ```
 
-The exact excess and padding ledgers imply that at most one slope in
-`Gamma` has no actual `U_0` incidence. Every other slope lies in a
-complete reduced degree-`d` fiber of the normalization map. Consequently
+The all-rank parameter-map birationality theorem uses the exact excess and
+padding ledgers to prove that at most one slope in `Gamma` has no actual
+`U_0` incidence and that every other slope lies in a complete reduced
+degree-`d` normalization fiber. Consequently
 
 ```text
 d divides 3e-z for some z in {0,1}.                  (TBR4)
 ```
 
-Since `d` also divides `m=e-2`, the official arithmetic gives `d=1`.
+Since `d` also divides `m=e-2`, the official arithmetic gives `d=1`. This
+is now available independently of the rank-three frame.
 Thus
 
 ```text
