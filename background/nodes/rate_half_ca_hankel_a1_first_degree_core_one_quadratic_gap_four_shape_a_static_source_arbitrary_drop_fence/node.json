@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence",
+    "title": "A=1 shape-A static-source arbitrary-drop fence",
+    "status": "PROVED",
+    "closure": "every omitted-recurrence run length is compatible with one exact-corank-one all-nonzero static source",
+    "statement": "For every d,n>=0, R=d+n+2, and q in {0,...,n}, over any sufficiently large field there are R distinct source points, all-nonzero source weights, a squarefree degree-d polynomial Q, and a degree-(n-q) polynomial G such that the (d+1)-square moment Hankel matrix has exact rank d with primitive kernel Q, while the omitted recurrence defects have exact initial zero-run length q. Hence static source nonvanishing, exact corank one, and bordered-source determinant identities alone cannot prove Shape-A rank non-stagnation.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
