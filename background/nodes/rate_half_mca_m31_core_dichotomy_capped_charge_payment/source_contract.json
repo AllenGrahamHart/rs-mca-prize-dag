@@ -1,0 +1,68 @@
+{
+  "schema": "rate-half-mca-m31-core-dichotomy-capped-charge-v1",
+  "sources": {
+    "lower_aware_statement_sha256": "7d2635c9b16ad58c20047d42ebb2ae765358649afd63ffd7641b4bb0e1874a4a",
+    "lower_aware_proof_sha256": "57598ac57b7d7dfee9d4bc808435a364ed2675bf4888ed6cd47a606246a445c1",
+    "absorption_statement_sha256": "1b8ca277bfd1ac820e5cd0b9ee23a0087bed561b9d1d7ac97ad04bdd2d47974e",
+    "absorption_proof_sha256": "f3ef385b9f247ad58a7fa3f4138960413075a1b9a41ecb4c461d6e58d1412800"
+  },
+  "theorem": "high-core absorption or capped lower-aware convex peeling",
+  "absorption_cutoff": 65450,
+  "records": {
+    "e130222": {
+      "e": 130222, "core_cap": 64781, "absorption_prefix": 4180178,
+      "absorption_bound": 5161307, "cutoff": 65516,
+      "prefix": 12406922, "groups": 260580, "base": 12148280,
+      "certificate": "core_packing", "lines": 14,
+      "target": 16776980, "charge": 235, "core_budget": 130677,
+      "allocation_runs": [[13785, 1], [9741, 12]],
+      "threshold_runs": [[18, 14]], "core_runs": [[9741, 14]],
+      "inside_runs": [[9736, 14]], "packing": 135849
+    },
+    "e130223": {
+      "e": 130223, "core_cap": 64782, "absorption_prefix": 4180156,
+      "absorption_bound": 5161285, "cutoff": 65516,
+      "prefix": 12406366, "groups": 269480, "base": 12138824,
+      "certificate": "core_packing", "lines": 14,
+      "target": 16776980, "charge": 235, "core_budget": 130678,
+      "allocation_runs": [[13786, 1], [9741, 12]],
+      "threshold_runs": [[18, 14]], "core_runs": [[9741, 14]],
+      "inside_runs": [[9736, 14]], "packing": 135849
+    },
+    "e130224": {
+      "e": 130224, "core_cap": 64783, "absorption_prefix": 4180145,
+      "absorption_bound": 5161274, "cutoff": 65517,
+      "prefix": 12961350, "groups": 260602, "base": 12702685,
+      "certificate": "core_packing", "lines": 70,
+      "target": 16776111, "charge": 1104, "core_budget": 142299,
+      "allocation_runs": [[3171, 1], [2046, 68]],
+      "threshold_runs": [[16, 70]], "core_runs": [[2046, 70]],
+      "inside_runs": [[2041, 70]], "packing": 130795
+    },
+    "e130225": {
+      "e": 130225, "core_cap": 64784, "absorption_prefix": 4180124,
+      "absorption_bound": 5161253, "cutoff": 65517,
+      "prefix": 12960735, "groups": 269520, "base": 12693152,
+      "certificate": "core_packing", "lines": 70,
+      "target": 16776111, "charge": 1104, "core_budget": 142300,
+      "allocation_runs": [[3172, 1], [2046, 68]],
+      "threshold_runs": [[16, 70]], "core_runs": [[2046, 70]],
+      "inside_runs": [[2041, 70]], "packing": 130795
+    },
+    "adjacent": {
+      "e": 130226, "core_cap": 64785, "absorption_prefix": 4180114,
+      "absorption_bound": 5161243, "cutoff": 65518,
+      "prefix": 13575970, "groups": 260627, "base": 13317279,
+      "certificate": "threshold_one_wall", "lines": 14763,
+      "target": 13577673, "charge": 3199542,
+      "core_budget": 545032556, "full_caps": 8412,
+      "remainder": 61136, "first_threshold": 14,
+      "next_threshold": 1, "packing": 0
+    }
+  },
+  "census": {
+    "first_e": 130222, "last_e": 130225, "adjacent_e": 130226,
+    "paid": 4, "line_counts": {"14": 2, "70": 2},
+    "max_lines": 70, "residual_ceiling": 1044241
+  }
+}

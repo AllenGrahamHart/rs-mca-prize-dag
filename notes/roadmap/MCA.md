@@ -53,9 +53,13 @@ certificates required by the challenge.
   shared core budget then pays 21 further supports through `e=130219`.
   Retaining all forced total-core lower bounds in that convex optimization
   pays `e=130220,130221`; both rows terminate after 38 lines with inside-core
-  packing lower bound `142893`.  At `e=130222`, the lower-aware envelope
-  reaches a residual-base wall after 288 peels, so the Mersenne full-lift
-  residual now starts there.
+  packing lower bound `142893`.  Splitting each subsequent selected line at
+  actual core `e+10-65450` gives either weighted-prefix core absorption or a
+  capped convex charge.  This pays `e=130222..130225`, with 14 lines on the
+  first two rows and 70 on the last two.  At `e=130226`, the initial forced
+  threshold is only 14 and has zero core lower bound; the capped compiler
+  eventually reaches threshold one, so the Mersenne full-lift residual now
+  starts there.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
