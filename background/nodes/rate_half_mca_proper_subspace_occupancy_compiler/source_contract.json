@@ -1,0 +1,50 @@
+{
+  "schema": "rate-half-mca-proper-subspace-occupancy-compiler-v1",
+  "theorem": {
+    "range": "1<=q<=K and m>K",
+    "last_factor": "max(1,e-(N-m))",
+    "first_endpoint": "N_fall_(q+1)/(m*(w+1)_rise_(q-1)*L)",
+    "second_endpoint": "(N-K+q)_fall_(q+1)/((w+1)_rise_q*L)"
+  },
+  "regression": {
+    "N": 100,
+    "K": 1,
+    "m": 21,
+    "q": 1,
+    "e": 80,
+    "observed_slopes": 31,
+    "corrected_bound": 471
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "unconditional_through_q": 9,
+      "walls": [
+        {"q": 10, "minimum_L": 4, "minimum_e": 981108, "maximum_j": 67468, "bound": 215264294199835875, "previous_bound": 287019058933114501},
+        {"q": 11, "minimum_L": 49, "minimum_e": 981153, "maximum_j": 67423, "bound": 273052400452931367, "previous_bound": 278740992129034104},
+        {"q": 12, "minimum_L": 757, "minimum_e": 981861, "maximum_j": 66715, "bound": 274631447525088415, "previous_bound": 274994716635571336},
+        {"q": 13, "minimum_L": 11748, "minimum_e": 992852, "maximum_j": 55724, "bound": 274966795861149003, "previous_bound": 274990203266942921}
+      ],
+      "unpaid": {"q": 14, "required_L": 182530, "maximum_L": 67472, "maximum_L_bound": 743896698428332665}
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "unconditional_through_q": 1,
+      "walls": [
+        {"q": 2, "minimum_L": 16, "minimum_e": 981144, "maximum_j": 67432, "bound": 15838845, "previous_bound": 16894768},
+        {"q": 3, "minimum_L": 235, "minimum_e": 981363, "maximum_j": 67213, "bound": 16764415, "previous_bound": 16836058},
+        {"q": 4, "minimum_L": 3651, "minimum_e": 984779, "maximum_j": 63797, "bound": 16774561, "previous_bound": 16779157},
+        {"q": 5, "minimum_L": 56748, "minimum_e": 1037876, "maximum_j": 10700, "bound": 16776956, "previous_bound": 16777251}
+      ],
+      "unpaid": {"q": 6, "required_L": 882143, "maximum_L": 67448, "maximum_L_bound": 219426634}
+    }
+  ]
+}

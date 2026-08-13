@@ -1,6 +1,6 @@
 # Audit
 
-The verifier now checks only the regression contract and the two surviving
-extremal gates.  Historical rank/support wall scans are not accepted as
-proofs.  The target cannot return to `PROVED` until a replacement theorem has
-its own proof and falsifier.
+The verifier checks the regression contract, the two independent extremal
+gates, and the exact residual intervals supplied by the new proved occupancy
+compiler.  Historical rank/support scans are not accepted as proofs.  The
+target cannot return to `PROVED` until every printed interval is paid.

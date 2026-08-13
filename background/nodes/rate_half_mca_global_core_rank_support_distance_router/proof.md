@@ -18,4 +18,19 @@ e>=1048576-4334=1044242.
 
 The independent sparse-direction punctured-list theorem gives `e<=5` and
 `e<=1` at those first dimensions.  No theorem in the repaired dependency
-sub-DAG pays the interval between these gates.
+sub-DAG initially paid the interval between these gates.
+
+The corrected proper-subspace theorem replaces the false final `w` basis
+factor by `L=max(1,e-(N-m))`.  Exact endpoint evaluation proves all-support
+payment through rank 9 on KoalaBear and rank 1 on Mersenne.  At the next
+ranks its first budget-fitting `e` values are exactly
+
+```text
+KoalaBear q=10,11,12,13: 981108, 981153, 981861, 992852;
+Mersenne  q=2,3,4,5:     981144, 981363, 984779, 1037876.
+```
+
+At top rank the required final factors exceed the maximum possible factors,
+so the independent recursive suffix remains the best proved high-support
+gate.  Combining these disjoint exact suppliers gives the residual intervals
+printed in `statement.md`.

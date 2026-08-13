@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quartic_companion_toral_deck_involution_router/verify.py",
-      "seconds": 0.040078,
+      "script": "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify.py",
+      "seconds": 0.025388,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUARTIC_TORAL_DECK_INVOLUTION_PASS defect=14 full_fibers=549755813875 pair_floor=4123168604063 quotient_bidegree=(4,3)\n"
+      "stdout_tail": "RATE_HALF_MCA_PROPER_SUBSPACE_OCCUPANCY_COMPILER_PASS checks=11 mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_quartic_companion_toral_deck_involution_router/verify_audit.py",
-      "seconds": 0.019126,
+      "script": "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify_audit.py",
+      "seconds": 0.036698,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_QUARTIC_TORAL_DECK_INVOLUTION_AUDIT_PASS tamper=1/1\n"
+      "stdout_tail": "RATE_HALF_MCA_PROPER_SUBSPACE_OCCUPANCY_COMPILER_AUDIT_PASS zero_normal_cases=616 walls=8 regression=471 toy_selections=540\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

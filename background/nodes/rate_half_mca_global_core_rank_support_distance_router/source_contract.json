@@ -1,15 +1,20 @@
 {
-  "schema": "rate-half-mca-global-core-rank-support-replacement-target-v2",
+  "schema": "rate-half-mca-global-core-rank-support-replacement-target-v3",
   "status": "TARGET",
   "refuter": "rate_half_mca_affine_span_incidence_counterexample",
   "retracted": ["affine-rank gate", "direction-support affine-basis gate", "common-zero gate"],
   "surviving_sources": {
     "gauge": "rate_half_mca_codeword_direction_gauge_rank_router",
     "sparse": "rate_half_mca_sparse_direction_punctured_list_payment",
-    "direction": "rate_half_mca_direction_mismatch_recursive_shortening"
+    "direction": "rate_half_mca_direction_mismatch_recursive_shortening",
+    "occupancy": "rate_half_mca_proper_subspace_occupancy_compiler"
   },
   "first_gates": [
     {"row": "KoalaBear MCA", "s": 14, "R": 1048576, "low_e": 5, "frontier_j": 4337, "high_e": 1044239},
     {"row": "Mersenne-31 MCA", "s": 6, "R": 1048576, "low_e": 1, "frontier_j": 4334, "high_e": 1044242}
+  ],
+  "replacement_walls": [
+    {"row": "KoalaBear MCA", "s": 14, "low_e": 5, "unconditional_through_q": 9, "conditional": [[10,981108],[11,981153],[12,981861],[13,992852]], "top_q": 14, "top_high_e": 1044239},
+    {"row": "Mersenne-31 MCA", "s": 6, "low_e": 1, "unconditional_through_q": 1, "conditional": [[2,981144],[3,981363],[4,984779],[5,1037876]], "top_q": 6, "top_high_e": 1044242}
   ]
 }

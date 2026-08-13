@@ -29393,7 +29393,7 @@
    "title": "Rate-half MCA global-core rank/support replacement target",
    "status": "TARGET",
    "closure": "rank/common-zero regression; replacement theorem required",
-   "statement": "The former affine-rank and common-zero payments are retracted after an exact counterexample to their shared incidence denominator. Valid extremal gates remain: at the first residual dimensions, KoalaBear pays e<=5 or e>=1044239 and Mersenne pays e<=1 or e>=1044242. A replacement proper-subspace occupancy theorem or alternative middle-support payment is required.",
+   "statement": "The former affine-rank and common-zero payments remain retracted. A corrected proper-subspace occupancy theorem now pays all supports through affine rank 9 on KoalaBear and rank 1 on Mersenne and supplies exact high-support walls through the penultimate ranks. The printed middle-support intervals, especially the top-rank cells, still require payment.",
    "refs": [
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
     "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
@@ -29538,6 +29538,24 @@
     "background/nodes/rate_half_mca_affine_span_incidence_counterexample/source_contract.json",
     "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify.py",
     "background/nodes/rate_half_mca_affine_span_incidence_counterexample/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_proper_subspace_occupancy_compiler",
+   "title": "Rate-half MCA proper-subspace occupancy compiler",
+   "status": "PROVED",
+   "closure": "corrected pair-noncontained affine-rank/support payment",
+   "statement": "For a pair-noncontained Reed-Solomon MCA slope family whose selected explanations have affine rank q, proper-subspace occupancy and direction coset support give the exact upper bound floor(max(A_q,B_q)/max(1,e-(N-m))). The final factor replaces the false unconditional w factor. It fully pays KoalaBear ranks at most 9 and Mersenne rank 1 at their first residual dimensions and gives exact higher-rank support walls.",
+   "refs": [
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/statement.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/proof.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/audit.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/result.md",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify.py",
+    "background/nodes/rate_half_mca_proper_subspace_occupancy_compiler/verify_audit.py"
    ]
   },
   {
@@ -65739,6 +65757,11 @@
   },
   {
    "from": "rate_half_mca_direction_support_common_zero_envelope",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_proper_subspace_occupancy_compiler",
    "to": "rate_half_mca_global_core_rank_support_distance_router",
    "kind": "ev"
   },

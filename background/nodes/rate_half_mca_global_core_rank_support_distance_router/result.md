@@ -1,4 +1,6 @@
 # Result
 
-`TARGET`: rank/common-zero payments retracted.  The first surviving gates are
-`e<=5` or `e>=1044239` on KoalaBear and `e<=1` or `e>=1044242` on Mersenne.
+`TARGET`: the false rank/common-zero payments remain retracted.  A corrected
+proper-subspace theorem now pays KoalaBear affine ranks through 9 and
+Mersenne rank 1 for every support, and gives exact high-support walls through
+the penultimate ranks.  The middle intervals in `statement.md` remain open.

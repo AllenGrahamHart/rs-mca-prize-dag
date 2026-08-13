@@ -33475,3 +33475,97 @@ compute:                 exact bounded local arithmetic under RAMguard;
 next route action:       export the counterexample/correction upstream, then
                          seek a proper-subspace occupancy replacement
 ```
+# Cycle 217: upstream MCA affine-incidence correction (2026-08-13)
+
+Cycle 216's exact counterexample was reconstructed on current upstream
+`main@93fba1be` and exported as draft PR `#1165` at commit `809c8e31`.
+The upstream manuscript now states the counterexample in place of the false
+theorem and retracts the dependent KoalaBear and Mersenne-31 payments.
+
+Two independently structured standard-library verifiers reconstruct all 31
+selected supports.  The second implementation independently chooses legal
+coordinates and exhaustively scans all 1009 constant direction codewords.
+The manuscript compiles successfully in an isolated output directory.
+
+Open-PR reconciliation found a new stacked PR `#1164`.  Both `#1163` and
+`#1164` were given dependency alerts.  Their fixed-core
+codeword-affine-span staircase inherits the refuted denominator.  The
+selector-free all-LineRay error-affine-core payment in `#1164` is distinct:
+its zero-mask/Bollobas set-pair proof does not use the failed incidence step
+and remains bankable at its printed scope.
+
+```text
+start:                   27be48115
+canonical prize:         c8d48cd4b
+upstream main:           93fba1be
+relevant upstream PRs:   #1163, #1164, #1165
+result:                  EXPORTED exact counterexample and correction
+DAG delta:               none; Cycle 216 already repaired dependencies
+upstream terminal delta: false affine-span MCA compiler publicly retracted;
+                         dependent fixed-core payments flagged
+delta-star movement:     none
+compute:                 exact local arithmetic under RAMguard; no Modal
+next route action:       seek a true proper-subspace occupancy or alternate
+                         whole-line compiler for the repaired MCA target
+```
+# Cycle 218: MCA proper-subspace occupancy repair (2026-08-13)
+
+The Cycle 216 counterexample identifies one precise loss: local full incident
+rank gives one final basis extension, not the old unconditional factor `w`.
+The new field-general theorem
+`rate_half_mca_proper_subspace_occupancy_compiler` proves the correct
+interpolation.
+
+For selected explanation affine rank `q`, let
+
+```text
+e=min_(b in C) wt(r_1-b),       t=N-m,
+L=max(1,e-t).
+```
+
+MDS generalized weights control every incident normal subspace of dimension
+below `q`.  Same-support pair noncontainment supplies one final transverse
+normal, while direction-coset distance raises that final factor to `L`.
+The resulting exact bound is
+
+```text
+floor(max(A_q,B_q)/L),
+```
+
+with the two zero-normal endpoint expressions printed in the node.  The old
+formula is recovered only at maximum direction support, where `L=w`.
+
+At the first KoalaBear residual dimension, ranks 1 through 9 are now paid for
+every direction support.  Ranks 10 through 13 are paid respectively from
+
+```text
+e=981108, 981153, 981861, 992852.
+```
+
+Rank 14 remains on the independent gates `e<=5` or `e>=1044239`.  At the
+first Mersenne residual dimension, rank 1 is fully paid and ranks 2 through 5
+are paid from
+
+```text
+e=981144, 981363, 984779, 1037876.
+```
+
+Rank 6 remains on `e<=1` or `e>=1044242`.
+
+The primary checker recomputes all exact walls and eight adjacent failures.
+The independent rational checker scans 616 allowed zero-normal cases and
+replays the `GF(1009)` regression at corrected bound 471.  It also exhausts
+all 729 `GF(3)` rank-one received lines and 540 nontrivial selected families.
+
+```text
+start:                   27be48115 plus Cycle 217 provenance edits
+result:                  NARROWED; one PROVED field-general replacement
+DAG delta:               +1 PROVED node, +1 evidence edge
+critical status delta:   none; the replacement target remains TARGET
+upstream terminal delta: candidate correction/addendum to PR #1165 after
+                         local adversarial review
+delta-star movement:     none
+compute:                 exact bounded local arithmetic under RAMguard
+next route action:       attack the explicit top-rank middle-support cells,
+                         or export the corrected theorem after review
+```
