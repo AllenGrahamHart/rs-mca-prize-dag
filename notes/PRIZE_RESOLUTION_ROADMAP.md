@@ -34055,7 +34055,9 @@ uses quotient grouping and a sharp finite triple-overlap model.
 ```text
 start:                   8466d6ad7
 canonical prize:         c8d48cd4b (no newer Fable commit)
-result:                  BRANCH CLOSED; one PROVED field-general compiler
+upstream export head:    #1165 @ 0b7bedf7; import note posted to #1164
+result:                  BRANCH CLOSED + EXPORTED; one PROVED field-general
+                         compiler
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
 full-lift residuals:     KoalaBear 67472<=e<=1044238;
