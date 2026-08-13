@@ -53,9 +53,13 @@ all caps remain legal but the exact profile is
 ```text
 start:                   c2bbbaa86
 canonical prize:         c8d48cd4b (no newer Fable commit)
-result:                  NARROWED; one PROVED field-general compiler
+upstream export head:    #1165 @ d4d65372; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved again to
+                         e<=64047/65454; official rows remain open
 full-lift residuals:     KoalaBear 64048<=e<=1044238;
                          Mersenne 65455<=e<=1044241
 delta-star movement:     none
