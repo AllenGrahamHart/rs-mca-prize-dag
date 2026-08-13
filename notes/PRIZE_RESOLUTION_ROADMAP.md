@@ -34252,4 +34252,8 @@ compute:                 528 official supports and about 34 million
 next route action:       improve the Mersenne prefix profile by 638658 or
                          replace the KoalaBear endpoint chord theorem;
                          in parallel, attack rank-10 exception-12
+export:                  przchojecki/rs-mca PR #1165 head c09423b8b;
+                         manuscript corollary, exact note, and verifier;
+                         #1164 comment 5276545030;
+                         #1166 dependency comment 5276545038
 ```

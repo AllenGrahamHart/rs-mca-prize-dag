@@ -53,6 +53,8 @@ def raw_cap(R: int, d: int, K: int, e: int, h: int) -> dict[str, int | None]:
 def profile(R: int, d: int, K: int, e: int) -> tuple[int | None, dict[str, int | None]]:
     N, m = R + K, d + K
     H = e - (e - K) // 3 - 1
+    if m - H <= K - 1:
+        raise Reject("prefix agreement guard")
     caps = [0]
     for h in range(1, H + 1):
         record = raw_cap(R, d, K, e, h)

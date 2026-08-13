@@ -10,7 +10,7 @@ Retain the full-lift notation and put
 s=floor((e-K)/3),       H=e-s-1,       t=N-m.
 ```
 
-For each prefix threshold `1<=h<=H`, let `C_h` be the ordinary punctured
+Assume `A_H=m-H>K-1`. For each prefix threshold `1<=h<=H`, let `C_h` be the ordinary punctured
 Johnson cap when its denominator is positive, and otherwise the proved
 mean-centered Gram cap whenever its hypotheses hold. Assume every `C_h` is
 defined and put

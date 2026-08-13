@@ -9,7 +9,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify.py",
-      "seconds": 23.691552,
+      "seconds": 25.225602,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_MEAN_CENTERED_GLOBAL_LINE_PROFILE_PASS checks=548 mutations=4/4\n"
@@ -17,7 +17,7 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify_audit.py",
-      "seconds": 0.188345,
+      "seconds": 0.201823,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_MEAN_CENTERED_GLOBAL_LINE_PROFILE_AUDIT_PASS checks=20 mutations=1/1\n"

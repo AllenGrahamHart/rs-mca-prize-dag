@@ -13,8 +13,8 @@ HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
 CONTRACT_SHA256 = "12b70130eee9f99192a07d730de15006455229ff192f60f46788464ff1846c73"
 PINS = {
-    "statement.md": "c9b3b01a83338d60a4fc697ee4a5a79e8ab213bf3a281bf3b5d3c3246948e3ea",
-    "proof.md": "1d703ebce820b4d807356d275634bf0f4df0568f28b11d8bbf55b6ecff293241",
+    "statement.md": "b1fa6c8ce0dfe3eca422dec52348346dae7d342a77c71ad685bcb88ef23f4632",
+    "proof.md": "523c35fc8eefa4d8ea9612b2bc6ecd48373af2e9d09e5791eacc441309f2308b",
 }
 
 
@@ -38,6 +38,8 @@ def cumulative_cap(n: int, m: int, c: int, h: int) -> tuple[int | None, tuple[in
 def grouped_profile(R: int, d: int, K: int, e: int) -> tuple[int | None, dict[str, int]]:
     N, m, c, n = R + K, d + K, K - 1, R + K - e
     H = e - (e - K) // 3 - 1
+    if m - H <= c:
+        raise Reject("prefix agreement guard")
     raw = []
     for h in range(1, H + 1):
         value, record = cumulative_cap(n, m, c, h)
