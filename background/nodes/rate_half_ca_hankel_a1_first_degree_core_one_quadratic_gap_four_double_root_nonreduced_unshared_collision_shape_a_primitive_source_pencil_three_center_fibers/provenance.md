@@ -7,4 +7,5 @@
   accounting.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 60 of draft PR `przchojecki/rs-mca#1161`,
+  commit `930a7c9`, review comment `issuecomment-5284568335`.
