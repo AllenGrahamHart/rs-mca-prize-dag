@@ -8,4 +8,5 @@
   endpoint source isotropy, and Sylvester rank inequality.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 52 of draft PR `przchojecki/rs-mca#1161`,
+  commit `0f673f6`, review comment `issuecomment-5283849565`.
