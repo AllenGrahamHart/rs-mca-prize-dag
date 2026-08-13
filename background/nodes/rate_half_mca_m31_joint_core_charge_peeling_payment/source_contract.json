@@ -1,0 +1,72 @@
+{
+  "schema": "rate-half-mca-m31-joint-core-charge-peeling-v1",
+  "sources": {
+    "recursive_statement_sha256": "53db2ab106c93d6e21e2b7ac5673509a099d36262478144616946b5eb630784e",
+    "recursive_proof_sha256": "1b9f6621104164183d6b83815f9e4c9766c36e7b212c51faba36ce2ad95dce1b",
+    "absorption_statement_sha256": "1b8ca277bfd1ac820e5cd0b9ee23a0087bed561b9d1d7ac97ad04bdd2d47974e",
+    "absorption_proof_sha256": "f3ef385b9f247ad58a7fa3f4138960413075a1b9a41ecb4c461d6e58d1412800"
+  },
+  "theorem": "joint convex core charge for recursive affine-line peeling",
+  "records": {
+    "first": {
+      "e": 130199,
+      "cutoff": 65504,
+      "prefix": 8421151,
+      "groups": 269019,
+      "base": 8154082,
+      "certificate": "core_packing",
+      "lines": 4,
+      "target": 15795860,
+      "charge": 981355,
+      "core_budget": 130229,
+      "full": 1,
+      "remainder": 62776,
+      "packing": 133986,
+      "threshold_runs": [[33, 1], [29, 3]],
+      "inside_runs": [[36789, 1], [32409, 3]]
+    },
+    "last": {
+      "e": 130219,
+      "cutoff": 65514,
+      "prefix": 11445963,
+      "groups": 269400,
+      "base": 11178503,
+      "certificate": "core_packing",
+      "lines": 13,
+      "target": 15795702,
+      "charge": 981513,
+      "core_budget": 130609,
+      "full": 1,
+      "remainder": 63156,
+      "packing": 134835,
+      "threshold_runs": [[21, 1], [18, 12]],
+      "inside_runs": [[18393, 1], [9736, 12]]
+    },
+    "adjacent": {
+      "e": 130220,
+      "cutoff": 65515,
+      "prefix": 11904256,
+      "groups": 260559,
+      "base": 11645636,
+      "certificate": "zero_core_wall",
+      "lines": 44,
+      "target": 14814320,
+      "charge": 1962895,
+      "core_budget": 134950,
+      "full": 2,
+      "remainder": 44,
+      "packing": 97018,
+      "threshold_runs": [[20, 1], [16, 42], [13, 1]],
+      "inside_runs": [[15811, 1], [2041, 42], [0, 1]]
+    }
+  },
+  "census": {
+    "first_e": 130199,
+    "last_e": 130219,
+    "adjacent_e": 130220,
+    "paid": 21,
+    "max_lines": 13,
+    "line_counts": {"4": 2, "5": 10, "6": 3, "7": 2, "8": 1, "10": 1, "13": 2},
+    "residual_ceiling": 1044241
+  }
+}

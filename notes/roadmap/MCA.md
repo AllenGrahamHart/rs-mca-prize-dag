@@ -49,8 +49,10 @@ certificates required by the challenge.
   then removes each forced affine line and either reaches the weighted
   prefix or contradicts pairwise inside-core packing for the distinct
   peeled lines.  This pays another `5,393` supports through `e=130198`,
-  using at most five lines.  At `e=130199` the residual base charge reaches
-  the remaining budget before another line is forced, so the Mersenne
+  using at most five lines.  Charging all removed lines jointly from their
+  shared core budget then pays 21 further supports through `e=130219`.
+  At `e=130220`, 43 positive forced cores have packing lower bound only
+  `97018`, and the next threshold has zero forced core, so the Mersenne
   full-lift residual now starts there.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,

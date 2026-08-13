@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1896,
+  "node": {
+    "id": "rate_half_mca_m31_joint_core_charge_peeling_payment",
+    "title": "Mersenne joint-core charge peeling payment",
+    "status": "PROVED",
+    "closure": "joint convex core charge for recursively peeled explanation lines",
+    "statement": "The total cores of r distinct peeled parameterized explanation lines have sum at most e+C(r+1,2)(K-1). Convex concentration gives a sharp joint line charge, and the resulting recursion pays every Mersenne full-lift support 130199<=e<=130219. Adjacent e=130220 is a zero-forced-core method wall, not unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/statement.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/proof.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/audit.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/result.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/provenance.md",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/source_contract.json",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/verify.py",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/verify_audit.py",
+      "background/nodes/rate_half_mca_m31_joint_core_charge_peeling_payment/verify_scan.c"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_recursive_line_peeling_core_packing_payment", "order": 5304},
+    {"from": "rate_half_mca_m31_residue_zero_core_absorption_payment", "order": 5305}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5306},
+    {"to": "rate_half_band_crossing_location", "order": 5307}
+  ],
+  "refutes": []
+}
