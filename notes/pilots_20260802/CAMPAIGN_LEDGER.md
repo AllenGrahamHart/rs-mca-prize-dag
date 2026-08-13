@@ -6420,3 +6420,45 @@ with 2w) / P2 (d1=67473 K-adapter, shared) / P3 (#1160-line P_BC
 regression, shared), ~3 packets, jointly decisive. Route commitment +
 the outward-facing hedge (P1 note into #1160/#1163 lineage + Scott
 ping per m2-collision protocol) SURFACED for ratification, not taken.
+
+## WAVE 60 INTEGRATED (2026-08-13, coordinator)
+
+**MERGED exact pin 0ffb738f0 (Codex cycles ~166-236, +74 nodes / +241
+edges, census-neutral 231=167/37/27).** Mass replay 175/175 after 2
+coordinator catches (stale source pins left by the affine-span repair
+cascade on direction_mismatch_recursive_shortening +
+global_core_direction_distance_router; refreshed, both re-PASS with
+21.6M-iteration and 9961-dimension runs). HEADLINES:
+
+1. **All three route-comparison probes adjudicated overnight** (Codex
+   read the dossier at c8d48cd4b): P1 reserve repricing SURVIVES WITH
+   EXPLICIT PRICE (B_owner^(2w)(g) <= B*-(2w+31)-(n-g); exact endpoint
+   table both rows; four charges sum identically to B*); P2 unguarded
+   K-to-k+1 transport REFUTED (u=1_E, v=X^k, slope 0: bad at K=k,
+   explained at K=k+1) then the GUARDED adapter PROVED (cycle 198:
+   exact bijection envelope+degree-cap <-> deg<k explanations; 36015
+   GF(7) records); P3 #1160-line P_BC regression PASSES at
+   necessary-guard level (all 67472 slopes rejected by one degree:
+   67471 < 67472). Cycle 199 banked the typed d1=67473 pole-line
+   witness certificate (owners honestly UNASSIGNED). SEM-QBC conditions
+   1+4 narrowed to owner-level; hand-verified by coordinator.
+2. **Affine-span incidence REFUTED (cycle 216)**: GF(1009)
+   counterexample, 31 slopes vs claimed bound 23 under direction
+   separation; proper-subspace normal multiplicity is the gap. Exported
+   as PR #1165 (02:39); Scott replied with the corrected support-local
+   transversality compiler PR #1166 (04:46; theta margin), harvested in
+   cycle 229. **Our #1163 import node retrofitted (Codex, audited):
+   J_13/J_14 direction-separated payment RETRACTED to a
+   negative-regression arithmetic record; adapter + interface wall +
+   B_cell + Jo wall unaffected; replacement pays full-rank shortened
+   cells through s=9 with exact exception terminals above.**
+3. M31 endgame (cycles 231-236): boundary layers, residue-zero cores,
+   rank-10 margin split, fixed-cutoff interval payments; mean-Gram
+   Delsarte LP = ROUTE CUT (no saving). E1 profile-44 contractions
+   (213-215) wired into critical E1 pair-budget nodes.
+4. Critical slot dli_wcl_slot_1_6_emptiness evidence EXTENDED (+128
+   generated extension rows; falsifier broadened to generated fields);
+   stays TARGET.
+
+Chain: 2400/7097; all four verifiers PASS; census UNCHANGED; manifest
+3418 scripts. No Codex compliance flags; coordinator breaches: zero.
