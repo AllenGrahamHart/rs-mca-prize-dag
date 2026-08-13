@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_near_johnson_gram_rank_payment/verify.py",
-      "seconds": 0.023795,
+      "script": "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/verify.py",
+      "seconds": 1.703814,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_NEAR_JOHNSON_GRAM_RANK_PASS checks=311 mutations=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_MEAN_CENTERED_GRAM_PROFILE_PASS checks=46 mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_near_johnson_gram_rank_payment/verify_audit.py",
-      "seconds": 0.02666,
+      "script": "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/verify_audit.py",
+      "seconds": 0.026647,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_NEAR_JOHNSON_GRAM_RANK_AUDIT_PASS checks=71 mutations=1/1\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_MEAN_CENTERED_GRAM_PROFILE_AUDIT_PASS checks=69 mutations=1/1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

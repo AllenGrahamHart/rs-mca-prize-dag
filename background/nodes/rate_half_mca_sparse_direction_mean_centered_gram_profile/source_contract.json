@@ -1,0 +1,55 @@
+{
+  "schema": "rate-half-mca-sparse-direction-mean-centered-gram-profile-v1",
+  "sources": {
+    "punctured_johnson_profile": "rate_half_mca_sparse_direction_punctured_johnson_profile",
+    "centered_gram_rung": "rate_half_mca_sparse_direction_near_johnson_gram_rank_payment"
+  },
+  "theorem": {
+    "mean_center": "p=A^2/n",
+    "hypotheses": "g=nc-A^2>=0, 2A^2>=nc, T=(n-A)^2-(n-1)g>0",
+    "ordinary_list_cap": "floor((n-1)n^2(A-c)/(A*T))",
+    "profile": "sum_(h=1)^e (B_h-B_(h-1))*floor(e/h), B_h=min_(h<=v<=e) C_v"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "first_new_e": 64038,
+      "last_paid_e": 64047,
+      "equivalent_defect_floor": 984529,
+      "punctured_length_at_last": 984543,
+      "agreement_at_last": 3439,
+      "johnson_defect_at_last": 972338,
+      "chord_balance_at_last": 10854383,
+      "mean_gram_denominator_at_last": 5257459620,
+      "ordinary_cap_at_last": 180835154,
+      "profile_at_last": 181731868,
+      "adjacent_e": 64048,
+      "adjacent_mean_gram_denominator": -1499457466,
+      "adjacent_profile": null
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "first_new_e": 65419,
+      "last_paid_e": 65454,
+      "equivalent_defect_floor": 983122,
+      "punctured_length_at_last": 983128,
+      "agreement_at_last": 2000,
+      "johnson_defect_at_last": 915640,
+      "chord_balance_at_last": 3084360,
+      "mean_gram_denominator_at_last": 62421746104,
+      "ordinary_cap_at_last": 15184718,
+      "profile_at_last": 16101127,
+      "adjacent_e": 65455,
+      "adjacent_mean_gram_denominator": 58496056500,
+      "adjacent_profile": 17120123
+    }
+  ]
+}

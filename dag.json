@@ -29631,6 +29631,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "title": "Rate-half MCA sparse-direction mean-centered Gram profile",
+   "status": "PROVED",
+   "closure": "PSD post-Johnson cap and exact suffix-minimum profile",
+   "statement": "Mean-centering equal-size punctured agreement incidences gives a PSD Gram matrix of rank at most n-1. A chord bound on its off-diagonal squares yields a stronger post-Johnson ordinary-list cap. Combining Johnson and mean-centered raw caps through their suffix minima and the exact deficit owner profile expands the low-support walls to e<=64047 on KoalaBear and e<=65454 on Mersenne-31.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/statement.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/proof.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/audit.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/result.md",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/verify.py",
+    "background/nodes/rate_half_mca_sparse_direction_mean_centered_gram_profile/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65894,6 +65912,21 @@
   },
   {
    "from": "rate_half_mca_sparse_direction_near_johnson_gram_rank_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_punctured_johnson_profile",
+   "to": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_near_johnson_gram_rank_payment",
+   "to": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
