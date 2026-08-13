@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+    "title": "A=1 shape-A three-class Koszul/Gram router",
+    "status": "PROVED",
+    "closure": "exact three-quadratic generation and proportional classwise source Gram matrices",
+    "statement": "Let V be the parameter coefficient space of the Shape-A split biform G and r=dim V. Each of the three source classes has n+2 or n+3 domain points, so each class alone spans V. If q_alpha=ell_beta ell_theta and cyclically, then P_e=q_alpha V+q_beta V+q_theta V and the restricted Koszul map V^3->P_e is surjective with kernel dimension 3r-(e+1). For J={h:ell_alpha h,ell_beta h,ell_theta h in V}, the triple shifted intersection is ell_alpha ell_beta ell_theta J and 2dim J<=3r-(e+1). The two endpoint source-frame cancellations make the three classwise weighted locator Gram matrices proportional to one symmetric K, with im K in the triple intersection and max(0,2r-(n+2))<=rank K<=dim J. Officially the minimum live rank has Koszul kernel dimension two, and K is forced nonzero once r>=137438953472.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
