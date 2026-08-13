@@ -27,18 +27,18 @@ the center itself `F`-rational: all affine explanation lines pass through
 one common finite slope-codeword point when `A!=0`, or have one common
 direction codeword at projective slope infinity when `A=0`.
 
-This is an exact bridge from the first Mersenne size-two wall to the shape of
-the critical primitive-star problem, but not yet a proof of that consumer's
-population bound.  The complementary algebraic residual has factor degree
-at least two.
+This classifies the first Mersenne size-two wall's degree-one MCA geometry,
+but does not pay that project's star population.  It is not the LIST/PTE
+object in `x4_primitive_star_u1_coverage`.  The complementary algebraic
+residual has factor degree at least two.
 
 ```text
 start:                   69a98c3a7
 canonical prize:         fdfb20a42
 upstream frontier:       #1163-#1166; #1165 @ 2bddbd27
 result:                  NARROWED; linear-factor router PROVED
-DAG delta:               +1 PROVED node, +4 edges
-critical status delta:   none; primitive-star target remains TARGET
+DAG delta:               +1 PROVED node, +3 edges
+critical status delta:   none; rate-half crossing remains TARGET
 Mersenne residual:       130237<=e<=1044241
 first-support residual:  F-rational projective star or factor degree >=2
 delta-star movement:     none

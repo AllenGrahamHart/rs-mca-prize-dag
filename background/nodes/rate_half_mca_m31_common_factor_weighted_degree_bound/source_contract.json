@@ -1,0 +1,32 @@
+{
+  "schema": "rate-half-mca-m31-common-factor-weighted-degree-bound-v1",
+  "sources": {
+    "interpolation_statement_sha256": "54b2cf41ab04237d816bfa0dc9e381e656dd7e618ddffdc299635b630a65137d",
+    "interpolation_proof_sha256": "4724a3ccc092b7520a3b2433748e62fb7b1a980882992674f772ceef9267de39",
+    "mass_statement_sha256": "df2bcaa8c2577970c1e39b867787c0d311b7daa7679f4e0ecce053a6eb0963d8",
+    "mass_proof_sha256": "8015bbe6671ef8a68d056a6ebb71c87bcc119844f1ce550b302a3cfd630432d0"
+  },
+  "kernel": {
+    "weighted_degree": 264,
+    "dimension_lower": 938,
+    "quotient_degree_reject": 46,
+    "monomials_reject": 935,
+    "quotient_degree_accept": 47,
+    "monomials_accept": 990,
+    "factor_weighted_degree_max": 217,
+    "factor_yz_degree_max": 43
+  },
+  "nonlinear": {
+    "factor_yz_degree_min": 2,
+    "forced_lines": 7583,
+    "ambient_yz_degree": 52,
+    "off_factor_pairs_max": 2500,
+    "on_factor_pairs_min": 5083,
+    "inside_core_lower": 807,
+    "pairwise_core_intersection": 5,
+    "inside_support": 130237,
+    "factor_points_min": 126266,
+    "exception_points_max": 3971
+  },
+  "conclusion": "nonlinear common factor has YZ degree 2..43 and at most 3971 inside exceptions"
+}

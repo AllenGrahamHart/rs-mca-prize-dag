@@ -8,5 +8,6 @@ factor mass >=4982 sections
           +--> constant coefficients --> F-rational projective star
 ```
 
-The star branch is evidence for the existing critical primitive-star
-coverage problem.  It is not wired as a proved transport into that consumer.
+This is an MCA explanation-line star.  It is not the LIST/PTE object in
+`x4_primitive_star_u1_coverage`, and no transport between those currencies
+is claimed.

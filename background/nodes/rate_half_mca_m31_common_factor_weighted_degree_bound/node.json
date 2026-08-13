@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1903,
+  "node": {
+    "id": "rate_half_mca_m31_common_factor_weighted_degree_bound",
+    "title": "Mersenne common-factor weighted-degree bound",
+    "status": "PROVED",
+    "closure": "the full gcd has weighted degree at most 217",
+    "statement": "At Mersenne full-lift support e=130237, let P be the primitive full gcd of the weight-(1,5,5), degree-264 interpolation kernel. Since the kernel has dimension at least 938 and division by P embeds it into weighted degree at most 264-wdeg(P), while M(46)=935<938<=990=M(47), one has wdeg(P)<=217 and deg_(Y,Z)(P)<=43. In the higher-degree branch d>=2, cofactor Bezout captures at least 7583-(52-2)^2=5083 selected polynomial pairs on P. Their size-807 inside cores force at least 126266 factor points, leaving at most 3971 inside exceptions.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/statement.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/proof.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/audit.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/result.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/provenance.md",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/source_contract.json",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/verify.py",
+      "background/nodes/rate_half_mca_m31_common_factor_weighted_degree_bound/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_interpolation_common_factor_router", "order": 5332},
+    {"from": "rate_half_mca_m31_common_factor_mass_router", "order": 5333}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5334},
+    {"to": "rate_half_band_crossing_location", "order": 5335}
+  ],
+  "refutes": []
+}
