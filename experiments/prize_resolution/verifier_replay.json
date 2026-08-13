@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify.py",
-      "seconds": 0.024463,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor/verify.py",
+      "seconds": 0.123673,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-linear-factor-projective-star-router: PASS (70 checks; mutations=4/4; nonconstant_cap=802; captured=4982; residual=projective_star)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_GENUS_FLOOR_PASS points=151115727450087753427630 chi=262353693488940318721 genus=131176846286340314460 ceiling=50371909149143533442400\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_m31_linear_factor_projective_star_router/verify_audit.py",
-      "seconds": 0.013599,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor/verify_audit.py",
+      "seconds": 0.104985,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "m31-linear-factor-projective-star-router-audit: PASS (73 checks; exact division replay)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_GENUS_FLOOR_AUDIT_PASS chi=262353693488940318721 genus=131176846286340314460\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
