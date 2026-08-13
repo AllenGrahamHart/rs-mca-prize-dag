@@ -46,9 +46,13 @@ start:                   878571558
 canonical prize:         c8d48cd4b (no newer Fable commit)
 upstream main:           93fba1be
 open frontier PRs:       #1163, #1164, #1165; no newer MCA frontier PR
-result:                  NARROWED; one PROVED near-MDS reduction
+upstream export head:    #1165 @ f966e38c
+result:                  NARROWED + EXPORTED; one PROVED near-MDS reduction
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: near-MDS theorem, exhaustive 31-extension audit,
+                         and compiler-ceiling route fence added to #1165;
+                         all-LineRay consequence posted to #1164
 delta-star movement:     none
 compute:                 exact bounded local arithmetic under RAMguard
 next route action:       seek a row-sharp sparse-list theorem using the
