@@ -33557,13 +33557,18 @@ The independent rational checker scans 616 allowed zero-normal cases and
 replays the `GF(1009)` regression at corrected bound 471.  It also exhausts
 all 729 `GF(3)` rank-one received lines and 540 nontrivial selected families.
 
+The theorem, proof, finite calibration, and combined checker were added to
+draft upstream PR `#1165` at head `75c61ae4`.  PRs `#1163` and `#1164` were
+given follow-up dependency comments with the repaired fixed-core walls.
+
 ```text
 start:                   27be48115 plus Cycle 217 provenance edits
-result:                  NARROWED; one PROVED field-general replacement
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         replacement
 DAG delta:               +1 PROVED node, +1 evidence edge
 critical status delta:   none; the replacement target remains TARGET
-upstream terminal delta: candidate correction/addendum to PR #1165 after
-                         local adversarial review
+upstream terminal delta: corrected theorem and walls added to PR #1165;
+                         dependent PRs #1163/#1164 notified
 delta-star movement:     none
 compute:                 exact bounded local arithmetic under RAMguard
 next route action:       attack the explicit top-rank middle-support cells,
