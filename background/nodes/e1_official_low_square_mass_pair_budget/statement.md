@@ -91,6 +91,21 @@ and `1133` cofactor values after all current necessary sieves. This does not
 count collisions, but it rules out a direct reuse of the former
 one-orbit-per-ideal-family strategy as a closing argument.
 
+Exact low-energy resultant analysis now excludes every abstract
+autocorrelation spectrum of energy at most four on the binding row. Hence
+every actual profile-`(4,4)` collision has `E>=5`, or conjugate-square
+variance `V>=10`. Combining that floor with the energy-adaptive product
+majorant forces
+
+```text
+m<=932364.
+```
+
+The exact local-norm frontier therefore contracts from `1133` to `657`
+cofactor values and the pure `2^20` branch disappears. Thirteen pure powers
+still remain, so this is not an orbit payment and the seven-orbit target is
+unchanged.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds

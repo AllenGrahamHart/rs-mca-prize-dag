@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1869,
+  "node": {
+    "id": "e1_profile44_official_energy_le4_exclusion",
+    "title": "E1 profile-(4,4) official energy-at-most-four exclusion",
+    "status": "PROVED",
+    "closure": "exhaustive exact cyclotomic-resultant certificate",
+    "statement": "Every binding prize rate-1/8 profile-(4,4,S=20) collision has integer autocorrelation energy E>=5, equivalently conjugate-square variance V>=10. Exact FLINT resultants exclude all 126, 7812, 317688, and 9530766 abstract spectra at energies one through four; at energy four no norm even has an integer multiple in the official interval.",
+    "refs": [
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/statement.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/proof.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/claim_contract.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/dependency_subdag.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/audit.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/result.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/frontier.md",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/modal_certificate.json",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/source_contract.json",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/verify.py",
+      "background/nodes/e1_profile44_official_energy_le4_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "e1_profile44_local_norm_route_fence", "order": 5190},
+    {"from": "e1_low_square_mass_weighted_kernel_dictionary", "order": 5191}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "e1_official_low_square_mass_pair_budget", "order": 5192},
+    {"to": "unsafe_crossing_family_instantiation", "order": 5193}
+  ],
+  "refutes": []
+}

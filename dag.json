@@ -29445,6 +29445,44 @@
    ]
   },
   {
+   "id": "e1_profile44_official_energy_le4_exclusion",
+   "title": "E1 profile-(4,4) official energy-at-most-four exclusion",
+   "status": "PROVED",
+   "closure": "exhaustive exact cyclotomic-resultant certificate",
+   "statement": "Every binding prize rate-1/8 profile-(4,4,S=20) collision has integer autocorrelation energy E>=5, equivalently conjugate-square variance V>=10. Exact FLINT resultants exclude all 126, 7812, 317688, and 9530766 abstract spectra at energies one through four; at energy four no norm even has an integer multiple in the official interval.",
+   "refs": [
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/statement.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/proof.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/claim_contract.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/audit.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/result.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/frontier.md",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/modal_certificate.json",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/source_contract.json",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/verify.py",
+    "background/nodes/e1_profile44_official_energy_le4_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "e1_profile44_energy_floor_cofactor_contraction",
+   "title": "E1 profile-(4,4) energy-floor cofactor contraction",
+   "status": "PROVED",
+   "closure": "analytic product majorant plus exact integer threshold",
+   "statement": "Every official profile-(4,4,S=20) collision has cofactor m<=932364. The exact local-norm frontier contracts from 1133 to 657 values, and the pure cofactor 2^20 is excluded. Thirteen pure powers and 644 non-pure cofactors remain; no orbit count or profile payment is claimed.",
+   "refs": [
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/statement.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/proof.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/claim_contract.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/dependency_subdag.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/audit.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/result.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/frontier.md",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/verify.py",
+    "background/nodes/e1_profile44_energy_floor_cofactor_contraction/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65584,6 +65622,46 @@
   {
    "from": "rate_half_mca_large_clone_rank_two_pade_router",
    "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_local_norm_route_fence",
+   "to": "e1_profile44_official_energy_le4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_low_square_mass_weighted_kernel_dictionary",
+   "to": "e1_profile44_official_energy_le4_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_official_energy_le4_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_official_energy_le4_exclusion",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_local_norm_route_fence",
+   "to": "e1_profile44_energy_floor_cofactor_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_official_energy_le4_exclusion",
+   "to": "e1_profile44_energy_floor_cofactor_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_energy_floor_cofactor_contraction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_energy_floor_cofactor_contraction",
+   "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },
   {
