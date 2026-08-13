@@ -6,4 +6,6 @@
   run and no official-scale enumeration.
 - **Status effect:** a PROVED background route fence; no critical status
   change.
-- **Upstream:** not yet exported.
+- **Upstream:** exported as Section 63 of Przemek's Lane-T draft PR `#1161`
+  in commit `02d65eb`; review record
+  `issuecomment-5285362497`.
