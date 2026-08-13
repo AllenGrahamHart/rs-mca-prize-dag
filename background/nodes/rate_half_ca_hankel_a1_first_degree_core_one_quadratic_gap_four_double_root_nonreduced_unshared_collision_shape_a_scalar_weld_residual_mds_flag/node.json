@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag",
+    "title": "A=1 shape-A scalar-weld residual-MDS flag",
+    "status": "PROVED",
+    "closure": "every fiber degree drop is an exact residual parity run on the unique projective scalar-weld vector",
+    "statement": "In collision shape A, write the classified split rows as G(t,x)=lambda_x P_x(t), where lambda is the unique projective row-scalar vector from the coefficient-MDS and connected scalar-weld gates. For each off-line slope delta, divide the row values at X_delta=U_0 minus I_delta by the known actual-support and padded factors. The resulting values are zeta_delta H_delta(x). Their exact Reed-Solomon parity run starts at exponent 3e+r_delta-1 and has length q_delta=n-deg_X G(delta,X), followed by the nonzero value zeta_delta lc(H_delta). Hence every degree drop, and therefore deg T=e-sum q_delta, is determined by one explicit stacked linear flag applied to the same lambda; there are no independent fiber residual choices.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_scalar_weld_residual_mds_flag/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_split_biform_coefficient_mds_gate"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_scalar_weld_connected_rank_dichotomy"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
