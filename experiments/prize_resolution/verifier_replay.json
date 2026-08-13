@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify.py",
-      "seconds": 0.277383,
+      "script": "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify.py",
+      "seconds": 0.033254,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TERMINAL_DEFICIT_LINE_PAYMENT_PASS checks=20 mutations=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TOP_THIRD_AFFINE_LINE_PAYMENT_PASS checks=38 mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify_audit.py",
-      "seconds": 0.359863,
+      "script": "background/nodes/rate_half_mca_sparse_direction_top_third_affine_line_payment/verify_audit.py",
+      "seconds": 0.027152,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TERMINAL_DEFICIT_LINE_PAYMENT_AUDIT_PASS checks=21 mutations=1/1\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_TOP_THIRD_AFFINE_LINE_PAYMENT_AUDIT_PASS checks=26 mutations=1/1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

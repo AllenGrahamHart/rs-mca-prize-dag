@@ -1,0 +1,68 @@
+{
+  "schema": "rate-half-mca-sparse-direction-top-third-affine-line-payment-v1",
+  "sources": {
+    "terminal_line": "rate_half_mca_sparse_direction_terminal_deficit_line_payment",
+    "johnson_profile": "rate_half_mca_sparse_direction_punctured_johnson_profile"
+  },
+  "theorem": {
+    "layer_range": "0<=r<=floor((e-K)/3)",
+    "triple_overlap": "e-3r>=K",
+    "outside_slack": "N-m>floor((e-K)/3)",
+    "layer_cap": "floor((N-e-(K-1))/(m-e+r-(K-1)))",
+    "coarse_profile": "(e-1)J_floor(e/2)+J_H+sum_r layer_cap"
+  },
+  "uniform_caps": {
+    "J_floor_e_over_2": 31,
+    "J_H": 47
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "endpoint_e": 67471,
+      "s": 22485,
+      "H": 44985,
+      "u": 33735,
+      "upper_n": 1048590,
+      "A_u_min": 33751,
+      "J_u_numerator": 35377329420,
+      "J_u_denominator": 1125498331,
+      "A_H_min": 22501,
+      "J_H_numerator": 23580691920,
+      "J_H_denominator": 492663331,
+      "endpoint_punctured_length": 981119,
+      "endpoint_terminal_agreement": 15,
+      "line_sum": 9405342,
+      "uniform_total": 11496959,
+      "residual_floor": 67472,
+      "residual_ceiling": 1044238
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "endpoint_e": 67447,
+      "s": 22480,
+      "H": 44966,
+      "u": 33723,
+      "upper_n": 1048582,
+      "A_u_min": 33731,
+      "J_u_numerator": 35364476532,
+      "J_u_denominator": 1132537451,
+      "A_H_min": 22488,
+      "J_H_numerator": 23575269106,
+      "J_H_denominator": 500467234,
+      "endpoint_punctured_length": 981135,
+      "endpoint_terminal_agreement": 7,
+      "line_sum": 9405365,
+      "uniform_total": 11496238,
+      "residual_floor": 67448,
+      "residual_ceiling": 1044241
+    }
+  ]
+}
