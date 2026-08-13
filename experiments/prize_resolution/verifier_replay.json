@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify.py",
-      "seconds": 0.043388,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/verify.py",
+      "seconds": 0.040029,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_THREE_CLASS_KOSZUL_GRAM_PASS rank_floor=61083979322 kernel_min=2 gram_nonzero_from=137438953472 mutations=8/8\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_COEFFICIENT_SYZYGY_BUNDLE_CUBIC_SPLITTING_PASS rank=61083979322 profiles=((1, 0, 61083979320), (0, 2, 61083979319)) gram_threshold=137438953472 mutations=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify_audit.py",
-      "seconds": 0.02399,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/verify_audit.py",
+      "seconds": 0.018216,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_THREE_CLASS_KOSZUL_GRAM_AUDIT_PASS classes=(274877906943, 274877906943, 274877906944) kernel_min=2 gram_nonzero_from=137438953472\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_COEFFICIENT_SYZYGY_BUNDLE_CUBIC_SPLITTING_AUDIT_PASS rank=61083979322 profiles=((1, 0, 61083979320), (0, 2, 61083979319))\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
