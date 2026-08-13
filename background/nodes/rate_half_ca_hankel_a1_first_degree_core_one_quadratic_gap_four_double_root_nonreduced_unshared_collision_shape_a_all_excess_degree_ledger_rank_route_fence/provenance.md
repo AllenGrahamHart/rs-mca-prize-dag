@@ -6,3 +6,6 @@
   local runtime below one second.
 - **Custody:** source, independent replay, and hostile mutations are stored
   in this node.
+- **Upstream export:** `przchojecki/rs-mca` draft PR `#1161`, Section 45,
+  commit `f011891`; review note
+  `https://github.com/przchojecki/rs-mca/pull/1161#issuecomment-5282276863`.
