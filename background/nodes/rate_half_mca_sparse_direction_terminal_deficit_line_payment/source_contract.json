@@ -1,0 +1,49 @@
+{
+  "schema": "rate-half-mca-sparse-direction-terminal-deficit-line-payment-v1",
+  "sources": {
+    "mean_centered_profile": "rate_half_mca_sparse_direction_mean_centered_gram_profile"
+  },
+  "theorem": {
+    "hypotheses": "e>=K, n=N-e, A=m-e, c=K-1, A>c",
+    "terminal_cap": "floor((n-c)/(A-c))",
+    "profile": "sum_(h=1)^(e-1) (B_h-B_(h-1))*floor(e/h)+terminal_cap, B_h=min_(h<=v<e) C_v"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "paid_e": 64048,
+      "equivalent_defect_floor": 984528,
+      "punctured_length": 984542,
+      "outside_agreement": 3438,
+      "prefix_cap_at_e_minus_1": 180429328,
+      "prefix_profile": 181326056,
+      "terminal_cap": 287,
+      "total_profile": 181326343,
+      "adjacent_e": 64049,
+      "adjacent_stop": "prefix-cap-unavailable",
+      "adjacent_profile": null
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "paid_e": 65455,
+      "equivalent_defect_floor": 983121,
+      "punctured_length": 983127,
+      "outside_agreement": 1999,
+      "prefix_cap_at_e_minus_1": 15183731,
+      "prefix_profile": 16100154,
+      "terminal_cap": 493,
+      "total_profile": 16100647,
+      "adjacent_e": 65456,
+      "adjacent_stop": "over-budget",
+      "adjacent_profile": 17119507
+    }
+  ]
+}

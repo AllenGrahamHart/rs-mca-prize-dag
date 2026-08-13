@@ -29649,6 +29649,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_sparse_direction_terminal_deficit_line_payment",
+   "title": "Rate-half MCA sparse-direction terminal-deficit line payment",
+   "status": "PROVED",
+   "closure": "affine-codeword-line cap for the exact terminal deficit",
+   "statement": "A transformed explanation at exact outside deficit e must agree on every exceptional coordinate. Restriction injectivity forces all such explanations onto one affine codeword line; outside a common core of at most K-1 coordinates their agreement sets are disjoint. Combining this terminal cap with the preceding cumulative prefix profile expands the low-support walls to e<=64048 on KoalaBear and e<=65455 on Mersenne-31.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/statement.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/proof.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/audit.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/result.md",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify.py",
+    "background/nodes/rate_half_mca_sparse_direction_terminal_deficit_line_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65927,6 +65945,16 @@
   },
   {
    "from": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "to": "rate_half_mca_sparse_direction_terminal_deficit_line_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_terminal_deficit_line_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
