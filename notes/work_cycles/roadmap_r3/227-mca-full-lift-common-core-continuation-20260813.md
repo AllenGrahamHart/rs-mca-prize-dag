@@ -30,7 +30,9 @@ budget by `470852`.
 ```text
 start:                   d195e43ea
 canonical prize:         c8d48cd4b (no newer Fable commit)
-result:                  NARROWED; one PROVED full-lift/common-core compiler
+upstream export head:    #1165 @ 1913917f; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED
+                         full-lift/common-core compiler
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
 full-lift residuals:     KoalaBear 95944<=e<=1044238;
