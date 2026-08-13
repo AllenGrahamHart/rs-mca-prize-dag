@@ -29407,6 +29407,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_large_clone_mobius_rank_one_router",
+   "title": "MCA large-clone Mobius split-pencil and rank-one owner router",
+   "status": "PROVED",
+   "closure": "exact component normalization and fixed-denominator absorption",
+   "statement": "Let C be the unique coordinate-clone class of size c>=m left by the owner-pencil clone payment. A common irreducible bidegree-(1,1) component gives a projective Mobius parameterization under which the owner denominator has slope degree at most one and the owner numerator has slope degree at most two. If the two denominator coefficients span one polynomial direction and c>=m+1, the common scalar parameter factor divides the numerator identically; after cancellation, every rational point of the clone lies in one fixed coherent scalar-locator rational owner or its globally affine degeneration. At c=m the same conclusion holds unless the numerator at the unique denominator-zero parameter is a nonzero scalar multiple of the clone locator. Hence the only unpaid large-clone forms are a genuinely rank-two moving denominator or the exact c=m locator-remainder boundary.",
+   "refs": [
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/statement.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/proof.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/claim_contract.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/audit.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/result.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/frontier.md",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/source_contract.json",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/verify.py",
+    "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_large_clone_rank_two_pade_router",
+   "title": "MCA rank-two large-clone Pade obstruction router",
+   "status": "PROVED",
+   "closure": "exact division obstruction and doubled-denominator owner reduction",
+   "statement": "In the moving-denominator rank-two branch of the large-clone Mobius normal form, write Qhat=q0+gamma q1 and Nhat=p0+gamma p1+gamma^2 p2. The polynomial Omega=q1^2 p0-q0 q1 p1+q0^2 p2 vanishes at every clone coordinate and has degree at most m+2d. If the clone size exceeds m+2d, Omega is identically zero and the whole split pencil equals one fixed affine-in-slope rational owner with reduced denominator degree at most 2d. At clone size exactly m+2d, Omega is either zero or a scalar multiple of the clone locator. Thus the genuinely moving rank-two residual is confined to m<=c<=m+2d, with exact deployed upper walls 1250992 and 1250920, or routes to a fixed doubled-denominator owner; no row-sharp payment for those residuals is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/statement.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/proof.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/claim_contract.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/audit.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/result.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/frontier.md",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/source_contract.json",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/verify.py",
+    "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65516,6 +65554,36 @@
   {
    "from": "rate_half_mca_global_core_rank_support_distance_router",
    "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_coordinate_clone_subcritical_payment",
+   "to": "rate_half_mca_large_clone_mobius_rank_one_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_large_clone_mobius_rank_one_router",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_large_clone_mobius_rank_one_router",
+   "to": "v13_bc_split_pencil_normal_form",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_large_clone_mobius_rank_one_router",
+   "to": "rate_half_mca_large_clone_rank_two_pade_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_large_clone_rank_two_pade_router",
+   "to": "rate_half_band_structural_surplus",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_large_clone_rank_two_pade_router",
+   "to": "v13_bc_split_pencil_normal_form",
    "kind": "ev"
   },
   {

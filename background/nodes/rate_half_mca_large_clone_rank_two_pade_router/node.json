@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1868,
+  "node": {
+    "id": "rate_half_mca_large_clone_rank_two_pade_router",
+    "title": "MCA rank-two large-clone Pade obstruction router",
+    "status": "PROVED",
+    "closure": "exact division obstruction and doubled-denominator owner reduction",
+    "statement": "In the moving-denominator rank-two branch of the large-clone Mobius normal form, write Qhat=q0+gamma q1 and Nhat=p0+gamma p1+gamma^2 p2. The polynomial Omega=q1^2 p0-q0 q1 p1+q0^2 p2 vanishes at every clone coordinate and has degree at most m+2d. If the clone size exceeds m+2d, Omega is identically zero and the whole split pencil equals one fixed affine-in-slope rational owner with reduced denominator degree at most 2d. At clone size exactly m+2d, Omega is either zero or a scalar multiple of the clone locator. Thus the genuinely moving rank-two residual is confined to m<=c<=m+2d, with exact deployed upper walls 1250992 and 1250920, or routes to a fixed doubled-denominator owner; no row-sharp payment for those residuals is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/statement.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/proof.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/claim_contract.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/audit.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/result.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/frontier.md",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/source_contract.json",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/verify.py",
+      "background/nodes/rate_half_mca_large_clone_rank_two_pade_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_large_clone_mobius_rank_one_router", "order": 5187}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus", "order": 5188},
+    {"to": "v13_bc_split_pencil_normal_form", "order": 5189}
+  ],
+  "refutes": []
+}

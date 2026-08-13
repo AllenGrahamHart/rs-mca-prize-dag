@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1867,
+  "node": {
+    "id": "rate_half_mca_large_clone_mobius_rank_one_router",
+    "title": "MCA large-clone Mobius split-pencil and rank-one owner router",
+    "status": "PROVED",
+    "closure": "exact component normalization and fixed-denominator absorption",
+    "statement": "Let C be the unique coordinate-clone class of size c>=m left by the owner-pencil clone payment. A common irreducible bidegree-(1,1) component gives a projective Mobius parameterization under which the owner denominator has slope degree at most one and the owner numerator has slope degree at most two. If the two denominator coefficients span one polynomial direction and c>=m+1, the common scalar parameter factor divides the numerator identically; after cancellation, every rational point of the clone lies in one fixed coherent scalar-locator rational owner or its globally affine degeneration. At c=m the same conclusion holds unless the numerator at the unique denominator-zero parameter is a nonzero scalar multiple of the clone locator. Hence the only unpaid large-clone forms are a genuinely rank-two moving denominator or the exact c=m locator-remainder boundary.",
+    "refs": [
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/statement.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/proof.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/claim_contract.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/audit.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/result.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/frontier.md",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/source_contract.json",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/verify.py",
+      "background/nodes/rate_half_mca_large_clone_mobius_rank_one_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_coordinate_clone_subcritical_payment", "order": 5184}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_structural_surplus", "order": 5185},
+    {"to": "v13_bc_split_pencil_normal_form", "order": 5186}
+  ],
+  "refutes": []
+}
