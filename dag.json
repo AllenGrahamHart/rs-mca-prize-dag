@@ -29483,6 +29483,26 @@
    ]
   },
   {
+   "id": "e1_profile44_valuation_parity_cofactor_contraction",
+   "title": "E1 profile-(4,4) valuation-parity cofactor contraction",
+   "status": "PROVED",
+   "closure": "complete singleton-support census plus exact product threshold",
+   "statement": "For local valuations 3,5,6,9,10,12,17,18,20, the singleton autocorrelation parity forces E>=6 and V>=12. The resulting branchwise cofactor ceiling 853574 removes twelve values from the former 657-value frontier, leaving exactly 645. No orbit count or profile payment is claimed.",
+   "refs": [
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/statement.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/proof.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/claim_contract.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/dependency_subdag.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/audit.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/result.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/frontier.md",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/certificate.json",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/source_contract.json",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/verify.py",
+    "background/nodes/e1_profile44_valuation_parity_cofactor_contraction/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65661,6 +65681,26 @@
   },
   {
    "from": "e1_profile44_energy_floor_cofactor_contraction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_official_energy_le4_exclusion",
+   "to": "e1_profile44_valuation_parity_cofactor_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_energy_floor_cofactor_contraction",
+   "to": "e1_profile44_valuation_parity_cofactor_contraction",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_valuation_parity_cofactor_contraction",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_valuation_parity_cofactor_contraction",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

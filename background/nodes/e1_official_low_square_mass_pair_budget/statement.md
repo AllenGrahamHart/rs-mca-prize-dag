@@ -106,6 +106,13 @@ cofactor values and the pure `2^20` branch disappears. Thirteen pure powers
 still remain, so this is not an orbit payment and the seven-orbit target is
 unchanged.
 
+A complete joint census of the four singleton positions further couples the
+local valuation to autocorrelation parity. On valuations
+`{3,5,6,9,10,12,17,18,20}` it forces `E>=6`, hence `V>=12` and the sharper
+branchwise ceiling `m<=853574`. This excludes twelve more cofactors, leaving
+an exact current frontier of `645` values. The refinement remains a norm
+classification, not a collision-orbit count.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds
