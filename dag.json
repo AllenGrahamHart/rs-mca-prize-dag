@@ -29703,6 +29703,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "title": "Rate-half MCA full-lift top-third global-line payment",
+   "status": "PROVED",
+   "closure": "cross-layer triple overlap synchronizes the whole high-deficit union",
+   "statement": "Any three explanations drawn from any top-third exact-deficit layers share at least K exceptional agreements. Restriction injectivity therefore puts the entire high-deficit union on one affine codeword line, so its pair-noncontained total-core payment N-m+1 is charged once. This pays KoalaBear through e=95943 and Mersenne-31 through e=97908.",
+   "refs": [
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/statement.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/proof.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/audit.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/result.md",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/source_contract.json",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/verify.py",
+    "background/nodes/rate_half_mca_full_lift_top_third_global_line_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66021,6 +66039,16 @@
   },
   {
    "from": "rate_half_mca_full_lift_top_third_common_core_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_common_core_payment",
+   "to": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_global_line_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
