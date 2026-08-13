@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/verify.py",
-      "seconds": 0.026181,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify.py",
+      "seconds": 0.017602,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_PRIMITIVE_SOURCE_PENCIL_PASS degree_range=274877906944..824633720829 generic_residuals=549755813886,549755813885 mutations=11/11\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_RESIDUE_PAIRING_PASS form_rank=4 restricted_rank=2 combined_rank=5 toy_kappa=0 official_boundary=183251937960 mutations=5/5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/verify_audit.py",
-      "seconds": 0.013753,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify_audit.py",
+      "seconds": 0.016682,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_PRIMITIVE_SOURCE_PENCIL_AUDIT_PASS degree=824633720829 residuals=(549755813886, 549755813885)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_RESIDUE_PAIRING_AUDIT_PASS kappa_boundary=183251937960 zero_kappa_floor=152709948302\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
