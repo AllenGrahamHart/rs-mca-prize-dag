@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/verify.py",
-      "seconds": 0.063388,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/verify.py",
+      "seconds": 0.027614,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_FIBER_COPRIMALITY_PADE_PASS classes=274877906943,274877906944 quotients=549755813886,549755813885 mutations=10/10\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_PADDED_CENTER_PADE_TRANSVERSALITY_PASS degree=549755813887 order=1 length=1 mutations=10/10\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/verify_audit.py",
-      "seconds": 0.033134,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/verify_audit.py",
+      "seconds": 0.014851,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_CENTER_FIBER_COPRIMALITY_PADE_AUDIT_PASS degrees=(549755813887, 549755813886, 549755813885)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_PADDED_CENTER_PADE_TRANSVERSALITY_AUDIT_PASS degree=549755813887 order=1\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
