@@ -33744,9 +33744,13 @@ two contract mutations.
 start:                   6efd673cf
 canonical prize:         c8d48cd4b (no newer Fable commit)
 upstream frontier:       #1163, #1164, #1165; no superseding MCA result
-result:                  NARROWED; one PROVED field-general compiler
+upstream export head:    #1165 @ 442a223a; import note posted to #1164
+result:                  NARROWED + EXPORTED; one PROVED field-general
+                         compiler
 DAG delta:               +1 PROVED node, +3 edges
 critical status delta:   none; replacement target remains TARGET
+upstream terminal delta: low-support top-rank walls moved from e<=5/1 to
+                         e<=63908/65236; official rows remain open
 full-lift residuals:     KoalaBear 63909<=e<=1044238;
                          Mersenne 65237<=e<=1044241
 delta-star movement:     none
