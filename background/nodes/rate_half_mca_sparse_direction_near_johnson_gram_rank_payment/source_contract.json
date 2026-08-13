@@ -1,0 +1,57 @@
+{
+  "schema": "rate-half-mca-sparse-direction-near-johnson-gram-rank-v1",
+  "sources": {
+    "heavy_fiber_profile": "rate_half_mca_sparse_direction_heavy_fiber_profile",
+    "punctured_johnson_profile": "rate_half_mca_sparse_direction_punctured_johnson_profile"
+  },
+  "theorem": {
+    "post_johnson_defect": "g=nc-A^2>=0",
+    "gram_denominator": "G=(A-c)^2-cg>0",
+    "ordinary_list_cap": "floor(n*A*(A-c)/G)",
+    "mca_bound": "(e-1)J_floor(e/2)+Q_e"
+  },
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "first_new_e": 63909,
+      "last_paid_e": 64037,
+      "equivalent_defect_floor": 984539,
+      "punctured_length_at_last": 984553,
+      "agreement_at_last": 3449,
+      "johnson_defect_at_last": 903588,
+      "gram_denominator_at_last": 59452,
+      "ordinary_cap_at_last": 196254209,
+      "half_index_at_last": 32018,
+      "johnson_cap_at_half": 28,
+      "bound_at_last": 198047217,
+      "adjacent_e": 64038,
+      "adjacent_gram_denominator": -36911,
+      "adjacent_bound": null
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "first_new_e": 65237,
+      "last_paid_e": 65418,
+      "equivalent_defect_floor": 983158,
+      "punctured_length_at_last": 983164,
+      "agreement_at_last": 2036,
+      "johnson_defect_at_last": 770524,
+      "gram_denominator_at_last": 272341,
+      "ordinary_cap_at_last": 14927965,
+      "half_index_at_last": 32709,
+      "johnson_cap_at_half": 28,
+      "bound_at_last": 16759641,
+      "adjacent_e": 65419,
+      "adjacent_gram_denominator": 247950,
+      "adjacent_bound": 18212004
+    }
+  ]
+}
