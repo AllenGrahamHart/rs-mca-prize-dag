@@ -8,4 +8,5 @@
   evaluation on `U_0`.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 51 of draft PR `przchojecki/rs-mca#1161`,
+  commit `3abd608`, review comment `issuecomment-5283775237`.
