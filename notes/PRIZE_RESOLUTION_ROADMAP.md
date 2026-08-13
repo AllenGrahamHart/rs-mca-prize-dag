@@ -35294,7 +35294,7 @@ R_j(t)=sum_(i=0)^d q_i(t)h_(i+j)(t).
 ```
 
 The dual-MDS construction gives `H_x=G(t,x)/L_U0'(x)` and
-`sum_x H_xx^j=0` through `j=d`. Lagrange coefficient extraction is
+`sum_x H_x x^j=0` through `j=d`. Lagrange coefficient extraction is
 unitriangular after this forced zero range. Since `R-d-2=n`, the top
 coefficients of `G` are controlled successively by
 
@@ -35336,4 +35336,36 @@ critical status delta:   none; rate_half_band_crossing_location remains open
 new exact frontier:      bound/classify the nested gcd flag C_r
 compute:                 two constant-size exact local audits; no Modal spend
 next route action:       couple C_r to the unique scalar weld and collision jets
+```
+# Cycle 254: rate-half shape-A omitted-recurrence upstream export (2026-08-13)
+
+Cycle 253's proved source/Hankel coupling was exported to the existing
+Lane-T packet in `przchojecki/rs-mca` draft PR `#1161`.
+
+The upstream Section 40 records
+
+```text
+q_delta = length of the initial zero run
+          R_(d+1)(delta),R_(d+2)(delta),...,
+deg T=e-sum_(r=0)^(n-1)
+          deg gcd(H_off,R_(d+1),...,R_(d+1+r)).
+```
+
+The consolidated verifier pins the complete local proof packet, checks the
+official index weld `R-d-2=n`, and independently replays a finite-field
+interpolation fixture with degree drops `2,1,0`. The export explicitly says
+that no bound on the nested gcd flag, shape-A exclusion, or row payment is
+being claimed.
+
+```text
+local source:            5d46985dff2c42dbab5b78794c353ea14c47d447
+upstream PR:             #1161 (draft)
+upstream commit:         0fe803b364e417e21a33ada3d27410f1f33f62d8
+upstream section:        40
+exact checks:            37930
+source pins:             104/104
+hostile field mutations: 96/96
+row/endpoint movement:   none claimed
+next route action:       constrain the nested gcd flag with the scalar weld
+                         and collision jets
 ```

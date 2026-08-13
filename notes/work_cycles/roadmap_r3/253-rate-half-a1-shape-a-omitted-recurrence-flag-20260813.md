@@ -12,7 +12,7 @@ R_j(t)=sum_(i=0)^d q_i(t)h_(i+j)(t).
 ```
 
 The dual-MDS construction gives `H_x=G(t,x)/L_U0'(x)` and
-`sum_x H_xx^j=0` through `j=d`. Lagrange coefficient extraction is
+`sum_x H_x x^j=0` through `j=d`. Lagrange coefficient extraction is
 unitriangular after this forced zero range. Since `R-d-2=n`, the top
 coefficients of `G` are controlled successively by
 
