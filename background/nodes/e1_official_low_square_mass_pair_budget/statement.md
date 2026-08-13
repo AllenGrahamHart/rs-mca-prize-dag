@@ -113,6 +113,16 @@ branchwise ceiling `m<=853574`. This excludes twelve more cofactors, leaving
 an exact current frontier of `645` values. The refinement remains a norm
 classification, not a collision-orbit count.
 
+The complete next energy layer is also empty. Energy five has only two
+integer autocorrelation shapes; restricting their odd masks to those
+realized by four singleton positions leaves exactly `64808` signed spectra.
+Two independent exact resultant censuses find no integer official cofactor
+interval. Thus every collision has `E>=6` and `V>=12` globally, not only on
+the nine parity-forced valuations, and the current exact cofactor frontier is
+`608` values. Further energy-layer enumeration is not the selected closing
+route because even substantially larger energy floors leave hundreds of
+cofactors without controlling orbit multiplicity.
+
 ## Falsifier
 
 An admissible row whose exact unordered low-mass collision-pair count exceeds

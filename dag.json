@@ -29503,6 +29503,26 @@
    ]
   },
   {
+   "id": "e1_profile44_official_energy5_exclusion",
+   "title": "E1 profile-(4,4) official energy-five exclusion",
+   "status": "PROVED",
+   "closure": "complete realized-parity resultant census and independent replay",
+   "statement": "No binding prize rate-1/8 profile-(4,4,S=20) collision has autocorrelation energy E=5. Exact independent resultants over all 64808 signed spectra compatible with actual four-singleton parity masks have no integer official cofactor interval. Thus every collision has E>=6, V>=12, m<=853574, and lies among 608 exact cofactor survivors. No orbit count or profile payment is claimed.",
+   "refs": [
+    "background/nodes/e1_profile44_official_energy5_exclusion/statement.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/proof.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/claim_contract.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/dependency_subdag.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/audit.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/result.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/frontier.md",
+    "background/nodes/e1_profile44_official_energy5_exclusion/certificate.json",
+    "background/nodes/e1_profile44_official_energy5_exclusion/source_contract.json",
+    "background/nodes/e1_profile44_official_energy5_exclusion/verify.py",
+    "background/nodes/e1_profile44_official_energy5_exclusion/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65701,6 +65721,21 @@
   },
   {
    "from": "e1_profile44_valuation_parity_cofactor_contraction",
+   "to": "unsafe_crossing_family_instantiation",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_valuation_parity_cofactor_contraction",
+   "to": "e1_profile44_official_energy5_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "e1_profile44_official_energy5_exclusion",
+   "to": "e1_official_low_square_mass_pair_budget",
+   "kind": "ev"
+  },
+  {
+   "from": "e1_profile44_official_energy5_exclusion",
    "to": "unsafe_crossing_family_instantiation",
    "kind": "ev"
   },

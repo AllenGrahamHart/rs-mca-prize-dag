@@ -1,0 +1,58 @@
+{
+  "schema": "e1-profile44-official-energy5-exclusion-v1",
+  "mask_census": {
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-m6ttwjroZXedeeQUCjc837",
+    "normalized_supports": 333375,
+    "unique_masks": {
+      "1": 31,
+      "5": 1785
+    },
+    "unit_orbits": {
+      "1": 5,
+      "5": 100
+    },
+    "support_counts": {
+      "1,2": 128,
+      "1,4": 64,
+      "1,8": 32,
+      "1,16": 32,
+      "1,32": 8,
+      "5,1": 7424,
+      "5,2": 3584,
+      "5,4": 1792,
+      "5,8": 896,
+      "5,16": 464,
+      "5,32": 240
+    }
+  },
+  "primary": {
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-PN1peUZQcsSH9DWggaHwiR",
+    "shards": 8,
+    "spectra": 64808,
+    "valuation_counts": {
+      "1": 29696,
+      "2": 18304,
+      "4": 9152,
+      "8": 4576,
+      "16": 2352,
+      "32": 728
+    },
+    "hits": [],
+    "worker_seconds": 33.15987735
+  },
+  "independent_audit": {
+    "modal_run": "https://modal.com/apps/allengrahamhart/main/ap-MWF2DqnUoJ7Y6aQ7Cd7acg",
+    "shards": 8,
+    "spectra": 64808,
+    "integer_cofactor_intervals": 0,
+    "hits": [],
+    "worker_seconds": 32.540996837
+  },
+  "consequence": {
+    "energy_floor": 6,
+    "variance_floor": 12,
+    "cofactor_ceiling": 853574,
+    "previous_cofactors": 645,
+    "surviving_cofactors": 608
+  }
+}
