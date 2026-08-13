@@ -45,7 +45,7 @@ DAG delta:               +1 PROVED node, +4 req edges, +1 evidence edge
 critical status delta:   none; rate_half_band_crossing_location remains open
 primary replay:          F_101, drops 0..3, 22 parities, 108 row checks
 independent replay:      F_127, degrees 2,1,0 with separate interpolation
-hostile mutations:       7/7 normal and optimized
+hostile mutations:       8/8 normal and optimized
 compute:                 constant-size local exact arithmetic; no Modal spend
 next route action:       bound the stacked extra-parity rows on the unique
                          weld vector using incidence/collision structure

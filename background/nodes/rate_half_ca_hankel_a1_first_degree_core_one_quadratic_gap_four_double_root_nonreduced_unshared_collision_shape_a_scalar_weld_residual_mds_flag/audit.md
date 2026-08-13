@@ -11,6 +11,6 @@
    they are not reselected for each fiber.
 6. The result is a reduction to a stacked linear flag, not a proof that
    the flag has small kernel or short runs.
-7. The primary replay checks all drops `0,1,2,3` with one padded root; the
-   independent replay changes the field, dimensions, interpolation
-   method, and drop range.
+7. The primary replay checks a monic parameter-degree-five row family, all
+   drops `0,1,2,3`, and one padded root; the independent replay changes the
+   field, dimensions, interpolation method, and drop range.

@@ -40,6 +40,7 @@ def replay(mutation=None):
     incidence_size = mutation.get("incidence_size", 2)
     excess = mutation.get("excess", 3)
     padding_degree = mutation.get("padding_degree", 1)
+    parameter_degree = mutation.get("parameter_degree", 5)
     delta = mutation.get("delta", 40)
     padding_root = mutation.get("padding_root", 20)
     residual_root = mutation.get("residual_root", 30)
@@ -47,7 +48,7 @@ def replay(mutation=None):
     require(prime == 101, "fixture field")
     require(len(source) == 9, "fixture source size")
     require(incidence_size == 2 and excess == 3, "fixture profile")
-    require(padding_degree == 1, "fixture padding degree")
+    require(padding_degree == 1 and parameter_degree == 5, "fixture degrees")
     incidence = source[:incidence_size]
     complement = source[incidence_size:]
     require(
@@ -97,10 +98,13 @@ def replay(mutation=None):
             for parameter in (0, delta, 70):
                 biform_value = (
                     fiber_value
-                    + (parameter - delta)
+                    + pow(parameter - delta, parameter_degree, prime)
                     * evaluate(generic_coefficient, point, prime)
                 ) % prime
-                monic_row_value = (parameter - delta + row_value) % prime
+                monic_row_value = (
+                    pow(parameter - delta, parameter_degree, prime)
+                    + row_value
+                ) % prime
                 require(
                     biform_value == row_scalar * monic_row_value % prime,
                     "global row factorization",
@@ -172,6 +176,7 @@ def tamper_selftest():
         {"incidence_size": 3},
         {"excess": 2},
         {"padding_degree": 2},
+        {"parameter_degree": 4},
         {"padding_root": 9},
         {"residual_root": 8},
     ]
@@ -192,7 +197,7 @@ def main():
     cases, parities, rows = replay()
     suffix = ""
     if args.tamper_selftest:
-        suffix = f" mutations={tamper_selftest()}/7"
+        suffix = f" mutations={tamper_selftest()}/8"
     print(
         "RATE_HALF_SHAPE_A_SCALAR_WELD_RESIDUAL_MDS_FLAG_PASS "
         f"cases={cases} parities={parities} rows={rows}{suffix}"
