@@ -11,3 +11,11 @@
   padding slopes rather than mixing them in one gcd.
 - **Computation:** constant-size exact finite-field replays only; no Modal
   run.
+- **Upstream export:** Section 41 of
+  `experimental/notes/thresholds/rate_half_core_one_quadratic_pade_quartic_v1.md`
+  in `przchojecki/rs-mca` draft PR `#1161`, commit `208bf53`.
+- **Upstream replay:** `38204` exact checks, `114/114` source pins, all `252`
+  generalized-alternant fixture terms, and `101/101` hostile formula-field
+  mutations in normal and optimized Python.
+- **Export scope:** no flag bound, Shape-A exclusion, `LineRay` payment, or
+  official endpoint movement claimed.
