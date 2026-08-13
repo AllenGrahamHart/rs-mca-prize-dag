@@ -22,6 +22,10 @@ certificates required by the challenge.
   transversality cap with sub-square-root interleaved affine-list control;
   the certified total is `61871313426765543<B_*`.  Error rank at least
   eleven remains outside this direct payment.
+- The Mersenne full-lift mean-Gram route now pays through direction support
+  `e=98231`.  At residue two, a two-boundary-layer anchor split and a
+  boundary missed-set dichotomy give `16486411<16777215`; the residual
+  starts at the residue-zero support `e=98232`.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

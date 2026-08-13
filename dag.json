@@ -29815,6 +29815,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_two_boundary_layer_case_split",
+   "title": "Mersenne full-lift two-boundary-layer case split",
+   "status": "PROVED",
+   "closure": "residue-two anchors, outside-core line packing, and disjoint missed-set cap",
+   "statement": "At full-lift residue q=2, two top anchors synchronize two boundary layers. With one top anchor the first boundary layer is either tiny or an outside-core affine line; with no top anchor it is an outside-core line unless its missed sets are pairwise disjoint. Exact Mersenne-31 arithmetic at e=98231 gives 16486411, below budget by 290804, so the residual starts at e=98232.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/statement.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/proof.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/audit.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/result.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/provenance.md",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/source_contract.json",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/verify.py",
+    "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66243,6 +66262,26 @@
   },
   {
    "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_boundary_anchor_case_split",
+   "to": "rate_half_mca_m31_two_boundary_layer_case_split",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_common_core_payment",
+   "to": "rate_half_mca_m31_two_boundary_layer_case_split",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_two_boundary_layer_case_split",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_two_boundary_layer_case_split",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

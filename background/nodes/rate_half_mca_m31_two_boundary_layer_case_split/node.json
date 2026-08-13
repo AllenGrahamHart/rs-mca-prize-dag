@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1889,
+  "node": {
+    "id": "rate_half_mca_m31_two_boundary_layer_case_split",
+    "title": "Mersenne full-lift two-boundary-layer case split",
+    "status": "PROVED",
+    "closure": "residue-two anchors, outside-core line packing, and disjoint missed-set cap",
+    "statement": "At full-lift residue q=2, two top anchors synchronize two boundary layers. With one top anchor the first boundary layer is either tiny or an outside-core affine line; with no top anchor it is an outside-core line unless its missed sets are pairwise disjoint. Exact Mersenne-31 arithmetic at e=98231 gives 16486411, below budget by 290804, so the residual starts at e=98232.",
+    "refs": [
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/statement.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/proof.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/claim_contract.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/dependency_subdag.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/audit.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/result.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/provenance.md",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/source_contract.json",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/verify.py",
+      "background/nodes/rate_half_mca_m31_two_boundary_layer_case_split/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_m31_boundary_anchor_case_split", "order": 5270},
+    {"from": "rate_half_mca_full_lift_top_third_common_core_payment", "order": 5271}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5272},
+    {"to": "rate_half_band_crossing_location", "order": 5273}
+  ],
+  "refutes": []
+}
