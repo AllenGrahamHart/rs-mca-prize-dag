@@ -7,4 +7,5 @@
   factorization, and Sylvester rank inequality.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 54 of draft PR `przchojecki/rs-mca#1161`,
+  commit `e63028d`, review comment `issuecomment-5284032833`.

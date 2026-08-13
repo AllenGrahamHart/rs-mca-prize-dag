@@ -7,4 +7,5 @@
   the one-dimensional dual of an `[n+2,n+1]` RS evaluation code.
 - **Compute:** integer replay only.
 - **Local source commit:** introducing commit; see repository history.
-- **Upstream export:** pending Lane-T export.
+- **Upstream export:** Section 55 of draft PR `przchojecki/rs-mca#1161`,
+  commit `e63028d`, review comment `issuecomment-5284032833`.
