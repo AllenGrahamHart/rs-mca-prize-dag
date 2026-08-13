@@ -29389,6 +29389,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_global_core_rank_support_distance_router",
+   "title": "Rate-half MCA global-core rank/support/distance router",
+   "status": "PROVED",
+   "closure": "exact composition of three complementary global-core payments",
+   "statement": "After one whole-line global-core cancellation, gauge the shortened direction by a minimum lift of support e=R-j and let r be the transformed explanation affine rank. The rank envelope, exact common-zero support envelope, and recursive direction-distance envelope apply to the same selected slope family. Through shortened dimension 4992 on KoalaBear, ranks at most 13 are paid, ranks 14,15,16,17 are additionally paid for e at most 31768,1576,94,5, and every rank is paid for e at least R-J_rec(s). Through dimension 4979 on Mersenne-31, ranks at most 5 are paid, ranks 6,7,8,9 are additionally paid for e at most 11847,646,36,2, and every rank is paid for e at least R-J_rec(s). Exact first-residual open intervals are pinned in the certificate.",
+   "refs": [
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/statement.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/proof.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/claim_contract.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/audit.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/result.md",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/source_contract.json",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify.py",
+    "background/nodes/rate_half_mca_global_core_rank_support_distance_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -65473,6 +65491,31 @@
   {
    "from": "rate_half_mca_direction_support_common_zero_envelope",
    "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_whole_line_global_core_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_codeword_direction_gauge_rank_router",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_direction_support_common_zero_envelope",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_direction_mismatch_recursive_shortening",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_global_core_rank_support_distance_router",
+   "to": "rate_half_band_structural_surplus",
    "kind": "ev"
   },
   {
