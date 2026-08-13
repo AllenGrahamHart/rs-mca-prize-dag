@@ -30105,6 +30105,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_common_factor_base_field_component_descent",
+   "title": "Mersenne common-factor base-field component descent",
+   "status": "PROVED",
+   "closure": "at least 5079 selected pairs lie on F(X)-defined components",
+   "statement": "In the Mersenne full-gcd branch 2<=d<=43 over F=F_((2^31-1)^4), let P_K be the union of geometric irreducible components individually defined over F(X). Since the characteristic exceeds d, every non-base-field component has a distinct conjugate. A degree-delta component contains at most delta^2 F(X)-rational selected pairs by Bezout with that conjugate. All non-base-field components therefore contain at most d^2 such pairs. Combining this with t_d>=7583-(52-d)^2 leaves at least 5079 selected pairs on P_K, and one base-field absolutely irreducible component carries at least 132. Core incidence forces the received pair onto P_K at at least 126263 inside coordinates, leaving at most 3974 exceptions.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/statement.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/proof.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/audit.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/result.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/provenance.md",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/source_contract.json",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/verify.py",
+    "background/nodes/rate_half_mca_m31_common_factor_base_field_component_descent/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66858,6 +66877,26 @@
   },
   {
    "from": "rate_half_mca_m31_common_factor_weighted_degree_bound",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_common_factor_weighted_degree_bound",
+   "to": "rate_half_mca_m31_common_factor_base_field_component_descent",
+   "kind": "req"
+  },
+  {
+   "from": "deployed_identity_prefix_owner_scope_audit",
+   "to": "rate_half_mca_m31_common_factor_base_field_component_descent",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_common_factor_base_field_component_descent",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_common_factor_base_field_component_descent",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

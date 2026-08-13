@@ -1,0 +1,27 @@
+{
+  "schema": "rate-half-mca-m31-common-factor-base-field-component-descent-v1",
+  "sources": {
+    "weighted_statement_sha256": "6c014e5f95c42b80daaa41e1939068d1f4af9b632bf9310d385a6b0f63242b75",
+    "weighted_proof_sha256": "f24d70c3359c403d596c01f5e173eecbc2d6a081e4c81f734759821411de8299",
+    "deployed_rows_statement_sha256": "d7ac0f627dc606dc0beee3bf4f4bc2ac63410298f71cf4408722359936923c7c",
+    "deployed_rows_json_sha256": "bdef9068a68dccaae0240eb87b0edce6c068497377cb65273d4f8548d36b85d1"
+  },
+  "field": {
+    "characteristic": 2147483647,
+    "extension_degree": 4,
+    "factor_degree_max": 43
+  },
+  "descent": {
+    "factor_degree_min": 2,
+    "forced_lines": 7583,
+    "ambient_yz_degree": 52,
+    "base_field_pairs_min": 5079,
+    "one_component_pairs_min": 132,
+    "inside_core_lower": 807,
+    "pairwise_core_intersection": 5,
+    "inside_support": 130237,
+    "base_field_factor_points_min": 126263,
+    "exception_points_max": 3974
+  },
+  "conclusion": "at least 5079 selected pairs lie on F(X)-defined components"
+}
