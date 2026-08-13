@@ -29796,6 +29796,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "title": "Rate-half MCA rank-10 margin/interleaving split payment",
+   "status": "PROVED",
+   "closure": "threshold split, sub-square-root pair-list collapse, and exception-coordinate injection",
+   "statement": "For a gauged post-near rank-s explanation family, splitting at support-local margin T bounds the high part by the support-local transversality cap and the low part by (n-m+T-1) times the ordinary affine-span list cap, provided that cap squared is below the field size. On the official KoalaBear error-rank-ten row, s=9 and T=667 give total 61871313426765543, below budget by 213109414684629544. Thus the direct post-near residual starts at error rank eleven.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/statement.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/proof.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/audit.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/result.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/provenance.md",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/verify.py",
+    "background/nodes/rate_half_mca_rank10_margin_interleaving_split_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66194,6 +66213,36 @@
   },
   {
    "from": "rate_half_mca_m31_boundary_anchor_case_split",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_error_rank_router",
+   "to": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "kind": "req"
+  },
+  {
+   "from": "upstream_gfv4_affine_span_list_compiler",
+   "to": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "kind": "req"
+  },
+  {
+   "from": "list_subsqrt_interleaving_collapse",
+   "to": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "kind": "req"
+  },
+  {
+   "from": "v13_2_near_rational_supportwise_two_anchor_payment",
+   "to": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

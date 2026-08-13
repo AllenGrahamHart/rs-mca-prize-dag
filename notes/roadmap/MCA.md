@@ -17,6 +17,11 @@ certificates required by the challenge.
 - Mixed-petal amplification.
 - Split-pencil high-core, low-core, and graded tangent charges.
 - The deployed rate-half band closure.
+- The direct KoalaBear post-near route now pays error rank at most ten.  At
+  error rank ten, a support-local margin split at `T=667` combines the
+  transversality cap with sub-square-root interleaved affine-list control;
+  the certified total is `61871313426765543<B_*`.  Error rank at least
+  eleven remains outside this direct payment.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.

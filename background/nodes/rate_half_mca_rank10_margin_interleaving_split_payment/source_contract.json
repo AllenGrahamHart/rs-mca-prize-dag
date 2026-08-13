@@ -1,0 +1,54 @@
+{
+  "schema": "rate-half-mca-rank10-margin-interleaving-split-payment-v1",
+  "source_head": "af0e7c63b3d60873bf3fe2fc898edad85848deb5",
+  "dependencies": {
+    "support_local_transversality": {
+      "statement_sha256": "ce4d0421e9c6e52969c9066863e7038a57681caad026c4b0e6071f8d4dd172e1",
+      "proof_sha256": "76f14ccd4e72be5db14080c1290adabffd34cc4ed5004c8794c0a9042f613c21"
+    },
+    "error_rank_router": {
+      "statement_sha256": "7565b677c23ab8636966bc8a82e46ebb3db392c51953d63b9b56a34d997c27e1",
+      "proof_sha256": "8b706360068566100cf2378d2b029ec00938aa4bca1178c36564c2af4c9c460c"
+    },
+    "affine_span_list": {
+      "statement_sha256": "b3be423dd1f85fff8811c98e7da41c03194b38975d89b1f860943e71334e3a31",
+      "proof_sha256": "bc36d7a54e91ad5f82d14249b7e1e5c8270fc7c547ca8c37015f04997af01236"
+    },
+    "interleaving_collapse": {
+      "statement_sha256": "911a4ab2967362f205b87d6dff3b90631791b9f083260d10de9f75c27c3d0875",
+      "proof_sha256": "a54d05c617e8be616ff38958067d942aa764a23e0042b3f6bae9213038773022"
+    }
+  },
+  "koalabear": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "near_charge": 134944,
+    "budget": 274980728111395087,
+    "explanation_rank": 9,
+    "first_paying_threshold": 16,
+    "optimal_threshold": 667,
+    "optimal": {
+      "q": 666,
+      "agreement": 1115382,
+      "residual_agreement": 66806,
+      "ordinary_list_cap": 57781140652,
+      "high_cap": 5143522968716559,
+      "low_cap": 56727790457914040,
+      "total": 61871313426765543,
+      "slack": 213109414684629544
+    },
+    "neighbor_totals": {
+      "666": 61871337525323046,
+      "668": 61871313610314122
+    },
+    "next_rank_minima": {
+      "10": {"threshold": 876, "total": 1040506078215897711},
+      "11": {"threshold": 1146, "total": 18020673627684167414},
+      "12": {"threshold": 1487, "total": 323734765765217100200}
+    }
+  }
+}
