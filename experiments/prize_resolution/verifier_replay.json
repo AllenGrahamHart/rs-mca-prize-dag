@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_excess_norm_omitted_recurrence_flag/verify.py",
-      "seconds": 0.038356,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify.py",
+      "seconds": 0.033586,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_OMITTED_RECURRENCE_FLAG_PASS d=549755813887 n=274877906941 fixture_layer_cake=3\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_BORDERED_HANKEL_FLAG_PASS d=549755813887 regular=366503875933 subset_checks=252\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_excess_norm_omitted_recurrence_flag/verify_audit.py",
-      "seconds": 0.025478,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify_audit.py",
+      "seconds": 0.026182,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_OMITTED_RECURRENCE_FLAG_AUDIT_PASS R=824633720830 d=549755813887 n=274877906941 layer_cake=9\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_BORDERED_HANKEL_FLAG_AUDIT_PASS d=549755813887 padding=183251937956 regular=366503875933\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

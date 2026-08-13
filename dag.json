@@ -32588,6 +32588,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "title": "A=1 collision shape-A omitted-recurrence bordered-Hankel flag",
+   "status": "PROVED",
+   "closure": "every omitted defect is a source-bordered determinant square",
+   "statement": "For shape A, each omitted recurrence defect is an exact replacement minor of the core-one middle Hankel matrix and its square, times the regular factor, is the negative determinant of a bordered source-Hankel moment matrix. Cauchy-Binet expresses that determinant as an explicit generalized-alternant subset sum. The off-line flag splits into e-7 padding-heavy singular slopes and 2e+7 regular slopes; on the regular slopes, a degree-drop run is exactly stagnation of the Hankel rank after appending the corresponding next moment columns.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pure_split_component_floor",
    "title": "A=1 collision shape-A pure-split component floor",
    "status": "PROVED",
@@ -68150,6 +68168,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_core_one_general_middle_adjugate_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_regular_quartic_pin",
    "kind": "req"
   },
@@ -68719,6 +68742,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_companion_complete_shape_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -68804,6 +68832,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_excess_norm_omitted_recurrence_flag",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -68827,6 +68860,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pure_split_component_floor",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pure_split_component_floor",
@@ -69051,6 +69089,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
    "kind": "req"
   },
   {
@@ -69371,6 +69414,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_natural_residual_section_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
    "kind": "req"
   },
   {
