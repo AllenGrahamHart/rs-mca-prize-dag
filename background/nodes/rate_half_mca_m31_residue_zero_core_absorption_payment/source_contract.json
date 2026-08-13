@@ -1,0 +1,24 @@
+{
+  "schema": "rate-half-mca-m31-residue-zero-core-absorption-payment-v1",
+  "sources": {
+    "router_statement_sha256": "ae7b4648a548b7e66e7d7b7a9d73f6ba428208faa20e569b9c732c0987e710b5",
+    "router_proof_sha256": "11e5301a5cb5e6fefb7d21185e83260d644c56960edc2959033c3ff8cda45d49",
+    "profile_statement_sha256": "b1fa6c8ce0dfe3eca422dec52348346dae7d342a77c71ad685bcb88ef23f4632",
+    "profile_proof_sha256": "523c35fc8eefa4d8ea9612b2bc6ecd48373af2e9d09e5791eacc441309f2308b",
+    "common_core_statement_sha256": "767b9a387abf3606d5ccb990846789b45afa92e3489a4c10169443a55a139edf",
+    "common_core_proof_sha256": "677c8378f7bf2f87dfc10a5340e3a0861a1124a3cc68e460e61bd42dc9c32c1d"
+  },
+  "theorem": "unsafe=>large core=>high-layer absorption; low<=e*J",
+  "row": {
+    "R": 1048576, "d": 67448, "K": 6, "budget": 16777215,
+    "e": 98232, "m": 67454, "N": 1048582, "c": 5,
+    "top_threshold": 343071, "core_lower": 67452,
+    "inside_core_lower": 67447, "sync_start": 30791,
+    "low_end": 30790, "low_agreement": 36664,
+    "punctured_length": 950350, "johnson_denominator": 1339497146,
+    "johnson_numerator": 34838880650, "low_list_cap": 26,
+    "low_slope_cap": 2554032, "line_cap": 981129,
+    "contradiction_bound": 3535161, "slack": 13242054,
+    "adjacent_e": 98233, "residual_ceiling": 1044241
+  }
+}

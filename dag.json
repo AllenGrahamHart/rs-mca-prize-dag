@@ -29853,6 +29853,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "title": "Mersenne residue-zero common-core absorption payment",
+   "status": "PROVED",
+   "closure": "near-maximal top core absorbs the upper prefix; one punctured list cap pays the remainder",
+   "statement": "At Mersenne full-lift support e=98232, the proved unsafe router forces a top affine line with common core at least m-2. Its inside core synchronizes every assigned explanation with h>=30791 onto that line. The remaining explanations form a punctured ordinary list of size at most 26, giving the contradiction bound 98232*26+981129=3535161<16777215. Thus the support is safe and the residual starts at e=98233.",
+   "refs": [
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/statement.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/proof.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/audit.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/result.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/provenance.md",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/source_contract.json",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/verify.py",
+    "background/nodes/rate_half_mca_m31_residue_zero_core_absorption_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66326,6 +66345,31 @@
   },
   {
    "from": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_direction_class_router",
+   "to": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_common_core_payment",
+   "to": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_core_absorption_payment",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_m31_residue_zero_core_absorption_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
