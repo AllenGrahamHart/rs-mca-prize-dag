@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_full_lift_near_mds_extension_reduction/verify.py",
-      "seconds": 1.41681,
+      "script": "background/nodes/rate_half_mca_sparse_direction_punctured_johnson_profile/verify.py",
+      "seconds": 0.217818,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_NEAR_MDS_EXTENSION_REDUCTION_PASS controls=2 official=2 mutations=3/3\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_PUNCTURED_JOHNSON_PROFILE_PASS checks=129144 mutations=4/4\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_full_lift_near_mds_extension_reduction/verify_audit.py",
-      "seconds": 0.907615,
+      "script": "background/nodes/rate_half_mca_sparse_direction_punctured_johnson_profile/verify_audit.py",
+      "seconds": 0.543653,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_FULL_LIFT_NEAR_MDS_EXTENSION_REDUCTION_AUDIT_PASS extensions=31 profile=[(1, 5), (2, 25), (3, 1)]\n"
+      "stdout_tail": "RATE_HALF_MCA_SPARSE_DIRECTION_PUNCTURED_JOHNSON_PROFILE_AUDIT_PASS checks=34 mutations=2/2\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
