@@ -1,0 +1,44 @@
+{
+  "schema": "m31-core-absorption-interval-scan-v1",
+  "modal_app": "ap-swh83l0y5jpBLoGiOoU3pA",
+  "range": [98232, 101170],
+  "cutoff": 65200,
+  "peak_rss_mb": 56,
+  "paid_count": 2924,
+  "first_paid": {
+    "e": 98232, "H": 65489, "boundary_layers": 289,
+    "prefix": 1381829, "boundary_charge": 391210,
+    "forcing_charge": 1773039, "top_threshold": 15004177,
+    "branch": "direct"
+  },
+  "last_direct": {
+    "e": 101149, "H": 67434, "boundary_layers": 2234,
+    "prefix": 1422377, "boundary_charge": 14327810,
+    "forcing_charge": 15750187, "top_threshold": 1027029,
+    "branch": "direct"
+  },
+  "first_absorption": {
+    "e": 101150, "H": 67435, "boundary_layers": 2235,
+    "prefix": 1422391, "boundary_charge": 14530797,
+    "forcing_charge": 15953188, "top_threshold": 824028,
+    "core": 67453, "inside_core": 67448, "sync_start": 33708,
+    "low_agreement": 33747, "low_list_cap": 28,
+    "final_bound": 3813329, "slack": 12963886,
+    "branch": "absorption"
+  },
+  "last_paid": {
+    "e": 101155, "H": 67438, "boundary_layers": 2238,
+    "prefix": 1422461, "boundary_charge": 15244572,
+    "forcing_charge": 16667033, "top_threshold": 110183,
+    "core": 67446, "inside_core": 67441, "sync_start": 33720,
+    "low_agreement": 33735, "low_list_cap": 28,
+    "final_bound": 3813469, "slack": 12963746,
+    "branch": "absorption"
+  },
+  "adjacent": {
+    "e": 101156, "H": 67439, "boundary_layers": 2239,
+    "prefix": 1422475, "boundary_charge": 15528748,
+    "forcing_charge": 16951223, "top_threshold": -174007,
+    "branch": "fixed_cutoff_wall"
+  }
+}

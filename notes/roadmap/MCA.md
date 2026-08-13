@@ -32,7 +32,11 @@ certificates required by the challenge.
   core absorbs every layer with `h>=30791` onto the same line; the lower
   explanations form a punctured ordinary list of size at most `26`.
   The resulting contradiction bound `3535161<16777215` pays `e=98232`,
-  and the Mersenne full-lift residual now starts at `e=98233`.
+  A fixed-cutoff generalization with `h0=65200` then prices every exact
+  intermediate layer by normalized direction classes.  It pays all 2,924
+  supports through `e=101155`: directly through `101149`, then by core
+  absorption for six rows.  The endpoint bound is `3813469`; the Mersenne
+  full-lift residual now starts at the fixed-cutoff wall `e=101156`.
 - The `c2(1,1,2)` source-line literal-assignment coverage repair is complete:
   all 36 aligned-positive cells, the near-positive branch, aligned-negative,
   negative source-line, and literal projective-boundary cells are PROVED.
