@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/verify.py",
-      "seconds": 0.056464,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify.py",
+      "seconds": 0.044314,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_DOMAIN_MAP_BIRATIONALITY_PASS residual_norm=366503875919 outside_max=1 gcds=(1, 1) mutations=8/8\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_RANK3_WEIGHTED_C4_GENUS_PASS image_floors=(10, 10) total_deficit=366503875919 zero_mass=183251937970 mutations=9/9\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/verify_audit.py",
-      "seconds": 0.029773,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify_audit.py",
+      "seconds": 0.022622,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_DOMAIN_MAP_BIRATIONALITY_AUDIT_PASS residual_interval=(183251937961,366503875922) gcds=(1, 1)\n"
+      "stdout_tail": "RATE_HALF_SHAPE_A_RANK3_WEIGHTED_C4_GENUS_AUDIT_PASS parameter_gap=6597069766560 domain_gap=11544872091490 zero_mass=183251937970\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
