@@ -10,4 +10,8 @@
 - **New content:** applying that theorem to the entire shape-A
   normalization, proving the translated-subtorus alternative impossible,
   and evaluating the exact Euler-characteristic and genus floors.
+- **Upstream export:** `przchojecki/rs-mca` draft PR `#1161`, commit
+  `9eeedbc8b6572dabab371d22b8557a3f265c4631`, Section 38 of the consolidated
+  Lane-T threshold note; the PR comment records the route condition and
+  replay totals.
 - **Computation:** deterministic integer arithmetic only; no Modal run.

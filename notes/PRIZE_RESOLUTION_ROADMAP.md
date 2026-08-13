@@ -35138,7 +35138,8 @@ canonical prize:         fdfb20a42
 result:                  PROVED shape-A Euler/genus floor
 DAG delta:               +1 PROVED node, +3 req edges, +1 ev edge
 critical status delta:   none; rate_half_band_crossing_location remains open
-upstream terminal delta: candidate Lane-T PR #1161 extension
+upstream terminal delta: PR #1161 updated through 9eeedbc; consolidated
+                         replay 37900 checks, 86/86 mutations, 92 source pins
 delta-star movement:     none
 compute:                 exact local arithmetic only; no Modal spend
 next route action:       derive a source/Pade genus upper bound below the
