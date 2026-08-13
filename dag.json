@@ -29759,6 +29759,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "title": "Rate-half MCA full-lift mean-centered global-line profile",
+   "status": "PROVED",
+   "closure": "exact full prefix composition and adjacent walls",
+   "statement": "Composing the exact suffix-minimum punctured Johnson/mean-centered Gram prefix through H=e-floor((e-K)/3)-1 with the single cross-layer top-third affine-line charge N-m+1 gives a proved full-lift slope profile. Exact scans pay KoalaBear through e=96150 and Mersenne-31 through e=98229. At adjacent KoalaBear e=96151 the H-cap has T=-4625043784; at adjacent Mersenne e=98230 the legal profile 17415873 exceeds budget by 638658. Neither failure is unsafe.",
+   "refs": [
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/statement.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/proof.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/claim_contract.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/dependency_subdag.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/audit.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/result.md",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/source_contract.json",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify.py",
+    "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify_audit.py"
+   ]
+  },
+  {
    "id": "crossing_dsa_refutation",
    "title": "THEOREM DSA: the (ES) crossing instance is FALSE at admissible tower rows \u2014 unconditional pigeonhole (no balance functional), explicit witness VERIFIED AT n = 2^41 on the triple-refutation row (p = 3 2^41+1, e = 6), 10 of 19 admissible pairs killed outright at w = 2^34; e = 1 prime rows provably outside the regime and re-priced (heuristic) to a 53-61 bit ternary margin; with the deep-stratum lemma kit (DS/FREE/OE/TC/ROT \u2014 the stratum's primitive is TERNARY, 3^L, both banked functionals mis-priced)",
    "status": "PROVED",
@@ -66117,6 +66135,26 @@
   },
   {
    "from": "rate_half_mca_support_local_error_rank_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_direction_mean_centered_gram_profile",
+   "to": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_top_third_global_line_payment",
+   "to": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+   "to": "rate_half_mca_global_core_rank_support_distance_router",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_full_lift_mean_centered_global_line_profile",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },

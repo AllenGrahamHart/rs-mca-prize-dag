@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "order": 1886,
+  "node": {
+    "id": "rate_half_mca_full_lift_mean_centered_global_line_profile",
+    "title": "Rate-half MCA full-lift mean-centered global-line profile",
+    "status": "PROVED",
+    "closure": "exact full prefix composition and adjacent walls",
+    "statement": "Composing the exact suffix-minimum punctured Johnson/mean-centered Gram prefix through H=e-floor((e-K)/3)-1 with the single cross-layer top-third affine-line charge N-m+1 gives a proved full-lift slope profile. Exact scans pay KoalaBear through e=96150 and Mersenne-31 through e=98229. At adjacent KoalaBear e=96151 the H-cap has T=-4625043784; at adjacent Mersenne e=98230 the legal profile 17415873 exceeds budget by 638658. Neither failure is unsafe.",
+    "refs": [
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/statement.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/proof.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/claim_contract.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/dependency_subdag.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/audit.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/result.md",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/source_contract.json",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify.py",
+      "background/nodes/rate_half_mca_full_lift_mean_centered_global_line_profile/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_direction_mean_centered_gram_profile", "order": 5250},
+    {"from": "rate_half_mca_full_lift_top_third_global_line_payment", "order": 5251}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_global_core_rank_support_distance_router", "order": 5252},
+    {"to": "rate_half_band_crossing_location", "order": 5253}
+  ],
+  "refutes": []
+}

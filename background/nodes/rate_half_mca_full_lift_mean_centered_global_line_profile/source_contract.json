@@ -1,0 +1,62 @@
+{
+  "schema": "rate-half-mca-full-lift-mean-centered-global-line-profile-v1",
+  "sources": {
+    "mean_centered_statement_sha256": "3724b202ad5e1b50adb1c3ae17660e9cf09a70c588110ad46c79570196ca9f57",
+    "mean_centered_proof_sha256": "b7e5a10b24b2ed60805d80be3e1ebcd4a47b8832800092f1c1f51123f41896bd",
+    "global_line_statement_sha256": "8d103c4c092961387fa02ee18ff851a084c0f7774c0b4b238d1e7fba42dbe02d",
+    "global_line_proof_sha256": "5abca3dd268f99b38c483fb12b22c9c7d91e0908b5a4ef389195b648651e3cb2"
+  },
+  "profile": "sum_(h=1)^H (B_h-B_(h-1))*floor(e/h)+(N-m+1)",
+  "rows": [
+    {
+      "name": "KoalaBear MCA",
+      "R": 1048576,
+      "d": 67472,
+      "K": 14,
+      "budget": 274980728111395087,
+      "first_new_e": 95944,
+      "first_total": 3281626,
+      "last_paid_e": 96150,
+      "last_H": 64104,
+      "last_prefix": 478712296,
+      "last_B_H": 477366117,
+      "last_breaks": 1562,
+      "last_total": 479693401,
+      "max_total": 479693401,
+      "max_total_e": 96150,
+      "adjacent_e": 96151,
+      "adjacent_failure_h": 64105,
+      "adjacent_A": 3381,
+      "adjacent_g": 950546,
+      "adjacent_balance": 10480615,
+      "adjacent_T": -4625043784,
+      "adjacent_total": null,
+      "residual_ceiling": 1044238
+    },
+    {
+      "name": "Mersenne-31 MCA",
+      "R": 1048576,
+      "d": 67448,
+      "K": 6,
+      "budget": 16777215,
+      "first_new_e": 97909,
+      "first_total": 3305764,
+      "last_paid_e": 98229,
+      "last_H": 65487,
+      "last_prefix": 15507087,
+      "last_B_H": 14131801,
+      "last_breaks": 1670,
+      "last_total": 16488216,
+      "max_total": 16489118,
+      "max_total_e": 98228,
+      "adjacent_e": 98230,
+      "adjacent_failure_h": null,
+      "adjacent_A": 1966,
+      "adjacent_g": 886604,
+      "adjacent_balance": 2978552,
+      "adjacent_T": 56851006992,
+      "adjacent_total": 17415873,
+      "residual_ceiling": 1044241
+    }
+  ]
+}
