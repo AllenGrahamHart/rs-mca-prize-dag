@@ -14,7 +14,7 @@ ROOT = HERE.parents[2]
 CONTRACT = HERE / "source_contract.json"
 CONTRACT_SHA256 = "1ca9c942f8e60deb9ffc7998a826cd32e9ba38bac106ffb0039828986d009bdf"
 PINNED = {
-    "background/nodes/rate_half_mca_whole_line_global_core_router/statement.md": "fc7a61d44d6ee26e76db62973669930c65dc2acc6803046da33cdc8b633e90b9",
+    "background/nodes/rate_half_mca_whole_line_global_core_router/statement.md": "e333c64a01cbca02fef8ce72e8b4bcd2a99b07c1b2bb2b02e6466d933a7635c8",
     "background/nodes/xr_direction_distance_ray_bound/statement.md": "141235560ab306944b79f4ecbb9c33d59589653b2ab19ab31e65f1ed138ed963",
     "background/nodes/xr_direction_distance_ray_bound/proof.md": "5348780eb93a22964a0f8303894e045b13e017b715a5a68afbca4d7cef2f1c1e",
 }

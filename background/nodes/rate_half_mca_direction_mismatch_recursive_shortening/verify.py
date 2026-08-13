@@ -16,7 +16,7 @@ CONTRACT_SHA256 = "610813bd58e34e4c0e5892eb51011eab23b566c8859e5a58065744734f7e0
 PINNED = {
     "background/nodes/rate_half_mca_global_core_direction_distance_router/statement.md": "15bc1a798db19d80b025e4e16e758e6d8e932992873f1b306513525deb996bb2",
     "background/nodes/rate_half_mca_global_core_direction_distance_router/proof.md": "0f3ddfff5acd7c6d54af7e5347a8dccf614784c358b293263ed6164c90115b2b",
-    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/proof.md": "e6a338cd23adefb18fa73ddcda397f5e6f2eb30c313ff1b4f76446510adfce70",
+    "background/nodes/rate_half_kb_common_core_shortening_adapter_staircase_import/proof.md": "8cd269f1274bfb0d540e5c0bf54f1686149d031f8cd4628e007be57cd62c02a2",
 }
 
 
