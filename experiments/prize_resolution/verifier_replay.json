@@ -2,14 +2,30 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 5,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/verify.py",
+      "seconds": 0.027051,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_DEGREE_LEDGER_RANK_FENCE_PASS matrix=120x28 rank=27 blocks=21/21 mutations=2/2\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/verify_audit.py",
+      "seconds": 0.020007,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_DEGREE_LEDGER_RANK_FENCE_AUDIT_PASS checks=730 rank=27 kernel_blocks=21\n"
+    },
+    {
+      "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify.py",
-      "seconds": 0.27452,
+      "seconds": 0.266223,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_PARAMETER_MDS_GATE_PASS histograms={337: {28: 50}, 421: {28: 50}}\n"
@@ -17,10 +33,18 @@
     {
       "returncode": 0,
       "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_audit.py",
-      "seconds": 0.01749,
+      "seconds": 0.037864,
       "status": "PASS",
       "stderr_tail": "",
       "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_PARAMETER_MDS_GATE_AUDIT_PASS checks=35\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_probe.py",
+      "seconds": 2.269291,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_SHAPE_A_ALL_EXCESS_PARTITION_PROBE profiles=15 cases=630 minimum_rank=28 deficient=[]\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

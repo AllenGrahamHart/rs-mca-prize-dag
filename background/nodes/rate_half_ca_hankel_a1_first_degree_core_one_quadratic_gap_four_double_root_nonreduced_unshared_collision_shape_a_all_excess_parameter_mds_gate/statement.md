@@ -78,9 +78,16 @@ zero-excess and seven excess-one slopes gives a `120 x 28` matrix. It has
 rank `28` over both `F_337` and `F_421`; fifty deterministic
 degree-preserving switch trials in each field also have rank `28`.
 
+The partition probe broadens this calibration to all fifteen integer
+partitions of the total excess `7`. For each partition it constructs one
+base incidence table and twenty degree-preserving switches in each of
+`F_337` and `F_421`. All `630` resulting matrices have rank `28`.
+
 ## Scope
 
-The finite probes are evidence only. The theorem does not prove `K_all`
-has full column rank for every admissible incidence profile or on the
-official row. It replaces all residual-polynomial choices by one exact
-matrix and identifies block-nonvanishing as the realizability condition.
+The finite probes are evidence only. They sample one incidence realization
+and its switches for each excess partition; they do not enumerate incidence
+tables. The theorem does not prove `K_all` has full column rank for every
+admissible incidence profile or on the official row. It replaces all
+residual-polynomial choices by one exact matrix and identifies
+block-nonvanishing as the realizability condition.

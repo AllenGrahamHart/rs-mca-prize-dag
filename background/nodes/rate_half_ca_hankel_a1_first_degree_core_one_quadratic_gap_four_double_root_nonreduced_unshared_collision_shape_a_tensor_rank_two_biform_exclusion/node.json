@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion",
+    "title": "A=1 shape-A tensor-rank-two biform exclusion",
+    "status": "PROVED",
+    "closure": "every official Shape-A all-excess survivor has separation rank at least three",
+    "statement": "Let e>=9, m=e-2, n=(3e-7)/2, R=(9e-7)/2=3n+7, and let Gamma have 3e elements. Suppose a biform G of bidegree at most (m,n) has, at every one of the R domain rows, exact parameter degree m and m distinct roots in Gamma, while every Gamma fiber is a nonzero polynomial. Then G cannot have tensor separation rank at most two: no representation G=A0(t)B0(X)+A1(t)B1(X) exists. Indeed primitive pencil members attached to distinct projective row types have disjoint m-root sets, so at most three row types occur; each projective coefficient type has at most n preimages, giving R<=3n, contrary to R=3n+7. Hence every official block-supported K_all survivor with the Shape-A row nonvanishing condition has tensor rank at least three.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

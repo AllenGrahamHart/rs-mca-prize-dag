@@ -12,3 +12,5 @@
 6. Fiber degree drops are retained through the block degree and are not
    assumed zero.
 7. Full rank in the `e=7` probes is not promoted to a theorem.
+8. The partition probe exhausts excess partitions, not incidence tables;
+   its `630` full-rank outcomes remain numerical evidence.

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence",
+    "title": "A=1 shape-A all-excess degree-ledger rank route fence",
+    "status": "PROVED",
+    "closure": "an exact e=7 block-supported K_all kernel with the full row, fiber, and excess degree ledger",
+    "statement": "Over F_211 let C={2^(35i):0<=i<4}, X={x!=0:x^7 in C}, Gamma={0} union {delta!=0:delta^5 in C}, and G(t,X)=t^5-X^7. Then |X|=28, |Gamma|=21, every X-row has exactly five Gamma roots, twenty parameter fibers have seven X-roots and the zero fiber has none, so the excess profile is (7,0,...,0) with total e=7. Taking D_delta=X^7-delta^5 and C_delta=-1 on the twenty active fibers, and D_0=1, C_0=-X^7, gives a K_all kernel whose every polynomial block is nonzero. The exact matrix has rank 27/28. Hence the all-excess row/column degree ledger alone cannot prove universal full rank; an official closure must use spread, source/Hankel, collision, padding, or other Shape-A structure.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_degree_ledger_rank_route_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
