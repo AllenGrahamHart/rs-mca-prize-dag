@@ -15,7 +15,13 @@ E_3=W_X direct_sum varphi W_X direct_sum varphi^2 W_X          [PROVED HERE]
 K_cap=S_n intersect J E_3^perp                                 [PROVED HERE]
                          |
                          v
-bound the owner-sensitive Pade intersection                    [OPEN]
+mandatory locator-parity block and exact excess quotient       [PROVED LATER]
+                         |
+                         v
+dimension-only common-kernel continuation                      [FENCED]
+                         |
+                         v
+independent Shape-A incompatibility                            [OPEN]
                          |
                          v
 rate_half_band_crossing_location                               [TARGET]

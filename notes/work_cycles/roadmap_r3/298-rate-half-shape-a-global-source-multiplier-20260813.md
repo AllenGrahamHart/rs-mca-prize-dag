@@ -37,3 +37,8 @@ compute:                local constant-size only
 next exact target:      bound S_n intersect J E_3^perp using the fixed
                         factor, split rows, or Hankel/source-Gram identities
 ```
+
+**Cycle-300 correction:** the Padé-parity quotient theorem shows that the
+`e-3` floor in this intersection is mandatory locator parity. A standalone
+dimension bound is not a live target; closure needs an independent
+collision/Hankel, fixed-factor, or split-row incompatibility.

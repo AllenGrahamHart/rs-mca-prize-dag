@@ -36553,6 +36553,10 @@ r>=ceil((5e-3-2kappa)/6).
 At the current lower rank boundary `r=(e+1)/2`, survival requires
 `kappa>=e-3=183251937960`. Proving `kappa<=e-4` raises that floor by one.
 
+**Cycle-300 correction:** the Padé-parity quotient theorem subsequently
+proved `kappa=e-3+xi` with `xi>=0`. The upper-bound sentence is therefore a
+counterfactual calibration; it is not a live dimension-only route.
+
 ## Audit
 
 The large class uses the full two-dimensional dual-RS parity space and
@@ -36629,6 +36633,11 @@ compute:                local constant-size only
 next exact target:      bound S_n intersect J E_3^perp using the fixed
                         factor, split rows, or Hankel/source-Gram identities
 ```
+
+**Cycle-300 correction:** the Padé-parity quotient theorem shows that the
+`e-3` floor in this intersection is mandatory locator parity. A standalone
+dimension bound is not a live target; closure needs an independent
+collision/Hankel, fixed-factor, or split-row incompatibility.
 # Cycle 299: rate-half Shape-A global source-multiplier upstream export
 
 Cycle 298 was exported to the existing Lane-T draft PR `#1161` as
@@ -36649,3 +36658,40 @@ The export preserves the exact remaining obligation: bound the
 owner-sensitive intersection
 `S_n intersect J(W_X+varphi W_X+varphi^2W_X)^perp`. It explicitly states
 that the ambient dimensions do not exclude Shape A.
+# Cycle 300: rate-half Shape-A Padé-parity quotient fence
+
+The global Padé identity corrects the interpretation of the center
+common-kernel floor. In the source residue algebra,
+
+```text
+J Qbar=q_varphi G,
+J U_Q subset E_3,
+S_n^perp=S_d,       d=R-n-2.
+```
+
+Therefore the right radical of the common-kernel pairing is exactly
+`E_3 intersect J S_d`. With
+
+```text
+xi=dim(E_3 intersect J S_d)-(e+1)>=0,
+```
+
+one has
+
+```text
+rank T=dim ker Phi-xi,
+kappa=n+e+2-3r+xi.
+```
+
+At the lower boundary this is `kappa=e-3+xi`. The previously targeted
+`e-3` floor is mandatory locator parity, not a dimension anomaly. The
+dimension-only common-kernel continuation is now formally fenced; any
+Shape-A exclusion must use an independent collision/Hankel, fixed-factor,
+or split-row incompatibility.
+
+```text
+new node:               PROVED
+critical status effect: none
+compute:                local constant-size only
+route effect:           invalid next-step removed
+```

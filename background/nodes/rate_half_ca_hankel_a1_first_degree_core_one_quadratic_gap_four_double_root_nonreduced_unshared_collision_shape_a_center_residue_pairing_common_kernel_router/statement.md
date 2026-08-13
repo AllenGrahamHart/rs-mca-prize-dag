@@ -83,10 +83,14 @@ kappa>=e-3=183251937960.                           (CRP8)
 ```
 
 Thus `kappa<=e-4` would exclude that boundary and raise the separation-rank
-floor by one.
+floor by one. The subsequent Padé-parity quotient theorem proves
+`kappa=e-3+xi` with `xi>=0` under this packet's full Shape-A identities.
+Thus the displayed upper bound is a counterfactual calibration, not a live
+dimension-only subgoal.
 
 ## Scope
 
 This theorem does not bound `kappa`. It replaces three anonymous weighted
-evaluation matrices by explicit corank-one residue forms and isolates the
-common-kernel dimension as the exact next rank quantity.
+evaluation matrices by explicit corank-one residue forms. The later
+Padé-parity quotient fence identifies the mandatory part of that kernel and
+redirects closure to an independent Shape-A incompatibility.

@@ -30,6 +30,10 @@ r>=ceil((5e-3-2kappa)/6).
 At the current lower rank boundary `r=(e+1)/2`, survival requires
 `kappa>=e-3=183251937960`. Proving `kappa<=e-4` raises that floor by one.
 
+**Cycle-300 correction:** the Padé-parity quotient theorem subsequently
+proved `kappa=e-3+xi` with `xi>=0`. The upper-bound sentence is therefore a
+counterfactual calibration; it is not a live dimension-only route.
+
 ## Audit
 
 The large class uses the full two-dimensional dual-RS parity space and
