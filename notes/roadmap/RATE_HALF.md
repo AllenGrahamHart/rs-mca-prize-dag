@@ -172,6 +172,22 @@ which carries at least `495405467/10^9`. This is incidence abundance, not a
 record count: the next theorem must control overlap multiplicity in one of
 the two lanes.
 
+Recordwise star amplification now resolves the first overlap layer. At least
+`540546700/10^9` of records, an absolute `148639925144138894`, have
+98-percent component density. One ten-subset then has 98-percent component
+extensions. Evaluation rank ten gives one owner core of deficiency at most
+22320; rank nine gives one exact affine owner pencil with at least 45153
+full-rank extension coordinates; rank at most eight gives a common kernel
+plane. The next aggregate target is therefore a census/chronology theorem
+for large owners, rank-nine split pencils, or codimension-two kernels, not
+arbitrary irreducible components.
+
+Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
+through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
+post-`#1168` reserve repricing, guarded dimension adapter, and chronology
+owner acceptance contract. It explicitly supplies no owner theorem, so the
+component-star router is new continuation rather than duplicate work.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

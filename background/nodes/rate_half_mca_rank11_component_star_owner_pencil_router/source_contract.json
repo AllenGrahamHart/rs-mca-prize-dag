@@ -1,0 +1,41 @@
+{
+  "schema": "rate-half-mca-rank11-component-star-owner-pencil-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"
+  ],
+  "parameters": {
+    "component_incidence_ppb": 990810934,
+    "record_threshold_percent": 98,
+    "record_fraction_ppb": 540546700,
+    "non_dense_record_floor": 274980728111260126,
+    "threshold_record_floor": 148639925144138894,
+    "R": 1048576,
+    "d": 67472,
+    "K_min": 10,
+    "K_max": 1048576,
+    "space_dimension": 10,
+    "tuple_size": 11,
+    "full_rank_owner_deficiency_ceiling": 22320,
+    "rank9_pencil_extension_floor": 45153,
+    "low_rank_kernel_dimension_floor": 2
+  },
+  "routes": [
+    "LARGE_AFFINE_OWNER",
+    "RANK9_OWNER_PENCIL",
+    "KERNEL_PLANE"
+  ],
+  "logical_pins": [
+    "incidence_to_record_markov",
+    "eleven_to_ten_star_average",
+    "full_rank_unique_owner",
+    "rank9_root_budget_and_owner_pencil",
+    "rank_at_most_8_kernel_plane"
+  ],
+  "upstream_reconciliation": {
+    "canonical_prize_head": "859a27a4bc2a2d05a76ee2f2e7d0fd054e97be4c",
+    "open_pr": 1169,
+    "pr_head": "b4bad860750f91955dbaead8f2b5a0fdef1f1343",
+    "scope": "owner substrate and acceptance contract; no owner theorem"
+  },
+  "nonclaim": "Recordwise outputs are not aggregated and do not yet satisfy the chronology-owner acceptance contract."
+}
