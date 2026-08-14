@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-component-ninesubset-weighted-concentrator-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_lane_concentrator"
+  ],
+  "parameters": {
+    "residual_dimension_minimum": 10,
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "subset_size": 9,
+    "extension_size": 2,
+    "marked_endpoint_floor": 5868470021012020,
+    "distinct_record_endpoint_floor": 2578110
+  },
+  "nonclaim": "The fixed-B marked incidence floor is not a fixed-chart payment, chronology owner, or prize closure."
+}

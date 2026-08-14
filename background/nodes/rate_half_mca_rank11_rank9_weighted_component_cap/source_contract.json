@@ -1,0 +1,19 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-weighted-component-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_rank9_ninecell_paircore_extension"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "support_complement": 981104,
+    "fixed_owner_record_cap": 981105,
+    "fixed_subset_size": 9,
+    "component_subset_size": 11,
+    "boundary_dimension": 67473,
+    "boundary_n": 1116049,
+    "boundary_m": 134945,
+    "boundary_weighted_cap": 147748596828055575
+  },
+  "nonclaim": "The weighted rank-nine cell cap is not a kernel-lane cap, chronology payment, or prize closure."
+}

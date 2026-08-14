@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+    "title": "The fixed rank-nine component target is impossible at every shortening",
+    "status": "PROVED",
+    "closure": "small-dimension core contradiction plus large-dimension weighted incidence gap",
+    "statement": "The rank-nine affine-owner alternative in the fixed nine-subset target router cannot occur. If K'<=67472, its forced common core of size at least 134944 cannot lie in an owner core of size below m'=67472+K'. If K'>=67473, the weighted selector demand exceeds the universal rank-nine cap; at K'=67473 the exact values are 6849288576200976639 > 147748596828055575, and the demand-to-cap ratio increases with K'. Thus the residual fixed target is reduced to the kernel chart or rank-eight owner-flat alternatives.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_target_router"},
+    {"from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator"},
+    {"from": "rate_half_mca_rank11_rank9_weighted_component_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

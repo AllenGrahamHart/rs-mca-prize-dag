@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+    "title": "The component lane has one fixed nine-subset with its full extension weight",
+    "status": "PROVED",
+    "closure": "incidence marking before the two-coordinate extension quotient",
+    "statement": "For every residual shortening, one typed positive-dimensional component lane and one fixed nine-subset B carry marked weight at least ceil((495405467/10^9) N_min C(m',9) C(m'-9,2)/C(n',9)), where the weight of a record is the number of component eleven-subsets containing B. At K'=10 this is 5868470021012020. Dividing only after retaining this weight recovers the 2578110 distinct-record floor.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/statement.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/proof.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/attack.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/audit.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/result.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/verify.py",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_rank9_weighted_target_elimination"}
+  ],
+  "refutes": []
+}
