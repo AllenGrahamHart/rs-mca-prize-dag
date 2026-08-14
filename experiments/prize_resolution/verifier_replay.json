@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify.py",
+      "script": "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify.py",
       "seconds": 0.031,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_PASS pairs=590309033203 cap=579155144020629315 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_PASS last_deficit=1170919108090 first_excess=11714977255865 delta5_cap=196221 controls=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify_audit.py",
+      "script": "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify_audit.py",
       "seconds": 0.03,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_AUDIT_PASS pairs=590309033203 cap=579155144020629315 proof_pins=5/5\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
-      "seconds": 0.033,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_PASS last_gap=18174297527234 first_gap=36370688210984 controls=7/7\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py",
-      "seconds": 0.035,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_AUDIT_PASS last_gap=18174297527234 first_gap=36370688210984 monotone_factors=11/11 proof_pins=3/3\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_AUDIT_PASS last_deficit=1170919108090 first_excess=11714977255865 proof_pins=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

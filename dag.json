@@ -40337,6 +40337,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "title": "The upper rank-eight interval reaches the dense-owner chronology terminal",
+   "status": "PROVED",
+   "closure": "marked owner-pair averaging plus deficiency-sensitive fixed-owner multiplicity",
+   "statement": "For every 22526<=K'<=37995, a surviving rank-eight fixed chart contains one actual owner pair that owns at least 200632 selected records and has core deficiency at most 4. At K'=22526 the marked demand exceeds 200631*C(n'-9,2) by 11714977255865, while at K'=22525 it falls short by 1170919108090. The average ratio is a constant times C(m',11)/C(n',11), hence increases. This reaches the exact dense-owner terminal imported from PR #1168 but does not assign chronology, coalesce owners, or pay rank eleven.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
    "title": "A rank-eight owner flat has a universal owner-pair weight cap",
    "status": "PROVED",
@@ -77150,6 +77169,11 @@
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
    "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
    "kind": "req"
   },
@@ -77336,6 +77360,21 @@
   {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
    "kind": "req"
   },
   {

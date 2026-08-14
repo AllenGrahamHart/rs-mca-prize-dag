@@ -1,0 +1,31 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-dense-owner-terminal-bridge-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+    "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+    "rate_half_mca_rank11_pair_core_route_cut_import"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "support_complement": 981104,
+    "component_ppb": 495405467,
+    "ppb_denominator": 1000000000,
+    "record_floor": 274980728111260126,
+    "owner_record_target": 200632,
+    "comparison_multiplier": 200631,
+    "deficiency_ceiling": 4,
+    "delta5_record_cap": 196221,
+    "last_unforced_dimension": 22525,
+    "last_unforced_weight": 115084482492024776,
+    "last_unforced_pair_resource": 573618500686,
+    "last_unforced_deficit": 1170919108090,
+    "first_forced_dimension": 22526,
+    "first_forced_weight": 115097583282647783,
+    "first_forced_pair_resource": 573619571778,
+    "first_forced_excess": 11714977255865,
+    "terminal_interval_maximum": 37995,
+    "ratio_formula": "constant*C(m_prime,11)/C(n_prime,11)"
+  },
+  "nonclaim": "The dense owner is not chronology-assigned or unique across the received line; the bridge does not pay rank eleven or either prize problem."
+}
