@@ -40246,6 +40246,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "title": "Canonical rank bases globalize every fixed kernel chart",
+   "status": "PROVED",
+   "closure": "common quotient translation plus generalized-MDS extension capacity",
+   "statement": "For every rank-r deficient component eleven-subset in the ten-dimensional residual correction space, choose one canonical rank basis B and put d=10-r. All records over B lie after one common affine translation and exact basis cancellation in one d-dimensional explanation family. The d+1 remaining tuple coordinates are common zeros of its kernel space, so only K'-10 additional zeros and at most C(K'-10,d+1) extensions are available per record. A fixed basis therefore carries at most M_d C(K'-10,d+1) incidences, with the proved margin/interleaving cap at d=9.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "title": "Rank-stratified capacity removes the first 4589 kernel shortenings",
+   "status": "PROVED",
+   "closure": "canonical-basis capacity sum with exhaustive exact interval replay",
+   "statement": "For every 10<=K'<=4598, the sum over all nine nonzero evaluation-rank strata of C(n',10-d) M_d C(K'-10,d+1) is strictly below the dominant kernel-lane demand (495405467/10^9)N_min C(m',11). At K'=4598 the exact integer gap is 219272330501201744129177266158988707697316238048878827197685. Hence the kernel lane cannot dominate on this interval. At K'=4599 the comparison reverses, so larger shortenings remain open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "title": "Rank-eleven large shared pair-core payment",
    "status": "PROVED",
@@ -77028,6 +77066,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77105,6 +77148,11 @@
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_mca_rank11_component_star_owner_pencil_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
   {
@@ -77186,6 +77234,21 @@
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "to": "rate_half_mca_rank11_order32_common_support_cancellation",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_large_shared_pair_core_payment",
@@ -77365,6 +77428,11 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
   {
