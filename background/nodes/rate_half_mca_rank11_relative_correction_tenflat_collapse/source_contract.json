@@ -1,0 +1,34 @@
+{
+  "schema": "rate-half-mca-rank11-relative-correction-tenflat-collapse-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+    "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+    "rate_half_mca_rank11_relative_correction_space_router"
+  ],
+  "dimensions": {
+    "deviation_space": 10,
+    "correction_minimum_after_core_ray_payment": 2,
+    "correction_maximum": 10,
+    "proper_paid_through": 11,
+    "clone_tolerant_nonabsorbing_paid_through": 9
+  },
+  "containments": [
+    "all_explanation_deviations_in_V",
+    "all_core_interpolant_high_coefficients_in_V",
+    "all_corrections_in_V",
+    "dimension_ten_correction_span_equals_V"
+  ],
+  "routes": [
+    "RANK_FLAT_ABSORB_HIGH",
+    "POLYNOMIAL_CLONE_ABSORB_HIGH"
+  ],
+  "toy": {
+    "field": 17,
+    "ambient_dimension": 4,
+    "deviation_basis": [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0]],
+    "interpolant_coefficients": [[1, 2, 3, 0], [4, 5, 6, 0]],
+    "explanation_deviation": [7, 8, 9, 0],
+    "correction": [6, 6, 6, 0]
+  },
+  "nonclaim": "The high-core-absorbing positive-dimensional components remain unpaid."
+}

@@ -114,6 +114,18 @@ must absorb the high slope coefficients. The next action is component
 classification or an aggregate high-dimensional correction census, not
 another common-core or order-32 selector.
 
+Rank-eleven geometry now deletes the generic high-dimensional alternative.
+All residual explanations lie on the descended dense pair line plus the
+fixed ten-dimensional deviation space `V'`; coefficientwise interpolation
+is `V'`-valued after subtracting that pair line, so every correction lies in
+`V'`. The correction span therefore has dimension at most `10`; dimensions
+zero and one are paid by the core/ray theorem. Properness is already paid
+through `11`, and clone tolerance forces high-core absorption through `9`,
+while dimension `10` gives equality with `V'`. Hence every live `(H_C)`
+residual is now a high-core-absorbing positive-dimensional evaluation
+rank-flat or exact polynomial clone component of dimension `2..10`. This is
+the precise component-classification target.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

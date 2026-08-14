@@ -40207,6 +40207,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "title": "Rank-eleven relative correction ten-flat collapse",
+   "status": "PROVED",
+   "closure": "correction-span containment in the ten-dimensional deviation space and elimination of the generic high-dimensional branch",
+   "statement": "In the full-rank H_C branch, every explanation is the descended dense pair line plus a vector in the fixed ten-dimensional deviation space V'. Coefficientwise interpolation is V'-valued after subtracting the pair line, so every correction h_gamma-H(gamma) lies in V'. The correction span has dimension at most 10; dimensions zero and one are paid by the core/ray theorem. Since proper spaces are paid through dimension 11, every over-budget survivor is a positive-dimensional rank-flat or polynomial clone component. Every survivor absorbs all high interpolant coefficients: by clone tolerance through dimension 9, or by W=V' at dimension 10.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_shortened_partial_relative_router",
    "title": "Rank-eleven shortened seed reaches the partial-relative interfaces",
    "status": "PROVED",
@@ -76780,6 +76798,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76845,7 +76868,22 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_correction_space_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_space_router",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
