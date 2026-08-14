@@ -208,6 +208,27 @@ use an enormous low-core plane atlas or enter this large shared-core route;
 the live task is cross-plane census/chronology compression, not another
 fixed-cell scalar estimate.
 
+The first overlap-correct global selector is now proved. Choose the heavier
+of the affine-owner and rank-deficient component lanes before deduplication,
+mark all nine-subsets of every component eleven-subset, and divide by the
+exact extension multiplicity `C(m'-9,2)`. The identity
+
+```text
+C(11,9) C(m',11)=C(m',9) C(m'-9,2)
+```
+
+then gives one fixed nine-subset carrying at least `2578110` distinct
+records in that same lane, uniformly over every shortening. A nine-cell
+version of the split-pencil proof retains the exact low-core plane cap
+`1434405`, because the enlarged ordered-pair resource
+`2057517483015` still lies below the next quadratic integer. Consequently
+the fixed target is one of three proved forms: a fixed nonzero kernel chart,
+a rank-nine owner plane with a shared `134944`-coordinate pair core, or a
+rank-eight `U^2` owner flat whose selected errors have affine rank at most
+three. This removes the purely recordwise target atlas, but the selected
+population is not the complete lane; aggregate payment of those three fixed
+targets remains open.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology

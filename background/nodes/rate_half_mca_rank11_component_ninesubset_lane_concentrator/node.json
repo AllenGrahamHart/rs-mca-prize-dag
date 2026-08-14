@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+    "title": "Rank-eleven component mass concentrates on one nine-subset",
+    "status": "PROVED",
+    "closure": "typed lane selection, exact subset deduplication, and uniform endpoint averaging",
+    "statement": "One of the affine-owner and rank-deficient kernel component lanes carries at least 495405467 ppb of all record/eleven-subset incidences. Marking all nine-subsets and dividing by the exact C(m'-9,2) extension multiplicity gives one fixed nine-subset B carrying at least 2578110 distinct records in that same lane, uniformly for every 10<=K'<=1048576. This is a target concentrator, not a component identity or payment.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/statement.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/proof.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/audit.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/result.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/verify.py",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

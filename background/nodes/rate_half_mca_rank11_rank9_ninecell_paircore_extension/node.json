@@ -1,0 +1,27 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+    "title": "The rank-nine pair-core plane cap extends to nine cells",
+    "status": "PROVED",
+    "closure": "nine-coordinate affine-plane geometry and adjacent-integer resource audit",
+    "statement": "For actual original-row records in one affine owner plane fixed by a nine-coordinate evaluation-rank-nine set, the common plane core has size at least nine. If it is below 134944, the ordered-pair petal argument gives g(g-1)<=981105*(2097152-9)=2057517483015 and the unchanged integer cap g<=1434405. Every larger nine-cell plane shares at least 134944 received coordinate pairs.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [],
+  "refutes": []
+}

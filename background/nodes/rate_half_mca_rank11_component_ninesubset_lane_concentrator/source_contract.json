@@ -1,0 +1,31 @@
+{
+  "schema": "rate-half-mca-rank11-component-ninesubset-lane-concentrator-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "d": 67472,
+    "K_min": 10,
+    "K_max": 1048576,
+    "record_floor": 274980728111260126,
+    "combined_component_incidence_ppb_floor": 990810934,
+    "dominant_lane_incidence_ppb_floor": 495405467,
+    "component_tuple_size": 11,
+    "selector_size": 9,
+    "subsets_per_component_tuple": 55,
+    "endpoint_n": 1048586,
+    "endpoint_m": 67482,
+    "uniform_fixed_selector_record_floor": 2578110
+  },
+  "identities": [
+    "C(11,9)*C(m,11)=C(m,9)*C(m-9,2)",
+    "one_record_selector_pair_has_at_most_C(m-9,2)_extensions",
+    "the_ratio_C(d+K,9)/C(R+K,9)_increases_with_K"
+  ],
+  "routes": [
+    "DOMINANT_AFFINE_OWNER_LANE_FIXED_B",
+    "DOMINANT_KERNEL_LANE_FIXED_B"
+  ],
+  "nonclaim": "The fixed nine-subset population is a route concentrator, not a component identity, chronology owner, row payment, or prize closure."
+}

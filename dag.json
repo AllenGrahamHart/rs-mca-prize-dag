@@ -40046,6 +40046,42 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+   "title": "Rank-eleven component mass concentrates on one nine-subset",
+   "status": "PROVED",
+   "closure": "typed lane selection, exact subset deduplication, and uniform endpoint averaging",
+   "statement": "One of the affine-owner and rank-deficient kernel component lanes carries at least 495405467 ppb of all record/eleven-subset incidences. Marking all nine-subsets and dividing by the exact C(m'-9,2) extension multiplicity gives one fixed nine-subset B carrying at least 2578110 distinct records in that same lane, uniformly for every 10<=K'<=1048576. This is a target concentrator, not a component identity or payment.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/statement.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/proof.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/audit.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/result.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/verify.py",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_lane_concentrator/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "title": "Rank-eleven component mass enters one fixed populated target",
+   "status": "PROVED",
+   "closure": "fixed-chart lane classification, nine-cell pair-core forcing, and rank-eight error-span reduction",
+   "statement": "The fixed nine-subset concentrator yields at least 2578110 records in one typed component lane. A dominant kernel lane gives one fixed nonzero ambient evaluation kernel. A dominant affine-owner lane has nine-subset evaluation rank eight or nine: rank nine exceeds the 1434405 nine-cell plane cap and forces a shared 134944-coordinate pair core, while rank eight places all selected owners in one U^2 flat and all selected errors in affine rank at most three. These are structural targets, not aggregate payments.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/result.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_component_star_owner_pencil_router",
    "title": "Rank-eleven component stars force a large owner, pencil, or kernel plane",
    "status": "PROVED",
@@ -40222,6 +40258,24 @@
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/provenance.md",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify.py",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+   "title": "The rank-nine pair-core plane cap extends to nine cells",
+   "status": "PROVED",
+   "closure": "nine-coordinate affine-plane geometry and adjacent-integer resource audit",
+   "statement": "For actual original-row records in one affine owner plane fixed by a nine-coordinate evaluation-rank-nine set, the common plane core has size at least nine. If it is below 134944, the ordered-pair petal argument gives g(g-1)<=981105*(2097152-9)=2057517483015 and the unchanged integer cap g<=1434405. Every larger nine-cell plane shares at least 134944 received coordinate pairs.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_ninecell_paircore_extension/verify_audit.py"
    ]
   },
   {
@@ -76889,6 +76943,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+   "to": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76902,6 +76966,11 @@
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
@@ -77029,6 +77098,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+   "to": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77042,6 +77116,11 @@
    "from": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
+   "to": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",

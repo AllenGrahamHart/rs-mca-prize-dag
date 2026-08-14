@@ -1,0 +1,25 @@
+{
+  "schema": "rate-half-mca-rank11-component-ninesubset-target-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+    "rate_half_mca_rank11_rank9_ninecell_paircore_extension"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_tuple_size": 11,
+    "fixed_selector_size": 9,
+    "fixed_selector_population_floor": 2578110,
+    "rank9_low_common_core_plane_cap": 1434405,
+    "population_excess_over_plane_cap": 1143705,
+    "rank9_shared_pair_core_floor": 134944,
+    "rank8_kernel_dimension": 2,
+    "rank8_error_rank_ceiling": 3,
+    "kernel_lane_ambient_kernel_dimension_floor": 1
+  },
+  "routes": [
+    "FIXED_KERNEL_NINESUBSET_CHART",
+    "RANK9_SHARED_PAIR_CORE_PLANE",
+    "RANK8_OWNER_FLAT_ERROR_RANK_AT_MOST_3"
+  ],
+  "nonclaim": "The fixed target population is not a complete-lane selector, first-match chronology owner, aggregate rank-eleven payment, KoalaBear closure, or prize closure."
+}
