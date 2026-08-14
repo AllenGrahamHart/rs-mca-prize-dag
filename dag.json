@@ -40398,6 +40398,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "title": "Rank-eight nine-shadow deficit removes kernel through 17608",
+   "status": "PROVED",
+   "closure": "exact two-resource dual arrangement with independent primal active-set reconstruction",
+   "statement": "The rank-preserving and rank-eight-deficit nine-shadow resources, together with the ambient/record individual caps, bound the dominant kernel lane below demand for every 10<=K'<=17608. The comparison reverses at K'=17609.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
+   "title": "Rank-eight nine-shadows lose 2276336601 support pairs",
+   "status": "PROVED",
+   "closure": "rank-two contraction with generalized-MDS closure caps and ordered independent-pair counting",
+   "statement": "Every rank-eight nine-subset of one exact support has at least C(67474,2) pair extensions of rank ten. Therefore its kernel-extension cap is C(m'-9,2)-C(67474,2), and the full-containment resource charges I_2 by 55+6*C(67474,2)/C(K'-11,2).",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "title": "Rank-stratified capacity removes the first 4589 kernel shortenings",
    "status": "PROVED",
@@ -77525,6 +77563,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
    "kind": "ev"
@@ -77532,6 +77575,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+   "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
    "kind": "req"
   },
   {
@@ -77547,6 +77595,21 @@
   {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
+   "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
+   "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
    "kind": "req"
   },
   {
