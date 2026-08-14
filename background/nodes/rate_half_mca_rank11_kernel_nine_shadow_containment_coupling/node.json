@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+    "title": "All 55 nine-shadows couple corank one to the lower ranks",
+    "status": "PROVED",
+    "closure": "rank-partitioned full-containment double count with generalized-MDS rank-nine closure",
+    "statement": "For one residual support, put E_0=C(m'-9,2) and E_1=C(K'-10,2). If I_d counts corank-d eleven-subsets, then [52+3E_0/E_1]I_1+55 sum_(d>=2)I_d <= E_0 C(m',9), with E_1=0 forcing I_1=0. This counts all 55 contained nine-subsets and is independent of the rank-preserving nine-shadow inequality.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_nine_shadow_coupling"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut"}
+  ],
+  "refutes": []
+}

@@ -40341,6 +40341,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "title": "Full nine-shadow containment removes kernel through 15670",
+   "status": "PROVED",
+   "closure": "exact two-resource LP replay with independent nonnegative dual certificate",
+   "statement": "The rank-preserving and full-containment nine-shadow inequalities, together with the ambient/record individual caps, bound the dominant kernel lane below demand for every 10<=K'<=15670. At K'=15670 the scaled integer gap is 60244744187647715538325354175068999745872308513185869854532; the comparison reverses at K'=15671.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+   "title": "All 55 nine-shadows couple corank one to the lower ranks",
+   "status": "PROVED",
+   "closure": "rank-partitioned full-containment double count with generalized-MDS rank-nine closure",
+   "statement": "For one residual support, put E_0=C(m'-9,2) and E_1=C(K'-10,2). If I_d counts corank-d eleven-subsets, then [52+3E_0/E_1]I_1+55 sum_(d>=2)I_d <= E_0 C(m',9), with E_1=0 forcing I_1=0. This counts all 55 contained nine-subsets and is independent of the rank-preserving nine-shadow inequality.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_containment_coupling/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
    "title": "One nine-shadow budget couples every kernel corank",
    "status": "PROVED",
@@ -77477,6 +77515,26 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
    "kind": "ev"
@@ -77484,6 +77542,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
    "kind": "req"
   },
   {
