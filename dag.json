@@ -40082,6 +40082,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "title": "Rank-eleven dense roots saturate the high coefficient span",
+   "status": "PROVED",
+   "closure": "monic dense-root factorization and triangular recovery force every absorbing correction space to equal the fixed ten-dimensional deviation space",
+   "statement": "For the fixed rank-eleven relative core, the deviation interpolant vanishes at eighteen dense-pair anchor slopes and ten other anchor values span V'. Factoring the monic degree-18 dense-root locator from its degree-at-most-31 deviation polynomial shows that coefficients in degrees 18 through 31 span every quotient coefficient and hence all of V'. These are high coefficients of H. Therefore every correction space W<=V' which absorbs all high coefficients equals V' and has dimension exactly ten. Absorbing dimensions two through nine are empty; component aggregation remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_root_highspan_saturation/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "title": "Rank-eleven global-core rank-drop and high-complexity router",
    "status": "PROVED",
@@ -76819,9 +76837,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
@@ -76932,6 +76960,11 @@
    "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "to": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",

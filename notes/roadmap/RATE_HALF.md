@@ -126,6 +126,17 @@ residual is now a high-core-absorbing positive-dimensional evaluation
 rank-flat or exact polynomial clone component of dimension `2..10`. This is
 the precise component-classification target.
 
+The eighteen dense-pair anchors now sharpen that target to one correction
+space. After subtracting the dense pair line, the fixed core interpolant
+vanishes at those eighteen slopes and has degree at most 31. Division by
+their monic locator leaves degree at most 13; triangular recovery from
+degrees `18..31` shows that the high coefficients span every quotient
+coefficient. Since ten anchor deviations span `V'`, the high-coefficient
+span is exactly `V'`. Hence every absorbing survivor has `W=V'` and
+dimension exactly ten. The former absorbing dimensions `2..9` are empty;
+component kernels and affine owners may still vary inside the one fixed
+ten-space.
+
 The full-evaluation-rank clone half of that target now collapses. On an
 evaluation basis of the absorbing correction space, every coefficient
 `H_j+P_j` for `j>=2` lies in the space and vanishes; injectivity forces

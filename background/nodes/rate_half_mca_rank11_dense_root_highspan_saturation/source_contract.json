@@ -1,0 +1,31 @@
+{
+  "schema": "rate-half-mca-rank11-dense-root-highspan-saturation-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+    "rate_half_mca_rank11_relative_correction_tenflat_collapse"
+  ],
+  "parameters": {
+    "dense_root_count": 18,
+    "slope_degree_maximum": 31,
+    "quotient_degree_maximum": 13,
+    "deviation_dimension": 10,
+    "high_coefficient_start": 2,
+    "triangular_coefficient_start": 18,
+    "surviving_correction_dimension": 10
+  },
+  "logical_pins": [
+    "dense_anchor_deviations_vanish",
+    "basis_anchor_deviations_span_V",
+    "all_interpolant_deviation_coefficients_lie_in_V",
+    "monic_dense_locator_gives_triangular_high_coefficients",
+    "absorbing_correction_space_equals_V"
+  ],
+  "toy": {
+    "field": 101,
+    "dense_roots": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    "quotient_vector_dimension": 10,
+    "quotient_coefficient_count": 14,
+    "basis_evaluation_slopes": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+  },
+  "nonclaim": "The number and aggregate mass of components and affine owners remain unpaid."
+}
