@@ -1,0 +1,18 @@
+{
+  "schema": "rate-half-mca-rank11-component-star-large-owner-uniqueness-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_star_owner_pencil_router"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "d": 67472,
+    "K_prime_min": 10,
+    "K_prime_max": 1048576,
+    "large_owner_deficiency_ceiling": 22320,
+    "two_owner_deficiency_sum": 44640,
+    "distance_margin_after_two_owners": 22832,
+    "intersection_over_root_cap": 22833,
+    "owner_count_per_record": 1
+  },
+  "nonclaim": "Recordwise uniqueness is not a count of owners across records, a deployed first-match chronology, a rank-eleven payment, or a prize closure."
+}

@@ -182,6 +182,20 @@ plane. The next aggregate target is therefore a census/chronology theorem
 for large owners, rank-nine split pencils, or codimension-two kernels, not
 arbitrary irreducible components.
 
+The full-rank large owner is now canonical recordwise. If two owner pairs
+for the same support both had deficiency at most `22320`, their within-support
+cores would intersect in at least
+
+```text
+m'-2*22320=K'+22832
+```
+
+coordinates. Distinct RS pairs can coincide in both components on at most
+`K'-1` coordinates, a uniform contradiction with gap `22833`. Thus the
+large owner does not depend on the ten-subset used to expose it. This gives
+a sound owner key for weighted aggregation; it does not identify keys across
+different records or install deployed first-match chronology.
+
 The rank-nine branch now has an exact fixed-cell split-pencil ledger. For a
 fixed ten-coordinate cell `B`, owners form an affine plane and record slopes
 form distinct-direction lines. Their intersections give

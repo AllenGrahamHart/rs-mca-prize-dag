@@ -40082,6 +40082,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_component_star_large_owner_uniqueness",
+   "title": "The full-rank component-star large owner is record-intrinsic",
+   "status": "PROVED",
+   "closure": "support-overlap uniqueness from the RS root bound",
+   "statement": "Uniformly over every residual shortening, a record has at most one polynomial-pair owner whose within-support pair core has deficiency at most 22320. Indeed, two such cores would intersect in at least K'+22832 coordinates, while two distinct RS pairs can agree in both components on at most K'-1 coordinates. Consequently every full-rank 98-percent component-star output has a unique large owner independent of the chosen ten-subset. This is a recordwise owner key, not an aggregate chronology payment.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/statement.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/proof.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/attack.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/audit.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/result.md",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/verify.py",
+    "background/nodes/rate_half_mca_rank11_component_star_large_owner_uniqueness/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_component_star_owner_pencil_router",
    "title": "Rank-eleven component stars force a large owner, pencil, or kernel plane",
    "status": "PROVED",
@@ -76977,9 +76996,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_component_star_large_owner_uniqueness",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
+   "to": "rate_half_mca_rank11_component_star_large_owner_uniqueness",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
