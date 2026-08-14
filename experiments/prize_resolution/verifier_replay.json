@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify.py",
-      "seconds": 0.034108,
+      "script": "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify.py",
+      "seconds": 0.029837,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_HEAVY_PAIR_ORDER32_SEED_COMPILER_PASS Q=869784434119 total=274791086998147432 slack=189641113247655 basis=7/10 controls=8/8\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ORDER32_COMMON_SUPPORT_CANCELLATION_PASS Kmin=4923 order=32 toy=6 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify_audit.py",
-      "seconds": 0.036333,
+      "script": "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify_audit.py",
+      "seconds": 0.030981,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_HEAVY_PAIR_ORDER32_SEED_COMPILER_AUDIT_PASS Q=869784434119 total=274791086998147432 low_min=190604046733790 controls=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ORDER32_COMMON_SUPPORT_CANCELLATION_AUDIT_PASS Kmin=4923 toy=6 controls=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

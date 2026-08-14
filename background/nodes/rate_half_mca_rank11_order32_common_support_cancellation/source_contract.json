@@ -1,0 +1,49 @@
+{
+  "schema": "rate-half-mca-rank11-order32-common-support-cancellation-v1",
+  "dependency": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "redundancy": 1048576,
+    "agreement_excess": 67472,
+    "seed_size": 32,
+    "common_support_size_maximum": 1043653,
+    "residual_dimension_minimum": 4923,
+    "residual_dimension_maximum": 1048576,
+    "critical_order": 32,
+    "critical_order_numerator": 2097152,
+    "critical_order_floor": 31,
+    "slope_degree_floor_at_residual_minimum": 3,
+    "slope_degree_floor_at_deployed_dimension": 18,
+    "residual_dimension_for_degree18_minimum": 1044446,
+    "common_support_for_degree18_maximum": 4130
+  },
+  "output": {
+    "code_family": "RS[F,D_without_C,K_minus_c]",
+    "agreement": "m-c=(K-c)+67472",
+    "common_support": "empty",
+    "preserved": [
+      "field",
+      "32 distinct slopes",
+      "support-wise MCA badness",
+      "exact support labels",
+      "received-line chronology",
+      "redundancy n-K",
+      "agreement excess m-K",
+      "critical order 32"
+    ],
+    "nonclaim": "The deployed-domain partial-relative theorem and its degree-18 floor are not automatically valid on every punctured domain D_without_C."
+  },
+  "toy": {
+    "field": 17,
+    "domain": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "K": 6,
+    "m": 8,
+    "common_support": [0, 1],
+    "A_coefficients": [3, 2],
+    "B_coefficients": [5, 1],
+    "residual_explanation_coefficients": [4, 0, 3, 1],
+    "slope": 7
+  }
+}
