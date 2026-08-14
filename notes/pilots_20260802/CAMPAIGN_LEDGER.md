@@ -6462,3 +6462,45 @@ global_core_direction_distance_router; refreshed, both re-PASS with
 
 Chain: 2400/7097; all four verifiers PASS; census UNCHANGED; manifest
 3418 scripts. No Codex compliance flags; coordinator breaches: zero.
+## WAVE 61 INTEGRATED (2026-08-13, coordinator)
+
+**MERGED exact pin d4bb2f472 (Codex cycles 238-271, +24 nodes / +92
+edges, census-neutral 231=167/37/27).** Mass replay 50/50, zero
+failures, zero critical touches. CONTENT: (1) cycles 238-243 = 18
+PROVED interval/support payments continuing the full-lift boundary
+campaign (live #1164/#1165 thread with Scott); (2) 244-248 =
+interpolation-safety block (coprime branch safe, common-factor mass +
+linear-factor routers, weighted-degree bound, base-field descent);
+(3) 249-271 = the Shape-A structural program (Lane-T #1161 residual):
+Euler/genus floor, Z_4=2B with h^0=1, bordered-Hankel flag
+presentation, scalar-weld residual-MDS flag, all-excess parameter-MDS
+equivalence, degree-ledger fence, TENSOR RANK >=3 for every official
+survivor (pigeonhole: 4(e-2)>3e caps three row types at n rows each
+vs R=3n+7 required), and ALL-RANK parameter-map birationality
+(gcd(m,3e)=gcd(m,3e-1)=1 forces degree 1) — the surviving Shape-A
+kernels are now rank>=3, birational, and awaiting an image-geometry or
+source/Hankel obstruction. Coordinator hand-checked the 265 pigeonhole
++ 271 gcd arguments. Exports recorded upstream throughout (alternating
+export cycles). NOTE: two in-worktree merge attempts this session were
+self-merge no-ops (cwd drift, caught); merge redone with absolute
+paths. Chain: 2424/7189, all PASS, census UNCHANGED.
+
+## 2026-08-13 EVENING — #1167/#1168 REVIEW + CRITICAL ERROR-RANK LEDGER (task #45)
+
+Two new Scott PRs reviewed. **#1167 = RANK-10 CONVERGENCE**: identical
+theorem to our cycle-232 node (same formula, T=667, all totals, T=16
+robustness); ours first by ~11h via the #1165 thread; convergence
+recorded on the rank-10 node per the m2 protocol; his GF(11) sharpness
+star cited. **#1168 IMPORTED** as
+rate_half_mca_rank11_pair_core_route_cut_import (PROVED route cut):
+rank 11 unpaid — declared certificate class bottoms at
+813929118931913384 > B_* (factor >2.9); delta<=4 pair owning >=200632
+slopes forced; coordinator INDEPENDENTLY REPRODUCED the wall
+(L(19737)=808527428378681053 exact, own math.comb implementation);
+evidence edge -> rate_half_band_crossing_location. **CRITICAL-DAG
+INTEGRATION**: A1 now carries the post-near error-rank ledger addendum
+(near + ranks<=10 PAID with sources, rank 11 = the frontier wall,
+ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
+catch on my own first draft (strict vs non-increasing c_delta
+monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
+census UNCHANGED 231(167/37/27).
