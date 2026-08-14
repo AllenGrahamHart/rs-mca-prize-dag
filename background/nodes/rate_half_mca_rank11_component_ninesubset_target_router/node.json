@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_component_ninesubset_target_router",
+    "title": "Rank-eleven component mass enters one fixed populated target",
+    "status": "PROVED",
+    "closure": "fixed-chart lane classification, nine-cell pair-core forcing, and rank-eight error-span reduction",
+    "statement": "The fixed nine-subset concentrator yields at least 2578110 records in one typed component lane. A dominant kernel lane gives one fixed nonzero ambient evaluation kernel. A dominant affine-owner lane has nine-subset evaluation rank eight or nine: rank nine exceeds the 1434405 nine-cell plane cap and forces a shared 134944-coordinate pair core, while rank eight places all selected owners in one U^2 flat and all selected errors in affine rank at most three. These are structural targets, not aggregate payments.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/result.md",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_component_ninesubset_target_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator"},
+    {"from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

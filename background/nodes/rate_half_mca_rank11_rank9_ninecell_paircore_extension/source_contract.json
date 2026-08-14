@@ -1,0 +1,26 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-ninecell-paircore-extension-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy"
+  ],
+  "parameters": {
+    "n": 2097152,
+    "m": 1116048,
+    "outside_support_size": 981104,
+    "two_support_intersection_floor": 134944,
+    "fixed_cell_size": 9,
+    "fixed_cell_rank": 9,
+    "kernel_dimension": 1,
+    "fixed_owner_slope_cap": 981105,
+    "petal_resource_ceiling": 2097143,
+    "ordered_pair_resource_ceiling": 2057517483015,
+    "low_common_core_plane_cap": 1434405,
+    "cap_feasible_slack": 1213395,
+    "next_integer_fails_by": 1655415
+  },
+  "routes": [
+    "NINECELL_LOW_COMMON_CORE_PLANE_CAP",
+    "NINECELL_SHARED_PAIR_CORE_AT_LEAST_134944"
+  ],
+  "nonclaim": "The scope extension does not count owner planes, assign chronology, aggregate records across planes, or pay a shared pair core."
+}

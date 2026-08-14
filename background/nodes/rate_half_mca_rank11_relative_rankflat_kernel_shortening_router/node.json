@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_relative_rankflat_kernel_shortening_router",
+    "title": "Rank-eleven rank-flat kernel-shortening router",
+    "status": "PROVED",
+    "closure": "componentwise affine projection and exact flat shortening to the paid rank-at-most-nine family",
+    "statement": "For a high-core-absorbing evaluation rank-flat component of correction dimension 2<=s<=10, let U be the kernel of evaluation on the s+1 flat coordinates. A vertical component costs one slope. On a slope-dominating component, solve in a complement to U; high-core absorption puts every high residual coefficient in U and leaves one affine codeword owner agreeing with the received line on the flat. After translating by that owner, all explanations lie in U and vanish on the flat. Exact locator division shortens to explanation rank dim U<=s-1<=9, which the proved rank-drop theorem pays. The number and aggregate mass of components remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/result.md",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_relative_rankflat_kernel_shortening_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_relative_correction_tenflat_collapse"},
+    {"from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

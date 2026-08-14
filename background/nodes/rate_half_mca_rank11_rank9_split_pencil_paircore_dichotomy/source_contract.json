@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-split-pencil-paircore-dichotomy-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_rank9_split_pencil_cell_ledger"
+  ],
+  "parameters": {
+    "n": 2097152,
+    "m": 1116048,
+    "outside_support_size": 981104,
+    "two_support_intersection_floor": 134944,
+    "lifted_common_core_floor": 10,
+    "fixed_owner_slope_cap": 981105,
+    "petal_resource_ceiling": 2097142,
+    "ordered_pair_resource_ceiling": 2057516501910,
+    "low_common_core_plane_cap": 1434405,
+    "next_integer_fails_by": 2636520
+  },
+  "identities": [
+    "two_size_m_supports_intersect_in_at_least_2m_minus_n",
+    "record_pair_intersection_is_contained_in_its_owner_pair_core",
+    "owner_petals_are_disjoint_across_owner_points",
+    "t_minus_one_times_m_minus_c_is_at_most_n_minus_m",
+    "ordered_record_pairs_are_paid_by_owner_petals"
+  ],
+  "routes": [
+    "LOW_COMMON_CORE_PLANE_CAP",
+    "SHARED_PAIR_CORE_AT_LEAST_134944"
+  ],
+  "nonclaim": "The theorem is local to one affine owner plane and does not count planes, assign a first-match chronology owner, or pay the shared-pair-core branch."
+}

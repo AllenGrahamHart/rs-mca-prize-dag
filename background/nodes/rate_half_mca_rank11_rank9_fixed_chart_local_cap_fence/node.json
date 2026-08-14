@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
+    "title": "A fixed rank-nine chart alone does not pay its selector population",
+    "status": "PROVED",
+    "closure": "explicit official-row weighted-plane countermodel to a chart-local cap",
+    "statement": "On the official KoalaBear residual row there is a ten-dimensional RS correction space, a fixed nine-subset of evaluation rank nine, and 4070408 pair-noncontained exact-support slopes in its rank-nine owner plane. The plane has common pair core K-1, every record has a rank-ten eleven-subset on an affine-owner component, and the errors have affine rank at most two. Since 4070408>2578110, the current fixed-chart conclusions alone cannot pay the selector population; a successful continuation must retain additional ancestor incidence data or couple charts through chronology.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_target_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

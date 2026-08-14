@@ -126,6 +126,17 @@ residual is now a high-core-absorbing positive-dimensional evaluation
 rank-flat or exact polynomial clone component of dimension `2..10`. This is
 the precise component-classification target.
 
+The eighteen dense-pair anchors now sharpen that target to one correction
+space. After subtracting the dense pair line, the fixed core interpolant
+vanishes at those eighteen slopes and has degree at most 31. Division by
+their monic locator leaves degree at most 13; triangular recovery from
+degrees `18..31` shows that the high coefficients span every quotient
+coefficient. Since ten anchor deviations span `V'`, the high-coefficient
+span is exactly `V'`. Hence every absorbing survivor has `W=V'` and
+dimension exactly ten. The former absorbing dimensions `2..9` are empty;
+component kernels and affine owners may still vary inside the one fixed
+ten-space.
+
 The full-evaluation-rank clone half of that target now collapses. On an
 evaluation basis of the absorbing correction space, every coefficient
 `H_j+P_j` for `j>=2` lies in the space and vanishes; injectivity forces
@@ -135,6 +146,127 @@ genuinely nonlinear absorbing clone remains. The live relative frontier is
 evaluation rank-flats plus the chronology/aggregation problem for possibly
 many distinct affine owners; the single-owner cap must not be summed without
 a selector or compatibility theorem.
+
+Every individual evaluation rank-flat component now also has a paid route.
+For a flat tuple `T`, let `U` be the kernel of its evaluation map on the
+absorbing correction space. Rank-zero components are vertical. On a
+slope-dominating component, projecting the high coefficients modulo `U`
+leaves one affine owner, while all residual corrections lie in `U` and
+vanish on `T`. Translation by the owner followed by exact locator division
+shortens to explanation rank `dim U<=9`, paid by the uniform rank-drop
+theorem. Therefore all individual `(H_C)` components are classified and
+paid; the remaining rank-eleven-specific obstruction is purely aggregate:
+construct a chronology-correct selector or compatibility theorem controlling
+the number and total mass of component/affine owners.
+
+Dense-locator normalization now quantifies that aggregate obstruction. Away
+from the eighteen dense slopes, write every deviation as `q(gamma)R_gamma`,
+where `deg q=18` and `R_gamma in V'`. Coordinate agreement has bidegree
+`(18,1)` on `P^1 x P^10`. The excess-safe isolated-point Bezout number for
+eleven coordinates is only `198`, and its worst shortened incidence endpoint
+is `2526815879272440`. After the exact near and dense-anchor deductions, an
+unsafe residual therefore places at least `990810934/10^9` of all
+record/eleven-subset incidences on positive-dimensional components. These
+split into full-rank affine-owner and rank-deficient kernel lanes, one of
+which carries at least `495405467/10^9`. This is incidence abundance, not a
+record count: the next theorem must control overlap multiplicity in one of
+the two lanes.
+
+Recordwise star amplification now resolves the first overlap layer. At least
+`540546700/10^9` of records, an absolute `148639925144138894`, have
+98-percent component density. One ten-subset then has 98-percent component
+extensions. Evaluation rank ten gives one owner core of deficiency at most
+22320; rank nine gives one exact affine owner pencil with at least 45153
+full-rank extension coordinates; rank at most eight gives a common kernel
+plane. The next aggregate target is therefore a census/chronology theorem
+for large owners, rank-nine split pencils, or codimension-two kernels, not
+arbitrary irreducible components.
+
+The full-rank large owner is now canonical recordwise. If two owner pairs
+for the same support both had deficiency at most `22320`, their within-support
+cores would intersect in at least
+
+```text
+m'-2*22320=K'+22832
+```
+
+coordinates. Distinct RS pairs can coincide in both components on at most
+`K'-1` coordinates, a uniform contradiction with gap `22833`. Thus the
+large owner does not depend on the ten-subset used to expose it. This gives
+a sound owner key for weighted aggregation; it does not identify keys across
+different records or install deployed first-match chronology.
+
+The rank-nine branch now has an exact fixed-cell split-pencil ledger. For a
+fixed ten-coordinate cell `B`, owners form an affine plane and record slopes
+form distinct-direction lines. Their intersections give
+`sum_p C(t_p,2)=C(g,2)`. The kernel zero set supports one common core, while
+off-root owner petals are pairwise disjoint. Charging at least 45153 petal
+extensions per record against fixed-owner multiplicity `981105` and the
+`n'-10` coordinate resource gives the sharp integer cap `g<=45567658` per
+cell.
+
+The lifted owner-line block design now gives a much stronger plane-level
+dichotomy. Two record supports through one intersection owner overlap in at
+least `2m-n=134944` coordinates, all in that owner's pair core. Below a
+`134944`-coordinate common plane core, ordered record pairs consume disjoint
+owner petals and force
+
+```text
+g(g-1)<=981105*(2097152-10),
+g<=1434405.
+```
+
+Every larger rank-nine owner plane therefore has one pair core of size at
+least `134944` shared by the entire plane. A large rank-nine lane must now
+use an enormous low-core plane atlas or enter this large shared-core route;
+the live task is cross-plane census/chronology compression, not another
+fixed-cell scalar estimate.
+
+The first overlap-correct global selector is now proved. Choose the heavier
+of the affine-owner and rank-deficient component lanes before deduplication,
+mark all nine-subsets of every component eleven-subset, and divide by the
+exact extension multiplicity `C(m'-9,2)`. The identity
+
+```text
+C(11,9) C(m',11)=C(m',9) C(m'-9,2)
+```
+
+then gives one fixed nine-subset carrying at least `2578110` distinct
+records in that same lane, uniformly over every shortening. A nine-cell
+version of the split-pencil proof retains the exact low-core plane cap
+`1434405`, because the enlarged ordered-pair resource
+`2057517483015` still lies below the next quadratic integer. Consequently
+the fixed target is one of three proved forms: a fixed nonzero kernel chart,
+a rank-nine owner plane with a shared `134944`-coordinate pair core, or a
+rank-eight `U^2` owner flat whose selected errors have affine rank at most
+three. This removes the purely recordwise target atlas, but the selected
+population is not the complete lane; aggregate payment of those three fixed
+targets remains open.
+
+A sharp local-cap fence now rules out treating the rank-nine target as a
+self-contained contradiction. On the official row, take a common owner-plane
+core of size `K-1`. Outside it, eight owner points of weight `67472` and
+`508801` unit owner points produce
+
+```text
+8*508801=4070408>2578110
+```
+
+distinct-direction lines of exact outside weight `67473`. The resulting RS
+family is pair-noncontained, has error affine rank at most two, and every
+record has a rank-ten eleven-subset on an affine-owner component. This does
+not realize the dense-anchor ancestors or global unsafety, but it proves that
+the target-router output alone is insufficient. The live route must retain
+weighted component multiplicities before nine-subset deduplication, couple
+different charts, or use a specific dense-anchor identity to exclude the
+weighted-plane model. Do not spend another cycle optimizing a chart-local
+pair-core inequality against `2578110`.
+
+Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
+through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
+post-`#1168` reserve repricing, guarded dimension adapter, and chronology
+owner acceptance contract. It explicitly supplies no owner theorem, so the
+component-star router is new continuation rather than duplicate work.
 
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is

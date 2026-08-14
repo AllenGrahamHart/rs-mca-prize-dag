@@ -1,0 +1,39 @@
+{
+  "schema": "rate-half-mca-rank11-dense-locator-component-incidence-dichotomy-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+    "rate_half_mca_rank11_relative_rankflat_kernel_shortening_router"
+  ],
+  "parameters": {
+    "R": 1048576,
+    "d": 67472,
+    "K_min": 10,
+    "K_max": 1048576,
+    "correction_dimension": 10,
+    "tuple_size": 11,
+    "dense_locator_degree": 18,
+    "isolated_bezout": 198,
+    "budget": 274980728111395087,
+    "near_charge": 134944,
+    "removed_dense_records": 18,
+    "non_dense_record_floor": 274980728111260126,
+    "isolated_equivalent_ceiling": 2526815879272440,
+    "isolated_incidence_ppb_ceiling": 9189066,
+    "component_incidence_ppb_floor": 990810934,
+    "one_lane_ppb_floor": 495405467
+  },
+  "lanes": [
+    "FULL_RANK_AFFINE_OWNER_COMPONENT",
+    "RANK_DEFICIENT_KERNEL_COMPONENT"
+  ],
+  "logical_pins": [
+    "normalize_non_dense_deviations_by_q",
+    "coordinate_divisor_class_18_1",
+    "isolated_points_bounded_with_excess_components",
+    "sum_record_tuple_incidences",
+    "do_not_convert_incidence_density_to_record_density"
+  ],
+  "nonclaim": "Overlap multiplicity, distinct component count, and aggregate payment remain open."
+}

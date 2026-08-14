@@ -37669,3 +37669,527 @@ compute:                 exact coefficientwise linear algebra only
 next route action:       attack evaluation rank-flats and compatibility
                          across the resulting affine owners
 ```
+# Cycle 315: MCA rank-11 rank-flat kernel shortening (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_relative_rankflat_kernel_shortening_router` classifies
+the remaining individual positive-dimensional components.
+
+For a correction space `W`, `2<=s=dim W<=10`, and an `s+1` coordinate flat
+`T`, put
+
+```text
+U=ker(ev_T:W->F^T),       u=s-rank(ev_T).
+```
+
+Rank-zero evaluation cannot support a slope-dominating component: the
+coordinate equations reduce to nonzero core error polynomials and have
+finite slope projection. A vertical component costs one slope.
+
+On a slope-dominating component, choose a complement `W_0` to `U` and solve
+the coordinate equations there. High-core absorption puts every remaining
+high coefficient in `U`; the low coefficients define one affine codeword
+owner agreeing with the received line on `T`. After translation, all
+component explanations lie in `U` and vanish on `T`.
+
+Exact division by the locator of `T` gives a shortened family with
+
+```text
+u<=s-1<=9,
+n''-K''=1048576,
+m''-K''=67472.
+```
+
+Cycle 310's uniform rank-drop theorem pays it. Thus every individual
+rank-flat component is either vertical or paid after kernel shortening.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RELATIVE_RANKFLAT_KERNEL_SHORTENING_ROUTER_PASS
+  rank=2 kernel=1 paid_to=9 controls=6/6
+RATE_HALF_MCA_RANK11_RELATIVE_RANKFLAT_KERNEL_SHORTENING_ROUTER_AUDIT_PASS
+  kernel_max=9 vertical=1 controls=4/4
+```
+
+No numerical experiment or Modal computation was used.
+
+```text
+start:                   a5ca83bed
+DAG delta:               +1 PROVED rank-flat shortening router,
+                         +2 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: all individual H_C components routed
+delta-star movement:     none
+compute:                 exact kernel/complement linear algebra only
+next route action:       build chronology/compatibility controlling the
+                         aggregate mass of component and affine owners
+```
+# Cycle 316: MCA rank-11 dense-root high-span saturation (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_dense_root_highspan_saturation` deletes the apparent
+range of absorbing correction dimensions.
+
+For the fixed relative core, subtract the descended dense pair line:
+
+```text
+D_H(X,Z)=H(X,Z)-a_0'(X)-Zb_0'(X).
+```
+
+The eighteen dense-pair anchor records give eighteen distinct roots of
+`D_H`. The ten deviation-basis anchor records give values spanning `V'`.
+Writing
+
+```text
+D_H=q_18 G,       deg_Z G<=13,
+```
+
+monicity of `q_18` makes coefficients `18..31` a triangular invertible
+image of all fourteen coefficient vectors of `G`. Their span is therefore
+the complete ten-dimensional `V'`. These coefficients are also high
+coefficients of `H`.
+
+Every unsafe survivor already satisfies `W<=V'` and absorbs every high
+coefficient. It follows that
+
+```text
+W=V',       dim W=10.
+```
+
+Thus absorbing dimensions `2..9` are impossible. All clone and rank-flat
+components are now components inside one fixed ten-dimensional correction
+space. Their aggregate mass remains unpaid.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_DENSE_ROOT_HIGHSPAN_SATURATION_PASS
+  roots=18 rank=10 controls=6/6
+RATE_HALF_MCA_RANK11_DENSE_ROOT_HIGHSPAN_SATURATION_AUDIT_PASS
+  factor=18+13 dimension=10 controls=5/5
+```
+
+No numerical experiment or Modal computation was used.
+
+```text
+start:                   31f2797af
+DAG delta:               +1 PROVED high-span saturation node,
+                         +2 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: one common correction ten-space for every
+                         rank-eleven H_C survivor
+delta-star movement:     none
+compute:                 exact polynomial factorization and rank only
+next route action:       exploit the common ten-space to aggregate
+                         rank-flat kernels and affine owner components
+```
+# Cycle 317: MCA rank-11 dense-locator component incidence (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_dense_locator_component_incidence_dichotomy` turns the
+component frontier into a quantified aggregate incidence statement.
+
+Remove the eighteen dense-pair slopes and normalize every remaining
+deviation by their locator:
+
+```text
+R_gamma=(h_gamma'-a_0'-gamma b_0')/q(gamma) in V',
+deg q=18.
+```
+
+The normalized vectors still span `V'`. Rich agreement at coordinate `x`
+is linear in `R` and degree 18 in the slope. Eleven coordinate equations on
+`P^1 x P^10` therefore have isolated-point Bezout number
+
+```text
+(18H_Z+H_R)^11=198 H_Z H_R^10.
+```
+
+Generic perturbation bounds isolated multiplicity by 198 even in the
+presence of excess components. Summing over coordinate tuples gives the
+uniform endpoint
+
+```text
+ceil(198*C(n',11)/C(m',11))
+ <=2526815879272440,
+```
+
+with the maximum at shortened dimension `K'=10`.
+
+After deducting the exact near charge and eighteen anchors, an unsafe family
+has at least `274980728111260126` normalized records. Consequently at least
+`990810934/10^9` of all record/eleven-subset incidences lie on a
+positive-dimensional component through the rich point. Full evaluation rank
+gives an affine-owner clone; deficient rank gives a kernel fiber. One lane
+carries at least `495405467/10^9` of all incidences.
+
+The theorem deliberately does not turn incidence density into record or
+component density. Overlap multiplicity is the next exact target.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_DENSE_LOCATOR_COMPONENT_INCIDENCE_DICHOTOMY_PASS
+  isolated=2526815879272440 component_ppb=990810934 controls=7/7
+RATE_HALF_MCA_RANK11_DENSE_LOCATOR_COMPONENT_INCIDENCE_DICHOTOMY_AUDIT_PASS
+  isolated=2526815879272440 component_ppb=990810934 controls=5/5
+```
+
+No Modal computation was used.
+
+```text
+start:                   e30d06ff5
+DAG delta:               +1 PROVED incidence dichotomy,
+                         +4 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: aggregate rank-eleven obstruction split into
+                         quantified owner and kernel incidence lanes
+delta-star movement:     none
+compute:                 constant-size exact binomial arithmetic only
+next route action:       bound component overlap multiplicity in the
+                         owner or kernel lane
+```
+# Cycle 318: MCA rank-11 component-star owner-pencil router (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_component_star_owner_pencil_router` amplifies aggregate
+component incidence into recordwise structure.
+
+From the `990810934/10^9` component-incidence floor, threshold averaging at
+98 percent gives
+
+```text
+record fraction >=540546700/10^9,
+record count    >=148639925144138894.
+```
+
+For each such record, double-counting `(ten-subset, extension)` stars gives
+one ten-subset `B` with at least `ceil(98(m'-10)/100)` component extensions.
+Its evaluation rank yields three exact routes.
+
+```text
+rank 10: one affine owner, core deficiency <=22320
+rank  9: one affine owner pencil beta*(-gamma*u,u),
+         at least 45153 full-rank extension coordinates
+rank <=8: a common kernel of dimension at least two on B
+```
+
+The rank-nine floor deducts the ten roots already spent by the kernel word;
+only `K'-11` further rank-deficient extensions are possible. The minimum
+45153 occurs at `K'=1048576`.
+
+Reconciliation also advanced. Canonical `prize` is now `859a27a4b`, which
+integrates our chain through `a5ca83bed`. Fable has opened upstream PR #1169
+at `b4bad8607`; it guards and reprices the owner substrate but explicitly
+does not construct the owner. Cycles 315-318 therefore continue its exact
+residual without duplication.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_COMPONENT_STAR_OWNER_PENCIL_ROUTER_PASS
+  records=148639925144138894 pencil=45153 controls=7/7
+RATE_HALF_MCA_RANK11_COMPONENT_STAR_OWNER_PENCIL_ROUTER_AUDIT_PASS
+  records=148639925144138894 extensions=1093718 pencil=45153 controls=5/5
+```
+
+No Modal computation was used.
+
+```text
+start:                   2aea009ba
+DAG delta:               +1 PROVED component-star router,
+                         +1 requirement edge, +1 evidence edge
+critical status delta:   none
+canonical reconciliation: prize 859a27a4b, upstream PR #1169 b4bad8607
+upstream terminal delta: exact large-owner / split-pencil / kernel-plane
+                         trichotomy on over half the unsafe records
+delta-star movement:     none
+compute:                 constant-size exact averaging and root arithmetic
+next route action:       aggregate one of the three recordwise structures
+                         under PR #1169 chronology constraints
+```
+# Cycle 319: MCA rank-11 rank-9 split-pencil cell ledger (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_rank9_split_pencil_cell_ledger` classifies and pays the
+incidence capacity of one fixed rank-nine ten-coordinate cell.
+
+All pair owners agreeing with the received pair on the cell form an affine
+plane. A record of slope `gamma` is a line of direction
+`(-gamma*u,u)`. Distinct lines intersect once, so owner blocks satisfy
+
+```text
+sum_p C(t_p,2)=C(g,2).
+```
+
+On the kernel zero set all owner points coincide, producing one common core
+`J_B`. Outside it, each coordinate determines one owner point, so owner
+petals are pairwise disjoint. The component-star theorem supplies at least
+45153 petal-extension incidences per record. A fixed owner carries at most
+981105 slopes, and at most `2097152-10` petal coordinates exist. Hence
+
+```text
+45153*g<=981105*(2097152-10),
+g<=floor(2057516501910/45153)=45567658.
+```
+
+The original cycle print used the valid but weaker ceiling `45567659`.
+The upstream export audit caught the one-unit sharpening: the integer
+record count is bounded by the floor.
+
+This is a cell cap, not a cell census. A macroscopic rank-nine lane must
+spread across many distinct cells.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_PASS
+  weighted=2057516501910 cell=45567658 controls=8/8
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_AUDIT_PASS
+  weighted=2057516501910 cell=45567658 controls=6/6
+```
+
+No Modal computation was used.
+
+```text
+start:                   20eb40d59
+DAG delta:               +1 PROVED fixed-cell split-pencil ledger,
+                         +1 requirement edge, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: exact base-field-normalized split-pencil ledger
+                         and cap inside one rank-nine cell
+delta-star movement:     none
+compute:                 constant-size exact incidence arithmetic only
+next route action:       bound or compress the number of rank-nine cells,
+                         or aggregate the large-owner/kernel-plane lanes
+```
+# Cycle 320: rank-11 split-pencil rounding audit and upstream export (2026-08-14)
+
+The upstream packaging audit found a one-unit sharpening in the PROVED node
+`rate_half_mca_rank11_rank9_split_pencil_cell_ledger`. Its load-bearing
+inequality is
+
+```text
+45153*g <= 981105*(2097152-10) = 2057516501910.
+```
+
+Since `g` is an integer, the sharp consequence is
+
+```text
+g <= floor(2057516501910/45153) = 45567658.
+```
+
+The former printed ceiling `45567659` was a valid but weaker upper bound.
+The existing node was strengthened in place: its statement, proof, claim
+contract, source contract, result, audit, dependency sub-DAG, and two
+verifiers now retain both values and enforce the floor direction. No new
+mathematical dependency was introduced.
+
+The four-node rank-eleven packet was also exported to Przemek's terminology
+and manuscript in draft PR #1170:
+
+```text
+https://github.com/przchojecki/rs-mca/pull/1170
+review range:
+b4bad860750f91955dbaead8f2b5a0fdef1f1343
+  ..e370f6682bcff6e7a0d814725d07ce64ff6b2ac8
+```
+
+The packet supplies:
+
+1. exact ten-dimensional high-core saturation;
+2. a `990810934`-ppb positive-dimensional component-incidence floor;
+3. a `148639925144138894` absolute 98-percent component-star record floor;
+4. the sharp `45567658` cap inside one fixed rank-nine split-pencil cell.
+
+The upstream artifact keeps incidence and record units separate and makes
+no active-v4 ledger movement. Cross-cell census, overlap-correct selection,
+chronology ownership, the large-owner branch, and the kernel-plane branch
+remain open.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_PASS
+  weighted=2057516501910 cell=45567658 controls=8/8
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_AUDIT_PASS
+  weighted=2057516501910 cell=45567658 controls=6/6
+```
+
+No Modal computation was used.
+
+```text
+start:                   51cb474f6
+DAG delta:               no node or edge change; one proved node sharpened
+critical status delta:   none
+upstream delta:          draft PR #1170 opened on exact PR #1169 head
+delta-star movement:     none
+compute:                 constant-size exact integer arithmetic only
+next route action:       derive an overlap-correct cross-cell selector or
+                         route large-owner/kernel-plane stars to chronology
+```
+# Cycle 321: MCA rank-11 rank-9 split-pencil pair-core dichotomy (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy` strengthens the
+fixed-cell ledger after lifting one affine owner plane to the original row.
+
+If two record lines meet at owner point `p`, their size-`m` supports intersect
+in at least
+
+```text
+2m-n=134944
+```
+
+coordinates. The two distinct slope equalities recover both received
+columns, so this complete intersection lies in the pair core `C_p`.
+
+Let `J` be the common pair core of the owner plane and let `t_p` record lines
+pass through `p`. In the low-common-core branch `|J|<134944`, fixed-owner
+exception disjointness and the two-support floor give the exact ordered-pair
+petal inequality
+
+```text
+t_p(t_p-1) <= 981105*|C_p minus J|.
+```
+
+The owner petals are pairwise disjoint. Doubling the block-design identity
+therefore yields
+
+```text
+g(g-1) <= 981105*(2097152-|J|)
+       <= 981105*(2097152-10)
+        = 2057516501910,
+g <= 1434405.
+```
+
+The adjacent integer `1434406` fails by `2636520`. Consequently every fixed
+rank-nine owner plane satisfies an exact dichotomy:
+
+```text
+at most 1434405 records,
+or one pair core of size at least 134944 shared by the whole plane.
+```
+
+If the rank-nine lane carries at least one third of the proved 98-percent
+record floor, and every such plane stays in the low-core branch, it must use
+at least `34541598583` distinct owner planes. This is a forced structural
+alternative, not a plane-count contradiction.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_PAIRCORE_DICHOTOMY_PASS
+  intersection=134944 ordered=2057516501910 cap=1434405 controls=8/8
+RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_PAIRCORE_DICHOTOMY_AUDIT_PASS
+  core_checks=981104 resource=2057516501910 cap=1434405 controls=5/5
+```
+
+The independent audit exhausts every possible official owner-core size in
+the hardest low-core case. No Modal computation was used.
+
+```text
+start:                   3fb9452e3
+DAG delta:               +1 PROVED pair-core dichotomy,
+                         +1 requirement edge, +1 evidence edge
+critical status delta:   none
+rank-nine delta:         low-core plane cap improved from 45567658 to
+                         1434405; larger plane forces shared core 134944
+delta-star movement:     none
+compute:                 981104 constant-memory integer checks locally
+next route action:       aggregate the >=134944 shared-core planes or prove
+                         a global census for the forced low-core plane atlas
+```
+# Cycle 322: MCA rank-11 component nine-subset concentration (2026-08-14)
+
+Three focused PROVED nodes replace the recordwise component target by one
+fixed populated chart.
+
+First,
+`rate_half_mca_rank11_component_ninesubset_lane_concentrator` chooses the
+heavier of the full-rank affine-owner and rank-deficient kernel lanes. That
+lane carries at least `495405467` parts per billion of all
+record/eleven-subset incidences. Marking every nine-subset of each
+eleven-subset and dividing by the exact maximum extension multiplicity gives
+
+```text
+C(11,9)*C(m',11)=C(m',9)*C(m'-9,2),
+fixed-B records
+ >=ceil((495405467/10^9)*274980728111260126
+        *C(m',9)/C(n',9)).
+```
+
+The product ratio increases with `K'`, so its uniform endpoint is `K'=10`:
+
+```text
+fixed-B records >=2578110.
+```
+
+Second, `rate_half_mca_rank11_rank9_ninecell_paircore_extension` checks the
+scope needed by this selector. With only nine fixed common coordinates, the
+low-core ordered-pair resource becomes
+
+```text
+981105*(2097152-9)=2057517483015.
+```
+
+The adjacent quadratic bracket is unchanged:
+
+```text
+1434405*1434404 <=2057517483015
+                 <1434406*1434405.
+```
+
+Thus a rank-nine nine-cell plane still has at most `1434405` records unless
+it shares at least `134944` received coordinate pairs.
+
+Finally, `rate_half_mca_rank11_component_ninesubset_target_router`
+classifies the fixed population. In the kernel lane it gives one fixed
+nonzero ambient evaluation kernel. In the affine-owner lane, restriction of
+a rank-ten eleven-set to nine coordinates has rank eight or nine. Rank nine
+exceeds the plane cap by
+
+```text
+2578110-1434405=1143705
+```
+
+and therefore forces the shared pair core. At rank eight, all selected
+owners lie in one affine `U^2` flat with `dim U=2`; after anchoring one
+slope, all selected error differences lie in `span(U,r_1-B_*)`, so their
+affine error rank is at most three.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_LANE_CONCENTRATOR_PASS
+  lane_ppb=495405467 endpoint=2578110 controls=6/6
+RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_LANE_CONCENTRATOR_AUDIT_PASS
+  endpoint=2578110 factors=9
+RATE_HALF_MCA_RANK11_RANK9_NINECELL_PAIRCORE_EXTENSION_PASS
+  ordered=2057517483015 cap=1434405 controls=6/6
+RATE_HALF_MCA_RANK11_RANK9_NINECELL_PAIRCORE_EXTENSION_AUDIT_PASS
+  core_checks=981104 resource=2057517483015 cap=1434405
+RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_TARGET_ROUTER_PASS
+  population=2578110 excess=1143705 rank8_toy=3 controls=6/6
+RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_TARGET_ROUTER_AUDIT_PASS
+  routes=3 population=2578110 excess=1143705
+```
+
+No Modal computation was used. The arithmetic and exhaustive owner-core
+audit run in constant memory.
+
+```text
+start:                   0e547404a
+DAG delta:               +3 PROVED target-concentration nodes,
+                         +4 requirement edges, +1 evidence edge
+critical status delta:   none
+rank-eleven delta:       one typed fixed chart now carries >=2578110
+                         records; rank-nine affine chart forces shared core
+delta-star movement:     none
+compute:                 exact local arithmetic only; no Modal spend
+upstream delta:          PR #1170 first extended through pair-core plane
+                         theorem at head 92e378a6a
+next route action:       pay or recursively compress the fixed kernel chart,
+                         shared-core plane, or rank-eight owner flat
+```

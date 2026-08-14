@@ -1,0 +1,34 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-split-pencil-cell-ledger-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_star_owner_pencil_router"
+  ],
+  "parameters": {
+    "n_max": 2097152,
+    "m_minus_k": 67472,
+    "n_minus_k": 1048576,
+    "n_minus_m": 981104,
+    "cell_size": 10,
+    "cell_rank": 9,
+    "kernel_dimension": 1,
+    "extension_floor": 45153,
+    "common_root_core_floor": 10,
+    "fixed_owner_slope_cap": 981105,
+    "weighted_petal_incidence_cap": 2057516501910,
+    "former_valid_weak_ceiling": 45567659,
+    "fixed_cell_record_cap": 45567658,
+    "rounding_rule": "floor(weighted_petal_incidence_cap/extension_floor)"
+  },
+  "identities": [
+    "record_lines_have_distinct_slope_directions",
+    "sum_choose_t_p_2_equals_choose_g_2",
+    "owner_core_equals_common_root_core_disjoint_union_unique_petal",
+    "sum_extension_incidences_at_most_sum_t_p_times_petal_size"
+  ],
+  "upstream_alignment": {
+    "program": "base-field-normalized split-pencil census",
+    "acceptance_pr": 1169,
+    "scope": "fixed-cell ledger only"
+  },
+  "nonclaim": "The number of rank-nine cells and their cross-cell chronology remain open."
+}
