@@ -188,9 +188,25 @@ form distinct-direction lines. Their intersections give
 `sum_p C(t_p,2)=C(g,2)`. The kernel zero set supports one common core, while
 off-root owner petals are pairwise disjoint. Charging at least 45153 petal
 extensions per record against fixed-owner multiplicity `981105` and the
-`n'-10` coordinate resource gives `g<=45567659` records per cell. Thus a
-large rank-nine lane must use many distinct cells; the live task is a
-cross-cell census or chronology compression.
+`n'-10` coordinate resource gives the sharp integer cap `g<=45567658` per
+cell.
+
+The lifted owner-line block design now gives a much stronger plane-level
+dichotomy. Two record supports through one intersection owner overlap in at
+least `2m-n=134944` coordinates, all in that owner's pair core. Below a
+`134944`-coordinate common plane core, ordered record pairs consume disjoint
+owner petals and force
+
+```text
+g(g-1)<=981105*(2097152-10),
+g<=1434405.
+```
+
+Every larger rank-nine owner plane therefore has one pair core of size at
+least `134944` shared by the entire plane. A large rank-nine lane must now
+use an enormous low-core plane atlas or enter this large shared-core route;
+the live task is cross-plane census/chronology compression, not another
+fixed-cell scalar estimate.
 
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the

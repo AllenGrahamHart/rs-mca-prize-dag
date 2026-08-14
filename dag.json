@@ -40243,6 +40243,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
+   "title": "Rank-eleven split-pencil planes have a pair-core dichotomy",
+   "status": "PROVED",
+   "closure": "two-support intersection recovery, ordered record-pair petal charge, and exact low-core plane cap",
+   "statement": "Lift one fixed rank-nine affine owner plane to the original KoalaBear row and let J be its common pair core. If |J|<2m-n=134944, every intersection owner for t_p record lines has enough disjoint petal mass to pay its ordered line pairs: t_p(t_p-1)<=981105|P_p|. Hence g(g-1)<=981105(2097152-|J|)<=2057516501910 and g<=1434405. Every plane above this cap has one pair core of size at least 134944 shared by all owners and records. The number and chronology of planes remain open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "title": "Rank-eleven absorbing clone-to-affine collapse",
    "status": "PROVED",
@@ -77012,6 +77030,16 @@
   },
   {
    "from": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
+   "to": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
