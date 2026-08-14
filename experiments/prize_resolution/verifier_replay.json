@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
-      "seconds": 0.026333,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify.py",
+      "seconds": 0.023962,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_PASS chi=2299571 toy_degree=8 stairs=4 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_PASS core=1046362 singles=7 g31=1083345 toyQ=1 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py",
-      "seconds": 0.029325,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify_audit.py",
+      "seconds": 0.022904,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_AUDIT_PASS chi=2299571 toy_degree=8 controls=5/5\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_AUDIT_PASS core=1046362 g31=1083345 routes=4 controls=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

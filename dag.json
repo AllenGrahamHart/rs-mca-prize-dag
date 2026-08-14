@@ -40028,6 +40028,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_anchor_star_sae_router",
+   "title": "Rank-eleven fixed 31-anchor star routes to C/S/A/E",
+   "status": "PROVED",
+   "closure": "fixed-support anchor deck, order-32 star coverage, and 31-overlap certificate coherence",
+   "statement": "Every unsafe deployed KoalaBear post-near error-rank-eleven line has 31 fixed actual anchor records, including eighteen records on one dense minimizing pair and one explanation off that pair line, whose exact common support has size at most K-2214. Adjoining any other post-near record gives a non-affine order-32 tuple with degree 18..31 and the lifted partial-relative interfaces. A tuple with nonempty maximal common agreement is retained as the punctured-domain common-core residual C. Otherwise, because all tuples share the identical 31 explanations and support locators, atom collision rigidity makes every primitive root-free rational certificate projectively identical; any failure is a named near-sunflower/nonprimitive exception. Hence the complete post-near family routes with one received-line owner to C, primitive spread S, one coherent rational atom owner A, or pure-locator/denominator-root/extension/quotient/clone/field-drop/near-sunflower exception routing E. The disjoint near charge is 134944. No terminal payment or punctured-domain spread deployment is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/result.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
    "title": "Rank-eleven dense pair cores need not coalesce",
    "status": "PROVED",
@@ -76634,6 +76652,11 @@
   },
   {
    "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
    "to": "rate_half_mca_rank11_shortened_partial_relative_router",
    "kind": "req"
   },
@@ -76641,6 +76664,16 @@
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_star_sae_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
@@ -76651,6 +76684,11 @@
    "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
@@ -76716,6 +76754,11 @@
    "from": "rate_half_mca_rank11_shortened_partial_relative_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_support_local_error_rank_router",

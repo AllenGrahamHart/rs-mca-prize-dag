@@ -62,6 +62,17 @@ the high-complexity threshold gains `2|C|` and becomes the official
 connect the lifted certificates to `(E)` and the high-complexity seed to the
 deployed same-owner spread-abundance target.
 
+The rank-eleven local interfaces now globalize through one fixed 31-record
+anchor deck. The deck contains eighteen dense-pair records and one off-line
+record, retains the original fixed support locators, and has exact common
+support at most `K-2214`. Adjoining any other post-near record gives a
+degree-18 order-32 tuple. All such tuples share 31 identical records, so
+primitive root-free rational certificates cohere projectively; failures are
+quantified exception branches. The exact whole-line output is `(C)/(S)/(A)/(E)`:
+the standard three upstream terminals plus one explicitly retained local
+maximal-common-support residual. Do not fold `(C)` into `(E)` or call its
+punctured-domain output a deployed primitive spread core.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
