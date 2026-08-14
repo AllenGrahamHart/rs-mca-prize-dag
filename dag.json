@@ -40322,6 +40322,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "title": "Nine-shadow coupling removes kernel through 15445",
+   "status": "PROVED",
+   "closure": "exact shared-shadow fractional-knapsack replay with independent dual certificate",
+   "statement": "Combining the ambient/record individual caps with the shared nine-subset shadow gives an exact normalized LP. Its capacity is below the dominant kernel demand for every 10<=K'<=15445. At K'=15445 the scaled gap is 178044655461817065880792270525721984196903835342334290540589; the comparison reverses at K'=15446.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "title": "One nine-shadow budget couples every kernel corank",
+   "status": "PROVED",
+   "closure": "dual independent-pair lower bound plus generalized-MDS closure double count",
+   "statement": "For one exact m'-support, if I_d counts rank-(10-d) eleven-subsets, then sum_d C(d+2,2) I_d/C(K'-d-9,2) <= C(m',9), with zero denominators forcing I_d=0. Thus every corank stratum spends one shared nine-subset resource rather than an independently saturable support capacity.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_nine_shadow_coupling/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "title": "Rank-stratified capacity removes the first 4589 kernel shortenings",
    "status": "PROVED",
@@ -77404,6 +77442,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77429,6 +77472,21 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77446,6 +77504,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_record_support_capacity",
    "to": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "to": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
    "kind": "req"
   },
   {
