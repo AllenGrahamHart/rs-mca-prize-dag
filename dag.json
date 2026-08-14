@@ -40135,6 +40135,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "title": "Rank-eleven shortened seed reaches the partial-relative interfaces",
+   "status": "PROVED",
+   "closure": "maximal-core cancellation, support-collapsed extraction, and exact certificate/complexity lift",
+   "statement": "For the non-affine degree-18 order-32 seed forced on every unsafe deployed KoalaBear post-near error-rank-eleven line, maximalize supports and cancel their complete common agreement set C, whose size is below K. The residual actual MCA witnesses have empty maximal common agreement and slope degree 18..31. Support-collapsed interpolation then gives either a pure-locator certificate, a scalar-locator rational certificate of denominator degree at most 67472 (denominator roots retained), or residual two-cover complexity at least 3(m-c)-(K-c)+3. Every certificate lifts exactly to the original monic support locators with the same denominator and affine scalars; the complexity branch gains exactly 2c and therefore gives the official threshold chi>=2299571. No branch payment or whole-line owner is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/result.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_sat3_realizability_ledger_record",
    "title": "The (SAT3) realizability ledger: corrections, stacking, and the first-moment gate",
    "status": "CONJECTURE",
@@ -71620,6 +71638,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_kb_decomposition_source_pencil_compiler",
    "to": "rate_half_kb_active_bc_partition_semantic_gap_audit",
    "kind": "req"
@@ -76610,6 +76633,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
    "kind": "req"
@@ -76623,6 +76651,11 @@
    "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
@@ -76678,6 +76711,11 @@
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_support_local_error_rank_router",

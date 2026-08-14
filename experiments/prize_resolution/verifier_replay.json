@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify.py",
-      "seconds": 0.032438,
+      "script": "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
+      "seconds": 0.026333,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_DEGREE18_SEED_PASS owner=220 Kmin=2601 degree=18 singles=6 controls=7/7\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_PASS chi=2299571 toy_degree=8 stairs=4 controls=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify_audit.py",
-      "seconds": 0.028053,
+      "script": "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py",
+      "seconds": 0.029325,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_DEGREE18_SEED_AUDIT_PASS owner=220 core=1045975 degree=18 controls=5/5\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_AUDIT_PASS chi=2299571 toy_degree=8 controls=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

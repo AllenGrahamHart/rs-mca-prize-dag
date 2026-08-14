@@ -51,6 +51,17 @@ degree-`3..17` staircase cannot occur on this selected seed. The next task is
 the shortened support-collapsed rational/locator/high-complexity router, not
 a separate attack on each low degree.
 
+That local router is now proved as well. Maximalizing the selected tuple and
+cancelling its complete common agreement set retains actual noncontained
+witnesses and the degree-18 pin. Support-collapsed interpolation then emits a
+pure-locator certificate, a scalar-locator certificate of denominator degree
+at most `67472` (with denominator roots retained), or high two-cover
+complexity. Certificates lift exactly to the original monic support locators;
+the high-complexity threshold gains `2|C|` and becomes the official
+`chi>=2299571`. The live rank-eleven frontier is now branch routing/payment:
+connect the lifted certificates to `(E)` and the high-complexity seed to the
+deployed same-owner spread-abundance target.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
