@@ -1,96 +1,112 @@
 # Proof
 
-Use the low-margin heavy-pair basis from the degree-18 seed compiler. Anchor
-it at the pair `p_0` owning at least `220` slopes, and let
-`p_1,...,p_t`, `1<=t<=10`, be the other basis pairs. Their complete cores
-intersect in `J_2`, where
+Let `Z` be the complete selected post-near family. Fix the dense minimizing
+pair `p_0=(a_0,b_0)` supplied by the degree-18 compiler; it owns at least 220
+actual slopes. For every record put
 
 ```text
-|J_2|<=K-4923.                                        (1)
+d_gamma=h_gamma-a_0-gamma b_0.                       (1)
 ```
 
-## A fixed 31-record deck
-
-Retain eighteen records owned by `p_0` and an off-`p_0`-line record owned by
-`p_1`. If `t<=6`, take two records from every basis pair and add arbitrary
-distinct low-margin fillers until there are `31` records. Every basis core
-is then represented twice.
-
-For `7<=t<=10`, start with the 32-record schedule from the degree-18
-compiler and remove the second record of one twice-represented basis pair.
-The resulting 31-record schedule has respectively
+The reversible rank-eleven gauge puts all explanations in an affine
+ten-flat, with `a_0` in that flat and `b_0` in its direction code. Therefore
+the deviations span a polynomial space
 
 ```text
-t:                         7  8  9 10
-singly represented pairs:  1  3  5  7.               (2)
+V=span{d_gamma:gamma in Z},       1<=dim V<=10.       (2)
 ```
 
-Choose the removed record so the fixed off-line record remains. In all
-cases, at most seven basis pairs are singly represented. Two records from a
-fixed pair force their support intersection into its complete pair core;
-one record can retain at most `theta<=387` exceptions outside that core.
-Thus the exact common support `C_*` of the 31 anchors satisfies
+The lower bound follows from the off-`p_0`-line record already selected by
+the degree-18 compiler.
+
+## One line-global common-core decision
+
+Let `S_hat_gamma` be the maximal agreement support and define
 
 ```text
-|C_*| <= (K-4923)+7*387 = K-2214 < K.                (3)
+C_* = intersection_(gamma in Z) S_hat_gamma.
 ```
 
-All records, explanations, supports, and locators are now fixed once and for
-all.
+The whole-line global-core router applies. The off-line record makes the
+family non-global-affine, so `|C_*|<K`. If `C_*` is nonempty, cancel it once
+for the complete family. The slope map is the identity and all records enter
+one shortened row with actual noncontained witnesses. This is route `(C)`;
+no punctured-domain S/A/E theorem is asserted.
+
+Assume henceforth that `C_*=empty`.
+
+## A fixed 31-record deck with empty maximal core
+
+For the pair `p_0`, put
+
+```text
+H_0={x:r_0(x)=a_0(x), r_1(x)=b_0(x)}.
+```
+
+Two distinct records owned by `p_0` have maximal-support intersection
+exactly `H_0`: on `H_0` every slope agrees, while outside `H_0` the nonzero
+affine equation in the slope has at most one solution. Hence the same is
+true for any eighteen distinct `p_0` records.
+
+Choose actual records `z_1,...,z_r`, `r=dim V<=10`, whose deviations form a
+basis of `V`. On `H_0`, record `z_j` agrees exactly where `d_zj` vanishes.
+Consequently the maximal-support intersection of the eighteen dense records
+and these basis records is
+
+```text
+H_0 intersection Z(V),                              (3)
+```
+
+where `Z(V)` is the common zero set of every deviation in `V`.
+
+But (3) is exactly the global common support `C_*`. Indeed, membership in
+all dense-pair supports gives `H_0`, and then every record agrees precisely
+when its deviation vanishes; the basis tests every deviation. Since
+`C_*=empty`, the intersection in (3) is empty.
+
+The deck currently has at most `18+10=28` records and at least 19. Add
+arbitrary distinct post-near fillers to reach exactly 31. Adding supports
+cannot create a common coordinate. Call the fixed deck `A_*`. All records,
+explanations, exact supports, and locators are fixed once and for all.
 
 ## Classify every slope through one fixed star
 
-For any post-near record `z` outside the anchor deck, put
+For any record `z` outside `A_*`, put `T_z=A_* union {z}`. Its maximal
+support intersection is empty because the anchor intersection is empty. It
+contains all eighteen dense-pair records and at least one basis deviation,
+so it is non-global-affine. The eighteen-root argument gives slope degree
+`18..31` directly on the deployed domain.
 
-```text
-T_z=A_* union {z}.
-```
-
-Its exact common support is contained in `C_*`, hence has size below `K`.
-Cancel that exact support, apply the eighteen-root degree pin, and run the
-support-collapsed extraction and exact lift. The tuple remains non-global-
-affine because the same eighteen dense-pair explanations and fixed off-line
-explanation occur in every `T_z`. Therefore every target tuple has slope
-degree `18..31` and reaches one of the lifted scalar-locator or high-
-complexity interfaces.
-
-The lift returns to the original exact locators. This point is essential:
-any two target tuples share the identical `31` indexed triples
+Apply support-collapsed extraction to the fixed exact supports. It gives a
+pure-locator certificate, a scalar-locator rational certificate (denominator
+roots retained), or official high two-cover complexity. The exact lift is
+unnecessary in this zero-core branch, but its semantics show that the fixed
+original locators are the certificate locators. Any two target tuples share
+the identical 31 indexed triples
 
 ```text
 (gamma_i,h_i,Lambda_i),       i in A_*.               (4)
 ```
 
 The anchors themselves are covered by any one target tuple; the unsafe line
-has vastly more than 31 post-near records, so such a target exists.
+has vastly more than 31 post-near records.
 
-## C/S/A/E globalization
+## S/A/E globalization
 
-Apply the active first-match taxonomy to each local interface. First
-maximalize the tuple's fixed explanations. If their maximal agreement sets
-have nonempty common intersection, retain the tuple in route `(C)`. The
-proved cancellation adapter gives a typed punctured-domain residual, but the
-deployed spread theorem is not claimed on that punctured domain.
-
-Now assume no star tuple enters `(C)`. A high-complexity tuple outside
+Apply the active first-match taxonomy. A high-complexity tuple outside
 quotient, extension, field-drop, clone, denominator-root, and near-sunflower
 exceptions is a primitive spread core on the original deployed domain,
-which is exactly route `(S)`. Any named failure is route `(E)`. Pure-locator
-and denominator-root scalar certificates also enter `(E)` directly.
+which is route `(S)`. Any named failure is route `(E)`. Pure-locator and
+denominator-root certificates also enter `(E)`.
 
-It remains to consider the case in which every target tuple is a primitive
-root-free scalar-locator rational atom. Two such certificates share the 31
-fixed records in (4). Atom collision rigidity says that either they are
-projectively identical or their collision fixed set produces the quantified
-near-sunflower/nonprimitive branch. The latter is `(E)`. Outside `(E)`, all
-star certificates are therefore one projective certificate. Since the union
-of the star tuples is the complete post-near family, every explanation lies
-in one coherent rational atom with the same received-line owner. Owner
-localization and its remaining large-owner image input are precisely route
-`(A)`.
+If every target tuple is instead a primitive root-free rational atom, two
+certificates share the 31 fixed records in (4). Atom collision rigidity says
+that they are projectively identical or their collision fixed set produces
+the quantified near-sunflower/nonprimitive branch. The latter is `(E)`.
+Outside `(E)`, one projective certificate therefore covers the union of all
+star tuples, namely the complete post-near family. This is one coherent
+rational atom with the same received-line owner, route `(A)`.
 
 The intrinsic near deletion is disjoint and costs at most `2w=134944`.
-Nothing above proves the four terminal payments. The only terminal not
-already named by upstream S/A/E is the explicitly retained local
-common-core residual `(C)`. This establishes the router without conflating
-that residual with exception routing.
+Thus every unsafe rank-eleven line enters one global `(C)` residual or the
+standard `(S)/(A)/(E)` terminals, with no local-core selector ambiguity.

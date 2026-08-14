@@ -4,8 +4,8 @@
     "id": "rate_half_mca_rank11_anchor_star_sae_router",
     "title": "Rank-eleven fixed 31-anchor star routes to C/S/A/E",
     "status": "PROVED",
-    "closure": "fixed-support anchor deck, order-32 star coverage, and 31-overlap certificate coherence",
-    "statement": "Every unsafe deployed KoalaBear post-near error-rank-eleven line has 31 fixed actual anchor records, including eighteen records on one dense minimizing pair and one explanation off that pair line, whose exact common support has size at most K-2214. Adjoining any other post-near record gives a non-affine order-32 tuple with degree 18..31 and the lifted partial-relative interfaces. A tuple with nonempty maximal common agreement is retained as the punctured-domain common-core residual C. Otherwise, because all tuples share the identical 31 explanations and support locators, atom collision rigidity makes every primitive root-free rational certificate projectively identical; any failure is a named near-sunflower/nonprimitive exception. Hence the complete post-near family routes with one received-line owner to C, primitive spread S, one coherent rational atom owner A, or pure-locator/denominator-root/extension/quotient/clone/field-drop/near-sunflower exception routing E. The disjoint near charge is 134944. No terminal payment or punctured-domain spread deployment is claimed.",
+    "closure": "one line-global core decision, deviation-basis anchor deck, order-32 star coverage, and 31-overlap certificate coherence",
+    "statement": "For every unsafe deployed KoalaBear post-near error-rank-eleven line, intersect the maximal supports of the complete selected family once. Non-affinity forces this global core below K. If it is nonempty, the whole family enters one identity-fiber shortened residual C. If it is empty, choose eighteen records on the dense minimizing pair and 1..10 actual records whose deviations from that pair line form a basis; fillers give 31 fixed anchors whose maximal supports have empty intersection. Adjoining any other record gives a deployed-domain non-affine order-32 tuple of slope degree 18..31. All tuples share identical explanations and support locators, so collision rigidity makes primitive root-free rational certificates projectively identical and any failure a named exception. Thus the zero-core family routes to primitive spread S, one coherent rational atom owner A, or exception routing E. The disjoint near charge is 134944. No C/S/A/E payment is claimed.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/statement.md",
       "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/proof.md",
@@ -21,6 +21,7 @@
   "requires": [
     {"from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler"},
     {"from": "rate_half_mca_rank11_shortened_partial_relative_router"},
+    {"from": "rate_half_mca_whole_line_global_core_router"},
     {"from": "rate_half_mca_order32_partial_relative_harvest"},
     {"from": "rate_half_mca_pole_tolerant_scalar_locator_harvest"}
   ],

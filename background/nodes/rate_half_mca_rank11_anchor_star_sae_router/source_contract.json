@@ -1,8 +1,9 @@
 {
-  "schema": "rate-half-mca-rank11-anchor-star-sae-router-v1",
+  "schema": "rate-half-mca-rank11-anchor-star-sae-router-v2",
   "dependencies": [
     "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
     "rate_half_mca_rank11_shortened_partial_relative_router",
+    "rate_half_mca_whole_line_global_core_router",
     "rate_half_mca_order32_partial_relative_harvest",
     "rate_half_mca_pole_tolerant_scalar_locator_harvest"
   ],
@@ -12,17 +13,14 @@
     "m": 1116048,
     "w": 67472,
     "near_charge": 134944,
-    "theta_maximum": 387,
-    "heavy_core_intersection_maximum": 1043653,
     "dense_pair_owner_minimum": 220,
     "dense_anchor_count": 18,
-    "off_line_anchor_count": 1,
     "anchor_size": 31,
     "tuple_size": 32,
-    "basis_pair_maximum": 10,
-    "single_basis_core_maximum": 7,
-    "anchor_common_support_maximum": 1046362,
-    "anchor_residual_dimension_minimum": 2214,
+    "deviation_dimension_minimum": 1,
+    "deviation_dimension_maximum": 10,
+    "global_common_support_maximum": 1048575,
+    "zero_core_anchor_intersection": 0,
     "slope_degree_minimum": 18,
     "slope_degree_maximum": 31,
     "overlap_size": 31,
@@ -30,22 +28,22 @@
     "near_sunflower_noncollision_31": 1015873
   },
   "anchor_schedule": [
-    {"basis_pairs": 1, "doubled_pairs": 1, "single_pairs": 0, "fillers": 11, "used": 31},
-    {"basis_pairs": 2, "doubled_pairs": 2, "single_pairs": 0, "fillers": 9, "used": 31},
-    {"basis_pairs": 3, "doubled_pairs": 3, "single_pairs": 0, "fillers": 7, "used": 31},
-    {"basis_pairs": 4, "doubled_pairs": 4, "single_pairs": 0, "fillers": 5, "used": 31},
-    {"basis_pairs": 5, "doubled_pairs": 5, "single_pairs": 0, "fillers": 3, "used": 31},
-    {"basis_pairs": 6, "doubled_pairs": 6, "single_pairs": 0, "fillers": 1, "used": 31},
-    {"basis_pairs": 7, "doubled_pairs": 6, "single_pairs": 1, "fillers": 0, "used": 31},
-    {"basis_pairs": 8, "doubled_pairs": 5, "single_pairs": 3, "fillers": 0, "used": 31},
-    {"basis_pairs": 9, "doubled_pairs": 4, "single_pairs": 5, "fillers": 0, "used": 31},
-    {"basis_pairs": 10, "doubled_pairs": 3, "single_pairs": 7, "fillers": 0, "used": 31}
+    {"deviation_dimension": 1, "basis_records": 1, "fillers": 12, "used": 31},
+    {"deviation_dimension": 2, "basis_records": 2, "fillers": 11, "used": 31},
+    {"deviation_dimension": 3, "basis_records": 3, "fillers": 10, "used": 31},
+    {"deviation_dimension": 4, "basis_records": 4, "fillers": 9, "used": 31},
+    {"deviation_dimension": 5, "basis_records": 5, "fillers": 8, "used": 31},
+    {"deviation_dimension": 6, "basis_records": 6, "fillers": 7, "used": 31},
+    {"deviation_dimension": 7, "basis_records": 7, "fillers": 6, "used": 31},
+    {"deviation_dimension": 8, "basis_records": 8, "fillers": 5, "used": 31},
+    {"deviation_dimension": 9, "basis_records": 9, "fillers": 4, "used": 31},
+    {"deviation_dimension": 10, "basis_records": 10, "fillers": 3, "used": 31}
   ],
   "route_labels": [
-    "C:local-maximal-common-support-residual",
-    "S:primitive-spread-core",
-    "A:coherent-rational-atom-owner",
-    "E:pure-locator-or-named-exception"
+    "C:line-global-common-core-shortened-residual",
+    "S:zero-global-core-primitive-spread",
+    "A:zero-global-core-coherent-rational-atom-owner",
+    "E:zero-global-core-pure-locator-or-named-exception"
   ],
   "toy": {
     "field": 17,
@@ -58,5 +56,5 @@
     },
     "projective_scale": 7
   },
-  "nonclaim": "The router proves exhaustiveness and coherence only; C, S, A, and E remain unpaid terminal inputs, and C is not folded into E."
+  "nonclaim": "The router proves exhaustiveness and coherence only; the line-global C residual and zero-core S, A, E terminals remain unpaid."
 }

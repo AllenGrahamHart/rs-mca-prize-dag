@@ -1,18 +1,18 @@
 # Result
 
 ```text
-fixed anchors:                 31
+line-global common core:       one identity-fiber decision
 dense-pair anchors:            18
-fixed off-line anchor:         1
-maximum single basis cores:    7
-anchor common support:         <=K-2214
+deviation-basis anchors:       1..10
+fillers:                       12..3
+fixed anchors:                 31
+zero-core anchor intersection: empty (maximal supports)
 moving records covered:        all post-near slopes
 local overlap:                 31 fixed explanations/support locators
-global terminals:              (C), (S), (A), or (E)
+global terminals:              line-global (C), or deployed (S)/(A)/(E)
 near add-back:                 <=134944
 ```
 
-The bespoke rank-eleven pair/core route now joins the upstream completion
-program except for one explicit local common-core residual. Closing that
-residual together with the standard S/A/E terminals would pay the entire
-branch without another hidden selector assumption.
+The rank-eleven-specific local-core selector problem is closed. The only
+extra terminal beyond upstream S/A/E is the already named line-global
+shortened-family residual.

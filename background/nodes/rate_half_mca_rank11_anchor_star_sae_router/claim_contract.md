@@ -2,17 +2,20 @@
 
 - **claim id:** `rate_half_mca_rank11_anchor_star_sae_router`
 - **status:** `PROVED`
-- **input:** an unsafe deployed KoalaBear post-near error-rank-eleven family
-- **fixed deck:** 31 actual records, including eighteen dense-pair records
-  and one off-line record, with common support at most `K-2214`
-- **coverage:** every other post-near record is the unique moving vertex of
-  one 32-tuple over the fixed deck
-- **output:** exact same-owner routing to a local common-core residual `(C)`
-  or the standard `(S)`, `(A)`, `(E)` interfaces
+- **input:** the complete unsafe deployed KoalaBear post-near
+  error-rank-eleven family
+- **first decision:** one line-global maximal common core, canceled once if
+  nonempty
+- **zero-core deck:** 18 dense-pair records, `1..10` actual deviation-basis
+  records, and fillers to 31; maximal support intersection empty
+- **coverage:** every other post-near record is the moving vertex of one
+  order-32 tuple over the fixed deck
+- **output:** one line-global shortened residual `(C)` or standard deployed
+  `(S)`, `(A)`, `(E)` interfaces
 - **globalization:** fixed original locators plus 31-overlap atom collision
   rigidity
 - **separate charge:** intrinsic near set at most `134944`
-- **nonclaims:** no terminal payment, no punctured-domain deployment of `(S)`,
+- **nonclaims:** no `(C)` payment, no S/A/E payment in a punctured domain,
   active ledger movement, adjacent safety, or prize closure
 - **replay:** `tools/ramguard tiny -- python3 background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify.py`
 - **independent audit:** `tools/ramguard tiny -- python3 background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify_audit.py`

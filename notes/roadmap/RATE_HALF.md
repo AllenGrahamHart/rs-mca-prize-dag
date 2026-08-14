@@ -58,20 +58,23 @@ pure-locator certificate, a scalar-locator certificate of denominator degree
 at most `67472` (with denominator roots retained), or high two-cover
 complexity. Certificates lift exactly to the original monic support locators;
 the high-complexity threshold gains `2|C|` and becomes the official
-`chi>=2299571`. The live rank-eleven frontier is now branch routing/payment:
-connect the lifted certificates to `(E)` and the high-complexity seed to the
-deployed same-owner spread-abundance target.
+`chi>=2299571`. These are now local interfaces used by the complete-family
+router below; they are not themselves terminal payments.
 
-The rank-eleven local interfaces now globalize through one fixed 31-record
-anchor deck. The deck contains eighteen dense-pair records and one off-line
-record, retains the original fixed support locators, and has exact common
-support at most `K-2214`. Adjoining any other post-near record gives a
-degree-18 order-32 tuple. All such tuples share 31 identical records, so
-primitive root-free rational certificates cohere projectively; failures are
-quantified exception branches. The exact whole-line output is `(C)/(S)/(A)/(E)`:
-the standard three upstream terminals plus one explicitly retained local
-maximal-common-support residual. Do not fold `(C)` into `(E)` or call its
-punctured-domain output a deployed primitive spread core.
+The rank-eleven local interfaces now globalize after one application of the
+proved complete-family common-core router. Write the deviations from the
+dense minimizing-pair line as `d_gamma`; their span has dimension `1..10`,
+and the complete line-global common support is exactly
+`H_0 intersect Z(span{d_gamma})`. If this set is nonempty, the whole slope
+family enters one identity-fiber shortened residual `(C)`. If it is empty,
+eighteen dense-pair records, a deviation basis, and fillers form one fixed
+31-record anchor deck with empty maximal support intersection. Adjoining any
+other post-near record gives a degree-18 order-32 tuple on the deployed
+domain. The tuples share 31 exact support locators, so primitive root-free
+rational certificates cohere projectively; the zero-core branch routes only
+to `(S)/(A)/(E)`. The live rank-eleven-specific frontier is therefore the
+single line-global shortened-family residual `(C)`; the other three outputs
+are the shared upstream terminals.
 
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is

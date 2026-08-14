@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the fixed 31-anchor C/S/A/E router ledger."""
+"""Verify the line-global-core plus fixed-anchor C/S/A/E router."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-SHA256 = "628ddcd210398c51695f6181677b43100ec58793d896f77bc3eb502d2366d1b8"
+SHA256 = "57b1bee830274e9b76ed7a0372446d82d237752d1c6904b5c67195cefe971fa8"
 
 
 class Reject(ValueError):
@@ -51,7 +51,18 @@ def validate_toy(toy: object) -> int:
 
 def validate(data: object) -> dict[str, int]:
     require(isinstance(data, dict), "contract")
-    require(data.get("schema") == "rate-half-mca-rank11-anchor-star-sae-router-v1", "schema")
+    require(data.get("schema") == "rate-half-mca-rank11-anchor-star-sae-router-v2", "schema")
+    require(
+        data.get("dependencies")
+        == [
+            "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+            "rate_half_mca_rank11_shortened_partial_relative_router",
+            "rate_half_mca_whole_line_global_core_router",
+            "rate_half_mca_order32_partial_relative_harvest",
+            "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+        ],
+        "dependencies",
+    )
     row = data.get("official")
     require(isinstance(row, dict), "official")
     n, dimension, agreement, w = (row.get(k) for k in ("n", "K", "m", "w"))
@@ -61,75 +72,64 @@ def validate(data: object) -> dict[str, int]:
         (
             row.get("dense_pair_owner_minimum"),
             row.get("dense_anchor_count"),
-            row.get("off_line_anchor_count"),
             row.get("anchor_size"),
             row.get("tuple_size"),
             row.get("overlap_size"),
         )
-        == (220, 18, 1, 31, 32, 31),
+        == (220, 18, 31, 32, 31),
         "anchor constants",
+    )
+    require(
+        (
+            row.get("deviation_dimension_minimum"),
+            row.get("deviation_dimension_maximum"),
+            row.get("global_common_support_maximum"),
+            row.get("zero_core_anchor_intersection"),
+        )
+        == (1, 10, dimension - 1, 0),
+        "global core and deviation range",
     )
     schedule = data.get("anchor_schedule")
     require(isinstance(schedule, list) and len(schedule) == 10, "schedule")
-    max_singles = 0
-    for t, entry in enumerate(schedule, 1):
-        if t <= 6:
-            doubled = t
-            singles = 0
-            fillers = 31 - (18 + t + doubled)
-        else:
-            doubled = min(t, 14 - t) - 1
-            singles = t - doubled
-            fillers = 0
-        used = 18 + t + doubled + fillers
+    for r, entry in enumerate(schedule, 1):
+        fillers = 31 - 18 - r
         require(
             entry
             == {
-                "basis_pairs": t,
-                "doubled_pairs": doubled,
-                "single_pairs": singles,
+                "deviation_dimension": r,
+                "basis_records": r,
                 "fillers": fillers,
-                "used": used,
+                "used": 31,
             },
-            f"schedule {t}",
+            f"schedule {r}",
         )
-        require(used == row.get("anchor_size"), f"anchor size {t}")
-        max_singles = max(max_singles, singles)
-    require(max_singles == row.get("single_basis_core_maximum") == 7, "single maximum")
-    require(row.get("basis_pair_maximum") == 10, "basis maximum")
-    common = row.get("heavy_core_intersection_maximum") + max_singles * row.get("theta_maximum")
-    residual = dimension - common
+        require(18 + r + fillers == row.get("anchor_size"), "slot identity")
     require(
-        (common, residual)
-        == (row.get("anchor_common_support_maximum"), row.get("anchor_residual_dimension_minimum"))
-        == (1046362, 2214),
-        "common core",
+        (row.get("slope_degree_minimum"), row.get("slope_degree_maximum")) == (18, 31),
+        "degree range",
     )
-    require(common < dimension, "strict cancellation")
-    degree = (row.get("slope_degree_minimum"), row.get("slope_degree_maximum"))
-    require(degree == (18, 31), "degree range")
     q = row.get("overlap_size")
     sunflower = (q * agreement - n + q - 2) // (q - 1)
-    require(sunflower == row.get("near_sunflower_core_31") == 1083345, "sunflower core")
+    require(sunflower == row.get("near_sunflower_core_31") == 1083345, "sunflower")
     require(
         sunflower - (agreement - dimension)
         == row.get("near_sunflower_noncollision_31")
         == 1015873,
-        "sunflower noncollision",
+        "noncollision core",
     )
     require(
         data.get("route_labels")
         == [
-            "C:local-maximal-common-support-residual",
-            "S:primitive-spread-core",
-            "A:coherent-rational-atom-owner",
-            "E:pure-locator-or-named-exception",
+            "C:line-global-common-core-shortened-residual",
+            "S:zero-global-core-primitive-spread",
+            "A:zero-global-core-coherent-rational-atom-owner",
+            "E:zero-global-core-pure-locator-or-named-exception",
         ],
         "route labels",
     )
     toy_degree = validate_toy(data.get("toy"))
-    require("C is not folded into E" in str(data.get("nonclaim")), "nonclaim")
-    return {"common": common, "singles": max_singles, "sunflower": sunflower, "toy": toy_degree}
+    require("line-global C residual" in str(data.get("nonclaim")), "nonclaim")
+    return {"basis": len(schedule), "sunflower": sunflower, "toy": toy_degree}
 
 
 def main() -> None:
@@ -137,11 +137,11 @@ def main() -> None:
     data = json.loads(CONTRACT.read_text())
     result = validate(data)
     mutations = (
-        lambda item: item["official"].__setitem__("anchor_size", 30),
-        lambda item: item["official"].__setitem__("single_basis_core_maximum", 6),
-        lambda item: item["official"].__setitem__("anchor_common_support_maximum", 1046363),
+        lambda item: item["official"].__setitem__("global_common_support_maximum", 1048576),
+        lambda item: item["official"].__setitem__("zero_core_anchor_intersection", 1),
+        lambda item: item["official"].__setitem__("deviation_dimension_maximum", 11),
+        lambda item: item["anchor_schedule"][9].__setitem__("fillers", 2),
         lambda item: item["official"].__setitem__("near_sunflower_core_31", 1083344),
-        lambda item: item["anchor_schedule"][9].__setitem__("doubled_pairs", 4),
         lambda item: item["route_labels"].pop(0),
         lambda item: item["toy"].__setitem__("projective_scale", 0),
     )
@@ -158,9 +158,8 @@ def main() -> None:
     require(all(controls), "mutation controls")
     print(
         "RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_PASS "
-        f"core={result['common']} singles={result['singles']} "
-        f"g31={result['sunflower']} toyQ={result['toy']} "
-        f"controls={sum(controls)}/{len(controls)}"
+        f"basis={result['basis']} anchor=31 g31={result['sunflower']} "
+        f"toyQ={result['toy']} controls={sum(controls)}/{len(controls)}"
     )
 
 
