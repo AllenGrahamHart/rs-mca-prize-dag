@@ -324,3 +324,47 @@ Standing fallback (per the 2026-08-01 collision protocol): if this has
 not been pushed by end of 2026-08-02, Fable packages the export — that
 handoff will be surfaced to the maintainer first. Ping via a commit
 message mentioning "export" when done so the wave audit picks it up.
+
+## EXPORT DIRECTIVE — spine/repricing packet + Shape-A (2026-08-13, coordinator, USER-RATIFIED)
+
+Two packages, ratified by the user this evening. Both consist entirely of
+already-banked, coordinator-audited nodes; the work is PACKAGING in the
+upstream threshold-note format, not new mathematics.
+
+**PACKAGE A (priority; aimed at Scott's #1168 frontier).** A NEW PR
+stacked on the current #1168 head, title in the family of
+"MCA: reserve repricing and guarded witness substrate for the
+dense-core owner route". Contents, in order:
+
+1. the P1 reserve repricing (`rate_half_mca_two_anchor_reserve_repricing`
+   lineage, cycle 195): the exact `B_owner^(2w)(g) <= B*-(2w+31)-(n-g)`
+   owner-target with BOTH rows' endpoint tables — this is the (A)-interface
+   reissue any chronology-correct dense-core owner needs;
+2. the guarded K-adapter theorem (cycle 198 node): envelope + degree-cap
+   bijection with the executable pair-noncontainment test;
+3. the typed deployed pole-line witness certificate (cycle 199 node),
+   with the unguarded-transport counterexample (cycle 196, `u=1_E, v=X^k`)
+   as its shipped hostile regression;
+4. an explicit bridge paragraph: how 1-3 instantiate the substrate for
+   #1168 section 6's "chronology-correct owner for dense parallel pair
+   cores", citing the `delta<=4` / `200632`-slope terminal it must handle.
+
+Cite #1167's rank-10 convergence neutrally (our cycle-232 priority is
+recorded locally; do NOT contest — the m2 protocol stands). Full upstream
+harness: threshold note, canonical payload, primary + independent
+verifiers, mutation suite, source pins to the PUBLIC prize DAG (pin
+exact commits; remember the #1153 provenance-window lesson — push
+public master FIRST, then pin).
+
+**PACKAGE B.** Push the wave-61 Shape-A program onto OUR #1161 branch
+(its natural home; no collision risk): Euler/genus floor, Z_4=2B +
+h^0=1, bordered-Hankel flag presentation, scalar-weld residual-MDS
+flag, all-excess parameter-MDS equivalence, degree-ledger fence,
+tensor-rank>=3 official exclusion, all-rank parameter-map
+birationality. Standard #1161 comment-with-commit cadence is fine
+(no new PR needed).
+
+**Gate:** the coordinator audit-gates each package before `git push` to
+the fork — leave both branches ready-but-unpushed at the work-cycle
+boundary and record the exact heads in the worklog; the coordinator
+will replay and push. Everything else about granularity is your call.
