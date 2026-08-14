@@ -6553,3 +6553,18 @@ R1 four-charge identity closes to B_* exactly), pushed to fork,
 **opened PR #1169** stacked on exact #1168 head with the acceptance
 contract framing. Package B (Shape-A -> #1161) not yet staged;
 directive stands.
+
+## WAVE 63 INTEGRATED (2026-08-14 evening, coordinator)
+
+**MERGED exact pin b6f470519 (cycles 315-324, +11 nodes / +26 edges,
+census-neutral 231=167/37/27; 24/24 replayed).** All rank-11: rank-flat
+kernel-shortening router, high-span saturation, component-incidence
+dichotomy, component-star -> owner-pencil router, rank-9 split-pencil
+cell ledger (+ rounding sharpening), pair-core dichotomy, three
+target-concentration nodes, fixed-chart local-cap fence, and the
+capstone OWNER-UNIQUENESS theorem (two owners at deficiency <= 22320
+must agree on K'+22832 points vs the K'-1 RS cap — contradiction gap
+22833; canonical per-record owner key; coordinator hand-checked).
+Residual after the wave: weighted incidences on the concentrated
+charts + deployed first-match order. Package B still unstaged;
+directive stands. Chain: 2463/7316, all PASS.
