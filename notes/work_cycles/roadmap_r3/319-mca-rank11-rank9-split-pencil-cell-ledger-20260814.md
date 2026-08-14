@@ -20,8 +20,12 @@ petals are pairwise disjoint. The component-star theorem supplies at least
 
 ```text
 45153*g<=981105*(2097152-10),
-g<=45567659.
+g<=floor(2057516501910/45153)=45567658.
 ```
+
+The original cycle print used the valid but weaker ceiling `45567659`.
+The upstream export audit caught the one-unit sharpening: the integer
+record count is bounded by the floor.
 
 This is a cell cap, not a cell census. A macroscopic rank-nine lane must
 spread across many distinct cells.
@@ -30,9 +34,9 @@ Focused verification:
 
 ```text
 RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_PASS
-  weighted=2057516501910 cell=45567659 controls=7/7
+  weighted=2057516501910 cell=45567658 controls=8/8
 RATE_HALF_MCA_RANK11_RANK9_SPLIT_PENCIL_CELL_LEDGER_AUDIT_PASS
-  weighted=2057516501910 cell=45567659 controls=5/5
+  weighted=2057516501910 cell=45567658 controls=6/6
 ```
 
 No Modal computation was used.

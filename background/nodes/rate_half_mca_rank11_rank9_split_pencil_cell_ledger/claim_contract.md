@@ -9,7 +9,7 @@ with at least 45153 full-rank component extensions per assigned record.
 
 The cell has an affine owner plane, record lines of slope-indexed directions,
 an exact pairwise-balanced owner-block identity, a common root core plus
-disjoint owner petals, and at most 45567659 assigned records.
+disjoint owner petals, and at most 45567658 assigned records.
 
 ## Nonclaim
 

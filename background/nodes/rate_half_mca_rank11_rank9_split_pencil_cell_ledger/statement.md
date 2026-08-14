@@ -40,8 +40,11 @@ Fixed-owner exception disjointness gives `t_p<=981105`, while
 `sum_p|P_p|<=n'-|J_B|<=2097152-10`. Consequently
 
 ```text
-g<=ceil(981105*(2097152-10)/45153)=45567659.         (3)
+g<=floor(981105*(2097152-10)/45153)=45567658.        (3)
 ```
+
+The earlier packet used the ceiling `45567659`, which is a valid but weaker
+upper bound. Since `g` is integral, (2) forces the floor in (3).
 
 Thus one fixed rank-nine split-pencil cell cannot carry a macroscopic
 fraction of the unsafe residual. This does not bound the number of distinct
@@ -53,4 +56,4 @@ An owner agreeing on `B` outside the affine plane; equal directions for two
 distinct slopes; two record lines with no unique intersection owner; a
 coordinate outside `Z(u)` lying in two owner cores; failure of (1) or (2);
 one owner owning more than 981105 slopes; or a fixed cell with more than
-45567659 assigned records.
+45567658 assigned records.

@@ -11,7 +11,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTRACT = HERE / "source_contract.json"
-CONTRACT_SHA256 = "150863c70ede9590605eaa93eb97a16da4edb6883d6ede80c60c1c12d9795cf3"
+CONTRACT_SHA256 = "e94c3514525086188b9d4954ad011d66c910d379d8d1830506e4cab3c917fb85"
 
 
 class Reject(ValueError):
@@ -33,13 +33,16 @@ def audit(data: object) -> tuple[int, int]:
     petal = p["n_max"] - p["cell_size"]
     weighted = owner * petal
     require(weighted == p["weighted_petal_incidence_cap"], "petal")
-    cell = (weighted + p["extension_floor"] - 1) // p["extension_floor"]
-    require(cell == p["fixed_cell_record_cap"], "cell")
+    weak = (weighted + p["extension_floor"] - 1) // p["extension_floor"]
+    cell = weighted // p["extension_floor"]
+    require(weak == p["former_valid_weak_ceiling"], "weak ceiling")
+    require(cell == p["fixed_cell_record_cap"], "sharp cell")
+    require(str(p["rounding_rule"]).startswith("floor"), "rounding")
     require(len(data["identities"]) == 4, "identities")
 
     statement = (HERE / "statement.md").read_text()
     proof = (HERE / "proof.md").read_text()
-    for token in ("sum_p C(t_p,2)=C(g,2)", "45153*g", "45567659"):
+    for token in ("sum_p C(t_p,2)=C(g,2)", "45153*g", "45567658"):
         require(token in statement, f"statement token {token}")
     for token in (
         "is a bijection from the parameter plane",
@@ -58,7 +61,8 @@ def main() -> None:
         lambda item: item["parameters"].__setitem__("cell_size", 11),
         lambda item: item["parameters"].__setitem__("n_minus_m", 981103),
         lambda item: item["parameters"].__setitem__("weighted_petal_incidence_cap", 2057516501909),
-        lambda item: item["parameters"].__setitem__("fixed_cell_record_cap", 45567660),
+        lambda item: item["parameters"].__setitem__("fixed_cell_record_cap", 45567659),
+        lambda item: item["parameters"].__setitem__("rounding_rule", "ceiling"),
         lambda item: item["identities"].pop(),
     )
     controls = []

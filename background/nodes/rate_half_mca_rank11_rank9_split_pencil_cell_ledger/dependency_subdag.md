@@ -8,7 +8,7 @@ fixed rank-nine B: affine owner plane + record-line design
                     |
                     +--> common root core J_B
                     +--> pairwise disjoint owner petals P_p
-                    +--> fixed-cell cap 45567659 [PROVED]
+                    +--> fixed-cell cap 45567658 [PROVED]
                                       |
                                       v
                     cross-cell census / chronology [OPEN]

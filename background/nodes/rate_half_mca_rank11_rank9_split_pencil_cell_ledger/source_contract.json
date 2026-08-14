@@ -15,7 +15,9 @@
     "common_root_core_floor": 10,
     "fixed_owner_slope_cap": 981105,
     "weighted_petal_incidence_cap": 2057516501910,
-    "fixed_cell_record_cap": 45567659
+    "former_valid_weak_ceiling": 45567659,
+    "fixed_cell_record_cap": 45567658,
+    "rounding_rule": "floor(weighted_petal_incidence_cap/extension_floor)"
   },
   "identities": [
     "record_lines_have_distinct_slope_directions",

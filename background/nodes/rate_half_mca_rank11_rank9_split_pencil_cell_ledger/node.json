@@ -5,7 +5,7 @@
     "title": "Rank-eleven rank-nine cells have an exact split-pencil ledger",
     "status": "PROVED",
     "closure": "affine owner-plane classification, pairwise-balanced record-line design, disjoint petal charge, and fixed-cell cap",
-    "statement": "For records assigned to one fixed rank-nine ten-coordinate cell B, all pair owners agreeing with the received pair on B form an affine plane. A slope gamma gives a record line of direction (-gamma*u,u), and distinct record lines meet in one owner, yielding sum_p C(t_p,2)=C(g,2). Owner cores split into one common root core J_B and pairwise disjoint off-root petals. At least 45153 petal-extension incidences per record, fixed-owner multiplicity at most 981105, and total petal size at most 2097152-10 imply g<=45567659. Cross-cell aggregation remains open.",
+    "statement": "For records assigned to one fixed rank-nine ten-coordinate cell B, all pair owners agreeing with the received pair on B form an affine plane. A slope gamma gives a record line of direction (-gamma*u,u), and distinct record lines meet in one owner, yielding sum_p C(t_p,2)=C(g,2). Owner cores split into one common root core J_B and pairwise disjoint off-root petals. At least 45153 petal-extension incidences per record, fixed-owner multiplicity at most 981105, and total petal size at most 2097152-10 imply the sharp integer cap g<=45567658. Cross-cell aggregation remains open.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/statement.md",
       "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/proof.md",

@@ -8,7 +8,8 @@ common owner core:                 J_B subset Z(u), |J_B|>=10
 off-root owner petals:             pairwise disjoint
 extension incidence per record:    at least 45153
 fixed-owner slope cap:             981105
-fixed-cell record cap:             45567659
+fixed-cell record cap:             45567658
+former valid weak ceiling:         45567659
 ```
 
 This packet is directly portable to the upstream base-field-normalized

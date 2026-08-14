@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "150863c70ede9590605eaa93eb97a16da4edb6883d6ede80c60c1c12d9795cf3"
+CONTRACT_SHA256 = "e94c3514525086188b9d4954ad011d66c910d379d8d1830506e4cab3c917fb85"
 
 
 class Reject(ValueError):
@@ -20,10 +20,6 @@ class Reject(ValueError):
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise Reject(message)
-
-
-def ceil_ratio(numerator: int, denominator: int) -> int:
-    return (numerator + denominator - 1) // denominator
 
 
 def validate(data: object) -> dict[str, int]:
@@ -37,8 +33,15 @@ def validate(data: object) -> dict[str, int]:
     require(p["fixed_owner_slope_cap"] == p["n_minus_m"] + 1 == 981105, "owner cap")
     weighted = p["fixed_owner_slope_cap"] * (p["n_max"] - p["common_root_core_floor"])
     require(weighted == p["weighted_petal_incidence_cap"] == 2057516501910, "weighted cap")
-    cell = ceil_ratio(weighted, p["extension_floor"])
-    require(cell == p["fixed_cell_record_cap"] == 45567659, "cell cap")
+    weak = (weighted + p["extension_floor"] - 1) // p["extension_floor"]
+    cell = weighted // p["extension_floor"]
+    require(weak == p["former_valid_weak_ceiling"] == 45567659, "weak ceiling")
+    require(cell == p["fixed_cell_record_cap"] == 45567658, "sharp cell cap")
+    require(
+        p["rounding_rule"]
+        == "floor(weighted_petal_incidence_cap/extension_floor)",
+        "rounding rule",
+    )
     require(
         data.get("identities")
         == [
@@ -64,7 +67,8 @@ def main() -> None:
         lambda item: item["parameters"].__setitem__("extension_floor", 45152),
         lambda item: item["parameters"].__setitem__("common_root_core_floor", 9),
         lambda item: item["parameters"].__setitem__("fixed_owner_slope_cap", 981104),
-        lambda item: item["parameters"].__setitem__("fixed_cell_record_cap", 45567658),
+        lambda item: item["parameters"].__setitem__("fixed_cell_record_cap", 45567659),
+        lambda item: item["parameters"].__setitem__("rounding_rule", "ceiling"),
         lambda item: item["identities"].pop(),
         lambda item: item["upstream_alignment"].__setitem__("acceptance_pr", 1168),
     )

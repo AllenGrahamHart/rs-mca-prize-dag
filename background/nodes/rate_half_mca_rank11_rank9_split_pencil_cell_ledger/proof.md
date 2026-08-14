@@ -78,7 +78,11 @@ Combining (2), (4), and (5) yields
 ```text
 45153*g
  <=981105*(2097152-10),
-g<=45567659.
+g<=floor(2057516501910/45153)=45567658.
 ```
+
+The floor is required because `g` is an integer. The previously printed
+ceiling `45567659` was still an upper bound, but was not the sharp integer
+consequence of the weighted inequality.
 
 The proof is local to one fixed `B`; no count of rank-nine cells is made.

@@ -12,6 +12,8 @@
 6. Fixed-owner multiplicity uses the complete owner core and support-wise
    noncontainment; the uniform maximum is attained at deficiency one.
 7. `B subset J_B` gives the exact `n'-10` petal resource ceiling.
-8. The cap is per cell. No multiplication by an unproved cell count is made.
+8. The final division uses the floor because the record count is integral;
+   the former ceiling was valid but weaker by one.
+9. The cap is per cell. No multiplication by an unproved cell count is made.
 
 No Modal computation is used.
