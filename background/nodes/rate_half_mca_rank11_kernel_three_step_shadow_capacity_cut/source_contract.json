@@ -1,0 +1,42 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-three-step-shadow-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+    "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "rank9_record_cap": 61871313426630599,
+    "rank8_independent_pair_floor": 2276336601,
+    "previous_closed_maximum": 18101,
+    "replay_minimum": 18102,
+    "closed_dimension_maximum": 18158,
+    "first_open_dimension": 18159,
+    "replay_rows": 58,
+    "endpoint_individual_branch_pattern": ["ambient", "ambient", "ambient", "ambient", "record", "record", "record", "record", "record"],
+    "active_individual_caps": [1],
+    "active_shared_resources": ["full_containment"],
+    "slack_shared_resources": ["rank_preserving_nine_shadow"],
+    "positive_coranks": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "dual_tree": [[2, 3], [2, 4], [2, 6], [2, 8], [3, 5], [2, 7], [2, 9]],
+    "tight_hierarchy_rows": [[2, 3], [2, 4], [2, 6], [2, 7], [2, 8], [2, 9], [3, 5], [3, 7], [3, 8], [3, 9], [4, 6], [4, 8], [4, 9], [5, 7], [5, 9], [6, 8], [7, 9]],
+    "endpoint_optimum_numerator": 221965735620143543553293611844110736925708076430552096440498812565720164059665228385072438042355170196,
+    "endpoint_optimum_denominator": 9860404222256876155036284719345192914158377741575367687,
+    "endpoint_demand_ceiling": 6190329419383137937103470436045324830679845457190311905886439975,
+    "endpoint_capacity": 6190040308774317612303529317738786430780587262078244244582129477,
+    "endpoint_gap": 289110608820324799941118306538399899258195112067661304310498,
+    "wall_optimum_numerator": 93078854715756750340340952804346140570181863433697074716513863043479369501356510636101039580903822381641384851,
+    "wall_optimum_denominator": 4134112707137142884124420727680888247347725735781356800215173060,
+    "wall_demand_ceiling": 6191124719822442007616296156376982137070145367258392884991377499,
+    "wall_capacity": 6191145006113138342394285625644457013839621042766438994363453944,
+    "wall_excess": 20286290696334777989469267474876769475675508046109372076445
+  },
+  "nonclaim": "The capacity remains open from K_prime=18159 and does not pay rank eight, error rank eleven, or either prize."
+}

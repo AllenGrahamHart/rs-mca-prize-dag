@@ -40322,6 +40322,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+   "title": "Multi-step shadows couple every lower kernel corank",
+   "status": "PROVED",
+   "closure": "coloopless dual independent-set recurrence and rank-raising extension double count",
+   "statement": "For 3<=d<=9 and 2<=t<=d-1, C(d+2,t)C(67472+d,t)I_d/C(K'-d-11+t,t) <= C(9-d+t,t)I_(d-t).",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_multistep_shadow_hierarchy/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
    "title": "Nine-shadow coupling removes kernel through 15445",
    "status": "PROVED",
@@ -40471,6 +40490,25 @@
     "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/source_contract.json",
     "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify.py",
     "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
+   "title": "Three-step shadow hierarchy removes kernel through 18158",
+   "status": "PROVED",
+   "closure": "exact hierarchy-tree primal with Gaussian and recurrence dual certificates",
+   "statement": "The individual caps, full containment, and multi-step shadow hierarchy exclude the dominant kernel lane for 10<=K'<=18158. The comparison reverses at K'=18159.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut/verify_audit.py"
    ]
   },
   {
@@ -77586,6 +77624,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77618,6 +77666,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_nine_shadow_containment_coupling",
    "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "to": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
    "kind": "req"
   },
   {
@@ -77691,9 +77744,24 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_three_step_shadow_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
