@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+    "title": "Rank-eleven heavy pairs compile to a small-core order-32 seed",
+    "status": "PROVED",
+    "closure": "actual-record cross-pair compiler with exact singleton and shared-core charges",
+    "statement": "Every over-budget deployed KoalaBear post-near error-rank-eleven line contains 32 distinct actual records of support-local margin at most 387 whose exact selected supports have common intersection smaller than K-4922. The proof charges singleton minimizing-pair owners by Q_10(387)=869784434119. If the remaining heavy pairs shared K-4922 coordinates, shortening and fixed-pair multiplicity would cap the complete line at 274791086998147432<B_*. Otherwise all heavy-pair component differences lie in the same ten-dimensional explanation direction code, so one anchor and at most ten further heavy pairs recover the complete heavy core; two owned slopes per selected pair force at most 22 supports into that core, and distinct low-margin records pad to order 32. The output preserves line, slope, explanation, support, minimizing pair, and chronology but is not yet classified or paid.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/statement.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/proof.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/audit.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/result.md",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify.py",
+      "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_rank11_pair_core_route_cut_import"
+    },
+    {
+      "from": "rate_half_mca_rank11_large_shared_pair_core_payment"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

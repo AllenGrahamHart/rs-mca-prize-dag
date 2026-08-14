@@ -40,6 +40,102 @@ row closure: all three terminal inputs `(S)`, `(A)`, and `(E)` remain open.
 The K3 endpoint realization remains a valid red alternative and is not
 implied by the order-32 theorem.
 
+The independent post-near error-rank-eleven route now restores the same
+degree-18 interface after common-support cancellation. An unsafe line forces
+one low-margin minimizing pair to own at least 220 slopes. Selecting eighteen
+of them and fitting a ten-dimensional heavy-pair core basis into the other
+fourteen slots gives a 32-tuple with common support at most `K-2601` and a
+certified off-pair-line explanation. Eighteen-root interpolation then forces
+the shortened slope degree to lie in `18..31`; the apparent punctured-domain
+degree-`3..17` staircase cannot occur on this selected seed. The next task is
+the shortened support-collapsed rational/locator/high-complexity router, not
+a separate attack on each low degree.
+
+That local router is now proved as well. Maximalizing the selected tuple and
+cancelling its complete common agreement set retains actual noncontained
+witnesses and the degree-18 pin. Support-collapsed interpolation then emits a
+pure-locator certificate, a scalar-locator certificate of denominator degree
+at most `67472` (with denominator roots retained), or high two-cover
+complexity. Certificates lift exactly to the original monic support locators;
+the high-complexity threshold gains `2|C|` and becomes the official
+`chi>=2299571`. These are now local interfaces used by the complete-family
+router below; they are not themselves terminal payments.
+
+The rank-eleven local interfaces now globalize after one application of the
+proved complete-family common-core router. Write the deviations from the
+dense minimizing-pair line as `d_gamma`; their span has dimension `1..10`,
+and the complete line-global common support is exactly
+`H_0 intersect Z(span{d_gamma})`. If this set is nonempty, the whole slope
+family enters one identity-fiber shortened residual `(C)`. If it is empty,
+eighteen dense-pair records, a deviation basis, and fillers form one fixed
+31-record anchor deck with empty maximal support intersection. Adjoining any
+other post-near record gives a degree-18 order-32 tuple on the deployed
+domain. The tuples share 31 exact support locators, so primitive root-free
+rational certificates cohere projectively; the zero-core branch routes only
+to `(S)/(A)/(E)`. The live rank-eleven-specific frontier is therefore the
+single line-global shortened-family residual `(C)`; the other three outputs
+are the shared upstream terminals.
+
+The line-global `(C)` residual is now split further without a local-core
+sum. Exact cancellation preserves the dense pair and the deviation-space
+dimension `r`. Every `r<=8` residual is uniformly paid by support-local
+transversality, and `r=9` is uniformly paid by the `T=667`
+margin/interleaving split over all shortened dimensions. At full rank
+`r=10`, the descended family has a fixed `18+10+3=31` anchor deck with
+empty residual common support. Low-complexity star tuples lift and cohere
+into `(A)` or a named `(E)` exception. The only new obstruction is `(H_C)`:
+one full-rank residual tuple with `chi'>=3m'-K'+3`, whose original lift has
+the official complexity `2299571` but retains the nonempty common factor.
+Do not identify `(H_C)` with deployed first-match `(S)`; the next
+rank-eleven-specific action is a relative abundance theorem or a direct
+common-core payment for `(H_C)`.
+
+The first two relative abundance rungs now transfer unconditionally. For a
+fixed `(H_C)` tuple, root capacity bounds slopes using its core interpolant
+by `481`. For any fixed nonzero correction direction, a shortened-row
+clone-class argument charges large affine graphs coarsely by
+`n'(n'-m'+1)` and every remaining rich point by one heterogeneous pair,
+giving at most `n'(n'-m'+1)+31*C(n',2)<=70227214729216`. Core plus one
+complete projective correction ray is `70227214729697<B_*`. Thus an unsafe
+relative core requires many projectively independent correction directions
+or a genuinely higher-dimensional correction space; the next transfer is
+the proper-intersection/clone-tolerant correction-space router.
+
+That correction-space transfer is now proved with honest shortened-row
+thresholds. Bidegree-`(31,1)` proper incidence pays every correction span
+through dimension `11`; the worst dimension-11 cap is
+`73766883380602812`, while the first admissible dimension-12 formula is
+`1241731241521316220>B_*`. Independently, generalized-weight basis curves
+pay every nonabsorbing correction span through dimension `9`, with worst
+cap `13013823503882165`. Hence the live `(H_C)` residual is now either
+dimension at least `12` or a positive-dimensional evaluation rank-flat /
+exact polynomial clone component; every survivor of dimension at most `9`
+must absorb the high slope coefficients. The next action is component
+classification or an aggregate high-dimensional correction census, not
+another common-core or order-32 selector.
+
+Rank-eleven geometry now deletes the generic high-dimensional alternative.
+All residual explanations lie on the descended dense pair line plus the
+fixed ten-dimensional deviation space `V'`; coefficientwise interpolation
+is `V'`-valued after subtracting that pair line, so every correction lies in
+`V'`. The correction span therefore has dimension at most `10`; dimensions
+zero and one are paid by the core/ray theorem. Properness is already paid
+through `11`, and clone tolerance forces high-core absorption through `9`,
+while dimension `10` gives equality with `V'`. Hence every live `(H_C)`
+residual is now a high-core-absorbing positive-dimensional evaluation
+rank-flat or exact polynomial clone component of dimension `2..10`. This is
+the precise component-classification target.
+
+The full-evaluation-rank clone half of that target now collapses. On an
+evaluation basis of the absorbing correction space, every coefficient
+`H_j+P_j` for `j>=2` lies in the space and vanishes; injectivity forces
+`P_j=-H_j` globally. The polynomial clone curve is therefore one affine
+codeword owner line and contributes at most `n'-m'+1=981105` slopes. No
+genuinely nonlinear absorbing clone remains. The live relative frontier is
+evaluation rank-flats plus the chronology/aggregation problem for possibly
+many distinct affine owners; the single-owner cap must not be summed without
+a selector or compatibility theorem.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

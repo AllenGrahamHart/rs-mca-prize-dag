@@ -35973,3 +35973,1699 @@ This makes the parameter line the normalization of its coefficient image
 in every surviving rank. The rank-three singularity node should consume
 this theorem; ranks at least four now inherit birationality but still need
 an image-geometry or source/Hankel obstruction.
+# Cycle 272: rate-half Shape-A all-rank birationality upstream export (2026-08-13)
+
+Cycle 271 was exported to the existing Lane-T draft PR `#1161` as Section
+48. This separates the reusable all-rank theorem from Section 47's planar
+rank-three specialization.
+
+```text
+tensor-rank scope:        every minimal rank r>=2
+inactive-column maximum:  1
+normalization degree:     1
+higher-rank image shape:  OPEN
+row/endpoint movement:    none
+```
+
+```text
+local source:            d4bb2f4728b7653c52531091a228b19daf65b7da
+upstream PR:             #1161 (draft)
+upstream commit:         b92bc9c
+upstream section:        48
+review comment:          issuecomment-5283098530
+compact replay:          630 cases + rank fence + geometry ledgers
+source pins:             27/27
+compact mutations:       11/11 normal and optimized
+```
+
+The next route action is to classify the higher-dimensional birational
+coefficient image or combine birationality with the source/Hankel and
+scalar-weld equations. In rank three, the live subproblem remains the six
+complete-quadrilateral singular vertices.
+# Cycle 273: rate-half Shape-A all-rank domain-map birationality (2026-08-13)
+
+The normalization argument has a dual form. Every `U_0` point is unramified
+in its domain coefficient-map fiber. Each unit of scheme-theoretic fiber
+degree outside `U_0` is rooted by all `m` incident parameter hyperplanes and
+therefore consumes at least `m` from the residual homogeneous norm divisor,
+whose exact degree is only `2m-3`. The total outside fiber degree is at most
+one.
+
+Thus the domain-map degree `d_X` divides `n` and one of `R,R+1`.
+The official identities `R=3n+7`, `n` odd give both gcds equal to one.
+
+```text
+tensor rank scope:          every r>=2
+residual norm degree:       366503875919 = 2m-3
+outside fiber-degree max:   1
+gcd(n,R):                   1
+gcd(n,R+1):                 1
+domain-map degree:          1
+critical status effect:     none
+hostile mutations:          8/8
+```
+
+Both coefficient maps are now birational in every rank. Repeated row types
+must be interpreted as branches of singularities of the domain coefficient
+image, not as a nontrivial covering fiber.
+# Cycle 274: rate-half Shape-A domain birationality upstream export (2026-08-13)
+
+Cycle 273 was exported to the existing Lane-T draft PR `#1161` as Section
+49. It completes the symmetric birationality packet:
+
+```text
+parameter coefficient map degree: 1
+domain coefficient map degree:    1
+tensor-rank scope:                every minimal r>=2
+repeated values:                  singular branches only
+row/endpoint movement:            none
+```
+
+```text
+local source:            f8d4459a54e8df7ac69b7abcd39716da69c20199
+upstream PR:             #1161 (draft)
+upstream commit:         8f83b95
+upstream section:        49
+review comment:          issuecomment-5283302727
+compact replay:          630 cases + rank fence + both birationality ledgers
+source pins:             32/32
+compact mutations:       15/15 normal and optimized
+```
+
+The next route action is no longer to classify many-to-one coefficient
+covers. It is to bound singular branch aggregation on the two birational
+images, or couple their common incidence divisor to source/Hankel and
+scalar-weld data.
+# Cycle 275: rate-half Shape-A rank-three weighted incidence/genus router (2026-08-13)
+
+The earlier separation-rank-five theorem does not transfer to Shape A:
+that theorem concerns the dominant irreducible component `Q_*` of the
+source locator `Qbar`, whereas the later split biform `G` is obtained from
+the coefficientwise dual-GRS image of `omega_x Qbar/Lambda_A`. There is no
+proved multiplicative or rank-preserving identification between them.
+
+Instead, the two coefficient-map birationality theorems compress the
+rank-three branch to a weighted finite incidence graph. Group the `3e`
+parameter branches and `R=3n+7` domain branches by equal points on their
+rational plane coefficient images. Orthogonality gives a simple
+`C_4`-free bipartite graph with exact weighted degree equations:
+
+```text
+domain weighted degree:             m=e-2
+parameter weighted degree:          n-w_P
+total weighted deficit:             sum_P s_P w_P=2e-7
+parameter collision budget:         sum_P C(s_P,2)<=C(m-1,2)
+domain collision budget:            sum_Q C(l_Q,2)<=C(n-1,2)
+parameter image vertices:           at least 10
+domain image vertices:              at least 10
+zero-deficit parameter mass:        at least e+7
+zero-deficit parameter vertices:    at least 2
+critical status effect:             none
+hostile mutations:                  9/9
+```
+
+The next rank-three action is to exclude this weighted `C_4`-free graph or
+to strengthen one of its two genus budgets using the source/Hankel
+singularities. Tensor rank at least four remains a separate branch.
+# Cycle 276: rate-half Shape-A rank-three weighted incidence upstream export (2026-08-13)
+
+Cycle 275 was exported to the existing Lane-T draft PR `#1161` as Section
+50. The upstream packet uses the paper's coefficient-image and all-excess
+terminology and preserves the conservative status.
+
+```text
+local source:            0aa768f483664ba929886b60c75eec90f690aac5
+upstream PR:             #1161 (draft)
+upstream commit:         da8a6f1
+upstream section:        50
+review comment:          issuecomment-5283621509
+compact replay:          630 cases + rank fence + geometry ledgers
+source pins:             37/37
+compact mutations:       18/18
+row/endpoint movement:   none
+```
+
+The next rank-three step is to combine the weighted `C_4`-free graph with
+an extremal incidence inequality or with the source/Hankel realizability
+conditions. Tensor rank at least four remains open independently.
+# Cycle 277: rate-half Shape-A three-source-class rank amplification (2026-08-13)
+
+The dominant-component rank theorem uses an earlier residual parameter and
+does not transfer to Shape A. The correct input is the later first-degree
+marked-source frame: its degree-`e` primitive locator has `e+1` independent
+coefficient vectors, for the same `e=(2^39+1)/3` used in Shape A.
+
+Because `d_A=1`, every `x in U_0` lies in one of three source classes. On
+each class the evaluated locator row is a fixed quadratic parameter
+multiple of the corresponding evaluated split-biform row. Injective
+evaluation on `U_0` therefore gives
+
+```text
+sr(Qbar)=e+1<=3sr(G),
+sr(G)>=ceil((e+1)/3)=61083979322.
+```
+
+```text
+rank-three branch:       excluded
+all ranks <61083979322:  excluded
+surviving rank interval: [61083979322,e-1]
+critical status effect:  none
+hostile mutations:       7/7
+```
+
+The rank-three incidence/genus router remains a valid conditional theorem,
+but it is no longer a live Shape-A branch. Future work should attack the
+macroscopic-rank interval directly.
+# Cycle 278: rate-half Shape-A source-rank amplification upstream export (2026-08-13)
+
+Cycle 277 was exported to the existing Lane-T draft PR `#1161` as Section
+51. The export explicitly distinguishes the first-degree primitive-kernel
+parameter `e` from the earlier maximal-component parameter and records the
+result as a macroscopic rank floor, not a Shape-A closure.
+
+```text
+local source:            b7e0ab6e45b6d304b13efa4442ecd2fd7a3ea350
+upstream PR:             #1161 (draft)
+upstream commit:         3abd608
+upstream section:        51
+review comment:          issuecomment-5283775237
+compact replay:          630 cases + all geometry/rank ledgers
+source pins:             42/42
+compact mutations:       21/21
+proved rank floor:       61083979322
+row/endpoint movement:   none
+```
+
+The next Shape-A action should use the exact three-quadratic generation of
+the full degree-`e` parameter space and the source-Hankel isotropy at
+macroscopic rank. Low-rank projective casework is now retired.
+# Cycle 279: rate-half Shape-A three-class Koszul/Gram router (2026-08-13)
+
+The macroscopic rank floor has an exact structural refinement. Each of the
+three source classes has more points than the `X`-degree of `G`, so each
+class alone spans its complete parameter coefficient space `V`. The three
+quadratic source multipliers therefore generate every degree-`e` form:
+
+```text
+P_e=q_alpha V+q_beta V+q_theta V,
+dim ker(V^3 -> P_e)=3r-(e+1).
+```
+
+The endpoint source-frame isotropy also makes the three classwise weighted
+locator Gram matrices proportional. Their common image lies in the triple
+quadratic-shift intersection `abc J`, where `J` is the first inverse
+prolongation of `V`.
+
+```text
+minimum live rank:             61083979322
+Koszul kernel at minimum:      2
+Gram forced nonzero from rank: 137438953472
+critical status effect:        none
+hostile mutations:             8/8
+```
+
+The next closure route is to constrain `J` using the split fibers or prove
+that the proportional weighted Gram packet cannot arise from the retained
+Hankel source.
+# Cycle 280: rate-half Shape-A Koszul/Gram upstream export (2026-08-13)
+
+Cycle 279 was exported to the existing Lane-T draft PR `#1161` as Section
+52. It is presented as the exact compatibility packet for the macroscopic
+rank interval, not as a closure.
+
+```text
+local source:            93ba16ea39e44233d43cbfab09bce32460bfd262
+upstream PR:             #1161 (draft)
+upstream commit:         0f673f6
+upstream section:        52
+review comment:          issuecomment-5283849565
+compact replay:          630 cases + all geometry/rank ledgers
+source pins:             47/47
+compact mutations:       25/25
+critical status effect:  none
+```
+
+The immediate algebraic continuation is to classify the syzygy bundle of
+`V` from the surjectivity of quadratic multiplication. The Gram packet can
+then be located inside its degree-one syzygy summand.
+# Cycle 281: rate-half Shape-A coefficient syzygy-bundle cubic splitting (2026-08-13)
+
+The exact quadratic generation of the Shape-A coefficient space determines
+its syzygy-bundle range. For
+
+```text
+0 -> E -> V tensor O_P1 -> O_P1(e-2) -> 0,
+```
+
+quadratic surjectivity is `H^1(E(2))=0`. Hence every geometric splitting
+degree of `E` is one, two, or three.
+
+```text
+c_1+c_2+c_3=r-1
+c_1+2c_2+3c_3=e-2
+2c_1+c_2=3r-(e+1)
+dim inverse prolongation J=c_1
+```
+
+At the minimum rank `61083979322`, only two profiles remain:
+
+```text
+(1,0,61083979320),
+(0,2,61083979319).
+```
+
+The common source-Gram matrix, when nonzero, excludes the second profile.
+The target remains open because its nonvanishing is not forced at the
+minimum rank.
+# Cycle 282: rate-half Shape-A syzygy-bundle upstream export (2026-08-13)
+
+Cycle 281 was exported to the existing Lane-T draft PR `#1161` as Section
+53. It records the degree-`1/2/3` splitting classification and the two exact
+minimum-rank profiles.
+
+```text
+local source:            995c5381285975c04eae2f884bb49ba390004eae
+upstream PR:             #1161 (draft)
+upstream commit:         7bccbc2
+upstream section:        53
+review comment:          issuecomment-5283906720
+compact replay:          630 cases + all geometry/rank ledgers
+source pins:             52/52
+compact mutations:       27/27
+critical status effect:  none
+```
+
+The next local proof target is nonvanishing or rank control for the common
+source-Gram matrix at the lower part of the live interval, followed by
+split-fiber exclusion of the permitted syzygy profiles.
+# Cycle 283: rate-half Shape-A locator-interpolation rank amplification (2026-08-13)
+
+The primitive locator has `n+1` exact `X`-interpolation parity checks. After
+the three-source-class row decomposition, every check is a restricted
+Koszul syzygy. Projection to either class of size `n+2` has rank at least
+`r-1` by Sylvester's inequality.
+
+```text
+dim Koszul kernel=3r-(e+1)>=r-1,
+r>=(e+1)/2=91625968982.
+```
+
+```text
+former floor:          61083979322 [excluded]
+new floor:             91625968982
+new boundary kernel:   91625968982
+live rank interval:    [91625968982,e-1]
+critical status effect:none
+hostile mutations:     7/7
+```
+
+The next rank improvement requires controlling the common kernel of the
+three classwise interpolation maps, or proving that their combined map is
+closer to injective than one projection alone detects.
+# Cycle 284: rate-half Shape-A live syzygy and small-class defect (2026-08-13)
+
+The locator-interpolation projection and the inverse prolongation squeeze
+the complete live syzygy profile:
+
+```text
+c_1=2r-e,
+c_2=e-r-1,
+c_3=0,
+S_1V=S_(e-1).
+```
+
+At the new lower boundary the unique profile is
+
+```text
+(1,91625968980,0).
+```
+
+For each of the two source classes of size `n+2`, the interpolation map has
+exact rank `r-1`. Its one-dimensional left kernel is a unique projective
+form `B_gamma` in the common domain coefficient space, with values
+
+```text
+B_gamma(x)=kappa_gamma eta_x
+ L_Mgamma'(x)L_rest,gamma(x)^2.
+```
+
+The next exclusion target is compatibility of the two defect forms with
+the split-row locator data and collision/Hankel equations.
+# Cycle 285: rate-half Shape-A half-rank/live-profile upstream export (2026-08-13)
+
+Cycles 283--284 were exported to the existing Lane-T draft PR `#1161` as
+Sections 54--55.
+
+```text
+local source:            eb7819d5f0c4f0f20947b28fbe5717dcd768edea
+upstream PR:             #1161 (draft)
+upstream commit:         e63028d
+upstream sections:       54--55
+review comment:          issuecomment-5284032833
+compact replay:          630 cases + all geometry/rank ledgers
+source pins:             62/62
+compact mutations:       30/30
+new rank floor:          91625968982
+critical status effect:  none
+```
+
+The next exact target is compatibility of the two small-class defect forms
+inside the common domain coefficient space. A successful coupling should
+either raise the rank floor again or exclude Shape A.
+# Cycle 286: rate-half Shape-A center-fiber/large-class dichotomy (2026-08-13)
+
+The exact live syzygy profile turns the classwise interpolation defects
+into geometric fibers of the split biform.
+
+```text
+all three Koszul coordinate images:  V_gamma={f in V:f(gamma)=0}
+small-class interpolation images:     V_gamma
+small-class coefficient defects:      G(gamma,X)
+large-class interpolation rank:       r-1 or r-2
+rank-r-2 cost:                         G(gamma_0,X)=(X-x_*)B_0(X)
+                                       B_0 in W_X, deg B_0<=n-1
+heavy-row cost in that branch:         T_3=ell_(gamma_0)T_2
+                                       deg T_2=2
+critical status effect:                none
+```
+
+The `r-1` branch now asks for compatibility of three actual center fibers
+inside one coefficient space. The `r-2` branch asks whether the domain
+coefficient space can contain the multiplication chain
+`B_0,(X-x_*)B_0` while satisfying the exact split-row and scalar-weld
+ledgers.
+# Cycle 287: rate-half Shape-A center-fiber upstream export (2026-08-13)
+
+Cycle 286 was exported to the existing Lane-T draft PR `#1161` as
+Section 56 with a separate compact replay.
+
+```text
+local source:            7b70a9337
+upstream PR:             #1161 (draft)
+upstream commit:         97f3287
+upstream section:        56
+review comment:          issuecomment-5284221983
+new source pins:         11/11
+new mutations:           13/13
+finite-field toy ranks:  small=3, large=2
+critical status effect:  none
+```
+
+The next local attack keeps both exact branches visible: center-fiber
+compatibility when the large map has rank `r-1`, and exclusion of the
+domain multiplication chain when it has rank `r-2`.
+# Cycle 288: rate-half Shape-A large-class center-residual exclusion (2026-08-13)
+
+The lower-rank branch of the large-class interpolation dichotomy is
+impossible.
+
+```text
+hypothetical branch:       rank T_(gamma_0)=r-2
+forced factorization:      G(gamma_0,X)=(X-x_*)B_0(X)
+new common point:          (gamma_0,x_*)
+mandatory divisor:         only off-line supported fibers
+residual pushforward:      div(E_4)=2div(S_B)=4[tau]
+center/collision relation: gamma_0!=tau
+conclusion:                rank T_(gamma_0)=r-1
+all three defects:         G(gamma,X)
+critical status effect:    none
+```
+
+The next Shape-A target is therefore no longer branched: all three center
+fibers must be coupled directly to the proportional source-Gram packet,
+split rows, or collision identities.
+# Cycle 289: rate-half Shape-A large-class exclusion upstream export (2026-08-13)
+
+Cycle 288 was exported to the existing Lane-T draft PR `#1161` as
+Section 57.
+
+```text
+local source:            5e2d69025
+upstream PR:             #1161 (draft)
+upstream commit:         8f82c4a
+upstream section:        57
+review comment:          issuecomment-5284321581
+source pins:             18/18
+mutations:               16/16
+critical status effect:  none
+```
+
+The live Shape-A frontier now has one classwise profile: every interpolation
+map has rank `r-1` and every coefficient defect is the actual center fiber.
+# Cycle 290: rate-half Shape-A center coprimality/Padé quotient (2026-08-13)
+
+All three center locators are now proved coprime to the corresponding
+split-biform fibers.
+
+```text
+classified center roots: G(gamma,x)!=0 by off-line-only row roots
+large padded center:      G(gamma_0,x_*)!=0 by residual support
+heavy cubic residual:     T_3(gamma_0)!=0
+center Padé numerator:    B_src(gamma)=L_Mgamma C_gamma
+center contact numerator: P_F(gamma)=chi_gamma R_gamma C_gamma
+small quotient degree:    <=d-1
+large quotient degree:    <=d-2
+critical status effect:   none
+```
+
+The next route is to compare the three quotient polynomials or their
+source-Gram contractions across the center line.
+# Cycle 291: rate-half Shape-A center-coprimality upstream export (2026-08-13)
+
+Cycle 290 was exported to the existing Lane-T draft PR `#1161` as
+Section 58.
+
+```text
+local source:            a41f0595b
+upstream PR:             #1161 (draft)
+upstream commit:         35466b5
+upstream section:        58
+review comment:          issuecomment-5284424979
+source pins:             25/25
+mutations:               20/20
+critical status effect:  none
+```
+
+The next exact Lane-T object is the three-term relation among the three
+center factorizations of the parameter-linear source numerator.
+# Cycle 292: rate-half Shape-A padded-center Padé transversality (2026-08-13)
+
+The unique padded center accounts for exactly one simple zero of the formal
+Padé resultant.
+
+```text
+formal resultant:        Res_X(Qbar,P_F)=c a^(2d+1)D_1
+center leading order:    ord a=0
+regular factor:          D_1=g_*S_B^2
+center regular order:    1
+common center point:     (gamma_0,x_*)
+local length:            1
+consequences:            C_0(x_*)!=0
+                         B_src(gamma_0,x_*)!=0
+critical status effect:  none
+```
+
+Thus the primitive source-numerator map does not send the outside padded
+point to the large-class center.
+# Cycle 293: rate-half Shape-A padded-center Padé upstream export (2026-08-13)
+
+Cycle 292 was exported to the existing Lane-T draft PR `#1161` as
+Section 59.
+
+```text
+local source:            0223874d7
+upstream PR:             #1161 (draft)
+upstream commit:         b0fd91e
+upstream section:        59
+review comment:          issuecomment-5284505843
+source pins:             30/30
+mutations:               23/23
+critical status effect:  none
+```
+
+The next route primitive-normalizes the parameter-linear source numerator
+and compares its three center fibers.
+# Cycle 294: rate-half Shape-A primitive source pencil (2026-08-13)
+
+The parameter-linear source numerator now has a canonical primitive map.
+
+```text
+fixed factor:             H, degree h
+primitive map degree:     D=R-1-h
+fixed-factor support:     outside U_0 and x_*
+center fibers on U_0:     M_alpha, M_beta, M_gamma0
+residual degrees:         d-1-h, d-1-h, d-2-h
+residual pairwise gcd:    1
+center relation:          one three-term relation, all coefficients nonzero
+padded outside point:     phi(x_*)!=gamma_0
+critical status effect:   none
+```
+
+The remaining primitive-pencil frontier is to control `h`, off-grid fiber
+roots, or ramification using the Hankel/source-Gram identities.
+# Cycle 295: rate-half Shape-A primitive-source-pencil upstream export (2026-08-13)
+
+Cycle 294 was exported to the existing Lane-T draft PR `#1161` as
+Section 60.
+
+```text
+local source:            14c0ad93b
+upstream PR:             #1161 (draft)
+upstream commit:         930a7c9
+upstream section:        60
+review comment:          issuecomment-5284568335
+source pins:             35/35
+mutations:               28/28
+critical status effect:  none
+```
+
+The primitive source-pencil frontier is now explicit: control its fixed
+degree, off-grid roots, or ramification using the retained Hankel packet.
+# Cycle 296: rate-half Shape-A center residue-pairing router
+
+## Result
+
+The three locator-interpolation maps now have one exact common language.
+For each center `gamma`, the symmetric residue form
+
+```text
+beta_gamma(f,h)=sum_(x in M_gamma)
+ R_gamma(x)f(x)h(x)/[G(gamma,x)L_Mgamma'(x)]
+```
+
+has rank `n` on `S_n` and radical exactly `G(gamma,X)`. Its restriction
+to the common coefficient space `W_X` is the class map `T_gamma`, up to a
+nonzero scalar.
+
+If
+
+```text
+kappa=dim(intersection_gamma ker T_gamma),
+```
+
+then
+
+```text
+rank T=n+1-kappa,
+r>=ceil((5e-3-2kappa)/6).
+```
+
+At the current lower rank boundary `r=(e+1)/2`, survival requires
+`kappa>=e-3=183251937960`. Proving `kappa<=e-4` raises that floor by one.
+
+**Cycle-300 correction:** the Padé-parity quotient theorem subsequently
+proved `kappa=e-3+xi` with `xi>=0`. The upper-bound sentence is therefore a
+counterfactual calibration; it is not a live dimension-only route.
+
+## Audit
+
+The large class uses the full two-dimensional dual-RS parity space and
+the proved coprimality of `X-x_*` with `G(gamma_0,X)`. The constant-size
+finite-field replay checks rank, radical, restricted rank, and a
+zero-common-kernel control. The latter is a route guard: the residue forms
+alone do not force the official macroscopic intersection.
+
+## Status
+
+```text
+new node:               PROVED
+critical status effect: none
+compute:                local constant-size only
+next exact target:      bound kappa using the primitive source-pencil
+                        relation and retained Hankel/source-Gram packet
+```
+# Cycle 297: rate-half Shape-A center residue-pairing upstream export
+
+Cycle 296 was exported to the existing Lane-T draft PR `#1161` as
+Section 61.
+
+```text
+local source:            1bf81a36f
+upstream commit:         f58bbb8
+upstream section:        61
+review comment:          issuecomment-5285050165
+source pins:             40/40
+compact toy ranks:       full=4, restricted=2, combined=5
+hostile mutations:       34/34
+critical status effect:  none
+```
+
+The export preserves the exact remaining obligation: bound
+`kappa=dim(intersection ker T_gamma)` using the primitive source-pencil or
+Hankel/source-Gram coupling. It explicitly rejects projective distinctness
+of the three center fibers as a standalone common-kernel proof.
+# Cycle 298: rate-half Shape-A global source-multiplier normal form
+
+The three center residue kernels now form one exact Padé intersection in
+the full source algebra. In an affine parameter coordinate, write
+
+```text
+B_src(z,X)=J(X)z+K(X),       varphi=-K/J mod L_U0.
+```
+
+On `M_gamma`, `J(x)=eta_xL_U0'(x)` is nonzero and
+`varphi(x)=gamma`. Therefore
+
+```text
+E_3=W_X direct_sum varphi W_X direct_sum varphi^2 W_X,
+dim E_3=3r,
+K_cap=S_n intersect J E_3^perp.
+```
+
+At the current lower rank boundary,
+
+```text
+dim E_3=n+5=274877906946,
+dim E_3^perp=2n+2=549755813884,
+required dim K_cap>=e-3=183251937960.
+```
+
+The direct-sum claim is exact: a relation restricts on each class to a
+degree-`n` polynomial with at least `n+2` roots, and the three center
+values then invert by Vandermonde. The resulting large intersection is a
+necessary owner-sensitive alignment, not a generic-dimension
+contradiction.
+
+```text
+new node:               PROVED
+critical status effect: none
+compute:                local constant-size only
+next exact target:      bound S_n intersect J E_3^perp using the fixed
+                        factor, split rows, or Hankel/source-Gram identities
+```
+
+**Cycle-300 correction:** the Padé-parity quotient theorem shows that the
+`e-3` floor in this intersection is mandatory locator parity. A standalone
+dimension bound is not a live target; closure needs an independent
+collision/Hankel, fixed-factor, or split-row incompatibility.
+# Cycle 299: rate-half Shape-A global source-multiplier upstream export
+
+Cycle 298 was exported to the existing Lane-T draft PR `#1161` as
+Section 62.
+
+```text
+local source:            04ae6011f
+upstream commit:         5800ddf
+upstream section:        62
+review comment:          issuecomment-5285168567
+source pins:             45/45
+compact toy ranks:       E3=9, block=9, global=9
+hostile mutations:       40/40
+critical status effect:  none
+```
+
+The export preserves the exact remaining obligation: bound the
+owner-sensitive intersection
+`S_n intersect J(W_X+varphi W_X+varphi^2W_X)^perp`. It explicitly states
+that the ambient dimensions do not exclude Shape A.
+# Cycle 300: rate-half Shape-A Padé-parity quotient fence
+
+The global Padé identity corrects the interpretation of the center
+common-kernel floor. In the source residue algebra,
+
+```text
+J Qbar=q_varphi G,
+J U_Q subset E_3,
+S_n^perp=S_d,       d=R-n-2.
+```
+
+Therefore the right radical of the common-kernel pairing is exactly
+`E_3 intersect J S_d`. With
+
+```text
+xi=dim(E_3 intersect J S_d)-(e+1)>=0,
+```
+
+one has
+
+```text
+rank T=dim ker Phi-xi,
+kappa=n+e+2-3r+xi.
+```
+
+At the lower boundary this is `kappa=e-3+xi`. The previously targeted
+`e-3` floor is mandatory locator parity, not a dimension anomaly. The
+dimension-only common-kernel continuation is now formally fenced; any
+Shape-A exclusion must use an independent collision/Hankel, fixed-factor,
+or split-row incompatibility.
+
+```text
+new node:               PROVED
+critical status effect: none
+compute:                local constant-size only
+route effect:           invalid next-step removed
+```
+# Cycle 301: rate-half Shape-A Padé-parity quotient upstream export
+
+Cycle 300 was exported to the existing Lane-T draft PR `#1161` as
+Section 63.
+
+```text
+local source:            da64b8969
+upstream commit:         02d65eb
+upstream section:        63
+review comment:          issuecomment-5285362497
+source pins:             50/50
+compact toy ranks:       exact=3, excess=2
+hostile mutations:       46/46
+critical status effect:  none
+```
+
+The export corrects the proposed continuation of Section 62: the
+`e-3` common-kernel floor is mandatory Padé/RS parity, so an independent
+Shape-A incompatibility is required.
+# Cycle 302: MCA rank-11 wall harvest and dense-owner export (2026-08-14)
+
+The canonical prize tree advanced to `659319780` while this worktree was on
+the later Shape-A branch. Its intervening review commit imported upstream PR
+`#1168` as the proved route-cut node
+`rate_half_mca_rank11_pair_core_route_cut_import` and wired it as evidence to
+`rate_half_band_crossing_location`.
+
+The import was reconciled here at commit `3782181f6`. Its primary replay and
+independent `L(19737)` recomputation pass:
+
+```text
+RANK11_PAIR_CORE_ROUTE_CUT_IMPORT_OK wall_excess=538948390820518297
+RANK11_WALL_AUDIT_OK L(19737)=808527428378681053
+```
+
+An independent local derivation had reached the same exact-layer profile and
+the same optimum total
+
+```text
+813929118931913384
+```
+
+before the upstream sweep. This is overlap, not a second theorem, so no
+duplicate DAG node was minted. The route decision is sharper: almost the
+entire current miss is the deficiency-one pair-core layer, and #1168 already
+pre-registers the required escape as a same-line cross-pair coupling theorem
+or a chronology-correct owner for dense parallel pair cores.
+
+The user-ratified coordinator directive was then executed as Package A on a
+fresh branch stacked on exact #1168 head
+`6a5dcdae1591fc7f044eda6a942bfe178521a48c`:
+
+```text
+worktree: /home/u2470931/smooth-read-solomin/
+          rs-mca-codex-dense-core-owner-post-1168-20260814
+branch:   codex/kb-dense-core-owner-substrate-post-1168
+head:     b4bad860750f91955dbaead8f2b5a0fdef1f1343
+status:   clean, READY-BUT-UNPUSHED for coordinator audit
+```
+
+The packet vendors four public, exact-commit/tree-pinned proof nodes in
+Przemek's terminology:
+
+1. separate-`2w` reserve repricing, with the exact target
+   `B*-(2w+31)-(n-g)` and both endpoint rows;
+2. the explicit `(1_E,X^k)` counterexample to silent `k -> k+1` badness and
+   owner transport;
+3. the exact degree-`<k` shifted-lattice guard plus executable same-support
+   pair-noncontainment test;
+4. the typed deployed pole-line witness, retaining Q, BC, and `U_new` as
+   `UNASSIGNED`.
+
+The bridge to #1168 is an acceptance contract, not an owner claim: any S/A/E
+chronology owner for the forced `delta<=4`, `200632`-slope terminal must meet
+the repriced target, preserve the actual line/support/slope chronology, pass
+the degree and pair tests, accept the typed pole line, and reject the
+unguarded transport mutation.
+
+Verification at the unpushed head:
+
+```text
+primary:     PASS (36015 toy records; official endpoints; d1=67473)
+mutations:   PASS 8/8
+independent: PASS 4/4
+TeX:         PASS, 123 pages
+git diff:    clean/check PASS
+```
+
+The public source commits were confirmed reachable in
+`AllenGrahamHart/rs-mca-prize-dag` before pinning. No Modal computation was
+used. The critical census and deployed ledger are unchanged.
+
+```text
+start:                   8fb5d52d4
+result:                  #1168 wall harvested; guarded dense-owner substrate
+                         packaged at b4bad8607
+DAG delta:               +1 PROVED imported route-cut node, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: owner interface repriced and witness-sound; owner
+                         existence/chronology theorem remains open
+delta-star movement:     none
+compute:                 exact local arithmetic only; no Modal spend
+next route action:       coordinator replay/push Package A, then attack the
+                         same-line cross-pair/chronology theorem against the
+                         shipped acceptance contract
+```
+# Cycle 303: MCA rank-11 dense-core multi-owner fence (2026-08-14)
+
+Cycle 302 isolated the first unpaid KoalaBear MCA stratum at error rank
+eleven. Upstream PR `#1168` forces any over-budget line into a local terminal
+containing a pair with deficiency at most four and at least `200632` owned
+slopes. The next proposed route was to coalesce such heavy pair groups into
+one owner. This cycle tests that inference at the deployed parameters.
+
+The new proved route-fence node
+`rate_half_mca_rank11_dense_pair_core_multiowner_fence` gives an explicit
+received line with twelve distinct pair types. Put `d=9`, choose twelve
+degree-below-nine polynomials of affine rank nine, absorb all pairwise
+collision roots into a common set `J` of size `K-9`, and multiply by the
+locator of `J`. Twelve disjoint petals of size `w+8` then give twelve exact
+deficiency-one pair cores of size `m-1`.
+
+The unassigned remainder has exact size
+
+```text
+n-(K-9)-12(w+8)=238825.
+```
+
+Over the deployed sextic line field, a greedy avoidance ledger chooses one
+received value per remainder coordinate so that all
+`12*238825=2865900` extension slopes are distinct. The worst forbidden set
+has size only `34390656 < p^6`. Each pair therefore owns `238825` exact
+size-`m`, support-wise MCA-bad, post-near records with margin one. The
+explanation affine rank is exactly ten and the error rank is exactly eleven.
+
+This construction strictly satisfies the local `#1168` dense-pair terminal
+for every one of twelve different owners. It therefore refutes the inference
+that the terminal alone forces a unique pair, a global affine owner, or
+coalescence of heavy cores. It does **not** refute rank-eleven payment or
+KoalaBear safety: the total is far below `B_*`. The surviving route is an
+aggregate multi-owner payment or an S/A/E chronology theorem with an
+additional classification premise.
+
+The symbolic construction is backed by a complete independent GF(29) toy:
+
+```text
+D=[28,0,1,...,12], K=5, m=6, w=1,
+|J|=3, four petals of size 2, |R|=3,
+12 globally distinct slopes,
+explanation/error ranks = 3/4.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_PASS
+  pairs=12 per_pair=238825 total=2865900 toy=12 ranks=3/4 controls=8/8
+RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_AUDIT_PASS
+  pairs=12 per_pair=238825 toy_slopes=12 controls=4/4
+DAG_MANIFEST_PASS nodes=2441 edges=7252 bytes=5550943 mutations=3/3
+JOINT_CROSSWALK_PASS rows=103 identical=12 pins=052061e85/93fba1be
+CRITICAL_HARNESS_COVERAGE_PASS proved=167 local=63 no_artifact=0
+RUN_ALL_VERIFIERS total=2 failures=0
+```
+
+No Modal computation was used. All work was exact and ran under RAMguard.
+The result is separated into statement, proof, contract, dependency sub-DAG,
+primary verifier, and independently written audit rather than appended to a
+large campaign file.
+
+```text
+start:                   93ff0bd46
+DAG delta:               +1 PROVED route-fence node, +1 requirement edge,
+                         +1 evidence edge
+critical status delta:   none
+upstream terminal delta: single-owner/coalescence inference rejected;
+                         aggregate multi-owner/chronology route remains
+delta-star movement:     none
+compute:                 exact local arithmetic only; no Modal spend
+next route action:       formulate the common-core/petal spread alternative
+                         and test whether existing S/A/E routing pays it
+                         before seeking a new rank-eleven theorem
+```
+# Cycle 304: MCA rank-11 large shared pair-core payment (2026-08-14)
+
+Cycle 303 proved that the local dense-pair terminal need not coalesce: twelve
+distinct deficiency-one owners can each carry `238825` exact records. A
+first-match audit of Grande Finale v4 showed why that construction does not
+reach the primitive S/A/E residual. Its mixed-owner supports share a common
+set of size `K-9`, so the correct next operation is shortening, not owner
+identification.
+
+The new proved node
+`rate_half_mca_rank11_large_shared_pair_core_payment` closes a uniform
+version of that branch. Split the post-near rank-eleven family at the proved
+support-local cutoff `theta=388`. The high-margin family costs at most
+
+```text
+274790124064526354.
+```
+
+Assume every distinct minimizing pair used below the cutoff shares one
+componentwise pair core `J` of size at least `K-4922`. If `d=K-|J|`,
+shortening pair differences on `J` gives a two-fold interleaving of a GRS
+code with
+
+```text
+N_d=1048576+d,
+A_d=d+67085,
+1<=d<=4922.
+```
+
+The ordinary MDS Johnson denominator simplifies to the linear expression
+
+```text
+D(d)=4501445801-914405d.
+```
+
+It is positive through `d=4922`, where it equals `744391`, and becomes
+`-170014` at `d=4923`. The endpoint ordinary-list bound is exactly `94943`.
+Its square is below the sextic field size, so the proved interleaving
+collapse gives the same bound for ordered minimizing pairs. The exact
+fixed-pair ratio cap then gives
+
+```text
+low records <=94943*981105=93149052015.
+```
+
+Adding the high family and disjoint near charge yields
+
+```text
+134944+274790124064526354+93149052015
+ =274790217213713313
+ =B_*-190510897681774.
+```
+
+This pays the complete shared-core branch and absorbs the Cycle-303
+twelve-owner construction, whose shortened dimension is only nine. An
+unsafe rank-eleven family must now have low-margin minimizing pair-core
+intersection below `K-4922`. That is a materially sharper cross-pair/spread
+target; no S/A/E owner is assumed or constructed.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_LARGE_SHARED_PAIR_CORE_PAYMENT_PASS
+  dimensions=4922 pair_types=94943 low=93149052015
+  slack=190510897681774 controls=8/8
+RATE_HALF_MCA_RANK11_LARGE_SHARED_PAIR_CORE_PAYMENT_AUDIT_PASS
+  list=94943 total=274790217213713313
+  slack=190510897681774 controls=4/4
+DAG_MANIFEST_PASS nodes=2442 edges=7255 bytes=5553161 mutations=3/3
+RUN_ALL_VERIFIERS total=2 failures=0
+```
+
+No Modal computation was used; the complete dimension interval replay takes
+well below one second under RAMguard.
+
+```text
+start:                   67d4398e8
+DAG delta:               +1 PROVED branch-payment node, +2 requirement
+                         edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: common pair core >=K-4922 paid; smaller-core
+                         cross-pair/spread residual remains
+delta-star movement:     none
+compute:                 exact local arithmetic only; no Modal spend
+next route action:       derive a small-core diversity/spread compiler for
+                         the theta<=387 minimizing pairs, preserving actual
+                         line, support, slope, and first-owner chronology
+```
+# Cycle 305: MCA rank-11 heavy-pair order-32 seed compiler (2026-08-14)
+
+Cycle 304 paid rank-eleven families whose complete low-margin minimizing-pair
+family shares `K-4922` pair-core coordinates. This cycle removes that global
+premise and compiles every remaining unsafe line into the order-32 interface
+used by Grande Finale v4.
+
+At cutoff `theta<=387`, the exact interleaved pair cap is
+
+```text
+Q_10(387)
+ =floor(C(1048586,10)/C(67095,10))
+ =869784434119.
+```
+
+Pair types owning exactly one record therefore cost at most that amount.
+Call all other pair types heavy. If the heavy cores shared `K-4922`
+coordinates, the Cycle-304 shortened endpoint would cap the heavy types at
+`94943`, giving
+
+```text
+low <=869784434119+94943*981105
+    =962933486134,
+total <=274791086998147432
+      =B_*-189641113247655.
+```
+
+Thus an unsafe line has heavy-core intersection below `K-4922`.
+
+The cross-pair coupling is finite. After the reversible rank-eleven gauge,
+every minimizing direction `b` and every shifted intercept `a-c_0` lies in
+the same ten-dimensional direction code `C'`. Fix one heavy pair. At most ten
+further heavy pairs suffice for their component differences to span all
+heavy-pair component differences. The intersection of these at most eleven
+pair cores is therefore the full heavy-core intersection.
+
+Every selected pair is heavy, so choose two owned slopes from it. The exact
+fixed-pair exception sets are disjoint across slopes; consequently the two
+supports intersect only inside that pair core. At most `22` actual records
+therefore already have common support below `K-4922`. An unsafe line has at
+least
+
+```text
+B_*+1-134944-274790124064526354
+ =190604046733790
+```
+
+low-margin records, so distinct records pad the packet to exactly `32`
+without increasing its common support.
+
+The new proved node
+`rate_half_mca_rank11_heavy_pair_order32_seed_compiler` preserves the actual
+received line, slopes, explanations, supports, minimizing pairs, and
+first-match chronology. It does not classify or pay the resulting packet.
+The surviving theorem is now the same-owner classification/payment of an
+order-32 packet whose common support is below `K-4922`.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_HEAVY_PAIR_ORDER32_SEED_COMPILER_PASS
+  Q=869784434119 total=274791086998147432
+  slack=189641113247655 basis=7/10 controls=8/8
+RATE_HALF_MCA_RANK11_HEAVY_PAIR_ORDER32_SEED_COMPILER_AUDIT_PASS
+  Q=869784434119 total=274791086998147432
+  low_min=190604046733790 controls=4/4
+DAG_MANIFEST_PASS nodes=2443 edges=7258 bytes=5555632 mutations=3/3
+RUN_ALL_VERIFIERS total=2 failures=0
+```
+
+No Modal computation was used. This is a natural successor to upstream PR
+`#1168`, but the existing Package-A branch remains coordinator-gated and was
+not silently modified.
+
+```text
+start:                   5842715fa
+DAG delta:               +1 PROVED compiler node, +2 requirement edges,
+                         +1 evidence edge
+critical status delta:   none
+upstream terminal delta: vague cross-pair coupling replaced by an actual
+                         small-common-support order-32 packet
+delta-star movement:     none
+compute:                 exact local arithmetic only; no Modal spend
+next route action:       compare the packet after common-support factoring
+                         with thm:partial-relative and isolate the first
+                         unproved same-owner classification clause
+```
+# Cycle 306: MCA rank-11 order-32 common-support cancellation (2026-08-14)
+
+Cycle 305 emits `32` actual low-margin records whose exact support
+intersection `C` has size
+
+```text
+c<K-4922.
+```
+
+The new proved node
+`rate_half_mca_rank11_order32_common_support_cancellation` removes that
+intersection without changing record semantics. Since `c<K`, interpolate the
+two received columns on `C` by degree-below-`K` polynomials `A,B`. For every
+record, the common-support locator `L_C` divides
+
+```text
+h_i-A-gamma_i B.
+```
+
+On `D\C`, divide the received differences pointwise by `L_C` and divide the
+explanation polynomial exactly. This produces records in
+
+```text
+RS[F,D\C,K-c]
+```
+
+at agreement `m-c`. A residual simultaneous pair explanation would lift to
+one on the complete original support, so support-wise MCA-badness is
+preserved. Taking `C` to be the complete support intersection makes the
+residual intersection empty.
+
+The two governing differences are invariant:
+
+```text
+(n-c)-(K-c)=1048576,
+(m-c)-(K-c)=67472.
+```
+
+Hence the critical order remains exactly
+
+```text
+floor(2*1048576/67472)+1=32,
+```
+
+and `K-c>=4923`.
+
+The audit also identifies the exact nonuniformity that prevents a silent
+application of Grande Finale v4. On the residual common-support-free row,
+the slope-degree incidence floor is
+
+```text
+r_min(K')=ceil(32(K'+67472)/(K'+1048576)).
+```
+
+It is `3` at `K'=4923` and reaches the deployed value `18` only at
+`K'>=1044446`, equivalently when the canceled support has size at most
+`4130`. The punctured-domain classifier must therefore handle genuine
+degree `3..17` residuals or exploit the inherited rank-eleven pair
+structure. Reusing the deployed degree-18 statement would be invalid.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_ORDER32_COMMON_SUPPORT_CANCELLATION_PASS
+  Kmin=4923 order=32 toy=6 controls=7/7
+RATE_HALF_MCA_RANK11_ORDER32_COMMON_SUPPORT_CANCELLATION_AUDIT_PASS
+  Kmin=4923 toy=6 controls=5/5
+DAG_MANIFEST_PASS nodes=2444 edges=7260 bytes=5557874 mutations=3/3
+RUN_ALL_VERIFIERS total=2 failures=0
+```
+
+No Modal computation was used.
+
+```text
+start:                   277f52660
+DAG delta:               +1 PROVED cancellation node, +1 requirement edge,
+                         +1 evidence edge
+critical status delta:   none
+upstream terminal delta: common-support semantics and critical order closed;
+                         punctured-domain degree-3..17 classification exposed
+delta-star movement:     none
+compute:                 exact local arithmetic and GF(17) control only
+next route action:       attack the inherited low-slope-degree residual using
+                         the ten-dimensional pair-component span before
+                         attempting a fully puncture-uniform v4 theorem
+```
+# Cycle 307: MCA rank-11 dense-pair degree-18 seed (2026-08-14)
+
+Cycle 306 showed that arbitrary common-support cancellation leaves a genuine
+degree-`3..17` staircase. The new proved node
+`rate_half_mca_rank11_dense_pair_degree18_seed_compiler` removes that gap by
+changing the 32-record selection.
+
+The low-margin ledger gives
+
+```text
+|Z_lo| >= 190604046733790,
+number of pair types <= 869784434119.
+```
+
+Therefore one actual fixed minimizing pair owns at least
+
+```text
+ceil(190604046733790/869784434119)=220
+```
+
+distinct slopes. Select eighteen. Re-anchor the heavy-pair component basis
+at this dense pair. At most ten other basis pairs are needed. One record from
+each and a second record from as many as the fourteen remaining slots permit
+leaves at most six singly represented cores. Since each such record has at
+most `387` pair exceptions and the complete heavy core is at most `K-4923`,
+the selected common support obeys
+
+```text
+|C| <= (K-4923)+6*387 = K-2601.
+```
+
+A distinct heavy pair supplies one selected explanation outside the dense
+pair's affine codeword line. After cancellation, the eighteen dense-pair
+explanations still lie on one affine line in the slope. Any interpolation of
+degree at most `17` agreeing with that line at eighteen distinct slopes is
+the line identically, contradicting the off-line record. Hence the residual
+explanation and slope-error degrees are exactly in `18..31`.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_DENSE_PAIR_DEGREE18_SEED_PASS
+  owner=220 Kmin=2601 degree=18 singles=6 controls=7/7
+RATE_HALF_MCA_RANK11_DENSE_PAIR_DEGREE18_SEED_AUDIT_PASS
+  owner=220 core=1045975 degree=18 controls=5/5
+```
+
+No Modal computation was used.
+
+```text
+start:                   145356fe4
+DAG delta:               +1 PROVED degree-interface compiler,
+                         +2 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: punctured degree-3..17 gap eliminated for the
+                         selected unsafe rank-eleven seed
+delta-star movement:     none
+compute:                 exact local arithmetic and GF(257) control only
+next route action:       apply support-collapsed rational extraction at the
+                         shortened parameters and expose the exact
+                         rational/locator/high-complexity residual router
+```
+# Cycle 308: MCA rank-11 shortened partial-relative router (2026-08-14)
+
+Cycle 307 restores slope degree `18..31` on one selected unsafe rank-eleven
+seed. The new proved node
+`rate_half_mca_rank11_shortened_partial_relative_router` now sends that seed
+to the standard local Grande Finale interfaces without assuming that the
+deployed degree theorem is puncture-uniform.
+
+Maximalize the 32 explanations and cancel their complete common agreement
+set `C`. Non-affinity forces `|C|<K`, and the maximal-core adapter supplies
+actual noncontained witnesses through `C`. At shortened parameters
+
+```text
+K'=K-c,  m'=m-c,  d=m'-K'=67472,
+```
+
+the support-collapsed interpolation system has exactly
+
+```text
+(d+1)+2(m'+1)=3m'-K'+3
+```
+
+unknowns. Thus low two-cover complexity gives either a pure-locator
+certificate or a scalar-locator rational certificate of denominator degree
+at most `67472`; global affinity is excluded by the dense-pair off-line
+witness. Denominator roots remain explicit.
+
+The shortened certificate
+
+```text
+Q h_i' + c_i Lambda_i' = A' + gamma_i B'
+```
+
+lifts exactly to
+
+```text
+Q h_i + c_i Lambda_i
+  = (Q A_C+L_C A') + gamma_i (Q B_C+L_C B').
+```
+
+Both lifted coefficient polynomials have degree at most `m`. In the
+high-complexity branch, every common coordinate contributes exactly two, so
+
+```text
+chi = chi' + 2c >= 3m-K+3 = 2299571.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_PASS
+  chi=2299571 toy_degree=8 stairs=4 controls=6/6
+RATE_HALF_MCA_RANK11_SHORTENED_PARTIAL_RELATIVE_ROUTER_AUDIT_PASS
+  chi=2299571 toy_degree=8 controls=5/5
+```
+
+No Modal computation was used.
+
+```text
+start:                   22c2c5f6f
+DAG delta:               +1 PROVED local partial-relative router,
+                         +3 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: rank-eleven seed reaches lifted scalar-locator
+                         or official high-complexity interfaces
+delta-star movement:     none
+compute:                 exact local arithmetic and GF(17) control only
+next route action:       wire the scalar-locator branch to the pole-tolerant
+                         E packet and isolate the exact same-owner
+                         spread-abundance obligation for the other branch
+```
+# Cycle 309: MCA rank-11 line-global C/S/A/E router (2026-08-14)
+
+The new proved node `rate_half_mca_rank11_anchor_star_sae_router` globalizes
+the local order-32 interfaces after first resolving common support for the
+complete post-near family.
+
+Let `p_0=(a_0,b_0)` be the minimizing pair owning at least 220 slopes and set
+
+```text
+d_gamma = h_gamma - a_0 - gamma b_0.
+```
+
+The deviations span a nonzero space `V` of dimension `r` with `1<=r<=10`.
+The complete family has line-global maximal common support exactly
+
+```text
+H_0 intersect Z(V).
+```
+
+Apply the proved whole-line global-core router once. If this support is
+nonempty, the entire slope set enters one identity-fiber shortened residual
+`(C)`; no punctured-domain `S/A/E` theorem is invoked.
+
+In the zero-core branch, fix eighteen dense-pair records, actual records
+whose deviations form a basis of `V`, and `13-r` fillers. This gives 31
+records. Their maximal support intersection is empty because it is the
+complete line-global support above. For every other post-near record `z`, the
+tuple `A_* union {z}` has 32 records, is non-affine, and has slope degree
+`18..31`. It remains on the deployed domain and keeps the same original
+support locators. Thus every pair of target tuples shares the identical 31
+indexed explanation/support-locator triples.
+
+Outside named exceptions, collision rigidity makes all primitive root-free
+rational certificates projectively identical, producing one coherent atom
+owner `(A)`. A primitive high-complexity tuple gives `(S)`; pure locator,
+denominator root, extension, quotient, clone, field-drop, nonprimitive
+collision, or near-sunflower gives `(E)`.
+
+Hence the exact complete-family route is
+
+```text
+(C) one line-global identity-fiber shortened residual
+or (S) primitive spread
+or (A) coherent rational owner
+or (E) named exception.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_PASS
+  basis=10 anchor=31 g31=1083345 toyQ=1 controls=7/7
+RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_AUDIT_PASS
+  basis=10 g31=1083345 routes=4 controls=5/5
+```
+
+No Modal computation was used. The canonical Fable tree remained clean at
+`659319780`; its earlier whole-line global-core audit confirms that `(C)` is
+an unpaid shortened-family residual.
+
+```text
+start:                   2444ce8d6
+DAG delta:               +1 PROVED anchor-star globalization router,
+                         +5 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: rank-eleven-specific selector/coherence closed
+                         outside one line-global shortened residual
+delta-star movement:     none
+compute:                 exact local arithmetic and GF(17) control only
+next route action:       attack the line-global shortened residual first;
+                         S/A/E remain the shared upstream terminals
+```
+# Cycle 310: MCA rank-11 global-core rank-drop router (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router` resolves
+most of Cycle 309's line-global `(C)` output.
+
+After exact global-core cancellation, the dense minimizing pair descends and
+the deviation space keeps its dimension `r`. The shortened row has
+
+```text
+(n',K',m')=(R+K',K',d+K'),
+(R,d)=(1048576,67472).
+```
+
+For `r<=8`, every variable transversality endpoint has a one-turn successive
+ratio in `K'`, so its maximum occurs at `K'=r` or the deployed `K`. The
+largest result, including the disjoint near charge, is
+
+```text
+110390969172308040 < 274980728111395087.
+```
+
+For `r=9`, the `T=667` margin/interleaving terms are constant in `K'` except
+for the same endpoint-controlled high term. The deployed endpoint is worst:
+
+```text
+high  = 5143522968716559
+low   = 56727790457914040
+near  = 134944
+total = 61871313426765543 < B_*.
+```
+
+Only `r=10` survives. On the shortened domain, eighteen dense-pair records,
+ten deviation-basis records, and three fillers give one fixed 31-anchor deck
+with empty maximal intersection. Every target tuple has slope degree
+`18..31`. If one is high-complexity it becomes the explicit relative label
+`(H_C)`. Otherwise the scalar-locator certificates lift and cohere into one
+root-free rational atom `(A)`, or a pure-locator, denominator-root, or
+collision/near-sunflower exception `(E)`.
+
+The lift identities are exact:
+
+```text
+chi=chi'+2c,
+3m'-K'+3+2c=3m-K+3=2299571,
+g31'=g31-c.
+```
+
+`(H_C)` is not promoted to deployed first-match `(S)`, because its original
+supports retain the nonempty line-global factor. This is now the only
+rank-eleven-specific common-core obstruction.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_GLOBAL_CORE_RANKDROP_HIGHCOMPLEXITY_ROUTER_PASS
+  r8=110390969172308040 r9=61871313426765543 core=12345 controls=7/7
+RATE_HALF_MCA_RANK11_GLOBAL_CORE_RANKDROP_HIGHCOMPLEXITY_ROUTER_AUDIT_PASS
+  g31prime=1071000 routes=4 controls=5/5
+```
+
+No Modal computation was used. The canonical Fable tree remained clean at
+`659319780`. Upstream's newest relevant open stack remains PRs `#1163` to
+`#1168`; none pays or isolates this relative high-complexity branch.
+
+```text
+start:                   d6d72ac65
+DAG delta:               +1 PROVED rank-drop/high-complexity router,
+                         +5 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: C reduced to paid rank drop or H_C/A/E
+delta-star movement:     none
+compute:                 exact local endpoint arithmetic only
+next route action:       pay or transport H_C without treating it as S;
+                         A/E remain shared upstream terminals
+```
+# Cycle 311: MCA rank-11 relative core/ray payment (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_relative_core_interpolant_ray_payment` transfers the
+first two spread-residual rungs to Cycle 310's arbitrary shortened row.
+
+For the fixed `(H_C)` tuple, every coordinate error polynomial has slope
+degree at most 31 and is nonzero because the residual maximal supports have
+empty common intersection. Therefore
+
+```text
+core-interpolant slopes <= floor(31n'/m') <= 481,
+extra slopes after the 32 anchors <=449.
+```
+
+For one fixed nonzero correction direction, clone classes of size at least
+`K'` are global affine codeword graphs. Charging their number by the coarse
+uniform bound `n'` costs `n'(n'-m'+1)`. After removing them, every rich
+support contains a heterogeneous coordinate pair, and each pair supports at
+most 31 correction parameters. Hence
+
+```text
+one ray <= n'(n'-m'+1)+31*C(n',2)
+        <= 70227214729216,
+core plus ray = 70227214729697 < B_*.
+```
+
+This avoids the deployed proof's nonportable `n=2K` assertions about two
+large clone classes and a two-part support partition. It uses only RS
+injectivity, root capacity, `n'<=n`, and invariant `n'-m'=R-d`.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RELATIVE_CORE_INTERPOLANT_RAY_PAYMENT_PASS
+  core=481 ray=70227214729216 slack=274910500896665390 controls=6/6
+RATE_HALF_MCA_RANK11_RELATIVE_CORE_INTERPOLANT_RAY_PAYMENT_AUDIT_PASS
+  total=70227214729697 controls=5/5
+```
+
+The verifier caught and repaired an `819200` transcription offset in each of
+the two summands; their accidentally unchanged total was never accepted as
+sufficient evidence. No Modal computation was used.
+
+```text
+start:                   69de25652
+DAG delta:               +1 PROVED relative core/ray payment,
+                         +1 requirement edge, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: H_C cannot live on its interpolant plus one ray
+delta-star movement:     none
+compute:                 constant-size exact local arithmetic only
+next route action:       transfer proper-intersection and clone-tolerant
+                         correction-space bounds to the shortened row
+```
+# Cycle 312: MCA rank-11 relative correction spaces (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_relative_correction_space_router` transfers the next
+two spread-residual compilers to arbitrary global-core shortening.
+
+For a correction span `W` of dimension `s`, every coordinate equation has
+bidegree at most `(31,1)` on `P^1 x P^s`. Proper intersection and incidence
+double counting give
+
+```text
+N_W <= floor(31(s+1) C(n',s+1)/C(m',s+1)).
+```
+
+For fixed `s`, every factor `(R+K'-i)/(d+K'-i)` decreases with `K'`. The
+worst admissible row is therefore `K'=max(10,s)`. Exact evaluation gives
+
+```text
+s=11:  73766883380602812 < B_*,
+s=12: 1241731241521316220 > B_*.
+```
+
+Thus proper spaces are uniformly paid through dimension 11. A nonproper
+`s+1`-tuple is not left untyped: evaluation rank below `s` gives a rank-flat,
+while rank `s` gives an exact polynomial correction curve on which the extra
+coordinate equations vanish identically.
+
+For `V=span(W,H_2,...,H_31)` with minimum support `R+a`, generalized-weight
+basis counting gives, whenever `W` does not absorb the high core,
+
+```text
+N_W <= floor(M_a n'_fall_s/(d+a)_rise_s),
+M_a=floor(31(R+a)/(d+a)).
+```
+
+The worst endpoint is the deployed `n` and `a=1`. It pays through dimension
+9 with cap `13013823503882165`; the adjacent dimension-10 value
+`404431535289439486` is a method wall.
+
+The exact residual is now:
+
+```text
+dimension >=12,
+or a positive-dimensional rank-flat / polynomial clone component;
+dimension <=9 survivors must absorb the high core.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RELATIVE_CORRECTION_SPACE_ROUTER_PASS
+  proper11=73766883380602812 proper12=1241731241521316220
+  clone9=13013823503882165 controls=6/6
+RATE_HALF_MCA_RANK11_RELATIVE_CORRECTION_SPACE_ROUTER_AUDIT_PASS
+  proper11=73766883380602812 clone9=13013823503882165 controls=5/5
+```
+
+A written cross-multiplication around the floored clone multiplier was
+repaired during proof review: the valid step is
+`N(B)<=floor(real quotient)<=M_a`. No Modal computation was used.
+
+```text
+start:                   a0f0adc4d
+DAG delta:               +1 PROVED correction-space router,
+                         +2 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: H_C reduced to dimension>=12 or typed components
+delta-star movement:     none
+compute:                 twelve exact local endpoint evaluations
+next route action:       classify positive-dimensional relative components
+                         or prove an aggregate high-dimensional census
+```
+# Cycle 313: MCA rank-11 correction ten-flat collapse (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_relative_correction_tenflat_collapse` removes Cycle
+312's generic dimension-at-least-12 branch.
+
+Every residual explanation has the form
+
+```text
+h_gamma'=a_0'+gamma b_0'+d_gamma',
+d_gamma' in V',       dim V'=10.
+```
+
+The fixed core interpolant satisfies
+
+```text
+D_H(X,Z)=H(X,Z)-a_0'(X)-Zb_0'(X),
+```
+
+and every coefficient of `D_H` is a linear combination of the 32 anchor
+deviations. Hence `D_H` is coefficientwise `V'`-valued. For every selected
+slope,
+
+```text
+P_gamma=h_gamma'-H(X,gamma)=d_gamma'-D_H(X,gamma) in V'.
+```
+
+Thus the complete correction span `W` has dimension at most 10. Dimension
+zero is core-compatible and dimension one is one projective ray, so the
+previous payment forces `dim W>=2` in an unsafe family. Proper spaces are
+paid through dimension 11, hence every survivor is a positive-dimensional
+rank-flat or polynomial clone component.
+
+Every survivor also absorbs the high coefficients `H_j`, `j>=2`:
+
+- for `dim W<=9`, this is the clone-tolerant contrapositive;
+- for `dim W=10`, the inclusion `W<=V'` is equality.
+
+The exact live shape is therefore
+
+```text
+2 <= dim W <= 10,
+positive-dimensional rank-flat or polynomial clone,
+all high slope coefficients contained in W.
+```
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RELATIVE_CORRECTION_TENFLAT_COLLAPSE_PASS
+  dimension=2..10 routes=2 controls=6/6
+RATE_HALF_MCA_RANK11_RELATIVE_CORRECTION_TENFLAT_COLLAPSE_AUDIT_PASS
+  dimension=2..10 routes=2 controls=5/5
+```
+
+No numerical experiment or Modal computation was used.
+
+```text
+start:                   ab6aeb87d
+DAG delta:               +1 PROVED ten-flat collapse,
+                         +3 requirement edges, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: H_C has one typed component residual only
+delta-star movement:     none
+compute:                 finite-dimensional exact linear algebra only
+next route action:       classify high-core-absorbing rank-flat/clone
+                         components in dimensions 2..10
+```
+# Cycle 314: MCA rank-11 absorbing clone collapse (2026-08-14)
+
+The new PROVED node
+`rate_half_mca_rank11_relative_absorbing_clone_affine_collapse` classifies
+the full-evaluation-rank half of Cycle 313's component residual.
+
+Let `B` be an evaluation basis of the absorbing correction space `W`. The
+polynomial clone curve has coefficients `P_(B,j) in W`. On `B`, the degree
+`j>=2` coefficient equation is
+
+```text
+H_j+P_(B,j)=0.
+```
+
+Both terms lie in `W`, and evaluation on `B` is injective. Therefore
+
+```text
+P_(B,j)=-H_j
+```
+
+as codewords, for every `j>=2`. All high coefficients cancel globally and
+the clone curve is one affine codeword owner line `A+ZB`. Residual
+support-wise badness then gives
+
+```text
+one component <= n'-m'+1=R-d+1=981105 slopes.
+```
+
+This deletes genuinely nonlinear absorbing clone components. It does not
+sum multiple affine owners: the live residual is evaluation rank-flats plus
+owner chronology/compatibility.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RELATIVE_ABSORBING_CLONE_AFFINE_COLLAPSE_PASS
+  owner_cap=981105 routes=2 controls=5/5
+RATE_HALF_MCA_RANK11_RELATIVE_ABSORBING_CLONE_AFFINE_COLLAPSE_AUDIT_PASS
+  owner_cap=981105 routes=2 controls=4/4
+```
+
+No numerical experiment or Modal computation was used.
+
+```text
+start:                   c64327c16
+DAG delta:               +1 PROVED clone-to-affine collapse,
+                         +1 requirement edge, +1 evidence edge
+critical status delta:   none
+upstream terminal delta: nonlinear H_C clones deleted
+delta-star movement:     none
+compute:                 exact coefficientwise linear algebra only
+next route action:       attack evaluation rank-flats and compatibility
+                         across the resulting affine owners
+```

@@ -1,0 +1,33 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_order32_common_support_cancellation",
+    "title": "Rank-eleven order-32 common-support cancellation",
+    "status": "PROVED",
+    "closure": "exact support-wise shortening adapter preserving the critical order",
+    "statement": "Let the 32 actual records emitted by the rank-eleven heavy-pair seed compiler have exact common support C of size c<K-4922. Interpolate the two received columns on C, subtract that codeword line, divide every explanation difference by the locator of C, and puncture C. This gives 32 support-wise MCA-bad records with the same slopes and chronology in RS[F,D\\C,K-c] at agreement m-c; their exact supports have empty common intersection. Both n-K=1048576 and m-K=67472 are unchanged, K-c>=4923, and the critical order remains floor(2(n-K)/(m-K))+1=32. The residual slope-degree floor ranges from 3 to 18 and reaches 18 only when K-c>=1044446, equivalently c<=4130. The deployed partial-relative theorem is not automatically puncture-uniform, so classification/payment of this output remains open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/statement.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/proof.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/audit.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/result.md",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify.py",
+      "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

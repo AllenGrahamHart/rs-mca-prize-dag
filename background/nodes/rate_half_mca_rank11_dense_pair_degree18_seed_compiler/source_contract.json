@@ -1,0 +1,50 @@
+{
+  "schema": "rate-half-mca-rank11-dense-pair-degree18-seed-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+    "rate_half_mca_rank11_order32_common_support_cancellation"
+  ],
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "theta_maximum": 387,
+    "low_record_minimum": 190604046733790,
+    "pair_type_maximum": 869784434119,
+    "dense_pair_owner_minimum": 220,
+    "fixed_pair_record_maximum": 981105,
+    "dense_records_selected": 18,
+    "seed_size": 32,
+    "other_slot_budget": 14,
+    "other_basis_pair_maximum": 10,
+    "singly_represented_pair_maximum": 6,
+    "heavy_core_intersection_maximum": 1043653,
+    "selected_common_support_maximum": 1045975,
+    "residual_dimension_minimum": 2601,
+    "slope_degree_minimum": 18,
+    "slope_degree_maximum": 31,
+    "critical_order": 32
+  },
+  "selection_schedule": [
+    {"basis_pairs": 1, "doubled_pairs": 1, "single_pairs": 0, "used": 20},
+    {"basis_pairs": 2, "doubled_pairs": 2, "single_pairs": 0, "used": 22},
+    {"basis_pairs": 3, "doubled_pairs": 3, "single_pairs": 0, "used": 24},
+    {"basis_pairs": 4, "doubled_pairs": 4, "single_pairs": 0, "used": 26},
+    {"basis_pairs": 5, "doubled_pairs": 5, "single_pairs": 0, "used": 28},
+    {"basis_pairs": 6, "doubled_pairs": 6, "single_pairs": 0, "used": 30},
+    {"basis_pairs": 7, "doubled_pairs": 7, "single_pairs": 0, "used": 32},
+    {"basis_pairs": 8, "doubled_pairs": 6, "single_pairs": 2, "used": 32},
+    {"basis_pairs": 9, "doubled_pairs": 5, "single_pairs": 4, "used": 32},
+    {"basis_pairs": 10, "doubled_pairs": 4, "single_pairs": 6, "used": 32}
+  ],
+  "toy": {
+    "field": 257,
+    "slopes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+    "dense_slopes": 18,
+    "line_constant": 7,
+    "line_direction": 11,
+    "degree18_coefficient": 3,
+    "expected_degree": 18
+  },
+  "nonclaim": "This tuple compiler does not pay any residual classification branch or the complete received line."
+}

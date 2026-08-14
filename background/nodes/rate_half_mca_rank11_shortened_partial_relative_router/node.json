@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_shortened_partial_relative_router",
+    "title": "Rank-eleven shortened seed reaches the partial-relative interfaces",
+    "status": "PROVED",
+    "closure": "maximal-core cancellation, support-collapsed extraction, and exact certificate/complexity lift",
+    "statement": "For the non-affine degree-18 order-32 seed forced on every unsafe deployed KoalaBear post-near error-rank-eleven line, maximalize supports and cancel their complete common agreement set C, whose size is below K. The residual actual MCA witnesses have empty maximal common agreement and slope degree 18..31. Support-collapsed interpolation then gives either a pure-locator certificate, a scalar-locator rational certificate of denominator degree at most 67472 (denominator roots retained), or residual two-cover complexity at least 3(m-c)-(K-c)+3. Every certificate lifts exactly to the original monic support locators with the same denominator and affine scalars; the complexity branch gains exactly 2c and therefore gives the official threshold chi>=2299571. No branch payment or whole-line owner is claimed.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/result.md",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler"},
+    {"from": "rate_half_kb_common_core_shortening_adapter_staircase_import"},
+    {"from": "rate_half_mca_order32_partial_relative_harvest"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

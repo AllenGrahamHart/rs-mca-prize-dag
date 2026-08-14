@@ -32515,6 +32515,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality",
+   "title": "A=1 shape-A all-excess domain-map birationality",
+   "status": "PROVED",
+   "closure": "every nontrivial minimal tensor presentation has a birational domain coefficient map",
+   "statement": "Retain an official Shape-A all-excess survivor and any minimal tensor presentation G(t,X)=sum_(j=0)^(r-1) A_j(t)B_j(X) with r>=2. The domain coefficient map b:P^1->P^(r-1) is basepoint-free. Let d_X be its degree onto the image; then d_X divides n. Every U_0 point is unramified in its normalization fiber. The scheme-theoretic part of such a fiber outside U_0 roots all m incident Gamma fibers; each unit of outside fiber degree therefore consumes at least m from the residual homogeneous norm divisor. That divisor has exact degree 3en-Rm=2e-7=2m-3, so the total outside fiber degree across all fibers meeting U_0 is at most one. Consequently d_X divides either R or R+1. Officially R=3n+7, n is odd, gcd(n,R)=gcd(n,7)=1, and gcd(n,R+1)=gcd(n,8)=1. Thus d_X=1: the domain coefficient map in every nontrivial minimal tensor presentation is birational onto its projective image.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality",
    "title": "A=1 shape-A all-excess parameter-map birationality",
    "status": "PROVED",
@@ -32550,6 +32568,78 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_audit.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/verify_probe.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_mds_gate/probe_results.md"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "title": "A=1 shape-A center-fiber coprimality and Pade quotient",
+   "status": "PROVED",
+   "closure": "every center locator is coprime to its split-biform fiber, with an exact center-specialized Pade factorization",
+   "statement": "For all three assigned centers, gcd_X(Qbar(gamma,X),G(gamma,X))=1. The classified roots follow from the off-line-only split rows, while the large padded root x_* is excluded by the correction-supported residual four-cycle. Hence G(gamma_0,x_*) and the exact cubic residual T_3(gamma_0) are nonzero. Specializing the Pade syzygy gives B_src(gamma,X)=L_Mgamma(X)C_gamma(X) and P_F(gamma,X)=chi_gamma R_gamma(X)C_gamma(X), where R_gamma=1 on a small class and R_(gamma_0)=X-x_* on the large class.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "title": "A=1 shape-A center-fiber defect and large-class dichotomy",
+   "status": "PROVED",
+   "closure": "the two small-class defects are the actual center fibers, while the large class has an exact rank/factorization dichotomy",
+   "statement": "For every live Shape-A rank, every restricted-Koszul coordinate image is the center-vanishing hyperplane V_gamma. Each small-class interpolation map is onto that hyperplane, so its unique coefficient defect is exactly G(gamma,X). The large-class interpolation map has rank r-1 or r-2. In the latter case G(gamma_0,X)=(X-x_*)B_0(X) for a nonzero B_0 in W_X of degree at most n-1, and the exact cubic heavy-row residual is divisible by ell_(gamma_0), leaving a quadratic quotient.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "title": "A=1 shape-A center residue-pairing common-kernel router",
+   "status": "PROVED",
+   "closure": "the three interpolation maps are restrictions of explicit corank-one residue forms, with exact combined rank deficit kappa",
+   "statement": "For each center gamma, beta_gamma(f,h)=sum over M_gamma of R_gamma(x)f(x)h(x)/(G(gamma,x)L_Mgamma'(x)) is a rank-n symmetric form on S_n with radical span{G(gamma,X)}. The classwise locator-interpolation map is its restriction to W_X. Hence if kappa is the dimension of the intersection of the three restricted orthogonal complements, rank T=n+1-kappa and r>=ceil((5e-3-2kappa)/6). At r=(e+1)/2, Shape A requires kappa>=e-3.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting",
+   "title": "A=1 shape-A coefficient syzygy-bundle cubic splitting",
+   "status": "PROVED",
+   "closure": "the coefficient linear series has only degree-one, -two, and -three minimal syzygies",
+   "statement": "Let V be the r-dimensional basepoint-free parameter coefficient space of the Shape-A biform, of degree m=e-2. Its evaluation bundle kernel E on P1 splits geometrically as a sum of O(-mu_i). The three-class identity S_2 V=S_(m+2) makes H^1(E(2)) vanish, so every mu_i is in {1,2,3}. If c_j counts degree-j summands, then c_1+c_2+c_3=r-1, c_1+2c_2+3c_3=m, and 2c_1+c_2=3r-(e+1). The inverse prolongation J has dimension c_1. At the earlier three-source-class rank bound 61083979322, exactly two conditional profiles occur: (1,0,61083979320) and (0,2,61083979319); the locator-interpolation rank amplification subsequently excludes that boundary. A nonzero common source-Gram matrix forces c_1>0, and generally c_1>=max(0,2r-(n+2)).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting/verify_audit.py"
    ]
   },
   {
@@ -32589,6 +32679,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
+   "title": "A=1 shape-A global source-multiplier common-kernel normal form",
+   "status": "PROVED",
+   "closure": "the common kernel is one three-multiplier Pade intersection in the full source residue algebra",
+   "statement": "Writing B_src(z,X)=J(X)z+K(X) and varphi=-K/J in A=F[X]/(L_U0), J is a unit on U0 and varphi labels the three source classes. The space E3=W_X+varphi W_X+varphi^2W_X is a direct sum of dimension 3r, and the common interpolation kernel is exactly S_n intersect J E3^perp for the standard residue pairing. At the lower rank boundary dim E3=n+5 while a survivor requires intersection dimension at least e-3.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor",
    "title": "A=1 collision shape-A global subgroup genus floor",
    "status": "PROVED",
@@ -32605,6 +32713,60 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor/source.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "title": "A=1 shape-A large-class center-residual exclusion",
+   "status": "PROVED",
+   "closure": "the large-class rank-r-2 branch is impossible, so all three interpolation defects are exactly the center fibers",
+   "statement": "The large-class locator-interpolation map has exact rank r-1. If it had rank r-2, its second dual-RS defect would force G(gamma_0,X)=(X-x_*)B_0(X), creating a common point (gamma_0,x_*) of Qbar and G outside the mandatory off-line intersection divisor. That point would survive in the residual four-cycle, contradicting its exact pushforward div(E_4)=2div(S_B), supported only at the off-center collision tau. Hence every one of the three class maps is onto V_gamma and has sole coefficient defect G(gamma,X).",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect",
+   "title": "A=1 shape-A live linear/quadratic syzygy and small-class defect",
+   "status": "PROVED",
+   "closure": "every live syzygy bundle has only degrees one and two, and each small source class forces one exact barycentric defect form",
+   "statement": "For every live Shape-A rank (e+1)/2<=r<=e-1, the syzygy-bundle counts are uniquely c_1=2r-e, c_2=e-r-1, c_3=0, so E=O(-1)^(2r-e) direct_sum O(-2)^(e-r-1) and S_1V=S_(e-1). This follows because the inverse prolongation J injects into the kernel of a small-class coordinate projection of the restricted Koszul kernel, while locator interpolation makes that projection have rank at least r-1. Equality also forces each small-class interpolation map to have exact rank r-1. Its unique left-kernel form B_gamma in the common domain coefficient space obeys B_gamma(x)=kappa_gamma eta_x L_U0'(x)^2/L_Mgamma'(x)=kappa_gamma eta_x L_Mgamma'(x)L_rest,gamma(x)^2 at every x in M_gamma, and is nonzero there.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "title": "A=1 shape-A locator-interpolation syzygy rank amplification",
+   "status": "PROVED",
+   "closure": "every Shape-A split biform has separation rank at least (e+1)/2",
+   "statement": "For every h of X-degree at most n=R-(3e-2)-2, dual-RS interpolation of the primitive locator gives a triple (T_alpha(h),T_beta(h),T_theta(h)) in the restricted Koszul kernel of V^3->S_e. On either source class of size n+2, the projected map has matrix E_B^T D E_n with ranks r and n+1 and invertible diagonal D, so Sylvester gives projection rank at least r-1. Since the Koszul kernel has dimension 3r-(e+1), one gets 3r-(e+1)>=r-1 and hence r>=(e+1)/2=91625968982 officially. At equality the Koszul kernel has dimension r. Thus the former one-third boundary and its two syzygy profiles are excluded.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification/verify_audit.py"
    ]
   },
   {
@@ -32659,6 +32821,60 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality",
+   "title": "A=1 shape-A padded-center Pade transversality",
+   "status": "PROVED",
+   "closure": "the unique padded center is the sole simple center contact of the locator and Pade numerator",
+   "statement": "At the large-class center gamma_0, Qbar=chi_0(X-x_*)L_rest and P_F=chi_0(X-x_*)C_0 have their unique common point at x_*, with local intersection multiplicity one. Indeed the formal resultant is c a^(2d+1)D_1, the leading coefficient is a unit, and D_1=g_*S_B^2 has a simple root at gamma_0. Hence C_0(x_*) and B_src(gamma_0,x_*) are nonzero. At either small center, Qbar and P_F are coprime.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence",
+   "title": "A=1 shape-A Pade-parity quotient route fence",
+   "status": "PROVED",
+   "closure": "the common-kernel floor is the mandatory locator-parity block plus one exact excess intersection",
+   "statement": "Let U_Q be the e+1 dimensional coefficient space of the primitive locator Qbar and d=R-n-2. The global Pade identity gives J U_Q inside E3, while split-RS residue duality gives S_n^perp=S_d. Therefore the right radical of the common-kernel pairing is E3 intersect J S_d. Writing xi=dim(E3 intersect J S_d)-(e+1), one has rank T=dim ker Phi-xi and kappa=n+e+2-3r+xi. At the lower boundary kappa=e-3+xi, so the e-3 floor is automatic and a dimension-only common-kernel continuation is fenced.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "title": "A=1 shape-A primitive source-pencil three-center fibers",
+   "status": "PROVED",
+   "closure": "the parameter-linear source numerator defines a primitive domain map with three exact center fibers",
+   "statement": "Let H be the homogeneous gcd of the two parameter coefficients of B_src and h=deg H. Then B_src/H is a basepoint-free pencil inducing a degree D=R-1-h morphism phi:P^1_X->P^1_t, with H coprime to L_U0 and nonzero at x_*. Its center fibers are L_Mgamma Cbar_gamma. Their residual degrees are d-1-h,d-1-h,d-2-h; the residuals are pairwise coprime, and their locator products obey the unique nondegenerate three-term relation induced by evaluation of parameter-linear forms at the three centers. On U_0 the three fibers are exactly the three source classes, and phi(x_*) is not the large center.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers/verify_audit.py"
    ]
   },
   {
@@ -32752,6 +32968,24 @@
    ]
   },
   {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+   "title": "A=1 shape-A rank-three weighted incidence/genus router",
+   "status": "PROVED",
+   "closure": "rank three reduces to a weighted C4-free incidence graph with two exact plane-genus budgets",
+   "statement": "Every official tensor-rank-three Shape-A survivor gives two birational rational plane coefficient curves of degrees m=e-2 and n=(3e-7)/2. Grouping the 3e parameter branches and R=3n+7 domain branches by equal coefficient image produces a weighted C4-free bipartite graph. Every domain vertex has parameter-weighted degree m; every parameter vertex has domain-weighted degree n-w_P; and sum_P s_P w_P=2e-7. Plane delta-genus gives sum_P binom(s_P,2)<=binom(m-1,2) and sum_Q binom(l_Q,2)<=binom(n-1,2). Hence both sides have at least ten image vertices, every domain vertex has at least two neighbours, and at least e+7 parameter branch weight occupies at least two zero-deficit vertices, each with at least two neighbours.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion",
    "title": "A=1 shape-A tensor-rank-two biform exclusion",
    "status": "PROVED",
@@ -32767,6 +33001,42 @@
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/provenance.md",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/verify.py",
     "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "title": "A=1 shape-A three-class Koszul/Gram router",
+   "status": "PROVED",
+   "closure": "exact three-quadratic generation and proportional classwise source Gram matrices",
+   "statement": "Let V be the parameter coefficient space of the Shape-A split biform G and r=dim V. Each of the three source classes has n+2 or n+3 domain points, so each class alone spans V. If q_alpha=ell_beta ell_theta and cyclically, then P_e=q_alpha V+q_beta V+q_theta V and the restricted Koszul map V^3->P_e is surjective with kernel dimension 3r-(e+1). For J={h:ell_alpha h,ell_beta h,ell_theta h in V}, the triple shifted intersection is ell_alpha ell_beta ell_theta J and 2dim J<=3r-(e+1). The two endpoint source-frame cancellations make the three classwise weighted locator Gram matrices proportional to one symmetric K, with im K in the triple intersection and max(0,2r-(n+2))<=rank K<=dim J. At the earlier one-third rank bound the Koszul kernel has dimension two; the later locator-interpolation theorem raises the live floor to 91625968982. The common Gram matrix is forced nonzero once r>=137438953472.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
+   "title": "A=1 shape-A three-source-class rank amplification",
+   "status": "PROVED",
+   "closure": "every Shape-A split biform has separation rank at least ceil((e+1)/3)",
+   "statement": "On Shape A, d_A=1 partitions U_0 into the three source-root classes M_alpha,M_beta,M_theta. The first-degree marked-source frame gives sr(Qbar)=e+1 for the same primitive locator used by the quadratic branch. The dual-MDS identity H_x=omega_x Qbar(t,x)/Lambda_A=G(t,x)/L_U0'(x), with omega_x proportional to ell_gamma on M_gamma, shows that every evaluated locator row lies in one of three fixed quadratic multiples of the span of the evaluated G rows. Evaluation on U_0 preserves both ranks because |U_0| exceeds both X-degree bounds. Hence e+1<=3sr(G), so officially sr(G)>=ceil((e+1)/3)=61083979322.",
+   "refs": [
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/statement.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/proof.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/claim_contract.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/dependency_subdag.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/audit.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/result.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/provenance.md",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/verify.py",
+    "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification/verify_audit.py"
    ]
   },
   {
@@ -39758,6 +40028,132 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_anchor_star_sae_router",
+   "title": "Rank-eleven fixed 31-anchor star routes to C/S/A/E",
+   "status": "PROVED",
+   "closure": "one line-global core decision, deviation-basis anchor deck, order-32 star coverage, and 31-overlap certificate coherence",
+   "statement": "For every unsafe deployed KoalaBear post-near error-rank-eleven line, intersect the maximal supports of the complete selected family once. Non-affinity forces this global core below K. If it is nonempty, the whole family enters one identity-fiber shortened residual C. If it is empty, choose eighteen records on the dense minimizing pair and 1..10 actual records whose deviations from that pair line form a basis; fillers give 31 fixed anchors whose maximal supports have empty intersection. Adjoining any other record gives a deployed-domain non-affine order-32 tuple of slope degree 18..31. All tuples share identical explanations and support locators, so collision rigidity makes primitive root-free rational certificates projectively identical and any failure a named exception. Thus the zero-core family routes to primitive spread S, one coherent rational atom owner A, or exception routing E. The disjoint near charge is 134944. No C/S/A/E payment is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/result.md",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "title": "Rank-eleven dense pair cores need not coalesce",
+   "status": "PROVED",
+   "closure": "explicit deployed-parameter multi-owner construction; local uniqueness route fence",
+   "statement": "On the deployed KoalaBear row and sextic line field there is one received line with twelve distinct selected pair types. Each pair has an exact deficiency-one componentwise core and owns exactly 238825 globally slope-distinct, exact-size-m, support-wise MCA-bad, post-near records with support-local margin one. The 2865900 records have explanation affine rank exactly ten and error rank exactly eleven. Thus the rank-eleven dense-pair terminal imported from PR #1168, including delta<=4 and at least 200632 records, does not by itself imply a unique pair owner, a global affine owner, or coalescence of heavy pair groups. This is a route fence only: the construction is far below B_* and leaves aggregate payment and chronology-correct S/A/E routing open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "title": "Rank-eleven dense pair restores the degree-18 order-32 interface",
+   "status": "PROVED",
+   "closure": "exact dense-owner pigeonhole, support-core selection, and slope-interpolation pin",
+   "statement": "Every unsafe deployed KoalaBear post-near error-rank-eleven line contains 32 distinct actual theta<=387 records such that eighteen are owned by one fixed minimizing pair, at least one selected explanation lies outside that pair's affine codeword line, and the exact selected support intersection has size at most K-2601. After exact common-support cancellation, the residual explanations are non-global-affine and their coefficientwise slope interpolation, equivalently their slope-error polynomial, has degree 18..31. Thus the degree-3..17 staircase possible for arbitrary puncturing cannot occur on this deliberately selected unsafe seed. No residual rational, locator, spread, owner, or whole-line payment is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "title": "Rank-eleven global-core rank-drop and high-complexity router",
+   "status": "PROVED",
+   "closure": "uniform payment of every descended deviation rank at most nine and fixed-anchor isolation of the full-rank relative high-complexity core",
+   "statement": "In the nonempty line-global common-core branch, exact cancellation preserves the dense pair and deviation dimension r. Every r<=8 residual is paid uniformly by support-local transversality, and r=9 is paid uniformly by the T=667 margin/interleaving split. If r=10, eighteen dense records, a ten-record deviation basis, and three fillers form a fixed residual 31-anchor deck with empty maximal intersection. Every target tuple has degree 18..31 and either yields one relative high-complexity core H_C, or all low-complexity rational certificates cohere after lift into A, with pure-locator, denominator-root, and collision failures routed to E. H_C is not promoted to the deployed first-match spread terminal S.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/result.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "title": "Rank-eleven heavy pairs compile to a small-core order-32 seed",
+   "status": "PROVED",
+   "closure": "actual-record cross-pair compiler with exact singleton and shared-core charges",
+   "statement": "Every over-budget deployed KoalaBear post-near error-rank-eleven line contains 32 distinct actual records of support-local margin at most 387 whose exact selected supports have common intersection smaller than K-4922. The proof charges singleton minimizing-pair owners by Q_10(387)=869784434119. If the remaining heavy pairs shared K-4922 coordinates, shortening and fixed-pair multiplicity would cap the complete line at 274791086998147432<B_*. Otherwise all heavy-pair component differences lie in the same ten-dimensional explanation direction code, so one anchor and at most ten further heavy pairs recover the complete heavy core; two owned slopes per selected pair force at most 22 supports into that core, and distinct low-margin records pad to order 32. The output preserves line, slope, explanation, support, minimizing pair, and chronology but is not yet classified or paid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/statement.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/proof.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/audit.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/result.md",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify.py",
+    "background/nodes/rate_half_mca_rank11_heavy_pair_order32_seed_compiler/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "title": "Rank-eleven large shared pair-core payment",
+   "status": "PROVED",
+   "closure": "exact conditional branch payment through common-core codimension 4922",
+   "statement": "For the deployed KoalaBear post-near error-rank-eleven family, fix the actual minimizing pair of every record with support-local margin at most 387. If all distinct such pairs agree componentwise with the received pair on one common set of at least K-4922 coordinates, then shortening gives residual GRS dimension at most 4922. The exact Johnson endpoint and sub-square-root interleaving collapse cap the pair types at 94943; fixed-pair multiplicity caps the low records at 93149052015. Adding the proved high-margin cap and disjoint 2w near charge gives 274790217213713313, below B_* by 190510897681774. The remaining rank-eleven route may assume common pair-core intersection below K-4922.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_order32_common_support_cancellation",
+   "title": "Rank-eleven order-32 common-support cancellation",
+   "status": "PROVED",
+   "closure": "exact support-wise shortening adapter preserving the critical order",
+   "statement": "Let the 32 actual records emitted by the rank-eleven heavy-pair seed compiler have exact common support C of size c<K-4922. Interpolate the two received columns on C, subtract that codeword line, divide every explanation difference by the locator of C, and puncture C. This gives 32 support-wise MCA-bad records with the same slopes and chronology in RS[F,D\\C,K-c] at agreement m-c; their exact supports have empty common intersection. Both n-K=1048576 and m-K=67472 are unchanged, K-c>=4923, and the critical order remains floor(2(n-K)/(m-K))+1=32. The residual slope-degree floor ranges from 3 to 18 and reaches 18 only when K-c>=1044446, equivalently c<=4130. The deployed partial-relative theorem is not automatically puncture-uniform, so classification/payment of this output remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/statement.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/proof.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/audit.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/result.md",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify.py",
+    "background/nodes/rate_half_mca_rank11_order32_common_support_cancellation/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_pair_core_route_cut_import",
    "title": "Rank-eleven pair-core route cut: the exact wall above the paid strata",
    "status": "PROVED",
@@ -39772,6 +40168,96 @@
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/provenance.md",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify.py",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "title": "Rank-eleven absorbing clone-to-affine collapse",
+   "status": "PROVED",
+   "closure": "coefficientwise cancellation of every high-core-absorbing full-rank clone curve to one affine owner",
+   "statement": "For a positive-dimensional polynomial clone component whose correction space W contains all high core coefficients, choose an evaluation basis B of W. The basis equations force each correction-curve coefficient P_j to equal -H_j for j>=2, because H_j+P_j lies in W and vanishes on B. Hence H+P has slope degree at most one and is one global affine codeword owner line. Residual support-wise badness bounds that component by n'-m'+1=981105 slopes. Multiple affine owners and evaluation rank-flat components remain unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "title": "Rank-eleven relative core-interpolant and correction-ray payment",
+   "status": "PROVED",
+   "closure": "field-general root-capacity payment of the H_C core interpolant and one complete correction ray",
+   "statement": "For every H_C residual row with 10<=K'<=1048576, empty maximal common support bounds core-interpolant slopes by 481. For any fixed nonzero correction direction, clone-class removal and a coarse heterogeneous-pair count bound all rich correction pairs by n'(n'-m'+1)+31 binom(n',2), at most 70227214729216. Core plus one ray is 70227214729697, strictly below the official KoalaBear budget. Hence an unsafe H_C family requires many projectively independent correction directions or a higher-dimensional correction span.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_relative_correction_space_router",
+   "title": "Rank-eleven relative correction-space incidence router",
+   "status": "PROVED",
+   "closure": "uniform shortened-row proper-intersection and clone-tolerant compilers with exact positive-dimensional residual",
+   "statement": "For an H_C correction span W of dimension s, proper bidegree-(31,1) incidence gives N_W<=31(s+1) binom(n',s+1)/binom(m',s+1), uniformly paying s<=11; the first adjacent formula at s=12 exceeds budget. If W does not absorb the high core, generalized-weight basis curves give N_W<=M_a n'_fall_s/(d+a)_rise_s, uniformly paying s<=9. Hence every over-budget H_C residual has dimension at least 12 or a positive-dimensional evaluation rank-flat/polynomial clone component; every survivor of dimension at most 9 absorbs the high core.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_correction_space_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "title": "Rank-eleven relative correction ten-flat collapse",
+   "status": "PROVED",
+   "closure": "correction-span containment in the ten-dimensional deviation space and elimination of the generic high-dimensional branch",
+   "statement": "In the full-rank H_C branch, every explanation is the descended dense pair line plus a vector in the fixed ten-dimensional deviation space V'. Coefficientwise interpolation is V'-valued after subtracting the pair line, so every correction h_gamma-H(gamma) lies in V'. The correction span has dimension at most 10; dimensions zero and one are paid by the core/ray theorem. Since proper spaces are paid through dimension 11, every over-budget survivor is a positive-dimensional rank-flat or polynomial clone component. Every survivor absorbs all high interpolant coefficients: by clone tolerance through dimension 9, or by W=V' at dimension 10.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_correction_tenflat_collapse/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "title": "Rank-eleven shortened seed reaches the partial-relative interfaces",
+   "status": "PROVED",
+   "closure": "maximal-core cancellation, support-collapsed extraction, and exact certificate/complexity lift",
+   "statement": "For the non-affine degree-18 order-32 seed forced on every unsafe deployed KoalaBear post-near error-rank-eleven line, maximalize supports and cancel their complete common agreement set C, whose size is below K. The residual actual MCA witnesses have empty maximal common agreement and slope degree 18..31. Support-collapsed interpolation then gives either a pure-locator certificate, a scalar-locator rational certificate of denominator degree at most 67472 (denominator roots retained), or residual two-cover complexity at least 3(m-c)-(K-c)+3. Every certificate lifts exactly to the original monic support locators with the same denominator and affine scalars; the complexity branch gains exactly 2c and therefore gives the official threshold chi>=2299571. No branch payment or whole-line owner is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/result.md",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
    ]
   },
   {
@@ -68666,6 +69152,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_marked_source_frame",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_supported_coefficient_plane_kernel_intersection",
    "kind": "req"
   },
@@ -68901,6 +69397,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_heavy_row_quadratic_residual_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
    "kind": "req"
   },
@@ -68990,13 +69491,33 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
    "kind": "req"
   },
   {
@@ -69020,6 +69541,66 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_componentwise_degree_floor",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -69035,9 +69616,59 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_subgroup_genus_floor",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_residue_pairing_common_kernel_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_live_linear_quadratic_syzygy_and_small_class_defect",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_natural_residual_section_route_fence",
@@ -69048,6 +69679,11 @@
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality",
+   "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
@@ -69070,6 +69706,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -69077,6 +69723,31 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_shape_a_static_source_arbitrary_drop_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
    "kind": "req"
   },
   {
@@ -69135,6 +69806,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -69142,6 +69823,36 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_two_biform_exclusion",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_coefficient_syzygy_bundle_cubic_splitting",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
    "kind": "req"
   },
   {
@@ -69331,6 +70042,16 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_defect_and_large_class_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_excess_norm_omitted_recurrence_flag",
    "kind": "req"
   },
@@ -69342,6 +70063,16 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_dual_mds_split_biform_reduction",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
    "kind": "req"
   },
   {
@@ -69416,6 +70147,11 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_large_class_center_residual_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_resultant_regular_quartic_identification",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_residual_four_cycle_rigidity",
    "kind": "req"
   },
@@ -69482,6 +70218,31 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_pade_split_jet_dictionary",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_global_source_multiplier_common_kernel_normal_form",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_primitive_source_pencil_three_center_fibers",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_class_koszul_gram_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_extremal_three_center_source_partition",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
    "kind": "req"
   },
   {
@@ -69661,12 +70422,22 @@
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_center_fiber_coprimality_and_pade_quotient",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_natural_residual_section_route_fence",
    "kind": "req"
   },
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_omitted_recurrence_bordered_hankel_flag",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_pade_regular_factor_identity",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_padded_center_pade_transversality",
    "kind": "req"
   },
   {
@@ -69722,6 +70493,11 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_ordinary_companion_norm_gate",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_paired_all_excess_residual_fiber_factorization",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality",
    "kind": "req"
   },
   {
@@ -70207,6 +70983,16 @@
   {
    "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
    "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_cyclic_design_spread_exclusion",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_locator_interpolation_syzygy_rank_amplification",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_two_slope_coefficient_rank_spread",
+   "to": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_three_source_class_rank_amplification",
    "kind": "req"
   },
   {
@@ -70958,6 +71744,11 @@
    "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_kb_common_core_shortening_adapter_staircase_import",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_kb_decomposition_source_pencil_compiler",
@@ -75950,14 +76741,209 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
    "to": "rate_half_mca_denominator_root_cancellation_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_pole_tolerant_scalar_locator_harvest",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_star_sae_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_star_sae_router",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_relative_correction_space_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "to": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "to": "rate_half_mca_rank11_order32_common_support_cancellation",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "to": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_order32_common_support_cancellation",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_order32_common_support_cancellation",
+   "to": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
    "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "to": "rate_half_mca_rank11_relative_correction_space_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_space_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_space_router",
+   "to": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "to": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_error_rank_router",
+   "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_whole_line_global_core_router",
+   "to": "rate_half_mca_rank11_anchor_star_sae_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_residual_prime_field_collapse",

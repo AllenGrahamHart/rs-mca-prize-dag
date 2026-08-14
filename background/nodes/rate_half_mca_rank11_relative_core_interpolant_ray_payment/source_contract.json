@@ -1,0 +1,40 @@
+{
+  "schema": "rate-half-mca-rank11-relative-core-interpolant-ray-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router"
+  ],
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "R": 1048576,
+    "d": 67472,
+    "t": 981104,
+    "budget": 274980728111395087
+  },
+  "residual_range": {
+    "K_min": 10,
+    "K_max": 1048576,
+    "n_at_min": 1048586,
+    "m_at_min": 67482,
+    "core_compatible_cap": 481,
+    "extra_core_compatible_cap": 449
+  },
+  "ray": {
+    "slope_degree": 31,
+    "affine_block_cap": 981105,
+    "uniform_affine_block_count_cap": 2097152,
+    "uniform_affine_charge": 2057526312960,
+    "uniform_heterogeneous_pair_charge": 68169688416256,
+    "uniform_ray_cap": 70227214729216,
+    "core_plus_ray": 70227214729697,
+    "slack": 274910500896665390
+  },
+  "toy": {
+    "field": 17,
+    "different_clone_polynomials": [[1, 1], [2, 1]],
+    "collision_roots": 0,
+    "maximum_degree": 31
+  },
+  "nonclaim": "No union-of-rays or higher-dimensional correction-space payment is claimed."
+}

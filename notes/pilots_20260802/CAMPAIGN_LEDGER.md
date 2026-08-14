@@ -6462,7 +6462,10 @@ global_core_direction_distance_router; refreshed, both re-PASS with
 
 Chain: 2400/7097; all four verifiers PASS; census UNCHANGED; manifest
 3418 scripts. No Codex compliance flags; coordinator breaches: zero.
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5ca83bed591a18c560c1477b6029068fd49a968
 ## WAVE 61 INTEGRATED (2026-08-13, coordinator)
 
 **MERGED exact pin d4bb2f472 (Codex cycles 238-271, +24 nodes / +92
@@ -6505,6 +6508,7 @@ ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
 catch on my own first draft (strict vs non-increasing c_delta
 monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
 census UNCHANGED 231(167/37/27).
+<<<<<<< HEAD
 
 ## 2026-08-13 LATE — EXPORT DIRECTIVE ISSUED (user-ratified)
 
@@ -6520,3 +6524,5 @@ PACKAGE B = wave-61 Shape-A program onto our #1161 branch. GATE:
 Codex leaves branches ready-but-unpushed; coordinator replays and
 pushes. Provenance-window lesson encoded (push public master before
 pinning).
+=======
+>>>>>>> a5ca83bed591a18c560c1477b6029068fd49a968

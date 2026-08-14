@@ -2,41 +2,25 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 4,
+    "PASS": 2,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/verify.py",
-      "seconds": 0.036447,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify.py",
+      "seconds": 0.023962,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_BIRATIONAL_ROUTER_PASS empty_columns_max=1 pair_branches=30541989660 six_delta=2798439396930304829525 mutations=8/8\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_PASS core=1046362 singles=7 g31=1083345 toyQ=1 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_parameter_curve_birational_singularity_router/verify_audit.py",
-      "seconds": 0.019395,
+      "script": "background/nodes/rate_half_mca_rank11_anchor_star_sae_router/verify_audit.py",
+      "seconds": 0.022904,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_BIRATIONAL_ROUTER_AUDIT_PASS gcds=(1, 1) branches=[30541989660, 30541989659, 30541989659, 30541989659, 30541989659, 30541989659] delta=2798439396930304829525\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router/verify.py",
-      "seconds": 0.02558,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_FRAME_PASS reserve=7 repeated=183251937955 pair_floor=30541989660 mutations=3/3\n"
-    },
-    {
-      "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router/verify_audit.py",
-      "seconds": 0.025066,
-      "status": "PASS",
-      "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_TENSOR_RANK_THREE_FRAME_AUDIT_PASS general_position_reserve=7 pair_floor=30541989660\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_ANCHOR_STAR_CSAE_ROUTER_AUDIT_PASS core=1046362 g31=1083345 routes=4 controls=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

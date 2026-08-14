@@ -1,0 +1,42 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router",
+    "title": "A=1 shape-A rank-three weighted incidence/genus router",
+    "status": "PROVED",
+    "closure": "rank three reduces to a weighted C4-free incidence graph with two exact plane-genus budgets",
+    "statement": "Every official tensor-rank-three Shape-A survivor gives two birational rational plane coefficient curves of degrees m=e-2 and n=(3e-7)/2. Grouping the 3e parameter branches and R=3n+7 domain branches by equal coefficient image produces a weighted C4-free bipartite graph. Every domain vertex has parameter-weighted degree m; every parameter vertex has domain-weighted degree n-w_P; and sum_P s_P w_P=2e-7. Plane delta-genus gives sum_P binom(s_P,2)<=binom(m-1,2) and sum_Q binom(l_Q,2)<=binom(n-1,2). Hence both sides have at least ten image vertices, every domain vertex has at least two neighbours, and at least e+7 parameter branch weight occupies at least two zero-deficit vertices, each with at least two neighbours.",
+    "refs": [
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/statement.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/proof.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/claim_contract.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/dependency_subdag.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/audit.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/result.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/provenance.md",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify.py",
+      "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_weighted_c4_free_incidence_genus_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_tensor_rank_three_projective_frame_router"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_parameter_map_birationality"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_all_excess_domain_map_birationality"
+    },
+    {
+      "from": "rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_norm_concentration"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

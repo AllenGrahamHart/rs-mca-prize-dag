@@ -1,0 +1,42 @@
+{
+  "schema": "rate-half-mca-rank11-large-shared-pair-core-payment-v1",
+  "dependencies": {
+    "support_local_router": "rate_half_mca_support_local_error_rank_router",
+    "pair_core_route_cut": "rate_half_mca_rank11_pair_core_route_cut_import",
+    "upstream_pr1168_head": "6a5dcdae1591fc7f044eda6a942bfe178521a48c"
+  },
+  "official": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "B_star": 274980728111395087,
+    "near_charge": 134944,
+    "error_rank": 11,
+    "explanation_affine_rank": 10,
+    "theta_cutoff": 388,
+    "low_margin_maximum": 387,
+    "high_margin_cap": 274790124064526354,
+    "common_core_codimension_maximum": 4922,
+    "common_core_size_minimum": 1043654,
+    "residual_agreement_offset": 67085,
+    "residual_length_at_endpoint": 1053498,
+    "residual_agreement_at_endpoint": 72007,
+    "johnson_denominator_constant": 4501445801,
+    "johnson_denominator_decrement": 914405,
+    "johnson_denominator_at_endpoint": 744391,
+    "johnson_denominator_after_endpoint": -170014,
+    "ordinary_list_bound": 94943,
+    "pair_record_cap": 981105,
+    "low_margin_cap": 93149052015,
+    "total_cap": 274790217213713313,
+    "budget_slack": 190510897681774
+  },
+  "scope": {
+    "premise": "Every distinct minimizing pair selected by a post-near rank-eleven record with theta at most 387 agrees componentwise with the received pair on one common set J of size at least K-4922.",
+    "conclusion": "The complete line, including the disjoint 2w near charge, has at most 274790217213713313 bad slopes, strictly below B_star.",
+    "nonclaim": "No payment is claimed when the low-margin minimizing pair cores have common intersection smaller than K-4922."
+  }
+}

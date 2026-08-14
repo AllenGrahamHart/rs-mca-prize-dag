@@ -1,0 +1,44 @@
+{
+  "schema": "rate-half-mca-rank11-heavy-pair-order32-seed-compiler-v1",
+  "dependencies": {
+    "pair_core_route_cut": "rate_half_mca_rank11_pair_core_route_cut_import",
+    "shared_core_payment": "rate_half_mca_rank11_large_shared_pair_core_payment",
+    "upstream_pr1168_head": "6a5dcdae1591fc7f044eda6a942bfe178521a48c"
+  },
+  "official": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "B_star": 274980728111395087,
+    "near_charge": 134944,
+    "error_rank": 11,
+    "explanation_affine_rank": 10,
+    "theta_cutoff": 388,
+    "low_margin_maximum": 387,
+    "high_margin_cap": 274790124064526354,
+    "distinct_pair_cap": 869784434119,
+    "heavy_pair_record_threshold": 2,
+    "component_span_dimension_maximum": 10,
+    "selected_heavy_pair_types_maximum": 11,
+    "selected_seed_records_maximum": 22,
+    "order32_size": 32,
+    "common_core_codimension_maximum": 4922,
+    "common_core_size_threshold": 1043654,
+    "shortened_heavy_pair_type_cap": 94943,
+    "pair_record_cap": 981105,
+    "singleton_record_cap": 869784434119,
+    "heavy_record_cap": 93149052015,
+    "low_margin_cap": 962933486134,
+    "total_cap_if_large_heavy_core": 274791086998147432,
+    "budget_slack_if_large_heavy_core": 189641113247655,
+    "unsafe_low_record_minimum": 190604046733790
+  },
+  "scope": {
+    "premise": "The deployed KoalaBear post-near selected family has affine error rank eleven and more than B_star bad slopes.",
+    "conclusion": "There exist 32 distinct theta-at-most-387 actual records whose exact selected supports have common intersection smaller than K-4922.",
+    "nonclaim": "The compiler does not classify or pay the resulting small-common-support order-32 seed."
+  }
+}

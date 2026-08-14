@@ -1,0 +1,43 @@
+{
+  "schema": "rate-half-mca-rank11-shortened-partial-relative-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+    "rate_half_kb_common_core_shortening_adapter_staircase_import",
+    "rate_half_mca_order32_partial_relative_harvest"
+  ],
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "agreement_excess": 67472,
+    "seed_size": 32,
+    "slope_degree_minimum": 18,
+    "slope_degree_maximum": 31,
+    "denominator_degree_maximum": 67472,
+    "original_complexity_threshold": 2299571,
+    "maximal_common_support_maximum": 1048575,
+    "residual_dimension_minimum": 1
+  },
+  "staircase_samples": [
+    {"c": 0, "K_residual": 1048576, "m_residual": 1116048, "unknowns": 2299571},
+    {"c": 4130, "K_residual": 1044446, "m_residual": 1111918, "unknowns": 2291311},
+    {"c": 1045975, "K_residual": 2601, "m_residual": 70073, "unknowns": 207621},
+    {"c": 1048575, "K_residual": 1, "m_residual": 67473, "unknowns": 202421}
+  ],
+  "toy": {
+    "field": 17,
+    "K": 6,
+    "m": 8,
+    "common_locator": [0, 16, 1],
+    "common_A": [4, 1],
+    "common_B": [6, 2],
+    "residual_u": [1, 2, 0, 1],
+    "residual_v": [3, 0, 4],
+    "denominator_Q": [2, 1, 1],
+    "residual_locator_roots": [2, 3, 4, 5, 6, 7],
+    "scalar_c0": 5,
+    "scalar_c1": 2,
+    "slopes": [0, 1, 3]
+  },
+  "nonclaim": "The router classifies one selected tuple and supplies no residual branch payment or whole-line coherence theorem."
+}
