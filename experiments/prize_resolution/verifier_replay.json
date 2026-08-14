@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify.py",
-      "seconds": 0.030223,
+      "script": "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify.py",
+      "seconds": 0.040806,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_PASS pairs=12 per_pair=238825 total=2865900 toy=12 ranks=3/4 controls=8/8\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_LARGE_SHARED_PAIR_CORE_PAYMENT_PASS dimensions=4922 pair_types=94943 low=93149052015 slack=190510897681774 controls=8/8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify_audit.py",
-      "seconds": 0.024984,
+      "script": "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify_audit.py",
+      "seconds": 0.064351,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_AUDIT_PASS pairs=12 per_pair=238825 toy_slopes=12 controls=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_LARGE_SHARED_PAIR_CORE_PAYMENT_AUDIT_PASS list=94943 total=274790217213713313 slack=190510897681774 controls=4/4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

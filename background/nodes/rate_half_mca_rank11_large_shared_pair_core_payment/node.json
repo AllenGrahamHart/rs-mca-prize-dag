@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_large_shared_pair_core_payment",
+    "title": "Rank-eleven large shared pair-core payment",
+    "status": "PROVED",
+    "closure": "exact conditional branch payment through common-core codimension 4922",
+    "statement": "For the deployed KoalaBear post-near error-rank-eleven family, fix the actual minimizing pair of every record with support-local margin at most 387. If all distinct such pairs agree componentwise with the received pair on one common set of at least K-4922 coordinates, then shortening gives residual GRS dimension at most 4922. The exact Johnson endpoint and sub-square-root interleaving collapse cap the pair types at 94943; fixed-pair multiplicity caps the low records at 93149052015. Adding the proved high-margin cap and disjoint 2w near charge gives 274790217213713313, below B_* by 190510897681774. The remaining rank-eleven route may assume common pair-core intersection below K-4922.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_large_shared_pair_core_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {
+      "from": "rate_half_mca_support_local_error_rank_router"
+    },
+    {
+      "from": "rate_half_mca_rank11_pair_core_route_cut_import"
+    }
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}
