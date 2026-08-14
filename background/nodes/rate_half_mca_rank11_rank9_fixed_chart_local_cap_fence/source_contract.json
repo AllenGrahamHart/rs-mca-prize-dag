@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-rank11-rank9-fixed-chart-local-cap-fence-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_target_router"
+  ],
+  "parameters": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "base_prime": 2130706433,
+    "correction_dimension": 10,
+    "fixed_selector_size": 9,
+    "fixed_selector_population_floor": 2578110,
+    "common_core_size": 1048575,
+    "outside_coordinate_weight": 1048577,
+    "outside_support_weight": 67473,
+    "heavy_owner_count": 8,
+    "heavy_owner_weight": 67472,
+    "unit_owner_count": 508801,
+    "rich_slope_count": 4070408,
+    "forbidden_slope_count": 18,
+    "evaluation_rank_on_selector": 9,
+    "component_tuple_size": 11,
+    "error_affine_rank_ceiling": 2
+  },
+  "nonclaim": "This is a local target-output fence, not a realization of the dense-anchor ancestors, an unsafe KoalaBear line, a rank-eleven payment, or a prize closure."
+}

@@ -229,6 +229,25 @@ three. This removes the purely recordwise target atlas, but the selected
 population is not the complete lane; aggregate payment of those three fixed
 targets remains open.
 
+A sharp local-cap fence now rules out treating the rank-nine target as a
+self-contained contradiction. On the official row, take a common owner-plane
+core of size `K-1`. Outside it, eight owner points of weight `67472` and
+`508801` unit owner points produce
+
+```text
+8*508801=4070408>2578110
+```
+
+distinct-direction lines of exact outside weight `67473`. The resulting RS
+family is pair-noncontained, has error affine rank at most two, and every
+record has a rank-ten eleven-subset on an affine-owner component. This does
+not realize the dense-anchor ancestors or global unsafety, but it proves that
+the target-router output alone is insufficient. The live route must retain
+weighted component multiplicities before nine-subset deduplication, couple
+different charts, or use a specific dense-anchor identity to exclude the
+weighted-plane model. Do not spend another cycle optimizing a chart-local
+pair-core inequality against `2578110`.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology
