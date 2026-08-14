@@ -6462,10 +6462,7 @@ global_core_direction_distance_router; refreshed, both re-PASS with
 
 Chain: 2400/7097; all four verifiers PASS; census UNCHANGED; manifest
 3418 scripts. No Codex compliance flags; coordinator breaches: zero.
-<<<<<<< HEAD
 
-=======
->>>>>>> a5ca83bed591a18c560c1477b6029068fd49a968
 ## WAVE 61 INTEGRATED (2026-08-13, coordinator)
 
 **MERGED exact pin d4bb2f472 (Codex cycles 238-271, +24 nodes / +92
@@ -6508,7 +6505,6 @@ ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
 catch on my own first draft (strict vs non-increasing c_delta
 monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
 census UNCHANGED 231(167/37/27).
-<<<<<<< HEAD
 
 ## 2026-08-13 LATE — EXPORT DIRECTIVE ISSUED (user-ratified)
 
@@ -6568,3 +6564,18 @@ must agree on K'+22832 points vs the K'-1 RS cap — contradiction gap
 Residual after the wave: weighted incidences on the concentrated
 charts + deployed first-match order. Package B still unstaged;
 directive stands. Chain: 2463/7316, all PASS.
+
+## WAVE 64 INTEGRATED (2026-08-14 late, coordinator)
+
+**MERGED exact pin 11a8c12ff (cycles 325-330, +12 nodes, census-neutral;
+24/24 replayed).** The rank-11 residual is now an explicit K'-interval
+ledger: rank-9 weighted component target ELIMINATED (3 nodes);
+canonical-basis + multi-basis + record-hybrid kernel capacities (6
+nodes); rank-8 owner-pair capacity + dense-owner terminal bridge. After
+cycle 330 the remaining intervals are K'=10..11772 (rank 8 only),
+11773..22525 (rank 8 + kernel), 22526..37995 (dense-owner chronology +
+kernel), 37996..1048576 (kernel only). Next: couple d=1,2 ambient
+flats to the d>=3 record-support profile. CATCH: conflict markers
+found in the committed ledger (imported from Codex's own merge of our
+master at a5ca83bed) — hand-resolved, content preserved, marker grep
+clean. Package B still unstaged. Chain: 2475/7351, all PASS.
