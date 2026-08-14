@@ -40046,6 +40046,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "title": "Rank-eleven dense pair restores the degree-18 order-32 interface",
+   "status": "PROVED",
+   "closure": "exact dense-owner pigeonhole, support-core selection, and slope-interpolation pin",
+   "statement": "Every unsafe deployed KoalaBear post-near error-rank-eleven line contains 32 distinct actual theta<=387 records such that eighteen are owned by one fixed minimizing pair, at least one selected explanation lies outside that pair's affine codeword line, and the exact selected support intersection has size at most K-2601. After exact common-support cancellation, the residual explanations are non-global-affine and their coefficientwise slope interpolation, equivalently their slope-error polynomial, has degree 18..31. Thus the degree-3..17 staircase possible for arbitrary puncturing cannot occur on this deliberately selected unsafe seed. No residual rational, locator, spread, owner, or whole-line payment is claimed.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_pair_degree18_seed_compiler/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "title": "Rank-eleven heavy pairs compile to a small-core order-32 seed",
    "status": "PROVED",
@@ -76602,9 +76620,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
+   "to": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
@@ -76625,6 +76653,11 @@
    "from": "rate_half_mca_rank11_order32_common_support_cancellation",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_order32_common_support_cancellation",
+   "to": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",

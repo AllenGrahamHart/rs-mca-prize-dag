@@ -40,6 +40,17 @@ row closure: all three terminal inputs `(S)`, `(A)`, and `(E)` remain open.
 The K3 endpoint realization remains a valid red alternative and is not
 implied by the order-32 theorem.
 
+The independent post-near error-rank-eleven route now restores the same
+degree-18 interface after common-support cancellation. An unsafe line forces
+one low-margin minimizing pair to own at least 220 slopes. Selecting eighteen
+of them and fitting a ten-dimensional heavy-pair core basis into the other
+fourteen slots gives a 32-tuple with common support at most `K-2601` and a
+certified off-pair-line explanation. Eighteen-root interpolation then forces
+the shortened slope degree to lie in `18..31`; the apparent punctured-domain
+degree-`3..17` staircase cannot occur on this selected seed. The next task is
+the shortened support-collapsed rational/locator/high-complexity router, not
+a separate attack on each low degree.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
