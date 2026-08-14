@@ -40474,6 +40474,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+   "title": "Two-step nine-shadow hierarchy removes kernel through 18101",
+   "status": "PROVED",
+   "closure": "exact hierarchy-saturated primal with independent nonnegative dual recurrences",
+   "statement": "The full-containment and seven two-step nine-shadow resources, together with individual caps, exclude the dominant kernel lane for 10<=K'<=18101. The comparison reverses at K'=18102.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
+   "title": "Two-step nine-shadow hierarchy couples all kernel coranks",
+   "status": "PROVED",
+   "closure": "rank-raising pair double count with loopless target-coloop multiplicity",
+   "statement": "For every 3<=d<=9, C(d+2,2)C(67472+d,2)I_d/C(K'-d-9,2) <= C(11-d,2)I_(d-2).",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "title": "Rank-eleven large shared pair-core payment",
    "status": "PROVED",
@@ -77598,11 +77636,21 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "to": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
    "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
    "kind": "ev"
@@ -77610,6 +77658,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
    "to": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_extension_deficit",
+   "to": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
    "kind": "req"
   },
   {
@@ -77635,6 +77688,21 @@
   {
    "from": "rate_half_mca_rank11_kernel_record_support_capacity",
    "to": "rate_half_mca_rank11_kernel_nine_shadow_coupling",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
    "kind": "req"
   },
   {

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut",
+    "title": "Two-step nine-shadow hierarchy removes kernel through 18101",
+    "status": "PROVED",
+    "closure": "exact hierarchy-saturated primal with independent nonnegative dual recurrences",
+    "statement": "The full-containment and seven two-step nine-shadow resources, together with individual caps, exclude the dominant kernel lane for 10<=K'<=18101. The comparison reverses at K'=18102.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_two_step_nineshadow_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_two_step_nineshadow_hierarchy"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
