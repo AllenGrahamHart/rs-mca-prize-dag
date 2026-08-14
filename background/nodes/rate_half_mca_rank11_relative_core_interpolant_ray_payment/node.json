@@ -1,0 +1,29 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
+    "title": "Rank-eleven relative core-interpolant and correction-ray payment",
+    "status": "PROVED",
+    "closure": "field-general root-capacity payment of the H_C core interpolant and one complete correction ray",
+    "statement": "For every H_C residual row with 10<=K'<=1048576, empty maximal common support bounds core-interpolant slopes by 481. For any fixed nonzero correction direction, clone-class removal and a coarse heterogeneous-pair count bound all rich correction pairs by n'(n'-m'+1)+31 binom(n',2), at most 70227214729216. Core plus one ray is 70227214729697, strictly below the official KoalaBear budget. Hence an unsafe H_C family requires many projectively independent correction directions or a higher-dimensional correction span.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_relative_core_interpolant_ray_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

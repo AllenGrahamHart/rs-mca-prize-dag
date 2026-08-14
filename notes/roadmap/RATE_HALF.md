@@ -90,6 +90,17 @@ Do not identify `(H_C)` with deployed first-match `(S)`; the next
 rank-eleven-specific action is a relative abundance theorem or a direct
 common-core payment for `(H_C)`.
 
+The first two relative abundance rungs now transfer unconditionally. For a
+fixed `(H_C)` tuple, root capacity bounds slopes using its core interpolant
+by `481`. For any fixed nonzero correction direction, a shortened-row
+clone-class argument charges large affine graphs coarsely by
+`n'(n'-m'+1)` and every remaining rich point by one heterogeneous pair,
+giving at most `n'(n'-m'+1)+31*C(n',2)<=70227214729216`. Core plus one
+complete projective correction ray is `70227214729697<B_*`. Thus an unsafe
+relative core requires many projectively independent correction directions
+or a genuinely higher-dimensional correction space; the next transfer is
+the proper-intersection/clone-tolerant correction-space router.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
