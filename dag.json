@@ -40028,6 +40028,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "title": "Rank-eleven dense pair cores need not coalesce",
+   "status": "PROVED",
+   "closure": "explicit deployed-parameter multi-owner construction; local uniqueness route fence",
+   "statement": "On the deployed KoalaBear row and sextic line field there is one received line with twelve distinct selected pair types. Each pair has an exact deficiency-one componentwise core and owns exactly 238825 globally slope-distinct, exact-size-m, support-wise MCA-bad, post-near records with support-local margin one. The 2865900 records have explanation affine rank exactly ten and error rank exactly eleven. Thus the rank-eleven dense-pair terminal imported from PR #1168, including delta<=4 and at least 200632 records, does not by itself imply a unique pair owner, a global affine owner, or coalescence of heavy pair groups. This is a route fence only: the construction is far below B_* and leaves aggregate payment and chronology-correct S/A/E routing open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_pair_core_route_cut_import",
    "title": "Rank-eleven pair-core route cut: the exact wall above the paid strata",
    "status": "PROVED",
@@ -76525,9 +76543,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
+   "kind": "req"
   },
   {
    "from": "rate_half_residual_prime_field_collapse",

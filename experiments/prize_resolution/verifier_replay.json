@@ -8,19 +8,19 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/verify.py",
-      "seconds": 0.018463,
+      "script": "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify.py",
+      "seconds": 0.030223,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_PADE_PARITY_QUOTIENT_PASS toy=3/2 dual_degree=549755813887 quotient=91625968982 kernel_floor=183251937960 mandatory=183251937964 mutations=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_PASS pairs=12 per_pair=238825 total=2865900 toy=12 ranks=3/4 controls=8/8\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_ca_hankel_a1_first_degree_core_one_quadratic_gap_four_double_root_nonreduced_unshared_collision_shape_a_pade_parity_quotient_route_fence/verify_audit.py",
-      "seconds": 0.01576,
+      "script": "background/nodes/rate_half_mca_rank11_dense_pair_core_multiowner_fence/verify_audit.py",
+      "seconds": 0.024984,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_SHAPE_A_PADE_PARITY_QUOTIENT_AUDIT_PASS algebra=824633720830 dual_degree=549755813887 mandatory=183251937964 quotient=91625968982\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_DENSE_PAIR_CORE_MULTIOWNER_FENCE_AUDIT_PASS pairs=12 per_pair=238825 toy_slopes=12 controls=4/4\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

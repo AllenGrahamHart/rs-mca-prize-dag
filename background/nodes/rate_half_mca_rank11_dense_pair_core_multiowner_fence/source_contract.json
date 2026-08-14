@@ -1,0 +1,60 @@
+{
+  "schema": "rate-half-mca-rank11-dense-pair-core-multiowner-fence-v1",
+  "upstream": {
+    "pr1168_head": "6a5dcdae1591fc7f044eda6a942bfe178521a48c",
+    "import_node": "rate_half_mca_rank11_pair_core_route_cut_import"
+  },
+  "official": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "w": 67472,
+    "explanation_affine_rank": 10,
+    "error_rank": 11,
+    "polynomial_difference_rank": 9,
+    "pair_types": 12,
+    "shared_core_size": 1048567,
+    "petal_size": 67480,
+    "pair_core_size": 1116047,
+    "core_deficiency": 1,
+    "remainder_size": 238825,
+    "slopes_per_pair": 238825,
+    "total_slopes": 2865900,
+    "bad_carrier_bound": 528,
+    "maximum_greedy_forbidden_values": 34390656,
+    "pr1168_forced_records": 200632,
+    "pr1168_forced_deficiency": 4,
+    "q_coefficients_low_to_high": [
+      [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      [1, 0, 0, 0, 0, 0, 0, 0, 0],
+      [0, 1, 0, 0, 0, 0, 0, 0, 0],
+      [0, 0, 1, 0, 0, 0, 0, 0, 0],
+      [0, 0, 0, 1, 0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 1, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0, 1, 0, 0, 0],
+      [0, 0, 0, 0, 0, 0, 1, 0, 0],
+      [0, 0, 0, 0, 0, 0, 0, 1, 0],
+      [0, 0, 0, 0, 0, 0, 0, 0, 1],
+      [1, 1, 1, 1, 1, 1, 1, 1, 1],
+      [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    ]
+  },
+  "toy": {
+    "field": 29,
+    "domain": [28, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "K": 5,
+    "m": 6,
+    "w": 1,
+    "polynomial_difference_rank": 2,
+    "pair_types": 4,
+    "shared_core": [28, 0, 1],
+    "petals": [[2, 3], [4, 5], [6, 7], [8, 9]],
+    "remainder": [10, 11, 12],
+    "translation_values": [0, 1, 4],
+    "expected_slopes": [0, 1, 2, 4, 10, 14, 15, 18, 24, 25, 26, 28],
+    "expected_explanation_affine_rank": 3,
+    "expected_error_rank": 4
+  }
+}
