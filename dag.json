@@ -40082,6 +40082,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "title": "The component lane has one fixed nine-subset with its full extension weight",
+   "status": "PROVED",
+   "closure": "incidence marking before the two-coordinate extension quotient",
+   "statement": "For every residual shortening, one typed positive-dimensional component lane and one fixed nine-subset B carry marked weight at least ceil((495405467/10^9) N_min C(m',9) C(m'-9,2)/C(n',9)), where the weight of a record is the number of component eleven-subsets containing B. At K'=10 this is 5868470021012020. Dividing only after retaining this weight recovers the 2578110 distinct-record floor.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/statement.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/proof.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/attack.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/audit.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/result.md",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/verify.py",
+    "background/nodes/rate_half_mca_rank11_component_ninesubset_weighted_concentrator/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_component_star_large_owner_uniqueness",
    "title": "The full-rank component-star large owner is record-intrinsic",
    "status": "PROVED",
@@ -40227,6 +40246,120 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "title": "Canonical rank bases globalize every fixed kernel chart",
+   "status": "PROVED",
+   "closure": "common quotient translation plus generalized-MDS extension capacity",
+   "statement": "For every rank-r deficient component eleven-subset in the ten-dimensional residual correction space, choose one canonical rank basis B and put d=10-r. All records over B lie after one common affine translation and exact basis cancellation in one d-dimensional explanation family. The d+1 remaining tuple coordinates are common zeros of its kernel space, so only K'-10 additional zeros and at most C(K'-10,d+1) extensions are available per record. A fixed basis therefore carries at most M_d C(K'-10,d+1) incidences, with the proved margin/interleaving cap at d=9.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "title": "Ambient/record hybrid capacity removes kernel through 11772",
+   "status": "PROVED",
+   "closure": "per-corank minimum of two summation orders with exact interval replay",
+   "statement": "For every 10<=K'<=11772, the per-corank minimum of the ambient all-bases capacity and the actual-record support capacity is strictly below the dominant kernel-lane demand. At K'=11772 the exact gap is 76504076505592948633027913576880724493595282142849410185084. The comparison reverses at K'=11773.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "title": "Multi-basis capacity removes the first 11632 kernel shortenings",
+   "status": "PROVED",
+   "closure": "basis-decoration divisors with exhaustive exact interval replay",
+   "statement": "For every 10<=K'<=11641, the sum over coranks d=1,...,9 of floor(C(n',10-d) M_d C(K'-10,d+1)/(d+2)) is strictly below the dominant kernel-lane demand. At K'=11641 the exact gap is 17769453550459149385453824948016076737082337523706893862084. Hence the kernel lane cannot dominate on this interval. The comparison reverses at K'=11642, which remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "title": "Every kernel incidence carries at least d+2 basis decorations",
+   "status": "PROVED",
+   "closure": "loopless-matroid fundamental-circuit exchange and all-bases double counting",
+   "statement": "A rank-(10-d) evaluation matroid on a kernel-lane eleven-set is loopless and has at least d+2 bases. Decorating every incidence by all its bases leaves the existing fixed-basis cap valid and improves the corank-d aggregate capacity to floor(C(n',10-d) M_d C(K'-10,d+1)/(d+2)). The factor d+2 is sharp under looplessness alone.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "title": "Rank-stratified capacity removes the first 4589 kernel shortenings",
+   "status": "PROVED",
+   "closure": "canonical-basis capacity sum with exhaustive exact interval replay",
+   "statement": "For every 10<=K'<=4598, the sum over all nine nonzero evaluation-rank strata of C(n',10-d) M_d C(K'-10,d+1) is strictly below the dominant kernel-lane demand (495405467/10^9)N_min C(m',11). At K'=4598 the exact integer gap is 219272330501201744129177266158988707697316238048878827197685. Hence the kernel lane cannot dominate on this interval. At K'=4599 the comparison reverses, so larger shortenings remain open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "title": "Every record has a support-internal kernel capacity",
+   "status": "PROVED",
+   "closure": "support-internal basis decoration plus generalized-MDS closure capacity",
+   "statement": "For one exact m'-support and every corank d=1,...,9, the number of rank-(10-d) eleven-subsets is at most floor(C(m',10-d) C(K'-10,d+1)/(d+2)). This counts all bases inside the actual support and uses no multi-record cap M_d.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "title": "Rank-eleven large shared pair-core payment",
    "status": "PROVED",
@@ -40277,6 +40410,63 @@
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/provenance.md",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify.py",
     "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "title": "The upper rank-eight interval reaches the dense-owner chronology terminal",
+   "status": "PROVED",
+   "closure": "marked owner-pair averaging plus deficiency-sensitive fixed-owner multiplicity",
+   "statement": "For every 22526<=K'<=37995, a surviving rank-eight fixed chart contains one actual owner pair that owns at least 200632 selected records and has core deficiency at most 4. At K'=22526 the marked demand exceeds 200631*C(n'-9,2) by 11714977255865, while at K'=22525 it falls short by 1170919108090. The average ratio is a constant times C(m',11)/C(n',11), hence increases. This reaches the exact dense-owner terminal imported from PR #1168 but does not assign chronology, coalesce owners, or pay rank eleven.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "title": "A rank-eight owner flat has a universal owner-pair weight cap",
+   "status": "PROVED",
+   "closure": "independent coordinate-pair interpolation plus the fixed-owner slope cap",
+   "statement": "Fix a rank-eight nine-subset B in a residual row n'=1048576+K'. If W_B counts affine-owner component eleven-subsets containing B over all assigned records, then W_B <= 981105*C(n'-9,2). Every full-rank two-coordinate extension determines at most one owner pair in the affine U^2 flat, while one fixed owner pair owns at most 981105 selected records. This is an incidence-weight cap and does not pay the lower-shortening rank-eight route.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "title": "Weighted owner-pair capacity excludes rank eight from K'=37996 onward",
+   "status": "PROVED",
+   "closure": "exact boundary crossing and monotone binomial-ratio propagation",
+   "statement": "The rank-eight affine-owner alternative in the fixed nine-subset target router cannot occur for any 37996<=K'<=1048576. At K'=37996 the weighted selector demand is 579191514708840299 and the owner-pair cap is 579155144020629315, a gap of 36370688210984. At K'=37995 the cap still exceeds demand by 18174297527234. The exact unrounded demand/cap ratio is a constant times C(m',11)/C(n',11), hence strictly increases with K'. The rank-eight route remains open below this first method crossing.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py"
    ]
   },
   {
@@ -40350,6 +40540,44 @@
     "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/source_contract.json",
     "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/verify.py",
     "background/nodes/rate_half_mca_rank11_rank9_split_pencil_paircore_dichotomy/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank9_weighted_component_cap",
+   "title": "A rank-nine nine-cell has a universal weighted component cap",
+   "status": "PROVED",
+   "closure": "unique owner-point charging through disjoint plane petals",
+   "statement": "Fix a rank-nine nine-subset B in a residual row n'=1048576+K', m'=67472+K'. If W_B counts affine-owner component eleven-subsets containing B over all assigned records, then W_B <= 981105*(m'-10)*n'. Each component extension has a unique owner point and at least one coordinate in that point's petal; one point owns at most 981105 records and the petals are disjoint. This is an incidence-weight cap, not a distinct-record cap.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "title": "The fixed rank-nine component target is impossible at every shortening",
+   "status": "PROVED",
+   "closure": "small-dimension core contradiction plus large-dimension weighted incidence gap",
+   "statement": "The rank-nine affine-owner alternative in the fixed nine-subset target router cannot occur. If K'<=67472, its forced common core of size at least 134944 cannot lie in an owner core of size below m'=67472+K'. If K'>=67473, the weighted selector demand exceeds the universal rank-nine cap; at K'=67473 the exact values are 6849288576200976639 > 147748596828055575, and the demand-to-cap ratio increases with K'. Thus the residual fixed target is reduced to the kernel chart or rank-eight owner-flat alternatives.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_weighted_target_elimination/verify_audit.py"
    ]
   },
   {
@@ -76971,6 +77199,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76986,13 +77219,48 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_component_ninesubset_lane_concentrator",
+   "to": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
    "kind": "req"
   },
   {
@@ -77028,6 +77296,11 @@
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_mca_rank11_component_star_owner_pencil_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
   {
@@ -77111,6 +77384,71 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+   "to": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "to": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "to": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77151,6 +77489,36 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_pair_core_route_cut_import",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77158,6 +77526,11 @@
   {
    "from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
    "to": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension",
+   "to": "rate_half_mca_rank11_rank9_weighted_component_cap",
    "kind": "req"
   },
   {
@@ -77181,6 +77554,26 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank9_weighted_component_cap",
+   "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_weighted_component_cap",
+   "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77188,6 +77581,11 @@
   {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "to": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
    "kind": "req"
   },
   {
@@ -77268,6 +77666,11 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
   {

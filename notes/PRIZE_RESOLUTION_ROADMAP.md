@@ -38193,3 +38193,554 @@ upstream delta:          PR #1170 first extended through pair-core plane
 next route action:       pay or recursively compress the fixed kernel chart,
                          shared-core plane, or rank-eight owner flat
 ```
+# Cycle 323: MCA rank-11 rank-nine fixed-chart local-cap fence (2026-08-14)
+
+The fixed target from cycle 322 is not locally payable from its printed
+rank-nine chart hypotheses. The new PROVED node
+`rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence` gives an explicit
+official-row realization.
+
+Choose a nonzero RS word `u` with exactly `K-1` evaluation roots `J`, and a
+ten-dimensional correction space whose evaluation on `B subset J`,
+`|B|=9`, has kernel `F u`. After deleting `J`, the coordinate and support
+weights are
+
+```text
+N=n-(K-1)=1048577,
+L=m-(K-1)=67473.
+```
+
+Place weight `L-1=67472` on each of eight affine owner points and place the
+remaining `508801` coordinates at distinct unit owner points. The eight
+heavy-to-unit pencils have
+
+```text
+8*508801=4070408
+```
+
+distinct directions. Each line contains exactly one heavy and one unit
+owner point, so its lifted agreement support has size `m`. The heavy fibre
+plus `J` has size `m-1>K-1`; the RS root bound therefore proves full
+same-support pair noncontainment. Two heavy-fibre coordinates adjoined to
+`B` give a rank-ten eleven-subset on a fixed-owner component. All error
+differences lie in `span(r_1,u)`.
+
+The strict comparison is
+
+```text
+4070408-2578110=1492298.
+```
+
+This construction does not instantiate the 32-anchor/18-dense-root ancestor
+packet and is far below global unsafety. Its exact conclusion is narrower:
+the selector output, considered in isolation, admits more than its guaranteed
+population. A successful continuation must preserve pre-deduplication
+component weights, couple charts, or invoke additional ancestor identities.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK9_FIXED_CHART_LOCAL_CAP_FENCE_PASS
+  slopes=4070408 excess=1492298 controls=6/6
+RATE_HALF_MCA_RANK11_RANK9_FIXED_CHART_LOCAL_CAP_FENCE_AUDIT_PASS
+  intervals=8 slopes=4070408 toy=15/15
+```
+
+No Modal computation was used. Both replayers use constant memory.
+
+```text
+DAG delta:             +1 PROVED local-cap fence, +1 requirement edge,
+                       +1 evidence edge
+critical status delta: none
+rank-eleven delta:     chart-local rank-nine payment fenced
+delta-star movement:   none
+compute:               exact arithmetic and a 15-line toy only
+next route action:     retain weighted component incidence through a
+                       chronology-compatible owner assignment
+```
+# Cycle 324: MCA rank-11 component-star large-owner uniqueness (2026-08-14)
+
+The full-rank branch of the 98-percent component-star router now has a
+canonical recordwise owner key. The PROVED node
+`rate_half_mca_rank11_component_star_large_owner_uniqueness` is uniform over
+all residual shortenings.
+
+For one exact support `S`, suppose two distinct owner pairs have
+within-support deficiencies at most `Delta=22320`. Inclusion-exclusion gives
+
+```text
+intersection >=m'-2Delta
+             =K'+67472-44640
+             =K'+22832.
+```
+
+At least one component of the difference of the two pairs is a nonzero RS
+polynomial of degree below `K'`, so their common agreement set has size at
+most `K'-1`. The contradiction gap is exactly
+
+```text
+(K'+22832)-(K'-1)=22833.
+```
+
+Consequently every ten-subset that exposes a component-star owner below the
+proved deficiency ceiling exposes the same pair. The result does not count
+owners across records or supply deployed first-match order, but it removes
+choice dependence from the full-rank target and permits weighted incidences
+to be grouped by an intrinsic owner key.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_COMPONENT_STAR_LARGE_OWNER_UNIQUENESS_PASS
+  delta=22320 root_gap=22833 controls=6/6
+RATE_HALF_MCA_RANK11_COMPONENT_STAR_LARGE_OWNER_UNIQUENESS_AUDIT_PASS
+  rows=4 root_gap=22833
+```
+
+No Modal computation was used.
+
+```text
+DAG delta:             +1 PROVED owner-uniqueness node,
+                       +1 requirement edge, +1 evidence edge
+critical status delta: none
+rank-eleven delta:     full-rank star route has an intrinsic owner key
+delta-star movement:   none
+compute:               constant-memory exact arithmetic only
+next route action:     retain component-incidence weights while grouping
+                       records by their intrinsic large-owner keys
+```
+# Cycle 325: MCA rank-11 rank-nine weighted target elimination (2026-08-14)
+
+Three PROVED nodes retain the component extension weight that cycle 322
+discarded when it selected `2578110` distinct records.
+
+First,
+`rate_half_mca_rank11_component_ninesubset_weighted_concentrator` marks all
+55 nine-subsets of every typed component eleven-subset and averages before
+deduplication. One fixed `B` carries
+
+```text
+W_B >=ceil((495405467/10^9) N_min
+           *C(m',9)*C(m'-9,2)/C(n',9)).
+```
+
+Even at `K'=10`, this is `5868470021012020` marked `(record,T)`
+incidences. Dividing by `C(m'-9,2)` recovers the old `2578110` record
+floor, but the new route keeps the numerator.
+
+Second, `rate_half_mca_rank11_rank9_weighted_component_cap` charges every
+rank-ten extension of a fixed rank-nine `B` to its unique owner point.
+At least one of the two added coordinates lies in that point's petal. A
+point owns at most `981105` records, its core has size below `m'`, and the
+plane petals are disjoint. Hence
+
+```text
+W_B <=981105*(m'-10)*n'.
+```
+
+Finally,
+`rate_half_mca_rank11_rank9_weighted_target_elimination` closes the complete
+rank-nine alternative. Its `2578110` records already force a common plane
+core of size at least `134944`. For `K'<=67472`, this contradicts strict
+owner-core size below `m'`. For `K'>=67473`, the weighted comparison at the
+boundary is
+
+```text
+6849288576200976639 > 147748596828055575,
+gap = 6701539979372921064.
+```
+
+After cancelling `C(m'-9,2)`, the demand-to-cap ratio is a constant times
+`C(m',9)/C(n',9)*(m'-9)/n'`; every factor increases with `K'`. Thus the
+boundary contradiction is uniform through `K'=1048576`.
+
+The cycle also rejected a candidate `134931` two-terminal overlap node: the
+calculation was weaker than direct inclusion-exclusion and its first draft
+overstated the selected-support/core relation. It was not registered.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_COMPONENT_NINESUBSET_WEIGHTED_CONCENTRATOR_PASS
+  marked=5868470021012020 distinct=2578110 controls=6/6
+RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_COMPONENT_CAP_PASS
+  owner=981105 boundary_cap=147748596828055575 controls=6/6
+RATE_HALF_MCA_RANK11_RANK9_WEIGHTED_TARGET_ELIMINATION_PASS
+  demand=6849288576200976639 cap=147748596828055575
+  gap=6701539979372921064 controls=8/8
+```
+
+No Modal computation was used.
+
+```text
+DAG delta:             +3 PROVED weighted rank-eleven nodes,
+                       +5 requirement edges, +3 evidence edges
+critical status delta: none
+rank-eleven delta:     fixed rank-nine component target eliminated
+remaining target:     fixed kernel chart or rank-eight owner flat
+delta-star movement:   none
+compute:               constant-memory exact integer arithmetic only
+next route action:     retain extension weight in the fixed-kernel and
+                       rank-eight branches
+```
+# Cycle 326: MCA rank-11 kernel canonical-basis capacity (2026-08-14)
+
+Two PROVED nodes replace componentwise kernel payments by one summable
+rank-stratified interface.
+
+The structural node
+`rate_half_mca_rank11_kernel_canonical_basis_globalizer` chooses one
+canonical rank basis `B` for every rank-deficient eleven-subset. If
+`r=rank(ev_T)` and `d=10-r`, all records assigned to the same `B` share one
+quotient solution. After one affine translation and exact cancellation of
+`B`, they form a single rank-`d` explanation family.
+
+The remaining `d+1` coordinates of `T` are common zeros of the kernel
+space. Generalized MDS leaves exactly the uniform resource
+
+```text
+at most K'-10 extra common zeros,
+at most C(K'-10,d+1) extensions per record.
+```
+
+Thus one fixed basis carries at most
+`M_d C(K'-10,d+1)` incidences. This is an aggregate chart cap, not a sum of
+unrelated irreducible-component payments.
+
+The capacity node
+`rate_half_mca_rank11_kernel_rankstratified_capacity_cut` sums these caps
+over the `C(n',10-d)` possible bases and all `d=1,...,9`. Exact replay of
+all 4,589 residual dimensions proves that this total is below the dominant
+kernel-lane demand for every
+
+```text
+10 <= K' <= 4598.
+```
+
+At the last closed row, the exact incidence gap is
+
+```text
+219272330501201744129177266158988707697316238048878827197685.
+```
+
+At `K'=4599` the capacity exceeds demand by
+
+```text
+95457494746881463288875361950515757435711627164872173764503,
+```
+
+so the method stops honestly. No extrapolation is made.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_PASS
+  ranks=9 rank9_cap=61871313426630599 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_AUDIT_PASS
+  pairs=9 proof_pins=4/4
+RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_PASS
+  checked=4589 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_AUDIT_PASS
+  checked=4589 proof_pins=4/4
+```
+
+No Modal computation was used; both replays are constant-memory exact
+integer arithmetic.
+
+```text
+DAG delta:             +2 PROVED kernel-capacity nodes,
+                       +4 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..4598
+remaining kernel wall: K'=4599..1048576
+remaining target:     rank-eight owner flat at all K', plus kernel above wall
+delta-star movement:   none
+compute:               exact 4,589-row replay, constant memory
+next route action:     build the rank-eight weighted owner-pair cap and
+                       seek cross-basis compression above K'=4598
+```
+# Cycle 327: MCA rank-11 rank-eight owner-pair capacity (2026-08-14)
+
+Two PROVED nodes retain marked extension weight in the rank-eight
+affine-owner target.
+
+The structural node
+`rate_half_mca_rank11_rank8_owner_pair_weight_cap` fixes an
+evaluation-rank-eight nine-set `B` and writes `U=ker(ev_B)`, `dim U=2`.
+For a full-rank extension `T=B union {x,y}`, evaluation on `{x,y}` is an
+isomorphism on `U`. The pair `{x,y}` therefore determines at most one owner
+point in the affine `U^2` flat. Since a fixed owner owns at most `981105`
+records,
+
+```text
+W_B <=981105*C(n'-9,2)
+```
+
+in the weighted concentrator's exact `(record,T)` unit.
+
+The capacity node
+`rate_half_mca_rank11_rank8_weighted_capacity_cut` compares this cap with
+the retained selector demand. At the final row not closed by this method,
+
+```text
+K'=37995:
+demand =579135903691691071,
+cap    =579154077989218305,
+method deficit =18174297527234.
+```
+
+At the first closed row,
+
+```text
+K'=37996:
+demand =579191514708840299,
+cap    =579155144020629315,
+gap    =36370688210984.
+```
+
+The identity
+
+```text
+C(n',9)C(n'-9,2)=55C(n',11)
+```
+
+reduces the unrounded demand/cap ratio to a constant times
+`C(m',11)/C(n',11)`. All eleven factors increase with `K'`, so rank eight
+is impossible uniformly for `37996<=K'<=1048576`.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_PASS
+  pairs=590309033203 cap=579155144020629315 controls=6/6
+RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_AUDIT_PASS
+  pairs=590309033203 cap=579155144020629315 proof_pins=5/5
+RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_PASS
+  last_gap=18174297527234 first_gap=36370688210984 controls=7/7
+RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_AUDIT_PASS
+  last_gap=18174297527234 first_gap=36370688210984
+  monotone_factors=11/11 proof_pins=3/3
+```
+
+No Modal computation was used; all calculations are constant-memory exact
+integer or rational arithmetic.
+
+```text
+DAG delta:             +2 PROVED rank-eight capacity nodes,
+                       +5 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     rank eight removed for K'=37996..1048576
+remaining intervals:  K'=10..4598 rank eight only;
+                       K'=4599..37995 rank eight plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               constant-memory boundary arithmetic
+next route action:     compress rank-eight owner-core overlap below the wall
+                       and kernel cross-basis overlap above K'=4598
+```
+# Cycle 328: MCA rank-11 rank-eight dense-owner terminal bridge (2026-08-14)
+
+One PROVED node connects the weighted rank-eight chart to the exact
+dense-owner chronology terminal imported from upstream PR #1168.
+
+For a fixed rank-eight nine-set, write `q_p` for the number of independent
+coordinate pairs determining owner `p` and `t_p` for the selected records
+owned by it. The marked ledger satisfies
+
+```text
+W_B <=sum_p t_p q_p,
+sum_p q_p <=C(n'-9,2).
+```
+
+At `K'=22526`, exact weighted demand gives
+
+```text
+W_B - 200631*C(n'-9,2) = 11714977255865.
+```
+
+Therefore some owner has at least `200632` records. If its pair-core
+deficiency were at least five, fixed-owner exception disjointness would cap
+it at
+
+```text
+1+floor(981104/5)=196221,
+```
+
+a contradiction. Hence the owner has deficiency at most four. The
+unrounded weighted-average ratio is a constant times
+`C(m',11)/C(n',11)` and increases with `K'`, so the bridge is uniform
+through `K'=37995`. At `K'=22525`, the comparison still fails by
+`1170919108090`.
+
+This reaches the existing chronology terminal but does not close it. The
+explicit twelve-owner fence remains valid and prevents any inference that
+the dense owner is unique across the received line.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_PASS
+  last_deficit=1170919108090 first_excess=11714977255865
+  delta5_cap=196221 controls=6/6
+RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_AUDIT_PASS
+  last_deficit=1170919108090 first_excess=11714977255865 proof_pins=5/5
+```
+
+No Modal computation was used.
+
+```text
+DAG delta:             +1 PROVED dense-owner bridge,
+                       +3 requirement edges, +1 evidence edge
+critical status delta: none
+rank-eight delta:      K'=22526..37995 reaches the delta<=4,
+                       200632-record chronology terminal
+remaining rank eight: K'=10..22525 structural; K'=22526..37995 chronology;
+                       impossible from K'=37996 onward
+delta-star movement:   none
+compute:               constant-memory exact boundary arithmetic
+next route action:     chronology-correct multi-owner payment or a stronger
+                       cross-owner coupling theorem
+```
+# Cycle 329: MCA rank-11 kernel multi-basis compression (2026-08-14)
+
+Two PROVED nodes recover basis multiplicity discarded by the canonical
+kernel assignment.
+
+For a corank-`d` eleven-set `T`, the restricted evaluation matroid has rank
+`10-d` and no loops. Fixing one basis and applying fundamental-circuit
+exchange to every outside element gives at least
+
+```text
+1+(11-(10-d))=d+2
+```
+
+distinct bases. Decorating each `(record,T)` incidence by all of its bases
+does not change the existing fixed-basis capacity. Dividing the decorated
+count by this guaranteed multiplicity improves the corank-`d` term to
+
+```text
+floor(C(n',10-d) M_d C(K'-10,d+1)/(d+2)).
+```
+
+The factor is sharp under looplessness alone: `9-d` coloops together with
+one parallel class of size `d+2` has exactly that many bases.
+
+Exact independent replay of the resulting nine-stratum capacity closes
+every row through `K'=11641`. At the endpoint the demand-capacity gap is
+
+```text
+17769453550459149385453824948016076737082337523706893862084.
+```
+
+At `K'=11642`, capacity exceeds demand by
+
+```text
+187031323586740190878769118921060658362307444191332937452616,
+```
+
+so the refined method stops honestly.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_PASS
+  strata=9 multiplicities=3..11 controls=4/4
+RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_AUDIT_PASS
+  multiplicities=3..11 proof_pins=5/5
+RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_PASS
+  checked=11632 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_AUDIT_PASS
+  checked=11632 proof_pins=4/4
+```
+
+No Modal computation was used; both interval replays are constant-memory
+exact integer arithmetic.
+
+```text
+DAG delta:             +2 PROVED kernel multi-basis nodes,
+                       +3 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..11641
+remaining intervals:  K'=10..11641 rank eight only;
+                       K'=11642..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 11,632-row replay, constant memory
+next route action:     classify or couple sharp low-basis kernel flats
+                       above K'=11641
+```
+# Cycle 330: MCA rank-11 kernel record/ambient hybrid capacity (2026-08-14)
+
+Two PROVED nodes add a second summation order to the rank-deficient lane.
+
+For one record with exact `m'`-support, all-bases decoration gives the
+corank-`d` capacity
+
+```text
+P_d=floor(C(m',10-d) C(K'-10,d+1)/(d+2)).
+```
+
+This needs no multi-record cap `M_d`: a basis lies in the actual support,
+and its remaining `d+1` tuple coordinates use the same `K'-10`
+common-zero resource.
+
+If `R_actual>=N_min` is the unknown actual residual record count, then each
+stratum satisfies both `I_d<=A_d` from the ambient all-bases theorem and
+`I_d<=R_actual P_d`. After division by `R_actual`, the minimum is
+nonincreasing in the record count. It is therefore enough to evaluate
+
+```text
+sum_d min(A_d,N_min P_d)
+```
+
+against demand at `N_min`.
+
+Exact replay closes every row through `K'=11772`. At the endpoint, the gap
+is
+
+```text
+76504076505592948633027913576880724493595282142849410185084.
+```
+
+At `K'=11773`, capacity exceeds demand by
+
+```text
+139343682529231472322825521514042608524569163680782450618944.
+```
+
+The boundary takes the ambient branch for `d=1,2` and the record-support
+branch for `d=3,...,9`. Both separate estimates have sharp abstract-matroid
+models, so the next route must constrain simultaneous cross-stratum
+saturation in one residual correction space.
+
+Focused verification:
+
+```text
+RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_PASS
+  strata=9 multiplicities=3..11 controls=4/4
+RATE_HALF_MCA_RANK11_KERNEL_RECORD_SUPPORT_CAPACITY_AUDIT_PASS
+  strata=9 proof_pins=4/4
+RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_PASS
+  checked=11763 controls=6/6
+RATE_HALF_MCA_RANK11_KERNEL_HYBRID_CAPACITY_CUT_AUDIT_PASS
+  checked=11763 branches=AARRRRRRR proof_pins=4/4
+```
+
+No Modal computation was used; both replays are constant-memory exact
+integer arithmetic.
+
+```text
+DAG delta:             +2 PROVED kernel hybrid-capacity nodes,
+                       +3 requirement edges, +2 evidence edges
+critical status delta: none
+rank-eleven delta:     kernel lane removed for K'=10..11772
+remaining intervals:  K'=10..11772 rank eight only;
+                       K'=11773..22525 rank eight plus kernel;
+                       K'=22526..37995 dense-owner chronology plus kernel;
+                       K'=37996..1048576 kernel only
+delta-star movement:   none
+compute:               exact 11,763-row replay, constant memory
+next route action:     couple the d=1,2 ambient flats to the d>=3
+                       record-support flat profile
+```

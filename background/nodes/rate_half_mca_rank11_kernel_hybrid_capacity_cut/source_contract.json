@@ -1,0 +1,29 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-hybrid-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+    "rate_half_mca_rank11_kernel_record_support_capacity"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "rank9_record_cap": 61871313426630599,
+    "basis_multiplicities": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "closed_dimension_minimum": 10,
+    "closed_dimension_maximum": 11772,
+    "first_open_dimension": 11773,
+    "endpoint_branch_pattern": ["ambient", "ambient", "record", "record", "record", "record", "record", "record", "record"],
+    "endpoint_demand_ceiling": 2638980478250968287927366543992242676555390991946419343981097642,
+    "endpoint_capacity": 2638903974174462694978733516078665795830897396664276494570912558,
+    "endpoint_gap": 76504076505592948633027913576880724493595282142849410185084,
+    "wall_demand_ceiling": 2639346846038291415008760907926714174516393961642653417898655661,
+    "wall_capacity": 2639486189720820646481083733448228217124918530806334200349274605,
+    "wall_excess": 139343682529231472322825521514042608524569163680782450618944
+  },
+  "nonclaim": "The kernel lane remains open from K'=11773 onward; rank eight, rank eleven, and both prize closures are not asserted."
+}

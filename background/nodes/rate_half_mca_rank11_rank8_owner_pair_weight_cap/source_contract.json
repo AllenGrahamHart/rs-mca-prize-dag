@@ -1,0 +1,21 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-owner-pair-weight-cap-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_target_router",
+    "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "support_complement": 981104,
+    "fixed_owner_record_cap": 981105,
+    "fixed_subset_size": 9,
+    "component_subset_size": 11,
+    "first_closed_dimension": 37996,
+    "first_closed_n": 1086572,
+    "first_closed_m": 105468,
+    "coordinate_pair_resource": 590309033203,
+    "first_closed_weighted_cap": 579155144020629315
+  },
+  "nonclaim": "The owner-pair cap does not pay the lower-shortening rank-eight route, the kernel route, rank eleven, or either prize problem."
+}

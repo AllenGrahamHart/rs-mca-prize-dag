@@ -1,0 +1,25 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-rankstratified-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_canonical_basis_globalizer"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "rank9_record_cap": 61871313426630599,
+    "closed_dimension_minimum": 10,
+    "closed_dimension_maximum": 4598,
+    "first_open_dimension": 4599,
+    "endpoint_demand_ceiling": 929128176313956503149540905404647183686331231003203243640927369,
+    "endpoint_capacity": 928908903983455301405411728138488194978633914765154364813729684,
+    "endpoint_gap": 219272330501201744129177266158988707697316238048878827197685,
+    "wall_demand_ceiling": 929270008258717168172225403738805539487338025945487940222665507,
+    "wall_capacity": 929365465753464049635514279100756055244773737572652812396430010
+  },
+  "nonclaim": "The kernel lane remains open from K'=4599 onward; the rank-eight affine-owner branch and rank eleven are also unpaid."
+}

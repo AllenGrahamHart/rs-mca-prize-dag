@@ -1,0 +1,32 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+    "title": "Weighted owner-pair capacity excludes rank eight from K'=37996 onward",
+    "status": "PROVED",
+    "closure": "exact boundary crossing and monotone binomial-ratio propagation",
+    "statement": "The rank-eight affine-owner alternative in the fixed nine-subset target router cannot occur for any 37996<=K'<=1048576. At K'=37996 the weighted selector demand is 579191514708840299 and the owner-pair cap is 579155144020629315, a gap of 36370688210984. At K'=37995 the cap still exceeds demand by 18174297527234. The exact unrounded demand/cap ratio is a constant times C(m',11)/C(n',11), hence strictly increases with K'. The rank-eight route remains open below this first method crossing.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator"},
+    {"from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap"},
+    {"from": "rate_half_mca_rank11_rank9_weighted_target_elimination"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

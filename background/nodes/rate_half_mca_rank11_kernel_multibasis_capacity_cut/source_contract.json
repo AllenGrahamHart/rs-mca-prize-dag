@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-multibasis-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+    "rate_half_mca_rank11_kernel_multibasis_decoration_compression"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "residual_record_floor": 274980728111260126,
+    "lane_density_numerator": 495405467,
+    "lane_density_denominator": 1000000000,
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "rank9_record_cap": 61871313426630599,
+    "basis_multiplicities": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "closed_dimension_minimum": 10,
+    "closed_dimension_maximum": 11641,
+    "first_open_dimension": 11642,
+    "endpoint_demand_ceiling": 2591384066635142502908383042256351622731341380873039963561978373,
+    "endpoint_capacity": 2591366297181592043758997588431403606654604298535516256668116289,
+    "endpoint_gap": 17769453550459149385453824948016076737082337523706893862084,
+    "wall_demand_ceiling": 2591744422433696117405077127353817203908414876886966153966883140,
+    "wall_capacity": 2591931453757282857595955896472738264566777184331157486904335756,
+    "wall_excess": 187031323586740190878769118921060658362307444191332937452616
+  },
+  "nonclaim": "The kernel lane remains open from K'=11642 onward; the affine-owner branch, rank eleven, and both prize closures are not asserted."
+}

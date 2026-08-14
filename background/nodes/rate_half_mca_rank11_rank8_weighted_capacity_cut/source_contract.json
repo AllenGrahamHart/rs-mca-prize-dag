@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-rank11-rank8-weighted-capacity-cut-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+    "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+    "rate_half_mca_rank11_rank9_weighted_target_elimination"
+  ],
+  "parameters": {
+    "n_offset": 1048576,
+    "m_offset": 67472,
+    "support_complement": 981104,
+    "fixed_owner_record_cap": 981105,
+    "component_ppb": 495405467,
+    "ppb_denominator": 1000000000,
+    "record_floor": 274980728111260126,
+    "last_open_dimension": 37995,
+    "last_open_demand": 579135903691691071,
+    "last_open_cap": 579154077989218305,
+    "last_open_gap": 18174297527234,
+    "first_closed_dimension": 37996,
+    "first_closed_demand": 579191514708840299,
+    "first_closed_cap": 579155144020629315,
+    "first_closed_gap": 36370688210984,
+    "deployed_dimension_maximum": 1048576,
+    "ratio_formula": "constant*C(m_prime,11)/C(n_prime,11)"
+  },
+  "nonclaim": "Rank eight remains open below K'=37996; the kernel route remains open above K'=4598; rank eleven and both prize problems remain open."
+}

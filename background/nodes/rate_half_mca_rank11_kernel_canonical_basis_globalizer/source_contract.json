@@ -1,0 +1,17 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-canonical-basis-globalizer-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+    "rate_half_mca_support_local_transversality_compiler",
+    "rate_half_mca_rank10_margin_interleaving_split_payment"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "rank_minimum": 1,
+    "rank_maximum": 9,
+    "extra_common_zero_offset": 10,
+    "rank9_record_cap": 61871313426630599
+  },
+  "nonclaim": "This structural capacity theorem does not pay the complete kernel lane or any shortening beyond the separately replayed interval."
+}

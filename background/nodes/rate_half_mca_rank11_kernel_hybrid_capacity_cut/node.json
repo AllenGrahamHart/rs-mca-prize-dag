@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
+    "title": "Ambient/record hybrid capacity removes kernel through 11772",
+    "status": "PROVED",
+    "closure": "per-corank minimum of two summation orders with exact interval replay",
+    "statement": "For every 10<=K'<=11772, the per-corank minimum of the ambient all-bases capacity and the actual-record support capacity is strictly below the dominant kernel-lane demand. At K'=11772 the exact gap is 76504076505592948633027913576880724493595282142849410185084. The comparison reverses at K'=11773.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_hybrid_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_multibasis_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_record_support_capacity"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_record_support_capacity",
+    "title": "Every record has a support-internal kernel capacity",
+    "status": "PROVED",
+    "closure": "support-internal basis decoration plus generalized-MDS closure capacity",
+    "statement": "For one exact m'-support and every corank d=1,...,9, the number of rank-(10-d) eleven-subsets is at most floor(C(m',10-d) C(K'-10,d+1)/(d+2)). This counts all bases inside the actual support and uses no multi-record cap M_d.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_record_support_capacity/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_hybrid_capacity_cut"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+    "title": "A rank-eight owner flat has a universal owner-pair weight cap",
+    "status": "PROVED",
+    "closure": "independent coordinate-pair interpolation plus the fixed-owner slope cap",
+    "statement": "Fix a rank-eight nine-subset B in a residual row n'=1048576+K'. If W_B counts affine-owner component eleven-subsets containing B over all assigned records, then W_B <= 981105*C(n'-9,2). Every full-rank two-coordinate extension determines at most one owner pair in the affine U^2 flat, while one fixed owner pair owns at most 981105 selected records. This is an incidence-weight cap and does not pay the lower-shortening rank-eight route.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_component_ninesubset_target_router"},
+    {"from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_rank8_weighted_capacity_cut"}
+  ],
+  "refutes": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_rank9_weighted_component_cap",
+    "title": "A rank-nine nine-cell has a universal weighted component cap",
+    "status": "PROVED",
+    "closure": "unique owner-point charging through disjoint plane petals",
+    "statement": "Fix a rank-nine nine-subset B in a residual row n'=1048576+K', m'=67472+K'. If W_B counts affine-owner component eleven-subsets containing B over all assigned records, then W_B <= 981105*(m'-10)*n'. Each component extension has a unique owner point and at least one coordinate in that point's petal; one point owns at most 981105 records and the petals are disjoint. This is an incidence-weight cap, not a distinct-record cap.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/statement.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_rank9_weighted_component_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_rank9_ninecell_paircore_extension"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_rank9_weighted_target_elimination"}
+  ],
+  "refutes": []
+}

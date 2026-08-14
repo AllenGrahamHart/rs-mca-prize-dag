@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+    "title": "Rank-stratified capacity removes the first 4589 kernel shortenings",
+    "status": "PROVED",
+    "closure": "canonical-basis capacity sum with exhaustive exact interval replay",
+    "statement": "For every 10<=K'<=4598, the sum over all nine nonzero evaluation-rank strata of C(n',10-d) M_d C(K'-10,d+1) is strictly below the dominant kernel-lane demand (495405467/10^9)N_min C(m',11). At K'=4598 the exact integer gap is 219272330501201744129177266158988707697316238048878827197685. Hence the kernel lane cannot dominate on this interval. At K'=4599 the comparison reverses, so larger shortenings remain open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
