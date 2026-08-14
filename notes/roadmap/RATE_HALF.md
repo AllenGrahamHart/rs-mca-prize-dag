@@ -126,6 +126,16 @@ residual is now a high-core-absorbing positive-dimensional evaluation
 rank-flat or exact polynomial clone component of dimension `2..10`. This is
 the precise component-classification target.
 
+The full-evaluation-rank clone half of that target now collapses. On an
+evaluation basis of the absorbing correction space, every coefficient
+`H_j+P_j` for `j>=2` lies in the space and vanishes; injectivity forces
+`P_j=-H_j` globally. The polynomial clone curve is therefore one affine
+codeword owner line and contributes at most `n'-m'+1=981105` slopes. No
+genuinely nonlinear absorbing clone remains. The live relative frontier is
+evaluation rank-flats plus the chronology/aggregation problem for possibly
+many distinct affine owners; the single-owner cap must not be summed without
+a selector or compatibility theorem.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

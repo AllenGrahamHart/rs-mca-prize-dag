@@ -1,0 +1,30 @@
+{
+  "schema": "rate-half-mca-rank11-relative-absorbing-clone-affine-collapse-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_relative_correction_tenflat_collapse"
+  ],
+  "dimensions": {
+    "correction_minimum": 2,
+    "correction_maximum": 10,
+    "slope_degree_maximum": 31,
+    "received_line_degree": 1
+  },
+  "invariants": {
+    "R": 1048576,
+    "d": 67472,
+    "outside_agreement": 981104,
+    "affine_owner_cap": 981105
+  },
+  "routes": [
+    "AFFINE_OWNER_COMPONENT",
+    "EVALUATION_RANK_FLAT"
+  ],
+  "toy": {
+    "field": 17,
+    "basis_evaluation_matrix": [[1, 0], [0, 1]],
+    "high_coefficient": [4, 7],
+    "solved_correction_coefficient": [13, 10],
+    "sum": [0, 0]
+  },
+  "nonclaim": "Multiple affine owners and evaluation rank-flats remain unpaid."
+}

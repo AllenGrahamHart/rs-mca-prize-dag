@@ -40171,6 +40171,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "title": "Rank-eleven absorbing clone-to-affine collapse",
+   "status": "PROVED",
+   "closure": "coefficientwise cancellation of every high-core-absorbing full-rank clone curve to one affine owner",
+   "statement": "For a positive-dimensional polynomial clone component whose correction space W contains all high core coefficients, choose an evaluation basis B of W. The basis equations force each correction-curve coefficient P_j to equal -H_j for j>=2, because H_j+P_j lies in W and vanishes on B. Hence H+P has slope degree at most one and is one global affine codeword owner line. Residual support-wise badness bounds that component by n'-m'+1=981105 slopes. Multiple affine owners and evaluation rank-flat components remain unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/statement.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/proof.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/audit.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/result.md",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/verify.py",
+    "background/nodes/rate_half_mca_rank11_relative_absorbing_clone_affine_collapse/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
    "title": "Rank-eleven relative core-interpolant and correction-ray payment",
    "status": "PROVED",
@@ -76858,6 +76876,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76886,6 +76909,11 @@
    "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_correction_tenflat_collapse",
+   "to": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_shortened_partial_relative_router",
