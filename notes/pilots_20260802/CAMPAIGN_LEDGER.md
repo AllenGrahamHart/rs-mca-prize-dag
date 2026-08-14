@@ -6526,3 +6526,30 @@ pushes. Provenance-window lesson encoded (push public master before
 pinning).
 =======
 >>>>>>> a5ca83bed591a18c560c1477b6029068fd49a968
+
+## WAVE 62 INTEGRATED + PACKAGE A SHIPPED (2026-08-14, coordinator)
+
+**MERGED exact pin a5ca83bed (Codex cycles ~272-314, +27 nodes / +100
+edges, census-neutral 231=167/37/27; 60/60 replayed, zero failures).**
+CONTENT: (1) cycles 272-301 = full-lift/M31 continuation; (2) cycle
+302 = #1168 wall harvested (our import reconciled, its own
+independent derivation reached the SAME optimum 813929118931913384
+pre-sweep — overlap recorded, no duplicate node); (3) cycles 303-314 =
+the RANK-11 ASSAULT along the pre-registered escape: dense-core
+multi-owner fence, shared pair-core payments, order-32 heavy-pair
+compilation, common-support cancellation in rank-11 seeds, degree-18
+restoration, v4 interface routing, fixed-anchor globalization,
+line-global core strengthening, global-core rank-drop payments,
+relative correction-ray payments/routers, ten-flat collapse, absorbing
+clone affine collapse (owner_cap 981105). Rank 11 NOT yet paid;
+residual = evaluation rank-flats + owner chronology/compatibility.
+
+**PACKAGE A GATED AND SHIPPED**: branch
+codex/kb-dense-core-owner-substrate-post-1168 at b4bad8607, staged
+ready-but-unpushed per protocol; coordinator replayed primary +
+independent verifiers under ramguard (PASS; 36015 toy records, 8/8
+mutations upstream), audited the threshold note (scope-honest,
+R1 four-charge identity closes to B_* exactly), pushed to fork,
+**opened PR #1169** stacked on exact #1168 head with the acceptance
+contract framing. Package B (Shape-A -> #1161) not yet staged;
+directive stands.
