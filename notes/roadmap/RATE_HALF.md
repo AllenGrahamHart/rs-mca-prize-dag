@@ -136,6 +136,18 @@ evaluation rank-flats plus the chronology/aggregation problem for possibly
 many distinct affine owners; the single-owner cap must not be summed without
 a selector or compatibility theorem.
 
+Every individual evaluation rank-flat component now also has a paid route.
+For a flat tuple `T`, let `U` be the kernel of its evaluation map on the
+absorbing correction space. Rank-zero components are vertical. On a
+slope-dominating component, projecting the high coefficients modulo `U`
+leaves one affine owner, while all residual corrections lie in `U` and
+vanish on `T`. Translation by the owner followed by exact locator division
+shortens to explanation rank `dim U<=9`, paid by the uniform rank-drop
+theorem. Therefore all individual `(H_C)` components are classified and
+paid; the remaining rank-eleven-specific obstruction is purely aggregate:
+construct a chronology-correct selector or compatibility theorem controlling
+the number and total mass of component/affine owners.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
