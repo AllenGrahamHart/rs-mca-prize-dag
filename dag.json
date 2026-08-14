@@ -40337,6 +40337,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "title": "A rank-eight owner flat has a universal owner-pair weight cap",
+   "status": "PROVED",
+   "closure": "independent coordinate-pair interpolation plus the fixed-owner slope cap",
+   "statement": "Fix a rank-eight nine-subset B in a residual row n'=1048576+K'. If W_B counts affine-owner component eleven-subsets containing B over all assigned records, then W_B <= 981105*C(n'-9,2). Every full-rank two-coordinate extension determines at most one owner pair in the affine U^2 flat, while one fixed owner pair owns at most 981105 selected records. This is an incidence-weight cap and does not pay the lower-shortening rank-eight route.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "title": "Weighted owner-pair capacity excludes rank eight from K'=37996 onward",
+   "status": "PROVED",
+   "closure": "exact boundary crossing and monotone binomial-ratio propagation",
+   "statement": "The rank-eight affine-owner alternative in the fixed nine-subset target router cannot occur for any 37996<=K'<=1048576. At K'=37996 the weighted selector demand is 579191514708840299 and the owner-pair cap is 579155144020629315, a gap of 36370688210984. At K'=37995 the cap still exceeds demand by 18174297527234. The exact unrounded demand/cap ratio is a constant times C(m',11)/C(n',11), hence strictly increases with K'. The rank-eight route remains open below this first method crossing.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
    "title": "A fixed rank-nine chart alone does not pay its selector population",
    "status": "PROVED",
@@ -77097,12 +77135,22 @@
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
    "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_weighted_concentrator",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
    "kind": "req"
   },
   {
@@ -77291,6 +77339,21 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_rank9_fixed_chart_local_cap_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77341,6 +77404,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_rank9_weighted_target_elimination",
+   "to": "rate_half_mca_rank11_rank8_weighted_capacity_cut",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -77348,6 +77416,11 @@
   {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "to": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
    "kind": "req"
   },
   {

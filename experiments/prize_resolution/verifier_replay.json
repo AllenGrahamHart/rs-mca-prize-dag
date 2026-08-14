@@ -8,35 +8,35 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify.py",
-      "seconds": 0.04064,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify.py",
+      "seconds": 0.031,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_PASS ranks=9 rank9_cap=61871313426630599 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_PASS pairs=590309033203 cap=579155144020629315 controls=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_canonical_basis_globalizer/verify_audit.py",
-      "seconds": 0.04967,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_owner_pair_weight_cap/verify_audit.py",
+      "seconds": 0.03,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_CANONICAL_BASIS_GLOBALIZER_AUDIT_PASS pairs=9 proof_pins=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_OWNER_PAIR_WEIGHT_CAP_AUDIT_PASS pairs=590309033203 cap=579155144020629315 proof_pins=5/5\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify.py",
-      "seconds": 0.244733,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify.py",
+      "seconds": 0.033,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_PASS checked=4589 endpoint_gap=219272330501201744129177266158988707697316238048878827197685 wall_gap=95457494746881463288875361950515757435711627164872173764503 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_PASS last_gap=18174297527234 first_gap=36370688210984 controls=7/7\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_kernel_rankstratified_capacity_cut/verify_audit.py",
-      "seconds": 0.318857,
+      "script": "background/nodes/rate_half_mca_rank11_rank8_weighted_capacity_cut/verify_audit.py",
+      "seconds": 0.035,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_RANKSTRATIFIED_CAPACITY_CUT_AUDIT_PASS checked=4589 min_cross_gap=219272330501201744129177266158988707697316238048878827197684725013120 proof_pins=4/4\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_WEIGHTED_CAPACITY_CUT_AUDIT_PASS last_gap=18174297527234 first_gap=36370688210984 monotone_factors=11/11 proof_pins=3/3\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
