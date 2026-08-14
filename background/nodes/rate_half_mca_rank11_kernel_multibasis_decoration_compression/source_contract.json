@@ -1,0 +1,15 @@
+{
+  "schema": "rate-half-mca-rank11-kernel-multibasis-decoration-compression-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_kernel_canonical_basis_globalizer"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "minimum_corank": 1,
+    "maximum_corank": 9,
+    "global_common_zero_count": 0,
+    "basis_multiplicities": [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  },
+  "nonclaim": "The multiplicity compression alone does not pay the complete kernel lane, the affine-owner lane, rank eleven, or either prize."
+}

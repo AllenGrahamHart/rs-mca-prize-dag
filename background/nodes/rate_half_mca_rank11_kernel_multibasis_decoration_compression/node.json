@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
+    "title": "Every kernel incidence carries at least d+2 basis decorations",
+    "status": "PROVED",
+    "closure": "loopless-matroid fundamental-circuit exchange and all-bases double counting",
+    "statement": "A rank-(10-d) evaluation matroid on a kernel-lane eleven-set is loopless and has at least d+2 bases. Decorating every incidence by all its bases leaves the existing fixed-basis cap valid and improves the corank-d aggregate capacity to floor(C(n',10-d) M_d C(K'-10,d+1)/(d+2)). The factor d+2 is sharp under looplessness alone.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut"}
+  ],
+  "refutes": []
+}

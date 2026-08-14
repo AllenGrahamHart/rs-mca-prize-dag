@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
+    "title": "Multi-basis capacity removes the first 11632 kernel shortenings",
+    "status": "PROVED",
+    "closure": "basis-decoration divisors with exhaustive exact interval replay",
+    "statement": "For every 10<=K'<=11641, the sum over coranks d=1,...,9 of floor(C(n',10-d) M_d C(K'-10,d+1)/(d+2)) is strictly below the dominant kernel-lane demand. At K'=11641 the exact gap is 17769453550459149385453824948016076737082337523706893862084. Hence the kernel lane cannot dominate on this interval. The comparison reverses at K'=11642, which remains open.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/statement.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut"},
+    {"from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

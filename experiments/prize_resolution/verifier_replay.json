@@ -2,25 +2,41 @@
   "complete": true,
   "counts": {
     "FAIL": 0,
-    "PASS": 2,
+    "PASS": 4,
     "TIMEOUT": 0
   },
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify.py",
-      "seconds": 0.031,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify.py",
+      "seconds": 0.37973,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_PASS last_deficit=1170919108090 first_excess=11714977255865 delta5_cap=196221 controls=6/6\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 controls=6/6\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_rank8_dense_owner_terminal_bridge/verify_audit.py",
-      "seconds": 0.03,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_capacity_cut/verify_audit.py",
+      "seconds": 0.473448,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "RATE_HALF_MCA_RANK11_RANK8_DENSE_OWNER_TERMINAL_BRIDGE_AUDIT_PASS last_deficit=1170919108090 first_excess=11714977255865 proof_pins=5/5\n"
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_CAPACITY_CUT_AUDIT_PASS checked=11632 endpoint_gap=17769453550459149385453824948016076737082337523706893862084 wall_excess=187031323586740190878769118921060658362307444191332937452616 proof_pins=4/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify.py",
+      "seconds": 0.026019,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_PASS strata=9 multiplicities=3..11 controls=4/4\n"
+    },
+    {
+      "returncode": 0,
+      "script": "background/nodes/rate_half_mca_rank11_kernel_multibasis_decoration_compression/verify_audit.py",
+      "seconds": 0.027037,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "RATE_HALF_MCA_RANK11_KERNEL_MULTIBASIS_DECORATION_COMPRESSION_AUDIT_PASS multiplicities=3..11 proof_pins=5/5\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"
