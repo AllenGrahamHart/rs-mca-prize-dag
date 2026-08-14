@@ -40225,6 +40225,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
+   "title": "Rank-eleven rank-nine cells have an exact split-pencil ledger",
+   "status": "PROVED",
+   "closure": "affine owner-plane classification, pairwise-balanced record-line design, disjoint petal charge, and fixed-cell cap",
+   "statement": "For records assigned to one fixed rank-nine ten-coordinate cell B, all pair owners agreeing with the received pair on B form an affine plane. A slope gamma gives a record line of direction (-gamma*u,u), and distinct record lines meet in one owner, yielding sum_p C(t_p,2)=C(g,2). Owner cores split into one common root core J_B and pairwise disjoint off-root petals. At least 45153 petal-extension incidences per record, fixed-owner multiplicity at most 981105, and total petal size at most 2097152-10 imply g<=45567659. Cross-cell aggregation remains open.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/result.md",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank9_split_pencil_cell_ledger/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
    "title": "Rank-eleven absorbing clone-to-affine collapse",
    "status": "PROVED",
@@ -76858,6 +76876,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_component_star_owner_pencil_router",
+   "to": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76986,6 +77009,11 @@
    "from": "rate_half_mca_rank11_pair_core_route_cut_import",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_split_pencil_cell_ledger",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",

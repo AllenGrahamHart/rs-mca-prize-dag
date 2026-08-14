@@ -182,6 +182,16 @@ plane. The next aggregate target is therefore a census/chronology theorem
 for large owners, rank-nine split pencils, or codimension-two kernels, not
 arbitrary irreducible components.
 
+The rank-nine branch now has an exact fixed-cell split-pencil ledger. For a
+fixed ten-coordinate cell `B`, owners form an affine plane and record slopes
+form distinct-direction lines. Their intersections give
+`sum_p C(t_p,2)=C(g,2)`. The kernel zero set supports one common core, while
+off-root owner petals are pairwise disjoint. Charging at least 45153 petal
+extensions per record against fixed-owner multiplicity `981105` and the
+`n'-10` coordinate resource gives `g<=45567659` records per cell. Thus a
+large rank-nine lane must use many distinct cells; the live task is a
+cross-cell census or chronology compression.
+
 Canonical `prize` head `859a27a4b` has integrated the rank-eleven chain
 through clone collapse. Upstream PR `#1169` at `b4bad8607` now supplies the
 post-`#1168` reserve repricing, guarded dimension adapter, and chronology
