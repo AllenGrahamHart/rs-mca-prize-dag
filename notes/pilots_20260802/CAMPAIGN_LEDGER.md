@@ -6505,3 +6505,18 @@ ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
 catch on my own first draft (strict vs non-increasing c_delta
 monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
 census UNCHANGED 231(167/37/27).
+
+## 2026-08-13 LATE — EXPORT DIRECTIVE ISSUED (user-ratified)
+
+Inventory found our best Scott-relevant results are comment-only
+upstream (all 26 threshold notes on #1165 checked: no
+reserve/adapter/witness/rank10 packet; #1161 branch has zero Shape-A
+notes). USER RATIFIED shipping both packages. Directive appended to
+the worker goal file in the v12 worktree (committed): PACKAGE A = new
+PR stacked on #1168 (P1 reserve repricing + guarded K-adapter + typed
+pole-line witness + unguarded-transport regression + the bridge to
+#1168's dense-core owner theorem; #1167 convergence cited neutrally);
+PACKAGE B = wave-61 Shape-A program onto our #1161 branch. GATE:
+Codex leaves branches ready-but-unpushed; coordinator replays and
+pushes. Provenance-window lesson encoded (push public master before
+pinning).
