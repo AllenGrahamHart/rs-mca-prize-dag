@@ -101,6 +101,19 @@ relative core requires many projectively independent correction directions
 or a genuinely higher-dimensional correction space; the next transfer is
 the proper-intersection/clone-tolerant correction-space router.
 
+That correction-space transfer is now proved with honest shortened-row
+thresholds. Bidegree-`(31,1)` proper incidence pays every correction span
+through dimension `11`; the worst dimension-11 cap is
+`73766883380602812`, while the first admissible dimension-12 formula is
+`1241731241521316220>B_*`. Independently, generalized-weight basis curves
+pay every nonabsorbing correction span through dimension `9`, with worst
+cap `13013823503882165`. Hence the live `(H_C)` residual is now either
+dimension at least `12` or a positive-dimensional evaluation rank-flat /
+exact polynomial clone component; every survivor of dimension at most `9`
+must absorb the high slope coefficients. The next action is component
+classification or an aggregate high-dimensional correction census, not
+another common-core or order-32 selector.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

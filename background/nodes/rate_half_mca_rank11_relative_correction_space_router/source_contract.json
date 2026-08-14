@@ -1,0 +1,57 @@
+{
+  "schema": "rate-half-mca-rank11-relative-correction-space-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+    "rate_half_mca_rank11_relative_core_interpolant_ray_payment"
+  ],
+  "official": {
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "R": 1048576,
+    "d": 67472,
+    "budget": 274980728111395087,
+    "slope_degree": 31
+  },
+  "proper": {
+    "paid_through_dimension": 11,
+    "caps": [
+      {"s": 1, "worst_K": 10, "cap": 14970},
+      {"s": 2, "worst_K": 10, "cap": 348938},
+      {"s": 3, "worst_K": 10, "cap": 7229732},
+      {"s": 4, "worst_K": 10, "cap": 140434063},
+      {"s": 5, "worst_K": 10, "cap": 2618785495},
+      {"s": 6, "worst_K": 10, "cap": 47478715055},
+      {"s": 7, "worst_K": 10, "cap": 843236052370},
+      {"s": 8, "worst_K": 10, "cap": 14742324747124},
+      {"s": 9, "worst_K": 10, "cap": 254562115485950},
+      {"s": 10, "worst_K": 10, "cap": 4351738458746978},
+      {"s": 11, "worst_K": 11, "cap": 73766883380602812},
+      {"s": 12, "worst_K": 12, "cap": 1241731241521316220}
+    ]
+  },
+  "clone_tolerant": {
+    "minimum_support_excess": 1,
+    "M_1": 481,
+    "paid_through_dimension": 9,
+    "caps": [
+      {"s": 1, "cap": 14950},
+      {"s": 2, "cap": 464663},
+      {"s": 3, "cap": 14441915},
+      {"s": 4, "cap": 448853658},
+      {"s": 5, "cap": 13950124531},
+      {"s": 6, "cap": 433555556058},
+      {"s": 7, "cap": 13474255696819},
+      {"s": 8, "cap": 418753230043083},
+      {"s": 9, "cap": 13013823503882165},
+      {"s": 10, "cap": 404431535289439486}
+    ]
+  },
+  "routes": [
+    "DIM_GE_12:correction-span-dimension-at-least-twelve",
+    "RANK_FLAT:nonproper-evaluation-rank-defect",
+    "CLONE_COMPONENT:nonproper-exact-polynomial-curve",
+    "ABSORB_HIGH:required-for-every-survivor-of-dimension-at-most-nine"
+  ],
+  "nonclaim": "The positive-dimensional components and dimension-at-least-twelve branch remain unpaid."
+}

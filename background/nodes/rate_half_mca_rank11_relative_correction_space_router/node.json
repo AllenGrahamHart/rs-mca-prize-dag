@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_relative_correction_space_router",
+    "title": "Rank-eleven relative correction-space incidence router",
+    "status": "PROVED",
+    "closure": "uniform shortened-row proper-intersection and clone-tolerant compilers with exact positive-dimensional residual",
+    "statement": "For an H_C correction span W of dimension s, proper bidegree-(31,1) incidence gives N_W<=31(s+1) binom(n',s+1)/binom(m',s+1), uniformly paying s<=11; the first adjacent formula at s=12 exceeds budget. If W does not absorb the high core, generalized-weight basis curves give N_W<=M_a n'_fall_s/(d+a)_rise_s, uniformly paying s<=9. Hence every over-budget H_C residual has dimension at least 12 or a positive-dimensional evaluation rank-flat/polynomial clone component; every survivor of dimension at most 9 absorbs the high core.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/statement.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/proof.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/audit.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/result.md",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/verify.py",
+      "background/nodes/rate_half_mca_rank11_relative_correction_space_router/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router"},
+    {"from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}
