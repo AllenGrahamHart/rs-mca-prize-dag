@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_pair_core_route_cut_import",
+    "title": "Rank-eleven pair-core route cut: the exact wall above the paid strata",
+    "status": "PROVED",
+    "closure": "local route cut; rank eleven unpaid with exact terminals; zero ledger movement",
+    "statement": "Import of upstream PR #1168 (scottdhughes, stacked on #1167), coordinator-audited with the certificate-class wall independently reproduced. In the post-near stratification of the KoalaBear MCA row (n,K,m,w)=(2097152,1048576,1116048,67472), B_*=274980728111395087, at error rank eleven (explanation rank s=10): a new summed nonuniform margin resource bounds sum_gamma theta_gamma <= C_s; ordinary affine-span plus the sub-square interleaving collapse caps ordered minimizing pairs at Q_s(tau)=floor(C(n-K+s,s)/C(w-tau+s,s)); exception-set disjointness (an outside coordinate determines the slope by its affine ratio) caps each fixed pair at c_delta=floor((n-m+delta)/delta) records. Every over-budget rank-eleven line therefore forces exact dense-pair-core terminals: a delta<=8 pair of weight >= 743449148 (cutoff 6486) and a delta<=4 pair owning >= 200632 slopes (cutoff 1795). The complete declared certificate class bottoms out at the unique optimum J=19737 with U_high=5401690553097387, U_low=808527428378681053, U_total=813929118931913384 = U_high+U_low+2w, exceeding B_* by 538948390820518297 (factor > 2.9); the stronger nonuniform relaxation's optimizer 811958533186703629 is also over budget. RANK ELEVEN REMAINS UNPAID. A GF(7) constant-code star (four parallel slopes on one fixed pair) kills distinct-neighbor and reduced per-pair-multiplicity inferences from the local hypotheses. Pre-registered escape: couple different fixed minimizing pairs on the identical received line, or route dense parallel pair-core groups chronology-correctly to an earlier owner, handling the delta<=4/200632-slope terminal. Ledger position: near 2w and error ranks <=10 are paid (support-local transversality + the rank-10 margin/interleaving split, the latter independently converged by #1167); this wall is the first unpaid stratum of the first grand-challenge row.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/statement.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/audit.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/result.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/provenance.md",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify.py",
+      "background/nodes/rate_half_mca_rank11_pair_core_route_cut_import/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {
+      "to": "rate_half_band_crossing_location"
+    }
+  ],
+  "refutes": []
+}

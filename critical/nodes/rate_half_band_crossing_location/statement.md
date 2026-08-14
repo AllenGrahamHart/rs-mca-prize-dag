@@ -5554,3 +5554,46 @@ unchanged since 2026-07-29; no maintainer comments on our six open PRs).
   recorded on the K3 review node addendum; zero ledger movement each.
 
 All changes off-orbit; census re-pin only if the compile says otherwise.
+
+## Post-near error-rank ledger addendum (2026-08-13 evening, coordinator, task #45)
+
+The first grand-challenge row's post-near stratification now has a
+sourced ledger, banked node by node. All figures at the official
+KoalaBear row, `B_* = 274980728111395087`; every payment lives in the
+POST-NEAR STRATIFIED THEOREM, not the active-v4 first-match ledger
+(each packet records zero v4 movement).
+
+- **Near stratum: PAID**, `2w = 134944`
+  (`v13_2_near_rational_supportwise_two_anchor_payment`, from `#1160`).
+- **Error ranks <= 9: PAID**
+  (`rate_half_mca_support_local_transversality_compiler`, the `#1166`
+  theta-margin repair harvested after the `#1165`/Scott-`GF(257)`
+  double refutation of the affine-span compiler).
+- **Error rank 10: PAID, twice independently** — cycle 232
+  (`rate_half_mca_rank10_margin_interleaving_split_payment`, 06:40
+  UTC) and Scott's `#1167` (18:44 UTC): identical formula, optimum
+  `T = 667`, total `61871313426765543`, slack `213109414684629544`
+  (sum exactly `B_*`); `#1167` adds a `GF(11)` sharpness star.
+- **Error rank 11: UNPAID — this is the frontier.** NEW evidence node
+  `rate_half_mca_rank11_pair_core_route_cut_import` (from `#1168`,
+  wall independently reproduced: `L(19737) = 808527428378681053`
+  exact): the complete declared pair/core certificate class bottoms
+  out at `813929118931913384`, over `B_*` by factor `> 2.9`; every
+  over-budget rank-11 line forces a `delta <= 4` pair owning
+  `>= 200632` slopes. Pre-registered escape: cross-pair same-line
+  coupling, or a chronology-correct owner for dense parallel
+  pair-cores.
+- **Ranks >= 12**: behind the rank-11 wall (`#1166` exception ceilings
+  `12, 387, 12049` at ranks 10-12 in the gauge frame; rank `>= 13`
+  residual).
+- **Full-lift support walls** (compatible branch, Codex waves 60-61 +
+  the `#1164`/`#1165` thread): KoalaBear `e <= 96150`, Mersenne-31
+  `e <= 130198` (recursive line-peeling; `e = 130199` is the method
+  wall).
+
+Queued imports: `#1164`'s empty-global-core content (all-LineRay
+rank-three gate, degree-31/order-32 coherence fence, correction-ray
+identity/cap) — bankable at printed scope per cycle 217, not yet
+harvested. Consequence for THIS node: locating the crossing at the
+official row now reduces, within the post-near stratification, to the
+rank-11 coupling question plus the strata behind it.

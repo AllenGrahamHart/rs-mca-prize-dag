@@ -6485,3 +6485,23 @@ source/Hankel obstruction. Coordinator hand-checked the 265 pigeonhole
 export cycles). NOTE: two in-worktree merge attempts this session were
 self-merge no-ops (cwd drift, caught); merge redone with absolute
 paths. Chain: 2424/7189, all PASS, census UNCHANGED.
+
+## 2026-08-13 EVENING — #1167/#1168 REVIEW + CRITICAL ERROR-RANK LEDGER (task #45)
+
+Two new Scott PRs reviewed. **#1167 = RANK-10 CONVERGENCE**: identical
+theorem to our cycle-232 node (same formula, T=667, all totals, T=16
+robustness); ours first by ~11h via the #1165 thread; convergence
+recorded on the rank-10 node per the m2 protocol; his GF(11) sharpness
+star cited. **#1168 IMPORTED** as
+rate_half_mca_rank11_pair_core_route_cut_import (PROVED route cut):
+rank 11 unpaid — declared certificate class bottoms at
+813929118931913384 > B_* (factor >2.9); delta<=4 pair owning >=200632
+slopes forced; coordinator INDEPENDENTLY REPRODUCED the wall
+(L(19737)=808527428378681053 exact, own math.comb implementation);
+evidence edge -> rate_half_band_crossing_location. **CRITICAL-DAG
+INTEGRATION**: A1 now carries the post-near error-rank ledger addendum
+(near + ranks<=10 PAID with sources, rank 11 = the frontier wall,
+ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
+catch on my own first draft (strict vs non-increasing c_delta
+monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
+census UNCHANGED 231(167/37/27).
