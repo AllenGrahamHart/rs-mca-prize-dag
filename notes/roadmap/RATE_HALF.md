@@ -159,6 +159,19 @@ paid; the remaining rank-eleven-specific obstruction is purely aggregate:
 construct a chronology-correct selector or compatibility theorem controlling
 the number and total mass of component/affine owners.
 
+Dense-locator normalization now quantifies that aggregate obstruction. Away
+from the eighteen dense slopes, write every deviation as `q(gamma)R_gamma`,
+where `deg q=18` and `R_gamma in V'`. Coordinate agreement has bidegree
+`(18,1)` on `P^1 x P^10`. The excess-safe isolated-point Bezout number for
+eleven coordinates is only `198`, and its worst shortened incidence endpoint
+is `2526815879272440`. After the exact near and dense-anchor deductions, an
+unsafe residual therefore places at least `990810934/10^9` of all
+record/eleven-subset incidences on positive-dimensional components. These
+split into full-rank affine-owner and rank-deficient kernel lanes, one of
+which carries at least `495405467/10^9`. This is incidence abundance, not a
+record count: the next theorem must control overlap multiplicity in one of
+the two lanes.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a

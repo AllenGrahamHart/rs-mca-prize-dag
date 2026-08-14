@@ -40046,6 +40046,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "title": "Rank-eleven dense normalization forces component-incidence abundance",
+   "status": "PROVED",
+   "closure": "degree-18 dense-locator normalization, excess-safe isolated-point Bezout, and exact aggregate incidence dichotomy",
+   "statement": "After removing the eighteen dense anchor slopes, divide each deviation by their nonzero degree-18 locator value. The normalized vectors still span the fixed ten-dimensional V', and each coordinate agreement equation has bidegree (18,1) on P1 x P10. Any eleven-coordinate system has at most 198 isolated rich points, including when excess components are present. Uniform exact incidence summation over every shortening shows that an unsafe residual places at least 990810934 parts per billion of all record/eleven-subset incidences on positive-dimensional components. These split into full-rank affine-owner clones and rank-deficient kernel fibers, one lane carrying at least 495405467 parts per billion. Incidence overlap remains unpaid.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/statement.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/proof.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/audit.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/result.md",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/verify.py",
+    "background/nodes/rate_half_mca_rank11_dense_locator_component_incidence_dichotomy/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
    "title": "Rank-eleven dense pair cores need not coalesce",
    "status": "PROVED",
@@ -76817,6 +76835,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76842,9 +76865,19 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
@@ -76932,6 +76965,11 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_relative_absorbing_clone_affine_collapse",
+   "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_relative_core_interpolant_ray_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -76980,6 +77018,11 @@
    "from": "rate_half_mca_rank11_relative_rankflat_kernel_shortening_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_relative_rankflat_kernel_shortening_router",
+   "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_shortened_partial_relative_router",
