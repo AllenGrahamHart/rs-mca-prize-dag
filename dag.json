@@ -40082,6 +40082,24 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "title": "Rank-eleven global-core rank-drop and high-complexity router",
+   "status": "PROVED",
+   "closure": "uniform payment of every descended deviation rank at most nine and fixed-anchor isolation of the full-rank relative high-complexity core",
+   "statement": "In the nonempty line-global common-core branch, exact cancellation preserves the dense pair and deviation dimension r. Every r<=8 residual is paid uniformly by support-local transversality, and r=9 is paid uniformly by the T=667 margin/interleaving split. If r=10, eighteen dense records, a ten-record deviation basis, and three fillers form a fixed residual 31-anchor deck with empty maximal intersection. Every target tuple has degree 18..31 and either yields one relative high-complexity core H_C, or all low-complexity rational certificates cohere after lift into A, with pure-locator, denominator-root, and collision failures routed to E. H_C is not promoted to the deployed first-match spread terminal S.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/statement.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/proof.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/audit.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/result.md",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/verify.py",
+    "background/nodes/rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
    "title": "Rank-eleven heavy pairs compile to a small-core order-32 seed",
    "status": "PROVED",
@@ -76657,6 +76675,11 @@
   },
   {
    "from": "rate_half_mca_order32_partial_relative_harvest",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_order32_partial_relative_harvest",
    "to": "rate_half_mca_rank11_shortened_partial_relative_router",
    "kind": "req"
   },
@@ -76671,9 +76694,19 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank10_margin_interleaving_split_payment",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank11_anchor_star_sae_router",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_anchor_star_sae_router",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_dense_pair_core_multiowner_fence",
@@ -76694,6 +76727,11 @@
    "from": "rate_half_mca_rank11_dense_pair_degree18_seed_compiler",
    "to": "rate_half_mca_rank11_shortened_partial_relative_router",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_heavy_pair_order32_seed_compiler",
@@ -76761,8 +76799,18 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_support_local_error_rank_router",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
    "kind": "req"
   },
   {

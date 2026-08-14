@@ -1,0 +1,80 @@
+{
+  "schema": "rate-half-mca-rank11-global-core-rankdrop-highcomplexity-router-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_anchor_star_sae_router",
+    "rate_half_mca_rank11_shortened_partial_relative_router",
+    "rate_half_mca_support_local_transversality_compiler",
+    "rate_half_mca_rank10_margin_interleaving_split_payment",
+    "rate_half_mca_order32_partial_relative_harvest"
+  ],
+  "official": {
+    "p": 2130706433,
+    "extension_degree": 6,
+    "n": 2097152,
+    "K": 1048576,
+    "m": 1116048,
+    "R": 1048576,
+    "d": 67472,
+    "budget": 274980728111395087,
+    "near_charge": 134944,
+    "complexity_threshold": 2299571,
+    "near_sunflower_core_31": 1083345,
+    "near_sunflower_noncollision_31": 1015873
+  },
+  "rank_drop": {
+    "transversality": [
+      {"rank": 1, "short_endpoint": 16295594, "deployed_endpoint": 16295594, "maximum": 16295594},
+      {"rank": 2, "short_endpoint": 253241283, "deployed_endpoint": 253241283, "maximum": 253241283},
+      {"rank": 3, "short_endpoint": 3935435218, "deployed_endpoint": 3935435218, "maximum": 3935435218},
+      {"rank": 4, "short_endpoint": 61156835934, "deployed_endpoint": 118319201475, "maximum": 118319201475},
+      {"rank": 5, "short_endpoint": 950366735057, "deployed_endpoint": 3677348367069, "maximum": 3677348367069},
+      {"rank": 6, "short_endpoint": 14768331186162, "deployed_endpoint": 114289853114503, "maximum": 114289853114503},
+      {"rank": 7, "short_endpoint": 229490967859328, "deployed_endpoint": 3552007973114420, "maximum": 3552007973114420},
+      {"rank": 8, "short_endpoint": 3566101912297072, "deployed_endpoint": 110390969172173096, "maximum": 110390969172173096}
+    ],
+    "rank8_total_with_near": 110390969172308040,
+    "rank9": {
+      "threshold": 667,
+      "ordinary_list_cap": 57781140652,
+      "short_endpoint_total": 56810869226019054,
+      "deployed_high": 5143522968716559,
+      "low": 56727790457914040,
+      "deployed_total": 61871313426765543,
+      "slack": 213109414684629544
+    }
+  },
+  "full_rank": {
+    "rank": 10,
+    "residual_dimension_minimum": 10,
+    "dense_pair_owner_minimum": 220,
+    "dense_anchor_count": 18,
+    "basis_records": 10,
+    "fillers": 3,
+    "anchor_size": 31,
+    "tuple_size": 32,
+    "slope_degree_minimum": 18,
+    "slope_degree_maximum": 31,
+    "complexity_addback_per_core_coordinate": 2,
+    "sunflower_addback_per_core_coordinate": 1
+  },
+  "route_labels": [
+    "P:rank-drop-at-most-nine-paid",
+    "H_C:full-rank-relative-high-complexity-core",
+    "A:coherent-root-free-rational-atom-after-lift",
+    "E:pure-locator-denominator-root-or-collision-exception"
+  ],
+  "toy_lift": {
+    "core_size": 12345,
+    "residual_n": 2084807,
+    "residual_K": 1036231,
+    "residual_m": 1103703,
+    "residual_complexity_threshold": 2274881,
+    "residual_sunflower_core_31": 1071000,
+    "residual_noncollision_31": 1003528,
+    "field": 17,
+    "deleted_points": [0],
+    "residual_points": [1, 2, 3],
+    "denominator": [0, 1]
+  },
+  "nonclaim": "H_C is not the deployed first-match primitive spread terminal S and is not paid here."
+}

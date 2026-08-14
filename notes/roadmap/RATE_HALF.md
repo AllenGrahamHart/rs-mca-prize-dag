@@ -76,6 +76,20 @@ to `(S)/(A)/(E)`. The live rank-eleven-specific frontier is therefore the
 single line-global shortened-family residual `(C)`; the other three outputs
 are the shared upstream terminals.
 
+The line-global `(C)` residual is now split further without a local-core
+sum. Exact cancellation preserves the dense pair and the deviation-space
+dimension `r`. Every `r<=8` residual is uniformly paid by support-local
+transversality, and `r=9` is uniformly paid by the `T=667`
+margin/interleaving split over all shortened dimensions. At full rank
+`r=10`, the descended family has a fixed `18+10+3=31` anchor deck with
+empty residual common support. Low-complexity star tuples lift and cohere
+into `(A)` or a named `(E)` exception. The only new obstruction is `(H_C)`:
+one full-rank residual tuple with `chi'>=3m'-K'+3`, whose original lift has
+the official complexity `2299571` but retains the nonempty common factor.
+Do not identify `(H_C)` with deployed first-match `(S)`; the next
+rank-eleven-specific action is a relative abundance theorem or a direct
+common-core payment for `(H_C)`.
+
 Within terminal `(E)`, the denominator-root source gap is narrowed by three
 proved nodes. The upstream pole-tolerant localization/cancellation theorem is
 source-pinned; an exact dichotomy preserves reduced MCA witnesses or emits a
