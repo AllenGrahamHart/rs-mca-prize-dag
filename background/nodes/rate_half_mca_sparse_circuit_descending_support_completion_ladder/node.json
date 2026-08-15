@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_descending_support_completion_ladder",
+    "title": "Descending support completion ladder is exhaustive",
+    "status": "PROVED",
+    "closure": "integer maximum partition plus the proved cross-support carrier on every terminal leaf",
+    "statement": "For q>=8, recursively splitting completion maxima at source supports 5,4,3,2 gives exactly 27 disjoint exhaustive leaves. Terminal leaf (c,s) retains the source ceiling q-s and every valid cross-support carrier cap; the final leaf retains simultaneous ceilings q-5,q-6,q-7,q-8.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k43_descending_support_ladder_payment"}
+  ],
+  "refutes": []
+}

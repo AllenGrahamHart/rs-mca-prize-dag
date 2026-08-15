@@ -1,0 +1,36 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-descending-support-completion-ladder-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_cross_support_defect_carrier"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "minimum_quotient_dimension": 8,
+    "source_order": [5, 4, 3, 2],
+    "terminal_defects": {
+      "5": [0, 1, 2, 3, 4],
+      "4": [0, 1, 2, 3, 4, 5],
+      "3": [0, 1, 2, 3, 4, 5, 6],
+      "2": [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    "fallback_ceilings": {
+      "5": "q-5",
+      "4": "q-6",
+      "3": "q-7",
+      "2": "q-8"
+    },
+    "carrier_condition": "c+(s+1)d-s-1<=10",
+    "carrier_size": "q+c-1+s(d-1)",
+    "terminal_branch_count": 26,
+    "all_fallback_branch_count": 1,
+    "total_leaf_count": 27
+  },
+  "logical_pins": [
+    "each_completion_maximum_is_an_integer_between_zero_and_q",
+    "terminal_defects_and_fallback_partition_each_stage",
+    "fallback_ceilings_persist_down_the_ladder",
+    "carrier_caps_are_used_only_on_terminal_valid_targets"
+  ],
+  "claim": "The descending source-support completion ladder has 27 disjoint exhaustive leaves with the stated retained caps.",
+  "nonclaim": "No weighted premium, component row, rank alternative, chronology owner, or prize result is paid."
+}

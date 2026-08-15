@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
+    "title": "Descending-support completion ladder pays K'=43",
+    "status": "PROVED",
+    "closure": "all 27 descending-support leaves, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+    "statement": "At K'=43, the exhaustive descending-support ladder capacity is below exact component demand by 4456829341030748859349785682161828589177837723939653522311506. The closed component prefix is K'=10..43; the same payment first fails at K'=44.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k42_cross_support_defect_payment"},
+    {"from": "rate_half_mca_sparse_circuit_descending_support_completion_ladder"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

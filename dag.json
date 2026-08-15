@@ -40512,6 +40512,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
+   "title": "Descending-support completion ladder pays K'=43",
+   "status": "PROVED",
+   "closure": "all 27 descending-support leaves, all-core chart, every kernel corank, full shadow ledger, and sharp isolated demand",
+   "statement": "At K'=43, the exhaustive descending-support ladder capacity is below exact component demand by 4456829341030748859349785682161828589177837723939653522311506. The closed component prefix is K'=10..43; the same payment first fails at K'=44.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k43_descending_support_ladder_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41598,6 +41617,25 @@
     "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_cross_support_defect_carrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_descending_support_completion_ladder",
+   "title": "Descending support completion ladder is exhaustive",
+   "status": "PROVED",
+   "closure": "integer maximum partition plus the proved cross-support carrier on every terminal leaf",
+   "statement": "For q>=8, recursively splitting completion maxima at source supports 5,4,3,2 gives exactly 27 disjoint exhaustive leaves. Terminal leaf (c,s) retains the source ceiling q-s and every valid cross-support carrier cap; the final leaf retains simultaneous ceilings q-5,q-6,q-7,q-8.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_descending_support_completion_ladder/verify_audit.py"
    ]
   },
   {
@@ -78611,6 +78649,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k42_cross_support_defect_payment",
+   "to": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79413,6 +79461,21 @@
   {
    "from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
    "to": "rate_half_mca_rank11_k42_cross_support_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
+   "to": "rate_half_mca_sparse_circuit_descending_support_completion_ladder",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_descending_support_completion_ladder",
+   "to": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_descending_support_completion_ladder",
+   "to": "rate_half_mca_rank11_k43_descending_support_ladder_payment",
    "kind": "req"
   },
   {
