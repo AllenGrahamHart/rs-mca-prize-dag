@@ -6579,3 +6579,20 @@ flats to the d>=3 record-support profile. CATCH: conflict markers
 found in the committed ledger (imported from Codex's own merge of our
 master at a5ca83bed) — hand-resolved, content preserved, marker grep
 clean. Package B still unstaged. Chain: 2475/7351, all PASS.
+
+## WAVE 65 INTEGRATED (2026-08-15 morning, coordinator)
+
+**MERGED (worktree at de0e80133 incl. escalation note; cycles 331-346, +28
+nodes, census-neutral; 60/60 replayed; markers clean).** The overnight
+kernel campaign: nine-shadow pricing/coupling across all rank steps
+(331-335), projective pair/basis caps at coranks 1-3 (336-338), a
+projective-paving scope repair (339), two UNIVERSAL matroid cap nodes
+(340-341), and the KERNEL CLOSURE (342: coupled invariant
+M_d(t)*C(S-t,d+1) closes the fixed-kernel branch without coranks 4-9).
+Rank-8: chart fence narrowed, minimal-shortening row closed, K'=11
+circuit-shadow census. HONEST RETRACTION (346): an invalid low-row
+core comparison reopened rank-9 rows K'=10..20617; dependencies
+repaired; K'=37996 boundary unmoved; next = residual-unit
+plane/chronology cap for K'<=20617. PACKAGE B: escalated to BLOCKING
+at next cycle boundary (4 boundaries missed). Chain: 2503/7444, all
+PASS.
