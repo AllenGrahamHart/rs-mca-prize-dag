@@ -6610,3 +6610,22 @@ K'=11 circuit closure; spot-audit confirms its chart capacities
 rate_half_mca_rank11_k11_circuit_split_pencil_payment node (wave-65
 replayed). Upstream queue now holds 8 of our PRs. Nothing to import;
 census untouched.
+
+## WAVE 66 INTEGRATED + PACKAGE B DISCHARGED (2026-08-15 evening, coordinator)
+
+**MERGED (worktree at 57196dc8c; cycles ~347-362, +34 nodes, census-neutral;
+68/68 replayed; markers clean).** THE K' LADDER COLLAPSED IN BLOCKS:
+morning petal cut + minimal rank-9 row + K'=11 (circuit-shadow
+split-pencil, capacities 9274924665987729/9275866238180030) + K'=12
+(quotient-line circuit); afternoon K'=13, 14..21 (joint sparse
+shadows), 22 (integral near-saturation), 23 (completion-defect
+hierarchy), 24..40 (full shadow deficits, 17 rows in one cycle),
+41..45 (isolated-incidence / cross-support / ladder / lattice /
+carriers), 46..53 (deep joint defects). CLOSED PREFIX K'=10..53;
+remaining rank-nine 54..15528 (top boundary improved from 20617); next
+= the balanced deep joint wall at K'=54. Exports flowed to #1170
+throughout (incl. the K'=45 packet). **PACKAGE B DISCHARGED BY
+COORDINATOR**: consolidated #1161 comment (issuecomment-5303681282) at
+public head 8c3a30f9a — 31-node Shape-A cluster, tensor-rank-2
+exclusion + all-rank birationality headlined; blocking directive
+LIFTED. Chain: 2537/7553, all PASS, census UNCHANGED 231(167/37/27).
