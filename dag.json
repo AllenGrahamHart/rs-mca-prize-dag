@@ -40455,6 +40455,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "title": "Full circuit deficits pay K'=24..40",
+   "status": "PROVED",
+   "closure": "all-core charts, every kernel corank, universal support-six-through-nine caps, and the full 55-shadow ledger",
+   "statement": "For every 24<=K'<=40, complete rank-eleven component capacity is strictly below dense-locator demand. The smallest gap is 2272401814108959137912675549447888006236817090602808413697595 at K'=40, extending the closed component prefix to K'=10..40; the same method first fails at K'=41.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41430,6 +41449,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank9_full_circuit_deficit_ledger",
+   "title": "Charge every circuit by its full rank-nine shadow deficit",
+   "status": "PROVED",
+   "closure": "exact 55-shadow census and recordwise support-two-through-nine deficit caps",
+   "statement": "A support-c circuit creates 55-C(11-c,2) rank-nine shadows. Given one global rank-nine mark capacity G and recordwise incidence caps L_c through support nine, complete full-rank incidence is at most floor((G+R max_a sum_(c=2)^9 C(11-c,2)L_a,c)/55).",
+   "refs": [
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/statement.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/proof.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/claim_contract.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/attack.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/audit.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/result.md",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/source_contract.json",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/verify.py",
+    "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
    "title": "Jointly charge sparse and high circuits to rank-nine shadows",
    "status": "PROVED",
@@ -41503,6 +41541,25 @@
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_near_saturation_carrier/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+   "title": "Bound every sparse circuit stratum by universal completion incidence",
+   "status": "PROVED",
+   "closure": "common-zero completion ceiling, private-coordinate exclusion, and exact deletion count",
+   "statement": "For a ten-dimensional correction space in P_K, every independent deletion has at most q=K-10 circuit completions. A selected rank-ten eleven-set retains at most one completion label, so for every 2<=c<=9 the support-c incidence is at most floor(C(m,c-1) max_(0<=b<=q) b C(m-c+1-b,11-c)/c).",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/verify_audit.py"
    ]
   },
   {
@@ -78443,6 +78500,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79158,6 +79225,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank9_full_circuit_deficit_ledger",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank9_full_circuit_deficit_ledger",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
    "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "kind": "ev"
@@ -79178,6 +79255,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "to": "rate_half_mca_rank9_full_circuit_deficit_ledger",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
    "to": "rate_half_mca_rank11_k23_completion_defect_payment",
    "kind": "ev"
@@ -79185,6 +79267,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
    "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
    "kind": "req"
   },
   {
@@ -79203,6 +79290,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "to": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_rank11_k22_integral_near_saturation_payment",
    "kind": "ev"
@@ -79215,6 +79307,21 @@
   {
    "from": "rate_half_mca_sparse_circuit_near_saturation_carrier",
    "to": "rate_half_mca_sparse_circuit_completion_defect_hierarchy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+   "to": "rate_half_mca_rank9_full_circuit_deficit_ledger",
    "kind": "req"
   },
   {
@@ -79310,6 +79417,11 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
    "to": "rate_half_mca_rank11_k23_completion_defect_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap",
+   "to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
    "kind": "req"
   },
   {

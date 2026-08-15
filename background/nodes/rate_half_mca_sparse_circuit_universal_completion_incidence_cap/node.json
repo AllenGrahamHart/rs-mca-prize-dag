@@ -1,0 +1,30 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap",
+    "title": "Bound every sparse circuit stratum by universal completion incidence",
+    "status": "PROVED",
+    "closure": "common-zero completion ceiling, private-coordinate exclusion, and exact deletion count",
+    "statement": "For a ten-dimensional correction space in P_K, every independent deletion has at most q=K-10 circuit completions. A selected rank-ten eleven-set retains at most one completion label, so for every 2<=c<=9 the support-c incidence is at most floor(C(m,c-1) max_(0<=b<=q) b C(m-c+1-b,11-c)/c).",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_universal_completion_incidence_cap/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_sparse_circuit_completion_dimension_ladder"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment"}
+  ],
+  "refutes": []
+}

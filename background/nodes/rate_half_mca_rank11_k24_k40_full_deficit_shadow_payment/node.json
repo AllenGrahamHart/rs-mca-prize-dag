@@ -1,0 +1,34 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment",
+    "title": "Full circuit deficits pay K'=24..40",
+    "status": "PROVED",
+    "closure": "all-core charts, every kernel corank, universal support-six-through-nine caps, and the full 55-shadow ledger",
+    "statement": "For every 24<=K'<=40, complete rank-eleven component capacity is strictly below dense-locator demand. The smallest gap is 2272401814108959137912675549447888006236817090602808413697595 at K'=40, extending the closed component prefix to K'=10..40; the same method first fails at K'=41.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k23_completion_defect_payment"},
+    {"from": "rate_half_mca_sparse_circuit_completion_defect_hierarchy"},
+    {"from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap"},
+    {"from": "rate_half_mca_rank9_full_circuit_deficit_ledger"},
+    {"from": "rate_half_mca_weighted_split_pencil_integral_heavy_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

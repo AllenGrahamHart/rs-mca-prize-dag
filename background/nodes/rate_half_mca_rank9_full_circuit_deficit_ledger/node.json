@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank9_full_circuit_deficit_ledger",
+    "title": "Charge every circuit by its full rank-nine shadow deficit",
+    "status": "PROVED",
+    "closure": "exact 55-shadow census and recordwise support-two-through-nine deficit caps",
+    "statement": "A support-c circuit creates 55-C(11-c,2) rank-nine shadows. Given one global rank-nine mark capacity G and recordwise incidence caps L_c through support nine, complete full-rank incidence is at most floor((G+R max_a sum_(c=2)^9 C(11-c,2)L_a,c)/55).",
+    "refs": [
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/statement.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/proof.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/claim_contract.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/attack.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/audit.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/result.md",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/source_contract.json",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/verify.py",
+      "background/nodes/rate_half_mca_rank9_full_circuit_deficit_ledger/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank9_sparse_shadow_joint_ledger"},
+    {"from": "rate_half_mca_sparse_circuit_universal_completion_incidence_cap"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k24_k40_full_deficit_shadow_payment"}
+  ],
+  "refutes": []
+}

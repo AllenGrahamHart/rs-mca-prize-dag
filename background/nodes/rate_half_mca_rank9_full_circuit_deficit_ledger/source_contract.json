@@ -1,0 +1,20 @@
+{
+  "schema": "rate-half-mca-rank9-full-circuit-deficit-ledger-v1",
+  "dependencies": [
+    "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+    "rate_half_mca_sparse_circuit_universal_completion_incidence_cap"
+  ],
+  "parameters": {
+    "component_subset_size": 11,
+    "shadow_subset_size": 9,
+    "total_shadow_count": 55,
+    "circuit_supports": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "rank9_shadow_counts": [19, 27, 34, 40, 45, 49, 52, 54, 55, 55],
+    "deficit_weights": [36, 28, 21, 15, 10, 6, 3, 1, 0, 0],
+    "shadow_formula": "55-C(11-c,2)",
+    "deficit_formula": "C(11-c,2)",
+    "joint_capacity_formula": "floor((G+R*max_a(sum_(c=2)^9(C(11-c,2)*L_a_c)))/55)"
+  },
+  "claim": "The exact full-deficit ledger bounds complete rank-ten eleven-set incidence using all 55 rank-nine-shadow slots and recordwise caps through support nine.",
+  "nonclaim": "No rank-nine chart cap, completion cap, kernel payment, finite-row closure, chronology movement, or prize closure is asserted."
+}
