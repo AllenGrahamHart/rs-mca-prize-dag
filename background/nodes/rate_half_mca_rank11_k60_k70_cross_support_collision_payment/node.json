@@ -1,0 +1,31 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+    "title": "Cross-support collisions close K'=60..70",
+    "status": "PROVED",
+    "closure": "exact low-support defects, cross-support collision caps, grouped Pareto compression, full rank-nine payment, and adjacent K'=71 wall",
+    "statement": "Exact defects at supports 2..5, cross-support collision charges into every target with c+d<=11, the joint support-four charge, and all support-6..9 terminal/fallback branches close every rank-nine component row K'=60..70. The exact payment first fails at K'=71.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_k54_k59_small_support_collision_payment"},
+    {"from": "rate_half_mca_sparse_circuit_cross_support_collision_charge"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

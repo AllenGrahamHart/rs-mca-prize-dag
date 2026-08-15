@@ -1,0 +1,222 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-cross-support-collision-charge-v1",
+  "dependencies": [
+    "rate_half_mca_sparse_circuit_small_support_self_collision_charge",
+    "rate_half_mca_sparse_circuit_cross_support_defect_carrier"
+  ],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_size": 11,
+    "source_support_range": [
+      2,
+      5
+    ],
+    "target_support_range": [
+      2,
+      9
+    ],
+    "support_condition": "c+d<=11",
+    "completion_maximum": "M_c=q-s>0",
+    "source_carrier_size": "b=q+c-1-s",
+    "intersection_dimension": "12-c-d",
+    "target_outside_budget": "s+d-1",
+    "inside_count": "C(b,d)",
+    "outside_stratum_count": "floor(C(b,d-j)C(m-b,j-1)(s+d-j)/j)",
+    "incidence_multiplier": "C(m-d,11-d)",
+    "empty_source_nonclaim": "s=q gives no target cap",
+    "K60_defect25_samples": {
+      "2": {
+        "2": {
+          "intersection_dimension": 8,
+          "source_carrier_size": 26,
+          "target_outside_budget": 26,
+          "target_support_count": 844826,
+          "target_incidence_cap": 67958448469885558673958666099258582988260900
+        },
+        "3": {
+          "intersection_dimension": 7,
+          "source_carrier_size": 26,
+          "target_outside_budget": 27,
+          "target_support_count": 19010297278,
+          "target_incidence_cap": 203803131166869826628951121626935565132393310
+        },
+        "4": {
+          "intersection_dimension": 6,
+          "source_carrier_size": 26,
+          "target_outside_budget": 28,
+          "target_support_count": 320946242163205,
+          "target_incidence_cap": 407618519534624992011934654928879754216388200
+        },
+        "5": {
+          "intersection_dimension": 5,
+          "source_carrier_size": 26,
+          "target_outside_budget": 29,
+          "target_support_count": 4334702505958704435,
+          "target_incidence_cap": 570683165901236352149542102457785017901408725
+        },
+        "6": {
+          "intersection_dimension": 4,
+          "source_carrier_size": 26,
+          "target_outside_budget": 30,
+          "target_support_count": 48786383038690645734708,
+          "target_incidence_cap": 570700404991119674450137831605018913242765240
+        },
+        "7": {
+          "intersection_dimension": 3,
+          "source_carrier_size": 26,
+          "target_outside_budget": 31,
+          "target_support_count": 470635545156701075523890956,
+          "target_incidence_cap": 407655460422573445890992320242786057859835900
+        },
+        "8": {
+          "intersection_dimension": 2,
+          "source_carrier_size": 26,
+          "target_outside_budget": 32,
+          "target_support_count": 3972578147466490947063585449983,
+          "target_incidence_cap": 203833887393821370631711511535711408463068092
+        },
+        "9": {
+          "intersection_dimension": 1,
+          "source_carrier_size": 26,
+          "target_outside_budget": 33,
+          "target_support_count": 29805829987850989563146885059573725,
+          "target_incidence_cap": 67946681586242071215243386334187539932621175
+        }
+      },
+      "3": {
+        "2": {
+          "intersection_dimension": 7,
+          "source_carrier_size": 27,
+          "target_outside_budget": 26,
+          "target_support_count": 844865,
+          "target_incidence_cap": 67961585659662300318733192910670484474172250
+        },
+        "3": {
+          "intersection_dimension": 6,
+          "source_carrier_size": 27,
+          "target_outside_budget": 27,
+          "target_support_count": 19010612990,
+          "target_incidence_cap": 203806515811160550950295670745906532708923550
+        },
+        "4": {
+          "intersection_dimension": 5,
+          "source_carrier_size": 27,
+          "target_outside_budget": 28,
+          "target_support_count": 320951756856482,
+          "target_incidence_cap": 407625523483616908265987377884590900876603280
+        },
+        "5": {
+          "intersection_dimension": 4,
+          "source_carrier_size": 27,
+          "target_outside_budget": 29,
+          "target_support_count": 4334779554554616550,
+          "target_incidence_cap": 570693309696936962967731606819312439833534250
+        },
+        "6": {
+          "intersection_dimension": 3,
+          "source_carrier_size": 27,
+          "target_outside_budget": 30,
+          "target_support_count": 48787279100163401747183,
+          "target_incidence_cap": 570710887068567253155101238096814760674314490
+        },
+        "7": {
+          "intersection_dimension": 2,
+          "source_carrier_size": 27,
+          "target_outside_budget": 31,
+          "target_support_count": 470644468046001837303226434,
+          "target_incidence_cap": 407663189257727600218208184717793048629503850
+        },
+        "8": {
+          "intersection_dimension": 1,
+          "source_carrier_size": 27,
+          "target_outside_budget": 32,
+          "target_support_count": 3972655816965539645956412886477,
+          "target_incidence_cap": 203837872633465585975066302549795682769976948
+        }
+      },
+      "4": {
+        "2": {
+          "intersection_dimension": 6,
+          "source_carrier_size": 28,
+          "target_outside_budget": 26,
+          "target_support_count": 844906,
+          "target_incidence_cap": 67964883730966054355547439045744534754232900
+        },
+        "3": {
+          "intersection_dimension": 5,
+          "source_carrier_size": 28,
+          "target_outside_budget": 27,
+          "target_support_count": 19010928738,
+          "target_incidence_cap": 203809900841395409375112905108923602286115010
+        },
+        "4": {
+          "intersection_dimension": 4,
+          "source_carrier_size": 28,
+          "target_outside_budget": 28,
+          "target_support_count": 320957271713471,
+          "target_incidence_cap": 407632527640531629972669408238023439500870840
+        },
+        "5": {
+          "intersection_dimension": 3,
+          "source_carrier_size": 28,
+          "target_outside_budget": 29,
+          "target_support_count": 4334856605433283531,
+          "target_incidence_cap": 570703453793172563699192755778494436683682685
+        },
+        "6": {
+          "intersection_dimension": 2,
+          "source_carrier_size": 28,
+          "target_outside_budget": 30,
+          "target_support_count": 48788175188184160818997,
+          "target_incidence_cap": 570721369456571900328423897741495268762210910
+        },
+        "7": {
+          "intersection_dimension": 1,
+          "source_carrier_size": 28,
+          "target_outside_budget": 31,
+          "target_support_count": 470653391199664921896101599,
+          "target_incidence_cap": 407670918321867315738113456723566124446150475
+        }
+      },
+      "5": {
+        "2": {
+          "intersection_dimension": 5,
+          "source_carrier_size": 29,
+          "target_outside_budget": 26,
+          "target_support_count": 844947,
+          "target_incidence_cap": 67968181802269808392361685180818585034293550
+        },
+        "3": {
+          "intersection_dimension": 4,
+          "source_carrier_size": 29,
+          "target_outside_budget": 27,
+          "target_support_count": 19011244522,
+          "target_incidence_cap": 203813286257574401903402824715986773863967690
+        },
+        "4": {
+          "intersection_dimension": 3,
+          "source_carrier_size": 29,
+          "target_outside_budget": 28,
+          "target_support_count": 320962786734203,
+          "target_incidence_cap": 407639532005408528753908469726773449565044120
+        },
+        "5": {
+          "intersection_dimension": 2,
+          "source_carrier_size": 29,
+          "target_outside_budget": 29,
+          "target_support_count": 4334933658594807152,
+          "target_incidence_cap": 570713598189956553350765486264571697976117520
+        },
+        "6": {
+          "intersection_dimension": 1,
+          "source_carrier_size": 29,
+          "target_outside_budget": 30,
+          "target_support_count": 48789071302754102794077,
+          "target_incidence_cap": 570731852155147417718975596898520410212703310
+        }
+      }
+    }
+  },
+  "claim": "Exact nonempty source defects give branch-safe target-circuit and selected-incidence caps whenever c+d<=11.",
+  "nonclaim": "No target cap follows from an empty source stratum, no pair with c+d>=12 is covered, and no rank-eight, rank-eleven, KoalaBear, or prize closure is asserted."
+}

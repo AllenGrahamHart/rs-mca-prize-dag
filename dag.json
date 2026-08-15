@@ -40607,6 +40607,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+   "title": "Cross-support collisions close K'=60..70",
+   "status": "PROVED",
+   "closure": "exact low-support defects, cross-support collision caps, grouped Pareto compression, full rank-nine payment, and adjacent K'=71 wall",
+   "statement": "Exact defects at supports 2..5, cross-support collision charges into every target with c+d<=11, the joint support-four charge, and all support-6..9 terminal/fallback branches close every rank-nine component row K'=60..70. The exact payment first fails at K'=71.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k60_k70_cross_support_collision_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41693,6 +41712,25 @@
     "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/source_contract.json",
     "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify.py",
     "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
+   "title": "Small-source cross-support collision charge",
+   "status": "PROVED",
+   "closure": "exact source defects, mixed-support vanishing-space intersections, outside-carrier collision counts, and selected eleven-set incidence",
+   "statement": "For source support c=2,3,4,5, target support 2<=d<=9, c+d<=11, and nonempty exact source defect s, an attaining source carrier bounds every target-support deletion carrier outside it by s+d-1. Exact external-deletion counting gives the printed target-circuit and selected-incidence caps.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_cross_support_collision_charge/verify_audit.py"
    ]
   },
   {
@@ -78870,6 +78908,16 @@
    "kind": "ev"
   },
   {
+   "from": "rate_half_mca_rank11_k54_k59_small_support_collision_payment",
+   "to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "kind": "req"
@@ -79685,6 +79733,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
+   "to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
+   "to": "rate_half_mca_rank11_k60_k70_cross_support_collision_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
    "to": "rate_half_mca_rank11_k42_cross_support_defect_payment",
    "kind": "ev"
@@ -79697,6 +79755,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
    "to": "rate_half_mca_sparse_circuit_completion_branch_lattice_refinement",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_cross_support_defect_carrier",
+   "to": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
    "kind": "req"
   },
   {
@@ -79747,6 +79810,11 @@
   {
    "from": "rate_half_mca_sparse_circuit_small_support_self_collision_charge",
    "to": "rate_half_mca_rank11_k54_k59_small_support_collision_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_small_support_self_collision_charge",
+   "to": "rate_half_mca_sparse_circuit_cross_support_collision_charge",
    "kind": "req"
   },
   {
