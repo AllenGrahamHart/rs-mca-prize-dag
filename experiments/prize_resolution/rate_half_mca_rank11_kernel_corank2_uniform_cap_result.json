@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "parameters": {
+    "R": 1048576,
+    "t_maximum": 1048566,
+    "t_minimum": 0,
+    "target_cap": 84416263,
+    "w": 67472
+  },
+  "rows": {
+    "adjacent": {
+      "division_remainder": 8673040422,
+      "next_integer_gap": 13799380132602,
+      "ordered_basis_floor": 13657817184,
+      "ratio_step_sign": -846155,
+      "record_cap": 84415253,
+      "resource": 1152928101688147974,
+      "t": 1
+    },
+    "complete": {
+      "division_remainder": 2935655472,
+      "next_integer_gap": 10721959296,
+      "ordered_basis_floor": 13657614768,
+      "ratio_step_sign": -846157,
+      "record_cap": 84416263,
+      "resource": 1152924803143827456,
+      "t": 0
+    },
+    "official_endpoint": {
+      "division_remainder": 15151325760,
+      "next_integer_gap": 9846731093898357072,
+      "ordered_basis_floor": 225904150224,
+      "ratio_step_sign": 1250975,
+      "record_cap": 40828171,
+      "resource": 9223253290106486064,
+      "t": 1048566
+    },
+    "turn_left": {
+      "division_remainder": 2522413248,
+      "next_integer_gap": 5194880318415992304,
+      "ordered_basis_floor": 99295371216,
+      "ratio_step_sign": -1,
+      "record_cap": 32098817,
+      "resource": 3187263952131864720,
+      "t": 423078
+    },
+    "turn_right": {
+      "division_remainder": 2518003416,
+      "next_integer_gap": 5194890908308754088,
+      "ordered_basis_floor": 99295573632,
+      "ratio_step_sign": 1,
+      "record_cap": 32098817,
+      "resource": 3187270449441596760,
+      "t": 423079
+    }
+  },
+  "scan": {
+    "checked_rows": 1048567,
+    "first_excess": null,
+    "first_maximizer": 0,
+    "maximum_record_cap": 84416263
+  },
+  "schema": "rate-half-mca-rank11-kernel-corank2-uniform-cap-v1"
+}

@@ -2,10 +2,10 @@
   "schema": "prize-dag-node-v1",
   "node": {
     "id": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
-    "title": "A uniform corank-two cap would remove the kernel through 568338",
-    "status": "CONDITIONAL",
-    "closure": "exact conditional two-root hierarchy-tree certificate; uniform M2 premise open",
-    "statement": "Conditional on the open uniform bound M_2<=84416263 in every corank-two chart, the projective corank-one and corank-two caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 377674<=K'<=568338. The conditional resource comparison reverses at K'=568339.",
+    "title": "Uniform corank-two cap removes the kernel through 568338",
+    "status": "PROVED",
+    "closure": "proved uniform M2 parent plus exact two-root hierarchy-tree certificate",
+    "statement": "The uniform bounds M_1<=8147918 and M_2<=84416263, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 377674<=K'<=568338. Combined with the predecessor, the unconditional kernel cutoff is 568338; the resource comparison reverses at K'=568339.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/statement.md",
       "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/proof.md",

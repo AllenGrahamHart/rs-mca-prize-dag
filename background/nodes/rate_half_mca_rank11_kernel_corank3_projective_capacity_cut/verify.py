@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "4d6fc8fb23791bd037ee42082bb635098141b0b6185f1f69c94bea2df74aaf83"
+CONTRACT_SHA256 = "2cf4bca5b0dc130a84bbee61c0769a7a700f0f4f9eeac633d9c0b3c0936a2c76"
 ROOT = Path(__file__).resolve().parents[3]
 TREE = [(2, 4), (2, 5), (3, 6), (4, 7), (5, 8), (6, 9)]
 

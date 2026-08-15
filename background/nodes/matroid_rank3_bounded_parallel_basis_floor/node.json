@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "matroid_rank3_bounded_parallel_basis_floor",
+    "title": "Rank-three matroids with bounded parallel classes have many bases",
+    "status": "PROVED",
+    "closure": "deletion-contraction at a smallest parallel class",
+    "statement": "Let M be a loopless rank-three matroid on m elements whose parallel classes have size at most a. Then 2b(M)>=(m-1)(m-1-a). If a divides m-1 and m-1>=2a, equality is attained by one coloop over a rank-two matroid whose parallel classes all have size a.",
+    "refs": [
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/statement.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/proof.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/claim_contract.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/dependency_subdag.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/attack.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/audit.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/result.md",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/source_contract.json",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/verify.py",
+      "background/nodes/matroid_rank3_bounded_parallel_basis_floor/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap"}
+  ],
+  "refutes": []
+}

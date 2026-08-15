@@ -1,12 +1,13 @@
 # Conditional corank-three projective capacity cut
 
-Assume the uniform propositions
+The uniform corank-two proposition is proved.  Assume only the remaining
+uniform corank-three proposition
 
 ```text
-M_2<=84416263,       M_3<=983902549
+M_3<=983902549.
 ```
 
-for every official corank-two and corank-three chart.  Together with the
+Together with the proved `M_2<=84416263` and the
 complete multi-step shadow hierarchy, they exclude the dominant
 rank-eleven kernel lane on every row
 
@@ -15,6 +16,5 @@ rank-eleven kernel lane on every row
 ```
 
 The exact conditional capacity comparison first reverses at `K'=796599`.
-Both fixed caps are currently proved only under complete shortening.  The
-valid integer-gap envelope is already open at `K'=377674`, so this node is
-not an unconditional kernel payment.
+The corank-three fixed cap is currently proved only under complete
+shortening, so this node remains conditional.

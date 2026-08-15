@@ -58,5 +58,5 @@
     "worker_memory_mb": 256,
     "observed_peak_mb": 59
   },
-  "nonclaim": "This is conditional on uniform corank-two and corank-three caps, neither of which is proved; it does not unconditionally close rows above 377673 or pay either prize."
+  "nonclaim": "This remains conditional only on the uniform corank-three cap; it does not unconditionally close rows above 568338 or pay either prize."
 }

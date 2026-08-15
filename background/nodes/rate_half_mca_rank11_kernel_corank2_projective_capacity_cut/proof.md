@@ -1,6 +1,7 @@
 # Proof
 
-Assume the uniform corank-two record cap `M_2<=84416263`.  For each row
+The parent `rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap`
+proves the uniform record cap `M_2<=84416263`.  For each row
 `K'`, let `x_d` be the residual-normalized number of
 rank-`10-d` incidences, `1<=d<=9`.  Build the inherited individual
 ambient/support caps, replacing the first two record factors by
@@ -42,11 +43,10 @@ and the resulting dual objective equals the primal tree allocation.  Weak
 duality therefore proves exact optimality without either slack shared
 resource.
 
-Conditional on the assumed cap, the pinned exact Modal replay checks this
-primal-dual certificate, all
+The pinned exact Modal replay checks this primal-dual certificate, all
 individual caps, both shared resources, and all 28 hierarchy rows on every
 `K'` in `377674<=K'<=568339`.  All 64 bounded workers and all `190666`
 rows completed.  Demand is strictly above capacity through `568338`; at
 `568339` the sign reverses.  An independent verifier recomputes each pinned
-endpoint from direct tree-path products.  The replay proves the implication;
-it does not prove the uniform cap premise.
+endpoint from direct tree-path products.  Together with the uniform-cap
+parent this proves the stated unconditional interval.

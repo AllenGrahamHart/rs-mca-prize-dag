@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 CONTRACT = Path(__file__).with_name("source_contract.json")
-CONTRACT_SHA256 = "0b6d39208cfe5b077bd34537fee90ccb58860578b281bfbad4d240ee4e62b276"
+CONTRACT_SHA256 = "3136181b886366f3b19a6c2ffeb97dff2d924a34d47855b9897117df52951aa9"
 ROOT = Path(__file__).resolve().parents[3]
 TREE = [(2, 3), (2, 4), (2, 6), (2, 8), (3, 5), (2, 7), (2, 9)]
 
@@ -258,7 +258,7 @@ def validate(data: object, files: bool) -> dict[str, int]:
         require(certificate(kprime, p) == expected, f"certificate {kprime}")
     require(rows[0][1]["signed_gap"] > 0 and rows[1][1]["signed_gap"] > 0, "closed signs")
     require(rows[2][1]["signed_gap"] < 0, "wall sign")
-    require("conditional" in str(data.get("nonclaim")).lower(), "nonclaim")
+    require("proved kernel cut does not" in str(data.get("nonclaim")).lower(), "nonclaim")
     if files:
         verify_result(data, p)
     return {"checked": int(p["checked_rows_including_wall"]), "wall": int(p["first_open_dimension"])}

@@ -1,6 +1,5 @@
 # Result
 
-CONDITIONAL: a uniform corank-two cap of `84416263` would exclude the
-dominant kernel lane through `K'=568338`; its exact conditional resource
-wall is `K'=568339`.  The cap is presently proved only at complete
-shortening.
+**PROVED.**  The uniform corank-two cap `84416263` and the exact hierarchy
+certificate exclude the dominant kernel lane through `K'=568338`; its exact
+resource wall is `K'=568339`.

@@ -3,17 +3,27 @@
   "node": {
     "id": "rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap",
     "title": "Uniform corank-two projective-basis cap",
-    "status": "TARGET",
-    "closure": "requires structure beyond support-local transversality at t>=1",
-    "statement": "Prove or refute that every official rank-eleven kernel corank-two canonical-basis chart has at most 84416263 records. This value is proved only at complete shortening; the current valid integer-gap envelope gives 253238254 at K'=377674.",
+    "status": "PROVED",
+    "closure": "bounded-parallel rank-three basis floor plus exact one-turn endpoint comparison",
+    "statement": "Every official rank-eleven kernel corank-two canonical-basis chart has at most 84416263 records. At shortening gap t, support-local transversality bounds each parallel class by t+1; the rank-three bounded-parallel basis floor gives at least 3*67472*(67473+t) ordered bases per record. The resulting cap has a one-turn ratio and is maximized at the complete endpoint t=0.",
     "refs": [
       "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/statement.md",
-      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/attack.md"
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/proof.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/attack.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/audit.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/result.md",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/verify.py",
+      "background/nodes/rate_half_mca_rank11_kernel_corank2_uniform_projective_basis_cap/verify_audit.py"
     ]
   },
   "requires": [
     {"from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap"},
-    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"}
+    {"from": "rate_half_mca_rank11_kernel_projective_paving_integer_gap_fence"},
+    {"from": "rate_half_mca_support_local_transversality_compiler"},
+    {"from": "matroid_rank3_bounded_parallel_basis_floor"}
   ],
   "alternatives": [],
   "evidence_for": [
