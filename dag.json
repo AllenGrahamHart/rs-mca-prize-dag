@@ -40888,6 +40888,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "title": "Classify every K'=11 rank-eight chart by one fixed circuit",
+   "status": "PROVED",
+   "closure": "codimension-one factorization through nine-point evaluation and exact circuit-shadow matroid counting",
+   "statement": "At K'=11, every fixed rank-eight nine-coordinate component chart in the ten-dimensional correction hyperplane has one fixed circuit C_B of size 2<=c<=9. Circuit size one would turn a fixed-chart coordinate equation into a forbidden residual global-common-support coordinate. Every extending eleven-set has exactly C(11-c,2) rank-eight nine-shadows, 55-C(11-c,2) rank-nine nine-shadows, and c rank-ten bases, while the locator ideal L_(C_B)RS_{<11-c} lies in V'. Every c=2,...,9 is realizable under the local linear-algebra hypotheses, so the next proof must use global incidence or chronology information.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/statement.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/proof.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/attack.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/audit.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/result.md",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/verify.py",
+    "background/nodes/rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
    "title": "The upper rank-eight interval reaches the dense-owner chronology terminal",
    "status": "PROVED",
@@ -77778,6 +77797,11 @@
   },
   {
    "from": "rate_half_mca_rank11_component_ninesubset_target_router",
+   "to": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_component_ninesubset_target_router",
    "to": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
    "kind": "req"
   },
@@ -77894,6 +77918,11 @@
   {
    "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
    "to": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
    "kind": "req"
   },
   {
@@ -78397,6 +78426,11 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
    "from": "rate_half_mca_rank11_rank8_dense_owner_terminal_bridge",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
@@ -78408,6 +78442,11 @@
   },
   {
    "from": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
+   "to": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_fixed_chart_local_cap_fence",
    "to": "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
    "kind": "req"
   },
@@ -78415,6 +78454,11 @@
    "from": "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank8_minimal_shortening_exclusion",
+   "to": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_rank8_owner_pair_weight_cap",
@@ -78574,6 +78618,11 @@
   {
    "from": "rate_half_mca_rank11_shortened_partial_relative_router",
    "to": "rate_half_mca_rank11_global_core_rankdrop_highcomplexity_router",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_shortened_partial_relative_router",
+   "to": "rate_half_mca_rank11_rank8_codimension_one_circuit_shadow_census",
    "kind": "req"
   },
   {
