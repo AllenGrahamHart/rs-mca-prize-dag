@@ -39988,6 +39988,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
+   "title": "Bound sparse circuits selected by a codimension-three quotient plane",
+   "status": "PROVED",
+   "closure": "generalized-MDS completion ceiling, equality-carrier structure, and full-rank deletion double-count",
+   "statement": "For a basepoint-free ten-dimensional V<=F[X]_<13, every rank-ten eleven-set selects one quotient-plane circuit. Three completions of one independent set force every support-at-most-five circuit into a carrier of size at most seven; otherwise every independent set has at most two completions. At m=67485 the resulting per-record cap is 99254447944649683780146155758753837527116020.",
+   "refs": [
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/statement.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/proof.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/attack.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/audit.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/result.md",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/source_contract.json",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify.py",
+    "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap",
    "title": "Bound sparse circuits selected by a codimension-two quotient line",
    "status": "PROVED",
@@ -40357,6 +40376,25 @@
     "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/source_contract.json",
     "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify.py",
     "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "title": "Sparse completion circuits and rank-nine shadows pay K'=13",
+   "status": "PROVED",
+   "closure": "absolute two-corank kernel capacity, high-circuit rank-nine shadows, and codimension-three completion incidence",
+   "statement": "At K'=13, rank-deficient component incidences have absolute capacity 206481189843433295842936213010503229833431068859362597823. Full-rank circuits of size at least six are paid by at least 45 rank-nine shadows, while support-at-most-five circuits satisfy the codimension-three completion cap. Total capacity is below full dense-locator demand by 3617026878762290164882578515067303096680225900459379608374624, closing the row and leaving rank nine on 14<=K'<=15528.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/verify_audit.py"
    ]
   },
   {
@@ -77863,6 +77901,16 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap",
    "to": "rate_half_mca_rank11_k12_quotient_line_circuit_payment",
    "kind": "ev"
@@ -78069,6 +78117,11 @@
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
@@ -78115,6 +78168,11 @@
   {
    "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
    "to": "rate_half_mca_rank11_k12_quotient_line_circuit_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
    "kind": "req"
   },
   {
@@ -78189,6 +78247,11 @@
   },
   {
    "from": "rate_half_mca_rank11_k12_quotient_line_circuit_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
@@ -78529,6 +78592,11 @@
   },
   {
    "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
    "kind": "req"
   },
@@ -78744,6 +78812,11 @@
   },
   {
    "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "to": "rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut",
    "kind": "req"
   },
@@ -78945,6 +79018,11 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
    "to": "rate_half_mca_rank11_k12_quotient_line_circuit_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
    "kind": "req"
   },
   {

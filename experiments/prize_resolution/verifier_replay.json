@@ -8,35 +8,35 @@
   "results": [
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap/verify.py",
-      "seconds": 0.027608,
+      "script": "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify.py",
+      "seconds": 0.029101,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS codimension-two quotient-line sparse circuit cap: total 11868577829520852215896202871552159662636920, largest 10787668542410727707603394807967712004715600, 7/7 hostile mutations\n"
+      "stdout_tail": "PASS codimension-three sparse circuit completion cap: structured 1679076702065233864778823429158845084750, unstructured 99254447944649683780146155758753837527116020, 10/10 hostile mutations\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_codimension_two_quotient_line_sparse_circuit_cap/verify_audit.py",
-      "seconds": 0.31593,
+      "script": "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify_audit.py",
+      "seconds": 0.187323,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS codimension-two quotient-line sparse circuit audit: 8190 Vandermonde subsets, 54 fiber branches\n"
+      "stdout_tail": "PASS codimension-three sparse circuit audit: structured circuits 6, unstructured circuits 3, max completions 2\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify.py",
-      "seconds": 0.026979,
+      "script": "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/verify.py",
+      "seconds": 0.029867,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K12 quotient-line circuit payment primary: kernel 68823412552626461731638254358120971630939282959681665560, chart 9276963034268184, demand 901555241262544083284435178226046105523688795046262319915891531, capacity 873945204333998831582903951502910514268526233054054867526472861, gap 27610036928545251701531226723135591255162561992207452389418670, 11/11 hostile mutations\n"
+      "stdout_tail": "PASS K13 sparse-circuit completion payment primary: kernel 206481189843433295842936213010503229833431068859362597823, chart 9278059895199813, demand 901702217989192688449626641411280218028664942551160634607759137, capacity 898085191110430398284744062896212914931984716650701254999384513, gap 3617026878762290164882578515067303096680225900459379608374624, 13/13 hostile mutations\n"
     },
     {
       "returncode": 0,
-      "script": "background/nodes/rate_half_mca_rank11_k12_quotient_line_circuit_payment/verify_audit.py",
-      "seconds": 0.025682,
+      "script": "background/nodes/rate_half_mca_rank11_k13_sparse_circuit_completion_payment/verify_audit.py",
+      "seconds": 0.03193,
       "status": "PASS",
       "stderr_tail": "",
-      "stdout_tail": "PASS K12 quotient-line circuit payment audit: record cap 16295594, 605 shadow omissions, gap 27610036928545251701531226723135591255162561992207452389418670\n"
+      "stdout_tail": "PASS K13 sparse-circuit completion payment audit: record caps [16295594, 253241283], 605 shadow omissions, gap 3617026878762290164882578515067303096680225900459379608374624\n"
     }
   ],
   "schema": "prize-verifier-replay-v1"

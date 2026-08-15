@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_codimension_three_sparse_circuit_completion_cap",
+    "title": "Bound sparse circuits selected by a codimension-three quotient plane",
+    "status": "PROVED",
+    "closure": "generalized-MDS completion ceiling, equality-carrier structure, and full-rank deletion double-count",
+    "statement": "For a basepoint-free ten-dimensional V<=F[X]_<13, every rank-ten eleven-set selects one quotient-plane circuit. Three completions of one independent set force every support-at-most-five circuit into a carrier of size at most seven; otherwise every independent set has at most two completions. At m=67485 the resulting per-record cap is 99254447944649683780146155758753837527116020.",
+    "refs": [
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/statement.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/proof.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/claim_contract.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/dependency_subdag.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/attack.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/audit.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/result.md",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/source_contract.json",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify.py",
+      "background/nodes/rate_half_mca_codimension_three_sparse_circuit_completion_cap/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment"}
+  ],
+  "refutes": []
+}

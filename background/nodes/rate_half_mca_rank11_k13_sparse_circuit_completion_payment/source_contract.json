@@ -1,0 +1,48 @@
+{
+  "schema": "rate-half-mca-rank11-k13-sparse-circuit-completion-payment-v1",
+  "dependencies": [
+    "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+    "rate_half_mca_rank11_dense_root_highspan_saturation",
+    "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+    "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+    "rate_half_mca_weighted_split_pencil_core_offset_cap",
+    "rate_half_mca_codimension_three_sparse_circuit_completion_cap"
+  ],
+  "parameters": {
+    "K_prime": 13,
+    "n_prime": 1048589,
+    "m_prime": 67485,
+    "correction_dimension": 10,
+    "ambient_RS_dimension": 13,
+    "component_density_numerator": 990810934,
+    "component_density_denominator": 1000000000,
+    "residual_record_floor": 274980728111260126,
+    "kernel_coranks": [1, 2],
+    "kernel_record_caps": [16295594, 253241283],
+    "kernel_extension_factors": [3, 1],
+    "kernel_incidence_terms": [
+      206472009799384011369805333400773555250476811820012697194,
+      9180044049284473130879609729674582954257039349900629
+    ],
+    "kernel_incidence_cap": 206481189843433295842936213010503229833431068859362597823,
+    "rank9_core_sizes": [9, 10, 11, 12],
+    "rank9_core_caps": [9275234985700485, 9276176591408201, 9277118227920090, 9278059895199813],
+    "uniform_rank9_chart_cap": 9278059895199813,
+    "global_rank9_mark_capacity": 39185636591931282842230425296691772390107910022999372047573567671,
+    "high_circuit_threshold": 6,
+    "minimum_high_circuit_rank9_shadows": 45,
+    "high_circuit_incidence_cap": 870791924265139618716231673259817164224620222733319378834968170,
+    "low_circuit_support_ceiling": 5,
+    "low_circuit_per_record_cap": 99254447944649683780146155758753837527116020,
+    "low_circuit_incidence_cap_at_record_floor": 27293060364100936135216546700182740204134660486313016801818520,
+    "total_capacity_at_record_floor": 898085191110430398284744062896212914931984716650701254999384513,
+    "required_incidence_at_record_floor": 901702217989192688449626641411280218028664942551160634607759137,
+    "demand_capacity_gap": 3617026878762290164882578515067303096680225900459379608374624,
+    "raw_demand_capacity_cross": 3617026878762290164882578515067303096680225900459379608374623354883400,
+    "record_coefficient_cross": 3179892509671792384744396543086450191690406044908895900,
+    "newly_closed_rows": [13, 13],
+    "remaining_rank9_interval": [14, 15528]
+  },
+  "claim": "At K'=13, absolute two-corank kernel capacity plus high-circuit rank-nine shadows plus the codimension-three sparse-circuit completion cap is strictly below full dense-locator component demand.",
+  "nonclaim": "No row K'>=14, quotient dimension above three, chronology owner, active-v4 ledger movement, KoalaBear closure, or prize closure is asserted."
+}

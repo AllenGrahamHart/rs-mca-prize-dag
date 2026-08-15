@@ -1,0 +1,18 @@
+# Result
+
+```text
+status:                    PROVED
+newly closed row:          K'=13
+kernel capacity:           206481189843433295842936213010503229833431068859362597823
+rank-nine chart cap:       9278059895199813
+high-circuit capacity:     870791924265139618716231673259817164224620222733319378834968170
+low cap per record:        99254447944649683780146155758753837527116020
+total capacity:            898085191110430398284744062896212914931984716650701254999384513
+required demand:           901702217989192688449626641411280218028664942551160634607759137
+demand-capacity gap:       3617026878762290164882578515067303096680225900459379608374624
+remaining rank nine:       14..15528
+new premise:               none
+```
+
+The first open row now has quotient dimension four.  No codimension-four
+completion theorem is asserted here.

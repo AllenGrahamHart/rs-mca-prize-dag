@@ -1,0 +1,28 @@
+{
+  "schema": "rate-half-mca-codimension-three-sparse-circuit-completion-cap-v1",
+  "dependencies": [],
+  "parameters": {
+    "ambient_polynomial_dimension": 13,
+    "correction_dimension": 10,
+    "quotient_dimension": 3,
+    "component_subset_size": 11,
+    "support_minimum": 2,
+    "support_ceiling": 5,
+    "global_common_zero_count": 0,
+    "completion_ceiling": 3,
+    "unstructured_completion_ceiling": 2,
+    "structured_carrier_ceiling": 7,
+    "official_support_size": 67485,
+    "structured_carrier_cap": 1679076702065233864778823429158845084750,
+    "unstructured_support_terms": {
+      "2": 5393914198807035440605292355341273817780750,
+      "3": 16182222183350848211692342371648018241269500,
+      "4": 32365403583203132433414867600240755619377000,
+      "5": 45312907979288667694433653431523789848688770
+    },
+    "unstructured_completion_cap": 99254447944649683780146155758753837527116020,
+    "per_record_sparse_incidence_cap": 99254447944649683780146155758753837527116020
+  },
+  "claim": "Sparse full-rank eleven-set circuits selected by a codimension-three quotient satisfy the structured-carrier or two-completion cap.",
+  "nonclaim": "No support above five, quotient dimension above three, component-density contradiction, chronology payment, or prize closure is asserted."
+}
