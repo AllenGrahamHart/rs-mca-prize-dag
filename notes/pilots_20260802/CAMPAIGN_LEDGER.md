@@ -6462,6 +6462,7 @@ global_core_direction_distance_router; refreshed, both re-PASS with
 
 Chain: 2400/7097; all four verifiers PASS; census UNCHANGED; manifest
 3418 scripts. No Codex compliance flags; coordinator breaches: zero.
+
 ## WAVE 61 INTEGRATED (2026-08-13, coordinator)
 
 **MERGED exact pin d4bb2f472 (Codex cycles 238-271, +24 nodes / +92
@@ -6504,3 +6505,108 @@ ranks>=12 behind it, full-lift support walls, #1164 queued). One audit
 catch on my own first draft (strict vs non-increasing c_delta
 monotonicity — floors plateau; fixed). Chain: 2425/7190, all PASS,
 census UNCHANGED 231(167/37/27).
+
+## 2026-08-13 LATE — EXPORT DIRECTIVE ISSUED (user-ratified)
+
+Inventory found our best Scott-relevant results are comment-only
+upstream (all 26 threshold notes on #1165 checked: no
+reserve/adapter/witness/rank10 packet; #1161 branch has zero Shape-A
+notes). USER RATIFIED shipping both packages. Directive appended to
+the worker goal file in the v12 worktree (committed): PACKAGE A = new
+PR stacked on #1168 (P1 reserve repricing + guarded K-adapter + typed
+pole-line witness + unguarded-transport regression + the bridge to
+#1168's dense-core owner theorem; #1167 convergence cited neutrally);
+PACKAGE B = wave-61 Shape-A program onto our #1161 branch. GATE:
+Codex leaves branches ready-but-unpushed; coordinator replays and
+pushes. Provenance-window lesson encoded (push public master before
+pinning).
+=======
+>>>>>>> a5ca83bed591a18c560c1477b6029068fd49a968
+
+## WAVE 62 INTEGRATED + PACKAGE A SHIPPED (2026-08-14, coordinator)
+
+**MERGED exact pin a5ca83bed (Codex cycles ~272-314, +27 nodes / +100
+edges, census-neutral 231=167/37/27; 60/60 replayed, zero failures).**
+CONTENT: (1) cycles 272-301 = full-lift/M31 continuation; (2) cycle
+302 = #1168 wall harvested (our import reconciled, its own
+independent derivation reached the SAME optimum 813929118931913384
+pre-sweep — overlap recorded, no duplicate node); (3) cycles 303-314 =
+the RANK-11 ASSAULT along the pre-registered escape: dense-core
+multi-owner fence, shared pair-core payments, order-32 heavy-pair
+compilation, common-support cancellation in rank-11 seeds, degree-18
+restoration, v4 interface routing, fixed-anchor globalization,
+line-global core strengthening, global-core rank-drop payments,
+relative correction-ray payments/routers, ten-flat collapse, absorbing
+clone affine collapse (owner_cap 981105). Rank 11 NOT yet paid;
+residual = evaluation rank-flats + owner chronology/compatibility.
+
+**PACKAGE A GATED AND SHIPPED**: branch
+codex/kb-dense-core-owner-substrate-post-1168 at b4bad8607, staged
+ready-but-unpushed per protocol; coordinator replayed primary +
+independent verifiers under ramguard (PASS; 36015 toy records, 8/8
+mutations upstream), audited the threshold note (scope-honest,
+R1 four-charge identity closes to B_* exactly), pushed to fork,
+**opened PR #1169** stacked on exact #1168 head with the acceptance
+contract framing. Package B (Shape-A -> #1161) not yet staged;
+directive stands.
+
+## WAVE 63 INTEGRATED (2026-08-14 evening, coordinator)
+
+**MERGED exact pin b6f470519 (cycles 315-324, +11 nodes / +26 edges,
+census-neutral 231=167/37/27; 24/24 replayed).** All rank-11: rank-flat
+kernel-shortening router, high-span saturation, component-incidence
+dichotomy, component-star -> owner-pencil router, rank-9 split-pencil
+cell ledger (+ rounding sharpening), pair-core dichotomy, three
+target-concentration nodes, fixed-chart local-cap fence, and the
+capstone OWNER-UNIQUENESS theorem (two owners at deficiency <= 22320
+must agree on K'+22832 points vs the K'-1 RS cap — contradiction gap
+22833; canonical per-record owner key; coordinator hand-checked).
+Residual after the wave: weighted incidences on the concentrated
+charts + deployed first-match order. Package B still unstaged;
+directive stands. Chain: 2463/7316, all PASS.
+
+## WAVE 64 INTEGRATED (2026-08-14 late, coordinator)
+
+**MERGED exact pin 11a8c12ff (cycles 325-330, +12 nodes, census-neutral;
+24/24 replayed).** The rank-11 residual is now an explicit K'-interval
+ledger: rank-9 weighted component target ELIMINATED (3 nodes);
+canonical-basis + multi-basis + record-hybrid kernel capacities (6
+nodes); rank-8 owner-pair capacity + dense-owner terminal bridge. After
+cycle 330 the remaining intervals are K'=10..11772 (rank 8 only),
+11773..22525 (rank 8 + kernel), 22526..37995 (dense-owner chronology +
+kernel), 37996..1048576 (kernel only). Next: couple d=1,2 ambient
+flats to the d>=3 record-support profile. CATCH: conflict markers
+found in the committed ledger (imported from Codex's own merge of our
+master at a5ca83bed) — hand-resolved, content preserved, marker grep
+clean. Package B still unstaged. Chain: 2475/7351, all PASS.
+
+## WAVE 65 INTEGRATED (2026-08-15 morning, coordinator)
+
+**MERGED (worktree at de0e80133 incl. escalation note; cycles 331-346, +28
+nodes, census-neutral; 60/60 replayed; markers clean).** The overnight
+kernel campaign: nine-shadow pricing/coupling across all rank steps
+(331-335), projective pair/basis caps at coranks 1-3 (336-338), a
+projective-paving scope repair (339), two UNIVERSAL matroid cap nodes
+(340-341), and the KERNEL CLOSURE (342: coupled invariant
+M_d(t)*C(S-t,d+1) closes the fixed-kernel branch without coranks 4-9).
+Rank-8: chart fence narrowed, minimal-shortening row closed, K'=11
+circuit-shadow census. HONEST RETRACTION (346): an invalid low-row
+core comparison reopened rank-9 rows K'=10..20617; dependencies
+repaired; K'=37996 boundary unmoved; next = residual-unit
+plane/chronology cap for K'<=20617. PACKAGE B: escalated to BLOCKING
+at next cycle boundary (4 boundaries missed). Chain: 2503/7444, all
+PASS.
+
+## 2026-08-15 UPSTREAM SWEEP: NO HARVEST (task #50)
+
+Full PR + comment sweep. NO new third-party material since #1168
+(2026-08-13 20:26): no new Scott/maelcar PRs, zero comments on #1169
+(Scott quiet ~40h — longest gap since the collaboration went live),
+Przemek main frozen 17 days at 93fba1be. #1170 verified as OURS
+(Codex, 08-14 16:25, standing make-PRs authority — outside the A/B
+gate carve-out, which is correct): packages the rank-11 split-pencil /
+K'=11 circuit closure; spot-audit confirms its chart capacities
+(9274924665987729 / 9275866238180030) match the banked
+rate_half_mca_rank11_k11_circuit_split_pencil_payment node (wave-65
+replayed). Upstream queue now holds 8 of our PRs. Nothing to import;
+census untouched.
