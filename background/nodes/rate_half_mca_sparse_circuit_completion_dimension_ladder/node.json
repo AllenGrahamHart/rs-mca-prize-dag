@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+    "title": "Bound sparse quotient circuits in every dimension on the K'=14..21 ladder",
+    "status": "PROVED",
+    "closure": "generalized-MDS completion ceiling, equality-carrier structure, and full-rank deletion count",
+    "statement": "Let V<=F[X]_<K have dimension ten, empty common zero set, and quotient dimension q=K-10. For support c<=5, q completions of one independent deletion force every sparse circuit into one carrier of size at most q+4; otherwise each deletion has at most q-1 completions and the exact deletion count applies. This holds in particular for every official row K'=14..21.",
+    "refs": [
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/statement.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/proof.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/claim_contract.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/dependency_subdag.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/attack.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/audit.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/result.md",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/source_contract.json",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify.py",
+      "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment"}
+  ],
+  "refutes": []
+}

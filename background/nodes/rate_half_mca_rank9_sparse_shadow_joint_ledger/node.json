@@ -1,0 +1,28 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+    "title": "Jointly charge sparse and high circuits to rank-nine shadows",
+    "status": "PROVED",
+    "closure": "exact circuit-shadow multiplicities and one shared rank-nine mark budget",
+    "statement": "A support-c circuit in a rank-ten eleven-set creates q_c=55-C(11-c,2) rank-nine shadows. If all rank-nine marks have capacity G, high circuits create at least 45 marks, and one record has low-support caps L_c, then complete full-rank incidence is at most floor((G+R*sum_(c=2)^5(45-q_c)L_c)/45). For alternative recordwise low-cap vectors, take the maximum premium before multiplying by R.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/statement.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/proof.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/claim_contract.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/attack.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/audit.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/result.md",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/source_contract.json",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify.py",
+      "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify_audit.py"
+    ]
+  },
+  "requires": [],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment"}
+  ],
+  "refutes": []
+}

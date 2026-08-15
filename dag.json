@@ -40398,6 +40398,25 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "title": "Joint sparse-shadow capacity pays K'=14..21",
+   "status": "PROVED",
+   "closure": "absolute all-corank kernel capacity, complete core-offset scan, completion vectors, and joint rank-nine shadow ledger",
+   "statement": "For every residual row 14<=K'<=21, complete rank-deficient capacity plus the joint full-rank sparse/high circuit capacity is strictly below dense-locator component demand. The smallest gap is 205305519860193617784849691734671763401656917434567909452790 at K'=21. Thus no rank-eleven component target remains on K'=10..21, and the rank-nine interval begins at K'=22. The identical payment first fails at K'=22.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/statement.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/proof.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/attack.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/audit.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/result.md",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify.py",
+    "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "title": "Canonical rank bases globalize every fixed kernel chart",
    "status": "PROVED",
@@ -41370,6 +41389,44 @@
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/source_contract.json",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify.py",
     "background/nodes/rate_half_mca_rank11_shortened_partial_relative_router/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "title": "Jointly charge sparse and high circuits to rank-nine shadows",
+   "status": "PROVED",
+   "closure": "exact circuit-shadow multiplicities and one shared rank-nine mark budget",
+   "statement": "A support-c circuit in a rank-ten eleven-set creates q_c=55-C(11-c,2) rank-nine shadows. If all rank-nine marks have capacity G, high circuits create at least 45 marks, and one record has low-support caps L_c, then complete full-rank incidence is at most floor((G+R*sum_(c=2)^5(45-q_c)L_c)/45). For alternative recordwise low-cap vectors, take the maximum premium before multiplying by R.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/statement.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/proof.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/claim_contract.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/attack.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/audit.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/result.md",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/source_contract.json",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify.py",
+    "background/nodes/rate_half_mca_rank9_sparse_shadow_joint_ledger/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "title": "Bound sparse quotient circuits in every dimension on the K'=14..21 ladder",
+   "status": "PROVED",
+   "closure": "generalized-MDS completion ceiling, equality-carrier structure, and full-rank deletion count",
+   "statement": "Let V<=F[X]_<K have dimension ten, empty common zero set, and quotient dimension q=K-10. For support c<=5, q completions of one independent deletion force every sparse circuit into one carrier of size at most q+4; otherwise each deletion has at most q-1 completions and the exact deletion count applies. This holds in particular for every official row K'=14..21.",
+   "refs": [
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/statement.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/proof.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/claim_contract.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/dependency_subdag.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/attack.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/audit.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/result.md",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/source_contract.json",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify.py",
+    "background/nodes/rate_half_mca_sparse_circuit_completion_dimension_ladder/verify_audit.py"
    ]
   },
   {
@@ -78122,6 +78179,11 @@
   },
   {
    "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy",
    "to": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "kind": "req"
   },
@@ -78173,6 +78235,11 @@
   {
    "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
    "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_dense_root_highspan_saturation",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "kind": "req"
   },
   {
@@ -78252,6 +78319,11 @@
   },
   {
    "from": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
   },
@@ -78597,6 +78669,11 @@
   },
   {
    "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut",
    "to": "rate_half_mca_rank11_kernel_multibasis_capacity_cut",
    "kind": "req"
   },
@@ -78817,6 +78894,11 @@
   },
   {
    "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut",
    "to": "rate_half_mca_rank11_rank9_exact_petal_partition_capacity_cut",
    "kind": "req"
   },
@@ -78956,6 +79038,26 @@
    "kind": "req"
   },
   {
+   "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank9_sparse_shadow_joint_ledger",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_sparse_circuit_completion_dimension_ladder",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+   "kind": "req"
+  },
+  {
    "from": "rate_half_mca_support_local_error_rank_router",
    "to": "rate_half_mca_rank11_large_shared_pair_core_payment",
    "kind": "req"
@@ -79023,6 +79125,11 @@
   {
    "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
    "to": "rate_half_mca_rank11_k13_sparse_circuit_completion_payment",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_weighted_split_pencil_core_offset_cap",
+   "to": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
    "kind": "req"
   },
   {

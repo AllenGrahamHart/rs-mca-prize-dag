@@ -1,0 +1,36 @@
+{
+  "schema": "prize-dag-node-v1",
+  "node": {
+    "id": "rate_half_mca_rank11_k14_k21_sparse_shadow_payment",
+    "title": "Joint sparse-shadow capacity pays K'=14..21",
+    "status": "PROVED",
+    "closure": "absolute all-corank kernel capacity, complete core-offset scan, completion vectors, and joint rank-nine shadow ledger",
+    "statement": "For every residual row 14<=K'<=21, complete rank-deficient capacity plus the joint full-rank sparse/high circuit capacity is strictly below dense-locator component demand. The smallest gap is 205305519860193617784849691734671763401656917434567909452790 at K'=21. Thus no rank-eleven component target remains on K'=10..21, and the rank-nine interval begins at K'=22. The identical payment first fails at K'=22.",
+    "refs": [
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/statement.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/proof.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/claim_contract.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/dependency_subdag.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/attack.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/audit.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/result.md",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/source_contract.json",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify.py",
+      "background/nodes/rate_half_mca_rank11_k14_k21_sparse_shadow_payment/verify_audit.py"
+    ]
+  },
+  "requires": [
+    {"from": "rate_half_mca_rank11_dense_locator_component_incidence_dichotomy"},
+    {"from": "rate_half_mca_rank11_dense_root_highspan_saturation"},
+    {"from": "rate_half_mca_rank11_kernel_rankstratified_capacity_cut"},
+    {"from": "rate_half_mca_rank11_rank9_residual_petal_capacity_cut"},
+    {"from": "rate_half_mca_weighted_split_pencil_core_offset_cap"},
+    {"from": "rate_half_mca_sparse_circuit_completion_dimension_ladder"},
+    {"from": "rate_half_mca_rank9_sparse_shadow_joint_ledger"}
+  ],
+  "alternatives": [],
+  "evidence_for": [
+    {"to": "rate_half_band_crossing_location"}
+  ],
+  "refutes": []
+}

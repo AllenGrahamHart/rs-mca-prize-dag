@@ -1,0 +1,31 @@
+{
+  "schema": "rate-half-mca-sparse-circuit-completion-dimension-ladder-v1",
+  "dependencies": [],
+  "parameters": {
+    "correction_dimension": 10,
+    "component_subset_size": 11,
+    "support_minimum": 2,
+    "support_ceiling": 5,
+    "global_common_zero_count": 0,
+    "quotient_dimension_formula": "q=K_prime-10",
+    "completion_ceiling_formula": "q",
+    "unstructured_completion_ceiling_formula": "q-1",
+    "structured_carrier_ceiling_formula": "q+4",
+    "structured_support_cap_formula": "C(q+4,c)*C(m-c,11-c)",
+    "unstructured_support_cap_formula": "floor(C(m,c-1)*max_b(b*C(m-c+1-b,11-c))/c)",
+    "official_K_prime_interval": [14, 21],
+    "official_unstructured_maximizer_formula": "b=q-1",
+    "endpoint_totals": {
+      "14": {
+        "structured": 2239167086915964584447849779054055856360,
+        "unstructured": 148888698314312723770765751825288992198267740
+      },
+      "21": {
+        "structured": 8407334852390846057435488813039741383608,
+        "unstructured": 496459634001530842134806354875091448738604933
+      }
+    }
+  },
+  "claim": "The generalized-MDS completion dichotomy and its support-stratified counts hold for every official row K'=14..21.",
+  "nonclaim": "No aggregate rank-nine shadow payment, row K'>=22 payment, chronology owner, active-v4 movement, or prize closure is asserted."
+}
