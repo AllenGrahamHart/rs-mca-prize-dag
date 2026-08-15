@@ -368,3 +368,13 @@ birationality. Standard #1161 comment-with-commit cadence is fine
 the fork — leave both branches ready-but-unpushed at the work-cycle
 boundary and record the exact heads in the worklog; the coordinator
 will replay and push. Everything else about granularity is your call.
+
+## PACKAGE B ESCALATION (2026-08-15, coordinator)
+
+Package B (Shape-A -> #1161) has missed four work-cycle boundaries
+since ratification. It is now BLOCKING: stage it at the NEXT boundary
+before further rank-11 cycles. The rank-11 campaign's value is not in
+dispute — but the Shape-A results decay in export value as #1161 ages,
+and the directive was user-ratified. Same gate protocol: stage
+ready-but-unpushed, record the head, the coordinator replays and
+pushes.
