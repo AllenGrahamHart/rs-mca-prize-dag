@@ -40284,6 +40284,44 @@
    ]
   },
   {
+   "id": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+   "title": "Projective normal bases cut the corank-two record cap",
+   "status": "PROVED",
+   "closure": "exact noncollinear projective-triple incidence count",
+   "statement": "In the complete shortened corank-two chart (n,K,m,s)=(1048578,2,67474,2), support-local transversality makes the incident normals distinct projective points in PG(2), while pair noncontainment makes them noncollinear. Every record therefore owns at least 13657614768 ordered independent coordinate triples, so there are at most 84416263 records.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_basis_cap/verify_audit.py"
+   ]
+  },
+  {
+   "id": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "title": "Projective bases remove the kernel through 568338",
+   "status": "PROVED",
+   "closure": "exact two-root hierarchy-tree primal-dual certificate with complete finite Modal replay",
+   "statement": "The projective corank-one and corank-two caps, all remaining individual caps, and the multi-step shadow hierarchy exclude the dominant rank-eleven kernel lane for 377674<=K'<=568338. The comparison reverses at K'=568339.",
+   "refs": [
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/statement.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/proof.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/claim_contract.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/dependency_subdag.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/attack.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/audit.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/result.md",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/source_contract.json",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/verify.py",
+    "background/nodes/rate_half_mca_rank11_kernel_corank2_projective_capacity_cut/verify_audit.py"
+   ]
+  },
+  {
    "id": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
    "title": "Ambient/record hybrid capacity removes kernel through 11772",
    "status": "PROVED",
@@ -77618,6 +77656,11 @@
   },
   {
    "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_canonical_basis_globalizer",
    "to": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
    "kind": "req"
   },
@@ -77640,6 +77683,21 @@
    "from": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
    "to": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
    "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "to": "rate_half_band_crossing_location",
+   "kind": "ev"
   },
   {
    "from": "rate_half_mca_rank11_kernel_hybrid_capacity_cut",
@@ -77674,6 +77732,11 @@
   {
    "from": "rate_half_mca_rank11_kernel_multibasis_decoration_compression",
    "to": "rate_half_mca_rank11_kernel_record_support_capacity",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_multistep_shadow_hierarchy",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
    "kind": "req"
   },
   {
@@ -77755,6 +77818,11 @@
    "from": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
    "to": "rate_half_band_crossing_location",
    "kind": "ev"
+  },
+  {
+   "from": "rate_half_mca_rank11_kernel_projective_pair_capacity_cut",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_capacity_cut",
+   "kind": "req"
   },
   {
    "from": "rate_half_mca_rank11_kernel_rank8_nineshadow_capacity_cut",
@@ -78069,6 +78137,11 @@
   {
    "from": "rate_half_mca_support_local_transversality_compiler",
    "to": "rate_half_mca_rank11_kernel_corank1_projective_pair_cap",
+   "kind": "req"
+  },
+  {
+   "from": "rate_half_mca_support_local_transversality_compiler",
+   "to": "rate_half_mca_rank11_kernel_corank2_projective_basis_cap",
    "kind": "req"
   },
   {
